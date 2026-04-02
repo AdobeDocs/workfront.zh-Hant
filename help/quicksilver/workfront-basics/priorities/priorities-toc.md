@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 26f13890-5d79-44b6-9cf8-70ef05e4564d
-source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
+source-git-commit: a56441276fbc508a81d5331874580385ceb8812f
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '99'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 * [開始使用優先順序](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)
 * [在優先順序中檢視專案和工作專案詳細資訊](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)
-* [在「優先順序」中篩選及分組您的工作](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
+* [使用「優先順序」篩選、分組及排序您的工作](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
 * [自訂「優先順序」工作清單欄](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
 * [排定重要工作專案的優先順序](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)
 * [在優先順序中建立任務和問題](/help/quicksilver/workfront-basics/priorities/create-task-issue-priorities.md)

@@ -8,10 +8,12 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 2%
+source-wordcount: '1441'
+ht-degree: 3%
 
 ---
 
@@ -21,13 +23,9 @@ ht-degree: 2%
 Remove production and preview references at release
 -->
 
-<!--
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
--->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 您可以檢視您或其他人提交的請求，或檢視您已開始但從未完成提交的請求。 未完成的請求會儲存為草稿。
 
@@ -45,7 +43,7 @@ Remove production and preview references at release
   >
   >* 您只能檢視自己的草稿要求。
   >* 在新的請求體驗中，提交的請求和草稿可在相同清單中找到。
-  >* 在舊版體驗中建立的草稿不會出現在新的請求體驗中。
+  >* 在舊版體驗中建立的草稿不會顯示在新的請求體驗中。
 
 ## 存取權要求
 
@@ -90,6 +88,10 @@ Remove production and preview references at release
 
 ## 在請求區域中檢視已提交的請求
 
+您可以在「請求」區域或「首頁」的「我的請求」Widget中檢視已提交的請求。
+
+如需我的請求的詳細資訊，請參閱[使用我的請求Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。
+
 檢視已提交的請求會因您使用新請求體驗或舊請求體驗而有所不同。
 
 * [在新的請求體驗中檢視已提交的請求](#view-submitted-requests-in-the-new-requesting-experience)
@@ -102,23 +104,15 @@ Remove production and preview references at release
 >* 如果您有Workfront Planning，您的Workfront和Planning請求會出現在相同的清單中。 Workfront要求會在`Issue`物件型別&#x200B;**欄中顯示值**。
 >* 依預設，在請求區域的清單中會顯示最多50個請求。 若要檢視更多請求，請捲動至清單底部。
 
-您可以在「請求」區域中檢視已提交的請求，其中包含生產環境<!--, or links to records created by Planning requests or <span objects converted from Workfront issues in the Preview environment-->中Adobe Workfront Planning請求所建立記錄的連結。
+您可以在「請求」區域和「首頁」的「我的請求」Widget中檢視已提交的請求。
 
 >[!NOTE]
 >
->建立物件的連結只有在請求本身建立記錄時，才能用於新請求體驗，以進行Planning請求。
+>當您啟用新的請求體驗時，下列物件擁有來自「請求」區域和「我的請求」Widget中請求清單的連結：
 >
->如果Workfront請求轉換為專案或其他物件，則指向該轉換物件的連結在新請求體驗的請求清單中無法使用。
-
-<!--
-replace the note above with this at release: 
->[!NOTE]
->
->Links to created objects are available in the new requesting experience only for Planning requests in the Production environment, in cases where the request itself created a record. 
->
->If a Workfront request is converted to a project or other object, a link to that converted object is not available in the request list in the new requesting experience in the Production environment.
-><span class="preview">In the Preview environment, you can access both Workfront objects converted from Workfront requests and Planning records created from Planning requests from the Requests area list.</span>
--->
+>* 主旨欄位中的規劃與Workfront要求。
+>* 從「建立的物件」欄位中的Planning請求建立的Planning記錄。
+>* 在預覽環境的物件建立欄位中，<span class="preview">從Workfront請求轉換而來的Workfront任務和問題。</span>
 
 若要檢視您或其他使用者在新請求體驗中提交的請求：
 
@@ -135,13 +129,13 @@ replace the note above with this at release:
    * 篩選器
    * 欄
 
-   <!--
    <div class="preview">
-      * Group
-   * Format cells
-   * Row height
-      </div>
-   -->
+
+   * 群組
+   * 設定儲存格格式
+   * 列高
+
+   </div>
 
    如需管理請求清單中資訊的詳細資訊，請參閱[使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
 
@@ -292,7 +286,8 @@ replace the note above with this at release:
 
 1. 按一下&#x200B;**草稿**&#x200B;以檢視所有草擬的請求。 Workfront會針對此資料夾中的每個請求佇列儲存不限數量的草稿。 當您為已有草稿的佇列主題輸入新請求時，系統會提示您使用現有的草稿。 如需詳細資訊，請參閱[從草稿建立請求](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)。
 
-   <!--Planning tab has been removed and no longer visible in legacy Requests area: 
+   <!--
+   Planning tab has been removed and no longer visible in legacy Requests area: 
    (Optional and conditional) If your organization purchased a Workfront Planning package, click the **Planning** tab, then click **Submitted** in the left panel to view Workfront Planning requests. 
       Use **Filters** and **Columns** to update the information in the Planning request list. 
       ![Planning tab submitted section in Requests area](assets/workfront-planning-tab-submitted-section-in-requests-area.png)

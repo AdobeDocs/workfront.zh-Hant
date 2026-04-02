@@ -6,9 +6,11 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: ddf10844646a79c43accaffa1789caf24290cc8a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '3568'
+source-wordcount: '3602'
 ht-degree: 1%
 
 ---
@@ -105,7 +107,7 @@ ht-degree: 1%
 
 ### 開始建立請求表單
 
-您可以從與表單<!--span class="preview">, or from the Requests area of Workfront.</span>-->關聯的記錄型別建立請求表單。
+您可以從與表單<!--<span class="preview"> or from the Requests area of Workfront</span>-->關聯的記錄型別建立請求表單。
 
 #### 從記錄型別建立請求表單
 
@@ -161,8 +163,6 @@ ht-degree: 1%
    The request form for the selected record type opens in the Form tab.
 1. Continue to [Set up details for the request form](#set-up-details-for-the-request-form).
 
-
-
 </div>
 
 -->
@@ -185,7 +185,7 @@ ht-degree: 1%
 
    或
 
-   在[要求表單]清單上找出要求表單，按一下表單名稱旁的方塊，然後按一下畫面底部藍色列中的[編輯表單]。**&#x200B;**
+   在[要求表單]清單上找出要求表單，按一下表單名稱旁的方塊，然後按一下畫面底部藍色列中的[編輯表單]。****
 
    所選記錄型別的請求表單會在「表單」標籤中開啟。
 
@@ -333,7 +333,7 @@ ht-degree: 1%
    無法重新排序預設規則。
 
 1. （選擇性）若要刪除路由規則，請按一下規則右側的&#x200B;**X**。
-1. 按一下[儲存]儲存核准規則。**&#x200B;**
+1. 按一下[儲存]儲存核准規則。****
 1. 繼續[設定要求完成選項](#set-request-completion-options)
 
 #### 設定請求完成選項
@@ -414,7 +414,19 @@ For information on creating automations in other areas of Workfront Planning, se
 
 1. 按一下頁面標頭中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**管理請求表單**。
 
-   與記錄型別相關的所有請求表單都會顯示在表格檢視中。
+   **請求表單**&#x200B;頁面隨即開啟，所有與記錄型別相關的請求表單都會顯示在表格檢視中。
+1. （選擇性）更新&#x200B;**要求表單**&#x200B;頁面中的下列檢視元素，以變更資訊在表格中的顯示方式：
+
+   * 欄
+
+   <!--
+   <div class="preview">
+   * Grouping <!-ensure they will change the label by Prod->
+   * Row height
+   </div>
+   -->
+
+   如需詳細資訊，請參閱[管理清單檢視](/help/quicksilver/planning/views/manage-the-list-view.md)。
 
 1. （選擇性）暫留在表格檢視中的要求表單名稱上，然後按一下表單名稱右側的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下下列其中一項：
 
@@ -423,6 +435,8 @@ For information on creating automations in other areas of Workfront Planning, se
    * **共用**：按一下此以修改誰可以存取表單。
    * **複製連結**：按一下此以快速複製要求表單的連結，而不開啟表單。
    * **刪除**：按一下以刪除表單。 使用表單新增的所有請求和記錄都不會刪除。 無法復原表單。
+
+   <!--update screen shot at preview:-->
 
    從請求表單清單中請求表單上的![更多功能表](assets/more-menu-on-request-form-from-request-forms-list.png)
 

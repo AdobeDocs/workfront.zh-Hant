@@ -6,9 +6,11 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
-source-git-commit: ce3ca4d55fd3fe0630da4961f27159fe5e31612a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1777'
+source-wordcount: '1790'
 ht-degree: 3%
 
 ---
@@ -59,6 +61,7 @@ ht-degree: 3%
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
    <td><p>標準</p>
+   <p>系統管理員有權根據欄位值變更設定自動化</p>
    </td> 
   </tr> 
   <tr> 
@@ -74,7 +77,8 @@ ht-degree: 3%
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -131,7 +135,8 @@ ht-degree: 3%
    </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## 在Workfront Planning中設定自動化
 
@@ -247,7 +252,7 @@ ht-degree: 3%
         這是必填欄位。
 
         <!--submitted a change in functionality and UI text for this - revise??-->
-在&#x200B;**對應欄位**&#x200B;區域中，更新下列資訊：
+在**對應欄位**&#x200B;區域中，更新下列資訊：
 
          * **傳輸自**：從建立自動化的記錄型別中選取欄位，以將它們對應到連線記錄型別的欄位。
          * **傳輸至**：從新建立的記錄中選取欄位，這些欄位會填入您執行自動化之記錄中的資訊。

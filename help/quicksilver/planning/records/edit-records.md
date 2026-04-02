@@ -6,9 +6,11 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '2961'
+source-wordcount: '2978'
 ht-degree: 0%
 
 ---
@@ -69,7 +71,8 @@ ht-degree: 0%
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -122,7 +125,8 @@ ht-degree: 0%
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>  <p>Contribute or higher permissions to a workspace and record type </a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
-  </tr> -->
+  </tr>
+  -->
 
 ## 編輯記錄的相關考量事項
 
@@ -187,6 +191,8 @@ ht-degree: 0%
 1. （視條件而定）按一下表格檢視的索引標籤，或按一下&#x200B;**+檢視**&#x200B;以建立表格檢視。 表格檢視應該是預設檢視，除非您上次存取記錄型別時，已在其他型別的檢視中檢視該記錄型別。
 
    與所選記錄型別相關聯的記錄會顯示在表格檢視中。
+1. （選擇性）按一下搜尋方塊並新增關鍵字，以尋找您要編輯的記錄。
+
 1. 在記錄列內按一下，開始編輯有關內嵌記錄的資訊。
 
    ![使用格式化表格檢視編輯記錄段落欄位](assets/edit-record-paragraph-field-with-formatting-table-view.png)
@@ -436,7 +442,7 @@ ht-degree: 0%
 1. 移至記錄型別頁面並開啟表格檢視。
 1. 新增您要在表格檢視中新增選擇的單一或多重選取欄位作為新欄。 如需詳細資訊，請參閱[建立欄位](/help/quicksilver/planning/fields/create-fields.md)。
 1. 連按兩下欄位的儲存格，開始內嵌編輯欄位。
-1. 輸入您要新增的選擇名稱，然後按一下[新增選擇]。**&#x200B;**
+1. 輸入您要新增的選擇名稱，然後按一下[新增選擇]。****
 
    ![在表格檢視中的單一選取欄位中新增選項](assets/add-choice-in-table-view-for-single-select-field.png)
 

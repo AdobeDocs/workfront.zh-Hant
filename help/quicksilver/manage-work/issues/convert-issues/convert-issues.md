@@ -8,10 +8,12 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1497'
-ht-degree: 2%
+source-wordcount: '1541'
+ht-degree: 3%
 
 ---
 
@@ -31,7 +33,7 @@ ht-degree: 2%
 * 您的Workfront管理員或群組管理員已設定問題、其解決方案的偏好設定，以及主要連絡人在將其轉換為專案或任務時的存取權，如[設定系統範圍任務和問題偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)中所述。
 * Workfront會移除轉換期間與問題相關聯的任何核准。
 * 當您將其轉換為任務或專案時，Workfront會覆寫問題的解決物件。 新任務或問題在轉換後會成為問題的新解決物件。
-* 請考量下列事項：
+* 考慮以下事項：
 
    * 在轉換期間，系統可能會詢問您是否要保持問題及其解決方案與您正在建立的專案或任務繫結。
    * 如果您保留問題，專案、任務或問題發生任何變更或Workfront重新計算時間表時，專案或任務的狀態和完成百分比會自動更新問題的狀態和完成百分比。
@@ -56,7 +58,7 @@ ht-degree: 2%
 * 轉換問題時有5分鐘的處理限制。 如果問題附加了大量檔案且無法轉換，您可能需要移除部分檔案，然後重試。
 * 如果您決定將問題保留在轉換中並且附加了檔案，則檔案及其版本會複製到專案或任務中。 校訂和檔案核准不會複製到專案或任務。
 * 如果您決定不將問題保留在轉換中，而其中包含附加的檔案、檔案、其版本和校樣會傳輸到專案或任務。 檔案核准將不會傳輸到專案或任務。
-* 如果您有來自協力廠商服務(例如Google Drive)的檔案和資料夾連結至原始問題，則無論您是否於轉換期間保留問題，這些連結都會複製到新物件。
+* 如果您有來自協力廠商服務（例如Google Drive）的檔案和資料夾連結至原始問題，則無論您是否於轉換期間保留問題，這些連結都會複製到新物件。
 * 問題註解也會複製到從問題轉換的任務或專案，但標籤的使用者不會轉移。
 * 如果您想要將自訂表單資訊從問題中傳輸至您要將其轉換為的專案或任務，請確保您有專案或任務自訂表單，其中包含您要從問題中傳輸的相同欄位。 如需詳細資訊，請參閱轉換物件時[傳輸自訂表單資料](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)。
 
@@ -113,7 +115,7 @@ ht-degree: 2%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>產品組合</td> 
+   <td>專案組合</td> 
    <td>從範本傳輸。 否則，此欄位為空白。</td> 
   </tr> 
   <tr> 
@@ -154,7 +156,7 @@ ht-degree: 2%
    <td>從範本轉移。 </td> 
   </tr> 
   <tr> 
-   <td>存取</td> 
+   <td>存取權</td> 
    <td> <p>從範本的「存取」區段轉移。 </p> </td> 
   </tr> 
   <tr> 
@@ -164,7 +166,8 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-<!--WRITER
+<!--
+WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Convert an issue to a project</h2> 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: moved to its own article)</p>
@@ -256,3 +259,12 @@ ht-degree: 2%
 >[!CAUTION]
 >
 >如果問題的主要聯絡人變更，或在問題轉換後問題從專案或任務中解除連結，則轉換的問題建立者名稱不會更新，並在問題轉換時顯示問題的原始主要聯絡人。
+
+## 從請求清單檢視原始問題和轉換的物件
+
+您可以在請求區域中檢視原始問題和轉換的物件，並在首頁中的我的請求Widget 。
+
+如需詳細資訊，請參閱下列文章：
+
+* [檢視已提交的請求](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)
+* [使用我的請求Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)

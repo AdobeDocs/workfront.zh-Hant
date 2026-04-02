@@ -5,9 +5,11 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '803'
 ht-degree: 0%
 
 ---
@@ -38,7 +40,7 @@ ht-degree: 0%
 
 僅適用於啟用IMS的執行個體。
 
-如需詳細資訊，請參閱[篩選並群組您的優先順序](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)。
+如需詳細資訊，請參閱[篩選、群組及排序您的優先順序](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)。
 
 ## 在優先順序中趕上工作
 
@@ -118,7 +120,7 @@ ht-degree: 0%
 * 排序群組內的專案
 * 依「我的優先順序」或「狀態」分組時拖放專案
 
-如需詳細資訊，請參閱[篩選並群組您的優先順序](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)。
+如需詳細資訊，請參閱[篩選、群組及排序您的優先順序](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)。
 
 ### 已移除
 

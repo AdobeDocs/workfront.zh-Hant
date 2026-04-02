@@ -6,9 +6,11 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
-source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1524'
 ht-degree: 0%
 
 ---
@@ -105,7 +107,7 @@ ht-degree: 0%
 
    * Workfront必須將AI助理提供給您的組織使用。
 
-     如需詳細資訊，請參閱[&#x200B; AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
+     如需詳細資訊，請參閱[ AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
    * Workfront讓您的AI助理可以使用後，Workfront的主要管理員就可以存取它。
 
      如需詳細資訊，請參閱[設定您系統的基本資訊](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md)。
@@ -180,7 +182,7 @@ ht-degree: 0%
 
    ![Design with AI按鈕（在Workspaces頁面上）](assets/design-with-ai-button-on-workspaces-page.png)
 
-1. 按一下&#x200B;**使用AI建立**。<!--update this when they change it to Generate with AI-->
+1. 按一下&#x200B;**使用AI建立**&#x200B;或按一下&#x200B;**建立工作區**，然後使用頂端的提示視窗來指示您要建立哪種工作區。<!--update this when they change it to Generate with AI-->
 
    **計畫Designer**&#x200B;視窗隨即開啟。<!--remove the Beta tag here when this removes from Beta-->
 

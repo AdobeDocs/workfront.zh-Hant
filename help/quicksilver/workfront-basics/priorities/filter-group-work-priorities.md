@@ -1,27 +1,27 @@
 ---
 navigation-topic: get-started-with-workfront
-title: 使用優先順序篩選及分組您的工作
+title: 使用優先順序篩選、分組和排序您的工作
 description: 您可以使用篩選器來尋找您要尋找的工作，然後套用分組，讓工作保持井然有序。
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
+source-git-commit: a56441276fbc508a81d5331874580385ceb8812f
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 4%
+source-wordcount: '653'
+ht-degree: 7%
 
 ---
 
-# 使用優先順序篩選及分組您的工作
+# 使用「優先順序」篩選、分組及排序您的工作
 
 您可以使用篩選器來尋找您要尋找的工作，然後套用分組以使其保持井然有序。
 
 優先順序顯示指派給您的工作專案。 您無法在「優先順序」工作清單中看到指派給您團隊的工作專案。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -32,7 +32,7 @@ ht-degree: 4%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront套件</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront 封裝</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -64,7 +64,7 @@ ht-degree: 4%
 {{step1-to-priorities}}
 
 1. 按一下工作清單左上角的&#x200B;**篩選器**。
-1. 在&#x200B;**標準篩選器**&#x200B;區段中，選取一或多個篩選器以縮小您的工作專案範圍。
+1. 在&#x200B;**標準篩選器**區段中，選取一或多個篩選器以縮小您的工作專案範圍。
    ![篩選](assets/filter-new.png)
 
 +++展開以檢視有關可用篩選器的詳細資訊
@@ -173,7 +173,7 @@ ht-degree: 4%
 按「我的優先順序」或「狀態」分組時，您可以在類別之間拖放個別工作專案。
 
 1. 依&#x200B;**狀態**&#x200B;或&#x200B;**我的優先順序**&#x200B;將您的工作分組。
-2. 將滑鼠停留在工作專案上，按一下&#x200B;**拖曳**&#x200B;圖示並將其移至所需類別。
+2. 將滑鼠停留在工作專案上，按一下&#x200B;**拖曳**圖示並將其移至所需類別。
    ![拖曳圖示](assets/drag-and-drop.png)
 
 ## 排序您的工作

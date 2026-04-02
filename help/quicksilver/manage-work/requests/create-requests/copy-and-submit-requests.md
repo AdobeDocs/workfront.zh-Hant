@@ -6,9 +6,11 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
 workflow-type: tm+mt
-source-wordcount: '1529'
+source-wordcount: '1615'
 ht-degree: 3%
 
 ---
@@ -28,7 +30,9 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 封裝</td> 
-   <td> <p>任何 </p> </td> 
+   <td> <p>任何Workfront或Workflow套件</p>
+
+<p>要複製和提交Planning請求的任何Workfront Planning套件 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
@@ -44,10 +48,12 @@ ht-degree: 3%
    <td role="rowheader">物件許可權</td> 
    <td><p>將請求新增至請求佇列的存取權</p> <p>檢視現有請求或更高的許可權</p> <p>如需設定要求佇列的資訊，請參閱<a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">建立要求佇列</a>。 </p> </td> 
   </tr>
+  <!--
   <tr> 
-   <td role="rowheader"> 產品</td> 
-   <td> <ul><li>Adobe Workfront</li><li>您必須安裝Adobe Workfront Planning才能檢視Planning請求或請求表單</td> 
+   <td role="rowheader"> Product</td> 
+   <td> <ul><li>Adobe Workfront</li><li>You must have Adobe Workfront Planning to view Planning requests or request forms</td> 
   </tr> 
+  -->
  </tbody> 
 </table>
 
@@ -58,6 +64,11 @@ ht-degree: 3%
 ## 先決條件
 
 您必須要求您或您組織內的某人先前已提交，才能複製並重新提交。 如果請求屬於其他人，您必須至少具有「檢視」存取權，才能複製並提交為新請求。
+
+您可以複製並重新提交下列其中一種請求型態：
+
+* Workfront請求，已提交至請求佇列
+* 如果您的公司已購買Planning套件，則會將Workfront計畫請求提交至Planning請求表單。
 
 ## 複製和提交請求為新請求的考量事項
 
@@ -92,7 +103,51 @@ ht-degree: 3%
   >
   >複製的請求未連結到解析物件。
 
+## 在新的請求體驗中複製並提交請求
+
+您可以在Workfront的「請求」區域中，或從「首頁」的「我的請求」小工具中複製並提交請求。
+
+1. 執行下列其中一項：
+
+   {{step1-to-requests}}
+
+   1. 若要存取&#x200B;**首頁**&#x200B;中的&#x200B;**我的請求** Widget：
+
+   {{step1-to-home}}
+
+   1. 找到&#x200B;**我的請求** Widget。
+
+      如需有關「我的請求」Widget的詳細資訊，請參閱[使用「我的請求」Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。
+
+1. 在&#x200B;**請求**&#x200B;清單或首頁的&#x200B;**我的請求** Widget中，將游標移至您要複製的請求上，然後按一下其名稱旁邊的&#x200B;**更多**&#x200B;功能表。
+
+   ![更多功能表](assets/more-menu.png)
+
+1. 按一下&#x200B;**複製**
+
+   或
+
+   以滑鼠右鍵按一下選取的請求，然後按一下&#x200B;**複製**。
+
+   >[!TIP]
+   >
+   >當您無權建立問題時，您會收到一則警告，指出管理員限制您建立請求。
+
+1. （選用）更新所複製請求的任何資訊。 可用欄位取決於用於請求的「請求佇列」或「請求表單」。
+
+   當您在複製的請求中輸入或變更任何欄位值時，它會儲存為草稿。
+
+1. 按一下&#x200B;**提交**。
+
+   複製的請求會以新請求的形式提交。
+
+   解析原始請求的物件不會複製。
+
+   當您複製並重新提交「計畫」請求時，它會針對與原始請求表單相關的記錄型態，建立另一筆記錄。
+
 ## 在舊版請求體驗中複製並提交請求
+
+如果貴公司已購買Workfront Planning套件，您將無法在舊版請求體驗中複製並提交Planning請求。
 
 {{step1-to-requests}}
 
@@ -222,42 +277,6 @@ ht-degree: 3%
 
    複製的請求會在您指定的請求佇列中作為新請求提交。
 
-## 在新的請求體驗中複製並提交請求
 
-您可以在Workfront的「請求」區域中，或從「首頁」的「我的請求」小工具中複製並提交請求。
-
-1. 執行下列其中一項：
-
-   {{step1-to-requests}}
-
-   1. 若要存取&#x200B;**首頁**&#x200B;中的&#x200B;**我的請求** Widget：
-
-   {{step1-to-home}}
-
-   1. 找到&#x200B;**我的請求** Widget。
-
-      如需有關「我的請求」Widget的詳細資訊，請參閱[使用「我的請求」Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)。
-
-1. 在&#x200B;**請求**&#x200B;清單或首頁的&#x200B;**我的請求** Widget中，將游標移至您要複製的請求上，然後按一下其名稱旁邊的&#x200B;**更多**&#x200B;功能表。
-
-   ![更多功能表](assets/more-menu.png)
-
-1. 按一下&#x200B;**複製**
-
-   或
-
-   以滑鼠右鍵按一下選取的請求，然後按一下&#x200B;**複製**。
-
-   >[!TIP]
-   >
-   >當您無權建立問題時，您會收到一則警告，指出管理員限制您建立請求。
-
-1. （選用）更新所複製請求的任何資訊。 可用欄位取決於用於請求的「請求佇列」或「請求表單」。
-
-   當您在複製的請求中輸入或變更任何欄位值時，它會儲存為草稿。
-
-1. 按一下&#x200B;**提交**。
-
-   複製的請求會以新請求的形式提交。
 
 

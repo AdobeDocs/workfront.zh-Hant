@@ -6,14 +6,22 @@ description: 您可以在「我的請求」Widget中提交請求。 您也可以
 author: Alina, Courtney
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-source-git-commit: a9cc76139c0f542e4b27e8e3591a40bf626342f4
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 2%
+source-wordcount: '777'
+ht-degree: 3%
 
 ---
 
 # 使用我的請求Widget
+
+<!--remove Preview and Production references at Production release April 15, 2026-->
+
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 >[!IMPORTANT]
 >
@@ -57,7 +65,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>[!UICONTROL 檢視]對您在對話中被標籤或需要解決核准的專案、任務、問題和檔案的許可權或更高</p> </td> 
+   <td> <p>[！UICONTROL檢視]對您在對話中被標籤或需要解決核准的專案、任務、問題和檔案的許可權或更高</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,7 +78,7 @@ ht-degree: 2%
 
 您可以直接從「我的請求」Widget建立請求。
 
-如需指示，請參閱文章[從首頁區域建立工作專案和專案](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md/#create-a-request)中的[建立請求](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)一節。
+如需指示，請參閱文章[從首頁區域建立工作專案和專案](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request)中的[建立請求](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)一節。
 
 ## 複製請求
 
@@ -81,6 +89,7 @@ ht-degree: 2%
 ## 管理我的請求Widget中請求清單的資訊
 
 <!--
+This is similar to what we document in Enhanced lists, so we will link to that to avoid documentation duplication:
 The My Requests widget features a customizable filter that allows you to control which requests appear in the widget. You can configure this filter for different fields and values, and can stack conditions using AND and OR operators.
 
 To configure the filter in the My Requests widget:
@@ -88,24 +97,25 @@ To configure the filter in the My Requests widget:
 
 1. 按一下左上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表圖示](assets/lines-main-menu.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
 1. （視條件而定）將&#x200B;**我的請求** Widget新增至您的主畫面。 按一下&#x200B;**自訂**，找到&#x200B;**我的要求**，然後按一下它以將其新增到&#x200B;**首頁**。
-1. （選擇性）若要管理資訊在請求清單中的顯示方式，請更新清單的下列檢視元素：
+1. （選擇性）若要管理資訊在請求清單中的顯示方式，請建立或更新清單的下列檢視元素：
 
    * 檢視
    * 篩選器
    * 欄
 
-   <!--
    <div class="preview">
-      * Group
-   * Format cells
-   * Row height
-      </div>
-   -->
 
-   如需管理請求清單中資訊的詳細資訊，請參閱[使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
+   * 群組
+   * 設定儲存格格式
+   * 列高
+
+   </div>
+
+   如需更新要求清單中檢視元素的詳細資訊，請參閱[使用增強式清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
 
 
-<!-- Removed all these sections because this is common to ALL the Glists/ enhanced lists. So, we will update that article with all the specific steps: 
+<!--
+ Removed all these sections because this is common to ALL the Glists/ enhanced lists. So, we will update that article with all the specific steps: 
 1. Select the field that you want to filter by. Available options are:
 
    * Workspace
@@ -120,10 +130,7 @@ To configure the filter in the My Requests widget:
 1. (Conditional) If a field appears to the right of the operator, select the value that you want to filter by.
 1. (Optional) To add another filter condition, click **Add condition** and repeat steps 4-6.
 1. (Optional and conditional) If you have multiple conditions, switch the And or Or value by clicking **And** or **Or** to the left of the condition.
-
-
 The filter is saved automatically.
-
 -->
 
 >[!TIP]
@@ -134,6 +141,8 @@ The filter is saved automatically.
 >* 若要僅篩選Workfront Planning請求，請將篩選設定為&#x200B;**物件型別** > **沒有** > **問題**。
 
 <!--
+
+Use enhanced lists and other requests articles describe all of these:
 
 ## Adjust or add columns
 
@@ -185,7 +194,7 @@ Consider the following when working with views in the My Requests widget:
 
 若要在「我的請求」小工具中搜尋特定請求：
 
-1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
+1. 按一下左上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表圖示](assets/lines-main-menu.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
 1. （視條件而定）將&#x200B;**我的請求** Widget新增至您的主畫面。 按一下&#x200B;**自訂**，找到&#x200B;**我的要求**，然後按一下它以將其新增到&#x200B;**首頁**。
 1. 在「我的請求」Widget右上角附近的搜尋列中，輸入您要搜尋的字詞。
 
@@ -199,12 +208,25 @@ Consider the following when working with views in the My Requests widget:
 
 >[!NOTE]
 >
->建立物件的連結僅適用於Planning請求的新請求體驗，當請求本身建立了物件時。 如果Workfront請求轉換為專案或其他物件，則指向該轉換物件的連結在新請求體驗的請求清單中無法使用。
+>當您在「請求」區域中啟用新請求體驗時，以下物件擁有來自「我的請求」小工具中請求清單的連結：
+>
+>* 主旨欄位中的規劃與Workfront要求。
+>* 從「建立的物件」欄位中的Planning請求建立的Planning記錄。
+>* 在預覽環境的物件建立欄位中，<span class="preview">從Workfront要求轉換而來的Workfront任務和問題。</span>
 
-1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
+1. 按一下左上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表圖示](assets/lines-main-menu.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
 1. （視條件而定）將&#x200B;**我的請求** Widget新增至您的主畫面。 按一下&#x200B;**自訂**，找到&#x200B;**我的要求**，然後按一下它以將其新增到&#x200B;**首頁**。
 1. 找出建立物件的請求。
 1. 按一下該要求的&#x200B;**已建立物件**&#x200B;欄中的物件名稱。
 
    物件的頁面隨即開啟。
+
+   >[!TIP]
+   >
+   >在生產環境中，只有Planning記錄在&#x200B;**建立的物件**&#x200B;欄位中有連結。
+   >   
+   ><span class="preview">在預覽環境中，從問題轉換而來的Workfront任務和專案，以及從Planning要求建立的Planning記錄，在&#x200B;**建立的物件**&#x200B;欄位中有連結。</span>
+   >
+
+
 
