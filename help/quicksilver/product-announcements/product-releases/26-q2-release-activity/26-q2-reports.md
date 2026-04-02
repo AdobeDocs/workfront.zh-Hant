@@ -5,9 +5,11 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
-source-git-commit: ed4b03429a479797854a0cae08f9191a25eebc13
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 64ee7798e79324af0ab48af91f49d04d94ece3a9
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
@@ -17,6 +19,38 @@ ht-degree: 0%
 本頁說明2026年第二季度版本中針對「預覽」環境所進行的報告增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2026年第二季發行週期目前可用的所有變更清單，請參閱[2026年第二季發行概觀](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+
+## 以畫布儀表板中的特定使用者身分執行報表
+
+>[!NOTE]
+>
+>預覽： 2026年4月2日
+>生產快速發行： 2026年4月15日
+>每個人都能使用生產： 2026年4月16日
+>
+>畫布儀表板目前是測試版。
+
+您現在可以在畫布控制面板上設定報表，以特定使用者身分執行。 啟用後，報表會根據所選使用者的存取許可權顯示資料，而非檢視者的許可權。
+
+即使存取Planning工作區、記錄型別或授權設定不同，這也能確保儀表板檢視器間的資料更加一致和可靠。
+
+如需詳細資訊，請參閱[在畫布儀表板中建立KPI報告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)、[在畫布儀表板中建立圖表報告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)或[在畫布儀表板中建立表格報告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)。
+
+## 排程報告傳送現在支援連結型電子郵件
+
+>[!NOTE]
+>
+>預覽： 2026年4月2日
+>生產快速發行： 2026年4月15日
+>每個人都能使用生產： 2026年4月16日
+
+Workfront現在包含排程報告的新連結傳送型別。 此選項不會產生和附加檔案，而是會傳送一封電子郵件，其中包含指向Workfront中報告的直接連結，以允許收件者檢視應用程式中的最新資料。
+
+「連結」選項現在成為新建立排程報告傳送規則的預設傳送型別，而現有檔案型格式（HTML、PDF、Excel和TSV）仍可使用。
+
+透過這項變更，我們還更新了報告傳送電子郵件的外觀。
+
+如需詳細資訊，請參閱[排程自動報告傳遞](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md)。
 
 ## 資料連線連線的新驗證選項
 

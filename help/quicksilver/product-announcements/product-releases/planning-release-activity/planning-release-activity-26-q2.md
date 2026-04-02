@@ -7,9 +7,11 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
-source-git-commit: fa4d8132cecd51b93f26c28803535a84bebad137
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 64ee7798e79324af0ab48af91f49d04d94ece3a9
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1882'
 ht-degree: 0%
 
 ---
@@ -21,6 +23,138 @@ ht-degree: 0%
 <!--keep the sentence below for all future quarterly release pages-->
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+
+## 新增增加清單檢視的列高的功能
+
+>[!NOTE]
+>
+>預覽： 2026年4月2日
+>生產快速發行： 2026年4月15日
+>每個人都能使用生產： 2026年4月16日
+
+我們已新增設定，以在清單檢視中調整列高。
+
+如需詳細資訊，請參閱管理清單檢視(help/quicksilver/planning/views/manage-the-list-view.md)。
+
+如需詳細資訊，請參閱[管理清單檢視](/help/quicksilver/planning/views/manage-the-list-view.md)。
+
+## 新增記錄型別名稱和檢檢視示到公開共用的檢視
+
+>[!NOTE]
+>
+>預覽： 2026年4月2日
+>生產快速發行： 2026年4月15日
+>每個人都能使用生產： 2026年4月16日
+
+為確保收件者一律瞭解在開啟記錄型別的公開共用連結時收到什麼檢視，我們已將記錄型別的名稱新增至共用檢視頁面，以及檢檢視示和檢視名稱。
+
+如需詳細資訊，請參閱[共用檢視](/help/quicksilver/planning/access/share-views.md)
+
+## 請求表單清單新增了分組功能
+
+>[!NOTE]
+>
+>預覽： 2026年4月2日
+>生產快速發行： 2026年4月15日
+>每個人都能使用生產： 2026年4月16日
+
+為協助您更好地組織資訊，我們新增了在記錄型別的「請求表單」頁面中將專案分組的功能。
+
+在此增強功能之前，此區域中不存在此功能。
+
+如需詳細資訊，請參閱[管理清單檢視](/help/quicksilver/planning/views/manage-the-list-view.md)。
+
+## 展開共用實體清單以顯示使用者
+
+>[!NOTE]
+>
+>預覽： 2026年4月2日
+>生產快速發行： 2026年4月15日
+>每個人都能使用生產： 2026年4月16日
+
+您現在可以展開群組、團隊、公司和角色，以便在共用工作區或檢視時檢視其成員。 在此增強功能之前，成員資格清單只有在共用記錄型別時才可供這些物件使用。
+
+如需詳細資訊，請參閱[共用工作區](/help/quicksilver/planning/access/share-workspaces.md)。
+
+## 適用於Workfront Planning實作的多重工作區最佳作法範本
+
+>[!NOTE]
+>
+>預覽： 2026年4月2日
+>生產快速發行： 2026年4月15日
+>每個人都能使用生產： 2026年4月16日
+
+我們將推出範本套件，協助您簡化組織中Workfront Planning的實作。 透過安裝最佳實務架構範本，您可以建立最多六個工作區，其中包含您在Workfront中開始移動策略規劃時所需的所有資訊。
+
+多工作區範本包含建立核心記錄型別的全域範本，您可以在建立的任何自訂工作區中使用這些型別。 此外，範本包含5個以上的工作區，您可將其當做範例使用，並相互連結以及與Workfront中的其他物件相互連結。
+
+如需詳細資訊，請參閱[建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md)。
+
+>[!NOTE]
+>
+> 此增強功能僅適用於擁有Prime或更新套件的客戶。
+
+## 從任何Workfront Planning頁面搜尋Workfront Planning物件
+
+>[!NOTE]
+>
+>預覽： 2026年4月2日
+>生產快速發行： 2026年4月15日
+>每個人都能使用生產： 2026年4月16日
+
+現在，您可以使用任何Planning頁面的下列鍵組合，從Workfront Planning中的任何頁面搜尋工作區、記錄型別或檢視：
+
+* Windows版CTRL+K
+* 適用於Mac的⌘+K
+
+您也可以從新增至Planning登陸頁面的新搜尋方塊搜尋工作區、記錄型別或檢視。
+
+如需詳細資訊，請參閱[編輯工作區](/help/quicksilver/planning/architecture/edit-workspaces.md)。
+
+## 套用其他條件式格式至記錄所連線頁面中的專案清單
+
+>[!NOTE]
+>
+>預覽： 2026年4月2日
+>生產快速發行： 2026年4月15日
+>每個人都能使用生產： 2026年4月16日
+
+您現在可以將其他條件式格式套用至記錄所連線頁面中的專案清單。
+
+新的條件式格式功能包含下列專案：
+
+* 新增顏色至文字
+
+* 在儲存格中將文字設為粗體或斜體
+
+* 將條件式格式套用至整列的功能
+
+在此增強功能之前，只有新增顏色至儲存格背景的功能存在。
+
+如需詳細資訊，請參閱[管理清單檢視](/help/quicksilver/planning/views/manage-the-list-view.md)。
+
+## 在清單檢視中新增篩選器的個人化名稱
+
+>[!NOTE]
+>
+>預覽： 2026年4月2日
+>生產快速發行： 2026年4月15日
+>每個人都能使用生產： 2026年4月16日
+
+我們在清單檢視中為團隊、群組、公司和角色篩選器新增了以下個人化名稱：
+
+* 我的主團隊，我的團隊
+
+* 我的主群組，我的群組
+
+* 我的主要角色，我的角色
+
+* 我的公司
+
+欄位必須存在於檢視中顯示的物件上，才能顯示篩選選項。
+
+如需詳細資訊，請參閱[管理清單檢視](/help/quicksilver/planning/views/manage-the-list-view.md)。
 
 ## 階層連結重新設計
 

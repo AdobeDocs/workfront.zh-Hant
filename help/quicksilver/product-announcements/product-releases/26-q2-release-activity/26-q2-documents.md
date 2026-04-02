@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: 34f367e1bd1aa0c75433f2f59baf4efc1284e61b
+source-git-commit: b334e8b234c9c87dd1b1ecd26df6645b3381ffb0
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -20,12 +20,44 @@ ht-degree: 0%
 
 如需2026年第二季發行週期目前可用的所有變更清單，請參閱[2026年第二季發行概觀](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
 
-## 由Workfront和Frame.io提供支援的統一檢閱和核准
+## 啟用GenStudio基礎布建以支援AI共同作業人員
 
+>[!NOTE]
+>
+>預覽： 2026年3月31日
+>生產快速發行： 2026年3月31日
+>適用於所有人的生產： 2026年3月31日
+
+在2026年3月31日，所有Workfront客戶都已布建GenStudio Foundation，而Admin Console系統管理員將會收到通知這項新增功能的電子郵件。 此產品僅供布建之用，以便Workfront客戶可視AI共同作業人員發行之需要，將存取權授予Workfront客戶。 產品本身只是品牌的存取機制，GenStudio Foundation產品中沒有其他功能。
+
+客戶不需支付這項新產品的費用。
+
+## 我的核准Widget更新
+
+>[!NOTE]
+>
+>預覽： 2026年4月2日
+>生產快速發行： 2026年4月15日
+>每個人都能使用生產： 2026年4月16日
+
+我們已將下列增強功能新增至「首頁」的「我的核准」小工具：
+
+* 依最舊優先或最新優先排序核准清單
+* 展開Widget至全熒幕
+
+如需詳細資訊，請參閱[使用我的核准Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-approvals-widget.md)管理您的核准。
+
+## 由Workfront和Frame.io提供支援的統一檢閱和核准
 
 >[!IMPORTANT]
 >
 >這項新功能可在續約時提供給新客戶和現有客戶。
+
+>[!NOTE]
+>
+>預覽： 2026年3月12日
+>生產快速發行： 2026年4月15日
+>每個人都能使用生產： 2026年4月16日
 
 
 我們很高興推出由Workfront和Frame.io提供支援的統一檢閱和核准，這是簡化的檢閱和核准體驗。
