@@ -127,7 +127,7 @@ financial management的增強功能包括：
   >* 若要新增自訂表單至費率卡和工作角色，需使用Workflow Ultimate套件。
   >* 所有Workfront和Workflow套件上的組織都可將自訂表單新增至團隊。
 
-* 貨幣格式欄位上的&#x200B;**財務許可權型別**設定，僅允許具有特定許可權設定的使用者存取其存取層級
+* 貨幣格式欄位上的&#x200B;**財務許可權型別**&#x200B;設定，僅允許具有特定許可權設定的使用者存取其存取層級
 如需詳細資訊，請參閱[限制存取自訂欄位中的財務資料](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md)。
 
   >[!NOTE]
