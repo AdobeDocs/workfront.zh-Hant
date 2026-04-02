@@ -5,14 +5,17 @@ title: 使用我的核准Widget管理您的核准
 description: 「我的核准」Widget會集中顯示您所有擱置中、已指派、已委派及已提交的核准。 在這裡，您可以依需求篩選及組織核准、做出決定及委派核准。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 4981d9adb2cae53e30f13aa2a7aa6857befbf3ca
+exl-id: 276a33f5-92de-440c-ae3a-8cd01731434f
+source-git-commit: 30e27ba5a12733660a88cd7e9643bea868503774
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 5%
+source-wordcount: '431'
+ht-degree: 8%
 
 ---
 
 # 使用我的核准Widget管理您的核准
+
+{{highlighted-preview}}
 
 「我的核准」Widget會集中顯示您所有擱置中、已指派、已委派及已提交的核准。 在這裡，您可以依需求篩選及組織核准、做出決定及委派核准。
 
@@ -26,16 +29,16 @@ ht-degree: 5%
 * 計畫記錄請求
 * 時程表
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -70,16 +73,23 @@ ht-degree: 5%
    >指派給工作角色或群組的核准未顯示在首頁中。 指派給團隊的核准會顯示在每個團隊成員的「我的核准」小工具中。
 
 
+1. <span class="preview"> （條件式）按一下&#x200B;**排序**&#x200B;下拉式功能表，然後選取&#x200B;**最新優先**&#x200B;以檢視最近新增的核准。</span>
+
+
+1. <span class="preview">（選擇性）按一下全熒幕圖示![全熒幕圖示](assets/full-screen.png)以全熒幕開啟「我的核准」Widget。</span>
+
 1. 選取您要進行核准決定的專案。
 
    ![我的核准Widget](assets/my-approvals-widget.png)
+
+   <!--update screenshot after production release-->
 
 1. 在右側面板中作出核准決定時，按一下其中一個可用選項。 下列選項會根據您核准的專案型別，顯示在頁面的右上角：
 
    <table>
    <tr>
       <td>
-      <p><strong>存取</strong></p>
+      <p><strong>存取權</strong></p>
       </td>
       <td>
       <p><strong>工作專案</strong></p>
