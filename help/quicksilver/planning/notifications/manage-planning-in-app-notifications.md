@@ -6,7 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 1%
@@ -24,7 +26,7 @@ ht-degree: 1%
 
   如需有關在記錄註解中標籤其他人的資訊，請參閱[管理記錄註解](/help/quicksilver/planning/records/manage-record-comments.md)。
 * 有人要求您存取檢視或工作區<!--<span class="preview">or record</span>-->的許可權
-* 有人確認已授予您檢視或工作區的存取權<!--<span class="preview">or record</span>--> <!--Isk confirmed there is no notification for denying permissions - did not test-->
+* 有人確認已授予您檢視或工作區的存取權<!--<span class="preview">or record</span> Isk confirmed there is no notification for denying permissions - did not test-->
 
 ## 存取權要求
 

@@ -8,7 +8,9 @@ author: Becky and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 1%
@@ -47,9 +49,11 @@ ht-degree: 1%
   ![標示為完成按鈕](assets/nwe-mark-as-done-button-350x122.png)
 
 
-<!--If you are not the only one assigned to the task or issue and you are accessing your work item from the My Work widget in the Home area, the button changes to Done with my part.
+<!--
+If you are not the only one assigned to the task or issue and you are accessing your work item from the My Work widget in the Home area, the button changes to Done with my part.
 
-  ![Home left Done with my part button](assets/home-left-done-with-my-part-button-350x184.png)-->
+  ![Home left Done with my part button](assets/home-left-done-with-my-part-button-350x184.png)
+  -->
 
 ## 找到處理它的工作並完成按鈕 {#locate-the-work-on-it-and-done-button}
 

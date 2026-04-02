@@ -5,7 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2799'
 ht-degree: 0%
@@ -435,7 +437,8 @@ ht-degree: 0%
                         </ul>
                     </td>
                 </tr>                
- <!--               <tr>
+ <!--
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Improved experience when moving a document to a linked folder with drag and drop</a></p> 
                         <p>We've added some transparency to the process of dragging and dropping a document into a linked folder. Now, the document that you moved to a linked folder remains in the document list until it has fully moved. The document options are disabled, but you can still open the document for view while it is moving. When the document has completed the transfer, it disappears from the document list, because it is now fully located in the linked folder. </p>
@@ -450,7 +453,8 @@ ht-degree: 0%
                             </li>
                         </ul>
                     </td>
-                </tr>-->
+                </tr>
+                -->
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">建立專案時自動建立連結到Adobe Experience Manager Assets的資料夾</a></p>
@@ -762,7 +766,7 @@ Workfront Goals將在23.3發行時間範圍內發行的新功能。 如需這些
 
 針對API版本16，我們已修改一些資源和端點。 有些變更支援新功能，有些則讓您更輕鬆地透過API使用可用資訊。
 
-如需新增和更新的詳細資訊，請參閱[&#x200B; API 16](/help/quicksilver/wf-api/api/new-api-version-16.md)版的新增功能。
+如需新增和更新的詳細資訊，請參閱[ API 16](/help/quicksilver/wf-api/api/new-api-version-16.md)版的新增功能。
 
 如需API版本的資訊，請參閱[API版本設定與支援排程](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
 
@@ -780,12 +784,13 @@ Workfront Goals將在23.3發行時間範圍內發行的新功能。 如需這些
 
 #### 23.10版（2023年10月）淘汰校訂行動應用程式
 
-我們將在23.10版（2023年10月）中正式淘汰Proof行動應用程式。 一般Workfront行動應用程式已透過新校訂功能增強(如需詳細資訊，請參閱Workfront行動增強功能下的發行說明)，建議使用者儘快開始使用以進行校訂工作。
+我們將在23.10版（2023年10月）中正式淘汰Proof行動應用程式。 一般Workfront行動應用程式已透過新校訂功能增強（如需詳細資訊，請參閱Workfront行動增強功能下的發行說明），建議使用者儘快開始使用以進行校訂工作。
 
 請注意，Workfront行動應用程式需要Workfront登入。 外部使用者和訪客可以繼續使用校訂應用程式進行校訂工作；但是，它不再受支援，並將在23.10版（2023年10月）中無法使用。
 
 
-<!-- HTML you might need
+<!--
+ HTML you might need
 
 New table
 

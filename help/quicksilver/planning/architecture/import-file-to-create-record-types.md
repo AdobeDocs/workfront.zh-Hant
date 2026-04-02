@@ -6,7 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 1%
@@ -61,7 +63,8 @@ ht-degree: 1%
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -117,7 +120,8 @@ ht-degree: 1%
   </tr> 
  
 </tbody> 
-</table>-->
+</table>
+-->
 
 
 ## 有關使用Excel或CSV檔案匯入記錄型別的考量事項
@@ -195,7 +199,7 @@ ht-degree: 1%
 
 1. （視條件而定）更新欄位相關資訊後，按一下&#x200B;**儲存**。
 
-1. 當您準備好匯入您的檔案時，請按一下[匯入]。**&#x200B;**
+1. 當您準備好匯入您的檔案時，請按一下[匯入]。****
 
    下列資訊會匯入Workfront Planning中：
 

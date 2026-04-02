@@ -6,17 +6,20 @@ description: 資源集區是使用者的集合，可協助您管理Adobe Workfro
 author: Lisa
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '601'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
 # 將資源集區與專案和範本建立關聯
 
 
-<!-- drafted for bulk editing projects: keep this in yellow till this releases to ALL customers - May 1, 2023
+<!--
+ drafted for bulk editing projects: keep this in yellow till this releases to ALL customers - May 1, 2023
 
 Also - take out all the references to Preview and Prod at prod final
 -->
@@ -39,16 +42,16 @@ Also - take out all the references to Preview and Prod at prod final
 
 如需有關建立資源集區的資訊，請參閱[建立資源集區](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 

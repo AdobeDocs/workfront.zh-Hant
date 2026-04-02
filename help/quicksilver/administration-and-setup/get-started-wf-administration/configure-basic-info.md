@@ -8,10 +8,12 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '805'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -23,9 +25,9 @@ ht-degree: 2%
 
 在設定Adobe Workfront系統時，您可以在客戶資訊頁面的「基本資訊」區段中管理有關組織的詳細資訊。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -74,7 +76,7 @@ ht-degree: 2%
 
    * **IP允許清單**
 
-     如需將IP位址新增至您的允許清單(您的使用者可存取Workfront)的相關資訊，請參閱[設定防火牆的允許清單](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
+     如需將IP位址新增至您的允許清單（您的使用者可存取Workfront）的相關資訊，請參閱[設定防火牆的允許清單](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
 
    * **電子郵件允許清單**
 
@@ -83,7 +85,8 @@ ht-degree: 2%
    <!--
    * **License**
 
-     For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).-->
+     For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+     -->
 
 ## 設定基本資訊 {#configure-basic-info}
 
@@ -102,7 +105,7 @@ ht-degree: 2%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">姓名</td> 
+      <td role="rowheader">名稱</td> 
       <td>組織名稱，也會符合公司的名稱。 此專案由Workfront新增，無法編輯。</td> 
      </tr> 
      <tr> 
@@ -133,7 +136,7 @@ ht-degree: 2%
       <td role="rowheader">儲存配額</td> 
       <td> <p>這是您的Workfront執行個體中可用的檔案儲存空間量。<br>配額包含您直接上傳至Workfront的檔案。<br>它不包含：</p> 
        <ul> 
-        <li>檔案會從任何其他第三方服務提供者(SharePoint、Google Drive、Webdam、Box、Dropbox、任何其他檔案資產管理提供者)連結至Workfront。</li> 
+        <li>檔案會從任何其他第三方服務提供者（SharePoint、Google Drive、Webdam、Box、Dropbox、任何其他檔案資產管理提供者）連結至Workfront。</li> 
         <li>您的Workfront資料（專案、任務、問題、使用者等）。</li> 
        </ul> </td> 
      </tr>

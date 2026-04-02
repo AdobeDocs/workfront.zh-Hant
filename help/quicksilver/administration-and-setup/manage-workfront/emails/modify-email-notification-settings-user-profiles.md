@@ -9,7 +9,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 4%
@@ -62,7 +64,7 @@ ht-degree: 4%
 
 {{step-1-to-users}}
 
-1. 選取使用者，然後按一下[編輯]。**&#x200B;**
+1. 選取使用者，然後按一下[編輯]。****
 1. 在出現的&#x200B;**編輯人員**&#x200B;方塊中，按一下&#x200B;**通知**。
 
 1. 展開類別以檢視與該類別相關的通知設定。

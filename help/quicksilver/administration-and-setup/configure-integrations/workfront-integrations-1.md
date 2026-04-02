@@ -9,14 +9,16 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 2ca2361ee96c3940f1f4073274386262f76725ff
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1252'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# [!DNL Adobe Workfront]整合
+# [!DNL Adobe Workfront] 整合
 
 <!--Audited: 12/2023-->
 
@@ -127,8 +129,8 @@ ht-degree: 0%
      <li>Premiere Pro </li>
      <li>After Effects </li>
      </ul>
-     <li><p>從<a href="https://exchange.adobe.com/apps/browse/cc?page=1&product=All&q=workfront&sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>下載/安裝。</p></li></ul>
-     <p>如需資訊與指示，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">為[!DNL Adobe Workfront]應用程式安裝[!DNL Creative Cloud]外掛程式</a></p> 
+     <li><p>從<a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>下載/安裝。</p></li></ul>
+     <p>如需資訊與指示，請參閱<a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">為[!DNL Adobe Workfront]應用程式安裝[!DNL Creative Cloud]外掛程式</a></p> 
      </td>  <td> </td> 
    <td> </td> 
   </tr> 
@@ -171,7 +173,8 @@ ht-degree: 0%
    <td> </td> 
    <td> </td> 
   </tr> 
-  <!--<tr> 
+  <!--
+  <tr> 
    <td>[!DNL Microsoft] Calendars ([!DNL Office 365] / [!DNL Outlook Live])</td> 
    <td> 
     <ul> 
@@ -180,7 +183,8 @@ ht-degree: 0%
     </ul> <p><b>NOTE</b>: The [!UICONTROL Outlook] calendar configuration is completely separate from the [!DNL Outlook] Add-in ([!DNL Outlook] Integration or [!DNL Workfront for Outlook]). There's no installation required to configure the calendar.</p></td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
-  </tr> -->
+  </tr>
+  -->
   <tr> 
    <td> <p>[!DNL Microsoft OneDrive]</p> <p> <img src="assets/microsoft-onedrive.png"> </p> </td> 
    <td> 
@@ -190,7 +194,8 @@ ht-degree: 0%
    <td> </td> 
    <td> </td> 
   </tr> 
-  <!--<tr> 
+  <!--
+  <tr> 
    <td> <p>[!DNL Microsoft Outlook]</p> <p> <img src="assets/outlook.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
@@ -209,7 +214,8 @@ ht-degree: 0%
    <td> 
     <ul> 
      <li>[!DNL Workfront] administrator </li> 
-    </ul> </td>--> 
+    </ul> </td>
+    -->
   </tr> 
   <tr> 
    <td> <p>[!DNL Microsoft Teams]</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p> </td> 
@@ -279,7 +285,7 @@ ht-degree: 0%
 
   [!DNL Adobe Workfront Fusion]連結應用程式和服務內部及之間的動作，以建立自動傳輸和轉換資料的情境。 它擁有可連線許多應用程式的專用聯結器，但可以使用公用API連線至任何應用程式。
 
-  如需詳細資訊，請參閱[[!DNL Adobe Workfront Fusion] 總覽](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+  如需詳細資訊，請參閱[[!DNL Adobe Workfront Fusion] 總覽](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan] （需要[!DNL Workfront Fusion]）

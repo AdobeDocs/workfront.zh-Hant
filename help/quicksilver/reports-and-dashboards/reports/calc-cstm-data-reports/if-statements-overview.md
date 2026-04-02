@@ -7,7 +7,9 @@ description: 您可以在一般程式語言中使用「IF」陳述式。 在Adob
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 0%
@@ -57,7 +59,7 @@ ht-degree: 0%
 
 * **條件運運算元** =這是協助您建置「IF」陳述式條件的運運算元。 例如，「等於」或「大於」是條件運運算元。 如需可在陳述式中使用的條件運運算元清單，請參閱計算自訂運算式中的[條件運運算元](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)。
 
-* **True**&#x200B;**Expression** =這是「True」變數，它告訴方程式當滿足條件的條件時，要顯示哪個指標（true指標）。
+* **True****Expression** =這是「True」變數，它告訴方程式當滿足條件的條件時，要顯示哪個指標（true指標）。
 
 * **False運算式** =這是「False」變數，它告訴方程式當條件條件條件不符時要顯示哪個指標（false指標）。
 

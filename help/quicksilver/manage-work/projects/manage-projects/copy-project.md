@@ -7,7 +7,9 @@ author: Alina
 feature: Projects, Work Management
 role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 93db334537b5ec12dc0c77d51f8b2d83d8348f3d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 7%
@@ -46,7 +48,7 @@ ht-degree: 7%
 >* 佇列設定資訊
 >* Portfolio與程式
 >* 計分卡
->* 任務預設資訊(任務預設核准流程、任務預設自訂Forms)
+>* 任務預設資訊（任務預設核准流程、任務預設自訂Forms）
 >
 > 原始專案任務的日期將複製到新專案。 您必須變更專案的開始或完成日期（視其排程模式而定）以更新作業日期。 任務限制可能會阻止您變更專案日期。
 
@@ -83,7 +85,8 @@ ht-degree: 7%
 
 +++
 
-<!--Old:
+<!--
+ Old:
  
  <table style="table-layout:auto"> 
  <col> 
@@ -110,7 +113,8 @@ ht-degree: 7%
    <td> <p>View permissions or higher to the project</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 考量事項
 

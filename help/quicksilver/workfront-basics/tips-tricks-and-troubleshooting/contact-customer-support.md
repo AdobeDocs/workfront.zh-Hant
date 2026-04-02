@@ -6,10 +6,12 @@ description: Adobe Workfront客戶可以透過電話或線上提交票證聯絡W
 feature: Get Started with Workfront
 author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -27,7 +29,7 @@ ht-degree: 0%
 >
 >若為嚴重問題，請透過電話聯絡[!DNL Workfront]客戶支援。
 
-## 存取需求
+## 存取權要求
 
 +++ 展開以檢視存取需求。
 
@@ -65,7 +67,8 @@ ht-degree: 0%
 * EMEA： +44 800 169 0454
 * 澳洲： +61 180 035 8683
 
-<!--Old numbers - before 2/10/2025:
+<!--
+Old numbers - before 2/10/2025:
 
 * US: 844-306-HELP(4357)
 * EMEA: +44 1256 274200
@@ -82,7 +85,7 @@ ht-degree: 0%
 >只有授權支援聯絡人（或支援授權的使用者）才能提交線上支援票證。
 
 
-1. 從[[!DNL Experience League]](https://experienceleague.adobe.com/zh-hant)網站，按一下頁面頂端的&#x200B;**[!UICONTROL 支援]**。
+1. 從[[!DNL Experience League]](https://experienceleague.adobe.com)網站，按一下頁面頂端的&#x200B;**[!UICONTROL 支援]**。
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
@@ -104,7 +107,7 @@ ht-degree: 0%
 
 1. 填寫下列欄位的資訊，以提供我們更具體的詳細資料：
 
-   * **[!UICONTROL 案例優先順序]** ([!UICONTROL 低]，[!UICONTROL Medium]，[!UICONTROL 高]，[!UICONTROL 嚴重])
+   * **[!UICONTROL 案例優先順序]** （[!UICONTROL 低]，[!UICONTROL Medium]，[!UICONTROL 高]，[!UICONTROL 嚴重]）
    * **[!UICONTROL 案例產品]** （[!UICONTROL DAM]、[!DNL Fusion]、[!DNL Goals]等）
    * **[!UICONTROL 環境]** （[!UICONTROL 生產]、[!UICONTROL 預覽]、[!UICONTROL 沙箱]等）
    * **[!UICONTROL 客戶地區]** （美洲、歐洲、中東和非洲地區、亞太地區）
@@ -137,7 +140,8 @@ ht-degree: 0%
 1. （選擇性）若要關閉案例，請按一下&#x200B;**[!UICONTROL 關閉案例]**&#x200B;按鈕。
 
 
-<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737?profile.language=zh-Hant)
+<!--
+drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
 
 - this is the information that was there before - pointing to WorkfrontOne: 
 

@@ -6,19 +6,23 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '812'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
 # 新增縮圖至記錄
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -28,7 +32,7 @@ ht-degree: 0%
 您必須先建立記錄型別，才能開始建立和編輯記錄。
 如需詳細資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
 
-## 存取需求
+## 存取權要求
 
 <!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding thumbnails-->
 
@@ -44,7 +48,7 @@ ht-degree: 0%
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
 <p>任何Workfront和任何Planning套件</p> <p>任何工作流程與任何Planning套件</p>
 <p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
@@ -66,7 +70,8 @@ ht-degree: 0%
 
 +++   
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -122,14 +127,15 @@ ht-degree: 0%
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 
 ## 有關記錄縮圖的考量事項
 
 若要在視覺上區分表格檢視中的記錄，您可以將唯一的縮圖影像與每個記錄建立關聯。
 
-請考量下列事項：
+考慮以下事項：
 
 * 縮圖只適用於一筆記錄，不會套用至相同型別的所有記錄。
 * 您只能將影像檔案新增為縮圖。
@@ -193,7 +199,8 @@ ht-degree: 0%
    >
    >   You must enable the Thumbnail field in the table view to display thumbnails in this view. It is disabled by default.
 
-1. (Optional) To remove the thumbnail after it is saved, hover over the primary field and click the **More** menu ![More menu](assets/more-menu.png)> **Thumbnail** > the **Remove** icon ![Remove image icon](assets/remove-image-icon.png), then click **Save changes**. -->
+1. (Optional) To remove the thumbnail after it is saved, hover over the primary field and click the **More** menu ![More menu](assets/more-menu.png)> **Thumbnail** > the **Remove** icon ![Remove image icon](assets/remove-image-icon.png), then click **Save changes**.
+-->
 
 ### 從詳細資訊頁面新增縮圖至記錄
 
@@ -229,8 +236,8 @@ ht-degree: 0%
 
 1. （選擇性）若要在儲存縮圖之前移除縮圖，請按一下影像右側的&#x200B;**移除**&#x200B;圖示![移除影像圖示](assets/remove-image-icon.png)。
 
-1. 按一下&#x200B;**使用影像**&#x200B;將影像新增為縮圖。
-這會關閉&#x200B;**錄製縮圖**&#x200B;方塊。
+1. 按一下&#x200B;**使用影像**將影像新增為縮圖。
+這會關閉**錄製縮圖**方塊。
 縮圖會顯示在Workfront Planning中記錄顯示的區域中。
 
    >[!TIP]

@@ -6,18 +6,22 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2fed8c96-0c9c-4662-a9c4-66dae507ff2a
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '503'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 # 複製記錄
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -25,7 +29,7 @@ ht-degree: 1%
 
 您可以在表格檢視中複製現有記錄。 現有記錄的相同副本將新增到記錄型別頁面。
 
-## 存取需求
+## 存取權要求
 
 +++ 展開以檢視本文中功能的存取需求。 
 
@@ -39,7 +43,7 @@ ht-degree: 1%
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
 <p>任何Workfront和任何Planning套件</p> <p>任何工作流程與任何Planning套件</p>
 <p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
@@ -61,7 +65,8 @@ ht-degree: 1%
 
 +++   
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -117,7 +122,8 @@ ht-degree: 1%
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 
 ## 複製記錄<!--in a record type table (I don't think you can create them elsewhere right now)-->
@@ -162,5 +168,5 @@ ht-degree: 1%
 
 1. （可選）在表格檢視中新增記錄或其資訊時，請使用下列鍵盤快速鍵來復原或重做新增記錄或其資訊：
 
-   * CTRL + Z (⌘ + Z代表Mac)可復原變更
-   * 按CTRL + Shift + Z (⌘ + Shift + Z代表Mac)以重做變更。
+   * CTRL + Z （⌘ + Z代表Mac）可復原變更
+   * 按CTRL + Shift + Z （⌘ + Shift + Z代表Mac）以重做變更。

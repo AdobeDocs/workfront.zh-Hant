@@ -6,7 +6,9 @@ description: 接收 [!DNL Adobe Workfront] 中的 [!DNL Slack]通知
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: bc1ce4ea-58be-4cd7-ab59-7dddb82949b9
-source-git-commit: e6f61cdde9e8ad14a9226de4cc61fbcdcb6f839b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 4%

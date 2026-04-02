@@ -6,7 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1257'
 ht-degree: 2%
@@ -19,9 +21,11 @@ ht-degree: 2%
 
 <!-- remove preview and production at release time-->
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -115,7 +119,8 @@ ht-degree: 2%
 
 +++ 
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -176,7 +181,8 @@ ht-degree: 2%
 </tbody> 
 </table> 
 
- *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  -->
+ *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+ -->
 
 
 ## 從Workfront Planning連線物件與記錄時，建立Workfront物件的先決條件
@@ -202,7 +208,7 @@ ht-degree: 2%
 
 1. （視條件而定）按一下&#x200B;**新增專案**
 或
-開始輸入專案名稱，如果找不到，請按一下[新增專案]。 **&#x200B;**「新增」按鈕後面接著您輸入的專案名稱。
+開始輸入專案名稱，如果找不到，請按一下[新增專案]。 ****「新增」按鈕後面接著您輸入的專案名稱。
 
    ![從連線欄位連線時新增專案](assets/add-project-when-connecting-it-from-connection-field.png)
 
@@ -250,7 +256,7 @@ ht-degree: 2%
 
    或
 
-   開始輸入投資組合的名稱，如果找不到，請按一下[新增投資組合] **&#x200B;**。 「新增」按鈕後面接著您輸入的投資組合名稱。
+   開始輸入投資組合的名稱，如果找不到，請按一下[新增投資組合] ****。 「新增」按鈕後面接著您輸入的投資組合名稱。
 
    ![從連線欄位連線時新增投資組合](assets/add-portfolio-when-connecting-it-from-connection-field.png)
 
@@ -270,7 +276,7 @@ ht-degree: 2%
 
    或
 
-   開始輸入方案的名稱，如果找不到，請按一下[新增方案] **&#x200B;**。 新增按鈕後面接著您輸入的程式名稱。
+   開始輸入方案的名稱，如果找不到，請按一下[新增方案] ****。 新增按鈕後面接著您輸入的程式名稱。
 
    ![從連線欄位連線時新增Workfront程式](assets/add-wf-program-when-connecting-it-from-connection-field.png)
 

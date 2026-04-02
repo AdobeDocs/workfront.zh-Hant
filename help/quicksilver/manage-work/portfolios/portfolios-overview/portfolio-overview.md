@@ -7,10 +7,12 @@ description: Portfolio是具有統一特性的專案集合。 這些專案通常
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: b340501e-1190-415e-aa96-5aad177c4b7b
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '587'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -34,7 +36,7 @@ Portfolio或專案Portfolio管理(PPM)是排定專案清單優先順序及加以
 
 <!--leave the table uncollapsed as this article is about access-->
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,12 +50,12 @@ Portfolio或專案Portfolio管理(PPM)是排定專案清單優先順序及加以
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>[!UICONTROL 標準]</p>
-   <p>[!UICONTROL 計畫]</p> </td> 
+   <td> <p>[！UICONTROL標準]</p>
+   <p>[！UICONTROL計畫]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL Edit]對投資組合的存取權</p>  </td> 
+   <td> <p>[！UICONTROL Edit]對投資組合的存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
@@ -69,7 +71,8 @@ Portfolio或專案Portfolio管理(PPM)是排定專案清單優先順序及加以
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -97,7 +100,8 @@ Portfolio或專案Portfolio管理(PPM)是排定專案清單優先順序及加以
     </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 瞭解[!DNL Adobe Workfront]投資組合方法
 
@@ -111,7 +115,7 @@ Portfolio或專案Portfolio管理(PPM)是排定專案清單優先順序及加以
 
    [!UICONTROL 業務案例]包含下列資訊：
 
-   * 專案的一般資訊(說明、Portfolio和方案指派、專案所有者和贊助者)
+   * 專案的一般資訊（說明、Portfolio和方案指派、專案所有者和贊助者）
    * 專案目的或目的
    * 預估費用成本
    * 勞力成本的資源預算

@@ -8,13 +8,15 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 387a84c4bf511424a0c15bd65748987c1611cee5
+exl-id: 850576d3-4edb-4942-9f21-065bf941b01c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
-
 
 # Adobe Workfront的2026年第一季度發行活動可用性限制
 
@@ -61,19 +63,20 @@ ht-degree: 0%
 
 當任務持續時間為0時，進階工作分派畫面上的計畫時數KPI不再可編輯。 以前您可以編輯計畫時數，但變更不會儲存。
 
-### 2025年11月30日至12月6日當週維護更新
+### 2025 年 11 月 30 日至 12 月 6 日週的維護更新
 
 未使用日期有效匯率時，**已隱藏的「匯率日期」欄位**
 
 未選取&#x200B;**使用來自系統**&#x200B;的日期有效匯率核取方塊時，專案詳細資料>財務區域中的&#x200B;**匯率日期**&#x200B;欄位現在已隱藏。 先前，編輯專案時，即使未啟用日期有效匯率，專案詳細資料上也會顯示日期欄位。
 
-### 2026年1月4-10日當週維護更新
+### 2026 年 1 月 4 日至 10 日週的維護更新
 
 **工作角色費率現在允許有效日期出現差距**
 
 職務角色費率的有效日期現在允許出現間隙，但不允許日期重疊。 在間隔期間，帳單費率階層的其他區域會根據任務的收入型別來決定帳單費率。
 
-<!--### Maintenance Updates week of January 11-17, 2026
+<!--
+### Maintenance Updates week of January 11-17, 2026
 
 **Title**
 

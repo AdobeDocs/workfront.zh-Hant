@@ -8,7 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2843'
 ht-degree: 2%
@@ -269,9 +271,9 @@ To create a Request Queue:
 
      >[!TIP]
      >
-     >New Issue Fields selected in the Queue Details section are also associated with any new issue added to the project <!--this is confusing: or to the tasks in the Issues section-->.
-
-<!--
+     >New Issue Fields selected in the Queue Details section are also associated with any new issue added to the project 
+     
+     this is confusing: or to the tasks in the Issues section.
 
 When you enable any of the Assigned to, Job Role, or the Team fields, they are always renamed to Assignments in the request form, but you can only specify the type of assignment selected here.
 
@@ -315,9 +317,9 @@ When you enable any of the Assigned to, Job Role, or the Team fields, they are a
 
      >[!TIP]
      >
-     >Custom forms added to the Queue Details section are also associated with any new issue added to the project <!--this is confusiong: or the tasks in the Issues  section-->.
+     >Custom forms added to the Queue Details section are also associated with any new issue added to the project this is confusiong: or the tasks in the Issues  section.
 
-<!--1. Continue selecting information for the settings in the **Email Queue Settings** area, to allow users to email requests to the request queue project. 
+1. Continue selecting information for the settings in the **Email Queue Settings** area, to allow users to email requests to the request queue project. 
 
     For more information, see [Enable users to email an issue into a Request Queue project](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 

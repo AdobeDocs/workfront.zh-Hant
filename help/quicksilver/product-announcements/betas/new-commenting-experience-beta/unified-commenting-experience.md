@@ -9,10 +9,12 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1071'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -61,7 +63,8 @@ ht-degree: 1%
 * 編輯使用者設定檔方塊時的「顯示更新狀態的完成百分比」設定將被移除。 更新任務或問題完成百分比的功能已移除。
 
 
-<!--removed this note on November 28, 2023, when this limitation was removed: 
+<!--
+removed this note on November 28, 2023, when this limitation was removed: 
 
 >[!NOTE]
 >
@@ -94,9 +97,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>建立/讀取/回覆/刪除註解 
    </td>
-   <td>✓ (A) 
+   <td>✓ 
   </td>
-   <td>✓ (A) 
+   <td>✓ 
    </td>
 
 <td> 
@@ -106,9 +109,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>RTF文字（不包括引號和emoji）
    </td>
-   <td>✓ (A) 
+   <td>✓ 
    </td>
-   <td>✓ (A)
+   <td>✓
    </td>
 
 <td> 
@@ -118,9 +121,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>RTF文字（表情符號）
    </td>
-   <td>✓ (A) 
+   <td>✓ 
    </td>
-   <td>✓ (A)
+   <td>✓
    </td>
    <td> 
    </td>
@@ -130,9 +133,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>RTF文字（區塊引號）
    </td>
-   <td>✓ (A) 
+   <td>✓ 
    </td>
-   <td> ✓ (A)
+   <td> ✓
    </td>
     <td> 2023年第2季
    </td>
@@ -142,9 +145,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td> 報價註解
    </td>
-   <td>✓ (A) 
+   <td>✓ 
    </td>
-   <td> ✓ (A)
+   <td> ✓
    </td>
    <td> 2023年第2季
    </td>
@@ -153,9 +156,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>對評論做出反應（類似） 
    </td>
-   <td>✓ (A) 
+   <td>✓ 
    </td>
-   <td>✓ (A) 
+   <td>✓ 
    </td>
    <td> 
    </td>
@@ -164,9 +167,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>將影像附加至註解 
    </td>
-   <td>✓ (A) 
+   <td>✓ 
    </td>
-   <td>✓ (A) 
+   <td>✓ 
    </td>
       <td> 
    </td>
@@ -175,9 +178,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>在評論中標籤人員 
    </td>
-   <td>✓ (A) 
+   <td>✓ 
    </td>
-   <td>✓ (A) 
+   <td>✓ 
    </td>
    <td> 
    </td>
@@ -188,7 +191,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td>✓ (A)
+   <td>✓
    </td>
    <td> 
    </td>
@@ -198,7 +201,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td>✓ (A)
+   <td>✓
    </td>
    <td> 
    </td>
@@ -207,9 +210,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>公司私有的評論 
    </td>
-   <td>✓ (A) 
+   <td>✓ 
    </td>
-   <td>✓ (A) 
+   <td>✓ 
    </td>
    <td> 
    </td>
@@ -217,7 +220,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>還原評論的張貼 
    </td>
-   <td>✓ (A) 
+   <td>✓ 
    </td>
    <td>已取代為編輯註解 
    </td>
@@ -227,7 +230,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>關閉系統更新 
    </td>
-   <td>✓ (A) 
+   <td>✓ 
    </td>
    <td>已取代為活動索引標籤 
    </td>
@@ -239,7 +242,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> ✓ (A)
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -247,9 +250,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>離開頁面時儲存註解草稿 
    </td>
-   <td>✓ (A) 
+   <td>✓ 
    </td>
-   <td>✓ (A) 
+   <td>✓ 
    </td>
    <td> 
    </td>
@@ -259,7 +262,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td>✓ (A)
+   <td>✓
    </td>
    <td> 
    </td>
@@ -267,9 +270,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>記錄時間 
    </td>
-   <td>✓ (A) 
+   <td>✓ 
    </td>
-   <td>✓ (A)
+   <td>✓
    </td>
    <td> 
    </td>
@@ -277,7 +280,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
     <tr>
    <td>複製對話連結 
    </td>
-   <td>✓ (A) 
+   <td>✓ 
    </td>
    <td> 已取代為複製連結
    </td>
@@ -287,7 +290,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>複製評論連結 
    </td>
-   <td>✓ (A) 
+   <td>✓ 
    </td>
    <td> 已取代為複製連結
    </td>
@@ -297,9 +300,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>報價註解文字 
    </td>
-   <td>✓ (A) 
+   <td>✓ 
    </td>
-   <td>✓ (A)
+   <td>✓
    </td>
   <td>2023年第2季 
    </td>
@@ -307,9 +310,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>複製本文 
    </td>
-   <td>✓ (A) 
+   <td>✓ 
    </td>
-   <td> ✓ (A)
+   <td> ✓
    </td>
    <td>
    </td>
@@ -319,7 +322,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> ✓ (A)
+   <td> ✓
    </td>
    <td>2024年第1季度 
    </td>
@@ -331,7 +334,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> ✓ (A)
+   <td> ✓
    </td>
    <td>2024年第1季度 
    </td>
@@ -340,9 +343,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>在註解中拖放影像
    </td>
-   <td> ✓ (A)
+   <td> ✓
    </td>
-   <td> ✓ (A)
+   <td> ✓
    </td>
    <td>2024年第1季度 
    </td>
@@ -351,7 +354,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>編輯自訂表單 
    </td>
-   <td>✓ (A) 
+   <td>✓ 
    </td>
    <td> 
    </td>
@@ -361,7 +364,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td>可在註解時編輯狀態、條件、認可日期 
    </td>
-   <td>✓ (A) 
+   <td>✓ 
    </td>
    <td> 
    </td>
@@ -371,7 +374,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>回覆系統更新 
    </td>
-   <td> ✓ (A)
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -381,9 +384,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>新增以其他使用者身分登入的評論時顯示「代表」
    </td>
-   <td> ✓ (A)
+   <td> ✓
    </td>
-   <td> ✓ (A)
+   <td> ✓
    </td>
    <td>
    </td>
@@ -392,7 +395,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 <tr>
    <td>當認可日期從更新區段變更時，專案所有者變更任務計畫完成日期的功能
    </td>
-   <td> ✓ (A)
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -501,7 +504,8 @@ Depending on what objects you access the commenting experience for, you might se
 -->
 
 
-<!--before August 17: 
+<!--
+before August 17: 
 
 The new commenting experience is currently supported for the following objects:
 
@@ -522,7 +526,8 @@ The new commenting experience is currently supported for the following objects:
 
 -->
 
-<!--Depending on the environment you access the commenting experience you can do one of the following: 
+<!--
+Depending on the environment you access the commenting experience you can do one of the following: 
 
 * Enable the commenting experience Beta in the Production environment
 * <span class="preview">Enable the legacy commenting experience in the Preview  environment </span>

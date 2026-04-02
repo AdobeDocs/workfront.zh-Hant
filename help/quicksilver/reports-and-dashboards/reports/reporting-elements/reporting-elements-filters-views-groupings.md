@@ -6,7 +6,9 @@ description: Workfront中每個清單和報告都必須具備的主要元素是�
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5697905e-42c0-403b-85d4-798a1a3a2e7f
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 0%
@@ -17,11 +19,13 @@ ht-degree: 0%
 
 <!-- Audited: 11/2024 -->
 
-<!--AL: Add information here about all the different kinds of FVGs: in reports, in lists, beta, etc // OR: this article should be a high-level overview of reporting elements. Then, each type of element should have:</p>
+<!--
+AL: Add information here about all the different kinds of FVGs: in reports, in lists, beta, etc // OR: this article should be a high-level overview of reporting elements. Then, each type of element should have:</p>
 <p>- overview for Filters</p>
 <p>- create a filter</p>
 <p>- share a filter</p>
-<p>ALL in Reporting elements but the Shared ones should be linked to Basics> Sharing; some of the articles in the Basics> Navigation> Use lists might beed to link here as well-->
+<p>ALL in Reporting elements but the Shared ones should be linked to Basics> Sharing; some of the articles in the Basics> Navigation> Use lists might beed to link here as well
+-->
 
 有數個元素可讓Adobe Workfront中的清單或報表變成可能。 每個清單和報表都必須具備的主要元素為篩選器、檢視和群組。 每個元素在任何報表中都會提供不同資訊。
 
@@ -66,7 +70,7 @@ ht-degree: 0%
 * 您可在執行報表後，從「檢視」下拉式欄位套用其他檢視。
 * 其他檢視會暫時取代建立報告時定義的檢視；不過，下次您返回報告時會顯示預設檢視。
 
-  如需檢視的詳細資訊，請參閱文章[&#x200B; Adobe Workfront中的檢視總覽](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)。
+  如需檢視的詳細資訊，請參閱文章[ Adobe Workfront中的檢視總覽](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)。
 
 ## 群組
 

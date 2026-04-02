@@ -6,10 +6,12 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1767'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -18,9 +20,11 @@ ht-degree: 0%
 
 # 管理來自Workfront物件的記錄連線
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 {{planning-important-intro}}
 
@@ -29,7 +33,7 @@ ht-degree: 0%
 * Workfront物件的Planning區段：顯示連線到物件的所有記錄型別及其各自的連線記錄。
 * Planning連線自訂欄位：顯示一個記錄型別、其個別連線記錄，以及連線記錄的最多7個查詢欄位。
 
-## 存取需求
+## 存取權要求
 
 +++ 展開以檢視本文中功能的存取需求。 
 
@@ -43,7 +47,7 @@ ht-degree: 0%
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
 <p>任何Workfront和任何Planning套件</p>
 <p>任何工作流程與任何Planning套件</p>
@@ -79,7 +83,8 @@ ht-degree: 0%
 +++   
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
  <col>
  </col>
@@ -145,7 +150,8 @@ ht-degree: 0%
   </td>
   </tr>
  </tbody>
-</table>-->
+</table>
+-->
 
 
 ## 管理Planning區段中的記錄
@@ -154,10 +160,12 @@ ht-degree: 0%
 「規劃」區段適用於下列Workfront物件：
 
 * 專案
-* 產品組合
+* 專案組合
 * 方案
-<!--* Group
-* Company-->
+<!--
+* Group
+* Company
+-->
 
 ### 關於Workfront物件Planning區段的考量事項
 
@@ -207,7 +215,7 @@ ht-degree: 0%
 
    專案![上的](assets/planning-section-on-project.png)規劃區段
 
-1. （選擇性）按一下[顯示所有連線]&#x200B;**&#x200B;**&#x200B;以顯示所有連線的記錄型別，包括沒有連線記錄的記錄型別。 依預設，不顯示沒有連線記錄的記錄型別。
+1. （選擇性）按一下[顯示所有連線]****&#x200B;以顯示所有連線的記錄型別，包括沒有連線記錄的記錄型別。 依預設，不顯示沒有連線記錄的記錄型別。
 1. 按一下記錄卡以顯示有關記錄的更多資訊。 記錄預覽方塊隨即顯示。
 1. （選用）開始修改記錄預覽方塊中的欄位。 您的變更會自動儲存。
 1. （選擇性）按一下預覽方塊右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤圖示中開啟詳細資料](assets/open-details-in-a-new-tab-icon.png)以開啟記錄的詳細資訊頁面。 記錄的詳細資訊頁面會在Workfront Planning中開啟。
@@ -236,7 +244,7 @@ ht-degree: 0%
 * Planning連線欄位會在建立連線之後，以及將該欄位附加到下列Workfront物件的表單時，顯示Planning記錄：
 
    * 專案
-   * 產品組合
+   * 專案組合
    * 方案
    * 群組
    * 公司
@@ -269,7 +277,7 @@ ht-degree: 0%
 1. 移至下列其中一個已連線至Workfront Planning記錄型別的物件型別：
 
    * 專案
-   * 產品組合
+   * 專案組合
    * 方案
    * 公司
    * 群組

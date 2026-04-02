@@ -6,7 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '3265'
 ht-degree: 0%
@@ -84,7 +86,8 @@ ht-degree: 0%
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -144,7 +147,8 @@ ht-degree: 0%
   </tr> 
 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## 建立記錄時的注意事項
 
@@ -187,7 +191,7 @@ ht-degree: 0%
 
 1. （視條件而定）如果您按一下&#x200B;**新記錄**，請執行下列動作：
 
-   1. 按一下下列其中一個方式來建立記錄，然後按一下[繼續]&#x200B;**&#x200B;**：
+   1. 按一下下列其中一個方式來建立記錄，然後按一下[繼續]****：
 
       * **手動新增**。 記錄的預覽方塊開啟。\
         從步驟6開始，新增記錄的相關資訊，如[從本文中的記錄型別資料表檢視](#create-records-by-adding-them-inline-from-the-record-type-table-view)區段內嵌新增記錄，以建立記錄中所述。<!--insure this stays accurate-->
@@ -219,7 +223,8 @@ ht-degree: 0%
    * 如果您使用CSV或Excel試算表新增記錄，系統會將多個記錄新增至記錄型別。
    * 如果您是透過提交請求表單來新增請求，則會在Workfront的「請求」區域中新增請求。
 
-<!-- this is not possible anymore: 
+<!--
+ this is not possible anymore: 
 
 ## Create records by connecting them from another application
 
@@ -309,8 +314,8 @@ You can import records from other applications by linking them to existing recor
 
 1. （可選）在表格檢視中新增記錄或其資訊時，請使用下列鍵盤快速鍵來復原或重做新增記錄或其資訊：
 
-   * CTRL + Z (⌘ + Z代表Mac)可復原變更
-   * 按CTRL + Shift + Z (⌘ + Shift + Z代表Mac)以重做變更
+   * CTRL + Z （⌘ + Z代表Mac）可復原變更
+   * 按CTRL + Shift + Z （⌘ + Shift + Z代表Mac）以重做變更
 
 
 ## 在記錄型別時間軸檢視中新增記錄，以建立記錄
@@ -518,7 +523,7 @@ You can import records from other applications by linking them to existing recor
 1. （視條件而定）如果嘗試連線時找不到記錄，請按一下[新增] **+ [新增]**
 
    或
-開始輸入名稱，然後按一下&#x200B;**+新增**。 **+新增**&#x200B;按鈕後面接著您連線的記錄型別名稱。 例如，將品牌新增至現有行銷活動時，「新增品牌」。 您輸入的名稱也會跟著新增按鈕。
+開始輸入名稱，然後按一下**+新增**。 **+新增**&#x200B;按鈕後面接著您連線的記錄型別名稱。 例如，將品牌新增至現有行銷活動時，「新增品牌」。 您輸入的名稱也會跟著新增按鈕。
 
    ![新增按鈕以在醒目提示的內容中建立記錄](assets/add-button-to-create-records-in-context-highlighted.png)
 

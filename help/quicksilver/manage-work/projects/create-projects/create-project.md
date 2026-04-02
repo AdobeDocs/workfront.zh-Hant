@@ -6,10 +6,12 @@ description: 專案是Adobe Workfront中的大型工作單位。 您可以從頭
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1295'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -19,22 +21,24 @@ ht-degree: 1%
 
 <!-- Audited: 110/2025 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 專案代表在Adobe Workfront中需要完成的大量工作。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -57,7 +61,8 @@ ht-degree: 1%
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -81,7 +86,8 @@ ht-degree: 1%
    <td> <p>When you create a project, you automatically receive Manage permissions to the project.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 
 ## 建立專案的方式
@@ -131,11 +137,11 @@ ht-degree: 1%
 
 建立專案時，Workfront會套用一組預設設定至專案。 例如，當您建立專案時，會預設「狀態」、「群組」和「排程模式」。
 
-請考量下列事項：
+考慮以下事項：
 
 * 身為Workfront管理員或群組管理員，您可以在為整個Workfront執行個體或群組設定專案偏好設定時，為新專案設定預設設定。
 * Workfront會先套用群組的設定（如果有的話），再套用Workfront管理員設定的設定。
-* 新專案的預設狀態與您在主「專案偏好設定」區域中由Workfront管理員定義的狀態相對應，或與群組管理員(或Workfront管理員)在群組「專案偏好設定」區域中定義的狀態相對應。
+* 新專案的預設狀態與您在主「專案偏好設定」區域中由Workfront管理員定義的狀態相對應，或與群組管理員（或Workfront管理員）在群組「專案偏好設定」區域中定義的狀態相對應。
 
   >[!NOTE]
   >
@@ -153,7 +159,7 @@ ht-degree: 1%
 
      新專案的群組是範本的群組。 如果範本未與「群組」相關聯，則專案的「群組」是建立專案之使用者的「主群組」 。
 
-     從範本建立的新專案的預設狀態與您在主「專案偏好設定」區域中由Workfront管理員定義的狀態相對應，或與群組的「專案偏好設定」區域中的群組管理員(或Workfront管理員)相對應。 從範本建立專案時，您可以將預設狀態變更為專案群組（範本群組）或建立專案之使用者的「主群組」)的任何狀態。
+     從範本建立的新專案的預設狀態與您在主「專案偏好設定」區域中由Workfront管理員定義的狀態相對應，或與群組的「專案偏好設定」區域中的群組管理員（或Workfront管理員）相對應。 從範本建立專案時，您可以將預設狀態變更為專案群組（範本群組）或建立專案之使用者的「主群組」)的任何狀態。
 
    * 如果您透過轉換問題來建立專案，則新專案的群組為問題現有專案的群組。 如果轉換問題的使用者無權存取問題的專案，或問題的專案沒有群組，則新專案的群組是轉換問題的使用者的主群組。
 
@@ -176,7 +182,7 @@ ht-degree: 1%
 
    ![新專案功能表](assets/new-project-dropdown-nwe-350x358.png)
 
-1. 按一下功能表中的[新增專案]&#x200B;**&#x200B;**，從頭開始建立專案。
+1. 按一下功能表中的[新增專案]****，從頭開始建立專案。
 1. 輸入專案名稱。 按下Enter以儲存名稱。
 
    ![輸入專案名稱](assets/rename-untitled-project.png)
@@ -203,7 +209,7 @@ ht-degree: 1%
    >
    >專案的狀態應為Planning，或其他非「目前」的狀態。 這可讓您變更專案，而不需產生通知給專案參與者。
 
-1. 按一下[儲存]儲存變更。**&#x200B;**
+1. 按一下[儲存]儲存變更。****
 
 1. （選擇性）設定專案設定並新增任務後，您可將專案標題中的專案狀態變更為&#x200B;**目前**。
 

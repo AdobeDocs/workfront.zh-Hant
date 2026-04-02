@@ -8,10 +8,12 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '628'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -19,15 +21,16 @@ ht-degree: 0%
 
 <!-- Audited: 5/2025 -->
 
-<!--Linked to lots of articles for resource planning and LINKED TO CONTEXT SENSITIVE HELP - DO NOT CHANGE OR REMOVE!</p>
+<!--
+Linked to lots of articles for resource planning and LINKED TO CONTEXT SENSITIVE HELP - DO NOT CHANGE OR REMOVE!</p>
 Edit the first part, once they add more settings in the Res Management Preferences - right now, only the FTE calculation is the
 -->
 
 作為[!DNL Adobe Workfront]管理員，您可以設定系統的[!UICONTROL 資源管理]偏好設定。 這些偏好設定決定如何計算[!DNL Workfront]資源排程與計畫工具的使用者小時或FTE可用性或產能。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,12 +42,12 @@ Edit the first part, once they add more settings in the Res Management Preferenc
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p>
-       <p>[!UICONTROL 計畫]</p></td>
+   <td><p>[！UICONTROL標準]</p>
+       <p>[！UICONTROL計畫]</p></td>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td> 
+   <td>[！UICONTROL系統管理員]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +61,7 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 計算使用者的容量時，Workfront會考量下列資訊：
 
 * 排程的時數，如使用者的排程或Workfront系統的預設排程中所定義。
-* 排程例外(視使用的排程而定，可能是使用者排程的例外，或是與Workfront預設排程相關的例外)。
+* 排程例外（視使用的排程而定，可能是使用者排程的例外，或是與Workfront預設排程相關的例外）。
 * 使用者的休假。
 * 使用者或[!UICONTROL 系統之全時相當值(]FTE[!DNL Workfront])的值。 如排程中所定義，使用者全職工作時，[!UICONTROL FTE]等於1。
 * 使用者的[!UICONTROL 工作時間]值，代表使用者花費在專案相關工作的時間。 這不包括管理時間，例如會議和訓練。 當[!UICONTROL 工作時間]等於1，當使用者可以工作整個時間（如[!UICONTROL FTE]或排程所示）時，這表示他們不會花費任何時間在會議或訓練等與專案無關的工作上。
@@ -158,7 +161,8 @@ Edit the first part, once they add more settings in the Res Management Preferenc
      >`User Weekly Available [!UICONTROL FTE] = [(30-2) * 0.5] / 40 = 0.35`
      >
 
-     <!--This used to be the calculation before we implemented the Work Time field: 
+     <!--
+      This used to be the calculation before we implemented the Work Time field: 
       
 
       The Available hours for the user are calculated by the following formula:

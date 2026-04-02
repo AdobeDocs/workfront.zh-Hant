@@ -6,7 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 567ab223-b282-4b98-9655-7b9766fba869
-source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1156'
 ht-degree: 0%
@@ -48,7 +50,7 @@ ht-degree: 0%
 
 連線欄位可作為記錄型別之間的技術交握。
 
-此欄位型別是Workfront Planning中所有關係背後的引擎。 這是意圖的表示法，其可建立特定記錄型別（例如通道策略）可連結至其他物件型別(無論這些物件型別位於Planning或Workfront)。
+此欄位型別是Workfront Planning中所有關係背後的引擎。 這是意圖的表示法，其可建立特定記錄型別（例如通道策略）可連結至其他物件型別（無論這些物件型別位於Planning或Workfront）。
 
 如需詳細資訊，請參閱[連線記錄型別概觀](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
 
@@ -103,7 +105,7 @@ ht-degree: 0%
 
 此方法需要Adobe Workfront Fusion的授權。
 
-如需詳細資訊，請參閱[設定和管理Workfront Fusion：文章索引](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc)。
+如需詳細資訊，請參閱[設定和管理Workfront Fusion：文章索引](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc)。
 
 * **使用提交觸發程式：**&#x200B;由於表單提供單一、乾淨的提交事件，因此可將其用作Fusion自動化的觸發程式。 Fusion案例可以偵測表單提交，並立即在Workfront中產生連結專案。
 
@@ -113,7 +115,7 @@ ht-degree: 0%
 
 連結專案後，您可以直接從專案新增查詢欄位，在Planning記錄中呈現來自Workfront的即時資料。
 
-身為工作區管理員，您可以設定查詢欄位，將任何系統或自訂欄位從連結的專案(例如實際完成日期或Creative銷售機會)提取到Planning記錄型別中。 擷取資料後，您可在策略階層的多個層級中向上彙整這些資料，一直到促銷活動層級。 這可為整個行銷生命週期的利害關係人提供強大的彙總報告，無需離開規劃環境即可隨時瞭解情況。
+身為工作區管理員，您可以設定查詢欄位，將任何系統或自訂欄位從連結的專案（例如實際完成日期或Creative銷售機會）提取到Planning記錄型別中。 擷取資料後，您可在策略階層的多個層級中向上彙整這些資料，一直到促銷活動層級。 這可為整個行銷生命週期的利害關係人提供強大的彙總報告，無需離開規劃環境即可隨時瞭解情況。
 
 ## 將策略與行動連結起來，達到可見度
 
@@ -145,7 +147,8 @@ Bridge的終極價值是即時可見度。
 
 * **請勿略過橋接器：**&#x200B;如果工作開始於「工作流程」模組，但沒有Planning的連結，則表示您已建立領導無法看到的「陰影計畫」。
 
-<!--original content:
+<!--
+original content:
 
 # The Bridge: Connecting Strategic Intent to Projects 
 

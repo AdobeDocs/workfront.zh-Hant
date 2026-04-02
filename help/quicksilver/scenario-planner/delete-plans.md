@@ -6,10 +6,12 @@ description: 您可以刪除您建立的計畫。 您無法刪除與您共用的
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -17,9 +19,9 @@ ht-degree: 1%
 
 您可以刪除您建立的計畫。 您無法刪除與您共用的計畫。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,16 +37,16 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 授權</p> </td> 
-   <td> <p>[!UICONTROL Light]或更高</p> 
-   <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Light]或更高</p> 
+   <p>[！UICONTROL Review]或更高版本</p> </td> 
   </tr> 
     <tr> 
    <td>存取層級設定</td> 
-   <td> <p>[!UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> </td> 
+   <td> <p>[！UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr> 
    <td> <p>物件許可權 </p> </td> 
-   <td> <p>[!UICONTROL Manage]計畫的許可權</p> </td> 
+   <td> <p>[！UICONTROL Manage]計畫的許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,7 +57,8 @@ ht-degree: 1%
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -90,7 +93,8 @@ ht-degree: 1%
    <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 刪除計劃
 

@@ -6,10 +6,12 @@ description: 請閱讀本文章，瞭解如何登入Workfront。
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
-source-git-commit: c6272c7631941720e3ab1e1c80ed7d304a67d34b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '885'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -22,27 +24,27 @@ ht-degree: 0%
 您需要下列資訊才能登入[!DNL Adobe Workfront]：
 
 * **登入URL：**&#x200B;這是您公司的唯一URL，其格式應為： **`yourCompanyDomain.my.workfront.com`**。\
-   如果您已設定單一登入(SSO)，則您的URL可能已由[!DNL Workfront]管理員變更。 如需使用SSO登入[!DNL Workfront]的詳細資訊，請參閱本文中的[使用SSO登入 [!DNL Workfront] &#x200B;](#log-in-to-workfront-with-sso)。
+   如果您已設定單一登入(SSO)，則您的URL可能已由[!DNL Workfront]管理員變更。 如需使用SSO登入[!DNL Workfront]的詳細資訊，請參閱本文中的[使用SSO登入 [!DNL Workfront] ](#log-in-to-workfront-with-sso)。
 
   您公司的網域名稱是由[!DNL Workfront]所建立。 若要變更您的網域名稱，請聯絡我們的客戶支援團隊。 如需如何連絡客戶支援團隊的詳細資訊，請參閱[連絡客戶支援](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。
 
 * **使用者名稱：**&#x200B;您的[!DNL Workfront]管理員設定您的使用者名稱。
 * **密碼：**&#x200B;如果您的系統未設定SSO，請在收到[!DNL Workfront]系統管理員的電子郵件邀請後設定您的[!DNL Workfront]密碼。
 
-  如需使用SSO登入[!DNL Workfront]的詳細資訊，請參閱本文中的[使用SSO登入 [!DNL Workfront] &#x200B;](#log-in-to-workfront-with-sso)。
+  如需使用SSO登入[!DNL Workfront]的詳細資訊，請參閱本文中的[使用SSO登入 [!DNL Workfront] ](#log-in-to-workfront-with-sso)。
 
   如需有關接收電子郵件邀請和建立[!DNL Workfront]密碼的詳細資訊，請參閱[接收電子郵件邀請並建立 [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)的密碼。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  </col>
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -112,7 +114,8 @@ ht-degree: 0%
    >
    >這通常是您的公司名稱。 如果您不確定，請連絡您的[!DNL Workfront]系統管理員。
 
-<!--1. Specify the [!DNL Workfront] URL for your company or the link to your SAML authentication portal.
+<!--
+1. Specify the [!DNL Workfront] URL for your company or the link to your SAML authentication portal.
 
    The [!DNL Workfront] URL should display in the following format:
    **`yourDomain.my.workfront.com`**
@@ -127,7 +130,8 @@ ht-degree: 0%
 
 1. Tap **[!UICONTROL Continue in browser]**.
 1. Specify the **[!UICONTROL Username]** of your [!DNL Workfront] account or SAML user.
-1. Specify the **[!UICONTROL Password]** for your [!DNL Workfront] account or SAML user.-->
+1. Specify the **[!UICONTROL Password]** for your [!DNL Workfront] account or SAML user.
+-->
 
 1. （條件式）如果您是第一次登入，畫面會顯示要求[!DNL Workfront]行動應用程式存取您帳戶的許可權的頁面。 按一下&#x200B;**允許存取**&#x200B;以繼續。
 
@@ -147,7 +151,7 @@ ht-degree: 0%
 >
 >對於IMS上的iOS使用者，您可以選取&#x200B;**使用公司網域登入**，並使用[!DNL Workfront]管理員提供的網域來使用您的[!DNL Adobe] ID登入。
 
-1. 輸入您的電子郵件，然後按一下[繼續]。**&#x200B;**
+1. 輸入您的電子郵件，然後按一下[繼續]。****
 
 1. （視條件而定）選取您要用來登入的帳戶。 一般來說，如果您的&#x200B;**ID與組織相關聯，這將是**&#x200B;公司或學校帳戶[!DNL Adobe]。
 

@@ -7,7 +7,9 @@ description: 群組：指出群組結果應使用文字模式收合或展開
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 2880e06f-34f3-47b1-9462-5a15a20d6fee
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 5%

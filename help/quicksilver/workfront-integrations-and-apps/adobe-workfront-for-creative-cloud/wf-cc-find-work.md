@@ -6,10 +6,12 @@ description: 在Adobe Workfront中尋找指派給您的工作，不要離開Adob
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4abb3257-5f6a-45f6-933b-f3bfb3728f1c
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -19,15 +21,16 @@ ht-degree: 0%
 
 {{cc-app-list}}
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
- <!-- <tr> 
+ <!--
+  <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> Any</td> 
   </tr> 
@@ -36,7 +39,8 @@ ht-degree: 0%
    <td> 
    <p>Standard</p>
    <p>Work or higher</p> </td> 
-  </tr> -->
+  </tr>
+  -->
   <tr> 
    <td role="rowheader">其他產品</td> 
    <td>除了[!DNL Adobe Creative Cloud]授權之外，您還必須有[!DNL Workfront]授權。</td> 
@@ -67,10 +71,10 @@ ht-degree: 0%
   <tr> 
    <td> 
     <ul> 
-     <li>[!UICONTROL 到期日期]</li> 
+     <li>[！UICONTROL到期日期]</li> 
      <li>[!UICONTROL 名稱]</li> 
-     <li>[!UICONTROL 專案名稱]</li> 
-     <li>[!UICONTROL 我的優先順序]</li> 
+     <li>[！UICONTROL專案名稱]</li> 
+     <li>[！UICONTROL我的優先順序]</li> 
     </ul> </td> 
    <td> <img src="assets/copy-of-sort-by-350x606.png" style="width: 350;height: 606;"> </td> 
   </tr> 
@@ -91,8 +95,8 @@ ht-degree: 0%
    <td> <p>第一個是僅根據工作專案型別或屬性進行篩選：</p> 
     <ul> 
      <li><strong>工作專案</strong>：任務、子任務、問題或個人任務</li> 
-     <li><strong>工作專案狀態</strong>： [!UICONTROL 正在處理]、[!UICONTROL 準備開始]或[!UICONTROL 未就緒]</li> 
-    </ul> <p>第二個是使用工作專案與工作專案狀態一起進行篩選。 例如，您可以選取「任務」和[!UICONTROL 準備開始] ，以在您的工作清單中尋找所有準備工作的任務。</p> <p>您也可以使用[!UICONTROL 欄位比對]來搜尋篩選集合中的特定專案。 </p> </td> 
+     <li><strong>工作專案狀態</strong>： [！UICONTROL正在處理]、[！UICONTROL準備開始]或[！UICONTROL未就緒]</li> 
+    </ul> <p>第二個是使用工作專案與工作專案狀態一起進行篩選。 例如，您可以選取「任務」和[！UICONTROL準備開始] ，以在您的工作清單中尋找所有準備工作的任務。</p> <p>您也可以使用[！UICONTROL欄位比對]來搜尋篩選集合中的特定專案。 </p> </td> 
    <td> <img src="assets/copy-of-filter-p-350x603.png" style="width: 350;height: 603;"> </td> 
   </tr> 
  </tbody> 

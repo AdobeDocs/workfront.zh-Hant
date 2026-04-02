@@ -7,10 +7,12 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '890'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -56,7 +58,8 @@ ht-degree: 2%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -84,7 +87,8 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator. For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator. For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## 建立週期性任務
 
@@ -124,7 +128,7 @@ ht-degree: 2%
     </thead> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>天</strong> </td> 
+      <td role="rowheader"><strong>Day</strong> </td> 
       <td> <p>任務會每天、每2天、每3天等重複一次，視您選取的步調而定。 您可以將工作設定為每隔6天重複執行一次。 預設值為1天。 </p> </td> 
      </tr> 
      <tr> 
@@ -136,11 +140,11 @@ ht-degree: 2%
       <td> <p> 任務會每週、每兩週、每三週等重複，視您選取的步調而定。</p> <p>在<strong>重複</strong>欄位中，選取您想要每個工作發生的日期。 您可以選取多天。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>個月</strong> </td> 
+      <td role="rowheader"><strong>Month</strong> </td> 
       <td> <p>根據您選取的步調，任務會每月、每2個月、每3個月等重複。 您可以選取1到12個月。 </p> <p>在<strong>重複</strong>欄位中，當您想要工作發生時，從下列選項中選取：</p> 
        <ul> 
         <li> <p><strong>每個月的&lt;month date&gt;</strong>日 </p> <p>您可以選取從1到30的天數，也可以選取<strong>last</strong>。 例如，您可以選取「每月30日」。 </p> </li> 
-        <li> <p>每月<strong>的&lt;number&gt; &lt;day of the week&gt;</strong> </p> <p>在第一個下拉式功能表中，您可以選取月份中周數的介於1到4之間的數字，或選取「最後」。 </p> <p>在第二個下拉式功能表中，您可以選取一週的任何一天。 </p> <p>例如，您可以選取「每個月在第2個星期二」。 </p> </li> 
+        <li> <p><strong>每月&lt;number&gt; &lt;day of the week&gt;</strong> </p> <p>在第一個下拉式功能表中，您可以選取月份中周數的介於1到4之間的數字，或選取「最後」。 </p> <p>在第二個下拉式功能表中，您可以選取一週的任何一天。 </p> <p>例如，您可以選取「每個月在第2個星期二」。 </p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 

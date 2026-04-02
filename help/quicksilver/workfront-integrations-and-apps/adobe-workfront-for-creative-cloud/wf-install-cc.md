@@ -6,7 +6,9 @@ description: 您可以從Adobe Marketplace安裝 [!DNL Adobe Workfront for desig
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 281733f00654911e2c1114485fca018b6a0feec1
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 4%
@@ -27,7 +29,7 @@ ht-degree: 4%
 * 義大利文
 * 西班牙文
 * 日文
-* 葡萄牙文
+* 葡萄牙語
 * 簡體中文
 * 繁體中文
 * 韓文
@@ -47,7 +49,8 @@ ht-degree: 4%
  <col> 
  </col> 
  <tbody> 
- <!-- <tr> 
+ <!--
+  <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] package/td> 
    <td> <p>Any</p> </td> 
   </tr> 
@@ -56,7 +59,8 @@ ht-degree: 4%
    <td>
    <p>Standard</p>
     <p>Work or higher</p> </td> 
-  </tr> -->
+  </tr>
+  -->
   <tr> 
    <td role="rowheader">其他產品</td> 
    <td><p>除了[!DNL Adobe Creative Cloud]授權之外，您還必須有[!DNL Workfront]授權。</p></td> 
@@ -78,7 +82,7 @@ ht-degree: 4%
 
 [在此觀看教學課程影片](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
 
-[!DNL Adobe Admin Console]管理員也可以建立僅含外掛程式的套件，以分發給使用者。 如需詳細資訊，請參閱[中的 [!DNL Adobe Workfront] 為您的使用者建立 [!DNL Creative Cloud]] 套裝的[[!UICONTROL [!DNL Adobe Admin Console]]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+[!DNL Adobe Admin Console]管理員也可以建立僅含外掛程式的套件，以分發給使用者。 如需詳細資訊，請參閱[中的 [!DNL Adobe Workfront] 為您的使用者建立 [!DNL Creative Cloud]] 套裝的[！UICONTROL [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
 
 ## 個別安裝[!DNL Workfront for design and video]
 
@@ -87,7 +91,7 @@ ht-degree: 4%
 1. 前往Adobe Exchange上的[Adobe Workfront for Design and Video安裝頁面](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&workflow=share)。
 1. 在出現的對話方塊中，按一下&#x200B;**開啟[!DNL Adobe Creative Cloud]案頭應用程式**。
 1. 在[!DNL Adobe Creative Cloud]外掛程式管理員開啟後，按一下&#x200B;**[!UICONTROL 安裝]**。
-1. 讀取對話方塊中的資訊，然後按一下[確定]。**&#x200B;**
+1. 讀取對話方塊中的資訊，然後按一下[確定]。****
 1. 安裝[!DNL Workfront for design and video]後，請開啟您所需的[!DNL Creative Cloud]應用程式，並在外掛程式面板中找到[!DNL Workfront]外掛程式。
 
 1. 繼續下一節以取得如何開啟[!DNL Workfront for design and video]的資訊。

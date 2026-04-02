@@ -6,18 +6,22 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
-source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 # 要求檢視或工作區的許可權
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 >[!IMPORTANT]
 >
@@ -38,9 +42,9 @@ ht-degree: 0%
 * [共用工作區](/help/quicksilver/planning/access/share-workspaces.md)
 
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -50,7 +54,7 @@ ht-degree: 0%
 <tbody> 
     <tr> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
 <p>任何Workfront和Planning套件</p> 
 或
@@ -89,7 +93,8 @@ ht-degree: 0%
 
 +++
 
-<!--Old:
+<!--
+ Old:
  
  <table style="table-layout:auto"> 
 <col> 
@@ -157,7 +162,8 @@ ht-degree: 0%
   </tr>
  
 </tbody> 
-</table> -->
+</table>
+-->
 
 
 ## 要求檢視或工作區的許可權

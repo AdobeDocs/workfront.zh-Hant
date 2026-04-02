@@ -9,10 +9,12 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4b481215-36a1-4945-828a-1598502529d8
-source-git-commit: 6b2d93d2573d72e4390761038d8078f47d96d55e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '631'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -26,7 +28,8 @@ ht-degree: 0%
 
 Adobe Workfront伺服器利用SAML 2.0通訊協定進行驗證和授權。 更新後，新憑證的有效期為一年。 當您需要更新身分提供者上的憑證時，您會在Workfront中收到警告，提醒您必須進行此變更。 身為Workfront管理員，您可以在系統層級管理此變更。
 
-<!--Use this Important note box in the last few weeks before each update.
+<!--
+Use this Important note box in the last few weeks before each update.
 
 You must take action to update the metadata in your identity provider with the information from the renewed certificate before the specified date. Mismatched certificates can keep your users from logging in to Workfront after November 22, 2022.
  
@@ -36,16 +39,16 @@ You must take action to update the metadata in your identity provider with the i
 >
 >如果您組織的Workfront執行個體已啟用Adobe IMS，便無法使用此功能。 如需詳細資訊，請洽詢您的網路或IT管理員。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 

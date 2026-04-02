@@ -7,7 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 9d5249e5587a4291dc9020d456a320da4cdbb8f1
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2267'
 ht-degree: 0%
@@ -27,8 +29,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >預覽： 2025年7月10日
->&#x200B;>適用於所有人的生產： 2025年7月10日
->&#x200B;>[!BADGE 不在排程]{type=Neutral}內
+>適用於所有人的生產： 2025年7月10日
+>[!BADGE 不在排程]{type=Neutral}內
 
 
 在建立或編輯記錄型別時，我們已更新「進階設定」索引標籤。
@@ -45,8 +47,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >預覽： 2025年7月10日
->&#x200B;>適用於所有人的生產： 2025年7月10日
->&#x200B;>[!BADGE 不在排程]{type=Neutral}內
+>適用於所有人的生產： 2025年7月10日
+>[!BADGE 不在排程]{type=Neutral}內
 
 現在，當您在Workfront Planning中將團隊新增到記錄評論時，團隊的所有成員都會收到有關評論的應用程式內通知和電子郵件通知。 在此增強功能之前，只有個別新增到評論的使用者會收到通知。
 
@@ -57,8 +59,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >預覽： 2025年7月10日
->&#x200B;>生產快速發行： 2025年8月14日
->&#x200B;>適用於所有人的生產： 2025年10月16日
+>生產快速發行： 2025年8月14日
+>適用於所有人的生產： 2025年10月16日
 
 
 現在，當您已將群組套用至表格檢視時，將記錄新增至表格將會自動填入與您將記錄新增至的群組相關聯的欄位。
@@ -74,7 +76,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >預覽： 2025年7月9日
->&#x200B;>適用於所有人的生產： 2025年7月17日
+>適用於所有人的生產： 2025年7月17日
 
 您現在可以從記錄型別頁面上的相同按鈕共用檢視和記錄型別。 在此增強功能之前，您只能從記錄型別頁面上的「共用」按鈕和檢視索引標籤的檢視共用記錄型別。
 
@@ -84,7 +86,8 @@ ht-degree: 0%
 
 * [共用記錄型別](/help/quicksilver/planning/access/share-record-types.md)
 
-<!--## Add teams as approvers on Planning request forms
+<!--
+## Add teams as approvers on Planning request forms
 
 >[!NOTE]
 >
@@ -95,7 +98,8 @@ To make the approval process more flexible, we've added the ability to add teams
 
 Previously, only individual users could be assigned as approvers. 
 
-For more information, see [Add an approval to a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).-->
+For more information, see [Add an approval to a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+-->
 
 ## 更新共用請求表單時的體驗
 
@@ -120,7 +124,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 * 我們已針對您共用請求表單的使用者移除管理和貢獻選項。 現在，新增的使用者只能提交表單。
 * 在啟用「建立公開連結」選項後，「公開共用」索引標籤現在會顯示連結和到期日欄位。
 
-如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)。
+如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)。
 
 ## 展開和摺疊表格檢視中的所有群組
 
@@ -147,9 +151,9 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >
 >* 預覽： 2025年6月26日
 >* 每個人都要生產： 2025年6月26日
->  &#x200B;>[!BADGE 不在排程]{type=Neutral}內
+>[!BADGE 不在排程]{type=Neutral}內
 
-現在，當您連線記錄型別並將公式欄位作為查詢時，可以根據公式欄位的格式套用彙總函式(SUM、AVERAGE、MIN、MAX等)。 例如，如果公式欄位是數字，您可以使用SUM或AVG之類的函式；如果公式欄位的格式為文字，則不會應用SUM之類的彙總函式。
+現在，當您連線記錄型別並將公式欄位作為查詢時，可以根據公式欄位的格式套用彙總函式（SUM、AVERAGE、MIN、MAX等）。 例如，如果公式欄位是數字，您可以使用SUM或AVG之類的函式；如果公式欄位的格式為文字，則不會應用SUM之類的彙總函式。
 
 先前，當連線記錄型別並從連線的記錄引入查閱欄位時，您只能將彙總函式套用至常規欄位，而不能套用至公式欄位。
 
@@ -183,7 +187,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >
 >* 預覽： 2025年6月12日
 >* 每個人都要生產： 2025年6月12日
->  &#x200B;>[!BADGE 不在排程]{type=Neutral}內
+>[!BADGE 不在排程]{type=Neutral}內
 
 我們引進了一項改進，手動更新參考欄位後，可同時更新所有相互依賴的公式欄位。 與手動變更值的欄位相距2、3或4個欄位且彼此參照的公式欄位現在將自動同時更新。
 
@@ -197,7 +201,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >
 >* 預覽： 2025年6月6日
 >* 適用於所有客戶的生產： 2025年6月6日
->  &#x200B;>[!BADGE 不在排程]{type=Neutral}內
+>[!BADGE 不在排程]{type=Neutral}內
 
 我們在公式欄位中新增了下列運算式：
 
@@ -339,7 +343,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >[!NOTE]
 >
 >所有具有系統管理員和Standard授權的新使用者及現有使用者皆可看見此變更。
->&#x200B;>指派給版面配置範本的現有使用者將根據版面配置範本中定義的設定繼續檢視所有內容。
+>指派給版面配置範本的現有使用者將根據版面配置範本中定義的設定繼續檢視所有內容。
 
 如需詳細資訊，請參閱[Adobe Workfront規劃總覽](/help/quicksilver/planning/access/access-overview.md)。
 

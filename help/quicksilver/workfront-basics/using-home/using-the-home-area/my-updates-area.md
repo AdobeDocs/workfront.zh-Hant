@@ -6,19 +6,23 @@ description: 您可以使用[!UICONTROL 我的更新]區域來快速檢閱等待
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '779'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
 # 使用[!UICONTROL 我的更新]區域
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 您可以使用[!UICONTROL 我的更新]區域來快速檢閱等待您決定的核准或您已加入的交談。
@@ -29,9 +33,9 @@ ht-degree: 0%
 
 如果您的授權型別與[檢閱]不同，[!DNL Workfront]或群組管理員必須將[!UICONTROL 我的更新]區域新增到您的版面配置範本，才能在主要功能表中顯示它。 如需詳細資訊，請參閱[使用配置範本自訂[!UICONTROL 主功能表]](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,7 +56,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>[!UICONTROL 檢視]對您在對話中被標籤或需要解決核准的專案、任務、問題和檔案的許可權或更高</p> </td> 
+   <td> <p>[！UICONTROL檢視]對您在對話中被標籤或需要解決核准的專案、任務、問題和檔案的許可權或更高</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -96,15 +100,15 @@ ht-degree: 0%
     </col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL All]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL All]</strong></td> 
       <td>由其他使用者提交給您或委派給您的核准。 如需委託核准的詳細資訊，請參閱<a href="../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md" class="MCXref xref">委託核准要求</a>。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 委派核准]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL委派核准]</strong></td> 
       <td>其他使用者委派給您的核准。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 我的核准]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL我的核准]</strong></td> 
       <td> <p>核准已提交給您。 </p> <p>如需核准專案的詳細資訊，請參閱<a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">核准工作</a>。</p> </td> 
      </tr> 
     </tbody> 

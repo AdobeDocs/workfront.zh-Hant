@@ -8,10 +8,12 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -21,9 +23,11 @@ ht-degree: 1%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+-->
 
 計分卡可測量專案與專案組合先前建立之條件的符合程度。 計分卡通常可反映組織的使命、價值和策略目標。
 
@@ -38,9 +42,9 @@ ht-degree: 1%
 * 從頭開始
 * 透過複製現有的一個
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -86,21 +90,21 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Question]</td> 
+      <td role="rowheader">[！UICONTROL Question]</td> 
       <td>輸入您要納入計分卡中的問題。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 點]</td> 
+      <td role="rowheader">[！UICONTROL點]</td> 
       <td>輸入此問題的最大可能分數。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 負點]</td> 
+      <td role="rowheader">[！UICONTROL負點]</td> 
       <td>選取此選項以指出[!DNL Workfront]應該從總可能點數中減去。 負分無法新增到計分卡的最大可能點數。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 顯示型別]</td> 
-      <td>如果您想要在計分卡中顯示數值欄位，讓使用者可指定介於0到100之間的任何值，請選取<strong>[!UICONTROL Value(0-100)]</strong>。<p>或者，選取<strong>[!UICONTROL 下拉式清單]</strong>或<strong>[!UICONTROL 選項按鈕]</strong>，以建立使用者可使用該控制項指定的答案。 按一下<strong>[!UICONTROL 新增答案]</strong>，然後輸入此答案的<strong>[!UICONTROL 值]</strong> （以百分點為單位），以備回應完成。 如果您選擇100%，則會完全達到分配給此問題的點數。 如果您要指出此答案只包含分配給此問題的總點數的一部分，請選取較低的百分比值。 例如，如果您的問題值是10點，而您想要此答案攜帶其中5點，請為您的值選擇50%。</p>
-      <p>如果您要指出此答案為預設答案，請選取<strong>[!UICONTROL 預設值]</strong>。</strong></p>
+      <td role="rowheader">[！UICONTROL顯示型別]</td> 
+      <td>如果您想要在計分卡中顯示數值欄位，讓使用者可指定介於0到100之間的任何值，請選取<strong>[！UICONTROL Value(0-100)]</strong>。<p>或者，選取<strong>[！UICONTROL下拉式清單]</strong>或<strong>[！UICONTROL選項按鈕]</strong>，以建立使用者可使用該控制項指定的答案。 按一下<strong>[！UICONTROL新增答案]</strong>，然後輸入此答案的<strong>[！UICONTROL值]</strong> （以百分點為單位），以備回應完成。 如果您選擇100%，則會完全達到分配給此問題的點數。 如果您要指出此答案只包含分配給此問題的總點數的一部分，請選取較低的百分比值。 例如，如果您的問題值是10點，而您想要此答案攜帶其中5點，請為您的值選擇50%。</p>
+      <p>如果您要指出此答案為預設答案，請選取<strong>[！UICONTROL預設值]</strong>。</strong></p>
      </tr> 
     </tbody> 
    </table>

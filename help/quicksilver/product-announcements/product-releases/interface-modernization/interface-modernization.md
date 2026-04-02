@@ -5,7 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '9443'
 ht-degree: 0%
@@ -409,7 +411,8 @@ ht-degree: 0%
 
 專案清單或報表現在與Workfront其他區域的設計相符。 如需詳細資訊，請參閱[使用里程碑檢視](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)。
 
-<!--### Interface updates for the Edit Tasks box
+<!--
+### Interface updates for the Edit Tasks box
 
 **Preview release: October 2, 2025; Production release: Starting the week of October 9, 2025**
 
@@ -421,7 +424,8 @@ The following changes are included in this update:
 
 *The Resource Scope field has been removed from the Edit task box.  
 
-For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).-->
+For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+-->
 
 ### 大量編輯範本時介面更新
 
@@ -529,13 +533,15 @@ For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tas
 
 如需詳細資訊，請參閱[建立要求佇列](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
-<!--### Interface updates when bulk editing templates
+<!--
+### Interface updates when bulk editing templates
 
 **Preview release: July 31, 2025; Production release: August 7, 2025**
 
 We have updated the look and feel of the Edit templates box when editing templates in bulk from a list of templates. The organization of information on the Edit templates box now matches the single-template edit box.
 
-For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
+For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
+-->
 
 ### 多個物件上傳送更新至使用者方塊的介面更新
 
@@ -932,7 +938,8 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 
 We have updated the look and feel of the Log time box when logging time for a project, task, or issue in the Hours tab, to match the design of other areas of Workfront.  
 
-For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).-->
+For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+-->
 
 
 ### 專案的「新主題群組」和「編輯主題群組」方塊的外觀變更
@@ -1037,7 +1044,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 我們已更新與Workfront使用者相關聯之組織圖的外觀與風格，以符合Workfront其他區域的設計需求。
 
-若要檢視這項變更，請前往Workfront使用者設定檔，然後按一下左側面板中的&#x200B;**組織圖**。 (此功能是透過Workfront使用者設定檔提供，而非透過Adobe使用者設定檔提供。)
+若要檢視這項變更，請前往Workfront使用者設定檔，然後按一下左側面板中的&#x200B;**組織圖**。 （此功能是透過Workfront使用者設定檔提供，而非透過Adobe使用者設定檔提供。）
 
 如需詳細資訊，請參閱[檢視組織圖](/help/quicksilver/people-teams-and-groups/work-directly-with-others/view-the-org-chart.md)。
 
@@ -1348,7 +1355,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 

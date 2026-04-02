@@ -8,10 +8,12 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8639da14-d545-4f9a-894b-12c29699b0db
-source-git-commit: 6948f9462c59bad9e6db67d6169e5f9dec4157fe
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '267'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -19,9 +21,9 @@ ht-degree: 0%
 
 身為Adobe Workfront管理員，您可以使用存取層級來定義使用者對Adobe Workfront目標的存取權，如[存取層級總覽](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)所述。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 您必須具備下列專案才能授與使用者存取Workfront目標的許可權：
 
@@ -49,7 +51,8 @@ ht-degree: 0%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -72,7 +75,8 @@ ht-degree: 0%
    <td> <p>You must have the System Administrator access level.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 使用自訂存取層級授與使用者對Workfront目標的存取權
 

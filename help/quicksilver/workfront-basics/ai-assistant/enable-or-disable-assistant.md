@@ -5,7 +5,9 @@ description: 您可以控制組織中哪些存取層級有權存取AI助理。
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: e8e10f02f77f6c1df9f0af380eb16cc6bbc3b5d1
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 6%

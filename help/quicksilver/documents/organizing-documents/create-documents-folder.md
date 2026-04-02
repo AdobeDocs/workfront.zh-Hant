@@ -6,7 +6,9 @@ description: 檔案可整理到資料夾中。 您可以在個人的「檔案」
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
-source-git-commit: ff05270bd808d26abfed7b0d20b37f0bfc314c08
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 2%
@@ -82,7 +84,7 @@ ht-degree: 2%
 
    或
 
-   若要建立子資料夾，請選取您要建立子資料夾的資料夾，然後按一下[新增&#x200B;**] > [資料夾**]。**&#x200B;**
+   若要建立子資料夾，請選取您要建立子資料夾的資料夾，然後按一下[新增&#x200B;**] > [資料夾**]。****
 
 ### 共用資料夾
 
@@ -105,7 +107,7 @@ ht-degree: 2%
 1. 前往包含檔案的專案、任務或問題，然後在左側面板中選取&#x200B;**檔案**。
 1. 按一下您要建立子資料夾的資料夾，然後按一下&#x200B;**新增資料夾** ![新增資料夾圖示](assets/add-folder-icon.png)圖示。
    ![新增子資料夾](assets/add-subfolder.png)
-1. 輸入子資料夾的名稱，然後按一下[建立]。**&#x200B;**
+1. 輸入子資料夾的名稱，然後按一下[建立]。****
 
 ### 重新命名資料夾
 

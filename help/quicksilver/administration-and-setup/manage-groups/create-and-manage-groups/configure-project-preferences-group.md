@@ -8,7 +8,9 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2839'
 ht-degree: 2%
@@ -195,7 +197,7 @@ ht-degree: 2%
    <td role="rowheader"> <p><strong>專案時間表將自動重新計算</strong> </p> </td> 
    <td> <p>決定重新計算專案的時間表。 如需重新計算專案時間表的相關資訊，請參閱<a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">重新計算專案時間表</a>。</p> <p>預設會啟用下列選項。 您可以選取下列一或多個設定：</p> 
     <ul> 
-     <li> <p><strong>每晚</strong>：選取此項可每晚重新計算專案時間表。 您對專案所做的任何可能影響時間表的變更都不會立即顯示。 Workfront​​只會​在夜間重新計算同時符合下列兩個條件的專案的時間表：</p> <p> 
+     <li> <p><strong>每晚</strong>：選取此項可每晚重新計算專案時間表。 您對專案所做的任何可能影響時間表的變更都不會立即顯示。 ​​只會​在夜間重新計算同時符合下列兩個條件的專案的時間表：</p> <p> 
        <ul> 
         <li>具有目前狀態</li> 
         <li>在過去3個月內已更新</li> 
@@ -215,10 +217,10 @@ ht-degree: 2%
    <td role="rowheader"> <p><strong>將一位使用者指派給任務時，請使用……</strong>的排程 </p> </td> 
    <td> <p>如果專案未指派排程，或指派給其任務的使用者未指派排程，[!DNL Workfront]會使用系統預設排程來計算任務的時間表。</p>
 
-<p>如果您將一位使用者指派至專案中的任務，且專案與使用者都有相關的排程，則[!UICONTROL Workfront]會使用下列排程：</p> 
+<p>如果您將一位使用者指派至專案中的任務，且專案與使用者都有相關的排程，則[！UICONTROL Workfront]會使用下列排程：</p> 
     <ul> 
-     <li><strong>[!UICONTROL User]</strong>：指派的使用者計算時間表的工作排程。</li> 
-     <li><strong>[!UICONTROL 專案]</strong>：計算任務時間表之專案的排程。</li> 
+     <li><strong>[！UICONTROL User]</strong>：指派的使用者計算時間表的工作排程。</li> 
+     <li><strong>[！UICONTROL專案]</strong>：計算任務時間表之專案的排程。</li> 
     </ul> <p>如需排程的詳細資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">建立排程</a>。</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -245,7 +247,7 @@ ht-degree: 2%
 
 ### 業務案例 {#business-cases}
 
-您可以為與群組關聯的新建立專案建立業務案例，以提交專案請求。 您可以定義偏好設定來決定可在&#x200B;**業務案例**&#x200B;表單上看到的區域。 建議您啟用這些選項，以便其他工具(例如Portfolio Optimizer)能夠正確更新。 如需每個欄位顯示內容的詳細資訊，請參閱[定義業務案例：文章索引](../../../manage-work/projects/define-a-business-case/define-business-case.md)。
+您可以為與群組關聯的新建立專案建立業務案例，以提交專案請求。 您可以定義偏好設定來決定可在&#x200B;**業務案例**&#x200B;表單上看到的區域。 建議您啟用這些選項，以便其他工具（例如Portfolio Optimizer）能夠正確更新。 如需每個欄位顯示內容的詳細資訊，請參閱[定義業務案例：文章索引](../../../manage-work/projects/define-a-business-case/define-business-case.md)。
 
 Workfront管理員啟用業務案例的區段後，專案所有者就可以在專案層級建立業務案例。 如需建立業務案例的相關資訊，請參閱[為專案建立業務案例](../../../manage-work/projects/define-a-business-case/create-business-case.md)。
 

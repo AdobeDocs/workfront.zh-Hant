@@ -6,10 +6,12 @@ description: 您可以使用Adobe Workfront外掛程式更新您的工作。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '195'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
@@ -19,9 +21,9 @@ ht-degree: 3%
 
 {{cc-app-list}}
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 
 <table style="table-layout:auto"> 
@@ -31,7 +33,8 @@ ht-degree: 3%
  </col> 
  <tbody> 
   <tr> 
-   <!--<td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <!--
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td>Any</td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -39,14 +42,15 @@ ht-degree: 3%
    <td> 
    <p>Standard</p>
    <p>Work or higher</p> </td> 
-  </tr> -->
+  </tr>
+  -->
   <tr> 
    <td role="rowheader">其他產品</td> 
    <td>除了[!DNL Adobe Creative Cloud]授權之外，您還必須有[!DNL Workfront]授權。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>[!UICONTROL View]存取您要更新的物件。 </p></td> 
+   <td> <p>[！UICONTROL View]存取您要更新的物件。 </p></td> 
   </tr> 
  </tbody> 
 </table>

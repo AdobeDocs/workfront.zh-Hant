@@ -8,10 +8,12 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -29,9 +31,9 @@ ht-degree: 1%
 
 如需有關所有稽核記錄型別及其產生原因的資訊，請參閱[稽核記錄概觀](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 
 <table style="table-layout:auto"> 
@@ -39,7 +41,7 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -60,7 +62,8 @@ ht-degree: 1%
 
 +++
 
-<!--Old: 
+<!--
+Old: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -82,7 +85,8 @@ ht-degree: 1%
    <td><p>System Administrator</p></td>
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 檢視稽核記錄
 
@@ -109,7 +113,7 @@ ht-degree: 1%
 
    ![稽核記錄](assets/audit-logs.png)
 
-1. 按一下&#x200B;**套用**。
+1. 按一下「**套用**」。
 1. （選擇性）按一下&#x200B;**清除**&#x200B;以重設對篩選器所做的變更。
 
 ## 匯出稽核記錄

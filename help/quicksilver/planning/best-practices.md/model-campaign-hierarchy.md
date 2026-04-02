@@ -6,7 +6,9 @@ role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 02e3b55f-9188-42bf-8d0b-c9fed86c63c4
-source-git-commit: a5f33f914dabaa9368dea919510375bcb6ee03e2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 0%
@@ -51,7 +53,7 @@ ht-degree: 0%
 
 以下是成功的Planning實作層級，以及您可能會考慮建立以在此過程中支援您的成品：
 
-* **第1級：行銷活動(Workfront規劃)**
+* **第1級：行銷活動（Workfront規劃）**
 
    * **焦點：**&#x200B;定義長期策略支柱與年度計畫。 例如，為您的組織定義名為「FY26全球品牌認知度」的計畫。 這是指定時間範圍的焦點。 建立行銷活動以支援此計畫。
 
@@ -59,13 +61,13 @@ ht-degree: 0%
 
   如需詳細資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
 
-* **第2級：通路策略(Workfront規劃)**
+* **第2級：通路策略（Workfront規劃）**
 
    * **焦點：**&#x200B;定義概述特定管道之「內容」的營運簡介。 這是工作開始前策略性意圖的最後一層。 例如，建立「第1季社群媒體閃爍」策略。 然後，您就可以將其與行銷活動配對。
 
    * **角色：**&#x200B;主要利害關係人是行銷營運負責人、頻道負責人或行銷活動經理。
 
-* **第3級：專案(規劃與Workfront)**
+* **第3級：專案（規劃與Workfront）**
 
    * **焦點：**&#x200B;在將會最終完成您方案的確切體驗或活動上執行。 有些交付專案是特定的，例如社交貼文、電子郵件、網頁。
 
@@ -131,7 +133,7 @@ ht-degree: 0%
 
 ### 將功能輻條定義為團隊的工作區
 
-功能單位(社交、Creative、電子郵件)有各自的工作區來管理其策略。
+功能單位（社交、Creative、電子郵件）有各自的工作區來管理其策略。
 
 * **主要位置：**&#x200B;這些工作區是本機專案團隊執行的個別重心。
 
@@ -208,7 +210,8 @@ ht-degree: 0%
 * **不要建立獨立單位：**&#x200B;請確認您的記錄型別是跨工作區共用的，因此團隊不會重新輸入相同的資料。
 
 
-<!--original content:
+<!--
+original content:
 
 
 ## Goal 

@@ -9,18 +9,22 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2166'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 # 設定群組的任務和問題偏好設定
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 如果貴組織中的群組需要以獨立於系統層級設定方式設定任務或問題偏好設定，Adobe Workfront管理員可以解鎖偏好設定。 然後，作為群組管理員，您可以設定群組的偏好設定，這將會影響與群組相關的所有任務或問題。
 
@@ -41,16 +45,16 @@ ht-degree: 2%
 >* Workfront管理員在系統層級解除鎖定偏好設定後，您可以對其進行設定，然後將其鎖定，以確保您的群組及其子群組中的每個人都使用相同的設定。 此功能與Workfront管理員必須為系統中的每個人設定並鎖定偏好設定的功能平行。 如需詳細資訊，請參閱[鎖定或解除鎖定子群組的專案、任務或問題偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md)。
 >
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -81,7 +85,7 @@ ht-degree: 2%
 
 1. 按一下您要為其設定解除鎖定任務和問題偏好設定的群組名稱。
 1. 在顯示的群組頁面上，在左側面板中按一下&#x200B;**任務和問題偏好設定**。
-1. 在出現的頁面上，繼續這些步驟下列出的5個區段之一，以設定[新增任務預設值]、[問題]、[刪除]、[實際日期]和[存取]區域的設定，然後按一下[儲存]。**&#x200B;**
+1. 在出現的頁面上，繼續這些步驟下列出的5個區段之一，以設定[新增任務預設值]、[問題]、[刪除]、[實際日期]和[存取]區域的設定，然後按一下[儲存]。****
 
    如果您將滑鼠游標停留在鎖定圖示![鎖定圖示](assets/lock-toggle-button-dimmed.png)上以取得需要設定的偏好設定，且顯示工具提示以告知您已鎖定，您可以要求Workfront管理員為組織中的所有群組解除鎖定。
 
@@ -93,7 +97,7 @@ ht-degree: 2%
    * [移動](#move)
    * [實際日期](#actual-dates)
    * [委派](#delegation)
-   * [存取](#access)
+   * [存取權](#access)
 
 ### 新任務預設值 {#new-task-defaults}
 
@@ -140,9 +144,11 @@ ht-degree: 2%
        <ul> 
         <li><strong>保留原始問題並將其解決方案連結至任務</strong>：當您轉換問題時，在任務完成之前，它仍會被視為問題。 任務完成後，問題的狀態會自動變更為「已關閉」。</li> 
         <li><strong>允許主要連絡人存取任務</strong>：讓主要連絡人（問題建立者）存取任務，以檢閱任務、更新並隨時瞭解其進度</li> 
-        <li> <p><strong>允許在轉換期間變更這些設定</strong>：允許轉換問題的使用者在轉換問題至任務期間變更這些選項。</p> <!--
+        <li> <p><strong>允許在轉換期間變更這些設定</strong>：允許轉換問題的使用者在轉換問題至任務期間變更這些選項。</p>
+        <!--
           Screenshot when possible</p>
-         --> </li> 
+         -->
+         </li>
        </ul> </td> 
      </tr> 
      <tr> 
@@ -168,7 +174,7 @@ ht-degree: 2%
       <td> <p> 可讓您確定您是否允許刪除記錄時數的任務或問題。 依預設，會選取此選項。</p> 
        <div> 
         <p><b>秘訣</b>：此設定也適用於刪除有任務或問題且有記錄時數的專案。 此設定不適用於直接為專案記錄時間的刪除專案。 </p> 
-        <p>請考量下列事項：</p> 
+        <p>考慮以下事項：</p> 
         <ul> 
          <li> <p>選取後，當您刪除任務或問題時，會收到資訊性警告。 警告會提醒您，如果任務或問題已記錄時數，則會將其移至專案或刪除。 您可以在「設定」的「時程表和時數」偏好設定區域中，設定是否要刪除時數或將其移至專案。 確認您已看到警告後，該任務或問題即被刪除。 如需有關設定時程表和時數偏好設定的詳細資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">設定時程表和時數偏好設定</a>。 </p> <p>提示： <span>當您刪除包含已記錄時數的任務與問題的專案時，會刪除記錄時數，或根據設定</span>的「時程表與時數偏好設定」區域中的設定保留記錄時數。 </p> </li> 
          <li><span>當您取消選取此選項時，當您刪除具有記錄時數的任務或問題時，或是當您刪除具有記錄其任務或問題的時數的專案時，會收到禁止性警告</span> <span>。</span>警告指定管理員不允許刪除記錄時數的任務或問題。 無法刪除任務、問題<span>或為任務和問題</span>記錄時數的專案。 </li> 
@@ -188,7 +194,7 @@ ht-degree: 2%
      <tr> 
       <td role="rowheader">允許使用者移動具有時數記錄的任務和問題</td> 
       <td> <p> 可讓您確定您是否允許移動記錄時數的任務或問題。 依預設，會選取此選項。</p> 
-       <p>請考量下列事項：</p> 
+       <p>考慮以下事項：</p> 
         <ul> 
          <li> 選取後，您可以移動已記錄時間的任務和問題。 小時也會隨著任務或問題移動。 </li>
       <li>取消選取此選項時，當您移動具有記錄時數的任務或問題時，會收到禁止性警告。 警告指定管理員不允許移動記錄時數的任務或問題。 無法將記錄時數的任務或問題移至其他專案。 即使取消選取此選項，您也可以在相同專案中移動具有記錄時數的任務。  </li></ul>
@@ -268,7 +274,7 @@ ht-degree: 2%
 * [委派工作概覽](../../../manage-work/delegate-work/delegate-work-overview.md)
 * [委派任務和問題](../../../manage-work/delegate-work/how-to-delegate-work.md)
 
-### 存取 {#access}
+### 存取權 {#access}
 
 <table style="table-layout:auto"> 
     <col> 

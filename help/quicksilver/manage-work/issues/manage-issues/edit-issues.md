@@ -8,7 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 3%
@@ -19,35 +21,37 @@ ht-degree: 3%
 
 <!--Audited: 10/2025-->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>-->
+</div>
+-->
 
 您可以編輯您已建立的問題資訊，或其他使用者已建立的問題（如果他們與您共用問題）的相關資訊。
 
 您可以編輯單一問題，也可以編輯清單中的問題。 如需有關編輯清單中問題的資訊，請參閱[編輯清單中的問題](../../../manage-work/issues/manage-issues/edit-issues-in-a-list.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> <ul><li>投稿人或以上</li>
    <li>輕度或以上以編輯任務或專案的問題區段中的問題</li></ul>
-   或：
+   或:
    <ul><li>要求或更高版本</li> <li>檢閱或更高版本以編輯任務或專案的問題區段中的問題</li></ul> </td> 
   </tr> 
   <tr> 
@@ -72,7 +76,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 +++
 
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -105,7 +110,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    <p>Manage permissions to an issue to edit all the fields in the Details area or in the Edit Issue box</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 編輯問題時的限制
 
@@ -348,7 +354,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    >* 將工作專案重新指派給作用中的資源。
    >* 將已停用團隊中的使用者與作用中團隊建立關聯，並將工作專案重新指派給作用中團隊。
 
-   <!--1. In the Production environment:
+   <!--
+   1. In the Production environment:
          1. Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue.
          1. Update the following fields: 
          <table style="table-layout:auto"> 
@@ -368,7 +375,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
             Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
          </tr> 
          </tbody> 
-         </table>-->
+         </table>
+         -->
 
 
 1. （選擇性）按一下&#x200B;**指派給我**&#x200B;以指派問題給您自己。

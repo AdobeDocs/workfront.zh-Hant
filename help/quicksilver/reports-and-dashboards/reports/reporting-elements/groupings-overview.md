@@ -7,7 +7,9 @@ description: 您可以新增群組來管理報告和清單中資訊的配置。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: d050372e-c4a0-4c49-b220-5b35334ab8d0
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 0%
@@ -90,7 +92,8 @@ ht-degree: 0%
 如需有關移除群組的資訊，請參閱文章[移除篩選器、檢視和群組](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)。
 
 
-<!--Original note
+<!--
+Original note
 
 The following exceptions apply for parent objects (for example, parent tasks) when you are aggregating values for the following fields in groupings:
 All the number and currency fields except Actual Hours (for example, Planned/ Actual Labor Cost, Planned/ Actual Expense Cost, Planned/ Actual Cost, Planned Hours) aggregate only the values for the children tasks, and standalone tasks. They do not aggregate the values for the parent tasks or parents of parents.

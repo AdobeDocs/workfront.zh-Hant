@@ -8,7 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: c13d893ba3f8748666c8c2d36d66367a6ec4e855
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 5%
@@ -55,7 +57,7 @@ ht-degree: 5%
 
 1. 按一下您想要與條件關聯的物件型別（**專案**、**任務**&#x200B;或&#x200B;**問題**）的標籤。
 
-1. 若要建立新條件，請按一下[新增條件] **&#x200B;**。
+1. 若要建立新條件，請按一下[新增條件] ****。
 
    或
 

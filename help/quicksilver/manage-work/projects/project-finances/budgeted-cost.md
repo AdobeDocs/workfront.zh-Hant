@@ -7,7 +7,9 @@ description: 使用使用率報告計算預算成本追蹤專案進度
 author: Lisa
 feature: Work Management
 exl-id: e96fe38f-58c2-4938-9d2d-81d1109123fa
-source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 2%
@@ -75,9 +77,11 @@ ht-degree: 2%
     </tr> 
     <tr> 
      <td>專案預算成本</td> 
-     <td> <!--
+     <td>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Estimates report (NOTE: this was removed with flash)</p>
-      --> <p>專案報告</p> <p>專案（財務資料）報表</p> <p>任務報告</p> <p>問題報告</p> <p>已編列預算時數報告</p> <p>如需有關建立報告的詳細資訊，請參閱文章<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">建立自訂報告</a>。</p> </td> 
+      -->
+      <p>專案報告</p> <p>專案（財務資料）報表</p> <p>任務報告</p> <p>問題報告</p> <p>已編列預算時數報告</p> <p>如需有關建立報告的詳細資訊，請參閱文章<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">建立自訂報告</a>。</p> </td>
     </tr> 
    </tbody> 
   </table>

@@ -6,7 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 1%
@@ -111,7 +113,7 @@ ht-degree: 1%
 
    或
 
-   按一下[共用]以共用表單，然後按[複製]連結&#x200B;**。**&#x200B;**&#x200B;**
+   按一下[共用]以共用表單，然後按[複製]連結&#x200B;**。******
 1. （選用）使用者使用您共用的連結並提交請求後，Workfront Planning會傳送核准應用程式內通知及電子郵件給核准者。
 
    >[!NOTE]
@@ -170,7 +172,7 @@ ht-degree: 1%
    >   * 如果符合自訂規則，則預設不會套用至請求核准工作流程。 只有相符的自訂規則才適用於核准，而預設規則會被忽略。
    >   * 如果符合多個自訂規則，則會套用順序中的第一個自訂規則。 在此情況下，預設核准不適用（如果有的話）。
 
-1. 按一下[儲存]儲存核准規則。**&#x200B;**
+1. 按一下[儲存]儲存核准規則。****
 1. （選擇性）如果您之前從未共用過請求表單，請按一下&#x200B;**發佈**。
 
 </div>

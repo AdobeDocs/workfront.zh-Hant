@@ -6,10 +6,12 @@ description: 您可以從[!UICONTROL 首頁]區域建立工作專案和專案。
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '816'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -23,9 +25,9 @@ ht-degree: 2%
 * 將任務和問題新增到特定專案
 * 從範本、空白專案建立專案，或匯入MS專案。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,7 +41,7 @@ ht-degree: 2%
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權</strong></td> 
    <td>
     <p>標準</p> 
-    <p>工作或更高</p> </td> 
+    <p>工作或更高層級</p> </td> 
   </tr> 
     <tr> 
    <td role="rowheader"><strong>存取層級設定</strong></td> 
@@ -51,7 +53,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>[!UICONTROL Edit]或更新的任務存取權</p> </td> 
+   <td> <p>[！UICONTROL Edit]或更新的任務存取權</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -74,7 +76,7 @@ ht-degree: 2%
 若要建立待辦事項，請執行下列步驟：
 
 1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表圖示](assets/main-menu-icon.png)，或左上角的&#x200B;**主功能表** ![主功能表行圖示](assets/lines-main-menu.png) （如果可用），然後按一下&#x200B;**[!UICONTROL 首頁]**。
-1. （視條件而定）按一下「自訂」**&#x200B;**，然後按一下「待辦事項」**&#x200B;**，將待辦事項Widget新增至您的主畫面。
+1. （視條件而定）按一下「自訂」****，然後按一下「待辦事項」****，將待辦事項Widget新增至您的主畫面。
 1. 移至&#x200B;**待辦事項** Widget，然後按一下&#x200B;**新增待辦事項**。
 1. 輸入個人待辦事項的名稱，然後按一下「輸入」。
 1. （選擇性）按一下&#x200B;**日期**&#x200B;圖示![日期圖示](assets/date-icon.png)以新增專案的到期日。
@@ -164,7 +166,8 @@ ht-degree: 2%
 You can create a board directly from the Home area:
 
 1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
-1. (Conditional) Add the **Boards** widget to your home screen. Click **Customize**, and find **Boards**. -->
+1. (Conditional) Add the **Boards** widget to your home screen. Click **Customize**, and find **Boards**.
+-->
 
 
 
@@ -182,4 +185,5 @@ You can create a board directly from the Home area:
 1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. Go to the to-do widget.
 1. Edit the item name.
-1. Click on the **Date** icon ![Date icon](assets/date-icon.png) to add or adjust a due date. -->
+1. Click on the **Date** icon ![Date icon](assets/date-icon.png) to add or adjust a due date.
+-->

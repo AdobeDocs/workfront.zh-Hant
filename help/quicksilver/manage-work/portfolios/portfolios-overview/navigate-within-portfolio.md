@@ -6,10 +6,12 @@ description: 在投資組合中導覽
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: 6948f9462c59bad9e6db67d6169e5f9dec4157fe
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '583'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -25,10 +27,10 @@ ht-degree: 0%
 
 如需投資組合的詳細資訊，請參閱[瞭解投資組合方法](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)。
 
-## 存取需求
+## 存取權要求
 
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,16 +42,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>[!UICONTROL 標準] </p>
-   <p>[!UICONTROL 計畫] </p> </td> 
+   <td> <p>[！UICONTROL標準] </p>
+   <p>[！UICONTROL計畫] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL Edit]對[!UICONTROL Projects]和[!UICONTROL Portfolios]的存取權</p>  </td> 
+   <td> <p>[！UICONTROL Edit]對[！UICONTROL Projects]和[！UICONTROL Portfolios]的存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合的[!UICONTROL Manage]許可權</p> <p>檢視專案或更高許可權</p>  </td> 
+   <td> <p>投資組合的[！UICONTROL Manage]許可權</p> <p>檢視專案或更高許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +60,8 @@ ht-degree: 0%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -84,7 +87,8 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## 在投資組合中導覽
 

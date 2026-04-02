@@ -7,7 +7,9 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1617'
 ht-degree: 3%
@@ -20,13 +22,15 @@ ht-degree: 3%
 
 <!--remove production/ preview and old/ new experience references at prod-->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md). 
 
-</div>-->
+</div>
+-->
 
 您可以將任務指派給使用者、工作角色或專案團隊，以指出負責完成任務的人員。 您可以一次將任務指派給多個資源。
 
@@ -100,8 +104,10 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 
 * 團隊不能是任務或問題的主要受指派人。 只有使用者或工作角色可以指定為任務或問題上的主要角色。
 
-<!-- If a task is assigned to multiple teams, the primary team sees the Work On It button. waiting on team to verify if this is true. (Courtney)
-You cannot make a team be a Primary on a task/ issue. (Alina) -->
+<!--
+ If a task is assigned to multiple teams, the primary team sees the Work On It button. waiting on team to verify if this is true. (Courtney)
+You cannot make a team be a Primary on a task/ issue. (Alina)
+-->
 
 * 專案上的任務和問題可能首先指派給一個或多個團隊或工作角色。 當專案準備開始時，他們可能需要也被指派給使用者：
 
@@ -244,7 +250,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
 1. 為選取的任務指定下列欄位：
 
-   * 將游標暫留在指派名稱上，然後按一下[設為主要]，指出哪個受指派人是工作的擁有者。**&#x200B;**
+   * 將游標暫留在指派名稱上，然後按一下[設為主要]，指出哪個受指派人是工作的擁有者。****
    * **期間類型**
 
      如需有關工作的期間型別資訊，請參閱[工作期間與期間型別概觀](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)。
@@ -275,7 +281,8 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 -->
 
 
-<!--Assigning multiple tasks in bulk from a list differs depending on which environment you choose. 
+<!--
+Assigning multiple tasks in bulk from a list differs depending on which environment you choose. 
 
 ### Assign multiple tasks in bulk from a list in the Production environment
 

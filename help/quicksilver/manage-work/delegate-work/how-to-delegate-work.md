@@ -6,7 +6,9 @@ description: 您不在辦公室時，可以暫時委派指派給您的工作。 
 author: Becky
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1547'
 ht-degree: 1%
@@ -84,7 +86,8 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 +++
 
-<!--note from the table for Object permissions:
+<!--
+note from the table for Object permissions:
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project Owner (NOTE: you cannot delegate projects yet)</p>
     -->
 
@@ -172,7 +175,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 1. 移至&#x200B;[!UICONTROL **首頁**]&#x200B;區域，然後按一下下列任一Widget中的&#x200B;[!UICONTROL **編輯委派**]： **我的工作**、**我的任務**&#x200B;或&#x200B;**我的問題**。
 1. 在[!UICONTROL 停止委派任務和問題]方塊中，執行下列任一項作業：
-   * 修改開始日期&#x200B;[!UICONTROL **或**]&#x200B;結束日期&#x200B;[!UICONTROL **&#x200B;**]
+   * 修改開始日期&#x200B;[!UICONTROL **或**]&#x200B;結束日期&#x200B;[!UICONTROL ****]
    * 按一下&#x200B;[!UICONTROL **停止委派**]
 
    >[!TIP]
@@ -191,7 +194,8 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 ## 找出委派的工作和委派資訊
 
-<!--(if this was released, make sure that viewing delegated approvals has not changed, as documented here: /Content/Review and approve work/Manage Approvals/delegate-approval-requests.html) 
+<!--
+(if this was released, make sure that viewing delegated approvals has not changed, as documented here: /Content/Review and approve work/Manage Approvals/delegate-approval-requests.html) 
 -->
 
 委派任務和問題時，[!DNL Workfront]中有數個區域可供您檢視委派的工作或委派者。

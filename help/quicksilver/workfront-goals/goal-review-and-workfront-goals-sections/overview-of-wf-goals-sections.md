@@ -7,7 +7,9 @@ description: 您可以存取目標或個別目標的清單，並從Adobe Workfro
 author: Alina
 feature: Workfront Goals
 exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 1%
@@ -27,7 +29,8 @@ ht-degree: 1%
 >如需存取Workfront目標的詳細資訊，請參閱[使用Workfront目標的需求](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)。
 
 
-<!--Old:
+<!--
+Old:
 
 >[!IMPORTANT]
 >
@@ -44,7 +47,8 @@ ht-degree: 1%
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   -->
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
 
 Workfront管理員授與您存取Workfront目標的許可權後，您就可以檢視您或貴組織中其他在Workfront目標區域中建立的目標。
 

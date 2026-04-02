@@ -8,7 +8,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1711'
 ht-degree: 1%
@@ -170,7 +172,7 @@ ht-degree: 1%
 
 1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![設定圖示](/help/_includes/assets/gear-icon-setup.png)。
 1. 在左側導覽中選取&#x200B;**[!UICONTROL 檔案]**，然後選取&#x200B;**[!UICONTROL 雲端提供者]**。
-1. 請確定&#x200B;**[!DNL SharePoint]**&#x200B;選項和&#x200B;**[!UICONTROL [!DNL SharePoint] (Graph API)]**&#x200B;選項皆已啟用。
+1. 請確定&#x200B;**[!DNL SharePoint]**&#x200B;選項和&#x200B;**[!UICONTROL [!DNL SharePoint](Graph API)]**&#x200B;選項皆已啟用。
 1. 按一下「**[!UICONTROL 儲存]**」。
 1. 在左側導覽中選取&#x200B;**[!UICONTROL 檔案]**，然後選取&#x200B;**[!UICONTROL [!DNL SharePoint]整合]**。
 1. 選取清單左側的核取記號，以取得所有現有的整合，然後選取&#x200B;**[!UICONTROL 停用]**。
@@ -185,9 +187,11 @@ ht-degree: 1%
 >
 > 因為[!DNL SharePoint]使用者端密碼是由[!DNL Microsoft]處理，所以使用者端密碼功能和程式可能會根據[!DNL SharePoint]對[!DNL Microsoft]所做的更新而變更。 請一律檢視[!DNL Microsoft]檔案，以瞭解[!DNL SharePoint]中程式和功能的最新資訊。
 
-<!--1. Go to the site that your [!DNL SharePoint] integration uses. This may be a site that you created when setting up the integrations, or it may be your organization's root site.
+<!--
+1. Go to the site that your [!DNL SharePoint] integration uses. This may be a site that you created when setting up the integrations, or it may be your organization's root site.
 
-1. Add `/_layouts/15/appregnew.aspx` to the end of the URL in the search bar at the top of your browser window.-->
+1. Add `/_layouts/15/appregnew.aspx` to the end of the URL in the search bar at the top of your browser window.
+-->
 
 1. 產生新的使用者端密碼，如[取代 [!DNL SharePoint] 增益集](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret)中即將到期的使用者端密碼。
 1. 將此使用者端密碼複製到安全位置。
@@ -428,19 +432,19 @@ For instructions, see [Link an external document to [!DNL Workfront]](../../docu
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 設計]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL設計]</p> </td> 
    <td> <p>可以檢視、新增、更新、刪除、核准和自訂</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 編輯]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL編輯]</p> </td> 
    <td> <p>可以新增、編輯和刪除清單；可以檢視、新增、更新和刪除清單專案和檔案</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Contribute]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL Contribute]</p> </td> 
    <td> <p>可以檢視、新增、更新及刪除清單專案和檔案</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 檢視]</p> </td> 
+   <td role="rowheader"> <p>[！UICONTROL檢視]</p> </td> 
    <td> <p>可以檢視頁面、清單專案和檔案（具有伺服器端檔案處理常式的檔案型別可以在瀏覽器中檢視，但不能下載）</p> </td> 
   </tr> 
  </tbody> 
@@ -483,7 +487,8 @@ This can be caused by a number of things, originating in either [!DNL Workfront]
 
   若要在[!DNL SharePoint]中驗證，請在SharePoint中檢查網站集合的許可權。
 
-<!--* The [!DNL SharePoint] Site App must have access to the site collection.
+<!--
+* The [!DNL SharePoint] Site App must have access to the site collection.
 
   To verify this in [!DNL SharePoint]:
 
@@ -511,4 +516,5 @@ This can be caused by a number of things, originating in either [!DNL Workfront]
 
 #### Solution:
 
-This error might occur if one of the sites configured in the [!UICONTROL Visible Site Collections] list has been deleted in Sharepoint. Check the [!UICONTROL Visible Site Collections] list, and remove any sites that have been deleted in Sharepoint.-->
+This error might occur if one of the sites configured in the [!UICONTROL Visible Site Collections] list has been deleted in Sharepoint. Check the [!UICONTROL Visible Site Collections] list, and remove any sites that have been deleted in Sharepoint.
+-->

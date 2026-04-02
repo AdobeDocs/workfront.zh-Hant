@@ -7,7 +7,9 @@ description: 請檢閱本文，以更加瞭解Kanban展示板的運作方式。
 author: Courtney
 feature: Agile
 exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%

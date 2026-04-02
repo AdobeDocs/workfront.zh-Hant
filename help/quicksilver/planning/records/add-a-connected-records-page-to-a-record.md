@@ -6,7 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5e0be9d9-efa5-4b16-bd56-f9c85bc57ced
-source-git-commit: b2f1bbfbbec23a5400552eb0f989e0a0dc58413c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1843'
 ht-degree: 0%
@@ -15,9 +17,11 @@ ht-degree: 0%
 
 # 將「連線的記錄」頁面新增至記錄
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 您可以在Adobe Workfront Planning中將連線記錄頁面的頁簽新增至記錄，以檢視連線記錄或物件的資訊。 這會將表格檢視中的連線記錄新增至索引標籤。
 
@@ -76,7 +80,7 @@ ht-degree: 0%
    <ul><li><p>Adobe Experience Manager Assets授權及AEM Assets與Workfront之間的整合，用於連結AEM資產與Planning記錄型別。</p>
    <p>如需詳細資訊，請參閱<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 連線記錄型別與GenStudio Brands的Adobe GenStudio for Performance Marketing授權</p>
-   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
+   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
    </td> 
   </tr>
 
@@ -151,7 +155,7 @@ ht-degree: 0%
 
    或
 
-   暫留在索引標簽名稱上，然後按一下[其他] **&#x200B;**&#x200B;![&#x200B; [其他]功能表](assets/more-menu.png)，然後按一下[重新命名] **以重新命名為新的連線記錄頁面索引標籤。**
+   暫留在索引標簽名稱上，然後按一下[其他] **** ![ [其他]功能表](assets/more-menu.png)，然後按一下[重新命名] **以重新命名為新的連線記錄頁面索引標籤。**
 
 1. （選擇性）將游標暫留在連線記錄頁面索引標簽名稱上，按一下&#x200B;**更多** ![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**刪除**&#x200B;以移除至索引標籤。
 
@@ -309,7 +313,7 @@ When you create a connected records page for connected Planning records in the P
    * 按一下&#x200B;**新增列**&#x200B;以建立沒有範本的專案。 新專案會自動連線到目前的記錄。
 
      如需詳細資訊，請參閱[當您將Workfront物件連線至記錄時，從Workfront Planning建立物件](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)。
-   * 按一下檢視右上角的&#x200B;**建立記錄**&#x200B;以新增現有專案。 專案會立即連線至選取的記錄。
+   * 按一下檢視右上角的**建立記錄**以新增現有專案。 專案會立即連線至選取的記錄。
 
    * 將滑鼠懸停在清單中的專案名稱上，然後按一下&#x200B;**更多**&#x200B;功能表[更多](assets/more-menu.png)，然後按一下&#x200B;**檢視**&#x200B;以在另一個索引標籤中開啟專案
 
@@ -318,7 +322,7 @@ When you create a connected records page for connected Planning records in the P
      選取一或多個專案，然後在清單底部的動作列按一下&#x200B;**刪除**&#x200B;或&#x200B;**中斷連線**，將專案從清單中移除。
 
 
-   * 按一下[檢視]下拉式功能表，然後按一下[新檢視]，為頁面新增檢視，然後執行下列動作，或按一下新名稱右邊的[其他] &lbrace;3&rbrack; **[更多]功能表**，然後[重新命名] **&#x200B;**、[共用] ![或[刪除] &#x200B;](assets/more-menu.png)**檢視。**&#x200B;**&#x200B;**&#x200B;**&#x200B;**
+   * 按一下[檢視]下拉式功能表，然後按一下[新檢視]，為頁面新增檢視，然後執行下列動作，或按一下新名稱右邊的[其他] {3] **[更多]功能表**，然後[重新命名] ****、[共用] ![或[刪除] ](assets/more-menu.png)**檢視。**********
 
      您無法重新命名、共用或刪除您沒有管理許可權的系統檢視或檢視。
 
@@ -332,7 +336,8 @@ When you create a connected records page for connected Planning records in the P
 
    如需有關管理清單檢視中物件的詳細資訊，請參閱[管理清單檢視](/help/quicksilver/planning/views/manage-the-list-view.md)。
 
-<!-- this is repetitive from an earlier section above: 
+<!--
+ this is repetitive from an earlier section above: 
 
 ## Manage multiple views from the connected records page
 
@@ -361,13 +366,16 @@ To manage multiple views from the connected records page:
    * **Export** 
    * **Delete**
 
-   <!--not possible right now: * **Duplicate**. For more information, see [Duplicate record views](/help/quicksilver/planning/views/duplicate-record-views.md).
+   <!--
+   not possible right now: * **Duplicate**. For more information, see [Duplicate record views](/help/quicksilver/planning/views/duplicate-record-views.md).
       >[!TIP]
       >
-      >Duplicating a view from Connected records pages makes it available in all other areas of Workfornt planning, when viewing the same record types. -->
+      >Duplicating a view from Connected records pages makes it available in all other areas of Workfornt planning, when viewing the same record types.
+      -->
 
 
-<!--No longer possible: 1. (Optional and conditional) When you create a connected records page for the following Workfront object types:
+<!--
+No longer possible: 1. (Optional and conditional) When you create a connected records page for the following Workfront object types:
          * Portfolios
          * Programs
          * Groups

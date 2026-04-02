@@ -7,7 +7,9 @@ description: 當結果、活動和專案不再相關時，您可以從Adobe Work
 author: Alina
 feature: Workfront Goals
 exl-id: 0e064dbd-6168-47b4-98ab-b5c0481e839e
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 3%
@@ -16,7 +18,8 @@ ht-degree: 3%
 
 # 從Adobe Workfront目標中的目標移除進度指示器
 
-<!-- for goal redesign PRODUCTION RELEASE: Should this article be called "Remove or disconnect progress indicators from goals" when this is available to ALL progress indicators (including "disconnect goals")-- if yes, updte the title everywhere else where this is linked?
+<!--
+ for goal redesign PRODUCTION RELEASE: Should this article be called "Remove or disconnect progress indicators from goals" when this is available to ALL progress indicators (including "disconnect goals")-- if yes, updte the title everywhere else where this is linked?
 -->
 
 如果結果、活動和專案不再相關，您可以從目標中將其移除。
@@ -85,7 +88,8 @@ ht-degree: 3%
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -139,7 +143,8 @@ ht-degree: 3%
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## 先決條件
 

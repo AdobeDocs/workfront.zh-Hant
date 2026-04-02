@@ -6,10 +6,12 @@ description: 前置任務是指其他任務需依賴完成的任務。 前置任
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '475'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -35,16 +37,16 @@ ht-degree: 1%
 
 如果前置任務已強制執行，則前置任務完成之前無法開始後續任務。 例如，強製作業A與作業B之間的「完成 — 開始」關係表示，在作業A標籤為完成之前，作業B無法開始（「狀態」必須保持為「新」，而「完成百分比」必須保持為0%）。 強制關係適用於所有前置任務型別。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -67,7 +69,8 @@ ht-degree: 1%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -94,7 +97,8 @@ ht-degree: 1%
    <td><p>Manage permissions to the tasks and the project</p></td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 在任務層級強制執行前置任務
 

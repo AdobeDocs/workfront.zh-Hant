@@ -7,7 +7,9 @@ description: 計畫是具有統一特性的專案集合。 這些專案通常會
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1c64fe00-12e3-49f6-b864-b8f89ed9140d
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 1%
@@ -40,12 +42,12 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>[!UICONTROL 標準]</p>
-   <p>[!UICONTROL 計畫]</p> </td> 
+   <td> <p>[！UICONTROL標準]</p>
+   <p>[！UICONTROL計畫]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL Edit]對[!UICONTROL Portfolios]和[!UICONTROL Programs]的存取權</p>  </td> 
+   <td> <p>[！UICONTROL Edit]對[！UICONTROL Portfolios]和[！UICONTROL Programs]的存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
@@ -60,7 +62,8 @@ ht-degree: 1%
 
 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -88,7 +91,8 @@ ht-degree: 1%
     </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 
 ## 有關使用方案的注意事項

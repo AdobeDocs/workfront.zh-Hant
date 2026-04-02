@@ -7,7 +7,9 @@ description: 工作投入概觀
 author: Alina
 feature: Work Management
 exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1488'
 ht-degree: 1%
@@ -38,11 +40,13 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">工作投入 </td> 
-   <td> <p>手動標籤，定義使用者需要少量、中量或大量的日常工作才能完成任務。<!--
+   <td> <p>手動標籤，定義使用者需要少量、中量或大量的日常工作才能完成任務。
+   <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
        The level of effort is estimated to be a percentage of the daily amount of working time. (NOTE: keep this drafted. Vazgen said it's not needed, but waiting for feedback from users)
       </MadCap:conditionalText>
-     --> </p> <p>請考量下列有關工作投入的內容：</p> 
+     -->
+     </p> <p>請考量下列有關工作投入的內容：</p>
     <ul> 
      <li>此欄位僅適用於具有簡單期間型別的任務。 </li> 
      <li>您可以啟用此標籤的使用並在專案層級定義與其關聯的工作時間百分比。 </li> 
@@ -90,7 +94,8 @@ ht-degree: 1%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -116,7 +121,8 @@ ht-degree: 1%
    <td> <p>Manage permissions to a project and its tasks</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 使用工作量時的注意事項
 

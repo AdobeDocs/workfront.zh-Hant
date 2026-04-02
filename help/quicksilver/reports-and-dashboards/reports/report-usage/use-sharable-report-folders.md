@@ -6,7 +6,9 @@ description: 使用可共用報表資料夾來組織您建立的報表，並與A
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 65831f2e-9092-4e99-a86b-40df42c713bf
-source-git-commit: 6a56485ef5a36aac92fbed73bd6749ed63796a58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 2%
@@ -115,7 +117,7 @@ ht-degree: 2%
 
 1. 選取您要移動之報告旁的核取方塊。
 1. 在熒幕底部的動作列中按一下&#x200B;**[移至資料夾**]。
-1. 找到您要移動報告的資料夾，然後按一下[移動]。**&#x200B;** 報表樹依預設會摺疊，因此您可能需要展開資料夾以尋找目的地資料夾。
+1. 找到您要移動報告的資料夾，然後按一下[移動]。**** 報表樹依預設會摺疊，因此您可能需要展開資料夾以尋找目的地資料夾。
 
    ![將報告移至可共用的資料夾](assets/move-to-folder.png)
 

@@ -8,7 +8,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: df10bc8f-b980-4c61-ae6d-bcea03103738
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1841'
 ht-degree: 1%
@@ -89,15 +91,15 @@ ht-degree: 1%
 
    <table style="table-layout:auto">
     <tr>
-        <td><strong>[!UICONTROL 範本所有者]<strong></td>
-        <td>此人會收到範本的[!UICONTROL Manage]許可權，並將在使用範本建立專案時成為專案所有者。</td>
+        <td><strong>[！UICONTROL範本所有者]<strong></td>
+        <td>此人會收到範本的[！UICONTROL Manage]許可權，並將在使用範本建立專案時成為專案所有者。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 範本贊助者]</strong></td>
+        <td><strong>[！UICONTROL範本贊助者]</strong></td>
         <td>此人通常是需要瞭解專案情況的經理、執行或利害關係人。 專案贊助者未取得專案的任何額外存取權，但會新增到專案的電子郵件通知中。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Portfolio]</strong></td>
+        <td><strong>[！UICONTROL Portfolio]</strong></td>
         <td>這是專案建立時屬於的投資組合。</td>
     </tr>
     <tr>
@@ -132,7 +134,7 @@ ht-degree: 1%
 
    >[!INFO]
    >
-   >**範例：**&#x200B;此Blueprint中的新問題偏好設定提供四個佇列主題。 使用者在建立問題時選取以下主題之一。 （因為只有一個主題群組存在，所以會自動套用，使用者不必加以選取。） 當使用者完成並提交問題時，路由規則會決定將其指派給哪個職務角色或團隊。
+   >**範例：**此Blueprint中的新問題偏好設定提供四個佇列主題。 使用者在建立問題時選取以下主題之一。 （因為只有一個主題群組存在，所以會自動套用，使用者不必加以選取。） 當使用者完成並提交問題時，路由規則會決定將其指派給哪個職務角色或團隊。
    >![新問題偏好設定範例](assets/Blueprints_IssuePrefsDetails.png)
    >新問題的![佇列主題](assets/blueprints-newissueqtopicsexample-350x204.png)
    >![問題已路由至工作角色](assets/Blueprints_ProjectShowsIssueAssignment.png)

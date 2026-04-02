@@ -9,10 +9,12 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2088'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -26,13 +28,13 @@ ht-degree: 2%
 * [安裝環境升級套件](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
 
-## 存取需求
+## 存取權要求
 
 您必須具備下列條件：
 
 <table>
   <tr>
-   <td>Adobe Workfront套件
+   <td>Adobe Workfront 封裝
    </td>
    <td> <p>Prime或Ultimate</p>
    </td>
@@ -144,7 +146,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 }
 ```
 
-#### 內文
+#### 正文
 
 ```json
 {
@@ -247,7 +249,7 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 }
 ```
 
-#### 內文
+#### 正文
 
 _空白_
 
@@ -273,7 +275,7 @@ _空白_
 }
 ```
 
-&lt;！ — 檢查上面的「狀態」 — 是否新增？—>
+&lt;! — 檢查上面的「狀態」 — 是否新增？—>
 
 ### 依ID取得套件
 
@@ -312,7 +314,7 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 }
 ```
 
-#### 內文
+#### 正文
 
 _空白_
 
@@ -400,7 +402,7 @@ PATCH https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/
 }
 ```
 
-#### 內文
+#### 正文
 
 ```json
 {
@@ -482,7 +484,7 @@ DELETE https://{domain}.{environment}.workfront.com/environment-promotion/api/v1
 }
 ```
 
-#### 內文
+#### 正文
 
 _空白_
 
@@ -566,7 +568,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 }
 ```
 
-#### 內文
+#### 正文
 
 ```json
 {}
@@ -717,7 +719,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/i
 }
 ```
 
-#### 內文
+#### 正文
 
 ```json
 {
@@ -771,7 +773,7 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/in
 }
 ```
 
-#### 內文
+#### 正文
 
 _空白_
 
@@ -868,7 +870,7 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/in
 }
 ```
 
-#### 內文
+#### 正文
 
 _空白_
 
@@ -933,7 +935,7 @@ _空白_
 POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}/translation-map
 ```
 
-#### 內文
+#### 正文
 
 無
 
@@ -1032,7 +1034,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}/install
 ```
 
-#### 內文
+#### 正文
 
 此物件具有單一欄位`translationMap`，應等同於[步驟2 — 修改翻譯對映](#step-2---modify-the-translation-map)中修改的翻譯對映。
 
@@ -1117,7 +1119,8 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 範例：`b6aa0af8-3520-4b25-aca3-86793dff44a6`
 
-<!--table templates
+<!--
+table templates
 
 <table style="table-layout:auto"> 
  <col> 

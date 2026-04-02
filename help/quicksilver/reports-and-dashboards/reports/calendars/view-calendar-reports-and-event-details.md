@@ -6,7 +6,9 @@ description: 您可以在Adobe Workfront中檢視您建立或與您共用的行�
 author: Courtney
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: 8d2f7abc188be5e0d94524e3d42cee72126967f3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 3%
@@ -71,7 +73,7 @@ ht-degree: 3%
 
      若要瞭解共用行事曆，請參閱[[!UICONTROL 共用行事曆]報告](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)。
 
-1. （視條件而定）按一下&#x200B;**[!UICONTROL 檢視]**&#x200B;下拉式清單，然後選取您要檢視的行事曆持續時間。
+1. （視條件而定）按一下&#x200B;**[!UICONTROL 檢視]**下拉式清單，然後選取您要檢視的行事曆持續時間。
    ![行事曆持續時間](assets/view-menu-calendar-report-350x189.png)
 您可以從下列行事曆報表檢視中進行選擇：
 
@@ -91,8 +93,10 @@ ht-degree: 3%
 
 1. （選擇性）如果您是以&#x200B;**月**&#x200B;或&#x200B;**周**&#x200B;檢視檢視檢視檢視行事曆，可以使用下列選項變更行事曆檢視：
 
-   <!--   * To include or exclude weekends:
-      1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.-->
+   <!--
+         * To include or exclude weekends:
+      1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.
+      -->
 
    * 若要快速變更顯示的日期：
 

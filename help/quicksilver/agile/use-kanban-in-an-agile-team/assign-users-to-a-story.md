@@ -6,7 +6,9 @@ description: 您可以直接在Kanban面板上將使用者指派給劇本。
 author: Courtney
 feature: Agile
 exl-id: ed727302-68c7-4e00-b05c-a5ed238bcc2d
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 9%

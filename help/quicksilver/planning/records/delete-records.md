@@ -6,25 +6,29 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '617'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 
 # 刪除記錄
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
 您可以刪除Adobe Workfront Planning中不再相關的記錄。 刪除的記錄後，您可以在30天內復原這些記錄。 如需有關復原已刪除記錄的資訊，請參閱[復原已刪除的記錄](/help/quicksilver/planning/records/restore-deleted-records.md)。
 
-## 存取需求
+## 存取權要求
 
 +++ 展開以檢視本文中功能的存取需求。 
 
@@ -38,7 +42,7 @@ ht-degree: 1%
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
 <p>任何Workfront和任何Planning套件</p> <p>任何工作流程與任何Planning套件</p>
 <p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
@@ -61,7 +65,8 @@ ht-degree: 1%
 +++   
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -116,7 +121,8 @@ ht-degree: 1%
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## 刪除記錄的相關考量事項
 
@@ -146,7 +152,7 @@ ht-degree: 1%
 1. 執行下列其中一項：
 
    * 在「表格」檢視中，按一下記錄名稱。
-   * 在[資料表]檢視中，暫留在記錄名稱上，然後按一下[其他] **&#x200B;**&#x200B;[其他]功能表![&#x200B; [其他]功能表](assets/more-menu.png)，然後按一下[檢視] **&#x200B;**
+   * 在[資料表]檢視中，暫留在記錄名稱上，然後按一下[其他] **** [其他]功能表![ [其他]功能表](assets/more-menu.png)，然後按一下[檢視] ****
 
      ![記錄列](assets/contextual-menu-for-record-row.png)的內容相關功能表
    * 在「時間軸」檢視中，按一下記錄列。
@@ -191,8 +197,8 @@ ht-degree: 1%
    * 按一下&#x200B;**復原**&#x200B;圖示![復原圖示](assets/undo-icon.png)，然後按一下&#x200B;**最近刪除的**，復原刪除的記錄。 如需有關復原已刪除記錄的資訊，請參閱[復原已刪除的記錄](/help/quicksilver/planning/records/restore-deleted-records.md)。
    * 使用下列鍵盤快速鍵來復原或重做刪除記錄：
 
-      * 按CTRL + Z (⌘ + Z代表Mac)以復原刪除記錄
-      * 按CTRL + Shift + Z (⌘ + Shift + Z代表Mac)以重做刪除記錄
+      * 按CTRL + Z （⌘ + Z代表Mac）以復原刪除記錄
+      * 按CTRL + Shift + Z （⌘ + Shift + Z代表Mac）以重做刪除記錄
 
 
 

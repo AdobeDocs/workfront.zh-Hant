@@ -6,7 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 1%
@@ -16,9 +18,11 @@ ht-degree: 1%
 
 # 管理Adobe Workfront Planning電子郵件通知
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -28,7 +32,7 @@ ht-degree: 1%
 
   如需有關在記錄註解中標籤其他人的資訊，請參閱[管理記錄註解](/help/quicksilver/planning/records/manage-record-comments.md)。
 * 有人要求您存取檢視、工作區或記錄型別<!--or <span class="preview">or a record</span>-->的許可權
-* 有人確認已授予您檢視、工作區或記錄型別<!--<span class="preview">or record</span>-->的存取權 <!--Isk confirmed that there is nno email for denying access but did not test-->
+* 有人確認已授予您檢視、工作區或記錄型別<!--<span class="preview">or record</span> Isk confirmed that there is nno email for denying access but did not test-->的存取權
 * 您提交Workfront Planning請求。 如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)
 * 某人核准或拒絕您提交的Workfront Planning請求。 如需詳細資訊，請參閱[在Adobe Workfront Planning中核准請求](/help/quicksilver/planning/requests/approve-request.md)
 * 狀態會變更為您提交的Workfront Planning請求。

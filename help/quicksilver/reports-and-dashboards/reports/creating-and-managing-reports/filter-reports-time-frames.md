@@ -6,7 +6,9 @@ description: 您可以依物件上現存日期的時間範圍來篩選報表。 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 7%

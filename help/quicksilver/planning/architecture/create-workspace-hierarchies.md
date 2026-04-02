@@ -6,7 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
-source-git-commit: 16da53ace7c5b3fadf9b4142ac6146bc3fe5ebd5
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 1%
@@ -16,9 +18,11 @@ ht-degree: 1%
 
 # 建立工作區階層
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 身為工作區管理員，您可以在Adobe Workfront Planning的記錄型別之間建立多個工作區階層。
 
@@ -85,7 +89,7 @@ ht-degree: 1%
 
    Workfront專案不能選取為階層中其他物件型別的父項。
 
-1. 按一下&#x200B;**新增物件**&#x200B;以新增第二個物件型別，這是階層中的第一個子系，然後在下拉式選單中選取另一個物件型別。
+1. 按一下&#x200B;**新增物件**以新增第二個物件型別，這是階層中的第一個子系，然後在下拉式選單中選取另一個物件型別。
 每個額外的物件型別都會成為先前物件型別的子系。
 
    ![未選取欄位的新階層方塊](assets/new-hierarchy-modal-without-connecte-fielf-selected.png)
@@ -95,13 +99,13 @@ ht-degree: 1%
 
    或
 
-   按一下[新增連線]&#x200B;**&#x200B;**&#x200B;以新增連線欄位。
+   按一下[新增連線]****&#x200B;以新增連線欄位。
 
    這會根據您當作父項的記錄型別建立一個連線欄位，並根據您當作子項的記錄型別建立一個對應的連線欄位。
 
    如果您要建立與Workfront專案的連線，專案上不會建立任何欄位。
 
-1. （視條件而定）如果沒有可用的連線欄位，請按一下[建立連線] **並新增連線，然後按一下[儲存]**&#x200B;**。**
+1. （視條件而定）如果沒有可用的連線欄位，請按一下[建立連線] **並新增連線，然後按一下[儲存]****。**
 
 1. （視條件而定）如果您要新增連線，請執行下列動作：
 

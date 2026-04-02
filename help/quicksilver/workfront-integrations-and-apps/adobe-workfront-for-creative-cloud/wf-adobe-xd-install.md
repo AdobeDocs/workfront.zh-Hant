@@ -6,10 +6,12 @@ description: 您可以從Adobe Workfront Marketplace安裝適用於XD的Adobe外
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: c21e1c1d8e45b7c6407e8741b31055bfed9f4717
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -22,15 +24,15 @@ ht-degree: 2%
 * 德文
 * 義大利文
 * 西班牙文
-* 葡萄牙文
+* 葡萄牙語
 * 日文
 * 簡體中文
 * 繁體中文
 * 韓文
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +40,8 @@ ht-degree: 2%
  <col> 
  </col> 
  <tbody> 
- <!-- <tr> 
+ <!--
+  <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] package/td> 
    <td> <p>Any</p> </td> 
   </tr> 
@@ -47,7 +50,8 @@ ht-degree: 2%
    <td>
    <p>Standard</p>
     <p>Work or higher</p> </td> 
-  </tr> -->
+  </tr>
+  -->
   <tr> 
    <td role="rowheader">其他產品</td> 
    <td><p>除了[!DNL Adobe Creative Cloud]授權之外，您還必須有[!DNL Workfront]授權。</p></td> 
@@ -69,7 +73,7 @@ ht-degree: 2%
 
 [在此觀看教學課程影片](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
 
-[!DNL Adobe Admin Console]管理員也可以建立僅含外掛程式的套件，以分發給使用者。 如需詳細資訊，請參閱[中的 [!DNL Adobe Workfront] 為您的使用者建立 [!DNL Creative Cloud]] 套裝的[[!UICONTROL [!DNL Adobe Admin Console]]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+[!DNL Adobe Admin Console]管理員也可以建立僅含外掛程式的套件，以分發給使用者。 如需詳細資訊，請參閱[中的 [!DNL Adobe Workfront] 為您的使用者建立 [!DNL Creative Cloud]] 套裝的[！UICONTROL [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
 
 ## 個別安裝[!DNL Adobe Workfront for XD]外掛程式
 
@@ -78,7 +82,7 @@ ht-degree: 2%
 1. 前往Adobe Exchange上的[Adobe Workfront for XD安裝頁面](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&workflow=share)。
 1. 在出現的對話方塊中，按一下&#x200B;**開啟[!DNL Adobe Creative Cloud]案頭應用程式**。
 1. 在[!DNL Adobe XD]外掛程式管理員開啟後，按一下&#x200B;**[!UICONTROL 安裝]**。
-1. 讀取對話方塊中的資訊，然後按一下[確定]。**&#x200B;**
+1. 讀取對話方塊中的資訊，然後按一下[確定]。****
 1. 請繼續參閱下節，瞭解如何開啟外掛程式的詳細資訊。
 
 ## 開啟[!DNL Adobe Workfront for XD]外掛程式

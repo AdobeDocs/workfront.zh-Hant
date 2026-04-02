@@ -7,7 +7,9 @@ description: 檢視：包含校訂連結的檔案報告
 author: Courtney
 feature: Reports and Dashboards
 exl-id: a38c5e86-9789-41ca-a832-2ee5eb0a570b
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 7%

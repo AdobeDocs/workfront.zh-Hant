@@ -6,10 +6,12 @@ description: 您可以將「里程碑」檢視套用至專案清單或報告。 
 author: Courtney, Alina
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 1ed84baeacda2717c4f58058fb754e7a79b48baf
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1370'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -19,13 +21,15 @@ ht-degree: 0%
 
 <!--remove Preview and Production mentions from the article when this comes out live-->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> -->
+</div>
+-->
 
 您可以將「里程碑」檢視套用至專案清單或報告。 您可以使用「里程碑」檢視來檢視與您所檢視專案中任務相關聯的所有里程碑。
 
@@ -37,23 +41,23 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 檢視專案清單或專案報告時，里程碑檢視可供使用。 以下各節說明如何檢視和使用里程碑檢視。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</strong></td> 
    <td> 
     <p>標準</p>
-    <p>工作或更高</p>
+    <p>工作或更高層級</p>
    </td>
   </tr> 
   <tr> 
@@ -140,7 +144,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    * 有風險 — 藍色
    * 延遲 — 紅色
 
-  <!--* In the Production environment, the following status icons display next to each project and task in the Milestone view: 
+  <!--
+   * In the Production environment, the following status icons display next to each project and task in the Milestone view: 
       * On Time  
       ![On time icon](assets/gantt-ontime.png)
       * Behind  
@@ -149,7 +154,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       ![At risk icon](assets/gantt-atrisk.png)
       * Late  
       ![Late icon](assets/gantt-late.png)
-      <!--get new screen shots or hide them for preview or production - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc-->
+      
+      get new screen shots or hide them for preview or production - could not display all in devtest; idea: use color dots from Task Details tab - New status is blue; Some concerns condition is yellow etc
+   -->
 
   您可以停用這些狀態圖示的顯示，如本文中[設定里程碑檢視](#configure-what-information-displays-in-the-milestone-view)中顯示的資訊一節所述。
 
@@ -196,10 +203,12 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    * 有風險 — 黃色
    * 存在問題 — 紅色
 
-  <!--* In the Production environment, an icon displays next to the project name, indicating the condition of the project. The Condition of the project might be one of the following:
+  <!--
+   * In the Production environment, an icon displays next to the project name, indicating the condition of the project. The Condition of the project might be one of the following:
       * On Target
       * At Risk
-      * In Trouble -->
+      * In Trouble
+      -->
 
 
 ## 設定里程碑檢視中顯示的資訊 {#configure-what-information-displays-in-the-milestone-view}

@@ -6,7 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '4066'
 ht-degree: 2%
@@ -71,7 +73,8 @@ ht-degree: 2%
 
 +++ 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -132,7 +135,8 @@ ht-degree: 2%
 </td>
   </tr>
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## 管理時間表檢視 {#manage-a-timeline-view}
 
@@ -190,7 +194,7 @@ ht-degree: 2%
    >在「設定」區域中設定自訂季度後，時間軸檢視會顯示自訂季度，而非傳統季度。
    >如需詳細資訊，請參閱[啟用自訂季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
-1. （視條件而定）如果您是Workfront管理員，請按一下&#x200B;**前往設定**&#x200B;設定您的季度。 如果沒有，請按一下[確定] **&#x200B;**，並要求Workfront管理員設定自訂季度。
+1. （視條件而定）如果您是Workfront管理員，請按一下&#x200B;**前往設定**&#x200B;設定您的季度。 如果沒有，請按一下[確定] ****，並要求Workfront管理員設定自訂季度。
 
    >[!TIP]
    >

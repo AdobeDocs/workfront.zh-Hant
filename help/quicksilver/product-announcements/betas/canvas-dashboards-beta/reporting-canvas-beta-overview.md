@@ -8,7 +8,9 @@ feature: Product Announcements
 hidefromtoc: true
 hide: true
 exl-id: 5767ef7d-1bc3-40d8-abeb-02b15166a0a3
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1061'
 ht-degree: 1%
@@ -86,7 +88,7 @@ ht-degree: 1%
    1. 讓您能夠匯出系統中所有報表和控制面板的CSV以及任何相關的追蹤資訊（檢視次數、檢視時間和檢視者）。
    1. 提供設定了排程傳送與收件者的報告匯出。
 
-1. 選取您要移轉的報告和儀表板，然後按一下[移轉] **&#x200B;**
+1. 選取您要移轉的報告和儀表板，然後按一下[移轉] ****
 
    這是單向移轉。 它會建立選定報表和儀表板的副本至報表畫布，讓舊式報表或儀表板完整保留在目前的報表工具中。
 

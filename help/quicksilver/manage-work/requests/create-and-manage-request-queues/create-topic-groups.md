@@ -8,7 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 4%
@@ -91,4 +93,4 @@ ht-degree: 4%
 1. 按一下「**儲存**」。\
    這會在您的請求佇列中建立新的主題群組。 您現在可以從「請求佇列」下的第一個下拉式功能表中選取其他類別。\
    如需有關提交請求的詳細資訊，請參閱[建立並提交Adobe Workfront請求](../../../manage-work/requests/create-requests/create-submit-requests.md)。
-1. 若要編輯現有的主題群組，請從「主題群組」清單中選取「主題群組」，然後在開啟的視窗中編輯詳細資訊。 按一下[儲存]儲存變更。**&#x200B;**
+1. 若要編輯現有的主題群組，請從「主題群組」清單中選取「主題群組」，然後在開啟的視窗中編輯詳細資訊。 按一下[儲存]儲存變更。****

@@ -7,7 +7,9 @@ author: Lisa
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: a23708b2534330cf942c5f950c4bee1a90583ea7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '4139'
 ht-degree: 1%
@@ -42,7 +44,7 @@ ht-degree: 1%
    <td> 
    <p>將專案、任務、問題或一般時數記錄到時程表上的小時數精簡或更高</p>
 
-<p>或： </p>
+<p>或: </p>
 
 <ul><li><p>檢閱或更高版本以在時程表中記錄一般時數</p></li>
    <li><p>在專案、任務或問題上記錄小時數的工作或更高</p></li></ul> </td> 
@@ -129,7 +131,7 @@ ht-degree: 1%
 
 1. （選擇性）展開篩選、檢視或群組下拉式功能表，以套用或自訂其中一個功能表，並檢視您想要的專案資訊。
 
-1. 在清單中選取一或多個專案，然後按一下[新增]。**&#x200B;**
+1. 在清單中選取一或多個專案，然後按一下[新增]。****
 
    如果您一次新增的專案少於50個，這些專案會新增到時程表中。 任務和問題會列在專案名稱下。
 
@@ -140,9 +142,9 @@ ht-degree: 1%
 
 1. （視條件而定）如果您一次新增50個或更多專案，會顯示一則確認訊息，顯示新增至時程表的專案數量。
 
-   按一下&#x200B;**全部新增**&#x200B;以新增所有專案
+   按一下&#x200B;**全部新增**以新增所有專案
 或
-按一下&#x200B;**取消**&#x200B;停止新增選取的專案，然後按一下&#x200B;**取消**&#x200B;關閉專案清單。
+按一下**取消**&#x200B;停止新增選取的專案，然後按一下&#x200B;**取消**&#x200B;關閉專案清單。
 
    任務和問題會列在專案名稱下。
 
@@ -171,7 +173,7 @@ ht-degree: 1%
    >[!TIP]
    >
    >   按一下時程表中的專案後使用標準QWERTY鍵盤時，請按下列按鍵組合以釘選專案：
-   >   * Option + P (適用於Windows和Mac電腦)。
+   >   * Option + P （適用於Windows和Mac電腦）。
 
 
 1. （選用）按一下搜尋圖示![](assets/search-icon.png)並開始輸入關鍵字，以在時程表中尋找專案、任務或問題。
@@ -242,7 +244,7 @@ ht-degree: 1%
    >[!TIP]
    >
    >   按一下小時輸入方塊後使用標準QWERTY鍵盤時，請按下列按鍵組合以開啟註解方塊：
-   >   * Shift + F2 (適用於Windows和Mac電腦)。
+   >   * Shift + F2 （適用於Windows和Mac電腦）。
 
 1. 按一下&#x200B;**完成**&#x200B;以儲存註解。
 
@@ -321,7 +323,7 @@ ht-degree: 1%
    >[!TIP]
    >
    >   按一下時程表中的專案後使用標準QWERTY鍵盤時，請按下列按鍵組合以取消釘選專案：
-   > * Option + P (適用於Windows和Mac電腦)。
+   > * Option + P （適用於Windows和Mac電腦）。
 
    在您重新整理頁面後，專案會從時程表中移除。
 
@@ -362,7 +364,8 @@ ht-degree: 1%
 
    記錄時間方塊中的&#x200B;**總時數**&#x200B;欄位會顯示所有使用者針對專案、任務或問題記錄的所有時數。
 
-<!--#### Log time on a work item from the legacy Home area
+<!--
+#### Log time on a work item from the legacy Home area
 
 1. In the **Work List** area, select the item where you want to log time.
 1. In the right panel, click **Log Time**.  
@@ -374,7 +377,8 @@ ht-degree: 1%
 1. (Conditional) If your Workfront or group administrator has enabled the **Assign job roles to hour entries manually** setting, select a job role from the drop-down menu. The role specified when you are assigned to the work item displays by default. If you are not assigned a role on the object, your Primary Role displays as the default. For more information on this setting, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 1. Specify the time you want to log, then click **Log Time**.
 
-   The logged time displays in the object's Hours section, nad in your timesheet. -->
+   The logged time displays in the object's Hours section, nad in your timesheet.
+   -->
 
 ### 專案、任務或問題 {#project-task-or-issue}
 

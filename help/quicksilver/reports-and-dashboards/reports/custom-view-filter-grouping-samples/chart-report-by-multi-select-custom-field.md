@@ -7,7 +7,9 @@ description: 只有在您建立其他計算欄位(擷取多選自訂欄位中所
 author: Courtney
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 2%
@@ -134,12 +136,14 @@ ht-degree: 2%
 1. （選擇性）為確保您要用來製作圖表的所有計算欄位皆填入值，您必須重新計算報表中所有物件的自訂運算式。
 如需重新計算運算式的資訊，請參閱[編輯自訂欄位中的資訊](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md)。
 
-   <!--from the Details tab of the report select all the objects that contain the custom form with both the multi-select custom field and the calculated custom field, then click **Edit**. 
+   <!--
+   from the Details tab of the report select all the objects that contain the custom form with both the multi-select custom field and the calculated custom field, then click **Edit**. 
    1. (Optional and conditional) Select the **Recalculate Custom Expressions** field, then click **Save Changes**.  
    ![Recalculate custom expressions](assets/recalculate-custom-expressions-350x259.png) 
    >[!NOTE]
    >
-   >This option has been eliminated from editing projects in bulk.  You can still recalculate expressions for projects in bulk by clicking the **More** icon ![More icon](assets/more-icon-45x33.png) at the top of a project list, then **Recalculate Expressions**. -->
+   >This option has been eliminated from editing projects in bulk.  You can still recalculate expressions for projects in bulk by clicking the **More** icon ![More icon](assets/more-icon-45x33.png) at the top of a project list, then **Recalculate Expressions**.
+   -->
 
 1. 移至您要為參照多選自訂欄位的計算欄位新增圖表的報表。
 1. 按一下&#x200B;**報告動作**，然後按一下&#x200B;**編輯**。
@@ -148,7 +152,7 @@ ht-degree: 2%
 1. 新增您建立的<strong>計算多重選取欄位</strong>作為您的群組。
 1. 選取<strong>圖表</strong>索引標籤，然後將圖表新增至您的報表。
 
-   例如，選擇&#x200B;**資料行**&#x200B;圖表。
+   例如，選擇&#x200B;**資料行**圖表。
    <br>如需有關將圖表新增至報表的資訊，請參閱文章<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref">建立自訂報表</a>中的<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">將圖表新增至報表</a>小節。
 1. 在&#x200B;**底部(X)軸**&#x200B;欄位中，選取要在圖表中顯示的<strong>計算多重選取欄位</strong>。
 1. 按一下「<strong>儲存並關閉</strong>」。

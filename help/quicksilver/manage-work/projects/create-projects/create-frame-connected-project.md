@@ -8,7 +8,9 @@ feature: Work Management
 hide: true
 hidefromtoc: true
 exl-id: 230d8e62-a3c9-4e38-9b26-5ba1c4f56391
-source-git-commit: ad3478d3f1b54af596b146ac212a9eacf6f972f7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1155'
 ht-degree: 3%
@@ -131,9 +133,9 @@ Workfront擁有強大的專案管理功能。 我們建議使用[編輯專案範
 
 1. 按一下&#x200B;**從範本新增專案**。
 1. 使用搜尋方塊，開始輸入您需要的範本名稱。
-1. 選取範本名稱，然後按一下[使用範本]。**&#x200B;**
+1. 選取範本名稱，然後按一下[使用範本]。****
    ![尋找您的範本](assets/find-your-template.png)
-1. 視需要調整任何專案設定，然後按一下[建立專案]。**&#x200B;**
+1. 視需要調整任何專案設定，然後按一下[建立專案]。****
 1. 在左側面板中，按一下&#x200B;**檔案**。
 1. 使用單向同步資料夾，自動與Frame.io共用創意素材。 [!BADGE 即將推出]{type=Informative}
 

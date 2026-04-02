@@ -7,7 +7,9 @@ description: 您可以套用以下任務篩選器以顯示工作任務。 工作
 author: Lisa and Courtney
 feature: Reports and Dashboards
 exl-id: 4c3956e1-59e0-4bf2-8739-8064271d6281
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 3%
@@ -23,7 +25,7 @@ ht-degree: 3%
 >[!TIP]
 >
 >* 如果您考慮在報表中新增多個篩選器，建議使用Report Builder介面新增所有篩選器，並在新增所有其他篩選器規則後按一下「切換至文字模式」 。 然後，您可以新增父系任務篩選器的程式碼，如上所述。 
->* 我們也建議您為專案名稱新增分組，讓報告更易於閱讀。 如需有關將群組新增至報表的詳細資訊，請參閱文章[&#x200B; Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)。
+>* 我們也建議您為專案名稱新增分組，讓報告更易於閱讀。 如需有關將群組新增至報表的詳細資訊，請參閱文章[ Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)。
 >
 
 ## 存取權要求

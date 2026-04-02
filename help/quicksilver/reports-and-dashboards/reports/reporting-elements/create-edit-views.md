@@ -6,7 +6,9 @@ description: 您可以使用檢視來自訂顯示在熒幕上的資訊型別。 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 4%
@@ -70,8 +72,8 @@ ht-degree: 4%
 
 1. 按一下「**+新增檢視**」按鈕以建立新檢視。
 或
-按一下滑鼠右邊要編輯的現有檢視右邊出現的&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
-顯示&#x200B;**自訂檢視**&#x200B;對話方塊。
+按一下滑鼠右邊要編輯的現有檢視右邊出現的**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
+顯示**自訂檢視**&#x200B;對話方塊。
 
 1. 在&#x200B;**資料行預覽**&#x200B;區段中，執行下列任一項作業：
 
@@ -117,7 +119,7 @@ ht-degree: 4%
      > * 實際小時會摘要主要父系和獨立任務的值；它們不會摘要父系任務的父系或子系任務的數字。
      > * 數字和貨幣值的自訂資料欄位會摘要所有工作：父項、子項、父項的父項，以及獨立工作。
      >
-     >如需在報告中使用群組的詳細資訊，請參閱文章[&#x200B; Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)。
+     >如需在報告中使用群組的詳細資訊，請參閱文章[ Adobe Workfront中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)。
 
       * （選擇性）按一下&#x200B;**進階選項**，為資料行指定下列資訊：
 
@@ -168,7 +170,8 @@ ht-degree: 4%
 
 如需有關敏捷或展示板檢視的詳細資訊，請參閱文章[在展示板檢視中管理敏捷專案](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)。
 
-<!-- Legacy Agile views were deprecated with 25.3. This is old: 
+<!--
+ Legacy Agile views were deprecated with 25.3. This is old: 
 
 >[!NOTE]
 >

@@ -6,7 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 5%
@@ -29,7 +31,8 @@ ht-degree: 5%
 
 如需詳細資訊，請參閱文章[建立欄位](/help/quicksilver/planning/fields/create-fields.md)中的「公式」一節。
 
-<!--do we need these for an overview article?
+<!--
+do we need these for an overview article?
 
 ## Access requirements
 
@@ -70,7 +73,8 @@ For more information about Workfront access requirements, see [Access requiremen
 
 -->
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -127,7 +131,8 @@ For more information about Workfront access requirements, see [Access requiremen
   </tr> 
  
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## 有關公式欄位的考量事項
 
@@ -222,7 +227,7 @@ Adobe Workfront Planning公式欄位支援Workfront計算欄位的大部分運�
 </p>
    </td></tr>
      <tr> 
-   <td><strong>識別碼</strong> </td> 
+   <td><strong>ID</strong> </td> 
    <td> <p>傳回記錄的ID。 每個記錄都有一個唯一的ID。</p> <p>運算式的格式如下：
 
 <code>{ID}</code>

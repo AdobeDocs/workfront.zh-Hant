@@ -6,7 +6,9 @@ description: 您可以從外部來源將檔案和資料夾連結到Adobe Workfro
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2585'
 ht-degree: 1%
@@ -125,7 +127,7 @@ ht-degree: 1%
 1. 移至Workfront中您想要檔案的&#x200B;**檔案**&#x200B;區域。
 1. 按一下「新增&#x200B;**」**，然後按一下您要將檔案連結至Workfront的外部檔案提供者。
 
-   例如，若要從Dropbox連結檔案，請按一下[從Dropbox連結] **&#x200B;**。
+   例如，若要從Dropbox連結檔案，請按一下[從Dropbox連結] ****。
 
    您已經授權的外部提供者會出現在清單頂端。
 
@@ -169,7 +171,7 @@ ht-degree: 1%
 
 1. 按一下&#x200B;**新增** > **版本**，然後按一下外部檔案提供者。
 
-   例如，若要從Dropbox連結檔案的新版本，請按一下[從Dropbox連結] **&#x200B;**。
+   例如，若要從Dropbox連結檔案的新版本，請按一下[從Dropbox連結] ****。
 
    您已經授權的外部提供者會出現在清單頂端。
 
@@ -209,7 +211,7 @@ ht-degree: 1%
 您只能連結在Workfront Proof中您擁有檢視存取權的校訂。
 
 1. 移至Workfront中您想要檔案的&#x200B;**檔案**&#x200B;區域。
-1. 按一下[新增] **&#x200B;**，然後按一下&lbrack;來自Workfront Proof的&#x200B;**&#x200B;**。
+1. 按一下[新增] ****，然後按一下[來自Workfront Proof的&#x200B;****。
 
    >[!NOTE]
    >
@@ -286,7 +288,7 @@ ht-degree: 1%
 
 1. 移至Workfront中您要資料夾的區域，然後按一下左側面板中的&#x200B;**檔案** ![檔案圖示](assets/document-icon.png)。
 
-1. 按一下[新增]&#x200B;**&#x200B;**，然後按一下您要將資料夾連結至Workfront的外部檔案提供者。
+1. 按一下[新增]****，然後按一下您要將資料夾連結至Workfront的外部檔案提供者。
 1. （視條件而定）如果您尚未授權外部服務，請指定外部提供者的登入認證，然後按一下&#x200B;**登入**。
 
    您已經授權的外部提供者會出現在清單頂端。
@@ -307,7 +309,7 @@ ht-degree: 1%
 
    在Workfront中，雲端提供者的標誌會顯示在資料夾旁，表示已連結至外部雲端提供者。
 
-1. （選擇性）若要重新命名資料夾，讓Workfront中的資料夾名稱不同於外部檔案應用程式中的資料夾名稱，請在&#x200B;**資料夾**&#x200B;區段中選取資料夾，按一下資料夾名稱旁邊顯示的[更多]功能表![更多功能表](assets/more-icon.png)，然後按一下[重新命名]&#x200B;**&#x200B;**。
+1. （選擇性）若要重新命名資料夾，讓Workfront中的資料夾名稱不同於外部檔案應用程式中的資料夾名稱，請在&#x200B;**資料夾**&#x200B;區段中選取資料夾，按一下資料夾名稱旁邊顯示的[更多]功能表![更多功能表](assets/more-icon.png)，然後按一下[重新命名]****。
 
    ![重新命名資料夾](assets/documents-folderlink-rename-nwe-350x154.png)
 

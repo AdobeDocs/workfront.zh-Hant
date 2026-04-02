@@ -8,10 +8,12 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '930'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -27,7 +29,8 @@ The highlighted information on this page refers to functionality not yet general
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
-</div> -->
+</div>
+-->
 
 [!DNL Adobe Workfront]在物件的[!UICONTROL 更新]區域產生自動系統更新，以記錄下列事件：
 
@@ -46,9 +49,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 例如，您可以讓[!DNL Workfront]追蹤使用者對整個系統中的問題名稱所做的所有變更。 然後，任何問題名稱變更都會顯示為問題[!UICONTROL 更新]區域上的系統更新。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,13 +63,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p>
-   <p>[!UICONTROL 計畫]</p>
+   <td><p>[！UICONTROL標準]</p>
+   <p>[！UICONTROL計畫]</p>
    </td> 
   </tr>  
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td><p>[!UICONTROL 系統管理員]</p></td>
+   <td><p>[！UICONTROL系統管理員]</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -75,7 +78,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -96,7 +100,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    <td>[!UICONTROL System Administrator]</td>
   </tr> 
  </tbody> 
-</table> -->
+</table>
+-->
 
 ## 決定物件型別要追蹤哪些欄位[!DNL Workfront]
 
@@ -135,7 +140,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    * 專案
    * 任務
    * 問題
-   * 產品組合
+   * 專案組合
    * 方案
    * 使用者
 
@@ -146,8 +151,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    >
    >如果[!DNL Workfront]已在追蹤欄位，您無法從清單中再次新增該欄位。
 
-1. 新增所有您要[!DNL Workfront]追蹤的欄位後，請按一下[新增]。**&#x200B;**
-您新增的內建欄位會顯示在&#x200B;**[!UICONTROL 內建欄位]**&#x200B;子標籤下，而自訂欄位會顯示在&#x200B;**[!UICONTROL 自訂欄位]**&#x200B;子標籤下。
+1. 新增所有您要[!DNL Workfront]追蹤的欄位後，請按一下[新增]。****
+您新增的內建欄位會顯示在**[!UICONTROL 內建欄位]**&#x200B;子標籤下，而自訂欄位會顯示在&#x200B;**[!UICONTROL 自訂欄位]**子標籤下。
 **[!UICONTROL 所有欄位]**&#x200B;子標籤會顯示[!DNL Workfront]追蹤的內建和自訂欄位。
 
 ### 移除您不想要追蹤的欄位 {#remove-fields-you-don-t-want-tracked}

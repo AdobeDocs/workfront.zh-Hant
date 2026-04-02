@@ -7,7 +7,9 @@ description: 可解析物件是其解析繫結至解析物件的問題。 解決
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1760'
 ht-degree: 2%
@@ -38,7 +40,8 @@ ht-degree: 2%
 
 如需設定處理可解析物件的偏好設定的相關資訊，請參閱[設定全系統的任務和問題偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
 
-<!--WRITER
+<!--
+WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Note: drafted and just pointed the user to the article linked above) </p>
 <p>To establish the system default for what happens to the issue as it is being converted to a task or a project:</p>
@@ -88,7 +91,8 @@ The default status of the issue is controlled by the status of the project or ta
 
 如需將問題轉換為任務和專案的詳細資訊，請參閱[在Adobe Workfront中轉換問題的總覽](../../../manage-work/issues/convert-issues/convert-issues.md)。
 
-<!--WRITER
+<!--
+WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Tie the resolution of an issue to a project, task or </h2> 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: created new article for this section; draft when the article is live and see if you need to make a link from this one to the new article) </p>

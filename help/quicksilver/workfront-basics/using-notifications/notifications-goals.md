@@ -6,10 +6,12 @@ description: 通知：目標
 author: Courtney, Alina
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -17,13 +19,13 @@ ht-degree: 2%
 
 您可以針對設定檔中發生[!DNL Adobe Workfront Goals]的事件啟用電子郵件通知。 擁有[!UICONTROL 計畫]授權的使用者也可以為其他使用者啟用它們。 如需詳細資訊，請參閱[[!DNL Adobe Workfront] 通知](../../workfront-basics/using-notifications/wf-notifications.md)。
 
-## 存取需求
+## 存取權要求
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: because there are conditions for who sees this, I added this from the How To articles/ template although this is not a How To. But I like the format, so I thought keeping it consistent might help users. We may decide to update this when we have access and prereq for overview-type articles)</p>
 -->
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,7 +47,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定*</strong></td> 
-   <td> <p>[!UICONTROL View]存取[!DNL Goals]或更新版本</p></td> 
+   <td> <p>[！UICONTROL View]存取[!DNL Goals]或更新版本</p></td> 
   </tr>
  </tbody> 
 </table>
@@ -81,21 +83,22 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td><strong>有人將結果/活動指派給我</strong></td> 
-   <td> <p>將結果或活動指派給您的人員姓名</p> <p>結果或活動的目標期間</p> <p>結果或活動的名稱</p> <p><strong>[!UICONTROL 在網頁應用程式中開啟]</strong>按鈕可開啟[!UICONTROL 目標詳細資料]面板</p> <p><strong>[!UICONTROL 變更通知設定]</strong>按鈕可讓您管理通知。</p> </td> 
+   <td> <p>將結果或活動指派給您的人員姓名</p> <p>結果或活動的目標期間</p> <p>結果或活動的名稱</p> <p><strong>[！UICONTROL在網頁應用程式中開啟]</strong>按鈕可開啟[！UICONTROL目標詳細資料]面板</p> <p><strong>[！UICONTROL變更通知設定]</strong>按鈕可讓您管理通知。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>有人為我建立了新的個人目標</strong> </td> 
-   <td> <p>指派目標的人員名稱</p> <p>目標的期間</p> <p>目標的名稱</p> <p><strong>[!UICONTROL 在網頁應用程式中開啟]</strong>按鈕可開啟[!UICONTROL 目標詳細資料]面板</p> <p><strong>[!UICONTROL 變更通知設定]</strong>按鈕可讓您管理通知。</p> </td> 
+   <td> <p>指派目標的人員名稱</p> <p>目標的期間</p> <p>目標的名稱</p> <p><strong>[！UICONTROL在網頁應用程式中開啟]</strong>按鈕可開啟[！UICONTROL目標詳細資料]面板</p> <p><strong>[！UICONTROL變更通知設定]</strong>按鈕可讓您管理通知。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>有人對我目標上的更新留言</strong></td> 
-   <td> <p>留下評論的人員的姓名</p> <p>目標的期間 </p> <p>目標的名稱</p> <p>註解的文字</p> <p><strong>[!UICONTROL 在網頁應用程式中開啟]</strong>按鈕可開啟[!UICONTROL 目標詳細資料]面板</p> <p><strong>[!UICONTROL 變更通知設定]</strong>按鈕可讓您管理通知。</p> </td> 
+   <td> <p>留下評論的人員的姓名</p> <p>目標的期間 </p> <p>目標的名稱</p> <p>註解的文字</p> <p><strong>[！UICONTROL在網頁應用程式中開啟]</strong>按鈕可開啟[！UICONTROL目標詳細資料]面板</p> <p><strong>[！UICONTROL變更通知設定]</strong>按鈕可讓您管理通知。</p> </td> 
   </tr> 
   <tr> 
   </tbody> 
 </table>
 
-<!--these were removed at some point: 
+<!--
+these were removed at some point: 
 
    <td><strong>Someone liked my comment on a Goal</strong></td> 
    <td> <p>The name of the person who liked the comment</p> <p>The Period of the goal </p> <p>The name of the goal</p> <p>The text of the comment </p> <p>The <strong>[!UICONTROL Open in web app]</strong> button which opens the [!UICONTROL Goal Details] panel</p> <p>The <strong>[!UICONTROL Change Notifications Settings]</strong> button which allows you to manage your notifications.</p> </td> 

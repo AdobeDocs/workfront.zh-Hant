@@ -6,7 +6,9 @@ description: 您可以刪除重複或建立有誤的任務。
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 5%
@@ -52,7 +54,8 @@ ht-degree: 5%
 +++
 
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -75,7 +78,8 @@ ht-degree: 5%
    <td> <p>Contribute permissions to the project with ability to Add Tasks or higher</p> <p>When you create a task you automatically receive Manage permissions to the task</p> <p> For information about task permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Share a task </a>. </p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 瞭解刪除任務的程式
 
@@ -98,7 +102,7 @@ ht-degree: 5%
 
 當您刪除任務時，會影響連結到該任務的其他物件。
 
-請考量下列事項：
+考慮以下事項：
 
 * 當您刪除任務時，也會刪除附加至任務的下列物件：
 
@@ -161,9 +165,9 @@ ht-degree: 5%
 
       1. 選取您要刪除的任務。
       1. 按一下&#x200B;**刪除**。
-      1. （選擇性）按一下[復原] **&#x200B;**&#x200B;以復原您的變更，並且不刪除工作。
-      1. 如果要保留變更並刪除工作，請按一下[重做] **&#x200B;**。
-      1. 按一下[儲存]刪除工作。**&#x200B;**
+      1. （選擇性）按一下[復原] ****&#x200B;以復原您的變更，並且不刪除工作。
+      1. 如果要保留變更並刪除工作，請按一下[重做] ****。
+      1. 按一下[儲存]刪除工作。****
 
          只有在您儲存變更後，才會刪除任務。
 

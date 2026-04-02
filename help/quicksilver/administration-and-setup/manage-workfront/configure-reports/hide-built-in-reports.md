@@ -8,7 +8,9 @@ feature: System Setup and Administration
 role: Admin
 author: Courtney, Lisa
 exl-id: d48b0dd7-933e-4e91-a2f1-8d64b1c6dbb3
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 12%
@@ -54,7 +56,7 @@ Adobe Workfront提供使用者可存取和檢視的廣泛預設內建報告清�
 {{step-1-to-setup}}
 
 1. 按一下&#x200B;**存取層級**。
-1. 選取您要隱藏內建報告的存取層級，然後按一下[編輯]。**&#x200B;**
+1. 選取您要隱藏內建報告的存取層級，然後按一下[編輯]。****
 1. 針對&#x200B;**報表**&#x200B;物件，按一下可用最高存取層級旁的&#x200B;**設定**&#x200B;圖示，然後取消選取&#x200B;**檢視內建報表**。
 
    ![編輯存取層級](assets/edit-access-level.png)

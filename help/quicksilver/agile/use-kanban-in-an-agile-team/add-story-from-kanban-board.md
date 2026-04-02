@@ -6,7 +6,9 @@ description: 您可以直接從Kanban面板快速建立新劇本或問題。
 author: Courtney
 feature: Agile
 exl-id: 8f12b05c-d132-42ca-b617-bdd14e57acf2
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 11%
@@ -65,11 +67,11 @@ ht-degree: 11%
         <td>專案的說明。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 估計]</strong></td>
+        <td><strong>[！UICONTROL估計]</strong></td>
         <td>預估專案小時數或點數。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 父專案]</strong></td>
+        <td><strong>[！UICONTROL父專案]</strong></td>
         <td>（必要）儲存新內文或問題的專案。 開始輸入專案名稱，然後在其顯示在清單中時選取它。</td>
     </tr>
    </table>

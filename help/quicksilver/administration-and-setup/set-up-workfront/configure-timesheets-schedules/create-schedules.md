@@ -8,10 +8,12 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f7347ba6-68bf-45d8-b5d2-6136f3e696c9
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '794'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -19,7 +21,8 @@ ht-degree: 0%
 
 <!--Audited: 01/2024-->
 
-<!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
+<!--
+DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 Linked to Editing Users, Editing Projects, Creating and managing groups
 -->
 
@@ -35,9 +38,9 @@ Linked to Editing Users, Editing Projects, Creating and managing groups
 
 如需有關如何在資源規劃中使用排程的資訊，請參閱[排程總覽](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)和[資源規劃工具總覽](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,12 +52,12 @@ Linked to Editing Users, Editing Projects, Creating and managing groups
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p>
-       <p>[!UICONTROL 計畫]</p></td>
+   <td><p>[！UICONTROL標準]</p>
+       <p>[！UICONTROL計畫]</p></td>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td> 
+   <td>[！UICONTROL系統管理員]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -92,7 +95,7 @@ Linked to Editing Users, Editing Projects, Creating and managing groups
 
    <table style="table-layout:auto">
     <tr>
-     <td>具有管理存取權的[!UICONTROL 群組]</td>
+     <td>具有管理存取權的[！UICONTROL群組]</td>
      <td><p>選取其管理員有權編輯此排程的群組。</p>
      <p><b>重要</b>：</p>
       <ul>
@@ -109,11 +112,11 @@ Linked to Editing Users, Editing Projects, Creating and managing groups
      </td>
     </tr>
     <tr>
-     <td>[!UICONTROL 群組具有檢視存取權]</td>
-     <td><p>選取具有[!UICONTROL 檢視]存取權的群組，讓他們看到此排程。</p>
+     <td>[！UICONTROL群組具有檢視存取權]</td>
+     <td><p>選取具有[！UICONTROL檢視]存取權的群組，讓他們看到此排程。</p>
      <p>只有此處指定之群組中的使用者在將排程指派給使用者或專案時，才可在下拉式選單中找到排程。</p></tr>
     <tr>
-     <td>[!UICONTROL 時區]</td>
+     <td>[！UICONTROL時區]</td>
      <td><p>選取排程的時區。</p>
      <p>如果您將排程與使用者建立關聯，我們建議排程的時區與使用者的時區相符。 如需使用者時區的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">編輯使用者設定檔。
      </td>

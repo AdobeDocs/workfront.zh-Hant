@@ -8,7 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 0d79b04c58d6a0a1c8de7f83d7b941e75b1a88f5
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 1%
@@ -25,9 +27,9 @@ ht-degree: 1%
 
 公司是[!DNL Adobe Workfront]中的組織單位，可以代表您的組織、組織內的部門或您工作的客戶。 您可以將公司新增至[!DNL Workfront]，並將它們用於財務規劃、報告、定義物件相關許可權以及保密資訊。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以查看此文章中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,23 +41,23 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 授權</p> </td> 
-   <td><p>[!UICONTROL 計畫]</p>
-   <p>[!UICONTROL 標準]</p>
+   <td><p>[！UICONTROL計畫]</p>
+   <p>[！UICONTROL標準]</p>
    </td> 
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
    <td> <p>您必須具備下列其中一項：</p> 
     <ul> 
-     <li> <p>[!UICONTROL 系統管理員]存取層級，可讓您編輯系統中的任何公司。</p> </li> 
+     <li> <p>[！UICONTROL系統管理員]存取層級，可讓您編輯系統中的任何公司。</p> </li> 
      <li> <p>管理公司的管理存取權，可讓您編輯系統中的任何公司。</p> </li> 
     </ul> <p><b>附註</b>：  
      <ul> 
       <li> <p>您也可以管理與您被指派為群組管理員的任何群組相關聯的公司。</p> </li> 
       <li> <p>若要從[!DNL Workfront]系統中新增和移除使用者，您必須具備下列其中一項：</p> 
        <ul> 
-        <li> <p>[!UICONTROL 系統管理員]存取層級。 </p> </li> 
-        <li> <p>您的存取層級中的<b>[!UICONTROL Users]</b>設定已設定為<b>[!UICONTROL Edit]</b>存取，且<b>[!UICONTROL Create]</b>以及在<b>[!UICONTROL Fine-tune your settings]</b> <b>下啟用的兩個</b>[!UICONTROL User Admin]<img src="assets/gear-icon-in-access-levels.png">選項中的至少一個選項。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>在這兩個選項中，如果已啟用<b>[!UICONTROL User Admin (Group Users)]</b>，您必須是使用者所屬群組的群組管理員。</p> </li> 
+        <li> <p>[！UICONTROL系統管理員]存取層級。 </p> </li> 
+        <li> <p>您的存取層級中的<b>[！UICONTROL Users]</b>設定已設定為<b>[！UICONTROL Edit]</b>存取，且<b>[！UICONTROL Create]</b>以及在<b>[！UICONTROL Fine-tune your settings]</b> <b>下啟用的兩個</b>[！UICONTROL User Admin]<img src="assets/gear-icon-in-access-levels.png">選項中的至少一個選項。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>在這兩個選項中，如果已啟用<b>[！UICONTROL User Admin (Group Users)]</b>，您必須是使用者所屬群組的群組管理員。</p> </li> 
        </ul>
        </li> 
      </ul> </p> </td> 
@@ -97,7 +99,7 @@ ht-degree: 1%
 
    公司清單隨即顯示。
 
-1. 如果您正在新增公司，請按一下[新增公司]。**&#x200B;**
+1. 如果您正在新增公司，請按一下[新增公司]。****
 
    或
 
@@ -137,7 +139,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >進階自訂表單功能(例如，外部查詢欄位和Workfront原生欄位)只有在您於詳細資訊頁面開啟公司記錄時，才可使用，不能在編輯公司對話方塊中開啟。 （從公司清單中，按一下公司名稱以開啟詳細資訊。）
+   >進階自訂表單功能（例如，外部查詢欄位和Workfront原生欄位）只有在您於詳細資訊頁面開啟公司記錄時，才可使用，不能在編輯公司對話方塊中開啟。 （從公司清單中，按一下公司名稱以開啟詳細資訊。）
 
    如需建立自訂表單的相關資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
@@ -183,7 +185,8 @@ ht-degree: 1%
 
 如需在[!UICONTROL 設定]區域管理公司的相關資訊，請參閱本文中的[在 [!DNL Workfront]](#create-or-edit-a-company-in-workfront)中建立或編輯公司。
 
-<!-- OLD HTML TABLE
+<!--
+ OLD HTML TABLE
 <table style="table-layout:auto"> 
     <col> 
     <col> 

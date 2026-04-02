@@ -6,10 +6,12 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
-source-git-commit: 46faf723ea7a8e9dfa02c0f2bed1f5f450976fc8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2900'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -76,7 +78,7 @@ ht-degree: 0%
 >
 >貴組織必須購買Adobe Workfront Fusion，才能與Adobe Workfront Planning功能建立連線。
 >
->如需詳細資訊，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>如需詳細資訊，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 現在，您可以使用Adobe Workfront Fusion連線至規劃功能。 透過新的Fusion連線，您可以：
 
@@ -92,7 +94,7 @@ ht-degree: 0%
 
 * 在規劃功能中變更時觸發案例
 
-如需詳細資訊，請參閱[Adobe Workfront規劃模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)。
+如需詳細資訊，請參閱[Adobe Workfront規劃模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)。
 
 ## 2023年12月11日當週
 
@@ -144,7 +146,8 @@ ht-degree: 0%
 
 * Planning功能使用者可檢視連線資產的名稱，以及規劃功能中連線欄位的值。
 
-<!--removed per PM, for now: 
+<!--
+removed per PM, for now: 
 * An Experience Manager Assets record type is automatically created in Planning after you establish the connection. Connected assets are visible in the table and timeline views of this new record type.  
 -->
 
@@ -163,7 +166,7 @@ ht-degree: 0%
 * 人員
 * 連結的記錄欄位
 
-請考量下列事項：
+考慮以下事項：
 
 * 顯示多個值的欄位支援將欄位值從一個欄位複製和貼上到另一個欄位。
 
@@ -183,7 +186,7 @@ ht-degree: 0%
 
 您現在可以將某個欄位的資訊複製並貼上至計畫權能記錄型別表格檢視中相同型別的另一個欄位。
 
-請考量下列事項：
+考慮以下事項：
 
 * 您無法從其他來源複製資訊，但計畫功能欄位與貼上資訊的欄位型別相同。
 
@@ -324,7 +327,7 @@ ht-degree: 0%
 
 您現在可以將規劃功能記錄與Workfront公司和群組連結。 您必須先在規劃功能記錄型別與Workfront公司和群組物件型別之間建立連線。 然後，您可以將所選記錄型別的單一計畫功能記錄連線到個別Workfront公司和群組。
 
-請考量下列事項：
+考慮以下事項：
 
 * 您必須為每個Workspace在planning權能記錄型別與Workfront公司和群組物件型別之間建立連線。
 
@@ -363,7 +366,7 @@ ht-degree: 0%
 
 預覽和生產： 2023年8月24日
 
-您現在可以將規劃功能記錄與Workfront程式和產品組合連結。 您必須在計畫權能記錄型別與建立連線欄位的方案或投資組合之間建立連線。 然後，您可以將來自相同工作區中所有其他記錄型別的任何規劃功能記錄連線到特定計畫和產品組合，這些計畫和產品組合會在相同工作區中建立唯讀Workfront計畫或Workfront Portfolio記錄型別。 請考量下列事項：
+您現在可以將規劃功能記錄與Workfront程式和產品組合連結。 您必須在計畫權能記錄型別與建立連線欄位的方案或投資組合之間建立連線。 然後，您可以將來自相同工作區中所有其他記錄型別的任何規劃功能記錄連線到特定計畫和產品組合，這些計畫和產品組合會在相同工作區中建立唯讀Workfront計畫或Workfront Portfolio記錄型別。 考慮以下事項：
 
 * Workfront聯結器記錄型別對於每個工作區都是唯一的。
 * 您可以將多個規劃權能記錄連線到同一個Workfront方案或產品組合，並將多個方案和產品組合連線到同一規劃權能記錄。
@@ -460,7 +463,7 @@ ht-degree: 0%
 
 預覽和生產： 2023年6月5日
 
-您現在可以將規劃功能記錄與Workfront專案連線。 您必須建立聯結器規劃功能記錄型別，以建立規劃功能記錄與Workfront專案之間的連線。 然後，您可以使用「關係」欄位，將所有其他記錄型別的計畫權能記錄連線至聯結器記錄。 請考量下列事項：
+您現在可以將規劃功能記錄與Workfront專案連線。 您必須建立聯結器規劃功能記錄型別，以建立規劃功能記錄與Workfront專案之間的連線。 然後，您可以使用「關係」欄位，將所有其他記錄型別的計畫權能記錄連線至聯結器記錄。 考慮以下事項：
 
 * 您必須擁有每個Workspace的Workfront聯結器記錄型別。
 * 您可以將多個計畫功能記錄連線到同一個Workfront專案，並將多個專案連線到相同的計畫功能記錄。

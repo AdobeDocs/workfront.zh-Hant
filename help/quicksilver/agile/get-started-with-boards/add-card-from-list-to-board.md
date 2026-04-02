@@ -6,7 +6,9 @@ description: 您可以從清單或報告檢視將任何任務或問題新增到A
 author: Courtney
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 4%
@@ -99,7 +101,7 @@ ht-degree: 4%
 1. 移至專案、報告或儀表板，其中包含您要檢視其面板資訊的任務或問題。
 1. 選取包含「面板」欄的檢視，或使用「面板」欄建立新檢視。
 如需檢視的資訊，請參閱[在Adobe Workfront中建立或編輯檢視](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)。
-1. 按一下欄中的[顯示&#x200B;[!UICONTROL **&#x200B;**]]以顯示任務或問題所在面板的清單。
+1. 按一下欄中的[顯示&#x200B;[!UICONTROL ****]]以顯示任務或問題所在面板的清單。
 
    ![顯示欄](assets/show-boards-in-column.png)中的面板
 

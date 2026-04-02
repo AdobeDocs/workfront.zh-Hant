@@ -7,9 +7,11 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b2bee19f-32eb-49b9-9497-dea290ce64b2
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1296'
 ht-degree: 1%
 
 ---
@@ -158,14 +160,16 @@ ht-degree: 1%
 
 * 在iOS上使用行動應用程式[刪除物件](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#delete)
 
-  <!-- <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete objects using the Mobile app on iOS</a> </MadCap:conditionalText>
+  <!--
+    <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete objects using the Mobile app on iOS</a> </MadCap:conditionalText>
    -->
 
   您現在可以刪除行動應用程式中的物件，例如任務、問題和時程表。 您必須擁有物件的正確許可權才能刪除它。
 
 * [使用行動應用程式重設您的密碼](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#reset)
 
-  <!--<MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Reset your password using the Mobile app</a> </MadCap:conditionalText>
+  <!--
+  <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly">  <a href="https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Reset your password using the Mobile app</a> </MadCap:conditionalText>
   -->
 
   如果您忘記密碼，可以使用Workfront行動應用程式來重設密碼。
@@ -361,7 +365,7 @@ ht-degree: 1%
 * [Workfront資料庫現已可用](#workfront-library-now-available)
 * [不再支援API版本3](#api-version-3-no-longer-supported)
 * [TLS 1.0和1.1支援即將結束](#tls-1-0-and-1-1-support-is-ending)
-* [Flash應用程式移除](#flash-application-removal)
+* [移除Flash應用程式](#flash-application-removal)
 * [要移除的各種單一登入選項](#various-single-sign-on-options-to-be-removed)
 * [第3季產品藍圖網路研討會](#q3-product-roadmap-webinar)
 
@@ -399,11 +403,11 @@ TLS 1.2 to be required in Workfront
 ](https://experience.workfront.com/s/article/TLS-1-2-to-be-required-in-Workfront-1474533813).
 -->
 
-### Flash應用程式移除 {#flash-application-removal}
+### 移除Flash應用程式 {#flash-application-removal}
 
-自2018.3發行版本以來，Workfront已移除所有依賴Flash技術的功能，並更換為新解決方案。
+自2018.3發行版本以來，Workfront已移除所有依賴Flash技術的功能，並以新解決方案取代。
 
-如需有關舊版Flash工具及其取代的詳細資訊，請參閱[在Adobe Workfront中取代Flash工具](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)
+如需有關舊版Flash工具及其取代的詳細資訊，請參閱[Adobe Workfront中Flash工具的取代](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -467,4 +471,4 @@ Replacement of Flash-based tools in Workfront
 
 ### 第3季產品藍圖網路研討會 {#q3-product-roadmap-webinar}
 
-深入瞭解將於8月1日上午9:00舉行的[第3季藍圖網路研討會](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=Product&eventid=2040896&sessionid=1&key=EFBB434E2FDF446E010DA62D1C27E9E5&regTag=&sourcepage=register)。 最小
+深入瞭解將於8月1日上午9[舉行的](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=Product&eventid=2040896&sessionid=1&key=EFBB434E2FDF446E010DA62D1C27E9E5&regTag=&sourcepage=register)第3季藍圖網路研討會:00的內容。 最小

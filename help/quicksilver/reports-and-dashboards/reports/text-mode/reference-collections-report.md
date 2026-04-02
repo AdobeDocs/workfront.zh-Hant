@@ -6,7 +6,9 @@ description: 報表中的參考集合
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2615'
 ht-degree: 1%
@@ -266,7 +268,7 @@ Workfront中的物件之間有下列兩種關係：
   </tr> 
   <tr> 
    <td><code>listdelimiter=&lt;p&gt;</code> </td> 
-   <td> <p>這是用來分隔清單中值的分隔字元。<br>我們建議使用<code>&lt;p&gt;</code>，在值之間新增分行符號。</p> <p>您也可以使用下列專案：</p> <p><code>&zwj;</code> （零寬度聯結器）。 集合的值之間沒有分隔符號。<br><strong>，</strong> =逗號分隔符號。 集合的值以逗號分隔，後跟空格。<br><strong>/</strong> =斜線分隔符號。 集合的值以斜線分隔。<br><strong>-</strong> =破折號分隔符號。 集合的值以破折號分隔。<br>依照預設，將此行留空會在集合的值之間加上逗號，後面跟著空格。</p> </td> 
+   <td> <p>這是用來分隔清單中值的分隔字元。<br>我們建議使用<code>&lt;p&gt;</code>，在值之間新增分行符號。</p> <p>您也可以使用下列專案：</p> <p><code>&amp;zwj;</code> （零寬度聯結器）。 集合的值之間沒有分隔符號。<br><strong>，</strong> =逗號分隔符號。 集合的值以逗號分隔，後跟空格。<br><strong>/</strong> =斜線分隔符號。 集合的值以斜線分隔。<br><strong>-</strong> =破折號分隔符號。 集合的值以破折號分隔。<br>依照預設，將此行留空會在集合的值之間加上逗號，後面跟著空格。</p> </td> 
   </tr> 
   <tr> 
    <td><code>displayname=</code><em>資料行名稱</em> </td> 
@@ -395,7 +397,7 @@ Workfront中的物件之間有下列兩種關係：
 1. 按一下&#x200B;**報告提示**。
 1. 按一下&#x200B;**新增提示**。
 1. 按一下&#x200B;**自訂提示**。
-1. 在&#x200B;**欄位**&#x200B;**名稱**&#x200B;欄位中指定提示的名稱。
+1. 在&#x200B;**欄位****名稱**&#x200B;欄位中指定提示的名稱。
 
 1. 指定&#x200B;**下拉式清單專案標籤**。
 1. 在&#x200B;**條件**&#x200B;欄位中指定下列專案：

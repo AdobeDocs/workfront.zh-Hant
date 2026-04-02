@@ -6,10 +6,12 @@ description: 專案請求在Adobe Workfront中顯示為[!UICONTROL 已請求]狀
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1acfb885-0da3-495d-ba66-e80e339e90de
-source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -30,9 +32,9 @@ ht-degree: 0%
 * 在專案報告中
 * 在投資組合內
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,16 +46,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>[!UICONTROL 標準] </p> 
-   <p>[!UICONTROL 計畫]</p> </td> 
+   <td> <p>[！UICONTROL標準] </p> 
+   <p>[！UICONTROL計畫]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL 檢視]對產品組合的存取權或以上版本</p> <p>[!UICONTROL Edit]專案的存取權</p>  </td> 
+   <td> <p>[！UICONTROL檢視]對產品組合的存取權或以上版本</p> <p>[！UICONTROL Edit]專案的存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合上的[!UICONTROL View]許可權或更高</p> <p>[!UICONTROL Manage]專案許可權可更新其狀態</p>  </td> 
+   <td> <p>投資組合上的[！UICONTROL View]許可權或更高</p> <p>[！UICONTROL Manage]專案許可權可更新其狀態</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,7 +64,8 @@ ht-degree: 0%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -85,7 +88,8 @@ ht-degree: 0%
    <td> <p>[!UICONTROL View] permissions or higher on the portfolio</p> <p>[!UICONTROL Manage] permissions on the projects to update their status</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 在專案報告中檢閱請求的專案
 

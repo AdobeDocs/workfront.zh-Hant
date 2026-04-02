@@ -6,7 +6,9 @@ description: 您可以個別或大量從Adobe Workfront下載檔案。 可從Wor
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 083c604a-b2ca-4279-a90d-b103e3575dad
-source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 5%
@@ -84,6 +86,6 @@ ht-degree: 5%
 如果您的組織使用企業儲存空間，當您存取Workfront中的檔案時，將會看到新檔案區域。 如需企業儲存的詳細資訊，請參閱[Adobe企業儲存概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 1. 前往包含檔案的專案、任務或問題，然後在左側面板中選取&#x200B;**檔案**。
-1. 尋找您需要的檔案，然後按一下[下載]。**&#x200B;**
+1. 尋找您需要的檔案，然後按一下[下載]。****
 
 ![下載檔案](assets/download-new-doc.png)

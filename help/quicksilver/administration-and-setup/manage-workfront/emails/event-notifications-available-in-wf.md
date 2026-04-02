@@ -8,7 +8,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '5237'
 ht-degree: 7%
@@ -272,7 +274,8 @@ ht-degree: 7%
 <!--
       DRAFTED IN FLARE:
        For more information on publishing a project as a Help Request Queue, see 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.-->
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
+       -->
 
 ## 通訊
 
@@ -297,7 +300,7 @@ ht-degree: 7%
    <td> <p>文件</p> </td> 
    <td> <p>在檔案上評論</p> </td> 
    <td> <p>文件所有者</p> </td> 
-   <td> <p>註解已新增至我的檔案。</p> <p>在檔案上張貼評論時，Workfront中檔案的擁有者會收到電子郵件通知，除非張貼評論的使用者也是檔案擁有者。</p> <p>直接包含在評論中的任何使用者都會收到電子郵件通知。</p> <p>只有在專案狀態為「目前」時，才會傳送通知。 </p> <p>即時通知電子郵件的主旨為： &lt;專案名稱&gt; （ref# &lt;請求參考編號&gt;）<em>上&lt;請求名稱&gt;的</em>註解</p> <p> 每日摘要通知的主旨為：<em>通訊摘要&lt;每日摘要日期&gt;</em></p> </td> 
+   <td> <p>註解已新增至我的檔案。</p> <p>在檔案上張貼評論時，Workfront中檔案的擁有者會收到電子郵件通知，除非張貼評論的使用者也是檔案擁有者。</p> <p>直接包含在評論中的任何使用者都會收到電子郵件通知。</p> <p>只有在專案狀態為「目前」時，才會傳送通知。 </p> <p>即時通知電子郵件的主旨為： &lt;專案名稱&gt;上&lt;請求名稱&gt;的<em>註解（ref# &lt;請求參考編號&gt;）</em></p> <p> 每日摘要通知的主題為：<em>通訊摘要&lt;每日摘要日期&gt;</em></p> </td> 
    <td> <p>作用中</p> </td> 
   </tr> 
   <tr> 
@@ -356,7 +359,8 @@ ht-degree: 7%
 
 <!--
       DRAFTED IN FLARE: for the directed update above, it also mentions:
-        ... and is not the same user that enters the update-->
+        ... and is not the same user that enters the update
+        -->
 
 ## 核准資訊
 
@@ -531,7 +535,8 @@ ht-degree: 7%
 <!--
       DRAFTED IN FLARE: from the Request document add to issue assigned to: 
         For more information on publishing a project as a Help Request Queue, see 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>. -->
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
+       -->
 
 ## 關於我所在專案的資訊
 

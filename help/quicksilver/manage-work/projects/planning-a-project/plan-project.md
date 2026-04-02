@@ -7,7 +7,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: aa3645e2ed8c36a3b07caad72083a43467889fce
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1672'
 ht-degree: 0%
@@ -19,7 +21,8 @@ ht-degree: 0%
 <!--Audited: 12/2025-->
 
 <!--
-< see if you need to add something about approval settings, issue for ad-hoc happenings and how to work with documents??-->
+< see if you need to add something about approval settings, issue for ad-hoc happenings and how to work with documents??
+-->
 
 <!--this article is linked to the ESM area in the UI; the ESM team on the Adobe side linked to this article for their -->
 

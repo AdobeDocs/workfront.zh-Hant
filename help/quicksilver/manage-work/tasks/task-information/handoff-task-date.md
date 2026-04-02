@@ -7,7 +7,9 @@ description: 「移交日期」是任務可供工作的日期。 這通常表示
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 2%
@@ -79,7 +81,8 @@ Workfront使用下列規則來計算任務的移交日期：
    * **當任務的限製為「必須完成於」或「開始不得晚於**」時：如果任務限制日期是未來日期，而且任務沒有實際開始日期（任務尚未開始），則移交日期是任務的計劃開始日期。 如果任務上有「實際開始日期」，則「移交日期」為專案的開始日期。
    * **當任務具有固定日期的限制時**：移交日期是任務的計劃開始日期，無論任務是否有前置任務，也無論前置任務是否已完成。
 
-<!--these are old descriptions, edited by Anna As. on August 25, 2023 in this issue - https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/64c0032500018fabd4fc484167eb10dc/updates
+<!--
+these are old descriptions, edited by Anna As. on August 25, 2023 in this issue - https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/64c0032500018fabd4fc484167eb10dc/updates
    * When the task has a constraint of Must Start On or Start No Earlier Than, the Handoff Date is the Constraint date, unless there is an Actual Start Date on the task. If there is an Actual Start Date on the task, the Handoff Date is the Actual Completion Date of the predecessor.
    * When the task has a constraint of Must Finish On or Start No Later Than, the Handoff Date is always the Actual Completion Date of the predecessor, regardless of whether there is an Actual Start Date on the task or not. 
    * When the task has a constraint of Fixed Dates, the Handoff Date is the Planned Start Date of the task, regardless of whether it has a predecessor or not and regardless of whether the predecessor is completed or not.

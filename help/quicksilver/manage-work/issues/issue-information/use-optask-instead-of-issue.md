@@ -6,7 +6,9 @@ description: 問題的名稱會在Adobe Workfront資料庫中顯示為opTask 。
 author: Alina
 feature: Work Management
 exl-id: 91107c04-616c-49b2-aa78-10e373d11f6b
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -29,8 +31,10 @@ ht-degree: 0%
 
   如需有關在報表中使用文字模式的詳細資訊，請參閱[文字模式概觀](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)。
 
-<!--* When you pull information about issues using our API.  
-  For more information about the Workfront API, see [Adobe Workfront API](../../../wf-api/workfront-api.md)-->
+<!--
+* When you pull information about issues using our API.  
+  For more information about the Workfront API, see [Adobe Workfront API](../../../wf-api/workfront-api.md)
+  -->
 
 * 當您更新Kick-Start資料匯入工具表中的問題欄位時。
 

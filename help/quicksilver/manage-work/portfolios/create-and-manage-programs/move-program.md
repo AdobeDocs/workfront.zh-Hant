@@ -6,10 +6,12 @@ description: 您可以將現有方案新增至投資組合。 由於計畫不能
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
-source-git-commit: 7fef704355fad677f2bdf40e630ea0146a9e1d58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '245'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -17,15 +19,17 @@ ht-degree: 0%
 
 <!--Audited: 10/2025-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+-->
 
 您可以將現有方案新增至投資組合。 由於計畫不能存在於兩個不同的投資組合中，因此新增現有計畫會將其從一個投資組合永久移動到另一個投資組合。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,15 +41,15 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>[!UICONTROL 標準]</p><p>[!UICONTROL 計畫]</p> </td> 
+   <td> <p>[！UICONTROL標準]</p><p>[！UICONTROL計畫]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL Edit]對[!UICONTROL Portfolios]和[!UICONTROL Programs]的存取權 </p> </td> 
+   <td> <p>[！UICONTROL Edit]對[！UICONTROL Portfolios]和[！UICONTROL Programs]的存取權 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合和計畫的[!UICONTROL 管理]許可權</p> </td> 
+   <td> <p>投資組合和計畫的[！UICONTROL管理]許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,7 +58,8 @@ ht-degree: 0%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -77,7 +82,8 @@ ht-degree: 0%
    <td> <p>[!UICONTROL Manage] permissions to the portfolio and the program</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 將現有方案新增至投資組合
 

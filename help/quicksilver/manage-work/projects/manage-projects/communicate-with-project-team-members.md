@@ -6,10 +6,12 @@ description: 您可以透過Adobe Workfront輕鬆與專案團隊成員溝通。
 author: Alina
 feature: Work Management
 exl-id: 2dadc10c-ffa8-4bb5-b2f1-14e2a8f0a7d6
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -19,9 +21,9 @@ ht-degree: 0%
 
 所有與專案相關聯的使用者都會組成專案團隊。 如需有關專案團隊的資訊，請參閱[專案團隊概觀](../../../manage-work/projects/planning-a-project/project-team-overview.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -53,7 +55,8 @@ ht-degree: 0%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -78,7 +81,8 @@ ht-degree: 0%
    <td> <p>View or higher permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 傳送電子郵件給專案團隊成員 {#send-an-email-to-a-project-team-member}
 
@@ -109,7 +113,7 @@ ht-degree: 0%
 
 1. 前往您要傳送更新給其他使用者的專案。
 1. 按一下左側面板中的&#x200B;**人員**。
-1. （選擇性和條件性）如果您要傳送更新給的使用者不在專案團隊中，請按一下[新增使用者] **&#x200B;**，將其新增至專案團隊。
+1. （選擇性和條件性）如果您要傳送更新給的使用者不在專案團隊中，請按一下[新增使用者] ****，將其新增至專案團隊。
 
    如需新增使用者至專案團隊的詳細資訊，請參閱[管理專案團隊](../../../manage-work/projects/planning-a-project/manage-project-team.md)。
 

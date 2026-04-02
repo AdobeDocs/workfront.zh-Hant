@@ -6,7 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '874'
 ht-degree: 0%
@@ -15,9 +17,11 @@ ht-degree: 0%
 
 # 管理記錄註解
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -28,7 +32,7 @@ ht-degree: 0%
 * **註解**：顯示註解及使用者新增至記錄的回覆。
 * **歷程記錄**：顯示使用者對記錄欄位所做的系統記錄變更。 如需詳細資訊，請參閱[歷程記錄區段總覽](/help/quicksilver/planning/records/history-section-overview.md)。
 
-## 存取需求
+## 存取權要求
 
 +++ 展開以檢視本文中功能的存取需求。 
 
@@ -42,7 +46,7 @@ ht-degree: 0%
 <tr> 
 </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
 <p>任何Workfront和任何Planning套件</p> <p>任何工作流程與任何Planning套件</p>
 <p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
@@ -71,7 +75,8 @@ ht-degree: 0%
 
 +++  
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -133,7 +138,8 @@ ht-degree: 0%
 </td>
   </tr>
 </tbody> 
-</table> -->
+</table>
+-->
 
 
 
@@ -155,7 +161,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >   只有已加入Adobe Unified Experience的客戶之使用者，才會同時收到應用程式內通知和電子郵件通知。 若要判斷您的公司是否使用Adobe Unified Experience，請參閱[Workfront的Adobe Unified Experience &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+  >   只有已加入Adobe Unified Experience的客戶之使用者，才會同時收到應用程式內通知和電子郵件通知。 若要判斷您的公司是否使用Adobe Unified Experience，請參閱[Workfront的Adobe Unified Experience ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 * 您可以新增更新至記錄，並從Workfront Planning的下列區域複查變更歷史記錄：
 
@@ -189,8 +195,8 @@ ht-degree: 0%
    >在您完成輸入和提交評論之前瀏覽離開評論區段，即使您登出並重新登入，仍會將頁面上的評論保留在草稿模式。<!--this is no longer possible for records: Any images that are added to the comment are also saved in the draft. Drafts are saved for 7 days after which they are discarded and cannot be recovered. Drafted comments are only visible to the user entering them.-->
 
 1. （可選）若要復原或重做變更，請使用下列快速鍵：
-   * CTRL + Z (Mac為⌘+z)可復原變更
-   * 按CTRL + Y (Mac為⌘+y)以重做變更
+   * CTRL + Z （Mac為⌘+z）可復原變更
+   * 按CTRL + Y （Mac為⌘+y）以重做變更
 1. （選擇性和條件性）如果您的Workfront執行個體是Adobe整合式體驗的一部分，請新增&#x200B;**@**，然後加上使用者或團隊的名稱，以便在更新中標籤這些使用者。 如需詳細資訊，請參閱本文中關於評論記錄[的](#considerations-about-commenting-on-a-record)考量事項。
 
 1. （可選）使用RTF工具列中的選項來格式化文字、新增emoji或連結至更新，以強化內容。
@@ -238,7 +244,8 @@ ht-degree: 0%
     * **Copy body text**: This copies the text of the comment to your clipboard.
     * **Quote reply**: This copies the content of your comment into a new reply. Images are not included in the copied reply. 
 
-    For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). -->
+    For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+    -->
 
 ## 歷史記錄區段總覽
 

@@ -7,7 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 3190ad18-180e-42e5-aa10-bdad74303d3d
-source-git-commit: 86d5ed6f91bca0b68748a43476710028d34d6ad2
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 0%
@@ -23,7 +25,8 @@ ht-degree: 0%
 如需有關Frame.io與Workfront整合的詳細資訊，請參閱[整合式稽核和核准總覽](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)。
 
 
-<!--## Access requirements
+<!--
+## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
 
@@ -55,7 +58,8 @@ ht-degree: 0%
 
 For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++ -->
++++
+-->
 
 ## 先決條件
 
@@ -67,7 +71,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. 移至您的檢閱電子郵件通知，然後按一下&#x200B;**移至檢閱**。
 或
-前往Workfront首頁，尋找「我的核准」Widget，然後按一下&#x200B;**開啟稽核**。
+前往Workfront首頁，尋找「我的核准」Widget，然後按一下**開啟稽核**。
 
    >[!NOTE]
    > 
@@ -89,7 +93,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. 移至您的檢閱電子郵件通知，然後按一下&#x200B;**移至檢閱**。
 或
-前往Workfront首頁，尋找「我的核准」Widget，然後按一下&#x200B;**開啟稽核**。
+前往Workfront首頁，尋找「我的核准」Widget，然後按一下**開啟稽核**。
 
    >[!NOTE]
    > 

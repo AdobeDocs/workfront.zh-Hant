@@ -7,7 +7,9 @@ description: 在管理任務和問題指派時，您可以使用智慧指派來�
 author: Lisa
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 0%
@@ -61,11 +63,14 @@ ht-degree: 0%
 
   ![摘要面板工作區域](assets/issue-assignments-summary-panel.png)
 
-<!--* The Assignments field in the New Task box, when adding a task to a project
+<!--
+* The Assignments field in the New Task box, when adding a task to a project
 
-  (![Smart assignments new task]assets/smart-assignments-new-task-modal.png)-->
+  (![Smart assignments new task]assets/smart-assignments-new-task-modal.png)
+  -->
 
-<!--this is not possible in the new home  - we have Summary there: 
+<!--
+this is not possible in the new home  - we have Summary there: 
 * The Assignments field for an item listed in the Home area, when you open a task or issue
 
   ![Smart assignments in Home](assets/smart-assignments-in-home-nwe-350x216.png)
@@ -79,7 +84,8 @@ ht-degree: 0%
 
 <!--Smart assignments work differently for tasks than for issues.  -->
 
-<!--### Smart assignments criteria for tasks
+<!--
+### Smart assignments criteria for tasks
 
 The task smart assignments calculation works in <span class="preview">two phases which use two different algorithms.</span>
 
@@ -127,7 +133,8 @@ The calculation for the similarity score and the order in which the assignments 
 
 </div>
 
-#### Second phase of smart assignment calculation for tasks-->
+#### Second phase of smart assignment calculation for tasks
+-->
 
 <!--If the first step of task smart assignments has found no matches,-->
 
@@ -135,14 +142,16 @@ Workfront計算工作的智慧型指派的方式，與計算問題的方式相�
 
 <!--For more information, see the section [Smart assignments criteria for tasks and issues](#smart-assignments-criteria-for-tasks-and-issues) in this article. -->
 
-已識別的指派會列在[指派]欄位的&#x200B;**使用者與團隊**&#x200B;與&#x200B;**工作角色**<!--, and <span class="preview">**Rate card roles**</span>-->&#x200B;區段中。<!--<span class="preview">For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span>. keep the rate cards roles in yellow after the release of assignments to Prod-->
+已識別的指派會列在[指派]欄位的&#x200B;**使用者與團隊**&#x200B;與&#x200B;**工作角色**<!--, and <span class="preview">**Rate card roles**</span>-->區段中。
+<!--<span class="preview">For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span>. keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 <!--
 ### Smart assignments criteria for tasks and issues 
 
 >[!NOTE]
 >
->The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. For information, see the section [First phase of smart assignment calculation for tasks](#first-phase-of-smart-assignment-calculation-for-tasks) in this article. The following criteria always applies for issues, by default. -->
+>The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. For information, see the section [First phase of smart assignment calculation for tasks](#first-phase-of-smart-assignment-calculation-for-tasks) in this article. The following criteria always applies for issues, by default.
+-->
 
 ![智慧型指派範例](assets/smart-assignments-issue-header.png)
 

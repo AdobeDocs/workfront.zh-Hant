@@ -7,7 +7,9 @@ description: 請求代表擱置任務或問題指派。 工作請求會向個人
 author: Courtney
 feature: People Teams and Groups, Work Management
 exl-id: ef96e520-0d5f-4180-a27a-1fbbffff8f2b
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 4%
@@ -92,5 +94,5 @@ ht-degree: 4%
 1. 在左側導覽面板中，選取&#x200B;**[!UICONTROL 團隊要求]**。
 1. 按一下&#x200B;**[!UICONTROL 重新指派]**&#x200B;圖示。
 
-1. 開始輸入您要重新指派請求的使用者、群組或團隊名稱，然後按一下[指派]。**&#x200B;**\
+1. 開始輸入您要重新指派請求的使用者、群組或團隊名稱，然後按一下[指派]。****\
    請求已重新指派。

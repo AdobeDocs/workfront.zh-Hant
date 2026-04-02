@@ -6,7 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 11b72c797203dcf364281665bc60cf67d25c8b5d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 0%
@@ -18,9 +20,11 @@ ht-degree: 0%
 
 <!--you might need to add something about notifications and emails?!-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 在Adobe Workfront Planning中設定並啟動自動化後，您可使用它們在Adobe Workfront中建立物件或Adobe Workfront Planning中的記錄。
 
@@ -86,7 +90,8 @@ ht-degree: 0%
 
 +++   
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -146,7 +151,8 @@ ht-degree: 0%
   </tr> 
 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## 有關使用自動化建立物件和記錄的考量事項
 
@@ -167,7 +173,8 @@ ht-degree: 0%
 
 ## 使用Workfront Planning自動化建立物件或記錄
 
-<!--For Feb 26 and add Preview disclosure at the top:
+<!--
+For Feb 26 and add Preview disclosure at the top:
 
 <span class="preview">When you choose a Field value change-automation, Workfront Planning creates the objects automatically, when the conditions you define are met. </span>
 
@@ -205,7 +212,8 @@ For information, see [Configure Adobe Workfront Planning automations to create r
 
 1. （選擇性）按一下已連線欄位中的新物件。 物件頁面隨即開啟，您可以對新物件進行其他變更。
 
-<!--ORIGINAL AUTOMATION FUNCTIONALITY - BEFORE FEB. 20, 2025
+<!--
+ORIGINAL AUTOMATION FUNCTIONALITY - BEFORE FEB. 20, 2025
 
 You can configure automations in Adobe Workfront Planning that, when activated, create objects in Workfront or records in Workfront Planning when triggered from a Planning record. The created objects or records are automatically connected to the records you are triggering the automation from. 
 

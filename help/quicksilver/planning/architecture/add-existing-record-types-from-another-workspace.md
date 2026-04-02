@@ -6,7 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: c9fa6d97607990710e6c2a74f3b373d06201d721
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '784'
 ht-degree: 1%
@@ -71,7 +73,8 @@ ht-degree: 1%
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -108,7 +111,8 @@ And
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
   </tr>  
 </tbody> 
-</table>-->
+</table>
+-->
 
 ## 從另一個工作區新增現有記錄型別，以建立記錄型別
 
@@ -159,7 +163,8 @@ And
 
    如需詳細資訊，請參閱文章[刪除記錄型別](/help/quicksilver/planning/architecture/delete-record-types.md)中的「刪除全域記錄型別」一節。
 
-<!--This will be released later with another epic: 
+<!--
+This will be released later with another epic: 
 1. In the table view, click the **+** icon in the upper-right corner to add new fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
 1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) in the new record type's card, or to the right of the record type's name on its page, then click **Share** to share it with other users in the same workspace, or adjust their permissions to the record type.
 -->

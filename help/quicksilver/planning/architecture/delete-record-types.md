@@ -6,7 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 5bccad02f90fd99135b50c5a929913b16cc5b809
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1071'
 ht-degree: 1%
@@ -18,9 +20,11 @@ ht-degree: 1%
 
 # 刪除記錄型別
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -77,7 +81,8 @@ ht-degree: 1%
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -215,7 +220,7 @@ ht-degree: 1%
 
 如果您不再需要記錄型別，可將其從另一個工作區刪除。
 
-請考量下列事項：
+考慮以下事項：
 
 * 當您從次要工作區中刪除全域記錄型別時，該記錄型別會保留在原始工作區中。
 
@@ -245,6 +250,6 @@ ht-degree: 1%
    * 從全域記錄型別建立的記錄型別會從選取的次要工作區中移除。
    * 原始記錄型別及其欄位會保留在其原始工作區中。
    * 記錄型別會保留在已新增它的所有其他工作區中。
-   * 從次要工作區新增至記錄型別的記錄<!--and fields-->已刪除。 從已新增全域記錄型別的其他工作區新增的所有其他記錄都會保留在各自的工作區和原始工作區中。 &lt;！ — 欄位會保留在加入它們的工作區中。
+   * 從次要工作區新增至記錄型別的記錄<!--and fields-->已刪除。 從已新增全域記錄型別的其他工作區新增的所有其他記錄都會保留在各自的工作區和原始工作區中。 &lt;! — 欄位會保留在加入它們的工作區中。
 
 

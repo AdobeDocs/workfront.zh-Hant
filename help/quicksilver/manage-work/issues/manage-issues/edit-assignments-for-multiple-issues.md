@@ -6,7 +6,9 @@ description: 修改清單中多個問題的使用者指派
 author: Lisa
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: 8f7249e08268a8cb784d4c0ecc8c534542fa80cf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 4%
@@ -20,13 +22,15 @@ ht-degree: 4%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: similar article exists for tasks)</p>
 -->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> -->
+</div>
+-->
 
 您可以同時修改多個問題的使用者指派。 如需有關編輯問題或一次指派一個問題的資訊，另請參閱下列文章：
 
@@ -132,7 +136,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 按一下「**儲存**」。
 
 
-   <!--Old functionality for assignments for issues - before November 2025:
+   <!--
+   Old functionality for assignments for issues - before November 2025:
    1. (Conditional) In the Production environment, do the following: 
    1. Go to the **Assignments** section, then select **Assignee**.
       ![Assignments area](assets/classic-assignmens-area-on-edit-box-350x119.png)
@@ -159,7 +164,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
          1. (Optional) Modify any of the following options for the assignees you selected to associate with the issues:
           * **Issue Owner:**  Select the radio button to indicate which assignee is designated as the Issues Owner. If left unselected, Adobe Workfront designates the first assignee as the Issue Owner. This is not available for team assignments. 
             * **Assignee's Role**: Select a role from the drop-down list. If left unselected, Workfront automatically selects the Primary Role of the user.
-      1. Click **Save Changes**.-->
+      1. Click **Save Changes**.
+      -->
 
 
 

@@ -6,7 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1776'
 ht-degree: 5%
@@ -15,9 +17,11 @@ ht-degree: 5%
 
 # 管理行事曆檢視
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -70,7 +74,8 @@ ht-degree: 5%
 
 +++ 
 
-<!--Old:
+<!--
+Old:
  <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -132,13 +137,14 @@ ht-degree: 5%
   </tr>
 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## 管理行事曆檢視 {#manage-a-calendar-view}
 
 <!--insert screen shot of calendar view-->
 
-請考量下列事項：
+考慮以下事項：
 
 * 只有當您至少有兩個日期欄位與記錄型別相關聯時，才能建立「行事曆」檢視。 當您有一個或沒有與記錄型別相關聯的日期欄位時，「行事曆」檢視選項會變暗。
 
@@ -325,7 +331,7 @@ ht-degree: 5%
 
 1. 建立記錄型別頁面的行事曆檢視，如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述。
 1. （視條件而定）依月份顯示行事曆檢視，然後按一下行事曆工具列中的&#x200B;**列高**。
-1. 從下列選項中選擇：
+1. 從下列選項中選擇:
 
    <table>
     <thead>

@@ -6,10 +6,12 @@ description: 您可以在專案與任務之間移動問題。
 author: Alina
 feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '873'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -17,9 +19,11 @@ ht-degree: 1%
 
 <!--Audited: 12/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 您可以在下列物件之間移動問題：
 
@@ -28,16 +32,16 @@ ht-degree: 1%
 * 從任務到專案或到另一個專案
 * 從專案到相同專案中的任務或其他專案中的任務
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -45,7 +49,7 @@ ht-degree: 1%
    <td> 
    <ul><li>投稿人或以上</li>
    <li>將專案問題區段中的問題移動為淺色或更高</li></ul>
-   或：
+   或:
    <ul>   <li><p>要求或更高版本</p></li>
    <li><p>檢閱或更高授權以移動專案問題區段中的問題。</p></li></ul>   
      </td> 
@@ -65,7 +69,8 @@ ht-degree: 1%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -95,7 +100,8 @@ ht-degree: 1%
    <td> <p>Manage permissions to the issue</p> <p>Contribute permissions to the item where you are moving the issue with the ability to Add Issues.</td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 移動問題的考量事項
 
@@ -105,7 +111,7 @@ ht-degree: 1%
 
 * **當問題與請求佇列關聯時：**&#x200B;當您將問題移動到另一個物件且問題與請求佇列關聯時，移動的問題不再與原始佇列關聯，第一個問題源自此。
 * **當檔案附加到問題時：**&#x200B;當您將問題移動到另一個物件並且問題具有附加的檔案時，檔案、其版本和校樣也移動到新問題。 與檔案關聯的任何核准都不會移動。
-* **當問題連結至檔案或資料夾時：**&#x200B;當您移動具有連結至第三方服務(例如Google Drive)之檔案或資料夾的問題時，檔案的連結會隨著問題移動。
+* **當問題連結至檔案或資料夾時：**&#x200B;當您移動具有連結至第三方服務（例如Google Drive）之檔案或資料夾的問題時，檔案的連結會隨著問題移動。
 
 ## 移動清單中的問題
 
@@ -179,7 +185,7 @@ ht-degree: 1%
       <td role="rowheader"><p>文件</p></td> 
       <td> <p>移除檔案標籤中的所有專案，包括檔案版本、連結的檔案和資料夾。
 
-   <b>附註</b>
+   <b>注意</b>
 
    如果您選擇不移動與問題相關的檔案，檔案將會刪除並放入資源回收筒30天。 管理員可以還原這些檔案，且這些檔案將會在移動的問題上還原。
 

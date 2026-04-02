@@ -8,10 +8,12 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
-source-git-commit: 22ae8b489c63ba6eea1472cf415f95e375a94773
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '405'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -20,22 +22,23 @@ ht-degree: 2%
 <!--
 >[!IMPORTANT]
 >
->This functionality is not currently available to organizations that have been onboarded to the Adobe Admin Console. It will be available in the Adobe Admin Console in a future release. -->
+>This functionality is not currently available to organizations that have been onboarded to the Adobe Admin Console. It will be available in the Adobe Admin Console in a future release.
+-->
 
 您可以設定Adobe Workfront IP允許清單，限制存取您所指定的75個IP位址或IP位址範圍的Workfront。 這為Workfront應用程式提供額外的安全層。
 
 這些IP位址或IP位址範圍應由您的網路管理員提供。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 

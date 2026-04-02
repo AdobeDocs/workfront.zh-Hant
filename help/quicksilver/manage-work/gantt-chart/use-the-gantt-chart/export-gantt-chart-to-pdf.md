@@ -5,10 +5,12 @@ description: 您可以將甘特圖匯出至PDF。 之後，您可以列印或附
 author: Alina
 feature: Work Management
 exl-id: 91aad9e0-25c9-4eae-aa66-8aab763d3b76
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '979'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -18,30 +20,30 @@ ht-degree: 2%
 
 您可以將[!UICONTROL 甘特圖]匯出至PDF。 之後，您可以列印或附加至電子郵件，與其他使用者共用。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront]套件</td> 
+   <td role="rowheader">[！UICONTROL Adobe Workfront]套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront]授權</td> 
-   <td> <p>[!UICONTROL Light]或更高</p>
-   <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <td role="rowheader">[！UICONTROL Adobe Workfront]授權</td> 
+   <td> <p>[！UICONTROL Light]或更高</p>
+   <p>[！UICONTROL Review]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL 檢視]或更高的專案和任務存取權</p> </td> 
+   <td> <p>[！UICONTROL檢視]或更高的專案和任務存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>[!UICONTROL 檢視]或更高的專案和任務存取權</p> </td> 
+   <td> <p>[！UICONTROL檢視]或更高的專案和任務存取權</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,7 +52,8 @@ ht-degree: 2%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -133,7 +136,7 @@ ht-degree: 2%
    例如，如果您正在檢視包含50個任務的專案的[!UICONTROL 甘特圖]，但您只想在匯出的[!UICONTROL 甘特圖]上顯示10個任務，請選取您要顯示的10個任務。
 
 1. 按一下甘特圖右上角的印表機圖示![印表機圖示](assets/printer-icon.png)。
-顯示&#x200B;**[!UICONTROL 匯出至PDF]**&#x200B;對話方塊。
+顯示**[!UICONTROL 匯出至PDF]**&#x200B;對話方塊。
 
    ![匯出至PDF對話方塊](assets/exported-gantt-ui-350x225.png)
 
@@ -161,7 +164,7 @@ ht-degree: 2%
      >   * 當它包含超過500個專案。
 
 
-1. 如果PDF在匯出到PDF之後會列印，請在&#x200B;**[!UICONTROL 頁面大小]**&#x200B;下拉式選單中選取您要列印的紙張大小。
+1. 如果PDF在匯出到PDF之後會列印，請在&#x200B;**[!UICONTROL 頁面大小]**下拉式選單中選取您要列印的紙張大小。
 您可選取下列選項：
 
    * **[!UICONTROL 字母]**

@@ -6,14 +6,17 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: 44ad9ef17277476448b59c3c7bdf1817ad84be37
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2185'
 ht-degree: 0%
 
 ---
 
-<!--Better metadata, at publishing:
+<!--
+Better metadata, at publishing:
 ---
 title: Get Started with the Workfront Planning and GenStudio for Performance Marketing Integration
 description: The GenStudio for Performance Marketing workspace is available in Adobe Workfront Planning when your company has purchased both products. Learn some of the basics about how you can streamline your workflows using this integration.
@@ -30,9 +33,11 @@ recommendations: noDisplay, noCatalog
 
 # 開始使用Adobe Workfront規劃和Adobe GenStudio for Performance Marketing整合
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 同時使用Adobe Workfront Planning和Adobe GenStudio for Performance Marketing的組織通常會比GenStudio預設支援的更詳細地定義行銷概念，例如行銷活動、產品、啟用和角色。
 
@@ -65,7 +70,7 @@ GenStudio for Performance Marketing與Workfront Planning之間有原生整合。
 
 * 您的Workfront執行個體是Adobe Unified Experience的一部分，包括使用Identity Management系統(IMS)。
 
-  如需詳細資訊，請參閱[Workfront的Adobe Unified Experience &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+  如需詳細資訊，請參閱[Workfront的Adobe Unified Experience ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 * 同時使用Workfront Planning和GenStudio for Performance Marketing的使用者必須只屬於IMS組織中的一個Workfront例項。
 
@@ -107,7 +112,7 @@ GenStudio for Performance Marketing與Workfront Planning之間有原生整合。
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing使用者角色</p></td> 
    <td><p><ul><li>存取行銷活動、產品和角色的任何GenStudio使用者角色</li>
    <li>GenSudio System Manager存取啟用 <!--and Events--></li></ul>
-   如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">使用者角色和許可權</a>。 
+   如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">使用者角色和許可權</a>。 
    </p>
   </td> 
   </tr>   
@@ -132,7 +137,8 @@ GenStudio for Performance Marketing與Workfront Planning之間有原生整合。
 
 如需Adobe GenStudio for Performance Marketing的詳細資訊，請參閱[Adobe GenStudio for Performance Marketing使用手冊](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/home)。
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -162,7 +168,7 @@ GenStudio for Performance Marketing與Workfront Planning之間有原生整合。
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****and Events****</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -182,7 +188,8 @@ GenStudio for Performance Marketing與Workfront Planning之間有原生整合。
    </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Workfront Planning與GenStudio for Performance Marketing整合功能總覽
 
@@ -200,7 +207,7 @@ GenStudio for Performance Marketing與Workfront Planning之間有原生整合。
     <td role="rowheader"><p>一個Workfront例項</p></td> 
    <td> 
 <p>可在您的Workfront Planning例項中看見GenStudio工作區</p>
-<p>依預設，所有使用者(包括Workfront管理員)都擁有Planning中GenStudio工作區的「貢獻」存取權</p>
+<p>依預設，所有使用者（包括Workfront管理員）都擁有Planning中GenStudio工作區的「貢獻」存取權</p>
 <p>Workfront管理員可以修改並將GenStudio工作區的管理許可權授予任何人</p>
 </td> </tr>
    <tr> 
@@ -215,11 +222,13 @@ GenStudio for Performance Marketing與Workfront Planning之間有原生整合。
    </tbody> 
 </table>
 
-<!--Old for the second row in the table:
+<!--
+Old for the second row in the table:
 
 <p>The GenStudio workspace is visible from all Workfront instances</p>
 <p>All users with access to GenStudio for Performance Marketing and Workfront Planning have Contribute permissions on the GenStudio in Planning by default</p> 
-<p>Workfront administrators cannot grant Manage permissions to the GenStudio workspace to anyone</p>-->
+<p>Workfront administrators cannot grant Manage permissions to the GenStudio workspace to anyone</p>
+-->
 
 如需Workfront Planning許可權的相關資訊，請參閱[在Adobe Workfront Planning中共用許可權概觀](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 

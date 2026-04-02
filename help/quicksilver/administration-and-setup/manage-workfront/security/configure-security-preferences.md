@@ -8,10 +8,12 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 1a56846647e443cf3f5f09eed8c3084434de5ddb
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -34,16 +36,16 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 我們建議您在Workfront實作期間設定系統偏好設定，之後只需偶爾重新造訪一次。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -91,7 +93,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
      </tr> 
      <tr> 
       <td role="rowheader">讓人們使用Workfront的行動應用程式和Workfront Outlook增益集</td> 
-      <td> <p>允許使用者存取行動應用程式(適用於iPad和行動電話應用程式的Workfront View)和Workfront Outlook應用程式。</p> <p>此選項預設為啟用。 </p> <p>如需Workfront檢視的相關資訊，請參閱<a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">使用Adobe Workfront檢視</a>。 如需行動應用程式的詳細資訊，請參閱<a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">使用Adobe Workfront行動應用程式：文章索引</a>。</p> </td> 
+      <td> <p>允許使用者存取行動應用程式（適用於iPad和行動電話應用程式的Workfront View）和Workfront Outlook應用程式。</p> <p>此選項預設為啟用。 </p> <p>如需Workfront檢視的相關資訊，請參閱<a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">使用Adobe Workfront檢視</a>。 如需行動應用程式的詳細資訊，請參閱<a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">使用Adobe Workfront行動應用程式：文章索引</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>透過使用電子郵件地址與沒有Workfront帳戶的人共同作業</p> </td> 
@@ -103,7 +105,8 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
         <li>行事曆</li>
        </ul><p>此選項預設為啟用。</p> <p><b>重要</b>：如果停用此選項，您的Workfront執行個體將無法使用外部使用者存取層級。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">內建存取層級</a>。</p> </td> 
      </tr> 
-     <!--<tr> 
+     <!--
+     <tr> 
       <td role="rowheader">Require external users to register with a password</td> 
       <td> <p>Requires external users to register before they are able to view items in Workfront. By default, this option is disabled. When you enable this option, people without a Workfront account who are included in certain updates by their email address, will be prompted to create an account before they can view the item they are included on. This creates an External User account for them.</p> <p>This option is disabled by default.</p> </td> 
      </tr> 
@@ -114,7 +117,8 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
      <tr> 
       <td role="rowheader">Automatically log mobile users out after </td> 
       <td>Lets you specify when a user is logged out of the Workfront application, after a period of inactivity. By default, users are logged out after 7 days of inactivity. <p>This option also affects Workfront customers who are using a single sign-on solution.</p> <p>This setting is not available to organizations that have been migrated to Adobe IMS.</p></td> 
-     </tr> -->
+     </tr>
+     -->
      <tr> 
       <td role="rowheader">說明 URL</td> 
       <td>可讓您定義主要功能表說明圖示要前往的內部自訂說明網站。 如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md">設定自訂說明URL</a>。</p></td> 

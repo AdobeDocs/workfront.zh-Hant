@@ -6,10 +6,12 @@ description: 排程自動報告傳送
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1293'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -25,16 +27,16 @@ ht-degree: 2%
 
 如需詳細資訊，包括可能影響報表傳送的大小限制，請參閱[報表傳送概覽](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -190,7 +192,8 @@ ht-degree: 2%
 
 1. 按一下&#x200B;**刪除**&#x200B;確認。
 
-<!--## Video walk-through
+<!--
+## Video walk-through
 
 View the following video to learn how to schedule a report delivery. This video was recorded in Workfront Classic. However, the content also applies to the new Workfront experience.
 

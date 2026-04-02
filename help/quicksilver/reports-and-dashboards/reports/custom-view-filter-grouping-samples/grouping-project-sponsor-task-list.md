@@ -7,7 +7,9 @@ description: 此任務分組允許您按專案贊助者將任務分組。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 2d8f85ea-492e-4b08-82f5-726170acc7d5
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 10%
@@ -73,5 +75,5 @@ ht-degree: 10%
    ```
 
 1. 按一下「**完成**」。
-1. 更新群組名稱，然後按一下[儲存群組]。**&#x200B;**
+1. 更新群組名稱，然後按一下[儲存群組]。****
 

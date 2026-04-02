@@ -6,7 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: c91622e8155c62ecf7c17eaeb60b2bd4f69aaedf
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '5686'
 ht-degree: 1%
@@ -15,7 +17,7 @@ ht-degree: 1%
 
 
 <!--
-Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=zh-Hant ??
+Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??
 -->
 
 <!--
@@ -624,7 +626,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
 ### 人員
 
-您可以使用[人員]欄位型別將使用者<!--, job role, or team-->新增到記錄。 這是預先輸入欄位，您只能新增已在Workfront執行個體中的使用者<!--, roles, or teams-->。
+您可以使用「人員」欄位型別，將使用者新增至記錄。 這是預先輸入欄位，您只能新增已在Workfront執行個體中的使用者<!--, roles, or teams-->。
 
 >[!TIP]
 >

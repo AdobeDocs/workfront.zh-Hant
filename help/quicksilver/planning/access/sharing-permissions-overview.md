@@ -6,7 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 5%
@@ -20,9 +22,11 @@ ht-degree: 5%
 
 # 在Adobe Workfront Planning中共用許可權的概觀
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 
@@ -133,7 +137,8 @@ ht-degree: 5%
 
 ### 記錄型別的許可權
 
-<!-- old access:
+<!--
+ old access:
 In the Production environment, Record Type permissions are always inherited when you grant permissions to the workspace.
 
 The following are the levels of permissions for record types: 
@@ -232,7 +237,8 @@ The following are the levels of permissions for record types:
 
 *使用者必須擁有工作區的檢視或更高許可權才能取得此檢視存取權。
 
-<!--old view permissions, before sharing View permissions to a view through a workspace:
+<!--
+old view permissions, before sharing View permissions to a view through a workspace:
 |        | Manage | View  |
 |--------|--------|-------|
 | Edit   | ✓      |       |                            

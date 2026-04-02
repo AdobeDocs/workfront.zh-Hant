@@ -6,7 +6,9 @@ description: 投資組合是Adobe Workfront中的專案或方案集合。 如果
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 1%
@@ -21,7 +23,7 @@ ht-degree: 1%
 
 我們建議停用不再需要與未來專案關聯的專案組合，而不是刪除它，以保留目前與專案組合及其方案關聯的專案上的歷史資訊。
 
-## 存取需求
+## 存取權要求
 
 +++ 展開以檢視存取需求。展開以檢視本文中功能的存取需求。 
 
@@ -35,16 +37,16 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>[!UICONTROL 標準]</p>
-   <p>[!UICONTROL 計畫]</p> </td> 
+   <td> <p>[！UICONTROL標準]</p>
+   <p>[！UICONTROL計畫]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL Edit]專案與投資組合的存取權</p>  </td> 
+   <td> <p>[！UICONTROL Edit]專案與投資組合的存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合的[!UICONTROL Manage]許可權 </p> </td> 
+   <td> <p>投資組合的[！UICONTROL Manage]許可權 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +55,8 @@ ht-degree: 1%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 

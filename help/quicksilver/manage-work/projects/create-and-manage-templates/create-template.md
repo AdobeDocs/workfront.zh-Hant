@@ -6,10 +6,12 @@ description: 您可以從「範本」區域建立及刪除範本。 建立新範
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '734'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -19,13 +21,15 @@ ht-degree: 6%
 
 <!--remove all instances of new/ old experience and redo the steps when the toggle is removed-->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> -->
+</div>
+-->
 
 您可以從「範本」區域建立及刪除範本。 建立新範本時，您可以為所有任務和未來專案設定輸入資訊。 然後，此資訊將傳輸至您從範本建立的任何專案。
 
@@ -47,16 +51,16 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 * 透過匯入Blueprint。 您必須是Workfront管理員才能匯入Blueprint。 如需詳細資訊，請參閱[設定Blueprint](../../../administration-and-setup/blueprints/configure-template-package.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -78,7 +82,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -100,7 +105,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    <td> <p>You have Manage permissions to the templates you create, by default</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## 建立範本
 

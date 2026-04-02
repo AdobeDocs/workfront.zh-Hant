@@ -8,10 +8,12 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2213'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -40,9 +42,9 @@ ht-degree: 2%
 >
 >如需單一使用核准程式的資訊，請參閱[核准程式概述](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md)和[將新的或現有的核准程式與工作建立關聯](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -75,7 +77,8 @@ ht-degree: 2%
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,7 +104,8 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 
 ## 建立工作專案的系統層次或群組層次全域核准程式
@@ -114,7 +118,8 @@ For more detail about the information in this table, see [Access requirements in
 
    如果您正在建立群組層級的核准程式，請按一下&#x200B;**群組** ![群組圖示](assets/groups-icon.png)，按一下群組名稱，然後按一下&#x200B;**核准**。
 
-   <!--hidden for the new tab redesign - August 2023: 
+   <!--
+   hidden for the new tab redesign - August 2023: 
    ![Approvals area in setup](assets/approvals-area-in-setup-processes.png)
    -->
 

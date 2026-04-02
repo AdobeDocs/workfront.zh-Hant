@@ -6,7 +6,9 @@ description: Adobe Workfront有一個準備使用的內建報告詳細清單。 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2978'
 ht-degree: 11%
