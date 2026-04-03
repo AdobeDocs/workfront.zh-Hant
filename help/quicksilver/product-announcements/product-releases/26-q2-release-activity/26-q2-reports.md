@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 1a37ff7e4e4b60ac23b0edde6b60258ed508e90b
+source-git-commit: 1ef6ead705231a41cbf62b8a8b35f480da004970
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '872'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,29 @@ ht-degree: 0%
 
 如需2026年第二季發行週期目前可用的所有變更清單，請參閱[2026年第二季發行概觀](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
 
+## 檔案版本的目前版本欄位
+
+>[!NOTE]
+>
+>預覽： 2026年4月2日
+>生產快速發行： 2026年4月15日
+>每個人都能使用生產： 2026年4月16日
+
+我們已將一個`currentVersion`布林欄位新增到Document Version物件，以便更輕鬆地識別和報告檔案的最新版本。
+透過此更新：
+
+* 您可以在篩選器、檢視、群組和圖表中使用`currentVersion`。
+* 該欄位可在用於「檔案版本」報告的「畫布」欄位選擇器中使用。
+
+* 上傳新版本時：
+
+   * 新版本已標示為`TRUE`
+   * 舊版已標示為`FALSE`
+
+* 報表可以一致地識別畫布控制面板和舊式報表的最新版本
+
+使用`isCurrentVersion`或`isDocumentCurrentVersion`之傳統報表的現有篩選器仍可繼續如記錄般運作。
+
 ## 排程報告傳送現在支援連結型電子郵件
 
 >[!NOTE]
@@ -28,7 +51,7 @@ ht-degree: 0%
 >生產快速發行： 2026年4月15日
 >每個人都能使用生產： 2026年4月16日
 
-Workfront現在包含排程報告的新連結傳送型別。 此選項不會產生和附加檔案，而是會傳送一封電子郵件，其中包含指向Workfront中報告的直接連結，以允許收件者檢視應用程式中的最新資料。
+Workfront現在包含排程報告的新連結傳送型別。 此選項不會產生和附加檔案，而是會傳送一封電子郵件，其中包含到Workfront中報告的直接連結，可讓收件者檢視{{$include }}應用程式中的最新資料。
 
 「連結」選項現在成為新建立排程報告傳送規則的預設傳送型別，而現有檔案型格式（HTML、PDF、Excel和TSV）仍可使用。
 
