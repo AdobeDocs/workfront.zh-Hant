@@ -7,7 +7,8 @@ description: 作為Adobe Workfront管理員，您可以透過在Admin Console中
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: ebc342b65bee6a8c5ba0edbe2e990ec2775a9055
+exl-id: 727efbd6-79b4-42c5-bfa2-e5350f30ff23
+source-git-commit: f74c567505dbdf6b2d1d8a85a62ba40d919be7b3
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 4%
@@ -76,7 +77,7 @@ ht-degree: 4%
 1. 按一下&#x200B;**指派的產品設定檔**&#x200B;索引標籤。
 1. 按一下&#x200B;**指派設定檔**。
 1. 在快顯視窗中，從產品清單中選取&#x200B;**Adobe GenStudio**，然後按一下&#x200B;**套用**。
-1. 選取&#x200B;**Adobe GenStudio系統管理員**&#x200B;設定檔。
+1. 選取&#x200B;**Adobe GenStudio Foundation編輯器**&#x200B;設定檔。
 1. 按一下「**套用**」。
 1. 按一下「**儲存**」。
 
