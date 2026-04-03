@@ -9,7 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
-source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 2b3e2ac00126facab9cc45ba8fb193d8951a37ec
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 0%
@@ -52,7 +54,7 @@ Adobe企業儲存的主要優點包括：
 * 即時追蹤稽核和核准的狀態
 * 將意見反應與核准集中於一處
 * 確保所有利害關係人都能存取最新版本的資產
-* 利用AI稽核者來自動進行品牌法規審查
+* 利用內容檢閱者來自動化品牌法規遵循檢閱
 * 及更多內容
 
 如需詳細資訊，請參閱[整合檔案核准：文章索引](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)。

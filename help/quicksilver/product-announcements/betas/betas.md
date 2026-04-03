@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-source-git-commit: b52c188d767ee37699ead71ed90642458d9889fa
+source-git-commit: 78c2fd4afbe24062cbaea935e9b548ffe6e528ea
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '184'
 ht-degree: 1%
 
 ---
@@ -31,8 +31,12 @@ ht-degree: 1%
 
   如需詳細資訊，請參閱[專案狀況概觀](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md)。
 
-* Workfront AI檢閱者
-如需詳細資訊，請參閱[開始使用Workfront AI檢閱者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)。
+* Workfront內容檢閱者
+
+   * 影像指南目前仍在測試階段。 內容檢閱者會使用您在Workfront中設定的品牌指引，在檢閱和核准程式期間檢閱內容並提供意見給內容建立者。
+   * 品牌語音指南可供一般使用。
+
+  如需詳細資訊，請參閱[開始使用Workfront內容檢閱者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)。
 
 * Adobe Workfront規劃Designer可在封閉式Beta中使用。 您可以傳送電子郵件給我們，要求存取此程式。
 

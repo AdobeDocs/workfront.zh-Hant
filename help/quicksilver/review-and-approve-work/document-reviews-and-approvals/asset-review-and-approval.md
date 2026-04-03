@@ -6,7 +6,9 @@ description: Workfront中可供檢閱和核准的系統概觀。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 2b3e2ac00126facab9cc45ba8fb193d8951a37ec
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 0%
@@ -62,10 +64,9 @@ Workfront中目前有3種不同的系統可供檔案核准：
 
 * 首頁區域中的我的核准Widget中的存取檢閱和核准請求
 
+* 使用「內容檢閱者」可自動進行品牌法規遵循檢閱。 如需詳細資訊，請參閱[開始使用Workfront內容檢閱者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)。
+
 * 使用Frame.io檢視器檢閱及核准檔案。 如需詳細資訊，請參閱[開始進行統一檢閱和核准](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)。
-
-* 使用AI檢閱者來自動進行品牌法規遵循檢閱。 如需詳細資訊，請參閱[開始使用Workfront AI檢閱者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)。
-
 
 ## 校訂核准
 
