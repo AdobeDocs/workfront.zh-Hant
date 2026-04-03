@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 5e0be9d9-efa5-4b16-bd56-f9c85bc57ced
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: c4716157a6fdf667f7e608d0c37399f57ec1bbfe
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1569'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 0%
    <ul><li><p>Adobe Experience Manager Assets授權及AEM Assets與Workfront之間的整合，用於連結AEM資產與Planning記錄型別。</p>
    <p>如需詳細資訊，請參閱<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 連線記錄型別與GenStudio Brands的Adobe GenStudio for Performance Marketing授權</p>
-   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
+   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
    </td> 
   </tr>
 
@@ -155,7 +155,7 @@ ht-degree: 0%
 
    或
 
-   暫留在索引標簽名稱上，然後按一下[其他] **&#x200B;**&#x200B;![&#x200B; [其他]功能表](assets/more-menu.png)，然後按一下[重新命名] **以重新命名為新的連線記錄頁面索引標籤。**
+   暫留在索引標簽名稱上，然後按一下[其他] **** ![ [其他]功能表](assets/more-menu.png)，然後按一下[重新命名] **以重新命名為新的連線記錄頁面索引標籤。**
 
 1. （選擇性）將游標暫留在連線記錄頁面索引標簽名稱上，按一下&#x200B;**更多** ![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**刪除**&#x200B;以移除至索引標籤。
 
@@ -303,38 +303,47 @@ When you create a connected records page for connected Planning records in the P
 
 1. 移至記錄型別頁面，然後按一下記錄名稱。 這會開啟記錄的預覽頁面。
 1. 按一下顯示Workfront專案的已連線記錄頁面的標籤。
-與您選取的記錄連線的專案會顯示在清單檢視中。
-1. 按一下連線記錄頁面右上角的&#x200B;**連線記錄**&#x200B;以連線現有的專案。
 
-   如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
-1. 在清單檢視的儲存格內連按兩下以編輯專案的欄位。 有些欄位是唯讀的。
-1. 執行下列任一項作業來編輯清單檢視：
+   ![專案連線記錄頁面](assets/projects-connected-records-page-table.png)
 
-   * 按一下&#x200B;**新增列**&#x200B;以建立沒有範本的專案。 新專案會自動連線到目前的記錄。
+   與您選取的記錄連線的專案會顯示在清單檢視中。
 
-     如需詳細資訊，請參閱[當您將Workfront物件連線至記錄時，從Workfront Planning建立物件](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)。
-   * 按一下檢視右上角的&#x200B;**建立記錄**&#x200B;以新增現有專案。 專案會立即連線至選取的記錄。
+   如需有關管理或編輯清單檢視中物件的資訊，請參閱[管理清單檢視](/help/quicksilver/planning/views/manage-the-list-view.md)。
 
-   * 將滑鼠懸停在清單中的專案名稱上，然後按一下&#x200B;**更多**&#x200B;功能表[更多](assets/more-menu.png)，然後按一下&#x200B;**檢視**&#x200B;以在另一個索引標籤中開啟專案
+<!-- 
+removed this part, so we won't have to have duplicate information to keep up with for the list view in Planning: 
+1. Click **Connect records** in the upper-right corner of the connected record page to connect existing projects.
 
-     或
+   For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+1. Double-click inside a cell in the list view to edit a project's fields. Some fields are read-only. 
+1. Do one of the following to edit the list view: 
 
-     選取一或多個專案，然後在清單底部的動作列按一下&#x200B;**刪除**&#x200B;或&#x200B;**中斷連線**，將專案從清單中移除。
+   * Click **New row** to create a project without a template. The new project is automatically connected to the current record.
 
+      For more information, see [Create Workfront objects from Workfront Planning as you connect them to records](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
+   * Click **Create records **in the upper-right corner of the view to add existing projects. Projects are immediately connected to the selected record. 
 
-   * 按一下[檢視]下拉式功能表，然後按一下[新檢視]，為頁面新增檢視，然後執行下列動作，或按一下新名稱右邊的[其他] &lbrace;3&rbrack; **[更多]功能表**，然後[重新命名] **&#x200B;**、[共用] ![或[刪除] &#x200B;](assets/more-menu.png)**檢視。**&#x200B;**&#x200B;**&#x200B;**&#x200B;**
+   * Hover over a project name in the list and click the **More** menu [More menu](assets/more-menu.png) and click **View** to open the project in another tab
+     
+      Or
 
-     您無法重新命名、共用或刪除您沒有管理許可權的系統檢視或檢視。
+      Select one or more projects, and from the actions bar at the bottom of the list, click **Delete** or **Disconnect** to remove the item from the list.
+      
 
-     ![檢視專案連線記錄頁面上的更多功能表](assets/view-more-menu-projects-connected-records-page.png)
+   * Click the views dropdown menu, and click **New view** to add a new view for the page, then do the following, or click the **More** menu ![More menu](assets/more-menu.png) to the right of a new name, then **Rename**, **Share**, or **Delete** the view. 
 
-   * 按一下下列其中一項，以更新檢視元素：
+      You cannot rename, share or delete System Views or views you do not have Manage permissions to.
 
-      * **篩選**&#x200B;以限制清單中的資訊量
-      * **欄**&#x200B;以隱藏欄或變更其順序
-      * 表格檢視右上角的&#x200B;**+**&#x200B;圖示可將現有欄位新增至清單。 欄位必須先存在，您才能新增它們。
+      ![View more menu on Projects Connected records page](assets/view-more-menu-projects-connected-records-page.png)
 
-   如需有關管理清單檢視中物件的詳細資訊，請參閱[管理清單檢視](/help/quicksilver/planning/views/manage-the-list-view.md)。
+   * Click one of the following to update the view's elements: 
+
+      * **Filter** to limit the amount of information in the list
+      * **Columns** to hide columns or change their order
+      * The **+** icon in the upper-right corner of the table view to add existing fields to the list. Fields must exist before you can add them. 
+
+   For more information about managing objects in a list view, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md).
+-->
 
 <!--
  this is repetitive from an earlier section above: 

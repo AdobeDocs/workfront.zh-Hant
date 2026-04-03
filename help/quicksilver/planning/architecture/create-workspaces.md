@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: c4716157a6fdf667f7e608d0c37399f57ec1bbfe
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1199'
 ht-degree: 0%
 
 ---
@@ -150,6 +150,11 @@ Old:
 
   如需詳細資訊，請參閱本文章的[使用最佳實務多工作區範本組合](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle)建立多個工作區
 
+  >[!TIP]
+  >
+  >除非使用最佳實務範本組合，否則您無法一次建立多個工作區。
+
+
 </div>
 
 ### 從頭開始或從範本建立工作區
@@ -180,7 +185,7 @@ Old:
 
    或
 
-   按一下[上一步]&#x200B;**&#x200B;**，然後按一下[新工作區]&#x200B;**&#x200B;**&#x200B;從頭開始建立工作區。
+   按一下[上一步]****，然後按一下[新工作區]****&#x200B;從頭開始建立工作區。
 
    會建立下列其中一種工作區型別：
 
@@ -219,7 +224,7 @@ Old:
    >
    >對於目前正在轉換至Adobe Identity Management System (IMS)的使用者，非IMS使用者的僅Workfront使用者所建立的工作區，會顯示為&#x200B;**系統**&#x200B;所建立。
    >
-   >如需IMS的相關資訊，請參閱[Workfront的Adobe Unified Experience &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+   >如需IMS的相關資訊，請參閱[Workfront的Adobe Unified Experience ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 <div class="preview">
 
@@ -238,9 +243,10 @@ Old:
 
 >[!IMPORTANT]
 >
->組合中包含的所有工作區、記錄型別、欄位和記錄名稱都是範例，並非您自己環境的反映。
+>束中包含的工作區和記錄的名稱只是範例，並非您自己環境的反映。
 >
->我們建議您使用此範本組合作為Planning結構的範例，並繼續建立反映您組織工作流程的物件。
+>根據我們的建議，記錄型別和欄位的名稱可用於任何組織，作為任何產業中實施的標準。
+>
 
 {{step1-to-planning}}
 
