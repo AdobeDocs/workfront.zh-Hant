@@ -8,14 +8,17 @@ feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
 workflow-type: tm+mt
-source-wordcount: '1814'
+source-wordcount: '1917'
 ht-degree: 5%
 
 ---
 
 # 在畫布儀表板中建立圖表報告
+
+{{highlighted-preview}}
+
 
 >[!IMPORTANT]
 >
@@ -101,6 +104,15 @@ ht-degree: 5%
       >[!NOTE]
       >
       >可在圖表中顯示的數目上限為60個序列。 核取此方塊時，超過限制的任何數列都會合併成圖表中的&#x200B;**其他**&#x200B;群組。
+
+   1. <span class="preview"> （選擇性）在&#x200B;**以**&#x200B;欄位存取權執行此報告，開始輸入您要報告使用之許可權的使用者名稱，然後在使用者出現在清單中時選取使用者。 當您設定報表以其他使用者身分執行時，無論儀表板的所有檢視者自己的存取層級為何，都會看到相同的資料。 如果您未選取使用者，每個檢視器會根據其許可權檢視資料。
+
+      >[!IMPORTANT]
+      >
+      >如果所選的使用者被停用或失去對相關工作區或記錄型別的存取權，報告可能會顯示不完整的資料或無法呈現。
+
+   </span>
+
 1. 選擇要建立的圖表型別：
    * [橫條圖、直條圖或折線圖](#bar-column-or-line-chart)
    * [圓形圖](#pie-chart)

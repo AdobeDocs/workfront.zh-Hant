@@ -8,14 +8,17 @@ feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
 workflow-type: tm+mt
-source-wordcount: '1199'
-ht-degree: 8%
+source-wordcount: '1302'
+ht-degree: 7%
 
 ---
 
 # 在畫布儀表板中建立表格報告
+
+{{highlighted-preview}}
+
 
 >[!IMPORTANT]
 >
@@ -96,6 +99,14 @@ ht-degree: 8%
    1. 輸入報告&#x200B;**名稱**。
 
    1. 輸入報告&#x200B;**描述**。
+
+   1. <span class="preview"> （選擇性）在&#x200B;**以**&#x200B;欄位存取權執行此報告，開始輸入您要報告使用之許可權的使用者名稱，然後在使用者出現在清單中時選取使用者。 當您設定報表以其他使用者身分執行時，無論儀表板的所有檢視者自己的存取層級為何，都會看到相同的資料。 如果您未選取使用者，每個檢視器會根據其許可權檢視資料。
+
+      >[!IMPORTANT]
+      >
+      >如果所選的使用者被停用或失去對相關工作區或記錄型別的存取權，報告可能會顯示不完整的資料或無法呈現。
+
+   </span>
 
 1. 請依照下列步驟設定&#x200B;**組建資料表**&#x200B;區段：
 

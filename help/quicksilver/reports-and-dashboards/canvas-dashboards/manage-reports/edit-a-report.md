@@ -8,14 +8,16 @@ feature: Reports and Dashboards
 exl-id: fd659f56-d67f-4a0f-8735-b214934903ac
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 5%
+source-wordcount: '586'
+ht-degree: 4%
 
 ---
 
 # 在畫布控制面板中編輯報告
+
+{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -86,7 +88,13 @@ ht-degree: 5%
 
    ![編輯報告](assets/edit-report-box.png)
 
-1. 在&#x200B;**設定**&#x200B;對話方塊中，編輯左側所列區段中的資訊。 這些區段會依您編輯的報表型別而有所不同。
+1. <span class="preview">在&#x200B;**設定**&#x200B;對話方塊中，編輯左側所列區段中的資訊。 這些區段會依您編輯的報表型別而有所不同。
+
+   >[!TIP]
+   >
+   >所有報告型別的「詳細資料」區段都包含&#x200B;**以**&#x200B;的存取許可權執行此報告。 使用此項來指定其許可權用於呈現報表資料的使用者，確保所有儀表板檢視器都看到相同的資料。 如需詳細資訊，請參閱[建置KPI報告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)、[建置圖表報告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)或[建置資料表報告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)。
+
+   </span>
 
 1. （選用）如果編輯KPI報表，請視需要編輯下列區段中的資訊：
 
