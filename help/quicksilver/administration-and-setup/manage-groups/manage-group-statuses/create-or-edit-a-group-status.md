@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: d7e85faa0e6da2218d7e983d00fd992dc858a1d9
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 2%
+source-wordcount: '1327'
+ht-degree: 3%
 
 ---
 
@@ -90,11 +90,12 @@ ht-degree: 2%
 
    或
 
-   若要編輯現有狀態，請將滑鼠移至您要編輯的狀態，然後按一下顯示於最右邊的&#x200B;**編輯**&#x200B;選項。
+   如果您正在編輯現有狀態，請按一下該狀態的核取方塊，然後按一下畫面底部橫幅中的&#x200B;**編輯**。
 
-   ![群組狀態](assets/group-statuses-edit.jpg)
+   ![群組狀態](assets/group-statuses-edit-new.png)
 
    >[!NOTE]
+   >
    >只有符合以下條件時，您才能編輯群組的狀態：
    >      
    >* 您管理已為其建立狀態的群組
@@ -162,19 +163,20 @@ ht-degree: 2%
 
 如果您是Workfront管理員，可以建立系統範圍的狀態，然後隱藏該狀態，讓不需要該狀態的群組無法存取，藉此為多個群組建立自訂狀態。
 
-如果您是群組管理員(或Workfront管理員)，您可以為您管理的群組階層內的多個子群組建立自訂狀態，方法為建立較高層級群組的狀態，然後隱藏該狀態，讓任何不需要該狀態的較低子群組。
+如果您是群組管理員（或Workfront管理員），您可以為您管理的群組階層內的多個子群組建立自訂狀態，方法為建立較高層級群組的狀態，然後隱藏該狀態，讓任何不需要該狀態的較低子群組。
 
 1. 如果您是Workfront管理員，請依照[建立或編輯狀態](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)中的說明建立系統範圍的解除鎖定狀態。
 1. 在右上角的方塊中，刪除&#x200B;**系統狀態**，開始輸入您要隱藏狀態的群組名稱，然後在名稱出現時按一下。
-1. 暫留在您要隱藏群組的狀態上，然後按一下&#x200B;**編輯** （當它出現時）。
+1. 按一下您要編輯的狀態核取方塊，然後按一下畫面底部橫幅中的&#x200B;**編輯**。
 
-   ![編輯狀態](assets/hover-click-edit.jpg)
+
+   ![編輯狀態](assets/group-statuses-edit-new.png)
 
 1. 啟用顯示的&#x200B;**隱藏狀態**&#x200B;選項。
 
    ![隱藏狀態](assets/hide-group-status.png)
 
-1. 按一下「**儲存**」。
+1. 按一下&#x200B;**更新**。
 
    狀態會變暗，且不再對該群組中的所有使用者可見。
 

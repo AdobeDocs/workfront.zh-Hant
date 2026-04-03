@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 48745335495433e25ad0a27a6726dda7fe8a97d8
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 3%
+source-wordcount: '942'
+ht-degree: 4%
 
 ---
 
@@ -27,16 +27,16 @@ ht-degree: 3%
 >
 >群組管理員也可以建立自己的群組狀態，僅供其群組使用。 如需詳細資訊，請參閱[建立或編輯群組狀態](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -67,13 +67,13 @@ ht-degree: 3%
 
 1. （視條件而定）如果您要建立或編輯全系統使用的狀態，請確定已在右上角的方塊中選取&#x200B;**系統狀態**。
 
-   ![系統狀態](assets/system-statuses-in-upper-rt-corner-new.jpg)
+   ![系統狀態](assets/system-statuses-in-upper-rt-corner-new-png.png)
 
    或
 
    如果狀態為群組或子群組，請在右上角開始輸入群組的名稱，然後在其出現時選取它。
 
-   群組![的](assets/system-statuses-in-upper-rt-corner-group.jpg)系統狀態
+   群組![的](assets/system-statuses-in-upper-rt-corner-group-new-png.png)系統狀態
 
 1. 選取您想要與狀態關聯的物件型別（**專案**、**任務**&#x200B;或&#x200B;**問題**）的標籤。
 
@@ -81,9 +81,9 @@ ht-degree: 3%
 
    或
 
-   如果您正在編輯現有狀態，請將滑鼠游標停留在現有狀態上，然後按一下顯示於最右側的&#x200B;**編輯**&#x200B;圖示。
+   如果您正在編輯現有狀態，請按一下該狀態的核取方塊，然後按一下畫面底部橫幅中的&#x200B;**編輯**。
 
-   ![編輯自訂狀態](assets/custom-status-edit.png)
+   ![編輯自訂狀態](assets/edit-in-banner.png)
 
 1. 使用下列選項設定狀態：
 

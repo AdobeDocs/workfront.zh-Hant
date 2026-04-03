@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 6c7dd2504ce20274f8b80a306fc1075ec5761da6
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 0%
+source-wordcount: '544'
+ht-degree: 4%
 
 ---
 
@@ -28,16 +28,16 @@ ht-degree: 0%
 >* 內建狀態為Planning、Current和Complete。 您可以更新其名稱、編輯其顏色、鎖定或解除鎖定，但無法刪除它們。
 >* 至少有一個與群組或其子群組相關聯的物件處於未決核准狀態。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -63,9 +63,9 @@ ht-degree: 0%
 1. 在左側面板中，按一下&#x200B;**群組**。
 1. 按一下最上層群組的名稱。
 1. 在左側面板中按一下&#x200B;**狀態**。
-1. 在顯示的狀態清單中，暫留在您要刪除的狀態上，然後在最右邊顯示&#x200B;**刪除**&#x200B;時按一下。
+1. 在顯示的狀態清單中，按一下您要刪除的狀態核取方塊，然後按一下畫面底部橫幅中的&#x200B;**刪除**。
 
-   ![刪除](assets/hover-click-delete.jpg)
+   ![刪除](assets/delete-status.png)
 
 1. 在顯示的方塊中，選取一個狀態，以指定使用您要刪除之狀態的物件（專案、任務、問題和核准流程）的取代狀態。
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
         如需有關預設Workfront狀態的資訊，請參閱[存取系統專案狀態清單](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)，[存取系統任務狀態清單](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)，以及[中有關4個必要問題狀態的資訊。存取系統問題狀態清單](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)。
 
-1. 按一下&#x200B;**刪除狀態**。
+1. 按一下&#x200B;**刪除**。
 
    如果刪除的狀態是群組中該型別的預設狀態，取代狀態會取代該狀態。
 
