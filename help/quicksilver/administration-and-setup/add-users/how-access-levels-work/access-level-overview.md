@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+source-git-commit: 21c396fc5b52463477d6fedfae8dcd27de989817
 workflow-type: tm+mt
-source-wordcount: '1747'
-ht-degree: 6%
+source-wordcount: '1765'
+ht-degree: 5%
 
 ---
 
@@ -126,6 +126,7 @@ Workfront有5個新的內建存取層級：
 * 可在主功能表中存取請求和檔案。
 * 建立物件的能力有限 — 他們無法建立專案、投資組合、計畫或報告。
 * 啟用「編輯」存取權時，只能在專案層級記錄時間。 他們無法建立、編輯、刪除或共用專案。
+* 只能更新問題和檔案的自訂表單。
 
 >[!NOTE]
 >
@@ -218,7 +219,7 @@ Workfront有5個新的內建存取層級：
   <tr> 
    <td>財務資料</td> 
    <td></td> 
-   <td> <p>✓（預設設定為「無存取權」）</p> </td> 
+   <td> <p>✓ （預設設定為「無存取權」）</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -262,6 +263,7 @@ Workfront有5個新的內建存取層級：
   >貢獻者可以參與核准，但無法存取核准索引標籤以檢視或管理核准流程。
 
 * 可以檢閱他們已提交問題的狀態
+* 只能更新問題和檔案的自訂表單。
 * 可指派給工作專案，但無法完成它們
 * 只能從主功能表存取請求。 如需請求佇列的詳細資訊，請參閱[建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
