@@ -8,9 +8,9 @@ feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 900e29200bef2d4f70b17cd810ea0e2b936c8aad
 workflow-type: tm+mt
-source-wordcount: '4334'
+source-wordcount: '4400'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 工作負載平衡器可在Adobe Workfront的多個區域使用。 導覽它在所有區域都類似。
 
-如需工作負載平衡器所在位置的詳細資訊，請參閱[找到工作負載平衡器](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer)。
+如需工作負載平衡器所在位置的詳細資訊，請參閱[找到工作負載平衡器](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer)。
 
 ## 存取權要求
 
@@ -105,8 +105,8 @@ ht-degree: 0%
 
 如需有關使用工作負載平衡器管理資源的資訊，另請參閱下列文章：
 
-* [在工作負載平衡器](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)中指派工作的總覽
-* [在工作負載平衡器](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)中管理使用者配置
+* [在工作負載平衡器](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)中指派工作的總覽
+* [在工作負載平衡器](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)中管理使用者配置
 
 ## 在資源區域瀏覽工作負載平衡器多個專案
 
@@ -259,6 +259,11 @@ ht-degree: 0%
    * **顯示已完成的工作**：啟用時，已完成的任務和問題會顯示在[指派的工作]區域中。 這預設為啟用。
 
      任務或問題列完成時，其右上角會顯示綠色核取記號圖示。 當專案所選時間範圍內的任務或問題完成時，專案會顯示相同的圖示。
+
+     >[!NOTE]
+     >
+     >工作負載平衡器中的任務可見度由任務層級的完成驅動，而不是指派層級的完成。 如果任務有多個受指派人，且一個或多個受指派人選取「完成我的部分」，但整體任務狀態不是「完成」，則該任務會被視為未完成的工作。 當&#x200B;**顯示已完成的工作選項**&#x200B;關閉時，工作仍會顯示，因為它尚未完全完成。
+
    * **顯示剩餘時間**：啟用此功能後，Workfront會根據使用者的排程，顯示使用者每天可工作的時間，與使用者在指派的工作區域中所分配的時間之間的差異。 依預設會停用此專案，並依預設顯示配置時間。
    * **顯示角色指派**：啟用時，角色指派會顯示在未指派的工作區域中，在其指派的工作專案下。 這預設為啟用。
 
@@ -324,7 +329,7 @@ ht-degree: 0%
       * 在Windows中：按住CTRL鍵並按一下任務列或問題列。
       * 在Mac中： CMD按一下任務或問題列。
 
-     如需有關在工作負載平衡器中指派工作專案給使用者的詳細資訊，請參閱在工作負載平衡器中指派工作的概述[&#128279;](../workload-balancer/assign-work-in-workload-balancer.md)。
+     如需有關在工作負載平衡器中指派工作專案給使用者的詳細資訊，請參閱在工作負載平衡器中指派工作的概述[](../workload-balancer/assign-work-in-workload-balancer.md)。
 
      >[!NOTE]
      >
@@ -475,7 +480,7 @@ ht-degree: 0%
 
 1. 繼續瀏覽專案的工作負載平衡器，如本文的[瀏覽多個專案的工作負載平衡器](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area)區段中所述。
 
-### 瀏覽使用者的工作負載平衡器
+## 瀏覽使用者的工作負載平衡器
 
 您可以在自己的使用者設定檔上存取工作負載平衡器。
 
