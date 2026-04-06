@@ -6,9 +6,10 @@ title: 收入與成本階層概要
 description: 本文概述逐步程式，用於決定職務角色和使用者的適當帳單和成本費率，適用於使用者和角色每小時收入型別和成本型別。
 author: Lisa
 feature: Work Management
-source-git-commit: dfc6344303f33a9c3c89837b759235612e54904e
+exl-id: 623828fb-e1ac-4cae-8b9f-567a6f8cb7ae
+source-git-commit: 3a194bc2b2707c7b7e1cd5edffc3dd5ab43e91b3
 workflow-type: tm+mt
-source-wordcount: '3519'
+source-wordcount: '3604'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,17 @@ ht-degree: 0%
 
 本文各節概述逐步程式，以針對「使用者」與「角色每小時」收入型態及成本型態，決定職務角色與使用者的適當帳單與成本費率。
 
+>[!NOTE]
+>
+>本文中顯示的費率階層，只有在將「使用者」與「角色每小時」收入或成本型態套用至作業時，才會使用。
+
 如需有關收費率、收入型別及收入計算方式的詳細資訊，請參閱[帳單與收入概觀](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md)。
+
+## 階層與使用者與角色每小時收入型態的例外
+
+* 階層中不支援公司費率。
+* 階層計算僅使用「主要」角色。 不會使用其他角色。
+* 當任務的收入型別為「每小時使用者」和「每小時角色」時，無法在任務上記錄時數的使用者從該任務中取消指派。
 
 ## 有效日期概要
 
@@ -232,4 +243,3 @@ Workfront會根據此階層，在擁有者的使用者屬性中搜尋：
    * 接著，系統會考慮有效日期，尋找系統層級職務角色費率。
 
 1. 如果找不到這些費率，則收費率為0。
-

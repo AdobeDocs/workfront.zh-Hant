@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 106ff601a4a19dbbf50cb3329675928ad7087b21
+source-git-commit: 3a194bc2b2707c7b7e1cd5edffc3dd5ab43e91b3
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '547'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->自訂物件標題目前可用於專案、任務、問題、<span class="preview">產品組合、方案、範本、計費記錄、團隊、群組、使用者、公司、群組和費率卡。</span>
+>自訂物件標題目前可用於專案、任務、問題、<span class="preview">產品組合、方案、範本、計費記錄、團隊、使用者、公司、群組和費率卡。</span>
 
 ![物件標頭欄位](assets/object-header-fields.png)
 
