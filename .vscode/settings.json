@@ -4,5 +4,6 @@
     ],
     "cSpell.words": [
         "automations"
-    ]
+    ],
+    "cursor.scm.generateCommitMessageSystemPrompt": "Follow this commit message format exactly.\n\nSubject line (first line): around 50 characters or fewer, imperative mood (e.g. \"Add…\", \"Fix…\", \"Refactor…\").\n\nLeave one blank line after the subject.\n\nBody: use bullet lines wrapped at about 72 characters. Each bullet must start with exactly one of these two emojis:\n- 📖 — when the change ADDS something new (new files, new sections, new features, net-new content).\n- ✏️ — when the change MODIFIES existing work (edits to existing lines, updates, refactors).\n\nEvery body bullet must begin with 📖 or ✏️.\n\nExample:\nAdd refresh token rotation to auth flow\n\n- 📖 Add refresh_tokens table and Alembic migration for schema v3.\n- ✏️ Update session middleware to rotate secrets and revoke old tokens."
 }
