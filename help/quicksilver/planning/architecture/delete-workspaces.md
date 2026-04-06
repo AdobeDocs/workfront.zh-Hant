@@ -8,21 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 2%
+source-wordcount: '463'
+ht-degree: 1%
 
 ---
 
 
 # 刪除工作區
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -152,6 +151,14 @@ Old:
    * 將滑鼠停留在工作區卡片上，然後按一下卡片右上角的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)
 或
    * 按一下[工作區]頁面右上角的&#x200B;**搜尋**&#x200B;圖示![搜尋圖示](assets/search-icon.png)，依名稱搜尋工作區，然後按一下工作區卡片以開啟工作區，再按一下工作區名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)。
+
+   >[!TIP]
+   >
+   ><span class="preview">您可以使用下列鍵盤組合，從任何Workfront Planning頁面開啟全域搜尋方塊並搜尋工作區：</span>
+   >
+   >* <span class="preview">CTRL+K for Windows</span>
+   >* 適用於Mac<span class="preview">⌘的</span>+K
+
 1. 按一下&#x200B;**刪除**。
 
    ![永久刪除工作區確認](assets/permanently-delete-workspace-confirmation.png)

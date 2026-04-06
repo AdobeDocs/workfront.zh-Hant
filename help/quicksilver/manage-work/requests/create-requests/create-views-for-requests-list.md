@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ff87e425389f30dfaa1a178ea2b548d1c41179bb
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '723'
 ht-degree: 3%
 
 ---
@@ -105,9 +105,14 @@ ht-degree: 3%
 
 1. 在要求清單中，按一下&#x200B;**檢視**&#x200B;下拉式功能表![檢視下拉式功能表](assets/view-icon-requests.png)，然後按一下&#x200B;**新增檢視**。
 
-   ![新檢視](assets/create-new-view.png)
+   <!-- 
+   
+   replace the screen shot with release
+   ![New view](assets/create-new-view.png)
 
-1. 輸入新檢視的名稱，然後按一下[建立]。**&#x200B;**
+   -->
+
+1. 輸入新檢視的名稱，然後按一下[建立]。****
 1. 繼續[編輯要求的檢視](#edit-a-view-for-requests)。
 
 ## 編輯請求的檢視

@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 2%
@@ -160,15 +160,23 @@ Old:
 
    * 如果您是系統管理員，請從下列選項中選取：</span>
 
-      * <span class="preview">**只有受邀者才能存取**：您必須選取共用方塊中的實體，並選擇其工作區存取權。 這是預設選取範圍。</span>
-      * <span class="preview">**系統中的每個人都可以檢視**：系統中有權存取Planning的所有人都可以在Planning的&#x200B;**工作區**&#x200B;區域中檢視工作區。</span>
+     <div class="preview">
+
+      * **只有受邀者才能存取**：您必須選取共用方塊中的實體，並選擇其工作區存取權。 這是預設選取範圍。
+      * **系統中的每個人都可以檢視**：系統中有權存取Planning的所有人都可以在Planning的&#x200B;**工作區**&#x200B;區域中檢視工作區。
+
+     </div>
 
    * <span class="preview">（條件式）如果您是具有Standard授權的工作區管理員，您可以看到下列其中一個選項，但無法變更它們：</span>
 
-      * <span class="preview">**只有受邀者可以存取**。 這是預設設定。</span>
-      * <span class="preview">**系統中的每個人都可以檢視**</span>
+     <div class="preview">
 
-     <span class="preview">您必須要求系統管理員變更工作區的全域許可權。</span>
+      * **只有受邀者可以存取**。 這是預設設定。
+      * **系統中的每個人都可以檢視**
+
+     您必須要求系統管理員變更工作區的全域許可權。
+
+     </div>
 
 1. 在&#x200B;**授與此工作區的存取權**&#x200B;欄位中，開始輸入使用者、群組、團隊、公司或工作角色的名稱，然後當它顯示在清單中時按一下它。
 
@@ -208,7 +216,7 @@ Old:
      ![存取要求的電子郵件通知](assets/email-notification-for-access-request.png)
 1. （視條件而定）從Workfront的通知區域，按一下應用程式內通知
 或
-在電子郵件通知中，按一下&#x200B;**檢視所有通知**，然後按一下清單中的通知。
+在電子郵件通知中，按一下**檢視所有通知**，然後按一下清單中的通知。
 
    顯示&#x200B;**擱置中的存取要求**&#x200B;方塊。
 

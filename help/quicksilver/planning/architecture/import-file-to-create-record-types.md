@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '891'
 ht-degree: 1%
 
 ---
@@ -156,6 +156,14 @@ Old:
    或
 
    從工作區中，展開現有工作區名稱右側的向下箭頭，搜尋工作區，然後在工作區顯示在清單中時選取該工作區。
+
+   >[!TIP]
+   >
+   ><span class="preview">您可以使用下列鍵盤組合，從任何Workfront Planning頁面開啟全域搜尋方塊並搜尋工作區：</span>
+   >
+   >* <span class="preview">CTRL+K for Windows</span>
+   >* 適用於Mac<span class="preview">⌘的</span>+K
+
 1. 按一下&#x200B;**新增記錄型別**。
 1. 按一下&#x200B;**從檔案**&#x200B;上傳。
 1. 拖放先前儲存在電腦上的Excel或CSV檔案，或按一下&#x200B;**選取CSV或Excel檔案**&#x200B;來瀏覽並選取檔案。
@@ -199,7 +207,7 @@ Old:
 
 1. （視條件而定）更新欄位相關資訊後，按一下&#x200B;**儲存**。
 
-1. 當您準備好匯入您的檔案時，請按一下[匯入]。**&#x200B;**
+1. 當您準備好匯入您的檔案時，請按一下[匯入]。****
 
    下列資訊會匯入Workfront Planning中：
 

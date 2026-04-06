@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '736'
 ht-degree: 1%
 
 ---
@@ -18,11 +18,10 @@ ht-degree: 1%
 
 # 新增封面影像至記錄
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -155,6 +154,13 @@ Old:
    或
 
    從工作區中，展開現有工作區名稱右側的向下箭頭，搜尋工作區，然後在工作區顯示在清單中時選取該工作區。
+
+   >[!TIP]
+   >
+   ><span class="preview">您可以使用下列鍵盤組合，從任何Workfront Planning頁面開啟全域搜尋方塊並搜尋工作區：</span>
+   >
+   >* <span class="preview">CTRL+K for Windows</span>
+   >* 適用於Mac<span class="preview">⌘的</span>+K
 
    工作區隨即開啟，且記錄型別隨即顯示。
 

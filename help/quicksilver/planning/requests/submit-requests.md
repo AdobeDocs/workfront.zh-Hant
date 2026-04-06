@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
 source-wordcount: '2460'
 ht-degree: 1%
@@ -136,8 +136,8 @@ Not sure how to change the request status, but dev also said: Changing the names
 
 {{step1-to-requests}}
 
-1. 開啟熒幕右上角的&#x200B;**使用新體驗**&#x200B;設定。
-開啟此設定後，Workfront的&#x200B;**要求**&#x200B;區域即可使用Workfront規劃要求表單。
+1. 開啟熒幕右上角的&#x200B;**使用新體驗**設定。
+開啟此設定後，Workfront的**要求**&#x200B;區域即可使用Workfront規劃要求表單。
 
    >[!TIP]
    >
@@ -211,7 +211,7 @@ Not sure how to change the request status, but dev also said: Changing the names
 
    <div class="preview">
 
-   * 群組
+   * 分組
    * 設定儲存格格式
    * 列高
 

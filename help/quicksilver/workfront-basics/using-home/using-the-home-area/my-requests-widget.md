@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 3%
@@ -65,7 +65,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>[!UICONTROL 檢視]對您在對話中被標籤或需要解決核准的專案、任務、問題和檔案的許可權或更高</p> </td> 
+   <td> <p>[！UICONTROL檢視]對您在對話中被標籤或需要解決核准的專案、任務、問題和檔案的許可權或更高</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -105,7 +105,7 @@ To configure the filter in the My Requests widget:
 
    <div class="preview">
 
-   * 群組
+   * 分組
    * 設定儲存格格式
    * 列高
 
