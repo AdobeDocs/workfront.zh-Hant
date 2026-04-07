@@ -24,8 +24,6 @@ You must have the Workfront and Frame.io integration set up in your Workfront in
 
 * The Workfront instance must be enabled on the Adobe Unified Experience and Adobe enterprise storage.
 
-* The integration must be configured by Adobe Professional Services. 
-
 ## Work initiation and planning in Workfront
 
 Project coordinators can create projects and plan work in Workfront. Projects created in an instance with the Frame.io integration enabled utilize Adobe enterprise storage, which allows assets to be stored and managed within the Adobe ecosystem.
