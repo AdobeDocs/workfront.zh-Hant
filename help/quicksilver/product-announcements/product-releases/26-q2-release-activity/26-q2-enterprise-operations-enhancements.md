@@ -4,7 +4,8 @@ description: 2026年第二季企業營運增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6d2d26d7e40eef593d73f6ee8bc733a3cce007f5
+exl-id: 72130462-ae78-4b9b-ae18-848602d4a858
+source-git-commit: 59a9725e7697a81be2a827a902ee3d23085a2ecd
 workflow-type: tm+mt
 source-wordcount: '1196'
 ht-degree: 0%
@@ -39,30 +40,40 @@ financial management的增強功能包括：
 
 * **費率屬性**，可讓您新增其他維度至工作角色以外的費率，因此費率不僅會因工作角色而有所不同，也會因機構、地點、品牌、成本中心或其他因素而有所不同。 結合這些屬性，Workfront可以自動選取指派的正確費率，確保財務正確性及跨專案的一致性。
 
-  如需詳細資訊，請參閱[定義費率屬性](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)
+  如需詳細資訊，請參閱[定義費率屬性](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)。
+
 * **費率卡**，提供結構化方式管理使用者端特定帳單，結合角色型費率與可自訂屬性，以確保精確且受控制的專案成本計算。
 
   如需詳細資訊，請參閱[管理費率卡](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)和[將費率卡附加至專案](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)。
+
 * 名為&#x200B;**每小時使用者和角色**&#x200B;的新成本和收入型別。 指定此作業型別時，進階費率階層邏輯會決定不同層次的帳單與成本費率，包括費率卡、專案、指定、職務角色及使用者設定檔。 使用者與角色每小時是唯一可用於套用費率屬性與費率卡的成本與收入型態。
 
   如需詳細資訊，請參閱[收入與成本階層概覽](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)。
+
 * 重新設計的&#x200B;**進階任務指派**&#x200B;體驗具有擴充的可設定性，可讓您在費率、時間範圍及屬性之間取得更佳的可見度和控制度。
 
   如需詳細資訊，請參閱[建立進階工作分派](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md)。
 
-  在4月16日的生產版本之前，將新增切換器，允許您在舊和新的「進階指派」體驗之間進行選擇。 舊體驗將維持預設值
+  >[!NOTE]
+  >
+  >在4月16日的生產版本之前，將新增切換器，允許您在舊和新的「進階指派」體驗之間進行選擇。 舊體驗仍會是預設值。
+
 * 計費的&#x200B;**工作角色**，可讓您為使用者和其主要工作角色不同的工作角色計費。 當一個人暫時執行應按不同費率計費的工作時，這將很有用。
 
   如需詳細資訊，請參閱[設定工作角色以計費](/help/quicksilver/manage-work/projects/project-finances/set-up-job-role-for-billing.md)。
+
 * 生效日期&#x200B;**匯率**。
 
   如需詳細資訊，請參閱[設定匯率](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)。
+
 * 可在任務&#x200B;**上新增**&#x200B;加班乘數，這會乘以該任務的所有計畫時數，並影響計畫收入計算。
 
   如需詳細資訊，請參閱[定義加班率](/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md)。
+
 * **保留所有帳單資訊**&#x200B;並防止任何未來修改的專案層級控制項。
 
   如需詳細資訊，請參閱[編輯專案](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md)。
+
 * **已在費率卡上定義的工作角色別名**。 將費率卡附加至專案時，別名會出現在預留位置指派、費用和報表等資訊中，而不是內部工作角色名稱。
 
   如需詳細資訊，請參閱[管理費率卡](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)。
@@ -119,16 +130,18 @@ financial management的增強功能包括：
   >
   >這些功能適用於所有Workfront和Workflow套件的組織。
 
-* 新增自訂表單至團隊、評比卡和職務角色的功能
-如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+* 能夠將自訂表單新增到團隊、費率卡和工作角色。
+
+  如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
   >[!NOTE]
   >
   >* 若要新增自訂表單至費率卡和工作角色，需使用Workflow Ultimate套件。
   >* 所有Workfront和Workflow套件上的組織都可將自訂表單新增至團隊。
 
-* 貨幣格式欄位上的&#x200B;**財務許可權型別**&#x200B;設定，僅允許具有特定許可權設定的使用者存取其存取層級
-如需詳細資訊，請參閱[限制存取自訂欄位中的財務資料](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md)。
+* 貨幣格式欄位上的&#x200B;**財務許可權型別**&#x200B;設定，僅允許具有特定許可權設定的使用者存取其存取層級。
+
+  如需詳細資訊，請參閱[限制存取自訂欄位中的財務資料](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md)。
 
   >[!NOTE]
   >
@@ -139,7 +152,6 @@ financial management的增強功能包括：
 >[!NOTE]
 >
 >這些功能適用於所有Workfront和Workflow套件的組織。
-
 
 在版面配置範本中，您可以自訂其他物件的標題和左側導覽功能表，並在「主功能表」中更輕鬆地顯示和隱藏專案。 您也可以使用版面配置範本來決定當使用者按一下專案、任務、問題、投資組合和方案上的&#x200B;**更多**&#x200B;選單（三點選單）時顯示的選項。
 
@@ -152,6 +164,7 @@ financial management的增強功能包括：
 >此功能僅適用於Workflow Prime或Ultimate套件上的組織。
 
 自訂本地化可讓您定義不同語言的自訂辭彙和片語。 Workfront接著會以瀏覽器設定中所設定的語言顯示這些詞語。
+
 例如，您可以設定標籤「目標對象」以翻譯成德文單詞「Zielgruppe」。 任何將德文設為其Adobe IMS帳戶語言的使用者，都會將「Zielgruppe」一詞視為任何英文標示「目標對象」欄位的標籤。
 
 如需詳細資訊，請參閱[設定自訂本地化](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)。
@@ -165,5 +178,3 @@ financial management的增強功能包括：
 Workfront管理員現在可以設定商業規則，以在符合某些條件時，為已建立、已編輯或已修改的物件自動執行動作。 可用的動作包括共用物件或附加自訂表單至物件。
 
 如需詳細資訊，請參閱[建立和編輯商業規則](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)。
-
-

@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: 59a9725e7697a81be2a827a902ee3d23085a2ecd
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '744'
 ht-degree: 3%
 
 ---
@@ -75,6 +75,10 @@ ht-degree: 3%
 
 ## 請求的系統檢視
 
+>[!NOTE]
+>
+>您的預覽環境中可能沒有系統檢視。 它們將於2026年4月16日在生產環境中提供給所有客戶。
+
 除了您可以自行建立的檢視外，Workfront還在首頁的「請求」區域和「我的請求」Widget中提供下列系統檢視：
 
 * **所有請求**：您或其他任何人在佇列或工作區中提交且您有權檢視的所有請求。 這不適用於我的請求Widget。
@@ -112,7 +116,7 @@ ht-degree: 3%
 
    -->
 
-1. 輸入新檢視的名稱，然後按一下[建立]。**&#x200B;**
+1. 輸入新檢視的名稱，然後按一下[建立]。****
 1. 繼續[編輯要求的檢視](#edit-a-view-for-requests)。
 
 ## 編輯請求的檢視
