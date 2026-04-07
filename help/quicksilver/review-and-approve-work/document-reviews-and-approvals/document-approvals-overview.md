@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: c989b5d6a91a4b1f19b044916b4f68a1738f9b16
 workflow-type: tm+mt
-source-wordcount: '3892'
+source-wordcount: '3874'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,6 @@ ht-degree: 0%
 * 使用者只能屬於IMS組織內的一個Workfront執行個體。
 
 * 必須在Adobe Unified Experience和Adobe企業儲存空間上啟用Workfront執行個體。
-
-* 整合必須由Adobe Professional Services設定。
 
 
 ## 內建於Adobe企業儲存空間
@@ -180,8 +178,6 @@ Frame.io檢視器是所有Workfront檢閱和核准工作流程的預設檢視器
 * 使用者只能屬於IMS組織內的一個Workfront執行個體。
 
 * 必須在Adobe Unified Experience和Adobe企業儲存空間上啟用Workfront執行個體。
-
-* 整合必須由Adobe Professional Services設定。
 
 * Workfront客戶必須使用V2 SKU （這可能需要合約事件，請聯絡您的Adobe客戶代表）。
 
