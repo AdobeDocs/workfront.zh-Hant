@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 71b3af519d0fac1d15164e5d9f40bda5d76d0f5c
+source-git-commit: 16ca615d8a0432f371debb832236e788ee5beb88
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 如需2026年第二季發行週期目前可用的所有變更清單，請參閱[2026年第二季發行概觀](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
 
-## AI共同作業人員現已推出
+## 內容檢閱AI共同作業人員現已推出
 
 >[!NOTE]
 >
@@ -28,13 +28,11 @@ ht-degree: 0%
 >生產快速發行： 2026年4月15日
 >每個人都能使用生產： 2026年4月16日
 
-為了讓您更輕鬆地在日常工作中從AI受益，我們建立了AI共同作業人員。 AI共同作業人員是將AI代理程式加入您的專案和任務的方法。 您可以使用品牌指南設定AI共同作業人員，然後將其指派給任務，就像您指派使用者一樣。
+為了讓您更輕鬆地在日常工作中從AI中獲益，我們建立了Content Review AI共同作業人員。 共同作業程式是將AI代理程式加入您的專案和任務的方法。 您可以使用品牌指南設定AI共同作業人員，然後將其指派給任務，就像您指派使用者一樣。
 
-目前，AI共同作業人員可用於稽核內容。 未來將提供更多的AI Collaborator功能。
+目前，唯一可用的AI共同作業人員是「內容檢閱」。 未來將提供更多的AI Collaborator功能。
 
-<!--
-For more information, see [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators).
--->
+如需詳細資訊，請參閱[設定AI共同作業人員](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)。
 
 ## 自訂季度現在在設定中作為單獨頁面提供
 
