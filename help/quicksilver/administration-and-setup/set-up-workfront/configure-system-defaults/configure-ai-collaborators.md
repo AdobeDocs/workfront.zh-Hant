@@ -48,11 +48,11 @@ AI共同作業人員是將AI代理程式加入您的專案和任務的方法。 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[！UICONTROL標準]</p>
+   <td><p>[!UICONTROL 標準]</p>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[！UICONTROL系統管理員]</td> 
+   <td>[!UICONTROL 系統管理員]</td> 
   </tr> 
   </tbody> 
 </table>
@@ -87,7 +87,7 @@ AI共同作業人員是將AI代理程式加入您的專案和任務的方法。 
 1. 在「共同作業人員名稱」欄位中，輸入共同作業人員的名稱。 這是出現在任務可用受指派人清單中的名稱。
    <!--1. Select whether the collaborator will use a brand or Adobe Brand Intelligence for its reviews.-->
    <!--1. (Conditional) If the AI Collaborator will use Adobe Brand Intelligence, select the tenant that it will use.-->
-1. <!--(Conditional) If the AI Collaborator will use a Brand,-->選取將使用的品牌和品牌指引。
+1. &#x200B;<!--(Conditional) If the AI Collaborator will use a Brand,-->選取將使用的品牌和品牌指引。
 1. 按一下「**儲存**」。
 
 ## 管理AI共同作業人員
@@ -97,6 +97,6 @@ AI共同作業人員是將AI代理程式加入您的專案和任務的方法。 
 {{step-1-to-setup}}
 
 1. 在左側導覽列中，按一下&#x200B;**AI共同作業人員**。
-1. （條件式）若要編輯共同作業人員，請按一下您要編輯的共同作業人員名稱，在[編輯共同作業人員]視窗中進行任何編輯，然後按一下[儲存]。****
+1. （條件式）若要編輯共同作業人員，請按一下您要編輯的共同作業人員名稱，在[編輯共同作業人員]視窗中進行任何編輯，然後按一下[儲存]。**&#x200B;**
 1. （視條件而定）若要複製Collaborator，請按一下要複製之AI Collaborator列中的復製圖示![復製圖示](assets/copy-ai-collaborator.png)，按一下複製的名稱，在Edit Collaborator視窗中進行任何編輯，然後按一下&#x200B;**儲存**。
 1. （視條件而定）若要刪除Collaborator，請在您要刪除的AI Collaborator列中按一下「刪除」圖示![「刪除」圖示](assets/delete-collaborator-icon.png)，然後按一下&#x200B;**「刪除」**。
