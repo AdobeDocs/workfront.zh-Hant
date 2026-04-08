@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 72130462-ae78-4b9b-ae18-848602d4a858
-source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
+source-git-commit: c0cb423c73a6b0e982081ae67ffef6316b03db7f
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
@@ -86,6 +86,8 @@ financial management的增強功能包括：
 
 如需詳細資訊，請參閱[建立和檢視專案快照](/help/quicksilver/manage-work/projects/create-projects/create-snapshots.md)。
 
+[檢視專案快照的視訊示範。](https://video.tv.adobe.com/v/3483249/){target="_blank"}
+
 >[!NOTE]
 >
 >* 專案快照僅適用於Workflow Ultimate套件上的組織。
@@ -96,6 +98,8 @@ financial management的增強功能包括：
 **企業檔案**&#x200B;提供安全、可擴充的系統存取，並協助加強企業治理。
 
 如需詳細資訊，請參閱[企業設定檔總覽](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)。
+
+[檢視企業設定檔的影片示範。](https://video.tv.adobe.com/v/3483246/){target="_blank"}
 
 >[!NOTE]
 >
@@ -110,6 +114,8 @@ financial management的增強功能包括：
 ### 自訂表單和欄位增強功能
 
 自訂表單中的進階邏輯提供更清楚的深入分析和更精確的專案與財務管理。
+
+[檢視自訂表單和欄位增強功能的影片示範。](https://video.tv.adobe.com/v/3483244/){target="_blank"}
 
 自訂表單的增強功能包括：
 
@@ -159,6 +165,8 @@ financial management的增強功能包括：
 
 如需詳細資訊，請參閱[建立及管理配置範本](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
 
+[檢視版面配置範本增強功能的影片示範。](https://video.tv.adobe.com/v/3483245/){target="_blank"}
+
 ### 自訂本地化
 
 >[!NOTE]
@@ -171,6 +179,8 @@ financial management的增強功能包括：
 
 如需詳細資訊，請參閱[設定自訂本地化](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)。
 
+[檢視自訂本地化的影片示範。](https://video.tv.adobe.com/v/3483248/){target="_blank"}
+
 ### 使用Business Rules自動化動作
 
 >[!NOTE]
@@ -180,3 +190,6 @@ financial management的增強功能包括：
 Workfront管理員現在可以設定商業規則，以在符合某些條件時，為已建立、已編輯或已修改的物件自動執行動作。 可用的動作包括共用物件或附加自訂表單至物件。
 
 如需詳細資訊，請參閱[建立和編輯商業規則](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)。
+
+[觀看Business Rules增強功能的影片示範。](https://video.tv.adobe.com/v/3483247/){target="_blank"}
+
