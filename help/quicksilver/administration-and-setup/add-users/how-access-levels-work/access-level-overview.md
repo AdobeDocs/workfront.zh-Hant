@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 21c396fc5b52463477d6fedfae8dcd27de989817
+source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
 workflow-type: tm+mt
-source-wordcount: '1765'
-ht-degree: 5%
+source-wordcount: '1775'
+ht-degree: 6%
 
 ---
 
@@ -102,6 +102,8 @@ Workfront有5個新的內建存取層級：
 | 篩選器、視圖和分組 |   |   | ✓ |
 | 文件 |   |   | ✓ |
 | 使用者 |   |   | ✓ |
+| 職務角色 |   |   | ✓ |
+| 團隊 |   |   | ✓ |
 | 範本 |   |   | ✓ |
 | 財務資料 |   |   | ✓ |
 | 資源管理 |   |   | ✓ |
@@ -204,7 +206,13 @@ Workfront有5個新的內建存取層級：
    <td>✓</td> 
    <td> </td> 
   </tr> 
-    <tr> 
+  <tr> 
+   <td>職務角色</td> 
+   <td> </td> 
+   <td>✓</td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
    <td>團隊</td> 
    <td> </td> 
    <td>✓</td> 
@@ -286,6 +294,7 @@ Workfront有5個新的內建存取層級：
 | 篩選器、視圖和分組 |   |   | ✓ |
 | 文件 |   |   | ✓ |
 | 使用者 |   | ✓ |   |
+| 職務角色 |   | ✓ |   |
 | 團隊 |   | ✓ |   |
 | 範本 | ✓ |   |   |
 | 財務資料 | ✓ |   |   |
@@ -335,6 +344,7 @@ Workfront有5個新的內建存取層級：
 | 篩選器、視圖和分組 | ✓ |   |   |
 | 文件 |   | ✓ （無法共用檔案） |   |
 | 使用者 |   | ✓ |   |
+| 職務角色 | ✓ |   |   |
 | 團隊 | ✓ |   |   |
 | 範本 | ✓ |   |   |
 | 財務資料 | ✓ |   |   |

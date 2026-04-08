@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 1721d6d4c2059fa32d0fd2ae80af4bd26a8f06a7
+source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
 workflow-type: tm+mt
-source-wordcount: '1555'
-ht-degree: 16%
+source-wordcount: '1597'
+ht-degree: 17%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 16%
 >[!NOTE]
 >
 >* 本文說明新Workfront套件模型中可用於存取層級的功能。 若要檢視目前封裝模型中可用的功能，請參閱[各種存取層級中每種物件型別的可用功能](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)。
->* 如需最新模式中不同套件可用的功能清單，請參閱[Adobe Workfront定價與封裝](https://business.adobe.com/tw/products/workfront/pricing.html)。
+>* 如需最新模式中不同套件可用的功能清單，請參閱[Adobe Workfront定價與封裝](https://business.adobe.com/products/workfront/pricing.html)。
 
 ## 專案
 
@@ -302,30 +302,30 @@ ht-degree: 16%
 
 &#42;&#42;外部使用者只能搜尋其他使用者。
 
-<!--
-
 <div class="preview">
 
-## Job Roles
+## 職務角色
 
-|  Action           |  Standard  |  Light  |  Contributor  | External user |
+| 動作 | 標準 | 精簡 | 貢獻者 | 外部使用者 |
 |-------------------|------------|---------|---------------|---------------|
-| View              | ✓          | ✓       | ✓             | &nbsp;        |
-| Edit              | ✓          | &nbsp;  | &nbsp;        | &nbsp;        |
-| Create            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Delete            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Edit Billing Rates | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Edit Cost Rates   | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Edit General Finance | ✓*      | &nbsp;  | &nbsp;        | &nbsp;        |
-| View Billing Rates | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
-| View Cost Rates    | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
-| View General Finance | ✓       | &nbsp;  | &nbsp;        | &nbsp;        |
+| 檢視 | ✓ | ✓ | ✓ |   |
+| 編輯 | ✓ |   |   |   |
+| 建立 | ✓* |   |   |   |
+| 刪除 | ✓* |   |   |   |
+| 編輯計費費率 | ✓* |   |   |   |
+| 編輯成本費率 | ✓* |   |   |   |
+| 編輯一般財務 | ✓* |   |   |   |
+| 檢視計費率 | ✓* |   |   |   |
+| 檢視成本率 | ✓* |   |   |   |
+| 檢視一般財務 | ✓* |   |   |   |
 
 {style="table-layout:auto"}
 
-&#42; Using an access level, Workfront administrators can disable or enable this functionality.
+&#42;使用存取層級，Workfront管理員可以停用或啟用此功能。
 
 </div>
+
+<!--
 
 ## Companies
 

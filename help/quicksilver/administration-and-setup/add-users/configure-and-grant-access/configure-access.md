@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 150a7e52-d379-4909-b7e3-df8a0b0289d1
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,8 @@ ht-degree: 0%
 * [授與工作的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)
 * [授與問題的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
 * [授與檔案的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)
-* [授予使用者存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+* [授予使用者存取許可權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+* [授予工作角色存取權](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-job-roles.md)
 * [授予團隊存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md)
 * [授與範本存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)
 * [授與報告、儀表板和行事曆的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)

@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 2%
+source-wordcount: '840'
+ht-degree: 4%
 
 ---
 
@@ -16,22 +16,22 @@ ht-degree: 2%
 
 <!--Linked in several places, do not rename or change URL.-->
 
-身為Adobe Workfront管理員，您可以使用存取層級，授予擁有計畫授權的使用者對系統特定區域的管理存取權。
+身為Adobe Workfront管理員，您可以使用存取層級，授予具有「標準」或「計畫」授權的使用者對系統特定區域的管理存取權。
 
 >[!NOTE]
 >
 >這與授與使用者Workfront的完整管理存取權（在[授與使用者完整管理存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)中說明）不同&#x200B;。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
@@ -50,7 +50,7 @@ ht-degree: 2%
 
 +++
 
-## 授予Plan使用者對Workfront特定區域的管理存取權
+## 授予Standard或Plan使用者對Workfront特定區域的管理存取權
 
 >[!IMPORTANT]
 >
@@ -96,12 +96,13 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">職務角色</td> 
-      <td> <p>透過此存取權，使用者可以執行下列動作：</p> 
+      <td> <p><span class="preview"><b>注意</b>：在「預覽」環境中，工作角色的存取許可權是在存取層級中控制為物件型別。 請參閱<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-job-roles.md">授與工作角色的存取權</a>。</span></p>
+      <p>透過此存取權，使用者可以執行下列動作：</p> 
        <ul> 
         <li>檢視和編輯現有職位角色</li> 
         <li>新增職位角色</li> 
         <li>編輯角色帳單和成本費率</li> 
-       </ul> <p><b>重要</b>：如果您授與供需規劃員使用者工作角色的管理存取權，將會自動為使用者啟用「財務資料」存取設定「編輯角色帳單與成本費率」。 稍後，如果您停用供需規劃員使用者對工作角色的管理存取權，使用者仍可看見工作角色，因為編輯角色帳單與成本費率設定仍處於啟用狀態。 如果發生此情況，並且您需要移除使用者檢視工作角色的存取權，您需要停用使用者的「編輯角色帳單和成本費率」許可權設定。 如需指示，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">授予財務資料的存取權</a>。</p> </td> 
+       </ul> <p><b>重要</b>：如果您授予「標準」或「計畫」使用者工作角色的管理存取權，系統會自動為使用者啟用「財務資料」存取設定「編輯角色帳單與成本費率」。 稍後，如果您停用「標準」或「計畫」使用者對工作角色的管理存取權，使用者仍可看見工作角色，因為「編輯角色帳單與成本費率」設定仍會啟用。 如果發生此情況，並且您需要移除使用者檢視工作角色的存取權，您需要停用使用者的「編輯角色帳單和成本費率」許可權設定。 如需指示，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">授予財務資料的存取權</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">我的群組中的里程碑</td> 
