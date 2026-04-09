@@ -9,9 +9,9 @@ role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 196e7963d04ac5927b222e843eb42d4f300a397a
+source-git-commit: 676cd1697ae2f379a699075f4e1ab06886c6837a
 workflow-type: tm+mt
-source-wordcount: '3416'
+source-wordcount: '3415'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 * 決定應指定為任務或問題之擁有者或主要受指派者的使用者。
 * 指定每個使用者在處理任務或問題時履行哪個角色。
 * <span class="preview">在指派層級新增帳單和成本費率資訊。</span>
-* <span class="preview">檢閱每個指派的下列詳細資料：以時間為基礎的計畫時數、總成本和總收入。</span>
+* <span class="preview">檢閱每個指派的下列詳細資料：計畫時數、總成本和總收入。</span>
 
 >[!NOTE]
 >
