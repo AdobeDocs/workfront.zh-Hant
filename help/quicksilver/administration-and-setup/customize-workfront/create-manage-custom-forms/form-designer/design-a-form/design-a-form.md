@@ -10,9 +10,9 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 0db6cd1091052af7a71ad3e4fce6a9e3fcbb9f67
 workflow-type: tm+mt
-source-wordcount: '7439'
+source-wordcount: '7436'
 ht-degree: 5%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 5%
 1. 在左側面板中，按一下&#x200B;**自訂Forms**，然後選取&#x200B;**Forms**。
 
 1. 按一下&#x200B;**新增自訂表格。**
-1. 選取您要附加自訂表單的物件型別，然後按一下[繼續]。**&#x200B;**
+1. 選取您要附加自訂表單的物件型別，然後按一下[繼續]。****
 
 <div class="preview">
 
@@ -152,7 +152,7 @@ ht-degree: 5%
    >
    >若將現有欄位標示為非使用中，此後就無法用於報表元素和自訂表單。 如果報表或表單中目前正在使用非作用中欄位，則欄位及其歷史資料會維持原位。
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -209,7 +209,7 @@ ht-degree: 5%
 
   清單和報告上的篩選器不支援此自訂欄位型別。
 
-  如需有關透過API存取此欄位的資訊，請參閱[&#x200B; API中的RTF文字欄位儲存體](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)。
+  如需有關透過API存取此欄位的資訊，請參閱[ API中的RTF文字欄位儲存體](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)。
 
   >[!NOTE]
   >
@@ -302,16 +302,16 @@ ht-degree: 5%
     </tr>
     <tr>
       <td><span class="preview">財務權限類型</span></td>
-      <td><p><span class="preview">選取使用者必須具備的財務許可權型別，才能檢視或編輯此自訂欄位。 計算欄位允許任何格式。</span></p>
-      <ul span class="preview">
+      <td><p><span class="preview">選取使用者必須具備的財務許可權型別，才能檢視或編輯此自訂欄位。 必須選取貨幣格式。</span></p>
+      <ul>
       <li><p><strong>不需要許可權：</strong>所有使用者都可以看到此欄位</p></li>
       <li><p><strong>一般：</strong>使用者必須具有編輯或檢視一般財務的許可權</p></li>
       <li><p><strong>帳單：</strong>使用者必須擁有編輯或檢視收費率的許可權</p></li>
       <li><p><strong>成本：</strong>使用者必須擁有編輯或檢視成本費率的許可權</p></li>
       </ul>
-      <p><span class="preview">如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">限制存取自訂欄位中的財務資料</a>。</span></p>
+      <p>如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">限制存取自訂欄位中的財務資料</a>。</p>
       </td>
-      <td><ul span class="preview">
+      <td><ul>
        <li>單行文字</li>
        <li>段落</li>
        </ul></td>
@@ -359,7 +359,7 @@ ht-degree: 5%
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -458,16 +458,16 @@ ht-degree: 5%
     </tr> 
     <tr>
       <td><span class="preview">財務權限類型</span></td>
-      <td><p><span class="preview">選取使用者必須具備的財務許可權型別，才能檢視或編輯此自訂欄位。 計算欄位允許任何格式。</span></p>
-      <ul span class="preview">
+      <td><p><span class="preview">選取使用者必須具備的財務許可權型別，才能檢視或編輯此自訂欄位。 必須選取貨幣格式。</span></p>
+      <ul>
       <li><p><strong>不需要許可權：</strong>所有使用者都可以看到此欄位</p></li>
       <li><p><strong>一般：</strong>使用者必須具有編輯或檢視一般財務的許可權</p></li>
       <li><p><strong>帳單：</strong>使用者必須擁有編輯或檢視收費率的許可權</p></li>
       <li><p><strong>成本：</strong>使用者必須擁有編輯或檢視成本費率的許可權</p></li>
       </ul>
-      <p><span class="preview">如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">限制存取自訂欄位中的財務資料</a>。</span></p>
+      <p>如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">限制存取自訂欄位中的財務資料</a>。</p>
       </td>
-      <td><ul span class="preview">
+      <td><ul>
        <li>選項按鈕</li>
        <li>核取方塊群組</li>
        <li>單選下拉式清單</li>
@@ -538,7 +538,7 @@ ht-degree: 5%
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -674,7 +674,7 @@ ht-degree: 5%
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -723,14 +723,14 @@ ht-degree: 5%
      </tr> 
      <tr>
       <td><span class="preview">財務權限類型</span></td>
-      <td><p><span class="preview">選取使用者必須具備的財務許可權型別，才能檢視或編輯此自訂欄位。 計算欄位允許任何格式。</span></p>
-      <ul span class="preview">
+      <td><p><span class="preview">選取使用者必須具備的財務許可權型別，才能檢視或編輯此自訂欄位。 必須選取貨幣格式。</span></p>
+      <ul>
       <li><p><strong>不需要許可權：</strong>所有使用者都可以看到此欄位</p></li>
       <li><p><strong>一般：</strong>使用者必須具有編輯或檢視一般財務的許可權</p></li>
       <li><p><strong>帳單：</strong>使用者必須擁有編輯或檢視收費率的許可權</p></li>
       <li><p><strong>成本：</strong>使用者必須擁有編輯或檢視成本費率的許可權</p></li>
       </ul>
-      <p><span class="preview">如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">限制存取自訂欄位中的財務資料</a>。</span></p>
+      <p>如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">限制存取自訂欄位中的財務資料</a>。</p>
       </td>
      </tr>
      <tr> 
@@ -754,12 +754,12 @@ ht-degree: 5%
       <td role="rowheader">JSON 路徑</td>
       <td><p>輸入或貼上API的JSON路徑。</p> <p>此選項允許從API URL傳回的JSON擷取資料。 這可當作選取要讓JSON內的哪些值會出現在下拉式選項中的方式。</p><p>例如，如果您的API URL以下列格式傳回JSON，則您可以使用「$.data[*].name」選取美國和加拿大作為下拉式選項：</br>
       <pre>
-      &lbrace;
-       資料： &lbrace;
+      {
+       資料： {
          { name： "USA"}，
          { name： "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>如需有關JSON路徑並確保您撰寫正確JSON路徑的詳細資訊，請參閱<a href="https://jsonpath.com/">https://jsonpath.com/</a>。</p></td>
@@ -783,7 +783,7 @@ ht-degree: 5%
     </tbody>
    </table>
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -886,7 +886,7 @@ The Workfront Mobile app
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -902,7 +902,7 @@ The Workfront Mobile app
 1. 開啟校訂。
 1. 以滑鼠右鍵按一下視訊上的任何位置，然後選取&#x200B;**複製視訊位址**。
 1. 在您新增視訊Widget的自訂表單中，將複製的地址貼到&#x200B;**URL**&#x200B;方塊中。
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -1015,7 +1015,7 @@ The Workfront Mobile app
     </tbody> 
    </table>
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -1076,7 +1076,7 @@ The Workfront Mobile app
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -1172,7 +1172,7 @@ The Workfront Mobile app
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
