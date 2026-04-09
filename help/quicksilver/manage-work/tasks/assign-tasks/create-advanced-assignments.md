@@ -9,9 +9,9 @@ role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 196e7963d04ac5927b222e843eb42d4f300a397a
 workflow-type: tm+mt
-source-wordcount: '3390'
+source-wordcount: '3416'
 ht-degree: 0%
 
 ---
@@ -125,6 +125,10 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 視需要檢閱工作期間資訊。 這些欄位都是來自「進階工作總攬」的僅供檢視欄位，您可以在任務中更新它們。
 
    如需有關任務期間、期間型別、時間單位和計畫時數的資訊，請參閱[任務期間和期間型別概觀](/help/quicksilver/manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)。
+
+   >[!NOTE]
+   >
+   >如果您要檢視的資料欄未顯示，您可以將其新增。 請參閱下方的[進階工作總攬]清單[上的](#add-and-remove-columns-on-the-advanced-assignments-list)新增及移除欄。
 
 1. （選擇性）選取&#x200B;**小時**、**FTE**&#x200B;或&#x200B;**百分比**&#x200B;以檢視配置。
 
