@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 735fc46cb982ebd7e28bed486589efe415741683
+source-git-commit: 93eab1106953bfc7324f4b7cc99d3442364a56cd
 workflow-type: tm+mt
-source-wordcount: '3874'
+source-wordcount: '3865'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,6 @@ Frame.io檢視器是所有Workfront檢閱和核准工作流程的預設檢視器
 
 由於統一檢閱和核准是使用Adobe企業儲存空間建立的，因此在管理專案和檔案時，應注意一些強制執行的結構和命名慣例。
 
-* 物件名稱必須是唯一的，而且不能重複。
 * 對於階層樹狀結構中具有相同父級的對等物件，Adobe企業儲存體必須有唯一的名稱。
 * 如果檔案屬於相同專案，則不能使用相同名稱。
 * 物件名稱不能包含下列任何特殊字元： \ / ： * ？ 「 | &lt; >
