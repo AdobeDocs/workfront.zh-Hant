@@ -6,10 +6,10 @@ description: 您在 [!DNL Adobe Workfront] 中顯示的資訊由儲存在 [!DNL 
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: d11066d9aa76077bfaaa2d44f2e29c983dafa96f
 workflow-type: tm+mt
-source-wordcount: '2508'
-ht-degree: 1%
+source-wordcount: '2456'
+ht-degree: 2%
 
 ---
 
@@ -56,14 +56,14 @@ ht-degree: 1%
 
 如需[!DNL Workfront]中物件的完整清單，請參閱[API總管](../../../wf-api/general/api-explorer.md)。
 
-*計畫是[!DNL Adobe Workfront Scenario Planner]的物件。 如需[!DNL Scenario Planner]的相關資訊，請參閱[情境規劃工具]概觀(../../../scenario-planner/scenario-planner-overview.md)。
+*計畫是[!DNL Adobe Workfront Scenario Planner]的物件。 如需[!DNL Scenario Planner]的相關資訊，請參閱[情境規劃工具[!UICONTROL 概觀]。](../../../scenario-planner/scenario-planner-overview.md)
 
 *[!UICONTROL 目標]是[!DNL Adobe Workfront Goals]的物件。 如需[!DNL Workfront Goals]的相關資訊，請參閱[[!DNL Adobe Workfront Goals] 概觀](../../../workfront-goals/goal-management/wf-goals-overview.md)。
 
 
 ## 自訂物件名稱
 
-作為[!DNL Workfront]管理員，您可以使用[!UICONTROL 配置範本]來自訂[!DNL Workfront]中的物件名稱。
+作為[!DNL Workfront]管理員，您可以使用[!DNL Workfront]配置範本[!UICONTROL 來自訂]中的物件名稱。
 
 如需有關如何使用[!UICONTROL 配置範本]自訂物件名稱的詳細資訊，請參閱[建立和管理配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
 
@@ -73,7 +73,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->為了讓使用者看到物件的新名稱，使用者必須在您儲存[!UICONTROL 配置範本]後，登出並重新登入[!DNL Workfront]。
+>為了讓使用者看到物件的新名稱，使用者必須在您儲存[!DNL Workfront]配置範本[!UICONTROL 後，登出並重新登入]。
 
 >[!IMPORTANT]
 >
@@ -126,22 +126,12 @@ ht-degree: 1%
 * 電子郵件
 * 行動應用程式
 
-### 未反映自訂物件名稱的[!DNL Workfront]區域
-
-下列區域不會顯示物件的更新名稱：
-
-<!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Referenced Object Type selection for a Typeahead field in a Custom Form </p> <p>(NOTE: drafting this because I don't think this is true)</p> </li>
-  -->
-
-* [!DNL Outlook]增益集
-
 ### 自訂物件名稱的影響
 
 在[!DNL Workfront]中自訂物件名稱時，請注意下列事項：
 
 * 您可能在系統顯示中遇到文體或文法錯誤。 例如，如果您將&#39;[!UICONTROL Issue]&#39;重新命名為&#39;Request&#39;，而您在系統中的任何地方都看到片語&#39;An request&#39;，則表示這是正常運作，不應視為錯誤。
-* 您物件的自訂名稱無法翻譯。 只有[!DNL Workfront]預設名稱可以翻譯成支援的語言。 如需[!DNL Workfront]支援之語言的詳細資訊，請參閱 [!DNL Adobe Workfront][&#128279;](../../../workfront-basics/supported-languages-in-workfront.md)中的支援的語言。 自訂物件名稱欄位支援外來字元，因此您可以用任何語言輸入術語。
+* 您物件的自訂名稱無法翻譯。 只有[!DNL Workfront]預設名稱可以翻譯成支援的語言。 如需[!DNL Workfront]支援之語言的詳細資訊，請參閱[中的 [!DNL Adobe Workfront]](../../../workfront-basics/supported-languages-in-workfront.md)支援的語言。 自訂物件名稱欄位支援外來字元，因此您可以用任何語言輸入術語。
 * 當您使用[!UICONTROL 配置範本]自訂物件名稱時，我們建議您根據您的業務單位（團隊或群組）來指派您的[!UICONTROL 配置範本]。\
    建議您使用這些業務單位使用者清楚理解的名稱，以避免混淆。
 * 電子郵件通知與傳遞的報告一律包含產生電子郵件之使用者的[!UICONTROL 配置範本]所定義的物件名稱。 如果您的使用者收到其他團隊和群組使用者的電子郵件通知，則您使用者應該準備好在其電子郵件中看到與群組或團隊無關的物件名稱。\
@@ -155,7 +145,7 @@ ht-degree: 1%
 
 [!DNL Workfront]檔案一律參照物件的預設名稱。 如果您的物件已自訂其名稱，您可以依賴與其關聯的圖示來瞭解哪個自訂物件對應到哪個[!DNL Workfront]預設物件。
 
-如需哪些物件可在[!DNL Workfront]中擁有自訂名稱的詳細資訊，請參閱可使用[!UICONTROL 配置範本][&#128279;](#object-names-that-can-be-customized-using-a-layout-template)自訂的物件名稱。
+如需哪些物件可在[!DNL Workfront]中擁有自訂名稱的詳細資訊，請參閱可使用[配置範本[!UICONTROL 自訂的]](#object-names-that-can-be-customized-using-a-layout-template)物件名稱。
 
 以下是Workfront中的物件清單及其對應的圖示。
 
@@ -171,7 +161,7 @@ ht-degree: 1%
 | [!UICONTROL Portfolio] | ![Portfolio](assets/portfolio-icon-nwe.png) ，![Portfolio圖示藍色](assets/nwe-portfolios-icon.png) | ✔ |
 | [!UICONTROL 程式] | ![方案圖示](assets/program-icon-nwe.png) ， ![方案圖示橘色](assets/nwe-programs-icon.png) | ✔ |
 | [!UICONTROL 專案] | ![專案圖示](assets/project-icon-nwe.png) ， ![專案圖示紫色](assets/nwe-projects-icon.png) | ✔ |
-| [!UICONTROL 報告] | ![報表圖示](assets/report-icon-nwe.png) ，![綠色的報表圖示](assets/nwe-reports-icon.png) |  |
+| [!UICONTROL 報表] | ![報表圖示](assets/report-icon-nwe.png) ，![綠色的報表圖示](assets/nwe-reports-icon.png) |  |
 | [!UICONTROL 任務] | ![任務圖示](assets/task-icon-new.png) ， ![任務圖示綠色](assets/nwe-tasks-icon.png) | ✔ |
 | [!UICONTROL 團隊] | ![團隊圖示](assets/team-icon-nwe.png)，![團隊圖示循環](assets/team-icon-nwe-color.png)，![團隊圖示](assets/nwe-teams-icon.png) |  |
 | [!UICONTROL 範本] | ![範本圖示](assets/template-icon-nwe.png) ， ![範本圖示綠色](assets/nwe-templates-icon.png) |  |
@@ -239,7 +229,7 @@ ht-degree: 1%
 
 * [!UICONTROL 專案]
 * [!UICONTROL 任務]
-* [!UICONTROL 小時]
+* [!UICONTROL Hour]
 * [!UICONTROL 問題]
 * [!UICONTROL 使用者]
 * [!UICONTROL 存取]層級
@@ -266,16 +256,16 @@ ht-degree: 1%
 * [!UICONTROL 費用型別]
 * [!UICONTROL 外部頁面]
 * [!UICONTROL 我的最愛]
-* [!UICONTROL 篩選器]
+* [!UICONTROL 篩選]
 * [!UICONTROL 目標]
    * 您可以為策略目標建立報告，或在專案與目標關聯作為目標活動時，可在專案報告中顯示目標相關的資訊。 您只能在組織已購買[!DNL Workfront Goals]授權的情況下建立策略目標並連線專案。 如需[!DNL Workfront Goals]的相關資訊，請參閱[[!DNL Workfront Goals] 概觀](../../../workfront-goals/goal-management/wf-goals-overview.md)。 如需有關將專案連線到策略目標的資訊，請參閱[將專案新增到Adobe Workfront目標中的目標](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)。
-*您無法報告與[!UICONTROL 業務案例]相關聯的專案目標。 如需有關專案目標與策略目標的資訊，請參閱[&#x200B; [!DNL Adobe Workfront] 術語表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
+*您無法報告與[!UICONTROL 業務案例]相關聯的專案目標。 如需有關專案目標與策略目標的資訊，請參閱[ [!DNL Adobe Workfront] 術語表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
 
 * [!UICONTROL 群組]
 * [!UICONTROL 群組]
 * [!UICONTROL 小時型別]
 * [!UICONTROL 方案]
-   * 只有貴公司已購買[!DNL Workfront Scenario Planner]授權，您才能為屬於計畫子物件的方案建立報告。 如需方案的相關資訊，請參閱 [!DNL Workfront Scenario Planner][&#128279;](../../../scenario-planner/initiatives-overview.md)中的方案概觀。
+   * 只有貴公司已購買[!DNL Workfront Scenario Planner]授權，您才能為屬於計畫子物件的方案建立報告。 如需方案的相關資訊，請參閱[中的 [!DNL Workfront Scenario Planner]](../../../scenario-planner/initiatives-overview.md)方案概觀。
 
 * 計畫工作角色
    * 只有貴公司已購買[!DNL Workfront Scenario Planner]授權時，您才能為計畫中方案相關的工作角色建立報告。 如需建立方案並將其與工作角色建立關聯的資訊，請參閱[在 [!DNL Workfront Scenario Planner]](../../../scenario-planner/create-and-edit-initiatives.md)中建立和編輯方案。
@@ -305,18 +295,18 @@ ht-degree: 1%
 * [!UICONTROL 校訂核准]
    * 可讓您檢視有關校訂核准的各種資訊，包括：提交以供核准的校訂、[!UICONTROL 核准者]的相關資訊、請求者的相關資訊（如果請求者是授權的[!DNL Workfront]使用者）、版本資訊、校訂ID以及校訂建立日期。\
       [!UICONTROL 校訂核准]報告僅包含可在使用者的「我的工作」區域中取得的校訂，這些區域尚未做出決定。\
-   * 校訂核准已在[!DNL Workfront]中指派，如[&#128279;](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)在[中新增使用者到校訂](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add)在 [!DNL Adobe Workfront]內共用校訂。
+   * 校訂核准已在[!DNL Workfront]中指派，如[在](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add)中新增使用者到校訂[在 [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)內共用校訂。
 
 * [!UICONTROL 佇列]
 * [!UICONTROL 佇列主題]
 * [!UICONTROL 費率] （這會顯示工作角色[!UICONTROL 收費率]資訊）
 * [!UICONTROL 提醒通知]
-* [!UICONTROL 報告]
+* [!UICONTROL 報表]
 * [!UICONTROL 資源集區]
 * [!UICONTROL 風險]
 * [!UICONTROL 風險型別]
 * [!UICONTROL 排程]
-* [!UICONTROL 計分卡]
+* [!UICONTROL 記分卡]
 * [!UICONTROL 團隊]
 * [!UICONTROL 範本]
 * [!UICONTROL 範本任務]

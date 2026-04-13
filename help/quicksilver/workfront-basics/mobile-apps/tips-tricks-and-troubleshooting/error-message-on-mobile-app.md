@@ -7,16 +7,16 @@ description: ' [!DNL Adobe Workfront] 行動應用程式上的錯誤訊息：「
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 120e56f4-9fd5-4c41-890e-981937714db0
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: d11066d9aa76077bfaaa2d44f2e29c983dafa96f
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 2%
+source-wordcount: '163'
+ht-degree: 5%
 
 ---
 
 # [!DNL Adobe Workfront]行動應用程式上的錯誤訊息： &quot;[!UICONTROL 您的帳戶未啟用API。]&quot;
 
-## 存取需求
+## 存取權要求
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -29,12 +29,12 @@ ht-degree: 2%
    <td> <p> 任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe[!DNL Workfront]授權</strong></td> 
+   <td role="rowheader"><strong>Adobe [!DNL Workfront]授權</strong></td> 
    <td> <p>規劃</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定</strong></td> 
-   <td> <p>[!UICONTROL 系統管理員] </p> </td> 
+   <td> <p>[！UICONTROL系統管理員] </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +53,7 @@ ht-degree: 2%
 1. 移至&#x200B;**[!UICONTROL 設定]**&#x200B;區域。
 1. 展開&#x200B;**[!UICONTROL 系統]**&#x200B;功能表，然後按一下&#x200B;**[!UICONTROL 偏好設定]**。
 
-1. 在&#x200B;**[!UICONTROL 安全性]**&#x200B;區段下，選取&#x200B;**[!UICONTROL 允許人員使用[!DNL Workfront]的行動應用程式和[!DNL Workfront Outlook]增益集]**&#x200B;選項以啟用它。
+1. 在&#x200B;**[!UICONTROL 安全性]**&#x200B;區段下，選取&#x200B;**[!UICONTROL 允許人員使用[!DNL Workfront]的行動應用程式]**&#x200B;選項來啟用它。
 
 1. 按一下「**[!UICONTROL 儲存]**」。\
-   系統中的所有使用者現在都可以從其行動應用程式和[!DNL Outlook]存取[!DNL Workfront]。
+   系統中的所有使用者現在都可以從他們的行動應用程式存取[!DNL Workfront]。

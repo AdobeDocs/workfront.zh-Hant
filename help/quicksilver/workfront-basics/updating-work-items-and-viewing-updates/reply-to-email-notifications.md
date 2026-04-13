@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: d11066d9aa76077bfaaa2d44f2e29c983dafa96f
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 4%
+source-wordcount: '539'
+ht-degree: 5%
 
 ---
 
@@ -137,8 +137,6 @@ Old:
 >[!IMPORTANT]
 >
 >* 您必須擁有至少檢視觸發更新的物件的許可權，才能回覆電子郵件通知。
->
->* 為避擴音交錯誤，Outlook使用者應先刪除現有的電子郵件內容，再輸入您的回覆。
 
 若要將更新新增至Workfront電子郵件：
 
