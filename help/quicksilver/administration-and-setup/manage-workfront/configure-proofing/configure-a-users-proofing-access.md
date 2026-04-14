@@ -56,7 +56,7 @@ ht-degree: 1%
 
 {{step-1-to-users}}
 
-1. 選取一或多個使用者，然後按一下[編輯]。****
+1. 選取一或多個使用者，然後按一下[編輯]。**&#x200B;**
 
 1. 在&#x200B;**存取**&#x200B;區段中，按一下&#x200B;**校訂許可權設定檔**&#x200B;下拉式功能表中的下列Workfront Proof許可權選項之一：
 
@@ -93,7 +93,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >當您在Workfront中建立或更新使用者，並且該使用者的Workfront電子郵件地址與授權的Workfront Proof使用者的電子郵件地址相符時，系統會在Workfront中啟用該使用者的校訂。 如需詳細資訊，請參閱[ Adobe Workfront與Workfront Proof之間的使用者同步](../../../administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md)。
+   >當您在Workfront中建立或更新使用者，並且該使用者的Workfront電子郵件地址與授權的Workfront Proof使用者的電子郵件地址相符時，系統會在Workfront中啟用該使用者的校訂。 如需詳細資訊，請參閱[&#x200B; Adobe Workfront與Workfront Proof之間的使用者同步](../../../administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md)。
 
 ### 考量事項
 
