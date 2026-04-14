@@ -8,10 +8,10 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 98c90139-f31a-41bc-af0b-577dd8b254e3
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 322a24fabd22ca2b54c020aded33b736a98f4bf5
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 0%
+source-wordcount: '1102'
+ht-degree: 1%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 如需可用於基本與整合校訂之校訂功能的相關資訊，請參閱[存取Workfront中的校訂功能](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -50,26 +50,13 @@ ht-degree: 0%
 
 +++
 
-## 為使用者啟用和停用校訂（僅限舊版計畫） {#enable-and-disable-proofing-for-a-user-legacy-plans-only}
-
-如果您的組織使用舊版Select或Premium Workfront計畫，您作為Workfront管理員，可以為使用者啟用和停用校訂功能。
-
-當您啟用使用者校訂時，Workfront會啟用自動產生使用者校訂的選項。
-
-雖然您可以將使用者啟用為校訂使用者，但他或她必須擁有管理員許可權，才能直接從Workfront主功能表導覽至Workfront Proof介面。 如需如何在Workfront系統中為所有校訂使用者啟用此選項的相關資訊，請參閱[透過Workfront為所有使用者設定Workfront Proof存取權](#configure-workfront-proof-access-via-workfront-main-menu-for-all-users)。
-
-1. 在&#x200B;**主功能表**&#x200B;中，選取&#x200B;**使用者**。
-
-1. 選取使用者，然後按一下&#x200B;**編輯**&#x200B;圖示。
-1. 在&#x200B;**存取**&#x200B;區段中，選取或取消選取&#x200B;**使用者可以產生校樣**。
-
 ## 設定使用者的校訂許可權設定檔
 
 您選取的許可權設定檔會針對組織內存在的每個校訂授予使用者。
 
 {{step-1-to-users}}
 
-1. 選取一或多個使用者，然後按一下[編輯]。**&#x200B;**
+1. 選取一或多個使用者，然後按一下[編輯]。****
 
 1. 在&#x200B;**存取**&#x200B;區段中，按一下&#x200B;**校訂許可權設定檔**&#x200B;下拉式功能表中的下列Workfront Proof許可權選項之一：
 
@@ -106,13 +93,13 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >當您在Workfront中建立或更新使用者，並且該使用者的Workfront電子郵件地址與授權的Workfront Proof使用者的電子郵件地址相符時，系統會在Workfront中啟用該使用者的校訂。 如需詳細資訊，請參閱[&#x200B; Adobe Workfront與Workfront Proof之間的使用者同步](../../../administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md)。
+   >當您在Workfront中建立或更新使用者，並且該使用者的Workfront電子郵件地址與授權的Workfront Proof使用者的電子郵件地址相符時，系統會在Workfront中啟用該使用者的校訂。 如需詳細資訊，請參閱[ Adobe Workfront與Workfront Proof之間的使用者同步](../../../administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md)。
 
 ### 考量事項
 
 設定許可權時，請考慮下列資訊：
 
-* 如果您將使用者的許可權設定檔變更為許可權較少的設定檔，使用者可能會失去Workfront中現有校訂的可見度。 當有人在Workfront中與使用者共用工作，但未共用附加至工作的校訂(請參閱[在Adobe Workfront中共用](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)的校訂[&#128279;](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)的校訂在Adobe Workfront中共用)時，就會發生這種情況。
+* 如果您將使用者的許可權設定檔變更為許可權較少的設定檔，使用者可能會失去Workfront中現有校訂的可見度。 當有人在Workfront中與使用者共用工作，但未共用附加至工作的校訂（請參閱[在Adobe Workfront中共用](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)的校訂[的校訂](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)在Adobe Workfront中共用）時，就會發生這種情況。
 * 您必須將Workfront Proof環境與Workfront Premium帳戶整合，才能從Workfront Proof設定Workfront許可權。 如果您無法依照本節所述使用校訂，請聯絡Workfront管理員。
 * 在您的Workfront環境中，必須至少有一個使用者擁有校訂的管理員許可權。 如果您嘗試從所有使用者中移除校訂的管理員許可權，則會出現錯誤訊息。
 * 當您將使用者的Workfront存取層級變更為系統管理員以外的任何層級時，該使用者的Workfront Proof許可權設定檔預設為「管理員」。
@@ -152,4 +139,4 @@ ht-degree: 0%
 如需詳細資訊，請參閱[在校訂檢視器中變更互動式校訂解析度](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)。
 
 1. 從Workfront存取Workfront Proof介面，如[從Adobe Workfront存取Workfront Proof](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)中所述。
-1. 修改案頭校訂檢視器設定，如[設定組織的校訂設定](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)文章中的[設定校訂的自訂裝置](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#custom-devices-for-proofs)中所述。
+1. 修改案頭校訂檢視器設定，如[設定組織的校訂設定](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#custom-devices-for-proofs)文章中的[設定校訂的自訂裝置](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)中所述。
