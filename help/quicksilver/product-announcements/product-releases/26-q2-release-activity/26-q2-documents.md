@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: b334e8b234c9c87dd1b1ecd26df6645b3381ffb0
+source-git-commit: 8d7cffd5b629b62ae3fbaf3bfddb86a05875acd9
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,27 @@ ht-degree: 0%
 本頁說明了2026年第二季度版本對預覽環境所做的「檔案」增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2026年第二季發行週期目前可用的所有變更清單，請參閱[2026年第二季發行概觀](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)。
+
+## 透過Workfront中的AEM Assets內容建議程式，更快發現並重複使用內容
+
+>[!NOTE]
+>
+>預覽： 2026年4月16日
+>生產快速發行： 2026年4月16日
+>每個人都能使用生產： 2026年4月16日
+
+Workfront現在提供「內容建議程式」並與Adobe Experience Manager Assets整合，讓團隊更容易探索及重複使用現有的高價值內容。
+
+使用「內容建議程式」，您可以：
+
+* 使用智慧建議或行銷活動簡訊詳細資料探索內容
+* 在重複使用之前檢視關鍵細節，快速評估內容適用性
+* 探索及重複使用內容片段
+* 探索集合以識別相關的品牌上內容
+
+此整合可協助團隊直接在Workfront中減少重複內容建立、加快執行速度，並最大化現有AEM資產的價值。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3483142/)
 
 ## 啟用GenStudio基礎布建以支援AI共同作業人員
 

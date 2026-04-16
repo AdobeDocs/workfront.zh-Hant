@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 64ee7798e79324af0ab48af91f49d04d94ece3a9
+source-git-commit: 62e23ddf3fc90c1e1e993ad4155564964be07b93
 workflow-type: tm+mt
-source-wordcount: '1882'
+source-wordcount: '1984'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,25 @@ ht-degree: 0%
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
+
+## 連線到Adobe Experience Manager的記錄現在可以使用內容警告器
+
+>[!NOTE]
+>
+>預覽： 2026年4月16日
+>生產快速發行： 2026年4月16日
+>每個人都能使用生產： 2026年4月16日
+
+您現在可以在Workfront Planning中存取Experience Manager的內容建議程式。 「內容建議程式」可讓您：
+
+* 使用智慧建議或行銷活動簡訊詳細資料探索內容
+* 在重複使用之前檢視關鍵細節，快速評估內容適用性
+* 探索及重複使用內容片段
+* 探索集合以識別相關的品牌上內容
+
+您可以從「內容建議程式」中選取資產或內容片段，以便用於Planning中連線的欄位。
+
+如需有關如何從Workfront Planning存取「內容建議程式」的詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
 
 ## 新增增加清單檢視的列高的功能
 
