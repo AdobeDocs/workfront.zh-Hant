@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1622'
 ht-degree: 7%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 7%
 
 * 共用專案時，除非另有指定，否則所有任務、問題和檔案都會繼承相同的許可權。
 
-  如需有關根據使用者對專案的許可權管理專案上任務和問題的存取許可權的資訊，請參閱文章[&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access)編輯專案[中的](../../manage-work/projects/manage-projects/edit-projects.md)區段。
+  如需有關根據使用者對專案的許可權管理專案上任務和問題的存取許可權的資訊，請參閱文章[](../../manage-work/projects/manage-projects/edit-projects.md#access)編輯專案[中的](../../manage-work/projects/manage-projects/edit-projects.md)區段。
 
   Workfront管理員可以指定檔案是否應該繼承使用者存取層級中較高物件的許可權。 如需有關限制檔案繼承許可權的詳細資訊，請參閱[建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
@@ -388,11 +388,23 @@ The
    <td> <p>  </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>管理財務*</p> </td> 
+   <td> <p>編輯收費率*</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>  </p> </td> 
    <td> <p>  </p> </td> 
   </tr> 
+  <tr> 
+   <td> <p>編輯成本費率*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>編輯一般財務*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
+  </tr>
   <tr> 
    <td> <p>新增/編輯費用*</p> </td> 
    <td> <p>✓</p> </td> 
@@ -400,7 +412,19 @@ The
    <td> <p>  </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>檢視財務*</p> </td> 
+   <td> <p>檢視收費率*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>檢視成本費率*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>檢視一般財務*</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 

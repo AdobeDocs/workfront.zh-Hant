@@ -1,20 +1,18 @@
 ---
 title: 授予工作角色的存取權
 description: 作為Adobe Workfront管理員，您可以透過使用者存取層級來定義使用者對Workfront中工作角色的存取權。
-author: Becky and Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a5ba79da-37f3-43f8-a7e2-4ccd75b56fef
-source-git-commit: c0cb423c73a6b0e982081ae67ffef6316b03db7f
+source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '379'
 ht-degree: 5%
 
 ---
 
 # 授予工作角色存取權
-
-{{highlighted-preview-article-level}}
 
 身為Adobe Workfront管理員，您可以透過使用者的存取層級定義使用者對工作角色的存取權，如[存取層級概觀](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)中所述。
 
@@ -59,14 +57,20 @@ ht-degree: 5%
 
    ![微調工作角色存取權](assets/job-role-access-view-fine-tune.png)
 
-   具有&#x200B;**檢視**&#x200B;存取權的使用者可以檢視現有的工作角色，並可選擇檢視工作角色收費率、成本費率和一般財務。
+   具有&#x200B;**檢視**&#x200B;存取權的使用者可以檢視現有的工作角色，並可選擇執行下列動作：
+
+   * 檢視工作角色的收費率
+   * 檢視工作角色的成本率
+   * 檢視工作角色的一般財務欄位（與帳單或成本費率無關）
 
    具有&#x200B;**編輯**&#x200B;存取許可權的使用者可以檢視及編輯現有的工作角色，並可選擇執行下列動作：
 
    * 建立新的職位角色
    * 刪除職位角色
-   * 檢視工作角色帳單費率、成本費率和一般財務
-   * 編輯工作角色收費率、成本率和一般財務
+   * 編輯工作角色的收費率
+   * 編輯職位角色的成本費率
+   * 編輯職位角色的一般財務欄位（與帳單或成本費率無關）
+   * 檢視工作角色收費率、成本費率和一般財務欄位
 
 1. （選擇性）若要針對您正在處理的存取層級中的其他物件與區域設定存取設定，請繼續[設定對Adobe Workfront的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)中列出的文章之一，例如[授予工作存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)。
 1. 完成時，按一下&#x200B;**儲存**。

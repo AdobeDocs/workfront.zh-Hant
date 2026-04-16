@@ -8,16 +8,14 @@ feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '560'
 ht-degree: 11%
 
 ---
 
 # 共用物件的財務許可權
-
-{{highlighted-preview}}
 
 指派存取層級時，您的Adobe Workfront管理員可授予您檢視或編輯財務資料的存取權。 如需詳細資訊，請參閱[授予財務資料的存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)。
 
@@ -80,8 +78,7 @@ drafted for P&P:
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視專案、任務和問題的許可權或以上包括至少檢視財務許可權</p>
-   <p><span class="preview">檢視專案、任務和問題的許可權或更高，其中至少包含檢視記帳費率、檢視成本費率或檢視一般財務許可權</span></p></td> 
+   <td> 檢視專案、任務和問題的許可權或更高，其中至少包含檢視記帳費率、檢視成本費率和檢視一般財務許可權</td> 
   </tr> 
  </tbody> 
 </table>
@@ -96,6 +93,7 @@ drafted for P&P:
 
 * 您可以授予專案、任務和問題的財務許可權。
 * 許可權可以繼承：如果您擁有專案的檢視一般財務許可權，您則會自動繼承專案上任務和問題的檢視一般財務許可權。
+* 授與帳單和成本費率的許可權可讓使用者檢視或編輯該物件的費率。 一般財務的許可權可讓使用者檢視或編輯物件的一般財務欄位（與帳單或成本費率無關）。
 
 若要授與物件的財務許可權：
 
@@ -116,10 +114,8 @@ drafted for P&P:
 
 1. 在同一個下拉式功能表中，按一下許可權層級旁的進階選項圖示，然後執行下列任一項作業：
 
-   * 如果您在上一個步驟中選取了三個選項之一，請確定已選取&#x200B;**檢視財務**。
-   * 如果您在上一個步驟中選取&#x200B;**管理財務**，請確定已選取&#x200B;**管理財務**。
-   * <span class="preview">針對任何許可權等級，選取&#x200B;**檢視收費率**、**檢視成本率**&#x200B;以及&#x200B;**視需要檢視一般財務**。</span>
-   * <span class="preview">僅針對&#x200B;**管理**&#x200B;許可權，依需要選取&#x200B;**編輯收費率**、**編輯成本費率**&#x200B;和&#x200B;**編輯一般財務**。</span>
+   * 針對任何許可權等級，選取&#x200B;**檢視收費率**、**檢視成本率**&#x200B;以及&#x200B;**視需要檢視一般財務**。
+   * 僅針對&#x200B;**管理**&#x200B;許可權，視需要選取&#x200B;**編輯收費率**、**編輯成本費率**&#x200B;和&#x200B;**編輯一般財務**。
 
 1. 按一下「**儲存**」。
 
@@ -148,55 +144,37 @@ drafted for P&P:
    <td>  </td> 
   </tr> 
   <tr> 
-   <td>管理/檢視角色帳單與成本費率</td> 
-   <td>✓</td> 
-   <td>  </td> 
-   <td>  </td> 
-  </tr> 
-  <tr> 
-   <td>管理/檢視使用者帳單與成本費率</td> 
-   <td>✓</td> 
-   <td>  </td> 
-   <td>  </td> 
-  </tr> 
-  <tr> 
-   <td>檢視財務</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>  ✓</td> 
-  </tr>
-  <tr> 
-   <td><span class="preview">編輯計費費率</span></td> 
+   <td>編輯計費費率</td> 
    <td>✓</td> 
    <td></td> 
    <td>  </td> 
   </tr> 
   <tr> 
-   <td><span class="preview">編輯成本費率</span></td> 
+   <td>編輯成本費率</td> 
    <td>✓</td> 
    <td></td> 
    <td>  </td> 
   </tr>  
   <tr> 
-   <td><span class="preview">編輯一般財務</span></td> 
+   <td>編輯一般財務</td> 
    <td>✓</td> 
    <td></td> 
    <td>  </td> 
   </tr>
   <tr> 
-   <td><span class="preview">檢視計費率</span></td> 
+   <td>檢視計費率</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 
   </tr> 
   <tr> 
-   <td><span class="preview">檢視成本率</span></td> 
+   <td>檢視成本率</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 
   </tr>  
   <tr> 
-   <td><span class="preview">檢視一般財務</span></td> 
+   <td>檢視一般財務</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 
@@ -225,3 +203,21 @@ drafted for P&P:
 &#42;需要額外的資源管理存取權。
 
 如需有關資源管理存取許可權的資訊，請參閱[授予資源管理的存取許可權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)。
+
+<!--
+These rows removed from last table.
+
+  <tr> 
+   <td>Manage/ View Role Billing and Cost Rates</td> 
+   <td>✓</td> 
+   <td>  </td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td>Manage/ View User Billing and Cost Rates</td> 
+   <td>✓</td> 
+   <td>  </td> 
+   <td>  </td> 
+  </tr> 
+
+-->

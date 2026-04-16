@@ -2,22 +2,20 @@
 product-area: projects
 navigation-topic: financials
 title: 覆寫專案層級的工作角色收費率
-description: 身為專案經理，您可以指定特定專案上工作角色的收費率。 此專案層級的收費率會覆寫此工作角色之系統層級的收費率。 Workfront使用工作角色的專案層級收費率來計算收入，而不使用系統層級收費率。
+description: 本文說明如何覆寫專案的系統工作角色收費率。
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '808'
 ht-degree: 2%
 
 ---
 
 # 覆寫專案層級的工作角色收費率
-
-{{highlighted-preview}}
 
 身為專案經理，您可以指定特定專案上工作角色的收費率。 此專案層級的收費率會覆寫此工作角色之系統層級的收費率。 Workfront使用工作角色的專案層級收費率來計算收入，而不使用系統層級收費率。
 
@@ -56,7 +54,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>物件許可權</td> 
-   <td>管理包含編輯財務資料的專案許可權 </td> 
+   <td>管理專案的許可權，包括編輯收費率 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,21 +80,17 @@ ht-degree: 2%
 
    或
 
-   <span class="preview">按一下左側面板中的&#x200B;**費率**，然後按一下&#x200B;**帳單**&#x200B;標籤（如果尚未選取）。</span>
+   按一下左側面板中的&#x200B;**費率**，然後按一下&#x200B;**帳單**&#x200B;標籤（如果尚未選取）。
 
-1. 按一下&#x200B;**新增收費率** > **新增收費率**。
-
-   或
-
-   <span class="preview">按一下&#x200B;**新增收費率>新工作角色收費率**。</span>
+1. 按一下&#x200B;**新增收費率>新增工作角色收費率**。
 
    「新收費率」方塊開啟。
 
 1. 在&#x200B;**工作角色**&#x200B;欄位中，選取您要變更收費率的工作角色。
 
-1. <span class="preview">（選擇性）選取收費率的任何屬性，例如代理商或地點。</span>
+1. （選擇性）選取帳單費率的任何屬性，例如代理商或地點。
 
-   <span class="preview">系統管理員在[設定]區域中定義速率屬性。</span>
+   系統管理員在「設定」區域中定義費率屬性。
 
 1. 選取要覆寫收費率的&#x200B;**貨幣**。
 1. 在&#x200B;**收費率**&#x200B;欄位中輸入收費率覆寫，然後按一下&#x200B;**儲存**&#x200B;來覆寫一次收費率

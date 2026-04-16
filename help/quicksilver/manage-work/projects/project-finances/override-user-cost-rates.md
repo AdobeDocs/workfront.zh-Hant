@@ -6,16 +6,15 @@ title: 修訂專案層次的使用者成本費率
 description: 本文說明如何覆寫專案的系統使用者成本費率。
 author: Lisa
 feature: Work Management
-source-git-commit: cb21414992587c62c37580f156100f2b5b755e9b
+exl-id: ff1110fd-2d24-48a7-8000-712e551ca61a
+source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '651'
 ht-degree: 3%
 
 ---
 
 # 覆寫專案層次的使用者成本費率
-
-{{highlighted-preview-article-level}}
 
 您可以指定使用者在特定專案上的成本費率。 此專案層次成本費率會覆寫此使用者之系統層次的成本費率。 Workfront使用工作角色的專案層次成本費率來計算成本，而不使用系統層次成本費率。
 
@@ -50,7 +49,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td>物件許可權</td> 
-   <td>管理包含編輯財務資料的專案許可權 </td> 
+   <td>管理包含編輯成本費率的專案許可權 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,7 +93,7 @@ ht-degree: 3%
 
    計算專案成本時，Workfront會將覆寫工作角色費率套用至這些時間範圍內發生的小時。
 
-   兩個覆寫率的時間範圍之間應該沒有間隙。 覆寫率的&#x200B;**開始日期**&#x200B;應該是緊接先前覆寫日期的&#x200B;**結束日期**&#x200B;之後的日期。
+   Workfront可讓您在覆寫時間範圍之間保留間隙，但您將會收到警告，確認這是刻意為之。
 
    您不需要為第一個覆寫費率指定「開始日期」，也不需要為最後一個覆寫費率指定「結束日期」。
 
@@ -107,5 +106,3 @@ ht-degree: 3%
    如果在專案的計畫完成日期後記錄一小時，則使用最後的成本費率。
 
 1. 按一下「**儲存**」。
-
-

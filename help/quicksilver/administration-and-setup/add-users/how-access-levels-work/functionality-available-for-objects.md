@@ -10,16 +10,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
+source-git-commit: fbc8024269aa91370f2a93ace6b7f07679c7f37d
 workflow-type: tm+mt
-source-wordcount: '1597'
-ht-degree: 17%
+source-wordcount: '1427'
+ht-degree: 18%
 
 ---
 
 # 適用於每種物件型別的功能
-
-{{highlighted-preview}}
 
 >[!NOTE]
 >
@@ -32,7 +30,7 @@ ht-degree: 17%
 >[!NOTE]
 >
 >* 本文說明新Workfront套件模型中可用於存取層級的功能。 若要檢視目前封裝模型中可用的功能，請參閱[各種存取層級中每種物件型別的可用功能](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)。
->* 如需最新模式中不同套件可用的功能清單，請參閱[Adobe Workfront定價與封裝](https://business.adobe.com/tw/products/workfront/pricing.html)。
+>* 如需最新模式中不同套件可用的功能清單，請參閱[Adobe Workfront定價與封裝](https://business.adobe.com/products/workfront/pricing.html)。
 
 ## 專案
 
@@ -59,7 +57,7 @@ ht-degree: 17%
 | 管理風險 | ✓ |   |   |   |
 | 管理財務 | ✓ |   |   |   |
 | 新增/編輯費用 | ✓ |   |   |   |
-| <span class="preview">附加費率卡</span> | ✓ |   |   |   |
+| 附加費率卡 | ✓ |   |   |   |
 | 附加範本 | ✓ |   |   |   |
 | 另存為範本 | ✓ |   |   |   |
 | 新增/編輯業務案例 | ✓ |   |   |   |
@@ -257,8 +255,6 @@ ht-degree: 17%
 
 ## 使用者
 
-<div class="preview">
-
 預覽環境中提供以下選項：
 
 | 動作 | 標準 | 精簡 | 貢獻者 | 外部使用者** |
@@ -283,27 +279,6 @@ ht-degree: 17%
 
 &#42;&#42;外部使用者只能搜尋其他使用者。
 
-</div>
-
-生產環境中提供下列選項：
-
-| 動作 | 標準 | 精簡 | 貢獻者 | 外部使用者** |
-|----------------------------------------------------------------------------------------------------|----------|--------|-------------|-----------------|
-| 建立 | ✓* |   |   |   |
-| 刪除 | ✓* |   |   |   |
-| 編輯、刪除、停用、登入身份或重設任何使用者的密碼 | ✓* |   |   |   |
-| 編輯、刪除、停用、登入身份或重設其管理的群組之任何使用者的密碼 | ✓* |   |   |   |
-| 檢視使用者 | ✓ | ✓ | ✓ |   |
-| 檢視聯絡資訊 | ✓ | ✓ | ✓ |   |
-
-{style="table-layout:auto"}
-
-&#42;使用存取層級，Workfront管理員可以停用或啟用此功能。
-
-&#42;&#42;外部使用者只能搜尋其他使用者。
-
-<div class="preview">
-
 ## 職務角色
 
 | 動作 | 標準 | 精簡 | 貢獻者 | 外部使用者 |
@@ -322,8 +297,6 @@ ht-degree: 17%
 {style="table-layout:auto"}
 
 &#42;使用存取層級，Workfront管理員可以停用或啟用此功能。
-
-</div>
 
 <!--
 
@@ -394,10 +367,6 @@ ht-degree: 17%
 
 只有具有Standard授權的使用者才能完整存取財務資料。
 
-<div class="preview">
-
-預覽環境中提供以下選項：
-
 | 動作 | 標準 | 精簡 | 貢獻者 | 外部使用者 |
 |--------------------------------------------------------------|----------|--------|-------------|---------------|
 | 編輯計費費率 | ✓&#42; |   |   |   |
@@ -408,29 +377,6 @@ ht-degree: 17%
 | 檢視一般財務 | ✓&#42; | ✓&#42; |   |   |
 | 管理計費記錄 | ✓ |   |   |   |
 | 管理費用 | ✓ |   |   |   |
-| 在資源計畫工具中依成本檢視資訊 | ✓ |   |   |   |
-| 資源規劃工具中的預算資源&#42;&#42; | ✓ |   |   |   |
-| 檢視資源規劃工具中的資源配置&#42; | ✓ | ✓ |   |   |
-| 建立專案風險 | ✓ |   |   |   |
-| 檢視專案風險 | ✓ | ✓ |   |   |
-
-{style="table-layout:auto"}
-
-&#42;使用存取層級，Workfront管理員可以停用或啟用此功能。
-
-</div>
-
-生產環境中提供下列選項：
-
-| 動作 | 標準 | 精簡 | 貢獻者 | 外部使用者 |
-|--------------------------------------------------------------|----------|--------|-------------|---------------|
-| 編輯角色帳單和成本費率 | ✓&#42; |   |   |   |
-| 編輯使用者帳單和成本費率 | ✓&#42; |   |   |   |
-| 檢視角色帳單與成本費率 | ✓&#42; |   |   |   |
-| 檢視使用者帳單和成本費率 | ✓&#42; |   |   |   |
-| 管理計費記錄 | ✓ |   |   |   |
-| 管理費用 | ✓ |   |   |   |
-| 檢視財務資料 | ✓&#42; | ✓&#42; |   |   |
 | 在資源計畫工具中依成本檢視資訊 | ✓ |   |   |   |
 | 資源規劃工具中的預算資源&#42;&#42; | ✓ |   |   |   |
 | 檢視資源規劃工具中的資源配置&#42; | ✓ | ✓ |   |   |
@@ -460,7 +406,7 @@ ht-degree: 17%
 
 &#42;使用存取層級，Workfront管理員可以停用或啟用此功能。
 
-&#42;&#42;需要其他財務資料存取權以及專案財務的許可權。 如果您將「資源管理」存取權授與沒有「財務資料」存取權的「供需規劃員」使用者，該使用者仍可在「資源供需規劃員」中看到每小時配置，但無法切換至「成本」檢視或檢視「業務案例」。 如需詳細資訊，請參閱[授予財務資料的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)以及[共用物件的財務許可權](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md)。
+&#42;&#42;需要其他財務資料存取權以及專案財務的許可權。 如果您將「資源管理」存取權授與沒有「財務資料」存取權的「標準」使用者，使用者仍可在「資源規劃工具」中看到每小時配置，但無法切換至「成本」檢視或檢視「業務案例」。 如需詳細資訊，請參閱[授予財務資料的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)以及[共用物件的財務許可權](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md)。
 
 &#42;&#42;&#42;需要許可權才能貢獻至物件，且在[進階設定]下啟用[指派工作]。 如需相關資訊，請參閱文章[物件許可權共用概觀](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object)中的[瞭解繼承許可權和物件階層](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)一節。
 
@@ -483,8 +429,6 @@ ht-degree: 17%
 
 &#42;若要讓使用者檢視計畫或方案中的財務資料，他們需要財務資料的存取權。 如需詳細資訊，請參閱[授予財務資料的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)。
 
-<div class="preview">
-
 ## 費率卡
 
 只有擁有標準授權的使用者才能完整存取費率卡。
@@ -500,8 +444,6 @@ ht-degree: 17%
 {style="table-layout:auto"}
 
 &#42;使用存取層級，Workfront管理員可以停用或啟用此功能。
-
-</div>
 
 ## Workfront目標區域
 

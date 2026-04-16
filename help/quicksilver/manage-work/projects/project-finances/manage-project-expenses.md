@@ -6,10 +6,10 @@ description: 專案與任務相關費用的建立與管理費用流程相同。 
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: f8e869f1ce8127d6ee095a58c84a94915df3acab
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 1%
+source-wordcount: '496'
+ht-degree: 5%
 
 ---
 
@@ -21,23 +21,23 @@ ht-degree: 1%
 
 您所有任務和專案的費用總計會貢獻專案的總成本。 費用的「計畫金額」會貢獻專案的「計畫成本」，費用的「實際金額」會貢獻專案的「實際成本」。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront授權</td> 
    <td>
    <p>標準</p>
-   <p>工作或更高</p></td> 
+   <p>工作或更高層級</p></td> 
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
@@ -45,7 +45,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>物件許可權</td> 
-   <td>專案貢獻或更高許可權，具有檢視或管理財務的許可權</td> 
+   <td>專案貢獻或更高許可權，具有檢視或編輯一般財務的許可權</td> 
   </tr> 
  </tbody> 
 </table>

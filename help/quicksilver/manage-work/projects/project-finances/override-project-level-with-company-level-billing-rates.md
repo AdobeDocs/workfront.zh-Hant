@@ -6,10 +6,10 @@ description: 以公司層級的收費率覆寫專案層級的收費率
 author: Lisa
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: f8e869f1ce8127d6ee095a58c84a94915df3acab
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 1%
+source-wordcount: '457'
+ht-degree: 5%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 1%
 
 您可以將專案設定為使用公司層級的收費率，而非專案層級的收費率。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
@@ -45,7 +45,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>物件許可權</td> 
-   <td>管理具有管理財務之許可權的專案許可權</td> 
+   <td>管理具有編輯收費率和一般財務之許可權的專案許可權</td> 
   </tr> 
  </tbody> 
 </table>
@@ -85,7 +85,7 @@ ht-degree: 1%
 1. 按一下左側面板中的&#x200B;**收費率**。
 1. 更新現有職務角色的&#x200B;**公司收費率**&#x200B;和開始/結束日期，然後按Enter鍵。
 
-   若要新增生效日期的公司收費率，請選取工作角色的收費率，然後按一下[編輯]。**&#x200B;** 如需日期有效公司收費率的詳細資訊，請參閱[覆寫公司層級的工作角色收費率](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)。
+   若要新增生效日期的公司收費率，請選取工作角色的收費率，然後按一下[編輯]。**** 如需日期有效公司收費率的詳細資訊，請參閱[覆寫公司層級的工作角色收費率](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)。
 
 1. 若要更新一或多個專案的公司費率，請執行下列其中一項作業：
 
