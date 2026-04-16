@@ -10,16 +10,14 @@ role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1351'
 ht-degree: 2%
 
 ---
 
 # 組織和預覽表單
-
-{{preview-fast-release-general}}
 
 您可以使用表單設計工具來組織自訂表單，並預覽以確認其設定正確。
 
@@ -85,8 +83,8 @@ ht-degree: 2%
       <td role="rowheader">說明</td> 
       <td>如果要向使用者說明此區段的用途，請鍵入文字。 這會顯示在自訂表單上區段的標籤下方。</td> 
      </tr> 
-      <td><span class="preview">已依預設收合</span></td>
-      <td><span class="preview">依預設，當表單本身展開時，自訂表單上的所有區段都會展開。 選取此選項，可在使用者開啟表單時，預設摺疊區段。</span></td>
+      <td>已依預設收合</td>
+      <td>依預設，當表單本身展開時，自訂表單上的所有區段都會展開。 選取此選項，可在使用者開啟表單時，預設摺疊區段。</td>
      <tr>
      </tr>
      <tr> 
@@ -120,7 +118,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader"><p>新增邏輯</p></td> 
-      <td><p>根據使用者在填寫表單時於多選自訂欄位中所做的選擇，使用顯示邏輯來指定區段是否應顯示在表單上。</p><p><strong>注意：</strong>如果分割槽符號下的所有個別欄位都套用了顯示邏輯，而且這些欄位都因該邏輯而隱藏，則整個分割槽將會在自訂表單上隱藏。 即使顯示邏輯未套用至分割槽符號，也會發生這種情況。</p><p>如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">使用表單設計工具新增顯示邏輯和略過邏輯</a>。</p></td> 
+      <td><p>根據使用者在填寫表單時於多選自訂欄位中所做的選擇，使用顯示邏輯來指定區段是否應顯示在表單上。</p><p><strong>注意：</strong>如果分割槽符號下的所有個別欄位都套用了顯示邏輯，而且這些欄位都因該邏輯而隱藏，則整個分割槽將會在自訂表單上隱藏。 即使顯示邏輯未套用至分割槽符號，也會發生這種情況。</p><p>如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">新增邏輯規則至自訂表單和欄位</a>。</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -166,7 +164,7 @@ ht-degree: 2%
 
    ![將欄位移至區段](assets/move-field-to-section.png)
 
-1. 若要儲存變更，請按一下[套用] **&#x200B;**
+1. 若要儲存變更，請按一下[套用] ****
 
    或
 

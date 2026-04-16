@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 4ce13e7d46efb026c1d42a61f4fce4bf1a37bb5f
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 5%
+source-wordcount: '728'
+ht-degree: 6%
 
 ---
 
 # 使用版面配置範本自訂主功能表
-
-{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -27,7 +25,7 @@ ht-degree: 5%
 >
 >使用者看到的主要功能表選項取決於其授權型別以及在其存取層級中設定的設定。 某些將使用此配置範本的使用者可能不會看見您在這裡選擇的所有選項。 如需詳細資訊，請參閱[存取層級和許可權如何搭配運作](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)以及[每個物件型別可設定的功能存取權](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)。
 >
->如果您的組織已上線Adobe Workfront Unified Experience，您可能會在主要功能表中看到不同的選項。 如需詳細資訊，請參閱[Workfront的Adobe Unified Experience &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+>如果您的組織已上線Adobe Workfront Unified Experience，您可能會在主要功能表中看到不同的選項。 如需詳細資訊，請參閱[Workfront的Adobe Unified Experience ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 如需有關建立版面配置範本的資訊，請參閱[建立和管理版面配置範本](../use-layout-templates/create-and-manage-layout-templates.md)。
 
@@ -124,8 +122,6 @@ ht-degree: 5%
      >
      > 自訂應用程式必須個別建立，才能作為主功能表選項使用。 如需詳細資訊，請參閱[使用Adobe App Builder建立Workfront的自訂應用程式](/help/quicksilver/app-builder/app-builder.md)。
 
-<div class="preview">
-
 在預覽環境中：
 
 1. 請針對&#x200B;**原生**&#x200B;專案執行下列任一項作業：
@@ -139,17 +135,9 @@ ht-degree: 5%
    * 隱藏![隱藏圖示](assets/remove-icon---x-in-circle.png)您不想要顯示在主功能表上的專案。
    * 顯示您想要顯示在主要功能表上的![圖示](assets/add-icon-plus-in-circle.png)專案。
 
-</div>
-
->[!NOTE]
->
-><span class="preview">您無法變更系統專案的順序。 當這些專案處於作用中狀態時，它們一律會顯示在主功能表的底部。</span>
-
-1. 在生產環境中，執行下列任一項作業：
-
-   * 隱藏![隱藏圖示](assets/remove-icon---x-in-circle.png) **您不想要顯示的作用中專案**
-   * 顯示您想要顯示在主功能表上的![顯示圖示](assets/add-icon-plus-in-circle.png) **可用專案**。
-   * 拖曳![拖曳圖示](assets/move-icon---dots.png) **作用中專案**&#x200B;以變更它們在主功能表上的顯示順序。
+   >[!NOTE]
+   >
+   >您無法變更系統專案的順序。 當這些專案處於活動狀態時，它們始終顯示在主選單底部。
 
 1. 按一下「**完成**」。
 

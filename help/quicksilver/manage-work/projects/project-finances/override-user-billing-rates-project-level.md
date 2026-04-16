@@ -6,7 +6,8 @@ title: 覆寫專案層級的使用者收費率
 description: 本文說明如何覆寫專案的系統使用者收費率。
 author: Lisa
 feature: Work Management
-source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
+exl-id: eb7dbb6f-a31c-4569-be54-9a151dcf4135
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 2%
@@ -14,8 +15,6 @@ ht-degree: 2%
 ---
 
 # 覆寫專案層級的使用者收費率
-
-{{highlighted-preview-article-level}}
 
 身為專案經理，您可以指定特定專案上使用者的收費率。 此專案層級的收費率會覆寫此使用者之系統層級的收費率。 Workfront使用使用者的專案層級收費率來計算收入，而不使用系統層級收費率。
 

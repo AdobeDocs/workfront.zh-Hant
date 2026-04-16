@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
-source-wordcount: '4971'
-ht-degree: 2%
+source-wordcount: '5076'
+ht-degree: 3%
 
 ---
 
@@ -268,7 +268,7 @@ Old:
 1. 如上所述開始編輯您的範本。
 1. 在&#x200B;**編輯範本**&#x200B;方塊中，按一下&#x200B;**財務**。
 
-   ![編輯範本方塊財務區段](assets/edit-template-box-finance-section.png)
+   ![編輯範本方塊財務區段](assets/edit-template-finance-section-040626.png)
 
 1. 更新下列欄位：
 
@@ -276,6 +276,14 @@ Old:
     <col> 
     <col> 
     <tbody> 
+     <tr>
+      <td><strong>保留專案計費費率資訊</strong></td>
+      <td><p>當您啟用此選項時，所有指定帳單費率會永久凍結為帳單階層的最高適用費率。 這是一次性選擇，一旦專案具有指派或小時，您就無法停用選項。 保留後，無法在專案上的任何位置變更、編輯或覆寫指派收費率。</p></td>
+     </tr>
+     <tr>
+      <td><strong>使用系統中的生效日期匯率</strong></td>
+      <td><p>選取此選項時，一律會使用系統層級的日期有效匯率，且專案上不允許匯率覆寫。</p> <p>選取選項時，您也必須選取要開始的<strong>匯率日期</strong>。</p></td> 
+     </tr>
       <tr> 
       <td role="rowheader"><strong>貨幣</strong></td> 
       <td><p>若與系統的預設貨幣不同，請指定未來專案的貨幣。 如果系統中只有預設貨幣，則不會顯示此欄位。<br>如需貨幣詳細資訊，請參閱<a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">設定匯率</a>。</p></td> 
@@ -329,7 +337,7 @@ Old:
 
 1. （選用）更新自訂表單上任何欄位中的資訊。 此資訊將會傳輸至將使用範本建立的專案。
 
-1. （選擇性）按一下自訂表單名稱右邊的&#x200B;**x**&#x200B;圖示，然後按一下[移除]&#x200B;**&#x200B;**&#x200B;以從範本中移除它。
+1. （選擇性）按一下自訂表單名稱右邊的&#x200B;**x**&#x200B;圖示，然後按一下[移除]****&#x200B;以從範本中移除它。
 
 1. （選擇性）根據您要修改的資訊，繼續編輯下列區段。
 
@@ -619,7 +627,7 @@ For instructions on editing Linked folders, see [Edit workflow values in a proje
 1. 在&#x200B;**編輯範本**&#x200B;方塊中，按一下&#x200B;**註解**。
 
    ![編輯範本方塊註解區段](assets/edit-template-box-comment-section.png)
-1. 新增您正在進行之更新的相關註解、標籤其他使用者，或選取&#x200B;**我的公司私有**&#x200B;方塊，讓貴公司的使用者無法存取更新，然後按一下[儲存]。**&#x200B;**
+1. 新增您正在進行之更新的相關註解、標籤其他使用者，或選取&#x200B;**我的公司私有**&#x200B;方塊，讓貴公司的使用者無法存取更新，然後按一下[儲存]。****
 
    >[!TIP]
    >

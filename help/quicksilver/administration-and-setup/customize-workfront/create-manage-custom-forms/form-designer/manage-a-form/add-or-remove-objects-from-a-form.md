@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 0%
+source-wordcount: '446'
+ht-degree: 4%
 
 ---
 
@@ -19,16 +19,16 @@ ht-degree: 0%
 
 您可以使用表單設計工具，在現有自訂表單中新增或刪除物件型別。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -57,7 +57,6 @@ ht-degree: 0%
 >
 >如需詳細資訊，請參閱[多個物件型別如何影響分割槽符號許可權](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md#how-multiple-object-types-can-affect-section-break-permissions)。
 
-
 {{step-1-to-setup}}
 
 1. 按一下左側面板中的&#x200B;**自訂Forms**。
@@ -66,9 +65,9 @@ ht-degree: 0%
 
 1. 選取要新增其他物件型別的自訂表單，然後按一下![編輯圖示](assets/edit-icon2.png)。
 
-1. 在表單頂端按一下&#x200B;**物件型別**&#x200B;之後的加號+，然後在顯示的功能表中選取您要的型別。 您可以重複此步驟，新增任意數目的物件型別。
+1. 在表單頂端按一下&#x200B;**物件型別**，然後選取您要在顯示的功能表中新增的型別。 您可以重複此步驟，新增任意數目的物件型別。
 
-   ![新增物件](assets/add-new-object.png)
+   ![新增物件](assets/add-new-object-to-custom-form-041026.png)
 
 1. 按一下&#x200B;**儲存並關閉**。
 
@@ -92,9 +91,5 @@ ht-degree: 0%
 
 1. 按一下左側面板中的&#x200B;**自訂Forms**。
 1. 選取您要編輯的自訂表單，然後按一下![編輯圖示](assets/edit-icon2.png)。
-1. 在您要從表單刪除的任何&#x200B;**物件型別**&#x200B;上按一下X。
-
-   ![刪除物件型別](assets/delete-object-types.png)
-
-1. （可選）針對您要從表單中移除的任何其他物件型別，重複上一步驟。
+1. 在表單頂端按一下&#x200B;**物件型別**，然後清除您要從表單中刪除之物件的核取方塊。
 1. 按一下&#x200B;**套用**，然後按一下&#x200B;**儲存並關閉**。

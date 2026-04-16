@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 69233499-fbcb-44a4-a247-d5051f9bc8b9
-source-git-commit: 3fe3313bd545d51be7aa0fb021dd0bb0f91b4321
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 5%
@@ -16,8 +16,6 @@ ht-degree: 5%
 ---
 
 # 設定位置
-
-{{highlighted-preview-article-level}}
 
 您可以設定預設位置，以指派為費率卡中工作角色的屬性。 這可確保費率卡準確反映每個位置的市場費率。
 
@@ -37,11 +35,11 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td>[!UICONTROL 標準]</td>
+   <td>[！UICONTROL標準]</td>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td> 
+   <td>[！UICONTROL系統管理員]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -75,7 +73,7 @@ ht-degree: 5%
 {{step-1-to-setup}}
 
 1. 在左側面板中，按一下&#x200B;[!UICONTROL **位置**]。
-1. 在清單中選取現有的位置，然後按一下[新增子位置] **&#x200B;**。
+1. 在清單中選取現有的位置，然後按一下[新增子位置] ****。
 1. 輸入地點名稱和說明。
 1. 按一下輸入區域外部以儲存位置。
 

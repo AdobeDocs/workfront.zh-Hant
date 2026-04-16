@@ -5,7 +5,7 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: 97c33c5a-e42d-4015-841f-69dc44a0599d
-source-git-commit: 58d3f084c343bcc404f30edd270017fa5f86eb58
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 3%
@@ -13,8 +13,6 @@ ht-degree: 3%
 ---
 
 # 將費率卡附加至專案
-
-{{highlighted-preview-article-level}}
 
 費率卡會根據屬性儲存每個工作角色的多個收費率。 例如，代理商A的工作角色為位於巴黎的Designer，代理商B的工作角色為另一個位於巴黎的Designer，而位於紐約的第三個Designer未指派給代理商，每個代理商的計費率不同。 不過，費率卡上的工作角色不需要屬性。 屬性可作為工具，用來建立更精細的速率。 費率卡上的收費率也可以是生效日期，因此費率在指定日期開始和結束。
 

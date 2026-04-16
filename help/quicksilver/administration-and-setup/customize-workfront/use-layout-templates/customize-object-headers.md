@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 3a194bc2b2707c7b7e1cd5edffc3dd5ab43e91b3
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 3%
@@ -17,13 +17,11 @@ ht-degree: 3%
 
 # 使用版面配置範本自訂物件標頭
 
-{{highlighted-preview}}
-
 身為Adobe Workfront管理員或群組管理員，您可以使用版面配置範本來設定使用者在開啟物件頁面時，在物件標題中看到的欄位。
 
 >[!IMPORTANT]
 >
->自訂物件標題目前可用於專案、任務、問題、<span class="preview">產品組合、方案、範本、計費記錄、團隊、使用者、公司、群組和費率卡。</span>
+>自訂物件標題目前可用於專案、任務、問題、產品組合、方案、範本、計費記錄、團隊、使用者、公司、群組和費率卡。
 
 ![物件標頭欄位](assets/object-header-fields.png)
 

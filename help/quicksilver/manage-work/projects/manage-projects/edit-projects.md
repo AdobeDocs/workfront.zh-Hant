@@ -9,7 +9,7 @@ role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '7855'
 ht-degree: 1%
@@ -409,9 +409,7 @@ Old:
 1. 如上所述開始編輯您的專案。
 1. 按一下左側面板中的&#x200B;**財務**。
 
-   專案編輯方塊中的![財務區域](assets/nwe-finance-in-edit-project-box-350x183.png)
-
-   <!--![Finance area in the project edit box](assets/edit-project-finance-section.png)-->
+   專案編輯方塊中的![財務區域](assets/edit-project-finance-section.png)
 
 1. 更新專案的下列財務資訊：
 
@@ -420,12 +418,12 @@ Old:
     <col> 
     <tbody> 
      <tr>
-      <td><strong><span class="preview">使用系統中的生效日期匯率</span></strong></td>
-      <td><p><span class="preview">選取此選項時，一律會使用系統層級的日期有效匯率，且專案上不允許匯率覆寫。</span></p> <p><span class="preview">選取選項時，您也必須選取要開始的<strong>匯率日期</strong>。</span></p></td> 
+      <td><strong>使用系統中的生效日期匯率</strong></td>
+      <td><p>選取此選項時，一律會使用系統層級的日期有效匯率，且專案上不允許匯率覆寫。</p> <p>選取選項時，您也必須選取要開始的<strong>匯率日期</strong>。</p></td> 
      </tr>
      <tr>
-      <td><strong><span class="preview">保留專案計費費率資訊</span></strong></td>
-      <td><p><span class="preview">當您啟用此選項時，所有指定帳單費率會永久凍結為帳單階層的最高適用費率。 這是一次性選擇，一旦專案具有指派或小時，您就無法停用選項。 保留後，無法在專案上的任何位置變更、編輯或覆寫指派收費率。</span></p></td>
+      <td><strong>保留專案計費費率資訊</strong></td>
+      <td><p>當您啟用此選項時，所有指定帳單費率會永久凍結為帳單階層的最高適用費率。 這是一次性選擇，一旦專案具有指派或小時，您就無法停用選項。 保留後，無法在專案上的任何位置變更、編輯或覆寫指派收費率。</p></td>
      </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>貨幣</strong> </td> 
@@ -839,7 +837,7 @@ Old:
 
    當自訂表單已附加到某些所選專案時，表單名稱旁邊會顯示新增表單時已附加表單的專案數量。
 
-1. （選擇性）按一下自訂表單名稱右邊的&#x200B;**x**&#x200B;圖示，然後按一下[移除]&#x200B;**&#x200B;**，將其從所有選取的專案中移除。
+1. （選擇性）按一下自訂表單名稱右邊的&#x200B;**x**&#x200B;圖示，然後按一下[移除]****，將其從所有選取的專案中移除。
 
    >[!CAUTION]
    >
@@ -849,13 +847,13 @@ Old:
 
 1. 按一下&#x200B;**財務**，編輯所有選取專案的財務資訊。
 如需有關編輯財務區域的詳細資訊，請參閱本文章的[財務](#finance)小節。
-1. 按一下&#x200B;**專案設定**&#x200B;以編輯所有選取專案的設定。
+1. 按一下&#x200B;**專案設定**以編輯所有選取專案的設定。
 如需有關編輯[專案設定]區域的詳細資訊，請參閱本文中的[專案設定](#project-settings)小節。
 1. 按一下「**任務設定**」以編輯所有選定專案的任務設定。
 如需有關編輯[工作設定]區域的詳細資訊，請參閱本文中的[工作設定](#task-settings)小節。
-1. 按一下&#x200B;**問題設定**&#x200B;以編輯所有選定專案的問題設定。
+1. 按一下&#x200B;**問題設定**以編輯所有選定專案的問題設定。
 如需有關編輯問題設定區域的詳細資訊，請參閱本文中的[問題設定](#issue-settings)小節。
-1. 按一下&#x200B;**存取**&#x200B;以編輯所有選取專案的存取設定。
+1. 按一下&#x200B;**存取**以編輯所有選取專案的存取設定。
 如需有關編輯[存取]區域的詳細資訊，請參閱本文中的[存取](#access)一節。
 1. 按一下&#x200B;**註解**，然後在提供的空間新增註解。 Workfront在每個專案的&#x200B;**更新**&#x200B;區域新增註解。 如需更新工作的相關資訊，請參閱[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 1. （選擇性）若要移除您在「編輯專案」方塊中新增的任何資訊，請將游標移至已編輯的欄位上，然後按一下欄位右上角的&#x200B;**x**&#x200B;捨棄圖示。

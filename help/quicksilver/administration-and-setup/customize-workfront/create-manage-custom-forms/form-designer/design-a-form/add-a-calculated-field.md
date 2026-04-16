@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 5cdaccd9381b02f183b837208eaac4389b0b7a24
+source-git-commit: e6aa40917f2e4421c84d2cc36e86187328c6f775
 workflow-type: tm+mt
 source-wordcount: '2714'
 ht-degree: 1%
@@ -18,8 +18,6 @@ ht-degree: 1%
 # 新增計算欄位至表單
 
 <!-- Audited: 5/2025 -->
-
-{{highlighted-preview}}
 
 您可以將自訂表單附加至物件時，新增使用現有資料產生新資料的計算自訂欄位。
 
@@ -117,7 +115,7 @@ ht-degree: 1%
    >
    >複雜表單的範例包括含有階層式引數的表單、計算的自訂資料欄位，以及單一欄位中的多個值選項。
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -172,26 +170,26 @@ ht-degree: 1%
       <td><p>此選項預設為開啟。<p><p>將欄位設為「非使用中」時，該欄位會從報表、篩選器和檢視中排除，並且無法再用於自訂表單欄位程式庫。</p></td>
      </tr>
      <tr>
-      <td><span class="preview">自動許可</span></td>
-      <td><span class="preview"><p>開啟此選項可允許財務許可權自動來自公式中使用的欄位。 許可權定義會顯示在下方的「財務許可權型別」欄位中。</p><p>公式中所有欄位都需要存取權。 例如，如果在計算欄位中使用兩個欄位，其中一個已套用計費許可權，而另一個已套用成本許可權，則使用者必須具有檢視計費和成本費率的許可權才能檢視計算值。</p></span></td>
+      <td>自動許可</td>
+      <td><p>開啟此選項可允許財務許可權自動來自公式中使用的欄位。 許可權定義會顯示在下方的「財務許可權型別」欄位中。</p><p>公式中所有欄位都需要存取權。 例如，如果在計算欄位中使用兩個欄位，其中一個已套用計費許可權，而另一個已套用成本許可權，則使用者必須具有檢視計費和成本費率的許可權才能檢視計算值。</p></td>
      </tr>
      <tr>
-      <td><span class="preview">財務權限類型</span></td>
-      <td><p><span class="preview">當自動許可權欄位關閉時，您可以選取使用者在檢視或編輯此自訂欄位之前必須擁有的財務許可權型別。 計算欄位允許任何格式。 公式中使用的欄位會決定此欄位是否有效。 如果許可權欄位為空，則公式中的欄位不支援財務許可權。</span></p>
-      <ul span class="preview">
+      <td>財務權限類型</td>
+      <td><p>當自動許可權欄位關閉時，您可以選取使用者在檢視或編輯此自訂欄位之前必須擁有的財務許可權型別。 計算欄位允許任何格式。 公式中使用的欄位會決定此欄位是否有效。 如果許可權欄位為空，則公式中的欄位不支援財務許可權。</p>
+      <ul>
       <li><p><strong>不需要許可權：</strong>所有使用者都可以看到此欄位</p></li>
       <li><p><strong>一般：</strong>使用者必須具有編輯或檢視一般財務的許可權</p></li>
       <li><p><strong>帳單：</strong>使用者必須擁有編輯或檢視收費率的許可權</p></li>
       <li><p><strong>成本：</strong>使用者必須擁有編輯或檢視成本費率的許可權</p></li>
       </ul>
-      <p><span class="preview">如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">限制存取自訂欄位中的財務資料</a>。</span></p>
+      <p>如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">限制存取自訂欄位中的財務資料</a>。</p>
       </td>
      </tr>
     </tbody> 
    </table>
 
 1. 在&#x200B;**計算**&#x200B;方塊中，開始建立計算：
-   1. 按一下&#x200B;**最大化**&#x200B;以開啟計算編輯器並建置您的計算。</p>
+   1. 按一下&#x200B;**最大化**以開啟計算編輯器並建置您的計算。
 計算通常以運算式開始，後面接著括弧，其中包含當自訂表單附加至物件時要參考的欄位。
 
       每個欄位都必須以大括弧括住。 當您開始輸入欄位名稱時，系統會提供建議，您可以選取一個來將其插入計算。
@@ -347,7 +345,7 @@ ht-degree: 1%
     </tbody> 
    </table>
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 

@@ -7,7 +7,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: debe90e7-08c2-4385-96fb-8d349dec6741
-source-git-commit: 3b05ab91619e8a2d2ae451d2f0f4cd38e58c7440
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '1696'
 ht-degree: 1%
@@ -15,8 +15,6 @@ ht-degree: 1%
 ---
 
 # 從範本匯入費率卡
-
-{{highlighted-preview-article-level}}
 
 您可以使用範本檔案在Excel中建立您的費率卡片，並將其匯入Adobe Workfront，而非手動新增所有工作角色和費率。
 
@@ -47,11 +45,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td>[!UICONTROL 標準]</td> 
+   <td>[！UICONTROL標準]</td> 
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>編輯[!UICONTROL 費率卡]的存取權</td> 
+   <td>編輯[！UICONTROL費率卡]的存取權</td> 
   </tr> 
  </tbody> 
 </table>

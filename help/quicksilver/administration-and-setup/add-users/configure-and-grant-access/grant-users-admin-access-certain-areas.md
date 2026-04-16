@@ -5,18 +5,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
-source-git-commit: cada5387ddfb710029d06cd38841ecb9c8a6484b
+source-git-commit: 85399542ce8e92de6da5a1de0960194e72958987
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 4%
+source-wordcount: '686'
+ht-degree: 5%
 
 ---
 
 # 授予使用者管理特定區域的存取權
 
 <!--Linked in several places, do not rename or change URL.-->
-
-{{highlighted-preview}}
 
 身為Adobe Workfront管理員，您可以使用存取層級，授予具有「標準」或「計畫」授權的使用者對系統特定區域的管理存取權。
 
@@ -95,17 +93,7 @@ ht-degree: 4%
         <li>他們自己的費用</li>
         <li>其下屬的費用</li>
        </ul></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">職務角色</td> 
-      <td> <p><span class="preview"><b>注意</b>：在「預覽」環境中，工作角色的存取許可權是在存取層級中控制為物件型別。 請參閱<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-job-roles.md">授與工作角色的存取權</a>。</span></p>
-      <p>透過此存取權，使用者可以執行下列動作：</p> 
-       <ul> 
-        <li>檢視和編輯現有職位角色</li> 
-        <li>新增職位角色</li> 
-        <li>編輯角色帳單和成本費率</li> 
-       </ul> <p><b>重要</b>：如果您授予「標準」或「計畫」使用者工作角色的管理存取權，系統會自動為使用者啟用「財務資料」存取設定「編輯角色帳單與成本費率」。 稍後，如果您停用「標準」或「計畫」使用者對工作角色的管理存取權，使用者仍可看見工作角色，因為「編輯角色帳單與成本費率」設定仍會啟用。 如果發生此情況，並且您需要移除使用者檢視工作角色的存取權，您需要停用使用者的「編輯角色帳單和成本費率」許可權設定。 如需指示，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">授予財務資料的存取權</a>。</p> </td> 
-     </tr> 
+     </tr>
      <tr> 
       <td role="rowheader">我的群組中的里程碑</td> 
       <td>在「設定」的「里程碑路徑」選單下，檢視系統中的所有里程碑路徑。 使用者也可以編輯或刪除屬於任何群組的所有里程碑路徑。 使用者無法管理（編輯或刪除）未指派給任何群組的里程碑路徑。<br><p>若無此存取權，使用者只能檢視現有的里程碑路徑，並將其套用至他們有權管理的專案。</p></td> 
@@ -133,3 +121,17 @@ ht-degree: 4%
    >[!NOTE]
    >
    >您可以允許使用者管理使用者的存取權。 如需有關授予使用者管理存取許可權以便他們能夠管理使用者帳戶的詳細資訊，請參閱[授予使用者存取許可權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)。
+
+
+<!--     
+     <tr> 
+      <td role="rowheader">Job roles</td> 
+      <td> <p><b>NOTE</b>: In the Preview environment, access to job roles is controlled as an object type in the access level. See <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-job-roles.md">Grant access to job roles</a>.</p>
+      <p>With this access, the user is allowed to do the following:</p> 
+       <ul> 
+        <li>View and edit existing job roles</li> 
+        <li>Add new job roles</li> 
+        <li>Edit role billing and cost rates</li> 
+       </ul> <p><b>IMPORTANT</b>: If you grant a Standard or Plan user administrative access to job roles, the Financial Data access setting Edit Role Billing &amp; Cost Rates is enabled for the user automatically. Later, if you disable administrative access to job roles for the Standard or Plan user, job roles are still visible to the user because the Edit Role Billing &amp; Cost Rates setting is still enabled. If this happens and you need to remove the user's access to view job roles, you need to disable the user's Edit Role Billing &amp; Cost Rates permission setting. For instructions, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Grant access to financial data</a>.</p> </td> 
+     </tr>
+-->

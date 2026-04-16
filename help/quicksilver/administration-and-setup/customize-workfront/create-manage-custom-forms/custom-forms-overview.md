@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 34c63e1b7d6323a4cf25514aaff9f923010d8958
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 11%
+source-wordcount: '390'
+ht-degree: 13%
 
 ---
 
 # 自訂表單概觀
-
-{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -33,17 +31,7 @@ ht-degree: 11%
 
 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
-<div class="preview">
-
-預覽環境中的範例影像：
-
 ![範例表單設計工具](assets/form-designer-example-032526.png)
-
-</div>
-
-生產環境中的影像範例：
-
-![範例表單設計工具](assets/form-designer-example.png)
 
 ## 自訂欄位和小工具
 
@@ -61,6 +49,7 @@ Workfront為每種物件型別提供許多內建欄位。
 * 外部查詢
 * 原生欄位參考
 * 自動提示
+* Planning欄位連線
 * 已計算
 * 日期
 * 核取方塊群組
@@ -92,8 +81,11 @@ Workfront為每種物件型別提供許多內建欄位。
 * 專案組合
 * 費用
 * 群組
+* 職務角色
+* 團隊
 * 疊代
 * 計費記錄
+* 費率卡
 
 如需將自訂表單附加至物件的詳細資訊，請參閱[將自訂表單新增至物件](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)。
 

@@ -10,10 +10,10 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
+source-git-commit: 15592c8dee4bae503382205b38b5daaef5cc74dd
 workflow-type: tm+mt
-source-wordcount: '7426'
-ht-degree: 5%
+source-wordcount: '7329'
+ht-degree: 6%
 
 ---
 
@@ -61,19 +61,9 @@ ht-degree: 5%
 1. 在左側面板中，按一下&#x200B;**自訂Forms**，然後選取&#x200B;**Forms**。
 
 1. 按一下&#x200B;**新增自訂表格。**
-1. 選取您要附加自訂表單的物件型別，然後按一下[繼續]。**&#x200B;**
+1. 選取您要附加自訂表單的物件型別，然後按一下[繼續]。****
 
-<div class="preview">
-
-預覽環境中的範例影像：
-
-![選擇物件型別](assets/new-custom-form-select-objects-032526.png)
-
-</div>
-
-生產環境中的影像範例：
-
-![選擇物件型別](assets/new-custom-form-select-objects.png)
+   ![選擇物件型別](assets/new-custom-form-select-objects-032526.png)
 
 +++ 展開以檢視支援自訂表單的物件清單。
 
@@ -89,9 +79,7 @@ ht-degree: 5%
 * 疊代
 * 計費記錄
 * 群組
-* <span class="preview">團隊</span>
-
-<div class="preview">
+* 團隊
 
 如果您在Workflow Ultimate套件中，也可以建立這些物件的自訂表單：
 
@@ -99,15 +87,10 @@ ht-degree: 5%
 * 費率卡
 * 指派
 
-</div>
-
 +++
 
 1. 在&#x200B;**新增表單名稱**&#x200B;區域中，輸入自訂表單標題。
-1. <span class="preview">（選擇性）如果您想要新增更多物件型別至表單，以便附加至更多物件，請按一下表單設計工具標題中的&#x200B;**物件型別**。 選取您要新增的物件型別，並取消選取您要從表單中刪除的任何物件型別。</span>
-1. （選擇性）如果您想要新增更多物件型別至表單，以便將其附加到更多物件，請按一下&#x200B;**物件型別**&#x200B;旁的![新增](assets/add-objects-icon.png)圖示&#x200B;**新增物件圖示**，然後在顯示的功能表中選取您想要的型別。 您可以重複此步驟，新增任意數目的物件型別。
-
-   將多個物件新增至表單後，您可以按一下物件型別上的X以將其從表單中刪除。
+1. （選擇性）如果您想要將更多物件型別新增至表單，以便將其附加至更多物件，請按一下表單設計工具標題中的&#x200B;**物件型別**。 選取您要新增的物件型別，並取消選取您要從表單中刪除的任何物件型別。
 
    >[!CAUTION]
    >
@@ -152,7 +135,7 @@ ht-degree: 5%
    >
    >若將現有欄位標示為非使用中，此後就無法用於報表元素和自訂表單。 如果報表或表單中目前正在使用非作用中欄位，則欄位及其歷史資料會維持原位。
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -209,7 +192,7 @@ ht-degree: 5%
 
   清單和報告上的篩選器不支援此自訂欄位型別。
 
-  如需有關透過API存取此欄位的資訊，請參閱[&#x200B; API中的RTF文字欄位儲存體](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)。
+  如需有關透過API存取此欄位的資訊，請參閱[ API中的RTF文字欄位儲存體](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)。
 
   >[!NOTE]
   >
@@ -301,8 +284,8 @@ ht-degree: 5%
     </ul></td>
     </tr>
     <tr>
-      <td><span class="preview">財務權限類型</span></td>
-      <td><p><span class="preview">選取使用者必須具備的財務許可權型別，才能檢視或編輯此自訂欄位。 必須選取貨幣格式。</span></p>
+      <td>財務權限類型</td>
+      <td><p>選取使用者必須具備的財務許可權型別，才能檢視或編輯此自訂欄位。 必須選取貨幣格式。</p>
       <ul>
       <li><p><strong>不需要許可權：</strong>所有使用者都可以看到此欄位</p></li>
       <li><p><strong>一般：</strong>使用者必須具有編輯或檢視一般財務的許可權</p></li>
@@ -359,7 +342,7 @@ ht-degree: 5%
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -457,8 +440,8 @@ ht-degree: 5%
     </ul></td>
     </tr> 
     <tr>
-      <td><span class="preview">財務權限類型</span></td>
-      <td><p><span class="preview">選取使用者必須具備的財務許可權型別，才能檢視或編輯此自訂欄位。 必須選取貨幣格式。</span></p>
+      <td>財務權限類型</td>
+      <td><p>選取使用者必須具備的財務許可權型別，才能檢視或編輯此自訂欄位。 必須選取貨幣格式。</p>
       <ul>
       <li><p><strong>不需要許可權：</strong>所有使用者都可以看到此欄位</p></li>
       <li><p><strong>一般：</strong>使用者必須具有編輯或檢視一般財務的許可權</p></li>
@@ -538,7 +521,7 @@ ht-degree: 5%
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -674,7 +657,7 @@ ht-degree: 5%
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -721,8 +704,8 @@ ht-degree: 5%
       </ul></td>
      </tr> 
      <tr>
-      <td><span class="preview">財務權限類型</span></td>
-      <td><p><span class="preview">選取使用者必須具備的財務許可權型別，才能檢視或編輯此自訂欄位。 必須選取貨幣格式。</span></p>
+      <td>財務權限類型</td>
+      <td><p>選取使用者必須具備的財務許可權型別，才能檢視或編輯此自訂欄位。 必須選取貨幣格式。</p>
       <ul>
       <li><p><strong>不需要許可權：</strong>所有使用者都可以看到此欄位</p></li>
       <li><p><strong>一般：</strong>使用者必須具有編輯或檢視一般財務的許可權</p></li>
@@ -753,12 +736,12 @@ ht-degree: 5%
       <td role="rowheader">JSON 路徑</td>
       <td><p>輸入或貼上API的JSON路徑。</p> <p>此選項允許從API URL傳回的JSON擷取資料。 這可當作選取要讓JSON內的哪些值會出現在下拉式選項中的方式。</p><p>例如，如果您的API URL以下列格式傳回JSON，則您可以使用「$.data[*].name」選取美國和加拿大作為下拉式選項：</br>
       <pre>
-      &lbrace;
-       資料： &lbrace;
+      {
+       資料： {
          { name： "USA"}，
          { name： "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>如需有關JSON路徑並確保您撰寫正確JSON路徑的詳細資訊，請參閱<a href="https://jsonpath.com/">https://jsonpath.com/</a>。</p></td>
@@ -782,7 +765,7 @@ ht-degree: 5%
     </tbody>
    </table>
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -885,7 +868,7 @@ The Workfront Mobile app
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -901,7 +884,7 @@ The Workfront Mobile app
 1. 開啟校訂。
 1. 以滑鼠右鍵按一下視訊上的任何位置，然後選取&#x200B;**複製視訊位址**。
 1. 在您新增視訊Widget的自訂表單中，將複製的地址貼到&#x200B;**URL**&#x200B;方塊中。
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -1014,7 +997,7 @@ The Workfront Mobile app
     </tbody> 
    </table>
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -1075,7 +1058,7 @@ The Workfront Mobile app
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -1171,7 +1154,7 @@ The Workfront Mobile app
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 

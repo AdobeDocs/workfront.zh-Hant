@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '591'
 ht-degree: 4%
 
 ---
@@ -109,6 +109,10 @@ Take this piece out of the table above when we remove the new experience/ after 
 1. 確定任務的&#x200B;**期間型別**&#x200B;是&#x200B;**簡單**。
 1. 修改每個任務受指派人的&#x200B;**配置**&#x200B;欄位。 這些是整個任務期間此任務的每個工作分派的整體配置。 這也可能更新任務的整體&#x200B;**計畫時數**。
 
+   您可能會看到其中一個畫面，視您組織的Workfront或Workflow套件而定。
+
    ![修改配置](assets/advanced-assignments-duration-type-allocations.png)
+
+   ![修改配置](assets/new-aa-allocation-by-hour.png)
 
 1. 按一下「**儲存**」。

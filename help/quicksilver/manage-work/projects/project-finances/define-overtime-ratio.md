@@ -6,7 +6,8 @@ title: 定義加班比率
 description: 您可以定義任務的加班率，以調整任務指派的計畫收入計算。
 author: Lisa
 feature: Work Management
-source-git-commit: bf8dcc9dfa9697c8d212072bb511c57aa01e7529
+exl-id: 832d3aab-3e09-4d83-91a6-be0145ce3554
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 6%
@@ -14,8 +15,6 @@ ht-degree: 6%
 ---
 
 # 定義加班率
-
-{{highlighted-preview-article-level}}
 
 將加班比率新增至任務時，會套用至任務上的所有指派。 它會乘以該任務的所有計畫時數，並且影響計畫收入計算。
 
@@ -87,4 +86,3 @@ ht-degree: 6%
 1. 按一下左側面板中的&#x200B;**工作詳細資料**。
 1. 在&#x200B;**財務**&#x200B;區域中，在&#x200B;**加班比率**&#x200B;欄位中輸入加班乘數。
 1. 按一下「**儲存變更**」。
-

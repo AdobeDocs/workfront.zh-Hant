@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 6%
+source-wordcount: '476'
+ht-degree: 5%
 
 ---
 
@@ -111,6 +111,10 @@ Take this piece out of the table above when we remove the new experience/ after 
 
    您無法修改指派給任務的團隊配置百分比。
 
+   您可能會看到其中一個畫面，視您組織的Workfront或Workflow套件而定。
+
    ![修改配置百分比](assets/advanced-assignments-allocation-percentage.png)
+
+   ![修改配置百分比](assets/new-aa-allocation-by-percentage.png)
 
 1. 按一下「**儲存**」。

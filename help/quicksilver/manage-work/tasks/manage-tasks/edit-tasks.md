@@ -9,7 +9,7 @@ role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '4076'
 ht-degree: 4%
@@ -17,8 +17,6 @@ ht-degree: 4%
 ---
 
 # 編輯任務
-
-{{highlighted-preview}}
 
 <!--Audited: 10/2025-->
 
@@ -407,7 +405,7 @@ Old:
    >* 將工作專案重新指派給作用中的資源。
    >* 將已停用團隊中的使用者與作用中團隊建立關聯，並將工作專案重新指派給作用中團隊。
 
-1. （選擇性）暫留在受指派人名稱上，然後按一下「設為主要受指派人」**&#x200B;**，以指出受指派人是主要受指派人還是工作的擁有者。 團隊不能是任務的主要受指派人。
+1. （選擇性）暫留在受指派人名稱上，然後按一下「設為主要受指派人」****，以指出受指派人是主要受指派人還是工作的擁有者。 團隊不能是任務的主要受指派人。
 1. （選用）更新下列欄位：
 
    <table style="table-layout:auto"> 
@@ -582,7 +580,7 @@ Old:
         <li> <p>固定每小時 </p> </li> 
         <li> <p> 使用者每小時 </p> </li> 
         <li> <p> 角色每小時</p> </li> 
-        <li> <p> <span class="preview">使用者與角色每小時</span></p> </li> 
+        <li> <p> 每小時使用者和角色</p> </li> 
        </ul> <p>如需追蹤成本的詳細資訊，請參閱<a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">追蹤成本</a>。 您的Workfront管理員或群組管理員會為您的系統或群組中的任務選取預設成本型別設定。 如需有關設定專案預設值的資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">設定全系統的專案偏好設定</a>。</p> </td> 
      </tr> 
      <tr> 
@@ -592,25 +590,25 @@ Old:
       <li> <p> 不可計費 </p> </li> 
       <li> <p>使用者每小時 </p> </li> 
       <li> <p>角色每小時 </p> </li> 
-      <li> <p> <span class="preview">使用者與角色每小時</span></p> </li> 
+      <li> <p>每小時使用者和角色</p> </li> 
       <li> <p>固定每小時 </p> </li> 
       <li> <p>受限使用者小時 </p> </li> 
       <li> <p>受限角色小時 </p> </li> 
-      <li> <p> <span class="preview">使用者和角色每小時，上限</span></p> </li> 
+      <li> <p>受限使用者與角色小時</p> </li> 
       <li> <p>使用者小時加固定 </p> </li> 
       <li> <p>角色小時加固定 </p> </li> 
-      <li> <p> <span class="preview">使用者和角色小時加固定</span></p> </li> 
+      <li> <p>每小時使用者和角色 (加上固定)</p> </li> 
       <li> <p>固定收入 </p> </li> 
        </ul> <p>如需有關追蹤收入的詳細資訊，請參閱<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">帳單與收入概觀</a>和<a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">收入與成本階層概觀</a>。 </p> <p>您的Workfront管理員或群組管理員會為您的系統或群組中的任務選取預設收入型別設定。 如需有關設定專案預設值的資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">設定全系統的專案偏好設定</a>。</p> </td> 
      </tr> 
      <tr>
-      <td><span class="preview">加班比率</span></td> 
-      <td><span class="preview"><p>輸入工作的加班乘數，例如1.5或2.0。預設值為1.0 （無乘法器）。 如需詳細資訊，請參閱<a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">定義加班率</a>。</p><p>若要檢視「超時比率」欄位，請執行下列動作：</p>
+      <td>加班比率</td> 
+      <td><p>輸入工作的加班乘數，例如1.5或2.0。預設值為1.0 （無乘法器）。 如需詳細資訊，請參閱<a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">定義加班率</a>。</p><p>若要檢視「超時比率」欄位，請執行下列動作：</p>
        <ul>
        <li>任務的收入型別必須是使用者與角色每小時。 如需詳細資訊，請參閱<a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">收入與成本階層概覽</a>。</li>
        <li>欄位必須在您的版面配置範本上啟用，以用於任務[詳細資訊]檢視中的[財務]區域。 如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md">使用配置範本自訂詳細資料檢視</a>。</li>
        </ul>
-      </span></td>
+      </td>
      </tr>
     </tbody> 
    </table>

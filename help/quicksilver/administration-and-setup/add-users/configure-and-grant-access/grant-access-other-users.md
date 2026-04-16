@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: d45c34b1f48a7ffcae29556d34558bb4d1d8a016
+source-git-commit: f895803007a8f606169589bc4b17c19711c9e3f8
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 4%
+source-wordcount: '898'
+ht-degree: 3%
 
 ---
 
@@ -66,15 +66,34 @@ ht-degree: 4%
 ## 設定使用者的存取權，以使用自訂存取層級編輯使用者
 
 1. 開始建立或編輯存取層級，如[建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)中所述。
-1. 若要變更擁有計畫或工作授權的使用者檢視其他使用者設定檔的能力：
+1. 若要變更擁有標準、計畫或工作授權的使用者檢視其他使用者資訊的能力，請按一下![使用者](assets/gear-icon-settings.png)右側&#x200B;**檢視**&#x200B;按鈕上的齒輪圖示&#x200B;**齒輪圖示**，然後在&#x200B;**微調您的設定**&#x200B;方塊中選取您要授與的檢視選項：
 
-   1. 按一下![](assets/gear-icon-settings.png)使用者&#x200B;**右側**&#x200B;檢視&#x200B;**按鈕上的齒輪圖示**。
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><strong>檢視收費率</strong> </td> 
+      <td> 允許使用者檢視使用者設定檔的計費費率。</td>  
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>檢視連絡人資訊</strong> </td> 
+      <td> 允許使用者檢視其他使用者的使用者詳細資訊頁面。</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>檢視成本費率</strong> </td> 
+      <td> 允許使用者檢視使用者設定檔的成本率。</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>檢視一般財務</strong> </td> 
+      <td> 允許使用者檢視使用者設定檔上的一般財務欄位（與帳單或成本費率無關）。</td>
+     </tr> 
+    </tbody> 
+   </table>
 
-   1. 停用&#x200B;**檢視連絡人資訊**，然後按一下X以關閉&#x200B;**微調您的設定**&#x200B;方塊。
+   ![微調檢視使用者設定](assets/fine-tune-view-users.png)
 
-      ![微調使用者設定](assets/fine-tune-users.png)
-
-1. 若要修改擁有計畫授權存取許可權的使用者編輯其他使用者的能力，請按一下![](assets/gear-icon-settings.png)使用者&#x200B;**右側**&#x200B;編輯&#x200B;**按鈕上的齒輪圖示**，然後選取您要授與的功能：
+1. 若要修改具有Standard或Plan授權存取許可權的使用者編輯其他使用者的能力，請按一下![使用者](assets/gear-icon-settings.png)右側&#x200B;**編輯**&#x200B;按鈕上的齒輪圖示&#x200B;**齒輪圖示**，然後在&#x200B;**微調您的設定**&#x200B;方塊中選取您要授與的編輯選項：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -89,6 +108,18 @@ ht-degree: 4%
      <tr> 
       <td role="rowheader"><strong>刪除</strong> </td> 
       <td> <p> 允許使用者刪除他們自己建立的使用者。<br>此選項預設為啟用。</p> <p><b>注意</b>：如果您的組織已加入Adobe Admin Console，則無法使用此功能。 如需詳細資訊，請洽詢您的網路或IT管理員。</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>編輯收費率</strong> </td> 
+      <td> 允許使用者編輯使用者設定檔的計費費率。</td>  
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>編輯成本費率</strong> </td> 
+      <td> 允許使用者編輯使用者設定檔的成本率。</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>編輯一般財務</strong> </td> 
+      <td> 允許使用者編輯使用者設定檔上的一般財務欄位（與帳單或成本費率無關）。</td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>使用者管理員（所有使用者）</strong> </td> 
@@ -108,6 +139,18 @@ ht-degree: 4%
          <li><p>重設使用者密碼</p><p><b>注意</b>：群組管理員無法以Workfront管理員身分登入或重設密碼。</p></li>
         </ul><p>此選項預設為停用。</p></p> </td> 
      </tr> 
+     <tr> 
+      <td role="rowheader"><strong>檢視收費率</strong> </td> 
+      <td> 允許使用者檢視使用者設定檔的計費費率。</td>  
+     </tr>
+     <tr> 
+      <td role="rowheader"><strong>檢視成本費率</strong> </td> 
+      <td> 允許使用者檢視使用者設定檔的成本率。</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>檢視一般財務</strong> </td> 
+      <td> 允許使用者檢視使用者設定檔上的一般財務欄位（與帳單或成本費率無關）。</td>
+     </tr>
     </tbody> 
    </table>
 

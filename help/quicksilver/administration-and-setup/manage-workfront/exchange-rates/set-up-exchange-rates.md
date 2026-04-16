@@ -8,7 +8,7 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: b16523bf6c37747702efe3b5ecfcc33801526af1
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 4%
@@ -20,8 +20,6 @@ ht-degree: 4%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">*** DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
-
-{{highlighted-preview}}
 
 身為Adobe Workfront管理員，您可以在Workfront中設定貨幣匯率。 這包含下列專案：
 
@@ -93,8 +91,6 @@ ht-degree: 4%
 
 1. （選擇性）若要刪除貨幣，請選取貨幣名稱旁的核取方塊，然後在畫面底部的動作列中選取&#x200B;**刪除**。 您無法刪除預設貨幣。
 
-<div class="preview">
-
 ## 設定貨幣匯率的有效日期
 
 幣別匯率的有效日期設定為匯率值在特定日期結束，而另一個匯率開始。 然後會在財務計算中使用正確日期的匯率。
@@ -116,8 +112,6 @@ ht-degree: 4%
 1. 輸入新的&#x200B;**匯率**&#x200B;值。
 1. （選擇性）按一下&#x200B;**新增日期有效匯率**&#x200B;以新增此貨幣的有效日期匯率。
 1. 按一下「**儲存**」。
-
-</div>
 
 ## 讓使用者修改專案的預設貨幣
 

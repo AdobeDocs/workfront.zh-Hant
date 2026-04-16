@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 59a9725e7697a81be2a827a902ee3d23085a2ecd
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '663'
 ht-degree: 3%
 
 ---
@@ -18,13 +18,15 @@ ht-degree: 3%
 
 # 在請求區域中建立和管理檢視
 
-<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-如果您在Adobe Workfront中使用新的請求體驗，您可以建立和儲存請求區域的檢視。 這些檢視包含篩選器、欄排列<span class="preview">和群組。</span>
+-->
 
+如果您在Adobe Workfront中使用新的請求體驗，您可以建立和儲存請求區域的檢視。 這些檢視包括篩選器、欄排列和群組。
 
 >[!IMPORTANT]
 >
@@ -71,13 +73,7 @@ ht-degree: 3%
 
 +++
 
-<div class="preview">
-
 ## 請求的系統檢視
-
->[!NOTE]
->
->您的預覽環境中可能沒有系統檢視。 它們將於2026年4月16日在生產環境中提供給所有客戶。
 
 除了您可以自行建立的檢視外，Workfront還在首頁的「請求」區域和「我的請求」Widget中提供下列系統檢視：
 
@@ -88,8 +84,6 @@ ht-degree: 3%
 * **開啟的要求**：您或其他人在佇列中提交的要求，或您有權檢視且仍在開啟的工作區的要求。 這不適用於我的請求Widget。
 
 您無法編輯系統檢視。 您可以修改其元素，然後複製檢視並編輯或共用副本。
-
-</div>
 
 ## 建立請求檢視
 
@@ -116,7 +110,7 @@ ht-degree: 3%
 
    -->
 
-1. 輸入新檢視的名稱，然後按一下[建立]。**&#x200B;**
+1. 輸入新檢視的名稱，然後按一下[建立]。****
 1. 繼續[編輯要求的檢視](#edit-a-view-for-requests)。
 
 ## 編輯請求的檢視
@@ -128,14 +122,9 @@ ht-degree: 3%
 * 名稱
 * 篩選器
 * 欄
-
-<div class="preview">
-
 * 分組
 * 設定儲存格格式
 * 列高
-
-</div>
 
 如需詳細資訊，請參閱[使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
 
@@ -191,7 +180,7 @@ hide these details - all the information is in "Use enhanced lists" - we need on
 >[!IMPORTANT]
 >
 > * 檢視的變更會自動儲存。
-> * 只有當您在檢視進行變更後共用檢視的新復本時，使用檢視<span class="preview">的任何人才能看到檢視的變更。</span>
+> * 只有在您對檢視進行變更後共用新的檢視副本時，使用該檢視的任何人都可以看到檢視的變更。
 > * 在任何以使用者作為值的欄位中使用&#x200B;**我（已登入的使用者）**&#x200B;篩選器萬用字元。
 
 ## 將請求檢視新增到版面配置範本
@@ -206,9 +195,9 @@ Workfront管理員可以在請求區域的版面配置範本中新增檢視。
 
 共用檢視後，其他使用者可以在共用檢視之前檢視您為檢視編輯的更新檢視元素。
 
-<span class="preview">如果他們更新檢視，其他人將無法看到他們的變更，除非他們製作相同檢視的復本，並在共用復本之前保留變更。
+如果他們更新檢視，其他人將無法看到他們的更改，除非他們製作同一檢視的副本，並在共用副本之前保留他們的更改。
 
-如需詳細資訊，請參閱[使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。</span>
+如需詳細資訊，請參閱[使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
 
 <!--
 Let's just redirect to Use enhanced lists so we avoid duplicating information. 

@@ -11,7 +11,7 @@ role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 5%
@@ -26,8 +26,6 @@ ht-degree: 5%
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-{{highlighted-preview}}
-
 身為Adobe Workfront管理員或群組管理員，您可以建立和修改版面配置範本，為使用者在Workfront中自訂下列版面配置元素：
 
 * 主要功能表
@@ -36,8 +34,8 @@ ht-degree: 5%
 * 摘要面板
 * 人們用於清單和報告的檢視、篩選器和群組。
 * 熒幕術語
-* <span class="preview">物件標頭</span>
-* 物件的<span class="preview">更多選單（三點選單）</span>
+* 物件標頭
+* 物件的「更多」選單（三點選單）
 
 建立或修改版面配置範本後，您可以將其指派給個別使用者、專案團隊、群組或工作角色。
 

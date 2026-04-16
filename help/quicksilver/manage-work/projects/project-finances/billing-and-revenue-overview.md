@@ -9,9 +9,9 @@ feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
-source-wordcount: '4542'
+source-wordcount: '4540'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,6 @@ ht-degree: 0%
 # 帳單與收入概要
 
 <!-- Audited: 1/2024 -->
-
-{{highlighted-preview}}
 
 身為專案經理，您可以使用收費率來擷取專案的收入。
 
@@ -83,7 +81,7 @@ ht-degree: 0%
 
 如需有關建立工作角色的詳細資訊，請參閱文章[建立及管理工作角色](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。
 
-![編輯工作角色成本和收費率](assets/edit-job-role-multiple-billing-rates-new.png)
+![編輯工作角色收費率](assets/edit-job-role-multiple-billing-rates-040826.png)
 
 ### 專案或任務的固定收費率 {#fixed-billing-rates-for-projects-or-tasks}
 
@@ -93,8 +91,6 @@ ht-degree: 0%
 * 固定收入收入型別的固定金額
 
 如需有關如何使用固定收費率來計算收入的詳細資訊，請參閱[任務收入型別概觀](#overview-of-task-revenue-types)。
-
-<div class="preview">
 
 ### 覆寫收費率 — 工作流程Ultimate套件
 
@@ -108,8 +104,6 @@ ht-degree: 0%
 * 覆寫專案上特定使用者的收費率。
 
 記帳費率覆寫不是通用的。 例如，您不會將「Designer」覆寫為角色。 您會針對相關日期生效期間覆寫「Designer — 紐約 — 代理商X」。 覆寫會遵循帳單費率階層，因此系統一律會依優先順序套用它們。
-
-</div>
 
 ### 覆寫收費率 — 所有其他套件
 
@@ -192,7 +186,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-><span class="preview">您必須有工作流程Ultimate封裝，才能使用使用使用者與角色每小時收入型別。</span>
+>您必須有工作流程Ultimate套件，才能使用使用使用者和角色每小時收入型別
 
 您可以將下列收入型別套用至您的任務或專案：
 
@@ -223,8 +217,8 @@ ht-degree: 0%
    <td> <p>此型別僅能用於工作。</p> <p>此型別類似於「每小時使用者」，但使用工作角色費率而非使用者費率。</p> <p><strong>注意</strong><br>工作角色也可以有多個具有有效日期的收費率。</p></td> 
   </tr> 
   <tr> 
-   <td> <p><span class="preview">每小時使用者和角色</span></p> </td> 
-   <td> <p><span class="preview">此型別僅能用於工作。</span></p> <p><span class="preview">此型別會檢查使用者和角色資訊，以決定適當的速率。</span></p></td> 
+   <td> <p>每小時使用者和角色</p> </td> 
+   <td> <p>此型別僅能用於工作。</p> <p>此型別會檢查使用者和角色資訊，以決定適當的速率。</p></td> 
   </tr>
   <tr> 
    <td> <p>受限使用者小時</p> </td> 
@@ -235,8 +229,8 @@ ht-degree: 0%
    <td> <p>此型別僅能用於工作。</p> <p>此型別類似於具有上限的使用者每小時，但使用工作角色費率而非使用者費率。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="preview">受限每小時的使用者和角色</span></p> </td> 
-   <td> <p><span class="preview">此型別僅能用於工作。</span></p> <p><span class="preview">任務會以每小時的「使用者」和「角色每小時」形式計費，但其上限金額由您指定。</span></p></td> 
+   <td> <p>受限每小時的使用者和角色</p> </td> 
+   <td> <p>此型別僅能用於工作。</p> <p>任務會以每小時的「使用者」和「角色每小時」形式計費，但其上限金額由您指定。</p></td> 
   </tr>
   <tr> 
    <td> <p>使用者小時加固定</p> </td> 
@@ -247,8 +241,8 @@ ht-degree: 0%
    <td> <p>此型別僅能用於工作。 </p> <p>任務會依角色每小時計費，但會有額外的「固定金額」可新增至角色費率。 在任務上指定的「固定金額」可包含在專案的記帳記錄中。 固定數量不會乘以任務的時數。 只有工作角色收費率可以。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="preview">每小時使用者和角色 (加上固定)</span></p> </td> 
-   <td> <p><span class="preview">此型別僅能用於工作。</span></p> <p><span class="preview">任務會以每小時的「使用者」和「角色每小時」形式計費，但會有一個額外的「固定金額」，您可將其新增至費率。 在任務上指定的「固定金額」可包含在專案的記帳記錄中。 固定數量不會乘以任務的時數。</span></p></td> 
+   <td> <p>每小時使用者和角色 (加上固定)</p> </td> 
+   <td> <p>此型別僅能用於工作。</p> <p>任務會以每小時的「使用者」和「角色每小時」形式計費，但會有一個額外的「固定金額」，您可將其新增至費率。 在任務上指定的「固定金額」可包含在專案的記帳記錄中。 固定數量不會乘以任務的時數。</p></td> 
   </tr>
   <tr> 
    <td> <p>固定每小時</p> </td> 
@@ -295,13 +289,9 @@ ht-degree: 0%
 
 如果您的Workfront管理員在時程表和時數偏好設定區域中啟用了&#x200B;**手動將工作角色指派到時數專案**&#x200B;設定，並且專案上的使用者記錄時間選取了不同的角色來與此時間相關聯，則任務或專案的實際收入一律會根據與時數專案關聯的角色來計算。 如需有關啟用特定工作角色的記錄時間的資訊，請參閱文章[設定時程表和小時偏好設定](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
 
-<div class="preview">
-
 針對「使用者」與「角色每小時」收入型態，您可以在專案層次與指定層次同時定義「開立帳單的工作角色」。 如果在專案層級為特定使用者定義，則該角色會在您套用該角色的日期有效期間內，自動傳播至該使用者的所有指派。 如有需要，您仍可在指定層次覆寫此比率。 例如，使用者的主要職務角色為Designer，但您已將她的工作角色設定為八月份的高級Designer，以在專案上開立帳單。 所有在8月指派給他們的任務都會自動使用資深Designer收費率。
 
 但是，在特定任務上，您可以覆寫僅用於該指派的角色，以反映計費的工作。 如此一來，系統可支援整個專案的一致性和指派層級的彈性。 如需詳細資訊，請參閱[收入和成本階層概覽](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)和[建立進階指派](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md)。
-
-</div>
 
 根據「收入型別」與任務指派的性質來計算任務收入時，會出現下列案例：
 
@@ -372,16 +362,12 @@ ht-degree: 0%
    </tbody> 
   </table>
 
-<div class="preview">
-
 * **任務的收入型別為每小時使用者和角色**
 
 | 記帳/小時費率 | 無指派 | 使用者指派 | 工作角色指派 |
 | --- | --- | --- | --- |
 | 計畫收入的每小時記帳費率 | $0.00 | 指派使用者時，系統會依指定順序尋找費率，從保留的計費費率開始。 接下來是鎖定費率卡費率、手動輸入的工作分派費率、工作分派的「開立帳單工作角色」、專案層次的使用者開立帳單費率覆寫、專案層次的「開立帳單工作角色」、使用者系統費率和使用者的主要工作角色費率。 <p> 如需詳細資訊，請參閱[收入與成本階層概覽](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)。 | 指派工作角色時，系統會先尋找保留的收費率，然後尋找指派上工作角色的鎖定費率卡費率。 接下來，它會尋找在指派上手動新增的工作角色費率。 如果未找到該費率，則會在專案層次尋找職務角色費率，先從費率卡尋找，再從系統費率尋找。 <p> 如需詳細資訊，請參閱[收入與成本階層概覽](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)。 |
 | 實際收入的每小時收費率 | 在計算時，只會考慮與記錄時間的使用者相關聯的費率，即使將另一個使用者指派給任務亦然。 <p> 系統會依指定順序尋找匯率，從保留的計費匯率開始。 接下來是鎖定的費率卡費率、專案的計費費率覆寫、計費的工作角色、擁有者使用者設定檔的系統層級費率，以及擁有者主要工作角色的計費費率。 <p> 如需詳細資訊，請參閱[收入與成本階層概覽](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)。 | 指派使用者時，系統會依指定順序尋找費率，從保留的計費費率開始。 接下來是鎖定費率卡費率、手動輸入的工作分派費率、工作分派的「開立帳單工作角色」、專案層次的使用者開立帳單費率覆寫、專案層次的「開立帳單工作角色」、使用者系統費率和使用者的主要工作角色費率。 <p> 如需詳細資訊，請參閱[收入與成本階層概覽](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)。 | 指派工作角色時，系統會先尋找保留的收費率，然後尋找指派上工作角色的鎖定費率卡費率。 接下來，它會尋找在指派上手動新增的工作角色費率。 如果未找到該費率，則會在專案層次尋找職務角色費率，先從費率卡尋找，再從系統費率尋找。 如需詳細資訊，請參閱[收入與成本階層概覽](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)。 |
-
-</div>
 
 ### 專案的收入計算
 

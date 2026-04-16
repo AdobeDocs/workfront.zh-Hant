@@ -9,7 +9,7 @@ role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 676cd1697ae2f379a699075f4e1ab06886c6837a
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
 source-wordcount: '3415'
 ht-degree: 0%
@@ -17,8 +17,6 @@ ht-degree: 0%
 ---
 
 # 建立進階任務指派
-
-{{highlighted-preview}}
 
 <!-- Audited: 11/2025-->
 
@@ -43,8 +41,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 * 調整並重新分配每個受指派人分配的時數。
 * 決定應指定為任務或問題之擁有者或主要受指派者的使用者。
 * 指定每個使用者在處理任務或問題時履行哪個角色。
-* <span class="preview">在指派層級新增帳單和成本費率資訊。</span>
-* <span class="preview">檢閱每個指派的下列詳細資料：計畫時數、總成本和總收入。</span>
+* 在指定層次新增帳單與成本費率資訊。
+* 複查每個指派的下列明細：計畫時數、總成本及總收入。
 
 >[!NOTE]
 >
@@ -94,11 +92,17 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 +++
 
-<div class="preview">
-
 ## 建立進階任務指派 — 工作流程Ultimate套件
 
 此「進階工作總攬」的版面配置僅適用於任務。 如需瞭解問題，請參閱[建立進階指派 — 所有其他封裝](#create-advanced-assignments--all-other-packages)。
+
+<!--
+
+>[!NOTE]
+>
+>Use the experience switcher to choose between the old and new Advanced Assignments experiences. For information about the old experience, see [Create Advanced Assignments – all other packages](#create-advanced-assignments--all-other-packages), below.
+
+-->
 
 1. 前往您要指派任務的專案。
 1. 按一下左側面板中的&#x200B;**任務**&#x200B;或&#x200B;**問題**，然後按一下清單中任務的名稱。
@@ -313,8 +317,6 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    ![依日期視窗檢視](assets/resource-changes-view-by-dates.png)
 
    檢閱完資料後，按一下左上方的箭頭以返回「進階工作總攬」視窗。
-
-</div>
 
 ## 建立進階任務指派 — 所有其他套件
 
