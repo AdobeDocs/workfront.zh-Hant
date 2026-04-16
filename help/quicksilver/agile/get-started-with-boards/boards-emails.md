@@ -9,7 +9,7 @@ feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 3e76f4a798a55a674a5ada2661c4b6bbb55195f2
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 8%
@@ -59,23 +59,3 @@ ht-degree: 8%
 
    您為電子郵件設定的偏好設定適用於您的所有展示板。
 
-<!--
-
-<div class="preview">
-
-## Set the dark mode preference
-
->[!NOTE]
->
->If your organization's instance of Workfront has been onboarded to the Adobe Unified Experience, you can enable dark theme formatting for all of Adobe Experience Cloud through your preferences menu (your profile picture), and you will not see a separate dark mode option for Workfront Boards. For more information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-
-{{step1-to-boards}}
-
-1. Click [!UICONTROL **Preferences**] on the boards dashboard.
-1. In the Themes area, enable or disable Dark mode.
-
-   The preference you set for dark mode applies to all of your boards and workstreams, and the dashboard.
-
-</div>
-
--->

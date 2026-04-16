@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 3e76f4a798a55a674a5ada2661c4b6bbb55195f2
 workflow-type: tm+mt
 source-wordcount: '1143'
 ht-degree: 3%
@@ -191,3 +191,4 @@ ht-degree: 3%
 <li value="6"> <p>For example, enter a URL similar to one of the following: </p> </li>
 </ol>
 -->
+

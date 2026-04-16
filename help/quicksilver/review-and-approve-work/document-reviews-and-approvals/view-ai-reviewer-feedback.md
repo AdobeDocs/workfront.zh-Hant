@@ -7,7 +7,7 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 838e8f3d-0ea6-4844-a261-ef7b0e78a755
-source-git-commit: f89b6edead9dce1b0b4baa5ac792cf5e56fd46c0
+source-git-commit: 243aa2b0893e3034d37b959384a50b8a5e4a4bf0
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # 檢視內容檢閱者評分和意見反應
-
-{{highlighted-preview-article-level}}
 
 提交稽核和核准請求幾秒後，您就可以從「檔案摘要」面板的「內容檢閱者」檢視分數和意見回應。
 

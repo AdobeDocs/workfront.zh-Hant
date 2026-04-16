@@ -8,16 +8,14 @@ feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 2%
+source-wordcount: '650'
+ht-degree: 3%
 
 ---
 
 # 上傳新檔案版本並請求核准
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 如果檔案在先前的稽核中被標籤為「需要工作」，您可以將新版本上傳到原始檔案並開始另一輪核准。 上傳檔案的新版本後，先前版本即會鎖定。
 
@@ -64,51 +62,8 @@ ht-degree: 2%
 +++
 
 
-## 使用拖放功能，在生產環境中新增版本
 
->[!NOTE]
->
->Internet Explorer無法使用拖放功能。
-
-
-如果您需要對檔案執行另一輪稽核和核准，可以在Workfront中建立新的檔案版本。
-
-您可以新增先前的參與者、新參與者或兩者的組合。 您可以在「檔案詳細資訊」頁面上檢視先前版本和參與者的相關資訊。
-
-若要新增版本：
-
-1. 導覽至Workfront中的檔案。
-1. 將新檔案拖放至上一個檔案的頂端。 這會自動建立新版本。
-
-1. 檔案上傳完成後，請選取檔案，然後按一下&#x200B;**檔案詳細資料**。
-   ![開啟檔案詳細資料頁](assets/open-doc-details.png)
-
-
-1. 在左側面板中，按一下&#x200B;**核准**，然後按一下&#x200B;**新增**。
-
-1. 若要新增所有先前的參與者，請按一下[全部新增]。**&#x200B;** 您也可以視需要新增參與者或移除先前的參與者。
-
-
-1. 若要新增現有的核准範本，請按一下「範本」按鈕並開始輸入範本名稱。
-
-   >[!TIP]
-   >
-   >   擁有Standard授權的使用者可以從「設定」區域建立可重複使用的核准範本。 如需詳細資訊，請參閱[建立檔案的核准工作流程範本](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)。
-
-
-1. （選用）設定核准的截止日期。 若在指定期限前72小時通知使用者和團隊。
-
-1. 新增所有檢閱者和核准者後，請按一下&#x200B;**提交請求**。 系統會透過電子郵件通知參與者。
-
-   ![提交新版本以供核准](assets/add-previous-participants.png)
-
-
-
-
-
-<div class="preview">
-
-## 使用拖放功能，在舊版檔案區域的預覽環境中新增版本
+## 使用拖放功能，在舊版檔案區域中新增新版本
 
 如果您的組織使用Workfront儲存空間，當您存取Workfront中的檔案時，將會看到舊版檔案區域。 如需Workfront儲存的詳細資訊，請參閱[Workfront儲存與Adobe企業儲存的比較](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage)。
 
@@ -175,8 +130,3 @@ ht-degree: 2%
 
    ![要求核准](assets/request-approval.png)
    <!--1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.-->
-
-
-
-</div>
-

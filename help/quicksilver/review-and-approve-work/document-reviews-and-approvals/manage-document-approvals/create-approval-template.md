@@ -8,16 +8,14 @@ feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 7%
+source-wordcount: '337'
+ht-degree: 9%
 
 ---
 
 # 建立檔案的核准工作流程範本
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 在Workfront設定區域中，擁有標準授權的使用者可以建立可重複使用的核准範本。 核准範本建立後，可套用至專案、任務或問題的檔案區域中的資產。
 
@@ -49,30 +47,9 @@ ht-degree: 7%
 如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
+ß
 
-
-
-
-## 在您的生產環境中建立核准範本
-
-{{step-1-to-setup}}
-
-1. 在左側面板中，按一下&#x200B;**檢閱和核准** > **核准範本**。
-1. 按一下頁面右側的&#x200B;**新範本**。
-1. 指定下列資訊：
-
-   | 範本名稱 | 開始輸入此範本的名稱。 |
-   |----------------------------|---|
-   | **（選擇性）時間範圍** | 以天為單位輸入時間範圍。 範本套用至資產後，核准截止日期即會從此欄位計算。 |
-   | **新增核准者或稽核者** | 開始輸入使用者或團隊的名稱，然後指定他們為檢閱者或核准者。 |
-
-1. 按一下「**儲存**」。
-
-
-
-<div class="preview">
-
-## 在您的預覽環境中建立核准範本
+## 建立核准範本
 
 {{step-1-to-setup}}
 
@@ -116,7 +93,6 @@ ht-degree: 7%
 
 建立範本後，可將其套用至專案、任務或問題的檔案區域中，以在Workfront中開始正式的稽核和核准流程。
 
-</div>
 
 
 <!--

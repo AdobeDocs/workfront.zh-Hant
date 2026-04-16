@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 727efbd6-79b4-42c5-bfa2-e5350f30ff23
-source-git-commit: f74c567505dbdf6b2d1d8a85a62ba40d919be7b3
+source-git-commit: 3e76f4a798a55a674a5ada2661c4b6bbb55195f2
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 4%
@@ -16,8 +16,6 @@ ht-degree: 4%
 ---
 
 # 授予品牌許可權的存取權
-
-{{highlighted-preview-article-level}}
 
 使用者新增至使用者群組時，會獲得Adobe GenStudio系統管理員的品牌建立、編輯和發佈許可權。
 

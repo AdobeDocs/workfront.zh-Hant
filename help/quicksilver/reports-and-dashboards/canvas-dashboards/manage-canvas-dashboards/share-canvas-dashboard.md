@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
+source-git-commit: 3e76f4a798a55a674a5ada2661c4b6bbb55195f2
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 3%
@@ -16,8 +16,6 @@ ht-degree: 3%
 ---
 
 # 共用畫布控制面板
-
-{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -86,7 +84,7 @@ ht-degree: 3%
 
 * 當控制面板透過版面配置範本分配時，控制面板（及其報表）的自動檢視許可權會授予指派給版面配置範本的所有資源。
 
-* <span class="preview">當儀表板上的報表設定為「以使用者身分執行」選項時，所有檢視者都會根據選取的使用者許可權檢視資料，而不是根據他們自己的許可權。 這表示檢視者可能會看到他們通常無法存取的資料。 如果儀表板上的某些報表使用以使用者身分執行，而其他報表則未使用，則檢視者可能會看到報表間資料不一致。</span>
+* 當控制面板上的報表設定為「以使用者身分執行」選項時，所有檢視器都會根據所選使用者的許可權而不是根據他們自己的許可權檢視資料。 這表示檢視者可能會看到他們通常無法存取的資料。 如果控制面板上有些報表使用以使用者身分執行，有些則否，則檢視者可能會看到報表中的資料不一致。
 
 
 ## 共用畫布控制面板

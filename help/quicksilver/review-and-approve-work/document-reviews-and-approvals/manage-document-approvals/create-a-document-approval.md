@@ -8,16 +8,14 @@ feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 2%
+source-wordcount: '686'
+ht-degree: 3%
 
 ---
 
 # 建立檔案核准工作流程
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 您可以在Adobe Workfront中請求其他使用者或團隊核准檔案，或請求他們稽核檔案而無需核准。
 
@@ -60,51 +58,7 @@ ht-degree: 2%
 
 +++
 
-
-## 從生產環境中的檔案頁面建立檔案檢閱或核准請求
-
-1. 將滑鼠停留在檔案上，然後按一下「檔案詳細資訊」。
-   ![檔案詳細資料](assets/doc-details.png)
-
-1. 在檔名稱附近，在版本下拉式清單中選取您要建立核准的檔案版本。 預設會選取最新版本。
-
-1. 按一下左側面板中的&#x200B;**核准**。
-
-1. （選用）設定核准的截止日期。 若在指定期限前72小時通知使用者和團隊。
-
-1. 若要新增核准者，請按一下&#x200B;**核准者**&#x200B;並開始輸入使用者或團隊名稱。
-
-1. 若要新增檢閱者，請按一下&#x200B;**檢閱者**&#x200B;核取方塊並開始輸入使用者或團隊名稱。
-
-   ![新增核准者與截止日期](assets/add-approver-and-deadline.png)
-
-1. 重複上一步驟以新增其他核准者或稽核者。
-
-## 從生產環境中的檔案摘要面板建立檔案檢閱或核准請求
-
-1. 前往包含檔案的專案、任務或問題，然後選取「**檔案**」。
-
-1. 按一下您需要的檔案，該檔案的「檔案摘要」左側面板隨即開啟。
-
-1. 在版本下拉式清單中選取您要建立核准的檔案版本。 預設會選取最新版本。
-
-1. 向下捲動至[檔案摘要]窗格中的&#x200B;**核准**&#x200B;區段，然後按一下[新增]。**&#x200B;**
-
-![在檔案摘要中新增核准者](assets/doc-summary-add-approvers.png)
-
-1. （選用）設定核准的截止日期。 若在指定期限前72小時通知使用者和團隊。
-
-1. 若要新增核准者，請按一下&#x200B;**核准者**&#x200B;並開始輸入使用者或團隊名稱。
-
-1. 若要新增檢閱者，請按一下&#x200B;**檢閱者**&#x200B;核取方塊並開始輸入使用者或團隊名稱。
-
-   ![新增核准者與截止日期](assets/add-approver-and-deadline.png)
-
-1. 重複上一步驟以新增其他核准者或稽核者。
-
-<div class="preview">
-
-## 在舊版檔案區域的預覽環境中，從「摘要」面板建立核准工作流程
+## 從舊版檔案區域的「摘要」面板建立核准工作流程
 
 如果您的組織使用Workfront儲存空間，當您存取Workfront中的檔案時，將會看到舊版檔案區域。 如需Workfront儲存的詳細資訊，請參閱[Workfront儲存與Adobe企業儲存的比較](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage)。
 
@@ -148,7 +102,6 @@ ht-degree: 2%
 
    ![檔案詳細資料](assets/new-stage.png)
 
-</div>
 
 ## 從新檔案區域的摘要面板建立核准工作流程
 

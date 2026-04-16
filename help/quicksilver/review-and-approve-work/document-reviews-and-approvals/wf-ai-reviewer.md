@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b3e2ac00126facab9cc45ba8fb193d8951a37ec
+source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 1%
@@ -17,8 +17,6 @@ ht-degree: 1%
 ---
 
 # 開始使用Workfront內容檢閱者
-
-{{highlighted-preview-article-level}}
 
 內容檢閱者是AI共同作業人員，一種AI代理程式，可新增至您的專案、任務和檔案。 AI共同作業人員可在設定區域中設定，並像使用者一樣指派。
 

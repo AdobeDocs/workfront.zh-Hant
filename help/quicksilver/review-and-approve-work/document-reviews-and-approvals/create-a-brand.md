@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f89b6edead9dce1b0b4baa5ac792cf5e56fd46c0
+source-git-commit: 243aa2b0893e3034d37b959384a50b8a5e4a4bf0
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 3%
@@ -17,8 +17,6 @@ ht-degree: 3%
 ---
 
 # 建立並管理內容檢閱者的品牌
-
-{{highlighted-preview-article-level}}
 
 內容檢閱者在檢閱程式期間使用品牌指南來評估內容。 您可以上傳包含品牌方針的PDF檔案或手動輸入品牌元素，在Workfront中建立品牌。
 
@@ -76,10 +74,10 @@ ht-degree: 3%
 1. 在左側面板中，移至&#x200B;**檢閱和核准** > **品牌**。
 1. 按一下熒幕右上角的&#x200B;**新增品牌**。
 1. 為品牌命名。
-1. 按一下&#x200B;**上傳PDF**&#x200B;以上傳品牌檔案。
+1. 按一下&#x200B;**上傳PDF**以上傳品牌檔案。
    ![上傳品牌PDF](assets/upload-PDF.png)
 1. 按一下「**繼續**」。
-1. 上傳一或多個包含品牌准則的PDF檔案，然後按一下[新增品牌]。**&#x200B;**
+1. 上傳一或多個包含品牌准則的PDF檔案，然後按一下[新增品牌]。****
 1. 上傳檔案後，請檢閱擷取的品牌元素，以確保其符合您的品牌方針。
 
    >[!IMPORTANT]
