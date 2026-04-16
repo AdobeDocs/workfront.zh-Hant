@@ -8,17 +8,14 @@ feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '592'
 ht-degree: 3%
 
 ---
 
 # 共用行事曆報告
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
-
 
 您可以與其他使用者共用行事曆，也可以公開使用，讓沒有[!DNL Adobe Workfront]授權的人檢視行事曆。
 
@@ -67,7 +64,7 @@ ht-degree: 3%
 1. 移至您要共用的行事曆。
 1. 按一下行事曆名稱旁的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**共用**。
    ![行事曆更多功能表](assets/more-menu-calendar.png)
-1. 在&#x200B;**[!UICONTROL 授與行事曆存取權]**&#x200B;欄位中，開始輸入您要共用行事曆的使用者、團隊、角色、群組、公司、<span class="preview">或企業設定檔</span>的名稱，然後按一下顯示在下拉式清單中的名稱。\
+1. 在&#x200B;**[!UICONTROL 授與行事曆存取權]**&#x200B;欄位中，開始輸入您要共用行事曆的使用者、團隊、角色、群組、公司或企業設定檔名稱，然後按一下顯示在下拉式清單中的名稱。\
    若要瞭解如何設定許可權，請參閱[物件許可權共用概述](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
 
 1. （可選）針對您想要授與行事曆存取權的每個使用者、團隊、角色或群組，重複步驟3。
@@ -100,9 +97,9 @@ ht-degree: 3%
 
 1. 移至您要共用的行事曆。
 1. 按一下&#x200B;**[!UICONTROL 行事曆動作]**，然後按一下&#x200B;**[!UICONTROL 共用]**。
-1. 按一下行事曆名稱旁的&#x200B;**更多**&#x200B;功能表。
+1. 按一下行事曆名稱旁的&#x200B;**更多**功能表。
    ![行事曆更多功能表](assets/more-menu-calendar.png)
-按一下&#x200B;**複製公開連結**。
+按一下**複製公開連結**。
 1. 按一下「**[!UICONTROL 儲存]**」。
 
 ## 與私人連結共用行事曆

@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
+source-git-commit: 3bc953ebb6f16d3d4a71fe9764551a8a4cf1087a
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1600'
 ht-degree: 7%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 7%
 # 共用專案
 
 <!-- Audited: 1/2024 -->
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 指派存取層級時，您的Adobe Workfront管理員可授予您檢視或編輯專案的存取權。 如需詳細資訊，請參閱[授予專案存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)。
 
@@ -78,7 +76,7 @@ ht-degree: 7%
 
 * 共用專案時，除非另有指定，否則所有任務、問題和檔案都會繼承相同的許可權。
 
-  如需有關根據使用者對專案的許可權管理專案上任務和問題的存取許可權的資訊，請參閱文章[&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access)編輯專案[中的](../../manage-work/projects/manage-projects/edit-projects.md)區段。
+  如需有關根據使用者對專案的許可權管理專案上任務和問題的存取許可權的資訊，請參閱文章[](../../manage-work/projects/manage-projects/edit-projects.md#access)編輯專案[中的](../../manage-work/projects/manage-projects/edit-projects.md)區段。
 
   Workfront管理員可以指定檔案是否應該繼承使用者存取層級中較高物件的許可權。 如需有關限制檔案繼承許可權的詳細資訊，請參閱[建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
@@ -148,7 +146,7 @@ ht-degree: 7%
 
    ![共用專案按鈕](assets/share-project.png)
 
-1. 在&#x200B;**授與專案存取權**&#x200B;欄位中，開始輸入您要共用專案的使用者、團隊、角色、群組、公司、<span class="preview">或企業設定檔</span>的名稱，然後當專案出現在下拉式清單中時按一下該名稱。
+1. 在&#x200B;**將專案存取權授予**&#x200B;欄位中，開始輸入您要共用專案的使用者、團隊、角色、群組、公司或企業設定檔名稱，然後在其出現在下拉式清單中時按一下該名稱。
 
    >[!TIP]
    >
@@ -195,7 +193,7 @@ ht-degree: 7%
 
    ![大量共用專案](assets/bulk-share-icon.png)
 
-1. 在&#x200B;**授與專案存取權**&#x200B;欄位中，開始輸入您要共用專案的使用者、團隊、角色、群組、公司、<span class="preview">或企業設定檔</span>的名稱，然後當名稱出現在下拉式清單中時按一下該名稱。
+1. 在&#x200B;**授與專案存取權**&#x200B;欄位中，開始輸入您要共用專案的使用者、團隊、角色、群組、公司或企業設定檔名稱，然後在其出現在下拉式清單中時按一下該名稱。
 
    >[!TIP]
    >

@@ -10,32 +10,19 @@ role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 2b190de6b6ef9ce53e96475d426a4d39cfbd4df4
 workflow-type: tm+mt
-source-wordcount: '1823'
+source-wordcount: '1864'
 ht-degree: 4%
 
 ---
 
 # 建立和編輯業務規則
 
-<!--
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
--->
-
 商業規則可讓您套用驗證至Workfront物件，並防止使用者在滿足某些條件時建立、編輯或刪除物件。 商業規則驗證可防止可能影響資料完整性的動作，有助於改善資料品質和營運效率。
 
-<!--
+擁有Workflow Ultimate套件的組織也可以設定商業規則，以在符合某些條件時，為已建立、已編輯或已修改的物件自動執行動作。 可用的動作包括共用物件或將自訂表單附加到物件。
 
-<div class="preview">
-
-Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object or attaching a custom form to the object.  
-
-</div>
-
--->
 
 單一商業規則只能指派給一個物件。 例如，如果您建立在特定條件下不編輯專案的業務規則，則無法將相同的規則套用至任務。 您必須使用相同的任務條件來建立個別的商業規則。
 
@@ -261,7 +248,7 @@ IF({status} = "APR", true)
    * 「物件」是您在建立商業規則時選取的物件型別。 它顯示在對話方塊的標題中。
    * 「動作」是您為規則選取的觸發程式：建立、編輯或刪除物件。
    * 由於物件和動作已定義，因此您不會將它們納入公式中。
-   * 只有在規則用於驗證時才會包含自訂錯誤訊息<span class="preview">，而且當使用者觸發商業規則時，會向使用者顯示</span>。 它應該提供明確的指示，說明哪裡出錯了，以及如何更正問題。
+   * 只有在規則用於驗證時才會包含自訂錯誤訊息，並在使用者觸發商業規則時顯示給使用者。 它應該提供明確的指示，說明哪裡出錯了，以及如何更正問題。
 
      您可以在錯誤訊息中加入靜態URL，以連結至檔案或其他實用頁面，引導使用者如何在規則的限制內修改其動作。
 
@@ -283,21 +270,19 @@ IF({status} = "APR", true)
 
    對於其他套件，會預先選取此選項。
 
-1. <span class="preview">（條件式）若要自動執行其他動作，請選取動作。</span>
+1. （視條件而定）若要自動執行其他動作，請選取動作。
 
-   <span class="preview">如需這些動作的詳細資訊，請參閱本文章的[商業規則自動化選項](#business-rule-automation-options)一節。</span>
+   如需這些動作的詳細資訊，請參閱本文中的[商業規則自動化選項](#business-rule-automation-options)一節。
 
    >[!NOTE]
    >
-   ><span class="preview">您的組織必須在工作流程Ultimate封裝上，才能使用驗證以外的動作。 如果您沒有看到這些其他選項，表示您的組織不在Workflow Ultimate封裝上。</span>
+   >您的組織必須在工作流程Ultimate套件上，才能使用驗證以外的動作。 如果您沒有看到這些其他選項，表示您的組織不在Workflow Ultimate套件中。
 
-1. 當您完成建立商業規則時，請按一下[儲存]。**&#x200B;**
+1. 當您完成建立商業規則時，請按一下[儲存]。****
 
 >[!NOTE]
 >
 >新增商業規則後，您應該透過新增、編輯或刪除關聯的物件來測試它，以確保規則已正確套用。
-
-<div class="preview">
 
 ### 商業規則自動化選項
 
@@ -311,8 +296,6 @@ IF({status} = "APR", true)
 |---|---|
 | 附加自訂表單 | 選取您要新增的自訂表單 |
 | 共用此物件 | 選取您要共用物件的使用者、角色、群組、公司或存取層級。 |
-
-</div>
 
 ## 啟用商業規則
 

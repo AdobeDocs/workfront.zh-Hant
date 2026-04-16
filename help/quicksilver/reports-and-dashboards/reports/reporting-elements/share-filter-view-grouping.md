@@ -8,9 +8,9 @@ feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1172'
 ht-degree: 3%
 
 ---
@@ -23,8 +23,6 @@ ht-degree: 3%
 (NOTE: CONSIDER SPLITTING THIS in three articles for each reporting element?)
 (NOTE: This is linked from the TOC article in WF Basics > permissions section)
 -->
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 當使用者指派存取層級時，您的Adobe Workfront管理員會授予他們檢視或編輯物件的存取權。 如需授與物件存取權的詳細資訊，請參閱[建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
@@ -173,7 +171,7 @@ ht-degree: 3%
 
 1. 根據您想要共用給哪些人員，完成下列任一作業：
 
-   **若要與個別使用者、團隊、角色、群組或公司共用：**&#x200B;在提供的欄位中，開始輸入您要與其共用的使用者、團隊、角色、群組、公司、<span class="preview">或企業設定檔的名稱</span>，然後在其出現在下拉式清單中時按一下該名稱。\
+   **若要與個別使用者、團隊、角色、群組或公司共用：**&#x200B;在提供的欄位中，開始輸入您要與其共用的使用者、團隊、角色、群組、公司或企業設定檔的名稱，然後在其出現在下拉式清單中時按一下該名稱。\
    重複此程式，與多個使用者、團隊、角色、群組或公司共用存取權。
 
    >[!TIP]

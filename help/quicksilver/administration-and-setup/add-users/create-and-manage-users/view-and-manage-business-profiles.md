@@ -11,16 +11,14 @@ role: Admin
 exl-id: 2227cdb7-909c-429d-a078-4f508157a679
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 2b190de6b6ef9ce53e96475d426a4d39cfbd4df4
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 10%
+source-wordcount: '200'
+ht-degree: 11%
 
 ---
 
 # 檢視和管理企業檔案
-
-<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅適用於特定客戶的預覽環境。</span>
 
 若要將業務設定檔指派給使用者，您必須指派群組和關聯的存取層級。
 

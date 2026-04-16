@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 5f5a32b9a569221acc3d5f38568bb6a1e609070f
+source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: '1556'
 ht-degree: 3%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 3%
 # 稽核記錄概觀
 
 <!--Audited: 08/2025-->
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 身為Adobe Workfront管理員，您可以使用下述稽核記錄追蹤過去90天內系統中觸發的使用者變更。
 
@@ -68,7 +66,7 @@ ht-degree: 3%
 
 * [存取層級](#access-level)
 * [企業設定檔](#business-profiles)
-* <span class="preview">[商業規則](#business-rules)</span>
+* [業務規則](#business-rules)
 * [公司](#company)
 * [條件](#condition)
 * [自訂欄位](#custom-field)
@@ -102,8 +100,6 @@ ht-degree: 3%
      >
      >例如，如果使用者將「規劃工具」存取型別從「檢視」變更為「編輯」，則系統不會顯示「微調您的設定」下拉式選單中所包含的資訊。
 
-<div class="preview">
-
 ### 企業設定檔
 
 當使用者執行下列其中一項作業時，系統會產生「企業設定檔」稽核記錄專案：
@@ -111,8 +107,6 @@ ht-degree: 3%
 * 建立企業設定檔
 * 編輯企業檔案：
 * 刪除企業檔案
-
-</div>
 
 ### 業務規則
 
