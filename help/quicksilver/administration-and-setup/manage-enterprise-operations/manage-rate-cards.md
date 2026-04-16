@@ -37,11 +37,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td>[！UICONTROL標準]</td>
+   <td>[!UICONTROL 標準]</td>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>編輯[！UICONTROL費率卡]的存取權</td> 
+   <td>編輯[!UICONTROL 費率卡]的存取權</td> 
   </tr> 
   <tr> 
    <td>物件許可權</td> 
@@ -113,7 +113,7 @@ ht-degree: 1%
      第一個收費率不需要有開始日期，而最後一個收費率不需要有結束日期。 費率日期之間允許間隙，但不允許重疊日期。 在間隔期間，帳單費率階層的其他區域會根據任務的收入型別來決定帳單費率。 如需詳細資訊，請參閱[收入與成本階層概覽](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)。
 
 1. 按一下「[!UICONTROL **儲存**]」。
-1. （選擇性）若要針對具有不同屬性的相同工作角色或不同工作角色新增其他收費率，請按一下[新增]工作角色&#x200B;[!UICONTROL ****]。
+1. （選擇性）若要針對具有不同屬性的相同工作角色或不同工作角色新增其他收費率，請按一下[新增]工作角色&#x200B;[!UICONTROL **&#x200B;**]。
 
    當您建立費率卡時，會將每個角色的費率新增到費率卡中。 以日期為基礎的目前有效費率會以圖示![目前費率圖示](assets/current-rate-icon.png)表示。
 
