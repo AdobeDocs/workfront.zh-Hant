@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: 539f87ddeab85eb6e8a028bcb6e394c3cd179c4d
 workflow-type: tm+mt
-source-wordcount: '3077'
+source-wordcount: '3071'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    <ul><li><p>Adobe Experience Manager Assets授權及AEM Assets與Workfront之間的整合，用於連結AEM資產與Planning記錄型別。</p>
    <p>如需詳細資訊，請參閱<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 連線記錄型別與GenStudio Brands的Adobe GenStudio for Performance Marketing授權</p>
-   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
+   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -258,9 +258,9 @@ Old:
    </div>
 
 
-   * 來自&#x200B;**Experience Manager Assets應用程式**&#x200B;區段的&#x200B;**Adobe**。
+   * 來自&#x200B;**Experience Manager應用程式**&#x200B;區段的&#x200B;**Adobe**。
 
-     ![AEM Assets連線選擇](assets/aem-assets-connection-selection.png)
+     ![AEM Assets連線選擇](assets/aem-assets-connection-selection-041326.png)
 
      針對您選取的記錄或物件型別，會開啟「新連線」標籤。
 
@@ -315,14 +315,14 @@ Old:
    >
    > 您必須先在Workfront中為選取的物件建立自訂表單，這些表單才會顯示在此清單中。
 
-1. （視條件而定）當您選取連線至Experience Manager Assets時，請從&#x200B;**從下列存放庫連結資產**&#x200B;區段的&#x200B;**Experience Manager存放庫**&#x200B;下拉式功能表中選擇存放庫。 這是必填欄位。 此欄位只會顯示您在Experience Manager Assets中有權存取的存放庫。
+1. （視條件而定）當您選取連線至Experience Manager時，請從&#x200B;**從下列存放庫連結資產**&#x200B;區段的&#x200B;**Experience Manager存放庫**&#x200B;下拉式功能表中選擇存放庫。 這是必填欄位。 此欄位只會顯示您在Experience Manager中有權存取的存放庫。
 
    >[!NOTE]
    >
-   >您的Workfront管理員可以透過Workfront中的中繼資料對應，將Workfront Planning欄位對應至Experience Manager Assets欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+   >您的Workfront管理員可以透過Workfront中的中繼資料對應，將Workfront Planning欄位對應至Experience Manager欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
 
-1. （視條件而定）當您選取連線至Experience Manager Assets、Workfront Planning記錄型別或GenStudio Brand時，請在&#x200B;**記錄外觀**&#x200B;區域中選擇下列其中一個選項：
+1. （視條件而定）當您選取連線至Experience Manager、Workfront Planning記錄型別或GenStudio Brand時，請在&#x200B;**記錄外觀**&#x200B;區域中選擇下列其中一個選項：
 
    * **名稱和影像**：連線記錄的名稱和縮圖或圖示都會顯示在連線記錄欄位中。 這是預設選項。
    * **名稱**：連線的記錄欄位中只會顯示連線記錄的名稱。
@@ -406,9 +406,8 @@ Old:
    >[!NOTE]
    >
    > 將記錄型別連線到以下內容時，無法使用彙總：
-   >* Experience Manager Assets
+   >* Experience Manager
    >* GenStudio品牌。
-   >
 
    從下列選項中選取：
 
