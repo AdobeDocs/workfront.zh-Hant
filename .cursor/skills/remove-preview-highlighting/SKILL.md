@@ -104,4 +104,4 @@ ht-degree: 0%
 
 ## 參考資料
 
-- 符合&#x200B;**[Workfront檔案樣式](https://experienceleague.adobe.com/)**&#x200B;與存放庫慣例（如果使用者認可，則為認可/PR規則）。
+- 符合&#x200B;**[Workfront檔案樣式](https://experienceleague.adobe.com/zh-hant)**&#x200B;與存放庫慣例（如果使用者認可，則為認可/PR規則）。
