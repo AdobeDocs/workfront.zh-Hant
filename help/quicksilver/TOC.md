@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
+source-git-commit: eea05bfe350f7d68ccd08ad16f1bb6716cbec6dc
 workflow-type: tm+mt
-source-wordcount: '13922'
+source-wordcount: '13932'
 ht-degree: 2%
 
 ---
@@ -1189,7 +1189,8 @@ ht-degree: 2%
       * 適用於Experience Manager Assets和Assets Essentials的Adobe Workfront {#wf-aem-essentials}
          * [適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
          * [Adobe Experience Manager Assets整合概述](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
-         * [從Experience Manager Assets Essentials連結資產和資料夾](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
+         * [使用Experience Manager Assets的內容警告器連結資產和資料夾](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
+         * [從Experience Manager Assets Essentials連結資產和資料夾](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md)
          * [檢視Experience Manager Assets或Assets Essentials的對應中繼資料](documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)
          * [從Experience Manager Assets或Assets Essentials檢視或下載連結的資產](documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
          * [傳送檔案至Experience Manager Assets或Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
@@ -2576,9 +2577,9 @@ ht-degree: 2%
       * [使用JWT流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-pkce-flow.md)
       * [棄用API — 內部](wf-api/api/deprecation-api-internal.md)
-      * [&#x200B; API 21版的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [&#x200B; API 20版的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [&#x200B; API 19版的新增功能](wf-api/api/new-api-version-19.md)
+      * [ API 21](/help/quicksilver/wf-api/api/new-api-version-21.md)版的新增功能
+      * [ API 20](/help/quicksilver/wf-api/api/new-api-version-20.md)版的新增功能
+      * [ API 19](wf-api/api/new-api-version-19.md)版的新增功能
       * [API 18版的新增功能](wf-api/api/new-api-version-18.md)
       * [API 17版的新增功能](wf-api/api/new-api-version-17.md)
       * [API 16版的新增功能](wf-api/api/new-api-version-16.md)

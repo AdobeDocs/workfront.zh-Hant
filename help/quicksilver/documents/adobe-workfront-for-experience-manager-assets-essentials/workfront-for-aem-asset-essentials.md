@@ -8,9 +8,9 @@ author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 8aad1efc-1a91-441a-8bb8-0ce9429492c6
-source-git-commit: 5d818b2e3c3314c6af076df46f7f806214f97bab
+source-git-commit: ac3534cde15da84ae12f577b05eced88f74068e7
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,8 @@ ht-degree: 0%
 <!-- Audited: 4/2025 -->
 
 * [Adobe Experience Manager Assets整合概述](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
-* [從Experience Manager Assets或Assets Essentials連結資產和資料夾](../../documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
+* [將資產和資料夾與Experience Manager Assets的內容警告程式連結](../../documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
+* 從Experience Manager Assets Essentials [連結資產和資料夾](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md)
 * [檢視Experience Manager Assets或Assets Essentials的對應中繼資料](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)
 * [傳送檔案至Experience Manager Assets或Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
 * [校訂Experience Manager Assets或Assets Essentials的連結資產](../../documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
