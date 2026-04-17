@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
+source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
 workflow-type: tm+mt
-source-wordcount: '1857'
-ht-degree: 0%
+source-wordcount: '1791'
+ht-degree: 1%
 
 ---
 
@@ -22,9 +22,11 @@ ht-degree: 0%
 although list views in Planning are very similar to Workfront enhanced lists, keep this one separate with all the information, because of Planning standalone; some information here is also duplicated in this main Glist article: help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md
 -->
 
-<span class="preview">本頁標示的資訊是指尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -158,15 +160,13 @@ Removed - more direct steps below:
       >
       >* 您無法修改系統檢視。
       >
-      >* <span class="preview">您可以在修改檢視以還原其原始偏好設定後，重設與您共用的檢視（您只有[檢視]的許可權），也可以複製檢視並共用復本。 如需詳細資訊，請參閱[使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。</span>
+      >* 在修改檢視以恢復其原始偏好設定後，您可以重設與您共用的檢視（您只有「檢視」的許可權），也可以複製檢視並共用其副本。 如需詳細資訊，請參閱[使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
 
    1. 按一下&#x200B;**篩選器**&#x200B;圖示![篩選器圖示](assets/filter-icon.png)將篩選器新增至檢視。 結果會立即在清單中篩選。 您無法儲存並命名篩選器。 日後存取頁面時會記住篩選器，這些篩選器也是共用檢視的一部分。
 
       >[!TIP]
       >
-      ><span class="preview">若要套用個人化篩選，請為欄位值選取下列其中一個選項：
-      >
-      ><div class="preview">
+      >若要套用個人化篩選，請為欄位值選取下列其中一個選項：
       >
       >* **我（已登入的使用者）**&#x200B;在引用使用者的欄位中引用已登入的使用者。
       >
@@ -177,8 +177,6 @@ Removed - more direct steps below:
       >* **我的公司**&#x200B;在引用公司的欄位中引用您的公司。
       > 
       >* **我的角色**&#x200B;或&#x200B;**我的主要角色**，在引用角色的欄位中引用您的工作角色。
-      >
-      ></div>
 
    1. 按一下&#x200B;**欄**&#x200B;圖示![欄圖示](assets/columns-icon.png)以選取要在檢視中顯示或隱藏的欄。
    1. 暫留在欄名稱上，然後按一下欄名稱左側的向下箭頭，然後按一下下列其中一項：
@@ -191,58 +189,54 @@ Removed - more direct steps below:
       您只能將現有欄位新增到清單檢視。
 您不能移除在第一欄顯示的清單檢視中的主要欄位。
 
-   1. <span class="preview">按一下&#x200B;**格式化儲存格**&#x200B;圖示![格式化儲存格圖示](assets/format-cells-icon.png)。 **格式**&#x200B;方塊開啟。</span> <!--change the name of the box when they update it-->
-      <span class="preview">執行下列動作： </span>
+   1. 按一下&#x200B;**格式化儲存格**&#x200B;圖示![格式化儲存格圖示](assets/format-cells-icon.png)。 **格式**&#x200B;方塊開啟。 <!--change the name of the box when they update it-->
+執行下列動作：
 
-      1. <span class="preview">按一下&#x200B;**新增條件**。</span>
-      1. <span class="preview">在&#x200B;**If**&#x200B;行中，選取欄位並選擇欄位值並新增修飾元。 修正因子會根據您選擇的欄位型別而變更。</span>
-
-         >[!TIP]
-         >
-         ><span class="preview">只有清單檢視中可見的欄位才可用於條件式格式。</span>
-
-      1. <span class="preview">（選擇性）不要新增欄位值，請按一下&#x200B;**與另一個欄位比較**&#x200B;圖示![與另一個欄位比較](assets/compare-to-another-field-icon.png)，並選擇要與所選欄位值進行比較的欄位。 例如，您可以比較專案所有者和專案贊助者欄位。</span>
+      1. 按一下&#x200B;**新增條件**。
+      1. 在&#x200B;**If**&#x200B;行中，選取欄位並選擇欄位值並新增修飾元。 修正因子會根據您選擇的欄位型別而變更。
 
          >[!TIP]
          >
-         ><span class="preview">只有清單檢視中可見的欄位才適用於條件式格式。 您比較的欄位必須屬於相同型別。</span>
+         >只有清單檢視中顯示的欄位才適用於條件式格式。
 
-      1. <span class="preview">（選擇性）按一下&#x200B;**If**&#x200B;行中的&#x200B;**新增條件**，將更多條件新增至相同規則。</span>
+      1. （選擇性）按一下&#x200B;**與另一個欄位比較**&#x200B;圖示![與另一個欄位比較](assets/compare-to-another-field-icon.png)並選擇您要與所選欄位值進行比較的欄位，而不新增欄位值。 例如，您可以比較專案所有者和專案贊助者欄位。
 
          >[!TIP]
          >
-         ><span class="preview">您可以在條件規則中新增最多10個條件，而且一個欄位最多可以有20個規則。</span>
+         >只有清單檢視中顯示的欄位才適用於條件式格式。 您比較的欄位必須屬於相同型別。
 
-      1. <span class="preview">按一下條件之間的&#x200B;**Or**&#x200B;聯結器，變更為&#x200B;**和**，並指示必須同時符合多個條件。 **或**&#x200B;是預設聯結器。</span>
-      1. <span class="preview">在&#x200B;**格式**&#x200B;行中，選取欄位以指示要格式化的資料行。</span> <!--edit this area, if it changes names??-->
-      1. <span class="preview">（選擇性）按一下所選欄位旁的&#x200B;**顏色圓形**&#x200B;圖示![顏色圓形圖示](assets/color-circle.png)，展開該欄位並在&#x200B;**儲存格填滿**&#x200B;區域中選擇另一種顏色，以變更儲存格中的背景顏色，或從&#x200B;**文字顏色**&#x200B;區域挑選一種顏色，以變更儲存格中的文字顏色。</span>
-      1. <span class="preview">按一下&#x200B;**文字格式**&#x200B;圖示![文字格式圖示](assets/text-format-icon.png)並從下列選項中選取，以格式化儲存格中的文字：</span>
-         * <span class="preview">粗體</span>
-         * <span class="preview">斜體</span>
+      1. （選擇性）按一下&#x200B;**If**&#x200B;行中的「**新增條件**」，將更多條件新增至相同規則。
 
-      1. <span class="preview">開啟&#x200B;**套用至列**&#x200B;設定，將格式設定套用至符合條件的欄位整列。</span>
-      1. <span class="preview">（選擇性）按一下&#x200B;**格式**&#x200B;方塊中的&#x200B;**新增條件**&#x200B;為其他欄位新增另一個規則，並重複上述步驟。</span>
-      1. <span class="preview">（選擇性）按一下[全部清除] **以移除所有格式**。</span>
-      1. <span class="preview">按一下&#x200B;**格式**&#x200B;方塊外部以關閉它。</span>
+         >[!TIP]
+         >
+         >您可以在條件規則中新增最多10個條件，而且一個欄位最多可以有20個規則。
 
-         <span class="preview">這會將您帶回清單檢視。</span>
-         <span class="preview">格式會立即套用至清單檢視。</span>
-         <span class="preview">**格式化儲存格**&#x200B;圖示旁有一個藍點，表示檢視已套用特殊格式。</span>
+      1. 按一下條件之間的&#x200B;**Or**&#x200B;聯結器，變更為&#x200B;**和**，並指示必須同時符合多個條件。 **或**&#x200B;是預設聯結器。
+      1. 在&#x200B;**格式**&#x200B;行中，選取欄位以指示要格式化的欄。<!--edit this area, if it changes names??-->
+      1. （選擇性）按一下所選欄位旁的&#x200B;**顏色圓形**&#x200B;圖示![顏色圓形圖示](assets/color-circle.png)，展開該欄位並在&#x200B;**儲存格填滿**&#x200B;區域中選擇另一種顏色，以變更儲存格中的背景顏色，或是從&#x200B;**文字顏色**&#x200B;區域挑選一種顏色，以變更儲存格中的文字顏色。
+      1. 按一下&#x200B;**文字格式**&#x200B;圖示![文字格式圖示](assets/text-format-icon.png)並從下列選項中選取，以格式化儲存格中的文字：
+         * 粗體
+         * 斜體
 
-   1. <span class="preview">（選擇性）按一下&#x200B;**群組**&#x200B;圖示![群組圖示](assets/grouping-icon.png) &lt;！ — 他們是否將此項更新為「分組」??->，以便依通用欄位將清單中的專案分組。 選取其中一個選項，或使用搜尋列尋找欄位。</span>
+      1. 開啟&#x200B;**套用至列**&#x200B;設定，將格式套用至符合條件的欄位整列。
+      1. （選擇性）在&#x200B;**格式**&#x200B;方塊中按一下&#x200B;**新增條件**，為其他欄位新增另一個規則，並重複上述步驟。
+      1. （選擇性）按一下「全部清除&#x200B;**」**&#x200B;以移除所有格式設定。
+      1. 按一下&#x200B;**格式**&#x200B;方塊外部以關閉它。
 
-      <span class="preview">欄位必須是清單中的欄，才能依其分組。 並非所有欄位型別都可用於群組。</span>
+         這會將您帶回清單檢視。
+格式會立即套用至清單檢視。
+**格式化儲存格**&#x200B;圖示旁有一個藍點，表示檢視已套用特殊格式。
 
-   1. <span class="preview">按一下&#x200B;**列高**&#x200B;圖示![列高圖示](assets/row-height-icon.png)以更新列的垂直長度。 從下列選項中選擇： </span>
+   1. （選擇性）按一下&#x200B;**群組**&#x200B;圖示![群組圖示](assets/grouping-icon.png) <!--have they updated this to "Grouping"??-->，以使用通用欄位將清單中的專案群組。 選取其中一個選項，或使用搜尋列來尋找欄位。
 
-      <div class="preview">
+      該欄位必須是清單中的欄，然後才能按它分組。 並非所有欄位型別都可用於分組。
+
+   1. 按一下&#x200B;**列高**&#x200B;圖示![列高圖示](assets/row-height-icon.png)以更新列的垂直長度。 從下列選項中選擇:
 
       * 短
       * 標準。 這是預設選擇。
       * 媒體
       * 高
-
-      </div>
 
    <!--leave these here, although they duplicate for Enhanced lists in Workfront-->
 

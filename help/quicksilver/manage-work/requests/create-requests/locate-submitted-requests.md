@@ -10,10 +10,10 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 2%
+source-wordcount: '1377'
+ht-degree: 3%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 2%
 
 <!--
 Remove production and preview references at release
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
-
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 您可以檢視您或其他人提交的請求，或檢視您已開始但從未完成提交的請求。 未完成的請求會儲存為草稿。
 
@@ -112,7 +112,7 @@ Remove production and preview references at release
 >
 >* 主旨欄位中的規劃與Workfront要求。
 >* 從「建立的物件」欄位中的Planning請求建立的Planning記錄。
->* 在預覽環境的物件建立欄位中，<span class="preview">從Workfront請求轉換而來的Workfront任務和問題。</span>
+>* 在建立物件欄位中，從Workfront請求轉換的Workfront任務和問題。
 
 若要檢視您或其他使用者在新請求體驗中提交的請求：
 
@@ -128,14 +128,9 @@ Remove production and preview references at release
    * 檢視
    * 篩選器
    * 欄
-
-   <div class="preview">
-
-   * **群組**
+   * 分組
    * 設定儲存格格式
    * 列高
-
-   </div>
 
    如需管理請求清單中資訊的詳細資訊，請參閱[使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
 

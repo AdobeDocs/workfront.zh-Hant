@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 02a4269777e18a8c66a245d374565eb61efd39ef
+source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 7%
@@ -64,7 +64,7 @@ ht-degree: 7%
 {{step1-to-priorities}}
 
 1. 按一下工作清單左上角的&#x200B;**篩選器**。
-1. 在&#x200B;**標準篩選器**&#x200B;區段中，選取一或多個篩選器以縮小您的工作專案範圍。
+1. 在&#x200B;**標準篩選器**區段中，選取一或多個篩選器以縮小您的工作專案範圍。
    ![篩選](assets/filter-new.png)
 
 +++展開以檢視有關可用篩選器的詳細資訊
@@ -154,7 +154,7 @@ ht-degree: 7%
 {{step1-to-priorities}}
 
 1. 按一下工作清單左上角的&#x200B;**群組**。
-1. 選取要組織工作清單的群組。
+1. 選取群組以組織您的工作清單。
 
 ![群組](assets/groups-new.png)
 
@@ -174,16 +174,16 @@ ht-degree: 7%
 按「我的優先順序」或「狀態」分組時，您可以在類別之間拖放個別工作專案。
 
 1. 依&#x200B;**狀態**&#x200B;或&#x200B;**我的焦點**&#x200B;將您的工作分組。
-2. 將滑鼠停留在工作專案上，按一下&#x200B;**拖曳**&#x200B;圖示並將其移至所需類別。
+2. 將滑鼠停留在工作專案上，按一下&#x200B;**拖曳**圖示並將其移至所需類別。
    ![拖曳圖示](assets/drag-and-drop.png)
 
 ## 排序您的工作
 
-### 按群組排序
+### 依群組排序
 
-若要在群組中排序您的工作，請開啟&#x200B;**群組**，並選取是否要以遞增或遞減順序排序。
+若要在群組內排序您的工作，請開啟&#x200B;**群組**，並選取是否要以遞增或遞減順序排序。
 
-![在群組中排序](assets/sort-in-groups.png)
+![分組排序](assets/sort-in-groups.png)
 
 ### 排序欄
 

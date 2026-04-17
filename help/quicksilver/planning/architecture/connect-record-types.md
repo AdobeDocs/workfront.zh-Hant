@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 539f87ddeab85eb6e8a028bcb6e394c3cd179c4d
+source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
 workflow-type: tm+mt
-source-wordcount: '3071'
+source-wordcount: '2954'
 ht-degree: 0%
 
 ---
@@ -22,10 +22,11 @@ ht-degree: 0%
 
 # 連線記錄型別
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -94,7 +95,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    <ul><li><p>Adobe Experience Manager Assets授權及AEM Assets與Workfront之間的整合，用於連結AEM資產與Planning記錄型別。</p>
    <p>如需詳細資訊，請參閱<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 連線記錄型別與GenStudio Brands的Adobe GenStudio for Performance Marketing授權</p>
-   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
+   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -228,18 +229,16 @@ Old:
 
      >[!TIP]
      >
-     ><span class="preview">您可以使用下列鍵盤組合，從任何Workfront Planning頁面開啟全域搜尋方塊並搜尋記錄型別：</span>
+     >您可以使用下列鍵盤組合，從任何Workfront Planning頁面開啟全域搜尋方塊並搜尋記錄型別：
      >
-     >* <span class="preview">CTRL+K for Windows</span>
-     >* 適用於Mac<span class="preview">⌘的</span>+K
+     >* Windows版CTRL+K
+     >* 適用於Mac的⌘+K
      >
      >![全域搜尋方塊](assets/global-search-box.png)
 
    * 來自&#x200B;**Workfront物件型別**&#x200B;區段的&#x200B;**專案、Portfolio、方案、公司**&#x200B;或&#x200B;**群組**。
 
      ![Workfront專案連線選擇](assets/multi-select-connection-picker-project.png)
-
-   <div class="preview">
 
    * 來自&#x200B;**Workfront物件型別**&#x200B;區段的&#x200B;**原始要求**&#x200B;物件型別。
 
@@ -254,8 +253,6 @@ Old:
      >* [提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
 
      ![原始要求連線選擇](assets/original-request-connection-selection.png)
-
-   </div>
 
 
    * 來自&#x200B;**Experience Manager應用程式**&#x200B;區段的&#x200B;**Adobe**。
@@ -319,7 +316,7 @@ Old:
 
    >[!NOTE]
    >
-   >您的Workfront管理員可以透過Workfront中的中繼資料對應，將Workfront Planning欄位對應至Experience Manager欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+   >您的Workfront管理員可以透過Workfront中的中繼資料對應，將Workfront Planning欄位對應至Experience Manager欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
 
 1. （視條件而定）當您選取連線至Experience Manager、Workfront Planning記錄型別或GenStudio Brand時，請在&#x200B;**記錄外觀**&#x200B;區域中選擇下列其中一個選項：
@@ -349,14 +346,15 @@ Old:
 
    >[!TIP]
    >
-   >* 您無法將其他應用程式的參考欄位新增為查詢欄位。 例如，當您連線至Workfront專案時，無法在Planning中將專案群組或公司新增為查詢欄位。
+   >* 您無法將其他應用程式的參考欄位新增為查詢欄位。 例如，當您連線至Workfront專案時，無法在Planning中將專案、群組或公司新增為查詢欄位。
    >
-   >* 在生產環境中，您無法將Workfront使用者欄位（包括專案所有者或專案贊助者之類的欄位）新增為查詢欄位。 <span class="preview">您可以在預覽環境中新增使用者欄位做為查閱欄位。</span>
+   ><!--* In the Production environment, you cannot add Workfront user fields (including fields like Project Owner, or Project Sponsor) as lookup fields. <span class="preview">You can add user fields as lookup fields in the Preview environment.</span>-->
    >
    >* Workfront物件的日期欄位資訊在Workfront Planning中會以24小時格式顯示，無論其在Workfront中的顯示方式為何。
    >
    >   例如，如果專案的計劃開始日期在Workfront中顯示為3:00下午，則在匯入的查詢欄位中，它將在Workfront Planning中顯示為15:00。
-   >* 在生產環境中，您無法新增人物欄位做為查詢欄位。 <span class="preview">您可以在預覽環境中新增人物欄位做為查閱欄位。</span>
+   >
+   ><!--* In the Production environment, you cannot add People fields as lookup fields. <span class="preview">You can add People fields as lookup fields in the Preview environment.</span>-->
 
 1. 按一下「**建立**」。
 

@@ -8,20 +8,22 @@ feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '694'
 ht-degree: 3%
 
 ---
 
 # 使用我的請求Widget
 
-<!--remove Preview and Production references at Production release April 15, 2026-->
+<!--
+remove Preview and Production references at Production release April 15, 2026
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 >[!IMPORTANT]
 >
@@ -65,7 +67,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>[!UICONTROL 檢視]對您在對話中被標籤或需要解決核准的專案、任務、問題和檔案的許可權或更高</p> </td> 
+   <td> <p>[！UICONTROL檢視]對您在對話中被標籤或需要解決核准的專案、任務、問題和檔案的許可權或更高</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,14 +104,9 @@ To configure the filter in the My Requests widget:
    * 檢視
    * 篩選器
    * 欄
-
-   <div class="preview">
-
    * 分組
    * 設定儲存格格式
    * 列高
-
-   </div>
 
    如需更新要求清單中檢視元素的詳細資訊，請參閱[使用增強式清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
 
@@ -212,7 +209,7 @@ Consider the following when working with views in the My Requests widget:
 >
 >* 主旨欄位中的規劃與Workfront要求。
 >* 從「建立的物件」欄位中的Planning請求建立的Planning記錄。
->* 在預覽環境的物件建立欄位中，<span class="preview">從Workfront要求轉換而來的Workfront任務和問題。</span>
+>* 在建立物件欄位中，從Workfront請求轉換的Workfront任務和問題。
 
 1. 按一下左上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表圖示](assets/lines-main-menu.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
 1. （視條件而定）將&#x200B;**我的請求** Widget新增至您的主畫面。 按一下&#x200B;**自訂**，找到&#x200B;**我的要求**，然後按一下它以將其新增到&#x200B;**首頁**。
@@ -223,10 +220,7 @@ Consider the following when working with views in the My Requests widget:
 
    >[!TIP]
    >
-   >在生產環境中，只有Planning記錄在&#x200B;**建立的物件**&#x200B;欄位中有連結。
-   >   
-   ><span class="preview">在預覽環境中，從問題轉換而來的Workfront任務和專案，以及從Planning要求建立的Planning記錄，在&#x200B;**建立的物件**&#x200B;欄位中有連結。</span>
-   >
+   >從問題轉換而來的Workfront任務和專案，以及從Planning請求建立的Planning記錄，在&#x200B;**已建立的物件**&#x200B;欄位中有連結。
 
 
 
