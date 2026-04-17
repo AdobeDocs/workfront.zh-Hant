@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: df1d844346d7ed26dcb004ba1a10ec9e8d07422a
+source-git-commit: d8a01839b8f1332741f87be766f3ccb7d08cef96
 workflow-type: tm+mt
-source-wordcount: '3417'
+source-wordcount: '3441'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/tw/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -55,7 +55,8 @@ ht-degree: 0%
     <ul> 
      <li> <p>系統管理員存取層級。 </li> 
      <li> <p>您的存取層級中的<b>使用者</b>設定已設定為<b>編輯</b>存取權，其中<b>建立</b>以及在<b>微調您的設定</b> <b>下啟用的兩個</b>使用者管理員<img src="assets/gear-icon-in-access-levels.png">選項中的至少一個。 </p> <p>在這兩個選項中，如果已啟用<b>使用者管理員（群組使用者）</b>，您必須是使用者所屬群組的群組管理員。</p> </li> 
-    </ul> </td> 
+    </ul>
+    <p>若要編輯使用者的計費和成本費率，您也必須啟用「編輯計費費率」和「編輯成本費率」微調選項。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -137,7 +138,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >當您的組織使用Adobe統一體驗時，使用者的語言偏好設定會儲存在其Adobe設定檔中，而不使用電子郵件地區設定。 如需有關存取這些偏好設定的資訊，請參閱[Workfront的Adobe Unified Experience &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+  >當您的組織使用Adobe統一體驗時，使用者的語言偏好設定會儲存在其Adobe設定檔中，而不使用電子郵件地區設定。 如需有關存取這些偏好設定的資訊，請參閱[Workfront的Adobe Unified Experience ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 * **接收來自此測試環境的電子郵件**：如果您要接收來自目前登入之環境的電子郵件通知，請核取此選項。
 
@@ -315,7 +316,7 @@ ht-degree: 0%
 * **資源集區**：將使用者與資源集區建立關聯。 如需詳細資訊，請參閱[將資源集區與使用者關聯](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)。
 * **成本費率**：使用者每小時的成本金額。
 
-  若要取得日期有效成本費率，請按一下[新增費率]。**&#x200B;** 輸入時間期間的成本費率值，並視需要指定「開始日期」與「結束日期」。 成本費率1不會有開始日期，而最後的成本費率不會有結束日期。
+  若要取得日期有效成本費率，請按一下[新增費率]。**** 輸入時間期間的成本費率值，並視需要指定「開始日期」與「結束日期」。 成本費率1不會有開始日期，而最後的成本費率不會有結束日期。
 
   <!--Some dates are added automatically. For example, if Cost Rate 1 does not have an end date, and you add Cost Rate 2 with a start date of May 1, 2023, an end date of April 30, 2023 is added to Cost Rate 1 so that no gaps exist.-->
 
@@ -325,7 +326,7 @@ ht-degree: 0%
 
 * **收費率**：使用者每小時的收費金額。
 
-  若要取得日期有效收費率，請按一下[新增費率]。**&#x200B;** 輸入時間期間的帳單費率值，並視需要指定「開始日期」與「結束日期」。 帳單費率1不會有開始日期，而最後的帳單費率不會有結束日期。
+  若要取得日期有效收費率，請按一下[新增費率]。**** 輸入時間期間的帳單費率值，並視需要指定「開始日期」與「結束日期」。 帳單費率1不會有開始日期，而最後的帳單費率不會有結束日期。
 
   <!--Some dates are added automatically. For example, if Billing Rate 1 does not have an end date, and you add a second with a start date of May 1, 2023, an end date of April 30, 2023 is added to Billing Rate 1 so that no gaps exist.-->
 
