@@ -8,16 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
-source-git-commit: d45c34b1f48a7ffcae29556d34558bb4d1d8a016
+source-git-commit: 82f2fbb55dd46b9bfc55e9864c38f600041de968
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 2%
+source-wordcount: '787'
+ht-degree: 3%
 
 ---
 
 # 授予財務資料的存取權
-
-{{highlighted-preview}}
 
 身為Adobe Workfront管理員，您可以透過使用者的存取層級定義使用者對下列專案的存取權，如[存取層級概觀](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)中所述：
 
@@ -61,18 +59,14 @@ ht-degree: 2%
 * 存取層級不允許存取財務資料的使用者，無法授與允許其他人檢視財務資料的存取權。 這包括提供顯示財務資料的專案存取權，或修改存取層級以允許檢視財務資料。
 * 存取層級不允許存取財務資料的使用者無法為專案建立風險。 如需詳細資訊，請參閱[建立與編輯專案風險](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)。
 * 您也可以使用存取層次來決定使用者可採用哪些「資源管理」活動來編列預算或檢視資源配置。 如需詳細資訊，請參閱[授與資源管理的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)。
-* <span class="preview">帳單費率、成本費率和一般財務的存取權是分開的，可針對處理複雜財務細節的不同使用者角色進行更精確的控制。 一般財務是不含帳單與成本費率的其他財務資料。</span>
+* 帳單費率、成本費率和一般財務的存取是分開的，允許針對處理複雜財務詳細資訊的不同使用者角色進行更精確的控制。 一般財務是不含帳單和成本費率的額外財務資料。
 
 ## 使用自訂存取層級設定財務資料的使用者存取權
 
 1. 開始建立或編輯存取層級，如[建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)中所述。
 1. 按一下財務資料右側![](assets/gear-icon-settings.png)檢視&#x200B;**或**&#x200B;編輯&#x200B;**按鈕上的齒輪圖示**，然後在&#x200B;**微調您的設定**&#x200B;下選取您要授與的功能。
 
-   <span class="preview">預覽環境中的範例影像：</span>
    ![微調財務資料存取](assets/financial-data-access-fine-tune.png)
-
-   生產環境中的影像範例：
-   ![微調財務資料存取](assets/financial-data-fine-tune-nwe.png)
 
 1. （選擇性）在&#x200B;**允許**&#x200B;的管理存取區域中，選取下列選項：
 
@@ -131,36 +125,66 @@ If you make changes here, make them also in the "Grant access to" articles where
 
 * 專案與任務物件下的財務區段
 * 業務案例
-* 專案的記帳費率和記帳記錄
-* 使用者設定檔上的每小時成本和每小時帳單
-* 工作角色的每小時成本和每小時帳單
+* 專案的付費記錄
+* 專案的收費率和成本率
+
+<!--  
+
+* Cost per hour and billing per hour on user profiles
+* Cost per hour and billing per hour on Job Roles
+
+-->
 
 ### 檢視存取權
 
 對財務資料具有「檢視」存取許可權的使用者可以檢視（而非編輯）以下內容：
 
 * 專案與任務物件下的財務區段
+
+  您可以使用上述步驟4中「檢視」按鈕上的齒輪圖示![](assets/gear-icon-settings.png)來設定此專案。
+
 * 業務案例
-* 專案的記帳費率和記帳記錄
-* 使用者設定檔上的每小時成本和每小時帳單
+* 專案的付費記錄
+* 專案的收費率和成本率
 
   您可以使用上述步驟4中「檢視」按鈕上的齒輪圖示![](assets/gear-icon-settings.png)來設定此專案。
 
-* 工作角色的每小時成本和每小時帳單
+<!--  
 
-  您可以使用上述步驟4中「檢視」按鈕上的齒輪圖示![](assets/gear-icon-settings.png)來設定此專案。
+* Cost per hour and billing per hour on user profiles
+
+  You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the View button in step 4 above.
+
+* Cost per hour and billing per hour on Job Roles
+
+  You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the View button in step 4 above.
+
+-->
 
 ### 編輯存取權
 
 具有財務資料編輯存取許可權的使用者可以檢視及編輯下列專案：
 
 * 專案與任務物件下的財務區段
+
+  您可以使用上述步驟4中「編輯」按鈕上的齒輪圖示![](assets/gear-icon-settings.png)來設定此專案。
+
 * 業務案例
-* 專案的收費率、收費記錄和成本率
-* 使用者設定檔上的每小時成本和每小時帳單
+* 專案的付費記錄
+* 專案的收費率和成本率
 
   您可以使用上述步驟4中「編輯」按鈕上的齒輪圖示![](assets/gear-icon-settings.png)來設定此專案。
 
-* 工作角色的每小時成本和每小時帳單
+<!--  
 
-  您可以使用上述步驟4中「編輯」按鈕上的齒輪圖示![](assets/gear-icon-settings.png)來設定此專案。
+* Cost per hour and billing per hour on user profiles
+
+  You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the Edit button in step 4 above.
+
+* Cost per hour and billing per hour on Job Roles
+
+  You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the Edit button in step 4 above.
+
+-->
+
+
