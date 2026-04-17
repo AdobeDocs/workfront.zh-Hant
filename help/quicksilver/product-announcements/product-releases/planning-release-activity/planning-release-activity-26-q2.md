@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 62e23ddf3fc90c1e1e993ad4155564964be07b93
+source-git-commit: 540d56017dccf238d301e81085b62b5163b71103
 workflow-type: tm+mt
 source-wordcount: '1984'
 ht-degree: 0%
@@ -406,3 +406,5 @@ For information, see [Create fields](/help/quicksilver/planning/fields/create-fi
 現在，當連線兩個Planning記錄型別時，您可以將「人員」欄位新增到查閱欄位。
 
 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
+
+
