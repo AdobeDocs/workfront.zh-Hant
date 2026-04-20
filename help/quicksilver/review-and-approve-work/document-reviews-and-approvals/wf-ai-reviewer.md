@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
+source-git-commit: 72fa86e6dc653905181603e0111f65eb0ca5965b
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '785'
 ht-degree: 1%
 
 ---
@@ -35,6 +35,7 @@ ht-degree: 1%
    * Workfront中的內容檢閱者提供GenStudio Foundation中可用的功能，以進行資產檢閱和核准工作流程。 您不需要直接存取GenStudio Foundation即可完成工作。 您透過「內容檢閱者」存取GenStudio Foundation功能時，需遵守Workfront合約的條款。
 * Adobe必須有已簽署的Adobe Gen AI合約檔案。
 如需簽署合約的詳細資訊，請參閱[簽署Adobe Gen AI合約](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)。
+* 沙箱環境中沒有內容檢閱者可用。
 
 
 ## 支援的檔案類型 {#supported-file-types-ai-reviewer}
