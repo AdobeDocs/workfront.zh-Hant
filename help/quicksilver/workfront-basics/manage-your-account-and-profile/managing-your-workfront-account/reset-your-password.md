@@ -6,73 +6,88 @@ description: 您可以重設您的 [!DNL Adobe Workfront] 密碼。 作為一項
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 80897b9b7752283ec985611e349e4180e48b224a
+source-git-commit: 75611cc7c90a3f5935466f2d40ee1bb8243e0e10
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 1%
+source-wordcount: '60'
+ht-degree: 0%
 
 ---
 
 # 重設密碼
 
+>[!IMPORTANT]
+>
+>此頁面上說明的程式已移除，因為它僅適用於尚未上線至Adobe Admin Console的組織。
+>
+>所有Workfront組織現在都已上線Adobe Admin Console。
+
+<!--DELETE ME MARCH 2026-->
+
+<!--
+
 {{important-not-on-aec}}
 
-您可以重設您的[!DNL Adobe Workfront]密碼。 作為一項重要的安全性措施，建議您定期執行此作業。
+You can reset your [!DNL Adobe Workfront] password. As an important security measure, we recommend that you do this regularly.
 
 >[!NOTE]
 >
->[!DNL Workfront]管理員可以設定自訂密碼限制，如[設定系統安全性偏好設定](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)和[設定驗證的密碼原則](../../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)中所述。
+>A [!DNL Workfront] administrator can configure custom password restrictions, as explained in [Configure system security preferences](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) and [Configure password policies for authentication](../../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md).
 >
-><!-- [!DNL Workfront] administrator can also reset your password in an Enhanced Authentication enabled environment. For more information, see [Reset a user's password with Enhanced Authentication](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md).-->
+>[!DNL Workfront] administrator can also reset your password in an Enhanced Authentication enabled environment. For more information, see [Reset a user's password with Enhanced Authentication](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md).-->
 
-## 存取需求
+<!--
+## Access requirements
 
-+++ 展開以檢視本文中功能的存取需求。
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
- </col>
+ </col> 
+ <col> 
+ </col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
-   <td> <p>任何</p> </td> 
+   <td>Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td>Adobe Workfront授權</td> 
+   <td>Adobe Workfront license</td> 
    <td> 
-   <p>投稿人或以上</p>
-   <p>要求或更高版本</p> </td> 
+   <p>Contributor or higher</p>
+   <p>Request or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## 在[!DNL Adobe Workfront]中重設您的密碼
+## Reset your password in [!DNL Adobe Workfront]
 
 {{step1-click-profile-pic}}
 
-![開啟主功能表並選取您的使用者名稱。](assets/main-menu-options-350x481.png)
+   ![Open the main menu and select your user name.](assets/main-menu-options-350x481.png)
 
-1. 按一下&#x200B;**[!UICONTROL 更多功能表]** ![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**[!UICONTROL 編輯]**。
+1. Click the **[!UICONTROL More menu]** ![More icon](assets/more-icon.png), then click **[!UICONTROL Edit]**.
 
-1. 在顯示的&#x200B;**[!UICONTROL 編輯人員]**&#x200B;方塊中，在&#x200B;**[!UICONTROL 個人資訊]**&#x200B;下，按一下&#x200B;**[!UICONTROL 變更密碼]**。
+1. In the **[!UICONTROL Edit Person]** box that displays, under **[!UICONTROL Personal Info]**, click **[!UICONTROL Change password]**.
 
-   ![按一下[變更密碼]](assets/edit-user-change-password.png)
+   ![Click Change password](assets/edit-user-change-password.png)
 
-   如果貴組織已將[!DNL Workfront]與SSO解決方案整合，當您按一下&#x200B;**[!UICONTROL 變更密碼]**&#x200B;時，系統可能會引導您透過SSO系統重設密碼。 這會重設您的SSO密碼，而這會影響您登入組織內的所有其他應用程式。
+   If your organization has integrated [!DNL Workfront] with an SSO solution, you may be routed to reset your passwords through your SSO system when you click **[!UICONTROL Change password]**. This resets your SSO password which affects logging in to all your other applications inside your organization.
 
-1. 輸入您的舊密碼，然後輸入您想要的新密碼兩次。
+1. Type your old password, then type the new password you want twice.
 
-   您的密碼必須至少為8個字元，並包含下列兩種字元型別：
+   Your password must be at least 8 characters and contain two of the following types of characters:
 
-   * 大寫字母
-   * 小寫字母
-   * 數字
-   * 特殊字元(如！ @ # $ %)
+   * Uppercase letters
+   * Lowercase letters
+   * Numbers
+   * Special characters (such as ! @ # $ %)
 
-   密碼規則可能比這更嚴格，視您的[!DNL Workfront]管理員所設定的組態設定而定。
+   Password rules might be more strict than this, depending on configuration settings set by your [!DNL Workfront] administrator.
 
-1. 按一下「**[!UICONTROL 儲存]**」。
+1. Click **[!UICONTROL Save]**.
+
+-->

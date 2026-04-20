@@ -7,33 +7,33 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 8f5b78c9-b84f-4f56-b7cc-ba686fac2da1
-source-git-commit: b9547764abd4f1f61d93da6bc66d9e6776954f4d
+source-git-commit: 480f40d77cfc494ac28a2332c0e15bd1f0f00a6b
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 1%
+source-wordcount: '163'
+ht-degree: 12%
 
 ---
 
 # Adobe Workfront API呼叫的網域格式
 
-當您對Workfront API進行API呼叫時，您會在呼叫中使用組織的網域。 此網域URL的格式會根據您的組織是否已上線到Adobe Unified Shell而不同。
+當您對Workfront API進行API呼叫時，您會在呼叫中使用組織的網域。
 
-若要知道您的組織是否位在Adobe Unified Shell上，請檢查檢視Workfront頁面時顯示的URL。
+您為API呼叫建立的URL取決於您用來連線至Workfront的URL。
 
 | Workfront URL開頭為： | API呼叫的URL： |
 |---|---|
 | `experience.adobe.com` | `<yourdomain>.my.workfront.adobe.com` |
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 

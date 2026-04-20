@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d817bd2b-1aaa-4dde-8e75-392c1da2943a
-source-git-commit: 6b2d93d2573d72e4390761038d8078f47d96d55e
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 0%
+source-wordcount: '231'
+ht-degree: 8%
 
 ---
 
@@ -25,16 +25,16 @@ ht-degree: 0%
 
 身為Adobe Workfront管理員和授權的Workfront支援聯絡人，您可以向Workfront支援團隊請求協助，以變更貴組織的Workfront網域。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -60,25 +60,30 @@ ht-degree: 0%
 
 您也可以聯絡Workfront支援，取得變更網域的協助。
 
-## 如果您是SSO客戶，請更新新網域
+<!--
 
-如果您的公司使用SSO，在您變更Workfront網域後需要下列步驟。
+## Update the new domain if you are an SSO customer
+
+If your company utilizes SSO, the following steps are required after you have your Workfront domain changed.
 
 >[!NOTE]
 >
->如果您組織的Workfront執行個體已啟用Adobe IMS，便無法使用此功能。 如需詳細資訊，請洽詢您的網路或IT管理員。
+>This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
 {{step-1-to-setup}}
 
-1. 在左側邊欄中，按一下&#x200B;**系統** > **客戶資訊**，並確定您的網域已更新至客戶資訊頁面。
+1. In the left sidebar, click **System** > **Customer Info** and make sure that your domain is updated on the Customer Info page.
 
-1. 在左側邊欄中，按一下&#x200B;**系統** > **單一登入(SSO)**。
+1. In the left sidebar, click **System** > **Single Sign-On (SSO)**.
 
-1. 按一下&#x200B;**下載SAML 2.0中繼資料**。
-1. 下載檔案後，請開啟檔案並確認下列事項：
+1. Click **Download SAML 2.0 Metadata**.
+1. After the file is downloaded, open it and make sure of the following:
 
-   1. **entityID**&#x200B;正在指向新網域。
-   1. **`<md:AssertionConsumerService>`**&#x200B;內的所有位置都指向新網域。
+   1. **entityID** is pointing to the new domain.
+   1. All locations within **`<md:AssertionConsumerService>`** point to the new domain.
 
-1. 將下載的中繼資料檔案提供給您的身分提供者，以便他們可以在自己的終端進行更新。
-1. 請確定您的組織使用的所有Workfront整合的網域都已更新。
+1. Provide the downloaded metadata file to your Identity Provider so that they can update it on their end.
+1. Make sure the domain is updated for all Workfront integrations used by your organization.
+
+
+-->

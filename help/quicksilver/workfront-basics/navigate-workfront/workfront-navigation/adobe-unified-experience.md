@@ -6,9 +6,9 @@ description: 透過Adobe Experience Cloud存取 [!DNL Workfront] 可讓您以順
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 5304f25ecb198f45c024b71185747f47fa8307d4
+source-git-commit: d9d6d572840f5691888d0db3242f3908978079b3
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '688'
 ht-degree: 3%
 
 ---
@@ -18,13 +18,6 @@ ht-degree: 3%
 <!--Audited: 10/2024-->
 
 透過[!DNL Workfront]存取[!DNL Adobe Experience Cloud]可讓您以順暢、統一的體驗管理所有[!DNL Adobe]應用程式。 單一身分管理可為您提供一個登入位置，不需要多個URL或登入ID。
-
-如果您的組織在Adobe Unified Experience上，您用來存取Workfront的URL會以`experience.adobe.com`開頭。
-
-| URL | Adobe體驗 |
-|------------|------------|
-| （公司名稱）.my.workfront.com | Workfront體驗 |
-| experience.adobe.com | Adobe Unified Experience |
 
 ## 存取權要求
 
@@ -94,7 +87,7 @@ ht-degree: 3%
 使用[!UICONTROL 導覽列左側的]主功能表![圖示](assets/main-menu-icon-left-nav.png)主功能表圖示[!DNL Workfront]，導覽至您有權存取的任何頁面。 [!UICONTROL 主要功能表]中可用的選項相依於：
 
 * **配置範本設定**：若要瞭解[!DNL Workfront]系統管理員如何從配置範本修改[!UICONTROL 主功能表]，請參閱[使用配置範本自訂[!UICONTROL 主功能表]](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)。
-* **授權型別**：若要瞭解不同授權型別的預設設定，請參閱[瞭解[!UICONTROL 檢閱]授權使用者的導覽](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)或[瞭解[!UICONTROL 工作]授權使用者的導覽](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)。
+* **授權型別**：若要瞭解不同授權型別的預設設定，請參閱[瞭解[!UICONTROL 輕量級]授權使用者的導覽](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)或[瞭解[!UICONTROL 工作]授權使用者的導覽](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)。
 
 ![主功能表](assets/main-menu-options-left-nav.png)
 

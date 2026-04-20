@@ -6,10 +6,10 @@ description: 瞭解如何在校訂中檢視內容。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
-source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
+source-git-commit: 480f40d77cfc494ac28a2332c0e15bd1f0f00a6b
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 0%
+source-wordcount: '818'
+ht-degree: 2%
 
 ---
 
@@ -19,19 +19,19 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您的Workfront執行個體位於統一體驗上，則校訂檢視器會在新標籤中開啟。
+>校訂檢視器會在新標籤中開啟。
 
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 

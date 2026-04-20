@@ -6,18 +6,14 @@ description: 當使用者開啟多個瀏覽器標籤時，Workfront 可能會自
 feature: Get Started with Workfront
 author: Becky
 exl-id: 1cc8bf6c-0eda-41ef-8efd-bba3a5f33b08
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 440640f5b916b76096c99eed8253236de477a02a
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 29%
+source-wordcount: '164'
+ht-degree: 32%
 
 ---
 
 # 多個瀏覽器分頁導致Workfront登出
-
->[!IMPORTANT]
->
->只有已上線Adobe IMS的組織才會出現此問題。
 
 ## 問題
 

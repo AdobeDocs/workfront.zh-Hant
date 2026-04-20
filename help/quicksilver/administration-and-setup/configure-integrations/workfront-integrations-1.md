@@ -11,9 +11,9 @@ role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
+source-git-commit: d8ccdeac9a658ca7a2862781e98c2c3c6fa0e8a0
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1242'
 ht-degree: 1%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 1%
      </ul>
    </ul>
      <p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">開始使用校訂和GenStudio for Performance Marketing整合</a>。</p> 
-     </td>  <td><ul><li>您必須同時擁有Workfront和GenStudio for Performance Marketing的授權。</li><li>您的Workfront執行個體必須位於Adobe Unified Experience。</li><li>Workfront和GenStudio for Performance Marketing必須部署至相同的IMS組織。</li></ul></td> 
+     </td>  <td><ul><li>您必須同時擁有Workfront和GenStudio for Performance Marketing的授權。</li><li>Workfront和GenStudio for Performance Marketing必須部署至相同的IMS組織。</li></ul></td> 
    <td>在符合所有需求後，您就可以在Workfront設定區域中切換整合。 如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">開始使用校訂和GenStudio for Performance Marketing整合</a>。 </td> 
   </tr>
   <tr> 
@@ -129,8 +129,8 @@ ht-degree: 1%
      <li>Premiere Pro </li>
      <li>After Effects </li>
      </ul>
-     <li><p>從<a href="https://exchange.adobe.com/apps/browse/cc?page=1&product=All&q=workfront&sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>下載/安裝。</p></li></ul>
-     <p>如需資訊與指示，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">為[!DNL Adobe Workfront]應用程式安裝[!DNL Creative Cloud]外掛程式</a></p> 
+     <li><p>從<a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>下載/安裝。</p></li></ul>
+     <p>如需資訊與指示，請參閱<a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">為[!DNL Adobe Workfront]應用程式安裝[!DNL Creative Cloud]外掛程式</a></p> 
      </td>  <td> </td> 
    <td> </td> 
   </tr> 
@@ -250,7 +250,7 @@ ht-degree: 1%
 
   [!DNL Adobe Workfront Fusion]連結應用程式和服務內部及之間的動作，以建立自動傳輸和轉換資料的情境。 它擁有可連線許多應用程式的專用聯結器，但可以使用公用API連線至任何應用程式。
 
-  如需詳細資訊，請參閱[[!DNL Adobe Workfront Fusion] 總覽](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+  如需詳細資訊，請參閱[[!DNL Adobe Workfront Fusion] 總覽](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan] （需要[!DNL Workfront Fusion]）

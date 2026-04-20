@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
 workflow-type: tm+mt
-source-wordcount: '1542'
-ht-degree: 4%
+source-wordcount: '1571'
+ht-degree: 5%
 
 ---
 
@@ -16,9 +16,13 @@ ht-degree: 4%
 
 <!--Audited: 12/2024-->
 
+<!--Remove me October 2026-->
+
 >[!IMPORTANT]
 >
->本頁所述的程式僅適用於尚未加入Admin Console的組織。 如果您的組織已加入Adobe Admin Console，您必須透過Adobe Admin Console執行此動作。
+>本頁所述的程式僅適用於尚未加入Admin Console的組織。 貴組織加入Adobe Admin Console後，必須透過Adobe Admin Console執行此動作。
+>
+>**由於所有組織現在都已移轉至Adobe Admin Console，因此本文中的資訊不再相關，不久將會移除。**
 >
 >如需在Adobe Admin Console中授與完整管理員存取權的指示，請參閱[在Adobe Admin Console中管理使用者](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
 >
@@ -34,16 +38,16 @@ ht-degree: 4%
 >* [Workfront管理員的存取權與具有系統管理許可權之Plan使用者的存取權](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights)的比較（在本文中）
 >
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td>任何</td> 
   </tr> 
   <tr> 

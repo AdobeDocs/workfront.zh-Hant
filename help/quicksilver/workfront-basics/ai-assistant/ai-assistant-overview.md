@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 4%
@@ -48,6 +48,8 @@ Workfront的AI助理可在自然語言對話中提供應用程式內資訊和建
 ## AI助理的必要條件
 
 若要為您的組織啟用AI助理，必須套用下列&#x200B;**所有**：
+
+<!--Remove me October 2026-->
 
 * 貴組織必須已移轉至Adobe IMS （Identity Management系統）
 * 必須啟用Adobe Unified Experience

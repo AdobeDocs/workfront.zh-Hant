@@ -5,7 +5,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: f895803007a8f606169589bc4b17c19711c9e3f8
+source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 3%
@@ -102,12 +102,12 @@ ht-degree: 3%
      <tr> 
       <td role="rowheader"><strong>建立</strong> </td> 
       <td> <p>允許使用者建立使用者。<br>此選項預設為啟用。</p> 
-     <p><b>注意</b>：如果您的組織已加入Adobe Admin Console，則無法使用此功能。 如需詳細資訊，請洽詢您的網路或IT管理員。</p>
+     <p><b>注意</b>：如果您的組織已加入Adobe Admin Console，則無法使用此功能。 如需詳細資訊，請洽詢您的網路或IT管理員。<!--Check this October 2026--></p>
         </td>  
      </tr> 
      <tr> 
       <td role="rowheader"><strong>刪除</strong> </td> 
-      <td> <p> 允許使用者刪除他們自己建立的使用者。<br>此選項預設為啟用。</p> <p><b>注意</b>：如果您的組織已加入Adobe Admin Console，則無法使用此功能。 如需詳細資訊，請洽詢您的網路或IT管理員。</p> </td> 
+      <td> <p> 允許使用者刪除他們自己建立的使用者。<br>此選項預設為啟用。</p> <p><b>注意</b>：如果您的組織已加入Adobe Admin Console，則無法使用此功能。 如需詳細資訊，請洽詢您的網路或IT管理員。<!--Check this October 2026--></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>編輯收費率</strong> </td> 

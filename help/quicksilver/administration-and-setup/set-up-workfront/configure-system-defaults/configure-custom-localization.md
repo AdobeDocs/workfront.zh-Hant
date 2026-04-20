@@ -7,16 +7,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bdc6d5ee-2037-4d0b-bf18-3e6cc9cb078e
-source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '370'
 ht-degree: 7%
 
 ---
 
 # 設定自訂本地化
 
-自訂本地化可讓您定義不同語言的自訂辭彙和片語。 Workfront接著會以使用者的Adobe Identity Management (IMS)設定中所設定的語言顯示這些詞語。 如果使用者不在Adobe IMS上，則字詞會以使用者的瀏覽器設定中所設定的語言顯示。
+自訂本地化可讓您定義不同語言的自訂辭彙和片語。 Workfront接著會以使用者的Adobe Identity Management (IMS)設定中所設定的語言顯示這些詞語。
 
 例如，您可以設定標籤「目標對象」以翻譯成德文單詞「Zielgruppe」。 任何以德文選取為主要瀏覽器語言的使用者，都會看到「Zielgruppe」一詞，當作任何以英文標示「目標對象」欄位的標籤。
 

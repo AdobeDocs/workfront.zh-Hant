@@ -3,15 +3,15 @@ title: 使用版面配置範本的品牌Adobe Workfront
 user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
-description: 身為Adobe Workfront管理員或群組管理員，您可以使用版面配置範本來自訂頂端導覽區域以及[主要]功能表中特定群組、團隊、工作角色和使用者的標誌。 這對於擁有品牌的大型組織中的群組特別有用。
+description: Adobe Workfront不再提供品牌化功能。 此功能在Workfront上線至Adobe Experience Cloud時已遭取代。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+source-git-commit: 081eff3b840004f1c3b421032f3593cb6c175690
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 3%
+source-wordcount: '60'
+ht-degree: 0%
 
 ---
 
@@ -21,75 +21,82 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->此頁面上說明的程式僅適用於尚未上線到[!DNL Adobe Experience Cloud]的組織。
+>Adobe Workfront不再提供品牌化功能。 此功能在Workfront上線至Adobe Experience Cloud時已遭取代。
+
+<!-- 
+
+
+>[!IMPORTANT]
 >
-> 如果您的組織已上線到[!DNL Adobe Experience Cloud]，則無法使用品牌化。
+>The procedure described on this page applies only to organizations that are not yet onboarded to [!DNL Adobe Experience Cloud].
+>
+> If your organization has been onboarded to [!DNL Adobe Experience Cloud], branding is not available.
 
-您可以使用版面配置範本來自訂頂端導覽區域和[主要]功能表中特定群組、團隊、工作角色和使用者的標誌。 這對於擁有品牌的大型組織中的群組特別有用。
+You can use a layout template to customize the logos in the top navigation area and on the Main Menu for certain groups, teams, job roles, and users. This is especially useful for groups in a large organization that have their own branding.
 
-如需有關群組配置範本的資訊，請參閱[建立和修改群組的配置範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)。
+For information about layout templates for groups, see [Create and modify a group's layout templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 >[!NOTE]
 >
->Workfront管理員可在系統層級對整個組織進行相同的品牌自訂，如[品牌化您的Adobe Workfront執行個體](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)中所述。 但版面配置範本中的品牌化會覆寫系統層級的品牌化。
+>A Workfront administrator can make the same branding customizations for the entire organization at the system level, as explained in [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). But branding in a layout template overrides system-level branding.
 
-<!-- Maybe add a section about deleting these 2 settings to revert to default branding? -->
+## Access requirements
 
-## 存取權要求
-
-+++ 展開以檢視這篇文章中所述功能的存取權要求。
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront 封裝</td> 
-   <td><p>任何</p></td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td>Adobe Workfront授權</td> 
-   <td><p>標準</p>
-       <p>規劃</p></td>
+   <td>Adobe Workfront license</td> 
+   <td><p>Standard</p>
+       <p>Plan</p></td>
   </tr> 
   </tr> 
   <tr> 
-   <td>存取層級設定</td> 
-   <td> <p>若要在系統層級執行這些步驟，您需要系統管理員存取層級。</p>
-        <p>若要為群組執行這些動作，您必須是該群組的管理員。</p> </td> 
+   <td>Access level configurations</td> 
+   <td> <p>To perform these steps at the system level, you need the System Administrator access level.</p>
+        <p>To perform them for a group, you must be a manager of that group.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## 使用版面配置範本的品牌Adobe Workfront
+## Brand Adobe Workfront using a layout template
 
-1. 開始使用版面配置範本，如[建立和管理版面配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
-1. 按一下![自訂使用者看到的內容](assets/dropdown-arrow.png)下的向下箭頭&#x200B;**向下箭頭**，然後按一下&#x200B;**品牌**。
-1. 進行下列任何變更，以使用指派此版面配置範本的使用者品牌影像來自訂Workfront。
+1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Click the down arrow ![Down arrow](assets/dropdown-arrow.png) under **Customize what users see**, then click **Branding**.
+1. Make any of the following changes to customize Workfront with branding images for those who are assigned this layout template.
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>品牌首頁圖示<span style="font-weight: normal;"> （顯示在頂端導覽區域的最左側）</span></p> </td> 
-      <td> <p>在<strong>上層導覽區域</strong>區段的<strong>首頁圖示</strong>下，按一下方塊中的任何位置，然後尋找並選取您的標誌影像。 或將影像拖曳至方塊。</p> <p>若要裁切影像，請使用捲動控制項，並將影像拖曳至您想要在指定空間內的位置。</p> <p>建議使用120 x 120影像。 其格式可為下列任一：GIF、JPG、PNG、SVG。</p> <p>此圖示也會顯示在使用者匯出為PDF檔案的報告、清單、控制面板以及傳遞的報告中。</p> </td> 
+      <td role="rowheader"> <p>Brand the Home icon <span style="font-weight: normal;">(displays at the far left of the top navigation area)</span></p> </td> 
+      <td> <p>In the <strong>Top navigation area</strong> section, under <strong>Home icon</strong>, click anywhere in the box, then find and select your logo image. Or drag an image to the box.</p> <p>To crop the image, use the scrolling controls and drag the image to the position you want inside the prescribed space.</p> <p>We recommend a 120 x 120 image. It can be in any of the following formats: GIF, JPG, PNG, SVG.</p> <p>This icon also appears in reports, lists, dashboards, and delivered reports that users export as PDF files.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>標籤主要功能表<img src="assets/main-menu-icon.png">標誌<span style="font-weight: normal;"> （顯示在主要功能表的右上角）</span></p> </td> 
-      <td> <p> <p> <p>在<strong>頂端導覽區域</strong>區段的<strong>主功能表標誌</strong>下，按一下方塊中的任何位置，然後尋找並選取您的標誌影像。 或將影像拖曳至方塊。</p> <p>若要裁切影像，請使用捲動控制項，並將影像拖曳至您想要在指定空間內的位置。</p> <p>建議使用300 x 120畫素的影像。 其格式可為下列任一：GIF、JPG、PNG、SVG。</p> </p> </p> </td> 
+      <td role="rowheader"> <p>Brand the Main Menu <img src="assets/main-menu-icon.png"> logo <span style="font-weight: normal;">(displays in the upper-right corner of the Main Menu)</span></p> </td> 
+      <td> <p> <p> <p>In the <strong>Top navigation area</strong> section, under <strong>Main Menu logo</strong>, click anywhere in the box, then find and select your logo image. Or drag an image to the box.</p> <p>To crop the image, use the scrolling controls and drag the image to the position you want inside the prescribed space.</p> <p>We recommend a 300 x 120 pixel image. It can be in any of the following formats: GIF, JPG, PNG, SVG.</p> </p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 繼續自訂版面範本。 您可以隨時按一下&#x200B;**套用**&#x200B;以儲存進度。
+1. Continue customizing the layout template. You can click **Apply** at any time to save your progress.
 
-   或
+   Or
 
-   如果您已完成自訂，請按一下&#x200B;**儲存並關閉**。
+   If you are finished customizing, click **Save and Close**.
 
-如需配置範本的詳細資訊，請參閱[建立和管理配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
+For more information about layout templates, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+
+-->

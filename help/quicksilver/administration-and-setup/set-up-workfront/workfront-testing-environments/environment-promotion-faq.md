@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 3%
+source-wordcount: '270'
+ht-degree: 2%
 
 ---
 
@@ -25,12 +25,6 @@ ht-degree: 3%
 ### 解答
 
 目前不支援跨網域環境升級。 您必須在相同網域中的環境之間升級。
-
-## Adobe商業平台/IMS是提升環境的先決條件嗎？
-
-### 解答
-
-否。「環境升級」適用於啟用IMS和非IMS Workfront執行個體。
 
 ## 如何找出我們的Workfront執行個體是否位於Prime或Ultimate授權上？
 

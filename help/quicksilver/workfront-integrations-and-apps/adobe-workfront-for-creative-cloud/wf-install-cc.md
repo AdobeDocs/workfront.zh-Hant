@@ -8,9 +8,9 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: eb5296348c27f806dd50b997970166ebae4c97f4
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '577'
 ht-degree: 4%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 4%
 
 [在此觀看教學課程影片](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
 
-[!DNL Adobe Admin Console]管理員也可以建立僅含外掛程式的套件，以分發給使用者。 如需詳細資訊，請參閱[中的 [!DNL Adobe Workfront] 為您的使用者建立 [!DNL Creative Cloud]] 套裝的[[!UICONTROL [!DNL Adobe Admin Console]]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+[!DNL Adobe Admin Console]管理員也可以建立僅含外掛程式的套件，以分發給使用者。 如需詳細資訊，請參閱[中的 [!DNL Adobe Workfront] 為您的使用者建立 [!DNL Creative Cloud]] 套裝的[！UICONTROL [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
 
 ## 個別安裝[!DNL Workfront for design and video]
 
@@ -91,7 +91,7 @@ ht-degree: 4%
 1. 前往Adobe Exchange上的[Adobe Workfront for Design and Video安裝頁面](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&workflow=share)。
 1. 在出現的對話方塊中，按一下&#x200B;**開啟[!DNL Adobe Creative Cloud]案頭應用程式**。
 1. 在[!DNL Adobe Creative Cloud]外掛程式管理員開啟後，按一下&#x200B;**[!UICONTROL 安裝]**。
-1. 讀取對話方塊中的資訊，然後按一下[確定]。**&#x200B;**
+1. 讀取對話方塊中的資訊，然後按一下[確定]。****
 1. 安裝[!DNL Workfront for design and video]後，請開啟您所需的[!DNL Creative Cloud]應用程式，並在外掛程式面板中找到[!DNL Workfront]外掛程式。
 
 1. 繼續下一節以取得如何開啟[!DNL Workfront for design and video]的資訊。
@@ -168,4 +168,4 @@ ht-degree: 4%
 
 1. 導覽回外掛程式，然後輸入您的Workfront網域。 網域必須是`company-name.my.workfront.com`而非`experience.adobe.com`。
 
-   若您使用Workfront統一體驗，若要[尋找您的Adobe網域](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md)，請前往[設定]， [客戶資訊]。
+   若要[尋找您的Workfront網域](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md)，請前往設定，客戶資訊。

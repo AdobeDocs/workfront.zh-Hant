@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: f1fe1a2fe6e123d8a039e8d7e3547c0b0a8141df
+source-git-commit: 480f40d77cfc494ac28a2332c0e15bd1f0f00a6b
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 3%
+source-wordcount: '305'
+ht-degree: 9%
 
 ---
 
@@ -23,16 +23,16 @@ ht-degree: 3%
 
 個別使用者也可以重設自己的使用者偏好設定。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -120,29 +120,17 @@ ht-degree: 3%
 1. 選取&#x200B;**登入身份**。
 1. 開始輸入您要重設其偏好設定的使用者名稱，然後在名稱出現在下拉式清單中時按一下該名稱。
 1. 選取&#x200B;**登入**。
-1. 如果您的組織尚未上線至Adobe Unified Experience，請依照此步驟操作：
+1. 在網頁瀏覽器頂端的URL欄位中，在`/resetUser`之後新增`workfront`。
 
-   * 在網頁瀏覽器頂端的URL欄位中，在`/resetUser`之後新增`workfront.com`。
-
-     >[!NOTE]
-     >
-     >這會區分大小寫。 U必須為大寫，其餘字元必須為小寫。 例如：
-     >
-     >`https://company_domain.my.workfront.com/resetUser`
-
-1. 如果您的組織已上線到Adobe Unified Experience，請依照此步驟操作：
-
-   * 在網頁瀏覽器頂端的URL欄位中，在`/resetUser`之後新增`workfront`。
-
-     >[!NOTE]
-     >
-     >這會區分大小寫。 U必須為大寫，其餘字元必須為小寫。 例如：
-     >
-     >`https://experience.adobe.com/#/@company/so:(domain)-(environment)/workfront/resetUser`
+   >[!NOTE]
+   >
+   >這會區分大小寫。 U必須為大寫，其餘字元必須為小寫。 例如：
+   >
+   >`https://experience.adobe.com/#/@company/so:(domain)-(environment)/workfront/resetUser`
 
 1. 按&#x200B;**Enter**。
 
-1. 若要重設所有使用者偏好設定，請按一下[重設]。**&#x200B;**
+1. 若要重設所有使用者偏好設定，請按一下[重設]。****
 
    或
 

@@ -8,25 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: d8a01839b8f1332741f87be766f3ccb7d08cef96
+source-git-commit: 579b550fef222922de1ed5fe2c9928a92b3fb7f2
 workflow-type: tm+mt
-source-wordcount: '3441'
+source-wordcount: '3425'
 ht-degree: 0%
 
 ---
 
 # 編輯使用者設定檔
-
-<!--
-
->[!IMPORTANT]
->
->The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
->
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/tw/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
->
->For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
--->
 
 身為Adobe Workfront管理員，您可以建立使用者並管理現有使用者的設定檔。 如需建立使用者的詳細資訊，請參閱[新增使用者](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)。
 
@@ -90,7 +79,7 @@ ht-degree: 0%
 
   如果您使用電子郵件允許清單並輸入不在清單中的電子郵件網域，使用者將不會收到電子郵件通知。 如需允許清單的詳細資訊，請參閱[設定您的電子郵件允許清單](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)。
 
-  如果您的組織已移轉至Adobe Admin Console，您便無法在Workfront中編輯使用者的電子郵件地址。 使用者的電子郵件地址是在Adobe Admin Console中設定。
+  由於您的組織已移轉至Adobe Admin Console，因此您無法在Workfront中編輯使用者的電子郵件地址。 使用者的電子郵件地址是在Adobe Admin Console中設定。
 
 * **變更密碼**：按一下此按鈕，重設使用者的密碼。 您必須先輸入自己的密碼，才能重設其他使用者的密碼。
 
@@ -126,7 +115,7 @@ ht-degree: 0%
 * **工作資訊**：工作的相關資訊，例如工作職稱（在&#x200B;**職稱**&#x200B;欄位中），以及使用者所負責的專業領域（在&#x200B;**與我談關於**&#x200B;欄位中）。
 * **連絡資訊**：使用者的電話號碼(**電話號碼**，**分機。**&#x200B;和&#x200B;**手機號碼**&#x200B;欄位)和地址（在&#x200B;**地址**、**城市**、**州**、**郵遞區號**&#x200B;和&#x200B;**國家**&#x200B;欄位中）。
 
-  如果使用者已啟用統一使用者管理(UUM)或Adobe Identity Management系統(IMS)，則連絡人資訊區段中的&#x200B;**國家/地區**&#x200B;欄位僅接受國家/地區代碼值（例如，US、GB、IN）。
+  連絡人資訊區段中的&#x200B;**國家**&#x200B;欄位只接受國家/地區代碼值（例如，US、GB、IN）。
 
 ### 偏好設定
 
@@ -138,7 +127,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >當您的組織使用Adobe統一體驗時，使用者的語言偏好設定會儲存在其Adobe設定檔中，而不使用電子郵件地區設定。 如需有關存取這些偏好設定的資訊，請參閱[Workfront的Adobe Unified Experience &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+  >當您的組織使用Adobe統一體驗時，使用者的語言偏好設定會儲存在其Adobe設定檔中，而不使用電子郵件地區設定。 如需有關存取這些偏好設定的資訊，請參閱[Workfront的Adobe Unified Experience ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 * **接收來自此測試環境的電子郵件**：如果您要接收來自目前登入之環境的電子郵件通知，請核取此選項。
 
@@ -316,7 +305,7 @@ ht-degree: 0%
 * **資源集區**：將使用者與資源集區建立關聯。 如需詳細資訊，請參閱[將資源集區與使用者關聯](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)。
 * **成本費率**：使用者每小時的成本金額。
 
-  若要取得日期有效成本費率，請按一下[新增費率]。**&#x200B;** 輸入時間期間的成本費率值，並視需要指定「開始日期」與「結束日期」。 成本費率1不會有開始日期，而最後的成本費率不會有結束日期。
+  若要取得日期有效成本費率，請按一下[新增費率]。**** 輸入時間期間的成本費率值，並視需要指定「開始日期」與「結束日期」。 成本費率1不會有開始日期，而最後的成本費率不會有結束日期。
 
   <!--Some dates are added automatically. For example, if Cost Rate 1 does not have an end date, and you add Cost Rate 2 with a start date of May 1, 2023, an end date of April 30, 2023 is added to Cost Rate 1 so that no gaps exist.-->
 
@@ -326,7 +315,7 @@ ht-degree: 0%
 
 * **收費率**：使用者每小時的收費金額。
 
-  若要取得日期有效收費率，請按一下[新增費率]。**&#x200B;** 輸入時間期間的帳單費率值，並視需要指定「開始日期」與「結束日期」。 帳單費率1不會有開始日期，而最後的帳單費率不會有結束日期。
+  若要取得日期有效收費率，請按一下[新增費率]。**** 輸入時間期間的帳單費率值，並視需要指定「開始日期」與「結束日期」。 帳單費率1不會有開始日期，而最後的帳單費率不會有結束日期。
 
   <!--Some dates are added automatically. For example, if Billing Rate 1 does not have an end date, and you add a second with a start date of May 1, 2023, an end date of April 30, 2023 is added to Billing Rate 1 so that no gaps exist.-->
 
@@ -399,8 +388,8 @@ ht-degree: 0%
        <ul> 
       <li> <p><b>Time Zone:</b> The user's time zone.</p> <p>For information about helping users collaborate in Workfront across time zones, see <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Working across time zones</a>.</p> </li>
 
-      <li><p><b>Email Locale</b>: The user's preferred email locale. This affects the format of numbers and dates in the emails that come from Workfront to this user.</p>
-      <p><b>NOTE:</b> When your organization is on the Adobe Unified Experience, the user's language preferences are stored in their Adobe profile and the email locale is not used. For information about accessing these preferences, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p></li> 
+      <li><p><b>Email Locale</b>: The user's preferred email locale. </p>
+      <p><b>NOTE:</b> The user's language preferences are stored in their Adobe profile and the email locale is not used. For information about accessing these preferences, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p></li> 
       
       <li><b>Receive emails from this test environment</b>: Check this option if you want to receive email notifications from the environment that you are currently logged in.
       <p><b>NOTE</b></p>

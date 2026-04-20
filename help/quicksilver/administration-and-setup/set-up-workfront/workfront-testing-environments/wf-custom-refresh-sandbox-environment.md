@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 5b5f9083ed4b60fa6642100cfb9b0da46799dffa
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '1741'
+source-wordcount: '1584'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 >
 >  此外，取得預覽沙箱不需要的自訂重新整理沙箱會另外產生成本。
 >
->  如需有關預覽沙箱的詳細資訊，請參閱[預覽沙箱環境 [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。
+>  如需有關預覽沙箱的詳細資訊，請參閱[預覽沙箱環境 [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。
 
 ## 存取權要求
 
@@ -189,19 +189,25 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 >[!NOTE]
 >
 >行動應用程式上的報表傳送和推播通知一律會在自訂重新整理沙箱環境中停用。 當您存取「自訂重新整理沙箱」環境時，您和[!DNL Workfront]管理員都無法啟用行動應用程式的報表傳送或推播通知。\
->如需生產環境之報表傳送的詳細資訊，請參閱[報表傳送概觀](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)。如需生產環境之行動應用程式上的推播通知詳細資訊，請參閱中的區段。
+>如需生產環境報告傳送的詳細資訊，請參閱[報告傳送概覽](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)。
 
-## 在自訂重新整理沙箱中設定單一登入
+<!--
 
-如果您想要設定自訂重新整理沙箱以搭配單一登入解決方案使用，您可以透過與生產環境分開設定來執行此操作。 自訂重新整理沙箱中的SSO設定與生產環境中的SSO設定無關。\
-當您重新整理自訂重新整理沙箱時，不會從生產環境複製SSO資訊以覆寫自訂重新整理沙箱設定。
+Remove me October 2026
 
-在「自訂重新整理沙箱」中設定單一登入的步驟，類似於在生產環境中設定單一登入的步驟。\
-如需使用SSO設定[!DNL Workfront]的詳細資訊，請參閱[Adobe Workfront單一登入的概觀](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)。
+## Configure Single Sign-On in the Custom Refresh Sandbox
+
+If you want to configure your Custom Refresh Sandbox to work with a Single Sign-On solution, you can do so by configuring it separately from your Production environment. The SSO configuration in the Custom Refresh Sandbox is independent from your SSO configuration in the Production environment.\
+When you refresh your Custom Refresh Sandbox, the SSO information is not copied from your Production environment to overwrite the Custom Refresh Sandbox configuration.
+
+The steps for configuring single sign-on in the Custom Refresh Sandbox are similar to those for configuring it in the Production environment.\
+For more information about configuring [!DNL Workfront] with SSO, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 >[!NOTE]
 >
->如果您組織的[!DNL Workfront]執行個體已啟用Adobe IMS，則無法使用此選項。 如需詳細資訊，請洽詢您的網路或IT管理員。
+>This is not available if your organization's [!DNL Workfront] instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+
+-->
 
 ## 自動重新計算專案時間表
 

@@ -6,10 +6,10 @@ description: 身為擁有Plan授權的使用者，您可以設定以小時或天
 author: Lisa
 feature: Timesheets
 exl-id: 4f801a13-182d-4e06-98ea-f6863f6a8edf
-source-git-commit: b0a3a11a3c04a0969bee99f8e1cea231911f0e6a
+source-git-commit: 58a6b489ca5f1683a5c40c63bb4528b1f49e9324
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 1%
+source-wordcount: '431'
+ht-degree: 5%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 1%
 >
 >我們建議在整個組織內以相同的方式記錄時間（小時或天數），以確保報告準確性。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col>
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -52,11 +52,11 @@ ht-degree: 1%
 
 1. 請根據您的目標和系統中的存取層級，執行下列任一項作業：
 
-   * **自行設定時間記錄的Standard或Plan使用者：**&#x200B;按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](assets/main-menu-icon.png)，然後按一下個人資料圖片旁的使用者名稱。 或者（如果有的話），在頂端導覽區域中按一下您的個人資料圖片，然後按一下&#x200B;**[!UICONTROL Workfront個人資料]**。 然後，按一下您名稱旁的&#x200B;**更多**&#x200B;圖示，並選取&#x200B;**編輯**。
+   * **自行設定時間記錄的Standard或Plan使用者：**&#x200B;請按一下上方導覽區域中的個人資料圖片，然後按一下&#x200B;**[!UICONTROL Workfront個人資料]**。 然後，按一下您名稱旁的&#x200B;**更多**&#x200B;圖示，並選取&#x200B;**編輯**。
 
    * **系統管理員設定其他人的時間記錄：**&#x200B;開始編輯一或多個使用者帳戶，如[編輯使用者的設定檔](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)中所述。
 
-1. 在產生的對話方塊中，在&#x200B;**資源規劃**&#x200B;區段中，找到&#x200B;**在**&#x200B;中記錄時間選項。
+1. 在使用者設定檔對話方塊的&#x200B;**資源規劃**&#x200B;區段中，找到&#x200B;**在**&#x200B;中記錄時間選項。
 
    ![以選項](assets/user-profile-log-time-options.png)記錄時間
 

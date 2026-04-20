@@ -8,14 +8,20 @@ feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: d9d6d572840f5691888d0db3242f3908978079b3
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1409'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Unified Experience]常見問題集
+
+<!--Remove me October 2026-->
+
+>[!NOTE]
+>
+>所有Workfront組織現在都會使用Adobe Unified Experience來存取Workfront。
 
 [!DNL Adobe Unified Experience]的[!DNL Workfront]可讓您透過單一登入在一個位置管理所有[!DNL Adobe]應用程式。 [!DNL Adobe]導覽區域與[!DNL Workfront]緊密整合。 有些功能不同，當您將[!DNL Workfront]執行個體移轉至統一體驗時，可能會有一些問題。
 
@@ -61,7 +67,7 @@ ht-degree: 0%
 
 ### 身為客戶，我需要做什麼來促進移轉？
 
-將會聯絡現有客戶以排程移轉。 移轉團隊支援同事將引導客戶完成程式、建議[!DNL Admin Console]設定，並提供必要的檔案連結，讓移轉過程儘可能簡單且輕鬆自在。 檢閱[[!DNL Adobe Business Platform] 和 [!DNL Admin Console] 常見問題集](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/workfront/faq)以取得詳細資訊。
+將會聯絡現有客戶以排程移轉。 移轉團隊支援同事將引導客戶完成程式、建議[!DNL Admin Console]設定，並提供必要的檔案連結，讓移轉過程儘可能簡單且輕鬆自在。 檢閱[[!DNL Adobe Business Platform] 和 [!DNL Admin Console] 常見問題集](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/workfront/faq)以取得詳細資訊。
 
 ### 對於已為Federated ID啟用此功能與已設定[!DNL Adobe Admin Console] SSO不同功能的公司，您如何處理[!DNL Workfront]？
 

@@ -9,9 +9,9 @@ feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: eb5296348c27f806dd50b997970166ebae4c97f4
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '425'
 ht-degree: 4%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->如果您的組織在Adobe Unified Experience，請按一下上方導覽區域右上角的&#x200B;**Adobe**&#x200B;帳戶選單（您的設定檔圖片），然後按一下&#x200B;**Workfront設定檔**。
+>您可以按一下頂端導覽區域中的Workfront帳戶功能表（您的設定檔圖片），然後選擇Adobe設定檔，以存取您的Workfront設定檔。
 >
 >![workfront設定檔](assets/aue-profile.png)
 

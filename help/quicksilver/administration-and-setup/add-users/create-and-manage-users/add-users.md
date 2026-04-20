@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 1%
+source-wordcount: '1269'
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->* **如果您的組織已加入Adobe Admin Console，您必須透過Adobe Admin Console建立系統管理員。**
+>* **您必須透過Adobe Admin Console建立系統管理員。**
 >
 >   如需在Adobe Admin Console中建立系統管理員的指示，請參閱[在Adobe Admin Console中管理使用者](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
 >
@@ -30,30 +30,31 @@ ht-degree: 1%
 >   如需根據貴組織是否已加入Adobe Admin Console而有所差異的程式清單，請參閱[以平台為基礎的管理差異(Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 >
 >* **如果您的組織使用單一登入(SSO)**，建議您在Adobe Admin Console中建立使用者並將其指派給Workfront。 您可以在Workfront中建立這些使用者，但根據您組織的Admin Console設定方式，將該資訊傳輸至Adobe Admin Console時可能會發生問題。
->  &#x200B;>   在Adobe Admin Console中建立使用者後，您可以在Workfront中設定使用者的資訊，例如指派角色、群組、團隊和存取層級。
+>   在Adobe Admin Console中建立使用者後，您可以在Workfront中設定使用者的資訊，例如指派角色、群組、團隊和存取層級。
 >* **如果您的組織未使用單一登入(SSO)**，您可以直接在Workfront中新增非系統管理員使用者。 您可以在Adobe Admin Console中新增使用者，但若在Workfront中新增使用者，您可於建立使用者時設定其存取層級，藉此節省您的時間。
 
 
 
-您可以從頭開始建立個別使用者，或複製現有使用者，以便在Adobe Workfront中新增使用者。
-
-如需如何同時匯入多個使用者的詳細資訊，請參閱[匯入使用者](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md)。
-
 <!--
-Replace this intro with something like the following when we switch to Admin Console:
-As an Adobe administrator, you can add users in Adobe Workfront by adding them to your Workfront product profile in the Adobe Admin Console. For instructions, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a>.
+
+You can add users in Adobe Workfront by creating individual users from scratch or by copying existing users.
+
+For information about how to import multiple users simultaneously, see [Import users](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
+
 -->
 
-## 存取需求
+身為Adobe管理員，您可以在Adobe Admin Console中將使用者新增至您的Adobe Workfront產品設定檔，以在Workfront中新增使用者。 如需指示，請參閱[在Adobe Admin Console中管理使用者](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
 
-+++ 展開以檢視本文中功能的存取需求。
+## 存取權要求
+
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -124,7 +125,7 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
    >
    >* 如果您的Workfront管理員啟用了與Workfront的SSO整合，那麼如果您停用電子郵件邀請，則僅允許&lt;SSO設定>驗證欄位會隱藏。 同盟ID或&lt;SSO組態>使用者名稱欄位仍然可見。
    >
-   >* 如果您的組織已加入Admin Console，而您透過Workfront新增使用者，則無法傳送電子郵件邀請。
+   >* 由於您的組織已加入Admin Console，而且您透過Workfront新增使用者，因此您無法傳送電子郵件邀請。
    >
    >   對於現有的Adobe使用者，使用者可能會收到也可能不會收到有關Workfront可用性的電子郵件。 這是由Adobe管理員控制的產品偏好設定。
 
@@ -142,8 +143,8 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
    >
    >   1. 前往設定>使用者。
    >   1. 在使用者清單中選取一個或多個使用者。
-   >   1. 按一下清單標題中的三點選單。
-   >   1. 選取&#x200B;**核准**。
+   >   1. 按一下清單標頭中的三點選單。
+   >   1. 選取「**核准**」。
    >   1. 幾分鐘後，重新整理頁面。
 
 
@@ -181,6 +182,6 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
 >[!NOTE]
 >
->如果您的組織已加入Admin Console，而您透過Workfront新增使用者，則無法傳送電子郵件邀請。
+>由於您的組織已加入Admin Console，而且您透過Workfront新增使用者，因此您無法傳送電子郵件邀請。
 >
 >對於現有的Adobe使用者，使用者可能會收到也可能不會收到有關Workfront可用性的電子郵件。 這是由Adobe管理員控制的產品偏好設定。

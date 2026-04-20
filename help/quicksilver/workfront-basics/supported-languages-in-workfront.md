@@ -8,9 +8,9 @@ author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: eb5296348c27f806dd50b997970166ebae4c97f4
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '964'
 ht-degree: 1%
 
 ---
@@ -94,13 +94,13 @@ Workfront中的Web Proof Viewer支援Workfront支援的大部分語言。
 * Workfront Fusion不支援在使用者輸入的欄位中使用非英文文字字元。
 
 貴公司必須購買Workfront Fusion授權才能存取Workfront Fusion。\
-如需Workfront Fusion的詳細資訊，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+如需Workfront Fusion的詳細資訊，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 ## 變更語言
 
 您可以修改下列設定，以變更檢視Workfront的語言和傳出電子郵件的語言：
 
-* 瀏覽器上的語言（適用於不在Adobe Admin Console上的使用者）
+<!--* DELETE THIS SECTION MARCH 2026 The language on your browser (for users not on the Adobe Admin Console)-->
 * AEM設定檔的主要和次要語言（適用於Adobe Admin Console上的使用者）
 * 您Workfront帳戶中的客戶資訊和使用者電子郵件地區設定。
 
@@ -117,14 +117,18 @@ Workfront中的Web Proof Viewer支援Workfront支援的大部分語言。
 * [變更Adobe Experience Cloud語言](#change-the-adobe-experience-cloud-language)
 * [變更Workfront和使用者電子郵件地區設定](#change-the-workfront-and-user-locales)
 
-### 變更瀏覽器語言 {#change-the-browser-language}
+<!--DELETE THIS SECTION MARCH 2026-->
 
-如果貴組織尚未移轉至Adobe Admin Console，當您變更瀏覽器語言時，您的Workfront介面將會以該語言顯示。\
-如需Workfront支援哪些語言的詳細資訊，請參閱[Adobe Workfront支援的語言](#supported-languages)。
+<!--
 
-瀏覽器語言必須依個別使用者變更。
+### Change the browser language {#change-the-browser-language}
 
-如需有關如何變更瀏覽器語言的特定資訊，請參閱瀏覽器的「說明」功能表。
+If your organization has not been migrated to the Adobe Admin Console, when you change the browser language, your Workfront interface displays in that language.   
+For more information about what languages are supported by Workfront, see [Supported languages in Adobe Workfront](#supported-languages).
+
+The browser language must be changed on an individual user basis.
+
+See the "Help" menu for your browser for specific information about how to change the language of your browser.-->
 
 ### 變更Adobe Experience Cloud語言
 
@@ -159,20 +163,23 @@ Workfront中的Web Proof Viewer支援Workfront支援的大部分語言。
 
 ### 變更使用者電子郵件地區設定 {#change-the-user-locale}
 
-變更「使用者電子郵件地區設定」時，您可以修改外寄郵件中使用的語言、日期和數字格式。 這些設定會覆寫在「設定」的「客戶資訊」區域中選取的系統設定。
+<!--
+
+
+When changing your User Email Locale, you modify the language, date, and number format used in your outgoing messages. These settings override the system settings selected in the Customer Info area of Setup.-->
 
 >[!NOTE]
 >
->當您的組織使用Adobe Unified Experience時，語言偏好設定會儲存在您的Adobe設定檔中，並且不使用電子郵件地區設定。 請參閱本文中的[變更Adobe Experience Cloud語言](#change-the-adobe-experience-cloud-language)。
+>語言偏好設定會儲存在Adobe設定檔中，且不會使用電子郵件地區設定。 請參閱本文中的[變更Adobe Experience Cloud語言](#change-the-adobe-experience-cloud-language)。
 
-若要變更您的使用者電子郵件地區設定：
+<!--To change your User Email Locale:
 
 {{step1-click-main-menu}}
 
-1. 按一下您的使用者個人資料圖片。
+1. Click your user profile picture.
 
-1. 按一下[更多]功能表![](assets/more-icon.png)，然後按一下[編輯]&#x200B;**&#x200B;**。
+1. Click the More menu ![](assets/more-icon.png), then click **Edit**.
 
-1. 在&#x200B;**偏好設定**&#x200B;區段中，按一下&#x200B;**電子郵件地區設定**&#x200B;下拉式清單，以選取您希望Workfront電子郵件顯示的語言。
+1. In the **Preferences** section, click the **Email Locale** drop-down list to select the language that you want Workfront emails to display in.
 
-1. 按一下「**儲存變更**」。
+1. Click **Save Changes**.-->

@@ -7,7 +7,7 @@ description: Adobe [!DNL Workfront] 已與一些行動裝置管理(MDM)平台合
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 6f989fb8-5e33-4626-92cf-1d3a629698b0
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 3%
@@ -35,3 +35,5 @@ Workfront行動應用程式現在可在[!DNL Microsoft Intune]應用程式商店
 * Android
 
 您的Workfront執行個體必須位於Adobe Identity Management系統(IMS)。
+
+<!--remove this note October 2026-->

@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: cf09859c-7d6f-4bf0-9b7f-c57096233c94
-source-git-commit: 22ae8b489c63ba6eea1472cf415f95e375a94773
+source-git-commit: d8ccdeac9a658ca7a2862781e98c2c3c6fa0e8a0
 workflow-type: tm+mt
-source-wordcount: '1038'
-ht-degree: 8%
+source-wordcount: '103'
+ht-degree: 11%
 
 ---
 
@@ -29,161 +29,169 @@ ht-degree: 8%
 >
 >本頁所述的程式僅適用於尚未加入Adobe Admin Console的組織。
 >
->若要對應已上線至Adobe Admin Console的組織中的使用者屬性，請參閱對應使用者屬性文章中的[在Adobe中對應統一體驗的使用者屬性](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience)。
+>由於所有組織現已上線至Adobe Admin Console，因此程式已無法使用。
+>
+>若要對應已上線至Adobe Admin Console的組織中的使用者屬性，請參閱文章「對應使用者屬性」中的[對應使用者屬性](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience)。
 
-身為Adobe Workfront管理員，您可以設定Workfront網頁和行動應用程式，以整合單一登入(SSO)的安全宣告標籤語言(SAML) 2.0解決方案。
+<!--Remove me October 2026-->
 
-在Workfront中設定SAML 2.0後，如下列各節所述，您可以維持設定，如身分提供者[中的](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)更新SAML 2.0中繼資料所述。
+<!--
 
-## 存取需求
+As an Adobe Workfront administrator, you can configure the Workfront web and mobile applications to integrate with a Security Assertion Markup Language (SAML) 2.0 solution for single sign-on (SSO).
 
-+++ 展開以檢視本文中功能的存取需求。
+After you have configured SAML 2.0 in Workfront, as described in the following sections, you can maintain the configuration, as described in [Update SAML 2.0 metadata in your identity provider](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md).
+
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td><p>任何</p></td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>標準</p><p>規劃</p></td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard</p><p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是Workfront管理員。</p> </p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## 啟用使用SAML 2.0對Workfront的驗證
+## Enable authentication to Workfront with SAML 2.0
 
 {{step-1-to-setup}}
 
-1. 按一下&#x200B;**系統** > **單一登入(SSO)。**
+1. Click **System** > **Single Sign-On (SSO).**
 
-1. 在&#x200B;**型別**&#x200B;下拉式清單中，選取&#x200B;**SAML 2.0.**
+1. In the **Type** drop-down list, select **SAML 2.0.**
 
-1. 在出現的選項頂端附近，按一下&#x200B;**下載SAML 2.0中繼資料**&#x200B;以在您的電腦上下載檔案。
+1. Near the top of the options that appear, click **Download SAML 2.0 Metadata** to download the file on your computer.
 
-   您的SAML 2.0身分提供者需要XML檔案，其中包含在Workfront執行個體中產生的資訊。 下載檔案後，您必須存取您的SAML 2.0 Identity Provider伺服器，並在該處上傳Workfront SAML 2.0 Metadata XML檔案。
+   Your SAML 2.0 Identity Provider requires an XML file with information generated in your Workfront instance. After downloading the file, you must access your SAML 2.0 Identity Provider server and upload the Workfront SAML 2.0 Metadata XML file there.
 
-1. 在Workfront中指定下列資訊：
+1. Specify the following information in Workfront:
 
    <table style="table-layout:auto">
     <col>
     <col>
     <tbody>
      <tr>
-      <td role="rowheader">服務提供者 ID </td>
-      <td> 此URL已為您填入，可將Workfront識別給您的身分提供者。 例如： <code>&lt;yourcompany&gt;.com/SAML2</code>。</td>
+      <td role="rowheader">Service Provider ID </td>
+      <td> This URL, already populated for you, identifies Workfront to your identity provider. For example: <code>&lt;yourcompany&gt;.com/SAML2</code>.</td>
      </tr>
      <tr>
-      <td role="rowheader">繫結型別</span> </td>
-      <td> <p>選取您的IDP伺服器支援用來傳送驗證資訊的方法：</p>
+      <td role="rowheader">Binding Type</span> </td>
+      <td> <p>Select the method supported by your IDP server for sending authentication information:</p>
        <ul>
-       <li>張貼</li>
-       <li>重新導向</li>
+       <li>POST</li>
+       <li>REDIRECT</li>
        </ul> </td>
      </tr>
      <tr>
-      <td role="rowheader">從身分識別提供者中繼資料填入欄位 </td> 
-      <td>在您的SAML 2.0 Identity Provider解決方案中，匯出Service Provider中繼資料XML檔案，並將其儲存到您電腦上的暫存位置。 選取「<strong>選擇檔案</strong>」，然後尋找並選取您儲存的檔案，以將其新增至您的Workfront設定。</td> 
+      <td role="rowheader">Populate fields from Identity Provider Metadata </td> 
+      <td>In your SAML 2.0 Identity Provider solution, export a Service Provider Metadata XML file and save it to a temporary location on your computer. Select <strong>Choose File</strong>, then find and select the file you saved to add it to your Workfront configuration.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">登入入口網站URL</span> </td> 
-      <td>輸入您組織的通用登入入口網站。 這是使用者登入以存取Workfront和與SAML 2.0整合的所有其他應用程式的URL。</td> 
+      <td role="rowheader">Login Portal URL</span> </td> 
+      <td>Enter your organization's common login portal. This is the URL where users log in to access Workfront and all other applications integrated with SAML 2.0.</td> 
      </tr>
      <tr>
-      <td role="rowheader">登出URL</span> </td> 
-      <td> <p>輸入IDP伺服器的登出URL。 Workfront會在登出Workfront之前傳送HTTP要求至此URL。 當Workfront工作階段關閉時，這會關閉遠端伺服器上的使用者工作階段。</p> <p><b>注意</b>：只有在您的使用者設定檔中啟用<strong>僅允許SAML 2.0驗證</strong>選項時，您才會被重新導向至登出URL。</p> </td>
+      <td role="rowheader">Sign-Out URL</span> </td> 
+      <td> <p>Enter the sign-out URL for the IDP server. Workfront sends an HTTP request to this URL before signing out of Workfront. This closes the user's session on the remote server when the Workfront session is closed.</p> <p><b>NOTE</b>:  You are redirected to the sign-out URL only if you have the option <strong>Only Allow SAML 2.0 Authentication</strong> enabled in your user profile.</p> </td>
      </tr>
      <tr>
-      <td role="rowheader">變更密碼 URL </td> 
-      <td> <p> 指定要重新導向使用者以變更其密碼的URL。 </p> <p>由於SAML 2.0認證是用來存取Workfront，因此必須將使用者重新導向至可以變更其SAML 2.0密碼的頁面，而非透過Workfront完成此活動。</p> </td> 
+      <td role="rowheader">Change Password URL </td> 
+      <td> <p> Specify the URL where users will be redirected to change their passwords. </p> <p>Because the SAML 2.0 credentials are used to access Workfront, users must be redirected to a page where they can change their SAML 2.0 password instead of completing this activity through Workfront.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">安全雜湊演算法 </td> 
-      <td> <p>選取IDP支援的安全雜湊演演算法(SHA)：</p> 
+      <td role="rowheader">Secure Hash Algorithm </td> 
+      <td> <p>Select the Secure Hash Algorithm (SHA) that your IDP supports:</p> 
        <ul> 
        <li>SHA-1</li> 
        <li>SHA-256</li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">自動布建使用者</span> </td> 
-      <td> <p>當具有目錄使用者名稱和密碼的新使用者嘗試首次登入Workfront時，此選項會自動在系統中建立使用者。</p> <p>若要在Workfront中建立使用者，您必須將Workfront資料屬性與目錄提供者中的下列使用者資料屬性對應：</p> 
+      <td role="rowheader">Auto-Provision Users</span> </td> 
+      <td> <p>This option automatically creates a user in the system when a new user with a directory username and password attempts to log in to Workfront for the first time.</p> <p>To create users in Workfront, you must map Workfront data attributes with the following user data attributes in your directory provider:</p> 
        <ul> 
-       <li>名字</li> 
-       <li>姓氏</li> 
-       <li>電子郵件地址</li> 
+       <li>First Name</li> 
+       <li>Last Name</li> 
+       <li>Email Address</li> 
        </ul> 
-       <p>當您選取核取方塊時，會顯示下列選項：</p> 
+       <p>When you select the check box, the following options display:</p> 
        <p> <img src="assets/saml-2.0-auto-provision-users-ui.png"> </p> 
-       <p>從下拉式清單中選取您要對應的Workfront使用者屬性，然後在使用者目錄中指定對應的目錄屬性。</p> 
-       <p><strong>Directory Attribute</strong>欄位應包含您順利測試SAML 2.0組態時儲存的使用者屬性資料表中的目錄屬性名稱。</p> 
-       <p>您可以在<strong>預設值</strong>欄位中設定預設Workfront值。 您也可以根據SAML 2.0身分提供者的值來設定規則。</p> 
-       <p><b>警告</b>： Workfront每次使用者登入系統時，都會嘗試對應下列屬性。 因此，我們不建議對應存取層級。 如果屬性對應不正確，您可以輕鬆移除管理存取權。 按一下<strong>新增對應</strong>以新增其他規則。
+       <p>Select the Workfront User Attribute that you want to map from the drop-down list, then specify the corresponding Directory Attribute in the user directory.</p> 
+       <p>The <strong>Directory Attribute</strong> field should contain the Directory Attribute Name from the User Attribute table you saved when successfully testing your SAML 2.0 configuration.</p> 
+       <p>You can set a Default Workfront Value in the <strong>Default Value</strong> field. You can also set rules based on the values from your SAML 2.0 Identity Provider.</p> 
+       <p><b>WARNING</b>: Workfront attempts to map the attributes listed below every time a user logs into the system. Because of this, we do not recommend mapping access levels. You can easily remove administrative access if an attribute is mapped incorrectly. Click <strong>Add Mapping</strong> to add additional rules.
        </p> 
-       <p>您可以對應下列Workfront屬性：</p> 
+       <p>You can map the following Workfront attributes:</p> 
       <ul> 
-      <li> <p>存取層級</p> </li> 
-      <li> <p>地址</p> </li> 
-      <li> <p>地址 2</p> </li> 
-      <li> <p>每小時計費</p> </li> 
-      <li> <p>城市</p> </li> 
-      <li> <p>公司</p> </li> 
-      <li> <p>每小時成本</p> </li> 
-      <li> <p>電子郵件地址</p> </li> 
-      <li> <p>擴充功能</p> </li> 
-      <li> <p>名字</p> </li> 
-      <li> <p>主群組</p> </li> 
-      <li> <p>主團隊</p> </li> 
-      <li> <p>職務角色</p> </li> 
-      <li> <p>姓氏</p> </li> 
-      <li> <p>版面配置範本</p> </li> 
-      <li> <p>經理</p> </li> 
-      <li> <p>行動電話</p> </li> 
-      <li> <p>電話號碼</p> </li> 
-      <li> <p>郵遞區號</p> </li> 
-      <li> <p>排程</p> </li> 
-      <li> <p>狀態</p> </li> 
-      <li> <p>時程表設定檔</p> </li> 
-      <li> <p>標題</p> </li> 
+      <li> <p>Access Level</p> </li> 
+      <li> <p>Address</p> </li> 
+      <li> <p>Address2</p> </li> 
+      <li> <p>Billing Per Hour</p> </li> 
+      <li> <p>City</p> </li> 
+      <li> <p>Company</p> </li> 
+      <li> <p>Cost Per Hour</p> </li> 
+      <li> <p>Email Address</p> </li> 
+      <li> <p>Extension</p> </li> 
+      <li> <p>First Name</p> </li> 
+      <li> <p>Home Group</p> </li> 
+      <li> <p>Home Team</p> </li> 
+      <li> <p>Job Role</p> </li> 
+      <li> <p>Last Name</p> </li> 
+      <li> <p>Layout Template</p> </li> 
+      <li> <p>Manager</p> </li> 
+      <li> <p>Mobile Phone</p> </li> 
+      <li> <p>Phone Number</p> </li> 
+      <li> <p>Postal Code</p> </li> 
+      <li> <p>Schedule</p> </li> 
+      <li> <p>State</p> </li> 
+      <li> <p>Timesheet Profile</p> </li> 
+      <li> <p>Title</p> </li> 
       </ul>
-      <p>完成對應使用者屬性時，按一下<strong>儲存</strong>。</p> </td> 
+      <p>Click <strong>Save</strong> when you are finished mapping user attributes.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">憑證 </td> 
-      <td> <p>上傳有效的SSL憑證，以確保驗證服務與Workfront之間的安全連線。 對於OnDemand帳戶，一律需要憑證。 您可以向SAML 2.0系統管理員取得此憑證。</p> </td> 
+      <td role="rowheader">Certificate </td> 
+      <td> <p>Upload a valid SSL certificate to ensure a secure connection between the authentication service and Workfront. For OnDemand accounts, a certificate is always required. You can obtain this certificate from your SAML 2.0 system administrator.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">管理豁免 </td> 
-      <td> <p>可讓Workfront管理員使用其Workfront登入資料存取Workfront。 如果未選取此選項，Workfront管理員必須使用其SAML 2.0使用者名稱和密碼。</p> 
-      <p>Workfront會先嘗試透過SAML 2.0為具有Workfront系統管理員存取層級的使用者登入Workfront。 如果SAML 2.0驗證失敗，Workfront會為Workfront管理員使用本機驗證。</p> 
-      <p>如果您的SAML 2.0提供者暫時無法使用，建議您一律選取此選項，以便讓Workfront管理員可以登入Workfront。</p> </td> 
+      <td role="rowheader">Admin Exemption </td> 
+      <td> <p>Allows Workfront administrators to access Workfront using their Workfront login. If this option is not selected, Workfront administrators must use their SAML 2.0 username and password.</p> 
+      <p>Workfront first attempts to log in to Workfront via SAML 2.0 for users with the Workfront System Administrator access level. If the SAML 2.0 authentication fails, Workfront uses local authentication for Workfront administrators.</p> 
+      <p>We recommend that you always have this option selected so that your Workfront administrator can log in to Workfront if your SAML 2.0 provider is ever temporarily unavailable.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">啟用 </td> 
-      <td> <p>在Workfront系統上啟用SSO。 確定您已向使用者傳達登入指示。</p> <p>在Workfront中啟用SSO設定後，您必須為所有使用者啟用<strong>僅允許SAML 2.0驗證</strong>設定，讓他們可以使用SSO。</p> <p>如需更新SSO使用者的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">更新單一登入的使用者</a>。</p> <p>如需使用者設定的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">編輯使用者的設定檔</a>。</p> </td> 
+      <td role="rowheader">Enable </td> 
+      <td> <p>Activates SSO on the Workfront system. Ensure that you have communicated login instructions to your users.</p> <p>After you enable your SSO configuration in Workfront, you must enable the <strong>Only Allow SAML 2.0 Authentication</strong> setting for all users so that they can use SSO.</p> <p>For more information about updating users for SSO, see <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Update users for single sign-on</a>.</p> <p>For more information about user settings, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">確認設定 </td> 
+      <td role="rowheader">Confirm Configuration </td> 
       <td> 
-      <p>按一下「<strong>測試連線</strong>」以確認Workfront與SAML 2.0身分提供者可以互相通訊。 只有當您交換XML檔案時，此連線才會成功。
+      <p>Click <strong>Test Connection</strong> to verify that Workfront and the SAML 2.0 Identity Provider can communicate with each other. This connection is successful only if you exchanged the XML files.
       </p> 
-      <p>成功測試SAML 2.0身分提供者與Workfront之間的連結後，您會看到類似下圖的畫面。</p>
-      <p><b>注意</b>：此畫面會顯示在瀏覽器快顯視窗中，因此請確定您停用瀏覽器中的快顯封鎖程式。</p>
-      <p>儲存表格中顯示的資訊以供稍後使用。</p>
+      <p>After you successfully test the link between your SAML 2.0 Identity Provider and Workfront, you will see a screen similar to the image below.</p>
+      <p><b>NOTE</b>:  This screen is displayed in a browser pop-up, so ensure that you disable pop-up blockers in your browser.</p>
+      <p>Save the information displayed in the table for later use.</p>
       <p><img src="assets/success-table-saml-2.png"></p></td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 按一下&#x200B;**儲存**&#x200B;以儲存SAML 2.0設定。
+1. Click **Save** to save the SAML 2.0 configuration.
+
+-->
