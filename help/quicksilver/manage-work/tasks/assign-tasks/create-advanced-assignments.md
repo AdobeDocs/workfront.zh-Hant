@@ -9,9 +9,9 @@ role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
+source-git-commit: daaa13d5a3ebbd249f0093181ee7834f9db43fdb
 workflow-type: tm+mt
-source-wordcount: '3415'
+source-wordcount: '3457'
 ht-degree: 0%
 
 ---
@@ -96,13 +96,10 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 此「進階工作總攬」的版面配置僅適用於任務。 如需瞭解問題，請參閱[建立進階指派 — 所有其他封裝](#create-advanced-assignments--all-other-packages)。
 
-<!--
-
 >[!NOTE]
 >
->Use the experience switcher to choose between the old and new Advanced Assignments experiences. For information about the old experience, see [Create Advanced Assignments – all other packages](#create-advanced-assignments--all-other-packages), below.
-
--->
+>預設為舊的進階指派體驗。 您必須使用「進階指定」視窗右上角的按鈕，手動開啟新體驗。
+>如需舊體驗的相關資訊，請參閱下方的[建立進階工作分派 — 所有其他套件](#create-advanced-assignments--all-other-packages)。
 
 1. 前往您要指派任務的專案。
 1. 按一下左側面板中的&#x200B;**任務**&#x200B;或&#x200B;**問題**，然後按一下清單中任務的名稱。
