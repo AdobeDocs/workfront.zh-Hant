@@ -8,9 +8,9 @@ author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 539f87ddeab85eb6e8a028bcb6e394c3cd179c4d
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '3558'
+source-wordcount: '3536'
 ht-degree: 1%
 
 ---
@@ -18,10 +18,11 @@ ht-degree: 1%
 
 # 連接記錄
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -54,8 +55,17 @@ ht-degree: 1%
 
    * Adobe Experience Manager
 
-      * 影像檔案
-      * 資料夾
+      * 資產
+
+        您可以從Workfront Planning連線下列型別的資產：
+
+         * 影像檔案
+         * 資料夾
+      * 內容片段
+
+* Adobe GenStudio for Performance Marketing
+
+   * 品牌
 
   <!--when you add more objects, fix the Access Requirements below which right now refer only to projects-->
 
@@ -75,8 +85,8 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
-<p>任何Workfront和任何Planning套件</p>
-<p>任何工作流程與任何Planning套件</p>
+<p>任何Workfront或Workflow套件</p>
+<p>任何Planning套件</p>
 <p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
    </td> 
 <tr> 
@@ -84,10 +94,10 @@ ht-degree: 1%
    <p> 其他產品</p> </td> 
    <td> 
    <p> 除了Adobe Workfront之外，如果您想要將記錄與下列應用程式的物件連線，也必須具備下列專案：</p>
-   <ul><li><p>Adobe Experience Manager Assets授權及AEM Assets與Workfront之間的整合，用於連結AEM資產與Planning型別。</p>
+   <ul><li><p>Adobe Experience Manager授權及Adobe Experience Manager與Workfront之間的整合，用於連結AEM資產或內容片段與Planning記錄型別。</p>
    <p>如需詳細資訊，請參閱<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 連線記錄型別與GenStudio Brands的Adobe GenStudio for Performance Marketing授權</p>
-   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
+   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
    </td> 
   </tr>   
 <tr> 
@@ -262,7 +272,7 @@ Old:
 
    或
 
-   在方塊中選取一或多個記錄的名稱，然後按一下[連線物件]。**&#x200B;**
+   在方塊中選取一或多個記錄的名稱，然後按一下[連線物件]。****
 
    新增下列專案：
 
@@ -343,7 +353,7 @@ Old:
 
    或
 
-   在方塊中選取一或多個物件的名稱，然後按一下[連線物件]。**&#x200B;**
+   在方塊中選取一或多個物件的名稱，然後按一下[連線物件]。****
 
    >[!IMPORTANT]
    >
@@ -385,17 +395,21 @@ Old:
 
 >[!IMPORTANT]
 >
->您必須擁有Adobe Experience Manager Assets授權，且貴組織的Workfront執行個體必須上線至Adobe商業平台或Adobe Admin Console，才能將Workfront Planning記錄連線至Adobe Experience Manager Assets。
+>您必須擁有Adobe Experience Manager授權，且貴組織的Workfront執行個體必須上線至Adobe商業平台或Adobe Admin Console，才能將Workfront Planning記錄連線至Adobe Experience Manager。
 >
 >如果您對加入Adobe Admin Console有任何疑問，請參閱[Adobe統一體驗常見問題集](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)。
 
-在記錄型別和Adobe Experience Manager Assets之間建立連線後，您可以將個別記錄連線到Experience Manager資產。 當您建立連線時，您從Experience Manager連線的資產欄位會自動填入您連結的記錄型別中。
+在記錄型別與Adobe Experience Manager物件之間建立連線後，您可以將個別記錄連線至Experience Manager物件。 當您建立連線時，您從Experience Manager連線的資產欄位會自動填入您連結的記錄型別中。
 
 >[!NOTE]
 >
->當您的Experience Manager Assets管理員透過Workfront與Workfront之間的整合設定中繼資料對應時，可從Adobe Experience Manager Assets存取Planning記錄及其欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+>當您的Experience Manager Assets管理員透過Workfront與Workfront之間的整合設定中繼資料對應時，可從Adobe Experience Manager Assets存取Planning記錄及其欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
-若要將記錄與Experience Manager資產連線：
+<!--
+not sure if the above 2 paragraphs also apply to fragments; checking with Court and the Andy
+-->
+
+若要將記錄與Experience Manager物件連線：
 
 {{step1-to-planning}}
 
@@ -403,24 +417,27 @@ Old:
 
    工作區隨即開啟，且記錄型別隨即顯示。
 1. 按一下記錄型別的卡片以開啟記錄型別頁面。
-1. 從記錄型別頁面右上角的&#x200B;**檢視**&#x200B;下拉式功能表中選取&#x200B;**表格**&#x200B;檢視。
+1. 從記錄型別頁面左上角的&#x200B;**檢視**&#x200B;下拉式功能表中選取&#x200B;**表格**&#x200B;檢視。
 
 1. （選擇性）按一下&#x200B;**新增記錄**&#x200B;以將新記錄新增至您選取的記錄型別。 如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
-1. （視條件而定）將選取的記錄型別與Experience Manager連線後，請移至記錄上的已連線欄位，然後按一下該欄位，或按一下「**連線**」將Experience Manager資產新增至記錄，然後按一下「**+**」圖示。
+1. （視條件而定）將選取的記錄型別與Experience Manager物件連線後，請移至記錄上已連線的欄位，然後按一下該欄位，或按一下&#x200B;**連線**&#x200B;將Experience Manager物件新增至記錄，然後按一下&#x200B;**+**&#x200B;圖示。
 
    >[!TIP]
    >
-   >  您可以在記錄頁面中的連結物件欄位中新增按一下&#x200B;**+**&#x200B;圖示，以將資產連線到記錄。
+   >  您可以按一下記錄詳細資訊頁面中連結物件欄位中的&#x200B;**+**&#x200B;圖示，將資產連線到記錄。
 
    「內容建議程式」方塊隨即顯示。
 
    適用於AEM記錄連線的![內容警告器方塊](assets/content-advisor-assets-nothing-selected.png)
 
-   <!-- The **Select Assets** box displays. we might change this to Connect assets.-->
+   <!--
+    The **Select Assets** box displays. we might change this to Connect assets.
+    -->
 
-   <!-- ![Select assets box for AEM record connections](assets/select-assets-box-for-aem-record-connections.png)-->
+   <!--
+    ![Select assets box for AEM record connections](assets/select-assets-box-for-aem-record-connections.png)-->
 
-1. 按一下以從&#x200B;**Assets**&#x200B;區域選取下列某些型別的資產：
+1. 在&#x200B;**Assets**&#x200B;標籤中，按一下以選取下列部分資產型別：
 
    * 影像
    * 資料夾
@@ -430,20 +447,20 @@ Old:
    >[!IMPORTANT]
    >
    > 您只能連線您有權在Experience Manager中檢視的資產。 連線之後，所有Workfront Planning使用者都能在Workfront Planning中檢視資產，無論他們在Experience Manager Assets中的存取權為何。
-   > 如需「內容警告器」的詳細資訊，請參閱[使用「內容警告器」存取Adobe應用程式中的AEM內容](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}。
+   > 如需「內容警告器」的詳細資訊，請參閱[使用「內容警告器」存取Adobe應用程式中的AEM內容](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}。
 
-1. 按一下&#x200B;**內容片段**&#x200B;以選取要新增至連結記錄欄位的內容片段。
+1. 從&#x200B;**內容片段**&#x200B;索引標籤中，選取要新增至連結記錄欄位的內容片段。
 
-   如需內容片段的詳細資訊，請參閱[使用內容警告器存取Adobe應用程式中的AEM內容](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}。
+   如需內容片段的詳細資訊，請參閱[使用內容警告器存取Adobe應用程式中的AEM內容](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}。
 
 1. 當您完成選擇資產或內容片段時，請按一下&#x200B;**選取**。<!-- we might change this to Connect-->
 
    新增下列專案：
 
-   * 選取的Experience Manager資產會新增至連結的記錄欄位。
-   * 連結欄位（或查詢欄位）會填入來自Experience Manager連線資產的資訊。
+   * 選取的Experience Manager資產或內容片段會新增至連結的記錄欄位。
+   * 連結欄位（或查詢欄位）會填入來自Experience Manager連線物件的資訊。
 
-     Experience Manager資產欄位中的任何現有資訊都會自動顯示在連結或查詢欄位中。
+     Experience Manager資產或內容片段欄位中的任何現有資訊都會自動顯示在連結或查詢欄位中。<!--verifying of fragments also share lookup fields - not sure from the UI available-->
 
      >[!TIP]
      >
@@ -451,7 +468,7 @@ Old:
      >
      >* 連結至Workfront Planning連結記錄的連結記錄欄位不會在Experience Manager Assets應用程式中為連結的Experience Manager資產建立。
 
-1. （可選）前往您連結至Experience Manager的記錄型別，然後在連結的記錄欄位中按一下資產名稱。 資產的Experience Manager詳細資訊會顯示在快顯視窗中。
+1. （選擇性和條件性）對於資產，請轉至您連結至Experience Manager的來源記錄型別，然後在連結的記錄欄位中按一下資產名稱。 資產的Experience Manager詳細資訊會顯示在快顯視窗中。<!--not sure if this is also possible for fragments??-->
 
    ![包含AEM詳細資料和縮圖的資產快顯視窗](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
 
@@ -467,13 +484,13 @@ Old:
    * 建立日期
    * 修改日期
 
-1. （可選）若要在Experience Manager中開啟Experience Manager資產記錄頁面，請前往您連結來源記錄的記錄型別頁面，在連結的記錄欄位中按一下資產名稱以開啟快顯視窗，然後按一下&#x200B;**在AEM中開啟**&#x200B;圖示![在AEM中開啟資產圖示](assets/open-asset-icon.png)以開啟資產。
+1. （選擇性和條件性）對於資產，若要在Experience Manager中開啟Experience Manager資產記錄頁面，請前往您連結來源記錄的記錄型別頁面，在連結的記錄欄位中按一下資產名稱以開啟快顯視窗，然後按一下&#x200B;**在AEM中開啟**&#x200B;圖示![在AEM中開啟資產圖示](assets/open-asset-icon.png)以開啟資產。<!--not sure if this is also possible for fragments??-->
 
    如此即會在Adobe Experience Manager Assets中開啟Experience Manager資產。
 
-1. （選擇性）在記錄型別的表格檢視中，暫留在連結Experience Manager資產的欄標題上，按一下下拉式功能表，然後按一下&#x200B;**編輯查詢欄位**。
+1. （選擇性和條件性）對於資產，在記錄型別的表格檢視中，暫留在連結Experience Manager資產的欄標題上，然後按一下下拉式功能表，然後按一下&#x200B;**編輯查閱欄位**。<!--not sure if this is also possible for fragments??-->
 
-1. 從&#x200B;**未選取的欄位**&#x200B;區域新增Experience Manager Assets物件欄位
+1. 從&#x200B;**未選取的欄位**&#x200B;區域<!--not sure if this is also possible for fragments??-->新增Experience Manager Assets物件欄位
 
    或
 
@@ -500,7 +517,7 @@ Old:
    >
    >    依預設，只會顯示已連線個別記錄的已連線記錄。
 
-1. （選擇性）按一下[顯示所有連線]&#x200B;**&#x200B;**&#x200B;以顯示所有連線的記錄型別，包括沒有連線記錄的記錄型別。
+1. （選擇性）按一下[顯示所有連線]****&#x200B;以顯示所有連線的記錄型別，包括沒有連線記錄的記錄型別。
 
 1. （選擇性）按一下區段左側的向下箭頭以收合區段。
 

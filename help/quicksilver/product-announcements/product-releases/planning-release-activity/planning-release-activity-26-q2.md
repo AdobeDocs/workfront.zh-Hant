@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 540d56017dccf238d301e81085b62b5163b71103
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '1984'
+source-wordcount: '2042'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,7 @@ ht-degree: 0%
 >預覽： 2026年4月16日
 >生產快速發行： 2026年4月16日
 >每個人都能使用生產： 2026年4月16日
+>[!BADGE 不在排程]{type=Neutral}內
 
 您現在可以在Workfront Planning中存取Experience Manager的內容建議程式。 「內容建議程式」可讓您：
 
@@ -187,21 +188,18 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[階層與階層連結概觀](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)。
 
-<!--
-
-## New field type for Record ID  
+## 記錄ID的新欄位型別
 
 >[!NOTE]
 >
->Preview: March 12, 2026
->Production fast release: April 15, 2026
->Production for everyone: April 16, 2026
+>預覽： 2026年3月12日
+>生產快速發行： 2026年4月15日
+>每個人都能使用生產： 2026年4月16日
 
-We have added a new field type for Record ID. This is a system-generated alpha-numeric indicator which uniquely identifies each record. The field displays in any record view as well as the record details area.  
+我們為記錄ID新增了欄位型別。 這是系統產生的英數字元指標，可唯一識別每筆記錄。 該欄位將顯示在任何記錄檢視以及記錄詳細資訊區域中。
 
-For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
+如需詳細資訊，請參閱[建立欄位](/help/quicksilver/planning/fields/create-fields.md)。
 
--->
 
 ## 允許非管理員使用者將記錄型別設為可連線
 

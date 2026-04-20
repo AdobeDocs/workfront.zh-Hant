@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '894'
 ht-degree: 1%
 
 ---
@@ -138,8 +138,8 @@ Old:
 * 不支援空白工作表。
 * 不支援下列型別的欄位，且無法對應至匯入工作表上的欄位：
 
-   * Workfront、AEM Assets物件型別或GenStudio品牌的連線欄位。
-   * 從連線的Planning記錄、Workfront、AEM Assets物件或GenStudio品牌中查詢欄位。
+   * Workfront、Adobe Experience Manager物件型別或GenStudio品牌的連線欄位。
+   * 從連線的Planning記錄、Workfront、Adobe Experience Manager物件或GenStudio品牌中查詢欄位。
    * 公式欄位
    * 建立日期，建立者
    * 上次修改日期，上次修改者：
@@ -203,11 +203,11 @@ Old:
 
    >[!TIP]
    >
-   >您只能對應至Workfront Planning連線記錄中的欄位。 您無法對應至Workfront、AEM Assets或GenStudio Brands連線的欄位。 如需詳細資訊，請參閱本文中[關於使用Excel或CSV檔案匯入記錄型別的考量事項](#considerations-about-importing-record-types-using-an-excel-or-csv-file)一節。
+   >您只能對應至Workfront Planning連線記錄中的欄位。 您無法對應至Workfront、Adobe Experience Manager或GenStudio Brands連線的欄位。 如需詳細資訊，請參閱本文中[關於使用Excel或CSV檔案匯入記錄型別的考量事項](#considerations-about-importing-record-types-using-an-excel-or-csv-file)一節。
 
 1. （視條件而定）更新欄位相關資訊後，按一下&#x200B;**儲存**。
 
-1. 當您準備好匯入您的檔案時，請按一下[匯入]。**&#x200B;**
+1. 當您準備好匯入您的檔案時，請按一下[匯入]。****
 
    下列資訊會匯入Workfront Planning中：
 

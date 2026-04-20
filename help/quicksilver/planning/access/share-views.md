@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '2016'
+source-wordcount: '2005'
 ht-degree: 1%
 
 ---
@@ -18,12 +18,15 @@ ht-degree: 1%
 
 # 共用檢視
 
-<!--there are several mentions on how to share public links for global record types in secondary workspaces in this articel; you have to update all of these mentions when something changes-->
+<!--
+there are several mentions on how to share public links for global record types in secondary workspaces in this articel; you have to update all of these mentions when something changes
+-->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -217,7 +220,7 @@ Old:
    >
    >* 除了團隊、群組、公司和職務角色之外，您只能與已新增至Adobe Admin Console的使用者共用。 您無法新增僅限Workfront的使用者。 如需詳細資訊，請參閱[在Adobe Admin Console中管理使用者](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
    >
-   >* 當您和使用者共用檢視時，其主要工作角色<span class="preview">和他們的電子郵件</span>也會顯示在欄位中。 您必須在存取層級中為使用者物件啟用「檢視連絡人資訊」設定，才能檢視使用者的電子郵件。
+   >* 當您和使用者共用檢視時，他們的主要工作角色和電子郵件也會顯示在欄位中。 您必須在存取層級中為使用者物件啟用「檢視連絡人資訊」設定，才能檢視使用者的電子郵件。
 
    * **工作區中的所有人都可以檢視**：所有對工作區具有「檢視」或更高許可權的使用者都可以存取檢視。
 
@@ -225,7 +228,7 @@ Old:
 
    ![與群組共用檢視](assets/sharing-a-view-ui-with-groups.png)
 
-1. <span class="preview"> （選擇性）當您與群組、團隊、角色或公司共用時，將滑鼠游標停留在實體的名稱上，然後按一下向右箭頭，以展開正在接收許可權的使用者清單。</span>
+1. （選擇性）當您與群組、團隊、角色或公司共用時，將滑鼠指標暫留在實體的名稱上，然後按一下向右的箭頭，以展開正在接收許可權的使用者清單。
 
    ![與團隊共用檢視](assets/share-view-with-team-expanding-arrow-highlighted.png)
 
@@ -239,15 +242,20 @@ Old:
 
 1. 按一下「**儲存**」。
 
-   檢視會以人員圖示![與他人共用的檢檢視示](assets/view-shared-with-others-people-icon.png)更新，表示檢視現在與其他使用者共用。
-
    您共用檢視的使用者會同時收到應用程式內和電子郵件通知，告知其擁有檢視的許可權。
 
-   >[!TIP]
-   >
-   >沒有人員或全域圖示的檢視是您建立的檢視，不會與他人共用。 非共用檢視僅對您可見。
-
 1. 與他人共用複製的連結。 收到連結的使用者必須是作用中使用者，並登入Workfront，才能存取記錄型別頁面並在選取的檢視中顯示該頁面。
+
+1. （可選）將滑鼠懸停在檢視名稱上，即可瞭解檢視擁有者的名稱，以及檢視是私人共用還是公開共用。
+
+   存在下列標籤：
+
+   * **公用**：檢視已公開共用。 如需詳細資訊，請參閱本文章的[共用公開檢視的許可權](#share-permissions-to-a-view-publicly)一節。
+   * **由您擁有**：檢視是由您建立的。
+   * **與您共用**：檢視是由其他人建立並與您共用。 也會顯示擁有者的名稱。
+   * **私人**：您已建立檢視，或其他人已建立檢視，但並未公開共用。
+
+   ![私人共用檢視暫留在標籤](assets/privately-shared-view-hover-over-label.png)上
 
 ## 共用許可權以公開檢視
 
@@ -296,22 +304,16 @@ Old:
 
 1. 按一下「**儲存**」。
 
-   檢視會以全域圖示![醒目提示的公用共用檢檢視示](assets/public-shared-view-icon-highlighted.png)更新，表示檢視已公開共用。
+1. （可選）將滑鼠懸停在檢視清單中的檢視名稱上，並注意該檢視表示它現在已公開共用。
 
-   >[!TIP]
-   >
-   >沒有人員或全域圖示的檢視是您建立的檢視，不會與他人共用。 非共用檢視僅對您可見。
+   ![公開共用檢視暫留在標籤](assets/publicly-shared-view-hover-over-label.png)上
 
 1. （可選）將您複製的連結貼到電子郵件、聊天訊息、檔案，或貼到Workfront註解中，以便與其他人共用。
 
-   <div class="preview">
-
    當其他人開啟公開檢視時，他們會在標題中看到有關檢視的下列資訊：
 
-   * 檢視名稱和圖示
+   * 檢視名稱和圖示。 圖示會指出檢視的型別：表格、時間表或行事曆。
    * 檢視顯示的記錄型別名稱
-
-   </div>
 
 ## 複製檢視的連結
 
@@ -353,7 +355,7 @@ Old:
      ![檢視](assets/in-app-notification-for-access-request-for-view.png)存取要求的應用程式內通知
 1. （視條件而定）從Workfront的通知區域，按一下應用程式內通知
 或
-在電子郵件通知中，按一下&#x200B;**檢視所有通知**，然後按一下清單中的通知。
+在電子郵件通知中，按一下**檢視所有通知**，然後按一下清單中的通知。
 
    顯示&#x200B;**擱置中的存取要求**&#x200B;方塊。
 

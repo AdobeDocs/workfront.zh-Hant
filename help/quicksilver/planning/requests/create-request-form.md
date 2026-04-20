@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '3602'
+source-wordcount: '3603'
 ht-degree: 1%
 
 ---
@@ -185,7 +185,7 @@ ht-degree: 1%
 
    或
 
-   在[要求表單]清單上找出要求表單，按一下表單名稱旁的方塊，然後按一下畫面底部藍色列中的[編輯表單]。**&#x200B;**
+   在[要求表單]清單上找出要求表單，按一下表單名稱旁的方塊，然後按一下畫面底部藍色列中的[編輯表單]。****
 
    所選記錄型別的請求表單會在「表單」標籤中開啟。
 
@@ -333,7 +333,7 @@ ht-degree: 1%
    無法重新排序預設規則。
 
 1. （選擇性）若要刪除路由規則，請按一下規則右側的&#x200B;**X**。
-1. 按一下[儲存]儲存核准規則。**&#x200B;**
+1. 按一下[儲存]儲存核准規則。****
 1. 繼續[設定要求完成選項](#set-request-completion-options)
 
 #### 設定請求完成選項
@@ -482,7 +482,7 @@ For information on creating automations in other areas of Workfront Planning, se
    >
    >* 包含下列欄位型別的表單無法公開共用：
    >
-   >     * Workfront或AEM Assets連線
+   >     * Workfront或Adobe Experience Manager連線
    >     * 人員
    >
 

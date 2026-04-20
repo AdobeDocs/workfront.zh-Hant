@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '4066'
+source-wordcount: '4067'
 ht-degree: 2%
 
 ---
@@ -194,7 +194,7 @@ Old:
    >在「設定」區域中設定自訂季度後，時間軸檢視會顯示自訂季度，而非傳統季度。
    >如需詳細資訊，請參閱[啟用自訂季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
-1. （視條件而定）如果您是Workfront管理員，請按一下&#x200B;**前往設定**&#x200B;設定您的季度。 如果沒有，請按一下[確定] **&#x200B;**，並要求Workfront管理員設定自訂季度。
+1. （視條件而定）如果您是Workfront管理員，請按一下&#x200B;**前往設定**&#x200B;設定您的季度。 如果沒有，請按一下[確定] ****，並要求Workfront管理員設定自訂季度。
 
    >[!TIP]
    >
@@ -251,7 +251,7 @@ Old:
 
    >[!TIP]
    >
-   >對於在劃分中顯示的Workfront和AEM Assets物件型別，無法在時間軸中調整記錄大小並進行拖放。
+   >對於在劃分中顯示的Workfront和Adobe Experience Manager物件型別，無法在時間軸中調整記錄大小並進行拖放。
 
 1. 更新下列檢視元素，如下列子區段所述：
    * [篩選器](#add-filters)
