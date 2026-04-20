@@ -51,7 +51,7 @@ ht-degree: 0%
    >
    >請準備好與Workfront支援和您的IT團隊討論驗證偏好設定，例如單一登入(SSO)或非SSO。
 
-   如需指示，請參閱[Adobe Admin Console部署指南](https://helpx.adobe.com/enterprise/using/deployment-planning.html)的Identity Management一節。
+   如需指示，請參閱[Adobe Admin Console部署指南](https://helpx.adobe.com/tw/enterprise/using/deployment-planning.html)的Identity Management一節。
 
 1. （視條件而定）如果使用單一登入，請將新的Adobe Admin Console連線至您現有的SSO提供者。
 
