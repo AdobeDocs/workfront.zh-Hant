@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c38e60dd-7fb2-4afc-976a-b0966398c162
-source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
+source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 6%
@@ -17,7 +17,9 @@ ht-degree: 6%
 
 # 專案的推送率變更
 
-將費率卡附加至專案<!--or a staffing plan-->時，費率卡上的費率仍可調整。 然後，您可以選擇將這些費率推送到費率卡附加到的專案<!--and staffing plans -->。 如果您不推動新費率，則原始費率會保留在專案<!-- or staffing plan-->上。
+將費率卡附加至專案<!--or a staffing plan-->時，費率卡上的費率仍可調整。 然後，您可以選擇將這些費率推送至費率卡附加至的專案。 如果您不推送新費率，則原始費率會保留在專案上。
+<!-- and staffing plans -->
+<!-- or staffing plan -->
 
 如需有關將費率卡附加至專案的資訊，請參閱[將費率卡附加至專案](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)。
 
@@ -35,11 +37,11 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td>[!UICONTROL 標準]</td>
+   <td>[！UICONTROL標準]</td>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>編輯[!UICONTROL 費率卡]的存取權</td> 
+   <td>編輯[！UICONTROL費率卡]的存取權</td> 
   </tr> 
   <tr> 
    <td>物件許可權</td> 
@@ -60,7 +62,12 @@ ht-degree: 6%
 1. 按一下「費率卡」清單中的費率卡名稱。
 1. 在「費率卡>職務角色與費率」畫面上，驗證費率是否正確，並視需要編輯任何費率。
 1. 按一下&#x200B;[!UICONTROL **推送變更**]。
-1. 在&#x200B;[!UICONTROL **套用至所有專案**]<!--/staffing plans-->&#x200B;對話方塊中，預設會選取使用此費率卡的所有專案<!--and staffing plans -->。 如果您不想讓專案<!--or staffing plan -->套用費率變更，則必須取消選取該專案。
+1. 在&#x200B;[!UICONTROL **套用至所有專案**]&#x200B;對話方塊中，預設會選取使用此費率卡的所有專案。 如果您不想讓專案套用費率變更，則必須取消選取專案。
+
+   <!--/staffing plans-->
+   <!--and staffing plans -->
+   <!--or staffing plan -->
+
 1. 按一下「[!UICONTROL **儲存**]」。
 
    新的費率現在會反映在使用費率卡的專案<!--and staffing plans -->上。

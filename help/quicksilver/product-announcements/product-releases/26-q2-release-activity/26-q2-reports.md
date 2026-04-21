@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 1ef6ead705231a41cbf62b8a8b35f480da004970
+source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ht-degree: 0%
 >生產快速發行： 2026年4月15日
 >每個人都能使用生產： 2026年4月16日
 
-Workfront現在包含排程報告的新連結傳送型別。 此選項不會產生和附加檔案，而是會傳送一封電子郵件，其中包含到Workfront中報告的直接連結，可讓收件者檢視{{$include }}應用程式中的最新資料。
+Workfront現在包含排程報告的新連結傳送型別。 此選項不會產生和附加檔案，而是會傳送一封電子郵件，其中包含到Workfront中報告的直接連結，可讓收件者檢視`{{$include }}`應用程式中的最新資料。
 
 「連結」選項現在成為新建立排程報告傳送規則的預設傳送型別，而現有檔案型格式（HTML、PDF、Excel和TSV）仍可使用。
 

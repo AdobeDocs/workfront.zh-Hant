@@ -8,10 +8,10 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: f9c2c7192254a0d0c04056bc4c193eb35d4116b5
 workflow-type: tm+mt
 source-wordcount: '1114'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -29,20 +29,20 @@ ht-degree: 2%
 >
 >若要允許[!DNL Workfront Proof]與[!DNL Workfront]伺服器之間的開啟通訊，您可能需要將某些IP位址新增至允許清單。 如需詳細資訊，請參閱[設定防火牆的允許清單](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table>
   <tr>
-   <td>Adobe Workfront套件
+   <td>Adobe Workfront 封裝
    </td>
    <td> <p>Prime或Ultimate</p>
     <p>Workflow Ultimate</p>
    </td>
   </tr>
     <tr>
-   <td>Adobe Workfront授權
+   <td>Adobe Workfront 授權
    </td>
    <td>標準
    <p>規劃</p>
@@ -69,8 +69,8 @@ ht-degree: 2%
 您可以設定下列整合來管理檔案：
 
 <!--
-  Experience Manager Assets Essentials </p>
-  -->
+   Experience Manager Assets Essentials </p>
+   -->
 
 * [!DNL Workfront DAM]
 
@@ -142,15 +142,15 @@ ht-degree: 2%
       <td>自訂整合的名稱。 這是使用者在Workfront中使用整合時看到的名稱。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 基本API URL] </td> 
+      <td role="rowheader">[！UICONTROL基本API URL] </td> 
       <td>API呼叫的基本HTTP或安全HTTP URL。 例如， <code>https://&lt;documentprovider&gt;.com/api/v2</code></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 驗證型別]</td> 
+      <td role="rowheader">[！UICONTROL驗證型別]</td> 
       <td> <p>對自訂整合發出授權API呼叫時所使用的驗證方法。</p> 
        <ul> 
-        <li>如果您選擇<strong>[!UICONTROL OAuth]</strong>，請繼續步驟5。</li> 
-        <li>如果您選擇<strong>[!UICONTROL ApiKey]</strong>，請繼續步驟6。</li> 
+        <li>如果您選擇<strong>[！UICONTROL OAuth]</strong>，請繼續步驟5。</li> 
+        <li>如果您選擇<strong>[！UICONTROL ApiKey]</strong>，請繼續步驟6。</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -163,23 +163,23 @@ ht-degree: 2%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 驗證URL]</td> 
+      <td role="rowheader">[!UICONTROL 驗證 URL]</td> 
       <td>用於使用者驗證的完整URL。 [!DNL Workfront]會在OAuth布建程式過程中將使用者導覽至此位址。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 權杖端點URL]</td> 
-      <td>用於擷取 OAuth 權杖的完整 API URL。</td> 
+      <td role="rowheader">[！UICONTROL權杖端點URL]</td> 
+      <td>用於檢索 OAuth 權杖的完整 API URL。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 使用者端ID]</td> 
+      <td role="rowheader">[!UICONTROL 用戶端 ID]</td> 
       <td>此整合的OAut使用者端ID。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 使用者端密碼]</td> 
+      <td role="rowheader">[!UICONTROL 用戶端密碼]</td> 
       <td>此整合的OAut使用者端密碼。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 請求引數]</td> 
+      <td role="rowheader">[！UICONTROL請求引數]</td> 
       <td> <p>輸入要附加至每個API呼叫之查詢字串的選用值。 例如，access_type=offline。</p> <p>若要新增多個請求引數，請按一下<strong>+新增請求引數</strong>。</p> </td> 
      </tr> 
     </tbody> 

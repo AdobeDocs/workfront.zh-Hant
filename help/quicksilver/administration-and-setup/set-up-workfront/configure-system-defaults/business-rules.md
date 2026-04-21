@@ -10,9 +10,9 @@ role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b190de6b6ef9ce53e96475d426a4d39cfbd4df4
+source-git-commit: f9c2c7192254a0d0c04056bc4c193eb35d4116b5
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1820'
 ht-degree: 4%
 
 ---
@@ -224,14 +224,9 @@ IF({status} = "APR", true)
    * 人員配置計劃
    * 範本
    * 人員配置計劃資源
-<!--
+   <!--
    * <span class="preview">Team</span>
--->
-
-1. 在規則產生器對話方塊中輸入商業規則的&#x200B;**名稱**。
-1. 在&#x200B;**為使用中**&#x200B;欄位中，選取儲存規則時是否應該使用中。
-
-   如果您選取&#x200B;**否**，規則會儲存為非使用中，您可稍後再加以啟用。
+   -->
 
 1. 選取商業規則的&#x200B;**觸發器**。 選項包括：
 
@@ -278,7 +273,7 @@ IF({status} = "APR", true)
    >
    >您的組織必須在工作流程Ultimate套件上，才能使用驗證以外的動作。 如果您沒有看到這些其他選項，表示您的組織不在Workflow Ultimate套件中。
 
-1. 當您完成建立商業規則時，請按一下[儲存]。**&#x200B;**
+1. 當您完成建立商業規則時，請按一下[儲存]。****
 
 >[!NOTE]
 >
@@ -306,4 +301,3 @@ IF({status} = "APR", true)
 1. 在規則清單中選取商業規則，然後按一下「編輯」圖示。
 1. 在商業規則對話方塊中，選取&#x200B;**Is Active**&#x200B;的&#x200B;**是**。
 1. 按一下「**儲存**」。
-

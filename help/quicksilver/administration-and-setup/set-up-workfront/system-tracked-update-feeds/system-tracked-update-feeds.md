@@ -11,7 +11,7 @@ role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: f9c2c7192254a0d0c04056bc4c193eb35d4116b5
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 1%
@@ -42,10 +42,10 @@ ht-degree: 1%
 
 
   <!--
-  DRAFTED IN FLARE:
-  Timestamps for system updates are based on your operating system's timezone.
+   DRAFTED IN FLARE:
+   Timestamps for system updates are based on your operating system's timezone.
   
-  -->
+   -->
 
 ## 有關系統追蹤更新的考量事項
 
