@@ -10,10 +10,10 @@ role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f9c2c7192254a0d0c04056bc4c193eb35d4116b5
+source-git-commit: 8ee1cda376b51a5f5b7b4af44e6d34bf70ee9600
 workflow-type: tm+mt
-source-wordcount: '1820'
-ht-degree: 4%
+source-wordcount: '1803'
+ht-degree: 3%
 
 ---
 
@@ -202,30 +202,25 @@ IF({status} = "APR", true)
    * 文件
    * 方案
    * 費用
+   * 使用者
    * 公司
    * 疊代
    * 計費記錄
    * 群組
-   * 非勞動力資源
    * 風險
    * 費率卡
    * 指派
-   * 使用者
-   * 角色
-   * 時數
-   * 範本
-   * 休假
-   * 資源集區
    * 職務角色
-   * 非勞動力資源類別
    * 資源集區
    * 休假
    * 時數
-   * 人員配置計劃
    * 範本
-   * 人員配置計劃資源
    <!--
-   * <span class="preview">Team</span>
+   * Non-labor resource
+   * Non-labor resource category
+   * Staffing Plan
+   * Staffing Plan Resource
+   * Team
    -->
 
 1. 選取商業規則的&#x200B;**觸發器**。 選項包括：
@@ -273,7 +268,7 @@ IF({status} = "APR", true)
    >
    >您的組織必須在工作流程Ultimate套件上，才能使用驗證以外的動作。 如果您沒有看到這些其他選項，表示您的組織不在Workflow Ultimate套件中。
 
-1. 當您完成建立商業規則時，請按一下[儲存]。**&#x200B;**
+1. 當您完成建立商業規則時，請按一下[儲存]。****
 
 >[!NOTE]
 >
