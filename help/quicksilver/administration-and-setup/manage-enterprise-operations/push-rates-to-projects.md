@@ -37,11 +37,11 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td>[！UICONTROL標準]</td>
+   <td>[!UICONTROL 標準]</td>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>編輯[！UICONTROL費率卡]的存取權</td> 
+   <td>編輯[!UICONTROL 費率卡]的存取權</td> 
   </tr> 
   <tr> 
    <td>物件許可權</td> 
