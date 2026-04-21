@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
+source-git-commit: 3080fc1ebf33186f3bdf64a960fd1b5572dbfb2f
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '641'
 ht-degree: 5%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 5%
 >[!NOTE]
 >
 >* 當您自訂標籤時，可能會遇到文法和其他問題。 例如，如果您將「問題」變更為「請求」，UI中可能會出現您看到片語「請求」的位置。 如需詳細資訊，請參閱文章[瞭解Adobe Workfront中的物件](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names)中的[自訂物件名稱的影響](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
->
+>* 若要自訂英文以外的術語翻譯，請參閱[設定自訂本地化](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)。
 
 如需配置範本的詳細資訊，請參閱[建立和管理配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
 
