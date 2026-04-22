@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '2978'
+source-wordcount: '2918'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,11 @@ ht-degree: 0%
 
 # 編輯記錄
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -143,7 +144,7 @@ Old:
 * 下列型別的欄位會自動更新，您無法手動編輯其值：
    * 從其他記錄連結的欄位
    * 公式型別欄位
-   * 系統欄位（「建立者」、「建立日期」、「上次修改者」、「上次修改日期」、「核准日期」、「核准者」、<span class="preview">記錄ID</span>）
+   * 系統欄位（「建立者」、「建立日期」、「上次修改者」、「上次修改日期」、「核准日期」、「核准者」、「記錄ID」）
 * 如果顯示的記錄連結到其他記錄，則您正在編輯的記錄的新資訊會反映在連結該記錄的所有工作區中的連結記錄上。
 * 您無法大量編輯記錄。<!--this will probably change-->
 * URL的開頭必須是： http://、https://、ftp://或www. ，才能辨識為單行文字欄位型別中的連結。
@@ -345,7 +346,7 @@ Old:
 
    停用此設定時，顯示圖片和名稱會列在即時指標區域中，而且不會反白顯示正在編輯的欄位。
 
-   ![REal-time indicator expanded record preview box](assets/real-time-indicator-expanded-record-preview-box.png)
+   ![即時指標展開的記錄預覽方塊](assets/real-time-indicator-expanded-record-preview-box.png)
 
 1. （選擇性）按一下記錄詳細資料頁面&#x200B;**中的**&#x200B;匯出![功能表](assets/export-icon-in-record-details-page.png)匯出圖示，以匯出記錄的詳細資料。 如需詳細資訊，請參閱[匯出記錄的詳細資料](/help/quicksilver/planning/records/export-the-record-page.md)。
 
@@ -442,7 +443,7 @@ Old:
 1. 移至記錄型別頁面並開啟表格檢視。
 1. 新增您要在表格檢視中新增選擇的單一或多重選取欄位作為新欄。 如需詳細資訊，請參閱[建立欄位](/help/quicksilver/planning/fields/create-fields.md)。
 1. 連按兩下欄位的儲存格，開始內嵌編輯欄位。
-1. 輸入您要新增的選擇名稱，然後按一下[新增選擇]。**&#x200B;**
+1. 輸入您要新增的選擇名稱，然後按一下[新增選擇]。****
 
    ![在表格檢視中的單一選取欄位中新增選項](assets/add-choice-in-table-view-for-single-select-field.png)
 

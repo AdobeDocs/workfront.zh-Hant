@@ -8,18 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: de066d44-d214-47cc-8483-37c2623585ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1040'
 ht-degree: 0%
 
 ---
 
 # 階層與階層連結概觀
 
-<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 身為工作區管理員，您可以在Adobe Workfront Planning中的連線記錄型別與其他物件型別之間，定義彈性但結構化的階層。
 
@@ -80,13 +82,13 @@ ht-degree: 0%
 
 當您在記錄型別之間建立階層時，它們會對屬於這些記錄型別的記錄產生階層連結。
 
-例如，如果您建立階層並連結「促銷活動」與「戰術」，然後連結「活動」，當您導覽至階層中連線之任何型別的記錄時，您可以檢視記錄在階層中的放置位置。 如果記錄顯示在多個工作區中，您可以檢視每個工作區<span class="preview">中的路徑，並以階層連結中的工作區名稱開始。</span>
+例如，如果您建立階層並連結「促銷活動」與「戰術」，然後連結「活動」，當您導覽至階層中連線之任何型別的記錄時，您可以檢視記錄在階層中的放置位置。 如果記錄顯示在多個工作區中，您可以檢視每個工作區中的路徑（從階層連結中的工作區名稱開始）。
 
 ![階層連結](assets/breadcrumbs-on-activities-planning-only.png)
 
 考慮以下事項：
 
-* 階層連結會顯示在記錄的預覽區域中，以及記錄詳細資訊頁面中。
+* 階層連結會顯示在記錄的預覽區域中，以及記錄的詳細資訊頁面中。
 * 如果記錄型別是多個階層的一部分，您可以從記錄頁面上的記錄階層連結切換階層。
 * 如果階層中的記錄型別有多個記錄，您可以從階層連結中選取記錄。
 * 階層連結可跨Workfront和Planning運作。

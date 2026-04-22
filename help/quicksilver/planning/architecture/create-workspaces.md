@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1141'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,11 @@ ht-degree: 0%
 
 # 建立工作區
 
-<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -49,13 +51,13 @@ ht-degree: 0%
    <td> 
 <p>任何Workfront或Workflow套件</p> 
 <p>任何Workfront Planning套件</p>
-<p>Workfront Planning Prime或更高版本的套件<span class="preview">一次建立多個工作區</span></p>
+<p>Workfront Planning Prime或更新版本的套件，一次建立多個工作區</p>
 <p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
    <td><p>標準</p>
-   <p><span class="preview">系統管理員使用最佳實務範本套件一次建立多個工作區</p>
+   <p>系統管理員使用最佳實務範本套件一次建立多個工作區</p>
    </td> 
   </tr> 
   <tr> 
@@ -144,8 +146,6 @@ Old:
 
   如需詳細資訊，請參閱[開始使用Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md)。
 
-<div class="preview">
-
 * 使用最佳實務多工作區範本套件組合建立多個工作區
 
   如需詳細資訊，請參閱本文章的[使用最佳實務多工作區範本組合](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle)建立多個工作區
@@ -153,9 +153,6 @@ Old:
   >[!TIP]
   >
   >只有在使用最佳實務範本組合時，才能一次建立多個工作區。
-
-
-</div>
 
 ### 從頭開始或從範本建立工作區
 
@@ -185,7 +182,7 @@ Old:
 
    或
 
-   按一下[上一步]&#x200B;**&#x200B;**，然後按一下[新工作區]&#x200B;**&#x200B;**&#x200B;從頭開始建立工作區。
+   按一下[上一步]****，然後按一下[新工作區]****&#x200B;從頭開始建立工作區。
 
    會建立下列其中一種工作區型別：
 
@@ -224,9 +221,7 @@ Old:
    >
    >對於目前正在轉換至Adobe Identity Management System (IMS)的使用者，非IMS使用者的僅Workfront使用者所建立的工作區，會顯示為&#x200B;**系統**&#x200B;所建立。
    >
-   >如需IMS的相關資訊，請參閱[Workfront的Adobe Unified Experience &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
-
-<div class="preview">
+   >如需IMS的相關資訊，請參閱[Workfront的Adobe Unified Experience ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 ### 使用最佳實務多工作區範本套件組合建立多個工作區
 
@@ -277,8 +272,6 @@ Old:
    如需有關實作Workfront的最佳實務的詳細資訊，請參閱[Adobe Workfront規劃最佳實務：文章索引](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md)區段中的文章。
 
    如需有關編輯工作區的資訊，請參閱[編輯工作區](/help/quicksilver/planning/architecture/edit-workspaces.md)。
-
-</div>
 
 
 

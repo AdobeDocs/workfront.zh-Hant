@@ -8,18 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '835'
 ht-degree: 1%
 
 ---
 
 # 從CSV或Excel檔案匯入資訊，建立記錄型別
 
-<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -145,7 +147,7 @@ Old:
    * 上次修改日期，上次修改者：
    * 核准日期，核准者
    * 人員
-   * <span class="preview">記錄ID</span>
+   * 記錄 ID
 
 若要使用Excel或CSV檔案匯入記錄型別：
 
@@ -159,10 +161,10 @@ Old:
 
    >[!TIP]
    >
-   ><span class="preview">您可以使用下列鍵盤組合，從任何Workfront Planning頁面開啟全域搜尋方塊並搜尋工作區：</span>
+   >您可以使用下列鍵盤組合，從任何Workfront Planning頁面開啟全域搜尋方塊並搜尋工作區：
    >
-   >* <span class="preview">CTRL+K for Windows</span>
-   >* 適用於Mac<span class="preview">⌘的</span>+K
+   >* Windows版CTRL+K
+   >* 適用於Mac的⌘+K
 
 1. 按一下&#x200B;**新增記錄型別**。
 1. 按一下&#x200B;**從檔案**&#x200B;上傳。
@@ -207,7 +209,7 @@ Old:
 
 1. （視條件而定）更新欄位相關資訊後，按一下&#x200B;**儲存**。
 
-1. 當您準備好匯入您的檔案時，請按一下[匯入]。**&#x200B;**
+1. 當您準備好匯入您的檔案時，請按一下[匯入]。****
 
    下列資訊會匯入Workfront Planning中：
 

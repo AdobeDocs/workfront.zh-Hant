@@ -8,18 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1004'
 ht-degree: 2%
 
 ---
 
 # 共用工作區
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -156,39 +158,31 @@ Old:
 
    工作區右上方的![共用按鈕](assets/share-button-on-workspace-top-right.png)
 
-1. <span class="preview">（條件式）根據您擁有的存取層級，執行下列任一項作業：
+1. （視條件而定）根據您擁有的存取層級，執行下列任一項作業：
 
-   * 如果您是系統管理員，請從下列選項中選取：</span>
-
-     <div class="preview">
+   * 如果您是系統管理員，請從下列選項中選取：
 
       * **只有受邀者才能存取**：您必須選取共用方塊中的實體，並選擇其工作區存取權。 這是預設選取範圍。
       * **系統中的每個人都可以檢視**：系統中有權存取Planning的所有人都可以在Planning的&#x200B;**工作區**&#x200B;區域中檢視工作區。
 
-     </div>
-
-   * <span class="preview">（條件式）如果您是具有Standard授權的工作區管理員，您可以看到下列其中一個選項，但無法變更它們：</span>
-
-     <div class="preview">
+   * （視條件而定）如果您是具有Standard許可證的工作區管理員，您可以看到下列其中一個選項，但無法變更它們：
 
       * **只有受邀者可以存取**。 這是預設設定。
       * **系統中的每個人都可以檢視**
 
      您必須要求系統管理員變更工作區的全域許可權。
 
-     </div>
-
 1. 在&#x200B;**授與此工作區的存取權**&#x200B;欄位中，開始輸入使用者、群組、團隊、公司或工作角色的名稱，然後當它顯示在清單中時按一下它。
 
-   <span class="preview">![與群組共用UI](assets/sharing-ui-with-groups.png)</span>
+   ![與群組共用UI](assets/sharing-ui-with-groups.png)
 
    >[!NOTE]
    >
    >* 除了團隊、群組、公司和職務角色之外，您只能與已新增至Adobe Admin Console的使用者共用。 您無法新增僅限Workfront的使用者。 如需詳細資訊，請參閱[在Adobe Admin Console中管理使用者](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
    >
-   >* 當您與使用者共用工作區時，其主要工作角色<span class="preview">及其電子郵件</span>也會顯示在欄位中。 您必須在存取層級中為使用者物件啟用「檢視連絡人資訊」設定，才能檢視使用者的電子郵件。
+   >* 當您和使用者共用工作區時，他們的主要工作角色和電子郵件也會顯示在欄位中。 您必須在存取層級中為使用者物件啟用「檢視連絡人資訊」設定，才能檢視使用者的電子郵件。
 
-1. <span class="preview"> （選擇性）當您與群組、團隊、角色或公司共用時，將滑鼠游標停留在實體的名稱上，然後按一下向右箭頭，以展開正在接收許可權的使用者清單。</span>
+1. （選擇性）當您與群組、團隊、角色或公司共用時，將滑鼠指標暫留在實體的名稱上，然後按一下向右的箭頭，以展開正在接收許可權的使用者清單。
 
    ![與群組共用工作區](assets/share-workspace-role-expanding-arrow-highlighted.png)
 
@@ -216,7 +210,7 @@ Old:
      ![存取要求的電子郵件通知](assets/email-notification-for-access-request.png)
 1. （視條件而定）從Workfront的通知區域，按一下應用程式內通知
 或
-在電子郵件通知中，按一下&#x200B;**檢視所有通知**，然後按一下清單中的通知。
+在電子郵件通知中，按一下**檢視所有通知**，然後按一下清單中的通知。
 
    顯示&#x200B;**擱置中的存取要求**&#x200B;方塊。
 

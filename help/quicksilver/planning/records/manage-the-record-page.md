@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 10bdce8dd7656d4313296ce830abe9c7baca1acb
 workflow-type: tm+mt
-source-wordcount: '1648'
+source-wordcount: '1641'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,11 @@ ht-degree: 0%
 
 # 管理記錄頁面配置
 
-<span class="preview">本頁標示的資訊是指尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -173,6 +175,7 @@ Old:
 
 將區段新增至記錄頁面時，請考量下列事項：
 
+* 只有在顯示記錄的所有欄位時才能新增區段。 當您隱藏隱藏在表格檢視中的欄位時，無法新增區段。
 * 一個頁面上可以擁有的區段數沒有限制。
 * 不能有空白區段。 區段中必須至少有一個欄位。
 * 您可以將欄位從一個區段拖放至另一個區段。 如需詳細資訊，請參閱本文中記錄預覽或詳細資訊頁面[中的](#manage-fields-in-the-records-details-tab)管理欄位一節。
@@ -196,7 +199,7 @@ Old:
 
    從表格檢視中，按一下第一欄中的&#x200B;**開啟詳細資料**&#x200B;圖示![在表格名稱欄位中開啟詳細資料圖示](assets/open-details-icon-in-table-name-field.png)。
 
-   <span class="preview">記錄的預覽在檢視中開啟。</span>
+   記錄的預覽會在檢視中開啟。
 
    ![詳細資訊方塊](assets/details-box.png)
 
@@ -225,7 +228,7 @@ Old:
 
      或
 
-     按一下&#x200B;**下移**&#x200B;將區段下移一個位置。
+     按一下&#x200B;**下移**將區段下移一個位置。
 區段中的所有欄位會隨著區段移動。
 
    * 按一下&#x200B;**刪除**&#x200B;以刪除區段。 該區段已刪除且無法復原。 所有存取此型別記錄的使用者將不再檢視已刪除的區段。
@@ -275,32 +278,24 @@ Old:
 
    從表格檢視中，按一下第一欄中的&#x200B;**開啟詳細資料**&#x200B;圖示![在表格名稱欄位中開啟詳細資料圖示](assets/open-details-icon-in-table-name-field.png)。
 
-   <span class="preview">記錄的預覽在檢視中開啟。</span>
+   記錄的預覽會在檢視中開啟。
 
    ![詳細資訊方塊](assets/details-box.png)
 
-1. <span class="preview"> （選擇性和條件性）根據您要在詳細資訊頁面中顯示的欄位，請執行下列其中一項作業：</span>
+1. （選擇性和條件性）根據您要在「詳細資訊」頁面中顯示的欄位，請執行下列其中一項作業：
 
-   <div class="preview">
 
-   * 選取&#x200B;**顯示所有欄位**&#x200B;設定，以檢視記錄表格檢視中的所有欄位，包括隱藏的欄位。
-   * 取消選取「**顯示所有欄位**」設定，以僅檢視未在記錄的資料表檢視中隱藏的欄位。 這是預設設定
+   * 選取&#x200B;**顯示所有欄位**&#x200B;設定，以在&#x200B;**詳細資料**&#x200B;頁面中包含所有記錄的欄位。 這是預設設定。
+   * 取消選取「**顯示所有欄位**」設定，以從&#x200B;**詳細資料**&#x200B;頁面排除隱藏在記錄資料表檢視中的記錄欄位。
 
-   </div>
+     >[!TIP]
+     >
+     >* **顯示所有欄位**&#x200B;設定僅在記錄的[詳細資料]預覽方塊中可用。 當記錄的「詳細資訊」頁面在瀏覽器視窗中開啟時，此選項不可用。
+     >* 當您在詳細資訊預覽方塊中排除隱藏欄位時，無法將區段新增到記錄的頁面。
 
-   <!--
-      replace with this when they fix the UI text:
-      * Select the **Show all fields** setting to include all the record's fields in the **Details** page. This is the default setting. 
-      * Deselect the **Show all fields** setting to exclude the record's fields that are hidden in the table view of the record from the **Details** page.
-      -->
+1. （選擇性）如果您要導覽至已連線的記錄，請在詳細資訊頁面頂端的階層連結中按一下該記錄的名稱。
 
-   >[!TIP]
-   >
-   ><span class="preview"> **顯示所有欄位**&#x200B;設定僅在記錄的[詳細資料]預覽方塊中可用。 在記錄的[詳細資料]頁面中無法使用。</span>
-
-1. （選擇性）如果您要導覽至已連線的記錄，請在詳細資訊頁面頂端的階層連結中按一下該記錄的名稱。<span class="preview">
-
-   如果您在階層連結中看不到記錄名稱，請按一下&#x200B;**更多**。 這會在多個列上顯示階層連結。 按一下&#x200B;**減**&#x200B;縮短階層連結，並將它顯示在一列。</span>
+   如果您在階層連結中看不到記錄名稱，請按一下&#x200B;**更多**。 這會在多個列上顯示階層連結。 按一下&#x200B;**減**&#x200B;縮短階層連結，並將它顯示在一列。
 
    >[!TIP]
    >

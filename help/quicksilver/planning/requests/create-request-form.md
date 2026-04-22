@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '3603'
+source-wordcount: '3185'
 ht-degree: 1%
 
 ---
@@ -21,10 +21,11 @@ ht-degree: 1%
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -83,7 +84,7 @@ ht-degree: 1%
 
       * 建立者、上次修改者、核准者
       * 建立日期、上次修改日期、核准日期
-      * <span class="preview">記錄ID</span>
+      * 記錄 ID
       * Workfront物件的查閱欄位
       * Workfront Planning連線記錄的查詢欄位
 
@@ -172,12 +173,7 @@ ht-degree: 1%
 表單詳細資料會分為幾個索引標籤。
 
 * **表單**&#x200B;索引標籤可讓您新增欄位和內容元素至表單
-* **組態**&#x200B;索引標籤可讓您設定表單的核准程式，以及設定要求完成選項。
-
-  >[!NOTE]
-  >
-  ><span class="preview">在[預覽]環境中，[設定]索引標籤取代了[設定]索引標籤。</span>
-  <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
+* **設定**&#x200B;索引標籤可讓您設定表單的核准程式，以及設定要求完成選項。
 
 #### 設定表單詳細資料
 
@@ -185,7 +181,7 @@ ht-degree: 1%
 
    或
 
-   在[要求表單]清單上找出要求表單，按一下表單名稱旁的方塊，然後按一下畫面底部藍色列中的[編輯表單]。**&#x200B;**
+   在[要求表單]清單上找出要求表單，按一下表單名稱旁的方塊，然後按一下畫面底部藍色列中的[編輯表單]。****
 
    所選記錄型別的請求表單會在「表單」標籤中開啟。
 
@@ -203,7 +199,7 @@ ht-degree: 1%
      >* **Subject**&#x200B;欄位在要求表單上可見時需要值。 不過，您可以視需要移除&#x200B;**主旨**&#x200B;欄位，要求者提交要求時不會在表單上看到該欄位。
      >* 當請求表單上缺少&#x200B;**主旨**&#x200B;欄位，但未來記錄的名稱有「名稱」欄位時，會自動將請求的名稱指派給與已建立記錄相同的名稱。
      >* 當請求表單中同時缺少&#x200B;**主旨**&#x200B;和&#x200B;**名稱**&#x200B;欄位時，請求會以下列模式命名： `< Request form name > < Entry date of the request >`；記錄命名為&#x200B;**未命名**。
-     >* <span class="preview">若要在Workfront Planning中檢視&#x200B;**主旨**&#x200B;欄位的資訊，您可以將&#x200B;**原始要求**&#x200B;連線欄位新增至與要求表單相關聯的記錄型別。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md).</span>
+     >* 若要在Workfront Planning中檢視&#x200B;**主旨**&#x200B;欄位的資訊，您可以將&#x200B;**原始請求**&#x200B;連線欄位新增至與請求表單相關聯的記錄型別。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
    * 與記錄型別關聯的所有欄位。
 
@@ -239,49 +235,48 @@ ht-degree: 1%
 1. （選擇性）按一下&#x200B;**預覽**&#x200B;以檢視其他使用者使用表單提交新記錄時表單的顯示方式。
 1. 繼續下列其中一項：
 
-   * [設定組態詳細資料](#set-up-configuration-details)如果您想要為生產環境中的表單設定更多詳細資料
-   * <span class="preview">[設定設定](#configure-settings)如果您想要為生產環境中的表單設定更多詳細資料</span>
+   <!--
+   * [Set up Configuration details](#set-up-configuration-details) if you want to configure more details for the form in the Production environment
+   -->
+   * [設定設定](#configure-settings) （如果您想要為生產環境中的表單設定更多詳細資料）
    * 如果您不想進一步設定，請[完成請求表單建立](#complete-request-form-creation)。
 
-#### 設定組態詳細資料
+<!--
+#### Set up Configuration details
 
 >[!NOTE]
 >
->此標籤僅在生產環境中可用。
+>This tab is available only in the Production environment.
 
-在設定索引標籤上，您可以設定核准流程，並設定從此表單建立的請求何時將標示為「已完成」。
+On the Configuration tab, you can set the approval process and configure when a request created from this form will be marked as Completed.
 
-1. 開始建立或編輯要求表單，如[開始建立要求表單](#begin-creating-a-request-form)一節中所述。
+1. Begin creating or editing a request form, as described in the section [Begin creating a request form](#begin-creating-a-request-form).
+   
+    The request form for the selected record type opens in the Form tab. 
+1. (Optional) Set up any form details, as described in [Set up Form details](#set-up-form-details).    
 
-   所選記錄型別的請求表單會在「表單」標籤中開啟。
-1. （選擇性）設定任何表單詳細資料，如[設定表單詳細資料](#set-up-form-details)中所述。
+1. (Optional) If you want to add approvers, click the **Configuration** tab, then add at least one user or team to the **Approvers** field to approve new requests for this record form. 
 
-1. （選擇性）如果您想要新增核准者，請按一下&#x200B;**組態**&#x200B;標籤，然後將至少一個使用者或團隊新增到&#x200B;**核准者**&#x200B;欄位，以核准此記錄表單的新要求。
+   ![Configuration tab](assets/configuration-tab.png)
 
-   ![設定索引標籤](assets/configuration-tab.png)
+   (******)-below bullet list is duplicated in the Add approval to a request form article(****)
 
-   <!--below bullet list is duplicated in the Add approval to a request form article-->
+   * You can add one or several approvers to a request form.
+   * If at least one approver rejects the request, the request is rejected and the record is not created. The request remains in the Requests area of Workfront.
+   * If you add more than one approver, and the Only one decision is required option is not enabled, all approvers must make a decision before a request is either approved or rejected.
+   * If a team is set as an approver, only one decision is required from the team.
 
-   * 您可以將一個或多個核准者新增至請求表單。
-   * 如果至少有一位核准者拒絕請求，則請求會遭到拒絕，且不會建立記錄。 此請求會保留在Workfront的請求區域中。
-   * 如果您新增多個核准者，但未啟用「只有一個決定是必要的」選項，則所有核准者必須在核准或拒絕請求之前做出決定。
-   * 如果團隊被設定為核准者，則只需從團隊中做出一個決定。
+   For more information about adding approvals to request forms, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
 
-   如需新增核准至請求表單的詳細資訊，請參閱[新增核准至請求表單](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
+1. (Conditional) If you want the record to be created after any one of the approvers has approved it, check the **Only one decision is required** checkbox.
 
-1. （視條件而定）如果要在任何核准者核准記錄後建立記錄，請核取&#x200B;**僅需要一個決定**&#x200B;核取方塊。
+1. Select whether you want a request created from this form to be marked complete when the requested object is created, or when the requested object is completed.
+1. (Conditional) If you have selected for the request to be marked complete when the requested object is completed, select the field and value that indicate when the object is complete. For example, you could select the field Status and the value Complete to complete the request when the created object's status is set to Complete.
+1. Continue to [Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to [Complete request form creation](#complete-request-form-creation).
 
-1. 選擇您是否希望在建立要求的物件時，或是當要求的物件完成時，將從此表單建立的要求標籤為完成。
-1. （視條件而定）如果您已選取在要求的物件完成時將要求標籤為完成的欄位，請選取指示物件完成時間的欄位和值。 例如，當建立的物件狀態設為「完成」時，您可以選取「狀態」欄位和值「完成」以完成請求。
-1. 繼續<!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[完成請求表單建立](#complete-request-form-creation)。
-
-<div class="preview">
+-->
 
 ### 進行設定
-
->[!NOTE]
->
->此標籤僅在預覽環境中可用。
 
 在「設定」索引標籤上，您可以設定核准規則，並設定從此表單建立的請求何時將標示為「已完成」。
 
@@ -333,7 +328,7 @@ ht-degree: 1%
    無法重新排序預設規則。
 
 1. （選擇性）若要刪除路由規則，請按一下規則右側的&#x200B;**X**。
-1. 按一下[儲存]儲存核准規則。**&#x200B;**
+1. 按一下[儲存]儲存核准規則。****
 1. 繼續[設定要求完成選項](#set-request-completion-options)
 
 #### 設定請求完成選項
@@ -348,8 +343,6 @@ ht-degree: 1%
 1. 選擇您是否希望在建立要求的物件時，或是當要求的物件完成時，將從此表單建立的要求標籤為完成。
 1. （視條件而定）如果您已選取在要求的物件完成時將要求標籤為完成的欄位，請選取指示物件完成時間的欄位和值。 例如，當建立的物件狀態設為「完成」時，您可以選取「狀態」欄位和值「完成」以完成請求。
 1. 繼續<!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[完成請求表單建立](#complete-request-form-creation)。
-
-</div>
 
 <!--
  
@@ -383,23 +376,24 @@ For information on creating automations in other areas of Workfront Planning, se
 ### 完成請求表單建立
 
 1. 依照[開始建立要求表單](#begin-creating-a-request-form)和[設定要求表單的詳細資料](#set-up-details-for-the-request-form)中的說明建立及設定表單。
-1. （選擇性）按一下標題中表單名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**編輯**&#x200B;以更新表單名稱。
+1. （選擇性）按一下標題中表單名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**編輯**&#x200B;以更新表單名稱及其&#x200B;**描述**，然後按一下&#x200B;**儲存**。
 
 1. 按一下&#x200B;**發佈**&#x200B;以發佈表單並取得其唯一連結。
 
    會發生下列情況：
 
    * **發佈**&#x200B;按鈕已移除。
+
+     此表單將在Workfront主要功能表的請求區域中變得可用。
    * **取消發佈**&#x200B;按鈕已新增至表單。 按一下此按鈕，表單將無法存取。
    * **共用**&#x200B;按鈕已新增至表單。
-   * 此表單將在Workfront主要功能表的請求區域中變得可用。
 
 1. 按一下&#x200B;**共用**&#x200B;以與其他人共用表單。
 
    如需共用申請表格的詳細資訊，請參閱本文的[共用申請表單](#share-a-request-form)一節
 1. 按一下頁首中表單名稱左側的向左箭頭以關閉表單。
 
-   **請求表單**&#x200B;表格檢視會開啟，並將表單新增至其中。
+   **請求表單**&#x200B;清單檢視會開啟，並將表單新增至其中。
 
 ## 管理現有的請求表單
 
@@ -418,13 +412,8 @@ For information on creating automations in other areas of Workfront Planning, se
 1. （選擇性）更新&#x200B;**要求表單**&#x200B;頁面中的下列檢視元素，以變更資訊在表格中的顯示方式：
 
    * 欄
-
-   <!--
-   <div class="preview">
-   * Grouping <!-ensure they will change the label by Prod->
-   * Row height
-   </div>
-   -->
+   * 分組
+   * 列高
 
    如需詳細資訊，請參閱[管理清單檢視](/help/quicksilver/planning/views/manage-the-list-view.md)。
 
@@ -435,8 +424,6 @@ For information on creating automations in other areas of Workfront Planning, se
    * **共用**：按一下此以修改誰可以存取表單。
    * **複製連結**：按一下此以快速複製要求表單的連結，而不開啟表單。
    * **刪除**：按一下以刪除表單。 使用表單新增的所有請求和記錄都不會刪除。 無法復原表單。
-
-   <!--update screen shot at preview:-->
 
    從請求表單清單中請求表單上的![更多功能表](assets/more-menu-on-request-form-from-request-forms-list.png)
 

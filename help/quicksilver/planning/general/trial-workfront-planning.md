@@ -7,9 +7,9 @@ role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ff87e425389f30dfaa1a178ea2b548d1c41179bb
+source-git-commit: 10bdce8dd7656d4313296ce830abe9c7baca1acb
 workflow-type: tm+mt
-source-wordcount: '2184'
+source-wordcount: '2224'
 ht-degree: 0%
 
 ---
@@ -217,10 +217,14 @@ this information will be live on March 2 - the How to sign up below will be a ##
 1. （有條件且必要）身為Workfront管理員，請簽署免費試用合約。
 
    如需相關資訊，請參閱本文章的[註冊Adobe Workfront Planning免費試用](#enroll-in-the-adobe-workfront-planning-free-trial)一節。
-1. 按一下&#x200B;**主功能表**&#x200B;圖示![](assets/main-menu-shell.png)，然後按一下&#x200B;**規劃**。 圖示旁邊會顯示&#x200B;**試用版**&#x200B;標籤。
+1. （視條件而定）試用合約由Workfront管理員簽署後，按一下&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-shell.png)，然後按一下下列其中一個以存取&#x200B;**計畫**&#x200B;區域：
+
+   * **規劃**。 圖示旁邊會顯示&#x200B;**試用版**&#x200B;標籤。
+   * **專案**，**要求**，**行事曆**，然後按一下&#x200B;**探索行銷活動行事曆**
+   * **投資組合**、**計畫**，或來自投資組合或計畫    然後按一下&#x200B;**探索自訂階層**。
 
    **計畫**&#x200B;區域會在&#x200B;**範例工作區**&#x200B;索引標籤中開啟。
-1. 檢閱&#x200B;**範例工作區**&#x200B;索引標籤中可用的下列工作區：
+1. 檢閱&#x200B;**範例工作區**&#x200B;索引標籤中的下列工作區：
 
    * **全域分類與分類**：包含作為行銷記錄系統基礎的範例Planning物件型別。
 

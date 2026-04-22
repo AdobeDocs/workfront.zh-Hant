@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
 source-wordcount: '1375'
 ht-degree: 2%
@@ -271,7 +271,7 @@ Old:
    * 時間軸
    * 行事曆
 
-1. 選擇檢視型別，然後按一下[建立]。**&#x200B;** 新檢視會新增至下拉式功能表。
+1. 選擇檢視型別，然後按一下[建立]。**** 新檢視會新增至下拉式功能表。
 
    >[!TIP]
    >
@@ -288,10 +288,10 @@ Old:
 
    >[!TIP]
    >
-   ><span class="preview">您可以使用下列鍵盤組合，從任何Workfront Planning頁面開啟全域搜尋方塊並搜尋檢視：</span>
+   >您可以使用下列鍵盤組合，從任何Workfront Planning頁面開啟全域搜尋方塊並搜尋檢視：
    >
-   >* <span class="preview">CTRL+K for Windows</span>
-   >* 適用於Mac<span class="preview">⌘的</span>+K
+   >* Windows版CTRL+K
+   >* 適用於Mac的⌘+K
    >
    >![全域搜尋方塊](assets/global-search-box.png)
 

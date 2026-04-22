@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1421'
 ht-degree: 1%
 
 ---
@@ -28,9 +28,11 @@ this article is linked to the UI in the Advanced settings/ Cross-workspace setti
 
 {{planning-important-intro}}
 
-<span class="preview">本頁標示的資訊是指尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 您可以在Adobe Workfront Planning中設定要在多個工作區中運作的記錄型別。
 
@@ -83,22 +85,20 @@ this article is linked to the UI in the Advanced settings/ Cross-workspace setti
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
    <td>
-   <p>在生產環境中： </p>
-   <p>若要將記錄設為全域，請執行下列動作：</p>
-   <ul><li>標準或更高</li></ul>
-   <p>若要讓記錄可連線：</p>
-   <ul><li>系統管理員</li></ul>
+   <!--
+   <p>In the Production environment: </p>
+   <p>To make a record global:</p>
+   <ul><li>Standard or higher</li></ul>
+   <p>To make a record connectable:</p>
+   <ul><li>System Administrator</li></ul>
+   -->
 
-<div class="preview">
-
-<p>在預覽環境中：</p>
-   <p>若要將記錄設為全域，請執行下列動作：</p>
+<p>若要將記錄設為全域，請執行下列動作：</p>
    <ul><li>標準或更高</li></ul>
    <p>若要讓記錄可連線：</p>
 
 <ul><li>使記錄可從特定工作區連線的標準</li>
    <li>系統管理員，讓記錄可從所有工作區連線</li></ul>
-   </div>
 
 
 </td> 
@@ -240,7 +240,7 @@ this is a UI term; don't change the title of this section
 
    如需詳細資訊，請參閱[從其他工作區新增現有記錄型別](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)。
 
-   從次要工作區中的全域記錄型別新增的記錄型別在次要工作區上顯示<span class="preview">類似的&#x200B;**全域記錄型別**&#x200B;圖示![全域記錄型別圖示](assets/global-icon-secondary-workspace.png)，其中包含箭頭，表示該記錄型別是從其他工作區匯入。 當您將滑鼠停留在次要工作區全域圖示上時，您可以瞭解原始工作區的名稱。</span>
+   從次要工作區中的全域記錄型別新增的記錄型別在次要工作區上顯示類似的&#x200B;**全域記錄型別**&#x200B;圖示![全域記錄型別圖示](assets/global-icon-secondary-workspace.png)，其中包含箭頭，表示該記錄型別是從另一個工作區匯入。 當您將滑鼠停留在次要工作區全域圖示上時，您可以瞭解原始工作區的名稱。
 1. （選擇性）返回您建立全域記錄型別的原始工作區，並按照<!--ensure this stays accurate-->上方的步驟1-4編輯記錄型別
 1. （選擇性）檢閱已在使用此記錄型別的&#x200B;**工作區中新增全域記錄的工作區清單**&#x200B;區段。 工作區擁有者也會列在工作區名稱旁。
 
@@ -276,9 +276,9 @@ this is a UI term; don't change the title of this section
 
    啟用時，記錄型別可供存取，且可從其他工作區連線到。
 
-1. <span class="preview">（視條件而定）根據您擁有的授權，</span>從哪些工作區選擇可存取記錄型別。 從下列選項中選擇:
+1. （視條件而定）根據您擁有的授權，選擇可從哪些工作區存取記錄型別。 從下列選項中選擇:
 
-   * **所有工作區**：使用者可以從他們擁有管理許可權的所有工作區連線到此記錄型別。 <span class="preview">此選項對於具有Standard授權的工作區管理員是暗色的。 只有系統管理員可以開啟連線所有工作區的記錄型別。</span>
+   * **所有工作區**：使用者可以從他們擁有管理許可權的所有工作區連線到此記錄型別。 對於具有Standard授權的工作區管理員而言，此選項會變暗。 只有系統管理員可以開啟連線所有工作區的記錄型別。
    * **特定工作區**：從下拉式功能表，新增工作區管理員可連線至此記錄型別的工作區名稱。
 
 1. （視條件而定）在&#x200B;**編輯記錄型別**&#x200B;方塊中按一下&#x200B;**儲存**，或按一下頁面標頭中&#x200B;**設定**&#x200B;左側的返回箭頭，以儲存您的變更。
