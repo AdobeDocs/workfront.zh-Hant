@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
 workflow-type: tm+mt
 source-wordcount: '3008'
 ht-degree: 6%
@@ -154,13 +154,13 @@ Old:
 
 1. 請考慮在下列任何一節中指定資訊：
 
-* [範本任務名稱](#template-task-name)
-* [概觀](#overview)
-* [指派](#assignments)
-* [財務](#finance)
-* [自訂表單](#custom-forms)
-* [設定](#settings)
-* [註解](#comment)
+   * [範本任務名稱](#template-task-name)
+   * [概觀](#overview)
+   * [指派](#assignments)
+   * [財務](#finance)
+   * [自訂表單](#custom-forms)
+   * [設定](#settings)
+   * [註解](#comment)
 
 1. 繼續編輯範本任務，如下節所述。
 
@@ -172,7 +172,7 @@ Old:
 
 
 1. 如上所述，開始編輯範本任務。
-1. 在[編輯範本任務]方塊中，按一下[範本任務名稱] **&#x200B;**&#x200B;並新增範本任務的名稱。
+1. 在[編輯範本任務]方塊中，按一下[範本任務名稱] ****&#x200B;並新增範本任務的名稱。
 
    大量編輯範本任務時，此檢視不可用。
 

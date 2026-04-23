@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
+source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '559'
 ht-degree: 4%
 
 ---
@@ -65,10 +65,14 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   <tr> 
    <td>物件許可權</td>
    <td><p>貢獻或更高的任務許可權</p>
-   <p>編輯使用舊體驗編輯任務時，在「編輯任務」方塊中更新分配時數的許可權。</p> 
-   <p><b>附註</b></p>
+   <p>編輯許可權以在編輯任務方塊中更新分配時數。</p> 
+   <!--
+   Not true anymore:
+   <p><b>NOTE</b></p>
    <p>
-   在新體驗中編輯任務時，您無法再在「編輯任務」方塊中管理配置小時。</p> <p>如需詳細資訊，請參閱<a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">編輯工作</a>。</p></td>
+   You can no longer manage allocation hours in the Edit task box when editing tasks in the new experience.</p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a>.</p>
+   -->
+   </td>
   </tr>
  </tbody>
 </table>
@@ -76,13 +80,6 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
-
-<!--
-Take this piece out of the table above when we remove the new experience/ after production release in the task box: 
-
-<p>Edit permissions to update allocation hours in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation hours in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.
--->
-
 
 ## 修改任務分配時數的考量事項
 
