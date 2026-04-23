@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 6aa0aa5b8ffd088e3d79e7d1be66373a7f753f99
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '1310'
+source-wordcount: '1320'
 ht-degree: 0%
 
 ---
@@ -39,8 +39,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th> <p> </p> </th> 
-   <th> <p><strong>[!UICONTROL Standard]支援套件</strong> </p> </th> 
-   <th> <p><strong>[!UICONTROL Plus]、[!UICONTROL Preferred]和[!UICONTROL Enterprise]支援套件</strong> </p> </th> 
+   <th> <p><strong>[！UICONTROL Standard]支援套件</strong> </p> </th> 
+   <th> <p><strong>[！UICONTROL Plus]、[！UICONTROL Preferred]和[！UICONTROL Enterprise]支援套件</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -156,9 +156,11 @@ Workfront會停用來自預覽Sandbox環境的所有電子郵件通訊。 如果
 
 >[!IMPORTANT]
 >
->本頁所述的程式僅適用於尚未上線到[!DNL Adobe Admin Console]的組織。 如果您的組織已加入[!DNL Adobe Admin Console]，則不需要採取任何動作。
+>本節中說明的程式只適用於尚未加入[!DNL Adobe Admin Console]的組織。 因為所有組織現在都已上線到[!DNL Adobe Admin Console]，所以不需要採取任何動作。
 >
 >如需根據貴組織是否已加入[!DNL Adobe Admin Console]而不同的程式清單，請參閱[以平台為基礎的管理差異([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe Business Platform])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
+>
+>此區段將在不久的未來移除。
 
 
 如果您想要將預覽沙箱設定為使用單一登入解決方案，您可以透過與生產環境分開設定來執行此操作。 預覽沙箱中的SSO設定與生產環境中的SSO設定無關。

@@ -9,10 +9,10 @@ author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4d868625-e976-47b4-9e80-f1eca84a2768
-source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 1%
+source-wordcount: '238'
+ht-degree: 7%
 
 ---
 
@@ -20,9 +20,13 @@ ht-degree: 1%
 
 <!-- Audited: 1/2024 -->
 
+<!--Remove me October 2026-->
+
 >[!IMPORTANT]
 >
->本頁說明的程式僅適用於尚未加入[!UICONTROL Adobe Admin Console]的組織。
+>此頁面上說明的程式僅適用於尚未加入[!UICONTROL Adobe Admin Console]的組織。
+>
+>由於所有組織現在都已上線至Adobe Admin Console，本文不久將會移除。
 >
 >如果您的組織已加入[!UICONTROL Adobe Admin Console]，請參閱[平台式管理差異([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
@@ -32,9 +36,9 @@ ht-degree: 1%
 
 如果問題仍然存在，請連絡此網站的系統管理員，並提供下列參考號碼以識別問題： **57092dfc-751a-4915-8e6a-b4c5d413f8c6**
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,7 +56,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td>  
+   <td>[！UICONTROL系統管理員]</td>  
   </tr> 
  </tbody> 
 </table>

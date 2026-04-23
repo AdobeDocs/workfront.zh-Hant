@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '1571'
+source-wordcount: '1542'
 ht-degree: 5%
 
 ---
@@ -25,8 +25,6 @@ ht-degree: 5%
 >**由於所有組織現在都已移轉至Adobe Admin Console，因此本文中的資訊不再相關，不久將會移除。**
 >
 >如需在Adobe Admin Console中授與完整管理員存取權的指示，請參閱[在Adobe Admin Console中管理使用者](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
->
->如需根據貴組織是否已加入Adobe Admin Console而有所差異的程式清單，請參閱[以平台為基礎的管理差異(Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
 作為Adobe Workfront管理員，您可以指派系統管理員存取層級來建立另一個Workfront管理員。 具有此存取層級的使用者對Workfront中的所有專案具有完整管理存取權，包括他們自己未建立的專案。
 

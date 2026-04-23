@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 1%
+source-wordcount: '529'
+ht-degree: 4%
 
 ---
 
@@ -19,16 +19,16 @@ ht-degree: 1%
 
 您可以藉由指定您要在使用者清單的檢視或使用者的報表中納入此資訊，來檢視使用者登入Adobe Workfront的頻率以及上次登入的時間。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -60,14 +60,9 @@ Workfront會記錄下列有關登入系統之使用者的資訊：
 以下列任一方式登入Workfront即會計為Workfront的登入：
 
 * Workfront網頁應用程式
-* Workfront行動應用程式(iOS或Android裝置)
-* 任何受支援的Workfront與其他協力廠商應用程式(例如Slack)的整合
+* Workfront行動應用程式（iOS或Android裝置）
+* 任何受支援的Workfront與其他協力廠商應用程式（例如Slack）的整合
 * Workfront與其他第三方應用程式之間的任何自訂整合。
-* WORKFRONT API
-
-  >[!NOTE]
-  >
-  >透過Workfront API登入Workfront，僅適用於尚未上線Adobe Business Platform的組織。
 
 ## 在使用者清單或報告中顯示使用資訊
 
