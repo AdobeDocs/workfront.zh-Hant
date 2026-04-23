@@ -10,9 +10,9 @@ role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2839'
+source-wordcount: '2688'
 ht-degree: 2%
 
 ---
@@ -20,9 +20,11 @@ ht-degree: 2%
 # 設定群組的專案偏好設定
 
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 如果您是群組管理員且Adobe Workfront管理員為系統中的所有群組解除鎖定專案偏好設定，您可以為群組設定該偏好設定，以影響您的群組建立的所有後續專案。
 
@@ -217,10 +219,10 @@ ht-degree: 2%
    <td role="rowheader"> <p><strong>將一位使用者指派給任務時，請使用……</strong>的排程 </p> </td> 
    <td> <p>如果專案未指派排程，或指派給其任務的使用者未指派排程，[!DNL Workfront]會使用系統預設排程來計算任務的時間表。</p>
 
-<p>如果您將一位使用者指派至專案中的任務，且專案與使用者都有相關的排程，則[!UICONTROL Workfront]會使用下列排程：</p> 
+<p>如果您將一位使用者指派至專案中的任務，且專案與使用者都有相關的排程，則[！UICONTROL Workfront]會使用下列排程：</p> 
     <ul> 
-     <li><strong>[!UICONTROL User]</strong>：指派的使用者計算時間表的工作排程。</li> 
-     <li><strong>[!UICONTROL 專案]</strong>：計算任務時間表之專案的排程。</li> 
+     <li><strong>[！UICONTROL User]</strong>：指派的使用者計算時間表的工作排程。</li> 
+     <li><strong>[！UICONTROL專案]</strong>：計算任務時間表之專案的排程。</li> 
     </ul> <p>如需排程的詳細資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">建立排程</a>。</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -233,15 +235,17 @@ ht-degree: 2%
      <li><strong>每週一般工作天數</strong>：為處理專案的使用者設定標準工作週。 預設值為5天。</li> 
     </ul> <p>這2個選項會將天數轉換為小時，或將周數轉換為天數。</p> <p>例如，如果您有具有8個計畫時數的任務，而持續時間是根據計畫時數計算的，則Workfront會將這些時數轉換為天數，以便將持續時間顯示為天。</p> <p>Workfront會從「每週一般工作天數」欄位計算系統的「相當於全職(FTE)」值。 這是Workfront在計算使用者的分配時所使用的專案。</p> <p>當您計畫專案時間表、編列資源預算或針對專案記錄時間時，會使用這些值。 </p> <p>當您在系統中建立使用者的時程表時，不會使用這些時間表，如<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">設定時程表和小時偏好設定</a>中所述。</p> <p><b>注意</b>： Workfront管理員無法解除鎖定時間表計算偏好設定。</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p><strong>自訂季度</strong> </p> </td> 
+  <!--
+  <tr> 
+   <td role="rowheader"> <p><strong>Custom Quarters</strong> </p> </td> 
    <td> 
-   <span class="preview">自訂季度區域已從預覽環境中的群組專案偏好設定區段中移除。</span>
-   <p>自訂季度通常是不符合日曆年度中傳統季度劃分的季度。 Workfront管理員可以在<b>設定</b>區域中新增多個自訂季度。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">啟用自訂季度</a>。</p>  
-   <p><b>重要<b></p>
-   <p>您無法以群組管理員的身分變更「自訂季度」設定。 <p>Workfront管理員無法解鎖「自訂季度」偏好設定，讓群組管理員可以管理。</p> <p>群組管理員的「自訂季度」區域是唯讀的。</p>
+   <span class="preview">The Custom Quarters area has been removed from the Group's Project Preferences section in the Preview environment.</span>
+   <p>Custom quarters are usually quarters that do not match the traditional breakdown of quarters during a calendar year. A Workfront administrator can add multiple custom quarters in the <b>Setup</b> area. For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Enable custom quarters</a>.</p>  
+   <p><b>IMPORTANT<b></p>
+   <p>You cannot change the Custom Quarter configuration as a group administrator. <p>Workfront administrators cannot unlock Custom Quarters preferences so that group administrators can manage it.</p> <p>The Custom Quarters area is read-only for group administrators.</p>
    </td> 
   </tr> 
+  -->
  </tbody> 
 </table>
 

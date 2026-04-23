@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '822'
 ht-degree: 0%
 
 ---
@@ -141,8 +141,6 @@ Old:
 </table>
 -->
 
-
-
 ## 在記錄上加上註解的考量事項
 
 * 您可以在Workfront Planning中，於記錄的「註解」區段中，新增註解及回覆至記錄。
@@ -158,10 +156,6 @@ Old:
   例如，在Workfront中新增至專案的評論不會顯示在連結至Workfront Planning中行銷活動的相同專案上，而新增至專案Workfront Planning記錄的評論不會顯示在Workfront中。
 
 * 您可以標籤使用者或團隊，以吸引他們注意更新。 個別標籤的使用者和標籤團隊的使用者都會收到應用程式內通知和更新相關電子郵件。
-
-  >[!NOTE]
-  >
-  >   只有已加入Adobe Unified Experience的客戶之使用者，才會同時收到應用程式內通知和電子郵件通知。 若要判斷您的公司是否使用Adobe Unified Experience，請參閱[Workfront的Adobe Unified Experience &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 * 您可以新增更新至記錄，並從Workfront Planning的下列區域複查變更歷史記錄：
 
@@ -197,7 +191,7 @@ Old:
 1. （可選）若要復原或重做變更，請使用下列快速鍵：
    * CTRL + Z （Mac為⌘+z）可復原變更
    * 按CTRL + Y （Mac為⌘+y）以重做變更
-1. （選擇性和條件性）如果您的Workfront執行個體是Adobe整合式體驗的一部分，請新增&#x200B;**@**，然後加上使用者或團隊的名稱，以便在更新中標籤這些使用者。 如需詳細資訊，請參閱本文中關於評論記錄[的](#considerations-about-commenting-on-a-record)考量事項。
+1. 新增&#x200B;**@**，然後加上使用者或團隊的名稱，以便在更新中標籤它們。 如需詳細資訊，請參閱本文中關於評論記錄[的](#considerations-about-commenting-on-a-record)考量事項。
 
 1. （可選）使用RTF工具列中的選項來格式化文字、新增emoji或連結至更新，以強化內容。
 

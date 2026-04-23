@@ -8,19 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '3563'
+source-wordcount: '3503'
 ht-degree: 2%
 
 ---
 
 # 管理表格檢視
 
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>
 
-<span class="preview">本頁標示的資訊是指尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
-
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -241,7 +242,7 @@ Old:
    >
    >隱藏欄位數會顯示在工具列的「欄位」圖示左側。
    >
-   ><span class="preview">依預設，隱藏的欄位不會顯示在記錄的&#x200B;**詳細資料**&#x200B;預覽方塊中。 所有欄位都會顯示在記錄的詳細資訊頁面中。 如需詳細資訊，請參閱[管理記錄頁面配置](/help/quicksilver/planning/records/manage-the-record-page.md)</span>
+   >根據預設，隱藏的欄位不會顯示在記錄的&#x200B;**詳細資料**&#x200B;預覽方塊中。 所有欄位都會顯示在記錄的詳細資訊頁面中。 如需詳細資訊，請參閱[管理記錄頁面配置](/help/quicksilver/planning/records/manage-the-record-page.md)。
 
 
 1. 按一下&#x200B;**欄位**&#x200B;圖示，並啟用與您要顯示在表格欄位中的欄位相關聯的切換。 預設會顯示所有欄位。
@@ -601,11 +602,11 @@ To sort grouped records:
 
    <!--maybe include a screen shot after release if they update the UI text in this list of users-->
 
-1. <span class="preview"> （選擇性）按一下包含其他人編輯之欄位之儲存格右上角的三角形。 目前編輯欄位的使用者清單隨即顯示。</span>
+1. （選擇性）按一下儲存格右上角的三角形，該儲存格包含其他人編輯的欄位。 目前編輯該欄位的使用者清單隨即顯示。
 
 >[!TIP]
 >
-><span class="preview">即時狀態指標會顯示目前在Workfront Planning中任何位置編輯欄位的使用者。 這包括資料表檢視或記錄的詳細資訊區域。</span>
+>即時狀態指標會顯示目前在Workfront Planning中任何位置編輯欄位的使用者。 這包括記錄的表格檢視或詳細資訊區域。
 
 
 

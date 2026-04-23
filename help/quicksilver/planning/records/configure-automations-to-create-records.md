@@ -8,18 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '1790'
+source-wordcount: '1763'
 ht-degree: 3%
 
 ---
 
 # 設定Adobe Workfront Planning自動化
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 <!--add screen shots when UI is finalized AND redo all the steps - some things got changed and moved around-->
 
@@ -164,37 +166,33 @@ Old:
    * **觸發器**：選取將觸發自動化的動作：
 
       * 按鈕點按
-      * <span class="preview">欄位值變更</span>
+      * 欄位值變更
 
-   1. （視條件而定）如果您已選取&#x200B;**按一下**，請移至下列描述&#x200B;**動作**&#x200B;區域的步驟9。<!--ensure this number stays accurate-->
+1. （視條件而定）如果您已選取&#x200B;**按一下**，請移至下列描述&#x200B;**動作**&#x200B;區域的步驟9。<!--ensure this number stays accurate-->
 
-   1. <span class="preview">（條件式）若您選取&#x200B;**欄位值變更**，請在&#x200B;**設定**&#x200B;區段中執行下列動作： </span>
+1. （視條件而定）如果您選取&#x200B;**欄位值變更**，請在&#x200B;**設定**&#x200B;區段中執行下列動作：
 
-      1. <span class="preview">從下拉式功能表中選擇欄位。 這些欄位與您選取的記錄型別相關聯。</span>
-      1. <span class="preview">繼續定義所選欄位的條件。</span>
-      1. <span class="preview">按一下&#x200B;**新增條件**&#x200B;以新增最多5個欄位並定義其條件。</span>
+   1. 從下拉式功能表中選擇欄位。 這些是與您選取的記錄型別相關聯的欄位。
+   1. 繼續定義所選欄位的條件。
+   1. 按一下&#x200B;**新增條件**&#x200B;以新增最多5個欄位並定義其條件。
 
-         <span class="preview">您可以新增下列任何型別的欄位：</span>
+      您可以新增下列任何型別的欄位：
 
-         <div class="preview">
+      * 單選
+      * 多選
+      * 單行文字
+      * 段落
+      * 數字
+      * 核取方塊
+      * 日期
 
-         * 單選
-         * 多選
-         * 單行文字
-         * 段落
-         * 數字
-         * 核取方塊
-         * 日期
+      當符合條件時，Workfront Planning會自動建立物件。
 
-         </div>
+      已選取![欄位值變更觸發程式](assets/field-value-change-trigger-selected.png)
 
-         <span class="preview">當滿足條件時，Workfront Planning會自動建立物件。</span>
-
-         已選取![欄位值變更觸發程式](assets/field-value-change-trigger-selected.png)
-
-         >[!TIP]
-         >
-         ><span class="preview">每個條件中的修飾元會隨著您選取的欄位型別而變更。</span>
+      >[!TIP]
+      >
+      >每個條件中的修飾元會隨著您選取的欄位型別而變更。
 
 1. 更新&#x200B;**動作**&#x200B;區段中的下列欄位： <!--submitted bugs for these fields - see if they need changing here-->
    * **動作**：選取您希望Workfront在觸發自動化時執行的動作。 這是必填欄位。
@@ -218,7 +216,7 @@ Old:
       * **建立專案的已連線欄位**：這是將顯示新專案的已連線欄位。 這是必填欄位。
       * **專案範本**：選取Workfront用來建立專案的專案範本。
 
-   * 建立多個專案：
+   * **建立多個專案**：
       * **建立專案的已連線欄位**：這是將顯示新專案的已連線欄位。 這是必填欄位。
       * **其選擇將建立記錄的欄位**：從選取的記錄型別中選擇多重或單一選取欄位。 Workfront會為您觸發自動化的記錄上目前選取的每個欄位選擇建立一個專案。
 
@@ -252,7 +250,7 @@ Old:
         這是必填欄位。
 
         <!--submitted a change in functionality and UI text for this - revise??-->
-在&#x200B;**對應欄位**&#x200B;區域中，更新下列資訊：
+在**對應欄位**&#x200B;區域中，更新下列資訊：
 
          * **傳輸自**：從建立自動化的記錄型別中選取欄位，以將它們對應到連線記錄型別的欄位。
          * **傳輸至**：從新建立的記錄中選取欄位，這些欄位會填入您執行自動化之記錄中的資訊。
@@ -301,25 +299,28 @@ Old:
 
    所選記錄型別的可用自動化清單隨即開啟。
 
-1. （可選）若要編輯、停用或刪除自動化，請執行下列任一項作業：
+1. （選擇性）若要檢視、停用或刪除自動化清單，請按一下自動化名稱右邊的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後執行下列其中一項作業：
 
-   1. 從自動化清單中，暫留在已儲存的自動化名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)。
+   * 若要自動變更欄位值，請按一下[檢視] ****&#x200B;以檢視自動設定。
 
-   1. 按一下&#x200B;**編輯**&#x200B;以更新下列資訊：
+     >[!TIP]
+     >
+     >當自動化是由欄位值變更所觸發時，在自動化設定儲存後，您無法編輯這些設定。
 
-      * 按一下自動化名稱右邊的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**編輯**&#x200B;以變更自動化名稱。
-      * 自動化中除了&#x200B;**動作**&#x200B;欄位以外的所有欄位。
+   * 若要使用按一下按鈕的自動化功能，請按一下[編輯] ****&#x200B;來更新下列資訊：
 
-        >[!TIP]
-        >
-        >您無法變更您最初為自動化選取的動作。
+      * 按一下自動化名稱右邊的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後&#x200B;**編輯**，即可取得自動化名稱。
+      * 自動化中的任何欄位，**動作**&#x200B;欄位除外。
 
+     >[!TIP]
+     >
+     >您無法變更您最初為自動化選取的動作。
 
-   1. 按一下&#x200B;**停用**&#x200B;以從記錄的資料表檢視中移除自動化，並防止使用者使用它來建立記錄或物件。
+   * 按一下&#x200B;**停用**&#x200B;以從記錄的資料表檢視中移除自動化，並防止使用者使用它來建立記錄或物件。
 
-      使用已停用的自動化所建立的記錄仍會連線至最初選取的記錄。
+     使用已停用的自動化所建立的記錄仍會連線至最初選取的記錄。
 
-      若要再次使用，請按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**啟動**。
-   1. 按一下&#x200B;**刪除**&#x200B;以刪除自動化。 已刪除的自動化無法復原。
+     若要再次使用，請按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**啟動**。
+   * 按一下&#x200B;**刪除**&#x200B;以刪除自動化。 已刪除的自動化無法復原。
 
-      使用已刪除的自動化所建立的記錄會保持與原始選取的記錄連線。
+     使用已刪除的自動化所建立的記錄會保持與原始選取的記錄連線。

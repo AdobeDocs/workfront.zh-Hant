@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: de066d44-d214-47cc-8483-37c2623585ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1042'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 * 您無法在階層中新增下列物件型別：
    * 來自其他工作區的記錄型別，即使這些記錄型別設為可連線或全域記錄型別亦然。 只有在全域記錄型別已新增至您建立階層的工作區時，您才可以將全域記錄型別新增至階層。
    * 所有其他Workfront物件。
-   * AEM Assets或內容片段。
+   * Adobe Experience Manager Assets或內容片段。
 * 階層可同時包含Planning記錄型別和Workfront專案。
 
   例如，您可以將具有規劃策略和Workfront專案的Campaign記錄型別當做相同工作區階層中的子項。

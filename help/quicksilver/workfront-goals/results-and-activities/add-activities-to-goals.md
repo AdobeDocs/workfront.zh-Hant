@@ -9,7 +9,7 @@ feature: Workfront Goals
 exl-id: 4d6ef324-4b5c-402b-b64d-b1a2a7d2ab57
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 6%
@@ -198,10 +198,10 @@ Adding activities to goals differs depending on which environment you use.
 -->
 
 
-1. 按一下&#x200B;**主功能表** ![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**目標**。
+1. 按一下&#x200B;**主功能表** ![主功能表圖示](assets/lines-main-menu.png)，然後按一下&#x200B;**目標**。
 1. 從目標清單中，按一下目標的名稱以開啟目標的頁面。
 1. 按一下左側面板中的&#x200B;**進度指示器**。
-1. 從[新增進度指示器]下拉式功能表，按一下[建立活動] **&#x200B;**。
+1. 從[新增進度指示器]下拉式功能表，按一下[建立活動] ****。
 
    「新增活動」方塊開啟。
 

@@ -8,7 +8,7 @@ feature: Workfront Goals
 exl-id: 2a2c1240-f796-4cb8-b8a6-2ad5853916b9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 4%
@@ -140,7 +140,7 @@ Old:
 
 每個區段都會以稍微不同的格式顯示目標。 您使用哪個區段取決於您在使用目標時想要達到的目的。
 
-如需詳細資訊，請參閱[&#x200B; Adobe Workfront目標區段概觀](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)。
+如需詳細資訊，請參閱[ Adobe Workfront目標區段概觀](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)。
 
 本文說明如何檢閱目標清單中的目標。
 
@@ -246,7 +246,7 @@ Old:
 
 若要管理「目標清單」中的目標：
 
-1. 按一下右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**目標**。
+1. 按一下右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/lines-main-menu.png)，然後按一下&#x200B;**目標**。
 
    <!--
     Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)

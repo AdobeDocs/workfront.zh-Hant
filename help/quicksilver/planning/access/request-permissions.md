@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 3%
+source-wordcount: '490'
+ht-degree: 4%
 
 ---
 
@@ -23,12 +23,13 @@ ht-degree: 3%
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
+<!-- no longer needed: 
 >[!IMPORTANT]
 >
->本文所述的功能僅在您的組織已上線到Adobe Unified Experience時可用。
+>The functionality described in this article is available only when your organization has been onboarded to the Adobe Unified Experience. 
 >
->如需詳細資訊，請參閱[適用於Workfront的Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
-
+>For more information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md). 
+-->
 
 當有人與您共用您無權存取之檢視或工作區的連結時，您可以要求檢視或工作區的許可權。
 

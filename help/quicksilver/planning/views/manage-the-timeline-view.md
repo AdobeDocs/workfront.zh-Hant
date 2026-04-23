@@ -8,19 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '4067'
+source-wordcount: '4007'
 ht-degree: 2%
 
 ---
 
 # 管理時間表檢視
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -194,7 +195,7 @@ Old:
    >在「設定」區域中設定自訂季度後，時間軸檢視會顯示自訂季度，而非傳統季度。
    >如需詳細資訊，請參閱[啟用自訂季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
-1. （視條件而定）如果您是Workfront管理員，請按一下&#x200B;**前往設定**&#x200B;設定您的季度。 如果沒有，請按一下[確定] **&#x200B;**，並要求Workfront管理員設定自訂季度。
+1. （視條件而定）如果您是Workfront管理員，請按一下&#x200B;**前往設定**&#x200B;設定您的季度。 如果沒有，請按一下[確定] ****，並要求Workfront管理員設定自訂季度。
 
    >[!TIP]
    >
@@ -405,22 +406,18 @@ Old:
 1. 如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述，建立記錄型別的時間表檢視。
 1. 按一下時間軸檢視右上角的&#x200B;**群組**。
 
-   <span class="preview">![使用連結欄位將UI時間表檢視分組](assets/grouping-ui-timeline-view-with-linked-fields.png)</span>
+   ![使用連結欄位將UI時間表檢視分組](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. 按一下其中一個建議的欄位，或按一下&#x200B;**選擇其他欄位**，並搜尋其他欄位，然後在欄位顯示在清單中時按一下它。
 
    分組會自動套用至時間軸，且記錄會顯示在分組方塊內。
-1. <span class="preview"> （選擇性和條件性）根據您選取作為群組依據的欄位型別，選取下列其中一個排序選項來依遞增或遞減順序排序群組： </span>
-
-   <div class="preview">
+1. （選擇性和條件性）根據您選取的群組依據欄位型別，選取下列其中一個排序選項來依遞增或遞減順序排序群組：
 
    * **A -> Z**&#x200B;或&#x200B;**Z -> A** （針對選取欄位、文字欄位、段落欄位、連線的記錄或物件、人員欄位）
    * 數字、貨幣或百分比欄位的&#x200B;**0 -> 9**&#x200B;或&#x200B;**9 -> 0**。
    * 日期欄位的&#x200B;**earliest -> latest**&#x200B;或&#x200B;**latest -> earliest**
 
-   </div>
-
-   <span class="preview">時間軸檢視中的群組會依此排序。 群組內的記錄會依照預設排序的&#x200B;**開始日期**&#x200B;的順序排序。</span>
+   時間軸檢視中的群組會依此排序。 群組內的記錄會依照預設排序的&#x200B;**開始日期**&#x200B;的順序排序。
 
 1. （可選）重複上述步驟以新增最多3個群組。
 

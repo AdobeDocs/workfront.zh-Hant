@@ -10,9 +10,9 @@ feature: Workfront Goals
 exl-id: 683c9cd9-6c7b-4d50-b326-b4000c9863e8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '859'
 ht-degree: 3%
 
 ---
@@ -175,7 +175,7 @@ There is an indication on the goal list that the project no longer updates progr
 
 ## 將專案新增至目標
 
-1. 按一下&#x200B;**主功能表** ![主功能表圖示](assets/main-menu-icon.png) (為Shell繪製此專案：或按一下左上角的&#x200B;**主功能表** ![主功能表行](assets/three-line-main-menu-icon.png) （如果有的話）。)，然後&#x200B;**目標**。
+1. 按一下&#x200B;**主功能表** ![主功能表圖示](assets/lines-main-menu.png)，然後按一下&#x200B;**目標**。
 1. 從目標清單中，按一下目標的名稱以開啟目標頁面。
 1. 按一下左側面板中的&#x200B;**進度指示器**。
 1. 從&#x200B;**新進度指示器**&#x200B;下拉式功能表，按一下&#x200B;**新增現有專案**。
@@ -183,7 +183,7 @@ There is an indication on the goal list that the project no longer updates progr
    「將專案新增至目標」方塊隨即顯示。
 1. （選擇性）按一下清單右上角的個別圖示，以修改專案清單的顯示方式，更新&#x200B;**檢視**、**篩選器**&#x200B;或&#x200B;**群組**。
 1. （選擇性）按一下&#x200B;**搜尋**&#x200B;圖示![搜尋圖示](assets/search-icon.png)，然後開始輸入專案名稱以在清單中快速找到它。
-1. 選取您要新增至目標的專案，然後按一下[新增]。**&#x200B;**
+1. 選取您要新增至目標的專案，然後按一下[新增]。****
 
    選取的專案會新增至目標，並顯示在&#x200B;**專案**&#x200B;群組下的目標頁面進度指標區段。
 

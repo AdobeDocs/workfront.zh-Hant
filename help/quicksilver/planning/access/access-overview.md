@@ -8,9 +8,9 @@ role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '699'
 ht-degree: 2%
 
 ---
@@ -71,17 +71,19 @@ ht-degree: 2%
    <ul><li><p>任何Workfront套件和Planning Plus套件</p></li>
    <li><p>任何Workflow套件和Planning Prime與Ultimate套件</p></li></ul> </td></tr>
 
-<tr>
-   <td role="rowheader"><p>Adobe Workfront平台</p></td>
+<!--
+   <tr>
+   <td role="rowheader"><p>Adobe Workfront platform</p></td>
    <td>
-   <p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning。</p>
-   <p><b>重要</b></p>
-   <p>只有新增至Adobe Identity Management系統(IMS)的使用者才能獲得許可權並新增至Planning欄位。</p>
-   <p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p>
+   <p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p>
+   <p><b>IMPORTANT</b></p>
+   <p>Only users added to the Adobe Identity Management System (IMS) can be granted permissions and added to Planning fields.</p>
+   <p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
    </td>
   </tr>
-  </tr>
-  <tr>
+  -->
+
+<tr>
    <td role="rowheader"><p>Adobe Workfront授權</p></td>
    <td>
    <ul><li><p>任一，若要檢視Workfront Planning資訊</p></li>

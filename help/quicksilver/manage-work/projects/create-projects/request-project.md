@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '545'
 ht-degree: 5%
 
 ---
@@ -105,7 +105,7 @@ Old:
 
 1. 執行下列其中一項：
 
-   * 按一下左上角的&#x200B;**主功能表**&#x200B;圖示![主功能表行](assets/lines-main-menu.png)，或按一下右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，按一下&#x200B;**專案**，然後展開&#x200B;**新專案**。
+   * 按一下左上角的&#x200B;**主功能表**&#x200B;圖示![主功能表行](assets/lines-main-menu.png)，按一下&#x200B;**專案**，然後展開&#x200B;**新增專案**。
    * 移至投資組合，然後展開&#x200B;**新專案**。
    * 前往方案，然後展開&#x200B;**新專案**。
    * 如果您是群組管理員，您也可以在您管理之群組的專案區段中建立專案。 如需詳細資訊，請參閱[建立和修改群組的專案](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)。

@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '929'
 ht-degree: 1%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 1%
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-<!--take Preview and Production references at Production time-->
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
-
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -82,58 +82,53 @@ ht-degree: 1%
 * 如果至少有一位核准者拒絕請求，而所有其他核准者皆已核准請求，則會在Workfront的「請求」區域中建立請求，但不會針對與請求表單相關聯的記錄型別建立記錄。
 * 將核准新增至請求表單為選用。 如果請求表單未與核准相關聯，Workfront Planning會在提交請求時立即建立記錄。
 
-## 在生產環境中新增核准到請求表單
+<!--
 
-1. 開始建立記錄型別的要求表單，如[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)中所述。
-1. 按一下&#x200B;**組態**。
+## Add an approval to a request form in the Production environment
 
-   顯示&#x200B;**組態**&#x200B;區域。
+1. Start creating a request form for a record type, as described in [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+1. Click **Configuration**.
 
-   ![設定索引標籤](assets/configuration-tab.png)
-1. 在&#x200B;**核准者**&#x200B;欄位中，開始輸入您要設定為核准者的使用者或團隊名稱，然後在其顯示在清單中時選取它。
-1. （選擇性和條件性）如果您已設定多個核准者，且僅需要一個核准者才能做出決定，請啟用&#x200B;**僅需要一個決定**&#x200B;選項。
+    The **Configuration** area displays.
 
-   <!--most of the Note below is duplicated in the Create a request form article-->
+    ![Configuration tab](assets/configuration-tab.png)
+1. In the **Approvers** field, start typing the name of a user or team that you want to set as an approver, then select it when it displays in the list. 
+1. (Optional and conditional) If you have set more than one approver, and only need one approver to make a decision, enable the **Only one decision is required** option.
 
-   >[!NOTE]
-   >
-   >
-   >* 您可以將一個或多個核准者新增至請求表單。
-   >
-   >* 如果您新增多個核准者，但未啟用「僅需一個決定」選項，則所有核准者必須在Workfront Planning建立記錄前核准請求。
-   >
-   >* 如果至少有一位核准者拒絕請求，則請求會遭到拒絕，且不會建立記錄。 此請求會保留在Workfront的請求區域中。
-   >
-   >* 如果您新增多個核准者，但未啟用「只有一個決定是必要的」選項，則所有核准者必須在核准或拒絕請求之前做出決定。
-   >
-   >* 如果團隊被設定為核准者，則只需從團隊中做出一個決定。
+    (****most of the Note below is duplicated in the Create a request form article***)
 
-
-1. （選擇性）如果您之前從未共用過請求表單，請按一下&#x200B;**發佈**。
-
-   或
-
-   按一下[共用]以共用表單，然後按[複製]連結&#x200B;**。**&#x200B;**&#x200B;**
-1. （選用）使用者使用您共用的連結並提交請求後，Workfront Planning會傳送核准應用程式內通知及電子郵件給核准者。
-
-   >[!NOTE]
-   >
-   >您組織的Workfront執行個體必須上線至Adobe統一體驗，使用者才能接收電子郵件和應用程式內通知。
+      >[!NOTE]
+      >
+      >
+      >* You can add one or several approvers to a request form.
+      >
+      >* If you add more than one approver, and the Only one decision is required option is not enabled, all approvers must approve the request before Workfront Planning creates a record.
+      >
+      >* If at least one approver rejects the request, the request is rejected and the record is not created. The request remains in the Requests area of Workfront.
+      >
+      >* If you add more than one approver, and the Only one decision is required option is not enabled, all approvers must make a decision before a request is either approved or rejected.
+      >
+      >* If a team is set as an approver, only one decision is required from the team.
 
 
-   如需核准要求的詳細資訊，請參閱[核准要求](/help/quicksilver/planning/requests/approve-request.md)。
+1. (Optional) Click **Publish** if you have never shared the request form before.
 
-<div class="preview">
+    Or
 
-## 在預覽環境中將核准規則新增到請求表單
+    Click **Share** to share the form, then **Copy link**. 
+1. (Optional) After a user uses the link you share and submits a request, Workfront Planning sends an approval in-app notification and an email to the approvers.
+
+   For information about approving requests, see [Approve a request](/help/quicksilver/planning/requests/approve-request.md).
+
+-->
+
+## 將核准規則新增至請求表單
 
 核准規則會根據已提交請求中的欄位值來定義核准流程。
 
 例如，如果請求表單有「Campaign type」欄位，則可建立規則，當欄位值為「Digital」時傳送請求給一個人，當值為「Print」時傳送請求給另一個人。
 
 新增核准規則時，請考量下列事項：
-
-<!--below bullet list is duplicated in the Add approval to a request form in the Production environment section above-->
 
 * 您可以將一或多個核准者新增至核准規則。
 * 如果至少有一位核准者拒絕請求，則請求會遭到拒絕，且不會建立記錄。 此請求會保留在Workfront的請求區域中。
@@ -172,7 +167,5 @@ ht-degree: 1%
    >   * 如果符合自訂規則，則預設不會套用至請求核准工作流程。 只有相符的自訂規則才適用於核准，而預設規則會被忽略。
    >   * 如果符合多個自訂規則，則會套用順序中的第一個自訂規則。 在此情況下，預設核准不適用（如果有的話）。
 
-1. 按一下[儲存]儲存核准規則。**&#x200B;**
+1. 按一下[儲存]儲存核准規則。****
 1. （選擇性）如果您之前從未共用過請求表單，請按一下&#x200B;**發佈**。
-
-</div>

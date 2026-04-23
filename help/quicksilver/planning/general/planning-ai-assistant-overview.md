@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '781'
 ht-degree: 1%
 
 ---
@@ -115,9 +115,9 @@ ht-degree: 1%
 
 ## 存取「規劃」區域的AI助理
 
-1. 登入Workfront，然後按一下熒幕右上角的&#x200B;**主功能表**&#x200B;圖示![點主功能表](assets/dots-main-menu.png)，或左上角的&#x200B;**主功能表**&#x200B;圖示![行主功能表](assets/lines-main-menu.png) （若有）。
+1. 登入Workfront，然後按一下左上角的&#x200B;**主功能表**&#x200B;圖示![行主功能表](assets/lines-main-menu.png)，然後按一下&#x200B;**規劃**。
 
-。按一下&#x200B;**計畫**。 「規劃」區域隨即開啟。
+   「規劃」區域隨即開啟。
 
 1. 按一下&#x200B;**工作區卡片**。
 

@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2400'
+source-wordcount: '2342'
 ht-degree: 1%
 
 ---
@@ -132,12 +132,11 @@ Not sure how to change the request status, but dev also said: Changing the names
 
 {{step1-to-requests}}
 
-1. 開啟熒幕右上角的&#x200B;**使用新體驗**&#x200B;設定。
-開啟此設定後，Workfront的&#x200B;**要求**&#x200B;區域即可使用Workfront規劃要求表單。
+1. 開啟熒幕右上角的&#x200B;**使用新體驗**設定。
+開啟此設定後，Workfront的**要求**&#x200B;區域即可使用Workfront規劃要求表單。
 
    >[!TIP]
    >
-   >此設定僅在您的Workfront執行個體上線到Adobe統一體驗時可用。
    >
    >若要能夠在此區域提交Workfront Planning請求，您必須符合下列條件：
    >
@@ -192,11 +191,7 @@ Not sure how to change the request status, but dev also said: Changing the names
    * 您會收到應用程式內及電子郵件通知，告知您請求已成功提交或已傳送以供檢閱。
    * 如果請求表單與核准相關聯，核准者會收到應用程式內和電子郵件通知，以檢閱和核准請求。
 
-     >[!NOTE]
-     >
-     >只有當貴組織的Workfront執行個體上線至Adobe Unified Experience時，才會顯示電子郵件和應用程式內通知。
-     >
-     >電子郵件確認或核准通知中會有請求的連結。
+     電子郵件確認或核准通知中會有請求的連結。
 
 1. （選擇性）按一下確認訊息中的&#x200B;**檢視您的要求**&#x200B;以開啟要求，或按一下&#x200B;**X**&#x200B;圖示以關閉確認。
 1. （選擇性）若要管理資訊在請求清單中的顯示方式，請更新清單的下列檢視元素：
@@ -289,10 +284,6 @@ Not sure how to change the request status, but dev also said: Changing the names
 
    * 您會收到應用程式內及電子郵件通知，告知您請求已成功提交或已傳送以供檢閱。
    * 如果請求表單與核准相關聯，核准者會收到應用程式內和電子郵件通知，以檢閱和核准請求。
-
-     >[!NOTE]
-     >
-     >只有當貴組織的Workfront執行個體上線至Adobe Unified Experience時，才會顯示電子郵件和應用程式內通知。
 
      在核准請求並建立記錄後，「核准者」和「已核准」日期欄位會顯示有關記錄核准的資訊。
 
