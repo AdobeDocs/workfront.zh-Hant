@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be95161b-2443-464a-b91c-82a96d5354a2
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 7a2ca1b61b2e8069445b1be162422660e3b4e100
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '596'
 ht-degree: 1%
 
 ---
@@ -68,10 +68,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->預先定義的檢視不會有預覽版本，而是直接發佈到生產環境。
->預覽：待定
->生產快速發佈：待定
->適用於所有人的生產環境：待定
+>預先定義的檢視將於4月16日直接發行給所有環境。
 
 為協助您更妥善地組織請求清單，我們在「請求」區域和「首頁」的「我的請求」小工具中，新增了下列預先定義的檢視：
 
