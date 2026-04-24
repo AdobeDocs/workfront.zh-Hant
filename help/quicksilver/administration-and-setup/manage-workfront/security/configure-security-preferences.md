@@ -2,18 +2,18 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: security
-title: 設定系統偏好設定
-description: 身為Adobe Workfront管理員，您可以設定Workfront系統的偏好設定，包括安全性偏好設定。
+title: Configure System Preferences
+description: As an Adobe Workfront administrator, you can configure preferences for your Workfront system, including security preferences.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
+source-git-commit: 77b78c5905736092c972e08283fdabf321bfa580
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 8%
+source-wordcount: '773'
+ht-degree: 7%
 
 ---
 
@@ -27,14 +27,14 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 {{important-admin-console-onboard}}
 
-身為Adobe Workfront管理員，您可以設定Workfront系統的偏好設定，包括：
+As an Adobe Workfront administrator, you can configure preferences for your Workfront system, including:
 
-* 從行動應用程式和其他整合式應用程式存取Workfront
-* 將Workfront內嵌至iframe的規則
+* Access to Workfront from mobile apps and other integrated applications
+* Rules for embedding Workfront in an iframe
 
-您在系統偏好設定中進行的變更會影響系統中所有使用者，以及他們在Workfront中的體驗。
+Changes that you make in the system preferences impact all users in your system, and their experience in Workfront.
 
-我們建議您在Workfront實作期間設定系統偏好設定，之後只需偶爾重新造訪一次。
+We recommend that you configure your system preferences during the Workfront implementation and only occasionally revisit them after that.
 
 ## 存取權要求
 
@@ -63,13 +63,13 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 +++
 
-## 設定您的系統偏好設定
+## Configure your system preferences
 
 {{step-1-to-setup}}
 
-1. 在左側面板中，按一下&#x200B;**系統** > **偏好設定**。
+1. In the left panel, click **System** > **Preferences**.
 
-1. 選取下列任一欄位來建立組織的設定：
+1. Select any of the following fields to establish the settings for your organization:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -77,19 +77,19 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>啟用快速發佈程序</p> </td> 
-      <td>可讓您為貴組織啟用每月Workfront發行，而非每季發行。</p><p>如需快速發行程式的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md" class="MCXref xref">為您的組織啟用或停用快速發行</a>。</p></td> 
+      <td>Lets you enable monthly Workfront releases for your organization instead of quarterly releases.</p><p>For more information about the fast release process, see <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md" class="MCXref xref">Enable or disable fast releases for your organization</a>.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>允許在iframe中內嵌Workfront</p> </td> 
-      <td>可讓您將Workfront內嵌於iframe中。<p>此選項預設為停用。</p><p><b>重要</b>：在iframe中顯示Web應用程式，會使應用程式容易發生點選劫持安全性弱點。</p></td> 
+      <td role="rowheader"> <p>Allow embedding of Workfront in an iframe</p> </td> 
+      <td>Lets you embed Workfront in an iframe.<p>此選項預設為停用。</p><p><b>IMPORTANT</b>: Displaying a web-based application in an iframe makes the application susceptible to a click-jacking security vulnerability.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Office 365 增益集允許 SAML 2.0 驗證</td> 
-      <td> <p>當Workfront與SAML 2.0單一登入解決方案整合時，可讓您僅將Workfront內嵌在Office 365增益集適用的iframe中。 </p> <p>此選項預設為啟用。</p> <p><b>注意</b>：如果您啟用上述選項<strong>允許在iframe中內嵌Workfront</strong>，則選項<strong>允許Office 365增益集中的SAML 2.0驗證</strong>已啟用且變暗。</p> </td> 
+      <td> <p>Lets you embed Workfront in an iframe only for Office 365 add-ins when Workfront is integrated with a SAML 2.0 single sign-on solution. </p> <p>This option is enabled by default.</p> <p><b>NOTE</b>:  If you enable the option above, <strong>Allow embedding of Workfront in an iframe</strong>, the option <strong>Allow SAML 2.0 authentication in Office 365 add-ins</strong> is enabled and dimmed.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">啟用在建立外部頁面URL時使用工作階段資訊</td> 
-      <td> <p>允許使用者在將外部頁面新增到儀表板時使用網站的工作階段ID資訊。</p> <p>此選項不安全，預設為關閉。 建議改用OAuth進行整合。</p> <p>如需將外部頁面新增至控制面板的詳細資訊，請參閱<a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">將外部網頁內嵌於控制面板</a>。</p> </td> 
+      <td role="rowheader">Enable the use of session information when creating External Page URLs</td> 
+      <td> <p>Allows users to use the Session ID information of a site when adding an External Page to a Dashboard.</p> <p>This option is insecure and off by default. 建議改用OAuth進行整合。</p> <p>如需將外部頁面新增至控制面板的詳細資訊，請參閱<a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">將外部網頁內嵌於控制面板</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">讓人們使用Workfront的行動應用程式</td> 
@@ -126,6 +126,10 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
      <tr> 
       <td role="rowheader">啟用「優先順序」工作清單 </td> 
       <td>可讓您選擇為使用者啟用或停用優先順序工作清單體驗。 使用者仍可在Workfront中看到優先順序圖示，但無法存取該功能。 如需有關優先順序的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">開始使用優先順序</a>。</td> 
+     </tr>
+      <tr> 
+      <td role="rowheader">啟用Adobe企業儲存空間 </td> 
+      <td>可讓您選擇為整個組織或特定群組啟用或停用Adobe企業儲存空間。 如需Adobe企業儲存空間的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">為您的組織啟用Adobe企業儲存空間</a>。</td> 
      </tr>
      <tr> 
       <td role="rowheader">啟用 AI </td> 
