@@ -1,7 +1,7 @@
 ---
-source-git-commit: 8e8eec4977614529a1bab78dda003cdcdf32dba0
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '2274'
+source-wordcount: '2317'
 ht-degree: 2%
 
 ---
@@ -120,7 +120,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 >
 >本頁所述的程式僅適用於尚未加入Adobe Admin Console的組織。
 >
->如果您的組織已加入Adobe Admin Console，請參閱[平台型管理差異(Adobe Workfront/Adobe Business Platform)](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
+>如果您的組織已加入Adobe Admin Console，請參閱[Adobe Workfront與Adobe商務平台之間的管理差異](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
 ## 步驟1 — 接近使用者 {#step-1-to-users}
 
@@ -481,7 +481,7 @@ OLD:
 
 1. 在&#x200B;**[!UICONTROL 組織]**&#x200B;區段中，選取&#x200B;**[!UICONTROL 主團隊]**&#x200B;欄位。 開始輸入您想要與使用者建立關聯的團隊名稱。 當您在清單中看到團隊名稱時，請按一下該團隊的名稱。
 
-1. 按一下&#x200B;**[!UICONTROL 儲存變更]**。
+1. 按一下「**[!UICONTROL 儲存變更]**」。
 您選取的使用者現在與主團隊相關聯。
 這些使用者現在可以看到任何專案團隊設定，包括與「完成」按鈕關聯的狀態。
 

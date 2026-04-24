@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '946'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
 >
 >本頁所述的程式僅適用於尚未加入Admin Console的組織。 如果您的組織已加入Adobe Admin Console，您必須透過Adobe Admin Console執行此動作。
 >
->如需根據貴組織是否已加入Adobe Admin Console而有所差異的程式清單，請參閱[以平台為基礎的管理差異(Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
+>如需根據貴組織是否已加入Adobe Admin Console而有所差異的程式清單，請參閱[Adobe Workfront與Adobe商務平台之間的管理差異](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
 身為Adobe Workfront管理員，您可以使用電子郵件邀請將使用者新增至Workfront，並通知他們已新增。
 

@@ -10,9 +10,9 @@ role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '740'
 ht-degree: 3%
 
 ---
@@ -191,7 +191,7 @@ Remove me October 2026
 >
 >The procedure described in this section applies only to organizations that have not yet been onboarded to the Adobe Business Platform. Logging in to Workfront through the Workfront API is not available if your organization has been onboarded to the Adobe Business Platform.
 >
->For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Business Platform, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Business Platform, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 >[!NOTE]
 >

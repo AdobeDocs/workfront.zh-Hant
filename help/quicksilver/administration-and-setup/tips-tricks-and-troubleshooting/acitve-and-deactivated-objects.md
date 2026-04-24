@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 2%
+source-wordcount: '759'
+ht-degree: 3%
 
 ---
 
@@ -102,11 +102,11 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->如果您的組織已加入[!DNL Adobe Business Platform]，您必須透過[!UICONTROL Adobe Admin Console]停用使用者。
+>您的組織加入[!DNL Adobe Business Platform]後，您必須透過[!UICONTROL Adobe Admin Console]停用使用者。
 >
 >如需在[!UICONTROL Adobe Admin Console]中停用使用者的指示，請參閱文章[個別管理使用者](https://helpx.adobe.com/tw/enterprise/using/manage-users-individually.html)中的「移除使用者」一節，或連絡您的[!UICONTROL Adobe Admin Console]系統管理員。
 >
->如需根據貴組織是否已加入[!DNL Adobe Business Platform]而不同的程式清單，請參閱[以平台為基礎的管理差異(Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
+>如需根據貴組織是否已加入[!DNL Adobe Business Platform]而不同的程式清單，請參閱[Adobe Workfront與Adobe商務平台之間的管理差異](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
 ## 團隊
 

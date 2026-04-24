@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '835'
 ht-degree: 3%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 3%
 >
 >**因為所有組織現在都已上線到Adobe Admin Console，所以此頁面上的資訊不久將會移除。**
 >
->如需根據貴組織是否已加入Adobe Business Platform而有所差異的程式清單，請參閱[以平台為基礎的管理差異(Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
+>如需根據貴組織是否已加入Adobe Business Platform而有所差異的程式清單，請參閱[Adobe Workfront與Adobe Business Platform之間的管理差異](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
 當使用者離開您的組織時，您可以從Adobe Workfront中移除該使用者。
 
@@ -37,9 +37,9 @@ ht-degree: 3%
 >
 >Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].
 >
->  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/tw/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
->  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
 -->
 
@@ -64,7 +64,7 @@ ht-degree: 3%
    <td> <p>您必須具備下列其中一項：</p> 
     <ul> 
      <li> <p>系統管理員存取層級。 </li> 
-     <li> <p>您的存取層級中的<b>使用者</b>設定已設定為<b>編輯</b>存取權，其中<b>建立</b>以及在<b>微調您的設定</b> <b>下啟用的兩個</b>使用者管理員<img src="assets/gear-icon-in-access-levels.png">選項中的至少一個。 </p> <p>在這兩個選項中，如果已啟用<b>使用者管理員（群組使用者）</b>，您必須是使用者所屬群組的群組管理員。</p> </li> 
+     <li> <p>您的存取層級中的<b>使用者</b>設定已設定為<b>編輯</b>存取權，其中<b>建立</b>以及在<b>微調您的設定</b> <img src="assets/gear-icon-in-access-levels.png">下啟用的兩個<b>使用者管理員</b>選項中的至少一個。 </p> <p>在這兩個選項中，如果已啟用<b>使用者管理員（群組使用者）</b>，您必須是使用者所屬群組的群組管理員。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -91,7 +91,7 @@ ht-degree: 3%
      >[!NOTE]
      >
      >如果您停用使用者且無法再檢視與使用者相關聯的報告或儀表板，則可能需要更新&#x200B;**使用**&#x200B;欄位的存取許可權執行此報告。\
-     >若要深入瞭解，請參閱[為何無法存取停用使用者所擁有的報告？](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why)報告常見問題集[文章的](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)區段。
+     >若要深入瞭解，請參閱[為什麼我無法存取停用使用者所擁有的報告？](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) [報告常見問題集](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)文章的區段。
 
    * 文件
    * 更新
@@ -139,7 +139,7 @@ ht-degree: 3%
 
 {{step-1-to-users}}
 
-1. 請至少選取一個要刪除的使用者，按一下[更多]功能表![[更多]圖示](assets/more-icon.png)，然後按一下[刪除]&#x200B;**&#x200B;**。
+1. 請至少選取一個要刪除的使用者，按一下[更多]功能表![[更多]圖示](assets/more-icon.png)，然後按一下[刪除]****。
 1. 在出現的方塊中，按一下&#x200B;**刪除**&#x200B;以確認刪除。
 
    刪除使用者的程式會以背景程式執行，因此您可以在刪除使用者時繼續使用Workfront。
