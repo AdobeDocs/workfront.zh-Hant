@@ -2,14 +2,14 @@
 product-area: documents
 navigation-topic: manage-documents
 title: 管理檔案版本
-description: 您可以在Workfront中管理檔案的多個版本。
+description: You can manage multiple versions of a document in Workfront.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 477153e4-847b-46ec-8107-72a7399c3767
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 0%
+source-wordcount: '634'
+ht-degree: 3%
 
 ---
 
@@ -17,22 +17,23 @@ ht-degree: 0%
 
 <!-- Audited: 5/2025 -->
 
-您可以在Workfront中管理檔案的多個版本。
+You can manage multiple versions of a document in Workfront.
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
-   <td> <p> 任何</p> </td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>使用舊版Workfront儲存來管理檔案的任何Workfront套件</p>
+<p>使用Adobe企業儲存體管理檔案的任何Workflow套件</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
    <td> 
    <p>投稿人或以上</p>
    <p>要求或更高版本 </p>
@@ -44,7 +45,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>檢視檔案的存取權</p></td> 
+   <td> <p>View access to the Document</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,31 +56,31 @@ ht-degree: 0%
 
 ## 先決條件
 
-* 本文假設檔案有多個版本。
+* This article assumes that the document has multiple versions.
 
   如果您需要有關將檔案新版本上傳到Workfront的資訊，請參閱[上傳檔案新版本](../../documents/managing-documents/upload-new-document-version.md)。
 
-## 檢視檔案所有版本的清單
+## View a list of all versions of a document
 
 {{step1-to-documents}}
 
-1. 在&#x200B;**檔案**&#x200B;頁面上，選取清單中的檔案。
+1. On the **Documents** page, select a document in the list.
 
-1. 在頁面的右上角，按一下&#x200B;**開啟摘要**&#x200B;圖示![開啟摘要圖示](assets/qs-summary-in-new-toolbar-small.png)。 **檔案摘要**&#x200B;側面板隨即開啟。
+1. In the upper-right corner of the page, click the **Open Summary** icon ![Open Summary icon](assets/qs-summary-in-new-toolbar-small.png). The **Document Summary** side panel opens.
 
-1. 向下捲動至&#x200B;**版本**&#x200B;區段以檢視所有檔案版本。
+1. Scroll down to the **Versions** section to view all the document versions.
 
-## 檢視和管理先前檔案版本的詳細資訊
+## View and manage details for a previous document version
 
 {{step1-to-documents}}
 
-1. 將滑鼠停留在檔案上，然後按一下&#x200B;**檔案詳細資料**。
+1. Hover over the document, then click **Document Details**.
 
-1. 在&#x200B;**檔案詳細資料**&#x200B;頁面頂端附近，按一下名稱旁邊的下拉式功能表，然後按一下您要檢視及管理的版本名稱。
+1. Near the top of the **Document Details** page, click the drop-down menu next to the name, then click the name of the version you want to view and manage.
 
-   檔案詳細資訊頁面上的![版本下拉式清單](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+   ![Version drop-down on the Document Details page](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
 
-   除了檢視版本的詳細資訊之外，您還可以變更版本，例如其名稱、中繼資料和校訂設定（如果是檔案校訂）。
+   Along with viewing the version&#39;s details, you can make changes to the version, such as its name, metadata, and proofing settings (if it&#39;s a document proof).
 
 ## 下載單一檔案版本
 
@@ -130,11 +131,11 @@ ht-degree: 0%
 1. 在頁面的右上角，按一下&#x200B;**開啟摘要**&#x200B;圖示![開啟摘要圖示](assets/qs-summary-in-new-toolbar-small.png)。 **檔案摘要**&#x200B;側面板隨即開啟。
 
 1. 向下捲動至&#x200B;**版本**&#x200B;區段以檢視所有檔案版本。
-1. 在&#x200B;**版本**&#x200B;區段中，按一下版本右側的&#x200B;**更多**&#x200B;功能表![更多](assets/more-icon.png)，然後按一下出現的下拉式清單中的&#x200B;**刪除**。
+1. In the **Versions** section, click the click the **More** menu ![More menu](assets/more-icon.png) to the right of the version, then click **Delete** in the drop-down list that appears.
 
    >[!NOTE]
    >
-   >* **刪除**&#x200B;選項只有在至少有2個版本時才可見。
-   >* 如果檔案連結到外部來源，則該連結會遭到刪除，並且該檔案無法再透過Workfront存取。
+   >* The **Delete** option is visible only if there are at least 2 versions.
+   >* If the document is linked to an outside source, that link is deleted and the document is no longer accessible through Workfront.
 
-   ![刪除檔案版本](assets/more-versions-350x143.png)
+   ![Delete the document version](assets/more-versions-350x143.png)

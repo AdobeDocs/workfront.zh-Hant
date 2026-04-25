@@ -6,10 +6,10 @@ description: 您可以從Workfront傳送檔案至Experience Manager Assets或Ass
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 0%
+source-wordcount: '923'
+ht-degree: 2%
 
 ---
 
@@ -21,26 +21,33 @@ ht-degree: 0%
 
 在預覽環境中，透過此整合傳送至Experience Manager的Assets有&#x200B;**30 GB**&#x200B;的大小限制。
 
+>[!NOTE]
+>
+>新檔案區域未提供此功能。<br>
+>如果您的組織使用企業儲存空間，當您存取Workfront中的檔案時，將會看到新檔案區域。 從那裡，您可以將資產傳送到Experience Manager Assets。 如需詳細資訊，請參閱[使用Adobe Experience Manager與Frame.io整合](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)。
+
+## 後設資料
+
 從Workfront傳送資產至Experience Manager Assets或Assets Essentials時，會先對應中繼資料欄位。 設定為對應父物件的任何中繼資料也會一併傳送。 如需設定中繼資料對應的詳細資訊，請參閱[設定Experience Manager Assets as a Cloud Service整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)或[設定Experience Manager Assets Essentials整合](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)。
 
 >[!INFO]
 >
 >**範例**&#x200B;當您第一次傳送附加至任務的資產時，任務中繼資料會對應至Experience Manager Assets或Assets Essentials，以及父物件（例如專案、投資組合和方案）的任何對應中繼資料。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p> 任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
    <td> 
    <p>投稿人或以上</p> 
    <p>要求或更高版本</p> </td> 
@@ -91,7 +98,7 @@ ht-degree: 0%
    ![傳送至](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. 選擇要將資產移至何處，然後按一下&#x200B;**選取資料夾**。
-1. 當您找到想要的目的地，請按一下[儲存]。**&#x200B;**
+1. 當您找到想要的目的地，請按一下[儲存]。****
 
 ## 傳送新版本
 
@@ -112,7 +119,7 @@ ht-degree: 0%
 
    ![傳送至](assets/copy-of-send-to-in-toolbar-350x149.png)
 
-1. 按一下「**儲存**」。新版本會儲存在與舊版本相同的位置。
+1. 按一下「**儲存**」。 新版本會儲存在與舊版本相同的位置。
 
 ## 在Experience Manager Assets中將檔案移至連結的資料夾
 

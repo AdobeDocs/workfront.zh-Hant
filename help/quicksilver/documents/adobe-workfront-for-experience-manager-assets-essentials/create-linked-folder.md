@@ -7,10 +7,10 @@ description: 在Workfront中，您可以建立與Experience Manager Assets或Ass
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 0%
+source-wordcount: '488'
+ht-degree: 3%
 
 ---
 
@@ -20,9 +20,14 @@ ht-degree: 0%
 
 如果從Experience Manager Assets或Assets Essentials內的連結資料夾中刪除或移動資產，Workfront會在專案>檔案區域中保留資產副本。
 
-## 存取需求
+>[!NOTE]
+>
+>新檔案區域未提供此功能。<br>
+>如果您的組織使用企業儲存空間，當您存取Workfront中的檔案時，將會看到新檔案區域。 從該位置，您可以從Experience Manager Assets或Assets Essentials新增資產，但將無法建立連結資料夾。
 
-+++ 展開以檢視本文中功能的存取需求。
+## 存取權要求
+
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table>
   <tr>

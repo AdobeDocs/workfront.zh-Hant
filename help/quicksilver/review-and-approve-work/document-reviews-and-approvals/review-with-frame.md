@@ -9,10 +9,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 3190ad18-180e-42e5-aa10-bdad74303d3d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 0%
+source-wordcount: '600'
+ht-degree: 3%
 
 ---
 
@@ -25,10 +25,10 @@ ht-degree: 0%
 如需有關Frame.io與Workfront整合的詳細資訊，請參閱[整合式稽核和核准總覽](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)。
 
 
-<!--
-## Access requirements
 
-+++ Expand to view access requirements for the functionality in this article.
+## 存取權要求
+
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,29 +37,30 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront package</td> 
-   <td> <p> Any</p> </td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td> <p>使用舊版Workfront儲存空間管理核准的任何Workfront套件</p>
+<p>使用Adobe企業儲存體管理核准的任何Workflow套件</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront licenses</td> 
-   <td> <p>Request or higher</p>
-   <p>Contributor or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
+   <td> <p>要求或更高版本</p>
+   <p>投稿人或以上</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>Edit access to Documents</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>編輯檔案的存取權</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Edit access to the object associated with the document</p> </td> 
+   <td role="rowheader">物件許可權</td> 
+   <td> <p>編輯與檔案關聯之物件的存取權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
--->
+
 
 ## 先決條件
 
@@ -71,7 +72,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. 移至您的檢閱電子郵件通知，然後按一下&#x200B;**移至檢閱**。
 或
-前往Workfront首頁，尋找「我的核准」Widget，然後按一下&#x200B;**開啟稽核**。
+前往Workfront首頁，尋找「我的核准」Widget，然後按一下**開啟稽核**。
 
    >[!NOTE]
    > 
@@ -93,7 +94,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 1. 移至您的檢閱電子郵件通知，然後按一下&#x200B;**移至檢閱**。
 或
-前往Workfront首頁，尋找「我的核准」Widget，然後按一下&#x200B;**開啟稽核**。
+前往Workfront首頁，尋找「我的核准」Widget，然後按一下**開啟稽核**。
 
    >[!NOTE]
    > 

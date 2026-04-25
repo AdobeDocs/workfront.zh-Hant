@@ -2,19 +2,19 @@
 content-type: overview
 product-area: projects
 navigation-topic: approvals
-title: 核准流程總覽
+title: 核准程序概觀
 description: 您可以建立核准程式並將其附加至物件，以確保指定的使用者在物件進行之前先檢閱某些變更。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: dd0822b6-80f1-4a2e-bf6a-0c425984f4d0
-source-git-commit: e4de185f172b173dcc3ad966afa69ffb3bc479eb
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '1752'
+source-wordcount: '1804'
 ht-degree: 0%
 
 ---
 
-# 核准流程總覽
+# 核准程序概觀
 
 <!-- Audited: 12/2023 -->
 
@@ -57,73 +57,75 @@ ht-degree: 0%
 >
 >「群組層級全域核准流程」一詞是指可重複用於專案的核准流程，其狀態僅與特定群組相關聯。
 
-如需有關建立系統層級核准程式或群組層級核准程式的資訊，請參閱[建立工作專案的核准程式](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。
+For information about creating a system-level approval process or a group-level approval process see [Create an approval process for work items](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-## 關於核准流程的考量事項
+## Considerations about approval processes
 
-* 您必須先建立專案、任務、問題、範本或範本任務，核准流程才能與它們相關聯。
-* 核准程式一律與兩個基本專案相關聯：
+* You must create the project, task, issue, template, or template task before the approval process can be associated with them.
+* An approval process is always associated with two essential things:
 
-   * 每個核准流程都會對應至Workfront系統中的特定工作專案狀態。 當您變更工作專案的狀態時，該狀態的附加核准需要先確認狀態變更，然後才能將新狀態指派給專案。
+   * Each approval process corresponds to a certain work item status in the Workfront system. When you change the status of a work item, an attached approval for that status requires the status change to be confirmed before the new status can be assigned to the item.
 
      >[!TIP]
      >
      >
      >   
      >   
-     >   * 您可以將群組層級核准與全域或群組層級狀態建立關聯。
-     >   * 您無法使用核准程式將專案的狀態變更為與核准程式相關聯的狀態以外的狀態。
+     >   * You can associate a group-level approval with a global or a group-level status.
+     >   * You cannot change the status of an item using an approval process to a status other than the one associated with the approval process.
      >   
      >   
-     >     例如，如果您有一個與進行中狀態相關聯的任務核准，則當核准被授予時，任務會自動將其狀態變更為進行中。 它無法自動將其狀態變更為「已完成」或任何其他與核准無關聯的狀態。
+     >     For example, if you have a task approval associated with the status of In Progress, the task automatically changes its status to In Progress when the approval is granted. It cannot automatically change its status to Completed or any other status that is not associated with the approval.
      >   
      >   
-     >* 與核准流程關聯的實體可以是使用者、工作角色或團隊。 使用者最終需負責接受或拒絕核准。 您可以將核准指派給在專案上履行特定角色的使用者。 例如，您可以將核准指派給專案所有者或贊助者。 如需詳細資訊，請參閱[建立工作專案的核准程式](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。
+     >
+
+   * The entities associated with an approval process can be users, job roles, or teams. Users are ultimately responsible for accepting or rejecting the approval. You can assign approvals to users who fulfill a certain role on the project. For example, you can assign an approval to a Project Owner, or Sponsor. For more information, see [Create an approval process for work items](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
      存在下列情況：
 
-      * 當您指派核准給工作角色時，專案團隊中與工作角色相關聯的任何使用者都可以對核准做出決定。 與核准關聯的角色可以是其主要角色或任何其他角色。
+      * When you assign an approval to job roles, any user on the Project Team who is associated with the job role can make a decision on the approval. The role associated with the approval can be either their Primary Role or any Other Roles.
 
-        如需有關專案團隊的資訊，請參閱[專案團隊概觀](../../manage-work/projects/planning-a-project/project-team-overview.md)。
+        For information about the Project Team, see [Project Team overview](../../manage-work/projects/planning-a-project/project-team-overview.md).
 
-      * 當您將核准指派給團隊時，該團隊的任何成員都可以對核准做出決定。 與核准相關聯的團隊可以是他們的主團隊或他們的任何其他團隊。
+      * When you assign an approval to a team, any member of that team can make a decision on the approval. The team associated with the approval can be either their Home Team or any of their Other Teams.
 
-        如需有關使用者角色和團隊的資訊，請參閱[編輯使用者設定檔](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
+        For information about a user&#39;s roles and teams, see [Edit a user&#39;s profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-* 當您建立工作專案時，它不會自動附加核准流程。 如果要使用一個，則必須手動附加。 如需將核准程式附加至專案的相關資訊，請參閱[將新的或現有的核准程式與工作建立關聯](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)。
-* Workfront管理員或具有核准流程管理存取權的使用者可以建立系統層級的全域核准流程，以供整個系統使用。 擁有核准流程管理存取權的群組管理員可以建立群組層級全域核准流程，僅供其管理的特定群組使用。
-* 如果您不想對工作專案使用預先定義的系統層次或群組層次全域核准流程，則當您對要附加核准流程的物件具有「管理」許可權時，可以建立並附加單一使用核准流程。
+* When you create a work item, it does not automatically have an approval process attached. You must attach one manually if you want to use one. For information about attaching an approval process to an item, see [Associate a new or existing approval process with work](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+* The Workfront administrator or a user with administrative access to approval processes can create a system-level global approval processes for use throughout the system. A group administrator with administrative access to approval processes can create a group-level global approval process for use only by a certain group that they manage.
+* If you don&#39;t want to use a predefined system-level or group-level global approval process for a work item, you can create and attach a single-use approval process to it when you have Manage permissions to the object for which you want to attach the approval process.
 
   >[!NOTE]
   >
-  >您只能針對建立該程式的特定專案使用一次單一使用核准程式。 您可以為專案、任務、問題、範本和範本任務的一次性使用核准程式建立全域狀態和群組層級狀態的關聯。
+  >You can use a single-use approval process only once for the specific item for which it was created. You can associate global statuses as well as group-level statuses for single-use approval processes for projects, tasks, issues, templates, and template tasks.
 
-* 當使用群組層級自訂狀態將群組層級核准流程附加至專案時，變更專案群組可能會在先前群組的核准狀態與系統層級現有的核准狀態之間產生衝突。 在更新群組之前，請考慮移除專案的群組層級核准流程，或其任務或問題。 如需有關建立群組層級核准流程的資訊，請參閱[群組層級核准流程](../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md)。 如需有關建立自訂群組狀態的資訊，請參閱[建立或編輯群組狀態](../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)。 如需有關更新專案群組的資訊，請參閱[編輯專案](../../manage-work/projects/manage-projects/edit-projects.md)。
+* When attaching a group-level approval process to an item using group-level custom statuses, changing the Group of the project might create a conflict between the approval statuses of the previous group and those existing at the system level. Consider removing the group-level approval processes on the project, or its tasks or issues before updating the group. For information about creating group-level approval processes, see [Group-level approval processes](../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md). For information about creating custom group statuses, see [Create or edit a group status](../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md). For information about updating the Group of a project, see [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md).
 
-## 核准流程工作流程
+## The approval process workflow
 
-本節說明下列核准工作專案的相關資訊：
+This section explains the following about approving work items:
 
-* [核准程式依賴狀態的方式](#how-approval-processes-rely-on-statuses)
-* [典型工作流程如何使用核准流程](#how-a-typical-workflow-uses-an-approval-process)
+* [How approval processes rely on statuses](#how-approval-processes-rely-on-statuses)
+* [How a typical workflow uses an approval process](#how-a-typical-workflow-uses-an-approval-process)
 
-### 核准程式依賴狀態的方式 {#how-approval-processes-rely-on-statuses}
+### How approval processes rely on statuses {#how-approval-processes-rely-on-statuses}
 
-將狀態附加至核准程式，可確保料號以正確的順序在部門間移動。
+Attaching a status to an approval process ensures that the item moves through departments in the right order.
 
-**範例：**&#x200B;您可以將核准程式附加至需要財務部門核准的行銷部門狀態。 然後，當有人將工作專案的狀態變更為「行銷部門」時，除非財務部門簽核該專案，否則該專案無法移至該部門。
+**Example:** You could attach an approval process to the Marketing Department status that requires approval by the Finance department. Then, when someone changes the status for a work item to &quot;Marketing Department,&quot; the item can&#39;t move to that department until the Finance department signs off on it.
 
-如需工作專案狀態的詳細資訊，請參閱下列文章：
+For more information about statuses for work items, see the following articles:
 
-* [存取系統專案狀態清單](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
-* [存取系統工作狀態清單](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
-* [存取系統問題狀態清單](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)
+* [Access the list of system project statuses](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
+* [Access the list of system task statuses](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
+* [Access the list of system issue statuses](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)
 
-### 典型工作流程如何使用核准流程 {#how-a-typical-workflow-uses-an-approval-process}
+### How a typical workflow uses an approval process {#how-a-typical-workflow-uses-an-approval-process}
 
-下列案例說明核准程式如何協助使用者核准工作，因為Workfront物件會依此順序透過包含數個步驟的工作流程進行：
+The following scenario illustrates how an approval process helps users approve work as a Workfront object progresses through a workflow of several steps in this order:
 
-1. Workfront管理員或具有核准流程管理存取權的使用者會為專案、任務或問題建立核准流程。
+1. The Workfront administrator or a user with administrative access to Approval Processes creates an approval process for a project, task, or issue.
 
    >[!NOTE]
    >
@@ -145,11 +147,17 @@ ht-degree: 0%
 
 他們在Workfront中核准傳單後，專案狀態會變更為「準備列印」。
 
-## 檔案核准流程
+## 舊版檔案核准流程
 
-檔案核准用於更一般的核准。 意見反應會以聊天格式擷取在「更新」索引標籤上。 您可以使用核准按鈕來核准、拒絕或核准變更。
 
-若要在檔案上傳至Workfront後新增核准者，請參閱[要求檔案核准](../../review-and-approve-work/manage-approvals/request-document-approvals.md)。
+舊版檔案核准用於更一般的核准。 意見反應會以聊天格式擷取在「更新」索引標籤上。 您可以使用核准按鈕來核准、拒絕或核准變更。
+
+若要在檔案上傳至Workfront後新增核准者，請參閱[請求舊版檔案核准](../../review-and-approve-work/manage-approvals/request-document-approvals.md)。
+
+>[!NOTE]
+>
+>Workfront中目前有數個檔案核准選項。 如需詳細資訊，請參閱[檔案核准的可用功能](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)。
+
 
 ## 校訂核准流程
 

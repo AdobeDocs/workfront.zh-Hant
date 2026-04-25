@@ -10,9 +10,9 @@ recommendations: noDisplay, noCatalog
 exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '925'
 ht-degree: 2%
 
 ---
@@ -46,7 +46,8 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 封裝</td> 
-   <td> <p> 任何</p> </td> 
+   <td> <p>使用舊版Workfront儲存來管理檔案的任何Workfront套件</p>
+<p>使用Adobe企業儲存體管理檔案的任何Workflow套件</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
@@ -114,7 +115,7 @@ ht-degree: 2%
    <table>
     <tr>
     <td><strong>新增表單</strong></td>
-    <td>在<strong>自訂表單</strong>區段中，您可以將新的自訂表單新增至所選檔案。 附加到所有選定檔案的自訂表單會顯示在通用<strong>區段的</strong>自訂表單中。  </td>
+    <td>在<strong>自訂表單</strong>區段中，您可以將新的自訂表單新增至所選檔案。 附加到所有選定檔案的自訂表單會顯示在通用</strong>區段的<strong>自訂表單中。  </td>
     </tr>
     <tr>
     <td><strong>編輯表單</strong></td>

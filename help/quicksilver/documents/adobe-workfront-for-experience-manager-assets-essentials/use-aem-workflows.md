@@ -6,10 +6,10 @@ description: 在Experience Manager Assets Essentials整合中使用工作流程
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 0%
+source-wordcount: '1023'
+ht-degree: 2%
 
 ---
 
@@ -21,23 +21,24 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->工作流程僅適用於Adobe Experience Manager as a Cloud Service整合。 無法將其與Adobe Experience Manager Assets Essentials整合。
+>工作流程僅適用於Adobe Experience Manager as a Cloud Service整合。 無法將其與Adobe Experience Manager Assets Essentials整合。<br>
+>新檔案區域未提供此功能。
 
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p> 任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
    <td> 
    <p>投稿人或以上</p> 
    <p>要求或更高版本</p> </td> 
@@ -150,7 +151,7 @@ ht-degree: 0%
 
 1. 視需要開啟或關閉&#x200B;**[!UICONTROL 建立連結資料夾]**。 如果您將其開啟，則可以編輯連結的資料夾組態。
 
-   如需連結資料夾組態的詳細資訊，請參閱文章[設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders)Adobe Experience Manager as a Cloud Service[整合[!UICONTROL 中的]建立Experience Manager Assets連結資料夾](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)。
+   如需連結資料夾組態的詳細資訊，請參閱文章[設定[!UICONTROL Adobe Experience Manager as a Cloud Service]整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)中的[建立Experience Manager Assets連結資料夾](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders)。
 
 1. （選擇性）如果您希望只有在附加到專案的自訂表單上有某些值時才建置資料夾樹狀結構，請按一下該資料夾樹狀結構的&#x200B;**套用篩選器**，然後選取包含欄位、欄位和欄位值的自訂表單。 如果附加到新專案的自訂表單上的欄位包含所選值，則會建立資料夾樹狀結構。
 1. （選擇性）設定資料夾名稱時，您可以從下列選項中選取：

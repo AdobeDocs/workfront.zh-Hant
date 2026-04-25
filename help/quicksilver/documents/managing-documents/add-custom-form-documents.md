@@ -8,9 +8,9 @@ feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '513'
 ht-degree: 4%
 
 ---
@@ -29,7 +29,8 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 封裝</td> 
-   <td> <p> 任何</p> </td> 
+   <td> <p>使用舊版Workfront儲存來管理檔案的任何Workfront套件</p>
+<p>使用Adobe企業儲存體管理檔案的任何Workflow套件</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 授權</td> 
@@ -79,7 +80,7 @@ ht-degree: 4%
 
 1. 按一下&#x200B;**摘要**&#x200B;圖示![摘要圖示](assets/summary-panel-icon.png)，然後在頂端附近找到&#x200B;**詳細資料**&#x200B;區段。
 1. 按一下右上角的&#x200B;**編輯**，然後展開所需的表單。
-1. 進行必要的變更，然後按一下[儲存]。**&#x200B;**
+1. 進行必要的變更，然後按一下[儲存]。****
 
    ![編輯自訂表單](assets/edit-custom-form-350x265.png)
 
@@ -94,7 +95,7 @@ ht-degree: 4%
 1. 在右側的&#x200B;**詳細資料**&#x200B;區段中，按一下&#x200B;**編輯**。
    詳細資訊區段中的![編輯按鈕](assets/edit-custom-form.png)
 1. 在&#x200B;**自訂Forms**&#x200B;欄位中，開始輸入並選取自訂表格。
-1. 按一下「**儲存**」。自訂表單會顯示在詳細資訊區段中。
+1. 按一下「**儲存**」。 自訂表單會顯示在詳細資訊區段中。
 
 
 ## 在新檔案區域中編輯自訂表單
@@ -104,4 +105,4 @@ ht-degree: 4%
 1. 在右側的&#x200B;**詳細資料**&#x200B;區段中，按一下&#x200B;**編輯**。
    詳細資訊區段中的![編輯按鈕](assets/edit-custom-form.png)
 1. 在&#x200B;**自訂Forms**&#x200B;區段中，尋找您要編輯的表單。
-1. 進行必要的變更，然後按一下[儲存]。**&#x200B;**
+1. 進行必要的變更，然後按一下[儲存]。****

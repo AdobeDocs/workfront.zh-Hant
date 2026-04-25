@@ -1,25 +1,31 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 請求文件核准
+title: 請求舊版檔案核准
 description: 您可以在Adobe Workfront中要求管理員或其他使用者核准檔案。 如果您的Workfront管理員已啟用此功能（如設定系統安全性偏好設定中所述），您也可以向沒有Workfront帳戶的人要求檔案核准。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f54a221b-4bf0-414e-b2f3-ace861d85496
-source-git-commit: 2503b6e628e4860a5652c620d8e4d0eea2414443
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 1%
+source-wordcount: '544'
+ht-degree: 3%
 
 ---
 
-# 請求文件核准
+# 請求舊版檔案核准
 
 您可以在Adobe Workfront中要求管理員或其他使用者核准檔案。 如果您的Workfront管理員已啟用此功能，您也可以向沒有Workfront帳戶的人要求檔案核准，如[設定系統安全性偏好設定](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)中所述。
 
-## 存取需求
+>[!NOTE]
+>
+>本文資訊是指舊版檔案核准。 <br>
+>如需有關新的統一檢閱和核准的資訊，請參閱[統一檢閱和核准總覽](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)。
 
-+++ 展開以檢視本文中功能的存取需求。
+
+## 存取權要求
+
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 
 <table style="table-layout:auto"> 
@@ -27,7 +33,7 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -67,31 +73,31 @@ ht-degree: 1%
 
 ## 在新版本上重新提交核准
 
-上傳新版本時，檔案核准決定不會自動重設。 例如，如果您的檔案核准了變更，即使您上傳具有指定變更的新版本，決定仍會將「變更」顯示為決定。 如果您手動重新提交核准，則可以清除新版本上的決定。
+Document approval decisions are not automatically reset when you upload a new version. For example, if your document is approved with changes, the decision will show &quot;changes&quot; as the decision, even if you upload a new version with the specified changes. You can clear the decision on a new version if you manually resubmit the approval.
 
 1. 前往包含檔案的專案、任務或問題，然後選取「**檔案**」。
 1. 尋找您需要的檔案。
 
-1. 向下捲動至[摘要]中的&#x200B;**核准**&#x200B;區段，按一下[更多]圖示，然後按一下[重新提交]。
+1. Scroll down to the **Approvals** section in the Summary, click the More icon, then click Resubmit.
 
-   ![重新提交核准](assets/nwe-resubmit-approval-350x149.png)
+   ![Resubmit approval](assets/nwe-resubmit-approval-350x149.png)
 
-## 刪除檔案核准請求
-
-1. 前往包含檔案的專案、任務或問題，然後選取「**檔案**」。
-1. 尋找您需要的檔案。
-
-1. 向下捲動至摘要中的&#x200B;**核准**&#x200B;區段，然後按一下內嵌核准者名稱的&#x200B;**更多**&#x200B;功能表並選取&#x200B;**刪除**。
-
-   核准請求會被移除，而核准者會收到不再需要其核准的通知。 也會移除其核准相關的共用存取權。
-
-## 傳送提醒給核准者
-
-您可以傳送訊息，提醒檔案核准者您正在等待他們的回饋意見。
+## Delete a document approval request
 
 1. 前往包含檔案的專案、任務或問題，然後選取「**檔案**」。
 1. 尋找您需要的檔案。
 
-1. 向下捲動至摘要中的&#x200B;**核准**&#x200B;區段，然後按一下內嵌核准者名稱的&#x200B;**更多**&#x200B;功能表並選取&#x200B;**提醒**。
+1. Scroll down to the **Approvals** section in the Summary, then click the **More** menu inline with the approver&#39;s name and select **Delete**.
 
-   核准者會收到通知，通知他們核准仍處於待定狀態。 如果已啟用，他們也會收到電子郵件提醒。
+   The approval request is removed and the approver receives a notification that their approval is no longer needed. Their approval-related share access is also removed.
+
+## Send a reminder to an approver
+
+You can send a message to remind document an approver that you&#39;re waiting for their feedback.
+
+1. 前往包含檔案的專案、任務或問題，然後選取「**檔案**」。
+1. 尋找您需要的檔案。
+
+1. Scroll down to the **Approvals** section in the Summary, then click the **More** menu inline with the approver&#39;s name and select **Remind**.
+
+   The approver receives a notification informing them the approval is still pending. They may also receive an email reminder if they have that enabled.

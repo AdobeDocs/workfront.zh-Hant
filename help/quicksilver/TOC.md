@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: d32fd0ffe1750cb08ec90d0b766034de5ffe6eaf
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '13945'
+source-wordcount: '14070'
 ht-degree: 2%
 
 ---
@@ -1309,7 +1309,7 @@ ht-degree: 2%
          * [將自訂表格附加至業務案例](manage-work/projects/define-a-business-case/attach-custom-form-to-business-case.md)
          * [建立及編輯專案的風險](manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)
          * [匯出專案的業務案例](manage-work/projects/define-a-business-case/export-business-case.md)
-      * 專案類務  {#project-finances}
+      * 專案類務 {#project-finances}
          * [專案財務：文章索引](manage-work/projects/project-finances/project-finances-overview.md)
          * [專案財務欄位](manage-work/projects/project-finances/project-finances-overview-1.md)
          * [重新計算專案財務](manage-work/projects/project-finances/recalculate-project-finances.md)
@@ -1872,7 +1872,7 @@ ht-degree: 2%
    * 工作核准 {#work-approvals}
       * [工作核准](review-and-approve-work/manage-approvals/manage-approvals.md)
       * [核准程序概觀](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
-      * [請求文件核准](review-and-approve-work/manage-approvals/request-document-approvals.md)
+      * [請求舊版檔案核准](review-and-approve-work/manage-approvals/request-document-approvals.md)
       * [核准工作](review-and-approve-work/manage-approvals/approving-work.md)
       * [檢視核准](review-and-approve-work/manage-approvals/view-approvals.md)
       * [提醒核准者已提交的核准](review-and-approve-work/manage-approvals/remind-approvers-submitted-approvals.md)
@@ -2580,9 +2580,9 @@ ht-degree: 2%
       * [使用JWT流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-pkce-flow.md)
       * [棄用API — 內部](wf-api/api/deprecation-api-internal.md)
-      * [&#x200B; API 21版的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [&#x200B; API 20版的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [&#x200B; API 19版的新增功能](wf-api/api/new-api-version-19.md)
+      * [ API 21](/help/quicksilver/wf-api/api/new-api-version-21.md)版的新增功能
+      * [ API 20](/help/quicksilver/wf-api/api/new-api-version-20.md)版的新增功能
+      * [ API 19](wf-api/api/new-api-version-19.md)版的新增功能
       * [API 18版的新增功能](wf-api/api/new-api-version-18.md)
       * [API 17版的新增功能](wf-api/api/new-api-version-17.md)
       * [API 16版的新增功能](wf-api/api/new-api-version-16.md)

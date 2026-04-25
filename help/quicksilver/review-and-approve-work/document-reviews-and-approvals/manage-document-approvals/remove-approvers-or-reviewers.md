@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '538'
 ht-degree: 3%
 
 ---
@@ -34,7 +34,8 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront 封裝</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>使用舊版Workfront儲存空間管理核准的任何Workfront套件</p>
+<p>使用Adobe企業儲存體管理核准的任何Workflow套件</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
@@ -74,42 +75,42 @@ ht-degree: 3%
 
 1. 按一下&#x200B;**編輯工作流程**。
 
-1. 找到您要移除的參與者，然後按一下其名稱旁的&#x200B;**移除**&#x200B;圖示。
+1. Locate the participant you want to remove, then click the **Remove** icon next to their name.
 
-   核准或稽核請求被移除，且核准者會收到不再需要其核准的通知。 也會移除其核准相關的共用存取權。
+   The approval or review request is removed and the approver receives a notification that their approval is no longer needed. Their approval-related share access is also removed.
 
-   ![編輯核准工作流程](assets/edit-approval-in-legacy.png)
+   ![edit approval workflow](assets/edit-approval-in-legacy.png)
 
-1. （可選）若要將核准者的角色變更為稽核者（或反之），請按一下使用者名稱旁的下拉式功能表，然後選取新角色。
+1. (Optional) To change the role of an approver to a reviewer, or vice versa, click the drop-down menu next to the username, and select the new role.
 
-1. 重複上一步驟以移除任何其他核准者或稽核者。
+1. Repeat the previous step to remove any additional approvers or reviewers.
 
 </div>
 
 
-## 在新檔案區域中移除核准者或稽核者至核准工作流程
+## Remove approvers or reviewers to an approval workflow in the new document area
 
-如果您的組織使用企業儲存空間，當您存取Workfront中的檔案時，將會看到新檔案區域。 如需企業儲存的詳細資訊，請參閱[企業儲存概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+如果您的組織使用企業儲存空間，當您存取Workfront中的檔案時，將會看到新檔案區域。 For more information about enterprise storage, see [Enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-若要建立核准工作流程，請執行下列步驟：
+To create a an approval workflow:
 
 1. 前往包含檔案的專案、任務或問題，然後在左側面板中選取&#x200B;**檔案**。
 
-1. 按一下檔案，然後按一下頁面右側的&#x200B;**核准**&#x200B;圖示。
+1. Click on the document, then click the **Approvals** icon on the right side of the page.
 
-   ![在檔案摘要中新增核准者](assets/approvals-icon-new.png)
+   ![Add approvers in document summary](assets/approvals-icon-new.png)
 
 
 1. 按一下&#x200B;**編輯工作流程**。
 
-1. 找到您要移除的參與者，然後按一下其名稱旁的&#x200B;**移除**&#x200B;圖示。
+1. Locate the participant you want to remove, then click the **Remove** icon next to their name.
 
-   核准或稽核請求被移除，且核准者會收到不再需要其核准的通知。
+   The approval or review request is removed and the approver receives a notification that their approval is no longer needed.
 
-1. （可選）若要將核准者的角色變更為稽核者（或反之），請按一下使用者名稱旁的下拉式功能表，然後選取新角色。
+1. (Optional) To change the role of an approver to a reviewer, or vice versa, click the drop-down menu next to the username, and select the new role.
 
-1. 重複上一步驟以移除任何其他核准者或稽核者。
+1. Repeat the previous step to remove any additional approvers or reviewers.
 
-   ![從階段中移除參與者](assets/add-or-remove-participants.png)
+   ![remove participants from a stage](assets/add-or-remove-participants.png)
 
 1. 按一下「**儲存**」。
