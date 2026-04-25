@@ -108,7 +108,7 @@ You can create subfolders within a system-generated folder to organize documents
 1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
 1. Click into the folder you want to create a subfolder in, then click the **Add folder** ![add folder icon](assets/add-folder-icon.png) icon.
    ![add subfolder](assets/add-subfolder.png)
-1. 輸入子資料夾的名稱，然後按一下[建立]。****
+1. 輸入子資料夾的名稱，然後按一下[建立]。**&#x200B;**
 
 ### 重新命名資料夾
 

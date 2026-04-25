@@ -228,7 +228,7 @@ To apply or create a view:
 1. (Conditional) For adding a new view, enter a name for the view, then click **Create**.
 1. (Optional) Hide, show, or rearrange the columns. For more information, see [Customize columns in an enhanced list](#customize-columns-in-an-enhanced-list).
 1. （選用）篩選清單。 如需詳細資訊，請參閱[篩選增強型清單](#filter-items-in-an-enhanced-list)中的專案。
-1. （選用）將清單中的專案分組。 如需詳細資訊，請參閱增強型清單](#group-items-in-an-enhanced-list)中的[群組專案。
+1. （選用）將清單中的專案分組。 如需詳細資訊，請參閱增強型清單[&#128279;](#group-items-in-an-enhanced-list)中的群組專案。
 
    檢視的變更會自動儲存。 下次套用此檢視時，欄和篩選設定仍會保留您設定的方式。
 

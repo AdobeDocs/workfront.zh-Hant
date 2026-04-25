@@ -171,7 +171,7 @@ You can link documents to Workfront from an external application such as Google 
 
 1. 按一下&#x200B;**新增** > **版本**，然後按一下外部檔案提供者。
 
-   例如，若要從Dropbox連結檔案的新版本，請按一下[從Dropbox連結] ****。
+   例如，若要從Dropbox連結檔案的新版本，請按一下[從Dropbox連結] **&#x200B;**。
 
    您已經授權的外部提供者會出現在清單頂端。
 
@@ -211,7 +211,7 @@ You can link documents to Workfront from an external application such as Google 
 您只能連結在Workfront Proof中您擁有檢視存取權的校訂。
 
 1. 移至Workfront中您想要檔案的&#x200B;**檔案**&#x200B;區域。
-1. 按一下[新增] ****，然後按一下[來自Workfront Proof的&#x200B;****。
+1. 按一下[新增] **&#x200B;**，然後按一下&lbrack;來自Workfront Proof的&#x200B;**&#x200B;**。
 
    >[!NOTE]
    >

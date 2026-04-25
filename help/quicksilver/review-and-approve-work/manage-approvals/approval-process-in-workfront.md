@@ -78,9 +78,7 @@ For information about creating a system-level approval process or a group-level 
      >     For example, if you have a task approval associated with the status of In Progress, the task automatically changes its status to In Progress when the approval is granted. It cannot automatically change its status to Completed or any other status that is not associated with the approval.
      >   
      >   
-     >
-
-   * The entities associated with an approval process can be users, job roles, or teams. Users are ultimately responsible for accepting or rejecting the approval. You can assign approvals to users who fulfill a certain role on the project. For example, you can assign an approval to a Project Owner, or Sponsor. For more information, see [Create an approval process for work items](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+     >* The entities associated with an approval process can be users, job roles, or teams. Users are ultimately responsible for accepting or rejecting the approval. You can assign approvals to users who fulfill a certain role on the project. For example, you can assign an approval to a Project Owner, or Sponsor. For more information, see [Create an approval process for work items](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
      存在下列情況：
 
