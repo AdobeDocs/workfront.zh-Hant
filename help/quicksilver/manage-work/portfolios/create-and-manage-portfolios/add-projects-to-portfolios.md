@@ -62,15 +62,15 @@ ht-degree: 2%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
    <td><p>標準</p> 
-   <p>[！UICONTROL計畫] </p> </td> 
+   <p>[!UICONTROL 計畫] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[！UICONTROL Edit]存取權投資組合</p> <p>[！UICONTROL Edit]專案的存取權</p> </td> 
+   <td> <p>[!UICONTROL Edit]存取權投資組合</p> <p>[!UICONTROL Edit]專案的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合的[！UICONTROL Manage]許可權</p> <p>[!UICONTROL Manage] permissions to the projects</p>  </td> 
+   <td> <p>投資組合的[!UICONTROL Manage]許可權</p> <p>[!UICONTROL Manage] permissions to the projects</p>  </td> 
   </tr> 
  </tbody> 
 </table>
