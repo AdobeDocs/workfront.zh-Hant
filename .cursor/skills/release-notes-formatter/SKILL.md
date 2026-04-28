@@ -73,7 +73,7 @@ exl-id: <existing UUID — never generate or change>
 >Production for everyone: {Month Day, Year}
 ```
 
-5. **內文**：功能說明，然後連結到說明檔案
+&#x200B;5. **內文**：功能說明，然後連結到說明檔案
 
 #### 總覽頁面
 
@@ -90,10 +90,10 @@ exl-id: <existing UUID — never generate or change>
 * [Document enhancements](#document-enhancements)
 ```
 
-5. 每個產品區域&#x200B;**的** H3搭配HTML功能表（請參閱[reference.md](reference.md#overview-feature-table)）
+&#x200B;5. 每個產品區域&#x200B;**的** H3搭配HTML功能表（請參閱[reference.md](reference.md#overview-feature-table)）
    - 在每個表格中，**最新功能排在前** — 最近的列會顯示在表格頂端（標題列之後）
 
-6. **尾端區段** (H2)：其他區域的發行說明、案頭校訂檢視器更新、公告、API版本、維護更新、訓練更新
+&#x200B;6. **尾端區段** (H2)：其他區域的發行說明、案頭校訂檢視器更新、公告、API版本、維護更新、訓練更新
 
 ### 步驟3：驗證連結
 
