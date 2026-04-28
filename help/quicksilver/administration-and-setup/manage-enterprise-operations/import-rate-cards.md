@@ -7,9 +7,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: debe90e7-08c2-4385-96fb-8d349dec6741
-source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
+source-git-commit: aa774419e65e9e4a5785382d3cb2b22bdb0389c9
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1812'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 1%
 * RATE_RTCRD標籤上的「費率卡順序」必須符合RTCRD標籤上的卡順序（第一為1，第二為2，依此類推）。
 * 「開始日期」和「結束日期」必須遵循允許的格式。
 * 費率卡片可以在不提供費率的情況下匯入，並稍後更新。
-* 自訂屬性（機構、成本中心等）可能會有所不同。 請洽詢您的系統管理員以瞭解確切的需求。
+* 自訂屬性（機構、成本中心等） 可能有所不同。 請洽詢您的系統管理員以瞭解確切的需求。
 * 在範本中刪除的列將不會刪除系統中的現有記錄。
 
 ## 存取權要求
@@ -45,11 +45,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td>[!UICONTROL 標準]</td> 
+   <td>[！UICONTROL標準]</td> 
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>編輯[!UICONTROL 費率卡]的存取權</td> 
+   <td>編輯[！UICONTROL費率卡]的存取權</td> 
   </tr> 
  </tbody> 
 </table>
@@ -153,7 +153,7 @@ ht-degree: 1%
    * **值** （選用）：數字比率值，例如150。 預設值為 0。
    * **貨幣** （選用）：匯率的貨幣，例如USD、EUR、GBP。 預設值為系統貨幣。
    * **已鎖定** （選擇性）：指出速率是否已鎖定。 有效值為True或False。
-   * **屬性** （選用/自訂）：最後一欄（機構、地點、成本中心等）是因客戶組態而異的費率屬性。 這些是可自訂的欄位，可能因客戶環境而異。
+   * **屬性** （選用/自訂）：最後一欄（機構、地點、成本中心等） 是因客戶組態而異的費率屬性。 這些是可自訂的欄位，可能因客戶環境而異。
 
      範例： Agency = &quot;1： Agency， Location = &quot;Chicago，&quot; Cost Center = &quot;22： Cost Center&quot;
 
@@ -173,39 +173,39 @@ ht-degree: 1%
 
 ### 填寫RCRMET_RTCRD_RSALS （費率卡中繼資料）標籤
 
-您可以在此標籤上定義資源與特定費率卡別名之間的連線。
+On this tab you can define the connections between resources and aliases for a specific rate card.
 
-![費率卡匯入範本檔案上的RCRMET_RTCRD_RSALS標籤](assets/rcrmet-tab-rate-card-import.png)
+![RCRMET_RTCRD_RSALS tab on rate card import template file](assets/rcrmet-tab-rate-card-import.png)
 
-1. 在每一列輸入資訊：
+1. Enter the information on each row:
 
-   * **費率卡** （必要）：資源與別名所屬費率卡的名稱或序號。 費率卡必須列在RTCRD標籤上。
+   * **Rate Card** (required): The name or the sequence number of the rate card that the resource and alias belong to. The rate card must be listed on the RTCRD tab.
 
-     針對序號：如果費率卡是您在RTCRD頁標（列2）上列出的第一個費率卡，請輸入1。 如果是第二個，請輸入2，依此類推。
+     For a sequence number: If the rate card was the first one you listed on the RTCRD tab (row 2), enter 1. 如果是第二個，請輸入2，依此類推。
 
-   * **工作角色** （若未使用費用型別和非人工資源類別則為必要）：別名所連線的工作角色。 這可以是工作角色名稱或工作角色ID。 匯入將會識別兩者。
+   * **Job Role** (required if Expense Type and Non-Labor Resource Category are not used): The job role that the alias is connected to. 這可以是工作角色名稱或工作角色ID。 匯入將會識別兩者。
 
      範例： Designer或&#x200B;_68c0234e00000541dd8c0757723daa68_
 
-   * **費用型別** （若未使用工作角色和非人工資源類別則為必要）：別名所連線的費用型別。 這可以是費用型別名稱或費用型別ID。 匯入將會識別兩者。
+   * **Expense Type** (required if Job Role and Non-Labor Resource Category are not used): The expense type that the alias is connected to. This can be either the expense type name or the expense type ID. 匯入將會識別兩者。
 
-     範例： Travel或&#x200B;_68c0234e00000541dd8c0757723daa68_
+     Example: Travel or _68c0234e00000541dd8c0757723daa68_
 
-   * **非人工資源分類** （若未使用「工作角色」與「費用型別」，則為必要）：別名所連線的非人工資源分類。 這可以是類別名稱或類別ID。 匯入將會識別兩者。
+   * **Non-Labor Resource Category** (required if Job Role and Expense Type are not used): The non-labor resource category that the alias is connected to. 這可以是類別名稱或類別ID。 匯入將會識別兩者。
 
      範例：相機或&#x200B;_68c0234e00000541dd8c0757723daa68_
 
      >[!IMPORTANT]
      >
-     >您無法輸入&#x200B;**工作角色**、**費用型別**&#x200B;及&#x200B;**非人工資源類別**&#x200B;欄中的所有三欄。 需要一個。
+     >You cannot enter all three of the **Job Role**, **Expense Type**, and **Non-Labor Resource Category** columns. 需要一個。
 
-   * **資源別名**：在RSALS索引標籤上輸入的別名。
+   * **Resource Alias**: The alias entered on the RSALS tab.
 
-### 日期格式需求
+### Date formatting requirements
 
-準備匯入的費率卡資料時，您必須確定日期欄的格式為&#x200B;**一般**，而不是&#x200B;**日期**。
+When preparing rate card data for importing, you must ensure that the date columns are formatted as **General**, not as **Date**.
 
-如果欄設定為日期格式，系統可能會在匯入過程中錯誤解讀值，導致錯誤或上傳失敗。 使用一般格式會保留日期的原始數值或文字表示，讓系統正確驗證並套用值。
+If the columns are set to Date format, the system may misinterpret values during the import process, leading to errors or failed uploads. 使用一般格式會保留日期的原始數值或文字表示，讓系統正確驗證並套用值。
 
 遵循這些步驟將可避免不必要的問題，並確保順利且準確地匯入比率資料。
 
@@ -231,6 +231,16 @@ ht-degree: 1%
 ## 更新現有的費率卡
 
 您可以使用相同的Excel範本更新現有費率卡中的費率，並將這些變更上傳至Workfront。
+
+更新現有匯率時，只需要RATE_RTCRD （匯率設定）頁標。
+
+>[!NOTE]
+>
+>上傳現有費率卡的費率會覆寫費率卡上所有目前的工作角色和費率。
+>
+>例如，如果您現有費率卡上有5個具有費率的工作角色，而Excel檔案有1個工作角色，則上傳後，費率卡會有1個工作角色。 若要將其他5個工作角色及其費率保留在費率卡上，您必須將其納入Excel檔案中。
+
+若要更新現有的費率卡，請執行下列步驟：
 
 {{step-1-to-setup}}
 
