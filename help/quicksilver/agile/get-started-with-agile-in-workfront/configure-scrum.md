@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: b271eca3ab0ab09d96f65d2c3c8c400313e57d3d
 workflow-type: tm+mt
-source-wordcount: '1725'
+source-wordcount: '1736'
 ht-degree: 1%
 
 ---
@@ -82,7 +82,8 @@ ht-degree: 1%
 1. 按一下&#x200B;**[!UICONTROL 更多]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 編輯]**。
 
    只有擁有[!UICONTROL 標準]、[!UICONTROL 計畫]或[!UICONTROL 工作]授權的團隊成員才能看到此選項。
-   ![編輯團隊](assets/edit-team-settings-350x205.png)
+
+   ![編輯團隊](assets/edit-team-settings-scrum.png)
 
 1. 在&#x200B;**[!UICONTROL 敏捷]**&#x200B;區段的&#x200B;**[!UICONTROL 預估劇本在]**&#x200B;區域，選取您想使用點或小時來預估劇本的大小（工作負載）。 如果您選取「點」，請指定多少小時等於1點。 （預設值為1點= 8小時。） 這是新增到劇本的計畫時數。
 
@@ -106,16 +107,12 @@ ht-degree: 1%
 {{step1-to-team}}
 
 1. 按一下&#x200B;**[!UICONTROL 切換群組]**&#x200B;圖示![切換群組圖示](assets/switch-team-icon.png)，然後從下拉式功能表中選取新群組或在搜尋列中搜尋群組。
-
 1. 選取您要管理的敏捷團隊。
 1. 按一下&#x200B;**[!UICONTROL 更多]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 編輯]**。
 
    只有擁有[!UICONTROL 計畫]或[!UICONTROL 工作]授權的團隊成員才能看到此選項。
 
-   ![編輯團隊](assets/edit-team-settings-350x205.png)
-
 1. 在&#x200B;**[!UICONTROL 敏捷]**&#x200B;區段中，找出&#x200B;**[!UICONTROL 故事板]**&#x200B;區域。
-
 1. （選擇性）按一下&#x200B;**[!UICONTROL 新增資料行]**&#x200B;以新增其他狀態資料行到故事板。
 1. （選擇性）使用拖放指示器拖曳任何狀態列，以重新排序內文板上的狀態列。 第一欄無法移動，而且您無法將另一欄拖到第一欄的前面。
 
@@ -137,7 +134,7 @@ ht-degree: 1%
 
 ### 設定專案的狀態列 {#configure-status-columns-for-projects}
 
-如需如何設定專案狀態列的詳細資訊，請參閱[在[!UICONTROL 中建立或編輯檢視一節中的]建立或自訂](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view)敏捷[檢視 [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)。
+如需如何設定專案狀態列的詳細資訊，請參閱[在 [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)中建立或編輯檢視一節中的[建立或自訂[!UICONTROL 敏捷]檢視](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view)。
 
 ## 設定要在敏捷故事板上的故事卡上顯示的其他欄位
 
@@ -164,12 +161,10 @@ ht-degree: 1%
 {{step1-to-team}}
 
 1. 按一下&#x200B;**[!UICONTROL 切換群組]**&#x200B;圖示![切換群組圖示](assets/switch-team-icon.png)，然後從下拉式功能表中選取新群組或在搜尋列中搜尋群組。
-
 1. 選取您要管理的敏捷團隊。
 1. 按一下&#x200B;**[!UICONTROL 更多]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 編輯]**。
-只有擁有[!UICONTROL 計畫]或[!UICONTROL 工作]授權的團隊成員才能看到此選項。
 
-   ![編輯團隊](assets/edit-team-settings-350x205.png)
+   只有擁有[!UICONTROL 標準]、[!UICONTROL 計畫]或[!UICONTROL 工作]授權的團隊成員才能看到此選項。
 
 1. 在&#x200B;**[!UICONTROL 敏捷]**&#x200B;區段中，輸入欄位名稱以尋找它。
 
@@ -188,13 +183,10 @@ ht-degree: 1%
 {{step1-to-team}}
 
 1. 按一下&#x200B;**[!UICONTROL 切換群組]**&#x200B;圖示![切換群組圖示](assets/switch-team-icon.png)，然後從下拉式功能表中選取新群組或在搜尋列中搜尋群組。
-
 1. 選取您要管理的敏捷團隊。
 1. 按一下&#x200B;**[!UICONTROL 更多]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 編輯]**。
 
-   只有擁有[!UICONTROL 計畫]或[!UICONTROL 工作]授權的團隊成員才能看到此選項。
-
-   ![編輯團隊](assets/edit-team-settings-350x205.png)
+   只有擁有[!UICONTROL 標準]、[!UICONTROL 計畫]或[!UICONTROL 工作]授權的團隊成員才能看到此選項。
 
 1. 在[!UICONTROL 敏捷]區段中，在[!UICONTROL 將卡片顏色與]區域相關聯，從下列選項中選取：
 
@@ -209,7 +201,6 @@ ht-degree: 1%
         如果您的系統管理員已設定您[!DNL Workfront]系統的自訂優先順序，則最高優先順序為紅色，第二高為黃色，第三高為綠色。
    * **[!UICONTROL 工作擁有者]**：所有具有相同主要受指派人的劇本都是相同的色彩。 主要受指派人是首次受指派工作的使用者。
 
-
 1. 按一下&#x200B;**[!UICONTROL 儲存變更]**。
 
 ## 設定將工作專案新增至疊代時日期的套用方式
@@ -220,12 +211,15 @@ ht-degree: 1%
 
 1. （選擇性）按一下&#x200B;**[!UICONTROL 切換群組]**&#x200B;圖示![切換群組圖示](assets/switch-team-icon.png)，然後從下拉式功能表中選取新的Scrum群組或在搜尋列中搜尋群組。
 1. 按一下&#x200B;**[!UICONTROL 更多]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 編輯]**。
-只有擁有[!UICONTROL 計畫]或[!UICONTROL 工作]授權的團隊成員才能看到此選項。
-1. 在[!UICONTROL 敏捷]區段中，在[!UICONTROL 當工作專案新增到疊代]區域時，從下列選項中選取：
+
+   只有擁有[!UICONTROL 標準]、[!UICONTROL 計畫]或[!UICONTROL 工作]授權的團隊成員才能看到此選項。
+
+1. 在[!UICONTROL 敏捷]區段中，在&#x200B;[!UICONTROL **當工作專案新增到疊代**]&#x200B;區域時，從下列選項中選取：
 
    * **[!UICONTROL 修改規劃開始日期和規劃完成日期以符合反複專案的開始日期和結束日期]**：當工作專案新增到反複專案時，工作專案日期會變更為反複專案日期。
 
-     如需如何修改日期的詳細資訊，請參閱[將劇本新增至現有反複專案](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understand-how-adding-stories-affects-task-dates)一文中的[瞭解新增劇本如何影響任務日期](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)一節。
+     如需如何修改日期的詳細資訊，請參閱[將劇本新增至現有反複專案](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)一文中的[瞭解新增劇本如何影響任務日期](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understand-how-adding-stories-affects-task-dates)一節。
+
    * **[!UICONTROL 請勿修改規劃開始日期和規劃完成日期以符合反複專案的開始日期和結束日期]**：當工作專案新增到反複專案時，工作專案會保留其原始日期。
 
    如果您變更日期選項，則不會調整已在反複專案上的工作專案日期。
