@@ -2,7 +2,7 @@
 title: Create taxonomy record types
 description: When you use a template to create a workspace, record types are created in Operational Record Types and the Taxonomies sections. 
 hidefromtoc: yes
-hide: yes
+hide: true
 recommendations: noDisplay, noCatalog
 exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
 ---

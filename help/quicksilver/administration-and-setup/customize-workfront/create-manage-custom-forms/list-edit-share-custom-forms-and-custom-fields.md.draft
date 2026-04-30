@@ -5,7 +5,7 @@ author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
 hidefromtoc: yes
-hide: yes
+hide: true
 ---
 
 # List and edit custom forms and widgets added to custom forms

@@ -2,7 +2,7 @@
 title: Filter a table in Reporting Canvas
 description: Filter a table in Reporting Canvas
 hidefromtoc: yes
-hide: yes
+hide: true
 exl-id: 1838b142-d845-4795-b27f-80bfba18e9d4
 ---
 # Filter a table in Reporting Canvas

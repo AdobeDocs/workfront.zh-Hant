@@ -2,7 +2,7 @@
 title: Migrate from Resource Scheduling to the [!UICONTROL Workload Balancer]
 description: We want you to experience as little work disruption as possible by helping you design a migration plan. The steps below will help you get your team trained and determine the best time for you to switch to the Workload Balancer.
 hidefromtoc: yes
-hide: yes
+hide: true
 ---
 # Migrate from Resource [!UICONTROL Scheduling] to the [!UICONTROL Workload Balancer]
 

@@ -2,7 +2,7 @@
 title: Configure pie visualization in Reporting Canvas
 description: Configure pie visualization in Reporting Canvas
 hidefromtoc: yes
-hide: yes
+hide: true
 exl-id: 0497edb5-9322-406a-b53b-ec498afdd96e
 ---
 # Configure pie visualization in Reporting Canvas

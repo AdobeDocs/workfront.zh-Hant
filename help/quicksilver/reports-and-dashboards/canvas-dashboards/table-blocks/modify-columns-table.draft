@@ -2,7 +2,7 @@
 title: Configure a table column in Reporting Canvas
 description: Configure a table column in Reporting Canvas
 hidefromtoc: yes
-hide: yes
+hide: true
 exl-id: ce33888f-344d-4f69-b527-9679340d134b
 ---
 # Configure a table column in Reporting Canvas

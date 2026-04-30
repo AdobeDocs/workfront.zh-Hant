@@ -2,7 +2,7 @@
 title: Design flexible operating models in Adobe Workfront
 description: Hidden from search and from the left nav
 hidefromtoc: yes
-hide: yes
+hide: true
 exl-id: d6865e7e-c1de-42e5-bd76-813dd9100a0f
 ---
 <!--this article is hidden; when you make this public maybe create a new one to avoid writing a redirect? And also keeping this hidden or drafting it? -->

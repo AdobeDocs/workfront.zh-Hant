@@ -2,7 +2,7 @@
 title: Design flexible operating models in Adobe Workfront to create a system of record
 description: Hidden from search and from the left nav
 hidefromtoc: yes
-hide: yes
+hide: true
 exl-id: b78e8484-ac61-408d-a7dd-ecf2050218ab
 ---
 # Operating models overview
