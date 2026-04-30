@@ -92,20 +92,20 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <li>Project (Financial Data)</li> 
      <li>Budgeted Hour</li> 
     </ul> <p>For a<!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       
         Resource Estimates or 
-      </MadCap:conditionalText>
+       
      --> Project (Financial Data) report: </p> 
     <ul> 
      <li>Build this report when trying to understand <!--
-       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        
          how resources are budgeted for work, or 
-       </MadCap:conditionalText>
+        
       --> the amount of Planned Hours that is assigned to your resources.</li> 
      <li> <p>The Allocation Date is the first day (Sunday) of a week in which the allocation of a Job Role to a task starts. A resource (Job Role) can have as many Allocation Dates as it has weeks during the Duration of the tasks that it is assigned to. If tasks span over multiple months, then the first day of a month can also become an Allocation Date, if it falls within the Duration of the task.  </p> <p>For example, you can have a Job Role assigned to a task that spans over 3 weeks and has 90 Planned Hours. These hours are spread evenly during the duration of the task, which makes every day assign 6 Planned Hours to your job role:</p> <p><em> Daily Planned Hours = Total Planned Hours/ Number of Work Days during the Duration of the task </em> </p> <p>As a result, there are three Allocation Dates, one for every Sunday of every week during the Duration of the task, each with a certain number of Planned Hours associated with them.<br>If the task starts in the middle of the last week of a month and ends two weeks after the beginning of a new month, the task will have four Allocation Dates: one for every Sunday of every week during the Duration of the task, and one for the first day of the new month.</p> <p>To make the most use of this information, we recommend that you build a <!--
-        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+         
           Resource Estimates or a 
-        </MadCap:conditionalText>
+         
        --> Project (Financial Data) report and add a matrix grouping for Allocation Date, then group the results weekly, monthly, quarterly, or yearly for the most accurate data.<br>For information about building a matrix grouping, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Create a matrix report</a>.</p> </li> 
     </ul> <p>Warning: Financial information populates in Project (Financial  Data) reports only when the data associated with it is less than 5 years old. For example, if a job role was allocated to a task in January 2015 and today is September 2021, a financial filed like the Allocation Date for the job role does not populate in the Project (Financial  Data) report. </p> 
     <div> 
@@ -764,9 +764,9 @@ The following table is a list of commonly used terms in Adobe Workfront:
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>Duration</td> 
    <td> <p>The window of time allocated for completion of a task issue, or project (as determined by the number of days between the Planned Start and the Planned Completion). <!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       
         (NOTE: From Taxonomy) 
-      </MadCap:conditionalText>
+       
      --></p> 
     <ul> 
      <li>For tasks, the Duration is an editable field if the Duration Type of the task is not Simple. If the Duration Type of the task is Simple, or if the Task Constraint is Fixed Dates, the Duration is a calculation performed by Workfront.  </li> 
@@ -912,9 +912,9 @@ The following table is a list of commonly used terms in Adobe Workfront:
     <ul> 
      <li> <p>A set of business objectives agreed to by the relevant stakeholders. Project goals are part of the Business Case of a project. </p> <p>You cannot display project goals in lists or reports but you can access them through the API. </p> <p>For information about Business Case project goals, see <a href="../../../manage-work/projects/define-a-business-case/create-business-case-goals.md" class="MCXref xref">Create Business Case goals </a>. </p> </li> 
      <li> <p>A strategic goal is an objective that you create to plan your work strategy for a specific time-period. You can create these types of goals using Workfront Goals. Your organization must purchase an additional license and you must have access to  this feature to be able to create strategic goals. Workfront Goals are available only in the new Adobe Workfront experience.<!--
-        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+         
           (NOTE: stays in both QS and classic) 
-        </MadCap:conditionalText>
+         
        --></p> <p>For more information, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en" target="_blank">Workfront Goals overview</a>. </p> <p><span>You can display strategic goals in a goal or a <span data-mc-edit-date="2021-03-30T16:48:49.6542009-04:00" data-mc-editor="alinawilson" data-mc-comment="drafted and keep yellow for 21.2 preview; link is hard coded" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2021-03-30T16:48:36.1773431-04:00">project</span> report and access them through the API</span>. </p> </li> 
     </ul> </td> 
    <td>  </td> 
@@ -1183,10 +1183,10 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>Legacy Budgeted Hours</td> 
    <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p> <p>The field is still visible in some reports and lists, but the information displayed cannot be updated. </p> <p>See <i>Budgeted Hours</i>. </p> <p><![CDATA[
 						]]><!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       
         This field shows the number of hours budgeted for the project in the Legacy Resource Estimates area of the Business Case or in the Capacity Planner. 
        <br>If there  are multiple job roles, this is a summary of the budgeted hours for all job roles. The Legacy Budgeted Hours are calculated after you have used the "Set budget to schedule" feature, or after you have defined how many of the Planned Hours should be budgeted, in the Resource Estimates area of the Business Case of the project or in the Capacity Planner.   
-      </MadCap:conditionalText>
+       
      --></p> </td> 
    <td>  </td> 
    <td>  </td> 
@@ -1706,9 +1706,9 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <li> <p><a href="../../../manage-work/projects/planning-a-project/project-progress-status.md" class="MCXref xref">Project Progress Status overview</a> </p> </li> 
      <li> <p><a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Task Progress Status overview</a> </p> </li> 
      <li> <p><a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fcalculate-goal-progress.htm&amp;_LANG=en" target="_blank">Calculate Goal Progress in Workfront Goals</a> <!--
-        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+         
           (NOTE: hard-coded link) 
-        </MadCap:conditionalText>
+         
        --></p> <p> </p> <p>The Goal report and the Progress Status for goals field are visible only if your organization has purchased Workfront Goals. For information about strategic goals in  Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en" target="_blank">Workfront Goals overview</a>. </p> </li> 
     </ul> </td> 
    <td>  </td> 

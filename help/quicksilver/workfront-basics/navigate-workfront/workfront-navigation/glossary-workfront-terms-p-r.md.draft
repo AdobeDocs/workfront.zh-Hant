@@ -243,9 +243,9 @@ The following table is a list of commonly used terms in Adobe Workfront:
   <tr> 
    <td>Projected</td> 
    <td> <p>An estimate of the timestamp of when the work will be completed based on the planned hours and percentage complete of a task. <!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       
        (NOTE: From Taxonomy)
-      </MadCap:conditionalText>
+       
      --></p> <p>This refers to dates or Duration of tasks, issues, or projects. Usually, it designated dates and durations that are more true to the life of the work items, after some work has already been completed or some time has passed. </p> <p>For example, the Projected Completion Date of a task is the date when Workfront estimates that task will complete, based on how much work has been done on it so far, how many people are assigned to it, and how much time has passed since the start date.</p> </td> 
   </tr> 
   <tr> 
