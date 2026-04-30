@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1556'
 ht-degree: 1%
 
 ---
@@ -95,7 +95,7 @@ note from the table for Object permissions:
 
 您必須先確定下列事項，才能執行本文所述的活動：
 
-* 您的[!DNL Workfront]或群組管理員已啟用&#x200B;[!UICONTROL **執行個體之**]&#x200B;設定[!UICONTROL 區域的]任務和問題偏好設定[!UICONTROL 區段中的]允許使用者委派其任務和問題[!DNL Workfront]設定。
+* 您的[!DNL Workfront]或群組管理員已啟用[!DNL Workfront]執行個體之[!UICONTROL 設定]區域的[!UICONTROL 任務和問題偏好設定]區段中的&#x200B;[!UICONTROL **允許使用者委派其任務和問題**]&#x200B;設定。
 
   如需詳細資訊，請參閱[設定全系統的任務和問題偏好設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)。
 
@@ -136,7 +136,7 @@ note from the table for Object permissions:
      >
      >如果您將「結束日期」欄位保留空白，而未選取「無結束日期」選項，則委派僅會針對當天設定。
 
-     ![已展開委派方塊](assets/delegate-box-expanded-in-home.png)
+     ![委派方塊已展開](assets/delegate-box-expanded-in-home.png)
      <!--check screen shot - submitted bug for casing-->
 
 1. 按一下「[!UICONTROL **儲存**]」。
@@ -156,9 +156,9 @@ note from the table for Object permissions:
 
    * [!UICONTROL **首頁**]&#x200B;區域中的&#x200B;[!UICONTROL **委派**]&#x200B;按鈕變更為&#x200B;[!UICONTROL **編輯委派**]，表示已有委派。
      <!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       
       (NOTE: is this shot correct? See UI - this is a mock)
-      </MadCap:conditionalText>
+       
       -->
 
      ![編輯委派按鈕](assets/edit-delegation-button-on-my-work-widget.png)
@@ -175,7 +175,7 @@ note from the table for Object permissions:
 
 1. 移至&#x200B;[!UICONTROL **首頁**]&#x200B;區域，然後按一下下列任一Widget中的&#x200B;[!UICONTROL **編輯委派**]： **我的工作**、**我的任務**&#x200B;或&#x200B;**我的問題**。
 1. 在[!UICONTROL 停止委派任務和問題]方塊中，執行下列任一項作業：
-   * 修改開始日期&#x200B;[!UICONTROL **或**]&#x200B;結束日期&#x200B;[!UICONTROL **&#x200B;**]
+   * 修改開始日期&#x200B;[!UICONTROL **或[!UICONTROL **&#x200B;結束日期&#x200B;**]**]
    * 按一下&#x200B;[!UICONTROL **停止委派**]
 
    >[!TIP]

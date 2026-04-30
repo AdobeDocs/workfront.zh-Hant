@@ -8,9 +8,9 @@ feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '697'
 ht-degree: 2%
 
 ---
@@ -42,16 +42,16 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>[!UICONTROL 標準] </p>
-   <p>[!UICONTROL 計畫] </p> </td> 
+   <td> <p>[！UICONTROL標準] </p>
+   <p>[！UICONTROL計畫] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL Edit]對[!UICONTROL Projects]和[!UICONTROL Portfolios]的存取權</p>  </td> 
+   <td> <p>[！UICONTROL Edit]對[！UICONTROL Projects]和[！UICONTROL Portfolios]的存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合的[!UICONTROL Manage]許可權</p> <p>檢視專案或更高許可權</p>  </td> 
+   <td> <p>投資組合的[！UICONTROL Manage]許可權</p> <p>檢視專案或更高許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -113,7 +113,7 @@ Old:
    * 投資組合[!UICONTROL 對齊]
    * 投資組合[!UICONTROL 淨值]
 
-1. （可選）   按一下左側面板中的「**[!UICONTROL 專案]**」，以檢視與所選投資組合相關聯的專案，然後從「**[!UICONTROL 篩選器]**」下拉式選單中選取下列任一篩選器：
+1. （選擇性）按一下左側面板中的「**[!UICONTROL 專案]**」，以檢視與所選投資組合相關聯的專案，然後從「**[!UICONTROL 篩選器]**」下拉式選單中選取下列任一篩選器：
 
    * **[!UICONTROL 作用中]**：包含與選取之投資組合相關聯且處於下列狀態的所有專案：
 
@@ -150,6 +150,22 @@ Old:
    如需使用Portfolio Optimizer的相關資訊，請參閱[在Portfolio Optimizer中管理專案：文章索引](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)區段。
 
 1. （選擇性）按一下左側面板中的&#x200B;**檔案**，將檔案附加至投資組合。
+
+   >[!NOTE]
+   >
+   >將檔案新增至產品組合時，貴組織針對Workfront使用的儲存型別會有所不同。
+   >有些客戶可能同時存取下列兩種檔案儲存環境：
+   >
+   >  * **舊版Workfront儲存體**：使用此儲存體的產品組合在名稱旁有舊版儲存體圖示![舊版儲存體圖示](assets/legacy-storage-project-icon.png)。
+   >  * **Adobe企業儲存空間**
+   >
+   >您的Workfront管理員會決定您的公司使用哪些儲存空間，或允許您選擇與每個產品組合關聯的儲存空間。
+   >如需詳細資訊，請參閱[為您的組織啟用Adobe企業儲存空間](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
+   >
+   >將檔案新增至產品組合會因您使用的儲存型別而異。
+   >
+   >如需詳細資訊，請參閱[從您的檔案系統新增檔案至Adobe Workfront](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md)。
+
 1. （選擇性）按一下左側面板中的&#x200B;**[!UICONTROL 更新]**，將註解新增至投資組合的更新資料流。 如需詳細資訊，請參閱[更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 1. （選擇性）按一下&#x200B;**[!UICONTROL 更多]功能表** ![更多功能表](assets/qs-more-icon-on-an-object.png)以執行下列其中一項作業：
 

@@ -6,9 +6,9 @@ description: 如果您擁有正確的存取權和許可權，可以刪除Adobe W
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '759'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Workfront管理員可以還原已刪除的問題。
 >
 >在Workfront中，「問題」和「要求」可互換使用。 您可以同時記錄專案和任務的問題，以指出需要解決的無法預見的工作。 您也可以在指定為「請求佇列」的專案上提交記錄為問題的請求。
 
-## 存取需求
+## 存取權要求
 
 +++ 展開以檢視存取需求。 
 
@@ -34,7 +34,7 @@ Workfront管理員可以還原已刪除的問題。
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -90,9 +90,9 @@ Workfront管理員可以還原已刪除的問題。
   當您嘗試刪除擁有已記錄時數任務的專案時，這也適用。
 
   <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   
   <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">(this is not possible in classic)</span>
-  </MadCap:conditionalText>
+   
   -->
 
   如需有關為登入問題時數設定刪除偏好設定的詳細資訊，請參閱[設定時程表和時數偏好設定](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。

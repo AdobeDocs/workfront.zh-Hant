@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 2%
+source-wordcount: '1388'
+ht-degree: 1%
 
 ---
 
@@ -124,7 +124,7 @@ Old:
 
 1. 執行下列其中一項：
 
-   * 按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，或Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png) （如果可用），然後按一下&#x200B;**專案**&#x200B;並展開&#x200B;**新專案**。
+   * 按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**專案**&#x200B;並展開&#x200B;**新增專案**。
    * 移至投資組合，然後展開&#x200B;**新專案**。
 
      >[!TIP]
@@ -153,15 +153,34 @@ Old:
 
    ![選取我的最愛範本](assets/new-project-from-template-dropdown-with-template-favorites.png)
 
-   或
-
-   請執行下列動作：
+   或者，執行下列動作：
 
    1. 按一下&#x200B;**從範本新增專案**。
-   1. 在&#x200B;**搜尋範本**&#x200B;欄位中，開始輸入範本的名稱，並在範本顯示在清單中時按一下它。
-   1. 檢閱右側的範本詳細資訊。
+   1. （選擇性）在&#x200B;**搜尋範本**&#x200B;欄位中，開始輸入範本的名稱，並在範本顯示在清單中時按一下它。
+   1. 按一下下列範本型別之一的名稱以加以選擇：
 
-      範本詳細資料包括：
+      * Workfront儲存範本
+
+        Workfront儲存範本的名稱旁會顯示舊版儲存圖示![舊版儲存圖示](assets/legacy-storage-project-icon.png)。
+
+        範本和未來專案上的檔案將會儲存在Workfront儲存空間。
+      * Adobe儲存範本
+
+        範本和未來專案上的檔案將會儲存在Adobe企業儲存空間。
+
+      >[!NOTE]
+      >
+      >* 使用Adobe企業儲存範本會建立Adobe企業儲存專案。
+      >
+      >* 使用Workfront儲存範本會建立Workfront儲存專案。
+      >
+      >* 當您使用Workfront儲存產品組合或方案中的Adobe企業儲存範本時，專案是Adobe企業儲存專案，而產品組合或方案也會轉換成Adobe企業儲存物件。 相同產品組合或方案下的所有其他Workfront儲存專案維持不變。
+      >
+      > 並非所有客戶都有這兩種型別的檔案儲存。
+      >
+      >如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
+
+   1. 檢閱右側的下列範本詳細資訊：
 
       * 範本持續時間
       * 範本所有者
@@ -207,9 +226,17 @@ Old:
 
    如果您在上一步沒有變更範本中定義的所有詳細資訊，這些詳細資訊會自動與新建立的專案建立關聯。
 
+   系統會自動在專案的「檔案」區段中，為Adobe儲存專案建立與專案同名的檔案資料夾。
+
 ## 從範本區域中的範本建立專案
 
 您可以從範本開始建立專案，而不是從專案區域開始。
+
+>[!NOTE]
+>
+>與Workfront檔案儲存相關的範本會建立舊版Workfront儲存專案。 與Adobe企業檔案儲存相關的範本會建立Adobe儲存專案。 並非所有客戶都有這兩種儲存型別。
+>
+>如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
 {{step1-to-templates}}
 
@@ -233,3 +260,5 @@ Old:
 1. 按一下&#x200B;**建立專案**。
 
    如果您在上一步沒有變更範本中定義的所有詳細資訊，這些詳細資訊會自動與新建立的專案建立關聯。
+
+   系統會自動在專案的「檔案」區段中，為Adobe儲存專案建立與專案同名的檔案資料夾。

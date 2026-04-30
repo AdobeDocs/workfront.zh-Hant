@@ -9,9 +9,9 @@ feature: Work Management
 exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1532'
 ht-degree: 1%
 
 ---
@@ -41,17 +41,17 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">工作投入 </td> 
    <td> <p>手動標籤，定義使用者需要少量、中量或大量的日常工作才能完成任務。
-   <!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-       The level of effort is estimated to be a percentage of the daily amount of working time. (NOTE: keep this drafted. Vazgen said it's not needed, but waiting for feedback from users)
-      </MadCap:conditionalText>
-     -->
-     </p> <p>請考量下列有關工作投入的內容：</p>
-    <ul> 
-     <li>此欄位僅適用於具有簡單期間型別的任務。 </li> 
-     <li>您可以啟用此標籤的使用並在專案層級定義與其關聯的工作時間百分比。 </li> 
-    </ul> </td> 
-  </tr> 
+   &lt;!--
+
+    工作量估計為每日工作時間的百分比。 (注意：請保持草稿。 Vazgen說不需要這個欄位，但是等待使用者的意見回饋)
+    
+    —>
+    &lt;/p> &lt;p>請考慮下列有關工作投入的內容：&lt;/p>
+    &lt;ul>
+    &lt;li>此欄位僅適用於具有簡單期間型別的任務。 &lt;/li>
+    &lt;li>您可以啟用此標籤的使用並在專案層級定義與其關聯的工作時間百分比。 &lt;/li>
+    &lt;/ul> &lt;/td>
+</tr> 
  </tbody> 
 </table>
 

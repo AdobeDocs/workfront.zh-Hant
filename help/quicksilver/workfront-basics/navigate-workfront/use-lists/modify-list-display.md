@@ -7,9 +7,9 @@ author: Courtney
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '711'
 ht-degree: 2%
 
 ---
@@ -55,11 +55,11 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL 檢視]清單所在區域的存取權</p> <p>例如，若要修改專案的檢視，您需要[!UICONTROL 檢視]專案的存取權。</p></td> 
+   <td> <p>[！UICONTROL檢視]清單所在區域的存取權</p> <p>例如，若要修改專案的檢視，您需要[！UICONTROL檢視]專案的存取權。</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>[!UICONTROL 檢視]或套用至清單之檢視的更高許可權</p>  </td> 
+   <td> <p>[！UICONTROL檢視]或套用至清單之檢視的更高許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -74,9 +74,9 @@ ht-degree: 2%
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+    
    By default, groupings are collapsed.
-   </MadCap:conditionalText>
+    
    <br> </p>
    -->
 
@@ -90,7 +90,7 @@ ht-degree: 2%
 
 1. （選擇性和條件性）如果您想要在熒幕上顯示特定數量的專案，請按一下熒幕右下角的&#x200B;**[!UICONTROL Showing]**&#x200B;下拉式功能表，然後選取以顯示&#x200B;**100**、**250**、**500**、**[!UICONTROL All]**&#x200B;或&#x200B;**2000**&#x200B;專案。
 
-   第![頁上的](assets/list-number-page-350x119.png)清單編號
+   第](assets/list-number-page-350x119.png)頁上的![清單編號
 
    >[!TIP]
    >
@@ -100,7 +100,7 @@ ht-degree: 2%
    >為了在物件包含格式化文字欄位的大型清單中取得最佳效能，建議將此數字限製為250。
    >
    >
-   >如需有關2種清單型別的詳細資訊，請參閱文章[開始使用](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)中的清單[更新清單和舊版清單的差異 [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)一節。
+   >如需有關2種清單型別的詳細資訊，請參閱文章[開始使用 [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)中的清單[更新清單和舊版清單的差異](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)一節。
 
    清單的結果會以分頁方式顯示，以顯示每頁選取的專案數。 您可以按一下向後和向前箭頭，或選取特定頁面，來存取其他頁面上的結果。
 
