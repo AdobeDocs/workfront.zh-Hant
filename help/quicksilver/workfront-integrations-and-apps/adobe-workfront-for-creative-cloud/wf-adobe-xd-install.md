@@ -8,9 +8,9 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '502'
 ht-degree: 5%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 5%
   -->
   <tr> 
    <td role="rowheader">其他產品</td> 
-   <td><p>除了[!DNL Adobe Creative Cloud]授權之外，您還必須有[!DNL Workfront]授權。</p></td> 
+   <td><p>除了[!DNL Workfront]授權之外，您還必須有[!DNL Adobe Creative Cloud]授權。</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -73,16 +73,16 @@ ht-degree: 5%
 
 [在此觀看教學課程影片](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
 
-[!DNL Adobe Admin Console]管理員也可以建立僅含外掛程式的套件，以分發給使用者。 如需詳細資訊，請參閱[中的 [!DNL Adobe Workfront] 為您的使用者建立 [!DNL Creative Cloud]] 套裝的[[!UICONTROL [!DNL Adobe Admin Console]]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+[!DNL Adobe Admin Console]管理員也可以建立僅含外掛程式的套件，以分發給使用者。 如需詳細資訊，請參閱 [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)中的[為您的使用者建立 [!DNL Creative Cloud]] 套裝的[！UICONTROL [!DNL Adobe Workfront] 
 
 ## 個別安裝[!DNL Adobe Workfront for XD]外掛程式
 
-您可以從[!DNL Adobe Workfront for XD]自行安裝[!DNL Adobe Exchange]外掛程式。
+您可以從[!DNL Adobe Exchange]自行安裝[!DNL Adobe Workfront for XD]外掛程式。
 
 1. 前往Adobe Exchange上的[Adobe Workfront for XD安裝頁面](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&workflow=share)。
 1. 在出現的對話方塊中，按一下&#x200B;**開啟[!DNL Adobe Creative Cloud]案頭應用程式**。
 1. 在[!DNL Adobe XD]外掛程式管理員開啟後，按一下&#x200B;**[!UICONTROL 安裝]**。
-1. 讀取對話方塊中的資訊，然後按一下[確定]。**&#x200B;**
+1. 讀取對話方塊中的資訊，然後按一下[確定]。****
 1. 請繼續參閱下節，瞭解如何開啟外掛程式的詳細資訊。
 
 ## 開啟[!DNL Adobe Workfront for XD]外掛程式
@@ -141,4 +141,3 @@ ht-degree: 5%
 
 1. 輸入您的Workfront網域。 網域必須是`company-name.my.workfront.com`而非`experience.adobe.com`。
 
-如果您在Adobe Unified Experience，若要尋找您的Workfront網域，請前往

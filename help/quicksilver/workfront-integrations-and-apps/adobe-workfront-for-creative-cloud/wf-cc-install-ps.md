@@ -6,31 +6,31 @@ description: 您可以從Adobe Workfront Marketplace安裝適用於Photoshop的A
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 61e5b763ec527aeb846e975e06842dc2c4c69918
+source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 2%
+source-wordcount: '592'
+ht-degree: 4%
 
 ---
 
 # 安裝並開啟[!DNL Adobe Workfront for Photoshop]
 
-您可以從[!DNL Adobe Workfront for Photoshop]安裝[!DNL Adobe Marketplace]外掛程式。 外掛程式支援下列語言：
+您可以從[!DNL Adobe Marketplace]安裝[!DNL Adobe Workfront for Photoshop]外掛程式。 外掛程式支援下列語言：
 
 * 英文
 * 法文
 * 德文
 * 義大利文
 * 西班牙文
-* 葡萄牙文
+* 葡萄牙語
 * 日文
 * 簡體中文
 * 繁體中文
 * 韓文
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +38,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">其他產品</td> 
-   <td><p>除了[!DNL Adobe Creative Cloud]授權之外，您還必須有[!DNL Workfront]授權。</p></td> 
+   <td><p>除了[!DNL Workfront]授權之外，您還必須有[!DNL Adobe Creative Cloud]授權。</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,7 +49,7 @@ ht-degree: 2%
 
 ## 先決條件
 
-* 安裝[!DNL Adobe Photoshop]外掛程式之前，必須先安裝[!DNL Workfront]應用程式。
+* 安裝[!DNL Workfront]外掛程式之前，必須先安裝[!DNL Adobe Photoshop]應用程式。
 
 ## 為您的組織安裝[!DNL Adobe Workfront for Photoshop]外掛程式
 
@@ -57,16 +57,16 @@ ht-degree: 2%
 
 [在此觀看教學課程影片](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
 
-[!DNL Adobe Admin Console]管理員也可以建立僅含外掛程式的套件，以分發給使用者。 如需詳細資訊，請參閱[中的 [!DNL Adobe Workfront] 為您的使用者建立 [!DNL Creative Cloud]] 套裝的[[!UICONTROL [!DNL Adobe Admin Console]]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+[!DNL Adobe Admin Console]管理員也可以建立僅含外掛程式的套件，以分發給使用者。 如需詳細資訊，請參閱 [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)中的[為您的使用者建立 [!DNL Creative Cloud]] 套裝的[！UICONTROL [!DNL Adobe Workfront] 
 
 ## 個別安裝[!DNL Adobe Workfront for Photoshop]外掛程式
 
-您可以從[!DNL Adobe Workfront for Photoshop]自行安裝[!DNL Adobe Exchange]外掛程式。
+您可以從[!DNL Adobe Exchange]自行安裝[!DNL Adobe Workfront for Photoshop]外掛程式。
 
 1. 前往Adobe Exchange上的[Adobe Workfront for Photoshop安裝頁面](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&workflow=share)。
 1. 在出現的對話方塊中，按一下&#x200B;**開啟[!DNL Adobe Creative Cloud]案頭應用程式**。
 1. 在[!DNL Adobe Photoshop]外掛程式管理員開啟後，按一下&#x200B;**[!UICONTROL 安裝]**。
-1. 請閱讀對話方塊中的資訊，然後按一下[確定] **&#x200B;**，然後依照熒幕上的指示完成安裝。
+1. 請閱讀對話方塊中的資訊，然後按一下[確定] ****，然後依照熒幕上的指示完成安裝。
 
 1. 請繼續參閱下節，瞭解如何開啟外掛程式的詳細資訊。
 
@@ -133,9 +133,9 @@ ht-degree: 2%
 
    >[!TIP]
    >
-   >在Mac上，移至Finder，按&#x200B;**Command+Shift+。**&#x200B;若要顯示隱藏的資料夾，請瀏覽至&#x200B;**/Users//Library/Application Support**，然後刪除&#x200B;**Workfront**&#x200B;資料夾。
+   >在Mac上，移至Finder，按&#x200B;**Command+Shift+.** 若要顯示隱藏的資料夾，請瀏覽至&#x200B;**/Users//Library/Application Support**，然後刪除&#x200B;**Workfront**&#x200B;資料夾。
 
 
 1. 導覽回外掛程式，然後輸入您的Workfront網域。 網域必須是`company-name.my.workfront.com`而非`experience.adobe.com`。
 
-   若您使用Workfront統一體驗，若要[尋找您的Adobe網域](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md)，請前往[設定]， [客戶資訊]。
+   若要[尋找您的Workfront網域](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md)，請移至[設定]、[客戶資訊]。

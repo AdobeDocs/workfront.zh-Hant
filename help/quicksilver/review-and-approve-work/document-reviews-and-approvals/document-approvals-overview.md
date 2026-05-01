@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453d4862883e299fea46b3dfe94548375bfc4209
+source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
 workflow-type: tm+mt
-source-wordcount: '3846'
+source-wordcount: '3890'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,12 @@ ht-degree: 0%
 
 ![圖表顯示整合式稽核與核准工作流程，專案專員在Workfront中管理工作，而稽核者與核准者在Frame.io檢視器中提供意見與決策。](assets/Unified-Review-Approvals-Image.png)
 
+<!--
+## Integration requirements
 
-## 整合需求
+* The Workfront instance must be enabled on the Adobe Unified Experience.
 
-* 必須在Adobe Unified Experience上啟用Workfront例項。
-
+-->
 
 ## 內建於Adobe企業儲存空間
 
@@ -78,7 +79,7 @@ Adobe企業儲存的主要優點包括：
 
 #### Frame.io檢視器中支援的檔案型別
 
-Frame.io檢視器支援所有常見的視訊、影像、音訊、PDF和MS® Office型別。 如需支援檔案的詳細清單，請參閱Frame.io[上的](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)支援的檔案型別。
+Frame.io檢視器支援所有常見的視訊、影像、音訊、PDF和MS® Office型別。 如需支援檔案的詳細清單，請參閱Frame.io](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的[支援的檔案型別。
 
 #### Frame.io檢視器的存取與授權
 
@@ -100,7 +101,7 @@ Frame.io檢視器是所有Workfront檢閱和核准工作流程的預設檢視器
 
 * 如果程式和專案屬於相同的投資組合，則不能有相同的名稱。
 * 如果檔案屬於相同專案，則不能使用相同名稱。
-* 物件名稱不能包含下列任何特殊字元： \ / ： * ？ 「 | &lt; >
+* 物件名稱不能包含下列任何特殊字元： \ / ： * ？ &quot; | &lt; >
 * 物件名稱的上限為255個字元。
 
 考慮到這些限制，Workfront會視需要自動重新命名物件或檔案，以避免衝突。
@@ -134,7 +135,7 @@ Frame.io檢視器是所有Workfront檢閱和核准工作流程的預設檢視器
 
 ### Workfront的檔案管理
 
-上傳至Workfront的檔案會儲存在Adobe企業儲存空間中，並可在Workfront和Frame.io中存取。 當您將檔案上傳到Workfront中的任務或問題時，系統會在Adobe企業儲存空間中建立一個系統產生的檔案夾，該檔案夾會繼承任務或問題的許可權。 上傳至該任務或問題的所有檔案都會儲存在該資料夾中，並繼承其許可權。 如需Workfront中檔案的詳細資訊，請參閱[新檔案區域概觀](/help/quicksilver/documents/managing-documents/documents-area.md)和[Adobe企業儲存模型的物件許可權和存取層級概觀](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)。
+上傳至Workfront的檔案會儲存在Adobe企業儲存空間中，並可在Workfront和Frame.io中存取。 當您將檔案上傳到Workfront中的任務或問題時，系統會在Adobe企業儲存空間中建立一個系統產生的檔案夾，該檔案夾會繼承任務或問題的許可權。 上傳至該任務或問題的所有檔案都會儲存在該資料夾中，並繼承其許可權。 如需Workfront中檔案的詳細資訊，請參閱[新的檔案區域總覽](/help/quicksilver/documents/managing-documents/documents-area.md)和[Adobe企業儲存模型的物件許可權和存取層級總覽](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)。
 
 ### 檔案體驗限制
 
@@ -178,13 +179,13 @@ Frame.io檢視器是所有Workfront檢閱和核准工作流程的預設檢視器
 
 **我是否需要Frame.io授權才能使用此整合？**
 
-否。所有擁有付費授權的Workfront使用者都能自動隨附Frame.io檢視器，不需額外付費。 您不需要個別的Frame.io授權，就能透過Workfront檢閱及核准資產。
+否。 所有擁有付費授權的Workfront使用者都能自動隨附Frame.io檢視器，不需額外付費。 您不需要個別的Frame.io授權，就能透過Workfront檢閱及核准資產。
 
 如果您的組織想要存取其他Frame.io功能 — 例如直接將資產上傳到Frame.io中的專案 — 您可以購買Frame.io Enterprise授權。 請聯絡您的Adobe客戶代表以瞭解更多資訊。
 
 **這是否會取代Workfront Proof？**
 
-是。啟用統一檢閱和核准後，Frame.io檢視器會成為Workfront中的主要檢閱表面，取代Workfront Proof。
+是。 啟用統一檢閱和核准後，Frame.io檢視器會成為Workfront中的主要檢閱表面，取代Workfront Proof。
 
 現有客戶可繼續存取Workfront校訂功能，此功能適用於整合啟用前建立的任何專案。
 
@@ -261,7 +262,7 @@ Frame.io檢視器是所有Workfront檢閱和核准工作流程的預設檢視器
 
 **視訊評論是否有任何限制？**
 
-是。視訊校訂要求的年度上限設定為貴組織總付費Workfront使用者授權（標準和輕度）的10%。 此上限適用於組織層級。
+是。 視訊校訂要求的年度上限設定為貴組織總付費Workfront使用者授權（標準和輕度）的10%。 此上限適用於組織層級。
 
 當使用量達到上限的80%和100%時，Workfront管理員會收到應用程式內通知。
 
@@ -269,11 +270,11 @@ Frame.io檢視器是所有Workfront檢閱和核准工作流程的預設檢視器
 
 **同一位使用者可以出現在核准工作流程的多個階段嗎？**
 
-是。使用者可指派至相同核准工作流程中的多個階段。
+是。 使用者可指派至相同核准工作流程中的多個階段。
 
 **我可以新增階段來建立多階段核准工作流程嗎？**
 
-是。支援多階段核准工作流程，可讓您在每個階段透過不同參與者的循序稽核和核准輪次來路由資產。
+是。 支援多階段核准工作流程，可讓您在每個階段透過不同參與者的循序稽核和核准輪次來路由資產。
 
 <!--
 **Can I modify the trigger for a later stage---for example, based on all approved versus the due date ending?**
@@ -299,7 +300,7 @@ For both single-stage and multi-stage reviews, automated reminder emails are sen
 
 **當核准者有需要檢閱的內容時，他們是否會收到電子郵件通知？**
 
-是。核准者和稽核者會在被指派給稽核或核準時收到電子郵件通知。 自動提醒電子郵件也會在截止日期前72小時、前24小時及截止日期本身傳送。
+是。 核准者和稽核者會在被指派給稽核或核準時收到電子郵件通知。 自動提醒電子郵件也會在截止日期前72小時、前24小時及截止日期本身傳送。
 
 自訂電子郵件通知訊息的功能目前無法使用，但已列入產品藍圖中。
 
@@ -317,7 +318,7 @@ No. Notification frequency settings such as receiving all comments, only replies
 
 **評論可以標示為已解決嗎？**
 
-是。註解可在Frame.io檢視器中標示為已解決。
+是。 註解可在Frame.io檢視器中標示為已解決。
 
 **Frame.io檢視器中有哪些標籤和註釋工具可用？**
 
@@ -343,7 +344,7 @@ Frame.io檢視器包含完整的視覺標籤工具，包括手繪繪圖和標準
 
 **我是否可以在外部與無法存取Workfront的利害關係人共用資產？**
 
-是。Assets可在外部共用。 系統會透過電子郵件通知外部使用者，並提示您建立Frame.io登入以存取檢視器並參與檢閱。
+是。 Assets可在外部共用。 系統會透過電子郵件通知外部使用者，並提示您建立Frame.io登入以存取檢視器並參與檢閱。
 
 <!--
 **Before unified review and approval, is a reviewer just directed to a proof?**
@@ -393,7 +394,7 @@ Adobe企業儲存的主要優點包括：
 
 **檔案和專案是否有命名或結構需求？**
 
-是。由於整合使用Adobe企業儲存空間，因此適用下列慣例：
+是。 由於整合使用Adobe企業儲存空間，因此適用下列慣例：
 
 * 如果程式和專案屬於相同的投資組合，則不能有相同的名稱。
 
@@ -463,7 +464,7 @@ Frame.io是專為創意評論而建置，這表示它可處理行銷和創意團
 
 **我可以傳送已核准的資產至Adobe Experience Manager (AEM)嗎？**
 
-是。資產完成複查和核准週期後，您就可以將其轉移至Adobe Experience Manager Assets進行最終儲存和分發。 這會將Workfront用於工作管理、Frame.io用於審查，以及AEM用於數位資產管理，連線到統一的內容supply chain。
+是。 資產完成複查和核准週期後，您就可以將其轉移至Adobe Experience Manager Assets進行最終儲存和分發。 這會將Workfront用於工作管理、Frame.io用於審查，以及AEM用於數位資產管理，連線到統一的內容supply chain。
 
 如需詳細資訊，請參閱&lt;如需詳細資訊>，請參閱[使用Adobe Experience Manager與Frame.io整合](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)。
 
@@ -503,7 +504,7 @@ Before signing the V2 SKU contract, your Workfront instance will continue to ope
 
 **升級至V2 SKU能給我更多儲存空間嗎？**
 
-是。透過V2 SKU，每個獲授權的使用者可接收60 GB的儲存空間，而舊版為30 GB。
+是。 透過V2 SKU，每個獲授權的使用者可接收60 GB的儲存空間，而舊版為30 GB。
 
 **如何在Adobe企業儲存裝置與舊版Workfront儲存裝置之間進行選擇？**
 
@@ -566,15 +567,15 @@ Because the Frame.io viewer experience is not available in the Workfront sandbox
 
 **我是否需要Workfront Fusion才能使用統一的檢閱和核准？**
 
-否。整合式檢閱和核准是原生產品整合，不需要Fusion。 工作流程直接內建在Workfront中。
+否。 整合式檢閱和核准是原生產品整合，不需要Fusion。 工作流程直接內建在Workfront中。
 
 **Fusion Connectors是否可用於統一的檢閱和核准？**
 
-是。統一檢閱和核准的融合動作目前正在開發中，預計將於第3季推出。 檢視Experience League上的Workfront發行說明，瞭解更新何時可用。
+是。 統一檢閱和核准的融合動作目前正在開發中，預計將於第3季推出。 檢視Experience League上的Workfront發行說明，瞭解更新何時可用。
 
 **Fusion是否可以在檔案上傳時自動觸發稽核？**
 
-是。搭配Fusion使用Workfront Webhook即可進行這類自動化。
+是。 搭配Fusion使用Workfront Webhook即可進行這類自動化。
 
 **在Workfront Proof上建立的現有Fusion工作流程將會受到什麼影響？**
 

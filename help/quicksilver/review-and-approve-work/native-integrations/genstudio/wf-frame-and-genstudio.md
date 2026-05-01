@@ -12,9 +12,9 @@ hidefromtoc: true
 exl-id: 4d0c0542-3383-4907-b573-e2ef56117681
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '469'
 ht-degree: 4%
 
 ---
@@ -71,10 +71,6 @@ ht-degree: 4%
 
 * Workfront和GenStudio for Performance Marketing必須部署至相同的Identity Management系統(IMS)組織。
 
-* 使用者只能屬於IMS組織內的一個Workfront執行個體。
-
-* 必須在Adobe Unified Experience上啟用Workfront例項。
-
 * Workfront執行個體必須啟用Adobe企業儲存。 如需詳細資訊，請參閱[啟用Adobe企業儲存空間](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
 
 
@@ -92,7 +88,7 @@ ht-degree: 4%
 
 當使用者在GenStudio for Performance Marketing中啟動稽核時，他們只需選擇所需的範本。 使用者可隨時輕鬆變更任何統一的核准核准工作流程範本、新增或移除稽核者與階段。
 
-如需詳細資訊，請參閱[要求檢閱與核准](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/approve/request-review)。
+如需詳細資訊，請參閱[要求檢閱與核准](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review)。
 
 ## 在Frame.io檢視器中檢閱及核准GenStudio for Performance Marketing草稿內容
 
@@ -111,4 +107,4 @@ ht-degree: 4%
 
 當資產通過稽核和核准程式後，您可以直接從GenStudio for Performance Marketing檢視稽核決定並發佈內容。
 
-如需詳細資訊，請參閱[發佈核准的內容](https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content)。
+如需詳細資訊，請參閱[發佈核准的內容](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content)。

@@ -10,9 +10,9 @@ role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
 last-update: 2026-04-29T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: c298b21e74abc6ac7bed2c8fa4c5a0dc0f6c6237
+source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '766'
 ht-degree: 4%
 
 ---
@@ -68,30 +68,15 @@ ht-degree: 4%
 
    「客戶資訊」區域中提供的區段包括：
 
-* **基本資訊**
+   | 區域 | 更多資訊 |
+   |---------|-----------------|
+   | **基本資訊** | 如需有關在Workfront中設定基本資訊的資訊，請參閱[設定基本資訊](#configure-basic-info)。 |
+   | <span class="preview">**儲存概述**</span> | <span class="preview">如需有關檢查檔案儲存使用量和配額的資訊，請參閱[檢查檔案儲存限制](../../documents/managing-documents/check-document-storage.md)。</span> |
+   | **API金鑰設定** | 如需API金鑰設定的相關資訊，請參閱[管理API金鑰](../../administration-and-setup/manage-workfront/security/manage-api-keys.md)。 |
+   | **IP允許清單** | 如需將IP位址新增至您的允許清單（您的使用者可存取Workfront）的相關資訊，請參閱[設定防火牆的允許清單](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。 |
+   | **電子郵件允許清單** | 如需新增電子郵件至允許清單的詳細資訊，請參閱[設定電子郵件允許清單](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)。 |
 
-  如需有關在Workfront中設定基本資訊的資訊，請參閱[設定基本資訊](#configure-basic-info)。
-
-
-
-* <span class="preview">**儲存概述**
-
-  如需有關檢查檔案儲存使用量和配額的資訊，請參閱[檢查檔案儲存限制](../../documents/managing-documents/check-document-storage.md)。</span>
-
-
-* **API金鑰設定**
-
-  如需API金鑰設定的相關資訊，請參閱[管理API金鑰](../../administration-and-setup/manage-workfront/security/manage-api-keys.md)。
-
-* **IP允許清單**
-
-  如需將IP位址新增至您的允許清單（您的使用者可存取Workfront）的相關資訊，請參閱[設定防火牆的允許清單](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
-
-* **電子郵件允許清單**
-
-  如需新增電子郵件至允許清單的詳細資訊，請參閱[設定電子郵件允許清單](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)。
-
-<!--
+   <!--
    * **License**
 
      For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
