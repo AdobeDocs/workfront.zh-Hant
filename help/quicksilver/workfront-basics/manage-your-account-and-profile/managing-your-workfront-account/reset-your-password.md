@@ -6,20 +6,36 @@ description: 您可以重設您的 [!DNL Adobe Workfront] 密碼。 作為一項
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
+source-git-commit: 4dd591c034e1c84ef3bda64d12b6920fbdd33c26
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
 
 # 重設密碼
 
+>[!NOTE]
+>
+>變更您的密碼會變更您所有[!DNL Adobe CX Enterprise]應用程式的密碼。
+
+您的密碼未在[!DNL Workfront]中管理。
+
+如果您的組織使用單獨的應用程式來管理密碼，您將透過該提供者變更您的密碼。
+
+如果您的密碼是由[!DNL Adobe]管理，您可以在Adobe帳戶中變更密碼。
+
+[請參閱本文以瞭解如何變更您的Adobe密碼。](https://helpx.adobe.com/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
+
+如需變更密碼的詳細資訊，請連絡管理員。
+
+<!--
 >[!IMPORTANT]
 >
->此頁面上說明的程式已移除，因為它僅適用於尚未上線至Adobe Admin Console的組織。
+>The procedure described on this page has been removed because it applied only to organizations that were not yet onboarded to the Adobe Admin Console. 
 >
->所有Workfront組織現在都已上線Adobe Admin Console。
+>All Workfront organizations have now been onboarded to the Adobe Admin Console.
+-->
 
 <!--DELETE ME MARCH 2026-->
 
