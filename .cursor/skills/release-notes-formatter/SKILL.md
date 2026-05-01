@@ -1,10 +1,10 @@
 ---
 name: release-notes-formatter
 description: 格式化及驗證Workfront發行說明，以取得一致性、正確結構和正確連結。 僅用於產品版本目錄中的版本注意事項檔案，或者當使用者提及版本注意事項、產品版本或季度版本時。 請勿套用至作法文章或一般檔案。
-source-git-commit: ec081e557ec48adcfcb3833bf11dcee91312ef4e
+source-git-commit: 1a498abcf4a9ef8940eb2da09da42636253e557a
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 3%
+source-wordcount: '824'
+ht-degree: 2%
 
 ---
 
@@ -73,7 +73,7 @@ exl-id: <existing UUID — never generate or change>
 >Production for everyone: {Month Day, Year}
 ```
 
-&#x200B;5. **內文**：功能說明，然後連結到說明檔案
+5. **內文**：功能說明，然後連結到說明檔案
 
 #### 總覽頁面
 
@@ -90,10 +90,10 @@ exl-id: <existing UUID — never generate or change>
 * [Document enhancements](#document-enhancements)
 ```
 
-&#x200B;5. 每個產品區域&#x200B;**的** H3搭配HTML功能表（請參閱[reference.md](reference.md#overview-feature-table)）
+5. 每個產品區域&#x200B;**的** H3搭配HTML功能表（請參閱[reference.md](reference.md#overview-feature-table)）
    - 在每個表格中，**最新功能排在前** — 最近的列會顯示在表格頂端（標題列之後）
 
-&#x200B;6. **尾端區段** (H2)：其他區域的發行說明、案頭校訂檢視器更新、公告、API版本、維護更新、訓練更新
+6. **尾端區段** (H2)：其他區域的發行說明、案頭校訂檢視器更新、公告、API版本、維護更新、訓練更新
 
 ### 步驟3：驗證連結
 
@@ -124,6 +124,32 @@ exl-id: <existing UUID — never generate or change>
 | 編號說明行中的額外空格 | 修剪尾隨空格 |
 | 產品區域頁面中的HTML | 維持為Markdown （HTML僅適用於概觀表格） |
 | 遺失`exl-id` | 將其忽略 — 不要產生一個 |
+
+### 步驟6：更新目錄
+
+每當您建立&#x200B;**新**&#x200B;發行說明頁面（總覽或產品區域）時，請將其新增至`help/quicksilver/TOC.md`，並進行相同變更。 不在目錄中的頁面不會出現在發佈的導覽中，即使概觀表格中的連結指向該頁面。
+
+要新增的位置：
+
+- 目錄(TOC)在標題下有每季的區段，例如`* 2026 Q3 Release {#release-26-q3}`。 如果季度標題尚不存在（新季度的第一頁），請將其新增到上一季度的上方，這樣最新季度就會位於最上方。
+- 在該季度標題下，以下列順序列出頁面：
+   1. **概觀**&#x200B;優先(`Third Quarter 2026 release overview`)。
+   2. **產品區域頁面**&#x200B;依區域名稱的字母順序（管理員、檔案、企業作業、專案、報告、請求）。
+   3. **其他增強功能**&#x200B;最後會出現（一律在按字母順序排列的產品區域之後）。
+
+每個TOC專案都是一個Markdown連結，使用頁面標題和絕對存放庫路徑：
+
+```markdown
+      * [Third Quarter 2026 Documents enhancements](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md)
+```
+
+將縮排（六個空格）與周圍的專案配對。 使用頁面H1逐字做為連結文字 — 例如`Documents enhancements`、`Requesting enhancements` （不是`Requests`） — 因此TOC標籤會比對先前的季度。
+
+要避免的常見錯誤：
+
+- 建立產品區域頁面，而不將其新增至目錄。
+- 從新產品區域頁面連結至其他季度的概述（步驟3）。
+- 在上一個季度的標題下插入新季度的頁面。
 
 ## 檔案命名慣例
 
@@ -159,6 +185,7 @@ exl-id: <existing UUID — never generate or change>
 - [ ]沒有中斷的內部連結
 - [ 總覽中的]個錨點連結符合H3區段ID
 - [ ]功能是以最新優先順序排列（產品區域頁面和概觀表格）
+- [ ]新發行說明頁面列在正確季度下的`help/quicksilver/TOC.md`中，概覽在前，產品區域按字母順序（其他在後）
 
 ## 其他資源
 

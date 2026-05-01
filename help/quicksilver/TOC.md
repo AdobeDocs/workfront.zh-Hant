@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
+source-git-commit: de64f43d115c3f1c563fde761e5776b7213ae55f
 workflow-type: tm+mt
-source-wordcount: '14070'
+source-wordcount: '14083'
 ht-degree: 2%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 2%
       * [準備Adobe Workfront的季度發行](product-announcements/product-releases/release-readiness.md)
       * 2026年第3季發行 {#release-26-q3}
          * [2026年第三季度版本總覽](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)
+         * [2026年第三季度檔案增強功能](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md)
          * [2026年第三季要求增強功能](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md)
       * 2026年第2季發行 {#release-26-q2}
          * [2026年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
@@ -1277,6 +1278,7 @@ ht-degree: 2%
          * [瞭解專案量度](manage-work/projects/manage-projects/project-metrics.md)
          * [專案限制總覽](manage-work/projects/manage-projects/project-maximums.md)
          * [使用AI助理概述更新](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
+         * [專案和相關物件的檔案管理概觀](manage-work/projects/manage-projects/manage-documents-on-projects.md)
       * 建立和管理專案範本 {#create-and-manage-project-templates}
          * [建立及管理專案範本：文章索引](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
          * [專案範本概觀](manage-work/projects/create-and-manage-templates/project-template-overview.md)
@@ -2580,9 +2582,9 @@ ht-degree: 2%
       * [使用JWT流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-pkce-flow.md)
       * [棄用API — 內部](wf-api/api/deprecation-api-internal.md)
-      * [&#x200B; API 21版的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [&#x200B; API 20版的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [&#x200B; API 19版的新增功能](wf-api/api/new-api-version-19.md)
+      * [ API 21](/help/quicksilver/wf-api/api/new-api-version-21.md)版的新增功能
+      * [ API 20](/help/quicksilver/wf-api/api/new-api-version-20.md)版的新增功能
+      * [ API 19](wf-api/api/new-api-version-19.md)版的新增功能
       * [API 18版的新增功能](wf-api/api/new-api-version-18.md)
       * [API 17版的新增功能](wf-api/api/new-api-version-17.md)
       * [API 16版的新增功能](wf-api/api/new-api-version-16.md)

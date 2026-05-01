@@ -8,16 +8,18 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-29T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: c298b21e74abc6ac7bed2c8fa4c5a0dc0f6c6237
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '763'
 ht-degree: 4%
 
 ---
 
 # 設定系統的基本資訊
+
+{{highlighted-preview}}
 
 <!-- Audited: 2/2024 -->
 
@@ -66,23 +68,30 @@ ht-degree: 4%
 
    「客戶資訊」區域中提供的區段包括：
 
-   * **基本資訊**
+* **基本資訊**
 
-     如需有關在Workfront中設定基本資訊的資訊，請參閱[設定基本資訊](#configure-basic-info)。
+  如需有關在Workfront中設定基本資訊的資訊，請參閱[設定基本資訊](#configure-basic-info)。
 
-   * **API金鑰設定**
 
-     如需API金鑰設定的相關資訊，請參閱[管理API金鑰](../../administration-and-setup/manage-workfront/security/manage-api-keys.md)。
 
-   * **IP允許清單**
+* <span class="preview">**儲存概述**
 
-     如需將IP位址新增至您的允許清單（您的使用者可存取Workfront）的相關資訊，請參閱[設定防火牆的允許清單](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
+  如需有關檢查檔案儲存使用量和配額的資訊，請參閱[檢查檔案儲存限制](../../documents/managing-documents/check-document-storage.md)。</span>
 
-   * **電子郵件允許清單**
 
-     如需新增電子郵件至允許清單的詳細資訊，請參閱[設定電子郵件允許清單](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)。
+* **API金鑰設定**
 
-   <!--
+  如需API金鑰設定的相關資訊，請參閱[管理API金鑰](../../administration-and-setup/manage-workfront/security/manage-api-keys.md)。
+
+* **IP允許清單**
+
+  如需將IP位址新增至您的允許清單（您的使用者可存取Workfront）的相關資訊，請參閱[設定防火牆的允許清單](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
+
+* **電子郵件允許清單**
+
+  如需新增電子郵件至允許清單的詳細資訊，請參閱[設定電子郵件允許清單](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)。
+
+<!--
    * **License**
 
      For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
@@ -132,14 +141,6 @@ ht-degree: 4%
       <td role="rowheader">預設電子郵件地區設定</td> 
       <td>控制用於外寄電子郵件訊息的語言、日期和數字格式。 此處選取的地區設定是建立新使用者時的預設設定。 使用者可以在他們的使用者設定檔中修改他們的地區設定。 當使用者修改他們的地區設定時，他們來自Workfront的電子郵件中的語言、日期和數字格式符合他們的設定檔偏好設定。 如需有關修改設定檔偏好設定的詳細資訊，請參閱<a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">設定我的設定</a>。</td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">儲存配額</td> 
-      <td> <p>這是您的Workfront執行個體中可用的檔案儲存空間量。<br>配額包含您直接上傳至Workfront的檔案。<br>它不包含：</p> 
-       <ul> 
-        <li>檔案會從任何其他第三方服務提供者（SharePoint、Google Drive、Webdam、Box、Dropbox、任何其他檔案資產管理提供者）連結至Workfront。</li> 
-        <li>您的Workfront資料（專案、任務、問題、使用者等）。</li> 
-       </ul> </td> 
-     </tr>
     </tbody> 
    </table>
 

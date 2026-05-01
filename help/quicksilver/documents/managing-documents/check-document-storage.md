@@ -2,27 +2,31 @@
 product-area: documents
 navigation-topic: manage-documents
 title: 檢查檔案儲存限制
-description: 雖然使用者可上傳至您的Workfront執行個體的個別檔案型別和大小沒有限制，但您的Workfront計畫對Workfront執行個體使用的儲存空間總量有限制。 身為Adobe Workfront管理員，您可以從「設定」區域監控執行個體的檔案儲存。
+description: 身為Adobe Workfront管理員，您可在客戶資訊頁面上檢視檔案儲存使用量和配額。 儲存空間的顯示方式取決於您的組織是使用舊版Workfront儲存空間或Adobe企業儲存空間。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-29T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: e25be455e16beee813e612b983bca1302f129e6f
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 5%
+source-wordcount: '438'
+ht-degree: 2%
 
 ---
 
 # 檢查檔案儲存限制
 
-雖然使用者可上傳至您的Workfront執行個體的個別檔案型別和大小沒有限制，但您的Workfront計畫對Workfront執行個體使用的儲存空間總量有限制。 身為Adobe Workfront管理員，您可以從「設定」區域監控執行個體的檔案儲存。
+{{highlighted-preview}}
 
->[!NOTE]
->
->新檔案區域沒有此功能。<br>
->如果您的組織使用企業儲存空間，當您存取Workfront中的檔案時，將會看到新檔案區域。 如需企業儲存的詳細資訊，請參閱[Adobe企業儲存概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+雖然使用者可上傳至您的Workfront執行個體的個別檔案型別和大小沒有限制，但您的Workfront計畫包含總儲存配額。 身為Workfront管理員，您可以從「客戶資訊」頁面的「設定」區域監控使用情況和配額。
+
+儲存空間的顯示方式取決於您的組織是使用舊版Workfront儲存空間或Adobe企業儲存空間：
+
+* 如果您使用舊版Workfront儲存空間，請參閱本文中的[舊版Workfront儲存空間](#legacy-workfront-storage)。
+* 如果您使用Adobe企業儲存空間，請參閱本文中的[Adobe企業儲存空間](#adobe-enterprise-storage)。
+
+  如需企業儲存的詳細資訊，請參閱[Adobe企業儲存概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 ## 存取權要求
 
@@ -35,7 +39,8 @@ ht-degree: 5%
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Workfront計畫</td> 
-   <td> <p>任何</p> </td> 
+   <td> <p>使用舊版儲存空間管理檔案的任何Workfront套件</p>
+      <p>使用Adobe企業儲存體管理檔案的任何Workflow套件</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
@@ -48,15 +53,46 @@ ht-degree: 5%
 
 +++
 
-## 檢查檔案儲存
+## 舊版Workfront儲存空間
+
+如果您的組織使用舊版Workfront儲存空間，客戶資訊頁面會顯示直接上傳至Workfront的檔案的單一儲存配額。
+
+若要檢查舊版Workfront檔案儲存：
 
 {{step-1-to-setup}}
 
 1. 在左側面板中，按一下&#x200B;**系統** > **客戶資訊**。
-1. 在&#x200B;**基本資訊**&#x200B;區段中，尋找&#x200B;**儲存配額**。 在這裡，您可以檢視目前使用的儲存空間，以及Workfront計畫包含的總儲存空間。
+1. 在&#x200B;**基本資訊**&#x200B;區段中，尋找&#x200B;**儲存配額**。 在這裡，您可以檢視目前使用的儲存空間，以及Workfront計畫中包含的儲存空間總數。
 
 儲存配額會每天重新整理，以顯示最新的計數。
 
 >[!NOTE]
 >
->此限制不適用於您從任何其他第三方服務提供者（SharePoint、Google Drive、Webdam、Box、Dropbox、任何其他檔案資產管理提供者）連結至Workfront的檔案。
+>此限制不適用於您從任何其他第三方服務提供者（SharePoint、Google Drive、Webdam、Box、Dropbox或任何其他檔案資產管理提供者）連結至Workfront的檔案。
+
+<div class="preview">
+
+## Adobe企業儲存空間
+
+如果您的組織使用Adobe企業儲存空間，「客戶資訊」會顯示儲存空間概覽，將舊版Workfront儲存空間、Adobe企業儲存空間和Frame.io的使用量分成不同區段。 當使用量超過您的配額時，Workfront也會對上傳套用軟性上限，以便使用者仍然可以上傳檔案。
+
+### 檢視客戶資訊的儲存空間使用量
+
+若要檢查Adobe企業檔案儲存：
+
+{{step-1-to-setup}}
+
+1. 在左側面板中，按一下&#x200B;**系統** > **客戶資訊**。
+1. 移至&#x200B;**儲存概述**&#x200B;區段。
+1. 檢視Adobe企業儲存空間的使用情況。
+   <!--Both Workfront and Frame.io usage are broken down separately, but roll up to the total usage for Adobe enterprise storage.-->
+
+![客戶資訊上的Adobe企業儲存空間使用量](assets/storage-usage.png)
+
+使用量數字會定期重新整理，以便您檢視最新計數。
+
+### 給管理員的電子郵件通知
+
+當使用量超過儲存配額的75%、85%或100%時，Workfront會傳送電子郵件通知給系統管理員。
+
+</div>
