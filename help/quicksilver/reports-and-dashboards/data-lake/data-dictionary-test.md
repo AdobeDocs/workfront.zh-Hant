@@ -8,13 +8,13 @@ author: Courtney
 feature: Reports and Dashboards
 hide: true
 hidefromtoc: true
-source-git-commit: a42c13804b0463af27bac6f9166bc6e3c41d3fda
+exl-id: 8ac99353-ebb9-46d9-b1ad-1cdbdc974f49
+source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '156'
 ht-degree: 8%
 
 ---
-
 
 # 測試
 
@@ -25,24 +25,24 @@ ht-degree: 8%
     <tr>
         <th>Workfront實體名稱</th>
         <th>介面參考</th>
-        <th>API參考 | 標籤</th>
+        <th>API參考 |標籤</th>
         <th>資料湖檢視</th>
     </tr>
   </thead>
  <tr>
         <td>存取層級</td>
          <td>存取層級</td>
-        <td>ACSLVL | 存取層級</td>
+        <td>ACSLVL |存取層級</td>
         <td>ACCESSLEVELS_CURRENT<br>ACCESSLEVELS_DAILY_HISTORY<br>ACCESSLEVELS_EVENT</td>
     </tr>
      <tr>
      <tr>
          <td colspan="4"><strong>關聯性欄位</strong> <br>
-         ACCESSLEVELID （自我）：自我<br>
-         APPGLOBALID：不是關聯性；用於內部應用程式<br>
-         LASTUPDATEDBYID： USER_CURRENT | 使用者ID<br>
-         LEGACYACCESSLEVELID：不是關聯性；用於內部應用程式<br>
-         OBJID： OBJCODE欄位<br>中識別的物件識別碼
+         ACCESSLEVELID (self)： Self<br>
+         APPGLOBALID：不是關係；用於內部應用程式用途<br>
+         LASTUPDATEDBYID： USER_CURRENT |使用者ID<br>
+         LEGACYACCESSLEVELID：不是關係；用於內部應用程式用途<br>
+         OBJID：在OBJCODE欄位中識別的物件識別碼 <br>
          SYSID：不是關聯性；用於內部應用程式</td>
     </tr>
 </table>
@@ -54,14 +54,14 @@ ht-degree: 8%
     <tr>
         <th>Workfront實體名稱</th>
         <th>介面參考</th>
-        <th>API參考 | 標籤</th>
+        <th>API參考 |標籤</th>
         <th>資料湖檢視</th>
     </tr>
   </thead>
  <tr>
         <td>存取層級</td>
          <td>存取層級</td>
-        <td>ACSLVL | 存取層級</td>
+        <td>ACSLVL |存取層級</td>
         <td>ACCESSLEVELS_CURRENT<br>ACCESSLEVELS_DAILY_HISTORY<br>ACCESSLEVELS_EVENT</td>
     </tr>
      <tr>
@@ -70,7 +70,7 @@ ht-degree: 8%
          <ul>
             <li>ACCESSLEVELID (self)： Self</li>
             <li>APPGLOBALID：不是關係；用於內部應用程式用途</li>
-            <li>LASTUPDATEDBYID： USER_CURRENT | 使用者ID</li>
+            <li>LASTUPDATEDBYID： USER_CURRENT |使用者ID</li>
             <li>LEGACYACCESSLEVELID：不是關係；用於內部應用程式用途</li>
             <li>OBJID：在OBJCODE欄位中識別的物件識別碼</li>
             <li>SYSID：不是關聯性；用於內部應用程式</li>

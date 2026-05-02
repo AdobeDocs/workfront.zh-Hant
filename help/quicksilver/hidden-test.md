@@ -4,10 +4,10 @@ description: 隱藏測試
 hide: true
 hidefromtoc: true
 exl-id: b6b0f429-b619-4b8e-ab81-ad190dae5a0b
-source-git-commit: 5ab33ae7ee37f4afa2546af32af205ef546bae22
+source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 2%
+ht-degree: 19%
 
 ---
 
@@ -31,21 +31,21 @@ ht-degree: 2%
 
 ## 存取需求（當套件保持不變並更新授權列時，此為範例）
 
-展開以檢視本文中功能的存取需求。
+展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何 </p> 
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
    <td> <p>淺色或更高</p>
-   <p>工作或更高</p></td> 
+   <p>工作或更高層級</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -60,22 +60,22 @@ ht-degree: 2%
 
 *如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-## 存取需求
+## 存取權要求
 
-展開以檢視本文中功能的存取需求。
+展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td><p>標準</p>
-   <p>工作或更高</p></td> 
+   <p>工作或更高層級</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
@@ -90,9 +90,9 @@ ht-degree: 2%
 
 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-## 存取需求
+## 存取權要求
 
-展開以檢視本文中功能的存取需求。
+展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -123,18 +123,18 @@ ht-degree: 2%
 
 ## 存取需求（這是新功能僅存在於2023/2025套件中的範例）
 
-展開以檢視本文中功能的存取需求。
+展開以檢視這篇文章中所述功能的存取權要求。
 
 <table>
   <tr>
-   <td>Adobe Workfront套件
+   <td>Adobe Workfront 封裝
    </td>
    <td> <p>Prime或Ultimate</p>
     <p>Workflow Ultimate</p>
    </td>
   </tr>
   <tr>
-   <td>Adobe Workfront授權
+   <td>Adobe Workfront 授權
    </td>
    <td>標準
    </td>
@@ -151,11 +151,11 @@ ht-degree: 2%
 
 ## 存取需求（以下是您需要擁有其他產品的範例）
 
-展開以檢視本文中功能的存取需求。
+展開以檢視這篇文章中所述功能的存取權要求。
 
 <table>
   <tr>
-   <td>Adobe Workfront套件
+   <td>Adobe Workfront 封裝
    </td>
    <td> <p>Prime或Ultimate</p>
     <p>Workflow Ultimate</p>
@@ -202,7 +202,7 @@ ht-degree: 2%
 
 ## 大部分Workfront Planning的存取需求
 
-展開以檢視本文中功能的存取需求。
+展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
 <col> 
@@ -223,7 +223,7 @@ ht-degree: 2%
    <td> 
 <p>任何Adobe Workfront工作流程套件和任何Adobe Workfront計畫套件</p> 
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront平台(**&#x200B;**&#x200B;我們是否要標註此內容，或將其設為底部連結之文章的一部分???**&#x200B;***)</p></td> 
+<td role="rowheader"><p>Adobe Workfront平台（****我們是否要標註此內容，或將其設為底部連結之文章的一部分???*****）</p></td> 
    <td> 
 <p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning。</p> 
 <p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p> 
@@ -260,7 +260,7 @@ ht-degree: 2%
 >如果您的公司過去曾購買Adobe Scenario Planner，則該公司已受保護。 Scenario Planner已無法購買。
 
 
-展開以檢視本文中功能的存取需求。
+展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -276,15 +276,15 @@ ht-degree: 2%
    <td> <p>[!DNL Adobe Workfront] 授權*</p> </td> 
    <td> <p>淺色或更高</p> 
    或
-   <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <p>[！UICONTROL Review]或更高版本</p> </td> 
   </tr>
 
 <td><p>存取層級設定</p> </td> 
-   <td> <p>[!UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> </td> 
+   <td> <p>[！UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>物件許可權 </p> </td> 
-   <td> <p>[!UICONTROL Manage]計畫的許可權</p>  </td> 
+   <td> <p>[！UICONTROL Manage]計畫的許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>

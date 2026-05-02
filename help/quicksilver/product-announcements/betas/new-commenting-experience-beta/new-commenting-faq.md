@@ -9,9 +9,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 5ce15530-0858-44a4-b928-779654310dee
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ## 是否可以搜尋或篩選註解？
 
-是。我們計畫推出未來搜尋評論的功能。
+是。 我們計畫推出未來搜尋評論的功能。
 
 ## 是否可以排序註解？
 

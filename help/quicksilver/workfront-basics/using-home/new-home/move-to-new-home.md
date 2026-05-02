@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 feature: Get Started with Workfront
 exl-id: cfb3de96-0710-44e9-a934-05877fa75b51
-source-git-commit: f5ffb83d2a9cab48a4ce623088e11e3e13d8f744
+source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1667'
 ht-degree: 5%
 
 ---
@@ -272,8 +272,8 @@ Workfront管理員可使用版面配置範本自訂「新首頁」中可用的Wi
 
 **訓練**
 
-* [在首頁教學課程中移除、新增及重新排列Widget](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
-* [Adobe Workfront中的Worker基礎知識](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
+* [在首頁教學課程中移除、新增及重新排列Widget](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
+* [Adobe Workfront中的工作者基礎知識](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
 
 >[!IMPORTANT]
 >
