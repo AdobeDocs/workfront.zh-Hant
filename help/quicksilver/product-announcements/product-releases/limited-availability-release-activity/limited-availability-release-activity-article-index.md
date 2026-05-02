@@ -8,13 +8,13 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 7dca87a4f73fed9597f2a623b969569aa03cf5b3
+exl-id: 1f24affa-1d3a-4bbf-a044-f8e5ca98b0e2
+source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 1%
 
 ---
-
 
 # Adobe Workfront可用性限制功能發行活動：文章索引
 
@@ -34,5 +34,3 @@ ht-degree: 1%
 
 * 2026
    * [Adobe Workfront的2026年第一季度發行活動可用性限制](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
-
-

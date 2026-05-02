@@ -10,9 +10,9 @@ hide: true
 exl-id: 5767ef7d-1bc3-40d8-abeb-02b15166a0a3
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1068'
 ht-degree: 1%
 
 ---
@@ -118,7 +118,7 @@ ht-degree: 1%
 
 +++在Beta版期間，如果Reporting Canvas發生問題，我組織的資料是否會受到影響？
 
-否。測試版使用填入報告畫布的組織資料副本。 這表示您可以在Beta版期間安全地實驗，而不會影響重要資料，也表示在正式推出之前，將無法在Reporting Canvas中線上編輯資料。
+否。 測試版使用填入報告畫布的組織資料副本。 這表示您可以在Beta版期間安全地實驗，而不會影響重要資料，也表示在正式推出之前，將無法在Reporting Canvas中線上編輯資料。
 +++
 
 +++加入Beta版後我可以選擇退出嗎？

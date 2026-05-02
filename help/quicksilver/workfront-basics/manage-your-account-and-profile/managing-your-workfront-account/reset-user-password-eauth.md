@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '197'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 1%
 1. 選取需要重設密碼的&#x200B;**[!UICONTROL 使用者]**。
    ![選取使用者](assets/100520classicnweselectuser-350x105.png)
 
-1. 在您選擇想要的&#x200B;**[!UICONTROL 使用者]後，請按一下顯示的**&#x200B;更多&#x200B;**[!UICONTROL 按鈕]**，然後從下拉式功能表中選取&#x200B;**[!UICONTROL 傳送忘記密碼電子郵件]**&#x200B;選項。
+1. 在您選擇想要的&#x200B;**[!UICONTROL 使用者]**&#x200B;後，請按一下顯示的&#x200B;**[!UICONTROL 更多]按鈕**，然後從下拉式功能表中選取&#x200B;**[!UICONTROL 傳送忘記密碼電子郵件]**&#x200B;選項。
 
    ![傳送忘記密碼電子郵件](assets/100520classicnwesendemail-350x134.png)
 

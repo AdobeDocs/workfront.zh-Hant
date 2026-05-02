@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
 workflow-type: tm+mt
-source-wordcount: '1357'
+source-wordcount: '1477'
 ht-degree: 0%
 
 ---
@@ -143,7 +143,7 @@ Adobe提供開放原始碼CLI，可用來協助建立App Builder應用程式。 
 1. 編輯擴充功能註冊元件
 
    1. 開啟`src/workfront-doc-details-1/web-src/src/components/ExtensionRegistration.js`。
-   1. 在方法區段中，新增包含非同步函式`secondaryNav`的函式`getButtons`。
+   1. 在方法區段中，新增包含非同步函式`getButtons`的函式`secondaryNav`。
    1. `getButtons`應該會收到具有以下結構的物件：
 
       ```
@@ -187,7 +187,7 @@ Adobe提供開放原始碼CLI，可用來協助建立App Builder應用程式。 
       ```
 
 1. 存取檔案詳細資訊
-   1. 在您的應用程式中實作提供的函式`document.getDocumentDetails`，以擷取必要的檔案細節。 此函式擷取包含`docId`和`docvId`的物件，以及具有`sharedContext`、`hostname`和驗證詳細資料的`protocol`物件。 請確定您的應用程式可正確處理這些資料。
+   1. 在您的應用程式中實作提供的函式`document.getDocumentDetails`，以擷取必要的檔案細節。 此函式擷取包含`docId`和`docvId`的物件，以及具有`hostname`、`protocol`和驗證詳細資料的`sharedContext`物件。 請確定您的應用程式可正確處理這些資料。
 
 1. 在您的元件中整合資料擷取
    1. 將新元件新增至應用程式的元件資料夾。 在此元件中，建立與Workfront的連線，以使用與主機應用程式建立的連線來擷取檔案資訊和驗證資料。 以下是如何建構元件以處理此問題的範例：
@@ -237,7 +237,7 @@ Adobe提供開放原始碼CLI，可用來協助建立App Builder應用程式。 
 
 1. 修訂擴充功能註冊元件
    1. 找到並開啟名為`ExtensionRegistration.js`的檔案。
-   1. 在方法區段中，新增包含非同步函式`secondaryNav`的函式`getButtons`。
+   1. 在方法區段中，新增包含非同步函式`getButtons`的函式`secondaryNav`。
    1. `getButtons`應該會收到具有以下結構的物件：
 
       ```
@@ -281,7 +281,7 @@ Adobe提供開放原始碼CLI，可用來協助建立App Builder應用程式。 
       ```
 
 1. 存取檔案詳細資訊
-   1. 在您的應用程式中實作提供的函式`document.getDocumentDetails`，以擷取必要的檔案細節。 此函式擷取包含`docId`和`docvId`的物件，以及具有`sharedContext`、`hostname`和驗證詳細資料的`protocol`物件。 請確定您的應用程式可正確處理這些資料。
+   1. 在您的應用程式中實作提供的函式`document.getDocumentDetails`，以擷取必要的檔案細節。 此函式擷取包含`docId`和`docvId`的物件，以及具有`hostname`、`protocol`和驗證詳細資料的`sharedContext`物件。 請確定您的應用程式可正確處理這些資料。
 
 1. 在您的元件中整合資料擷取
    1. 將新元件新增至應用程式的元件資料夾。 在此元件中，建立與Workfront的連線，以使用與主機應用程式建立的連線來擷取檔案資訊和驗證資料。 以下是如何建構元件以處理此問題的範例：

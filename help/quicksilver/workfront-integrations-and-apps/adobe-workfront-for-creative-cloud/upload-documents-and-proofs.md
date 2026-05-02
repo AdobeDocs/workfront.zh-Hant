@@ -9,9 +9,9 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 hide: true
 hidefromtoc: true
 exl-id: 88870441-8895-477c-9409-f2c33654545a
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -49,9 +49,9 @@ ht-degree: 0%
 
    <table>
     <tr>
-    <td><strong>PDF和PDF列印</strong>
+    <td><strong>PDF和PDF-PRINT</strong>
     </td>
-    <td>取消選取<strong>建立單獨的PDF檔案</strong>。
+    <td>取消選取<strong>建立個別的PDF檔案</strong>。
     </td>
     </tr>
     <tr>
@@ -63,7 +63,7 @@ ht-degree: 0%
     </td>
     </tr>
     <tr>
-    <td><strong>EPUB和EPUB固定</strong>
+    <td><strong>EPUB和EPUB — 已修正</strong>
     </td>
     <td>不需要調整。
     </td>

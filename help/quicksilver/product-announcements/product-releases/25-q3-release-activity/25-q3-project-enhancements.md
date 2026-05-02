@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '913'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 我們已更新在新的請求體驗中提出請求時的體驗。
 
 * 可用的請求表單和路徑會出現在清單中，而不是卡片上。 最近一次出現在頂端附近的區段中。
-* 所有請求表單(包括Workfront和Workfront Planning請求表單)都會顯示在清單中。 之前，只顯示前50個。
+* 所有請求表單（包括Workfront和Workfront Planning請求表單）都會顯示在清單中。 之前，只顯示前50個。
 * 請求路徑和請求表單會列在個別的區段中，包括最近使用的區域及下方較大型的清單中。
 * 當您搜尋請求佇列時，清單會篩選以僅顯示包含搜尋字詞的表單和路徑。 每個顯示的請求表單或路徑都會反白顯示搜尋字詞。
 
@@ -54,12 +54,12 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >根據記錄時數的時間，專案、任務或問題的實際時數與舊版實際時數之間可能會出現差異。<br>
->&#x200B;>存在下列情況：
+>存在下列情況：
 >
 >* 實際時數代表自2021年5月起為專案、任務和問題記錄的時數。
 >* 舊版實際時數代表專案、任務或問題存留期內的專案、任務或問題記錄時數。 這包括在2021年5月之前記錄到目前時間的小時數。
->  &#x200B;><br>您可能需要更新報告以反映新欄位及其值。
->  &#x200B;><br>Workfront使用舊版實際時數來計算實際勞力成本。
+><br>您可能需要更新報告以反映新欄位及其值。
+><br>Workfront使用舊版實際時數來計算實際勞力成本。
 
 如需詳細資訊，請參閱[檢視實際時數](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md)。
 
