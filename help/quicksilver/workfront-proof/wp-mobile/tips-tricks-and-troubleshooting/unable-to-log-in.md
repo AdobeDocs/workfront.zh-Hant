@@ -2,11 +2,10 @@
 title: 無法登入 [!DNL Workfront Proof] 行動應用程式
 description: 疑難排解登入Workfront Proof行動應用程式的疑難問題。
 hide: true
-hidefromtoc: true
 exl-id: c6c52365-dbfe-481f-953c-6c70af6af46d
-source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---

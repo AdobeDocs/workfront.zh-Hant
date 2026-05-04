@@ -7,9 +7,8 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 hide: true
-hidefromtoc: true
 exl-id: 5ce15530-0858-44a4-b928-779654310dee
-source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 0%

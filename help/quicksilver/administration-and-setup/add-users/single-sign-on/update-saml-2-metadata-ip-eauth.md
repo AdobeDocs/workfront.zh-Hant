@@ -6,9 +6,8 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 55d7d8a8-0dfe-45bc-a23a-47111347e9ca
 hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 2%
@@ -78,7 +77,7 @@ Okta是支援SAML 2.0的身分提供者範例。 本節說明如何使用Okta作
 
 1. 在&#x200B;**建立新應用程式整合對話方塊**&#x200B;中，選取&#x200B;**SAML 2.0**，然後按一下&#x200B;**建立**。
 
-1. 為您的Workfront應用程式指定名稱，然後按一下[下一步]。**&#x200B;**
+1. 為您的Workfront應用程式指定名稱，然後按一下[下一步]。****
 1. 在顯示的「SAML設定」頁面中，找到「SAML設定」頁面所需的資訊：
 
    1. 無需離開顯示Okta介面的瀏覽器標籤，即可開啟個別的瀏覽器標籤或視窗。

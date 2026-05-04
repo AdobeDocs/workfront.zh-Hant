@@ -6,10 +6,9 @@ description: 您可以在檔案詳細資訊中安裝AppBuilder
 author: Courtney
 feature: Work Management, Digital Content and Documents
 hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
 source-wordcount: '1477'
 ht-degree: 0%
@@ -49,7 +48,7 @@ ht-degree: 0%
 
 1. 新增使用者的電子郵件。 它應該搜尋已從Admin Console中新增的現有使用者。
 
-1. 將必要的產品新增至開發人員設定檔，然後按一下[儲存]。**&#x200B;**
+1. 將必要的產品新增至開發人員設定檔，然後按一下[儲存]。****
 
 ![新增開發人員](assets/add-developer.png)
 

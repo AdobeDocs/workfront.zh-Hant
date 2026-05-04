@@ -2,11 +2,10 @@
 title: Workfront Proof行動應用程式
 description: 瞭解Workfront Proof行動應用程式。
 hide: true
-hidefromtoc: true
 exl-id: 865019d7-55b4-4d53-93aa-1370d153916e
-source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1352'
 ht-degree: 0%
 
 ---
@@ -41,7 +40,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->由於行動裝置的軟體限制，無法檢閱iOS裝置上的SWF檔案或音訊檔案（例如MP3）。 如果您想要檢閱從行動裝置上的SWF檔案或音訊檔案建立的校訂，請先將其轉換為支援的格式，然後再上傳至[!DNL Workfront Proof]。
+>由於行動裝置的軟體限制，因此無法檢閱SWF檔案或音訊檔案，例如iOS裝置上的MP3。 如果您想要檢閱從SWF檔案或行動裝置上的音訊檔案建立的校訂，請先將其轉換為支援的格式，然後再上傳至[!DNL Workfront Proof]。
 
 ## 應用程式快速入門
 

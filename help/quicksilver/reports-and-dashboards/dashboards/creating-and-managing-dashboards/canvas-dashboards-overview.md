@@ -1,11 +1,10 @@
 ---
 title: Canvas儀表板概觀
 description: 您可以建立整合報告畫布視覺效果與傳統報告並具備新版面配置選項的畫布控制面板。
-hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 0%
