@@ -3,14 +3,16 @@ title: 隱藏測試
 description: 隱藏測試
 hide: true
 exl-id: b6b0f429-b619-4b8e-ab81-ad190dae5a0b
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+source-git-commit: 25c6a73ca1f7580606a361c93a7c10d2f01271c2
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '617'
 ht-degree: 19%
 
 ---
 
 # 隱藏測試
+
+5月4日
 
 用來測試大型存放庫中的發佈時間的隱藏檔案。
 
