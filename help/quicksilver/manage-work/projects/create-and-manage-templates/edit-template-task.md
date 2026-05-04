@@ -9,9 +9,9 @@ feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
+source-git-commit: 62d7144f808e7937f11c11ccff64e409c76f2197
 workflow-type: tm+mt
-source-wordcount: '3008'
+source-wordcount: '3062'
 ht-degree: 6%
 
 ---
@@ -123,13 +123,19 @@ Old:
 1. 若要編輯範本任務的有限資訊，請執行下列動作：
    1. （選擇性）按一下左側面板中的&#x200B;**更新**，將更新新增至範本任務。 使用範本建立專案時，範本任務更新未轉移到專案任務。
    1. （選擇性）按一下左側面板中的&#x200B;**檔案**，將檔案新增至範本工作。 當您使用範本建立專案時，檔案將傳輸到專案任務。
+
+      >[!TIP]
+      >
+      >根據您的組織使用Workfront或Adobe儲存空間來儲存檔案，將檔案新增至範本任務會有所不同。 如需詳細資訊，請參閱[從您的檔案系統新增檔案至Adobe Workfront](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md)。
+
    1. （視條件而定）若要編輯範本任務的有限資訊，請按一下左側面板中的&#x200B;**範本任務詳細資訊**，然後移至[詳細資訊]區段的區域以編輯每個區域的資訊。
    1. （可選）執行下列任一項作業：
       * 按一下&#x200B;**全部收合**&#x200B;圖示![全部收合圖示](assets/collapse-all-icon.png)以收合所有區域。
       * 按一下&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)，然後從下列任何區域選取，或按一下&#x200B;**編輯全部**&#x200B;以編輯所有區域的資訊：
 
+
          * 概觀
-         * 自訂Forms
+         * 自訂表單
 只有當範本任務附加了自訂表單時，才會顯示自訂表單的名稱。
          * 財務
 
@@ -172,7 +178,7 @@ Old:
 
 
 1. 如上所述，開始編輯範本任務。
-1. 在[編輯範本任務]方塊中，按一下[範本任務名稱] **&#x200B;**&#x200B;並新增範本任務的名稱。
+1. 在[編輯範本任務]方塊中，按一下[範本任務名稱] ****&#x200B;並新增範本任務的名稱。
 
    大量編輯範本任務時，此檢視不可用。
 
@@ -543,7 +549,7 @@ Old:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>核准流程</strong> </td> 
-      <td> <p>選取您要與範本任務關聯的核准流程。 您的Workfront管理員必須定義系統層級任務核准流程，您才能將其與範本任務建立關聯。 <span>擁有核准程式管理存取許可權的使用者也可以建立群組特定的核准程式。</span>如需建立核准流程的詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">建立工作專案的核准流程</a>。</p> <p>新增核准程式時，請考量下列事項： </p> 
+      <td> <p>選取您要與範本任務關聯的核准流程。 您的Workfront管理員必須定義系統層級任務核准流程，您才能將其與範本任務建立關聯。 <span>具有核准程式之系統管理存取權的使用者也可以建立群組特定的核准程式。</span> 如需建立核准流程的詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">建立工作專案的核准流程</a>。</p> <p>新增核准程式時，請考量下列事項： </p> 
        <ul> 
        <li>清單中只會顯示有效的核准流程。 </li> 
        <li> <p>系統範圍及群組特定的核准程式會顯示在清單中。 與範本以外的群組相關聯的核准程式不會顯示在清單中。</p> <p>重要：如果與範本關聯的群組變更，群組特定核准流程會變成單一使用核准流程。 如需關於專案群組的變更或核准程式變更如何影響核准設定的詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">群組和核准程式變更如何影響指派的核准程式</a>。 </p> </li> 
@@ -603,6 +609,11 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 1. To edit limited information about the template task, do the following: 
    1. (Optional) Click **Updates** in the left panel to add updates to the template task. Template task updates do not transfer to project tasks when the template is used to create a project.
    1. (Optional) Click **Documents** in the left panel to add documents to the template task. The documents will transfer to the project tasks when you use the template to create the project. 
+
+      >[!TIP]
+      >
+      >Adding documents to a template task differs depending on whether your organization uses Workfront or Adobe storage to store documents. For information, see [Add documents to Adobe Workfront from your file system](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md). 
+      
    1. (Conditional) To edit limited information about a template task, click **Template Task Details** in the left panel, then go to the areas of the Details section to edit information for each area.
    1. (Optional) Do any of the following: 
       * Click the **Collapse all** icon ![Collapse all icon](assets/collapse-all-icon.png) to collapse all areas. 
