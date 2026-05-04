@@ -2,11 +2,10 @@
 title: 適用於平板電腦的Workfront Proof行動應用程式
 description: ' [!DNL Workfront Proof] 平板電腦應用程式可讓您在旅途中方便地檢閱及核准您的校樣。 應用程式可供所有人下載，您不必是 [!DNL Workfront Proof] 使用者就能檢閱平板電腦或手機上的校樣。'
 hide: true
-hidefromtoc: true
 exl-id: 7a3f1d96-103d-41cf-8470-3fc69e4bd507
-source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '1982'
+source-wordcount: '1995'
 ht-degree: 0%
 
 ---
@@ -143,8 +142,8 @@ ht-degree: 0%
 
    | **[!UICONTROL 醒目提示]** | 反白文字並複製到註解方塊中。 |
    |---|---|
-   | **[!UICONTROL 取代]** | 將[[!UICONTROL REPLACE]]和[[!UICONTROL WITH]]與文字一起新增至註解方塊，讓您更輕鬆地建議取代文字。 |
-   | **[!UICONTROL 刪除]** | 刪除文字並將[DELETE]新增至註解方塊。 |
+   | **[!UICONTROL Replace]** | 將[[!UICONTROL REPLACE]]和[[!UICONTROL WITH]]與文字一起新增至註解方塊，讓您更輕鬆地建議取代文字。 |
+   | **[!UICONTROL 刪除]** | 撥動文字並將[DELETE]新增至註解方塊。 |
    | **[!UICONTROL 插入到]**&#x200B;之後 | 將[INSERT AFTER]加入註解方塊。 |
 
    {style="table-layout:auto"}
@@ -186,7 +185,7 @@ ht-degree: 0%
 1. 若要變更您要比較的版本，請使用頁面頂端的版本下拉式清單。
 1. 若要從相同資料夾中選取不同的校訂，請使用資料夾瀏覽器（可在頁面頂端的資料夾圖示）。
 
-   ![version_dropdowns.png](assets/version-dropdowns-350x265.png)
+   ![version_dropdows.png](assets/version-dropdowns-350x265.png)
    ![folder_browser.png](assets/folder-browser-350x269.png)
 比較工具可讓您並排比較版本，以檢查是否已進行要求的變更。 如果您解除鎖定導覽，您將能夠比較兩個版本的不同頁面。
 
@@ -213,7 +212,7 @@ ht-degree: 0%
 | 儀表板 | 帶您返回行動應用程式儀表板。 |
 |---|---|
 | **[!UICONTROL 工作流程]** | 顯示稽核階段的詳細資訊，以及稽核者清單、其截止日期、進度列、決定以及評論和回覆的數目。 |
-| **[!UICONTROL 詳細資料]** | 顯示校樣、其他共用選項和活動稽核軌跡的相關資訊。 |
+| **[!UICONTROL 詳細資訊]** | 顯示校樣、其他共用選項和活動稽核軌跡的相關資訊。 |
 | **[!UICONTROL 共用]** | 顯示校訂URL和內嵌程式碼。 |
 | **[!UICONTROL 通知]** | 可讓您更新目前檢閱之校訂上的電子郵件警示。 這不會變更您的預設設定。 |
 | **[!UICONTROL 鎖定]** | 可讓您鎖定校訂。 您需要具有校訂的編輯許可權才能看到此選項。 |

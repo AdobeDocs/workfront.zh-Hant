@@ -1,12 +1,11 @@
 ---
 title: 增強型驗證概述
 description: 在搜尋和左側導覽中隱藏
-hidefromtoc: true
 hide: true
 feature: System Setup and Administration
 role: Admin
 exl-id: bf3c6c6f-ddd5-42d0-9efe-b5eb94549f85
-source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 4%

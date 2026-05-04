@@ -5,10 +5,9 @@ title: 從舊版首頁移至新首頁
 description: 舊版首頁將於2017年第4季版本中從Workfront移除。 本文提供新首頁將可使用哪些功能的相關資訊，以及將使用者移至「新首頁」體驗的建議。
 author: Courtney
 hide: true
-hidefromtoc: true
 feature: Get Started with Workfront
 exl-id: cfb3de96-0710-44e9-a934-05877fa75b51
-source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
 source-wordcount: '1667'
 ht-degree: 5%

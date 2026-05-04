@@ -5,9 +5,8 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: true
-hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 0%

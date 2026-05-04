@@ -6,9 +6,8 @@ description: 為您的 [!DNL Workfront] 環境啟用增強式驗證(eAuth)時，
 author: Courtney
 feature: Get Started with Workfront
 hide: true
-hidefromtoc: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
-source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 1%

@@ -6,10 +6,9 @@ description: 您可以在檔案詳細資訊中安裝AppBuilder
 author: Courtney
 feature: Work Management, Digital Content and Documents
 hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
 source-wordcount: '1477'
 ht-degree: 0%

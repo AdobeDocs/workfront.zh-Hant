@@ -5,9 +5,8 @@ description: Adobe Workfront將所有數位體驗(DX)產品整合在稱為Experi
 author: Courtney
 feature: Get Started with Workfront
 hide: true
-hidefromtoc: true
 exl-id: 5efa1912-e827-42ef-8001-4de63a63a6c4
-source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
