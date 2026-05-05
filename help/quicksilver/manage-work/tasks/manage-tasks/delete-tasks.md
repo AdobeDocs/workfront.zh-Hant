@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '830'
 ht-degree: 5%
 
 ---
@@ -109,6 +109,8 @@ Old:
    * 文件
 
   您不能刪除附加了已出庫檔案的任務。 如需簽出檔案的詳細資訊，請參閱[簽出檔案](../../../documents/managing-documents/check-out-documents.md)。
+
+  您無法還原從[資源回收筒]的[檔案]索引標籤刪除任務時刪除的個別檔案。 您只能在您恢復任務時，恢復任務被刪除時刪除的檔案。
 
    * 問題
    * 子任務
