@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: e6aa40917f2e4421c84d2cc36e86187328c6f775
+source-git-commit: 2a08a1139664517b9ccf41121e8bb0dc686028ab
 workflow-type: tm+mt
-source-wordcount: '2714'
+source-wordcount: '2720'
 ht-degree: 1%
 
 ---
@@ -171,7 +171,7 @@ ht-degree: 1%
      </tr>
      <tr>
       <td>自動許可</td>
-      <td><p>開啟此選項可允許財務許可權自動來自公式中使用的欄位。 許可權定義會顯示在下方的「財務許可權型別」欄位中。</p><p>公式中所有欄位都需要存取權。 例如，如果在計算欄位中使用兩個欄位，其中一個已套用計費許可權，而另一個已套用成本許可權，則使用者必須具有檢視計費和成本費率的許可權才能檢視計算值。</p></td>
+      <td><p>開啟此選項可允許財務許可權自動來自公式中使用的欄位。 許可權定義會顯示在下方的「財務許可權型別」欄位中。</p><p>公式中所有欄位都需要存取權。 例如，如果計算欄位使用兩個欄位，一個具有計費許可權，一個具有成本許可權，使用者必須擁有檢視兩者的許可權才能檢視計算值。</p></td>
      </tr>
      <tr>
       <td>財務權限類型</td>
@@ -310,7 +310,7 @@ ht-degree: 1%
       >
       >您可以執行下列任一項作業，以取得計算的協助：
       > 
-      >* 將滑鼠停留在計算中的運算式上可檢視說明、如何使用的範例，以及文章&#x200B;**計算資料運算式概觀**&#x200B;中詳細資訊的[深入瞭解](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)連結。
+      >* 將滑鼠停留在計算中的運算式上可檢視說明、如何使用的範例，以及文章[計算資料運算式概觀](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)中詳細資訊的&#x200B;**深入瞭解**&#x200B;連結。
       >  ![運算式說明文字](assets/hover-expression-help-text.jpg)
       >* 使用顏色編碼來識別您新增的元件。 運算式會以藍色顯示，而欄位則會以綠色顯示。
       >  欄位運算式的![色彩](assets/colors-fields-expressions.jpg)

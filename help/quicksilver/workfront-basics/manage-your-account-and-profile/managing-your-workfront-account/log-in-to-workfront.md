@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
+source-git-commit: d6890caed6fea2ed696c0b07674f4014f0e293a4
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '222'
 ht-degree: 5%
 
 ---
@@ -19,11 +19,35 @@ ht-degree: 5%
 
 <!--Audited: 2024-->
 
+一個登入可用於Workfront和所有Adobe CX Enterprise應用程式。
+
+如需詳細資訊，請參閱[CX Enterprise介面和管理](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/experience-cloud)。
+
+## 存取[!DNL Workfront]
+
+登入CX Enterprise後，按一下頂端導覽區中的組織切換器，即可檢視您有權存取的所有[!DNL Workfront]組織和環境。 選取您要使用的[!DNL Workfront]組織或環境。 如果您的組織使用[!UICONTROL 預覽]和[!UICONTROL 沙箱]等環境。
+
+![檢視[!DNL Workfront]組織和環境](assets/wf-org-instance-switcher-2026.png)
+
+>[!NOTE]
+>
+>第一次登入CX Enterprise時，組織會預設為字母清單中的第一個組織。 下次登入時，組織會預設為您上次造訪的組織。
+
+[!DNL Workfront]會出現在您可存取的CX Enterprise產品清單中。 您可以在CX Enterprise首頁上的快速存取功能表中選擇[!DNL Workfront]，或使用產品切換器![產品切換器](assets/main-menu-icon.png)隨時變更應用程式。
+
+![選取[!DNL Workfront]以存取應用程式](assets/cx-enterprise-home-2026.png)
+
+>[!NOTE]
+>
+>如果您已開啟Workfront的頁面中的瀏覽器分頁工作階段到期，且另一個瀏覽器分頁中有作用中的Workfront工作階段，您可以重新載入過期的分頁以重新開啟Workfront頁面。
+
+<!--
 >[!IMPORTANT]
 >
->此頁面上說明的程式已移除，因為它僅適用於尚未上線至Adobe Admin Console的組織。
+>The procedure described on this page has been removed because it applied only to organizations that were not yet onboarded to the Adobe Admin Console. 
 >
->所有Workfront組織現在都已上線Adobe Admin Console。
+>All Workfront organizations have now been onboarded to the Adobe Admin Console.
+-->
 
 <!--DELETE ME MARCH 2026-->
 
