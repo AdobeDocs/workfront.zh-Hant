@@ -8,9 +8,9 @@ feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 500bf31ff0cff309cb0cdda063503abb297f858c
 workflow-type: tm+mt
-source-wordcount: '2592'
+source-wordcount: '2636'
 ht-degree: 1%
 
 ---
@@ -122,7 +122,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Dropbox會根據檔案路徑來儲存檔案。 因此，如果從Dropbox連結的檔案遭到移動、重新命名或刪除，就無法在Workfront中存取。
+>* Dropbox會根據檔案路徑來儲存檔案。 因此，如果從Dropbox連結的檔案遭到移動、重新命名或刪除，就無法在Workfront中存取。
+>* 不支援在檔案選擇器中瀏覽共用的OneDrive資料夾。 若要連結已與您共用的檔案，請使用OneDrive檔案選擇器中的搜尋列，依名稱尋找檔案，然後選取它以將其新增至Workfront。
+
 
 1. 移至Workfront中您想要檔案的&#x200B;**檔案**&#x200B;區域。
 1. 按一下「新增&#x200B;**」**，然後按一下您要將檔案連結至Workfront的外部檔案提供者。
