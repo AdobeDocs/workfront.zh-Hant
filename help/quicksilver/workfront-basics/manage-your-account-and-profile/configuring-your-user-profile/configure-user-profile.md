@@ -8,14 +8,30 @@ author: Becky
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 1a64a148-529c-4c66-9ee8-fbfa205b0a67
-source-git-commit: ccaf637601c53e5d92dd3357fb07e84b5fd69166
+source-git-commit: d6890caed6fea2ed696c0b07674f4014f0e293a4
 workflow-type: tm+mt
-source-wordcount: '36'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
 
 # 設定您的使用者設定檔
+
+您可以按一下頂端導覽區域中的Adobe帳戶選單（您的設定檔圖片），存取您的設定檔和偏好設定選項。
+
+![設定檔功能表](assets/unified-shell-profile-menu-2026.png)
+
+此功能表可讓您：
+
+* 選擇[!DNL CX Enterprise]的&#x200B;**[!UICONTROL 深色佈景主題]**&#x200B;格式。
+* 設定[!DNL CX Enterprise]的&#x200B;**[!UICONTROL 偏好設定]**，包括主要和次要語言偏好設定。
+
+  >[!NOTE]
+  >
+  >您的日期設定是以您的主要語言設定為基礎。 例如，選取&#x200B;**英文（美國）**&#x200B;會以MM/DD/YYYY格式顯示日期，而選取&#x200B;**英文（英國）**&#x200B;則會以DD/MM/YYYY格式顯示日期。
+
+* 存取您的&#x200B;**[!UICONTROL [!DNL Workfront]設定檔]**。 進入設定檔後，按一下&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![更多](assets/more-icon.png)，然後選取&#x200B;**[!UICONTROL 編輯]**。 如需設定檔的詳細資訊，請參閱[設定我的設定](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)。
+* **[!UICONTROL 登出]** CX Enterprise。
 
 本節包含下列文章：
 
