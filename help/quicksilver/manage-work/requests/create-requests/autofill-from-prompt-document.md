@@ -18,7 +18,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->若要使用此功能，您的組織必須符合使用Workfront AI Assistant的需求。 如需詳細資訊，請參閱[ AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
+>若要使用此功能，您的組織必須符合使用Workfront AI Assistant的需求。 如需詳細資訊，請參閱[&#x200B; AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
 
 AI表單填寫可協助您根據輸入的提示自動填寫請求欄位。 它也可以根據文字（例如電子郵件和已上傳的檔案）填寫欄位。 您可以在提交請求之前核准或拒絕這些建議。
 
@@ -94,7 +94,7 @@ Remove me October 2026
 >由AI支援的表單填寫功能會在組織層級啟用，並且無法針對特定使用者或存取層級啟用或停用。
 
 1. 按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![設定圖示](/help/_includes/assets/gear-icon-setup.png)。
-1. 按一下&#x200B;**系統**，然後在[系統]下，按一下[偏好設定]****。
+1. 按一下&#x200B;**系統**，然後在[系統]下，按一下[偏好設定]&#x200B;**&#x200B;**。
 1. 在AI偏好設定區段中，確定&#x200B;**啟用AI**&#x200B;已切換。
 1. 開啟&#x200B;**AI表單填滿**。
 1. 若要停用由AI提供支援的表單填寫，請關閉&#x200B;**AI表單填寫**。
