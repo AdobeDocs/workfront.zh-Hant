@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
+source-git-commit: abca776dd79dcb1b5ef7c59745719a0faee5c845
 workflow-type: tm+mt
-source-wordcount: '3890'
+source-wordcount: '3977'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Adobe企業儲存的主要優點包括：
 
 #### Frame.io檢視器中支援的檔案型別
 
-Frame.io檢視器支援所有常見的視訊、影像、音訊、PDF和MS® Office型別。 如需支援檔案的詳細清單，請參閱Frame.io[&#128279;](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的支援的檔案型別。
+Frame.io檢視器支援所有常見的視訊、影像、音訊、PDF和MS® Office型別。 如需支援檔案的詳細清單，請參閱Frame.io](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的[支援的檔案型別。
 
 #### Frame.io檢視器的存取與授權
 
@@ -102,6 +102,7 @@ Frame.io檢視器是所有Workfront檢閱和核准工作流程的預設檢視器
 * 如果程式和專案屬於相同的投資組合，則不能有相同的名稱。
 * 如果檔案屬於相同專案，則不能使用相同名稱。
 * 物件名稱不能包含下列任何特殊字元： \ / ： * ？ &quot; | &lt; >
+* 計畫、投資組合、專案、範本、任務、問題和檔案資料夾不能有以句點或空格結尾的名稱。
 * 物件名稱的上限為255個字元。
 
 考慮到這些限制，Workfront會視需要自動重新命名物件或檔案，以避免衝突。
@@ -175,7 +176,7 @@ Frame.io檢視器是所有Workfront檢閱和核准工作流程的預設檢視器
 
 * 必須在Adobe Unified Experience和Adobe企業儲存空間上啟用Workfront執行個體。
 
-* Workfront客戶必須使用V2 SKU （這可能需要合約事件，請聯絡您的Adobe客戶代表）。
+* Workfront客戶必須使用V2 Workfront SKU。 如果您的組織尚未使用V2 Workfront SKU，則需要與Adobe進行合約活動，才能將V2 Workfront SKU新增至您的合約。 請聯絡您的Adobe客戶代表。
 
 **我是否需要Frame.io授權才能使用此整合？**
 
@@ -193,13 +194,13 @@ Frame.io檢視器是所有Workfront檢閱和核准工作流程的預設檢視器
 
 **我需要做什麼才能取得存取權？**
 
-若要存取統一的檢閱和核准，您的組織必須使用Workfront V2 SKU。 如果您目前不在V2 SKU上，這將需要與Adobe進行合約活動。 若要開始執行:
+若要存取統一的檢閱和核准，您的組織必須使用V2 Workfront SKU。 尚未使用V2 Workfront SKU的任何組織都必須與Adobe進行合約活動，才能新增V2 Workfront SKU。 若要開始執行:
 
-* 請聯絡您的Adobe客戶代表，確認您目前的Workfront計畫是否支援統一檢閱和核准。
+* 請聯絡您的Adobe客戶代表，確認您目前的Workfront合約是否採用V2 Workfront SKU。
 
-* 如果需要升級SKU，您的客戶代表將引導您完成合約程式。
+* 如果您的組織不是V2 Workfront SKU，您的客戶代表將引導您完成新增所需的合約事件。
 
-* 一旦您的帳戶使用正確的SKU後，Adobe Professional Services將為您的組織設定整合。
+* 一旦您的合約包含V2 Workfront SKU，Adobe Professional Services就會為您的組織設定整合。
 
    * 如果您不確定您的Adobe客戶代表是誰，可以透過Adobe支援入口網站聯絡或造訪Experience League以取得聯絡選項。
 
@@ -404,6 +405,8 @@ Adobe企業儲存的主要優點包括：
 
 * 程式、投資組合、專案、範本、任務、問題、檔案、檔案資料夾名稱不能包含下列特殊字元： `\ / : * ? " | < >`且限製為255個字元。
 
+* 方案、投資組合、專案、範本、任務、問題和檔案資料夾不能有以句點或空格結尾的名稱。
+
 Workfront會視需要自動重新命名物件或檔案，以避免衝突。
 
 **Frame.io檢視器支援哪些檔案型別？**
@@ -488,23 +491,23 @@ Frame.io是專為創意評論而建置，這表示它可處理行銷和創意團
 
 **我何時可以取得整合稽核和核准？**
 
-整合式檢閱和核准現在可供使用。 存取許可權需要升級至Workfront V2 SKU。 如果您的合約是在V2 SKU推出之前簽訂，您便可以透過下列兩種方式之一取得存取權：
+整合式檢閱和核准現在可供使用。 存取許可權需要V2 Workfront SKU。 如果您的合約是在V2 Workfront SKU推出之前簽訂，則新增V2 Workfront SKU需要與Adobe進行合約活動。 路徑有兩種：
 
-* 續約時：存取權將在您下次合約續約日期啟用。
+* 續約時：V2 Workfront SKU會於下次合約續約日期新增。
 
-* 提早重新合約：您的Adobe客戶團隊可以提早重新合約，在保留現有合約結束日期的同時，新增新的SKU權益。 移至同等套件時不會漲價。
+* 提早重新合約：您的Adobe客戶團隊可以提早重新合約，在保留現有合約結束日期的同時，新增V2 Workfront SKU權益。 移至同等套件時不會漲價。
 
 請聯絡您的Adobe客戶代表，為您的組織決定最佳路徑。
 
 <!--
 **Before we sign the contract, what changes will we see in Workfront?**
 
-Before signing the V2 SKU contract, your Workfront instance will continue to operate using the existing document and proofing experience. No unified review and approval features---such as the Frame.io viewer, Adobe enterprise storage, or multi-stage approval templates---will be available until the V2 SKU is contracted and Adobe Professional Services configures the integration for your organization.
+Before signing the V2 Workfront SKU contract, your Workfront instance will continue to operate using the existing document and proofing experience. No unified review and approval features---such as the Frame.io viewer, Adobe enterprise storage, or multi-stage approval templates---will be available until the V2 Workfront SKU is contracted and Adobe Professional Services configures the integration for your organization.
 -->
 
-**升級至V2 SKU能給我更多儲存空間嗎？**
+**升級至V2 Workfront SKU能給我更多儲存空間嗎？**
 
-是。 透過V2 SKU，每個獲授權的使用者可接收60 GB的儲存空間，而舊版為30 GB。
+是。 透過V2 Workfront SKU，每個獲授權的使用者可接收60 GB的儲存空間，而舊版為30 GB。
 
 **如何在Adobe企業儲存裝置與舊版Workfront儲存裝置之間進行選擇？**
 
@@ -516,7 +519,7 @@ Before signing the V2 SKU contract, your Workfront instance will continue to ope
 
 **如何管理Frame.io授權？**
 
-簽署V2 SKU後，所有Workfront使用者都可存取Frame.io檢視器以進行檢閱和核准工作流程，不需個別的Frame.io Enterprise授權。
+簽署V2 Workfront SKU後，所有Workfront使用者都可存取Frame.io檢視器以進行檢閱和核准工作流程，不需個別的Frame.io Enterprise授權。
 
 如果您的組織需要額外的Frame.io Enterprise功能，例如
 
