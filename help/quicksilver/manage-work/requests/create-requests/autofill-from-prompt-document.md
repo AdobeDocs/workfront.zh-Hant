@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: d8ccdeac9a658ca7a2862781e98c2c3c6fa0e8a0
+source-git-commit: da46d6784350c8394330799fe2177e82d3519041
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1463'
 ht-degree: 3%
 
 ---
@@ -93,7 +93,7 @@ Remove me October 2026
 >
 >由AI支援的表單填寫功能會在組織層級啟用，並且無法針對特定使用者或存取層級啟用或停用。
 
-1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![設定圖示](/help/_includes/assets/gear-icon-setup.png)。
+1. 按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![設定圖示](/help/_includes/assets/gear-icon-setup.png)。
 1. 按一下&#x200B;**系統**，然後在[系統]下，按一下[偏好設定]&#x200B;**&#x200B;**。
 1. 在AI偏好設定區段中，確定&#x200B;**啟用AI**&#x200B;已切換。
 1. 開啟&#x200B;**AI表單填滿**。

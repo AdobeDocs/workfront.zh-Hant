@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: e5fb42aa8d9eae17e1bddbd9832bdf064bc4605e
+source-git-commit: f177f0b678c8ac31241cb103d13ecd0f11cabd1e
 workflow-type: tm+mt
 source-wordcount: '3571'
 ht-degree: 0%
@@ -151,9 +151,9 @@ ht-degree: 0%
 
 使用下列條件時，只有當具有Resource Manager工作角色的使用者檢視表單時，才會顯示「需要資源」區段。
 
-```IF($$USER.{roleID}="123abc", true)```
+`IF($$USER.{roleID}="123abc", true)`
 
-請注意，```123abc```代表資源管理員的角色ID。
+請注意，`123abc`代表資源管理員的角色ID。
 
 針對角色![&#128279;](assets/advanced-display-on-form1.png)顯示的表單區段
 
@@ -161,7 +161,7 @@ ht-degree: 0%
 
 使用下列條件時，「售出的KPI」欄位只有在專案完成時才會顯示。 此邏輯會直接套用至欄位，而非表單區段。 不需要指定哪個角色可以檢視欄位，因為欄位所在的區段中已定義該角色。
 
-```IF({status}="CPL", true)```
+`IF({status}="CPL", true)`
 
 ![欄位在完整專案中可見](assets/advanced-display-on-form2.png)
 
