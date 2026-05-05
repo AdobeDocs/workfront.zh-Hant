@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '927'
 ht-degree: 3%
 
 ---
@@ -112,7 +112,7 @@ Old:
 * **當問題與請求佇列關聯時：**&#x200B;當您將問題移動到另一個物件且問題與請求佇列關聯時，移動的問題不再與原始佇列關聯，第一個問題源自此。
 * **當檔案附加到問題時：**&#x200B;當您將問題移動到另一個物件並且問題具有附加的檔案時，檔案、其版本和校樣也移動到新問題。 與檔案關聯的任何核准都不會移動。
 * **當問題連結至檔案或資料夾時：**&#x200B;當您移動具有連結至第三方服務（例如Google Drive）之檔案或資料夾的問題時，檔案的連結會隨著問題移動。
-* **當您在不同儲存體型別的專案之間移動問題時**：您無法將問題從Workfront儲存體專案複製到Adobe儲存體專案。 反之亦然。 並非所有客戶都有這兩種儲存型別。
+* **當您在不同儲存體型別的專案之間移動問題時**：您無法將問題從Workfront儲存體專案複製到Adobe儲存體專案。 反之亦然。 您的Workfront執行個體可能沒有這兩種型別的檔案儲存。
 
   如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 

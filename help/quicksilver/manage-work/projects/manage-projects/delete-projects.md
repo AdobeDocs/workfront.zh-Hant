@@ -9,9 +9,9 @@ exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1106'
 ht-degree: 3%
 
 ---
@@ -114,6 +114,8 @@ Old:
    * 文件
 
      您無法刪除具有已出庫之附加檔案的專案。 如需簽出檔案的詳細資訊，請參閱[簽出檔案](../../../documents/managing-documents/check-out-documents.md)。
+
+     您無法還原從資源回收筒的[檔案]索引標籤中刪除專案時刪除的個別檔案。 您只能在還原專案時還原刪除專案時刪除的檔案。
 
    * 任務
    * 子任務

@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a28adc22-825f-401e-9ed2-efddaa297b8d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1059'
 ht-degree: 3%
 
 ---
@@ -119,7 +119,7 @@ Old:
 * **當問題與請求佇列關聯時：**&#x200B;當您將問題複製到另一個物件且問題與請求佇列關聯時，複製的問題不再與第一個問題源自的原始佇列關聯。
 * **當檔案附加到問題時：**&#x200B;當您將問題複製到另一個物件且問題具有附加的檔案時，檔案及其版本也會移至新問題。 與檔案關聯的任何校訂或核准都不會移動。
 * **當問題連結至檔案或資料夾時：**&#x200B;當您複製具有連結至第三方服務（例如Google Drive）之檔案或資料夾的問題時，檔案連結會傳輸到已複製的問題。
-* **當您在不同儲存體型別的專案之間複製問題時**：您無法從Workfront儲存體專案將問題複製到Adobe儲存體專案。 反之亦然。 並非所有客戶都有這兩種儲存型別。
+* **當您在不同儲存體型別的專案之間複製問題時**：您無法從Workfront儲存體專案將問題複製到Adobe儲存體專案。 反之亦然。 您的Workfront執行個體可能沒有這兩種型別的檔案儲存。
 
   如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 

@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '5076'
+source-wordcount: '5112'
 ht-degree: 3%
 
 ---
@@ -337,7 +337,7 @@ Old:
 
 1. （選用）更新自訂表單上任何欄位中的資訊。 此資訊將會傳輸至將使用範本建立的專案。
 
-1. （選擇性）按一下自訂表單名稱右邊的&#x200B;**x**&#x200B;圖示，然後按一下[移除]&#x200B;**&#x200B;**&#x200B;以從範本中移除它。
+1. （選擇性）按一下自訂表單名稱右邊的&#x200B;**x**&#x200B;圖示，然後按一下[移除]****&#x200B;以從範本中移除它。
 
 1. （選擇性）根據您要修改的資訊，繼續編輯下列區段。
 
@@ -391,7 +391,7 @@ Old:
        </ul> 
        </div> <p>從下列選項中選取：<br></p> 
        <ul> 
-       <li> <p><strong>自動與開啟變更</strong> （預設設定）：每當專案或時間表所依存之其他專案中發生變更（開啟變更）時，未來專案時間表就會更新。 專案時間表也會每晚更新（自動）。<br>這是此欄位的建議設定，因為它可確保專案時間表隨時保持最新。<br>當您對觸發時間表重新計算的任務或專案執行動作時，所有可用日期會立即顯示，讓您繼續工作。 在具有100個以上任務的專案中，需要更長重新計算的日期會短暫顯示為問號（1到5秒之間，大型專案最多會顯示一分鐘）。 這表示重新計算尚未完成，日期可能會變更。<br></p> </li> 
+       <li> <p><strong>自動與開啟變更</strong> （預設設定）：每當專案或時間表所依存之其他專案中發生變更（開啟變更）時，未來專案時間表就會更新。 專案時間表也會每晚更新（自動）。<br>這是此欄位的建議設定，因為它可確保專案時間表永遠是最新的。<br>當您對觸發時間表重新計算的任務或專案執行動作時，所有可用日期會立即顯示，讓您繼續工作。 在具有100個以上任務的專案中，需要更長重新計算的日期會短暫顯示為問號（1到5秒之間，大型專案最多會顯示一分鐘）。 這表示重新計算尚未完成，日期可能會變更。<br></p> </li> 
        </ul> 
        <ul> 
        <li> <p><strong>僅變更</strong>：每次在專案或時間表所依存的其他專案中發生變更時，專案時間表都會更新。 如果變更很少發生在專案或時間表所依賴的其他專案中，您可能會想要選取此選項。<br></p> </li> 
@@ -420,7 +420,7 @@ Old:
        <td> <p>從下列選項中選取：<br></p> 
        <ul> 
        <li> <p><strong>手動</strong>：您必須在從這個範本建立的專案上手動平準資源（這是預設設定）</p> </li> 
-       <li> <p><strong>自動：</strong> Workfront會針對未來的專案提供資源層級。 <br>如需資源平準的詳細資訊，請參閱甘特圖<a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">中的</a>平準資源。 </p> </li> 
+       <li> <p><strong>自動：</strong> Workfront會針對未來的專案提供資源層級。 <br>如需資源平準的詳細資訊，請參閱甘特圖</a>中的<a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">平準資源。 </p> </li> 
        </ul> </td> 
        </tr> 
        <tr> 
@@ -439,7 +439,7 @@ Old:
        <td> <p>指定與範本關聯的資源集區。 資源集區是同時需要用來完成專案的使用者集合。 如需資源集區的詳細資訊，請參閱<a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref">資源集區概述</a>。</p> <p> <p><b>附註</b>
 
        當您大量編輯範本時，此欄位只會顯示所有選取範本共用的資源集區。 如果選取的範本沒有共用資源集區，此欄位將為空白。 您在此處指定的資源集區將會覆寫範本的個別資源集區。&lt;/p> &lt;/p> &lt;/td>
-       &lt;/tr>
+     &lt;/tr>
    
    <tr> 
       <td role="rowheader"><strong>此專案需要時間核准</strong></td>
@@ -531,7 +531,7 @@ Old:
 
    當停用此選項時，具有將問題新增至從範本建立的專案之許可權的使用者可以使用「新增問題」按鈕或與專案關聯的請求佇列來這樣做。
 
-   如需有關在專案上設定問題設定的詳細資訊，請參閱文章[編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md#issue)中的[問題設定](../../../manage-work/projects/manage-projects/edit-projects.md)區段。
+   如需有關在專案上設定問題設定的詳細資訊，請參閱文章[編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md)中的[問題設定](../../../manage-work/projects/manage-projects/edit-projects.md#issue)區段。
 
    如需有關在專案上建立問題的資訊，請參閱[建立問題](../../../manage-work/issues/manage-issues/create-issues.md)。
 
@@ -627,7 +627,7 @@ For instructions on editing Linked folders, see [Edit workflow values in a proje
 1. 在&#x200B;**編輯範本**&#x200B;方塊中，按一下&#x200B;**註解**。
 
    ![編輯範本方塊註解區段](assets/edit-template-box-comment-section.png)
-1. 新增您正在進行之更新的相關註解、標籤其他使用者，或選取&#x200B;**我的公司私有**&#x200B;方塊，讓貴公司的使用者無法存取更新，然後按一下[儲存]。**&#x200B;**
+1. 新增您正在進行之更新的相關註解、標籤其他使用者，或選取&#x200B;**我的公司私有**&#x200B;方塊，讓貴公司的使用者無法存取更新，然後按一下[儲存]。****
 
    >[!TIP]
    >
@@ -741,7 +741,7 @@ To edit templates in bulk:
 
 * 計費費率
 
-  為範本新增收費率與為專案新增收費率類似。 如需詳細資訊，請參閱專案層級[的](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)覆寫工作角色收費率。
+  為範本新增收費率與為專案新增收費率類似。 如需詳細資訊，請參閱專案層級](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)的[覆寫工作角色收費率。
 
 * 費用
 
@@ -761,6 +761,8 @@ To edit templates in bulk:
 您可以將下列專案新增至範本中的任務：
 
 * 文件
+
+  如需詳細資訊，請參閱[編輯範本任務](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md)。
 * 費用
 
   如需新增費用的詳細資訊，請參閱[管理專案費用](../../../manage-work/projects/project-finances/manage-project-expenses.md)。
@@ -772,7 +774,7 @@ To edit templates in bulk:
 
 ## 啟用或停用範本
 
-如果您希望使用者找不到範本並無法從中建立專案，您可以停用範本。 您無法將已停用的範本附加到專案，也無法使用它來建立專案。
+如果您希望使用者找不到範本並無法從範本建立專案，您可以停用範本。 您無法將已停用的範本附加到專案，也無法使用它來建立專案。
 
 已停用的範本不會影響使用它們建立的現有專案。
 

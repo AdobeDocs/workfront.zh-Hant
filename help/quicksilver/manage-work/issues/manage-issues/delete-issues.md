@@ -6,9 +6,9 @@ description: 如果您擁有正確的存取權和許可權，可以刪除Adobe W
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '797'
 ht-degree: 1%
 
 ---
@@ -78,6 +78,8 @@ Workfront管理員可以還原已刪除的問題。
 * 文件
 
   您無法刪除檔案已簽出並附加於其上的問題。 如需簽出檔案的詳細資訊，請參閱[簽出檔案](../../../documents/managing-documents/check-out-documents.md)。
+
+  您無法還原從資源回收筒的[檔案]索引標籤中刪除問題時已刪除的個別檔案。 您只能在您還原問題時還原在問題已刪除時刪除的檔案。
 
 * 附註
 * 核准

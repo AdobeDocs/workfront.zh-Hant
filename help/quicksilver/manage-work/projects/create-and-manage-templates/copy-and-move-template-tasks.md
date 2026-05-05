@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '2234'
+source-wordcount: '2239'
 ht-degree: 4%
 
 ---
@@ -108,7 +108,7 @@ Old:
 
    * 里程碑。
 
-* 您無法將範本任務從Workfront儲存範本複製或移動到Adobe儲存範本。 反之亦然。 並非所有客戶都有這兩種儲存型別。
+* 您無法將範本任務從Workfront儲存範本複製或移動到Adobe儲存範本。 反之亦然。 您的Workfront執行個體可能沒有這兩種型別的檔案儲存。
 
   如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
@@ -140,7 +140,7 @@ Old:
 
    >[!TIP]
    >
-   >您必須挑選具有類似檔案儲存型別的範本。 您無法將範本任務複製到儲存型別與原始範本不同的範本。 並非所有客戶都能存取多種檔案儲存型別。
+   >您必須挑選具有類似檔案儲存型別的範本。 您無法將範本任務複製到儲存型別與原始範本不同的範本。 您的Workfront執行個體可能沒有這兩種型別的檔案儲存。
    >
    >如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
@@ -267,7 +267,7 @@ Old:
    >
    >* 您也可以開始輸入「參照編號」或輸入範本的ID。 這可能會協助您區分具有相同名稱的範本。
    >
-   >* 您必須挑選具有類似檔案儲存型別的範本。 您無法將範本任務複製到儲存型別與原始範本不同的範本。 並非所有客戶都能存取多種檔案儲存型別。
+   >* 您必須挑選具有類似檔案儲存型別的範本。 您無法將範本任務複製到儲存型別與原始範本不同的範本。 您的Workfront執行個體可能沒有這兩種型別的檔案儲存。
    >
    >如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 

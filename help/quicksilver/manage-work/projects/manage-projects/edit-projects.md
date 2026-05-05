@@ -9,9 +9,9 @@ role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: d8a01839b8f1332741f87be766f3ccb7d08cef96
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '7859'
+source-wordcount: '8113'
 ht-degree: 1%
 
 ---
@@ -282,18 +282,26 @@ Old:
          <td> <p>指定選取<strong>從完成日期</strong>排程的日期。 </p> <p>當您選取<strong>從開始日期</strong>排程，此為唯讀欄位。<br></p> </td> 
       </tr> 
       <tr> 
-         <td role="rowheader"><strong>專案組合</strong></td> 
-         <td>指出專案所屬的Portfolio。 您必須先建立Portfolio，才能讓其出現在下拉式清單中。 只有作用中的專案組合可以與專案相關聯。 如需關於建立投資組合的詳細資訊，請參閱<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">建立投資組合</a>。
-         <p><b>附註</b></p>
-         <p>您必須擁有投資組合的管理許可權，才能在專案中新增或移除投資組合。</p>
+      <td role="rowheader"><strong>專案組合</strong></td> 
+      <td>指出專案所屬的Portfolio。 您必須先建立Portfolio，才能讓其出現在下拉式清單中。 只有作用中的專案組合可以與專案相關聯。 如需關於建立投資組合的詳細資訊，請參閱<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">建立投資組合</a>。
+      <p><b>附註</b></p>
+      <ul>
+      <li>您必須擁有投資組合的管理許可權，才能在專案中新增或移除投資組合。</li>
+      <li>如果貴組織同時使用Workfront和Adobe檔案儲存型別，便無法將Workfront儲存專案與Adobe儲存產品組合建立關聯。 反之亦然。 您的Workfront執行個體可能沒有這兩種型別的檔案儲存。</li></ul> 
+      如需詳細資訊，請參閱<a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">專案和相關物件的檔案管理概觀</a>。 
       </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>方案</strong></td> 
          <td> <p>如果您為專案選取了Portfolio，請為專案指定計畫。 部分投資組合可能沒有計畫。 您必須先建立程式，它才會顯示在此下拉式清單中。 只有作用中的方案才能與專案建立關聯。 </p> <p>如需建立程式的詳細資訊，請參閱<a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">建立程式</a>。</p> 
       <p><b>附註</b></p>
-         <p>您必須擁有計畫的管理許可權，才能在專案中新增或移除計畫。</p>   
-      </td> 
+      <ul>
+      <li>您必須擁有計畫的管理許可權，才能在專案中新增或移除計畫。</li>
+      <li>如果貴組織同時使用Workfront和Adobe檔案儲存型別，便無法將Workfront儲存專案與Adobe儲存方案建立關聯。 反之亦然。 您的Workfront執行個體可能沒有這兩種型別的檔案儲存。 程式會繼承其所屬產品組合的儲存型別。 </li></ul>
+
+   如需詳細資訊，請參閱<a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">專案和相關物件的檔案管理概觀</a>。
+
+   </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>群組</strong></td> 
@@ -568,7 +576,7 @@ Old:
       </tr> 
       <tr data-mc-conditions=""> 
        <td role="rowheader"><strong>核准流程</strong></td> 
-       <td> <p>選取您要與專案關聯的核准流程。 您的Workfront管理員必須定義系統層級的核准流程，您才能將其與專案建立關聯。 <span>擁有核准程式管理存取許可權的使用者也可以建立群組特定的核准程式。</span>如需建立核准流程的詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">建立工作專案的核准流程</a>。</p> <p>新增核准程式時，請考量下列事項： </p> 
+       <td> <p>選取您要與專案關聯的核准流程。 您的Workfront管理員必須定義系統層級的核准流程，您才能將其與專案建立關聯。 <span>具有核准程式之系統管理存取權的使用者也可以建立群組特定的核准程式。</span> 如需建立核准流程的詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">建立工作專案的核准流程</a>。</p> <p>新增核准程式時，請考量下列事項： </p> 
        <ul> 
        <li>清單中只會顯示有效的核准流程。 </li> 
        <li> <p>系統範圍及群組特定的核准程式會顯示在清單中。 與專案群組以外的群組相關聯的核准程式不會顯示在清單中。</p> <p>如果與專案相關聯的群組變更，群組特定的核准流程會變成單一使用的核准流程。 如需關於專案群組的變更或核准程式變更如何影響核准設定的詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">群組和核准程式變更如何影響指派的核准程式</a>。 </p> </li> <!--(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)-->
@@ -594,7 +602,7 @@ Old:
 
 您可以定義預設值，在將新任務新增至專案時，這些預設值將與所有新任務相關聯。
 
-如需這些設定如何影響建立新任務的詳細資訊，請參閱[建立任務概觀](../../../manage-work/tasks/create-tasks/create-tasks-overview.md#understa)一文中的[將任務新增至專案時的任務預設值](../../../manage-work/tasks/create-tasks/create-tasks-overview.md)一節。
+如需這些設定如何影響建立新任務的詳細資訊，請參閱[建立任務概觀](../../../manage-work/tasks/create-tasks/create-tasks-overview.md)一文中的[將任務新增至專案時的任務預設值](../../../manage-work/tasks/create-tasks/create-tasks-overview.md#understa)一節。
 
 1. 如上所述開始編輯您的專案。
 1. 按一下左側面板中的&#x200B;**工作設定**。
@@ -796,6 +804,10 @@ Old:
 
 * 當您選取屬於不同群組的多個專案時，「狀態」欄位中顯示的狀態是系統層級狀態，而不是群組層級狀態。
 
+* 當您選取多個具有不同型別檔案儲存的專案，並想要更新所選專案的Portfolio或方案時，您無法將Workfront儲存專案與Adobe儲存產品組合建立關聯。 反之亦然。 在此情況下，請確定您一次只選取具有類似儲存型別的專案。
+
+  您的Workfront執行個體可能沒有這兩種型別的檔案儲存。
+
 若要大量編輯專案：
 
 {{step1-to-projects}}
@@ -837,7 +849,7 @@ Old:
 
    當自訂表單已附加到某些所選專案時，表單名稱旁邊會顯示新增表單時已附加表單的專案數量。
 
-1. （選擇性）按一下自訂表單名稱右邊的&#x200B;**x**&#x200B;圖示，然後按一下[移除]&#x200B;**&#x200B;**，將其從所有選取的專案中移除。
+1. （選擇性）按一下自訂表單名稱右邊的&#x200B;**x**&#x200B;圖示，然後按一下[移除]****，將其從所有選取的專案中移除。
 
    >[!CAUTION]
    >
@@ -847,13 +859,13 @@ Old:
 
 1. 按一下&#x200B;**財務**，編輯所有選取專案的財務資訊。
 如需有關編輯財務區域的詳細資訊，請參閱本文章的[財務](#finance)小節。
-1. 按一下&#x200B;**專案設定**&#x200B;以編輯所有選取專案的設定。
+1. 按一下&#x200B;**專案設定**以編輯所有選取專案的設定。
 如需有關編輯[專案設定]區域的詳細資訊，請參閱本文中的[專案設定](#project-settings)小節。
 1. 按一下「**任務設定**」以編輯所有選定專案的任務設定。
 如需有關編輯[工作設定]區域的詳細資訊，請參閱本文中的[工作設定](#task-settings)小節。
-1. 按一下&#x200B;**問題設定**&#x200B;以編輯所有選定專案的問題設定。
+1. 按一下&#x200B;**問題設定**以編輯所有選定專案的問題設定。
 如需有關編輯問題設定區域的詳細資訊，請參閱本文中的[問題設定](#issue-settings)小節。
-1. 按一下&#x200B;**存取**&#x200B;以編輯所有選取專案的存取設定。
+1. 按一下&#x200B;**存取**以編輯所有選取專案的存取設定。
 如需有關編輯[存取]區域的詳細資訊，請參閱本文中的[存取](#access)一節。
 1. 按一下&#x200B;**註解**，然後在提供的空間新增註解。 Workfront在每個專案的&#x200B;**更新**&#x200B;區域新增註解。 如需更新工作的相關資訊，請參閱[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 1. （選擇性）若要移除您在「編輯專案」方塊中新增的任何資訊，請將游標移至已編輯的欄位上，然後按一下欄位右上角的&#x200B;**x**&#x200B;捨棄圖示。

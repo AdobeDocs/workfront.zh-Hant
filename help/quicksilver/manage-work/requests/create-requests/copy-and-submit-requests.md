@@ -8,9 +8,9 @@ topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1615'
+source-wordcount: '1734'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 # 複製並提交請求
 
 
-當您經常提交類似的請求時，可以複製現有的已提交請求。 在這種情況下，您可以複製現有請求、對請求進行最低限度的變更，然後將其作為新請求重新提交。
+經常提交類似請求時，可以複製現有的已提交請求。 在這種情況下，您可以複製現有請求、對請求進行最低限度的變更，然後將其作為新請求重新提交。 請求會提交至與原始請求相同的請求佇列。
 
 ## 存取權要求
 
@@ -232,16 +232,16 @@ ht-degree: 3%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span><strong>指派</strong></span> </td> 
-      <td> <p>指出請求應指派至之作用中使用者、工作角色或團隊的名稱。 </p> <p> 您可以指定多個使用者、工作角色或團隊。 </p> <p>根據請求佇列的設定方式，您或許只能將請求指派給一或兩種資源，而非全部三種。 </p> <p>建議您使用請求佇列的路由規則，讓請求佇列可自動路由至適當的資源。 </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader" colspan="2"> <p><p style="font-weight: normal;">視要求佇列的設定方式而定，您只能將一種資源型別指派給要求（例如使用者）。 如果路由規則也關聯到請求佇列，而且它會自動將請求路由到不同型別的資源（例如，小組），則您的請求會同時指派給提交請求時手動指定的實體（使用者）以及路由規則中指定的資源（小組）。</p> <p style="font-weight: normal;">如需詳細資訊，請參閱下列文章：</p> 
-        <ul> 
-         <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">建立請求佇列</a> </p> </li> 
-         <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">建立路由規則</a> <br> </p> </li> 
-        </ul> </p> </td> 
-     </tr> 
-     <tr> 
+      <td> <p>指出請求應指派至之作用中使用者、工作角色或團隊的名稱。 </p> <p> 您可以指定多個使用者、工作角色或團隊。 </p> <p>根據請求佇列的設定方式，您或許只能將請求指派給一或兩種資源，而非全部三種。 </p> <p>建議您使用請求佇列的路由規則，讓請求佇列可自動路由至適當的資源。 </p>
+      <p><p style="font-weight: normal;">視要求佇列的設定方式而定，您只能將一種資源型別指派給要求（例如使用者）。 如果路由規則也關聯到請求佇列，而且它會自動將請求路由到不同型別的資源（例如，專案團隊），則您的請求會同時指派給提交請求時手動指定的實體（使用者）以及路由規則中指定的資源（專案團隊）。</p> <p style="font-weight: normal;">如需詳細資訊，請參閱下列文章：</p> 
+      <ul> 
+      <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">建立請求佇列</a> </p> </li> 
+      <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">建立路由規則</a> <br> </p> </li> 
+      </ul> </p>
+       </td> 
+     </tr>
+
+   <tr> 
       <td role="rowheader"><strong>規劃時數</strong> </td> 
       <td> <p>預估完成此請求所需的時間。</p> </td> 
      </tr> 
@@ -261,8 +261,16 @@ ht-degree: 3%
       <td role="rowheader"><strong>文件</strong> </td> 
       <td> <p>將檔案新增至您的請求。 附加到原始請求的檔案不會轉移到複製的請求。</p> <p><b>秘訣</b>
 
-   視請求佇列的設定方式而定，檔案區段可能會顯示在自訂欄位之前或之後。</p> <p> </p> </td>
-   </tr> 
+   視請求佇列的設定方式而定，檔案區段可能會顯示在自訂欄位之前或之後。</p> <p> </p>
+   <p>根據您的Workfront管理員為您的環境選取的檔案儲存型別，附加至請求的檔案會新增至以下專案：</p>
+      <ul><li>對於使用Workfront儲存空間的請求，檔案會新增到新建立請求的檔案區段。</li>
+      <li>對於使用Adobe企業儲存空間的請求，檔案會新增至新建立的資料夾（名稱與請求相同），並在提交過程中自動新增至請求。 </li></ul>
+      <p>您的Workfront執行個體可能沒有這兩種型別的檔案儲存。</p>
+      <p>問題和請求儲存型別繼承自專案。 </p>
+      <p>如需詳細資訊，請參閱<a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">專案和相關物件的檔案管理概觀</a>。</p>
+
+   </td> 
+     </tr> 
     </tbody> 
    </table>
 

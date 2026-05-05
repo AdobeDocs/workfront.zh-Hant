@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1393'
 ht-degree: 1%
 
 ---
@@ -176,7 +176,7 @@ Old:
       >
       >* 當您使用Workfront儲存產品組合或方案中的Adobe企業儲存範本時，專案是Adobe企業儲存專案，而產品組合或方案也會轉換成Adobe企業儲存物件。 相同產品組合或方案下的所有其他Workfront儲存專案維持不變。
       >
-      > 並非所有客戶都有這兩種型別的檔案儲存。
+      > 您的Workfront執行個體可能沒有這兩種型別的檔案儲存。
       >
       >如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
@@ -234,7 +234,7 @@ Old:
 
 >[!NOTE]
 >
->與Workfront檔案儲存相關的範本會建立舊版Workfront儲存專案。 與Adobe企業檔案儲存相關的範本會建立Adobe儲存專案。 並非所有客戶都有這兩種儲存型別。
+>與Workfront檔案儲存相關的範本會建立舊版Workfront儲存專案。 與Adobe企業檔案儲存相關的範本會建立Adobe儲存專案。 您的Workfront執行個體可能沒有這兩種型別的檔案儲存。
 >
 >如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
