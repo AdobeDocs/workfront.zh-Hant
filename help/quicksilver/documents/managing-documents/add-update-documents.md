@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 3%
@@ -84,9 +84,9 @@ ht-degree: 3%
 
    如果您需要在校訂檢視器中輸入評論和回覆的相關資訊，請參閱[校訂上的評論](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md)。
 
-## 在新檔案區域新增檔案更新
+## 在新的檔案區域中新增檔案更新
 
-如果您的組織使用企業儲存空間，當您存取Workfront中的檔案時，將會看到新檔案區域。 如需企業儲存的詳細資訊，請參閱[Adobe企業儲存概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+如果您的組織使用企業儲存空間，當您存取Workfront中的檔案時，將會看到新的「檔案」區域。 如需企業儲存的詳細資訊，請參閱[Adobe企業儲存概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 1. 移至包含檔案的物件，然後在左側面板中選取&#x200B;**檔案**。
 1. 尋找您需要的檔案，然後按一下註解圖示![註解圖示](assets/new-doc-comment-icon.png)以開啟「註解」面板。

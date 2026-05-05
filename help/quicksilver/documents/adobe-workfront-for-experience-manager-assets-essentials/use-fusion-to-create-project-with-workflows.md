@@ -6,7 +6,7 @@ description: 如果您透過Workfront Fusion建立專案，並想在專案中加
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 8%
@@ -80,19 +80,19 @@ ht-degree: 8%
 
 在Workfront Fusion中，如果您想要建立包含Adobe Experience Manager工作流程的專案，必須使用「Workfront >其他動作」模組。
 
-1. Add the **Workfront** > **Misc Action** module to your scenario.
-1. In the **Connection** field, select the Workfront connection that connects to the account this module will use.
+1. 將&#x200B;**Workfront** > **其他動作**&#x200B;模組新增至您的情境。
+1. 在&#x200B;**連線**&#x200B;欄位中，選取連線至此模組將使用之帳戶的Workfront連線。
 
-   For instructions on creating a connection, see [Connect [!DNL Workfront] to [!DNL Workfront Fusion]](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) in the article Workfront modules.
+   如需建立連線的說明，請參閱Workfront模組一文中的[連線 [!DNL Workfront] 至 [!DNL Workfront Fusion]](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)。
 
-   For instructions on creating the Client ID and Client Secret you will need to create a connection, see [Create an OAuth application](#create-an-oauth-application) in this article.
+   如需建立使用者端ID和使用者端密碼的指示，您必須建立連線，請參閱本文中的[建立OAuth應用程式](#create-an-oauth-application)。
 
 1. 在&#x200B;**記錄型別**&#x200B;欄位中，選取`Issue`。
-1. In the **Action** field, select `convertToProject`.
-1. In the **ID** field, enter or map the ID of the issue that you are converting to a project.
-1. Enable **Show advanced settings**.
-1. Scroll to the bottom of the module and locate the **Project (Advanced Collection)** field.
-1. Paste the following text into the **Project (Advanced Collection)** field.
+1. 在&#x200B;**動作**&#x200B;欄位中，選取`convertToProject`。
+1. 在&#x200B;**ID**&#x200B;欄位中，輸入或對映您正在轉換至專案的問題識別碼。
+1. 啟用&#x200B;**顯示進階設定**。
+1. 捲動至模組底部，並找到&#x200B;**專案（進階集合）**&#x200B;欄位。
+1. 將下列文字貼到&#x200B;**專案（進階集合）**&#x200B;欄位中。
 
    ```
    {
@@ -103,59 +103,59 @@ ht-degree: 8%
    }
    ```
 
-1. Replace `Folder tree ID here` with the folder IDs.
+1. 以資料夾ID取代`Folder tree ID here`。
 
-   To locate folder tree IDs, see [Locate folder tree IDs](#locate-folder-tree-ids) in this article.
+   若要尋找資料夾樹狀目錄ID，請參閱本文中的[尋找資料夾樹狀目錄ID](#locate-folder-tree-ids)。
 
-   To use more than one folder tree, separate IDs with a comma:
+   若要使用多個資料夾樹狀結構，請使用逗號分隔ID：
 
    `"aemNativeFolderTreeIDs": ["Folder tree ID here","Second folder tree ID here"],`
-1. Replace `New project name here` with the name that the new project will have.
-1. Replace `Template ID here` with the ID of the template that you are using for the new project.
+1. 將`New project name here`取代為新專案將具有的名稱。
+1. 將`Template ID here`取代為您用於新專案的範本識別碼。
 
-   You can map the template ID from a previous module (such as a Workfront > Search module) or locate it in the URL of the template&#39;s page in Workfront.
+   您可以從先前的模組（例如「Workfront >搜尋模組」）對應範本ID，或在Workfront中範本頁面的URL中找到它。
 
-1. Click **OK** to save the module configuration.
+1. 按一下&#x200B;**確定**&#x200B;以儲存模組組態。
 
-## Locate folder tree IDs
+## 尋找資料夾樹狀目錄ID
 
-To locate the folder tree IDs:
+若要尋找資料夾樹狀結構ID：
 
 >[!NOTE]
 >
->These instructions use the Chrome browser.
+>這些指示會使用Chrome瀏覽器。
 
-1. In Workfront, open the template that you want to use for this project. This template must include the Adobe Experience Manager configuration that you want to use for the project.
-1. Open the developer tools for your browser.
-1. Open the **Network** tab in the developer tools.
-1. In the **Filter** box, enter `object-workflow`.
-1. In the Name column, click on the alphanumeric ID that appears.
+1. 在Workfront中，開啟您要用於此專案的範本。 此範本必須包含您想用於專案的Adobe Experience Manager設定。
+1. 開啟瀏覽器的開發人員工具。
+1. 在開發人員工具中開啟&#x200B;**網路**&#x200B;標籤。
+1. 在&#x200B;**篩選器**&#x200B;方塊中，輸入`object-workflow`。
+1. 在「名稱」欄中，按一下出現的英數ID。
 
-   ![Locating folder ID 1](assets/finding-folder-id-1.png)
+   ![尋找資料夾識別碼1](assets/finding-folder-id-1.png)
 
-1. Click the **Preview** tab to the right of the alphanumeric ID.
-1. Open the following collapsed sections:
+1. 按一下英數字元識別碼右側的&#x200B;**預覽**&#x200B;標籤。
+1. 開啟下列收合的部分：
    1. `data`
    1. `objectWorkflow`
    1. `workflows`
    1. `enhancedLinkedFolderCreationWorkflow`
    1. `enhancedLinkedFolderCreationWorkflowConfigurations`
 
-   Each folder tree is represented by a number. 0 (zero) represents the first folder in the list, 1 represents the second, and so on. If the template includes only one folder tree, it is number 0.
+   每個資料夾樹狀結構都以數字表示。 0 （零）代表清單中的第一個資料夾，1代表第二個資料夾，依此類推。 如果範本只包含一個資料夾樹狀結構，則編號為0。
 
-1. Open the folder tree that you want to use for the new project. Make note of the `_id` field value. If you want to use more than one folder tree, make note of all of the `_id` field values for the folder trees you want to use.
+1. 開啟您要用於新專案的資料夾樹狀結構。 記下`_id`欄位值。 如果您要使用多個資料夾樹狀結構，請記下您要使用之資料夾樹狀結構的所有`_id`欄位值。
 
-   ![Locating folder ID 2](assets/finding-folder-id-2.png)
+   ![尋找資料夾識別碼2](assets/finding-folder-id-2.png)
 
-   These are the `aemNativeFolderTreeIDs`  values that you will enter into the **Project (Advanced Collection)** field in the **Workfront** > **Misc Actions** Fusion module.
+   您會在&#x200B;**Workfront** > **其他動作** Fusion模組的&#x200B;**專案（進階集合）**&#x200B;欄位中輸入這些`aemNativeFolderTreeIDs`值。
 
-## Create an OAuth application
+## 建立Oauth應用程式
 
-You must set up an OAuth application in Workfront for this module&#39;s connection. You only need to do this once for a given Workfront connection in Fusion.
+您必須在Workfront中設定OAuth應用程式，以便此模組連線。 您只需要對Fusion中的指定Workfront連線執行此操作一次。
 
-1. In Workfront, begin creating an OAuth application, as described in [Create an OAuth2 application using user credentials (Authorization code flow)](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-application-using-user-credentials-authorization-code-flow) in the article Create OAuth2 applications for [!DNL Workfront] integrations.
-1. Copy the Client ID and Client Secret to a secure location.
-1. In the **Redirect URIs** field, enter the following:
+1. 在Workfront中，開始建立OAuth應用程式，如[使用文章中的使用者認證（授權代碼流程）](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-application-using-user-credentials-authorization-code-flow)建立OAuth2應用程式以進行[!DNL Workfront]整合中所述。
+1. 將使用者端ID和使用者端密碼複製到安全位置。
+1. 在&#x200B;**重新導向URI**&#x200B;欄位中，輸入下列內容：
 
    ```
    http://app.workfrontfusion.com/oauth/cb/workfront-workfront
@@ -163,6 +163,6 @@ You must set up an OAuth application in Workfront for this module&#39;s connecti
 
 1. 按一下「**儲存**」。
 
-You will use this Client ID and Client secret when configuring the module&#39;s connection in Fusion.
+在Fusion中設定模組的連線時，您將使用此使用者端ID和使用者端密碼。
 
-For instructions on creating a connection, see [Connect [!DNL Workfront] to [!DNL Workfront Fusion]](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) in the article Workfront modules.
+如需建立連線的說明，請參閱Workfront模組一文中的[連線 [!DNL Workfront] 至 [!DNL Workfront Fusion]](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)。

@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 1a4c4849-bca1-4ae3-9111-d0ed4dacca14
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 7%
@@ -71,9 +71,9 @@ ht-degree: 7%
    ![刪除檔案](assets/delete-documents-legacy.png)
 
 
-## 在新檔案區域刪除檔案
+## 刪除新檔案區域中的檔案
 
-如果您的組織使用企業儲存空間，當您存取Workfront中的檔案時，將會看到新檔案區域。 如需企業儲存的詳細資訊，請參閱[Adobe企業儲存概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+如果您的組織使用企業儲存空間，當您存取Workfront中的檔案時，將會看到新的「檔案」區域。 如需企業儲存的詳細資訊，請參閱[Adobe企業儲存概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 若要刪除檔案：
 

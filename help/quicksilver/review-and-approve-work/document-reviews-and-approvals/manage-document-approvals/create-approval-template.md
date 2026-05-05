@@ -8,17 +8,16 @@ feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
+source-git-commit: 02d2b8fce60b469b8ea16c4302035371bed04175
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '350'
 ht-degree: 8%
 
 ---
 
 # 建立檔案的核准工作流程範本
 
-在Workfront設定區域中，擁有標準授權的使用者可以建立可重複使用的核准範本。 核准範本建立後，可套用至專案、任務或問題的檔案區域中的資產。
-
+在Workfront設定區域中，擁有標準授權的使用者可以建立可重複使用的核准範本。 核准範本建立後，即可套用至物件之檔案區域中的資產。
 >[!IMPORTANT]
 >
 >本文內容指的更新檔案核准功能僅適用於特定帳戶。 如需有關標準核准程式的資訊，請參閱[工作核准](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md)中列出的文章。
@@ -92,7 +91,7 @@ ht-degree: 8%
 
 1. 按一下「**儲存**」。
 
-建立範本後，可將其套用至專案、任務或問題的檔案區域中，以在Workfront中開始正式的稽核和核准流程。
+建立範本後，可將其套用至物件之檔案區域中的檔案，以在Workfront中開始正式的稽核和核准流程。
 
 
 

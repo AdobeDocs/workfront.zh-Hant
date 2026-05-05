@@ -2,13 +2,13 @@
 product-area: documents
 navigation-topic: manage-documents
 title: 預覽檔案
-description: You can preview a document from the Documents area. This is especially useful for images.
+description: 您可以從檔案區域預覽檔案。 這對於影像特別有用。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1e12003d-4ea6-4449-9536-05feca793c44
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 5%
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 # 預覽檔案
 
-You can preview a document from the Documents area. This is especially useful for images.
+您可以從檔案區域預覽檔案。 這對於影像特別有用。
 
 ## 存取權要求
 
@@ -44,7 +44,7 @@ You can preview a document from the Documents area. This is especially useful fo
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>View access to the object associated with the document</p> </td> 
+   <td> <p>檢視與檔案關聯之物件的存取權</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,19 +53,19 @@ You can preview a document from the Documents area. This is especially useful fo
 
 +++
 
-## Preview a document in the legacy documents area
+## 在舊版檔案區域中預覽檔案
 
 如果您的組織位於舊版Workfront儲存空間，當您存取Workfront中的檔案時，將會看到舊版檔案區域。 如需有關舊版Workfront儲存體的詳細資訊，請參閱[舊版Workfront儲存體與Adobe企業儲存體之間的差異](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
-To preview a document:
+若要預覽檔案：
 
-1. In a document list, hover over the row containing the document , then click **Document Details**.
-1. On the page that appears, click the document&#39;s thumbnail image.
+1. 在檔案清單中，暫留在包含檔案的列上，然後按一下&#x200B;**檔案詳細資料**。
+1. 在出現的頁面上，按一下檔案的縮圖影像。
 
-   * If you have not prepared the document for review, it displays in a new browser tab.
-   * If you have prepared the document for review, the proofing viewer opens to display it.
+   * 如果您尚未準備要檢閱的檔案，則會顯示在新的瀏覽器標籤中。
+   * 如果您已準備要檢閱的檔案，校樣檢視器會開啟並顯示該檔案。
 
-   The following file formats are unable to display in the preview window:
+   下列檔案格式無法在預覽視窗中顯示：
 
    * .mp4
    * .gif
@@ -77,13 +77,13 @@ To preview a document:
 
 ## 在新檔案區域中預覽檔案
 
-如果您的組織使用企業儲存空間，當您存取Workfront中的檔案時，將會看到新檔案區域。 如需企業儲存的詳細資訊，請參閱[Adobe企業儲存概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+如果您的組織使用企業儲存空間，當您存取Workfront中的檔案時，將會看到新的「檔案」區域。 如需企業儲存的詳細資訊，請參閱[Adobe企業儲存概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 有些檔案格式無法預覽。
 
-+++Expand to view unsupported file formats for previewing documents.
++++展開以檢視不支援的檔案格式以預覽檔案。
 
-The following file formats are unable to display in the preview window:
+下列檔案格式無法在預覽視窗中顯示：
 
 <table style="border: none; width: 80%; margin: 0 auto;">
 <tr style="border: none;">

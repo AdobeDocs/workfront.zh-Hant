@@ -2,22 +2,22 @@
 product-area: documents
 navigation-topic: manage-documents
 title: 下載文件
-description: You can download documents from Adobe Workfront either individually or in bulk. Documents can be downloaded from any area that contains documents in Workfront.
+description: 您可以個別或大量從Adobe Workfront下載檔案。 可從Workfront中包含檔案的任何區域下載檔案。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 083c604a-b2ca-4279-a90d-b103e3575dad
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 4%
 
 ---
 
-# Download documents
+# 下載檔案
 
-You can download documents from Adobe Workfront either individually or in bulk. Documents can be downloaded from any area that contains documents in Workfront. 
+您可以個別或大量從Adobe Workfront下載檔案。 可從Workfront中包含檔案的任何區域下載檔案。 
 
 ## 存取權要求
 
@@ -44,7 +44,7 @@ You can download documents from Adobe Workfront either individually or in bulk. 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>View access to the object that contains the document</p> </td> 
+   <td> <p>檢視對包含檔案的物件的存取權</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,40 +53,40 @@ You can download documents from Adobe Workfront either individually or in bulk. 
 
 +++
 
-## Download documents in the legacy documents area
+## 在舊版檔案區域下載檔案
 
-如果您的組織位於舊版Workfront儲存空間，當您存取Workfront中的檔案時，將會看到舊版檔案區域。 For more information about legacy Workfront storage, see [Differences between legacy Workfront storage and Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
+如果您的組織位於舊版Workfront儲存空間，當您存取Workfront中的檔案時，將會看到舊版檔案區域。 如需有關舊版Workfront儲存體的詳細資訊，請參閱[舊版Workfront儲存體與Adobe企業儲存體之間的差異](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
-### Download an individual document in the legacy documents area
+### 在舊版檔案區域中下載個別檔案
 
-1. Go to the project, task, or issue that contains the document, then select **Documents**.
-1. Find the document you need.
+1. 前往包含檔案的專案、任務或問題，然後選取「**檔案**」。
+1. 尋找您需要的檔案。
 
-1. Click the **Download Selected** icon ![Download Selected icon](assets/download-icon.png).
+1. 按一下&#x200B;**下載選取的專案**&#x200B;圖示![下載選取的專案](assets/download-icon.png)。
 
-![download an individual document](assets/legacy-doc-download.png)
+![下載個別檔案](assets/legacy-doc-download.png)
 
-### Download multiple documents simultaneously in the legacy documents area
+### 在舊版檔案區域中同時下載多份檔案
 
-You can download multiple documents simultaneously.
+您可以同時下載多份檔案。
 
-1. Go to the Documents area containing the documents you want to download.
-1. (Optional) Select the individual documents that you want to download from the list of documents.
+1. 移至包含您要下載之檔案的檔案區域。
+1. （選擇性）從檔案清單中選取您要下載的個別檔案。
 
    >[!NOTE]
    >
-   >Documents linked to Workfront from Box, Dropbox, Google Drive, and so forth cannot be downloaded in bulk.
+   >您無法大量下載從Box、Dropbox、Google Drive等連結至Workfront的檔案。
 
-1. (Optional) Select the folders that contain the documents you want to download from the list of folders.
-1. Click the Download Selected icon ![Download Selected icon](assets/download-icon.png).
+1. （可選）從資料夾清單中選取包含要下載檔案的資料夾。
+1. 按一下「下載選取的專案」圖示![下載選取的專案](assets/download-icon.png)。
 
-   Folders are downloaded as .zip files and are limited to 4GB.
+   資料夾會下載為.zip檔案，且限製為4GB。
 
-## Download documents in the new documents area
+## 在新檔案區域中下載檔案
 
-如果您的組織使用企業儲存空間，當您存取Workfront中的檔案時，將會看到新檔案區域。 如需企業儲存的詳細資訊，請參閱[Adobe企業儲存概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+如果您的組織使用企業儲存空間，當您存取Workfront中的檔案時，將會看到新的「檔案」區域。 如需企業儲存的詳細資訊，請參閱[Adobe企業儲存概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 1. 前往包含檔案的專案、任務或問題，然後在左側面板中選取&#x200B;**檔案**。
-1. Find the documents you need, then click **Download**.
+1. 尋找您需要的檔案，然後按一下[下載]。**&#x200B;**
 
-![Download document](assets/download-new-doc.png)
+![下載檔案](assets/download-new-doc.png)
