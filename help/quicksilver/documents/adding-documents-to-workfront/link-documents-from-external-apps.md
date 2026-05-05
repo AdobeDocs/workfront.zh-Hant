@@ -8,7 +8,7 @@ feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '2592'
 ht-degree: 1%
@@ -62,7 +62,7 @@ ht-degree: 1%
 >[!NOTE]
 >
 >新檔案區域未提供此功能。<br>
->如果您的組織使用企業儲存空間，當您存取Workfront中的檔案時，將會看到新檔案區域。 如需企業儲存的詳細資訊，請參閱[Adobe企業儲存概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+>如果您的組織使用企業儲存空間，當您存取Workfront中的檔案時，將會看到新的「檔案」區域。 如需企業儲存的詳細資訊，請參閱[Adobe企業儲存概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 ## 存取權要求
 
@@ -96,53 +96,53 @@ ht-degree: 1%
 
 從外部應用程式連結至Workfront的檔案會儲存於外部雲端提供者，而非儲存在Workfront中。
 
-The following exceptions apply:
+適用下列例外：
 
-* When provided by the document service, thumbnails and preview images might be stored on Workfront servers.
-* When you use proofing in Workfront, the document is copied and added to the proofing servers.
+* 若由檔案服務提供，縮圖和預覽影像可能會儲存在Workfront伺服器上。
+* 在Workfront中使用校訂時，檔案會複製並新增至校訂伺服器。
 
-## File size limits
+## 檔案大小限制
 
-Third-party cloud providers:
+協力廠商雲端服務提供者：
 
-* Single file: 5 GB or less
-* Multiple file: 1 GB or less (total of all files)
+* 單一檔案：5 GB以下
+* 多個檔案：1 GB以下（所有檔案總數）
 
-## Link a document from an external application to Workfront
+## 從外部應用程式將檔案連結至Workfront
 
-You can link existing documents with an external cloud provider. This includes any shared documents.
+您可以將現有檔案與外部雲端服務供應商連結。 這包括任何共用檔案。
 
 ### 先決條件 {#prerequisites}
 
 連結檔案或資料夾之前，您的Workfront管理員必須為每個檔案提供者或自訂檔案整合啟用此功能，如[設定檔案整合](../../administration-and-setup/configure-integrations/configure-document-integrations.md)中所述。
 
-### Link an external document to Workfront {#link-an-external-document-to-workfront}
+### 將外部檔案連結至Workfront {#link-an-external-document-to-workfront}
 
-You can link documents to Workfront from an external application such as Google and Microsoft OneDrive.
+您可以從外部應用程式（例如Workfront和Google OneDrive）將檔案連結至Microsoft。
 
 >[!IMPORTANT]
 >
->Dropbox stores documents based on the file path. Because of this, if a file linked from Dropbox is moved, renamed, or deleted, it becomes inaccessible in Workfront.
+>Dropbox會根據檔案路徑來儲存檔案。 因此，如果從Dropbox連結的檔案遭到移動、重新命名或刪除，就無法在Workfront中存取。
 
-1. Go to the **Documents** area in Workfront where you want the document.
-1. Click **Add New**, then click the external document provider where you want to link documents to Workfront.
+1. 移至Workfront中您想要檔案的&#x200B;**檔案**&#x200B;區域。
+1. 按一下「新增&#x200B;**」**，然後按一下您要將檔案連結至Workfront的外部檔案提供者。
 
-   For example, to link documents from Dropbox, click **From Dropbox**.
+   例如，若要從Dropbox連結檔案，請按一下[從Dropbox連結] ****。
 
-   External providers that you have already authorized appear at the top of the list.
+   您已經授權的外部提供者會出現在清單頂端。
 
-1. (Conditional) If you are prompted to log into the external service, type your login credentials for the service in the box that appears, then click **Sign in**.
-1. (Conditional) If you are prompted to authorize the external application, click the **Authorize** button.
+1. （視條件而定）如果系統提示您登入外部服務，請在顯示的方塊中輸入服務的登入認證，然後按一下&#x200B;**登入**。
+1. （視條件而定）如果系統提示您授權外部應用程式，請按一下&#x200B;**授權**&#x200B;按鈕。
 
-   You need to do this only once.
+   您只需執行此操作一次。
 
-1. In the search box of the **Link External Files and Folders** box that appears, type the name of the item you want to search for, then press **Enter** to see all results from the external application, regardless of which folder they are storied in.
+1. 在出現的&#x200B;**連結外部檔案和資料夾**&#x200B;方塊的搜尋方塊中，輸入您要搜尋的專案名稱，然後按&#x200B;**Enter**&#x200B;檢視來自外部應用程式的所有結果，無論這些結果位於哪個資料夾中。
 
    或
 
-   Browse to and select the documents you want to link.
+   瀏覽並選取您要連結的檔案。
 
-   Though you can select multiple documents, only documents that are selected in the current view are linked. 例如，如果您選取檔案，然後進入資料夾，則不會連結您最初選取的檔案。
+   雖然您可以選取多個檔案，但只會連結在目前檢視中選取的檔案。 例如，如果您選取檔案，然後進入資料夾，則不會連結您最初選取的檔案。
 
 1. （視條件而定）如果您是Workfront DAM客戶，請按一下&#x200B;**縮圖**&#x200B;圖示，將檔案顯示為縮圖影像。
 
@@ -171,7 +171,7 @@ You can link documents to Workfront from an external application such as Google 
 
 1. 按一下&#x200B;**新增** > **版本**，然後按一下外部檔案提供者。
 
-   例如，若要從Dropbox連結檔案的新版本，請按一下[從Dropbox連結] **&#x200B;**。
+   例如，若要從Dropbox連結檔案的新版本，請按一下[從Dropbox連結] ****。
 
    您已經授權的外部提供者會出現在清單頂端。
 
@@ -211,7 +211,7 @@ You can link documents to Workfront from an external application such as Google 
 您只能連結在Workfront Proof中您擁有檢視存取權的校訂。
 
 1. 移至Workfront中您想要檔案的&#x200B;**檔案**&#x200B;區域。
-1. 按一下[新增] **&#x200B;**，然後按一下&lbrack;來自Workfront Proof的&#x200B;**&#x200B;**。
+1. 按一下[新增] ****，然後按一下[來自Workfront Proof的&#x200B;****。
 
    >[!NOTE]
    >
@@ -243,9 +243,9 @@ You can link documents to Workfront from an external application such as Google 
    >
    > 「我的磁碟機」和「與我共用」會顯示兩個不同的結果。 如果您在[我的磁碟機]中找不到檔案，請存取[與我共用]資料夾。
 
-## Upload and link a document from Workfront to an external cloud provider
+## 上傳檔案並從Workfront連結至外部雲端提供者
 
-You can upload and link a document from Workfront to an external cloud provider. This moves storage of the document from Workfront to the external cloud provider. 當檔案在外部應用程式中變更時，會自動在Workfront中更新。
+您可以上傳檔案，並將其從Workfront連結至外部雲端提供者。 這會將檔案的儲存空間從Workfront移至外部雲端提供者。 當檔案在外部應用程式中變更時，會自動在Workfront中更新。
 
 >[!NOTE]
 >
@@ -260,7 +260,7 @@ You can upload and link a document from Workfront to an external cloud provider.
 
 1. 在提供者的應用程式中，選取您要儲存檔案的資料夾。
 
-   This can be any folder in the provider&#39;s application, including a shared folder.
+   這可以是提供者的應用程式中的任何資料夾，包括共用資料夾。
 
 1. 按一下「**儲存**」。
 
@@ -270,56 +270,56 @@ You can upload and link a document from Workfront to an external cloud provider.
 
 ## 連結資料夾
 
-當您在Workfront和外部雲端提供者之間連結資料夾時，該資料夾及其所有內容都會連結。 If users without Workfront access add, remove, and modify files from the external document application, their changes are synchronized to Workfront.
+當您在Workfront和外部雲端提供者之間連結資料夾時，該資料夾及其所有內容都會連結。 如果沒有Workfront存取許可權的使用者從外部檔案應用程式新增、移除和修改檔案，則其變更會同步至Workfront。
 
 ### 資料夾存取權 {#folder-access-rights}
 
-When synchronizing folder content from an external document application, Workfront uses the credentials of the user who originally linked the folder. 這會產生以下使用者體驗：
+從外部檔案應用程式同步資料夾內容時，Workfront會使用最初連結資料夾之使用者的認證。 這會產生以下使用者體驗：
 
-* If users do not have access to view files and folders in the external application, but do have access to view the linked folder via Workfront, they can view only the names of the files and folders in Workfront, not their contents.
+* 如果使用者無權檢視外部應用程式中的檔案和資料夾，但有權透過Workfront檢視連結的資料夾，則他們只能檢視Workfront中的檔案和資料夾名稱，不能檢視其內容。
 * 當有人存取Workfront中由其他使用者連結至Workfront的連結資料夾（例如連結資料夾中的子資料夾）內的內容時，內容會使用原本連結資料夾的使用者Workfront登入認證（而非存取內容的使用者認證）同步至Workfront。
 
 >[!IMPORTANT]
 >
->* If the user who originally linked the folder is removed from the Workfront system, users are no longer able to access content on the linked folder via Workfront. In this case, the folder must be relinked by an active Workfront user who has rights to the folder in the external application.
->* If the user who linked a folder no longer has access to the external application, Workfront can no longer access the contents of the folder. This may happen, for example, if the user who originally linked the folder leaves the company. To ensure continued access, a user with access to the folder must re-link the folder.
+>* 如果從Workfront系統中移除最初連結資料夾的使用者，使用者將無法再透過Workfront存取連結資料夾上的內容。 在此情況下，資料夾必須由在外部應用程式中擁有資料夾存取權的作用中Workfront使用者重新連結。
+>* 如果連結資料夾的使用者無法再存取外部應用程式，Workfront就無法再存取資料夾內容。 例如，如果最初連結資料夾的使用者離開公司，就可能發生這種情況。 為確保繼續存取，有權存取資料夾的使用者必須重新連結資料夾。
 
-### Link one or more external folders {#link-one-or-more-external-folders}
+### 連結一或多個外部資料夾 {#link-one-or-more-external-folders}
 
-1. Go to the area in Workfront where you want the folder, then click  **Documents** ![Documents icon](assets/document-icon.png) in the left panel .
+1. 移至Workfront中您要資料夾的區域，然後按一下左側面板中的&#x200B;**檔案** ![檔案圖示](assets/document-icon.png)。
 
-1. Click **Add New**, then click the external document provider from which you want to link a folder to Workfront.
-1. (Conditional) If you have not yet authorized the external service, specify your login credentials for the external provider, then click **Sign in**.
+1. 按一下[新增]****，然後按一下您要將資料夾連結至Workfront的外部檔案提供者。
+1. （視條件而定）如果您尚未授權外部服務，請指定外部提供者的登入認證，然後按一下&#x200B;**登入**。
 
    您已經授權的外部提供者會出現在清單頂端。
 
-1. In the **Link External Files and Folders** box that appears, browse to and select the folders you want to link.
+1. 在出現的&#x200B;**連結外部檔案和資料夾**&#x200B;方塊中，瀏覽並選取您要連結的資料夾。
 
    或
 
-   Type the name of the folder you want to search for, then press **Enter**.
+   輸入您要搜尋的資料夾名稱，然後按&#x200B;**Enter**。
 
-   You can select multiple folders; however, only folders that are selected in the current view are linked. For example, if you select a folder, then go into a folder, the folder you originally selected is not linked.
+   您可以選取多個資料夾；不過，只會連結在目前檢視中選取的資料夾。 例如，如果您選取資料夾，然後進入資料夾，則您最初選取的資料夾不會連結。
 
    >[!NOTE]
    >
-   >When linking folders from Google Drive, you can only link folders that are within your personal drive (My Drive) and Team Drive. You cannot link folders from the Shared with Me area.
+   >從Google Drive連結資料夾時，您只能連結位於個人磁碟機（我的磁碟機）和Team Drive中的資料夾。 您無法從「與我共用」區域連結資料夾。
 
 1. 按一下&#x200B;**連結**。
 
-   In Workfront, the cloud provider&#39;s logo displays next to the folder, indicating that it is linked to the external cloud provider.
+   在Workfront中，雲端提供者的標誌會顯示在資料夾旁，表示已連結至外部雲端提供者。
 
-1. (Optional) To rename the folder so that the folder name in Workfront is different from the folder name in the external document application, select the folder in the **Folders** section, click the  More menu ![More menu](assets/more-icon.png)  that displays next to the folder name, then click **Rename**.
+1. （選擇性）若要重新命名資料夾，讓Workfront中的資料夾名稱不同於外部檔案應用程式中的資料夾名稱，請在&#x200B;**資料夾**&#x200B;區段中選取資料夾，按一下資料夾名稱旁邊顯示的[更多]功能表![更多功能表](assets/more-icon.png)，然後按一下[重新命名]****。
 
-   ![Rename folder](assets/documents-folderlink-rename-nwe-350x154.png)
+   ![重新命名資料夾](assets/documents-folderlink-rename-nwe-350x154.png)
 
-This does not rename the folder in the external application.
+這不會重新命名外部應用程式中的資料夾。
 
-### Add subfolders to a linked folder  {#add-subfolders-to-a-linked-folder}
+### 將子資料夾新增至連結的資料夾  {#add-subfolders-to-a-linked-folder}
 
-You can create a new folder inside an existing linked folder. You can also drag another folder into an existing linked folder.
+您可以在現有的連結資料夾中建立新資料夾。 您也可以將另一個資料夾拖曳到現有的連結資料夾中。
 
-1. To create a new folder within an existing linked folder, go to the existing folder, then create the new folder as described in [Create document folders](../../documents/organizing-documents/create-documents-folder.md).
+1. 若要在現有連結資料夾中建立新資料夾，請移至現有資料夾，然後依照[建立檔案資料夾](../../documents/organizing-documents/create-documents-folder.md)中的說明建立新資料夾。
 
    或
 

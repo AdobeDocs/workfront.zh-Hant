@@ -10,9 +10,9 @@ role: Admin
 exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '357'
 ht-degree: 5%
 
 ---
@@ -34,8 +34,8 @@ Adobe企業儲存是適用於所有Adobe產品的統一儲存解決方案。 這
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront套件</td> 
-   <td><p>任何</p></td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
+   <td><p>任何Workflow封裝</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
@@ -75,3 +75,7 @@ Adobe企業儲存是適用於所有Adobe產品的統一儲存解決方案。 這
    - **特定群組**：此選項只會將預設儲存提供者套用至您組織內的特定群組。 每當指定群組中的使用者建立新專案時，都會使用預設的儲存提供者
 
 1. 按一下「**儲存**」。
+
+   >[!NOTE]
+   >
+   >現有專案會保留建立該專案的儲存模式。 例如，使用Adobe企業儲存空間的專案會在您變更預設儲存偏好設定後，繼續使用Adobe企業儲存空間。

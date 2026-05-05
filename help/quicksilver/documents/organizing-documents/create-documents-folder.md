@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 2%
@@ -67,13 +67,13 @@ ht-degree: 2%
 
 開啟Workfront物件後，按一下左側面板中的&#x200B;**檔案**。
 
-1. Click the view options above the right panel to change how the documents are displayed.
+1. 按一下右側面板上方的檢視選項，以變更檔案的顯示方式。
 
-   ![Document view options](assets/screenshot-2016-07-07-12.46.54.png)
+   ![檔案檢視選項](assets/screenshot-2016-07-07-12.46.54.png)
 
-### Create folders and subfolders
+### 建立資料夾和子資料夾
 
-Create folders to better organize your documents. You can create up to 2,000 folders on an object and up to 50 subfolders within each folder. Subfolders count towards the 2,000 folder maximum.
+建立資料夾以更妥善地組織您的檔案。 您可以在物件上建立最多2,000個資料夾，並在每個資料夾內建立最多50個子資料夾。 子資料夾會計入最大2,000個資料夾。
 
 {{step1-to-documents}}
 
@@ -81,34 +81,34 @@ Create folders to better organize your documents. You can create up to 2,000 fol
 
 開啟Workfront物件後，按一下左側面板中的&#x200B;**檔案**。
 
-1. To create a top-level folder, ensure that nothing is selected, then click **Add New** > **Folder**.
+1. 若要建立最上層資料夾，請確定未選取任何專案，然後按一下[新增&#x200B;**] > [資料夾**] **。**
 
    或
 
-   To create a sub-folder, select the folder where you want to create the sub-folder, then click **Add New** > **Folder**.
+   若要建立子資料夾，請選取您要建立子資料夾的資料夾，然後按一下[新增&#x200B;**] > [資料夾**]。****
 
-### Sharing folders
+### 共用資料夾
 
-For information about sharing folders, see [Share a document folder](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+如需共用資料夾的資訊，請參閱[共用檔案資料夾](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)。
 
-## Create document folders in the new documents area
+## 在新的檔案區域中建立檔案資料夾
 
-如果您的組織使用企業儲存空間，當您存取Workfront中的檔案時，將會看到新檔案區域。 如需企業儲存的詳細資訊，請參閱[Adobe企業儲存概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+如果您的組織使用企業儲存空間，當您存取Workfront中的檔案時，將會看到新的「檔案」區域。 如需企業儲存的詳細資訊，請參閱[Adobe企業儲存概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
-### System-generated folders
+### 系統產生的資料夾
 
-When you upload a document to a task or issue, Workfront automatically creates a system-generated folder named after the task or issue. This folder is linked to the task or issue and inherits its permissions. System-generated folders are visible in the project-level documents area.
+當您將檔案上傳到任務或問題時，Workfront會自動建立一個系統產生的資料夾，此資料夾以任務或問題的名稱命名。 此資料夾已連結至任務或問題並繼承其許可權。 系統產生的資料夾會顯示在專案層級檔案區域中。
 
-For more information about folder permissions, see [How document permissions work](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+如需檔案夾許可權的詳細資訊，請參閱[檔案許可權如何運作](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work)。
 
-### Create subfolders
+### 建立子資料夾
 
-You can create subfolders within a system-generated folder to organize documents further. All subfolders inherit permissions from the parent folder.
+您可以在系統產生的資料夾中建立子資料夾，以進一步組織檔案。 所有子檔案夾都從父檔案夾繼承許可權。
 
-1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
-1. Click into the folder you want to create a subfolder in, then click the **Add folder** ![add folder icon](assets/add-folder-icon.png) icon.
-   ![add subfolder](assets/add-subfolder.png)
-1. 輸入子資料夾的名稱，然後按一下[建立]。**&#x200B;**
+1. 前往包含檔案的專案、任務或問題，然後在左側面板中選取&#x200B;**檔案**。
+1. 按一下您要建立子資料夾的資料夾，然後按一下&#x200B;**新增資料夾** ![新增資料夾圖示](assets/add-folder-icon.png)圖示。
+   ![新增子資料夾](assets/add-subfolder.png)
+1. 輸入子資料夾的名稱，然後按一下[建立]。****
 
 ### 重新命名資料夾
 
@@ -142,7 +142,7 @@ You can create subfolders within a system-generated folder to organize documents
 
    ![行動資料夾](assets/rename-folder.png)
 
-<!-- STEPS PLACEHOLDER: Add steps for moving a folder in the new documents area -->
+<!-- STEPS PLACEHOLDER: Add steps for moving a folder in the new Documents area -->
 
 ### 刪除資料夾
 
@@ -152,4 +152,4 @@ You can create subfolders within a system-generated folder to organize documents
 1. 找到您要刪除的資料夾，然後按一下&#x200B;**更多** ![更多](assets/more-icon.png)圖示。
 1. 按一下&#x200B;**刪除**。
 
-   ![delete folder](assets/rename-folder.png)
+   ![刪除資料夾](assets/rename-folder.png)

@@ -3,13 +3,13 @@ content-type: reference
 product-area: documents
 navigation-topic: manage-documents
 title: 檔案摘要概覽
-description: The Summary allows you to interact with important information directly from the documents list.
+description: 「摘要」可讓您直接從檔案清單與重要資訊互動。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 5%
@@ -20,7 +20,7 @@ ht-degree: 5%
 
 <!--Audited: April, 2024-->
 
-You can use the Summary panel to access and update important information directly from the documents list.
+您可以使用「摘要」面板，直接從檔案清單存取和更新重要資訊。
 
 
 +++ 展開以檢視這篇文章中所述功能的存取權要求。
@@ -53,7 +53,7 @@ You can use the Summary panel to access and update important information directl
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>View access to the object associated with the document</p> </td> 
+   <td> <p>檢視與檔案關聯之物件的存取權</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,74 +62,74 @@ You can use the Summary panel to access and update important information directl
 
 +++
 
-## Summary for documents in the legacy documents experience
+## 舊版檔案體驗中的檔案摘要
 
 如果您的組織位於舊版Workfront儲存空間，當您存取Workfront中的檔案時，將會看到舊版檔案區域。 如需有關舊版Workfront儲存體的詳細資訊，請參閱[舊版Workfront儲存體與Adobe企業儲存體之間的差異](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
-### Open the Summary view in the legacy documents experience
+### 開啟舊版檔案體驗中的摘要檢視
 
 {{step1-to-documents}}
 
 1. 在&#x200B;**檔案**&#x200B;頁面上，選取清單中的檔案。
 
-1. 在頁面的右上角，按一下&#x200B;**開啟摘要**&#x200B;圖示![開啟摘要圖示](assets/qs-summary-in-new-toolbar-small.png)。 The **Document Summary** side panel opens.
+1. 在頁面的右上角，按一下&#x200B;**開啟摘要**&#x200B;圖示![開啟摘要圖示](assets/qs-summary-in-new-toolbar-small.png)。 **檔案摘要**&#x200B;側面板隨即開啟。
 
-   ![Summary details](assets/document-summary-panel.png)
+   ![摘要詳細資料](assets/document-summary-panel.png)
 
-   After you open the Summary, it will remain open on this page (even if you click on other documents) until you manually close it.
+   開啟「摘要」後，它仍會在此頁面上保持開啟狀態（即使您按一下其他檔案），直到您手動關閉它為止。
 
 
 ### 詳細資料
 
-Use the Details section to view high-level overview information and interact with custom forms. Click Details at the top of the section to go to the full Document Details page.
+使用詳細資訊區段檢視高階總覽資訊並與自訂表單互動。 按一下區段頂端的詳細資訊，即可移至完整的檔案詳細資訊頁面。
 
 * [概觀](#overview)
 * [自訂表單](#custom-forms)
 
 #### 概觀 {#overview}
 
-Expand the Overview section to view or download an image thumbnail, open a proof, update the basic description, check the document out and more.
+展開「概觀」區段以檢視或下載影像縮圖、開啟校樣、更新基本說明、取出檔案等等。
 
-![Document summary overview](assets/details-section.png)
+![檔案摘要概觀](assets/details-section.png)
 
 #### 自訂表單 {#custom-forms}
 
-Use the Custom Forms section to add, edit, or view any custom forms associated with the document. Begin typing the name of the custom form to add it to the document. For more information, see [Add or edit a custom form to a document](../../documents/managing-documents/add-custom-form-documents.md).
+使用自訂Forms區段來新增、編輯或檢視與檔案相關聯的任何自訂表單。 開始輸入自訂表單的名稱，以將其新增到檔案。 如需詳細資訊，請參閱[新增或編輯檔案的自訂表單](../../documents/managing-documents/add-custom-form-documents.md)。
 
-![Add a custom form in document summary](assets/custom-forms-section.png)
+![在檔案摘要中新增自訂表格](assets/custom-forms-section.png)
 
 ### 更新
 
-Use the Updates section to view an update someone made on the document or proof. The summary shows the first 2 comments made. For more information on updates, see [Comment on a proof](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
+使用更新區段來檢視某人對該檔案或校訂進行的更新。 摘要會顯示前2個註解。 如需更新的詳細資訊，請參閱[對校訂的註解](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)。
 
-![Updates section in Summary panel](assets/updates-section.png)
+摘要面板中的![更新區段](assets/updates-section.png)
 
 ### 核准
 
-Use the Approvals section to ask for a document approval. You can also remind someone about an approval, resubmit the approval and cancel the previous decision, or delete the approval. Document approvers can use the Summary to make a decision.
+使用核准區段來要求檔案核准。 您也可以提醒某人有關核准的資訊、重新提交核准並取消先前的決定，或刪除核准。 檔案核准者可使用摘要來做出決定。
 
-Proof approvals must be added in the Proof Workflow. For more information on approvals, see
+校訂核准必須新增到校訂工作流程中。 如需核准的詳細資訊，請參閱
 
-* [Approving work](../../review-and-approve-work/manage-approvals/approving-work.md)
+* [核准工作](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [請求文件核准](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![Document summary approvals](assets/approvals-section.png)
+![檔案摘要核准](assets/approvals-section.png)
 
 ### 版本
 
-Use the Versions section to view the number of versions created for a specific document. Click the More icon ![More icon](assets/more-icon.png) to do the following:
+使用「版本」區段可檢視針對特定檔案建立的版本數目。 按一下「更多」圖示![「更多」圖示](assets/more-icon.png)以執行下列動作：
 
-* Open a proof.
-* Download a proof or document.
-* Preview a browser-supported document.
-* Go to the Document Details.
-* Delete a proof or document.
+* 開啟校訂。
+* 下載校訂或檔案。
+* 預覽瀏覽器支援的檔案。
+* 前往檔案詳細資訊。
+* 刪除校訂或檔案。
 
-![Document summary versions](assets/versions-section.png)
+![檔案摘要版本](assets/versions-section.png)
 
 ## 新檔案體驗中的檔案摘要
 
-如果您的組織使用企業儲存空間，當您存取Workfront中的檔案時，將會看到新檔案區域。 如需企業儲存的詳細資訊，請參閱[Adobe企業儲存概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+如果您的組織使用企業儲存空間，當您存取Workfront中的檔案時，將會看到新的「檔案」區域。 如需企業儲存的詳細資訊，請參閱[Adobe企業儲存概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 ### 詳細資料
 

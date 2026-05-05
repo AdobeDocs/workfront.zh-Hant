@@ -1,23 +1,23 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Create a document approval workflow
-description: You can request approval from other users for a document in Adobe Workfront.
+title: 建立檔案核准工作流程
+description: 您可以在Adobe Workfront中請求其他使用者的檔案核准。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 3%
 
 ---
 
-# Create a document approval workflow
+# 建立檔案核准工作流程
 
-You can request approval from other users or teams for a document in Adobe Workfront, or request they review a document without needing to approve it.
+您可以在Adobe Workfront中請求其他使用者或團隊核准檔案，或請求他們稽核檔案而無需核准。
 
 >[!IMPORTANT]
 >
@@ -41,16 +41,16 @@ You can request approval from other users or teams for a document in Adobe Workf
    <td>
    <p>投稿人或以上</p>
    <p>評論或以上</p>
-   <p>If you are using the Frame.io integration, you must have a Standard license to create approval workflows.</p>
+   <p>如果您使用Frame.io整合，您必須有Standard授權才能建立核准工作流程。</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>View or higher access to Projects, Tasks, Issues, Templates, Portfolios, Programs, Reports, Dashboards, and Calendars, Documents</p> </td> 
+   <td> <p>檢視專案、任務、問題、範本、投資組合、計畫、報告、儀表板和行事曆、檔案的或更高存取權</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>Manage access to the object associated with the request access or approval </p> </td> 
+   <td> <p>管理與請求存取或核准相關聯的物件存取權 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,19 +59,19 @@ You can request approval from other users or teams for a document in Adobe Workf
 
 +++
 
-## Create an approval workflow from the Summary panel in the legacy documents area
+## 從舊版檔案區域的「摘要」面板建立核准工作流程
 
-If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Workfront Storage vs. Adobe enterprise storage](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
+如果您的組織使用Workfront儲存空間，當您存取Workfront中的檔案時，將會看到舊版檔案區域。 如需Workfront儲存的詳細資訊，請參閱[Workfront儲存與Adobe企業儲存的比較](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage)。
 
-To create an approval workflow:
+若要建立核准工作流程：
 
 1. 前往包含檔案的專案、任務或問題，然後在左側面板中選取&#x200B;**檔案**。
 
-1. Click on the document you need and the Document Summary panel for that document opens.
+1. 按一下您需要的檔案，該檔案的「檔案摘要」面板隨即開啟。
 
-1. Select the version of the document you would like to create an approval for in the version dropdown. The latest version is selected by default.
+1. 在版本下拉式清單中選取您要建立核准的檔案版本。 預設會選取最新版本。
 
-1. Scroll down to the **Approvals** section, then click **Create workflow**.
+1. 向下捲動至&#x200B;**核准**&#x200B;區段，然後按一下&#x200B;**建立工作流程**。
 
 
 1. 填寫以下詳細資料：
@@ -90,8 +90,8 @@ To create an approval workflow:
    <td>第一個做出決定的人會完成階段。</td>
    </tr>
    <tr>
-   <td><strong>Due date (optional)</strong></td>
-   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
+   <td><strong>到期日（選擇性）</strong></td>
+   <td>設定核准的到期日。 使用者與團隊會收到電子郵件通知，通知時間為指定到期日前72小時或24小時。</td>
    </tr>
    </table>
 
@@ -104,19 +104,19 @@ To create an approval workflow:
    ![檔案詳細資料](assets/new-stage.png)
 
 
-## Create an approval workflow from the Summary panel in the new document area
+## 從新檔案區域的摘要面板建立核准工作流程
 
-如果您的組織使用企業儲存空間，當您存取Workfront中的檔案時，將會看到新檔案區域。 For more information about enterprise storage, see [Enterprise storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
+如果您的組織使用企業儲存空間，當您存取Workfront中的檔案時，將會看到新的「檔案」區域。 如需企業儲存的詳細資訊，請參閱[企業儲存概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
-To create a an approval workflow:
+若要建立核准工作流程，請執行下列步驟：
 
 1. 前往包含檔案的專案、任務或問題，然後在左側面板中選取&#x200B;**檔案**。
 
-1. Click on the document, then click the Approvals icon on the right side of the page.
+1. 按一下檔案，然後按一下頁面右側的「核准」圖示。
 
-   ![Add approvers in document summary](assets/approvals-icon-new.png)
+   ![在檔案摘要中新增核准者](assets/approvals-icon-new.png)
 
-1. Click **Create workflow**, then fill in the following details:
+1. 按一下「**建立工作流程**」，然後填寫下列詳細資料：
 
    <table>
    <tr>

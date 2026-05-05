@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: fce8e8aa-fc48-49e1-a71d-c3933a179cf5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 4%
@@ -26,7 +26,7 @@ ht-degree: 4%
 >[!NOTE]
 >
 >新檔案區域未提供此功能。<br>
->如果您的組織使用企業儲存空間，當您存取Workfront中的檔案時，將會看到新檔案區域。 如需企業儲存的詳細資訊，請參閱[Adobe企業儲存概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+>如果您的組織使用企業儲存空間，當您存取Workfront中的檔案時，將會看到新的「檔案」區域。 如需企業儲存的詳細資訊，請參閱[Adobe企業儲存概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 ## 存取權要求
 
@@ -68,21 +68,21 @@ ht-degree: 4%
 ## 移除Workfront與Box之間的連結
 
 1. 登入您的Box帳戶。
-1. Click your profile picture in the upper right corner.
-1. Click **Account Settings**, then the **Security** tab.
+1. 按一下右上角的設定檔圖片。
+1. 按一下「**帳戶設定**」，然後按一下「**安全性**」標籤。
 
-1. Find **MyWorkfront** and click the **X** under Forget App.
+1. 尋找&#x200B;**MyWorkfront**&#x200B;並按一下「忘記應用程式」底下的&#x200B;**X**。
 
-## Remove the link between Workfront and Google Drive
+## 移除Workfront與Google Drive之間的連結
 
-1. Log in to your Google Drive.
-1. Click the gear icon in the upper right corner, then click **Settings**.
-1. Click **Manage Apps** on the left side and find **Workfront** in the list.
+1. 登入您的Google Drive。
+1. 按一下右上角的齒輪圖示，然後按一下&#x200B;**設定**。
+1. 按一下左側的&#x200B;**管理應用程式**，然後在清單中尋找&#x200B;**Workfront**。
 
-1. Under the Options drop-down menu, click **Disconnect from Drive**.
+1. 在[選項]下拉式功能表下，按一下[中斷與磁碟機的連線]。****
 
-## Remove the links between Workfront and Other Document Storage Providers
+## 移除Workfront與其他檔案儲存提供者之間的連結
 
-You must call our Support Team to disconnect Microsoft One Drive or WebDAM from Workfront.
+您必須致電我們的支援團隊，中斷與Workfront的Microsoft One Drive或WebDAM連線。
 
-For information about contacting our Support Team, see [Contact Customer Support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+如需連絡支援團隊的詳細資訊，請參閱[連絡客戶支援](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。

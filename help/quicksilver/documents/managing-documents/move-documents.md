@@ -2,13 +2,13 @@
 product-area: documents
 navigation-topic: manage-documents
 title: 移動檔案
-description: A user with manage rights on a document can move the document to another object.
+description: 擁有檔案管理許可權的使用者可以將檔案移動到另一個物件。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 46039017-58b3-4e9d-8dcd-6e1f52d98d27
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 5%
@@ -17,14 +17,14 @@ ht-degree: 5%
 
 # 移動檔案
 
-A user with manage rights on a document can move the document to another object.
+擁有檔案管理許可權的使用者可以將檔案移動到另一個物件。
 
-The user must also have permissions to add documents to the new object to complete this action. 
+使用者也必須有權將檔案新增至新物件以完成此動作。 
 
-When you move a document, any of the following will also move with the document:
+當您移動檔案時，以下任何一項也會隨檔案移動：
 
-* Document versions
-* Document proofs
+* 檔案版本
+* 檔案校訂
 * 檔案核准
 
 ## 存取權要求
@@ -52,7 +52,7 @@ When you move a document, any of the following will also move with the document:
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>管理對檔案的存取</p> <p>Permission to add Documents to the new object</p></td> 
+   <td> <p>管理對檔案的存取</p> <p>將檔案新增至新物件的許可權</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,16 +61,16 @@ When you move a document, any of the following will also move with the document:
 
 +++
 
-## Move a document in the legacy documents area
+## 在舊版檔案區域中移動檔案
 
 如果您的組織位於舊版Workfront儲存空間，當您存取Workfront中的檔案時，將會看到舊版檔案區域。 如需Workfront儲存體的詳細資訊，請參閱[Adobe企業儲存體與舊版Workfront儲存體之間的差異](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage)。
 
-To move a document:
+若要移動檔案：
 
 1. 前往包含檔案的專案、任務或問題，然後選取「**檔案**」。
 1. 尋找您需要的檔案。
 
-1. Click the **Move** icon ![Move icon](assets/move-document--25x19.png).
+1. 按一下&#x200B;**移動**&#x200B;圖示![移動圖示](assets/move-document--25x19.png)。
    ![在頁面](assets/move-doc-legacy.png)上移動圖示位置
 
 1. 從出現的方塊中的下拉式功能表，按一下「**問題**」、「**專案**」或「**任務**」以指示您要移動檔案的物件型別。 
@@ -85,9 +85,9 @@ To move a document:
 
 您也可以從檔案詳細資訊頁面移動檔案。
 
-## 在新檔案區域中移動檔案
+## 在新的檔案區域中移動檔案
 
-如果您的組織使用企業儲存空間，當您存取Workfront中的檔案時，將會看到新檔案區域。 如需企業儲存的詳細資訊，請參閱[Adobe企業儲存概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+如果您的組織使用企業儲存空間，當您存取Workfront中的檔案時，將會看到新的「檔案」區域。 如需企業儲存的詳細資訊，請參閱[Adobe企業儲存概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 若要移動檔案：
 
