@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 1a498abcf4a9ef8940eb2da09da42636253e557a
+source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 5%
+source-wordcount: '635'
+ht-degree: 4%
 
 ---
 
@@ -106,7 +106,6 @@ New features in Workfront Planning are available in Production. For more informa
 
 此版本尚無下列專案的更新：
 
-* Workfront 規劃
 * 情境規劃工具
 * 校樣
 * 目標

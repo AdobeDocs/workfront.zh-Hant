@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
 workflow-type: tm+mt
-source-wordcount: '4007'
+source-wordcount: '4035'
 ht-degree: 2%
 
 ---
@@ -183,7 +183,7 @@ Old:
      >
      >在組織購買後，此訊息應立即顯示。在購買前，計畫與自訂季度已經啟用。 為您的組織啟用Workfront規劃後，不允許季度之間的重疊和間隙。
 
-   * 如果季度已部分設定，而同一年內有某些月份遺失，當您捲動以顯示一年其餘時間需要使用遺失季度設定的遺失季度時，可能會收到通知。
+   * 如果季度已部分設定，而同一年內有某些月份遺失，當您捲動以顯示一年其餘時間需要設定為遺失季度之遺失季度時，可能會收到通知。
 
    ![時間軸檢視上遺失自訂季度原始訊息](assets/missing-custom-quarters-original-message-on-timeline-view.png)
 
@@ -287,7 +287,7 @@ Old:
 1. 選取時間表檢視，然後按一下表格右上角的&#x200B;**篩選器**。
 1. 按一下&#x200B;**新增條件**&#x200B;並新增下列資訊：
 
-   * **選取欄位**&#x200B;以搜尋欄位，或從清單中選取該欄位。
+   * **選取欄位**&#x200B;以搜尋欄位，並從清單中選取它。
 
    * **選取選項** （或篩選修飾元）以定義欄位必須符合何種條件。
 
@@ -372,7 +372,7 @@ Old:
 
       ![檢視中的多重層級篩選器](assets/multi-tiered-filters-in-views.png)
 
-   系統會根據您的篩選條件自動篩選記錄清單。 <!--at this time, you can't name and save the filter - but will this change?!-->
+   系統會根據您的篩選條件自動篩選記錄清單。  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. （選擇性）按一下&#x200B;**x**&#x200B;圖示以移除篩選條件。
@@ -389,7 +389,7 @@ Old:
 
 * 您可以在表格和時間軸檢視中套用群組。 表格檢視的分組與相同記錄型別之時間軸檢視中的群組是獨立的。
 * 您可以在檢視中套用3個群組層級。 記錄會依照您選取的群組順序進行分組。
-&lt;!—*使用API時，您最多可以套用4個層級的群組。  — 現在正在檢查此專案 — >
+&lt;！—！—*使用API時，您最多可以套用4個層級的群組。  — 現在正在檢查此專案 — >
 * 群組對於您選取的檢視而言是唯一的。 相同記錄型別的兩個表格檢視可以套用不同的群組。 檢視相同表格檢視的兩個使用者會看到目前套用的相同分組。
 * 您無法為表格檢視建立的分組命名。
 * 移除群組會將群組從存取與您相同記錄型別以及顯示與您相同檢視的任何人中移除。
@@ -460,7 +460,7 @@ this is not possible right now; if this is the same functionality as the table v
    >
    >* 如果您使用「劃分」選項顯示其他記錄，則「開始」與「結束」日期為主要記錄的日期。 您無法在此區域選擇連線記錄的「開始」和「結束」日期。
 
-1. （條件式與選擇性）如果您是Workfront管理員，請在&#x200B;**使用自訂季度**&#x200B;方塊中按一下&#x200B;**前往設定**，前往設定區域並設定自訂季度。 設定自訂季度後，您可以在時間軸檢視中顯示它們，而非傳統季度。 如果您不是Workfront管理員，可以向管理員要求為您的組織啟用自訂季度。
+1. （條件式與選擇性）如果您是Workfront管理員，請按一下&#x200B;**使用自訂季度**&#x200B;方塊中的&#x200B;**前往設定**，前往設定區域並設定自訂季度。 設定自訂季度後，您可以在時間軸檢視中顯示它們，而非傳統季度。 如果您不是Workfront管理員，可以向管理員要求為您的組織啟用自訂季度。
 
    如需詳細資訊，請參閱[啟用自訂季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
@@ -567,8 +567,8 @@ this is not possible right now; if this is the same functionality as the table v
 * 只有在以「標準」模式檢視記錄時，才可以在時間軸檢視中顯示連線的記錄。 您無法在時間軸檢視的「精簡」模式中使用「劃分」選項。
 * 您可以使用「劃分」功能，在時間軸檢視中顯示下列專案：
    * Workfront Planning記錄已連線至選取的記錄型別。
-   * Workfront物件型別或連線到所選記錄型別的Experience Manager資產。
-   * Workfront Planning記錄或其他應用程式的物件，這些記錄或其他應用程式已連線至連線至所選記錄型別的記錄。
+   * 連線到所選記錄型別的Workfront或Experience Manager物件型別。
+   * Workfront Planning記錄或其他應用程式的物件，這些應用程式已連線到與所選記錄型別連線的記錄。
 
      例如，您可以將行銷活動連結至產品組合。 此外，您可以連線其他記錄型別、產品、專案以及行銷活動。 建立行銷活動時間表檢視時，您可以依產品組合、產品和專案劃分行銷活動。
 
@@ -602,7 +602,7 @@ this is not possible right now; if this is the same functionality as the table v
    >
    >    開始和結束日期必須是循序的。 如果「結束日期」早於「開始日期」，則時間軸中不會顯示任何記錄。
 
-   如果選取的記錄與其他記錄連線，則時間軸中的列會顯示一個向右的箭頭。
+   如果選取的記錄與其他記錄連線，則時間軸中的列會顯示一個向右箭頭。
 1. 按一下向右箭號以展開記錄型別並顯示其連線。<!--update screen shot at production-->
 
    ![依時間表檢視中的方案劃分的行銷活動](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
@@ -619,7 +619,7 @@ this is not possible right now; if this is the same functionality as the table v
 
    >[!TIP]
    >
-   >在&#x200B;**切換到標準檢視中選取**&#x200B;不要再顯示此專案&#x200B;**？**&#x200B;方塊，然後再切換檢視。
+   >在&#x200B;**切換到標準檢視？**&#x200B;中選取&#x200B;**不要再顯示此專案** 方塊，然後再切換檢視。
    >
    >只有目前的瀏覽器才會記住此喜好設定。 如果您變更瀏覽器或電腦，則必須再次選取此喜好設定。
    >
