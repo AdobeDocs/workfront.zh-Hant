@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: da46d6784350c8394330799fe2177e82d3519041
+source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 4%
+source-wordcount: '601'
+ht-degree: 3%
 
 ---
 
@@ -120,11 +120,18 @@ old permissions model:
 1. 按一下「**選取檔案**」，然後在電腦上瀏覽您從Microsoft專案匯出的.xml檔案。
 1. 匯入選取的檔案。 Workfront會開始匯入程式，並根據從Microsoft專案匯出的檔案建立新專案。
 
-   匯入程式完成後，您會被導向新專案頁面，該頁面會顯示匯入已成功完成的確認訊息。
-
    >[!NOTE]
    >
    >Workfront對檔案上傳有15分鐘的時間限制。 如果檔案上傳時間超過此時間，我們建議您將專案分割為較小的專案，然後分別匯入這些專案。 將任務匯入Workfront後，請將任務從一個專案移動到另一個專案，以將其合併到一個專案中。 如需關於移動任務的資訊，請參閱[移動任務](../../../manage-work/tasks/manage-tasks/move-tasks.md)。
+
+   匯入程式完成後，您會被導向新專案頁面，該頁面會顯示匯入已成功完成的確認訊息。
+
+   >[!CAUTION]
+   >
+   >如果您的Workfront執行個體同時具有Workfront和Adobe檔案儲存體的存取權，則從MS Project匯入專案會建立Workfront儲存體專案，即使Workfront管理員將Adobe企業儲存體設為系統的預設值亦然。
+   >
+   >如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
+
 
 1. （選用）繼續在Workfront中編輯專案。 如需有關編輯專案的資訊，請參閱[編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md)。
 

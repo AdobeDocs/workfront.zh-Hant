@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '840'
 ht-degree: 2%
 
 ---
@@ -103,7 +103,7 @@ ht-degree: 2%
 
    此電子郵件地址會接收無法提交至專案的電子郵件相關資訊。
 
-1. 按一下「**儲存**」。現在，當具有有效Workfront帳戶的使用者傳送電子郵件至此電子郵件地址時，Workfront專案中就會建立一個問題。
+1. 按一下「**儲存**」。 現在，當具有有效Workfront帳戶的使用者傳送電子郵件至此電子郵件地址時，Workfront專案中就會建立一個問題。
 
    >[!NOTE]
    >
@@ -121,7 +121,9 @@ ht-degree: 2%
 
   >[!NOTE]
   >
-  > MSG檔案不受支援，且不會附加至Workfront中的問題。
+  >* MSG檔案不受支援，且不會附加至Workfront中的問題。
+  >
+  >* 如果您的環境同時擁有舊版Workfront和Adobe企業檔案儲存的存取權，則無論Workfront管理員在「設定」區域為您的預設儲存偏好設定選取了什麼，請求都會從專案繼承其檔案儲存型別。 如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
 * 傳送電子郵件的使用者會成為Workfront新問題的主要聯絡人。
 * 電子郵件的內文不可超過4,000個字元。
