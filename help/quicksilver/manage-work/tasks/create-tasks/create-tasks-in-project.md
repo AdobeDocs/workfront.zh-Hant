@@ -9,9 +9,9 @@ role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1116'
 ht-degree: 2%
 
 ---
@@ -167,6 +167,12 @@ Old:
 
    1. （條件式與選擇性）如果您希望工作重複發生，請更新&#x200B;**重複發生頻率**&#x200B;欄位。 如需建立週期性工作的詳細資訊，請參閱[建立週期性工作](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md)。
    1. （選擇性）按一下左側面板中的&#x200B;**檔案**，將檔案附加到新工作，然後按一下&#x200B;**新增或連結檔案**，將檔案從您的電腦、其他服務新增到工作，或從您的電腦或其他服務連結檔案和資料夾。
+
+      >[!TIP]
+      >
+      >如果您的組織同時擁有舊版Workfront和Adobe企業檔案儲存區的存取權，則任務的「檔案」區域可能會根據您的任務使用的儲存型別而顯示不同的內容。 任務會繼承專案的儲存型別。
+      >
+      >如需詳細資訊，請參閱[從您的檔案系統新增檔案至Adobe Workfront](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md)。
 
 1. （視條件而定）如果您在步驟5中按一下&#x200B;**新增更多工**，請使用內嵌編輯開始輸入任務資訊，然後按Enter鍵。
 

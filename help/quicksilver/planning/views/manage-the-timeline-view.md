@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
-source-wordcount: '4035'
+source-wordcount: '4068'
 ht-degree: 2%
 
 ---
@@ -212,8 +212,14 @@ Old:
       * **年**：顯示有年指標的季和月。
       * **季**：顯示有季指示的月和周。
       * **月**：顯示周和日。
+
+     >[!TIP]
+     >
+     >時間軸檢視只會根據傳統季度顯示會計周。 如果您的Workfront管理員在設定區域中開啟自訂季度，則時間軸檢視中不會顯示周資訊。
+
 1. （選擇性）按一下&#x200B;**切換至精簡檢視**&#x200B;以顯示日期在同一行上不相交的記錄。<!--check to see if they updated the name of the setting here-->
 1. （視條件而定）如果您將模式變更為&#x200B;**緊密**，請按一下&#x200B;**切換至標準**&#x200B;檢視，以個別行顯示記錄。 **標準**&#x200B;選項是預設值。 <!--check to see if they updated the name of the setting here-->
+
 
 1. 執行下列動作以快速尋找符合關鍵字的記錄：
 

@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
-source-wordcount: '2009'
+source-wordcount: '2151'
 ht-degree: 2%
 
 ---
@@ -94,6 +94,13 @@ Old:
 ## 考量事項
 
 * 將問題轉換為專案時有5分鐘的處理限制。 如果問題附加了大量檔案且無法轉換，您可能需要移除部分檔案，然後重試。
+* 如果您的組織同時使用舊版Workfront和Adobe企業檔案儲存，則在將問題轉換為專案時可能會出現下列情況： <!--this info also duplicated in Document management overview for projects and related objects and Convert a task to a project-->
+   * Workfront儲存空間問題會建立Workfront儲存空間專案。
+   * Adobe企業儲存空間問題會建立Adobe儲存空間專案。
+   * 使用Workfront儲存體範本轉換Adobe儲存體問題會建立Adobe儲存體專案。
+   * 使用Adobe儲存體範本轉換Workfront儲存體問題會建立Workfront儲存體專案。
+
+     如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
 ## 將問題轉換為專案
 
@@ -213,7 +220,7 @@ Old:
    * 範本中所有任務的數量
    * 範本自訂表單的名稱
 
-1. （選擇性）將滑鼠移到範本名稱上，然後按一下&#x200B;**我的最愛**&#x200B;圖示![我的最愛](assets/favorites-icon-small.png)，將其標示為我的最愛，以供日後使用。
+1. （選擇性）將滑鼠停留在範本名稱上，然後按一下&#x200B;**我的最愛**&#x200B;圖示![我的最愛](assets/favorites-icon-small.png)，將其標示為我的最愛，以供日後使用。
 
    >[!TIP]
    >
@@ -224,6 +231,14 @@ Old:
    [!UICONTROL 轉換至專案]方塊開啟。
 
    ![轉換至專案](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
+
+   >[!TIP]
+   >
+   >* 使用Workfront儲存體範本轉換Adobe儲存體問題會建立Adobe儲存體專案。
+   >* 使用Adobe儲存體範本轉換Workfront儲存體問題會建立Workfront儲存體專案。
+   >
+   >如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
+
 
 1. 如果欄位已填入範本中，則該欄位會預先填入[!UICONTROL 轉換為專案]方塊中。 您可以編輯預先填入的值，以更符合您的專案。 如需詳細資訊，請參閱[編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md)。
 
@@ -258,20 +273,20 @@ Old:
      >
      >或者，如果您組織中的最上層群組已個別設定這些群組，此處可用的選項取決於您在步驟6為新專案選取的群組。 如需詳細資訊，請參閱[設定群組的任務和問題偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)。
 
-   1. 按一下&#x200B;[!UICONTROL **自訂Forms**]，然後執行下列任一動作：
+1. 按一下&#x200B;[!UICONTROL **自訂Forms**]，然後執行下列任一動作：
 
-      * 檢閱附加到範本的自訂表單。 他們將會轉移到新專案。
-      * 檢閱附加到問題的自訂表單。 如果他們也是專案表單，則會傳輸到專案。
-      * 請確定所有必要欄位都有有效的資訊。
-      * 將自訂表格拖曳到您要的位置![將圖示](assets/drag-object-icon.png)拖曳到您要的位置，以重新排列自訂表格。
-      * 按一下您不想要轉移到專案的任何表單右側的&#x200B;**x**&#x200B;圖示。
-      * 如有必要，請將問題中的自訂表單資訊傳輸至專案。
+   * 檢閱附加到範本的自訂表單。 他們將會轉移到新專案。
+   * 檢閱附加到問題的自訂表單。 如果他們也是專案表單，則會傳輸到專案。
+   * 請確定所有必要欄位都有有效的資訊。
+   * 將自訂表格拖曳到您要的位置![將圖示](assets/drag-object-icon.png)拖曳到您要的位置，以重新排列自訂表格。
+   * 按一下您不想要轉移到專案的任何表單右側的&#x200B;**x**&#x200B;圖示。
+   * 如有必要，請將問題中的自訂表單資訊傳輸至專案。
 
-        >[!TIP]
-        >
-        >* 如果附加到問題的多物件自訂表單已設定為同時用於問題和專案，則當您進行轉換時，如果問題和專案的自訂表單上同時存在欄位，則保留表單中儲存的所有資訊。
-        >* 如果將具有計算欄位的多物件自訂表單附加到問題和專案，問題和專案必須與表單的計算自訂欄位中參照的所有欄位相容。 如果發生不相容的情況，訊息會警告您進行調整。 如需詳細資訊，請參閱[將計算欄位新增至表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)。
-        >* 如果附加到範本的自訂表單包含自訂欄位，也在附加到問題的自訂表單中找到，則問題的欄位值將用於新專案。 但是，如果問題的自訂欄位為空白，則會使用範本的值。
+     >[!TIP]
+     >
+     >* 如果附加到問題的多物件自訂表單已設定為同時用於問題和專案，則當您進行轉換時，如果問題和專案的自訂表單上同時存在欄位，則保留表單中儲存的所有資訊。
+     >* 如果將具有計算欄位的多物件自訂表單附加到問題和專案，問題和專案必須與表單的計算自訂欄位中參照的所有欄位相容。 如果發生不相容的情況，訊息會警告您進行調整。 如需詳細資訊，請參閱[將計算欄位新增至表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)。
+     >* 如果附加到範本的自訂表單包含自訂欄位，也在附加到問題的自訂表單中找到，則問題的欄位值將用於新專案。 但是，如果問題的自訂欄位為空白，則會使用範本的值。
 
 1. （選擇性）視需要設定任何其他專案詳細資訊&#x200B;（專案所有者、專案日期）和任務。
 
