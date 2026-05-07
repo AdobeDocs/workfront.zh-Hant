@@ -1,28 +1,28 @@
 ---
 navigation-topic: get-started-with-workfront
-title: Use Enhanced Lists
-description: Enhanced lists use a table format for displaying the list items, and they have a different look and feel than the standard lists
+title: 使用增強型清單
+description: 增強型清單會使用表格格式來顯示清單專案，而且其外觀和感覺與標準清單不同
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
-source-wordcount: '2931'
+source-wordcount: '2933'
 ht-degree: 1%
 
 ---
 
 # 使用增強型清單
 
-Enhanced lists are available in some areas of Adobe Workfront. These lists use a table format for displaying the list items, and they have a different look and feel than the standard lists. The management of views is also enhanced, including filtering, grouping, managing columns, and searching.
+Adobe Workfront的部分割槽域提供增強型清單。 這些清單使用表格格式來顯示清單專案，並且它們具有與標準清單不同的外觀和感覺。 也增強了檢視管理，包括篩選、分組、管理欄和搜尋。
 
-For information about the standard lists, see [Get started with lists in Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+如需有關標準清單的資訊，請參閱[開始使用Adobe Workfront中的清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)。
 
 >[!NOTE]
 >
->Each enhanced list may be configured differently to help you display the data that you need. Every list will not use every feature described in this article, and some lists may have specialized features that only apply to that list.
+>每個增強型清單的設定方式可能有所不同，以協助您顯示所需的資料。 並非每個清單都會使用本文所述的所有功能，有些清單可能會有僅適用於該清單的特殊功能。
 
 ## 存取權要求
 
@@ -49,18 +49,18 @@ For information about the standard lists, see [Get started with lists in Adobe W
 
 +++
 
-## Objects that use enhanced lists
+## 使用增強型清單的物件
 
-Below are some types of Workfront object lists that use the enhanced list format and some of the areas where they display by default when you have rights to view the object.
+以下是一些型別的Workfront物件清單，這些清單使用增強型清單格式，以及在您有權檢視物件時預設會顯示這些清單的一些區域。
 
 >[!NOTE]
 >
->This list is not comprehensive. Each of these object lists can also appear on a report or a dashboard. For example, a Request report or a dashboard that contains a Request report also displays a list of requests.
+>此清單並不完整。 這些物件清單中的每一份也都會出現在報表或儀表板上。 例如，請求報告或包含請求報告的儀表板也會顯示請求清單。
 
-| Workfront list | Location of object list |
+| Workfront清單 | 物件清單的位置 |
 | --- | --- |
-| 優先順序 | <ul><li>Home > select the Priorities icon in the left menu</li><li>Main Menu > Priorities</li></ul> |
-| List of requests | <ul><li>Requests (new experience only)</li><li>My Requests widget on Home</li></ul> |
+| 優先順序 | <ul><li>首頁>選取左側功能表中的「優先順序」圖示</li><li>主要功能表>優先順序</li></ul> |
+| 請求清單 | <ul><li>請求（僅限新體驗）</li><li>首頁上的我的請求Widget</li></ul> |
 | 設定中的狀態、優先順序、嚴重程度和匯率清單 | <ul><li>設定>專案偏好設定>狀態</li><li>設定>專案偏好設定>優先順序</li><li>設定>專案偏好設定>嚴重程度</li><li>設定>專案偏好設定>匯率</li></ul> |
 | 報告清單 | 報告（**使用可共用的資料夾**&#x200B;必須開啟） |
 | 費率卡上的職務角色和費率清單 | 設定>費率卡>選取費率卡>職務角色與費率 |
@@ -68,7 +68,7 @@ Below are some types of Workfront object lists that use the enhanced list format
 | 快照清單 | 專案>快照 |
 | 計費的資源清單 | 專案>計費資源 |
 | 在任務中新增進階指派 | 任務>工作總攬>進階 |
-| Adobe企業儲存空間上的檔案 | 專案、任務、問題、投資組合、計畫範本>檔案 |
+| Adobe企業儲存空間上的檔案 | 專案，任務，問題，投資組合，方案，範本，範本任務>檔案 |
 
 ## 將專案新增至增強型清單
 
@@ -173,62 +173,62 @@ Below are some types of Workfront object lists that use the enhanced list format
 
 1. 按一下表格右上角的+圖示以開啟&#x200B;**欄管理員**&#x200B;方塊。
 1. 搜尋&#x200B;**可用**&#x200B;欄位中的現有物件欄位，然後按一下欄位名稱右側的+ ，以將其新增至&#x200B;**已選取**&#x200B;欄。
-1. Click - to the right of a field in the **Selected** column to remove it from the list.
+1. 按一下&#x200B;**已選取**&#x200B;欄中欄位右側的 — 以將其從清單中移除。
 
    >[!NOTE]
    >
-   >Some fields might be fixed and cannot be removed.
+   >部分欄位可能已修正且無法移除。
 
    <!-- Add info about Properties and KPIs when something gets released with those options -->
 
 1. 按一下「**儲存**」。
 
-   ![Column manager](assets/glist-column-manager.png)
+   ![資料行管理員](assets/glist-column-manager.png)
 
-   The list updates the columns according to the choices you made.
+   清單會根據您所做的選擇更新欄。
 
-### Change the row height in a view
+### 變更檢視中的列高
 
 >[!NOTE]
 >
->Not all enhanced lists have all the elements described in this section.
+>並非所有增強型清單都具有本節所述的所有元素。
 
-1. Click the **Row height** icon ![Row height icon](assets/row-height-icon.png) in an enhanced list.
+1. 按一下增強型清單中的&#x200B;**列高**&#x200B;圖示![列高圖示](assets/row-height-icon.png)。
 
-   This updates the vertical length of a row. 從下列選項中選擇:
+   這會更新列的垂直長度。 從下列選項中選擇:
    * 短
-   * Standard. This is the default choice.
+   * 標準。 這是預設選擇。
    * 媒體
    * 高
 
-## Update enhanced list elements
+## 更新增強型清單元素
 
-The following elements are components of an enhanced list:
+下列元素是增強型清單的元件：
 
-* **View**: Defines the columns, filters, and groupings in the list with preset settings
-* **Filters**: Limits the amount of information displayed in the list
-* **Groupings**: Organize the list items according to common fields
-* **Sort**: Arranges the items in a list according to the order you identify for a given field
-* **Search**: Quickly finds an item using a search keyword
+* **檢視**：使用預設集設定定義清單中的欄、篩選器和群組
+* **篩選器**：限制清單中顯示的資訊量
+* **群組**：根據通用欄位組織清單專案
+* **排序**：根據您識別特定欄位的順序排列清單中的專案
+* **搜尋**：使用搜尋關鍵字快速尋找專案
 
-### Apply and create views
+### 套用和建立檢視
 
 >[!NOTE]
 >
->Not all enhanced lists have all the elements described in this section.
+>並非所有增強型清單都具有本節所述的所有元素。
 
-To apply or create a view:
+若要套用或建立檢視：
 
-1. Click the **Views** dropdown and select an existing view to apply it to the list
+1. 按一下&#x200B;**檢視**&#x200B;下拉式清單，然後選取現有檢視以將其套用至清單
 
    或
 
-   Click **New view** to create one.
+   按一下&#x200B;**新檢視**&#x200B;以建立檢視。
 
-1. (Conditional) For adding a new view, enter a name for the view, then click **Create**.
-1. (Optional) Hide, show, or rearrange the columns. For more information, see [Customize columns in an enhanced list](#customize-columns-in-an-enhanced-list).
+1. （視條件而定）若要新增檢視，請輸入檢視的名稱，然後按一下[建立]。****
+1. （選用）隱藏、顯示或重新排列欄。 如需詳細資訊，請參閱[自訂增強型清單中的欄](#customize-columns-in-an-enhanced-list)。
 1. （選用）篩選清單。 如需詳細資訊，請參閱[篩選增強型清單](#filter-items-in-an-enhanced-list)中的專案。
-1. （選用）將清單中的專案分組。 如需詳細資訊，請參閱增強型清單[&#128279;](#group-items-in-an-enhanced-list)中的群組專案。
+1. （選用）將清單中的專案分組。 如需詳細資訊，請參閱增強型清單](#group-items-in-an-enhanced-list)中的[群組專案。
 
    檢視的變更會自動儲存。 下次套用此檢視時，欄和篩選設定仍會保留您設定的方式。
 
@@ -357,100 +357,100 @@ To apply or create a view:
 
 1. 按一下清單上方的&#x200B;**篩選器**。
 1. 在[篩選]方塊中，按一下[**新增條件**]。
-1. Select a field to filter by.
-1. Select a filter modifier, such as &quot;Has any of,&quot; &quot;Has none of,&quot; &quot;Is before,&quot; or &quot;Is after.&quot; The modifier options are different depending on the type of field you are filtering by.
-1. Select the field value or values. Depending on the field type you are filtering by, you might be prompted to select the item from a list, search for it, or use a calendar to select a date range.
+1. 選取欄位作為篩選依據。
+1. 選取篩選修飾元，例如「具有任何」、「不具有任何」、「早於」或「晚於」。 修正因子選項會因您篩選的欄位型別而異。
+1. 選取一或多個欄位值。 根據您篩選的欄位型別，系統可能會提示您從清單中選取專案、搜尋專案，或使用日曆來選取日期範圍。
 
-   ![Filter in enhanced lists](assets/glist-filter-with-options.png)
+   ![在增強型清單中篩選](assets/glist-filter-with-options.png)
 
-   The filter is applied to the list automatically.
+   篩選器會自動套用至清單。
 
    >[!TIP]
    >
-   >To apply a personalized filter, select one of the following options for a field value:
+   >若要套用個人化篩選，請為欄位值選取下列其中一個選項：
    >
-   >* **Me (logged in user)** to refer to the logged in user in fields referring to users.
+   >* **我（已登入的使用者）**&#x200B;在引用使用者的欄位中引用已登入的使用者。
    >
-   >* **My teams** or **My home team** to refer to your teams in fields referring to teams.
+   >* **我的團隊**&#x200B;或&#x200B;**我的主團隊**&#x200B;在引用團隊的欄位中引用您的團隊。
    >
-   >* **My groups** or **My home group** to refer to your groups in fields referring to groups.
+   >* **我的群組**&#x200B;或&#x200B;**我的主群組**&#x200B;在引用群組的欄位中引用您的群組。
    >
-   >* **My company** to refer to your company in fields referring to companies.
+   >* **我的公司**&#x200B;在引用公司的欄位中引用您的公司。
    > 
-   >* **My roles** or **My primary role** to refer to your job roles in fields referring to roles.
+   >* **我的角色**&#x200B;或&#x200B;**我的主要角色**，在引用角色的欄位中引用您的工作角色。
 
-1. Click **Add condition** to add another condition to the filter.
+1. 按一下&#x200B;**新增條件**&#x200B;以新增其他條件至篩選器。
 
-   You can join multiple filters by an AND or an OR connector.
+   您可以使用AND或OR聯結器聯結多個篩選器。
 
-1. When the filter is applied, you can open the **Filter** options again to change the filter options or clear all of the filters.
+1. 套用篩選器時，您可以再次開啟&#x200B;**篩選器**&#x200B;選項來變更篩選器選項或清除所有篩選器。
 
-   An indicator appears on the **Filter** button when a filter is applied to the list.
+   將篩選器套用至清單時，**篩選器**&#x200B;按鈕上會出現指示器。
 
-   ![Filter applied indicator](assets/glist-filter-applied-indicator.png)
+   ![已套用篩選指示器](assets/glist-filter-applied-indicator.png)
 
-### Group items in an enhanced list
-
->[!NOTE]
->
->並非所有增強型清單都具有本節所述的所有元素。
-
-Groupings separate the objects on the list into areas based on specific criteria.
-
-Workfront provides a limited number of predefined groupings and you cannot modify them.
-
-1. Click **Grouping** above the list.
-1. Select a grouping to organize your list.
-
-   ![Select a grouping](assets/glist-grouping-choose-a-group-by.png)
-
-1. Click **Collapse all** to display the list with all the groupings collapsed. The default option is to display the list with all groupings expanded.
-1. When the grouping is applied, you can open the Group options again to collapse or expand all of the groupings at once, change the grouping to group by a different field, or clear all of the groupings.
-
-   ![Grouping in enhanced lists](assets/glist-group-by-due-date-priorities.png)
-
-   An indicator appears on the **Grouping** button when a grouping is applied to the list.
-
-   ![Grouping applied indicator](assets/glist-grouping-applied-indicator.png)
-
-### Sort in an enhanced list
+### 在增強型清單中將專案分組
 
 >[!NOTE]
 >
 >並非所有增強型清單都具有本節所述的所有元素。
 
-To sort individual columns:
+分組會根據特定條件將清單上的物件分成多個區域。
 
-1. Hover over the column, then click the down arrow and select **Sort**.
+Workfront提供有限數量的預先定義群組，且您無法加以修改。
 
-   An icon next to a column name indicates that the list is sorted by the values in that column, and the direction of the sort.
+1. 按一下清單上方的&#x200B;**群組**。
+1. 選取要組織清單的分組。
+
+   ![選取一個群組](assets/glist-grouping-choose-a-group-by.png)
+
+1. 按一下「全部摺疊&#x200B;**」**&#x200B;以顯示包含所有摺疊群組的清單。 預設選項是顯示所有展開分組的清單。
+1. 套用群組時，您可以再次開啟「群組」選項以一次摺疊或展開所有群組、將群組變更為依不同欄位分組，或清除所有群組。
+
+   ![在增強型清單中分組](assets/glist-group-by-due-date-priorities.png)
+
+   將分組套用至清單時，**分組**&#x200B;按鈕上會出現指示器。
+
+   ![群組已套用指標](assets/glist-grouping-applied-indicator.png)
+
+### 在增強型清單中排序
+
+>[!NOTE]
+>
+>並非所有增強型清單都具有本節所述的所有元素。
+
+若要排序個別欄，請執行下列動作：
+
+1. 將游標停留在欄上，然後按向下箭頭並選取&#x200B;**排序**。
+
+   欄名稱旁的圖示表示清單會依該欄中的值排序，以及排序的方向。
 
    >[!NOTE]
    >
-   >Some columns might not be sortable, depending on the list.
+   >視清單而定，某些欄可能無法排序。
 
-   ![Sort by a column](assets/glist-sort-by-column.png)
+   ![依資料行排序](assets/glist-sort-by-column.png)
 
-1. (Optional) To sort your work within a grouping, click **Grouping**, go to the line of the applied grouping, click on the sorter dropdown, and select an ascending or descending order.
+1. （選擇性）若要排序群組內的工作，請按一下&#x200B;**群組**，移至套用之群組的行，按一下排序下拉式清單，然後選取遞增或遞減順序。
 
-   ![Sort in a grouping](assets/sort-in-groups.png)
+   ![在群組中排序](assets/sort-in-groups.png)
 
    >[!TIP]
    >
-   >The sorting order differs based on the field type you sort by.
+   >排序順序會因您排序的欄位型別而異。
 
-### Search in an enhanced list
+### 在增強型清單中搜尋
 
 >[!NOTE]
 >
 >並非所有增強型清單都具有本節所述的所有元素。
 
-1. Type a keyword you want search by in the Search box in the upper-right corner of the list. The results are highlighted in the list as you type.
+1. 在清單右上角的「搜尋」方塊中，輸入您要搜尋的關鍵字。 當您鍵入時，結果會在清單中反白顯示。
 
-   ![Search term highlighted](assets/glist-search-highlighted.png)
+   ![強調的搜尋字詞](assets/glist-search-highlighted.png)
 
    >[!NOTE]
    >
-   >The search looks at all columns in all list items. If the list is long, the search includes items that you may need to scroll to see. When the list is filtered, the search only looks at what is currently displayed.
+   >搜尋會檢視所有清單專案中的所有欄。 如果清單很長，則搜尋會包含您可能需要捲動才能檢視的專案。 篩選清單時，搜尋只會檢視目前顯示的內容。
 
 

@@ -8,9 +8,9 @@ feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 62d7144f808e7937f11c11ccff64e409c76f2197
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1302'
 ht-degree: 2%
 
 ---
@@ -47,7 +47,7 @@ Adobe Workfront目前有以下兩種檔案儲存型別：
 <p>使用Adobe企業儲存體管理檔案的任何Workflow套件</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
+   <td role="rowheader">Adobe Workfront 授權</td> 
    <td> 
    <p>投稿人或以上</p> 
    <p>要求或更高版本</p> </td> 
