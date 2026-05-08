@@ -47,11 +47,11 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[！UICONTROL編輯]任務或問題的存取權</p></td> 
+   <td> <p>[!UICONTROL 編輯]任務或問題的存取權</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>[！UICONTROL記錄時數]任務或問題的許可權</p> </td> 
+   <td> <p>[!UICONTROL 記錄時數]任務或問題的許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>

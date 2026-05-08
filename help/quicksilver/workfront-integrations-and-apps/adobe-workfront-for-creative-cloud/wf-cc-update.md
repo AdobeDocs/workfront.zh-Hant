@@ -50,7 +50,7 @@ ht-degree: 10%
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>[！UICONTROL View]存取您要更新的物件。 </p></td> 
+   <td> <p>[!UICONTROL View]存取您要更新的物件。 </p></td> 
   </tr> 
  </tbody> 
 </table>
