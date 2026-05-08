@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '7110'
+source-wordcount: '7120'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="wf-resourcing-utilization"
 >title="使用情況報告"
->abstract="使用情況報告可讓您在單一報告中檢視專案、方案或專案組合的進度、成本、或收入。您也可以比較收入和成本。"
+>abstract="使用情況報告可讓您在單一報告中檢視專案、方案或專案組合的進度、成本、或收入。 您也可以比較收入和成本。"
 
 <!-- Audited: 01/2024 -->
 
@@ -111,7 +111,7 @@ ht-degree: 1%
 
 ## 使用率報表概要 {#overview-of-the-utilization-report}
 
-使用情況報告可讓您在單一報告中檢視專案、方案或專案組合的進度、成本、或收入。您也可以比較收入和成本。
+使用情況報告可讓您在單一報告中檢視專案、方案或專案組合的進度、成本、或收入。 您也可以比較收入和成本。
 
 您可以在「資源」區域中檢視「使用率」報表，以顯示多個專案間的使用率，或在一個專案層次中檢視該報表，以顯示與該專案相關聯的個別資源（職務角色和使用者）的使用率。
 
@@ -139,7 +139,7 @@ ht-degree: 1%
    <td scope="col"><strong>預算時數</strong> </td> 
    <td scope="col"> <p>包含的專案的總預算時數。 您可以檢視包含專案之整個生命週期的預算時數總計，或僅檢視指定日期範圍的預算時數總計（您可以指定個別周或月）。 </p> <p>預算時數是從業務案例的資源預算區域或資源規劃工具<em>.</em>中的可用資訊填入</p> <p>預算時數會出現在下列任何一列的「使用率」報表中：</p> 
     <ul> 
-     <li> 預算時數是依工作角色及使用率報告中的個別使用者來摘要，如下所示： <br><strong>個別使用者： </strong>預算時數是每個使用者在使用率報告中的摘要。 這些預算時數與在內含專案中指派給使用者的任務和問題相關聯。 （您可以展開對應工作角色的列，以檢視具有該工作角色的使用者清單。）<br><strong>工作角色：</strong>預算時數按工作角色彙總於使用率報告中。由於下列任何情況，<br>預算時數出現在特定工作角色中：
+     <li> 預算時數是依工作角色及使用率報告中的個別使用者來摘要，如下所示： <br><strong>個別使用者： </strong>預算時數是每個使用者在使用率報告中的摘要。 這些預算時數與在內含專案中指派給使用者的任務和問題相關聯。 （您可以展開對應工作角色的資料列，以檢視具有該工作角色的使用者清單。）<br><strong>工作角色：</strong>預算時數在使用情況報告中依工作角色進行摘要。由於下列任何情況，<br>預算時數出現在特定工作角色中：
      <ul>
      <li>工作角色定義為指派給與預算時數相關聯之任務或問題的使用者的主要工作角色。 </li> 
        <li>當您檢視單一專案的使用率資訊時，無論任務或問題中沒有指派、指派另一個使用者沒有工作角色指派、指派另一個使用者有不同的工作角色或指派另一個團隊，都會使用指派時數之使用者的工作角色。</li> 
@@ -149,7 +149,7 @@ ht-degree: 1%
     </ul> 
     <ul> 
      <li> <p><strong>未配置時數</strong>：當預算時數與任務或問題相關聯，且沒有使用者或角色指派給任務或問題時，預算時數會顯示在未配置時數區段的使用率報告中。<br>只有當專案上有符合此說明的小時數，以及當專案檢視或來自專案檢視使用情況報告時，才會顯示此區段。 </p> <p>僅當專案上存在符合此說明的小時數時，以及當按專案或從專案檢視「使用率」報告時，才會顯示此區段。 </p> </li> 
-    </ul> <p>如需有關預算時數的詳細資訊，請參閱<a href="/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md#locate-the-budgeted-hours-of-a-project">在</a>瞭解專案的預算勞力成本和預算時數<a href="/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md">中找到專案的預算時數</a>。</p> </td> 
+    </ul> <p>如需有關預算時數的詳細資訊，請參閱<a href="/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md#locate-the-budgeted-hours-of-a-project">在<a href="/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md">瞭解專案的預算勞力成本和預算時數</a>中找到專案的預算時數</a>。</p> </td> 
   </tr> 
   <tr> 
    <td scope="col"><strong>規劃時數</strong> </td> 
@@ -218,7 +218,7 @@ ht-degree: 1%
    <td><strong>實際時數</strong> </td> 
    <td> <p> 針對包含的專案，在任務、問題<span>和專案</span>上記錄的總時數。 您可以檢視所包含專案整個生命週期的實際小時總計，或僅檢視指定日期範圍內的實際小時總計（您可以指定個別周或月）。 </p> <p><strong>警告：</strong>使用率報告包含記錄到專案的時數、子系任務、問題和至少有一個指派的父系任務。 它不包括記錄到沒有指派的父系任務的小時數。 我們建議您不要將父系任務用作工作任務，並且只將子系任務指派給您的資源。 </p> <p>實際時數會顯示在任何下列資料列的使用率報表中：</p> 
     <ul> 
-     <li> 實際時數是依工作角色及專案使用率報表中的個別使用者來彙總，如下所示：<br><strong>個別使用者：</strong>實際時數會顯示在記錄時數之使用者列的使用率報表中。 （您可以展開對應工作角色的列，以檢視具有該工作角色且已記錄時數的使用者清單。）<br><strong>工作角色：</strong>與這些角色相關聯的使用者所記錄的實際時數，會摘要至對應工作角色列中的使用率報告。由於下列任何情況，<br>實際時數會出現在特定工作角色中： 
+     <li> 實際時數是依工作角色及專案使用率報表中的個別使用者來彙總，如下所示：<br><strong>個別使用者：</strong>實際時數會顯示在記錄時數之使用者列的使用率報表中。 （您可以展開對應工作角色的列，以檢視具有該工作角色且已記錄時數的使用者清單。）<br><strong>工作角色：</strong>與這些角色相關聯的使用者所記錄的實際時數，會摘要至對應工作角色列中的使用率報表。由於下列任何情況，<br>實際時數會出現在特定工作角色中： 
       <ul> 
        <li>工作角色定義為記錄時數之使用者的主要工作角色</li> 
        <li>任務或問題上沒有指派</li> 
@@ -245,7 +245,7 @@ ht-degree: 1%
 
 您可以檢視預算成本與計畫成本與實際成本的比較結果，以追蹤成本。
 
-追蹤專案、方案或投資組合的成本時，「使用率」報表中的資訊來自任務。 作業的成本資訊一律可在「使用率」報表中取得。 根據任務的成本型別計算任務的成本。 如需有關工作的成本型別資訊，請參閱[追蹤成本](/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-cost-types-for-tasks)中的[Workfront如何計算工作的成本型別](/help/quicksilver/manage-work/projects/project-finances/track-costs.md)。
+追蹤專案、方案或投資組合的成本時，「使用率」報表中的資訊來自任務。 作業的成本資訊一律可在「使用率」報表中取得。 根據任務的成本型別計算任務的成本。 如需有關工作的成本型別資訊，請參閱[追蹤成本](/help/quicksilver/manage-work/projects/project-finances/track-costs.md)中的[Workfront如何計算工作的成本型別](/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-cost-types-for-tasks)。
 
 您可以透過下列方式在「使用率」報表中顯示成本資訊：
 
@@ -272,11 +272,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td scope="col"><strong>規劃成本</strong> </td> 
-   <td scope="col"> <p>包含的專案上的總計畫成本。 您可以檢視包含專案之整個生命週期的計畫成本總計，或僅檢視指定日期範圍的計畫成本總計（您可以指定個別周或月）。</p> <p>請注意，對於周、月和每季檢視，當工作角色或使用者的成本費率生效時，計畫成本會計算為所選期間的平均值。</p><p>如需有關如何計算專案計畫成本的資訊，請參閱<a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-planned-budgeted-and-actual-costs">追蹤成本</a>中的<a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md">Workfront如何計算計畫、預算與實際成本</a>。</p> </td>
+   <td scope="col"> <p>包含的專案上的總計畫成本。 您可以檢視包含專案之整個生命週期的計畫成本總計，或僅檢視指定日期範圍的計畫成本總計（您可以指定個別周或月）。</p> <p>請注意，對於周、月和每季檢視，當工作角色或使用者的成本費率生效時，計畫成本會計算為所選期間的平均值。</p><p>如需有關如何計算專案計畫成本的資訊，請參閱<a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md">追蹤成本</a>中的<a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-planned-budgeted-and-actual-costs">Workfront如何計算計畫、預算與實際成本</a>。</p> </td>
   </tr> 
   <tr> 
    <td scope="col"><strong>實際成本</strong> </td> 
-   <td scope="col"> <p>包含專案的總實際成本。 您可以檢視包含專案之整個生命週期的實際成本總計，或僅檢視指定日期範圍的實際成本總計（您可以指定個別周或月）。</p> <p>如需有關如何計算專案實際成本的資訊，請參閱<a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-planned-budgeted-and-actual-costs">追蹤成本</a>中的<a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md">Workfront如何計算計畫、預算與實際成本</a>。</p> </td>
+   <td scope="col"> <p>包含專案的總實際成本。 您可以檢視包含專案之整個生命週期的實際成本總計，或僅檢視指定日期範圍的實際成本總計（您可以指定個別周或月）。</p> <p>如需有關如何計算專案實際成本的資訊，請參閱<a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md">追蹤成本</a>中的<a href="/help/quicksilver/manage-work/projects/project-finances/track-costs.md#how-workfront-calculates-planned-budgeted-and-actual-costs">Workfront如何計算計畫、預算與實際成本</a>。</p> </td>
   </tr> 
   <tr> 
    <td><strong>預算差額（成本）</strong> </td> 
@@ -340,7 +340,7 @@ ht-degree: 1%
 </tr> 
   <tr> 
    <td><strong>實際收入</strong> </td>
-   <td> <p>實際收入是與任務及專案之實際時數關聯的收入。 如需實際收入的詳細資訊，請參閱<a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#track-revenue-amounts">帳單與收入總覽</a>中的<a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md">追蹤收入金額</a>。</p>
+   <td> <p>實際收入是與任務及專案之實際時數關聯的收入。 如需實際收入的詳細資訊，請參閱<a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md">帳單與收入總覽</a>中的<a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#track-revenue-amounts">追蹤收入金額</a>。</p>
    <p>「使用率」報表計算所包含專案之「實際收入」的方式，會根據作業上設定的「收入型態」而有所不同，如下所示：</p> <p><strong>固定收入：</strong>無論任務指派為何，任務的收入一律會使用任務上指定的固定金額計算。</p> <p><b>重要</b></p>
    <p>與Workfront的其他區域不同，「使用率」報表會計算「實際收入」，方法是將「固定收入」平均除以任務上記錄的時數。 </p> <p> </p> <p>例如，任務的實際收入為$200。 如果任務有4個實際時數，則每小時將為$50。 這會分散到使用者和角色層級。 此分配在「使用率」報表中是唯一的。</p> <p><b>附註</b></p></p>
    <p>如果您有「固定收入」作業，且作業上沒有「實際時數」，則「使用率報表」中不會顯示「實際收入」，因為無法分配時數。 </p> <p><strong>每小時角色：</strong>任務的收入是使用為特定角色設定的收費率，乘以實際時數所計算得出的。</p> <p>Workfront會使用以下公式：</p> <p><code>Role Hourly Actual Revenue = SUM(Actual Hours from role on all tasks) * Role Billing Rate</code> </p> <p><b>備註：</b>公式中的計費小時費率會考量費率的任何日期有效變更。</p> <p><strong>每小時使用者：</strong>工作上的收入是使用為特定使用者設定的收費率，乘以該使用者針對工作所記錄的時數所計算的。 Workfront會使用以下公式：</p> <p><code>User Hourly Actual Revenue = SUM(Actual Hours from user on all tasks) * User Billing Rate</code></p> <p><b>備註：</b>公式中的計費小時費率會考量費率的任何日期有效變更。</p> <p><b>角色或使用者小時加固定</b> </p> <p><b>重要</b>
@@ -457,8 +457,8 @@ Note from the table from above "Function" header in the middle of the table; rig
 
      {{step1-to-utilization-report}}
 
-      1. 將篩選器套用至[使用率]報告，然後按一下[執行]。
-**&#x200B;**&#x200B;執行「使用率」報告之前，您必須在篩選器中指定一或多個專案。 如需有關如何篩選使用率報告的資訊，請參閱本文中的[篩選使用率資訊](#filter-utilization-information)。\
+      1. 將篩選器套用至[使用率]報告，然後按一下[執行]。**&#x200B;**
+執行「使用率」報告之前，您必須在篩選器中指定一或多個專案。 如需有關如何篩選使用率報告的資訊，請參閱本文中的[篩選使用率資訊](#filter-utilization-information)。\
          會顯示個別角色和專案的利用資訊（角色會在其相關聯專案中分組）。
 
    * 若要檢視方案的使用率資訊，請執行下列步驟：
