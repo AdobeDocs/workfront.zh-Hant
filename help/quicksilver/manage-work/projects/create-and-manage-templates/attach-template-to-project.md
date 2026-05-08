@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 2%
+source-wordcount: '1130'
+ht-degree: 5%
 
 ---
 
@@ -169,11 +169,11 @@ ht-degree: 2%
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">選取您想要作為此範本中任務的前置任務的專案任務。</td> 
+      <td role="rowheader">選取您想要在此範本中作為任務前置任務的專案任務。</td> 
       <td> <p>按一下欄位方塊以顯示專案任務清單，然後選取在範本任務可以開始之前必須完成的任務。 或者，您可以略過此步驟，並在附加範本後在專案中設定關係。 </p> <p> 選取<strong>相依性型別</strong>、<strong>延遲時間</strong>資訊，如果您要透過勾選<strong>強制執行前置任務</strong>核取方塊來強制執行前置任務，請選取。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">選取您想要當作此範本中任務之父系的專案任務。</td> 
+      <td role="rowheader">選取您想要在此範本中作為任務父系的專案任務。</td> 
       <td> <p>選取您想要指定為所有範本任務之父系任務的專案任務。 如果您未進行選取，所有範本任務都會顯示在目前專案任務的結尾。 您可以略過此步驟，並在附加範本後移動專案中的任務。</p>
       <p><b>附註</b></p>
       <p>如果您選取了具有其他子系的父項範本任務，則只有父項會在將專案任務新增至專案後，顯示為其前置任務。 子範本任務不會顯示前置任務。</p>

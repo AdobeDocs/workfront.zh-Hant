@@ -8,7 +8,7 @@ role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 2%
@@ -54,24 +54,21 @@ ht-degree: 2%
  <col>
  </col>
  <tbody>
-    <tr>
- <tr>
+   <tr>
+   <tr>
    <td role="rowheader"><p>Adobe Workfront 封裝</p></td>
    <td>
    <p>任何Workfront和Planning套件</p>
    <p>任何工作流程和Planning套件</p>
-
-<p><b>附註</b></p>
-
-<p>若要存取可連線的記錄型別：</p>
+   <p><b>附註</b></p>
+   <p>若要存取可連線的記錄型別：</p>
    <ul><li><p>任何Workfront套件和Planning套件</p></li>
    <li><p>任何工作流程及Planning Prime和Ultimate套件</p></li></ul>
 
 <p>若要存取全域記錄型別：</p>
    <ul><li><p>任何Workfront套件和Planning Plus套件</p></li>
    <li><p>任何Workflow套件和Planning Prime與Ultimate套件</p></li></ul> </td></tr>
-
-<!--
+   <!--
    <tr>
    <td role="rowheader"><p>Adobe Workfront platform</p></td>
    <td>
@@ -80,22 +77,21 @@ ht-degree: 2%
    <p>Only users added to the Adobe Identity Management System (IMS) can be granted permissions and added to Planning fields.</p>
    <p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
    </td>
-  </tr>
-  -->
-
-<tr>
+   </tr>
+   -->
+   <tr>
    <td role="rowheader"><p>Adobe Workfront授權</p></td>
    <td>
    <ul><li><p>任一，若要檢視Workfront Planning資訊</p></li>
    <li><p>標準，建立工作區和檢視</p></li></ul>
     </td>
-  </tr>
-  <tr>
+   </tr>
+   <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
    <td> <p>Adobe Workfront Planning沒有存取層級控制</p>  
-</td>
-  </tr>
-<tr>
+   </td>
+   </tr>
+   <tr>
    <td role="rowheader"><p>物件許可權</p></td>
    <td>
    <ul>
@@ -107,17 +103,17 @@ ht-degree: 2%
     <li><p>系統管理員無法存取他們未建立的檢視。 </p></li></ul>
    <p>如需有關共用Workfront Planning物件許可權的資訊，請參閱  
    <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">在Adobe Workfront Planning中共用許可權的概觀</a> 
-  </td>
-  </tr>
-<tr>
+   </td>
+   </tr>
+   <tr>
    <td role="rowheader"><p>版面配置範本</p></td>
    <td> 
-<p>標準使用者和系統管理員預設會啟用Planning區域。</p>
-<p> 必須為具有輕度或貢獻者授權的使用者指派包含下列區域中Planning選項的版面配置範本：</p>
+   <p>標準使用者和系統管理員預設會啟用Planning區域。</p>
+   <p> 必須為具有輕度或貢獻者授權的使用者指派包含下列區域中Planning選項的版面配置範本：</p>
    <ul><li>主要功能表</li>
    <li>專案、投資組合和方案的左側面板</li>
    </ul>   
-</td>
+   </td>
   </tr>
  </tbody>
 </table>

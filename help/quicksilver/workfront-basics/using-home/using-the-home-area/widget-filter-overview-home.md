@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
 source-wordcount: '1092'
 ht-degree: 11%
@@ -108,7 +108,7 @@ ht-degree: 11%
 </ul>
 </td>
   </tr>
-   <!--
+  <!--
     <tr>
     <td>All Unassigned Tasks</td>
     <td></td>
@@ -267,7 +267,7 @@ ht-degree: 11%
       <li>目前未完成的檔案，無論其提交者為何。 只有您至少有許可權檢視的要求，才會顯示在這裡（如果您未自行提交）。</li>
       <li>沒有實際完成日期或其解析物件沒有實際完成日期則會列在「開啟」子標籤中。</li> 
       </ul>
-      <p><b>附註</b> 
+      <p><b>注意</b> 
       處於任何不等於「已關閉」狀態的請求會視為未完成。</p> 
       </td> 
      </tr> 
@@ -282,7 +282,7 @@ ht-degree: 11%
       <li>您已提交但尚未完成的專案。 </li> 
       <li>沒有實際完成日期或其解析物件沒有實際完成日期則會列在「我的未結請求」子頁標中。  </li> 
       </ul>
-      <p><b>附註</b> 
+      <p><b>注意</b> 
       未處於已關閉狀態的請求會視為未完成。</p> </td> 
      </tr> 
     </tbody> 

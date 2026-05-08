@@ -8,9 +8,9 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '197'
 ht-degree: 10%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 10%
  </col> 
  <tbody> 
   <tr> 
-   <!--
+  <!--
    <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td>Any</td> 
   </tr> 
@@ -46,7 +46,7 @@ ht-degree: 10%
   -->
   <tr> 
    <td role="rowheader">其他產品</td> 
-   <td>除了[!DNL Adobe Creative Cloud]授權之外，您還必須有[!DNL Workfront]授權。</td> 
+   <td>除了[!DNL Workfront]授權之外，您還必須有[!DNL Adobe Creative Cloud]授權。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 

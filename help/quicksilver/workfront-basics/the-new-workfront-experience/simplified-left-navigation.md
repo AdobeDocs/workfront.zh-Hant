@@ -6,10 +6,10 @@ description: ' [!DNL Workfront] 中的左側導覽面板可讓您輕鬆導覽系
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 0fbbf7fccee0158cc0630703ed1b663cf42725dd
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 1%
+source-wordcount: '1377'
+ht-degree: 2%
 
 ---
 
@@ -28,9 +28,9 @@ WF中的大部分割槽域和物件都使用熒幕左側的簡單導覽面板。
 
 * 您可以新增儀表板來自訂左側面板。
 
-## 存取需求
+## 存取權要求
 
-+++展開以檢視本文中功能的存取需求。
++++展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -67,7 +67,7 @@ WF中的大部分割槽域和物件都使用熒幕左側的簡單導覽面板。
 * 專案
 * 任務
 * 問題
-* 產品組合
+* 專案組合
 * 方案
 * 範本
 * 範本任務
@@ -80,7 +80,7 @@ WF中的大部分割槽域和物件都使用熒幕左側的簡單導覽面板。
 >[!IMPORTANT]
 >
 >如果左側面板預設只顯示一個區段（例如&#x200B;**[!UICONTROL 專案]**&#x200B;區域中的&#x200B;**[!UICONTROL 所有專案]**），則[!DNL Workfront]管理員在建置配置範本時，必須在此區域中至少新增一個儀表板並指派您給該範本，左側面板才會顯示在該區域中。
->&#x200B;>如需[!DNL Workfront]管理員如何在版面配置範本中自訂左側面板的相關資訊，請參閱[使用版面配置範本自訂左側面板](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)。
+>如需[!DNL Workfront]管理員如何在版面配置範本中自訂左側面板的相關資訊，請參閱[使用版面配置範本自訂左側面板](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)。
 
 左側面板適用於下列區域：
 
@@ -207,7 +207,7 @@ WF中的大部分割槽域和物件都使用熒幕左側的簡單導覽面板。
 <table style="table-layout:auto">
     <tr>
         <td><strong>[!UICONTROL 目標清單]</strong></td>
-        <td>顯示您有權檢視的所有目標。 如需詳細資訊，請參閱<a href="../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md">的[!UICONTROL 目標清單]中的[!DNL Adobe Workfront Goals]</a>管理目標。</td>
+        <td>顯示您有權檢視的所有目標。 如需詳細資訊，請參閱[!DNL Adobe Workfront Goals]</a>的[!UICONTROL 目標清單]中的<a href="../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md">管理目標。</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL 圖形]</strong></td>
@@ -215,7 +215,7 @@ WF中的大部分割槽域和物件都使用熒幕左側的簡單導覽面板。
     </tr>
     <tr>
         <td><strong>[!UICONTROL 目標校準]</strong></td>
-        <td>顯示階層中目標彼此的對齊方式。 如需詳細資訊，請參閱<a href="../../workfront-goals/goal-alignment/goal-alignment-overview.md">中的[!DNL Adobe Workfront Goals]</a>目標一致性概觀。</td>
+        <td>顯示階層中目標彼此的對齊方式。 如需詳細資訊，請參閱[!DNL Adobe Workfront Goals]</a>中的<a href="../../workfront-goals/goal-alignment/goal-alignment-overview.md">目標一致性概觀。</td>
     </tr>
     </table>
 
@@ -236,13 +236,14 @@ WF中的大部分割槽域和物件都使用熒幕左側的簡單導覽面板。
     </tr>
 </table>
 -->
+
 若要瞭解如何在[!UICONTROL 目標]區域中使用左側面板，請參閱本文中的[使用左側導覽面板](#use-the-left-navigation-panel)一節。
 
 ## 使用左側導覽面板
 
 在左側面板中尋找和編輯資訊類似於這些物件。 左側面板中可用的選項會因您存取的物件而有所不同。
 
-若要瞭解哪些區段適用於特定區域，請參閱左側導覽面板[[!UICONTROL 中的]預設區段](#default-sections-in-the-left-navigation-panel)。
+若要瞭解哪些區段適用於特定區域，請參閱左側導覽面板[&#128279;](#default-sections-in-the-left-navigation-panel)中的[!UICONTROL 預設區段]。
 
 {{step1-click-main-menu}}
 

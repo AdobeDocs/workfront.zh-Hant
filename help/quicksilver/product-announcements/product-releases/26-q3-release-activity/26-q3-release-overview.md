@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
+source-git-commit: 8c5290f5c9724fa1b382b0acf2a541fe7d3d44fa
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 4%
@@ -76,8 +76,8 @@ ht-degree: 4%
             <td><strong>每季</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md" class="MCXref xref" xrefformat="{para}">預先定義的檢視已新增至[要求]區域和[我的要求]小工具中的要求清單</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
-                <p>為協助您更妥善地組織請求清單，我們已將預先定義的檢視新增至「請求」區域的請求清單，以及「首頁」的「我的請求」Widget 。</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">預先定義的檢視已新增至[要求]區域和[我的要求]小工具中的要求清單</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <p>為協助您更妥善地組織請求清單，我們已將預先定義的檢視新增至「請求」區域的請求清單，以及「首頁」中的「我的請求」Widget 。</p>
             </td>
             <td><p>2026年4月23日</p></td>
             <td><p>2026年4月23日</p></td>
@@ -85,6 +85,7 @@ ht-degree: 4%
         </tr>
     </tbody>
 </table>
+
 
 ## 其他區域發行說明
 

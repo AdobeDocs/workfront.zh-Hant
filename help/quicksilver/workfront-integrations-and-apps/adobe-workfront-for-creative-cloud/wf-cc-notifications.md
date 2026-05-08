@@ -8,14 +8,14 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: b07474c0-ba41-4382-8374-040f633a47ed
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '301'
 ht-degree: 4%
 
 ---
 
-# 檢視及管理來自[!DNL Adobe Workfront]的[!DNL Adobe Creative Cloud]通知
+# 檢視及管理來自[!DNL Adobe Creative Cloud]的[!DNL Adobe Workfront]通知
 
 您可以在Adobe Creative Cloud中接收來自[!DNL Adobe Workfront]的通知，內容有關您需要核准的專案、已給予您的指派，或您關聯專案的評論和變更。
 
@@ -36,7 +36,7 @@ ht-degree: 4%
  </col> 
  <tbody> 
   <tr> 
-   <!--
+  <!--
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> Any</td> 
   </tr> 
@@ -49,7 +49,7 @@ ht-degree: 4%
   -->
   <tr> 
    <td role="rowheader">其他產品</td> 
-   <td>除了[!DNL Adobe Creative Cloud]授權之外，您還必須有[!DNL Workfront]授權。</td> 
+   <td>除了[!DNL Workfront]授權之外，您還必須有[!DNL Adobe Creative Cloud]授權。</td> 
   </tr> 
  </tbody> 
 </table>

@@ -9,9 +9,9 @@ role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '8113'
+source-wordcount: '8107'
 ht-degree: 1%
 
 ---
@@ -287,7 +287,7 @@ Old:
       <p><b>附註</b></p>
       <ul>
       <li>您必須擁有投資組合的管理許可權，才能在專案中新增或移除投資組合。</li>
-      <li>如果貴組織同時使用Workfront和Adobe檔案儲存型別，便無法將Workfront儲存專案與Adobe儲存產品組合建立關聯。 反之亦然。 您的Workfront執行個體可能沒有這兩種型別的檔案儲存。</li></ul> 
+      <li>如果您的組織同時使用舊版Workfront和Adobe企業儲存空間，則無法在使用不同儲存空間型別的專案之間複製任務。 您的Workfront執行個體可能沒有這兩種型別的檔案儲存。</li></ul> 
       如需詳細資訊，請參閱<a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">專案和相關物件的檔案管理概觀</a>。 
       </td> 
       </tr> 
