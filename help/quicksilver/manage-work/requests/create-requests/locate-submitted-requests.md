@@ -10,9 +10,9 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1411'
 ht-degree: 3%
 
 ---
@@ -101,7 +101,7 @@ Remove production and preview references at release
 
 >[!NOTE]
 >
->* 如果您有Workfront Planning，您的Workfront和Planning請求會出現在相同的清單中。 Workfront要求會在`Issue`物件型別&#x200B;**欄中顯示值**。
+>* 如果您有Workfront Planning，您的Workfront和Planning請求會出現在相同的清單中。 Workfront要求會在&#x200B;**物件型別**&#x200B;欄中顯示值`Issue`。
 >* 依預設，在請求區域的清單中會顯示最多50個請求。 若要檢視更多請求，請捲動至清單底部。
 
 您可以在「請求」區域和「首頁」的「我的請求」Widget中檢視已提交的請求。
@@ -210,7 +210,11 @@ Remove production and preview references at release
 
    >[!TIP]
    >
-   >如果「摘要」面板已經開啟，則「開啟摘要」圖示會變更為「關閉摘要」。
+   >* 如果「摘要」面板已經開啟，則「開啟摘要」圖示會變更為「關閉摘要」。
+   >
+   >* 如果您的組織使用Adobe企業檔案儲存，您無法將檔案新增到「摘要」面板中的Adobe儲存要求。
+   >
+   >如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
 1. （選擇性和條件性）按一下右上角的&#x200B;**X**&#x200B;圖示或&#x200B;**關閉摘要**&#x200B;圖示![關閉摘要及文字](assets/close-summary-with-text-nwe.png)以關閉摘要面板。
 

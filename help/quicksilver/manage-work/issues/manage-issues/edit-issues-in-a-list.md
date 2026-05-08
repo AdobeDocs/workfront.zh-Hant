@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '908'
 ht-degree: 3%
 
 ---
@@ -152,10 +152,15 @@ Old:
 
    | 圖示 | 動作 |
    |---|---|
-   | 檔案![檔案圖示](assets/documents-icon-in-summary.png) | 按一下&#x200B;**按一下這裡以新增**，將檔案新增至問題。 |
+   | 檔案* ![檔案圖示](assets/documents-icon-in-summary.png) | 按一下&#x200B;**按一下這裡以新增**，將檔案新增至問題。 |
    | 詳細資料![詳細資料圖示](assets/details-icon-in-summary.png) | 按一下以更新問題的相關資訊。 |
    | 小時![記錄時間](assets/log-time-icon-in-summary.png) | 按一下以記錄時數。 |
    | 核准![核准圖示](assets/approvals-icon-in-summary.png) | 按一下以新增問題核准。 |
+
+   *如果您的組織使用Adobe企業檔案儲存，您無法將檔案新增到「摘要」面板中的Adobe儲存問題。
+
+   如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
+
 
 1. （選擇性）再次按一下&#x200B;**開啟摘要**&#x200B;圖示，或按一下摘要右上角的&#x200B;**X圖示**&#x200B;以關閉面板並編輯問題內嵌。
 

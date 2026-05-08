@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '2764'
+source-wordcount: '2825'
 ht-degree: 4%
 
 ---
@@ -186,7 +186,7 @@ Old:
 
    或
 
-   按一下工作名稱右邊的工作清單&#x200B;**上的**&#x200B;更多![功能表](assets/more-icon-task-list.png)更多圖示。
+   按一下工作名稱右邊的工作清單](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;功能表![更多圖示。
 
 1. （選擇性）從下列選項中選取：
 
@@ -306,7 +306,7 @@ Old:
 
    或
 
-   按一下工作清單&#x200B;**上的**&#x200B;更多![功能表](assets/more-icon-task-list.png)模式圖示。
+   按一下工作清單](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;功能表![模式圖示。
 
 1. （選擇性）從下列選項中選取：
 
@@ -346,7 +346,7 @@ Old:
    </table>
 
 1. 當您變更任務的時間表時，Workfront會更新所有專案內和跨專案相依性。
-1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。**&#x200B;**
+1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。****
 
 #### 當您選取「手動儲存時程表計畫」選項時，手動儲存工作清單中的變更 {#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-timeline-planning-option}
 
@@ -414,7 +414,7 @@ Old:
 
    或
 
-   按一下詢問清單&#x200B;**上的**&#x200B;更多![功能表](assets/more-icon-task-list.png)更多圖示。
+   按一下詢問清單](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;功能表![更多圖示。
 
 1. 從下列選項中選取：
 
@@ -454,7 +454,7 @@ Old:
    </table>
 
 1. 當您變更任務的時間表時，Workfront會更新所有專案內和跨專案相依性。
-1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。**&#x200B;**
+1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。****
 
 ## 使用「摘要」編輯清單中的任務
 
@@ -469,29 +469,33 @@ Old:
 1. （選擇性）在&#x200B;**更新**&#x200B;區域輸入工作的更新。
 1. 按一下下列任一圖示或區域，移至工作並編輯工作層次的資訊：
 
-<table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">文件</td> 
-      <td>將檔案新增至工作。 </td> 
-     </tr> 
-          <tr> 
-      <td role="rowheader">自訂表單</td> 
-      <td>新增或移除自訂表格，或更新表格上的資訊。</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">時數</td> 
-      <td>記錄時數。</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">核准</td> 
-      <td>新增任務核准。</td> 
-     </tr> 
-     <tr> 
-    </tbody> 
-   </table>
+   <table style="table-layout:auto"> 
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
+         <td role="rowheader">文件</td> 
+         <td><p>將檔案新增至工作。</p>
+         <p><b>附註</b></p>
+         <p>如果您的組織使用Adobe企業檔案儲存，則無法將檔案新增到Adobe儲存任務之「摘要」面板中的任務。</p>
+         <p>如需詳細資訊，請參閱<a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">專案和相關物件的檔案管理概觀</a>。</p>
+      </td> 
+      </tr> 
+            <tr> 
+         <td role="rowheader">自訂表單</td> 
+         <td>新增或移除自訂表格，或更新表格上的資訊。</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">時數</td> 
+         <td>記錄時數。</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">核准</td> 
+         <td>新增任務核准。</td> 
+      </tr> 
+      <tr> 
+      </tbody> 
+      </table>
 
 1. 按一下面板右上角的&#x200B;**X**&#x200B;以將其關閉。
 
