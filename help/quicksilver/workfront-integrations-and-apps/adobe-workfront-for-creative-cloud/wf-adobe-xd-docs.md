@@ -8,9 +8,9 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 710035f7-339c-457c-b9b0-e51bc0e0061d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '533'
 ht-degree: 4%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 4%
  <col> 
  <tbody> 
   <tr> 
-   <!--
+  <!--
     <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
@@ -42,15 +42,15 @@ ht-degree: 4%
   <tr>
   -->
    <td role="rowheader">其他產品</td> 
-   <td>除了[!DNL Adobe Creative Cloud]授權之外，您還必須有[!DNL Workfront]授權。</td> 
+   <td>除了[!DNL Workfront]授權之外，您還必須有[!DNL Adobe Creative Cloud]授權。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>編輯[!UICONTROL 檔案]的存取權</p> </td> 
+   <td> <p>編輯[！UICONTROL檔案]的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>[!UICONTROL 檢視]存取您要上傳檔案之物件的更高版本。</p> </td> 
+   <td> <p>[！UICONTROL檢視]存取您要上傳檔案之物件的更高版本。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -88,23 +88,23 @@ ht-degree: 4%
     <col>
     <tbody>
      <tr>
-      <td colspan="2" role="rowheader">[!UICONTROL 匯出格式]</td>
+      <td colspan="2" role="rowheader">[！UICONTROL匯出格式]</td>
      </tr>
      <tr>
       <td role="rowheader">PNG</td>
-      <td>工作區域會以PNG形式上傳至[!DNL Workfront]中工作專案的[!UICONTROL 檔案]索引標籤。 </td>
+      <td>工作區域會以PNG形式上傳至[!DNL Workfront]中工作專案的[！UICONTROL檔案]索引標籤。 </td>
      </tr>
      <tr>
       <td role="rowheader">JPG</td>
-      <td>工作區域會以JPG形式上傳至[!DNL Workfront]中工作專案的[!UICONTROL 檔案]索引標籤。 <br></td>
+      <td>工作區域會以JPG形式上傳至[!DNL Workfront]中工作專案的[！UICONTROL檔案]索引標籤。 <br></td>
      </tr>
      <tr>
       <td role="rowheader">SVG</td>
-      <td>工作區域會以SVG形式上傳至[!DNL Workfront]中工作專案的[!UICONTROL 檔案]索引標籤。 </td>
+      <td>工作區域會以SVG形式上傳至[!DNL Workfront]中工作專案的[！UICONTROL檔案]索引標籤。 </td>
      </tr>
      <tr>
       <td role="rowheader">PDF</td>
-      <td>若要將選取的工作區域上傳為<strong>單一PDF檔案</strong>或<strong>多個PDF檔案</strong>，請選擇此選項。 工作區域會以PDF的形式上傳至[!DNL Workfront]中工作專案的[!UICONTROL 檔案]索引標籤。</td>
+      <td>若要將選取的工作區域上傳為<strong>單一PDF檔案</strong>或<strong>多個PDF檔案</strong>，請選擇此選項。 工作區域會以PDF的形式上傳至[!DNL Workfront]中工作專案的[！UICONTROL檔案]索引標籤。</td>
      </tr>
     </tbody>
    </table>
@@ -143,19 +143,19 @@ ht-degree: 4%
      </tr>
      <tr>
       <td role="rowheader">PNG</td>
-      <td>工作區域會以PNG形式上傳至[!DNL Workfront]中工作專案的[!UICONTROL 檔案]索引標籤。 </td>
+      <td>工作區域會以PNG形式上傳至[!DNL Workfront]中工作專案的[！UICONTROL檔案]索引標籤。 </td>
      </tr>
      <tr>
       <td role="rowheader">JPG</td>
-      <td>工作區域會以JPG的形式上傳至[!DNL Workfront]中工作專案的[!UICONTROL 檔案]索引標籤。 <br></td>
+      <td>工作區域會以JPG的形式上傳至[!DNL Workfront]中工作專案的[！UICONTROL檔案]索引標籤。 <br></td>
      </tr>
      <tr>
       <td role="rowheader">SVG</td>
-      <td>工作區域會以SVG的形式上傳至[!DNL Workfront]中工作專案的[!UICONTROL 檔案]索引標籤。 </td>
+      <td>工作區域會以SVG的形式上傳至[!DNL Workfront]中工作專案的[！UICONTROL檔案]索引標籤。 </td>
      </tr>
      <tr>
       <td role="rowheader">PDF</td>
-      <td><p>工作區域會以PDF形式上傳至[!DNL Workfront]中工作專案的[!UICONTROL 檔案]索引標籤。</p>
+      <td><p>工作區域會以PDF形式上傳至[!DNL Workfront]中工作專案的[！UICONTROL檔案]索引標籤。</p>
       <p><strong>附註</strong>：您只能為新檔案版本上傳一個工作畫板。</p>
       </td>
      </tr>

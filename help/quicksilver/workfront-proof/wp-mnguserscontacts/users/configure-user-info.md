@@ -7,7 +7,7 @@ description: 使用 [!DNL Workfront Proof]設定使用者資訊
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ae8d3a96-ebf1-48ee-a7b7-50d69bffbd36
-source-git-commit: f776fb88000ea6044b88cba88d0cb7198c205d05
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 0%
@@ -57,7 +57,7 @@ ht-degree: 0%
       * **訂閱。 人員可以透過公用URL或內嵌程式碼註冊校訂：**&#x200B;允許組織外部的檢閱者透過公用URL或內嵌程式碼註冊校訂。
 
         選取此選項時，**訂閱者必須按一下電子郵件中的連結，才能存取校訂**。 選取此選項可要求外部檢閱者按一下電子郵件內的連結以存取校訂。
-如果已選取&#x200B;**公用共用**&#x200B;選項，則預設會啟用此選項。
+如果已選取**公用共用**&#x200B;選項，則預設會啟用此選項。
 
       * **新來賓檢閱者的預設角色：**&#x200B;請為來賓檢閱者選取預設校訂角色。 選項與&#x200B;**預設校訂角色**&#x200B;中的選項相同，但版主和作者除外。
 

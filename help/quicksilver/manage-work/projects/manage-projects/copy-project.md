@@ -9,9 +9,9 @@ role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '755'
 ht-degree: 7%
 
 ---
@@ -134,7 +134,7 @@ ht-degree: 7%
 
    前往專案清單或報告並選取專案，然後按一下清單頂端的&#x200B;**更多**&#x200B;圖示![更多](assets/more-icon.png)。
 
-1. 在&#x200B;**更多**&#x200B;下拉式功能表中，按一下&#x200B;**複製**。 **專案名稱[的]**&#x200B;復本對話方塊就會顯示。
+1. 在&#x200B;**更多**&#x200B;下拉式功能表中，按一下&#x200B;**複製**。 [專案名稱&#x200B;]**的**&#x200B;復本對話方塊就會顯示。
 
 1. （選用）更新&#x200B;**專案名稱**。 依預設，新名稱是&#x200B;**[原始專案名稱]**&#x200B;的復本。
 
@@ -188,7 +188,7 @@ ht-degree: 7%
       <td role="rowheader">預算時數</td> 
       <td> <p>從複製的專案中移除專案之業務案例的資源規劃區域中預算的時數。</p> 
     <p>
-   使用「情境規劃工具」的預算時數永遠不會複製到新專案，因為新專案未連結到「情境規劃工具」中的方案。 如需詳細資訊，請參閱使用案例規劃工具<a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">的業務案例中的</a>預算資源</p>
+   使用「情境規劃工具」的預算時數永遠不會複製到新專案，因為新專案未連結到「情境規劃工具」中的方案。 如需詳細資訊，請參閱使用案例規劃工具</a>的業務案例中的<a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">預算資源</p>
    </tr></td>
     <tr> 
       <td role="rowheader">財務資訊</td> 

@@ -8,10 +8,10 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 5%
+source-wordcount: '275'
+ht-degree: 6%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 5%
  <col> 
  <tbody> 
   <tr> 
-   <!--
+  <!--
     <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
@@ -43,15 +43,15 @@ ht-degree: 5%
   <tr>
   -->
    <td role="rowheader">其他產品</td> 
-   <td>除了[!DNL Adobe Creative Cloud]授權之外，您還必須有[!DNL Workfront]授權。</td> 
+   <td>除了[!DNL Workfront]授權之外，您還必須有[!DNL Adobe Creative Cloud]授權。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>編輯[!UICONTROL 檔案]的存取權</p> </td> 
+   <td> <p>編輯[！UICONTROL檔案]的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>[!UICONTROL 檢視]存取您要上傳檔案之物件的更高版本。</p> </td> 
+   <td> <p>[！UICONTROL檢視]存取您要上傳檔案之物件的更高版本。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,14 +72,14 @@ ht-degree: 5%
    ![返回工作清單](assets/go-back-to-work-list-350x314.png)
 
 1. 從&#x200B;**[!UICONTROL 工作清單]**&#x200B;中，選取您要標示為完成的工作或問題。
-1. 按一下&#x200B;**[!UICONTROL 完成]**。  如果您是指派給此任務或問題的唯一使用者，這會在[!UICONTROL 中將專案]完成[!UICONTROL 或]已解決[!DNL Workfront]標籤為完成。
+1. 按一下「**[!UICONTROL 完成]**」。  如果您是指派給此任務或問題的唯一使用者，這會在[!DNL Workfront]中將專案[!UICONTROL 完成]或[!UICONTROL 已解決]標籤為完成。
 1. （視條件而定）如果指派了多位使用者給此任務或問題，按一下「[!UICONTROL 完成]」會開啟下拉式清單。 然後，您可以：
 
    如果其他使用者也必須完成工作才能完成任務或問題，請按一下&#x200B;**[!UICONTROL 完成我的零件]**。
 
    或
 
-   按一下「**[!UICONTROL 完成]**」（針對任務）或「**[!UICONTROL 已解決]**」（針對問題）（若任務或問題不需要進一步的工作）。 這會在[!UICONTROL 中將專案]完成[!UICONTROL 或]已解決[!DNL Workfront]標籤為完成。
+   按一下「**[!UICONTROL 完成]**」（針對任務）或「**[!UICONTROL 已解決]**」（針對問題）（若任務或問題不需要進一步的工作）。 這會在[!DNL Workfront]中將專案[!UICONTROL 完成]或[!UICONTROL 已解決]標籤為完成。
 
    >[!NOTE]
    >

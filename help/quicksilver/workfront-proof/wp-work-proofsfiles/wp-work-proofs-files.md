@@ -9,7 +9,7 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 31b97154-e506-4a1c-ab9a-92395156ed47
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 0%
@@ -24,8 +24,8 @@ ht-degree: 0%
 
 本節包含下列子章節：
 
-* [&#x200B; [!DNL Workfront Proof]中的自動化工作流程](../../workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
-* [&#x200B; [!DNL Workfront Proof]中的基本功能](../../workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
+* [ [!DNL Workfront Proof]中的自動化工作流程](../../workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
+* [ [!DNL Workfront Proof]中的基本功能](../../workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
 * [建立校樣和檔案](../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/create-proofs-and-files.md)
 * [管理您的工作](../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-your-work.md)
 * [組織您的工作](../../workfront-proof/wp-work-proofsfiles/organize-your-work/organize-your-work.md)

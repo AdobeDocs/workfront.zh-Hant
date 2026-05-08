@@ -6,9 +6,9 @@ description: 本文列出您可收到的應用程式內通知。 應用程式內
 author: Courtney
 feature: Get Started with Workfront
 exl-id: afc8cfe7-d9a7-458a-b437-bd4c75838cb0
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '837'
 ht-degree: 1%
 
 ---
@@ -26,10 +26,10 @@ ht-degree: 1%
 
 公告有兩種方式：
 
-* [!DNL Workfront]傳送訊息至您組織[!UICONTROL 管理員的]宣告[!DNL Workfront]頁面
+* [!DNL Workfront]傳送訊息至您組織[!DNL Workfront]管理員的[!UICONTROL 宣告]頁面
 * [!DNL Workfront]管理員從[!UICONTROL 宣告]頁面傳送訊息給使用者
 
-在這兩種情況下，當管理員或使用者按一下![右上角的編號圖示](assets/notifications-icon-jewel.jpg)通知圖示[!DNL Workfront]以開啟其通知清單時，訊息的主旨行會顯示一個擴音器圖示![宣告圖示](assets/announcement.png)和單詞「[!UICONTROL 宣告]」。
+在這兩種情況下，當管理員或使用者按一下[!DNL Workfront]右上角的編號圖示![通知圖示](assets/notifications-icon-jewel.jpg)以開啟其通知清單時，訊息的主旨行會顯示一個擴音器圖示![宣告圖示](assets/announcement.png)和單詞「[!UICONTROL 宣告]」。
 
 ![[!UICONTROL 宣告]通知](assets/notification-list-announcement-350x271.png)
 
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 ## [!UICONTROL 工作專案]通知
 
-當您按一下![右上角的編號圖示](assets/notifications-icon-jewel.jpg)通知圖示[!DNL Workfront]開啟您的通知清單時，工作專案訊息的主旨行會顯示圖示和簡短說明，以識別其內容。 圖示和說明型別列於下方。
+當您按一下[!DNL Workfront]右上角的編號圖示![通知圖示](assets/notifications-icon-jewel.jpg)開啟您的通知清單時，工作專案訊息的主旨行會顯示圖示和簡短說明，以識別其內容。 圖示和說明型別列於下方。
 
 ![工作專案通知](assets/notification-list-work-items-350x247.png)
 
@@ -46,7 +46,7 @@ ht-degree: 1%
 >工作活動的應用程式內通知未繫結至[!DNL Workfront]中的電子郵件通知。 如需詳細資訊，請參閱[[!DNL Adobe Workfront] 通知](../../workfront-basics/using-notifications/wf-notifications.md)。
 
 * [[!UICONTROL 核准]](#approvals)
-* [[!UICONTROL 要求]](#requests)
+* [[!UICONTROL 請求]](#requests)
 * [[!UICONTROL 指派]](#assignments)
 * [[!UICONTROL 個註解]](#comments)
 * [[!UICONTROL 更新]](#updates)
@@ -81,7 +81,7 @@ ht-degree: 1%
 * ![檔案圖示](assets/document.png) [!UICONTROL 檔案已拒絕] - [寄件者名稱]
 * ![檔案圖示](assets/document.png) [!UICONTROL 檔案核准要求已取消] - [寄件者名稱]
 
-### [!UICONTROL 要求]
+### [!UICONTROL 請求]
 
 * ![檔案圖示](assets/document.png) [使用者圖示] [!UICONTROL 要求您上傳檔案] - [請求者姓名]
 * ![檔案圖示](assets/document.png) [!UICONTROL 檔案上傳要求已完成] - [履行者名稱]
