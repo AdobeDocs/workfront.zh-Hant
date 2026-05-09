@@ -6,7 +6,7 @@ description: 資源集區是使用者的集合，可協助您更輕鬆地在Adob
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: 9e217d36d5aeb36761a9a433b84e73ac2b7a114b
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 12%
