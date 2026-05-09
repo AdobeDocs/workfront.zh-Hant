@@ -8,7 +8,7 @@ feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
+source-git-commit: 9e217d36d5aeb36761a9a433b84e73ac2b7a114b
 workflow-type: tm+mt
 source-wordcount: '7120'
 ht-degree: 1%
