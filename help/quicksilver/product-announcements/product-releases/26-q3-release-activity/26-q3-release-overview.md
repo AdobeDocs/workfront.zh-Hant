@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 8c5290f5c9724fa1b382b0acf2a541fe7d3d44fa
+source-git-commit: efcb35e0d46670f581bda2943fbf74ab428f98d7
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 4%
+source-wordcount: '571'
+ht-degree: 5%
 
 ---
 
@@ -123,17 +123,11 @@ New features in Workfront Planning are available in Production. For more informa
 
 ## 公告
 
-### API 21版
+API 22版
 
-Workfront API版本21已於2025年10月23日發行。 針對API 21版，我們已修改一些資源和端點。 有些變更支援新功能，有些則讓您更輕鬆地透過API使用可用資訊。
+Workfront API版本22已於2026年5月8日發行。 針對API 22版，我們已修改一些資源和端點。 有些變更支援新功能，有些則讓您更輕鬆地透過API使用可用資訊。
 
->[!IMPORTANT]
->
->此API版本變更包含重大變更，可能會影響您現有的API呼叫。 這是因為API版本21使用事件訂閱版本2。
->
-> 若為多選欄位，事件訂閱版本2一律會以陣列形式傳送。 如果選取多個值，第1版會傳送陣列。 如果只選取一個值，則會傳送字串。
-
-如需新增和更新的詳細資訊，請參閱[&#x200B; API 21](/help/quicksilver/wf-api/api/new-api-version-21.md)版的新增功能。
+如需新增和更新的詳細資訊，請參閱[&#x200B; API 22](/help/quicksilver/wf-api/api/new-api-version-22.md)版的新增功能。
 
 如需API版本的資訊，請參閱[API版本設定與支援排程](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
 
