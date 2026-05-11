@@ -8,9 +8,9 @@ feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
 last-update: 2026-04-29T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: e25be455e16beee813e612b983bca1302f129e6f
+source-git-commit: 7b6d24d6a5b7fd052a3e7c97034e920e771022a6
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '436'
 ht-degree: 2%
 
 ---
@@ -74,7 +74,12 @@ ht-degree: 2%
 
 ## Adobe企業儲存空間
 
-如果您的組織使用Adobe企業儲存空間，「客戶資訊」會顯示儲存空間概覽，將舊版Workfront儲存空間、Adobe企業儲存空間和Frame.io的使用量分成不同區段。 當使用量超過您的配額時，Workfront也會對上傳套用軟性上限，以便使用者仍然可以上傳檔案。
+<!--
+If your organization uses Adobe enterprise storage, your storage quota is reported as a single pooled allocation that combines storage provisioned through your V2 Workfront SKU and any storage provisioned through a Frame.io Enterprise SKU or add-on. There's no hard cap on storage usage; users can continue uploading documents even when usage exceeds your quota.
+
+Beginning with the May 2026 release, you can view your pooled storage quota and a usage breakdown on the Customer Info page.
+
+-->
 
 ### 檢視客戶資訊的儲存空間使用量
 
@@ -84,8 +89,11 @@ ht-degree: 2%
 
 1. 在左側面板中，按一下&#x200B;**系統** > **客戶資訊**。
 1. 移至&#x200B;**儲存概述**&#x200B;區段。
-1. 檢視Adobe企業儲存空間的使用情況。
-   <!--Both Workfront and Frame.io usage are broken down separately, but roll up to the total usage for Adobe enterprise storage.-->
+1. 檢閱您的使用情形。 「儲存空間概覽」會顯示您的集區儲存空間配額，並將使用量分為：
+
+   * Workfront舊版專案和Adobe企業儲存專案會顯示在藍色列中。
+   * 框架獨立專案會以綠色列顯示。 這些專案與Workfront不同，僅在您擁有Frame.io Enterprise授權時可用。
+
 
 ![客戶資訊上的Adobe企業儲存空間使用量](assets/storage-usage.png)
 
@@ -93,6 +101,6 @@ ht-degree: 2%
 
 ### 給管理員的電子郵件通知
 
-當使用量超過儲存配額的75%、85%或100%時，Workfront會傳送電子郵件通知給系統管理員。
+當使用量超過儲存配額的75%、90%或100%時，Workfront會傳送電子郵件通知給系統管理員。
 
 </div>
