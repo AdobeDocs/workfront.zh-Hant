@@ -6,7 +6,7 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: b88e23b6e185494c740c29af5793cacddc45eedb
+source-git-commit: 7efa6cb2447d8539a421ee3b59aca048dd5c915d
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 0%
