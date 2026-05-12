@@ -76,7 +76,7 @@ ht-degree: 5%
             <td><strong>每季</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">預先定義的檢視已新增至[要求]區域和[我的要求]小工具中的要求清單</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">預先定義的檢視已新增至[要求]區域和[我的要求]小工具中的要求清單</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>為協助您更妥善地組織請求清單，我們已將預先定義的檢視新增至「請求」區域的請求清單，以及「首頁」中的「我的請求」Widget 。</p>
             </td>
             <td><p>2026年4月23日</p></td>
@@ -128,7 +128,7 @@ New features in Workfront Planning are available in Production.
 
 Workfront API版本22已於2026年5月8日發行。 針對API 22版，我們已修改一些資源和端點。 有些變更支援新功能，有些則讓您更輕鬆地透過API使用可用資訊。
 
-如需新增和更新的詳細資訊，請參閱[ API 22](/help/quicksilver/wf-api/api/new-api-version-22.md)版的新增功能。
+如需新增和更新的詳細資訊，請參閱[&#x200B; API 22](/help/quicksilver/wf-api/api/new-api-version-22.md)版的新增功能。
 
 如需API版本的資訊，請參閱[API版本設定與支援排程](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
 
