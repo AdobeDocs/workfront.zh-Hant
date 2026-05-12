@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
 workflow-type: tm+mt
 source-wordcount: '1629'
 ht-degree: 2%
@@ -178,7 +178,6 @@ Old:
   >
   > 您的Workfront執行個體可能沒有這兩種型別的檔案儲存。
 
-
 * 當您建立企業儲存專案時，會在專案的&#x200B;**檔案**&#x200B;區段中建立專案名稱相同的檔案資料夾。 將任務新增至專案後，具有任務名稱的資料夾會新增至每個任務的&#x200B;**檔案**&#x200B;區段。
 
 如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
@@ -251,7 +250,7 @@ Old:
    >
    >專案的狀態應為Planning，或其他非「目前」的狀態。 這可讓您變更專案，而不需產生通知給專案參與者。
 
-1. 按一下[儲存]儲存變更。**&#x200B;**
+1. 按一下[儲存]儲存變更。****
 
 1. （選擇性）設定專案設定並新增任務後，您可將專案標題中的專案狀態變更為&#x200B;**目前**。
 

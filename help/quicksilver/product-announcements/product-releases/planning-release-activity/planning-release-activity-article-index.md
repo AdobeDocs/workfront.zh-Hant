@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: b3f1002b-e3b4-48e5-9a64-467d4f7a15b2
-source-git-commit: 1c9a13aa927b6c21d27d860d228be98d44a80987
+source-git-commit: cc5bdfed0b5bdc56d0042436c19abde65eb5f3bc
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '161'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 如需有關目前Workfront Planning發行活動的資訊，請參閱下列文章：
 
-* [Adobe Workfront Planning 2026年第二季發行活動](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
+* [Adobe Workfront Planning 2026年第三季度發行活動](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md)
 
 
 
@@ -33,6 +33,7 @@ ht-degree: 2%
 如需有關在2026年1月16日生產版本之前發行的功能的資訊，請參閱下列文章：
 
 * 2026
+   * [Adobe Workfront Planning 2026年第二季發行活動](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
    * [Adobe Workfront Planning 2026年第一季度發行活動](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)
 
 * 2025 版
@@ -43,5 +44,5 @@ ht-degree: 2%
 * 2024 年
    * [Adobe Workfront Planning 2024年第四季發行活動](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
    * [2024年Adobe Workfront計畫發行活動](/help/quicksilver/planning/general/release-activity.md)
-* 2023 版
+* 2023 年
    * [2023年Adobe Workfront計畫發行活動](/help/quicksilver/planning/general/release-activity-archives-2023.md)
