@@ -8,9 +8,9 @@ feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1278'
 ht-degree: 2%
 
 ---
@@ -106,13 +106,18 @@ Old:
   如需有關在Workfront中使用Kick-Start匯入資料的資訊，請參閱[使用Kick-Start範本將資料匯入Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)。
 
 
-* 當您從Workfront Planning中的記錄型別連結程式時新增程式。
+* 以下列方式從Workfront Planning建立方案：
 
-  您必須有其他Workfront Planning套件。
+   * 當您從Workfront Planning中的記錄型別連結它們時。
 
-  如需有關存取Workfront Planning的資訊，請參閱[Adobe Workfront Planning存取總覽](/help/quicksilver/planning/access/access-overview.md)。
+  如需透過將程式新增至記錄來建立程式的資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)一文中的「連線時建立記錄」一節。
+   * 使用Workfront Planning自動化。
 
-  如需透過將專案組合新增至記錄來建立專案組合的資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)一文中的「連線時建立記錄」一節。
+  如需詳細資訊，請參閱[使用Adobe Workfront Planning記錄自動化建立物件](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)。
+
+  您必須擁有新的Workfront授權和適用於Workfront Planning的額外Workfront Planning套件。
+
+  如需有關存取Workfront Planning的資訊，請參閱[存取總覽](/help/quicksilver/planning/access/access-overview.md)。
 
 ## 建立方案
 
@@ -129,7 +134,7 @@ Old:
       1. 按一下「**[!UICONTROL 儲存]**」。
    * 從[!UICONTROL 投資組合]區域建立方案：
 
-      1. 按一下&#x200B;**[!UICONTROL 主功能表]**&#x200B;中的[!UICONTROL 投資組合]，然後開啟投資組合。
+      1. 按一下[!UICONTROL 主功能表]中的&#x200B;**[!UICONTROL 投資組合]**，然後開啟投資組合。
       1. 在左側面板中，按一下&#x200B;**[!UICONTROL 程式]**。
       1. 按一下&#x200B;**[!UICONTROL 新程式]**&#x200B;下拉式功能表，然後&#x200B;**[!UICONTROL 新程式]**。
 

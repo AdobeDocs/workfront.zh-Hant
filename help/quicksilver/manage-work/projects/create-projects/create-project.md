@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
 workflow-type: tm+mt
 source-wordcount: '1629'
 ht-degree: 2%
@@ -177,7 +177,6 @@ Old:
   >[!TIP]
   >
   > 您的Workfront執行個體可能沒有這兩種型別的檔案儲存。
-
 
 * 當您建立企業儲存專案時，會在專案的&#x200B;**檔案**&#x200B;區段中建立專案名稱相同的檔案資料夾。 將任務新增至專案後，具有任務名稱的資料夾會新增至每個任務的&#x200B;**檔案**&#x200B;區段。
 

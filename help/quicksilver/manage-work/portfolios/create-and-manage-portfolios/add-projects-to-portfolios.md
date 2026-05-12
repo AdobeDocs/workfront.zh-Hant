@@ -8,9 +8,9 @@ feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: da46d6784350c8394330799fe2177e82d3519041
+source-git-commit: 02b3d67ad0f4faf9fda1729f5f826dbb657e7a81
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '637'
 ht-degree: 2%
 
 ---
@@ -152,6 +152,8 @@ Old:
     </tbody> 
    </table>
 
+   <!-- update screen shot for both kinds of storages??-->
+
    ![新專案下拉式清單](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
 1. （視條件而定）如果您選取新增現有專案，**新增專案**&#x200B;方塊就會開啟。<!--check this after UI changes-->
@@ -161,6 +163,19 @@ Old:
 1. 在&#x200B;**[!UICONTROL 將專案新增至此Portfolio]**&#x200B;欄位中開始輸入專案名稱，然後當專案出現在清單中時按一下它們。 <!--check this after UI changes-->
 
    您可以新增多個專案。
+
+   >[!NOTE]
+   >
+   >如果您的組織同時使用舊版Workfront和Adobe企業檔案儲存，則有下列情況：
+   >
+   >
+   >* 當您將Adobe儲存體專案新增至Workfront儲存體產品組合，而產品組合沒有附加任何檔案時，產品組合會轉換為Adobe儲存體產品組合。
+   >* 當您將Adobe儲存專案新增至Workfront儲存專案組合，且該組合附加有檔案時，該組合的檔案儲存空間仍會保留在Workfront儲存空間中。 不過，舊版Workfront儲存體圖示![舊版Workfront儲存體圖示](assets/legacy-storage-project-icon.png)已從產品組合中移除。
+   >* 您無法將Workfront儲存專案新增至Adobe儲存產品組合。
+   >
+   >如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
+   >
+   >並非所有Workfront執行個體都有兩種檔案儲存型別。
 
 1. （選擇性）如果您決定不將其新增至投資組合，請按一下專案名稱右側的&#x200B;**X**&#x200B;圖示，將其從清單中移除。
 

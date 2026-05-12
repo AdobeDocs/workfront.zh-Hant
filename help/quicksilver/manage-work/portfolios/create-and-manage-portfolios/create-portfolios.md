@@ -8,10 +8,10 @@ feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 3%
+source-wordcount: '884'
+ht-degree: 2%
 
 ---
 
@@ -97,13 +97,18 @@ Old:
 
   如需有關在Workfront中使用Kick-Start匯入資料的資訊，請參閱[使用Kick-Start範本將資料匯入Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)。
 
-* 當您從Workfront Planning中的記錄型別連結投資組合時新增投資組合。
+* 以下列方式從Workfront Planning新增產品組合：
 
-  您必須擁有新的Workfront授權和適用於Workfront的額外Workfront規劃授權。
-
-  如需有關存取Workfront Planning的資訊，請參閱[存取總覽](/help/quicksilver/planning/access/access-overview.md)。
+   * 當您從Workfront Planning中的記錄型別連結它們時。
 
   如需透過將專案組合新增至記錄來建立專案組合的資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)一文中的「連線時建立記錄」一節。
+   * 使用Workfront Planning自動化。
+
+  如需詳細資訊，請參閱[使用Adobe Workfront Planning記錄自動化建立物件](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)。
+
+  您必須擁有新的Workfront授權和適用於Workfront Planning的額外Workfront Planning套件。
+
+  如需有關存取Workfront Planning的資訊，請參閱[存取總覽](/help/quicksilver/planning/access/access-overview.md)。
 
 
 ## 建立專案組合
@@ -111,8 +116,35 @@ Old:
 {{step1-click-main-menu}}
 
 1. 按一下&#x200B;**[!UICONTROL 投資組合]**。
-1. 按一下&#x200B;**[!UICONTROL 新增Portfolio]**。
-1. 將&#x200B;**[!UICONTROL 未命名的Portfolio]**&#x200B;取代為您想要用於投資組合的名稱。
+
+1. （視條件而定）根據您的組織正在使用的檔案儲存空間，按一下下列其中一項：
+
+   * **新的投資組合**，當Workfront管理員選擇&#x200B;**Adobe Enterprise**&#x200B;或&#x200B;**舊版Workfront**，且他們是否選取了&#x200B;**允許使用者選取儲存提供者**&#x200B;設定時。
+   * **新的投資組合（舊版儲存裝置）**，當Workfront管理員選擇&#x200B;**Adobe Enterprise**&#x200B;或&#x200B;**舊版Workfront**，而且他們還選取&#x200B;**允許使用者選取儲存提供者**&#x200B;設定時。
+
+     只有在[設定]區域中選取了&#x200B;**允許使用者選取儲存提供者**&#x200B;設定時，才會顯示此選項。
+
+     如需詳細資訊，請參閱[為您的組織啟用Adobe企業儲存空間](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
+
+     >[!NOTE]
+     >
+     >您的Workfront執行個體可能沒有這兩種型別的檔案儲存。
+
+     產品組合隨即建立，其預設名稱會遵循以下模式，具體取決於Workfront用於檔案的儲存空間：
+
+      * Workfront儲存產品組合的`Untitled Portfolio`。
+
+        Workfront儲存產品組合名稱旁會顯示&#x200B;**舊版Workfront儲存空間**&#x200B;圖示![舊版儲存產品組合圖示](assets/legacy-storage-project-icon.png)。
+
+      * 適用於Adobe儲存產品組合的`Untitled Portfolio - < Month day, year hour.minute.second >`
+
+        >[!IMPORTANT]
+        >
+        >使用Adobe企業儲存的產品組合必須具有唯一名稱。
+
+     若為Adobe儲存產品組合，系統會自動在檔案區域中建立與產品組合約名的新檔案資料夾。
+
+1. 將投資組合名稱替換為投資組合標題中的新名稱。
 
    名稱最多可包含255個字元。
 
@@ -144,7 +176,7 @@ Old:
     </tbody> 
    </table>
 
-1. （選擇性）在&#x200B;**[!UICONTROL Portfolio詳細資料]**&#x200B;頁面右上角的[!UICONTROL 新增自訂表單]方塊內按一下，以選取產品組合的自訂表單並更新自訂欄位。
+1. （選擇性）在[!UICONTROL Portfolio詳細資料]頁面右上角的&#x200B;**[!UICONTROL 新增自訂表單]**&#x200B;方塊內按一下，以選取產品組合的自訂表單並更新自訂欄位。
 
    >[!TIP]
    >
