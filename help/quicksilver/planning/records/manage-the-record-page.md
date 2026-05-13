@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: cbee9aabad7300c2a7ff7aa92bc68a6368a1efcd
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
 source-wordcount: '1646'
 ht-degree: 0%
@@ -178,7 +178,7 @@ Old:
 * 只有在顯示記錄的所有欄位時才能新增區段。 當您隱藏隱藏在表格檢視中的欄位時，無法新增區段。
 * 一個頁面上可以擁有的區段數沒有限制。
 * 不能有空白區段。 區段中必須至少有一個欄位。
-* 您可以將欄位從一個區段拖放至另一個區段。 如需詳細資訊，請參閱本文中記錄預覽或詳細資訊頁面[&#128279;](#manage-fields-in-the-records-details-tab)中的管理欄位一節。
+* 您可以將欄位從一個區段拖放至另一個區段。 如需詳細資訊，請參閱本文中記錄預覽或詳細資訊頁面](#manage-fields-in-the-records-details-tab)中的[管理欄位一節。
 * 當您從區段移除所有欄位時，該區段會自動刪除且無法復原。
 
 若要將區段新增至記錄預覽或頁面：
@@ -201,21 +201,25 @@ Old:
 
    記錄的預覽會在檢視中開啟。
 
+   <!--update screen shot for details views preview-->
+
    ![詳細資訊方塊](assets/details-box.png)
 
 1. （選擇性）按一下記錄預覽右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤中開啟詳細資料](assets/open-details-in-a-new-tab-icon.png)，以在新索引標籤中開啟記錄頁面。
 
    記錄頁面隨即開啟。 依預設，詳細資訊標籤會開啟。
 
+   <!--update screen shot for details views preview-->
+
    ![詳細資料頁面](assets/details-page.png)
 
 1. 在記錄預覽或頁面的&#x200B;**詳細資料**&#x200B;索引標籤中，將滑鼠移至欄位左側的空白區域，然後按一下&#x200B;**新增區段**&#x200B;圖示![新增區段圖示](assets/add-section-icon.png)以新增區段。
 1. 按一下區段名稱內部，將&#x200B;**未命名的區段**&#x200B;取代為名稱，然後按一下[輸入]。 在區段下顯示的欄位會自動成為新區段的一部分。
-1. 開始將欄位拖放至新區段，如本文中記錄預覽或詳細資訊頁面[&#128279;](#manage-fields-in-the-records-details-tab)中的管理欄位區段所述。
+1. 開始將欄位拖放至新區段，如本文中記錄預覽或詳細資訊頁面](#manage-fields-in-the-records-details-tab)中的[管理欄位區段所述。
 
 1. （選擇性）將滑鼠停留在區段名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)。
 
-   記錄頁面![&#128279;](assets/more-menu-options-for-section-on-record-page.png)上區段的更多功能表選項
+   記錄頁面](assets/more-menu-options-for-section-on-record-page.png)上區段的![更多功能表選項
 1. （可選）執行下列任一項作業來編輯區段：
 
    * 按一下&#x200B;**重新命名**&#x200B;以重新命名區段
@@ -228,7 +232,7 @@ Old:
 
      或
 
-     按一下&#x200B;**下移**&#x200B;將區段下移一個位置。
+     按一下&#x200B;**下移**將區段下移一個位置。
 區段中的所有欄位會隨著區段移動。
 
    * 按一下&#x200B;**刪除**&#x200B;以刪除區段。 該區段已刪除且無法復原。 所有存取此型別記錄的使用者將不再檢視已刪除的區段。
@@ -280,6 +284,8 @@ Old:
 
    記錄的預覽會在檢視中開啟。
 
+   <!--update screen shot for details views preview-->
+
    ![詳細資訊方塊](assets/details-box.png)
 
 1. （選擇性和條件性） <!--If you are using the Production environment,-->請根據您要在詳細資訊頁面中顯示的欄位，執行下列其中一項作業：
@@ -302,16 +308,21 @@ Old:
    -->
    <!--
    <div class="preview">
+
    In the Preview environment, continue with the following: 
+   
    1. To display all the fields, expand the page view dropdown menu, then select **All fields**.
    1. (Optional) ClicK **New Details** to add a new page and customize it, then do the following:
       1. In the **Create view** box, add a name for the new details page view, then click **Create**. 
-      1. Hover over the fields on the view and click the **Hide and drag field** icon ![Hide and drag field icon](assets/hide-field-in-details-page-icon.png) to the left of the fields, to hide the field or place it in another spot on the page. 
+      1. Hover over the fields on the view and click the **Hide field** icon ![Hide field icon](assets/hide-field-in-details-page-icon.png) to the left of the fields, to hide the field. 
+     
          >[!TIP]
          >
          >* Custom pages are visible by everyone who accesses the record. 
          >* The last page view you choose will be the one that opens by default when you open another record of the same type.
+     
       1. (Optional) Click the **Fields icon** ![Fields icon](assets/fields-icon.png) at the top of the details page, then hide or show fields on the Details page. 
+     
          >[!TIP]
          >
          >The **Fields** icon is not available when you display the details page in the **Selected table view** or the **All fields** views. 
@@ -331,6 +342,8 @@ Old:
 1. （選擇性）按一下記錄預覽右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤圖示中開啟詳細資訊方塊](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->，以在新索引標籤中開啟記錄的頁面。
 
    記錄&#x200B;**詳細資料**&#x200B;頁面會在新索引標籤中開啟。
+
+   <!--update screen shot for details views preview-->
 
    ![詳細資料頁面](assets/details-page.png)
 

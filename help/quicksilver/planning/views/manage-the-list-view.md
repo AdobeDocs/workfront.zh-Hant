@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: cbee9aabad7300c2a7ff7aa92bc68a6368a1efcd
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '1799'
-ht-degree: 1%
+source-wordcount: '1803'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 您可以在Workfront Planning的下列區域中檢視清單檢視中的物件：
 
-* 記錄的詳細資訊區域中專案的已連線記錄頁面
+* 記錄的詳細資訊區域<!--update screen shot for preview May 14 with Grouping icon and add the note at the top in yellow about preview-->中專案的已連線記錄頁面
 
   在清單檢視中![連線記錄頁面上的專案](assets/projects-on-connected-records-page-list-view.png)
 
@@ -189,11 +189,6 @@ Removed - more direct steps below:
       您只能將現有欄位新增到清單檢視。
 您不能移除在第一欄顯示的清單檢視中的主要欄位。
 
-      <!-- 
-        update indent here: 
-        1. <span class="preview">Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png) to choose fields to group items by, then sort them in an ascending or descending order. </span>
-        -->
-
    1. 按一下&#x200B;**格式化儲存格**&#x200B;圖示![格式化儲存格圖示](assets/format-cells-icon.png)。 **格式**&#x200B;方塊開啟。 <!--change the name of the box when they update it-->
 執行下列動作：
 
@@ -232,7 +227,7 @@ Removed - more direct steps below:
 格式會立即套用至清單檢視。
 **格式化儲存格**&#x200B;圖示旁有一個藍點，表示檢視已套用特殊格式。
 
-   1. （選擇性）按一下&#x200B;**群組**&#x200B;圖示![群組圖示](assets/grouping-icon.png) <!--have they updated this to "Grouping"??-->，以使用通用欄位將清單中的專案群組。 選取其中一個選項，或使用搜尋列來尋找欄位。
+   1. （選擇性）按一下&#x200B;**群組**&#x200B;圖示![群組圖示](assets/grouping-icon.png)，以共用欄位將清單中的專案群組。 選取其中一個選項，或使用搜尋列來尋找欄位。
 
       該欄位必須是清單中的欄，然後才能按它分組。 並非所有欄位型別都可用於分組。
 
@@ -243,7 +238,7 @@ Removed - more direct steps below:
       * 媒體
       * 高
 
-   <!--leave these here, although they duplicate for Enhanced lists in Workfront-->
+      <!--leave these here, although they duplicate for Enhanced lists in Workfront-->
 
 1. （可選）在清單右上角的搜尋方塊中新增關鍵字，以搜尋專案。
 
@@ -253,19 +248,21 @@ Removed - more direct steps below:
 
    * 按一下清單右上角的&#x200B;**連線記錄**&#x200B;以新增現有專案。
    * 按一下清單底部的&#x200B;**新列**&#x200B;以新增專案。
-1. 按一下清單中連線專案的名稱，以在其他瀏覽器標籤中開啟它。
+1. 按一下清單中專案的名稱，以在其他瀏覽器標籤中開啟它。
 1. 在清單的儲存格內按兩下以編輯欄位的資訊，然後按下Enter以儲存變更。
 
    有些欄位是唯讀的。 例如，專案的完成百分比是由系統計算的欄位，您無法手動進行編輯。
 
-1. 將滑鼠懸停在清單中專案的名稱上，然後按一下&#x200B;**更多**&#x200B;功能表[更多](assets/more-menu.png)，然後按一下&#x200B;**檢視**&#x200B;以在另一個索引標籤中開啟專案
+1. 將滑鼠懸停在清單中專案的名稱上，然後按一下&#x200B;**更多**&#x200B;功能表[更多](assets/more-menu.png)，然後按一下&#x200B;**檢視**，在其他索引標籤中開啟專案
 
    或
 
-   選取一或多個專案，並注意清單底部的動作列，然後按一下下列其中一項（如果可用）。 根據您從哪個區域存取清單檢視，按一下下列其中一個選項：
+   選取一或多個專案，並注意清單底部的動作列，然後按一下下列其中一項（如果可用）。
+
+   根據您從哪個區域存取清單檢視，按一下下列其中一個選項：
 
    * **刪除**&#x200B;以刪除專案。 刪除專案會中斷專案與記錄的連線，並將其移至Workfront的「資源回收筒」。 Workfront管理員可在刪除已刪除的專案後30天內復原這些專案。 刪除表單不會刪除提交表單時建立的請求或記錄。
-   * **中斷連線**&#x200B;以中斷專案與記錄的連線。 中斷專案的連線會從目前記錄中移除該專案及其查閱欄位的所有值。
+   * 在連線的專案頁面中&#x200B;**中斷連線**，中斷專案與記錄的連線。 中斷專案的連線會從目前記錄中移除該專案及其查閱欄位的所有值。
 
      連線記錄頁面清單檢視中的![動作列](assets/actions-bar-connected-records-page-list-view.png)
 

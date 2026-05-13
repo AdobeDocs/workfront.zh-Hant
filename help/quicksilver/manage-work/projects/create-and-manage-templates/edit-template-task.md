@@ -9,9 +9,9 @@ feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 62d7144f808e7937f11c11ccff64e409c76f2197
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '3062'
+source-wordcount: '3123'
 ht-degree: 6%
 
 ---
@@ -178,7 +178,7 @@ Old:
 
 
 1. 如上所述，開始編輯範本任務。
-1. 在[編輯範本任務]方塊中，按一下[範本任務名稱] **&#x200B;**&#x200B;並新增範本任務的名稱。
+1. 在[編輯範本任務]方塊中，按一下[範本任務名稱] ****&#x200B;並新增範本任務的名稱。
 
    大量編輯範本任務時，此檢視不可用。
 
@@ -583,6 +583,23 @@ Old:
 1. 按一下「**儲存**」。
 
    當您或其他使用者從此範本建立專案時，您套用至範本任務的所有設定都會成為專案任務的設定。
+
+
+## 編輯清單中的範本任務
+
+您可以在清單中編輯下列區域的範本任務：
+
+* 範本的範本任務區段
+* 範本任務報告
+
+編輯清單中的範本任務與編輯清單中的專案任務類似。
+
+>[!TIP]
+>
+>範本任務沒有可用的計畫模式。
+
+
+如需詳細資訊，請參閱[編輯清單中的工作](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)。
 
 
 <!--

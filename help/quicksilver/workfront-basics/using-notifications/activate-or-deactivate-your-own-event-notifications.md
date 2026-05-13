@@ -9,9 +9,9 @@ feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '635'
 ht-degree: 2%
 
 ---
@@ -65,9 +65,9 @@ ht-degree: 2%
 
 {{step1-click-profile-pic}}
 
-1. 按一下您名稱旁的&#x200B;**[!UICONTROL 更多]**&#x200B;圖示![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**[!UICONTROL 編輯]**。
+1. 按一下您名稱旁的&#x200B;**[!UICONTROL 更多]**&#x200B;圖示![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**[!UICONTROL 編輯使用者]**。
 
-1. 在顯示的&#x200B;**[!UICONTROL 編輯人員]**&#x200B;方塊中，移至&#x200B;**[!UICONTROL 通知]**&#x200B;區段。
+1. 在顯示的&#x200B;**[!UICONTROL 編輯使用者]**&#x200B;方塊中，移至&#x200B;**[!UICONTROL 通知]**&#x200B;區段。
 
 1. 按一下類別可檢視與該類別相關的通知設定。
 
@@ -83,10 +83,11 @@ ht-degree: 2%
 
    對於&#x200B;**[!UICONTROL 通訊]**&#x200B;類別，您只能選取即時傳遞的個別通知。 若要在每日摘要中傳送通知，您必須選取所有通知。
 
-   如果特定類別的所有電子郵件通知都已啟動，則類別標題中的方塊會顯示為已選取。 如果給定類別中的所有電子郵件通知都已停用，則會取消選取該方塊。 如果啟動了一些通知，而停用了一些通知，則類別核取方塊會顯示為直線。\
+   如果特定類別的所有電子郵件通知都已啟動，則類別標題中的方塊會顯示為已選取。 如果給定類別中的所有電子郵件通知都已停用，則會取消選取該方塊。 如果啟動了一些通知，而停用了一些通知，則類別核取方塊會顯示為直線。
+
    當您修改通知設定時，該通知設定會顯示標籤&#x200B;**[!UICONTROL 已編輯]**，通知您已修改該通知設定。
 
-1. 如果您選取任何要以每日摘要傳送的通知，請在&#x200B;**[!UICONTROL 電子郵件每日摘要]**&#x200B;後選單中的&#x200B;**[!UICONTROL 通知]**&#x200B;區段頂端選取您想要收到通知的當日時間。
+1. 如果您選取任何要以每日摘要傳送的通知，請在&#x200B;**[!UICONTROL 電子郵件每日摘要]**&#x200B;後功能表的&#x200B;**[!UICONTROL 通知]**&#x200B;區段頂端選取您想要收到通知的當日時間。
 
    ![每日摘要選擇一天中的時間](assets/digest-time-stamp-my-settings-350x78.png)
 
@@ -97,4 +98,4 @@ ht-degree: 2%
 
    ![接收來自sndbox](assets/receive-emails-from-sandbox-setting-edit-350x223.png)的電子郵件
 
-1. 按一下「**[!UICONTROL 儲存變更]**」。
+1. 按一下「**[!UICONTROL 儲存]**」。
