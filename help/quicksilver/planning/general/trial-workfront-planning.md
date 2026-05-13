@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: cbee9aabad7300c2a7ff7aa92bc68a6368a1efcd
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
 source-wordcount: '2368'
 ht-degree: 0%
@@ -17,13 +17,11 @@ ht-degree: 0%
 
 # 開始使用Adobe Workfront Planning免費試用版
 
-<!-- are we still calling the tab "Best practice workspaces"? If not, reword below-->
-
 <!--add screen shots-->
 <!--check the names of areas, buttons, and links: Learn more, Open Planning, Review trial agreement, etc-->
 
 <!--
-and remove the IMPORTANT below - it conflicts with this one: 
+and this important, and remove the IMPORTANT below - it conflicts with this one: 
 >[!IMPORTANT]
 >
 >The Adobe Workfront Planning trial period concludes on May 15, 2026. This article will remain active for a period of time but will be retired soon. We recommend that you update your bookmarks for the future.
