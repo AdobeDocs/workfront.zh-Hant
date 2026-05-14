@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
+source-git-commit: e40d28599148e22a8553d1ef1e669811e80a59df
 workflow-type: tm+mt
-source-wordcount: '1646'
+source-wordcount: '1989'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,9 @@ ht-degree: 0%
 
 # 管理記錄頁面配置
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁標示的資訊是指尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -178,7 +176,7 @@ Old:
 * 只有在顯示記錄的所有欄位時才能新增區段。 當您隱藏隱藏在表格檢視中的欄位時，無法新增區段。
 * 一個頁面上可以擁有的區段數沒有限制。
 * 不能有空白區段。 區段中必須至少有一個欄位。
-* 您可以將欄位從一個區段拖放至另一個區段。 如需詳細資訊，請參閱本文中記錄預覽或詳細資訊頁面[&#128279;](#manage-fields-in-the-records-details-tab)中的管理欄位一節。
+* 您可以將欄位從一個區段拖放至另一個區段。 如需詳細資訊，請參閱本文中記錄預覽或詳細資訊頁面](#manage-fields-in-the-records-details-tab)中的[管理欄位一節。
 * 當您從區段移除所有欄位時，該區段會自動刪除且無法復原。
 
 若要將區段新增至記錄預覽或頁面：
@@ -215,11 +213,11 @@ Old:
 
 1. 在記錄預覽或頁面的&#x200B;**詳細資料**&#x200B;索引標籤中，將滑鼠移至欄位左側的空白區域，然後按一下&#x200B;**新增區段**&#x200B;圖示![新增區段圖示](assets/add-section-icon.png)以新增區段。
 1. 按一下區段名稱內部，將&#x200B;**未命名的區段**&#x200B;取代為名稱，然後按一下[輸入]。 在區段下顯示的欄位會自動成為新區段的一部分。
-1. 開始將欄位拖放至新區段，如本文中記錄預覽或詳細資訊頁面[&#128279;](#manage-fields-in-the-records-details-tab)中的管理欄位區段所述。
+1. 開始將欄位拖放至新區段，如本文中記錄預覽或詳細資訊頁面](#manage-fields-in-the-records-details-tab)中的[管理欄位區段所述。
 
 1. （選擇性）將滑鼠停留在區段名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)。
 
-   記錄頁面![&#128279;](assets/more-menu-options-for-section-on-record-page.png)上區段的更多功能表選項
+   記錄頁面](assets/more-menu-options-for-section-on-record-page.png)上區段的![更多功能表選項
 1. （可選）執行下列任一項作業來編輯區段：
 
    * 按一下&#x200B;**重新命名**&#x200B;以重新命名區段
@@ -232,7 +230,7 @@ Old:
 
      或
 
-     按一下&#x200B;**下移**&#x200B;將區段下移一個位置。
+     按一下&#x200B;**下移**將區段下移一個位置。
 區段中的所有欄位會隨著區段移動。
 
    * 按一下&#x200B;**刪除**&#x200B;以刪除區段。 該區段已刪除且無法復原。 所有存取此型別記錄的使用者將不再檢視已刪除的區段。
@@ -288,7 +286,7 @@ Old:
 
    ![詳細資訊方塊](assets/details-box.png)
 
-1. （選擇性和條件性） <!--If you are using the Production environment,-->請根據您要在詳細資訊頁面中顯示的欄位，執行下列其中一項作業：
+1. （選擇性和條件性）如果您使用的是「生產」環境，請根據您想在「詳細資訊」頁面中顯示的欄位，執行下列任一項作業：
 
 
    * 選取&#x200B;**顯示所有欄位**&#x200B;設定，以在&#x200B;**詳細資料**&#x200B;頁面中包含所有記錄的欄位。 這是預設設定。
@@ -300,36 +298,37 @@ Old:
      >* 當您在詳細資訊預覽方塊中排除隱藏欄位時，無法將區段新增到記錄的頁面。
 
 
-   <!--
-   1. <span class="preview">(Optional and conditional) If you are using the Preview environment, the details area opens by default in the **Selected table view fields** view. This displays only the fields that are visible in the table view. </span>
+1. <span class="preview"> （選擇性和條件性）如果您使用預覽環境，則預設會在&#x200B;**選取的表格檢視欄位**&#x200B;檢視中開啟詳細資訊區域。 這只會顯示表格檢視中可見的欄位。</span>
+
+   >[!TIP]
+   >
+   > <span class="preview">只有當您在資料表檢視中檢視記錄時，才可使用&#x200B;**選取的資料表檢視欄位**&#x200B;檢視。</span>
+
+<div class="preview">
+
+在「預覽」環境中，繼續下列操作：
+
+1. 若要顯示所有欄位，請展開頁面檢視下拉式功能表，然後選取&#x200B;**所有欄位**。
+1. （選擇性） ClicK **新詳細資料**&#x200B;新增並自訂頁面，然後執行下列動作：
+
+   1. 在&#x200B;**建立檢視**&#x200B;方塊中，新增新詳細資料頁面檢視的名稱，然後按一下&#x200B;**建立**。
+   1. 將滑鼠懸停在檢視上的欄位上，然後按一下欄位左側的&#x200B;**隱藏欄位**&#x200B;圖示![隱藏欄點陣圖示](assets/hide-field-in-details-page-icon.png)以隱藏欄位。
+
       >[!TIP]
       >
-      > <span class="preview">The **Selected table view fields** view is only available when you view records in the table view.</span>
-   -->
-   <!--
-   <div class="preview">
+      >* 存取記錄的所有人均可看見自訂頁面。
+      >* 您選擇的最後一個頁面檢視將是您開啟相同型別的另一個記錄時，預設開啟的頁面檢視。
 
-   In the Preview environment, continue with the following: 
-   
-   1. To display all the fields, expand the page view dropdown menu, then select **All fields**.
-   1. (Optional) ClicK **New Details** to add a new page and customize it, then do the following:
-      1. In the **Create view** box, add a name for the new details page view, then click **Create**. 
-      1. Hover over the fields on the view and click the **Hide field** icon ![Hide field icon](assets/hide-field-in-details-page-icon.png) to the left of the fields, to hide the field. 
-     
-         >[!TIP]
-         >
-         >* Custom pages are visible by everyone who accesses the record. 
-         >* The last page view you choose will be the one that opens by default when you open another record of the same type.
-     
-      1. (Optional) Click the **Fields icon** ![Fields icon](assets/fields-icon.png) at the top of the details page, then hide or show fields on the Details page. 
-     
-         >[!TIP]
-         >
-         >The **Fields** icon is not available when you display the details page in the **Selected table view** or the **All fields** views. 
-      1. (Optional) To edit the name of a custom details page view, hover over the name of the view and click the **More** icon ![More icon](assets/more-menu.png) , then click **Edit**. 
-      1. (Optional) To delete a custom details page view, hover over the name of the view and click the **More** icon ![More icon](assets/more-menu.png), then click **Delete**, then **Delete** to confirm. Deleted details page views cannot be recovered. 
-   </div>
-   -->
+   1. （選擇性）按一下詳細資訊頁面頂端的&#x200B;**欄點陣圖示** ![欄點陣圖示](assets/fields-icon.png)，然後隱藏或顯示詳細資訊頁面上的欄位。
+
+      >[!TIP]
+      >
+      >當您在&#x200B;**選取的資料表檢視**&#x200B;或&#x200B;**所有欄位**&#x200B;檢視中顯示詳細資訊頁面時，**欄位**&#x200B;圖示無法使用。
+
+   1. （選擇性）若要編輯自訂詳細資料頁面檢視的名稱，請將滑鼠停留在檢視名稱上，然後按一下&#x200B;**更多**&#x200B;圖示![更多圖示](assets/more-menu.png)，然後按一下&#x200B;**編輯**。
+   1. （選擇性）若要刪除自訂詳細資料頁面檢視，請將滑鼠停留在檢視名稱上，然後按一下&#x200B;**更多**&#x200B;圖示![更多圖示](assets/more-menu.png)，然後按一下&#x200B;**刪除**，再按一下&#x200B;**刪除**&#x200B;以進行確認。 已刪除的詳細資料頁面檢視無法復原。
+
+</div>
 
 1. （選擇性）如果您要導覽至已連線的記錄，請在詳細資訊頁面頂端的階層連結中按一下該記錄的名稱。
 
