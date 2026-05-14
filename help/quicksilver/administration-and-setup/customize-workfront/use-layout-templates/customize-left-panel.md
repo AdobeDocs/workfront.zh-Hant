@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+source-git-commit: a7f7099f3de147ed166ab19ac44608ba01eb6d31
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1230'
 ht-degree: 2%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 2%
 ## 自訂[!DNL Workfront]中某個區域的左側面板：
 
 1. 開始使用版面配置範本，如[建立和管理版面配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
-1. 按一下![自訂使用者看到的內容](assets/dropdown-arrow.png)底下的向下箭頭&#x200B;**[!UICONTROL 向下箭頭]**，然後按一下您要自訂其左側面板的物件型別或[!DNL Workfront]區域的名稱。
+1. 按一下&#x200B;**[!UICONTROL 自訂使用者看到的內容]**&#x200B;底下的向下箭頭![向下箭頭](assets/dropdown-arrow.png)，然後按一下您要自訂其左側面板的物件型別或[!DNL Workfront]區域的名稱。
 
    下表列出您可以自訂其左側面板的物件型別和[!DNL Workfront]區域：
 
@@ -88,7 +88,7 @@ ht-degree: 2%
      <tr> 
       <td>[!UICONTROL 專案]</td> 
       <td>專案名稱</td> 
-      <td>[!UICONTROL 任務]， [!UICONTROL 專案詳細資料]， [!UICONTROL 業務案例]， [!UICONTROL 更新]， [!UICONTROL 檔案]， [!UICONTROL 問題]， [!UICONTROL 風險]， [!UICONTROL 核准]， [!UICONTROL 基準]， [!UICONTROL 計費費率]，[!UICONTROL 計費記錄]， [!UICONTROL uicontrol支出]、[!UICONTROL 小時數]、[!UICONTROL 工作負載均衡器]、[!UICONTROL 人員]、[!UICONTROL 利用率]、[!UICONTROL 隊列詳細資訊]、[!UICONTROL 路由規則]、[!UICONTROL 隊列主題]、[!UICONTROL 主題組]、[!UICONTROL 量度]、[!UICONTROL 規劃]*、[!UICONTROL 自定義應用程式]**</td> 
+      <td>[!UICONTROL 任務]， [!UICONTROL 專案詳細資料]， [!UICONTROL 業務案例]， [!UICONTROL 更新]， [!UICONTROL 檔案]， [!UICONTROL 問題]， [!UICONTROL 風險]， [!UICONTROL 核准]， [!UICONTROL 基準]， [!UICONTROL 計費率]，[!UICONTROL 計費資源]，[!UICONTROL uicontrol計費記錄]、[!UICONTROL 費用]、[!UICONTROL 小時數]、[!UICONTROL 工作負載均衡器]、[!UICONTROL 人員]、[!UICONTROL 利用率]、[!UICONTROL 隊列詳細資訊]、[!UICONTROL 路由規則]、[!UICONTROL 隊列主題]、[!UICONTROL 主題組]、[!UICONTROL 量度]、[!UICONTROL Planning]*、[!UICONTROL 自定義應用程式]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL 任務]</td> 
@@ -204,7 +204,7 @@ ht-degree: 2%
     </tbody> 
    </table>
 
-   *貴公司必須購買Workfront Planning的額外授權，才能將此區域新增至專案、產品組合和計畫的左側面板。 如需詳細資訊，請參閱[開始使用Adobe Workfront計畫](/help/quicksilver/planning/general/planning-overview.md)
+   *貴公司必須購買Workfront Planning的額外授權，才能將此區域新增至專案、產品組合和計畫的左側面板。 如需詳細資訊，請參閱[開始使用Adobe Workfront計畫](/help/quicksilver/planning/general/planning-overview.md)。
 
    **自訂應用程式必須個別建立，才能作為左側面板選項使用。 如需詳細資訊，請參閱[使用Adobe App Builder建立Workfront的自訂應用程式](/help/quicksilver/app-builder/app-builder.md)。
 
