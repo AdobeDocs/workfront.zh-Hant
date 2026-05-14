@@ -8,9 +8,9 @@ author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: 69414cbbee8899bdbf241d57e50e3ef1c10cc162
 workflow-type: tm+mt
-source-wordcount: '3445'
+source-wordcount: '3546'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 1%
 * Adobe Workfront Planning相互記錄
 * Adobe Workfront Planning會記錄其他應用程式的物件。
 
-  You can connect records with objects of the types listed below from the following applications:
+  您可以從下列應用程式將記錄與下列型別的物件連線：
 
    * Adobe Workfront
 
@@ -228,7 +228,7 @@ Old:
    工作區隨即開啟，且記錄型別會顯示為卡片。
 1. 按一下記錄型別的卡片以開啟記錄型別頁面。
 1. 按一下表格檢視的名稱以開啟它。
-1. (Optional) Add records to the record type that you selected by adding a new row to the table. 如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
+1. （選擇性）將記錄新增至表格的新列，以將記錄新增至您選取的記錄型別。 如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
 1. （視條件而定）將選取的記錄型別與其他記錄型別連線後，請移至記錄的已連線欄位，然後按一下該欄位內部，或按一下&#x200B;**連線**&#x200B;以新增記錄。
 
    ![連線資料表檢視中的其他記錄](assets/connect-other-records-smaller-box-in-table-view.png)
@@ -340,7 +340,7 @@ Old:
 
    開始輸入物件的名稱，然後按一下&#x200B;**+新增**&#x200B;以建立並新增專案、投資組合或方案。
 
-   For information, see [Create Workfront objects from Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+   如需詳細資訊，請參閱[從Workfront Planning建立Workfront物件](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 
 1. （選擇性）按一下「檢視全部&#x200B;**」以顯示您至少擁有檢視許可權的所有物件。**
 
@@ -375,11 +375,11 @@ Old:
    >
    >* 當您選擇在連線記錄型別時連線多個記錄時，查閱欄位的值會以逗號分隔顯示，或根據您選擇的彙總器進行彙總。
    >
-   >* A linked record field is not created for the linked Workfront objects in Workfront.
+   >* Workfront中的連結Workfront物件不會建立連結記錄欄位。
 
-1. (Optional) From the table view of the record type, hover over the column header of the linked Workfront object, and click the drop-down menu, then click **Edit lookup fields**.
+1. （選擇性）從記錄型別的表格檢視中，暫留在連結Workfront物件的欄標題上，然後按一下下拉式功能表，然後按一下&#x200B;**編輯查閱欄位**。
 
-1. Add Workfront object fields from the **Unselected fields** area
+1. 從&#x200B;**未選取的欄位**&#x200B;區域新增Workfront物件欄位
 
    或
 
@@ -473,7 +473,7 @@ metadata mapping is not available yet for content fragments - as of April 22, 20
      >
      >* 連結至Workfront Planning連結記錄的連結記錄欄位不會在Experience Manager Assets應用程式中為連結的Experience Manager資產建立。
 
-1. （選擇性和條件性）對於資產，請轉至您連結至Experience Manager的來源記錄型別，然後在連結的記錄欄位中按一下資產名稱。 資產的Experience Manager詳細資訊會顯示在快顯視窗中。<!--not sure if this is also possible for fragments??-->
+1. （選擇性和條件性）前往您連結至Experience Manager的記錄型別，然後在連結的記錄欄位中按一下資產名稱。 資產的Experience Manager詳細資訊會顯示在快顯視窗中。<!--not sure if this is also possible for fragments??-->
 
    ![包含AEM詳細資料和縮圖的資產快顯視窗](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
 
@@ -489,11 +489,15 @@ metadata mapping is not available yet for content fragments - as of April 22, 20
    * 建立日期
    * 修改日期
 
-1. (Optional and conditional) For assets, to open the Experience Manager assets record page in Experience Manager, go to the record type page of the record you are linking from, click the name of an asset in the linked record field to open the pop-up window, then click the **Open in AEM** icon ![Open asset in AEM icon](assets/open-asset-icon.png) to open the asset. <!--not sure if this is also possible for fragments??-->
+     >[!TIP]
+     >
+     >Experience Manager物件詳細資訊視窗會顯示Planning中連線物件的任何位置。 例如，您可以從表格視窗或記錄的「詳細資訊」區域開啟AEM物件的詳細資訊視窗。
+
+1. （選擇性和條件性）若要在Experience Manager中開啟Experience Manager資產或片段記錄頁面，請移至您要連結之記錄的記錄型別頁面，在連結的記錄欄位中按一下資產名稱以開啟快顯視窗，然後按一下&#x200B;**在AEM中開啟**&#x200B;圖示![在AEM中開啟資產圖示](assets/open-asset-icon.png)以開啟資產。<!--not sure if this is also possible for fragments??-->
 
    如此即會在Adobe Experience Manager Assets中開啟Experience Manager資產。
 
-1. （選擇性和條件性）對於資產，在記錄型別的表格檢視中，暫留在連結Experience Manager資產的欄標題上，然後按一下下拉式功能表，然後按一下&#x200B;**編輯查閱欄位**。<!--not sure if this is also possible for fragments??-->
+1. （選擇性和條件性）從記錄型別的表格檢視中，暫留在連結的Experience Manager資產或片段的欄標題上，然後按一下下拉式功能表，然後按一下&#x200B;**編輯查閱欄位**。<!--not sure if this is also possible for fragments??-->
 
 1. 從&#x200B;**未選取的欄位**&#x200B;區域<!--not sure if this is also possible for fragments??-->新增Experience Manager Assets物件欄位
 
@@ -510,8 +514,8 @@ metadata mapping is not available yet for content fragments - as of April 22, 20
 1. 按一下記錄名稱。
 
    預覽頁面隨即開啟。
-1. (Optional) Click the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) to open the record&#39;s page in a new browser tab.
-1. (Optional and conditional) Click the name of a record type in the breadcrumb of the record page header to access another record type in the same hierarchy. 階層必須存在於您所連線的記錄型別中，才能在階層連結中檢視這些記錄。 如需詳細資訊，請參閱[建立工作區階層](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)。
+1. （選擇性）按一下&#x200B;**在新標籤中開啟**&#x200B;圖示![在新標籤圖示中開啟詳細資料](assets/open-details-in-a-new-tab-icon.png)以在新的瀏覽器標籤中開啟記錄頁面。
+1. （選擇性和條件性）在記錄頁面標頭的階層連結中，按一下記錄型別的名稱，以存取相同階層中的其他記錄型別。 階層必須存在於您所連線的記錄型別中，才能在階層連結中檢視這些記錄。 如需詳細資訊，請參閱[建立工作區階層](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)。
 1. 按一下記錄預覽或頁面中的&#x200B;**連線**&#x200B;索引標籤。
 
    在Workfront Planning中記錄的![連線標籤](assets/connections-tab-on-record-in-workfront-planning.png)
@@ -585,4 +589,4 @@ metadata mapping is not available yet for content fragments - as of April 22, 20
       * 群組
       * 公司
 
-  For more information, see [Manage record connections from Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+  如需詳細資訊，請參閱[管理來自Workfront物件的記錄連線](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
