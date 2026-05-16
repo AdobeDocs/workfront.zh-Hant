@@ -87,6 +87,6 @@ ht-degree: 4%
 如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的檔案區域。 如需Adobe雲端儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 1. 前往包含檔案的專案、任務或問題，然後在左側面板中選取&#x200B;**檔案**。
-1. 尋找您需要的檔案，然後按一下[下載]。****
+1. 尋找您需要的檔案，然後按一下[下載]。**&#x200B;**
 
 ![下載檔案](assets/download-new-doc.png)
