@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '1781'
 ht-degree: 2%
@@ -103,7 +103,7 @@ Old:
 
 * 您可以一次複製一個任務，也可以在編輯清單中的任務時一次複製多個任務。
 
-* 如果您的組織同時使用舊版Workfront和Adobe企業儲存空間，則無法在使用不同儲存空間型別的專案之間複製任務。
+* 如果您的組織同時使用舊版Workfront和Adobe雲端儲存空間，您無法在使用不同儲存空間型別的專案之間複製任務。
 
   如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
@@ -128,7 +128,7 @@ Old:
 
    * 按一下工作清單頂端的&#x200B;**更多功能表**，然後按一下&#x200B;**複製到**。
    * 以滑鼠右鍵按一下選取的工作，然後按一下&#x200B;**複製到**。
-   * 選取一個任務時，按一下清單中任務名稱旁的工作清單![&#128279;](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;功能表更多圖示，然後按一下&#x200B;**複製到**。
+   * 選取一個任務時，按一下清單中任務名稱旁的工作清單](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;功能表![更多圖示，然後按一下&#x200B;**複製到**。
 
    ![在清單中複製任務](assets/copy-task-in-list-nwe-350x131.png)
 
@@ -304,10 +304,10 @@ Old:
 
    * （視條件而定）按一下&#x200B;**計畫模式**&#x200B;圖示![清單模式或儲存模式小型圖示](assets/qs-list-mode-or-save-mode-icon-small.png) > **手動儲存** > **標準**&#x200B;或&#x200B;**時間表計畫**，然後執行下列動作：
 
-      1. 選取要複製的一個或多個任務，然後按一下[複製]。**&#x200B;**
+      1. 選取要複製的一個或多個任務，然後按一下[複製]。****
       1. （選擇性）按一下&#x200B;**還原**&#x200B;以迴轉您的變更，並且不複製工作。
       1. （選擇性和條件性）如果您先前已按一下&#x200B;**復原**，請按一下&#x200B;**重做**&#x200B;以保留變更並複製工作。
 
-      1. 按一下[儲存]儲存變更。**&#x200B;**
+      1. 按一下[儲存]儲存變更。****
 
          任務會重複，並新增到與原始任務相同的專案。

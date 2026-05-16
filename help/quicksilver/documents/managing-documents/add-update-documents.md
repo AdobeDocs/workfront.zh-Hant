@@ -8,9 +8,9 @@ feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '524'
 ht-degree: 3%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 3%
   <tr> 
    <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>使用舊版Workfront儲存來管理檔案的任何Workfront套件</p>
-<p>使用Adobe企業儲存體管理檔案的任何Workflow套件</p> </td> 
+<p>使用Adobe雲端儲存空間管理檔案的任何Workflow套件</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 授權</td> 
@@ -59,7 +59,7 @@ ht-degree: 3%
 
 ## 在舊版檔案區域新增檔案更新
 
-如果您的組織位於舊版Workfront儲存空間，當您存取Workfront中的檔案時，將會看到舊版檔案區域。 如需有關舊版Workfront儲存體的詳細資訊，請參閱[舊版Workfront儲存體與Adobe企業儲存體之間的差異](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+如果您的組織位於舊版Workfront儲存空間，當您存取Workfront中的檔案時，將會看到舊版檔案區域。 如需有關舊版Workfront儲存空間的詳細資訊，請參閱[舊版Workfront儲存空間與Adobe雲端儲存空間之間的差異](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 ### 新增或回覆檔案的更新
 
@@ -86,7 +86,7 @@ ht-degree: 3%
 
 ## 在新的檔案區域中新增檔案更新
 
-如果您的組織使用企業儲存空間，當您存取Workfront中的檔案時，將會看到新的「檔案」區域。 如需企業儲存的詳細資訊，請參閱[Adobe企業儲存概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的檔案區域。 如需Adobe雲端儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 1. 移至包含檔案的物件，然後在左側面板中選取&#x200B;**檔案**。
 1. 尋找您需要的檔案，然後按一下註解圖示![註解圖示](assets/new-doc-comment-icon.png)以開啟「註解」面板。

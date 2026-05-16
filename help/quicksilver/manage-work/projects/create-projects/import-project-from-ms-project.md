@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '604'
 ht-degree: 3%
 
 ---
@@ -128,7 +128,7 @@ old permissions model:
 
    >[!CAUTION]
    >
-   >如果您的Workfront執行個體同時具有Workfront和Adobe檔案儲存體的存取權，則從MS Project匯入專案會建立Workfront儲存體專案，即使Workfront管理員將Adobe企業儲存體設為系統的預設值亦然。
+   >如果您的Workfront執行個體同時擁有檔案之Workfront和Adobe雲端儲存空間的存取權，則從MS Project匯入專案會建立舊版Workfront儲存空間專案，即使Workfront管理員將Adobe雲端儲存空間設為您系統的預設值亦然。
    >
    >如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 

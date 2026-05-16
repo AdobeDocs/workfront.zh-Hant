@@ -2,24 +2,24 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: 從Experience Manager Assets Essentials連結資產和資料夾
-description: You can link an asset or folder from Experience Manager Assets Essentials to any Adobe Workfront object that supports documents. Assets sent from Assets Essentials don't count towards your overall document storage in Workfront. Documents uploaded and sent from Workfront to Assets Essentials do count towards overall storage.
+description: 您可以從Experience Manager Assets Essentials將資產或資料夾連結到任何支援檔案的Adobe Workfront物件。 從Assets Essentials傳送的Assets不會計入Workfront的整體檔案儲存中。 從Workfront上傳並傳送至Assets Essentials的檔案確實會計入整體儲存空間。
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 0b93f6f6-cf4b-4077-a464-be7f19f7cd25
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '629'
 ht-degree: 4%
 
 ---
 
 # 從Experience Manager Assets Essentials連結資產和資料夾
 
-You can link an asset or folder from Experience Manager Assets Essentials to any Adobe Workfront object that supports documents.
+您可以從Experience Manager Assets Essentials將資產或資料夾連結到任何支援檔案的Adobe Workfront物件。
 
-To link assets and folders from Experience Manager Assets using Content Advisor, see [Link assets and folders with Content Advisor powered by Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md).
+若要使用「內容警告器」從Experience Manager Assets連結資產和資料夾，請參閱[使用Experience Manager Assets支援的「內容警告器」連結資產和資料夾](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)。
 
-If you are on enterprise storage, see [Use the Adobe Experience Manager with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+如果您使用Adobe雲端儲存空間，請參閱[將Adobe Experience Manager與Frame.io整合搭配使用](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)。
 
 
 ## 存取權要求
@@ -67,12 +67,12 @@ If you are on enterprise storage, see [Use the Adobe Experience Manager with the
 
 開始之前：
 
-* 您的Workfront管理員必須設定Experience Manager整合。 For more information, see [Configure the Experience Manager Assets Essentials integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* 您的Workfront管理員必須設定Experience Manager整合。 如需詳細資訊，請參閱[設定Experience Manager Assets Essentials整合](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)。
 
-## Link an asset from Experience Manager Assets Essentials
+## 從Experience Manager Assets Essentials連結資產
 
-1. Go to the **Documents** area in Workfront where you want to add the document.
-1. Select **Add New**, then select the Experience Manager integration your administrator set up.
+1. 移至Workfront中要新增檔案的&#x200B;**檔案**&#x200B;區域。
+1. 選取「**新增**」，然後選取管理員設定的Experience Manager整合。
 
    >[!NOTE]
    >

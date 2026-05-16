@@ -8,9 +8,9 @@ feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 500bf31ff0cff309cb0cdda063503abb297f858c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '2636'
+source-wordcount: '2638'
 ht-degree: 1%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 1%
 >[!NOTE]
 >
 >新檔案區域未提供此功能。<br>
->如果您的組織使用企業儲存空間，當您存取Workfront中的檔案時，將會看到新的「檔案」區域。 如需企業儲存的詳細資訊，請參閱[Adobe企業儲存概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+>如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的檔案區域。 如需Adobe雲端儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 ## 存取權要求
 
@@ -129,7 +129,7 @@ ht-degree: 1%
 1. 移至Workfront中您想要檔案的&#x200B;**檔案**&#x200B;區域。
 1. 按一下「新增&#x200B;**」**，然後按一下您要將檔案連結至Workfront的外部檔案提供者。
 
-   例如，若要從Dropbox連結檔案，請按一下[從Dropbox連結] **&#x200B;**。
+   例如，若要從Dropbox連結檔案，請按一下[從Dropbox連結] ****。
 
    您已經授權的外部提供者會出現在清單頂端。
 
@@ -173,7 +173,7 @@ ht-degree: 1%
 
 1. 按一下&#x200B;**新增** > **版本**，然後按一下外部檔案提供者。
 
-   例如，若要從Dropbox連結檔案的新版本，請按一下[從Dropbox連結] **&#x200B;**。
+   例如，若要從Dropbox連結檔案的新版本，請按一下[從Dropbox連結] ****。
 
    您已經授權的外部提供者會出現在清單頂端。
 
@@ -213,7 +213,7 @@ ht-degree: 1%
 您只能連結在Workfront Proof中您擁有檢視存取權的校訂。
 
 1. 移至Workfront中您想要檔案的&#x200B;**檔案**&#x200B;區域。
-1. 按一下[新增] **&#x200B;**，然後按一下&lbrack;來自Workfront Proof的&#x200B;**&#x200B;**。
+1. 按一下[新增] ****，然後按一下[來自Workfront Proof的&#x200B;****。
 
    >[!NOTE]
    >
@@ -290,7 +290,7 @@ ht-degree: 1%
 
 1. 移至Workfront中您要資料夾的區域，然後按一下左側面板中的&#x200B;**檔案** ![檔案圖示](assets/document-icon.png)。
 
-1. 按一下[新增]&#x200B;**&#x200B;**，然後按一下您要將資料夾連結至Workfront的外部檔案提供者。
+1. 按一下[新增]****，然後按一下您要將資料夾連結至Workfront的外部檔案提供者。
 1. （視條件而定）如果您尚未授權外部服務，請指定外部提供者的登入認證，然後按一下&#x200B;**登入**。
 
    您已經授權的外部提供者會出現在清單頂端。
@@ -311,7 +311,7 @@ ht-degree: 1%
 
    在Workfront中，雲端提供者的標誌會顯示在資料夾旁，表示已連結至外部雲端提供者。
 
-1. （選擇性）若要重新命名資料夾，讓Workfront中的資料夾名稱不同於外部檔案應用程式中的資料夾名稱，請在&#x200B;**資料夾**&#x200B;區段中選取資料夾，按一下資料夾名稱旁邊顯示的[更多]功能表![更多功能表](assets/more-icon.png)，然後按一下[重新命名]&#x200B;**&#x200B;**。
+1. （選擇性）若要重新命名資料夾，讓Workfront中的資料夾名稱不同於外部檔案應用程式中的資料夾名稱，請在&#x200B;**資料夾**&#x200B;區段中選取資料夾，按一下資料夾名稱旁邊顯示的[更多]功能表![更多功能表](assets/more-icon.png)，然後按一下[重新命名]****。
 
    ![重新命名資料夾](assets/documents-folderlink-rename-nwe-350x154.png)
 

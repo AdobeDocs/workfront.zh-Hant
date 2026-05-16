@@ -8,9 +8,9 @@ feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1317'
 ht-degree: 2%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 2%
 Adobe Workfront目前有以下兩種檔案儲存型別：
 
 * 舊版Workfront儲存空間
-* Adobe企業儲存空間
+* Adobe雲端儲存空間
 
-如需這些儲存體型別的詳細資訊，請參閱[Adobe企業儲存體概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+如需這些儲存體型別的詳細資訊，請參閱[Adobe雲端儲存體概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Adobe Workfront目前有以下兩種檔案儲存型別：
   <tr> 
    <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>使用舊版Workfront儲存來管理檔案的任何Workfront套件</p>
-<p>使用Adobe企業儲存體管理檔案的任何Workflow套件</p></td> 
+<p>使用Adobe雲端儲存空間管理檔案的任何Workflow套件</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 授權</td> 
@@ -55,7 +55,7 @@ Adobe Workfront目前有以下兩種檔案儲存型別：
   <tr> 
    <td role="rowheader">存取層級設定</td> 
    <td> <p>舊版Workfront儲存空間：編輯檔案的存取權</p> 
-   <p>企業儲存：檔案的編輯存取權預設為啟用，且無法變更</p>
+   <p>Adobe雲端儲存空間：檔案的編輯存取權預設為啟用，無法變更</p>
    </td> 
   </tr> 
  </tbody> 
@@ -69,7 +69,7 @@ Adobe Workfront目前有以下兩種檔案儲存型別：
 
 如果您的組織使用舊版Workfront儲存空間，當您存取Workfront中的檔案時，將會看到舊版檔案區域。
 
-如需Workfront儲存的詳細資訊，請參閱[Adobe企業儲存和舊版Workfront儲存之間的差異](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage)。
+如需Workfront儲存體的詳細資訊，請參閱[Adobe雲端儲存體與舊版Workfront儲存體之間的差異](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)。
 
 您可以將檔案新增至Workfront中的下列區域：
 
@@ -146,7 +146,7 @@ Adobe Workfront目前有以下兩種檔案儲存型別：
 
 ## 在新檔案區域將檔案新增到Workfront
 
-您可以使用Adobe企業儲存模式將檔案新增至物件。 如需企業儲存的詳細資訊，請參閱[Adobe企業儲存概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+您可以使用Adobe雲端儲存模式將檔案新增至物件。 如需Adobe雲端儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 新檔案區域目前不支援的功能：
 
@@ -160,7 +160,7 @@ Adobe Workfront目前有以下兩種檔案儲存型別：
 
 ### 在新檔案區域將檔案新增到Workfront
 
-如果您的組織使用企業儲存空間，當您存取Workfront中的檔案時，將會看到新的「檔案」區域。 如需企業儲存的詳細資訊，請參閱[Adobe企業儲存概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的檔案區域。 如需Adobe雲端儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 若要新增檔案：
 
@@ -174,22 +174,22 @@ Adobe Workfront目前有以下兩種檔案儲存型別：
 
 系統會自動在「檔案」區段中建立與上載檔案目標物件同名的資料夾，並將檔案新增至資料夾。
 
-## 企業儲存的檔案安全性
+## Adobe雲端儲存空間的檔案安全性
 
 Workfront可透過檔案以下列方式防止病毒和其他惡意內容進入網站：
 
 **Workfront如何偵測損毀的檔案**
 
-使用Adobe企業儲存模型會自動啟用物件的檔案掃描。
+使用Adobe雲端儲存模式會自動為物件啟用檔案掃描。
 
 500 MB以下的檔案上傳時會進行掃描。 不會掃描超過500 MB的檔案。 如果Workfront偵測到損毀的檔案，則會自動將其移除。
 
 **檔案名稱限制**
 
-由於此整合是使用Adobe企業儲存空間建立的，因此在管理專案和檔案時，應注意一些強制的結構與命名慣例。
+由於此整合是使用Adobe雲端儲存空間建立的，因此在管理專案和檔案時，應注意一些強制的結構與命名慣例。
 
 * 物件名稱必須是唯一的，而且不能重複
-* 對於階層樹狀結構中具有相同父級的對等物件，Adobe企業儲存體必須有唯一的名稱
+* Adobe雲端儲存空間對於階層樹狀結構中具有相同父級的對等物件需要唯一的名稱
 * 如果檔案屬於相同專案，則不能使用相同名稱
 * 檔名稱不能包含下列任何特殊字元： `\ / : * ? " | < >`
 * 檔名稱上限為255個字元

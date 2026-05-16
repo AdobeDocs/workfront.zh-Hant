@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '2239'
+source-wordcount: '2241'
 ht-degree: 4%
 
 ---
@@ -108,7 +108,7 @@ Old:
 
    * 里程碑。
 
-* 您無法將範本任務從Workfront儲存範本複製或移動到Adobe儲存範本。 反之亦然。 您的Workfront執行個體可能沒有這兩種型別的檔案儲存。
+* 您無法將範本任務從舊版Workfront儲存範本複製或移動到Adobe雲端儲存範本。 反之亦然。 您的Workfront執行個體可能沒有這兩種型別的檔案儲存。
 
   如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 

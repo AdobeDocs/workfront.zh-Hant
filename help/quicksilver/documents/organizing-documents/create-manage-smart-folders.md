@@ -8,9 +8,9 @@ feature: Digital Content and Documents
 exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '557'
 ht-degree: 3%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 3%
 >[!NOTE]
 >
 >新檔案區域未提供此功能。<br>
->如果您的組織使用企業儲存空間，當您存取Workfront中的檔案時，將會看到新的「檔案」區域。 如需企業儲存的詳細資訊，請參閱[Adobe企業儲存概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+>如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的檔案區域。 如需Adobe雲端儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 ## 存取權要求
 
@@ -78,7 +78,7 @@ ht-degree: 3%
 1. 在&#x200B;**資料夾**&#x200B;欄中，按一下您要編輯的智慧資料夾旁的&#x200B;**更多**&#x200B;圖示![更多功能表](assets/more-icon.png)。
 1. 按一下&#x200B;**編輯**。
 
-1. 進行變更，然後按一下[儲存資料夾]。**&#x200B;**
+1. 進行變更，然後按一下[儲存資料夾]。****
 
 ## 重新命名智慧資料夾 
 
@@ -94,7 +94,7 @@ ht-degree: 3%
 
    顯示&#x200B;**編輯智慧資料夾**&#x200B;對話方塊。 **資料夾名稱**&#x200B;欄位包含資料夾的原始名稱，並在括弧中加上「複製」一詞。
 
-1. 進行變更，然後按一下[儲存資料夾]。**&#x200B;**
+1. 進行變更，然後按一下[儲存資料夾]。****
 
 ## 刪除智慧資料夾
 

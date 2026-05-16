@@ -8,9 +8,9 @@ feature: Digital Content and Documents
 exl-id: f8b25cfa-02d9-4c5a-88c1-924a283cdffb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您的組織位於企業儲存空間，則無法使用校訂。 反之，您可以搭配Frame.io整合使用Workfront稽核和核准。 如需有關企業儲存或Frame.io整合的詳細資訊，請參閱
+>如果您的組織位於Adobe雲端儲存空間，便無法使用校訂。 反之，您可以搭配Frame.io整合使用Workfront稽核和核准。 如需Adobe雲端儲存空間或Frame.io整合的詳細資訊，請參閱
 >
->* [Adobe企業儲存空間概覽](/help/quicksilver/review-and-approve-work/esm-overview.md)
+>* [Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)
 >* [統一檢閱和核准總覽](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)

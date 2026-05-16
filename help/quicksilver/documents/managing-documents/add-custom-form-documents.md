@@ -8,9 +8,9 @@ feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '515'
 ht-degree: 4%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 4%
   <tr> 
    <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>使用舊版Workfront儲存來管理檔案的任何Workfront套件</p>
-<p>使用Adobe企業儲存體管理檔案的任何Workflow套件</p> </td> 
+<p>使用Adobe雲端儲存空間管理檔案的任何Workflow套件</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront 授權</td> 
@@ -59,7 +59,7 @@ ht-degree: 4%
 
 ## 在舊版檔案區域中新增自訂表單
 
-如果您的組織位於舊版Workfront儲存空間，當您存取Workfront中的檔案時，將會看到舊版檔案區域。 如需Workfront儲存體的詳細資訊，請參閱[Adobe企業儲存體與舊版Workfront儲存體之間的差異](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage)。
+如果您的組織位於舊版Workfront儲存空間，當您存取Workfront中的檔案時，將會看到舊版檔案區域。 如需Workfront儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間與舊版Workfront儲存空間之間的差異](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)。
 
 若要新增自訂表單至檔案：
 
@@ -80,13 +80,13 @@ ht-degree: 4%
 
 1. 按一下&#x200B;**摘要**&#x200B;圖示![摘要圖示](assets/summary-panel-icon.png)，然後在頂端附近找到&#x200B;**詳細資料**&#x200B;區段。
 1. 按一下右上角的&#x200B;**編輯**，然後展開所需的表單。
-1. 進行必要的變更，然後按一下[儲存]。**&#x200B;**
+1. 進行必要的變更，然後按一下[儲存]。****
 
    ![編輯自訂表單](assets/edit-custom-form-350x265.png)
 
 ## 在新的檔案區域中新增自訂表單
 
-如果您的組織使用企業儲存空間，當您存取Workfront中的檔案時，將會看到新的「檔案」區域。 如需企業儲存的詳細資訊，請參閱[Adobe企業儲存概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的檔案區域。 如需Adobe雲端儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 若要新增自訂表單至檔案：
 
@@ -105,4 +105,4 @@ ht-degree: 4%
 1. 在右側的&#x200B;**詳細資料**&#x200B;區段中，按一下&#x200B;**編輯**。
    詳細資訊區段中的![編輯按鈕](assets/edit-custom-form.png)
 1. 在&#x200B;**自訂Forms**&#x200B;區段中，尋找您要編輯的表單。
-1. 進行必要的變更，然後按一下[儲存]。**&#x200B;**
+1. 進行必要的變更，然後按一下[儲存]。****

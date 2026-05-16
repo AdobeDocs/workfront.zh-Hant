@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: d1173e35a2455610474664f93159b97a54957488
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '905'
 ht-degree: 7%
 
 ---
@@ -116,20 +116,20 @@ Old:
 
 1. （視條件而定）根據您的組織正在使用的檔案儲存空間，按一下下列其中一項：
 
-   * **新範本**，當Workfront管理員選擇&#x200B;**Adobe Enterprise**&#x200B;或&#x200B;**舊版Workfront**，而且他們是否選取了&#x200B;**允許使用者選取儲存提供者**&#x200B;設定時。
-   * **新範本（舊版儲存體）**，當Workfront管理員選擇&#x200B;**Adobe Enterprise**&#x200B;或&#x200B;**舊版Workfront**，而且他們還選取&#x200B;**允許使用者選取儲存提供者**&#x200B;設定時。
+   * **新範本**，當Workfront管理員選擇&#x200B;**Adobe雲端儲存空間**&#x200B;或&#x200B;**舊版Workfront**，而且他們未選取或未選取&#x200B;**允許使用者選取儲存空間提供者**&#x200B;設定時。
+   * **新範本（舊版儲存體）**，當Workfront管理員選擇&#x200B;**Adobe雲端儲存體**&#x200B;或&#x200B;**舊版Workfront**，而且他們還選取&#x200B;**允許使用者選取儲存提供者**&#x200B;設定時。
 
      只有在[設定]區域中選取了&#x200B;**允許使用者選取儲存提供者**&#x200B;設定時，才會顯示此選項。
 
-     如需詳細資訊，請參閱[為您的組織啟用Adobe企業儲存空間](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
+     如需詳細資訊，請參閱[為您的組織啟用Adobe雲端儲存空間](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
 
      範本隨即建立，其預設名稱會遵循以下模式，具體取決於Workfront用於檔案的儲存空間：
 
       * Worfront-storage範本的&#x200B;**未命名範本**。
 
-        Workfront儲存體範本的名稱旁會顯示&#x200B;**舊版Workfront儲存體**&#x200B;圖示![舊版儲存體專案圖示](assets/legacy-storage-project-icon.png)。
+        舊版Workfront儲存體範本的名稱旁會顯示&#x200B;**舊版Workfront儲存體**&#x200B;圖示![舊版儲存體專案圖示](assets/legacy-storage-project-icon.png)。
 
-      * **未命名的範本 — Adobe儲存範本的&lt;月日，年小時。分鐘。秒>**
+      * **未命名的範本 — Adobe雲端儲存空間範本的&lt;月日，年小時。分鐘。秒>**
 
         >[!IMPORTANT]
         >

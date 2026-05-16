@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1629'
+source-wordcount: '1639'
 ht-degree: 2%
 
 ---
@@ -170,15 +170,15 @@ Old:
 * 專案及其子物件（任務和問題）的檔案儲存位置，取決於Workfront管理員在「設定」的「系統偏好設定」區域中，選擇什麼作為「儲存偏好設定」的預設值。 根據您在Workfront例項中儲存檔案的位置，您可以建立下列型別的專案：
 
    * 舊版Workfront儲存專案
-   * Adobe企業儲存專案。
+   * Adobe雲端儲存空間專案。
 
-  如需詳細資訊，請參閱[為您的組織啟用Adobe企業儲存空間](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
+  如需詳細資訊，請參閱[為您的組織啟用Adobe雲端儲存空間](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
 
   >[!TIP]
   >
   > 您的Workfront執行個體可能沒有這兩種型別的檔案儲存。
 
-* 當您建立企業儲存專案時，會在專案的&#x200B;**檔案**&#x200B;區段中建立專案名稱相同的檔案資料夾。 將任務新增至專案後，具有任務名稱的資料夾會新增至每個任務的&#x200B;**檔案**&#x200B;區段。
+* 當您建立Adobe雲端儲存空間專案時，會在專案的&#x200B;**檔案**&#x200B;區段中建立專案同名的檔案資料夾。 將任務新增至專案後，具有任務名稱的資料夾會新增至每個任務的&#x200B;**檔案**&#x200B;區段。
 
 如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
@@ -199,29 +199,29 @@ Old:
 
 1. （視條件而定）根據您的組織正在使用的檔案儲存空間，按一下下列其中一項：
 
-   * **新專案**，當Workfront管理員選擇&#x200B;**Adobe Enterprise**&#x200B;或&#x200B;**舊版Workfront**，而且他們是否選取了&#x200B;**允許使用者選取儲存提供者**&#x200B;設定時。
-   * **新專案（舊版儲存體）**，當Workfront管理員選擇&#x200B;**Adobe Enterprise**&#x200B;或&#x200B;**舊版Workfront**，而且他們還選取&#x200B;**允許使用者選取儲存提供者**&#x200B;設定時。
+   * **新專案**，當Workfront管理員選擇&#x200B;**Adobe雲端儲存空間**&#x200B;或&#x200B;**舊版Workfront**，而且他們是否選取了&#x200B;**允許使用者選取儲存空間提供者**&#x200B;設定時。
+   * **新專案（舊版儲存空間）**，當Workfront管理員選擇&#x200B;**Adobe雲端儲存空間**&#x200B;或&#x200B;**舊版Workfront**，而且他們還選取&#x200B;**允許使用者選取儲存提供者**&#x200B;設定時。
 
      只有在[設定]區域中選取了&#x200B;**允許使用者選取儲存提供者**&#x200B;設定時，才會顯示此選項。
 
-     如需詳細資訊，請參閱[為您的組織啟用Adobe企業儲存空間](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
+     如需詳細資訊，請參閱[為您的組織啟用Adobe雲端儲存空間](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
 
      >[!NOTE]
      >
-     >* 當您從Workfront儲存產品組合或方案建立企業儲存專案時，產品組合或方案也會轉換為企業儲存物件。 相同產品組合或方案下的所有其他Workfront儲存專案維持不變。
+     >* 當您從舊版Adobe儲存產品組合或方案建立Workfront雲端儲存空間專案時，產品組合或方案也會轉換成Adobe雲端儲存空間物件。 相同產品組合或方案下的所有其他舊版Workfront儲存專案維持不變。
      >* 您的Workfront執行個體可能沒有這兩種型別的檔案儲存。
 
      專案隨即建立，其預設名稱會遵循以下模式，具體取決於Workfront用於檔案的儲存空間：
 
-      * Workfront儲存專案的`Untitled Project`。
+      * 舊版Workfront儲存專案的`Untitled Project`。
 
-        Workfront儲存體專案名稱旁會顯示&#x200B;**舊版Workfront儲存體**&#x200B;圖示![舊版儲存體專案圖示](assets/legacy-storage-project-icon.png)。
+        舊版Workfront儲存體專案名稱旁會顯示&#x200B;**舊版Workfront儲存體**&#x200B;圖示![舊版儲存體專案圖示](assets/legacy-storage-project-icon.png)。
 
-      * Adobe儲存專案的`Untitled Project - < Month day, year hour.minute.second >`
+      * Adobe雲端儲存空間專案的`Untitled Project - < Month day, year hour.minute.second >`
 
         >[!IMPORTANT]
         >
-        >使用Adobe企業儲存空間的專案必須具有唯一名稱。
+        >使用Adobe雲端儲存空間的專案名稱必須是唯一的。
 
 
 1. 在專案標題中，更新專案名稱。 按下Enter以儲存名稱。
@@ -250,7 +250,7 @@ Old:
    >
    >專案的狀態應為Planning，或其他非「目前」的狀態。 這可讓您變更專案，而不需產生通知給專案參與者。
 
-1. 按一下[儲存]儲存變更。**&#x200B;**
+1. 按一下[儲存]儲存變更。****
 
 1. （選擇性）設定專案設定並新增任務後，您可將專案標題中的專案狀態變更為&#x200B;**目前**。
 

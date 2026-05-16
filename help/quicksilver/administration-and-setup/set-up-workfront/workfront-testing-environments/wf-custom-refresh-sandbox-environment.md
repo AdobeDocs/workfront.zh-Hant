@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1683'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 >
 >  此外，取得預覽沙箱不需要的自訂重新整理沙箱會另外產生成本。
 >
->  如需有關預覽沙箱的詳細資訊，請參閱[預覽沙箱環境 [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。
+>  如需有關預覽沙箱的詳細資訊，請參閱[預覽沙箱環境 [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。
 
 ## 存取權要求
 
@@ -82,6 +82,12 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 </note>
 -->
 
+## 自訂重新整理沙箱中的Adobe雲端儲存空間
+
+Adobe雲端儲存空間可在自訂重新整理沙箱中使用，因此您可以在生產環境中啟用它之前先測試它。 不過，Frame.io檢視器不適用於沙箱環境，因此完整統一檢閱和核准體驗必須在生產環境中驗證。
+
+升級至支援Adobe雲端儲存空間的Workfront版本後，您必須重新整理自訂重新整理沙箱，才能存取沙箱中的Adobe雲端儲存空間功能。 重新整理完成後，您可以開始測試Adobe雲端儲存空間。 如需詳細資訊，請參閱[為您的組織啟用Adobe雲端儲存空間](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
+
 ## 從您的生產環境存取自訂重新整理沙箱 {#access-the-custom-refresh-sandbox-from-your-production-environment}
 
 作為[!DNL Workfront]管理員，您可以從生產環境存取您的「自訂重新整理沙箱」。
@@ -92,7 +98,7 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 
 若要存取您的自訂重新整理沙箱：
 
-1. 按一下&#x200B;**[!UICONTROL 右上角的]**&#x200B;主功能表![圖示](assets/main-menu-icon.png)主功能表圖示[!DNL Adobe Workfront]，然後按一下&#x200B;**[!UICONTROL 設定]** ![齒輪設定圖示](assets/gear-icon-settings.png)。
+1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![齒輪設定圖示](assets/gear-icon-settings.png)。
 
 1. 按一下&#x200B;**[!UICONTROL 系統]** >**[!UICONTROL 偏好設定]**。
 

@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '2859'
+source-wordcount: '2861'
 ht-degree: 4%
 
 ---
@@ -186,7 +186,7 @@ Old:
 
    或
 
-   按一下工作名稱右邊的工作清單![&#128279;](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;功能表更多圖示。
+   按一下工作名稱右邊的工作清單](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;功能表![更多圖示。
 
 1. （選擇性）從下列選項中選取：
 
@@ -306,7 +306,7 @@ Old:
 
    或
 
-   按一下工作清單![&#128279;](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;功能表模式圖示。
+   按一下工作清單](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;功能表![模式圖示。
 
 1. （選擇性）從下列選項中選取：
 
@@ -350,7 +350,7 @@ Old:
    當您按一下父項任務以變更其位置時，也會移動所有子項。
 
    當您變更任務的時間表時，Workfront會更新所有專案內和跨專案相依性。
-1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。**&#x200B;**
+1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。****
 
 #### 當您選取「手動儲存時程表計畫」選項時，手動儲存工作清單中的變更 {#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-timeline-planning-option}
 
@@ -418,7 +418,7 @@ Old:
 
    或
 
-   按一下詢問清單![&#128279;](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;功能表更多圖示。
+   按一下詢問清單](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;功能表![更多圖示。
 
 1. 從下列選項中選取：
 
@@ -458,7 +458,7 @@ Old:
    </table>
 
 1. 當您變更任務的時間表時，Workfront會更新所有專案內和跨專案相依性。
-1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。**&#x200B;**
+1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。****
 
 ## 使用「摘要」編輯清單中的任務
 
@@ -481,7 +481,7 @@ Old:
          <td role="rowheader">文件</td> 
          <td><p>將檔案新增至工作。</p>
          <p><b>附註</b></p>
-         <p>如果您的組織使用Adobe企業檔案儲存，則無法將檔案新增到Adobe儲存任務之「摘要」面板中的任務。</p>
+         <p>如果您的組織使用Adobe雲端儲存空間存放檔案，則無法針對Adobe雲端儲存空間任務，將檔案新增至「摘要」面板中的任務。</p>
          <p>如需詳細資訊，請參閱<a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">專案和相關物件的檔案管理概觀</a>。</p>
       </td> 
       </tr> 

@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '1417'
 ht-degree: 3%
@@ -119,7 +119,7 @@ Old:
 
    * 里程碑
 
-* 如果您的組織同時使用舊版Workfront和Adobe企業儲存空間，您就無法在使用不同儲存空間型別的專案之間移動任務。
+* 如果您的組織同時使用舊版Workfront和Adobe雲端儲存空間，您無法在使用不同儲存空間型別的專案之間移動任務。
 
   如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
@@ -143,7 +143,7 @@ Old:
 
    * 按一下工作清單頂端的&#x200B;**更多**&#x200B;功能表![更多圖示](assets/main-more-icon.png)，然後按一下&#x200B;**移至**。
    * 以滑鼠右鍵按一下選取的工作，然後按一下&#x200B;**移至**。
-   * 選取一個任務時，按一下清單中任務名稱旁的工作清單![&#128279;](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;功能表更多圖示，然後按一下&#x200B;**移至**。
+   * 選取一個任務時，按一下清單中任務名稱旁的工作清單](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;功能表![更多圖示，然後按一下&#x200B;**移至**。
 
    顯示&#x200B;**移動工作**&#x200B;方塊。
 

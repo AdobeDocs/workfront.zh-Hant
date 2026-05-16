@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '2795'
 ht-degree: 1%
@@ -312,7 +312,7 @@ Workfront管理員必須建立「請求佇列」的下列元件：
       <td> <p>將檔案新增至您的請求。 </p> <p> 視請求佇列的設定方式而定，檔案區段可能會顯示在自訂欄位之前或之後。 </p> <p>您上傳至Workfront的檔案會在草擬的請求中儲存24小時。 之後，當您返回編輯並提交草稿時，必須重新附加它們。 從其他磁碟機連結的檔案會永久儲存在草稿上。 </p> 
       <p>根據您的Workfront管理員為您的環境選取的檔案儲存型別，附加至請求的檔案會新增至以下專案：</p>
       <ul><li>對於使用Workfront儲存空間的請求，檔案會新增到新建立請求的檔案區段。</li>
-      <li>對於使用Adobe企業儲存空間的請求，檔案會新增至新建立的資料夾（名稱與請求相同），並在提交過程中自動新增至請求。 </li></ul>
+      <li>對於使用Adobe雲端儲存空間的請求，檔案會新增至新建立的資料夾（名稱與請求相同），並在提交過程中自動新增至請求。 </li></ul>
       <p>您的Workfront執行個體可能沒有這兩種型別的檔案儲存。</p>
       <p>問題和請求儲存型別繼承自專案。 </p>
       <p>如需詳細資訊，請參閱<a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">專案和相關物件的檔案管理概觀</a>。</p> 

@@ -8,7 +8,7 @@ topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '1734'
 ht-degree: 3%
@@ -194,7 +194,7 @@ ht-degree: 3%
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>主旨</strong> </td> 
-      <td>顯示原始請求的名稱。 如有需要，請更新。 否則，Workfront會將複製的請求命名為<b>&lt;Name of original request&gt;</b>副本。 此為必填欄位。</td> 
+      <td>顯示原始請求的名稱。 如有需要，請更新。 否則，Workfront會將複製的請求命名為<b> &lt;原始請求的名稱&gt;</b>的副本。 此為必填欄位。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>說明</strong> </td> 
@@ -264,7 +264,7 @@ ht-degree: 3%
    視請求佇列的設定方式而定，檔案區段可能會顯示在自訂欄位之前或之後。</p> <p> </p>
    <p>根據您的Workfront管理員為您的環境選取的檔案儲存型別，附加至請求的檔案會新增至以下專案：</p>
       <ul><li>對於使用Workfront儲存空間的請求，檔案會新增到新建立請求的檔案區段。</li>
-      <li>對於使用Adobe企業儲存空間的請求，檔案會新增至新建立的資料夾（名稱與請求相同），並在提交過程中自動新增至請求。 </li></ul>
+      <li>對於使用Adobe雲端儲存空間的請求，檔案會新增至新建立的資料夾（名稱與請求相同），並在提交過程中自動新增至請求。 </li></ul>
       <p>您的Workfront執行個體可能沒有這兩種型別的檔案儲存。</p>
       <p>問題和請求儲存型別繼承自專案。 </p>
       <p>如需詳細資訊，請參閱<a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">專案和相關物件的檔案管理概觀</a>。</p>

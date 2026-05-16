@@ -9,9 +9,9 @@ role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1117'
 ht-degree: 2%
 
 ---
@@ -141,7 +141,7 @@ Old:
 
       或
 
-      若要更新工作的所有欄位，請按一下[其他選項] **&#x200B;**&#x200B;以開啟[建立工作] **方塊**。
+      若要更新工作的所有欄位，請按一下[其他選項] ****&#x200B;以開啟[建立工作] **方塊**。
 
       ![建立任務小方塊](assets/nwe-create-task-small-screen-350x272.png)
 
@@ -170,7 +170,7 @@ Old:
 
       >[!TIP]
       >
-      >如果您的組織同時擁有舊版Workfront和Adobe企業檔案儲存區的存取權，則任務的「檔案」區域可能會根據您的任務使用的儲存型別而顯示不同的內容。 任務會繼承專案的儲存型別。
+      >如果您的組織同時擁有舊版Workfront和Adobe雲端儲存空間的檔案存取權，則任務的「檔案」區域可能會根據您的任務使用的儲存型別而顯示不同的內容。 任務會繼承專案的儲存型別。
       >
       >如需詳細資訊，請參閱[從您的檔案系統新增檔案至Adobe Workfront](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md)。
 

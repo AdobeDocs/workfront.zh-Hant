@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '910'
 ht-degree: 3%
 
 ---
@@ -157,7 +157,7 @@ Old:
    | 小時![記錄時間](assets/log-time-icon-in-summary.png) | 按一下以記錄時數。 |
    | 核准![核准圖示](assets/approvals-icon-in-summary.png) | 按一下以新增問題核准。 |
 
-   *如果您的組織使用Adobe企業檔案儲存，您無法將檔案新增到「摘要」面板中的Adobe儲存問題。
+   *如果您的組織使用Adobe雲端儲存空間存放檔案，您無法將檔案新增到「摘要」面板中的Adobe雲端儲存空間問題。
 
    如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 

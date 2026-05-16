@@ -8,9 +8,9 @@ feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 02b3d67ad0f4faf9fda1729f5f826dbb657e7a81
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '645'
 ht-degree: 2%
 
 ---
@@ -65,15 +65,15 @@ ht-degree: 2%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
    <td><p>標準</p> 
-   <p>[!UICONTROL 計畫] </p> </td> 
+   <p>[！UICONTROL計畫] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL Edit]存取權投資組合</p> <p>[!UICONTROL Edit]專案的存取權</p> </td> 
+   <td> <p>[！UICONTROL Edit]存取權投資組合</p> <p>[！UICONTROL Edit]專案的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合的[!UICONTROL Manage]許可權</p> <p>[!UICONTROL Manage]專案的許可權</p>  </td> 
+   <td> <p>投資組合的[！UICONTROL Manage]許可權</p> <p>[！UICONTROL Manage]專案的許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -130,23 +130,23 @@ Old:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 現有專案]</td> 
+      <td role="rowheader">[！UICONTROL現有專案]</td> 
       <td> <p>新增已建立的專案。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 新專案]</td> 
+      <td role="rowheader">[！UICONTROL新專案]</td> 
       <td> <p>新增專案。 </p> <p>如需建立新專案的詳細資訊，請參閱<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">建立專案</a>。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">&lbrack;！UICONTROL從[!DNL MS Project]匯入專案 </td> 
+      <td role="rowheader">[！UICONTROL從[!DNL MS Project]匯入專案 </td> 
       <td> <p>新增您先前從[!DNL MS Project]匯出且儲存在電腦上的專案。 </p> <p>如需有關從[!DNL Microsoft Project]匯入以建立新專案的詳細資訊，請參閱<a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">從[!DNL Microsoft Project]</a>匯入專案。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 請求專案]</td> 
+      <td role="rowheader">[！UICONTROL請求專案]</td> 
       <td> <p>請求核准專案。</p> <p>如需請求專案的詳細資訊，請參閱<a href="../../../manage-work/projects/create-projects/request-project.md">請求專案</a>。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL New from Template]</td> 
+      <td role="rowheader">[！UICONTROL New from Template]</td> 
       <td> <p>使用現有範本新增專案。 </p> <p>如需從範本建立專案的詳細資訊，請參閱<a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">使用範本建立專案</a>。</p> </td> 
      </tr> 
     </tbody> 
@@ -166,12 +166,12 @@ Old:
 
    >[!NOTE]
    >
-   >如果您的組織同時使用舊版Workfront和Adobe企業檔案儲存，則有下列情況：
+   >如果您的組織同時使用舊版Workfront和Adobe雲端儲存空間存放檔案，則有下列情況：
    >
    >
-   >* 當您將Adobe儲存體專案新增至Workfront儲存體產品組合，而產品組合沒有附加任何檔案時，產品組合會轉換為Adobe儲存體產品組合。
-   >* 當您將Adobe儲存專案新增至Workfront儲存專案組合，且該組合附加有檔案時，該組合的檔案儲存空間仍會保留在Workfront儲存空間中。 不過，舊版Workfront儲存體圖示![舊版Workfront儲存體圖示](assets/legacy-storage-project-icon.png)已從產品組合中移除。
-   >* 您無法將Workfront儲存專案新增至Adobe儲存產品組合。
+   >* 當您將Adobe雲端儲存空間專案新增至舊版Workfront儲存空間產品組合，且該產品組合沒有附加任何檔案時，該產品組合會轉換為Adobe雲端儲存空間產品組合。
+   >* 當您將Adobe雲端儲存空間專案新增至舊版Workfront儲存產品組合，且該產品組合已附加檔案，則產品組合檔案儲存空間仍會保留在Workfront儲存空間中。 不過，舊版Workfront儲存體圖示![舊版Workfront儲存體圖示](assets/legacy-storage-project-icon.png)已從產品組合中移除。
+   >* 您無法將舊版Workfront儲存空間專案新增到Adobe雲端儲存空間產品組合。
    >
    >如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
    >

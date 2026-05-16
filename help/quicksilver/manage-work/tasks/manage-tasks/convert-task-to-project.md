@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1269'
 ht-degree: 3%
 
 ---
@@ -95,11 +95,11 @@ Old:
 * 所有子任務、問題和附註都會彙總至新專案。
 * 檔案、檔案版本和校樣會移至新專案。
 * 將任務轉換為專案時有5分鐘的處理限制。 如果任務附加了大量檔案且無法轉換，您可能需要移除部分檔案，然後再試一次。
-* 如果您的組織同時使用舊版Workfront和Adobe企業檔案儲存，則當將任務轉換為專案時，會出現下列情況： <!--this info also duplicated in Document management overview for projects and related objects and Convert an issue to a project-->
-   * Workfront儲存任務會建立Workfront儲存專案。
-   * Adobe企業儲存空間任務會建立Adobe儲存空間專案。
-   * 使用Workfront儲存範本轉換Adobe儲存任務時，會建立Adobe儲存專案。
-   * 使用Adobe儲存範本轉換Workfront儲存任務時，會建立Workfront儲存專案。
+* 如果您的組織同時使用舊版Workfront和Adobe雲端儲存空間存放檔案，則當將任務轉換為專案時，會出現下列情況： <!--this info also duplicated in Document management overview for projects and related objects and Convert an issue to a project-->
+   * 舊版Workfront儲存空間任務會建立舊版Workfront儲存空間專案。
+   * Adobe雲端儲存空間任務會建立Adobe雲端儲存空間專案。
+   * 使用舊版Workfront儲存範本來轉換Adobe雲端儲存空間任務，會建立Adobe雲端儲存空間專案。
+   * 使用Adobe雲端儲存空間範本來轉換舊版Workfront儲存空間任務，會建立舊版Workfront儲存空間專案。
 
      如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
