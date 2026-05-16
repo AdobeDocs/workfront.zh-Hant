@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 04d0f295-5206-4c5d-8003-bdf333150903
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: '1468'
 ht-degree: 1%
 
 ---
@@ -87,8 +87,8 @@ ht-degree: 1%
 
 開始之前，
 
-* 您必須在[!DNL Workfront]中將[!DNL Adobe Experience Manager Assets]和[!DNL Adobe Admin Console]與組織ID相關聯。 如需詳細資訊，請參閱[平台式管理差異([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
-* 您的Workfront執行個體必須使用Adobe企業儲存空間。
+* 您必須在[!DNL Adobe Admin Console]中將[!DNL Workfront]和[!DNL Adobe Experience Manager Assets]與組織ID相關聯。 如需詳細資訊，請參閱[平台式管理差異([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
+* 您的Workfront執行個體必須使用Adobe雲端儲存空間。
 
 
 ## 設定整合資訊
@@ -98,7 +98,7 @@ ht-degree: 1%
 1. 在左側面板中選取&#x200B;**[!UICONTROL 檔案]**，然後選取&#x200B;**[!UICONTROL [!DNL Experience Manager]整合]**。
 1. 選取&#x200B;**[!UICONTROL 新增[!DNL Experience Manager]整合]**。
 1. 在&#x200B;**[!UICONTROL 名稱]**&#x200B;欄位中，輸入您希望使用者在Workfront和Experience Manager Assets中與此整合互動時看到的名稱。
-1. 在&#x200B;**[!UICONTROL 導覽URL]**&#x200B;欄位中，系統會自動填入導覽URL。 此唯讀URL是用來從[!DNL Experience Manager]主功能表[!UICONTROL 連結至您組織的]執行個體，以進行快速存取。
+1. 在&#x200B;**[!UICONTROL 導覽URL]**&#x200B;欄位中，系統會自動填入導覽URL。 此唯讀URL是用來從[!UICONTROL 主功能表]連結至您組織的[!DNL Experience Manager]執行個體，以進行快速存取。
 1. 從&#x200B;**[!UICONTROL [!DNL Experience Manager]Assets存放庫]**&#x200B;下拉式功能表中選擇存放庫。 系統會自動填入與您的使用者設定檔所指派之組織ID相關聯的任何[!DNL Experience Manager]存放庫。
    ![選擇experience manager存放庫](assets/setup-information.png)
 
@@ -115,7 +115,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->您只能在一個方向對應中繼資料：從[!DNL Workfront]到[!DNL Experience Manager]。 從[!DNL Workfront]連結至[!DNL Experience Manager]的檔案的中繼資料無法傳輸至[!DNL Workfront]。
+>您只能在一個方向對應中繼資料：從[!DNL Workfront]到[!DNL Experience Manager]。 從[!DNL Experience Manager]連結至[!DNL Workfront]的檔案的中繼資料無法傳輸至[!DNL Workfront]。
 
 ### 設定中繼資料欄位
 
@@ -123,7 +123,7 @@ ht-degree: 1%
 
 若要設定中繼資料欄位：
 
-1. 依照[!DNL Experience Manager Assets]設定Adobe[與 [!DNL Workfront]  [!DNL Experience Manager Assets]之間的資產中繼資料對應，在](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)中設定中繼資料結構描述。
+1. 依照[設定Adobe [!DNL Workfront] 與 [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)之間的資產中繼資料對應，在[!DNL Experience Manager Assets]中設定中繼資料結構描述。
 
 
 1. 在Workfront中設定自訂表單欄位。 [!DNL Workfront]有許多您可以使用的內建自訂欄位。 不過，您也可以建立自己的自訂欄位，如[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)中所述。
@@ -202,13 +202,13 @@ link to documentation about creating schema - waiting on response from Anuj abou
 1. 在[!DNL Experience Manager Assets]欄位中，搜尋預先填入的類別，或在搜尋欄位中輸入至少兩個字母以存取其他類別。
 1. 視需要重複步驟2和3。
    ![中繼資料欄位](assets/metadata-no-asset-toggle.png)
-1. 按一下[儲存]&#x200B;[!UICONTROL **&#x200B;**]&#x200B;或移至本文中的[物件中繼資料同步][區段。](#object-metadata-sync)
+1. 按一下[儲存]&#x200B;[!UICONTROL **&#x200B;**]&#x200B;或移至本文中的[物件中繼資料同步][&#128279;](#object-metadata-sync)區段。
 
 
 
 ### 物件中繼資料同步
 
-在[!DNL Experience Manager]中變更欄位時，對應至[!DNL Workfront]投資組合、方案、專案、任務、問題和檔案欄位的[!DNL Workfront]欄位會自動更新。
+在[!DNL Workfront]中變更欄位時，對應至[!DNL Workfront]投資組合、方案、專案、任務、問題和檔案欄位的[!DNL Experience Manager]欄位會自動更新。
 
 啟用此選項後，任何已推送至Adobe Experience Manager的資產都會在Workfront的「檔案詳細資訊」頁面上顯示檔案Adobe Experience Manager中繼資料的即時檢視。
 

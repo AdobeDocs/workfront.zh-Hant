@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: a7a0dc6ae01b3f1e9f295781805ed3e58f8acf1f
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 0%
@@ -33,13 +33,13 @@ ht-degree: 0%
 
 如需核准狀態的詳細資訊，請參閱[開始進行統一檢閱和核准](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)。
 
-## 檢視Adobe企業儲存空間使用量
+## 檢視Adobe雲端儲存空間使用情況
 
 >[!NOTE]
 >
 >預覽： 2026年4月30日>生產快速發行： 2026年5月14日>適用於所有人的生產： 2026年7月16日
 
-「設定」中的「客戶資訊」頁面現在包含新的「儲存空間概覽」區段，其中包含Adobe企業儲存空間的使用量表。
+「設定」中的「客戶資訊」頁面現在包含新的「儲存空間概覽」區段，其中包含Adobe雲端儲存空間的使用量表。
 
 當儲存空間使用量達到配額的75%、85%和100%時，Workfront管理員會自動收到電子郵件通知。
 

@@ -10,9 +10,9 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1413'
 ht-degree: 3%
 
 ---
@@ -212,7 +212,7 @@ Remove production and preview references at release
    >
    >* 如果「摘要」面板已經開啟，則「開啟摘要」圖示會變更為「關閉摘要」。
    >
-   >* 如果您的組織使用Adobe企業檔案儲存，您無法將檔案新增到「摘要」面板中的Adobe儲存要求。
+   >* 如果您的組織使用Adobe雲端儲存空間存放檔案，您無法將檔案新增到「摘要」面板中的Adobe雲端儲存空間請求。
    >
    >如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 

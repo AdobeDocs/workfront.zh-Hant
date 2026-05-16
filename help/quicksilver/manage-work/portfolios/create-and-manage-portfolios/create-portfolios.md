@@ -8,9 +8,9 @@ feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '890'
 ht-degree: 2%
 
 ---
@@ -119,12 +119,12 @@ Old:
 
 1. （視條件而定）根據您的組織正在使用的檔案儲存空間，按一下下列其中一項：
 
-   * **新的投資組合**，當Workfront管理員選擇&#x200B;**Adobe Enterprise**&#x200B;或&#x200B;**舊版Workfront**，且他們是否選取了&#x200B;**允許使用者選取儲存提供者**&#x200B;設定時。
-   * **新的投資組合（舊版儲存裝置）**，當Workfront管理員選擇&#x200B;**Adobe Enterprise**&#x200B;或&#x200B;**舊版Workfront**，而且他們還選取&#x200B;**允許使用者選取儲存提供者**&#x200B;設定時。
+   * **新的投資組合**，當Workfront管理員選擇&#x200B;**Adobe雲端儲存空間**&#x200B;或&#x200B;**舊版Workfront**，且他們是否選取了&#x200B;**允許使用者選取儲存空間提供者**&#x200B;設定時。
+   * **新的產品組合（舊版儲存空間）**，當Workfront管理員選擇&#x200B;**Adobe雲端儲存空間**&#x200B;或&#x200B;**舊版Workfront**，而且他們還選取了&#x200B;**允許使用者選取儲存提供者**&#x200B;設定時。
 
      只有在[設定]區域中選取了&#x200B;**允許使用者選取儲存提供者**&#x200B;設定時，才會顯示此選項。
 
-     如需詳細資訊，請參閱[為您的組織啟用Adobe企業儲存空間](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
+     如需詳細資訊，請參閱[為您的組織啟用Adobe雲端儲存空間](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
 
      >[!NOTE]
      >
@@ -132,17 +132,17 @@ Old:
 
      產品組合隨即建立，其預設名稱會遵循以下模式，具體取決於Workfront用於檔案的儲存空間：
 
-      * Workfront儲存產品組合的`Untitled Portfolio`。
+      * 舊版Workfront儲存產品組合的`Untitled Portfolio`。
 
-        Workfront儲存產品組合名稱旁會顯示&#x200B;**舊版Workfront儲存空間**&#x200B;圖示![舊版儲存產品組合圖示](assets/legacy-storage-project-icon.png)。
+        舊版Workfront儲存產品組合名稱旁會顯示&#x200B;**舊版Workfront儲存空間**&#x200B;圖示![舊版儲存產品組合圖示](assets/legacy-storage-project-icon.png)。
 
-      * 適用於Adobe儲存產品組合的`Untitled Portfolio - < Month day, year hour.minute.second >`
+      * 適用於Adobe雲端儲存空間產品組合的`Untitled Portfolio - < Month day, year hour.minute.second >`
 
         >[!IMPORTANT]
         >
-        >使用Adobe企業儲存的產品組合必須具有唯一名稱。
+        >使用Adobe雲端儲存空間的產品組合必須具有唯一名稱。
 
-     若為Adobe儲存產品組合，系統會自動在檔案區域中建立與產品組合約名的新檔案資料夾。
+     若為Adobe雲端儲存產品組合，系統會自動在檔案區域中建立與產品組合約名的新檔案資料夾。
 
 1. 將投資組合名稱替換為投資組合標題中的新名稱。
 

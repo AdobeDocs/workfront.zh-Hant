@@ -8,7 +8,7 @@ feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 02d2b8fce60b469b8ea16c4302035371bed04175
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 8%
@@ -33,7 +33,7 @@ ht-degree: 8%
   <tr> 
    <td role="rowheader">Adobe Workfront 封裝</td> 
    <td><p>使用舊版Workfront儲存空間管理核准的任何Workfront套件</p>
-<p>使用Adobe企業儲存體管理核准的任何Workflow套件</p> </td> 
+<p>使用Adobe雲端儲存空間管理核准的任何Workflow套件</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 

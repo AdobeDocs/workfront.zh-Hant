@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 94236f836be2d1b8638cf11ddd303641e8c0ef7c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '975'
 ht-degree: 0%
 
 ---
@@ -29,18 +29,18 @@ ht-degree: 0%
 
 ## 存取權要求
 
-* 您的Workfront合約必須包含V2 Workfront SKU，才能使用Frame.io檢視器和Adobe企業儲存空間。 如需詳細資訊，請參閱[整合稽核與核准概述](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#getting-started-with-unified-review-and-approval)中的常見問題集。
+* 您必須使用支援Adobe雲端儲存空間的Workfront版本。 如果貴組織尚未使用支援的版本，請聯絡您的Adobe客戶代表。
 
 ## Workfront中的工作啟動和規劃
 
-專案專員可以在Workfront中建立專案並計畫工作。 在啟用Frame.io整合的執行個體中建立的專案，會利用Adobe企業儲存空間，可在Adobe生態系統中儲存和管理資產。
+專案專員可以在Workfront中建立專案並計畫工作。 在啟用Frame.io整合的執行個體中建立的專案，會利用Adobe雲端儲存空間，在Adobe生態系統中儲存和管理資產。
 
 如果您的組織有Frame.io Enterprise授權，在Workfront中建立的專案也會顯示在Frame.io中，讓使用者可在任一產品中互動和上傳資產。
 
-如需Adobe企業儲存空間或Frame.io中專案的詳細資訊，請參閱
+如需Adobe雲端儲存空間或Frame.io中專案的詳細資訊，請參閱
 
 * [Workspace概觀：專案](https://help.frame.io/en/articles/9101001-workspace-overview#h_d9f8654895)
-* [Adobe企業儲存空間概覽](/help/quicksilver/review-and-approve-work/esm-overview.md)
+* [Adobe雲端儲存空間概覽](/help/quicksilver/review-and-approve-work/esm-overview.md)
 
 ## 檢閱及核准資產
 

@@ -8,9 +8,9 @@ feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 02b3d67ad0f4faf9fda1729f5f826dbb657e7a81
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '645'
 ht-degree: 2%
 
 ---
@@ -166,12 +166,12 @@ Old:
 
    >[!NOTE]
    >
-   >如果您的組織同時使用舊版Workfront和Adobe企業檔案儲存，則有下列情況：
+   >如果您的組織同時使用舊版Workfront和Adobe雲端儲存空間存放檔案，則有下列情況：
    >
    >
-   >* 當您將Adobe儲存體專案新增至Workfront儲存體產品組合，而產品組合沒有附加任何檔案時，產品組合會轉換為Adobe儲存體產品組合。
-   >* 當您將Adobe儲存專案新增至Workfront儲存專案組合，且該組合附加有檔案時，該組合的檔案儲存空間仍會保留在Workfront儲存空間中。 不過，舊版Workfront儲存體圖示![舊版Workfront儲存體圖示](assets/legacy-storage-project-icon.png)已從產品組合中移除。
-   >* 您無法將Workfront儲存專案新增至Adobe儲存產品組合。
+   >* 當您將Adobe雲端儲存空間專案新增至舊版Workfront儲存空間產品組合，且該產品組合沒有附加任何檔案時，該產品組合會轉換為Adobe雲端儲存空間產品組合。
+   >* 當您將Adobe雲端儲存空間專案新增至舊版Workfront儲存產品組合，且該產品組合已附加檔案，則產品組合檔案儲存空間仍會保留在Workfront儲存空間中。 不過，舊版Workfront儲存體圖示![舊版Workfront儲存體圖示](assets/legacy-storage-project-icon.png)已從產品組合中移除。
+   >* 您無法將舊版Workfront儲存空間專案新增到Adobe雲端儲存空間產品組合。
    >
    >如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
    >

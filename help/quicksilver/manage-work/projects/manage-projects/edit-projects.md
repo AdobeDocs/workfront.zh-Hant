@@ -9,9 +9,9 @@ role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '8107'
+source-wordcount: '8112'
 ht-degree: 1%
 
 ---
@@ -287,7 +287,7 @@ Old:
       <p><b>附註</b></p>
       <ul>
       <li>您必須擁有投資組合的管理許可權，才能在專案中新增或移除投資組合。</li>
-      <li>如果您的組織同時使用舊版Workfront和Adobe企業儲存空間，則無法在使用不同儲存空間型別的專案之間複製任務。 您的Workfront執行個體可能沒有這兩種型別的檔案儲存。</li></ul> 
+      <li>如果您的組織同時使用舊版Workfront和Adobe雲端儲存空間，您無法在使用不同儲存空間型別的專案之間複製任務。 您的Workfront執行個體可能沒有這兩種型別的檔案儲存。</li></ul> 
       如需詳細資訊，請參閱<a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">專案和相關物件的檔案管理概觀</a>。 
       </td> 
       </tr> 
@@ -297,7 +297,7 @@ Old:
       <p><b>附註</b></p>
       <ul>
       <li>您必須擁有計畫的管理許可權，才能在專案中新增或移除計畫。</li>
-      <li>如果貴組織同時使用Workfront和Adobe檔案儲存型別，便無法將Workfront儲存專案與Adobe儲存方案建立關聯。 反之亦然。 您的Workfront執行個體可能沒有這兩種型別的檔案儲存。 程式會繼承其所屬產品組合的儲存型別。 </li></ul>
+      <li>如果您的組織同時使用Workfront和Adobe雲端儲存空間來儲存檔案，您無法將舊版Workfront儲存空間專案與Adobe雲端儲存空間計畫建立關聯。 反之亦然。 您的Workfront執行個體可能沒有這兩種型別的檔案儲存。 程式會繼承其所屬產品組合的儲存型別。 </li></ul>
 
    如需詳細資訊，請參閱<a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">專案和相關物件的檔案管理概觀</a>。
 
@@ -804,7 +804,7 @@ Old:
 
 * 當您選取屬於不同群組的多個專案時，「狀態」欄位中顯示的狀態是系統層級狀態，而不是群組層級狀態。
 
-* 當您選取多個具有不同型別檔案儲存的專案，並想要更新所選專案的Portfolio或方案時，您無法將Workfront儲存專案與Adobe儲存產品組合建立關聯。 反之亦然。 在此情況下，請確定您一次只選取具有類似儲存型別的專案。
+* 當您選取多個具有不同型別檔案儲存的專案，並想要更新所選專案的Portfolio或方案時，您無法將舊版Workfront儲存專案與Adobe雲端儲存產品組合建立關聯。 反之亦然。 在此情況下，請確定您一次只選取具有類似儲存型別的專案。
 
   您的Workfront執行個體可能沒有這兩種型別的檔案儲存。
 

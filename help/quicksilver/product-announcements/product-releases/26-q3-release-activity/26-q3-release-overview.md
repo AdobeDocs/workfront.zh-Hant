@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: a7ab8d786ba9a9163e091b9fc31dafe293d56acd
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 4%
@@ -62,8 +62,8 @@ ht-degree: 4%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">檢視Adobe企業儲存空間使用量</a>
-                <p>「設定」中的「客戶資訊」頁面現在包含新的「儲存空間概覽」區段，其中包含Adobe企業儲存空間的使用量表。</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">檢視Adobe雲端儲存空間使用量</a>
+                <p>「設定」中的「客戶資訊」頁面現在包含新的「儲存空間概覽」區段，其中包含Adobe雲端儲存空間的使用量表。</p>
             </td>
             <td><p>2026年4月30日</p></td>
             <td><p>2026年5月14日</p></td>

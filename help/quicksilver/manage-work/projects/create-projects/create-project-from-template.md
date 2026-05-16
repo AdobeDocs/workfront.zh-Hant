@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1404'
 ht-degree: 1%
 
 ---
@@ -159,22 +159,22 @@ Old:
    1. （選擇性）在&#x200B;**搜尋範本**&#x200B;欄位中，開始輸入範本的名稱，並在範本顯示在清單中時按一下它。
    1. 按一下下列範本型別之一的名稱以加以選擇：
 
-      * Workfront儲存範本
+      * 舊版Workfront儲存範本
 
-        Workfront儲存範本的名稱旁會顯示舊版儲存圖示![舊版儲存圖示](assets/legacy-storage-project-icon.png)。
+        舊版Workfront儲存範本的名稱旁會顯示舊版儲存圖示![舊版儲存圖示](assets/legacy-storage-project-icon.png)。
 
         範本和未來專案上的檔案將會儲存在Workfront儲存空間。
-      * Adobe儲存範本
+      * Adobe雲端儲存空間範本
 
-        範本和未來專案上的檔案將會儲存在Adobe企業儲存空間。
+        範本和未來專案上的檔案將會儲存在Adobe雲端儲存空間。
 
       >[!NOTE]
       >
-      >* 使用Adobe企業儲存範本會建立Adobe企業儲存專案。
+      >* 使用Adobe雲端儲存空間範本建立Adobe雲端儲存空間專案。
       >
-      >* 使用Workfront儲存範本會建立Workfront儲存專案。
+      >* 使用舊版Workfront儲存範本會建立舊版Workfront儲存專案。
       >
-      >* 當您使用Workfront儲存產品組合或方案中的Adobe企業儲存範本時，專案是Adobe企業儲存專案，而產品組合或方案也會轉換成Adobe企業儲存物件。 相同產品組合或方案下的所有其他Workfront儲存專案維持不變。
+      >* 當您使用來自舊版Adobe儲存產品組合或方案的Workfront雲端儲存空間範本時，專案是Adobe雲端儲存空間專案，而產品組合或方案也會轉換成Adobe雲端儲存空間物件。 相同產品組合或方案下的所有其他舊版Workfront儲存專案維持不變。
       >
       > 您的Workfront執行個體可能沒有這兩種型別的檔案儲存。
       >
@@ -226,7 +226,7 @@ Old:
 
    如果您在上一步沒有變更範本中定義的所有詳細資訊，這些詳細資訊會自動與新建立的專案建立關聯。
 
-   系統會自動在專案的「檔案」區段中，為Adobe儲存專案建立與專案同名的檔案資料夾。
+   系統會自動在專案的「檔案」區段中，為Adobe雲端儲存空間專案建立與專案名稱相同的檔案資料夾。
 
 ## 從範本區域中的範本建立專案
 
@@ -234,7 +234,7 @@ Old:
 
 >[!NOTE]
 >
->與Workfront檔案儲存相關的範本會建立舊版Workfront儲存專案。 與Adobe企業檔案儲存相關的範本會建立Adobe儲存專案。 您的Workfront執行個體可能沒有這兩種型別的檔案儲存。
+>與Workfront檔案儲存相關的範本會建立舊版Workfront儲存專案。 與適用於檔案的Adobe雲端儲存空間相關聯的範本會建立Adobe雲端儲存空間專案。 您的Workfront執行個體可能沒有這兩種型別的檔案儲存。
 >
 >如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
@@ -261,4 +261,4 @@ Old:
 
    如果您在上一步沒有變更範本中定義的所有詳細資訊，這些詳細資訊會自動與新建立的專案建立關聯。
 
-   系統會自動在專案的「檔案」區段中，為Adobe儲存專案建立與專案同名的檔案資料夾。
+   系統會自動在專案的「檔案」區段中，為Adobe雲端儲存空間專案建立與專案名稱相同的檔案資料夾。

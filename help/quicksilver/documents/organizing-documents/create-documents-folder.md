@@ -8,16 +8,16 @@ feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '811'
 ht-degree: 2%
 
 ---
 
 # 建立檔案資料夾
 
-檔案可整理到資料夾中。 Workfront目前有兩個版本的檔案區域：舊版檔案區域和新檔案區域。 您的組織所使用的版本取決於您的組織是在舊版Workfront儲存空間還是企業儲存空間。 如需這些儲存體型別的詳細資訊，請參閱[Adobe企業儲存體概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+檔案可整理到資料夾中。 Workfront目前有兩個版本的檔案區域：舊版檔案區域和新檔案區域。 貴組織使用的版本取決於貴組織是在舊版Workfront儲存空間還是Adobe雲端儲存空間。 如需這些儲存體型別的詳細資訊，請參閱[Adobe雲端儲存體概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 ## 存取權要求
 
@@ -30,7 +30,7 @@ ht-degree: 2%
   <tr> 
    <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>使用舊版Workfront儲存來管理檔案的任何Workfront套件</p>
-<p>使用Adobe企業儲存體管理檔案的任何Workflow套件</p> </td> 
+<p>使用Adobe雲端儲存空間管理檔案的任何Workflow套件</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
@@ -51,7 +51,7 @@ ht-degree: 2%
 
 ## 在舊版檔案區域中建立檔案資料夾
 
-如果您的組織位於舊版Workfront儲存空間，當您存取Workfront中的檔案時，將會看到舊版檔案區域。 如需有關舊版Workfront儲存體的詳細資訊，請參閱[Adobe企業儲存體與舊版Workfront儲存體之間的差異](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage)。
+如果您的組織位於舊版Workfront儲存空間，當您存取Workfront中的檔案時，將會看到舊版檔案區域。 如需有關舊版Workfront儲存體的詳細資訊，請參閱[Adobe雲端儲存體與舊版Workfront儲存體之間的差異](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)。
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ ht-degree: 2%
 
 ## 在新的檔案區域中建立檔案資料夾
 
-如果您的組織使用企業儲存空間，當您存取Workfront中的檔案時，將會看到新的「檔案」區域。 如需企業儲存的詳細資訊，請參閱[Adobe企業儲存概述](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的檔案區域。 如需Adobe雲端儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 ### 系統產生的資料夾
 
@@ -130,7 +130,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->移動對話方塊中只能使用相同儲存型別的專案、任務和問題。 例如，如果您是在企業儲存體專案中行動資料夾，則只有使用企業儲存體的專案、任務和問題才能移動到。
+>移動對話方塊中只能使用相同儲存型別的專案、任務和問題。 例如，如果您在Adobe雲端儲存空間專案中行動資料夾，則只有使用Adobe雲端儲存空間的專案、任務和問題可移至。
 
 
 若要行動資料夾：

@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 9a86968cf8fff2c7c930aa6c8408ab8566905cb8
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '14119'
 ht-degree: 2%
@@ -44,7 +44,7 @@ ht-degree: 2%
          * [2026年第一季要求增強功能](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-1-q1-requests.md)
          * [2026年第一季其他增強功能](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-other.md)
       * 2025年第4季發行 {#release-25-q4}
-         * [2025年第四季版本總覽](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)
+         * [2025 年第四季發行版本概觀](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)
          * [2025年第四季管理員增強功能](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md)
          * [2025年第四季儀表板增強功能](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-dashboards.md)
          * [2025年第四季檔案和校訂增強功能](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md)
@@ -468,7 +468,7 @@ ht-degree: 2%
          * [專案時間表重新計算](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
          * [啟用自訂季度](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
          * [啟用或停用組織的快速發行](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
-         * [為您的組織啟用Adobe企業儲存空間](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
+         * [為您的組織啟用Adobe雲端儲存空間](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
          * [建立和編輯業務規則](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
          * [設定自訂本地化](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
          * [設定AI共同作業人員](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)
@@ -1871,7 +1871,7 @@ ht-degree: 2%
    * [檢閱和核准工作](review-and-approve-work/review-and-approve-work.md)
    * [統一檢閱和核准總覽](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
    * [開始使用統一檢閱和核准](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
-   * [在Adobe企業儲存空間上移至Workfront](/help/quicksilver/review-and-approve-work/workfront-storage.md)
+   * [在Adobe雲端儲存空間上移至Workfront](/help/quicksilver/review-and-approve-work/workfront-storage.md)
    * [非付費使用者的有限檔案和校訂決定概覽](review-and-approve-work/proof-doc-decision-limits.md)
    * {hide-from-toc}[設定AI檢閱者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
    * 工作核准 {#work-approvals}
@@ -1891,8 +1891,8 @@ ht-degree: 2%
       * [檔案核准的可用功能](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
       * [檔案決定狀態概觀](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
       * [開始使用Workfront內容檢閱者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
-      * [Adobe企業儲存空間概覽](/help/quicksilver/review-and-approve-work/esm-overview.md)
-      * [Adobe企業儲存模式的物件許可權和存取層級總覽](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
+      * [Adobe雲端儲存空間概覽](/help/quicksilver/review-and-approve-work/esm-overview.md)
+      * [Adobe雲端儲存模式的物件許可權和存取層級總覽](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
       * 設定及管理資產和檔案核准 {#manage-asset-review-and-approval}
          * [設定及管理統一核准：文章索引](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [建立並管理內容檢閱者的品牌](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)

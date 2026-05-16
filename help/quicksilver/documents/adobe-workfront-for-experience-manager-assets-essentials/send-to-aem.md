@@ -6,9 +6,9 @@ description: 您可以從Workfront傳送檔案至Experience Manager Assets或Ass
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '924'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 2%
 >[!NOTE]
 >
 >新檔案區域未提供此功能。<br>
->如果您的組織使用企業儲存空間，當您存取Workfront中的檔案時，將會看到新的「檔案」區域。 從那裡，您可以將資產傳送到Experience Manager Assets。 如需詳細資訊，請參閱[使用Adobe Experience Manager與Frame.io整合](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)。
+>如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的檔案區域。 從那裡，您可以將資產傳送到Experience Manager Assets。 如需詳細資訊，請參閱[使用Adobe Experience Manager與Frame.io整合](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)。
 
 ## 後設資料
 
