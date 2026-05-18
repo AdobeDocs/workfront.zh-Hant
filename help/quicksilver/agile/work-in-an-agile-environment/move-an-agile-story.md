@@ -83,6 +83,6 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >工作專案[!UICONTROL 計劃開始日期]和[!UICONTROL 計畫完成日期]受[!UICONTROL 編輯團隊]頁面上的設定影響。 如需詳細資訊，請參閱[設定Scrum](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)一文中的[[!UICONTROL 設定將工作專案新增至疊代](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)時如何套用日期]一節。
+   >工作專案[!UICONTROL 計劃開始日期]和[!UICONTROL 計畫完成日期]受[!UICONTROL 編輯團隊]頁面上的設定影響。 如需詳細資訊，請參閱[設定Scrum](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)一文中的[[[!UICONTROL 設定將工作專案新增至疊代]](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)時如何套用日期]一節。
 
 1. 按一下&#x200B;**[!UICONTROL 移動]**。
