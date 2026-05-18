@@ -8,9 +8,9 @@ feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1532'
 ht-degree: 2%
 
 ---
@@ -62,12 +62,12 @@ ht-degree: 2%
   <tr>
    <td role="rowheader">物件許可權</td>
    <td><p>檢視Workfront任務或問題的或更高許可權</p>
-</td>
+   </td>
   </tr>
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -236,7 +236,7 @@ ht-degree: 2%
 
 您必須擁有正確的許可權，才能記錄連線任務或問題的時數。
 
-依預設，已連線的卡片上不會顯示時間記錄欄位。 您必須在&#x200B;[!UICONTROL **卡片**]&#x200B;下的[!UICONTROL 設定]區域中啟用[!UICONTROL 小時]。 如需詳細資訊，請參閱[自訂卡片上顯示的欄位](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)。
+依預設，已連線的卡片上不會顯示時間記錄欄位。 您必須在[!UICONTROL 卡片]下的[!UICONTROL 設定]區域中啟用&#x200B;[!UICONTROL **小時**]。 如需詳細資訊，請參閱[自訂卡片上顯示的欄位](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)。
 
 1. 輸入任務或問題的小時數。
 1. 如果與預設值不同，請從下拉式功能表中選取[!UICONTROL 小時型別]。

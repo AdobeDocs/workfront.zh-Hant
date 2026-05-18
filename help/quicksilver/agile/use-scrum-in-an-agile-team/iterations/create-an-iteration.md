@@ -2,15 +2,15 @@
 product-area: agile-and-teams
 navigation-topic: iterations
 title: 建立反複專案
-description: 反複專案是Scrum敏捷團隊規劃工作容量的關鍵元件。 [!DNL Adobe Workfront] 可讓Scrum Agile團隊透過建立多個反複專案來因應團隊需求管理他們的工作。
+description: 反複專案是Scrum敏捷團隊規劃工作容量的關鍵元件。 [!DNL Adobe Workfront] 可讓Scrum敏捷團隊透過建立多個反複專案來管理其工作，以符合團隊需求。
 author: Courtney
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1025'
 ht-degree: 2%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -81,11 +81,11 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL 容量]</strong></td> 
-      <td> 指定反複專案的容量。 這是您的團隊在反複專案中能夠完成的點數或時數。 您輸入的數字必須等於或大於反複專案中所有劇本的總和中的點數或小時數。<br>[!DNL Workfront]預設會以50個容量預先填入此欄位。 </td> 
+      <td> 指定反複專案的容量。 這是您的團隊在反複專案中能夠完成的點數或時數。 您輸入的數字必須等於或大於反複專案中所有劇本的總和中的點數或小時數。<br>[!DNL Workfront] 預設會以50個容量預先填入此欄位。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL 焦點]</strong></td> 
-      <td>指定團隊的焦點百分比。 如果團隊的所有成員將完全專注於此反複專案，則焦點將是100%。<br>[!DNL Workfront]預設會以100%預先填入此欄位。 </td> 
+      <td>指定團隊的焦點百分比。 如果團隊的所有成員都將完全專注於此反複專案，則焦點將是100%。<br>[!DNL Workfront] 預設會以100%預先填入此欄位。 </td> 
      </tr> 
     </tbody> 
    </table>
@@ -106,7 +106,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
-> 在「待處理專案」標籤上規劃反複專案時，您無法在「內文」或「問題」標籤之間切換，或新增其他任務。 反複專案建立後，您就可以新增現有內文或問題。 如需詳細資訊，請參閱下方的[待處理專案]索引標籤[上的](#add-tasks-or-issues-to-an-existing-iteration-on-the-backlog-tab)將任務或問題新增到現有反複專案。
+> 在「待處理專案」標籤上規劃反複專案時，您無法在「內文」或「問題」標籤之間切換，或新增其他任務。 反複專案建立後，您就可以新增現有內文或問題。 如需詳細資訊，請參閱下方的[待處理專案]索引標籤[&#128279;](#add-tasks-or-issues-to-an-existing-iteration-on-the-backlog-tab)上的將任務或問題新增到現有反複專案。
 
 
 1. 指定下列資訊：
@@ -129,11 +129,11 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL 焦點]</strong></td> 
-      <td>指定團隊的焦點百分比。 如果團隊的所有成員將完全專注於此反複專案，則焦點將是100%。<br>[!DNL Workfront]會使用您團隊過去反複專案的平均值預先填入此欄位。 如果這是您團隊的第一個反複專案，預設情況下此欄位值為0。</td> 
+      <td>指定團隊的焦點百分比。 如果團隊的所有成員都將完全專注於此反複專案，則焦點將是100%。<br>[!DNL Workfront] 會使用您團隊過去反複專案的平均值預先填入此欄位。 如果這是您團隊的第一個反複專案，預設情況下此欄位值為0。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><br><strong>[!UICONTROL 容量]</strong></td> 
-      <td> 指定反複專案的容量。 這是您的團隊在反複專案中能夠完成的點數或時數。 您輸入的數字必須等於或大於反複專案中所有劇本的總和中的點數或小時數。<br>[!DNL Workfront]會使用您團隊過去反複專案的平均值預先填入此欄位。 如果這是您團隊的第一個反複專案，預設情況下此欄位值為0。</td> 
+      <td> 指定反複專案的容量。 這是您的團隊在反複專案中能夠完成的點數或時數。 您輸入的數字必須等於或大於反複專案中所有劇本的總和中的點數或小時數。<br>[!DNL Workfront] 會使用您團隊過去反複專案的平均值預先填入此欄位。 如果這是您團隊的第一個反複專案，預設情況下此欄位值為0。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><br><strong>[!UICONTROL 目標]</strong></td> 
@@ -142,7 +142,7 @@ ht-degree: 2%
     </tbody> 
    </table>
 
-1. 按一下「**[!UICONTROL 儲存]」。**&#x200B;已建立反複專案。
+1. 按一下&#x200B;**[!UICONTROL 儲存]。** 反複專案隨即建立。
 
 ## 將任務或問題新增到待處理專案索引標籤上的現有反複專案
 
@@ -165,4 +165,4 @@ ht-degree: 2%
 
 如果專案開始日期在反複專案開始日期之後，而專案結束日期在反複專案結束日期之後，則使用[!UICONTROL 專案結束日期]取代反複專案結束日期。
 
-您可以設定個別Scrum團隊以預設使用專案日期，而不是反複專案日期。 如需詳細資訊，請參閱[設定Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)一文中的[設定將工作專案新增至疊代](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)時如何套用日期一節。
+您可以設定個別Scrum團隊以預設使用專案日期，而不是反複專案日期。 如需詳細資訊，請參閱[設定Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)一文中的[設定將工作專案新增至疊代](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)時如何套用日期一節。

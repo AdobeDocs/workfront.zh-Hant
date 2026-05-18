@@ -9,9 +9,9 @@ feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '929'
 ht-degree: 2%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -58,7 +58,7 @@ ht-degree: 2%
 
 {{step1-to-boards}}
 
-1. 按一下儀表板的&#x200B;**[!UICONTROL 工作資料流]**&#x200B;區域中的[!UICONTROL 新增工作資料流]。
+1. 按一下儀表板的[!UICONTROL 工作資料流]區域中的&#x200B;**[!UICONTROL 新增工作資料流]**。
 1. 輸入名稱以取代&#x200B;**[!UICONTROL 未命名的工作流]**，然後按Enter鍵。
 
    您可以將面板新增至工作資料流，或按一下「[!UICONTROL **所有面板**]」以返回儀表板。
@@ -66,7 +66,7 @@ ht-degree: 2%
 ## 在工作串流中建立新展示板
 
 1. 如果您不在工作流程中，請按一下儀表板上的[檢視工作流程] [!UICONTROL **&#x200B;**]&#x200B;以開啟現有的工作流程。
-1. 在工作流的&#x200B;**[!UICONTROL 面板]**&#x200B;索引標籤上按一下[!UICONTROL 新增面板]。
+1. 在工作流的[!UICONTROL 面板]索引標籤上按一下&#x200B;**[!UICONTROL 新增面板]**。
 1. 選取展示板的範本。
 
 | 範本 | 說明 |
@@ -80,7 +80,7 @@ ht-degree: 2%
 
 ## 篩選工作流程上的展示板清單
 
-將預設值以外的篩選器套用至展示板清單時，篩選器圖示![已套用篩選器](assets/boards-filterapplied-30x30.png)上會顯示指示器。 按一下[全部清除]&#x200B;[!UICONTROL **以移除所有篩選器，然後按一下[隱藏篩選器]**]&#x200B;以關閉篩選器面板。[!UICONTROL **&#x200B;**]
+將預設值以外的篩選器套用至展示板清單時，篩選器圖示![已套用篩選器](assets/boards-filterapplied-30x30.png)上會顯示指示器。 按一下[全部清除]&#x200B;[!UICONTROL **以移除所有篩選器，然後按一下[隱藏篩選器]**]&#x200B;以關閉篩選器面板。**&#x200B;**
 
 {{step1-to-boards}}
 

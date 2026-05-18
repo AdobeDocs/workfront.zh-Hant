@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '343'
 ht-degree: 6%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 6%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -83,6 +83,6 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >工作專案[!UICONTROL 計劃開始日期]和[!UICONTROL 計畫完成日期]受[!UICONTROL 編輯團隊]頁面上的設定影響。 如需詳細資訊，請參閱[[!UICONTROL 設定Scrum]一文中的](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)設定將工作專案新增至疊代[時如何套用日期](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)一節。
+   >工作專案[!UICONTROL 計劃開始日期]和[!UICONTROL 計畫完成日期]受[!UICONTROL 編輯團隊]頁面上的設定影響。 如需詳細資訊，請參閱[設定Scrum](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)一文中的[[[!UICONTROL 設定將工作專案新增至疊代]](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)時如何套用日期]一節。
 
 1. 按一下&#x200B;**[!UICONTROL 移動]**。

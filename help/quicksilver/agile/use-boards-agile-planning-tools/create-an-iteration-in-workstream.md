@@ -9,9 +9,9 @@ feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '392'
 ht-degree: 4%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -59,7 +59,7 @@ ht-degree: 4%
 
    * 在[卡片清單]索引標籤上的反複專案檢視中，按一下[建立反複專案]。[!UICONTROL **&#x200B;**]
    * 在[卡片清單]索引標籤上，按一下[清單檢視]中的[建立反複專案]。[!UICONTROL **&#x200B;**]
-   * 在[展示板]索引標籤上，按一下[新增展示板&#x200B;[!UICONTROL **]並選取[反複專案程式]**]&#x200B;做為展示板範本。 [!UICONTROL **&#x200B;**]&#x200B;然後，開啟反複專案板並按一下&#x200B;[!UICONTROL **設定反複專案**]。
+   * 在[展示板]索引標籤上，按一下[新增展示板&#x200B;**]並選取[反複專案程式]**&#x200B;做為展示板範本。 [!UICONTROL **&#x200B;**]&#x200B;然後，開啟反複專案板並按一下&#x200B;[!UICONTROL **設定反複專案**]。
 
 1. 在「版序詳細資訊」對話方塊中，新增下列資訊：
 

@@ -8,10 +8,10 @@ feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '1334'
-ht-degree: 1%
+source-wordcount: '1337'
+ht-degree: 2%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -103,7 +103,7 @@ ht-degree: 1%
 
 ### 編輯劇本 {#edit-stories}
 
-您可以直接從「待處理專案」上的[!UICONTROL 內文]或[!UICONTROL 問題]標籤編輯內文，就像大量編輯專案中的任何任務或問題一樣，如[編輯任務](../../manage-work/tasks/manage-tasks/edit-tasks.md#edit-tasks-in-bulk)中的[大量編輯任務](../../manage-work/tasks/manage-tasks/edit-tasks.md)和[編輯問題](../../manage-work/issues/manage-issues/edit-issues.md)中所述。
+您可以直接從「待處理專案」上的[!UICONTROL 內文]或[!UICONTROL 問題]標籤編輯內文，就像大量編輯專案中的任何任務或問題一樣，如[編輯任務](../../manage-work/tasks/manage-tasks/edit-tasks.md)中的[大量編輯任務](../../manage-work/tasks/manage-tasks/edit-tasks.md#edit-tasks-in-bulk)和[編輯問題](../../manage-work/issues/manage-issues/edit-issues.md)中所述。
 
 ## 在待處理專案上建立新劇本 {#create-new-stories-on-the-backlog}
 
@@ -183,7 +183,7 @@ ht-degree: 1%
 1. （選用）刪除任何現有的受指派人。
 1. 按一下&#x200B;**[!UICONTROL 新增被指定者]**。
 1. 開始輸入您要指派給任務或問題的敏捷團隊名稱，然後按一下出現在下拉式清單中的團隊名稱。
-1. 按一下&#x200B;**[!UICONTROL 儲存變更]**。
+1. 按一下「**[!UICONTROL 儲存變更]**」。
 團隊待處理專案現在提供任務或問題。
 
 ## 將劇本移入或移出待處理專案

@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 72e3902b-af9a-497c-817f-63630c4fb73b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '360'
 ht-degree: 4%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 您可以將工作專案從敏捷團隊Kanban展示板移轉到新的或現有的Workfront展示板。 當您執行移轉時，Kanban展示板上的所有卡片都會複製到Workfront展示板。 您不得選擇特定卡片。
 
-卡片在Workfront展示板上的放置是根據欄原則。 (例如，原則可將所有狀態為「進行中」的卡片移至特定欄。 如需欄原則的詳細資訊，請參閱[管理展示板欄](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)。)如果沒有原則或卡片不符合原則，卡片會放在展示板最左邊的欄中。 目前，舊版展示板上「待處理專案」欄中的卡片未新增至Workfront展示板。
+卡片在Workfront展示板上的放置是根據欄原則。 (例如，原則可將所有狀態為「進行中」的卡片移至特定欄。 如需資料行原則的詳細資訊，請參閱[管理面板資料行](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)。 如果沒有原則或卡片不符合原則，卡片會放置在展示板最左側的欄。 目前，舊版展示板上「待處理專案」欄中的卡片未新增至Workfront展示板。
 
 卡片未從敏捷團隊看板中移除，卡片狀態變更將同步到兩個看板。 在準備切換至Workfront主機板之前，您可以讓兩個主機板都保持作用中。
 
@@ -45,7 +45,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

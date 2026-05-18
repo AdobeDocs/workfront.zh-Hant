@@ -8,9 +8,9 @@ feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '608'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 您可以透過下列任何方式將劇本新增至反複專案：
 
-* 在建立反複專案後，從待處理專案，如[管理敏捷待處理專案[!UICONTROL 中的]將劇本從待處理專案移至反複專案，或](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board)看板[面板](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)區段所述
+* 在建立反複專案後，從待處理專案，如[管理敏捷待處理專案](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)中的[將劇本從待處理專案移至反複專案，或[!UICONTROL 看板]面板](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or--board)區段所述
 
 * 從個別任務或問題的[!UICONTROL 詳細資料]頁面
 * 從任務或問題清單
@@ -48,7 +48,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -78,7 +78,7 @@ ht-degree: 3%
 
    * 專案的[!UICONTROL 計劃開始日期]是&#x200B;*在*&#x200B;反複專案的開始日期之後，專案的[!UICONTROL 計畫完成日期]是&#x200B;*在*&#x200B;反複專案的結束日期之後。
 
-您可以設定個別Scrum團隊以預設使用專案日期，而不是反複專案日期。 如需詳細資訊，請參閱[設定Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)一文中的[設定將工作專案新增至疊代](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)時如何套用日期一節。
+您可以設定個別Scrum團隊以預設使用專案日期，而不是反複專案日期。 如需詳細資訊，請參閱[設定Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)一文中的[設定將工作專案新增至疊代](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)時如何套用日期一節。
 
 ## 將劇本新增至現有反複專案
 

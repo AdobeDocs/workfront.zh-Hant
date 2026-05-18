@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '541'
 ht-degree: 6%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 6%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -58,7 +58,7 @@ ht-degree: 6%
 
    ![選取標籤管理員](assets/boards-tagmanager-350x189.png)
 
-1. 在[!UICONTROL 標籤管理員]對話方塊中，選取&#x200B;[!UICONTROL **面板標籤**]&#x200B;區段中的[!UICONTROL 新增標籤]。
+1. 在[!UICONTROL 標籤管理員]對話方塊中，選取[!UICONTROL 面板標籤]區段中的&#x200B;[!UICONTROL **新增標籤**]。
 1. 在反白顯示的方塊中輸入標簽名稱，然後從下拉式選單中選擇此標籤的顏色。 標籤會自動儲存。
 1. （視條件而定）重複步驟4至5以建立其他標籤。
 1. 按一下方塊右上角的&#x200B;**[!UICONTROL 完成]**。

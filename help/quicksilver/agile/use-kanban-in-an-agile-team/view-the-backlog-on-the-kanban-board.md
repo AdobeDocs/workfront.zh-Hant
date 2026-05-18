@@ -2,22 +2,22 @@
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: 將待處理專案新增至Kanban面板
-description: 您可以直接在看板顯示[!UICONTROL 待處理專案]欄。 [!UICONTROL 展示板上的]待處理專案 [!DNL Kanban] 資料行包含 [!DNL Kanban] 展示板上待處理專案的前20個專案。 任務和問題必須屬於狀態等於目前之專案的專案，才能顯示在待處理專案中。
+description: 您可以直接在看板顯示[!UICONTROL 待處理專案]欄。  [!DNL Kanban] 展示板上的[!UICONTROL 待處理專案]資料行包含 [!DNL Kanban] 展示板上待處理專案的前20個專案。 任務和問題必須屬於狀態等於目前之專案的專案，才能顯示在待處理專案中。
 author: Courtney
 feature: Agile
 exl-id: 77c7f7c7-66d9-4aec-9a0c-bfdc470a58d7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '242'
 ht-degree: 8%
 
 ---
 
 # 將待處理專案新增至[!UICONTROL Kanban]面板
 
-您可以直接在看板顯示[!UICONTROL 待處理專案]欄。 [!UICONTROL 展示板上的]待處理專案[!DNL Kanban]欄包含您[!DNL Kanban]展示板上的待處理專案中的前20個專案。 任務和問題必須屬於狀態相當於[!UICONTROL 目前]的專案，才能顯示在待處理專案中。
+您可以直接在看板顯示[!UICONTROL 待處理專案]欄。 [!DNL Kanban]展示板上的[!UICONTROL 待處理專案]欄包含您[!DNL Kanban]展示板上的待處理專案中的前20個專案。 任務和問題必須屬於狀態相當於[!UICONTROL 目前]的專案，才能顯示在待處理專案中。
 
 ## 存取權要求
 
@@ -41,7 +41,7 @@ ht-degree: 8%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '647'
 ht-degree: 2%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -70,7 +70,7 @@ ht-degree: 2%
 
 1. 關閉欄位或區段以在兩個卡片檢視中將其停用。
 1. 按一下欄位或區段旁的隱藏圖示![隱藏圖示](assets/eye-hide-icon.png)，在壓縮檢視中隱藏它。
-1. 若要在兩個檢視中顯示所有欄位和區段，請按一下[將所有欄位還原為預設值]。[!UICONTROL **&#x200B;**]
+1. 若要在兩個檢視中顯示所有欄位和區段，請按一下[將所有欄位還原為預設值]。**&#x200B;**
 1. 按一下&#x200B;[!UICONTROL **隱藏設定**]&#x200B;以關閉「設定」面板。
 
 ## 新增自訂欄位到卡片

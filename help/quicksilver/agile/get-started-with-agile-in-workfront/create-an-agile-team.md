@@ -8,7 +8,7 @@ feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 2%
@@ -52,7 +52,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -66,7 +66,7 @@ ht-degree: 2%
 
 ### 在[!DNL Workfront]中使用看板的好處
 
-[!DNL Kanban]中的[!DNL Workfront]敏捷方法可讓您更輕鬆地在敏捷故事板上移動故事，同時限制進行中的工作量。 使用[!DNL Kanban]敏捷方法時沒有開始和結束日期。
+[!DNL Workfront]中的[!DNL Kanban]敏捷方法可讓您更輕鬆地在敏捷故事板上移動故事，同時限制進行中的工作量。 使用[!DNL Kanban]敏捷方法時沒有開始和結束日期。
 
 下列功能支援此方法：
 
@@ -74,7 +74,7 @@ ht-degree: 2%
 如需詳細資訊，請參閱[將待處理專案新增至[!UICONTROL Kanban]展示板](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)。
 
 * 設定待處理專案上的專案，以便在其他專案移至等同於完成的狀態時，自動新增至[!UICONTROL Kanban]敏捷故事板。
-如需詳細資訊，請參閱文章[設定Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5)中的[設定要自動從待處理專案新增的劇本](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)一節。
+如需詳細資訊，請參閱文章[設定Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)中的[設定要自動從待處理專案新增的劇本](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5)一節。
 
 * 設定要在[!UICONTROL Kanban]敏捷故事板上顯示的工作進行中(WIP)限制。
 如需詳細資訊，請參閱[在Kanban展示板上管理進行中的工作(WIP)限制](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)。
