@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 8e351505-73d1-4c8f-b369-53c965b88c95
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '422'
 ht-degree: 3%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 3%
 
 內文的預設色彩關聯會依據內文板是位於疊代還是專案而有所不同：
 
-* **[!UICONTROL 反複專案]**：在反複專案上，內文板圖磚會根據內文相關聯的專案進行色彩編碼。 （每個專案都會任意指定故事板上的顏色。） 您可以為每個敏捷團隊變更此預設行為。 疊代上敏捷內文的顏色可以與專案（預設）、內文優先順序、所有者或自由形式繫結。 如需詳細資訊，請參閱[設定Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur4)文章中的[設定如何針對敏捷故事板上的劇本使用顏色指標](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)。
+* **[!UICONTROL 反複專案]**：在反複專案上，內文板圖磚會根據內文相關聯的專案進行色彩編碼。 （每個專案都會任意指定故事板上的顏色。） 您可以為每個敏捷團隊變更此預設行為。 疊代上敏捷內文的顏色可以與專案（預設）、內文優先順序、所有者或自由形式繫結。 如需詳細資訊，請參閱[設定Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)文章中的[設定如何針對敏捷故事板上的劇本使用顏色指標](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur4)。
 
-* **[!UICONTROL 專案]**：在專案上，任何子任務都與父任務的顏色相符，因此任何指定泳道中的所有劇本顏色都相同。 如果任務沒有任何子任務或沒有父任務，則在建立顏色時，顏色會隨機指派給任務。 您可以修改敏捷檢視來變更此預設行為。 專案中敏捷內文的顏色可以與父內文（預設）、內文優先順序、所有者或自由形式繫結。 如需詳細資訊，請參閱[中[!UICONTROL 檢視總覽中的]建立或自訂](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view)敏捷[檢視 [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)。
+* **[!UICONTROL 專案]**：在專案上，任何子任務都與父任務的顏色相符，因此任何指定泳道中的所有劇本顏色都相同。 如果任務沒有任何子任務或沒有父任務，則在建立顏色時，顏色會隨機指派給任務。 您可以修改敏捷檢視來變更此預設行為。 專案中敏捷內文的顏色可以與父內文（預設）、內文優先順序、所有者或自由形式繫結。 如需詳細資訊，請參閱 [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)中[檢視總覽中的[建立或自訂[!UICONTROL 敏捷]檢視](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view)。
 
 ## 存取權要求
 
@@ -39,14 +39,14 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：[!UICONTROL Standard]</p> 
+   <td> <p>新增：[！UICONTROL Standard]</p> 
    或
-   <p>目前： [!UICONTROL Work]或更高版本</p> </td> 
+   <p>目前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr>
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

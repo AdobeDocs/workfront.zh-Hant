@@ -8,9 +8,9 @@ feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1075'
 ht-degree: 1%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -137,7 +137,7 @@ ht-degree: 1%
 
    1. 選取卡片移至此欄時要套用的狀態。
 
-      資料行![的](assets/boards-column-status.png)狀態
+      資料行](assets/boards-column-status.png)的![狀態
 
       也會顯示已連線卡片的狀態轉譯選項。 （狀態轉譯不適用於臨時卡。） 這些選項決定在連線的卡片移至此欄時，套用到[!DNL Workfront]中任務或問題的自訂狀態。
 
@@ -169,7 +169,7 @@ ht-degree: 1%
 
    1. 從下拉式清單中選取標籤。 只有已在[!UICONTROL 標籤管理員]中建立的標籤才可供選擇。 如需新增標籤的相關資訊，請參閱[新增標籤](/help/quicksilver/agile/get-started-with-boards/add-tags.md)。
 
-      資料行![的](assets/boards-column-tags.png)標籤
+      資料行](assets/boards-column-tags.png)的![標籤
 
 1. 啟用&#x200B;**[!UICONTROL 進行中工作限制]**&#x200B;原則以限制可新增到資料行的卡片數量。 然後，在&#x200B;**[!UICONTROL 設定限制]**&#x200B;欄位中輸入限制數字。
 

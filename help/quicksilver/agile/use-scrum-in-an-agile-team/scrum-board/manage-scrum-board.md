@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 72990251-0264-4e68-83ef-1a9cde5b685c
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '472'
 ht-degree: 3%
 
 ---
@@ -35,18 +35,18 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：[!UICONTROL Standard]</p> 
+   <td> <p>新增：[！UICONTROL Standard]</p> 
    或
-   <p>目前： [!UICONTROL Work]或更高版本</p> </td> 
+   <p>目前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td>[!UICONTROL Manage]任務或問題的存取權 </td> 
+   <td>[！UICONTROL Manage]任務或問題的存取權 </td> 
   </tr>
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -64,18 +64,18 @@ ht-degree: 3%
 
    <table style="table-layout:auto">
     <tr>
-        <td><strong>[!UICONTROL 其他反複專案]</strong></td>
+        <td><strong>[！UICONTROL其他反複專案]</strong></td>
         <td>選取將專案移至另一個反複專案，然後選擇內文或問題將移至哪個反複專案。 如果未定義未來的版序，則無法移動專案。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 待處理專案]</strong></td>
+        <td><strong>[！UICONTROL待處理專案]</strong></td>
         <td>選取將劇本或問題移至團隊的待辦專案。</td>
     </tr>
    </table>
 
    >[!NOTE]
    >
-   >工作專案[!UICONTROL 計劃開始日期]和[!UICONTROL 計畫完成日期]受[!UICONTROL 編輯團隊]頁面上的設定影響。 如需詳細資訊，請參閱[[!UICONTROL 設定Scrum]一文中的](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)設定將工作專案新增至疊代[時如何套用日期](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)一節。
+   >工作專案[!UICONTROL 計劃開始日期]和[!UICONTROL 計畫完成日期]受[!UICONTROL 編輯團隊]頁面上的設定影響。 如需詳細資訊，請參閱[設定Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)一文中的[[!UICONTROL 設定將工作專案新增至疊代](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)時如何套用日期]一節。
 
 1. 按一下&#x200B;**[!UICONTROL 移動]**。
 

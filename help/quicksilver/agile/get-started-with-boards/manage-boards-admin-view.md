@@ -8,10 +8,10 @@ feature: Agile
 exl-id: 4a7f2f68-14d2-4532-8c76-2ba78b45deac
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 2%
+source-wordcount: '625'
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 ## 存取權要求
 
-+++ 展開以檢視存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,7 +52,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -74,7 +74,7 @@ ht-degree: 2%
 
    1. （選擇性）按一下&#x200B;**行事曆**&#x200B;圖示![行事曆圖示](assets/calendar-icon.png)，然後選取日期範圍，以依據該時間範圍內最後修改的展示板進行篩選。
 
-   1. （選擇性）在&#x200B;**範本**&#x200B;區段中，選取清單篩選所依據的主機板範本型別。 您可以選取多個範本型別。
+   1. （選擇性）在&#x200B;**範本**區段中，選取清單篩選所依據的主機板範本型別。 您可以選取多個範本型別。
 如需面板範本型別的詳細資訊，請參閱[建立或編輯面板](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md)。
 
    1. （選擇性）在&#x200B;**已封存**&#x200B;區段中，選取要顯示已封存或未封存的展示板。 您可以選取多個選項。
@@ -142,5 +142,5 @@ ht-degree: 2%
 
    >[!NOTE]
    >   
-   >修改「面板」清單群組顯示時，**群組**&#x200B;圖示上方會出現一個藍點，表示目前的檢視與預設不同。<br>
+   >修改「面板」清單群組顯示時，**群組**&#x200B;圖示上方會出現一個藍點，表示目前的檢視與預設不同。 <br>
    >如果要移除群組，請開啟&#x200B;**群組依據**&#x200B;面板，然後選取右上角的&#x200B;**全部清除**。

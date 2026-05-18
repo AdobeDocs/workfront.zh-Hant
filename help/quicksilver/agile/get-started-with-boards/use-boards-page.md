@@ -8,9 +8,9 @@ feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '818'
 ht-degree: 2%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -67,7 +67,7 @@ ht-degree: 2%
 您可以篩選展示板控制面板，以顯示使用中、已封存或所有展示板或工作流程。
 
 1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 面板]**。
-1. 按一下[面板]區域或[工作流程]區域中的[篩選器]&#x200B;[!UICONTROL **&#x200B;**]，然後選取[全部]&#x200B;**[!UICONTROL 、[活動]]**&#x200B;**[!UICONTROL 或[已封存]]**&#x200B;**[!UICONTROL 。]**
+1. 按一下[面板]區域或[工作流程]區域中的[篩選器][!UICONTROL ****]，然後選取[全部]]**、[活動]****或[已封存]****。**[!UICONTROL 
 
    當在儀表板上套用預設以外的篩選器時，篩選器圖示![已套用至儀表板](assets/boards-filterapplied-30x30.png)的篩選器上會顯示指示器。
 

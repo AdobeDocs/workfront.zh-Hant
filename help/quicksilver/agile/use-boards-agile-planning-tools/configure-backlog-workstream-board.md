@@ -9,9 +9,9 @@ feature: Agile
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '480'
 ht-degree: 3%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -60,7 +60,7 @@ ht-degree: 3%
 
 {{step1-to-boards}}
 
-1. 開啟您要使用的工作流。 若要開啟工作流程，請按一下[檢視工作流程]。[!UICONTROL **&#x200B;**]
+1. 開啟您要使用的工作流。 若要開啟工作流程，請按一下[檢視工作流程]。[!UICONTROL ****]
 1. 按一下工作流程中的任何展示板以開啟。
 1. 按一下主機板右側的&#x200B;[!UICONTROL **[設定]**]&#x200B;以開啟[設定]面板。
 1. 開啟&#x200B;[!UICONTROL **在此展示板上包含待處理專案欄**]。

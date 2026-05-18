@@ -8,9 +8,9 @@ feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 4dd591c034e1c84ef3bda64d12b6920fbdd33c26
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '1561'
+source-wordcount: '1554'
 ht-degree: 2%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 2%
 </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -157,7 +157,7 @@ ht-degree: 2%
 
 當您定義Kanban團隊的WIP限制時，您可以透過限制可在[!UICONTROL Kanban]展示板上的[!UICONTROL New]或[!UICONTROL In Progress]欄中出現的任務數量，來控制團隊目前正在處理的專案數量。
 
-設定Kanban團隊的WIP限制後，您可以檢視WIP限制，並從[!UICONTROL Kanban]敏捷故事板更新該限制，如[!UICONTROL Kanban]故事板[&#128279;](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)上的管理進行中的工作(WIP)限制中所述。
+設定Kanban團隊的WIP限制後，您可以檢視WIP限制，並從[!UICONTROL Kanban]敏捷故事板更新該限制，如[!UICONTROL Kanban]故事板](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)上的[管理進行中的工作(WIP)限制中所述。
 
 若要限制看板團隊的在製品，請執行下列步驟：
 

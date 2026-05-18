@@ -9,9 +9,9 @@ feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1018'
 ht-degree: 5%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 5%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -128,7 +128,7 @@ ht-degree: 5%
 
    如需建立篩選的詳細資訊，請參閱文章[在 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md)中建立或編輯篩選中，標準產生器中的建立或編輯篩選區段。
 
-1. 為篩選器命名，然後按一下[儲存]。**&#x200B;** 該篩選器會出現在您儲存的篩選器清單中，並自動套用至輸入欄。
+1. 為篩選器命名，然後按一下[儲存]。**** 該篩選器會出現在您儲存的篩選器清單中，並自動套用至輸入欄。
 
    ![正在輸入新的篩選器名稱](assets/save-as-modal.png)
 

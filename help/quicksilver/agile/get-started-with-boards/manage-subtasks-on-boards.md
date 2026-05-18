@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 166a84d3-18ea-4a58-b0e8-f09df2a63caa
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '368'
 ht-degree: 4%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -60,7 +60,7 @@ ht-degree: 4%
 
    此任務的任何現有子任務都會出現在子任務區段中，檢查清單專案上方的卡片上。 按一下&#x200B;[!UICONTROL **搜尋**]&#x200B;圖示以搜尋子任務。
 
-1. 若要新增子工作，請按一下[新增子工作]。[!UICONTROL **&#x200B;**] 然後，鍵入子任務的標題並按Enter鍵。
+1. 若要新增子工作，請按一下[新增子工作]。[!UICONTROL ****] 然後，鍵入子任務的標題並按Enter鍵。
 
    清單頂端的計數器顯示已完成子工作的數目以及子工作的總數。
 

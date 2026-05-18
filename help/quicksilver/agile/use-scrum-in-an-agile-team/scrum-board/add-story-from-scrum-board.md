@@ -8,9 +8,9 @@ feature: Agile
 exl-id: d4eec3c5-8cea-467f-b1b4-3f9fab57b10f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '416'
 ht-degree: 4%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->工作專案[!UICONTROL 計劃開始日期]和[!UICONTROL 計畫完成日期]受[!UICONTROL 編輯團隊]頁面上的設定影響。 如需詳細資訊，請參閱[[!UICONTROL 設定Scrum]一文中的](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)設定將工作專案新增至疊代[時如何套用日期](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)一節。
+>工作專案[!UICONTROL 計劃開始日期]和[!UICONTROL 計畫完成日期]受[!UICONTROL 編輯團隊]頁面上的設定影響。 如需詳細資訊，請參閱[設定Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)一文中的[[!UICONTROL 設定將工作專案新增至疊代](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)時如何套用日期]一節。
 
 ## 存取權要求
 
@@ -37,18 +37,18 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：[!UICONTROL Standard]</p> 
+   <td> <p>新增：[！UICONTROL Standard]</p> 
    或
-   <p>目前： [!UICONTROL Work]或更高版本</p> </td> 
+   <p>目前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td>[!UICONTROL 管理]任務或問題所在專案的存取權 </td> 
+   <td>[！UICONTROL管理]任務或問題所在專案的存取權 </td> 
   </tr>
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -71,11 +71,11 @@ ht-degree: 4%
         <td>專案的說明。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 估計]</strong></td>
+        <td><strong>[！UICONTROL估計]</strong></td>
         <td>預估專案小時數或點數。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 父專案]</strong></td>
+        <td><strong>[！UICONTROL父專案]</strong></td>
         <td>（必要）儲存新內文或問題的專案。 開始輸入專案名稱，然後在其顯示在清單中時選取它。</td>
     </tr>
    </table>

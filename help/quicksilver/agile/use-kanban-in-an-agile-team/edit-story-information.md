@@ -8,10 +8,10 @@ feature: Agile
 exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 7%
+source-wordcount: '378'
+ht-degree: 5%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 7%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>每個內文和問題的[!UICONTROL 完成百分比]。<br>[!UICONTROL 反複運算的完成百分比]是根據每個內文的[!UICONTROL 完成百分比]計算的。<br></p> <p>更新內文或問題的[!UICONTROL 完成百分比]時，您可以選擇0到100之間的任何數字。</p> </td> 
+   <td> <p>每個內文和問題的[！UICONTROL完成百分比]。<br>[！UICONTROL反複運算的完成百分比]是根據每個內文的[！UICONTROL完成百分比]計算的。<br></p> <p>更新內文或問題的[！UICONTROL完成百分比]時，您可以選擇0到100之間的任何數字。</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -64,7 +64,7 @@ ht-degree: 7%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>任何可能透過修改敏捷檢視新增到敏捷檢視的其他欄位（包括自訂欄位），如<a href="../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">中[!DNL Adobe Workfront]</a>檢視總覽中的「建立和自訂敏捷檢視」中所述</p> </td> 
+   <td> <p>任何可能透過修改敏捷檢視新增到敏捷檢視的其他欄位（包括自訂欄位），如[!DNL Adobe Workfront]</a>中<a href="../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">檢視總覽中的「建立和自訂敏捷檢視」中所述</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -93,7 +93,7 @@ ht-degree: 7%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 

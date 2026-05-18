@@ -8,9 +8,9 @@ feature: Agile
 exl-id: e19a007d-737c-42d4-aa69-771d8a9e9fd8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '469'
 ht-degree: 4%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -64,7 +64,7 @@ ht-degree: 4%
 
 1. 前往您想要變更劇本旗標的[!UICONTROL Kanban]面板。
 1. 展開內文拼貼以檢視旗標。
-每個內文的旗標預設為&#x200B;**[!UICONTROL 曲目]**。
+每個內文的旗標預設為**[!UICONTROL 曲目]**。
    ![看板卡](assets/agile-storycard-kanban-2021-350x308.png)
 
 1. 按一下目前的旗標，然後從下列旗標選項中選取：

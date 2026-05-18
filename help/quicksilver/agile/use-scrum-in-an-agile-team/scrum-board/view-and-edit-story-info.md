@@ -8,10 +8,10 @@ feature: Agile
 exl-id: 88d156ea-0913-425e-b3eb-6ae81d2d2336
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 5%
+source-wordcount: '446'
+ht-degree: 3%
 
 ---
 
@@ -44,12 +44,12 @@ ht-degree: 5%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>內文的完成點數或小時數，以及指派給內文的點數或小時數<br>這些數字用於計算並顯示每個內文的[!UICONTROL 完成百分比]。</p> </td> 
+   <td> <p>內文的完成點數或小時數，以及指派給內文的點數或小時數<br>這些數字用於計算並顯示每個內文的[！UICONTROL完成百分比]。</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>每個內文和問題的[!UICONTROL 完成百分比]。<br>反複專案的[!UICONTROL 完成百分比]是根據每個內文的[!UICONTROL 完成百分比]計算的。</p> <p>更新內文或問題的[!UICONTROL 完成百分比]時，您可以選擇0到100之間的任何數字。</p> </td> 
+   <td> <p>每個內文和問題的[！UICONTROL完成百分比]。<br>反複專案的[！UICONTROL完成百分比]是根據每個內文的[！UICONTROL完成百分比]計算的。</p> <p>更新內文或問題的[！UICONTROL完成百分比]時，您可以選擇0到100之間的任何數字。</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -64,7 +64,7 @@ ht-degree: 5%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>任何可能透過修改敏捷檢視而新增至敏捷檢視的其他欄位（包括自訂欄位），如[!UICONTROL Adobe Workfront]<a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">中</a>檢視總覽的「建立和自訂[!UICONTROL Agile]檢視」中所述。</p> </td> 
+   <td> <p>任何可能透過修改敏捷檢視而新增至敏捷檢視的其他欄位（包括自訂欄位），如[！UICONTROL Adobe Workfront]</a>中<a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">檢視總覽的「建立和自訂[！UICONTROL Agile]檢視」中所述。</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -85,18 +85,18 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：[!UICONTROL Standard]</p> 
+   <td> <p>新增：[！UICONTROL Standard]</p> 
    或
-   <p>目前： [!UICONTROL Work]或更高版本</p> </td> 
+   <p>目前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td>[!UICONTROL Contribute]或[!UICONTROL Manage]任務或問題的存取權</td> 
+   <td>[！UICONTROL Contribute]或[！UICONTROL Manage]任務或問題的存取權</td> 
   </tr>
  </tbody> 
 </table>
 
-如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
