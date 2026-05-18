@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 5539dea2754b38ba7a00b90b1d1ff10ff6309991
 workflow-type: tm+mt
-source-wordcount: '14119'
+source-wordcount: '14144'
 ht-degree: 2%
 
 ---
@@ -940,6 +940,11 @@ ht-degree: 2%
       * [啟用或停用AI助理](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
       * [使用AI自動填寫請求](/help/quicksilver/workfront-basics/ai-assistant/autofill-request-with-ai.md)
       * [專案健康情況概觀](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md)
+   * {hide-from-toc} Workfront MCP伺服器 {#workfront-mcp-server}
+      * {hide-from-toc}[Workfront MCP伺服器：發行項索引](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server.md)
+      * {hide-from-toc}[Adobe Workfront MCP伺服器概述](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-overview.md)
+      * {hide-from-toc}[設定Adobe Workfront MCP伺服器](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)
+      * {hide-from-toc}[使用Adobe Workfront MCP伺服器](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
    * 更新工作專案並檢視更新 {#update-work-items-view-updates}
       * [更新工作專案和檢視更新：文章索引](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
       * [更新區段概觀](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
