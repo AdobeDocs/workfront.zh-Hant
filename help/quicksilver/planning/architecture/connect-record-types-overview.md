@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: b014a06cd4c3305967fcd2edfe893a024051fa9c
 workflow-type: tm+mt
-source-wordcount: '2155'
+source-wordcount: '2261'
 ht-degree: 1%
 
 ---
@@ -128,32 +128,39 @@ ht-degree: 1%
       * 無法從Workfront物件存取規劃記錄欄位。
       * Planning記錄會顯示於Workfront物件的Planning區段。 如需詳細資訊，請參閱[管理來自Workfront物件的記錄連線](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
       * 您可以建立Planning連線自訂欄位，並將其附加至Workfront物件的自訂表單。 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
-      * 當您的Experience Manager管理員透過Workfront與Adobe Experience Manager Assets之間的整合設定中繼資料對應時，可從Workfront資產存取規劃記錄欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。<!--not sure if this is also possible for content fragments-->
+      * 當您的Experience Manager管理員透過Workfront與Adobe Experience Manager Assets之間的整合設定中繼資料對應時，可從Workfront資產存取規劃記錄欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。<!--not sure if this is also possible for content fragments-->
       * 無法從GenStudio for Performance Marketing中的「品牌」存取計畫記錄欄位。
 
-   * **當您從您連線的記錄或物件加入查閱欄位時**：除了建立連結的記錄欄位之外，您還可以從連線的記錄或物件型別連線到稱為查閱欄位的欄位。 連結（或查詢欄位）的資訊，來自於您所連線的記錄，顯示在您所連線的記錄上。<!--not sure if this is also possible for content fragments-->
+   * **當您從您連線的記錄或物件加入查閱欄位時**：除了建立連結的記錄欄位之外，您還可以從連線的記錄或物件型別連線到稱為查閱欄位的欄位。 連結（或查詢欄位）的資訊，來自於您所連線的記錄，顯示在您所連線的記錄上。
 
-     您可以將其他記錄型別或其他應用程式物件的欄位連線到Workfront Planning記錄型別。
+     新增查閱欄位時，請考慮下列事項：
 
-     連結欄位是唯讀的，會自動顯示連線記錄的資訊。
+      * 您可以將其他記錄型別或其他應用程式物件的欄位連線到Workfront Planning記錄型別。
 
-     您可以在公式、篩選器或群組中參照其他記錄或物件型別的查閱欄位。
+      * 查閱欄位是唯讀的，會自動顯示連線記錄的資訊。
 
-     例如，如果您將「行銷活動」記錄型別與Workfront專案連線，並且選擇將專案的「計畫完成日期」欄位帶入Workfront計畫記錄，則系統會自動為行銷活動建立名為「計畫完成日期」（來自「專案」）的連結欄位。 您無法手動編輯此連結的欄位。 計畫完成日期（來自專案）欄位會顯示連結專案的計畫完成日期。
+      * 並非所有欄位都支援從Workfront Planning連結。 例如，AEM內容片段僅支援下列欄位： <!--this information is also in "Connect record types"-->
+
+         * 建立者及建立時間
+         * 修改者與修改者：
+
+      * 您可以在公式、篩選器或群組中參照其他記錄或物件型別的查閱欄位。
+
+        例如，如果您將「行銷活動」記錄型別與Workfront專案連線，並選擇將專案的「計畫完成日期」欄位帶入Workfront計畫記錄，則系統會自動為行銷活動建立名為「計畫完成日期」（來自「專案」）的連結欄位。 您無法手動編輯此連結的欄位。 「計畫完成日期（來自專案）」欄位會顯示連結專案的「計畫完成日期」，如Workfront中所建立。
 
      >[!IMPORTANT]
      >
      >擁有工作區檢視或較高許可權的每個人皆可檢視查閱欄位中的資訊，無論其在連結物件型別應用程式中的許可權或存取層級，或其在其他工作區的許可權為何。
 
-     連結的記錄欄位前面有關聯圖示![關聯欄點陣圖示](assets/relationship-field-icon.png)。
+      * 連線的記錄欄位前面有關聯圖示![關聯欄點陣圖示](assets/relationship-field-icon.png)。
 
-     連結的欄位前面有識別欄位型別的圖示。 例如，連結（或查詢）欄位前面有圖示，表示欄位是數字、段落或日期。
+      * 連線的查閱欄位前面會有一個圖示，用來識別欄位型別。 查閱欄位前面有圖示，表示欄位是數字、段落或日期。
 
-     >[!TIP]
-     >
-     >Workfront物件的日期欄位資訊在Workfront Planning中會以24小時格式顯示，無論其在Workfront中的顯示方式為何。
-     >
-     >例如，如果專案的計劃開始日期在Workfront中顯示為3:00下午，則在匯入的查詢欄位中，它將在Workfront Planning中顯示為15:00。
+        >[!TIP]
+        >
+        >Workfront物件的日期欄位資訊在Workfront Planning中會以24小時格式顯示，無論其在Workfront中的顯示方式為何。
+        >
+        >例如，如果專案的計劃開始日期在Workfront中顯示為3:00下午，則在匯入的查詢欄位中，它將在Workfront Planning中顯示為15:00。
 
    * 您必須連線記錄型別，才能在Workfront Planning中建立階層。 當記錄型別連線不存在時，會在您建立階層時自動建立連線。 如需詳細資訊，請參閱[建立工作區階層](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)。
 

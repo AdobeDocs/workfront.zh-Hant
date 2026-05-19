@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: b014a06cd4c3305967fcd2edfe893a024051fa9c
 workflow-type: tm+mt
-source-wordcount: '2977'
-ht-degree: 0%
+source-wordcount: '3035'
+ht-degree: 1%
 
 ---
 
@@ -73,7 +73,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
-<p>To connect record types from the same workspace: </p>
+<p>若要從相同工作區連線記錄型別： </p>
 <ul> 
 <li><p>任何Workfront和任何Planning套件</p></li>
 <li><p>任何工作流程與任何Planning套件</li></ul>
@@ -93,7 +93,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    <ul><li><p>Adobe Experience Manager Assets授權及AEM Assets與Workfront之間的整合，用於連結AEM資產與Planning記錄型別。</p>
    <p>如需詳細資訊，請參閱<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 連線記錄型別與GenStudio Brands的Adobe GenStudio for Performance Marketing授權</p>
-   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
+   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -199,18 +199,18 @@ Old:
 
    * 來自目前工作區的記錄型別
 
-     ![Multi-select connection picker for same-workspace record type](assets/multi-select-connection-picker-record-type.png)
+     ![相同工作區記錄型別的多重選取連線選擇器](assets/multi-select-connection-picker-record-type.png)
 
      >[!TIP]
      >
      > 
-     >If you don&#39;t have other record types in the selected workspace, the workspace section does not display.
+     >如果您在選取的工作區中沒有其他記錄型別，工作區區段不會顯示。
 
-   * A record type from another workspace that was configured to connect from other workspaces.
+   * 來自另一個工作區的記錄型別，該記錄型別被設定為從其他工作區連線。
 
      >[!TIP]
      >
-     >必須針對&#x200B;**編輯記錄型別**&#x200B;方塊的&#x200B;**跨工作區設定**&#x200B;索引標籤中的記錄型別，啟用&#x200B;**允許連線至其他工作區中的此記錄型別**&#x200B;設定，才能從其他工作區存取記錄型別。 If there are no record types that are configured to connect from other workspaces, the workspace section does not display.
+     >必須針對&#x200B;**編輯記錄型別**&#x200B;方塊的&#x200B;**跨工作區設定**&#x200B;索引標籤中的記錄型別，啟用&#x200B;**允許連線至其他工作區中的此記錄型別**&#x200B;設定，才能從其他工作區存取記錄型別。 如果沒有記錄型別被設定為從其他工作區連線，則工作區區段不會顯示。
      >
      >如需詳細資訊，請參閱[設定記錄型別的跨工作區功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。
      >
@@ -230,7 +230,7 @@ Old:
      >您可以使用下列鍵盤組合，從任何Workfront Planning頁面開啟全域搜尋方塊並搜尋記錄型別：
      >
      >* Windows版CTRL+K
-     >* ⌘+K for Mac
+     >* 適用於Mac的⌘+K
      >
      >![全域搜尋方塊](assets/global-search-box.png)
 
@@ -269,8 +269,8 @@ Old:
    >
    >您可以有多個連線連線到相同的記錄或物件型別。 如果您不編輯已連線的欄位名稱，Workfront會在已連線記錄的名稱后新增一個數字，以表示相同名稱的已連線記錄型別數目。
 
-1. 新增連線記錄欄位的相關資訊，以更新&#x200B;**描述**&#x200B;欄位。 The description of a field displays when you hover over the field&#39;s column in a table.
-1. (Conditional) When you connect record types from two different workspaces, a record type and an Adobe Experience Manager asset object, or a record type and a GenStudio Brand, select the **Allow multiple records**. By selecting it, you indicate that you allow users to add multiple records when the connected record type field displays on the original records. 依預設會選取此選項。
+1. 新增連線記錄欄位的相關資訊，以更新&#x200B;**描述**&#x200B;欄位。 當您將滑鼠游標停留在表格中的欄位欄位上時，會顯示欄位說明。
+1. （視條件而定）當您從兩個不同的工作區連線記錄型別，即記錄型別和Adobe Experience Manager資產物件，或記錄型別和GenStudio品牌時，請選取&#x200B;**允許多筆記錄**。 透過選取它，您表示當連線的記錄型別欄位顯示在原始記錄上時，您可以允許使用者新增多個記錄。 依預設會選取此選項。
 
    ![從另一個工作區新增記錄型別的連線](assets/new-connection-allow-multiple-records-box.png)
 
@@ -314,20 +314,20 @@ Old:
 
    >[!NOTE]
    >
-   >您的Workfront管理員可以透過Workfront中的中繼資料對應，將Workfront Planning欄位對應至Experience Manager Assets欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+   >您的Workfront管理員可以透過Workfront中的中繼資料對應，將Workfront Planning欄位對應至Experience Manager Assets欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
 
 1. （視條件而定）當您選取連線至Experience Manager、Workfront Planning記錄型別或GenStudio Brand時，請在&#x200B;**記錄外觀**&#x200B;區域中選擇下列其中一個選項：
 
    * **名稱和影像**：連線記錄的名稱和縮圖或圖示都會顯示在連線記錄欄位中。 這是預設選項。
-   * **Name**: Only the name of the connected records will display in the connected record field.
-   * **Image**: Only the thumbnail or icon of the connected records will display in the connected record field.
+   * **名稱**：連線的記錄欄位中只會顯示連線記錄的名稱。
+   * **影像**：連線記錄欄位中只會顯示連線記錄的縮圖或圖示。
 
-   Records without a thumbnail image display the record type icon instead. An example of how the connected records will display shows in the **Record appearance** area.
+   沒有縮圖影像的記錄會改為顯示記錄型別圖示。 在&#x200B;**記錄外觀**&#x200B;區域顯示連線記錄的範例。
 
    >[!NOTE]
    >
-   >* When you allow multiple records to be linked, displaying only the thumbnail might save space in smaller areas, like record views.
+   >* 當您允許連結多個記錄時，只顯示縮圖可能會節省較小區域（例如記錄檢視）的空間。
    >
    >* 記錄的名稱是記錄的主要欄位。 如需詳細資訊，請參閱[主要欄位概述](/help/quicksilver/planning/fields/primary-field-overview.md)。
    >
@@ -337,11 +337,15 @@ Old:
 
 1. 選取&#x200B;**選取查閱欄位**&#x200B;以從您連線的記錄型別新增欄位。 查閱欄位是與您要連結的記錄或物件型別相關聯的欄位。 連結它們會顯示您連結的記錄或物件在您連結的記錄上的資訊。 依預設會選取此選項。
 
-   >[!TIP]
+   >[!NOTE]
    >
-   >* In addition to system fields like Name and Description, you can add the following types of fields as lookup fields from object types from another application:
+   >* 除了「名稱」和「說明」等系統欄位之外，您還可以新增下列型別的欄位，作為來自其他應用程式之物件型別的查詢欄位：
    >   * Workfront專案中的使用者欄位，例如「專案所有者」或「贊助者」。
    >   * 參考欄位，例如Workfront專案中的專案群組或專案公司。
+   >* AEM內容片段僅支援下列欄位： <!--this information is also in "Connect record types overview"-->
+   >   * 建立者及建立時間
+   >   * 修改者與修改者：
+   >
    >* Workfront物件的日期欄位資訊在Workfront Planning中會以24小時格式顯示，無論其在Workfront中的顯示方式為何。
    >
    >   例如，如果專案的計劃開始日期在Workfront中顯示為3:00下午，則在匯入的查詢欄位中，它將在Workfront Planning中顯示為15:00。
@@ -377,11 +381,11 @@ Old:
 
    當使用者在連結的記錄欄位中選取多個連結的記錄時，連結欄位的值會根據您選擇的彙總器，以逗號分隔或顯示為摘要值。
 
-   If the lookup field contains multiple values that are not summarized, consider the following when using the field in sorting or grouping in a view:
+   如果查閱欄位包含多個未彙總的值，請在檢視中排序或分組時考慮以下事項：
 
-   * The sorting is done by the first value
+   * 排序由第一個值完成
 
-   * Records are grouped by each unique combination of field values
+   * 記錄會依每個欄位值的唯一組合分組
 
    * 時間軸檢視會根據所連線記錄型別的第一個日期值（當它顯示在檢視中時）建置
 
@@ -389,7 +393,7 @@ Old:
    >
    > 如果您希望欄位能新增為時間軸和行事曆檢視的開始和結束日期，新增查閱日期欄位時必須選取彙總值。 例如，您可以選取MAX或查閱日期欄位的MIN彙總。
 
-   連結的編號欄位![的](assets/aggregator-drop-down-for-number-linked-field.png)彙總下拉式清單
+   連結的編號欄位](assets/aggregator-drop-down-for-number-linked-field.png)的![彙總下拉式清單
 
    >[!NOTE]
    >
@@ -425,9 +429,9 @@ Old:
 
 1. 按一下&#x200B;**新增欄位**&#x200B;以儲存變更。
 
-   The following items are added:
+   已新增下列專案：
 
-   * A linked record field on the record type you are linking from. The linked record field will display individual records from the linked record type, after you manually add them. For information about adding records, see [Connect records](/help/quicksilver/planning/records/connect-records.md). The name of the linked record field is the name you selected in step 6. <!--accurate-->
+   * 您正在連結的記錄型別上的連結記錄欄位。 在您手動新增連結的記錄型別後，連結的記錄欄位將顯示連結的記錄型別的個別記錄。 如需新增記錄的資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。 連結的記錄欄位名稱是您在步驟6中選取的名稱。<!--accurate-->
 
    * 一個連結（或查詢）欄位（或數個欄位），在您手動新增連結記錄欄位中的記錄或物件後，顯示連結記錄或物件型別的相關資訊。 只有在建立連線時選取&#x200B;**選取查閱欄位**&#x200B;設定時，才會建立查閱欄位。 查閱欄位會自動根據以下模式命名：
 
@@ -442,7 +446,7 @@ Old:
      >[!TIP]
      >
      > 連結的記錄欄位不會為來自另一個應用程式的物件在其各自的應用程式中建立。
-     > We recommend not creating links to taxonomical record types, as there is a limit of 500 fields, in addition to the limit of 30 connected fields for every record type.
+     > 除了每個記錄型別有30個連線欄位的限制外，我們建議不要建立分類記錄型別的連結，因為有500個欄位的限制。
 
 
 1. （選擇性和條件性）在原始記錄型別或連結記錄型別表格檢視中，按一下連結記錄欄位標題中的向下箭頭，然後按一下下列其中一項：

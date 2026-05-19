@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: e40d28599148e22a8553d1ef1e669811e80a59df
+source-git-commit: b014a06cd4c3305967fcd2edfe893a024051fa9c
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ There are no features released during the Third Quarter Release for 2026. When f
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
-## 表格檢視中內容片段的新預覽視窗
+## 新的AEM內容片段預覽視窗
 
 >[!NOTE]
 >
@@ -38,6 +38,23 @@ There are no features released during the Third Quarter Release for 2026. When f
 此功能先前可用於AEM資產，而我們現在已將其新增至內容片段。
 
 如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
+
+## Workfront Planning中現在提供AEM內容片段的查詢欄位
+
+>[!NOTE]
+>
+>預覽： 2026年5月14日>生產快速發行： 2026年5月14日>適用於所有人的生產： 2026年5月14日>[!BADGE 不在排程]{type=Neutral}內
+
+當您將Planning記錄型別連線至AEM內容片段時，現在可以新增下列查閱欄位：
+
+* 建立者
+* 建立時間
+* 修改者
+* 修改時間
+
+在此增強功能之前，查詢欄位僅適用於AEM資產和資料夾。
+
+如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
 <!--
 
