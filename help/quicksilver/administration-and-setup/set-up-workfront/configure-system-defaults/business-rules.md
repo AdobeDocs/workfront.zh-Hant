@@ -12,7 +12,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 8ee1cda376b51a5f5b7b4af44e6d34bf70ee9600
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1808'
 ht-degree: 3%
 
 ---
@@ -242,7 +242,7 @@ IF({status} = "APR", true)
 
      您可以在錯誤訊息中加入靜態URL，以連結至檔案或其他實用頁面，引導使用者如何在規則的限制內修改其動作。
 
-     在此範例中，「瞭解更多」將連結至URL。 `"You are not allowed to add a new project in November.[Learn more](http://url)"` URL必須位於括弧中，但不需要括弧中的連結文字。 您可以顯示完整URL，它將是可點按的連結。
+     在此範例中，「瞭解更多」將連結至URL。`"You are not allowed to add a new project in November.[Learn more](http://url)"` URL必須位於括弧中，但不需要使用括弧中的連結文字。 您可以顯示完整URL，它將是可點按的連結。
 
    ![新增商業規則對話方塊](assets/add-business-rule-new.png)
 

@@ -10,7 +10,7 @@ role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
 source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
 workflow-type: tm+mt
-source-wordcount: '1478'
+source-wordcount: '1488'
 ht-degree: 3%
 
 ---
@@ -279,7 +279,7 @@ Login Attempt Logs do not record when a Workfront administrator uses the Log In 
 
 >[!NOTE]
 >
->因為所有組織都已上線至Adobe Admin Console，此功能已無法使用。如需詳細資訊，請洽詢您的網路或IT管理員。
+>由於所有組織都已上線至Adobe Admin Console，因此此功能已無法使用。如需詳細資訊，請洽詢您的網路或IT管理員。
 
 ### 優先順序 {#priority}
 
@@ -372,7 +372,7 @@ Login Attempt Logs do not record when a Workfront administrator uses the Log In 
 
   >[!NOTE]
   >
-  >因為所有組織都已上線至Adobe Admin Console，此功能已無法使用。如需詳細資訊，請洽詢您的網路或IT管理員。
+  >由於所有組織都已上線至Adobe Admin Console，因此此功能已無法使用。如需詳細資訊，請洽詢您的網路或IT管理員。
 
 * 刪除使用者
 * 變更使用者的存取層級、公司、團隊或群組
