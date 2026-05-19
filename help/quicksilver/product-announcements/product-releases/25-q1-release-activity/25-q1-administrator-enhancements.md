@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 exl-id: fa24040d-0403-4799-b690-c3d172797115
 source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '874'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 您現在可以建立商業規則，並將驗證套用至這些額外的物件：公司、反複專案、非人工資源分類、工作角色、使用者、工作分派、資源集區、休假、檔案及小時。
 
-商業規則已支援下列物件：專案、任務、請求、Portfolio、方案、費用、記帳記錄、群組、風險和費率卡。
+商業規則已支援下列物件：專案、任務、請求、Portfolio、方案、費用、計費記錄、群組、風險和費率卡。
 
 如需詳細資訊，請參閱[建立和編輯商業規則](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)。
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 >
 >預覽版本： 2024年11月21日；快速發行生產：24.12版（2024年12月12日）；每季發行生產：25.1版（2025年1月16日）
 
-當您將原生欄位參考新增至自訂表單，並且它參考預先輸入欄位(例如，Portfolio、公司或所有者)時，現在可以使用篩選器選項。 篩選器可讓您限制使用者在使用欄位時可選擇的物件。 此自訂篩選的運作方式與自訂預先輸入欄位上的篩選相同，是使用文字模式來定義篩選。
+當您將原生欄位參考新增至自訂表單，並且它參考預先輸入欄位（例如Portfolio、公司或所有者）時，現在可以使用篩選器選項。 篩選器可讓您限制使用者在使用欄位時可選擇的物件。 此自訂篩選的運作方式與自訂預先輸入欄位上的篩選相同，是使用文字模式來定義篩選。
 
 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 

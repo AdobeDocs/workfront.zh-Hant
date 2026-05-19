@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
 source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->商業規則僅適用於使用新Ultimate計畫的組織。
+>商業規則僅適用於新Ultimate計畫上的組織。
 
 ## Adobe Workfront中一般提供的自訂表單設計工具
 
