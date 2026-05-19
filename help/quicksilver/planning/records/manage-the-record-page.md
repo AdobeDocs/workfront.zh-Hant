@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: e40d28599148e22a8553d1ef1e669811e80a59df
+source-git-commit: b014a06cd4c3305967fcd2edfe893a024051fa9c
 workflow-type: tm+mt
-source-wordcount: '1989'
+source-wordcount: '2022'
 ht-degree: 0%
 
 ---
@@ -197,17 +197,13 @@ Old:
 
    從表格檢視中，按一下第一欄中的&#x200B;**開啟詳細資料**&#x200B;圖示![在表格名稱欄位中開啟詳細資料圖示](assets/open-details-icon-in-table-name-field.png)。
 
-   記錄的預覽會在檢視中開啟。
-
-   <!--update screen shot for details views preview-->
+   <span class="preview">記錄的預覽在檢視中開啟。</span>
 
    ![詳細資訊方塊](assets/details-box.png)
 
 1. （選擇性）按一下記錄預覽右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤中開啟詳細資料](assets/open-details-in-a-new-tab-icon.png)，以在新索引標籤中開啟記錄頁面。
 
-   記錄頁面隨即開啟。 依預設，詳細資訊標籤會開啟。
-
-   <!--update screen shot for details views preview-->
+   <span class="preview">記錄頁面開啟。 預設會開啟[詳細資料]索引標籤。</span>
 
    ![詳細資料頁面](assets/details-page.png)
 
@@ -280,9 +276,7 @@ Old:
 
    從表格檢視中，按一下第一欄中的&#x200B;**開啟詳細資料**&#x200B;圖示![在表格名稱欄位中開啟詳細資料圖示](assets/open-details-icon-in-table-name-field.png)。
 
-   記錄的預覽會在檢視中開啟。
-
-   <!--update screen shot for details views preview-->
+   <span class="preview">記錄的預覽在檢視中開啟。</span>
 
    ![詳細資訊方塊](assets/details-box.png)
 
@@ -302,33 +296,34 @@ Old:
 
    >[!TIP]
    >
-   > <span class="preview">只有當您在資料表檢視中檢視記錄時，才可使用&#x200B;**選取的資料表檢視欄位**&#x200B;檢視。</span>
+   > <span class="preview">只有當您在記錄的詳細資料預覽頁面中檢視資料表檢視中的記錄時，才可使用&#x200B;**選取的資料表檢視欄位**&#x200B;檢視。
+   >**選取的資料表檢視欄位**&#x200B;不適用於任何其他記錄型別檢視或在瀏覽器視窗中開啟的記錄詳細資訊頁面。</span>
 
-<div class="preview">
+1. <span class="preview">（條件式）在預覽環境中，繼續下列步驟：</span>
 
-在「預覽」環境中，繼續下列操作：
+   <div class="preview">
 
-1. 若要顯示所有欄位，請展開頁面檢視下拉式功能表，然後選取&#x200B;**所有欄位**。
-1. （選擇性） ClicK **新詳細資料**&#x200B;新增並自訂頁面，然後執行下列動作：
+   1. 若要顯示所有欄位，請展開頁面檢視下拉式功能表，然後選取&#x200B;**所有欄位**。
+   1. （選擇性） ClicK **新詳細資料**&#x200B;新增並自訂頁面，然後執行下列動作：
 
-   1. 在&#x200B;**建立檢視**&#x200B;方塊中，新增新詳細資料頁面檢視的名稱，然後按一下&#x200B;**建立**。
-   1. 將滑鼠懸停在檢視上的欄位上，然後按一下欄位左側的&#x200B;**隱藏欄位**&#x200B;圖示![隱藏欄點陣圖示](assets/hide-field-in-details-page-icon.png)以隱藏欄位。
+      1. 在&#x200B;**建立檢視**&#x200B;方塊中，新增新詳細資料頁面檢視的名稱，然後按一下&#x200B;**建立**。
+      1. 將滑鼠懸停在檢視上的欄位上，然後按一下欄位左側的&#x200B;**隱藏欄位**&#x200B;圖示![隱藏欄點陣圖示](assets/hide-field-in-details-page-icon.png)以隱藏欄位。
 
-      >[!TIP]
-      >
-      >* 存取記錄的所有人均可看見自訂頁面。
-      >* 您選擇的最後一個頁面檢視將是您開啟相同型別的另一個記錄時，預設開啟的頁面檢視。
+         >[!TIP]
+         >
+         >* 存取記錄的所有人均可看見自訂頁面。
+         >* 您選擇的最後一個頁面檢視將是您開啟相同型別的另一個記錄時，預設開啟的頁面檢視。
 
-   1. （選擇性）按一下詳細資訊頁面頂端的&#x200B;**欄點陣圖示** ![欄點陣圖示](assets/fields-icon.png)，然後隱藏或顯示詳細資訊頁面上的欄位。
+      1. （選擇性）按一下詳細資訊頁面頂端的&#x200B;**欄點陣圖示** ![欄點陣圖示](assets/fields-icon.png)，然後隱藏或顯示詳細資訊頁面上的欄位。
 
-      >[!TIP]
-      >
-      >當您在&#x200B;**選取的資料表檢視**&#x200B;或&#x200B;**所有欄位**&#x200B;檢視中顯示詳細資訊頁面時，**欄位**&#x200B;圖示無法使用。
+         >[!TIP]
+         >
+         >當您在&#x200B;**選取的資料表檢視**&#x200B;或&#x200B;**所有欄位**&#x200B;檢視中顯示詳細資訊頁面時，**欄位**&#x200B;圖示無法使用。
 
-   1. （選擇性）若要編輯自訂詳細資料頁面檢視的名稱，請將滑鼠停留在檢視名稱上，然後按一下&#x200B;**更多**&#x200B;圖示![更多圖示](assets/more-menu.png)，然後按一下&#x200B;**編輯**。
-   1. （選擇性）若要刪除自訂詳細資料頁面檢視，請將滑鼠停留在檢視名稱上，然後按一下&#x200B;**更多**&#x200B;圖示![更多圖示](assets/more-menu.png)，然後按一下&#x200B;**刪除**，再按一下&#x200B;**刪除**&#x200B;以進行確認。 已刪除的詳細資料頁面檢視無法復原。
+      1. （選擇性）若要編輯自訂詳細資料頁面檢視的名稱，請將滑鼠停留在檢視名稱上，然後按一下&#x200B;**更多**&#x200B;圖示![更多圖示](assets/more-menu.png)，然後按一下&#x200B;**編輯**。
+      1. （選擇性）若要刪除自訂詳細資料頁面檢視，請將滑鼠停留在檢視名稱上，然後按一下&#x200B;**更多**&#x200B;圖示![更多圖示](assets/more-menu.png)，然後按一下&#x200B;**刪除**，再按一下&#x200B;**刪除**&#x200B;以進行確認。 已刪除的詳細資料頁面檢視無法復原。
 
-</div>
+   </div>
 
 1. （選擇性）如果您要導覽至已連線的記錄，請在詳細資訊頁面頂端的階層連結中按一下該記錄的名稱。
 
@@ -340,9 +335,7 @@ Old:
 
 1. （選擇性）按一下記錄預覽右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤圖示中開啟詳細資訊方塊](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->，以在新索引標籤中開啟記錄的頁面。
 
-   記錄&#x200B;**詳細資料**&#x200B;頁面會在新索引標籤中開啟。
-
-   <!--update screen shot for details views preview-->
+   <span class="preview">記錄&#x200B;**詳細資料**&#x200B;頁面會在新索引標籤中開啟。</span>
 
    ![詳細資料頁面](assets/details-page.png)
 
