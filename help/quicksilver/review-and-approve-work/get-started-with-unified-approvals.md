@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 34861693e7671c3e485668ab7887a4cd05ae6e99
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 專案專員可以在Workfront中建立專案並計畫工作。 在啟用Frame.io整合的執行個體中建立的專案，會利用Adobe雲端儲存空間，在Adobe生態系統中儲存和管理資產。
 
-如果您的組織有Frame.io Enterprise授權，在Workfront中建立的專案也會顯示在Frame.io中，讓使用者可在任一產品中互動和上傳資產。
+如果您的組織有Frame.io Enterprise授權，在Workfront中建立的專案也會顯示在Frame.io中，讓使用者可在任一產品中互動和上傳資產。 在Frame.io中，所有Workfront連結的專案都會分組到名為&#x200B;**Workfront連結的專案**&#x200B;的單一Workspace。 如需連結的專案在Frame.io中如何出現及行為的詳細資訊，請參閱Frame.io檔案中的[Adobe Workfront整合總覽](https://help.frame.io/en/articles/12242607-adobe-workfront-integration-overview)。
 
 如需Adobe雲端儲存空間或Frame.io中專案的詳細資訊，請參閱
 
