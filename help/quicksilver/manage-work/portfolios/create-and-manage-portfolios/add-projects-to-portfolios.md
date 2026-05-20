@@ -65,15 +65,15 @@ ht-degree: 2%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
    <td><p>標準</p> 
-   <p>[！UICONTROL計畫] </p> </td> 
+   <p>[!UICONTROL 計畫] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[！UICONTROL Edit]存取權投資組合</p> <p>[！UICONTROL Edit]專案的存取權</p> </td> 
+   <td> <p>[!UICONTROL Edit]存取權投資組合</p> <p>[!UICONTROL Edit]專案的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合的[！UICONTROL Manage]許可權</p> <p>[！UICONTROL Manage]專案的許可權</p>  </td> 
+   <td> <p>投資組合的[!UICONTROL Manage]許可權</p> <p>[!UICONTROL Manage]專案的許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -131,29 +131,29 @@ Old:
     <tbody>
 
    <tr> 
-      <td role="rowheader">[！UICONTROL新專案]</td> 
+      <td role="rowheader">[!UICONTROL 新專案]</td> 
       <td> <p>新增專案。 </p> <p>如需建立專案的詳細資訊，請參閱<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">建立專案</a>。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL新專案（舊版儲存空間）]</td> 
+      <td role="rowheader">[!UICONTROL 新專案（舊版儲存空間）]</td> 
       <td> <p>新增Workfront儲存專案。 </p>
       <p>只有當您的組織同時使用Workfront和Adobe雲端檔案儲存時，才會顯示選項。 您的Workfront執行個體可能沒有這兩種型別的儲存空間。</p>
        <p>如需建立專案的詳細資訊，請參閱<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">建立專案</a>。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL從範本新增專案]</td> 
+      <td role="rowheader">[!UICONTROL 從範本新增專案]</td> 
       <td> <p>使用現有範本新增專案。 </p> <p>如需從範本建立專案的詳細資訊，請參閱<a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">使用範本建立專案</a>。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL匯入[!DNL MS Project]] </td> 
+      <td role="rowheader">[!UICONTROL 匯入[!DNL MS Project]] </td> 
       <td> <p>新增您先前從[!DNL MS Project]匯出且儲存在電腦上的專案。 </p> <p>如需有關從[!DNL Microsoft Project]匯入以建立新專案的詳細資訊，請參閱<a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">從[!DNL Microsoft Project]</a>匯入專案。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL請求專案]</td> 
+      <td role="rowheader">[!UICONTROL 請求專案]</td> 
       <td> <p>請求核准專案。</p> <p>如需請求專案的詳細資訊，請參閱<a href="../../../manage-work/projects/create-projects/request-project.md">請求專案</a>。 </p> </td> 
      </tr> 
           <tr> 
-      <td role="rowheader">[！UICONTROL現有專案]</td> 
+      <td role="rowheader">[!UICONTROL 現有專案]</td> 
       <td> <p>新增已建立的專案。</p> </td> 
      </tr>
     </tbody> 
