@@ -8,16 +8,16 @@ feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 2%
+source-wordcount: '1449'
+ht-degree: 1%
 
 ---
 
 # 建立方案
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 05/2026-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
@@ -127,17 +127,27 @@ Old:
 
    * 從[!UICONTROL 程式]區域建立程式：
 
-      1. 按一下主功能表中的&#x200B;**[!UICONTROL 程式]**。
+      1. 按一下&#x200B;[!DNL **主功能表**]![主功能表](assets/lines-main-menu.png)中的&#x200B;**[!UICONTROL 程式]**。
       1. 按一下&#x200B;**[!UICONTROL 新增程式]**。
       1. 在顯示的方塊中，於&#x200B;**[!UICONTROL 選取Portfolio]**&#x200B;欄位中輸入現有Portfolio的名稱。
       1. 在&#x200B;**[!UICONTROL 名稱]**&#x200B;欄位中輸入新程式的名稱。
       1. 按一下「**[!UICONTROL 儲存]**」。
    * 從[!UICONTROL 投資組合]區域建立方案：
 
-      1. 按一下[!UICONTROL 主功能表]中的&#x200B;**[!UICONTROL 投資組合]**，然後開啟投資組合。
+      1. 按一下&#x200B;[!DNL **主功能表**]![主功能表](assets/lines-main-menu.png)中的&#x200B;**[!UICONTROL 投資組合]**，然後開啟投資組合。
       1. 在左側面板中，按一下&#x200B;**[!UICONTROL 程式]**。
       1. 按一下&#x200B;**[!UICONTROL 新程式]**&#x200B;下拉式功能表，然後&#x200B;**[!UICONTROL 新程式]**。
+   * 新增現有程式：
+      1. 按一下&#x200B;[!DNL **主功能表**]![主功能表](assets/lines-main-menu.png)中的&#x200B;**[!UICONTROL 投資組合]**，然後開啟投資組合。
+      1. 在左側面板中，按一下&#x200B;**[!UICONTROL 程式]**。
+      1. 按一下&#x200B;**[!UICONTROL 新程式]**&#x200B;下拉式功能表，然後按一下&#x200B;**[!UICONTROL 現有程式]**。
+      1. 開始輸入現有方案的名稱，或按一下下拉式選單，然後從清單中選取它。
 
+     >[!NOTE]
+     >
+     >當您的組織同時使用Workfront舊版和Adobe cloud檔案儲存時，您無法將儲存型別與方案不同的專案新增到方案。
+     >您的Workfront執行個體可能沒有這兩種型別的檔案儲存。
+     >如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
 1. （視條件而定）如果您是從投資組合建立方案，請在&#x200B;**[!UICONTROL 未命名方案]**&#x200B;欄位中指定方案的名稱。
 
@@ -172,13 +182,20 @@ Old:
       <td role="rowheader">[!UICONTROL 計畫管理員]</td> 
       <td> <p>開始輸入您想當作「方案管理員」的使用者名稱，然後在使用者名稱出現在下拉式清單中時按一下該使用者的名稱。 這與[!UICONTROL 計畫所有者]相同。 </p> <p>提示：您也可以在方案標題中更新「方案管理員」。 </p> </td> 
      </tr> 
-     <tr data-mc-conditions=""> 
+     <tr> 
       <td role="rowheader">[!UICONTROL 群組] </td> 
       <td> <p>如果群組擁有方案或負責完成方案，請新增單一群組的名稱。 </p> <p>您可以暫留在群組上，並按一下旁邊顯示的[!UICONTROL 資訊]圖示<img src="assets/info-icon.png">，確定您選取的群組正確。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> 
-       <div data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-        <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> 
-       </div> </td> 
-     </tr> 
+       <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> 
+        </td> 
+     </tr>
+
+</tr> 
+   <tr> 
+   <td role="rowheader">[!UICONTROL 作用中] </td> 
+   <td> <p>如果您希望此方案處於作用中狀態，並且使用者可以找到它以將其與專案相關聯，請核取此設定。</p>
+   <p>取消核取時，方案不會顯示在專案或範本的方案欄位中。 </p> 
+ </td> 
+   </tr> 
     </tbody> 
    </table>
 
@@ -210,7 +227,7 @@ Old:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">頁首資訊</td> 
+   <td role="rowheader"><strong>頁首資訊</strong></td> 
    <td> <strong>附註</strong> </td> 
   </tr> 
   <tr> 
@@ -223,19 +240,20 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader">物件型別名稱和啟動狀態</td> 
-   <td>當您檢視方案時，「方案」一詞會顯示橘色圖示。 單字「[!UICONTROL 已停用]」會顯示在其旁邊，如果程式未標示為[!UICONTROL 作用中]，則大綱為灰色。 </td> 
+   <td>當您檢視方案時，「方案」一詞會顯示橘色圖示。 如果程式在[!UICONTROL **程式詳細資料**]區域中未標示為[!UICONTROL 作用中]，則旁邊會顯示字詞「[!UICONTROL 已停用]」。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">計畫的動作區域 </td> 
    <td> <p>按一下下列任一項，以存取更多資訊或編輯程式的選項：</p> 
     <ul> 
      <li>星形圖示可將方案新增至您的最愛清單</li> 
+     <li>使用[!UICONTROL **Share**]按鈕與其他人共用</li> 
      <li> <p>[!UICONTROL More]功能表<img src="assets/qs-more-menu.png">可執行下列任一項作業： </p> 
       <ul> 
        <li>編輯方案</li> 
        <li>停用它。 停用方案時，您無法再將其與專案層級的專案建立關聯。 </li> 
        <li> <p>刪除它。 刪除方案不會刪除方案中的專案。 它會移除專案與方案的關聯。 </p> </li> 
-       <li>與其他人共用</li> 
+       <li>重新計算程式的運算式。 這會重新計算計畫自訂表單上的所有已計算自訂欄位。 </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 

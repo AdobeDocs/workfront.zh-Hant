@@ -8,16 +8,16 @@ feature: Work Management, Strategic Planning
 exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 3%
+source-wordcount: '676'
+ht-degree: 2%
 
 ---
 
 # 將專案新增至方案
 
-<!--Audited: 08/2025-->
+<!--Audited: 05/2026-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
@@ -114,26 +114,34 @@ old:
    <table style="table-layout:auto"> 
     <col> 
     <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL 現有專案]</td> 
-      <td> <p>新增已建立的專案。</p> </td> 
-     </tr> 
-     <tr> 
+    <tbody>
+
+   <tr> 
       <td role="rowheader">[!UICONTROL 新專案]</td> 
       <td> <p>從頭開始新增專案。 </p> <p>如需從頭開始建立專案的詳細資訊，請參閱<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">建立專案</a>。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">&lbrack;！UICONTROL從[!DNL MS Project]匯入專案 </td> 
+      <td role="rowheader">[!UICONTROL 新專案（舊版儲存空間）]</td> 
+      <td> <p>新增Workfront儲存專案。 </p>
+      <p>只有當您的組織同時使用Workfront和Adobe雲端檔案儲存時，才會顯示選項。 您的Workfront執行個體可能沒有這兩種型別的儲存空間。</p>
+      <p>如需建立專案的詳細資訊，請參閱<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">建立專案</a>。 </p> </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader">[!UICONTROL 從範本新增專案]</td> 
+      <td> <p>使用現有範本新增專案。 </p> <p>如需從範本建立專案的詳細資訊，請參閱<a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">使用範本建立專案</a>。</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL 匯入[!DNL MS Project]] </td> 
       <td> <p>新增您先前從[!DNL MS Project]匯出且儲存在電腦上的專案。 </p> <p>如需有關從[!DNL Microsoft Project]匯入以建立新專案的詳細資訊，請參閱<a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">從[!DNL Microsoft Project]</a>匯入專案。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 請求專案]</td> 
       <td> <p>在您可以開始處理新專案之前，先請求核准該專案。</p> <p>如需請求專案的詳細資訊，請參閱<a href="../../../manage-work/projects/create-projects/request-project.md">請求專案</a>。 </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL New from Template]</td> 
-      <td> <p>使用現有範本新增專案。 </p> <p>如需從範本建立專案的詳細資訊，請參閱<a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">使用範本建立專案</a>。</p> </td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">[!UICONTROL 現有專案]</td> 
+      <td> <p>新增已建立的專案。</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -147,8 +155,22 @@ old:
    1. 在&#x200B;**[!UICONTROL 新增專案]**&#x200B;方塊中，在&#x200B;**將專案新增至此方案**&#x200B;欄位中輸入專案名稱，然後當專案顯示在清單中時選取它。<!--check casing on links and buttons-->
 
       您可以新增多個專案。
+
+      >[!NOTE]
+      >
+      >當您的組織使用舊版Workfront和Adobe雲端儲存空間存放檔案時，會出現以下情況：
+      >
+      >
+      >* 當您將Adobe雲端儲存空間專案新增至舊版Workfront儲存空間方案，且方案沒有附加任何檔案時，方案及其產品組合會轉換為Adobe雲端儲存空間物件。
+      >* 當您將Adobe雲端儲存空間專案新增至舊版Workfront儲存空間方案，且方案或產品組合已附加檔案時，方案或產品組合檔案儲存空間仍會保留在Workfront儲存空間中。 不過，舊版Workfront儲存圖示![舊版Workfront儲存圖示](assets/legacy-storage-project-icon.png)已從方案或產品組合中移除（移動專案前已附加檔案的專案）。
+      >* 您無法將舊版Workfront儲存空間專案新增到Adobe雲端儲存空間方案。
+      >
+      >如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
+      >
+      >並非所有Workfront執行個體都有兩種檔案儲存型別。
+
    1. （選擇性）如果您決定不將專案新增至程式，請按一下專案名稱旁的&#x200B;**刪除**&#x200B;圖示![刪除圖示](assets/delete-icon.png)。
 
    1. 按一下&#x200B;**[!UICONTROL 新增專案]**。<!--check at unshimming-->
 
-      專案出現在方案的&#x200B;**[!UICONTROL 專案]**&#x200B;標籤中，現在與方案和方案的個別投資組合相關聯。
+      專案顯示在方案的&#x200B;**[!UICONTROL 專案]**&#x200B;標籤中，現在與方案和方案的個別投資組合相關聯。

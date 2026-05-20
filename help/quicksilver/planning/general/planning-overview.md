@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
 source-wordcount: '2294'
 ht-degree: 2%
@@ -113,7 +113,7 @@ The following features are currently available in Workfront Planning:
 -->
 
 <!--
-OLD: 
+<table style="table-layout:auto"> 
 
 |       Feature                                      |     Available now  |     Coming soon   |     In research  |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -160,6 +160,8 @@ OLD:
 |     Workfront Planning public API                                 |      ✓                         |                                  |                 |
 |     Workfront Planning AI Assistant*                                 |      ✓                         |                                  |                 |
 |     Reporting on Workfront Planning information (Canvas Dashboard)                              |                               |       ✓                           |                 |
+</table>
+
 -->
 
 ## 為您的Workfront例項中的使用者啟用Workfront Planning

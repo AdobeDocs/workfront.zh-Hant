@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18e899b87eb950222b0d22f41a998a458baa6f49
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '21714'
+source-wordcount: '21829'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 <!--Audited: 04/2026-->
 
-Bob： 4-30
+<!--Bob: 4-30-->
 
 >[!IMPORTANT]
 >
@@ -1436,6 +1436,27 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[!UICONTROL On Change Only]</td> 
    <td> <p>[!UICONTROL Project Update]型別之一。 選取此專案時，[!UICONTROL 專案預計]和[!UICONTROL 計畫]時間表只會在專案或專案內任務進行更新或變更時更新。 它不會每晚更新專案。</p> <p>如需詳細資訊，請參閱<a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">選取專案更新型別</a>。</p> </td> 
+  </tr>
+
+</tr>
+  <tr> 
+   <td>舊版Workfront儲存空間上的</td> 
+   <td>  <p>舊版Workfront儲存圖示<img src="assets/legacy-storage-project-icon.png">表示物件與Workfront檔案儲存相關聯。 </p> 
+   <p>圖示會顯示在物件名稱附近、物件標題中或某些清單中。 </p>
+   <p>有些客戶同時擁有舊版Workfront和Adobe雲端檔案儲存空間。 檔案可儲存在任一環境中，以供同時擁有這兩種儲存型別的客戶使用。</p>
+   <p>下列物件可以擁有Workfront或Adobe雲端檔案儲存空間：</p>
+   <ul><li>專案</li>
+   <li>專案組合</li>
+   <li>計劃</li>
+   <li>範本</li>
+   <li>任務</li>
+   <li>問題</li>
+   <li>範本任務</li></ul>
+   <p>只有專案、產品組合、計畫和範本可以顯示「開啟」舊版Workfront儲存空間圖示。 </p>
+   <p>您的Workfront執行個體可能沒有這兩種型別的檔案儲存。 
+  <p>如需詳細資訊，請參閱<a href="/help/quicksilver/review-and-approve-work/esm-overview.md">Adobe雲端儲存空間概觀</a>。 </p>
+
+</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 作業任務]</td> 

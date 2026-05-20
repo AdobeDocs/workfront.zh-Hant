@@ -8,16 +8,16 @@ feature: Work Management, Strategic Planning
 exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 5%
+source-wordcount: '382'
+ht-degree: 3%
 
 ---
 
 # 將現有方案新增至投資組合
 
-<!--Audited: 10/2025-->
+<!--Audited: 05/2026-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
@@ -87,6 +87,21 @@ Old:
 
 ## 將現有方案新增至投資組合
 
+>[!NOTE]
+>
+>當您的組織使用舊版Workfront和Adobe雲端儲存空間存放檔案時，會出現以下情況：
+>
+>
+>* 當您將Adobe雲端儲存空間程式新增至舊版Workfront儲存空間產品組合，而產品組合沒有附加任何檔案時，產品組合會轉換為Adobe雲端儲存空間。
+>* 當您將Adobe雲端儲存空間程式新增至舊版Workfront儲存空間產品組合，且該產品組合已附加檔案，則產品組合檔案儲存空間仍會保留在Workfront儲存空間中。 不過，舊版Workfront儲存體圖示![舊版Workfront儲存體圖示](assets/legacy-storage-project-icon.png)已從產品組合中移除。
+>* 您無法將舊版Workfront儲存空間程式新增到Adobe雲端儲存空間產品組合。
+>
+>如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
+>
+>並非所有Workfront執行個體都有兩種檔案儲存型別。
+
+若要將現有方案新增至另一個投資組合：
+
 1. 前往投資組合，然後按一下左側面板中的&#x200B;**[!UICONTROL 程式]**。
 1. 按一下&#x200B;**[!UICONTROL 新增程式]**。
 1. 按一下&#x200B;**[!UICONTROL 現有程式]**。
@@ -108,3 +123,4 @@ Old:
 1. 按一下&#x200B;**[!UICONTROL 新增程式]**。
 
    程式會顯示在您選取的投資組合上的&#x200B;**[!UICONTROL 程式]**&#x200B;索引標籤中。
+

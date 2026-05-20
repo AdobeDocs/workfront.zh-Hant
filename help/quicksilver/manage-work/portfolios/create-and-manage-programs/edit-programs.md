@@ -8,10 +8,10 @@ feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '1109'
-ht-degree: 3%
+source-wordcount: '1160'
+ht-degree: 2%
 
 ---
 
@@ -154,8 +154,17 @@ ht-degree: 3%
      <tr> 
       <td role="rowheader">[!UICONTROL 群組]</td> 
       <td> <p>如果群組與方案相關聯或負責完成方案，請新增單一群組的名稱。 </p> <p><b>秘訣</b></p>  <p>從[!UICONTROL 計畫詳細資訊]頁面存取[!UICONTROL 群組]欄位時，請執行以下操作以確保您選取了正確的群組： </p> <p>將游標停留在群組名稱上，然後按一下它旁邊的[!UICONTROL 資訊]圖示<img src="assets/info-icon.png">。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>此選項在[!UICONTROL 編輯程式]方塊中無法使用。 </p> </p> </td> 
-     </tr> 
-    </tbody> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">[!UICONTROL 作用中]</td> 
+      <td> <p>如果您希望此方案處於作用中狀態，並且使用者可以找到它以將其與專案相關聯，請核取此設定。</p>
+   <p>取消核取時，方案不會顯示在專案或範本的方案欄位中。 </p>
+   <p>此設定預設為勾選。 </p>
+   </td> 
+     </tr>
+
+   </tbody> 
    </table>
 
    <!--
