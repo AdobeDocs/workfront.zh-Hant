@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 5%
+source-wordcount: '1179'
+ht-degree: 4%
 
 ---
 
@@ -114,6 +114,12 @@ ht-degree: 5%
 ## 將範本附加至現有專案 {#attach-a-template-to-an-existing-project}
 
 您可以從專案頁面、專案清單或報表將範本附加至專案。
+
+>[!NOTE]
+>
+>當您的組織同時使用舊版Workfront和Adobe雲端檔案儲存時，您可以使用與專案不同的儲存型別來附加範本。 這不會變更專案的檔案儲存空間。
+>
+>如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
 {{step1-to-projects}}
 

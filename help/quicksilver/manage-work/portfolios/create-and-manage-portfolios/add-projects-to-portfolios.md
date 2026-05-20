@@ -8,9 +8,9 @@ feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '689'
 ht-degree: 2%
 
 ---
@@ -65,15 +65,15 @@ ht-degree: 2%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
    <td><p>標準</p> 
-   <p>[!UICONTROL 計畫] </p> </td> 
+   <p>[！UICONTROL計畫] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL Edit]存取權投資組合</p> <p>[!UICONTROL Edit]專案的存取權</p> </td> 
+   <td> <p>[！UICONTROL Edit]存取權投資組合</p> <p>[！UICONTROL Edit]專案的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合的[!UICONTROL Manage]許可權</p> <p>[!UICONTROL Manage]專案的許可權</p>  </td> 
+   <td> <p>投資組合的[！UICONTROL Manage]許可權</p> <p>[！UICONTROL Manage]專案的許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -128,27 +128,34 @@ Old:
    <table style="table-layout:auto"> 
     <col> 
     <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL 現有專案]</td> 
-      <td> <p>新增已建立的專案。</p> </td> 
+    <tbody>
+
+   <tr> 
+      <td role="rowheader">[！UICONTROL新專案]</td> 
+      <td> <p>新增專案。 </p> <p>如需建立專案的詳細資訊，請參閱<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">建立專案</a>。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 新專案]</td> 
-      <td> <p>新增專案。 </p> <p>如需建立新專案的詳細資訊，請參閱<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">建立專案</a>。 </p> </td> 
+      <td role="rowheader">[！UICONTROL新專案（舊版儲存空間）]</td> 
+      <td> <p>新增Workfront儲存專案。 </p>
+      <p>只有當您的組織同時使用Workfront和Adobe雲端檔案儲存時，才會顯示選項。 您的Workfront執行個體可能沒有這兩種型別的儲存空間。</p>
+       <p>如需建立專案的詳細資訊，請參閱<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">建立專案</a>。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">&lbrack;！UICONTROL從[!DNL MS Project]匯入專案 </td> 
+      <td role="rowheader">[！UICONTROL從範本新增專案]</td> 
+      <td> <p>使用現有範本新增專案。 </p> <p>如需從範本建立專案的詳細資訊，請參閱<a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">使用範本建立專案</a>。</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[！UICONTROL匯入[!DNL MS Project]] </td> 
       <td> <p>新增您先前從[!DNL MS Project]匯出且儲存在電腦上的專案。 </p> <p>如需有關從[!DNL Microsoft Project]匯入以建立新專案的詳細資訊，請參閱<a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">從[!DNL Microsoft Project]</a>匯入專案。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 請求專案]</td> 
+      <td role="rowheader">[！UICONTROL請求專案]</td> 
       <td> <p>請求核准專案。</p> <p>如需請求專案的詳細資訊，請參閱<a href="../../../manage-work/projects/create-projects/request-project.md">請求專案</a>。 </p> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL New from Template]</td> 
-      <td> <p>使用現有範本新增專案。 </p> <p>如需從範本建立專案的詳細資訊，請參閱<a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">使用範本建立專案</a>。</p> </td> 
-     </tr> 
+          <tr> 
+      <td role="rowheader">[！UICONTROL現有專案]</td> 
+      <td> <p>新增已建立的專案。</p> </td> 
+     </tr>
     </tbody> 
    </table>
 
@@ -160,13 +167,13 @@ Old:
 
    ![新增現有專案](assets/add-existing-projects-to-portfolios-box.png) <!--check this after UI changes-->
 
-1. 在&#x200B;**[!UICONTROL 將專案新增至此Portfolio]**&#x200B;欄位中開始輸入專案名稱，然後當專案出現在清單中時按一下它們。 <!--check this after UI changes-->
+1. 開始在&#x200B;**[!UICONTROL 將專案新增至此投資組合]**&#x200B;欄位中輸入專案名稱，然後當專案出現在清單中時按一下它們。 <!--check this after UI changes-->
 
    您可以新增多個專案。
 
    >[!NOTE]
    >
-   >如果您的組織同時使用舊版Workfront和Adobe雲端儲存空間存放檔案，則有下列情況：
+   >當您的組織使用舊版Workfront和Adobe雲端儲存空間存放檔案時，會出現以下情況：
    >
    >
    >* 當您將Adobe雲端儲存空間專案新增至舊版Workfront儲存空間產品組合，且該產品組合沒有附加任何檔案時，該產品組合會轉換為Adobe雲端儲存空間產品組合。
