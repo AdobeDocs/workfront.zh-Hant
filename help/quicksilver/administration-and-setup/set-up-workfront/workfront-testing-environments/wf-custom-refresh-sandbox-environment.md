@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: ca9663abd511508a327d074c54bde53450af08d5
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1792'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 >
 >  此外，取得預覽沙箱不需要的自訂重新整理沙箱會另外產生成本。
 >
->  如需有關預覽沙箱的詳細資訊，請參閱[預覽沙箱環境 [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。
+>  如需有關預覽沙箱的詳細資訊，請參閱[預覽沙箱環境 [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。
 
 ## 存取權要求
 
@@ -236,7 +236,16 @@ For more information about configuring [!DNL Workfront] with SSO, see [Overview 
 
 * 校訂在自訂重新整理沙箱環境中不可用。
 
-* 以下通知不適用於自訂重新整理沙箱環境：
+* 下列通知不適用於自訂重新整理沙箱環境：
 
    * 提醒通知
    * 自動延遲或提早提醒通知
+
+### 商業規則注意事項
+
+業務規則會刻意從Workfront預覽和沙箱環境重新整理中排除。 與大部分資料不同，Business Rules會被視為環境專屬設定，與使用者類似。 每個環境都可以維護一組根據其用途而量身打造的不同規則（例如，測試、開發或生產）。
+
+在重新整理中加入Business Rules將會覆寫這些設定，可能會干擾管理員特意在非生產環境中設定的規則。
+
+如果您需要在環境之間移動業務規則，請使用「環境升級」，它可讓您透過控制時間與範圍的選擇，轉移設定物件。 如需詳細資訊，請參閱[在Workfront環境之間移動物件的概述](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)。
+

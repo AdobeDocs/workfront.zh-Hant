@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 12242501adb13cd349a2282996c7186e90d6c94d
 workflow-type: tm+mt
-source-wordcount: '3914'
+source-wordcount: '3928'
 ht-degree: 0%
 
 ---
@@ -79,11 +79,11 @@ Adobe雲端儲存空間的主要優點包括：
 
 #### Frame.io檢視器中支援的檔案型別
 
-Frame.io檢視器支援所有常見的視訊、影像、音訊、PDF和MS® Office型別。 如需支援檔案的詳細清單，請參閱Frame.io[&#128279;](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的支援的檔案型別。
+Frame.io檢視器支援所有常見的視訊、影像、音訊、PDF和MS® Office型別。 如需支援檔案的詳細清單，請參閱Frame.io](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的[支援的檔案型別。
 
 #### Frame.io檢視器的存取與授權
 
-Frame.io檢視器是所有Workfront檢閱和核准工作流程的預設檢視器。 所有擁有付費授權的Workfront使用者都會自動包含此功能。 使用Frame.io檢視器進行檢閱和核准不需要額外的Frame.io授權。
+Frame.io檢視器是所有Workfront檢閱和核准工作流程的預設檢視器。 所有Workfront使用者（包括指派給稽核或核准的外部使用者）均可自動納入此功能，不需額外付費。 使用Frame.io檢視器進行檢閱和核准不需要額外的Frame.io授權。
 
 如果您的組織想要利用此整合提供的其他Frame.io功能（例如直接將資產上傳到Frame.io中的專案），您可以購買Frame.io Enterprise授權。 請聯絡您的Adobe客戶代表以排程示範，並探索完整Frame.io解決方案的優點。
 
@@ -180,7 +180,7 @@ Frame.io檢視器是所有Workfront檢閱和核准工作流程的預設檢視器
 
 **我是否需要Frame.io授權才能使用此整合？**
 
-否。 所有擁有付費授權的Workfront使用者都能自動隨附Frame.io檢視器，不需額外付費。 您不需要個別的Frame.io授權，就能透過Workfront檢閱及核准資產。
+否。 所有Workfront使用者都能自動加入Frame.io檢視器，不需額外付費，包括受邀檢閱或核准資產的外部使用者。 您不需要個別的Frame.io授權，就能透過Workfront檢閱及核准資產。
 
 如果您的組織想要存取其他Frame.io功能 — 例如直接將資產上傳到Frame.io中的專案 — 您可以購買Frame.io Enterprise授權。 請聯絡您的Adobe客戶代表以瞭解更多資訊。
 
