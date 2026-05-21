@@ -1,1 +1,3 @@
 .DS_Store
+.cursor/rules/manifest.json
+.cursor/rules/security-global/
