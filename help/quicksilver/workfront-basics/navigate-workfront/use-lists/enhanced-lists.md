@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
+source-git-commit: 0c6d2d36be8de5e4950642910577ed8a59e667da
 workflow-type: tm+mt
 source-wordcount: '2939'
 ht-degree: 1%
@@ -453,5 +453,6 @@ Workfront提供有限數量的預先定義群組，且您無法加以修改。
    >[!NOTE]
    >
    >搜尋會檢視所有清單專案中的所有欄。 如果清單很長，則搜尋會包含您可能需要捲動才能檢視的專案。 篩選清單時，搜尋只會檢視目前顯示的內容。
+
 
 
