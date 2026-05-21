@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d570ef6a-935f-4dd0-9c54-a480163ec9d8
-source-git-commit: d5346953162f82f0c1b35d623a0b47104127918d
+source-git-commit: 606ed09cef82c5cef853fea990b0d3a235534b84
 workflow-type: tm+mt
 source-wordcount: '1390'
 ht-degree: 1%
@@ -202,3 +202,4 @@ BULLET POINT Non-labor resources: Attributes can also be defined on resources su
    * （僅限屬性篩選型別） **參考欄位**：參考屬性上必須符合的欄位，例如機構識別碼。
 
 1. 按一下每個屬性上的&#x200B;**儲存**&#x200B;以儲存屬性和篩選器。
+
