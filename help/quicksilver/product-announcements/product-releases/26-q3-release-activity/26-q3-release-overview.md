@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 5160a8bf1eadef19f1a041080670e1efe3777d2f
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '785'
 ht-degree: 4%
 
 ---
@@ -36,6 +36,7 @@ ht-degree: 4%
 ## Adobe Workfront增強功能
 
 * [檔案增強功能](#documents-enhancements)
+* [Financial Management增強功能](#financial-management-enhancements)
 * [報告增強功能](#reporting-enhancements)
 * [要求增強功能](#requesting-enhancements)
 
@@ -68,6 +69,30 @@ ht-degree: 4%
             <td><p>2026年4月30日</p></td>
             <td><p>2026年5月14日</p></td>
             <td><p>2026年7月16日</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### Financial Management增強功能
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>功能</strong>
+            </td>
+            <td><strong>預覽</strong></td>
+            <td><strong>快速發行</strong></td>
+            <td><strong>每季</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">費率屬性一旦用於費率便無法編輯</a><p>[!BADGE Off Schedule]{type=Neutral}</p><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>將屬性新增至Workfront中的費率後，您就無法再在設定區域中編輯該屬性及其篩選器。 這樣可保留資料完整性，並防止屬性更新時意外變更速率。</p>
+            </td>
+            <td><p>2026年5月21日</p></td>
+            <td><p>2026年5月21日</p></td>
+            <td><p>2026年5月21日</p></td>
         </tr>
     </tbody>
 </table>
