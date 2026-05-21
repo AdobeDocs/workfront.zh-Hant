@@ -9,9 +9,9 @@ feature: Work Management
 exl-id: dd733e9f-8045-4b65-828b-fe6aa40d973f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 35cf3692f0fd93b8835755c316e14efc99af3fb8
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '285'
 ht-degree: 8%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->已刪除的範本任務無法復原。 您可以復原範本，這樣也會復原範本上的所有任務。 如果您刪除範本任務（而非範本），則永遠無法復原它們。
+>已刪除的範本任務及其額外資訊（指派、檔案、核准）無法復原。 您可以復原範本，這樣也會復原範本上的所有任務。 如果您刪除範本任務（而非範本），則永遠無法復原它們。
 
 
 ## 存取權要求
