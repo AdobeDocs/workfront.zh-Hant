@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 795d115e7a745de052b462ba444425136a3d4953
+source-git-commit: 0fc7a16640d134b6f524a30929ed6f3041f12e31
 workflow-type: tm+mt
-source-wordcount: '5655'
+source-wordcount: '5192'
 ht-degree: 1%
 
 ---
@@ -251,10 +251,14 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
    * [建立日期](#created-date)
    * [上次修改者](#last-modified-by)
    * [上次修改日期](#last-modified-date)
-   * [核准日期](#approved-date)
-   * [核准者](#approved-by)
-   * [記錄ID](#record-id)
-     <!--* [Object](#object-field-type)-->
+   * [記錄 ID](#record-id)
+   <!--
+    * [Approved date](#approved-date)
+    * [Approved by](#approved-by)
+    -->
+   <!--
+    * [Object](#object-field-type)
+    -->
 
    >[!IMPORTANT]
    >
@@ -754,66 +758,69 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 1. 按一下「**建立**」。
 
    新的上次修改日期型別欄位會新增為記錄型別的欄，其值會預先填入上次修改記錄的日期（或日期和時間）。
+<!--
 
-### 核准日期
+### Approved date
 
-您可以使用核准日期欄位型別來新增核准請求並導致建立記錄的日期。 此為唯讀欄位，當最後核准者的請求獲得核準時，會自動填入日期（以及可選的時間）。 在此情況下，核准日期應該與記錄的建立日期一致。
-
->[!TIP]
->
->「核准日期」欄位只會針對提交與核准者關聯的請求表單所建立的記錄，填入資訊。
->
->如果表單與多個核准者相關聯，則在「核准日期」欄位中僅記錄最後核准決定的日期。
-
-1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**建立日期**&#x200B;欄位型別。
-
-   ![核准的日期欄位型別](assets/approved-date-field-type.png)
-
-   1. 在&#x200B;**新欄位**&#x200B;索引標籤中新增下列資訊：
-
-   * **名稱**：欄位名稱，它將顯示在資料表或記錄頁面中。
-   * **描述**：有關欄位的額外資訊。 當您將滑鼠游標停留在表格中的欄位欄位上，或當您在記錄的詳細資訊頁面中按一下欄位名稱旁的資訊圖示時，會顯示欄位說明。
-   * **日期格式**：從下列格式選取：
-
-      * **地區**：符合瀏覽器的地區。
-      * **標準**： 05/16/2023
-      * **長**：2023年5月16日
-      * **歐洲**： 16/05/2023
-      * **ISO**： 2023-05-16
-
-   * **包含時間**：若要包含時間戳記，請選取此選項。 預設會取消選取此選項。 您無法包含儲存欄位後的時間。
-
-     從下列選項中選取：
-
-      * **24hr**：例如： 18:00
-      * **12hr**：例如：下午6:00
-
-1. 按一下「**建立**」。
-
-   新的「已核准的日期型別」欄位會新增為記錄型別的欄，如果記錄是由提交與核准者關聯的請求所建立，其值會預先填入記錄請求核准的日期（或日期和時間）。
-
-### 核准者
-
-您可以使用「核准者」欄位型別來新增上次核准請求的使用者，以建立記錄。 這是唯讀欄位，會自動填入核准建立記錄請求的使用者名稱。
+You can use the Approved date field type to add the date when a request was approved and it resulted in the creation of the record. This is a read-only field, and it automatically populates with the date (and optionally with the time) when the request was approved by the last approver. In this case, the approval date should coincide with the date the record was created. 
 
 >[!TIP]
 >
->「核准者」欄位只會針對提交與核准者關聯的請求表單所建立的記錄，填入資訊。
+>The Approved date field populates with information only for records that were created by submitting a request form associated with approvers. 
 >
->如果表單與多個核准者相關聯，則所有核准者的名稱都會記錄在「核准日期」欄位中，並以逗號分隔。
+>If the form is associated with more than one approver, only the date of the last approval decision is recorded in the Approved date field.
 
-1. 依照本文中[從頭開始建立欄位](#create-fields-from-scratch)一節的說明開始建立欄位，然後選取&#x200B;**核准者**&#x200B;欄位型別。
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Created date** field type.
+ 
+   ![Approved date field type](assets/approved-date-field-type.png)
 
-   ![由欄位型別](assets/approved-by-field-type.png)核准
+   1. Add the following information in the **New field** tab:
 
-1. 在&#x200B;**新欄位**&#x200B;索引標籤中新增下列資訊：
+     * **Name**: The name of the field, as it will appear in a table or the record page. 
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
+     * **Date Format**: Select from the following formats:
 
-   * **名稱**：欄位名稱，它將顯示在資料表或記錄頁面中。
-   * **描述**：有關欄位的額外資訊。 當您將滑鼠游標停留在表格中的欄位欄位上，或當您在記錄的詳細資訊頁面中按一下欄位名稱旁的資訊圖示時，會顯示欄位說明。
+        * **Locale**: Matches the locale of your browser.
+        * **Standard**: 05/16/2023
+        * **Long**: May 16, 2023
+        * **European**: 16/05/2023
+        * **ISO**: 2023-05-16
+     
+     * **Include time**: Select this option if you want to include a time stamp. This is unselected by default. You cannot include a time after you save the field.  
+    
+        Select from the following options:
+        
+        * **24hr**: For example: 18:00
+        * **12hr**: For example: 6:00 PM 
+    
+1. Click **Create**.
 
-1. 按一下「**建立**」。
+    The new Approved date-type field is added as a column to the record type and its values are prefilled with the date (or date and time) when the record request was approved, if the record was created by submitting a request associated with approvers. 
 
-   新的「已核准的副檔型別」欄位會新增為記錄型別的欄，其值會預先填入上次修改每筆記錄的使用者名稱。
+### Approved by
+
+You can use the Approved by field type to add the user who last approved the request to create a record. This is a read-only field, and it automatically populates with the name of the user who approved the request to create the record.
+
+>[!TIP]
+>
+>The Approved by field populates with information only for records that were created by submitting a request form associated with approvers.
+>
+>If the form is associated with more than one approver, the name of all approvers are recorded in the Approved date field, separated by commas.
+ 
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Approved by** field type.
+ 
+   ![Approved by field type](assets/approved-by-field-type.png)
+
+1. Add the following information in the **New field** tab:
+
+     * **Name**: The name of the field, as it will appear in a table or the record page. 
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
+    
+1. Click **Create**.
+
+    The new Approved by-type field is added as a column to the record type and its values are prefilled with the name of the user who last modified each record.  
+
+-->
 
 ## 記錄 ID
 

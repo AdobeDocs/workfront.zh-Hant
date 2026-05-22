@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: 您可以建立使用者可附加至工作專案（專案、任務、問題、範本或範本任務）、檔案或校訂的核准流程。 核准程式可確保物件上的指定受指派人在物件在系統中進行之前稽核某些變更。
-author: Alina
+author: Courtney
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
+source-git-commit: 0fc7a16640d134b6f524a30929ed6f3041f12e31
 workflow-type: tm+mt
 source-wordcount: '2231'
 ht-degree: 3%
