@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '792'
 ht-degree: 2%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 2%
        <li>如果您擁有專案的管理許可權，您可以核准或拒絕任何其他使用者在專案上記錄的時數。</li>
        <li> 如果您擁有專案的「貢獻」或「檢視」存取權，您將只能核准或拒絕您或任何其他回報您的使用者記錄的時數。<br></li>
       </ul></li> 
-     <li>您擁有對時程表和時數具有管理存取權的計畫授權。 在此案例中：
+     <li>您擁有對時程表和時數具有管理存取權的標準或計畫授權。 在此案例中：
       <ul>
        <li>您可以核准或拒絕您至少擁有檢視許可權之專案的任何時數。 </li>
       </ul></li> 

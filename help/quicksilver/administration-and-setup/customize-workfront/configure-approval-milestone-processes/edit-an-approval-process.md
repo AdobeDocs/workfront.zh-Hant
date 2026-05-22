@@ -10,9 +10,9 @@ role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '1994'
+source-wordcount: '2004'
 ht-degree: 3%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 3%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件*</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td><p>對於系統層級或單一使用核准程式：</p><ul><li><p>任何封裝</p></li></ul>
    <p>對於群組層級核准流程：</p>
    <ul><li><p>工作流程Prime或Ultimate</p></li>
@@ -68,7 +68,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-*如需此表格中資訊的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -164,10 +164,10 @@ For this article, the old access was:
       <p>這是必填欄位。</p>
       <p>無法為多個核准流程路徑選擇相同狀態。</p> <p>可用的狀態是根據選項<b>下選取的內容而定。此核准可由</b>使用（上表說明）：</p> 
       <ul> 
-      <li> 如果選取<b>所有群組</b>，則只有全系統鎖定狀態可用。<!--Remove "locked" when story about using an unlocked status in approval processes goes to preview-->
+      <li> 如果選取<b>所有群組</b>，則只有全系統鎖定狀態可用。 <!--Remove "locked" when story about using an unlocked status in approval processes goes to preview-->
       </li> 
       <li> <p>如果選取了特定群組，則只能使用該群組的可用狀態</p> </li> 
-      </ul> <p>如需有關核准程式如何使用狀態的資訊，請參閱文章<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">核准程式概觀</a>中的<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">核准程式如何依賴狀態</a>一節。</p> </td> 
+      </ul> <p>如需有關核准程式如何使用狀態的資訊，請參閱文章<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">核准程式概觀</a>中的<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">核准程式如何依賴狀態</a>一節。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">階段名稱</td> 
@@ -220,7 +220,7 @@ For this article, the old access was:
       <li> <p><strong>將狀態設定為</strong>：選擇下列其中一項：</p> 
       <ul> <li><strong>先前的狀態</strong>：拒絕的專案、任務或問題回覆成啟動核准程式之前的狀態。</li> 
       <li> <p><strong>清單中的任何其他狀態</strong>：拒絕的物件會移至您選擇的狀態，例如「保留」。 您可以選擇其中一個預設狀態，或新增至Workfront系統的自訂狀態。</p> <p>如果您選擇與核准流程關聯的狀態作為核准路徑的拒絕狀態，則被拒絕的物件將移動到所選狀態，並將標籤為「待核准」。</p>
-      <p>例如，如果您選擇等候接聽對於拒絕狀態和等候接聽status與核准流程相關聯，被拒絕的物件置於「狀態」暫停 — 待核准」，需要核准。</p>    <p>對於系統範圍的核准流程，僅可使用系統範圍的狀態。</p> <p>針對群組特定的核准程式，所有群組狀態皆可使用。 這包括群組管理員專門為群組建立的任何自訂狀態，以及任何系統範圍的狀態。 </p> <p>如需有關核准程式如何使用狀態的資訊，請參閱文章<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">核准程式概觀</a>中的<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">核准程式如何依賴狀態</a>一節。</p> </li>
+      <p>例如，如果您選擇等候接聽對於拒絕狀態和等候接聽status與核准流程相關聯，被拒絕的物件置於「狀態」暫停 — 待核准」，需要核准。</p>    <p>對於系統範圍的核准流程，僅可使用系統範圍的狀態。</p> <p>針對群組特定的核准程式，所有群組狀態皆可使用。 這包括群組管理員專門為群組建立的任何自訂狀態，以及任何系統範圍的狀態。 </p> <p>如需有關核准程式如何使用狀態的資訊，請參閱文章<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">核准程式概觀</a>中的<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">核准程式如何依賴狀態</a>一節。</p> </li>
       </ul> 
      </tr> 
     </tbody> 

@@ -9,9 +9,9 @@ feature: People Teams and Groups
 exl-id: 28eb1967-390b-4500-abfc-8ed68ff14a16
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '381'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 | **功能** | **群組** | **團隊** |
 |---|---|---|
-| 規劃師可以建立 |  | ✓ |
+| 標準或計畫授權使用者可以建立 |  | ✓ |
 | 只有Workfront管理員可以建立 | ✓ |  |
 | 共用物件 | ✓ | ✓ |
 | 指派任務 |  | ✓ |
@@ -67,7 +67,7 @@ ht-degree: 1%
 | 時程表的可見性 | ✓ |  |
 | 指派週期性時程表 | ✓ | ✓ |
 | 指派版面範本 | ✓ | ✓ |
-| 任何擁有Plan授權的使用者都可以將其指派給其他使用者 |  | ✓ |
+| 任何擁有Standard或Plan授權的使用者都可以將其指派給其他使用者 |  | ✓ |
 | 自訂狀態 | ✓ |  |
 | 自訂[!UICONTROL 完成]按鈕 |  | ✓ |
 | 追蹤授權 | ✓ |  |

@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a2a39746-331b-41d6-8c3c-e6a1eb68b43a
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 0%
+source-wordcount: '314'
+ht-degree: 6%
 
 ---
 
@@ -25,20 +25,20 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->群組管理員和擁有計畫授權的使用者（可以編輯其他使用者）可以在編輯其他使用者的設定檔時，將系統層級或群組層級排程新增到其他使用者。
+>擁有標準或計畫授權且可以編輯其他使用者的群組管理員和使用者，可以在編輯其他使用者的設定檔時，將系統層級或群組層級排程新增至該使用者。
 
 如需有關如何在資源規劃中使用排程的資訊，請參閱[排程總覽](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)和[資源規劃工具總覽](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 

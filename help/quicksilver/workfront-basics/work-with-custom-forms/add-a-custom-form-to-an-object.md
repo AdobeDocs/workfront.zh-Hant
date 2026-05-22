@@ -9,9 +9,9 @@ feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '747'
 ht-degree: 4%
 
 ---
@@ -106,7 +106,7 @@ Old:
 
 ## 先決條件
 
-您的Workfront管理員或具有自訂表單計畫授權和管理存取權的使用者必須在您的環境中建立自訂表單，然後才能將其新增到物件。 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+您的Workfront管理員或具有Standard或Plan授權以及自訂表單管理存取權的使用者必須在您的環境中建立自訂表單，才能將其新增至物件。 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ## 新增自訂表單至物件
 

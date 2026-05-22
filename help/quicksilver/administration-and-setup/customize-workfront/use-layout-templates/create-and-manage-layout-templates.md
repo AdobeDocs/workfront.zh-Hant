@@ -11,9 +11,9 @@ role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '513'
 ht-degree: 5%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 5%
 ## 建立及管理版面配置範本的考量事項
 
 * 使用者可以自訂其自身配置的幾個區域。 當您變更版面配置範本時，您的變更會與其所做的任何自訂合併，而不會覆寫或重設它們。 如果您將使用者指派給新的版面配置範本，也會發生這種情況。
-* 群組管理員和擁有計畫授權的使用者若能編輯其他使用者，可將系統層級和群組層級的版面配置範本新增到他們編輯個人資料時可管理的使用者中。
+* 擁有標準或計畫授權且可以編輯其他使用者的群組管理員和使用者可以將系統層級和群組層級版面配置範本新增到他們編輯個人資料時可以管理的使用者中。
 * 群組管理員無法將配置範本指派給工作角色或團隊。
 
 如需配置範本的詳細資訊，請參閱[配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)。

@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 915d1520-f5c4-4e33-b645-cb219289383c
-source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 8%
+source-wordcount: '677'
+ht-degree: 7%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 8%
 ## 設定使用者的存取權，以使用自訂存取層級編輯團隊
 
 1. 開始建立或編輯存取層級，如[建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)中所述。
-1. 按一下Teams右側![](assets/gear-icon-settings.png)檢視&#x200B;**或**&#x200B;編輯&#x200B;**按鈕上的齒輪圖示**，然後在&#x200B;**微調您的設定**&#x200B;下選取您要授與的功能。
+1. 按一下Teams右側&#x200B;**檢視**&#x200B;或&#x200B;**編輯**&#x200B;按鈕上的齒輪圖示![](assets/gear-icon-settings.png)，然後在&#x200B;**微調您的設定**&#x200B;下選取您要授與的功能。
 
    ![微調小組](assets/fine-tune-teams.png)
 
@@ -71,7 +71,7 @@ ht-degree: 8%
        </tbody>
       </table>
 
-   * **編輯**：如果您正在設定擁有「計畫」授權與「工作」授權的使用者如何管理團隊，請變更下列任一選項：
+   * **編輯**：如果您正在設定擁有「標準」、「計畫」或「工作」授權的使用者如何管理團隊，請變更下列任一選項：
 
      <table style="table-layout:auto">
        <col>
@@ -79,19 +79,19 @@ ht-degree: 8%
        <tbody>
         <tr>
          <td role="rowheader">建立</td>
-         <td><p>允許擁有計畫授權或工作授權的使用者建立團隊。</p><p>此選項預設為啟用。</p></td>
+         <td><p>允許擁有標準、計畫或工作授權的使用者建立團隊。</p><p>此選項預設為啟用。</p></td>
         </tr>
         <tr>
          <td role="rowheader">刪除</td>
-         <td><p> 允許擁有計畫授權的使用者刪除他們有權編輯的團隊（不適用於擁有工作授權的使用者）。</p><p>此選項預設為啟用。</p></td>
+         <td><p> 允許擁有標準或計畫授權的使用者刪除他們有權編輯的團隊（不適用於擁有工作授權的使用者）。</p><p>此選項預設為啟用。</p></td>
         </tr>
         <tr>
          <td role="rowheader">在我管理的群組中編輯團隊 (僅限群組管理員)</td>
-         <td><p>允許指定為群組管理員的計畫授權使用者編輯與其所管理群組相關聯的團隊。</p><p>此選項預設為啟用。</p></td>
+         <td><p>允許指定為群組管理員的「標準」或「計畫」授權使用者編輯與其管理的群組相關聯的團隊。</p><p>此選項預設為啟用。</p></td>
         </tr>
         <tr>
          <td role="rowheader">編輯我所在的團隊</td>
-         <td><p>允許使用者計畫授權或工作授權編輯他們所屬的團隊。</p><p>此選項預設為停用。</p></td>
+         <td><p>允許擁有標準、計畫或工作授權的使用者編輯他們所屬的團隊。</p><p>此選項預設為停用。</p></td>
         </tr>
         <tr>
          <td role="rowheader">檢視與我的群組相關聯的團隊</td>
@@ -125,4 +125,4 @@ ht-degree: 8%
 
 ## 依授權型別存取團隊
 
-如需有關每個存取層級中的使用者可以對團隊進行哪些操作的資訊，請參閱文章[每個物件型別可用的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#teams)中的[團隊](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)小節。
+如需有關每個存取層級中的使用者可以對團隊進行哪些操作的資訊，請參閱文章[每個物件型別可用的功能](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)中的[團隊](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md#teams)小節。
