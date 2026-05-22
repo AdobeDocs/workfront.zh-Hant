@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '992'
 ht-degree: 5%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 5%
 
 如果您的群組之上有任何群組，其管理員也可以為您的群組執行下列動作。 Workfront管理員也是如此（適用於任何群組）。
 
-如需有關如何擁有計畫授權的使用者建立團隊的資訊，請參閱[建立團隊](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)。
+若要瞭解擁有Standard或Plan授權的使用者如何建立團隊，請參閱[建立團隊](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)。
 
 如需Workfront管理員如何建立團隊的詳細資訊，請參閱[從設定區域建立團隊](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)。
 

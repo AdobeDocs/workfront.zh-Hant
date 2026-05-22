@@ -7,7 +7,7 @@ role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 4%
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS-->
 
-事件發生時，事件通知會觸發電子郵件傳送給使用者。 作為Adobe Workfront管理員或具有供需規劃員存取層級的使用者，您可以為系統中的所有使用者設定事件通知。 事件通知的設定包含啟用或停用。
+事件發生時，事件通知會觸發電子郵件傳送給使用者。 身為Adobe Workfront管理員或具有「標準」或「計畫」存取層級的使用者，您可以為系統中的所有使用者設定事件通知。 事件通知的設定包含啟用或停用。
 
 <!--Alina annotation on the word "all" in 2nd sentence: abive, drafted and remains QS only-->
 
@@ -28,7 +28,7 @@ ht-degree: 4%
 
 您必須先在Workfront執行個體的「設定」區域中指定要讓所有使用者收到的通知。 在設定區域中啟動通知後，其設定檔頁面中會顯示為每個使用者設為已啟動。
 
-在「設定」區域中啟用通知且通知顯示在使用者的設定檔頁面後，個別使用者或具有Plan授權的其他使用者也可以在使用者設定檔中設定啟用的通知，以控制特定使用者收到哪些通知以及通知的頻率。 如需詳細資訊，請參閱[修改您自己的電子郵件通知](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
+在「設定」區域中啟動通知且通知顯示在使用者的設定檔頁面中後，個別使用者或具有Standard或Plan授權的其他使用者也可以在使用者設定檔中設定已啟動的通知，以控制特定使用者收到哪些通知以及通知的頻率。 如需詳細資訊，請參閱[修改您自己的電子郵件通知](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
 
 如需您可以啟用和停用之所有事件通知的清單，請參閱[事件通知型別](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)。
 
@@ -54,7 +54,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>具有提醒通知管理存取權的規劃師或以上人員</p> </td> 
+   <td> <p>提醒通知的管理存取權</p> </td> 
   </tr> 
  </tbody> 
 </table>

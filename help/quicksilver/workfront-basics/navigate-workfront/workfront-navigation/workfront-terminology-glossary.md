@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
+source-git-commit: ee971729c414018a04b1d1fc2a59760e9ea0a59a
 workflow-type: tm+mt
-source-wordcount: '21829'
+source-wordcount: '21832'
 ht-degree: 0%
 
 ---
@@ -1271,7 +1271,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL 授許可權制計畫]</td> 
-   <td> <p>在[!UICONTROL 群組]檢視或報表中，此欄位顯示可指派給已將個別群組指定為[!UICONTROL 主群組]的使用者的[!UICONTROL 計畫]授權數上限。</p> </td> 
+   <td> <p>在[!UICONTROL 群組]檢視或報表中，此欄位顯示可指派給已將個別群組指定為[!UICONTROL 主群組]之使用者的[!UICONTROL 標準]或[!UICONTROL 計畫]授權數上限。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 授許可權制工時]</td> 

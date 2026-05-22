@@ -9,9 +9,9 @@ feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1508'
 ht-degree: 1%
 
 ---
@@ -125,7 +125,7 @@ ht-degree: 1%
 
 在大多數情況下，如果您有存取許可權而無法看到系統中的專案，就會發生這種情況。 此外，您想要看到的專案不會與您共用。
 
-報告的建立者可以編輯報告，以便透過系統管理員的存取許可權或任何有權檢視資料的「計畫」使用者來執行報告。
+報告的建立者可以編輯報告，讓系統管理員或任何有權檢視資料的Standard或Plan使用者擁有存取許可權來執行報告。
 
 如需詳細資訊，請參閱[以其他使用者的存取許可權執行並傳遞報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md)。
 
@@ -180,7 +180,7 @@ ht-degree: 1%
 如需重新整理快取報表的詳細資訊，請參閱[執行報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-report.md)。
 
 可以在快取儀表板中手動重新整理資訊。\
-如需有關重新整理快取儀表板的詳細資訊，請參閱文章[開始使用儀表板](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md#running-dashboards)中的[顯示儀表板](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)小節。
+如需有關重新整理快取儀表板的詳細資訊，請參閱文章[開始使用儀表板](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)中的[顯示儀表板](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md#running-dashboards)小節。
 
 ## 我可以變更報表的擁有者嗎？
 
@@ -188,7 +188,7 @@ ht-degree: 1%
 
 您無法變更報表的擁有者。 但是，建立報表的使用者可允許其他使用者編輯報表。 您允許使用者編輯報表的方式取決於您所屬的使用者型別。
 
-* 系統管理員可允許擁有計畫授權的使用者編輯報告，方法是設定報告列中的編輯選項以包含建立報告的存取權。\
+* 系統管理員可以透過設定「報告」列中的「編輯」選項來允許具有「標準」或「計畫」授權的使用者編輯報告，以包含建立報告的存取權。\
   如需詳細資訊，請參閱[授予報告、儀表板和行事曆的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)。
 
 * 任何有權建立和共用報告的一般使用者都可以允許其他人編輯個別報告，方法是共用報告並授予其他使用者管理報告的許可權。\

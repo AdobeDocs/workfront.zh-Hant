@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 3bc953ebb6f16d3d4a71fe9764551a8a4cf1087a
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '1600'
-ht-degree: 7%
+source-wordcount: '1545'
+ht-degree: 3%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 7%
 
 * 依預設，專案的建立者具有管理專案的許可權，並被指定為專案所有者。 如果專案指派給其他所有者，則該使用者也具有管理專案的許可權。 當專案建立者（或擁有者）與其他使用者共用專案時，他們會授予這些使用者特定許可權，以控制他們在專案上工作時可以執行的操作。
 
-  但是，如果專案所有者沒有Plan或Standard授權，他們便沒有管理專案的完整存取權。 只有擁有Plan或Standard授權的使用者才能擁有管理專案的許可權。 如需詳細資訊，請參閱[存取層級和許可權如何搭配運作](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)。
+  但是，如果專案所有者沒有「標準」或「計畫」授權，他們便沒有管理專案的完整存取權。 只有具有「標準」或「計畫」授權的使用者才能擁有管理專案的許可權。 如需詳細資訊，請參閱[存取層級和許可權如何搭配運作](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)。
 
 * 您可以個別共用專案，或一次共用多個專案。 共用專案與共用其他物件相同。 如需在Workfront中共用專案的詳細資訊，請參閱[共用物件](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
 * 您可以授予專案下列許可權：
@@ -76,7 +76,7 @@ ht-degree: 7%
 
 * 共用專案時，除非另有指定，否則所有任務、問題和檔案都會繼承相同的許可權。
 
-  如需有關根據使用者對專案的許可權管理專案上任務和問題的存取許可權的資訊，請參閱文章[&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access)編輯專案[中的](../../manage-work/projects/manage-projects/edit-projects.md)區段。
+  如需有關根據使用者對專案的許可權管理專案上任務和問題的存取許可權的資訊，請參閱文章[編輯專案](../../manage-work/projects/manage-projects/edit-projects.md)中的[&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access)區段。
 
   Workfront管理員可以指定檔案是否應該繼承使用者存取層級中較高物件的許可權。 如需有關限制檔案繼承許可權的詳細資訊，請參閱[建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
@@ -85,7 +85,7 @@ ht-degree: 7%
 ## 不同授權型別的限制
 
 * 擁有工作者授權的使用者沒有管理專案的許可權。 若為工作角色，則最高共用許可權為Contribute。
-* 擁有請求授權的使用者可以檢視專案資訊，但他們擁有有限的專案存取權。
+* 擁有貢獻者或請求授權的使用者可檢視專案資訊，但他們有有限的專案存取權。
 * 當具有「檢視」或「貢獻」許可權的使用者也包含在核准流程中時，變更專案狀態的例外情況就會發生。 他們可以核准專案，這會變更專案狀態，但狀態是預先定義的核准或拒絕狀態。
 * 為了能夠複製專案，使用者也必須有權在其存取層級中建立專案。
 

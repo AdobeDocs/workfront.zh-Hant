@@ -2,20 +2,20 @@
 title: 共用範本
 product-area: templates
 navigation-topic: grant-and-request-access-to-objects
-description: 作為 Adobe Workfront 管理員，您可以在指派使用者的存取層級時，授予他們檢視或編輯範本的權限。使用者必須擁有計劃授權才能擁有編輯範本的存取權。
+description: 作為 Adobe Workfront 管理員，您可以在指派使用者的存取層級時，授予他們檢視或編輯範本的權限。 使用者必須擁有計劃授權才能擁有編輯範本的存取權。
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 19%
+source-wordcount: '596'
+ht-degree: 14%
 
 ---
 
 # 共用範本
 
-作為 Adobe Workfront 管理員，您可以在指派使用者的存取層級時，授予他們檢視或編輯範本的權限。使用者必須擁有計劃授權才能擁有編輯範本的存取權。
+作為 Adobe Workfront 管理員，您可以在指派使用者的存取層級時，授予他們檢視或編輯範本的權限。 使用者必須擁有「標準」或「計畫」授權，才能存取「編輯範本」。
 
 如需授與範本存取權的詳細資訊，請參閱[授與範本存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)。
 
@@ -48,11 +48,11 @@ ht-degree: 19%
 
 * 當您共用範本或從範本建立的專案時，使用者預設會繼承與範本或專案相關聯的所有子物件的相同許可權。
 
-  如需Workfront中物件階層的詳細資訊，請參閱   [瞭解Adobe Workfront中的物件](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)。
+  如需Workfront中物件階層的詳細資訊，請參閱[瞭解Adobe Workfront中的物件](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)。
 
 * 當您共用範本時，除非另有指定，所有範本任務和檔案，以及使用該範本建立的未來專案上的問題都將繼承相同的許可權。
 
-  如需有關根據使用者對專案的許可權來管理專案上範本任務和問題的存取許可權的資訊，請參閱文章[編輯專案範本](../../manage-work/projects/create-and-manage-templates/edit-templates.md#access)中的[存取](../../manage-work/projects/create-and-manage-templates/edit-templates.md)區段。
+  如需有關根據使用者對專案的許可權來管理專案上範本任務和問題的存取許可權的資訊，請參閱文章[編輯專案範本](../../manage-work/projects/create-and-manage-templates/edit-templates.md)中的[存取](../../manage-work/projects/create-and-manage-templates/edit-templates.md#access)區段。
 
 * Workfront管理員可以指定檔案是否應該繼承使用者存取層級中較高物件的許可權。 如需有關限制檔案繼承許可權的詳細資訊，請參閱[建立或修改自訂存取層級](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
@@ -103,7 +103,7 @@ You can share an object only with active users, teams,
 
 ## 範本共用的進階設定
 
-下表顯示當允許使用者檢視或管理範本時，您可以授予他們哪些許可權。 如需共用範本的指示，請參閱文章[共用專案範本](../../manage-work/projects/create-and-manage-templates/share-project-template.md#share)中的[共用範本](../../manage-work/projects/create-and-manage-templates/share-project-template.md)一節。
+下表顯示當允許使用者檢視或管理範本時，您可以授予他們哪些許可權。 如需共用範本的指示，請參閱文章[共用專案範本](../../manage-work/projects/create-and-manage-templates/share-project-template.md)中的[共用範本](../../manage-work/projects/create-and-manage-templates/share-project-template.md#share)一節。
 
 <table style="table-layout:auto"> 
  <col> 

@@ -5,13 +5,13 @@ title: 如何共用物件而不產生通知
 description: 瞭解如何共用物件及防止傳送有關此變更的通知。 當您大量共用物件時，這會特別有用。
 author: Alina
 feature: Get Started with Workfront
-source-git-commit: b14dd633edec3e9746f7f1412445b74bcd37a676
+exl-id: 02106282-addb-4bdd-82d2-9da5a5f6a687
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 4%
+source-wordcount: '577'
+ht-degree: 6%
 
 ---
-
 
 # 如何共用物件而不產生通知
 
@@ -34,11 +34,9 @@ ht-degree: 4%
 
 如果您需要與多個人員（大量）共用多個物件，但您不希望他們收到有關此變更的電子郵件通知，請執行以下操作：
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
-
-您必須具備下列專案才能共用物件：
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,10 +47,9 @@ ht-degree: 4%
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td> <p>新授權： Standard</p> 
-   或
-   <p>目前授權：計畫</p>
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td> <p>標準</p>
+   <p>規劃</p>
    </td> 
   </tr> 
   <tr> 
@@ -70,7 +67,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-*如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -110,9 +107,3 @@ ht-degree: 4%
 1. 按一下「**儲存變更**」。
 
    這些物件已與選取的使用者共用，他們中沒有收到有關此變更的任何電子郵件通知。
-
-
-
-
-
-

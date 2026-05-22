@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 26c6fa2c-5c3a-4f53-bd7e-e49a623ff60d
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 以下特性專用於提醒通知：
 
-* 可由管理員建立，或任何擁有提醒通知的計畫授權和管理存取權的使用者
+* 可由管理員建立，或任何具有計畫授權標準及提醒通知管理存取權的使用者
 * 只能手動關聯至物件
 * 只能通知有關附加物件的資訊
 * 可傳送給各種物件關係人，例如擁有者、建立者、核准者或受託人

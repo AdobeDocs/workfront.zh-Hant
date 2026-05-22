@@ -8,16 +8,14 @@ feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '375'
 ht-degree: 2%
 
 ---
 
 # 管理工作負載平衡工具中的資源所需的存取權
-
-{{preview-fast-release-general}}
 
 沒有正確的存取權或許可權，您可能無法在工作負載平衡器中檢視或管理您的工作指派。
 
@@ -90,7 +88,7 @@ For information about where you can locate the Workload Balancer in Workfront, s
 
 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-<span class="preview">所有使用者都有權在自己的設定檔上檢視工作負載平衡器。 這不受授權或存取層級的限制。 請注意，使用者設定檔上的工作負載平衡器是唯讀的，指派和配置無法變更。</span>
+所有使用者都有權在其個人設定檔上檢視工作負載平衡器。 這不受授權或存取層級的限制。 請注意，使用者設定檔上的工作負載平衡器是唯讀的，指派和配置無法變更。
 
 ## 管理工作負載平衡器中指派所需的存取權
 
@@ -124,8 +122,4 @@ For information about where you can locate the Workload Balancer in Workfront, s
 
 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-<!--
-these notes were inside the table: for the Edit access to Res Management
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">View or higher access to Financial Data, if you want to view information by cost (NOTE: this is not possible yet!)</p>    
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the Financial Data access level, see the article<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Grant access to financial data</a>. (NOTE: this is not possible yet!)</p>
-    -->
+

@@ -10,9 +10,9 @@ role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '2213'
+source-wordcount: '2231'
 ht-degree: 3%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 3%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件*</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td><p>對於系統層級或單一使用核准程式：</p><ul><li><p>任何封裝</p></li></ul>
    <p>對於群組層級核准流程：</p>
    <ul><li><p>工作流程Prime或Ultimate</p></li>
@@ -73,7 +73,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-*如需此表格中資訊的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -176,7 +176,7 @@ For more detail about the information in this table, see [Access requirements in
        <ul> 
        <li> 如果選取<b>所有群組</b>，則只能使用系統範圍狀態
        <li> <p>如果選取了特定群組，則只能使用該群組的可用狀態</p> </li> 
-       </ul> <p>如需有關核准程式如何使用狀態的資訊，請參閱文章<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">核准程式概觀</a>中的<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">核准程式如何依賴狀態</a>一節。</p> </td> 
+       </ul> <p>如需有關核准程式如何使用狀態的資訊，請參閱文章<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">核准程式概觀</a>中的<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">核准程式如何依賴狀態</a>一節。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">階段名稱</td> 
@@ -260,6 +260,6 @@ For more detail about the information in this table, see [Access requirements in
 
 ## 允許使用者修改單一工作專案的全域核准流程
 
-根據預設，擁有專案、任務和問題管理許可權的使用者可以對其建立單一使用核准流程。 如需新增單一使用核准流程至專案、任務和問題的相關資訊，請參閱[將新的或現有的核准流程與工作建立關聯](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#creating-a-single-use-approval-process)一文中的[將單一使用核准流程與專案、任務、問題、範本或範本任務建立關聯](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)小節。
+根據預設，擁有專案、任務和問題管理許可權的使用者可以對其建立單一使用核准流程。 如需新增單一使用核准流程至專案、任務和問題的相關資訊，請參閱[將新的或現有的核准流程與工作建立關聯](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)一文中的[將單一使用核准流程與專案、任務、問題、範本或範本任務建立關聯](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#creating-a-single-use-approval-process)小節。
 
 使用者也可以變更與工作專案相關聯之全域核准流程的設定。 這些變更只會影響與系統層級核准流程關聯的專案、任務或問題。 如需詳細資訊，請參閱文章[將新的或現有的核准程式與工作建立關聯](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)中的「修改用於特定物件的全域核准程式」一節。

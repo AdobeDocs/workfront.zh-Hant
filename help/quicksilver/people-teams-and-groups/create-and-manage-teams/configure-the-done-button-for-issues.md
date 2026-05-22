@@ -8,16 +8,16 @@ feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1181'
 ht-degree: 2%
 
 ---
 
 # 設定問題的[!UICONTROL 完成]按鈕
 
-[!UICONTROL 完成]按鈕可以自動設定任務或問題的狀態。 依預設，當受指派人按一下其工作專案上的[!DNL Adobe Workfront]完成[!UICONTROL 時，]會將問題標示為[!UICONTROL 已解決]。
+[!UICONTROL 完成]按鈕可以自動設定任務或問題的狀態。 依預設，當受指派人按一下其工作專案上的[!UICONTROL 完成]時，[!DNL Adobe Workfront]會將問題標示為[!UICONTROL 已解決]。
 
 >[!NOTE]
 >
@@ -25,12 +25,12 @@ ht-degree: 2%
 
 ## 概觀
 
-具有特定許可權的使用者可以設定[!UICONTROL Done]按鈕，以反映系統中的特定狀態。 針對[!UICONTROL 中的問題，]Done[!DNL Workfront]按鈕有3種不同的運作方式：
+具有特定許可權的使用者可以設定[!UICONTROL Done]按鈕，以反映系統中的特定狀態。 針對[!DNL Workfront]中的問題，[!UICONTROL Done]按鈕有3種不同的運作方式：
 
-* 如果使用者擁有指派的[!UICONTROL 主團隊]、[!DNL Workfront]管理員或具有[!UICONTROL 計畫]授權的使用者可以設定[!UICONTROL 完成]按鈕以反映團隊成員的特定狀態。 請參閱本文中的[設定團隊[!UICONTROL 的]完成](#configure-the-uicontrol-done-button-for-a-team)按鈕。
+* 如果使用者擁有指派的[!UICONTROL 主團隊]、[!DNL Workfront]系統管理員或具有[!UICONTROL 標準]或[!UICONTROL 計畫]授權的使用者，可以設定[!UICONTROL 完成]按鈕以反映團隊成員的特定狀態。 請參閱本文中的[設定團隊](#configure-the-uicontrol-done-button-for-a-team)的[!UICONTROL 完成]按鈕。
 * 如果使用者沒有[!UICONTROL 主團隊]，但他們的設定檔中有[!UICONTROL 其他團隊]，Workfront會搜尋與使用者相關聯之任何團隊上的[!UICONTROL 完成]按鈕設定。 選擇是隨機的，與任何團隊相關聯的狀態會用於問題。
 * 如果使用者未指派[!UICONTROL 主團隊]，則問題的[!UICONTROL Done]按鈕會繫結至系統產生的[!UICONTROL Resolved]狀態，該狀態具有三個字母的代碼[!UICONTROL RLV]。 此情境中沒有可用的設定選項。 [!UICONTROL Done]按鈕會自動預設為此狀態。
-* 如果刪除[!UICONTROL 已解決] ([!UICONTROL RLV])狀態，且將問題標示為[!UICONTROL 完成]的使用者沒有[!UICONTROL 主團隊]，則預設問題狀態會繫結至指派給問題所屬專案之群組的[!UICONTROL 已關閉]預設值。 Workfront管理員可為群組設定系統範圍的預設設定。 請參閱本文[已解決[!UICONTROL 狀態被刪除時]設定[!UICONTROL 完成]按鈕](#configure-the-uicontrol-done-button-when-the-uicontrol-resolved-status-has-been-deleted)。
+* 如果刪除[!UICONTROL 已解決] ([!UICONTROL RLV])狀態，且將問題標示為[!UICONTROL 完成]的使用者沒有[!UICONTROL 主團隊]，則預設問題狀態會繫結至指派給問題所屬專案之群組的[!UICONTROL 已關閉]預設值。 Workfront管理員可為群組設定系統範圍的預設設定。 請參閱本文[!UICONTROL 已解決]狀態被刪除時[設定[!UICONTROL 完成]按鈕](#configure-the-uicontrol-done-button-when-the-uicontrol-resolved-status-has-been-deleted)。
 
 ## 存取權要求
 
@@ -103,7 +103,7 @@ ht-degree: 2%
 
 若要將使用者與主團隊建立關聯：
 
-1. 按一下&#x200B;**[!UICONTROL 右上角的]**&#x200B;主要功能表![](assets/main-menu-icon.png)圖示[!DNL Adobe Workfront]。
+1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主要功能表]**&#x200B;圖示![](assets/main-menu-icon.png)。
 
 1. 按一下&#x200B;**[!UICONTROL 使用者]**，然後選取您要與主團隊建立關聯的一或多個使用者。
 1. 按一下&#x200B;**[!UICONTROL 更多]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 編輯]**。\
@@ -117,7 +117,7 @@ ht-degree: 2%
 
 ## 在刪除[!UICONTROL 已解決]狀態時設定[!UICONTROL 完成]按鈕
 
-如果使用者沒有主團隊，而且已刪除[!UICONTROL 已解決] ([!UICONTROL RLV])的全系統預設值，[!DNL Workfront]管理員可以為專案上的群組設定[!UICONTROL 已關閉]狀態。 當使用者按一下[!DNL Workfront]按鈕時，[!DNL Done]會為已關閉的問題選取此狀態。
+如果使用者沒有主團隊，而且已刪除[!UICONTROL 已解決] ([!UICONTROL RLV])的全系統預設值，[!DNL Workfront]管理員可以為專案上的群組設定[!UICONTROL 已關閉]狀態。 當使用者按一下[!DNL Done]按鈕時，[!DNL Workfront]會為已關閉的問題選取此狀態。
 
 ### 尋找與專案相關聯的群組
 
@@ -140,7 +140,7 @@ ht-degree: 2%
 1. 按一下&#x200B;**[!UICONTROL 問題]**，然後在右側的&#x200B;**[!UICONTROL 系統狀態]**&#x200B;搜尋方塊中輸入群組名稱。
 
 1. 選取群組。
-1. 按一下&#x200B;**[!UICONTROL 設定預設狀態]**&#x200B;下拉式功能表，然後選擇[!UICONTROL 已關閉]的預設狀態。 當使用者按一下[!DNL Workfront]完成[!UICONTROL 按鈕時，]會針對已關閉問題使用此狀態。
+1. 按一下&#x200B;**[!UICONTROL 設定預設狀態]**&#x200B;下拉式功能表，然後選擇[!UICONTROL 已關閉]的預設狀態。 當使用者按一下[!UICONTROL 完成]按鈕時，[!DNL Workfront]會針對已關閉問題使用此狀態。
 
    >[!IMPORTANT]
    >

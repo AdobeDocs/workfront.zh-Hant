@@ -10,9 +10,9 @@ role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '774'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 具有下列條件的使用者可看見處理它和完成按鈕：
 
-* 標準授權（新），或計畫或工作授權（目前）
+* 標準授權，或計畫或工作授權
 * 有限制的編輯存取權或任務或問題的較高許可權
 
 >[!NOTE]

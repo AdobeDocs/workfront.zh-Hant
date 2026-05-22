@@ -9,10 +9,10 @@ feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 8%
+source-wordcount: '332'
+ht-degree: 7%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 8%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider moving this to the Custom&nbsp;View, Filter, Grouping Samples section as an example of a report)</p>
 -->
 
-在Adobe Workfront中，使用者可以將專案、任務和問題核准委派給其他使用者，以確保當他們不在辦公室時，他們的核准受到管理。 擁有「計畫」授權的使用者可以建立「使用者委派」報告，以檢視：
+在Adobe Workfront中，使用者可以將專案、任務和問題核准委派給其他使用者，以確保當他們不在辦公室時，他們的核准受到管理。 擁有「標準」或「計畫」授權的使用者可以建立「使用者委派」報告，以檢視：
 
 * 誰已將其任務、問題和專案核准委派給其他使用者
 * 哪些使用者已委派任務、問題和專案核准給他們

@@ -7,9 +7,9 @@ description: 在Workfront中，您可以建立與Experience Manager Assets或Ass
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '491'
 ht-degree: 3%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 3%
   <tr>
    <td><strong>存取層級設定</strong>
    </td>
-   <td>您必須是Workfront管理員才能設定Experience Manager整合。 完成設定後，擁有計畫授權的使用者可以在個別專案上設定連結資料夾。
+   <td>您必須是Workfront管理員才能設定Experience Manager整合。 完成設定後，擁有Standard或Plan授權的使用者可以在個別專案上設定連結資料夾。
    </td>
   </tr>
 </table>
