@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: 作為Adobe Workfront管理員，您可以決定Workfront中核准流程的全域設定。 這些設定會影響您系統中的所有工作專案核准流程。
-author: Alina
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
-source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
+source-git-commit: 0fc7a16640d134b6f524a30929ed6f3041f12e31
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 2%
+source-wordcount: '835'
+ht-degree: 4%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 2%
 
 作為Adobe Workfront管理員，您可以決定Workfront中核准流程的全域設定。 這些設定會影響您系統中的所有工作專案核准流程。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -30,21 +30,23 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront計畫*</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權*</td> 
-   <td>規劃</td> 
+   <td role="rowheader">Adobe Workfront授權</td> 
+   <td><p>規劃</p>
+   <p>標準<p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定*</td> 
-   <td> <p>您必須是系統管理員或擁有對核准流程具有管理存取權的計畫授權</p> <p><b>注意</b>：如果您還是沒有存取權，請詢問您的Workfront管理員是否對您的存取層級設定了其他限制。 如需Workfront管理員如何修改存取層級的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">建立或修改自訂存取層級</a>。</p> </td> 
+   <td role="rowheader">存取層級設定</td> 
+   <td> <p>您必須是系統管理員或擁有對核准流程具有管理存取權的計畫授權</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;若要瞭解您擁有的計畫、授權型別或存取權，請連絡您的Workfront管理員。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -54,7 +56,7 @@ ht-degree: 2%
 
 1. 按一下&#x200B;**處理序** > **核准**。
 
-1. 按一下&#x200B;**核准**&#x200B;區域名稱旁的![設定](assets/gear-icon-settings.png)圖示&#x200B;**齒輪設定圖示**。
+1. 按一下&#x200B;**核准**&#x200B;區域名稱旁的&#x200B;**設定**&#x200B;圖示![齒輪設定圖示](assets/gear-icon-settings.png)。
 
 1. 在出現的&#x200B;**核准設定**&#x200B;方塊中，指定下列資訊：
 

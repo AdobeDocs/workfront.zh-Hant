@@ -5,13 +5,13 @@ content-type: reference
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: 本文會說明當Workfront管理員（或擁有核准流程管理存取權的使用者）變更其與群組的關聯時，使用核准流程的情況。
-author: Alina
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 77b2dce2-1523-4262-a659-0d301059a54c
-source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
+source-git-commit: 0fc7a16640d134b6f524a30929ed6f3041f12e31
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1539'
 ht-degree: 1%
 
 ---
