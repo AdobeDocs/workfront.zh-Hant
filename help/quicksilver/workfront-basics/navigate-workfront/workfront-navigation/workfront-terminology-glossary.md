@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ee971729c414018a04b1d1fc2a59760e9ea0a59a
+source-git-commit: dbed69be1a57571e6c0701b7370e20be323037fe
 workflow-type: tm+mt
-source-wordcount: '21832'
+source-wordcount: '21952'
 ht-degree: 0%
 
 ---
@@ -686,6 +686,10 @@ ht-degree: 0%
    <td>位於熒幕左側的功能表，專案會在此功能表上變更以與作用中內容產生關聯。 例如，當使用者檢視專案時，[!UICONTROL 關聯功能表]將顯示專案相關資訊和工具的連結。</td> 
   </tr> 
   <tr> 
+   <td>[!UICONTROL 參與者]</td> 
+   <td><p>通常是授權型別。 具有[!UICONTROL Contributor]授權的使用者可以提交在系統中發生新工作的請求。</p> <p>如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">存取層級概觀</a>。</p></td> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL 轉換的問題建立者]</td> 
    <td>專案或任務報告中的欄位，顯示當問題轉換為專案或任務時，身為問題[!UICONTROL 主要連絡人]之使用者的相關資訊。 該欄位也會顯示在[!UICONTROL 專案詳細資訊]區段中，其中顯示轉換問題之[!UICONTROL 主要連絡人]的名稱。 另請參閱本文中的「[!UICONTROL 主要連絡人]」。</td> 
   </tr> 
@@ -1276,6 +1280,10 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[!UICONTROL 授許可權制工時]</td> 
    <td> <p>在[!UICONTROL 群組]檢視或報表中，此欄位顯示可指派給已將個別群組指定為[!UICONTROL 主群組]的使用者的[!UICONTROL 工作]授權數上限。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Light]</td> 
+   <td><p>通常是授權型別。 擁有[!UICONTROL Light]授權的使用者能夠檢閱和核准系統中的工作專案。</p> <p>如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">存取層級概觀</a>。</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 受限使用者]</td> 
@@ -2147,7 +2155,11 @@ The designated full time equivalency for users. A full-time user should have 100
     <li>問題報告的「專案名稱」或「任務名稱」欄。 </li> </ul>
     如需詳細資訊，請參閱<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md">以其他使用者的存取許可權執行並傳遞報告</a> 
    </td> 
-  </tr> 
+  </tr>
+  <tr>
+   <td>[!UICONTROL 標準]</td> 
+   <td> <p>這是[!DNL Workfront]系統中的完整授權型別。 使用者必須擁有此項才能存取[!DNL Workfront]中的所有功能。</p><p>對於此模型中的授權，沒有等同於工作的專案。 先前擁有工作授權的使用者會成為擁有該授權所有功能的標準使用者。</p> <p>如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">存取層級概觀</a>。</p> </td> 
+  </tr>  
   <tr> 
    <td>[!UICONTROL 開始日期]</td> 
    <td> <p>專案上的工作設定為開始的日期。 [!DNL Workfront]中有數個開始日期： </p> 
@@ -2584,3 +2596,4 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
  </tbody> 
 </table>
+
