@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 947a12504623e31a28d660675b12fb90522a56f4
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '730'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ https://<URL of your organization's domain>/integrations/oauth2/authorize?client
 
    **範例：**&#x200B;對權杖端點進行CURL呼叫的範例：
 
-   範例1
+   範例 1
 
    ```
       curl --location --request POST '**<workfront host>**/integrations/oauth2/api/v1/token' \
@@ -128,7 +128,7 @@ https://<URL of your organization's domain>/integrations/oauth2/authorize?client
       }'
    ```
 
-   範例2
+   範例 2
 
    ```
       curl --location --request POST '**<workfront host>**/integrations/oauth2/api/v1/token' \
@@ -157,7 +157,7 @@ https://<URL of your organization's domain>/integrations/oauth2/authorize?client
    }
    ```
 
-   存取權杖與```sessionID```相同，過期時間與一般```sessionID```相同
+   存取權杖與`sessionID`相同，過期時間與一般`sessionID`相同
 
    >[!IMPORTANT]
    >
@@ -174,7 +174,7 @@ https://<URL of your organization's domain>/integrations/oauth2/authorize?client
 
 ![重新整理存取權杖流程](assets/refresh-access-token-flow-350x142.png)
 
-若要重新整理access_token，我們再次需要對token端點執行「POST」呼叫。 這次我們會傳送不同的表單資料，如下所示：
+若要重新整理access_token，我們再次需要對權杖端點執行「POST」呼叫。 這次我們會傳送不同的表單資料，如下所示：
 
 ```
 curl --location --request POST '<workfront host>/integrations/oauth2/api/v1/token' \
