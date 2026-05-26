@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0b856507a26de5812e2335a4a7c0c6622c678d09
+source-git-commit: 83adea16ed7d66cec9ec2ce5b385b5ac4a7fdbac
 workflow-type: tm+mt
 source-wordcount: '1499'
 ht-degree: 3%
@@ -331,3 +331,5 @@ Workfront欄位型別會影響指定欄位是否可自動填入。
 * 您必須在系統中擁有至少一個月的請求資料，然後才能建議來自先前請求的欄位值。
 * 您在上傳要從中提取建議的檔案時，可能未依循檔案上傳護欄。 如需詳細資訊，請參閱本文中的[檔案上傳護欄](#document-upload-guardrails)。
 * AI表單填寫可填入外部查詢欄位值。 但是，如果外部查詢欄位對公式欄位具有相依性，則AI無法準確擷取欄位選項，並且不會填入該欄位值。
+
+
