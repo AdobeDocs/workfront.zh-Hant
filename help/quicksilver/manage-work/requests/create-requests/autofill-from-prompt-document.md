@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: 0b856507a26de5812e2335a4a7c0c6622c678d09
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1499'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->若要使用此功能，您的組織必須符合使用Workfront AI Assistant的需求。 如需詳細資訊，請參閱[&#x200B; AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
+>若要使用此功能，您的組織必須符合使用Workfront AI Assistant的需求。 如需詳細資訊，請參閱[ AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
 
 AI表單填寫可協助您根據輸入的提示自動填寫請求欄位。 它也可以根據文字（例如電子郵件或上傳的檔案）填寫欄位。 您可以在提交請求之前核准或拒絕這些建議。
 
@@ -94,7 +94,7 @@ Remove me October 2026
 >由AI支援的表單填寫功能會在組織層級啟用，並且無法針對特定使用者或存取層級啟用或停用。
 
 1. 按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![設定圖示](/help/_includes/assets/gear-icon-setup.png)。
-1. 按一下&#x200B;**系統**，然後在[系統]下，按一下[偏好設定]&#x200B;**&#x200B;**。
+1. 按一下&#x200B;**系統**，然後在[系統]下，按一下[偏好設定]****。
 1. 在AI偏好設定區段中，確定&#x200B;**啟用AI**&#x200B;已切換。
 1. 開啟&#x200B;**AI表單填滿**。
 1. 若要停用由AI提供支援的表單填寫，請關閉&#x200B;**AI表單填寫**。
@@ -269,13 +269,13 @@ Workfront欄位型別會影響指定欄位是否可自動填入。
 <li>核取方塊</li>
 <li>選項按鈕</li>
 <li>單選與多選下拉式清單</li>
+<li>外部查詢</li>
+<!--<li>Internal lookup THIS FIELD TYPE IS NOT GA YET SO COMMENTING OUT - from Lisa</li>-->
+<li>參考</li>
+<li>Workfront Planning內嵌欄位</li>
 </ul>
 </td>
 <td><li>自動提示</li>
-<li>外部查詢</li>
-<li>內部查詢</li>
-<li>參考</li>
-<li>WF Planning內嵌欄位</li>
 </ul>
 </td>
 </tr>
@@ -330,3 +330,4 @@ Workfront欄位型別會影響指定欄位是否可自動填入。
 
 * 您必須在系統中擁有至少一個月的請求資料，然後才能建議來自先前請求的欄位值。
 * 您在上傳要從中提取建議的檔案時，可能未依循檔案上傳護欄。 如需詳細資訊，請參閱本文中的[檔案上傳護欄](#document-upload-guardrails)。
+* AI表單填寫可填入外部查詢欄位值。 但是，如果外部查詢欄位對公式欄位具有相依性，則AI無法準確擷取欄位選項，並且不會填入該欄位值。
