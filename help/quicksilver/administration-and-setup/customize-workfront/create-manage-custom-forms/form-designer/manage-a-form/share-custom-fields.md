@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 4f591fa3-2cb9-4a22-bfb1-1b50cedfcf3d
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: 264419f747b1e975cda8843b37558e78501d93de
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 1%
+source-wordcount: '744'
+ht-degree: 2%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 1%
 
 如需自訂表單中自訂欄位和Widget的相關資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -49,79 +49,78 @@ ht-degree: 1%
 
 +++
 
-## 從表單清單設定共用自訂欄位或Widget
+<!--
+
+## Configure sharing a custom field or widget from the list of forms
 
 {{step-1-to-setup}}
 
-1. 在左側面板中，按一下&#x200B;**自訂Forms**。
-1. 按一下&#x200B;**欄位**&#x200B;以開啟[欄位]區域。
-1. 選取您要設定共用的專案，然後按一下![共用圖示](assets/share-icon.png)。
-1. 在顯示的「自訂欄位存取」方塊中，指定您要與誰共用專案以及要如何共用：
+1. In the left panel, click **Custom Forms**.
+1. Click **Fields** to open the Fields area.
+1. Select the item you want to configure sharing for, then click ![Share icon](assets/share-icon.png).
+1. In the Custom Field Access box that displays, specify who you want to share the item with and how you want to share it:
 
-   1. 在&#x200B;**自訂欄位存取**&#x200B;方塊的左下角附近，在&#x200B;**授與自訂欄位存取權**&#x200B;下方，開始輸入您要共用專案的使用者、團隊、工作角色、群組或公司的名稱，然後按一下名稱。
+   1. Near the lower-left corner of the **Custom Field Access** box, under **Give custom field access to**, start typing the name of a user, team, job role, group, or company you want to share the item with, then click the name when it appears.
 
-      ![自訂欄位存取方塊](assets/share-field-give-access-to.jpg)
+      ![Custom Field Access box](assets/share-field-give-access-to.jpg)
 
-   1. 如果您想更明確地說明要如何共用專案，請按一下名稱右側的下拉式清單，然後使用下列任一選項：
+   1. If you want to be more specific about how you want to share the item, click the drop-down list to the right of the name, then use any of the following options:
 
-      ![共用選項](assets/share-field-view-mng-options.jpg)
+      ![Sharing options](assets/share-field-view-mng-options.jpg)
 
       <table style="table-layout:auto"> 
        <col> 
        <col> 
        <tbody> 
         <tr> 
-         <td role="rowheader">檢視它</td> 
-         <td> <p>您可以按一下<strong>進階設定</strong>，指定您是否希望使用者能夠使用其存取許可權將專案新增至自訂表單，或與其他使用者共用。</p> </td> 
+         <td role="rowheader">View it</td> 
+         <td> <p>You can click <strong>Advanced Settings</strong> to specify whether you want the user or users to be able to use their access to add the item to a custom form or share it with other users.</p> </td> 
         </tr> 
         <tr> 
-         <td role="rowheader">管理它</td> 
-         <td> <p>允許存取以編輯自訂欄位，並在欄位庫和建立自訂表單的頁面上檢視它。</p> <p>您可以按一下<strong>進階設定</strong>，指定您是否希望使用者能夠使用其存取許可權從系統刪除專案或與其他使用者共用。</p> </td> 
+         <td role="rowheader">Manage it</td> 
+         <td> <p>Allows access to edit the custom field and to see it in the Field Library and on the page where you build custom forms.</p> <p>You can click <strong>Advanced Settings</strong> to specify whether you want the user or users to be able to use their access to delete the item from the system or share it with other users.</p> </td> 
         </tr> 
        </tbody> 
-      </table>
+      </table>   
 
-1. （可選）重複上一步驟，將其他名稱新增至清單並設定其選項。
-1. （選擇性）如果您要為該欄位選擇全系統共用選項，請按一下右上角的齒輪圖示![設定圖示](assets/gear-icon-settings.png)。
+1. (Optional) Repeat the previous step to add other names to the list and configure their options.
+1. (Optional) Click the gear icon ![Settings icon](assets/gear-icon-settings.png) in the top-right corner if you want to choose a system-wide sharing option for the field.
 
-   並非下列所有選項會同時顯示在此下拉式功能表中。 例如，只有在選取其他兩個選項之一時，才會顯示第二個選項。
+   Not all of the following options display in this drop-down menu at the same time. For example, the second one displays only when one of the other two are selected.
 
-   * **讓此專案在系統範圍內可編輯，讓Workfront中的每個人都可以編輯它** （預設選項）
+   * **Make this editable system-wide so that everyone in Workfront can edit it** (the default option)
 
-     當您新增自訂欄位或Widget且您未限制其共用時，系統中有權存取自訂表單的所有人都可以檢視並編輯其屬性。
+     When you add a custom field or widget and you don't limit sharing for it, everyone in the system who has access to custom forms can view it and edit its properties.
+   
+   * **Remove system-wide edit access**
 
-   * **移除系統範圍編輯存取權**
+     Limits access to only those whom you added to the list. 
+   
+   * **Make this visible system-wide so that everyone in Workfront can see it**
 
-     限制只有您已新增至清單的使用者才可存取。
+1. Click **Save**.
 
-   * **讓此專案在整個系統內可見，讓Workfront中的每個人都可以看到它**
+-->
 
-1. 按一下「**儲存**」。
-
-## 從表單設計工具設定共用自訂欄位或Widget
+## 設定共用自訂欄位或Widget
 
 {{step-1-to-setup}}
 
 1. 在左側面板中，按一下&#x200B;**自訂Forms**。
-1. 開啟自訂表單或建立新的自訂表單。
-1. 在表單設計工具中，選取您要設定共用的專案，然後按一下右側欄位編輯區域中的&#x200B;**共用**。
-1. 在顯示的方塊中，在&#x200B;**授與自訂表單存取權**&#x200B;下方，開始輸入您要共用專案的使用者、團隊、工作角色、群組或公司的名稱，然後在名稱顯示時按&#x200B;**Enter**。
+1. 若要從表單和欄位清單共用：
+
+   1. 按一下&#x200B;**欄位**&#x200B;以開啟[欄位]區域。
+   1. 選取您要共用的欄位，然後按一下![共用圖示](assets/share-icon.png)。
+
+1. 若要從表單設計工具共用：
+   1. 開啟自訂表單或建立新的自訂表單。
+   1. 在表單設計工具中，選取您要共用的欄位，然後按一下右側欄位編輯區域中的&#x200B;**共用**。
+
+1. 在共用方塊中，在&#x200B;**授與欄位存取權**&#x200B;下，開始輸入您要共用專案的使用者、團隊、工作角色、群組、公司或企業設定檔的名稱，然後在名稱顯示時按下&#x200B;**Enter**。
 1. 如果您想更詳細地說明共用專案的方式，請按一下名稱右側的下拉式功能表，然後使用下列任一選項：
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-      <tbody> 
-       <tr> 
-        <td role="rowheader">檢視它</td> 
-        <td> <p>按一下<strong>進階設定</strong>，指定您是否要讓使用者將專案新增至自訂表單，或是與其他使用者共用。</p> </td> 
-       </tr> 
-       <tr> 
-        <td role="rowheader">管理它</td> 
-        <td> <p>允許存取以編輯自訂欄位，並在欄位程式庫和表單設計工具中檢視它。</p> <p>按一下<strong>進階設定</strong>，指定您是否要讓使用者從系統刪除專案，或是與其他使用者共用。</p> </td> 
-       </tr> 
-     </tbody> 
-    </table>
+   * **檢視**：按一下&#x200B;**進階設定**&#x200B;圖示![進階設定圖示](assets/configure-options-icon.png)，指定您是否要讓使用者將專案新增至自訂表單，或是與其他使用者共用。
+   * **管理**：允許存取以編輯自訂欄位，並在欄位程式庫和表單設計工具中檢視它。 按一下&#x200B;**進階設定**&#x200B;圖示![進階設定圖示](assets/configure-options-icon.png)，指定您是否要讓使用者能夠刪除系統上的專案，或是與其他使用者共用專案。
 
 1. （可選）重複步驟5至6，將其他名稱新增至清單並設定其選項。
 1. （選擇性）為欄位選擇全系統共用選項：
@@ -131,6 +130,9 @@ ht-degree: 1%
      當您新增自訂欄位或Widget且您未限制其共用時，系統中有權存取自訂表單的所有人都可以檢視並編輯其屬性。
 
    * **系統中的每個人都可以檢視**
+
+     系統中有權存取自訂表單的所有人都可以檢視欄位但不能編輯它。
+
    * **只有受邀者可以存取**
 
      限制僅存取您新增至清單中的人員。
@@ -141,7 +143,7 @@ ht-degree: 1%
 
 ## 共用自訂表單時繼承對自訂欄位和Widget的存取權
 
-當有人與群組、工作角色、團隊或公司共用自訂表單時，收件者會繼承對表單上任何自訂欄位和Widget的檢視存取權。 對表單上這些專案的這種存取層級一律會保留，以便表單可以按照建立者的預期為收件者運作。 即使是擁有表單編輯存取權的收件者，亦是如此。
+當有人與群組、工作角色、團隊、公司或企業設定檔共用自訂表單時，收件者會繼承對表單上任何自訂欄位和Widget的檢視存取權。 對表單上這些專案的這種存取層級一律會保留，以便表單可以按照建立者的預期為收件者運作。 即使是擁有表單編輯存取權的收件者，亦是如此。
 
 您可以瞭解誰繼承了自訂欄位或Widget的存取權，並且可以移除其存取權。
 
@@ -160,4 +162,4 @@ ht-degree: 1%
 
 ### 移除對自訂欄位或共用自訂表單中Widget的存取權 {#remove-access-to-a-custom-field-or-widget-in-a-custom-form-that-was-shared}
 
-如果您需要移除對自訂欄位或共用之自訂表單中Widget的存取權，則需要取消共用表單。 如需指示，請參閱文章[共用自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md#remove-access-to-a-custom-form-from-the-list-of-forms)中的[移除自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)存取權一節。
+如果您需要移除對自訂欄位或共用之自訂表單中Widget的存取權，則需要取消共用表單。 如需指示，請參閱文章[共用自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)中的[移除自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md#remove-access-to-a-custom-form)存取權一節。
