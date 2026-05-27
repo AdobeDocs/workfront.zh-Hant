@@ -120,7 +120,7 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
 
 ## 共用自訂表格
 
-您可以為特定使用者、工作角色、群組、團隊、公司和企業設定檔設定特定層級的表單存取權，而不是將自訂表單保留在預設共用狀態（本文中關於存取自訂表單](#access-to-custom-forms)的說明）。[
+您可以為特定使用者、工作角色、群組、團隊、公司和企業設定檔設定特定層級的表單存取權，而不是將自訂表單保留在預設共用狀態（本文中關於存取自訂表單[&#128279;](#access-to-custom-forms)的說明）。
 
 {{step-1-to-setup}}
 
