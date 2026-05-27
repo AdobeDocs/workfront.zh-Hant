@@ -9,7 +9,7 @@ hide: true
 exl-id: 9ffad1aa-3c96-40fa-9c62-7a3e00699f18
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+source-git-commit: f11daa69f72c32418298ac75f81b0fb64835d99b
 workflow-type: tm+mt
 source-wordcount: '1892'
 ht-degree: 2%
@@ -224,9 +224,9 @@ Lilit is checking on this, it is not working correctly
 
    1. 從&#x200B;**繼承許可權**&#x200B;下拉式功能表中選取&#x200B;**停用**。
 
-   >[!TIP]
-   >
-   >Workspace管理員繼續擁有記錄型別和記錄的管理許可權。
+      >[!TIP]
+      >
+      >Workspace管理員繼續擁有記錄型別和記錄的管理許可權。
 
    1. （選擇性）選取&#x200B;**只有受邀者才能從**&#x200B;誰有存取權&#x200B;**區域存取**。 您必須指明要與其共用記錄的個別使用者、群組、團隊或公司。
 
