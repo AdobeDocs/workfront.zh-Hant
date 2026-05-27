@@ -10,14 +10,16 @@ role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: ade3f6eef4252c123b41b7bbc4871cf01708f485
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '863'
 ht-degree: 7%
 
 ---
 
 # 設定系統偏好設定
+
+{{preview-fast-release-general}}
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
@@ -127,7 +129,11 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
       <td role="rowheader">啟用「優先順序」工作清單 </td> 
       <td>可讓您選擇為使用者啟用或停用優先順序工作清單體驗。 使用者仍可在Workfront中看到優先順序圖示，但無法存取該功能。 如需有關優先順序的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">開始使用優先順序</a>。</td> 
      </tr>
-      <tr> 
+     <tr>
+      <td><span class="preview">大量編輯時務必強制填入必要欄位</span></td>
+      <td><span class="preview"><p>可讓您選擇當大量編輯物件時，是否強制使用者在必填欄位中輸入資訊。</p> <p>選取此選項時，必要欄位必須先有值，才能以大量編輯模式儲存。 如果必要欄位缺少至少一個大量選取物件的值，則不允許儲存。</p> <p>未選取此選項時，必填欄位僅在使用者修改欄位時強制。 如果欄位未修改，則會視為選用且未驗證。</p></span></td>
+     </tr>
+     <tr> 
       <td role="rowheader">啟用Adobe雲端儲存空間 </td> 
       <td>可讓您選擇為整個組織或特定群組啟用或停用Adobe雲端儲存空間。 如需Adobe雲端儲存空間的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">為您的組織啟用Adobe雲端儲存空間</a>。</td> 
      </tr>
@@ -141,7 +147,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
      </tr>
      <tr> 
       <td role="rowheader">選擇加入 AI Beta 版 </td> 
-      <td>&gt;可讓您選擇啟用Beta中的目前AI功能。 如果啟用此選項，您可以接著選取要啟用哪些AI Beta功能。 如需每個AI Beta功能的詳細資訊，請按一下該功能旁的資訊圖示。</td> 
+      <td>可讓您選擇啟用Beta中目前的AI功能。 如果啟用此選項，您可以接著選取要啟用哪些AI Beta功能。 如需每個AI Beta功能的詳細資訊，請按一下該功能旁的資訊圖示。</td> 
      </tr>
      <tr> 
       <td role="rowheader">測試環境</td> 

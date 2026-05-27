@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: bb5e1d1df73ecb4ae9749c5e0960b824bf2e6eda
+source-git-commit: 3e6ae76eea2e12fc7fc3a45dad753261a7bad628
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # 共用自訂表格
 
-{#preview-fast-release-general}
+{{preview-fast-release-general}}
 
 您可以設定自訂表單的存取權，以控制誰 — 人員、角色、群組、團隊、公司、企業設定檔 — 可以檢視、共用及編輯它。
 
@@ -120,7 +120,7 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
 
 ## 共用自訂表格
 
-您可以為特定使用者、工作角色、群組、團隊、公司和企業設定檔設定特定層級的表單存取權，而不是將自訂表單保留在預設共用狀態（本文中關於存取自訂表單[&#128279;](#access-to-custom-forms)的說明）。
+您可以為特定使用者、工作角色、群組、團隊、公司和企業設定檔設定特定層級的表單存取權，而不是將自訂表單保留在預設共用狀態（本文中關於存取自訂表單](#access-to-custom-forms)的說明）。[
 
 {{step-1-to-setup}}
 
