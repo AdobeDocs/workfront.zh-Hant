@@ -10,9 +10,9 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 15592c8dee4bae503382205b38b5daaef5cc74dd
+source-git-commit: b4a3a64abb1c5e6395ff91dc8c145135926a5cf6
 workflow-type: tm+mt
-source-wordcount: '7329'
+source-wordcount: '7447'
 ht-degree: 6%
 
 ---
@@ -725,7 +725,7 @@ ht-degree: 6%
       <p><strong>注意：</strong>如果您未使用$$QUERY，而且使用者在搜尋方塊中輸入文字，將會縮小您現有的選擇。 但是，如果您使用$$QUERY且使用者鍵入任何內容，則會對您的API執行新的網路呼叫。 因此，如果您的API中有超過2000個值，且API支援查詢，您便可以利用$$QUERY來不僅搜尋現有2000個值，而且搜尋具有縮小選項的原始API。</p></li>
       <li><p>{fieldName} — 其中fieldName是Workfront中的任何自訂或原生欄位。 這樣，當您將已選取欄位的值傳遞至外部查詢欄位以篩選下拉選項時，您就可以實作階層式下拉選項篩選器。 （例如，「地區」欄位已存在於表單上，而您正在將國家/地區清單從API縮小至特定地區。）</p>
       <p>對於相依於其他欄位（使用{fieldName}語法）的外部查詢欄位，從API傳回的選項僅限於符合在其他欄位中輸入的任何字串或值的選項。 （清單和報告不支援此功能。）</p></li>
-      <li>{referenceObject}。{fieldName} — 其中欄位是物件的一部分。 此語法類似於自訂運算式。 (例如，portfolioID={project}。{portfolioID})</li></ul>
+      <li>{referenceObject}.{fieldName} — 其中欄位是物件的一部分。 此語法類似於自訂運算式。 （例如，portfolioID={project}.{portfolioID}）</li></ul>
       <p><strong>秘訣：</strong>檢閱您正在使用的API檔案，以瞭解您可以定義的特定查詢。</p></td>
      </tr>
      <tr> 
@@ -900,24 +900,32 @@ The Workfront Mobile app
 
 | 欄位名稱 | 專案 | 任務 | 問題 | 範本 | 範本任務 | 專案組合 | 方案 | 群組 |
 |--------------------------- |-------- |------- |------- |--------- |-------------- | --------- |-------- |------ |
+| <span class="preview">實際收益</span> | <span class="preview">✓ </span> |   |   |   |   |   |   |   |
 | 實際完成日期 | ✓ | ✓ | ✓ |   |   |   |   |   |
 | 實際期間 | ✓ |   |   |   |   |   |   |   |
 | 實際時數 | ✓ |   | ✓ |   |   |   |   |   |
 | 實際開始日期 | ✓ | ✓ | ✓ |   |   |   |   |   |
+| <span class="preview">預算</span> | <span class="preview">✓ </span> |   |   | <span class="preview"> ✓ </span> |   | <span class="preview"> ✓ </span> |   |   |
 | 公司 | ✓ |   |   | ✓ |   |   |   |   |
 | 條件 | ✓ | ✓ | ✓ |   |   |   |   |   |
 | 狀況類型 | ✓ |   |   | ✓ |   |   |   |   |
+| <span class="preview">貨幣</span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
 | 說明 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | 期間 |   | ✓ |   |   | ✓ |   |   |   |
 | 期間類型 |   | ✓ |   |   | ✓ |   |   |   |
 | 期間單位 |   | ✓ |   |   | ✓ |   |   |   |
 | 輸入者 | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
 | 輸入日期 | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
+| <span class="preview">匯率日期</span> | <span class="preview"> ✓ </span> |   |   |   |   |   |   |   |
+| <span class="preview">固定成本</span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| <span class="preview">固定收入</span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
 | 群組 | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
 | 上次更新者 | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | 上次更新日期 | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | 名稱 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | 所有者 | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
+| <span class="preview">績效指數方法</span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| <span class="preview">計畫收益</span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
 | 規劃完成日期 | ✓ | ✓ | ✓ |   |   |   |   |   |
 | 計畫持續時間 | ✓ |   |   | ✓ |   |   |   |   |
 | 規劃時數 | ✓ | ✓ | ✓ |   | ✓ |   |   |   |
@@ -935,9 +943,29 @@ The Workfront Mobile app
 | 狀態 | ✓ | ✓ |   |   |   |   |   |   |
 | 腳本點數 |   | ✓ |   |   |   |   |   |   |
 | 範本 | ✓ |   |   |   |   |   |   |   |
+| 總估計成本<span class="preview"> </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| <span class="preview">總預估收入</span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
 | URL | ✓ | ✓ |   | ✓ | ✓ |   |   |   |
 
 {style="table-layout:auto"}
+
+<div class="preview">
+
+這些額外的自訂表單物件型別也支援原生欄位參考。
+
+* 記帳記錄：固定收入欄位
+* 檔案：名稱、說明欄位
+* 公司：名稱、群組欄位
+* 評等卡：名稱、說明、公司、群組欄位
+* 工作角色：名稱、說明欄位
+
+</div>
+
+<!--
+Non-Labor Resource: Name, Description, Home Group, Non-labor Category, Non-labor Group, Unique Identifier fields
+Staffing Plan: Name, Description, Owner, Group, Company, Currency, Schedule, Start Date, End Date, Available Estimated Hours, Total Estimated Hours, Reference Number, Entered By, Entry Date, Last Updated By, Last Updated Date, Total Estimated Cost, Total Estimated Revenue fields
+Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
+-->
 
 +++
 
@@ -1117,7 +1145,7 @@ The Workfront Mobile app
       <td><p>（必要）選取已連線至Workfront Planning中記錄型別的Workfront物件型別。</p>
       您可以從下列物件型別中選取：
       <ul><li> 專案</li>
-      <li> 專案組合</li><li> 方案</li><li> 公司</li><li> 群組</li></ul>
+      <li> Portfolio</li><li> 方案</li><li> 公司</li><li> 群組</li></ul>
        <p>只有表單物件型別的Workfront物件型別可用。</p> <p> 例如，如果表單設計器頂端的「物件型別」清單顯示「專案」，則您只能在此欄位中選取「專案」，而不能選取「產品組合」，儘管產品組合也可以連線到記錄型別。</p>
       </td>
      </tr>
@@ -1140,7 +1168,7 @@ The Workfront Mobile app
     <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
      </tr>
      <tr>
-      <td>作用中</td>
+      <td>使用中</td>
       <td><p>此選項預設為開啟。<p><p>將欄位設為「非使用中」時，該欄位會從報表、篩選器和檢視中排除，並且無法再用於自訂表單欄位程式庫。</p></td>
      </tr>
       </tbody> 
@@ -1169,11 +1197,9 @@ The Workfront Mobile app
 
 ### 新增UI擴充功能
 
-使用UI擴充功能欄位型別，可將應用程式內嵌於Workfront自訂表單中。 若要建立UI擴充功能，您必須能在Adobe Developer Console中存取Adobe App Builder 。 如需詳細資訊，請參閱文章[使用Workfront App Builder為Workfront建立自訂應用程式](/help/quicksilver/app-builder/app-builder.md#embed-an-app-using-a-workfront-custom-form)中的[使用Adobe自訂表單內嵌應用程式](/help/quicksilver/app-builder/app-builder.md)。
+使用UI擴充功能欄位型別，可將應用程式內嵌於Workfront自訂表單中。 若要建立UI擴充功能，您必須能在Adobe Developer Console中存取Adobe App Builder 。 如需詳細資訊，請參閱文章[使用Workfront App Builder為Workfront建立自訂應用程式](/help/quicksilver/app-builder/app-builder.md)中的[使用Adobe自訂表單內嵌應用程式](/help/quicksilver/app-builder/app-builder.md#embed-an-app-using-a-workfront-custom-form)。
 
 ## 使用表單設計工具來組織和預覽表單
 
 有關如何使用分割槽符號組織自訂表單及預覽表單的資訊，請參閱[使用表單設計工具組織和預覽表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)。
-
-
 
