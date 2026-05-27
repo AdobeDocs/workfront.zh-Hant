@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f11daa69f72c32418298ac75f81b0fb64835d99b
+source-git-commit: 3988b9f7ce6f0de0a1864cd3a81fc7b8f15cd90f
 workflow-type: tm+mt
-source-wordcount: '2254'
+source-wordcount: '2278'
 ht-degree: 0%
 
 ---
@@ -334,6 +334,7 @@ ht-degree: 0%
 >預覽： 2026年1月29日>生產快速發行： 2026年2月12日>每個人都能使用生產： 2026年4月16日
 
 我們已移除核准日期和核准者欄位型別。
+先前核准日期與「核准者」欄位中的現有資訊已移至「原始請求核准日期」與「核准者」欄位。
 
 如需詳細資訊，請參閱[建立欄位](/help/quicksilver/planning/fields/create-fields.md)。
 
