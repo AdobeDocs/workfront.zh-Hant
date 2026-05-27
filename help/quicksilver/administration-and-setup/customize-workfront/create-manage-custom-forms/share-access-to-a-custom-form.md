@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 264419f747b1e975cda8843b37558e78501d93de
+source-git-commit: bb5e1d1df73ecb4ae9749c5e0960b824bf2e6eda
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 2%
@@ -120,7 +120,7 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
 
 ## 共用自訂表格
 
-您可以為特定使用者、工作角色、群組、團隊、公司和企業設定檔設定特定層級的表單存取權，而不是將自訂表單保留在預設共用狀態（本文中關於存取自訂表單[&#128279;](#access-to-custom-forms)的說明）。
+您可以為特定使用者、工作角色、群組、團隊、公司和企業設定檔設定特定層級的表單存取權，而不是將自訂表單保留在預設共用狀態（本文中關於存取自訂表單](#access-to-custom-forms)的說明）。[
 
 {{step-1-to-setup}}
 
@@ -190,3 +190,4 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
 1. 在共用方塊中，按一下您不想再擁有表單的特殊存取許可權的使用者、團隊、角色、群組、公司或企業設定檔名稱右側的下拉式功能表，然後選取&#x200B;**移除**。
 1. （選擇性）對您要移除的其他名稱重複上述步驟。
 1. 按一下「**儲存**」。
+
