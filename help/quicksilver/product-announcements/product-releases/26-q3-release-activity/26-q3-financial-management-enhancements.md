@@ -4,9 +4,9 @@ description: 2026年第三季Financial Management增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ba7ac2d144a6dea7218eb58a0b421b915ae2714e
+source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2026年5月21日>生產快速發行： 2026年5月21日>每個人都要生產： 2026年5月21日>此功能僅適用於Workflow Ultimate套件上的組織。
+>預覽： 2026年5月21日>生產快速發行： 2026年5月21日>適用於所有人的生產： 2026年5月21日>此功能僅適用於Workflow Ultimate封裝上的組織。
 
 將屬性新增至Workfront中的費率後，您就無法再在設定區域中編輯該屬性及其篩選器。 這樣可保留資料完整性，並防止屬性更新時意外變更速率。
 
 如需詳細資訊，請參閱[定義費率屬性](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)。
+
 
