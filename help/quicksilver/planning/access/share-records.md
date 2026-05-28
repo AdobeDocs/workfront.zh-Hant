@@ -9,9 +9,9 @@ hide: true
 exl-id: 9ffad1aa-3c96-40fa-9c62-7a3e00699f18
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f11daa69f72c32418298ac75f81b0fb64835d99b
+source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
 workflow-type: tm+mt
-source-wordcount: '1892'
+source-wordcount: '1664'
 ht-degree: 2%
 
 ---
@@ -32,10 +32,6 @@ this will NOT be available in Preview ever - find a way to add this in this arti
 {{planning-important-intro}}
 
 您可以在Adobe Workfront Planning中調整人員對記錄型別中個別記錄的許可權。
-
->[!WARNING]
->
->本文中說明的資訊在預覽環境中無法使用。 它僅適用於生產環境中的所有Workfront Planning客戶。
 
 您可以透過下列方式共用Adobe Workfront Planning記錄：
 
@@ -93,11 +89,6 @@ at GA, check that the Workfront plans article linked below has Planning info
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>存取層級設定</p></td> 
-   <td> <p>Adobe Workfront Planning沒有存取層級控制</p>   
-</td> 
-  </tr> 
-<tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
    <td>  <p>管理工作區、記錄型別和記錄的許可權</p>  
    <p><b>重要</b></p>
@@ -107,14 +98,13 @@ at GA, check that the Workfront plans article linked below has Planning info
    <td role="rowheader"><p>版面配置範本</p></td>
    <td> 必須為具有輕度或貢獻者授權的使用者指派包含Planning的版面配置範本。
    <p>標準使用者和系統管理員預設會啟用Planning區域。</p></div></li></ul>
-
 </td>
   </tr>
 
 </tbody> 
 </table>
 
-如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
 
@@ -136,18 +126,19 @@ maybe use the Share record types as example here and touch on the same points: h
 * 當您與使用者共用工作區和記錄型別時，預設情況下，他們也會收到工作區中記錄的相同許可權。
 當使用者擁有工作區或記錄型別的貢獻許可權時，他們將獲得該記錄型別的記錄的管理許可權。
 * 當您從工作區中移除實體時，所有共用許可權都會從記錄型別及其中的所有記錄中移除。
+* 您無法與沒有工作區或記錄型別許可權的使用者共用記錄。
 * 使用者對記錄的存取權取決於以下3個設定的組合：
 
    * 其許可權繼承自記錄型別和工作區
-   * 在記錄共用對話方塊中個別新增許可權
-   * 下列許可權：
+   * 在記錄共用方塊中個別新增許可權
+   * 工作區中的&#x200B;**每個人都可以檢視**&#x200B;設定。
 
-      * **工作區的每個人都可以檢視**：這可以讓工作區的每個人<!-- is this OK to say "workspace? should it be "record"??-->都可以檢視記錄
-      * **只有受邀者才能存取**：這是預設選取的選項，允許限制特定人員存取記錄。
+     這可讓工作區中的每個人檢視記錄
 
-     >[!NOTE]
-     >
-     >如果您選擇授予&#x200B;**工作區中的所有人都可以檢視記錄型別或記錄的許可權**，則工作區許可權共用清單中所列的所有人都將擁有記錄型別和記錄的相同許可權，即使繼承的許可權已停用。
+     <!--
+      Cannot do this on a record: 
+      * **Only invited people can access**: This is selected by default and allows restricting access to the record to specific people. 
+      -->
 
 * 當您與使用者共用記錄時，預設會以與記錄型別相同的許可權新增使用者。
 
@@ -156,13 +147,25 @@ maybe use the Share record types as example here and touch on the same points: h
    * 如果他們擁有記錄型別的檢視許可權，他們將獲得記錄的檢視許可權
    * 如果他們擁有記錄型別的「貢獻」或「管理」許可權，他們將獲得記錄的「管理」許可權
 
-* 身為工作區管理員，您可以與沒有記錄型別或工作區許可權的使用者共用記錄。 在這種情況下，新增的實體旁邊會出現警告，通知您他們無權存取工作區或記錄型別。  您可以繼續將使用者新增至記錄，這也會將使用者新增至記錄型別和工作區，或取消共用。
-
-<!--
-ensure this is this way, because in devtest the warning only shows record type, but logged a bug to add "workspace" to the warning too
--->
-
 * 當使用者具有工作區的「管理」或「貢獻」許可權以及記錄型別，並且您將其新增到記錄許可權時，檢視許可權將暗顯。 他們保留對記錄的相同許可權，就像對記錄型別一樣，並且您不能授予他們較低的記錄許可權。
+
+* 您可以停用單一記錄的繼承許可權，在此情況下，您可以為選取的使用者授予個別記錄的許可權，或者如果他們屬於工作區，則可獲得許可權，因為&#x200B;**工作區中的所有人都可以檢視**&#x200B;選項。
+
+* 如果同一個使用者套用多個共用許可權，這些使用者會獲得這些許可權的最高許可權。
+
+  例如，如果記錄與具有檢視許可權的使用者共用，並且其群組具有管理存取權，則他們會獲得該記錄的管理許可權。
+
+* 如果所連線記錄的公式欄位或查閱欄位是以您沒有許可權的記錄欄位為基礎的，您將看到正確的計算，其中哪些是您無法以其他方式存取的記錄因素。
+
+  <!--
+   Not possible: 
+   * As a workspace manager, you can share a record with a user that does not have permissions to the record type or the workspace. In this case, there is a warning next to the added entity notifying you that they don't have access to the workspace or the record type.  You can continue adding the user to the record which will also add them to the record type and workspace, or cancel the sharing.
+   -->
+
+  <!--
+   ensure this is this way, because in devtest the warning only shows record type, but logged a bug to add "workspace" to the warning too
+   -->
+
 <!--
 Lilit is checking on this, it is not working correctly
 -->
@@ -175,106 +178,122 @@ Lilit is checking on this, it is not working correctly
    not sure what this means, confusing, hiding for now: * If you don't have permissions to add people to the workspace, you will only see and add users, teams, groups, roles, and companies that are already added to the workspace. You cannot add any other entity that is not already part of the workspace.
    -->
 
-* 您可以停用單一記錄的繼承許可權，在這種情況下，您可以授予他們個別記錄的許可權，或者如果他們屬於&#x200B;**工作區中的每個人都可以檢視**&#x200B;選項，則他們可以取得許可權。
-
-* 如果同一個使用者套用多個共用許可權，這些使用者會獲得這些許可權的最高許可權。
-
-  例如，如果記錄與具有檢視許可權的使用者共用，並且其群組具有管理存取權，則他們可獲得該記錄的管理許可權。
-
-  <!--
+<!--
    Too granular??
    If the inheritance has not been disabled, the user gets the maximum of inherited+individual+wildcard access 
    If the inherited permissions are disabled, the user gets the maximum of wildcard+individual permissions 
    -->
 
-* 如果所連線記錄的公式欄位或查閱欄位是以您沒有許可權的記錄欄位為基礎的，您將看到正確的計算，其中哪些是您無法以其他方式存取的記錄因素。
-
-  <!--
+<!--
    not sure if any of the Share record types points might match here - ask Lilit??
    -->
 
-## 共用記錄許可權
+## 共用記錄
 
 身為工作區管理員，您可以調整個別記錄的許可權。
 
 {{step1-to-planning}}
 
-1. 開啟您要共用其記錄的工作區。
-1. 按一下您要共用其記錄的記錄型別。
+1. 開啟工作區，然後開啟要共用其記錄的記錄型別。
 
 1. 執行下列其中一項：
 
    * 在資料表檢視中，暫留在記錄名稱上，按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**共用**。
-   * 從表格檢視中選取記錄，然後按一下清單底部藍色工具列上的&#x200B;**共用**。
+   * 從表格檢視中，選取一或多個記錄，然後按一下清單底部藍色工具列上的&#x200B;**共用**。
    * 從任何檢視中，按一下記錄名稱，然後按一下記錄詳細資訊頁面右上角的&#x200B;**共用**。
 
    **共用**&#x200B;方塊開啟。
 
    ![具有繼承許可權的記錄在](assets/permissions-for-records-with-inherited-permissions-on.png)上的許可權
 
+   >[!WARNING]
+   >
+   >您無法與新增至不同工作區的記錄共用許可權。 當您大量共用記錄時，必須在相同的工作區中建立所有記錄。
+
 1. （選擇性）在&#x200B;**擁有存取權**&#x200B;區域中，預設會選取&#x200B;**工作區中的每個人都可以檢視**&#x200B;選項。  對工作區和記錄型別具有&#x200B;**檢視**&#x200B;或更高許可權的所有使用者都擁有對記錄的相同許可權。
 
-1. （選擇性）按一下&#x200B;**繼承的許可權**&#x200B;選項下的使用者人數，以檢視從工作區繼承許可權的使用者、團隊、群組、公司或工作角色。
+1. （可選）按一下「**繼承自**&#x200B;的許可權」選項下的使用者頭像，以檢視從工作區繼承許可權的使用者、團隊、群組、公司或工作角色。<!--logged bug to move "Permissions" to lowercase-->
+
+   當您展開繼承的許可權時，會顯示使用者對記錄型別的許可權。
 
    >[!TIP]
    >
-   >您無法從繼承的許可權清單中移除個別實體。<!--test this!-->
+   >您無法從繼承的許可權清單中移除個別實體。 列出來自團隊、群組、公司或工作角色的使用者，而不是與他們共用工作區和記錄型別時他們關聯的實體。
 
 1. （選擇性和條件性）如果您想要與特定實體共用記錄，並授予他們不同於工作區現有記錄型別的不同存取權，請執行以下操作：
 
-   1. 從&#x200B;**繼承許可權**&#x200B;下拉式功能表中選取&#x200B;**停用**。
+   1. 從&#x200B;**繼承許可權**&#x200B;中取消選取&#x200B;**開啟**&#x200B;選項。 預設會選取此選項。
+
+      選項變更為&#x200B;**已關閉**。
 
       >[!TIP]
       >
-      >Workspace管理員繼續擁有記錄型別和記錄的管理許可權。
+      >Workspace管理員和記錄建立者仍擁有記錄型別和記錄的管理許可權。
 
-   1. （選擇性）選取&#x200B;**只有受邀者才能從**&#x200B;誰有存取權&#x200B;**區域存取**。 您必須指明要與其共用記錄的個別使用者、群組、團隊或公司。
-
+      <!-- 
+      This is no longer possible for a record: 
+      (Optional) Select **Only invited people can access** from the **Who has access** area. You must indicate individual users, groups, teams, or companies to share the records with. 
       >[!TIP]
       >
-      >選取此設定時，您無法停用或啟用繼承許可權。
+      >You cannot disable or enable Inherited permissions when this setting is selected.
+      -->
 
+   1. 在&#x200B;**授予此記錄的存取權**&#x200B;欄位中，新增您要授予不同於工作區或記錄型別之許可權等級的使用者、團隊、群組、公司或工作角色。
 
-   1. 在&#x200B;**授與此記錄型別**&#x200B;的存取權欄位中，新增您要授與不同於工作區或記錄型別之許可權等級的使用者、團隊、群組、公司或工作角色。
+      當您和使用者共用記錄時，他們的主要工作角色和電子郵件也會顯示在欄位中。 您必須為存取層級中的Users物件啟用[檢視連絡人資訊]設定，才能檢視使用者的電子郵件。
+
    1. 選擇下列其中一個許可權層級：
 
       * 檢視
       * 管理
 
-      <!--checking on the below with Lilit-->
+      >[!IMPORTANT]
+      >
+      >* 如果使用者擁有工作區和記錄型別的「貢獻」或「管理」許可權，您可以授予他們記錄的「管理」許可權。 檢視許可權會變暗。
+      >* 如果使用者擁有記錄型別的Contribute或更高許可權，則您無法授予他們較低許可權存取記錄。
+      >如需詳細資訊，請參閱[在Adobe Workfront Planning中共用許可權的總覽](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
+      >* 您無法向不在工作區中的使用者授予許可權。 無權存取工作區和記錄型別的使用者無法存取任何記錄。
 
-   >[!IMPORTANT]
-   >
-   >* 除了團隊、群組、公司和職務角色之外，您只能與已新增至Adobe Admin Console的使用者共用。 您無法新增僅限Workfront的使用者。 如需詳細資訊，請參閱[在Adobe Admin Console中管理使用者](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
-   >* 如果使用者擁有工作區和記錄型別的「貢獻」或「管理」許可權，他們將保留記錄的「管理」許可權。 檢視許可權會變暗。<!--this is not dimmed at this time, Lilit to check-->
-   >* 如果使用者擁有記錄型別的Contribute或更高許可權，則您無法授予他們較低許可權存取記錄。
-   > 如需詳細資訊，請參閱[在Adobe Workfront Planning中共用許可權的總覽](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
-   >* 當您與使用者共用記錄時，其主要工作角色<span class="preview">及其電子郵件</span>也會顯示在欄位中。 您必須在存取層級中為使用者物件啟用「檢視連絡人資訊」設定，才能檢視使用者的電子郵件。
-
-1. 若要為沒有工作區存取許可權的使用者提供檢視記錄的存取許可權，請在&#x200B;**授予此檢視的存取許可權**&#x200B;欄位中，開始輸入使用者、群組、團隊、公司或工作角色的名稱，然後當它顯示在清單中時按一下它。
-
-   您選取的實體已新增至記錄，以及具有&#x200B;**檢視**&#x200B;許可權的記錄型別和工作區。
-
-   系統管理員一律會收到與其共用之記錄的管理許可權，並會顯示使用者是系統管理員。
+   <!--   
+   Not possible:
+   1. To give users who do not have permissions to the workspace access to view a record, in the **Grant access to this view** field, start typing the name of a user, a group, team, company, or job role, then click it when it displays in the list. 
+      The entity you selected is added to the record and also to the record type and the workspace with **View** permissions. 
+      System administrators always receive Manage permissions to records shared with them, and there is an indication that a user is a System administrator.
+   -->
 
 1. （選擇性）按一下&#x200B;**複製連結**&#x200B;以將記錄的連結複製到剪貼簿，並與他人共用。 該連結將開啟記錄的詳細資訊頁面。
 1. 按一下「**儲存**」。
 
    記錄現在已與其他使用者共用。
 
-   您與其共用記錄的使用者會收到有關其已獲授下列實體許可權的應用程式內通知和電子郵件通知：
+   您共用記錄的使用者會收到有關已獲得記錄許可權的應用程式內通知和電子郵件通知。
 
-   * 記錄
-   * 記錄型別（如果他們以前從未擁有許可權）
-   * 工作區（如果他們在與他們共用記錄之前沒有工作區的許可權）。
+   <!--
+   not possible anymore: 
+   * The record
+   * The record type, if they never had permissions before
+   * The workspace, if they had not had permissions to the workspace before the record was shared with them.
+   -->
 
    如需詳細資訊，請參閱[Adobe Workfront規劃通知：文章索引](/help/quicksilver/planning/notifications/notifications-information.md)。
 
-1. 與他人共用複製的連結。 收到連結的使用者必須是作用中使用者，並登入Workfront，才能存取記錄型別頁面並在選取的檢視中顯示該頁面。 使用者必須具有記錄型別的許可權才能檢視該記錄型別。 如需詳細資訊，另請參閱[使用連結](/help/quicksilver/planning/records/share-records.md)共用記錄。
+
+1. （選用）將複製的連結與其他人共用。
+
+   收到連結的使用者必須是作用中使用者，並登入Workfront，才能存取記錄型別頁面並在選取的檢視中顯示該頁面。
+
+   使用者必須具有記錄型別的許可權才能檢視該記錄型別。
+
+   如需詳細資訊，另請參閱[使用連結](/help/quicksilver/planning/records/share-records.md)共用記錄。
+
 
 ## 移除記錄的許可權
 
-您可以從記錄中移除使用者的許可權。 但他們將保留工作區的至少檢視許可權，這也會授予他們記錄型別的至少檢視許可權。 如果您希望他們沒有工作區中記錄型別或記錄的許可權，則必須從工作區中移除其存取權。
+您可以從記錄中移除使用者的許可權。 但他們將保留工作區的至少檢視許可權，這也會授予他們記錄型別的至少檢視許可權。
+
+如果您希望他們沒有工作區中記錄型別或記錄的許可權，則必須從工作區中移除其存取權。
+
+您無法從繼承的許可權中移除使用者。
 
 {{step1-to-planning}}
 
@@ -282,11 +301,13 @@ Lilit is checking on this, it is not working correctly
 1. 執行下列其中一項：
 
    * 在資料表檢視中，暫留在記錄名稱上，按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**共用**。
-   * 從表格檢視中選取記錄，然後按一下清單底部藍色工具列上的&#x200B;**共用**。
+   * 從表格檢視中，選取一或多個記錄，然後按一下清單底部藍色工具列上的&#x200B;**共用**。
+
+     您必須選取在相同工作區中建立的記錄。
    * 從任何檢視中，按一下記錄名稱，然後按一下記錄詳細資訊頁面右上角的&#x200B;**共用**。
 
    **共用**&#x200B;方塊開啟。
-1. 尋找您要移除其許可權的使用者、群組、團隊、公司或工作角色，展開其名稱右側的許可權下拉式功能表，然後按一下&#x200B;**移除**。<!--check the screen shot below - the UI text for View might not be accurate-->
+1. 尋找您要移除其許可權的使用者、群組、團隊、公司或工作角色，展開其名稱右側的許可權下拉式功能表，然後按一下&#x200B;**移除**。
 
    ![移除記錄許可權](assets/remove-option-on-record-sharing-drop-down.png)
 

@@ -8,20 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
+source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
 workflow-type: tm+mt
-source-wordcount: '4068'
+source-wordcount: '4251'
 ht-degree: 2%
 
 ---
 
 # 管理時間表檢視
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -195,7 +195,7 @@ Old:
    >在「設定」區域中設定自訂季度後，時間軸檢視會顯示自訂季度，而非傳統季度。
    >如需詳細資訊，請參閱[啟用自訂季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
-1. （視條件而定）如果您是Workfront管理員，請按一下&#x200B;**前往設定**&#x200B;設定您的季度。 如果沒有，請按一下[確定] **&#x200B;**，並要求Workfront管理員設定自訂季度。
+1. （視條件而定）如果您是Workfront管理員，請按一下&#x200B;**前往設定**&#x200B;設定您的季度。 如果沒有，請按一下[確定] ****，並要求Workfront管理員設定自訂季度。
 
    >[!TIP]
    >
@@ -286,11 +286,13 @@ Old:
 
 * 您可以依已連線的記錄欄位或查詢欄位進行篩選。
 * 您可以依顯示多個值的查閱欄位進行篩選。
+* <span class>您可以篩選時間軸檢視中的記錄型別，或是檢視中屬於劃分結構一部分的連線記錄型別。</span>
 
 若要將篩選器新增至時間表檢視：
 
 1. 如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述，建立記錄型別頁面的時間軸檢視。
-1. 選取時間表檢視，然後按一下表格右上角的&#x200B;**篩選器**。
+1. 選取時間表檢視，然後按一下表格左上角的&#x200B;**篩選器**。
+1. <span class>（條件式）如果您在時間軸檢視中新增劃分結構，請在篩選方塊中的第一個下拉式清單中展開記錄型別。 這是您要顯示其時間軸檢視的記錄型別。</span>
 1. 按一下&#x200B;**新增條件**&#x200B;並新增下列資訊：
 
    * **選取欄位**&#x200B;以搜尋欄位，並從清單中選取它。
@@ -374,14 +376,19 @@ Old:
    * **OR**：必須符合任何指定的條件。
 這是預設選項。
 
-   1. （選擇性）新增其他篩選器群組，並由&#x200B;**AND**&#x200B;或&#x200B;**OR**&#x200B;運運算元加入。
-
-      ![檢視中的多重層級篩選器](assets/multi-tiered-filters-in-views.png)
+1. （選擇性）新增其他篩選器群組，並由&#x200B;**AND**&#x200B;或&#x200B;**OR**&#x200B;運運算元加入。
 
    系統會根據您的篩選條件自動篩選記錄清單。  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. （選擇性）按一下&#x200B;**x**&#x200B;圖示以移除篩選條件。
+1. <span class="preview"> （選擇性和條件性）如果您在時間軸檢視中新增劃分結構，請展開下列下拉式清單中的記錄型別，並重複上述相同步驟，為劃分中包含的記錄型別新增篩選器。</span>
+
+   對劃分中的每個記錄型別重複<span class="preview">。</span>
+
+   ![具有時間軸檢視劃分的多層篩選器](assets/multi-tiered-filters-with-breakdown-for-timeline-view.png)
+
+   <span class="preview">您只能從時間表檢視篩選劃分記錄型別。</span>
 1. （選擇性）按一下&#x200B;**篩選器**&#x200B;或頁面上的任何其他位置，以關閉篩選器方塊。<!--right now you cannot "clear all" for filters, but this might come later-->
 
 
