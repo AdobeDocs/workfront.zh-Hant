@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 38f3e460e2d3c4840c12dda82859d46828349a80
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,10 @@ ht-degree: 0%
 
 <!--leave the choice value information in yellow till January 2026-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -153,7 +152,7 @@ Old:
   >不會通知其他使用者欄位設定已變更。
 
 * 您可以從連線的記錄中編輯現有的查閱欄位。
-* 除了依照本文中[編輯欄位設定](#edit-field-settings-1)一節所述編輯欄位外，當您在表格檢視中編輯記錄時，在更新欄位值時，還可以編輯單一或多重選取欄位的選擇。 如需詳細資訊，請參閱本文中在資料表檢視[區段中編輯記錄時，將](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view)新選擇新增至現有的選取欄位。
+* 除了依照本文中[編輯欄位設定](#edit-field-settings-1)一節所述編輯欄位外，當您在表格檢視中編輯記錄時，在更新欄位值時，還可以編輯單一或多重選取欄位的選擇。 如需詳細資訊，請參閱本文中在資料表檢視[&#128279;](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view)區段中編輯記錄時，將新選擇新增至現有的選取欄位。
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 
@@ -196,6 +195,15 @@ this is not yet true, but it might come later:
    >* 儲存欄位後，您無法更新欄位型別。
    >
    >* 當您修改欄位設定（欄位選項或公式運算式）時，已包含修改欄位中資訊的記錄將即時更新其值。 欄位設定變更所觸發的值變更沒有警告或稽核記錄。 所有檢視欄位的使用者都會立即看到經過修改的新值。
+
+1. <span class="preview">（條件式）如果您要更新的欄位是要求表單的一部分，則會顯示&#x200B;**檢閱欄位變更**&#x200B;方塊，以指出將受到您變更影響的表單。 執行下列任一項作業：</span>
+
+   <div class="preview">
+
+   * 按一下向右箭頭以顯示受變更影響的表單，然後按一下表單名稱，在新標籤中開啟表單並決定您是要保留表單上的欄位還是對表單進行其他變更。
+   * 按一下&#x200B;**保留變更**，這會更新所有顯示區域的欄位。
+
+   </div>
 
    欄位資訊會針對所有有權檢視工作區的人員而更新。
 
