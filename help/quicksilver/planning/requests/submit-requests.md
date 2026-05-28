@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 38f3e460e2d3c4840c12dda82859d46828349a80
+source-git-commit: 4760a0daf0abd8afe90c7447a2075f8fb3f2f191
 workflow-type: tm+mt
 source-wordcount: '2582'
 ht-degree: 1%
@@ -23,7 +23,6 @@ ht-degree: 1%
 <span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
 <span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
 
 {{planning-important-intro}}
 
