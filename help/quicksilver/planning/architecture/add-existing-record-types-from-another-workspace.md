@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
+source-git-commit: fdbe3945f59306fc26424d7e88b799d9dcaea4da
 workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 1%
@@ -76,6 +76,7 @@ ht-degree: 1%
 +++   
 
 <!--
+
 Old:
 <table style="table-layout:auto"> 
 <col> 
@@ -114,6 +115,7 @@ And
   </tr>  
 </tbody> 
 </table>
+
 -->
 
 ## 從另一個工作區新增現有記錄型別，以建立記錄型別
@@ -136,7 +138,7 @@ And
 1. 按一下「**繼續**」。
 1. （視條件而定）在&#x200B;**選擇記錄型別**&#x200B;方塊中，按一下您要從現有工作區新增的記錄型別卡片，然後按一下&#x200B;**新增**。
 
-   <span class="preview">如果您使用[預覽]環境，您可以按一下以選取多個記錄型別，然後按一下[新增]。**&#x200B;** 清單中會顯示所有可用工作區中的所有全域記錄型別。</span>
+   <span class="preview">如果您使用[預覽]環境，您可以按一下以選取多個記錄型別，然後按一下[新增]。**** 清單中會顯示所有可用工作區中的所有全域記錄型別。</span>
 
    記錄型別已新增至您選取的次要工作區，且次要工作區上的&#x200B;**全域記錄型別**&#x200B;圖示![全域記錄圖示](assets/global-icon-secondary-workspace.png)會顯示在記錄型別的卡片上。
 全域記錄型別圖示在顯示在次要工作區的記錄型別上時包括箭頭，以表示該記錄型別是從現有記錄型別新增的。

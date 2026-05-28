@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 4760a0daf0abd8afe90c7447a2075f8fb3f2f191
+source-git-commit: fdbe3945f59306fc26424d7e88b799d9dcaea4da
 workflow-type: tm+mt
 source-wordcount: '2582'
 ht-degree: 1%
@@ -133,8 +133,8 @@ Not sure how to change the request status, but dev also said: Changing the names
 
 {{step1-to-requests}}
 
-1. 開啟熒幕右上角的&#x200B;**使用新體驗**&#x200B;設定。
-開啟此設定後，Workfront的&#x200B;**要求**&#x200B;區域就會提供Workfront規劃要求表單。
+1. 開啟熒幕右上角的&#x200B;**使用新體驗**設定。
+開啟此設定後，Workfront的**要求**&#x200B;區域就會提供Workfront規劃要求表單。
 
    >[!TIP]
    >
@@ -219,7 +219,7 @@ Not sure how to change the request status, but dev also said: Changing the names
          * **Status**: The status of the request.
          * **Entered by**: The name of the user who added the request. If the request was added by someone outside of Workfront, the **Entered by** field shows `N/A`.
         You can have multiple filters joined by either **And** or **Or**.
-         The request list is filtered automatically, as you add the filter conditions. 
+         The request list is filtered automatically, as you add the filter conditions.  
       * Click **Columns** to open the **Fields visibility and order** box, then hide, show, or rearrange the columns in the request list. 
          >[!TIP]
          >
