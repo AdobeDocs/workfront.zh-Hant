@@ -147,7 +147,7 @@ After we receive the email, our Engineering team will turn on the Planning Desig
 
    * Workfront必須將AI功能提供給您的組織使用。
 
-     如需詳細資訊，請參閱[ AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
+     如需詳細資訊，請參閱[&#x200B; AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
    * 在Workfront讓人工智慧功能可供您的組織使用後，Workfront的主要管理員就可以存取它。
 
      如需詳細資訊，請參閱[設定您系統的基本資訊](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md)。
