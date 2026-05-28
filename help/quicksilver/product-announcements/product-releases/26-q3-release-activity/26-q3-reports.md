@@ -4,7 +4,7 @@ description: 2026年第三季度報告增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a177e2887c2b8b281b19cda45ce59c6f8149cefb
+source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 0%
@@ -42,3 +42,4 @@ ht-degree: 0%
 以前，相關記錄之間的聯結可能會針對每個相關記錄重複一次父記錄。 例如，在篩選成指派給特定使用者之任務的專案報告中，每個專案都會針對每個相符任務重複一次。 彙總專案預算的KPI可能會顯示$6,000，而不是正確的$1,250。
 
 「畫布」控制面板介面沒有變更。 在此版本之後，現有報表會自動傳回精確資料。
+
