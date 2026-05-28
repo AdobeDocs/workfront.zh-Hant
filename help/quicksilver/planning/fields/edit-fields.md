@@ -152,7 +152,7 @@ Old:
   >不會通知其他使用者欄位設定已變更。
 
 * 您可以從連線的記錄中編輯現有的查閱欄位。
-* 除了依照本文中[編輯欄位設定](#edit-field-settings-1)一節所述編輯欄位外，當您在表格檢視中編輯記錄時，在更新欄位值時，還可以編輯單一或多重選取欄位的選擇。 如需詳細資訊，請參閱本文中在資料表檢視](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view)區段中編輯記錄時，將[新選擇新增至現有的選取欄位。
+* 除了依照本文中[編輯欄位設定](#edit-field-settings-1)一節所述編輯欄位外，當您在表格檢視中編輯記錄時，在更新欄位值時，還可以編輯單一或多重選取欄位的選擇。 如需詳細資訊，請參閱本文中在資料表檢視[&#128279;](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view)區段中編輯記錄時，將新選擇新增至現有的選取欄位。
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 
@@ -234,7 +234,7 @@ this is not yet true, but it might come later:
 1. 移至記錄型別頁面並開啟表格檢視。
 1. 新增您要在表格檢視中新增選擇的單一或多重選取欄位作為新欄。 如需詳細資訊，請參閱[建立欄位](/help/quicksilver/planning/fields/create-fields.md)。
 1. 連按兩下欄位的儲存格，開始內嵌編輯欄位。
-1. 輸入您要新增的選擇名稱，然後按一下[新增選擇]。****
+1. 輸入您要新增的選擇名稱，然後按一下[新增選擇]。**&#x200B;**
 
    ![在表格檢視中的單一選取欄位中新增選項](assets/add-choice-in-table-view-for-single-select-field.png)
 
