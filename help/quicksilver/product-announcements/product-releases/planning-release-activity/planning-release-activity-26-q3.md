@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: ab1ac1363d6531352e905536218618196651c3b9
+source-git-commit: 4eeb229206421d737b9543613608935eacb058f9
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1559'
 ht-degree: 0%
 
 ---
@@ -32,23 +32,6 @@ There are no features released during the Third Quarter Release for 2026. When f
 
 
 <!--
-
-## Planning Designer now available in Beta for all Workfront Planning customers
-
->[!NOTE]
->
->Preview: May 28, 2026 
->Production fast release: June 11, 2026 
->Production for everyone: July 16, 2026 
->[!BADGE In Beta]{type=Neutral}
-
-You can now use the Adobe Planning Designer powered by AI to configure your workspaces and data structures with ease. The Planning Designer supports everything from creating and configuring workspaces to defining fields and formulas, managing records, reviewing change history and building custom views.  
-
-Whether used directly or through the AI Assistant, the Planning Designer provides a flexible, powerful environment for building and maintaining structured, connected information. 
-
-A Workfront administrator can manage the availability of the Planning Designer from the System Preferences area in Setup.   
-
-For information, see [Get started with the Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
 
 ## New Sample workspaces tab added to the Planning landing page
 
@@ -130,6 +113,20 @@ Workfront Planning API第2版現已可用，並大幅擴充第1版的功能。
 您可以直接從這個畫面同時選取並新增一或多個全域記錄型別。
 
 如需詳細資訊，請參閱[從其他工作區新增現有記錄型別](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)。
+
+## Beta現在提供所有Designer Planning客戶的Planning Workfront
+
+>[!NOTE]
+>
+>預覽： 2026年5月28日>生產快版本： 2026年6月11日>每個人的生產： 2026年7月16日>[!BADGE 在Beta]{type=Neutral}
+
+您現在可以使用由AI支援的Adobe Planning Designer，輕鬆設定工作區和資料結構。 Planning Designer支援從建立和設定工作區到定義欄位和公式、管理記錄、檢閱變更記錄和建立自訂檢視的所有功能。
+
+不論是直接使用或透過AI Assistant使用，Planning Designer都能提供彈性、強大的環境，用於建立及維護結構化、連線的資訊。
+
+Workfront管理員可從「設定」的「系統偏好設定」區域管理Planning Designer的可用性。
+
+如需詳細資訊，請參閱[開始使用Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md)。
 
 
 ## 將中繼資料從Planning同步至AEM Assets
