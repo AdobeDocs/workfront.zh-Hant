@@ -4,9 +4,9 @@ description: 2026年第三季度發行時間範圍內的其他增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
+source-git-commit: ec0c6db3ed0ff470af64fa28ca3e69f0f0bf840a
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -17,15 +17,20 @@ ht-degree: 0%
 
 如需2026年第三季度發行週期中目前可用的所有變更清單，請參閱[2026年第三季度發行概觀](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)。
 
-## 使用Workfront MCP伺服器將您的AI代理平台連線到Workfront
+
+## 使用Workfront MCP伺服器將Workfront連線至您的AI工具
 
 >[!NOTE]
 >
 >預覽： 2026年5月28日>生產快速版本： 2026年6月11日>每個人的生產： 2026年7月16日
 
-從您已使用的AI代理平台使用Workfront。 新的Workfront MCP伺服器會將Workfront連線到支援的AI代理平台，例如Claude或ChatGPT，讓您能夠透過自然語言對話找到、建立、更新和管理Workfront專案。 詢問您逾期的任務、推播專案的完成日期、傳送提醒給核准者，或更新行銷活動預算，而您的AI代理平台會在Workfront中為您工作。
+您的團隊的營運環境存在於Workfront中。 現在有了Workfront MCP伺服器，該內容就可以從您團隊已使用的AI工具中操作。
 
-Workfront MCP伺服器可與任何MCP相容的AI代理平台搭配使用，為您的團隊在Workfront中以AI支援的工作提供彈性的基礎。
+將Workfront連線至任何與MCP相容的AI平台，包括Claude、ChatGPT、Copilot、Gemini等，並使用自然語言尋找、建立、更新和管理Workfront專案，而不需離開您選擇的AI工具。 詢問您逾期的任務、推播專案的完成日期、傳送提醒給核准者、更新行銷活動預算，而您的AI平台會在Workfront中為您工作。
+
+此外，藉由Claude的AI技能和排程工作，您可以更進一步，自動化針對即時Workfront資料主動執行的週期性工作流程。 例如，星期一早上專案簡報、每週容量報告、每月行銷活動健康情況檢查 — 設定一次，AI會根據您操作的完整內容自動處理。
+
+這是代理式工作管理系統的基礎 — 其中AI以您最豐富的營運資料為基礎，而人類和AI共同作業，讓工作以全速運作。
 
 >[!IMPORTANT]
 >
