@@ -9,15 +9,17 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 12242501adb13cd349a2282996c7186e90d6c94d
+source-git-commit: 90a15077a38f4740bc52835f2aab361535832df0
 workflow-type: tm+mt
-source-wordcount: '3928'
+source-wordcount: '4002'
 ht-degree: 0%
 
 ---
 
 
 # 統一檢閱和核准總覽
+
+{{highlighted-preview}}
 
 統一的稽核和核准將Adobe Workfront和Adobe Frame.io整合為單一、深度連結的體驗，消除行銷管理、創意稽核和內容傳送之間的差距。
 專案專員在Workfront中管理工作，而創意人員、行銷人員和利害關係人則在專業級Frame.io檢視器中稽核及核准資產，所有這一切都無需在中斷連線的工具之間移動檔案。
@@ -79,7 +81,7 @@ Adobe雲端儲存空間的主要優點包括：
 
 #### Frame.io檢視器中支援的檔案型別
 
-Frame.io檢視器支援所有常見的視訊、影像、音訊、PDF和MS® Office型別。 如需支援檔案的詳細清單，請參閱Frame.io[&#128279;](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的支援的檔案型別。
+Frame.io檢視器支援所有常見的視訊、影像、音訊、PDF和MS® Office型別。 如需支援檔案的詳細清單，請參閱Frame.io](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的[支援的檔案型別。
 
 #### Frame.io檢視器的存取與授權
 
@@ -303,7 +305,9 @@ For both single-stage and multi-stage reviews, automated reminder emails are sen
 
 是。 核准者和稽核者會在被指派給稽核或核準時收到電子郵件通知。 自動提醒電子郵件也會在截止日期前72小時、前24小時及截止日期本身傳送。
 
-自訂電子郵件通知訊息的功能目前無法使用，但已列入產品藍圖中。
+在生產環境中，自訂電子郵件通知訊息的功能目前無法使用，但位於產品藍圖中。
+
+<span class="preview">在預覽中，您可以將自訂訊息新增到核准工作流程的每個階段。 該訊息會顯示在核准電子郵件通知和Workfront的「核准」索引標籤中。 您可以對每個階段使用相同的訊息，或每個階段使用不同的訊息，而訊息最多可包含500個字元。 如果您在建立核准工作流程後編輯自訂訊息，則會傳送更新的電子郵件通知給所有現有參與者。 如果您稍後新增參與者，則自訂訊息會包含在其電子郵件通知中。 如需詳細資訊，請參閱[建立檔案核准工作流程](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。</span>
 
 <!--
 **Can I change the notification frequency for a unified approver or reviewer (for example, all comments, replies to my comments, or daily summaries)?**
