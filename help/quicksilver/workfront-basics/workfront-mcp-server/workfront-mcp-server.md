@@ -4,8 +4,7 @@ content-type: reference
 description: 檢視有關Adobe Workfront MCP伺服器的可用文章清單。
 author: Courtney
 feature: Get Started with Workfront
-hide: true
-source-git-commit: 152486b7850e01f3de23f22bbe3729c5cd3d3aa2
+source-git-commit: e7dadae62ea2f5e9772705cafdc5e067cec1ae08
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 0%

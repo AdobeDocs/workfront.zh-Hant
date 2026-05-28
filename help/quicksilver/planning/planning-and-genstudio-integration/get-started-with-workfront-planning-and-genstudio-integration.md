@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 35cf3692f0fd93b8835755c316e14efc99af3fb8
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '2222'
+source-wordcount: '2351'
 ht-degree: 1%
 
 ---
@@ -52,11 +52,12 @@ GenStudio for Performance Marketing與Workfront Planning之間有原生整合。
 <!--check this list and ensure it's accurate and add/ remove some of the benefits-->
 
 * 在Workfront Planning中檢視GenStudio工作區。
-* 在GenStudio for Performance Marketing中修改您的行銷活動、產品、角色和啟用，並在Workfront Planning中即時更新相同的資訊。
+* 在GenStudio for Performance Marketing中修改您的行銷活動、產品、角色、地區和啟用，並在Workfront Planning中即時更新相同的資訊。
 * 在Workfront Planning中修改您的行銷活動、產品、角色和啟用，並在GenStudio for Performance Marketing中即時更新相同資訊。
 * 避免重複資料輸入。
 * 保持規劃和啟動工作的一致性。
 * 將GenStudio品牌及其資訊連結至Workfront Planning記錄。
+* 在AEM Assets和內容片段連線至Planning中的GenStudio工作區中的這些記錄型別時，同步促銷活動、產品、角色、地區和管道的GenStudio資訊。
 
 ## 整合需求
 
@@ -376,16 +377,23 @@ Old for the second row in the table:
 
 您可以在您擁有管理許可權的GenStudio工作區中，建立不同記錄型別之間的連線。
 
-<!--When AEM object types are connected to GenStudio record types, AEM object metadata reflects on Planning records-->
-
 您可以在GenStudio記錄型別與Workfront Planning中的其他記錄或物件型別之間建立下列連線：
 
 * 兩種GenStudio記錄型別
 * 來自相同工作區的GenStudio記錄型別和Planning記錄型別
 * 來自另一個工作區的GenStudio記錄型別和Planning記錄型別（如果記錄型別設定為從另一個工作區連線）。
 * GenStudio記錄型別和Workfront物件型別（專案、投資組合、方案、公司、群組）
-* GenStudio記錄型別和AEM物件型別。 除了Workfont Planning和Adobe GenStudio for Performance Marketing的授權之外，您必須擁有Adobe Experience Manager的授權才能存取AEM物件。
+* GenStudio記錄型別和AEM物件型別（Assets或內容片段）。 除了Adobe Experience Manager的授權和Adobe GenStudio for Performance Marketing的授權之外，您還必須擁有Workfront的授權才能存取AEM物件。
 * GenStudio記錄型別和GenStudio品牌。 Brands連線依預設會新增至Products和Personas記錄型別。
+
+### GenStudio工作區記錄與AEM物件之間的中繼資料同步
+
+當AEM物件型別（資產和內容片段）從GenStudio工作區連線到GenStudio記錄型別時，以下資訊會在GenStudio記錄和AEM物件之間同步：
+
+* AEM資產和內容片段資訊會顯示在GenStudio工作區中連結記錄型別時新增的查詢欄位中。
+* GenStudio記錄資訊會顯示在AEM資產的「行銷活動」標籤中，或是AEM中「中繼資料」標籤的內容片段上。
+
+  如需詳細資訊，請參閱[在Adobe Workfront規劃中管理GenStudio工作區](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)。
 
 ### GenStudio記錄型別的請求表單和自動化
 

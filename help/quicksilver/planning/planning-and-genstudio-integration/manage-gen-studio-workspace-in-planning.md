@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 1%
+source-wordcount: '1769'
+ht-degree: 2%
 
 ---
 
@@ -49,7 +49,7 @@ recommendations: noDisplay, noCatalog
 >[!IMPORTANT]
 >
 >本文所述的步驟說明在擁有GenStudio工作區的「管理」許可權時，如何從Workfront Planning更新工作區。
-> 當您擁有GenStudio工作區的貢獻許可權時，並非所有功能都可使用。
+> 當您擁有GenStudio工作區的貢獻許可權時，並非所有功能都可用。
 >
 >如果您的公司有多個Workfront例項，則所有使用者都能在Workfront Planning中取得GenStudio工作區的貢獻許可權。
 
@@ -377,17 +377,34 @@ Workfront Planning首頁面隨即開啟。
 
      從GenStudio工作區建立的欄位會顯示在下列區域中：
 
-      * Workfront Planning檢視
-      * Workfront Planning記錄詳細資料
-      * GenStudio記錄詳細資料
+      * Workfront Planning中的Workfront Planning檢視
+      * Workfront Planning中的Workfront Planning記錄詳細資訊
+      * GenStudio for Performance Marketing中的GenStudio記錄詳細資料
 
      >[!NOTE]
      >
-     >* 只有當您在GenStudio中擁有管理許可權時，才能新增更多欄位。
+     >* 只有當您在GenStudio中擁有管理許可權時，才能新增欄位。
      >* 在Workfront Planning中建立的欄位不會顯示在GenStudio的清單檢視中。
      >
      >* 您可以將任何GenStudio記錄型別連線至GenStudio記錄型別。
      >  根據預設，產品和角色會連線至品牌。
+     >
+     >* 您可以使用AEM Assets連線Planning中的GenStudio記錄型別或Adobe Experience Manager中的內容片段。 您必須擁有AEM授權，才能連線至AEM物件。
+     >
+
+1. （視條件而定）如果您在使用GenStudio資產或內容片段的Planning中，從GenStudio工作區連線AEM記錄型別，請執行以下動作以導覽至AEM並檢視GenStudio記錄資訊：
+
+   1. （視條件而定）從GenStudio工作區中連線的AEM資產，按一下資產名稱，然後按一下&#x200B;**在AEM中開啟**&#x200B;圖示![在AEM中開啟圖示](assets/open-in-aem-icon.png)以在AEM中開啟資產。
+   1. 按一下以選取右側面板中的&#x200B;**促銷活動**&#x200B;索引標籤。
+
+      連結至資產的行銷活動名稱會顯示在&#x200B;**行銷活動**&#x200B;欄位中。此為唯讀欄位。
+如果資產也連線到Planning中GenStudio工作區的&#x200B;**區域**、**角色**、**產品**&#x200B;或&#x200B;**管道**，這些記錄型別的個別欄位會在資產的&#x200B;**行銷活動**&#x200B;索引標籤中以唯讀模式顯示其名稱。
+   1. （視條件而定）從Planning中GenStudio工作區中已連線的AEM內容片段，按一下內容片段的名稱，然後按一下&#x200B;**在AEM中開啟**&#x200B;圖示![在AEM中開啟圖示](assets/open-in-aem-icon.png)以在AEM中開啟內容片段。
+   1. 按一下AEM中的&#x200B;**首頁**&#x200B;圖示![首頁圖示](assets/home-icon-in-aem.png)以移至內容片段清單，然後按一下內容片段名稱右邊的AEM中的&#x200B;**資訊**&#x200B;圖示![資訊](assets/info-icon-in-aem.png)。
+   1. 按一下右側面板中的&#x200B;**中繼資料**&#x200B;索引標籤。
+
+      在&#x200B;**xdm： campaignName**&#x200B;欄位中顯示連線至內容片段之行銷活動的名稱。 此為唯讀欄位。 <!--tried to log a bug to rename this field-->
+如果資產也連線到Planning中GenStudio工作區的&#x200B;**區域**、**角色**、**產品**&#x200B;或&#x200B;**管道**，這些記錄型別的個別欄位會在內容片段的&#x200B;**中繼資料**&#x200B;索引標籤中以唯讀模式顯示其名稱。
 
 1. 暫留在表格檢視中的欄位上，然後按一下下拉式功能表以執行下列任一項作業：
 

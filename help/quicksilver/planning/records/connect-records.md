@@ -8,9 +8,9 @@ author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 69414cbbee8899bdbf241d57e50e3ef1c10cc162
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '3546'
+source-wordcount: '3585'
 ht-degree: 1%
 
 ---
@@ -96,7 +96,7 @@ ht-degree: 1%
    <p> 除了Adobe Workfront之外，如果您想要將記錄與下列應用程式的物件連線，也必須具備下列專案：</p>
    <ul><li><p>Adobe Experience Manager授權及Adobe Experience Manager與Workfront之間的整合，用於連結AEM資產或內容片段與Planning記錄型別。</p>
    <p>如需詳細資訊，請參閱<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引</a>。 </p></li>
-   <li><p> 連線記錄型別與GenStudio Brands的Adobe GenStudio for Performance Marketing授權</p>
+   <li><p> Adobe GenStudio for Performance Marketing授權可連線記錄型別與GenStudio Brands或存取GenStudio工作區</p>
    <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
    </td> 
   </tr>   
@@ -407,13 +407,14 @@ No longer needed to specify:
 
 >[!NOTE]
 >
->當您的Experience Manager Assets管理員透過Workfront與Workfront之間的整合設定中繼資料對應時，可從Adobe Experience Manager Assets存取Planning記錄及其欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+>當您的Experience Manager Assets管理員透過Workfront與Workfront之間的整合設定中繼資料對應時，可從Adobe Experience Manager Assets存取Planning記錄及其欄位。如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+>當您從Planning中的GenStudio工作區將記錄連線至AEM物件（資產和內容片段）時，GenStudio資訊會自動顯示在AEM的AEM物件上。在AEM Planning中建立連線時，GenStudio記錄的查詢欄位中會顯示Workfront資訊。如需詳細資訊，請參閱[在Adobe Workfront規劃中管理GenStudio工作區](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)。
 
 <!--
 metadata mapping is not available yet for content fragments - as of April 22, 2026. Syuzanna said the mapping is available just for GenS workspace, but checking again with her and Isk.
 -->
 
-若要將記錄與Experience Manager物件連線：
+若要將記錄與Adobe Experience Manager物件連線：
 
 {{step1-to-planning}}
 
@@ -424,7 +425,7 @@ metadata mapping is not available yet for content fragments - as of April 22, 20
 1. 從記錄型別頁面左上角的&#x200B;**檢視**&#x200B;下拉式功能表中選取&#x200B;**表格**&#x200B;檢視。
 
 1. （選擇性）按一下&#x200B;**新增記錄**&#x200B;以將新記錄新增至您選取的記錄型別。 如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
-1. （視條件而定）將選取的記錄型別與Experience Manager物件連線後，請移至記錄上已連線的欄位，然後按一下該欄位，或按一下&#x200B;**連線**&#x200B;將Experience Manager物件新增至記錄，然後按一下&#x200B;**+**&#x200B;圖示。
+1. （視條件而定）將選取的記錄型別與AEM物件連線後，請移至記錄上已連線的欄位，然後按一下該欄位，或按一下&#x200B;**連線**&#x200B;將Experience Manager物件新增至記錄，然後按一下&#x200B;**+**&#x200B;圖示。
 
    >[!TIP]
    >
@@ -451,7 +452,7 @@ metadata mapping is not available yet for content fragments - as of April 22, 20
 
    >[!IMPORTANT]
    >
-   > 您只能連線您有權在Experience Manager中檢視的資產。 連線之後，所有Workfront Planning使用者都能在Workfront Planning中檢視資產，無論他們在Experience Manager Assets中的存取權為何。
+   > 您只能連線您有權在Experience Manager中檢視的資產。連線之後，所有Workfront Planning使用者都能在Workfront Planning中檢視資產，無論他們在Experience Manager Assets中的存取權為何。
    > 如需「內容警告器」的詳細資訊，請參閱[使用「內容警告器」存取Adobe應用程式中的AEM內容](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}。
 
 1. 從&#x200B;**內容片段**&#x200B;索引標籤中，選取要新增至連結記錄欄位的內容片段。
@@ -465,13 +466,19 @@ metadata mapping is not available yet for content fragments - as of April 22, 20
    * 選取的Experience Manager資產或內容片段會新增至連結的記錄欄位。
    * 連結欄位（或查詢欄位）會填入來自Experience Manager連線物件的資訊。
 
-     Experience Manager資產或內容片段欄位中的任何現有資訊都會自動顯示在連結或查詢欄位中。<!--verifying of fragments also share lookup fields - not sure from the UI available-->
-
      >[!TIP]
      >
      >* 當您選擇在連線記錄型別時連線多個記錄時，多個物件的值會以逗號分隔或根據您選擇的彙總器彙總。
      >
      >* 連結至Workfront Planning連結記錄的連結記錄欄位不會在Experience Manager Assets應用程式中為連結的Experience Manager資產建立。
+
+     Experience Manager資產或內容片段欄位中的任何現有資訊都會自動新增至Planning的連結或查詢欄位中。
+
+     如果您在使用GenStudio for Performance Marketing物件的Planning中，從GenStudio工作區連線AEM記錄型別，您可以在AEM中檢視行銷活動、地區、角色、產品和管道的GenStudio資訊。
+
+     除了Adobe GenStudio for Performance Marketing和AEM授權之外，您還必須擁有Workfront授權，才能在Workfront規劃中檢視GenStudio工作區。
+
+     如需詳細資訊，請參閱[在Adobe Workfront規劃中管理GenStudio工作區](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
 
 1. （選擇性和條件性）前往您連結至Experience Manager的記錄型別，然後在連結的記錄欄位中按一下資產名稱。 資產的Experience Manager詳細資訊會顯示在快顯視窗中。<!--not sure if this is also possible for fragments??-->
 
