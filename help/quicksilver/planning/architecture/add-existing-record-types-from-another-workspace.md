@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
+source-git-commit: fdbe3945f59306fc26424d7e88b799d9dcaea4da
 workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 1%
@@ -76,6 +76,7 @@ ht-degree: 1%
 +++   
 
 <!--
+
 Old:
 <table style="table-layout:auto"> 
 <col> 
@@ -114,6 +115,7 @@ And
   </tr>  
 </tbody> 
 </table>
+
 -->
 
 ## 從另一個工作區新增現有記錄型別，以建立記錄型別
