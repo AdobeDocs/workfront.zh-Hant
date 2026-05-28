@@ -10,9 +10,9 @@ role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ade3f6eef4252c123b41b7bbc4871cf01708f485
+source-git-commit: e3c540cde02d64e8a141828cc34641429da05d4b
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '933'
 ht-degree: 7%
 
 ---
@@ -99,7 +99,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
      </tr> 
      <tr> 
       <td role="rowheader"> <p>透過使用電子郵件地址與沒有Workfront帳戶的人共同作業</p> </td> 
-      <td>可讓Workfront使用者透過包含電子郵件地址而非姓名來與沒有Workfront帳戶的人共用特定專案。 使用者可使用其電子郵件地址與外部使用者共用下列專案：
+      <td>可讓Workfront使用者透過包含電子郵件地址而非姓名來與沒有Workfront帳戶的人共用特定專案。使用者可使用其電子郵件地址與外部使用者共用下列專案：
        <ul>
         <li>文件<br></li>
         <li>檔案請求<br></li>
@@ -148,6 +148,14 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
      <tr> 
       <td role="rowheader">選擇加入 AI Beta 版 </td> 
       <td>可讓您選擇啟用Beta中目前的AI功能。 如果啟用此選項，您可以接著選取要啟用哪些AI Beta功能。 如需每個AI Beta功能的詳細資訊，請按一下該功能旁的資訊圖示。</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader"><span class="preview">唯讀MCP工具</span></td> 
+      <td><span class="preview">可讓Workfront MCP伺服器對Workfront資料執行讀取動作，例如，尋找或列出專案、任務或其他專案。 此選項預設為啟用。<p>如需Workfront MCP伺服器的詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">設定Adobe Workfront MCP伺服器</a>。</p></span></td> 
+     </tr>
+     <tr> 
+      <td role="rowheader"><span class="preview">寫入MCP工具</span></td> 
+      <td><span class="preview">可讓Workfront MCP伺服器對Workfront資料執行建立、更新和刪除動作。 此選項預設為停用。<p>如需Workfront MCP伺服器的詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">設定Adobe Workfront MCP伺服器</a>。</p></span></td> 
      </tr>
      <tr> 
       <td role="rowheader">測試環境</td> 
