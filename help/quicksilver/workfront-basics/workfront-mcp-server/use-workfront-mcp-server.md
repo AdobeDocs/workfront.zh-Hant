@@ -5,7 +5,7 @@ title: 使用Adobe Workfront MCP伺服器
 description: 使用Adobe Workfront MCP伺服器，透過AI代理平台中的自然語言對話來搜尋、建立、更新和管理Workfront專案。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
+source-git-commit: f96afd17e9f4e726ac545a9cb0c54ace5a4fcffe
 workflow-type: tm+mt
 source-wordcount: '1642'
 ht-degree: 0%
@@ -16,7 +16,6 @@ ht-degree: 0%
 # 使用Adobe Workfront MCP伺服器
 
 {{highlighted-preview-article-level}}
-
 
 [!DNL Adobe Workfront] MCP伺服器可讓您透過詢問自然語言的AI代理平台，來尋找、建立、更新和管理Workfront專案。 平台會決定要呼叫哪些Workfront動作，並替您處理與Workfront的對話。
 
@@ -254,4 +253,3 @@ Workfront的正確動作，並為您挑選正確的工具。 如果您是
 MCP伺服器通常會自動更新，但有時您可能需要重新整理與MCP伺服器的連線，才能檢視最新的工具和功能。
 
 +++
-

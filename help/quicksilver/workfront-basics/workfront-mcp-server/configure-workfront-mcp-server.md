@@ -5,7 +5,7 @@ title: 設定Adobe Workfront MCP伺服器
 description: 設定您的Workfront執行個體和AI代理平台，讓您透過自然語言對話來使用Workfront。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 46cc21fb1b7bb66b34dac5e7aa53c096c46e5b29
+source-git-commit: f96afd17e9f4e726ac545a9cb0c54ace5a4fcffe
 workflow-type: tm+mt
 source-wordcount: '1207'
 ht-degree: 0%
@@ -16,7 +16,6 @@ ht-degree: 0%
 # 設定Adobe Workfront MCP伺服器
 
 {{highlighted-preview-article-level}}
-
 
 [!DNL Adobe Workfront] MCP伺服器可讓您在支援的AI代理程式平台上，透過自然語言對話處理您的Workfront資料。
 
@@ -223,9 +222,6 @@ What happens next
 
 +++
 
-
-
-
 ## 關於設定的常見問題
 
 +++ 展開以檢視關於設定Workfront MCP伺服器的常見問題。
@@ -239,4 +235,3 @@ What happens next
 您的Workfront管理員和AI代理平台的管理員。 您的Workfront管理員會在Workfront端啟用MCP伺服器存取權。 您的AI代理平台管理員可在該平台側啟用Workfront存取權。 對於[!DNL Claude]，[!DNL Claude]企業管理員會啟用[!DNL Adobe Workfront]聯結器。
 
 +++
-
