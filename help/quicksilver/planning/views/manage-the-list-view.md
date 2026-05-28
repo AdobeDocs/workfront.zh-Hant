@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
+source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1948'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 0%
 although list views in Planning are very similar to Workfront enhanced lists, keep this one separate with all the information, because of Planning standalone; some information here is also duplicated in this main Glist article: help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md
 -->
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">本頁標示的資訊是指尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -182,6 +182,9 @@ Removed - more direct steps below:
    1. 暫留在欄名稱上，然後按一下欄名稱左側的向下箭頭，然後按一下下列其中一項：
       * **重新命名**，為資料行新增&#x200B;**自訂標籤**。 Workfront中原始欄位的名稱不會變更。
       * **排序**，依選取的欄位排序清單。 表示排序方向的排序圖示會新增至欄標題。
+   1. 按一下欄的標題，然後將其拖放到清單中的另一個位置。
+
+      無法移動第一欄。
    1. 按一下清單右上角的&#x200B;**+**&#x200B;圖示，新增或移除清單中的欄，然後按一下&#x200B;**儲存**。
 
       **資料行管理員**&#x200B;開啟。
@@ -252,6 +255,12 @@ Removed - more direct steps below:
 1. 在清單的儲存格內按兩下以編輯欄位的資訊，然後按下Enter以儲存變更。
 
    有些欄位是唯讀的。 例如，專案的完成百分比是由系統計算的欄位，您無法手動進行編輯。
+
+1. （視條件而定）對於選取的文字欄位，請使用鍵盤箭頭來瀏覽選項清單，然後按空格鍵以選取正確的選項。
+
+   <span class="preview">使用選取欄位型別中的&#x200B;**搜尋**&#x200B;行來尋找正確的選項。</span>
+
+   <span class="preview">找不到結果時，可以直接從欄位儲存格新增選項。 並非所有清單都提供此功能。</span>
 
 1. 將滑鼠懸停在清單中專案的名稱上，然後按一下&#x200B;**更多**&#x200B;功能表[更多](assets/more-menu.png)，然後按一下&#x200B;**檢視**，在其他索引標籤中開啟專案
 
