@@ -10,9 +10,9 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b4a3a64abb1c5e6395ff91dc8c145135926a5cf6
+source-git-commit: 7457f6888a0e79d499c4cca47bd4b4b5ac55a52b
 workflow-type: tm+mt
-source-wordcount: '7447'
+source-wordcount: '7342'
 ht-degree: 6%
 
 ---
@@ -65,29 +65,29 @@ ht-degree: 6%
 
    ![選擇物件型別](assets/new-custom-form-select-objects-032526.png)
 
-+++ 展開以檢視支援自訂表單的物件清單。
+   +++ 展開以檢視支援自訂表單的物件清單。
 
-* 專案
-* 任務
-* 問題/請求
-* 專案組合
-* 文件
-* 方案
-* 費用
-* 使用者
-* 公司
-* 疊代
-* 計費記錄
-* 群組
-* 團隊
+   * 專案
+   * 任務
+   * 問題/請求
+   * 專案組合
+   * 文件
+   * 方案
+   * 費用
+   * 使用者
+   * 公司
+   * 疊代
+   * 計費記錄
+   * 群組
+   * 團隊
 
-如果您在Workflow Ultimate套件中，也可以建立這些物件的自訂表單：
+   如果您在Workflow Ultimate套件中，也可以建立這些物件的自訂表單：
 
-* 職務角色
-* 費率卡
-* 指派
+   * 職務角色
+   * 費率卡
+   * 指派
 
-+++
+   +++
 
 1. 在&#x200B;**新增表單名稱**&#x200B;區域中，輸入自訂表單標題。
 1. （選擇性）如果您想要將更多物件型別新增至表單，以便將其附加至更多物件，請按一下表單設計工具標題中的&#x200B;**物件型別**。 選取您要新增的物件型別，並取消選取您要從表單中刪除的任何物件型別。
@@ -155,8 +155,8 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->雖然可以這樣做，但建議您不要在您或其他使用者開始使用Workfront中的自訂表單後變更此名稱。 如果這樣做，系統將不再識別現在可能在Workfront其他區域參考該欄位的自訂欄位。
->例如，如果您新增自訂欄位至報表，之後又變更其名稱，Workfront將無法辨識報表中的自訂欄位，且除非您使用新名稱將其重新新增至報表，否則將無法正常運作。
+>雖然可以這樣做，但建議您不要在您或其他使用者開始使用Workfront中的自訂表單後變更此名稱。如果這樣做，系統將不再識別現在可能在Workfront其他區域參考該欄位的自訂欄位。
+>例如，如果您將自訂欄位新增至報表，之後又變更其名稱，Workfront將無法辨識報表中的自訂欄位，而除非您使用新名稱將其重新新增至報表，否則報表將無法正常運作。
 >
 >建議您不要輸入已用於內建Workfront欄位的名稱。
 >
@@ -260,7 +260,7 @@ ht-degree: 6%
     </tr>
     <tr>
     <td>指示</td>
-    <td>輸入有關欄位的任何其他資訊。 當使用者填寫自訂表單時，可以將滑鼠指標暫留在問號圖示上，以檢視包含您在此處輸入資訊的工具提示。
+    <td>輸入有關欄位的任何其他資訊。當使用者填寫自訂表單時，可以將滑鼠指標暫留在問號圖示上，以檢視包含您在此處輸入資訊的工具提示。
     <img src="assets/instructions-form-designer.png">
     </td>
     <td><ul>
@@ -930,7 +930,7 @@ The Workfront Mobile app
 | 計畫持續時間 | ✓ |   |   | ✓ |   |   |   |   |
 | 規劃時數 | ✓ | ✓ | ✓ |   | ✓ |   |   |   |
 | 規劃開始日期 | ✓ |   |   |   |   |   |   |   |
-| 專案組合 | ✓ |   |   | ✓ |   |   | ✓ |   |
+| Portfolio | ✓ |   |   | ✓ |   |   | ✓ |   |
 | 優先順序 | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | 方案 | ✓ |   |   | ✓ |   |   |   |   |
 | 預計完成日期 | ✓ | ✓ |   |   |   |   |   |   |
@@ -1063,7 +1063,7 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>（必要）輸入或貼上有效的XD原型連結。</p> 
-      <p><b>注意</b>： Adobe XD中「共用」標籤上的「連結存取」設定必須設定為「擁有連結的任何人」。 否則，使用者將無法檢視原型。 
+      <p><b>注意</b>： Adobe XD中「共用」標籤上的「連結存取」設定必須設定為「擁有連結的任何人」。否則，使用者將無法檢視原型。 
    </td> 
      </tr> 
      <tr> 
@@ -1168,7 +1168,7 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
     <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
      </tr>
      <tr>
-      <td>使用中</td>
+      <td>作用中</td>
       <td><p>此選項預設為開啟。<p><p>將欄位設為「非使用中」時，該欄位會從報表、篩選器和檢視中排除，並且無法再用於自訂表單欄位程式庫。</p></td>
      </tr>
       </tbody> 
