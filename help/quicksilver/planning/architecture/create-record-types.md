@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1179'
 ht-degree: 2%
 
 ---
@@ -155,7 +155,7 @@ Old:
 
       * 當您使用CSV或Excel檔案匯入時。
 
-        如需詳細資訊，請參閱[從CSV或Excel檔案匯入資訊，以建立記錄型別](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md)。
+        如需詳細資訊，請參閱本文中的[從CSV或Excel檔案匯入資訊，以建立記錄型別](#create-record-types-by-importing-information-from-a-csv-or-excel-file)一節。
 
      >[!TIP]
      >
@@ -168,7 +168,7 @@ Old:
         本文說明如何從頭開始建立記錄型別。
 
       * 透過從另一個工作區新增它們
-如需詳細資訊，請參閱[從其他工作區新增現有記錄型別](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)。
+如需相關資訊，請參閱本文[從其他工作區](#create-record-types-by-adding-existing-ones-from-another-workspace)新增現有記錄型別以建立記錄型別一節。
 
 
 * 您可以在區段內以及工作區一個區段之間移動記錄型別。 您無法將記錄型別從一個工作區移動到另一個工作區。

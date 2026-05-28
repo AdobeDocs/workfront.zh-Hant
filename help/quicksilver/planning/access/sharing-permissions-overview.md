@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1372'
 ht-degree: 5%
 
 ---
@@ -22,13 +22,9 @@ ht-degree: 5%
 
 # 在Adobe Workfront Planning中共用許可權的概觀
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
-
-
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -60,20 +56,17 @@ ht-degree: 5%
 
   如需詳細資訊，請參閱[共用記錄型別](/help/quicksilver/planning/access/share-record-types.md)。
 
-<!--
 <div class="preview">
 
-* Records
-    
-    * You can share records with people inside your organization.
-    * Users inherit permissions from the workspace and the record type by default. 
-    * You cannot share a record with a higher or lower permission level than the user has on the record type. 
+* 記錄
 
-    For more information, see [Share records](/help/quicksilver/planning/access/share-records.md).
+   * 您可以與組織內部人員共用記錄。
+   * 依預設，使用者會從工作區和記錄型別繼承許可權。
+   * 您無法以高於或低於使用者對記錄型別之許可權層級來共用記錄。
+
+  如需詳細資訊，請參閱[共用記錄](/help/quicksilver/planning/access/share-records.md)。
 
 </div>
-
--->
 
 * 檢視
 
@@ -190,11 +183,9 @@ The following are the levels of permissions for record types:
 
 ### 記錄的許可權
 
-當您將許可權授予工作區和記錄型別時，記錄許可權是從記錄型別繼承的。
+依預設，當您授予許可權至工作區和記錄型別時，記錄許可權是從記錄型別繼承的。
 
-<!--In the Production environment, -->
-
-以下是記錄的許可權層級：
+在生產環境中，記錄的許可權層級如下：
 
 
 |        | 管理 | 參與 | 檢視 |
@@ -204,41 +195,36 @@ The following are the levels of permissions for record types:
 | 編輯 | ✓ | ✓ |       |
 | 檢視 | ✓ | ✓ | ✓ |
 
-<!--
-
 <div class="preview">
 
-In the Preview environment, the following are the levels of permissions for records: 
+在「預覽」環境中，記錄的許可權層級如下：
 
-|        | Manage |  View  |
+|        | 管理 | 檢視 |
 |--------|--------|-------|
-| Create | ✓      |       |
-| Delete | ✓      |       |
-| Edit   | ✓      |       |
-| View   | ✓      | ✓     |
+| 建立 | ✓ |       |
+| 刪除 | ✓ |       |
+| 編輯 | ✓ |       |
+| 檢視 | ✓ | ✓ |
 
+當您授與許可權給工作區和記錄型別時，會一律繼承記錄許可權。
 
+您可以移除從記錄型別接收的記錄繼承許可權。 Workspace管理員和記錄建立者保留記錄的管理許可權。
 
-Record permissions are always inherited when you grant permissions to the workspace and the record type.
+您不能授予使用者比他們在記錄型別上擁有更低或更高的記錄許可權。
 
-You can remove the record's inherited permissions received from the record type. Workspace managers and record creators retain Manage permissions to the record. 
+存在下列情況：
 
-You cannot give users lower or higher permissions on the record than they have on the record type. 
-
-The following scenarios exist: 
-
-|   Workspace and record type permissions     | Automatic inherited permissions for a Record |Possible Record permissions when Inherited permissions are turned off (granted manually)|
+| Workspace和記錄型別許可權 | 記錄的自動繼承許可權 | 已關閉繼承許可權時可能的記錄許可權（手動授與） |
 |--------|--------|-------------|
-| Manage |   Manage    |   Manage, Remove permissions*           |
-| Contribute |     Manage |  Manage, Remove permissions*        |
-| View   |  View     |      View, Remove permissions*        |
+| 管理 | 管理 | 管理，移除許可權* |
+| 參與 | 管理 | 管理，移除許可權* |
+| 檢視 | 檢視 | 檢視，移除許可權* |
 
 >[!NOTE]
 >
->*When you remove permissions from a record, users still retain View permissions to the workspace and the record type, unless you remove their permissions from the workspace. 
+>*當您從記錄中移除許可權時，使用者仍然保留對工作區和記錄型別的檢視許可權，除非您從工作區中移除其許可權。
 
 </div>
--->
 
 ### 記錄欄位的許可權
 
@@ -284,7 +270,10 @@ The following scenarios exist:
 | 檢視 | ✓ |
 | 套用 | ✓ |
 
-*使用者必須擁有工作區的檢視或更高許可權才能取得此檢視存取權。
+>[!NOTE]
+>
+>*使用者必須擁有工作區的檢視或更高許可權才能取得此檢視存取權。
+
 
 <!--
 old view permissions, before sharing View permissions to a view through a workspace:

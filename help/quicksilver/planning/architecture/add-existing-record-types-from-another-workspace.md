@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '793'
 ht-degree: 1%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 身為工作區管理員，您可以將存在於另一個工作區的記錄型別新增至您在Adobe Workfront Planning中管理的工作區。
 
@@ -134,7 +134,9 @@ And
    >當沒有記錄型別設定為要新增至系統中的其他工作區時，不會顯示&#x200B;**新增現有**&#x200B;選項。
 
 1. 按一下「**繼續**」。
-1. 在「**選擇記錄型別**」方塊中，按一下您要從現有工作區新增之記錄型別的卡片，然後按一下「**新增**」。
+1. （視條件而定）在&#x200B;**選擇記錄型別**&#x200B;方塊中，按一下您要從現有工作區新增的記錄型別卡片，然後按一下&#x200B;**新增**。
+
+   <span class="preview">如果您使用[預覽]環境，您可以按一下以選取多個記錄型別，然後按一下[新增]。**** 清單中會顯示所有可用工作區中的所有全域記錄型別。</span>
 
    記錄型別已新增至您選取的次要工作區，且次要工作區上的&#x200B;**全域記錄型別**&#x200B;圖示![全域記錄圖示](assets/global-icon-secondary-workspace.png)會顯示在記錄型別的卡片上。
 全域記錄型別圖示在顯示在次要工作區的記錄型別上時包括箭頭，以表示該記錄型別是從現有記錄型別新增的。
@@ -171,7 +173,7 @@ This will be released later with another epic:
 1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) in the new record type's card, or to the right of the record type's name on its page, then click **Share** to share it with other users in the same workspace, or adjust their permissions to the record type.
 -->
 
-&lt;! — 若我們可以新增自動化或請求表單至次要全域RT，請向Lilit核取?? — 若可以，請新增包含這些文章連結的步驟 — >
+&lt;！ — 與Lilit確認是否可以新增自動化或請求表單至次要全域RT?? — 新增步驟以及這些文章的連結，如果/當是 — >
 
 
 
