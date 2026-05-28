@@ -4,9 +4,9 @@ description: 2026年第三季度報告增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 9a86968cf8fff2c7c930aa6c8408ab8566905cb8
+source-git-commit: a177e2887c2b8b281b19cda45ce59c6f8149cefb
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,23 @@ ht-degree: 0%
 
 如需2026年第三季度發行週期中目前可用的所有變更清單，請參閱[2026年第三季度發行概觀](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)。
 
+## 畫布控制面板報表中的自訂貨幣資料欄位
+
+>[!NOTE]
+>
+>預覽： 2026年5月28日>生產快速版本： 2026年6月11日>每個人的生產： 2026年7月16日
+
+畫布控制面板報表現在支援自訂貨幣資料欄位做為欄、篩選器、群組和彙總，包括當在系統設定中設定多個匯率時。 當自訂貨幣資料欄位顯示為欄或彙總時，除非欄位在報表層級鎖定，否則值會轉換為在控制面板的匯率切換中選取的貨幣。
+
+先前在新增第二個匯率貨幣後失敗並顯示「受限欄位」訊息的報表，現在會呈現。 定義多重匯率時，規劃貨幣欄位仍受限制。
+
+如需詳細資訊，請參閱[在畫布儀表板中使用貨幣欄位](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md)。
+
 ## 改善「畫布」控制面板報表中的資料準確度
 
 >[!NOTE]
 >
->預覽： 2026年5月14日>生產環境快速發行： 2026年6月11日>適用於所有人的生產： 2026年7月16日
+>預覽： 2026年5月14日>生產快速版本： 2026年6月11日>每個人的生產： 2026年7月16日
 >
 >畫布儀表板目前是測試版。
 
