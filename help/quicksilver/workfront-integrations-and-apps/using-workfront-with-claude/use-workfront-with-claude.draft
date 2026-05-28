@@ -11,7 +11,7 @@ feature: Workfront Integrations and Apps
 
 # Use Adobe Workfront MCP server
 
-The [!DNL Adobe Workfront] connector for [!DNL Claude] lets you work with your Workfront data through natural-language conversation in [!DNL Claude]. Instead of clicking through Workfront to find a project, update a task, or check an approval, you ask [!DNL Claude] in plain English and it does the work for you.
+The [!DNL Adobe Workfront] connector for [!DNL Claude] lets you work with your Workfront data through natural-language conversation in [!DNL Claude]. Instead of clicking through Workfront to find a project, update a task, or check an approval, you ask [!DNL Claude] in natural language and it does the work for you.
 
 The connector uses the Workfront MCP (Model Context Protocol) server, which exposes Workfront actions as tools that [!DNL Claude] can call on your behalf. You don't need to know the Workfront API or anything about MCP to use it. Simply connect [!DNL Claude] to Workfront once, then start asking.
 
@@ -124,7 +124,7 @@ To connect to a different Workfront instance:
 
 ## Actions available through the connector
 
-After you connect, you can ask [!DNL Claude] to find, create, update, or remove Workfront items in plain English. [!DNL Claude] decides which actions to call and handles the conversation with Workfront for you.
+After you connect, you can ask [!DNL Claude] to find, create, update, or remove Workfront items in natural language. [!DNL Claude] decides which actions to call and handles the conversation with Workfront for you.
 
 The connector covers actions across approvals, planning, and workflow.
 
