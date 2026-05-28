@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d5fe72c-7af5-4699-8344-36cfdd3810d0
-source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
+source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 3%
@@ -50,4 +50,3 @@ ht-degree: 3%
 Workfront管理員可以在版面配置範本中新增或移除檢視。 您無法編輯、刪除或共用檢視。 您可以複製它們並更新或共用副本。
 
 如需詳細資訊，請參閱[在要求區域](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md)中建立和管理檢視。
-

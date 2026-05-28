@@ -4,7 +4,7 @@ description: 2026年第三季度發行時間範圍內的其他增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ec0c6db3ed0ff470af64fa28ca3e69f0f0bf840a
+source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 0%
@@ -61,4 +61,3 @@ ht-degree: 0%
 此外，在視覺上改善拖放欄（在提供拖放功能的清單上）的體驗。
 
 如需詳細資訊，請參閱[使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
-
