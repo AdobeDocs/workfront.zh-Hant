@@ -8,14 +8,16 @@ feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 315ec33fdcb79c6ba739a40de92be92e829a96d5
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 3%
+source-wordcount: '1473'
+ht-degree: 2%
 
 ---
 
 # 建立檔案核准工作流程
+
+{{highlighted-preview}}
 
 您可以在Adobe Workfront中請求其他使用者或團隊核准檔案，或請求他們稽核檔案而無需核准。
 
@@ -59,7 +61,7 @@ ht-degree: 3%
 
 +++
 
-## 從舊版檔案區域的「摘要」面板建立核准工作流程
+## 從「生產」中舊版檔案區域的「摘要」面板建立核准工作流程
 
 如果您的組織使用Workfront儲存空間，當您存取Workfront中的檔案時，將會看到舊版檔案區域。 如需Workfront儲存體的詳細資訊，請參閱[Adobe雲端儲存體與舊版Workfront儲存體之間的差異](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)。
 
@@ -104,15 +106,69 @@ ht-degree: 3%
    ![檔案詳細資料](assets/new-stage.png)
 
 
-## 從新檔案區域的摘要面板建立核准工作流程
+<div class="preview">
 
-如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的檔案區域。 如需Adobe雲端儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+## 從「預覽」中舊版檔案區域的「摘要」面板建立核准工作流程
 
-若要建立核准工作流程，請執行下列步驟：
+如果您的組織使用Workfront儲存空間，當您存取Workfront中的檔案時，將會看到舊版檔案區域。 如需Workfront儲存體的詳細資訊，請參閱[Adobe雲端儲存體與舊版Workfront儲存體之間的差異](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)。
+
+若要建立核准工作流程：
 
 1. 前往包含檔案的專案、任務或問題，然後在左側面板中選取&#x200B;**檔案**。
 
-1. 按一下檔案，然後按一下頁面右側的「核准」圖示。
+1. 按一下您需要的檔案，該檔案的「檔案摘要」面板隨即開啟。
+
+1. 在版本下拉式選單中，選取您要建立核准的檔案版本。 預設會選取最新版本。
+
+1. 向下捲動至&#x200B;**核准**&#x200B;區段，然後按一下&#x200B;**建立工作流程**。
+
+1. 填寫以下詳細資料：
+
+   <table>
+   <tr>
+   <td><strong>階段名稱</strong></td>
+   <td>新增階段名稱。 您可以將名稱變更為描述性更強的名稱，例如<em>初始稽核</em>或<em>最終核准</em>。</td>
+   </tr>
+   <tr>
+   <td><strong>新增姓名或電子郵件</strong></td>
+   <td>開始輸入使用者或團隊名稱，以新增為核准者或稽核者。 如果您只有稽核者，他們將會收到通知並可以選擇完成稽核，但不需要或做出任何決定。</td>
+   </tr>
+   <tr>
+   <td><strong>只需要一個決定（選擇性）</strong></td>
+   <td>第一個做出決定的人會完成階段。</td>
+   </tr>
+   <tr>
+   <td><strong>到期日（選擇性）</strong></td>
+   <td>設定核准的到期日。 使用者與團隊會收到電子郵件通知，通知時間為指定到期日前72小時或24小時。</td>
+   </tr>
+   <tr>
+   <td><strong>新增自訂訊息（選擇性）</strong></td>
+   <td>在<strong>新增自訂訊息</strong>文字方塊中輸入訊息。該訊息會顯示在核准電子郵件通知和Workfront的「核准」索引標籤中。
+   <p>新增第二個階段時，預設會選取<strong>在所有階段顯示此訊息</strong>。 將其保留為選取狀態，以便在每個階段中使用相同的訊息。 若要對每個階段使用不同的訊息，請清除<strong>在所有階段顯示此訊息</strong>，然後視需要在每個階段的<strong>新增自訂訊息</strong>文字方塊中輸入階段專屬訊息。</p></td>
+   </tr>
+   </table>
+
+1. （選擇性）重複上一步驟，視需要新增其他階段。
+
+   >[!NOTE]
+   >
+   >* 如果您新增多個階段，核准工作流程會依階段列出的順序進行。 完成所有必要的決定後，下一個階段會開始，而上一個階段會鎖定。
+   >* 如果您在建立核准工作流程後編輯自訂訊息，則會傳送更新的電子郵件通知給所有現有參與者。 如果您稍後新增參與者，則自訂訊息會包含在其電子郵件通知中。
+
+   ![新增自訂訊息至階段](assets/add-custom-message.jpeg)
+
+</div>
+
+
+## 從生產中新檔案區域的摘要面板建立核准工作流程
+
+如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的檔案區域。 如需Adobe雲端儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+
+若要建立核准工作流程：
+
+1. 前往包含檔案的專案、任務或問題，然後在左側面板中選取&#x200B;**檔案**。
+
+1. 按一下檔案，然後按一下頁面右側的&#x200B;**核准**&#x200B;圖示。
 
    ![在檔案摘要中新增核准者](assets/approvals-icon-new.png)
 
@@ -144,6 +200,58 @@ ht-degree: 3%
    >如果您新增多個階段，核准工作流程會依階段列出的順序進行。 完成所有必要的決定後，下一個階段會開始，而上一個階段會鎖定。
 
    ![檔案詳細資料](assets/new-stage.png)
+
+
+<div class="preview">
+
+## 從預覽中的新檔案區域的摘要面板建立核准工作流程
+
+如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的檔案區域。 如需Adobe雲端儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+
+若要建立核准工作流程：
+
+1. 前往包含檔案的專案、任務或問題，然後在左側面板中選取&#x200B;**檔案**。
+
+1. 按一下檔案，然後按一下頁面右側的&#x200B;**核准**&#x200B;圖示。
+
+   ![在檔案摘要中新增核准者](assets/approvals-icon-new.png)
+
+1. 按一下「**建立工作流程**」，然後填寫下列詳細資料：
+
+   <table>
+   <tr>
+   <td><strong>階段名稱</strong></td>
+   <td>新增階段名稱。 您可以將名稱變更為描述性更強的名稱，例如<em>初始稽核</em>或<em>最終核准</em>。</td>
+   </tr>
+   <tr>
+   <td><strong>新增姓名或電子郵件</strong></td>
+   <td>開始輸入使用者或團隊名稱，以新增為核准者或稽核者。 如果您只有稽核者，他們將會收到通知並可以選擇完成稽核，但不需要或做出任何決定。</td>
+   </tr>
+   <tr>
+   <td><strong>只需要一個決定（選擇性）</strong></td>
+   <td>第一個做出決定的人會完成階段。</td>
+   </tr>
+   <tr>
+   <td><strong>到期日（選擇性）</strong></td>
+   <td>設定核准的到期日。 使用者與團隊會收到電子郵件通知，通知時間為指定到期日前72小時或24小時。</td>
+   </tr>
+   <tr>
+   <td><strong>新增自訂訊息（選擇性）</strong></td>
+   <td>在<strong>新增自訂訊息</strong>文字方塊中輸入訊息。該訊息會顯示在核准電子郵件通知和Workfront的「核准」索引標籤中。
+   <p>新增第二個階段時，預設會選取<strong>在所有階段顯示此訊息</strong>。 將其保留為選取狀態，以便在每個階段中使用相同的訊息。 若要對每個階段使用不同的訊息，請清除<strong>在所有階段顯示此訊息</strong>，然後在每個階段的<strong>新增自訂訊息</strong>文字方塊中輸入階段專屬訊息。</p></td>
+   </tr>
+   </table>
+
+1. （選擇性）重複上一步驟，視需要新增其他階段。
+
+   >[!NOTE]
+   >
+   >* 如果您新增多個階段，核准工作流程會依階段列出的順序進行。 完成所有必要的決定後，下一個階段會開始，而上一個階段會鎖定。
+   >* 如果您在建立核准工作流程後編輯自訂訊息，則會傳送更新的電子郵件通知給所有現有參與者。 如果您稍後新增參與者，則自訂訊息會包含在其電子郵件通知中。
+
+   ![新增自訂訊息至階段](assets/add-custom-message.jpeg)
+
+</div>
 
 
 
