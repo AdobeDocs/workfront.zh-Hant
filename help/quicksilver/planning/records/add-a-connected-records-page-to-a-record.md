@@ -8,20 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: 5e0be9d9-efa5-4b16-bd56-f9c85bc57ced
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 0%
+source-wordcount: '1626'
+ht-degree: 1%
 
 ---
 
 # 將「連線的記錄」頁面新增至記錄
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 您可以在Adobe Workfront Planning中將連線記錄頁面的頁簽新增至記錄，以檢視連線記錄或物件的資訊。 這會將表格檢視中的連線記錄新增至索引標籤。
 
@@ -92,7 +92,7 @@ ht-degree: 0%
   <tr>
    <td role="rowheader"><p>物件許可權</p></td>
    <td>
-   <p>貢獻或更高的許可權到工作區和記錄型別 </p>  
+   <p>貢獻或更高的工作區許可權、記錄型別許可權，以及<span class="preview">管理記錄的許可權</span> </p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p> 
   </td>
   </tr>   
@@ -270,7 +270,7 @@ When you create a connected records page for connected Planning records in the P
 
       * 表格
 如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)
-      * 時間表
+      * 時間軸
 如需詳細資訊，請參閱[管理時間表檢視](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
       * 行事曆
 如需詳細資訊，請參閱[管理行事曆檢視](/help/quicksilver/planning/views/manage-the-calendar-view.md)。

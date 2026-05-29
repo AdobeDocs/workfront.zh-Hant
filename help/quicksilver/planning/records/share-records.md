@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '751'
 ht-degree: 1%
 
 ---
@@ -22,11 +22,9 @@ ht-degree: 1%
 
 # 使用連結共用記錄
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -38,41 +36,27 @@ ht-degree: 1%
 
 * 在記錄型別的表格檢視中檢視記錄時，複製指向記錄頁面的連結。
 
-* 您可以透過共用工作區和記錄型別來與其他使用者共用工作區中的所有記錄。
+* 在生產環境中：
 
-  如需詳細資訊，請參閱下列文章：
+   * 您可以透過共用工作區和記錄型別來與其他使用者共用工作區中的所有記錄。
 
-   * [共用工作區](/help/quicksilver/planning/access/share-workspaces.md)
+     如需詳細資訊，請參閱下列文章：
 
-   * [共用記錄型別](/help/quicksilver/planning/access/share-record-types.md)
+      * [共用工作區](/help/quicksilver/planning/access/share-workspaces.md)
 
-<!--
-When we release record-level permissions, replace the bullets above with these:
-
-You can share an Adobe Workfront Planning record in the following ways: 
-
-* Copy the link of the record page from your browser when the page is open. 
-
-* Copy a link to the record's page when viewing records in the record type's table view.   
-
-* In the Production environment: 
-
-   * You can share all records in a workspace with other users by sharing the workspace and the record type.
-
-      For more information see the following articles:
-
-      * [Share a workspace](/help/quicksilver/planning/access/share-workspaces.md)
-
-      * [Share a record type](/help/quicksilver/planning/access/share-record-types.md)
+      * [共用記錄型別](/help/quicksilver/planning/access/share-record-types.md)
 
 <div class="preview">
 
-* In the Preview environment: 
+* 在預覽環境中：
 
-   * You can share individual records with people, teams, roles, groups, or companies.
+   * 您可以與人員、團隊、角色、群組或公司共用個別記錄。
+
+     如需詳細資訊，請參閱[共用記錄](/help/quicksilver/planning/access/share-records.md)。
 
 </div>
--->
+
+
 
 <!--take out the sentence below when we release record-level sharing-->
 
@@ -225,7 +209,7 @@ Old:
 
 當您與其他人共用工作區時，可以共用工作區中的所有記錄。
 
-記錄型別和記錄會從工作區繼承相同許可權。
+依預設，記錄型別和記錄會從工作區繼承相同的許可權。
 
 只有具有工作區管理許可權的使用者才能與其他人共用。
 
@@ -233,16 +217,30 @@ Old:
 
 ## 透過共用記錄型別來共用記錄型別中的所有記錄
 
-記錄會從記錄型別繼承許可權。
+依預設，記錄會從記錄型別繼承許可權。
 
 依預設，記錄型別會繼承工作區的許可權。
 
 不過，您可以執行下列任一作業：
 
 * 停用從記錄型別的工作區繼承的許可權。 這樣會移除記錄的較高許可權，但會保留對工作區、記錄型別和記錄的檢視許可權。
-* 手動授予記錄型別的使用者許可權，即使他們無權使用工作區。 這會自動授予他們工作區的「檢視」許可權。 這會授予記錄的使用者許可權。
+* 手動授予記錄型別的使用者許可權，即使他們無權使用工作區。 這會自動授予他們工作區的「檢視」許可權。 依預設，這會將檢視許可權授予記錄的使用者。
 
 只有具有工作區管理許可權的使用者才能與其他人共用其記錄型別和記錄。
 
 如需詳細資訊，請參閱[共用記錄型別](/help/quicksilver/planning/access/share-record-types.md)。
+
+<div class="preview">
+
+## 共用個別記錄
+
+依預設，使用者會從工作區和記錄型別繼承記錄許可權。
+
+若要僅將記錄型別許可權授與特定使用者「管理」許可權給僅特定記錄，您可以停用特定記錄的繼承許可權，並僅授予這些使用者「管理」存取這些記錄的許可權。
+
+您可以大量調整一筆記錄或同時調整多筆記錄的許可權。
+
+如需詳細資訊，請參閱[共用記錄](/help/quicksilver/planning/access/share-records.md)。
+
+</div>
 

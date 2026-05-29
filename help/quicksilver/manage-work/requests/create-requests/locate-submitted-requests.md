@@ -10,10 +10,10 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '1413'
-ht-degree: 3%
+source-wordcount: '1561'
+ht-degree: 2%
 
 ---
 
@@ -21,11 +21,13 @@ ht-degree: 3%
 
 <!--
 Remove production and preview references at release
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
+
+
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 您可以檢視您或其他人提交的請求，或檢視您已開始但從未完成提交的請求。 未完成的請求會儲存為草稿。
 
@@ -101,7 +103,9 @@ Remove production and preview references at release
 
 >[!NOTE]
 >
->* 如果您有Workfront Planning，您的Workfront和Planning請求會出現在相同的清單中。 Workfront要求會在&#x200B;**物件型別**&#x200B;欄中顯示值`Issue`。
+>* 如果您有Workfront Planning，您的Workfront和Planning請求會出現在相同的清單中。
+>     Planning要求的&#x200B;**物件型別**&#x200B;的命名方式如下： `< Name of workspace > > < Name of record type >`。例如，Planning要求的Object型別可能命名為`Marketing workspace > Campaigns`。\
+>     Workfront要求的&#x200B;**物件型別**&#x200B;是`Issue`。
 >* 依預設，在請求區域的清單中會顯示最多50個請求。 若要檢視更多請求，請捲動至清單底部。
 
 您可以在「請求」區域和「首頁」的「我的請求」Widget中檢視已提交的請求。
@@ -134,18 +138,27 @@ Remove production and preview references at release
 
    如需管理請求清單中資訊的詳細資訊，請參閱[使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
 
-1. （選擇性）檢查&#x200B;**狀態**&#x200B;資料行，以檢查要求的狀態。 新的請求體驗中有以下狀態：
+1. （選擇性）檢查&#x200B;**狀態**&#x200B;資料行，以檢查要求的狀態。
 
-   * **草稿**：此要求尚未提交。
-   * **擱置檢閱**： （僅限Planning）此要求有核准者，而且沒有核准者開啟該要求。
-   * **稽核中**： （僅限Planning）此要求有核准者，且至少有一個核准者已開啟要求，但尚未做出任何決定。
-   * **已拒絕**： （僅限Planning）此要求有核准者且已被拒絕。 此請求將不會建立記錄。
+   >[!IMPORTANT]
+   >
+   >您的Workfront管理員可以在&#x200B;**設定**&#x200B;區域中設定一些Workfront要求狀態。 如需詳細資訊，請參閱[建立或編輯狀態](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)。
+   >
+   >部分Workfront請求狀態和所有Planning請求狀態會由Workfront以硬式編碼表示。 您無法自訂、重新命名或新增更多相同型別。
+
+   新的請求體驗中有以下狀態：
+
+   * <span class="preview">**新增**：要求是新的，而且沒有人已開始處理。</span>
+   * **草稿**：此要求尚未提交。 此狀態為硬式編碼。
+   * **擱置檢閱**： （僅限Planning）此要求有核准者，而且沒有核准者開啟該要求。 此狀態為硬式編碼。
+   * **稽核中**： （僅限Planning）此要求有核准者，且至少有一個核准者已開啟要求，但尚未做出任何決定。 此狀態為硬式編碼。
+   * **已拒絕**： （僅限Planning）此要求有核准者且已被拒絕。 此請求將不會建立記錄。 此狀態為硬式編碼。
    * **進行中**：
       * Workfront請求：請求已轉換，工作正在進行。
       * Workfront計畫請求：請求完成會對應至特定的「計畫」欄位，而該欄位值尚未與完成值相符。
-
-        如需詳細資訊，請參閱在Adobe Workfront Planning中建立和管理要求表單一文中的[設定設定詳細資料](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details)。
-   * **完成**：要求已完成。
+   * **保留**：這可供Workfront要求使用，並由使用者手動設定。
+   * <span class="preview">**已取消**：這適用於Workfront要求。</span> <!--checking with Khach)-->
+   * <span class="preview">**完成**：已建立完成請求的Planning記錄。 （僅限Planning）</span>
 
 ### 在舊版請求體驗中檢視已提交的請求
 

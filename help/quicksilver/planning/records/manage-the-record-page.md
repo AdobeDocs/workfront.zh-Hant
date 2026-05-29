@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: b014a06cd4c3305967fcd2edfe893a024051fa9c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '2022'
+source-wordcount: '2013'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
   <tr>
    <td role="rowheader"><p>物件許可權</p></td>
    <td>
-   <p>貢獻或更高的許可權到工作區和記錄型別 </p>  
+   <p>貢獻或更高的許可權給工作區和記錄型別，以及<span class="preview">管理記錄的許可權</span> </p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p> 
   </td>
   </tr>   

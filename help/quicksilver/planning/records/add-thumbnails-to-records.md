@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '855'
 ht-degree: 1%
 
 ---
@@ -18,12 +18,10 @@ ht-degree: 1%
 
 # 新增縮圖至記錄
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -60,7 +58,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
-   <td>   <p>貢獻或更高的許可權到工作區和記錄型別  </p>  
+   <td>   <p>貢獻或更高的工作區許可權、記錄型別許可權，以及<span class="preview">管理記錄的許可權</span> </p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p> </td> 
   </tr>   
 </tbody> 
@@ -123,7 +121,7 @@ Old:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>   <p>Contribute or higher permissions to a workspace and record type  </p>  
+   <td>   <p>Contribute or higher permissions to a workspace, record type, and <span class="preview">record</span> </p>   
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
 </tbody> 

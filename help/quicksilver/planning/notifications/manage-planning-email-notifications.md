@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '641'
 ht-degree: 1%
 
 ---
@@ -164,14 +164,14 @@ OLD:
 
 ## 請求和授與許可權時管理電子郵件通知
 
-1. （有條件且選擇性）在有人要求或授予您存取Planning物件型別的許可權後，請移至通知您許可權要求的電子郵件。 電子郵件的寄件者為Adobe Experience Cloud。
+1. （有條件且選擇性）某人要求或授予您存取Planning物件的許可權後，請移至通知您許可權要求的電子郵件。 電子郵件的寄件者為Adobe Experience Cloud。
 
 1. （選擇性）按一下電子郵件內&#x200B;**Workfront**&#x200B;方塊中的訊息。
 
    您要求的許可權物件會在Workfront中開啟。
 
 1. （視條件而定）如果可用，請按一下&#x200B;**檢視所有通知**。
-**通知**&#x200B;頁面會在Adobe Experience Cloud中開啟。 會顯示所有Adobe Experience Cloud應用程式的所有通知。
+**通知**&#x200B;頁面會在Adobe Experience Cloud中開啟。會顯示所有Adobe Experience Cloud應用程式的所有通知。
 
 
 如需關於要求、授與或拒絕許可權的資訊，請參閱[要求檢視或工作區的許可權](/help/quicksilver/planning/access/request-permissions.md)。
@@ -180,8 +180,7 @@ OLD:
 
 ## 管理有關提交、核准或拒絕Workfront Planning請求的電子郵件通知
 
-1. （選用）前往Workfront傳送給您的電子郵件
-在您提交請求之後，或您提交的請求已核准或拒絕之後。 電子郵件的寄件者為Adobe Workfront。
+1. （選用）前往Workfront在您提交請求後，或您提交的請求已獲核准或拒絕後，傳送給您的電子郵件。 電子郵件的寄件者為Adobe Workfront。
 
 1. （選擇性）按一下&#x200B;**開啟請求**。 這會在Workfront Planning中開啟請求。
 

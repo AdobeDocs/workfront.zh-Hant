@@ -8,9 +8,9 @@ role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '759'
 ht-degree: 2%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 2%
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 >[!IMPORTANT]
 >
@@ -96,7 +96,8 @@ ht-degree: 2%
    <td>
    <ul>
    <li><p>檢視或更高的工作區許可權、記錄未建立用來存取它們及其物件的型別和檢視。</p></li>
-   <li><p>貢獻或更高的許可權給您未建立的工作區和記錄型別，以編輯它們，以及建立、編輯或刪除記錄型別和記錄。</p></li>
+   <li><p>對於您未建立以編輯工作區與記錄型別，以及建立、編輯或刪除記錄型別，提供Contribute或更高許可權。</p></li>
+   <li><p><span class="preview">管理編輯、共用或刪除記錄的許可權。</p>
    <li><p>為您未建立的檢視貢獻或更高的許可權，以編輯、刪除和共用檢視</p>
    </li>
     <li><p>系統管理員可以管理他們未建立的工作區。 </p></li>
