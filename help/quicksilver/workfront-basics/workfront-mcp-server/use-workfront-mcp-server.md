@@ -5,9 +5,9 @@ title: 使用Adobe Workfront MCP伺服器
 description: 使用Adobe Workfront MCP伺服器，透過AI代理平台中的自然語言對話來搜尋、建立、更新和管理Workfront專案。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: f96afd17e9f4e726ac545a9cb0c54ace5a4fcffe
+source-git-commit: 7d961bca74884baa869f92a24a3f586500b824a5
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '1755'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,11 @@ ht-degree: 0%
 >目前，Workfront MCP伺服器僅開放美國地區的客戶使用，供使用AWS的客戶使用。
 
 ## 先決條件
+
+* 您必須設定AI代理平台與Workfront MCP伺服器之間的連線。 如需安裝指示，請參閱[設定Adobe Workfront MCP伺服器](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)。
+* 您的Workfront執行個體必須在Adobe Identity Management系統(IMS)上啟用。
+* 您必須擁有對您要使用的專案具有必要存取層級和物件許可權的Workfront帳戶。
+
 
 本文假設您已設定連線。 如需安裝程式的詳細資訊，請參閱[設定Adobe Workfront MCP伺服器](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)。
 
@@ -251,5 +256,10 @@ Workfront的正確動作，並為您挑選正確的工具。 如果您是
 ### 新版本的Workfront MCP伺服器發行時會發生什麼事？
 
 MCP伺服器通常會自動更新，但有時您可能需要重新整理與MCP伺服器的連線，才能檢視最新的工具和功能。
+
+### 如果Workfront Identity Management System (IMS)上未啟用我的Workfront執行個體，我可以使用Adobe MCP伺服器嗎？
+
+否。 您的Workfront執行個體必須在Adobe Identity Management系統(IMS)上啟用，才能使用Workfront MCP伺服器。 如果您不確定您的執行個體是否已在IMS上啟用，請聯絡您的Workfront管理員。
+
 
 +++
