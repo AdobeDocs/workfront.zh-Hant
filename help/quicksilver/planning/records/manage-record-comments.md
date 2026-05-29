@@ -8,20 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
 
 # 管理記錄註解
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -58,7 +58,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
-   <td>   <p>檢視或更高的工作區許可權及記錄型別</p>  
+   <td>   <p>檢視或更高的工作區、記錄型別和<span class="preview">記錄</span>許可權</p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p> </td> 
   </tr> 
   </tr> 
@@ -191,7 +191,7 @@ Old:
 1. （可選）若要復原或重做變更，請使用下列快速鍵：
    * CTRL + Z （Mac為⌘+z）可復原變更
    * 按CTRL + Y （Mac為⌘+y）以重做變更
-1. 新增&#x200B;**@**，然後加上使用者或團隊的名稱，以便在更新中標籤它們。 如需詳細資訊，請參閱本文中關於評論記錄[的](#considerations-about-commenting-on-a-record)考量事項。
+1. 新增&#x200B;**@**，然後加上使用者或團隊的名稱，以便在更新中標籤它們。 如需詳細資訊，請參閱本文中關於評論記錄](#considerations-about-commenting-on-a-record)的[考量事項。
 
 1. （可選）使用RTF工具列中的選項來格式化文字、新增emoji或連結至更新，以強化內容。
 

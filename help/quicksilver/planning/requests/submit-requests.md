@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: fdbe3945f59306fc26424d7e88b799d9dcaea4da
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '2582'
+source-wordcount: '2592'
 ht-degree: 1%
 
 ---
@@ -133,8 +133,8 @@ Not sure how to change the request status, but dev also said: Changing the names
 
 {{step1-to-requests}}
 
-1. 開啟熒幕右上角的&#x200B;**使用新體驗**&#x200B;設定。
-開啟此設定後，Workfront的&#x200B;**要求**&#x200B;區域就會提供Workfront規劃要求表單。
+1. 開啟熒幕右上角的&#x200B;**使用新體驗**設定。
+開啟此設定後，Workfront的**要求**&#x200B;區域就會提供Workfront規劃要求表單。
 
    >[!TIP]
    >
@@ -179,7 +179,7 @@ Not sure how to change the request status, but dev also said: Changing the names
       * **主旨**：新增至要求區域的原始要求名稱。 您無法從要求清單中隱藏或移除&#x200B;**主旨**&#x200B;欄位。 該名稱具有在Planning中開啟請求頁面的連結。
       * **已建立的物件**：從要求建立的記錄名稱，在Planning中顯示。 「已建立」物件名稱有一個連結，可開啟從請求建立的記錄。
       * **物件型別**：從Planning中的要求建立記錄的工作區和記錄型別的名稱。
-      * **狀態**：要求物件的狀態。
+      * **狀態**：要求物件的狀態。 如需請求狀態的詳細資訊，請參閱[檢視已提交的請求](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)。
       * **要求表單**：與Planning中的記錄型別相關聯的要求表單名稱。
       * **已建立的物件狀態**：已建立記錄的狀態。
 

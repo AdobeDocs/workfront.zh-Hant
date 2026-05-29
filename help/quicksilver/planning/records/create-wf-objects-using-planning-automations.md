@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 <!--you might need to add something about notifications and emails?!-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 在Adobe Workfront Planning中設定並啟動自動化後，您可使用它們在Adobe Workfront中建立物件或Adobe Workfront Planning中的記錄。
 
@@ -79,6 +79,7 @@ ht-degree: 0%
 <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
    <td> <p>為工作區和您要使用現有自動化建立物件的記錄型別提供或更高許可權。 </p>  
+   <p><span class="preview">管理您執行自動化之記錄的許可權。</span></p>
    <p>管理Workfront物件（投資組合）的許可權以新增子物件（方案或專案）。</p>
    <p>系統管理員擁有所有工作區的管理許可權，包括他們未建立的工作區</p>
    </td> 

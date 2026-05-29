@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 ### 授權型別以及工作區與記錄型別的許可權
 
-只有具有Standard授權的使用者才能對工作區和記錄型別具有「貢獻」或「管理」許可權。 工作區與記錄型別的「貢獻和管理」許可權也會傳輸至記錄和欄位。
+只有具有Standard授權的使用者才能對工作區和記錄型別具有「貢獻」或「管理」許可權。 依預設，工作區和記錄型別的「貢獻和管理」許可權也會傳輸至記錄和欄位。
 
 系統管理員可以檢視系統中的所有工作區，包括他們未建立的工作區。
 

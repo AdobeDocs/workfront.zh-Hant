@@ -8,20 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 4%
+source-wordcount: '597'
+ht-degree: 3%
 
 ---
 
 # 要求檢視或工作區的許可權
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 <!-- 
 no longer needed: 
@@ -77,7 +77,10 @@ no longer needed:
    <td role="rowheader"><p>物件許可權</p></td> 
    <td>  <p>您的許可權要求取得授權後，您就可以取得下列許可權：</p>
    <ul><li><p>檢視或管理檢視</p></li>
-   <li><p>檢視、貢獻或管理工作區</p></li></ul>  
+   <li><p>檢視、貢獻或管理工作區</p></li>
+   <li><p>檢視、貢獻或管理記錄型別</p></li>
+   <li><p><span class="preview">檢視或管理記錄</span></p></li>
+   </ul>  
    <p>只有對工作區和檢視具有管理許可權的使用者才能公開共用檢視。</p></td> 
   </tr> 
 <tr>
@@ -168,17 +171,22 @@ no longer needed:
 -->
 
 
-## 要求檢視或工作區的許可權
+## 要求許可權
 
-向檢視要求許可權與向工作區要求許可權類似。
+要求檢視許可權與要求工作區、記錄型別或<span class="preview">記錄</span>的許可權類似。
 
-當有人與您共用一個連結至工作區或一個您沒有存取權的檢視時：
+當有人與您共用工作區的連結、錄製型別、<span class="preview">錄製</span>，或您沒有存取權的檢視時：
 
 1. 按一下與您共用的連結，以檢視或工作區。
 
    顯示&#x200B;**您沒有存取權**&#x200B;頁面，通知您您沒有檢視或工作區的存取權。
 
    ![要求檢視的存取權](assets/request-access-to-view.png)
+
+   >[!NOTE]
+   >
+   >當您沒有記錄型別或<span class="preview">記錄</span>的存取權時，「您沒有存取權」頁面會顯示您必須擁有工作區的存取權。
+
 
 1. （視條件而定）如果共用的連結是針對您有存取權的工作區的檢視，請按一下&#x200B;**以現有檢視開啟**。 如果您有存取工作區的許可權，記錄型別頁面會在預設檢視中開啟。
 
