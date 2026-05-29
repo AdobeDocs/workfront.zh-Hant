@@ -9,9 +9,9 @@ feature: People Teams and Groups
 exl-id: c131c021-8bc0-4a48-a873-9ee0e189bcab
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ab336c13968f1420ec08eb7ae965b697a862bfb4
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 >敏捷團隊沒有團隊請求。
 
-[!UICONTROL 團隊要求]索引標籤會顯示目前於下拉式清單中選取之團隊等待指派的要求。 括弧內的數字表示有多少專案已準備好處理。
+[!UICONTROL 團隊要求]索引標籤會顯示目前於下拉式清單中選取之團隊等待指派的要求。 括弧內的數字表示有多少專案已準備好處理。 [!UICONTROL 團隊請求]索引標籤最多可以為團隊顯示2,000個請求。
 
 團隊請求代表未指派給特定使用者的擱置工作專案。 而是將其指派給一個團隊，該團隊的任何成員都可以自願接受對該專案的責任。 如果使用者自願處理團隊請求，則使用者將接受工作指派作為其自己的工作指派。 除了專案團隊外，任務還會指派給個別使用者。
 
