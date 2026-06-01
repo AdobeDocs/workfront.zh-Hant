@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 4692dc6f7ab840bb43f3788126471425e9f8a396
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 0%
+source-wordcount: '759'
+ht-degree: 1%
 
 ---
 
@@ -151,6 +151,12 @@ Old:
 
    * **我所在的工作區**&#x200B;存取您建立的工作區
    * **所有工作區**，以存取與您共用的工作區或您建立的工作區
+
+   <!--
+   >[!NOTE]
+   >
+   ><span class="preview">You cannot edit the workspaces on the **Sample workspaces** tab. We recommend using the multi-workspace template bundle to create workspaces similar to those on the Sample workspace tab and edit your own. For information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).</span> 
+   -->
 
 1. （選擇性）按一下「**全部顯示**」以顯示其他工作區。 **顯示全部**&#x200B;連結只有在您有兩列以上的工作區卡片時才會顯示。
 1. （選用） ClicK **顯示較少**&#x200B;以限制熒幕上顯示的工作區數目。

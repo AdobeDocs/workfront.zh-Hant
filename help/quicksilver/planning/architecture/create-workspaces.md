@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: 4692dc6f7ab840bb43f3788126471425e9f8a396
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1146'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 工作區是團隊使用的記錄型別集合，代表團隊的工作生命週期。 您可以在Adobe Workfront Planning中完全自訂工作區。
 
-For general information about workspaces, see [Workspaces overview](/help/quicksilver/planning/architecture/workspaces-overview.md).
+如需工作區的一般資訊，請參閱[工作區概述](/help/quicksilver/planning/architecture/workspaces-overview.md)。
 
 ## 存取權要求
 
@@ -141,14 +141,14 @@ Old:
 
 * 從頭開始或從範本建立一個工作區
 
-  For information, see the section [Create a workspace from scratch or from a template](#create-a-workspace-from-scratch-or-from-a-template) in this article.
-* Create one workspace using the AI-powered Planning Designer. This feature is currently available only to a limited number of customers in a Beta program.
+  如需詳細資訊，請參閱本文中的[從頭開始或從範本建立工作區](#create-a-workspace-from-scratch-or-from-a-template)一節。
+* 使用AI支援的Planning Designer建立一個工作區。 此功能目前僅適用於Beta計畫中的有限數量客戶。
 
   如需詳細資訊，請參閱[開始使用Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md)。
 
-* Create multiple workspaces using a best-practice multi-workspace template bundle
+* 使用最佳實務多工作區範本套件組合建立多個工作區
 
-  For information, see the section [Create multiple workspaces using a best-practice multi-workspace template bundle](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle) in this article
+  如需詳細資訊，請參閱本文章的[使用最佳實務多工作區範本組合](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle)建立多個工作區
 
   >[!TIP]
   >
@@ -164,6 +164,8 @@ Old:
 
 1. （選擇性和條件式）在下列任何預先定義的工作區範本中按一下&#x200B;**預覽**：
 
+   * Operations Initiative Studio
+   * Communications Planning Studio
    * 基本：行銷管理
    * 進階：行銷管理
    * 企業：行銷管理
@@ -172,7 +174,7 @@ Old:
 
    範本預覽方塊開啟。
 
-   There is an indication of what operational record types, taxonomies and how many fields are associated with each template.
+   這會指出哪些記錄型別、區段以及與每個範本相關聯的欄位數。
 
    ![預覽工作區範本](assets/previewing-a-workspace-template.png)
 
@@ -182,7 +184,7 @@ Old:
 
    或
 
-   Click **Back**, then click **New workspace** to create a workspace from scratch.
+   按一下[上一步]&#x200B;**&#x200B;**，然後按一下[新工作區]&#x200B;**&#x200B;**&#x200B;從頭開始建立工作區。
 
    會建立下列其中一種工作區型別：
 
@@ -205,7 +207,7 @@ Old:
    >
    >您可以從任何工作區重新命名任何區段，即使您沒有建立該區段亦然。
 
-   For more information about editing workspaces, including editing workspace sections, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md).
+   如需有關編輯工作區的詳細資訊，包括編輯工作區區段，請參閱[編輯工作區](/help/quicksilver/planning/architecture/edit-workspaces.md)。
 
 1. （選擇性）按一下&#x200B;**新增記錄型別**，將記錄型別新增至任何區段中的工作區。
 
@@ -215,20 +217,20 @@ Old:
 
 1. （可選）按一下新工作區左側的返回箭頭，以開啟Planning首頁面。 在我所在的&#x200B;**工作區**&#x200B;索引標籤中為新工作區建立了新工作區卡片。
 
-   The name of the user who created the workspace is saved on the workspace card as the Owner.
+   建立工作區的使用者名稱會以擁有者的身分儲存在工作區卡片上。
 
    >[!TIP]
    >
-   >Workspaces created by Workfront-only users who have not been added to the Adobe Admin Console display as created by the **System**.
+   >僅Workfront使用者建立且尚未新增至Adobe Admin Console的工作區，會顯示為&#x200B;**系統**&#x200B;所建立。
    >
 
-### Create multiple workspaces using a best-practice multi-workspace template bundle
+### 使用最佳實務多工作區範本套件組合建立多個工作區
 
 >[!IMPORTANT]
 >
->Creating multiple workspaces at a time using the best-practice template bundle is available only when the following prerequisites are met:
+>只有在符合下列先決條件時，才能使用最佳實務範本套件組合一次建立多個工作區：
 >
->* Your organization purchased a Workfront Planning Prime or Ultimate package.
+>* 貴組織已購買Workfront Planning Prime或Ultimate套件。
 >* 您是系統管理員
 
 您只需按一下即可使用多工作區範本套件來建立6個工作區。
@@ -255,20 +257,20 @@ Old:
 
      「全域分類與分類」範本包含我們建議您在您的環境中建立的所有記錄型別和欄位，以便成功實作Workfront Planning。
 
-     You can later link or import the record types in this template in other workspaces you create.
+     您稍後可以在您建立的其他工作區中連結或匯入此範本中的記錄型別。
    * 2.Fréscopa全球行銷
    * 3.Fréscopa社交行銷
    * 4.弗雷斯科帕媒體與公關
    * 5.Fréscopa全球活動
-   * 6.Fréscopa Executive Company Leadership
+   * 6.Fréscopa執行公司領導力
 
-1. After opening the **Preview** box for each workspace template, click Back to go back to the **Create workspace** box, or click Use templates to use the templates including in the bundle and create workspaces.
+1. 開啟每個工作區範本的&#x200B;**預覽**&#x200B;方塊後，按一下&#x200B;**上一步**&#x200B;以返回&#x200B;**建立工作區**&#x200B;方塊，或按一下&#x200B;**使用範本**&#x200B;以使用套件組合中包含的範本並建立工作區。
 
-   The workspaces are created and display in the **Workspaces I&#39;m** on and **All Workspaces** tabs for System administrators. All Standard-license users will see the workspaces in their Workspaces area after a System Administrator creates them and shares the new workspaces with them.
+   工作區已建立並顯示在我所在的&#x200B;**工作區**&#x200B;以及系統管理員的&#x200B;**所有工作區**&#x200B;標籤中。 系統管理員建立所有標準授權使用者並與其共用新工作區後，這些使用者都會在其「工作區」區域中看見工作區。
 
-1. Start editing the workspaces you created and adding record types, records, views, and fields that are pertinent to your organization.
+1. 開始編輯您建立的工作區，並新增與組織相關的記錄型別、記錄、檢視和欄位。
 
-   For more information about best practices to implement Workfront, see the articles in the [Adobe Workfront Planning best practices: article index](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md) section.
+   如需有關實作Workfront的最佳實務的詳細資訊，請參閱[Adobe Workfront規劃最佳實務：文章索引](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md)區段中的文章。
 
    如需有關編輯工作區的資訊，請參閱[編輯工作區](/help/quicksilver/planning/architecture/edit-workspaces.md)。
 

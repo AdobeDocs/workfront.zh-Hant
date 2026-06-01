@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
+source-git-commit: 4692dc6f7ab840bb43f3788126471425e9f8a396
 workflow-type: tm+mt
-source-wordcount: '4251'
+source-wordcount: '4209'
 ht-degree: 2%
 
 ---
@@ -378,7 +378,7 @@ Old:
 
 1. （選擇性）新增其他篩選器群組，並由&#x200B;**AND**&#x200B;或&#x200B;**OR**&#x200B;運運算元加入。
 
-   系統會根據您的篩選條件自動篩選記錄清單。  <!--at this time, you can't name and save the filter - but will this change?!-->
+   系統會根據您的篩選條件自動篩選記錄清單。 <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. （選擇性）按一下&#x200B;**x**&#x200B;圖示以移除篩選條件。
@@ -401,8 +401,8 @@ Old:
 在時間軸檢視中使用群組時，請考量下列事項：
 
 * 您可以在表格和時間軸檢視中套用群組。 表格檢視的分組與相同記錄型別之時間軸檢視中的群組是獨立的。
-* 您可以在檢視中套用3個群組層級。 記錄會依照您選取的群組順序進行分組。
-&lt;！—！—*使用API時，您最多可以套用4個層級的群組。  — 現在正在檢查此專案 — >
+* 您可以在檢視中套用3個群組層級。記錄會依照您選取的群組順序進行分組。
+&lt;！—*使用API時，您最多可以套用4個層級群組。 — 現在正在檢查此層級 — >
 * 群組對於您選取的檢視而言是唯一的。 相同記錄型別的兩個表格檢視可以套用不同的群組。 檢視相同表格檢視的兩個使用者會看到目前套用的相同分組。
 * 您無法為表格檢視建立的分組命名。
 * 移除群組會將群組從存取與您相同記錄型別以及顯示與您相同檢視的任何人中移除。
