@@ -9,10 +9,15 @@ exl-id: 2f83c427-4439-499d-a0b2-fc8630552cae
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: 'https://experienceleague.adobe.com/SrMrI5ZjxxF1E40TcOgwNjTwWUMpQ3EeXREFjDmr45E'
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
 source-wordcount: 934
@@ -85,7 +90,7 @@ ht-degree: 1%
 
 1. 按一下工作區卡片。
 1. 按一下工作區名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**設定**。
-預設會開啟**階層**&#x200B;區段。
+預設會開啟&#x200B;**階層**&#x200B;區段。
 1. 按一下&#x200B;**階層**&#x200B;頁面右上角的&#x200B;**新階層**。
 1. 按一下&#x200B;**新增物件**，然後從下拉式功能表中選取物件型別。 這將是階層中的第一個物件型別。<!--logged bug to correct to "Add object type"-->
 
@@ -93,7 +98,7 @@ ht-degree: 1%
 
    Workfront專案不能選取為階層中其他物件型別的父項。
 
-1. 按一下&#x200B;**新增物件**以新增第二個物件型別，這是階層中的第一個子系，然後在下拉式選單中選取另一個物件型別。
+1. 按一下&#x200B;**新增物件**&#x200B;以新增第二個物件型別，這是階層中的第一個子系，然後在下拉式選單中選取另一個物件型別。
 每個額外的物件型別都會成為先前物件型別的子系。
 
    ![未選取欄位的新階層方塊](assets/new-hierarchy-modal-without-connecte-fielf-selected.png)
@@ -103,13 +108,13 @@ ht-degree: 1%
 
    或
 
-   按一下[新增連線]****&#x200B;以新增連線欄位。
+   按一下[新增連線]&#x200B;**&#x200B;**&#x200B;以新增連線欄位。
 
    這會根據您當作父項的記錄型別建立一個連線欄位，並根據您當作子項的記錄型別建立一個對應的連線欄位。
 
    如果您要建立與Workfront專案的連線，專案上不會建立任何欄位。
 
-1. （視條件而定）如果沒有可用的連線欄位，請按一下[建立連線] **並新增連線，然後按一下[儲存]****。**
+1. （視條件而定）如果沒有可用的連線欄位，請按一下[建立連線] **並新增連線，然後按一下[儲存]**&#x200B;**。**
 
 1. （視條件而定）如果您要新增連線，請執行下列動作：
 
