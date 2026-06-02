@@ -4,9 +4,20 @@ description: 隱藏測試
 hide: true
 hold: true
 exl-id: b6b0f429-b619-4b8e-ab81-ad190dae5a0b
-source-git-commit: b5c64bb3d1c4e7a1337a8b5672a5f95dd8d5ef7f
+TQID: https://experienceleague.adobe.com/RlziN8Iol78I68TviI3xYG3HmfsooyCM4jwapInCXpM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 26100d45462943a833c9362a139f8cc68d30b5ed
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: 625
 ht-degree: 19%
 
 ---
@@ -294,4 +305,5 @@ ht-degree: 19%
 </table>
 
 如需詳細資訊，請參閱[Workfront檔案的存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+
 
