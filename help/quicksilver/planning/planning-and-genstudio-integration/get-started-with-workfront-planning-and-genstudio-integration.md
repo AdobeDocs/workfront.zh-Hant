@@ -6,11 +6,22 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
+TQID: https://experienceleague.adobe.com/Dzo6SD-mf-89koGS55sYT8gSk7z1U7aEyrg1MzSEHGY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '2351'
+source-wordcount: 2355
 ht-degree: 1%
 
 ---
@@ -375,14 +386,14 @@ Old for the second row in the table:
 
 ### 在GenStudio工作區中記錄連線
 
-您可以在您擁有管理許可權的GenStudio工作區中，建立不同記錄型別之間的連線。
+當您擁有工作區的「管理」許可權時，您可以在GenStudio工作區中的記錄型別之間建立連線。
 
 您可以在GenStudio記錄型別與Workfront Planning中的其他記錄或物件型別之間建立下列連線：
 
 * 兩種GenStudio記錄型別
 * 來自相同工作區的GenStudio記錄型別和Planning記錄型別
 * 來自另一個工作區的GenStudio記錄型別和Planning記錄型別（如果記錄型別設定為從另一個工作區連線）。
-* GenStudio記錄型別和Workfront物件型別（專案、投資組合、方案、公司、群組）
+* GenStudio記錄型別和Workfront物件型別（專案、投資組合、方案、公司、群組）。
 * GenStudio記錄型別和AEM物件型別（Assets或內容片段）。 除了Adobe Experience Manager的授權和Adobe GenStudio for Performance Marketing的授權之外，您還必須擁有Workfront的授權才能存取AEM物件。
 * GenStudio記錄型別和GenStudio品牌。 Brands連線依預設會新增至Products和Personas記錄型別。
 

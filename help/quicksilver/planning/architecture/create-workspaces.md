@@ -6,24 +6,33 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 4692dc6f7ab840bb43f3788126471425e9f8a396
+TQID: https://experienceleague.adobe.com/LtHxTws4o0FI964-qOtFE-sbKaLGRQroBQvMD5fOUvY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 0%
+source-wordcount: 1311
+ht-degree: 1%
 
 ---
 
-
 # 建立工作區
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
-
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -230,12 +239,12 @@ Old:
 >
 >只有在符合下列先決條件時，才能使用最佳實務範本套件組合一次建立多個工作區：
 >
->* 貴組織已購買Workfront Planning Prime或Ultimate套件。
+>* 貴組織已購買Workfront或工作流程計畫Prime或Ultimate套件
 >* 您是系統管理員
 
-您只需按一下即可使用多工作區範本套件來建立6個工作區。
+您只需按一下即可使用多工作區範本組合來建立6個工作區。
 
-套件組合中包含的範本包含工作區、記錄型別、記錄、檢視和欄位，可協助您開始實施Planning。
+套件組合中包含的範本包含工作區、記錄型別、記錄、檢視和欄位，可協助您開始實施Planning。 如需詳細資訊，請參閱[工作區範本清單](/help/quicksilver/planning/architecture/workspace-templates.md)。
 
 >[!IMPORTANT]
 >
@@ -246,27 +255,44 @@ Old:
 
 {{step1-to-planning}}
 
-1. 按一下&#x200B;**建立工作區**
+1. 執行下列其中一項：
 
-   「建立工作區」方塊隨即顯示。 您可以從頭開始建立工作區，或使用其中一個可用的範本建立工作區。
+   * 按一下「**建立工作區**」，然後依照下列步驟進行：
 
-1. 按一下&#x200B;**從這裡開始（建議）**&#x200B;區域中的&#x200B;**檢閱工作區設定**。
-1. （選擇性）在下列任何預先定義的工作區範本中按一下&#x200B;**預覽**，以開啟每個範本的「預覽」方塊：
+      1. 「建立工作區」方塊隨即顯示。 您可以從頭開始建立工作區，或使用其中一個可用的範本建立工作區。
 
-   * 1.全域分類與分類法
+      1. 按一下&#x200B;**從這裡開始（建議）**&#x200B;區域中的&#x200B;**檢閱工作區設定**。
+      1. （選擇性）在下列任何預先定義的工作區範本中按一下&#x200B;**預覽**，以開啟每個範本的「預覽」方塊：
 
-     「全域分類與分類」範本包含我們建議您在您的環境中建立的所有記錄型別和欄位，以便成功實作Workfront Planning。
+         * 1.全域分類與分類法
 
-     您稍後可以在您建立的其他工作區中連結或匯入此範本中的記錄型別。
-   * 2.Fréscopa全球行銷
-   * 3.Fréscopa社交行銷
-   * 4.弗雷斯科帕媒體與公關
-   * 5.Fréscopa全球活動
-   * 6.Fréscopa執行公司領導力
+           「全域分類與分類」範本包含我們建議您在您的環境中建立的所有記錄型別和欄位，以便成功實作Workfront Planning。
 
-1. 開啟每個工作區範本的&#x200B;**預覽**&#x200B;方塊後，按一下&#x200B;**上一步**&#x200B;以返回&#x200B;**建立工作區**&#x200B;方塊，或按一下&#x200B;**使用範本**&#x200B;以使用套件組合中包含的範本並建立工作區。
+           您稍後可以在您建立的其他工作區中連結或匯入此範本中的記錄型別。
+         * 2.Fréscopa全球行銷
+         * 3.Fréscopa社交行銷
+         * 4.弗雷斯科帕媒體與公關
+         * 5.Fréscopa全球活動
+         * 6.Fréscopa執行公司領導力
 
-   工作區已建立並顯示在我所在的&#x200B;**工作區**&#x200B;以及系統管理員的&#x200B;**所有工作區**&#x200B;標籤中。 系統管理員建立所有標準授權使用者並與其共用新工作區後，這些使用者都會在其「工作區」區域中看見工作區。
+      1. 開啟每個工作區範本的&#x200B;**預覽**&#x200B;方塊後，按一下&#x200B;**上一步**&#x200B;以返回&#x200B;**建立工作區**&#x200B;方塊，或按一下&#x200B;**使用範本**&#x200B;以使用套件組合中包含的範本並建立工作區。
+
+   <div class="preview">
+
+   * 按一下&#x200B;**範例工作區**&#x200B;索引標籤，然後依照下列步驟進行：
+
+      1. 按一下標籤上的其中一個工作區範本，即可檢閱每個範本中的記錄型別和欄位。 **範例工作區**&#x200B;索引標籤中的範本是唯讀的。
+      1. 按一下範本右上角的&#x200B;**從範本建立**。
+      1. （選擇性）按一下任何範本上的&#x200B;**預覽**&#x200B;以檢視記錄型別及其欄位。
+
+         >[!TIP]
+         >
+         >按一下範本中的記錄型別卡片，即可在右側面板中顯示記錄型別的欄位。
+      1. 按一下&#x200B;**使用範本**。
+
+   </div>
+
+   這6個工作區已建立並顯示在我所在的&#x200B;**工作區**&#x200B;以及系統管理員的&#x200B;**所有工作區**&#x200B;標籤中。 系統管理員建立所有標準授權使用者並與其共用新工作區後，這些使用者都會在其「工作區」區域中看見工作區。
 
 1. 開始編輯您建立的工作區，並新增與組織相關的記錄型別、記錄、檢視和欄位。
 

@@ -6,11 +6,29 @@ description: 計畫工作在Adobe Workfront中以專案和任務表示。 不過
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+TQID: https://experienceleague.adobe.com/6meiGiiAKIASHWC5a8p7WnQ9W1JY0xL71LsUqbAAukY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '2795'
+source-wordcount: 2795
 ht-degree: 1%
 
 ---
@@ -309,7 +327,7 @@ Workfront管理員必須建立「請求佇列」的下列元件：
      </tr> 
      <tr> 
       <td role="rowheader"><strong>文件</strong> </td> 
-      <td> <p>將檔案新增至您的請求。 </p> <p> 視請求佇列的設定方式而定，檔案區段可能會顯示在自訂欄位之前或之後。 </p> <p>您上傳至Workfront的檔案會在草擬的請求中儲存24小時。 之後，當您返回編輯並提交草稿時，必須重新附加它們。 從其他磁碟機連結的檔案會永久儲存在草稿上。 </p> 
+      <td> <p>將檔案新增至您的請求。 </p> <p> 視請求佇列的設定方式而定，檔案區段可能會顯示在自訂欄位之前或之後。 </p> <p>您上傳至Workfront的檔案會在草擬的請求中儲存24小時。 之後，當您返回編輯並提交草稿時，必須重新附加它們。 從外部磁碟機連結的檔案會永久儲存在草稿上。 </p> 
       <p>根據您的Workfront管理員為您的環境選取的檔案儲存型別，附加至請求的檔案會新增至以下專案：</p>
       <ul><li>對於使用Workfront儲存空間的請求，檔案會新增到新建立請求的檔案區段。</li>
       <li>對於使用Adobe雲端儲存空間的請求，檔案會新增至新建立的資料夾（名稱與請求相同），並在提交過程中自動新增至請求。 </li></ul>

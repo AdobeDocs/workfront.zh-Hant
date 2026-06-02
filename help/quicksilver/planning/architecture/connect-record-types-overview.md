@@ -6,13 +6,25 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: b014a06cd4c3305967fcd2edfe893a024051fa9c
+TQID: https://experienceleague.adobe.com/yX-p5GzLd4EMOdWDrw3gAHqZfRvPCUaYXCjEnGxcwc4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '2261'
+source-wordcount: 2304
 ht-degree: 1%
 
 ---
-
 
 <!--keep the 30 limit verbiage in yellow til Jan 2026-->
 
@@ -43,39 +55,12 @@ ht-degree: 1%
   >
   >在Workfront Planning中，一個記錄型別最多可以有30個連線欄位。
 
+* 您可以從記錄型別手動新增「新連線」欄位，以在Workfront Planning中連線下列實體：
 
-* 關於連線記錄和物件型別，請注意下列事項：
+   * 兩種記錄型別
 
-   * 您可以從記錄型別手動新增「新連線」欄位，以在Workfront Planning中連線下列實體：
-
-      * 兩種記錄型別
-
-        依預設，您可以從相同的工作區連線兩種記錄型別。 如果您的組織購買了較高的Workfront或Planning套件，您也可以設定記錄型別以與其他工作區的記錄型別連線。 如需詳細資訊，請參閱[編輯記錄型別](/help/quicksilver/planning/architecture/edit-record-types.md)。
-      * 來自另一個應用程式的記錄型別和物件型別。
-
-     如需如何連線記錄和物件型別的詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
-
-     手動連線記錄型別與其他記錄或物件型別之後，您可以連線個別記錄和物件。
-
-     如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
-
-   * 在下列情況下，實體之間的連線會自動建立：
-
-      * 當您使用自動化從記錄型別的頁面建立記錄時。
-
-        當自動化建立連線的記錄或物件時，記錄型別或記錄型別與來自另一個應用程式的物件型別之間的連線會自動建立。
-
-        如需詳細資訊，請參閱[設定Adobe Workfront規劃自動化](/help/quicksilver/planning/records/configure-automations-to-create-records.md)。
-
-      * 當您為記錄型別設定請求表單以建立記錄或物件時。
-
-        當您提交並核准建立記錄的Planning請求時，系統會自動建立記錄型別與請求物件型別之間的連線。
-
-        如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
-
-        您可以在Workfront的「請求」區域或Workfront Planning的「原始請求連線」欄位中，於&#x200B;**主旨**&#x200B;欄位中檢視原始請求。
-
-   * 您可以從下列應用程式將Workfront Planning記錄型別與下列物件型別連線：
+     依預設，您可以從相同的工作區連線兩種記錄型別。 如果您的組織購買了較高的Workfront或Planning套件，您也可以設定記錄型別以與其他工作區的記錄型別連線。 如需詳細資訊，請參閱[編輯記錄型別](/help/quicksilver/planning/architecture/edit-record-types.md)。
+   * 這些應用程式的記錄型別和下列物件型別：
 
       * Adobe Workfront：
 
@@ -107,9 +92,45 @@ ht-degree: 1%
         >
         >您必須具備下列專案才能與Adobe Experience Manager物件和GenStudio品牌連線：
         >* Adobe Experience Manager授權
-        >* Adobe GenStudio for Performance Marketing授權
+        >* Adobe GenStudio for Performance Marketing授權。
 
-* 當連線兩個記錄型別或一個記錄型別以及來自另一個應用程式的物件型別時，存在以下情況：
+   * GenStudio工作區及以下實體中的GenStudio for Performance Marketing記錄型別：
+
+      * Workfront Planning記錄型別
+      * Workfront物件
+      * AEM物件（資產或內容片段）
+      * GenStudio for Performance Marketing品牌
+
+        >[!NOTE]
+        >
+        >* 您無法將Adobe GenStudio工作區記錄型別連線至Planning中的其他GenStudio記錄型別。
+        >* 您無法從GenStudio工作區將Planning記錄型別連線至記錄型別。
+
+
+     手動連線記錄型別與其他記錄或物件型別之後，您可以連線個別記錄和物件。
+
+     如需如何連線記錄和物件型別的詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
+
+     如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
+
+* 在下列情況下，實體之間的連線會自動建立：
+
+   * 當您使用自動化從記錄型別的頁面建立記錄時。
+
+     當自動化建立連線的記錄或物件時，記錄型別或記錄型別與來自另一個應用程式的物件型別之間的連線會自動建立。
+
+     如需詳細資訊，請參閱[設定Adobe Workfront規劃自動化](/help/quicksilver/planning/records/configure-automations-to-create-records.md)。
+
+   * 當您為記錄型別設定請求表單以建立記錄或物件時。
+
+     當您提交並核准建立記錄的Planning請求時，系統會自動建立記錄型別與請求物件型別之間的連線。
+
+     如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
+
+     您可以在Workfront的「請求」區域或Workfront Planning的「原始請求連線」欄位中，於&#x200B;**主旨**&#x200B;欄位中檢視原始請求。
+
+
+* 當連線兩個記錄型別或一個記錄型別以及另一個應用程式的物件型別時，會出現下列情況：
 
    * **當您連線兩個Planning記錄型別時**：連結的記錄欄位會在您連線的記錄型別上建立。 類似的連結記錄欄位會在您連線的記錄型別上建立，但前提是在您啟用[新增連線]索引標籤上的[在連結的記錄型別上建立對應欄位]設定時。
 
