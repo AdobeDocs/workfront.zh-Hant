@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
+source-git-commit: 3bd72ca7e9a55dded97fa65d403d661f3ca95d3e
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -18,21 +18,19 @@ ht-degree: 0%
 
 如需2026年第三季度發行週期中目前可用的所有變更清單，請參閱[2026年第三季度發行概觀](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)。
 
-<!--
-## Print summary for documents in the new Documents area
+
+## 列印新檔案區域中的檔案摘要
 
 >[!NOTE]
 >
->Preview: May 28, 2026
->Production fast release: June 11, 2026
->Production for everyone: July 16, 2026
+>預覽： 2026年6月2日>生產快速發佈： 2026年6月11日>每個人的生產： 2026年7月16日
 
-You can now open a printable summary of a document's approval directly from the new Documents area. This feature is available to organizations using Adobe cloud storage. 
+您現在可以直接從新的檔案區域開啟檔案核准的可列印摘要。 此功能適用於使用Adobe雲端儲存空間的組織。
 
-After a document has an approval, a **Print summary** option appears in the Document Details panel's Overview section. Clicking **Open Print Summary** opens the Frame.io Print Comments page, which shows the asset preview, comments, and approval decisions in a printable format.
+檔案獲得核准後，**列印摘要**&#x200B;選項會出現在檔案詳細資訊面板的「概觀」區段中。 按一下&#x200B;**開啟列印摘要**&#x200B;開啟Frame.io列印註解頁面，以可列印的格式顯示資產預覽、註解及核准決定。
 
-For more information, see [Document Details overview](/help/quicksilver/documents/managing-documents/document-details-overview.md) and [Summary for documents overview](/help/quicksilver/documents/managing-documents/summary-for-documents.md).
--->
+如需詳細資訊，請參閱[檔案詳細資訊概述](/help/quicksilver/documents/managing-documents/document-details-overview.md)和[檔案概述](/help/quicksilver/documents/managing-documents/summary-for-documents.md)的摘要。
+
 
 ## 新增自訂訊息至檔案核准工作流程階段
 

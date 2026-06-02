@@ -7,16 +7,30 @@ description: 「摘要」可讓您直接從檔案清單與重要資訊互動。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+TQID: https://experienceleague.adobe.com/gDZwho8TsvB7bMML-f4SisR-cyjs1aPyHOMpOxmgtwI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 322583384e4397bf02d534c14db46020e409aa35
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: 725
 ht-degree: 5%
 
 ---
 
 # 檔案摘要概覽
+
+{{highlighted-preview}}
 
 <!--Audited: April, 2024-->
 
@@ -133,9 +147,11 @@ ht-degree: 5%
 
 ### 詳細資料
 
-使用詳細資訊區段檢視高階總覽資訊並與自訂表單互動。
+使用[詳細資料]區段來檢視高階概觀資訊、與自訂表格互動，以及<span class="preview">開啟列印摘要</span>。
 
 ![新檔案中的檔案摘要詳細資訊](assets/summary-details.png)
+
+
 
 ### 核准
 
