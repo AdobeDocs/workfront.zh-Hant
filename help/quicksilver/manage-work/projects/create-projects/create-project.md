@@ -6,11 +6,17 @@ description: 專案是Adobe Workfront中的大型工作單位。 您可以從頭
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+TQID: https://experienceleague.adobe.com/ftDbs1BguO-wdhSEzFe318xKOV86cbfBbyHkm0FPmqM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d3382524-5489-431b-bde9-271ab257bc37id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: 1682
 ht-degree: 2%
 
 ---
@@ -123,7 +129,15 @@ Old:
 
   如需有關存取Workfront Planning的資訊，請參閱[存取總覽](/help/quicksilver/planning/access/access-overview.md)。
 
-  如需透過將專案新增至記錄來建立專案的資訊，請參閱文章[當您連線至記錄時，從Workfront Planning建立Workfront物件](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)中的「連線至Workfront Planning的記錄時建立專案」一節
+  如需透過將專案新增至記錄來建立專案的資訊，請參閱文章[當您連線至記錄時，從Workfront Planning建立Workfront物件](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)中的「連線至Workfront Planning的記錄時建立專案」一節。
+
+* 使用Workfront規劃自動化新增專案。
+
+  如需詳細資訊，請參閱[使用Adobe Workfront Planning記錄自動化建立物件](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)。
+
+  您必須擁有新的Workfront授權和適用於Workfront Planning的額外Workfront Planning套件。
+
+  如需有關存取Workfront Planning的資訊，請參閱[存取總覽](/help/quicksilver/planning/access/access-overview.md)。
 
 ## 先決條件
 
@@ -250,7 +264,7 @@ Old:
    >
    >專案的狀態應為Planning，或其他非「目前」的狀態。 這可讓您變更專案，而不需產生通知給專案參與者。
 
-1. 按一下[儲存]儲存變更。**&#x200B;**
+1. 按一下[儲存]儲存變更。****
 
 1. （選擇性）設定專案設定並新增任務後，您可將專案標題中的專案狀態變更為&#x200B;**目前**。
 
