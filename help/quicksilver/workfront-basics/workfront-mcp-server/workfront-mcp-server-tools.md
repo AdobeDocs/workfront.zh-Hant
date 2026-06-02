@@ -5,9 +5,9 @@ title: Adobe Workfront MCP伺服器工具
 description: 透過Adobe Workfront MCP伺服器可用的工具參考清單，按Workfront區域分組。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 4c98518dfc667ee288e520c2bbe6e550803d5be7
+source-git-commit: 6301888b4d758fbf8a60c2698f800395618bb527
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: '1582'
 ht-degree: 5%
 
 ---
@@ -48,13 +48,17 @@ ht-degree: 5%
 | 依版本ID取得檔案 | `approvals_get_document_by_version_id` | 會擷取已知檔案版本ID的檔案詳細資訊（名稱、大小、上傳日期、上傳程式）。 | 讀取 |
 | 依專案取得檔案 | `approvals_get_documents_by_project` | 列出Workfront專案內的檔案，每個檔案的目前版本ID。 | 讀取 |
 | 解析檔案範圍 | `approvals_resolve_document_scope` | 將專案或資料夾展開至其包含的檔案版本ID清單中。 支援專案、資料夾和依名稱資料夾範圍。 | 讀取 |
-| 列出AEM連結的資料夾* | `approvals_list_aem_linked_folders` | 列出連結至Adobe Experience Manager的Workfront檔案資料夾。 | 讀取 |
-| 傳送檔案至AEM資料夾* | `approvals_send_documents_to_aem_folder` | 將一或多個Workfront檔案移動到AEM連結的資料夾。 | 寫入 |
 
-*您必須在Workfront執行個體中設定原生[!DNL Adobe Experience Manager]整合，才能使用這些工具。 如需詳細資訊，請參閱[&#x200B; Adobe Experience Manager Assets整合概述](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)。
+<!--
+| List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
+| Send documents to AEM folder* | `approvals_send_documents_to_aem_folder` | Moves one or more Workfront documents to an AEM-linked folder. | Write |
+
+*You must have a native [!DNL Adobe Experience Manager] integration configured in your Workfront instance to use these tools. For more information, see [Overview of Adobe Experience Manager Assets integrations](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
 
 
-*Adobe雲端儲存空間上的專案尚不支援將檔案傳送至AEM資料夾。 未來版本預計會提供支援。
+*Sending documents to an AEM folder is not yet supported for projects on Adobe cloud storage. Support is expected in a future release.
+
+-->
 
 ### 核准工作流程
 
