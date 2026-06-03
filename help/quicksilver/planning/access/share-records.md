@@ -6,11 +6,23 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 9ffad1aa-3c96-40fa-9c62-7a3e00699f18
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: fdbe3945f59306fc26424d7e88b799d9dcaea4da
+TQID: https://experienceleague.adobe.com/NTytTWD-zq3PVhXn4n-GHinvQxna1wfnAXjaeYBgTEY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c33c023ab33a3b0c8369e6fae091d0ec877aa4e2
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: 1720
 ht-degree: 2%
 
 ---
@@ -125,6 +137,8 @@ maybe use the Share record types as example here and touch on the same points: h
 當使用者擁有工作區或記錄型別的貢獻許可權時，他們將獲得該記錄型別的記錄的管理許可權。
 * 當您從工作區中移除實體時，所有共用許可權都會從記錄型別及其中的所有記錄中移除。
 * 您無法與沒有工作區或記錄型別許可權的使用者共用記錄。
+
+  如果您與不在工作區中的人員共用記錄，系統會自動將他們新增至工作區。
 * 使用者對記錄的存取權取決於以下3個設定的組合：
 
    * 其許可權繼承自記錄型別和工作區
@@ -149,7 +163,7 @@ maybe use the Share record types as example here and touch on the same points: h
 
 * 您可以停用單一記錄的繼承許可權，在此情況下，您可以為選取的使用者授予個別記錄的許可權，或者如果他們屬於工作區，則可獲得許可權，因為&#x200B;**工作區中的所有人都可以檢視**&#x200B;選項。
 
-* 如果同一個使用者套用多個共用許可權，這些使用者會獲得這些許可權的最高許可權。
+* 如果同一個使用者套用多個共用許可權，這些使用者會收到這些許可權的最高層級。
 
   例如，如果記錄與具有檢視許可權的使用者共用，並且其群組具有管理存取權，則他們會獲得該記錄的管理許可權。
 
