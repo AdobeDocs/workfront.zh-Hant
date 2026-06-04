@@ -10,11 +10,17 @@ exl-id: 4d6ef324-4b5c-402b-b64d-b1a2a7d2ab57
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/gwnONdZN4YH9Gbg8mqEWS0CSWn6SGZ0a-fjBouciBBI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560id: fceb5125-bb41-419a-b0db-31958cb42f6c
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 403
@@ -207,7 +213,7 @@ Adding activities to goals differs depending on which environment you use.
 1. 按一下&#x200B;**主功能表** ![主功能表圖示](assets/lines-main-menu.png)，然後按一下&#x200B;**目標**。
 1. 從目標清單中，按一下目標的名稱以開啟目標的頁面。
 1. 按一下左側面板中的&#x200B;**進度指示器**。
-1. 從[新增進度指示器]下拉式功能表，按一下[建立活動] ****。
+1. 從[新增進度指示器]下拉式功能表，按一下[建立活動] **&#x200B;**。
 
    「新增活動」方塊開啟。
 

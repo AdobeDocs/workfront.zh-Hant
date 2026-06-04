@@ -7,11 +7,17 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: a5438db3-6507-4ebc-a27c-65f02c45783e
 TQID: https://experienceleague.adobe.com/2fQRZtOWmMXOPEq-NDvyHTVsM6SQuOj-V8UtrAys6y8
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1164
@@ -81,7 +87,7 @@ ht-degree: 2%
 1. 按一下&#x200B;**共用** > **校訂連結**。
 1. 在出現的&#x200B;**校訂連結**&#x200B;方塊中，執行下列其中一項作業：
 
-   * 若要將連結複製到剪貼簿，請按一下[複製連結]。****
+   * 若要將連結複製到剪貼簿，請按一下[複製連結]。**&#x200B;**
 
      您現在可以透過第三方工具（例如聊天或電子郵件應用程式）發佈連結。
 
@@ -154,7 +160,7 @@ ht-degree: 2%
 1. （選用）設定稽核者的截止日期。
 1. （選擇性）如果您想要讓檢閱者知道您已將他們新增至校訂，請確定已選取&#x200B;**透過電子郵件通知人員**。
 1. （選擇性） **新增自訂訊息**&#x200B;至電子郵件。
-1. 新增所有檢閱者後，請按一下[共用]。****
+1. 新增所有檢閱者後，請按一下[共用]。**&#x200B;**
 
 ### 從校訂檢視器將使用者新增到現有校訂
 
@@ -180,4 +186,4 @@ ht-degree: 2%
 
 當使用者將您新增到校訂並使用Automated Workflow授予核准者角色或檢閱者和核准者角色時，核准請求將顯示在首頁區域的我的核准Widget中。 然後您可以直接從Workfront檢視校樣並對校樣做出核准決定。
 
-如需如何從我的核准Widget做出核准決定的相關資訊，請參閱[從首頁區域核准工作](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area)或[在[核准工作](../../../review-and-approve-work/manage-approvals/approving-work.md)中核准工作](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area)。
+如需如何從我的核准Widget做出核准決定的相關資訊，請參閱[從首頁區域核准工作](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area)或[&#128279;](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area)在[核准工作](../../../review-and-approve-work/manage-approvals/approving-work.md)中核准工作。

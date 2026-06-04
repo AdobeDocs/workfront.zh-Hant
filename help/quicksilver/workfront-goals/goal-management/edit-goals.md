@@ -9,11 +9,16 @@ exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/QeQHLMIUuBnloZ-l-q0ytD3UXx95s7fUPgiCO38LOxA
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: fceb5125-bb41-419a-b0db-31958cb42f6c
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 559
@@ -225,7 +230,7 @@ Editing goals differs depending on what environment you use.
    * 更新目標標題中的下列資訊，然後按Enter儲存變更：
       * **目標名稱**：按一下目標的名稱，然後開始輸入新名稱。
       * **擁有者**：按一下擁有者的名稱，然後開始輸入使用者、團隊、群組或您公司的名稱，然後在清單中顯示時選取該名稱。 一個目標只能有一個擁有者。
-   * 在[編輯目標]方塊中更新下列資訊，然後按一下[儲存] ****：
+   * 在[編輯目標]方塊中更新下列資訊，然後按一下[儲存] **&#x200B;**：
       * **目標名稱**
       * **期間**：按一下以更新目標的期間\
         或\
@@ -237,7 +242,7 @@ Editing goals differs depending on what environment you use.
 
       * **目標所有者**
       * **描述**：新增或更新目標的相關資訊。
-   * 更新或檢閱「目標詳細資料」區段中的資訊。 如需詳細資訊，請參閱Adobe Workfront目標](../goal-management/update-goals-in-goal-details-panel.md)中「目標詳細資料」一節的[更新目標。
+   * 更新或檢閱「目標詳細資料」區段中的資訊。 如需詳細資訊，請參閱Adobe Workfront目標[&#128279;](../goal-management/update-goals-in-goal-details-panel.md)中「目標詳細資料」一節的更新目標。
 
    <!-- (should you update the title here after changing it at production??? - change it to Update goals in the goal Details section)-->
 

@@ -7,8 +7,10 @@ author: Lisa
 feature: Get Started with Workfront
 exl-id: 4ab8dfd0-0a1f-425d-9e05-8e8134ce930a
 TQID: https://experienceleague.adobe.com/50PA5RHzFX275EI4nPAZ-b9P8Xx0Ia9dlgB1JHAd6-s
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 768
@@ -22,7 +24,7 @@ ht-degree: 0%
 
 您可以在校樣中新增註解，並經歷修訂過程以做出最終決定。 如需註解的詳細資訊，請參閱[註解 [!DNL iOS]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md)中的校訂或[註解 [!DNL Android]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md)中的校訂。
 
-您檢閱和核准校訂的存取權與[!DNL Adobe Workfront]中的相同。 如需校訂功能的相關資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔。
+您檢閱和核准校訂的存取權與[!DNL Adobe Workfront]中的相同。 如需校訂功能的相關資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
 
 ## 開啟並檢閱校訂
 
@@ -92,15 +94,15 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL已核准]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL 已核准]</strong></td> 
       <td>校訂已準備好移動到工作流程的下一個階段。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL已核准變更]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL 已核准變更]</strong></td> 
       <td> <p>校訂需要一些變更，但在修訂移至工作流程的下一個階段之前，您不需要檢視修訂專案。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[！UICONTROL已拒絕]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL 已拒絕]</strong></td> 
       <td>校訂被拒絕，不會在工作流程中前進。</td> 
      </tr> 
     </tbody> 

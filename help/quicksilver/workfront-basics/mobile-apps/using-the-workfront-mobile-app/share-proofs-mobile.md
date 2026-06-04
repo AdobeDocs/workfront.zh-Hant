@@ -7,8 +7,10 @@ author: Lisa
 feature: Get Started with Workfront
 exl-id: a97ddd1e-1cae-49a8-b3a4-7c9850169179
 TQID: https://experienceleague.adobe.com/tr04xDTRvfDtXABpu-RdEwv-RJjCiQJ5ALNo6pzRaNk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 595
@@ -22,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->所有收件者必須在[!DNL Workfront]中擁有存取權才能檢閱校樣。 如需有關授權和存取層級的資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔。
+>所有收件者必須在[!DNL Workfront]中擁有存取權才能檢閱校樣。 如需有關授權和存取層級的資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
 
 ## 共用校訂
 

@@ -7,11 +7,17 @@ author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 4c3638aa-5ee3-422a-9fee-41c4749fe48b
 TQID: https://experienceleague.adobe.com/KIxSnxmDRCIYGQ9Dn-sTJ-LyYQSJQqYloDbyqG9TCOs
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 784
@@ -49,7 +55,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定</strong></td> 
-   <td> <p>[！UICONTROL編輯]對任務和問題的存取權</p></td> 
+   <td> <p>[!UICONTROL 編輯]對任務和問題的存取權</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
@@ -77,7 +83,7 @@ ht-degree: 2%
 
 1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
 1. （視條件而定）按一下&#x200B;**自訂**&#x200B;以新增&#x200B;**我的任務**&#x200B;或&#x200B;**我的問題** Widget。
-1. 將滑鼠停留在工作專案上，然後按一下&#x200B;**摘要**圖示。
+1. 將滑鼠停留在工作專案上，然後按一下&#x200B;**摘要**&#x200B;圖示。
    ![開啟摘要](assets/open-summary-new-home.png)
 1. 按一下摘要面板頂端的&#x200B;**標籤為完成**。
 
@@ -113,7 +119,7 @@ ht-degree: 2%
 ### 指派給多個資源的專案的[!UICONTROL 完成]按鈕
 
 將任務或問題指派給多個資源時，按鈕會顯示單字&#x200B;**[!UICONTROL 完成]**，後面接著下拉式功能表。 在下拉式功能表中，您可以選擇在&#x200B;**[!UICONTROL 完成我的部分]** （讓團隊成員知道您已完成您的一部份工作）或與[!UICONTROL 完成]按鈕（完成專案）相關的狀態之間選擇。 選取&#x200B;**[!UICONTROL 完成我的零件]**&#x200B;後，工作專案會從您的工作清單中移除，但會保留在那些仍指派給工作專案的工作清單中。\
-如果「完成」按鈕與多個狀態相關聯，它們會列在「完成我的零件」****&#x200B;下。
+如果「完成」按鈕與多個狀態相關聯，它們會列在「完成我的零件」**&#x200B;**&#x200B;下。
 
 >[!NOTE]
 >

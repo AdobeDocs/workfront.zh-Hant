@@ -10,9 +10,12 @@ recommendations: noDisplay, noCatalog
 role: Developer
 exl-id: 90e00a71-1a3a-4e3f-99d8-47700052a9dc
 TQID: https://experienceleague.adobe.com/T-XaDpJdcTlcgMnHWPbluFacXAFhjuxWIGfieyIpF-o
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 198
@@ -38,20 +41,20 @@ ht-degree: 1%
 * [使用授權程式碼流程設定及使用您組織的自訂OAuth 2應用程式](../../wf-api/api/oauth-app-code-token-flow.md)
 * [使用JWT流程設定並使用您組織的自訂OAuth 2應用程式](../../wf-api/api/oauth-app-jwt-flow.md)
 * [使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式](../../wf-api/api/oauth-app-pkce-flow.md)
-* [ API 22](../../wf-api/api/new-api-version-22.md)版的新增功能
-* [ API 21](../../wf-api/api/new-api-version-21.md)版的新增功能
-* [ API 20](../../wf-api/api/new-api-version-20.md)版的新增功能
-* [ API 19](../../wf-api/api/new-api-version-19.md)版的新增功能
-* [ API 18](../../wf-api/api/new-api-version-18.md)版的新增功能
-* [ API 17](../../wf-api/api/new-api-version-17.md)版的新增功能
-* [ API 16](../../wf-api/api/new-api-version-16.md)版的新增功能
-* [ API 15](../../wf-api/api/new-api-version-15.md)版的新增功能
-* [ API 14](../../wf-api/api/new-api-version-14.md)版的新增功能
-* [ API 13](../../wf-api/api/new-api-version-13.md)版的新增功能
-* [ API 12](../../wf-api/api/new-api-version-12.md)版的新增功能
-* [ API 11](../../wf-api/api/new-api-version-11.md)版的新增功能
-* [ API 10](../../wf-api/api/new-api-version-10.md)版的新增功能
-* [ API版本9](../../wf-api/api/new-api-version-9.md)的新增功能
+* [&#x200B; API 22](../../wf-api/api/new-api-version-22.md)版的新增功能
+* [&#x200B; API 21](../../wf-api/api/new-api-version-21.md)版的新增功能
+* [&#x200B; API 20](../../wf-api/api/new-api-version-20.md)版的新增功能
+* [&#x200B; API 19](../../wf-api/api/new-api-version-19.md)版的新增功能
+* [&#x200B; API 18](../../wf-api/api/new-api-version-18.md)版的新增功能
+* [&#x200B; API 17](../../wf-api/api/new-api-version-17.md)版的新增功能
+* [&#x200B; API 16](../../wf-api/api/new-api-version-16.md)版的新增功能
+* [&#x200B; API 15](../../wf-api/api/new-api-version-15.md)版的新增功能
+* [&#x200B; API 14](../../wf-api/api/new-api-version-14.md)版的新增功能
+* [&#x200B; API 13](../../wf-api/api/new-api-version-13.md)版的新增功能
+* [&#x200B; API 12](../../wf-api/api/new-api-version-12.md)版的新增功能
+* [&#x200B; API 11](../../wf-api/api/new-api-version-11.md)版的新增功能
+* [&#x200B; API 10](../../wf-api/api/new-api-version-10.md)版的新增功能
+* [&#x200B; API版本9](../../wf-api/api/new-api-version-9.md)的新增功能
 * [API 8](../../wf-api/api/new-api-version-8-updates.md)版的更新
-* [ API版本7](../../wf-api/api/new-api-version-7.md)的新增功能
+* [&#x200B; API版本7](../../wf-api/api/new-api-version-7.md)的新增功能
 * [API 6版的新增功能](../../wf-api/api/new-api-version-6.md)

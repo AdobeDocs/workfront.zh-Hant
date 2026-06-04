@@ -7,11 +7,17 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
 TQID: https://experienceleague.adobe.com/gV7TwIUpXsu4wBBb31QE2ADnvZ6vWXtwQBvFGPYt73Y
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 625
@@ -53,11 +59,11 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">校樣權限設定檔 </td> 
-   <td>[！UICONTROL Manager]或更高版本</td> 
+   <td>[!UICONTROL Manager]或更高版本</td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>編輯[！UICONTROL檔案]的存取權</p>  </td> 
+   <td> <p>編輯[!UICONTROL 檔案]的存取權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,7 +100,7 @@ ht-degree: 3%
 1. （選擇性）選取&#x200B;**[!UICONTROL 新增外部檔案]**&#x200B;以從您的電腦新增檔案。
 1. 按一下&#x200B;**[!UICONTROL 上傳]**，然後根據上述選擇的資產型別設定任何需要的匯出選項。
 
-   外掛程式](assets/plugin-files-350x307.png)中的![檔案\
+   外掛程式![&#128279;](assets/plugin-files-350x307.png)中的檔案\
    檔案出現在[!DNL Photoshop]的[!DNL Workfront]面板中的[!UICONTROL 檔案]區域以及[!DNL Workfront]案頭應用程式中。
 
 
@@ -143,7 +149,7 @@ ht-degree: 3%
 1. 按一下[!DNL Workfront]面板底部附近的&#x200B;**[!UICONTROL 新版本]**。
 1. 啟用&#x200B;**[!UICONTROL 建立校訂]**&#x200B;切換。
 
-1. 在&#x200B;*[!UICONTROL *校訂核准]**區段中，選擇&#x200B;**[!UICONTROL 基本]**&#x200B;或&#x200B;**[!UICONTROL 自動化]**。
+1. 在&#x200B;*[!UICONTROL *校訂核准]&#x200B;**區段中，選擇&#x200B;**&#x200B;[!UICONTROL 基本]&#x200B;**&#x200B;或&#x200B;**&#x200B;[!UICONTROL 自動化]**。
 
 1. 根據您在步驟7中選取的核准型別，新增&#x200B;**[!UICONTROL 檢閱者]**&#x200B;或&#x200B;**[!UICONTROL 工作流程範本]**。
 

@@ -7,8 +7,10 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: daddc225-62df-4e1a-98fd-8bb7c7c5553b
 TQID: https://experienceleague.adobe.com/ICuW3kxD5GmRC4k2wDaxgqnDFva6iOnP5FRo-dBAVOw
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 412
@@ -43,7 +45,7 @@ Web校訂檢視器有下列限制：
 
 1. 開啟從包含互動式內容的ZIP檔案建立的校訂。
 
-   如需詳細資訊，請參閱[關於在[互動式內容校訂總覽](../../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md)中準備在ZIP檔案中校訂互動式內容](../../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md#howtoprepareaninteractiveziparchive)。
+   如需詳細資訊，請參閱[&#128279;](../../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md#howtoprepareaninteractiveziparchive)關於在[互動式內容校訂總覽](../../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md)中準備在ZIP檔案中校訂互動式內容。
 
    另請參閱[在ZIP檔案中建立互動式內容的校訂](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md)。
 
@@ -51,7 +53,7 @@ Web校訂檢視器有下列限制：
 
    訊息會提示您下載互動式內容的瀏覽器擴充功能。
 
-1. 按一下[新增至瀏覽器]****，移至瀏覽器商店中的擴充功能下載頁面，然後下載擴充功能。
+1. 按一下[新增至瀏覽器]&#x200B;**&#x200B;**，移至瀏覽器商店中的擴充功能下載頁面，然後下載擴充功能。
 1. 在網頁校訂檢視器中，按一下&#x200B;**重新載入校訂**。
 
 您的瀏覽器已安裝擴充功能，每次您按一下&#x200B;**新增註解**&#x200B;時，校訂檢視器都會擷取您內容的靜態熒幕擷圖。 您可以在此熒幕擷圖中使用標示新增註解。

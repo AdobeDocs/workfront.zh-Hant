@@ -7,10 +7,14 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ab00d17-a3a3-4417-a958-ac3d95cb8fc8
 TQID: https://experienceleague.adobe.com/wJNC4pCRhTpOfoiB1X6-6vKrYvWA2EaR-x2HfhwcDaY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 350
@@ -74,7 +78,7 @@ ht-degree: 6%
 
 1. 前往您要上傳ZIP檔案的專案、任務或問題。
 1. 按一下左側面板中的&#x200B;**檔案**。
-1. 按一下[新增]****，然後在出現的功能表中按一下[校訂]****。
+1. 按一下[新增]&#x200B;**&#x200B;**，然後在出現的功能表中按一下[校訂]&#x200B;**&#x200B;**。
 1. 在&#x200B;**新增檔案**&#x200B;區段中，拖放或瀏覽您所需的ZIP檔案。
 1. 按一下&#x200B;**建立校訂**&#x200B;以建立不含稽核程式的簡單校訂。\
    或\

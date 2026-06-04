@@ -8,11 +8,19 @@ feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 TQID: https://experienceleague.adobe.com/hneYUl0QJcsdaaxySdzlvC2DhxvtCUORTSKLeHpRgWQ
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: c10f2e93-7a58-4212-aa24-684c265ebe76id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1856
@@ -129,7 +137,7 @@ ht-degree: 1%
 1. 移至您要關聯核准流程的工作專案。
 1. 按一下左側面板中的&#x200B;**核准**。
 
-   任務](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的![核准區段
+   任務![&#128279;](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的核准區段
 
 1. ![使用現有或建立單一使用核准](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
 
@@ -176,7 +184,7 @@ ht-degree: 1%
 
 1. 新增全域核准程式後，請按一下核准頁面右上角的&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。 此動作會將全域或群組層級核准流程轉換為單次使用核准流程。
 1. 對現有核准流程進行任何變更。 如需詳細資訊，請參閱本文章的[將單一使用核准程式與專案、任務、問題、範本或範本任務建立關聯](#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task)。
-1. 按一下[儲存]****，然後再次按一下[儲存]****，確認您要將全域核准程式轉換為僅供此物件使用的一次性核准程式。
+1. 按一下[儲存]&#x200B;**&#x200B;**，然後再次按一下[儲存]&#x200B;**&#x200B;**，確認您要將全域核准程式轉換為僅供此物件使用的一次性核准程式。
 
 ## 將單一使用核准流程與專案、任務、問題、範本或範本任務建立關聯 {#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task}
 
@@ -197,7 +205,7 @@ ht-degree: 1%
 1. 前往您要與核准程式產生關聯的專案、任務、問題、範本或範本任務。
 1. 按一下左側面板中的&#x200B;**核准**。
 
-   任務](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的![核准區段
+   任務![&#128279;](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的核准區段
 
 1. 按一下&#x200B;**建立單一使用**。
 
@@ -234,7 +242,7 @@ ht-degree: 1%
 1. 前往您要移除先前新增之核准程式的專案、任務、問題、範本或範本任務。
 1. 按一下左側面板中的&#x200B;**核准**。
 
-   任務](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的![核准區段
+   任務![&#128279;](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的核准區段
 
 1. 根據與專案關聯的核准型別，按一下「核准」區段右上角的下列圖示之一：
 

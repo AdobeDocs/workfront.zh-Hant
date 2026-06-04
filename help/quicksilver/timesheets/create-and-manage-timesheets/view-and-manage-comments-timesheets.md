@@ -7,11 +7,16 @@ author: Lisa
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
 TQID: https://experienceleague.adobe.com/Lx-CI6hjj-YXrxIus0Kicsa7Gx84xjiuKDUJWPpUVqc
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 873
@@ -138,7 +143,7 @@ ht-degree: 2%
    執行下列其中一項：
 
    * 輸入新註解並按一下&#x200B;**完成**。
-   * 編輯現有的註解並按一下[完成]****，或按一下[取消]**以捨棄變更。**
+   * 編輯現有的註解並按一下[完成]&#x200B;**&#x200B;**，或按一下[取消]&#x200B;**以捨棄變更。**
    * 按一下&#x200B;**刪除**&#x200B;圖示![刪除圖示](assets/delete.png)以刪除已儲存的註解。
 
      小時輸入方塊的右上角會出現一個藍色標籤，表示有與時間輸入一起記錄的註解。

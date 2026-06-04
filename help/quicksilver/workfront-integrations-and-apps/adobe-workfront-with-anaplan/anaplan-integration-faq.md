@@ -7,10 +7,14 @@ author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: bbc24834-8e96-44ce-8098-63765d86ccc2
 TQID: https://experienceleague.adobe.com/e-IZiEvF2GkA5uS3QA-J8LQYCeV9dU698hPcSnCqR3Q
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 515
@@ -26,7 +30,7 @@ ht-degree: 0%
 * [此整合需要實作服務嗎？](#will-this-integration-require-implementation-services)
 * [我是否需要以特定方式設定 [!DNL Workfront] 才能讓此功能運作？](#is-there-a-specific-way-that-i-have-to-configure-workfront-for-this-to-work)
 * [我是否需要以特定方式設定 [!DNL Anaplan] 才能讓此功能運作？](#is-there-a-specific-way-that-i-have-to-configure-anaplan-for-this-to-work)
-* [ [!DNL Workfront professional services] 可以協助我設定我的 [!DNL Anaplan] 工作區嗎？](#will-workfront-professional-services-help-me-configure-my-anaplan-workspace)
+* [&#x200B; [!DNL Workfront professional services] 可以協助我設定我的 [!DNL Anaplan] 工作區嗎？](#will-workfront-professional-services-help-me-configure-my-anaplan-workspace)
 
 ## 我是否必須使用[!DNL Adobe Workfront Fusion?] {#do-i-have-to-use-adobe-workfront-fusion}
 

@@ -7,11 +7,16 @@ feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
 TQID: https://experienceleague.adobe.com/PNUMhekotNpz3n3bmmwWdH6fRL1-6b0T0PNwQIeR8Eg
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 663
@@ -70,7 +75,7 @@ ht-degree: 7%
 {{step1-to-priorities}}
 
 1. 按一下工作清單左上角的&#x200B;**篩選器**。
-1. 在&#x200B;**標準篩選器**區段中，選取一或多個篩選器以縮小您的工作專案範圍。
+1. 在&#x200B;**標準篩選器**&#x200B;區段中，選取一或多個篩選器以縮小您的工作專案範圍。
    ![篩選](assets/filter-new.png)
 
 +++展開以檢視有關可用篩選器的詳細資訊
@@ -180,7 +185,7 @@ ht-degree: 7%
 按「我的優先順序」或「狀態」分組時，您可以在類別之間拖放個別工作專案。
 
 1. 依&#x200B;**狀態**&#x200B;或&#x200B;**我的焦點**&#x200B;將您的工作分組。
-2. 將滑鼠停留在工作專案上，按一下&#x200B;**拖曳**圖示並將其移至所需類別。
+2. 將滑鼠停留在工作專案上，按一下&#x200B;**拖曳**&#x200B;圖示並將其移至所需類別。
    ![拖曳圖示](assets/drag-and-drop.png)
 
 ## 排序您的工作

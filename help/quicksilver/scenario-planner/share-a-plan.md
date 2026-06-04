@@ -10,11 +10,16 @@ exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/7SsWqw2hJVOdLeYYPBHtvkpLjH64uXfxYG5hAxSNguI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 874
@@ -50,16 +55,16 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 授權</p> </td> 
-   <td> <p>[！UICONTROL Light]或更高</p> 
-   <p>[！UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Light]或更高</p> 
+   <p>[!UICONTROL Review]或更高版本</p> </td> 
   </tr> 
     <tr> 
    <td>存取層級設定</td> 
-   <td> <p>[！UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> </td> 
+   <td> <p>[!UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr> 
    <td> <p>物件許可權 </p> </td> 
-   <td> <p>[！UICONTROL Manage]計畫的許可權</p> </td> 
+   <td> <p>[!UICONTROL Manage]計畫的許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -142,8 +147,8 @@ Old:
  <thead> 
   <tr> 
    <th> <p><strong>動作</strong> </p> </th> 
-   <th> <p><strong>[！UICONTROL管理]</strong> </p> </th> 
-   <th> <p><strong>[！UICONTROL檢視]</strong> </p> </th> 
+   <th> <p><strong>[!UICONTROL 管理]</strong> </p> </th> 
+   <th> <p><strong>[!UICONTROL 檢視]</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -247,11 +252,11 @@ Old:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL檢視]</td> 
+      <td role="rowheader">[!UICONTROL 檢視]</td> 
       <td>您共用計畫的使用者將擁有檢視計畫的許可權。 他們無法編輯計畫、新增方案、案例或發佈案例的相關資訊。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL管理]</td> 
+      <td role="rowheader">[!UICONTROL 管理]</td> 
       <td> <p>您共用計畫的使用者具有管理計畫的許可權，包括編輯資訊、新增方案、情境和發佈計畫。 </p> </td> 
      </tr> 
     </tbody> 

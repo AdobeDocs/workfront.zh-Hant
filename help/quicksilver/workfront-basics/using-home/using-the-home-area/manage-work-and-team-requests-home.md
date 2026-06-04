@@ -7,11 +7,20 @@ author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
 TQID: https://experienceleague.adobe.com/NmvefgKn8ASoQwTJkOGcFVKUCWG0JLo4g5evg36FT9Y
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: be65ef36-43e4-48e1-a062-caa3778e15beid: c10f2e93-7a58-4212-aa24-684c265ebe76id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+  - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 808
@@ -45,7 +54,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定</strong></td> 
-   <td> <p>[！UICONTROL編輯]對任務和問題的存取權</p> </td> 
+   <td> <p>[!UICONTROL 編輯]對任務和問題的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
@@ -64,7 +73,7 @@ ht-degree: 2%
 
 您可以選取篩選器，以顯示準備好要處理的專案或您目前處理的專案。
 
-本文說明如何使用[!UICONTROL 首頁]區域中的篩選器，以檢視您目前正在處理或可能考慮開始處理的專案。 如需如何在[!UICONTROL 首頁]區域中使用篩選器的相關資訊，請參閱[!UICONTROL 首頁]區域](/help/quicksilver/workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)的[!UICONTROL 工作清單]中的[顯示專案。
+本文說明如何使用[!UICONTROL 首頁]區域中的篩選器，以檢視您目前正在處理或可能考慮開始處理的專案。 如需如何在[!UICONTROL 首頁]區域中使用篩選器的相關資訊，請參閱[!UICONTROL 首頁]區域[&#128279;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)的[!UICONTROL 工作清單]中的顯示專案。
 
 若要在「我的工作」Widget中檢視工作專案：
 
@@ -127,9 +136,9 @@ ht-degree: 2%
 1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
 1. （視條件而定）按一下&#x200B;**自訂**&#x200B;以新增&#x200B;**我的工作** Widget。
 
-1. 在Widget工作清單中，暫留在工作專案上，然後按一下&#x200B;**摘要**圖示以檢視工作專案的相關資訊。
+1. 在Widget工作清單中，暫留在工作專案上，然後按一下&#x200B;**摘要**&#x200B;圖示以檢視工作專案的相關資訊。
    ![開啟摘要](assets/open-summary-new-home.png)
-1. 在&#x200B;**工作總攬**區段中，移除您的名稱。
+1. 在&#x200B;**工作總攬**&#x200B;區段中，移除您的名稱。
    ![移除指定任務](assets/remove-assignment.png)
 
 

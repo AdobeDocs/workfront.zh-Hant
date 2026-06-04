@@ -6,10 +6,15 @@ feature: Get Started with Workfront
 author: Courtney
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
 TQID: https://experienceleague.adobe.com/3dFbIhQzzlEcbHdb3lO0R0-2eAZ2GkDmVo1g5i0z5gI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1469
@@ -49,7 +54,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[！UICONTROL View]物件型別的存取權/td&gt; 
+   <td>[!UICONTROL View]物件型別的存取權/td&gt; 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
@@ -143,7 +148,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>包含OR</td> 
-   <td> <p>使用「OR」連線單字（不含引號）可讓您僅尋找至少符合[！UICONTROL搜尋]方塊中一個單字的物件。 這些字詞可依任何順序輸入。<br>例如，搜尋「Marketing OR Demo」（不含引號）會尋找具有以下名稱的物件：</p> 
+   <td> <p>使用「OR」連線單字（不含引號）可讓您僅尋找至少符合[!UICONTROL 搜尋]方塊中一個單字的物件。 這些字詞可依任何順序輸入。<br>例如，搜尋「Marketing OR Demo」（不含引號）會尋找具有以下名稱的物件：</p> 
     <ul> 
      <li> 市場分析示範</li> 
      <li>1月市場分析示範</li> 
@@ -153,7 +158,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>包含和</td> 
-   <td> <p>使用「AND」連線單字（不含引號）可讓您僅尋找符合[！UICONTROL搜尋]方塊中所有單字的物件。 這些字詞可依任何順序輸入。<br>例如，搜尋「Marketing AND Demo」（不含引號）會尋找具有以下名稱的物件：</p> 
+   <td> <p>使用「AND」連線單字（不含引號）可讓您僅尋找符合[!UICONTROL 搜尋]方塊中所有單字的物件。 這些字詞可依任何順序輸入。<br>例如，搜尋「Marketing AND Demo」（不含引號）會尋找具有以下名稱的物件：</p> 
     <ul> 
      <li>行銷示範</li> 
      <li>示範行銷</li> 
@@ -198,7 +203,7 @@ ht-degree: 2%
 
    ![依物件型別搜尋](assets/search-by-object-type-2026.png)
 
-1. 在&#x200B;**[!UICONTROL 搜尋]**方塊中，開始輸入您要搜尋的資訊。
+1. 在&#x200B;**[!UICONTROL 搜尋]**&#x200B;方塊中，開始輸入您要搜尋的資訊。
 如需[!DNL Workfront]中搜尋哪些欄位的詳細資訊，請參閱本文中的下列章節： [瞭解搜尋](#understand-search)。
    ![搜尋下拉式清單](assets/search-dropdown-suggestions-2026.png)
 

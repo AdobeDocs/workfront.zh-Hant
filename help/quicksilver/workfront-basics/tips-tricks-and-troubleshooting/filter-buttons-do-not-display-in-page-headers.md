@@ -7,11 +7,18 @@ feature: Get Started with Workfront
 author: Courtney
 exl-id: 327564ed-60df-441a-a38b-a17a8c57adb0
 TQID: https://experienceleague.adobe.com/36hMJKo4unpIxvUOmBk79XlhFvFL5TgqUaoQXxrPd7c
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 287
@@ -66,16 +73,16 @@ ht-degree: 10%
    <td> <p>[!UICONTROL 專案] </p> </td> 
    <td> 
     <ul> 
-     <li> <p>[！UICONTROL我所在的專案]</p> </li> 
-     <li> <p>[！UICONTROL我擁有的專案]</p> </li> 
+     <li> <p>[!UICONTROL 我所在的專案]</p> </li> 
+     <li> <p>[!UICONTROL 我擁有的專案]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><span>[！UICONTROL時程表]</span> </td> 
+   <td><span>[!UICONTROL 時程表]</span> </td> 
    <td> 
     <ul> 
-     <li> <p><span>[！UICONTROL我的時程表核准]</span> </p> </li> 
-     <li> <p><span>[！UICONTROL我的時程表]</span> </p> </li> 
+     <li> <p><span>[!UICONTROL 我的時程表核准]</span> </p> </li> 
+     <li> <p><span>[!UICONTROL 我的時程表]</span> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -98,7 +105,7 @@ ht-degree: 10%
 
    1. 存取配置範本。
    1. 選取&#x200B;**[!UICONTROL 自訂使用者看到的內容]**&#x200B;下的&#x200B;**[!UICONTROL 清單]**。
-   1. 選取&#x200B;**[!UICONTROL 下的**[!UICONTROL &#x200B;專案&#x200B;]**或**[!UICONTROL &#x200B;時程表&#x200B;]**選取要自訂的清單]**。
+   1. 選取&#x200B;**[!UICONTROL 下的**&#x200B;[!UICONTROL &#x200B;專案&#x200B;]&#x200B;**或**&#x200B;[!UICONTROL &#x200B;時程表&#x200B;]&#x200B;**選取要自訂的清單]**。
    1. 在&#x200B;**[!UICONTROL 篩選器]**&#x200B;區段中，確認已選取&#x200B;**[!UICONTROL 我所在的專案]**、**[!UICONTROL 我擁有的專案]** （針對專案）及&#x200B;**[!UICONTROL 我的時程表核准]**&#x200B;和&#x200B;**[!UICONTROL 我的時程表]** （針對時程表）。
    1. 按一下「**[!UICONTROL 儲存]**」。
 

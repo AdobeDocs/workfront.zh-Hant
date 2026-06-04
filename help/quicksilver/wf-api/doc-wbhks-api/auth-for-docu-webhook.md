@@ -9,8 +9,10 @@ feature: Workfront API
 role: Developer
 exl-id: 2303c202-27c7-4922-a613-e9824910504c
 TQID: https://experienceleague.adobe.com/cRJbyPxBa-US0cV1cHsi43qvV59-AwhPgFjEhWsC1ME
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 439

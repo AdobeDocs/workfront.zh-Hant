@@ -8,10 +8,16 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: 4d45ecd9-4348-43a4-9fa7-090b996b4695
 TQID: https://experienceleague.adobe.com/9P5Bp9TrJ1ECSwpK7C4AW4rQlTQOBH4U7-CPYl92RKU
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 312
@@ -85,8 +91,8 @@ ht-degree: 7%
 1. 按一下「**人員**」標籤。
 1. 在&#x200B;**檢視**&#x200B;下拉式功能表中，執行下列任一項作業：
 
-   * 若要將此資訊新增至現有的檢視，請選取您要自訂的檢視，然後按一下[自訂檢視]。****
-   * 若要將此資訊新增至新檢視，請按一下[新增檢視]。****
+   * 若要將此資訊新增至現有的檢視，請選取您要自訂的檢視，然後按一下[自訂檢視]。**&#x200B;**
+   * 若要將此資訊新增至新檢視，請按一下[新增檢視]。**&#x200B;**
 
 1. 按一下「**新增欄**」。
 1. 在可用的欄位中，展開&#x200B;**使用者**，然後按一下&#x200B;**擁有校訂授權**。

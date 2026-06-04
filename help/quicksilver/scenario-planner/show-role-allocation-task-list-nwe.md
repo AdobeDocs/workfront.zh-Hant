@@ -9,11 +9,16 @@ exl-id: 77152e46-0b7b-4937-9d16-1a20c2a7fdf1
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/yEKNA7IB3sITsxW2Hz5pHoJOXI-8a8DKK78YxzRWqbY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 666
@@ -49,8 +54,8 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 授權</p> </td> 
-   <td> <p>[！UICONTROL Light]或更高</p> 
-   <p>[！UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Light]或更高</p> 
+   <p>[!UICONTROL Review]或更高版本</p> </td> 
   </tr> 
     <tr> 
    <td>存取層級設定</td> 
@@ -136,7 +141,7 @@ Old:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL工作角色]</td> 
+      <td role="rowheader">[!UICONTROL 工作角色]</td> 
       <td> <p>與下列任一專案關聯的工作角色名稱：</p> 
        <ul> 
         <li> <p>專案任務</p> </li> 
@@ -145,16 +150,16 @@ Old:
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL方案時數]</td> 
+      <td role="rowheader">[!UICONTROL 方案時數]</td> 
       <td>在方案總期間內，與方案上每個工作角色相關聯的所需時數。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL計畫時數]</td> 
+      <td role="rowheader">[!UICONTROL 計畫時數]</td> 
       <td>在專案總期間中，與專案上任務或問題中的每個工作角色關聯的計畫時數。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL變數]</td> 
-      <td> <p>方案所需時數與專案工作相關計畫時數之間的差異。 [!DNL Workfront]使用此公式計算[！UICONTROL變異數]：</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>當計畫資源的時數超過方案所需的時，該[！UICONTROL差異]為負數且以紅色顯示。 這表示您的資源配置過度。 </p> </td> 
+      <td role="rowheader">[!UICONTROL 變數]</td> 
+      <td> <p>方案所需時數與專案工作相關計畫時數之間的差異。 [!DNL Workfront]使用此公式計算[!UICONTROL 變異數]：</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>當計畫資源的時數超過方案所需的時，該[!UICONTROL 差異]為負數且以紅色顯示。 這表示您的資源配置過度。 </p> </td> 
      </tr> 
     </tbody> 
    </table>

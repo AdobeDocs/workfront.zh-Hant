@@ -7,11 +7,17 @@ author: Becky and Lisa
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
 TQID: https://experienceleague.adobe.com/GnU1tvjVHwZFsJwu8p1Y9tULbgRjE5-reFejaNEAt2Y
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 635
@@ -103,7 +109,7 @@ ht-degree: 4%
 
 ## 在物件的左側面板中顯示儀表板
 
-如需有關在物件下新增儀表板的詳細資訊，請參閱本文中Workfront物件或區域](#add-a-dashboard-in-the-left-panel-of-a-workfront-object-or-area)左側面板中的[[!UICONTROL 新增儀表板]小節。
+如需有關在物件下新增儀表板的詳細資訊，請參閱本文中Workfront物件或區域[&#128279;](#add-a-dashboard-in-the-left-panel-of-a-workfront-object-or-area)左側面板中的[!UICONTROL 新增儀表板]小節。
 
 當您將儀表板新增到物件的左側面板時，該物件會充當儀表板的濾鏡。 例如，如果您在控制面板上新增任務報告，並將控制面板新增至專案，控制面板只會顯示您正在檢視的專案任務。
 

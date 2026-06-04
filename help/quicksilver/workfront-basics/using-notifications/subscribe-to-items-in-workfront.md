@@ -6,10 +6,14 @@ author: Courtney
 feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
 TQID: https://experienceleague.adobe.com/k5EY-Pa8lmO7VJRlJpRsCVlbf0U4zByRfmb70OtBvFI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1563
@@ -48,7 +52,7 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[！UICONTROL Adobe Workfront]套件</strong></td> 
+   <td role="rowheader"><strong>[!UICONTROL Adobe Workfront]套件</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -59,11 +63,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定</strong></td> 
-   <td> <p>若您的[!DNL Workfront]管理員已啟用<strong>[！UICONTROL檢視，但檢視的更新已包含在您存取層級的交談]</strong>中，則您無法訂閱[!DNL Workfront]中的專案。</p> </td> 
+   <td> <p>若您的[!DNL Workfront]管理員已啟用<strong>[!UICONTROL 檢視，但檢視的更新已包含在您存取層級的交談]</strong>中，則您無法訂閱[!DNL Workfront]中的專案。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>[！UICONTROL檢視]專案、任務或問題（要訂閱的）的存取權或以上許可權</p> <p>[！UICONTROL Manage]專案、任務或問題的[！UICONTROL Share]存取許可權和（訂閱其他）問題的許可權</p> </td> 
+   <td> <p>[!UICONTROL 檢視]專案、任務或問題（要訂閱的）的存取權或以上許可權</p> <p>[!UICONTROL Manage]專案、任務或問題的[!UICONTROL Share]存取許可權和（訂閱其他）問題的許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>

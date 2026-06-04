@@ -7,9 +7,12 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: d6ded72c-a140-4c19-b1e0-60456804fc61
 TQID: https://experienceleague.adobe.com/jfaqAWN5Xa-m02cPG1vofbHDqtqkbIcQqwmdHJfLNBw
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 426

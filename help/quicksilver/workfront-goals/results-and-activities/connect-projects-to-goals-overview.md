@@ -11,11 +11,16 @@ exl-id: 683c9cd9-6c7b-4d50-b326-b4000c9863e8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/FCwnCN4o8MRZU9-F2ZYNFzCxS-js-St8ykkdbft1Bb8
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: fceb5125-bb41-419a-b0db-31958cb42f6c
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 843
@@ -189,7 +194,7 @@ There is an indication on the goal list that the project no longer updates progr
    「將專案新增至目標」方塊隨即顯示。
 1. （選擇性）按一下清單右上角的個別圖示，以修改專案清單的顯示方式，更新&#x200B;**檢視**、**篩選器**&#x200B;或&#x200B;**群組**。
 1. （選擇性）按一下&#x200B;**搜尋**&#x200B;圖示![搜尋圖示](assets/search-icon.png)，然後開始輸入專案名稱以在清單中快速找到它。
-1. 選取您要新增至目標的專案，然後按一下[新增]。****
+1. 選取您要新增至目標的專案，然後按一下[新增]。**&#x200B;**
 
    選取的專案會新增至目標，並顯示在&#x200B;**專案**&#x200B;群組下的目標頁面進度指標區段。
 

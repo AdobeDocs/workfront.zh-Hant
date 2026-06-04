@@ -7,8 +7,10 @@ author: Lisa
 feature: Get Started with Workfront
 exl-id: 294fd42d-89a8-44c2-a97c-95ea5dd876d4
 TQID: https://experienceleague.adobe.com/xjcpS1OWeVMi-vaSqehNuxg8-ry-Aue--nHY8Si1ZEU
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 258
@@ -30,27 +32,27 @@ ht-degree: 0%
 
    <table style="table-layout:auto">
     <tr>
-        <td><strong>[！UICONTROL複製/貼上]</strong></td>
+        <td><strong>[!UICONTROL 複製/貼上]</strong></td>
         <td>啟用時，您可以選擇讓使用者貼上到其他安全應用程式，或僅在[!DNL MobileIron]應用程式的[!DNL Workfront]內貼上。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL允許相機]</strong></td>
+        <td><strong>[!UICONTROL 允許相機]</strong></td>
         <td>啟用此選項後，使用者即可在[!DNL Workfront]內為[!DNL MobileIron]應用程式拍照。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL允許相簿]</strong></td>
+        <td><strong>[!UICONTROL 允許相簿]</strong></td>
         <td>啟用此選項後，使用者可以從他們的像片收藏館附加像片。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL允許媒體播放器]</strong></td>
+        <td><strong>[!UICONTROL 允許媒體播放器]</strong></td>
         <td>啟用此選項後，使用者可以從[!DNL MobileIron]應用程式的[!DNL Workfront]內播放媒體。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL允許熒幕擷取]</strong></td>
+        <td><strong>[!UICONTROL 允許熒幕擷取]</strong></td>
         <td>啟用此選項後，使用者可以在[!DNL MobileIron]應用程式的[!DNL Workfront]內擷取熒幕擷取。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL允許Web]</strong></td>
+        <td><strong>[!UICONTROL 允許Web]</strong></td>
         <td>啟用時，此選項可讓使用者從[!DNL MobileIron]應用程式的[!DNL Workfront]內導覽至網頁瀏覽器。</td>
     </tr>
    </table>
@@ -65,15 +67,15 @@ ht-degree: 0%
 
    <table style="table-layout:auto">
     <tr>
-        <td><strong>[！UICONTROL複製/貼上]</strong></td>
+        <td><strong>[!UICONTROL 複製/貼上]</strong></td>
         <td>啟用後，您可以選擇讓使用者貼上到其他安全應用程式中，或僅貼到Workfront for MobileIron應用程式中。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL允許列印]</strong></td>
+        <td><strong>[!UICONTROL 允許列印]</strong></td>
         <td>啟用時，此選項可讓使用者從[!DNL Workfront for MobileIron]應用程式連線到AirPrint。</td>
     </tr>
     <tr>
-        <td><strong>[！UICONTROL允許開放式]</strong></td>
+        <td><strong>[!UICONTROL 允許開放式]</strong></td>
         <td>啟用後，此選項可讓使用者使用任何其他適用的應用程式開啟URL。</td>
     </tr>
    </table>

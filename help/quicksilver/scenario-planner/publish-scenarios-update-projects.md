@@ -10,11 +10,17 @@ exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/mo2xl9ElZiaehjY1KH6ykvqO-PaO126rw0GAOFLJ0sg
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1705
@@ -47,18 +53,18 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 授權</p> </td> 
-   <td> <p>[！UICONTROL Light]或更高</p> 
-   <p>[！UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[!UICONTROL Light]或更高</p> 
+   <p>[!UICONTROL Review]或更高版本</p> </td> 
   </tr> 
     <tr> 
    <td>存取層級設定</td> 
-   <td> <p>[!DNL Scenario Planner]與[！UICONTROL專案的[！UICONTROL Edit]存取權</p></td> 
+   <td> <p>[!DNL Scenario Planner]與&lbrack;！UICONTROL專案的[!UICONTROL Edit]存取權</p></td> 
   </tr> 
   <tr> 
    <td> <p>物件許可權 </p> </td> 
    <td> <ul> 
-     <li>計畫的[！UICONTROL Manage]許可權 </li> 
-     <li>已發佈專案的[！UICONTROL Manage]許可權</li> 
+     <li>計畫的[!UICONTROL Manage]許可權 </li> 
+     <li>已發佈專案的[!UICONTROL Manage]許可權</li> 
     </ul>  </td> 
   </tr> 
  </tbody> 
@@ -159,16 +165,16 @@ Old:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL All]</td> 
+      <td role="rowheader">[!UICONTROL All]</td> 
       <td>顯示您所擁有或與您共用的所有計畫。 這是預設值。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL我的計畫]</td> 
+      <td role="rowheader">[!UICONTROL 我的計畫]</td> 
       <td>顯示您建立的計畫。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL已共用給我]</td> 
-      <td> <p>顯示您未建立但與您共用的計畫。</p> <p>重要：您必須擁有與您共用之計畫的[！UICONTROL管理]許可權，才能發佈計畫。 </p> </td> 
+      <td role="rowheader">[!UICONTROL 已共用給我]</td> 
+      <td> <p>顯示您未建立但與您共用的計畫。</p> <p>重要：您必須擁有與您共用之計畫的[!UICONTROL 管理]許可權，才能發佈計畫。 </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -210,15 +216,15 @@ Old:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL All]</td> 
+      <td role="rowheader">[!UICONTROL All]</td> 
       <td>顯示所選情境的所有方案。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL已發佈]</td> 
+      <td role="rowheader">[!UICONTROL 已發佈]</td> 
       <td>顯示您或其他使用者先前發佈的方案。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL已取消發佈]</td> 
+      <td role="rowheader">[!UICONTROL 已取消發佈]</td> 
       <td> <p>顯示未發佈的方案。 </p> </td> 
      </tr> 
     </tbody> 
@@ -238,7 +244,7 @@ Old:
 1. （視條件而定）執行下列任一項作業：
 
    * 如果您已發佈一個方案，請按一下&#x200B;**[!UICONTROL 檢視關聯的專案]**&#x200B;以開啟從方案建立或更新的專案。
-   * 如果您發佈多個方案，請按一下[檢視關聯的專案] ****&#x200B;以開啟從方案發佈的專案清單。 根據預設，[!DNL Workfront]會將[!DNL Scenario Planner]專案篩選器套用至專案清單。 最近發佈的專案會顯示在清單頂端。
+   * 如果您發佈多個方案，請按一下[檢視關聯的專案] **&#x200B;**&#x200B;以開啟從方案發佈的專案清單。 根據預設，[!DNL Workfront]會將[!DNL Scenario Planner]專案篩選器套用至專案清單。 最近發佈的專案會顯示在清單頂端。
 
      發佈行動方案後的![情境規劃工具](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
 
@@ -259,23 +265,23 @@ Old:
       <col> 
       <tbody> 
        <tr> 
-        <td role="rowheader"><span>[！UICONTROL方案期間]</span> </td> 
+        <td role="rowheader"><span>[!UICONTROL 方案期間]</span> </td> 
         <td><span>專案連結至方案時，對應方案的持續時間。 此欄位不可編輯。</span> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader"><span>[！UICONTROL上次發佈日期]</span> </td> 
+        <td role="rowheader"><span>[!UICONTROL 上次發佈日期]</span> </td> 
         <td><span>從對應方案上次發佈專案的日期。</span> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader"><span>[！UICONTROL方案開始日期]</span> </td> 
+        <td role="rowheader"><span>[!UICONTROL 方案開始日期]</span> </td> 
         <td><span>當專案連結至方案時，方案開始月份的第一天。</span> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader"><span>[！UICONTROL方案結束日期]</span> </td> 
+        <td role="rowheader"><span>[!UICONTROL 方案結束日期]</span> </td> 
         <td><span>專案連結至方案時，方案結束月份的最後一天。</span> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader"><span>[！UICONTROL FTE和時數中的行動方案工作角色]</span> </td> 
+        <td role="rowheader"><span>[!UICONTROL FTE和時數中的行動方案工作角色]</span> </td> 
         <td> <p>方案之相關職務角色及其時間配置的相關資訊。 其中包括：</p> 
          <ul> 
           <li>工作角色名稱</li> 
@@ -296,7 +302,7 @@ Old:
      >   
      >   
      >   * 如需有關使用配置範本新增或移除[!UICONTROL 詳細資料]區段中的區域的資訊，請參閱[使用配置範本自訂[!UICONTROL 詳細資料]檢視](../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)。
-     >   * 如需在[!UICONTROL 專案詳細資料]的[!UICONTROL 總覽]區域中檢視資訊的詳細資訊，請參閱專案[!UICONTROL 總覽]區域](../manage-work/projects/manage-projects/understand-project-overview-area.md)中的[[!UICONTROL 管理]資訊。
+     >   * 如需在[!UICONTROL 專案詳細資料]的[!UICONTROL 總覽]區域中檢視資訊的詳細資訊，請參閱專案[!UICONTROL 總覽]區域[&#128279;](../manage-work/projects/manage-projects/understand-project-overview-area.md)中的[!UICONTROL 管理]資訊。
      >   
      >
 
@@ -310,7 +316,7 @@ Old:
 
    * **專案**&#x200B;之[!UICONTROL 商業案例]的[!UICONTROL 資源預算]區域：專案[!UICONTROL 商業案例]的[!UICONTROL 資源預算]區域新增了使用[!DNL Scenario Planner]資訊管理專案資源的新選項。
 
-     如需詳細資訊，請參閱[!UICONTROL 業務案例]中使用 [!DNL Scenario Planner]](../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的[預算資源。
+     如需詳細資訊，請參閱[!UICONTROL 業務案例]中使用 [!DNL Scenario Planner][&#128279;](../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的預算資源。
 
      ![業務案例中的情境規劃工具](assets/sp-in-business-case-selected-350x110.png)
 
