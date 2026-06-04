@@ -95,7 +95,7 @@ Old numbers - before 2/10/2025:
 >只有授權支援聯絡人（或支援授權的使用者）才能提交線上支援票證。
 
 
-1. 從[[!DNL Experience League]](https://experienceleague.adobe.com)網站，按一下頁面頂端的&#x200B;**[!UICONTROL 支援]**。
+1. 從[[!DNL Experience League]](https://experienceleague.adobe.com/zh-hant)網站，按一下頁面頂端的&#x200B;**[!UICONTROL 支援]**。
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
@@ -151,7 +151,7 @@ Old numbers - before 2/10/2025:
 
 
 <!--
-drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
+drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737?profile.language=zh-Hant)
 
 - this is the information that was there before - pointing to WorkfrontOne: 
 
