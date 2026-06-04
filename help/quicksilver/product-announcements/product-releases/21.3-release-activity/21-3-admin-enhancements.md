@@ -7,11 +7,17 @@ feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 18f8f5ac-48a3-45fe-9bf0-12b4b402f85f
 TQID: https://experienceleague.adobe.com/N60JqVrGLgFHJyRdXEGyLFp8RZKWsquW1421-Ak-CCQ
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: a29813d3-f0cc-4b60-9396-13b558370803
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 349
@@ -33,7 +39,7 @@ ht-degree: 2%
 
 如需詳細資訊，請參閱[藍圖概觀](../../../administration-and-setup/blueprints/blueprints-overview.md)。
 
-此功能現已包含在Workfront One上新Workfront體驗](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home)學習路徑的[專案範本中。
+此功能現已包含在Workfront One上新Workfront體驗[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home)學習路徑的專案範本中。
 
 ## 群組管理員的新增功能：建立和管理任何層級群組的狀態
 

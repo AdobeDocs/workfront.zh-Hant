@@ -9,11 +9,18 @@ exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/KR4Zb3l4Mgdx4KPS64viTlw6nTeKUKXXzZDnd3UFaTk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 590
@@ -154,7 +161,7 @@ Old:
 
 1. （條件式與選擇性）如果您的Workfront或群組管理員將認可日期新增到您的任務或問題標題，請按一下標題中的&#x200B;**認可日期**&#x200B;欄位，然後從日曆中選取日期。 如果「認可日期」不在標題中，請繼續下列步驟。
 
-   任務標題](assets/commit-date-task-header.png)中的![認可日期
+   任務標題![&#128279;](assets/commit-date-task-header.png)中的認可日期
 
 1. 按一下左側面板中的&#x200B;**任務詳細資料**&#x200B;或&#x200B;**問題詳細資料**。
 1. 按一下「**概觀**」以展開它。

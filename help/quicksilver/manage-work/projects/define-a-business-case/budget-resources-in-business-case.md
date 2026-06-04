@@ -6,10 +6,14 @@ author: Becky
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
 TQID: https://experienceleague.adobe.com/Kwb3yp8Sqjnch5vlnWHT2rixXbUODjOFG3xs8wIp1Cs
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 261
@@ -29,9 +33,9 @@ ht-degree: 0%
 
 * 使用資源規劃工具將資源集區套用至專案和預算職位角色。
 
-  如需詳細資訊，請參閱使用資源規劃工具](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md)的業務案例中的[預算資源。
+  如需詳細資訊，請參閱使用資源規劃工具[&#128279;](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md)的業務案例中的預算資源。
 
-* 使用Scenario Planner建立具有所需職務角色的方案，並將它們連結至專案。 如需詳細資訊，請參閱使用案例規劃工具](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的業務案例中的[預算資源。
+* 使用Scenario Planner建立具有所需職務角色的方案，並將它們連結至專案。 如需詳細資訊，請參閱使用案例規劃工具[&#128279;](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的業務案例中的預算資源。
 
   >[!NOTE]
   >

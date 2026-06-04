@@ -8,10 +8,14 @@ author: Lisa
 feature: Work Management
 exl-id: ff7a7bcc-553e-4425-b80d-741c9150aed0
 TQID: https://experienceleague.adobe.com/u1-XVyEdGPh-mSbx1mg79tCO2xSMzj05heAV5WdoqoI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 424
@@ -36,7 +40,7 @@ ht-degree: 0%
 
 * 如需指派問題的相關資訊，請參閱[指派問題](../../../manage-work/issues/manage-issues/assign-issues.md)和[修改清單中多個問題的使用者指派](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)。
 
-* 如需有關使用工作負載平衡器指派問題的資訊，請參閱在工作負載平衡器](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中指派工作的總覽。[
+* 如需有關使用工作負載平衡器指派問題的資訊，請參閱在工作負載平衡器[&#128279;](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中指派工作的總覽。
 
 本文章中的部分資訊也適用於工作的指派。 如需指派任務及其他考量事項的詳細資訊，請參閱[修改任務指派的概觀](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)。
 

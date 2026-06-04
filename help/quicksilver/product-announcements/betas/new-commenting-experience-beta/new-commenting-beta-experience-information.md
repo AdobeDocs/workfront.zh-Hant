@@ -10,8 +10,11 @@ recommendations: noDisplay, noCatalog
 hide: true
 exl-id: 08aea7a6-1ce2-46d9-9807-c94526851655
 TQID: https://experienceleague.adobe.com/c-nkGqmSh-9nlnZKgWNj9fbLsElkUiKgT6cCS7gICZw
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 105

@@ -9,11 +9,18 @@ exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/v5hWK5R5IrLAzdg-lKtzmw-xyimiDCCCbVlCK7sBtyY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 1422
@@ -53,16 +60,16 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>[！UICONTROL標準]</p>
-   <p>[！UICONTROL計畫]</p> </td> 
+   <td> <p>[!UICONTROL 標準]</p>
+   <p>[!UICONTROL 計畫]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[！UICONTROL Edit]對投資組合和計畫的存取權 </p>  </td> 
+   <td> <p>[!UICONTROL Edit]對投資組合和計畫的存取權 </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合的[！UICONTROL Manage]許可權</p> <p>建立方案後，預設情況下您擁有[！UICONTROL管理]許可權。</p>  </td> 
+   <td> <p>投資組合的[!UICONTROL Manage]許可權</p> <p>建立方案後，預設情況下您擁有[!UICONTROL 管理]許可權。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -185,19 +192,19 @@ Old:
       <td> <p>指定程式的說明。</p> <p>說明會顯示在程式的登陸頁面上。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL計畫管理員]</td> 
-      <td> <p>開始輸入您想當作「方案管理員」的使用者名稱，然後在使用者名稱出現在下拉式清單中時按一下該使用者的名稱。 這與[！UICONTROL計畫所有者]相同。 </p> <p>提示：您也可以在方案標題中更新「方案管理員」。 </p> </td> 
+      <td role="rowheader">[!UICONTROL 計畫管理員]</td> 
+      <td> <p>開始輸入您想當作「方案管理員」的使用者名稱，然後在使用者名稱出現在下拉式清單中時按一下該使用者的名稱。 這與[!UICONTROL 計畫所有者]相同。 </p> <p>提示：您也可以在方案標題中更新「方案管理員」。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL群組] </td> 
-      <td> <p>如果群組擁有方案或負責完成方案，請新增單一群組的名稱。 </p> <p>您可以暫留在群組上，並按一下旁邊顯示的[！UICONTROL資訊]圖示<img src="assets/info-icon.png">，確定您選取的群組正確。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> 
+      <td role="rowheader">[!UICONTROL 群組] </td> 
+      <td> <p>如果群組擁有方案或負責完成方案，請新增單一群組的名稱。 </p> <p>您可以暫留在群組上，並按一下旁邊顯示的[!UICONTROL 資訊]圖示<img src="assets/info-icon.png">，確定您選取的群組正確。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> 
        <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> 
         </td> 
      </tr>
 
 </tr> 
    <tr> 
-   <td role="rowheader">[！UICONTROL作用中] </td> 
+   <td role="rowheader">[!UICONTROL 作用中] </td> 
    <td> <p>如果您希望此方案處於作用中狀態，並且使用者可以找到它以將其與專案相關聯，請核取此設定。</p>
    <p>取消核取時，方案不會顯示在專案或範本的方案欄位中。 </p> 
  </td> 
@@ -246,15 +253,15 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader">物件型別名稱和啟動狀態</td> 
-   <td>當您檢視方案時，「方案」一詞會顯示橘色圖示。 如果程式在[！UICONTROL **程式詳細資料**]區域中未標示為[！UICONTROL作用中]，則旁邊會顯示字詞「[！UICONTROL已停用]」。 </td> 
+   <td>當您檢視方案時，「方案」一詞會顯示橘色圖示。 如果程式在[!UICONTROL **程式詳細資料**]區域中未標示為[!UICONTROL 作用中]，則旁邊會顯示字詞「[!UICONTROL 已停用]」。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">計畫的動作區域 </td> 
    <td> <p>按一下下列任一項，以存取更多資訊或編輯程式的選項：</p> 
     <ul> 
      <li>星形圖示可將方案新增至您的最愛清單</li> 
-     <li>使用[！UICONTROL **Share**]按鈕與其他人共用</li> 
-     <li> <p>[！UICONTROL More]功能表<img src="assets/qs-more-menu.png">可執行下列任一項作業： </p> 
+     <li>使用[!UICONTROL **Share**]按鈕與其他人共用</li> 
+     <li> <p>[!UICONTROL More]功能表<img src="assets/qs-more-menu.png">可執行下列任一項作業： </p> 
       <ul> 
        <li>編輯方案</li> 
        <li>停用它。 停用方案時，您無法再將其與專案層級的專案建立關聯。 </li> 
@@ -264,20 +271,20 @@ Old:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL完成百分比]</td> 
-   <td> <p>您無法在標題中編輯程式的[！UICONTROL完成百分比]。 此資訊會從計畫中的專案更新。 依預設，方案的完成百分比是屬於方案且處於[！UICONTROL目前]或[！UICONTROL已核准]狀態的專案之完成百分比值的平均值。</p> </td> 
+   <td role="rowheader">[!UICONTROL 完成百分比]</td> 
+   <td> <p>您無法在標題中編輯程式的[!UICONTROL 完成百分比]。 此資訊會從計畫中的專案更新。 依預設，方案的完成百分比是屬於方案且處於[!UICONTROL 目前]或[!UICONTROL 已核准]狀態的專案之完成百分比值的平均值。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL計畫管理員]</td> 
-   <td> <p>您可以在標題中編輯「方案管理員」。 這與[！UICONTROL計畫所有者]相同。 </p> </td> 
+   <td role="rowheader">[!UICONTROL 計畫管理員]</td> 
+   <td> <p>您可以在標題中編輯「方案管理員」。 這與[!UICONTROL 計畫所有者]相同。 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL計畫完成日期]</td> 
+   <td role="rowheader">[!UICONTROL 計畫完成日期]</td> 
    <td>您無法在標題中編輯方案的規劃完成日期。 此資訊會從計畫中的專案更新。 計畫中最新專案的計畫完成日期會變成計畫的計畫完成日期。  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL作用中專案條件]</td> 
-   <td>這是計算在計畫中有多少百分比的專案將[！UICONTROL Condition]設定為[！UICONTROL On Target]、[！UICONTROL At Risk]或[！UICONTROL In Trouble]。 這裡所代表的專案是狀態為[！UICONTROL目前]和[！UICONTROL已核准]的專案。 </td> 
+   <td role="rowheader">[!UICONTROL 作用中專案條件]</td> 
+   <td>這是計算在計畫中有多少百分比的專案將[!UICONTROL Condition]設定為[!UICONTROL On Target]、[!UICONTROL At Risk]或[!UICONTROL In Trouble]。 這裡所代表的專案是狀態為[!UICONTROL 目前]和[!UICONTROL 已核准]的專案。 </td> 
   </tr> 
  </tbody> 
 </table>

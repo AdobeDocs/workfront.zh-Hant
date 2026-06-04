@@ -7,11 +7,16 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c978e88b-ee07-4af9-b5df-cb62dab4b3ac
 TQID: https://experienceleague.adobe.com/IRUIGTXNd-5lf-Du-VCO-mG80hlkG76fR-bCdpCz2DQ
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 368
@@ -31,7 +36,7 @@ ht-degree: 0%
 
 在此增強功能之前，您只能透過按一下任務或問題的更多選單，然後使用指派選項來指派專案。 現在，分配給使用者的計畫時數在拖曳任務時即時更新。
 
-有關在工作負載平衡器中指派工作專案的資訊，請參閱在工作負載平衡器中指派工作的概述[](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)。
+有關在工作負載平衡器中指派工作專案的資訊，請參閱在工作負載平衡器中指派工作的概述[&#128279;](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)。
 
 ## 工作負載平衡器的新預設選項
 

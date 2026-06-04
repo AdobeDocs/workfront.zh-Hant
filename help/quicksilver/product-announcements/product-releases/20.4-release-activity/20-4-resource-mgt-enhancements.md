@@ -7,10 +7,14 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9f660a38-4a59-4135-8178-0841088cc7d6
 TQID: https://experienceleague.adobe.com/0epzoLYAQGEpKRWCTRDE4-aTFISBr6fFsnZSXtuerd0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1058
@@ -93,7 +97,7 @@ ht-degree: 0%
 
 在此增強功能之前，您有權檢視的所有使用者都會顯示在此區域中。
 
-如需在工作負載平衡器中使用篩選器的相關資訊，請參閱在工作負載平衡器](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)中管理篩選器。[
+如需在工作負載平衡器中使用篩選器的相關資訊，請參閱在工作負載平衡器[&#128279;](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)中管理篩選器。
 
 ## 新圖示可在時數和百分比值之間切換，或在工作負載平衡器中的已分配時間和剩餘時間
 
@@ -107,5 +111,5 @@ ht-degree: 0%
 
 為了使您在工作負載平衡器中的篩選體驗更有效率，我們在已指派的工作區域中新增一個新的內建篩選器。 您現在可以套用專案上的使用者篩選器，該篩選器顯示指派給您指定專案中的任務和問題的使用者。
 
-如需有關在工作負載平衡器中使用篩選器的資訊，請參閱工作負載平衡器](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)中的[篩選資訊。
+如需有關在工作負載平衡器中使用篩選器的資訊，請參閱工作負載平衡器[&#128279;](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)中的篩選資訊。
 

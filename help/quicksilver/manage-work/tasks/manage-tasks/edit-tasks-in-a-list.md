@@ -9,11 +9,21 @@ exl-id: 2af81907-3657-459e-b780-65983e224ca8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/tBznGe2cQ4VnNILQHjlgwILlD-CinYpv01ARGY9XiAw
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 2861
@@ -192,7 +202,7 @@ Old:
 
    或
 
-   按一下工作名稱右邊的工作清單](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;功能表![更多圖示。
+   按一下工作名稱右邊的工作清單![&#128279;](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;功能表更多圖示。
 
 1. （選擇性）從下列選項中選取：
 
@@ -312,7 +322,7 @@ Old:
 
    或
 
-   按一下工作清單](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;功能表![模式圖示。
+   按一下工作清單![&#128279;](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;功能表模式圖示。
 
 1. （選擇性）從下列選項中選取：
 
@@ -356,7 +366,7 @@ Old:
    當您按一下父項任務以變更其位置時，也會移動所有子項。
 
    當您變更任務的時間表時，Workfront會更新所有專案內和跨專案相依性。
-1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。****
+1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。**&#x200B;**
 
 #### 當您選取「手動儲存時程表計畫」選項時，手動儲存工作清單中的變更 {#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-timeline-planning-option}
 
@@ -424,7 +434,7 @@ Old:
 
    或
 
-   按一下詢問清單](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;功能表![更多圖示。
+   按一下詢問清單![&#128279;](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;功能表更多圖示。
 
 1. 從下列選項中選取：
 
@@ -464,7 +474,7 @@ Old:
    </table>
 
 1. 當您變更任務的時間表時，Workfront會更新所有專案內和跨專案相依性。
-1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。****
+1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。**&#x200B;**
 
 ## 使用「摘要」編輯清單中的任務
 

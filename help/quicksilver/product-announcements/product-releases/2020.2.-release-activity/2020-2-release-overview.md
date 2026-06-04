@@ -8,11 +8,18 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 88a97b1e-4052-485e-8566-963c6ba640b9
 TQID: https://experienceleague.adobe.com/MlMOUocVtOKfZ2QF2LS3MbdihhOHIs-TErVOoeP-jeg
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2706
@@ -252,7 +259,7 @@ To download this page in PDF&nbsp;format, go
 
 ## API增強功能
 
-API第11版於2020.1版時發行。 如需有關新增功能和更新的資訊，請參閱[ API版本11的新功能](../../../wf-api/api/new-api-version-11.md) [ API版本11](https://experience.workfront.com/s/article/What-s-new-in-API-version-11-1760875145)的新功能。
+API第11版於2020.1版時發行。 如需有關新增功能和更新的資訊，請參閱[&#x200B; API版本11的新功能](../../../wf-api/api/new-api-version-11.md) [&#x200B; API版本11](https://experience.workfront.com/s/article/What-s-new-in-API-version-11-1760875145)的新功能。
 
 如需API版本的詳細資訊，請參閱[API版本設定與支援排程](../../../wf-api/api/api-version-support-schedule.md) [API版本發行與支援排程](https://experience.workfront.com/s/article/API-Version-Release-and-Support-Schedule-272875487?language=en_US&r=13&ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&ui-self-service-components-controller.ArticleTopicList.getTopics=1&ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1)。
 

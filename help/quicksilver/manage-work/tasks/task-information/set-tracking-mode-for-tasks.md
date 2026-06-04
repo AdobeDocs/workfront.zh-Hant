@@ -9,11 +9,18 @@ exl-id: 751071b4-3716-4153-97fe-4fe0ebc7cbb0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Wnsikx85-QT2a-9Yi0NZkAUo-3r4i-WBJAnYgj5h-xE
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 207
@@ -96,13 +103,13 @@ old:
 ## 設定任務的追蹤模式
 
 1. 前往您要設定追蹤模式的工作。
-1. 按一下工作名稱旁的物件](assets/qs-more-icon-on-an-object.png)上的&#x200B;**更多**&#x200B;圖示![更多，然後按一下&#x200B;**編輯**。
+1. 按一下工作名稱旁的物件![&#128279;](assets/qs-more-icon-on-an-object.png)上的&#x200B;**更多**&#x200B;圖示更多，然後按一下&#x200B;**編輯**。
 
    「編輯任務」對話方塊開啟。
 
 1. 在&#x200B;**設定**&#x200B;區段中，使用&#x200B;**追蹤模式**&#x200B;下拉式功能表來選取工作的追蹤模式。
 
-   編輯任務設定區段](assets/tracking-mode-field-in-edit-task-settings-nwe-350x233.png)中的![追蹤模式欄位
+   編輯任務設定區段![&#128279;](assets/tracking-mode-field-in-edit-task-settings-nwe-350x233.png)中的追蹤模式欄位
 
 1. 從下列選項中選取：
 

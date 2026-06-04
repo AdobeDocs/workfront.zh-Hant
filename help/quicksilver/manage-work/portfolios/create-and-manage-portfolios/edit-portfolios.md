@@ -9,11 +9,19 @@ exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/A59Xi2g75iLxj93L3xk4saeZn1C6TlbFj5q-9n0RSc4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1084
@@ -51,17 +59,17 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   </tr> 
   <tr> 
    <td role="rowheader">Adobe [!DNL Workfront]授權</td> 
-   <td> <p>[！UICONTROL標準]</p>
-   <p>[！UICONTROL計畫]</p> </td> 
+   <td> <p>[!UICONTROL 標準]</p>
+   <p>[!UICONTROL 計畫]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級</td> 
-   <td> <p>[！UICONTROL Edit]對[！UICONTROL Portfolios]的存取權</p>  </td> 
+   <td> <p>[!UICONTROL Edit]對[!UICONTROL Portfolios]的存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合的[！UICONTROL Manage]許可權</p>
-   <p>[！UICONTROL Manage]對投資組合中專案的許可權，以將其從投資組合中新增或移除</p>  </td> 
+   <td> <p>投資組合的[!UICONTROL Manage]許可權</p>
+   <p>[!UICONTROL Manage]對投資組合中專案的許可權，以將其從投資組合中新增或移除</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -198,25 +206,25 @@ Old:
       <td> <p>輸入Portfolio的說明以指出其獨特性。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL Portfolio Manager]</td> 
-      <td> <p>開始輸入您要指定做為投資組合經理的使用者名稱，然後當它出現在清單中時選取它。 這與[！UICONTROL Portfolio Owner]相同。 此人員可監督投資組合中專案所定義的工作，並可核准業務案例。</p> <p>重要：當您指定某人為Portfolio管理員時，他會自動獲得投資組合中、計畫及專案的[！UICONTROL管理]許可權。 </p> <p>提示：您可以在投資組合標題中快速更新投資組合經理。 </p> </td> 
+      <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
+      <td> <p>開始輸入您要指定做為投資組合經理的使用者名稱，然後當它出現在清單中時選取它。 這與[!UICONTROL Portfolio Owner]相同。 此人員可監督投資組合中專案所定義的工作，並可核准業務案例。</p> <p>重要：當您指定某人為Portfolio管理員時，他會自動獲得投資組合中、計畫及專案的[!UICONTROL 管理]許可權。 </p> <p>提示：您可以在投資組合標題中快速更新投資組合經理。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL群組]</td> 
-      <td> <p>如果群組與投資組合相關聯或負責完成投資組合，請新增單一群組的名稱。 </p> <p>秘訣：  <p>從[！UICONTROL Portfolio Details]頁面存取[！UICONTROL Group]欄位時，請執行下列動作： </p> <p>您可以暫留在群組上，並按一下旁邊顯示的[！UICONTROL資訊]圖示<img src="assets/info-icon.png">，確定您選取的群組正確。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> <p>此選項在[！UICONTROL編輯Portfolio]方塊中無法使用。 </p> </p> </td> 
+      <td role="rowheader">[!UICONTROL 群組]</td> 
+      <td> <p>如果群組與投資組合相關聯或負責完成投資組合，請新增單一群組的名稱。 </p> <p>秘訣：  <p>從[!UICONTROL Portfolio Details]頁面存取[!UICONTROL Group]欄位時，請執行下列動作： </p> <p>您可以暫留在群組上，並按一下旁邊顯示的[!UICONTROL 資訊]圖示<img src="assets/info-icon.png">，確定您選取的群組正確。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> <p>此選項在[!UICONTROL 編輯Portfolio]方塊中無法使用。 </p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p role="rowheader">[！UICONTROL一致性計分卡]</p> </td> 
+      <td role="rowheader"> <p role="rowheader">[!UICONTROL 一致性計分卡]</p> </td> 
       <td> <p>從下拉式清單中選取您要使用的對齊計分卡。 計分卡可用來測量專案與Portfolio既定標準的符合程度，這些標準通常可反映組織的使命、價值和策略目標。 如需詳細資訊，請參閱<a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">將計分卡套用至專案並產生一致性分數</a>和<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref">建立計分卡</a>。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL作用中]</td> 
+      <td role="rowheader">[!UICONTROL 作用中]</td> 
       <td> <p> 如果您希望投資組合有效，請選取此核取方塊。 其他使用者可在建立或編輯專案時尋找使用中的專案組合併將其附加至專案。 非作用中的投資組合無法附加到專案。 這預設為啟用。</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 按一下「儲存」[!UICONTROL ****]&#x200B;並繼續編輯下列區段。
+1. 按一下「儲存」[!UICONTROL **&#x200B;**]&#x200B;並繼續編輯下列區段。
 
 ### 自訂表單
 
@@ -229,7 +237,7 @@ Old:
    >
    >根據您的[!DNL Workfront]管理員在您自訂表單中設定區段許可權的方式，不是每個人都可以檢視或編輯指定自訂表單上的相同欄位。 編輯自訂表單區段內欄位的許可權取決於您在專案組合本身的許可權。 如需有關設定自訂表單區段許可權的資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
-1. 按一下「儲存」[!UICONTROL ****]&#x200B;並繼續編輯下列區段。
+1. 按一下「儲存」[!UICONTROL **&#x200B;**]&#x200B;並繼續編輯下列區段。
 
 ### 註解 {#comment}
 

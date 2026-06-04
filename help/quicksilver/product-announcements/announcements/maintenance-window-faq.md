@@ -7,8 +7,10 @@ author: Luke
 feature: Product Announcements
 exl-id: d0b811d3-94e7-4062-83ce-080fefb56055
 TQID: https://experienceleague.adobe.com/iKvCyL9B4YEQ56k0py93f1rf6v4K-O2t6gdhP0DI88s
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 203

@@ -8,11 +8,20 @@ author: Alina
 feature: Work Management
 exl-id: 0b86c760-691a-436e-9beb-31e9ac36440a
 TQID: https://experienceleague.adobe.com/L8Z7JFYj68n3f5ErCcj43KszgDbB3bKAsVCutD-oMow
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: c33d85a1-be85-4290-854c-87408c10aa80id: d1573eb8-a2e8-4a06-9526-9c3410bf4914id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2815
@@ -152,7 +161,7 @@ The daily hour amount represents one of the following:
 
 ### 工作負載平衡器 {#the-workload-balancer}
 
-工作負載平衡器](assets/planned-hours-on-wb-expanded-with-pti-info.png)中的![計畫時數
+工作負載平衡器![&#128279;](assets/planned-hours-on-wb-expanded-with-pti-info.png)中的計畫時數
 
 任務、問題和專案的以下計畫時數顯示在任務、問題或專案名稱右側的工作負載平衡器：
 
@@ -184,7 +193,7 @@ The daily hour amount represents one of the following:
 >
 >工作負載平衡器中的每日配置調整會影響資源規劃工具中任務和問題的每週配置。
 
-每個物件的計畫時數會依您套用至資源規劃工具的檢視而有所不同。 如需詳細資訊，請參閱資源規劃工具](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的專案與角色檢視中的[時數概觀、約當全職人數與成本資訊。
+每個物件的計畫時數會依您套用至資源規劃工具的檢視而有所不同。 如需詳細資訊，請參閱資源規劃工具[&#128279;](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的專案與角色檢視中的時數概觀、約當全職人數與成本資訊。
 
 任務和問題的每週計畫時數表示以下其中一項：
 
@@ -251,7 +260,7 @@ The daily hour amount represents one of the following:
 
 如需有關管理工作的整體使用者和工作角色配置的資訊，請參閱[管理工作的使用者和角色配置時數](../../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md)。
 
-如需有關管理任務的每日分派資訊，請參閱工作負載平衡器](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)中的[管理使用者分派。
+如需有關管理任務的每日分派資訊，請參閱工作負載平衡器[&#128279;](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)中的管理使用者分派。
 
 手動更新工作的使用者或工作角色配置時，會發生下列情況：
 

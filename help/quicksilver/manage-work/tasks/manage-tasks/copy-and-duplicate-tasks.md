@@ -9,11 +9,21 @@ exl-id: daf89062-cf58-4c39-83ff-727d969a9630
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/4woD6-qOZKqPQvGDYALAku7uX3-wD90jxj58zAjc2N0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 1756
@@ -134,7 +144,7 @@ Old:
 
    * 按一下工作清單頂端的&#x200B;**更多功能表**，然後按一下&#x200B;**複製到**。
    * 以滑鼠右鍵按一下選取的工作，然後按一下&#x200B;**複製到**。
-   * 選取一個任務時，按一下清單中任務名稱旁的工作清單](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;功能表![更多圖示，然後按一下&#x200B;**複製到**。
+   * 選取一個任務時，按一下清單中任務名稱旁的工作清單![&#128279;](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;功能表更多圖示，然後按一下&#x200B;**複製到**。
 
    ![在清單中複製任務](assets/copy-task-in-list-nwe-350x131.png)
 
@@ -310,10 +320,10 @@ Old:
 
    * （視條件而定）按一下&#x200B;**計畫模式**&#x200B;圖示![清單模式或儲存模式小型圖示](assets/qs-list-mode-or-save-mode-icon-small.png) > **手動儲存** > **標準**&#x200B;或&#x200B;**時間表計畫**，然後執行下列動作：
 
-      1. 選取要複製的一個或多個任務，然後按一下[複製]。****
+      1. 選取要複製的一個或多個任務，然後按一下[複製]。**&#x200B;**
       1. （選擇性）按一下&#x200B;**還原**&#x200B;以迴轉您的變更，並且不複製工作。
       1. （選擇性和條件性）如果您先前已按一下&#x200B;**復原**，請按一下&#x200B;**重做**&#x200B;以保留變更並複製工作。
 
-      1. 按一下[儲存]儲存變更。****
+      1. 按一下[儲存]儲存變更。**&#x200B;**
 
          任務會重複，並新增到與原始任務相同的專案。

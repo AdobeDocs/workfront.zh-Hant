@@ -9,11 +9,17 @@ exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/qSEkxIz67R1PRsCZCNu0oDYS6pLSJi3OaAULifx9xbo
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 1160
@@ -41,16 +47,16 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>[！UICONTROL標準]</p>
-   <p>[！UICONTROL計畫]</p> </td> 
+   <td> <p>[!UICONTROL 標準]</p>
+   <p>[!UICONTROL 計畫]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[！UICONTROL Edit]程式存取權</p>  </td> 
+   <td> <p>[!UICONTROL Edit]程式存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>[！UICONTROL Manage]方案許可權</p>  </td> 
+   <td> <p>[!UICONTROL Manage]方案許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -154,16 +160,16 @@ ht-degree: 2%
       <td> <p>輸入投資組合的說明以指示其獨特之處。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL計畫管理員]</td> 
-      <td> <p>開始輸入您想指定做為方案管理員的使用者名稱，然後當它出現在清單中時選取它。 此人員可監督計畫專案中定義的工作。 </p> <p><b><p>重要</b></p> <p>當您指定某人擔任方案管理員時，他會自動取得該方案和方案內專案的[！UICONTROL管理]許可權。 </p> <p><b>秘訣</b></p> <p>您可以在方案標題中快速更新方案管理員。 </p> </td> 
+      <td role="rowheader">[!UICONTROL 計畫管理員]</td> 
+      <td> <p>開始輸入您想指定做為方案管理員的使用者名稱，然後當它出現在清單中時選取它。 此人員可監督計畫專案中定義的工作。 </p> <p><b><p>重要</b></p> <p>當您指定某人擔任方案管理員時，他會自動取得該方案和方案內專案的[!UICONTROL 管理]許可權。 </p> <p><b>秘訣</b></p> <p>您可以在方案標題中快速更新方案管理員。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL群組]</td> 
-      <td> <p>如果群組與方案相關聯或負責完成方案，請新增單一群組的名稱。 </p> <p><b>秘訣</b></p>  <p>從[！UICONTROL計畫詳細資訊]頁面存取[！UICONTROL群組]欄位時，請執行以下操作以確保您選取了正確的群組： </p> <p>將游標停留在群組名稱上，然後按一下它旁邊的[！UICONTROL資訊]圖示<img src="assets/info-icon.png">。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>此選項在[！UICONTROL編輯程式]方塊中無法使用。 </p> </p> </td> 
+      <td role="rowheader">[!UICONTROL 群組]</td> 
+      <td> <p>如果群組與方案相關聯或負責完成方案，請新增單一群組的名稱。 </p> <p><b>秘訣</b></p>  <p>從[!UICONTROL 計畫詳細資訊]頁面存取[!UICONTROL 群組]欄位時，請執行以下操作以確保您選取了正確的群組： </p> <p>將游標停留在群組名稱上，然後按一下它旁邊的[!UICONTROL 資訊]圖示<img src="assets/info-icon.png">。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>此選項在[!UICONTROL 編輯程式]方塊中無法使用。 </p> </p> </td> 
      </tr>
 
    <tr> 
-      <td role="rowheader">[！UICONTROL作用中]</td> 
+      <td role="rowheader">[!UICONTROL 作用中]</td> 
       <td> <p>如果您希望此方案處於作用中狀態，並且使用者可以找到它以將其與專案相關聯，請核取此設定。</p>
    <p>取消核取時，方案不會顯示在專案或範本的方案欄位中。 </p>
    <p>此設定預設為勾選。 </p>
@@ -195,7 +201,7 @@ ht-degree: 2%
    >
    >根據您的[!DNL Workfront]管理員在您自訂表單中設定區段許可權的方式，不是每個人都可以檢視或編輯指定自訂表單上的相同欄位。 編輯自訂表單區段中欄位的許可權取決於您對計畫本身的許可權。 如需有關設定自訂表單區段許可權的資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
-1. 更新自訂表單中的任何欄位，然後按一下[儲存]。****，或繼續下列區段。
+1. 更新自訂表單中的任何欄位，然後按一下[儲存]。**&#x200B;**，或繼續下列區段。
 
 ### [!UICONTROL 註解] {#comment}
 

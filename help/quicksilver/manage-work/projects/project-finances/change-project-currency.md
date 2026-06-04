@@ -7,11 +7,18 @@ author: Lisa
 feature: Work Management
 exl-id: c496fe92-5c17-41a5-972b-1c063643bde3
 TQID: https://experienceleague.adobe.com/oI3Fu9-AAnKYBbnaI-7BNWWd5Js6eUpvwVQtEWJVPiY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 570
@@ -79,7 +86,7 @@ ht-degree: 3%
 1. 按一下左側面板中的&#x200B;**專案詳細資料**，然後移至&#x200B;**財務**&#x200B;區域。
 1. 在&#x200B;**貨幣**&#x200B;欄位中按一下&#x200B;**新增**，然後選取您要做為專案預設貨幣的貨幣。 顯示您的Workfront管理員為您的Workfront執行個體設定的所有貨幣。
 
-   專案](assets/currency-on-project.png)上的![貨幣
+   專案![&#128279;](assets/currency-on-project.png)上的貨幣
 
 1. （視條件而定）如果您選取的貨幣不是為Workfront系統設定的預設貨幣，請指定所選貨幣的匯率，因為該匯率與系統中設定為基本貨幣的貨幣相關。
 

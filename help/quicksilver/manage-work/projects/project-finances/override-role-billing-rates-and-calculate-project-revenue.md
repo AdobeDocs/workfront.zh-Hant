@@ -7,11 +7,17 @@ author: Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
 TQID: https://experienceleague.adobe.com/R4sO92imTe1YBO0YGJIsuD5OOlhfbhlN-0qvyYU48t0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 4595
@@ -84,7 +90,7 @@ ht-degree: 0%
 * 身為專案經理，您可以在專案層次為相同職務角色定義收費率。\
   專案上工作角色費率的變更只會影響該專案。
 
-  如需有關覆寫專案角色費率的資訊，請參閱專案層級](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)的[覆寫工作角色收費率。
+  如需有關覆寫專案角色費率的資訊，請參閱專案層級[&#128279;](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)的覆寫工作角色收費率。
 
 ## 計算收入時帳單費率覆寫階層 — 所有其他Workfront和工作流程套件
 
@@ -109,7 +115,7 @@ ht-degree: 0%
 * 身為專案經理，您可以在專案層次為相同職務角色定義收費率。\
   專案上工作角色費率的變更只會影響該專案。
 
-  如需有關覆寫專案角色費率的資訊，請參閱專案層級](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)的[覆寫工作角色收費率。
+  如需有關覆寫專案角色費率的資訊，請參閱專案層級[&#128279;](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)的覆寫工作角色收費率。
 
 >[!IMPORTANT]
 >
@@ -149,7 +155,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->當&#x200B;**開始日期**&#x200B;或&#x200B;**結束日期**&#x200B;對日期有效率而言為空白時，Workfront假設第一個覆寫率適用於日期早於首次覆寫之&#x200B;**結束日期**&#x200B;的所有時數，而最後一個覆寫率適用於日期早於上次覆寫之&#x200B;**開始日期**的所有時數。
+>當&#x200B;**開始日期**&#x200B;或&#x200B;**結束日期**&#x200B;對日期有效率而言為空白時，Workfront假設第一個覆寫率適用於日期早於首次覆寫之&#x200B;**結束日期**&#x200B;的所有時數，而最後一個覆寫率適用於日期早於上次覆寫之&#x200B;**開始日期**&#x200B;的所有時數。
 >如果在專案的計劃開始日期之前記錄了一小時，則會使用第一個收費率。\
 >如果是在專案的計畫完成日期後記錄一小時，則會使用最後一個收費率。
 
@@ -287,7 +293,7 @@ ht-degree: 0%
 
 * 如果在專案層次已覆寫工作角色的收費率，Workfront會使用專案的覆寫費率來計算實際收入。 當您覆寫專案上工作角色的收費率時，將會使用新調整後的費率自動重新計算專案的&#x200B;**實際收入**。
 
-  如需有關覆寫專案角色費率的資訊，請參閱專案層級](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)的[覆寫工作角色收費率。
+  如需有關覆寫專案角色費率的資訊，請參閱專案層級[&#128279;](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)的覆寫工作角色收費率。
 
 >[!NOTE]
 >
@@ -372,7 +378,7 @@ ht-degree: 0%
 ## 使用API新增收費率
 
 若要使用API為工作角色新增收費率，請使用&#x200B;*PUT方法*&#x200B;為&#x200B;**Rate**&#x200B;物件執行&#x200B;*setRatesForRole*動作。
-**Rate**物件上的動作和日期欄位可在API 8.0版中使用。
+**Rate**&#x200B;物件上的動作和日期欄位可在API 8.0版中使用。
 如果您已為專案中的工作角色定義了數個收費率，並且想要使用新的日期範圍為其新增收費率，則必須在同一API呼叫中同時包含現有收費率和要新增的收費率。這類似於更新物件上的集合的方式。
 
 下列API呼叫的範例中，**attachableID**&#x200B;是您新增收費率之專案的&#x200B;**專案識別碼**，**RoleID**&#x200B;是您新增收費率的&#x200B;**工作角色識別碼**。<pre>{</pre><pre>&quot;attachableID&quot;：&quot;593f01500000557d75fdd4fdfcc624f2&quot;，</pre><pre>&quot;attachableObjCode&quot;：&quot;PROJ&quot;，</pre><pre>&quot;roleID&quot;：&quot;544820df000014148cda5136d4b79d09&quot;， </pre><pre>&quot;rates&quot;：[</pre><pre>         {&quot;rateValue&quot;：&quot;0.00&quot;，&quot;startDate&quot;:null，&quot;endDate&quot;：&quot;2017-06-11&quot;}，</pre><pre>         {&quot;rateValue&quot;：&quot;45.00&quot;，&quot;startDate&quot;：&quot;2017-06-12&quot;，&quot;endDate&quot;：&quot;2017-06-17&quot;}，</pre><pre>         {&quot;rateValue&quot;：&quot;95.00&quot;，&quot;startDate&quot;：&quot;2017-06-21&quot;，&quot;endDate&quot;:null}</pre><pre>]</pre><pre>}</pre>如需使用Workfront API的詳細資訊，請參閱文章[API基本知識](https://experience.workfront.com/s/article/API-Basics-638808549)。

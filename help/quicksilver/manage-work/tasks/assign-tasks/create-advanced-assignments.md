@@ -10,11 +10,20 @@ exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/zWSZMjnN-WSef9q6W6s9mIcO2DakU0f886IcxD15tzg
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 3340
@@ -135,7 +144,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    >[!NOTE]
    >
-   >如果您要檢視的資料欄未顯示，您可以將其新增。 請參閱下方的[進階工作總攬]清單](#add-and-remove-columns-on-the-advanced-assignments-list)上的[新增及移除欄。
+   >如果您要檢視的資料欄未顯示，您可以將其新增。 請參閱下方的[進階工作總攬]清單[&#128279;](#add-and-remove-columns-on-the-advanced-assignments-list)上的新增及移除欄。
 
 1. （選擇性）選取&#x200B;**小時**、**FTE**&#x200B;或&#x200B;**百分比**&#x200B;以檢視配置。
 

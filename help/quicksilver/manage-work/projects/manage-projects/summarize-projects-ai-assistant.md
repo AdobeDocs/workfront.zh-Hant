@@ -7,10 +7,14 @@ author: Becky
 feature: Get Started with Workfront
 exl-id: e0ac2a50-a75b-4453-8edf-850b8de74327
 TQID: https://experienceleague.adobe.com/II1JXY--V38Wid7Cs3vvQW3Q9Rq9teIiK9cRAqoaZLM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 357
@@ -62,7 +66,7 @@ Workfront的AI助理可以彙總專案，讓您快速瞭解專案用途和狀態
 
 * 您的Workfront管理員必須為貴組織啟用AI助理。
 
-  如需詳細資訊，請參閱AI助理總覽一文中的[ AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
+  如需詳細資訊，請參閱AI助理總覽一文中的[&#x200B; AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
 * 您的Workfront管理員必須為您的存取層級啟用AI助理。
 
   如需詳細資訊，請參閱[啟用或停用AI助理](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)。

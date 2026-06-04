@@ -9,11 +9,19 @@ exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/6d0OXEaAdH-569LF5nuQ8wcJd-Iq7KYz8os3IOyx0yA
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 327
@@ -123,6 +131,6 @@ Old:
    依預設，Workfront會依照此格式設定新名稱： `Copy of Original template name`。
 
 1. 如果要將所有來自原始範本的任務和範本指派傳送到新範本，請選取&#x200B;**保留使用者在任務或範本上的指派**&#x200B;選項。 範本任務指派，以及範本擁有者和贊助者會轉移到複製的範本。
-1. 按一下[儲存]**以建立範本的復本。**
+1. 按一下[儲存]&#x200B;**以建立範本的復本。**
 
    新範本會顯示在Workfront的「範本」區域的範本清單中。

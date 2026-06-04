@@ -7,8 +7,11 @@ author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2fb8fcb4-eb82-4ac5-8b09-8577fecb9bc4
 TQID: https://experienceleague.adobe.com/ilubt7pcSUE74veKcfUx3y2zzh6Oq-NUyapv1W4Yxxw
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 116

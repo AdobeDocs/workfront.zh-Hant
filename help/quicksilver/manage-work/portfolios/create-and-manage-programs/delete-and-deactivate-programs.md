@@ -7,11 +7,17 @@ author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 605d1ec5-ca2e-4ff0-87e1-fa53d8ac4a95
 TQID: https://experienceleague.adobe.com/nXFATsZ0uMLsgS-q4VlSQxL1Zh29QSCSAWTHxEGBgMw
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 464
@@ -45,15 +51,15 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>[！UICONTROL標準]</p><p>[！UICONTROL計畫]</p> </td> 
+   <td> <p>[!UICONTROL 標準]</p><p>[!UICONTROL 計畫]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[！UICONTROL Edit]對投資組合和計畫的存取權 </p>  </td> 
+   <td> <p>[!UICONTROL Edit]對投資組合和計畫的存取權 </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合的[！UICONTROL Manage]許可權</p> <p>建立方案後，預設情況下您擁有[！UICONTROL管理]許可權。</p>  </td> 
+   <td> <p>投資組合的[!UICONTROL Manage]許可權</p> <p>建立方案後，預設情況下您擁有[!UICONTROL 管理]許可權。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
