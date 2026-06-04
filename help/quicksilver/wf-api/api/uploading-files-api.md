@@ -7,18 +7,22 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 4e0b73b6-0d6d-4971-a87a-dfec85fb031a
-source-git-commit: cf5a1ab848caae947829806e601662a31ce3a081
+TQID: https://experienceleague.adobe.com/Yd7byYJ1pYDXwdKvINXh4fKy-pWoEiNMj345jr1HHNs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: 176
 ht-degree: 0%
 
 ---
 
 # 透過API上傳檔案
 
-您可以使用Workfront API搭配API工具(例如Postman)或簡單的cURL命令來上傳檔案。
+您可以使用Workfront API搭配API工具（例如Postman）或簡單的cURL命令來上傳檔案。
 
-若要上傳檔案，請參閱Workfront **發佈行為**&#x200B;中[上傳檔案](/help/quicksilver/wf-api/general/api-basics.md#post-behavior)的說明。 您也可以對cURL請求使用這些相同的指示。
+若要上傳檔案，請參閱Workfront [發佈行為](/help/quicksilver/wf-api/general/api-basics.md#post-behavior)中&#x200B;**上傳檔案**&#x200B;的說明。 您也可以對cURL請求使用這些相同的指示。
 
 **使用API工具上傳檔案時，請遵循下列准則：**
 

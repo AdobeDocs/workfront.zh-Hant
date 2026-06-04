@@ -8,13 +8,16 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a18b6b97-ee1e-4ad2-a4e1-00a644a0f4f2
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+TQID: https://experienceleague.adobe.com/y9RxzhalPQGx0BEMOtLVOAxwyh-OhQcxuARtBrJd8Yg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 2%
+source-wordcount: 191
+ht-degree: 4%
 
 ---
-
 
 # 執行自訂動作（尚未實作）
 
@@ -26,7 +29,7 @@ webhook提供者會將actions包含在customActions下的/serviceInfo回應中�
 
 **URL**
 
-GET/customAction
+GET /customAction
 
 ## 查詢參數
 

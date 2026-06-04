@@ -7,15 +7,18 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/ZIuaLr4-N-g2ciqjiOtzrTpjz0GFpxcpb-KqdXc-Th0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3190'
+source-wordcount: 3146
 ht-degree: 5%
 
 ---
-
 
 # 事件訂閱API
 
@@ -98,11 +101,11 @@ ht-degree: 5%
 * 需要「系統管理員」的存取層級才能使用事件訂閱。
 * 需要`sessionID`標頭才能使用事件訂閱API
 
-  如需詳細資訊，請參閱[API基本知識](api-basics.md#authentication)中的[驗證](api-basics.md)。
+  如需詳細資訊，請參閱[API基本知識](api-basics.md)中的[驗證](api-basics.md#authentication)。
 
 ## 避免讓事件訂閱超載
 
-事件訂閱服務旨在為所有使用者提供可靠的事件傳送。 為了確保這一點，已經實施了防護措施，以防止單一使用者產生過多的事件，從而可能對所有使用者造成服務品質問題。因此，在短時間內以高頻率產生過多事件的使用者，可能會經歷沙箱化和事件傳遞延遲的情況。
+事件訂閱服務旨在為所有使用者提供可靠的事件傳送。 為了確保這一點，已經實施了防護措施，以防止單一使用者產生過多的事件，從而可能對所有使用者造成服務品質問題。 因此，在短時間內以高頻率產生過多事件的使用者，可能會經歷沙箱化和事件傳遞延遲的情況。
 
 ## 形成訂閱資源
 
@@ -623,7 +626,7 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 * 將多個事件訂閱指派給單一物件時，與該物件相關聯的所有事件訂閱都可以傳回至單一端點。 此實務可做為邏輯運運算元&#x200B;**OR**&#x200B;的同等替代使用，而此邏輯運運算元無法使用篩選引數設定。
 * 下列欄位無法篩選：
 
-   * DOCU.groups
+   * docu.groups
    * RECORD.data
    * RECORD_TYPE.data
    * RECORD_TYPE.欄位
@@ -852,13 +855,13 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 
 #### state
 
-此聯結器將篩選套用到已建立或更新之物件的新狀態或舊狀態。 當您想知道某個專案在哪裡變更到另一個專案時，這會很有幫助。
-無法在CREATE `oldState`上執行`eventTypes`。
+此聯結器將篩選套用到已建立或更新之物件的新狀態或舊狀態。當您想知道某個專案在哪裡變更到另一個專案時，這會很有幫助。
+無法在CREATE `eventTypes`上執行`oldState`。
 
 >[!NOTE]
 >
->底下具有指定篩選器的訂閱只會傳回工作名稱在`again`上包含`oldState`的訊息，這是更新工作之前的訊息。
->此情況下的使用案例是尋找從一個事物變更為另一個事物的objCode訊息。 例如，找出從「Research Some name」變更為「Research TeamName Some name」的所有任務
+>底下具有指定篩選器的訂閱只會傳回工作名稱在`oldState`上包含`again`的訊息，這是更新工作之前的訊息。
+>此使用案例是尋找從一個專案變更為另一個專案的objCode訊息。例如，找出從「Research Some name」變更為「Research TeamName Some name」的所有任務
 
 ```
 {

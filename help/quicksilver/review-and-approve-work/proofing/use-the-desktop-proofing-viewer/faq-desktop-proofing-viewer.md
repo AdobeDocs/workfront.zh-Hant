@@ -3,14 +3,17 @@ content-type: faq
 product-area: documents
 navigation-topic: use-the-desktop-proofing-viewer
 title: 常見問題集 — 案頭校訂檢視器
-description: 否。Desktop Proofing Viewer是專為即時網站校訂以及橫幅廣告等互動式網頁內容所設計。
+description: 否。 Desktop Proofing Viewer是專為即時網站校訂以及橫幅廣告等互動式網頁內容所設計。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e5c9f039-2a6e-47be-a125-f0ce23cfaeaa
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+TQID: https://experienceleague.adobe.com/1gc-y9JRhPoWI2jpVRsQoe05Vi9mzHYVu5Bo7pydfbw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 0%
+source-wordcount: 417
+ht-degree: 1%
 
 ---
 
@@ -18,7 +21,7 @@ ht-degree: 0%
 
 ## 我的組織不會校訂互動式內容。 我仍需要安裝案頭校訂檢視器嗎？
 
-否。Desktop Proofing Viewer是專為即時網站校訂以及橫幅廣告等互動式網頁內容所設計。
+否。 Desktop Proofing Viewer是專為即時網站校訂以及橫幅廣告等互動式網頁內容所設計。
 
 不過，在您的組織中確實安裝它，請注意，它也可以用於校訂任何其他型別的受支援靜態和視訊內容。 
 
@@ -30,7 +33,7 @@ ht-degree: 0%
 
 ## 有沒有其他方法檢閱網站？
 
-是。您可以使用新的Web Proofing Viewer來建立網站的靜態網頁擷取。 校樣中每個產生的頁面都是網站上某個頁面的熒幕擷取畫面。 檢閱者可以在較寬的網站中檢視一或多個子頁面。 對此的唯一要求是，我們的伺服器必須可公開存取網站。
+是。 您可以使用新的Web Proofing Viewer來建立網站的靜態網頁擷取。 校樣中每個產生的頁面都是網站上某個頁面的熒幕擷取畫面。 檢閱者可以在較寬的網站中檢視一或多個子頁面。 對此的唯一要求是，我們的伺服器必須可公開存取網站。
 
 如需詳細資訊，請參閱
 
@@ -42,7 +45,7 @@ ht-degree: 0%
 
 ## 新版本的Desktop Viewer是否需要我重新安裝？
 
-否。Desktop Viewer的更新會自動完成，您或您的使用者都不需要任何提示。
+否。 Desktop Viewer的更新會自動完成，您或您的使用者都不需要任何提示。
 
 ## 當我向外部利害關係人傳送證明時，是否需要案頭檢視器？
 

@@ -7,10 +7,14 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 90fefaa6-d387-4cdb-8aea-9a939fe2ac26
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/bKFAN--rVO1yxgFLiyhXolgUBajVGYQxM7pBUuqy3v8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 27%
+source-wordcount: 269
+ht-degree: 37%
 
 ---
 
@@ -22,7 +26,7 @@ ht-degree: 27%
 
 **敏捷工作**
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
+| 欄位 | 參考資料 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | backlogOrder | 客戶 |   |   | bulkcopy  |   | 複製 |
 | 顏色 | 反複專案  |   |   |   |   | 計數 |
@@ -49,7 +53,7 @@ ht-degree: 27%
 
 ### APIVersionMetadata
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
+| 欄位 | 參考資料 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | deprecationRelease |   |   |   |   |   | 計數  |
 | removalRelease |   |   |   |   |   | GET |
@@ -60,7 +64,7 @@ ht-degree: 27%
 
 **KanbanBoard**
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
+| 欄位 | 參考資料 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 新增 |
 | 名稱 |   |   |   |   |   | 計數 |
@@ -74,7 +78,7 @@ ht-degree: 27%
 
 ### ProofApprovalStatus
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
+| 欄位 | 參考資料 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   |   |
 | proofApprovalStatusID |   |   |   |   |   |   |
@@ -84,7 +88,7 @@ ht-degree: 27%
 
 **ProofFileMetadata**
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
+| 欄位 | 參考資料 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | documentVersionID | documentversion |   |   |   |   |   |
 | fileIndex |   |   |   |   |   |   |
@@ -96,7 +100,7 @@ ht-degree: 27%
 
 **ResourceBudgetedHour**
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
+| 欄位 | 參考資料 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | allocationDate |   |   |   |   |   | 新增 |
 | budgetedHours |   |   |   |   |   | 計數 |
@@ -110,7 +114,7 @@ ht-degree: 27%
 
 ### ResourcePlannerFilter
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
+| 欄位 | 參考資料 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 新增 |
 | 名稱 |   |   |   |   |   | 計數 |
@@ -124,7 +128,7 @@ ht-degree: 27%
 
 **RichTextNote**
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
+| 欄位 | 參考資料 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 計數 |
 |   |   |   |   |   |   | GET |
@@ -135,7 +139,7 @@ ht-degree: 27%
 
 ### 訂閱
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
+| 欄位 | 參考資料 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 |  ID |   |   |   | addSubscribers | 訂閱者 | 新增 |
 |   |   |   |   | removeSubscribers |   | 計數  |
@@ -148,7 +152,7 @@ ht-degree: 27%
 
 ### 使用者角色
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
+| 欄位 | 參考資料 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | roleID | 角色 |   |   |   |   |   |
 | timePercentage | 使用者 |   |   |   |   |   |

@@ -7,12 +7,16 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 3606b6c3-b373-47ea-9cb5-813bd3af8da7
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/rFy1Sc7UKGbenuOywbCTw4ezfmmRRDKMihHJD--LPto
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 3%
+source-wordcount: 337
+ht-degree: 2%
 
 ---
 
@@ -37,7 +41,7 @@ Sandbox 2
 
 >[!NOTE]
 >
->如果事件訂閱將事件傳送至的伺服器支援1.3版，則事件訂閱會使用TLS 1.3版。如果連線的伺服器不支援1.3版，則事件訂閱會使用TLS 1.2版。
+>如果事件訂閱將事件傳送至的伺服器支援1.3版，則事件訂閱會使用TLS 1.3版。 如果連線的伺服器不支援1.3版，則事件訂閱會使用TLS 1.2版。
 
 
 
@@ -74,7 +78,7 @@ server {
 }
 ```
 
-如需詳細資訊，請參閱ngx_http_ssl_module[的](https://nginx.org/en/docs/http/ngx_http_ssl_module.html)NGiNX檔案。
+如需詳細資訊，請參閱ngx_http_ssl_module](https://nginx.org/en/docs/http/ngx_http_ssl_module.html)的[NGiNX檔案。
 
 ### Apache
 

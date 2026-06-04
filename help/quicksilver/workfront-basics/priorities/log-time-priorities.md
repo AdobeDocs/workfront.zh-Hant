@@ -6,10 +6,15 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 5457f516-c213-4b82-b033-bc8db943a217
-source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
+TQID: https://experienceleague.adobe.com/HqqE7qvcwIZxg83G3EtJmr5t0g7WVBimiJBnnQrVcv0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 0%
+source-wordcount: 513
+ht-degree: 4%
 
 ---
 
@@ -19,9 +24,9 @@ ht-degree: 0%
 
 優先順序顯示指派給您的工作專案。 您看不到指派給團隊的工作專案。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 您必須具有下列存取權才能執行本文中的步驟，並記錄專案特定時數：
 
@@ -30,7 +35,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -66,7 +71,7 @@ ht-degree: 0%
 
 1. （視條件而定）如果您的Workfront或群組管理員已啟用手動將工作角色指派至時數專案設定，請從下拉式選單中選取工作角色。 依預設，系統會顯示指派給工作專案時所指定的角色。 如果您在物件上未被指派角色，您的「主要角色」會顯示為預設值。 如果您沒有指派主要角色，則不會顯示任何工作角色。
 
-1. 輸入您要記錄的時間，然後按一下[記錄時間]。**&#x200B;**
+1. 輸入您要記錄的時間，然後按一下[記錄時間]。****
 
    ![記錄時間](assets/log-time-dialog.png)
 
@@ -81,6 +86,6 @@ ht-degree: 0%
 1. 在&#x200B;**小時型別**&#x200B;下拉式功能表中，選取適當的小時型別。 如定義時數型別和可用性所述，可用時數型別取決於系統、專案和使用者層級中已定義的內容。
 1. （視條件而定）如果您的Workfront或群組管理員已啟用手動將工作角色指派至時數專案設定，請從下拉式選單中選取工作角色。 依預設，系統會顯示指派給工作專案時所指定的角色。 如果您在物件上未被指派角色，您的「主要角色」會顯示為預設值。 如果您沒有指派主要角色，則不會顯示任何工作角色。
 
-1. 輸入您要記錄的時間，然後按一下[記錄時間]。**&#x200B;**
+1. 輸入您要記錄的時間，然後按一下[記錄時間]。****
 
    ![記錄時間](assets/log-time-dialog.png)

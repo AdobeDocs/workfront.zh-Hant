@@ -6,9 +6,14 @@ description: 瞭解如何在校訂中檢視內容。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
-source-git-commit: 480f40d77cfc494ac28a2332c0e15bd1f0f00a6b
+TQID: https://experienceleague.adobe.com/VPT5pfG61EX7ZiSIkod-E40GhRZ0RVhiunaxaYTAhls
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: 826
 ht-degree: 2%
 
 ---

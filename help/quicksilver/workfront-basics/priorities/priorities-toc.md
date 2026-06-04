@@ -6,9 +6,12 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 26f13890-5d79-44b6-9cf8-70ef05e4564d
-source-git-commit: a56441276fbc508a81d5331874580385ceb8812f
+TQID: https://experienceleague.adobe.com/8tG11M5UD62nKjaJXHttP80MiYtssPYNLK5YTSZ5qmo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: 99
 ht-degree: 1%
 
 ---

@@ -6,10 +6,15 @@ description: 您可以將多個檔案合併為單一多頁校訂。 檢閱者可
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a8ad80d8-0758-4fea-824e-8c206424e295
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/ftAfhh-z2L4bKJ9l5IErMy8cJ-YASuKcIcjSEJjavcU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 0%
+source-wordcount: 611
+ht-degree: 3%
 
 ---
 
@@ -17,16 +22,16 @@ ht-degree: 0%
 
 您可以將多個檔案合併為單一多頁校訂。 檢閱者可以使用校訂檢視器中的導覽工具來瀏覽多頁校訂中的頁面。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -83,10 +88,10 @@ ht-degree: 0%
 將檔案合併為單一校訂時，請考慮下列事項：
 
 * 您最多可以上傳500個個別檔案。
-* 您可以合併不同型別的靜態檔案(例如，PDF、JPG、DOC、PPT、EXC)，最多共2,000頁。
+* 您可以合併不同型別的靜態檔案（例如，PDF、JPG、DOC、PPT、EXC），最多共2,000頁。
 * 您可以合併靜態網頁擷取。
 * 您可以合併GIF檔案；不過，動畫GIF會以靜態檔案處理。
 * 您無法結合AV檔案和互動式網頁擷取。
-* 校訂的縮圖影像是從校訂的第一頁取得(請參閱[在Workfront Proof中管理校訂詳細資訊](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md))。
+* 校訂的縮圖影像是從校訂的第一頁取得（請參閱[在Workfront Proof中管理校訂詳細資訊](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)）。
 * 您可以檢查已合併以在校樣詳細資訊頁面上建立校樣的檔案名稱。 如需詳細資訊，請參閱[在Workfront Proof中管理校訂詳細資訊](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)。
-* 如果在校樣上啟用了下載原始檔案的選項，則可以下載所有已組合的檔案，以將校樣建立為.zip檔案。 如需詳細資訊，請參閱  [下載儲存在Workfront Proof中的檔案](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md)。
+* 如果在校樣上啟用了下載原始檔案的選項，則可以下載所有已組合的檔案，以將校樣建立為.zip檔案。 如需詳細資訊，請參閱[下載儲存在Workfront Proof中的檔案](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md)。

@@ -7,9 +7,14 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: ac394b41-63cb-481a-a858-30d8d7f840bb
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/E8QRlaGlxvGtgM6Q-23W1trqkejL5Y8RDUzHJtBF1uc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: 640
 ht-degree: 0%
 
 ---

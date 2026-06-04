@@ -6,10 +6,15 @@ description: 您可以在檔案上傳至Workfront時為其產生校訂。 您也
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/Pn0eWLEK9gi1eqztoZCg-aR9s7zm60M-SLkRudYGdnU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 1%
+source-wordcount: 617
+ht-degree: 4%
 
 ---
 
@@ -25,16 +30,16 @@ ht-degree: 1%
 If a proof fails to generate after following the steps described in the following sections, see [Troubleshoot proof creation failures](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/troubleshooting-proof-creation-failures.md).
 -->
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> 
    <p>任何 </p>
     </td> 
@@ -99,7 +104,7 @@ If a proof fails to generate after following the steps described in the followin
 若要使用拖放方式來產生新校訂或新校訂版本：
 
 1. 確保校訂已設定為自動產生，如中所述。
-1. 繼續使用  [從您的檔案系統新增檔案至Adobe Workfront](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)，說明新增檔案的拖放方式。 
+1. 繼續從您的檔案系統[新增檔案至Adobe Workfront](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)，說明新增檔案的拖放方式。 
 
 ## 為現有檔案建立校訂
 

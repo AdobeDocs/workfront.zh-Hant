@@ -7,10 +7,14 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 29d922f4-f4c6-45e5-b9fa-43e2068ec66d
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/bhSRoKwkhcVC0E-d-fiNzoWaefME6ta2176gnF-Ts1M
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 19%
+source-wordcount: 179
+ht-degree: 27%
 
 ---
 
@@ -22,7 +26,7 @@ ht-degree: 19%
 
 ### 存取層級
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
+| 欄位 | 參考資料 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | `accessRestrictions` | `customer` | `accessLevelPermissions` |  |  |  | `ADD` |
 | `customerID` | `lastUpdatedBy` | `accessRulePreferences` |  |  |  | `COPY` |
@@ -45,7 +49,7 @@ ht-degree: 19%
 
 ### AccessLevelPermissions
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
+| 欄位 | 參考資料 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | `coreAction` |  |  |  |  |  |   |
 | `forbiddenActions` |  |  |  |  |  |   |
@@ -58,7 +62,7 @@ ht-degree: 19%
 
 ### AccessRulePreference
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
+| 欄位 | 參考資料 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | `ID` |   |   |   |   |   |   |
 
@@ -66,7 +70,7 @@ ht-degree: 19%
 
 ### BudgetedHour
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
+| 欄位 | 參考資料 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | `allocationDate` |  |  |  |  |  | `ADD` |
 | `budgetedHours` |  |  |  |  |  | `DELETE` |
@@ -80,7 +84,7 @@ ht-degree: 19%
 
 ### CalendarPortalSection
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
+| 欄位 | 參考資料 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | `calendarInfoID` | `customer` |  | `displayDescription` |  |  | `ADD` |
 | `customerID` | `enteredBy` |  | `displayName` |  |  | `COPY` |
@@ -95,7 +99,7 @@ ht-degree: 19%
 
 ### 行事曆區段
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
+| 欄位 | 參考資料 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | `calendarID` | `customer` | `filters` |  | `getConcatenatedExpressionForm` |  | `ADD` |
 | `calEvents` |  |  |  | `getPrettyExpressionForm` |  | `COUNT` |
@@ -112,7 +116,7 @@ ht-degree: 19%
 
 ### Externalsection
 
-| 欄位 | 引用 | 集合 | 搜尋 | 動作 | 查詢 | 營運 |
+| 欄位 | 參考資料 | 集合 | 搜尋 | 動作 | 查詢 | 作業 |
 |---|---|---|---|---|---|---|
 | `appGlobalID` | `customer` |  | `displayDescription` | `calculateURL` |  | `ADD` |
 | `calculatedURL` | `enteredBy` |  | `displayName` | `calculateURLS` |  | `COPY` |

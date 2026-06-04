@@ -6,10 +6,16 @@ description: 使用者可以要求存取Adobe Workfront中的物件。 如需請
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+TQID: https://experienceleague.adobe.com/XBAiNe19HTNr8Zq0QUGg3S3CQhrlCa0hDPQ2hIYoK9U
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 1%
+source-wordcount: 486
+ht-degree: 5%
 
 ---
 
@@ -23,22 +29,22 @@ ht-degree: 1%
 
 如果您是物件的擁有者，則可以在首頁區域授予或拒絕專案存取權。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>標準</p> 
-   <p>工作或更高</p>
+   <p>工作或更高層級</p>
    </td> 
   </tr> 
   <tr> 
@@ -58,9 +64,9 @@ ht-degree: 1%
 
 ## 授予「首頁」區域中物件的存取權
 
-1. 按一下熒幕右上角的&#x200B;**主功能表** ![](assets/dots-main-menu.png)，或按一下左上角的&#x200B;**主功能表** ![](assets/lines-main-menu.png) （如果可用），然後按一下&#x200B;**首頁**
+1. 按一下熒幕右上角的&#x200B;**主功能表** ![](assets/dots-main-menu.png)，或按一下左上角的&#x200B;**主功能表** ![](assets/lines-main-menu.png) （若有），然後按一下&#x200B;**首頁**
 或
-按一下Adobe Workfront左上角的&#x200B;**首頁**&#x200B;圖示![](assets/home-icon-30x29.png)。
+按一下Adobe Workfront左上角的**首頁**&#x200B;圖示![](assets/home-icon-30x29.png)。
 
    >[!NOTE]
    >
@@ -75,7 +81,7 @@ ht-degree: 1%
 
       ![核准請求](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
 
-   1. （選擇性）若要授與不同層級的存取權，請按一下[授與存取權]按鈕左側的下拉式功能表，並選取新的存取權，然後按一下[授與存取權]。**&#x200B;**
+   1. （選擇性）若要授與不同層級的存取權，請按一下[授與存取權]按鈕左側的下拉式功能表，並選取新的存取權，然後按一下[授與存取權]。****
 
       存取請求被授予，並從核准請求清單中消失。
 

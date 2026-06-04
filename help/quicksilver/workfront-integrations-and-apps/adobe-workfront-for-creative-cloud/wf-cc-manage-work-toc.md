@@ -5,9 +5,13 @@ author: Courtney
 draft: Probably
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: a859e843-38e7-4743-9920-62a76da9caeb
-source-git-commit: 4f70f71294228e95d09a02e7a63bd683c04c6142
+TQID: https://experienceleague.adobe.com/zb0E5igvElLOmblQ9VIq7LKDhvYqo6-TKsSRftKg1vs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: 50
 ht-degree: 0%
 
 ---

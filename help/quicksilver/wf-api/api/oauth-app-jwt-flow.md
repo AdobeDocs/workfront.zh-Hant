@@ -7,9 +7,14 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 4bd56fe6-1f36-4c36-82cd-96de748ad680
-source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
+TQID: https://experienceleague.adobe.com/uxF82lsimZlGpWRe8BEt80-9wb0rnwz7uhBHCI8nAig
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: 462
 ht-degree: 0%
 
 ---
@@ -59,7 +64,7 @@ JWT必須經過簽署並以base-64編碼，才能納入存取請求中。 JWT程
  <tbody> 
   <tr> 
    <td role="rowheader">費用</td> 
-   <td> <p>必填。 有效期引數是測量01/01/1970 GMT以來絕對時間的必要引數。 您必須確保到期時間晚於問題時間。 在此時間之後，JWT就不再有效。 </p> <p>注意：建議您使用時間非常短的權杖（幾分鐘），以便在交換存取權杖後不久過期。 每次需要新的存取權杖時，都會簽署和交換一個JWT。 這是更安全的方法。 我們不建議視需要重複使用可取得存取權杖的較長存留期權杖。</p> </td> 
+   <td> <p>必填。有效期引數是測量01/01/1970 GMT以來絕對時間的必要引數。您必須確保到期時間晚於問題時間。在此時間之後，JWT就不再有效。 </p> <p>注意：建議您使用時間非常短的權杖（幾分鐘），以便在交換存取權杖後不久過期。 每次需要新的存取權杖時，都會簽署和交換一個JWT。 這是更安全的方法。 我們不建議視需要重複使用可取得存取權杖的較長存留期權杖。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">iss</td> 

@@ -6,10 +6,16 @@ description: 每個Widget都包含自己的工作清單。 工作清單會顯示
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+TQID: https://experienceleague.adobe.com/fITdY6-HlQ-4527-RiI9m52-Kg3nRUxsk32vjpw-A-g
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 4%
+source-wordcount: 990
+ht-degree: 6%
 
 ---
 
@@ -24,9 +30,9 @@ ht-degree: 4%
 >* 若要在首頁Widget中顯示任務和問題，其父專案必須處於目前狀態或等於目前狀態。
 >* 專案也必須處於目前狀態或等於目前顯示在首頁中的狀態。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,12 +46,12 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權</strong></td> 
-   <td><ul><li>[!UICONTROL 參與者]僅供核准</li> <li>適用於所有其他物件的[!UICONTROL Standard]或更新版本</li> <p>或</p> 
-  </ul><ul><li>[!UICONTROL Review]僅供核准</li> <li>適用於所有其他物件的[!UICONTROL Work]或更新版本</li> </td> 
+   <td><ul><li>[！UICONTROL參與者]僅供核准</li> <li>適用於所有其他物件的[！UICONTROL Standard]或更新版本</li> <p>或</p> 
+  </ul><ul><li>[！UICONTROL Review]僅供核准</li> <li>適用於所有其他物件的[！UICONTROL Work]或更新版本</li> </td> 
   </tr> </ul>
   <tr> 
    <td role="rowheader"><strong>存取層級設定</strong></td> 
-   <td> <p>[!UICONTROL 檢視]或更高的專案、任務、問題和檔案存取權</p> </td> 
+   <td> <p>[！UICONTROL檢視]或更高的專案、任務、問題和檔案存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
@@ -116,7 +122,7 @@ ht-degree: 4%
    | 我的核准 | 顯示所有擱置、已指派、已委派及已提交的核准 |
 
 1. 按一下Widget工作清單右上角的&#x200B;**篩選器**&#x200B;圖示![篩選器圖示](assets/filter-nwepng.png)。
-1. 選擇&#x200B;**建議的**&#x200B;篩選器或您已建立的篩選器。
+1. 選擇&#x200B;**建議的**篩選器或您已建立的篩選器。
 如需建議篩選的詳細資訊，請參閱[首頁Widget篩選總覽](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)。
 1. （選擇性）開啟&#x200B;**棧疊篩選器**&#x200B;以選取多個篩選器選項。
 
@@ -143,7 +149,7 @@ ht-degree: 4%
    | 我的核准 | 顯示所有擱置、已指派、已委派及已提交的核准 |
 
 1. 按一下Widget工作清單右上角的&#x200B;**群組**&#x200B;圖示![群組圖示](assets/group-icon.png)。
-1. 選擇一個&#x200B;**建議的**&#x200B;群組或您已建立的群組。
+1. 選擇一個&#x200B;**建議的**群組或您已建立的群組。
    ![群組已展開](assets/grouping-expanded.png)
 
 

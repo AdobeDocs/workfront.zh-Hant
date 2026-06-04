@@ -7,9 +7,14 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: addcf5bc-a101-4bb0-93a6-46b4af67c848
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/-yUOhE9OsdK5SHaObgFhMgGt7Ih-FY7XqdEJn6QI4hk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: 254
 ht-degree: 0%
 
 ---
@@ -30,7 +35,7 @@ ht-degree: 0%
 
   此欄位將以Nanoseconds和EpochSeconds表示事件發生時間。 排序由您的整合處理之事件時，請使用eventTime。
 
-* 將會移除NOTE資源上的owner：companyID參考欄位。
+* 將會移除NOTE資源上的擁有者:companyID參考欄位。
 * 將移除DOCU （檔案）資源上的currentVersion參考物件。
 
 如果您目前使用Workfront活動訂閱，需在2017.3版之前更新Workfront整合，才能解決這些變更。

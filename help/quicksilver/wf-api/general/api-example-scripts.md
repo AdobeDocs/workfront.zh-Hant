@@ -7,13 +7,15 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 76c5eca6-be82-4331-9da9-9943e0bda669
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+TQID: https://experienceleague.adobe.com/sKmKH09kvDSYV81SQi1vgQXobcVBG-zWWKCKMsQyzq8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: 254
 ht-degree: 0%
 
 ---
-
 
 # API範例指令碼
 
@@ -30,7 +32,7 @@ ht-degree: 0%
 * 刪除專案
 * 登出
 
-您可以在Workfront的Github頁面下載這些範例：  [https://github.com/Workfront](https://github.com/Workfront)
+您可以在Workfront的Github頁面下載這些範例： [https://github.com/Workfront](https://github.com/Workfront)
 
 若要尋找存放庫中的範例，請在&#x200B;**尋找存放庫……**&#x200B;方塊中輸入`example`。
 

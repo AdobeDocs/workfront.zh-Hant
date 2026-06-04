@@ -6,10 +6,16 @@ description: 您可以將像片檔案預設集作為校訂直接上傳到 [!DNL 
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+TQID: https://experienceleague.adobe.com/gV7TwIUpXsu4wBBb31QE2ADnvZ6vWXtwQBvFGPYt73Y
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 0%
+source-wordcount: 625
+ht-degree: 3%
 
 ---
 
@@ -19,13 +25,13 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->檔案必須是像片檔案預設集，如[Photoshop](https://helpx.adobe.com/tw/photoshop/using/create-documents.html)中的範本和預設集所述。
+>檔案必須是像片檔案預設集，如[Photoshop](https://helpx.adobe.com/photoshop/using/create-documents.html)中的範本和預設集所述。
 
 
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,19 +45,19 @@ ht-degree: 0%
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
    <td> 
    <p>標準</p>
-   <p>工作或更高</p> </td> 
+   <p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">其他產品</td> 
-   <td>除了[!DNL Adobe Creative Cloud]授權之外，您還必須有[!DNL Workfront]授權。</td> 
+   <td>除了[!DNL Workfront]授權之外，您還必須有[!DNL Adobe Creative Cloud]授權。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">校樣權限設定檔 </td> 
-   <td>[!UICONTROL Manager]或更高版本</td> 
+   <td>[！UICONTROL Manager]或更高版本</td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>編輯[!UICONTROL 檔案]的存取權</p>  </td> 
+   <td> <p>編輯[！UICONTROL檔案]的存取權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -74,7 +80,7 @@ ht-degree: 0%
 
 1. 前往您要上傳校樣的工作專案。
 1. 按一下導覽列中的&#x200B;**[!UICONTROL 檔案]**&#x200B;圖示![檔案圖示](assets/documents.png)。
-1. 按一下&#x200B;**[!UICONTROL 面板底部附近的]**&#x200B;新增檔案[!DNL Workfront]。
+1. 按一下[!DNL Workfront]面板底部附近的&#x200B;**[!UICONTROL 新增檔案]**。
 1. 啟用&#x200B;**[!UICONTROL 建立校訂]**&#x200B;切換。
 1. （選擇性）在&#x200B;**[!UICONTROL 校訂名稱]**&#x200B;文字方塊中輸入校訂的名稱。
 1. 在&#x200B;**[!UICONTROL 校訂核准]**&#x200B;區段中，選取&#x200B;**[!UICONTROL 基本]**。
@@ -88,8 +94,8 @@ ht-degree: 0%
 1. （選擇性）選取&#x200B;**[!UICONTROL 新增外部檔案]**&#x200B;以從您的電腦新增檔案。
 1. 按一下&#x200B;**[!UICONTROL 上傳]**，然後根據上述選擇的資產型別設定任何需要的匯出選項。
 
-   外掛程式![中的](assets/plugin-files-350x307.png)檔案\
-   檔案出現在[!UICONTROL 的]面板中的[!DNL Workfront]檔案[!DNL Photoshop]區域以及[!DNL Workfront]案頭應用程式中。
+   外掛程式](assets/plugin-files-350x307.png)中的![檔案\
+   檔案出現在[!DNL Photoshop]的[!DNL Workfront]面板中的[!UICONTROL 檔案]區域以及[!DNL Workfront]案頭應用程式中。
 
 
 ## 上傳自動證明
@@ -101,7 +107,7 @@ ht-degree: 0%
 1. 前往您要上傳校樣的工作專案。
 1. 按一下導覽列中的&#x200B;**[!UICONTROL 檔案]**&#x200B;圖示![檔案圖示](assets/documents.png)。
 
-1. 按一下&#x200B;**[!UICONTROL 面板底部附近的]**&#x200B;新增檔案[!DNL Workfront]。
+1. 按一下[!DNL Workfront]面板底部附近的&#x200B;**[!UICONTROL 新增檔案]**。
 1. 啟用&#x200B;**[!UICONTROL 建立校訂]**&#x200B;切換。
 1. （選擇性）在&#x200B;**[!UICONTROL 校訂名稱]**&#x200B;文字方塊中輸入校訂的名稱。
 1. 在&#x200B;**[!UICONTROL 校訂核准]**&#x200B;區段中，選取&#x200B;**[!UICONTROL 自動化]**。
@@ -121,7 +127,7 @@ ht-degree: 0%
 1. 從下拉式功能表中選擇&#x200B;**[!UICONTROL 資產型別]**。
 1. （選擇性）選取&#x200B;**[!UICONTROL 新增外部檔案]**&#x200B;以從您的電腦新增檔案。
 1. 按一下&#x200B;**[!UICONTROL 上傳]**，然後根據上述選擇的資產型別設定任何需要的匯出選項。
-檔案出現在[!UICONTROL 的]面板中的[!DNL Workfront]檔案[!DNL Photoshop]區域以及[!DNL Workfront]案頭應用程式中。
+檔案出現在[!DNL Photoshop]的[!DNL Workfront]面板中的[!UICONTROL 檔案]區域以及[!DNL Workfront]案頭應用程式中。
 
 ## 上傳新的校訂版本
 
@@ -134,14 +140,14 @@ ht-degree: 0%
 1. 前往上載檔案所需的工作專案。
 1. 按一下導覽列中的&#x200B;**[!UICONTROL 檔案]**&#x200B;圖示![檔案圖示](assets/documents.png)。
 
-1. 按一下&#x200B;**[!UICONTROL 面板底部附近的]**&#x200B;新版本[!DNL Workfront]。
+1. 按一下[!DNL Workfront]面板底部附近的&#x200B;**[!UICONTROL 新版本]**。
 1. 啟用&#x200B;**[!UICONTROL 建立校訂]**&#x200B;切換。
 
-1. 在&#x200B;*[!UICONTROL *校訂核准]&#x200B;**區段中，選擇&#x200B;**&#x200B;[!UICONTROL 基本]&#x200B;**&#x200B;或&#x200B;**&#x200B;[!UICONTROL 自動化]**。
+1. 在&#x200B;*[!UICONTROL *校訂核准]**區段中，選擇&#x200B;**[!UICONTROL 基本]**&#x200B;或&#x200B;**[!UICONTROL 自動化]**。
 
 1. 根據您在步驟7中選取的核准型別，新增&#x200B;**[!UICONTROL 檢閱者]**&#x200B;或&#x200B;**[!UICONTROL 工作流程範本]**。
 
 1. （選擇性）在&#x200B;**[!UICONTROL 更新]**&#x200B;區域輸入註解。
 1. 從下拉式功能表中選擇&#x200B;**[!UICONTROL 資產型別]**。
 1. 按一下&#x200B;**[!UICONTROL 上傳]**，然後根據上述選擇的資產型別設定任何需要的匯出選項。
-檔案出現在[!UICONTROL 的]面板中的[!DNL Workfront]檔案[!DNL Photoshop]區域以及[!DNL Workfront]案頭應用程式中。
+檔案出現在[!DNL Photoshop]的[!DNL Workfront]面板中的[!UICONTROL 檔案]區域以及[!DNL Workfront]案頭應用程式中。

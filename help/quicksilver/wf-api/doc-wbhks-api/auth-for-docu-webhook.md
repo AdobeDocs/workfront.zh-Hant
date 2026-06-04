@@ -8,16 +8,19 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2303c202-27c7-4922-a613-e9824910504c
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+TQID: https://experienceleague.adobe.com/cRJbyPxBa-US0cV1cHsi43qvV59-AwhPgFjEhWsC1ME
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: 439
 ht-degree: 0%
 
 ---
 
 # 檔案Webhook的驗證
 
-## 驗證
+## Authentication
 
 Adobe Workfront檔案webhook支援兩種不同的驗證形式： OAuth2和ApiKey。 在這兩種情況下，Workfront都會在進行API呼叫時在標題中傳遞驗證權杖。
 

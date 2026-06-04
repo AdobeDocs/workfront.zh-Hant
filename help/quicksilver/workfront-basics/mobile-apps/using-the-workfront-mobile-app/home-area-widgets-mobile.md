@@ -6,9 +6,12 @@ description: iOS和Android的首頁區域Widget可幫助您快速找到工作專
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 36af1b05-4c95-4b8e-9b96-03b30fa9852c
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/GAWPkf-yJO-drLQ-85rk5DiVCNOidi68TruAv-72gG0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: 139
 ht-degree: 0%
 
 ---
@@ -25,4 +28,4 @@ ht-degree: 0%
 
 **[!UICONTROL 延遲工作]：**&#x200B;顯示延遲（超過計畫完成日期）的工作專案數量。 選取Widget以檢視專案清單。
 
-**[!UICONTROL 提及次數]：**&#x200B;顯示未讀取的提及次數。 提及內容是在[!UICONTROL 中物件的]更新[!DNL Adobe Workfront]標籤中標籤或通知您的通知。 選取Widget以檢視提及清單。
+**[!UICONTROL 提及次數]：**&#x200B;顯示未讀取的提及次數。 提及內容是在[!DNL Adobe Workfront]中物件的[!UICONTROL 更新]標籤中標籤或通知您的通知。 選取Widget以檢視提及清單。

@@ -7,9 +7,12 @@ author: Lisa
 feature: Timesheets
 recommendations: noDisplay, noCatalog
 exl-id: 605d47e4-fcb7-4635-a4c9-bbb34e1f73b1
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+TQID: https://experienceleague.adobe.com/IeGGKDdFDkwDTws0yil1S987mrSQk8vbJP-4RC8OqgE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: 107
 ht-degree: 1%
 
 ---

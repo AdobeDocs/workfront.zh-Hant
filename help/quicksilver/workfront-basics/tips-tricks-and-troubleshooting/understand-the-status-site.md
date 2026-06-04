@@ -1,14 +1,18 @@
 ---
 title: ' [!DNL Adobe Workfront] 狀態網站'
-description: 您可以存取 [!DNL Workfront] 網站，檢視 [!DNL Workfront] 平台的健康狀況，包括事件、排定的維護期間，以及所有 [!DNL Workfront Status] 叢集的目前狀態。
+description: 您可以存取 [!DNL Workfront Status] 網站，檢視 [!DNL Workfront] 平台的健康狀況，包括事件、排定的維護期間，以及所有 [!DNL Workfront] 叢集的目前狀態。
 draft: Probably
 feature: Get Started with Workfront
 author: Becky
 exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+TQID: https://experienceleague.adobe.com/kUbG1fpDJmiptk-0e2lb7JlgEs0sX6dErLq8Yqq0TBM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 0%
+source-wordcount: 368
+ht-degree: 1%
 
 ---
 
@@ -18,7 +22,7 @@ ht-degree: 0%
 
 ## Status網站概觀
 
-您可以存取[!DNL Workfront]網站，檢視[!DNL Workfront]平台的健康狀況，包括事件、排定的維護期間，以及所有[!DNL Workfront Status]叢集的目前狀態。
+您可以存取[!DNL Workfront Status]網站，檢視[!DNL Workfront]平台的健康狀況，包括事件、排定的維護期間，以及所有[!DNL Workfront]叢集的目前狀態。
 
 您可以在Status網站上存取下列資訊：
 
@@ -31,7 +35,7 @@ ht-degree: 0%
 
 您可以在[!DNL Adobe] Status網站上檢視狀態更新。
 
-1. 在瀏覽器中輸入[status.adobe.com](https://status.adobe.com/zh-tw/)以存取Status網站。
+1. 在瀏覽器中輸入[status.adobe.com](https://status.adobe.com/)以存取Status網站。
 
 1. 選取&#x200B;**[!UICONTROL Experience Cloud]**。
 1. 向下捲動並從解決方案清單中選取&#x200B;**[!UICONTROL Adobe Workfront]**。
@@ -40,13 +44,13 @@ ht-degree: 0%
 
 若要訂閱Status網站或在您已訂閱後管理您的訂閱：
 
-1. 移至[status.adobe.com](https://status.adobe.com/zh-tw/)。
+1. 移至[status.adobe.com](https://status.adobe.com/)。
 1. 在狀態列中，選取&#x200B;**[!UICONTROL 管理訂閱]**。
    ![](assets/manage-subs.png)
 1. 如果您有現有的帳戶，請登入該帳戶；否則，請建立新帳戶。
 1. 按一下&#x200B;**[!UICONTROL 建立訂閱]**&#x200B;按鈕。
 1. 選取&#x200B;**[!UICONTROL Adobe Workfront]**&#x200B;標題下的&#x200B;**[!UICONTROL Experience Cloud]**，然後按一下&#x200B;**[!UICONTROL [繼續]]**。
-1. 選取您的地區和事件型別偏好設定，然後按一下[繼續]。**&#x200B;**
+1. 選取您的地區和事件型別偏好設定，然後按一下[繼續]。****
 1. 按一下&#x200B;**[!UICONTROL 完成]**&#x200B;以確認您的訂閱。
 
 ## 瞭解已命名的漏洞
@@ -59,7 +63,7 @@ ht-degree: 0%
 
 ### 如何檢視[!DNL Workfront?]所識別的已命名漏洞 {#how-do-i-view-named-vulnerabilities-identified-by-workfront}
 
-1. 移至[status.adobe.com](https://status.adobe.com/zh-tw/)，然後按一下&#x200B;**[!UICONTROL 安全性]**。
+1. 移至[status.adobe.com](https://status.adobe.com/)，然後按一下&#x200B;**[!UICONTROL 安全性]**。
 
 ## 為什麼這很重要？ {#why-is-this-important}
 

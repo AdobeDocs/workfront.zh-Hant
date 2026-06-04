@@ -8,13 +8,16 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7b594df5-c87f-45d4-b84a-cae17171e906
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+TQID: https://experienceleague.adobe.com/H04UQeyhGw-FdXDwaRZs5PSXnN-YErVptHWn-78INYo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 2%
+source-wordcount: 263
+ht-degree: 8%
 
 ---
-
 
 # 取得檔案或資料夾的中繼資料
 
@@ -22,7 +25,7 @@ ht-degree: 2%
 
 **URL**
 
-/metadata？id=[檔案或資料夾識別碼]GET
+取得/metadata？id=[檔案或資料夾識別碼]
 
 ## 查詢參數
 
@@ -38,7 +41,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>id</td> 
-   <td>檔案或資料夾的ID，由webhook提供者參照。 這與Adobe Workfront的檔案ID不同。 若要取得根目錄的中繼資料，請使用值'/'。
+   <td>檔案或資料夾的ID，由webhook提供者參照。這與Adobe Workfront的檔案ID不同。若要取得根目錄的中繼資料，請使用值'/'。
    <p>注意：ID的長度上限為255個字元。</p></td> 
   </tr> 
  </tbody> 
@@ -55,7 +58,7 @@ ht-degree: 2%
  <thead> 
   <tr> 
    <th>名稱 </th> 
-   <th>型別 </th> 
+   <th>類型 </th> 
    <th>說明</th> 
   </tr> 
  </thead> 
@@ -103,7 +106,7 @@ ht-degree: 2%
   <tr> 
    <td>readOnly</td> 
    <td>布林值</td> 
-   <td> 指出此檔案或資料夾對於已驗證的使用者是否為唯讀。(可選) </td> 
+   <td> 指出此檔案或資料夾對已驗證的使用者是否為唯讀。（選擇性） </td> 
   </tr> 
  </tbody> 
 </table>

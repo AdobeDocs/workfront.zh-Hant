@@ -6,9 +6,14 @@ description: 您可以從Adobe Workfront Marketplace安裝適用於Photoshop的A
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
+TQID: https://experienceleague.adobe.com/JMhdlpEdwvqkfNHjIjifRIFoXznmNienvTFdt2muUuo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: 592
 ht-degree: 4%
 
 ---
@@ -57,7 +62,7 @@ ht-degree: 4%
 
 [在此觀看教學課程影片](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
 
-[!DNL Adobe Admin Console]管理員也可以建立僅含外掛程式的套件，以分發給使用者。 如需詳細資訊，請參閱 [!DNL Adobe Admin Console][&#128279;](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)中的[為您的使用者建立 [!DNL Creative Cloud]] 套裝的！UICONTROL [!DNL Adobe Workfront] 
+[!DNL Adobe Admin Console]管理員也可以建立僅含外掛程式的套件，以分發給使用者。 如需詳細資訊，請參閱 [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)中的[為您的使用者建立 [!DNL Creative Cloud]] 套裝的[！UICONTROL [!DNL Adobe Workfront] 
 
 ## 個別安裝[!DNL Adobe Workfront for Photoshop]外掛程式
 
@@ -66,7 +71,7 @@ ht-degree: 4%
 1. 前往Adobe Exchange上的[Adobe Workfront for Photoshop安裝頁面](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&workflow=share)。
 1. 在出現的對話方塊中，按一下&#x200B;**開啟[!DNL Adobe Creative Cloud]案頭應用程式**。
 1. 在[!DNL Adobe Photoshop]外掛程式管理員開啟後，按一下&#x200B;**[!UICONTROL 安裝]**。
-1. 請閱讀對話方塊中的資訊，然後按一下[確定] **&#x200B;**，然後依照熒幕上的指示完成安裝。
+1. 請閱讀對話方塊中的資訊，然後按一下[確定] ****，然後依照熒幕上的指示完成安裝。
 
 1. 請繼續參閱下節，瞭解如何開啟外掛程式的詳細資訊。
 

@@ -6,10 +6,15 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
-source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
+TQID: https://experienceleague.adobe.com/5NtZhgbXQBRpaEE0TUaArsCPh3dG-ARR68xE3IhHsSA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 4%
+source-wordcount: 249
+ht-degree: 11%
 
 ---
 
@@ -17,9 +22,9 @@ ht-degree: 4%
 
 您可以直接從「優先順序」建立新任務和問題：
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 
 <table style="table-layout:auto"> 
@@ -29,7 +34,7 @@ ht-degree: 4%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront套件</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront 封裝</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -73,7 +78,7 @@ ht-degree: 4%
    | 欄位 | 指示 |
    |---------------|-------------|
    | 工作專案型態（選擇性） | 選擇您要建立&#x200B;**任務**&#x200B;或&#x200B;**問題**。 |
-   | 姓名 | 輸入名稱。 |
+   | 名稱 | 輸入名稱。 |
    | 說明 (選擇性) | 輸入說明。 |
    | 專案 | 開始輸入專案名稱，然後從下拉式清單中選取。 |
    | 受指派人（選擇性） | 將人員指派至工作專案。 |

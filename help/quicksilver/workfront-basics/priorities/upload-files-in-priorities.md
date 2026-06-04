@@ -6,10 +6,15 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/NCFVKM2w48sXJ6UhT13372feWIxLhyUz7on6cyJLUO4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 4%
+source-wordcount: 309
+ht-degree: 12%
 
 ---
 
@@ -19,16 +24,16 @@ ht-degree: 4%
 
 優先順序顯示指派給您的工作專案。 您看不到指派給團隊的工作專案。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -53,12 +58,12 @@ ht-degree: 4%
 {{step1-to-priorities}}
 
 1. 將游標停留在名稱上，然後按一下&#x200B;**更多** ![更多圖示](assets/more-icon.png)圖示。
-1. 按一下&#x200B;**上傳**。
+1. 按一下「**上傳**」。
    ![更新、記錄時間和上傳](assets/update-log-upload.png)
 1. （選擇性）在&#x200B;**上傳檔案**&#x200B;方塊中，選取資料夾。
 1. 拖放檔案，或按Cmd/Ctrl + V從剪貼簿貼上
 或
-按一下&#x200B;**新增檔案**&#x200B;以瀏覽檔案或從Document Cloud提供者匯入檔案。
+按一下**新增檔案**以瀏覽檔案或從Document Cloud提供者匯入檔案。
    ![新增檔案](assets/add-files.png)
 1. （選用）新增註解。
 1. （選用）新增更多檔案。
@@ -66,7 +71,7 @@ ht-degree: 4%
    >[!NOTE]
    >
    >其他檔案會以個別檔案的形式上傳。
-1. 按一下&#x200B;**上傳**。
+1. 按一下「**上傳**」。
 
 ## 上傳工作專案中的檔案
 
@@ -90,4 +95,4 @@ ht-degree: 4%
    >
    >其他檔案會以個別檔案的形式上傳。
 
-1. 按一下&#x200B;**上傳**。
+1. 按一下「**上傳**」。

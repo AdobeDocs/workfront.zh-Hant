@@ -7,13 +7,15 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1b621b35-6c8b-4f6a-bcba-ed6cbfe83a8c
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/rft0idTJddZkXvAcOymqXarAs1zTf77HttI6vuwCTlw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: 275
 ht-degree: 0%
 
 ---
-
 
 # 事件訂閱傳送需求
 
@@ -29,9 +31,9 @@ ht-degree: 0%
 
 * 如果未傳回200層級的狀態，事件訂閱系統會假設訊息未成功傳遞，並開始套用適當的重試原則。 若要深入瞭解Workfront重試原則，請參閱[事件訂閱重試](../../wf-api/api/event-sub-retries.md)。
 
-* 在將200層級狀態傳回為回應狀態的同時，您必須在傳送嘗試開始後的五秒內收到HTTP回應。此限制可確保消費者業務程式或基礎架構限制不會延遲傳送其他擱置傳送的訊息。
+* 在將200層級狀態傳回為回應狀態的同時，您必須在傳送嘗試開始後的5秒內收到HTTP回應。此限制可確保消費者業務流程或基礎架構限制不會延遲傳送其他待傳送的訊息。
 
-* 如果由事件訂閱訊息觸發的長期執行業務流程，Workfront建議  該
+* 如果由事件訂閱訊息觸發的長期執行業務流程，Workfront建議
 
    1. 端點會在收到訊息時儲存訊息資訊，並立即以200層級狀態回應。
    1. 端點回應事件訂閱傳遞請求後，即可處理儲存的訊息。
