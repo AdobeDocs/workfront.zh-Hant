@@ -8,8 +8,10 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7b39082a-ab96-4e54-8f28-96629760715a
 TQID: https://experienceleague.adobe.com/cHyxMUlRSlpjq9pLWw-jBmewYCc7REao-zYdMQq861Y
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1467
@@ -27,7 +29,7 @@ ht-degree: 1%
 
 如需2019.1年進行的所有變更清單，請參閱「2019.1版本活動概覽」。
 
-管理員的&#x200B;****
+管理員的&#x200B;**&#x200B;**
 
 * [從資源回收筒還原範本](#restore-templates-from-the-recycle-bin)
 * [顯示首頁](#show-timestamps-for-date-fields-in-home)中日期欄位的時間戳記

@@ -7,11 +7,19 @@ author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
 TQID: https://experienceleague.adobe.com/VA0bJYfRCQrZECzbiBOMjDD9Rpzf4ePG4EwQlowlhyI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2369
@@ -127,10 +135,10 @@ ht-degree: 1%
 
 根據預設，第一次存取資源規劃工具時，會套用<strong>預設篩選器</strong>。<br>如需預設篩選的詳細資訊，請參閱本文的「資源規劃工具」中的<a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">預設篩選概述</a>一節。
 
-1. 在的左上角，按一下&#x200B;**篩選器**圖示。
+1. 在的左上角，按一下&#x200B;**篩選器**&#x200B;圖示。
    ![filter_icon.png](assets/filter-icon.png)
 或
-展開**篩選器**&#x200B;下拉式功能表，然後按一下&#x200B;**新增篩選器**。
+展開&#x200B;**篩選器**&#x200B;下拉式功能表，然後按一下&#x200B;**新增篩選器**。
    ![篩選器下拉式清單](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
 
 1. 若要使用內建條件建立篩選器，請指定下列任一欄位：

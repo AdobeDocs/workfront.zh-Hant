@@ -8,11 +8,18 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b40eda2c-8ad4-4945-a7e3-cb28ed8a14db
 TQID: https://experienceleague.adobe.com/gGZEw-nwXhtOQFIJS9-pZtb6XIg180CP02wMLVTTMPk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1134
@@ -28,7 +35,7 @@ ht-degree: 0%
 
 2018.3 Beta 4版本包含適用於Workfront管理員和其他使用者的增強功能：
 
-管理員的&#x200B;****
+管理員的&#x200B;**&#x200B;**
 
 * [以群組管理員身分更新使用者設定檔中的報告結構](#update-reporting-structure-in-the-user-profile-as-a-group-administrator) 
 
@@ -39,7 +46,7 @@ ht-degree: 0%
 * [專案清單改善](#project-list-improvements)
 * [在甘特圖編輯模式下編輯工作清單](#editing-the-task-list-in-gantt-chart-edit-mode)已從發行版本移除
 * [測量工具色彩](#measurement-tool-colors)
-* 在新索引標籤](#proofs-open-in-a-new-tab)中開啟的[校訂已從發行版本中移除
+* 在新索引標籤[&#128279;](#proofs-open-in-a-new-tab)中開啟的校訂已從發行版本中移除
 
 * [列印摘要增強功能](#print-summary-enhancements)
 * [在Workfront行動應用程式中記錄時間（以天為單位）](#log-time-in-days-in-the-workfront-mobile-app)

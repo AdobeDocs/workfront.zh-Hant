@@ -7,11 +7,17 @@ author: Lisa
 feature: Resource Management
 exl-id: 07acd28a-5dc0-45b4-bdf2-20abbd5e098c
 TQID: https://experienceleague.adobe.com/f1tAWm7-QiEGbN-ENKTlJumMK29mqdiZ5PgY-27gzc4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 582
@@ -125,7 +131,7 @@ Excel (.xlsx)檔案會下載至您的電腦。\
    （視條件而定）如果您匯出大量資料，您會收到一封電子郵件，其中包含您可下載檔案的連結。\
    ![RP_eamil_with_exported_planner_attached.png](assets/rp-eamil-with-exported-planner-attached-350x116.png)
 
-1. （視條件而定）當您收到含有匯出檔案的電子郵件時，請按一下[下載] ****&#x200B;下載檔案。\
+1. （視條件而定）當您收到含有匯出檔案的電子郵件時，請按一下[下載] **&#x200B;**&#x200B;下載檔案。\
    這會帶您返回Workfront以下載檔案。\
    您必須登入Workfront才能完成下載。\
    如果您在傳送檔案時未下載檔案，下載連結會在您啟動匯出後的7天內保持作用中。

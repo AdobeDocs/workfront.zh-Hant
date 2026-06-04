@@ -7,10 +7,15 @@ author: Lisa
 feature: Resource Management
 exl-id: 0816a2d6-2a45-4e01-8ca2-6d0d190b2568
 TQID: https://experienceleague.adobe.com/OQBqFxBx-VGQsWF-2yGgcZk1EO-ZQ0MAlMsSH3fiMZo
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 435
@@ -92,7 +97,7 @@ ht-degree: 5%
 
 {{step-1-to-users}}
 
-1. 選取清單上的數個使用者，然後按一下[編輯]。****
+1. 選取清單上的數個使用者，然後按一下[編輯]。**&#x200B;**
 1. 按一下&#x200B;**資源規劃**。
 1. 開始在&#x200B;**資源集區**&#x200B;欄位中輸入您想要與使用者關聯的資源集區名稱，然後在其出現時從清單中選取它。\
    您可以將多個資源集區與多個使用者建立關聯。

@@ -9,8 +9,10 @@ author: Luke
 feature: Product Announcements, Workfront Scenario Planner
 exl-id: 2e507c0c-76e2-4335-9682-df4f1940ff88
 TQID: https://experienceleague.adobe.com/laKQ-IUN1C0aWrebrazc46GUozygx-n0jcBu2-eCccY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 301
@@ -51,6 +53,6 @@ Adobe Workfront Scenario Planner僅適用於新的Adobe Workfront體驗。
 如需詳細資訊，請參閱下列文章：
 
 * [刪除Scenario Planner](../../../scenario-planner/delete-initiatives.md)中的方案
-* 在Scenario Planner](../../../scenario-planner/copy-initiatives.md)中[複製方案
+* 在Scenario Planner[&#128279;](../../../scenario-planner/copy-initiatives.md)中複製方案
 * [更新「情境規劃工具」中的方案優先順序](../../../scenario-planner/prioritize-initiatives.md)
 

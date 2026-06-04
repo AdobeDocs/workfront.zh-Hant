@@ -9,10 +9,15 @@ exl-id: 30f3481b-23b6-4dc9-be0d-9cffd5d4dfed
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/N5pjtNW6Oy3Nk5L3-MlrdorX-icIvEWm4w0wOJj8N3A
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 460
@@ -112,7 +117,7 @@ ht-degree: 4%
 1. 在&#x200B;**目的地**&#x200B;欄位中，從各種可用的列印選項中選取。\
    列印選項會依您使用的瀏覽器和瀏覽器版本而有所不同。
 
-1. （選擇性）將儀表板儲存為。PDF檔案，然後按一下[儲存] ****&#x200B;以儲存。PDF。\
+1. （選擇性）將儀表板儲存為。PDF檔案，然後按一下[儲存] **&#x200B;**&#x200B;以儲存。PDF。\
    若要瞭解如何將儀表板儲存為。PDF檔案，請參閱[匯出儀表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md)。
 
 1. 按一下&#x200B;**列印**。

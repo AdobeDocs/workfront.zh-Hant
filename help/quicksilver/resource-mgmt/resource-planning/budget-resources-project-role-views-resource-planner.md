@@ -7,11 +7,18 @@ author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
 TQID: https://experienceleague.adobe.com/BiosJgXO3-6wZ9peIZwoj8rSKpgSSqN3hnVi8btFt88
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2087
@@ -110,7 +117,7 @@ ht-degree: 1%
 
    * 按一下專案的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**將角色的計畫時數設定為預算**。\
      每個角色的預算時數使用下列公式計算：\
-     *
+     &#x200B;*
 
      `Role Budgeted Hours = Role Planned Hours`
 
@@ -159,7 +166,7 @@ ht-degree: 1%
 
 如需有關預算資源所需存取權的資訊，請參閱文章[在Adobe Workfront中預算資源所需的存取權](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md)。
 
-若要在「資源規劃工具」的「角色」檢視中進行預算分配****請執行下列動作：
+若要在「資源規劃工具」的「角色」檢視中進行預算分配&#x200B;**&#x200B;**&#x200B;請執行下列動作：
 
 1. 按一下Adobe Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)。
 
@@ -180,8 +187,8 @@ ht-degree: 1%
    * 在&#x200B;**BDG**&#x200B;欄中，手動指定工作角色的預算時數、FTE或成本。\
      這會將角色預算時數分配給您有權管理的專案的專案預算時數。
 
-   * 按一下工作角色的&#x200B;**更多**&#x200B;功能表，然後按一下**將專案的計畫時數設定為預算。**角色預算時數使用下列公式計算：\
-     *
+   * 按一下工作角色的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**將專案的計畫時數設定為預算。**&#x200B;角色預算時數使用下列公式計算：\
+     &#x200B;*
 
      `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 

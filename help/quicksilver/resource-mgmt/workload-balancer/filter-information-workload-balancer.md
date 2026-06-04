@@ -7,11 +7,19 @@ author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
 TQID: https://experienceleague.adobe.com/GwsP3EbD5BOQaS-xTxmpRlmqkGXdVSoowt-KG34O75M
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2441
@@ -270,7 +278,7 @@ ht-degree: 1%
    * 任何欄位、修飾元或值。
 
 1. （選擇性）按一下&#x200B;**新增篩選器**，將更多陳述式新增至重複的篩選器。
-1. 按一下「儲存」****，將重複的篩選器儲存在&#x200B;**「我的篩選器」**&#x200B;區域中。 原始濾鏡保持不變，而複製的濾鏡會儲存為新濾鏡。
+1. 按一下「儲存」**&#x200B;**，將重複的篩選器儲存在&#x200B;**「我的篩選器」**&#x200B;區域中。 原始濾鏡保持不變，而複製的濾鏡會儲存為新濾鏡。
 
 ## 在工作負載平衡器中編輯現有篩選器 {#edit-an-existing-filter-in-the-workload-balancer}
 
