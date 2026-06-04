@@ -1,22 +1,28 @@
 ---
 product-area: workfront-integrations;setup;user-management
 navigation-topic: workfront-for-salesforce
-title: 設定 [!DNL Adobe Workfront] 使用者的 [!DNL Salesforce] 區段
-description: 當您以 [!DNL Adobe Workfront] 管理員身分安裝Salesforce的 [!DNL Workfront] 後，您可以將其新增至使用者在Salesforce中的「商機」和「帳戶」頁面配置的新區段，讓使用者可以使用它。
+title: 設定 [!DNL Salesforce] 使用者的 [!DNL Adobe Workfront] 區段
+description: 當您以 [!DNL Workfront] 管理員身分安裝Salesforce的 [!DNL Adobe Workfront] 後，您可以將其新增至使用者在Salesforce中的「商機」和「帳戶」頁面配置的新區段，讓使用者可以使用它。
 author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/mjSptTTPuxObb09RLFHEwgjZj-dAn6VWckotwUxhMKg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: f1b6c8ba-53d0-432b-b0f4-64800d4b376e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: 154
 ht-degree: 0%
 
 ---
 
-# 設定[!DNL Adobe Workfront]使用者的[!DNL Salesforce]區段
+# 設定[!DNL Salesforce]使用者的[!DNL Adobe Workfront]區段
 
 >[!IMPORTANT]
 >
@@ -24,9 +30,9 @@ ht-degree: 0%
 >
 >為了滿足貴組織與Salesforce的整合需求，我們建議您使用Workfront自動化和整合。
 >
->如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 >
->如需Salesforce之Workfront自動化與整合模組的特定功能相關資訊，請參閱[Salesforce模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)。
+>如需Salesforce之Workfront自動化與整合模組的特定功能相關資訊，請參閱[Salesforce模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules)。
 
 <!--
 

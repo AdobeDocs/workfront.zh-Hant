@@ -3,13 +3,16 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: 管理 [!DNL Workfront Proof]中的校訂版本
-description: 管理作品多個版本或修訂版本的意見回饋可能是一項巨大的挑戰。 [!DNL Workfront Proof] 可讓您建立和比較多個版本的校訂，以簡化此程式。
+description: 管理多個版本或修訂版本的工作之意見可能是一項巨大的挑戰。 [!DNL Workfront Proof] 藉由讓您建立和比較多個版本的校訂，簡化此程式。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d1bee64d-c091-40d3-a9c1-847c7f645b96
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/8dEKTMfZ6-nhdjvY4Ar-m29jxGJV8q4FysGAqIl6nEs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: 768
 ht-degree: 0%
 
 ---

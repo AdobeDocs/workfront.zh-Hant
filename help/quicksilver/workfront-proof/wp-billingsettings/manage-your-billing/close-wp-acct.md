@@ -7,10 +7,15 @@ description: 完成本節中的步驟後，您的帳戶將立即關閉。 您的
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: df19f99b-974d-47ad-87ba-79775cb08a4d
-source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
+TQID: https://experienceleague.adobe.com/mji1PGWycyyZs6EP4O0EeDQNG5pqhXKj2QktOaDqurU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 0%
+source-wordcount: 185
+ht-degree: 1%
 
 ---
 
@@ -28,7 +33,7 @@ ht-degree: 0%
 
 1. 開啟[!UICONTROL 設定]功能表並選擇&#x200B;**[!UICONTROL 帳單]** (1)，以開啟您帳戶中的[!UICONTROL 帳單]頁面。
 
-   如需帳單頁面的詳細資訊，請參閱[校訂帳單頁面 [!DNL Workfront] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
+   如需帳單頁面的詳細資訊，請參閱[校訂帳單頁面 [!DNL Workfront] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
 
    ![帳單設定](assets/upgradesdowngrades-billing-settings-350x168.png)
 

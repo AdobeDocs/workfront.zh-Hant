@@ -8,9 +8,15 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: 53aca72d33236e8680a8fd1c538f86ce14ac05a8
+TQID: https://experienceleague.adobe.com/BCihPeFt421LF8Fa0-XRsAmxSMv-T7kqGEZQ3XeZ-EQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e4bd5f48-22a4-465d-a046-5ffb52e27856id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: 520
 ht-degree: 2%
 
 ---
@@ -83,7 +89,7 @@ ht-degree: 2%
 
 使用者必須擁有Standard Workfront授權，才能向Adobe Express請求核准。
 
-瞭解如何[取得設計的核准](https://helpx.adobe.com/tw/express/web/share-and-publish/share-and-collaborate/request-approval.html)。
+瞭解如何[取得設計的核准](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html)。
 
 
 ## 重新混合快速範本，並傳送以供檢閱和核准
@@ -103,7 +109,7 @@ Adobe Express使用者可以根據自己的需求混合使用快速範本。 發
 
 如果未選取任何專案，則校訂將預設為快速特定專案。
 
-如需詳細資訊，請參閱[傳送範本以供檢閱和核准](https://helpx.adobe.com/tw/express/web/invite-collaborate/request-approval.html)。
+如需詳細資訊，請參閱[傳送範本以供檢閱和核准](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html)。
 
 ## 檢閱並核准重新混合的快速檔案
 

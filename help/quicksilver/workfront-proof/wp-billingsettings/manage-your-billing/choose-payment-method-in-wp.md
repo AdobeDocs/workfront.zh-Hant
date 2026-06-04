@@ -7,10 +7,15 @@ description: 進一步瞭解Workfront Proof中的付款。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cc23012f-ea1a-41e6-b101-877b85605775
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/c5PekqBFApp6g08M-vg9eTw8pIVWvAByA7Y1vXvEXY8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 0%
+source-wordcount: 348
+ht-degree: 2%
 
 ---
 
@@ -57,7 +62,7 @@ ht-degree: 0%
    如果您只想變更信用卡詳細資料，請只將您的新信用卡資料填入信用卡詳細資料(4)欄位，然後儲存(5)變更。 您可以隨時變更您的信用卡詳細資料。 新卡可用於立即生效的所有訂閱付款。\
    我們接受[!DNL Visa]、[!DNL American Express]和[!DNL MasterCard]。
 
-1. 按一下「**[!UICONTROL 儲存]**」。(4)\
+1. 按一下「**[!UICONTROL 儲存]**」。 (4)\
    ![Payment_and_CC_details.png](assets/payment-and-cc-details-350x217.png)
 
 ## 變更附屬帳戶的付款方法詳細資料
@@ -65,7 +70,7 @@ ht-degree: 0%
 如果您有Satellite帳戶，則需要分別更新每個帳戶的信用卡詳細資料和付款方法。 如需有關Satellite帳戶的詳細資訊，請參閱[Satellite帳戶。](https://support.workfront.com/hc/en-us/sections/115000921108-Satellite-accounts)
 
 1. 前往您中心帳戶中的[!UICONTROL 帳單]頁面。\
-   如需帳單頁面的詳細資訊，請參閱[校訂帳單頁面 [!DNL Workfront] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
+   如需帳單頁面的詳細資訊，請參閱[校訂帳單頁面 [!DNL Workfront] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
 
 1. 開啟[!UICONTROL 帳戶清單]下拉式功能表。 (1)
 1. 選擇與您要更新之信用卡相關聯的附屬帳戶(2)。

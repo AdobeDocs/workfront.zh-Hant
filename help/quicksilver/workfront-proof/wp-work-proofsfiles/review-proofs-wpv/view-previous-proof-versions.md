@@ -7,9 +7,12 @@ description: 注意：本節中說明的資訊僅適用於Web Proofing Viewer，
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 98a9917d-246d-438f-b6a6-98b5958df4a3
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/DkOIuT0-HQEhQcDUbq5SRxTRsE1Jv9tj9wiYF1JIzNg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: 187
 ht-degree: 0%
 
 ---

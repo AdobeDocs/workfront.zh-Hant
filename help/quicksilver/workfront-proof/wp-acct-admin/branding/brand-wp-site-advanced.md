@@ -7,9 +7,14 @@ description: 進階品牌適用於Select與Premium計畫，並包含在計畫的
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: fd9e01ae-71c5-45fe-a874-4ee359fbe057
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+TQID: https://experienceleague.adobe.com/D1jNALj0-WWhVocGr56-zhxe4zKvDlOI2-tJMA65XlY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: 754
 ht-degree: 1%
 
 ---
@@ -39,7 +44,7 @@ ht-degree: 1%
 
 ## 進階品牌概觀
 
-您會在[帳戶設定](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)頁面的標籤中找到[!UICONTROL 品牌組態]區段。 若要套用變更至您的帳戶，請確定品牌選項設定為[!UICONTROL 已啟用] (1)。
+您會在[帳戶設定](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)頁面的標籤中找到[!UICONTROL 品牌組態]區段。若要套用變更至您的帳戶，請確定品牌選項設定為[!UICONTROL 已啟用] (1)。
 ![Advanced_Branding.png](assets/advanced-branding-350x618.png)
 
 請參閱下節以取得如何設定「進階品牌選項」(2-14)的詳細資訊。
@@ -49,7 +54,7 @@ ht-degree: 1%
 您可以為[!DNL Workfront Proof]的下列區域建立品牌：
 
 * [網頁應用程式](#web-application)
-* [標題](#header)
+* [標頭](#header)
 * [頁首連結](#header-links)
 * [側欄](#sidebar)
 * [歡迎方塊](#welcome-box)
@@ -65,11 +70,11 @@ ht-degree: 1%
 * 您在標題中的帳戶名稱
 * 如果您停用品牌化，[!DNL Workfront Proof]標誌將保留在網頁應用程式的標頭中
 
-品牌影象 — 調整為最大尺寸550x90px。 您可以使用JPG、GIF或PNG，而且支援透明背景。
+品牌影象 — 調整為最大尺寸550x90px。 您可以使用JPG、GIF或PNG，並且支援透明背景。
 
 帳戶名稱 — 取自您的帳戶詳細資料，並以白字型顯示。 您的帳戶名稱最多可包含60個字元（包括空格和標點符號）。
 
-### 標題 {#header}
+### 標頭 {#header}
 
 在此欄位(3)中，您可以設定標頭的背景，也可以選擇純色或背景影像。
 
@@ -79,7 +84,7 @@ ht-degree: 1%
 
 背景影像 — 可與品牌化影像結合。
 
-* 您可以使用JPG、GIF或PNG — 對於具有透明度的檔案，以白色背景顏色顯示。
+* 您可以使用JPG、GIF或PNG — 對於具有透明度的檔案，會顯示白色背景顏色。
 * 頁首的高度是96px，而且不會為[!UICONTROL 不重複]選項調整已上傳影像的大小。
 * 背景影像位於左上方。
 
@@ -112,12 +117,12 @@ ht-degree: 1%
 
 **頁尾**
 
-在品牌設定的此欄位(10)中，您可以撰寫將顯示在所有帳戶頁面底部的頁尾。 您可以使用內建的WYSIWYG編輯器，或直接貼上您自己的設計。
+在品牌設定的此欄位(10)中，您可以撰寫將顯示在所有帳戶頁面底部的頁尾。您可以使用內建的WYSIWYG編輯器，或直接貼上您自己的設計。
 ![頁尾.png](assets/footer-350x157.png)
 
 >[!NOTE]
 >
->您無法在頁尾文字編輯器中編輯HTML，但可以貼上複製的設計（包括所有連結和影像）。
+>您無法在頁尾文字編輯器中編輯HTML，但可貼上複製的設計（包括所有連結和影像）。
 
 **Favicon和頁面標題**
 

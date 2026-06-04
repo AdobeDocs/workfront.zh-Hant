@@ -7,9 +7,13 @@ description: 這會重複在Workfront中設定校樣中的資訊。 在此處或
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 605569df-8e63-476d-a0cd-e73802042011
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/H0iX2AA8WPbkiPDHagBRmnL6G2FQJmDFpaAdr3oEKOk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1637'
+source-wordcount: 1610
 ht-degree: 0%
 
 ---
@@ -166,7 +170,7 @@ ht-degree: 0%
 您可以將基本校訂轉換為自動化工作流程。
 
 1. 在[!UICONTROL 校訂詳細資料]頁面上按一下&#x200B;**[!UICONTROL 「轉換為自動化工作流程]**」。
-將校訂重新處理至自動化工作流程後，所有階段皆為作用中、公開狀態，且其[!UICONTROL 鎖定階段]選項預設為「手動」。 所有階段仍會保留使用者及其設定。
+將校訂重新處理至自動化工作流程後，所有階段皆為作用中、公開狀態，且其[!UICONTROL 鎖定階段]選項預設為「手動」。所有階段仍會保留使用者及其設定。
 
    * 啟動階段已設定為每個階段中建立校訂時。
    * 從選項計算的截止日期設定為在每個階段中建立校訂。
