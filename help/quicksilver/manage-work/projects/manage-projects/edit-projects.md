@@ -7,11 +7,27 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
+TQID: https://experienceleague.adobe.com/MnBBlX0pGftQLRqy6tLxUpIezwXo9zPczxo65FpxneI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '8112'
+source-wordcount: 7941
 ht-degree: 1%
 
 ---
@@ -267,7 +283,7 @@ Old:
       </tr> 
       <tr> 
          <td role="rowheader"><strong>排程模式</strong> </td> 
-         <td> <p>指定專案是從「開始日期」排程，還是從「完成日期」排程。 此選取範圍決定專案上任務的計畫日期。 
+         <td> <p>指定專案是從「開始日期」排程，還是從「完成日期」排程。此選取範圍決定專案上任務的計畫日期。 
          <ul> 
          <li><strong>開始日期</strong>：依照預設，專案的第一項任務的計劃開始日期與專案相同。 如需任務計劃開始日期的相關資訊，請參閱<a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">任務計劃開始日期</a>的總覽。 專案時間表會從開始日期開始計算，而專案完成日期則由系統根據所有任務的持續時間來計算。 </li> 
          <li><strong>完成日期</strong>：專案的最後一個任務具有與專案相同的計畫完成日期。 專案時間表會從「完成日期」開始計算，而專案的「開始日期」則由系統計算，方法是從專案的「完成日期」減去所有任務的持續時間。 </li> 
@@ -283,7 +299,7 @@ Old:
       </tr> 
       <tr> 
       <td role="rowheader"><strong>專案組合</strong></td> 
-      <td>指出專案所屬的Portfolio。 您必須先建立Portfolio，才能讓其出現在下拉式清單中。 只有作用中的專案組合可以與專案相關聯。 如需關於建立投資組合的詳細資訊，請參閱<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">建立投資組合</a>。
+      <td>指出專案所屬的Portfolio。您必須先建立Portfolio，才能讓其出現在下拉式清單中。只有作用中的專案組合可以與專案相關聯。如需關於建立投資組合的詳細資訊，請參閱<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">建立投資組合</a>。
       <p><b>附註</b></p>
       <ul>
       <li>您必須擁有投資組合的管理許可權，才能在專案中新增或移除投資組合。</li>
@@ -497,7 +513,7 @@ Old:
       </tr> 
       <tr> 
       <td role="rowheader"><strong>完成模式</strong> </td> 
-      <td> <p>控制如何將專案標示為完成。 從下列選項中選取： 
+      <td> <p>控制如何將專案標示為完成。從下列選項中選取： 
        <ul> 
        <li><p><strong>自動</strong>：當所有任務和問題都完成時，專案會標示為完成。</p><p>專案狀態只有在任務完成時專案狀態為目前時，才會自動變更為完成。 </p></li> 
        <li><strong>手動</strong>：您必須在所有任務和問題都完成時，手動選取專案的完成狀態。</li> 
@@ -505,7 +521,7 @@ Old:
        </tr> 
        <tr> 
        <td role="rowheader"><strong>摘要完成模式</strong></td> 
-       <td> <p>控制如何將父系任務標示為完成。 從下列選項中選取： 
+       <td> <p>控制如何將父系任務標示為完成。從下列選項中選取： 
        <ul> 
        <li><strong>自動</strong>：父系任務標示為「完成」，而且當子系任務完成且子系完成百分比更新時，父系任務會自動更新完成百分比。 </li> 
        <li><strong>手動</strong>：您必須手動更新完成百分比和父系任務的狀態，而不考慮對子系任務所做的變更。 這可讓您標籤已完成父系任務，即使子任務未完成。 </li> 
@@ -513,7 +529,7 @@ Old:
        </tr> 
        <tr> 
        <td role="rowheader"><strong>更新類型</strong></td> 
-       <td> <p>控制您對專案時間表所做的變更何時儲存在專案或父任務上。 例如，專案的下列變更會觸發專案時間表更新： 
+       <td> <p>控制您對專案時間表所做的變更何時儲存在專案或父任務上。例如，專案的下列變更會觸發專案時間表更新： 
        <ul> 
        <li>更新任務日期</li> 
        <li>變更任務的前置任務關係</li> 
@@ -860,13 +876,13 @@ Old:
 1. 按一下&#x200B;**財務**，編輯所有選取專案的財務資訊。
 如需有關編輯財務區域的詳細資訊，請參閱本文章的[財務](#finance)小節。
 1. 按一下&#x200B;**專案設定**&#x200B;以編輯所有選取專案的設定。
-如需有關編輯[專案設定]區域的詳細資訊，請參閱本文中的[專案設定](#project-settings)小節。
+如需有關編輯[專案設定]區域的詳細資訊，請參閱本文的[專案設定](#project-settings)小節。
 1. 按一下「**任務設定**」以編輯所有選定專案的任務設定。
 如需有關編輯[工作設定]區域的詳細資訊，請參閱本文中的[工作設定](#task-settings)小節。
 1. 按一下&#x200B;**問題設定**&#x200B;以編輯所有選定專案的問題設定。
 如需有關編輯問題設定區域的詳細資訊，請參閱本文中的[問題設定](#issue-settings)小節。
 1. 按一下&#x200B;**存取**&#x200B;以編輯所有選取專案的存取設定。
-如需有關編輯[存取]區域的詳細資訊，請參閱本文中的[存取](#access)一節。
+如需有關編輯[存取]區域的詳細資訊，請參閱本文的[存取](#access)一節。
 1. 按一下&#x200B;**註解**，然後在提供的空間新增註解。 Workfront在每個專案的&#x200B;**更新**&#x200B;區域新增註解。 如需更新工作的相關資訊，請參閱[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 1. （選擇性）若要移除您在「編輯專案」方塊中新增的任何資訊，請將游標移至已編輯的欄位上，然後按一下欄位右上角的&#x200B;**x**&#x200B;捨棄圖示。
 

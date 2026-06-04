@@ -2,13 +2,22 @@
 content-type: reference
 navigation-topic: announcements
 title: Adobe Workfront 21.1版本電子郵件的新IP位址
-description: 為了提高電子郵件傳送的成功率，我們針對下列叢集新增新的IP位址，並以21.1生產版本發行。 若要找出您執行個體所在的叢集，請前往Setup &amp； System &amp； Gt； Customer Info。
+description: 為了提高電子郵件傳送的成功率，我們針對下列叢集新增新的IP位址，並以21.1生產版本發行。 若要找出您執行個體所在的叢集，請前往「設定&gt；系統&gt；客戶資訊」。
 author: Luke
 feature: Product Announcements
 exl-id: b29c8de0-b405-4419-b52e-2d5536bc7f63
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/-KslmXDeh9YgnBSS-gcvtkDT2fQFrVmyKtbhPpZMxaI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: 231
 ht-degree: 0%
 
 ---

@@ -7,10 +7,24 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6fef7261-114f-4c26-861e-61a4acb22d40
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/dxy0JMlWXuf--uVuidCL40tbPt24-2nUorrFYMmUhmM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d83a421c-ecb9-4757-b609-c531392f90eb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1503'
-ht-degree: 0%
+source-wordcount: 1532
+ht-degree: 1%
 
 ---
 
@@ -72,7 +86,7 @@ ht-degree: 0%
 
 以前，您只能在實際日期不可用時，以預計或計畫的方式管理行事曆。
 
-如需詳細資訊，請參閱[在行事曆報告中使用自訂日期欄位](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) (或者，如果您使用的是Workfront Classic，請參閱[在行事曆報告中使用自訂日期欄位](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home))。
+如需詳細資訊，請參閱[在行事曆報告中使用自訂日期欄位](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) （或者，如果您使用的是Workfront Classic，請參閱[在行事曆報告中使用自訂日期欄位](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home)）。
 
 ## 電子郵件變更
 
@@ -94,7 +108,7 @@ ht-degree: 0%
 
 現在也有顯示下列使用者資訊的使用者詳細資訊連結：
 
-* 姓名
+* 名稱
 * 職務角色
 * 電子郵件地址
 * 個人資料圖片

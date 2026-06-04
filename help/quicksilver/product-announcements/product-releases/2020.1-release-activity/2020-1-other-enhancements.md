@@ -7,9 +7,21 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a716590c-c833-458a-a138-9bc0723e5896
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/I5djuVv0ixHspF6afQaa5-jTkl0uXl26VlKf8BXqhO4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b8ea32d4-f1fe-4c71-8871-afe5a702a009
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: 433
 ht-degree: 0%
 
 ---
@@ -57,10 +69,10 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[設定Jira的Adobe Workfront](../../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)。
 
-## 已移除FlashPortfolio最佳化工具
+## 已移除Flash Portfolio Optimizer
 
-我們已移除針對所有客戶，從Workfront Classic環境切換新舊版(根據Flash)Portfolio最佳化工具的功能。 舊版Portfolio最佳化工具是一項過時的功能，現今的新工具可提供相同的功能。
+我們已移除針對所有客戶，從Workfront Classic環境切換新舊版（以Flash為基礎） Portfolio Optimizer的功能。 舊版Portfolio Optimizer是一項過時的功能，現今新工具提供的功能與舊版相同。
 
 如需專案組合最佳化工具的相關資訊，請參閱https://experience.workfront.com/s/article/Understanding-the-Portfolio-Optimizer-356650079
 
-如需有關在Workfront中棄用Flash型工具的資訊，請參閱[在Adobe Workfront中取代Flash型工具](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)。
+如需有關在Workfront中淘汰Flash型工具的資訊，請參閱[在Adobe Workfront中取代Flash型工具](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)。

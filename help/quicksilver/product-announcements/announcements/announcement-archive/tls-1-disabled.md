@@ -2,13 +2,22 @@
 content-type: reference
 navigation-topic: announcements
 title: Adobe Workfront中需要TLS 1.2
-description: 為了提供最佳安全性，Adobe Workfront要求所有依賴TLS 1.0或較舊版本的瀏覽器連線和API整合，升級為使用TLS 1.2。在預覽環境中，TLS 1.0已停用。
+description: 為了提供最佳安全性，Adobe Workfront要求所有依賴TLS 1.0或較舊版本的瀏覽器連線和API整合，升級為使用TLS 1.2。 在預覽環境中，TLS 1.0已停用。
 author: Luke
 feature: Product Announcements
 exl-id: 153668ae-0647-47fd-9153-ce45cd8c54ee
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+TQID: https://experienceleague.adobe.com/23UVEvZitUFvhkTkgOnubLK76Lzl8QKiyz-R4svWcc8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: 380
 ht-degree: 0%
 
 ---
@@ -29,7 +38,7 @@ Workfront已於2018年3月終止對TLS 1.0的官方支援。
 
 ## 使用TLS 1.0的Workfront整合已停用（2019年1月9日）
 
-在2019年1月9日，所有運用TLS 1.0的Workfront瀏覽器連線和API整合都必須升級為使用TLS 1.1或更新版本。 在此時間之後，繼續運用TLS 1.0 （傳入或傳出連線）的瀏覽器連線和API整合將無法再與Workfront應用程式通訊。 
+在2019年1月9日，所有運用TLS 1.0的Workfront瀏覽器連線和API整合都必須升級為使用TLS 1.1或更新版本。在此時間之後，繼續運用TLS 1.0 （傳入或傳出連線）的瀏覽器連線和API整合將無法再與Workfront應用程式通訊。 
 
 ## TLS 1.1將於2019年第4季停用
 
@@ -44,7 +53,7 @@ Workfront已於2018年3月終止對TLS 1.0的官方支援。
 
 ### 透過瀏覽器存取Workfront時 {#when-accessing-workfront-via-the-browser}
 
-確保貴組織中的使用者透過支援的瀏覽器存取Workfront。 (如需支援瀏覽器的相關資訊，請參閱[Adobe Workfront瀏覽器需求](../../../workfront-basics/workfront-browser-requirements.md)。)
+確保貴組織中的使用者透過支援的瀏覽器存取Workfront。 （如需支援瀏覽器的相關資訊，請參閱[Adobe Workfront瀏覽器需求](../../../workfront-basics/workfront-browser-requirements.md)。）
 
 Workfront支援的所有瀏覽器都與TLS 1.2相容。
 

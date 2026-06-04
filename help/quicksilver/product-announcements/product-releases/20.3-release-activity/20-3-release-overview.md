@@ -7,9 +7,30 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d25fda7-8116-42ba-961b-12aed4678614
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/VfnZ55ge62fYOUITajcdR8S4pqHyPzri5QoUDEZUv2s
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: d83a421c-ecb9-4757-b609-c531392f90eb
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3829'
+source-wordcount: 3985
 ht-degree: 0%
 
 ---
@@ -46,7 +67,7 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>發行日期與環境</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-mobile-enhancements.md#workfron" class="MCXref xref">Workfront Fusion 2.0已上線！</a> </p> <p>Workfront最近收購了全新一代Workfront Fusion的技術，這是功能強大的整合平台，可讓您自由地處理幾乎任何網路應用程式的工作。</p> <p>舊版Workfront Fusion客戶可期待Workfront Fusion 2.0提供更強大的功能、速度、可用性和可預測性。我們正在將目前的Workfront Fusion客戶移轉至Workfront Fusion 2.0。如需詳細資訊，請聯絡您的帳戶管理員。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-mobile-enhancements.md#workfron" class="MCXref xref">Workfront Fusion 2.0已上線！</a> </p> <p>Workfront最近收購了全新一代Workfront Fusion的技術，這是功能強大的整合平台，可讓您自由地處理幾乎任何網路應用程式的工作。</p> <p>舊版Workfront Fusion客戶可期待Workfront Fusion 2.0提供更強大的功能、速度、可用性和可預測性。 我們正在將目前的Workfront Fusion客戶移轉至Workfront Fusion 2.0。 如需詳細資訊，請聯絡您的帳戶管理員。</p> </td> 
    <td> <p><strong>在以下日期可用：</strong> </p> <p>Beta預覽版本：不適用</p> <p>生產版本： 2020年7月1日</p> <p><strong>在以下環境中可用：</strong> </p> <p>全新Adobe Workfront體驗 </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -252,7 +273,7 @@ For specific release dates and times for each cluster, see the
    <td><strong>在以下日期可用：</strong> <p>Beta預覽版本： 7月2日至9月22日（分階段推出）</p> <p>生產版本：2020年7月2日至21日（分階段推出）</p> <p><strong>在以下環境中可用：</strong> </p> <p>全新Adobe Workfront體驗 </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>工作負載平衡器<a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-resource-management-enhancements.md#variable" class="MCXref xref">中可用的</a>變數篩選器 </p> <p>為了改善您的體驗以及讓您在共用資訊時擁有更多彈性，我們現在為工作負載平衡器實作變數篩選器。</p> </td> 
+   <td> <p>工作負載平衡器</a>中可用的<a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-resource-management-enhancements.md#variable" class="MCXref xref">變數篩選器 </p> <p>為了改善您的體驗以及讓您在共用資訊時擁有更多彈性，我們現在為工作負載平衡器實作變數篩選器。</p> </td> 
    <td><strong>在以下日期可用：</strong> <p>Beta預覽版本： 2020年6月5日</p> <p>生產版本：第20.3發行版本</p> <p><strong>在以下環境中可用：</strong> </p> <p>全新Adobe Workfront體驗 </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 

@@ -6,11 +6,24 @@ description: 您可以在Portfolio Optimizer中排定專案的優先順序，以
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/7efrY0Ntv3d8kLkWwj08uK6pEjBM9zhjbmc13DfQbxI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: 493
 ht-degree: 2%
 
 ---
@@ -30,7 +43,7 @@ ht-degree: 2%
 
   如需有關在[!UICONTROL 資源規劃工具]中排定專案優先順序的資訊，請參閱文章[在[!UICONTROL 資源規劃工具]](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md)中排定專案的優先順序。
 
-* **[!UICONTROL Portfolio最佳化工具]**&#x200B;的[!UICONTROL 專案優先順序]區域依預設會以[!UICONTROL 計劃開始日期]和[!UICONTROL 淨值]的順序顯示專案。
+* [!UICONTROL Portfolio最佳化工具]的&#x200B;**[!UICONTROL 專案優先順序]**&#x200B;區域依預設會以[!UICONTROL 計劃開始日期]和[!UICONTROL 淨值]的順序顯示專案。
 
 ## 存取權要求
 
@@ -115,6 +128,6 @@ Old:
    >
    >這並不一定會變更[!UICONTROL Portfolio Optimizer]中專案的順序，因為專案清單可能會依&#x200B;**#**&#x200B;欄以外的欄排序。 按一下&#x200B;**#**&#x200B;資料行標題，依專案優先順序排序清單。
 
-   您可以透過在資源規劃工具中啟用[!UICONTROL 顯示Portfolio優先順序]設定，檢視專案在&#x200B;**[!UICONTROL Portfolio最佳化工具]**&#x200B;中的優先順序。
+   您可以透過在資源規劃工具中啟用&#x200B;**[!UICONTROL 顯示Portfolio優先順序]**&#x200B;設定，檢視專案在[!UICONTROL Portfolio最佳化工具]中的優先順序。
 
    如需有關在[!UICONTROL 資源規劃工具]中排定專案優先順序的資訊，請參閱文章[在[!UICONTROL 資源規劃工具]](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md)中排定專案的優先順序。

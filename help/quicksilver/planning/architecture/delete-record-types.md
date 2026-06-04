@@ -6,15 +6,26 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+TQID: https://experienceleague.adobe.com/v1IRcsFil5-ba26LoUX6IgD5gG-9h2344Tfs-qRvvPU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: 1101
 ht-degree: 1%
 
 ---
-
 
 <!--keep the global record type reference in yellow till January 2026-->
 
@@ -257,6 +268,6 @@ Old:
    * 從全域記錄型別建立的記錄型別會從選取的次要工作區中移除。
    * 原始記錄型別及其欄位會保留在其原始工作區中。
    * 記錄型別會保留在已新增它的所有其他工作區中。
-   * 從次要工作區新增至記錄型別的記錄<!--and fields-->已刪除。 從已新增全域記錄型別的其他工作區新增的所有其他記錄都會保留在各自的工作區和原始工作區中。 &lt;! — 欄位會保留在加入它們的工作區中。
+   * 從次要工作區新增至記錄型別的記錄<!--and fields-->已刪除。 從已新增全域記錄型別的其他工作區新增的所有其他記錄都會保留在各自的工作區和原始工作區中。 &lt;！—！ — 欄位會保留在新增的工作區中。
 
 

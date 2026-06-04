@@ -7,9 +7,18 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 13b6dd9e-52b9-4c5f-b727-bf32fbb94e8c
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/uaajPvdZOKhI6HDmwIRnvevVny9weroPYO4nxy5DwZ0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: 543
 ht-degree: 0%
 
 ---
@@ -32,7 +41,7 @@ ht-degree: 0%
 
 ## 在更新註解或回覆中包含並識別引號文字
 
-當您輸入註解時，可以將註解的一部分標示為引號文字，以便將其與您自己的註解區分開來。 使用HTML編輯器中的Block Quote按鈕。
+當您輸入註解時，可以將註解的一部分標示為引號文字，以便將其與您自己的註解區分開來。 使用HTML編輯器中的「區塊報價」按鈕。
 
 如需詳細資訊，請參閱[更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 

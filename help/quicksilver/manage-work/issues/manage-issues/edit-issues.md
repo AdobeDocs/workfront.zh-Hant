@@ -8,11 +8,26 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/0tSNZpFA8qe7ppqE-TX6ap9VosvRGGYRSrTif7K8H-k
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2532'
+source-wordcount: 2549
 ht-degree: 3%
 
 ---
@@ -268,7 +283,7 @@ Old:
      </tr> 
      <tr> 
       <td role="rowheader">主要連絡人</td> 
-      <td>依預設，主要連絡人是問題的建立者。 若要修改此專案，請在Workfront中開始輸入任何作用中使用者的名稱，然後從清單中選取它。 問題只能有一個主要連絡人。<br>如果您變更主要連絡人，原始主要連絡人仍擁有此問題的管理存取權。 在共用問題時，您必須從「問題存取權」方塊手動移除此存取權。
+      <td>依預設，主要連絡人是問題的建立者。 若要修改此專案，請在Workfront中開始輸入任何作用中使用者的名稱，然後從清單中選取它。 問題只能有一個主要連絡人。<br> 如果您變更主要連絡人，原始主要連絡人仍擁有此問題的管理存取權。 在共用問題時，您必須從「問題存取權」方塊手動移除此存取權。
 
    <b>提示</b>
 
@@ -428,7 +443,7 @@ Old:
       <td role="rowheader">核准流程</td> 
       <td> 
        <div> 
-       <p>選取您要與問題關聯的核准流程。 您的Workfront管理員必須定義系統層級的核准流程，您才能將其與問題相關聯。 對核准程式<span>具有管理存取許可權的使用者也可以建立群組特定的核准程式。</span>如需有關建立核准流程的詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">建立工作專案的核准流程</a>。 </p> 
+       <p>選取您要與問題關聯的核准流程。 您的Workfront管理員必須定義系統層級的核准流程，您才能將其與問題相關聯。 擁有核准程式<span>之管理存取權的使用者也可以建立群組特定的核准程式。</span>如需有關建立核准流程的詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">建立工作專案的核准流程</a>。 </p> 
        <p>新增核准程式時，請考量下列事項： </p> 
        <ul> 
        <li>清單中只會顯示有效的核准流程。 </li> 

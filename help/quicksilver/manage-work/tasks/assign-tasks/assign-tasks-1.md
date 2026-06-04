@@ -8,9 +8,19 @@ author: Lisa
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 2b79998d-7436-43ef-a5f5-6302f1f1b7a7
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+TQID: https://experienceleague.adobe.com/EBgLvJ3FteQflL6Ahep8HEJcWZt6cIxAIr2e2S9MRN4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: 119
 ht-degree: 0%
 
 ---

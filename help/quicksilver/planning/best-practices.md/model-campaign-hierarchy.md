@@ -6,11 +6,23 @@ role: Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 02e3b55f-9188-42bf-8d0b-c9fed86c63c4
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/iIXHucZmlY7CkbSWDWFO5XnHPvGylFrvt45QV90aFXQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: 1564
 ht-degree: 0%
 
 ---
@@ -90,7 +102,7 @@ ht-degree: 0%
 >如果您的組織每年產生超過5,000個活動，您應該將個別交付專案追蹤移至Workfront。
 >
 >在Planning中管理大量體驗記錄，可能會導致資料累積，使您的策略可見性變得模糊。
->我們建議您遵循這項廣泛的指引，以發揮最大效率：
+>我們建議您使用這項廣泛的指導方針，以發揮最大的效率：
 >
 >* 使用Planning瞭解「原因」和「內容」
 >* 將Workfront用於高容量的「做法」。
@@ -171,7 +183,7 @@ ht-degree: 0%
 
 許多組織仍仰賴Workfront中與其舊版Portfolio和方案結構繫結的強大報表功能。
 
-我們建議嘗試以下解決方法：
+我們建議參閱以下資訊：
 
 * 請勿刪除您的投資組合和計畫。
 * 使用Planning自動化在您的記錄型別與投資組合和計畫之間建立橋樑。

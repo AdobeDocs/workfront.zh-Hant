@@ -6,10 +6,24 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e490a955-b2cb-4b9b-9794-12ff2a2c2338
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/hWQHCGyvb-N-utvgquxUHOUd9WfC9YNQpr5w-I4E-YE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3974'
-ht-degree: 0%
+source-wordcount: 4155
+ht-degree: 2%
 
 ---
 
@@ -123,7 +137,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>在以下環境中可用：</strong> </p> 
     <ul> 
      <li> <p>全新Adobe Workfront體驗 </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home" target="_blank">Workfront Classic將於2022年3月終止服務</a>，緊接著將於2022年7月Workfront Classic終止服務。)</p> </li> 
+     <li> <p>Adobe Workfront Classic （<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home" target="_blank">Workfront Classic將於2022年3月終止服務</a>，緊接著將於2022年7月Workfront Classic終止服務。）</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -291,7 +305,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>在以下環境中可用：</strong> </p> 
     <ul> 
      <li> <p>全新Adobe Workfront體驗 </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home" target="_blank">Workfront Classic將於2022年3月終止服務</a>，緊接著將於2022年7月Workfront Classic終止服務。)</p> </li> 
+     <li> <p>Adobe Workfront Classic （<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home" target="_blank">Workfront Classic將於2022年3月終止服務</a>，緊接著將於2022年7月Workfront Classic終止服務。）</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -303,7 +317,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>在以下環境中可用：</strong> </p> 
     <ul> 
      <li> <p>全新Adobe Workfront體驗 </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home" target="_blank">Workfront Classic將於2022年3月終止服務</a>，緊接著將於2022年7月Workfront Classic終止服務。)</p> </li> 
+     <li> <p>Adobe Workfront Classic （<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home" target="_blank">Workfront Classic將於2022年3月終止服務</a>，緊接著將於2022年7月Workfront Classic終止服務。）</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -357,7 +371,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> <p><strong>在以下環境中可用：</strong> </p> 
     <ul> 
      <li> <p>全新Adobe Workfront體驗 </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home" target="_blank">Workfront Classic將於2022年3月終止服務</a>，緊接著將於2022年7月Workfront Classic終止服務。)</p> </li> 
+     <li> <p>Adobe Workfront Classic （<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home" target="_blank">Workfront Classic將於2022年3月終止服務</a>，緊接著將於2022年7月Workfront Classic終止服務。）</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

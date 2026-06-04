@@ -7,10 +7,23 @@ description: 「計算的工作量」是一種期間型別，您可以在Adobe W
 author: Alina
 feature: Work Management
 exl-id: f521c2f5-8d58-44c0-af18-6940ad0950ea
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+TQID: https://experienceleague.adobe.com/0gWFiCrvR2swVTt4Khio-PqL6xY97bouz-i88z-XQeE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 2%
+source-wordcount: 574
+ht-degree: 1%
 
 ---
 
@@ -68,7 +81,7 @@ Work Required (Planned Hours) = SUM[(Duration of the task in hours) x (Percent a
   <tr> 
    <td> <p>2</p> </td> 
    <td> <p>1天</p> </td> 
-   <td> <p>16 小時</p> <p>（1天x每個工作天8小時x 2受指派人= 16計畫小時）</p> </td> 
+   <td> <p>16小時</p> <p>（1天x每個工作天8小時x 2受指派人= 16計畫小時）</p> </td> 
   </tr> 
   <tr> 
    <td> <p>3</p> </td> 

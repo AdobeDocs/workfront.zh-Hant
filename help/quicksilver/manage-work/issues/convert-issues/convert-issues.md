@@ -8,11 +8,26 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
+TQID: https://experienceleague.adobe.com/-pfHOCi9qAoq5Jk7LzibEu0SDm-AoiPUTH61GCL1ATc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: 1531
 ht-degree: 3%
 
 ---
@@ -47,7 +62,7 @@ ht-degree: 3%
 
 * 轉換問題時，原始問題的許可權未傳輸到轉換的物件（任務或專案）。
 
-* 使用範本將問題轉換為專案時，範本中的大部分資訊會傳輸到新專案。 不過，問題中的某些資訊也可傳輸到新專案。 如需詳細資訊，請參閱本文章使用範本[將問題轉換為專案時的](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template)專案欄位概觀。
+* 使用範本將問題轉換為專案時，範本中的大部分資訊會傳輸到新專案。 不過，問題中的某些資訊也可傳輸到新專案。 如需詳細資訊，請參閱本文章使用範本[&#128279;](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template)將問題轉換為專案時的專案欄位概觀。
 * 轉換問題時，並非所有檔案或其資訊都會移至問題轉換為的新物件。 當您轉換附加了檔案或檔案連結的問題時，會包含下列專案：
 
    * 文件
@@ -87,7 +102,7 @@ ht-degree: 3%
   <tr> 
    <td>優先順序</td> 
    <td><p>從問題中轉移。</p>
-   <p>當您針對轉換的專案使用範本時，您可以選擇手動變更「優先順序」。 如果您選擇不變更，則問題的優先順序會轉移至專案。 
+   <p>當您針對轉換的專案使用範本時，您可以選擇手動變更「優先順序」。如果您選擇不變更，則問題的優先順序會轉移至專案。 
     </td> 
   </tr> 
   <tr> 

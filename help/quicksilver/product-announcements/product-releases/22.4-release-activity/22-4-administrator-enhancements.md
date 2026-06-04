@@ -6,9 +6,18 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1e62e7b3-14b6-4669-b3e1-ac6507343479
-source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
+TQID: https://experienceleague.adobe.com/d5r4VDW3ZD3sNx5s9Kj9V8PKt39fZNFtwfiAj6dzdzk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: 881
 ht-degree: 0%
 
 ---
@@ -83,7 +92,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[使用配置範本自訂物件標頭](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)。
 
-[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3412384/){target=_blank}
+[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3412384/){target=_blank}
 
 ## 面板最新功能的早期功能選擇加入
 
@@ -93,7 +102,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[Adobe Workfront主機板的早期功能選擇加入](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md)。
 
-[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3412386/){target=_blank}
+[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3412386/){target=_blank}
 
 ## 自訂表單欄位計算編輯器顯示錯誤資訊
 
@@ -103,13 +112,13 @@ ht-degree: 0%
 
 編輯自訂欄位的計算現在更容易，並在計算中直接指示有用的錯誤資訊。 當您在自訂表單中建立計算欄位時，錯誤會以粉紅色反白顯示。 當您將滑鼠停留在醒目提示的部分上時，會顯示工具提示來說明問題所在。
 
-[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3412387/){target=_blank}
+[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3412387/){target=_blank}
 
 ## 移轉至Adobe Unified Experience
 
 注意：此移轉已延遲至2023年第1季至第2季。 屆時所有受影響的客戶都會收到通知。
 
-如果您的組織已上線Adobe Admin Console，您的Workfront執行個體將會移轉至Adobe Unified Experience 22.4版。
+如果您的組織已上線到Adobe Admin Console，您的Workfront執行個體將移轉至Adobe Unified Experience 22.4版。
 
 Adobe Unified Experience包括：
 
@@ -119,6 +128,6 @@ Adobe Unified Experience包括：
 
 * 包含Workfront頁面、Adobe Experience Cloud偏好設定和您的Workfront設定檔選項的導覽
 
-如需詳細資訊，請參閱[Workfront的Adobe統一體驗](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+如需詳細資訊，請參閱[適用於Workfront的Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
-[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3412388/){target=_blank}
+[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3412388/){target=_blank}

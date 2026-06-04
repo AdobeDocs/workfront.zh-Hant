@@ -8,15 +8,32 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-last-update: 2026-04-01T18:23:03Z
+last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
+TQID: https://experienceleague.adobe.com/GtWgf0gZVuIE2xM6lkZlOyzmV9D7xg0myc2otxYFakU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '2867'
+source-wordcount: 2632
 ht-degree: 2%
 
 ---
-
 
 # 建立請求佇列
 
@@ -455,8 +472,8 @@ When you enable any of the Assigned to, Job Role, or the Team fields, they are a
       * 分鐘
       * 週
 
-   預設期間是完成提交至此請求佇列的問題通常所需的時間。 這會成為所有傳入問題的預設值，並可手動修改。
-問題的預設期間與問題的計畫時數相同。 問題的計畫完成日期會根據此欄位來計算。\
+   預設期間是完成提交至此請求佇列的問題通常所需的時間。這會成為所有傳入問題的預設值，並可手動修改。
+問題的預設期間與問題的計畫時數相同。問題的計畫完成日期會根據此欄位來計算。\
    若維持不變，問題「持續時間」的預設為1天或8小時。
 如果您的Workfront管理員在「設定」區域中將「每工作日一般時數」設定為少於8小時，則問題的預設期間仍為8小時。
 例如，如果在Workfront的「設定」區域中將「每工作日一般時數」設定為7小時，則問題的預設期間為1.14天或8小時。
@@ -525,8 +542,8 @@ When you enable any of the Assigned to, Job Role, or the Team fields, they are a
      | 擁有此專案檢視存取權限的人員（計劃授權） | 擁有標準或計畫授權且擁有此專案檢視許可權的使用者可以檢視所選及未所選欄位。 其他可以提交請求至此專案的使用者只能看到選取的欄位。 |
      | 無使用者 | 沒有使用者可以看到未選取的欄位。 所有可以提交請求至此專案的使用者只能看到選取的欄位。 這是預設選取範圍。 |
 
-   * **自訂Forms**：從下拉式功能表中選取要與請求佇列關聯的自訂表單。 您可以選取多個表單，然後以您想要它們在請求表單中顯示的順序拖放它們。
-只有問題自訂表單可從此下拉式選單中選取。 提交至此請求佇列、新增至專案或其任務的所有問題，都會有與其關聯的選定表單。
+   * **自訂Forms**：從下拉式功能表中選取要與請求佇列關聯的自訂表單。您可以選取多個表單，然後以您想要它們在請求表單中顯示的順序拖放它們。
+只有問題自訂表單可從此下拉式選單中選取。提交至此請求佇列、新增至專案或其任務的所有問題，都會有與其關聯的選定表單。
 您必須先建立問題自訂表單，才能看到它們顯示在佇列詳細資料區段中。
 如果您有多個與請求佇列相關的佇列主題，建議您改將自訂表單與佇列主題相關聯。
 如需詳細資訊，請參閱[建立佇列主題](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)。

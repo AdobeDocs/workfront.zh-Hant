@@ -7,9 +7,28 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/da7NZ9tWFrk32NgR4lTjS0LAVpzf1qGoJza4AEnaOSk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3695'
+source-wordcount: 3852
 ht-degree: 0%
 
 ---
@@ -342,7 +361,7 @@ Workfront旨在提供不依賴Flash的全新解決方案套件，協助您改用
 
 ### 20.4版本網路研討會 {#20-4-release-webinar}
 
-Workfront 20.4版本網路研討會將於東部夏令時間2020年10月28日星期三上午11:00舉行。 在[這裡](https://webinars.on24.com/workfront/204release?partnerref=CXnewsletter)註冊網路研討會。
+Workfront 20.4版本網路研討會將於2020年10月28日（星期三）上午11:00 EDT舉行。 在[這裡](https://webinars.on24.com/workfront/204release?partnerref=CXnewsletter)註冊網路研討會。
 
 ### 預覽發行步調中的變更 {#change-in-preview-release-cadence}
 

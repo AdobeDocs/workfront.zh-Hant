@@ -2,14 +2,27 @@
 title: 22.3整合增強功能
 description: 22.3整合增強功能
 author: Luke
-draft: false
+draft: No
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: caaef6a2-a554-4a2c-a86d-df3f19a4f40c
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/1Htz1VQzgsbRxs0PnoQqRDvWbF1WexWohgpDynsHfKQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: d1807669-3cb9-4c7d-8433-600aa390c92f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 0%
+source-wordcount: 378
+ht-degree: 2%
 
 ---
 
@@ -19,9 +32,9 @@ ht-degree: 0%
 
 ## 適用於Experience Manager Assets整合的Adobe Workfront
 
-我們很高興宣佈Adobe Workfront Experience Manager Assets整合現在可供Cloud Service。
+我們很高興地宣佈，Adobe Workfront Experience Manager Assets整合現在可供Cloud Service使用。
 
-我們也為Cloud Service和Assets Essentials推出新功能：這項整合可讓使用者
+我們也為Cloud Service和Assets Essentials推出了新功能：此整合可讓使用者
 
 * 在Workfront中自動建立連結的AEM資料夾
 
@@ -30,13 +43,13 @@ ht-degree: 0%
 * 在Workfront中即時顯示最新的AEM中繼資料
 
 
-您必須在Adobe Admin Console中擁有與您的組織ID相關聯的Workfront和Adobe Experience Manager Assets或Assets Essentials，才能使用此整合。 如需詳細資訊，請洽詢您的Adobe銷售代表。
+您必須在Adobe Admin Console中將Workfront和Adobe Experience Manager Assets或Assets Essentials與您的組織ID相關聯，才能使用此整合。 如需詳細資訊，請洽詢您的Adobe銷售代表。
 
 如需關於設定整合的資訊，請參閱
 
-* [設定Experience Manager Assetsas a Cloud Service整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
+* [設定Experience Manager Assets as a Cloud Service整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
 
-* [設定Experience Manager Assets Essentials整合](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
+* [設定 Experience Manager Assets Essentials 整合](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
 
 
 如需關於使用整合的資訊，請參閱適用於Experience Manager Assets Essentials的Adobe Workfront 。
@@ -51,9 +64,9 @@ Workfront管理員可以根據其組織的需求，個別啟用和停用SharePoi
 
 如需詳細資訊，請參閱[設定舊版SharePoint整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md)。
 
-## 在Creative Cloud外掛程式的單一校訂中合併多個檔案
+## 在Creative Cloud外掛程式中將多個檔案合併為單一校訂
 
-您現在可以上傳外部檔案，其中包含您在Adobe Workfront中建立的內容以供Creative Cloud外掛程式在Workfront中建立多檔案校訂。 外部檔案會顯示為Workfront內的其他校樣頁面。 透過此增強功能，我們還更新了校樣建立體驗的外觀和感覺。
+您現在可以上傳外部檔案，其中包含您在Adobe Workfront for Creative Cloud外掛程式中建立的內容，以在Workfront中建立多檔案校訂。 外部檔案會顯示為Workfront內的其他校樣頁面。 透過此增強功能，我們還更新了校樣建立體驗的外觀和感覺。
 
 如需詳細資訊，請參閱
 

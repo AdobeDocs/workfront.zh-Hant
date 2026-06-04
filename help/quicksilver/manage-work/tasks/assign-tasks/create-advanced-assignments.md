@@ -7,11 +7,26 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: daaa13d5a3ebbd249f0093181ee7834f9db43fdb
+TQID: https://experienceleague.adobe.com/zWSZMjnN-WSef9q6W6s9mIcO2DakU0f886IcxD15tzg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3457'
+source-wordcount: 3340
 ht-degree: 0%
 
 ---
@@ -98,15 +113,15 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 >[!NOTE]
 >
->預設為舊的進階指派體驗。 您必須使用「進階指定」視窗右上角的按鈕，手動開啟新體驗。
->如需舊體驗的相關資訊，請參閱下方的[建立進階工作分派 — 所有其他套件](#create-advanced-assignments--all-other-packages)。
+>預設為舊的進階指派體驗。您必須使用「進階指定」視窗右上角的按鈕，手動開啟新體驗。
+>如需舊體驗的相關資訊，請參閱下方的[建立進階工作分派 — 所有其他封裝](#create-advanced-assignments--all-other-packages)。
 
 1. 前往您要指派任務的專案。
 1. 按一下左側面板中的&#x200B;**任務**&#x200B;或&#x200B;**問題**，然後按一下清單中任務的名稱。
 
    >[!TIP]
    >
-   >您可以直接在任務清單上進行進階指派。 按一下與工作同列的&#x200B;**工作總攬**&#x200B;欄位，然後按一下清單底部的&#x200B;**進階**，或工作總攬方塊右上角的&#x200B;**人員圖示**，以開啟「進階工作總攬」視窗。 跳到步驟5以繼續建立進階工作分派。
+   >您可以直接在任務清單上進行進階指派。按一下與工作同列的&#x200B;**工作總攬**&#x200B;欄位，然後按一下清單底部的&#x200B;**進階**，或工作總攬方塊右上角的&#x200B;**人員圖示**，以開啟「進階工作總攬」視窗。跳到步驟5以繼續建立進階工作分派。
    >![按一下[進階]或[人員]圖示](assets/access-aa-from-lists.png)
 
 1. 在任務標題的&#x200B;**工作總攬**&#x200B;欄位中按一下&#x200B;**指派給**
@@ -129,7 +144,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    >[!NOTE]
    >
-   >如果您要檢視的資料欄未顯示，您可以將其新增。 請參閱下方的[進階工作總攬]清單[上的](#add-and-remove-columns-on-the-advanced-assignments-list)新增及移除欄。
+   >如果您要檢視的資料欄未顯示，您可以將其新增。 請參閱下方的[進階工作總攬]清單[&#128279;](#add-and-remove-columns-on-the-advanced-assignments-list)上的新增及移除欄。
 
 1. （選擇性）選取&#x200B;**小時**、**FTE**&#x200B;或&#x200B;**百分比**&#x200B;以檢視配置。
 
@@ -190,7 +205,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    >[!IMPORTANT]
    >
-   >根據您的Workfront管理員或群組管理員設定專案偏好設定的方式，當您有多個使用者指派至任務時，Workfront可能會使用任務擁有者的排程來計算任務的時間表。 如需有關多個任務受指派人的資訊，請參閱文章[指派任務](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md#considerations-for-multiple-assignments-to-job-roles-teams-and-users)中的[對工作角色、團隊和使用者的多個指派的考量事項](../../../manage-work/tasks/assign-tasks/assign-tasks.md)一節。
+   >根據您的Workfront管理員或群組管理員設定專案偏好設定的方式，當您有多個使用者指派至任務時，Workfront可能會使用任務擁有者的排程來計算任務的時間表。 如需有關多個任務受指派人的資訊，請參閱文章[指派任務](../../../manage-work/tasks/assign-tasks/assign-tasks.md)中的[對工作角色、團隊和使用者的多個指派的考量事項](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md#considerations-for-multiple-assignments-to-job-roles-teams-and-users)一節。
 
 1. 請為&#x200B;**受指派人**&#x200B;欄中的每個使用者指定下列資訊：
 
@@ -208,7 +223,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
      >[!TIP]
      >
-     >在您手動修改任務的指派分配後，任務的計畫時數可能會相應地更新。 請注意，您無法手動修改指派給任務的專案團隊的分配。 如需詳細資訊，請參閱文章[計畫時數概觀](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md#update-task-planned-hours-when-managing-user-allocations)中的[管理使用者配置時更新任務計畫時數](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md)一節。
+     >在您手動修改任務的指派分配後，任務的計畫時數可能會相應地更新。 請注意，您無法手動修改指派給任務的專案團隊的分配。 如需詳細資訊，請參閱文章[計畫時數概觀](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md)中的[管理使用者配置時更新任務計畫時數](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md#update-task-planned-hours-when-managing-user-allocations)一節。
 
    * **屬性**：任何可供使用者使用的屬性都會顯示在屬性欄位中。 管理員會設定屬性，這些屬性會新增至使用者設定檔，或與費率卡中的工作角色相關聯。 如需詳細資訊，請參閱[定義費率屬性](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)和[編輯使用者的設定檔](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
@@ -324,7 +339,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    >[!TIP]
    >
-   >您可以直接在任務或問題清單上進行進階指派。 按一下與任務或問題同列的&#x200B;**工作總攬**&#x200B;欄位，然後按一下清單底部的&#x200B;**進階**，或工作總攬方塊右上角的&#x200B;**人員圖示**，以開啟「進階工作總攬」視窗。 跳到步驟5以繼續建立進階工作分派。
+   >您可以直接在任務或問題清單上進行進階指派。按一下與任務或問題同列的&#x200B;**工作總攬**&#x200B;欄位，然後按一下清單底部的&#x200B;**進階**，或工作總攬方塊右上角的&#x200B;**人員圖示**，以開啟「進階工作總攬」視窗。跳到步驟5以繼續建立進階工作分派。
    >![按一下[進階]或[人員]圖示](assets/access-aa-from-lists.png)
 
 1. 按一下任務或問題標題中&#x200B;**工作總攬**&#x200B;欄位中的&#x200B;**指派給**
@@ -366,13 +381,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
      >[!IMPORTANT]
      >
-     >根據您的Workfront管理員或群組管理員設定專案偏好設定的方式，當您有多個使用者指派至任務時，Workfront可能會使用任務擁有者的排程來計算任務的時間表。 如需有關多個任務受指派人的資訊，請參閱文章[指派任務](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md#considerations-for-multiple-assignments-to-job-roles-teams-and-users)中的[對工作角色、團隊和使用者的多個指派的考量事項](../../../manage-work/tasks/assign-tasks/assign-tasks.md)一節。
+     >根據您的Workfront管理員或群組管理員設定專案偏好設定的方式，當您有多個使用者指派至任務時，Workfront可能會使用任務擁有者的排程來計算任務的時間表。 如需有關多個任務受指派人的資訊，請參閱文章[指派任務](../../../manage-work/tasks/assign-tasks/assign-tasks.md)中的[對工作角色、團隊和使用者的多個指派的考量事項](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md#considerations-for-multiple-assignments-to-job-roles-teams-and-users)一節。
 
    * **配置**：當任務的期間型別為「簡單」時，請指定每個使用者或工作角色應指派給任務的小時數。 每位使用者所有指派時數的加總等於分配欄底部&#x200B;**計畫時數**&#x200B;欄位中的數字。 在所有其他情況下，請指定您希望受分派者解決任務或問題的時間百分比（或配置）。
 
      >[!TIP]
      >   
-     >   * 在您手動修改任務的指派分配後，任務的計畫時數可能會相應地更新。 如需詳細資訊，請參閱文章[計畫時數概觀](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md#update-task-planned-hours-when-managing-user-allocations)中的[管理使用者配置時更新任務計畫時數](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md)一節。
+     >   * 在您手動修改任務的指派分配後，任務的計畫時數可能會相應地更新。 如需詳細資訊，請參閱文章[計畫時數概觀](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md)中的[管理使用者配置時更新任務計畫時數](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md#update-task-planned-hours-when-managing-user-allocations)一節。
      >   * 您無法手動修改問題的指派分配。
      >   * 您無法手動修改指派給任務的專案團隊的分配。
 

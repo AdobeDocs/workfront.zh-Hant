@@ -8,9 +8,22 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a1223d81-3fb8-42d1-9a7d-c58d1f0fcd36
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/TG5jGCFoSZOFA-lmHR7SAt7T-a2tmtOtooH4uBMB1ps
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: 433
 ht-degree: 0%
 
 ---
@@ -97,7 +110,7 @@ ht-degree: 0%
 
 您可以指定任務的計劃開始日期，也可以讓Workfront根據特定條件決定是否要計算任務開始日期。
 
-如需任務計劃開始日期的相關資訊，請參閱任務計劃開始日期[的](../../../manage-work/tasks/task-information/task-planned-start-date.md)總覽。
+如需任務計劃開始日期的相關資訊，請參閱任務計劃開始日期[&#128279;](../../../manage-work/tasks/task-information/task-planned-start-date.md)的總覽。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -7,9 +7,22 @@ description: 專案狀態是專案進度方式的視覺化表示。 這是可報
 author: Alina
 feature: Work Management
 exl-id: 0c847b26-b0cb-49bb-84be-32534c72d5b6
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/wj01GJqYRaeo-Dfq66v9-3qrRWxt9lQo6nDPaM1hsKc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: 706
 ht-degree: 1%
 
 ---
@@ -82,7 +95,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>達成目標</td> 
-   <td>當專案的進度狀態為準時時，專案的狀態為目標<strong>上的</strong>。 </td> 
+   <td>當專案的進度狀態為準時時，專案的狀態為目標</strong>上的<strong>。 </td> 
    <td> <img src="assets/on-target-condition-icon.png"> </td> 
    <td> </td> 
   </tr> 

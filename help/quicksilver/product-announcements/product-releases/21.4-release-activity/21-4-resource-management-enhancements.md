@@ -6,9 +6,20 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c978e88b-ee07-4af9-b5df-cb62dab4b3ac
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/IRUIGTXNd-5lf-Du-VCO-mG80hlkG76fR-bCdpCz2DQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: 368
 ht-degree: 0%
 
 ---
@@ -29,7 +40,7 @@ ht-degree: 0%
 
 ## 工作負載平衡器的新預設選項
 
-為了淘汰排程並改用工作負載平衡器Workfront的主要資源指派工具，我們已將Workfront平衡器設為所有新使用者的預設選項。 目前，排程是預設選項。 此變更適用於您可從中存取排程的所有區域，包括「資源」區域(在新的Adobe Workfront體驗中)或「人員」區域(在Adobe Workfront Classic中)，以及專案和團隊層級。
+為了淘汰排程並改用工作負載平衡器Workfront的主要資源指派工具，我們已將Workfront平衡器設為所有新使用者的預設選項。 目前，排程是預設選項。 此變更適用於您可從中存取排程的所有區域，包括「資源」區域（在新的Adobe Workfront體驗中）或「人員」區域（在Adobe Workfront Classic中），以及專案和團隊層級。
 
 ## 工作負載平衡器中的新篩選器體驗
 

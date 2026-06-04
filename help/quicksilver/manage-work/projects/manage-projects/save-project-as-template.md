@@ -6,11 +6,24 @@ description: 在專案層級將專案儲存為templateSave as template （範本
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/LtLVPYF-n-V6dSkEbc-oSwsX5QkEVeyYjHyZV-eZy4M
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: 473
 ht-degree: 5%
 
 ---
@@ -196,7 +209,7 @@ Saving a project as a template differs in the Production and the Preview environ
 1. 按一下左側面板中的「自訂Forms」**&#x200B;**，移除或重新排序表單。
 
    若要重新排序表單，請以正確順序拖放表單。
-若要移除表單，請選取該表單，然後按一下[移除]。**&#x200B;** 按一下&#x200B;**取消**&#x200B;以移除選取的表單。
+若要移除表單，請選取該表單，然後按一下[移除]。**&#x200B;**&#x200B;按一下&#x200B;**取消**&#x200B;以移除選取的表單。
 
    ![儲存為範本方塊中的自訂表單區域](assets/custom-forms-ara-in-save-as-template-box.png)
 

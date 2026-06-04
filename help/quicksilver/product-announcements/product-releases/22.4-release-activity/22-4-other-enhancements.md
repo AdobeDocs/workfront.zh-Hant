@@ -6,9 +6,21 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4e41eed3-1a3b-4247-8c0c-630efc9c1b69
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/z-GVj-kjcrUDRJOtzjU4gZhGAmis15E-4x8RGOkAqT4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: 608
 ht-degree: 0%
 
 ---
@@ -23,7 +35,7 @@ ht-degree: 0%
 
 此外掛程式現在可在InDesign中安裝。 它可讓您存取工作專案詳細資料、與更新區域中的同事共同作業，以及提交校樣以供全部檢閱，而不需離開XD。 立即前往Adobe Creative Cloud Marketplace下載外掛程式。
 
-如需外掛程式的詳細資訊，請參閱[[!DNL Adobe Workfront] 應用程式 [!DNL Creative Cloud] 的](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)外掛程式。
+如需外掛程式的詳細資訊，請參閱 [!DNL Creative Cloud] 應用程式[&#128279;](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)的[!DNL Adobe Workfront] 外掛程式。
 
 [立即在Marketplace下載InDesign適用的Adobe Workfront](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign)。
 

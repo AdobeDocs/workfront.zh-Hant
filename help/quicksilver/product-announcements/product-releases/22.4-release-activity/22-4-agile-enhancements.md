@@ -6,9 +6,16 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5d954537-5ee4-43b5-b1ab-d62433496e35
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/aT7LstXDYaNh1acR5Zwzj4eNFiqKwDSL7iEWJaKGoDs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: 750
 ht-degree: 0%
 
 ---
@@ -53,7 +60,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[在展示板上使用群組](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md)。
 
-[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3412869/){target=_blank}
+[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3412869/){target=_blank}
 
 ## 面板上檢查清單專案的增強功能
 
@@ -77,7 +84,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[從展示板新增或移除成員](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md)。
 
-[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3412870/){target=_blank}
+[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3412870/){target=_blank}
 
 ## 在製品限制現在可在展示板欄上使用
 
@@ -89,7 +96,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[管理主機板資料行](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)。
 
-[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3412871/){target=_blank}
+[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3412871/){target=_blank}
 
 ## 新增到卡片的預估欄位
 
@@ -99,4 +106,4 @@ ht-degree: 0%
 
 臨機操作卡和已連線卡片上的新預估欄位可讓您輸入要完成的卡片的預估時數。 這是手動輸入，而非計算值，且值不能超過99。 預估值會顯示在展示板的卡片以及卡片詳細資料中。
 
-[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3412872/){target=_blank}
+[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3412872/){target=_blank}

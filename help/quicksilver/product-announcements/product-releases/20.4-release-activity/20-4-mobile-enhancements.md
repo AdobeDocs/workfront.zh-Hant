@@ -6,9 +6,18 @@ draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: b7f986a6-a876-4e0d-84e5-237ec8fcf590
-source-git-commit: 52ca3335f6c2dde0442f31fb4bd4ca0180c96b40
+TQID: https://experienceleague.adobe.com/E8E3zY1dajNPGM7Kau4qYevs3-BEsq-8WLaRlOUUkYQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: 453
 ht-degree: 0%
 
 ---
@@ -27,7 +36,7 @@ ht-degree: 0%
 
 為了讓您更輕鬆地透過Microsoft Teams使用Workfront，我們為從Workfront傳送的Microsoft Teams通知新增了一些功能。
 
-* 我們已展開您可以在Microsoft Teams中接收的通知型別。 現在您可以接收更多種事件的通知，例如有人在您的時程表上發表評論或要您核准檔案時。
+* 我們已展開您可以在Microsoft Teams中收到的通知型別。 現在您可以接收更多種事件的通知，例如有人在您的時程表上發表評論或要您核准檔案時。
 * 您現在可以在通知中直接註解及回覆。 您的評論和回覆會出現在工作專案更新流的Workfront中。
 * 我們讓您能夠在通知中檢視工作專案的自訂表單，並展開自訂表單以檢視其欄位。
 * 當您收到有關專案、任務或問題的通知時，您現在可以直接在通知中變更工作專案的狀態。

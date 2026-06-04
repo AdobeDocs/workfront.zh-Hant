@@ -7,9 +7,22 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: acde4cf2-a755-4e77-9469-f5152991dd34
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+TQID: https://experienceleague.adobe.com/m72HcdqC9ZH3Kzn11Lb1EoL-LZmosFkPVW3FUxa1gq8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: 932
 ht-degree: 0%
 
 ---
@@ -36,7 +49,7 @@ ht-degree: 0%
 >
 >此功能僅在新的Adobe Workfront體驗中可用
 
-專案、Portfolio、方案和範本的全域區域現在有更新的標題，以便更妥善地使用畫面上的空間。 此更新提供更多空間，讓您掌握需要著重的資訊。
+專案、投資組合、計畫和範本的全球區域現在有更新的標題，以便更妥善地使用畫面上的空間。 此更新提供更多空間，讓您掌握需要著重的資訊。
 
 已移除「專案」區域中的「範本」連結。 您仍然可以從主功能表存取「範本」區域。
 

@@ -6,9 +6,14 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-source-git-commit: 78c2fd4afbe24062cbaea935e9b548ffe6e528ea
+TQID: https://experienceleague.adobe.com/LMlcsu55ylObbTjdopGzptkfOJ73DDdlc8qKsVGPOWM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: 184
 ht-degree: 1%
 
 ---
