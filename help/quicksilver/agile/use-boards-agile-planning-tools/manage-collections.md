@@ -10,10 +10,14 @@ exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/BCW0Qw0RpeELCfihFvZ2I2JyjEjy-MMx4lb0BAP8FwM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 929
@@ -70,7 +74,7 @@ ht-degree: 2%
 
 ## 在工作串流中建立新展示板
 
-1. 如果您不在工作流程中，請按一下儀表板上的[檢視工作流程] [!UICONTROL ****]&#x200B;以開啟現有的工作流程。
+1. 如果您不在工作流程中，請按一下儀表板上的[檢視工作流程] [!UICONTROL **&#x200B;**]&#x200B;以開啟現有的工作流程。
 1. 在工作流的[!UICONTROL 面板]索引標籤上按一下&#x200B;**[!UICONTROL 新增面板]**。
 1. 選取展示板的範本。
 
@@ -85,7 +89,7 @@ ht-degree: 2%
 
 ## 篩選工作流程上的展示板清單
 
-將預設值以外的篩選器套用至展示板清單時，篩選器圖示![已套用篩選器](assets/boards-filterapplied-30x30.png)上會顯示指示器。 按一下[全部清除][!UICONTROL **以移除所有篩選器，然後按一下[隱藏篩選器]**]&#x200B;以關閉篩選器面板。**][!UICONTROL **
+將預設值以外的篩選器套用至展示板清單時，篩選器圖示![已套用篩選器](assets/boards-filterapplied-30x30.png)上會顯示指示器。 按一下[全部清除]&#x200B;[!UICONTROL **以移除所有篩選器，然後按一下[隱藏篩選器]**]&#x200B;以關閉篩選器面板。**&#x200B;**
 
 {{step1-to-boards}}
 

@@ -10,10 +10,14 @@ exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/t1BOO1GO5uTeqd45ZwNPJC6GXVQWi9sivHwisw2zuFY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 392
@@ -59,27 +63,27 @@ ht-degree: 4%
 
 {{step1-to-boards}}
 
-1. 開啟您要新增反複專案的工作流。 若要開啟工作流程，請按一下[檢視工作流程]。[!UICONTROL ****]
+1. 開啟您要新增反複專案的工作流。 若要開啟工作流程，請按一下[檢視工作流程]。[!UICONTROL **&#x200B;**]
 1. 使用下列其中一種方法建立反複專案：
 
-   * 在[卡片清單]索引標籤上的反複專案檢視中，按一下[建立反複專案]。[!UICONTROL ****]
-   * 在[卡片清單]索引標籤上，按一下[清單檢視]中的[建立反複專案]。[!UICONTROL ****]
-   * 在[展示板]索引標籤上，按一下[新增展示板&#x200B;**]]並選取[反複專案程式][!UICONTROL **&#x200B;做為展示板範本。 [!UICONTROL ****]&#x200B;然後，開啟反複專案板並按一下&#x200B;[!UICONTROL **設定反複專案**]。
+   * 在[卡片清單]索引標籤上的反複專案檢視中，按一下[建立反複專案]。[!UICONTROL **&#x200B;**]
+   * 在[卡片清單]索引標籤上，按一下[清單檢視]中的[建立反複專案]。[!UICONTROL **&#x200B;**]
+   * 在[展示板]索引標籤上，按一下[新增展示板&#x200B;**]並選取[反複專案程式]**&#x200B;做為展示板範本。 [!UICONTROL **&#x200B;**]&#x200B;然後，開啟反複專案板並按一下&#x200B;[!UICONTROL **設定反複專案**]。
 
 1. 在「版序詳細資訊」對話方塊中，新增下列資訊：
 
    <table style="table-layout:auto"> 
     <tbody> 
      <tr> 
-      <td><strong>[！UICONTROL反複專案名稱]</strong></td> 
+      <td><strong>[!UICONTROL 反複專案名稱]</strong></td> 
       <td>反複運算的名稱，例如「Sprint 1」。</td> 
      </tr> 
      <tr> 
-      <td><strong>[！UICONTROL反複專案長度]</strong></td> 
+      <td><strong>[!UICONTROL 反複專案長度]</strong></td> 
       <td>反複專案長度，以天、周或月為單位。</td> 
      </tr>
      <tr> 
-      <td><strong>[！UICONTROL開始日期]</strong></td> 
+      <td><strong>[!UICONTROL 開始日期]</strong></td> 
       <td>反複專案開始的日期。 系統會根據反複專案長度自動輸入結束日期。</td> 
      </tr> 
     </tbody> 
@@ -93,7 +97,7 @@ ht-degree: 4%
 
 ## 編輯現有反複專案
 
-1. 若要開啟工作流程，請按一下[檢視工作流程]。[!UICONTROL ****]
+1. 若要開啟工作流程，請按一下[檢視工作流程]。[!UICONTROL **&#x200B;**]
 1. 使用下列其中一種方法開啟反複專案：
 
    * 在[卡片清單]索引標籤上的反複專案檢視中，按一下&#x200B;[!UICONTROL **反複專案詳細資料**]&#x200B;圖示![反複專案詳細資料](assets/iteration-details-button.png)。

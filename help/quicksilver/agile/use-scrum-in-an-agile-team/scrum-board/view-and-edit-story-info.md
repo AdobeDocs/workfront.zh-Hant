@@ -9,10 +9,16 @@ exl-id: 88d156ea-0913-425e-b3eb-6ae81d2d2336
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Hu0M7Y-w2u9NIISFgpf7Vg6tlz5AwsrFRtEEPhd4eMc
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 445
@@ -49,12 +55,12 @@ ht-degree: 3%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>內文的完成點數或小時數，以及指派給內文的點數或小時數<br>這些數字用於計算並顯示每個內文的[！UICONTROL完成百分比]。</p> </td> 
+   <td> <p>內文的完成點數或小時數，以及指派給內文的點數或小時數<br>這些數字用於計算並顯示每個內文的[!UICONTROL 完成百分比]。</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>每個內文和問題的[！UICONTROL完成百分比]。<br>反複專案的[！UICONTROL完成百分比]是根據每個內文的[！UICONTROL完成百分比]計算的。</p> <p>更新內文或問題的[！UICONTROL完成百分比]時，您可以選擇0到100之間的任何數字。</p> </td> 
+   <td> <p>每個內文和問題的[!UICONTROL 完成百分比]。<br>反複專案的[!UICONTROL 完成百分比]是根據每個內文的[!UICONTROL 完成百分比]計算的。</p> <p>更新內文或問題的[!UICONTROL 完成百分比]時，您可以選擇0到100之間的任何數字。</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -69,7 +75,7 @@ ht-degree: 3%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>任何可能透過修改敏捷檢視而新增至敏捷檢視的其他欄位（包括自訂欄位），如[！UICONTROL Adobe Workfront]</a>中<a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">檢視總覽的「建立和自訂[！UICONTROL Agile]檢視」中所述。</p> </td> 
+   <td> <p>任何可能透過修改敏捷檢視而新增至敏捷檢視的其他欄位（包括自訂欄位），如[!UICONTROL Adobe Workfront]</a>中<a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">檢視總覽的「建立和自訂[!UICONTROL Agile]檢視」中所述。</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -90,13 +96,13 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：[！UICONTROL Standard]</p> 
+   <td> <p>新增：[!UICONTROL Standard]</p> 
    或
-   <p>目前： [！UICONTROL Work]或更高版本</p> </td> 
+   <p>目前： [!UICONTROL Work]或更高版本</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td>[！UICONTROL Contribute]或[！UICONTROL Manage]任務或問題的存取權</td> 
+   <td>[!UICONTROL Contribute]或[!UICONTROL Manage]任務或問題的存取權</td> 
   </tr>
  </tbody> 
 </table>

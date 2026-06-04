@@ -9,11 +9,19 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
 TQID: https://experienceleague.adobe.com/B-e1dKHbwsebC--FculRfneM-uqojz6REb1Fo6O486I
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d3382524-5489-431b-bde9-271ab257bc37id: e147ce9d-7675-49bd-8a32-44f27d865560id: fceb5125-bb41-419a-b0db-31958cb42f6c
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 527
@@ -111,9 +119,9 @@ ht-degree: 7%
 
 1. 重複上一步驟以釘選任何其他頁面。
 
-1. （選擇性）若要移動圖釘，請將滑鼠游標停留在圖釘上，並按一下圖釘名稱旁的[更多]功能表圖示![更多圖示](assets/more-icon.png)，然後按一下[左移] **或[4] [右移]**，將圖釘往選擇的方向移動，或按一下[6] [移動到前方] **，將圖釘移至最左邊的位置。******
+1. （選擇性）若要移動圖釘，請將滑鼠游標停留在圖釘上，並按一下圖釘名稱旁的[更多]功能表圖示![更多圖示](assets/more-icon.png)，然後按一下[左移] **或[4] [右移]**，將圖釘往選擇的方向移動，或按一下[6] [移動到前方] **，將圖釘移至最左邊的位置。**&#x200B;**&#x200B;**
 
-1. （選擇性）若要重新命名圖釘，請將游標停留在圖釘上，然後按一下圖釘名稱旁的[更多]功能表圖示![[更多]圖示](assets/more-icon.png)，然後按一下[重新命名圖釘]**。**&#x200B;輸入新名稱，然後按一下[儲存]。****
+1. （選擇性）若要重新命名圖釘，請將游標停留在圖釘上，然後按一下圖釘名稱旁的[更多]功能表圖示![[更多]圖示](assets/more-icon.png)，然後按一下[重新命名圖釘]&#x200B;**。**&#x200B;輸入新名稱，然後按一下[儲存]。**&#x200B;**
 
 1. （選擇性）若要刪除圖釘，請將滑鼠游標停留在圖釘上，然後按一下圖釘名稱旁的[更多]功能表圖示![[更多]圖示](assets/more-icon.png)，然後按一下[移除]圖釘&#x200B;**。**
 

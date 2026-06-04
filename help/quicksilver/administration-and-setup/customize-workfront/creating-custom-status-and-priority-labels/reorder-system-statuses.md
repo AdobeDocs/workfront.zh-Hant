@@ -9,10 +9,14 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 6fee45a6-1a55-4351-8b08-88244c742ed5
 TQID: https://experienceleague.adobe.com/1zAXAuKv5JPluThgY-x-ogH6MbGPtd9BK13bK5-aA7w
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 505
@@ -142,7 +146,7 @@ ht-degree: 10%
 1. 按一下&#x200B;**專案偏好設定>狀態。**
 1. （視條件而定）如果您要重新排序群組的狀態，請在右上角的方塊中開始輸入群組的名稱，然後在其出現時按一下名稱。
 
-   群組](assets/issue-statuses-group-name.png)的![問題狀態
+   群組![&#128279;](assets/issue-statuses-group-name.png)的問題狀態
 
 1. 按一下&#x200B;**問題**&#x200B;標籤。
 1. （選擇性）選取問題型別（**錯誤報告**、**變更順序**、**問題**&#x200B;或&#x200B;**要求**）。

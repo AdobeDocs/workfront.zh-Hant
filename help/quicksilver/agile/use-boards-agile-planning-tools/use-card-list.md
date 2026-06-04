@@ -10,10 +10,14 @@ exl-id: 2976f7e8-be84-4d27-9d70-8430392d5331
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/dxrYATDjdQBcRFpCKhu5e62nKVsGi1QSbPNZtIMvdCc
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 618
@@ -61,7 +65,7 @@ ht-degree: 4%
 
 {{step1-to-boards}}
 
-1. 若要開啟工作流程，請按一下[檢視工作流程]。[!UICONTROL ****]
+1. 若要開啟工作流程，請按一下[檢視工作流程]。[!UICONTROL **&#x200B;**]
 1. 按一下&#x200B;[!UICONTROL **卡片清單**]&#x200B;標籤。
 1. 按一下&#x200B;[!UICONTROL **新增卡片**]。
 1. 在&#x200B;[!UICONTROL **建立/編輯卡片**]&#x200B;對話方塊中，新增下列資訊：
@@ -77,19 +81,19 @@ ht-degree: 4%
       <td>卡片的說明。</td> 
      </tr>
      <tr> 
-      <td><strong>[！UICONTROL估算]</strong></td> 
+      <td><strong>[!UICONTROL 估算]</strong></td> 
       <td>要完成的卡片預計小時數。 這僅是手動輸入。</td> 
      </tr>
      <tr> 
-      <td><strong>[！UICONTROL狀態]</strong></td> 
+      <td><strong>[!UICONTROL 狀態]</strong></td> 
       <td>選取卡片的狀態。</td> 
      </tr>
      <tr> 
-      <td><strong>[！UICONTROL反複專案]</strong></td> 
+      <td><strong>[!UICONTROL 反複專案]</strong></td> 
       <td>選取要指派卡片的目標反複專案。</td> 
      </tr>
      <tr> 
-      <td><strong>[！UICONTROL受託人]</strong></td> 
+      <td><strong>[!UICONTROL 受託人]</strong></td> 
       <td><p>若要指派卡片，請在搜尋欄位中開始輸入名稱，然後在其顯示在清單中時選取它。 您可以同時新增個人和團隊，也可以將多個人員或團隊指派至卡片。</p><p>受指派人必須是工作流程的成員，否則他們不會出現在選取專案清單中。</p></td> 
      </tr>
     </tbody> 
@@ -100,11 +104,11 @@ ht-degree: 4%
 
 ## 檢視卡片
 
-若要檢視單一清單中工作流程的所有卡片，請按一下[卡片清單]索引標籤上的[清單檢視]。[!UICONTROL ****]
+若要檢視單一清單中工作流程的所有卡片，請按一下[卡片清單]索引標籤上的[清單檢視]。[!UICONTROL **&#x200B;**]
 
 若要檢視依反複專案分組的工作流的所有卡片，請按一下&#x200B;[!UICONTROL **反複專案檢視**]。 未計畫的卡片會顯示在自己的群組中。
 
-若要編輯現有卡片，請在清單中選取該卡片，然後按一下[編輯]。[!UICONTROL ****]
+若要編輯現有卡片，請在清單中選取該卡片，然後按一下[編輯]。[!UICONTROL **&#x200B;**]
 
 若要刪除卡片，請在清單中選取該卡片，然後按一下&#x200B;[!UICONTROL **刪除**]。
 
@@ -135,7 +139,7 @@ ht-degree: 4%
 
 1. 存取工作流程的卡片清單。
 1. 選取&#x200B;[!UICONTROL **反複專案檢視**]&#x200B;以檢視哪些卡片已指派給反複專案，哪些是未計畫的。
-1. 在清單中選取未計畫的卡片，然後按一下[編輯]。[!UICONTROL ****]
+1. 在清單中選取未計畫的卡片，然後按一下[編輯]。[!UICONTROL **&#x200B;**]
 1. 在&#x200B;[!UICONTROL **反複專案**]&#x200B;欄位中選取反複專案。
 1. 如果您使用劇本點，請在&#x200B;[!UICONTROL **預估**]&#x200B;欄位中輸入值。
 1. 按一下「[!UICONTROL **儲存**]」。

@@ -11,11 +11,17 @@ exl-id: f7347ba6-68bf-45d8-b5d2-6136f3e696c9
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/oAJzByrdYR9Ok-KXarAB5q2nv39g2ytNUrFqZTruLSU
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 752
@@ -58,12 +64,12 @@ Linked to Editing Users, Editing Projects, Creating and managing groups
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[！UICONTROL標準]</p>
-       <p>[！UICONTROL計畫]</p></td>
+   <td><p>[!UICONTROL 標準]</p>
+       <p>[!UICONTROL 計畫]</p></td>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[！UICONTROL系統管理員]</td> 
+   <td>[!UICONTROL 系統管理員]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -101,7 +107,7 @@ Linked to Editing Users, Editing Projects, Creating and managing groups
 
    <table style="table-layout:auto">
     <tr>
-     <td>具有管理存取權的[！UICONTROL群組]</td>
+     <td>具有管理存取權的[!UICONTROL 群組]</td>
      <td><p>選取其管理員有權編輯此排程的群組。</p>
      <p><b>重要</b>：</p>
       <ul>
@@ -118,11 +124,11 @@ Linked to Editing Users, Editing Projects, Creating and managing groups
      </td>
     </tr>
     <tr>
-     <td>[！UICONTROL群組具有檢視存取權]</td>
-     <td><p>選取具有[！UICONTROL檢視]存取權的群組，讓他們看到此排程。</p>
+     <td>[!UICONTROL 群組具有檢視存取權]</td>
+     <td><p>選取具有[!UICONTROL 檢視]存取權的群組，讓他們看到此排程。</p>
      <p>只有此處指定之群組中的使用者在將排程指派給使用者或專案時，才可在下拉式選單中找到排程。</p></tr>
     <tr>
-     <td>[！UICONTROL時區]</td>
+     <td>[!UICONTROL 時區]</td>
      <td><p>選取排程的時區。</p>
      <p>如果您將排程與使用者建立關聯，我們建議排程的時區與使用者的時區相符。如需使用者時區的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">編輯使用者設定檔。
      </td>

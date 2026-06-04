@@ -9,10 +9,14 @@ feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
 TQID: https://experienceleague.adobe.com/rcmVwp5wZgG0cmtmUclkBUnTcOT9OaW7LDHIt373AjM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 306
@@ -116,7 +120,7 @@ ht-degree: 9%
 | 群組 | 已恢復為系統預設值 <p>不會刪除現有群組。 您可以再次選取它們。</p> |
 | 最近專案清單 | 已清除 |
 | 我的最愛清單 | 未受影響 |
-| 使用者偏好設定 | 已恢復為系統預設值 <p>電子郵件通知會恢復為系統預設值。 預設通知列在Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)中可用的[事件通知中。</p> |
+| 使用者偏好設定 | 已恢復為系統預設值 <p>電子郵件通知會恢復為系統預設值。 預設通知列在Adobe Workfront[&#128279;](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)中可用的事件通知中。</p> |
 
 ## 重設使用者偏好設定
 
@@ -135,7 +139,7 @@ ht-degree: 9%
 
 1. 按&#x200B;**Enter**。
 
-1. 若要重設所有使用者偏好設定，請按一下[重設]。****
+1. 若要重設所有使用者偏好設定，請按一下[重設]。**&#x200B;**
 
    或
 

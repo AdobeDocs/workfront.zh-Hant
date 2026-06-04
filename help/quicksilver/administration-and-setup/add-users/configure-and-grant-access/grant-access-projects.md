@@ -11,10 +11,14 @@ exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/n5agZfPvUGpYt-X9kKxkkFeBFeiLJJkKAm-1xrXYI7A
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 678
@@ -75,7 +79,7 @@ ht-degree: 2%
    >* 擁有「檢閱」授權的使用者擁有轉換問題專案的檢視許可權，但他們的檢視許可權有限。
    >* 如需使用者與他人共用專案時可授與的許可權相關資訊，請參閱[在Adobe Workfront中共用專案](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)。
    >* 當您為特定型別的物件設定存取層級設定時，該設定不會影響使用者存取排名較低的物件。 例如，您可以限制使用者刪除其存取層級的專案，但這不會限制他們刪除等級低於專案的工作。如需物件階層的詳細資訊，請參閱文章[瞭解Adobe Workfront中的物件](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)中的[物件相互相依性和階層](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)一節。
-   * 存取層級不允許存取財務資料的使用者，無法授與允許其他人檢視財務資料的存取權。 這包括提供顯示財務資料的專案存取權，或修改存取層級以允許檢視財務資料。
+   >* 存取層級不允許存取財務資料的使用者，無法授與允許其他人檢視財務資料的存取權。 這包括提供顯示財務資料的專案存取權，或修改存取層級以允許檢視財務資料。
 
 
 1. （選擇性）按一下[建立]選項右側的&#x200B;**設定共用預設值**，然後&#x200B;**新增規則**&#x200B;以新增新專案的共用規則。

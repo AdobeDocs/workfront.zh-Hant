@@ -9,10 +9,14 @@ exl-id: 4a7f2f68-14d2-4532-8c76-2ba78b45deac
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/AGP-6nyqY6PfuSp08mk7Ud-5LX2yAd5EwsqJN4QEqzU
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 604
@@ -79,7 +83,7 @@ ht-degree: 4%
 
    1. （選擇性）按一下&#x200B;**行事曆**&#x200B;圖示![行事曆圖示](assets/calendar-icon.png)，然後選取日期範圍，以依據該時間範圍內最後修改的展示板進行篩選。
 
-   1. （選擇性）在&#x200B;**範本**區段中，選取清單篩選所依據的主機板範本型別。您可以選取多個範本型別。
+   1. （選擇性）在&#x200B;**範本**&#x200B;區段中，選取清單篩選所依據的主機板範本型別。您可以選取多個範本型別。
 如需面板範本型別的詳細資訊，請參閱[建立或編輯面板](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md)。
 
    1. （選擇性）在&#x200B;**已封存**&#x200B;區段中，選取要顯示已封存或未封存的展示板。 您可以選取多個選項。

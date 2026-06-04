@@ -9,11 +9,17 @@ exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/s1Xokz2ScQd6uSe-cf7h1op-GPHogcQtO2KAsLnBqeE
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 515
@@ -86,7 +92,7 @@ ht-degree: 4%
 
 1. 按一下&#x200B;**摘要**&#x200B;圖示![摘要圖示](assets/summary-panel-icon.png)，然後在頂端附近找到&#x200B;**詳細資料**&#x200B;區段。
 1. 按一下右上角的&#x200B;**編輯**，然後展開所需的表單。
-1. 進行必要的變更，然後按一下[儲存]。****
+1. 進行必要的變更，然後按一下[儲存]。**&#x200B;**
 
    ![編輯自訂表單](assets/edit-custom-form-350x265.png)
 
@@ -111,4 +117,4 @@ ht-degree: 4%
 1. 在右側的&#x200B;**詳細資料**&#x200B;區段中，按一下&#x200B;**編輯**。
    詳細資訊區段中的![編輯按鈕](assets/edit-custom-form.png)
 1. 在&#x200B;**自訂Forms**&#x200B;區段中，尋找您要編輯的表單。
-1. 進行必要的變更，然後按一下[儲存]。****
+1. 進行必要的變更，然後按一下[儲存]。**&#x200B;**

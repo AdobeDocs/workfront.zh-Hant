@@ -8,11 +8,18 @@ exl-id: 91aad9e0-25c9-4eae-aa66-8aab763d3b76
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/VVD0wi1yc1tJLyu92tvJhfuT4UqcMVHS7T9OUMRJOmU
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 968
@@ -35,21 +42,21 @@ ht-degree: 3%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Adobe Workfront]套件</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront]套件</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[！UICONTROL Adobe Workfront]授權</td> 
-   <td> <p>[！UICONTROL Light]或更高</p>
-   <p>[！UICONTROL Review]或更高版本</p> </td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront]授權</td> 
+   <td> <p>[!UICONTROL Light]或更高</p>
+   <p>[!UICONTROL Review]或更高版本</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[！UICONTROL檢視]或更高的專案和任務存取權</p> </td> 
+   <td> <p>[!UICONTROL 檢視]或更高的專案和任務存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>[！UICONTROL檢視]或更高的專案和任務存取權</p> </td> 
+   <td> <p>[!UICONTROL 檢視]或更高的專案和任務存取權</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -142,7 +149,7 @@ Old:
    例如，如果您正在檢視包含50個任務的專案的[!UICONTROL 甘特圖]，但您只想在匯出的[!UICONTROL 甘特圖]上顯示10個任務，請選取您要顯示的10個任務。
 
 1. 按一下甘特圖右上角的印表機圖示![印表機圖示](assets/printer-icon.png)。
-會顯示**[!UICONTROL 匯出至PDF]**&#x200B;對話方塊。
+會顯示&#x200B;**[!UICONTROL 匯出至PDF]**&#x200B;對話方塊。
 
    ![匯出至PDF對話方塊](assets/exported-gantt-ui-350x225.png)
 
@@ -170,7 +177,7 @@ Old:
      >   * 當它包含超過500個專案。
 
 
-1. 如果PDF在匯出到PDF之後會列印，請在&#x200B;**[!UICONTROL 頁面大小]**下拉式選單中選取您要列印的紙張大小。
+1. 如果PDF在匯出到PDF之後會列印，請在&#x200B;**[!UICONTROL 頁面大小]**&#x200B;下拉式選單中選取您要列印的紙張大小。
 您可選取下列選項：
 
    * **[!UICONTROL 字母]**

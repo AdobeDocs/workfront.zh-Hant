@@ -11,10 +11,17 @@ exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/wMgemSCv9tLMKy9AdIW5HDpGFbYKNmrnV07PsjwA6-4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1959
@@ -134,7 +141,7 @@ ht-degree: 5%
 
 1. 在左側導覽面板中，按一下&#x200B;**[!UICONTROL 系統]**，然後選取&#x200B;**[!UICONTROL OAuth2應用程式]**。
 1. 按一下&#x200B;**[!UICONTROL 建立應用程式整合]**。
-顯示**新OAuth2應用程式**&#x200B;方塊。
+顯示&#x200B;**新OAuth2應用程式**&#x200B;方塊。
 1. 在&#x200B;**新OAuth2應用程式**&#x200B;方塊中，選取&#x200B;**[!UICONTROL 機器對機器應用程式]**。
 1. 輸入新應用程式的名稱，例如ClientApp的&quot;[!DNL Workfront]&quot;。
 1. 按一下「**[!UICONTROL 建立]**」。
@@ -149,19 +156,19 @@ ht-degree: 5%
       <td> <p>此欄位會自動產生。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL使用者端密碼]</td> 
+      <td role="rowheader">[!UICONTROL 使用者端密碼]</td> 
       <td> <p>此欄位會自動產生</p> <p><b>重要</b>：  <p>在關閉此頁面之前，請先將此欄位的內容複製到另一個安全檔案。 您將無法再看到此秘密金鑰。</p> <p>如果您遺失此金鑰，請刪除並建立使用者端密碼。</p> 
         <ol> 
-         <li value="1"> <p>按一下<b>[！UICONTROL Delete]</b>圖示<img src="assets/delete.png">以刪除目前的使用者端密碼。</p> </li> 
-         <li value="2"> <p>按一下<b>[！UICONTROL新增使用者端密碼]</b>以產生新的使用者端密碼。</p> </li> 
+         <li value="1"> <p>按一下<b>[!UICONTROL Delete]</b>圖示<img src="assets/delete.png">以刪除目前的使用者端密碼。</p> </li> 
+         <li value="2"> <p>按一下<b>[!UICONTROL 新增使用者端密碼]</b>以產生新的使用者端密碼。</p> </li> 
         </ol> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL公開金鑰]</td> 
+      <td role="rowheader">[!UICONTROL 公開金鑰]</td> 
       <td> <p>伺服器對伺服器應用程式使用公開和私密金鑰進行驗證。 執行下列其中一項：</p> 
        <ul> 
-        <li> <p>按一下<b>[！UICONTROL新增公開金鑰]</b>，然後輸入其他應用程式的公開金鑰。</p> </li> 
-        <li> <p>按一下<b>[！UICONTROL產生公開/私密金鑰組]</b>，然後與其他應用程式共用公開金鑰。</p> </li> 
+        <li> <p>按一下<b>[!UICONTROL 新增公開金鑰]</b>，然後輸入其他應用程式的公開金鑰。</p> </li> 
+        <li> <p>按一下<b>[!UICONTROL 產生公開/私密金鑰組]</b>，然後與其他應用程式共用公開金鑰。</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -209,31 +216,31 @@ ht-degree: 5%
       <td> <p>此欄位會自動產生。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL使用者端密碼]</td> 
+      <td role="rowheader">[!UICONTROL 使用者端密碼]</td> 
       <td> <p>此欄位會自動產生</p> <p><b>重要</b>：  <p>在關閉此頁面之前，請先將此欄位的內容複製到另一個安全檔案。 您將無法再看到此秘密金鑰。</p> <p>如果您遺失此金鑰，請刪除並建立使用者端密碼。</p> 
         <ol> 
-         <li value="1"> <p>按一下<b>[！UICONTROL Delete]</b>圖示<img src="assets/delete.png">以刪除目前的使用者端密碼。</p> </li> 
-         <li value="2"> <p>按一下<b>[！UICONTROL新增使用者端密碼]</b>以產生新的使用者端密碼。</p> </li> 
+         <li value="1"> <p>按一下<b>[!UICONTROL Delete]</b>圖示<img src="assets/delete.png">以刪除目前的使用者端密碼。</p> </li> 
+         <li value="2"> <p>按一下<b>[!UICONTROL 新增使用者端密碼]</b>以產生新的使用者端密碼。</p> </li> 
         </ol> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL重新導向URL]</td> 
+      <td role="rowheader">[!UICONTROL 重新導向URL]</td> 
       <td>使用者透過[!DNL Workfront]驗證後，將會重新導向至此路徑。</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[！UICONTROL重新整理權杖輪換]</td> 
+      <td role="rowheader">[!UICONTROL 重新整理權杖輪換]</td> 
       <td>啟用此選項可在使用重新整理權杖時發出新的重新整理權杖。 您的應用程式必須在每次重新整理後儲存新的重新整理Token。</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[！UICONTROL絕對重新整理權杖到期]</td> 
-      <td> <p>選取您希望在重新整理權杖過期之前存在的時間。 當它過期時，您的使用者必須再次登入整合。 如果您不希望重新整理權杖過期，請選取「[！UICONTROL無過期]」。</p> </td> 
+      <td role="rowheader">[!UICONTROL 絕對重新整理權杖到期]</td> 
+      <td> <p>選取您希望在重新整理權杖過期之前存在的時間。 當它過期時，您的使用者必須再次登入整合。 如果您不希望重新整理權杖過期，請選取「[!UICONTROL 無過期]」。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">非使用狀態重新整理權杖期限</td> 
       <td> <p>選取多長時間，如果使用者未在使用您的系統中，其重新整理Token就會過期。 </p> <p>例如，如果非使用狀態重新整理權杖到期日為6個月，而使用者已有6個月未登入，則重新整理權杖將會到期，即使絕對重新整理權杖到期日可能設定的時間更長。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL標誌]</td> 
+      <td role="rowheader">[!UICONTROL 標誌]</td> 
       <td>您可以新增標誌，讓此應用程式更具識別性。 </td> 
      </tr> 
      <tr> 
@@ -245,7 +252,7 @@ ht-degree: 5%
       <td>輸入整合的說明。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL應用程式說明URL]</td> 
+      <td role="rowheader">[!UICONTROL 應用程式說明URL]</td> 
       <td>這可以是「關於我們」頁面的連結，或包含整合詳細資訊的頁面。</td> 
      </tr> 
     </tbody> 
@@ -277,23 +284,23 @@ ht-degree: 5%
       <td> <p>此欄位會自動產生。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL重新導向URL]</td> 
+      <td role="rowheader">[!UICONTROL 重新導向URL]</td> 
       <td>使用者透過Workfront驗證後，系統會將使用者重新導向至此路徑。</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[！UICONTROL每次使用時都輪換重新整理權杖]</td> 
+      <td role="rowheader">[!UICONTROL 每次使用時都輪換重新整理權杖]</td> 
       <td>啟用此選項可在使用重新整理權杖時發出新的重新整理權杖。 您的應用程式必須在每次重新整理後儲存新的重新整理Token。</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[！UICONTROL絕對期限]</td> 
-      <td> <p>選取您希望在重新整理權杖過期之前存在的時間。 當它過期時，您的使用者必須再次登入整合。 如果您不希望重新整理權杖過期，請選取「[！UICONTROL無過期]」。</p> </td> 
+      <td role="rowheader">[!UICONTROL 絕對期限]</td> 
+      <td> <p>選取您希望在重新整理權杖過期之前存在的時間。 當它過期時，您的使用者必須再次登入整合。 如果您不希望重新整理權杖過期，請選取「[!UICONTROL 無過期]」。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[！UICONTROL非使用狀態到期日]</td> 
+      <td role="rowheader">[!UICONTROL 非使用狀態到期日]</td> 
       <td> <p>選取多長時間，如果使用者未在使用您的系統中，其重新整理Token就會過期。 </p> <p>例如，如果非使用狀態重新整理權杖到期日為6個月，而使用者已有6個月未登入，則重新整理權杖將會到期，即使絕對重新整理權杖到期日可能設定的時間更長。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL標誌]</td> 
+      <td role="rowheader">[!UICONTROL 標誌]</td> 
       <td>您可以新增標誌，讓此應用程式更具識別性。 </td> 
      </tr> 
      <tr> 
@@ -305,15 +312,15 @@ ht-degree: 5%
       <td>輸入整合的說明。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL開發人員姓名]</td> 
+      <td role="rowheader">[!UICONTROL 開發人員姓名]</td> 
       <td>這是設定OAuth2應用程式的開發人員名稱。</td> 
      </tr> 
    <tr> 
-      <td role="rowheader">[！UICONTROL開發人員電子郵件地址]</td> 
+      <td role="rowheader">[!UICONTROL 開發人員電子郵件地址]</td> 
       <td>這是設定OAuth2應用程式的開發人員電子郵件地址。</td> 
      </tr> 
    <tr> 
-      <td role="rowheader">[！UICONTROL隱私權原則URL]</td> 
+      <td role="rowheader">[!UICONTROL 隱私權原則URL]</td> 
       <td>這是貴組織儲存隱私權原則的連結。</td> 
      </tr>
 

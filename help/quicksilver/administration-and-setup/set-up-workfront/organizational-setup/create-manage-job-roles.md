@@ -9,11 +9,18 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
 TQID: https://experienceleague.adobe.com/WbKK8Dt8LSyGVCHLzHXHsM-3DORpJXgzKzqf7Jos3Hw
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1220
@@ -52,8 +59,8 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[！UICONTROL標準]</p>
-       <p>[！UICONTROL計畫]</p></td>
+   <td><p>[!UICONTROL 標準]</p>
+       <p>[!UICONTROL 計畫]</p></td>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
@@ -140,7 +147,7 @@ ht-degree: 1%
 
    如果您使用屬性，則屬性和職務角色會結合以定義唯一費率。 例如，代理商A在紐約的Designer角色與代理商B在巴黎的Designer角色可能有不同的費率。
 
-   若要取得日期有效收費率，請按一下[新增費率]。**** 輸入時間期間的帳單/小時值，並視需要指定「開始日期」與「結束日期」。 第一個收費率不會有開始日期，而最後一個收費率則不會有結束日期。
+   若要取得日期有效收費率，請按一下[新增費率]。**&#x200B;** 輸入時間期間的帳單/小時值，並視需要指定「開始日期」與「結束日期」。 第一個收費率不會有開始日期，而最後一個收費率則不會有結束日期。
 
    <!-- Some dates are added automatically. For example, if the first billing rate does not have an end date, and you add a second with a start date of May 1, an end date of April 30 is added to the first billing rate so that no gaps exist.-->
 
@@ -158,7 +165,7 @@ ht-degree: 1%
 
    如果您使用屬性，則屬性和職務角色會結合以定義唯一費率。 例如，代理商A在紐約的Designer角色與代理商B在巴黎的Designer角色可能有不同的費率。
 
-   若要取得日期有效成本費率，請按一下[新增費率]。**** 輸入時間期間的成本/小時值，並視需要指定「開始日期」與「結束日期」。 第一個成本費率不會有開始日期，而最後一個成本費率不會有結束日期。
+   若要取得日期有效成本費率，請按一下[新增費率]。**&#x200B;** 輸入時間期間的成本/小時值，並視需要指定「開始日期」與「結束日期」。 第一個成本費率不會有開始日期，而最後一個成本費率不會有結束日期。
 
    部分日期會自動新增。 例如，如果第一個成本費率沒有結束日期，而您新增了開始日期為5月1日的第二個成本費率，則結束日期為4月30日會新增至第一個成本費率，這樣就不會有差距。
 

@@ -9,11 +9,17 @@ exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/JjHAd2LRZNEfB-tWKHrMvT5DOroHf1jDJmLPPj-4-6M
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 1285
@@ -144,7 +150,7 @@ ht-degree: 1%
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL劇本名稱]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 劇本名稱]</strong></td>
       <td> 輸入劇本的名稱。</td>
      </tr>
      <tr>
@@ -152,23 +158,23 @@ ht-degree: 1%
       <td>（選擇性）輸入劇本的說明。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL就緒]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 就緒]</strong></td>
       <td> 選取內文是否準備好新增至反複專案。 此設定僅供參考。 無論此設定的狀態為何，內文都可以新增至反複專案。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL估計]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 估計]</strong></td>
       <td>指定劇本的點數或每小時預估。 預估會影響待執行工作圖表。 只有當每個內文都包含正確的估計時，疊代的待執行工作圖表才會準確。 （如果您提供點數預估，則必須在專案團隊設定中指定每個點代表的時數。）</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL父專案]</strong></td>
-      <td>開始輸入將建立此劇本的專案名稱，然後在名稱出現在下拉式清單中時按一下該名稱。<br>專案狀態必須設定為[！UICONTROL目前]。 如果專案狀態不是[！UICONTROL目前]，則不會顯示在下拉式功能表中。</td>
+      <td role="rowheader"><strong>[!UICONTROL 父專案]</strong></td>
+      <td>開始輸入將建立此劇本的專案名稱，然後在名稱出現在下拉式清單中時按一下該名稱。<br>專案狀態必須設定為[!UICONTROL 目前]。 如果專案狀態不是[!UICONTROL 目前]，則不會顯示在下拉式功能表中。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL父系任務]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 父系任務]</strong></td>
       <td>（選擇性）開始輸入此內文所屬之父系工作的名稱，然後在名稱出現在下拉式清單中時按一下該名稱。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL自訂Forms]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 自訂Forms]</strong></td>
       <td> （選擇性）選取您要新增至本文的任何自訂表格。</td>
      </tr>
     </tbody>

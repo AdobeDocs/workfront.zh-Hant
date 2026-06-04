@@ -10,11 +10,16 @@ feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505
 TQID: https://experienceleague.adobe.com/KA-GLrly19ARLvWCK240Qm505qfO0U2rSWir-r2pp7k
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1302
@@ -96,7 +101,7 @@ Add this at end of 2nd-to-last sentence in this^ paragraph when they add the **I
 
    * **編輯**： [檢視和管理群組的詳細資料](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
 
-   * **複製**： [複製發行項[建立群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)中的現有群組或子群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group)，以建立最上層群組
+   * **複製**： [&#128279;](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group)複製發行項[建立群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)中的現有群組或子群組，以建立最上層群組
 
    * **刪除**： [刪除群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
 

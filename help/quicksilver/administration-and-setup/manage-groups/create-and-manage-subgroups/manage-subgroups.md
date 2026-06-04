@@ -10,10 +10,14 @@ feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
 TQID: https://experienceleague.adobe.com/Ng0xKCrHg--5s3MdiLEOJfjoao9WND2uFqS5VI9LGng
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1360
@@ -81,9 +85,9 @@ ht-degree: 1%
 
 1. 按一下要新增子群組的群組名稱。
 1. 在左側功能表中，按一下&#x200B;**子群組**。
-1. 若要從您檢視的群組建立新子群組，請按一下[新增子群組]。****
+1. 若要從您檢視的群組建立新子群組，請按一下[新增子群組]。**&#x200B;**
 
-   或者，如果您想要在清單中另一個子群組下方建立新的子群組，請選取該子群組，然後按一下[新增子群組]。****
+   或者，如果您想要在清單中另一個子群組下方建立新的子群組，請選取該子群組，然後按一下[新增子群組]。**&#x200B;**
 
    如需您可以用來設定子群組的選項相關資訊，請參閱[建立子群組](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md)。
 

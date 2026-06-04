@@ -9,10 +9,15 @@ exl-id: 264e66e9-94c7-4904-baad-f733d39b4791
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/tLJ-QqkcY2E0m93SdW-HbQTjBQs4j9-QXdYcBAZVzRY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 604
@@ -48,13 +53,13 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：[！UICONTROL Standard]</p> 
+   <td> <p>新增：[!UICONTROL Standard]</p> 
    或
-   <p>目前： [！UICONTROL Work]或更高版本</p> </td> 
+   <p>目前： [!UICONTROL Work]或更高版本</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td>[！UICONTROL Contribute]或[！UICONTROL Manage]子任務所在任務的存取權 </td> 
+   <td>[!UICONTROL Contribute]或[!UICONTROL Manage]子任務所在任務的存取權 </td> 
   </tr>
  </tbody> 
 </table>
@@ -92,7 +97,7 @@ ht-degree: 3%
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL子任務名稱]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 子任務名稱]</strong></td>
       <td> 指定子工作的名稱。</td>
      </tr>
      <tr>
@@ -100,20 +105,20 @@ ht-degree: 3%
       <td>指定子工作的說明。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL估計]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 估計]</strong></td>
       <td>指定子任務的預估值。<br><p>建立預估時，請記得下列事項：</p>
        <ul>
-        <li>如果您的敏捷團隊設定為以點為單位估計劇本，則預設的1點等於8小時。 預估會新增為內文上的[！UICONTROL計畫時數]。</li>
+        <li>如果您的敏捷團隊設定為以點為單位估計劇本，則預設的1點等於8小時。 預估會新增為內文上的[!UICONTROL 計畫時數]。</li>
         <li>所有子工作的合併估計會決定父劇本的估計值。 如需詳細資訊，請參閱<a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/update-status-of-stories-and-subtasks.md" class="MCXref xref">更新Scrum展示板上內文和子工作的狀態</a>。</li>
-        <li>建立新的子任務時，[！UICONTROL預估]欄位已設定。 如果您重設子任務上的預估，就會重設父內文上的預估（因為父內文是其所有子任務的總和）。</li>
+        <li>建立新的子任務時，[!UICONTROL 預估]欄位已設定。 如果您重設子任務上的預估，就會重設父內文上的預估（因為父內文是其所有子任務的總和）。</li>
        </ul><br></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL計畫時數]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 計畫時數]</strong></td>
       <td> （僅適用於專案）指定任務的計畫時數。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL指定任務]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 指定任務]</strong></td>
       <td>開始輸入您要指派子任務的專案團隊名稱，然後在它出現在下拉式清單中時按一下它。</td>
      </tr>
     </tbody>

@@ -8,10 +8,14 @@ exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/5g4EStBQBGan2lmo6KhpW-4OzCbNflC70yGd8qbNH4A
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1559
@@ -218,11 +222,11 @@ ht-degree: 2%
 
 1. 選取使用者，然後按一下&#x200B;**更多**&#x200B;圖示![更多圖示](assets/more-icon.png)。
 
-1. 若要核准使用者，請按一下[核准]。****，然後按一下[提交]。****
+1. 若要核准使用者，請按一下[核准]。**&#x200B;**，然後按一下[提交]。**&#x200B;**
 
    或
 
-   若要拒絕使用者並從Workfront刪除使用者，請按一下[拒絕] **，然後按一下[提交]****。**
+   若要拒絕使用者並從Workfront刪除使用者，請按一下[拒絕] **，然後按一下[提交]**&#x200B;**。**
 
    已核准的使用者會自動新增至Adobe Admin Console。
 

@@ -9,11 +9,18 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
 TQID: https://experienceleague.adobe.com/MkpKnVckztNvRWKb2rSDUzt8fnJMWIGKG4sYUmuefig
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2647
@@ -121,7 +128,7 @@ ht-degree: 1%
    >
    >複雜表單的範例包括含有階層式引數的表單、計算的自訂資料欄位，以及單一欄位中的多個值選項。
 
-1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -195,7 +202,7 @@ ht-degree: 1%
    </table>
 
 1. 在&#x200B;**計算**&#x200B;方塊中，開始建立計算：
-   1. 按一下&#x200B;**最大化**以開啟計算編輯器並建置您的計算。
+   1. 按一下&#x200B;**最大化**&#x200B;以開啟計算編輯器並建置您的計算。
 計算通常以運算式開始，後面接著括弧，其中包含當自訂表單附加至物件時要參考的欄位。
 
       每個欄位都必須以大括弧括住。 當您開始輸入欄位名稱時，系統會提供建議，您可以選取一個來將其插入計算。
@@ -316,7 +323,7 @@ ht-degree: 1%
       >
       >您可以執行下列任一項作業，以取得計算的協助：
       > 
-      >* 將滑鼠停留在計算中的運算式上可檢視說明、如何使用的範例，以及文章[計算資料運算式概觀](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)中詳細資訊的&#x200B;**深入瞭解**連結。
+      >* 將滑鼠停留在計算中的運算式上可檢視說明、如何使用的範例，以及文章[計算資料運算式概觀](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)中詳細資訊的&#x200B;**深入瞭解**&#x200B;連結。
       >  ![運算式說明文字](assets/hover-expression-help-text.jpg)
       >* 使用顏色編碼來識別您新增的元件。運算式會以藍色顯示，而欄位則會以綠色顯示。
       >  欄位運算式的![色彩](assets/colors-fields-expressions.jpg)
@@ -351,7 +358,7 @@ ht-degree: 1%
     </tbody> 
    </table>
 
-1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
 
    或
 

@@ -8,10 +8,16 @@ exl-id: 55d7d8a8-0dfe-45bc-a23a-47111347e9ca
 hide: true
 recommendations: noDisplay, noCatalog
 TQID: https://experienceleague.adobe.com/T5QFoqQvdMa4T-dLreKMeNK0tn30qCHcwt-kM9bpjic
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 903
@@ -82,7 +88,7 @@ Okta是支援SAML 2.0的身分提供者範例。 本節說明如何使用Okta作
 
 1. 在&#x200B;**建立新應用程式整合對話方塊**&#x200B;中，選取&#x200B;**SAML 2.0**，然後按一下&#x200B;**建立**。
 
-1. 為您的Workfront應用程式指定名稱，然後按一下[下一步]。****
+1. 為您的Workfront應用程式指定名稱，然後按一下[下一步]。**&#x200B;**
 1. 在顯示的「SAML設定」頁面中，找到「SAML設定」頁面所需的資訊：
 
    1. 無需離開顯示Okta介面的瀏覽器標籤，即可開啟個別的瀏覽器標籤或視窗。

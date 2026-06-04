@@ -5,11 +5,17 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
 TQID: https://experienceleague.adobe.com/k2cF0H-CM1DhlRvIl7zPyz-G30wi-Q4c16ClcB-vpCs
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2329
@@ -68,7 +74,7 @@ Workfront UI擴充功能提供幾個主要優點：
    >如果您看不到管理開發人員的選項，表示您沒有允許開發人員存取的產品。
 
 1. 新增使用者的電子郵件。 它應搜尋已從Admin Console中新增的現有使用者。
-1. 將必要的產品新增至開發人員設定檔，然後按一下[儲存]。****
+1. 將必要的產品新增至開發人員設定檔，然後按一下[儲存]。**&#x200B;**
 
    ![新增開發人員](assets/add-developer.png)
 
@@ -86,7 +92,7 @@ Workfront UI擴充功能提供幾個主要優點：
 
 1. 使用您的Adobe ID登入Adobe Developer Console 。
 1. 選擇您的帳戶，以及您的設定檔或組織。
-1. 按一下[快速入門]區域中的[從範本建立專案]****，或按一下[從範本建立新專案]**>[從範本建立專案]**。
+1. 按一下[快速入門]區域中的[從範本建立專案]&#x200B;**&#x200B;**，或按一下[從範本建立新專案]&#x200B;**>[從範本建立專案]**。
 
    >[!IMPORTANT]
    >

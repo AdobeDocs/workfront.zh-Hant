@@ -10,11 +10,17 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
 TQID: https://experienceleague.adobe.com/VN48OQlXHrmfEYUZ2hOusWN-LE-U6BhXBvqprFOsczY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: a91f865d-c69e-423f-aeff-28a3d6e8554did: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: a91f865d-c69e-423f-aeff-28a3d6e8554d
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2136
@@ -166,7 +172,7 @@ ht-degree: 1%
      >
      >有些欄雖然非粗體，但還是需要使用。 例如，`isNew`和`ID`欄不是粗體，但為必填欄位。
 
-1. 選取**0}工作表，並在下列必要欄位中新增新自訂欄位的相關資訊：`**PARAM Parameter`
+1. 選取**0&rbrace;工作表，並在下列必要欄位中新增新自訂欄位的相關資訊：`**PARAM Parameter`
 
    * **`isNew`** =在此欄中為每個代表新自訂欄位的行輸入&#x200B;**`TRUE`**。 這表示欄位是Workfront中的新欄位且不存在。
 
@@ -224,7 +230,7 @@ ht-degree: 1%
      >
      >每個欄位只能有一個預設選項。
 
-   * **`setParameterID`** =與&#x200B;_品牌_&#x200B;自訂欄位對應的選項為&#x200B;**`setParameterID`** （共1個），而與&#x200B;_媒體_&#x200B;對應的選項為**`setParameterID`** （共2個）。 `PARAM`與`POPT`工作表會相互交叉參照，指出哪些選項屬於哪個自訂欄位。
+   * **`setParameterID`** =與&#x200B;_品牌_&#x200B;自訂欄位對應的選項為&#x200B;**`setParameterID`** （共1個），而與&#x200B;_媒體_&#x200B;對應的選項為&#x200B;**`setParameterID`** （共2個）。 `PARAM`與`POPT`工作表會相互交叉參照，指出哪些選項屬於哪個自訂欄位。
    * **`setDisplayOrder`**=顯示順序欄表示選項在自訂欄位中的顯示順序。 您可以從1開始，然後依遞增順序繼續所有選項，無論它們屬於哪個欄位。 這裡重要的是每個選項都有唯一編號。
    * **`setLabel`**&#x200B;和`**setValue`**欄通常包含相同的資訊，且應反映Workfront UI中所需的名稱。 選項的值是顯示在報表中的名稱，例如，而標籤在附加到物件時顯示在自訂表單中。 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
    * **`setIsHidden`** =若要隱藏任何選項，請輸入`TRUE`。

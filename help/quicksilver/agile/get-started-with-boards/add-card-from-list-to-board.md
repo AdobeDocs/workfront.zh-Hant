@@ -9,10 +9,15 @@ exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/WK0xnK-IRQhM5mHeps2rjiC-YIPuYS5eFX7LzAoesHM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 566
@@ -106,7 +111,7 @@ ht-degree: 4%
 1. 移至專案、報告或儀表板，其中包含您要檢視其面板資訊的任務或問題。
 1. 選取包含「面板」欄的檢視，或使用「面板」欄建立新檢視。
 如需檢視的資訊，請參閱[在Adobe Workfront中建立或編輯檢視](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)。
-1. 按一下欄中的[顯示&#x200B;[!UICONTROL ****]]以顯示任務或問題所在面板的清單。
+1. 按一下欄中的[顯示&#x200B;[!UICONTROL **&#x200B;**]]以顯示任務或問題所在面板的清單。
 
    ![顯示欄](assets/show-boards-in-column.png)中的面板
 

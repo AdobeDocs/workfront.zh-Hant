@@ -10,11 +10,18 @@ feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4a039619-0943-4b5b-ba7a-1ad9b5c11df0
 TQID: https://experienceleague.adobe.com/9VRJE0WqYMGadYNYbfpsFcNPelO87ka-Gn3OFqtBpaQ
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d83a421c-ecb9-4757-b609-c531392f90eb
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d83a421c-ecb9-4757-b609-c531392f90eb
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1659
@@ -76,7 +83,7 @@ DON'T DELETE, DRAFT, OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH C
 
    >[!TIP]
    >
-   >在群組清單底部，您也可以按一下[新增更多群組]**以內嵌新增群組，然後在完成新增群組資訊時按一下[輸入]****。**
+   >在群組清單底部，您也可以按一下[新增更多群組]&#x200B;**以內嵌新增群組，然後在完成新增群組資訊時按一下[輸入]**&#x200B;**。**
 
 1. 在顯示的&#x200B;**新群組**&#x200B;方塊中，輸入群組的名稱。
 1. 指定下列資訊：

@@ -9,10 +9,16 @@ feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
 TQID: https://experienceleague.adobe.com/HoUALwtvCHKaN408VjpHaxFI6bF-XpInL6S1chuxXt4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2083
@@ -261,7 +267,7 @@ ht-degree: 1%
 
    如果您不需要檢視圖表，可以按一下&#x200B;**隱藏圖表**。
 
-1. 在&#x200B;**與**&#x200B;共用區段中，如果您想要刪除使用者，請按一下右側的[更多![更多]圖示](assets/more-icon.png)按鈕，然後按一下[移除]。****
+1. 在&#x200B;**與**&#x200B;共用區段中，如果您想要刪除使用者，請按一下右側的![更多[更多]圖示](assets/more-icon.png)按鈕，然後按一下[移除]。**&#x200B;**
 
 ## 建立自動化工作流程範本群組 {#create-automated-workflow-template-groups}
 

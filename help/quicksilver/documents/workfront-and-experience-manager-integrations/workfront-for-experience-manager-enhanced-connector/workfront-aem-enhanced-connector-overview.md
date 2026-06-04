@@ -8,11 +8,19 @@ author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: b0c6df90-3ea8-4c81-abe2-48c2748a4d2b
 TQID: https://experienceleague.adobe.com/Rleqw7v8hVl-ABo5aDKwh5-g4XxTPUYl9WZ-FD2f-MU
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: da3860b0-d637-47df-bef0-273751180266
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: da3860b0-d637-47df-bef0-273751180266
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 563
@@ -60,5 +68,5 @@ Adobe Workfront是工作管理應用程式，協助您在一個地方管理整�
 
 ## 更多相關資訊
 
-* 適用於Adobe Experience Manager](https://business.adobe.com/products/workfront/aem-integration.html)的[Workfront概觀
+* 適用於Adobe Experience Manager[&#128279;](https://business.adobe.com/products/workfront/aem-integration.html)的Workfront概觀
 * [適用於Experience Manager Assets Essentials的Adobe Workfront](../../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)

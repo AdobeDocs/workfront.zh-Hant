@@ -10,10 +10,14 @@ exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/ECCX25ZQGtYXBdo8Xkds3OjtFUjoWGXIr9lOOiwwCe8
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 480
@@ -65,7 +69,7 @@ ht-degree: 3%
 
 {{step1-to-boards}}
 
-1. 開啟您要使用的工作流。 若要開啟工作流程，請按一下[檢視工作流程]。[!UICONTROL ****]
+1. 開啟您要使用的工作流。 若要開啟工作流程，請按一下[檢視工作流程]。[!UICONTROL **&#x200B;**]
 1. 按一下工作流程中的任何展示板以開啟。
 1. 按一下主機板右側的&#x200B;[!UICONTROL **[設定]**]&#x200B;以開啟[設定]面板。
 1. 開啟&#x200B;[!UICONTROL **在此展示板上包含待處理專案欄**]。

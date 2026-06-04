@@ -9,10 +9,14 @@ exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/JxmS1LNAaCdJirWKbg1ab1d4oko8WOl9OC4mMdRIYVc
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 1448
@@ -162,7 +166,7 @@ ht-degree: 2%
 
 當您定義Kanban團隊的WIP限制時，您可以透過限制可在[!UICONTROL Kanban]展示板上的[!UICONTROL New]或[!UICONTROL In Progress]欄中出現的任務數量，來控制團隊目前正在處理的專案數量。
 
-設定Kanban團隊的WIP限制後，您可以檢視WIP限制，並從[!UICONTROL Kanban]敏捷故事板更新該限制，如[!UICONTROL Kanban]故事板](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)上的[管理進行中的工作(WIP)限制中所述。
+設定Kanban團隊的WIP限制後，您可以檢視WIP限制，並從[!UICONTROL Kanban]敏捷故事板更新該限制，如[!UICONTROL Kanban]故事板[&#128279;](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)上的管理進行中的工作(WIP)限制中所述。
 
 若要限制看板團隊的在製品，請執行下列步驟：
 

@@ -9,10 +9,14 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 5b137cee-e03a-4176-a683-b77f2b27f5ce
 TQID: https://experienceleague.adobe.com/B5-tjy-e33pN0nXohWtt7HoFArOdPAu-jQfVu270K9w
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 798
@@ -101,6 +105,6 @@ ht-degree: 3%
    >如果您設定群組的自訂狀態，且稍後將專案指派給其他群組，則專案狀態將會重新載入並可能變更。
 
    1. 前往您要使用自訂狀態的專案。
-   1. 按一下[更多]功能表![更多圖示](assets/more-icon.png)，然後按一下[編輯]****。
+   1. 按一下[更多]功能表![更多圖示](assets/more-icon.png)，然後按一下[編輯]&#x200B;**&#x200B;**。
    1. 在顯示的&#x200B;**編輯專案**&#x200B;方塊中，在&#x200B;**專案關聯**&#x200B;下的&#x200B;**群組**&#x200B;欄位中，選取狀態所在的群組。
    1. 按一下「**儲存變更**」。

@@ -9,10 +9,14 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 3c15f90f-ce87-484d-93a7-9eeb2963a798
 TQID: https://experienceleague.adobe.com/Yrk-mcz0bSCRfklzaQN8ltT2inT25U6rRzTak4ItMDw
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 440
@@ -61,7 +65,7 @@ ht-degree: 4%
 
    ![微調問題設定](assets/fine-tune-issues.png)
 
-1. （選擇性）若要限制從較高等級物件繼承問題的許可權，請按一下[設定其他限制] **，然後選取[從專案、任務、問題等繼承檔案存取權]**。****
+1. （選擇性）若要限制從較高等級物件繼承問題的許可權，請按一下[設定其他限制] **，然後選取[從專案、任務、問題等繼承檔案存取權]**。**&#x200B;**
 
 1. （選擇性）若要針對您正在處理的存取層級中的其他物件與區域設定存取設定，請繼續使用[設定對Adobe Workfront的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)中所列的文章之一，例如[授與對工作的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)和[授與對財務資料的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)。
 1. 完成時，按一下&#x200B;**儲存**。

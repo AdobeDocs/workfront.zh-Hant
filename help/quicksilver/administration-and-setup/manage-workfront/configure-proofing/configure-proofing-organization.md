@@ -9,10 +9,16 @@ feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 29405172-c3dd-431f-a242-fd38b53a307d
 TQID: https://experienceleague.adobe.com/IgFtq0CPnrWvKEs8lLv-dhOHvWo4hJnDABDwkYTnpUk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1245
@@ -77,7 +83,7 @@ ht-degree: 2%
 
    * 若要重新命名現有的動作，請按一下動作旁的&#x200B;**設定**。
 
-1. 輸入動作的名稱，然後按一下[儲存]。****
+1. 輸入動作的名稱，然後按一下[儲存]。**&#x200B;**
 1. 按一下&#x200B;**儲存。**
 
 ### 停用或重新啟用動作 {#deactivate-or-reactivate-an-action}
@@ -162,7 +168,7 @@ ht-degree: 2%
 若要為校樣建立快顯訊息：
 
 1. 按一下您要自訂之訊息右側的&#x200B;**編輯**。
-1. 指定訊息並包含適當的格式，然後按一下[儲存]。****
+1. 指定訊息並包含適當的格式，然後按一下[儲存]。**&#x200B;**
 1. （選擇性）如果您自訂[載入時]訊息，而且您想要自訂確認按鈕標籤，請按一下&#x200B;**確認按鈕文字**&#x200B;右側的&#x200B;**編輯**，指定標籤，然後按一下&#x200B;**儲存**。
 
 ## 設定校訂預設值

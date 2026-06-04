@@ -9,10 +9,15 @@ feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: b59b1491-9a78-49c0-89c9-ab1ce0099e0b
 TQID: https://experienceleague.adobe.com/ol-xgm0Fz8GAbJWdpjvwwt-2fvGB0krGfIclosiOfGY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 637
@@ -74,7 +79,7 @@ ht-degree: 2%
 
      在如下所示的預先輸入欄位中，當一般使用者搜尋群組以將其附加到物件或與其共用物件時，清單中只會顯示作用中的群組。
 
-     群組](assets/typeahead-for-group.png)的![自動提示欄位
+     群組![&#128279;](assets/typeahead-for-group.png)的自動提示欄位
 
      若要簡化使用者的這項作業，您可以停用目前未使用之群組的&#x200B;**作用中**&#x200B;選項。
 

@@ -9,10 +9,15 @@ exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/ffz85N0pBJKg08FSPZ-Q0NeIT8B3jJupvA2mbfgTLlM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 525
@@ -83,7 +88,7 @@ ht-degree: 3%
 1. 在&#x200B;**資料夾**&#x200B;欄中，按一下您要編輯的智慧資料夾旁的&#x200B;**更多**&#x200B;圖示![更多功能表](assets/more-icon.png)。
 1. 按一下&#x200B;**編輯**。
 
-1. 進行變更，然後按一下[儲存資料夾]。****
+1. 進行變更，然後按一下[儲存資料夾]。**&#x200B;**
 
 ## 重新命名智慧資料夾 
 
@@ -99,7 +104,7 @@ ht-degree: 3%
 
    顯示&#x200B;**編輯智慧資料夾**&#x200B;對話方塊。 **資料夾名稱**&#x200B;欄位包含資料夾的原始名稱，並在括弧中加上「複製」一詞。
 
-1. 進行變更，然後按一下[儲存資料夾]。****
+1. 進行變更，然後按一下[儲存資料夾]。**&#x200B;**
 
 ## 刪除智慧資料夾
 

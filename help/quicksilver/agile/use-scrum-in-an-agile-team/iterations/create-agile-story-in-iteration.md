@@ -9,11 +9,17 @@ exl-id: 9712e065-5fbf-4deb-a39f-36e0e918ed12
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/-6cBWltTBk0t64BiNadClfh-y9a0Qj2eee2BSUb11OI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 503
@@ -71,7 +77,7 @@ ht-degree: 4%
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL劇本名稱]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 劇本名稱]</strong></td>
       <td>輸入劇本的名稱。</td>
      </tr>
      <tr>
@@ -79,23 +85,23 @@ ht-degree: 4%
       <td>輸入劇本的說明。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL就緒]</strong></td>
-      <td>如果內文已準備好加入反複專案，請選取此選項。 當選取此選項時，它會向使用者指出哪些待處理專案中的內文已準備好加入反複專案。<br>無論內文是否標示為<strong>[！UICONTROL就緒]，都可以將內文加入反複專案。</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 就緒]</strong></td>
+      <td>如果內文已準備好加入反複專案，請選取此選項。 當選取此選項時，它會向使用者指出哪些待處理專案中的內文已準備好加入反複專案。<br>無論內文是否標示為<strong>[!UICONTROL 就緒]，都可以將內文加入反複專案。</strong></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL估計] （點）</strong></td>
-      <td>指定劇本的預估。 如果您的敏捷團隊設定為以點為單位估計劇本，則預設的1點等於8小時。 預估會新增為內文上的[！UICONTROL計畫時數]。<br>例如，如果您估計劇本為3點，預設行為是新增24個計畫時數到劇本。<br>如果內文包含子任務，請記住，所有子任務的合併估計值會決定父內文的估計值。 如需詳細資訊，請參閱<a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/add-a-subtask-to-an-existing-story-scrum.md" class="MCXref xref">將子工作新增至[！UICONTROL Scrum]展示板</a>上的現有內文。</td>
+      <td role="rowheader"><strong>[!UICONTROL 估計] （點）</strong></td>
+      <td>指定劇本的預估。 如果您的敏捷團隊設定為以點為單位估計劇本，則預設的1點等於8小時。 預估會新增為內文上的[!UICONTROL 計畫時數]。<br>例如，如果您估計劇本為3點，預設行為是新增24個計畫時數到劇本。<br>如果內文包含子任務，請記住，所有子任務的合併估計值會決定父內文的估計值。 如需詳細資訊，請參閱<a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/add-a-subtask-to-an-existing-story-scrum.md" class="MCXref xref">將子工作新增至[!UICONTROL Scrum]展示板</a>上的現有內文。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL父專案]</strong></td>
-      <td>開始輸入此劇本將關聯的專案名稱。<br>預設情況下，內文顏色會顯示為此專案中其他內文的相同顏色。<br>專案狀態必須設定為[！UICONTROL目前]。 如果專案狀態不是[！UICONTROL目前]，則不會顯示在下拉式功能表中。</td>
+      <td role="rowheader"><strong>[!UICONTROL 父專案]</strong></td>
+      <td>開始輸入此劇本將關聯的專案名稱。<br>預設情況下，內文顏色會顯示為此專案中其他內文的相同顏色。<br>專案狀態必須設定為[!UICONTROL 目前]。 如果專案狀態不是[!UICONTROL 目前]，則不會顯示在下拉式功能表中。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL父系任務]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 父系任務]</strong></td>
       <td>選擇父項專案後，您就可以選擇父項任務。 當您選取父系任務時，內文會建立為所選專案上父系任務的子任務。<br>開始輸入內文的父系任務名稱，然後當它出現在下拉式清單中時按一下它。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[！UICONTROL自訂Forms]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL 自訂Forms]</strong></td>
       <td>選取任何自訂表單以新增到劇本中。</td>
      </tr>
     </tbody>
