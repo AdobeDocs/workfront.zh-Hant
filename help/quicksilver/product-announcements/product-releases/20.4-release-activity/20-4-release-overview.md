@@ -329,7 +329,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-如需有關新增功能和更新的資訊，請參閱[&#x200B; API 12](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12)版的新功能。
+如需有關新增功能和更新的資訊，請參閱[&#x200B; API 12](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12)版的新功能。
 
 如需API版本的詳細資訊，請參閱[API版本設定與支援排程](../../../wf-api/api/api-version-support-schedule.md)
 
@@ -382,4 +382,4 @@ Workfront 20.4版本網路研討會將於2020年10月28日（星期三）上午1
 
 有了Workfront One，您將能從Workfront探索最重要的內容、資源和新聞 — 全部整合在單一位置，只需登入一次。 我們已整合體驗、社群和訓練網站，讓您更容易找到想要的東西。
 
-[進一步瞭解Workfront One](https://business.adobe.com/products/workfront.html)。
+[進一步瞭解Workfront One](https://business.adobe.com/tw/products/workfront.html)。

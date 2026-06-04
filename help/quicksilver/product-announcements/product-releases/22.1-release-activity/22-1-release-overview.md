@@ -60,8 +60,8 @@ These enhancements are currently available in the Preview environment and will b
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 For specific release dates and times for each cluster, see the
-<a href="https://status.adobe.com/en/products/5943" target="_blank">Adobe Workfront status page</a> on
-<a href="http://status.adobe.com/" target="_blank">status.adobe.com</a>. You must log in to see specific release times
+<a href="https://status.adobe.com/zh-tw/products/5943" target="_blank">Adobe Workfront status page</a> on
+<a href="http://status.adobe.com/zh-tw/" target="_blank">status.adobe.com</a>. You must log in to see specific release times
 </MadCap:conditionalText>
 -->
 
