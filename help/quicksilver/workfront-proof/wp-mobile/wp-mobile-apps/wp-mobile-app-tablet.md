@@ -3,9 +3,14 @@ title: 適用於平板電腦的Workfront Proof行動應用程式
 description: ' [!DNL Workfront Proof] 平板電腦應用程式可讓您在旅途中方便地檢閱及核准您的校樣。 應用程式可供所有人下載，您不必是 [!DNL Workfront Proof] 使用者就能檢閱平板電腦或手機上的校樣。'
 hide: true
 exl-id: 7a3f1d96-103d-41cf-8470-3fc69e4bd507
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+TQID: https://experienceleague.adobe.com/Unk0yRCZtepX7LK-J7Y8JnUtcbUdMRzWo3XmMQuBXQM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1995'
+source-wordcount: 1979
 ht-degree: 0%
 
 ---
@@ -185,7 +190,7 @@ ht-degree: 0%
 1. 若要變更您要比較的版本，請使用頁面頂端的版本下拉式清單。
 1. 若要從相同資料夾中選取不同的校訂，請使用資料夾瀏覽器（可在頁面頂端的資料夾圖示）。
 
-   ![version_dropdows.png](assets/version-dropdowns-350x265.png)
+   ![version_dropdowns.png](assets/version-dropdowns-350x265.png)
    ![folder_browser.png](assets/folder-browser-350x269.png)
 比較工具可讓您並排比較版本，以檢查是否已進行要求的變更。 如果您解除鎖定導覽，您將能夠比較兩個版本的不同頁面。
 

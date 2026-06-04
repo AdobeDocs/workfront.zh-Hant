@@ -7,9 +7,16 @@ description: 如果您使用 [!DNL Basecamp] 進行專案管理，可以使用 [
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e1f03079-6ccc-4e81-a7f7-184e87d62654
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+TQID: https://experienceleague.adobe.com/U3IVZ44cDo1IZS4jEWpiT-KllI5Y0vUQCgleQTDAdzo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: 796
 ht-degree: 0%
 
 ---
@@ -62,7 +69,7 @@ ht-degree: 0%
 1. 開啟&#x200B;**[!UICONTROL 整合]**&#x200B;標籤(1)。
 1. 若要啟用Basecamp整合，請按一下&#x200B;**[!UICONTROL 啟用]** (2)。
 1. 確認[!DNL Basecamp Classic]是您正在與(3)整合的版本。
-1. （視條件而定）如果沒有顯示[!DNL Basecamp] URL (4)，請按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;並輸入您[!DNL Basecamp]帳戶的URL (不含http://)。
+1. （視條件而定）如果沒有顯示[!DNL Basecamp] URL (4)，請按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;並輸入您[!DNL Basecamp]帳戶的URL （不含http://）。
 1. 按一下&#x200B;**[!UICONTROL 儲存]** (5)。\
    ![基本帳戶_設定_-_整合.png](assets/basecamp-account-settings---integration-350x192.png)
 

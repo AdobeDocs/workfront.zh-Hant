@@ -7,9 +7,14 @@ description: 擁有校訂編輯許可權的使用者可以將其刪除。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 0b2a953f-bd70-4606-b327-57412b0d2095
-source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
+TQID: https://experienceleague.adobe.com/JPW-DczCxMn4QXN5Io8hNHHd9DxmdA7R-X18rkpNbMM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: 289
 ht-degree: 0%
 
 ---

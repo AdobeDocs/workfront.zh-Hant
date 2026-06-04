@@ -9,9 +9,14 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b587653a-caad-4f4c-8abf-4733ad2adfb1
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+TQID: https://experienceleague.adobe.com/1nECRdG0026gAJ3B2Ad9bI8KHLaK8auldjywrLl7dJw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: 94
 ht-degree: 0%
 
 ---

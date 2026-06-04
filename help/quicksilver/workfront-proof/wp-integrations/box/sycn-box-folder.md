@@ -7,9 +7,18 @@ description: 您可以將Box資料夾與Workfront Proof中的資料夾同步。 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d85577f5-6aa0-40a3-a6e3-45555a3124db
-source-git-commit: a6c79166c50af5bfe4c0341d003052179ce78373
+TQID: https://experienceleague.adobe.com/sJxqocTWlV--ZrYQ9OrcqW8udhfRBk9ujGyaDxmcAZw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: 662
 ht-degree: 0%
 
 ---

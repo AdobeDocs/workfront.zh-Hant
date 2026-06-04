@@ -8,9 +8,16 @@ description: 如果貴組織與自由譯者合作，您也可以將他們納入 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 8a792e74-4755-4237-8155-d54bbcd97496
-source-git-commit: 3657ec7b3509f82c44b65ec39f909d336deaaba2
+TQID: https://experienceleague.adobe.com/U4G0Tt1KZZXbwLk1SNyRTIBEzEerq6izTDOznYVwMzk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: 931
 ht-degree: 0%
 
 ---
@@ -66,7 +73,7 @@ ht-degree: 0%
 
 如果您不想讓使用者端和自由譯者在[!DNL Workfront Proof]中看到彼此，此選項會很有用。 您可以讓您的自由譯者存取您的[!UICONTROL Dropzone] （僅適用於[!UICONTROL Enterprise]和[!UICONTROL Unlimited]計畫）。 如需詳細資訊，請參閱[拖放區](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md)。
 
-![自由譯者_-_option_C_-_dropzone.png](assets/freelancers_-_option_C_-_dropzone.png)
+![自由譯者&#x200B;_-_ option_C_-_dropzone.png](assets/freelancers_-_option_C_-_dropzone.png)
 
 1. 自由譯者進入您的公用[!UICONTROL Dropzone]頁面。
 1. 他們使用[!UICONTROL Dropzone]在您的帳戶中建立新的校訂。

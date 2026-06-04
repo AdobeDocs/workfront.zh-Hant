@@ -7,9 +7,16 @@ description: 如果您使用 [!DNL Basecamp] 進行專案管理，可以使用 [
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: f6d5aef6-573d-4398-a057-ffea2e67288f
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+TQID: https://experienceleague.adobe.com/EyGqYRFaK3kCXNU-vY8DWhB4s8d2Gw1ZlVflB-0QqJk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: 737
 ht-degree: 0%
 
 ---
@@ -68,7 +75,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL [!DNL Basecamp]版本]**&#x200B;旁邊，確認&#x200B;**[!UICONTROL Classic版本]**&#x200B;是您正在整合的版本。
 
-1. （視條件而定）如果沒有顯示[!DNL Basecamp] URL，請按一下&#x200B;**[!UICONTROL 編輯]**，輸入您[!DNL Basecamp]帳戶的URL (不包括「http://」)，然後按一下&#x200B;**[!UICONTROL 儲存]**。
+1. （視條件而定）如果沒有顯示[!DNL Basecamp] URL，請按一下&#x200B;**[!UICONTROL 編輯]**，輸入您[!DNL Basecamp]帳戶的URL （不包括「http://」），然後按一下&#x200B;**[!UICONTROL 儲存]**。
 
 1. 在視窗的右上角，按一下&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 個人設定]**。
 
@@ -87,7 +94,7 @@ ht-degree: 0%
 
 在您為組織設定[帳戶設定](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings)後，建立/提交校訂的每位作者都應該設定其[個人設定。](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings)
 
-1. 移至&#x200B;**[!UICONTROL 個人**&#x200B;**設定]**。
+1. 移至&#x200B;**[!UICONTROL 個人&#x200B;**&#x200B;設定]**。
 
 1. 開啟&#x200B;**[!UICONTROL 整合]**&#x200B;標籤(1)。
 1. 若要啟用[!DNL Basecamp]整合，請按一下&#x200B;**[!UICONTROL 啟用]** (2)。

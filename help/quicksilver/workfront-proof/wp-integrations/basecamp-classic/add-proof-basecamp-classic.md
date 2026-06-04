@@ -7,9 +7,16 @@ description: 設定 [!DNL Basecamp Classic] 整合後，您就可以開始在 [!
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: fbca81fb-97c4-449a-9c64-cfd902ea1e19
-source-git-commit: a6c79166c50af5bfe4c0341d003052179ce78373
+TQID: https://experienceleague.adobe.com/x-X8GzBkf51d9FRKZt8lMzSJNCN8PWlYM7uoAnBdbfk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: 667
 ht-degree: 0%
 
 ---
@@ -49,7 +56,7 @@ ht-degree: 0%
    稽核者會出現在他們的預設角色/電子郵件警報中。 選取的檢閱者將在[!DNL Basecamp]收到此校訂的訊息，也會收到來自[!DNL Workfront Proof]的電子郵件通知。
 
 1. 如果檢閱者預設值已變更，您必須重新整理[!DNL Basecamp]資料，才能使用新的預設值。 若要重新整理[!DNL Basecamp]資料，請在[!DNL Workfront Proof]的[!DNL Basecamp]快顯視窗中按一下[!UICONTROL 重新整理]連結。 如果您也想要在[!DNL Basecamp]中接收郵件，請加入您自己的名稱。
-1. 按一下&#x200B;**[!UICONTROL 確定]**。
+1. 按一下&#x200B;**[!UICONTROL 「確定」]**。
 1. 套用校樣所需的任何其他設定（如一般），然後按一下[儲存] **[!UICONTROL 以提交校樣。]**
 
 ## 將現有校訂新增至[!DNL Basecamp Classic]專案
@@ -73,7 +80,7 @@ ht-degree: 0%
       >
       > 如果檢閱者預設值已變更，您必須重新整理[!DNL Basecamp]資料，才能使用新的預設值。 若要重新整理[!DNL Basecamp]資料，請在[!DNL Workfront Proof]的[!DNL Basecamp]快顯視窗中按一下[!UICONTROL 重新整理]連結。 如果您也想要在[!DNL Basecamp]中接收郵件，請加入您自己的名稱。
 
-1. 按一下&#x200B;**[!UICONTROL 確定]**。
+1. 按一下&#x200B;**[!UICONTROL 「確定」]**。
 
 將校訂新增到您的[!DNL Basecamp Classic]專案後，您會在[!UICONTROL 校訂詳細資料]頁面的[!UICONTROL 更多共用選項]區段中看到其他選項（如需此頁面的相關資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中管理校訂詳細資料。） 您將能夠：
 

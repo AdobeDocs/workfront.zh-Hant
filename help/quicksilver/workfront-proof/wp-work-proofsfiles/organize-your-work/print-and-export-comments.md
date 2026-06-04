@@ -7,9 +7,14 @@ description: 您可以在Workfront Proof中存取「註解」摘要。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
-source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
+TQID: https://experienceleague.adobe.com/2ikEopwBMpVFPsAtqzg9SsKkmJjxIbI4bY5QxD-87kU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: 502
 ht-degree: 0%
 
 ---

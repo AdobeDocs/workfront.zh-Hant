@@ -7,9 +7,18 @@ description: 您可以設定電子郵件使用者端，以確保 [!DNL Workfront
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 41517540-c5a8-4bf5-997b-e7a605337e73
-source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
+TQID: https://experienceleague.adobe.com/RllFMQS1iV3kuBc1IaSutqyd9HkWr-7P9NYC-jxlq7k
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1480'
+source-wordcount: 1499
 ht-degree: 0%
 
 ---
@@ -95,7 +104,7 @@ ht-degree: 0%
 1. 在&#x200B;**[!UICONTROL 安全寄件者]**&#x200B;索引標籤上按一下&#x200B;**[!UICONTROL 新增]**。
 
 1. 複製並貼上「**[!UICONTROL 新增位址」或「]**」方塊中的第一個「[!UICONTROL from]」位址，或僅複製並貼上網域名稱（@符號之後的其餘名稱）。
-1. 按一下&#x200B;**[!UICONTROL 確定]**。 地址會新增至清單中。
+1. 按一下&#x200B;**[!UICONTROL 「確定」]**。 地址會新增至清單中。
 1. 針對第二個&quot;[!UICONTROL from]&quot;位址，重複步驟3-5。
 
 ### 針對現有[!DNL Workfront Proof]電子郵件

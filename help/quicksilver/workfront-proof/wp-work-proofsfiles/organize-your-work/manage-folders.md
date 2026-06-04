@@ -7,9 +7,14 @@ description: 您的所有資料夾都配置在[!UICONTROL 資料夾]索引標籤
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ddc8d388-d161-4c70-8e7b-16c16b6ac3d7
-source-git-commit: f81114b04e688fd615956ec352ac8cc33548ee79
+TQID: https://experienceleague.adobe.com/gOlaRjUPBUZjiCJSU-oD2FoosAkiiLpm5T-vb00NTJg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: 819
 ht-degree: 0%
 
 ---
@@ -29,7 +34,7 @@ ht-degree: 0%
 1. 按一下左側導覽側邊欄中的&#x200B;**[!UICONTROL [您的帳戶名稱]資料夾]**。\
    此頁面顯示每個資料夾的下列資訊：
 
-   * 姓名
+   * 名稱
    * 型別 — 公開或私人
    * 資料夾中的專案數
    * 資料夾的擁有者
@@ -75,7 +80,7 @@ ht-degree: 0%
 
 1. 執行下列任一動作：
 
-   * 行動資料夾，使其位於不同的父資料夾下。\
+   * 將資料夾移至不同的父資料夾下。\
 
      按一下下拉式功能表中的&#x200B;**[!UICONTROL 未選取資料夾]**，將資料夾移至最上層。
 

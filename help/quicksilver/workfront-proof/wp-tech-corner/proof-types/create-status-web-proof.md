@@ -7,9 +7,16 @@ description: 您可以從您的網頁建立靜態校樣。 此外，您可以定
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b93ed288-1bf2-4268-96c3-6263ab6be633
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/M9rAORvc-CQGUB2pYWQV16HPZuFd3ZU31HAf25JRGYk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: 493
 ht-degree: 0%
 
 ---
@@ -28,7 +35,7 @@ ht-degree: 0%
 1. 在&#x200B;**www.shareyourlink.com**&#x200B;方塊中貼上或輸入您的URL。
 1. 您可以重複此步驟以新增多個URL。
 1. 在此方塊正下方，按一下解析度（預設為1366x768），然後在&#x200B;**[!UICONTROL 熒幕解析度]**&#x200B;方塊中選取您要的任何解析度。
-如果您想要校訂行動裝置的設計，請選取較小的解析度。 一般而言，設計會根據熒幕/瀏覽器視窗解析度來載入。
+如果您想要校訂行動裝置的設計，請選取較小的解析度。一般而言，設計會根據熒幕/瀏覽器視窗解析度來載入。
 
 1. 如果您想要包含與輸入的URL位於相同網域/子網域的已連線頁面，請按一下&#x200B;**[!UICONTROL 尋找子頁面]**。
    [!DNL Workfront Proof]會掃描連線的頁面，並在&#x200B;**[!UICONTROL 尋找子頁面]**&#x200B;選項下方列出這些頁面。 您可以選取要包含的頁面。
@@ -61,5 +68,5 @@ ht-degree: 0%
 * 點陣化之後，[!DNL Workfront Proof]會擷取長度高達195英吋的網頁。 如果網頁超過此長度，則校訂失敗。
 * 文字擷取可用於所有文字元素，但置入為影像的文字不會擷取。
 * 校樣上可點選文字超連結，而且連結的頁面會在新的瀏覽器分頁中開啟。
-* 如果在`<a>`標籤內使用了style=&quot;display：block&quot;元素，則無法點選影像上的超連結。 我們建議您調整頁面設計的這些部分。
+* 如果在`<a>`標籤內使用了style=&quot;display:block&quot;元素，則無法點選影像上的超連結。 我們建議您調整頁面設計的這些部分。
 * 為獲得最佳結果，我們建議使用最佳編碼實務和公認的標準來建立頁面。

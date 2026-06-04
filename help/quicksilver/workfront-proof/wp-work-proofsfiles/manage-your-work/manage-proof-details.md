@@ -7,9 +7,14 @@ description: 校訂詳細資訊頁面可讓您管理現有的校訂。 例如，
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e9530c2f-03ff-42f5-acbf-afe303e234e3
-source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
+TQID: https://experienceleague.adobe.com/XtCGq47fdKxfK-yF2LbH94Fq4AP46ENnEroJEGbuEhM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: 1198
 ht-degree: 0%
 
 ---

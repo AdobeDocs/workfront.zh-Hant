@@ -8,9 +8,16 @@ description: Mac上的校訂檢視器中的通訊錄已損毀的介面字型
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1e96720a-b967-4447-bd14-26fc6a502b25
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+TQID: https://experienceleague.adobe.com/t6MNg6tX6QJ2v3SCwu7NhiXcMaYq8CYQrvSi-ng-HWY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: 660
 ht-degree: 0%
 
 ---
@@ -66,7 +73,7 @@ ht-degree: 0%
 舊版校訂檢視器是以[!DNL Flash Player]為基礎，有時當校訂檢視器中遺漏文字時，OS X和[!DNL Flash Player]之間可能會發生字型衝突。 請嘗試下列步驟：
 
 1. 開啟Finder並開啟&#x200B;**[!UICONTROL 執行]**&#x200B;標籤。
-1. 按Option鍵( ⌥Alt)以開啟下拉式清單中的[!UICONTROL 資料庫]資料夾。
+1. 按Option鍵(⌥ Alt)以開啟下拉式清單中的[!UICONTROL 資料庫]資料夾。
 1. 按住Option鍵的同時，按一下[!UICONTROL 資料庫]資料夾。
 1. 在[!UICONTROL 資料庫]資料夾開啟後，移至其中的[!UICONTROL 字型]資料夾。
 1. 將[!UICONTROL Fonts]資料夾中的所有字型移至另一個資料夾，也許是在您的案頭上（請勿在Fonts資料夾中建立其他資料夾）。

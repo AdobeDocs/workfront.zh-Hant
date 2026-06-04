@@ -7,9 +7,18 @@ description: 可透過您的Box帳戶輕鬆建立校樣和新校樣版本。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 6fdabea6-c380-4b64-9b26-93b3f773f996
-source-git-commit: a6c79166c50af5bfe4c0341d003052179ce78373
+TQID: https://experienceleague.adobe.com/7KC9FpJAVX7-inrT8y50iR5IalARRD3qWx3bZiUCDq8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: 617
 ht-degree: 0%
 
 ---

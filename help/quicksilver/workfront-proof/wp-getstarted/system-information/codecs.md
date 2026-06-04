@@ -8,9 +8,18 @@ description: ' [!DNL Workfront Proof]中的轉碼器'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: f760dbaf-edbb-49ec-a329-54727372bdc6
-source-git-commit: bf6c6c497d98d91ca78f892606a52f82ee4b5666
+TQID: https://experienceleague.adobe.com/oaiiey4FOEV8tgyFgTsNcqndQTj0RF3OAXxTGWTS--M
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: 101
 ht-degree: 0%
 
 ---
@@ -74,7 +83,7 @@ ht-degree: 0%
 * [!DNL GeoVision Advanced MPEG-4]
 * [!DNL GoToMeeting]轉碼器（v1和v2）
 * [!DNL H.261]
-* [!DNL H.263]，[!DNL H.263+]
+* [!DNL H.263]、[!DNL H.263+]
 * [!DNL H.264] / [!DNL AVC] / [!DNL MPEG-4 AVC] / [!DNL MPEG-4 part 10]
 * [!DNL HuffYUV]
 * [!DNL I263]
@@ -139,7 +148,7 @@ ht-degree: 0%
 * [!DNL RealVideo 3.0]
 * [!DNL RealVideo 4.0]
 * [!DNL RL2]影片
-* [!DNL Schrödinger] ([!DNL Schroedinger])，[!DNL Dirac]
+* [!DNL Schrödinger] ([!DNL Schroedinger]), [!DNL Dirac]
 * [!DNL Sierra VMD]影片
 * [!DNL sif1 alpha4]
 * [!DNL Smacker]影片

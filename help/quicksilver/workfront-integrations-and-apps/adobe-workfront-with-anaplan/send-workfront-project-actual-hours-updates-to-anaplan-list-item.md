@@ -2,26 +2,38 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
 title: 將 [!DNL Adobe Workfront] 實際時數更新傳送至 [!DNL Anaplan] 清單專案
-description: 此整合情境會共用在具有 [!DNL Adobe Workfront] 預算清單專案的 [!DNL Anaplan] 專案上擷取的實際時數詳細資料。 共用此資訊可讓您更好地利用 [!DNL Anaplan] 提供的支出最佳化與財務分析。
+description: 此整合情境會共用在具有 [!DNL Anaplan] 預算清單專案的 [!DNL Adobe Workfront] 專案上擷取的實際時數詳細資料。 共用此資訊可讓您更好地利用 [!DNL Anaplan] 提供的支出最佳化與財務分析。
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: 450b9a87-79c6-4d10-a9ea-29766b4f5962
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+TQID: https://experienceleague.adobe.com/UBzKnVGm3E9XjneDGkyYfwTN0FCdLYtX60LM1MJs8PU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d8302c96-f652-4d09-896b-19a70bab02a5
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: 784
 ht-degree: 15%
 
 ---
 
 # 將[!DNL Adobe Workfront]實際時數更新傳送至[!DNL Anaplan]清單專案
 
-此整合情境會共用在具有[!DNL Adobe Workfront]預算清單專案的[!DNL Anaplan]專案上擷取的實際時數詳細資料。 共用此資訊可讓您更好地利用[!DNL Anaplan]提供的支出最佳化和財務分析。
+此整合情境會共用在具有[!DNL Anaplan]預算清單專案的[!DNL Adobe Workfront]專案上擷取的實際時數詳細資料。 共用此資訊可讓您更好地利用[!DNL Anaplan]提供的支出最佳化和財務分析。
 
 此情境範本提供過去3個月在作用中專案上依專案、日期和角色所記錄的時數清單。
 
 >[!IMPORTANT]
 >
->本文中的「行銷活動」是指此情境所代表的行銷活動使用案例，且絕對未連線至[!DNL Workfront Fusion] Adobe Campaign聯結器或[!UICONTROL 中最近棄用的]行銷活動[!DNL Workfront]物件。
+>本文中的「行銷活動」是指此情境所代表的行銷活動使用案例，且絕對未連線至[!DNL Workfront Fusion] Adobe Campaign聯結器或[!DNL Workfront]中最近棄用的[!UICONTROL 行銷活動]物件。
 
 ## 存取權要求
 
@@ -119,7 +131,7 @@ ht-degree: 15%
 
 完成下列步驟，將此整合情境部署至您的[!DNL Fusion]帳戶。 這應該只有在完成必要的[!DNL Workfront]和[!DNL Anaplan]設定之後才完成。
 
-1. 導覽至[!UICONTROL 中的]範本[!DNL Workfront Fusion]功能表，然後按一下&#x200B;**[!UICONTROL 將Workfront實際時數更新傳送至[!DNL Anaplan]清單專案]**&#x200B;情境範本。
+1. 導覽至[!DNL Workfront Fusion]中的[!UICONTROL 範本]功能表，然後按一下&#x200B;**[!UICONTROL 將Workfront實際時數更新傳送至[!DNL Anaplan]清單專案]**&#x200B;情境範本。
 1. 取代下列[!DNL Anaplan]個變數的變數值：
 
    <table style="table-layout:auto"> 
@@ -177,10 +189,10 @@ ht-degree: 15%
 
 連結預算請求的其他案例：
 
-* [[!UICONTROL 從 [!DNL Anaplan] 預算請求 [!DNL Adobe Workfront] 建立]清單專案](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
+* [[!UICONTROL 從 [!DNL Adobe Workfront] 預算請求]建立 [!DNL Anaplan] 清單專案](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
 * [[!UICONTROL 套用 [!DNL Anaplan] 預算配置至 [!DNL Adobe Workfront] 專案]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
 
 連結行銷活動請求的其他情況：
 
-* [[!UICONTROL 從 [!DNL Anaplan] 行銷活動要求 [!DNL Adobe Workfront] 建立]清單專案](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
+* [[!UICONTROL 從 [!DNL Adobe Workfront] 行銷活動要求]建立 [!DNL Anaplan] 清單專案](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
 * [[!UICONTROL 將 [!DNL Anaplan] 預算配置套用至 [!DNL Adobe Workfront] 行銷活動請求或行銷活動專案]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)

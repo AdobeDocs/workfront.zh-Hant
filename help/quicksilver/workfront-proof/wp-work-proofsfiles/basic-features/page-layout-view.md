@@ -8,9 +8,14 @@ description: 您可以在「檢視」標籤上調整頁面配置。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 28aff312-1803-44d4-953c-1298e039edbf
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+TQID: https://experienceleague.adobe.com/e8RxYM5I6q6tUSGMbVcqgfNv6hkj6jhh7qhUYVEeSXk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: 218
 ht-degree: 1%
 
 ---
@@ -30,7 +35,7 @@ ht-degree: 1%
 
   ![Page_views_-_list_view.png](assets/page-views---list-view-350x164.png)
 
-## 縮略圖清單
+## 縮圖清單
 
 * 顯示校訂影像/檔案圖示、校訂或檔案名稱加上標準檢視欄
 * [!UICONTROL 校訂動作]功能表位於行(1)的右側

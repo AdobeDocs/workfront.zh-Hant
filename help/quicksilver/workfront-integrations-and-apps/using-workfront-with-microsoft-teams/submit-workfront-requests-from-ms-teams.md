@@ -1,27 +1,40 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: 提交來自 [!DNL Adobe Workfront] 團隊的 [!DNL Microsoft] 個請求
+title: 提交來自 [!DNL Microsoft] 團隊的 [!DNL Adobe Workfront] 個請求
 description: 當您的團隊所有者安裝適用於Microsoft Teams的Adobe Workfront後，您就可以從您的Microsoft Teams帳戶提交Workfront請求。 若要這麼做，您必須擁有有權提交請求的Workfront帳戶。 如需有關安裝適用於Microsoft Teams的Workfront的資訊，請參閱安裝適用於Microsoft Teams的Workfront 。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
-source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
+TQID: https://experienceleague.adobe.com/SAhx7otUvjrhEkQnMr87CF0gZFL3Fpvy8bXcnTf1-E8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 1%
+source-wordcount: 607
+ht-degree: 3%
 
 ---
 
-# 提交來自[!DNL Adobe Workfront]團隊的[!DNL Microsoft]個請求
+# 提交來自[!DNL Microsoft]團隊的[!DNL Adobe Workfront]個請求
 
 >[!IMPORTANT]
 >
 >隨著[Microsoft轉換至「新團隊」使用者端](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability)，傳統團隊使用者端在2025年7月1日之後將不再可用。 若要繼續使用Microsoft Teams和Workfront等整合式應用程式，客戶必須在此日期之前轉換至新Teams使用者端。
 >
->更新的Workfront整合現在可供使用，並且與新團隊體驗完全相容。 在大多數情況下，使用者轉換後，Workfront會自動顯示。 如果不適用，可從Microsoft Teams App Store手動安裝整合。 若要在New Teams使用者端中安裝或驗證Workfront整合，請參閱[為Microsoft Teams [!DNL Adobe Workfront] 安裝](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)。
+>更新的Workfront整合現在可供使用，並且與新團隊體驗完全相容。 在大多數情況下，使用者轉換後，Workfront會自動顯示。 如果不適用，可從Microsoft Teams App Store手動安裝整合。 若要在New Teams使用者端中安裝或驗證Workfront整合，請參閱[為Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)安裝 [!DNL Adobe Workfront] 。
 
-在團隊擁有者安裝[!DNL Adobe Workfront for Microsoft Teams]之後，您就可以從您的[!DNL Workfront]帳戶提交[!DNL Microsoft Teams]要求。 若要這麼做，您必須擁有有權提交請求的Workfront帳戶。 如需有關安裝[!DNL Workfront for Microsoft Teams]的資訊，請參閱[安裝 [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)。
+在團隊擁有者安裝[!DNL Adobe Workfront for Microsoft Teams]之後，您就可以從您的[!DNL Microsoft Teams]帳戶提交[!DNL Workfront]要求。 若要這麼做，您必須擁有有權提交請求的Workfront帳戶。 如需有關安裝[!DNL Workfront for Microsoft Teams]的資訊，請參閱[安裝 [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)。
 
 >[!NOTE]
 >
@@ -30,16 +43,16 @@ ht-degree: 1%
 
 
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -56,11 +69,11 @@ ht-degree: 1%
 
 ## 先決條件
 
-您的[!DNL Microsoft Teams]團隊擁有者必須先安裝[!DNL Workfront]的[!DNL Microsoft Teams]，您才能使用它。
+您的[!DNL Microsoft Teams]團隊擁有者必須先安裝[!DNL Microsoft Teams]的[!DNL Workfront]，您才能使用它。
 
-## 提交來自[!DNL Workfront]的[!DNL Microsoft Teams]個請求
+## 提交來自[!DNL Microsoft Teams]的[!DNL Workfront]個請求
 
-1. 按一下&#x200B;**[!UICONTROL 中左側導覽列上的]**&#x200B;更多新增的應用程式[!DNL Microsoft Teams] （三點）圖示。
+1. 按一下[!DNL Microsoft Teams]中左側導覽列上的&#x200B;**[!UICONTROL 更多新增的應用程式]** （三點）圖示。
 
 1. 在出現的清單中按一下&#x200B;**[!DNL Workfront]**。
 1. 按一下「**[!UICONTROL 要求]**」標籤。
@@ -96,9 +109,9 @@ ht-degree: 1%
 
    要求會顯示在指定的要求佇列中的[!DNL Workfront]。 您會收到要求已成功提交的確認。
 
-## 檢視您在[!DNL Workfront]中提交的[!DNL Microsoft Teams]個要求
+## 檢視您在[!DNL Microsoft Teams]中提交的[!DNL Workfront]個要求
 
-1. 按一下&#x200B;**[!UICONTROL 中左側導覽列上的]**&#x200B;更多新增的應用程式[!DNL Microsoft Teams] （三點）圖示。
+1. 按一下[!DNL Microsoft Teams]中左側導覽列上的&#x200B;**[!UICONTROL 更多新增的應用程式]** （三點）圖示。
 
 1. 在出現的清單中按一下&#x200B;**[!DNL Workfront]**。
 1. 按一下「**[!UICONTROL 要求]**」標籤。

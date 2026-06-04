@@ -7,9 +7,14 @@ description: 您可以在Workfront Proof中建立子資料夾。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 5a7c4c8d-3136-4ea2-8b2c-98eed06822b0
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+TQID: https://experienceleague.adobe.com/yHgnZWct7KCzUeazJ-HZcy39TFKmpPG1qrD6Q1L-22I
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: 766
 ht-degree: 0%
 
 ---
@@ -100,7 +105,7 @@ ht-degree: 0%
 
 ![New_folder_page_-_folder_details.png](assets/new-folder-page---folder-details-350x133.png)
 
-### 使用者端詳細資料 {#client-details}
+### 用戶端詳細資料 {#client-details}
 
 您可以在此區段中填寫使用者端的詳細資料，如此即可依使用者端/專案名稱排序「我的資料夾」頁面：
 

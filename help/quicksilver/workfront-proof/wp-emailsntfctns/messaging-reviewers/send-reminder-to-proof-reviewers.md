@@ -7,9 +7,18 @@ description: 讓PiW能夠順利運作
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 53abbd88-7915-4d74-9bda-d75c59663463
-source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
+TQID: https://experienceleague.adobe.com/eCJhedBSQgqT9i4784HdrUFM-N61zC8O3wPJvuvXlKQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: 437
 ht-degree: 2%
 
 ---
@@ -50,7 +59,7 @@ ht-degree: 2%
 
      預設訊息會提醒稽核者他們已新增到校訂中，並包含校訂的截止日期。
 
-   * 如果您想要建立自己的自訂訊息，請輸入&#x200B;**[!UICONTROL 主旨]**&#x200B;和&#x200B;**[!UICONTROL 訊息]，**，然後按一下&#x200B;**[!UICONTROL 傳送]。**&#x200B;自訂提醒電子郵件包含與預設提醒電子郵件相同的資訊，但也會在電子郵件內文中包含您的自訂主旨行與自訂訊息。
+   * 如果您想要建立自己的自訂訊息，請輸入&#x200B;**[!UICONTROL 主旨]**&#x200B;和&#x200B;**[!UICONTROL 訊息]，**，然後按一下&#x200B;**[!UICONTROL 傳送]。**&#x200B;自訂提醒電子郵件包含與預設提醒電子郵件相同的資訊，但也會在電子郵件內文中包含您的自訂主旨列和自訂訊息。
 
 ## 傳送訊息給舞台上的檢閱者
 
@@ -65,4 +74,4 @@ ht-degree: 2%
 
      預設訊息會提醒稽核者他們已新增到校訂中，並包含校訂的截止日期。
 
-   * 如果您想要建立自己的自訂訊息，請輸入&#x200B;**[!UICONTROL 主旨]**&#x200B;和&#x200B;**[!UICONTROL 訊息]，**，然後按一下&#x200B;**[!UICONTROL 傳送]。**&#x200B;自訂提醒電子郵件包含與預設提醒電子郵件相同的資訊，但也會在電子郵件內文中包含您的自訂主旨行與自訂訊息。
+   * 如果您想要建立自己的自訂訊息，請輸入&#x200B;**[!UICONTROL 主旨]**&#x200B;和&#x200B;**[!UICONTROL 訊息]，**，然後按一下&#x200B;**[!UICONTROL 傳送]。**&#x200B;自訂提醒電子郵件包含與預設提醒電子郵件相同的資訊，但也會在電子郵件內文中包含您的自訂主旨列和自訂訊息。

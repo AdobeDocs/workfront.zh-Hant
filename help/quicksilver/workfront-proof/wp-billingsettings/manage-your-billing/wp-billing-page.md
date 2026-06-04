@@ -8,9 +8,18 @@ description: 若要存取[!UICONTROL 帳單]頁面，請在熒幕右上方開啟
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: f3828671-e950-4649-9f6d-881101100a96
-source-git-commit: 1312e3d5256f28ca0197c73a6c06016d6d7c7e2a
+TQID: https://experienceleague.adobe.com/o1VGrecH-BIItFQ0fvzpFYPILQ555TOhgOstI2ek9eo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: 610
 ht-degree: 0%
 
 ---

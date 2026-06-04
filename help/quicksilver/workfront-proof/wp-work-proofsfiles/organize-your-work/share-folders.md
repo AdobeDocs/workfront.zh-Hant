@@ -7,9 +7,14 @@ description: 您可以與擁有 [!DNL Workfront Proof] 帳戶的使用者和整�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 57f846a1-f315-42c1-911a-cfbc8b4879ba
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/J7dSfuj-8f8m4pNsPGejE-k29Bkk1Rlh-HbpYkwx2xM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: 955
 ht-degree: 0%
 
 ---

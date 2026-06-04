@@ -7,9 +7,14 @@ description: 您可以從現有的校樣下載檔案。 不過，僅下載檔案
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 630db335-79b6-40f0-80b7-d8ccf7ac23fa
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/YZngDvldYoj6j-bqhDayofktAiULLu1tHYX6O6tWG6M
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: 116
 ht-degree: 0%
 
 ---

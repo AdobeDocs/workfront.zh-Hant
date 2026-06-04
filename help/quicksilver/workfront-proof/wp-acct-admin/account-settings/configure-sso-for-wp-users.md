@@ -7,9 +7,19 @@ description: 如果您有Select或Premium計畫，您可以提供單一登入(SS
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 52ac1919-1821-424f-89f8-72865b236e4e
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/OhvVg0L6uAWG9uGjqsoCbmBAyTsVl1dlhUv9FDCw0XA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: 1085
 ht-degree: 0%
 
 ---
@@ -26,13 +36,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您必須在[!DNL Workfront Proof]帳戶上設定自訂子網域或網域，才能啟用SAML。 自訂子網域可自由設定。 如需詳細資訊，請參閱[品牌](https://support.workfront.com/hc/en-us/sections/115000921208-Branding)。您可以閱讀有關我們的[品牌 [!DNL Workfront Proof] 網站 — 進階](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)上完全自訂網域的詳細資訊。
+>您必須在[!DNL Workfront Proof]帳戶上設定自訂子網域或網域，才能啟用SAML。 自訂子網域可自由設定。 如需詳細資訊，請參閱[品牌](https://support.workfront.com/hc/en-us/sections/115000921208-Branding)。您可以閱讀有關我們[品牌 [!DNL Workfront Proof] 網站 — 進階](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)上完全自訂網域的詳細資訊。
 
 ## 在[!DNL Workfront Proof]中啟用SSO
 
 您可在[!UICONTROL 帳戶設定]的[!UICONTROL 單一登入]索引標籤上啟用單一登入功能，此功能將套用至您[!DNL Workfront Proof]帳戶上的所有使用者。 如需詳細資訊，請參閱[帳戶設定](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings)。
 
-## 實體ID
+## 實體 ID
 
 身為服務提供者，我們已於下列位置發佈實體ID：
 
@@ -54,7 +64,7 @@ ht-degree: 0%
 
 1. 開啟&#x200B;**[!UICONTROL 單一登入]**&#x200B;標籤(1)。
 1. 輸入&#x200B;**SSO URL** (2)。
-這是您SSO伺服器的連結(例如，**https://sso.mycompany.com/opensso**)。
+這是您SSO伺服器的連結（例如，**https://sso.mycompany.com/opensso**）。
 
 1. 輸入&#x200B;**登入URL** (3)。
 系統會叫用此URL，將使用者重新導向至您的身分提供者。
@@ -70,10 +80,10 @@ ht-degree: 0%
 1. 您的SAML身分提供者提供的SAML憑證的SHA1指紋。
 1. 透過在您的身分提供者上設定此專案，確保包括金鑰資訊。
 1. 將&#x200B;**SSO**&#x200B;切換為&#x200B;**[!UICONTROL 已啟用]** (6)。
-啟用SSO後，您和您帳戶上的其他使用者將使用您自己的驗證機制登入。 這表示當使用者存取您的[!DNL Workfront Proof]帳戶登入畫面(例如，**yourcompany.proofhq.com/login**)時，將會透過傳輸視窗提示他們前往您自己的驗證登入頁面。
+啟用SSO後，您和您帳戶上的其他使用者將使用您自己的驗證機制登入。這表示當使用者存取您的[!DNL Workfront Proof]帳戶登入畫面（例如，**yourcompany.proofhq.com/login**）時，將會以傳輸視窗提示他們前往您自己的驗證登入頁面。
 
 1. （選擇性）啟用&#x200B;**自動布建使用者** (7)。
-啟用此選項後，將自動為沒有自己的[!DNL Workfront Proof]設定檔，但將使用其Single Sign-On認證存取您的[!DNL Workfront Proof]帳戶的使用者建立使用者帳戶。 只有在您的帳戶尚未達到使用者限制時，才會執行此動作。
+啟用此選項後，系統會自動為沒有自己的[!DNL Workfront Proof]設定檔，但會使用單一登入認證存取您[!DNL Workfront Proof]帳戶的使用者建立使用者帳戶。只有在您的帳戶尚未達到使用者限制時，才會執行此動作。
 
 1. 根據預設，新布建的使用者將會獲得指派的Manager設定檔許可權。 如果您需要更多資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
 
@@ -94,7 +104,7 @@ ht-degree: 0%
 以下是兩種設定方法(5)：
 
 1. **已繼承：**&#x200B;個SSO，組態取自您的中心帳戶。
-如果使用者透過&#x200B;**預設登入頁面** ([https://business.adobe.com/tw/products/workfront/proofing-approvals.html](https://business.adobe.com/tw/products/workfront/proofing-approvals.html))存取[!DNL Workfront Proof]，將會有&#x200B;**兩個授權等級**：首先，系統會要求使用者使用[!DNL Workfront Proof]存取資料（電子郵件和密碼）登入；然後會透過SSO視窗將使用者傳送到SSO登入頁面。
+如果使用者透過&#x200B;**預設登入頁面** ([https://business.adobe.com/tw/products/workfront/proofing-approvals.html](https://business.adobe.com/tw/products/workfront/proofing-approvals.html))存取[!DNL Workfront Proof]，將有&#x200B;**兩個授權等級**：首先，要求使用者使用[!DNL Workfront Proof]存取資料（電子郵件和密碼）登入；然後透過SSO視窗將使用者傳送到SSO登入頁面。
 因此，啟用SSO服務後，建議您透過自己的[!DNL Workfront Proof]子網域/網域登入。
 
    >[!NOTE]
@@ -140,7 +150,7 @@ ht-degree: 0%
 1. 開啟&#x200B;**[!UICONTROL 單一登入]**&#x200B;標籤。
 1. 請確定已設定您的[!DNL Workfront Proof]網域/子網域(1)，且您的使用者可透過此自訂網域/子網域存取您的[!DNL Workfront Proof]帳戶。
    ![SAML_Subdomain.png](assets/saml-subdomain-350x150.png)
-啟用「單一登入」後，子網域登入URL (例如yourcompany.proofhq.com/login)會顯示傳輸畫面(2)，可讓您直接前往SSO登入頁面。
+啟用「單一登入」後，子網域登入URL （例如yourcompany.proofhq.com/login）會顯示傳輸畫面(2)，可讓您直接前往SSO登入頁面。
    ![SSO_login_page.png](assets/sso-login-page-350x164.png)
 
 1. 如果使用者透過頁面&#x200B;**([https://business.adobe.com/tw/products/workfront/proofing-approvals.html](https://business.adobe.com/tw/products/workfront/proofing-approvals.html))中的**&#x200B;預設記錄檔存取[!DNL Workfront Proof]，將有&#x200B;**兩個授權等級**。 首先要求使用者使用[!DNL Workfront Proof]存取資料（電子郵件和密碼）登入。 然後，使用者會透過SSO視窗(2)傳送到SSO登入頁面。\
