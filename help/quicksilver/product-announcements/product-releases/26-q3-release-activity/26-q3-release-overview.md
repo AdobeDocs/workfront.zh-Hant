@@ -108,7 +108,7 @@ ht-degree: 2%
             <td><strong>每季</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">列印新檔案區域中的檔案摘要</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">列印新檔案區域中的檔案摘要</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>您現在可以直接從新的檔案區域開啟檔案核准的可列印摘要。 此功能適用於使用Adobe雲端儲存空間的組織。</p>
             </td>
             <td><p>2026年6月2日</p></td>
@@ -159,7 +159,7 @@ ht-degree: 2%
             <td><strong>每季</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">費率屬性一旦用於費率便無法編輯</a><p>[！BADGE Off Schedule]{type=Neutral}</p><p>[！BADGE Workflow Ultimate]{type=Informative}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">費率屬性一旦用於費率便無法編輯</a><p>[!BADGE Off Schedule]{type=Neutral}</p><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
                 <p>將屬性新增至Workfront中的費率後，您就無法再在設定區域中編輯該屬性及其篩選器。 這樣可保留資料完整性，並防止屬性更新時意外變更速率。</p>
             </td>
             <td><p>2026年5月21日</p></td>
@@ -249,7 +249,7 @@ ht-degree: 2%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">預先定義的檢視已新增至[要求]區域和[我的要求]小工具中的要求清單</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">預先定義的檢視已新增至[要求]區域和[我的要求]小工具中的要求清單</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>為協助您更妥善地組織請求清單，我們已將預先定義的檢視新增至「請求」區域的請求清單，以及「首頁」中的「我的請求」Widget 。</p>
             </td>
             <td><p>2026年4月23日</p></td>
@@ -273,7 +273,7 @@ ht-degree: 2%
             <td><strong>每季</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">已更新評論通知電子郵件的外觀</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">已更新評論通知電子郵件的外觀</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>更新區域中評論的電子郵件通知具有新外觀，且符合更廣泛的Adobe電子郵件設計。 先前註釋的執行緒不再包含在電子郵件內文中。</p>
             </td>
             <td><p>不適用</p></td>
@@ -341,7 +341,7 @@ New features in Workfront Planning are available in Production.
 
 Workfront API版本22已於2026年5月8日發行。 針對API 22版，我們已修改一些資源和端點。 有些變更支援新功能，有些則讓您更輕鬆地透過API使用可用資訊。
 
-如需新增和更新的詳細資訊，請參閱[ API 22](/help/quicksilver/wf-api/api/new-api-version-22.md)版的新增功能。
+如需新增和更新的詳細資訊，請參閱[&#x200B; API 22](/help/quicksilver/wf-api/api/new-api-version-22.md)版的新增功能。
 
 如需API版本的資訊，請參閱[API版本設定與支援排程](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
 
