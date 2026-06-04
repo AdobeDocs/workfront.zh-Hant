@@ -8,10 +8,20 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: d64213bf-f270-404f-a45a-6f94c7b7cb91
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+TQID: https://experienceleague.adobe.com/1bEnBH5l58juHFYsg1bfR-LMcQ-wGgKNkeGAGQlNbJs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 2%
+source-wordcount: 505
+ht-degree: 5%
 
 ---
 
@@ -19,9 +29,9 @@ ht-degree: 2%
 
 身為Adobe Workfront管理員，您可以為存取在Workfront中建立校訂的使用者和訪客使用者設定預設校訂角色。 任何將使用者新增到校樣的人都可以為他們調整這些角色。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -35,7 +45,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權*</td> 
-   <td>計劃</td> 
+   <td>規劃</td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定*</td> 
@@ -117,99 +127,99 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td> <p><strong>唯讀</strong> </p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> <p> </p> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>檢閱者</strong> </p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p><strong>審閱者</strong> </p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> <p> </p> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>核准者</strong> </p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> <p> </p> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>檢閱者和核准者</strong> </p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> <p> </p> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
    <td> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>作者</strong> </p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> <p>✓</p> </td> 
+   <td>✓</td> 
+   <td>✓</td> 
    <td> </td> 
-   <td>✓ (A)</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p><strong>仲裁者</strong> </p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ <strong></strong> </p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td> <p>✓ (A)</p> <p> </p> </td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td> <p>✓ (A)</p> </td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
-   <td>✓ (A)</td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p><strong>✓</strong> </p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> <p> </p> </td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> <p>✓</p> </td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
  </tbody> 
 </table>

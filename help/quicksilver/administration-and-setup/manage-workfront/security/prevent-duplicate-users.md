@@ -3,32 +3,43 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: security
 title: 防止重複使用者
-description: 在Adobe Workfront中建立新使用者時，您無法再使用已由其他使用者使用的電子郵件地址，即使電子郵件地址依大小寫而異(例如JohnDoe@example.com和johndoe@example.com)。 此外，為了準備迎接未來的驗證增強功能，請確保所有使用者在Workfront執行個體中具有唯一的電子郵件地址。
+description: 在Adobe Workfront中建立新使用者時，您無法再使用已由其他使用者使用的電子郵件地址，即使電子郵件地址依大小寫而異（例如JohnDoe@example.com和johndoe@example.com）。 此外，為了準備迎接未來的驗證增強功能，請確保所有使用者在Workfront執行個體中具有唯一的電子郵件地址。
 author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 84d9a752-e894-42cf-9b40-375e35f02c97
-source-git-commit: 6b2d93d2573d72e4390761038d8078f47d96d55e
+TQID: https://experienceleague.adobe.com/RSvNaBdgB5bZqkeD-KmlX1o54cUEdgi0Vtta9JWMTlw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 0%
+source-wordcount: 568
+ht-degree: 3%
 
 ---
 
 # 防止重複使用者
 
-在Adobe Workfront中建立新使用者時，您無法再使用已由其他使用者使用的電子郵件地址，即使電子郵件地址依大小寫而異(例如JohnDoe@example.com和johndoe@example.com)。 此外，為了準備迎接未來的驗證增強功能，請確保所有使用者在Workfront執行個體中具有唯一的電子郵件地址。
+在Adobe Workfront中建立新使用者時，您無法再使用已由其他使用者使用的電子郵件地址，即使電子郵件地址依大小寫而異（例如JohnDoe@example.com和johndoe@example.com）。 此外，為了準備迎接未來的驗證增強功能，請確保所有使用者在Workfront執行個體中具有唯一的電子郵件地址。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 

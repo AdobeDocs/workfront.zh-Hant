@@ -5,12 +5,21 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
+TQID: https://experienceleague.adobe.com/5g4EStBQBGan2lmo6KhpW-4OzCbNflC70yGd8qbNH4A
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 1%
+source-wordcount: 1559
+ht-degree: 2%
 
 ---
 
@@ -26,8 +35,8 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->* 必須在Adobe Admin Console中設定&#x200B;**Workfront管理員。**&#x200B;如需相關資訊與指示，請參閱本文中的[使用Adobe Admin Console在Workfront中建立系統管理員](#create-system-administrators-in-workfront-with-the-adobe-admin-console)。
->* **如果您的組織使用單一登入(SSO)**，建議您在Adobe Admin Console中建立使用者並將其指派給Workfront。 您可以在Workfront中建立這些使用者，但根據您組織的Admin Console設定方式，將該資訊傳輸至Adobe Admin Console時可能會發生問題。
+>* 必須在Adobe Admin Console中設定&#x200B;**Workfront管理員。** 如需相關資訊與指示，請參閱本文中的[使用Adobe Admin Console在Workfront中建立系統管理員](#create-system-administrators-in-workfront-with-the-adobe-admin-console)。
+>* **如果您的組織使用單一登入(SSO)**，建議您在Adobe Admin Console中建立使用者並將其指派給Workfront。您可以在Workfront中建立這些使用者，但根據您組織的Admin Console設定方式，將該資訊傳輸至Adobe Admin Console時可能會發生問題。
 >   在Adobe Admin Console中建立使用者後，您可以在Workfront中設定使用者的資訊，例如指派角色、群組、團隊和存取層級。
 >* **如果您的組織未使用單一登入(SSO)**，您可以直接在Workfront中新增非系統管理員使用者。 您可以在Adobe Admin Console中新增使用者，但若在Workfront中新增使用者，您可於建立使用者時設定其存取層級，藉此節省您的時間。
 

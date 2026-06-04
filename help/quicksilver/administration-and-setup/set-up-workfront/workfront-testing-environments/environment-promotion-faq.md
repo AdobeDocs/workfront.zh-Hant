@@ -9,10 +9,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
+TQID: https://experienceleague.adobe.com/f8iQHTrVCbtK-tIFlCmojM-FQfV0JLCMa6hVfWCEzXY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 2%
+source-wordcount: 265
+ht-degree: 3%
 
 ---
 
@@ -45,7 +55,7 @@ ht-degree: 2%
 
 ### 解答
 
-是。例如，您可以從Sandox提升至生產環境，或從Production提升至沙箱。
+是。 例如，您可以從Sandox提升至生產環境，或從Production提升至沙箱。
 
 ## 是否支援共用？
 

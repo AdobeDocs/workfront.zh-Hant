@@ -5,10 +5,19 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8d1870ea-3f9e-4358-8e14-3dcfc3805637
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/z7vh7rdkB40A2gzfSYddUAHF-nOGqVCgpVyu729gYgE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 0%
+source-wordcount: 469
+ht-degree: 4%
 
 ---
 
@@ -22,16 +31,16 @@ ht-degree: 0%
 >
 >只有當群組是使用者的「主群組」時，才會在特定群組中計算使用者的授權。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -63,7 +72,7 @@ ht-degree: 0%
 
    ![已配置的授權](assets/licenses-used-allocated.png)
 
-   如需Workfront管理員如何定義群組最大分配授權數目的詳細資訊，請參閱[管理系統中的可用授權](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md#set)一文中的[設定主群組的授權數目上限](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)小節。
+   如需Workfront管理員如何定義群組最大分配授權數目的詳細資訊，請參閱[管理系統中的可用授權](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)一文中的[設定主群組的授權數目上限](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md#set)小節。
 
    >[!NOTE]
    >

@@ -9,10 +9,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 15b702cf-61b8-41dc-8253-77cadc69bd80
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+TQID: https://experienceleague.adobe.com/MfWVOYcQAVjlbxwiqVaPwipyq5ulv0toajH-2tX7c9k
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 2%
+source-wordcount: 146
+ht-degree: 4%
 
 ---
 
@@ -22,7 +32,7 @@ ht-degree: 2%
 
 當我嘗試使用我的URL (https://customerdomain.my.workfront.com)登入[!DNL Adobe Workfront]時，我被重新導向到SAML登入入口網站，然後重新導向回[!DNL Workfront]，並出現以下錯誤：
 
-「請再試一次。下列欄位無效： emailAddr不可以是Null。」
+「請再試一次。 下列欄位無效： emailAddr不可以是Null。」
 
 ## 原因
 

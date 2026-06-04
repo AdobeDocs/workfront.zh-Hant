@@ -9,10 +9,19 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
+TQID: https://experienceleague.adobe.com/wgUZVPkh6AWQtmafLAcRFq0-P7lHtKuELUlOcCqpG0k
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 4%
+source-wordcount: 1214
+ht-degree: 7%
 
 ---
 
@@ -20,16 +29,16 @@ ht-degree: 4%
 
 開始實作Adobe Workfront時，您可以匯入客戶清單、內部部門、職位角色和使用者資訊，而不是手動輸入資料。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -160,7 +169,7 @@ ht-degree: 4%
 
 1. 按一下&#x200B;**其他選項**&#x200B;檢視匯入選項的完整清單。
 1. 選取您要匯入的存取層級、公司、群組、工作角色和使用者物件。
-1. 按一下&#x200B;**下載**。
+1. 按一下「**下載**」。
 
 ## 輸入公司資訊
 
@@ -274,7 +283,7 @@ ht-degree: 4%
 
 1. 輸入使用者的「主群組」詳細資料。
 
-   根據情境，Chris Manning屬於行銷群組。 在&#x200B;**群組群組**&#x200B;工作表上，找出行銷群組的識別碼，加以複製，然後在&#x200B;**使用者使用者**&#x200B;工作表上，將其貼到使用者列上的&#x200B;**setHomeGroupID**&#x200B;欄。&#x200B;URL對每個使用者和群組指派重複此步驟。
+   根據情境，Chris Manning屬於行銷群組。 在&#x200B;**群組群組**&#x200B;工作表上，找出行銷群組的識別碼，加以複製，然後在&#x200B;**使用者使用者**&#x200B;工作表上，將其貼到使用者列上的&#x200B;**setHomeGroupID**&#x200B;欄。 對每&#x200B;個使用者和群組指派重複此步驟。
 
    ![複製群組識別碼](assets/copygroupid-1-350x133.png) ![貼上群組識別碼](assets/pastegroupid-350x59.png)
 
@@ -288,7 +297,7 @@ ht-degree: 4%
 
 1. 輸入使用者的工作角色詳細資訊。
 
-   根據情況，Chris Manning將擔任Business Analyst角色。 在&#x200B;**ROLE角色**&#x200B;工作表上，找到Business Analyst角色的ID，複製它，然後在&#x200B;**USER User**&#x200B;工作表上將其貼到使用者列上的&#x200B;**setRoleID**&#x200B;欄。&#x200B;URL對每個使用者和群組指派重複此步驟。
+   根據情況，Chris Manning將擔任Business Analyst角色。 在&#x200B;**ROLE角色**&#x200B;工作表上，找到Business Analyst角色的ID，複製它，然後在&#x200B;**USER User**&#x200B;工作表上將其貼到使用者列上的&#x200B;**setRoleID**&#x200B;欄。 對每&#x200B;個使用者和群組指派重複此步驟。
 
    ![複製角色ID](assets/copyroleid-350x149.png) ![貼上角色ID](assets/pasteroleid-350x95.png)
 
@@ -303,4 +312,4 @@ ht-degree: 4%
 > 
 >如果您的組織已移轉至Adobe Admin Console，且使用者未在幾分鐘內離開「已停用」和「未決核准」狀態，您可以將使用者批次直接新增到Adobe Admin Console。
 >
->如需指示，請參閱[管理多個使用者 | 在Adobe檔案中大量上傳CSV](https://helpx.adobe.com/tw/enterprise/using/bulk-upload-users.html)。
+>相關說明請參閱 Adobe 文件中的[管理多個使用者 | 上傳大量 CSV](https://helpx.adobe.com/tw/enterprise/using/bulk-upload-users.html)。

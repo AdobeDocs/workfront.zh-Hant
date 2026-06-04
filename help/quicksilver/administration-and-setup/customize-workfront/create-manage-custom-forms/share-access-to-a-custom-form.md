@@ -8,9 +8,20 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 3e6ae76eea2e12fc7fc3a45dad753261a7bad628
+TQID: https://experienceleague.adobe.com/gpJQedqcdtjaxvhVuWKgJVpfAPAT2ICSgO6nRFLvimM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: 980
 ht-degree: 2%
 
 ---
@@ -171,7 +182,7 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
    >* 大多陣列織都想要確保系統中的每個人都可以填寫自訂表單，將其附加到他們工作的物件上，並在報表中檢視其資料。 如果您的組織有此情況，建議您使用&#x200B;**系統中的每個人都可以檢視**。
    >* <span class="preview">若您選取&#x200B;**系統中的每個人都可以檢視和附加**，則所有使用者都可以將表單附加到其他物件。</span>
    >
-   >在預覽環境中<span class="preview">範例影像：</span>
+   ><span class="preview">預覽環境中的範例影像：</span>
    >![共用自訂表單](assets/share-custom-forms-all-can-attach.png)
    >   
    >生產環境中的影像範例：

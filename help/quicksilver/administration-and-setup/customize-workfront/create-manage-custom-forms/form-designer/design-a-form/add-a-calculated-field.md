@@ -8,9 +8,22 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 2a08a1139664517b9ccf41121e8bb0dc686028ab
+TQID: https://experienceleague.adobe.com/MkpKnVckztNvRWKb2rSDUzt8fnJMWIGKG4sYUmuefig
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2720'
+source-wordcount: 2647
 ht-degree: 1%
 
 ---
@@ -153,7 +166,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader" id="instructions">指示</td> 
-      <td> 依預設，您為欄位建立的公式會儲存在此處。 您可以新增文字，以提供有關欄位及其公式的其他資訊。 此功能有兩個優點： 
+      <td> 依預設，您為欄位建立的公式會儲存在此處。您可以新增文字，以提供有關欄位及其公式的其他資訊。此功能有兩個優點： 
        <ul> 
       <li><p>提醒您公式是什麼及其運作方式。 如果您打算在多個表單上使用此計算自訂欄位，這會特別實用。</p> </li> 
       <li> <p>當使用者將游標停留在欄位上時，即可看到工具提示。 您可以在此處新增任何您希望他們在工具提示中看到的文字。</p> <p>如果您不希望他們在工具提示中看到公式（這可能會導致他們困惑），您可以隱藏它。</li> 
@@ -312,9 +325,9 @@ ht-degree: 1%
       > 
       >* 將滑鼠停留在計算中的運算式上可檢視說明、如何使用的範例，以及文章[計算資料運算式概觀](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)中詳細資訊的&#x200B;**深入瞭解**&#x200B;連結。
       >  ![運算式說明文字](assets/hover-expression-help-text.jpg)
-      >* 使用顏色編碼來識別您新增的元件。 運算式會以藍色顯示，而欄位則會以綠色顯示。
+      >* 使用顏色編碼來識別您新增的元件。運算式會以藍色顯示，而欄位則會以綠色顯示。
       >  欄位運算式的![色彩](assets/colors-fields-expressions.jpg)
-      >* 立即尋找以粉紅色反白顯示的計算錯誤。 您可以將滑鼠停留在醒目提示的錯誤上，以顯示其原因的簡短說明。
+      >* 立即尋找以粉紅色反白顯示的計算錯誤。您可以將滑鼠停留在醒目提示的錯誤上，以顯示其原因的簡短說明。
       >  ![錯誤說明](assets/error-help.png)
       >* 在計算下方的區域中，預覽現有Workfront物件的結果。
       ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->

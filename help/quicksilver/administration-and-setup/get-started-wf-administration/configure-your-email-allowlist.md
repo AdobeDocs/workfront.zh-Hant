@@ -8,10 +8,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 76b6acc4-c432-47b4-90bf-6e37e970625f
-source-git-commit: 15ea03bf586054f7ef421f8cacede6f42835a6e4
+TQID: https://experienceleague.adobe.com/a8hcTFpx3LmuGpQM8Wk8BpLDCFUVJWLAcP-YV5ogK0U
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 0%
+source-wordcount: 403
+ht-degree: 3%
 
 ---
 
@@ -31,13 +41,13 @@ ht-degree: 0%
 >所有來自Workfront的電子郵件都會從該地址傳送，以增加成功的電子郵件傳遞，並消除偽造電子郵件的行為。 這包括自動警報和使用者之間的通訊。
 >
 >例如，您從名為Joan Harris的使用者收到的Workfront電子郵件中的「寄件者」行如下所示：
->&#x200B;>`Joan Harris <notifications@my.workfront.com>`
+>`Joan Harris <notifications@my.workfront.com>`
 
 如需有關設定組織防火牆以開啟環境與Adobe Workfront伺服器之間通訊的資訊，請參閱[設定防火牆允許清單](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 

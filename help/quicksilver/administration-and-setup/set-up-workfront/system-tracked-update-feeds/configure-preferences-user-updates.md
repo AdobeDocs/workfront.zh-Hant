@@ -8,12 +8,21 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/67OfYPIrN7Tzciapa37YHviFI4uptaGgkWkMMREgw-k
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 5%
+source-wordcount: 271
+ht-degree: 8%
 
 ---
 
@@ -79,7 +88,7 @@ Old:
 </table>
 -->
 
-## 允許使用者在更新中新增影像
+## 允許使用者在更新中新增圖片
 
 依預設，使用者無法在更新中新增影像。 當您啟用此偏好設定時，使用者將可以在更新中附加影像。 偏好設定適用於您[!DNL Workfront]執行個體所有區域中的所有更新。
 
@@ -89,7 +98,7 @@ Old:
 >* 影像可透過物件上的[!UICONTROL 更新]標籤存取，也可在[!UICONTROL 主要功能表]下的[!UICONTROL 檔案]區域取得。
 >
 
-1. 按一下&#x200B;**[!UICONTROL 右上角的]**&#x200B;主功能表![圖示](assets/main-menu-icon.png)主功能表圖示[!DNL Adobe Workfront]，然後按一下&#x200B;**[!UICONTROL 設定]** ![齒輪設定圖示](assets/gear-icon-settings.png)。
+1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![齒輪設定圖示](assets/gear-icon-settings.png)。
 1. 在左側面板中，選取&#x200B;**[!UICONTROL 介面]** > **[!UICONTROL 更新摘要]**。
 1. 選取&#x200B;**[!UICONTROL 偏好設定]**&#x200B;標籤。
 

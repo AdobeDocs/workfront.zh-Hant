@@ -9,10 +9,21 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4f7b6f40-cfbd-4f02-8c3e-de26b05db13b
-source-git-commit: 929502c256011b464d938ad1095c127407e4a795
+TQID: https://experienceleague.adobe.com/dePu-QWwwUQxW6SB-S53emEDnMpew-eK-eyec7vEYPQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 0%
+source-wordcount: 434
+ht-degree: 3%
 
 ---
 
@@ -26,9 +37,9 @@ ht-degree: 0%
 
 在花費時間疑難排解問題之前，請先確定使用者的POP帳戶已正確設定。 如果您在確認POP帳戶已正確設定之後仍然遇到問題，請連絡[!DNL Microsoft]支援或其中一個合作夥伴以取得其他協助。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -58,7 +69,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->下列步驟可作為一般指南，用於為生產[!DNL Microsoft Exchange]系統設定[!DNL Workfront]中的POP。 根據Exchange的版本或Microsoft所做的程式碼變更，這些步驟可能會有顯著差異。
+>下列步驟可作為一般指南，用於為生產[!DNL Workfront]系統設定[!DNL Microsoft Exchange]中的POP。 根據Exchange的版本或Microsoft所做的程式碼變更，這些步驟可能會有顯著差異。
 
 1. 在Exchange 2010伺服器上啟動並啟用POP3服務。
 

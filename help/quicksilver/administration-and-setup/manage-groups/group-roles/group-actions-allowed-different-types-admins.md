@@ -8,10 +8,23 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/BRL1-glICVWSXkdA8HYkbXVfCfEKafHjLBOSrfiVRXM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: c549503a-6440-4802-9525-ceb73a00feff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 3%
+source-wordcount: 450
+ht-degree: 4%
 
 ---
 
@@ -226,7 +239,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-&#42;在群組管理員的存取層級中，必須為&#x200B;**使用者**&#x200B;設定選取&#x200B;**編輯**，並在&#x200B;**微調您的設定** **微調設定圖示**&#x200B;中選取![使用者管理員（群組使用者）](assets/gear-icon-in-access-levels.png)。 如需詳細資訊，請參閱[授予使用者存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit)一文中的[設定使用者的存取權，以使用自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)編輯使用者一節。
+&#42;在群組管理員的存取層級中，必須為&#x200B;**使用者**&#x200B;設定選取&#x200B;**編輯**，並在&#x200B;**微調您的設定** ![微調設定圖示](assets/gear-icon-in-access-levels.png)中選取&#x200B;**使用者管理員（群組使用者）**。 如需詳細資訊，請參閱[授予使用者存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)一文中的[設定使用者的存取權，以使用自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit)編輯使用者一節。
 
 &#42;&#42;在群組管理員的存取層級中，必須啟用此動作的存取權。 如需詳細資訊，請參閱[授予使用者對特定區域的管理存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 

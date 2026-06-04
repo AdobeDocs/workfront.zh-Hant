@@ -8,10 +8,19 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 776bb223-3481-4ea9-8049-276b2dec95c5
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+TQID: https://experienceleague.adobe.com/ON-83bWPxk8qygeJ8WCJD-3chguXe4YHUtxHhgrqzyY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 0%
+source-wordcount: 579
+ht-degree: 3%
 
 ---
 
@@ -28,16 +37,16 @@ ht-degree: 0%
 >
 >如需使用者在共用報表、儀表板或行事曆時可授與的許可權相關資訊，請參閱[共用報表、儀表板和行事曆](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
@@ -59,7 +68,7 @@ ht-degree: 0%
 ## 使用自訂存取層級設定使用者對報告、儀表板和行事曆的存取權
 
 1. 開始建立或編輯存取層級，如[建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)中所述。
-1. 按一下報告右側![](assets/gear-icon-settings.png)檢視&#x200B;**或**&#x200B;編輯&#x200B;**按鈕上的齒輪圖示**，然後在&#x200B;**微調您的設定**&#x200B;下選取您要授與的功能。
+1. 按一下報告右側&#x200B;**檢視**&#x200B;或&#x200B;**編輯**&#x200B;按鈕上的齒輪圖示![](assets/gear-icon-settings.png)，然後在&#x200B;**微調您的設定**&#x200B;下選取您要授與的功能。
 
    ![reports_access.png](assets/reports-access.png)
 
@@ -81,7 +90,7 @@ ht-degree: 0%
 
 ## 依授權型別存取報告、儀表板和行事曆
 
-如需有關每個存取層級中的使用者可以對問題執行的資訊，請參閱文章[每個物件型別可用的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#reports)中的[報告](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)小節。
+如需有關每個存取層級中的使用者可以對問題執行的資訊，請參閱文章[每個物件型別可用的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)中的[報告](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#reports)小節。
 
 ## 存取共用的報告、儀表板和行事曆
 

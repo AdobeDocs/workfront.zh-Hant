@@ -4,16 +4,28 @@ description: 客戶和合作夥伴可以利用由 Adobe App Builder 提供技術
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+TQID: https://experienceleague.adobe.com/k2cF0H-CM1DhlRvIl7zPyz-G30wi-Q4c16ClcB-vpCs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2269'
-ht-degree: 0%
+source-wordcount: 2329
+ht-degree: 1%
 
 ---
 
 # 使用Adobe App Builder為Workfront建立自訂應用程式
 
-由Adobe App Builder支援的Workfront UI擴充功能可讓客戶和合作夥伴建立自訂的使用者體驗。 這些工具可提升效率、提供順暢、連線的體驗，並大幅提升使用者滿意度，協助企業實現其獨特願景。
+客戶和合作夥伴可以利用由 Adobe App Builder 提供技術支援的 Workfront UI 擴充功能，建立自訂使用者體驗。 這些工具可提升效率、提供順暢、連線的體驗，並大幅提升使用者滿意度，協助企業實現其獨特願景。
 
 例如，如果沒有Workfront UI擴充功能，專案經理可能需要在Workfront和單獨的時間追蹤系統之間切換以記錄時數。 有了UI擴充功能，可直接將時間追蹤整合到Workfront體驗中，藉此簡化工作流程並節省時間。 此外，您可以新增自訂元件，以提升可用性、自動化重複工作，並透過如中繼資料標籤和內容預覽等功能，增強內容管理。 Adobe App Builder也提供擴充能力及強大的身分管理(IMS)，確保安全且有效率的自訂，規模不限。
 
@@ -229,7 +241,7 @@ Widget是模組化UI元件，可作為表單欄位新增到Workfront自訂表單
 
 #### 設定Widget擴充功能
 
-如同主要功能表和次要導覽的UI擴充點一樣，「Widget」擴充點通常會在`ExtensionRegistration`欄位的`ExtensionRegistration.js`元件的methods物件中設定。 這表示使用表單Widget只需要在app.js中以有效路徑在`extesionregistration`中新增「Widget」專案：
+如同主要功能表和次要導覽的UI擴充點一樣，「Widget」擴充點通常會在`ExtensionRegistration.js`欄位的`ExtensionRegistration`元件的methods物件中設定。 這表示使用表單Widget只需要在app.js中以有效路徑在`extesionregistration`中新增「Widget」專案：
 
 ```
 javascript 

@@ -9,10 +9,23 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
+TQID: https://experienceleague.adobe.com/n-fUDmSaLJtcjRr-VGoHW1w5c1Yd60iD-1Eb-Nle7-A
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: a91f865d-c69e-423f-aeff-28a3d6e8554d
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 8%
+source-wordcount: 980
+ht-degree: 11%
 
 ---
 
@@ -28,16 +41,16 @@ ht-degree: 8%
 
 透過Kick-Starts匯出資料也有助於瞭解哪些欄位與每個物件相關聯、這些欄位的編碼方式，以及這些欄位的值在資料庫中的格式化。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -121,12 +134,12 @@ ht-degree: 8%
     </thead> 
     <tbody> 
      <tr> 
-      <td scope="col" valign="top"> <p>控制面板</p> <p> </p> <p> </p> </td> 
+      <td scope="col" valign="top"> <p>儀表板</p> <p> </p> <p> </p> </td> 
       <td scope="col" valign="top"> <p>引數<br>引數選項<br>引數群組<br>類別引數<br>類別<br>報表<br>入口網站頁簽區段<br>儀表板<br>偏好設定</p> </td> 
       <td scope="col" valign="top"> ZIP</td> 
      </tr> 
      <tr> 
-      <td scope="col" valign="top"> <p>報表</p> <p> </p> <p> </p> </td> 
+      <td scope="col" valign="top"> <p>報告</p> <p> </p> <p> </p> </td> 
       <td scope="col" valign="top">引數<br>引數選項<br>引數群組<br>類別引數<br>類別<br>報表<br>偏好設定</td> 
       <td scope="col" valign="top"> ZIP </td> 
      </tr> 
@@ -233,7 +246,7 @@ ht-degree: 8%
       <td valign="top">ZIP</td> 
      </tr> 
      <tr> 
-      <td valign="top">Hour</td> 
+      <td valign="top">時數</td> 
       <td valign="top"> 小時<br>喜好設定 </td> 
       <td valign="top">Excel</td> 
      </tr> 
@@ -258,7 +271,7 @@ ht-degree: 8%
       <td valign="top">Excel</td> 
      </tr> 
      <tr> 
-      <td valign="top">產品組合</td> 
+      <td valign="top">專案組合</td> 
       <td valign="top"> Portfolio<br>喜好設定  </td> 
       <td valign="top">Excel</td> 
      </tr> 

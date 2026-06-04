@@ -5,13 +5,21 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
+TQID: https://experienceleague.adobe.com/jLoqncsE3CSAK27siU8Ro2EQdZkbJC-gs040vGxX-5E
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: 900
 ht-degree: 3%
 
 ---
-
 
 # 授予使用者存取許可權
 
@@ -66,7 +74,7 @@ ht-degree: 3%
 ## 設定使用者的存取權，以使用自訂存取層級編輯使用者
 
 1. 開始建立或編輯存取層級，如[建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)中所述。
-1. 若要變更擁有標準、計畫或工作授權的使用者檢視其他使用者資訊的能力，請按一下![使用者](assets/gear-icon-settings.png)右側&#x200B;**檢視**&#x200B;按鈕上的齒輪圖示&#x200B;**齒輪圖示**，然後在&#x200B;**微調您的設定**&#x200B;方塊中選取您要授與的檢視選項：
+1. 若要變更擁有標準、計畫或工作授權的使用者檢視其他使用者資訊的能力，請按一下&#x200B;**使用者**&#x200B;右側&#x200B;**檢視**&#x200B;按鈕上的齒輪圖示![齒輪圖示](assets/gear-icon-settings.png)，然後在&#x200B;**微調您的設定**&#x200B;方塊中選取您要授與的檢視選項：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -93,7 +101,7 @@ ht-degree: 3%
 
    ![微調檢視使用者設定](assets/fine-tune-view-users.png)
 
-1. 若要修改具有Standard或Plan授權存取許可權的使用者編輯其他使用者的能力，請按一下![使用者](assets/gear-icon-settings.png)右側&#x200B;**編輯**&#x200B;按鈕上的齒輪圖示&#x200B;**齒輪圖示**，然後在&#x200B;**微調您的設定**&#x200B;方塊中選取您要授與的編輯選項：
+1. 若要修改具有Standard或Plan授權存取許可權的使用者編輯其他使用者的能力，請按一下&#x200B;**使用者**&#x200B;右側&#x200B;**編輯**&#x200B;按鈕上的齒輪圖示![齒輪圖示](assets/gear-icon-settings.png)，然後在&#x200B;**微調您的設定**&#x200B;方塊中選取您要授與的編輯選項：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -163,4 +171,4 @@ ht-degree: 3%
 
 ## 依授權型別存取使用者
 
-如需有關每個存取層級中的使用者可以對使用者執行哪些操作的資訊，請參閱文章[每個物件型別可用的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#users)中的[使用者](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)小節。
+如需有關每個存取層級中的使用者可以對使用者執行哪些操作的資訊，請參閱文章[每個物件型別可用的功能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)中的[使用者](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#users)小節。

@@ -5,10 +5,24 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: edd2c58a-f912-4638-b6a3-ff3b1b622f48
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/SpYyjn3ahnu85wb0chS5Z-AVgqds9byXlytU9oZs2SM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 1%
+source-wordcount: 609
+ht-degree: 4%
 
 ---
 
@@ -24,16 +38,16 @@ ht-degree: 1%
 
 如需如何停用或重新啟用群組的詳細資訊，請參閱[停用或重新啟用群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -74,7 +88,7 @@ ht-degree: 1%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">為作用中</td> 
-      <td> <p>（預設為啟用）在您的Workfront執行個體中啟用群組。</p> <p>在類似下面所示的預先輸入欄位中，當一般使用者搜尋群組以將其附加至物件或與其共用物件時，清單中只會顯示作用中的群組。</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>若要簡化使用者的這項作業，您可以停用目前未使用之群組的[作用中]選項。</p> <p>您可以使用此欄位，根據作用中或非作用中狀態輕鬆檢視、篩選及分組群組清單。 如需有關在清單中使用檢視、篩選和群組的資訊，請參閱<a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">報告元素：篩選器、檢視和群組</a>。</p> <p>如需非作用中群組的相關資訊，請參閱文章<a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md#inactive" class="MCXref xref">刪除或停用自訂表單</a>中的<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md" class="MCXref xref">非作用中群組的考量事項</a>一節。</p> </td> 
+      <td> <p>（預設為啟用）在您的Workfront執行個體中啟用群組。</p> <p>在類似下面所示的預先輸入欄位中，當一般使用者搜尋群組以將其附加至物件或與其共用物件時，清單中只會顯示作用中的群組。</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>若要簡化使用者的這項作業，您可以停用目前未使用之群組的[作用中]選項。</p> <p>您可以使用此欄位，根據作用中或非作用中狀態輕鬆檢視、篩選及分組群組清單。 如需有關在清單中使用檢視、篩選和群組的資訊，請參閱<a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">報告元素：篩選器、檢視和群組</a>。</p> <p>如需非作用中群組的相關資訊，請參閱文章<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md" class="MCXref xref">刪除或停用自訂表單</a>中的<a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md#inactive" class="MCXref xref">非作用中群組的考量事項</a>一節。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">群組協助工具</td> 

@@ -10,11 +10,23 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/RSCrGr2jt6lfVf03ixndpc-GUTxb-XNdiMZMZk0II4g
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: 761
 ht-degree: 0%
 
 ---
@@ -57,7 +69,7 @@ ht-degree: 0%
 
   >[!IMPORTANT]
   >
-  >[!DNL Workfront]使用使用者或專案排程來決定資源規劃工具中的資源可用性。 使用哪個排程取決於管理員為[!DNL Workfront]使用[!UICONTROL 計算資源可用性設定選取的]專案。 如需有關資源管理設定的資訊，請參閱[設定資源管理喜好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)。
+  >[!DNL Workfront]使用使用者或專案排程來決定資源規劃工具中的資源可用性。 使用哪個排程取決於管理員為[!UICONTROL 使用]計算資源可用性設定選取的[!DNL Workfront]專案。 如需有關資源管理設定的資訊，請參閱[設定資源管理喜好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)。
 
 ## 排程階層
 
@@ -65,7 +77,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->只有在[!DNL Workfront]安裝程式[!UICONTROL 的]資源管理[!UICONTROL 區域中的]使用來計算資源可用性[!UICONTROL 設定設為]使用者的排程[!UICONTROL 時，]才會使用使用者的排程。 如需[!UICONTROL 使用]計算資源可用性的設定如何影響用於資源管理的排程，請參閱[設定資源管理喜好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)。
+>只有在[!UICONTROL 安裝程式]的[!UICONTROL 資源管理]區域中的[!UICONTROL 使用來計算資源可用性]設定設為[!UICONTROL 使用者的排程]時，[!DNL Workfront]才會使用使用者的排程。 如需[!UICONTROL 使用]計算資源可用性的設定如何影響用於資源管理的排程，請參閱[設定資源管理喜好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)。
 
 存在多個排程時，系統使用排程的順序為：
 

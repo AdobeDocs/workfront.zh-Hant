@@ -1,5 +1,5 @@
 ---
-title: '使用 [!DNL Workfront] 舊版聯結器設定 [!DNL Adobe Experience Manager] '
+title: '使用 [!DNL Adobe Experience Manager] 舊版聯結器設定 [!DNL Workfront] '
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
@@ -8,33 +8,47 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: 8233bcad8409b6f293d365fe871338e643a410dc
+TQID: https://experienceleague.adobe.com/8Q6Zl8hZ-1xapGhFs9niCKnpeq-o4kgIta4tu8ObBYs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d8302c96-f652-4d09-896b-19a70bab02a5
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: da3860b0-d637-47df-bef0-273751180266
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1855'
-ht-degree: 0%
+source-wordcount: 1869
+ht-degree: 1%
 
 ---
 
-# 使用[!DNL Workfront]舊版聯結器設定[!DNL Adobe Experience Manager]
+# 使用[!DNL Adobe Experience Manager]舊版聯結器設定[!DNL Workfront]
 
 <!-- Audited: 4/2025 -->
 
 身為[!DNL Adobe Workfront]管理員，您可以整合[!DNL Workfront]與[!UICONTROL Adobe Experience Manager (AEM) Assets]，並為您的組織提供完整的內容管理解決方案，以建立、共用及維護工作流程中的資產。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table>
   <tr>
-   <td>Adobe Workfront套件
+   <td>Adobe Workfront 封裝
    </td>
    <td> <p>Prime或Ultimate</p>
     <p>Workflow Ultimate</p>
    </td>
   </tr>
   <tr>
-   <td>Adobe Workfront授權
+   <td>Adobe Workfront 授權
    </td>
    <td><p>標準</p>
    <p>規劃</p>
@@ -62,7 +76,7 @@ ht-degree: 0%
 
 * 與[!DNL AEM Digital Asset Managemen]t (DAM)存放庫整合，可讓您使用[!DNL Workfront]管理和共用儲存在DAM中的數位資產。
 
-  如需連結檔案和資產資料夾的詳細資訊，請參閱   [從外部應用程式連結檔案](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)。
+  如需連結檔案和資產資料夾的詳細資訊，請參閱[從外部應用程式連結檔案](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)。
 
 * 將來自兩個應用程式的中繼資料合併並套用至資產。
 * 檢視資產的包含所有內容通訊資料流。 在[!DNL Workfront]或[!UICONTROL AEM Assets]中對資產所做的更新和註解會同步處理至其他應用程式，以建立對資產進行通訊的完整歷史記錄。
@@ -71,7 +85,7 @@ ht-degree: 0%
 
 ## 安裝[!DNL AEM Assets]聯結器的先決條件
 
-在安裝[!DNL Workfront]AEM Assets[!UICONTROL 的]聯結器之前，請確定符合下列必要條件：
+在安裝[!UICONTROL AEM Assets]的[!DNL Workfront]聯結器之前，請確定符合下列必要條件：
 
 * [!UICONTROL AEM Assets]已安裝並設定，版本6.5或更新版本。 如需有關安裝[!UICONTROL AEM Assets]的資訊，請參閱[[!DNL Adobe Experience Manager] 檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager)。
 * （視條件而定）如果防火牆規則未如預期允許流量，請將叢集的IP位址和/或網域新增至允許清單。 如需詳細資訊，請參閱[設定防火牆的允許清單](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
@@ -86,7 +100,7 @@ ht-degree: 0%
 
 1. 在已安裝AEM的工作站上，下載[!DNL Workfront for AEM Assets] Connector安裝檔案。
 
-   您可以從您的[!DNL Workfront for AEM Assets]代表取得[!DNL Workfront]聯結器。
+   您可以從您的[!DNL Workfront]代表取得[!DNL Workfront for AEM Assets]聯結器。
 
 1. 使用管理員帳戶登入AEM。
 1. 按一下「**[!UICONTROL 工具]**」>「**[!UICONTROL 部署]**」>「**[!UICONTROL 封裝]**」。 [!UICONTROL CRX封裝管理員]開啟。
@@ -123,9 +137,9 @@ ht-degree: 0%
 開始之前，您必須啟用Workfront服務的許可權：
 
 1. 在AEM中，移至&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 安全性]** > **[!UICONTROL 許可權]**。
-1. 在左上角，在下拉式選單中選擇&#x200B;**[!UICONTROL 使用者]**&#x200B;，並在&#x200B;*[!UICONTROL 搜尋]*&#x200B;欄&#x200B;位中輸入&#x200B;**[!UICONTROL workfront-service]**。 選取[!UICONTROL workfront-service]使用者。
+1. 在左上角，在下拉式選單中選擇&#x200B;**[!UICONTROL 使用者]**&#x200B;，並在&#x200B;**[!UICONTROL 搜尋]**&#x200B;欄&#x200B;位中輸入&#x200B;*[!UICONTROL workfront-service]*。 選取[!UICONTROL workfront-service]使用者。
 1. 在熒幕右側，選取&#x200B;**[!UICONTROL 新增ACE]**&#x200B;以建立新專案。
-1. 在{&#x200B;0}新增專案&#x200B;**[!UICONTROL 視窗中，選取]**&#x200B;路徑&#x200B;**[!UICONTROL 欄&#x200B;位中的核取方塊圖示&#x200B;，然後選擇資料夾：]**/conf **
+1. 在{&#x200B;0}新增專案&#x200B;**視窗中，選取**&#x200B;[!UICONTROL &#x200B;路徑&#x200B;]&#x200B;**欄&#x200B;位中的核取方塊圖示&#x200B;，然後選擇資料夾： */conf***
 1. 在&#x200B;**許可權**&#x200B;欄位中，輸入： *jcr:read*
 1. 在右上角，選取&#x200B;**新增**。
 1. （可選）重複上述步驟以建立更多專案。
@@ -142,7 +156,7 @@ ht-degree: 0%
 
       例如，[!DNL https]：//`<account>`.my.workfront.com，其中`<account>`是您用來與AEM整合的帳戶。
 
-   1. 在{&#x200B;0}基本資料夾&#x200B;**[!UICONTROL 欄位中，選取核取方塊圖示。]**
+   1. 在{&#x200B;0}基本資料夾&#x200B;**欄位中，選取核取方塊圖示。**
    1. 在下拉式功能表中，選取連結至[!DNL Workfront]物件的檔案儲存路徑。
    1. 在出現的AEM強制回應視窗中，將連結至[!DNL Workfront]物件的檔案置於資料夾的路徑之後。 選擇資料夾，然後按右上角的&#x200B;**[!UICONTROL &#x200B;選取]**。
 
@@ -169,7 +183,7 @@ ht-degree: 0%
          1. 在&#x200B;**[!UICONTROL 您使用者的API金鑰]**&#x200B;標籤下，按一下&#x200B;**[!UICONTROL 產生API金鑰]**。 [!DNL Workfront]的API金鑰會產生並顯示。
       1. 將API金鑰複製到剪貼簿。
       1. 開啟AEM Connector的瀏覽器標籤，並在&#x200B;**[!DNL Workfront API Key]**&#x200B;方塊中，貼上您複製的API金鑰。
-   1. （視條件而定）按一下「**[!UICONTROL 整合組態]**」頁面左上角的「[!UICONTROL [!DNL Workfront]進階]」標籤，並選取下列適用的選項：
+   1. （視條件而定）按一下「[!UICONTROL [!DNL Workfront]整合組態]」頁面左上角的「**[!UICONTROL 進階]**」標籤，並選取下列適用的選項：
 
       **[!UICONTROL 允許集合瀏覽]：**&#x200B;如果您的組織允許[!DNL Workfront]位使用者將AEM Assets集合連結至[!DNL Workfront]物件，請選取此選項。
 
@@ -228,7 +242,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL OSGI]**，然後在下拉式功能表中按一下&#x200B;**[!UICONTROL 組態]**。
 
-1. 在設定清單中，選取&#x200B;**[!UICONTROL &#x200B;Day CQ Link Externalizer]。**&#x200B;顯示&#x200B;**[!UICONTROL Externalizer]**&#x200B;頁面。
+1. 在設定清單中，選取&#x200B;**[!UICONTROL &#x200B;Day CQ Link Externalizer].** 顯示&#x200B;**[!UICONTROL Externalizer]**&#x200B;頁面。
 
 1. 在&#x200B;**[!UICONTROL 網域]**&#x200B;區段中，確認&#x200B;**[!UICONTROL 作者]**&#x200B;欄位中所列的網域是AEM使用者可從外部存取的網域名稱。
 
@@ -237,13 +251,13 @@ ht-degree: 0%
    ![[!DNL Extenalizer].png](assets/extenalizer-350x128.png)
 
 1. （條件式）如有必要，請更新&#x200B;**[!UICONTROL 作者]**&#x200B;欄位中的網域。
-1. 按一下「**[!UICONTROL 儲存]**」。[!UICONTROL AEM Assets]現在已設定為連結檔案與[!DNL Workfront]。
+1. 按一下「**[!UICONTROL 儲存]**」。 [!UICONTROL AEM Assets]現在已設定為連結檔案與[!DNL Workfront]。
 
 1. 繼續進行[設定 [!DNL Workfront] 以與 [!DNL AEM assets]](#configure-workfront-to-integrate-with-aem-assets)整合。
 
 ## 設定[!DNL Workfront]以與[!DNL AEM assets]整合 {#configure-workfront-to-integrate-with-aem-assets}
 
-安裝[!UICONTROL Workfront for AEM Assets]聯結器後(如[安裝[!UICONTROL Workfront for AEM Assets]聯結器套件](#install-the-workfront-for-aem-assets-connector-package)中所述)，並設定[!UICONTROL AEM Assets] (如[設定[!UICONTROL AEM Assets]以與 [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront)整合)，您需要設定[!DNL Workfront]以連結介於[!DNL Workfront]和[!DNL AEM Assets]之間的檔案。
+安裝[!UICONTROL Workfront for AEM Assets]聯結器後（如[安裝[!UICONTROL Workfront for AEM Assets]聯結器套件](#install-the-workfront-for-aem-assets-connector-package)中所述），並設定[!UICONTROL AEM Assets] （如[設定[!UICONTROL AEM Assets]以與 [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront)整合），您需要設定[!DNL Workfront]以連結介於[!DNL Workfront]和[!DNL AEM Assets]之間的檔案。
 
 1. 以管理員身分登入Workfront。
 
@@ -268,7 +282,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL 驗證型別]**&#x200B;下拉式功能表中，選取&#x200B;**[!UICONTROL ApiKey].**
 
-1. 在{&#x200B;0}API金鑰&#x200B;**[!UICONTROL 方塊中，貼上您設定]** AEM Assets[!UICONTROL 時複製的AEM API金鑰。]
+1. 在{&#x200B;0}API金鑰&#x200B;**方塊中，貼上您設定[!UICONTROL AEM Assets]時複製的AEM API金鑰。**
 1. 按一下「**[!UICONTROL 儲存]**」。
 1. （選擇性）確定整合已標籤為[!UICONTROL 使用中]。\
    ![aem_custom_integration_active.png](assets/aem-custom-integration-active-350x81.png)
@@ -299,7 +313,7 @@ ht-degree: 0%
 
       唯一的必填欄位是&#x200B;**ID**&#x200B;欄位。 使用者的AEM ID必須符合其[!DNL Workfront] ID，也就是使用者的[!DNL Workfront]電子郵件地址。
 
-      如果您在設定AEM與&#x200B;**[!UICONTROL 整合時選取]**&#x200B;忽略電子郵件網域[!DNL Workfront]選項，則AEM ID將不會符合[!DNL Workfront]電子郵件地址。
+      如果您在設定AEM與[!DNL Workfront]整合時選取&#x200B;**[!UICONTROL 忽略電子郵件網域]**&#x200B;選項，則AEM ID將不會符合[!DNL Workfront]電子郵件地址。
 
 1. （視條件而定）如果使用者有AEM設定檔，請開啟使用者的AEM設定檔：
 
@@ -311,7 +325,7 @@ ht-degree: 0%
 
    ![群組標籤](assets/groupstab.png)
 
-1. 確定使用者至少屬於一個存取層級包含[!DNL Workfront]建立&#x200B;**[!UICONTROL 和]**&#x200B;刪除&#x200B;**[!UICONTROL 許可權的]**&#x200B;群組。
+1. 確定使用者至少屬於一個存取層級包含&#x200B;**[!UICONTROL 建立]**&#x200B;和&#x200B;**[!UICONTROL 刪除]**&#x200B;許可權的[!DNL Workfront]群組。
 
    1. 若要將使用者新增至現有群組，請在&#x200B;**[!UICONTROL 輸入群組名稱]**&#x200B;方塊中開始輸入群組名稱，然後在群組出現在下拉式功能表中時選取該群組。
 

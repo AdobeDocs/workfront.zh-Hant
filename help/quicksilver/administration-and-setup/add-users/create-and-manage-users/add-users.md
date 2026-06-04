@@ -8,9 +8,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: 6caee75959eccc6f04a99065af9cc8a7e8803017
+TQID: https://experienceleague.adobe.com/TeDJRpOI2i7PQIb-ImUyHTTi0ETJ7pZcOVRM3WMQhWY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: 1221
 ht-degree: 5%
 
 ---
@@ -29,7 +40,7 @@ ht-degree: 5%
 >
 >   如需根據貴組織是否已加入Adobe Admin Console而有所差異的程式清單，請參閱[Adobe Workfront與Adobe商務平台之間的管理差異](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 >
->* **如果您的組織使用單一登入(SSO)**，建議您在Adobe Admin Console中建立使用者並將其指派給Workfront。 您可以在Workfront中建立這些使用者，但根據您組織的Admin Console設定方式，將該資訊傳輸至Adobe Admin Console時可能會發生問題。
+>* **如果您的組織使用單一登入(SSO)**，建議您在Adobe Admin Console中建立使用者並將其指派給Workfront。您可以在Workfront中建立這些使用者，但根據您組織的Admin Console設定方式，將該資訊傳輸至Adobe Admin Console時可能會發生問題。
 >   在Adobe Admin Console中建立使用者後，您可以在Workfront中設定使用者的資訊，例如指派角色、群組、團隊和存取層級。
 >* **如果您的組織未使用單一登入(SSO)**，您可以直接在Workfront中新增非系統管理員使用者。 您可以在Adobe Admin Console中新增使用者，但若在Workfront中新增使用者，您可於建立使用者時設定其存取層級，藉此節省您的時間。
 

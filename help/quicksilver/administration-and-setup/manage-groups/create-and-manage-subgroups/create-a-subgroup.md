@@ -8,10 +8,20 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: b59b1491-9a78-49c0-89c9-ab1ce0099e0b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/ol-xgm0Fz8GAbJWdpjvwwt-2fvGB0krGfIclosiOfGY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 0%
+source-wordcount: 637
+ht-degree: 2%
 
 ---
 
@@ -23,16 +33,16 @@ ht-degree: 0%
 
 不過，通常群組管理員會管理群組和子群組。 他們可以利用「群組」頁面，集中管理群組和子群組。 若要瞭解群組與子群組在Workfront中的運作方式，請參閱[群組總覽](../../../administration-and-setup/manage-groups/groups-overview/groups.md)與[子群組總覽](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -69,7 +79,7 @@ ht-degree: 0%
 
      在如下所示的預先輸入欄位中，當一般使用者搜尋群組以將其附加到物件或與其共用物件時，清單中只會顯示作用中的群組。
 
-     群組![的](assets/typeahead-for-group.png)自動提示欄位
+     群組![&#128279;](assets/typeahead-for-group.png)的自動提示欄位
 
      若要簡化使用者的這項作業，您可以停用目前未使用之群組的&#x200B;**作用中**&#x200B;選項。
 

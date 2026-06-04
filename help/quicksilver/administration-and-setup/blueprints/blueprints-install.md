@@ -9,11 +9,21 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 546e19ab-dc50-4d23-b5f6-31bde1c82b6a
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/PJ7DN2mrsCeXeimGmBQL17ye0EaQIK2uDed1YHvuXw8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: 478
 ht-degree: 4%
 
 ---
@@ -64,11 +74,11 @@ ht-degree: 4%
     </tr>
     <tr>
         <td><strong>Sandbox 預覽</strong></td>
-        <td>沙箱預覽是測試環境，可作為即時環境的復本，並在每個週末由Adobe Workfront重新整理。 所有支援套件都可存取「沙箱預覽」。 如需詳細資訊，請參閱<a href="../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">預覽Sandbox環境[!DNL Adobe Workfront]。</a></td>
+        <td>沙箱預覽是測試環境，可作為即時環境的復本，並在每個週末由Adobe Workfront重新整理。 所有支援套件都可存取「沙箱預覽」。 如需詳細資訊，請參閱<a href="../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">預覽Sandbox環境</a>。[!DNL Adobe Workfront]</td>
     </tr>
     <tr>
         <td><strong>Sandbox 1和2</strong></td>
-        <td>自訂重新整理沙箱是獨立的測試環境，由您手動重新整理。 取得自訂重新整理沙箱需要額外付費。 如需詳細資訊，請參閱<a href="../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md">自訂重新整理沙箱環境[!DNL Adobe Workfront]。</a></td>
+        <td>自訂重新整理沙箱是獨立的測試環境，由您手動重新整理。 取得自訂重新整理沙箱需要額外付費。 如需詳細資訊，請參閱<a href="../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md">自訂重新整理沙箱環境</a>。[!DNL Adobe Workfront]</td>
     </tr>
 </table>
 
@@ -89,7 +99,7 @@ ht-degree: 4%
 1. （選用）按一下「**[!UICONTROL 詳細資料]**」以瞭解Blueprint的運作方式。
 1. 按一下&#x200B;**[!UICONTROL 安裝]**。
 1. 選擇安裝在您的生產環境或沙箱環境中。\
-   如需詳細資訊，請參閱[我該在哪裡安裝Blueprint？本文中的](#where-should-i-install-a-blueprint)節。
+   如需詳細資訊，請參閱[我該在哪裡安裝Blueprint？](#where-should-i-install-a-blueprint) 一節。
 1. 在&#x200B;**設定**&#x200B;頁面上，您可以選擇執行下列任一項作業：
 
    * 依原樣安裝Blueprint。 對於不需要任何設定的Blueprint型別，這是唯一的選項。 對於需要設定的Blueprint型別，您可以選擇現在安裝Blueprint並於稍後進行設定。 按一下[依原樣安裝] **&#x200B;**。
@@ -99,4 +109,4 @@ ht-degree: 4%
 
    安裝完成，並顯示已成功與Blueprint一起安裝的特定物件（例如角色、專案團隊或群組）清單，以及任何無法安裝的物件。
 
-安裝Blueprint後，可能需要一些其他動作才能完全部署。 如需詳細資訊，請參閱安裝Blueprint[後要採取的](../../administration-and-setup/blueprints/best-next-actions-after-install.md)動作。
+安裝Blueprint後，可能需要一些其他動作才能完全部署。 如需詳細資訊，請參閱安裝Blueprint[&#128279;](../../administration-and-setup/blueprints/best-next-actions-after-install.md)後要採取的動作。

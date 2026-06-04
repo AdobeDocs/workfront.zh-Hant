@@ -8,11 +8,23 @@ author: Courtney
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0fc7a16640d134b6f524a30929ed6f3041f12e31
+TQID: https://experienceleague.adobe.com/Zfi1GowI6IVjCJaTHqxSoy25iq8GcUVGbA-a8RQlv7w
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '2004'
+source-wordcount: 1984
 ht-degree: 3%
 
 ---
@@ -164,7 +176,7 @@ For this article, the old access was:
       <p>這是必填欄位。</p>
       <p>無法為多個核准流程路徑選擇相同狀態。</p> <p>可用的狀態是根據選項<b>下選取的內容而定。此核准可由</b>使用（上表說明）：</p> 
       <ul> 
-      <li> 如果選取<b>所有群組</b>，則只有全系統鎖定狀態可用。 <!--Remove "locked" when story about using an unlocked status in approval processes goes to preview-->
+      <li> 如果選取<b>所有群組</b>，則只有全系統鎖定狀態可用。<!--Remove "locked" when story about using an unlocked status in approval processes goes to preview-->
       </li> 
       <li> <p>如果選取了特定群組，則只能使用該群組的可用狀態</p> </li> 
       </ul> <p>如需有關核准程式如何使用狀態的資訊，請參閱文章<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">核准程式概觀</a>中的<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">核准程式如何依賴狀態</a>一節。</p> </td> 
@@ -191,7 +203,7 @@ For this article, the old access was:
       <p><b>重要</b>
       <ul> 
       <li> 當您將核准指派給「專案贊助者」，且沒有指定任何人員作為專案的贊助者時，核准將重新指派給「專案所有者」。 如果未指定任何人為專案的所有者，則會將核准指派給Workfront管理員。 </li> 
-      <li> 當您將核准指派給角色且選項<b>核准者不需要位於專案團隊</b>中時已停用，但專案團隊中沒有符合核准角色的角色，核准將重新指派給專案所有者。 如需核准設定的相關資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">設定全域核准設定</a>。
+      <li> 當您將核准指派給角色且選項<b>核准者不需要位於專案團隊</b>中時已停用，但專案團隊中沒有符合核准角色的角色，核准將重新指派給專案所有者。如需核准設定的相關資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">設定全域核准設定</a>。
       </li> 
       <li>當您將核准指派給專案所有者，且沒有人被指定為專案的所有者時，核准將重新指派給主要Workfront管理員，如設定區域的客戶資訊區段中所述。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">設定您系統的基本資訊</a>。</li> 
       <p><img src="assets/approval-create-add-users-nwe-350x304.png"></p> 
@@ -204,7 +216,7 @@ For this article, the old access was:
    </tr> 
      <tr> 
       <td role="rowheader">僅需要一個決策</td> 
-      <td>（只有在您將多個核准者新增至階段時才會顯示）如果階段上的任何核准者可以在此階段核准或拒絕工作專案，請選取此選項。 此動作允許工作專案離開階段。  
+      <td>（只有在您將多個核准者新增至階段時才會顯示）如果階段上的任何核准者可以在此階段核准或拒絕工作專案，請選取此選項。此動作允許工作專案離開階段。  
       <p>如果未選取此選項，則所有已識別的核准者必須在專案離開階段之前，以任何順序核准或拒絕階段。 如果任一核准者拒絕該階段，則程式會中斷並重新開始，以便進行所需的變更。 然後核准者可以再次核准或拒絕階段。</p> 
       <p>當團隊被指定為核准者時，團隊的任何成員都可以授予或拒絕階段。</p> 
       </td> 

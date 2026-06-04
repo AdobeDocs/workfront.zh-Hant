@@ -9,9 +9,24 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1b425244-e3f3-45a0-8ba1-5fbc7b339c85
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+TQID: https://experienceleague.adobe.com/P7Y2m3uUuxPDuCSF-y2fqn6tR3l37NhVXdNP6VlB2kA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: 660
 ht-degree: 0%
 
 ---

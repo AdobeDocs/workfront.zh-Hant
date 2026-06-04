@@ -8,10 +8,24 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 934cef1a-8157-45db-b000-24a08a94dd18
-source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
+TQID: https://experienceleague.adobe.com/e8vdktak-XCg5wC1h4mYTMUtOHVOssw7BSFri6rAx5Y
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 1%
+source-wordcount: 643
+ht-degree: 4%
 
 ---
 
@@ -21,11 +35,11 @@ ht-degree: 1%
 
 您也可以重新啟用先前已停用的工作角色。
 
-## 存取需求
+## 存取權要求
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -68,7 +82,7 @@ ht-degree: 1%
 * [!UICONTROL 資源集區]中的[!UICONTROL 集區成員]欄位
 * 當使用者覆寫專案的計費費率時，[!UICONTROL 計費費率]編輯畫面的[!UICONTROL 工作角色]欄位
 * 專案中的[!UICONTROL 新增指派至Kanban面板]對話方塊
-* 當有人使用[!UICONTROL 時，計畫或方案的]工作角色[!DNL Adobe Workfront Scenario Planner]欄位。
+* 當有人使用[!DNL Adobe Workfront Scenario Planner]時，計畫或方案的[!UICONTROL 工作角色]欄位。
 
   [!DNL Scenario Planner]僅在新的[!DNL Adobe Workfront]體驗中可用，而且需要額外的授權。 如需[!DNL Workfront Scenario Planner]的相關資訊，請參閱[&#x200B; [!DNL Scenario Planner] 概觀](../../../scenario-planner/scenario-planner-overview.md)。
 

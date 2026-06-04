@@ -8,9 +8,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+TQID: https://experienceleague.adobe.com/syB-759yDrJy14crtZfCKYIKWB6eh-bFr6Gt1INGUdc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: 576
 ht-degree: 3%
 
 ---
@@ -92,11 +103,11 @@ ht-degree: 3%
 ## 自訂使用者在詳細資料檢視中看到的內容
 
 1. 開始使用版面配置範本，如[建立和管理版面配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
-1. 按一下![自訂使用者看到的內容](assets/dropdown-arrow-12x12.png)下的向下箭頭&#x200B;**向下箭頭**，然後按一下&#x200B;**專案**、**任務**、**問題**、**方案**&#x200B;或&#x200B;**Portfolio。**<!--, or billing record-->
+1. 按一下&#x200B;**自訂使用者看到的內容**&#x200B;下的向下箭頭![向下箭頭](assets/dropdown-arrow-12x12.png)，然後按一下&#x200B;**專案**、**任務**、**問題**、**方案**&#x200B;或&#x200B;**Portfolio。**<!--, or billing record-->
 1. 在&#x200B;**詳細資料**&#x200B;區段中，執行下列任一項作業以自訂使用者在「詳細資料」檢視中看到的內容：
 
    * 拖曳任何區段標題![移動圖示](assets/move-icon---dots.png)以變更其順序。
-   * 啟用或停用不同區域(例如&#x200B;**總覽**、**財務**&#x200B;和&#x200B;**自訂Forms**)下的選項以顯示或隱藏它們。
+   * 啟用或停用不同區域（例如&#x200B;**總覽**、**財務**&#x200B;和&#x200B;**自訂Forms**）下的選項以顯示或隱藏它們。
 
      如果您隱藏其中一個區段中的所有欄位，則會隱藏整個區段。
 

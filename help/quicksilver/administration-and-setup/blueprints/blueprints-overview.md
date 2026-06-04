@@ -9,11 +9,27 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/ho2FPYiLTj5UlNOzwC-rDOCEvPn8qyyBPM9-B4FydjM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: 836
 ht-degree: 0%
 
 ---
@@ -38,7 +54,7 @@ ht-degree: 0%
 >
 >   此Blueprint包含可組織新員工上線活動的範本。 使用此範本可讓IT團隊有效率地運作，提供積極的新員工體驗，並加快追蹤生產力。
 >
->* **繼承的執行個體基本知識|檢查清單**
+>* **繼承的執行個體基本知識 |檢查清單**
 >
 >    此Blueprint包含專案範本（或檢查清單），您可以利用問題、資源和連結的簡短清單進行檢視，以清楚瞭解Workfront執行個體的設定方式。 當您最近繼承Workfront執行個體並需要有關從何處開始的指引時，請使用此專案。
 >
@@ -90,12 +106,12 @@ Blueprint型別顯示Blueprint中包含的內容。 型別會列在目錄中的B
 
 Workfront管理員可以直接在任何環境（生產、預覽或沙箱環境）中安裝Blueprint。 若要深入瞭解，請參閱[安裝Blueprint](../../administration-and-setup/blueprints/blueprints-install.md)或[設定Blueprint](../../administration-and-setup/blueprints/configure-template-package.md)。
 
-安裝後，您可能無法確定接下來要採取的最佳動作。 如需詳細資訊，請參閱安裝Blueprint[後要採取的](../../administration-and-setup/blueprints/best-next-actions-after-install.md)動作。
+安裝後，您可能無法確定接下來要採取的最佳動作。 如需詳細資訊，請參閱安裝Blueprint[&#128279;](../../administration-and-setup/blueprints/best-next-actions-after-install.md)後要採取的動作。
 
 ## 藍圖與範本的其他附註
 
 Blueprint不會取代[!DNL Adobe Workfront]中的專案範本功能。 藍圖可讓您更快建立新範本，以在[!DNL Workfront]中組織更多工作。
 
-您無法複製或編輯Blueprint。 不過，一旦您從Blueprint安裝了解決方案，您就可以修改從Blueprint建立的專案範本、工作角色或團隊，就像在[!DNL Workfront]介面中更新這些記錄一樣。 此外，當您安裝Blueprint時，範本會儲存在[!UICONTROL 的]範本[!DNL Workfront]區域中，而原始Blueprint會保留在[!UICONTROL Blueprint]區域中。 您不需要先製作範本副本，再開始根據需求量身打造。
+您無法複製或編輯Blueprint。 不過，一旦您從Blueprint安裝了解決方案，您就可以修改從Blueprint建立的專案範本、工作角色或團隊，就像在[!DNL Workfront]介面中更新這些記錄一樣。 此外，當您安裝Blueprint時，範本會儲存在[!DNL Workfront]的[!UICONTROL 範本]區域中，而原始Blueprint會保留在[!UICONTROL Blueprint]區域中。 您不需要先製作範本副本，再開始根據需求量身打造。
 
 Blueprint不會移除或取代您環境中設定的任何專案。 如果您想要透過安裝會建立新範本的Blueprint來取代現有範本，我們建議您停用舊版，以避免從範本建立專案的規劃人員感到困惑。

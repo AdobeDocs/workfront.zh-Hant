@@ -8,9 +8,18 @@ author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 8aad1efc-1a91-441a-8bb8-0ce9429492c6
-source-git-commit: ac3534cde15da84ae12f577b05eced88f74068e7
+TQID: https://experienceleague.adobe.com/8kWHS9q-X-aSOK3t7v6xkTYSNmt0NWHa9oSspDgTi8Y
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: 155
 ht-degree: 0%
 
 ---

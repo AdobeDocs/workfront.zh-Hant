@@ -9,11 +9,25 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e5da58f-105a-4edf-8fc1-65e8762d43c6
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/g6c8t3kp1NMAAiXowWC-0CZYnTjJg6A8vd9zgWimvIw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: 1138
 ht-degree: 0%
 
 ---
@@ -40,7 +54,7 @@ ht-degree: 0%
 
 ### 更新範本任務持續時間和工作量估計 {#update-template-task-duration-and-effort-estimates}
 
-範本中的每個任務都包含計畫持續時間和計畫投入估計值。 這些估計值會作為這些活動的持續時間和逗留時間的起點。 不過，貴組織的能力、技能和步調是獨特的。 您應該檢閱每個任務的估計持續時間和工作量，以調整它以反映您組織的需求。 如需相關資訊，請參閱[任務詳細資訊總覽[!UICONTROL 區域]中的](../../manage-work/tasks/manage-tasks/task-information-in-overview.md)管理任務資訊。
+範本中的每個任務都包含計畫持續時間和計畫投入估計值。 這些估計值會作為這些活動的持續時間和逗留時間的起點。 不過，貴組織的能力、技能和步調是獨特的。 您應該檢閱每個任務的估計持續時間和工作量，以調整它以反映您組織的需求。 如需相關資訊，請參閱[!UICONTROL 任務詳細資訊總覽]區域[&#128279;](../../manage-work/tasks/manage-tasks/task-information-in-overview.md)中的管理任務資訊。
 
 ### 關聯里程碑路徑和里程碑 {#associate-a-milestone-path-and-milestones}
 

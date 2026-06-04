@@ -8,10 +8,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f9c543a-2ae2-4c2c-9c4d-647079263a7e
-source-git-commit: 75fea812b4574191522af4721a013b57aa5d609f
+TQID: https://experienceleague.adobe.com/2mU1xA5BWwaVNDZeLNbJPMgB6l3l6BSkmGjscht-G9Y
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 2%
+source-wordcount: 800
+ht-degree: 4%
 
 ---
 
@@ -28,16 +38,16 @@ ht-degree: 2%
 如需整合Workfront與SSO系統的詳細資訊，請參閱[Adobe Workfront單一登入概觀](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)。
 
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -86,7 +96,7 @@ ht-degree: 2%
 
    | 欄位 | 解釋 |
    |---|---|
-   | 姓名 | Workfront使用者的全名。 |
+   | 名稱 | Workfront使用者的全名。 |
    | ID | ID是Workfront的英數字元GUID。 |
    | SSO 使用者名稱 | 新增SSO使用者名稱欄位，確保匯入內容不會覆寫任何使用者名稱。 如果您的使用者尚未針對SSO更新，則所有使用者的此欄位都應空白。 |
 
@@ -106,7 +116,7 @@ ht-degree: 2%
 
    您用來更新具有SSO使用者名稱&#x200B;**的Workfront使用者的檔案必須**&#x200B;只包含2欄，順序如下：
 
-   * 第一欄必須顯示Workfront使用者ID (在Workfront中找到的使用者GUID)。
+   * 第一欄必須顯示Workfront使用者ID （在Workfront中找到的使用者GUID）。
    * 第二欄必須包含SSO使用者名稱，如顯示在您的SSO系統中所示。
    * 欄不能有標題，而且名稱清單頂端不能有任何空白列。
 

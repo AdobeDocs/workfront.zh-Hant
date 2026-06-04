@@ -8,10 +8,19 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f5a94eaf-ebb8-424b-80ff-ba40cc985a6e
-source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
+TQID: https://experienceleague.adobe.com/OpdIG-INmfU3jvgNvCFCtbNwiRFvfxPgFQ6p-hW-HUQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 0%
+source-wordcount: 513
+ht-degree: 3%
 
 ---
 
@@ -21,9 +30,9 @@ ht-degree: 0%
 
 當偏好設定已解除鎖定且群組管理員修改時，與群組關聯的專案會從群組層級設定（而非系統層級設定）取得該偏好設定的組態。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 

@@ -8,10 +8,21 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+TQID: https://experienceleague.adobe.com/HoUALwtvCHKaN408VjpHaxFI6bF-XpInL6S1chuxXt4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2079'
-ht-degree: 0%
+source-wordcount: 2083
+ht-degree: 1%
 
 ---
 
@@ -33,9 +44,9 @@ ht-degree: 0%
 
 如需有關自動化工作流程的資訊，請參閱[自動化工作流程概觀](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -110,7 +121,7 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">姓名</td> 
+      <td role="rowheader">名稱</td> 
       <td> <p>階段名稱會顯示在「工作流程」區段頂端的「自動化工作流程」圖表中、「校訂詳細資訊」頁面上，以及傳送給檢閱者的電子郵件通知中。</p> </td> 
      </tr> 
      <tr> 
@@ -134,7 +145,7 @@ ht-degree: 0%
       <td> <p>只有您將稽核者新增到舞台後，可用的決策者才會顯示在清單中。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">只需要一個決定</td> 
+      <td role="rowheader">只需要一個決策</td> 
       <td>當其中一位決策者提交其決定時，此階段的稽核程式即會完成。 如需詳細資訊，請參閱<a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">在Workfront Proof中設定校訂設定</a>。</td> 
      </tr> 
      <tr> 

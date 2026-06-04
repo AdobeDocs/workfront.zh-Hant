@@ -8,10 +8,21 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5c895e77-bd88-435f-a903-37c2325eab45
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/0OLqxe6ngQYHP3wzwxgDOP8oj8vbEWixvehRFV5T2P4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 0%
+source-wordcount: 347
+ht-degree: 5%
 
 ---
 
@@ -25,16 +36,16 @@ ht-degree: 0%
 
 如果您管理的群組之上有任何群組，其管理員也可以為您的群組執行此動作。 Workfront管理員也是如此（適用於任何群組）。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -64,7 +75,7 @@ ht-degree: 0%
 
 ## 手動產生群組時間表
 
-若要啟用您對群組時程表設定檔所做的變更以反映在目前的群組時程表中，您必須先刪除現有時程表，然後手動產生新時程表。 如需指示，請參閱[手動產生時間表](../../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md#manually)中的[從時間表和時數區域](../../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)手動產生時間表。
+若要啟用您對群組時程表設定檔所做的變更以反映在目前的群組時程表中，您必須先刪除現有時程表，然後手動產生新時程表。 如需指示，請參閱[手動產生時間表](../../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)中的[從時間表和時數區域](../../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md#manually)手動產生時間表。
 
 如需有關刪除群組時程表的資訊，請參閱[刪除Adobe Workfront中的時程表](../../../timesheets/create-and-manage-timesheets/delete-timesheets.md)。
 

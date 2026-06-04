@@ -9,10 +9,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+TQID: https://experienceleague.adobe.com/--8-vO2RCBBbSZ2gfFl5RurpGviyK7sW6NauyoHKFhE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1493'
-ht-degree: 8%
+source-wordcount: 1402
+ht-degree: 10%
 
 ---
 
@@ -174,7 +184,7 @@ ht-degree: 8%
      </tr> 
      <tr> 
       <td role="rowheader">工作</td> 
-      <td>4小時</td> 
+      <td>4 小時</td> 
      </tr> 
      <tr> 
       <td role="rowheader">完成百分比</td> 
@@ -199,7 +209,7 @@ ht-degree: 8%
      </tr> 
      <tr> 
       <td role="rowheader">工作</td> 
-      <td>4小時</td> 
+      <td>4 小時</td> 
      </tr> 
      <tr> 
       <td role="rowheader">完成百分比</td> 
@@ -224,7 +234,7 @@ ht-degree: 8%
      </tr> 
      <tr> 
       <td role="rowheader">工作</td> 
-      <td>4小時</td> 
+      <td>4 小時</td> 
      </tr> 
      <tr> 
       <td role="rowheader">完成百分比</td> 
@@ -235,7 +245,7 @@ ht-degree: 8%
 
 1. 轉出。
 
-   | 前置任務 | 1， 6， 7 |
+   | 前置任務 | 1, 6, 7 |
    |---|---|
 
    {style="table-layout:auto"}
@@ -284,7 +294,7 @@ ht-degree: 8%
 
 設定下列專案欄位的值：
 
-* **設定isNew資料行**
+* **設定isNew欄**
 在isNew欄的列3到6中輸入TRUE。
 * **設定唯一識別碼**
 在每一列中，為ID欄輸入唯一的ID — 通常，建立新記錄時，從1開始的整數可正常運作。
@@ -303,7 +313,7 @@ ht-degree: 8%
 * **提供專案日期。**
 在setPlannedStartDate欄中輸入每個專案的「計劃開始日期」。
 * **設定其他需要的詳細資料。**
-視需要填寫其他詳細資訊，例如說明或目前狀態。 在「群組群組」工作表中查詢每個專案的群組ID，並將其輸入至個別專案的setGroupID欄。 在COMPANY公司表上查詢專案的公司識別碼，並將其輸入到setCompanyID欄中。 在「使用者」工作表中查詢每個專案所有者的使用者ID，並將其輸入到setOwnerID欄中。 在使用者使用者工作表上查詢每個專案贊助者的使用者ID，並將其輸入到setSponnerID欄中。
+視需要填寫其他詳細資訊，例如說明或目前狀態。在「群組群組」工作表中查詢每個專案的群組ID，並將其輸入至個別專案的setGroupID欄。在COMPANY公司表上查詢專案的公司識別碼，並將其輸入到setCompanyID欄中。在「使用者」工作表中查詢每個專案所有者的使用者ID，並將其輸入到setOwnerID欄中。在使用者使用者工作表上查詢每個專案贊助者的使用者ID，並將其輸入到setSponnerID欄中。
 
 ![設定值](assets/im9.png)
 
@@ -337,7 +347,7 @@ ht-degree: 8%
 輸入您為實作Workfront專案設定的ID；檢閱PROJ專案表以確定它是正確的ID。
 * **設定使用者**
 移至「使用者」工作表，以查詢指派給每個工作的使用者ID，並在setAssignedToID欄中的個別儲存格中輸入這些值。
-* **識別工作關係**
+* **識別任務關係**
 對於任務2到5，在setParentID欄中輸入1。 若為工作9，請在setParentID欄中輸入8。 在setPrecessortString欄中，輸入每個前置任務的任務編號。 如果任務有多個前置任務，例如此案例中的任務8，您需要使用逗號來分隔每個前置任務ID。 使用建立前置任務關係一文中所述的簡寫，可以在非「完成 — 開始」關係上以延遲來定義前置任務。
 * **設定持續時間**
 在setDuration欄位中輸入任務的時數、天數、周數或月數，以設定每個任務的工期。 然後在setDurationUnit欄位中輸入持續時間單位。
@@ -346,9 +356,9 @@ ht-degree: 8%
   |---|---|
   | 分鐘 | 一 |
   | 時數 | H |
-  | 天 | D |
+  | 日 | D |
   | 週 | 週 |
-  | 個月 | T |
+  | 月 | T |
 
   分鐘數也可以表示為一小時的小數（例如，分鐘數= 5小時）
 

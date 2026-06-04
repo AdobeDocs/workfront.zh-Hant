@@ -8,10 +8,19 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f5227454-457d-40d3-865c-c2551471d83e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/r3oRazPj4LJxhrSJZxtH6ADtOVjLg3UT2pbRlXbLHmA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 1%
+source-wordcount: 239
+ht-degree: 8%
 
 ---
 
@@ -19,16 +28,16 @@ ht-degree: 1%
 
 您可以將群組移動到您管理的另一個群組下方。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -67,4 +76,4 @@ ht-degree: 1%
 
 >[!TIP]
 >
->您也可以將子群組設為最上層群組。 如需指示，請參閱[管理子群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make)一文中的[從父群組移除子群組，並將其設為最上層群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)一節。
+>您也可以將子群組設為最上層群組。 如需指示，請參閱[管理子群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)一文中的[從父群組移除子群組，並將其設為最上層群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make)一節。

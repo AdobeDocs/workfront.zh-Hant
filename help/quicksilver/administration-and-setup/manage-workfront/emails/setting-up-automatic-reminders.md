@@ -8,11 +8,20 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/sxv8RUKwTr-SABLfOrmTa0J9ToM62-1tF5rFEnu41UI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: 627
 ht-degree: 6%
 
 ---
@@ -113,7 +122,7 @@ ht-degree: 6%
 
 具有特定相依性型別的任務可能會在指定的開始日期之後傳遞，即使這些任務已過期。 例如，如果任務的前置任務具有「完成 — 開始」(fs)相依性，即使任務已超過指定的開始日期，也不會包含在電子郵件中，因為您必須等到前置任務完成才能開始該任務。
 
-如需接收自動提醒電子郵件的詳細資訊，請參閱[Adobe Workfront通知](../../../workfront-basics/using-notifications/wf-notifications.md#automatic-reminders)中的[自動提醒](../../../workfront-basics/using-notifications/wf-notifications.md)區段。
+如需接收自動提醒電子郵件的詳細資訊，請參閱[Adobe Workfront通知](../../../workfront-basics/using-notifications/wf-notifications.md)中的[自動提醒](../../../workfront-basics/using-notifications/wf-notifications.md#automatic-reminders)區段。
 
 ## 傳送自動提醒
 

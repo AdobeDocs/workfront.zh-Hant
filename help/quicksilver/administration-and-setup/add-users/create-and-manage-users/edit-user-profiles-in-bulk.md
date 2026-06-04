@@ -8,9 +8,22 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
+TQID: https://experienceleague.adobe.com/9fo3z6Jy3aEPYXJ9vYSbaqWCjwnq7vS-h067PtU9b-Y
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2587'
+source-wordcount: 2612
 ht-degree: 1%
 
 ---
@@ -46,7 +59,7 @@ ht-degree: 1%
    <td> <p>您必須具備下列其中一項：</p> 
     <ul> 
      <li> <p>系統管理員存取層級。 </li> 
-     <li> <p>您的存取層級中的<b>使用者</b>設定已設定為<b>編輯</b>存取權，其中<b>建立</b>以及在<b>微調您的設定</b> <b>下啟用的兩個</b>使用者管理員<img src="assets/gear-icon-in-access-levels.png">選項中的至少一個。 </p> <p>在這兩個選項中，如果已啟用<b>使用者管理員（群組使用者）</b>，您必須是使用者所屬群組的群組管理員。</p> </li> 
+     <li> <p>您的存取層級中的<b>使用者</b>設定已設定為<b>編輯</b>存取權，其中<b>建立</b>以及在<b>微調您的設定</b> <img src="assets/gear-icon-in-access-levels.png">下啟用的兩個<b>使用者管理員</b>選項中的至少一個。 </p> <p>在這兩個選項中，如果已啟用<b>使用者管理員（群組使用者）</b>，您必須是使用者所屬群組的群組管理員。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -160,7 +173,7 @@ ht-degree: 1%
   >將「工作時間」值設為1，表示使用者可用於專案相關工作的整個全職同等工作。
 
 * **設定停用日期**：如果您要將這些使用者排程在特定日期及特定時間停用，請按一下此按鈕。
-* **停用日期**：停用使用者的日期和時間。 如需排程使用者停用的相關資訊，請參閱[停用或重新啟用使用者](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation)中的[排程使用者停用](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)。
+* **停用日期**：停用使用者的日期和時間。 如需排程使用者停用的相關資訊，請參閱[停用或重新啟用使用者](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)中的[排程使用者停用](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation)。
 * **主要角色**：這是使用者可以在Workfront中完成的主要工作角色。 指派給使用者的每個任務和問題也會指派給此工作角色。 職務角色在資源管理中至關重要。 只有在您擁有具有管理使用者存取許可權的「標準」或「計畫」授權，或者您是Workfront管理員時，才能更新此欄位。 如需有關設定具有管理使用者存取許可權的使用者的詳細資訊，請參閱[授予使用者存取許可權](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)。
 
   清單中只會顯示作用中的職位角色。

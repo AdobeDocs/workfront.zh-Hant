@@ -9,10 +9,23 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4a039619-0943-4b5b-ba7a-1ad9b5c11df0
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/9VRJE0WqYMGadYNYbfpsFcNPelO87ka-Gn3OFqtBpaQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d83a421c-ecb9-4757-b609-c531392f90eb
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1633'
-ht-degree: 3%
+source-wordcount: 1659
+ht-degree: 4%
 
 ---
 
@@ -28,16 +41,16 @@ DON'T DELETE, DRAFT, OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH C
 
 如果您是群組管理員或Workfront管理員，您也可以在群組下建立子群組。 如需指示，請參閱[建立子群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -104,7 +117,7 @@ DON'T DELETE, DRAFT, OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH C
       <td> <p>您可以將一位使用者指派為您管理之群組的業務領導者。 業務主管是負責為群組制定業務決策的人。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">業務負責人概觀</a><span>.</span></p> <p>如果人員不是群組的成員，將其名稱新增至此欄位也會將其新增至群組。</p> <p><b>附註</b>：  
         <ul> 
          <li>您必須先從「業務領導者」欄位中移除其名稱，才能從群組中移除「業務領導者」。</li> 
-         <li>如果您從「業務領導者」欄位中移除名稱，除非您將其從群組中移除，否則該使用者仍為群組的成員。 如需從群組移除某人的相關指示，請參閱<a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref">管理群組</a>一文中的<a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref">管理群組成員資格</a>小節。</li> 
+         <li>如果您從「業務領導者」欄位中移除名稱，除非您將其從群組中移除，否則該使用者仍為群組的成員。 如需從群組移除某人的相關指示，請參閱<a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref">管理群組</a>一文中的<a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref">管理群組成員資格</a>小節。</li> 
         </ul> </p> <p>如需詳細資訊，請參閱<a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">業務負責人概觀</a>。</p> </td> 
      </tr> 
      <tr> 
@@ -174,7 +187,7 @@ DON'T DELETE, DRAFT, OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH C
       <td> <p>您可以將一位使用者指派為您管理之群組的業務領導者。 業務主管是負責為群組制定業務決策的人。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">業務負責人概觀</a><span>.</span></p> <p>如果人員不是群組的成員，將其名稱新增至此欄位也會將其新增至群組。</p> <p><b>附註</b>：  
         <ul> 
          <li>您必須先從「業務領導者」欄位中移除其名稱，才能從群組中移除「業務領導者」。</li> 
-         <li>如果您從「業務領導者」欄位中移除名稱，除非您將其從群組中移除，否則該使用者仍為群組的成員。 如需從群組移除某人的相關指示，請參閱<a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref" data-mc-variable-override="">管理群組</a>一文中的<a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref" data-mc-variable-override="">管理群組成員資格</a>小節。</li> 
+         <li>如果您從「業務領導者」欄位中移除名稱，除非您將其從群組中移除，否則該使用者仍為群組的成員。 如需從群組移除某人的相關指示，請參閱<a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref" data-mc-variable-override="">管理群組</a>一文中的<a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref" data-mc-variable-override="">管理群組成員資格</a>小節。</li> 
         </ul> </p> <p>如需詳細資訊，請參閱<a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">業務負責人概觀</a>。</p> </td> 
      </tr> 
      <tr> 

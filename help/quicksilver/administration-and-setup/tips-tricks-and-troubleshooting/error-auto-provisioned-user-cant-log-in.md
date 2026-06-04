@@ -9,10 +9,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c88933e-d3da-447e-ab6c-be9261a94a19
-source-git-commit: 929502c256011b464d938ad1095c127407e4a795
+TQID: https://experienceleague.adobe.com/jUBGb9lqH9QL34Rw-oEhjty3l3wAf8avcLgtVe1-VSg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 3%
+source-wordcount: 200
+ht-degree: 10%
 
 ---
 
@@ -28,9 +38,9 @@ ht-degree: 3%
 
 依預設，自動布建會使用請求授權型別。 當沒有具有「請求」授權的存取層級存在時，系統無法將存取層級指派給使用者。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 

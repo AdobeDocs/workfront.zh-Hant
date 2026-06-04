@@ -9,11 +9,24 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/MZdPcSLClVIK2mJS9ssxz3NZ3DvztgHfJxHdvmtS1KY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: 2177
 ht-degree: 3%
 
 ---
@@ -40,7 +53,7 @@ ht-degree: 3%
 >
 >* 通常，已解鎖的偏好設定會無限期地保持解鎖狀態。 如果Workfront管理員將其重新鎖定，系統設定將再次生效，並且群組管理員所做的偏好設定設定將遺失。
 >* 為與專案關聯的群組設定的偏好設定優先於為建立專案之使用者的「首頁」群組設定的偏好設定。
->* 有些群組層級偏好設定會影響您為群組建立的專案範本。 如需詳細資訊，請參閱文章[建立及修改群組的專案範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view)中的「群組」區域[，一節](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)「檢視、使用及建立群組的範本」。
+>* 有些群組層級偏好設定會影響您為群組建立的專案範本。 如需詳細資訊，請參閱文章[建立及修改群組的專案範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)中的「群組」區域[&#128279;](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view)，一節「檢視、使用及建立群組的範本」。
 >
 >* Workfront管理員在系統層級解除鎖定偏好設定後，您可以對其進行設定，然後將其鎖定，以確保您的群組及其子群組中的每個人都使用相同的設定。 此功能與Workfront管理員必須為系統中的每個人設定並鎖定偏好設定的功能平行。 如需詳細資訊，請參閱[鎖定或解除鎖定子群組的專案、任務或問題偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md)。
 >
@@ -177,7 +190,7 @@ ht-degree: 3%
         <p>考慮以下事項：</p> 
         <ul> 
          <li> <p>選取後，當您刪除任務或問題時，會收到資訊性警告。 警告會提醒您，如果任務或問題已記錄時數，則會將其移至專案或刪除。 您可以在「設定」的「時程表和時數」偏好設定區域中，設定是否要刪除時數或將其移至專案。 確認您已看到警告後，該任務或問題即被刪除。 如需有關設定時程表和時數偏好設定的詳細資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">設定時程表和時數偏好設定</a>。 </p> <p>提示： <span>當您刪除包含已記錄時數的任務與問題的專案時，會刪除記錄時數，或根據設定</span>的「時程表與時數偏好設定」區域中的設定保留記錄時數。 </p> </li> 
-         <li><span>當您取消選取此選項時，當您刪除具有記錄時數的任務或問題時，或是當您刪除具有記錄其任務或問題的時數的專案時，會收到禁止性警告</span> <span>。</span>警告指定管理員不允許刪除記錄時數的任務或問題。 無法刪除任務、問題<span>或為任務和問題</span>記錄時數的專案。 </li> 
+         <li><span>當您取消選取此選項時，當您刪除具有記錄時數的任務或問題時，或是當您刪除具有記錄其任務或問題的時數的專案時，會收到禁止性警告</span> <span>。</span> 警告指定管理員不允許刪除記錄時數的任務或問題。 無法刪除任務、問題<span>或為任務和問題</span>記錄時數的專案。 </li> 
         </ul> 
        </div> </td> 
      </tr> 
@@ -258,7 +271,7 @@ ht-degree: 3%
 
 啟用此設定時，群組使用者可以看到下列內容：
 
-* 在&#x200B;[!UICONTROL **首頁**]&#x200B;區域的[!UICONTROL 我的工作]、[!UICONTROL 我的任務]或[!UICONTROL 我的問題]介面工具中的[!UICONTROL 代理人]連結。 他們可以從那裡委派任務和問題指派。
+* 在[!UICONTROL 首頁]區域的[!UICONTROL 我的工作]、[!UICONTROL 我的任務]或[!UICONTROL 我的問題]介面工具中的&#x200B;[!UICONTROL **代理人**]&#x200B;連結。 他們可以從那裡委派任務和問題指派。
 
   >[!NOTE]
   >

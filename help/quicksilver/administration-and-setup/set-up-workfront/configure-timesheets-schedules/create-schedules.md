@@ -8,11 +8,23 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f7347ba6-68bf-45d8-b5d2-6136f3e696c9
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/oAJzByrdYR9Ok-KXarAB5q2nv39g2ytNUrFqZTruLSU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: 752
 ht-degree: 2%
 
 ---
@@ -104,11 +116,11 @@ Linked to Editing Users, Editing Projects, Creating and managing groups
        <p>作為群組管理員，只有在為指定為管理員的群組或子群組指定排程時，您才能建立排程。</p>
        <p>如果您只管理一個群組，預設會在此欄位中選取該群組。</p>
        <p>如果您管理數個群組，則必須先在此欄位中選取群組，才能儲存排程。</p></li>
-       <li>如果您是建立排程的[!DNL Workfront]管理員，此欄位為選擇性欄位。 當您建立排程而不與群組產生關聯時，排程會儲存為系統層級排程，且無法由任何群組的群組管理員管理。
+       <li>如果您是建立排程的[!DNL Workfront]管理員，此欄位為選擇性欄位。當您建立排程而不與群組產生關聯時，排程會儲存為系統層級排程，且無法由任何群組的群組管理員管理。
        <p>所有可編輯這些物件的使用者皆可看見指派給帳戶或專案的排程。 系統層級和群組層級排程皆是如此。</p>
        </li>
        <p>為排程指定具有管理存取權的群組不會將排程指派給群組中的使用者；它只允許群組中的群組管理員編輯、刪除和複製排程。</p>
-       <p>群組管理員無法編輯、刪除或複製系統層級排程。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">群組管理員</a>。
+       <p>群組管理員無法編輯、刪除或複製系統層級排程。如需詳細資訊，請參閱<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">群組管理員</a>。
      </td>
     </tr>
     <tr>
@@ -118,7 +130,7 @@ Linked to Editing Users, Editing Projects, Creating and managing groups
     <tr>
      <td>[!UICONTROL 時區]</td>
      <td><p>選取排程的時區。</p>
-     <p>如果您將排程與使用者建立關聯，我們建議排程的時區與使用者的時區相符。 如需使用者時區的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">編輯使用者設定檔。
+     <p>如果您將排程與使用者建立關聯，我們建議排程的時區與使用者的時區相符。如需使用者時區的詳細資訊，請參閱<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">編輯使用者設定檔。
      </td>
     </tr>
    </table>

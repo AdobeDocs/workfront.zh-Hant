@@ -6,10 +6,21 @@ description: 從Experience Manager Assets連結資產後，您可以建立校樣
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: d72ac84f-1865-4122-bc77-d8200a4d0f69
-source-git-commit: 3f9a824780f2ded914d461a473aef3b6ecfa8701
+TQID: https://experienceleague.adobe.com/hM4RFyi3jYJivKSovgU5lqP4zhdQSeH6SCWDgxL-rMk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 3%
+source-wordcount: 387
+ht-degree: 8%
 
 ---
 
@@ -17,23 +28,23 @@ ht-degree: 3%
 
 從Experience Manager Assets連結資產後，您可以建立校樣並指派使用者檢閱和新增評論至資產。 從連結資產建立的校樣會計入您的校樣儲存配額。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
    <p>標準</p>
-   <p>工作或更高</p> 
+   <p>工作或更高層級</p> 
     </td> 
   </tr> 
   <tr> 

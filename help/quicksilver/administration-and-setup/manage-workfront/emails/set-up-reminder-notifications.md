@@ -5,11 +5,23 @@ author: Alina, Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/qtYrWCi1pZMHTp6wZ9AzfXQ2La9s17bWrs-JJQqPl0c
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: 1223
 ht-degree: 3%
 
 ---
@@ -157,7 +169,7 @@ An example of how this can be used would be helpful here and/or in the section <
 
 當附加了提醒通知的專案符合條件時，會觸發電子郵件通知給在提醒通知中定義的使用者。
 
-如需接收提醒通知的詳細資訊，請參閱[Adobe Workfront通知](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications)中的[提醒通知](../../../workfront-basics/using-notifications/wf-notifications.md)區段。
+如需接收提醒通知的詳細資訊，請參閱[Adobe Workfront通知](../../../workfront-basics/using-notifications/wf-notifications.md)中的[提醒通知](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications)區段。
 
 ## 測試提醒通知傳遞
 

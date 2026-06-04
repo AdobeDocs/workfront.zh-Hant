@@ -8,10 +8,19 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ba1d9a9b-7a1f-498b-a6e5-c548a11ac87c
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+TQID: https://experienceleague.adobe.com/lUBBvEEWEU-w0X2VbzPP34Int3VBE1tyV5aCdlloaFM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 1%
+source-wordcount: 573
+ht-degree: 4%
 
 ---
 
@@ -23,16 +32,16 @@ ht-degree: 1%
 
 如需使用自訂存取層級來管理使用者對Workfront中其他物件型別的存取的相關資訊，請參閱[建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td>任何</td> 
   </tr> 
   <tr> 
@@ -55,7 +64,7 @@ ht-degree: 1%
 ## 使用自訂存取層級設定檔案的使用者存取權
 
 1. 開始建立或編輯存取層級，如[建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)中所述。
-1. 按一下檔案右側![](assets/gear-icon-settings.png)檢視&#x200B;**或**&#x200B;編輯&#x200B;**按鈕上的齒輪圖示**，然後在&#x200B;**微調您的設定**&#x200B;下選取您要授與的功能。
+1. 按一下檔案右側&#x200B;**檢視**&#x200B;或&#x200B;**編輯**&#x200B;按鈕上的齒輪圖示![](assets/gear-icon-settings.png)，然後在&#x200B;**微調您的設定**&#x200B;下選取您要授與的功能。
 
    ![document_access.png](assets/document-access.png)
 
@@ -79,7 +88,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">共用公開文件</td> 
-      <td>與外部使用者共用檔案(沒有Workfront授權)。</td> 
+      <td>與外部使用者共用檔案（沒有Workfront授權）。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">全系統共用</td> 
@@ -94,7 +103,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >當您為特定型別的物件設定存取層級設定時，該設定不會影響使用者存取排名較低的物件。 例如，您可以限制使用者刪除其存取層級的專案，但這不會限制他們刪除等級低於專案的檔案。如需物件階層的詳細資訊，請參閱[瞭解Adobe Workfront中的物件](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)一文中的[相互依存性和物件階層](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)一節。
+   >當您為特定型別的物件設定存取層級設定時，該設定不會影響使用者存取排名較低的物件。 例如，您可以限制使用者刪除其存取層級的專案，但這不會限制他們刪除等級低於專案的檔案。如需物件階層的詳細資訊，請參閱文章[瞭解Adobe Workfront中的物件](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)中的[物件相互相依性和階層](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)一節。
 
 1. （選擇性）若要限制從較高等級物件繼承的檔案許可權，請按一下[設定其他限制]&#x200B;**，然後選取[從專案、任務、問題等繼承檔案存取權]**&#x200B;**。**
 1. （選擇性）若要針對您正在處理的存取層級中的其他物件與區域設定存取設定，請繼續使用[設定對Adobe Workfront的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)中所列的文章之一，例如[授與對工作的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)和[授與對財務資料的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)。
@@ -104,7 +113,7 @@ ht-degree: 1%
 
 ## 依授權型別存取檔案
 
-如需有關每個存取層級中的使用者可以對檔案執行的詳細資訊，請參閱文章[每個物件型別](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#document)可用的功能[檔案](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)一節。
+如需有關每個存取層級中的使用者可以對檔案執行的詳細資訊，請參閱文章[每個物件型別](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)可用的功能[檔案](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#document)一節。
 
 ## 存取共用檔案
 

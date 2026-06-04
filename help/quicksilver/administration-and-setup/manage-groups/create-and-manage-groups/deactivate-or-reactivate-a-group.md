@@ -8,10 +8,20 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/DSD8TkghWUd2ZDf8-kQYwnhDlpfCOrbOS83VZdzhJD0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 0%
+source-wordcount: 753
+ht-degree: 2%
 
 ---
 
@@ -19,16 +29,16 @@ ht-degree: 0%
 
 您可以停用您不再使用的管理群組。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -55,9 +65,9 @@ ht-degree: 0%
 >
 >如果您需要重新啟用其中一個，可以執行下列任一項作業之後再啟用：
 >
->* 將其從父群組中移除。 如需詳細資訊，請參閱[管理子群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make)一文中的[從父群組中移除子群組，並將其設為最上層群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)一節。
+>* 將其從父群組中移除。 如需詳細資訊，請參閱[管理子群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)一文中的[從父群組中移除子群組，並將其設為最上層群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make)一節。
 >
->* 將其移至使用中群組的下方。 如需詳細資訊，請參閱文章[管理子群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#create)中的[建立、移動、檢視、編輯、複製、重新命名、匯出或刪除子群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)一節。
+>* 將其移至使用中群組的下方。 如需詳細資訊，請參閱文章[管理子群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)中的[建立、移動、檢視、編輯、複製、重新命名、匯出或刪除子群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#create)一節。
 
 {{step-1-to-setup}}
 
@@ -110,4 +120,4 @@ ht-degree: 0%
 
 * 從子群組的父群組中移除子群組（使子群組成為最上層群組）。 然後啟用已移動群組的[作用中]選項，如本文中[停用或重新啟用群組](#View)一節所述。
 
-  如需從父群組移除子群組的說明，請參閱[管理子群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make)一文中的[從父群組移除子群組，並使其成為最上層群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)一節。
+  如需從父群組移除子群組的說明，請參閱[管理子群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)一文中的[從父群組移除子群組，並使其成為最上層群組](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make)一節。

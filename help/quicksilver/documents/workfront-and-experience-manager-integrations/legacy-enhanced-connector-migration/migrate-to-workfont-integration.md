@@ -2,20 +2,30 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: 從舊版或增強型聯結器移轉至Workfront以進行Adobe Experience Manager as a Cloud Service整合
-description: 本頁上的資訊說明從Experience Cloud增強型或舊版聯結器的Workfront移至連線Workfront和Adobe Experience Manager Assets as a Cloud Service的最新原生整合的最佳實務。
+description: 本頁資訊說明從適用於Experience Cloud增強型或舊版聯結器的Workfront移至連線Workfront和Adobe Experience Manager Assets as a Cloud Service的最新原生整合的最佳做法。
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: af14f408-df39-473c-9e18-bb88022c96ed
-source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
+TQID: https://experienceleague.adobe.com/0pAHfS7cDqv1tV4TBdx9WqvJA1-zySGsPHVXI8EG7Hc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: 497
 ht-degree: 0%
 
 ---
 
 # 從舊版或增強型聯結器移轉至Workfront以進行Adobe Experience Manager as a Cloud Service整合
 
-本頁上的資訊說明從Experience Cloud增強型或舊版聯結器的Workfront移至連線Workfront和Adobe Experience Manager Assets as a Cloud Service的最新原生整合的最佳實務。
+本頁資訊說明從適用於Experience Cloud增強型或舊版聯結器的Workfront移至連線Workfront和Adobe Experience Manager Assets as a Cloud Service的最新原生整合的最佳做法。
 
 >[!IMPORTANT]
 >

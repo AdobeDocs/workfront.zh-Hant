@@ -5,11 +5,24 @@ description: 您可以將甘特圖匯出至PDF。 之後，您可以列印或附
 author: Alina
 feature: Work Management
 exl-id: 91aad9e0-25c9-4eae-aa66-8aab763d3b76
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/VVD0wi1yc1tJLyu92tvJhfuT4UqcMVHS7T9OUMRJOmU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: 968
 ht-degree: 3%
 
 ---
@@ -92,7 +105,7 @@ Old:
 
    設定下列任一資訊：
 
-   * 按一下&#x200B;**甘特圖**&#x200B;上方的&#x200B;**篩選器**、**檢視**&#x200B;和[!UICONTROL 群組]圖示，並新增或編輯套用至[!UICONTROL 甘特圖]中專案清單的現有篩選器、檢視或群組。
+   * 按一下[!UICONTROL 甘特圖]上方的&#x200B;**篩選器**、**檢視**&#x200B;和&#x200B;**群組**&#x200B;圖示，並新增或編輯套用至[!UICONTROL 甘特圖]中專案清單的現有篩選器、檢視或群組。
 
      檢視[!UICONTROL 甘特圖]時，會保留清單檢視中選取的任何篩選器和群組。 檢視只會在第一頁的[!UICONTROL 甘特圖]旁顯示的清單中，反映在匯出的[!UICONTROL 甘特圖]上。 檢視不會顯示在[!UICONTROL 甘特圖]本身。
 
@@ -119,7 +132,7 @@ Old:
       * （視條件而定）計畫日期
       * （視條件而定）專案日期
 
-     如需詳細資訊，請參閱   [設定資訊在[!UICONTROL 甘特圖]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md)上的顯示方式。
+     如需詳細資訊，請參閱[設定資訊在[!UICONTROL 甘特圖]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md)上的顯示方式。
 
      >[!NOTE]
      >
@@ -136,7 +149,7 @@ Old:
    例如，如果您正在檢視包含50個任務的專案的[!UICONTROL 甘特圖]，但您只想在匯出的[!UICONTROL 甘特圖]上顯示10個任務，請選取您要顯示的10個任務。
 
 1. 按一下甘特圖右上角的印表機圖示![印表機圖示](assets/printer-icon.png)。
-顯示&#x200B;**[!UICONTROL 匯出至PDF]**&#x200B;對話方塊。
+會顯示&#x200B;**[!UICONTROL 匯出至PDF]**&#x200B;對話方塊。
 
    ![匯出至PDF對話方塊](assets/exported-gantt-ui-350x225.png)
 

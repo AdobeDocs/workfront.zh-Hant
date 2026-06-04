@@ -8,11 +8,24 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/Abb8wbD3oRt-lRej2qBcEO32QiISb3tCEFuclzrJZ-I
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2228'
+source-wordcount: 2238
 ht-degree: 1%
 
 ---
@@ -184,7 +197,7 @@ Linked to Converting Issues.
   <tbody> 
     <tr> 
     <td role="rowheader">[!UICONTROL 當任務或問題從「新增」移至「進行中」時，將實際開始日期設定為]</td> 
-    <td> <p>當任務或問題從[!DNL Workfront]&#x200B;[!UICONTROL 新增]<strong>移至</strong>[!UICONTROL 進行中]<strong>時，為</strong>中記錄實際開始日期選取下列其中一個選項：</p> 
+    <td> <p>當任務或問題從<strong>[!UICONTROL 新增]</strong>移至<strong>[!UICONTROL 進行中]</strong>時，為[!DNL Workfront]中記錄實際開始日期選取下列其中一個選項：</p> 
       <ul> 
       <li><strong>[!UICONTROL 現在]：</strong>實際開始日期已設定為目前日期。</li> 
       <li><strong>[!UICONTROL 計劃開始日期]：</strong>實際開始日期已設為任務或問題的計劃開始日期。</li> 
@@ -207,7 +220,7 @@ Linked to Converting Issues.
 
 啟用此設定時，使用者可以看到下列內容：
 
-* 在&#x200B;[!UICONTROL **首頁**]&#x200B;區域的[!UICONTROL 我的工作]、[!UICONTROL 我的任務]或[!UICONTROL 我的問題]介面工具中的[!UICONTROL 代理人]連結。 他們可以從那裡委派任務和問題指派。
+* 在[!UICONTROL 首頁]區域的[!UICONTROL 我的工作]、[!UICONTROL 我的任務]或[!UICONTROL 我的問題]介面工具中的&#x200B;[!UICONTROL **代理人**]&#x200B;連結。 他們可以從那裡委派任務和問題指派。
 
   >[!NOTE]
   >

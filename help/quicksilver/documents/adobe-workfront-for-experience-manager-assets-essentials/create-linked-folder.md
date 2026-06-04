@@ -7,10 +7,20 @@ description: 在Workfront中，您可以建立與Experience Manager Assets或Ass
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
+TQID: https://experienceleague.adobe.com/fGs1kZQXTTMioosnBsRBKKpS3q--m5PHKYg-tHrq-b8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 3%
+source-wordcount: 409
+ht-degree: 4%
 
 ---
 
@@ -23,7 +33,7 @@ ht-degree: 3%
 >[!NOTE]
 >
 >新檔案區域未提供此功能。<br>
->如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的檔案區域。 從該位置，您可以從Experience Manager Assets或Assets Essentials新增資產，但將無法建立連結資料夾。
+>如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的「檔案」區域。從該位置，您可以從Experience Manager Assets或Assets Essentials新增資產，但將無法建立連結資料夾。
 
 ## 存取權要求
 
@@ -59,7 +69,7 @@ ht-degree: 3%
   <tr>
    <td><strong>存取層級設定</strong>
    </td>
-   <td>您必須是Workfront管理員才能設定Experience Manager整合。 完成設定後，擁有Standard或Plan授權的使用者可以在個別專案上設定連結資料夾。
+   <td>您必須是Workfront管理員才能設定Experience Manager整合。完成設定後，擁有Standard或Plan授權的使用者可以在個別專案上設定連結資料夾。
    </td>
   </tr>
 </table>
@@ -95,5 +105,5 @@ ht-degree: 3%
    >
    >Workfront管理員可以選擇任何名稱來進行這項整合，因此可能沒有特別提及Experience Manager Assets或Assets Essentials。
 
-1. 選取&#x200B;**建立連結的資料夾**。 系統會根據設定整合時指定的位置，在Experience Manager中自動建立資料夾。
+1. 選取&#x200B;**建立連結的資料夾**。系統會根據設定整合時指定的位置，在Experience Manager中自動建立資料夾。
    ![建立連結資料夾](assets/linked-folder.png)

@@ -6,9 +6,16 @@ description: 您可以從Adobe Experience Manager Assets中取消連結或刪除
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: f082be12-2adc-4234-a01a-7543c032a35a
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+TQID: https://experienceleague.adobe.com/1AQ4PYnxsWtrNjptPfk9jPQ6wbKPSNvDqqOGfq0eNig
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: 256
 ht-degree: 0%
 
 ---

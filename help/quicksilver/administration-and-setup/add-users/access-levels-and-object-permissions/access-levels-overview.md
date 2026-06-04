@@ -10,10 +10,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+TQID: https://experienceleague.adobe.com/veIxHeIbYOY6tuiP4zUk-w0mvx-2UM6fE5QO37ju6TU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 3%
+source-wordcount: 343
+ht-degree: 2%
 
 ---
 

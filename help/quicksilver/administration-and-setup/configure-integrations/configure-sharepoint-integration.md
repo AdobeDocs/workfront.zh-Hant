@@ -8,11 +8,24 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/wQAqAplnYGWGCSSb1oVg2wIUK7Pn-Q0k4YIJIPJlqaQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: 1744
 ht-degree: 1%
 
 ---
@@ -123,7 +136,7 @@ ht-degree: 1%
 
 ### 存取權和許可權
 
-使用者第一次從[!DNL Workfront]新增檔案至[!DNL SharePoint]時，系統會將他們導向至許可權要求的頁面，他們可以在其中授與許可權給其SharePoint整合。
+使用者第一次從[!DNL SharePoint]新增檔案至[!DNL Workfront]時，系統會將他們導向至許可權要求的頁面，他們可以在其中授與許可權給其SharePoint整合。
 
 >[!NOTE]
 >
@@ -142,7 +155,7 @@ ht-degree: 1%
 * 使用者第一次使用整合時就會授予此存取權，且可隨時撤銷。
 * 此整合要求的許可權為&#x200B;**委派**&#x200B;許可權。
 * [!DNL Workfront]要求執行整合中作業所需的最低存取許可權。
-* 檢視、編輯或刪除連結至[!DNL Adobe Workfront]的[!DNL SharePoint]檔案的存取權是根據使用者在[!DNL Workfront]中的存取權。 但是，任何導覽、下載或編輯[!DNL SharePoint]檔案或資料夾都需要存取[!DNL SharePoint]，而且這些動作的存取權是由[!DNL SharePoint]所控制。
+* 檢視、編輯或刪除連結至[!DNL SharePoint]的[!DNL Adobe Workfront]檔案的存取權是根據使用者在[!DNL Workfront]中的存取權。 但是，任何導覽、下載或編輯[!DNL SharePoint]檔案或資料夾都需要存取[!DNL SharePoint]，而且這些動作的存取權是由[!DNL SharePoint]所控制。
 * 使用者可以檢視來源為[!DNL SharePoint]的縮圖及預覽影像，而且可以在[!DNL SharePoint]中檢視檔案和資料夾名稱，而不需要登入[!DNL SharePoint]。
 * 只有當使用者離線且另一個使用者檢視連結至[!DNL Workfront]的資料夾內容時，才會使用使用者的存取權杖。 存取權杖用於探索資料夾中是否有任何檔案已新增、移除或編輯。
 
@@ -185,7 +198,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
-> 因為[!DNL SharePoint]使用者端密碼是由[!DNL Microsoft]處理，所以使用者端密碼功能和程式可能會根據[!DNL SharePoint]對[!DNL Microsoft]所做的更新而變更。 請一律檢視[!DNL Microsoft]檔案，以瞭解[!DNL SharePoint]中程式和功能的最新資訊。
+> 因為[!DNL SharePoint]使用者端密碼是由[!DNL Microsoft]處理，所以使用者端密碼功能和程式可能會根據[!DNL Microsoft]對[!DNL SharePoint]所做的更新而變更。 請一律檢視[!DNL Microsoft]檔案，以瞭解[!DNL SharePoint]中程式和功能的最新資訊。
 
 <!--
 1. Go to the site that your [!DNL SharePoint] integration uses. This may be a site that you created when setting up the integrations, or it may be your organization's root site.
@@ -416,7 +429,7 @@ For instructions, see [Link an external document to [!DNL Workfront]](../../docu
 ## 疑難排解
 
 * [問題：使用者在使用 [!DNL SharePoint] 整合時遇到驗證錯誤。](#problem-users-experience-authentication-based-errors-when-using-the-sharepoint-integration)
-* [問題：嘗試瀏覽 [!DNL SharePoint] 中的 [!DNL Workfront]個檔案時，我看不到任何或所有網站集合。](#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections)
+* [問題：嘗試瀏覽 [!DNL Workfront]中的 [!DNL SharePoint] 個檔案時，我看不到任何或所有網站集合。](#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections)
 * [問題：我無法存取 [!DNL SharePoint]中先前連結的資料夾和檔案。](#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint)
 
 ### 問題：使用者在使用[!DNL SharePoint]整合時遇到驗證錯誤。 {#problem-users-experience-authentication-based-errors-when-using-the-sharepoint-integration}
@@ -466,7 +479,7 @@ This can be caused by a number of things, originating in either [!DNL Workfront]
 
 -->
 
-### 問題：嘗試瀏覽[!DNL SharePoint]中的[!DNL Workfront]個檔案時，我看不到任何或所有網站集合。 {#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections}
+### 問題：嘗試瀏覽[!DNL Workfront]中的[!DNL SharePoint]個檔案時，我看不到任何或所有網站集合。 {#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections}
 
 解決方案：
 

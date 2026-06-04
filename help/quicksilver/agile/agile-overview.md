@@ -3,15 +3,20 @@ content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: 敏捷概覽
-description: 敏捷是一種工作方法，可讓團隊以一致的步調完成少量可管理的工作量。 在敏捷中，團隊管理待處理專案或故事板上的故事，而不是專案中的任務。 [!DNL Adobe Workfront] 提供的工具可協助團隊以敏捷方式運作。
+description: 敏捷是一種工作方法，可讓團隊以一致的步調完成少量可管理的工作量。 在敏捷中，團隊管理待處理專案或內文板上的內文，而不是專案中的任務。 [!DNL Adobe Workfront] 提供的工具可協助團隊以敏捷方式工作。
 author: Courtney
 feature: Agile
 exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/AVFfEFh0oIM6Pd7BMCYw7As75M00qbzP37burvpCI4U
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: 324
 ht-degree: 0%
 
 ---
@@ -22,13 +27,13 @@ ht-degree: 0%
 
 [!DNL Workfront]個面板是簡單但靈活的團隊共同作業工具。 如需面板的相關資訊，請參閱[面板概述](../agile/boards-overview.md)。
 
-其他進階敏捷團隊工具使用Kanban或Scrum。 如需Kanban和Scrum方法的詳細資訊，請參閱[建立敏捷團隊](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding)一文中的[決定敏捷方法](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)一節。
+其他進階敏捷團隊工具使用Kanban或Scrum。 如需Kanban和Scrum方法的詳細資訊，請參閱[建立敏捷團隊](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)一文中的[決定敏捷方法](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding)一節。
 
 若要開始使用Workfront中的進階敏捷功能：
 
 1. 建立敏捷團隊。
 
-   如需詳細資訊，請參閱[建立敏捷團隊](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#create-an-agile-team-1)一文中的[建立敏捷團隊](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#converting-an-existing-team-into-an-agaile-team)或[將現有團隊轉換為敏捷團隊](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)一節。
+   如需詳細資訊，請參閱[建立敏捷團隊](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)一文中的[建立敏捷團隊](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#create-an-agile-team-1)或[將現有團隊轉換為敏捷團隊](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#converting-an-existing-team-into-an-agaile-team)一節。
 
 1. 設定敏捷團隊以使用Kanban或Scrum。
 

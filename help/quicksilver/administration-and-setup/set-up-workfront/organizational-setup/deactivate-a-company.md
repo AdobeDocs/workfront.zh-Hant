@@ -8,10 +8,19 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 479dfb9d-0e47-4790-a33a-336b415fbf6e
-source-git-commit: 2e86369ae4c8e9fe2678773c20c02f6dbf8d5247
+TQID: https://experienceleague.adobe.com/GrxcFYKSrmJsaITu6twBnTZxfkMcvsnRdfn7-qoSXI4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 1%
+source-wordcount: 335
+ht-degree: 5%
 
 ---
 
@@ -21,9 +30,9 @@ ht-degree: 1%
 
 您可以停用不再使用的公司，同時保留其所有相關歷史資料。 如果您將系統中某處已在使用的公司停用，該公司的運作方式會一如既往。 系統不會移除或封鎖該檔案。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <tbody> 
@@ -50,7 +59,7 @@ ht-degree: 1%
       <li> <p>若要從[!DNL Workfront]系統中新增和移除使用者，您必須具備下列其中一項：</p> 
        <ul> 
         <li> <p>[!UICONTROL 系統管理員]存取層級。 </p> </li> 
-        <li> <p>您的存取層級中的<b>[!UICONTROL Users]</b>設定已設定為<b>[!UICONTROL Edit]</b>存取，且<b>[!UICONTROL Create]</b>以及在<b>[!UICONTROL Fine-tune your settings]</b> <b>下啟用的兩個</b>[!UICONTROL User Admin]<img src="assets/gear-icon-in-access-levels.png">選項中的至少一個選項。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>在這兩個選項中，如果已啟用<b>[!UICONTROL User Admin (Group Users)]</b>，您必須是使用者所屬群組的群組管理員。</p> </li> 
+        <li> <p>您的存取層級中的<b>[!UICONTROL Users]</b>設定已設定為<b>[!UICONTROL Edit]</b>存取，且<b>[!UICONTROL Create]</b>以及在<b>[!UICONTROL Fine-tune your settings]</b> <img src="assets/gear-icon-in-access-levels.png">下啟用的兩個<b>[!UICONTROL User Admin]</b>選項中的至少一個選項。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>在這兩個選項中，如果已啟用<b>[!UICONTROL User Admin (Group Users)]</b>，您必須是使用者所屬群組的群組管理員。</p> </li> 
        </ul>
        </li> 
      </ul> </p> </td>

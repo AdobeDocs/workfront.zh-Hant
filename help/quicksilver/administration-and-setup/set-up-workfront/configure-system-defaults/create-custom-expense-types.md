@@ -8,10 +8,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
+TQID: https://experienceleague.adobe.com/lf8hEp6JYtT4mZPP5f6e5M-gX4juYH-hRZF8kGonN3E
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 4%
+source-wordcount: 382
+ht-degree: 7%
 
 ---
 
@@ -23,9 +33,9 @@ ht-degree: 4%
 
 您可以編輯或刪除您建立的任何費用型別。 您無法刪除或編輯內建[!DNL Workfront]費用型別。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -78,7 +88,7 @@ ht-degree: 4%
       * 公里
       * 公斤
       * 元
-      * Hour
+      * 時數
       * Day
       * 其他 — 選取此選項會提示您為度量單位命名，並將度量單位定義為組織所熟悉的單位。
 

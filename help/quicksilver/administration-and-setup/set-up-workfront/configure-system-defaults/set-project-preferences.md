@@ -8,11 +8,23 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+TQID: https://experienceleague.adobe.com/h8QFgoFvlsgYnlPsYOe9BMMzaCRWkHDTkg0AtuM9EpU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2615'
+source-wordcount: 2619
 ht-degree: 2%
 
 ---
@@ -147,7 +159,7 @@ ht-degree: 2%
    <td> <p>決定[!DNL Workfront]使用哪些資料來計算代表專案預計總成本的[!UICONTROL 預估完成成本] (EAC)。</p> 
     <ul> 
      <li><strong>[!UICONTROL 在專案層級計算]</strong>：父系任務和專案的EAC是在EAC公式中輸入[!UICONTROL 實際時數]或[!UICONTROL 實際勞力成本]來決定。 此計算包括直接新增到父級任務或專案的[!UICONTROL 實際時數]或[!UICONTROL 成本和費用]。</li> 
-     <li> <p><strong>[!UICONTROL 從任務/子任務彙總]</strong>：父任務和專案的EAC是由每個子任務的EAC總和所決定。 此計算不包括直接新增至父級任務或專案的[!UICONTROL 實際時數]或[!UICONTROL 實際成本和費用]。</p> <p>專案經理可以使用[!UICONTROL 專案詳細資料]中的[!UICONTROL 財務]區域，在專案層級修改此設定。如需詳細資訊，請參閱專案[!UICONTROL 財務]區域<a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">中的</a>管理資訊。</p> </li> 
+     <li> <p><strong>[!UICONTROL 從任務/子任務彙總]</strong>：父任務和專案的EAC是由每個子任務的EAC總和所決定。 此計算不包括直接新增至父級任務或專案的[!UICONTROL 實際時數]或[!UICONTROL 實際成本和費用]。</p> <p>專案經理可以使用[!UICONTROL 專案詳細資料]中的[!UICONTROL 財務]區域，在專案層級修改此設定。如需詳細資訊，請參閱專案[!UICONTROL 財務]區域</a>中的<a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">管理資訊。</p> </li> 
     </ul> <p>如需EAC如何計算的詳細資訊，請參閱<a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">計算[!UICONTROL 完工估算] (EAC)</a>。</p> </td> 
   </tr> 
  </tbody> 

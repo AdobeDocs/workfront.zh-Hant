@@ -10,9 +10,22 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 150a7e52-d379-4909-b7e3-df8a0b0289d1
-source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
+TQID: https://experienceleague.adobe.com/Nv07H5krfZefm5eiphjVwk-D5rjmUVN8O3Si2TSgSjE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: 207
 ht-degree: 0%
 
 ---

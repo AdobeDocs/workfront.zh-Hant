@@ -8,18 +8,30 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/wMgemSCv9tLMKy9AdIW5HDpGFbYKNmrnV07PsjwA6-4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1960'
-ht-degree: 8%
+source-wordcount: 1959
+ht-degree: 5%
 
 ---
 
 # 建立[!DNL Workfront]整合的OAuth2應用程式
 
-作為[!DNL Adobe Workfront]管理員，您可以為您的[!DNL Workfront]執行個體建立OAuth2應用程式，允許其他應用程式存取[!DNL Workfront]。 之後，您的使用者可以授予這些其他應用程式存取其[!DNL Workfront]資料的許可權。 如此一來，您就可以整合   搭配您選擇的應用程式，包括您自己的內部應用程式。
+作為[!DNL Adobe Workfront]管理員，您可以為您的[!DNL Workfront]執行個體建立OAuth2應用程式，允許其他應用程式存取[!DNL Workfront]。 之後，您的使用者可以授予這些其他應用程式存取其[!DNL Workfront]資料的許可權。 如此一來，您就可以與您選擇的應用程式整合，包括您自己的內部應用程式。
 
 建立[!UICONTROL OAuth2]應用程式時，會產生使用者端ID和使用者端密碼。 接著，您的使用者便可在API呼叫中使用使用者端ID，將與您建立的應用程式整合。
 
@@ -217,7 +229,7 @@ ht-degree: 8%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL 重新整理權杖輪換]</td> 
-      <td>啟用此選項以在每次使用重新整理權杖時，發出新的重新整理權杖。您的應用程式必須在每次重新整理後，儲存新的重新整理權杖。</td> 
+      <td>啟用此選項可在使用重新整理權杖時發出新的重新整理權杖。 您的應用程式必須在每次重新整理後儲存新的重新整理Token。</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL 絕對重新整理權杖到期]</td> 
@@ -277,7 +289,7 @@ ht-degree: 8%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL 每次使用時都輪換重新整理權杖]</td> 
-      <td>啟用此選項以在每次使用重新整理權杖時，發出新的重新整理權杖。您的應用程式必須在每次重新整理後，儲存新的重新整理權杖。</td> 
+      <td>啟用此選項可在使用重新整理權杖時發出新的重新整理權杖。 您的應用程式必須在每次重新整理後儲存新的重新整理Token。</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL 絕對期限]</td> 
@@ -345,7 +357,7 @@ ht-degree: 8%
 1. ClientApp需要來自[!DNL Workfront]的一些資訊，所以會傳送要求給[!DNL Workfront] API `/authorize`端點。 要求包含[!UICONTROL response_type] `code`，表示要求應傳回授權碼。
 1. 這會觸發[!DNL Workfront]傳送驗證提示給使用者。 使用者可以在提示中輸入其認證，這會授予[!DNL Workfront]與ClientApp通訊的許可權。 如果使用者已登入[!DNL Workfront]，則可跳過此步驟。
 1. [!DNL Workfront] API傳送授權代碼給ClientApp。
-1. ClientApp在要求中將下列資訊傳送至[!DNL Workfront] API `/token`   端點：
+1. ClientApp在要求中將下列資訊傳送至[!DNL Workfront] API `/token`端點：
 
    * 在步驟3中傳送至ClientApp的授權代碼。 這會識別使用者許可權的特定執行個體。
    * 您在[!DNL Workfront]中設定ClientApp OAuth2應用程式時所產生的使用者端密碼。 這可讓[!DNL Workfront]知道要求來自ClientApp。

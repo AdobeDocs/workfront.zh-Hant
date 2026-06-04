@@ -7,11 +7,18 @@ description: 請檢閱本文，以更加瞭解Kanban展示板的運作方式。
 author: Courtney
 feature: Agile
 exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/O-bOfD0blzsjSIDTyvxfK2CA-syztA7pMgGkuuM7H8I
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: 488
 ht-degree: 0%
 
 ---
@@ -36,7 +43,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[在[!UICONTROL Kanban]面板](../../agile/use-kanban-in-an-agile-team/update-the-status-of-stories.md)上更新內文的狀態。
 
-可以透過修改敏捷檢視為專案自訂劇本狀態，如在[[!UICONTROL 在]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view)中建立或編輯檢視中的[建立或自訂敏捷檢視 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)一節中所述。
+可以透過修改敏捷檢視為專案自訂劇本狀態，如在[在 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)中建立或編輯檢視中的[[!UICONTROL 建立或自訂敏捷檢視]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view)一節中所述。
 
 >[!NOTE]
 >

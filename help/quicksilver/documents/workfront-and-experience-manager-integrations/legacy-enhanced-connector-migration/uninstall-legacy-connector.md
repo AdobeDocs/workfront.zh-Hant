@@ -6,9 +6,19 @@ description: 文字
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4b3834bf-2e6d-4588-8d77-671e14390115
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/vA8FflK8mA9a002-Mf8WKzECsEhOaIlvnd0kG958ySE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: 397
 ht-degree: 0%
 
 ---
@@ -25,7 +35,7 @@ ht-degree: 0%
 
    ![取消訂閱workfront](assets/unsubscribe-from-workfront.png)
 
-1. 停用檔案、註解和中繼資料同步。 標籤應為停用日。
+1. 停用檔案、註解和中繼資料同步。標籤應為停用日。
 這將移除Workfront中的訂閱，並允許使用者使用Day CQ Link Externalizer中定義的相同URL來建立新訂閱。
 
 ## 刪除Workfront整合設定
@@ -56,11 +66,11 @@ ht-degree: 0%
 
 ## Day CQ連結外部化器
 
-如果您不需要Day CQ Link Externalizer，您可以前往`localhost:4502`尋找「Day CQ Link Externalizer」，將此專案還原為`/system/console/configMgr`。
+如果您不需要Day CQ Link Externalizer，您可以前往`/system/console/configMgr`尋找「Day CQ Link Externalizer」，將此專案還原為`localhost:4502`。
 
 >[!NOTE]
 >
->如果您使用Adobe Experience Manager as a Cloud Service，您可以檢視專案並在&#x200B;_ui.apps/src/main/content/jcr_root/apps/mysite/config_&#x200B;中找出檔案&#x200B;_com.day.cq.commons.impl.ExternalizerImpl.xml_&#x200B;來變更此專案。
+>如果您使用Adobe Experience Manager as a Cloud Service，您可以檢視專案並在&#x200B;_ui.apps/src/main/content/jcr_ root/apps/mysite/config _中找出檔案_ com.day.cq.commons.impl.ExternalizerImpl.xml_來變更此專案。
 
 ![天CQ連結外部器](assets/Day-CQ-Link-Externalizer.png)
 

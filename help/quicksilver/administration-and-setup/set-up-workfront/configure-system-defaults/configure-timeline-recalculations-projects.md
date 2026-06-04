@@ -8,10 +8,19 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
-source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
+TQID: https://experienceleague.adobe.com/knyphSiLwqiL0f6swxeDmx7SI6KMqb3GqYbxE8fQbgI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 0%
+source-wordcount: 435
+ht-degree: 3%
 
 ---
 
@@ -21,11 +30,11 @@ ht-degree: 0%
 
 作為[!DNL Adobe Workfront]管理員，您可以手動重新計算系統中所有專案的時間表。 專案所有者也可以手動重新計算個別專案的時間表。 如需詳細資訊，請參閱[重新計算專案時間表](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)。
 
-本文說明您身為[!DNL Workfront]管理員，如何在[!DNL Workfront]設定[!UICONTROL 區域中設定專案偏好設定，以決定]自動計算專案時間表的方式和時間。
+本文說明您身為[!DNL Workfront]管理員，如何在[!UICONTROL 設定]區域中設定專案偏好設定，以決定[!DNL Workfront]自動計算專案時間表的方式和時間。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 

@@ -5,9 +5,22 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
-source-git-commit: 85399542ce8e92de6da5a1de0960194e72958987
+TQID: https://experienceleague.adobe.com/1nXA0NxLQW3tiIrhCKAd5EMfqBjQW68GHNN42dQmptQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: 686
 ht-degree: 5%
 
 ---
@@ -100,7 +113,7 @@ ht-degree: 5%
      </tr> 
      <tr> 
       <td role="rowheader">提醒通知</td> 
-      <td>在Workfront中建立和管理提醒通知。<br>若無此存取權，使用者只能接收及檢視通知。</td> 
+      <td>在Workfront中建立及管理提醒通知。<br>若無此存取權，使用者只能接收及檢視通知。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">時間表和時數</td> 

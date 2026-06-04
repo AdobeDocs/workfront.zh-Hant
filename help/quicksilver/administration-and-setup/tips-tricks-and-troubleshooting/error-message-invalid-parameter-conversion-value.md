@@ -4,15 +4,28 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: 錯誤訊息：無效引數：轉換值
-description: 嘗試變更現有自訂表單上自訂欄位格式時，收到下列錯誤訊息：「無效引數：轉換值'&amp； lt；..&amp；gt；」
+description: 嘗試變更現有自訂表單上自訂欄位格式時，您收到下列錯誤訊息：「無效引數：轉換值'&lt；..&gt；」
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4f7aac95-4afb-422d-877b-0fa49ef43883
-source-git-commit: 929502c256011b464d938ad1095c127407e4a795
+TQID: https://experienceleague.adobe.com/XZOxVeArTT248-ea64wqsu4BxKmFYz-HBTSAaN0v4H0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 2%
+source-wordcount: 309
+ht-degree: 7%
 
 ---
 
@@ -29,9 +42,9 @@ ht-degree: 2%
 
 例如，您有一個格式為文字的自訂欄位。  現在，您想要將自訂欄位的格式變更為貨幣。 在您的Adobe Workfront執行個體的某個位置，此欄位已附加至物件，而且其中已指定資訊。 至少有一個此類欄位中的現有資訊已經格式化為文字。 因此，欄位格式無法變更為貨幣。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 

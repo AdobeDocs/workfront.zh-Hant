@@ -8,9 +8,22 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: d8a01839b8f1332741f87be766f3ccb7d08cef96
+TQID: https://experienceleague.adobe.com/WbKK8Dt8LSyGVCHLzHXHsM-3DORpJXgzKzqf7Jos3Hw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1219'
+source-wordcount: 1220
 ht-degree: 1%
 
 ---
@@ -77,7 +90,7 @@ ht-degree: 1%
      >工作角色的名稱最多可包含255個字元。 不過，在Workfront的某些區域，較長的名稱可能會被截斷。
 
    * **描述**：輸入角色的描述，以指出其獨特性。
-   * **為作用中**：如果您想要該角色為作用中，並且可在Workfront中的任何地方與使用者、工作專案等建立關聯，請選取&#x200B;**是**。 如果您想要停用該角色，且不將其指派給使用者、工作專案等，請選取&#x200B;**否**。
+   * **為作用中**：如果您想要該角色為作用中，並且可在Workfront中的任何地方與使用者、工作專案等建立關聯，請選取&#x200B;**是**。如果您想要停用該角色，且不將其指派給使用者、工作專案等，請選取&#x200B;**否**。
 
      如需有關停用工作角色的資訊，請參閱[停用工作角色](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)。
 
