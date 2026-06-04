@@ -4,10 +4,16 @@ description: 2026年第二季專案增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c4ec10bde03404befd75464841f8d3c90421dde8
+exl-id: def76c9c-d808-489b-82c7-b1f44c241116
+TQID: https://experienceleague.adobe.com/4aDDK3EIDecA-DcuB7wb3e6-NV5IvIUF7mKl-lhnY8I
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 1%
+source-wordcount: 262
+ht-degree: 2%
 
 ---
 
@@ -21,8 +27,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->預覽： 2026年2月5日
->生產：從2026年2月5日開始\
+>預覽： 2026年2月5日>生產：從2026年2月5日開始\
 >[!BADGE 關閉排程]{type=Neutral}
 
 編輯單一範本任務或大量編輯範本任務時，我們已更新「編輯範本任務」方塊中的「工作總攬」區段。  
@@ -32,7 +37,7 @@ ht-degree: 1%
 
    * 配置 
    * 所有者或任務所有者 
-   * 受指派人的角色 
+   * 受指派人角色 
 
 * 已移除「切換回舊體驗」選項。
 
@@ -42,8 +47,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->預覽： 2026年1月26日
->生產：從2026年2月5日開始
+>預覽： 2026年1月26日>生產：從2026年2月5日開始
 
 編輯單一任務或大量編輯任務時，我們已更新「編輯任務」方塊中的「工作總攬」區段。
 
@@ -60,6 +64,3 @@ ht-degree: 1%
 * 已移除「切換回舊體驗」選項。
 
 如需詳細資訊，請參閱[編輯工作](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)。
-
-
-

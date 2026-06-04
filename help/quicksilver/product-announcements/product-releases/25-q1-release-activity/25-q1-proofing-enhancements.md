@@ -5,11 +5,16 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 41eff095-ff9b-4791-81c3-758e101b3e88
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/qdVmrTCD63HS9EMkY8zyFXHZqN9Z2oPY1Z3qC0BR-Vw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: 216
 ht-degree: 0%
 
 ---
@@ -39,4 +44,4 @@ ht-degree: 0%
 
 新的Adobe Workfront檢閱工具支援檢閱所有常見瀏覽器的ZIP內容。 除了ZIP內容，新的擴充功能也支援檢閱URL內容，目前是測試版。
 
-若要安裝新的擴充功能，請參閱[使用Adobe Workfront檢閱工具檢閱互動式內容](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md#install-the-extension)中的[安裝擴充功能](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md)區段。
+若要安裝新的擴充功能，請參閱[使用Adobe Workfront檢閱工具檢閱互動式內容](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md)中的[安裝擴充功能](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md#install-the-extension)區段。

@@ -7,12 +7,19 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: d32fd0ffe1750cb08ec90d0b766034de5ffe6eaf
+TQID: https://experienceleague.adobe.com/69b0htgpFAye-6FeaFxEKrMKeUzMPOGm6tFh1T6a2IQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 27%
+source-wordcount: 422
+ht-degree: 40%
 
 ---
 
@@ -140,7 +147,7 @@ ht-degree: 27%
       <td>
         <p>2025年發行</p>
         <ul>
-        <li><a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md" class="MCXref xref" xrefformat="{para}">2025年第四季版本總覽</a></li>
+        <li><a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md" class="MCXref xref" xrefformat="{para}">2025 年第四季發行版本概觀</a></li>
           <li><a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md" class="MCXref xref" xrefformat="{para}">2025年第三季度版本總覽</a></li>
           <li><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md" class="MCXref xref" xrefformat="{para}">2025年第二季版本總覽</a></li>
           <li><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md" class="MCXref xref" xrefformat="{para}">2025年第一季版本總覽</a></li>

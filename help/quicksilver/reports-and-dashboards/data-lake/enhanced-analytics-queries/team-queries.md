@@ -8,9 +8,17 @@ author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 6f07e52b-b813-4b3a-9333-0c9300e051ca
-source-git-commit: da5c7197b3826855bae5dd3d3bf2ba9d07d7f188
+TQID: https://experienceleague.adobe.com/q4x3b0G-hwtFUAkNyRp1oWnAi09Kh8qFO77U8aDEl98
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: 172
 ht-degree: 0%
 
 ---

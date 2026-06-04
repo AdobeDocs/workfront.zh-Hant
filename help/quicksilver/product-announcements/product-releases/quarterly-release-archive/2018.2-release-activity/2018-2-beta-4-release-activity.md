@@ -7,9 +7,21 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4b54b9e6-d1bf-4802-9d6c-9c3d3b6a6583
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/gzQylGFyFhi6rQjzFHVOYuGU4nMqADtJ0vZ48L6NOmE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: 1700
 ht-degree: 0%
 
 ---
@@ -22,7 +34,7 @@ ht-degree: 0%
 >
 > 本頁所述的功能在生產環境使用之前可能會有所變更。
 
-如需2018.2年度所有變更的清單，請參閱  [2018.2發行活動總覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)。
+如需2018.2年所有變更的清單，請參閱[2018.2發行活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)。
 
 2018.2 Beta 4版本包含Workfront管理員和其他使用者的增強功能：
 
@@ -51,7 +63,7 @@ ht-degree: 0%
 
 在此變更之前，您只能設定一個套用至Kanban面板上所有欄的WIP限制。 
 
-如需詳細資訊，請參閱區段  [在文章中設定進行中的工作(WIP)限制](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4)  [設定Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)。
+如需詳細資訊，請參閱文章[設定Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)中的[設定進行中的工作(WIP)限制](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4)一節。
 
 ### 直接從Kanban面板更新在製品(WIP)限制
 
@@ -59,7 +71,7 @@ ht-degree: 0%
 
 在此變更之前，您只能從「專案團隊設定」區域更新WIP限制。
 
-如需詳細資訊，請參閱  （在文章中）。
+如需詳細資訊，請參閱文章中的。
 
 ## 改善設定敏捷團隊狀態的介面 {#improved-interface-for-configuring-statuses-for-an-agile-team}
 
@@ -133,7 +145,7 @@ ht-degree: 0%
 
   舊版校訂檢視器不支援針對在iframe內受到保護而無法檢視的網站進行檢視。
 
-* 以預先設定的解析度檢視各種裝置的內容。 例如，您可以看到內容在各種標準案頭解析度上或iPhone 8等個別裝置上的顯示方式。 
+* 以預先設定的解析度檢視各種裝置的內容。例如，您可以看到內容在各種標準案頭解析度上或iPhone 8等個別裝置上的顯示方式。 
 
 如需有關下載，安裝和使用Desktop Proofing Viewer的詳細資訊，請參閱。
 

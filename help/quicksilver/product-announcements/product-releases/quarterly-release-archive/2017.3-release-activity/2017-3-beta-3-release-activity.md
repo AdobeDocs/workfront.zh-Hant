@@ -7,9 +7,19 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: dc0cada8-4b9e-40cb-89a5-16f15268b513
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/12nUGoSnwlcVACSTf-b-Fks7QRuCCl9HBujkDNG5ubU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: 572
 ht-degree: 6%
 
 ---
@@ -22,7 +32,7 @@ ht-degree: 6%
 >
 > 本頁所述的功能在生產環境使用之前可能會有所變更。
 
-如需2017.3年度所有變更的清單，請參閱  [2017.3發行活動總覽](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)。
+如需2017.3中所做所有變更的清單，請參閱[2017.3發行活動總覽](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)。
 
 2017.3 Beta 3版本包含適用於所有使用者的增強功能：
 
@@ -62,7 +72,7 @@ ht-degree: 6%
 * 清除權限
 * 全選
 
-如需有關複製專案新功能的詳細資訊，請參閱中的「在預覽環境中複製專案」一節。   [複製專案](../../../../manage-work/projects/manage-projects/copy-project.md)。
+如需有關複製專案新功能的詳細資訊，請參閱[複製專案](../../../../manage-work/projects/manage-projects/copy-project.md)中的「在預覽環境中複製專案」一節。
 
 ## 資源規劃工具改善：篩選器 {#resource-planner-improvement-filters}
 

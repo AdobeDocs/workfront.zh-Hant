@@ -1,20 +1,39 @@
 ---
-title: 2025年第四季版本總覽
+title: 2025 年第四季發行版本概觀
 description: 此頁面提供2025年第四季度版本中包含的功能相關資訊。 這些增強功能預計會在整個季度內於生產環境中提供。
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
+TQID: https://experienceleague.adobe.com/TSymsyM0U-UVGGOntFeIzTQEep19ZVi1Lk54wRV7mmE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2457'
+source-wordcount: 2434
 ht-degree: 4%
 
 ---
 
-# 2025年第四季版本總覽
+# 2025 年第四季發行版本概觀
 
 此頁面提供排定於2025年10月發行的2025年第四季中所包含功能的相關資訊。
 
@@ -204,7 +223,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-home.md" class="MCXref xref" xrefformat="{para}">首頁中「我的請求」Widget的更新</a><p></p>
-            <p>為了在Workfront和Workfront Planning之間建立更順暢的體驗，我們重新設計了「首頁」中的「我的請求」Widget。 新的Widget提供下列變更：
+            <p>為了在Workfront和Workfront Planning之間建立更順暢的體驗，我們重新設計了「首頁」中的「我的請求」Widget。新的Widget提供下列變更：
             <ul>
                 <li>改善請求資訊的版面配置與組織</li>
                 <li>增強的篩選和排序選項</li>
@@ -346,7 +365,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">要求體驗的更新</a><p></p>
-            <p>為了在Workfront和Workfront Planning中提出請求時建立更好的使用者體驗，我們已更新請求體驗。 現在您可以：
+            <p>為了在Workfront和Workfront Planning中提出請求時建立更好的使用者體驗，我們已更新請求體驗。現在您可以：
             <ul>
                 <li>在單一清單中檢視Workfront和Workfront Planning請求。</li>
                 <li>根據您指定的條件篩選已提交的請求。</li>

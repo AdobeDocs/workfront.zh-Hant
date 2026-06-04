@@ -7,9 +7,16 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 66b499f1-12c0-4486-a5b8-ebabd0ccd59d
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/6GOzTOO4YYK45YdK1kekik6ZdIfKyeM9j44HbcB-TbQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: 688
 ht-degree: 0%
 
 ---
@@ -31,8 +38,8 @@ ht-degree: 0%
 * [正在從資源回收筒大量還原專案](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md#restoring-items-in-bulk-from-the-recycle-bin)
 * [還原檔案](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-1-release-activity.md#restore-documents)
 * [支援SAML 2.0的SHA-256憑證](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md#support-sha-256)
-* [判斷HTML5視訊校訂檢視器(ProofHQ和Workfront)的可用性](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md#determine-the-availability-of-the-html5-video-proofing-viewer)
-* [使用者資訊已從Workfront同步到ProofHQ (ProofHQ和Workfront)](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md#user-information-is-synchronized-from-workfront-to-proofhq)
+* [判斷HTML5視訊校訂檢視器（ProofHQ和Workfront）的可用性](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md#determine-the-availability-of-the-html5-video-proofing-viewer)
+* [使用者資訊已從Workfront同步到ProofHQ （ProofHQ和Workfront）](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md#user-information-is-synchronized-from-workfront-to-proofhq)
 * [預先輸入對應屬性](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md#type-ahead-for-mapping-attributes)
 * [API 7可用性](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-1-release-activity.md#api-7-is-now-available)
 * [API增強功能：事件訂閱](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-2-release-activity.md#api-enhancements-event-subscriptions)
@@ -89,10 +96,10 @@ Workfront中的&#x200B;**校訂增強功能**
 
 ProofHQ和Workfront中的&#x200B;**校訂增強功能**
 
-* [已改善視訊校訂的校訂檢視器(ProofHQ和Workfront)](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md#improved-proofing-viewer)
-* [以替代解析度(ProofHQ和Workfront)檢視多媒體校樣](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md#view-rich-media-proofs-in-alternate-resolutions)
-* [以預設解析度檢視多媒體校樣(ProofHQ和Workfront)](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md#view-rich-media-proofs-in-preset-resolutions)
-* [在多媒體校樣(ProofHQ和Workfront)的評論中檢視子頁面的URL](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md#view-urls-to-sub-pages-in-comments-on-rich-media-proofs) 
+* [已改善視訊校訂的校訂檢視器（ProofHQ和Workfront）](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md#improved-proofing-viewer)
+* [以替代解析度（ProofHQ和Workfront）檢視多媒體校樣](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md#view-rich-media-proofs-in-alternate-resolutions)
+* [以預設解析度檢視多媒體校樣（ProofHQ和Workfront）](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md#view-rich-media-proofs-in-preset-resolutions)
+* [在多媒體校樣（ProofHQ和Workfront）的評論中檢視子頁面的URL](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md#view-urls-to-sub-pages-in-comments-on-rich-media-proofs) 
 
 ProofHQ **中的**&#x200B;校訂增強功能
 

@@ -6,10 +6,26 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/7jiKsgfucD4HWoEz0nAKOGB4y2R0rpzAsq4vrNiyM3E
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2770'
-ht-degree: 0%
+source-wordcount: 2914
+ht-degree: 1%
 
 ---
 
@@ -79,7 +95,7 @@ ht-degree: 0%
                         <ul>
                         <li><strong>複製欄位</strong>：您現在可以直接從畫布按一下欄位上的「複製」圖示，複製現有欄位。</li>
                         <li><strong>使用預設區段</strong>：如果表單建立者尚未在表單頂端新增區段，則畫布中現在會顯示預設區段，以便使用者可以調整未指派自訂區段的欄位許可權。 </li>
-                        <li><strong>變更描述性文字的大小</strong>：您現在可以將小型、中型或大型指派給描述性文字欄位。 您也可以在相同列上與其他欄位搭配使用。 <span style="color: #ff0000;">變更描述性文字的大小已暫時延遲，但即將推出。</span></li> 
+                        <li><strong>變更描述性文字的大小</strong>：您現在可以將小型、中型或大型指派給描述性文字欄位。 您也可以在相同列上與其他欄位搭配使用。<span style="color: #ff0000;"> 變更描述文字的大小已暫時延遲，但即將推出。</span></li> 
                         </ul>
                         </p>
                     </td>
@@ -89,7 +105,7 @@ ht-degree: 0%
                                 <p>預覽版本： 2023年3月9日</p>
                             </li>
                             <li>
-                                 <p>生產版本： 23.2版本<br />
+                                 <p>生產版本：第23.2發行版本<br />
                                  <span style="color: #ff0000;">表單設計工具Beta版已於2023年5月24日至7月21日在預覽和生產階段中暫時停用。</span></p>
                             </li>
                         </ul>
@@ -149,7 +165,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront展示板中可用的反複專案功能</a></p>
-                        <p>Workfront面板中提供的幾項新功能可讓您使用敏捷Scrum功能。 這些功能包括：
+                        <p>Workfront面板中提供的幾項新功能可讓您使用敏捷Scrum功能。這些功能包括：
                         <ul>
                         <li>與相同團隊相關並共同作業面板的工作串流</li>
                         <li>卡片清單或待處理工作，可選擇使用來源將卡片連線至Workfront任務和問題</li>
@@ -592,7 +608,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">將工作區域匯出為XD的單一PDFPDF或多個Adobe Workfront檔案</span></a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">將工作區域匯出為XD的單一PDF或多個Adobe Workfront檔案</span></a>
                         <p>在適用於XD的Adobe Workfront外掛程式中，您現在可以選擇將工作區域匯出為單一PDF檔案或多個PDF檔案。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>

@@ -7,9 +7,17 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: cbe98ee2-f155-4d31-88c4-7f41b6f91eb2
-source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
+TQID: https://experienceleague.adobe.com/H5f7NknmUezFvDKRQJy4eDhvsnZIBjdyeneCqPh5Ico
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: 1178
 ht-degree: 0%
 
 ---
@@ -55,7 +63,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[認可日期總覽](../../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)。
 
-如需詳細資訊，請參閱[Portfolio最佳化程式概述](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)。
+如需詳細資訊，請參閱[Portfolio Optimizer概觀](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)。
 
 ## 檔案清單上檔案的各種連結重新引入 {#various-links-re-introduced-to-documents-on-the-document-list}
 
@@ -118,10 +126,10 @@ ht-degree: 0%
 
 下列功能已在指定的專案清單中暫時停用：
 
-* 調整欄大小(此功能已在2018.2 Beta 5版本中重新引入)
+* 調整欄大小（此功能已在2018.2 Beta 5版本中重新引入）
 * 欄重新排序
-* 狀態圖示欄位會顯示為空白(2018.2 Beta 5版本已重新引入此功能)
-* 無法存取甘特圖(此功能已在2018.2 Beta 3版本中重新引入。)
+* 狀態圖示欄位會顯示為空白（2018.2 Beta 5版本已重新引入此功能）
+* 無法存取甘特圖（此功能已在2018.2 Beta 3版本中重新引入。）
 
 如需使用清單的詳細資訊，請參閱[開始使用Adobe Workfront中的清單](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)。
 

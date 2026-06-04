@@ -7,9 +7,16 @@ description: 本頁提供在21.1版中發佈至生產環境的新Adobe Workfront
 author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: 2da2c8f9-a678-4739-8e9c-21473e92d51a
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+TQID: https://experienceleague.adobe.com/J7j5g9GSxTymsenPIyRh8r9cRXelrttzH-d0EvUm5y0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: 811
 ht-degree: 0%
 
 ---
@@ -66,4 +73,4 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
-—&gt;
+--&gt;

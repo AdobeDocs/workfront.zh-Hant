@@ -7,9 +7,21 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 65219cf1-809f-4d8e-a858-01f7881064d7
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/SjemPIUQMpaqkse8vDfjJWaVLtNtritW3M1lcIe6OaM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: 1024
 ht-degree: 2%
 
 ---
@@ -38,7 +50,7 @@ Workfront管理員現在可以還原過去30天內刪除的專案、任務和問
 
 在專案中，核准資訊會顯示在專案標題旁的標題中。 關於任務和問題，核准資訊會顯示在右側面板中。
 
-如需詳細資訊，請參閱[核准工作](../../../../review-and-approve-work/manage-approvals/approving-work.md)  [核准工作](../../../../review-and-approve-work/manage-approvals/approving-work.md)。
+如需詳細資訊，請參閱[核准工作](../../../../review-and-approve-work/manage-approvals/approving-work.md)中的[核准工作](../../../../review-and-approve-work/manage-approvals/approving-work.md)。
 
 ## 設定待核准要更新的物件
 
@@ -59,13 +71,13 @@ Workfront管理員現在可以還原過去30天內刪除的專案、任務和問
 
 您現在可以將配置範本指派給群組。
 
-在此變更之前，您可以將版面配置範本指派給使用者、團隊和職位角色。 將版面配置範本指派給群組，其排版配置範本指派優先順序排名最低。 
+在此變更之前，您可以將版面配置範本指派給使用者、團隊和職位角色。將版面配置範本指派給群組，其排版配置範本指派優先順序排名最低。 
 
 如需詳細資訊，請參閱建立和管理版面範本。
 
 ## 變更大量編輯使用者通知
 
-大量編輯使用者電子郵件通知設定的功能已變更。 當您選取多位使用者來編輯其通知電子郵件設定時，只有您正在更新的特定通知會針對所有選取的使用者而變更。 對於所有選取的使用者，所有未變更的電子郵件通知設定都會維持相同，即使這些使用者之間有所差異。 
+大量編輯使用者電子郵件通知設定的功能已變更。當您選取多位使用者來編輯其通知電子郵件設定時，只有您正在更新的特定通知會針對所有選取的使用者而變更。對於所有選取的使用者，所有未變更的電子郵件通知設定都會維持相同，即使這些使用者之間有所差異。 
 
 在此變更之前，您選取的電子郵件通知設定已儲存，當您儲存變更時，所有其他未變更的通知設定都已取消選取。 
 
@@ -95,7 +107,7 @@ Workfront管理員現在可以還原過去30天內刪除的專案、任務和問
 * 指派給我的工作的相關資訊
 * 通訊
 
-如需詳細資訊，請參閱[Adobe Workfront通知](../../../../workfront-basics/using-notifications/wf-notifications.md)。  請記得更新與您的帳戶關聯的電子郵件地址，以便能夠測試此功能，因為預覽沙箱會清除所有使用者的電子郵件地址。 
+如需詳細資訊，請參閱[Adobe Workfront通知](../../../../workfront-basics/using-notifications/wf-notifications.md)。請記得更新與您的帳戶關聯的電子郵件地址，以便測試此功能，因為預覽Sandbox會清除所有使用者的電子郵件地址。 
 
 ## 將群組設為公開
 
@@ -118,12 +130,12 @@ Workfront管理員現在可以還原過去30天內刪除的專案、任務和問
 * 文字訊息
 * 電子郵件
 * 儲存磁碟機（例如iCloud磁碟機）
-* 其他已安裝的應用程式(例如Notes、Facebook)
+* 其他已安裝的應用程式（例如Notes、Facebook）
 * 您可以將物件的連結複製到剪貼簿，稍後再貼到任何其他應用程式中。 
 
 ## 設定中的相關內容說明
 
-「設定」功能表下的所有區域已更新，區域右上角有「說明」圖示。 此圖示會提供說明網站中有關該區域的文章連結。 「設定」區域內的某些區段也已使用「說明」圖示更新。 
+「設定」功能表下的所有區域已更新，區域右上角有「說明」圖示。此圖示會提供說明網站中有關該區域的文章連結。「設定」區域內的某些區段也已使用「說明」圖示更新。 
 
 ## 新增更精確的費用率
 

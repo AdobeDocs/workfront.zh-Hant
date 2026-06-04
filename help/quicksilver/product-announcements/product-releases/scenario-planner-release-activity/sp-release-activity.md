@@ -8,9 +8,14 @@ description: 下列版本已推出Workfront Scenario Planner。
 author: Luke
 feature: Product Announcements, Workfront Scenario Planner
 exl-id: e0bb6c8b-03e5-4b7a-ae74-d8070b1c6ddb
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/ZCPsdCQBzryAXjaFGZPtHCSupuMycJMM2jxUjFsnhmw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: 76
 ht-degree: 0%
 
 ---

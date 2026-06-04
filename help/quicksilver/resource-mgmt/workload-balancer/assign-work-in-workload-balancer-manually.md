@@ -7,10 +7,22 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
+TQID: https://experienceleague.adobe.com/lLNKgsayPJ5WYqv-QO5GFY57FQGg6kMeVTSWOq3htIc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 1%
+source-wordcount: 748
+ht-degree: 4%
 
 ---
 
@@ -18,18 +30,18 @@ ht-degree: 1%
 
 您可以使用Adobe Workfront工作負載平衡器手動指派工作專案給使用者。
 
-如需使用工作負載平衡器指派工作給使用者的一般資訊，請參閱在工作負載平衡器[中指派工作的總覽。](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
+如需使用工作負載平衡器指派工作給使用者的一般資訊，請參閱在工作負載平衡器[&#128279;](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中指派工作的總覽。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td>
   </tr>
   <tr> 
@@ -75,7 +87,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >啟用「顯示角色指派」設定時，角色指派會顯示在「未指派工作」區域的工作專案下。 如需詳細資訊，請參閱[瀏覽工作負載平衡器](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view)中的[自訂檢視](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
+   >啟用「顯示角色指派」設定時，角色指派會顯示在「未指派工作」區域的工作專案下。 如需詳細資訊，請參閱[瀏覽工作負載平衡器](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)中的[自訂檢視](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view)。
 
 1. 按一下工作專案名稱或角色指派左側的&#x200B;**更多功能表** ![更多功能表](assets/qs-more-menu.png)，然後按一下&#x200B;**將此指派給**。
 
@@ -136,8 +148,8 @@ ht-degree: 1%
 
    按兩下每日或每週配置，以修改將使用者配置給工作專案的時間量。
 
-   如需有關在工作負載平衡器中修改使用者配置的資訊，請參閱在工作負載平衡器[中管理使用者配置一文](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)中的「修改使用者配置」一節。
+   如需有關在工作負載平衡器中修改使用者配置的資訊，請參閱在工作負載平衡器[&#128279;](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)中管理使用者配置一文中的「修改使用者配置」一節。
 
-   如需有關使用工作負載平衡器從工作專案移除指派的資訊，請參閱在工作負載平衡器[中取消指派工作。](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md)
+   如需有關使用工作負載平衡器從工作專案移除指派的資訊，請參閱在工作負載平衡器[&#128279;](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md)中取消指派工作。
 
     

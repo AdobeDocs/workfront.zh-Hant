@@ -7,9 +7,20 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2945e058-74dd-4cc3-9d6c-e5618ee7041c
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/ISgHqMUiVKrpOFD68eLx7YInjxlNnCKjYOZzBUlpOQs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: 836
 ht-degree: 0%
 
 ---
@@ -90,7 +101,7 @@ ht-degree: 0%
 
 管理群組和子群組有一個新介面，可提供更簡單、更方便使用的體驗。
 
-「群組擁有者」欄位和「群組成員」欄位現在合併為單一欄位，下方列出群組成員清單。 此外，您可以篩選群組成員的清單，並變更他們是「擁有者」還是「成員」。 
+「群組擁有者」欄位和「群組成員」欄位現在合併為單一欄位，下方列出群組成員清單。此外，您可以篩選群組成員的清單，並變更他們是「擁有者」還是「成員」。 
 
 如需新增子群組至群組，以及指定使用者為群組成員或群組擁有者的詳細資訊，請參閱[建立群組](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)和[建立群組](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)。 
 
@@ -100,9 +111,9 @@ ht-degree: 0%
 
 您可以複製行動應用程式中可見之所有物件的下列欄位中的文字：
 
-* 姓名
+* 名稱
 * 說明
 * 參考號碼
-* 評論
+* 註解
 
 此功能應在2月13日當週同時發行給iOS和Android應用程式商店。

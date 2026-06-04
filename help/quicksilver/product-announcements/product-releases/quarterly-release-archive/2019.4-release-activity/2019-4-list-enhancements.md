@@ -7,9 +7,16 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 77de46a0-cf3c-4226-ad03-08f30420724b
-source-git-commit: e1bf5fbc7dc25bf8ce472b21b9a0906530f82cf0
+TQID: https://experienceleague.adobe.com/Di5TIVt-f10GPYJ3NRTVEF5vhOOzpgw4YIYN08O1KXQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: 541
 ht-degree: 4%
 
 ---
@@ -37,7 +44,7 @@ ht-degree: 4%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><strong>套用至報告、範本任務、Portfolio等清單的新設計</strong> <p>重要：這些增強功能已於2019年11月8日從預覽環境中移除，將不會包含在2019.4版的「生產」中。 這些增強功能將在2019.4版發行到生產環境後新增回預覽環境，並將在未來版本中提供給生產環境使用。</p> <p>新的清單設計現在可在以下清單中使用：</p> 
+   <td><strong>套用至報告、範本任務、投資組合等清單的新設計</strong> <p>重要：這些增強功能已於2019年11月8日從預覽環境中移除，將不會包含在2019.4版的「生產」中。 這些增強功能將在2019.4版發行到生產環境後新增回預覽環境，並將在未來版本中提供給生產環境使用。</p> <p>新的清單設計現在可在以下清單中使用：</p> 
     <ul> 
      <li>報告 </li> 
      <li>問題</li> 
@@ -56,7 +63,7 @@ ht-degree: 4%
      <li> <p>待處理工作專案（即將推出）</p> </li> 
      <li> <p>反複專案工作專案（即將推出） </p> </li> 
      <li>基準線 </li> 
-     <li>收費率 </li> 
+     <li>計費費率 </li> 
      <li> <p>儀表板 </p> </li> 
      <li> <p>疊代 </p> </li> 
      <li> <p>計劃 </p> </li> 

@@ -4,9 +4,15 @@ description: 2025年第二季專案增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ed8137d34688024ea45ad352ed4c06d214dd0fdf
+exl-id: 35e5309a-ad8d-44f0-af84-6070c20d06e1
+TQID: https://experienceleague.adobe.com/x7PmIGv1NMgZwUnPEs33hFwG1G79Qb2q7a9o6zEIDvg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: 157
 ht-degree: 0%
 
 ---
@@ -18,7 +24,7 @@ ht-degree: 0%
 如需2025年第二季發行週期目前可用的所有變更清單，請參閱[2025年第二季發行概觀](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)。
 
 
-## 行動應用程式中校訂的增強功能(僅限iOS)
+## 行動應用程式中校訂的增強功能（僅限iOS）
 
 >[!NOTE]
 >

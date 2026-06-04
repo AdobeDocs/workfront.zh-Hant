@@ -1,14 +1,19 @@
 ---
-title: Workfront Proof發行活動：&amp；nbsp；2021年11月29日當週
-description: Workfront Proof發行活動：&amp；nbsp；2021年11月29日當週
+title: Workfront Proof發行活動：&nbsp；2021年11月29日當週
+description: Workfront Proof發行活動：&nbsp；2021年11月29日當週
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: ea19cb35-6972-4741-ba44-2e3973f68072
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+TQID: https://experienceleague.adobe.com/2a0p-QNAWmz2MZtR07KWPSAuOM-42gs6lnl5duXKJFA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: 119
 ht-degree: 0%
 
 ---

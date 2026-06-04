@@ -7,9 +7,22 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
-source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
+TQID: https://experienceleague.adobe.com/GyC2n9wRlsbHDp79Z-Bj-hrF-Q1Qfd252LH9aG6T3r0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: 712
 ht-degree: 0%
 
 ---
@@ -59,7 +72,7 @@ ht-degree: 0%
 
 若要設定Workfront在套用版面配置範本時在「我的工作」區域顯示新行事曆，請設定版面配置範本以顯示任務和問題的規劃完成日期，然後將該版面配置範本指派給適當的使用者。
 
-如需配置配置配置範本的詳細資訊，請參閱[建立和管理配置範本](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md#customizing-my-work)中的[建立和管理配置範本](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
+如需配置配置配置範本的詳細資訊，請參閱[建立和管理配置範本](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中的[建立和管理配置範本](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md#customizing-my-work)。
 
 ## Outlook 365 Beta
 

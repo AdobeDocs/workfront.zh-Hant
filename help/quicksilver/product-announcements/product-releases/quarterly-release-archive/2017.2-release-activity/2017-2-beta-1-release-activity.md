@@ -7,9 +7,21 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 99812ed3-a300-478e-973f-b957382d934b
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/7-k8GZcbnM1UfLn-wl1bRWRvHrPjiljtvu8iUa3kLCw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: 1363
 ht-degree: 0%
 
 ---
@@ -88,7 +100,7 @@ Workfront會傳送有關您指派給或擁有之專案的通知。
 
 如果您決定在排程時間表上顯示每個任務和問題的專案名稱，則會展開每個任務和問題的垂直空間，以減少在單一檢視中顯示的任務和問題。
 
-如需排程資源的詳細資訊，請參閱  開始使用資源排程。
+如需排程資源的詳細資訊，請參閱「開始使用資源排程」。
 
 ### 設定專案名稱以在排程時間表上的任務和問題上顯示 {#configure-the-project-name-to-display-on-tasks-and-issues-on-the-scheduling-timeline}
 
@@ -118,7 +130,7 @@ Workfront會傳送有關您指派給或擁有之專案的通知。
 
 在此變更之前，角色名稱和使用者名稱會捲動到目前檢視之外。
 
-如需排程資源的詳細資訊，請參閱  開始使用資源排程。
+如需排程資源的詳細資訊，請參閱「開始使用資源排程」。
 
 ## 比較校訂 {#compare-proofs}
 
@@ -140,7 +152,7 @@ R1.5版本在「預覽」環境中引入「資源規劃」的新功能。 此功
 
 現在，檢視控制面板清單時，外觀和感覺更現代，而且可擴充。
 
-此功能先前僅適用於已註冊提早存取的使用者。 預覽環境中的所有使用者現在都可以使用此功能。 2017.2版將提供給生產環境中的所有使用者。 
+此功能先前僅適用於已註冊提早存取的使用者。預覽環境中的所有使用者現在都可以使用此功能。2017.2版將提供給生產環境中的所有使用者。 
 
 如需儀表板的詳細資訊，請參閱[建立儀表板](../../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)。
 

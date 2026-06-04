@@ -6,11 +6,24 @@ description: 您可以將「里程碑」檢視套用至專案清單或報告。 
 author: Courtney, Alina
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-last-update: 2026-04-01T18:23:03Z
+last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/Jav41X12-b9nrSTfeEvI03EuYMiinnHuf2CPIUmKwlc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: 1373
 ht-degree: 1%
 
 ---
@@ -135,7 +148,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
   您可以停用完成百分比的顯示，如本文中[設定里程碑檢視](#configure-what-information-displays-in-the-milestone-view)中顯示的資訊一節所述。
 
-  您可以直接從「里程碑」檢視調整完成百分比，如本文中「里程碑」檢視[中之任務的調整完成百分比](#adjust-percent-complete-for-tasks-in-the-milestone-view)小節所述。
+  您可以直接從「里程碑」檢視調整完成百分比，如本文中「里程碑」檢視[&#128279;](#adjust-percent-complete-for-tasks-in-the-milestone-view)中之任務的調整完成百分比小節所述。
 
 * **任務進度狀態圖示：**&#x200B;下列是指示任務進度狀態的圖示：
 

@@ -5,9 +5,20 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+TQID: https://experienceleague.adobe.com/8LLDPoqTld6CKGylVcw7B7PAvLUqHj0fjzl5cw382-M
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: 585
 ht-degree: 0%
 
 ---
@@ -48,7 +59,7 @@ ht-degree: 0%
 >
 >預覽版本： 2024年8月29日；適用於所有客戶的生產版本： 2024年8月29日
 
-為了協助您更輕鬆地使用版面配置範本顯示和隱藏欄位，在版面配置範本中，詳細資訊檢視的[概述]和[財務]區域新增了&#x200B;**全選**&#x200B;核取方塊。 當您在&#x200B;**自訂使用者看到的內容**&#x200B;下選取專案、任務、問題、Portfolio或計畫時，此選項可供使用。 請注意，並非所有物件都會顯示財務區域，每個區域中的欄位會因物件而異。
+為了協助您更輕鬆地使用版面配置範本顯示和隱藏欄位，在版面配置範本中，詳細資訊檢視的[概述]和[財務]區域新增了&#x200B;**全選**&#x200B;核取方塊。 當您在&#x200B;**自訂使用者看到的內容**&#x200B;下選取專案、任務、問題、Portfolio或方案時，此選項可供使用。 請注意，並非所有物件都會顯示財務區域，每個區域中的欄位會因物件而異。
 
 如需詳細資訊，請參閱[使用配置範本自訂詳細資料檢視](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)。
 
@@ -64,7 +75,7 @@ ht-degree: 0%
 
 如需有關復原環境升級套件的詳細資訊，請參閱[復原環境升級套件](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-rollback.md)。
 
-[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3434025/){target=_blank}
+[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3434025/){target=_blank}
 
 ## 自訂表單設計工具上的「版面」按鈕允許兩或三欄
 

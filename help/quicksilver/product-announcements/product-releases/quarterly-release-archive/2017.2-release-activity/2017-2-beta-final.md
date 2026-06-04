@@ -7,9 +7,22 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 768e9aad-d7e7-4a3c-9f93-926cf588ddc7
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/7tfTmpf1SXBHaK8rlrRGMLI-ikA-w6jqmQhMlVkKawQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2314'
+source-wordcount: 2332
 ht-degree: 0%
 
 ---
@@ -28,7 +41,7 @@ ht-degree: 0%
 
 管理員的&#x200B;**：**
 
-* [判斷HTML5視訊校訂檢視器(ProofHQ和Workfront)的可用性](#determine-the-availability-of-the-html5-video-proofing-viewer-proofhq-and-workfront)
+* [判斷HTML5視訊校訂檢視器（ProofHQ和Workfront）的可用性](#determine-the-availability-of-the-html5-video-proofing-viewer-proofhq-and-workfront)
 * [支援SAML 2.0的SHA-256憑證](#support-sha-256-certificates-for-saml-2-0)
 * [預先輸入對應屬性](#type-ahead-for-mapping-attributes)
 * [API增強功能：存取使用者配置](#api-enhancement-access-user-allocations)
@@ -44,8 +57,8 @@ ht-degree: 0%
 * [2017.2 Beta最終版](#user-calendar-enhancements-in-the-my-work-area%22)
 * [2017.2 Beta最終版](#layout-template-determines-whether-the-new-or-legacy-calendar-displays-in-the-my-work-area)
 * 我的工作區域(Workfront)中顯示[校訂決定](#proof-decision-displays-in-the-my-work-area-workfront)
-* [以預設解析度檢視多媒體校樣(ProofHQ和Workfront)](#view-rich-media-proofs-in-preset-resolutions-proofhq-and-workfront)
-* [在多媒體校樣(ProofHQ和Workfront)的評論中檢視子頁面的URL](#view-url-to-sub-pages-in-comments-on-rich-media-proofs-proofhq-and-workfront)
+* [以預設解析度檢視多媒體校樣（ProofHQ和Workfront）](#view-rich-media-proofs-in-preset-resolutions-proofhq-and-workfront)
+* [在多媒體校樣（ProofHQ和Workfront）的評論中檢視子頁面的URL](#view-url-to-sub-pages-in-comments-on-rich-media-proofs-proofhq-and-workfront)
 * [根據現有的標準檢視(ProofHQ)建立自訂檢視](#create-custom-views-based-on-existing-standard-views-proofhq)
 * [篩選報告區域(ProofHQ)](#filter-the-reporting-area-proofhq)
 * [在報告(ProofHQ)中顯示最小值和最大值](#display-minimum-and-maximum-values-in-reports-proofhq)
@@ -119,7 +132,7 @@ ht-degree: 0%
 
 ## 以TSV和PDF格式匯出使用情況報表 {#export-the-utilization-report-in-tsv-and-pdf-formats}
 
-除了XLSX格式以外，您現在可以匯出TSV和PDF格式之專案的「使用率」報告。
+除了XLSX格式外，您現在還可以匯出TSV和PDF格式之專案的使用情況報告。
 
 在此變更之前，您只能以XLSX格式匯出「使用率」報告。
 
@@ -133,7 +146,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[核准工作](../../../../review-and-approve-work/manage-approvals/approving-work.md)中的[核准工作](../../../../review-and-approve-work/manage-approvals/approving-work.md)。
 
-## 以預設解析度檢視多媒體校樣(ProofHQ和Workfront) {#view-rich-media-proofs-in-preset-resolutions-proofhq-and-workfront}
+## 以預設解析度檢視多媒體校樣（ProofHQ和Workfront） {#view-rich-media-proofs-in-preset-resolutions-proofhq-and-workfront}
 
 在舊版的「預覽」環境中，我們匯入了調整多媒體校樣解析度的功能，其方式為指定自訂解析度或將影像拖曳至所需的解析度。
 
@@ -141,7 +154,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[在校訂檢視器](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)中變更互動式校訂解析度中的「檢視預設解析度」。
 
-## 在多媒體校樣(ProofHQ和Workfront)的評論中檢視子頁面的URL {#view-url-to-sub-pages-in-comments-on-rich-media-proofs-proofhq-and-workfront}
+## 在多媒體校樣（ProofHQ和Workfront）的評論中檢視子頁面的URL {#view-url-to-sub-pages-in-comments-on-rich-media-proofs-proofhq-and-workfront}
 
 >[!NOTE]
 >
@@ -153,7 +166,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱
 
-## 判斷HTML5視訊校訂檢視器(ProofHQ和Workfront)的可用性 {#determine-the-availability-of-the-html5-video-proofing-viewer-proofhq-and-workfront}
+## 判斷HTML5視訊校訂檢視器（ProofHQ和Workfront）的可用性 {#determine-the-availability-of-the-html5-video-proofing-viewer-proofhq-and-workfront}
 
 身為ProofHQ中的Workfront管理員，您可以決定組織中的使用者是否擁有視訊校訂的新HTML5校訂檢視器的存取權。
 
@@ -169,19 +182,19 @@ ht-degree: 0%
 
 ## 篩選報告區域(ProofHQ) {#filter-the-reporting-area-proofhq}
 
-依預設，「報表」標籤上顯示的資料包含來自ProofHQ系統的所有資訊。 您現在可以使用篩選器只顯示與需求相關的資訊。 
+依預設，「報表」標籤上顯示的資料包含來自ProofHQ系統的所有資訊。您現在可以使用篩選器只顯示與需求相關的資訊。 
 
-如需詳細資訊，請參閱[篩選報告](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#filtering-reports)，位於  [在Workfront Proof中執行報告](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md)。
+如需詳細資訊，請參閱[在Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md)中執行報告[篩選報告](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#filtering-reports)。
 
 ## 在報告中顯示最小值和最大值(ProofHQ) {#display-minimum-and-maximum-values-in-reports-proofhq}
 
 您現在可以設定檢視報表時圖形中是否顯示最小值和最大值。
 
-如需詳細資訊，請參閱[檢視報告](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#viewing-reports)，位於  [在Workfront Proof中執行報告](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md)。
+如需詳細資訊，請參閱[在Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md)中執行報告[檢視報告](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#viewing-reports)。
 
 ## 支援SAML 2.0的SHA-256憑證 {#support-sha-256-certificates-for-saml-2-0}
 
-使用SAML 2.0為SSO設定Workfront時，我們現在支援安全雜湊演演算法256 (SHA-256)。在此版本之前，我們僅支援安全雜湊演演算法1 (SHA-1)。
+使用SAML 2.0為SSO設定Workfront時，我們現在支援安全雜湊演演算法256 (SHA-256)。 在此版本之前，我們僅支援安全雜湊演演算法1 (SHA-1)。
 
 如需使用SAML 2.0設定Workfront的詳細資訊，請參閱[使用SAML 2.0設定Adobe Workfront](../../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
 
@@ -212,7 +225,7 @@ SAML 1.1不支援屬性對應。
 
 Android平台將針對其中部分功能提供公開測試版計畫。
 
-如需即將推出的行動測試版計畫的詳細資訊，請參閱  [「Betas」](https://support.workfront.com/hc/en-us/sections/115000743248)頁。
+如需有關即將推出的行動測試版計畫的詳細資訊，請參閱[「Betas」](https://support.workfront.com/hc/en-us/sections/115000743248)頁面。
 
 如需使用Workfront行動應用程式的詳細資訊，請參閱。  
 
@@ -221,7 +234,7 @@ Android平台將針對其中部分功能提供公開測試版計畫。
 在文字模式中建立篩選器，並篩選包含逗號的欄位值時，您必須在分隔值的逗號前加上斜線(&quot;/&quot;)，以確保值作為一個篩選器選項讀取。 這僅適用於下列欄位型別：
 
 * 下拉式清單
-* 單選按鈕
+* 選項按鈕
 * 核取方塊
 
 在此變更之前，您無法篩選選項中包含逗號的欄位。

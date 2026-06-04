@@ -5,9 +5,22 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d24ddc8a-fe96-4e9b-8186-0b54ab9ab213
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+TQID: https://experienceleague.adobe.com/dbwl44iOJoBWysGDsJYaFmjdMqoo-wL5sHiRxNqc4qQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: bbf3fe51-0066-4980-9062-f8005585ee10
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: 700
 ht-degree: 0%
 
 ---
@@ -34,23 +47,23 @@ Adobe Creative Cloud整合現在支援在任務或問題有多個指派使用者
 
 以前，整合可讓使用者將任務標示為完成，而不需指定「已完成我的部分」或「完成」/「已解決」。
 
-若要善用此功能，請下載並安裝最新的WorkfrontCreative Cloud外掛程式。
+若要運用此功能，請下載並安裝最新的Workfront for Creative Cloud外掛程式。
 
 如需功能的詳細資訊，請參閱[使用Adobe Workfront外掛程式標籤工作專案完成](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)。
 
-如需有關安裝Creative Cloud外掛程式的Workfront的資訊，請參閱[安裝Creative Cloud應用程式的Adobe Workfront外掛程式](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)。
+如需有關安裝適用於Creative Cloud的Workfront外掛程式的資訊，請參閱[安裝適用於Creative Cloud應用程式的Adobe Workfront外掛程式](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)。
 
-## 從Workfront檢視及管理適用於Creative Cloud外掛程式的Workfront通知
+## 從適用於Workfront外掛程式的Workfront檢視和管理Creative Cloud通知
 
 為了讓您更輕鬆地接收所需的通知，我們讓您能夠檢視和管理Workfront通知，而不需要離開Adobe Creative Cloud。 現在，您可以直接從Creative Cloud應用程式的Workfront外掛程式視窗中檢視通知，以及存取與這些通知相關的工作專案和註解。
 
 以前，通知只能在Workfront內透過電子郵件取得。
 
-若要善用此功能，請下載並安裝最新的WorkfrontCreative Cloud外掛程式。
+若要運用此功能，請下載並安裝最新的Workfront for Creative Cloud外掛程式。
 
 如需詳細資訊，請參閱[從Adobe Creative Cloud檢視及管理 [!DNL Adobe Workfront] 通知](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)。
 
-如需有關安裝Creative Cloud外掛程式的Workfront的資訊，請參閱[安裝Creative Cloud應用程式的Adobe Workfront外掛程式](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)。
+如需有關安裝適用於Creative Cloud的Workfront外掛程式的資訊，請參閱[安裝適用於Creative Cloud應用程式的Adobe Workfront外掛程式](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)。
 
 <!--
 
@@ -80,17 +93,17 @@ For more information, see [Link documents from external applications](/help/quic
 
 之前，將Workfront資料對應至Experience Manager Assets標籤的功能無法使用。
 
-如需Experience Manager Assetsas a Cloud Service中此功能的詳細資訊，請參閱[設定[!UICONTROL Experience Manager Assetsas a Cloud Service]整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)。
+如需Experience Manager Assets as a Cloud Service中此功能的詳細資訊，請參閱[設定[!UICONTROL Experience Manager Assets as a Cloud Service]整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)。
 如需Experience Manager Assets Essentials中此功能的詳細資訊，請參閱[設定Experience Manager Assets Essentials整合](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)。
 
 ## 將Workfront欄位對應至自訂Experience Manager Assets中繼資料欄位
 
-透過原生整合，您現在可以將原生和內建Workfront欄位對應到Experience Manager Assetsas a Cloud Service中的自訂中繼資料結構欄位。
+透過原生整合，您現在可以將原生和內建Workfront欄位對應到Experience Manager Assets as a Cloud Service中的自訂中繼資料結構欄位。
 
-如需Experience Manager Assetsas a Cloud Service中此功能的詳細資訊，請參閱[設定[!UICONTROL Experience Manager Assetsas a Cloud Service]整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)。
+如需Experience Manager Assets as a Cloud Service中此功能的詳細資訊，請參閱[設定[!UICONTROL Experience Manager Assets as a Cloud Service]整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)。
 如需Experience Manager Assets Essentials中此功能的詳細資訊，請參閱[設定Experience Manager Assets Essentials整合](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)。
 
-## 使用Adobe Workfront調整自動校樣工作流程範本設定以進行Creative Cloud
+## 使用適用於Creative Cloud的Adobe Workfront調整自動校樣工作流程範本設定
 
 您現在可以直接在Creative Cloud中調整現有的自動化工作流程範本設定。 選擇現有的自動化工作流程範本後，您可以：
 

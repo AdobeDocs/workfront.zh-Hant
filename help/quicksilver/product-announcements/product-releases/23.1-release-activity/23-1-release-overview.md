@@ -6,10 +6,28 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/Ncl4u9f8zfI-DC671HutyHlrb0MAb0djOoUiYe90Vf8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+  - id: d1807669-3cb9-4c7d-8433-600aa390c92f
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2462'
-ht-degree: 0%
+source-wordcount: 2558
+ht-degree: 1%
 
 ---
 
@@ -48,7 +66,7 @@ ht-degree: 0%
                 </tr>
                  <tr>
                     <td>
-                        在工作負載平衡器<a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">中大量指派專案時，</a>次要工作角色已新增到其他指派清單</p>
+                        在工作負載平衡器</a>中大量指派專案時，<a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">次要工作角色已新增到其他指派清單</p>
                         <p>在「角色指派」欄位中選擇工作角色後，在工作負載平衡器中批次指派使用者時，填入「要指派的使用者」欄位的「其他指派」清單中的使用者清單，現在將顯示與每個使用者相關聯的所有工作角色名稱。 在此增強功能之前，只會顯示使用者的主要角色。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -123,7 +141,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront主機板的Scrum規劃</a><span style="color: #ff0000;">即將推出！</span></p>
-                        <p>Adobe Workfront展示板中的新Scrum規劃功能提供彈性選項，可管理您的敏捷流程。 使用這些工具，您可以：
+                        <p>Adobe Workfront展示板中的新Scrum規劃功能提供彈性選項，可管理您的敏捷流程。使用這些工具，您可以：
                         <ul>
                         <li>追蹤反複專案或衝刺中的工作</li>
                         <li>使用Velocity引導團隊承諾</li>
@@ -398,7 +416,7 @@ ht-degree: 0%
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">在[設定]區域的[篩選器]、[檢視]和[群組]頁面新增清單控制項功能。</a></p>
-                        <p>我們已將清單控制功能新增到「設定」區域的「篩選器」、「檢視」和「群組」頁面。 您可以在此處啟用或停用配置範本的篩選器、檢視和群組。
+                        <p>我們已將清單控制功能新增到「設定」區域的「篩選器」、「檢視」和「群組」頁面。您可以在此處啟用或停用配置範本的篩選器、檢視和群組。
 </p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>

@@ -7,9 +7,16 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f3293166-ef91-4623-828b-9530d746296d
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/CtGQZMxSWimi-9K73442-rUmpyPcqNh0EQ6MNaBNtns
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: 831
 ht-degree: 0%
 
 ---
@@ -22,7 +29,7 @@ ht-degree: 0%
 >
 > 本頁所述的功能在生產環境使用之前可能會有所變更。
 
-如需2017.3年度所有變更的清單，請參閱  [2017.3發行活動總覽](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)。
+如需2017.3中所做所有變更的清單，請參閱[2017.3發行活動總覽](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)。
 
 2017.3 Beta 2版本包含適用於Workfront管理員和其他使用者的增強功能：
 
@@ -61,7 +68,7 @@ ht-degree: 0%
 
 現在您可以篩選在專案使用報告中所顯示的內容。
 
-如需詳細資訊，請參閱[資源使用率報告概述](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)，位於  [資源使用率報告概觀](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。
+如需詳細資訊，請參閱[資源使用狀況報告簡介](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)中的[資源使用狀況報告簡介](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。
 
 ## 檢視專案之使用率報表中的成本資訊 {#view-cost-information-in-the-utilization-report-on-a-project}
 
@@ -69,7 +76,7 @@ ht-degree: 0%
 
 在此變更之前，使用報告僅提供小時資訊。
 
-如需詳細資訊，請參閱[資源使用率報告概述](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)，位於  [資源使用率報告概觀](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。
+如需詳細資訊，請參閱[資源使用狀況報告簡介](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)中的[資源使用狀況報告簡介](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。
 
 ## 訂閱和取消訂閱專案的使用者 {#subscribing-and-unsubscribing-users-to-items}
 
@@ -79,7 +86,7 @@ ht-degree: 0%
 
 訂閱後，每當對訂閱物件的更新流進行評論時，使用者會收到應用程式內通知。 此外，訂閱者可選擇接收電子郵件和行動通知。
 
-若要進一步瞭解如何訂閱和取消訂閱物件的使用者，請參閱[訂閱Adobe Workfront中的專案](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)，位置在：   [訂閱Adobe Workfront中的專案](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)。
+若要進一步瞭解如何訂閱及取消訂閱使用者物件，請參閱[訂閱Adobe Workfront中的專案](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md) [&#128279;](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)中的專案。
 
 ## 在報表或檢視中檢視訂閱者清單 {#viewing-the-subscriber-list-in-a-report-or-view}
 
@@ -89,7 +96,7 @@ ht-degree: 0%
 
 「溝通」電子郵件的外觀和風格已更新，為您提供在物件上進行的溝通的更多內容。 您現在可以快速關注註解對話串，並檢視通訊中包含的人員。
 
-如需詳細資訊，請參閱中的[Adobe Workfront通知](../../../../workfront-basics/using-notifications/wf-notifications.md)  [Adobe Workfront通知](../../../../workfront-basics/using-notifications/wf-notifications.md)。
+如需詳細資訊，請參閱[Adobe Workfront通知](../../../../workfront-basics/using-notifications/wf-notifications.md)中的[Adobe Workfront通知](../../../../workfront-basics/using-notifications/wf-notifications.md)。
 
 ## 依Stage Activation (Workfront Proof)限制工作流程的存取權 {#restrict-access-to-workflows-by-stage-activation-workfront-proof}
 

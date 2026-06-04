@@ -5,9 +5,16 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 65012e89-3e3e-42b7-94af-8fa3687501ed
-source-git-commit: 1dc8591dd0da3c3b6030bd643bf80dbe1ee97ea9
+TQID: https://experienceleague.adobe.com/-e9g0TiXPly9kkevZu5fOu1PivbEh9nEIpKS3f2E6JA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: 321
 ht-degree: 0%
 
 ---
