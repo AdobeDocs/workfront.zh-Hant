@@ -7,9 +7,13 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f208b566-2529-4c4d-aa66-0c8756e55a5a
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/cRgFYpirYkFSGNPJT0CFwtIB4Pul0-Mml9i892nV1aE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2147'
+source-wordcount: 2151
 ht-degree: 0%
 
 ---
@@ -18,7 +22,7 @@ ht-degree: 0%
 
 本頁說明2018.3 Beta 5版本預覽環境中最近可用的所有變更。 此功能將於2018年9月21日在預覽環境中提供。 它將於2018年11月在生產環境中提供。
 
-如需2018.3年所有變更的清單，請參閱  [2018.3發行活動總覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)。
+如需2018.3中所做所有變更的清單，請參閱[2018.3發行活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)。
 
 2018.3 Beta 5版本包含適用於所有使用者的增強功能：
 
@@ -32,7 +36,7 @@ ht-degree: 0%
 * [簡化角色型核准](#simplified-role-based-approvals)
 * [使用率報告：從新資源預算區域填入預算時數](#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area)
 * [使用率報告：檢視專案上按使用者的預算時數](#utilization-report-view-budgeted-hours-by-user-on-a-project)
-* 校訂檢視器中不再支援[SWF檔案](#swf-files-no-longer-supported-in-the-proofing-viewer)
+* 校訂檢視器不再支援[SWF檔案](#swf-files-no-longer-supported-in-the-proofing-viewer)
 * 在校訂檢視器的註解清單中更快速地存取[動作](#actions-more-quickly-accessible-in-the-comment-list-in-the-proofing-viewer)
 * [校訂檢視器中的校訂共用改善](#proof-sharing-improvement-in-the-proofing-viewer)
 * 校訂檢視器中的[註解清單增強功能](#comments-list-enhancements-in-the-proofing-viewer)
@@ -61,11 +65,11 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[管理核准](../../../../review-and-approve-work/manage-approvals/manage-approvals.md)。 
 
-## 取代Workfront中的Flash型工具 {#replacement-of-flash-based-tools-in-workfront}
+## 取代Workfront中的Flash工具 {#replacement-of-flash-based-tools-in-workfront}
 
 所有依賴Flash技術的功能預計會在2018.3版中從Workfront移除，並更換為新解決方案。
 
-如需受移除這些功能影響之所有區域的詳細資訊，以及瞭解哪些工具會取代這些功能，請參閱[在Adobe Workfront中取代Flash型工具](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)。
+如需受移除這些功能影響之所有區域的詳細資訊，以及瞭解哪些工具會取代這些功能，請參閱[在Adobe Workfront中取代Flash工具](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md)。
 
 ## 允許工作授權使用者存取專案的「排程」子標籤 {#allowing-work-license-users-to-access-the-scheduling-subtab-of-a-project}
 
@@ -97,7 +101,7 @@ ht-degree: 0%
 
 ## 業務案例匯出中的資源規劃工具資料 {#resource-planner-data-in-the-business-case-export}
 
-當您將「業務案例」匯出至PDF時，匯出的檔案中的財務資訊現在會反映「資源預算」區域和「資源規劃工具」中的資訊。 
+當您將業務案例匯出到PDF時，匯出的檔案中的財務資訊現在會反映資源預算區域和資源規劃工具中的資訊。 
 
 先前，匯出的檔案會反映舊版資源估算區域和Capacity Planner中的資訊。 
 
@@ -125,29 +129,29 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 2018.2發行版本首次將此功能引入預覽環境。 它將在2018.3版本中發佈到生產環境。 
+> 2018.2發行版本首次將此功能引入預覽環境。它將在2018.3版本中發佈到生產環境。 
 
 使用率報表中的預算時數現在會從業務案例的新資源預算區域可用的資訊植入。
 
 在此變更之前，使用來自舊版資源估計區域的資訊。
 
-如需詳細資訊，請參閱  [文章中的資源使用率報告概觀](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)  [資源使用率報告概觀](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。
+如需詳細資訊，請參閱[資源使用率報告概述](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)一文中的[資源使用率報告概述](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。
 
 ## 使用率報表：依使用者檢視專案的預算時數 {#utilization-report-view-budgeted-hours-by-user-on-a-project}
 
 >[!NOTE]
 >
->2018.2發行版本首次將此功能引入預覽環境。 它將在2018.3版本中發佈到生產環境。 
+>2018.2發行版本首次將此功能引入預覽環境。它將在2018.3版本中發佈到生產環境。 
 
 專案的「使用率」報告現在會依使用者顯示預算時數。
 
 在此變更之前，「使用率」報告僅依工作角色顯示「預算時數」。 
 
-如需詳細資訊，請參閱  [文章中的資源使用率報告概觀](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)  [資源使用率報告概觀](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。
+如需詳細資訊，請參閱[資源使用率報告概述](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)一文中的[資源使用率報告概述](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。
 
 ## 校訂檢視器不再支援SWF檔案 {#swf-files-no-longer-supported-in-the-proofing-viewer}
 
-由於AdobeFlash的相關安全性問題，校訂檢視器不再支援從SWF檔案建立的校訂。 如果您開啟先前為SWF檔案建立的校訂，則會顯示一則訊息，指出校訂內容先前顯示在校訂檢視器中。 您可以在校訂上看到任何評論。 您也可以下載註解及下載原始SWF檔案。
+由於Adobe Flash的安全性考量，校訂檢視器不再支援從SWF檔案建立的校訂。 如果您開啟先前為SWF檔案建立的校訂，則會顯示一則訊息，指出校訂檢視器中先前顯示的校訂內容。 您可以在校訂上看到任何評論。 您也可以下載註解及下載原始的SWF檔案。
 
 如需詳細資訊，請參閱文章[支援的校訂檔案型別和大小限制概述](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)中的[支援的校訂檔案型別和大小限制概述](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)。 
 
@@ -165,7 +169,7 @@ ht-degree: 0%
 
 以前，這些選項提供的功能與現在相同，但其組織與「檔案」清單中的對應選項不一致。
 
-如需詳細資訊，請參閱區段  [分享文章中的URL](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-the-url)  [從校訂檢視器共用校訂](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)。
+如需詳細資訊，請參閱文章[從校訂檢視器共用校訂](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)中的[共用URL](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-the-url)小節。
 
 ## 校訂檢視器中的「註解清單」增強功能 {#comments-list-enhancements-in-the-proofing-viewer}
 
@@ -240,7 +244,7 @@ ht-degree: 0%
   以前，評論編號只出現在與評論相關的第一個標籤上。 註解的其他標示顯示時沒有數字。
 
 * 如果校訂是網頁擷取，則任何包含評論的頁面都會顯示擷取網頁的解析度。 例如，如果校樣包含行動裝置擷取的頁面，以及筆記型電腦和桌上型電腦擷取的相同頁面，則這項功能會很有幫助。
-* 現在，當您按「動作」、「作者」或「未解決」狀態來篩選「列印摘要」頁面中的註解時，您的篩選器會套用至您匯出為PDF或Excel檔案的校樣，而不僅僅是列印的校樣。
+* 現在，當您按「動作」、「作者」或「未解決」狀態來篩選「列印摘要」頁面中的註解時，您的篩選器會套用至您匯出為PDF或Excel檔案的校樣，而不只是列印的校樣。
 
 如需詳細資訊，請參閱[在Adobe Workfront中列印校訂摘要](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)。
 
@@ -254,4 +258,4 @@ ht-degree: 0%
 
 行動應用程式上「更新」標籤的外觀和操作方式現已更新。 此項改善目前僅適用於Android的Workfront Beta版應用程式。
 
-如需在Workfront行動應用程式中管理更新和評論的詳細資訊，請參閱區段  中的。
+如需在Workfront行動應用程式中管理更新和評論的詳細資訊，請參閱中的區段。

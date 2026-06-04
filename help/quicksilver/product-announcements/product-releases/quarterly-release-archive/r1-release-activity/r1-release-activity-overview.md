@@ -7,9 +7,13 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 134e4d1a-0acf-4ecb-b409-23f26b68c3f6
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/y-uIKCrAsBoiFJVetyrga8WNrckTOtzaTC23JhUdvOo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d8302c96-f652-4d09-896b-19a70bab02a5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: 903
 ht-degree: 0%
 
 ---
@@ -102,7 +106,7 @@ R1版本可讓使用者、知識工作者及管理員更好地管理他們的工
 * [共用行動應用程式中物件的URL](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md#share-the-url-of-an-object-in-the-mobile-app)
 * [Outlook 365 Beta](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#outlook-365-beta) 
 * [在行動應用程式中搜尋(Workfront)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#search-in-the-mobile-app)
-* [改善行動應用程式說明：Tutorials(Workfront)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#improved-help-in-the-mobile-app-tutorials)
+* [改善行動應用程式的說明：教學課程(Workfront)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#improved-help-in-the-mobile-app-tutorials)
 
 ## 校訂增強功能 {#proofing-enhancements}
 
@@ -121,11 +125,11 @@ R1版本可讓使用者、知識工作者及管理員更好地管理他們的工
 
 以下增強功能隨R1發行至ProofHQ應用程式：
 
-* [搜尋PDF檔案(ProofHQ)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#search-in-pdf-documents)
+* [在PDF檔案(ProofHQ)中搜尋](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#search-in-pdf-documents)
 * [已更新全域導覽列(ProofHQ)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#updated-global-navigation-bar)：
 
    * 新使用者個人資料圖片
-   * Workfront應用程式的新連結(當ProofHQ帳戶與Workfront帳戶整合時)
+   * Workfront應用程式的新連結（當ProofHQ帳戶與Workfront帳戶整合時）
    * 更新外觀
 
 * [在自訂檢視(ProofHQ)中包含其他資訊](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#include-additional-information-in-custom-views)

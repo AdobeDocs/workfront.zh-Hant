@@ -7,9 +7,15 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+TQID: https://experienceleague.adobe.com/q4CqQk3-DtWDhTSkfMdu4Ut3wmX5s787Fib8BFslHDQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2112'
+source-wordcount: 2204
 ht-degree: 0%
 
 ---
@@ -28,7 +34,7 @@ ht-degree: 0%
 >
 >預覽版本： 2024年12月20日；適用於所有客戶的生產版本： 2025年1月16日
 
-您現在可以在Workfront Planning中將連線欄位與AEM資產新增至記錄型別請求表單。
+您現在可以在Workfront Planning中將含有AEM資產的連線欄位新增到記錄型別請求表單中。
 
 在此增強功能之前，這些型別的欄位無法新增到請求表單。
 
@@ -61,7 +67,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您組織的Workfront執行個體必須加入Adobe統一體驗，使用者才能接收電子郵件和應用程式內通知。
+>您組織的Workfront執行個體必須上線至Adobe統一體驗，使用者才能接收電子郵件和應用程式內通知。
 
 如需關於提交或核准請求的資訊，請參閱下列文章：
 
@@ -215,13 +221,13 @@ Workspace管理員可在刪除記錄後，從垃圾桶還原記錄長達30天。
 
 如需詳細資訊，請參閱[還原已刪除的記錄](/help/quicksilver/planning/records/records-information.md)。
 
-## 可在記錄詳細資訊區域取得的AdobeAI助理
+## 可在記錄詳細資料區域取得的Adobe AI小幫手
 
 >[!NOTE]
 >
 >預覽版本： 2024年11月21日；快速發行生產：24.12版（2024年12月12日）；每季發行生產：25.1版（2025年1月）
 
-為了讓您更輕鬆地完成工作，我們已將AdobeAI助理新增到記錄的詳細資料預覽或記錄頁面。 您可以在記錄頁面內使用AI助理員來更新有關記錄的資訊。
+為了讓您更輕鬆地完成工作，我們已將Adobe AI助理新增到記錄的詳細資料預覽或記錄頁面。 您可以在記錄頁面內使用AI助理員來更新有關記錄的資訊。
 
 如需詳細資訊，請參閱[Adobe Workfront Planning AI Assistant總覽](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)。
 
@@ -302,7 +308,7 @@ Workspace管理員可在刪除記錄後，從垃圾桶還原記錄長達30天。
 
 * 從Workfront物件連線並中斷Workfront Planning記錄的連線。
 
-您可以將新欄位新增至所有物件型別的表單。 不過，您只能從附加到下列Workfront物件(可從Workfront Planning記錄型別連線)的表單編輯欄位中的資訊：Portfolio、方案、專案、公司、群組。
+您可以將新欄位新增至所有物件型別的表單。 不過，您只能從附加到下列Workfront物件（可從Workfront Planning記錄型別連線）的表單編輯欄位中的資訊：Portfolio、方案、專案、公司、群組。
 
 目前無法大量編輯Workfront物件的Planning連線欄位。
 

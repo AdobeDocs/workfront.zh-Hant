@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 4eeb229206421d737b9543613608935eacb058f9
+source-git-commit: bd1c8dfc4b03b4b8d9948da278406addf801d226
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1665'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,18 @@ Workspace managers can modify views in sample workspaces.
 For information, see Workspaces overview (/help/quicksilver/planning/architecture/workspaces-overview.md). 
 
 -->
+
+## 新增「範例工作區」索引標籤至Planning登陸頁面
+
+>[!NOTE]
+>
+>預覽： 2026年6月1日>生產快速發佈： 2026年6月11日>每個人都生產： 2026年7月16日
+
+我們已在Planning登陸區中新增「範例工作區」索引標籤，您可在此檢視最佳實務工作區範例。 工作區不可編輯。 Workspace管理員可以修改範例工作區中的檢視。 標準和系統管理員使用者可看見此索引標籤。
+
+我們建議您檢視範例工作區作為範例，並使用多工作區範本組合來建立、編輯和共用以該範本產生的工作區。  範本束包含與「範例工作區」標籤相同的工作區。
+
+如需詳細資訊，請參閱[工作區概述](/help/quicksilver/planning/architecture/workspaces-overview.md)。
 
 ## Workfront Planning API 2
 

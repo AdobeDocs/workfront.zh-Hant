@@ -7,9 +7,14 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ed7488f1-2076-4160-97f3-a3da25cccd0f
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+TQID: https://experienceleague.adobe.com/YIrC0bPIlY8yLTVQ5VlsYctwXFu-fV5syuqmmh7i5ek
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3did: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: 566
 ht-degree: 0%
 
 ---
@@ -24,7 +29,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td> <strong>從AdobeCC檔案啟動自動化校訂工作流程</strong> <p>您不離開Adobe副本，即可為您已建立的Adobe副本檔案啟動自動化校訂工作流程。 如需詳細資訊，請參閱文章<a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md" class="MCXref xref" xrefformat="{para}">使用適用於Illustrator和InDesign的Workfront擴充功能</a>中的<a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md#generate" class="MCXref xref" xrefformat="{para}">從Illustrator或InDesign產生校訂</a>一節。</p> </td> 
+   <td> <strong>從Adobe CC檔案</strong>啟動自動化校訂工作流程 <p>您不離開Adobe CC，就可以為您已建立的Adobe CC檔案啟動自動化校訂工作流程。 如需詳細資訊，請參閱文章<a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md" class="MCXref xref" xrefformat="{para}">使用Illustrator和InDesign的Workfront擴充功能</a>中的<a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md#generate" class="MCXref xref" xrefformat="{para}">從Illustrator或InDesign產生校訂</a>一節。</p> </td> 
   </tr> 
   <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
@@ -56,7 +61,7 @@ ht-degree: 0%
    <td> 
     <div> 
      <strong>自訂表單中自動提示欄位可用的其他物件型別</strong> 
-     <p>現在，當您建立「預先輸入」自訂欄位時，可以將下列物件型別與該欄位建立關聯：使用者、公司、群組、工作角色、Portfolio、方案、專案和範本。</p> 
+     <p>現在，當您建立預先輸入自訂欄位時，可以將以下物件型別與該欄位建立關聯：使用者、公司、群組、工作角色、Portfolio、方案、專案和範本。</p> 
      <p>之前，您只能將使用者物件型別與自動提示自訂欄位建立關聯。</p> 
     </div> </td> 
   </tr> 

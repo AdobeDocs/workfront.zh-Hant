@@ -8,9 +8,12 @@ description: 瞭解如何使用Workfront Proof在組織外部進行檢閱。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c54246e9-edb8-4d98-81e1-faf7ee75f81e
-source-git-commit: 153951e3bba91d67bcfe5fbf22c0970743f0dc6e
+TQID: https://experienceleague.adobe.com/2KGinDaqr9-NzCDGo9Uh7ig7JjzywcrqF8ZGnvGSZeg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: 625
 ht-degree: 0%
 
 ---
@@ -51,7 +54,7 @@ ht-degree: 0%
 
 ![internal_external_-_option_B.png](assets/internal_external_-_option_B.png)
 
-1. **建立新校訂** — 設計人員在[!DNL Workfront Proof]中建立新校訂，並與內部檢閱者共用。 設計師讓專案經理成為校訂的擁有者，或給予他校訂上[!UICONTROL 作者]的角色（請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中的管理校訂角色）。
+1. **建立新校訂** — 設計人員在[!DNL Workfront Proof]中建立新校訂，並與內部檢閱者共用。 設計師讓專案經理成為校訂的擁有者，或給予他校訂上[!UICONTROL 作者]的角色（請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中的[管理校訂角色）。
 
 1. **內部檢閱** — 專案經理和其他同事檢閱校訂。 如需詳細資訊，請參閱[在網頁校訂檢視器中檢閱校訂](https://support.workfront.com/hc/en-us/sections/115000275214-Reviewing-Proofs-in-the-Web-Proofing-Viewer)和[在案頭校訂檢視器中檢閱校訂。](https://support.workfront.com/hc/en-us/sections/360000686434-Reviewing-Proofs-in-the-Desktop-Proofing-Viewer)
 

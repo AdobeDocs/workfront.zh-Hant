@@ -7,9 +7,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 587d1dff-6ef1-4f97-84b9-32a073481d37
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+TQID: https://experienceleague.adobe.com/ZcKZdtN2ajH8PdnIbKQxQHSvYKSftlugJczL0nPOgWs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: 657
 ht-degree: 0%
 
 ---
@@ -32,31 +38,31 @@ Workfront每年向所有產品線發佈新產品功能三次（第1版、第2版
 **從您的電子郵件管理工作**
 直接整合至Outlook 365可讓您直接從Outlook 365更新Workfront時，消除重複工作。 將電子郵件轉換為工作、以更新形式傳送電子郵件交談和附件，以及回應註解，而不需離開Outlook。
 
-如需詳細資訊，請參閱：  [功能於2016年在「預覽」中提供](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md)
+如需詳細資訊，請參閱：[2016年預覽中可用的功能](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md)
 
 ![從電子郵件管理工作](assets/mceclip0-350x218.png)\
-**讓專案按計畫進行，並編列預算**
+**讓專案按計畫進行並維持預算**
 使用新的「使用率報表」，管理您的資源及其使用率，讓專案維持在正確的軌道上，並符合預算。 檢視每個專案和角色的計畫與實際時數，並定期比較資源與部門。
 
-如需詳細資訊，請參閱：  [R1預覽3](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md)
+如需詳細資訊，請參閱： [R1預覽3](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md)
 
 ![讓專案按計畫進行](assets/mceclip1-350x169.png)\
 **術語和通知自訂**
 運用自訂術語功能，將「Portfolio」或「專案」等辭彙變更為適合您的偏好語言（不論產業為何），讓Workfront與您的團隊更相關。 此外，每位使用者現在可以透過調整其摘要頻率來自訂他們收到的通知型別。
 
-如需詳細資訊，請參閱：  [R1預覽3](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md)
+如需詳細資訊，請參閱： [R1預覽3](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md)
 
 **里程碑檢視**
 新的進度狀態圖示可讓您更充分地利用里程碑報告。 此外，您現在可以直接從里程碑檢視編輯完成百分比。
 
-如需詳細資訊，請參閱：  [R1預覽5](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md)
+如需詳細資訊，請參閱： [R1預覽5](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md)
 
 ![里程碑檢視](assets/mceclip3-350x122.png)
 
 **Workfront資源回收筒**
 新的Workfront資源回收筒可幫助您在刪除後的30天內還原專案、任務、問題以及所有相關檔案、表單和更新。
 
-如需詳細資訊，請參閱：  [R1預覽1和2](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md)
+如需詳細資訊，請參閱： [R1預覽1和2](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md)
 
 ### PROOFHQ增強功能 {#proofhq-enhancements}
 
@@ -64,13 +70,13 @@ Workfront每年向所有產品線發佈新產品功能三次（第1版、第2版
 **校訂搜尋和尋找**
 ProofHQ中的新搜尋功能可讓您在檢閱時，快速輕鬆地直接在校訂中搜尋及尋找單字或片語的所有例項。 這適用於所有文字型檔案，包括PDF和Microsoft Word檔案。
 
-如需詳細資訊，請參閱：  [R1 Final](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md)
+如需詳細資訊，請參閱： [R1 Final](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md)
 
 ![校訂搜尋和尋找](assets/mceclip5-350x226.png)\
 **視覺化報表和增強的自訂檢視**
 ProofHQ中的新報告量度可讓您追蹤週轉時間、延遲百分比、評論數量和首次活動的時間。 新的自訂檢視會建立進階篩選邏輯，好讓您在需要時取得確切資料。
 
-如需詳細資訊，請參閱：  [R1 Final](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md)
+如需詳細資訊，請參閱： [R1 Final](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md)
 
 **ProofHQ預覽**
 ProofHQ現在可讓您在發行給所有使用者之前，先在預覽環境中測試新功能。
