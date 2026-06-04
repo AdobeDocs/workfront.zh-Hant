@@ -4,7 +4,7 @@ description: 2026年第三季Financial Management增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
+source-git-commit: d5136ed606ab50c403552a4be9ee5dc845b27eaa
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 0%

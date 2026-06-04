@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 3bd72ca7e9a55dded97fa65d403d661f3ca95d3e
+source-git-commit: 1fe4b945d6f346f1cfa06bda0a7ddc8b6ca92cfd
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1548'
 ht-degree: 2%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 2%
 * [管理員增強功能](#administrator-enhancements)
 * [檔案增強功能](#documents-enhancements)
 * [Financial Management增強功能](#financial-management-enhancements)
+* [首頁增強功能](#home-enhancements)
 * [報告增強功能](#reporting-enhancements)
 * [要求增強功能](#requesting-enhancements)
 * [其他增強功能](#other-enhancements)
@@ -164,6 +165,30 @@ ht-degree: 2%
             <td><p>2026年5月21日</p></td>
             <td><p>2026年5月21日</p></td>
             <td><p>2026年5月21日</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### 首頁增強功能
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>功能</strong>
+            </td>
+            <td><strong>預覽</strong></td>
+            <td><strong>快速發行</strong></td>
+            <td><strong>每季</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-home.md" class="MCXref xref" xrefformat="{para}">在優先順序中使用自訂資料和檢視</a><p></p>
+                <p>優先順序現在支援在欄中使用自訂資料。 從工作清單開啟欄管理員，以新增您要在欄資料中看到的自訂欄位。</p>
+            </td>
+            <td><p>2026年6月4日</p></td>
+            <td><p>2026年6月11日</p></td>
+            <td><p>2026年7月16日</p></td>
         </tr>
     </tbody>
 </table>
