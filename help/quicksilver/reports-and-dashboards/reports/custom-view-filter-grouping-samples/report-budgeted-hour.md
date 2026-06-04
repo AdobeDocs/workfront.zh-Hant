@@ -7,11 +7,21 @@ description: 報告：預算時數
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/pNgl5pELeORB8eiEJLKNKIAOY3hf-rOtrzlTWHmTM5M
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: 659
 ht-degree: 4%
 
 ---
@@ -115,15 +125,15 @@ ht-degree: 4%
    <td>這是與預算時數相關聯的使用者名稱。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">分配日期</td> 
+   <td role="rowheader">分配。 日期</td> 
    <td> <p>這是配置日期。 這是您編列時數預算的一週的第一天（星期日）。</p> <p>秘訣：  <p>如果一週跨越兩個月，這會在報表中產生兩列：一個對應一週的第一天（第一個月內為一週的星期日），第二個對應第二個月的第一天（可能是一週的任何一天）。</p> <p>例如，如果您為使用者編列了6月30日（星期日） - 7月6日（星期六）這週的8小時預算，則兩列會顯示分配日期6月30日和7月1日。</p> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">預算小時</td> 
+   <td role="rowheader">預算。 時數</td> 
    <td>這些是分配給資源規劃工具中使用者的預算時數。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">計畫 預算小時</td> 
+   <td role="rowheader">計畫 預算。 時數</td> 
    <td>這些是分配至資源規劃工具中工作角色或專案的預算時數。</td> 
   </tr> 
  </tbody> 

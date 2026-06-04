@@ -5,9 +5,16 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 357b5a80-424a-475c-9163-82cffbbd253e
-source-git-commit: e08ac842214a9bcff0acba3f34316bb5cfa4c4aa
+TQID: https://experienceleague.adobe.com/0abYVe3tHVDckYTIqVMlT-5i3tM5mp5KF-UOUe5P8fM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: 492
 ht-degree: 0%
 
 ---
@@ -24,8 +31,7 @@ ht-degree: 0%
 >
 >* 預覽： 2025年10月13日
 >* 生產快速發行： 2025年10月13日
->* 所有客戶的生產： 2025年10月13日
->[!BADGE 不在排程]{type=Neutral}內
+>* 所有客戶的生產： 2025年10月13日>[!BADGE 取消排程]{type=Neutral}
 
 報告的「摘要」標籤已更新，並包含下列增強功能：
 
@@ -69,7 +75,7 @@ Adobe Unified Experience包括：
 
 如需詳細資訊，請參閱[適用於Workfront的Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
-[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3412388/){target=_blank}
+[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3412388/){target=_blank}
 
 ## 更新增強型清單
 

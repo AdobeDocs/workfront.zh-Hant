@@ -18,9 +18,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
+source-git-commit: 03ecdc53f80c25a77136d1735266bfdbcbe2a8f9
 workflow-type: tm+mt
-source-wordcount: 1503
+source-wordcount: 1537
 ht-degree: 3%
 
 ---
@@ -91,6 +91,7 @@ Remove me October 2026
 
 * AI表單填寫不會覆寫您已填寫的任何欄位。
 * 使用者不會收到他們無法存取的資料建議。
+* 不支援依賴計算資料的欄位。 例如，如果欄位A是計算欄位，而欄位B的選項衍生自欄位A，則表單填寫無法自動填寫欄位B。
 
 <!--
 * Files that you use in Form Fill powered by AI are uploaded to Azure storage for 24 hours. This is necessary for document processing. 

@@ -1,49 +1,61 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: 搜尋並共用 [!DNL Adobe Workfront] 中的 [!DNL Microsoft Teams]個專案
-description: 您可以在 [!DNL Workfront] 的任何 [!DNL Adobe WorkfrontWorkfront] 頻道中搜尋 [!DNL Microsoft Teams] 專案，並與團隊成員共用這些專案。
+title: 搜尋並共用 [!DNL Microsoft Teams]中的 [!DNL Adobe Workfront] 個專案
+description: 您可以在 [!DNL Microsoft Teams] 的任何 [!DNL Adobe WorkfrontWorkfront] 頻道中搜尋 [!DNL Workfront] 專案，並與團隊成員共用這些專案。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 71d83723-daea-4b7b-8e5b-cfcf414611fe
-source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
+TQID: https://experienceleague.adobe.com/LR2Je81cHRzkXMS9cyaLF4b01bN8PGmu2zC6aAqptrM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 0%
+source-wordcount: 498
+ht-degree: 4%
 
 ---
 
-# 搜尋並共用[!DNL Adobe Workfront]中的[!DNL Microsoft Teams]個專案
+# 搜尋並共用[!DNL Microsoft Teams]中的[!DNL Adobe Workfront]個專案
 
 >[!IMPORTANT]
 >
 >隨著[Microsoft轉換至「新團隊」使用者端](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability)，傳統團隊使用者端在2025年7月1日之後將不再可用。 若要繼續使用Microsoft Teams和Workfront等整合式應用程式，客戶必須在此日期之前轉換至新Teams使用者端。
 >
->更新的Workfront整合現在可供使用，並且與新團隊體驗完全相容。 在大多數情況下，使用者轉換後，Workfront會自動顯示。 如果不適用，可從Microsoft Teams App Store手動安裝整合。 若要在New Teams使用者端中安裝或驗證Workfront整合，請參閱[為Microsoft Teams [!DNL Adobe Workfront] 安裝](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)。
+>更新的Workfront整合現在可供使用，並且與新團隊體驗完全相容。 在大多數情況下，使用者轉換後，Workfront會自動顯示。 如果不適用，可從Microsoft Teams App Store手動安裝整合。 若要在New Teams使用者端中安裝或驗證Workfront整合，請參閱[為Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)安裝 [!DNL Adobe Workfront] 。
 
-您可以在[!DNL Workfront]的任何[!DNL Adobe Workfront]管道中搜尋[!DNL Microsoft Teams]個專案，並與團隊成員共用這些專案。
+您可以在[!DNL Microsoft Teams]的任何[!DNL Adobe Workfront]管道中搜尋[!DNL Workfront]個專案，並與團隊成員共用這些專案。
 
-* [共用 [!DNL Workfront] 中 [!DNL Microsoft Teams]個專案的先決條件](#prerequisites-for-sharing-workfront-items-in-microsoft-teams-prerequisites-for-sharing-workfront-items-in-microsoft-teams)
-* [搜尋並共用 [!DNL Workfront] 中的 [!DNL Microsoft Teams]個專案](#search-for-and-share-adobe-workfront-items-in-microsoft-teams)
+* [共用 [!DNL Microsoft Teams]中 [!DNL Workfront] 個專案的先決條件](#prerequisites-for-sharing-workfront-items-in-microsoft-teams-prerequisites-for-sharing-workfront-items-in-microsoft-teams)
+* [搜尋並共用 [!DNL Microsoft Teams]中的 [!DNL Workfront] 個專案](#search-for-and-share-adobe-workfront-items-in-microsoft-teams)
 
 
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> <p>標準</p>
-   <p>工作或更高</p> </td> 
+   <p>工作或更高層級</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,23 +64,23 @@ ht-degree: 0%
 
 +++
 
-## 共用[!DNL Workfront]中[!DNL Microsoft Teams]個專案的先決條件 {#prerequisites-for-sharing-workfront-items-in-microsoft-teams}
+## 共用[!DNL Microsoft Teams]中[!DNL Workfront]個專案的先決條件 {#prerequisites-for-sharing-workfront-items-in-microsoft-teams}
 
-如果符合下列條件，您可以在[!DNL Workfront]中搜尋並共用[!DNL Microsoft Teams]個專案：
+如果符合下列條件，您可以在[!DNL Microsoft Teams]中搜尋並共用[!DNL Workfront]個專案：
 
 * 團隊擁有者已為您的團隊安裝和設定[!DNL Workfront for Microsoft Teams]。
-* 您已從[!DNL Workfront]Microsoft Teams[!UICONTROL 登入]。
+* 您已從[!UICONTROL Microsoft Teams]登入[!DNL Workfront]。
 
-如需有關安裝適用於Microsoft Teams的[!UICONTROL Workfront]以及從[!UICONTROL 登入]Workfront[!DNL Microsoft Teams]的資訊，請參閱[安裝適用於Microsoft Teams的Adobe Workfront](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)。
+如需有關安裝適用於Microsoft Teams的[!UICONTROL Workfront]以及從[!DNL Microsoft Teams]登入[!UICONTROL Workfront]的資訊，請參閱[安裝適用於Microsoft Teams的Adobe Workfront](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)。
 
 >[!NOTE]
 >
 >[!DNL Microsoft Teams]不再支援[!DNL Internet Explorer]。 若要使用[!DNL Adobe Workfront for Microsoft Teams integration]，您必須使用[!DNL Internet Explorer]以外的網頁瀏覽器。
 
 
-## 搜尋並共用[!DNL Workfront]中的[!DNL Microsoft Teams]個專案 {#search-for-and-share-workfront-items-in-microsoft-teams}
+## 搜尋並共用[!DNL Microsoft Teams]中的[!DNL Workfront]個專案 {#search-for-and-share-workfront-items-in-microsoft-teams}
 
-您可以從[!DNL Workfront]頻道搜尋下列[!DNL Microsoft Teams]個專案：
+您可以從[!DNL Microsoft Teams]頻道搜尋下列[!DNL Workfront]個專案：
 
 * 專案
 * 任務
@@ -81,7 +93,7 @@ ht-degree: 0%
 
 找到搜尋的專案後，即可在[!DNL Microsoft Teams]中與其他使用者共用。
 
-若要從[!DNL Workfront]搜尋[!DNL Microsoft Teams]專案並與他人共用：
+若要從[!DNL Microsoft Teams]搜尋[!DNL Workfront]專案並與他人共用：
 
 1. 在[!DNL Microsoft Teams]中，前往任何聊天頻道並按一下&#x200B;**[!DNL Workfront]**&#x200B;圖示。
 1. 執行下列其中一項作業來搜尋[!DNL Workfront]專案：

@@ -7,9 +7,22 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0a8602aa-34c8-44d0-a102-9497d106f806
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/0JlkGC-ZucJr8R-AIrVZULqKmRWNL1ZnTohl50PWMLs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3158'
+source-wordcount: 3190
 ht-degree: 1%
 
 ---
@@ -22,7 +35,7 @@ ht-degree: 1%
 >
 > 本頁所述的功能在生產環境使用之前可能會有所變更。
 
-如需2018.2年度所有變更的清單，請參閱  [2018.2發行活動總覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)。
+如需2018.2年所有變更的清單，請參閱[2018.2發行活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)。
 
 2018.2 Beta 5版本包含Workfront管理員和其他使用者的增強功能：
 
@@ -45,7 +58,7 @@ ht-degree: 1%
 * 專案與任務報告中的[參考問題集合](#reference-issue-collections-in-project-and-task-reports)
 * 在Workfront中新增檔案版本時，[新增更強大的版本功能表](#new-more-robust-version-menu-when-adding-new-document-versions-in-workfront)
 * Android Beta行動應用程式中的[行動裝置改良](#mobile-improvements-in-the-android-beta-mobile-app)
-* [校訂檢視器增強功能(Workfront和Workfront Proof)](#proofing-viewer-enhancements-workfront-and-workfront-proof)
+* [校訂檢視器增強功能（Workfront和Workfront Proof）](#proofing-viewer-enhancements-workfront-and-workfront-proof)
 * Workfront中的[校訂增強功能](#proofing-enhancements-in-workfront)
 * [Workfront Proof中的校訂增強功能](#proofing-enhancements-in-workfront-proof)
 
@@ -216,7 +229,7 @@ ht-degree: 1%
 
 如需如何在報表中參考集合的相關資訊，請參閱[報表中的參考集合](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)。
 
-如需有關使用文字模式的資訊，請參閱  [文字模式的常見使用概述](../../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)。
+如需有關使用文字模式的資訊，請參閱[文字模式的常見使用概述](../../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)。
 
 >[!NOTE]
 >
@@ -238,7 +251,7 @@ ht-degree: 1%
 
 * 校樣
 * 僅文件
-* 連結選項(來自Dropbox、來自Google Drive等)
+* 連結選項（來自Dropbox、來自Google Drive等）
 * 從剪貼簿貼上（這是新增版本時的新選項）
 
 如需詳細資訊，請參閱[從您的檔案系統新增檔案至Adobe Workfront](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)一文中的[從您的檔案系統新增檔案至Adobe Workfront](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)。
@@ -270,7 +283,7 @@ ht-degree: 1%
 
 如需如何註冊成為測試版以及下載Android Beta版本的Workfront行動應用程式的詳細資訊，請參閱。
 
-## 校訂檢視器增強功能(Workfront和Workfront Proof) {#proofing-viewer-enhancements-workfront-and-workfront-proof}
+## 校訂檢視器增強功能（Workfront和Workfront Proof） {#proofing-viewer-enhancements-workfront-and-workfront-proof}
 
 * [已更新列印摘要頁面](#updated-print-summary-page)
 * [直接從校訂檢視器將使用者新增到校訂](#add-users-to-a-proof-directly-from-the-proofing-viewer)
@@ -295,7 +308,7 @@ ht-degree: 1%
 
 之前，您無法將個別使用者新增到校樣中。 您只能複製公開URL或內嵌程式碼。
 
-如需詳細資訊，請參閱文章中的[新增使用者以共用校訂](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users)  [從校訂檢視器共用校訂](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)。
+如需詳細資訊，請參閱文章[從校訂檢視器共用校訂](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)中的[新增使用者以共用校訂](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users)。
 
 ### 在校訂檢視器中顯示所有標籤工具 {#display-all-markup-tools-in-the-proofing-viewer}
 
@@ -319,7 +332,7 @@ ht-degree: 1%
 
 之前，只有網頁校訂檢視器可讓您作出Workfront檔案核准決定。 
 
-如需詳細資訊，請參閱  [在文章的校訂檢視器中對校訂做出決定](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)  [在校訂檢視器中對校訂做出決定](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)。
+如需詳細資訊，請參閱文章[在校訂檢視器中對校訂做出決定](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)中的[在校訂檢視器中對校訂做出決定](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)。
 
 ### 設定在案頭校訂檢視器中開啟新標籤和視窗的連結 {#configure-links-that-open-new-tabs-and-windows-to-open-within-the-desktop-proofing-viewer}
 
@@ -405,7 +418,7 @@ ht-degree: 1%
 
   顯示校訂的進度狀態（已傳送、已開啟、已評論、已作出決定）。
 
-如需這些欄位的詳細資訊，請參閱  [Adobe Workfront術語辭彙表](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
+如需這些欄位的詳細資訊，請參閱[Adobe Workfront術語表](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
 
 ### 在Workfront中檢視校訂核准的歷史資料 {#view-historical-data-for-proof-approvals-in-workfront}
 
@@ -413,7 +426,7 @@ ht-degree: 1%
 
 在此變更前，在對校訂做出決定後，該決定無法再顯示在Workfront報告中。
 
-如需詳細資訊，請參閱  [Adobe Workfront術語辭彙表](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
+如需詳細資訊，請參閱[Adobe Workfront術語表](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
 
 ## Workfront Proof中的校訂增強功能 {#proofing-enhancements-in-workfront-proof}
 
@@ -426,7 +439,7 @@ ht-degree: 1%
 
 以前，此選項只能在舊版Flash Viewer中使用。
 
-如需詳細資訊，請參閱文章中的[在Workfront Proof中複製校樣](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md)  [在Workfront Proof中複製校樣](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md)。
+如需詳細資訊，請參閱文章[在Workfront Proof中複製校訂](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md)中的[在Workfront Proof中複製校訂](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md)。
 
 ### 校訂檢視器和案頭校訂檢視器(Workfront Proof)中的新校訂詳細資訊連結 {#new-proof-details-link-in-the-proofing-viewer-and-desktop-proofing-viewer-workfront-proof}
 

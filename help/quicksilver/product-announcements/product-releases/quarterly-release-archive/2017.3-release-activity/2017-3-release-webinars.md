@@ -7,9 +7,19 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3fb7498a-585d-4692-9217-434eef38ad40
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/FGBvFp-OolkU5IdUW2Xog2RmQyht1s41mta19WNx4bE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: 241
 ht-degree: 0%
 
 ---
@@ -47,7 +57,7 @@ Workfront 2017.3版本網路研討會由Workfront產品團隊於10月11日舉行
 
 ## Workfront 2017.3 9月預覽版本 {#workfront-2017-3-september-preview-releases}
 
-Workfront 2017.3 9月預覽版網路研討會由Workfront版本準備團隊於2017年9月26日上午9:00 （北美山區時間）舉行。 此網路研討會主要探討9月份期間「預覽」中提供的新功能。
+Workfront 2017.3 9月預覽版網路研討會由Workfront版本準備團隊於2017年9月26日上午9:00 MT舉行。 此網路研討會主要探討9月份期間「預覽」中提供的新功能。
 
 ## Workfront 2017.3 Beta 1和Beta 2網路研討會 {#workfront-2017-3-beta-1-and-beta-2-webinar}
 

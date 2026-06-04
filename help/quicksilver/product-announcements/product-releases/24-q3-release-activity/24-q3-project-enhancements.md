@@ -5,9 +5,14 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 27d479d1-338a-429c-9703-8e72ed8d5c95
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+TQID: https://experienceleague.adobe.com/cE9falXH8dG-XSkNTfbJVxBtup8AUliJAJchYhwstDE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: 497
 ht-degree: 0%
 
 ---
@@ -32,7 +37,7 @@ ht-degree: 0%
 * [更新任務和問題的條件](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md)。
 * [更新任務和問題的認可日期](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)。
 
-[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3429471/){target=_blank}
+[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3429471/){target=_blank}
 
 ## 已將更相關的指派新增至「新任務」工作流程
 

@@ -8,9 +8,14 @@ description: 瞭解如何使用Workfront Proof在組織外部進行檢閱。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c54246e9-edb8-4d98-81e1-faf7ee75f81e
-source-git-commit: 153951e3bba91d67bcfe5fbf22c0970743f0dc6e
+TQID: https://experienceleague.adobe.com/2KGinDaqr9-NzCDGo9Uh7ig7JjzywcrqF8ZGnvGSZeg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: 625
 ht-degree: 0%
 
 ---

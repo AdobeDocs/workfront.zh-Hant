@@ -7,11 +7,24 @@ description: 只有在您建立其他計算欄位(擷取多選自訂欄位中所
 author: Courtney
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/HkVox4rDOw-8RvRTQ9fscAs1svpjdhwi-MqomzqybXU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: 942
 ht-degree: 2%
 
 ---
@@ -84,7 +97,7 @@ ht-degree: 2%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this moved to its own article, linked in the Note above!)</p>
 -->
 
-您無法透過參考多選自訂欄位在報告中建置圖表。 相反地，您可以建立一個計算欄位，記錄指定物件上多選自訂欄位的值，並按計算欄位分組。 
+您無法透過參考多選自訂欄位在報告中建置圖表。相反地，您可以建立一個計算欄位，記錄指定物件上多選自訂欄位的值，並按計算欄位分組。 
 
 * [建立參照多重選取自訂欄位的計算自訂欄位](#build-a-calculated-custom-field-that-references-a-multi-select-custom-field)
 * [建立參照計算自訂欄位的圖表](#build-a-chart-that-references-a-calculated-custom-field)
@@ -153,7 +166,7 @@ ht-degree: 2%
 1. 選取<strong>圖表</strong>索引標籤，然後將圖表新增至您的報表。
 
    例如，選擇&#x200B;**資料行**&#x200B;圖表。
-   <br>如需有關將圖表新增至報表的資訊，請參閱文章<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref">建立自訂報表</a>中的<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">將圖表新增至報表</a>小節。
+   <br>如需有關將圖表新增至報表的資訊，請參閱文章<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">建立自訂報表</a>中的<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref">將圖表新增至報表</a>小節。
 1. 在&#x200B;**底部(X)軸**&#x200B;欄位中，選取要在圖表中顯示的<strong>計算多重選取欄位</strong>。
 1. 按一下「<strong>儲存並關閉</strong>」。
 

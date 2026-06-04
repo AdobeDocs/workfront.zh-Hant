@@ -7,11 +7,21 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/R45hY-jNAlCSwIy-070BRL78-altmrnFIL1yNxxPrz8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2267'
+source-wordcount: 2290
 ht-degree: 0%
 
 ---
@@ -28,9 +38,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2025年7月10日
->適用於所有人的生產： 2025年7月10日
->[!BADGE 不在排程]{type=Neutral}內
+>預覽： 2025年7月10日>所有人生產： 2025年7月10日>[!BADGE 取消排程]{type=Neutral}
 
 
 在建立或編輯記錄型別時，我們已更新「進階設定」索引標籤。
@@ -46,9 +54,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2025年7月10日
->適用於所有人的生產： 2025年7月10日
->[!BADGE 不在排程]{type=Neutral}內
+>預覽： 2025年7月10日>所有人生產： 2025年7月10日>[!BADGE 取消排程]{type=Neutral}
 
 現在，當您在Workfront Planning中將團隊新增到記錄評論時，團隊的所有成員都會收到有關評論的應用程式內通知和電子郵件通知。 在此增強功能之前，只有個別新增到評論的使用者會收到通知。
 
@@ -58,9 +64,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2025年7月10日
->生產快速發行： 2025年8月14日
->適用於所有人的生產： 2025年10月16日
+>預覽： 2025年7月10日>生產快速版本： 2025年8月14日>每個人都生產： 2025年10月16日
 
 
 現在，當您已將群組套用至表格檢視時，將記錄新增至表格將會自動填入與您將記錄新增至的群組相關聯的欄位。
@@ -75,8 +79,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2025年7月9日
->適用於所有人的生產： 2025年7月17日
+>預覽： 2025年7月9日>每個人的生產： 2025年7月17日
 
 您現在可以從記錄型別頁面上的相同按鈕共用檢視和記錄型別。 在此增強功能之前，您只能從記錄型別頁面上的「共用」按鈕和檢視索引標籤的檢視共用記錄型別。
 
@@ -150,8 +153,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >[!NOTE]
 >
 >* 預覽： 2025年6月26日
->* 每個人都要生產： 2025年6月26日
->[!BADGE 不在排程]{type=Neutral}內
+>* 所有人的生產時間： 2025年6月26日>[!BADGE 排程中斷]{type=Neutral}
 
 現在，當您連線記錄型別並將公式欄位作為查詢時，可以根據公式欄位的格式套用彙總函式（SUM、AVERAGE、MIN、MAX等）。 例如，如果公式欄位是數字，您可以使用SUM或AVG之類的函式；如果公式欄位的格式為文字，則不會應用SUM之類的彙總函式。
 
@@ -186,8 +188,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >[!NOTE]
 >
 >* 預覽： 2025年6月12日
->* 每個人都要生產： 2025年6月12日
->[!BADGE 不在排程]{type=Neutral}內
+>* 所有人的生產時間： 2025年6月12日>[!BADGE 排程中斷]{type=Neutral}
 
 我們引進了一項改進，手動更新參考欄位後，可同時更新所有相互依賴的公式欄位。 與手動變更值的欄位相距2、3或4個欄位且彼此參照的公式欄位現在將自動同時更新。
 
@@ -200,8 +201,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >[!NOTE]
 >
 >* 預覽： 2025年6月6日
->* 適用於所有客戶的生產： 2025年6月6日
->[!BADGE 不在排程]{type=Neutral}內
+>* 所有客戶的生產： 2025年6月6日>[!BADGE 排程中斷]{type=Neutral}
 
 我們在公式欄位中新增了下列運算式：
 
@@ -287,7 +287,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 
 * 匯出的資訊會考慮套用至Workfront Planning中表格檢視的篩選器、群組和排序。
 * 匯出的檔案不支援縮圖和自訂列顏色。  
-* 只會匯出Workfront介面中顯示的欄位。 隱藏欄位不會匯出。  
+* 只會匯出Workfront介面中顯示的欄位。隱藏欄位不會匯出。  
 
 如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)。 
 
@@ -343,7 +343,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >[!NOTE]
 >
 >所有具有系統管理員和Standard授權的新使用者及現有使用者皆可看見此變更。
->指派給版面配置範本的現有使用者將根據版面配置範本中定義的設定繼續檢視所有內容。
+>指派給版面配置範本的現有使用者將會根據版面配置範本中定義的設定，繼續檢視所有內容。
 
 如需詳細資訊，請參閱[Adobe Workfront規劃總覽](/help/quicksilver/planning/access/access-overview.md)。
 

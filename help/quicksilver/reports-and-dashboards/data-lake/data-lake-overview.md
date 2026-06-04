@@ -8,11 +8,18 @@ author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/mZDdIAnoxjbsCZ2FO0Y4FDF2c-2c-5oXR-S-o-7vQ5Q
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: 182
 ht-degree: 0%
 
 ---
@@ -21,7 +28,7 @@ ht-degree: 0%
 
 Workfront Data Connect可讓您使用Snowflake技術存取Workfront資料，解答業務關鍵問題並評估流程的價值。 此功能可讓企業客戶使用資料視覺化工具，直接從Workfront資料湖分析其資料，或將Workfront資料匯出至客戶擁有的資料倉儲。
 
-訂閱者可將其選擇的商業智慧工具（Tableau、Power BI、Domo、Looker等）連結至Data Connect，以使用下列資料型別建立資料視覺效果：
+訂閱者可自行選擇連結商務智慧工具（Tableau、Power BI、Domo、Looker等） 使用Data Connect建立具有以下資料型別的資料視覺效果：
 
 * 低延遲，目前狀態資料
 * 變更時間點比較的事件記錄

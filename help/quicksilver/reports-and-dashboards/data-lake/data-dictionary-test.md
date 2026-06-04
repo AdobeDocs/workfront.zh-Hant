@@ -8,9 +8,16 @@ author: Courtney
 feature: Reports and Dashboards
 hide: true
 exl-id: 8ac99353-ebb9-46d9-b1ad-1cdbdc974f49
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+TQID: https://experienceleague.adobe.com/m7T02H5QczNAqYF8IxeSmVFBz-YfsK3CQuWQAeGN-E4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: 156
 ht-degree: 8%
 
 ---

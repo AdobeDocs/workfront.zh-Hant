@@ -7,9 +7,21 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 36001571-bf8c-4fe8-a66b-09d3726f66d3
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/s0vTUKOxP1bju3-LqI8JQZLg7uC7GfK0pe33a-1-G54
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: f1b6c8ba-53d0-432b-b0f4-64800d4b376e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: 809
 ht-degree: 0%
 
 ---
@@ -22,7 +34,7 @@ ht-degree: 0%
 >
 > 本頁所述的功能在生產環境使用之前可能會有所變更。
 
-如需2018.2年度所有變更的清單，請參閱  [2018.2發行活動總覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)。
+如需2018.2年所有變更的清單，請參閱[2018.2發行活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)。
 
 下列新功能將在18.2生產版本時發行：
 
@@ -30,8 +42,8 @@ ht-degree: 0%
 * [接收有關檔案評論的電子郵件通知](#receive-email-notifications-for-comments-on-documents)
 * [系統追蹤更新不再包含圖示](#system-tracked-updates-no-longer-contain-an-icon)
 * 將註解轉換為任務的[選項已移除](#option-to-convert-a-comment-to-a-task-was-removed)
-* Salesforce的[Workfront](#workfront-for-salesforce)
-* [Workfront的Slack改善專案](#workfront-for-slack-improvements)
+* 適用於Salesforce的[Workfront](#workfront-for-salesforce)
+* [Slack改善專案的Workfront](#workfront-for-slack-improvements)
 * [行動裝置改良](#mobile-improvements)
 
 ## 指定用於回覆Workfront電子郵件通知的郵件傳遞服務 {#specify-mail-delivery-services-for-replying-to-workfront-email-notifications}
@@ -54,7 +66,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->當這項功能最初發行時，使用者除了收到電子郵件通知外，還會收到應用程式內通知。 當有人對您擁有的檔案發表評論時，您不會再收到應用程式內通知。 
+>當這項功能最初發行時，使用者除了收到電子郵件通知外，還會收到應用程式內通知。當有人對您擁有的檔案發表評論時，您不會再收到應用程式內通知。 
 
 ## 系統追蹤更新不再包含圖示 {#system-tracked-updates-no-longer-contain-an-icon}
 
@@ -72,20 +84,20 @@ ht-degree: 0%
 
 ## 適用於Salesforce的Workfront {#workfront-for-salesforce}
 
-我們即將發佈Salesforce與Workfront之間全新的現成整合。 您將能夠執行下列操作：
+我們發佈Salesforce與Workfront之間全新的現成整合。 您將能夠執行下列操作：
 
-* 當Salesforce商機達到特定階段、將新產品新增到商機或更新帳戶型別時，自動建立新的Workfront專案。
+* 當Workfront商機達到特定階段、將新產品新增到商機或更新帳戶型別時，自動建立新的Salesforce專案。
 * 從Salesforce機會或帳戶建立Workfront請求。
 
 這項整合將可供擁有Workfront Pro版本或更高版本的所有客戶使用，而且將是免費的。
 
-如需適用於Salesforce的Workfront的詳細資訊，請參閱  Salesforce的[Adobe Workfront](../../../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md)。
+如需有關適用於Salesforce的Workfront的詳細資訊，請參閱[適用於Salesforce的Adobe Workfront](../../../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md)。
 
-## Workfront的Slack改良功能 {#workfront-for-slack-improvements}
+## Workfront的Slack改良 {#workfront-for-slack-improvements}
 
-您可以在SlackWorkfront頻道中設定接收Workfront通知。
+您可以設定在Slack Workfront頻道中接收Workfront通知。
 
-也可以將下列Workfront通知設定為Slack傳送：
+下列Workfront通知也可設定為在Slack中傳送：
 
 * 當有人在評論或更新中標籤您時。
 * 當您將您指派給新任務或問題時。

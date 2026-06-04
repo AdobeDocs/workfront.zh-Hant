@@ -7,9 +7,14 @@ description: 本頁說明預覽環境的Adobe Workfront目標23.1版本所做的
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: 30a8d125-f84c-4e1a-8e4c-d76da326c2ef
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/-ilB35Fvr1FF937vPOfsw0UHkAVu98-VU39sX5W47iQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: 327
 ht-degree: 0%
 
 ---
@@ -33,7 +38,7 @@ ht-degree: 0%
 
 * **目標詳細資料**：目標詳細資料：檢視目標說明、進度、日期和上層目標資訊等資訊。 如需詳細資訊，請參閱[在Adobe Workfront目標中編輯目標](/help/quicksilver/workfront-goals/goal-management/edit-goals.md)。
 * **進度指示器**：檢視清單中的進度指示器。 您可以內聯編輯這些指標、開啟編輯視窗，或從此區域刪除指標。 如需詳細資訊，請參閱[在Adobe Workfront目標中編輯結果和活動](/help/quicksilver/workfront-goals/results-and-activities/edit-results-and-activities.md)。
-* **更新**：我們已在目標的「更新」區段中推出新的評論體驗，現在可在兩個個別的索引標籤中顯示使用者評論和系統活動附註。 如需詳細資訊，請參閱[在Adobe Workfront目標中管理目標註解](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md)。
+* **更新**：我們已在目標的「更新」區段中推出新的評論體驗，現在可在兩個個別的索引標籤中顯示使用者評論和系統活動附註。如需詳細資訊，請參閱[在Adobe Workfront目標中管理目標註解](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md)。
 共用、編輯、刪除或複製目標的方式與在Workfront中對其他物件執行這些動作的方式類似。
 
 >[!IMPORTANT]

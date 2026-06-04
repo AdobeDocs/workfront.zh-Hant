@@ -7,9 +7,21 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d4411916-7f58-4174-b9a5-f19cde181d8b
-source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
+TQID: https://experienceleague.adobe.com/F5gvecGlTsPmXloxVvvSufwrwaz7Vj5Pd2WUCKha7To
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: 862
 ht-degree: 0%
 
 ---
@@ -22,7 +34,7 @@ ht-degree: 0%
 >
 > 本頁所述的功能在生產環境使用之前可能會有所變更。
 
-如需2018.3年所有變更的清單，請參閱  [2018.3發行活動總覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)。
+如需2018.3中所做所有變更的清單，請參閱[2018.3發行活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)。
 
 2018.3 Beta最終版本包含下列增強功能：
 
@@ -30,7 +42,7 @@ ht-degree: 0%
 * [新增新工作的更新（在首頁](#updates-for-adding-new-tasks-in-home)）
 * [校訂標籤工具現在預設為展開](#proofing-markup-tools-now-expanded-by-default)
 * [Microsoft OneDrive檔案整合](#microsoft-onedrive-document-integration)
-* 用於Microsoft Teams整合的[Workfront](#workfront-for-microsoft-teams-integration)
+* 適用於Microsoft Teams整合的[Workfront](#workfront-for-microsoft-teams-integration)
 * [已更新Adobe Creative Cloud整合的Workfront](#updated-workfront-for-adobe-creative-cloud-integration)
 * [Workfront行動應用程式改良](#workfront-mobile-app-improvements)
 
@@ -45,7 +57,7 @@ ht-degree: 0%
 * 您現在可以更新個人任務的規劃完成日期。
 * 您現在可以將團隊和角色指派給在首頁建立的請求和專案任務。
 
-如需上述更新的詳細資訊，請參閱  [從首頁區域建立工作專案](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)。
+如需上述更新的詳細資訊，請參閱[從首頁區域建立工作專案](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)。
 
 ## 校訂標籤工具現在預設為展開 {#proofing-markup-tools-now-expanded-by-default}
 
@@ -53,7 +65,7 @@ ht-degree: 0%
 
 之前，您必須按一下，才能在垂直功能表中展開這些工具。
 
-如需詳細資訊，請參閱  [設定校訂檢視器設定](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)。
+如需詳細資訊，請參閱[設定校訂檢視器設定](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)。
 
 ## Microsoft OneDrive檔案整合 {#microsoft-onedrive-document-integration}
 
@@ -84,7 +96,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 已修改下列影片中概述的某些整合區域。 如需Microsoft TeamsWorkfront的最新資訊，請參閱[[!DNL Adobe Workfront for Microsoft Teams]：文章索引](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)區段。
+> 已修改下列影片中概述的某些整合區域。 如需適用於Microsoft Teams的Workfront的最新資訊，請參閱[[!DNL Adobe Workfront for Microsoft Teams]：文章索引](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)區段。
 
 ## 已更新Workfront以進行Adobe Creative Cloud整合 {#updated-workfront-for-adobe-creative-cloud-integration}
 
@@ -93,7 +105,7 @@ ht-degree: 0%
 * 使用您的Workfront或SAML憑證登入
 * 將資產上傳至Workfront
 * 新增註釋和版本至已上傳的檔案
-* 直接從Adobe應用程式瀏覽至您的工作專案和檔案
+* 直接從Adobe應用程式導覽至您的工作專案和檔案
 * 存取您的工作清單
 * 請求檔案核准
 * 針對您有權存取的任何專案、任務或問題執行一般搜尋

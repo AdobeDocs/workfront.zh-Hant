@@ -6,11 +6,23 @@ description: 您可以從頭開始建立自訂分組，或自訂現有分組。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 64cc52b7-d97b-4b41-9101-530e7db2d26e
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/MQBR1w-Mkpt7msJnu1oS-4MMh2vX-DcqEmbPbuRRorw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: 439
 ht-degree: 5%
 
 ---
@@ -76,7 +88,7 @@ ht-degree: 5%
 1. 開始輸入欄位名稱，代表您要在報告中組織資訊的方式，然後在下拉式清單中出現時按一下它。
 1. （選擇性和條件性）在更新的清單中建立群組時，如果您希望群組中的結果顯示摺疊而非展開，請依預設選取&#x200B;**摺疊此群組**。 此設定預設為停用，群組結果一律顯示在展開清單中。
 
-   如需有關更新清單和舊版清單的資訊，請參閱[開始使用Adobe Workfront中的清單](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)一文中的[更新清單和舊版清單的差異](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)小節。
+   如需有關更新清單和舊版清單的資訊，請參閱[開始使用Adobe Workfront中的清單](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)一文中的[更新清單和舊版清單的差異](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)小節。
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">(NOTE: the tips repeat in the Edit existing grouping article and Common uses of text mode)</p>
