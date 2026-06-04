@@ -5,9 +5,12 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4a527328-df5d-446a-899c-a613131c7001
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/mv5U1jTFgfL7MpI6sOL6SLT5psOP2hQ-mIFnUb-dC4E
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: 530
 ht-degree: 0%
 
 ---
@@ -30,7 +33,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[管理展示板上的子工作](/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md)。
 
-[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3424860/){target=_blank}
+[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3424860/){target=_blank}
 
 ## 在連線的卡片上新增檔案
 
@@ -40,7 +43,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[新增卡片上的檔案](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md)。
 
-[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3423070/){target=_blank}
+[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3423070/){target=_blank}
 
 ## 對展示板和卡片上的使用者指派的增強功能
 

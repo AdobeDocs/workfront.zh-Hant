@@ -5,9 +5,12 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c1484bec-e38a-44a2-aa0c-ec92ad10185d
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/N-bcrKom3F2cHe1QqC-0LFTQsnAG7fRTEqMR8z4lRvg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: 455
 ht-degree: 0%
 
 ---
@@ -30,7 +33,7 @@ ht-degree: 0%
 
 如需有關使用新檔案核准的詳細資訊，請參閱[新檔案核准總覽](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)。
 
-[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3424867){target=_blank}
+[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3424867){target=_blank}
 
 ## 將新問題新增到專案時更新設計
 
@@ -50,7 +53,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[編輯自訂表單欄位中的資訊](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md)。
 
-[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3422678/){target=_blank}
+[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3422678/){target=_blank}
 
 ## 在子週期性任務上設定沒有指派的簡單期間型別的計畫時數
 

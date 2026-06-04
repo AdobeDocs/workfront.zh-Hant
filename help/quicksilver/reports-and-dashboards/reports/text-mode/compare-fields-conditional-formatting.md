@@ -6,11 +6,16 @@ description: 您可以使用條件式格式來比較檢視中的2個不同欄位
 author: Courtney
 feature: Reports and Dashboards
 exl-id: da4447ba-6e76-4701-88ee-87a30393bed9
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/ADaKGSXPUONHUp0UCnVwZUrGTS5v2ImlM4vljMPE26M
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: 468
 ht-degree: 5%
 
 ---
@@ -65,7 +70,7 @@ ht-degree: 5%
 1. （視條件而定）如果您正在使用報表，請從報表編輯器中的&#x200B;**欄（檢視）**&#x200B;索引標籤按一下要視條件格式化之欄的標題以選取它。\
    例如，如果您要透過比較「計劃開始日期」與「實際開始日期」欄位，將條件式格式新增至欄位，請選取&#x200B;**實際開始日期**&#x200B;欄。
 
-1. 按一下[進階選項]&#x200B;**&#x200B;**，然後按一下[新增此資料行的&#x200B;**規則]**。
+1. 按一下[進階選項]****，然後按一下[新增此資料行的&#x200B;**規則]**。
 
 1. 使用在產生器中找到的現有值輸入比較條件，並指定您的條件式格式。\
    例如，我們要反白顯示實際開始日期晚於（或大於）計劃開始日期的任務。 選取「大於」修正因子，然後在日期欄位中選取實際日期。
@@ -91,7 +96,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >如果您要比較Workfront原生欄位，請使用駝峰式大小寫語法來取得欄位名稱。 如果您要比較自訂欄位，請針對要與第一個欄位比較的名稱欄位，使用欄位&#x200B;**的:ActualDE**&#x200B;名稱。\
+   >如果您要比較Workfront原生欄位，請使用駝峰式大小寫語法來取得欄位名稱。 如果您要比較自訂欄位，請針對要與第一個欄位比較的名稱欄位，使用欄位&#x200B;**的** DE:Actual名稱。\
    >例如，如果您要比較&#x200B;**實際開始日期**&#x200B;與標示為&#x200B;**傳送日期**&#x200B;的自訂欄位，請在文字模式程式碼中新增下列陳述式：
    >
    >`styledef.case.0.comparison.rightmethod=DE:Delivery Date`

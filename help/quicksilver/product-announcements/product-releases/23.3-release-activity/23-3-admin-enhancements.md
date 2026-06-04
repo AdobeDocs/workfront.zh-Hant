@@ -5,9 +5,15 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5d8a0858-aa4a-4b5f-bbc4-7215e145b59a
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+TQID: https://experienceleague.adobe.com/EaBgUmWMJByCS3QoH-GoOEheVUKihKNw17cgJnbkm9A
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: 326
 ht-degree: 0%
 
 ---
@@ -36,7 +42,7 @@ ht-degree: 0%
 
 ## 顯示邏輯，並略過表單設計工具Beta版中顯示的邏輯指標和規則
 
-表單設計工具公開測試版已於2023年7月21日在預覽和生產中重新啟用。 新的表單設計工具有一個新的畫布樣式工作區，可讓您同時檢視欄位、畫布和欄位設定。
+表單設計工具公開測試版已於2023年7月21日在預覽和生產中重新啟用。新的表單設計工具有一個新的畫布樣式工作區，可讓您同時檢視欄位、畫布和欄位設定。
 此外，當您在表單設計工具（測試版）中開啟自訂表單時，該表單包含在舊版表單產生器中建立的顯示或略過邏輯，您現在可以檢視邏輯：
 
 * 表單設計器畫布中欄位上的圖示表示已在該欄位上設定邏輯，或該欄位用於其他欄位上設定的邏輯規則。

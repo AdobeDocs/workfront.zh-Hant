@@ -5,9 +5,14 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0d581f3c-2aaf-4ac1-97a5-df1b01627080
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/ZPt9H-R2eSNNha-gjfwkgnUOQqvU5tzAQPE5fMA-9uA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: 385
 ht-degree: 0%
 
 ---
@@ -20,9 +25,9 @@ ht-degree: 0%
 
 ## Experience Manager Assets Essentials中的對應中繼資料現在使用`xcm:keywords`，而非`dc:subject`
 
-我們已更新Experience Manager Assets Essentials整合，以符合Experience Manager Assetsas a Cloud Service整合的體驗。 現在，將多個單行文字欄位對應到Experience Manager Assets中的單一欄位時，兩個服務都會使用`xcm:keywords`欄位。
+我們已更新Experience Manager Assets Essentials整合，以符合Experience Manager Assets as a Cloud Service整合中的體驗。 現在，將多個單行文字欄位對應到Experience Manager Assets中的單一欄位時，兩個服務都會使用`xcm:keywords`欄位。
 
-以前，這些欄位將對應到Experience Manager Assets Essentials中的`dc:subject`欄位。 Experience Manager Assetsas a Cloud Service功能未變更。
+以前，這些欄位將對應到Experience Manager Assets Essentials中的`dc:subject`欄位。 Experience Manager Assets as a Cloud Service功能未變更。
 
 目前對應至`dc:subject`的任何Experience Manager Assets Essentials中繼資料都必須重新對應至`xcm:keywords`。
 
@@ -40,6 +45,6 @@ ht-degree: 0%
 
 我們已新增另一個工作流程至Adobe Experience Manager整合。 現在，您可以將資產設定為在傳送至Adobe Experience Manager時自動發佈。 整合可設定為發佈至Adobe Experience Manager發佈服務或Adobe Experience Manager Brand Portal。
 
-自動Publish工作流程可在Adobe Experience Manager整合中啟用和設定。 啟用後，即可在專案範本或專案層級編輯工作流程。
+自動發佈工作流程可在Adobe Experience Manager整合中啟用和設定。 啟用後，即可在專案範本或專案層級編輯工作流程。
 
 如需詳細資訊，請參閱[在Experience Manager Assets整合中使用工作流程](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)中的[發佈資產](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#publishing-assets)。

@@ -5,9 +5,12 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a47d2592-0f00-4bcd-bc8e-75f8e707a573
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/MuQQDV7Uvjj7qcG3nwa4Ec7lhAig2o4FiuifiR4Fz9I
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1315'
+source-wordcount: 1323
 ht-degree: 0%
 
 ---
@@ -32,7 +35,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[在敏捷檢視中管理專案](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md)。
 
-[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3421283/){target=_blank}
+[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3421283/){target=_blank}
 
 ## 依展示板欄排序
 
@@ -44,7 +47,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[在展示板中篩選和搜尋](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md)。
 
-[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3420932/){target=_blank}
+[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3420932/){target=_blank}
 
 ## Adobe Workfront展示板上現在提供深色模式
 
@@ -142,7 +145,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[將臨機卡新增到主機板](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md)和[使用主機板上的連線卡](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)。
 
-[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3418598/){target=_blank}
+[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3418598/){target=_blank}
 
 ## 面板電子郵件通知和偏好設定
 

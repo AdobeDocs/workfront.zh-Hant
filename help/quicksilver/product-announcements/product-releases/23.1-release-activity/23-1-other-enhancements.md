@@ -6,9 +6,14 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4ade4df7-f910-45f6-b04d-55fe73131289
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/5SjbF4tftb0c9nmRWo5TNNVlmtDofkavvw-y7XprcRY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: 773
 ht-degree: 0%
 
 ---
@@ -21,15 +26,15 @@ ht-degree: 0%
 
 ## 在Adobe Workfront中新增Illustrator以用於設計和視訊外掛程式
 
-我們很高興宣佈擴充Adobe Workfront的InDesign外掛程式，以包含Adobe Illustrator。
+我們很高興宣佈擴充Adobe Workfront for InDesign外掛程式，以包含Adobe Illustrator。
 
-更新版的外掛程式Adobe Workfront現在支援InDesign、Illustrator、Premiere Pro和After Effects，可用於設計和視訊。
+更新版的外掛程式Adobe Workfront現在支援InDesign、Illustrator、Premiere Pro和After Effects，可協助您撰寫設計與視訊。
 
-此外掛程式可讓您存取工作專案詳細資料、與更新區域的同事共同作業，以及在不離開您最喜愛的Creative Cloud應用程式的情況下完整記錄時間。
+此外掛程式可讓您存取工作專案詳細資料、與更新區域的同事共同作業，以及在不離開您最愛的Creative Cloud應用程式的情況下完整記錄。
 
 立即在Marketplace中下載[Adobe Workfront的設計和影片](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video)。
 
-管理員也可以從Admin Console[建立包含外掛程式](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html)的套件，並以受管理或自我管理的方式部署給使用者。
+管理員也可以從Admin Console [使用外掛程式](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html)建立套件，並以受管理或自我管理的方式部署給使用者。
 
 ## Adobe Workfront一般會提供增強的篩選器體驗
 
@@ -59,30 +64,30 @@ ht-degree: 0%
 
 ## 為設計與影片簡介Adobe Workfront
 
-我們很高興宣佈擴充Adobe Workfront的InDesign外掛程式，以包含Adobe Premiere Pro和After Effects。 外掛程式將重新命名為Adobe Workfront以用於設計和視訊。
+我們很高興宣佈擴充Adobe Workfront for InDesign外掛程式，以包含Adobe Premiere Pro和After Effects。 外掛程式將重新命名為Adobe Workfront以用於設計和視訊。
 
-適用於設計和視訊的更新外掛程式Adobe Workfront現在將支援InDesign、Premiere Pro和After Effects，Illustrator即將推出。
+適用於設計和視訊的更新外掛程式Adobe Workfront現在將支援InDesign、Premiere Pro和After Effects，Illustrator也即將推出。
 
-此外掛程式可讓您存取工作專案詳細資料、與更新區域的同事共同作業，以及在不離開您最喜愛的Creative Cloud應用程式的情況下完整記錄時間。
+此外掛程式可讓您存取工作專案詳細資料、與更新區域的同事共同作業，以及在不離開您最愛的Creative Cloud應用程式的情況下完整記錄。
 
 立即在Marketplace中下載[Adobe Workfront的設計和影片](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video)。
 
-管理員也可以從Admin Console[建立包含外掛程式](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html)的套件，並以受管理或自我管理的方式部署給使用者。
+管理員也可以從Admin Console [使用外掛程式](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html)建立套件，並以受管理或自我管理的方式部署給使用者。
 
-## 如何為使用AdobeUnified Experience的客戶存取Workfront說明
+## 如何為使用Adobe Unified Experience的客戶存取Workfront說明
 
 >[!NOTE]
 >
->此功能僅適用於已加入WorkfrontAdobe統一體驗的客戶。
+>此功能僅適用於已加入Workfront適用的Adobe Unified Experience的客戶。
 
-如果您的組織已加入Adobe Admin Console和Workfront的Adobe統一體驗，Workfront導覽列將不再包含「說明」連結。
+如果您的組織已加入Workfront的Adobe Admin Console和Adobe統一體驗，Workfront導覽列將不再包含「說明」連結。
 
 您可以透過兩種方式存取Adobe Experience League上的Workfront說明：
 
 * Workfront導覽列左側的主要功能表底部包含一個說明連結
 * 頂端導覽區域中的問號圖示提供說明、支援和意見回饋的連結
 
-如需詳細資訊，請參閱[AdobeWorkfront的統一體驗](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)或[存取Adobe Workfront說明](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)。
+如需詳細資訊，請參閱[Workfront的Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)或[存取Adobe Workfront說明](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)。
 
 ## 重新命名圖釘並在刪除圖釘時提供新的體驗
 

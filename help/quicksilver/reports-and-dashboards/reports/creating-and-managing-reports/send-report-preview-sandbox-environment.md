@@ -6,11 +6,16 @@ description: 此頁面上的資訊指出僅在「預覽」和「自訂重新整�
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 568360df-bec9-4767-8b5a-32a294d05d47
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/aikRhNKy6A6Rjhw9dYWJrMuZyjKJjLvNYOkxI2-jR70
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: 617
 ht-degree: 3%
 
 ---
@@ -94,7 +99,7 @@ ht-degree: 3%
 
 自訂重新整理沙箱中是否會產生傳遞的報表，取決於是否啟用從此測試環境接收電子郵件設定。
 
-如需有關從預覽環境啟用電子郵件的資訊，請參閱[修改您自己的電子郵件通知](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view)一節中的[檢視並修改您的電子郵件通知設定](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
+如需有關從預覽環境啟用電子郵件的資訊，請參閱[修改您自己的電子郵件通知](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)一節中的[檢視並修改您的電子郵件通知設定](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view)。
 
 ![接收來自沙箱選項的電子郵件](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 

@@ -7,11 +7,16 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 74ca298c-daac-4119-97cd-251b9f7f0efc
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/pJDYdjcjGIYwEky9jvALHeLxZP3qQ0i5cG1sMVeqqlM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: 1040
 ht-degree: 1%
 
 ---
@@ -308,7 +313,7 @@ API&nbsp;Version Release and Support Schedule
 
 ### TLS 1.0和1.1支援即將結束 {#tls-1-0-and-1-1-support-is-ending}
 
-為了提供最佳安全性，Workfront要求所有使用TLS 1.1或更舊版本的整合和網頁流量都升級為使用TLS 1.2。在預覽環境中，TLS 1.0已停用。
+為了提供最佳安全性，Workfront要求所有使用TLS 1.1或更舊版本的整合和網頁流量都升級為使用TLS 1.2。 在預覽環境中，TLS 1.0已停用。
 
 <!--
 For more information, see <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.OnlineOnly">  <a href="../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md" class="MCXref xref">TLS 1.2 to be required in Adobe Workfront</a> </MadCap:conditionalText> 

@@ -5,11 +5,15 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/BH2uI58dlJweV-8QT9wqb2z4Bcqorzko78NE3beuqWA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: 741
 ht-degree: 0%
 
 ---
@@ -60,7 +64,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
-[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3427992/){target=_blank} （此特定功能的討論從2:47開始）
+[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3427992/){target=_blank} （此特定功能的討論開始於2:47）
 
 ## 新評論體驗上的系統活動標籤支援唯讀評論
 
@@ -72,7 +76,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[更新區段總覽](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
-[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3427992/){target=_blank} （此特定功能的討論從2:00開始）
+[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3427992/){target=_blank} （此特定功能的討論開始於2:00）
 
 ## 新的更新流索引標籤可擷取評論和系統活動專案
 
@@ -86,7 +90,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[更新區段總覽](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
-[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3427992/){target=_blank} （此特定功能的討論從0:31開始）
+[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3427992/){target=_blank} （此特定功能的討論開始於0:31）
 
 ## 摘要面板中現在提供新的評論資料流
 
@@ -98,4 +102,4 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[摘要概觀](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)。
 
-[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3427991/){target=_blank}
+[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3427991/){target=_blank}

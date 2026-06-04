@@ -4,9 +4,14 @@ description: 2026年第一季度整合增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 353b71e59fc2dc2e1f806a560f04076586a32424
+exl-id: 2ea9c93c-fae4-47da-ae34-39b73ce85a3c
+TQID: https://experienceleague.adobe.com/bTUJTZd4KSYmY75T1Q22USVhidJL9XEXk0F5mzAg174
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: 184
 ht-degree: 0%
 
 ---
@@ -22,8 +27,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2025年12月15日
->生產快速發行： 2025年12月15日\
+>預覽： 2025年12月15日>生產快速發行： 2025年12月15日\
 >每個人都要生產： 2025年12月15日
 
 您可以選擇要將校樣傳送至的Workfront專案。 這有助於將所有相關的資產和校樣整理在同一個專案中。
@@ -36,8 +40,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2025年11月20日
->生產快速發行： 2025年12月11日\
+>預覽： 2025年11月20日>生產快速發行： 2025年12月11日\
 >適用於所有人的生產： 2026年1月16日
 
 我們已升級Adobe Workfront中用於Experience Manager Assets整合的資產選擇器。 透過此升級，您現在可以選取AEM集合，並將其直接提取至Workfront。
@@ -61,4 +64,3 @@ To stay up-to-date with recent changes to the Workfront API, we've created a new
 For instructions and links for downloading and installing the new integration, see [Install Adobe Workfront for Salesforce](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
 
 -->
-

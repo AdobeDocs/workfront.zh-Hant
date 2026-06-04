@@ -5,11 +5,17 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/0Nu-Le3Lidn8TI-Eq-p9iAQR4IwM6QD2tZpDeV1gF2U
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '9443'
+source-wordcount: 9918
 ht-degree: 0%
 
 ---
@@ -401,7 +407,7 @@ ht-degree: 0%
 
 若要檢視這項變更，請前往專案>收費率。
 
-如需相關資訊，請參閱專案層級[的](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)覆寫工作角色收費率。
+如需相關資訊，請參閱專案層級](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)的[覆寫工作角色收費率。
 
 ### 套用里程碑檢視時，專案清單或報告的介面更新
 
@@ -566,8 +572,8 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 
 **預覽版本： 2025年7月31日；生產版本： 2025年7月31日**
 
-我們在範本上編輯「主題群組」時，已更新其外觀和風格。 主題群組編輯頁面現在會比對Workfront其他區域的設計。
-主題群組已套用小幅功能變更。 若要編輯「主題群組」，請從清單中選取「主題群組」，然後按一下「編輯」圖示。 在您可以編輯之前，您不會再被導向至「主題群組詳細資訊」頁面。
+我們在範本上編輯「主題群組」時，已更新其外觀和風格。主題群組編輯頁面現在會比對Workfront其他區域的設計。
+主題群組已套用小幅功能變更。若要編輯「主題群組」，請從清單中選取「主題群組」，然後按一下「編輯」圖示。在您可以編輯之前，您不會再被導向至「主題群組詳細資訊」頁面。
 
 如需詳細資訊，請參閱[建立主題群組](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)。
 
@@ -685,7 +691,7 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 
 若要檢視這項變更，請前往「使用者>新增使用者>新增使用者」。
 
-如需詳細資訊，請參閱[2025年第四季管理員增強功能頁面](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md)上的[新增使用者](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile)和[更新至Workfront使用者設定檔](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md)。
+如需詳細資訊，請參閱[2025年第四季管理員增強功能頁面](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md)上的[新增使用者](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md)和[更新至Workfront使用者設定檔](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile)。
 
 
 ### 匯入使用者對話方塊的介面更新
@@ -1227,7 +1233,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 我們以與Workfront其他區域一致的更現代化設計更新了「自動提醒」頁面。
 若要檢視此頁面，請前往「設定>電子郵件>自動提醒」。
-此更新包含區域的視覺化變更。 功能未變更。
+此更新包含區域的視覺化變更。功能未變更。
 
 ### 安裝程式中電子郵件範本頁面的介面更新
 
@@ -1355,7 +1361,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 

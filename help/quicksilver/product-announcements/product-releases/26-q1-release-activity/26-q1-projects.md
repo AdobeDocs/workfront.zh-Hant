@@ -4,9 +4,15 @@ description: 2026年第一季度專案增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bedfd278f59f8cd8ba287cca1d68a7ec3371c7fd
+exl-id: 62dd094f-364e-4171-bf9a-c55cbbc92ad7
+TQID: https://experienceleague.adobe.com/tJcpVb7RemoSrgpy034Gvk6GGM3AF7-O9ph8TD6nUDU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: 142
 ht-degree: 0%
 
 ---
@@ -21,8 +27,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2025年12月11日
->生產快速發行： 2026年1月15日\
+>預覽： 2025年12月11日>生產快速發行： 2026年1月15日\
 >適用於所有人的生產： 2026年1月15日
 
 輕度使用者現在可以直接在專案上記錄時間。 以前，只有Standard授權使用者可以在專案上記錄時數。
@@ -33,5 +38,3 @@ ht-degree: 0%
 * 貢獻專案或更高許可權以存取記錄時數
 
 如需詳細資訊，請參閱[記錄時間](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md)。
-
-

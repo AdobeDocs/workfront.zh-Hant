@@ -7,9 +7,12 @@ description: 本頁說明預覽環境的Adobe Workfront目標23.2版本所做的
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: 2397339a-7a78-41ee-8882-0606309e356c
-source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
+TQID: https://experienceleague.adobe.com/i-U6B9h7BqNT-I8ZvUlwTltW3i1J1olWb6-fqv1eKJc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: 190
 ht-degree: 0%
 
 ---

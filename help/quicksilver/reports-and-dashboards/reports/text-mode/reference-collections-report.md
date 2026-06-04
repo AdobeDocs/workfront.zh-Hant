@@ -6,11 +6,16 @@ description: 報表中的參考集合
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/HPw9hvYELkeZOzP2OpoJcpicXdEP76nmeEwdn3uWojY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2615'
+source-wordcount: 2624
 ht-degree: 1%
 
 ---
@@ -268,7 +273,7 @@ Workfront中的物件之間有下列兩種關係：
   </tr> 
   <tr> 
    <td><code>listdelimiter=&lt;p&gt;</code> </td> 
-   <td> <p>這是用來分隔清單中值的分隔字元。<br>我們建議使用<code>&lt;p&gt;</code>，在值之間新增分行符號。</p> <p>您也可以使用下列專案：</p> <p><code>&zwj;</code> （零寬度聯結器）。 集合的值之間沒有分隔符號。<br><strong>，</strong> =逗號分隔符號。 集合的值以逗號分隔，後跟空格。<br><strong>/</strong> =斜線分隔符號。 集合的值以斜線分隔。<br><strong>-</strong> =破折號分隔符號。 集合的值以破折號分隔。<br>依照預設，將此行留空會在集合的值之間加上逗號，後面跟著空格。</p> </td> 
+   <td> <p>這是用來分隔清單中值的分隔字元。<br>我們建議使用<code>&lt;p&gt;</code>，在值之間新增分行符號。</p> <p>您也可以使用下列專案：</p> <p><code>&amp;zwj;</code> （零寬度聯結器）。 集合的值之間沒有分隔符號。<br><strong>，</strong> =逗號分隔符號。 集合的值以逗號分隔，後面沒有空格。<br><strong>/</strong> =斜線分隔符號。 集合的值以斜線分隔。<br><strong>-</strong> =破折號分隔符號。 集合的值以破折號分隔。<br>依照預設，將此行留空會在集合的值之間加上逗號，後面跟著空格。</p> </td> 
   </tr> 
   <tr> 
    <td><code>displayname=</code><em>資料行名稱</em> </td> 
@@ -280,7 +285,7 @@ Workfront中的物件之間有下列兩種關係：
   </tr> 
   <tr> 
    <td><code>valuefield=collection object field</code> </td> 
-   <td> <p>這行會定義您從集合物件參照的欄位。</p> <p>將<strong>集合物件欄位</strong>取代為您在集合中參考之物件的欄位名稱，如同<a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>中所示。</p> <p>您可以將此行取代為：</p> <p><strong>valueexpression</strong>=計算的集合物件欄位/欄位</p> <p>使用<strong>valueexpression</strong>，您可以  在欄中顯示計算的自訂運算式。</p> <p>如需有關如何格式化<strong>valueexpression</strong>行的詳細資訊，請參閱<a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">文字模式語法概述</a>。</p> </td> 
+   <td> <p>這行會定義您從集合物件參照的欄位。</p> <p>將<strong>集合物件欄位</strong>取代為您在集合中參考之物件的欄位名稱，如同<a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>中所示。</p> <p>您可以將此行取代為：</p> <p><strong>valueexpression</strong>=計算的集合物件欄位/欄位</p> <p>使用<strong>valueexpression</strong>，您可以在資料行中顯示已計算的自訂運算式。</p> <p>如需有關如何格式化<strong>valueexpression</strong>行的詳細資訊，請參閱<a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">文字模式語法概述</a>。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -397,7 +402,7 @@ Workfront中的物件之間有下列兩種關係：
 1. 按一下&#x200B;**報告提示**。
 1. 按一下&#x200B;**新增提示**。
 1. 按一下&#x200B;**自訂提示**。
-1. 在&#x200B;**欄位**&#x200B;**名稱**&#x200B;欄位中指定提示的名稱。
+1. 在&#x200B;**欄位****名稱**欄位中指定提示的名稱。
 
 1. 指定&#x200B;**下拉式清單專案標籤**。
 1. 在&#x200B;**條件**&#x200B;欄位中指定下列專案：

@@ -6,9 +6,13 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 565c365b-d611-4a9a-80a9-bfb7a5b0f319
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/qmNKLogk-6ziKzb3zAmLY3vCbyP1gbwRGyWOBAGsuKk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: 519
 ht-degree: 0%
 
 ---
@@ -19,9 +23,9 @@ ht-degree: 0%
 
 如需23.2發行週期中目前所有可用變更的清單，請參閱[23.2發行概觀](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)。
 
-## 剛開始使用Workfront的Creative Cloud外掛程式
+## 剛開始使用適用於Creative Cloud外掛程式的Workfront
 
-我們已將下列變更新增至Workfront的Creative Cloud外掛程式：
+我們已將下列變更新增至Creative Cloud外掛程式的Workfront：
 
 * 外掛程式現在會在任務具有前置任務時通知您
 * 韓文現在為支援的語言
@@ -52,11 +56,11 @@ Workfront Goals在23.1版本中發佈了類似功能。
 
 如需有關新註解體驗提供的資訊，請參閱[新註解體驗](../../betas/new-commenting-experience-beta/unified-commenting-experience.md)。
 
-[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3416962/){target=_blank}
+[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3416962/){target=_blank}
 
-## 在Adobe Workfront for XD中將工作區域匯出為單一PDF或多個PDF檔案
+## 將工作區域匯出為適用於XD的單一PDF或多個Adobe Workfront中的PDF檔案
 
-在XD適用的Adobe Workfront外掛程式中，您現在可以選擇將工作區域匯出為單一PDF檔案或多個PDF檔案。
+在適用於XD的Adobe Workfront外掛程式中，您現在可以選擇將工作區域匯出為單一PDF檔案或多個PDF檔案。
 
 如需詳細資訊，請參閱下列文章：
 
@@ -65,7 +69,7 @@ Workfront Goals在23.1版本中發佈了類似功能。
 
 ## 加入Adobe統一體驗的新客戶
 
-在2023年3月中旬到3月底，新客戶將開始採用Adobe統一體驗。 新客戶上線至Adobe Business Platform時，將依個案處理。
+在2023年3月中旬到3月底，新客戶將開始採用Adobe Unified Experience。 新客戶上線至Adobe Business Platform時，將依個案處理。
 
 現有客戶移轉至Unified Experience的工作已延遲至2023年稍後進行。 屆時所有受影響的客戶都會收到通知。
 
@@ -75,9 +79,9 @@ Adobe Unified Experience包括：
 * 可在Workfront組織和環境之間移動的「組織切換器」
 * 包含Workfront頁面、Adobe Experience Cloud偏好設定和您的Workfront設定檔選項的導覽
 
-如需詳細資訊，請參閱[Workfront的Adobe統一體驗](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+如需詳細資訊，請參閱[適用於Workfront的Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
-[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3412388/){target=_blank}
+[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3412388/){target=_blank}
 
 ## 校訂檢視器會在新的索引標籤中開啟，以供統一體驗上的使用者使用
 

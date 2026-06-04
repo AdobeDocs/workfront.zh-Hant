@@ -6,11 +6,16 @@ description: 排程自動報告傳送
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/m1XNhxMM29x1vAL-RESTCCF6fK1KIWA1g7ckfA6cyWQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: 1298
 ht-degree: 3%
 
 ---
@@ -111,7 +116,7 @@ ht-degree: 3%
      </tr> 
      <tr> 
       <td role="rowheader"> <p>提供此報告並具備以下存取許可權：</p> </td> 
-      <td> <p>開始輸入可存取報表的使用者名稱，然後在名稱出現在下拉式清單中時按一下名稱。 收到報表的使用者將被授予與您在此指定的使用者相同層級的報表存取權。<br>如需詳細資訊，請參閱<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">使用其他使用者的存取權執行並傳遞報告</a>。</p> <p>注意：此欄位不支援萬用字元。 例如，使用萬用字元<em>$$User.ID</em>無法以接收報告之使用者的存取許可權執行報告。</p> </td> 
+      <td> <p>開始輸入可存取報表的使用者名稱，然後在名稱出現在下拉式清單中時按一下名稱。 收到報告的使用者將被授予與您在此指定的使用者相同層級的報告存取權。<br> 如需詳細資訊，請參閱<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">以其他使用者的存取許可權執行並傳遞報告</a>。</p> <p>注意：此欄位不支援萬用字元。 例如，使用萬用字元<em>$$User.ID</em>無法以接收報告之使用者的存取許可權執行報告。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>格式</p> </td> 

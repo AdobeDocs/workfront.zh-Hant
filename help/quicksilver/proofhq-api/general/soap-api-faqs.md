@@ -6,9 +6,12 @@ draft: Probably
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: fcf89bd6-0e07-42a7-9ae3-9a1309e51946
-source-git-commit: 729c8512f7aa239f0858e18295a0c77e6b7e3328
+TQID: https://experienceleague.adobe.com/IDspEIEFUjP23bvjd8BWJRdSzBCOFe5TLEJG7sguU5M
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: 792
 ht-degree: 0%
 
 ---
@@ -19,7 +22,7 @@ ht-degree: 0%
 
 這需要3個簡單的步驟：
 
-**步驟1**：透過Post要求將檔案上傳至Workfront Proof  [https://soap.proofhq.com/upload.php](https://soap.proofhq.com/upload.php)。 我們將傳回檔案雜湊 — 這非常重要！ 請注意，在這個階段，您不會看到帳戶中的任何內容，您目前所做的是將檔案傳送給我們，但沒有告訴我們應如何處理。
+**步驟1**：透過Post要求將檔案傳送至[https://soap.proofhq.com/upload.php](https://soap.proofhq.com/upload.php)，以將檔案上傳至Workfront Proof。 我們將傳回檔案雜湊 — 這非常重要！ 請注意，在這個階段，您不會看到帳戶中的任何內容，您目前所做的是將檔案傳送給我們，但沒有告訴我們應如何處理。
 
 **步驟2**：如果您還沒有工作階段ID，請使用doLogin()或getSessionID()方法取得工作階段ID。 使用前者可使用使用者的電子郵件地址和密碼「登入」，如果您有使用者的電子郵件地址和驗證Token，則使用後者方法。
 
@@ -59,7 +62,7 @@ ht-degree: 0%
 
 **團隊/公用**：每個校訂版本都有唯一的團隊（公用） URL。 如果啟用，它將以唯讀模式開啟校訂。 您可以使用[getProofURL()](https://api.proofhq.com/home/proofs/getproofurl.html)方法取得團隊URL。
 
-**個人**：每個檢閱者和校訂版本的個人URL都是唯一的。 如果校訂集包含3個版本，而稽核者位於所有版本，則稽核者將有3個不重複的個人URL。 個人URL會開啟校訂版本，其中檢閱者已識別，因此應妥善儲存且不分享。 呼叫[getProofReviewers()](https://api.proofhq.com/home/proofs/getproofreviewers.html)方法，然後反複處理每個方法，即可取得個人網址  [SOAPRecepientObject](https://api.proofhq.com/home/objects/soaprecipientobject.html)並取得引數&quot;proof_url&quot;。
+**個人**：每個檢閱者和校訂版本的個人URL都是唯一的。 如果校訂集包含3個版本，而稽核者位於所有版本，則稽核者將有3個不重複的個人URL。 個人URL會開啟校訂版本，其中檢閱者已識別，因此應妥善儲存且不分享。 呼叫[getProofReviewers()](https://api.proofhq.com/home/proofs/getproofreviewers.html)方法，然後反複處理每個[SOAPRecepientObject](https://api.proofhq.com/home/objects/soaprecipientobject.html)並取得引數&quot;proof_url&quot;，即可取得個人URL。
 
 ## >如何在開啟迷你校樣時包含自訂引數？
 

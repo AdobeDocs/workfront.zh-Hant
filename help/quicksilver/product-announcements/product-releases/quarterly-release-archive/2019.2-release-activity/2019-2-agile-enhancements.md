@@ -7,9 +7,12 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5dc591eb-5684-4ad2-aed7-69b70a64a2a1
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/ZSzKhrZTJQGafOpqUbnpHP13IocWyB6XgtY9U-vIC2k
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: 157
 ht-degree: 0%
 
 ---

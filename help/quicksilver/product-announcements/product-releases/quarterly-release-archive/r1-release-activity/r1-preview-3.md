@@ -7,9 +7,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d1502a17-b131-4d29-9b0c-03ad44be4ba6
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/--RlYylhPcyb6lNrf8RuuC-87lrw88NlAms6EfmGRWo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: 1353
 ht-degree: 2%
 
 ---
@@ -22,13 +28,13 @@ ht-degree: 2%
 
 ## 連結外部檔案的改良方法
 
-從外部來源連結檔案的選項(例如Google磁碟機、Box、Dropbox等)現在位於檔案區域中更顯眼的位置。 
+從外部來源連結檔案的選項（例如Google Drive、Box、Dropbox等）現在位於檔案區域中更顯眼的位置。 
 
 此外，在第一次從該提供者連結檔案之前授權檔案提供者的動作，現在更符合直覺（這只是從外部提供者連結檔案時的額外步驟）。
 
 在這些變更之前，從外部來源連結檔案的選項位於「檔案」區域的「新增檔案」對話方塊中。 在第一次從外部來源連結檔案之前，連結檔案的使用者必須在設定區域中授權該檔案提供者。
 
-如需詳細資訊，請參閱  [從外部應用程式連結檔案](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)。
+如需詳細資訊，請參閱[從外部應用程式連結檔案](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)。
 
 ## 處理行事曆的已更新團隊
 
@@ -116,7 +122,7 @@ ht-degree: 2%
 * 產能規劃工具
 * 資源格線
 * 團隊建立者
-* Portfolio最佳化工具 
+* Portfolio Optimizer 
 * 行動應用程式
 * Outlook增益集
 
@@ -129,7 +135,7 @@ ht-degree: 2%
 * 核准路徑開始日期
 * 核准路徑完成日期
 
-這些欄位可讓您深入瞭解目前或最近核准路徑何時開始，以及何時標籤為完成。
+這些欄位可讓您在目前或最近核准路徑啟動時，以及系統將其標籤為完成時，將insight存取。
 
 如需這些欄位的詳細資訊，請參閱[Adobe Workfront術語表](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
 

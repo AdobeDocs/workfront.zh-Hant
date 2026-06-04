@@ -6,9 +6,15 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 46da311a-0e22-4def-9df8-e30b142c815d
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+TQID: https://experienceleague.adobe.com/xL8MU-Yhd3nI9S-HcTWzCy4akZFe1PZruOlVnyZarTk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: 415
 ht-degree: 0%
 
 ---
@@ -25,7 +31,7 @@ ht-degree: 0%
 
 之前，將Workfront資料對應至Experience Manager Assets標籤的功能無法使用。
 
-如需Experience Manager Assetsas a Cloud Service中此功能的詳細資訊，[設定[!UICONTROL Experience Manager Assetsas a Cloud Service]整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)。
+如需Experience Manager Assets as a Cloud Service中此功能的詳細資訊，[設定[!UICONTROL Experience Manager Assets as a Cloud Service]整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)。
 
 如需Experience Manager Assets Essentials中此功能的詳細資訊，[設定Experience Manager Assets Essentials整合](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)。
 
@@ -39,7 +45,7 @@ ht-degree: 0%
 
 * **使用預設區段**：如果表單建立者尚未在表單頂端新增區段，則畫布中現在會顯示預設區段，以便使用者可以調整未指派自訂區段的欄位許可權。
 
-* **變更描述性文字的大小**：您現在可以將小型、中型或大型指派給描述性文字欄位。 您也可以在相同列上與其他欄位搭配使用。 <span style="color: #ff0000;">變更描述性文字的大小已暫時延遲，但即將推出。</span></li>
+* **變更描述性文字的大小**：您現在可以將小型、中型或大型指派給描述性文字欄位。 您也可以在相同列上與其他欄位搭配使用。<span style="color: #ff0000;"> 變更描述文字的大小已暫時延遲，但即將推出。</span></li>
 
 如需詳細資訊，請參閱[自訂表格概觀](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)。
 

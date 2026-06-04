@@ -6,9 +6,12 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+TQID: https://experienceleague.adobe.com/DaxBkn2BAzxTm1LyIfts1KfghH2QmuOJGZj-XAl1VHA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: 873
 ht-degree: 0%
 
 ---
@@ -56,7 +59,7 @@ ht-degree: 0%
 >存在下列情況：
 >
 >* 實際時數代表自2021年5月起為專案、任務和問題記錄的時數。
->* 舊版實際時數代表專案、任務或問題存留期內的專案、任務或問題記錄時數。 這包括在2021年5月之前記錄到目前時間的小時數。
+>* 舊版實際時數代表專案、任務或問題存留期內的專案、任務或問題記錄時數。這包括在2021年5月之前記錄到目前時間的小時數。
 ><br>您可能需要更新報告以反映新欄位及其值。
 ><br>Workfront使用舊版實際時數來計算實際勞力成本。
 

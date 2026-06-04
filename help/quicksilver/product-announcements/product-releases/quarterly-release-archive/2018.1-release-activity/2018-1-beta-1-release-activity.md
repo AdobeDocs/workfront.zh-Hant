@@ -7,9 +7,12 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: efcc2217-ab69-4ac4-8e9a-f811eba77d49
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/-BFykQtqXROGYgeh8eOtpfqQsMIAn0yfQIAy-1KflGw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: 1055
 ht-degree: 0%
 
 ---
@@ -22,11 +25,11 @@ ht-degree: 0%
 >
 > 本頁所述的功能在生產環境使用之前可能會有所變更。
 
-如需2018.1年度所有變更的清單，請參閱  [2018.1發行活動總覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md)。
+如需2018.1年所做的所有變更清單，請參閱[2018.1發行活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md)。
 
 2018.1 Beta 1版本包含適用於Workfront管理員和其他使用者的增強功能：
 
-管理員的&#x200B;**&#x200B;**
+管理員的&#x200B;****
 
 * [已更新配置範本以支援主區域](#updated-layout-template-to-support-the-home-area)
 * [停用從Workfront傳送的校訂電子郵件通知](#disable-proofing-email-notifications-sent-from-workfront)
@@ -58,7 +61,7 @@ ht-degree: 0%
 
 您現在可以設定在對校訂進行評論時，Workfront執行個體中的使用者是否收到來自Workfront的電子郵件通知。
 
-以前，當對校訂進行評論時，校訂電子郵件一律從Workfront傳送。 如果Workfront Proof中也啟用了通知，則會導致使用者收到重複通知。 
+以前，當對校訂進行評論時，校訂電子郵件一律從Workfront傳送。如果Workfront Proof中也啟用了通知，則會導致使用者收到重複通知。 
 
 對於現有的Workfront客戶，Workfront預設會設定為在校訂上發表評論時傳送電子郵件。
 

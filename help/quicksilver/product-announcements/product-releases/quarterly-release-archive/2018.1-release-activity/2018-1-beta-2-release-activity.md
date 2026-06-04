@@ -7,9 +7,14 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 22e3836c-c41e-48a6-9926-e832af91e616
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/6vUGOgtvkP4c4yBRo-wZTPB20tLdy-C1z28Ilg-xOok
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: 1304
 ht-degree: 2%
 
 ---
@@ -22,11 +27,11 @@ ht-degree: 2%
 >
 > 本頁所述的功能在生產環境使用之前可能會有所變更。
 
-如需2018.1年度所有變更的清單，請參閱  [2018.1發行活動總覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md)。
+如需2018.1年所做的所有變更清單，請參閱[2018.1發行活動概覽](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md)。
 
 2018.1 Beta 2版本包含適用於Workfront管理員和其他使用者的增強功能：
 
-管理員的&#x200B;**&#x200B;**
+管理員的&#x200B;****
 
 * [使用者和版面配置範本的群組管理](#group-administration-for-users-and-layout-templates)
 
@@ -149,7 +154,7 @@ ht-degree: 2%
 
 ### 改善版面配置和設計 {#improved-layout-and-design}
 
-校訂檢視器的外觀與風格均已更新。 此  下列校訂檢視器區域已更新：
+校訂檢視器的外觀與風格均已更新。 下列校訂檢視器區域已更新：
 
 * 縮圖區域
 
@@ -161,13 +166,13 @@ ht-degree: 2%
 
 ### 按評論編號搜尋評論 {#search-comments-by-comment-number}
 
-現在，當您在校訂檢視器中搜尋註解清單時，可以在搜尋欄位中輸入註解號碼。 接著會篩選註解清單，以顯示您搜尋的註解。 
+現在，當您在校訂檢視器中搜尋註解清單時，可以在搜尋欄位中輸入註解號碼。接著會篩選註解清單，以顯示您搜尋的註解。 
 
 如需詳細資訊，請參閱中的。
 
 ### 標示指標旁的編輯註解選項 {#option-to-edit-comment-next-to-the-markup-indicator}
 
-您現在可以更輕鬆地編輯現有註解。 按一下校樣上的註解指示器後，球標旁會顯示編輯圖示。 
+您現在可以更輕鬆地編輯現有註解。按一下校樣上的註解指示器後，球標旁會顯示編輯圖示。 
 
 在此變更之前，您必須按一下「註解」區域中的編輯圖示。  
 

@@ -7,11 +7,15 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/YevcG4U3icxvqEeztbgudX-vvS4nF-5xTnn9jUkGVJ0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2540'
+source-wordcount: 2530
 ht-degree: 0%
 
 ---
@@ -29,9 +33,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2025年10月2日
->生產快速發行： 2025年10月15日
->適用於所有人的生產： 2025年10月16日
+>預覽： 2025年10月2日>生產快速發行： 2025年10月15日>每個人的生產： 2025年10月16日
 
 為了簡化請求流程，我們對請求表單做了一些增強功能。 現在，當您設定請求表單時，可以設定以下專案：
 
@@ -45,9 +47,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2025年10月2日
->生產快速發行： 2025年10月15日
->適用於所有人的生產： 2025年10月16日
+>預覽： 2025年10月2日>生產快速發行： 2025年10月15日>每個人的生產： 2025年10月16日
 
 
 您現在可以在時間軸和行事曆檢視中拖放記錄。 拖曳另一個時間範圍內的記錄會自動更新其開始和結束日期。
@@ -58,9 +58,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2025年10月2日
->生產快速發行： 2025年10月15日
->適用於所有人的生產： 2025年10月16日
+>預覽： 2025年10月2日>生產快速發行： 2025年10月15日>每個人的生產： 2025年10月16日
 
 為了在Workfront Planning中提出請求時更輕鬆地進行通訊，我們在「請求詳細資料」頁面新增了「註解」區域。 例如，如果請求被指派到的人員對提出請求的人有疑問，這將很有用。
 
@@ -88,9 +86,7 @@ For more information on approving requests, see [Approve a request in Adobe Work
 
 >[!NOTE]
 >
->預覽： 2025年9月25日
->生產快速發行： 2025年10月15日
->全部生產： 2025年10月16日
+>預覽： 2025年9月25日>生產快速發行： 2025年10月15日>生產全部： 2025年10月16日
 
 我們改進了記錄的連線記錄頁面。 以下是透過此更新所做的改進：
 
@@ -215,9 +211,7 @@ For more information on creating a request form and configuring these options, s
 
 >[!NOTE]
 >
->預覽： 2025年9月11日
->適用於所有客戶的生產： 2025年9月11日
->[!BADGE 不在排程]{type=Neutral}內
+>預覽： 2025年9月11日>所有客戶的生產： 2025年9月11日>[!BADGE 排程外]{type=Neutral}
 
 如果您的組織同時使用Adobe Workfront Planning和Adobe GenStudio for Performance Marketing，您可能會想要比GenStudio預設支援的更詳細地定義行銷概念，例如行銷活動、產品和角色。
 
@@ -381,9 +375,7 @@ For more information on creating a request form and configuring these options, s
 
 >[!NOTE]
 >
->預覽： 2025年8月7日
->適用於所有客戶的生產： 2025年8月
->[!BADGE 不在排程]{type=Neutral}內
+>預覽：2025年8月7日>所有客戶的生產：2025年8月>[!BADGE 排程外]{type=Neutral}
 
 我們已將具有以下用途的新運算式新增至Workfront Planning中的公式欄位及Workfront中的計算自訂欄位：
 
@@ -397,9 +389,7 @@ For more information on creating a request form and configuring these options, s
 
 >[!NOTE]
 >
->預覽： 2025年7月31日
->適用於所有客戶的生產： 2025年7月31日
->[!BADGE 不在排程]{type=Neutral}內
+>預覽： 2025年7月31日>所有客戶的生產： 2025年7月31日>[!BADGE 取消排程]{type=Neutral}
 
 我們在記錄表格檢視中建立或編輯欄位時，新增了「最大化」按鈕來放大公式欄位。 此外，我們在新的放大視窗中新增了「最小化」按鈕，以恢復至欄位建立方塊。
 
@@ -449,9 +439,7 @@ For more information on creating requests see:
 
 >[!NOTE]
 >
->預覽： 2025年7月24日
->生產快速發行： 2025年8月14日
->所有客戶的生產： 2025年10月16日
+>預覽： 2025年7月24日>生產快速版本： 2025年8月14日>所有客戶的生產： 2025年10月16日
 
 您現在可以在時間軸上的任何位置按兩下，在記錄型別的時間軸檢視中建立記錄。
 
@@ -465,9 +453,7 @@ For more information on creating requests see:
 
 >[!NOTE]
 >
->預覽： 2025年7月24日
->生產快速發行： 2025年8月14日
->所有客戶的生產： 2025年10月16日
+>預覽： 2025年7月24日>生產快速版本： 2025年8月14日>所有客戶的生產： 2025年10月16日
 
 您現在可以從工作區頁面上記錄型別卡片的「更多」選單共用記錄型別。 在此增強功能之前，「共用」選項僅在記錄型別頁面內可用。
 
@@ -477,9 +463,7 @@ For more information on creating requests see:
 
 >[!NOTE]
 >
->預覽： 2025年7月24日
->生產快速發行： 2025年8月14日
->所有客戶的生產： 2025年10月16日
+>預覽： 2025年7月24日>生產快速版本： 2025年8月14日>所有客戶的生產： 2025年10月16日
 
 您現在能以全熒幕模式顯示所有Workfront Planning檢視（表格、時間軸和行事曆）。 檢視功能會保留，您也可以在全熒幕中變更檢視。
 
@@ -491,9 +475,7 @@ For more information on creating requests see:
 
 >[!NOTE]
 >
->預覽： 2025年7月22日
->快速發行生產： 2025年8月14日
->所有客戶的生產： 2025年10月16日
+>預覽： 2025年7月22日>快速發行生產： 2025年8月14日>所有客戶生產： 2025年10月16日
 
 為了讓核准程式更靈活，我們新增了在Planning請求表單上新增團隊作為核准者的功能。 現在，您可以在設定核准者時輸入並選取專案團隊名稱。 任何團隊成員都可以做出決定，這會計為整個團隊的核准決定。
 
@@ -505,9 +487,7 @@ For more information on creating requests see:
 
 >[!NOTE]
 >
->預覽： 2025年7月17日
->快速發行生產： 2025年8月14日
->所有客戶的生產： 2025年10月16日
+>預覽： 2025年7月17日>快速發行生產： 2025年8月14日>所有客戶生產： 2025年10月16日
 
 我們引進了以下欄位，以擷取透過提交具有核准的請求所建立的記錄的核准資訊：
 
@@ -520,9 +500,7 @@ For more information on creating requests see:
 
 >[!NOTE]
 >
->預覽： 2025年7月10日
->生產快速發行： 2025年8月14日
->所有客戶的生產： 2025年10月16日
+>預覽： 2025年7月10日>生產快速版本： 2025年8月14日>所有客戶的生產： 2025年10月16日
 
 
 現在，當您已將群組套用至表格檢視時，將記錄新增至表格將會自動填入與您將記錄新增至的群組相關聯的欄位。

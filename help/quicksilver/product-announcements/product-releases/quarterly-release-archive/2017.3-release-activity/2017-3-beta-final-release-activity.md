@@ -7,9 +7,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 880828f4-3908-4ef0-ab1f-774f8dee72b6
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+TQID: https://experienceleague.adobe.com/4-7YnUZXtvacLjoO4Y8c61kJ-kzHnY6ck8xsaqmuTvs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3791'
+source-wordcount: 3709
 ht-degree: 0%
 
 ---
@@ -22,11 +28,11 @@ ht-degree: 0%
 >
 > 本頁所述的功能在生產環境使用之前可能會有所變更。
 
-如需2017.3年度所有變更的清單，請參閱  [2017.3發行活動總覽](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)。
+如需2017.3中所做所有變更的清單，請參閱[2017.3發行活動總覽](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)。
 
 2017.3 Beta最終版本包含適用於Workfront管理員和其他使用者的增強功能：
 
-管理員的&#x200B;**&#x200B;**
+管理員的&#x200B;****
 
 * [在核准設定區域中重新呼叫要求的新設定](#new-configuration-for-recalling-requests-in-the-approval-settings-area)
 * [設定預設校訂角色](#configure-default-proof-roles)
@@ -48,7 +54,7 @@ ht-degree: 0%
 * [檔案增強功能：精簡的介面](#document-enhancements-streamlined-interface)
 * Workfront中的[校訂增強功能](#proofing-enhancements-within-workfront)
 * Workfront Proof和Workfront中的[校訂增強功能](#proofing-enhancements-within-both-workfront-proof-and-workfront)
-* 更新及電子郵件的[&#x200B; RTF格式](#rich-text-formatting-for-updates-and-emails)
+* 更新及電子郵件的[ RTF格式](#rich-text-formatting-for-updates-and-emails)
 * [新甘特圖重新設計](#new-gantt-chart-redesign)
 * [內建報告包含更新的說明](#built-in-reports-contain-updated-descriptions)
 * [在匯出的報告、清單和儀表板中標示品牌](#branding-in-exported-reports-lists-and-dashboards)
@@ -106,11 +112,11 @@ Workfront中的Scrum和Kanban敏捷方法有以下差異：
 
 * 設定待處理專案上的專案，以便在其他專案移至等同於完成的狀態時，自動新增到看板敏捷故事板中。
 
-  如需詳細資訊，請參閱[設定Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5)中的[設定要自動從待處理專案新增的劇本](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)。
+  如需詳細資訊，請參閱[設定Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)中的[設定要自動從待處理專案新增的劇本](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5)。
 
 * 設定要在Kanban敏捷故事板上顯示的進行中工作(WIP)限制。
 
-  如需詳細資訊，請參閱[設定看板](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4)中的[設定進行中的工作(WIP)限制](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)。
+  如需詳細資訊，請參閱[設定看板](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)中的[設定進行中的工作(WIP)限制](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4)。
 
 **在Workfront中使用Scrum的好處**
 
@@ -118,14 +124,14 @@ Workfront中的Scrum和Kanban敏捷方法有以下差異：
 * 在Scrum故事板上加入問題。
 * 包括敏捷團隊待處理專案上的問題。
 
-  如需詳細資訊，請參閱[設定Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)中的[設定將工作專案新增至疊代](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)時如何套用日期。
+  如需詳細資訊，請參閱[設定Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)中的[設定將工作專案新增至疊代](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)時如何套用日期。
 
 * 子任務可以顯示在Scrum故事板上。
 * 檢視待執行工作圖表，以檢視反複專案期間內文的進度。
 
   如需詳細資訊，請參閱[敏捷待執行工作圖表總覽](../../../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)。
 
-如需有關啟用和設定敏捷團隊看板的詳細資訊，請參閱[建立敏捷團隊](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding)中的[決定敏捷方法](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)。
+如需有關啟用和設定敏捷團隊看板的詳細資訊，請參閱[建立敏捷團隊](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)中的[決定敏捷方法](../../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding)。
 
 ## 包括敏捷團隊的Scrum待辦專案上的問題 {#include-issues-on-the-scrum-backlog-for-an-agile-team}
 
@@ -139,9 +145,9 @@ Workfront中的Scrum和Kanban敏捷方法有以下差異：
 
 由於您現在可存取的不僅是待處理專案上的任務，因此先前在待處理專案上可用的任何自訂任務檢視都會複製並新增到待處理專案中，作為自訂待處理專案檢視。
 
-如需有關使用待處理專案問題的資訊，請參閱  [管理敏捷待處理專案](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)。
+如需有關使用待處理專案上的問題的資訊，請參閱[管理敏捷待處理專案](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)。
 
-如需有關啟用問題以在Agile Scrum團隊的待處理專案上可用的資訊，請參閱  [設定在](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)設定Scrum[中將工作專案新增到疊代](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)時如何套用日期。
+如需有關啟用問題以在Agile Scrum團隊的待處理專案上可用的資訊，請參閱[在[設定Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)中設定將工作專案新增至疊代](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)時如何套用日期。
 
 ## 在Scrum敏捷故事板上包含問題 {#include-issues-on-the-scrum-agile-story-board}
 
@@ -151,7 +157,7 @@ Workfront中的Scrum和Kanban敏捷方法有以下差異：
 
 現在當您使用Scrum敏捷方法時，可以在故事板上加入問題。
 
-如需詳細資訊，請參閱[設定Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur2)中的[設定敏捷故事板上的狀態列](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)。
+如需詳細資訊，請參閱[設定Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)中的[設定敏捷故事板上的狀態列](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur2)。
 
 ## 將群組和篩選器套用至敏捷團隊的待處理專案 {#apply-groupings-and-filters-to-the-backlog-for-an-agile-team}
 
@@ -163,7 +169,7 @@ Workfront中的Scrum和Kanban敏捷方法有以下差異：
 
 在此變更之前，您可以將檢視套用至敏捷待辦專案。
 
-如需詳細資訊，請參閱  [管理Agile待處理專案](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)於  [管理敏捷待處理專案](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)。
+如需詳細資訊，請參閱[管理敏捷待處理專案](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)中的[管理敏捷待處理專案](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)。
 
 ## 更新和電子郵件的RTF格式 {#rich-text-formatting-for-updates-and-emails}
 
@@ -207,7 +213,7 @@ Workfront中的Scrum和Kanban敏捷方法有以下差異：
 
 ## 檔案增強功能：精簡的介面 {#document-enhancements-streamlined-interface}
 
-向Workfront新增檔案的使用者體驗現在更簡化且更直覺。 現在，您可以從檔案系統上傳檔案、請求檔案，或從協力廠商應用程式(例如Google或Dropbox)連結檔案，全都透過簡單的下拉式選單完成。 
+向Workfront新增檔案的使用者體驗現在更簡化且更直覺。現在，您可以從檔案系統上傳檔案、請求檔案，或從協力廠商應用程式（例如Google或Dropbox）連結檔案，全都透過簡單的下拉式選單完成。 
 
 以前，您可以透過啟動「新增檔案」對話方塊使用這些選項。 
 
@@ -290,7 +296,7 @@ HTML5檢視器現在支援靜態校樣。
 
 * 透過校訂縮圖導覽校訂
 
-   * 輕鬆識別正在稽核的校樣部分。 這點很重要，尤其是當使用者使用格式較大的校樣和較長的網頁，或在任何時候  需要更大的縮放等級才能檢視詳細資訊。
+   * 輕鬆識別正在稽核的校樣部分。 這很重要，尤其是當使用者使用格式較大的校樣和較長的網頁，或隨時需要較大的縮放等級以檢視詳細資訊時。
    * 變更縮放等級
    * 平移內容
 
@@ -448,10 +454,10 @@ HTML5檢視器尚未支援現有Flash檢視器目前提供的所有功能。 下
 
 ## Outlook 365改良 {#outlook-365-improvements}
 
-我們已對的Workfront增益集進行下列改進  Outlook 365：
+我們已對適用於Outlook 365的Workfront增益集進行下列改良：
 
-* 在Workfront中新增任務或問題至專案：您現在可以使用Outlook 365增益集將電子郵件轉換成Workfront中的任務或問題。 在此程式中，您可以指定要新增任務或問題的專案，以及受指派人和到期日。 在此增強功能之前，您只能提交要求至要求佇列，或從Outlook 365將個人工作新增至您的[處理中]清單。 
-* 在轉換為任務、問題或請求的原始電子郵件中保留Workfront物件的連結：當您從Outlook 365轉換電子郵件至任務、問題或請求時，Outlook 365會保留從原始電子郵件中轉換至任務或問題的連結。 在此變更之前，Outlook中不會指出電子郵件是否已轉換為任務或提交為請求。 
+* 在Workfront中新增任務或問題至專案：您現在可以使用Outlook 365增益集將電子郵件轉換成Workfront中的任務或問題。在此程式中，您可以指定要新增任務或問題的專案，以及受指派人和到期日。在此增強功能之前，您只能提交要求至要求佇列，或從Outlook 365將個人工作新增至您的[處理中]清單。 
+* 在轉換為任務、問題或請求的原始電子郵件中保留Workfront物件的連結：當您從Outlook 365轉換電子郵件至任務、問題或請求時，Outlook 365會保留從原始電子郵件中轉換至任務或問題的連結。在此變更之前，Outlook中不會指出電子郵件是否已轉換為任務或提交為請求。 
 
 ## API變更 {#api-changes}
 
@@ -470,7 +476,7 @@ Workfront API第8版現已可用，可為您的Workfront整合提供最新和更
 
 ### 更新活動訂閱的訊息格式
 
-為了提供您整合的更多實用資訊(包括Workfront事件訂閱API)，我們已包含與支援資源關聯的舊值和新值，以變更這些資源的傳出訊息格式。 為避免失敗，您使用Workfront事件訂閱API的任何整合都必須更新為新格式，如[事件訂閱API](../../../../wf-api/general/event-subs-api.md)所述。
+為了提供您整合的更多實用資訊（包括Workfront事件訂閱API），我們已包含與支援資源關聯的舊值和新值，以變更這些資源的傳出訊息格式。 為避免失敗，您使用Workfront事件訂閱API的任何整合都必須更新為新格式，如[事件訂閱API](../../../../wf-api/general/event-subs-api.md)所述。
 
 ### 無法傳遞訊息的事件訂閱重試 {#event-subscription-retries-for-undeliverable-messages}
 
