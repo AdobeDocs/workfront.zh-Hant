@@ -6,9 +6,13 @@ description: 您可以從Adobe Experience Manager Assets中取消連結或刪除
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: f082be12-2adc-4234-a01a-7543c032a35a
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+TQID: https://experienceleague.adobe.com/1AQ4PYnxsWtrNjptPfk9jPQ6wbKPSNvDqqOGfq0eNig
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: 256
 ht-degree: 0%
 
 ---
@@ -34,8 +38,8 @@ ht-degree: 0%
 
 當您從外部應用程式中刪除連結的檔案或資料夾時，該檔案或資料夾會保留在Workfront系統中，直到您也從Workfront中刪除它為止。
 
-* 若要從Adobe Experience Manager as a Cloud Service刪除資產，請參閱Adobe Experience Manager as a Cloud Service檔案中的[刪除資產](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#delete-assets)。
-* 若要從Adobe Experience Manager Assets Essentials刪除資產，請參閱Adobe Experience Manager Assets Essentials檔案中的[刪除資產或資料夾](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-assets-essentials/help/add-delete#delete-assets)。
+* 若要從Adobe Experience Manager as a Cloud Service刪除資產，請參閱Adobe Experience Manager as a Cloud Service檔案中的[刪除資產](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#delete-assets)。
+* 若要從Adobe Experience Manager Assets Essentials刪除資產，請參閱Adobe Experience Manager Assets Essentials檔案中的[刪除資產或資料夾](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/add-delete#delete-assets)。
 
 
 

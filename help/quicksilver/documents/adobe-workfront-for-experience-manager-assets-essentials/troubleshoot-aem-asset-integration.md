@@ -6,9 +6,14 @@ description: 問題： Assets未儲存至Adobe Experience Manager
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: f7e31e20-01e3-462d-9020-005e155f0259
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/VaiQnZXQe39sYlnJOblWoea9UwOaujEU3ME-jh7-0EI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: 247
 ht-degree: 0%
 
 ---
@@ -27,5 +32,5 @@ ht-degree: 0%
 
 將Workfront IP位址新增至Adobe Cloud Manager允許清單。
 
-* 如需將IP位址新增至Adobe Cloud Manager的說明，請參閱Adobe Experience Manager檔案中的[IP允許清單簡介](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/ip-allow-lists/introduction)。
+* 如需將IP位址新增至Adobe Cloud Manager的說明，請參閱Adobe Experience Manager檔案中的[IP允許清單簡介](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/ip-allow-lists/introduction)。
 * 如需新增至允許清單的Workfront IP位址清單，請參閱[設定防火牆](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。

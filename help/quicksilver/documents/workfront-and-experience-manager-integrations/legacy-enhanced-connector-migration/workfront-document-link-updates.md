@@ -6,9 +6,14 @@ description: 您可以使用API將連結的資料夾和檔案移轉至Adobe Expe
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 586ab0a8-52ee-4aba-9298-af5a304acb02
-source-git-commit: aad8f4648a57c93047a1a691d5e608c327d78c1b
+TQID: https://experienceleague.adobe.com/W2Y50cEqsMIxHpG5-8uwVtR4OKd4TfdCLET9oYpycSk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: 926
 ht-degree: 0%
 
 ---
@@ -45,7 +50,7 @@ ht-degree: 0%
 
 ## API資訊
 
-如需本節中Workfront API的詳細資訊，請參閱[開發人員檔案：檔案](https://developer.workfront.com/documents.html)。
+如需本節中Workfront API的詳細資訊，請參閱[開發人員檔案:Documents](https://developer.workfront.com/documents.html)。
 
 ### 尋找所有檔案
 
@@ -69,7 +74,7 @@ Http Method: GET
 Http Endpoint: {host}/attask/api/v14.0/documentFolder/search?fields=*,linkedFolder:*&linkedFolder:externalIntegrationType={providerType}
 ```
 
-API檔案： (developer.workfront.com目前未涵蓋的檔案資料夾端點)
+API檔案： （developer.workfront.com目前未涵蓋的檔案資料夾端點）
 
 ### 連結檔案
 
@@ -88,7 +93,7 @@ Http Body:
 refObjCode=DOCU&refObjID={documentId}&providerType={providerType}&documentProviderID={documentProviderID}
 ```
 
-API檔案： (developer.workfront.com目前未涵蓋的內部連結端點)
+API檔案： （developer.workfront.com目前未涵蓋的內部連結端點）
 
 ### 連結資料夾
 
@@ -112,7 +117,7 @@ Http Body:
 providerType={providerType}&documentProviderID={documentProviderID}&breadcrumb=[]&linkAction=LINKEXTERNAL&refObjCode={USER|PROJECT_TASK|TEMPLATE_TASK|securityRootObjectCode}&refObjID={userID|taskID|templateTaskID|securityRootId}&destFolderID={parentFolderId}
 ```
 
-API檔案： (developer.workfront.com目前未涵蓋的內部連結端點)
+API檔案： （developer.workfront.com目前未涵蓋的內部連結端點）
 
 ## 重要詞語
 
@@ -128,7 +133,7 @@ API檔案： (developer.workfront.com目前未涵蓋的內部連結端點)
 
 >[!IMPORTANT]
 >
-> 對於任何特定的檔案提供者型別，客戶可以有多個連線的執行個體。 舉例來說，他們可能連結了多個AEM存放庫。 或多個連結的Google Drive執行個體。 檔案提供者ID指示我們要取代或切換到的連線型別的特定執行個體。
+> 對於任何特定的檔案提供者型別，客戶可以有多個連線的執行個體。 舉例來說，他們可能會連結多個AEM存放庫。 或多個連結的Google Drive執行個體。 檔案提供者ID指示我們要取代或切換到的連線型別的特定執行個體。
 
 * **檔案儲存提供者型別（也稱為「外部整合型別」）**： Workfront支援的檔案儲存提供者整合型別。 透過專用整合或「自訂整合」。
 

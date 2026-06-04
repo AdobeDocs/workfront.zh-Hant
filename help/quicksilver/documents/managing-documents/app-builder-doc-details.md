@@ -8,9 +8,13 @@ feature: Work Management, Digital Content and Documents
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+TQID: https://experienceleague.adobe.com/1-ENH--c89-U-8b7vPhZyjolMwzAKLeQA9uxMGLB8U8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: 1453
 ht-degree: 0%
 
 ---
@@ -48,7 +52,7 @@ ht-degree: 0%
 
 1. 新增使用者的電子郵件。 它應該搜尋已從Admin Console中新增的現有使用者。
 
-1. 將必要的產品新增至開發人員設定檔，然後按一下[儲存]。**&#x200B;**
+1. 將必要的產品新增至開發人員設定檔，然後按一下[儲存]。****
 
 ![新增開發人員](assets/add-developer.png)
 
@@ -357,7 +361,7 @@ Adobe提供開放原始碼CLI，可用來協助建立App Builder應用程式。 
 
 1. 作為系統管理員，請瀏覽至[https://stage.exchange.adobe.com/](https://stage.exchange.adobe.com/)或[https://exchange.adobe.com/](https://exchange.adobe.com/)。
 
-1. 按一下&#x200B;**管理** > **Experience Cloud應用程式**。 您應該會看到已提交的應用程式，其中包含可核准/拒絕的選項。
+1. 按一下&#x200B;**管理** > **Experience Cloud應用程式**。您應該會看到已提交的應用程式，其中包含可核准/拒絕的選項。
 核准後，發佈的應用程式擴充功能應會自動載入您的Workfront環境。
 
    ![已核准的提交](assets/approve-submission.png)

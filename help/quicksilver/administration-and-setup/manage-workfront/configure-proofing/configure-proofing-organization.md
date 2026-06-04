@@ -8,10 +8,15 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 29405172-c3dd-431f-a242-fd38b53a307d
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+TQID: https://experienceleague.adobe.com/IgFtq0CPnrWvKEs8lLv-dhOHvWo4hJnDABDwkYTnpUk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1221'
-ht-degree: 0%
+source-wordcount: 1245
+ht-degree: 2%
 
 ---
 
@@ -19,9 +24,9 @@ ht-degree: 0%
 
 身為Adobe Workfront管理員或Workfront Proof管理員，您可以為貴組織自訂預設校訂設定。 這些設定包含預設共用選項、品牌化等。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 您必須具備下列條件：
 
@@ -72,7 +77,7 @@ ht-degree: 0%
 
    * 若要重新命名現有的動作，請按一下動作旁的&#x200B;**設定**。
 
-1. 輸入動作的名稱，然後按一下[儲存]。**&#x200B;**
+1. 輸入動作的名稱，然後按一下[儲存]。****
 1. 按一下&#x200B;**儲存。**
 
 ### 停用或重新啟用動作 {#deactivate-or-reactivate-an-action}
@@ -115,15 +120,15 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">姓名</td> 
+      <td role="rowheader">名稱</td> 
       <td>使用者在案頭校訂檢視器中選取裝置時看到的名稱，如<a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md" class="MCXref xref">變更校訂檢視器中的互動式校訂解析度</a>中所述。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">尺寸</td> 
+      <td role="rowheader">維度</td> 
       <td>指定要用於此裝置的尺寸。 使用者可以看到裝置名稱下方顯示的維度。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">比例</td> 
+      <td role="rowheader">比率</td> 
       <td>指定裝置的比例。</td> 
      </tr> 
      <tr> 
@@ -135,7 +140,7 @@ ht-degree: 0%
       <td>輸入裝置的使用者代理程式，以提供讓我們的軟體按照裝置設計執行及顯示的資訊。<p>您可以從裝置前往<a href="https://www.whatismybrowser.com/detect/what-is-my-user-agent">https://www.whatismybrowser.com/detect/what-is-my-user-agent</a>取得使用者代理程式。</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">已停用</td> 
+      <td role="rowheader">停用</td> 
       <td>如果選取此選項，使用者檢閱互動式校樣時，將無法選取裝置。</td> 
      </tr> 
     </tbody> 
@@ -157,7 +162,7 @@ ht-degree: 0%
 若要為校樣建立快顯訊息：
 
 1. 按一下您要自訂之訊息右側的&#x200B;**編輯**。
-1. 指定訊息並包含適當的格式，然後按一下[儲存]。**&#x200B;**
+1. 指定訊息並包含適當的格式，然後按一下[儲存]。****
 1. （選擇性）如果您自訂[載入時]訊息，而且您想要自訂確認按鈕標籤，請按一下&#x200B;**確認按鈕文字**&#x200B;右側的&#x200B;**編輯**，指定標籤，然後按一下&#x200B;**儲存**。
 
 ## 設定校訂預設值

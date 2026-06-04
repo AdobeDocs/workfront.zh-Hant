@@ -8,10 +8,15 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bc5987b-6e32-47df-90c8-08ea4b1b7451
-source-git-commit: 75fea812b4574191522af4721a013b57aa5d609f
+TQID: https://experienceleague.adobe.com/X8pRi3tIYP9R-ZGcSaIKpOn50-K44RNZryjjircaaSY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 0%
+source-wordcount: 849
+ht-degree: 3%
 
 ---
 
@@ -23,16 +28,16 @@ ht-degree: 0%
 
 本指南著重於設定ADFS而不使用自動布建或屬性對應。 建議您在設定任何自動布建之前，先完成設定並進行測試。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -78,11 +83,11 @@ ht-degree: 0%
 1. 用滑鼠右鍵按一下&#x200B;**信賴方信任**，然後選取&#x200B;**新增信賴方信任**&#x200B;以啟動[新增信賴方信任]精靈。
 1. 從&#x200B;**歡迎頁面**，選取&#x200B;**開始**。
 1. 在&#x200B;**選取日期Source**&#x200B;區段中，貼上Workfront的中繼資料URL。
-1. 按一下&#x200B;**下一步**。
+1. 按一下「**下一步**」。
 1. 按一下&#x200B;**確定**&#x200B;認可警告訊息。
 1. 在&#x200B;**指定顯示名稱**&#x200B;區段中，新增&#x200B;**顯示名稱**&#x200B;和&#x200B;**附註**&#x200B;以區分信任，然後按一下&#x200B;**下一步**。
 1. 選取&#x200B;**允許所有使用者存取此信賴方** （或若您稍後要設定，請選取&#x200B;**無**）。
-1. 按一下&#x200B;**下一步**。
+1. 按一下「**下一步**」。
 
    這會將您帶往&#x200B;**準備新增信任**&#x200B;區段。
 
@@ -129,7 +134,7 @@ ht-degree: 0%
    * 姓氏
    * 電子郵件地址
 
-1. 按一下[完成]&#x200B;**&#x200B;**，然後在下一個畫面中按一下[確定]&#x200B;**&#x200B;**。
+1. 按一下[完成]****，然後在下一個畫面中按一下[確定]****。
 1. 用滑鼠右鍵按一下新的&#x200B;**信賴方信任**，然後選取&#x200B;**內容**。
 1. 選取&#x200B;**進階索引標籤**。 在&#x200B;**安全雜湊演演算法**&#x200B;下，選取SHA-1或SHA-256。
 

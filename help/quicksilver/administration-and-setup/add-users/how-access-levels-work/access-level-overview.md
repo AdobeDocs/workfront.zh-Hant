@@ -10,10 +10,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
+TQID: https://experienceleague.adobe.com/AaN6iuEnPjrGEJPcfRxPvNWj1RuF9L6OlgSiXMBKSpc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1775'
-ht-degree: 6%
+source-wordcount: 1748
+ht-degree: 5%
 
 ---
 
@@ -308,8 +314,7 @@ Workfront有5個新的內建存取層級：
 >
 >從24.7版開始，貢獻者預設擁有計畫和投資組合的檢視存取權。
 >
-> 
->在24.7版本之前上線的貢獻者，依預設將繼續無法存取計畫和投資組合。 您可以視需要更新其存取權以手動檢視。
+> >在24.7版本之前上線的貢獻者依預設將繼續沒有計畫和投資組合的存取權。您可以視需要更新其存取權以手動檢視。
 
 ### 外部使用者存取層級
 

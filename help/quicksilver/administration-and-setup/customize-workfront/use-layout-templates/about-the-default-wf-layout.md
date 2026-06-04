@@ -9,10 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: 58a6b489ca5f1683a5c40c63bb4528b1f49e9324
+TQID: https://experienceleague.adobe.com/lmFoyQeyCQvMd3hupnNKvUY980rjY8b2n21NycCmtcw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 26%
+source-wordcount: 464
+ht-degree: 12%
 
 ---
 
@@ -24,7 +30,7 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->使用者可以編輯其使用者設定檔偏好設定，以變更自己的版面。 如需詳細資訊，請參閱[設定我的設定](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences)中的[偏好設定](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)區段。
+>使用者可以編輯其使用者設定檔偏好設定，以變更自己的版面。 如需詳細資訊，請參閱[設定我的設定](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)中的[偏好設定](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences)區段。
 
 ## 每種授權型別的預設主功能表專案
 

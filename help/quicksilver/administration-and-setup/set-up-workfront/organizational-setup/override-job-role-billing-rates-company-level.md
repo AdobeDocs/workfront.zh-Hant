@@ -8,9 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ee60987e-78b5-4853-9a4f-e44aa7a81c05
-source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
+TQID: https://experienceleague.adobe.com/EbnybXqWehstH2ziLqNZfMHtarMvUiugvWioYv9wLds
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: 445
 ht-degree: 3%
 
 ---
@@ -35,8 +40,8 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p>
-       <p>[!UICONTROL 計畫]</p></td>
+   <td><p>[！UICONTROL標準]</p>
+       <p>[！UICONTROL計畫]</p></td>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
@@ -65,7 +70,7 @@ ht-degree: 3%
 
    ![新收費率對話方塊](assets/date-effective-billing-rates-for-company.png)
 
-1. 在&#x200B;[!DNL **收費率1**]&#x200B;欄位中，輸入收費率。 然後，按一下[儲存]&#x200B;[!UICONTROL **一次覆寫收費率。**]
+1. 在&#x200B;[!DNL **收費率1**]&#x200B;欄位中，輸入收費率。 然後，按一下[儲存][!UICONTROL **一次覆寫收費率。**]
 
    或
 
@@ -73,7 +78,7 @@ ht-degree: 3%
 
 1. （視條件而定）如果您要新增多個收費率，請輸入下列資訊：
 
-   * **[!UICONTROL 記帳費率1]、2等**：時間期間的收費率值。
+   * **[!UICONTROL 記帳費率1]、2等。**：時間週期的記帳費率值。
    * **[!UICONTROL 開始日期]**：費率生效的日期。
    * **[!UICONTROL 結束日期]**：費率結束的日期。
 

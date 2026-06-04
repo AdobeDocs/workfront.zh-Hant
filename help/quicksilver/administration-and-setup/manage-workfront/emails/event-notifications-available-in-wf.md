@@ -8,11 +8,17 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/iWtyeGsk7xGf1Z9KE7Q2GrAbyCREAJYHZVT8GUboMW0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '5237'
+source-wordcount: 5242
 ht-degree: 7%
 
 ---
@@ -300,7 +306,7 @@ ht-degree: 7%
    <td> <p>文件</p> </td> 
    <td> <p>在檔案上評論</p> </td> 
    <td> <p>文件所有者</p> </td> 
-   <td> <p>註解已新增至我的檔案。</p> <p>在檔案上張貼評論時，Workfront中檔案的擁有者會收到電子郵件通知，除非張貼評論的使用者也是檔案擁有者。</p> <p>直接包含在評論中的任何使用者都會收到電子郵件通知。</p> <p>只有在專案狀態為「目前」時，才會傳送通知。 </p> <p>即時通知電子郵件的主旨為： &lt;專案名稱&gt;上&lt;請求名稱&gt;的<em>註解（ref# &lt;請求參考編號&gt;）</em></p> <p> 每日摘要通知的主題為：<em>通訊摘要&lt;每日摘要日期&gt;</em></p> </td> 
+   <td> <p>註解已新增至我的檔案。</p> <p>在檔案上張貼評論時，Workfront中檔案的擁有者會收到電子郵件通知，除非張貼評論的使用者也是檔案擁有者。</p> <p>直接包含在評論中的任何使用者都會收到電子郵件通知。</p> <p>只有在專案狀態為「目前」時，才會傳送通知。 </p> <p>即時通知電子郵件的主旨為： &lt;專案名稱&gt; （ref# &lt;請求參考編號&gt;）</em>上&lt;請求名稱&gt;的<em>註解</p> <p> 每日摘要通知的主旨為：<em>通訊摘要&lt;每日摘要日期&gt;</em></p> </td> 
    <td> <p>作用中</p> </td> 
   </tr> 
   <tr> 
@@ -913,7 +919,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td> 專案<br>任務<br>問題</td> 
-   <td>新的更新</td> 
+   <td>新更新</td> 
    <td>訂閱者 </td> 
    <td> <p class="p1"><span class="s1 wysiwyg-font-size-medium">向我訂閱的任務、問題或專案進行更新時，會傳送電子郵件。</span> </p> </td> 
    <td>使用中（僅即時）</td> 

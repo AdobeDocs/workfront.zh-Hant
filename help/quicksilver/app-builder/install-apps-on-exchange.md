@@ -4,9 +4,14 @@ description: 客戶和合作夥伴可以利用由 Adobe App Builder 提供技術
 author: Courtney
 feature: Digital Content and Documents
 exl-id: acbbd926-ca8f-4374-b1b3-297292b173bc
-source-git-commit: 92d4cd209a4e40f80420a3aebb116077cd2141a8
+TQID: https://experienceleague.adobe.com/Z48mL2K8rZ6YkPNAvfc3bnGNqjwpttBdwIgMECGzuxg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: 1301
 ht-degree: 1%
 
 ---
@@ -15,7 +20,7 @@ ht-degree: 1%
 
 您現在可以直接從Adobe Exchange安裝合作夥伴為Workfront建置的應用程式。 這項功能可讓客戶連結至不斷成長的Adobe合作夥伴生態系統，這些合作夥伴提供專門建置的工具，可改善生產力、簡化營運並延伸Workfront功能。 透過Adobe Exchange，客戶可以使用UI擴充功能，探索及安裝順暢整合至Workfront的應用程式。
 
-Adobe Exchange是跨Adobe Experience Cloud (包括Adobe Workfront)的協力廠商應用程式、擴充功能和整合的中央交易市場。 對於Workfront客戶而言，這是探索和安裝應用程式的首選目的地，這些應用程式可增強功能、簡化工作流程，並與外部系統整合。
+Adobe Exchange是跨Adobe Experience Cloud （包括Adobe Workfront）的協力廠商應用程式、擴充功能和整合的中央交易市場。 對於Workfront客戶而言，這是探索和安裝應用程式的首選目的地，這些應用程式可增強功能、簡化工作流程，並與外部系統整合。
 
 ## Adobe合作夥伴應用程式
 

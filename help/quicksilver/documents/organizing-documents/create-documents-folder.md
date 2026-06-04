@@ -6,11 +6,16 @@ description: 檔案可整理到資料夾中。 您可以在個人的「檔案」
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+TQID: https://experienceleague.adobe.com/L473t3JSVgXHJ-RQXLXkBxQdzh9TbBwXM42DeiiCR7s
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: 811
 ht-degree: 2%
 
 ---
@@ -85,7 +90,7 @@ ht-degree: 2%
 
    或
 
-   若要建立子資料夾，請選取您要建立子資料夾的資料夾，然後按一下[新增&#x200B;**] > [資料夾**]。**&#x200B;**
+   若要建立子資料夾，請選取您要建立子資料夾的資料夾，然後按一下[新增&#x200B;**] > [資料夾**]。****
 
 ### 共用資料夾
 
@@ -108,7 +113,7 @@ ht-degree: 2%
 1. 前往包含檔案的專案、任務或問題，然後在左側面板中選取&#x200B;**檔案**。
 1. 按一下您要建立子資料夾的資料夾，然後按一下&#x200B;**新增資料夾** ![新增資料夾圖示](assets/add-folder-icon.png)圖示。
    ![新增子資料夾](assets/add-subfolder.png)
-1. 輸入子資料夾的名稱，然後按一下[建立]。**&#x200B;**
+1. 輸入子資料夾的名稱，然後按一下[建立]。****
 
 ### 重新命名資料夾
 

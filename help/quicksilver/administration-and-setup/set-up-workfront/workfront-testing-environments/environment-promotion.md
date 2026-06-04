@@ -9,11 +9,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/myYvAJThRVc2qzkWIiD9qGAsVl5kMoN9ZUM-nSZKvyo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d8302c96-f652-4d09-896b-19a70bab02a5id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2088'
+source-wordcount: 2109
 ht-degree: 3%
 
 ---
@@ -63,7 +68,7 @@ ht-degree: 3%
 
 「環境升級」功能的目的是提供與組態相關的物件從一個環境移動到另一個環境的功能。 不支援移動異動物件的功能（只有少數例外）。
 
-如需可升級物件及其包含的可升級子物件的清單，請參閱[在Workfront環境之間移動物件的概觀](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion)一文中的[環境升級的支援物件](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)。
+如需可升級物件及其包含的可升級子物件的清單，請參閱[在Workfront環境之間移動物件的概觀](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)一文中的[環境升級的支援物件](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion)。
 
 ## Authentication
 
@@ -275,7 +280,7 @@ _空白_
 }
 ```
 
-&lt;! — 檢查上面的「狀態」 — 是否新增？—>
+&lt;！ — 檢查上面的「狀態」 — 它是否已新增？—>
 
 ### 依ID取得套件
 
@@ -374,7 +379,7 @@ _空白_
 1. 說明（字串）
 1. 狀態（含值驗證的字串）
 
-如需可用狀態的詳細說明，請參閱文章[在Workfront環境之間移動物件的概觀](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses)中的[環境推進狀態](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)。
+如需可用狀態的詳細說明，請參閱文章[在Workfront環境之間移動物件的概觀](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)中的[環境推進狀態](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses)。
 
 
 #### URL
@@ -525,11 +530,11 @@ Deleted
  <tbody> 
   <tr> 
    <td>建立</td> 
-   <td><p>在目標環境中找不到對應的記錄時，動作會設為CREATE。</p><p>當這個動作設定於提供給<code>translationmap</code>端點的<code>/install</code>中時，安裝服務將會建立記錄。</p></td> 
+   <td><p>在目標環境中找不到對應的記錄時，動作會設為CREATE。</p><p>當這個動作設定於提供給<code>/install</code>端點的<code>translationmap</code>中時，安裝服務將會建立記錄。</p></td> 
   </tr> 
   <tr> 
    <td>USEEXISTING</td> 
-   <td><p>在目標環境中找到對應的記錄時，動作會設為USEEXISTING，而且也會在<code>targetId</code>中擷取<code>translationmap</code>。</p><p>當這個動作設定於提供給<code>translationmap</code>端點的<code>/install</code>中時，安裝服務將不會建立記錄。 但是，它會使用對應專案中包含的<code>targetId</code>來尋找其他可能參考此記錄的物件。</p><p>例如，在部署套件的目標環境中可能會找到「預設群組」。 不可能有兩個「預設群組」記錄，所以安裝服務將在任何其他物件建立動作中使用現有群組的GUID，這些動作包括對「預設群組」的參照，例如專案、表單或與此群組相關的任何其他實體。</p><p><b>注意：</b> <ul><li><p>指派USEEXISTING動作時，不會修改目標環境中的現有記錄。 </p><p>例如，如果在建立套件的來源沙箱中「預設群組」的描述已變更，且描述值在目標環境中不同，則在使用此<code>translationmap</code>安裝後，值將維持不變。</li></ul></td> 
+   <td><p>在目標環境中找到對應的記錄時，動作會設為USEEXISTING，而且也會在<code>translationmap</code>中擷取<code>targetId</code>。</p><p>當這個動作設定於提供給<code>/install</code>端點的<code>translationmap</code>中時，安裝服務將不會建立記錄。 但是，它會使用對應專案中包含的<code>targetId</code>來尋找其他可能參考此記錄的物件。</p><p>例如，在部署套件的目標環境中可能會找到「預設群組」。 不可能有兩個「預設群組」記錄，所以安裝服務將在任何其他物件建立動作中使用現有群組的GUID，這些動作包括對「預設群組」的參照，例如專案、表單或與此群組相關的任何其他實體。</p><p><b>注意：</b> <ul><li><p>指派USEEXISTING動作時，不會修改目標環境中的現有記錄。 </p><p>例如，如果在建立套件的來源沙箱中「預設群組」的描述已變更，且描述值在目標環境中不同，則在使用此<code>translationmap</code>安裝後，值將維持不變。</li></ul></td> 
   </tr> 
   <tr> 
    <td>覆寫</td> 

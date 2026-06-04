@@ -8,16 +8,21 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 3463e4cb-7336-49b7-b81a-c2acef72f61d
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/WmHq8Aycq-cMfOt6ZnLF0MpNbtLPM5NhVylrsw9hHKE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: 286
 ht-degree: 0%
 
 ---
 
 # 鎖定和未鎖定的群組狀態
 
-鎖定群組的自訂狀態是確保群組及其子群組中的人員在其工作流程中使用相同處理序的方法。 鎖定群組狀態時，該群組和較低群組中的所有使用者都可使用該群組。 雖然您(或Workfront管理員)可以編輯或刪除您鎖定的狀態，但下列子群組的管理員無法編輯或刪除這些群組；他們只能變更其在「狀態」清單中的顯示順序。
+鎖定群組的自訂狀態是確保群組及其子群組中的人員在其工作流程中使用相同處理序的方法。 鎖定群組狀態時，該群組和較低群組中的所有使用者都可使用該群組。 雖然您（或Workfront管理員）可以編輯或刪除您鎖定的狀態，但下列子群組的管理員無法編輯或刪除這些群組；他們只能變更其在「狀態」清單中的顯示順序。
 
 相反地，解鎖群組的自訂狀態會讓較低層子群組的管理員擁有更大的彈性，可管理其群組中所使用的獨特工作流程。 解鎖群組狀態時，較低子群組的管理員可以變更其屬性，或刪除這些子群組的屬性。
 

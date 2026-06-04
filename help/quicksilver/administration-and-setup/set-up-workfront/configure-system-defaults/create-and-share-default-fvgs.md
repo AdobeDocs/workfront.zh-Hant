@@ -8,10 +8,15 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
-source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
+TQID: https://experienceleague.adobe.com/bgBICul4K2MFbMipuKZxp6i2vncdpV7RpFYtUyTFY7w
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 0%
+source-wordcount: 814
+ht-degree: 2%
 
 ---
 
@@ -29,9 +34,9 @@ ht-degree: 0%
 
 請注意，您建立的全系統篩選器、檢視和群組與Adobe Workfront自動為您在系統中建立的預設篩選器、檢視和群組不同。 無法編輯或刪除這些預設的篩選器、檢視和群組。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,12 +48,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p>
-       <p>[!UICONTROL 計畫]</p></td>
+   <td><p>[！UICONTROL標準]</p>
+       <p>[！UICONTROL計畫]</p></td>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td> 
+   <td>[！UICONTROL系統管理員]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -75,7 +80,7 @@ ht-degree: 0%
    如需可用選項的相關資訊，請參閱下列文章之一：
 
    * [篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-   * 在[Adobe Workfront[!UICONTROL 中的]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)檢視總覽
+   * 在[!UICONTROL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)中的[檢視總覽
    * [[!UICONTROL Adobe Workfront]中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
 1. 按一下左下角附近的&#x200B;**[!UICONTROL 儲存]**。
@@ -100,7 +105,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL 介面]**，然後按一下下列其中一個專案： **[!UICONTROL 篩選器]**、**[!UICONTROL 檢視]**&#x200B;或&#x200B;**[!UICONTROL 群組]**。
 
-1. （視條件而定）選取您要讓使用者使用的篩選、檢視或群組，然後按一下[啟用系統範圍] **&#x200B;**。
+1. （視條件而定）選取您要讓使用者使用的篩選、檢視或群組，然後按一下[啟用系統範圍] ****。
 
    ![](assets/enable-system-wide-fvg.png)
 
@@ -129,7 +134,7 @@ ht-degree: 0%
 
    ![微調許可權](assets/fine-tune-permissions.png)
 
-1. 按一下「**[!UICONTROL 儲存]**」。您指定的使用者現在可以在檢視與其關聯的物件型別時，與篩選、檢視或群組互動。
+1. 按一下「**[!UICONTROL 儲存]**」。 您指定的使用者現在可以在檢視與其關聯的物件型別時，與篩選、檢視或群組互動。
 
 
 ## 刪除篩選器、檢視和群組

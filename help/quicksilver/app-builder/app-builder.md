@@ -4,16 +4,22 @@ description: 客戶和合作夥伴可以利用由 Adobe App Builder 提供技術
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+TQID: https://experienceleague.adobe.com/k2cF0H-CM1DhlRvIl7zPyz-G30wi-Q4c16ClcB-vpCs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2269'
-ht-degree: 0%
+source-wordcount: 2329
+ht-degree: 1%
 
 ---
 
 # 使用Adobe App Builder為Workfront建立自訂應用程式
 
-由Adobe App Builder支援的Workfront UI擴充功能可讓客戶和合作夥伴建立自訂的使用者體驗。 這些工具可提升效率、提供順暢、連線的體驗，並大幅提升使用者滿意度，協助企業實現其獨特願景。
+客戶和合作夥伴可以利用由 Adobe App Builder 提供技術支援的 Workfront UI 擴充功能，建立自訂使用者體驗。 這些工具可提升效率、提供順暢、連線的體驗，並大幅提升使用者滿意度，協助企業實現其獨特願景。
 
 例如，如果沒有Workfront UI擴充功能，專案經理可能需要在Workfront和單獨的時間追蹤系統之間切換以記錄時數。 有了UI擴充功能，可直接將時間追蹤整合到Workfront體驗中，藉此簡化工作流程並節省時間。 此外，您可以新增自訂元件，以提升可用性、自動化重複工作，並透過如中繼資料標籤和內容預覽等功能，增強內容管理。 Adobe App Builder也提供擴充能力及強大的身分管理(IMS)，確保安全且有效率的自訂，規模不限。
 
@@ -62,7 +68,7 @@ Workfront UI擴充功能提供幾個主要優點：
    >如果您看不到管理開發人員的選項，表示您沒有允許開發人員存取的產品。
 
 1. 新增使用者的電子郵件。 它應搜尋已從Admin Console中新增的現有使用者。
-1. 將必要的產品新增至開發人員設定檔，然後按一下[儲存]。**&#x200B;**
+1. 將必要的產品新增至開發人員設定檔，然後按一下[儲存]。****
 
    ![新增開發人員](assets/add-developer.png)
 
@@ -80,7 +86,7 @@ Workfront UI擴充功能提供幾個主要優點：
 
 1. 使用您的Adobe ID登入Adobe Developer Console 。
 1. 選擇您的帳戶，以及您的設定檔或組織。
-1. 按一下[快速入門]區域中的[從範本建立專案]&#x200B;**&#x200B;**，或按一下[從範本建立新專案]&#x200B;**>[從範本建立專案]**。
+1. 按一下[快速入門]區域中的[從範本建立專案]****，或按一下[從範本建立新專案]**>[從範本建立專案]**。
 
    >[!IMPORTANT]
    >
@@ -229,7 +235,7 @@ Widget是模組化UI元件，可作為表單欄位新增到Workfront自訂表單
 
 #### 設定Widget擴充功能
 
-如同主要功能表和次要導覽的UI擴充點一樣，「Widget」擴充點通常會在`ExtensionRegistration`欄位的`ExtensionRegistration.js`元件的methods物件中設定。 這表示使用表單Widget只需要在app.js中以有效路徑在`extesionregistration`中新增「Widget」專案：
+如同主要功能表和次要導覽的UI擴充點一樣，「Widget」擴充點通常會在`ExtensionRegistration.js`欄位的`ExtensionRegistration`元件的methods物件中設定。 這表示使用表單Widget只需要在app.js中以有效路徑在`extesionregistration`中新增「Widget」專案：
 
 ```
 javascript 

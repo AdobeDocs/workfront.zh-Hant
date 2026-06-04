@@ -9,10 +9,16 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/KA-GLrly19ARLvWCK240Qm505qfO0U2rSWir-r2pp7k
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1292'
-ht-degree: 0%
+source-wordcount: 1302
+ht-degree: 1%
 
 ---
 
@@ -28,16 +34,16 @@ Though this might not seem that helpful because it is more of a catalog/TOC, it'
 >
 >當您被指派為群組的管理員時，您將繼承其下任何子群組的群組管理員角色。 唯一可以管理子群組的使用者是上方最上層群組的群組管理員，以及任何指派給子群組的群組管理員。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -90,7 +96,7 @@ Add this at end of 2nd-to-last sentence in this^ paragraph when they add the **I
 
    * **編輯**： [檢視和管理群組的詳細資料](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
 
-   * **複製**： [複製發行項](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group)建立群組[中的現有群組或子群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)，以建立最上層群組
+   * **複製**： [複製發行項[建立群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)中的現有群組或子群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group)，以建立最上層群組
 
    * **刪除**： [刪除群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
 
@@ -110,7 +116,7 @@ Add this at end of 2nd-to-last sentence in this^ paragraph when they add the **I
 
 ## 建立及自訂群組的狀態
 
-作為群組管理員，您可以為您管理的最上層群組建立自訂狀態。 這賦予您的群組自主權，並有助於消除數十種全公司自訂狀態的需求。 (Workfront管理員也可以為任何群組執行此動作。)
+作為群組管理員，您可以為您管理的最上層群組建立自訂狀態。 這賦予您的群組自主權，並有助於消除數十種全公司自訂狀態的需求。 （Workfront管理員也可以為任何群組執行此動作。）
 
 如果Workfront管理員將頂層群組的系統狀態設定為允許自訂，您也可以自訂這些系統狀態。
 

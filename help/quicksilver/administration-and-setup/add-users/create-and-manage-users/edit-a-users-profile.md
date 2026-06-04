@@ -8,10 +8,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 579b550fef222922de1ed5fe2c9928a92b3fb7f2
+TQID: https://experienceleague.adobe.com/BK1OTfwr8q8XTrCeQh50s-wXtnCKzv2Bbn-PzDes4hc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3425'
-ht-degree: 0%
+source-wordcount: 3451
+ht-degree: 1%
 
 ---
 
@@ -43,7 +49,7 @@ ht-degree: 0%
    <td> <p>您必須具備下列其中一項：</p> 
     <ul> 
      <li> <p>系統管理員存取層級。 </li> 
-     <li> <p>您的存取層級中的<b>使用者</b>設定已設定為<b>編輯</b>存取權，其中<b>建立</b>以及在<b>微調您的設定</b> <b>下啟用的兩個</b>使用者管理員<img src="assets/gear-icon-in-access-levels.png">選項中的至少一個。 </p> <p>在這兩個選項中，如果已啟用<b>使用者管理員（群組使用者）</b>，您必須是使用者所屬群組的群組管理員。</p> </li> 
+     <li> <p>您的存取層級中的<b>使用者</b>設定已設定為<b>編輯</b>存取權，其中<b>建立</b>以及在<b>微調您的設定</b> <img src="assets/gear-icon-in-access-levels.png">下啟用的兩個<b>使用者管理員</b>選項中的至少一個。 </p> <p>在這兩個選項中，如果已啟用<b>使用者管理員（群組使用者）</b>，您必須是使用者所屬群組的群組管理員。</p> </li> 
     </ul>
     <p>若要編輯使用者的計費和成本費率，您也必須啟用「編輯計費費率」和「編輯成本費率」微調選項。</p> </td> 
   </tr> 
@@ -94,7 +100,7 @@ ht-degree: 0%
   您無法重設Workfront管理員的密碼。
 
 * **&lt;SSO設定>使用者名稱**：如果您的Workfront管理員已啟用Workfront的SSO整合，則SSO使用者名稱會顯示在此欄位中。 此欄位會顯示為您的Workfront執行個體啟用的SSO設定型別。
-* **OnlyAllow &lt;SSO設定>驗證**：如果您的Workfront管理員已啟用與Workfront的SSO整合，並已更新所有SSO使用者，則預設會選取此欄位。 此欄位會顯示為您的Workfront執行個體啟用的SSO設定型別。
+* **OnlyAllow &lt;SSO Configuration>驗證**：如果您的Workfront管理員已啟用Workfront的SSO整合，並已更新所有SSO使用者，則預設會選取此欄位。 此欄位會顯示為您的Workfront執行個體啟用的SSO設定型別。
 
   選取此欄位時，使用者必須使用其SSO憑證登入Workfront。 取消核取此專案將允許他們使用其Workfront憑證登入Workfront。
 
@@ -108,12 +114,12 @@ ht-degree: 0%
   >
   >如果您是群組管理員，且您的存取層級中已啟用「使用者管理員（所有使用者）」許可權，您可以編輯所有使用者的&lt;SSO設定>欄位。
 
-* **設定檔像片**：按一下&#x200B;**上傳新像片**&#x200B;以載入使用者的設定檔像片。 您可以上傳JPG、GIF或PNG檔案。 檔案大小限製為4 MB。
+* **設定檔像片**：按一下&#x200B;**上傳新像片**&#x200B;以載入使用者的設定檔像片。 您可以上載 JPG、GIF 或 PNG 檔案。 檔案大小限製為4 MB。
 
   個人資料圖片會成為使用者的頭像，且無論使用者名稱在何處顯示，都可在整個Workfront系統中看到。
 
 * **工作資訊**：工作的相關資訊，例如工作職稱（在&#x200B;**職稱**&#x200B;欄位中），以及使用者所負責的專業領域（在&#x200B;**與我談關於**&#x200B;欄位中）。
-* **連絡資訊**：使用者的電話號碼(**電話號碼**，**分機。**&#x200B;和&#x200B;**手機號碼**&#x200B;欄位)和地址（在&#x200B;**地址**、**城市**、**州**、**郵遞區號**&#x200B;和&#x200B;**國家**&#x200B;欄位中）。
+* **聯絡資訊**：使用者的電話號碼（在&#x200B;**電話號碼**、**分機**&#x200B;及&#x200B;**手機號碼**&#x200B;欄位中）和地址（在&#x200B;**地址**、**城市**、**州**、**郵遞區號**&#x200B;及&#x200B;**國家**&#x200B;欄位中）。
 
   連絡人資訊區段中的&#x200B;**國家**&#x200B;欄位只接受國家/地區代碼值（例如，US、GB、IN）。
 
@@ -127,7 +133,7 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >當您的組織使用Adobe統一體驗時，使用者的語言偏好設定會儲存在其Adobe設定檔中，而不使用電子郵件地區設定。 如需有關存取這些偏好設定的資訊，請參閱[Workfront的Adobe Unified Experience &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+  >當您的組織使用Adobe統一體驗時，使用者的語言偏好設定會儲存在其Adobe設定檔中，而不使用電子郵件地區設定。 如需有關存取這些偏好設定的資訊，請參閱[Workfront的Adobe Unified Experience ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 * **接收來自此測試環境的電子郵件**：如果您要接收來自目前登入之環境的電子郵件通知，請核取此選項。
 
@@ -227,7 +233,7 @@ ht-degree: 0%
   >將「工作時間」值設為1，表示使用者可用於專案相關工作的整個全職同等工作。
 
 * **設定停用日期**：如果您要排程此使用者在特定日期與特定時間停用，請按一下此按鈕。
-* **停用日期**：停用使用者的日期和時間。 如需排程使用者停用的相關資訊，請參閱[停用或重新啟用使用者](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation)中的[排程使用者停用](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)。
+* **停用日期**：停用使用者的日期和時間。 如需排程使用者停用的相關資訊，請參閱[停用或重新啟用使用者](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)中的[排程使用者停用](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation)。
 * **主要角色**：這是使用者可以在Workfront中完成的主要工作角色。 指派給使用者的每個任務和問題也會指派給此工作角色。 職務角色在資源管理中至關重要。 只有在您擁有具有管理使用者存取許可權的「標準」或「計畫」授權，或者您是Workfront管理員時，才能更新此欄位。 如需有關設定具有管理使用者存取許可權的使用者的詳細資訊，請參閱[授予使用者存取許可權](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)。
 
   清單中只會顯示作用中的職位角色。
@@ -305,7 +311,7 @@ ht-degree: 0%
 * **資源集區**：將使用者與資源集區建立關聯。 如需詳細資訊，請參閱[將資源集區與使用者關聯](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)。
 * **成本費率**：使用者每小時的成本金額。
 
-  若要取得日期有效成本費率，請按一下[新增費率]。**&#x200B;** 輸入時間期間的成本費率值，並視需要指定「開始日期」與「結束日期」。 成本費率1不會有開始日期，而最後的成本費率不會有結束日期。
+  若要取得日期有效成本費率，請按一下[新增費率]。**** 輸入時間期間的成本費率值，並視需要指定「開始日期」與「結束日期」。 成本費率1不會有開始日期，而最後的成本費率不會有結束日期。
 
   <!--Some dates are added automatically. For example, if Cost Rate 1 does not have an end date, and you add Cost Rate 2 with a start date of May 1, 2023, an end date of April 30, 2023 is added to Cost Rate 1 so that no gaps exist.-->
 
@@ -315,7 +321,7 @@ ht-degree: 0%
 
 * **收費率**：使用者每小時的收費金額。
 
-  若要取得日期有效收費率，請按一下[新增費率]。**&#x200B;** 輸入時間期間的帳單費率值，並視需要指定「開始日期」與「結束日期」。 帳單費率1不會有開始日期，而最後的帳單費率不會有結束日期。
+  若要取得日期有效收費率，請按一下[新增費率]。**** 輸入時間期間的帳單費率值，並視需要指定「開始日期」與「結束日期」。 帳單費率1不會有開始日期，而最後的帳單費率不會有結束日期。
 
   <!--Some dates are added automatically. For example, if Billing Rate 1 does not have an end date, and you add a second with a start date of May 1, 2023, an end date of April 30, 2023 is added to Billing Rate 1 so that no gaps exist.-->
 

@@ -8,12 +8,17 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Courtney, Becky
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: eb5296348c27f806dd50b997970166ebae4c97f4
+TQID: https://experienceleague.adobe.com/e2uZM6ICiPOrupfHh0rQHmh--rDWxjwpend11THYdh4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 14%
+source-wordcount: 270
+ht-degree: 13%
 
 ---
 
@@ -63,7 +68,7 @@ ht-degree: 14%
 
 開始之前，您必須
 
-* 在[!DNL Workfront]中新增並啟動[!DNL JumpSeat]作為應用程式。 如需詳細資訊，請參閱[如何新增或刪除應用程式](https://support.jumpseat.io/article/how-to-add-an-application/)。
+* 在[!DNL JumpSeat]中新增並啟動[!DNL Workfront]作為應用程式。 如需詳細資訊，請參閱[如何新增或刪除應用程式](https://support.jumpseat.io/article/how-to-add-an-application/)。
 
 >[!IMPORTANT]
 >
@@ -77,7 +82,7 @@ ht-degree: 14%
 
 >[!TIP]
 >
->您需要在[!DNL Workfront]中新增並啟用兩個不同的[!DNL JumpSeat]應用程式 — 一個用於預覽，一個用於生產。 如需詳細資訊，請參閱[如何新增或刪除應用程式](https://support.jumpseat.io/article/how-to-add-an-application/)。
+>您需要在[!DNL JumpSeat]中新增並啟用兩個不同的[!DNL Workfront]應用程式 — 一個用於預覽，一個用於生產。 如需詳細資訊，請參閱[如何新增或刪除應用程式](https://support.jumpseat.io/article/how-to-add-an-application/)。
 
 若要設定[!DNL JumpSeat]整合：
 
@@ -92,11 +97,11 @@ ht-degree: 14%
 
 https://{mycompanyname}.jumpseat.io
 
-&#x200B;>>
+>>
 
 >[!ENDSHADEBOX]
 
-1. 輸入&#x200B;**[!UICONTROL [!DNL JumpSeat]整合權杖]**。 您可以在&#x200B;**[!UICONTROL 的]**&#x200B;組態[!DNL JumpSeat]頁面上找到此專案。
+1. 輸入&#x200B;**[!UICONTROL [!DNL JumpSeat]整合權杖]**。 您可以在[!DNL JumpSeat]的&#x200B;**[!UICONTROL 組態]**&#x200B;頁面上找到此專案。
 
    **範例：** $2y$10$BevsKeQ8....OYR.LurSg2U64O
 
@@ -113,4 +118,4 @@ https://{mycompanyname}.jumpseat.io
 
 >[!TIP]
 >
->如需設定[!DNL JumpSeat]整合的詳細資訊，請參閱[!DNL JumpSeat]JumpSeat+Workfront[的](https://jumpseat.io/landing-page/jumpseat-workfront/)檔案。
+>如需設定[!DNL JumpSeat]整合的詳細資訊，請參閱[JumpSeat+Workfront](https://jumpseat.io/landing-page/jumpseat-workfront/)的[!DNL JumpSeat]檔案。

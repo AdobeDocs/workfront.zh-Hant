@@ -9,9 +9,14 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a4280498-6719-4911-a69a-b715a5438eed
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/lVTPu5Nz5FqEPEh-S3LnT9cGIQnV6v9WN6yBcPgCvzs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: 642
 ht-degree: 0%
 
 ---
@@ -54,7 +59,7 @@ ht-degree: 0%
 Group Admins of a subgroup can't manage statuses or project preferences of the subgroup YET (Sprint 22/Oct 28, 2020)</p>
 -->
 
-建立或編輯子群組時，您可以將子群組成員指派為子群組的群組管理員。 如需指示，請參閱文章[&#128279;](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create)建立群組[中的](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)。
+建立或編輯子群組時，您可以將子群組成員指派為子群組的群組管理員。 如需指示，請參閱文章[建立群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)中的[](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create)。
 
 或者，您也可以將子群組的管理權交給群組管理員，由他們指定給該子群組之上的群組。 建立子群組時，上方群組的群組管理員擁有管理子群組的自動存取權。
 

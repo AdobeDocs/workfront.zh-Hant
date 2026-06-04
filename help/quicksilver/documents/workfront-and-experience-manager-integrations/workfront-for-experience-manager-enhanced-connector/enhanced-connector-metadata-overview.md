@@ -2,25 +2,30 @@
 content-type: overview
 product-area: documents;workfront-integrations
 navigation-topic: workfront-for-experience-manager-enhanced-connector
-title: Workfront for Experience Manager增強型聯結器中繼資料概覽
-description: 適用於Experience Manager增強型聯結器的Workfront可自動擷取從創意到傳遞的中繼資料。 提升資產存放庫內的可搜尋性，以提高您的內容速度。 使用者可透過搜尋專案標題、參考編號、日期或任何其他關聯的中繼資料屬性，輕鬆找到與特定Workfront專案關聯的所有資產。
+title: 適用於Experience Manager的Workfront增強型聯結器中繼資料概覽
+description: 適用於Experience Manager的Workfront增強型聯結器可自動擷取從創意到傳遞的中繼資料。 提升資產存放庫內的可搜尋性，以提高您的內容速度。 使用者可透過搜尋專案標題、參考編號、日期或任何其他關聯的中繼資料屬性，輕鬆找到與特定Workfront專案關聯的所有資產。
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 0b05e766-6b07-451a-9f43-7f1a980e1a9d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+TQID: https://experienceleague.adobe.com/IVhhrxU5f-M2mHGuCLkq4wxSqoI7qvKB3E3exfiU6xw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 5%
+source-wordcount: 221
+ht-degree: 7%
 
 ---
 
-# Workfront for Experience Manager增強型聯結器中繼資料概覽
+# 適用於Experience Manager的Workfront增強型聯結器中繼資料概覽
 
-適用於Experience Manager增強型聯結器的Workfront可自動擷取從創意到傳遞的中繼資料。 提升資產存放庫內的可搜尋性，以提高您的內容速度。 使用者可透過搜尋專案標題、參考編號、日期或任何其他關聯的中繼資料屬性，輕鬆找到與特定Workfront專案關聯的所有資產。
+適用於Experience Manager的Workfront增強型聯結器可自動擷取從創意到傳遞的中繼資料。 提升資產存放庫內的可搜尋性，以提高您的內容速度。 使用者可透過搜尋專案標題、參考編號、日期或任何其他關聯的中繼資料屬性，輕鬆找到與特定Workfront專案關聯的所有資產。
 
 ## 中繼資料最佳實務
 
-Workfront for Experience Manager增強型聯結器能夠對應所有自訂表單欄位。 以下清單列出要在Workfront中擷取的常見中繼資料欄位，並在傳送至Experience Manager Assets時附加至您的數位資產。
+適用於Experience Manager的Workfront增強型聯結器能夠對應所有自訂表單欄位。 以下清單列出要在Workfront中擷取的常見中繼資料欄位，並在傳送至Experience Manager Assets時附加至您的數位資產。
 
 * 專案詳細資料
 
@@ -42,7 +47,7 @@ Workfront for Experience Manager增強型聯結器能夠對應所有自訂表單
    * 任務名稱
    * 任務ID或參考號碼
    * 任務說明
-   * 受託人
+   * 被指派者
    * 記錄時數總計
 
 * 問題詳細資訊
@@ -50,4 +55,4 @@ Workfront for Experience Manager增強型聯結器能夠對應所有自訂表單
    * 問題名稱
    * 問題ID或參考號碼
    * 問題說明
-   * 受託人
+   * 被指派者

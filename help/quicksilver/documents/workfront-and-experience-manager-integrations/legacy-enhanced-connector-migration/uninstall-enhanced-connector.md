@@ -2,20 +2,24 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: 解除安裝Workfront for Adobe Experience Manager增強型聯結器
-description: 您必須解除安裝Workfront with Adobe Experience Manager增強型聯結器，以連線至連線Workfront和Adobe Experience Manager Assetsas a Cloud Service的最新原生整合。
+description: 您必須將Workfront with Adobe Experience Manager增強型聯結器解除安裝至連線Workfront和Adobe Experience Manager Assets as a Cloud Service的最新原生整合。
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: c6203c71-a4c4-41ee-ac4e-57137661e5b3
-source-git-commit: 9673009f12509b5e7051ee91e142d311f333f215
+TQID: https://experienceleague.adobe.com/CeCyF8zbwp4tVcxQebq0EdaJqagDyppVuCL6ilqEvJA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: 260
 ht-degree: 0%
 
 ---
 
 # 解除安裝具有Adobe Experience Manager增強型聯結器的Workfront
 
-您必須解除安裝Workfront with Adobe Experience Manager增強型聯結器，以連線至連線Workfront和Adobe Experience Manager Assetsas a Cloud Service的最新原生整合。
+您必須將Workfront with Adobe Experience Manager增強型聯結器解除安裝至連線Workfront和Adobe Experience Manager Assets as a Cloud Service的最新原生整合。
 
 ## 先決條件
 
@@ -86,7 +90,7 @@ ht-degree: 0%
    </repository>
    ```
 
-1. （條件式）從settings.xml移除伺服器組態，此組態出現在以下路徑中。/cloudmanager/maven/settings.xml在專案根目錄中。&#39;
+1. （條件式）從settings.xml （位於專案根目錄的下列路徑./cloudmanager/maven/settings.xml中）移除伺服器組態。
 
    ```
            <server>
@@ -104,4 +108,4 @@ ht-degree: 0%
 
 1. 提交變更，並將程式碼推送到Cloud Manager存放庫
 
-1. 執行Cloud Manager管道以在Cloud Service執行個體上部署變更
+1. 執行Cloud Manager管道以在您的雲端服務執行個體上部署變更

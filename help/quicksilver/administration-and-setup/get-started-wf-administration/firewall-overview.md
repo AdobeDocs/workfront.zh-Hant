@@ -9,9 +9,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
+TQID: https://experienceleague.adobe.com/m15T5ktaT8pxLn8ebahoeT8Tev72YtvzSVS-wDOq0UI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: 714
 ht-degree: 0%
 
 ---
@@ -23,7 +28,7 @@ ht-degree: 0%
 這是透過允許清單來完成，其實質為「允許」透過防火牆傳送或接收資料的網站「清單」。 您可以使用下列兩種方式之一來識別網站：
 
 * **IP位址**：一系列數字，例如52.31.132.175
-* **網域**： URL的一部分，例如`thisdomain`中的`www.thisdomain.com`。
+* **網域**： URL的一部分，例如`www.thisdomain.com`中的`thisdomain`。
 
 Workfront使用特定的IP位址和網域進行網頁通訊。 必須先將這些專案新增到貴組織的允許清單中，您才能在組織中使用Workfront。
 

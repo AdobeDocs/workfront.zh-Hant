@@ -3,21 +3,26 @@ user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: 鎖定或解除鎖定子群組的專案、任務或問題偏好設定
-description: 身為群組管理員，您可以設定專案、任務或問題偏好設定，然後加以鎖定(如果Workfront管理員在系統層級將其解除鎖定)。
+description: 身為群組管理員，您可以設定專案、任務或問題偏好設定，然後加以鎖定（如果Workfront管理員在系統層級將其解除鎖定）。
 author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 05c32b6f-52e1-46a7-9011-633713422f3d
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/g45ZXtLxw7yF6E0SdJRTlDz51-3dEg-0B8nOPG7zcXY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 0%
+source-wordcount: 571
+ht-degree: 3%
 
 ---
 
 # 鎖定或解除鎖定子群組的專案、任務或問題偏好設定
 
-身為群組管理員，您可以設定專案、任務或問題偏好設定，然後加以鎖定(如果Workfront管理員在系統層級將其解除鎖定)。
+身為群組管理員，您可以設定專案、任務或問題偏好設定，然後加以鎖定（如果Workfront管理員在系統層級將其解除鎖定）。
 
 鎖定已在層級設定的專案、任務或問題偏好設定，可確保群組及其子群組中的每個人都使用該偏好設定的相同設定。 雖然您仍然可以重新設定您為群組鎖定的喜好設定，但群組管理員無法為群組重新設定它。
 
@@ -42,16 +47,16 @@ ht-degree: 0%
 >
 >  如果移動時鎖定了已移動群組中的偏好設定，則該偏好設定會維持鎖定狀態，但群組管理員現在可以將其解鎖，因為已為父群組解除鎖定。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 

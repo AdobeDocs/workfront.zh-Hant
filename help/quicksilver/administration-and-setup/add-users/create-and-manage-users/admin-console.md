@@ -5,12 +5,17 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
+TQID: https://experienceleague.adobe.com/5g4EStBQBGan2lmo6KhpW-4OzCbNflC70yGd8qbNH4A
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 1%
+source-wordcount: 1559
+ht-degree: 2%
 
 ---
 
@@ -26,8 +31,8 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->* 必須在Adobe Admin Console中設定&#x200B;**Workfront管理員。**&#x200B;如需相關資訊與指示，請參閱本文中的[使用Adobe Admin Console在Workfront中建立系統管理員](#create-system-administrators-in-workfront-with-the-adobe-admin-console)。
->* **如果您的組織使用單一登入(SSO)**，建議您在Adobe Admin Console中建立使用者並將其指派給Workfront。 您可以在Workfront中建立這些使用者，但根據您組織的Admin Console設定方式，將該資訊傳輸至Adobe Admin Console時可能會發生問題。
+>* 必須在Adobe Admin Console中設定&#x200B;**Workfront管理員。** 如需相關資訊與指示，請參閱本文中的[使用Adobe Admin Console在Workfront中建立系統管理員](#create-system-administrators-in-workfront-with-the-adobe-admin-console)。
+>* **如果您的組織使用單一登入(SSO)**，建議您在Adobe Admin Console中建立使用者並將其指派給Workfront。您可以在Workfront中建立這些使用者，但根據您組織的Admin Console設定方式，將該資訊傳輸至Adobe Admin Console時可能會發生問題。
 >   在Adobe Admin Console中建立使用者後，您可以在Workfront中設定使用者的資訊，例如指派角色、群組、團隊和存取層級。
 >* **如果您的組織未使用單一登入(SSO)**，您可以直接在Workfront中新增非系統管理員使用者。 您可以在Adobe Admin Console中新增使用者，但若在Workfront中新增使用者，您可於建立使用者時設定其存取層級，藉此節省您的時間。
 
@@ -97,7 +102,7 @@ ht-degree: 1%
   >
   >請勿對產品設定檔本身進行任何變更。
 
-* Adobe Admin Console管理員可設定自動指派規則，以自動化將Adobe產品指派給組織內使用者的程式。 如需詳細資訊與指示，請參閱Adobe檔案中的[管理自動指派規則](https://helpx.adobe.com/tw/enterprise/using/automatic-assignment-rules.html)。
+* Adobe Admin Console管理員可設定自動指派規則，以自動化將Adobe產品指派給組織內使用者的程式。 如需詳細資訊與指示，請參閱Adobe檔案中的[管理自動指派規則](https://helpx.adobe.com/enterprise/using/automatic-assignment-rules.html)。
 
   >[!NOTE]
   >
@@ -213,11 +218,11 @@ ht-degree: 1%
 
 1. 選取使用者，然後按一下&#x200B;**更多**&#x200B;圖示![更多圖示](assets/more-icon.png)。
 
-1. 若要核准使用者，請按一下[核准]。**&#x200B;**，然後按一下[提交]。**&#x200B;**
+1. 若要核准使用者，請按一下[核准]。****，然後按一下[提交]。****
 
    或
 
-   若要拒絕使用者並從Workfront刪除使用者，請按一下[拒絕] **，然後按一下[提交]**&#x200B;**。**
+   若要拒絕使用者並從Workfront刪除使用者，請按一下[拒絕] **，然後按一下[提交]****。**
 
    已核准的使用者會自動新增至Adobe Admin Console。
 
@@ -232,10 +237,10 @@ ht-degree: 1%
 * 管理許可權
 * 國家/地區
 
-如需有關在Adobe Admin Console中編輯單一使用者的資訊，請參閱Adobe檔案中個別管理使用者一文中的[編輯使用者詳細資料](https://helpx.adobe.com/tw/enterprise/using/manage-users-individually.html#edit-user-details)。
+如需有關在Adobe Admin Console中編輯單一使用者的資訊，請參閱Adobe檔案中個別管理使用者一文中的[編輯使用者詳細資料](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#edit-user-details)。
 
 如需在Adobe Admin Console中大量編輯使用者的詳細資訊，請參閱
-在Adobe檔案中管理多個使用者一文中的[編輯使用者詳細資料](https://helpx.adobe.com/tw/enterprise/using/bulk-upload-users.html#edit-user-details)。
+在Adobe檔案中管理多個使用者一文中的[編輯使用者詳細資料](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html#edit-user-details)。
 
 ## 刪除使用者
 
@@ -244,14 +249,14 @@ ht-degree: 1%
 >* 如果使用者屬於Admin Console使用者群組，且產品設定檔已新增至一或多個這些使用者群組，則從Workfront停用使用者並不會實際將他們從產品中移除。 必須從Admin Console的使用者群組中移除使用者。
 >* 從Adobe Admin Console刪除使用者會停用Workfront中的使用者，但不會從Workfront刪除使用者。
 
-如需有關在Adobe Admin Console中刪除使用者的指示，請參閱Adobe檔案中的[管理目錄使用者](https://helpx.adobe.com/tw/enterprise/using/manage-directory-users.html)。
+如需有關在Adobe Admin Console中刪除使用者的指示，請參閱Adobe檔案中的[管理目錄使用者](https://helpx.adobe.com/enterprise/using/manage-directory-users.html)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p>You can create Adobe Workfront users and system administrators with the <a href="https://adminconsole.adobe.com/" alt="Admin Console link">Adobe Admin Console</a>. The console is a central location for managing the Adobe entitlements across your organization. For more information, see the <a href="https://helpx.adobe.com/tw/enterprise/using/admin-console.html" alt="Admin Console Overview">Admin Console Overview</a>.</p>
+<p>You can create Adobe Workfront users and system administrators with the <a href="https://adminconsole.adobe.com/" alt="Admin Console link">Adobe Admin Console</a>. The console is a central location for managing the Adobe entitlements across your organization. For more information, see the <a href="https://helpx.adobe.com/enterprise/using/admin-console.html" alt="Admin Console Overview">Admin Console Overview</a>.</p>
 <p>Before using the Admin Console for Workfront, you should receive a receive an email inviting you to the console. Click in the invitation to accept it and create an account. You can also use an existing account, if already available.</p>
 <h2>Create users</h2>
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Create users in WF with the Adobe admin console</p>

@@ -8,10 +8,15 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: c89b21c6-fe70-4f46-aebd-5b82a667db72
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+TQID: https://experienceleague.adobe.com/fFf7rX8YWJzj8VTTnvN305UjDo5UV-LjZezuCa-LLAk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 0%
+source-wordcount: 605
+ht-degree: 2%
 
 ---
 
@@ -21,9 +26,9 @@ ht-degree: 0%
 
 案頭校訂檢視器是主要針對校訂互動式內容而設計的應用程式，必須安裝在每位使用者的本機電腦上。 身為Adobe Workfront管理員或Workfront Proof管理員，您可以執行此安裝。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 您必須具有下列存取權才能執行本文中的步驟：
 
@@ -73,7 +78,7 @@ ht-degree: 0%
 
    ![校訂預設值](assets/proof-defaults.png)
 
-1. 按一下[已啟用]及[預設&#x200B;**]，然後按一下[儲存]。**&#x200B;**&#x200B;**
+1. 按一下[已啟用]及[預設&#x200B;**]，然後按一下[儲存]。******
 
 ## 為您的使用者安裝案頭校訂檢視器
 
@@ -88,7 +93,7 @@ ht-degree: 0%
    * 如果您使用預覽環境，請按一下案頭校訂檢視器的[Mac預覽下載](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.19.pkg)。
 
 1. 開啟您剛下載的檔案，開始安裝。
-1. 在出現的安裝方塊中，按一下[繼續]&#x200B;**&#x200B;**，然後按一下[安裝]&#x200B;**&#x200B;**。
+1. 在出現的安裝方塊中，按一下[繼續]****，然後按一下[安裝]****。
 
    ![安裝方塊](assets/install-wf-proof-box.png)
 

@@ -4,15 +4,20 @@ content-type: reference
 product-area: system-administration
 navigation-topic: manage-workfront
 title: 管理已刪除的專案
-description: 如果您的WorkfrontWorkfront專案、任務、問題、檔案和範本在過去30天內已刪除，您可以還原這些專案、任務、問題和範本。 當您還原物件時，也會還原其所有子物件和欄位。
+description: 如果您的Workfront專案、任務、問題、檔案和範本在過去30天內已刪除，您可以還原這些專案、任務、問題和範本。 當您還原物件時，也會還原其所有子物件和欄位。
 feature: System Setup and Administration
 role: Admin
 author: Lisa
 recommendations: noDisplay, noCatalog
 exl-id: 6b76ff52-2809-4d11-aeb0-a328e1efc489
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+TQID: https://experienceleague.adobe.com/IYTuOb3gWiYWwWHuBGZR-LXP0k4sOeakO-LlGWxJLZM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: 72
 ht-degree: 0%
 
 ---

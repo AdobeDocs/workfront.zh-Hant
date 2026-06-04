@@ -9,10 +9,15 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/Ng0xKCrHg--5s3MdiLEOJfjoao9WND2uFqS5VI9LGng
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1386'
-ht-degree: 0%
+source-wordcount: 1360
+ht-degree: 1%
 
 ---
 
@@ -38,16 +43,16 @@ ht-degree: 0%
 >
 >您也可以使用「頂層父項名稱」欄位來識別與頂層群組相關聯的資料，但僅限於檢視中，而非篩選器或群組中。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -76,9 +81,9 @@ ht-degree: 0%
 
 1. 按一下要新增子群組的群組名稱。
 1. 在左側功能表中，按一下&#x200B;**子群組**。
-1. 若要從您檢視的群組建立新子群組，請按一下[新增子群組]。**&#x200B;**
+1. 若要從您檢視的群組建立新子群組，請按一下[新增子群組]。****
 
-   或者，如果您想要在清單中另一個子群組下方建立新的子群組，請選取該子群組，然後按一下[新增子群組]。**&#x200B;**
+   或者，如果您想要在清單中另一個子群組下方建立新的子群組，請選取該子群組，然後按一下[新增子群組]。****
 
    如需您可以用來設定子群組的選項相關資訊，請參閱[建立子群組](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md)。
 
@@ -156,7 +161,7 @@ ht-degree: 0%
 1. 選取一個子群組，然後按一下&#x200B;**複製**&#x200B;圖示![復製圖示](assets/copy-icon.png)以根據選取的群組建立新的頂層群組。
 1. 設定新群組的設定。
 
-   如需這些設定的說明，請參閱[建立群組](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create-a-top-level-group-by-copying-an-existing-group-or-subgroup)一文中的[複製現有群組或子群組](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)以建立最上層群組。
+   如需這些設定的說明，請參閱[建立群組](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)一文中的[複製現有群組或子群組](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create-a-top-level-group-by-copying-an-existing-group-or-subgroup)以建立最上層群組。
 
 1. 按一下&#x200B;**建立群組**。
 
@@ -179,8 +184,8 @@ ht-degree: 0%
 
 >[!TIP]
 >
->當您停用下有子群組的群組時，這些子群組也會變成非使用中。 如果您希望其中一個處於作用中狀態，可以使用這些指示將其從父群組中移除，然後重新啟用它。
->&#x200B;>如需停用及重新啟動群組的說明，請參閱[停用或重新啟動群組](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)。
+>當您停用下有子群組的群組時，這些子群組也會變成非使用中。如果您希望其中一個處於作用中狀態，可以使用這些指示將其從父群組中移除，然後重新啟用它。
+>如需停用及重新啟動群組的指示，請參閱[停用或重新啟動群組](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)。
 
 {{step-1-to-setup}}
 

@@ -9,11 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ed40984f-602a-46e9-a72b-141936de8fcb
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/yakEEdCSzC0R9dJc6MV4N26MR7M-l09pOudfKiQvdSk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: 400
 ht-degree: 0%
 
 ---
@@ -46,7 +51,7 @@ ht-degree: 0%
 
 * **費用**：如果您可以自行執行報告（只需要系統管理員登入），或可以使用剩餘的遠端諮詢時間，則完全免費。 如果您有興趣為此購買遠端諮詢，請洽詢您的AE/CAE。
 
-  如需使用Kick-Starts匯出資料的詳細資訊，請參閱[透過 [!DNL Adobe Workfront] Kick-Starts[!UICONTROL 從]](../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)匯出資料。
+  如需使用Kick-Starts匯出資料的詳細資訊，請參閱[透過[!UICONTROL Kick-Starts]](../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)從 [!DNL Adobe Workfront] 匯出資料。
 
 ## 使用我們的開放API
 

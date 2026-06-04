@@ -8,10 +8,15 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-source-git-commit: 31e5f5e039e25fa25f3038c23ee579ba1f830bb7
+TQID: https://experienceleague.adobe.com/4H5MhQIywl31xNFiBlCsDkFKKTmy-8dk2bIJtedfGo8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 2%
+source-wordcount: 443
+ht-degree: 3%
 
 ---
 
@@ -35,12 +40,12 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p>
-       <p>[!UICONTROL 計畫]</p></td>
+   <td><p>[！UICONTROL標準]</p>
+       <p>[！UICONTROL計畫]</p></td>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td> 
+   <td>[！UICONTROL系統管理員]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,7 +76,7 @@ You must have at least one request type selected. You can select multiple reques
 作為[!DNL Workfront]管理員，您可以在系統中設定要求型別的名稱。 新名稱會顯示在[!DNL Workfront]中任何顯示&#x200B;**[!UICONTROL 問題型別]**&#x200B;或&#x200B;**[!UICONTROL 請求型別]**&#x200B;欄位的區域中：
 
 * 在將會接收問題或要求的專案的&#x200B;**[!UICONTROL 佇列詳細資料]**&#x200B;區域中。
-* 若為「請求佇列」選取了多個請求型別，當您建立新問題或提交新請求時，請在&#x200B;**[!UICONTROL 問題型別]欄位的**&#x200B;新問題&#x200B;**[!UICONTROL 表單]**&#x200B;中。
+* 若為「請求佇列」選取了多個請求型別，當您建立新問題或提交新請求時，請在&#x200B;**[!UICONTROL 問題型別]**&#x200B;欄位的&#x200B;**[!UICONTROL 新問題]表單**&#x200B;中。
 
   如需在[!DNL Workfront]中建立問題的詳細資訊，請參閱[建立問題](../../../manage-work/issues/manage-issues/create-issues.md)
 

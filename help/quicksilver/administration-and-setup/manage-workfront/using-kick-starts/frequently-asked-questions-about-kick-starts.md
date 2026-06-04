@@ -10,9 +10,14 @@ author: LIsa
 feature: System Setup and Administration
 role: Admin
 exl-id: f286e03e-93a8-43f5-8c2d-2c36203776a8
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+TQID: https://experienceleague.adobe.com/XpKG-fYAFVRk89b5TjSWyrzqv5z1zzIavWJQNLuKlsc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: 441
 ht-degree: 0%
 
 ---
@@ -60,6 +65,6 @@ Kick-Start檔案可能遺漏下列三個專案之一：
 
 ### 解答
 
-如果使用者已啟用統一使用者管理(UUM)或AdobeIdentity Management系統(IMS)，**國家**&#x200B;欄位僅接受國家/地區代碼值（例如，US、GB、IN）。 在匯入之前，請先確認Kick-Start範本中的&#x200B;**setCountry**&#x200B;欄位正在使用國家/地區代碼值。
+如果使用者已啟用統一使用者管理(UUM)或Adobe Identity Management系統(IMS)，**國家**&#x200B;欄位僅接受國家/地區代碼值（例如，US、GB、IN）。 在匯入之前，請先確認Kick-Start範本中的&#x200B;**setCountry**&#x200B;欄位正在使用國家/地區代碼值。
 
 如需使用Kick-Start在Workfront中正確匯入資料的詳細資訊，請參閱[使用Kick-Start範本將資料匯入Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)。

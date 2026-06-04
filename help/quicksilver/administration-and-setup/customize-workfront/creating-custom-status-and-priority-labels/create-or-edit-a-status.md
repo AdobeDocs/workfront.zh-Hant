@@ -8,9 +8,15 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
-source-git-commit: 48745335495433e25ad0a27a6726dda7fe8a97d8
+TQID: https://experienceleague.adobe.com/Ujv4d5ITVkWkTP3E3oqjrlZ0dV0wjlX4Y1PLTuGRxRQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: 950
 ht-degree: 4%
 
 ---
@@ -73,7 +79,7 @@ ht-degree: 4%
 
    如果狀態為群組或子群組，請在右上角開始輸入群組的名稱，然後在其出現時選取它。
 
-   群組![的](assets/system-statuses-in-upper-rt-corner-group-new-png.png)系統狀態
+   群組](assets/system-statuses-in-upper-rt-corner-group-new-png.png)的![系統狀態
 
 1. 選取您想要與狀態關聯的物件型別（**專案**、**任務**&#x200B;或&#x200B;**問題**）的標籤。
 

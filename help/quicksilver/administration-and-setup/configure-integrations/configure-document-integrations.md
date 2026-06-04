@@ -8,9 +8,15 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: f9c2c7192254a0d0c04056bc4c193eb35d4116b5
+TQID: https://experienceleague.adobe.com/RUHFPYpCgZq0qAMGB8-Na2olK7uHVtViIcygLUiTkSo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: c4a58f26-aa43-4761-aafe-56f1e034d7d5
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: 1111
 ht-degree: 4%
 
 ---
@@ -23,7 +29,7 @@ ht-degree: 4%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
-作為[!DNL Adobe Workfront]管理員，您可以設定檔案整合以管理[!UICONTROL Workfront]中的檔案。 您也可以設定[!UICONTROL Workfront]，讓檔案只儲存在檔案服務應用程式中，而不儲存在[!UICONTROL Workfront]本身中。 如需詳細資訊，請參閱[從外部應用程式連結檔案[!UICONTROL 中的]更新檔案，並將檔案從](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#update-and-link-a-document-from-workfront-to-an-external-cloud-provider)Workfront[連結到外部雲端提供者](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)。
+作為[!DNL Adobe Workfront]管理員，您可以設定檔案整合以管理[!UICONTROL Workfront]中的檔案。 您也可以設定[!UICONTROL Workfront]，讓檔案只儲存在檔案服務應用程式中，而不儲存在[!UICONTROL Workfront]本身中。 如需詳細資訊，請參閱[從外部應用程式連結檔案](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)中的[更新檔案，並將檔案從[!UICONTROL Workfront]連結到外部雲端提供者](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#update-and-link-a-document-from-workfront-to-an-external-cloud-provider)。
 
 >[!NOTE]
 >
@@ -142,15 +148,15 @@ ht-degree: 4%
       <td>自訂整合的名稱。 這是使用者在Workfront中使用整合時看到的名稱。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 基本API URL] </td> 
+      <td role="rowheader">[！UICONTROL基本API URL] </td> 
       <td>API呼叫的基本HTTP或安全HTTP URL。 例如， <code>https://&lt;documentprovider&gt;.com/api/v2</code></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 驗證型別]</td> 
+      <td role="rowheader">[！UICONTROL驗證型別]</td> 
       <td> <p>對自訂整合發出授權API呼叫時所使用的驗證方法。</p> 
        <ul> 
-        <li>如果您選擇<strong>[!UICONTROL OAuth]</strong>，請繼續步驟5。</li> 
-        <li>如果您選擇<strong>[!UICONTROL ApiKey]</strong>，請繼續步驟6。</li> 
+        <li>如果您選擇<strong>[！UICONTROL OAuth]</strong>，請繼續步驟5。</li> 
+        <li>如果您選擇<strong>[！UICONTROL ApiKey]</strong>，請繼續步驟6。</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -167,7 +173,7 @@ ht-degree: 4%
       <td>用於使用者驗證的完整URL。 [!DNL Workfront]會在OAuth布建程式過程中將使用者導覽至此位址。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 權杖端點URL]</td> 
+      <td role="rowheader">[！UICONTROL權杖端點URL]</td> 
       <td>用於檢索 OAuth 權杖的完整 API URL。</td> 
      </tr> 
      <tr> 
@@ -179,7 +185,7 @@ ht-degree: 4%
       <td>此整合的OAut使用者端密碼。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 請求引數]</td> 
+      <td role="rowheader">[！UICONTROL請求引數]</td> 
       <td> <p>輸入要附加至每個API呼叫之查詢字串的選用值。 例如，access_type=offline。</p> <p>若要新增多個請求引數，請按一下<strong>+新增請求引數</strong>。</p> </td> 
      </tr> 
     </tbody> 
@@ -187,7 +193,7 @@ ht-degree: 4%
 
    >[!TIP]
    >
-   >顯示在[!DNL Workfront]自訂整合[!UICONTROL 頁面底部的]重新導向URI列出用來向外部檔案提供者註冊此整合的URI。
+   >顯示在[!UICONTROL 自訂整合]頁面底部的[!DNL Workfront]重新導向URI列出用來向外部檔案提供者註冊此整合的URI。
 
 1. （視條件而定）如果您為&#x200B;**[!UICONTROL 驗證型別]**&#x200B;選取&#x200B;**[!UICONTROL ApiKey]**&#x200B;驗證，請輸入自訂檔案提供者所發出的API金鑰。
 
@@ -226,11 +232,11 @@ ht-degree: 4%
 1. 按一下&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL 中繼資料對應]**。
 
 1. 在&#x200B;**[!UICONTROL 選取要對應的Source欄位]**&#x200B;欄位中，開始輸入您要對應到[!DNL Workfront DAM]的Workfront欄位名稱，然後在清單中看到它時選取它。
-1. 在&#x200B;**[!UICONTROL 選取對應目標欄位]**&#x200B;中，選取要以所選[!DNL Workfront DAM]欄位中的資訊填入的[!DNL Workfront]欄位。
+1. 在&#x200B;**[!UICONTROL 選取對應目標欄位]**&#x200B;中，選取要以所選[!DNL Workfront]欄位中的資訊填入的[!DNL Workfront DAM]欄位。
 
    >[!NOTE]
    >
-   > 有權傳送給[!DNL Workfront DAM]的使用者上傳至[!DNL Workfront]時，其所有檔案的中繼資料都會更新為對應至此處的[!DNL Workfront DAM]欄位。
+   > 有權傳送給[!DNL Workfront DAM]的使用者上傳至[!DNL Workfront DAM]時，其所有檔案的中繼資料都會更新為對應至此處的[!DNL Workfront]欄位。
 
 1. 按一下&#x200B;**[!UICONTROL 新增對應]**。
 
@@ -253,7 +259,7 @@ ht-degree: 4%
 ### Google Drive整合
 
 * 將連結資料夾新增至Workfront時，資料夾中的檔案不再自動新增。
-   * 您可以將Google資料夾新增至Workfront （不含檔案），然後將個別檔案新增至Workfront。 這些檔案會自動新增至Workfront中的Google資料夾。
+   * 您可以將Google資料夾新增至Workfront （不含檔案），然後將個別檔案新增至Workfront。這些檔案會自動新增至Workfront中的Google資料夾。
 或
    * 您可以在Workfront中建立「檔案」資料夾，然後選取Google資料夾中的所有檔案，並將它們新增至Workfront資料夾。
 

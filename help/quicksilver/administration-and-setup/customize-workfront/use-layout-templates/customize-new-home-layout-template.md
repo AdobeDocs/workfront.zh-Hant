@@ -8,9 +8,15 @@ author: Lisa and Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+TQID: https://experienceleague.adobe.com/j2Y56liYA3jg5L5GFq--2iLfv3kYPI7MsyaLWIlzZ0o
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: 837
 ht-degree: 3%
 
 ---
@@ -75,7 +81,7 @@ ht-degree: 3%
 
 1. 開始使用版面配置範本，如[建立和管理版面配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
 
-1. 按一下![自訂使用者看到的內容](assets/dropdown-arrow.png)下的向下箭頭&#x200B;**向下箭頭**，然後按一下&#x200B;**首頁Workspace**。
+1. 按一下&#x200B;**自訂使用者看到的內容**&#x200B;下的向下箭頭![向下箭頭](assets/dropdown-arrow.png)，然後按一下&#x200B;**首頁Workspace**。
 
 1. 在右側的標籤中，按一下下列其中一項：
 
@@ -97,7 +103,7 @@ ht-degree: 3%
       <p> 執行下列任一項作業： </p>
       <ul><li>根據<a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">新增、編輯或移除首頁</a>中的Widget中所述的步驟自訂此索引標籤。 </li>
       <li>選取Widget，並依照您想要為使用者顯示的工作區來安排工作區。</li>
-      <li>若要變更背景，請依照<b>開始使用首頁</b>中的<a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref">背景自訂</a>下的步驟操作。</li></p>
+      <li>若要變更背景，請依照<a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref">開始使用首頁</a>中的<b>背景自訂</b>下的步驟操作。</li></p>
       <p>
 
    >[!NOTE]
@@ -134,11 +140,11 @@ ht-degree: 3%
    >
    >* 「篩選」、「欄」和「群組」選項連結到「版面配置範本」中的清單自訂選項。 此處所做的變更也將套用至這些設定。
    >* 使用者必須至少具有對檢視的建立存取權，管理員資料行設定才能正確套用至其首頁。
-   ></p>
-   >   <li><p>將游標移至選項上，然後按一下<b>設定為預設</b>，以設定Widget的預設篩選或群組。 目前的預設在其右側顯示藍色<b>預設</b>徽章。</p></li>
-   >   <li><p>按一下每個清單底部的加號按鈕，將現有的篩選、欄或群組新增至可用選項清單，即可將選項新增至該清單。 請注意，只有現有的篩選器、欄位（用於欄）或群組可以這種方式新增。</p></li>
-   >   </ul>
-   >   <p>
+   </p>
+      <li><p>將游標移至選項上，然後按一下<b>設定為預設</b>，以設定Widget的預設篩選或群組。 目前的預設在其右側顯示藍色<b>預設</b>徽章。</p></li>
+      <li><p>按一下每個清單底部的加號按鈕，將現有的篩選、欄或群組新增至可用選項清單，即可將選項新增至該清單。 請注意，只有現有的篩選器、欄位（用於欄）或群組可以這種方式新增。</p></li>
+      </ul>
+      <p>
 
    >[!NOTE]
    >

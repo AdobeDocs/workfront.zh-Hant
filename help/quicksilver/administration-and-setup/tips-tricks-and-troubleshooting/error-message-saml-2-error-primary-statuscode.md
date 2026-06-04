@@ -9,10 +9,15 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1ec18638-97b8-4307-9cea-05b28395eaee
-source-git-commit: 929502c256011b464d938ad1095c127407e4a795
+TQID: https://experienceleague.adobe.com/Dib7JYTu6pfxU3iU7DUaOeXJpzzshUiqUDRlGP6lcRQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 1%
+source-wordcount: 345
+ht-degree: 5%
 
 ---
 
@@ -28,9 +33,9 @@ ht-degree: 1%
 >
 >如果您建立了成功的測試連線，但仍遇到問題，則屬性對應可能不正確，或是同盟ID有問題。 如有疑問，請聯絡客戶支援。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,7 +52,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td> 
+   <td>[！UICONTROL系統管理員]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,7 +87,7 @@ ht-degree: 1%
 
 1. 以滑鼠右鍵按一下與[!DNL Workfront]相關的信賴方信任，然後選取&#x200B;**[!UICONTROL 內容]**。
 1. 按一下&#x200B;**[!UICONTROL 簽章]**&#x200B;標籤。
-1. 按一下簽署憑證的名稱，然後按一下[檢視]。**&#x200B;**
+1. 按一下簽署憑證的名稱，然後按一下[檢視]。****
 1. 按一下[複製到&#x200B;**[!UICONTROL 檔案]**...]，然後選取&#x200B;**[!UICONTROL 下一步]**。
 
 1. 選取&#x200B;**[!UICONTROL Base-64編碼的x.509 (CER)]**，然後按一下&#x200B;**[!UICONTROL 下一步]**。

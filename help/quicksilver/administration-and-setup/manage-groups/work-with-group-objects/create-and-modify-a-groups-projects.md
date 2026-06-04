@@ -9,10 +9,15 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: db90cf52-7c8f-4972-b67f-401657ba9b13
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/q2nEtaLEkclEFtv5PvFP9hFfsmR2rReriYC0-uDgATc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 0%
+source-wordcount: 445
+ht-degree: 4%
 
 ---
 
@@ -25,16 +30,16 @@ ht-degree: 0%
 
 如果您的群組之上有任何群組，其管理員也可以為您的群組執行下列動作。 Workfront管理員也是如此（適用於任何群組）。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -85,7 +90,7 @@ ht-degree: 0%
       <td role="rowheader"> <p>為群組建立新專案</p> </td> 
       <td> 
        <ol> 
-        <li value="1"> <p>按一下<strong>新增專案</strong>，然後在下拉式選單中選取選項以指示您要如何建立專案。 </p> <p>如需詳細資訊，請參閱文章<a href="../../../manage-work/projects/create-projects/create-project.md#ways-to-create-projects" class="MCXref xref">建立專案</a>中的<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">建立專案的方式</a>一節。</p> </li> 
+        <li value="1"> <p>按一下<strong>新增專案</strong>，然後在下拉式選單中選取選項以指示您要如何建立專案。 </p> <p>如需詳細資訊，請參閱文章<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">建立專案</a>中的<a href="../../../manage-work/projects/create-projects/create-project.md#ways-to-create-projects" class="MCXref xref">建立專案的方式</a>一節。</p> </li> 
         <li value="2">輸入專案名稱並加以設定，如<a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">編輯專案</a>中所述。</li> 
        </ol> <p> 為群組設定的專案偏好設定會影響您在「群組」區域中建立的所有專案。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md" class="MCXref xref">設定群組的專案偏好設定</a>。</p> </td> 
      </tr> 

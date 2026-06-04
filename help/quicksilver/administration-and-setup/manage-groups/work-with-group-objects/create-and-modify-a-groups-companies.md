@@ -8,10 +8,16 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: 5d7cc28ebb1c7d7401a60ef4fc383fc90ed20631
+TQID: https://experienceleague.adobe.com/Jmo6PQZ14wo8ROdKO0UvLd0Cakq1vciAhTEjZPjA9Bk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 0%
+source-wordcount: 786
+ht-degree: 2%
 
 ---
 
@@ -21,16 +27,16 @@ ht-degree: 0%
 
 如果您的群組之上有任何群組，其管理員也可以為您的群組執行下列動作。 Workfront管理員也是如此（適用於任何群組）。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -95,6 +101,6 @@ ht-degree: 0%
    >
    >如果您要刪除公司，而該公司已設為「主要」公司或正用於其他物件，系統會提示您選擇其他公司來取代要刪除的公司。 您選取的公司會成為「主要公司」，或取代指定給該公司的物件上已刪除的公司。
 
-   如需有關編輯公司的資訊，請參閱文章[建立和編輯公司](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront)中的[在Workfront中建立或編輯公司](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)小節。
+   如需有關編輯公司的資訊，請參閱文章[建立和編輯公司](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)中的[在Workfront中建立或編輯公司](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront)小節。
 
 1. （選擇性）若要匯出公司清單，請按一下「匯出」圖示![「匯出」圖示](assets/export.png)，然後選取您要用於匯出清單的檔案格式。
