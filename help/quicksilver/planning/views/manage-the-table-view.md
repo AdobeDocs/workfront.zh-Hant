@@ -6,11 +6,17 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0fc7a16640d134b6f524a30929ed6f3041f12e31
+TQID: https://experienceleague.adobe.com/oajBrzqCNgufbSJPP0Wx8aI14d8VM7IFr-Hn1ed7Wks
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '3551'
+source-wordcount: 3520
 ht-degree: 2%
 
 ---
@@ -402,7 +408,7 @@ Old:
 
       ![檢視中的多重層級篩選器](assets/multi-tiered-filters-in-views.png)
 
-   系統會自動篩選記錄清單。  <!--at this time, you can't name and save the filter - but will this change?!-->
+   系統會自動篩選記錄清單。 <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. （選擇性）按一下&#x200B;**x**&#x200B;圖示以移除篩選條件。
@@ -414,7 +420,7 @@ Old:
 
 您可以排序下列資訊：
 
-* 表格檢視中的所有記錄。 <!--or timeline view. ***********verify this is the case for the timeline view*********************-->
+* 表格檢視中的所有記錄。<!--or timeline view. ***********verify this is the case for the timeline view*********************-->
   <!--* All groupings. - this is not available yet-->
 
 在表格檢視中排序記錄時，請考量下列事項：
@@ -479,8 +485,8 @@ Old:
 考慮以下事項：
 
 * 您可以在表格和時間軸檢視中套用群組。 表格檢視的分組與相同記錄型別之時間軸檢視中的群組是獨立的。
-* 您可以在檢視中套用3個群組層級。 記錄會依照您選取的群組順序進行分組。
-&lt;！—！—*使用API時，您最多可以套用4個層級的群組。  — 現在正在檢查此專案 — >
+* 您可以在檢視中套用3個群組層級。記錄會依照您選取的群組順序進行分組。
+&lt;！—*使用API時，您最多可以套用4個層級群組。 — 現在正在檢查此層級 — >
 * 群組對於您選取的檢視而言是唯一的。 相同記錄型別的兩個表格檢視可以套用不同的群組。 檢視相同表格檢視的兩個使用者會看到目前套用的相同分組。
 * 您無法為表格檢視建立的分組命名。
 * 移除群組會將群組從存取與您相同記錄型別以及顯示與您相同檢視的任何人中移除。

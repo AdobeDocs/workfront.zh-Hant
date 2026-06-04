@@ -8,10 +8,14 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: af9c801f-ae40-439a-8749-ae8d178040ae
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/75UJsTlD3ZTmZV3owwnoIuPTP89VkL-zN2YRm2Vjq1U
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 0%
+source-wordcount: 1131
+ht-degree: 6%
 
 ---
 
@@ -50,7 +54,7 @@ ht-degree: 0%
 
 如需有關建立新請求的資訊，請參閱[建立並提交Adobe Workfront請求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)。
 
-此功能現已包含在Workfront One上的新Workfront Experience[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)學習路徑的Collaborator基礎知識中。
+此功能現已包含在Workfront One上的新Workfront Experience](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)學習路徑的[Collaborator基礎知識中。
 
 ## 要求工作流程的改善
 
@@ -64,7 +68,7 @@ ht-degree: 0%
 * 現在當您導覽離開頁面時，會保留依其中一個欄排序已提交請求清單。 如需詳細資訊，請參閱[尋找已提交的請求](../../../manage-work/requests/create-requests/locate-submitted-requests.md)。
 * 建立新請求時，提交和取消按鈕現在位於新請求表單的底部。 如需詳細資訊，請參閱[建立和提交Workfront要求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)。
 
-此功能現已包含在Workfront One上的新Workfront Experience[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)學習路徑的Collaborator基礎知識中。
+此功能現已包含在Workfront One上的新Workfront Experience](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)學習路徑的[Collaborator基礎知識中。
 
 ## 在請求區域的已提交區段中開啟摘要面板
 
@@ -76,7 +80,7 @@ ht-degree: 0%
 
 如需關於已提交請求的資訊，請參閱[尋找已提交的請求](../../../manage-work/requests/create-requests/locate-submitted-requests.md)。
 
-此功能現已包含在Workfront One上的新Workfront Experience[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)學習路徑的Collaborator基礎知識中。
+此功能現已包含在Workfront One上的新Workfront Experience](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)學習路徑的[Collaborator基礎知識中。
 
 ## 重新顯示新請求表單中已移除的新問題欄位
 
@@ -104,7 +108,7 @@ ht-degree: 0%
 
 如需有關提交請求的資訊，請參閱[建立並提交Workfront請求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)。
 
-此功能現已包含在Workfront One上的新Workfront Experience[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)學習路徑的Collaborator基礎知識中。
+此功能現已包含在Workfront One上的新Workfront Experience](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)學習路徑的[Collaborator基礎知識中。
 
 ## 提交請求時分享請求佇列的連結
 
@@ -118,4 +122,4 @@ ht-degree: 0%
 
 如需在提交請求時共用請求佇列連結的相關資訊，請參閱[共用請求佇列的連結](../../../manage-work/requests/create-requests/share-link-to-request-queue.md)。
 
-此功能現已包含在Workfront One上的新Workfront Experience[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)學習路徑的Collaborator基礎知識中。
+此功能現已包含在Workfront One上的新Workfront Experience](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)學習路徑的[Collaborator基礎知識中。

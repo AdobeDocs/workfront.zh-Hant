@@ -6,15 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/pVAo3ZFNsUuJGI6GDOBCUWO6UkxQgWEif84qa79EXTk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2900'
+source-wordcount: 3059
 ht-degree: 1%
 
 ---
-
 
 # 2023年Adobe Workfront計畫發行活動
 
@@ -78,7 +81,7 @@ ht-degree: 1%
 >
 >貴組織必須購買Adobe Workfront Fusion，才能與Adobe Workfront Planning功能建立連線。
 >
->如需詳細資訊，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>如需詳細資訊，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 現在，您可以使用Adobe Workfront Fusion連線至規劃功能。 透過新的Fusion連線，您可以：
 
@@ -94,7 +97,7 @@ ht-degree: 1%
 
 * 在規劃功能中變更時觸發案例
 
-如需詳細資訊，請參閱[Adobe Workfront規劃模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)。
+如需詳細資訊，請參閱[Adobe Workfront規劃模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)。
 
 ## 2023年12月11日當週
 

@@ -8,9 +8,12 @@ author: Becky
 feature: People Teams and Groups
 recommendations: noDisplay, noCatalog
 exl-id: 83d9f2f6-f5f9-4fd1-8c2d-2eda521d0c19
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/4KHMxOBM2vf98b1WK5Bt1A-FmuXgL5RTDT0PLvHOEEM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '37'
+source-wordcount: 37
 ht-degree: 0%
 
 ---

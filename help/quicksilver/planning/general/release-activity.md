@@ -6,13 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
+TQID: https://experienceleague.adobe.com/WBBBWQN-XQSWhJMNOqhp2v7Ne2TlEQYXng6WiXbvlDg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '7392'
+source-wordcount: 7679
 ht-degree: 0%
 
 ---
-
 
 # 2024年Adobe Workfront計畫發行活動
 
@@ -135,7 +140,7 @@ ht-degree: 0%
 * 視其設定方式而定，請求表單可能會顯示記錄型別的所有欄位，但以下型別的欄位除外：
 
    * 人員
-   * 連線欄位(包括與Experience Manager資產的連線)
+   * 連線欄位（包括與Experience Manager資產的連線）
    * 已連線的查閱欄位
    * 公式
 
@@ -1131,7 +1136,7 @@ UNIQUE運運算元適用於下列欄位型別以外的所有欄位型別：
 * 單選
 * 多選
 * 人員
-* 已連線的記錄欄位(當連線planning權能記錄型別或Workfront物件時)
+* 已連線的記錄欄位（當連線planning權能記錄型別或Workfront物件時）
 
 有了新的改進，最先顯示的是一個更小、回應更迅速的方塊。
 

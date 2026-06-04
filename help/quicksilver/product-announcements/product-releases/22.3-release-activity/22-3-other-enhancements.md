@@ -6,9 +6,15 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 88d4c34e-9a3a-489d-ac97-2d81903104d8
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/mwNNzDV919eY8L3M7Be5cPyDB1IjetL-YSJETJ1bIGE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: 577
 ht-degree: 0%
 
 ---
@@ -43,14 +49,14 @@ ht-degree: 0%
 
 * [瞭解時程表配置](/help/quicksilver/timesheets/timesheets/timesheet-layout.md)
 
-* [設定時程表和小時偏好設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
+* [設定時程表和時數偏好設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
 
 
 ## 左側導覽面板的增強功能
 
 我們已對Adobe Workfront的左側導覽面板進行數個增強功能。
 
-* 左側導覽面板的外觀和感覺已更新為Adobe設計標準，包括色彩和字型。
+* 左側導覽面板的外觀與操作方式已更新為Adobe設計標準，包括色彩和字型。
 
 * 面板底部的「新增自訂區段」連結已重新命名為「新增儀表板」，以便更妥善地說明其功能。
 

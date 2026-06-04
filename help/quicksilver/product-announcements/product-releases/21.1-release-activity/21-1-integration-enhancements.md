@@ -8,9 +8,13 @@ author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 0cd407f6-2593-4de8-9456-c26ba231e482
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+TQID: https://experienceleague.adobe.com/fl-BzJ--JWaqu0Y9lZ5Ri-1cCA59VOrkPiZt8YBE4wI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: 234
 ht-degree: 0%
 
 ---
@@ -23,7 +27,7 @@ ht-degree: 0%
 
 ## Microsoft Teams中的Adobe Workfront通知增強功能
 
-為了讓您更輕鬆地透過Microsoft Teams使用Workfront，我們為從Workfront傳送的Microsoft Teams通知新增了下列新功能：
+為了讓您更輕鬆地透過Microsoft Teams使用Workfront，我們已將下列新功能新增至從Workfront傳送的Microsoft Teams通知：
 
 * 展開您可以在Microsoft Teams中接收的通知型別。 現在您可以接收更多種事件的通知，例如有人在您的時程表上發表評論或要您核准檔案時。
 * 您現在可以在通知中直接註解及回覆。 您的評論和回覆會出現在工作專案更新流的Workfront中。

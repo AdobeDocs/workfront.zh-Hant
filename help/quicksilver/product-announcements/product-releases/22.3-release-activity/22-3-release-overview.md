@@ -6,10 +6,16 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bfc7ce9e-b715-47b7-bab7-2e3540d0da3e
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/yhdEiiC-0I-M1m8xTKfqQa1BSsyf-kZOGDWtCKMhTyA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3did: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b18b693b-6d59-4359-95fd-a386b7a615feid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d1573eb8-a2e8-4a06-9526-9c3410bf4914id: d1807669-3cb9-4c7d-8433-600aa390c92fid: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3221'
-ht-degree: 0%
+source-wordcount: 3364
+ht-degree: 2%
 
 ---
 
@@ -240,7 +246,7 @@ ht-degree: 0%
     </ul> <p><strong>在以下環境中可用：</strong> </p> 
     <ul> 
      <li> <p>全新Adobe Workfront體驗 </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home" target="_blank">Workfront Classic已於2022年3月終止服務</a>，其後於2022年7月終止Workfront Classic服務。)</p> </li> 
+     <li> <p>Adobe Workfront Classic （<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home" target="_blank">Workfront Classic已於2022年3月終止服務</a>，其後於2022年7月終止Workfront Classic服務。）</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -278,7 +284,7 @@ ht-degree: 0%
     </ul> <p><strong>在以下環境中可用：</strong> </p> 
     <ul> 
      <li> <p>全新Adobe Workfront體驗 </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home" target="_blank">Workfront Classic已於2022年3月終止服務</a>，其後於2022年7月終止Workfront Classic服務。)</p> </li> 
+     <li> <p>Adobe Workfront Classic （<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home" target="_blank">Workfront Classic已於2022年3月終止服務</a>，其後於2022年7月終止Workfront Classic服務。）</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -290,7 +296,7 @@ ht-degree: 0%
     </ul> <p><strong>在以下環境中可用：</strong> </p> 
     <ul> 
      <li> <p>全新Adobe Workfront體驗 </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home" target="_blank">Workfront Classic將於2022年3月終止服務</a>，緊接著將於2022年7月Workfront Classic終止服務。)</p> </li> 
+     <li> <p>Adobe Workfront Classic （<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home" target="_blank">Workfront Classic將於2022年3月終止服務</a>，緊接著將於2022年7月Workfront Classic終止服務。）</p> </li> 
     </ul> </td> 
   </tr> 
   <tr>
@@ -298,7 +304,7 @@ ht-degree: 0%
                         <a href="/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront行銷活動(Beta)</a> </p>
                         <p>我們為Adobe Workfront引入全新物件，此物件有可能改變您管理工作方式。 </p>
                         <p>Workfront行銷活動可讓您在新的工作容器中組織來自不同投資組合和方案的專案。
-行銷活動在2022年7月透過22.3版發行預覽測試版。 如需詳細資訊，請參閱<a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">22.3專案增強功能</a> </p>
+行銷活動在2022年7月透過22.3版發行預覽測試版。如需詳細資訊，請參閱<a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">22.3專案增強功能</a> </p>
 <p>此新容器將在未來版本中改進，以連線目前在不同獨立單位中管理的工作物件。</p>
 
 </td>
@@ -528,7 +534,7 @@ Workfront Fusion中的新功能可在22.3發行排程之外的步調中用於生
 
 針對API版本14，我們已修改一些資源和端點。 有些變更支援新功能，有些則讓您更輕鬆地透過API使用可用資訊。
 
-如需新增和更新的詳細資訊，請參閱[&#x200B; API 14](../../../wf-api/api/new-api-version-14.md)版的新增功能。
+如需新增和更新的詳細資訊，請參閱[ API 14](../../../wf-api/api/new-api-version-14.md)版的新增功能。
 
 如需API版本的資訊，請參閱[API版本設定與支援排程](../../../wf-api/api/api-version-support-schedule.md)。
 

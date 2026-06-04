@@ -6,11 +6,17 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
+TQID: https://experienceleague.adobe.com/GHx5HHn781v3Ut86bfjj6xJ5gwomendbp-N6a8Q1tJY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: 1330
 ht-degree: 2%
 
 ---
@@ -209,7 +215,7 @@ Old:
 
 1. （視條件而定）按一下&#x200B;**新增專案**
 或
-開始輸入專案名稱，如果找不到，請按一下[新增專案]。 **&#x200B;**「新增」按鈕後面接著您輸入的專案名稱。
+開始輸入專案名稱，如果找不到，請按一下[新增專案]。 ****「新增」按鈕後面接著您輸入的專案名稱。
 
    ![從連線欄位連線時新增專案](assets/add-project-when-connecting-it-from-connection-field.png)
 
@@ -257,7 +263,7 @@ Old:
 
    或
 
-   開始輸入投資組合的名稱，如果找不到，請按一下[新增投資組合] **&#x200B;**。 「新增」按鈕後面接著您輸入的投資組合名稱。
+   開始輸入投資組合的名稱，如果找不到，請按一下[新增投資組合] ****。 「新增」按鈕後面接著您輸入的投資組合名稱。
 
    ![從連線欄位連線時新增投資組合](assets/add-portfolio-when-connecting-it-from-connection-field.png)
 
@@ -277,7 +283,7 @@ Old:
 
    或
 
-   開始輸入方案的名稱，如果找不到，請按一下[新增方案] **&#x200B;**。 新增按鈕後面接著您輸入的程式名稱。
+   開始輸入方案的名稱，如果找不到，請按一下[新增方案] ****。 新增按鈕後面接著您輸入的程式名稱。
 
    ![從連線欄位連線時新增Workfront程式](assets/add-wf-program-when-connecting-it-from-connection-field.png)
 

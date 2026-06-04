@@ -7,11 +7,17 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+TQID: https://experienceleague.adobe.com/roM7lCswSeuhxKXc2Bf8S1wXr1thGzcQjFkqU5lCQCA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '4076'
+source-wordcount: 4067
 ht-degree: 4%
 
 ---
@@ -281,7 +287,7 @@ Old:
 
    您可以在任務標題中更新任務狀態。 </p>
 
-   <p>您的Workfront或群組管理員可以自訂任務狀態的名稱。 如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md">建立或編輯狀態</a>。 
+   <p>您的Workfront或群組管理員可以自訂任務狀態的名稱。如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md">建立或編輯狀態</a>。 
       </td> 
      </tr> 
      <tr> 
@@ -326,7 +332,7 @@ Old:
       <td role="rowheader">計劃開始日期和時間</td> 
       <td> <p>任務計劃開始的時間。 任務的計劃開始日期已設定且受許多因素影響：</p> 
        <ul> 
-      <li>根據系統內任務計劃開始日期的偏好設定，專案上新任務的開始日期可以是今天，或是預設的專案開始日期。 <span>與專案相關之群組的群組管理員也可以為群組設定此喜好設定。</span>如需系統層級或群組層級工作偏好設定的詳細資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">設定系統範圍的工作和問題偏好設定</a>。</li> 
+      <li>根據系統內任務計劃開始日期的偏好設定，專案上新任務的開始日期可以是今天，或是預設的專案開始日期。 <span>與專案關聯的群組系統管理員也可以為群組設定此喜好設定。</span> 如需有關系統層級或群組層級工作偏好設定的詳細資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">設定系統範圍的工作和問題偏好設定</a>。</li> 
       <li>根據任務的前置任務，Workfront會選擇計劃開始日期作為前置任務完成後下一個可用日期，或開始日期（取決於前置任務關係）。 如需前置任務關係的詳細資訊，請參閱<a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">前置任務概觀</a>。</li> 
       <li>當任務限製為「固定日期」或「必須開始日期」時，專案經理或任務擁有者可以手動設定計劃開始日期。 如需有關任務限制的詳細資訊，請參閱<a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">任務限制總覽</a>。</li> 
        </ul> </td> 
@@ -405,7 +411,7 @@ Old:
    >* 將工作專案重新指派給作用中的資源。
    >* 將已停用團隊中的使用者與作用中團隊建立關聯，並將工作專案重新指派給作用中團隊。
 
-1. （選擇性）暫留在受指派人名稱上，然後按一下「設為主要受指派人」**&#x200B;**，以指出受指派人是主要受指派人還是工作的擁有者。 團隊不能是任務的主要受指派人。
+1. （選擇性）暫留在受指派人名稱上，然後按一下「設為主要受指派人」****，以指出受指派人是主要受指派人還是工作的擁有者。 團隊不能是任務的主要受指派人。
 1. （選用）更新下列欄位：
 
    <table style="table-layout:auto"> 
@@ -513,7 +519,7 @@ Old:
       <td> <p>指定任務的計畫時數（以小時為單位）。 這是任務受指派人完成任務所需的實際時間。 當「期間型別」設定為「計算的任務指派」時，您只能指定任務的計畫時數。 如需有關期間型別的詳細資訊，請參閱<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">工作期間與期間型別概觀</a>。</p> 
       <b>注意</b>
       <p>
-      建立週期性任務時，計畫時數是每個事件的計畫時數。 父系任務的計畫時數是所有發生次數的所有計畫時數總計。 如需有關建立週期性工作的資訊，請參閱<a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">建立週期性工作</a>。
+      建立週期性任務時，計畫時數是每個事件的計畫時數。父系任務的計畫時數是所有發生次數的所有計畫時數總計。如需有關建立週期性工作的資訊，請參閱<a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">建立週期性工作</a>。
       </p>
 
    </td> 
@@ -549,7 +555,7 @@ Old:
 
 1. 按一下&#x200B;**新增自訂表單**，然後選取要與工作建立關聯的一或多個自訂表單。 您必須先建置自訂表單，才能在此欄位中選取它們。 清單中只會顯示作用中的自訂表單。
 
-   如需有關建立自訂表單的詳細資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。您最多可以將十個自訂表單新增至一個工作
+   如需建立自訂表單的詳細資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。您最多可以新增十個自訂表單至任務
 
 1. （視條件而定）如果您將自訂表單附加到任務，請編輯表單上的任何欄位。 您必須先指定所有必填欄位，然後才能儲存任務。
 
@@ -603,7 +609,7 @@ Old:
      </tr> 
      <tr>
       <td>加班比率</td> 
-      <td><p>輸入工作的加班乘數，例如1.5或2.0。預設值為1.0 （無乘法器）。 如需詳細資訊，請參閱<a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">定義加班率</a>。</p><p>若要檢視「超時比率」欄位，請執行下列動作：</p>
+      <td><p>輸入工作的加班乘數，例如1.5或2.0。 預設值為1.0 （無乘法器）。 如需詳細資訊，請參閱<a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">定義加班率</a>。</p><p>若要檢視「超時比率」欄位，請執行下列動作：</p>
        <ul>
        <li>任務的收入型別必須是使用者與角色每小時。 如需詳細資訊，請參閱<a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">收入與成本階層概覽</a>。</li>
        <li>欄位必須在您的版面配置範本上啟用，以用於任務[詳細資訊]檢視中的[財務]區域。 如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md">使用配置範本自訂詳細資料檢視</a>。</li>

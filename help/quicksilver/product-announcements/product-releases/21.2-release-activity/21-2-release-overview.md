@@ -8,9 +8,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1affe1ae-571e-4026-8ba7-8ce7104e1b89
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+TQID: https://experienceleague.adobe.com/R3wSSgj2kfPhGFa2qga9vWBdk0HKouiIDjXP7QzeLUc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: e14a7f57-c82c-4874-a495-5d036cbbdc3did: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: c10f2e93-7a58-4212-aa24-684c265ebe76id: c33d85a1-be85-4290-854c-87408c10aa80id: c3a155b4-a54b-4a82-a3d2-c8f0f971673eid: d1573eb8-a2e8-4a06-9526-9c3410bf4914id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '5545'
+source-wordcount: 5714
 ht-degree: 0%
 
 ---
@@ -348,7 +354,7 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>發行日期與環境</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p style="color: #dc143c;"><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-integration-enhancements.md#introduc" class="MCXref xref" xrefformat="{para}">介紹XD適用的Adobe Workfront</a> </p> <p>我們很高興宣佈推出新的外掛程式：XD適用的Adobe Workfront。 此外掛程式可讓您存取工作專案詳細資訊、與更新區域的同事共同作業，以及提交校樣以供檢閱，這一切都無需離開XD。 立即前往Adobe XD Marketplace下載外掛程式。</p> </td> 
+   <td> <p style="color: #dc143c;"><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-integration-enhancements.md#introduc" class="MCXref xref" xrefformat="{para}">介紹XD適用的Adobe Workfront</a> </p> <p>我們很高興宣佈推出新的外掛程式：XD的Adobe Workfront。 此外掛程式可讓您存取工作專案詳細資訊、與更新區域的同事共同作業，以及提交校樣以供檢閱，所有這些都不需要離開XD。 立即前往Adobe XD Marketplace下載外掛程式。</p> </td> 
    <td><strong>在以下日期可用：</strong> <p>Beta預覽版本： 2021年4月27日<br></p> <p>生產版本： 2021年4月27日</p> <p><strong>在以下環境中可用：</strong> </p> <p>全新Adobe Workfront體驗 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -448,7 +454,7 @@ Workfront Fusion中的新功能可在21.2版發行排程以外的步調中提供
 
 針對API版本13，我們已修改各種資源和端點。 有些變更支援新功能，有些則讓您更輕鬆地透過API使用可用資訊。
 
-如需新增和更新的詳細資訊，請參閱[&#x200B; API 13](../../../wf-api/api/new-api-version-13.md)版的新增功能。
+如需新增和更新的詳細資訊，請參閱[ API 13](../../../wf-api/api/new-api-version-13.md)版的新增功能。
 
 ## 正在從生產環境移除的功能
 

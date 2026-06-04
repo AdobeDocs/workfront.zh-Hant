@@ -6,9 +6,12 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+TQID: https://experienceleague.adobe.com/NIe7YaEVogtG4WVzWRhGA4QUf29Igy98-KlJD6OwDT8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2050'
+source-wordcount: 2061
 ht-degree: 1%
 
 ---
@@ -148,7 +151,7 @@ ht-degree: 1%
 1. 按一下表格檢視右上角的&#x200B;**+**&#x200B;圖示以新增欄位，然後按一下&#x200B;**新增連線**，然後按一下&#x200B;**Workfront物件型別**&#x200B;區段中的&#x200B;**專案**。
 1. 新增下列資訊，例如：
 
-   * **記錄型別**：專案(來自Workfront子區段)
+   * **記錄型別**：專案（來自Workfront子區段）
    * **名稱**：為新欄位命名，例如「專案資訊」。
    * **描述**：新增新欄位的描述。 例如，「這些是我想要與行銷活動相關聯的專案。」 當您將游標停留在欄標題中的欄位名稱上時，說明會顯示在表格檢視中。
    * **連線型別**：從下列選項中選取：

@@ -6,9 +6,12 @@ draft: Probably
 feature: Product Announcements, Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: a8141c36-3e57-47df-8f27-9166fbdf1358
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/Jg9T0DlT-KUxuhpec5jC5JQRc91Mn8MTy81wvOcrH0M
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: 183
 ht-degree: 0%
 
 ---

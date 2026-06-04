@@ -6,10 +6,16 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/4KaZmtnTFIfSPZ6QmETm-Q0L7Ih0zHYxoP6BfQGm2kg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3did: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b18b693b-6d59-4359-95fd-a386b7a615feid: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3232'
-ht-degree: 0%
+source-wordcount: 3298
+ht-degree: 1%
 
 ---
 
@@ -298,9 +304,9 @@ ht-degree: 0%
 
 </p>
 <ol>
-<li>新增Adobe XD檔案，讓自訂表單更視覺化，並提供更多資訊。 當表單附加到物件時，使用物件的使用者可以從表單內檢視及與XD檔案互動。
+<li>新增Adobe XD檔案，讓自訂表單更視覺化，並提供更多資訊。當表單附加到物件時，使用物件的使用者可以從表單內檢視及與XD檔案互動。
 </li>
-<li>使用快速篩選器輕鬆找出現代化自訂表單和欄位清單中的專案。 管理表單和欄位時，也能享受改善的外觀和感覺。
+<li>使用快速篩選器輕鬆找出現代化自訂表單和欄位清單中的專案。管理表單和欄位時，也能享受改善的外觀和感覺。
 </li>
 </ol>
                     </td>
@@ -338,7 +344,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        看板<a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">上可用的</a>輸入資料行</p>
+                        看板</a>上可用的<a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">輸入資料行</p>
                         <p>您現在可以將輸入欄新增到展示板。 此欄會根據您定義的篩選器，自動將新增至Workfront中的任務和問題提取至展示板。</p>
                         <p>輸入欄可做為Kanban團隊的待處理欄、支援團隊檢視新增至請求佇列之問題的輸入位置，或您所需的任何其他目的。</p>
                         <p>展示板上只允許一個輸入欄。</p>
@@ -418,7 +424,7 @@ ht-degree: 0%
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">將團隊新增到展示板或卡片</a> </p>
                         <p>您現在可以將團隊新增為討論區的成員。 將團隊新增到展示板時，不再新增個別團隊成員，但所有團隊成員都可以存取展示板。</p>
-                        <p>將團隊新增到面板後，您可以將團隊指派給卡片。 在連線的卡片上，只允許一個團隊指派。 在臨機操作卡上，您可以指派多個團隊。
+                        <p>將團隊新增到面板後，您可以將團隊指派給卡片。在連線的卡片上，只允許一個團隊指派。在臨機操作卡上，您可以指派多個團隊。
                         </p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -727,7 +733,7 @@ Workfront Fusion中的新功能可在22.4版發行排程之外的步調內用於
 
 針對API版本14，我們已修改一些資源和端點。 有些變更支援新功能，有些則讓您更輕鬆地透過API使用可用資訊。
 
-如需新增和更新的詳細資訊，請參閱[&#x200B; API 14](/help/quicksilver/wf-api/api/new-api-version-14.md)版的新增功能。
+如需新增和更新的詳細資訊，請參閱[ API 14](/help/quicksilver/wf-api/api/new-api-version-14.md)版的新增功能。
 
 如需API版本的資訊，請參閱[API版本設定與支援排程](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
 

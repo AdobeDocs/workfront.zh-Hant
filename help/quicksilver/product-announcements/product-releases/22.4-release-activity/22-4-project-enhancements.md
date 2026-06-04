@@ -6,9 +6,13 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 41372dd8-5002-4f8b-a5ac-a577c8b05d11
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+TQID: https://experienceleague.adobe.com/h42aq8ShyeC-mZrt8JlpHYFGfgml9HQ2vWHI0-Op-io
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: 965
 ht-degree: 2%
 
 ---
@@ -51,7 +55,7 @@ ht-degree: 2%
 
 注意：專案、任務和問題的其他使用者欄位將在未來版本中使用此功能進行更新。
 
-[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3412390/){target=_blank}
+[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3412390/){target=_blank}
 
 ## 計算的日期欄位一律根據世界協調時間(UTC)儲存
 
@@ -71,14 +75,14 @@ ht-degree: 2%
 
 根據您的意見反應，我們已推出下列增強功能，以改善您管理自訂表單的體驗：
 
-* 新增Adobe XD檔案，讓自訂表單更視覺化，並提供更多資訊。 當表單附加到物件時，使用物件的使用者可以從表單內檢視XD檔案並與其互動。
+* 新增Adobe XD檔案，讓自訂表單更視覺化，並提供更多資訊。 當表單附加到物件時，使用物件的使用者可以從表單內檢視及與XD檔案互動。
 
 
 * 使用快速篩選器輕鬆找出現代化自訂表單和欄位清單中的專案。 管理表單和欄位時，也能享受改善的外觀和感覺。
 
   如需快速篩選的詳細資訊，請參閱[將快速篩選套用至清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md)。
 
-[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3412469/){target=_blank}
+[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3412469/){target=_blank}
 
 ## 公開Beta — 專案、任務和問題的新篩選器體驗
 
@@ -112,7 +116,7 @@ ht-degree: 2%
 
 ### 我們需要您的意見反應！
 
-有了此公共Beta，使用者可以按一下意見按鈕，直接將意見提交至處理篩選器體驗的團隊。 我們期待您和您的使用者能分享公開測試版中新的篩選器體驗。 如果您的團隊想要直接與產品會面以提供其他意見反應，歡迎在這裡排程會議： https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&date=2022-08-25
+有了此公共Beta，使用者可以按一下意見按鈕，直接將意見提交至處理篩選器體驗的團隊。 我們期待您和您的使用者能分享公開測試版中新的篩選器體驗。 如果您的團隊想要直接與產品會面以提供其他意見反應，歡迎在這裡排程會議： https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&amp;date=2022-08-25
 
 ### 接下來呢？
 
@@ -129,4 +133,4 @@ ht-degree: 2%
 
 如需詳細資訊，請參閱[篩選器總覽](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md)和[在Adobe Workfront中建立或編輯篩選器](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md)。
 
-[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3412391/)
+[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3412391/)

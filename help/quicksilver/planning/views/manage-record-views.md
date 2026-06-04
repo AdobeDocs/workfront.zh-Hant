@@ -6,15 +6,20 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+TQID: https://experienceleague.adobe.com/Uq0-7VfCb4nKr2xCXKmtJgwh0q-0iwTfu8mP2DgVBSU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: 1390
 ht-degree: 2%
 
 ---
-
 
 # 管理記錄檢視
 
@@ -271,7 +276,7 @@ Old:
    * 時間軸
    * 行事曆
 
-1. 選擇檢視型別，然後按一下[建立]。**&#x200B;** 新檢視會新增至下拉式功能表。
+1. 選擇檢視型別，然後按一下[建立]。**** 新檢視會新增至下拉式功能表。
 
    >[!TIP]
    >

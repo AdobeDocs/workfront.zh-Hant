@@ -6,11 +6,17 @@ description: 本文說明如何覆寫專案的系統工作角色收費率。
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
+TQID: https://experienceleague.adobe.com/zCRX2XunBvSbVd0-pr0evZlpMftnDb8QjBxOvDL-djo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: 812
 ht-degree: 2%
 
 ---
@@ -23,7 +29,7 @@ ht-degree: 2%
 
 如需有關覆寫專案的工作角色收費率和計算專案收入的一般資訊，請參閱[覆寫收費率和計算專案收入的概觀](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)。
 
-如需有關哪一個工作角色用於計算專案收入的詳細資訊，請參閱[收入與成本階層概要](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)以及文章[帳單與收入概要](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments)中的[根據使用者和角色指派的任務收入計算](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)區段。
+如需有關哪一個工作角色用於計算專案收入的詳細資訊，請參閱[收入與成本階層概要](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)以及文章[帳單與收入概要](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)中的[根據使用者和角色指派的任務收入計算](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments)區段。
 
 >[!NOTE]
 >

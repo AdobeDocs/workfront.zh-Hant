@@ -7,9 +7,14 @@ description: 相依性型別是指任務之間的前置任務關係。 它們根
 author: Alina
 feature: Work Management
 exl-id: 30d1c60d-0632-4a32-b7e7-a9f8e81bf727
-source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
+TQID: https://experienceleague.adobe.com/AioKERGt0FLv1eBE5-evwa2d35fItwknWI-ZouBECSo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: 322
 ht-degree: 0%
 
 ---
@@ -38,5 +43,5 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->「相依性型別」的縮寫用於工作清單中，以定義前置任務關係。 如需詳細資訊，請參閱[前置任務概觀](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md#examples-of-predecessor-values-in-a-task-list)中[工作清單](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md)的前置任務值範例。
+>「相依性型別」的縮寫用於工作清單中，以定義前置任務關係。 如需詳細資訊，請參閱[前置任務概觀](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md)中[工作清單](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md#examples-of-predecessor-values-in-a-task-list)的前置任務值範例。
 

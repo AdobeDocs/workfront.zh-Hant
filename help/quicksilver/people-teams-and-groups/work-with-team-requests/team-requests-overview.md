@@ -7,11 +7,14 @@ description: 團隊請求可在主功能表的團隊區域中找到。
 author: Courtney
 feature: People Teams and Groups
 exl-id: c131c021-8bc0-4a48-a873-9ee0e189bcab
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ab336c13968f1420ec08eb7ae965b697a862bfb4
+TQID: https://experienceleague.adobe.com/usIfdIZm77U8ltA5lj37cqAp7uHoSSnRD4wuPx863ZM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: 486
 ht-degree: 0%
 
 ---

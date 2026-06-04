@@ -6,9 +6,13 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1235ad4a-72dd-45c5-8513-d073b3e9a2da
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+TQID: https://experienceleague.adobe.com/tzwjuwiHvLFMirY2uX0tNC6ld-RfwGRXqi3poQ688OE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1535'
+source-wordcount: 1545
 ht-degree: 0%
 
 ---

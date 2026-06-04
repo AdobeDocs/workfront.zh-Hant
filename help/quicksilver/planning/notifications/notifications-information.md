@@ -6,13 +6,15 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 9c2f5b14-77c5-42fd-83ad-acbe7da801bd
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+TQID: https://experienceleague.adobe.com/ys8EWZROdn2N-xfV8sRpv10aMHyW3U8f9FjJzSIA0CY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: 136
 ht-degree: 0%
 
 ---
-
 
 # Adobe Workfront規劃通知：文章索引
 

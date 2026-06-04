@@ -7,11 +7,17 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/SBPIFd6lCHfwvZgZ-7Qmjt8miUM6Sjz9iY7BADIpnLk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: c10f2e93-7a58-4212-aa24-684c265ebe76id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: 972
 ht-degree: 4%
 
 ---
@@ -128,7 +134,7 @@ drafted - replace table with P&P:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>新增至主題群組</strong> </td> 
-      <td> 如果專案中沒有「主題群組」，專案名稱會預設為「主題群組」。<br>如果您想要在這裡建立其他主題群組，請從下拉式功能表中選取<strong>建立新主題群組</strong>。<br><img src="assets/create-new-topic-group-within-queue-topic-350x203.png" alt="create_new_topic_group_within_queue_topic.png" style="width: 350;height: 203;"></td> 
+      <td> 如果專案上沒有主題群組，專案名稱會預設為主題群組。<br>如果您想要從此處建立其他主題群組，請從下拉式功能表中選取<strong>建立新主題群組</strong>。<br><img src="assets/create-new-topic-group-within-queue-topic-350x203.png" alt="create_new_topic_group_within_queue_topic.png" style="width: 350;height: 203;"></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>自訂表單</strong> </td> 
@@ -136,7 +142,7 @@ drafted - replace table with P&P:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>預設核准</strong></td> 
-      <td> <p>將核准流程與此佇列主題相關聯。 此下拉式選單中只會顯示問題核准流程。 提交至此佇列的所有問題都將與此核准流程相關聯。 您的Adobe Workfront管理員必須定義系統層級的核准流程，然後才能將其與佇列主題相關聯。 <span>擁有核准流程管理存取許可權的使用者也可以建立群組特定的核准流程。</span>如需建立核准流程的詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">建立工作專案的核准流程</a>。<br></p> 
+      <td> <p>將核准流程與此佇列主題相關聯。 此下拉式選單中只會顯示問題核准流程。 提交至此佇列的所有問題都將與此核准流程相關聯。 您的Adobe Workfront管理員必須定義系統層級的核准流程，然後才能將其與佇列主題相關聯。 <span>具有核准程式之系統管理存取權的使用者也可以建立群組特定的核准程式。</span> 如需有關建立核准流程的詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">建立工作專案的核准流程</a>。<br></p> 
        <div> 
         <p>重要：如果專案的群組變更，則附加至現有問題的群組特定核准流程會變成單一使用核准流程。 如需關於專案群組的變更或核准程式變更如何影響核准設定的詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">群組和核准程式變更如何影響指派的核准程式</a>。</p> 
         <p>將核准流程新增至佇列主題時，請考量下列事項： </p> 

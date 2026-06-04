@@ -8,9 +8,12 @@ feature: Product Announcements
 role: User, Admin
 hide: true
 exl-id: 5ce15530-0858-44a4-b928-779654310dee
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+TQID: https://experienceleague.adobe.com/jABmrg3J6ybnIePjVPsEXSBWrtroZm-BEIP-MDA3eDY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: 419
 ht-degree: 0%
 
 ---

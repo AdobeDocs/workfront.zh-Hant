@@ -6,11 +6,17 @@ description: 專案請求在Adobe Workfront中顯示為[!UICONTROL 已請求]狀
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1acfb885-0da3-495d-ba66-e80e339e90de
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/TedrcHAXyGEp4suJFPRv5p-kgXdFzyKr9h5Vqp4q3E8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: c10f2e93-7a58-4212-aa24-684c265ebe76id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: 429
 ht-degree: 3%
 
 ---
@@ -19,7 +25,7 @@ ht-degree: 3%
 
 <!--Audited: 10/2025-->
 
-當提交多個專案請求以供稽核時，專案管理辦公室或專案組合委員會可以開會以稽核提交的請求，並決定專案請求核准。 專案請求在[!UICONTROL 中顯示為狀態為]已請求[!DNL Adobe Workfront]的專案。
+當提交多個專案請求以供稽核時，專案管理辦公室或專案組合委員會可以開會以稽核提交的請求，並決定專案請求核准。 專案請求在[!DNL Adobe Workfront]中顯示為狀態為[!UICONTROL 已請求]的專案。
 
 您可以執行下列其中一項作業來提交專案請求以供複查：
 
@@ -46,16 +52,16 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>[!UICONTROL 標準] </p> 
-   <p>[!UICONTROL 計畫]</p> </td> 
+   <td> <p>[！UICONTROL標準] </p> 
+   <p>[！UICONTROL計畫]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL 檢視]對產品組合的存取權或以上版本</p> <p>[!UICONTROL Edit]專案的存取權</p>  </td> 
+   <td> <p>[！UICONTROL檢視]對產品組合的存取權或以上版本</p> <p>[！UICONTROL Edit]專案的存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合上的[!UICONTROL View]許可權或更高</p> <p>[!UICONTROL Manage]專案許可權可更新其狀態</p>  </td> 
+   <td> <p>投資組合上的[！UICONTROL View]許可權或更高</p> <p>[！UICONTROL Manage]專案許可權可更新其狀態</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -95,7 +101,7 @@ Old:
 
 您可以建立專案報告，以檢視哪些專案具有[!UICONTROL 已要求]的狀態。
 
-如需有關建立專案報告以核准專案請求的詳細資訊，請參閱[[!UICONTROL 核准業務案例]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report)中的[建立專案報告以核准業務案例](../../../manage-work/projects/define-a-business-case/approve-business-case.md)區段。
+如需有關建立專案報告以核准專案請求的詳細資訊，請參閱[核准業務案例](../../../manage-work/projects/define-a-business-case/approve-business-case.md)中的[[!UICONTROL 建立專案報告以核准業務案例]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report)區段。
 
 ## 檢閱投資組合中請求的專案
 
@@ -113,7 +119,7 @@ Old:
 1. 按一下左側面板中的&#x200B;**[!UICONTROL 專案詳細資料]**。
 1. 執行下列任一項作業：
 
-   * 按一下&#x200B;**[!UICONTROL 業務案例]**，然後按一下&#x200B;**[!UICONTROL 業務案例摘要]**&#x200B;區域中的&#x200B;**[!UICONTROL 核准]**&#x200B;或[!UICONTROL 拒絕]，以核准或拒絕業務案例。
+   * 按一下&#x200B;**[!UICONTROL 業務案例]**，然後按一下[!UICONTROL 業務案例摘要]區域中的&#x200B;**[!UICONTROL 核准]**&#x200B;或&#x200B;**[!UICONTROL 拒絕]**，以核准或拒絕業務案例。
 
      ![approve_or_reject_business_case.png](assets/approve-or-reject-business-case-350x563.png)
 

@@ -8,9 +8,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3affee76-347e-4610-b255-4b1bb4414c5d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/MKm0PiSRhZmTgQEGSv7BnoZZKsEyxDoajFr3JHMEV14
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: c33d85a1-be85-4290-854c-87408c10aa80id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3659'
+source-wordcount: 3831
 ht-degree: 0%
 
 ---
@@ -109,7 +115,7 @@ For specific release dates and times for each cluster, see the
     <ul> 
      <li> <p>控制Workfront電子郵件如果包含儲存在Workfront中的報告或檔案，可以傳送的位置</p> </li> 
      <li> <p>控制電子郵件網域可以在使用者設定檔中指定的電子郵件地址中</p> </li> 
-    </ul> <p>例如，如果您想保護敏感資料，例如列出有風險客戶的報表，您只能在電子郵件允許清單中加入內部電子郵件網域或網域。 如此一來，使用者無法將該報表(或任何其他Workfront報表)傳送至外部電子郵件地址。</p> </td> 
+    </ul> <p>例如，如果您想保護敏感資料，例如列出有風險客戶的報表，您只能在電子郵件允許清單中加入內部電子郵件網域或網域。 如此一來，使用者無法將該報表（或任何其他Workfront報表）傳送至外部電子郵件地址。</p> </td> 
    <td><strong>在以下日期可用：</strong> <p>Beta預覽版本： 2020年11月20日</p> <p>生產版本：第21.1發行版本 </p> <p><strong>在以下環境中可用：</strong> </p> <p>全新Adobe Workfront體驗 </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -268,7 +274,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
  </tbody> 
 </table>
-—&gt;
+--&gt;
 
 ### 其他增強功能 {#other-enhancements}
 
@@ -337,7 +343,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-如需有關新增功能和更新的資訊，請參閱[&#x200B; API 12](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12)版的新功能。
+如需有關新增功能和更新的資訊，請參閱[ API 12](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12)版的新功能。
 
 如需API版本的詳細資訊，請參閱[API版本設定與支援排程](../../../wf-api/api/api-version-support-schedule.md)
 
@@ -392,7 +398,7 @@ This section will be updated with more information prior to the 20.4 release bei
 
 ### 21.1版本網路研討會 {#21-1-release-webinar}
 
-Workfront 21.1版本網路研討會將於2月3日上午11:00 (東部夏令時間/下午4:00 （英國夏令時間）舉行。 在[這裡](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=ac&eventid=2934272&sessionid=1&key=5C231B3385686D1E224A49EBE0BF0E37&regTag=&V2=false&sourcepage=register)註冊網路研討會。
+Workfront 21.1版本網路研討會將於2月3日美國東部夏令時間上午11:00 /晚上4:00 BST舉行。 在[這裡](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=ac&eventid=2934272&sessionid=1&key=5C231B3385686D1E224A49EBE0BF0E37&regTag=&V2=false&sourcepage=register)註冊網路研討會。
 
 ### 預覽發行步調中的變更 {#change-in-preview-release-cadence}
 
@@ -404,4 +410,4 @@ Workfront 21.1版本網路研討會將於2月3日上午11:00 (東部夏令時間
 
 有了Workfront One，您將能從Workfront探索最重要的內容、資源和新聞 — 全部整合在單一位置，只需登入一次。 我們已整合體驗、社群和訓練網站，讓您更容易找到想要的東西。
 
-[進一步瞭解Workfront One](https://business.adobe.com/tw/products/workfront.html)。
+[進一步瞭解Workfront One](https://business.adobe.com/products/workfront.html)。

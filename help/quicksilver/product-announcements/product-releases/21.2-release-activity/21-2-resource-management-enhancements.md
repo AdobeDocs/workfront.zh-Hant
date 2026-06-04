@@ -8,9 +8,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 00133efe-f779-4217-87af-a223dcf043ee
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/cAM0R2azvfhRW25brnRKCUXZ5f2ZLGeBVd19okbdBpU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: 575
 ht-degree: 0%
 
 ---
@@ -48,7 +54,7 @@ ht-degree: 0%
 
 在此增強功能之前，Workfront僅使用預算時數計算淨值。 淨值會顯示可用與預算或計畫時數、FTE或成本之間的差異。 計算淨值時，預算時數仍是預設設定。
 
-如需相關資訊，請參閱資源規劃工具[&#128279;](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的專案與角色檢視中的時數概觀、約當全職人數與成本資訊。
+如需相關資訊，請參閱資源規劃工具](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的專案與角色檢視中的[時數概觀、約當全職人數與成本資訊。
 
 ## 在工作負載平衡器12週檢視
 
@@ -62,4 +68,4 @@ ht-degree: 0%
 
 在此增強功能之前，當將工作角色篩選器套用至未指派區域時，工作負載平衡器顯示與指派給工作角色的工作專案相關的所有時數。
 
-如需有關在工作負載平衡器中篩選資訊的資訊，請參閱在工作負載平衡器中管理篩選器[&#128279;](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)。
+如需有關在工作負載平衡器中篩選資訊的資訊，請參閱在工作負載平衡器中管理篩選器[](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)。

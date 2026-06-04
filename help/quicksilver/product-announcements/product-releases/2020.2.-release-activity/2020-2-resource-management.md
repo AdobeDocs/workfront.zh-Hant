@@ -7,10 +7,16 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 00cc1205-5d58-485b-8076-e177f1d931f9
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/QAgsK1-saTn4aaPn81bazNS4J2eyvAGP8C6ndMGLY7A
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1741'
-ht-degree: 0%
+source-wordcount: 1814
+ht-degree: 4%
 
 ---
 
@@ -45,7 +51,7 @@ ht-degree: 0%
 
 為了使工作負載平衡器中的資訊與您相關，您現在可以為工作負載平衡器的未指派工作和指派的工作區域建立篩選器，並儲存它們以供將來使用。 然後您可以編輯儲存的版本以進行小型變更，而不是從頭開始使用新的篩選器。
 
-如需有關在工作負載平衡器中篩選的資訊，請參閱在工作負載平衡器中管理篩選器[&#128279;](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)
+如需有關在工作負載平衡器中篩選的資訊，請參閱在工作負載平衡器中管理篩選器[](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -64,7 +70,7 @@ ht-degree: 0%
 
 為協助您做出正確的指派決定，現在有一項新設定可讓您檢視使用者根據其排程可工作的時數與已分配至工作的時數（剩餘時數）之間的時數差異。 新設定現在可以在工作負載平衡器中使用。
 
-如需有關在工作負載平衡器中檢視資訊的資訊，請參閱[瀏覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (或者，如果您正在使用Adobe Workfront Classic，請參閱[瀏覽工作負載平衡器](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home))。
+如需有關在工作負載平衡器中檢視資訊的資訊，請參閱[瀏覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) （或者，如果您正在使用Adobe Workfront Classic，請參閱[瀏覽工作負載平衡器](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home)）。
 
 **在以下環境中可用：**
 
@@ -76,7 +82,7 @@ ht-degree: 0%
 
 在此變更之前，此設定只會更新平衡器的已指派工作區域中的資訊。
 
-如需有關導覽工作負載平衡器的資訊，請參閱[導覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (或者，如果您正在使用Adobe Workfront Classic，請參閱[導覽工作負載平衡器](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home)。)
+如需有關導覽工作負載平衡器的資訊，請參閱[導覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) （或者，如果您正在使用Adobe Workfront Classic，請參閱[導覽工作負載平衡器](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home)。）
 
 **在以下環境中可用：**
 
@@ -90,7 +96,7 @@ ht-degree: 0%
 * 依專案分組
 * 顯示您的任務和專案的已分配時數或剩餘時數。
 
-如需有關在工作負載平衡器中檢視資訊的資訊，請參閱[瀏覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (或者，如果您正在使用Adobe Workfront Classic，請參閱[瀏覽工作負載平衡器](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home)。)
+如需有關在工作負載平衡器中檢視資訊的資訊，請參閱[瀏覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) （或者，如果您正在使用Adobe Workfront Classic，請參閱[瀏覽工作負載平衡器](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home)。）
 
 **在以下環境中可用：**
 
@@ -101,7 +107,7 @@ ht-degree: 0%
 
 您現在可以將人員的工作負荷與主管分享，這樣他們就可以掌握您人員需求的相關情境。 為此，您現在可以透過與任何人共用工作負載平衡器的唯一URL來共用工作負載平衡器。
 
-如需有關導覽工作負載平衡器的資訊，請參閱[導覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (或如果您使用Adobe Workfront Classic，請參閱[導覽工作負載平衡器](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home))。
+如需有關導覽工作負載平衡器的資訊，請參閱[導覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) （或如果您使用Adobe Workfront Classic，請參閱[導覽工作負載平衡器](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home)）。
 
 **在以下環境中可用：**
 
@@ -114,7 +120,7 @@ ht-degree: 0%
 
 在此增強功能之前，工作負載平衡器一律顯示從本週開始的資訊。
 
-如需有關導覽工作負載平衡器的資訊，請參閱[導覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (或如果您使用Adobe Workfront Classic，請參閱[導覽工作負載平衡器](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home))。
+如需有關導覽工作負載平衡器的資訊，請參閱[導覽工作負載平衡器](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) （或如果您使用Adobe Workfront Classic，請參閱[導覽工作負載平衡器](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home)）。
 
 **在以下環境中可用：**
 
@@ -129,11 +135,11 @@ ht-degree: 0%
 
 在此變更之前，任務限制一律會儘快變更為。
 
-如需關於移動任務的資訊，請參閱[移動任務](../../../manage-work/tasks/manage-tasks/move-tasks.md) (或如果您使用Adobe Workfront Classic，請參閱[移動任務](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home))。
+如需關於移動任務的資訊，請參閱[移動任務](../../../manage-work/tasks/manage-tasks/move-tasks.md) （或如果您使用Adobe Workfront Classic，請參閱[移動任務](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home)）。
 
-如需有關複製任務的資訊，請參閱[複製和複製任務](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (或者如果您正在使用Adobe Workfront Classic，請參閱[複製和複製任務](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home))。
+如需有關複製任務的資訊，請參閱[複製和複製任務](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) （或者如果您正在使用Adobe Workfront Classic，請參閱[複製和複製任務](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home)）。
 
-如需所有任務限制的概觀，請參閱[任務限制概觀](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (或者，如果您正在使用Adobe Workfront Classic，請參閱[任務限制概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home))。
+如需所有任務限制的概觀，請參閱[任務限制概觀](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) （或者，如果您正在使用Adobe Workfront Classic，請參閱[任務限制概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home)）。
 
 **在以下環境中可用：**
 
@@ -161,9 +167,9 @@ ht-degree: 0%
 * 為物件（專案、任務或問題）建立單次使用的核准流程，並以與使用該物件的群組相關聯的狀態為基礎。 這包括任何與群組相關聯的自訂狀態。
 * 建立全域核准流程，並僅供群組或系統中的所有人使用。
 
-對於具有核准程式之管理存取權的使用者，有關設定核准程式的資訊可在[建立工作專案的核准程式](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)中取得(或者如果您使用Adobe Workfront Classic，請參閱[建立核准程式](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home))。
+對於具有核准程式之管理存取權的使用者，有關設定核准程式的資訊可在[建立工作專案的核准程式](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)中取得（或者如果您使用Adobe Workfront Classic，請參閱[建立核准程式](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home)）。
 
-使用者可在[將新的或現有的核准程式與工作建立關聯](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (或如果您使用Adobe Workfront Classic，請參閱[將新的或現有的核准程式與工作建立關聯](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home))中取得有關將核准程式與工作專案建立關聯的資訊。
+使用者可在[將新的或現有的核准程式與工作建立關聯](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) （或如果您使用Adobe Workfront Classic，請參閱[將新的或現有的核准程式與工作建立關聯](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home)）中取得有關將核准程式與工作專案建立關聯的資訊。
 
 **在以下環境中可用：**
 

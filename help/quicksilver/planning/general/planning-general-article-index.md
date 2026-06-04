@@ -1,26 +1,28 @@
 ---
 title: Adobe Workfront規劃一般資訊：文章索引
-description: 做為行銷營運領導者，您可以使用 Adobe Workfront Planning 組織所有團隊在行銷生命週期中的工作。本節中的文章會說明Workfront Planning的一般概念、實施最佳作法，並提供目前可用功能的概觀。
+description: 做為行銷營運領導者，您可以使用 Adobe Workfront Planning 組織所有團隊在行銷生命週期中的工作。 本節中的文章會說明Workfront Planning的一般概念、實施最佳作法，並提供目前可用功能的概觀。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8c4e4fbb-2f21-43a1-bfb0-d23ac1a33705
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/IPvYru6al05HMWf7jLZ1XuGWD8Eq2P6s22NamtxqA4w
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: 187
 ht-degree: 23%
 
 ---
-
 
 # Adobe Workfront Planning一般資訊：文章索引
 
 {{planning-important-intro}}
 
-做為行銷營運領導者，您可以使用 Adobe Workfront Planning 組織所有團隊在行銷生命週期中的工作。本節中的文章會說明Workfront Planning的一般概念、實施最佳作法，並提供目前可用功能的概觀。
+做為行銷營運領導者，您可以使用 Adobe Workfront Planning 組織所有團隊在行銷生命週期中的工作。 本節中的文章會說明Workfront Planning的一般概念、實施最佳作法，並提供目前可用功能的概觀。
 
 檢閱下列文章：
 

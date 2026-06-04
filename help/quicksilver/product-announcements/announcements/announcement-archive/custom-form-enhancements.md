@@ -4,9 +4,15 @@ description: 在22.2版本中，為管理自訂表單進行了以下重要增強
 author: Luke
 feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+TQID: https://experienceleague.adobe.com/hq-y5cINrn-FNSBAdrXD8kf-cVZeRoFH6mKKKOnRCuY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: 1117
 ht-degree: 0%
 
 ---
@@ -27,7 +33,7 @@ ht-degree: 0%
 
   ![影像詳細資料](assets/see-image-details-page.png)
 
-* 物件的「編輯」方塊(如果它具有新的Adobe Workfront體驗外觀) （例如「編輯專案」和「編輯任務」方塊）&#x200B;。
+* 物件的「編輯」方塊（如果它具有新的Adobe Workfront體驗外觀） （例如「編輯專案」和「編輯任務」方塊）&#x200B;。
 
   ![影像編輯](assets/image-see-in-edit.png)
 
@@ -35,8 +41,8 @@ ht-degree: 0%
 
 * 清單與報告
 * 首頁和摘要
-* 物件的「編輯」方塊(如果它沒有新的Adobe Workfront體驗外觀) （例如「編輯費用」方塊）
-* Workfront&#x200B;行動應用程式
+* 物件的「編輯」方塊（如果它沒有新的Adobe Workfront體驗外觀） （例如「編輯費用」方塊）
+* &#x200B;行動應用程式
 
 ## 將自訂表單與多個物件型別建立關聯
 
@@ -78,7 +84,7 @@ ht-degree: 0%
 
 ![有限編輯的分節符號](assets/section-break-permissions-limited-edit.png)
 
-適用於所有其他物件型別(Portfolio、檔案、方案、費用、公司、反複專案、記帳記錄和群組)的一組分割槽符號許可權不包含有限編輯：
+所有其他物件型別（Portfolio、檔案、方案、費用、公司、疊代、記帳記錄和群組）可用的分割槽符號許可權集不包含有限編輯：
 
 ![分割槽符號不受限制地編輯](assets/section-break-permissions-no-limited-edit.png)
 

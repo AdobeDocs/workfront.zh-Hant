@@ -7,9 +7,15 @@ description: 以某種容量與專案相關聯的使用者組成專案團隊。 
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+TQID: https://experienceleague.adobe.com/LGSe-irWGUAcnVNTXYCuN9lej-sY6YPK-dTULCytSXM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: be65ef36-43e4-48e1-a062-caa3778e15beid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: 482
 ht-degree: 1%
 
 ---

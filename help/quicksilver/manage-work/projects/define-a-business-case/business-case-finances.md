@@ -6,9 +6,15 @@ description: 「業務案例」子頁標包含專案的財務欄位。 為了讓
 author: Becky
 feature: Work Management
 exl-id: d420fc3e-e98d-47a0-a456-b2df17d72f34
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/rtNmXiZoe-NqCa8neuASw1BDMl8OBBbsN6Jm0a6Z-90
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: 746
 ht-degree: 2%
 
 ---
@@ -35,7 +41,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>預算成本</td> 
-   <td> <p>專案啟動時，與專案相關聯的預估總成本。</p> <p>專案的預算成本是透過下列公式計算：<br></p> <p><code>Budgeted Cost = Budgeted Expense Cost + Budgeted Labor Cost </code> <br> </p> <p>Adobe Workfront使用資源規劃工具的預算時數來計算預算勞力成本。<br>如需有關計算預算成本的詳細資訊，請參閱<a href="../../../manage-work/projects/project-finances/budgeted-cost.md" class="MCXref xref">計算預算成本</a>。 </p> <p>此欄位會顯示在「業務案例摘要」區域中。</p> </td> 
+   <td> <p>專案啟動時，與專案相關聯的預估總成本。</p> <p>專案的預算成本是透過下列公式計算：<br></p> <p><code>Budgeted Cost = Budgeted Expense Cost + Budgeted Labor Cost </code> <br> </p> <p>Adobe Workfront使用資源規劃工具中的預算時數來計算預算勞力成本。<br>如需有關計算預算成本的詳細資訊，請參閱<a href="../../../manage-work/projects/project-finances/budgeted-cost.md" class="MCXref xref">計算預算成本</a>。 </p> <p>此欄位會顯示在「業務案例摘要」區域中。</p> </td> 
   </tr> 
   <tr> 
    <td>預算費用成本</td> 
@@ -43,7 +49,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>預算勞力成本</td> 
-   <td> <p>與指定完成專案工作的資源相關聯的成本。</p> <p>專案的預算勞力成本會透過下列公式計算：<br></p> <p><code>Budgeted Labor Cost = SUM(Estimated/ Budgeted hours for each job role on the project * Cost per Hour rate of each job role on the project) </code><br></p> <p>Workfront使用資源規劃工具的預算時數來計算預算勞力成本。<br>如需有關計算預算勞力成本的詳細資訊，請參閱<a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">瞭解專案的預算勞力成本和預算時數</a>。</p> <p>此欄位會顯示在業務案例的資源預算區域中。 </p> </td> 
+   <td> <p>與指定完成專案工作的資源相關聯的成本。</p> <p>專案的預算勞力成本會透過下列公式計算：<br></p> <p><code>Budgeted Labor Cost = SUM(Estimated/ Budgeted hours for each job role on the project * Cost per Hour rate of each job role on the project) </code><br></p> <p>Workfront使用資源規劃工具中的預算時數來計算預算勞力成本。<br>如需有關計算預算勞力成本的詳細資訊，請參閱<a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">瞭解專案的預算勞力成本與預算時數</a>。</p> <p>此欄位會顯示在業務案例的資源預算區域中。 </p> </td> 
   </tr> 
   <tr> 
    <td>費用計畫成本</td> 

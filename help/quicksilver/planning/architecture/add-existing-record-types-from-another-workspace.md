@@ -6,15 +6,20 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: fdbe3945f59306fc26424d7e88b799d9dcaea4da
+TQID: https://experienceleague.adobe.com/grtTc9KyoVJXzU27qkmFyJhY0mYtdSjz-Q1Pb-YqxLI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: 793
 ht-degree: 1%
 
 ---
-
 
 # 從另一個工作區新增現有記錄型別
 
@@ -138,7 +143,7 @@ And
 1. 按一下「**繼續**」。
 1. （視條件而定）在&#x200B;**選擇記錄型別**&#x200B;方塊中，按一下您要從現有工作區新增的記錄型別卡片，然後按一下&#x200B;**新增**。
 
-   <span class="preview">如果您使用[預覽]環境，您可以按一下以選取多個記錄型別，然後按一下[新增]。**&#x200B;** 清單中會顯示所有可用工作區中的所有全域記錄型別。</span>
+   <span class="preview">如果您使用[預覽]環境，您可以按一下以選取多個記錄型別，然後按一下[新增]。**** 清單中會顯示所有可用工作區中的所有全域記錄型別。</span>
 
    記錄型別已新增至您選取的次要工作區，且次要工作區上的&#x200B;**全域記錄型別**&#x200B;圖示![全域記錄圖示](assets/global-icon-secondary-workspace.png)會顯示在記錄型別的卡片上。
 全域記錄型別圖示在顯示在次要工作區的記錄型別上時包括箭頭，以表示該記錄型別是從現有記錄型別新增的。

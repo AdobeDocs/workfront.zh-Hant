@@ -7,11 +7,17 @@ description: Portfolio是具有統一特性的專案集合。 這些專案通常
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: b340501e-1190-415e-aa96-5aad177c4b7b
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/mLs5mZiSsS-ApmxUkD08wiBUmMV5VKtoUB0u23gCeRA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: 587
 ht-degree: 1%
 
 ---
@@ -50,12 +56,12 @@ Portfolio或專案Portfolio管理(PPM)是排定專案清單優先順序及加以
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>[!UICONTROL 標準]</p>
-   <p>[!UICONTROL 計畫]</p> </td> 
+   <td> <p>[！UICONTROL標準]</p>
+   <p>[！UICONTROL計畫]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL Edit]對投資組合的存取權</p>  </td> 
+   <td> <p>[！UICONTROL Edit]對投資組合的存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
@@ -140,4 +146,4 @@ Old:
 
    Portfolio經理可以使用Portfolio儀表板追蹤投資組合內的財務績效。 此儀表板會顯示在Portfolio的標題中。
 
-   如需Portfolio的財務欄位相關資訊，請參閱[Portfolio Optimizer概觀](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md#financial-fieds-subsection)中的[瞭解Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)區段。
+   如需Portfolio的財務欄位相關資訊，請參閱[Portfolio Optimizer概觀](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)中的[瞭解Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md#financial-fieds-subsection)區段。

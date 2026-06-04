@@ -6,19 +6,21 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
+TQID: https://experienceleague.adobe.com/EQBOcWZ90EDMHab3XDXJDwNN97-b019ciwr2srvCvrQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 0%
+source-wordcount: 235
+ht-degree: 9%
 
 ---
-
 
 # 架構：文章索引
 
 {{planning-important-intro}}
 
-身為行銷營運領導者，您可以使用Adobe Workfront Planning來組織所有團隊在行銷生命週期中的工作。
+做為行銷營運領導者，您可以使用 Adobe Workfront Planning 組織所有團隊在行銷生命週期中的工作。
 
 透過Workfront Planning，您可以完全自訂工作流程，從決定組織使用的物件型別（或記錄型別），到設定這些物件彼此連結的方式。
 
