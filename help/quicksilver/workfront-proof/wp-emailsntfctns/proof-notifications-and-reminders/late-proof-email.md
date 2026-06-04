@@ -9,10 +9,14 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 23eb75a7-d7b7-4043-afba-cf45c86ab1ae
 TQID: https://experienceleague.adobe.com/7mN20lz57PSto-MAK1EqBg19RdMwIjnEUnzEIEpNxvU
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 403
@@ -52,6 +56,6 @@ ht-degree: 0%
 
   >[!NOTE]
   >
-  >校訂的建立者會收到每個已建立校訂的個別[!UICONTROL 校訂]電子郵件。 如需詳細資訊，請參閱[校訂內容]電子郵件](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)。[!UICONTROL 
+  >校訂的建立者會收到每個已建立校訂的個別[!UICONTROL 校訂]電子郵件。 如需詳細資訊，請參閱[校訂內容]電子郵件(../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)。
 
 * 如果您或您的檢閱者沒有收到預期的電子郵件通知，請參閱[設定 [!DNL Workfront Proof] 電子郵件以避免垃圾郵件篩選器](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md)。

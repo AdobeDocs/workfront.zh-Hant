@@ -8,8 +8,10 @@ author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: 7f543c35-d4e3-4d17-be21-1f09eb7c4df3
 TQID: https://experienceleague.adobe.com/OKJUbYvwNtxOEGYPF5KW6hbCi1SdlX6m3OkJQcdgw-E
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 165

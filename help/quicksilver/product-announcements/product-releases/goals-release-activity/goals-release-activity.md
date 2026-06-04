@@ -8,8 +8,10 @@ author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: 1740c91f-b01e-4e97-987a-d1b810d0c0a4
 TQID: https://experienceleague.adobe.com/4tMOg93xF5okKc50LLCBYBdq1PZZ--ZdKk9MD7Qpjf4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 123

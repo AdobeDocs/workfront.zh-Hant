@@ -8,11 +8,24 @@ exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/LDVvgUqKZXiKNzhBA0N2oj7vLgKaUqyowRWtJ3dafWA
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3did: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: b18b693b-6d59-4359-95fd-a386b7a615feid: c33d85a1-be85-4290-854c-87408c10aa80id: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: fceb5125-bb41-419a-b0db-31958cb42f6c
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1948
@@ -69,7 +82,7 @@ ht-degree: 2%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">商業規則現已可用</a></p>
-                        [！BADGE In Production ]{type=Informative}
+                        [!BADGE In Production &#x200B;]{type=Informative}
                         <p>管理員現在可以在Workfront的設定區域中新增商業規則。</p>
                         <p>商業規則可讓您套用驗證至Workfront物件，並防止使用者在滿足某些條件時建立、編輯或刪除物件。 規則是使用與自訂表單中計算欄位類似的公式來建置。</p>
                     </td>
@@ -88,7 +101,7 @@ ht-degree: 2%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">自訂表單設計工具通常可在Adobe Workfront中使用</a></p>
-                        [！BADGE In Production ]{type=Informative}
+                        [!BADGE In Production &#x200B;]{type=Informative}
                         <p>在24.7版中，表單設計人員將可正式使用，並成為在Adobe Workfront中建立和編輯自訂表單的預設體驗。 當您建立新的自訂表單或開啟現有的表單時，您將會看到表單設計工具的畫布樣式工作區。</p>
                         <p>此版本後，您將無法再選擇回覆至舊版表單產生器。</p>
                     </td>
@@ -106,7 +119,7 @@ ht-degree: 2%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">在具有環境升級的Workfront環境之間移動物件</a></p>
-                        [！BADGE In Production ]{type=Informative}
+                        [!BADGE In Production &#x200B;]{type=Informative}
                         <p>環境升級可讓您將物件從一個Workfront環境移動到另一個環境，例如從沙箱環境移動到生產環境。 您可以設定及測試物件，而不會對貴組織的資料和記錄造成任何風險。 然後，您就可以將這些物件移至生產環境，而無需重新設定，從而節省時間和精力。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -120,7 +133,7 @@ ht-degree: 2%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">在自訂表單設計工具中共用自訂表單和自訂欄位</a></p>
-                        [！BADGE In Production ]{type=Informative}
+                        [!BADGE In Production &#x200B;]{type=Informative}
                         <p>您現在可以在新的表單設計工具中共用自訂表單和自訂欄位。 這可讓自訂表單的使用者之間有更多共同作業。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -137,7 +150,7 @@ ht-degree: 2%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">從欄位區域新增自訂欄位</a></p>
-                        [！BADGE In Production ]{type=Informative}
+                        [!BADGE In Production &#x200B;]{type=Informative}
                         <p>您現在可以直接從Workfront中的欄位區域新增自訂欄位或Widget，而無需開啟自訂表單來建立欄位。 這可讓您快速建立可重複使用的自訂欄位。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -154,7 +167,7 @@ ht-degree: 2%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">表單設計工具上可用的多重選取下拉式欄位型別</a></p>
-                        [！BADGE In Production ]{type=Informative}
+                        [!BADGE In Production &#x200B;]{type=Informative}
                         <p>為協助您更輕鬆地定義下拉式欄位，我們已將多選下拉式欄位新增到自訂表單設計工具。 此欄位型別可讓使用者從下拉式清單中選擇多個選項。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -190,7 +203,7 @@ ht-degree: 2%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">專案與任務可用的可記帳與不可記帳費用欄位</a></p>
-                        [！BADGE In Production ]{type=Informative}
+                        [!BADGE In Production &#x200B;]{type=Informative}
                         <p>為了幫助您更輕鬆地檢視費用型別，在專案和工作中，費用被分成可記帳和不可記帳費用。 下列欄位可供您新增至檢視和報表：</p>
                         <ul>
                             <li><p>規劃可計費費用成本</p></li>
@@ -232,7 +245,7 @@ ht-degree: 2%
                 <tr>
                     <td>
                         適用於Experience Manager Assets和Assets Essentials的<a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront改善</a></p>
-                        [！BADGE In Production ]{type=Informative}
+                        [!BADGE In Production &#x200B;]{type=Informative}
                         <p>我們針對用於Experience Manager Assets和Assets Essentials整合的Workfront進行了以下改進：</p>
                         <ul>
                             <li><p>整合現在支援GCP作為雲端服務提供者。 先前支援AWS和Azure。</p></li>
@@ -272,7 +285,7 @@ ht-degree: 2%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">從標題或詳細資訊區段編輯任務和問題認可日期和條件</a></p>
-                        [！BADGE In Production ]{type=Informative}
+                        [!BADGE In Production &#x200B;]{type=Informative}
                         <p>為了讓您更輕鬆地更新任務和問題，我們現在新增了提交日期和條件欄位，作為選項以新增到任務和問題標題和版面配置範本中的詳細資訊區段。 當使用者被指派給修改的版面配置範本時，他們現在可以從頁面的標題或詳細資訊區段更新這些欄位。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -292,7 +305,7 @@ ht-degree: 2%
                    <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">更多相關指派已新增至新任務工作流程</a></p>
-                        [！BADGE In Production for Fast Release ]{type=Positive}
+                        [!BADGE In Production for Fast Release &#x200B;]{type=Positive}
                         <p>將任務新增至專案和專案任務清單時，我們已將相同功能新增至「新增任務」方塊的「工作總攬」欄位，以提供更相關的智慧指派。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -310,7 +323,7 @@ ht-degree: 2%
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">更多相關的智慧指派</a></p>
-                        [！BADGE In Production for Fast Release ]{type=Positive}
+                        [!BADGE In Production for Fast Release &#x200B;]{type=Positive}
                         <p>我們已變更Workfront用來計算及建議智慧型任務指派的演演算法。 新演演算法適用於Workfront中指派任務的以下區域：任務清單、任務標題中的「工作」區域、「首頁」和「摘要」面板。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -347,7 +360,7 @@ ht-degree: 2%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">案頭校訂檢視器的安全性更新</a></p>
-                        [！BADGE In Production ]{type=Informative}
+                        [!BADGE In Production &#x200B;]{type=Informative}
                         <p>Workfront Proof Desktop Proofing Viewer 2.1.35安全性更新針對舊版中已發現的弱點提供安全性錯誤修正。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -383,7 +396,7 @@ ht-degree: 2%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md">休假現在反映在工作負載平衡器</a>中</p>
-                        [！BADGE In Production ]{type=Informative}
+                        [!BADGE In Production &#x200B;]{type=Informative}
                         <p>為了在任務的主要受指派人排程休假時順暢地調整工作，現在重新計算專案時間表時，工作負載平衡器會重新分配時數給主要和次要使用者。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -432,7 +445,7 @@ ht-degree: 2%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience現在可供更多Workfront組織使用</a></p>
-                        [！BADGE In Production ]{type=Informative}
+                        [!BADGE In Production &#x200B;]{type=Informative}
                         <p>為了讓組織能夠存取Adobe Unified Experience的優點，我們已開始將其提供給現有的Workfront客戶。 </p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -450,7 +463,7 @@ ht-degree: 2%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">說明按鈕已從主要導覽列移除</a></p>
-                        [！BADGE In Production ]{type=Informative}
+                        [!BADGE In Production &#x200B;]{type=Informative}
                         <p>為了統一不在Unified Shell上的使用者體驗，已移除主要導覽列上的「說明」按鈕。 此按鈕未提供給Unified Shell的使用者，已連結至Workfront檔案，並且備有提供給主功能表中所有使用者使用的類似「說明」按鈕。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -467,7 +480,7 @@ ht-degree: 2%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">改善物件存取受限使用者的UI體驗</a></p>
-                        [！BADGE In Production ]{type=Informative}
+                        [!BADGE In Production &#x200B;]{type=Informative}
                         <p>當使用者無權存取物件時，使用者將在Workfront中顯示物件名稱的任何位置看到「無權存取」。 此改善的體驗也適用於Workfront API。</p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
@@ -525,7 +538,7 @@ Workfront Fusion中的新功能可在2024年第三季度發行排程之外的步
 
 針對API版本18，我們已修改一些資源和端點。 有些變更支援新功能，有些則讓您更輕鬆地透過API使用可用資訊。
 
-如需新增和更新的詳細資訊，請參閱[ API 18](/help/quicksilver/wf-api/api/new-api-version-18.md)版的新增功能。
+如需新增和更新的詳細資訊，請參閱[&#x200B; API 18](/help/quicksilver/wf-api/api/new-api-version-18.md)版的新增功能。
 
 如需API版本的資訊，請參閱[API版本設定與支援排程](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
 

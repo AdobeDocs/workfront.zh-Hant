@@ -8,11 +8,16 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f972c717-305b-4660-a094-ccfcf563df0f
 TQID: https://experienceleague.adobe.com/JF597GODfzJ6rejUNiUM-17OQwqHbQyFMCawJnO3xf0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 644
@@ -58,7 +63,7 @@ ht-degree: 0%
 * [在資源規劃工具中顯示計畫時數配置的百分比](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-1-release-activity.md#display-the-percentage-of-planned-hour-allocation-in-the-resource-planner)
 * 業務案例中的[互動式資源規劃工具](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-2-release-activity.md#interactive-resource-planner-in-the-business-case)
 * 資源規劃工具中的[視覺效果 — 使用者配置圖](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-2-release-activity.md#visualization-in-the-resource-planner) 
-* 已移除資源規劃工具](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-3-release-activity.md#budget-with-zero-duration-in-the-resource-planner)中持續時間為零的[預算
+* 已移除資源規劃工具[&#128279;](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-3-release-activity.md#budget-with-zero-duration-in-the-resource-planner)中持續時間為零的預算
 
 * [在資源規劃工具中依成本顯示資料](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-3-release-activity.md#show-data-by-cost-in-the-resource-planner)
 * [從Workfront移除資源預算時數物件](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-4-release-activity.md#remove-resource-budgeted-hour-object-from-workfront)已移除
@@ -136,5 +141,5 @@ ht-degree: 0%
 
 ## API增強功能 {#api-enhancements}
 
-* [ API版本9](../../../../wf-api/api/new-api-version-9.md)的新增功能 
+* [&#x200B; API版本9](../../../../wf-api/api/new-api-version-9.md)的新增功能 
 * [新增至事件訂閱的新資源](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-1-release-activity.md#new-resources-added-to-event-subscriptions)

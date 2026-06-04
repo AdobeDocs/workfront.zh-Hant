@@ -8,8 +8,10 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b19c0086-89b2-46c3-a70d-0140dfbd11e8
 TQID: https://experienceleague.adobe.com/K8AzmxJ1-IDBBvc7qZa-1q-Jl0stVWgDFUA1MufTewI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 552
@@ -31,7 +33,7 @@ ht-degree: 0%
 
 * [在首頁存取團隊請求](#access-team-requests-in-home)
 * [檢視專案清單甘特圖中的任務資訊](#view-task-information-in-the-project-list-gantt-chart)
-* 匯出資源規劃工具](#improvements-when-exporting-the-role-and-project-views-of-the-resource-planner)的角色和專案檢視時進行[改進
+* 匯出資源規劃工具[&#128279;](#improvements-when-exporting-the-role-and-project-views-of-the-resource-planner)的角色和專案檢視時進行改進
 * [直接從校訂檢視器(Workfront Proof)存取多個校訂](#access-multiple-proofs-directly-from-the-proofing-viewer-workfront-proof)
 
 ## 存取首頁中的團隊請求 {#access-team-requests-in-home}

@@ -10,10 +10,15 @@ exl-id: 42633036-8e42-4cec-876c-f20a5ece2478
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/g0fmhhkBwDicIRES60mRxh4ZzRrVOflnNV4yRQm4uxY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 381
@@ -66,7 +71,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->如果您手動修改欄的寬度，如[暫時修改欄的寬度和順序[修改欄的寬度和順序](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)一節中所述，在您永久修改欄的寬度之後，欄的寬度會根據手動調整大小保留。 ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md#modify-width-and-order-of-columns-temporarily)在此情況下，會覆寫根據下列步驟更新的欄寬。 清除快取或從其他瀏覽器登入後，您可以根據下列步驟中定義的寬度來檢視欄。
+>如果您手動修改欄的寬度，如[&#128279;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md#modify-width-and-order-of-columns-temporarily)暫時修改欄的寬度和順序[修改欄的寬度和順序](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)一節中所述，在您永久修改欄的寬度之後，欄的寬度會根據手動調整大小保留。 &#x200B;在此情況下，會覆寫根據下列步驟更新的欄寬。 清除快取或從其他瀏覽器登入後，您可以根據下列步驟中定義的寬度來檢視欄。
 >
 >如需在使用「文字模式」介面時自訂欄寬的其他資訊，請參閱Adobe Workfront術語[辭彙表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)中的「寬度」和「延伸」定義。
 

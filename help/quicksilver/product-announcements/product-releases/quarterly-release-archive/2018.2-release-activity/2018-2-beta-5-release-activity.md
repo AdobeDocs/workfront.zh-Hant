@@ -8,11 +8,18 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0a8602aa-34c8-44d0-a102-9497d106f806
 TQID: https://experienceleague.adobe.com/0JlkGC-ZucJr8R-AIrVZULqKmRWNL1ZnTohl50PWMLs
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 3190
@@ -32,7 +39,7 @@ ht-degree: 1%
 
 2018.2 Beta 5版本包含Workfront管理員和其他使用者的增強功能：
 
-管理員的&#x200B;****
+管理員的&#x200B;**&#x200B;**
 
 * [檢視使用者觸發的變更及稽核記錄](#view-user-triggered-changes-with-audit-logs)
 * [以群組管理員身分檢視授權資訊](#view-license-information-as-a-group-administrator)
@@ -40,7 +47,7 @@ ht-degree: 1%
 **所有使用者**
 
 * [首頁區域中的行事曆檢視](#calendar-view-in-the-home-area)
-* 首頁](#additional-updates-to-the-work-list-left-panel-in-home)中工作清單（左側面板）的[其他更新
+* 首頁[&#128279;](#additional-updates-to-the-work-list-left-panel-in-home)中工作清單（左側面板）的其他更新
 * [設定自動資源排程的工作角色限制](#configure-job-role-limits-for-automated-resource-scheduling)
 * 資源規劃工具中的[專案和角色檢視改善](#project-and-role-view-improvements-in-the-resource-planner)
 * [調整專案清單的欄寬](#resize-column-widths-for-project-lists)
@@ -226,7 +233,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->在以下影片中，問題集合的範例文字模式不正確。 報表](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)中的[參考集合中有正確的範例文字模式。
+>在以下影片中，問題集合的範例文字模式不正確。 報表[&#128279;](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)中的參考集合中有正確的範例文字模式。
 
 ## 在Workfront中新增檔案版本時，新增更強大的版本選單 {#new-more-robust-version-menu-when-adding-new-document-versions-in-workfront}
 
