@@ -9,11 +9,17 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 47092717-3895-40a3-9db1-0009638e2544
 TQID: https://experienceleague.adobe.com/tbPBGXTzfjmKuYgp32iFR6NsQCNf8sHZj4IH0zUXwt4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 875
@@ -45,7 +51,7 @@ ht-degree: 0%
 
 ## 許可權設定檔為何重要？
 
-許可權設定檔會定義使用者對您帳戶中不同專案的存取權。 如果您不想讓人員看到其他人的校樣，或您不想讓他們存取[!UICONTROL 帳戶設定]或[!UICONTROL 帳單]，這點很重要。 請檢視 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)文章中的[校訂許可權設定檔，以檢視[!DNL Workfront Proof]中有哪些設定檔可用。
+許可權設定檔會定義使用者對您帳戶中不同專案的存取權。 如果您不想讓人員看到其他人的校樣，或您不想讓他們存取[!UICONTROL 帳戶設定]或[!UICONTROL 帳單]，這點很重要。 請檢視 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)文章中的校訂許可權設定檔，以檢視[!DNL Workfront Proof]中有哪些設定檔可用。
 
 如果您需要進一步微調許可權，建議您考慮使用自訂設定檔。 這是[!UICONTROL Unlimited]功能，可讓您使用自訂許可權建立自己的設定檔。 如需詳細資訊，請前往[[!UICONTROL 使用 [!DNL Workfront Proof]]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md)建立和管理自訂設定檔。
 
@@ -59,15 +65,15 @@ ht-degree: 0%
 
 組織校樣和檔案的最常見方式是在帳戶中建立資料夾結構。 您可以視需要擁有儘可能多的資料夾和子資料夾。
 
-例如，您可以為每個使用者端建立個別的資料夾，然後為每個專案建立不同的子資料夾。 或者，您也可以為專案建立資料夾，並為不同資產建立不同的子資料夾。 您也可以選擇校樣建立者，只需為他們建立的校樣建立自己的資料夾即可。 資料夾在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)文章中的[資料夾中有說明。
+例如，您可以為每個使用者端建立個別的資料夾，然後為每個專案建立不同的子資料夾。 或者，您也可以為專案建立資料夾，並為不同資產建立不同的子資料夾。 您也可以選擇校樣建立者，只需為他們建立的校樣建立自己的資料夾即可。 資料夾在 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)文章中的資料夾中有說明。
 
-*標籤*&#x200B;是在您的帳戶中組織校樣和檔案的另一種方式。 您可以將多個標籤套用至校訂和檔案，以便用於專案名稱、內容型別、使用者端名稱等。您可以使用標籤來搜尋帳戶，然後對搜尋結果執行不同的動作。 您也可以在「自訂檢視」中使用它們。 請檢視 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md)文章中的[[!UICONTROL 建立及管理標籤]以進一步瞭解標籤。
+*標籤*&#x200B;是在您的帳戶中組織校樣和檔案的另一種方式。 您可以將多個標籤套用至校訂和檔案，以便用於專案名稱、內容型別、使用者端名稱等。您可以使用標籤來搜尋帳戶，然後對搜尋結果執行不同的動作。 您也可以在「自訂檢視」中使用它們。 請檢視 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md)文章中的[!UICONTROL 建立及管理標籤]以進一步瞭解標籤。
 
 ## 如何提供儀表板給我的客戶？
 
 您可以為其設定Satellite帳戶。 衛星是單獨的帳戶，從中心帳戶中進行管理。 您可以將多個衛星連線到同一個集線器。
 
-此設定可讓您向客戶提供儀表板，而不需將其新增到您自己的帳戶。 這是確保您的使用者端只看到他們要看到的資訊的絕佳方式，因為衛星帳戶使用者看不到集線器帳戶的任何詳細資訊（或附加至相同集線器的任何其他衛星）。 在 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)的[附屬帳戶中進一步說明附屬帳戶。
+此設定可讓您向客戶提供儀表板，而不需將其新增到您自己的帳戶。 這是確保您的使用者端只看到他們要看到的資訊的絕佳方式，因為衛星帳戶使用者看不到集線器帳戶的任何詳細資訊（或附加至相同集線器的任何其他衛星）。 在 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)的附屬帳戶中進一步說明附屬帳戶。
 
 ## 我可以使用[!DNL Workfront Proof]建立報告嗎？
 

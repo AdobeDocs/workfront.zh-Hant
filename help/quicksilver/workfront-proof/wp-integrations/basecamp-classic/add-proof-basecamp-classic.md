@@ -8,9 +8,12 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: fbca81fb-97c4-449a-9c64-cfd902ea1e19
 TQID: https://experienceleague.adobe.com/x-X8GzBkf51d9FRKZt8lMzSJNCN8PWlYM7uoAnBdbfk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 667
@@ -36,7 +39,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在將校訂新增至[!DNL Basecamp Classic]之前，您必須確保已啟用您的[!DNL Basecamp]整合，且已在您的個人設定中選擇相關的[!DNL Basecamp]帳戶（因為您可以整合一個以上的[！DNL [!DNL Basecamp]]帳戶，但一次只能將校訂新增至一個[!DNL Basecamp]帳戶）。 如需有關您設定的資訊，請參閱[個人設定。](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings)
+>在將校訂新增至[!DNL Basecamp Classic]之前，您必須確保已啟用您的[!DNL Basecamp]整合，且已在您的個人設定中選擇相關的[!DNL Basecamp]帳戶（因為您可以整合一個以上的[!DNL [!DNL Basecamp]]帳戶，但一次只能將校訂新增至一個[!DNL Basecamp]帳戶）。 如需有關您設定的資訊，請參閱[個人設定。](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings)
 
 1. 建立校訂，如[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)中產生校訂中所述。
 1. 如果您要以電子郵件通知檢閱者，請確定已選取&#x200B;**[!UICONTROL 以郵件通知人員]**。\

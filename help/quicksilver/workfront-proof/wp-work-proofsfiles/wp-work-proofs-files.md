@@ -10,8 +10,10 @@ feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 31b97154-e506-4a1c-ab9a-92395156ed47
 TQID: https://experienceleague.adobe.com/2PTqpkp4ebKoK5ZDJVBa887auo8-qPjjfTSqDK7E67I
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 74
@@ -27,8 +29,8 @@ ht-degree: 0%
 
 本節包含下列子章節：
 
-* [ [!DNL Workfront Proof]中的自動化工作流程](../../workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
-* [ [!DNL Workfront Proof]中的基本功能](../../workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
+* [&#x200B; [!DNL Workfront Proof]中的自動化工作流程](../../workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
+* [&#x200B; [!DNL Workfront Proof]中的基本功能](../../workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
 * [建立校樣和檔案](../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/create-proofs-and-files.md)
 * [管理您的工作](../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-your-work.md)
 * [組織您的工作](../../workfront-proof/wp-work-proofsfiles/organize-your-work/organize-your-work.md)

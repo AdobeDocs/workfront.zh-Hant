@@ -7,11 +7,17 @@ author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 18b22f2c-2490-41e2-afb9-0551f9579973
 TQID: https://experienceleague.adobe.com/q0-ZRmAwXozuuPJgeZ-IWhUHuYwBXYFlarjRIfXdxAs
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: e4fedd42-4a54-4109-859f-13c7f0366a72
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: e4fedd42-4a54-4109-859f-13c7f0366a72
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 280
@@ -74,4 +80,4 @@ ht-degree: 7%
 
    當評論產生於[!DNL Slack]時，評論會在[!DNL Workfront]中顯示訊息「[!UICONTROL 張貼自[!DNL Slack]]」。
 
-   從Slack](assets/slack-update-posted-from-slack-350x112.png)張貼的![更新
+   從Slack![&#128279;](assets/slack-update-posted-from-slack-350x112.png)張貼的更新

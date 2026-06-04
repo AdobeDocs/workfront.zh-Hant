@@ -9,9 +9,12 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 8794a76a-c782-4038-9680-73e72697b21d
 TQID: https://experienceleague.adobe.com/y3acXMLEzDp-rhxtFIhSpvc1w6H4mohLNQP0ZztgO4Y
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 317

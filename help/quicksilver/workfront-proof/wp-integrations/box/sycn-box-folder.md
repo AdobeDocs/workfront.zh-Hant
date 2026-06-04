@@ -8,10 +8,14 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d85577f5-6aa0-40a3-a6e3-45555a3124db
 TQID: https://experienceleague.adobe.com/sJxqocTWlV--ZrYQ9OrcqW8udhfRBk9ujGyaDxmcAZw
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 662
@@ -65,7 +69,7 @@ ht-degree: 0%
 >
 >* 您也可以從[!UICONTROL 資料夾選項]功能表同步[!DNL Box]資料夾。
 >* 如果您有自己的品牌[!DNL Workfront Proof]登入頁面，您將被帶到該頁面，而不是標準的[!DNL Workfront Proof]登入頁面。 如需詳細資訊，請參閱[品牌](https://support.workfront.com/hc/en-us/sections/115000921208-Branding)下的文章。
->* 如果您已在您的[!DNL Workfront Proof]帳戶中啟用[!UICONTROL 單一登入(SSO)]功能，系統會將您帶到SSO登入頁面並要求您輸入SSO登入認證，但前提是您的[!DNL Box]帳戶和[!DNL Workfront Proof]使用相同的電子郵件地址。 如需詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)中的[[!UICONTROL 單一登入]。
+>* 如果您已在您的[!DNL Workfront Proof]帳戶中啟用[!UICONTROL 單一登入(SSO)]功能，系統會將您帶到SSO登入頁面並要求您輸入SSO登入認證，但前提是您的[!DNL Box]帳戶和[!DNL Workfront Proof]使用相同的電子郵件地址。 如需詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)中的[!UICONTROL 單一登入]。
 >* 如果您的[!DNL Box]帳戶和[!DNL Workfront Proof]帳戶未使用相同的電子郵件地址，系統一律會帶您進入標準[!DNL Workfront Proof]登入頁面。
 >
 

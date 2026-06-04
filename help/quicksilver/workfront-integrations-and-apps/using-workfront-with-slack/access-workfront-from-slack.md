@@ -7,11 +7,19 @@ author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5f531217-3bd6-4156-8b9f-eabc95d4df10
 TQID: https://experienceleague.adobe.com/V4D5BMnBLj86eShUxyR6UP8lRM3ibi6fwdL8G9QbN0k
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e4fedd42-4a54-4109-859f-13c7f0366a72
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: e4fedd42-4a54-4109-859f-13c7f0366a72
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1092
@@ -62,12 +70,12 @@ ht-degree: 3%
 
   這表示您的命令適用於[!DNL Workfront]應用程式。 [!DNL Workfront]的命令只有在您已使用您的[!DNL Slack]執行個體設定[!DNL Workfront]應用程式時才有效。
 
-如需可從Slack為[!DNL Workfront]執行的所有命令清單，請參閱 [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack)中的[Access [!DNL Workfront] slash命令。
+如需可從Slack為[!DNL Workfront]執行的所有命令清單，請參閱 [!DNL Slack][&#128279;](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack)中的Access [!DNL Workfront] slash命令。
 
 ## 從[!DNL Slack]登入[!DNL Workfront] {#log-in-to-workfront-from-slack}
 
 當您在Slack的訊息欄位中輸入任何命令時，系統會要求您先登入[!DNL Workfront]。\
-如需來自[!DNL Slack]的[!DNL Workfront]命令的完整清單，請參閱本文章節 [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack)中的[Access [!DNL Workfront] from a slash命令。
+如需來自[!DNL Slack]的[!DNL Workfront]命令的完整清單，請參閱本文章節 [!DNL Slack][&#128279;](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack)中的Access [!DNL Workfront] from a slash命令。
 
 若要從[!DNL Slack]登入[!DNL Workfront]：
 
@@ -103,7 +111,7 @@ ht-degree: 3%
 ## 從[!DNL Slack]存取[!DNL Workfront]
 
 * [關於斜線指令](#about-slash-commands-about-slash-commands)
-* [從 [!DNL Slack]中的共用連結存取 [!DNL Workfront] ](#access-workfront-from-a-shared-link-in-slack-access-workfront-from-a-shared-link-in-slack)
+* [從 [!DNL Slack]中的共用連結存取 [!DNL Workfront] &#x200B;](#access-workfront-from-a-shared-link-in-slack-access-workfront-from-a-shared-link-in-slack)
 
 ## 從[!DNL Slack]中的斜線命令存取[!DNL Workfront] {#access-workfront-from-a-slash-command-in-slack}
 
@@ -152,7 +160,7 @@ ht-degree: 3%
 
      顯示[!DNL Workfront]中最近存取專案的清單。
 
-     如需有關從[!DNL Slack]存取您最近專案的詳細資訊，請參閱[從 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md#accessing-recent-items) section in the [[!UICONTROL Access your favorites] 存取您的[!UICONTROL 最近專案]清單和從 [!DNL Slack]]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md)存取最近專案[!UICONTROL 。
+     如需有關從[!DNL Slack]存取您最近專案的詳細資訊，請參閱[從 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md#accessing-recent-items) section in the [[!UICONTROL Access your favorites] 存取您的[!UICONTROL 最近專案]清單和從 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md)存取最近專案。
 
    * `wf tasks`
 
@@ -218,7 +226,7 @@ ht-degree: 3%
 
 您可以透過連結存取[!DNL Workfront]物件，這些連結會連結到[!DNL Slack]中與您共用的物件。
 
-如需從共用連結存取[!DNL Workfront]的詳細資訊，請參閱 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md)中的[從共用連結存取 [!DNL Adobe Workfront] 物件。
+如需從共用連結存取[!DNL Workfront]的詳細資訊，請參閱 [!DNL Slack][&#128279;](../../workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md)中的從共用連結存取 [!DNL Adobe Workfront] 物件。
 
 ## 進行設定 {#configure-settings}
 
@@ -238,7 +246,7 @@ ht-degree: 3%
 
    * 在&#x200B;**[!UICONTROL 通知設定]**&#x200B;區域中，停用您要停止從Workfront接收的通知。\
 
-     如需有關在[!DNL Slack]接收[!DNL Workfront]通知的資訊，請參閱 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)中的[接收 [!DNL Adobe Workfront] 通知。
+     如需有關在[!DNL Slack]接收[!DNL Workfront]通知的資訊，請參閱 [!DNL Slack][&#128279;](../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)中的接收 [!DNL Adobe Workfront] 通知。
 
 ## 從[!DNL Slack]登出[!DNL Workfront]
 

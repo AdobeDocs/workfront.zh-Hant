@@ -8,10 +8,14 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 31360d27-3017-408c-9286-1a6c8bc66854
 TQID: https://experienceleague.adobe.com/56N32WhKSlk-6VPPx6cKS8JsI9yiFnVn8EuXsZm-Duc
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 241
@@ -29,7 +33,7 @@ ht-degree: 0%
 
 1. 按一下[!DNL Workfront Proof]視窗右上角的&#x200B;**[!UICONTROL 設定]**，然後從下拉式功能表中選取&#x200B;**[!UICONTROL 帳戶設定]**。
 
-1. 在出現的[!UICONTROL 帳戶設定]頁面上，確定&#x200B;**[!UICONTROL 詳細資料]**標籤已開啟。
+1. 在出現的[!UICONTROL 帳戶設定]頁面上，確定&#x200B;**[!UICONTROL 詳細資料]**&#x200B;標籤已開啟。
 您可以在此標籤上檢視下列區段：
 
 ## 編輯帳戶詳細資料

@@ -8,10 +8,16 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 670422e9-5db8-4f06-baf8-1f9ce83873fe
 TQID: https://experienceleague.adobe.com/SsCChdvLwy-i48BkLL8xbm7e0gUOVUStR-0XxcT3uXs
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 769
@@ -45,7 +51,7 @@ ht-degree: 0%
 依預設，設定精靈會擷取繫結至IIS中預設網站的SSL憑證，並將使用那裡指定的主體名稱。如果您使用萬用字元憑證，則需要輸入Federation Service名稱。
 如果IIS中未設定SSL憑證，則設定精靈會在本機電腦憑證存放區中搜尋任何有效的憑證。這些引數會顯示在SSL憑證下拉式清單中。如果沒有找到憑證，您可以使用IIS中的伺服器憑證產生器來建立憑證。
 
-1. 繼續進行組態，完成後按一下[關閉]。****
+1. 繼續進行組態，完成後按一下[關閉]。**&#x200B;**
 
 ## 正在設定[!DNL Workfront Proof]單一登入
 
@@ -53,7 +59,7 @@ ht-degree: 0%
 
 1. 按一下&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 帳戶設定]**，然後開啟&#x200B;**[!UICONTROL 單一登入]**&#x200B;標籤。
 
-1. 在&#x200B;**SSO URL**方塊中，貼上您的實體識別碼。
+1. 在&#x200B;**SSO URL**&#x200B;方塊中，貼上您的實體識別碼。
 以下是實體ID的範例：
 http://*&lt;adfs.your-company.com>*/adfs/services/trust
 您可以在同盟中繼資料XML檔案中找到您的實體ID。
@@ -66,12 +72,12 @@ http://*&lt;adfs.your-company.com>*/adfs/services/trust
 1. 此連結可位於同盟中繼資料XML檔案中。
    ![ProofHQ_configuration_03.png](assets/proofhq-configuration-03-350x90.png)
 
-1. 在&#x200B;**[!UICONTROL 登出URL]**方塊中，輸入連結並儲存。
+1. 在&#x200B;**[!UICONTROL 登出URL]**&#x200B;方塊中，輸入連結並儲存。
 以下是登出URL的範例：
 https://*&lt;adfs.your-company.com>*/adfs/ls/？wa=wsignout1.0
 
    1. 前往您的AD FS管理員>信任關係>信賴方信任 — ProofHQ屬性。
-   1. 在[端點]底下，按一下[新增]和[專案] ]，其詳細資訊如下：[!UICONTROL 
+   1. 在[端點]底下，按一下[新增]和[專案] ，其詳細資訊如下：
 
       * 端點型別= SAML登出
       * 繫結= POST

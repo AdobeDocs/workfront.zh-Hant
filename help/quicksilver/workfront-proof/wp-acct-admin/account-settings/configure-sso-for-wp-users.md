@@ -8,10 +8,15 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 52ac1919-1821-424f-89f8-72865b236e4e
 TQID: https://experienceleague.adobe.com/OhvVg0L6uAWG9uGjqsoCbmBAyTsVl1dlhUv9FDCw0XA
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1085
@@ -80,7 +85,7 @@ ht-degree: 0%
 1. （選擇性）啟用&#x200B;**自動布建使用者** (7)。
 啟用此選項後，系統會自動為沒有自己的[!DNL Workfront Proof]設定檔，但會使用單一登入認證存取您[!DNL Workfront Proof]帳戶的使用者建立使用者帳戶。只有在您的帳戶尚未達到使用者限制時，才會執行此動作。
 
-1. 根據預設，新布建的使用者將會獲得指派的Manager設定檔許可權。 如果您需要更多資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔。
+1. 根據預設，新布建的使用者將會獲得指派的Manager設定檔許可權。 如果您需要更多資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
 
 ![啟用_SSO_SAML_2.0.png](assets/enable-sso-saml-2.0-350x236.png)
 
@@ -98,8 +103,8 @@ ht-degree: 0%
 1. ![正在啟用_SSO_-_Satellite_Account.png](assets/enabling-sso---satellite-account-350x266.png)
 以下是兩種設定方法(5)：
 
-1. **已繼承：**個SSO，組態取自您的中心帳戶。
-如果使用者透過**預設登入頁面** ([https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html))存取[!DNL Workfront Proof]，將有&#x200B;**兩個授權等級**：首先，要求使用者使用[!DNL Workfront Proof]存取資料（電子郵件和密碼）登入；然後透過SSO視窗將使用者傳送到SSO登入頁面。
+1. **已繼承：**&#x200B;個SSO，組態取自您的中心帳戶。
+如果使用者透過&#x200B;**預設登入頁面** ([https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html))存取[!DNL Workfront Proof]，將有&#x200B;**兩個授權等級**：首先，要求使用者使用[!DNL Workfront Proof]存取資料（電子郵件和密碼）登入；然後透過SSO視窗將使用者傳送到SSO登入頁面。
 因此，啟用SSO服務後，建議您透過自己的[!DNL Workfront Proof]子網域/網域登入。
 
    >[!NOTE]

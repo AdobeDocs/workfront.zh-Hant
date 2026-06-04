@@ -8,8 +8,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7d2db918-ebf0-4c52-9039-54c3eb5515f0
 TQID: https://experienceleague.adobe.com/PS4LlvkS0KTleGJj-6aNtOjbTtRpqQTXoKKFdcSZb-8
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 716
@@ -23,7 +25,7 @@ ht-degree: 0%
 >
 >本文提及獨立產品[!DNL Workfront Proof]中的功能。 有關[!DNL Adobe Workfront]內部校訂的資訊，請參閱[校訂](../../../review-and-approve-work/proofing/proofing.md)。
 
-擁有校樣編輯許可權的檢閱者可以建立校樣副本，作為現有校樣的新版本或新校樣。 (如需詳細資訊，請參閱。 如需有關編輯許可權的資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔。)
+擁有校樣編輯許可權的檢閱者可以建立校樣副本，作為現有校樣的新版本或新校樣。 (如需詳細資訊，請參閱。 如需有關編輯許可權的資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。)
 
 原始校訂上的檢閱者會自動出現在[!UICONTROL 複製校訂]頁面的[!UICONTROL 共用]區段中，但可將其移除。 如果刪除稽核者，其註解將保留。
 
@@ -33,7 +35,7 @@ ht-degree: 0%
 
 ## 複製校訂
 
-1. 移至任何&#x200B;**[!UICONTROL 檢視]**&#x200B;頁面，如 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中「檢視」頁面上的[管理專案。
+1. 移至任何&#x200B;**[!UICONTROL 檢視]**&#x200B;頁面，如 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中「檢視」頁面上的管理專案。
 
 1. 開啟校訂的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表。\
    ![更多功能表](assets/more-button-small.png)
@@ -59,7 +61,7 @@ ht-degree: 0%
    * 如果資料夾已共用，請檢查該資料夾的共用對象清單。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md)中共用資料夾。
    * 將一個或多個標籤套用到校樣。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md)中建立和管理標籤。
 
-1. 在&#x200B;**[!UICONTROL 更多]**&#x200B;設定區段中，選取您想要的 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)中的[設定校訂設定。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)中設定校訂設定。此區段中所做的選擇會顯示在[校訂]詳細資訊頁面中（某些欄位可以編輯）。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中管理校訂詳細資訊。
+1. 在&#x200B;**[!UICONTROL 更多]**&#x200B;設定區段中，選取您想要的 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)中的設定校訂設定。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)中設定校訂設定。此區段中所做的選擇會顯示在[校訂]詳細資訊頁面中（某些欄位可以編輯）。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中管理校訂詳細資訊。
 
 請注意，您也可以在以下位置建立校訂副本（如果您有所需的帳戶許可權設定檔）：
 
@@ -69,7 +71,7 @@ ht-degree: 0%
 
 * **資料夾詳細資料頁面**。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md)中管理資料夾及其內容。
 
-* **任何清單檢視頁面**。 如需詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的[管理檢視頁面上的專案。
+* **任何清單檢視頁面**。 如需詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的管理檢視頁面上的專案。
 
 ## 複製現有校訂設定以供新校訂使用
 
@@ -77,7 +79,7 @@ ht-degree: 0%
 
 若要複製新校訂的現有校訂設定：
 
-1. 移至任何&#x200B;**[!UICONTROL 檢視]**&#x200B;頁面，如 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中「檢視」頁面上的[管理專案。
+1. 移至任何&#x200B;**[!UICONTROL 檢視]**&#x200B;頁面，如 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中「檢視」頁面上的管理專案。
 
 1. 開啟校訂的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表。\
    ![更多功能表](assets/more-button-small.png)

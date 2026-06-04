@@ -8,10 +8,15 @@ author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b8b9d216-b529-4ff0-9259-b37724675d6a
 TQID: https://experienceleague.adobe.com/1elmmFSSPWtzkFCSPP48dAdyi-OaKQyeY4HsEyMa58c
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: a7ef0b24-c866-4849-a368-53678af2dfe5id: c4a58f26-aa43-4761-aafe-56f1e034d7d5
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+  - id: c4a58f26-aa43-4761-aafe-56f1e034d7d5
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 198
@@ -31,7 +36,7 @@ Adobe Workfront提供與Microsoft Teams的整合。 本文連結至安裝和設�
 
 * [適用於Microsoft Teams的[!DNL Adobe Workfront]概覽](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
 * [安裝 [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
-* [從 [!DNL Microsoft Teams]存取 [!DNL Adobe Workfront] ](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md)
+* [從 [!DNL Microsoft Teams]存取 [!DNL Adobe Workfront] &#x200B;](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md)
 * [搜尋並共用 [!DNL Microsoft Teams]中的 [!DNL Adobe Workfront] 個專案](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)
 * [建立來自 [!DNL Microsoft Teams]的 [!DNL Adobe Workfront] 工作](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md)
 * [從 [!DNL Microsoft Teams]提交 [!DNL Adobe Workfront] 個請求](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/submit-workfront-requests-from-ms-teams.md)

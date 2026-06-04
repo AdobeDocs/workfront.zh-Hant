@@ -7,11 +7,19 @@ author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: f9198017-9bbb-4776-86aa-3f78705dbb22
 TQID: https://experienceleague.adobe.com/SOZ90sJuOCBZL9sUCQIw-Rm-WnFQA2Vqx81LdUDVOpA
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d8302c96-f652-4d09-896b-19a70bab02a5id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d8302c96-f652-4d09-896b-19a70bab02a5
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 979
@@ -59,7 +67,7 @@ ht-degree: 13%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
 
@@ -190,27 +198,27 @@ ht-degree: 13%
     </thead> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL Anaplan] Workspace ID]</td> 
+      <td role="rowheader">[!UICONTROL [!DNL Anaplan] Workspace ID]</td> 
       <td>您要用於此情境的[!DNL Anaplan]帳戶中的工作區ID。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL Anaplan]模型識別碼] </td> 
+      <td role="rowheader">[!UICONTROL [!DNL Anaplan]模型識別碼] </td> 
       <td>您[!DNL Anaplan]帳戶中的模型識別碼，以及您想要用於此情境的選取工作區。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL促銷活動清單名稱]</td> 
+      <td role="rowheader">[!UICONTROL 促銷活動清單名稱]</td> 
       <td>來自您[!DNL Anaplan]帳戶的清單名稱，以及您想要用於此情境的選定工作區和模型。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL檔案名稱：實際費用匯入]</td> 
+      <td role="rowheader">[!UICONTROL 檔案名稱：實際費用匯入]</td> 
       <td> <p>將接收專案實際費用資料的檔案名稱。</p> <p> （範例：WorkfrontUpdateLinkedProjects_ActExpenses.csv） </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL檔案名稱：計畫費用匯入]</td> 
+      <td role="rowheader">[!UICONTROL 檔案名稱：計畫費用匯入]</td> 
       <td> <p>將接收專案計畫費用資料的檔案名稱。</p> <p> （範例：WorkfrontUpdateLinkedProjects_PlannedExpenses.csv） </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL流程名稱：專案更新匯入]</td> 
+      <td role="rowheader">[!UICONTROL 流程名稱：專案更新匯入]</td> 
       <td> <p>將執行專案費用資料匯入的流程名稱。</p> <p>（範例： WF Int — 載入專案費用）</p> </td> 
      </tr> 
     </tbody> 

@@ -7,10 +7,17 @@ author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: 8ae28911-fa18-459a-aa50-cfb347e70e61
 TQID: https://experienceleague.adobe.com/iN2SzXUL8Qa5J-TeFMtJeHFJeS3774TkD2xqtaA-DHE
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d8302c96-f652-4d09-896b-19a70bab02a5id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d8302c96-f652-4d09-896b-19a70bab02a5
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 740
@@ -59,7 +66,7 @@ ht-degree: 16%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
 
@@ -138,20 +145,20 @@ ht-degree: 16%
     </thead> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL Anaplan] Workspace ID]</td> 
+      <td role="rowheader">[!UICONTROL [!DNL Anaplan] Workspace ID]</td> 
       <td>您[!DNL Anaplan]帳戶的工作區識別碼。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL Anaplan]模型識別碼] </td> 
+      <td role="rowheader">[!UICONTROL [!DNL Anaplan]模型識別碼] </td> 
       <td>來自您[!DNL Anaplan]帳戶和所選工作區的模型ID。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL促銷活動清單名稱]</td> 
+      <td role="rowheader">[!UICONTROL 促銷活動清單名稱]</td> 
       <td>來自您[!DNL Anaplan]帳戶及所選工作區與模型的清單名稱。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!DNL Anaplan]檢視名稱</td> 
-      <td> <p>檢視的名稱，其中包含可傳送給[!DNL Workfront]的行銷活動預算。</p> <p>（範例： [！UICONTROL Campaigns.Load Campaigns.To [!DNL Adobe Workfront]]） </p> </td> 
+      <td> <p>檢視的名稱，其中包含可傳送給[!DNL Workfront]的行銷活動預算。</p> <p>（範例： [!UICONTROL Campaigns.Load Campaigns.To [!DNL Adobe Workfront]]） </p> </td> 
      </tr> 
     </tbody> 
    </table>

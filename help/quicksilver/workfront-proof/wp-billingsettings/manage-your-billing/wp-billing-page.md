@@ -9,10 +9,14 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: f3828671-e950-4649-9f6d-881101100a96
 TQID: https://experienceleague.adobe.com/o1VGrecH-BIItFQ0fvzpFYPILQ555TOhgOstI2ek9eo
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 610
@@ -104,7 +108,7 @@ ht-degree: 0%
 
 ### [!UICONTROL 使用警告]
 
- [!DNL Workfront] Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中設定為帳務連絡人(1)的[[!UICONTROL 校訂許可權設定檔]，會在您的帳戶達到下列條件時透過電子郵件通知：
+ [!DNL Workfront] Proof[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中設定為帳務連絡人(1)的[!UICONTROL 校訂許可權設定檔]，會在您的帳戶達到下列條件時透過電子郵件通知：
 
 * 儲存容量的75%和98%
 * 75%然後100%的證明限制

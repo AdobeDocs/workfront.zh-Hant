@@ -8,8 +8,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1a3dbf0e-ec5b-4bd0-9eee-c1d613a67f53
 TQID: https://experienceleague.adobe.com/AfDIJsVd4BUBk7sakKHeFKZWaP6Ll96yCQoll3GY5Jk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 508
@@ -25,7 +27,7 @@ ht-degree: 0%
 
 在[!DNL Workfront Proof]中，您可以使用資料夾將您要一起處理的校訂或希望檢閱者一起處理的校訂分組。 當您或其他檢閱者開啟其中一個校訂，並啟動校訂檢視器時，資料夾中的所有校訂也會在那裡提供。 您不需離開校訂檢視器，即可檢視其他校訂、排序及搜尋校訂，並互相比較。
 
-如需資料夾的一般資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)中的[資料夾。
+如需資料夾的一般資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)中的資料夾。
 
 >[!NOTE]
 >

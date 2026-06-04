@@ -7,11 +7,19 @@ author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: daf6a18d-a3df-497d-a612-8a4645b1a8c9
 TQID: https://experienceleague.adobe.com/6Bny8fG-ta0UsBZfg9kDgYaOnnuv5r2myqvKNbQVEww
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d8302c96-f652-4d09-896b-19a70bab02a5id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d8302c96-f652-4d09-896b-19a70bab02a5
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 790
@@ -61,7 +69,7 @@ ht-degree: 17%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
 
@@ -103,23 +111,23 @@ ht-degree: 17%
    </thead> 
    <tbody> 
     <tr> 
-     <td role="rowheader">[！UICONTROL上市日期]</td> 
+     <td role="rowheader">[!UICONTROL 上市日期]</td> 
      <td>日期 </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL市場結束日期]</td> 
+     <td role="rowheader">[!UICONTROL 市場結束日期]</td> 
      <td>日期</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL行銷活動概覽]</td> 
+     <td role="rowheader">[!UICONTROL 行銷活動概覽]</td> 
      <td>段落文字欄位</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL金鑰訊息]</td> 
+     <td role="rowheader">[!UICONTROL 金鑰訊息]</td> 
      <td>段落文字欄位</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL目標對象]</td> 
+     <td role="rowheader">[!UICONTROL 目標對象]</td> 
      <td> <p>下拉</p> <p>包含適合您流程的選項。</p> </td> 
     </tr> 
    </tbody> 

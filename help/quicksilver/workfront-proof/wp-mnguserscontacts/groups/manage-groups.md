@@ -8,10 +8,15 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bb4cfe03-d2c8-47f5-8c5c-de5218935ab5
 TQID: https://experienceleague.adobe.com/LIZUQVXJnYbKZtmgZ6IhMJTv6Wo2AnFh8Y1M5bo6EfY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 555
@@ -71,10 +76,10 @@ ht-degree: 0%
 
 ## 篩選群組
 
-1. 按一下欄標題最右邊的&#x200B;**[!UICONTROL 篩選器]**圖示，以顯示欄標題下方的篩選選項。
+1. 按一下欄標題最右邊的&#x200B;**[!UICONTROL 篩選器]**&#x200B;圖示，以顯示欄標題下方的篩選選項。
    ![Group_page-Filter_icon_and_options.png](assets/group-page-filter-icon-and-options-350x134.png)
 
-1. 從下拉式功能表中選取[!UICONTROL 篩選選項]，並輸入每個欄標題下方的篩選方塊，然後再次按一下&#x200B;**[!UICONTROL 篩選]**圖示以套用選項。
+1. 從下拉式功能表中選取[!UICONTROL 篩選選項]，並輸入每個欄標題下方的篩選方塊，然後再次按一下&#x200B;**[!UICONTROL 篩選]**&#x200B;圖示以套用選項。
 或\
    選取「群組」名稱中的第一個字母。
    ![Groups_page-filtering_by_letter.png](assets/groups-page-filtering-by-letter-350x245.png)
@@ -106,7 +111,7 @@ ht-degree: 0%
 1. 按一下左側導覽面板中的&#x200B;**[!UICONTROL 連絡人]**，即可移至&#x200B;**[!UICONTROL 連絡人]**&#x200B;頁面。
 
 1. 選取您要新增至群組的連絡人姓名旁邊的核取方塊。
-1. 按一下&#x200B;**[!UICONTROL 新增至群組]**按鈕。
+1. 按一下&#x200B;**[!UICONTROL 新增至群組]**&#x200B;按鈕。
    ![新增至群組](assets/screenshot-2018-04-06-15-27-17.png)
 **[!UICONTROL 新增至群組]**&#x200B;對話方塊就會顯示。
 

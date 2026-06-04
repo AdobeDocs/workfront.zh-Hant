@@ -8,8 +8,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: daf44b00-0c55-470e-a52b-2bb21a961699
 TQID: https://experienceleague.adobe.com/CpaeZRKMyMlBYasqoepthgAFTZQJ4gQlzfX-ou6E3k0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 402
@@ -34,7 +36,7 @@ ht-degree: 0%
 1. 在清單或縮圖清單版面配置中，按一下列出校樣之列尾的&#x200B;**[!UICONTROL 更多]**&#x200B;按鈕。
 1. ![More_button_small.png](assets/more-button-small.png)
 
-1. 如果您需要這些配置的相關詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md)中[檢視]索引標籤上的[頁面配置。
+1. 如果您需要這些配置的相關詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md)中[檢視]索引標籤上的頁面配置。
 1. 在出現的功能表中按一下&#x200B;**[!UICONTROL 下載原始檔案]**。\
    您也可以在清單中選取校訂，按一下清單上方的&#x200B;**[!UICONTROL 更多]**&#x200B;按鈕，然後按一下&#x200B;**[!UICONTROL 下載]**。\
    您也可以下載檔案：

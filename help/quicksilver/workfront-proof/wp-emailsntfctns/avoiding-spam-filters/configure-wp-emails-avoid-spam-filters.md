@@ -8,10 +8,14 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1fce3d83-fdce-4ded-8e78-3468243a59e1
 TQID: https://experienceleague.adobe.com/QMtIDexmxDDuKqTg-Z47-lMnQ27zDEdMtwg-8OUe3Uw
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 496
@@ -42,7 +46,7 @@ ht-degree: 0%
 * 您的[!UICONTROL 安全寄件者]清單
 * 您建立的篩選器，可將這些地址的電子郵件傳送到您的收件匣
 
-您可能還需要從垃圾郵件資料夾中移除任何現有的[!DNL Workfront Proof]封電子郵件，並檢查是否有&quot;[!UICONTROL 來自]&quot;的位址在封鎖的位址清單中。 此說明頁面列出[!DNL Workfront Proof]個]的[!UICONTROL 位址，並顯示如何在下列電子郵件使用者端中將它們新增至垃圾郵件篩選器：
+您可能還需要從垃圾郵件資料夾中移除任何現有的[!DNL Workfront Proof]封電子郵件，並檢查是否有&quot;[!UICONTROL 來自]&quot;的位址在封鎖的位址清單中。 此說明頁面列出[!DNL Workfront Proof]個的位址，並顯示如何在下列電子郵件使用者端中將它們新增至垃圾郵件篩選器：
 
 * [!DNL Gmail]
 * [!DNL Microsoft Outlook 2003 - 2007]

@@ -8,8 +8,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 56556d16-9aab-4b0e-b08c-ac5f1703e082
 TQID: https://experienceleague.adobe.com/cEwm8LT22jENgN3OFGgqzGoMfrz8JSqIyHQGdYpiV04
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1544
@@ -180,7 +182,7 @@ ht-degree: 0%
 
    * 按一下&#x200B;**[!UICONTROL 標籤]**&#x200B;以新增標籤至這些專案。
    * 按一下&#x200B;**[!UICONTROL 移至]**，將選取的專案移至其他資料夾(或若您選取（未選取資料夾），將專案移出資料夾。
-   * 按一下「共用選取的專案」****&#x200B;以與其他檢閱者共用所有這些專案。\
+   * 按一下「共用選取的專案」**&#x200B;**&#x200B;以與其他檢閱者共用所有這些專案。\
 
      ![Share_button-small.png](assets/share-button-small.png)
 
@@ -200,4 +202,4 @@ ht-degree: 0%
 1. 執行下列其中一項：
 
    * 若要移動一個專案，請按住該專案，將其拖放到您要放置它的資料夾。
-   * 若要同時移動多個專案，您可以選取專案左邊的核取方塊，然後按一下清單上方的**[!UICONTROL 移至]**，然後選取您要放置專案的資料夾，或為其建立新資料夾。
+   * 若要同時移動多個專案，您可以選取專案左邊的核取方塊，然後按一下清單上方的&#x200B;**[!UICONTROL 移至]**，然後選取您要放置專案的資料夾，或為其建立新資料夾。

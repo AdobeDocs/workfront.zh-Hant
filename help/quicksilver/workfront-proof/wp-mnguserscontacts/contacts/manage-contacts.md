@@ -8,10 +8,14 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e2fc091a-4c06-40c5-9fb4-256239f09ffc
 TQID: https://experienceleague.adobe.com/TT-3Z8jO89qQQuJJlvJFK92fzhXpUwtvi4Qh6W2c8NI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 492
@@ -37,7 +41,7 @@ ht-degree: 0%
 1. 按一下左側導覽側邊欄中的&#x200B;**[!UICONTROL 連絡人]**。
 1. 按一下要作為排序依據的欄標題。
 或
-從[連絡人]頁面右上角的**[!UICONTROL 排序]**&#x200B;功能表中選取選項。
+從[連絡人]頁面右上角的&#x200B;**[!UICONTROL 排序]**&#x200B;功能表中選取選項。
 
 1. ![Contacts_page-Sort_menu.png](assets/contacts-page-sort-menu.png)
 
@@ -69,7 +73,7 @@ ht-degree: 0%
 
    * 按一下&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 將連絡人匯出至CSV]**，將選取的連絡人匯出至CSV檔案。
 
-   * 按一下[刪除連絡人]****，將選取的連絡人從清單中移除。
+   * 按一下[刪除連絡人]&#x200B;**&#x200B;**，將選取的連絡人從清單中移除。
 
      ![Trash_button.png](assets/trash-button.png)
 刪除連絡人並不表示使用者已從您的帳戶移除；但如果管理員或帳單管理員從連絡人清單中刪除某人，則該人員將從您組織的帳戶中完全刪除。
@@ -83,7 +87,7 @@ ht-degree: 0%
 您可以從CSV檔案匯入連絡人。
 
 1. 按一下左側導覽側邊欄中的&#x200B;**[!UICONTROL 連絡人]**。
-1. 在[連絡人]頁面上，按一下[其他] ]**> [匯入連絡人]****，將連絡人新增至您的清單。**[!UICONTROL 
+1. 在[連絡人]頁面上，按一下[其他] **> [匯入連絡人]**&#x200B;**，將連絡人新增至您的清單。**
 
 1. 在出現的[匯入人員]頁面上，按一下[**[!UICONTROL 選擇檔案]**]。
 1. 選取檔案中的欄位分隔方法。

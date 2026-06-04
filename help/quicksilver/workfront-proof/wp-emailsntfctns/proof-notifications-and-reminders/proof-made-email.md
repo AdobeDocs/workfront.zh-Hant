@@ -9,10 +9,14 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: a6bfe471-2032-4b74-8316-584f923e8651
 TQID: https://experienceleague.adobe.com/GmmKj5aqXNRDlKfo8BBcN7-6-jCtf2-8Dv4o2m1mPAY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 441
@@ -56,7 +60,7 @@ ht-degree: 0%
 
 ## 正在停用[!UICONTROL 校訂已製作]電子郵件
 
-1. 按一下&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 個人設定]**，開啟&#x200B;**[!UICONTROL 校訂預設值]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL 校訂就緒時電子郵件確認旁的**[!UICONTROL &#x200B;停用&#x200B;]**]**。
+1. 按一下&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 個人設定]**，開啟&#x200B;**[!UICONTROL 校訂預設值]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL 校訂就緒時電子郵件確認旁的**&#x200B;[!UICONTROL &#x200B;停用&#x200B;]&#x200B;**]**。
 
 1. ![Proof_Made_-_proofing_defaults.png](assets/proof-made---proofing-defaults-350x103.png)
 

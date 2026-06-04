@@ -8,10 +8,15 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c5c0c7ac-f829-401d-a27c-9581856a7cec
 TQID: https://experienceleague.adobe.com/IDL8PSxlmHC9hsENUlrbfRQK-9qhpvHYmsvKDMepVvw
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 497
@@ -39,7 +44,7 @@ ht-degree: 0%
      >
      >不再支援以電子郵件傳送至dropzones。
 
-   * **[!UICONTROL 拖放區域擁有者]**：設定或編輯拖放區域擁有者。 這是會收到新提交至Dropzone通知的人。 若要設定為拖放區域擁有者，使用者必須是監督員、管理員、帳單管理員或帳戶建立者。 如需詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔。
+   * **[!UICONTROL 拖放區域擁有者]**：設定或編輯拖放區域擁有者。 這是會收到新提交至Dropzone通知的人。 若要設定為拖放區域擁有者，使用者必須是監督員、管理員、帳單管理員或帳戶建立者。 如需詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
 
    * **[!UICONTROL 建立者的預設角色]**：所有提交者都已新增到校訂中，此角色為預設角色。
    * **[!UICONTROL 所有建立者的電子郵件通知]**：在此設定校訂建立者（提交者）的電子郵件通知偏好設定。 請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)中設定電子郵件通知設定，以取得不同可用警示設定的相關資訊。
@@ -55,7 +60,7 @@ ht-degree: 0%
 1. 在&#x200B;**[!UICONTROL 拖放區域欄位]**&#x200B;區段中進行任何變更，以指定透過Dropzone提交校樣時，哪些欄位會顯示在Dropzone提交頁面的[!UICONTROL 校樣詳細資料]區段中。
 1. 在&#x200B;**[!UICONTROL 允許的網域]**&#x200B;區段中，指定您要允許使用Dropzone的網域。
 
-   * 您可以按一下&#x200B;**[!UICONTROL 新增網域]**&#x200B;以新增網域。 完成新增網域詳細資料後，請按一下[儲存]。****
+   * 您可以按一下&#x200B;**[!UICONTROL 新增網域]**&#x200B;以新增網域。 完成新增網域詳細資料後，請按一下[儲存]。**&#x200B;**
 
    * 您可以&#x200B;**[!UICONTROL 編輯]**&#x200B;和&#x200B;**[!UICONTROL 刪除]**&#x200B;您先前新增的任何現有網域。
 

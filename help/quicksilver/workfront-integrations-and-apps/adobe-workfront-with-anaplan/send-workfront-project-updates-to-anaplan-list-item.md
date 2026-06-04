@@ -7,11 +7,19 @@ author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: 97e9dac6-f5b5-4d6e-b58b-93acd19048ee
 TQID: https://experienceleague.adobe.com/3bl3dFd6ejNq5r-y7tV9ynFkxQ-xvtPoGWJ-DTtKOn0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d8302c96-f652-4d09-896b-19a70bab02a5id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d8302c96-f652-4d09-896b-19a70bab02a5
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 972
@@ -59,7 +67,7 @@ ht-degree: 13%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)文件中的存取權要求[。
+若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)文件中的存取權要求。
 
 關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
 
@@ -92,24 +100,24 @@ ht-degree: 13%
    </thead> 
    <tbody> 
     <tr> 
-     <td role="rowheader">[！UICONTROL上市日期]</td> 
-     <td>[！UICONTROL日期] </td> 
+     <td role="rowheader">[!UICONTROL 上市日期]</td> 
+     <td>[!UICONTROL 日期] </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL市場結束日期]</td> 
-     <td>[！UICONTROL日期]</td> 
+     <td role="rowheader">[!UICONTROL 市場結束日期]</td> 
+     <td>[!UICONTROL 日期]</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL行銷活動概覽]</td> 
-     <td>[！UICONTROL段落文字欄位]</td> 
+     <td role="rowheader">[!UICONTROL 行銷活動概覽]</td> 
+     <td>[!UICONTROL 段落文字欄位]</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL金鑰訊息]</td> 
-     <td>[！UICONTROL段落文字欄位]</td> 
+     <td role="rowheader">[!UICONTROL 金鑰訊息]</td> 
+     <td>[!UICONTROL 段落文字欄位]</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[！UICONTROL目標對象]</td> 
-     <td> <p>[！UICONTROL下拉式清單]</p> <p>包含適合您流程的選項。</p> </td> 
+     <td role="rowheader">[!UICONTROL 目標對象]</td> 
+     <td> <p>[!UICONTROL 下拉式清單]</p> <p>包含適合您流程的選項。</p> </td> 
     </tr> 
    </tbody> 
   </table>
@@ -206,27 +214,27 @@ ht-degree: 13%
     </thead> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL Anaplan] Workspace ID]</td> 
+      <td role="rowheader">[!UICONTROL [!DNL Anaplan] Workspace ID]</td> 
       <td>您[!DNL Anaplan]帳戶的工作區識別碼。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL Anaplan]模型識別碼] </td> 
+      <td role="rowheader">[!UICONTROL [!DNL Anaplan]模型識別碼] </td> 
       <td>來自您[!DNL Anaplan]帳戶和所選工作區的模型ID。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL促銷活動清單名稱]</td> 
+      <td role="rowheader">[!UICONTROL 促銷活動清單名稱]</td> 
       <td>來自您[!DNL Anaplan]帳戶及所選工作區與模型的清單名稱。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL檔案名稱：專案更新匯入]</td> 
+      <td role="rowheader">[!UICONTROL 檔案名稱：專案更新匯入]</td> 
       <td>將接收專案更新資料的檔案名稱。<p>（範例：WorkfrontUpdateLinkedProject.csv）</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL流程名稱：專案更新匯入]</td> 
+      <td role="rowheader">[!UICONTROL 流程名稱：專案更新匯入]</td> 
       <td> <p>將執行專案資料匯入的程式名稱。</p> <p>（範例： WF Int — 更新促銷活動詳細資料）</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[！UICONTROL [!DNL Workfront]子網域]</td> 
+      <td role="rowheader">[!UICONTROL [!DNL Workfront]子網域]</td> 
       <td>您[!DNL Workfront]帳戶的子網域。 這可用來在可能產生的附註中建立回到[!DNL Workfront]專案的連結。</td> 
      </tr> 
     </tbody> 

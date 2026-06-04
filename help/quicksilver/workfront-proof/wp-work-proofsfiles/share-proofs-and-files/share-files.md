@@ -8,8 +8,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c4ca7a87-cacc-4b9b-aa9b-d7022ef9e267
 TQID: https://experienceleague.adobe.com/gqAvtlTosbFa3VbRCbgC4zbdQZVM8xzmBH-uF3HZLlU
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 562
@@ -35,7 +37,7 @@ ht-degree: 0%
 
 1. 您無法選擇加入檔案之人員的角色。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中管理校訂角色。 如果您希望其他人能檢閱/核准檔案，您必須先將檔案轉換為校訂。
 1. 如果您要傳送有關新檔案的電子郵件警示給使用者，請確定已選取&#x200B;**[!UICONTROL 透過電子郵件通知人員]**。\
-   您可以按一下[新增自訂訊息] ****，輸入您要包含在電子郵件中的訊息。\
+   您可以按一下[新增自訂訊息] **&#x200B;**，輸入您要包含在電子郵件中的訊息。\
    電子郵件警報包含個人URL，可帶他們前往可以下載檔案的頁面。
 
 1. 按一下&#x200B;**[!UICONTROL 上傳檔案]**。
@@ -49,7 +51,7 @@ ht-degree: 0%
 
 1. 您無法選擇加入檔案之人員的角色。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中管理校訂角色。 如果您希望其他人能檢閱/核准檔案，您必須先將檔案轉換為校訂。
 1. 如果您要傳送有關新檔案的電子郵件警示給使用者，請確定已選取&#x200B;**[!UICONTROL 透過電子郵件通知人員]**。\
-   您可以按一下[新增自訂訊息] ****，輸入您要包含在電子郵件中的訊息。\
+   您可以按一下[新增自訂訊息] **&#x200B;**，輸入您要包含在電子郵件中的訊息。\
    電子郵件警報包含個人URL，可帶他們前往可以下載檔案的頁面。
 
 1. 按一下&#x200B;**[!UICONTROL 共用]**。

@@ -9,11 +9,18 @@ exl-id: 802a2f16-d827-455e-9e49-f58f4c5fc482
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/VS7dMEKNRvRY7myBMTfkFVRtbvYqggxvACNSrmQBNKQ
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e4fedd42-4a54-4109-859f-13c7f0366a72
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: e4fedd42-4a54-4109-859f-13c7f0366a72
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 932
@@ -204,7 +211,7 @@ ht-degree: 3%
 
    * **文件**
 
-     按一下[核准]]**核准檔案，**[!UICONTROL &#x200B;拒絕&#x200B;]**拒絕檔案，或**[!UICONTROL &#x200B;變更&#x200B;]**指示您核准檔案，但檔案需要其他變更。**[!UICONTROL \
+     按一下[核准]&#x200B;**核准檔案，**&#x200B;[!UICONTROL &#x200B;拒絕&#x200B;]&#x200B;**拒絕檔案，或**&#x200B;[!UICONTROL &#x200B;變更&#x200B;]&#x200B;**指示您核准檔案，但檔案需要其他變更。**\
      （選擇性）將滑鼠移到檔案縮圖上，按一下放大鏡並預覽檔案。
 
    * **校訂**&#x200B;按一下校訂名稱，在個別索引標籤的[!DNL Workfront]中開啟並管理核准。

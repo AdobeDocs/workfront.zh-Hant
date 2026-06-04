@@ -8,8 +8,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cd120e53-d6c2-4929-904f-a9f72903f074
 TQID: https://experienceleague.adobe.com/hfrduMjWqBcyeqrHM5PTmCYY6jzwBCQwgQWzCqGDlls
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 435
@@ -50,7 +52,7 @@ ht-degree: 0%
 
 任何對校樣具有編輯許可權的使用者都可以將其解鎖。
 
-如需許可權的詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔。
+如需許可權的詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
 
 >[!NOTE]
 >
@@ -66,7 +68,7 @@ ht-degree: 0%
 
 ## 檢視和變更校訂狀態
 
-如需有關檢視處於特定狀態之所有校訂清單的資訊，例如檢視所有作用中或鎖定的校訂，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中檢視頁面上的[管理專案一文中的[管理檢視頁面上的專案 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)。
+如需有關檢視處於特定狀態之所有校訂清單的資訊，例如檢視所有作用中或鎖定的校訂，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中檢視頁面上的管理專案一文中的[管理檢視頁面上的專案 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)。
 
 1. 存取您的[!DNL Workfront Proof]儀表板。
 

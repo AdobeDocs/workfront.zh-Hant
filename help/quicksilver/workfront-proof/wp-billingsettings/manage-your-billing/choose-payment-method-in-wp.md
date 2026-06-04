@@ -8,10 +8,14 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cc23012f-ea1a-41e6-b101-877b85605775
 TQID: https://experienceleague.adobe.com/c5PekqBFApp6g08M-vg9eTw8pIVWvAByA7Y1vXvEXY8
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 348
@@ -70,7 +74,7 @@ ht-degree: 2%
 如果您有Satellite帳戶，則需要分別更新每個帳戶的信用卡詳細資料和付款方法。 如需有關Satellite帳戶的詳細資訊，請參閱[Satellite帳戶。](https://support.workfront.com/hc/en-us/sections/115000921108-Satellite-accounts)
 
 1. 前往您中心帳戶中的[!UICONTROL 帳單]頁面。\
-   如需帳單頁面的詳細資訊，請參閱[校訂帳單頁面 [!DNL Workfront] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
+   如需帳單頁面的詳細資訊，請參閱[校訂帳單頁面 [!DNL Workfront] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
 
 1. 開啟[!UICONTROL 帳戶清單]下拉式功能表。 (1)
 1. 選擇與您要更新之信用卡相關聯的附屬帳戶(2)。

@@ -4,8 +4,10 @@ description: ' [!DNL Workfront Proof] 平板電腦應用程式可讓您在旅途
 hide: true
 exl-id: 7a3f1d96-103d-41cf-8470-3fc69e4bd507
 TQID: https://experienceleague.adobe.com/Unk0yRCZtepX7LK-J7Y8JnUtcbUdMRzWo3XmMQuBXQM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1979
@@ -97,7 +99,7 @@ ht-degree: 0%
 
    或
 
-   若要從電子郵件通知開啟校訂，檢閱者可以按一下通知中的&#x200B;**[!UICONTROL 前往校訂]**連結。
+   若要從電子郵件通知開啟校訂，檢閱者可以按一下通知中的&#x200B;**[!UICONTROL 前往校訂]**&#x200B;連結。
 如果您有[!DNL Workfront Proof]帳戶，您可以登入並從儀表板存取您的校訂。
 
    >[!NOTE]

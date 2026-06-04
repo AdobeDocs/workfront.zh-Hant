@@ -8,10 +8,16 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 26e76fb7-4a2d-4ae1-b9cb-293c074151da
 TQID: https://experienceleague.adobe.com/O8MYCpzLUHxiOhoFs1GUiVogqziOwIBjMapChrEd5hs
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 994
@@ -114,7 +120,7 @@ ht-degree: 0%
 如需詳細資訊，請參閱[還原並清空垃圾桶 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)。
 
 * 管理許可權設定檔
-如需相關資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔。
+如需相關資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
 
 * 檢視分析
 
@@ -141,10 +147,10 @@ ht-degree: 0%
    如需詳細資訊，請參閱[系統管理許可權](#administrative-permissions)。
 
 1. 按一下&#x200B;**[!UICONTROL 建立]**。
-新的設定檔現在可在**[!UICONTROL 使用者]**&#x200B;標籤上使用。
+新的設定檔現在可在&#x200B;**[!UICONTROL 使用者]**&#x200B;標籤上使用。
 
 1. （可選）將新設定檔指派給新的和現有的使用者帳戶。
-如需詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔。
+如需詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
 
 ## 啟用和停用設定檔 {#enabling-and-disabling-a-profile}
 
@@ -152,7 +158,7 @@ ht-degree: 0%
 
 1. 選取要啟用或停用的設定檔。
 或
-若要同時啟用或停用多個設定檔，請手動選取設定檔，或選取**[!UICONTROL 名稱]**以選取所有自訂設定檔。
+若要同時啟用或停用多個設定檔，請手動選取設定檔，或選取&#x200B;**[!UICONTROL 名稱]**&#x200B;以選取所有自訂設定檔。
    ![熒幕擷圖_2018-04-06_12-31-53.png](assets/screenshot-2018-04-06-12-31-53.png)
 
 1. 按一下&#x200B;**[!UICONTROL 更多]**&#x200B;下拉式功能表，然後按一下下列任一選項（視您是要啟用或停用設定檔而定）：

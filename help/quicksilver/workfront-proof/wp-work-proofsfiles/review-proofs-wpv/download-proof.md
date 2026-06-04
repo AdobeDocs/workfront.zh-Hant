@@ -8,8 +8,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 630db335-79b6-40f0-80b7-d8ccf7ac23fa
 TQID: https://experienceleague.adobe.com/YZngDvldYoj6j-bqhDayofktAiULLu1tHYX6O6tWG6M
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 116
@@ -28,4 +30,4 @@ ht-degree: 0%
 1. 在校訂檢視器左側的工具列中，按一下&#x200B;**[!UICONTROL 下載]**&#x200B;按鈕。\
    ![Proofing_Viewer_toolbar_button_-_Download.png](assets/proofing-viewer-toolbar-button---download.png)
 
-1. 瀏覽到您要下載校訂的檔案系統位置，然後按一下[儲存]。****
+1. 瀏覽到您要下載校訂的檔案系統位置，然後按一下[儲存]。**&#x200B;**
