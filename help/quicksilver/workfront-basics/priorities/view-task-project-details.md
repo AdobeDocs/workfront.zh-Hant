@@ -6,10 +6,15 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
+TQID: https://experienceleague.adobe.com/0he3DEiya4uyF6tdS-xHqhqnSYiQkXijNxwheJVvDU4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: bd7ae926356225423e6f986bef0b216b2a04584c
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 1%
+source-wordcount: 409
+ht-degree: 6%
 
 ---
 
@@ -24,9 +29,9 @@ ht-degree: 1%
 >專案必須處於目前狀態或等於目前的狀態，才能顯示專案及其子任務和問題。
 
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +40,7 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront套件</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront 封裝</strong></td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -67,7 +72,7 @@ ht-degree: 1%
 {{step1-to-priorities}}
 
 1. 在工作清單中，暫留在工作專案名稱上，然後按一下&#x200B;**摘要**&#x200B;圖示![開啟摘要圖示](assets/summary-icon.png)。
-1. 按一下摘要面板頂端的&#x200B;**專案**。 您可以
+1. 按一下摘要面板頂端的&#x200B;**專案**。 您可以：
    * 檢視和編輯專案詳細資料和說明
    * 檢視專案並新增註解
    * 記錄時間
@@ -81,7 +86,7 @@ ht-degree: 1%
 {{step1-to-priorities}}
 
 1. 在工作清單中，暫留在工作名稱上，然後按一下&#x200B;**摘要**&#x200B;圖示![開啟摘要圖示](assets/summary-icon.png)。
-1. 預設會選取工作。 您可以
+1. 預設會選取工作。 您可以：
    * 檢視和編輯專案和任務的詳細資訊和說明
    * 檢視專案並新增註解
    * 檢視和新增檔案
@@ -118,7 +123,7 @@ ht-degree: 1%
 
 {{step1-to-priorities}}
 
-1. 在工作清單中，按一下工作專案名稱。 您可以在「詳細資訊」頁面執行下列作業
+1. 在工作清單中，按一下工作專案名稱。 您可以在「詳細資訊」頁面執行下列作業：
 
 * 檢視和編輯專案詳細資料和說明
 * 檢視專案並新增註解

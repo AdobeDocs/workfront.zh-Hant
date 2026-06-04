@@ -6,14 +6,21 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+TQID: https://experienceleague.adobe.com/YIqeZbiTZH00yXJ6LnQrpEZuHvW4Y5QZVkYU3OquWqE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1880d4370059ad654f91c6f40a0a787c51c1e54e
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 10%
+source-wordcount: 437
+ht-degree: 5%
 
 ---
 
 # 自訂「優先順序」工作清單欄
+
+{{preview-fast-release-general}}
 
 <!--I think this article can point to the Enhanced lists article for managing the view-->
 
@@ -28,9 +35,11 @@ ht-degree: 10%
 
 優先順序顯示指派給您的工作專案。 您看不到指派給團隊的工作專案。
 
+<!--
 >[!NOTE]
 >
->您目前無法新增自訂資料至欄。
+>You cannot add custom data to columns at this time.
+-->
 
 ## 存取權要求
 
@@ -75,20 +84,43 @@ ht-degree: 10%
 {{step1-to-priorities}}
 
 1. 按一下畫面左側的&#x200B;**欄**。
+
+   <span class="preview">預覽環境中的範例影像：</span>
+   ![欄](assets/columns-new-060226.png)
+
+   生產環境中的影像範例：
    ![欄](assets/columns-new.png)
-1. 使用切換可啟用或停用工作清單中的欄。
+
+1. 使用切換來顯示或隱藏工作清單中的欄。
 
 ### 重新排序欄
 
 {{step1-to-priorities}}
 
 1. 按一下畫面左側的&#x200B;**欄**。
-1. 按一下&#x200B;**拖曳**&#x200B;圖示，並將資料行移至您想要的位置。 自動移動工作清單中的欄更新。
+1. 按一下&#x200B;**拖曳**圖示，並將資料行移至您想要的位置。自動移動工作清單中的欄更新。
    ![重新排序資料行](assets/reorder-columns-new.png)
 
 >[!NOTE]
 >
 >「名稱」欄是固定的，無法移動。
+
+<div class="preview">
+
+### 使用欄管理員新增和移除欄
+
+{{step1-to-priorities}}
+
+1. 按一下清單右上角的+圖示以開啟&#x200B;**欄管理員**&#x200B;方塊。
+1. 新增或移除欄，然後按一下[儲存]。****
+
+   >[!NOTE]
+   >
+   >您只能將現有欄位新增到清單檢視。 任務和問題的原生和自訂欄位都可新增為欄。
+
+如需資料行管理員的詳細資訊，請參閱發行項[使用增強式清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)中的[新增及移除資料行管理員為](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager)的資料行。
+
+</div>
 
 ### 變更優先順序清單中的列高
 
@@ -104,3 +136,22 @@ ht-degree: 10%
    * 高
 
    清單會立即更新。
+
+<div class="preview">
+
+## 管理優先順序清單的檢視
+
+檢視會使用預設集設定來定義清單中的欄、篩選器和群組。
+
+預設檢視會指派給優先順序清單。 您也可以建立和共用自己的檢視。
+
+{{step1-to-priorities}}
+
+1. 展開清單左上角的下拉式檢視功能表以選取其他檢視，或按一下[新增檢視] **以建立其他檢視。**
+1. 更新要包含在檢視中的欄、篩選器和群組。
+
+   檢視的變更會自動儲存。 下次套用此檢視時，欄和篩選設定仍會保留您設定的方式。
+
+如需檢視的詳細資訊，請參閱文章[使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)中的[更新增強型清單元素](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#update-enhanced-list-elements)一節。
+
+</div>

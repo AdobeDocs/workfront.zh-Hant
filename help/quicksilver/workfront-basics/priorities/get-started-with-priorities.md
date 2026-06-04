@@ -6,18 +6,22 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
+TQID: https://experienceleague.adobe.com/pZbr-zFYyGsswScJTb80R679wGRmKJUaXexO8G4XRoo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: bd7ae926356225423e6f986bef0b216b2a04584c
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: 1021
 ht-degree: 3%
 
 ---
 
 # 開始使用 [!DNL Priorities]
-
-{{preview-fast-release-general}}
 
 優先順序是為任務所有者量身打造的簡化且直覺式體驗。 優先順序將分階段推出，從工作清單開始。
 
@@ -29,7 +33,7 @@ ht-degree: 3%
 
 「優先順序工作清單」與「工作歷」會顯示指派給您的工作專案。 您看不到指派給團隊的工作專案。
 
-<span class="preview">Workfront管理員可以在版面配置範本中為您的使用者啟用優先順序。 如需詳細資訊，請參閱[使用配置範本自訂主功能表](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)。</span>
+Workfront管理員可以在版面配置範本中為您的使用者啟用優先順序。 如需詳細資訊，請參閱[使用配置範本自訂主功能表](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)。
 
 ## 尋找並組織您的工作
 
@@ -180,7 +184,7 @@ ht-degree: 3%
 
 如需詳細資訊，請參閱[在優先順序](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)中新增及管理快速連結。
 
-### 檢視檔案
+### 檢視文件
 
 「檔案」標籤可讓您檢視與工作專案相關的所有檔案。 您可以依名稱、檔案型別或人員篩選檔案，以及依名稱和上傳日期排序。
 
