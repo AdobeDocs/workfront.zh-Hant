@@ -4,7 +4,7 @@ description: 2026年第三季度發行時間範圍內的首頁增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1fe4b945d6f346f1cfa06bda0a7ddc8b6ca92cfd
+source-git-commit: ca4b2ee8375442afa19bf0d3af2915d3aab20779
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -28,4 +28,5 @@ ht-degree: 0%
 您也可以建立並共用優先順序工作清單的檢視。
 
 如需「優先順序」的資訊，請參閱[自訂優先順序工作清單資料行](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)。 如需有關建立檢視和使用資料行管理員的資訊，請參閱[使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
+
 
