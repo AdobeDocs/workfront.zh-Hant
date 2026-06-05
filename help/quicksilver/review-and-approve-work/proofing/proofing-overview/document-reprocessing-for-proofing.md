@@ -6,9 +6,16 @@ description: 當您提交校訂檔案(DOCX、PDF、XLSX、AI)時，Adobe Workfro
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e577fa71-4828-4fc2-93a2-0eddbb5ad2ad
-source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
+TQID: https://experienceleague.adobe.com/giMfktfCHbpzATLm-1ZrKi1bkoc4OeFlAqXYu-YWQtA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: 632
 ht-degree: 0%
 
 ---
@@ -19,7 +26,7 @@ ht-degree: 0%
 
 檔案的每個頁面都會以縮圖影像的形式顯示在校訂檢視器中。 當您按一下縮圖時，可以放大該頁面的點陣圖版本，其比例分別為100%、200%和400%。 對於高度或寬度超過800毫米的校樣，最大縮放比例為200%。
 
-檔案中的顏色會以sRGB格式顯示，且會透過最新Adobe庫的色彩轉換進行轉換。 校訂檢視器支援檔案中內嵌的任何International Color Consortium (ICC)設定檔。
+檔案內的顏色會以sRGB格式顯示，且會透過最新Adobe資料庫的色彩轉換進行轉換。 校訂檢視器支援檔案中內嵌的任何International Color Consortium (ICC)設定檔。
 
 只要您在上傳檔案到系統時包含正確的副檔名，所有字型文字都會擷取在其圖層中。 包含為影像或曲線的文字不會顯示。
 
@@ -52,6 +59,6 @@ ht-degree: 0%
 
 提交的檔案會進行下列部分或全部步驟：
 
-1. **提交**。 將檔案上傳到系統時，您會使用新校樣頁面或使用應用程式設計介面(API)進行上傳。 
-1. **佇列**。 在高流量期間，Workfront可能需要將提交內容排入佇列，以免系統過載。 大部分的校訂在佇列中只會花費幾秒鐘。 
+1. **提交**。將檔案上傳到系統時，您會使用新校樣頁面或使用應用程式設計介面(API)進行上傳。 
+1. **佇列**。在高流量期間，Workfront可能需要將提交內容排入佇列，以免系統過載。大部分的校訂在佇列中只會花費幾秒鐘。 
 1. **正在處理。**&#x200B;根據內容型別，檔案會到達處理電腦。 我們使用不同的工具來處理視訊校樣、網頁擷取、靜態影像和檔案。 多媒體容器(ZIP)和互動式網頁擷取提交不需要處理。

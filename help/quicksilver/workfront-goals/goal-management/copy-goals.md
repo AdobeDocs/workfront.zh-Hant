@@ -6,12 +6,23 @@ description: 您可以複製Adobe Workfront目標中的目標來建立目標。 
 author: Alina
 feature: Workfront Goals
 exl-id: 690a6030-ee29-4e50-869f-cd014050b364
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/qWUfnMhukp20gik0uEzrEUSQNtlTH9RjT6IlrzEjg3U
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 6%
+source-wordcount: 748
+ht-degree: 7%
 
 ---
 
@@ -255,7 +266,7 @@ To copy goals in the Production environment:
         >* 原始結果的進度不會轉移到複製的目標。
         >* 如果從Workfront中刪除或停用原始擁有者，則會將新結果指派給登入使用者。
 
-1. 按一下&#x200B;**複製目標**。
+1. 按一下「**複製目標**」。
 
    與原始目標類似的目標已建立且處於「草稿」狀態。
 

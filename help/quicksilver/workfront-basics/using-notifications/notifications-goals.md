@@ -6,11 +6,23 @@ description: 通知：目標
 author: Courtney, Alina
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/6kIc-y3DRa7mDVX14gA5jDbIzZveHH1MNIghGpQP7hc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: 388
 ht-degree: 5%
 
 ---
@@ -58,10 +70,10 @@ ht-degree: 5%
 
 ## 先決條件
 
-* 您要更新其[!DNL Goals]個通知的使用者必須有包括[!DNL Goals]主要功能表[!UICONTROL 中的]區域的配置範本。
+* 您要更新其[!DNL Goals]個通知的使用者必須有包括[!UICONTROL 主要功能表]中的[!DNL Goals]區域的配置範本。
 
 
-## [!DNL Goals]使用者設定檔[!UICONTROL 區域中的]個通知
+## [!UICONTROL 使用者設定檔]區域中的[!DNL Goals]個通知
 
 下表列出的通知會提醒您有關[!DNL Workfront Goals]中發生的事件，例如有人指派目標、結果或活動給您，或有人對您擁有的目標、結果或活動進行更新。 如需有關設定您收到哪些通知的資訊，請參閱[修改您自己的電子郵件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
 

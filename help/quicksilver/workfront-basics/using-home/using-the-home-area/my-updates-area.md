@@ -6,15 +6,26 @@ description: 您可以使用[!UICONTROL 我的更新]區域來快速檢閱等待
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/tBVFQLaFE0Vb15SDNsWRomKEDRTeIsEjnMaCv-CrMR8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: 786
 ht-degree: 2%
 
 ---
-
 
 # 使用[!UICONTROL 我的更新]區域
 
@@ -69,7 +80,7 @@ ht-degree: 2%
 
 開始之前，您必須具備下列條件：
 
-* 如果您有[!DNL Workfront]檢閱[!UICONTROL 以外的]授權，您的[!DNL Workfront]或群組管理員必須使用配置範本將[!UICONTROL 我的更新]區域新增到[!UICONTROL 主功能表]，並將您指派給該範本。
+* 如果您有[!UICONTROL 檢閱]以外的[!DNL Workfront]授權，您的[!DNL Workfront]或群組管理員必須使用配置範本將[!UICONTROL 我的更新]區域新增到[!UICONTROL 主功能表]，並將您指派給該範本。
 
 * 檢閱授權使用者預設可在[!UICONTROL 主功能表]中檢視[!UICONTROL 我的更新]區域。
 
@@ -91,7 +102,7 @@ ht-degree: 2%
 
    我的更新![分頁](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
 
-1. （選擇性）展開&#x200B;**[!UICONTROL 我的更新]**&#x200B;區段右上角的![篩選器](assets/filter-nwepng.png)下拉式功能表&#x200B;**[!UICONTROL 篩選器圖示]**，然後選取下列專案：
+1. （選擇性）展開&#x200B;**[!UICONTROL 我的更新]**&#x200B;區段右上角的&#x200B;**[!UICONTROL 篩選器]**&#x200B;下拉式功能表![篩選器圖示](assets/filter-nwepng.png)，然後選取下列專案：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -116,7 +127,7 @@ ht-degree: 2%
 
 1. 若要核准或拒絕專案，或在核准前建議對檔案的變更，請執行下列步驟：
 
-   1. （選擇性）按一下核准決定（**核准**，![變更](assets/down-arrow-blue.png)，**[!UICONTROL 拒絕]**）旁的&#x200B;**[!UICONTROL 下拉式清單]**&#x200B;圖示&#x200B;**[!UICONTROL 下拉式清單圖示]**&#x200B;並新增註解，然後按一下&#x200B;**[!UICONTROL 新增]**。
+   1. （選擇性）按一下核准決定（**[!UICONTROL 核准]**，**[!UICONTROL 變更]**，**[!UICONTROL 拒絕]**）旁的&#x200B;**下拉式清單**&#x200B;圖示![下拉式清單圖示](assets/down-arrow-blue.png)並新增註解，然後按一下&#x200B;**[!UICONTROL 新增]**。
 
       或
 

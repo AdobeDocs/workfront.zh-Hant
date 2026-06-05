@@ -6,15 +6,44 @@ description: ' [!DNL Adobe Workfront] 字彙表列出 [!DNL Adobe Workfront]. Yo
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: dbed69be1a57571e6c0701b7370e20be323037fe
+TQID: https://experienceleague.adobe.com/Nwg9J4XQcWv8PsTyUu9iHRHGd5anfcDJT9FKGt5rwy8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+  - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '21952'
+source-wordcount: 21551
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Adobe Workfront]術語辭彙表
 
@@ -137,7 +166,7 @@ ht-degree: 0%
       <!--
       Resource Estimates or a
       -->
-     專案（財務資料）報告並新增[!UICONTROL 配置日期]的矩陣分組，然後每週、每月、每季或每年將結果分組，以取得最準確的資料。<br>如需建立矩陣群組的相關資訊，請參閱文章<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">建立矩陣報表</a>。</p> </li>
+     專案（財務資料）報告並新增[!UICONTROL 配置日期]的矩陣群組，然後每週、每月、每季或每年群組結果，以取得最準確的資料。<br>如需建立矩陣群組的相關資訊，請參閱文章<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">建立矩陣報告</a>。</p> </li>
     </ul> <p>只有當與其關聯的資料存在時間少於5年時，財務資訊才會填入[!UICONTROL 專案（財務資料）]報表中。 例如，如果工作角色在2015年1月分配給任務，而今天是2021年9月，則工作角色的[!UICONTROL 分配日期]等財務欄位不會填入[!UICONTROL 專案（財務資料）]報表中。 </p> 
     <div> 
      <p>針對[!UICONTROL 預算時數]報表：</p> 
@@ -1204,7 +1233,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL 上次條件備註]</td> 
-   <td> <p>此欄位顯示物件擁有者上次在物件上輸入的更新。這是擁有者最近的活動或物件上的互動。</p> <p>如果物件最後一個附註的附註文字已被刪除，[!DNL Last Condition Note]欄會是空的。 當在物件上輸入新註記時，它會變成最後一個註記，並再次顯示在欄中。 </p> </td> 
+   <td> <p>此欄位顯示物件擁有者上次在物件上輸入的更新。這是擁有者最近的活動或物件上的互動。</p> <p>如果物件最後一個附註的附註文字已被刪除，[!DNL Last Condition Note]欄會是空的。當在物件上輸入新註記時，它會變成最後一個註記，並再次顯示在欄中。 </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 上次財務更新日期]</td> 
@@ -1404,7 +1433,7 @@ The designated full time equivalency for users. A full-time user should have 100
    <td>[!UICONTROL 子係數目]</td> 
    <td> <p>在[!UICONTROL 專案]報表中，這是任務具有的子任務或子任務數目。 
    <p><b>秘訣</b></p>
-   您可以將<code>{numberOfChildren}</code>計算新增至任務自訂表單的計算自訂欄位，以在自訂欄位中顯示任務的子係數目。 如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md">新增計算欄位至表單</a>。 
+   您可以將<code>{numberOfChildren}</code>計算新增至任務自訂表單的計算自訂欄位，以在自訂欄位中顯示任務的子係數目。如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md">將計算欄位新增至表單</a>。 
     </td> 
   </tr> 
   <tr> 
@@ -1545,7 +1574,7 @@ The designated full time equivalency for users. A full-time user should have 100
  <tbody> 
   <tr> 
    <td>[!UICONTROL 引數]</td> 
-   <td> <p>[!UICONTROL 引數]是自訂欄位。 您可以為系統中的所有引數或自訂欄位建立報告。 </p> </td> 
+   <td> <p>[!UICONTROL 引數]是自訂欄位。您可以為系統中的所有引數或自訂欄位建立報告。 </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Parent]</td> 
@@ -1622,7 +1651,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL 計畫成本]</td> 
-   <td> <p>專案的[!UICONTROL 計畫勞力成本]與[!UICONTROL 計畫費用成本]的總和。 這不包括專案上的[!UICONTROL 計畫風險成本]。  </p> </td> 
+   <td> <p>專案的[!UICONTROL 計畫勞力成本]與[!UICONTROL 計畫費用成本]的總和。這不包括專案上的[!UICONTROL 計畫風險成本]。  </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 計畫日期對齊方式]</td> 
@@ -1636,7 +1665,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL 計畫期間]</td> 
-   <td> <p>任務的[!UICONTROL 計畫持續時間]通常與任務的[!UICONTROL 持續時間]相同。 它代表任務的[!UICONTROL 計劃開始]與[!UICONTROL 計畫完成日期]之間的天數差異。 </p> <p>當任務的[!UICONTROL 工期]型別為[!UICONTROL 投入比導向]時，根據您指派給任務的資源數量，[!UICONTROL 計畫工期]可能與任務的[!UICONTROL 工期]不同。 </p> <p>例如，如果[!UICONTROL 工期]型別為[!UICONTROL 投入比導向]的任務具有3 d的[!UICONTROL 工期]，而您指派一個具有全職排程的資源給該任務，則[!UICONTROL 計畫工期]也為3天。 如果您將三個具有全職排程的資源指派給相同工作，[!UICONTROL 期間]會保留3天，但[!UICONTROL 計畫期間]會變成1天。 [!UICONTROL 計畫期間]也會變更任務的[!UICONTROL 計劃開始]和[!UICONTROL 計畫完成]日期，以反映新的[!UICONTROL 計畫期間]。 因此，專案的時間表也會受到影響。 </p> <p>如需有關工作[!UICONTROL 持續時間]與[!UICONTROL 計畫持續時間]之間差異的詳細資訊，請參閱文章<a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">工作</a>的[!UICONTROL 計畫持續時間]與[!UICONTROL 持續時間]之間的差異。</p> <p>專案和問題沒有[!UICONTROL 計畫期間]。 </p> </td> 
+   <td> <p>任務的[!UICONTROL 計畫持續時間]通常與任務的[!UICONTROL 持續時間]相同。它代表任務的[!UICONTROL 計劃開始]與[!UICONTROL 計畫完成日期]之間的天數差異。 </p> <p>當任務的[!UICONTROL 工期]型別為[!UICONTROL 投入比導向]時，根據您指派給任務的資源數量，[!UICONTROL 計畫工期]可能與任務的[!UICONTROL 工期]不同。 </p> <p>例如，如果[!UICONTROL 工期]型別為[!UICONTROL 投入比導向]的任務具有3 d的[!UICONTROL 工期]，而您指派一個具有全職排程的資源給該任務，則[!UICONTROL 計畫工期]也為3天。如果您將三個具有全職排程的資源指派給相同工作，[!UICONTROL 期間]會保留3天，但[!UICONTROL 計畫期間]會變成1天。[!UICONTROL 計畫期間]也會變更任務的[!UICONTROL 計劃開始]和[!UICONTROL 計畫完成]日期，以反映新的[!UICONTROL 計畫期間]。因此，專案的時間表也會受到影響。 </p> <p>如需有關工作[!UICONTROL 持續時間]與[!UICONTROL 計畫持續時間]之間差異的詳細資訊，請參閱文章<a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">工作</a>的[!UICONTROL 計畫持續時間]與[!UICONTROL 持續時間]之間的差異。</p> <p>專案和問題沒有[!UICONTROL 計畫期間]。 </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 計畫期間分鐘]</td> 
@@ -1874,11 +1903,11 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL 排名]</td> 
-   <td> <p>在[!UICONTROL 存取層級]報表中，您可以手動指出[!UICONTROL 存取層級]的[!UICONTROL 排名]。 這可協助您作為[!DNL Workfront]管理員，以視覺化方式識別與每個存取層級相關聯的複雜性層級。 例如，您可以為較複雜的（[!UICONTROL 計畫]層級）存取層級提供較低的數字，為較不複雜的（[!UICONTROL 請求者]層級）存取層級提供較高的數字。 您無法將標準存取層級排名。 </p> </td> 
+   <td> <p>在[!UICONTROL 存取層級]報表中，您可以手動指出[!UICONTROL 存取層級]的[!UICONTROL 排名]。這可協助您作為[!DNL Workfront]管理員，以視覺化方式識別與每個存取層級相關聯的複雜性層級。例如，您可以為較複雜的（[!UICONTROL 計畫]層級）存取層級提供較低的數字，為較不複雜的（[!UICONTROL 請求者]層級）存取層級提供較高的數字。您無法將標準存取層級排名。 </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 就緒]</td> 
-   <td> <p>任務報告上的此欄位會指出待處理專案上的[!UICONTROL Agile]任務是否已標籤為[!UICONTROL Ready]。 此標幟僅適用於[!UICONTROL Agile]任務，這些任務是指派給[!UICONTROL Agile]團隊的任務。 </p> </td> 
+   <td> <p>任務報告上的此欄位會指出待處理專案上的[!UICONTROL Agile]任務是否已標籤為[!UICONTROL Ready]。此標幟僅適用於[!UICONTROL Agile]任務，這些任務是指派給[!UICONTROL Agile]團隊的任務。 </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 記錄]</td> 
@@ -2098,7 +2127,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL 排程報告]</td> 
-   <td> <p>如果您使用[!UICONTROL 排程報表]欄位排程報表的傳送，建立報表報表時，可以顯示報表排程的相關資訊。 此欄位在專案符號清單中顯示多個值，每個報告的每個排程顯示一個。 如需有關排程報告的詳細資訊，請參閱文章<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md" class="MCXref xref">報告傳送概觀</a>。</p> <p>由於此欄位顯示多個值，因此無法用於分組。 您只能在篩選器或檢視中存取。 </p> </td> 
+   <td> <p>如果您使用[!UICONTROL 排程報表]欄位排程報表的傳送，建立報表報表時，可以顯示報表排程的相關資訊。 此欄位在專案符號清單中顯示多個值，每個報告的每個排程顯示一個。 如需有關排程報告的詳細資訊，請參閱文章<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md" class="MCXref xref">報告傳送概觀</a>。</p> <p>由於此欄位顯示多個值，因此無法用於分組。您只能在篩選器或檢視中存取。 </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 範圍變更]</td> 
@@ -2142,7 +2171,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Source]</td> 
-   <td> <p>表示另一個物件的父物件。 例如，附加到任務的檔案在[!UICONTROL Document]報告或檢視的[!UICONTROL Source]欄位中具有任務名稱；在專案底下記錄的問題在問題報告或檢視的[!UICONTROL Source]欄位中具有專案名稱。 </p> 
+   <td> <p>表示另一個物件的父物件。例如，附加到任務的檔案在[!UICONTROL Document]報告或檢視的[!UICONTROL Source]欄位中具有任務名稱；在專案底下記錄的問題在問題報告或檢視的[!UICONTROL Source]欄位中具有專案名稱。 </p> 
    <p>下列報表會顯示Source欄，您可在其中檢視有關父物件的資訊：</p>
   <ul><li>問題報告</li>
     <li>小時報告</li>
@@ -2487,7 +2516,7 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr>
   <td> <code>[!UICONTROL width]</code>
   </td>
-  <td> 在報表中使用[!UICONTROL 文字模式]介面時，您可以在其中指定每欄寬度（以畫素為單位）的程式碼行。 Workfront會提供每個欄位的建議寬度，不過根據欄位型別和格式，您可能想要進行調整。 您必須使用額外的<code>[!UICONTROL usewidths=true]</code>行程式碼來強制使用為欄指定的寬度。 
+  <td> 在報表中使用[!UICONTROL 文字模式]介面時，您可以在其中指定每欄寬度（以畫素為單位）的程式碼行。Workfront會提供每個欄位的建議寬度，不過根據欄位型別和格式，您可能想要進行調整。您必須使用額外的<code>[!UICONTROL usewidths=true]</code>行程式碼來強制使用為欄指定的寬度。 
   </td>
   </tr>
   <tr> 

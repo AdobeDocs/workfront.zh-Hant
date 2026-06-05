@@ -6,11 +6,23 @@ description: 您可以將現有專案匯入計畫。 匯入的專案會轉換為
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/yZ3-dqcetTEtRr3-SBAMrsmEE0JcW-DhOOhO9dPsakM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: 1679
 ht-degree: 1%
 
 ---
@@ -119,7 +131,7 @@ Old:
 * 您可以將相同專案匯入多個計畫。
 * 您要匯入的專案必須包含計畫時間範圍內的日期。 您無法匯入計劃開始日期為[!UICONTROL 計畫完成日期]或計畫結束日期為[!UICONTROL 計劃開始日期]的專案。
 * 您無法一次匯入超過100個專案。
-* 有些專案資訊也會匯入計畫，成為方案資訊。 如需有關哪些專案資訊已匯入計畫並成為方案資訊的資訊，請參閱本文章中匯入計畫[的](#project-information-imported-into-the-plan)專案資訊。
+* 有些專案資訊也會匯入計畫，成為方案資訊。 如需有關哪些專案資訊已匯入計畫並成為方案資訊的資訊，請參閱本文章中匯入計畫[&#128279;](#project-information-imported-into-the-plan)的專案資訊。
 * 連結專案上發生的變更不會影響計畫上的方案。
 * 發生在計畫上方案上的變更不會自動影響連結的專案。方案變更只有在您從計畫發佈方案時才會影響連結的專案。 如需有關發佈方案如何影響連結專案的資訊，請參閱[在 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)中發佈方案以更新或建立專案。
 * 刪除透過匯入專案建立的方案不會刪除專案。
@@ -155,15 +167,15 @@ Old:
      <ul> 
       <li> <p>如果指派給任務或問題的使用者在將其指派標示為[!UICONTROL 完成]之後變更了角色，則[!DNL Workfront]會將該使用者在將其指派標示為[!UICONTROL 完成]之前所履行的角色匯入行動方案。</p> </li> 
       <li> <p>如果指派給任務或問題的使用者在專案存留期間變更了角色，但他們在任務或問題上的指派未在匯入專案時標籤為[!UICONTROL 完成]，則[!DNL Workfront]僅匯入指派使用者的目前角色。 </p> </li> 
-     </ul> <p>如需指派狀態的相關資訊，請參閱Adobe <a href="../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref">術語的[!DNL Workfront]字彙表</a>中的「指派狀態」。 </p> </p> </td> 
+     </ul> <p>如需指派狀態的相關資訊，請參閱Adobe [!DNL Workfront]術語的<a href="../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref">字彙表</a>中的「指派狀態」。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td>與指派給任務或問題的工作角色相關的專案[!UICONTROL 計畫時數]</td> 
-   <td> <p><span>根據計畫是設定為使用FTE或時數，專案上任務的[!UICONTROL 計畫時數]會在計畫</span>上變成<span> [!UICONTROL 必要的FTE] </span>或[!UICONTROL 需要時數]。 </p> <p>如需設定計畫以使用FTE或時數的詳細資訊，請參閱<a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中建立和編輯計畫。 </p> <p>考慮以下事項：</p> 
+   <td> <p><span>根據計畫是設定為使用FTE或時數，專案上任務的[!UICONTROL 計畫時數]會在計畫</span>上變成</span> [!UICONTROL 必要的FTE] <span>或[!UICONTROL 需要時數]。 </p> <p>如需設定計畫以使用FTE或時數的詳細資訊，請參閱<a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">在[!DNL Scenario Planner]</a>中建立和編輯計畫。 </p> <p>考慮以下事項：</p> 
     <ul> 
      <li> <p>[!DNL Workfront] 使用指派給任務和問題的工作角色，或指派給任務或問題的使用者在專案上相關聯的工作角色，並將它們作為所需工作角色轉移到新方案。 </p> </li> 
      <li> <p>當計畫設定為使用FTE時，與專案任務和問題上的工作角色關聯的計畫時數首先轉換為FTE。 然後會將此FTE指派給方案的工作角色。 <span>計畫時數在[!DNL Workfront]中平均分配。 如果任務或問題跨多個月，方案期間每個月的計畫時數金額會轉換為每月FTE，並傳輸到方案的每個月。</span></p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><span>例如，如果在9月將任務指派給工作角色80個計畫時數，則匯入的工作角色在9月為方案顯示0.5 FTE。</span> </p> </li> 
-     <li> <p>[!DNL Workfront] 使用下列公式計算與方案關聯的「必要職務」角色的FTE：</p> <p><code>Required Job Role FTE (initiative) = Job Role assignment Planned Hours (</code><code>from tasks and issues on the project)/ 160</code> </p> <p>提示： [!DNL Scenario Planner]假設一個月有160個工作小時。</p> <p>例如，如果專案具有1200分鐘的持續時間並且專案上的工作角色與600分鐘的規劃時數相關聯，則其FTE為0.5。匯入專案時，新建立方案上的必要工作角色FTE為方案每個月的0.5。 </p> </li> 
+     <li> <p>[!DNL Workfront] 使用下列公式計算與方案關聯的「必要職務」角色的FTE：</p> <p><code>Required Job Role FTE (initiative) = Job Role assignment Planned Hours (</code><code>from tasks and issues on the project)/ 160</code> </p> <p>提示： [!DNL Scenario Planner]假設一個月有160個工作小時。</p> <p>例如，如果專案具有1200分鐘的持續時間並且專案上的工作角色與600分鐘的規劃時數相關聯，則其FTE為0.5。 匯入專案時，新建立方案上的必要工作角色FTE為方案每個月的0.5。 </p> </li> 
      <li>當工作角色指派給專案上零計畫時數的任務時，方案工作角色的必要FTE預設為零。
      <!--
        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -185,7 +197,7 @@ Old:
 >
 >會發生下列情況：
 >
->* 將專案匯入計畫後，專案的變更絕不會影響方案。這些變更包括職位角色分配的變更。
+>* 將專案匯入計畫後，專案的變更絕不會影響方案。這些變更包括對工作角色配置的變更。
 >* 只有當您發佈方案至對應的專案時，對方案所做的變更才會影響專案上[!DNL Scenario Planner]區域中的資訊。 否則，它們不會影響專案任務和問題的[!UICONTROL 計畫時數]資訊。
 >
 >  如需有關發佈方案如何影響連結專案的資訊，請參閱[在Scenario Planner](../scenario-planner/publish-scenarios-update-projects.md)中發佈方案以更新或建立專案。
@@ -267,4 +279,4 @@ Old:
 1. （可選）若要將您對方案所做的變更更新回其匯入來源專案，請從計畫發佈專案。 如需有關發佈計畫的資訊，請參閱[在 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)中發佈方案以更新或建立專案。
 1. （選用）按一下專案圖示以存取連結的專案。
 
-   方案![上的](assets/project-icon-on-initiative-highlighted-350x49.png)專案圖示
+   方案![&#128279;](assets/project-icon-on-initiative-highlighted-350x49.png)上的專案圖示

@@ -7,10 +7,24 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+TQID: https://experienceleague.adobe.com/hneYUl0QJcsdaaxySdzlvC2DhxvtCUORTSKLeHpRgWQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1821'
-ht-degree: 0%
+source-wordcount: 1856
+ht-degree: 1%
 
 ---
 
@@ -36,23 +50,23 @@ ht-degree: 0%
 
 如需建立全域核准流程的資訊，請參閱[建立工作專案的核准流程](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> 
    <p>標準</p>
-   <p>工作或更高</p> </td> 
+   <p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級</td> 
@@ -123,7 +137,7 @@ ht-degree: 0%
 1. 移至您要關聯核准流程的工作專案。
 1. 按一下左側面板中的&#x200B;**核准**。
 
-   任務![上的](assets/approvals-section-on-task-highlighted-nwe-350x246.png)核准區段
+   任務![&#128279;](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的核准區段
 
 1. ![使用現有或建立單一使用核准](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
 
@@ -191,7 +205,7 @@ ht-degree: 0%
 1. 前往您要與核准程式產生關聯的專案、任務、問題、範本或範本任務。
 1. 按一下左側面板中的&#x200B;**核准**。
 
-   任務![上的](assets/approvals-section-on-task-highlighted-nwe-350x246.png)核准區段
+   任務![&#128279;](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的核准區段
 
 1. 按一下&#x200B;**建立單一使用**。
 
@@ -228,7 +242,7 @@ ht-degree: 0%
 1. 前往您要移除先前新增之核准程式的專案、任務、問題、範本或範本任務。
 1. 按一下左側面板中的&#x200B;**核准**。
 
-   任務![上的](assets/approvals-section-on-task-highlighted-nwe-350x246.png)核准區段
+   任務![&#128279;](assets/approvals-section-on-task-highlighted-nwe-350x246.png)上的核准區段
 
 1. 根據與專案關聯的核准型別，按一下「核准」區段右上角的下列圖示之一：
 

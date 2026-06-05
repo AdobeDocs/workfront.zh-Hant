@@ -6,9 +6,17 @@ description: 當使用者開啟多個瀏覽器標籤時，Workfront 可能會自
 feature: Get Started with Workfront
 author: Becky
 exl-id: 1cc8bf6c-0eda-41ef-8efd-bba3a5f33b08
-source-git-commit: 440640f5b916b76096c99eed8253236de477a02a
+TQID: https://experienceleague.adobe.com/Zof7zbTOm-w1vyBTchiXJv2QrNYbOxw9O4DYIjYQ6Ss
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: 165
 ht-degree: 32%
 
 ---
@@ -32,6 +40,6 @@ This tab session has been halted due to inactivity. Refresh the tab to continue 
 
 解決方案取決於您是否已在登入Workfront的其他索引標籤中處於作用中狀態。
 
-* 如果您開啟了啟用中的 Workfront 索引標籤，請重新載入過期的索引標籤。系統會返回您在索引標籤過期之前開啟的頁面。
+* 如果您開啟了啟用中的 Workfront 索引標籤，請重新載入過期的索引標籤。 系統會返回您在索引標籤過期之前開啟的頁面。
 
 * 如果您沒有開啟啟用中的 Workfront 索引標籤，請重新登入 Workfront。

@@ -6,10 +6,22 @@ description: 小時型別是一種標籤，可讓您將時間專案分類。 根
 author: Lisa
 feature: Timesheets
 exl-id: 3c07a6b0-4751-4fce-ac28-6a83084025d4
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+TQID: https://experienceleague.adobe.com/EAwrDZagapXvWyUQ2PS4Bcmxi42n8W-mARDXDix0ZlY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1479'
-ht-degree: 0%
+source-wordcount: 1498
+ht-degree: 1%
 
 ---
 
@@ -30,16 +42,16 @@ Adobe Workfront中有2組小時型別：
 
 在設定適當的小時型別後，您可以從Workfront中的多個位置記錄時間。 如需詳細資訊，請參閱[記錄時間](../../timesheets/create-and-manage-timesheets/log-time.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  </col>
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -86,7 +98,7 @@ Adobe Workfront中有2組小時型別：
 
    >[!NOTE]
    >
-   >   請考量下列事項：
+   >   考慮以下事項：
    >   
    >   * 如果您選取&#x200B;**是**，則在記錄專案時數（或專案內的任務和問題）時，只有您選取的時數型別可供選取。
    >   
@@ -129,7 +141,7 @@ Adobe Workfront中有2組小時型別：
 
 1. （選用）在&#x200B;**預設時數型別**&#x200B;下拉式功能表中，選取一小時型別。 當使用者預設時數型別與專案已篩選時數型別相符時，該時數型別在記錄時間時預設為選取。
 
-1. 按一下&#x200B;**儲存變更**。 現在，當您在專案、任務或問題上記錄時數時，如果您在專案層級提供了您選取的相同時數型別，則這些小時型別可供使用。
+1. 按一下「**儲存變更**」。 現在，當您在專案、任務或問題上記錄時數時，如果您在專案層級提供了您選取的相同時數型別，則這些小時型別可供使用。
 
 ## 使用者層級和專案層級時數型別如何搭配運作
 

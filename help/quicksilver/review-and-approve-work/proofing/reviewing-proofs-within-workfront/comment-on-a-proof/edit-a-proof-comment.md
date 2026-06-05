@@ -6,10 +6,19 @@ description: 將回覆新增至評論後，便無法編輯評論。 此限制會
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ae92fb7d-372f-4cae-b0c3-03801248ccdc
-source-git-commit: a117b4e671490a380518cb987b897ca17e54cb16
+TQID: https://experienceleague.adobe.com/eN3W6aJxnYEJelFm3yuDnrnkza7Gk9Bl3NDUIbq-Alo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 1%
+source-wordcount: 296
+ht-degree: 7%
 
 ---
 
@@ -17,16 +26,16 @@ ht-degree: 1%
 
 將回覆新增至評論後，便無法編輯評論。 此限制會維持註解執行緒的完整性。 編輯註解時，建立註解的時間不受影響。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 

@@ -7,11 +7,22 @@ description: 結果會衡量目標的進度。 若未將結果、活動或校準
 author: Alina
 feature: Workfront Goals
 exl-id: 30e22482-22e2-432d-bb73-7f9a9160aba2
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/2vFdXqMEGMimAJU3WvlkJ74sNlQLx78vMQqpUL-OHX8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: 537
 ht-degree: 6%
 
 ---
@@ -209,7 +220,7 @@ Adding results to goals differs depending on which environment you use.
    >
    >您無法將團隊、群組或公司指派為結果擁有者。
 
-1. 在&#x200B;**中，您要如何測量結果？**&#x200B;區域，請指定下列資訊：
+1. 在&#x200B;**您要如何測量結果？** 區域，指定下列資訊：
    * **值型別**：這表示您要如何測量結果的進度。 您可以使用百分比值或貨幣金額以數值方式測量進度。
 
      從下表列出的選項中選取值型別：

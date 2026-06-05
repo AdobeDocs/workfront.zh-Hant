@@ -7,13 +7,17 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 67fc34dc-0722-4419-8254-0371ad5abfc3
-source-git-commit: f9a154fa92217810b762ac48169512bc0bca7305
+TQID: https://experienceleague.adobe.com/mbMDFBRO9-bIJdlxbJjy2nqsvkjnppOJsMqTltjQ2qM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: 769
 ht-degree: 0%
 
 ---
-
 
 # Adobe Workfront API中的RTF文字欄位
 
@@ -27,7 +31,7 @@ Adobe Workfront中的某些物件允許以RTF格式儲存文字。 在Workfront 
 
 ![RTF範例](assets/rich-text-example-350x158.png)
 
-範例：使用RTF文字自訂表單欄位擷取欄位值的基本GET請求：
+範例：使用RTF文字自訂表單欄位擷取欄位值的基本GET要求：
 
 ```
 GET /attask/api-internal/<OBJ Code>/<OBJ ID>?fields=parameterValues#

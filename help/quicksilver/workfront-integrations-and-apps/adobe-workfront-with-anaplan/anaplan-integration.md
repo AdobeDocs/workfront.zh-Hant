@@ -6,16 +6,25 @@ draft: Probably
 feature: Workfront Integrations and Apps, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: c78d1276-6545-44f0-8ec9-62cfe1b66e35
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+TQID: https://experienceleague.adobe.com/V3991LF2iB578eD1mKpKHWt-riMA8ZjctIPGnVDWjOQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: 162
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront]與[!DNL Anaplan]
 
-Adobe[!DNL Workfront Fusion]可讓您將[!DNL Workfront]與您的[!DNL Anaplan]帳戶整合。 例如，您可以在[!DNL Anaplan]中建立行銷活動，然後建立連結至行銷活動的[!DNL Workfront]專案或方案。 在[!DNL Workfront]中追蹤的任何成本都可以上傳回[!DNL Anaplan]以檢閱行銷活動績效。
+Adobe [!DNL Workfront Fusion]可讓您將[!DNL Workfront]與您的[!DNL Anaplan]帳戶整合。 例如，您可以在[!DNL Anaplan]中建立行銷活動，然後建立連結至行銷活動的[!DNL Workfront]專案或方案。 在[!DNL Workfront]中追蹤的任何成本都可以上傳回[!DNL Anaplan]以檢閱行銷活動績效。
 
 針對這項整合，您必須在[!DNL Anaplan]和Workfront中設定特定物件。 特定物件和設定取決於特定工作流程。 然後，您可使用[!DNL Anaplan]和[!DNL Workfront]物件與欄位來設定Workfront Fusion範本。 然後[!DNL Workfront Fusion]會根據您的設定自動進行整合。
 

@@ -7,9 +7,14 @@ description: 您可以直接從Adobe Workfront介面快速存取您的Workfront 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b4e07f8d-fa68-4c55-85d0-ca84163cbf15
-source-git-commit: 8a388ffa2d30683c08637a4273f628c553e55fdb
+TQID: https://experienceleague.adobe.com/ZA4KKoAVgQfPMGkGGZh-LFYux60-2-IbdrAvsKbW-pA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: 261
 ht-degree: 0%
 
 ---
@@ -20,7 +25,7 @@ ht-degree: 0%
 
 * 您的Workfront環境已與Workfront Proof Premium帳戶整合。 如需只有Workfront Proof Premium帳戶才能使用的功能詳細資訊，請參閱。
 
-  您有Workfront Proof授權。 (您不需要是Workfront Proof管理員)。
+  您有Workfront Proof授權。 （您不需要是Workfront Proof管理員）。
 
 * 您在Workfront中擁有管理許可權，且已在您的Workfront使用者帳戶中啟用校訂。
 

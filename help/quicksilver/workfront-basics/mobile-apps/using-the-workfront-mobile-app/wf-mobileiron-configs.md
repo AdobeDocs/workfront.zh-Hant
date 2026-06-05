@@ -6,20 +6,25 @@ description: 在適用於MobileIron應用程式的Adobe Workfront中，我們支
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 294fd42d-89a8-44c2-a97c-95ea5dd876d4
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/xjcpS1OWeVMi-vaSqehNuxg8-ry-Aue--nHY8Si1ZEU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: 258
 ht-degree: 0%
 
 ---
 
-# 為[!DNL Adobe Workfront]設定[!DNL MobileIron]
+# 為[!DNL MobileIron]設定[!DNL Adobe Workfront]
 
 在[!DNL MobileIron]應用程式的Adobe Workfront中，我們支援[!DNL MobileIron]為[!DNL Android]和[!DNL iOS]提供的預設設定。
 
 ## Android
 
-若要為[!DNL Workfront]設定[!DNL MobileIron]的[!DNL Android]：
+若要為[!DNL Android]設定[!DNL MobileIron]的[!DNL Workfront]：
 
 1. 在您的[!DNL MobileIron Cloud]執行個體中，移至&#x200B;**[!UICONTROL 設定]**，然後按一下&#x200B;**[!UICONTROL 預設[!DNL Android] AppConnect設定]**。
 
@@ -28,7 +33,7 @@ ht-degree: 0%
    <table style="table-layout:auto">
     <tr>
         <td><strong>[!UICONTROL 複製/貼上]</strong></td>
-        <td>啟用時，您可以選擇讓使用者貼上到其他安全應用程式，或僅在[!DNL Workfront]應用程式的[!DNL MobileIron]內貼上。</td>
+        <td>啟用時，您可以選擇讓使用者貼上到其他安全應用程式，或僅在[!DNL MobileIron]應用程式的[!DNL Workfront]內貼上。</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL 允許相機]</strong></td>
@@ -40,21 +45,21 @@ ht-degree: 0%
     </tr>
     <tr>
         <td><strong>[!UICONTROL 允許媒體播放器]</strong></td>
-        <td>啟用此選項後，使用者可以從[!DNL Workfront]應用程式的[!DNL MobileIron]內播放媒體。</td>
+        <td>啟用此選項後，使用者可以從[!DNL MobileIron]應用程式的[!DNL Workfront]內播放媒體。</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL 允許熒幕擷取]</strong></td>
-        <td>啟用此選項後，使用者可以在[!DNL Workfront]應用程式的[!DNL MobileIron]內擷取熒幕擷取。</td>
+        <td>啟用此選項後，使用者可以在[!DNL MobileIron]應用程式的[!DNL Workfront]內擷取熒幕擷取。</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL 允許Web]</strong></td>
-        <td>啟用時，此選項可讓使用者從[!DNL Workfront]應用程式的[!DNL MobileIron]內導覽至網頁瀏覽器。</td>
+        <td>啟用時，此選項可讓使用者從[!DNL MobileIron]應用程式的[!DNL Workfront]內導覽至網頁瀏覽器。</td>
     </tr>
    </table>
 
 ## [!DNL iOS]
 
-若要為[!DNL Workfront]設定[!DNL MobileIron]的[!DNL iOS]：
+若要為[!DNL iOS]設定[!DNL MobileIron]的[!DNL Workfront]：
 
 1. 在您的[!DNL MobileIron Cloud]執行個體中，移至&#x200B;**[!UICONTROL 設定]**，然後按一下&#x200B;**[!UICONTROL 預設[!DNL iOS] AppConnect設定]**。
 

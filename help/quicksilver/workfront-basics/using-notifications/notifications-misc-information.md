@@ -6,9 +6,14 @@ description: 下列通知會提醒您正在贊助的專案上發生的活動。
 author: Courtney
 feature: Get Started with Workfront
 exl-id: fd93a48b-ef09-4489-b93d-5328240ffed6
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+TQID: https://experienceleague.adobe.com/hJWb3tzQP-84n8GB0I34kETVKlf-zKUVn2Hxa4pWKC0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: 917
 ht-degree: 0%
 
 ---
@@ -63,7 +68,7 @@ ht-degree: 0%
    <td><strong>即時</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>我的其中一個人員已新增至專案</strong> </p> <p>當經理的其中一個使用者新增至專案時，經理會收到電子郵件通知。 無論專案狀態為何，都會傳送此通知。 </p> <p>擁有[!UICONTROL Review]授權的使用者不會收到通知。</p> <p>電子郵件的主旨為： <em>專案指派： &lt;使用者名稱&gt;[&lt;專案GUID&gt;_ &lt;使用者GUID&gt;]</em></p> </td> 
+   <td> <p><strong>我的其中一個人員已新增至專案</strong> </p> <p>當經理的其中一個使用者新增至專案時，經理會收到電子郵件通知。無論專案狀態為何，都會傳送此通知。 </p> <p>擁有[!UICONTROL Review]授權的使用者不會收到通知。</p> <p>電子郵件的主旨為： <em>專案指派： &lt;使用者名稱&gt;[&lt;專案GUID&gt;_ &lt;使用者GUID&gt;]</em></p> </td> 
    <td> <p>專案名稱<br>Portfolio名稱<br>專案參考編號<br>將人員加入專案的使用者名稱<br>加入專案的使用者名稱<br>專案[!UICONTROL 計劃開始日期]<br>專案[!UICONTROL 計畫完成日期]<br>專案完成百分比<br>專案上其他人的名稱<br>專案狀態<br>專案所有者<br><strong>[!UICONTROL 檢視更多詳細資料]</strong>按鈕<br><br><br></p> </td> 
    <td><strong>即時</strong> </td> 
   </tr> 

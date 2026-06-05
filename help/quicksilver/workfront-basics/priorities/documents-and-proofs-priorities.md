@@ -6,10 +6,20 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
-source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
+TQID: https://experienceleague.adobe.com/R6wn9MEVWUTsVTJGktyPdOSrdWN6nb3jY4ldkEx5WPk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 2%
+source-wordcount: 562
+ht-degree: 6%
 
 ---
 
@@ -19,16 +29,16 @@ ht-degree: 2%
 
 優先順序顯示指派給您的工作專案。 您看不到指派給團隊的工作專案。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> 
    <p>任何</p>
    </td> 
@@ -77,7 +87,7 @@ ht-degree: 2%
    >[!NOTE]
    >
    >其他檔案會以個別檔案的形式上傳。
-1. 按一下&#x200B;**上傳**。
+1. 按一下「**上傳**」。
 
 ### 工作專案詳細資料
 
@@ -96,7 +106,7 @@ ht-degree: 2%
    >[!NOTE]
    >
    >其他檔案會以個別檔案的形式上傳。
-1. 按一下&#x200B;**上傳**。
+1. 按一下「**上傳**」。
 
 
 ## 建立簡單或進階校訂

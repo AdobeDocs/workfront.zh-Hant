@@ -8,9 +8,14 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: ed1719ff-27e3-4fc0-b5bf-b3f20ffe98f0
-source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
+TQID: https://experienceleague.adobe.com/esxHagAWAUiTSKO49E-8sLyBjdY9oviij2WqA6KTLvw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: 47
 ht-degree: 0%
 
 ---

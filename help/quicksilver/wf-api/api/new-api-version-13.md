@@ -7,11 +7,23 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: afbc986e-8b5c-40bc-9120-e8d34e0f7004
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/XXp8JlFaapCUpB-TEmKCtBA-6ms-vWN0-xR8DiQdTpY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: 1032
 ht-degree: 2%
 
 ---
@@ -396,7 +408,7 @@ Team物件是可指派至工作專案的「使用者」集合。
    <td>直接欄位</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">此欄位已新增，且是布林引數，如果物件為作用中，則值為true，否則為false。 設定為「作用中」的物件會出現在下拉式選單和預先輸入欄位中，並可附加到其他物件。 未設定為「作用中」的物件在下拉式選單和要附加至其他物件的預先輸入欄位中不可見。  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">此欄位已新增，且是布林引數，如果物件為作用中，則值為true，否則為false。設定為「作用中」的物件會出現在下拉式選單和預先輸入欄位中，並可附加到其他物件。未設定為「作用中」的物件在下拉式選單和要附加至其他物件的預先輸入欄位中不可見。  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

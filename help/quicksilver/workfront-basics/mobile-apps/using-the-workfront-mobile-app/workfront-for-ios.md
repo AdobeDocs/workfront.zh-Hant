@@ -7,18 +7,25 @@ description: ' [!DNL Adobe Workfront] 應用程式可讓您存取任何iOS裝置
 author: Lisa
 feature: Get Started with Workfront
 exl-id: dcf52fc5-8029-49e0-bf6a-0733df334dc2
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/kWm-sLAjufXyPrfcWM454uodOa8F6yswe6QnmR5m-Hw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 2%
+source-wordcount: 567
+ht-degree: 3%
 
 ---
 
-# [!DNL Adobe Workfront]的[!DNL iOS]
+# [!DNL iOS]的[!DNL Adobe Workfront]
 
 [!DNL Adobe Workfront]應用程式可讓您存取您在任何[!DNL iOS]裝置上的工作。 您可以在執行iOS 10或更新版本的手機和平板電腦上安裝及使用[!DNL Workfront]行動應用程式。 專用的[!DNL Workfront]行動應用程式可用於[!DNL iPhone]和[!DNL iPad]。
 
-如需登入行動應用程式的詳細資訊，請參閱[登入[!UICONTROL 一文中的]登入](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log)Workfront[行動應用程式 [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)一節。
+如需登入行動應用程式的詳細資訊，請參閱[登入 [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)一文中的[登入[!UICONTROL Workfront]行動應用程式](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log)一節。
 
 ## [!UICONTROL 首頁]
 
@@ -40,7 +47,7 @@ ht-degree: 2%
     <ul> 
      <li>更新任務和問題狀態</li> 
      <li>在更新區域張貼</li> 
-     <li>檢視檔案</li> 
+     <li>檢視文件</li> 
      <li>附加像片</li> 
      <li> <p>建立請求或快速任務</p> <p>附註：在首頁建立的快速作業是個人作業，除非您選擇指派專案。</p> </li> 
     </ul> </td> 
@@ -48,7 +55,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-如需詳細資訊，請參閱行動應用程式[[!UICONTROL 中的]首頁](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md)區域Widget[[!UICONTROL 和]我的工作](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md)區段。
+如需詳細資訊，請參閱行動應用程式[&#128279;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md)中的[[!UICONTROL 首頁]區域Widget](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md)和[!UICONTROL 我的工作]區段。
 
 ![主區域](assets/mobile-home-area.png)
 
@@ -58,7 +65,7 @@ ht-degree: 2%
 
 ![展示板區域](assets/mobile-all-boards-displayed.png)
 
-如需詳細資訊，請參閱行動裝置[[!DNL Adobe Workfront] [!UICONTROL 的]面板](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)。
+如需詳細資訊，請參閱行動裝置[&#128279;](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)的[!DNL Adobe Workfront] [!UICONTROL 面板]。
 
 ## [!UICONTROL 專案]
 
@@ -79,7 +86,7 @@ ht-degree: 2%
    <td> 
     <ul> 
      <li>與專案任務和問題互動</li> 
-     <li>檢視檔案</li> 
+     <li>檢視文件</li> 
      <li>附加像片</li> 
      <li> <p>建立快速任務</p> <p>附註：在專案中建立的任務會自動指派給您所在的專案。 </p> </li> 
     </ul> </td> 
@@ -113,7 +120,7 @@ ht-degree: 2%
  </tbody>
 </table>
 
-如需核准的詳細資訊，請參閱[行動應用程式 [!DNL Adobe Workfront] 中的](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)核准。
+如需核准的詳細資訊，請參閱 [!DNL Adobe Workfront] 行動應用程式[&#128279;](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)中的核准。
 
 如需檢閱和核准校訂的資訊，請參閱[在 [!DNL Adobe Workfront] 行動應用程式](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)中檢閱和決定校訂。
 
@@ -128,7 +135,7 @@ ht-degree: 2%
 
 ![通知區域](assets/mobile-notifications-area.png)
 
-## [!UICONTROL 要求]
+## [!UICONTROL 請求]
 
 [!UICONTROL 要求]區域可讓您檢視要求的詳細資料。 從應用程式的[!UICONTROL 要求]區域，您可以：
 
@@ -146,7 +153,7 @@ ht-degree: 2%
    <td>
     <ul>
      <li>在[!UICONTROL 更新]區域張貼</li>
-     <li>檢視檔案</li>
+     <li>檢視文件</li>
      <li>附加像片</li>
      <li>將請求儲存為草稿</li>
     </ul> </td>

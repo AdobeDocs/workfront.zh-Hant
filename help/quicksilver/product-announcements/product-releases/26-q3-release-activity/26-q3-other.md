@@ -4,9 +4,9 @@ description: 2026年第三季度發行時間範圍內的其他增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d5136ed606ab50c403552a4be9ee5dc845b27eaa
+source-git-commit: a207fe30b02ed006d37bd07a72274e085db68e60
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->客戶的生產版本：分階段推出，開始日期有待宣佈
+>客戶的生產版本：自2026年7月16日起分階段推出
 
 更新區域中評論的電子郵件通知具有新外觀，且符合更廣泛的Adobe電子郵件設計。
 

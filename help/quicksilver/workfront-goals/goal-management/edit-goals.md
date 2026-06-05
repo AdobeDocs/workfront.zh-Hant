@@ -6,12 +6,23 @@ description: 您可以從任何時段和任何狀態編輯現有目標。
 author: Alina
 feature: Workfront Goals
 exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/QeQHLMIUuBnloZ-l-q0ytD3UXx95s7fUPgiCO38LOxA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 3%
+source-wordcount: 559
+ht-degree: 4%
 
 ---
 
@@ -231,11 +242,11 @@ Editing goals differs depending on what environment you use.
 
       * **目標所有者**
       * **描述**：新增或更新目標的相關資訊。
-   * 更新或檢閱「目標詳細資料」區段中的資訊。 如需詳細資訊，請參閱Adobe Workfront目標[中「目標詳細資料」一節的](../goal-management/update-goals-in-goal-details-panel.md)更新目標。
+   * 更新或檢閱「目標詳細資料」區段中的資訊。 如需詳細資訊，請參閱Adobe Workfront目標[&#128279;](../goal-management/update-goals-in-goal-details-panel.md)中「目標詳細資料」一節的更新目標。
 
    <!-- (should you update the title here after changing it at production??? - change it to Update goals in the goal Details section)-->
 
-1. （選用）按一下左側面板中的&#x200B;**進度指示器**，將結果、活動或專案新增至目標。 新增進度指示器可確保您可以追蹤目標的進度。
+1. （選用）按一下左側面板中的&#x200B;**進度指示器**，將結果、活動或專案新增至目標。新增進度指示器可確保您可以追蹤目標的進度。
 如需詳細資訊，請參閱下列文章：
    * [將活動新增至Adobe Workfront目標中的目標](../results-and-activities/add-activities-to-goals.md)
    * [將結果新增至Adobe Workfront目標中的目標](../results-and-activities/add-results-to-goals.md)。

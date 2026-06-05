@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
 workflow-type: tm+mt
-source-wordcount: 2020
+source-wordcount: 1990
 ht-degree: 1%
 
 ---
@@ -92,13 +92,6 @@ This article describes how you can share a view with others. For information abo
    <td>  <p>管理檢視的許可權</p> 
    <p><b>重要</b></p> 
    <p>只有具有工作區管理許可權的使用者才能公開共用檢視。</p></td> 
-  </tr> 
-<tr>
-   <td role="rowheader"><p>版面配置範本</p></td>
-   <td> 必須為具有輕度或貢獻者授權的使用者指派包含Planning的版面配置範本。
-   <p>標準使用者和系統管理員預設會啟用Planning區域。</p></div></li></ul>
-
-</td>
   </tr>
 
 </tbody> 

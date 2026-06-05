@@ -7,13 +7,21 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-source-git-commit: 3a538a15daad5fa0dced8d45bb260d6087be81ff
+TQID: https://experienceleague.adobe.com/uT7erlnJR5-h-KKGQiuztzZKBtwtEvWQ8U-EUgN4TG4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 0%
+source-wordcount: 356
+ht-degree: 15%
 
 ---
-
 
 # 活動訂閱最佳實務
 
@@ -32,7 +40,7 @@ ht-degree: 0%
 
 ## 避免讓事件訂閱超載
 
-事件訂閱服務旨在為所有使用者提供可靠的事件傳送。 為確保此，已實施保護措施，以防止單一使用者產生過多事件，進而導致所有使用者出現潛在的服務品質問題。 因此，在短時間內以高頻率產生過多事件的使用者可能會遇到沙箱和事件傳送延遲。
+事件訂閱服務旨在為所有使用者提供可靠的事件傳送。 為了確保這一點，已經實施了防護措施，以防止單一使用者產生過多的事件，從而可能對所有使用者造成服務品質問題。 因此，在短時間內以高頻率產生過多事件的使用者，可能會經歷沙箱化和事件傳遞延遲的情況。
 
 ## 在寬限期內完成測試
 
@@ -50,7 +58,7 @@ ht-degree: 0%
 
 若要建立、查詢或刪除事件訂閱，您的Workfront使用者需要：
 
-* **系統管理員**&#x200B;的存取層級
+* **系統管理員的存取層級**
 若要瞭解更多資訊，請參閱[授予使用者完整管理存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)或[授予使用者對特定區域的管理存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 
-* 如果您的組織使用Adobe IMS (Identity Management系統)，請包含在`X-User-Token`標頭中傳遞的IMS使用者權杖。
+* 如果您的組織使用Adobe IMS （Identity Management系統），請包含在`X-User-Token`標頭中傳遞的IMS使用者權杖。

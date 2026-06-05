@@ -6,11 +6,21 @@ description: 您可以從「檔案」區域共用資料夾及其內容。
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/qvVnjrA07s9uOsZmvtUk3lXqYgp5EpSpcxq9TiERx2M
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: 850
 ht-degree: 2%
 
 ---
@@ -23,7 +33,7 @@ ht-degree: 2%
 >
 >* 資料夾必須位於物件上資料夾階層的前五個層級。 第六層級或更低層級的每個資料夾都會從其正上方的資料夾繼承其共用設定。
 >
->  如需新增子資料夾以建立資料夾階層的相關資訊，請參閱文章[建立檔案資料夾](../../documents/organizing-documents/create-documents-folder.md#creating-folders)中的[建立資料夾和子資料夾](../../documents/organizing-documents/create-documents-folder.md)小節。
+>  如需新增子資料夾以建立資料夾階層的相關資訊，請參閱文章[建立檔案資料夾](../../documents/organizing-documents/create-documents-folder.md)中的[建立資料夾和子資料夾](../../documents/organizing-documents/create-documents-folder.md#creating-folders)小節。
 >
 >* 無法共用智慧資料夾。
 >* 如果您在範本中設定檔案資料夾的共用選項，然後有人從該範本建立專案，則您的共用設定不會轉移到新專案中的檔案資料夾。
@@ -147,7 +157,7 @@ drafted for P&P
 
 目前，當您共用資料夾時，收件者在其「檔案」區域中看不到該資料夾。 但是，他們可以透過執行檔案報告來存取其檔案。
 
-如需有關執行報表的資訊，請參閱文章[瞭解Adobe Workfront中的物件](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects)中的[物件報表](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)一節。 另請參閱[建立自訂報表](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
+如需有關執行報表的資訊，請參閱文章[瞭解Adobe Workfront中的物件](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)中的[物件報表](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects)一節。 另請參閱[建立自訂報表](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
 
 <!--
 <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">

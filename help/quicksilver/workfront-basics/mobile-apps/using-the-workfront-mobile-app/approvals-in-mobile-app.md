@@ -2,20 +2,25 @@
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: ' [!DNL Adobe Workfront] 行動應用程式中的核准'
-description: 您可以從[!UICONTROL 行動應用程式的]核准 [!DNL Adobe Workfront] 區域，管理指派或委派給您的核准。
+description: 您可以從 [!DNL Adobe Workfront] 行動應用程式的[!UICONTROL 核准]區域，管理指派或委派給您的核准。
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 92259a17-209b-4bc1-8c14-826969b08a63
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/gHOishp5DInktXg4JXo73IGOSJCTfYGtzYirRPnqR-Y
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 2%
+source-wordcount: 264
+ht-degree: 3%
 
 ---
 
 # [!DNL Adobe Workfront]行動應用程式中的核准
 
-您可以從[!UICONTROL 行動應用程式的]核准[!DNL Adobe Workfront]區域，管理指派或委派給您的核准。 從[!UICONTROL 核准]區域，您可以核准：
+您可以從[!DNL Adobe Workfront]行動應用程式的[!UICONTROL 核准]區域，管理指派或委派給您的核准。 從[!UICONTROL 核准]區域，您可以核准：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,7 +46,7 @@ ht-degree: 2%
 
 ## 檢閱核准
 
-1. 在&#x200B;**[!UICONTROL 我的工作]**&#x200B;的[!UICONTROL 核准]區域中選取[!UICONTROL 顯示所有核准]。
+1. 在[!UICONTROL 我的工作]的[!UICONTROL 核准]區域中選取&#x200B;**[!UICONTROL 顯示所有核准]**。
 
    如需行動應用程式中[!UICONTROL 我的工作]的相關資訊，請參閱行動應用程式中的[[!UICONTROL 我的工作]區段](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md)。
 

@@ -1,14 +1,22 @@
 ---
 title: ' [!DNL Adobe Workfront] 狀態網站'
-description: 您可以存取 [!DNL Workfront] 網站，檢視 [!DNL Workfront] 平台的健康狀況，包括事件、排定的維護期間，以及所有 [!DNL Workfront Status] 叢集的目前狀態。
+description: 您可以存取 [!DNL Workfront Status] 網站，檢視 [!DNL Workfront] 平台的健康狀況，包括事件、排定的維護期間，以及所有 [!DNL Workfront] 叢集的目前狀態。
 draft: Probably
 feature: Get Started with Workfront
 author: Becky
 exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+TQID: https://experienceleague.adobe.com/kUbG1fpDJmiptk-0e2lb7JlgEs0sX6dErLq8Yqq0TBM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 0%
+source-wordcount: 368
+ht-degree: 1%
 
 ---
 
@@ -18,7 +26,7 @@ ht-degree: 0%
 
 ## Status網站概觀
 
-您可以存取[!DNL Workfront]網站，檢視[!DNL Workfront]平台的健康狀況，包括事件、排定的維護期間，以及所有[!DNL Workfront Status]叢集的目前狀態。
+您可以存取[!DNL Workfront Status]網站，檢視[!DNL Workfront]平台的健康狀況，包括事件、排定的維護期間，以及所有[!DNL Workfront]叢集的目前狀態。
 
 您可以在Status網站上存取下列資訊：
 

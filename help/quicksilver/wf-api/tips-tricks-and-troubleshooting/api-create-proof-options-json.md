@@ -7,13 +7,21 @@ author: Becky
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: 5fcdf07e-d077-4d6a-bc3f-973983877c7c
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+TQID: https://experienceleague.adobe.com/EQ1zHPVOqW-2yZU8pvPTmBJ-q-PMKotGBuDB1G7hc7A
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: 614
 ht-degree: 0%
 
 ---
-
 
 # 透過Adobe Workfront API建立校訂時新增進階校訂選項
 

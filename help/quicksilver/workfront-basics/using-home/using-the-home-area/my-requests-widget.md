@@ -6,11 +6,20 @@ description: 您可以在「我的請求」Widget中提交請求。 您也可以
 author: Alina, Courtney
 feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
-last-update: 2026-04-01T18:23:03Z
+last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
+TQID: https://experienceleague.adobe.com/CmlT3NwdCWm-UiIiN5mxGgEVFVLjtqOY97ATuTgaN4g
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: 674
 ht-degree: 3%
 
 ---
@@ -27,8 +36,8 @@ remove Preview and Production references at Production release April 15, 2026
 
 >[!IMPORTANT]
 >
->本文會說明新的「我的請求」Widget。 您必須啟用新的請求體驗才能檢視新的Widget。
->您可以在請求區域中啟用新的請求體驗。
+>本文會說明新的「我的請求」Widget。您必須啟用新的請求體驗才能檢視新的Widget。
+>您可以在您的要求區域中啟用新的要求體驗。
 
 「我的請求」Widget會顯示您已提交的請求。 您可以篩選請求、搜尋特定請求，或調整欄順序和可見度。 您也可以從「我的請求」Widget建立新請求。
 
@@ -80,7 +89,7 @@ remove Preview and Production references at Production release April 15, 2026
 
 您可以直接從「我的請求」Widget建立請求。
 
-如需指示，請參閱文章[從首頁區域建立工作專案和專案](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request)中的[建立請求](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)一節。
+如需指示，請參閱文章[從首頁區域建立工作專案和專案](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)中的[建立請求](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-request)一節。
 
 ## 複製請求
 

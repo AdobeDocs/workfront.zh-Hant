@@ -8,13 +8,17 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 31960689-1811-4ba7-a63d-0842caedf3ea
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+TQID: https://experienceleague.adobe.com/-LE1gxQ9aViRNuN0sI14HlZaIcLc6Mmm8XmS1zaRCFQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 6%
+source-wordcount: 55
+ht-degree: 12%
 
 ---
-
 
 # 取得檔案的縮圖
 
@@ -22,7 +26,7 @@ ht-degree: 6%
 
 **URL**
 
-GET/thumbnail
+GET /thumbnail
 
 ## 查詢參數
 

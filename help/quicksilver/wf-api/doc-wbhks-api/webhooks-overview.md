@@ -8,13 +8,21 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 30a3d0cb-51dc-4770-88be-36d8bf232b98
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+TQID: https://experienceleague.adobe.com/5bBLva-jIjwc953MVjAnwo4y0nABq1N0HGDTIurXk40
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 0%
+source-wordcount: 193
+ht-degree: 1%
 
 ---
-
 
 # Webhooks概觀
 
@@ -32,7 +40,7 @@ webhook型整合的使用者體驗將與現有檔案整合類似，例如Google 
 
 **參考實作**
 
-為協助快速開始開發新的Webhook實作，Workfront提供參考實作的範例。 您可以在[https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app)找到這些範例。 範例以Java為基礎，可讓Workfront在網路檔案系統上連線檔案。 
+為協助快速開始開發新的Webhook實作，Workfront提供參考實作的範例。您可以在[https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app)找到這些範例。範例以Java為基礎，可讓Workfront在網路檔案系統上連線檔案。 
 
 >[!NOTE]
 >

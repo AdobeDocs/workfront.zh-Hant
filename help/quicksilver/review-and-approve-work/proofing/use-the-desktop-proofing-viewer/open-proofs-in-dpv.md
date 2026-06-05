@@ -6,10 +6,19 @@ description: 如果您無法開啟如下所述的校訂，請聯絡您的Adobe W
 author: Courtney
 feature: Digital Content and Documents
 exl-id: bff8bf09-fca7-41cb-b6bc-813f08d3e18f
-source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
+TQID: https://experienceleague.adobe.com/KW4JU7-KX4ai5Y-JN-Iz4G25f0GU-q21QP-5g9Bj3Y8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 5%
+source-wordcount: 218
+ht-degree: 14%
 
 ---
 
@@ -17,16 +26,16 @@ ht-degree: 5%
 
 如果您無法開啟如下所述的校訂，請聯絡您的Adobe Workfront管理員或Workfront Proof管理員。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront套件</td> 
+   <td role="rowheader">Adobe Workfront 封裝</td> 
    <td> <p>任何</p> </td> 
   </tr> 
   <tr> 
@@ -60,7 +69,7 @@ ht-degree: 5%
 
 ## 從案頭校訂檢視器開啟校訂
 
-如果您定期在「案頭校訂檢視器」中檢視互動式內容，您的Workfront管理員可以將「案頭校訂檢視器」設定為預設檢視器。 如需詳細資訊，請參閱文章[瞭解案頭校訂檢視器](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs)中的[在案頭校訂檢視器中開啟非互動式校訂的使用者設定](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)。
+如果您定期在「案頭校訂檢視器」中檢視互動式內容，您的Workfront管理員可以將「案頭校訂檢視器」設定為預設檢視器。 如需詳細資訊，請參閱文章[瞭解案頭校訂檢視器](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)中的[在案頭校訂檢視器中開啟非互動式校訂的使用者設定](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs)。
 
 1. 在案頭校訂檢視器中，輸入您的&#x200B;**校訂URL**。
 

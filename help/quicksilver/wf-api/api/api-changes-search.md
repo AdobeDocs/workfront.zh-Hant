@@ -8,10 +8,17 @@ description: 變更Workfront儲存狀態物件的方式。
 feature: Workfront API
 role: Developer
 exl-id: 322f1525-d1d5-4845-a590-e34eb94ccdc2
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/aV-wJXoO5uQBbw7O63g49rmH3CJkb4yL7nWtXLeoFu8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 0%
+source-wordcount: 452
+ht-degree: 1%
 
 ---
 
@@ -19,7 +26,7 @@ ht-degree: 0%
 
 已變更Workfront儲存狀態物件的方式。 這些變更不會影響進行狀態搜尋請求的方式，但會影響API請求傳回的回應，這些API請求會傳回不完整的群組狀態清單，以搜尋狀態物件。
 
-## 最佳實務
+## 最佳做法
 
 為了可靠地擷取適用於群組的完整狀態清單，下列請求被視為最佳實務。
 

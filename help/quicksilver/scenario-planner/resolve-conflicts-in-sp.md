@@ -6,11 +6,22 @@ description: 當方案彼此衝突時，它們會爭奪相同的資源。 您可
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d3a3e177-bece-4e03-89d7-9cee6127bc55
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/bvmUPwUcqt0do-U4eQbMssDTwanC8r7fPl0o-S5mGA8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2187'
+source-wordcount: 2199
 ht-degree: 1%
 
 ---
@@ -277,7 +288,7 @@ Old:
 
      在計畫的時間表中會顯示該月的向上綠色箭頭![向上綠色箭頭](assets/upward-green-arrow.png)，表示該月已新增更多資源至計畫。 您必須選取[!UICONTROL 月]檢視才能檢視此指標。
 
-   * （依條件）關閉詳細資料面板，並儘可能優先讓方案從計畫接收預算資源。 如需有關更新方案優先順序的資訊，請參閱情境規劃工具[中的](../scenario-planner/prioritize-initiatives.md)更新方案優先順序。
+   * （依條件）關閉詳細資料面板，並儘可能優先讓方案從計畫接收預算資源。 如需有關更新方案優先順序的資訊，請參閱情境規劃工具[&#128279;](../scenario-planner/prioritize-initiatives.md)中的更新方案優先順序。
 
 1. （選擇性）按一下&#x200B;**[!UICONTROL 隱藏詳細資料]**&#x200B;以關閉其他詳細資料方塊，然後按一下&#x200B;**[!UICONTROL 套用]**&#x200B;以儲存您對工作角色所做的變更。
 
@@ -334,7 +345,7 @@ Old:
      >
      >您新增以解決成本衝突的金額，會修改所選案例的預算，而非計畫中所有案例的預算。
 
-   * （依條件）關閉詳細資料面板，並儘可能優先讓方案從計畫接收預算資源。 如需有關更新方案優先順序的資訊，請參閱[中的 [!DNL Scenario Planner]](../scenario-planner/prioritize-initiatives.md)更新方案優先順序。
+   * （依條件）關閉詳細資料面板，並儘可能優先讓方案從計畫接收預算資源。 如需有關更新方案優先順序的資訊，請參閱 [!DNL Scenario Planner][&#128279;](../scenario-planner/prioritize-initiatives.md)中的更新方案優先順序。
 
 1. 當您變更[成本]區段時，按一下[套用]&#x200B;**&#x200B;**。
 1. 按一下&#x200B;**[!UICONTROL 儲存計畫]**&#x200B;以儲存變更。

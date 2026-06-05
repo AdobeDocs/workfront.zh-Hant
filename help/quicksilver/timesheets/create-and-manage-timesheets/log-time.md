@@ -2,16 +2,27 @@
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: 記錄時間
-description: 您可以在&amp；nbsp；Adobe Workfront中記錄工作專案的時間，以指出您花在專案上的小時數。 您也可以記錄與工作無關的時間，例如假期、病假或會議時間。 您的記錄時間會顯示在您的時程表中。
+description: 您可以在Adobe Workfront中記錄工作專案的時間，以指出您花在專案上的小時數(&N)。 您也可以記錄與工作無關的時間，例如假期、病假或會議時間。 您的記錄時間會顯示在您的時程表中。
 author: Lisa
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/9X3rS1inVMen909T07aYLhn3tD1HiwKvzx-uSu8FVN4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '4139'
+source-wordcount: 4087
 ht-degree: 1%
 
 ---
@@ -113,7 +124,7 @@ ht-degree: 1%
 
 {{step1-click-main-menu}}
 
-1. 按一下&#x200B;[!UICONTROL **時程表**]。 依預設會顯示您目前的時程表。
+1. 按一下&#x200B;[!UICONTROL **時程表**]。依預設會顯示您目前的時程表。
    ![時程表](assets/timesheet-redesigned-nwe.png)
 
 
@@ -144,7 +155,7 @@ ht-degree: 1%
 
    按一下&#x200B;**全部新增**&#x200B;以新增所有專案
 或
-按一下&#x200B;**取消**&#x200B;停止新增選取的專案，然後按一下&#x200B;**取消**&#x200B;關閉專案清單。
+按一下[取消]&#x200B;**&#x200B;**&#x200B;停止新增選取的專案，然後按一下[取消]&#x200B;**&#x200B;**&#x200B;關閉專案清單。
 
    任務和問題會列在專案名稱下。
 
@@ -481,7 +492,7 @@ ht-degree: 1%
 
 ### 展示板 {#boards}
 
-您可以在Workfront展示板上記錄已連線卡片上的時間。 這是與任務或問題的記錄時間相同的程式，且卡片上記錄的小時會儲存在連線的任務或問題上。
+您可以在Workfront展示板上記錄已連線卡片上的時間。這是與任務或問題的記錄時間相同的程式，且卡片上記錄的小時會儲存在連線的任務或問題上。
 如需詳細資訊，請參閱[使用主機板上的連線卡](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)。
 
 ### 行動應用程式 {#mobile-app}
@@ -574,6 +585,6 @@ ht-degree: 1%
 1. 按一下&#x200B;**儲存變更**。
 
    會更新小時輸入項資訊。
-如果您選取了超過一個小時條目並修改小時欄位，則會將相同的時數分配給所有選定的小時條目。 所有所選時數專案的原始時數會以新值取代。
+如果您選取了超過一個小時條目並修改小時欄位，則會將相同的時數分配給所有選定的小時條目。所有所選時數專案的原始時數會以新值取代。
 
 

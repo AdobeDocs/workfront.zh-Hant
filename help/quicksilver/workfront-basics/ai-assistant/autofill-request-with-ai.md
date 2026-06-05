@@ -5,9 +5,14 @@ description: 您可以使用AI自動填寫請求欄位。
 author: Becky
 feature: Get Started with Workfront
 exl-id: d053e604-5a28-4fd3-8f89-4467b6e46f02
-source-git-commit: 2c46145ef24c6870239edc1e5fa96f88f4cb2fd7
+TQID: https://experienceleague.adobe.com/r7xItuLE1mQdQ8y9m08FrVszLE3CiwWd-ATqWmNO-hU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: 142
 ht-degree: 0%
 
 ---
