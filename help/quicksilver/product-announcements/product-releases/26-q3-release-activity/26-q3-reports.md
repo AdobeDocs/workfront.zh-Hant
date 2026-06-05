@@ -4,9 +4,9 @@ description: 2026年第三季度報告增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
+source-git-commit: b9c63e1ca4b2b301ee104ee84151a2d0148a8cea
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,22 @@ ht-degree: 0%
 本頁說明2026年第三季度版本中針對預覽環境進行的報告增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2026年第三季度發行週期中目前可用的所有變更清單，請參閱[2026年第三季度發行概觀](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)。
+
+## 自訂公式中實際時數的變更
+
+>[!NOTE]
+>
+>預覽： 2026年6月1日>生產快速發佈： 2026年6月1日>每個人的生產： 2026年6月1日
+
+2025年，新的「實際時數」欄位已新增至Workfront資料庫，做為`actualWorkRequiredDouble`，而現有的「實際時數」欄位（資料庫中的`actualWorkRequired`）已重新命名為「舊版實際時數」。 如需詳細資訊，請參閱[發行說明](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md)。
+
+在2026年6月，使用`actualWorkRequired` （舊版實際時數）的現有自訂公式已移轉為使用`actualWorkRequiredDouble` （實際時數）。 `actualWorkRequired`無法再用於計算和公式中。
+
+此外，強烈建議在所有報表中使用`actualWorkRequiredDouble`。
+
+取代欄位時，請注意`actualWorkRequired`以分鐘儲存值，而`actualWorkRequiredDouble`以小數精確度以小時儲存值。
+
+如需實際時數的詳細資訊，請參閱[檢視實際時數](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md)。
 
 ## 畫布控制面板報表中的自訂貨幣資料欄位
 
