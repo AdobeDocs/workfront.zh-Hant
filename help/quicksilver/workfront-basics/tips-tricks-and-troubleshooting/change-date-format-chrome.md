@@ -41,4 +41,4 @@ ht-degree: 0%
 
 您的日期偏好設定是由Adobe Unified Shell中設定的語言偏好設定所控制。 預設語言設定（因此也是預設日期設定）是`en-US`。
 
-如需詳細資訊，請參閱 [!DNL Workfront][&#128279;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md/#access-your-profile-and-preferences)的[!DNL Adobe Unified Experience] 。
+如需詳細資訊，請參閱 [!DNL Workfront] [&#128279;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#access-your-profile-and-preferences)的[!DNL Adobe Unified Experience] 。
