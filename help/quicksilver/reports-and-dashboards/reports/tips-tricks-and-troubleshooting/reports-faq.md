@@ -22,9 +22,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 5606ecce47d871bfaaa7d0c7e305651e6eb9c15b
 workflow-type: tm+mt
-source-wordcount: 1508
+source-wordcount: 1528
 ht-degree: 1%
 
 ---
@@ -95,13 +95,19 @@ ht-degree: 1%
 
 根據您要用於計算的「實際時數」欄位，正確的公式為：
 
+* 對於以小數位數精確度儲存的實際時數：
+
+  `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+
 * 針對舊版實際時數（以分鐘為單位儲存）：
 
   `valueexpression=SUB(workRequired,actualWorkRequired)/60`
 
-* 對於實際時數（以小時為單位儲存）：
-
-  `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+>[!NOTE]
+>
+>強烈建議在所有報表中使用`actualWorkRequiredDouble`。
+>
+>`actualWorkRequired`在報表的圖表中無法正確顯示。
 
 如需詳細資訊，請參閱[檢視實際時數](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md)。
 

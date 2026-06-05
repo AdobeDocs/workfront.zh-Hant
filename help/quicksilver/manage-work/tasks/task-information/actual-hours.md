@@ -27,9 +27,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 5606ecce47d871bfaaa7d0c7e305651e6eb9c15b
 workflow-type: tm+mt
-source-wordcount: 1273
+source-wordcount: 1377
 ht-degree: 1%
 
 ---
@@ -133,7 +133,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->建議儘可能使用實際時數欄位，因為舊版實際時數欄位可能會顯示不正確時數，因為以分鐘為單位儲存時數時，增量的方式會舍入至四捨五入。
+>強烈建議儘可能使用實際時數欄位，因為舊版實際時數欄位可能會顯示不準確時數，因為在以分鐘為單位儲存時數時，遞增方式會舍入值。 此外，舊版實際時數在報表的圖表中無法正確顯示。
+> 
+>所有使用舊版實際時數的自訂公式皆已移轉至實際時數。 舊版實際時數無法再用於計算和公式中。
 
 ## 任務和問題的實際小時與專案的實際小時比較
 
@@ -185,7 +187,13 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 
 建立任務、問題或專案報告時，您可以在報告中顯示每個任務、問題或專案的實際時數和舊版實際時數值。
 
-如需實際時數與舊版實際時數之間差異的詳細資訊，請參閱本文中的[實際時數與舊版實際時數](#actual-hours-vs-legacy-actual-hours)一節。
+如需實際時數與舊版實際時數之間差異的詳細資訊，請參閱本文中的[實際時數與舊版實際時數](#actual-hours-vs-legacy-actual-hours)小節。
+
+>[!NOTE]
+>
+>強烈建議在所有報表中使用實際時數欄位。 舊版實際時數在報表的圖表中無法正確顯示。
+> 
+>取代欄位時，請注意「舊版實際時數」以分鐘儲存值，而「實際時數」以小數精確度以小時儲存值。
 
 若要在任務報告中顯示實際時數與舊版實際時數：
 
@@ -205,7 +213,8 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 
 如果您想檢視使用者對其指派的任務和問題所做的工作進度，可在以下資源管理工具中檢視它們：
 
-* 使用率報表。\
+* 使用率報表。
+
   如需詳細資訊，請參閱[資源使用率報告概覽](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。
 
 * 資源規劃工具。
@@ -219,7 +228,7 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 
 儲存時數的大多數Workfront欄位都會在數分鐘內儲存在Workfront資料庫中。 例如，任務的「規劃時數」欄位名稱在Workfront資料庫中為`workRequired`，且以分鐘為單位儲存。
 
-存取API呼叫或計算自訂欄位或欄中的這些欄位時，您必須考慮從分鐘到小時的轉換。
+存取API呼叫中的這些欄位時，您必須考慮從分鐘到小時的轉換。<!-- or in calculated custom fields or columns.-->
 
 專案、任務或問題所記錄的實際時數目前以分鐘的形式儲存在Workfront資料庫中，其valuefield為`actualWorkRequired`。
 
@@ -229,6 +238,10 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 
 * **實際時數**： 2021年5月之後為專案、任務或問題記錄的時數。 它們會以小時為單位儲存在Workfront資料庫中，其valuefield為`actualWorkRequiredDouble`。
 * **舊版實際時數**：隨時為專案、任務或問題記錄的時數，包括2021年5月前的時間。 它們以分鐘數儲存在Workfront資料庫中，其valuefield為`actualWorkRequired`。
+
+>[!NOTE]
+>
+>所有使用舊版實際時數的自訂公式皆已移轉至實際時數。 舊版實際時數或`actualWorkRequired`無法再用於計算和公式中。
 
 如需API版本的詳細資訊，請參閱[API版本設定與支援排程](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
 
