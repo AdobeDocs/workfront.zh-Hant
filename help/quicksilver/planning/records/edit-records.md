@@ -9,20 +9,14 @@ exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/yrm4kF5GdUGyOaR1AraNwLk3HHpEm1lEkT6r9HQsd4Q
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 18ed9f36e497b0e419e3e119da50c85920e226df
 workflow-type: tm+mt
-source-wordcount: 3019
+source-wordcount: 3129
 ht-degree: 0%
 
 ---
@@ -212,7 +206,7 @@ Old:
    >
    >  您無法編輯下列欄位的資訊，因為這些欄位是唯讀欄位，且Workfront會自動更新它們：
    >  
-   >  * 透過連線記錄型別建立的連結欄位。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
+   >  * 透過連線記錄型別和新增的查閱欄位建立的連線查閱欄位。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
    >  * 下列型別的欄位：「建立者」、「建立日期」、「上次修改者」、「上次修改日期」、「公式」欄位。
 
 1. （選擇性和條件式）編輯「段落型別」欄位時，請使用下列&#x200B;**RTF格式**&#x200B;格式選項：
@@ -224,27 +218,29 @@ Old:
    * 新增專案符號清單
    * 新增編號清單
 
-   段落欄位![&#128279;](assets/rich-text-toolbar-on-paragraph-field.png)上的RTF文字工具列
+   段落欄位](assets/rich-text-toolbar-on-paragraph-field.png)上的![RTF文字工具列
 
 1. （選擇性）連按兩下連線的記錄欄位，以將連線的記錄或物件新增至其他記錄。 如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
 1. 在鍵盤上按&#x200B;**Enter**，或按一下資料列外部以儲存變更。 變更會自動儲存。 **已儲存**&#x200B;指標會短暫顯示在表格檢視的右上角，顯示變更已儲存。
-
 
 1. （選擇性）若要將某個欄位的資訊複製並貼到另一個欄位，請執行下列任一項作業：
 
    * 複製一個欄位的一或多個現有值，然後將它們貼到另一個記錄上相同型別的欄位中
    * 按一下欄的欄標題以選取並複製它，然後按一下其他欄的欄標題並貼上複製欄的內容。 欄必須包含類似的欄位型別。
-   * 按住Shift鍵，按一下選取表格中的數列，複製選取列中的資訊，然後按一下其他列，然後將選取的資訊貼到新列中，接著再貼上後續的列。
+   * 按住Shift鍵，按一下選取表格中的數列，複製選取列中的資訊，然後按一下其他列，然後將選取的資訊貼到新列中，接著再貼上後續的列。<!--<span class="preview">This is not possible in the Preview environment.</span>-->
    * 複製一個儲存格的資訊，然後選取多個儲存格並在多個儲存格中貼上相同的資訊。 您可以選取多個儲存格，並在相鄰列和欄的多個儲存格中貼上相同的資訊。
    * 選取包含您要複製之資訊的現有儲存格的右下角，然後將其拖放到您想要貼上相同資訊的相鄰儲存格上。 所有儲存格都必須包含相同型別的資訊。
 
      ![可拖曳的右下角，用於複製貼上資料表檢視](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
-
    * 從外部來源複製一或多個儲存格（例如，Excel檔案），然後將其貼到下列其中一個欄位型別中：
 
-      * Workfront規劃連線欄位。
+      * Workfront規劃連線欄位。\
+        <!--<span class="preview">This is not possible in the Preview environment.</span>-->
       * 人員欄位。 僅支援具有一個值的欄位。
+      * 文字欄位。
+      * 選取欄位。
+      * 數字、百分比和貨幣欄位。
 
      您無法從外部來源複製資訊，並將其貼到任何其他欄位型別中，包括Workfront或其他應用程式的連線欄位。
 
@@ -256,11 +252,12 @@ Old:
    >   * 複製： CTRL + C (⌘ + C （適用於Mac）
    >   * 貼上： CTRL + V (⌘ + V for Mac)
    >
-   >* 您無法複製和貼上記錄頁面中的欄位值。 只有在記錄型別的表格檢視中才支援此功能。
+   >* 您無法複製並貼上記錄詳細資訊頁面中的欄位值。 只有在記錄型別的表格檢視中才支援此功能。
    >* 您無法複製和貼上下列欄位型別的欄位值：
    >
    >    * 在連線記錄型別時建立的查詢欄位。 您可以複製並貼上連結的記錄欄位。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
    >    * 下列型別的欄位：建立者、建立日期、上次修改者、上次修改日期
+   >* 當您複製並貼上連線欄位或選取欄位值時，複製的值必須首先存在於Workfront Planning中。
 
 1. （可選）使用下列鍵盤快速鍵來復原或重做編輯或複製和貼上記錄資訊：
 
@@ -269,9 +266,17 @@ Old:
 
    >[!TIP]
    >
-   >    您可以在一列中多次使用鍵盤快速鍵來復原多項變更。
+   >您可以在一列中多次使用鍵盤快速鍵來復原多項變更。
 
-1. （選用）新增縮圖至記錄。 如需詳細資訊，請參閱[新增縮圖至記錄](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
+1. （選擇性）按一下記錄名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後從下列選項中選擇：
+
+   * **檢視** <!--or <span class="preview"Open in new tab</span>-->：這會開啟記錄頁面。
+   * **複製連結**：複製記錄頁面的連結。
+   * **編輯縮圖**：若要新增縮圖至記錄。
+如需詳細資訊，請參閱[新增縮圖至記錄](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
+   * **重複**：這會建立記錄的相同重複。
+   * **在上方插入記錄/在下方插入記錄**：新增資料列，以便新增記錄。<!--<span class="preview">This is not possible in the Preview environment.</span>-->
+   * **刪除**：刪除記錄。 刪除的記錄會儲存在「最近刪除」方塊中最長30天。
 
 
 ### 在記錄型別的時間軸檢視中編輯記錄
@@ -360,7 +365,7 @@ Old:
 
    ![即時指標展開的記錄預覽方塊](assets/real-time-indicator-expanded-record-preview-box.png)
 
-1. （選擇性）按一下記錄詳細資料頁面![&#128279;](assets/export-icon-in-record-details-page.png)中的&#x200B;**匯出**&#x200B;功能表匯出圖示，以匯出記錄的詳細資料。 如需詳細資訊，請參閱[匯出記錄的詳細資料](/help/quicksilver/planning/records/export-the-record-page.md)。
+1. （選擇性）按一下記錄詳細資料頁面](assets/export-icon-in-record-details-page.png)中的&#x200B;**匯出**&#x200B;功能表![匯出圖示，以匯出記錄的詳細資料。 如需詳細資訊，請參閱[匯出記錄的詳細資料](/help/quicksilver/planning/records/export-the-record-page.md)。
 
 1. （選擇性）按一下記錄預覽右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤圖示中開啟詳細資料](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->，以在新索引標籤中開啟記錄的頁面。 繼續編輯記錄，如本文中[從記錄頁面](#edit-a-record-from-the-records-page)區段編輯記錄。
 
@@ -426,7 +431,7 @@ Old:
 
    ![即時指標展開的記錄預覽方塊](assets/real-time-indicator-expanded-record-preview-box.png)
 
-1. （選擇性）按一下記錄詳細資料頁面![&#128279;](assets/export-icon-in-record-details-page.png)中的&#x200B;**匯出**&#x200B;功能表匯出圖示，以匯出記錄的詳細資料。 如需詳細資訊，請參閱[匯出記錄的詳細資料](/help/quicksilver/planning/records/export-the-record-page.md)。
+1. （選擇性）按一下記錄詳細資料頁面](assets/export-icon-in-record-details-page.png)中的&#x200B;**匯出**&#x200B;功能表![匯出圖示，以匯出記錄的詳細資料。 如需詳細資訊，請參閱[匯出記錄的詳細資料](/help/quicksilver/planning/records/export-the-record-page.md)。
 
 
 ## 在Planning區段中編輯Workfront物件的記錄
@@ -457,7 +462,7 @@ Old:
 1. 移至記錄型別頁面並開啟表格檢視。
 1. 新增您要在表格檢視中新增選擇的單一或多重選取欄位作為新欄。 如需詳細資訊，請參閱[建立欄位](/help/quicksilver/planning/fields/create-fields.md)。
 1. 連按兩下欄位的儲存格，開始內嵌編輯欄位。
-1. 輸入您要新增的選擇名稱，然後按一下[新增選擇]。**&#x200B;**
+1. 輸入您要新增的選擇名稱，然後按一下[新增選擇]。****
 
    ![在表格檢視中的單一選取欄位中新增選項](assets/add-choice-in-table-view-for-single-select-field.png)
 
