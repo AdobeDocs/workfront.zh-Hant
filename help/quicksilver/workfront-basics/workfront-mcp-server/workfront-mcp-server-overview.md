@@ -5,7 +5,7 @@ title: Adobe Workfront MCP伺服器概述
 description: 瞭解Adobe Workfront MCP伺服器的功用，以及它如何讓您透過AI代理平台中的自然語言對話使用Workfront。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: f96afd17e9f4e726ac545a9cb0c54ace5a4fcffe
+source-git-commit: 648342f0002046febba1b8e751bc1cffec2c1346
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 0%

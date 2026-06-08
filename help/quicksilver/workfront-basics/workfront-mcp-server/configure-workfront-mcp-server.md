@@ -5,9 +5,9 @@ title: 設定Adobe Workfront MCP伺服器
 description: 設定您的Workfront執行個體和AI代理平台，讓您透過自然語言對話來使用Workfront。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 7d961bca74884baa869f92a24a3f586500b824a5
+source-git-commit: 648342f0002046febba1b8e751bc1cffec2c1346
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1291'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,8 @@ Workfront MCP伺服器可與任何支援模型內容通訊協定(MCP)的AI代理
 * 擁有使用中的[!DNL Adobe Workfront]帳戶，該帳戶具有存取您要使用之資料的許可權
 * 存取類似[!DNL Claude]的AI代理平台
 * 您的Workfront執行個體必須在Adobe Identity Management系統(IMS)上啟用。
+* 若要搭配Workfront Planning使用MCP，您的組織必須位於包含Adobe Workfront Planning的Workfront套件上。
+
 
 ### 管理員必要條件
 
@@ -210,7 +212,7 @@ What happens next
 +++ 展開以檢視Workfront MCP伺服器設定和驗證的疑難排解提示。
 
 | 問題 | 可能的原因 | 修正 |
-|---|---|---|
+| --- | --- | --- |
 | 您在[!DNL Claude]中找不到[!DNL Adobe Workfront]聯結器。 | 您的[!DNL Claude]管理員尚未啟用它。 | 請連絡您的[!DNL Claude]系統管理員（非Workfront系統管理員），要求他們啟用[!DNL Adobe Workfront]聯結器。 |
 | 您已連線，但看不到資料。 | 您已驗證錯誤的Workfront執行個體。 | 中斷聯結器的連線，重新連線，並驗證至正確的執行個體。 |
 | 驗證失敗，或連線已停止運作。 | 您的驗證工作階段已過期或發生連線錯誤。 | 中斷連線並重新連線聯結器。 |
@@ -239,4 +241,4 @@ What happens next
 
 否。 您的Workfront執行個體必須在Adobe Identity Management系統(IMS)上啟用，才能使用Workfront MCP伺服器。 如果您不確定您的執行個體是否已在IMS上啟用，請聯絡您的Workfront管理員。
 
-+++
++++ 
