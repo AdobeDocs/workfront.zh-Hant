@@ -5,10 +5,10 @@ title: Adobe Workfront MCP伺服器工具
 description: 透過Adobe Workfront MCP伺服器可用的工具參考清單，按Workfront區域分組。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: a2b2da49e9aba808dc7567bd5a7f29adeb381c1d
+source-git-commit: 648342f0002046febba1b8e751bc1cffec2c1346
 workflow-type: tm+mt
-source-wordcount: '1559'
-ht-degree: 6%
+source-wordcount: '1578'
+ht-degree: 5%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 6%
 ### 文件
 
 | 標題 | 工具名稱 | 作用 | 動作 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 依名稱尋找檔案版本 | `approvals_find_document_version_by_name` | 依檔案名稱查詢檔案的目前版本ID。 支援部分比對。 | 讀取 |
 | 依版本ID取得檔案 | `approvals_get_document_by_version_id` | 會擷取已知檔案版本ID的檔案詳細資訊（名稱、大小、上傳日期、上傳程式）。 | 讀取 |
 | 依專案取得檔案 | `approvals_get_documents_by_project` | 列出Workfront專案內的檔案，每個檔案的目前版本ID。 | 讀取 |
@@ -63,7 +63,7 @@ ht-degree: 6%
 ### 核准工作流程
 
 | 標題 | 工具名稱 | 作用 | 動作 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 取得核准工作流程資訊 | `approvals_get_approval_info` | 傳回檔案版本的目前核准工作流程（階段、參與者、狀態）。 | 讀取 |
 | 建立或更新核准工作流程 | `approvals_create_or_update_approval_workflow` | 建立或更新檔案版本的核准工作流程階段。 支援線性和平行（圖形）階段相依性。 | 寫入 |
 | 從範本建立核准 | `approvals_create_approval_from_template` | 使用現有範本在檔案上建立核准工作流程。 | 寫入 |
@@ -76,14 +76,14 @@ ht-degree: 6%
 ### 提醒
 
 | 標題 | 工具名稱 | 作用 | 動作 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 傳送提醒給參與者 | `approvals_send_reminder_to_participants` | 傳送提醒電子郵件給核准階段中的特定參與者。 僅適用於已開始、未完成、未鎖定的階段。 | 寫入 |
 | 傳送提醒給未決定的參與者 | `approvals_send_reminder_to_undecided` | 傳送提醒電子郵件給核准階段中所有未決定的參與者（通知、開啟或評論）。 | 寫入 |
 
 ### 核准範本
 
 | 標題 | 工具名稱 | 作用 | 動作 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 清單核准範本 | `approvals_list_templates` | 列出此Workfront例項中可用的核准範本。 支援依建立者、參與者及使用排序進行篩選。 | 讀取 |
 | 依名稱搜尋範本 | `approvals_search_template_by_name` | 依名稱尋找核准範本（不區分大小寫的部分相符）。 | 讀取 |
 | 建立核准範本 | `approvals_create_template` | 建立具有線性或圖表式階段相依性的新核准範本。 | 寫入 |
@@ -92,7 +92,7 @@ ht-degree: 6%
 ### 查閱和使用者
 
 | 標題 | 工具名稱 | 作用 | 動作 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 取得目前使用者 | `approvals_get_current_user` | 傳回呼叫使用者的Workfront身分，包括名稱、使用者ID、主團隊名稱和主團隊ID。 | 讀取 |
 | 依名稱尋找使用者 | `approvals_find_user_by_name` | 依名稱查詢Workfront使用者的ID （模糊或部分相符）。 傳回名稱、ID、電子郵件、標題和顯示圖片URL。 | 讀取 |
 | 依名稱尋找團隊 | `approvals_find_team_by_name` | 依名稱查詢Workfront團隊的ID （模糊或部分相符）。 | 讀取 |
@@ -102,10 +102,14 @@ ht-degree: 6%
 
 ## 規劃工具
 
+>[!IMPORTANT]
+>
+>* 若要搭配Workfront Planning使用MCP，您的組織必須位於包含Adobe Workfront Planning的Workfront套件上。
+
 ### 工作區
 
 | 標題 | 工具名稱 | 作用 | 動作 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 取得工作區 | `planning_get_workspace` | 依ID或別名擷取工作區的完整詳細資料。 | 讀取 |
 | 取得工作區清單 | `planning_get_workspace_list` | 列出所有可用工作區以及以游標為基礎的分頁。 | 讀取 |
 | 建立工作區 | `planning_create_workspace` | 建立新的空白工作區以組織記錄型別、欄位和資料。 | 寫入 |
@@ -119,7 +123,7 @@ ht-degree: 6%
 ### 記錄類型
 
 | 標題 | 工具名稱 | 作用 | 動作 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 取得記錄型別 | `planning_get_record_type` | 擷取記錄型別的完整詳細資料，包括其欄位和檢視。 | 讀取 |
 | 建立記錄型別 | `planning_create_record_types` | 在工作區區段中建立一或多個記錄型別。 | 寫入 |
 | 更新記錄類型 | `planning_update_record_type` | 部分更新記錄型別的名稱、說明、圖示或顏色。 | 寫入 |
@@ -135,7 +139,7 @@ ht-degree: 6%
 ### 記錄
 
 | 標題 | 工具名稱 | 作用 | 動作 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 取得記錄 | `planning_get_record` | 依ID擷取單一記錄的完整詳細資料。 | 讀取 |
 | 搜尋記錄 | `planning_search_records` | 搜尋和篩選記錄型別中的記錄。 | 讀取 |
 | 大量記錄動作 | `planning_bulk_record_actions` | 在單一請求中建立、更新、刪除或還原多個記錄。 | 寫入 |
@@ -148,7 +152,7 @@ ht-degree: 6%
 ### 欄位
 
 | 標題 | 工具名稱 | 作用 | 動作 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 取得欄位 | `planning_get_field` | 依ID擷取欄位的完整詳細資料和值結構描述。 | 讀取 |
 | 建立欄位 | `planning_create_fields` | 新增一或多個欄位（欄）至記錄型別。 | 寫入 |
 | 更新欄位 | `planning_update_field` | 部分更新欄位的名稱、說明、選項或設定。 | 寫入 |
@@ -157,7 +161,7 @@ ht-degree: 6%
 ### 檢視
 
 | 標題 | 工具名稱 | 作用 | 動作 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 取得檢視 | `planning_get_view` | 依ID傳回檢視的完整詳細資料。 | 讀取 |
 | 建立檢視 | `planning_create_view` | 為記錄型別建立新的表格、時間表或行事曆檢視。 | 寫入 |
 | 更新檢視 | `planning_update_view` | 部分更新現有檢視的設定、篩選器或排序。 | 寫入 |
@@ -168,14 +172,14 @@ ht-degree: 6%
 ### 範本
 
 | 標題 | 工具名稱 | 作用 | 動作 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 取得範本清單 | `planning_get_template_list` | 列出所有可用的工作區範本及摘要資訊。 | 讀取 |
 | 取得範本 | `planning_get_template` | 依ID擷取特定範本的完整詳細資料。 | 讀取 |
 
 ### 搜尋與公用程式
 
 | 標題 | 工具名稱 | 作用 | 動作 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 搜尋資源 | `planning_search_resources` | 依名稱跨工作區、記錄型別和檢視進行搜尋。 | 讀取 |
 | 搜尋共用資料 | `planning_search_sharing_data` | 依名稱尋找使用者、群組、團隊、角色和公司，以進行共用和許可權。 | 讀取 |
 | 搜尋使用者 | `planning_search_users` | 搜尋具有分頁支援的使用者。 | 讀取 |
@@ -185,7 +189,7 @@ ht-degree: 6%
 工作流程工具是AI代理平台用於處理任何Workfront物件的一般用途動作，包括專案、任務、問題、小時、指派、計畫、投資組合等。
 
 | 標題 | 工具名稱 | 作用 | 動作 |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 搜尋物件 | `workflow_search_any_object` | 使用彈性的篩選引數、順序和分頁來搜尋Workfront物件。 | 讀取 |
 | 建立物件 | `workflow_create_any_object` | 建立新的Workfront物件，例如專案、任務、問題、小時、指派、方案或投資組合。 | 寫入 |
 | 更新物件 | `workflow_update_any_object` | 更新現有Workfront物件上的欄位。 | 寫入 |
