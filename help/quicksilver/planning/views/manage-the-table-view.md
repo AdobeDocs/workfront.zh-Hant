@@ -9,17 +9,12 @@ exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/oajBrzqCNgufbSJPP0Wx8aI14d8VM7IFr-Hn1ed7Wks
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 18ed9f36e497b0e419e3e119da50c85920e226df
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 3e6eb56cfb0713c19326fbf7914688007195fd1b
 workflow-type: tm+mt
 source-wordcount: 3499
 ht-degree: 2%
@@ -671,7 +666,7 @@ The column headers of a table view display fields associated with the records in
 
 For more information, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
 
-************this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.***************
+************ this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default. ***************
 
 Adding columns to a view is identical to adding fields to a record type.  
 
@@ -749,7 +744,14 @@ You can add up to 500 fields (or columns) in a table view.
     1. (Optional) If there is more than one match, click the up and down arrows to the right of the search keyword to find all the matches in the table. 
 
     1. Click the **x** icon in the search box to clear the search keyword. 
-   
+1. For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+
+    * SUM: Displays the total of all cells in the column. This is the default selection. 
+    * MIN: Displays the lowest value from all the cells in the column. 
+    * MAX: Displays the highest value from all the cells in the column. 
+    * AVG: Displays the average value of all the cells in the column. 
+
+    The aggregator row in the column is frozen and is part of the view settings. The aggregator you choose will be shared with the view when you share the view with others. 
 
 ### Add rows (or records) {#add-rows}
 
@@ -942,9 +944,9 @@ To add a grouping:
 
 ### Add row colors
 
-1. (Optional) Click **Row colors** to define conditions and choose configure diferent colors for table rows.
+1. (Optional) Click **Row colors** to define conditions and choose configure different colors for table rows.
 
-1. Click **Add color**, then search for a field then select it when it displays in the list. This is the field whose value you want to determine the color of a row.
+1. Click **Add color**, then search for a field then select it when it displays in the list. This is the field whose value you want to define the color of a row.
 
     For example, to display campaigns with a status of Active in green, select **Status**, then choose a modifier and a value for the field. 
 
@@ -964,13 +966,12 @@ To add a grouping:
 
     ![Row colors box with Active and Planning status custom colors](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
 
-1. (Optional) Turn on the **Apply to the entire row** setting in the upper-right corner of the Row colors box. The entire row where the condition is met automatically displays in the selected color. 
+1. (Optional) Turn on the **Apply to the entire row** setting in the upper-right corner of the **Row colors** box. The entire row where the condition is met automatically displays in the selected color. 
 
     >[!NOTE]
     >
-    >* If the Apply to the entire row setting is turned off, only the left side of the Primary field displays a narrow color indicator with the selected color. The setting is turned off by default.
+    >If the **Apply to the entire row** setting is turned off, only the background of the primary field cell displays in the selected color. The setting is turned off by default.
     >
-    >* You cannot apply row colors to an entire row when you have at least one grouping selected in the table view. The role color only applies to the left of the primary field cell when grouping are applied to the table. 
 
 1. Click outside the **Row colors** box to close it. The colors are applied automatically.
 
