@@ -20,7 +20,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 3e6eb56cfb0713c19326fbf7914688007195fd1b
 workflow-type: tm+mt
 source-wordcount: 3224
 ht-degree: 0%
@@ -282,8 +282,8 @@ You can import records from other applications by linking them to existing recor
      >
      >當您在分組或子分組中的最後一個記錄之後新增記錄時，Workfront會自動填入分組中包含的欄位。 如有需要，您可以手動編輯這些欄位，記錄可能會從分組中移除。
 
-   * 在表格的任何欄或列按一下鍵盤上的&#x200B;**Shift + Enter**。 這會在您開始的記錄底下新增一個空白列。
-   * 暫留在記錄的主要欄位上，按一下欄位右邊的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**插入上方記錄**&#x200B;或&#x200B;**插入下方記錄**。
+   * 在表格的任何欄或列按一下鍵盤上的&#x200B;**Shift + Enter**。 這會在您開始的記錄底下新增一個空白列。<!--<span class="preview"> This is not possible in the Preview environment</span>-->
+   * 暫留在記錄的主要欄位上，按一下欄位右邊的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**插入以上記錄**&#x200B;或&#x200B;**插入以下記錄**。<!--<span class="preview"> This is not possible in the Preview environment</span>-->
 
    ![在資料表列](assets/adding-a-new-campaign-in-table-row.png)加入新的行銷活動
 
