@@ -7,18 +7,14 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: dae3e083-3ad4-4a59-9e04-b017d078a89b
 TQID: https://experienceleague.adobe.com/F-dmG4OLmu1-22fjkkF0HYSeEmOfzD2Jrb4aUA-KFHg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 784f376722301da9d450a4021d1d24ffc21f3165
 workflow-type: tm+mt
-source-wordcount: 171
-ht-degree: 12%
+source-wordcount: 244
+ht-degree: 8%
 
 ---
 
@@ -69,4 +65,8 @@ ht-degree: 12%
 1. 在校訂檢視器左側的工具列中，按一下&#x200B;**下載**&#x200B;按鈕。\
    ![Proofing_Viewer_toolbar_button_-_Download.png](assets/proofing-viewer-toolbar-button---download.png)
 
-1. 瀏覽到您要下載校訂的檔案系統位置，然後按一下[儲存]。**&#x200B;**
+1. 瀏覽到您要下載校訂的檔案系統位置，然後按一下[儲存]。****
+
+   >[!NOTE]
+   >
+   >當校訂包含多個檔案時，Workfront會產生.zip檔案。 如果校樣中的兩個或多個檔案共用相同的檔案名稱，.zip則僅包含該檔案的一個副本。 因此，.zip中的檔案數可能低於校訂檢視器中顯示的檔案數。 例如，有5個檔案（其中2個名為`document.pdf`）的校訂會產生包含4個檔案的.zip。
