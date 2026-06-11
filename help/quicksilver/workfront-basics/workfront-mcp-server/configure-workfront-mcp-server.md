@@ -5,9 +5,9 @@ title: 設定Adobe Workfront MCP伺服器
 description: 設定您的Workfront執行個體和AI代理平台，讓您透過自然語言對話來使用Workfront。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: fd2f78e3dbeb29885f9c3045af9cb6f3278cd314
+source-git-commit: 937b49b44f102fee6c9847ab950eb2b274aee89b
 workflow-type: tm+mt
-source-wordcount: '1690'
+source-wordcount: '1701'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->目前，Workfront MCP伺服器僅開放美國地區的客戶使用，供使用AWS的客戶使用。
+>目前，Workfront MCP伺服器僅供使用AWS的客戶使用。 使用GCP或Azure的客戶將能夠在不久的將來使用此功能。
 
 ## 支援的AI代理平台
 
