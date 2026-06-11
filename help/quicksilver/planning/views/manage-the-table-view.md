@@ -19,7 +19,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 3e6eb56cfb0713c19326fbf7914688007195fd1b
+source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
 workflow-type: tm+mt
 source-wordcount: 3499
 ht-degree: 2%
@@ -671,8 +671,6 @@ The column headers of a table view display fields associated with the records in
 
 For more information, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
 
-************ this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default. ***************
-
 Adding columns to a view is identical to adding fields to a record type.  
 
 You can add up to 500 fields (or columns) in a table view. 
@@ -707,17 +705,22 @@ You can add up to 500 fields (or columns) in a table view.
     
     ![Set as primary field option in table view](assets/set-as-primary-field-option-table-view.png)
 
+
 1. Click **Set field** to confirm. 
 
     The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves to the second column.
 
     Primary fields become the record's title and display in the header area of the record's page, and everywhere where the records display. For example, the record title displays in connected fields and all views. For more information about primary fields, see [Primary field overview](/help/quicksilver/planning/fields/primary-field-overview.md). 
 
+    >[!TIP]
+    >
+    >Click on the **information** icon ![Information icon](assets/info-icon.png) to the right of the field name in a column to view its **Description**.
+
 1. Click and drag the column separation lines and drop them in the desired spot to increase the width of the columns. 
 
     >[!TIP]
     >
-    >The changes you make to the column width and order are permanent and visible to all users who access the record type. 
+    >The changes you make to the column width and order are permanent and visible to all users who access the same view. 
 
 1. Hover over the column header, then click the downward-pointing arrow, then click **Hide field**
 
@@ -736,7 +739,7 @@ You can add up to 500 fields (or columns) in a table view.
 
 1. Do the following to quickly find records that match a keyword:
 
-    1. In the **Search** box ![Search icon](assets/search-icon.png) and start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the field with the correct match is highlighted. 
+    1. In the **Search** box ![Search icon](assets/search-icon.png) start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the field with the correct match is highlighted. 
 
         ![Search box with results blue outline in table view](assets/search-box-with-results-blue-outline-table-view.png)
 
@@ -751,10 +754,10 @@ You can add up to 500 fields (or columns) in a table view.
     1. Click the **x** icon in the search box to clear the search keyword. 
 1. For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
 
-    * SUM: Displays the total of all cells in the column. This is the default selection. 
-    * MIN: Displays the lowest value from all the cells in the column. 
-    * MAX: Displays the highest value from all the cells in the column. 
-    * AVG: Displays the average value of all the cells in the column. 
+    * **SUM**: Displays the total of all cells in the column. This is the default selection. 
+    * **MIN**: Displays the lowest value from all the cells in the column. 
+    * **MAX**: Displays the highest value from all the cells in the column. 
+    * **AVG**: Displays the average value of all the cells in the column. 
 
     The aggregator row in the column is frozen and is part of the view settings. The aggregator you choose will be shared with the view when you share the view with others. 
 
@@ -772,7 +775,7 @@ You can have up to 50,000 records (or rows) for a record type.
 
     A default thumbnail image is also added to the new record.
 
-1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record, then click **Edit thumbnail** to add a thumbnail to each record
+1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record, then click **Edit thumbnail** to edit the thumbnail. 
 1. Click **Fields** at the top of the table, then select the toggle for the **Thumbnail** field to display it to the left of the primary field. It is deselected by default. 
     
     For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
@@ -804,11 +807,6 @@ For information, see the [Add filters](#add-filters) section in this article.
 
 By applying a sort, you can organize information in a given order. 
 
-You can sort the following information:
-
-* All records in a table view. 
-************** * All groupings. - this is not available yet***********
-
 Consider the following when sorting records in the table view: 
 
 *********** if this is available for the timeline view, update both when you update one ****************
@@ -832,13 +830,20 @@ Consider the following when sorting records in the table view:
 To sort records, do the following:
 
 1. Create a table view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
-1. Click the **Sort** icon ![Sort icon](assets/sort-icon.png) in the upper-right corner of the table
+1. Click the **Sort** icon ![Sort icon](assets/sort-icon.png) at the top of the table
     
     Or
 
-    Hover over the name of a column in the table view, click the downward-pointing arrow to the right of the column header name, then click **Sort by this field**. 
+    Hover over the name of a column in the table view, click the downward-pointing arrow to the right of the column header name, then click **Sort**. 
     
-1. (Conditional) If you clicked the **Sort** icon at the top of the table, also select the order in which you want the field sorted. The options for the sorting order depend on the type of field you are sorting by. 
+1. (Conditional) If you click **Sort** at the top of the table, the **Sort records by** box opens. Click one of the suggested fields, or click **Choose a different field** and search for a different field, then click it when it displays in the list. 
+
+    The sorting is applied automatically to the table view and records display sorted by your selected criteria. 
+    
+1. (Optional) Click **Add condition**, and repeat the above steps to sort by additional fields.  
+
+    The number of fields that you are sorting by displays to the left of the Sort icon in the upper-right corner of the toolbar. You can choose only fields that display in the columns of the table view.
+1. (Conditional) If you clicked the **Sort** icon at the top of the table, select the order in which you want the field sorted in the **Sort records by** box. The options for the sorting order depend on the type of field you are sorting by. 
 
     >[!TIP]
     >
@@ -861,14 +866,6 @@ To sort records, do the following:
 
     The field is added as a sorting selection in the **Sort** icon at the top of the table. 
 
-1. (Conditional) In the **Sort records by** box, click one of the suggested fields, or click **Choose a different field** and search for a different field, then click it when it displays in the list. 
-
-    The sorting is applied automatically to the table view and records display sorted by your selected criteria. 
-    
-1. (Optional) Click **Add condition**, and repeat the above steps to sort by additional fields.  
-
-    The number of fields that you are sorting by displays to the left of the Sort icon in the upper-right corner of the toolbar. You can choose only fields that display in the columns of the table view.
-
 1. (Optional) In the **Sort records by** box, click the **x** icon to the right of a sorting field to remove the sort
 
     Or
@@ -885,7 +882,7 @@ To sort records, do the following:
 
 ### Add groupings {#add-groupings}
 
-***********************this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced***************
+***********************this section exists in the timeline view too, but the display is slightly different, so I kept both procedures; consider updating both sections if any updates to groupings are introduced***************
 
 You can group records by similar information when applying  a grouping to a view.
 
@@ -944,8 +941,6 @@ To add a grouping:
         Depending on the number of groupings you apply to the view, some options might not be available.
     ********* NOT POSSIBLE ABOVE **********
    
-
-************* EDIT THIS OR HIDE FOR PREVIEW RELEASE ***************
 
 ### Add row colors
 

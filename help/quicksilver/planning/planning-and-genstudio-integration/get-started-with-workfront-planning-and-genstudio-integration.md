@@ -19,9 +19,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
+source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
 workflow-type: tm+mt
-source-wordcount: 2355
+source-wordcount: 2402
 ht-degree: 1%
 
 ---
@@ -408,7 +408,7 @@ Old for the second row in the table:
 
 ### GenStudio記錄型別的請求表單和自動化
 
-* 您可以在Workfront Planning中將請求表單新增至GenStudio記錄型別。
+* 您可以在Workfront Planning中將請求表單新增至GenStudio記錄型別。 您可以在與GenStudio工作區記錄型別相關聯的請求表單上新增Planning連線欄位。
 
   如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 * 您可以在Workfront Planning中設定GenStudio記錄型別的自動化。
@@ -419,12 +419,16 @@ Old for the second row in the table:
 
 當貴組織整合Workfront Planning和Adobe GenStudio時，您可以從Workfront Planning中任何工作區內的任何記錄型別，將Planning記錄型別連結至GenStudio Brands。
 
-品牌預設會連線至下列GenStudio工作區記錄型別：
+考慮以下事項：
 
-* 產品
-* 人物誌
+* 品牌預設會連線至下列GenStudio工作區記錄型別：
 
-品牌可用於手動連線到所有其他的GenStudio工作區記錄型別，或是來自您有權管理的所有其他工作區的記錄型別。
+   * 產品
+   * 人物誌
+
+* 品牌可用於手動連線到所有其他的GenStudio工作區記錄型別，或是您有權管理的所有其他工作區記錄型別。
+
+* 使用Planning或GenStudio記錄型別連線Brands後，您可以將Brands連線欄位新增到與記錄型別相關聯的請求表單。
 
 ## 預覽環境
 

@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 18ed9f36e497b0e419e3e119da50c85920e226df
+source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
 workflow-type: tm+mt
-source-wordcount: 1404
+source-wordcount: 1484
 ht-degree: 1%
 
 ---
@@ -192,6 +192,13 @@ Old:
       > 您的Workfront執行個體可能沒有這兩種型別的檔案儲存。
       >
       >如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
+
+
+      對於預覽/生產版本：上述「附註」中的第三個專案符號需要重寫：
+
+      >* 使用專案組合或方案的範本建立專案時，會出現下列情況：
+      >  * 您無法使用舊版Adobe儲存產品組合或方案中的Workfront雲端儲存空間範本來建立專案。
+      >  * 您可以使用舊版儲存空間範本，為Adobe儲存產品組合或方案建立Adobe雲端儲存空間專案。 任何範本檔案和資料夾都不會附加到新專案。
 
    1. 檢閱右側的下列範本詳細資訊：
 

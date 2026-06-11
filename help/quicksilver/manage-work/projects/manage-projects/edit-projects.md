@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
 workflow-type: tm+mt
-source-wordcount: 7941
+source-wordcount: 7980
 ht-degree: 1%
 
 ---
@@ -303,7 +303,9 @@ Old:
       <p><b>附註</b></p>
       <ul>
       <li>您必須擁有投資組合的管理許可權，才能在專案中新增或移除投資組合。</li>
-      <li>當您的組織同時使用舊版Workfront和Adobe雲端儲存空間時，您無法在使用不同儲存空間型別的專案之間複製任務。 您的Workfront執行個體可能沒有這兩種型別的檔案儲存。</li></ul> 
+      <li>當您的組織同時使用舊版Workfront和Adobe雲端儲存空間時，您無法在使用不同儲存空間型別的專案之間複製任務。 </li>
+      <li>您無法將舊版儲存空間專案移至Adobe雲端儲存空間產品組合或方案，或將Adobe雲端儲存空間專案移至舊版產品組合或方案。</li>
+      </ul> <p>您的Workfront執行個體可能沒有這兩種型別的檔案儲存。</p>
       如需詳細資訊，請參閱<a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">專案和相關物件的檔案管理概觀</a>。 
       </td> 
       </tr> 
