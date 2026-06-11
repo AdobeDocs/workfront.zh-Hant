@@ -22,9 +22,9 @@ ht-degree: 0%
 
 即使內容「明顯」屬於已知文章，仍會提供2-3替代方案，讓Courtney可以確認刊登。 如此一來，內容可能會近乎重複，並部分涵蓋某些位置。
 
----
+&#x200B;---
 
-# 編輯說明文章之前先提出變更
+&#x200B;# 編輯說明文章之前先提出變更
 
 當即將編輯`help/`下的任何`.md`說明文章時，**尚未編輯檔案**。 首先，顯示您計畫變更的專案並等待明確核准。
 
@@ -43,9 +43,9 @@ ht-degree: 0%
 
 這會&#x200B;**不**&#x200B;封鎖唯讀研究(grep、read)或在聊天中起草/探索（無檔案寫入）。
 
----
+&#x200B;---
 
-# Git認可訊息
+&#x200B;# Git認可訊息
 
 起草或產生Git認可訊息時，請遵循此格式。
 
@@ -71,9 +71,9 @@ Add refresh token rotation to auth flow
 - ✏️ Update session middleware to rotate secrets and revoke old tokens.
 ```
 
----
+&#x200B;---
 
-# 提取請求(PR)
+&#x200B;# 提取請求(PR)
 
 ## 衍生Jira問題
 
