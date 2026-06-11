@@ -4,9 +4,9 @@ description: 2026年第三季度報告增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b9c63e1ca4b2b301ee104ee84151a2d0148a8cea
+source-git-commit: a678a987703240680368b34c4095637b59a8bb60
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,31 @@ ht-degree: 0%
 本頁說明2026年第三季度版本中針對預覽環境進行的報告增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2026年第三季度發行週期中目前可用的所有變更清單，請參閱[2026年第三季度發行概觀](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)。
+
+## 一次新增多個Power BI IP位址範圍至資料連線允許清單
+
+>[!NOTE]
+>
+>預覽： N/A>生產快速發行： 2026年6月11日>適用於所有人的生產： 2026年7月16日
+
+Workfront管理員將Microsoft Power BI連線至Workfront Data Connect後，現在只需一個步驟，即可將整個區域的Azure IP位址範圍新增至允許清單。 在&#x200B;**Data Connect**&#x200B;的&#x200B;**IP允許清單**&#x200B;索引標籤中，**新IP位址**&#x200B;按鈕現在包含&#x200B;**新增Power BI IP位址區塊**&#x200B;選項，該選項會開啟一個對話方塊，您可以在此處貼上Microsoft已發佈的Azure IP範圍和服務標籤JSON檔案中的Power BI服務標籤專案。
+
+這取代了先前一次新增一個Power BI CIDR區塊的工作流程，而針對發佈數十個位址首碼的地區，此工作流程相當耗時。
+
+如需詳細資訊，請參閱[建立與Workfront Data Connect的連線](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)。
+
+
+## 排序畫布儀表板清單
+
+>[!NOTE]
+>
+>預覽： 2026年6月11日>生產快速版本： 2026年7月15日>每個人的生產： 2026年7月16日
+>
+>畫布儀表板目前是測試版。
+
+您現在可以依下列任一欄來排序畫布儀表板清單： **名稱**、**描述**、**建立者**&#x200B;或&#x200B;**建立日期**。 按一下欄標題依該欄排序清單，然後再次按一下相同標題以反轉排序方向。 依預設，清單會依&#x200B;**名稱**&#x200B;從A到Z排序。當您在「畫布控制面板」清單中的標籤之間切換時，排序順序會保留。
+
+如需詳細資訊，請參閱[使用畫布儀表板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)。
 
 ## 自訂公式中實際時數的變更
 
