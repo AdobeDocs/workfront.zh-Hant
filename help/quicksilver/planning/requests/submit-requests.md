@@ -9,21 +9,14 @@ exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/-ksnbkmFi7s42lp3Fnb6uVaO3JCseU48W9VSacVY-GI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
 workflow-type: tm+mt
-source-wordcount: 2592
+source-wordcount: 2603
 ht-degree: 1%
 
 ---
@@ -146,8 +139,8 @@ Not sure how to change the request status, but dev also said: Changing the names
 
 {{step1-to-requests}}
 
-1. 開啟熒幕右上角的&#x200B;**使用新體驗**&#x200B;設定。
-開啟此設定後，Workfront的&#x200B;**要求**&#x200B;區域就會提供Workfront規劃要求表單。
+1. 開啟熒幕右上角的&#x200B;**使用新體驗**設定。
+開啟此設定後，Workfront的**要求**&#x200B;區域就會提供Workfront規劃要求表單。
 
    >[!TIP]
    >
@@ -254,11 +247,12 @@ Not sure how to change the request status, but dev also said: Changing the names
    >
    >  <div class="preview">
    >
-   >   * 僅當尚未建立記錄且請求正在等待核準時，才能編輯請求。
-   >   * 有些欄位是唯讀的，您無法加以編輯。
-   >  * 從中建立記錄後，您無法再編輯請求。
+   >* 僅當尚未建立記錄且請求正在等待核準時，才能編輯請求。
+   >* 有些欄位是唯讀的，您無法加以編輯。
+   >* 從中建立記錄後，您無法再編輯請求。
    >
    >  </div>
+1. <span class="preview">（選擇性）編輯請求後，請按一下&#x200B;**提交變更**。</span>
 1. （視條件而定）如果要求表單未與核准建立關聯，或要求已核准，請按一下要求名稱，然後在&#x200B;**建立的物件**&#x200B;欄位中按一下記錄名稱。
 
    記錄的頁面會在Workfront Planning中開啟。
@@ -267,7 +261,8 @@ Not sure how to change the request status, but dev also said: Changing the names
    >
    >* 如果要求表單中未更新記錄的主要欄位，則要求之記錄欄位中的記錄名稱會顯示為&#x200B;**未命名**。
    >
-   >* 如果請求表單與核准相關聯，則必須先授權核准，然後才能從請求頁面存取記錄。 在授予核准之前，不會建立記錄。
+   >* 如果請求表單與核准相關聯，則必須先授權核准，然後才能從請求頁面存取記錄。在授予核准之前，不會建立記錄。
+   >  如需核准請求的詳細資訊，請參閱[在Adobe Workfront規劃中核准請求](/help/quicksilver/planning/requests/approve-request.md)。
 
 1. （選擇性）按一下&#x200B;**記錄型別**&#x200B;的名稱。
 
