@@ -83,7 +83,7 @@ ht-degree: 2%
 [需要有關請求核准的快速說明文章連結]
 
 <!--
-Learn how to [get approval on designs](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).   
+Learn how to [get approval on designs](https://helpx.adobe.com/tw/express/web/share-and-publish/share-and-collaborate/request-approval.html).   
 -->
 
 ## 重新混合快速範本，並傳送以供檢閱和核准
@@ -106,7 +106,7 @@ Adobe Express使用者可以根據自己的需求混合使用快速範本。 發
 [需要有關請求核准的快速說明文章連結]
 
 <!--
-For more information, see [Send templates for review and approval](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html).
+For more information, see [Send templates for review and approval](https://helpx.adobe.com/tw/express/web/invite-collaborate/request-approval.html).
 -->
 
 ## 檢閱並核准使用Frame.io重新混合的Express檔案
