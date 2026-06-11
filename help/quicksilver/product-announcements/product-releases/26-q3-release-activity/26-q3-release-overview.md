@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: b9c63e1ca4b2b301ee104ee84151a2d0148a8cea
+source-git-commit: 58777d63eff116855191281d09c6c2d19f1aa2ee
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1848'
 ht-degree: 2%
 
 ---
@@ -39,6 +39,7 @@ ht-degree: 2%
 * [檔案增強功能](#documents-enhancements)
 * [Financial Management增強功能](#financial-management-enhancements)
 * [首頁增強功能](#home-enhancements)
+* [專案增強功能](#project-enhancements)
 * [報告增強功能](#reporting-enhancements)
 * [要求增強功能](#requesting-enhancements)
 * [其他增強功能](#other-enhancements)
@@ -55,6 +56,26 @@ ht-degree: 2%
             <td><strong>預覽</strong></td>
             <td><strong>快速發行</strong></td>
             <td><strong>每季</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">檢視Workfront物件的變更記錄</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <p>為了讓您更輕鬆地檢視在一個中央清單中發生的變更，我們已建立「變更記錄清單」。 此清單會顯示物件、作業和變更來源（例如使用者或Workfront系統）等資訊。</p>
+            </td>
+            <td><p>2026年6月11日</p></td>
+            <td><p>2026年6月11日</p></td>
+            <td><p>2026年7月16日</p></td>
+        </tr>
+        <!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">New system preference to convert legacy storage portfolios to Adobe cloud storage</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>Workfront administrators can now convert legacy storage portfolios to Adobe cloud storage directly from System Preferences. To convert portfolios, select them in the new Select portfolios to convert to enterprise storage field and save the page.</p>
+            </td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+        </tr>
+        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">RTF文字取代文字格式欄位型別</a>
@@ -193,6 +214,43 @@ ht-degree: 2%
     </tbody>
 </table>
 
+<!--
+
+### Project enhancements
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>Feature</strong>
+            </td>
+            <td><strong>Preview</strong></td>
+            <td><strong>Fast release</strong></td>
+            <td><strong>Quarterly</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Convert a legacy storage task to an Adobe cloud storage project</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
+                <p>If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now convert a legacy storage task to an Adobe cloud storage project.</p>
+            </td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 12, 2026</p></td>
+            <td><p>June 12, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Use a legacy storage template to create an Adobe cloud storage project</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
+                <p>If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now use a legacy storage template to create an Adobe cloud storage project in some scenarios.</p>
+            </td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+            <td><p>June 11, 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+-->
+
 ### 報告增強功能
 
 <table>
@@ -205,6 +263,24 @@ ht-degree: 2%
             <td><strong>預覽</strong></td>
             <td><strong>快速發行</strong></td>
             <td><strong>每季</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">一次新增多個Power BI IP位址範圍至Data Connect允許清單</a> <p>[!BADGE Off Schedule]{type=Neutral}
+                <p>Workfront管理員將Microsoft Power BI連線至Workfront Data Connect後，現在只需一個步驟，即可將整個區域的Azure IP位址範圍新增至允許清單。</p>
+            </td>
+            <td><p>不適用</p></td>
+            <td><p>2026年6月11日</p></td>
+            <td><p>2026年6月11日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">排序畫布儀表板清單</a> 
+                <p>您現在可以依「名稱」、「說明」、「建立者」或「建立日期」欄，對「畫布控制面板」清單進行排序。 按一下欄標題依該欄排序清單，然後再次按一下相同標題以反轉排序方向。 依預設，清單會依名稱從A到Z排序。當您在「畫布控制面板」清單中的標籤之間切換時，排序順序會保留。</p>
+            </td>
+            <td><p>2026年6月11日</p></td>
+            <td><p>2026年7月15日</p></td>
+            <td><p>2026年7月16日</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">自訂公式中實際時數的變更</a> <p>[!BADGE Off Schedule]{type=Neutral}</p>
@@ -280,6 +356,15 @@ ht-degree: 2%
             <td><strong>預覽</strong></td>
             <td><strong>快速發行</strong></td>
             <td><strong>每季</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">更新Workfront MCP聯結器</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <p>我們已更新Workfront MCP聯結器：<ul><li>Claude現在可以連線到MCP聯結器。</li><li>您現在可以從歐盟的執行個體或不使用AWS的執行個體使用MCP聯結器。</p>
+            </td>
+            <td><p>2026年6月11日</p></td>
+            <td><p>2026年6月11日</p></td>
+            <td><p>2026年6月11日</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">已更新評論通知電子郵件的外觀</a><p>[!BADGE Off Schedule]{type=Neutral}</p>

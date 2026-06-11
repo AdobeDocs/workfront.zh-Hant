@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
 workflow-type: tm+mt
-source-wordcount: 5239
+source-wordcount: 5409
 ht-degree: 1%
 
 ---
@@ -44,11 +44,11 @@ Do we need this for FORMULAS: when we release permissions to RECORDS and we rele
 
 <!--information about choice values must stay in yellow till Jan 2026-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -472,25 +472,24 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
          * **24hr**：例如： 18:00
          * **12hr**：例如：下午6:00
 
-     <!--
-        <div class="preview">
+     <div class="preview">
 
-        * In the Preview environment: 
+      * 在預覽環境中：
 
-            * Select from the following formats:
-                * **Short**: 6/9/26
-                * **Medium**: Jun 9, 2026
-                * **Long** June 9, 2026
-        * **Include time**: Select this option if you want to include a time stamp. This is unselected by default. You cannot include a time after you save the field. 
-    
-            Select from the following options:
-        
-            * **24hr**: For example: 18:00
-            * **12hr**: For example: 6:00 PM
-        * **Use the same timezone for all collaborators**, then select a **Timezone ** (************** logged bug to change this to "Show the same time zone to all users" ****************): Select this if you want to show the same time stamp for all people viewing the field, regardless of their user's time zone. The time zone selected is added to the column header for this field. 
+         * 從下列格式中選取：
+            * **短整數**： 6/9/26
+            * **Medium**：2026年6月9日
+            * **長** 2026年6月9日
+      * **包含時間**：若要包含時間戳記，請選取此選項。 預設會取消選取此選項。 您無法包含儲存欄位後的時間。
 
-        </div>
-        -->
+        從下列選項中選取：
+
+         * **24hr**：例如： 18:00
+         * **12hr**：例如：下午6:00
+      * **對所有共同作業人員使用相同的時區**，然後選取&#x200B;**時區** <!--(************** logged bug to change this to "Show the same time zone to all users" ****************)-->：如果您想要對所有檢視此欄位的人顯示相同的時間戳記，無論其使用者的時區為何，請選取此選項。 選取的時區會新增至此欄位的欄標題。
+
+     </div>
+
 
 1. 按一下「**建立**」。
 

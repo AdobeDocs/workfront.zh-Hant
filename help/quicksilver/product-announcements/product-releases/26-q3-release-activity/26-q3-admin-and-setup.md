@@ -4,9 +4,9 @@ description: 2026年第三季度管理員增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 3d8439efd8a92042098fbf995aacf2fe3add43f2
+source-git-commit: cc0067cb2f64eae79647881ab30355b6832073d1
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,46 @@ ht-degree: 0%
 本頁說明管理員在2026年第三季度版本中針對預覽環境所做的增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2026年第三季度發行週期中目前可用的所有變更清單，請參閱[2026年第三季度發行概觀](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)。
+
+## 檢視Workfront物件的變更記錄
+
+>[!NOTE]
+>
+>預覽： 2026年6月11日>生產快速版本： 2026年6月11日>每個人的生產： 2026年7月16日
+
+為了讓您更輕鬆地檢視在一個中央清單中發生的變更，我們已建立「變更記錄清單」。 此清單會顯示物件、作業和變更來源（例如使用者或Workfront系統）等資訊。
+
+以前，稽核記錄可供使用，但不涵蓋物件。
+
+<!--
+
+For more information see [View and manage change history](help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+
+-->
+
+<!--
+
+## New system preference to convert legacy storage portfolios to Adobe cloud storage
+
+>[!NOTE]
+>
+>Preview: June 11, 2026
+>Production for everyone: June 11, 2026
+
+Workfront administrators can now convert legacy storage portfolios to Adobe cloud storage directly from System Preferences. To convert portfolios, select them in the new Select portfolios to convert to enterprise storage field and save the page.
+
+When a portfolio is converted to Adobe cloud storage:
+
+* You can no longer move projects that use legacy Workfront storage to this portfolio
+* All new projects created in this portfolio use Adobe cloud storage
+* Frame.io is the viewer for documents using Adobe cloud storage
+* Child objects using legacy Workfront storage stay on legacy storage
+
+Previously, adding an Adobe cloud storage project to a Legacy storage portfolio automatically converted the portfolio to Adobe cloud storage.
+
+For more information, see [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+
+-->
 
 ## RTF文字會以格式欄位型別取代文字
 
