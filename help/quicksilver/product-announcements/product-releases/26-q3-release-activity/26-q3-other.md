@@ -4,9 +4,9 @@ description: 2026年第三季度發行時間範圍內的其他增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a678a987703240680368b34c4095637b59a8bb60
+source-git-commit: 937b49b44f102fee6c9847ab950eb2b274aee89b
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 我們已對Workfront MCP聯結器進行下列更新：
 
-* 我們已擴充MCP伺服器，以使用非AWS上的歐盟和美國執行個體。 每個MCP伺服器只能連線至一個執行個體，但不再侷限於AWS上的美國執行個體。
+* 我們已擴充MCP伺服器，以使用歐盟<!-- and US instances that are not on AWS. Each MCP server can only connect to one instance, but are no longer limited to US instances on AWS-->的執行個體。
 * 為了擴充Workfront MCP聯結器的彈性，我們新增了連線Claude的功能。 現在，您可以在Claude的聯結器清單中找到Workfront，或直接使用URL連線。
 
 如需詳細資訊與指示，請參閱[設定Adobe Workfront MCP伺服器](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)。
