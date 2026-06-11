@@ -9,9 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 38441ec5ae6fd8cf5c79f939403d5966c5616c98
+exl-id: aadfd91d-19e5-4124-bbc4-70f5fbfa9ce6
+source-git-commit: 298865bbcdab40cda887d939529561e13a9ed093
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
@@ -29,5 +30,4 @@ ht-degree: 0%
 * [從範本匯入費率卡](/help/quicksilver/administration-and-setup/manage-enterprise-operations/import-rate-cards.md)
 * [專案的推送率變更](/help/quicksilver/administration-and-setup/manage-enterprise-operations/push-rates-to-projects.md)
 * [共用費率卡](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md)
-
-
+* [檢視及管理變更歷史記錄](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)
