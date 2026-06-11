@@ -4,9 +4,9 @@ description: 2026年第三季度管理員增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: cc0067cb2f64eae79647881ab30355b6832073d1
+source-git-commit: 34ec779f648db8c3f1a1fe2a76f5b7fda83679a6
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -27,35 +27,26 @@ ht-degree: 0%
 
 以前，稽核記錄可供使用，但不涵蓋物件。
 
-<!--
+如需詳細資訊，請參閱[檢視及管理變更記錄](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)。
 
-For more information see [View and manage change history](help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
-
--->
-
-<!--
-
-## New system preference to convert legacy storage portfolios to Adobe cloud storage
+## 將舊版儲存產品組合轉換為Adobe雲端儲存空間的新系統偏好設定
 
 >[!NOTE]
 >
->Preview: June 11, 2026
->Production for everyone: June 11, 2026
+>預覽： 2026年6月11日>每個人的生產： 2026年6月11日
 
-Workfront administrators can now convert legacy storage portfolios to Adobe cloud storage directly from System Preferences. To convert portfolios, select them in the new Select portfolios to convert to enterprise storage field and save the page.
+Workfront管理員現在可以直接從「系統偏好設定」將舊版儲存產品組合轉換為Adobe雲端儲存空間。 若要轉換產品組合，請在新的選取產品組合中選取它們，以轉換為企業儲存欄位並儲存頁面。
 
-When a portfolio is converted to Adobe cloud storage:
+當產品組合轉換為Adobe雲端儲存空間時：
 
-* You can no longer move projects that use legacy Workfront storage to this portfolio
-* All new projects created in this portfolio use Adobe cloud storage
-* Frame.io is the viewer for documents using Adobe cloud storage
-* Child objects using legacy Workfront storage stay on legacy storage
+* 您無法再將使用舊版Workfront儲存空間的專案移動至此產品組合
+* 在此產品組合中建立的所有新專案都會使用Adobe雲端儲存空間
+* Frame.io是使用Adobe雲端儲存空間的檔案檢視器
+* 使用舊版Workfront儲存空間的子物件會保留在舊版儲存空間
 
-Previously, adding an Adobe cloud storage project to a Legacy storage portfolio automatically converted the portfolio to Adobe cloud storage.
+先前，將Adobe雲端儲存空間專案新增至舊版儲存空間產品組合，會自動將該產品組合轉換為Adobe雲端儲存空間。
 
-For more information, see [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
-
--->
+如需詳細資訊，請參閱[設定系統偏好設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
 
 ## RTF文字會以格式欄位型別取代文字
 

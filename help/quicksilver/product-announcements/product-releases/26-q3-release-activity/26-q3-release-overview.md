@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 937b49b44f102fee6c9847ab950eb2b274aee89b
+source-git-commit: 6aae88e6030fea5c3a9ea6dd05e666de6af9f59f
 workflow-type: tm+mt
-source-wordcount: '1841'
+source-wordcount: '1903'
 ht-degree: 2%
 
 ---
@@ -65,17 +65,15 @@ ht-degree: 2%
             <td><p>2026年6月11日</p></td>
             <td><p>2026年7月16日</p></td>
         </tr>
-        <!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">New system preference to convert legacy storage portfolios to Adobe cloud storage</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-                <p>Workfront administrators can now convert legacy storage portfolios to Adobe cloud storage directly from System Preferences. To convert portfolios, select them in the new Select portfolios to convert to enterprise storage field and save the page.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">將舊版儲存產品組合轉換為Adobe雲端儲存空間的新系統偏好設定</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <p>Workfront管理員現在可以直接從「系統偏好設定」將舊版儲存產品組合轉換為Adobe雲端儲存空間。 若要轉換產品組合，請在新的選取產品組合中選取它們，以轉換為企業儲存欄位並儲存頁面。</p>
             </td>
-            <td><p>June 11, 2026</p></td>
-            <td><p>June 11, 2026</p></td>
-            <td><p>June 11, 2026</p></td>
+            <td><p>2026年6月11日</p></td>
+            <td><p>2026年6月11日</p></td>
+            <td><p>2026年6月11日</p></td>
         </tr>
-        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">RTF文字取代文字格式欄位型別</a>
