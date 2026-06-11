@@ -9,19 +9,12 @@ exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/EyxmgHO7j8VmDleBabPYGXsZmjNr-3h8r9-ujvK4DcE
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a454add7458fb8dc00de88ef685ede4e26383e35
 workflow-type: tm+mt
 source-wordcount: 676
 ht-degree: 2%
@@ -62,16 +55,16 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p> 
-   <p>[!UICONTROL 計畫] </p> </td> 
+   <td><p>[！UICONTROL標準]</p> 
+   <p>[！UICONTROL計畫] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級</td> 
-   <td> <p>[!UICONTROL Edit]對程式或更高版本的存取權</p> <p>[!UICONTROL Edit]專案的存取權</p> </td> 
+   <td> <p>[！UICONTROL Edit]對程式或更高版本的存取權</p> <p>[！UICONTROL Edit]專案的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>[!UICONTROL Manage]程式許可權</p> <p>[!UICONTROL Manage]專案的許可權</p> </td> 
+   <td> <p>[！UICONTROL Manage]程式許可權</p> <p>[！UICONTROL Manage]專案的許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -130,30 +123,30 @@ old:
     <tbody>
 
    <tr> 
-      <td role="rowheader">[!UICONTROL 新專案]</td> 
+      <td role="rowheader">[！UICONTROL新專案]</td> 
       <td> <p>從頭開始新增專案。 </p> <p>如需從頭開始建立專案的詳細資訊，請參閱<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">建立專案</a>。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 新專案（舊版儲存空間）]</td> 
+      <td role="rowheader">[！UICONTROL新專案（舊版儲存空間）]</td> 
       <td> <p>新增Workfront儲存專案。 </p>
       <p>只有當您的組織同時使用Workfront和Adobe雲端檔案儲存時，才會顯示選項。 您的Workfront執行個體可能沒有這兩種型別的儲存空間。</p>
       <p>如需建立專案的詳細資訊，請參閱<a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">建立專案</a>。 </p> </td> 
       </tr> 
       <tr> 
-      <td role="rowheader">[!UICONTROL 從範本新增專案]</td> 
+      <td role="rowheader">[！UICONTROL從範本新增專案]</td> 
       <td> <p>使用現有範本新增專案。 </p> <p>如需從範本建立專案的詳細資訊，請參閱<a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">使用範本建立專案</a>。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 匯入[!DNL MS Project]] </td> 
+      <td role="rowheader">[！UICONTROL匯入[!DNL MS Project]] </td> 
       <td> <p>新增您先前從[!DNL MS Project]匯出且儲存在電腦上的專案。 </p> <p>如需有關從[!DNL Microsoft Project]匯入以建立新專案的詳細資訊，請參閱<a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">從[!DNL Microsoft Project]</a>匯入專案。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 請求專案]</td> 
+      <td role="rowheader">[！UICONTROL請求專案]</td> 
       <td> <p>在您可以開始處理新專案之前，先請求核准該專案。</p> <p>如需請求專案的詳細資訊，請參閱<a href="../../../manage-work/projects/create-projects/request-project.md">請求專案</a>。 </p> </td> 
      </tr>
 
    <tr> 
-      <td role="rowheader">[!UICONTROL 現有專案]</td> 
+      <td role="rowheader">[！UICONTROL現有專案]</td> 
       <td> <p>新增已建立的專案。</p> </td> 
      </tr> 
     </tbody> 
@@ -181,6 +174,15 @@ old:
       >如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
       >
       >並非所有Workfront執行個體都有兩種檔案儲存型別。
+
+
+      <!--
+        For preview/ prod release: replace all bullets (i think!!) in the Note with this:
+        * You cannot add a Legacy storage project to an Adobe cloud storage program, or an Adobe cloud storage project to a Legacy storage program. 
+        * You cannot create a project from an Adobe cloud storage template in a Legacy storage program. 
+        * You can create a project from a Legacy storage template in an Adobe cloud storage program, but the documents and folders on the template are not added to the new project. The project receives Adobe cloud storage.
+        * When you add an Adobe cloud storage project to a Legacy storage program, the program is converted to Adobe storage. Existing Legacy storage documents remain in the Legacy storage.
+        -->
 
    1. （選擇性）如果您決定不將專案新增至程式，請按一下專案名稱旁的&#x200B;**刪除**&#x200B;圖示![刪除圖示](assets/delete-icon.png)。
 
