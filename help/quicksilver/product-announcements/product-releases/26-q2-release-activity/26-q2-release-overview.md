@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: b18e58368da31806fa917ad688e7b8f3c7d0d91e
 workflow-type: tm+mt
-source-wordcount: 2589
+source-wordcount: 2620
 ht-degree: 2%
 
 ---
@@ -80,6 +80,14 @@ ht-degree: 2%
         <td><p>2026年4月2日</p></td>
         <td><p>2026年4月15日</p></td>
         <td><p>2026年4月16日</p></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">已更新時區名稱</a><p>[!BADGE Off Schedule]{type=Neutral}</p><p>我們已更新Workfront中可用的時區，以遵循IANA標準。 這可確保與其他系統的相容性，並可確保一段時間內的準確性。</p>
+        </td>
+        <td><p>2026年3月27日</p></td>
+        <td><p>2026年3月27日</p></td>
+        <td><p>2026年3月27日</p></td>
     </tr>
     <tr>
         <td>

@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: a76f87dd9d37d4221c9f441da362dfc48b4960fb
 workflow-type: tm+mt
-source-wordcount: 512
+source-wordcount: 573
 ht-degree: 0%
 
 ---
@@ -43,6 +43,18 @@ ht-degree: 0%
 目前，唯一可用的AI共同作業人員是「內容檢閱」。 未來將提供更多的AI Collaborator功能。
 
 如需詳細資訊，請參閱[設定AI共同作業人員](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)。
+
+## 已更新時區名稱
+
+>[!NOTE]
+>
+>預覽： 2026年3月27日>生產快速版本： 2026年3月27日>每個人的生產： 2026年3月27日
+
+我們已更新Workfront中可用的時區，以遵循IANA標準。 這可確保與其他系統的相容性，並可確保一段時間內的準確性。
+
+作為此變更的一部分，之前在Workfront中可用的某些時區已替換為標準IANA時區。
+
+如需這些變更的清單，請參閱[更新的時區名稱](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/deprecated-time-zone-names.md)。
 
 ## 自訂季度現在在設定中作為單獨頁面提供
 
