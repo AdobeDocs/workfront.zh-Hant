@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: fa50195be08ea164ab88ca30bd20ba8b021e7ecb
+source-git-commit: 95859f692efbd6ce12238cc03e23e1cecbd99956
 workflow-type: tm+mt
-source-wordcount: 5409
+source-wordcount: 5339
 ht-degree: 1%
 
 ---
@@ -440,20 +440,6 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
    * **名稱**：欄位名稱，它將顯示在資料表或記錄頁面中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **描述**：有關欄位的額外資訊。 當您將滑鼠游標停留在表格中的欄位欄位上，或當您在記錄的詳細資訊頁面中按一下欄位名稱旁的資訊圖示時，會顯示欄位說明。
    * **日期格式**：您要在此欄位中顯示的日期格式型別。<!--update this casing - submitted bug for it-->
-
-     從下列格式中選取：
-      * **地區**：符合瀏覽器的地區。
-      * **標準**： 05/16/2023
-      * **長**：2023年5月16日
-      * **歐洲**： 16/05/2023
-      * **ISO**： 2023-05-16
-   * **包含時間**：若要包含時間戳記，請選取此選項。 預設會取消選取此選項。 您無法包含儲存欄位後的時間。
-
-     從下列選項中選取：
-
-      * **24hr**：例如： 18:00
-      * **12hr**：例如：下午6:00
-
 
      根據您存取欄位的環境，執行下列動作：
 

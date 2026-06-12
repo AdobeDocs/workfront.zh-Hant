@@ -1,7 +1,7 @@
 ---
-source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
+source-git-commit: 95859f692efbd6ce12238cc03e23e1cecbd99956
 workflow-type: tm+mt
-source-wordcount: '2317'
+source-wordcount: '2236'
 ht-degree: 2%
 
 ---
@@ -291,13 +291,6 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
    Workfront Planning登陸頁面隨即開啟。
 
-1. （選擇性和條件性）如果您是Workfront管理員，請按一下以下其中一個標籤：
-
-   * **我的工作區**：顯示您建立的工作區。
-   * **其他工作區**：顯示Workfront Planning中的所有工作區，包括與您共用的工作區。
-
-   對於所有其他使用者，您建立或與您共用的所有工作區都會顯示在&#x200B;**工作區**&#x200B;區域中。
-
 ## Workfront規劃重要簡介 —  {#planning-important-intro}
 
 >[!IMPORTANT]
@@ -481,7 +474,7 @@ OLD:
 
 1. 在&#x200B;**[!UICONTROL 組織]**&#x200B;區段中，選取&#x200B;**[!UICONTROL 主團隊]**&#x200B;欄位。 開始輸入您想要與使用者建立關聯的團隊名稱。 當您在清單中看到團隊名稱時，請按一下該團隊的名稱。
 
-1. 按一下「**[!UICONTROL 儲存變更]**」。
+1. 按一下&#x200B;**[!UICONTROL 儲存變更]**。
 您選取的使用者現在與主團隊相關聯。
 這些使用者現在可以看到任何專案團隊設定，包括與「完成」按鈕關聯的狀態。
 
