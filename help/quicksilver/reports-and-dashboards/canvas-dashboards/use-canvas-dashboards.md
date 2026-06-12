@@ -16,14 +16,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 889f77efd9472cd2da5de1e5ec602aea63b2ce0b
 workflow-type: tm+mt
-source-wordcount: 480
+source-wordcount: 572
 ht-degree: 1%
 
 ---
 
 # 使用畫布控制面板
+
+{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -48,6 +50,33 @@ ht-degree: 1%
 1. 在左側面板中，按一下&#x200B;**畫布控制面板**。
 1. 按一下現有儀表板的名稱以開啟它。
    ![開啟儀表板](assets/open-dashboard.png)
+
+<div class="preview">
+
+## 在預覽中排序畫布儀表板清單
+
+您可以依下列任一欄來排序「畫布控制面板」清單：
+
+* 名稱
+* 說明
+* 建立者
+* 建立日期
+
+若要排序清單，請執行下列動作：
+
+1. 在左側面板中，按一下&#x200B;**畫布控制面板**。
+1. 按一下欄標題，即可依該欄排序清單。 再按一下相同的標題來反轉排序方向。
+
+   依預設，清單是依&#x200B;**Name**&#x200B;欄從A到Z排序。
+
+   ![排序畫布儀表板清單](assets/sort-canvas-dashboards-list.png)
+
+>[!NOTE]
+>
+>* 當您在「畫布控制面板」清單中的標籤之間切換時，排序順序會保留。
+
+
+</div>
 
 <!--
 ## Navigating the Dashboard
