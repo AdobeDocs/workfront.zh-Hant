@@ -5,7 +5,7 @@ title: Adobe Workfront MCP伺服器概述
 description: 瞭解Adobe Workfront MCP伺服器的功用，以及它如何讓您透過AI代理平台中的自然語言對話使用Workfront。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 648342f0002046febba1b8e751bc1cffec2c1346
+source-git-commit: b63c45eaf380137f2ebfc5cb99e503085f878389
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 
 
 # Adobe Workfront MCP伺服器概述
-
-{{highlighted-preview-article-level}}
 
 [!DNL Adobe Workfront] MCP伺服器將您的Workfront執行個體連線到AI代理平台，例如[!DNL Claude]或[!DNL ChatGPT]。 從AI代理平台，您可以透過提出自然語言請求來尋找、建立、更新和管理Workfront專案。
 
