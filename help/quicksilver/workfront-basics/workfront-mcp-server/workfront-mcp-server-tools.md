@@ -5,7 +5,7 @@ title: Adobe Workfront MCP伺服器工具
 description: 透過Adobe Workfront MCP伺服器可用的工具參考清單，按Workfront區域分組。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 648342f0002046febba1b8e751bc1cffec2c1346
+source-git-commit: c58007a9e72a9a2c04f04d3df83876b80ef1d12b
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 5%
@@ -68,6 +68,10 @@ ht-degree: 5%
 | 建立或更新核准工作流程 | `approvals_create_or_update_approval_workflow` | 建立或更新檔案版本的核准工作流程階段。 支援線性和平行（圖形）階段相依性。 | 寫入 |
 | 從範本建立核准 | `approvals_create_approval_from_template` | 使用現有範本在檔案上建立核准工作流程。 | 寫入 |
 | 刪除核准階段 | `approvals_delete_approval_stage` | 依名稱或職位從核准工作流程中刪除單一階段。 只能刪除未啟動的階段。 | 寫入 |
+
+<!--
+| Add and remove participants for an approval in bulk | `approvals_bulk_update_approval_participants`<br>`approvals__submit_bulk_update_approval_participants` | Adds or removes participants to or from multiple approvals at the same time. Currently, bulk updates can be applied only across a single project. Bulk updates across multiple projects will be available in the near future. | Write |
+-->
 
 <!--
 | Request document approval | `approvals_request_document_approval` | Opens a guided form for requesting approval on a document version (title, approvers/reviewers, optional due date and message). | Write |
