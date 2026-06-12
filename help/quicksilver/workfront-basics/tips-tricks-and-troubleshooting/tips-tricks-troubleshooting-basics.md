@@ -12,9 +12,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 5fc376d5e3fe8ab6e137d87f3ad0f57c06874d3d
 workflow-type: tm+mt
-source-wordcount: 105
+source-wordcount: 109
 ht-degree: 0%
 
 ---
@@ -37,3 +37,4 @@ ht-degree: 0%
 * [我參與的專案篩選器包含未預期的結果](../tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
 * [多個瀏覽器分頁導致Workfront登出](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
 * [如何共用物件而不產生通知](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/how-to-share-objects-without-sending-out-notifications.md)
+* [已更新時區名稱](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/deprecated-time-zone-names.md)
