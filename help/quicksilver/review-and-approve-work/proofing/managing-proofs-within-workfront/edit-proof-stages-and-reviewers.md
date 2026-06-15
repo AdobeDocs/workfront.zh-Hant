@@ -7,18 +7,13 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: 91549c2d-d7b1-461c-a3c4-ad0032acfb23
 TQID: https://experienceleague.adobe.com/yh9htEooQ267a5ZSL60NXX5xNSuUJcBC2sjZOwF8VBY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 25d403b9266c31a39c1dce6c1c45ad96ee90af28
 workflow-type: tm+mt
-source-wordcount: 566
+source-wordcount: 608
 ht-degree: 4%
 
 ---
@@ -105,6 +100,10 @@ ht-degree: 4%
      </tr> 
     </tbody> 
    </table>
+
+   >[!NOTE]
+   >
+   >如果您移除的檢閱者已對校訂做出決定，則該使用者的「核准者決定」欄位會在校訂核准報告中顯示連字型大小(-)。 如需詳細資訊，請參閱[核准者決定在校訂核准報告](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/approver-decision-shows-hyphen.md)中顯示連字型大小。
 
 ## 編輯檢閱者詳細資料
 
