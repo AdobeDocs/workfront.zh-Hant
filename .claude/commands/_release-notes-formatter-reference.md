@@ -11,7 +11,7 @@ ht-degree: 0%
 `help/quicksilver/product-announcements/product-releases/release-note-templates/`和
 最近每季發行中使用的實際格式。
 
----
+&#x200B;---
 
 ## 產品區域頁面範本
 
@@ -57,15 +57,17 @@ For more information, see [Help article title](/help/quicksilver/path/to/article
   >Production fast release: {date}
   >Production for everyone: {date}
   ```
+
 - 如果功能暫時移除，請在日期後新增一行：
 
   ```
   >
   >This feature has been temporarily removed from the Production environment on {date}.
   ```
+
 - 說明連結使用以`/help/quicksilver/`開頭的絕對路徑
 
----
+&#x200B;---
 
 ## 總覽頁面範本
 
@@ -188,7 +190,7 @@ For information about the maintenance updates made during the {Written Quarter} 
 Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the "What's New" section of the [Workfront Tutorials page](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
 ```
 
----
+&#x200B;---
 
 ## Look and Feel頁面範本
 
@@ -217,7 +219,7 @@ For a list of all changes available with the {Written Quarter} {Year} release, s
 Description of the look-and-feel change.
 ```
 
----
+&#x200B;---
 
 ## 日期編號說明格式
 
@@ -247,7 +249,7 @@ Description of the look-and-feel change.
 >Preview release: February 9, 2023; Planned Production release: February 23, 2023
 ```
 
----
+&#x200B;---
 
 ## 需要注意的已知不一致
 
