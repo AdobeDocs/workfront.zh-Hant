@@ -1,9 +1,9 @@
 ---
 name: remove-preview-highlighting
 description: ""
-source-git-commit: 5d515c5ae4c79a4183f3c583bc267fea6e398644
+source-git-commit: 08e47dac1dcd856a2e74e2368e71d57eef8a8278
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 1. 使用者叫用這個工作流程（例如，顯示&#x200B;**「移除預覽反白顯示」**&#x200B;或意圖明顯相同）。
 2. Markdown檔案的路徑&#x200B;**不**&#x200B;包含&#x200B;**`product-announcements`** （排除整個資料夾樹狀結構，例如`help/quicksilver/product-announcements/`下的發行說明、Beta和公告）。
 3. Markdown檔案是&#x200B;**不是**，列在下方&#x200B;**[排除的路徑](#excluded-paths)**&#x200B;下。
-4. Markdown檔案的frontmatter包括`author:`行上的&#x200B;**`Courtney`** （單一作者或共同作者）。
+4. Markdown檔案在`git log`中顯示為預覽內容&#x200B;**已由目前的Git使用者在使用者指定的日期範圍內新增或修改** （請參閱詳細目錄步驟）。
 5. 文章有&#x200B;**至少一個**：
    - 預覽環境&#x200B;**內文或真實片段段落中的語言** （典型模式：「醒目提示資訊」、「預覽環境」、「尚未普遍可用」、快速發行說明） — **並非**&#x200B;目錄/索引頁面上&#x200B;**僅連結文字**&#x200B;的相符專案（請參閱下文）；或
    - 任何具有&#x200B;**`class="preview"`**&#x200B;的HTML元素（例如`<span class="preview">`、`<div class="preview">`）；或
@@ -40,7 +40,33 @@ ht-degree: 0%
 請&#x200B;**不**&#x200B;未經核准大量編輯存放庫。
 
 1. **庫存**\
-   建立符合上述範圍規則的路徑排序清單（搜尋存放庫；偏好使用`help/`個樹狀結構）。 **省略&#x200B;**`product-announcements`**底下的任何路徑**、**[排除的路徑](#excluded-paths)**&#x200B;底下的任何路徑，以及符合範圍底下&#x200B;**目錄/索引頁面**&#x200B;的任何&#x200B;**目錄/索引**&#x200B;頁面。 如果使用者說列出的檔案沒有預覽反白顯示，請從執行中移除它並收緊條件，而不是強制進行編輯。
+   答： **詢問使用者他們要移除的季度版本** （例如「2026年第3季度」或「2026.07」）。\
+   b. **使用adobe-wiki MCP工具從`https://wiki.corp.adobe.com/spaces/AWF/pages/3631617814/2026+Monthly+Release+Calendar`擷取發行行事曆**。 尋找：
+   - **上一個**&#x200B;季度發行的&#x200B;**生產發行日期**→`--since`。
+   - **目標**&#x200B;每季發行的&#x200B;**生產發行日期**→`--until`。
+   - 每季版本由「每季版本名稱」欄識別（例如2026.01、2026.04、2026.07、2026.10）。
+   - **如果目前日期是第4季（10月至12月）：**，在擷取目前年份的行事曆之後，請要求使用者提供明年發行行事曆的URL，然後擷取該日期，以便所有需要的季度生產日期都可使用。
+c.決定目前的Git使用者，然後使用步驟b的生產發行日期執行下列作業：
+
+   ```bash
+   GIT_USER=$(git config user.name)
+   git log --since="YYYY-MM-DD" --until="YYYY-MM-DD" \
+     --author="$GIT_USER" --name-only --pretty=format: \
+     -- "help/quicksilver/**/*.md" | sort -u | grep -v '^$'
+   ```
+
+   d. 從這些結果中，**篩選到日期範圍內目前使用者的認可實際新增或修改預覽內容的檔案**。 對於每個候選檔案，檢查使用者的認可是否引進了預覽標籤：
+
+   ```bash
+   git log --since="YYYY-MM-DD" --until="YYYY-MM-DD" \
+     --author="$GIT_USER" -p -- "<file>" | \
+   grep -q '^\+.*class="preview"\|^\+.*{{highlighted-preview\|^\+.*highlighted information\|^\+.*not yet generally available'
+   ```
+
+   只有在此grep符合（退出代碼0）時才包含檔案。 這可避免誤判，即使用者對其他人已新增預覽反白的檔案進行不相關的編輯。
+
+   e. 根據上述TOC規則，**省略&#x200B;**`product-announcements`**下的任何路徑**、任何&#x200B;**[排除的路徑](#excluded-paths)**&#x200B;以及任何&#x200B;**TOC/索引**&#x200B;頁面。\
+   f. 呈現產生的排序清單。 如果使用者說列出的檔案沒有預覽反白顯示，請從執行中移除它並收緊條件，而不是強制進行編輯。
 
 2. **開始**\
    詢問是否以清單中的&#x200B;**前**&#x200B;篇文章開頭（或使用者名稱的路徑）。
