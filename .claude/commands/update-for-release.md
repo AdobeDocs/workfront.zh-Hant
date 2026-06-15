@@ -1,9 +1,9 @@
 ---
 name: update-for-release
 description: ""
-source-git-commit: be4cbcd40353960ea65a1ca38a8b6b1e21fd2ad4
+source-git-commit: 744be221844b2e24fb738cab5403f581a83b6c16
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 讀取`help/_includes/snippets.md`並按可用性選擇：
 
 | 可用性 | 程式碼片段 |
-|---|---|
+| --- | --- |
 | 僅限預覽 — 反白顯示的內容是其他正式發行文章中的新內容 | `{{highlighted-preview}}` |
 | 僅預覽 — 整篇文章是新的 | `{{highlighted-preview-article-level}}` |
 | 預覽+快速發行客戶，一般 | `{{preview-fast-release-general}}` |
@@ -104,6 +104,38 @@ ht-degree: 0%
 ### &#x200B;5. 每篇文章之後
 
 詢問是否要移至下一篇文章、停止、略過或重新造訪目前的文章。
+
+### &#x200B;6. 作業階段結束 — 複製/貼上發行說明
+
+當使用者結束工作階段時（說「完成」、「就這樣」、「停止」，或拒絕繼續下一篇文章），詢問：
+
+> 「想要增強功能頁面的複製/貼上發行說明專案嗎？」
+
+如果是，則使用步驟1中的特徵前後關聯及此作業階段中更新的主要說明文章來產生草稿專案。 **不要將它寫入任何檔案** — 僅以複製/貼上文字的形式提供。
+
+格式化專案以符合&#x200B;**發行說明 — 格式化程式**&#x200B;技能中的產品區域頁面結構：
+
+```markdown
+## {Feature name}
+
+>[!NOTE]
+>
+>Preview: {date or TBD}
+>Production fast release: {date or TBD}
+>Production for everyone: {date or TBD}
+
+{1–3 sentences describing what changed and why it helps users. Lead with the benefit, not the UI action.}
+
+For more information, see [{Primary article title}](/help/quicksilver/{path-to-article}.md).
+```
+
+規則：
+
+- 將`TBD`用於任何尚未知道的日期；詢問使用者是否有日期。
+- 功能名稱為句子大小寫（只有第一個字詞和專有名詞使用大寫）。
+- 說明應該專注於使用者現在可以執行的操作，而不是實作詳細資訊。
+- 連結至最具體的更新說明文章，而非概觀頁面。
+- 如果所有日期都不明了，且使用者不希望預留位置，請勿包含`>[!NOTE]`日期區塊 — 請省略該區塊，並注意該區塊稍後需要新增。
 
 ## 內容規則
 
