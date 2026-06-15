@@ -5,9 +5,9 @@ title: 設定Adobe Workfront MCP伺服器
 description: 設定您的Workfront執行個體和AI代理平台，讓您透過自然語言對話來使用Workfront。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: b63c45eaf380137f2ebfc5cb99e503085f878389
+source-git-commit: 0445376ea187b589040c8fdc56ea0d11f44b0b37
 workflow-type: tm+mt
-source-wordcount: '1701'
+source-wordcount: '1748'
 ht-degree: 0%
 
 ---
@@ -99,9 +99,15 @@ MCP伺服器存取許可權由兩個不同的管理員所控制。
 
 +++
 
-### 使用URL連線到Claude Desktop
+### 使用URL連線到Claude
 
 +++ 展開以檢視使用URL將Workfront連線至[!DNL Claude]的逐步指示。
+
+>[!NOTE]
+>
+>您必須是企業Claude環境中的擁有者才能執行此程式。
+>
+>如需Claude關於擁有者需求的陳述，請參閱Claude檔案中的[新增自訂聯結器](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp#:~:text=Note%3A%20While,has%20access%20to)。
 
 若要使用URL將Workfront連線至[!DNL Claude]：
 
@@ -118,7 +124,7 @@ MCP伺服器存取許可權由兩個不同的管理員所控制。
 
 1. 建立聯結器後，會彈出登入視窗。 使用您的Adobe ID憑證進行驗證。 如果您屬於多個Workfront執行個體，請務必選取所需執行個體。
 
-   >注意：
+   >[!NOTE]
    >
    >您的Workfront執行個體必須連線到該執行個體所在地區的MCP伺服器。 例如，EU執行個體必須連線至EU MCP伺服器。
    >
@@ -150,7 +156,7 @@ MCP伺服器存取許可權由兩個不同的管理員所控制。
 1. 確定驗證已設定為&#x200B;**OAuth** （預設為設定），並選取接受核取方塊以繼續。
 1. 建立應用程式後，系統會隨即顯示登入視窗。 使用您的Adobe ID憑證進行驗證。 如果您屬於多個Workfront執行個體，請務必選取所需執行個體。
 
-   >注意：
+   >[!NOTE]
    >
    >您的Workfront執行個體必須連線到該執行個體所在地區的MCP伺服器。 例如，EU執行個體必須連線至EU MCP伺服器。
    >
