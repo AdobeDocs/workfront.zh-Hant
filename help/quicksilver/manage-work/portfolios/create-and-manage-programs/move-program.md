@@ -9,19 +9,14 @@ exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/LkyWuPHqv0muTinWZT1PMKPGUNErWulIIxHmXVtPIVg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 397e5e36632872bb7be3f4e219b36e33b44136e9
 workflow-type: tm+mt
-source-wordcount: 382
-ht-degree: 3%
+source-wordcount: 289
+ht-degree: 4%
 
 ---
 
@@ -51,15 +46,15 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>[!UICONTROL 標準]</p><p>[!UICONTROL 計畫]</p> </td> 
+   <td> <p>[！UICONTROL標準]</p><p>[！UICONTROL計畫]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL Edit]對[!UICONTROL Portfolios]和[!UICONTROL Programs]的存取權 </p> </td> 
+   <td> <p>[！UICONTROL Edit]對[！UICONTROL Portfolios]和[！UICONTROL Programs]的存取權 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合和計畫的[!UICONTROL 管理]許可權</p> </td> 
+   <td> <p>投資組合和計畫的[！UICONTROL管理]許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -99,21 +94,10 @@ Old:
 
 >[!NOTE]
 >
->當您的組織使用舊版Workfront和Adobe雲端儲存空間存放檔案時，會出現以下情況：
->
->
->* 當您將Adobe雲端儲存空間程式新增至舊版Workfront儲存空間產品組合，而產品組合沒有附加任何檔案時，產品組合會轉換為Adobe雲端儲存空間。
->* 當您將Adobe雲端儲存空間程式新增至舊版Workfront儲存空間產品組合，且該產品組合已附加檔案，則產品組合檔案儲存空間仍會保留在Workfront儲存空間中。 不過，舊版Workfront儲存體圖示![舊版Workfront儲存體圖示](assets/legacy-storage-project-icon.png)已從產品組合中移除。
->* 您無法將舊版Workfront儲存空間程式新增到Adobe雲端儲存空間產品組合。
->
+>當您的組織同時使用舊版Workfront和Adobe雲端儲存空間來儲存檔案時，您無法將Adobe雲端儲存空間計畫新增至舊版儲存空間產品組合，也無法將雲端儲存空間計畫新增至Adobe雲端儲存空間產品組合。
+>您的Workfront執行個體可能沒有這兩種型別的檔案儲存空間。
 >如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 >
->並非所有Workfront執行個體都有兩種檔案儲存型別。
-
-<!--
-For preview/ Prod. release, rewrite the bullets above:
-* You cannot add an Adobe cloud storage program to a Legacy storage portfolio, or a Legacy program to an Adobe cloud storage portfolio.
--->
 
 若要將現有方案新增至另一個投資組合：
 
