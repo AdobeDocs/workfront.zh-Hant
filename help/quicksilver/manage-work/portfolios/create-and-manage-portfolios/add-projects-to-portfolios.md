@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: 397e5e36632872bb7be3f4e219b36e33b44136e9
 workflow-type: tm+mt
-source-wordcount: 689
+source-wordcount: 674
 ht-degree: 2%
 
 ---
@@ -189,20 +189,14 @@ Old:
    >當您的組織使用舊版Workfront和Adobe雲端儲存空間存放檔案時，會出現以下情況：
    >
    >
-   >* 當您將Adobe雲端儲存空間專案新增至舊版Workfront儲存空間產品組合，且該產品組合沒有附加任何檔案時，該產品組合會轉換為Adobe雲端儲存空間產品組合。
-   >* 當您將Adobe雲端儲存空間專案新增至舊版Workfront儲存產品組合，且該產品組合已附加檔案，則產品組合檔案儲存空間仍會保留在Workfront儲存空間中。 不過，舊版Workfront儲存體圖示![舊版Workfront儲存體圖示](assets/legacy-storage-project-icon.png)已從產品組合中移除。
-   >* 您無法將舊版Workfront儲存空間專案新增到Adobe雲端儲存空間產品組合。
+   >* 您無法將舊版儲存空間專案新增至Adobe雲端儲存空間產品組合，也無法將Adobe雲端儲存空間專案新增至舊版儲存空間產品組合。
+   >* 您無法從舊版儲存產品組合中的Adobe雲端儲存空間範本建立專案。
+   >* 您可以從Adobe雲端儲存產品組合中的舊版儲存範本建立專案，但範本上的檔案和資料夾未新增到新專案中。 專案會接收Adobe雲端儲存空間。
    >
    >如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
    >
    >並非所有Workfront執行個體都有兩種檔案儲存型別。
 
-   <!--
-    For preview/ prod release: replace all bullets (i think!!) in the Note with this:
-    * You cannot add a Legacy storage project to an Adobe cloud storage portfolio, or an Adobe cloud storage project to a Legacy storage portfolio. 
-    * You cannot create a project from an Adobe cloud storage template in a Legacy storage portfolio. 
-    * You can create a project from a Legacy storage template in an Adobe cloud storage portfolio, but the documents and folders on the template are not added to the new project. The project receives Adobe cloud storage.
-    -->
 
 1. （選擇性）如果您決定不將其新增至投資組合，請按一下專案名稱右側的&#x200B;**X**&#x200B;圖示，將其從清單中移除。
 

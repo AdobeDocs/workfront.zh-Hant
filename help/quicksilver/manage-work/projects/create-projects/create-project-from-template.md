@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: 397e5e36632872bb7be3f4e219b36e33b44136e9
 workflow-type: tm+mt
-source-wordcount: 1484
+source-wordcount: 1419
 ht-degree: 1%
 
 ---
@@ -187,18 +187,14 @@ Old:
       >
       >* 使用舊版Workfront儲存範本會建立舊版Workfront儲存專案。
       >
-      >* 當您使用來自舊版Adobe儲存產品組合或方案的Workfront雲端儲存空間範本時，專案是Adobe雲端儲存空間專案，而產品組合或方案也會轉換成Adobe雲端儲存空間物件。 相同產品組合或方案下的所有其他舊版Workfront儲存專案維持不變。
+      >* 使用專案組合或方案的範本建立專案時，會出現下列情況：
+      >     * 您無法使用舊版Adobe儲存產品組合或方案中的Workfront雲端儲存空間範本來建立專案。
+      >     * 您可以使用舊版儲存空間範本，為Adobe儲存產品組合或方案建立Adobe雲端儲存空間專案。 任何範本檔案和資料夾都不會附加到新專案。
       >
       > 您的Workfront執行個體可能沒有這兩種型別的檔案儲存。
       >
       >如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
-
-      對於預覽/生產版本：上述「附註」中的第三個專案符號需要重寫：
-
-      >* 使用專案組合或方案的範本建立專案時，會出現下列情況：
-      >  * 您無法使用舊版Adobe儲存產品組合或方案中的Workfront雲端儲存空間範本來建立專案。
-      >  * 您可以使用舊版儲存空間範本，為Adobe儲存產品組合或方案建立Adobe雲端儲存空間專案。 任何範本檔案和資料夾都不會附加到新專案。
 
    1. 檢閱右側的下列範本詳細資訊：
 
