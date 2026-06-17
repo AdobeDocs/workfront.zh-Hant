@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: 3bd72ca7e9a55dded97fa65d403d661f3ca95d3e
+source-git-commit: 6490feeb9f07234609bd31cb9ab81a7787dc72d0
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,24 @@ ht-degree: 0%
 
 如需2026年第三季度發行週期中目前可用的所有變更清單，請參閱[2026年第三季度發行概觀](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)。
 
+## 使用Workfront和Frame.io請求核准Adobe Express範本
+
+>[!NOTE]
+>
+>預覽： N/A>生產快速發行： 2026年6月15日>所有人的生產： 2026年6月15日>[!BADGE 排程外]{type=Neutral}
+
+Adobe Express和Workfront與Frame.io整合，為Adobe Express中建立的內容提供結構化稽核和核准。 設計人員可以將Workfront核准工作流程範本對應至快速範本，如此一來，當範本重新混合時，發佈前便會自動需要核准，透過預先設定的Workfront工作流程和Frame.io檢視器路由傳送資產。
+
+透過這項整合，您可以：
+
+* 簡化創意、法律和合規團隊之間的協同合作，縮短發布時間，同時維持監督
+* 在Frame.io檢視器中使用工程圖標籤、註釋和註解進行深入檢視
+* 透過電子簽章和完整的稽核記錄，符合企業法規遵循標準
+* 要求核准來自Express品牌範本的任何重新混合檔案
+* 使用Workfront中的統一核准範本，將快速範本對應至多階段檢閱和核准工作流程
+* 請求核準時請選擇Workfront專案，讓相關資產和校訂保持井然有序
+
+如需詳細資訊，請參閱[開始使用Adobe Express和Workfront與Frame.io整合](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/express-wf-frame.md)。
 
 ## 列印新檔案區域中的檔案摘要
 
