@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: f348be922cc5d3e231621e09b67644492b0c80fb
+source-git-commit: 2ad27645345f35de1f6e4e10a6b9836a9f8bf6ce
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '2015'
 ht-degree: 2%
 
 ---
@@ -212,42 +212,41 @@ ht-degree: 2%
     </tbody>
 </table>
 
-<!--
 
-### Project enhancements
+
+### 專案增強功能
 
 <table>
     <col style="width: 50%;" />
     <col style="width: 25%;" />
     <tbody>
         <tr>
-            <td><strong>Feature</strong>
+            <td><strong>功能</strong>
             </td>
-            <td><strong>Preview</strong></td>
-            <td><strong>Fast release</strong></td>
-            <td><strong>Quarterly</strong></td>
+            <td><strong>預覽</strong></td>
+            <td><strong>快速發行</strong></td>
+            <td><strong>每季</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Convert a legacy storage task to an Adobe cloud storage project</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
-                <p>If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now convert a legacy storage task to an Adobe cloud storage project.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">將舊版儲存任務轉換為Adobe雲端儲存專案</a><p><p>[!BADGE Off Schedule]{type=Neutral}</p></p>
+                <p>如果您的組織同時使用舊版Workfront儲存空間和Adobe雲端儲存空間，您現在可以將舊版儲存空間任務轉換為Adobe雲端儲存空間專案。</p>
             </td>
-            <td><p>June 11, 2026</p></td>
-            <td><p>June 12, 2026</p></td>
-            <td><p>June 12, 2026</p></td>
+            <td><p>2026年6月11日</p></td>
+            <td><p>2026年6月12日</p></td>
+            <td><p>2026年6月12日</p></td>
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Use a legacy storage template to create an Adobe cloud storage project</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
-                <p>If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now use a legacy storage template to create an Adobe cloud storage project in some scenarios.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">使用舊版儲存範本建立Adobe雲端儲存專案</a><p><p>[!BADGE Off Schedule]{type=Neutral}</p></p>
+                <p>如果您的組織同時使用舊版Workfront儲存空間和Adobe雲端儲存空間，您現在可以在某些情況下使用舊版儲存空間範本建立Adobe雲端儲存空間專案。</p>
             </td>
-            <td><p>June 11, 2026</p></td>
-            <td><p>June 11, 2026</p></td>
-            <td><p>June 11, 2026</p></td>
+            <td><p>2026年6月11日</p></td>
+            <td><p>2026年6月11日</p></td>
+            <td><p>2026年6月11日</p></td>
         </tr>
     </tbody>
 </table>
 
--->
 
 ### 報告增強功能
 

@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 9d28f52ace4d443bdffc475baf79d482152d4157
 workflow-type: tm+mt
-source-wordcount: 933
+source-wordcount: 964
 ht-degree: 8%
 
 ---
@@ -152,6 +152,10 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
      <tr> 
       <td role="rowheader">啟用Adobe雲端儲存空間 </td> 
       <td>可讓您選擇為整個組織或特定群組啟用或停用Adobe雲端儲存空間。 如需Adobe雲端儲存空間的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">為您的組織啟用Adobe雲端儲存空間</a>。</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">選取要轉換為Adobe雲端儲存空間的產品組合 </td> 
+      <td>可讓您將現有的舊版Workfront儲存產品組合轉換為Adobe雲端儲存空間。 如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md">將舊版產品組合轉換為Adobe雲端儲存空間</a>。</td> 
      </tr>
      <tr> 
       <td role="rowheader">啟用 AI </td> 
