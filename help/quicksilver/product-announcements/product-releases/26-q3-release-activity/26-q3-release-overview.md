@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: f348be922cc5d3e231621e09b67644492b0c80fb
+source-git-commit: 2ad27645345f35de1f6e4e10a6b9836a9f8bf6ce
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '2015'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 此頁面上的增強功能可在預覽環境中取得。 隨著2026年第三季度版本接近其計畫生產版本，此頁面將透過其他增強功能進行更新。
 
-每個季度版本都會舉辦即時網路研討會，強調新功能並提供詳細資訊。 若要註冊，請造訪[事件頁面](https://experienceleague.adobe.com/zh-hant/events?filters=Workfront)並篩選Workfront。
+每個季度版本都會舉辦即時網路研討會，強調新功能並提供詳細資訊。 若要註冊，請造訪[事件頁面](https://experienceleague.adobe.com/en/events?filters=Workfront)並篩選Workfront。
 
 >[!IMPORTANT]
 >
@@ -58,7 +58,7 @@ ht-degree: 2%
             <td><strong>每季</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">檢視Workfront物件的變更記錄</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">檢視Workfront物件的變更記錄</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
                 <p>為了讓您更輕鬆地檢視在一個中央清單中發生的變更，我們已建立「變更記錄清單」。 此清單會顯示物件、作業和變更來源（例如使用者或Workfront系統）等資訊。</p>
             </td>
             <td><p>2026年6月11日</p></td>
@@ -67,7 +67,7 @@ ht-degree: 2%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">將舊版儲存產品組合轉換為Adobe雲端儲存空間的新系統偏好設定</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">將舊版儲存產品組合轉換為Adobe雲端儲存空間的新系統偏好設定</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
                 <p>Workfront管理員現在可以直接從「系統偏好設定」將舊版儲存產品組合轉換為Adobe雲端儲存空間。 若要轉換產品組合，請在新的選取產品組合中選取它們，以轉換為企業儲存欄位並儲存頁面。</p>
             </td>
             <td><p>2026年6月11日</p></td>
@@ -127,7 +127,7 @@ ht-degree: 2%
             <td><strong>每季</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">列印新檔案區域中的檔案摘要</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">列印新檔案區域中的檔案摘要</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
                 <p>您現在可以直接從新的檔案區域開啟檔案核准的可列印摘要。 此功能適用於使用Adobe雲端儲存空間的組織。</p>
             </td>
             <td><p>2026年6月2日</p></td>
@@ -178,7 +178,7 @@ ht-degree: 2%
             <td><strong>每季</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">費率屬性一旦用於費率便無法編輯</a><p>[!BADGE Off Schedule]{type=Neutral}</p><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">費率屬性一旦用於費率便無法編輯</a><p>[！BADGE Off Schedule]{type=Neutral}</p><p>[！BADGE Workflow Ultimate]{type=Informative}</p>
                 <p>將屬性新增至Workfront中的費率後，您就無法再在設定區域中編輯該屬性及其篩選器。 這樣可保留資料完整性，並防止屬性更新時意外變更速率。</p>
             </td>
             <td><p>2026年5月21日</p></td>
@@ -212,42 +212,41 @@ ht-degree: 2%
     </tbody>
 </table>
 
-<!--
 
-### Project enhancements
+
+### 專案增強功能
 
 <table>
     <col style="width: 50%;" />
     <col style="width: 25%;" />
     <tbody>
         <tr>
-            <td><strong>Feature</strong>
+            <td><strong>功能</strong>
             </td>
-            <td><strong>Preview</strong></td>
-            <td><strong>Fast release</strong></td>
-            <td><strong>Quarterly</strong></td>
+            <td><strong>預覽</strong></td>
+            <td><strong>快速發行</strong></td>
+            <td><strong>每季</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Convert a legacy storage task to an Adobe cloud storage project</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
-                <p>If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now convert a legacy storage task to an Adobe cloud storage project.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">將舊版儲存任務轉換為Adobe雲端儲存專案</a><p><p>[！BADGE Off Schedule]{type=Neutral}</p></p>
+                <p>如果您的組織同時使用舊版Workfront儲存空間和Adobe雲端儲存空間，您現在可以將舊版儲存空間任務轉換為Adobe雲端儲存空間專案。</p>
             </td>
-            <td><p>June 11, 2026</p></td>
-            <td><p>June 12, 2026</p></td>
-            <td><p>June 12, 2026</p></td>
+            <td><p>2026年6月11日</p></td>
+            <td><p>2026年6月12日</p></td>
+            <td><p>2026年6月12日</p></td>
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Use a legacy storage template to create an Adobe cloud storage project</a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
-                <p>If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now use a legacy storage template to create an Adobe cloud storage project in some scenarios.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">使用舊版儲存範本建立Adobe雲端儲存專案</a><p><p>[！BADGE Off Schedule]{type=Neutral}</p></p>
+                <p>如果您的組織同時使用舊版Workfront儲存空間和Adobe雲端儲存空間，您現在可以在某些情況下使用舊版儲存空間範本建立Adobe雲端儲存空間專案。</p>
             </td>
-            <td><p>June 11, 2026</p></td>
-            <td><p>June 11, 2026</p></td>
-            <td><p>June 11, 2026</p></td>
+            <td><p>2026年6月11日</p></td>
+            <td><p>2026年6月11日</p></td>
+            <td><p>2026年6月11日</p></td>
         </tr>
     </tbody>
 </table>
 
--->
 
 ### 報告增強功能
 
@@ -263,7 +262,7 @@ ht-degree: 2%
             <td><strong>每季</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">一次新增多個Power BI IP位址範圍至Data Connect允許清單</a> <p>[!BADGE Off Schedule]{type=Neutral}
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">一次新增多個Power BI IP位址範圍至Data Connect允許清單</a> <p>[！BADGE Off Schedule]{type=Neutral}
                 <p>Workfront管理員將Microsoft Power BI連線至Workfront Data Connect後，現在只需一個步驟，即可將整個區域的Azure IP位址範圍新增至允許清單。</p>
             </td>
             <td><p>不適用</p></td>
@@ -281,7 +280,7 @@ ht-degree: 2%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">自訂公式中實際時數的變更</a> <p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">自訂公式中實際時數的變更</a> <p>[！BADGE Off Schedule]{type=Neutral}</p>
                 <p>使用<b>actualWorkRequired</b> （舊版實際時數）的現有自訂公式已移轉為使用<b>actualWorkRequiredDouble</b> （實際時數）。 <b>actualWorkRequired</b>無法再用於計算和公式中。</p>
             </td>
             <td><p>2026年6月1日</p></td>
@@ -332,7 +331,7 @@ ht-degree: 2%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">預先定義的檢視已新增至[要求]區域和[我的要求]小工具中的要求清單</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">預先定義的檢視已新增至[要求]區域和[我的要求]小工具中的要求清單</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
                 <p>為協助您更妥善地組織請求清單，我們已將預先定義的檢視新增至「請求」區域的請求清單，以及「首頁」中的「我的請求」Widget 。</p>
             </td>
             <td><p>2026年4月23日</p></td>
@@ -356,7 +355,7 @@ ht-degree: 2%
             <td><strong>每季</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">更新Workfront MCP聯結器</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">更新Workfront MCP聯結器</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
                 <p>我們已更新Workfront MCP聯結器：<ul><li>Claude現在可以連線到MCP聯結器。</li><li>您現在可以使用來自歐盟<!--or from instances that do not use AWS-->執行個體的MCP聯結器。</p>
             </td>
             <td><p>2026年6月11日</p></td>
@@ -365,7 +364,7 @@ ht-degree: 2%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">已更新評論通知電子郵件的外觀</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">已更新評論通知電子郵件的外觀</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
                 <p>更新區域中評論的電子郵件通知具有新外觀，且符合更廣泛的Adobe電子郵件設計。 先前註釋的執行緒不再包含在電子郵件內文中。</p>
             </td>
             <td><p>不適用</p></td>
@@ -433,7 +432,7 @@ New features in Workfront Planning are available in Production.
 
 Workfront API版本22已於2026年5月8日發行。 針對API 22版，我們已修改一些資源和端點。 有些變更支援新功能，有些則讓您更輕鬆地透過API使用可用資訊。
 
-如需新增和更新的詳細資訊，請參閱[&#x200B; API 22](/help/quicksilver/wf-api/api/new-api-version-22.md)版的新增功能。
+如需新增和更新的詳細資訊，請參閱[ API 22](/help/quicksilver/wf-api/api/new-api-version-22.md)版的新增功能。
 
 如需API版本的資訊，請參閱[API版本設定與支援排程](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
 
@@ -465,11 +464,11 @@ Workfront計畫試驗將於2026年5月15日結束。
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hant).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
 
 ### 訓練更新
 
-探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hant)的「新增功能」一節。
+探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的「新增功能」一節。
