@@ -23,9 +23,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: 54590f8d98a26bf3a7ee7e5becb3c21a24ffeab5
 workflow-type: tm+mt
-source-wordcount: 1257
+source-wordcount: 1266
 ht-degree: 3%
 
 ---
@@ -114,7 +114,7 @@ Old:
    * 舊版Workfront儲存空間任務會建立舊版Workfront儲存空間專案。
    * Adobe雲端儲存空間任務會建立Adobe雲端儲存空間專案。
    * 使用舊版Workfront儲存範本來轉換Adobe雲端儲存空間任務，會建立Adobe雲端儲存空間專案。
-   * 使用Adobe雲端儲存空間範本來轉換舊版Workfront儲存空間任務，會建立舊版Workfront儲存空間專案。
+   * 使用Adobe雲端儲存空間範本來轉換舊版Workfront儲存空間任務，會建立Adobe雲端儲存空間專案。 檔案及其核准仍保留在目前專案中。
 
      如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
@@ -122,10 +122,7 @@ Old:
      >
      >您的Workfront執行個體可能無法存取這兩種型別的檔案儲存空間。
 
-     <!--
-     For preview/ prod - rewrite the last bullet in the note: 
-     * Using an Adobe cloud storage template to convert a legacy Workfront storage task creates an Adobe cloud storage project. Documents and their approvals remain on the current project. 
-     -->
+
 * 所有子任務和問題的狀態和完成百分比會保留。
 * 任務受指派人和將任務轉換為專案的使用者成為專案上的共用使用者。
 * 專案開始日期設定為任務的開始日期。

@@ -21,7 +21,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
+source-git-commit: 54590f8d98a26bf3a7ee7e5becb3c21a24ffeab5
 workflow-type: tm+mt
 source-wordcount: 1087
 ht-degree: 0%
@@ -152,7 +152,8 @@ Old:
 * 儲存欄位後，您可以編輯以下欄位元素的設定：
 
    * 任何欄位的名稱或描述
-   * 單選或多選欄位的選項。
+   * 單選或多選欄位<!--<span class="preview">and their default choices</span>-->的選項。
+     <!--* <span class="preview">The default choices of a People field.</span>-->
    * 公式欄位的運算式。
 
   >[!WARNING]
