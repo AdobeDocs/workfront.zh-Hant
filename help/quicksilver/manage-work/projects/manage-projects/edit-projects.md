@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: a3db8ef0f43743232324a55f3e6968a26ce61404
 workflow-type: tm+mt
-source-wordcount: 7980
+source-wordcount: 7995
 ht-degree: 1%
 
 ---
@@ -169,11 +169,12 @@ Old:
    >
    >視您的Workfront管理員或群組管理員修改版面配置範本的方式而定，專案詳細資訊區域中的欄位可能會重新排列或不顯示。 如需詳細資訊，請參閱[使用配置範本自訂詳細資料檢視](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)。
 
-   若要編輯「詳細資訊」段落中的資訊，請執行下列動作：
+   若要編輯&#x200B;**詳細資料**&#x200B;區段中的資訊，請執行下列動作：
 
    1. （選擇性）按一下右上角的&#x200B;**全部收合**&#x200B;圖示![全部收合圖示](assets/collapse-icon.png)以收合所有區域。
-   1. （選擇性和條件性）當區域收合時，按一下每個區域旁的&#x200B;**向右箭頭** ![向右箭頭](assets/right-pointing-arrow.png)以展開您要編輯的區域。
-   1. 如需有關在專案詳細資訊索引標籤中編輯資訊的詳細資訊，請參閱下列文章：
+   1. （選擇性和條件性）當區域收合時，按一下每個區域旁的&#x200B;**向右箭頭** ![向右箭頭](assets/right-pointing-arrow.png)以展開您要編輯的區域。 或者，按一下右上角的&#x200B;**向右箭頭**&#x200B;以展開所有區域。
+
+      如需有關在專案詳細資訊索引標籤中編輯資訊的詳細資訊，請參閱下列文章：
 
       * [管理專案概述區域中的資訊](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)
       * [管理專案財務區域的資訊](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
