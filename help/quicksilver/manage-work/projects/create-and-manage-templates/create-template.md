@@ -9,24 +9,15 @@ exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/JqR-bwIq1AVMOMz3aTWIKoiPep1VQ6IaONbbuDJ1AiA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
-source-wordcount: 905
-ht-degree: 7%
+source-wordcount: 790
+ht-degree: 6%
 
 ---
 
@@ -160,11 +151,11 @@ Old:
 
    按一下&#x200B;**新增範本任務**，開始在&#x200B;**新增範本任務**&#x200B;方塊中將任務新增至範本。
 
-   當您按一下&#x200B;**新增範本任務**&#x200B;時，**建立範本任務**&#x200B;方塊會在新體驗中開啟。
+   當您按一下&#x200B;**新增範本任務**&#x200B;時，**建立範本任務**&#x200B;方塊會開啟。
 
    ![新範本任務的新體驗](assets/new-template-task-box-unshimmed.png)
 
-1. （視條件而定）使用新體驗，更新&#x200B;**建立範本任務**&#x200B;方塊中下列區域的資訊：
+1. （視條件而定）更新&#x200B;**建立範本任務**&#x200B;方塊中下列區域的資訊：
 
    * 範本任務名稱
    * 概觀
@@ -174,53 +165,29 @@ Old:
    * 文件
    * 設定
 
-1. 按一下&#x200B;**建立範本任務**
+   更新範本任務的資訊與編輯範本任務類似。
 
-   或
-
-   按一下&#x200B;**建立範本工作**&#x200B;方塊底部的&#x200B;**切換回舊體驗**。
-
-   **新範本任務**&#x200B;會在舊體驗中開啟。
-
-   ![新範本任務方塊](assets/new-template-task-box.png)
-
-   >[!TIP]
-   >
-   >在生產環境中，預設會開啟舊體驗。
-
-1. 更新&#x200B;**新增範本任務**&#x200B;方塊中下列區域的資訊：
-
-   * 概觀
-   * 財務
-   * 設定
-   * 指派
-   * 自訂表單
-   * 附加文件
-
-     更新範本任務的資訊類似於編輯專案上的任務。 如需詳細資訊，請參閱[編輯任務](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)。<!--should this be relinked at preview/ prod release to say it's the same as Edit template tasks??-->
+   如需詳細資訊，請參閱[編輯範本任務](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md)。
 
    >[!NOTE]
    >
    >您無法將週期性任務新增到範本。
 
-1. 按一下下列其中一項：
+1. 按一下&#x200B;**建立範本任務**。
 
-   * **儲存範本任務**&#x200B;以儲存目前的範本任務並關閉[新增範本任務]方塊。
-   * **儲存範本任務並啟動另一個範本任務**&#x200B;以儲存目前的範本任務，並開啟另一個&#x200B;**新增範本任務**&#x200B;方塊以新增另一個任務。
-   * **取消**&#x200B;以關閉此方塊而不儲存範本工作。
-1. （選擇性）新增範本任務後，在範本任務區段中，按一下任務清單右上角的&#x200B;**甘特圖**&#x200B;圖示，以檢視範本任務清單的視覺化表示法。
+1. （選擇性）新增範本任務後，在&#x200B;**範本任務**&#x200B;區段中，按一下任務清單右上角的&#x200B;**甘特圖**&#x200B;圖示![甘特圖示](assets/gantt-icon.png)以檢視範本任務清單的視覺化表示法。
 
    >[!TIP]
    >
-   >您無法直接從此甘特圖編輯任務。
+   >您無法直接從範本任務甘特圖編輯任務。
 
-1. 若要新增資訊到您的新範本，請按一下標題中範本名稱左側的&#x200B;**更多**&#x200B;功能表![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**編輯**。
+1. 若要新增資訊到您的新範本，請按一下標題中範本名稱右側的&#x200B;**更多**&#x200B;功能表![更多圖示](assets/more-icon.png)，然後按一下&#x200B;**編輯**。
 
    如需有關編輯範本的資訊，請參閱[編輯專案範本](../../../manage-work/projects/create-and-manage-templates/edit-templates.md)。
 
    >[!NOTE]
    >
-   >   專案範本與群組（或缺少群組）的關聯會影響專案、任務和問題偏好設定如何決定範本中的某些設定。
+   >專案範本與群組（或缺少群組）的關聯會影響專案、任務和問題偏好設定如何決定範本中的某些設定。
    >
    >如需詳細資訊，請參閱文章[建立和修改群組的專案範本](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)中的「偏好設定如何套用至範本和範本任務」一節。
 

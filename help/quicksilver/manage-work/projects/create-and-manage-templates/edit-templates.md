@@ -9,23 +9,12 @@ exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/36z25D3UWtmRwiOqdPOc3DCFXQcvSJHK2RvtuqFOvVU
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
 source-wordcount: 5111
 ht-degree: 3%
@@ -155,7 +144,7 @@ Old:
 
    * [範本名稱](#template-name)
    * [概觀](#overview-preview)
-   * [財務](#finance-preview)
+   * [財務](#finance)
    * [自訂表單](#custom-forms-preview)
    * [範本設定](#template-settings)
    * [工作設定](#task-settings)
@@ -354,7 +343,7 @@ Old:
 
 1. （選用）更新自訂表單上任何欄位中的資訊。 此資訊將會傳輸至將使用範本建立的專案。
 
-1. （選擇性）按一下自訂表單名稱右邊的&#x200B;**x**&#x200B;圖示，然後按一下[移除]&#x200B;**&#x200B;**&#x200B;以從範本中移除它。
+1. （選擇性）按一下自訂表單名稱右邊的&#x200B;**x**&#x200B;圖示，然後按一下[移除]****&#x200B;以從範本中移除它。
 
 1. （選擇性）根據您要修改的資訊，繼續編輯下列區段。
 
@@ -644,7 +633,7 @@ For instructions on editing Linked folders, see [Edit workflow values in a proje
 1. 在&#x200B;**編輯範本**&#x200B;方塊中，按一下&#x200B;**註解**。
 
    ![編輯範本方塊註解區段](assets/edit-template-box-comment-section.png)
-1. 新增您正在進行之更新的相關註解、標籤其他使用者，或選取&#x200B;**我的公司私有**&#x200B;方塊，讓貴公司的使用者無法存取更新，然後按一下[儲存]。**&#x200B;**
+1. 新增您正在進行之更新的相關註解、標籤其他使用者，或選取&#x200B;**我的公司私有**&#x200B;方塊，讓貴公司的使用者無法存取更新，然後按一下[儲存]。****
 
    >[!TIP]
    >
@@ -758,7 +747,7 @@ To edit templates in bulk:
 
 * 計費費率
 
-  為範本新增收費率與為專案新增收費率類似。 如需詳細資訊，請參閱專案層級[&#128279;](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)的覆寫工作角色收費率。
+  為範本新增收費率與為專案新增收費率類似。 如需詳細資訊，請參閱專案層級](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)的[覆寫工作角色收費率。
 
 * 費用
 
