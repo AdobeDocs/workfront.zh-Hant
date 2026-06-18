@@ -9,7 +9,8 @@ role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/zWSZMjnN-WSef9q6W6s9mIcO2DakU0f886IcxD15tzg
+autotag-review: '2026-06-18T17:43:58.800Z'
+TQID: 'https://experienceleague.adobe.com/qZvXwTMlCd5p08duYVqbyHpkML4oXtbijHuCzlukywg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 feature_v2:
@@ -23,10 +24,11 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
-source-wordcount: 3340
+source-wordcount: 3361
 ht-degree: 0%
 
 ---
@@ -63,17 +65,6 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 >
 >指派使用者工作時，其根據排程的可用性會影響任務和問題的計畫和預計日期。 如需排程的相關資訊，請參閱[建立排程](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
 
-## Adobe Workfront中您可以進行進階指派的區域
-
-本文會說明如何在任務或問題的標題中存取進階工作總攬。
-
-此外，您可以在Workfront的下列區域中執行進階任務指派：
-
-* 在清單與報表中，當「工作總攬」欄位顯示在檢視中時。
-* 編輯任務時顯示在「工作總攬」區段中。 如需詳細資訊，請參閱[編輯任務](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。<!--When we remove the old/ new experience: take this bullet out completely; in the new Edit Task experience, this is no longer possible-->
-* 在任務或問題標題中，在指派區域中。
-* 在工作負載平衡器中。 如需詳細資訊，請參閱[使用工作負載平衡器](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md)手動指派工作。
-
 ## 存取權要求
 
 +++ 展開以檢視這篇文章中所述功能的存取權要求。
@@ -107,14 +98,27 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 +++
 
-## 建立進階任務指派 — 工作流程Ultimate套件
+## Adobe Workfront中您可以進行進階指派的區域
 
-此「進階工作總攬」的版面配置僅適用於任務。 如需瞭解問題，請參閱[建立進階指派 — 所有其他封裝](#create-advanced-assignments--all-other-packages)。
+本文會說明如何在任務或問題的標題中存取進階工作總攬。
+
+此外，您可以在Workfront的下列區域中執行進階任務指派：
+
+* 在清單與報表中，當「工作總攬」欄位顯示在檢視中時。
+* 編輯任務時顯示在「工作總攬」區段中。 如需詳細資訊，請參閱[編輯任務](../../../manage-work/tasks/manage-tasks/edit-tasks.md)。<!--When we remove the old/ new experience: take this bullet out completely; in the new Edit Task experience, this is no longer possible-->
+* 在任務或問題標題中，在指派區域中。
+* 在工作負載平衡器中。 如需詳細資訊，請參閱[使用工作負載平衡器](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md)手動指派工作。
+
+建立進階工作分派會依貴組織已購買的Workfront套件而有所不同。
+
+## 建立工作流程Ultimate套件的進階指派
+
+此「進階工作總攬」的版面配置僅適用於任務。 如需相關問題，請參閱本文中的[為所有其他套件建立進階工作分派](#create-advanced-assignments-for-all-other-packages)一節。
 
 >[!NOTE]
 >
 >預設為舊的進階指派體驗。您必須使用「進階指定」視窗右上角的按鈕，手動開啟新體驗。
->如需舊體驗的相關資訊，請參閱下方的[建立進階工作分派 — 所有其他封裝](#create-advanced-assignments--all-other-packages)。
+>如需舊體驗的相關資訊，請參閱本文章的[為所有其他套件建立進階工作分派](#create-advanced-assignments-for-all-other-packages)小節。
 
 1. 前往您要指派任務的專案。
 1. 按一下左側面板中的&#x200B;**任務**&#x200B;或&#x200B;**問題**，然後按一下清單中任務的名稱。
@@ -134,7 +138,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    ![按一下[進階]](assets/assignments-from-task-header-0825.png)
 
-   「進階指定」視窗即會出現。
+   「進階指定」視窗即會開啟。
 
    ![進階指派視窗](assets/advanced-assignments-031826.png)
 
@@ -330,7 +334,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    檢閱完資料後，按一下左上方的箭頭以返回「進階工作總攬」視窗。
 
-## 建立進階任務指派 — 所有其他套件
+## 為所有其他套件建立進階指派
 
 此「進階任務指派」配置會同時套用至任務和問題。
 

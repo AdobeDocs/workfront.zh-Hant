@@ -6,7 +6,7 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 6503adcc34ba4ff2c9c6ec56ab786db7f412ff3f
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
 source-wordcount: '2001'
 ht-degree: 0%
@@ -29,7 +29,7 @@ There are no features released during the Third Quarter Release for 2026. When f
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
-## 新增選取欄位和人員型別欄位的預設選擇
+## 新增選取欄位與人員型態欄位的預設選擇
 
 >[!NOTE]
 >

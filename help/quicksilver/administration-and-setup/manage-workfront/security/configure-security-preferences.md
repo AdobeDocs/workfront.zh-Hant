@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9d28f52ace4d443bdffc475baf79d482152d4157
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
-source-wordcount: 964
+source-wordcount: 1155
 ht-degree: 8%
 
 ---
@@ -141,6 +141,10 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
       <td role="rowheader">說明 URL</td> 
       <td>可讓您定義主要功能表說明圖示要前往的內部自訂說明網站。 如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md">設定自訂說明URL</a>。</p></td> 
      </tr>
+    <tr> 
+      <td role="rowheader">停用存取層級內的自動升級</td> 
+      <td>您可以停用投稿人存取層級的自動升級程式。 核取此設定時，超過核准決策限制的貢獻者授權使用者必須由管理員手動升級至新授權。</p></td> 
+     </tr>
      <tr> 
       <td role="rowheader">啟用「優先順序」工作清單 </td> 
       <td>可讓您選擇為使用者啟用或停用優先順序工作清單體驗。 使用者仍可在Workfront中看到優先順序圖示，但無法存取該功能。 如需有關優先順序的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">開始使用優先順序</a>。</td> 
@@ -150,20 +154,33 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
       <td><span class="preview"><p>可讓您選擇當大量編輯物件時，是否強制使用者在必填欄位中輸入資訊。</p> <p>選取此選項時，必要欄位必須先有值，才能以大量編輯模式儲存。 如果必要欄位缺少至少一個大量選取物件的值，則不允許儲存。</p> <p>未選取此選項時，必填欄位僅在使用者修改欄位時強制。 如果欄位未修改，則會視為選用且未驗證。</p></span></td>
      </tr>
      <tr> 
-      <td role="rowheader">啟用Adobe雲端儲存空間 </td> 
-      <td>可讓您選擇為整個組織或特定群組啟用或停用Adobe雲端儲存空間。 如需Adobe雲端儲存空間的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">為您的組織啟用Adobe雲端儲存空間</a>。</td> 
-     </tr>
-     <tr> 
+      <td role="rowheader">儲存偏好設定 </td> 
+      <td>您可以在此區段中啟用Adobe雲端偏好設定。可讓您選擇為整個組織或特定群組啟用或停用Adobe雲端儲存空間。 
+      <p>更新下列資訊：</p>
+      <ul><li><b>預設</b>：選擇舊版Workfront儲存空間或Adobe雲端儲存空間</li>
+      <li><b>允許使用者選取儲存提供者</b>：這允許使用者在建立Workfront物件時，在兩種儲存型別之間進行選擇。</li>
+      <li><b>套用至</b>：選擇預設設定是套用至整個組織或特定群組</li>
+      <li><b>選取要轉換成Adobe雲端儲存空間的產品組合</b>：選取您要從Workfront舊版儲存空間自動轉換成Adobe雲端儲存空間的產品組合。 當您儲存系統偏好設定時，投資組合會轉換。</li></ul>     
+    如需Adobe雲端儲存空間的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">為您的組織啟用Adobe雲端儲存空間</a>。</td></tr>
+    <tr> 
       <td role="rowheader">選取要轉換為Adobe雲端儲存空間的產品組合 </td> 
       <td>可讓您將現有的舊版Workfront儲存產品組合轉換為Adobe雲端儲存空間。 如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md">將舊版產品組合轉換為Adobe雲端儲存空間</a>。</td> 
      </tr>
      <tr> 
       <td role="rowheader">啟用 AI </td> 
-      <td>可讓您選擇啟用AI，包括AI助理。 <p><b>注意</b>：您的組織必須符合特定要求才能啟用AI。 如需AI的詳細資訊，包括需求，請參閱<a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">AI助理概述</a>。</p></td> 
+      <td>透過開啟AI偏好設定區域中的設定，您可以啟用AI，包括AI助理。 <p><b>注意</b>：您的組織必須符合特定要求才能啟用AI。 如需AI的詳細資訊，包括需求，請參閱<a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">AI助理概述</a>。</p></td> 
+     </tr>
+    <tr> 
+      <td role="rowheader">AI 表單填寫 </td> 
+      <td>允許人員使用以AI填寫表單來自動填寫請求表單。 如需詳細資訊，請參閱<a href="/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md">使用AI支援的表單填入功能，使用提示或檔案填入請求</a>。</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader">表單自動完成 </td> 
+      <td role="rowheader">請求表單中的智慧型自動完成 </td> 
       <td>可讓您選擇啟用根據先前的請求資料自動完成請求表單的功能。 如需表單自動完成的詳細資訊，請參閱<a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">從先前的資料自動填入要求</a>。</td> 
+     </tr>
+    <tr> 
+      <td role="rowheader">規劃設計工具</td> 
+      <td>這僅適用於已購買Workfront Planning套件的客戶。 開啟此設定可讓您的使用者使用Planning Designer來建立和編輯工作區。 如需詳細資訊，請參閱<a href="/help/quicksilver/planning/general/planning-ai-designer.md">開始使用Adobe Workfront Planning Designer</a>。</td> 
      </tr>
      <tr> 
       <td role="rowheader">選擇加入 AI Beta 版 </td> 
