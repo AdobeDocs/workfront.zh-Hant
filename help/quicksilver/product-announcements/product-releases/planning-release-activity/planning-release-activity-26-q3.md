@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: eea70c6013d3f43f78b679bf08f21bb40467940b
+source-git-commit: 6503adcc34ba4ff2c9c6ec56ab786db7f412ff3f
 workflow-type: tm+mt
-source-wordcount: '1919'
+source-wordcount: '2001'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,17 @@ There are no features released during the Third Quarter Release for 2026. When f
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
+## 新增選取欄位和人員型別欄位的預設選擇
+
+>[!NOTE]
+>
+>預覽： 2026年6月18日>生產快速版本： 2026年7月15日>每個人的生產： 2026年7月16日
+
+當您建立單一、多重選取的欄位或「人員」型態欄位時，您現在可以指定這些欄位的預設值。 當欄位在記錄上可見時，將一律套用預設值。
+
+儲存欄位後，您可以變更欄位的預設設定。 處理記錄時，您可以取代欄位的預設值。
+
+如需詳細資訊，請參閱[建立欄位](/help/quicksilver/planning/fields/create-fields.md)。
 
 ## 表格檢視中的介面改善
 

@@ -9,21 +9,14 @@ exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 TQID: https://experienceleague.adobe.com/S5Cb-wdfeCKuogJgIlfVZ-J3rUn0ca0NG1-SSD2SPJA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 54590f8d98a26bf3a7ee7e5becb3c21a24ffeab5
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 6503adcc34ba4ff2c9c6ec56ab786db7f412ff3f
 workflow-type: tm+mt
-source-wordcount: 5339
+source-wordcount: 5497
 ht-degree: 1%
 
 ---
@@ -355,9 +348,9 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
    按一下&#x200B;**自訂**，使用檢色器或十六進位代碼選取自訂顏色。
 1. 按一下顏色方塊外部以將其關閉。
-   <!--
-    1. <span class="preview">In the **Default choices** field, select the choices that you want to display in this field by default. You can choose more than one choice. Users can remove the default choices as they update this field. (********** and update all screen shots on this page ******) </span>
-    -->
+
+1. <span class="preview">在&#x200B;**預設選項**&#x200B;欄位中，選取您預設要在此欄位中顯示的選項。 您可以選擇多個選項。 使用者更新此欄位時，可以移除預設選項。</span>
+
 1. 按一下「**建立**」。
 
    新的多重選取欄位會新增為記錄型別的欄，其值可與記錄相關聯。
@@ -404,9 +397,9 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
    或
 
    按一下&#x200B;**自訂**，使用檢色器或十六進位代碼選取自訂顏色。
-<!--
-    1. <span class="preview">In the **Default choice** field, select the choice that you want to display in this field by default. You can choose only one choice. Users can remove the default choice as they update this field. (********** and update all screen shots on this page ******) </span>
-    -->
+
+1. <span class="preview">在&#x200B;**預設選擇**&#x200B;欄位中，選取您預設要在此欄位中顯示的選擇。 您只能選擇一個選項。 使用者在更新此欄位時可移除預設選擇。</span>
+
 1. 按一下顏色方塊外部以將其關閉。
 1. 按一下「**建立**」。
 
@@ -696,14 +689,15 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
    >
    >    如果您選取「允許多個值」，且有多個使用者儲存在附加欄位的記錄中，則以後編輯此欄位時，無法再取消選取設定。
 
-   <!--
-    1. <span class="preview">In the **Default user** or **Default users** field, select the users that you want to display in this field by default. You can choose more than one user if you also selected the **Allow multiple values** setting. Users can remove the default users as they update this field.(********** and update all screen shots on this page ******) </span>
+1. <span class="preview">在&#x200B;**預設使用者**&#x200B;或&#x200B;**預設使用者**&#x200B;欄位中，選取您預設要在此欄位中顯示的使用者。</span>
 
-    >[!TIP]
-    >
-    >Deactivating users chosen as default users in this setting preserves the users's names as the default. It does not remove the deactivated user from the field value and there is no indication to others that the user was deactivated.
-    -->
+   <span class="preview">如果您也選取了&#x200B;**允許多個值**&#x200B;設定，則可以選擇多個使用者。</span>
 
+   <span class="preview">使用者更新此欄位時，可以移除預設使用者。</span>
+
+   >[!TIP]
+   >
+   ><span class="preview">停用在此設定中選取為預設使用者的使用者，會保留使用者的名稱為預設值。 它不會從欄位值中移除已停用的使用者，而且沒有指示其他人該使用者已停用。</span>
 
 1. 按一下「**建立**」。
 
