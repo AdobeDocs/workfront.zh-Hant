@@ -7,21 +7,27 @@ description: 變更記錄可讓您檢視Workfront物件的變更記錄
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 298865bbcdab40cda887d939529561e13a9ed093
+source-git-commit: 44292bc9cf8654d1ecfb398b0f118a6c001f544f
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 6%
+source-wordcount: '403'
+ht-degree: 4%
 
 ---
 
 # 檢視及管理變更歷史記錄
 
-變更記錄可讓您檢視Workfront物件的變更記錄，包括屬性，例如：
+您可以在「設定」的「變更追蹤」區域中檢視變更歷史記錄，包括稽核記錄。
 
-* 物件
-* 物件類型
-* 變更型別（作業）
-* 變更的Source，例如特定使用者、API、Workfront Fusion、AI LLM或Workfront系統
+* **稽核記錄**是由使用者觸發的變更。
+如需稽核記錄檔和稽核記錄檔區域的詳細資訊，請參閱[稽核記錄檔概述](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
+* **組態**顯示正在追蹤哪一個欄位以取得變更記錄清單。
+設定目前僅作為資訊提供，無法變更。在不久的將來，您將會使用變更追蹤哪些欄位的功能。
+* 「變更記錄清單」可讓您檢視Workfront物件的變更記錄，包括屬性，例如：
+
+   * 物件
+   * 物件類型
+   * 變更型別（作業）
+   * 變更的Source，例如特定使用者、API、Workfront Fusion、AI LLM或Workfront系統
 
 ## 存取權要求
 
@@ -37,11 +43,11 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td>[!UICONTROL 標準]</td> 
+   <td>[！UICONTROL標準]</td> 
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>編輯[!UICONTROL 費率卡]的存取權</td> 
+   <td>您必須是Workfront管理員才能檢視變更記錄</td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,9 +56,28 @@ ht-degree: 6%
 
 +++
 
+## 檢視及管理稽核記錄
 
+若要檢視及管理稽核記錄，請參閱[檢視及匯出稽核記錄](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)。
 
-## 檢視變更記錄
+## 檢視變更追蹤的設定區域
+
+>[!NOTE]
+>
+>設定目前僅作為資訊提供，無法變更。 在不久的將來，您將會使用變更追蹤哪些欄位的功能。
+
+若要檢視所追蹤的變更型別，請執行下列動作：
+
+{{step-1-to-setup}}
+
+1. 在左側面板中，按一下&#x200B;**變更追蹤** ![變更歷程記錄圖示](assets/change-history-icon.png)。
+1. 按一下&#x200B;**組態**。
+
+   欄位會依物件型別分組顯示。
+
+1. 若要顯示特定物件下的欄位，請按一下物件型別旁的下拉箭頭。
+
+## 檢視變更記錄清單
 
 Workfront管理員可在設定區域中檢視變更歷史記錄。
 
@@ -74,16 +99,6 @@ Workfront管理員可在設定區域中檢視變更歷史記錄。
 1. 若要新增或移除欄，請參閱發行項「使用增強清單」中的[使用欄管理員](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager)新增及移除欄。
 1. 若要調整列高，請參閱「使用增強清單」一文中的[在檢視中變更列高](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#change-the-row-height-in-a-view)。
 
-## 檢視可用的變更型別
-
-若要檢視所追蹤的變更型別，請執行下列動作：
-
-{{step-1-to-setup}}
-
-1. 在左側面板中，按一下&#x200B;**變更追蹤** ![變更歷程記錄圖示](assets/change-history-icon.png)。
-1. 按一下&#x200B;**組態**。
-
-   欄位會依物件分組顯示。
 
 
 
