@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
+source-git-commit: a10385c56bcf1cdf942ab742e2884d1b5f381352
 workflow-type: tm+mt
-source-wordcount: '2001'
+source-wordcount: '1976'
 ht-degree: 0%
 
 ---
@@ -130,14 +130,21 @@ Workfront Planning API第2版現已可用，並大幅擴充第1版的功能。
 >
 >預覽： 2026年5月28日>生產快速版本： 2026年6月11日>每個人的生產： 2026年7月16日
 
+
 您現在可以調整個別記錄許可權，以控制誰可以在記錄型別中管理這些許可權。
 
-依預設，使用者會從工作區和記錄型別繼承記錄許可權。 若要僅將記錄型別許可權授與特定使用者「管理」許可權給僅特定記錄，您可以停用特定記錄的繼承許可權，並僅授予這些使用者「管理」存取這些記錄的許可權。 您可以大量調整一筆記錄或同時調整多筆記錄的許可權。
+依預設，使用者會從工作區和記錄型別繼承記錄許可權。 您現在可以覆寫特定記錄的繼承許可權，以授與使用者子集的「檢視」或「管理」存取權。 許可權覆寫可以套用至個別記錄，或大量更新多個記錄。
 
-您可以授予使用者下列許可權層級：
+<!-- 
+Laurel asked for this to be replaced with the above: 
 
-* 檢視
-* 管理
+Users inherit record permissions from the workspace and record type by default. To give only select users with record type permissions Manage permissions to only certain records, you can disable inherited permissions on select records and grant only those users Manage access to those records. You can adjust permissions for one record, or for multiple records at the same time, in bulk.
+
+You can give users the following permissions levels: 
+
+* View 
+* Manage 
+-->
 
 >[!NOTE]
 >
