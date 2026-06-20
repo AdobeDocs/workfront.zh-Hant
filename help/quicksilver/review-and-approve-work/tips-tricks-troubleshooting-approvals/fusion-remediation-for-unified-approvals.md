@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >Adobe Workfront統一檢閱和核准聯結器現在可在Workfront Fusion中使用。 我們建議將此聯結器用於更簡單、更可靠的案例，當搭配使用Fusion和Adobe雲端儲存空間時。
 >
->如需相關資訊與指示，請參閱Workfront Fusion檔案中的[Adobe Workfront統一檢閱與核准模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules)。
+>如需相關資訊與指示，請參閱Workfront Fusion檔案中的[Adobe Workfront統一檢閱與核准模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules)。
 
 使用本文章清查及分類案例，瞭解升級Fusion案例的最佳方式，以說明Adobe雲端儲存空間。
 
