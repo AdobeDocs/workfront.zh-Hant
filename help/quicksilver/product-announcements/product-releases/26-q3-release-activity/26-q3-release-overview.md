@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: f4ec604a43b2bc3b50b256081e45c4eb253dd2ad
+source-git-commit: b05cd2638ac0d35a0debb862d73dc8bee0cdb794
 workflow-type: tm+mt
-source-wordcount: '2095'
-ht-degree: 2%
+source-wordcount: '2104'
+ht-degree: 4%
 
 ---
 
@@ -35,6 +35,7 @@ ht-degree: 2%
 
 ## Adobe Workfront增強功能
 
+* [AI增強功能](#ai-enhancements)
 * [管理員增強功能](#administrator-enhancements)
 * [檔案增強功能](#documents-enhancements)
 * [Financial Management增強功能](#financial-management-enhancements)
@@ -43,6 +44,40 @@ ht-degree: 2%
 * [報告增強功能](#reporting-enhancements)
 * [要求增強功能](#requesting-enhancements)
 * [其他增強功能](#other-enhancements)
+
+### AI增強功能
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>功能</strong>
+            </td>
+            <td><strong>預覽</strong></td>
+            <td><strong>快速發行</strong></td>
+            <td><strong>每季</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md" class="MCXref xref" xrefformat="{para}">更新Workfront MCP聯結器</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <p>我們已更新Workfront MCP聯結器：<ul><li>Claude現在可以連線到MCP聯結器。</li><li>您現在可以使用來自歐盟<!--or from instances that do not use AWS-->執行個體的MCP聯結器。</p>
+            </td>
+            <td><p>2026年6月11日</p></td>
+            <td><p>2026年6月11日</p></td>
+            <td><p>2026年6月11日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md" class="MCXref xref" xrefformat="{para}">使用Workfront MCP伺服器，將您的AI代理平台連線至Workfront</a>
+                <p>新的Workfront MCP伺服器會將Workfront連線到支援的AI代理平台，例如Claude或ChatGPT，讓您能夠透過自然語言對話找到、建立、更新和管理Workfront專案。 目前僅適用於使用AWS的美國地區客戶。</p>
+            </td>
+            <td><p>2026 年 5 月 28 日</p></td>
+            <td><p>2026年6月11日</p></td>
+            <td><p>2026年7月16日</p></td>
+        </tr>
+    </tbody>
+</table>
 
 ### 管理員增強功能
 
@@ -79,7 +114,7 @@ ht-degree: 2%
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">RTF文字取代文字格式欄位型別</a>
                 <p>自訂表單中的新<b>RTF</b>欄位型別是強大的文字編輯器，除了粗體、斜體、底線、專案符號、編號、超連結和區塊引號等傳統選項外，還有上標和下標、標題和表格等格式選項。 字元限制仍為15,000。</p>
             </td>
-            <td><p>2026年5月28日</p></td>
+            <td><p>2026 年 5 月 28 日</p></td>
             <td><p>2026年6月11日</p></td>
             <td><p>2026年7月16日</p></td>
         </tr>
@@ -88,7 +123,7 @@ ht-degree: 2%
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">自訂表單中支援的原生財務欄位</a>
                 <p>您現在可以在自訂表單中加入Workfront原生財務欄位。 以前不支援財務欄位。</p>
             </td>
-            <td><p>2026年5月28日</p></td>
+            <td><p>2026 年 5 月 28 日</p></td>
             <td><p>2026年6月11日</p></td>
             <td><p>2026年7月16日</p></td>
         </tr>
@@ -97,7 +132,7 @@ ht-degree: 2%
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">自訂表單可以在系統範圍內共用並附加</a>
                 <p>已在自訂表單中新增共用選項「系統中的每個人都可以檢視和附加」。 當您選取此選項時，系統範圍內的所有使用者都可以將表單附加到其他物件。</p>
             </td>
-            <td><p>2026年5月28日</p></td>
+            <td><p>2026 年 5 月 28 日</p></td>
             <td><p>2026年6月11日</p></td>
             <td><p>2026年7月16日</p></td>
         </tr>
@@ -106,7 +141,7 @@ ht-degree: 2%
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">新的系統偏好設定可強制大量編輯的必要欄位</a>
                 <p>新的系統偏好設定現在可讓您強制大量編輯的必要欄位，這樣除非所有必要欄位都有值，否則無法儲存大量編輯的物件。</p>
             </td>
-            <td><p>2026年5月28日</p></td>
+            <td><p>2026 年 5 月 28 日</p></td>
             <td><p>2026年6月11日</p></td>
             <td><p>2026年7月16日</p></td>
         </tr>
@@ -148,7 +183,7 @@ ht-degree: 2%
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">新增自訂訊息至檔案核准工作流程階段</a>
                 <p>您現在可以新增自訂訊息至檔案核准工作流程的每個階段。 該訊息會顯示在核准電子郵件通知和Workfront的「核准」索引標籤中。</p>
             </td>
-            <td><p>2026年5月28日</p></td>
+            <td><p>2026 年 5 月 28 日</p></td>
             <td><p>2026年6月11日</p></td>
             <td><p>2026年7月16日</p></td>
         </tr>
@@ -190,9 +225,9 @@ ht-degree: 2%
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">費率屬性一旦用於費率便無法編輯</a><p>[!BADGE Off Schedule]{type=Neutral}</p><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
                 <p>將屬性新增至Workfront中的費率後，您就無法再在設定區域中編輯該屬性及其篩選器。 這樣可保留資料完整性，並防止屬性更新時意外變更速率。</p>
             </td>
-            <td><p>2026年5月21日</p></td>
-            <td><p>2026年5月21日</p></td>
-            <td><p>2026年5月21日</p></td>
+            <td><p>2026 年 5 月 21 日</p></td>
+            <td><p>2026 年 5 月 21 日</p></td>
+            <td><p>2026 年 5 月 21 日</p></td>
         </tr>
     </tbody>
 </table>
@@ -214,7 +249,7 @@ ht-degree: 2%
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-home.md" class="MCXref xref" xrefformat="{para}">在優先順序中使用自訂資料和檢視</a><p></p>
                 <p>優先順序現在支援在欄中使用自訂資料。 從工作清單開啟欄管理員，以新增您要在欄資料中看到的自訂欄位。</p>
             </td>
-            <td><p>2026年6月4日</p></td>
+            <td><p>2026 年 6 月 4 日</p></td>
             <td><p>2026年6月11日</p></td>
             <td><p>2026年7月16日</p></td>
         </tr>
@@ -292,16 +327,16 @@ ht-degree: 2%
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">自訂公式中實際時數的變更</a> <p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>使用<b>actualWorkRequired</b> （舊版實際時數）的現有自訂公式已移轉為使用<b>actualWorkRequiredDouble</b> （實際時數）。 <b>actualWorkRequired</b>無法再用於計算和公式中。</p>
             </td>
-            <td><p>2026年6月1日</p></td>
-            <td><p>2026年6月1日</p></td>
-            <td><p>2026年6月1日</p></td>
+            <td><p>2026 年 6 月 1 日</p></td>
+            <td><p>2026 年 6 月 1 日</p></td>
+            <td><p>2026 年 6 月 1 日</p></td>
         </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">畫布儀表板報表中的自訂貨幣資料欄位</a>
                 <p>畫布控制面板報表現在支援自訂貨幣資料欄位做為欄、篩選器、群組和彙總，包括當在系統設定中設定多個匯率時。</p>
             </td>
-            <td><p>2026年5月28日</p></td>
+            <td><p>2026 年 5 月 28 日</p></td>
             <td><p>2026年6月11日</p></td>
             <td><p>2026年7月16日</p></td>
         </tr>
@@ -362,14 +397,6 @@ ht-degree: 2%
             <td><strong>預覽</strong></td>
             <td><strong>快速發行</strong></td>
             <td><strong>每季</strong></td>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">更新Workfront MCP聯結器</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
-                <p>我們已更新Workfront MCP聯結器：<ul><li>Claude現在可以連線到MCP聯結器。</li><li>您現在可以使用來自歐盟<!--or from instances that do not use AWS-->執行個體的MCP聯結器。</p>
-            </td>
-            <td><p>2026年6月11日</p></td>
-            <td><p>2026年6月11日</p></td>
-            <td><p>2026年6月11日</p></td>
         </tr>
         <tr>
             <td>
@@ -382,19 +409,10 @@ ht-degree: 2%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">使用Workfront MCP伺服器，將您的AI代理平台連線至Workfront</a>
-                <p>新的Workfront MCP伺服器會將Workfront連線到支援的AI代理平台，例如Claude或ChatGPT，讓您能夠透過自然語言對話找到、建立、更新和管理Workfront專案。 目前僅適用於使用AWS的美國地區客戶。</p>
-            </td>
-            <td><p>2026年5月28日</p></td>
-            <td><p>2026年6月11日</p></td>
-            <td><p>2026年7月16日</p></td>
-        </tr>
-        <tr>
-            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">增強型清單更新</a>
                 <p>增強型清單上的多種欄位型別已更新，包括鍵盤導覽和其他增強功能。</p>
             </td>
-            <td><p>2026年5月28日</p></td>
+            <td><p>2026 年 5 月 28 日</p></td>
             <td><p>2026年6月11日</p></td>
             <td><p>2026年7月16日</p></td>
         </tr>
