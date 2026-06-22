@@ -7,15 +7,11 @@ feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
 TQID: https://experienceleague.adobe.com/YIqeZbiTZH00yXJ6LnQrpEZuHvW4Y5QZVkYU3OquWqE
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1880d4370059ad654f91c6f40a0a787c51c1e54e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
 source-wordcount: 437
 ht-degree: 5%
@@ -29,7 +25,7 @@ ht-degree: 5%
 <!--I think this article can point to the Enhanced lists article for managing the view-->
 
 <!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
@@ -102,7 +98,7 @@ ht-degree: 5%
 {{step1-to-priorities}}
 
 1. 按一下畫面左側的&#x200B;**欄**。
-1. 按一下&#x200B;**拖曳**&#x200B;圖示，並將資料行移至您想要的位置。自動移動工作清單中的欄更新。
+1. 按一下&#x200B;**拖曳**圖示，並將資料行移至您想要的位置。自動移動工作清單中的欄更新。
    ![重新排序資料行](assets/reorder-columns-new.png)
 
 >[!NOTE]
@@ -116,7 +112,7 @@ ht-degree: 5%
 {{step1-to-priorities}}
 
 1. 按一下清單右上角的+圖示以開啟&#x200B;**欄管理員**&#x200B;方塊。
-1. 新增或移除欄，然後按一下[儲存]。**&#x200B;**
+1. 新增或移除欄，然後按一下[儲存]。****
 
    >[!NOTE]
    >

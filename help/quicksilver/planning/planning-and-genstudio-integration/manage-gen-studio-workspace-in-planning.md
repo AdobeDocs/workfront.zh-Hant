@@ -9,14 +9,10 @@ exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/K9tDDGCuZRkOa3FjqgdojUv6njW4-AzVRsh4a0mG6ww
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
 source-wordcount: 1769
 ht-degree: 2%
@@ -42,7 +38,7 @@ recommendations: noDisplay, noCatalog
 # 在Adobe Workfront Planning中管理GenStudio工作區
 
 <!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
@@ -97,7 +93,7 @@ recommendations: noDisplay, noCatalog
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing使用者角色</p></td> 
    <td><p><ul><li>存取行銷活動、產品和角色的任何GenStudio使用者角色</li>
    <li>GenSudio System Manager存取啟用 <!--and Events--></li></ul>
-   如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">使用者角色和許可權</a>。 
+   如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">使用者角色和許可權</a>。 
    </p>
   </td> 
   </tr>   
@@ -156,7 +152,7 @@ Old:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****** and Events*********</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -362,7 +358,7 @@ Workfront Planning首頁面隨即開啟。
 
      您在Planning中GenStudio工作區所做的變更會立即從GenStudio中顯示。
 
-1. 在表格檢視中選取記錄，然後按一下[刪除]。**&#x200B;**
+1. 在表格檢視中選取記錄，然後按一下[刪除]。****
 
    如需詳細資訊，請參閱[刪除記錄](/help/quicksilver/planning/records/delete-records.md)。
 
@@ -406,14 +402,14 @@ Workfront Planning首頁面隨即開啟。
    1. （視條件而定）從GenStudio工作區中連線的AEM資產，按一下資產名稱，然後按一下&#x200B;**在AEM中開啟**&#x200B;圖示![在AEM中開啟圖示](assets/open-in-aem-icon.png)以在AEM中開啟資產。
    1. 按一下以選取右側面板中的&#x200B;**促銷活動**&#x200B;索引標籤。
 
-      連結至資產的行銷活動名稱會顯示在&#x200B;**行銷活動**&#x200B;欄位中。此為唯讀欄位。
-如果資產也連線到Planning中GenStudio工作區的&#x200B;**區域**、**角色**、**產品**&#x200B;或&#x200B;**管道**，這些記錄型別的個別欄位會在資產的&#x200B;**行銷活動**&#x200B;索引標籤中以唯讀模式顯示其名稱。
+      連結至資產的行銷活動名稱會顯示在&#x200B;**行銷活動**欄位中。此為唯讀欄位。
+如果資產也連線到Planning中GenStudio工作區的**區域**、**角色**、**產品**&#x200B;或&#x200B;**管道**，這些記錄型別的個別欄位會在資產的&#x200B;**行銷活動**&#x200B;索引標籤中以唯讀模式顯示其名稱。
    1. （視條件而定）從Planning中GenStudio工作區中已連線的AEM內容片段，按一下內容片段的名稱，然後按一下&#x200B;**在AEM中開啟**&#x200B;圖示![在AEM中開啟圖示](assets/open-in-aem-icon.png)以在AEM中開啟內容片段。
    1. 按一下AEM中的&#x200B;**首頁**&#x200B;圖示![首頁圖示](assets/home-icon-in-aem.png)以移至內容片段清單，然後按一下內容片段名稱右邊的AEM中的&#x200B;**資訊**&#x200B;圖示![資訊](assets/info-icon-in-aem.png)。
    1. 按一下右側面板中的&#x200B;**中繼資料**&#x200B;索引標籤。
 
       在&#x200B;**xdm： campaignName**&#x200B;欄位中顯示連線至內容片段之行銷活動的名稱。 此為唯讀欄位。 <!--tried to log a bug to rename this field-->
-如果資產也連線到Planning中GenStudio工作區的&#x200B;**區域**、**角色**、**產品**&#x200B;或&#x200B;**管道**，這些記錄型別的個別欄位會在內容片段的&#x200B;**中繼資料**&#x200B;索引標籤中以唯讀模式顯示其名稱。
+如果資產也連線到Planning中GenStudio工作區的**區域**、**角色**、**產品**&#x200B;或&#x200B;**管道**，這些記錄型別的個別欄位會在內容片段的&#x200B;**中繼資料**&#x200B;索引標籤中以唯讀模式顯示其名稱。
 
 1. 暫留在表格檢視中的欄位上，然後按一下下拉式功能表以執行下列任一項作業：
 

@@ -9,19 +9,14 @@ exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/oajBrzqCNgufbSJPP0Wx8aI14d8VM7IFr-Hn1ed7Wks
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
-source-wordcount: 6148
+source-wordcount: 6307
 ht-degree: 1%
 
 ---
@@ -29,7 +24,7 @@ ht-degree: 1%
 # 管理表格檢視
 
 
-<span class="preview">本頁標示的資訊是指尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<span class="preview">本頁標示的資訊是指尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
 
 <span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
@@ -745,16 +740,20 @@ To sort grouped records:
    1. （選擇性）如果有多個相符專案，請按一下搜尋關鍵字右邊的向上和向下箭頭，以尋找表格中的所有相符專案。
 
    1. 按一下搜尋方塊中的&#x200B;**x**&#x200B;圖示以清除搜尋關鍵字。
-<!--    
-1. For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
 
-    * **SUM**: Displays the total of all cells in the column. This is the default selection. 
-    * **MIN**: Displays the lowest value from all the cells in the column. 
-    * **MAX**: Displays the highest value from all the cells in the column. 
-    * **AVG**: Displays the average value of all the cells in the column. 
+1. 若是數字、貨幣、百分比和公式欄位格式化為下列任何欄位型別，請展開欄底部的彙總器下拉式功能表，然後從下列選項中選取：
 
-    The aggregator row in the column is frozen and is part of the view settings. The aggregator you choose will be shared with the view when you share the view with others. 
--->
+   * **SUM**：顯示欄中所有儲存格的總計。 這是預設選取範圍。
+   * **MIN**：顯示欄中所有儲存格的最低值。
+   * **MAX**：顯示欄中所有儲存格的最高值。
+   * **AVG**：顯示資料行中所有儲存格的平均值。
+
+   使用彙總時，請考量下列事項：
+
+   * 欄中的彙總列是凍結的，而且是檢視設定的一部分。
+   * 作為「檢視管理員」，您可以選擇彙總，當您與其他人共用檢視時，它將會與檢視共用。
+   * 作為檢視器，您可以修改彙總，但不會與檢視一起儲存。
+   * 公用共用檢視會與無法修改的已儲存彙總共用。
 
 ### 新增列（或記錄） {#add-rows-1}
 
@@ -762,7 +761,7 @@ To sort grouped records:
 
 記錄型別最多可以有50,000筆記錄（或列）。
 
-1. 移至記錄型別頁面並選取資料表檢視，或按一下[檢視] **+新增檢視**，然後選擇[資料表] **&#x200B;**。
+1. 移至記錄型別頁面並選取資料表檢視，或按一下[檢視] **+新增檢視**，然後選擇[資料表] ****。
 
 1. 開始新增記錄（或列），如文章[建立記錄](/help/quicksilver/planning/records/create-records.md)中所述。
 
@@ -890,7 +889,7 @@ To sort grouped records:
 
 * 您可以在表格和時間軸檢視中套用群組。 表格檢視的分組與相同記錄型別之時間軸檢視中的群組是獨立的。
 * 您可以在檢視中套用3個群組層級。記錄會依照您選取的群組順序進行分組。
-&lt;！—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** *使用API時，您最多可以套用4個層級群組。 — 現在正在檢查此層級**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;！—*************** *使用API時，您最多可以套用4個層級群組。 — 現在正在檢查此層級******************—>
 * 群組對於您選取的檢視而言是唯一的。 相同記錄型別的兩個表格檢視可以套用不同的群組。 檢視相同表格檢視的兩個使用者會看到目前套用的相同分組。
 * 您無法為表格檢視建立的分組命名。
 * 移除群組會將群組從存取與您相同記錄型別以及顯示與您相同檢視的任何人中移除。
