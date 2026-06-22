@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b18e58368da31806fa917ad688e7b8f3c7d0d91e
+source-git-commit: 347b94801a86f3357b46da4955605a9742b6cf83
 workflow-type: tm+mt
 source-wordcount: 2620
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 2%
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">內容檢閱AI共同作業人員現已可用</a><p>為了讓您更輕鬆地在日常工作中從AI中獲益，我們建立了Content Review AI共同作業人員。  共同作業程式是將AI代理程式加入您的專案和任務的方法。 您可以使用品牌指南設定「內容檢閱AI共同作業人員」，然後將其指派給工作，就像您指派使用者一樣。</p>
         </td>
         <td><p>2026年4月2日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
     <tr>
@@ -94,7 +94,7 @@ ht-degree: 2%
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">自訂季度已從專案偏好設定中移除</a><p>我們已將「自訂季度」區域從「專案偏好設定」區段移出。 它現在是「設定」中的獨立區段。</p>
         </td>
         <td><p>2026年3月5日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
     <tr>
@@ -166,12 +166,12 @@ ht-degree: 2%
     </tr>
    <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">已啟用GenStudio基礎布建，以支援AI共同作業人員</a><p></p>
+            已啟用<a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">GenStudio Foundation布建以支援AI共同作業人員</a><p></p>
             <p>在2026年3月31日，所有Workfront客戶都已布建GenStudio Foundation，而Admin Console系統管理員將會收到通知這項新增功能的電子郵件。 此產品僅供布建之用，以便Workfront客戶可視AI共同作業人員發行之需要，將存取權授予Workfront客戶。 產品本身只是品牌的存取機制，GenStudio Foundation產品中沒有其他功能。</p><p>客戶不需支付這項新產品的費用。</p>
         </td>
-        <td><p>2026年3月31日</p></td>
-        <td><p>2026年3月31日</p></td>
-        <td><p>2026年3月31日</p></td>
+        <td><p>2026 年 3 月 31 日</p></td>
+        <td><p>2026 年 3 月 31 日</p></td>
+        <td><p>2026 年 3 月 31 日</p></td>
     </tr>
     <tr>
         <td>
@@ -179,7 +179,7 @@ ht-degree: 2%
             <p>我們已將下列增強功能新增至「首頁」的「我的核准」小工具：<ul><li>依最舊優先或最新優先排序核准清單</li><li>展開Widget至全熒幕</li><ul> </p>
         </td>
         <td><p>2026年4月2日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
     <tr>
@@ -189,7 +189,7 @@ ht-degree: 2%
  </p>
         </td>
         <td><p>2026年3月12日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
     <tr>
@@ -198,7 +198,7 @@ ht-degree: 2%
             <p>多階段核准工作流程現在可用於統一核准，幫助組織強制實施結構化、可重複的核准流程，以反映在現實世界中審查工作的方式。 </p>
         </td>
         <td><p>2026年3月12日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
     <tr>
@@ -207,7 +207,7 @@ ht-degree: 2%
             <p>您現在可以設定並重複使用多階段核准工作流程範本，讓您更輕鬆地在重複核准工作流程之間套用一致的控管。 </p>
         </td>
         <td><p>2026年3月12日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
              </tbody>
@@ -232,7 +232,7 @@ ht-degree: 2%
  </p>
         </td>
         <td><p>2026年4月2日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
     <tr>
@@ -242,7 +242,7 @@ ht-degree: 2%
  </p>
         </td>
         <td><p>2026年4月2日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
               </tbody>
@@ -298,7 +298,7 @@ ht-degree: 2%
             <p>我們已將一個<code>currentVersion</code>布林欄位新增到Document Version物件，以便更輕鬆地識別和報告檔案的最新版本。</p>
         </td>
         <td><p>2026年4月2日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
      <tr>
@@ -307,7 +307,7 @@ ht-degree: 2%
             <p>Workfront現在包含排程報告的新連結傳送型別。 此選項不會產生和附加檔案，而是會傳送一封電子郵件，其中包含指向Workfront中報告的直接連結，以允許收件者檢視應用程式中的最新資料。</p>
         </td>
         <td><p>2026年4月3日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
      <tr>
@@ -316,7 +316,7 @@ ht-degree: 2%
             <p>您現在可以在畫布控制面板上設定報表，以特定使用者身分執行。 啟用後，報表會根據所選使用者的存取許可權顯示資料，而非檢視者的許可權。</p>
         </td>
         <td><p>2026年4月2日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
     </tr>
    <tr>
@@ -376,7 +376,7 @@ ht-degree: 2%
             <p>您現在可以在新請求體驗（從「建立的物件」欄位）中，檢視及開啟從Workfront問題轉換而來的任務和專案。</p><p>此外，我們已新增「已建立的物件狀態」欄位，以指出轉換物件的狀態。 </p>
         </td>
            <td><p>2026年4月2日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
  </tr>
     <tr>
@@ -409,7 +409,7 @@ ht-degree: 2%
             <p>您現在可以在「請求」區域將條件式格式套用至請求清單，以及在「首頁」中套用我的請求Widget 。 在此增強功能之前，清單檢視中不存在此功能。</p>
         </td>
            <td><p>2026年4月2日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
  </tr>
     <tr>
@@ -427,7 +427,7 @@ ht-degree: 2%
             <p>為了讓您更容易找到您需要的請求，我們已將分組新增至請求清單和我的請求Widget。 現在，您可以依清單上的任何欄來群組請求。 建立群組時，這些群組會成為您使用之檢視的一部分。</p>
         </td>
            <td><p>2026年4月2日</p></td>
-        <td><p>2026年4月15日</p></td>
+        <td><p>2026 年 4 月 15 日</p></td>
         <td><p>2026年4月16日</p></td>
  </tr>
     <tr>
