@@ -9,11 +9,18 @@ exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/chdwrI5WTrdmeuqsWI5WydiLLzcp5Rq-hDsILudO-P0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
 source-wordcount: 1098
@@ -158,7 +165,7 @@ Old:
   >不會通知其他使用者欄位設定已變更。
 
 * 您可以從連線的記錄中編輯現有的查閱欄位。
-* 除了依照本文中[編輯欄位設定](#edit-field-settings-1)一節所述編輯欄位外，當您在表格檢視中編輯記錄時，在更新欄位值時，還可以編輯單一或多重選取欄位的選擇。 如需詳細資訊，請參閱本文中在資料表檢視](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view)區段中編輯記錄時，將[新選擇新增至現有的選取欄位。
+* 除了依照本文中[編輯欄位設定](#edit-field-settings-1)一節所述編輯欄位外，當您在表格檢視中編輯記錄時，在更新欄位值時，還可以編輯單一或多重選取欄位的選擇。 如需詳細資訊，請參閱本文中在資料表檢視[&#128279;](#add-new-choices-to-an-existing-select-field-when-editing-records-in-the-table-view)區段中編輯記錄時，將新選擇新增至現有的選取欄位。
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 
@@ -244,7 +251,7 @@ this is not yet true, but it might come later:
 
 1. 連按兩下欄位的儲存格，開始內嵌編輯欄位。
 
-1. 輸入您要新增的選擇名稱，然後按一下[新增選擇]。****
+1. 輸入您要新增的選擇名稱，然後按一下[新增選擇]。**&#x200B;**
 
    ![在表格檢視中的單一選取欄位中新增選項](assets/add-choice-in-table-view-for-single-select-field.png)
 
