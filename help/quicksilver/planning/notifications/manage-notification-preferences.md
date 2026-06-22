@@ -19,7 +19,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
+source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
 source-wordcount: 516
 ht-degree: 4%
@@ -29,7 +29,7 @@ ht-degree: 4%
 # 管理Adobe Workfront Planning通知偏好設定
 
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
@@ -174,7 +174,7 @@ Old:
 >
 >您可以使用Workfront偏好設定區域管理Adobe計畫通知，而不是使用使用者設定檔頁面上的Workfront通知區域。
 
-1. 使用您的Adobe Experience Cloud憑證登入Workfront。
+1. 使用您的Adobe Experience Cloud憑證登入Workfront 。
 1. 按一下畫面右上角的Experience Cloud![&#128279;](assets/account-menu-icon-on-experience-cloud.png)上的&#x200B;**帳戶功能表**&#x200B;圖示帳戶功能表圖示，然後按一下&#x200B;**偏好設定**。
 1. 在&#x200B;**通知**&#x200B;區段下，按一下&#x200B;**Workfront**。
 1. 選取您要收到的通知。

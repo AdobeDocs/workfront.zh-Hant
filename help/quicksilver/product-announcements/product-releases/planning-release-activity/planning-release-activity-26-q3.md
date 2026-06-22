@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a10385c56bcf1cdf942ab742e2884d1b5f381352
+source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '2005'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,8 @@ There are no features released during the Third Quarter Release for 2026. When f
 * 所有連線的記錄型別頁面，專案除外
 
 除了某些導覽變更和設計改進，此更新中的某些改進包括：
+
+* 在表格底部加入彙總列，使用下列彙總來彙總數字、貨幣、百分比和一些公式欄位：SUM、AVG、MAX、MIN。
 
 * 新增日期欄位時，採用較簡單的日期格式，格式型別較少。
 

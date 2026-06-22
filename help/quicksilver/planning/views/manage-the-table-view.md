@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
+source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
-source-wordcount: 6148
+source-wordcount: 6307
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 # 管理表格檢視
 
 
-<span class="preview">本頁標示的資訊是指尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 每月發行至生產環境後，生產環境中為啟用快速發行的客戶也提供相同的功能。</span>
+<span class="preview">本頁標示的資訊是指尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
 
 <span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
@@ -745,16 +745,20 @@ To sort grouped records:
    1. （選擇性）如果有多個相符專案，請按一下搜尋關鍵字右邊的向上和向下箭頭，以尋找表格中的所有相符專案。
 
    1. 按一下搜尋方塊中的&#x200B;**x**&#x200B;圖示以清除搜尋關鍵字。
-<!--    
-1. For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
 
-    * **SUM**: Displays the total of all cells in the column. This is the default selection. 
-    * **MIN**: Displays the lowest value from all the cells in the column. 
-    * **MAX**: Displays the highest value from all the cells in the column. 
-    * **AVG**: Displays the average value of all the cells in the column. 
+1. 若是數字、貨幣、百分比和公式欄位格式化為下列任何欄位型別，請展開欄底部的彙總器下拉式功能表，然後從下列選項中選取：
 
-    The aggregator row in the column is frozen and is part of the view settings. The aggregator you choose will be shared with the view when you share the view with others. 
--->
+   * **SUM**：顯示欄中所有儲存格的總計。 這是預設選取範圍。
+   * **MIN**：顯示欄中所有儲存格的最低值。
+   * **MAX**：顯示欄中所有儲存格的最高值。
+   * **AVG**：顯示資料行中所有儲存格的平均值。
+
+   使用彙總時，請考量下列事項：
+
+   * 欄中的彙總列是凍結的，而且是檢視設定的一部分。
+   * 作為「檢視管理員」，您可以選擇彙總，當您與其他人共用檢視時，它將會與檢視共用。
+   * 作為檢視器，您可以修改彙總，但不會與檢視一起儲存。
+   * 公用共用檢視會與無法修改的已儲存彙總共用。
 
 ### 新增列（或記錄） {#add-rows-1}
 
