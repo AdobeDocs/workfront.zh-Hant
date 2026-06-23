@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
 workflow-type: tm+mt
-source-wordcount: 1866
+source-wordcount: 1864
 ht-degree: 5%
 
 ---
@@ -316,8 +316,8 @@ ht-degree: 5%
 
 **建置圖表**&#x200B;區段中的&#x200B;**區段**&#x200B;下拉式清單是用來縮小欄位選取器中的選擇範圍，以便在建置表格報告時更容易找到物件。 若要開始，您可以選取基礎實體物件。
 
-* **所有區段**： Workfront Workflow和Workfront Planning中的所有物件型別。
-* **Workfront物件**：原生Workfront工作流程物件。
+* **所有區段**： Workfront和Workfront Planning中的所有物件型別。
+* **Workfront物件**：原生Workfront物件。
 * **Planning記錄型別**： Workfront Planning中定義的自訂記錄型別。
 
 ![區段下拉式清單](assets/sections-dropdown.png)

@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 1002d0ce293d00b70821e13da280c6f817c8eb9d
 workflow-type: tm+mt
-source-wordcount: 6307
+source-wordcount: 6353
 ht-degree: 1%
 
 ---
@@ -622,7 +622,7 @@ To sort grouped records:
 
 <div class="preview">
 
-## 在預覽環境中管理清單檢視
+## 在預覽環境中管理表格檢視
 
 <!--********** MAYBE THIS IS VALID ONLY WHEN WE REPLACE THE NAVIGATION ?????????*********-->
 
@@ -946,17 +946,15 @@ To sort grouped records:
 
 ### 新增列顏色
 
-1. （選擇性）按一下&#x200B;**列色彩**&#x200B;以定義條件並選擇為表格列設定不同的色彩。
+1. （選擇性）按一下&#x200B;**列色彩**&#x200B;以定義條件並設定表格列的不同色彩。
 
-1. 按一下&#x200B;**新增色彩**，然後搜尋欄位，然後在欄位顯示在清單中時選取它。 這是您要定義列顏色之值的欄位。
+1. 按一下&#x200B;**新增色彩**，然後搜尋欄位，然後在欄位顯示在清單中時選取它。 這是您要定義列顏色或「主要」欄位值的欄位。
 
    例如，若要以綠色顯示狀態為「作用中」的行銷活動，請選取「**狀態**」，然後為該欄位選擇修飾元和值。
 
-   ![已選取[使用中]狀態且預設顏色選擇的[列顏色]方塊](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
-
 1. 按一下所選取條件左上角之檢色器的下拉式功能表，以選取條件的顏色，然後按一下檢色器方塊外部以關閉它。
 
-   ![列顏色方塊中的下拉式檢色器功能表反白顯示](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
+   ![已選取[使用中]狀態且預設顏色選擇的[列顏色]方塊](assets/row-colors-box-with-active-status-selected-default-color-choice-gtable.png)
 
 1. （選擇性）按一下&#x200B;**新增條件**，將更多欄位和值新增至第一組條件
 
@@ -966,16 +964,27 @@ To sort grouped records:
 
    例如，您可以定義一組新的條件，以黃色顯示「計畫」狀態的行銷活動。
 
-   ![具有Active和Planning狀態自訂顏色的列顏色方塊](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
+   ![具有Active和Planning狀態自訂顏色的列顏色方塊](assets/row-colors-box-with-active-and-planning-status-custom-colors-gtable.png)
+
+   >[!TIP]
+   >
+   >當您選取了兩個不同的欄位時，最後一個規則會先套用至要套用至列的顏色。
+
 
 1. （選擇性）開啟&#x200B;**列色彩**&#x200B;方塊右上角的&#x200B;**套用至整個列**&#x200B;設定。 符合條件的整列會自動以選取的顏色顯示。
 
    >[!NOTE]
    >
-   >如果關閉&#x200B;**套用至整列**&#x200B;設定，則只有主要欄位儲存格的背景會以選取的顏色顯示。 此設定預設為關閉。
+   >* 如果關閉&#x200B;**套用至整列**&#x200B;設定，則只有主要欄位儲存格的背景會以選取的顏色顯示。 此設定預設為關閉。
    >
+   >* 將分組套用至表格時，「套用至整列」設定會變暗。
 
 1. 按一下&#x200B;**列色彩**&#x200B;方塊外部以將其關閉。 會自動套用顏色。
+
+   >[!TIP]
+   >
+   >如果您選擇只將顏色套用至儲存格，則只會反白顯示「主要」欄位。
+
 
 ### 啟用即時顯示狀態指示器
 
