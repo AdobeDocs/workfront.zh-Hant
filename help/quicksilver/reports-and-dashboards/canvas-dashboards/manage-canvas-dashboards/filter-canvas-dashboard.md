@@ -9,18 +9,13 @@ exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/SRUCt-lfcaIOPghpl2PfbbSMO4oMy4E1hfS7NensXL8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
 workflow-type: tm+mt
-source-wordcount: 803
+source-wordcount: 807
 ht-degree: 2%
 
 ---
@@ -36,6 +31,12 @@ ht-degree: 2%
 >* 自備Amazon Web Services金鑰
 >* Azure
 >* Google Cloud Platform
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 您可以將篩選器套用至包含提示的畫布控制面板。 提示會當做篩選器修飾詞使用，套用其他篩選條件，以便您進一步縮小結果的範圍。 每次套用篩選器時都可以修改這些提示，讓您能夠調整顯示的結果，而無需編輯儀表板或每個個別報告的主要篩選條件。
@@ -117,7 +118,7 @@ ht-degree: 2%
 
 1. 在儀表板詳細資訊頁面的左上角，按一下&#x200B;**篩選器**。 篩選器側面板隨即開啟。
 
-1. 選取&#x200B;**編輯篩選器**。 **儀表板篩選器**&#x200B;對話方塊開啟。
+1. 按一下<!--<span class="preview">the **More** menu ![More menu](assets/more-icon.png), then click</span>--> **編輯篩選器**。 **儀表板篩選器**&#x200B;對話方塊開啟。
 
 1. （可選）若要新增規則，請遵循下列步驟：
 
@@ -126,7 +127,7 @@ ht-degree: 2%
       ![編輯圖示](assets/edit-icon.png)
 
    1. 按一下&#x200B;**新增條件**，然後新增下列資訊：
-      * 選取您要作為篩選依據的欄位。
+      * 按一下「**挑選欄位**」以選取您要依據的欄位。
       * 選取選項（或篩選器修飾元）以定義欄位必須符合何種條件。
 
    1. （選擇性）按一下&#x200B;**新增篩選器群組**&#x200B;以新增另一組篩選准則。 集合之間的預設運運算元為AND。 按一下運運算元以將其變更為OR。
@@ -144,7 +145,7 @@ ht-degree: 2%
 
 1. 若要新增提示，請遵循下列步驟：
 
-   1. 選取&#x200B;**新增提示**。 新欄位會出現在畫面右側。
+   1. 按一下&#x200B;**新增提示**。 新欄位會出現在畫面右側。
 
    1. 在&#x200B;**自訂標籤**&#x200B;欄位中輸入標籤。
 
@@ -171,6 +172,19 @@ ht-degree: 2%
 
 1. 按一下&#x200B;**儲存**，將篩選器套用至儀表板。
 
+   <!--
+    1.<span class="preview">To save prompts as default filters, do the following, after you saved the prompt: </span>
+        <div class="preview">
+        1. (Optional) Click the **More** menu ![More menu](assets/more-icon.png), then click **Save as default filter**. 
+            The filter is applied every time the dashboard loads for anyone with View or higher permissions to it. 
+        1. (Conditional) If you access a dashboard with a default filter applied, you can modify the filter and your modifications are saved as a personal preference. The following scenarios exist:
+            * If you have Manage permissions to the dashboard, click **Save as default filter** to save your modifications as a default filter. This replaces the original defaults.
+            * If you have View permissions to the dashboard, your modifications display only for you. Refreshing the page preserves your settings. 
+        1. (Conditional) If you modified the settings of the default filter, click the **More** menu ![More menu](assets/more-icon.png), then **Apply dashboard defaults** to return to the default filter results. 
+        1. (Optional) Click **Reset defaults** to replace the original default settings with your modifications. This option is only available for dashboard managers. 
+        </div> 
+    -->
+
 1. 繼續進行[第3部分：套用儀表板提示](#step-3-apply-a-dashboard-prompt)。
 
 ### 步驟3：套用控制面板提示
@@ -185,7 +199,7 @@ ht-degree: 2%
 
 1. 在儀表板詳細資訊頁面的左上角，按一下&#x200B;**篩選器**。 篩選器側面板隨即開啟。
 
-1. 在&#x200B;**顯示記錄位置……**&#x200B;區段中，選擇一個或所有顯示的提示的條件。已套用提示，且已套用&#x200B;**控制面板篩選器**&#x200B;標籤會顯示在報表Widget的角落。
+1. 在&#x200B;**顯示記錄位置……**&#x200B;區段中，選擇一個或所有顯示的提示的條件。已套用提示，且已套用&#x200B;**控制面板篩選器**標籤會顯示在報表Widget的角落。
    ![選取條件](assets/prompts-list.png)
 
 1. 按一下右上角的&#x200B;**關閉**&#x200B;圖示![關閉圖示](assets/close-icon.png)以隱藏面板。

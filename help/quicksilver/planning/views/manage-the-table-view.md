@@ -9,19 +9,14 @@ exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/oajBrzqCNgufbSJPP0Wx8aI14d8VM7IFr-Hn1ed7Wks
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1002d0ce293d00b70821e13da280c6f817c8eb9d
 workflow-type: tm+mt
-source-wordcount: 6307
+source-wordcount: 6353
 ht-degree: 1%
 
 ---
@@ -622,7 +617,7 @@ To sort grouped records:
 
 <div class="preview">
 
-## 在預覽環境中管理清單檢視
+## 在預覽環境中管理表格檢視
 
 <!--********** MAYBE THIS IS VALID ONLY WHEN WE REPLACE THE NAVIGATION ?????????*********-->
 
@@ -766,7 +761,7 @@ To sort grouped records:
 
 記錄型別最多可以有50,000筆記錄（或列）。
 
-1. 移至記錄型別頁面並選取資料表檢視，或按一下[檢視] **+新增檢視**，然後選擇[資料表] **&#x200B;**。
+1. 移至記錄型別頁面並選取資料表檢視，或按一下[檢視] **+新增檢視**，然後選擇[資料表] ****。
 
 1. 開始新增記錄（或列），如文章[建立記錄](/help/quicksilver/planning/records/create-records.md)中所述。
 
@@ -894,7 +889,7 @@ To sort grouped records:
 
 * 您可以在表格和時間軸檢視中套用群組。 表格檢視的分組與相同記錄型別之時間軸檢視中的群組是獨立的。
 * 您可以在檢視中套用3個群組層級。記錄會依照您選取的群組順序進行分組。
-&lt;！—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** *使用API時，您最多可以套用4個層級群組。 — 現在正在檢查此層級**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;！—*************** *使用API時，您最多可以套用4個層級群組。 — 現在正在檢查此層級******************—>
 * 群組對於您選取的檢視而言是唯一的。 相同記錄型別的兩個表格檢視可以套用不同的群組。 檢視相同表格檢視的兩個使用者會看到目前套用的相同分組。
 * 您無法為表格檢視建立的分組命名。
 * 移除群組會將群組從存取與您相同記錄型別以及顯示與您相同檢視的任何人中移除。
@@ -946,17 +941,15 @@ To sort grouped records:
 
 ### 新增列顏色
 
-1. （選擇性）按一下&#x200B;**列色彩**&#x200B;以定義條件並選擇為表格列設定不同的色彩。
+1. （選擇性）按一下&#x200B;**列色彩**&#x200B;以定義條件並設定表格列的不同色彩。
 
-1. 按一下&#x200B;**新增色彩**，然後搜尋欄位，然後在欄位顯示在清單中時選取它。 這是您要定義列顏色之值的欄位。
+1. 按一下&#x200B;**新增色彩**，然後搜尋欄位，然後在欄位顯示在清單中時選取它。 這是您要定義列顏色或「主要」欄位值的欄位。
 
    例如，若要以綠色顯示狀態為「作用中」的行銷活動，請選取「**狀態**」，然後為該欄位選擇修飾元和值。
 
-   ![已選取[使用中]狀態且預設顏色選擇的[列顏色]方塊](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
-
 1. 按一下所選取條件左上角之檢色器的下拉式功能表，以選取條件的顏色，然後按一下檢色器方塊外部以關閉它。
 
-   ![列顏色方塊中的下拉式檢色器功能表反白顯示](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
+   ![已選取[使用中]狀態且預設顏色選擇的[列顏色]方塊](assets/row-colors-box-with-active-status-selected-default-color-choice-gtable.png)
 
 1. （選擇性）按一下&#x200B;**新增條件**，將更多欄位和值新增至第一組條件
 
@@ -966,16 +959,27 @@ To sort grouped records:
 
    例如，您可以定義一組新的條件，以黃色顯示「計畫」狀態的行銷活動。
 
-   ![具有Active和Planning狀態自訂顏色的列顏色方塊](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
+   ![具有Active和Planning狀態自訂顏色的列顏色方塊](assets/row-colors-box-with-active-and-planning-status-custom-colors-gtable.png)
+
+   >[!TIP]
+   >
+   >當您選取了兩個不同的欄位時，最後一個規則會先套用至要套用至列的顏色。
+
 
 1. （選擇性）開啟&#x200B;**列色彩**&#x200B;方塊右上角的&#x200B;**套用至整個列**&#x200B;設定。 符合條件的整列會自動以選取的顏色顯示。
 
    >[!NOTE]
    >
-   >如果關閉&#x200B;**套用至整列**&#x200B;設定，則只有主要欄位儲存格的背景會以選取的顏色顯示。 此設定預設為關閉。
+   >* 如果關閉&#x200B;**套用至整列**&#x200B;設定，則只有主要欄位儲存格的背景會以選取的顏色顯示。 此設定預設為關閉。
    >
+   >* 將分組套用至表格時，「套用至整列」設定會變暗。
 
 1. 按一下&#x200B;**列色彩**&#x200B;方塊外部以將其關閉。 會自動套用顏色。
+
+   >[!TIP]
+   >
+   >如果您選擇只將顏色套用至儲存格，則只會反白顯示「主要」欄位。
+
 
 ### 啟用即時顯示狀態指示器
 

@@ -5,25 +5,31 @@ title: 在畫布儀表板中使用貨幣欄位
 description: 您可以在畫布控制面板中使用貨幣欄位。
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 3e4ab2dfc66efd262c0c2ad30a9c62758084f8ce
+exl-id: 207c24d3-2b69-4ea3-88d7-716a3cf33dd1
+source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '551'
 ht-degree: 4%
 
 ---
-
 
 # 在畫布儀表板中使用貨幣欄位
 
 >[!IMPORTANT]
 >
->畫布儀表板功能目前僅適用於參與Beta階段的使用者。 在此階段中，部分功能可能無法完成或如預期般運作。 請依照「畫布控制面板」測試版概觀文章中[提供意見回饋](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)一節的指示，提交有關您體驗的任何意見回饋。<br>
->如果您對可能的錯誤或技術問題有回饋，請向Workfront支援提交票證。 如需詳細資訊，請參閱[聯絡客戶支援](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
->請注意，以下雲端服務供應商未提供此測試版：
+>畫布儀表板功能目前僅適用於參與Beta階段的使用者。在此階段中，部分功能可能無法完成或如預期般運作。請依照「畫布控制面板」測試版概觀文章中[提供意見回饋](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)一節的指示，提交有關您體驗的任何意見回饋。<br>
+>如果您對可能的錯誤或技術問題有回饋意見，請向Workfront支援提交票證。如需詳細資訊，請參閱[聯絡客戶支援](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
+>請注意，此測試版不適用於下列雲端服務提供者：
 >
 >* 自備Amazon Web Services金鑰
 >* Azure
 >* Google Cloud Platform
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 ## 存取需求
 
@@ -146,7 +152,7 @@ ht-degree: 4%
 <li>指派預設貨幣給控制面板（建立或編輯控制面板時）</li>
 <li>檢視並使用控制面板層級的貨幣切換</li>
 <li>鎖定特定貨幣，以在畫布圖表、KPI或表格報告中檢視</li>
-<li>在畫布圖表、重要績效指標及表格報表中使用「計畫」幣別欄位</li>
+<li>在畫布圖表、重要績效指標及表格報表中使用「計畫」幣別欄位 <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
 </ul>
 </td> 
 </tr>
@@ -164,12 +170,7 @@ ht-degree: 4%
 </td>
 <td><ul>
   <li>在畫布圖表、KPI和表格報表中使用自訂資料貨幣欄位</li>
-  <li>在畫布圖表、重要績效指標及表格報表中使用「計畫」幣別欄位</li>
+  <li>在畫布圖表、重要績效指標及表格報表中使用「計畫」幣別欄位 <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
 </ul>
 </td>
 </tr></table>
-
-
-
-
-
