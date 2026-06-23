@@ -9,10 +9,15 @@ exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/9ZMHrzOvdpkdnbBapJ65HFLutu0lfYmSOCamto-AU0c
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
 workflow-type: tm+mt
 source-wordcount: 1864
