@@ -21,7 +21,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7ee1863adccffcd651a92f92c9faf5b4500c93f7
+source-git-commit: 5f288a20a0b8f2afd433e5b1c4a6c43ea24b7259
 workflow-type: tm+mt
 source-wordcount: 2603
 ht-degree: 1%
@@ -219,28 +219,6 @@ Not sure how to change the request status, but dev also said: Changing the names
 
    如需詳細資訊，請參閱[使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
 
-<!-- 
-Removing this as this is covered at a higher level in the Use enhanced lists article: 
-1. (Optional) From the requests list, do any of the following:
-   * Click **Filters** and start adding conditions for what requests you want to view in the Requests list. 
-      ![Editing filters in the Requests area](assets/filters-editing-box-in-requests-planning-tab.png)
-      You can filter by the following fields:  
-      * **Workspace**: The workspace the request form is associated with.
-      * **Object type**: The record type the request form is associated with.
-      * **Entry date**: The date when the request was submitted.
-      * **Request form**: The name of the request form used to submit the request.
-      * **Status**: The status of the request.
-      * **Entered by**: The name of the user who added the request. If the request was added by someone outside of Workfront, the **Entered by** field shows `N/A`.
-      You can have multiple filters joined by either **And** or **Or**.
-      The request list is filtered automatically, as you add the filter conditions.  
-   * Click **Columns** to open the **Fields visibility and order** box, then hide, show, or rearrange the columns in the request list. 
-      >[!TIP]
-      >
-      >You cannot add any more columns. 
-      ![Columns editing box in Requests area](assets/columns-editing-box-in-requests-planning-tab.png)
-   * Click the **+** icon in the upper-right corner of the request list to open the **Column manager** and add or remove columns in the requests list. 
--->
-
 1. 按一下清單中要求的名稱。
 
    請求詳細資訊頁面隨即開啟。
@@ -274,6 +252,29 @@ Removing this as this is covered at a higher level in the Use enhanced lists art
 1. （選擇性）按一下&#x200B;**記錄型別**&#x200B;的名稱。
 
    記錄型別頁面會在Workfront Planning中開啟。
+
+<!-- 
+Moved from line 223, just after the "For information, see [Use enhanced lists]..." This is due to rendering bug.
+Removing this as this is covered at a higher level in the Use enhanced lists article: 
+1. (Optional) From the requests list, do any of the following:
+   * Click **Filters** and start adding conditions for what requests you want to view in the Requests list. 
+      ![Editing filters in the Requests area](assets/filters-editing-box-in-requests-planning-tab.png)
+      You can filter by the following fields:  
+      * **Workspace**: The workspace the request form is associated with.
+      * **Object type**: The record type the request form is associated with.
+      * **Entry date**: The date when the request was submitted.
+      * **Request form**: The name of the request form used to submit the request.
+      * **Status**: The status of the request.
+      * **Entered by**: The name of the user who added the request. If the request was added by someone outside of Workfront, the **Entered by** field shows `N/A`.
+      You can have multiple filters joined by either **And** or **Or**.
+      The request list is filtered automatically, as you add the filter conditions.  
+   * Click **Columns** to open the **Fields visibility and order** box, then hide, show, or rearrange the columns in the request list. 
+      >[!TIP]
+      >
+      >You cannot add any more columns. 
+      ![Columns editing box in Requests area](assets/columns-editing-box-in-requests-planning-tab.png)
+   * Click the **+** icon in the upper-right corner of the request list to open the **Column manager** and add or remove columns in the requests list. 
+-->
 
 ## 從共用連結提交要求至Workfront Planning至要求表單
 
