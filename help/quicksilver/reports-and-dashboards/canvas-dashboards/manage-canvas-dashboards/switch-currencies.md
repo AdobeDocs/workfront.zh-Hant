@@ -6,7 +6,7 @@ description: 您可以在畫布控制面板中使用貨幣欄位。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 207c24d3-2b69-4ea3-88d7-716a3cf33dd1
-source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
+source-git-commit: 1c9433c854fe481060358caf3d280492ee71aeb6
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 4%
@@ -154,6 +154,11 @@ ht-degree: 4%
 <li>鎖定特定貨幣，以在畫布圖表、KPI或表格報告中檢視</li>
 <li>在畫布圖表、重要績效指標及表格報表中使用「計畫」幣別欄位 <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
 </ul>
+
+<!--
+<p><b>NOTE</b></p>
+<span class="preview">If a Planning currency field uses a currency without a defined exchange rate, Canvas Dashboard might display an error message when.</span>
+-->
 </td> 
 </tr>
 </td> 
@@ -172,5 +177,10 @@ ht-degree: 4%
   <li>在畫布圖表、KPI和表格報表中使用自訂資料貨幣欄位</li>
   <li>在畫布圖表、重要績效指標及表格報表中使用「計畫」幣別欄位 <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
 </ul>
+
+<!--
+<p><b>NOTE</b></p>
+<span class="preview">If a Planning currency field uses a currency without a defined exchange rate, Canvas Dashboard might display an error message when.</span>
+-->
 </td>
 </tr></table>
