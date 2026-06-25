@@ -4,9 +4,9 @@ description: 2026年第三季度報告增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a678a987703240680368b34c4095637b59a8bb60
+source-git-commit: c1ffa06ddca88f8679cf3886ce5c90f69984f30b
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,22 @@ ht-degree: 0%
 本頁說明2026年第三季度版本中針對預覽環境進行的報告增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2026年第三季度發行週期中目前可用的所有變更清單，請參閱[2026年第三季度發行概觀](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)。
+
+## 畫布控制面板提示預設和使用者偏好設定持續性
+
+>[!NOTE]
+>
+>預覽： 2026年6月25日>生產快速版本： 2026年7月15日>每個人的生產： 2026年7月16日
+
+為了透過保留使用者的工作篩選狀態來提高使用者在控制面板和記錄之間移動的效率，控制面板管理員現在可以定義Canvas控制面板的預設提示值。 這些預設值會自動套用至所有儀表板檢視器。
+
+當使用者更新提示時，他們的選擇會在重新整理、重新開啟或導覽到記錄並返回後儲存和還原。
+
+管理員可隨時重設儀表板的預設狀態。 使用者也可以透過三點選單快速還原為預設值。
+
+在此增強功能之前，儀表板提示不具有提示狀態的可配置預設或已儲存的使用者偏好設定。
+
+如需詳細資訊，請參閱[篩選畫布控制面板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)。
 
 ## 一次新增多個Power BI IP位址範圍至資料連線允許清單
 
