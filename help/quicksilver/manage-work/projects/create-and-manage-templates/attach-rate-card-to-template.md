@@ -6,7 +6,7 @@ title: 將費率卡附加至範本
 description: 當您指定費率卡至範本時，費率卡會附加至從範本建立的所有專案。
 author: Lisa
 feature: Work Management
-source-git-commit: ca2effb6674caf3a1b44f675a23758f734332a01
+source-git-commit: 28a1c1cf30c2b4addbcc1b40f5fd65f99685c75c
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 3%
@@ -118,5 +118,6 @@ ht-degree: 3%
    在「另存為範本」方塊的「選項」區段中，您可以選取&#x200B;**費率卡**&#x200B;專案，以將費率卡新增至範本。 清除核取方塊，以排除費率卡無法傳輸至範本。
 
    如需詳細資訊，請參閱[將專案另存為範本](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md)
+
 
 
