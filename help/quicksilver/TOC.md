@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 1c9433c854fe481060358caf3d280492ee71aeb6
+source-git-commit: 5f122486d3d448cfcee066b18fce73c914e47f56
 workflow-type: tm+mt
-source-wordcount: '14214'
+source-wordcount: '14222'
 ht-degree: 2%
 
 ---
@@ -1312,6 +1312,7 @@ ht-degree: 2%
          * [共用專案範本](manage-work/projects/create-and-manage-templates/share-project-template.md)
          * [刪除專案範本](manage-work/projects/create-and-manage-templates/delete-templates.md)
          * [從專案移除範本資訊](manage-work/projects/create-and-manage-templates/remove-template-from-project.md)
+         * [將費率卡附加至範本](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-rate-card-to-template.md)
          * [範本中的開始與完成天數概要](manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)
          * [將範本附加至專案的概觀](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
       * 定義業務案例 {#define-business-case}
