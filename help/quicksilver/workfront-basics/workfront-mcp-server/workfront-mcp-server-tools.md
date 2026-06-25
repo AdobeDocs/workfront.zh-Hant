@@ -5,10 +5,10 @@ title: Adobe Workfront MCP伺服器工具
 description: 透過Adobe Workfront MCP伺服器可用的工具參考清單，按Workfront區域分組。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: c58007a9e72a9a2c04f04d3df83876b80ef1d12b
+source-git-commit: 96159bd33d9b81cdd8ed50c0085400086494013e
 workflow-type: tm+mt
-source-wordcount: '1578'
-ht-degree: 5%
+source-wordcount: '1713'
+ht-degree: 6%
 
 ---
 
@@ -104,6 +104,21 @@ ht-degree: 5%
 | 依所有者取得專案 | `approvals_get_projects_by_owner` | 列出呼叫使用者是擁有者的Workfront專案。 | 讀取 |
 | 取得Adobe地區 | `approvals_get_adobe_region` | 傳回雲端提供者地區的Adobe名稱。 | 讀取 |
 
+## 分析工具
+
+前瞻分析工具會擷取Workfront物件的相關資訊。
+
+| 標題 | 工具名稱 | 作用 | 動作 |
+| --- | --- | --- | --- |
+| 讀取檔案 | `insights_read_docs` | 載入Workfront教戰手冊或網域檔案，例如條件、狀態、日期或欄位路徑。 這是查詢資料之前所需的第一個步驟。 | 讀取 |
+| 取得目前使用者 | `insights_get_current_user` | 擷取您自己的Workfront身分，包括名稱、ID和URL。 | 讀取 |
+| 搜尋欄位 | `insights_search_fields` | 搜尋有關專案、任務、問題、使用者、投資組合、團隊等的可用欄位（標準和自訂）。 | 讀取 |
+| 取得欄位路徑 | `insights_get_field_paths` | 解析實體的點標籤欄位路徑（資料查詢工具所需）。 | 讀取 |
+| 依名稱尋找識別碼 | `insights_find_id_by_name` | 依名稱查詢任何Workfront物件的ID，例如專案、任務、使用者、投資組合等。 | 讀取 |
+| 尋找Workfront資料 | `insights_find_workfront_data` | 尋找、篩選、計數、排序和彙總Workfront資料。 這是主要的查詢和報表工具。 | 讀取 |
+| 摘要物件 | `insights_summarize_object` | 依ID擷取並摘要單一Workfront物件。 | 讀取 |
+| 列出實體 | `insights_list_entities` | 列出可供查詢的所有Workfront物件型別。 | 讀取 |
+
 ## 規劃工具
 
 >[!IMPORTANT]
@@ -194,11 +209,11 @@ ht-degree: 5%
 
 | 標題 | 工具名稱 | 作用 | 動作 |
 | --- | --- | --- | --- |
-| 搜尋物件 | `workflow_search_any_object` | 使用彈性的篩選引數、順序和分頁來搜尋Workfront物件。 | 讀取 |
+| 搜尋物件 | `workflow_search_any_object` | 已棄用。 改用`insights_find_id_by_name`或`insights_find_workfront_data` | 讀取 |
 | 建立物件 | `workflow_create_any_object` | 建立新的Workfront物件，例如專案、任務、問題、小時、指派、方案或投資組合。 | 寫入 |
 | 更新物件 | `workflow_update_any_object` | 更新現有Workfront物件上的欄位。 | 寫入 |
 | 刪除物件 | `workflow_delete_any_object` | 依ID刪除Workfront物件。 執行動作前需要明確的使用者確認。 | 寫入 |
-| 解析欄位名稱 | `workflow_resolve_field_names_any_object` | 將使用者提供的欄位名稱或標籤轉換為基礎Workfront API欄位名稱，讓AI代理平台可以建置準確的請求。 | 讀取 |
+| 解析欄位名稱 | `workflow_resolve_field_names_any_object` | 已棄用。 請改用`insights_search_fields`。 | 讀取 |
 
 ## 如何更新工具
 
