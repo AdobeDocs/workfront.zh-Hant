@@ -6,7 +6,7 @@ description: 您可以在畫布控制面板中使用貨幣欄位。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 207c24d3-2b69-4ea3-88d7-716a3cf33dd1
-source-git-commit: 5610385a6bbbf02965d7ab4a3fecee8e6de5ad91
+source-git-commit: 2b7812d275fd2c5bf0fff8bcd60ca89bafa22def
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 4%
@@ -177,7 +177,8 @@ ht-degree: 4%
 
 
 <p><b>附註</b></p>
-<span class="preview">如果Planning貨幣欄位使用未定義匯率的貨幣，則Canvas Dashboard可能會在</span>時顯示錯誤訊息
+
+<p><span class="preview">如果Planning幣別欄位使用未定義匯率的幣別，則「畫布資料面板」可能會在「 」時顯示錯誤訊息。</span></p>
 
 </td>
 </tr></table>
