@@ -6,7 +6,7 @@ description: 您可以在畫布控制面板中使用貨幣欄位。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 207c24d3-2b69-4ea3-88d7-716a3cf33dd1
-source-git-commit: 2b7812d275fd2c5bf0fff8bcd60ca89bafa22def
+source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 4%
@@ -182,3 +182,4 @@ ht-degree: 4%
 
 </td>
 </tr></table>
+
