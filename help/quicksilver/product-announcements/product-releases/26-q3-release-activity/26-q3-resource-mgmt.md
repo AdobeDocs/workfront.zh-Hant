@@ -4,7 +4,7 @@ description: 2026年第三季資源管理增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b62fc2a213d9e7bc58a34d48166be61699908d0c
+source-git-commit: 4008f50a332371ac468cc8abb79b4e7a24541067
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2026年6月19日生產快速發行： 2026年6月19日每個人都要生產： 2026年6月19日不在排程&rbrack;{type=Neutral}內
+>預覽： 2026年6月19日生產快速發行： 2026年6月19日每個人都要生產： 2026年6月19日不在排程]{type=Neutral}內
 
 已在工作負載平衡器中簡化大量指派，其動作包括指派使用者和取代合併到&#x200B;**取代資源**&#x200B;動作中的使用者。
 
@@ -33,4 +33,5 @@ ht-degree: 0%
 * 具有使用者的角色
 
 如需詳細資訊，請參閱[使用工作負載平衡器](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md)大量指派工作。
+
 
