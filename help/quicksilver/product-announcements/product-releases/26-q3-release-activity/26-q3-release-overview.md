@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: 6ac07e6f0d4a8faf7ef61755a4ec335e195a1b51
 workflow-type: tm+mt
-source-wordcount: '2312'
+source-wordcount: '2369'
 ht-degree: 4%
 
 ---
@@ -44,6 +44,7 @@ ht-degree: 4%
 * [專案增強功能](#project-enhancements)
 * [報告增強功能](#reporting-enhancements)
 * [要求增強功能](#requesting-enhancements)
+* [資源管理增強功能](#resource-management-enhancements)
 * [其他增強功能](#other-enhancements)
 
 ### AI增強功能
@@ -404,6 +405,28 @@ ht-degree: 4%
             <td><p>2026年4月23日</p></td>
             <td><p>2026年4月23日</p></td>
             <td><p>2026年4月23日</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### 資源管理增強功能
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>功能</strong>
+            </td>
+            <td><strong>預覽</strong></td>
+            <td><strong>快速發行</strong></td>
+            <td><strong>每季</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">在工作負載平衡器</a>中簡化大量指派動作<p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <p>已在工作負載平衡器中簡化大量指派，其動作包括指派使用者和取代合併到<strong>取代資源</strong>動作中的使用者。</p>
+            </td>
+            <td><p>2026年6月19日</p></td>
+            <td><p>2026年6月19日</p></td>
+            <td><p>2026年6月19日</p></td>
         </tr>
     </tbody>
 </table>
