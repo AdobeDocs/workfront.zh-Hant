@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 6ac07e6f0d4a8faf7ef61755a4ec335e195a1b51
+source-git-commit: 4008f50a332371ac468cc8abb79b4e7a24541067
 workflow-type: tm+mt
 source-wordcount: '2369'
 ht-degree: 4%
@@ -543,6 +543,7 @@ For information about the maintenance updates made during the Third Quarter 2026
 ### 訓練更新
 
 探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hant)的「新增功能」一節。
+
 
 
 
