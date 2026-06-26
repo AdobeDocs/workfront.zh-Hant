@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: 871bb92456f95b7f70072a072971b5114ad02890
 workflow-type: tm+mt
-source-wordcount: 1057
+source-wordcount: 1194
 ht-degree: 1%
 
 ---
@@ -29,9 +29,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->畫布儀表板功能目前僅適用於參與Beta階段的使用者。在此階段中，部分功能可能無法完成或如預期般運作。請依照「畫布控制面板」測試版概觀文章中[提供意見回饋](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)一節的指示，提交有關您體驗的任何意見回饋。<br>
->如果您對可能的錯誤或技術問題有回饋意見，請向Workfront支援提交票證。如需詳細資訊，請參閱[聯絡客戶支援](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
->請注意，此測試版不適用於下列雲端服務提供者：
+>畫布儀表板功能目前僅適用於參與Beta階段的使用者。 在此階段中，部分功能可能無法完成或如預期般運作。 請依照「畫布控制面板」測試版概觀文章中[提供意見回饋](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)一節的指示，提交有關您體驗的任何意見回饋。如果您對可能的錯誤或技術問題有回饋，請向Workfront支援提交票證。 如需詳細資訊，請參閱[聯絡客戶支援](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。請注意，以下雲端服務供應商未提供此測試版：
 >
 >* 自備Amazon Web Services金鑰
 >* Azure
@@ -186,6 +184,11 @@ Take Preview and production mentions out at release
    1. （選擇性）按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-icon.png)，然後按一下&#x200B;**另存為預設提示**。
 
       任何擁有檢視或更高檢視許可權的人在儀表板載入時，都會套用提示篩選器。
+
+      >[!TIP]
+      >
+      >如果您沒有建立提示，而且您沒有其欄位的存取權，則不會顯示欄位名稱。 修改提示以填入報表。
+
    1. （視條件而定）如果存取已套用預設提示的控制面板，您可以修改篩選器，修改內容會儲存為個人偏好設定。 存在下列情況：
 
       * 如果您擁有儀表板的管理許可權，請按一下&#x200B;**儲存為預設提示**，將您的修改儲存為預設篩選。 這會取代原始預設值。
@@ -211,8 +214,7 @@ Take Preview and production mentions out at release
 
 1. 在儀表板詳細資訊頁面的左上角，按一下&#x200B;**篩選器**。 篩選器側面板隨即開啟。
 
-1. 在&#x200B;**顯示記錄位置……**&#x200B;區段中，選擇一個或所有顯示的提示的條件。已套用提示，且已套用&#x200B;**儀表板提示**&#x200B;標籤會出現在報告Widget的角落。
-   ![選取條件](assets/prompts-list.png)
+1. 在&#x200B;**顯示記錄位置……**&#x200B;區段中，選擇一個或所有顯示的提示的條件。 已套用提示，且已套用&#x200B;**儀表板提示**&#x200B;標籤會出現在報告Widget的角落。   ![選取條件](assets/prompts-list.png)
 
 1. 按一下右上角的&#x200B;**關閉**&#x200B;圖示![關閉圖示](assets/close-icon.png)以隱藏面板。
 

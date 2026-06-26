@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: b62fc2a213d9e7bc58a34d48166be61699908d0c
+source-git-commit: 871bb92456f95b7f70072a072971b5114ad02890
 workflow-type: tm+mt
-source-wordcount: '14227'
+source-wordcount: '14233'
 ht-degree: 2%
 
 ---
@@ -2157,6 +2157,7 @@ ht-degree: 2%
       * [開始使用Adobe Workfront Planning](planning/general/planning-overview.md)
       * [Adobe Workfront規劃實作建議](planning/general/planning-best-practices.md)
       * [Adobe Workfront Planning API基本需知](planning/general/planning-api-basics.md)
+      * {hide-from-toc}[適用於Workfront Planning的Workfront Data Connect](planning/general/planning-in-data-connect.md)
       * [Adobe Workfront Planning AI Assistant概觀](planning/general/planning-ai-assistant-overview.md)
       * [開始使用Adobe Workfront Planning Designer](planning/general/planning-ai-designer.md)
       * [2024年Adobe Workfront計畫發行活動](planning/general/release-activity.md)
