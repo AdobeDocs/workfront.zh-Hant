@@ -9,7 +9,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
 workflow-type: tm+mt
 source-wordcount: 287
 ht-degree: 0%
@@ -39,6 +39,7 @@ ht-degree: 0%
 「決定日期」欄位仍會顯示收件者最近一次決定活動的日期，但收件者的決定不再計入報告中。
 
 如需有關建立及使用校訂核准報告的資訊，請參閱[使用校訂核准報告](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)。
+
 
 
 

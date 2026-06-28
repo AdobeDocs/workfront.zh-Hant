@@ -7,7 +7,7 @@ description: 本頁包含有關Workfront Data Connect中資料結構和內容的
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: c6b944d04661af060f9c64dcc046680890eb59f6
+source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
 workflow-type: tm+mt
 source-wordcount: '8699'
 ht-degree: 9%
