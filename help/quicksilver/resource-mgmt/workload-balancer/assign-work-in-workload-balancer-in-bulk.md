@@ -7,11 +7,18 @@ author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
 TQID: https://experienceleague.adobe.com/6QlIfRh94tpLTZF6x5LU2BueTjShzNsaKxb45CEylqA
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
 workflow-type: tm+mt
 source-wordcount: 1242
@@ -25,7 +32,7 @@ ht-degree: 3%
 
 您可以使用Adobe Workfront工作負載平衡器大量指派資源給多個任務和問題。
 
-如需使用工作負載平衡器指派工作給使用者的一般資訊，請參閱在工作負載平衡器](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中指派工作的總覽。[
+如需使用工作負載平衡器指派工作給使用者的一般資訊，請參閱在工作負載平衡器[&#128279;](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中指派工作的總覽。
 
 ## 存取權要求
 
@@ -120,7 +127,7 @@ ht-degree: 3%
 
    或
 
-   按一下「大量任務」面板右上角的「全部清除&#x200B;****」以移除所有選取專案。
+   按一下「大量任務」面板右上角的「全部清除&#x200B;**&#x200B;**」以移除所有選取專案。
 
 1. 選取下列其中一個選項，然後繼續下列步驟：
 
