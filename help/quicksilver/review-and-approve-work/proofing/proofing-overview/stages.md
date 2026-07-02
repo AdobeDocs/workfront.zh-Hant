@@ -9,7 +9,7 @@ feature: Digital Content and Documents
 exl-id: a03d2cf2-edb3-43b7-a739-32600f2ae2a0
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 **範例：**&#x200B;例如，如果您建立有四名稽核者的校訂：
 
-* 對於稽核者Olivia和Tony，您指定從現在起數天後的14:00的截止日期。
+* 對於檢閱者Olivia和Tony，您指定從現在起數天內14:00的截止日期。
 * 對於Aaron和Amy，您會在幾天後指定17:00的截止日期。
 * 您沒有指定自己的截止日期。
 

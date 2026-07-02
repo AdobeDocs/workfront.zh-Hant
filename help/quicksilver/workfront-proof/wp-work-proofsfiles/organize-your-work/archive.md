@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 66a15edf-8504-471a-a6be-f632760b50ed
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 [!DNL Workfront Proof]個在60天非使用狀態後封存的校樣。
 
-如果您有編輯許可權，您可以隨時手動封存校樣。 如需有關編輯許可權的資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
+如果您有編輯許可權，您可以隨時手動封存校樣。 如需有關編輯許可權的資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔。
 
 封存的校樣：
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 ## 手動封存校樣
 
-如果您有編輯許可權，您可以隨時手動封存校樣。 如需有關編輯許可權的資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
+如果您有編輯許可權，您可以隨時手動封存校樣。 如需有關編輯許可權的資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔。
 
 封存程式最多可能需要24小時的時間才能完成。
 

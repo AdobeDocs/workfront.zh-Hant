@@ -9,8 +9,8 @@ recommendations: noDisplay, noCatalog
 exl-id: 4fba14b5-6c5a-4b03-99a7-f0e6f75807c3
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1288'
-ht-degree: 13%
+source-wordcount: '1301'
+ht-degree: 12%
 
 ---
 
@@ -59,10 +59,10 @@ ht-degree: 13%
 在「里程碑」檢視中檢視專案清單或專案報告時，現在提供下列改善專案：
 
 * **設定進度狀態和完成百分比是否顯示在檢視中：**&#x200B;有一個新選項可讓您設定進度狀態圖示是否顯示在里程碑檢視中。 此外，您也可以設定是否顯示與專案及任務相關的「完成百分比」資訊。\
-  如需詳細資訊，請參閱[&#128279;](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)在[使用里程碑檢視](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)中使用里程碑檢視。
+  如需詳細資訊，請參閱[在[使用里程碑檢視](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)中使用里程碑檢視](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)。
 
 * **直接從[里程碑]檢視編輯完成百分比：**&#x200B;現在您可以直接從[里程碑]檢視編輯專案和任務的完成百分比。\
-  如需詳細資訊，請參閱[&#128279;](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)在[使用里程碑檢視](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)中使用里程碑檢視。 
+  如需詳細資訊，請參閱[在[使用里程碑檢視](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)中使用里程碑檢視](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)。 
 
 ## 更新數個系統設定頁面的外觀
 
@@ -82,7 +82,7 @@ ht-degree: 13%
 
 電子郵件設定區域中事件通知的組織標題現在與使用者設定檔設定區域中使用的區段標題相符。
 
-如需有關事件通知的詳細資訊，請參閱  [設定系統中每個人的事件通知](../../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)。
+如需有關事件通知的詳細資訊，請參閱[設定系統中每個人的事件通知](../../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)。
 
 ## 選擇退出即時通知：內容摘要設定
 
