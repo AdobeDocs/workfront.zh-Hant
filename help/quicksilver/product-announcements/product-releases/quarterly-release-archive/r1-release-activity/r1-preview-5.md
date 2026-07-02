@@ -9,8 +9,8 @@ recommendations: noDisplay, noCatalog
 exl-id: 4fba14b5-6c5a-4b03-99a7-f0e6f75807c3
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1288'
-ht-degree: 13%
+source-wordcount: '1301'
+ht-degree: 12%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 13%
 
 電子郵件設定區域中事件通知的組織標題現在與使用者設定檔設定區域中使用的區段標題相符。
 
-如需有關事件通知的詳細資訊，請參閱  [設定系統中每個人的事件通知](../../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)。
+如需有關事件通知的詳細資訊，請參閱[設定系統中每個人的事件通知](../../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)。
 
 ## 選擇退出即時通知：內容摘要設定
 

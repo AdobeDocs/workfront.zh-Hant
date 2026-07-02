@@ -18,7 +18,7 @@ ht-degree: 0%
 
 如果您的組織從獨立版本的Workfront Proof變更為Workfront Pro計畫，其中Workfront Proof Premium與Workfront整合，則無法使用下列功能：
 
-* 能夠存取Workfront Proof (僅限Workfront管理員使用)。 如需詳細資訊，請參閱[從Adobe Workfront存取Workfront Proof](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)。
+* 能夠存取Workfront Proof （僅限Workfront管理員使用）。 如需詳細資訊，請參閱[從Adobe Workfront存取Workfront Proof](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)。
 
   >[!NOTE]
   >
@@ -41,7 +41,7 @@ ht-degree: 0%
   如需詳細資訊，請參閱[設定使用者的校訂存取權](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md)一文中的[為使用者啟用和停用校訂（僅限舊版計畫）](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md#enabling-and-disabling-proofing-for-a-user)。
 
 * 此功能已不再需要，因為校訂功能現在可供擁有背景工作授權或更高版本的所有使用者使用。 檢閱者和來賓可以存取及處理校樣，但無法產生校樣。
-* 使用者存取獨立版Workfront Proof的能力(僅限Workfront管理員使用)。
+* 使用者存取獨立版Workfront Proof的能力（僅限Workfront管理員使用）。
 * 可在新的整合帳戶與Workfront Proof帳戶之間連線。
 * 執行Workfront Proof報表的功能：
 
