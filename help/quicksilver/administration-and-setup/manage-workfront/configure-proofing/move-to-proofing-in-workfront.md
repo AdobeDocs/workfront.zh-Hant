@@ -26,7 +26,7 @@ ht-degree: 0%
 
 * 複製校訂版本的功能。 如需詳細資訊，請參閱[在Workfront Proof中複製校樣](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md)。
 
-* 可複製現有校訂的設定。 如需詳細資訊，請參閱[在[在Workfront Proof中複製校訂](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md)中複製新校訂的現有校訂設定](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md#copy-with-new-file)。
+* 可複製現有校訂的設定。 如需詳細資訊，請參閱[&#128279;](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md#copy-with-new-file)在[在Workfront Proof中複製校訂](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md)中複製新校訂的現有校訂設定。
 
 * 變更舊版校訂的功能。 如需詳細資訊，請參閱[在Workfront Proof中管理校訂版本](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md)中的[連結校訂版本](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md#linking-and-unlinking-proof-versions)。
 

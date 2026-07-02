@@ -22,7 +22,7 @@ ht-degree: 0%
 
 [!DNL Workfront Proof]個在60天非使用狀態後封存的校樣。
 
-如果您有編輯許可權，您可以隨時手動封存校樣。 如需有關編輯許可權的資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔。
+如果您有編輯許可權，您可以隨時手動封存校樣。 如需有關編輯許可權的資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
 
 封存的校樣：
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 ## 手動封存校樣
 
-如果您有編輯許可權，您可以隨時手動封存校樣。 如需有關編輯許可權的資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔。
+如果您有編輯許可權，您可以隨時手動封存校樣。 如需有關編輯許可權的資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
 
 封存程式最多可能需要24小時的時間才能完成。
 
