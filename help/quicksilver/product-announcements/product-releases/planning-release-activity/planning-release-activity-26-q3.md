@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a76a39fde984bece43cda9812c436d81f41eb989
+source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
 workflow-type: tm+mt
-source-wordcount: '2659'
+source-wordcount: '2809'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,29 @@ There are no features released during the Third Quarter Release for 2026. When f
 本文介紹2026年第三季度發行中針對Workfront Planning所推出的功能。
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## Snowflake中Workfront Planning的自動化存取控制
+
+>[!IMPORTANT]
+>
+>所有客戶的預覽和生產： 2026年7月16日不在排程&rbrack;{type=Neutral}內
+
+
+此發行版本引入了Snowflake中Workfront Planning資料的自動化、權益導向式存取管理，作為Workfront Data Connect的一部分。
+
+首先，將安全檢視的產生延伸至Planning表格，建立下游存取控制的必要基礎，並使基於權利的授權成為可能。
+
+以此為基礎，讀取器帳戶布建現在會在建立時檢查TMS權益，並自動套用或保留Planning資料庫的授權，以確保正確無誤。
+
+在此增強功能之前，這僅適用於Workfront。
+
+此更新包含下列功能：
+
+* 自動的每日工作會偵測現有客戶的權益變更
+* 新工作會根據許可權授予、撤銷或保留存取權
+* 提供完整的生命週期涵蓋範圍，涵蓋布建、建立帳戶及進行中的權益變更。
+
+[Workfront Data Connect資料字典](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)文章將在發行日期後更新。
 
 
 ## 設定記錄的預設許可權
