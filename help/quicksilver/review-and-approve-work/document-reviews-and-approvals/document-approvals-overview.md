@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
 workflow-type: tm+mt
-source-wordcount: 4002
+source-wordcount: 4114
 ht-degree: 0%
 
 ---
@@ -29,8 +29,7 @@ ht-degree: 0%
 
 {{highlighted-preview}}
 
-統一的稽核和核准將Adobe Workfront和Adobe Frame.io整合為單一、深度連結的體驗，消除行銷管理、創意稽核和內容傳送之間的差距。
-專案專員在Workfront中管理工作，而創意人員、行銷人員和利害關係人則在專業級Frame.io檢視器中稽核及核准資產，所有這一切都無需在中斷連線的工具之間移動檔案。
+統一的稽核和核准將Adobe Workfront和Adobe Frame.io整合為單一、深度連結的體驗，消除行銷管理、創意稽核和內容傳送之間的差距。專案專員在Workfront中管理工作，而創意人員、行銷人員和利害關係人則在專業級Frame.io檢視器中稽核及核准資產，所有這一切都無需在中斷連線的工具之間移動檔案。
 
 ![圖表顯示整合式稽核與核准工作流程，專案專員在Workfront中管理工作，而稽核者與核准者在Frame.io檢視器中提供意見與決策。](assets/Unified-Review-Approvals-Image.png)
 
@@ -286,6 +285,14 @@ Frame.io檢視器是所有Workfront檢閱和核准工作流程的預設檢視器
 **我可以新增階段來建立多階段核准工作流程嗎？**
 
 是。 支援多階段核准工作流程，可讓您在每個階段透過不同參與者的循序稽核和核准輪次來路由資產。
+
+<div class="preview">
+
+**我可以在核准工作流程中設定平行稽核路徑嗎？**
+
+是。 在預覽中，除了循序階段外，核准工作流程還支援平行路徑。 每個路徑會獨立執行並包含一或多個循序階段，因此不同路徑的檢閱可同時進行。 您最多可以在單一核准中設定30個路徑和100個階段。 核准範本中提供了相同的選項。 如需詳細資訊，請參閱[建立檔案核准工作流程](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)和[建立檔案的核准工作流程範本](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)。
+
+</div>
 
 <!--
 **Can I modify the trigger for a later stage---for example, based on all approved versus the due date ending?**

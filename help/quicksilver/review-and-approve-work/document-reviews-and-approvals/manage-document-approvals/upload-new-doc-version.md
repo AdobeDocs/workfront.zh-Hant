@@ -20,14 +20,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
 workflow-type: tm+mt
-source-wordcount: 664
-ht-degree: 3%
+source-wordcount: 1196
+ht-degree: 1%
 
 ---
 
 # 上傳新檔案版本並請求核准
+
+{{highlighted-preview}}
 
 如果檔案在先前的稽核中被標籤為「需要工作」，您可以將新版本上傳到原始檔案並開始另一輪核准。 上傳檔案的新版本後，先前版本即會鎖定。
 
@@ -76,7 +78,7 @@ ht-degree: 3%
 
 
 
-## 使用拖放功能，在舊版檔案區域中新增新版本
+## 使用拖放功能，在生產環境的舊版檔案區域中新增新版本
 
 如果您的組織使用Workfront儲存空間，當您存取Workfront中的檔案時，將會看到舊版檔案區域。 如需Workfront儲存體的詳細資訊，請參閱[Adobe雲端儲存體與舊版Workfront儲存體之間的差異](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)。
 
@@ -94,8 +96,7 @@ ht-degree: 3%
 1. 導覽至Workfront中的檔案。
 1. 將新檔案拖放至上一個檔案的頂端。 這會自動建立新版本。
 
-1. 檔案上傳完成後，請選取檔案以開啟檔案摘要面板。您會在面板頂端看到版本號碼。
-   ![開啟檔案詳細資料頁](assets/open-doc-details.png)
+1. 檔案上傳完成後，請選取檔案以開啟檔案摘要面板。 您會在面板頂端看到版本號碼。
 
 
 1. 向下捲動至&#x200B;**核准**&#x200B;區段。
@@ -141,5 +142,69 @@ ht-degree: 3%
 
    核准工作流程隨即開始，核准者會收到新檔案版本需要其核准的通知。 先前檔案版本已鎖定，並撤銷先前版本上的所有未完成核准。
 
-   ![要求核准](assets/request-approval.png)
+   !&lbrack;要求核准
    <!--1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.-->
+
+<div class="preview">
+
+## 使用拖放功能，在預覽的舊版檔案區域中新增新版本
+
+如果您的組織使用Workfront儲存空間，當您存取Workfront中的檔案時，將會看到舊版檔案區域。 如需Workfront儲存體的詳細資訊，請參閱[Adobe雲端儲存體與舊版Workfront儲存體之間的差異](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)。
+
+>[!NOTE]
+>
+>Internet Explorer無法使用拖放功能。
+
+如果您需要對檔案執行另一輪稽核和核准，可以在Workfront中建立新的檔案版本。 您可以新增先前的參與者、新參與者或兩者的組合。 您可以在「檔案詳細資訊」頁面上檢視先前版本和參與者的相關資訊。
+
+依預設，會以基本模式開啟請求核准對話方塊，以進行單階段核准。 切換到進階模式以設定多階段核准或平行路徑。
+
+若要新增版本並請求核准：
+
+1. 導覽至Workfront中的檔案。
+
+1. 將新檔案拖放至上一個檔案的頂端。 Workfront會自動建立新版本。
+
+1. 檔案上傳完成後，請選取檔案以開啟檔案摘要面板。 版本編號會顯示在面板頂端。
+
+1. 向下捲動至&#x200B;**核准**&#x200B;區段，然後按一下&#x200B;**建立工作流程**。 **要求核准**&#x200B;對話方塊會在基本模式下開啟。
+
+1. 設定核准工作流程。 如需欄位說明、進階模式切換和平行路徑流程，請參閱[建立檔案核准工作流程](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
+
+1. 按一下&#x200B;**要求核准**。
+
+   核准工作流程隨即開始，核准者會收到新檔案版本需要其核准的通知。 先前檔案版本已鎖定，並撤銷先前版本上的所有未完成核准。
+
+## 使用拖放功能，在預覽中的新檔案區域中新增新版本
+
+如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的檔案區域。 如需Adobe雲端儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+
+>[!NOTE]
+>
+>Internet Explorer無法使用拖放功能。
+
+如果您需要對檔案執行另一輪稽核和核准，可以在Workfront中建立新的檔案版本。 您可以將核准工作流程新增至檔案的新版本。
+
+<!--
+the previous participants, new participants, or a mix of both. You can view information about previous versions and participants on the Document Details page.
+-->
+
+依預設，會以基本模式開啟請求核准對話方塊，以進行單階段核准。 切換到進階模式以設定多階段核准或平行路徑。
+
+若要新增版本並請求核准：
+
+1. 導覽至Workfront中的檔案。
+
+1. 將新檔案拖放至上一個檔案的頂端。 Workfront會自動建立新版本。
+
+1. 檔案上傳完成後，請選取檔案以開啟「摘要」面板。 依預設，會選取檔案的最新版本。
+
+1. 向下捲動至&#x200B;**核准**&#x200B;區段，然後按一下&#x200B;**建立工作流程**。 **要求核准**&#x200B;對話方塊會在基本模式下開啟。
+
+1. 設定核准工作流程。 如需欄位說明、進階模式切換和平行路徑流程，請參閱[建立檔案核准工作流程](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
+
+1. 按一下&#x200B;**要求核准**。
+
+   核准工作流程隨即開始，核准者會收到新檔案版本需要其核准的通知。 先前檔案版本已鎖定，並撤銷先前版本上的所有未完成核准。
+
+</div>

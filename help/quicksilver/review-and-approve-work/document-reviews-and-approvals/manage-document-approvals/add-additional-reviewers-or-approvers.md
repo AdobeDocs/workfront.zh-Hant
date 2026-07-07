@@ -20,14 +20,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
 workflow-type: tm+mt
-source-wordcount: 532
-ht-degree: 3%
+source-wordcount: 1130
+ht-degree: 1%
 
 ---
 
 # 新增其他核准者或稽核者至檔案核准工作流程
+
+{{highlighted-preview}}
 
 您可以將其他核准者或稽核者新增至已有待核准的檔案核准工作流程。
 
@@ -71,7 +73,7 @@ ht-degree: 3%
 
 
 
-## 從舊檔案區域中的檔案摘要新增其他核准者或稽核者
+## 在生產環境的舊版檔案區域中新增其他核准者或稽核者
 
 如果您的組織使用Workfront儲存空間，當您存取Workfront中的檔案時，將會看到舊版檔案區域。 如需Workfront儲存體的詳細資訊，請參閱[Adobe雲端儲存體與舊版Workfront儲存體之間的差異](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)。
 
@@ -93,12 +95,42 @@ ht-degree: 3%
 
    ![核准者或檢閱者下拉式清單](assets/choose-approver-or-reviewer.png)
 
-1. 重複步驟5至6以新增其他核准者或稽核者。
-儲存之後，新增的參與者會收到電子郵件通知，告知檔案需要其核准或稽核。
+1. 重複步驟5至6以新增其他核准者或稽核者。儲存之後，新增的參與者會收到電子郵件通知，告知檔案需要其核准或稽核。
 
+<div class="preview">
 
+## 在預覽的舊版檔案區域中新增其他核准者或稽核者
 
-## 從新檔案區域中的檔案摘要新增其他核准者或稽核者
+如果您的組織使用Workfront儲存空間，當您存取Workfront中的檔案時，將會看到舊版檔案區域。 如需Workfront儲存體的詳細資訊，請參閱[Adobe雲端儲存體與舊版Workfront儲存體之間的差異](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)。
+
+若要從「檔案摘要」新增其他核准者或稽核者：
+
+1. 前往包含檔案的專案、任務或問題，然後在左側面板中選取&#x200B;**檔案**。
+
+1. 按一下您需要的檔案。 隨即開啟該檔案的檔案摘要面板。
+
+1. 在版本下拉式選單中，選取您要新增核准者或稽核者的檔案版本。 預設會選取最新版本。
+
+1. 向下捲動至&#x200B;**核准**&#x200B;區段，然後按一下&#x200B;**編輯工作流程**。 「請求核准」對話方塊會以上次儲存核准的模式開啟：「基本」用於單階段核准，或「進階」用於具有平行路徑的多階段核准和核准。
+
+1. 新增使用者、團隊或電子郵件：
+
+   * 在[基本]模式中，在&#x200B;**新增名稱或電子郵件**&#x200B;欄位中輸入名稱或電子郵件。
+   * 在[進階]模式中，選取包含您要更新的階段的路徑，然後在階段的&#x200B;**新增名稱或電子郵件**&#x200B;欄位中輸入名稱或電子郵件。
+
+1. 對於您新增的每個人，選擇他們是要核准者還是檢閱者。
+
+   ![核准者或檢閱者下拉式清單](assets/choose-reviewer-or-approver.png)
+
+1. 按一下「**儲存**」。 您新增的參與者會收到電子郵件通知，告知檔案需要其核准或稽核。
+
+>[!TIP]
+>
+>若要將基本模式核准重新建構為多階段或多路徑核准，請按一下右上角的&#x200B;**移至進階**。 您現有的參與者會保留為路徑1，階段1。 儲存後，無法切換回基本模式。 如需詳細資訊，請參閱[建立檔案核准工作流程](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
+
+</div>
+
+## 在生產環境的新檔案區域中新增其他核准者或稽核者
 
 如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的檔案區域。 如需Adobe雲端儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
@@ -118,35 +150,37 @@ ht-degree: 3%
 
    ![核准者或檢閱者下拉式清單](assets/choose-approver-or-reviewer.png)
 
-1. 重複步驟5至6以新增其他核准者或稽核者。
-儲存之後，新增的參與者會收到電子郵件通知，告知檔案需要其核准或稽核。
+1. 重複步驟5至6以新增其他核准者或稽核者。儲存之後，新增的參與者會收到電子郵件通知，告知檔案需要其核准或稽核。
 
+<div class="preview">
 
+## 在預覽中的新檔案區域中，從檔案摘要新增其他核准者或稽核者
 
+如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的檔案區域。 如需Adobe雲端儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
+若要從「檔案摘要」新增其他核准者或稽核者：
 
+1. 前往包含檔案的專案、任務或問題，然後在左側面板中選取&#x200B;**檔案**。
 
+1. 按一下檔案，然後按一下頁面右側的&#x200B;**核准**&#x200B;圖示。
 
-<!--
-## Add additional approvers or reviewers from Home
+   ![在檔案摘要中新增核准者](assets/approvals-icon-new.png)
 
-1. Click the **Home** icon ![Home icon](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
+1. 按一下&#x200B;**編輯工作流程**。 「請求核准」對話方塊會以上次儲存核准的模式開啟：「基本」用於單階段核准，或「進階」用於具有平行路徑的多階段核准和核准。
 
-   >[!NOTE]
-   >
-   >Your Workfront administrator might make the following changes to the Home icon in your environment:
-   >
-   >* Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
-   >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
+1. 新增使用者、團隊或電子郵件：
 
-1. In the **Work List** area, Go to the **Approvals I've Submitted** grouping.
+   * 在[基本]模式中，在&#x200B;**新增名稱或電子郵件**&#x200B;欄位中輸入名稱或電子郵件。
+   * 在[進階]模式中，選取包含您要更新的階段的路徑，然後在階段的&#x200B;**新增名稱或電子郵件**&#x200B;欄位中輸入名稱或電子郵件。
 
-1. Select a **Document** approval.  
+1. 對於您新增的每個人，選擇他們是要核准者還是檢閱者。
 
-1. Click **Manage Approvals**&nbsp;in the upper-right corner of the right panel.
-1. In the **Have someone approve this document** box, type the name of the approver.
+   ![核准者或檢閱者下拉式清單](assets/choose-reviewer-or-approver.png)
 
-   If your Adobe Workfront administrator has enabled the capability to collaborate with people who don't use Workfront, as described in [Configure system security preferences](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), you can type their email addresses to include them.
+1. 按一下「**儲存**」。 您新增的參與者會收到電子郵件通知，告知檔案需要其核准或稽核。
 
-1. Click **Save**.
--->
+>[!TIP]
+>
+>若要將基本模式核准重新建構為多階段或多路徑核准，請按一下右上角的&#x200B;**移至進階**。 您現有的參與者會保留為路徑1，階段1。 儲存後，無法切換回基本模式。 如需詳細資訊，請參閱[建立檔案核准工作流程](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
+
+</div>

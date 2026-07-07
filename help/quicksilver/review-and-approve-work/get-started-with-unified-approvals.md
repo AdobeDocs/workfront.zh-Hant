@@ -8,15 +8,16 @@ feature: Work Management, Digital Content and Documents
 exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 34861693e7671c3e485668ab7887a4cd05ae6e99
+source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
 
 # 開始使用統一檢閱和核准
 
+{{highlighted-preview}}
 
 統一的稽核和核准將Adobe Workfront和Adobe Frame.io整合為單一、深度連結的體驗，縮短行銷管理、創意稽核和內容傳送之間的差距。 專案專員在Workfront中管理工作，而創意人員、行銷人員和利害關係人則在專業級Frame.io檢視器中稽核及核准資產，所有這一切都無需在中斷連線的工具之間移動檔案。
 
@@ -63,11 +64,11 @@ ht-degree: 0%
 
 可將稽核者和核准者新增至一次性核准工作流程或可重複使用的核准範本：
 
-* **單次使用核准**：在資產所在的專案或任務中，專案協調員可以指派稽核者和核准者，並設定完成期限。 系統會透過電子郵件提醒檢閱者和核准者：截止日期前72小時、截止日期前24小時，然後於截止日期本身。
+* **單次使用核准**：在資產所在的專案或任務中，專案協調員可以指派稽核者和核准者，並設定完成期限。 系統會透過電子郵件提醒檢閱者和核准者：截止日期前72小時、截止日期前24小時，然後於截止日期本身。 <span class="preview">在預覽中，您也可以設定多階段核准和平行路徑，以便同時執行多個稽核追蹤。</span>
 
   如需詳細資訊，請參閱[建立檔案核准工作流程](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-from-the-summary-panel-in-the-new-document-area)。
 
-* **核准範本**：在Workfront設定區域中，專案專員可以建立可重複使用的核准範本。 在範本中，使用者可以新增稽核者和核准者，並指定完成時間範圍。 將核准範本套用至資產時，截止日期是從指定的時間範圍計算。
+* **核准範本**：在Workfront設定區域中，專案專員可以建立可重複使用的核准範本。 在範本中，使用者可以新增稽核者和核准者，並指定完成時間範圍。 將核准範本套用至資產時，截止日期是從指定的時間範圍計算。 <span class="preview">在預覽中，核准範本支援多階段核准和平行路徑，符合單一使用核准中可用的設定選項。</span>
 
   建立範本後，可將其套用至資產，以在Workfront中開始正式的稽核和核准流程。
 
