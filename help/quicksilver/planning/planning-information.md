@@ -26,9 +26,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
 workflow-type: tm+mt
-source-wordcount: 694
+source-wordcount: 706
 ht-degree: 10%
 
 ---
@@ -116,7 +116,7 @@ ht-degree: 10%
 
 * [Adobe Workfront Planning與Adobe GenStudio for Performance Marketing整合：文章索引](/help/quicksilver/planning/planning-and-genstudio-integration/planning-and-genstudio-integration-article-index.md)：您可以在Workfront Planning的GenStudio for Performance Marketing工作區中，管理GenStudio的記錄。
 
-* **Workfront Planning報告功能**：您可以使用Workfront Canvas Dashboard在報告中檢視Workfront Planning資訊。 如需詳細資訊，請參閱[畫布儀表板概觀](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)。
+* **Workfront Planning報告功能**：您可以使用Workfront Canvas Dashboard在報告中檢視Workfront Planning資訊，或在使用Snowflake技術的Workfront Data Connect中檢視Planning資訊。 如需詳細資訊，請參閱[Adobe Workfront規劃報告：文章索引](/help/quicksilver/planning/reporting/reporting-in-planning-article-index.md)。
 
 * [Adobe Workfront規劃最佳作法：文章索引](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md)：瞭解如何在組織中推行Adobe Workfront規劃的秘訣，其策略可優先考量安全性、將中斷情形降到最低，並快速獲勝。
 

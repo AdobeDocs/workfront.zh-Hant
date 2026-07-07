@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
 workflow-type: tm+mt
-source-wordcount: 388
+source-wordcount: 425
 ht-degree: 5%
 
 ---
@@ -81,7 +81,8 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->[!DNL Goals]的即時通知預設為停用。 您無法啟用或停用每日通知，並且不會收到此類別中事件的每日摘要電子郵件。 您可以啟用或停用[!DNL Goals]類別的個別即時通知。
+>* [!DNL Goals]的即時通知預設為停用。 您無法啟用或停用每日通知，並且不會收到此類別中事件的每日摘要電子郵件。 您可以啟用或停用[!DNL Goals]類別的個別即時通知。
+>* 您仍然可以收到有關目標更新的電子郵件，即使您在存取層級中無權存取目標，但有人指派了目標、結果或活動給您，或對指派給您的目標發表了評論。
 
 另請參閱[事件通知](../../workfront-basics/using-notifications/event-notifications.md)。
 

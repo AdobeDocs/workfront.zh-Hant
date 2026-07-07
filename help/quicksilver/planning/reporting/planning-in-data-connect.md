@@ -5,7 +5,7 @@ author: Courtney, Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
+source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%

@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
+source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '256'
 ht-degree: 6%
 
 ---
@@ -19,12 +19,11 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->畫布儀表板功能目前僅適用於參與Beta階段的使用者。在此階段中，部分功能可能無法完成或如預期般運作。
->下列雲端服務供應商無法使用Beta版：
+>畫布儀表板功能目前僅適用於參與Beta階段的使用者。 在此階段中，部分功能可能無法完成或如預期般運作。下列雲端提供者無法使用Beta版：
 >
 >* 自備Amazon Web Services金鑰
 >* Azure
->* Google Cloud平台> 如需詳細資訊，請參閱[管理畫布儀表板：文章索引](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)。
+>* Google Cloud Platform如需詳細資訊，請參閱[管理畫布儀表板：文章索引](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)。
 
 ## 存取權要求
 
@@ -73,6 +72,7 @@ ht-degree: 6%
 
 如需詳細資訊，請參閱下列文章：
 
+* [Canvas儀表板概觀](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
 * [在畫布儀表板中建立表格報告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
 * [在畫布控制面板中建立KPI報告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
 * [在畫布控制面板中建立KPI報告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
