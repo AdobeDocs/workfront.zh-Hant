@@ -5,9 +5,9 @@ title: Adobe Workfront MCP伺服器工具
 description: 透過Adobe Workfront MCP伺服器可用的工具參考清單，按Workfront區域分組。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: 3a0b283d72b290ceab0801a569a8f38a7437ae5d
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: '1666'
 ht-degree: 5%
 
 ---
@@ -92,6 +92,9 @@ ht-degree: 5%
 | 依名稱搜尋範本 | `approvals_search_template_by_name` | 依名稱尋找核准範本（不區分大小寫的部分相符）。 | 讀取 |
 | 建立核准範本 | `approvals_create_template` | 建立具有線性或圖表式階段相依性的新核准範本。 | 寫入 |
 | 更新核准範本 | `approvals_update_template` | 使用結構化修改（新增或移除參與者、重新命名階段、設定截止日期等）更新現有範本。 | 寫入 |
+| 大量提醒利害關係人核准 | `approvals_send_approval_reminder` | 傳送核准提醒電子郵件給整個專案、資料夾、行銷活動或到期日視窗中的所有待核准者。 | 寫入 |
+| 大量更新核准範本 | `approvals_update_template` | 對多個範本執行範本更新，例如將範本套用至資產、從頭開始或從現有核准流程建立新範本、編輯範本，以及跨範本和資產執行大量作業。 | 寫入 |
+| 大量新增或移除核准參與者。 | `approvals_update_approval_participants`和`approvals__submit_update_approval_participants` | 在一個作業中新增、移除或取代整個投資組合、方案或專案範圍內的參與者。 | 寫入 |
 
 ### 查閱和使用者
 
