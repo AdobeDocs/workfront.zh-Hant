@@ -10,21 +10,14 @@ exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/GijvNmSyIroodL3bz-AJRl0A-wuvKetxmrtSzscaje0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
 workflow-type: tm+mt
-source-wordcount: 536
-ht-degree: 2%
+source-wordcount: 566
+ht-degree: 1%
 
 ---
 
@@ -108,7 +101,7 @@ ht-degree: 2%
 * Workfront規劃報表
 * 和/或篩選
 * 表格欄和列的條件式格式設定
-* KPI和圖表報告的向下鑽研設定
+* KPI與圖表報表的向下展開設定
 * 分組表格結果
 * 控制面板層級篩選和使用者套用的覆蓋篩選器
 * 以使用者身分設定報告
@@ -116,12 +109,16 @@ ht-degree: 2%
 
 ### 開發中的功能
 
+我們目前正在以反複的方式在「畫布控制面板」中提供下列功能：
+
 * 其他Workfront物件型別
 * 可用性增強功能
 * 在儀表板上將Workfront Planning檢視納入為報表區塊
 * 使用儀表板作為Workfront Planning檢視
 * 延長對Azure和GCP客戶的支援
 * 效能最佳化
+
+如需有關新增到畫布控制面板的功能的資訊，請參閱[產品版本](/help/quicksilver/product-announcements/product-releases/product-releases.md)。
 
 ### 未來的藍圖功能
 

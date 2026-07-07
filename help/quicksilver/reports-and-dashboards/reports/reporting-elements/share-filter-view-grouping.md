@@ -9,18 +9,13 @@ exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/8pcOtwFrNqJrKYMzAgKEfRmHoJAkiimDVJxCav0NoiY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
 workflow-type: tm+mt
-source-wordcount: 1182
+source-wordcount: 1245
 ht-degree: 3%
 
 ---
@@ -123,7 +118,12 @@ ht-degree: 3%
    </tr>
    <tr>
    <td role="rowheader"><strong>與我共用</strong></td>
-   <td>其他人建立並與您共用或全系統共用的篩選器。</td>
+   <td>其他人建立並與您共用或全系統共用的篩選器。
+   <p><b>附註</b></p>
+   <p>擁有貢獻者、請求者或外部授權的使用者無法看見在整個系統內共用的篩選器、檢視或群組。 若要讓這些使用者能夠直接共用它（透過其使用者、工作角色、團隊、群組或公司），而不是依賴系統範圍的可見度。 即使篩選器、檢視或分組包含在其版面配置範本中，這亦適用。</p>
+
+
+   </td>
    </tr>
    </tbody>
    </table>

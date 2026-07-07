@@ -7,22 +7,14 @@ author: Courtney
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
 TQID: https://experienceleague.adobe.com/1qu77g6G1MGEEHPki6hVXfP5PG2TMD0xg5Gg3PC5G2Y
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
 workflow-type: tm+mt
-source-wordcount: 1355
+source-wordcount: 1382
 ht-degree: 1%
 
 ---
@@ -165,7 +157,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>設為於系統範圍中可見</strong></td> 
-   <td> <p>擁有Workfront帳戶的使用者可以在搜尋和檢視中找到物件。</p><p><b>注意</b>：具有貢獻者或請求者授權的使用者無法檢視專案，即使此設定已啟用亦然。 </td> 
+   <td> <p>擁有Workfront帳戶的使用者可以在搜尋和檢視中找到物件。</p><p><b>注意</b>：具有貢獻者或請求者授權的使用者無法看到專案、篩選器、檢視、群組，或任何在整個系統內共用的物件，即使此設定已啟用亦然。 您可以個別與貢獻者或請求者共用這些物件，以便檢視它們。 </td> 
   </tr> 
  </tbody> 
 </table>
