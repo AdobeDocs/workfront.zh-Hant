@@ -28,8 +28,8 @@ ht-degree: 17%
 
 * Workfront教學課程：如需詳細資訊，請參閱[[!DNL Workfront] 教學課程](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home)。
 
-* [!UICONTROL 創新實驗室]：如需詳細資訊，請參閱[[!UICONTROL 創新實驗室]](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas)。
-* [!UICONTROL [!DNL Workfront]社群]：如需詳細資訊，請參閱[The [!UICONTROL [!DNL Adobe Workfront] 社群]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)。
+* [!UICONTROL 創新實驗室]：如需詳細資訊，請參閱[[!UICONTROL 創新實驗室]](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas?profile.language=zh-Hant)。
+* [!UICONTROL [!DNL Workfront]社群]：如需詳細資訊，請參閱[The [!UICONTROL [!DNL Adobe Workfront] 社群]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=zh-Hant)。
 
 ## 從[!DNL Workfront]內部存取說明
 
