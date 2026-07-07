@@ -3,13 +3,13 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-locations
 title: 變更歷史記錄
-description: 變更記錄可讓您檢視Workfront物件的變更記錄
-author: Becky
+description: 變更記錄可讓您檢視Workfront物件的變更記錄。
+author: Lisa and Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 44292bc9cf8654d1ecfb398b0f118a6c001f544f
+source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '452'
 ht-degree: 4%
 
 ---
@@ -18,10 +18,8 @@ ht-degree: 4%
 
 您可以在「設定」的「變更追蹤」區域中檢視變更歷史記錄，包括稽核記錄。
 
-* **稽核記錄**&#x200B;是由使用者觸發的變更。
-如需稽核記錄檔和稽核記錄檔區域的詳細資訊，請參閱[稽核記錄檔概述](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
-* **組態**&#x200B;顯示正在追蹤哪一個欄位以取得變更記錄清單。
-設定目前僅作為資訊提供，無法變更。在不久的將來，您將會使用變更追蹤哪些欄位的功能。
+* **稽核記錄**&#x200B;是由使用者觸發的變更。如需稽核記錄檔和稽核記錄檔區域的詳細資訊，請參閱[稽核記錄檔概述](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
+* **組態**&#x200B;顯示正在追蹤哪一個欄位以取得變更記錄清單。設定目前僅作為資訊提供，無法變更。 在不久的將來，您將會使用變更追蹤哪些欄位的功能。
 * 「變更記錄清單」可讓您檢視Workfront物件的變更記錄，包括屬性，例如：
 
    * 物件
@@ -39,11 +37,11 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] 封裝</td> 
-   <td>Workflow Ultimate</td> 
+   <td>任何</td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td>[!UICONTROL 標準]</td> 
+   <td>[！UICONTROL標準]</td> 
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
