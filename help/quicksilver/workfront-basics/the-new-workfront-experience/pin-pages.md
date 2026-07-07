@@ -14,14 +14,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0115873e8dc3f17ae11fe137bfb57f12e6b514db
 workflow-type: tm+mt
-source-wordcount: 401
-ht-degree: 4%
+source-wordcount: 531
+ht-degree: 3%
 
 ---
 
 # 釘選頁面以自訂您的工作區
+
+{{highlighted-preview}}
 
 <!-- Audited: 4/2025 -->
 
@@ -62,6 +64,10 @@ ht-degree: 4%
 
 1. 在頁面的左上角，按一下&#x200B;**[!UICONTROL 釘選目前頁面]**。 釘選頁面現在可從[!DNL Workfront]中任何頁面的頂端存取。
 
+   在預覽環境中<span class="preview">範例影像：
+   ![釘選目前頁面](assets/pin-current-page-button-2026.png)
+
+   生產環境中的影像範例：
    ![釘選目前頁面](assets/pin-current-page-button.png)
 
 ## 存取釘選頁面
@@ -76,9 +82,32 @@ ht-degree: 4%
 
    如果您釘選了許多頁面，請按一下&#x200B;**[!UICONTROL 更多]**&#x200B;圖示![按一下「更多」圖示](assets/more-icon.png)以檢視其他釘選頁面。
 
+   在預覽環境中<span class="preview">範例影像：
+   ![釘選目前頁面](assets/display-pinned-pages-2026.png)
+
+   生產環境中的影像範例：
    ![檢視其他釘選頁面](assets/display-pinned-pages.png)
 
    釘選頁面隨即顯示。
+
+<div class="preview">
+
+## 管理圖釘
+
+您可以在一個位置重新命名、重新排序和移除釘選頁面。
+
+1. 按一下圖釘列中的&#x200B;**[!UICONTROL 更多]**&#x200B;圖示![按一下「更多」圖示](assets/more-icon.png)並選取&#x200B;**管理圖釘**。
+1. 在&#x200B;**管理釘選**&#x200B;方塊中，執行下列一或多個動作：
+
+   * 按一下&#x200B;**編輯**&#x200B;圖示以重新命名釘選頁面。 輸入新名稱，然後按一下核取記號圖示以進行確認。
+   * 以您所需的顯示順序拖放釘選頁面。
+   * 按一下&#x200B;**刪除**&#x200B;圖示，從清單中移除釘選頁面。
+
+   ![管理釘選方塊](assets/manage-pins.png)
+
+1. 完成編輯圖釘時，請按一下&#x200B;**關閉**。
+
+</div>
 
 ## 重新命名釘選頁面
 
@@ -90,7 +119,6 @@ ht-degree: 4%
 1. 輸入新的PIN名稱，然後按一下[儲存]。**&#x200B;**
 
    ![按一下核取記號以重新命名圖釘](assets/rename-pin-dialog-box.png)
-
 
 ## 重新排序釘選頁面
 

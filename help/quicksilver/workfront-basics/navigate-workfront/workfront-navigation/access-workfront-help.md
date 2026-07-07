@@ -9,7 +9,7 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
 workflow-type: tm+mt
 source-wordcount: 183
 ht-degree: 17%
@@ -35,7 +35,7 @@ ht-degree: 17%
 
 {{step1-click-main-menu}}
 
-1. 按一下&#x200B;**[!UICONTROL 說明]** ![說明圖示](assets/help-icon.png)。
+1. 按一下&#x200B;**[!UICONTROL 說明]** ![說明圖示](assets/help-icon-2026.png)。
 
 >[!NOTE]
 >
