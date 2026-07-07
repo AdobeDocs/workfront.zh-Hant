@@ -4,9 +4,9 @@ description: 2026年第三季度發行時間範圍內的其他增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b05cd2638ac0d35a0debb862d73dc8bee0cdb794
+source-git-commit: 69e4091dcb139d4a11dad768fe78cb8e75721f3f
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,15 @@ ht-degree: 0%
 
 如需2026年第三季度發行週期中目前可用的所有變更清單，請參閱[2026年第三季度發行概觀](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)。
 
+## 全域導覽圖示的介面更新
+
+>[!NOTE]
+>
+>預覽： 2026年7月7日生產快速發行： 2026年7月15日適用於所有人的生產： 2026年7月16日
+
+我們已更新Workfront中一般導覽圖示的外觀和風格，包括主要功能表和導覽列圖示，以提供現代設計和與其他Adobe應用程式一致的體驗。 此外，新增和移除釘選頁面的體驗已經過簡化，因此需要點按的次數更少。
+
+如需詳細資訊，請參閱[頂端導覽列總覽](/help/quicksilver/workfront-basics/the-new-workfront-experience/global-navigation-overview.md)和[釘選頁面](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md)。
 
 ## 更新評論通知電子郵件的外觀
 
@@ -42,7 +51,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2026年5月28日>生產快速版本： 2026年6月11日>每個人的生產： 2026年7月16日
+>預覽： 2026年5月28日生產環境快速發行： 2026年6月11日適用於所有人的生產： 2026年7月16日
 
 增強型清單上的多種欄位型別已更新，包括鍵盤導覽和其他增強功能。
 

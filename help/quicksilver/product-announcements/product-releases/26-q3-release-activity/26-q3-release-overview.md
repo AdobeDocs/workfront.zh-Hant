@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
+source-git-commit: 0c7265c477030137d14e95f42eaf67580589d70b
 workflow-type: tm+mt
-source-wordcount: '2369'
-ht-degree: 4%
+source-wordcount: '2620'
+ht-degree: 3%
 
 ---
 
@@ -60,6 +60,15 @@ ht-degree: 4%
         </tr>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md" class="MCXref xref" xrefformat="{para}">Workfront MCP Connector中可用的新工具</a>
+                <p>為了擴展Workfront MCP聯結器的功能，我們已新增八個工具，並淘汰搜尋物件和解析欄位名稱工具。</p>
+            </td>
+            <td><p>2026年7月7日</p></td>
+            <td><p>2026年7月15日</p></td>
+            <td><p>2026年7月16日</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md" class="MCXref xref" xrefformat="{para}">更新Workfront MCP聯結器</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>我們已更新Workfront MCP聯結器：<ul><li>Claude現在可以連線到MCP聯結器。</li><li>您現在可以使用來自歐盟<!--or from instances that do not use AWS-->執行個體的MCP聯結器。</p>
             </td>
@@ -89,6 +98,54 @@ ht-degree: 4%
             <td><strong>預覽</strong></td>
             <td><strong>快速發行</strong></td>
             <td><strong>每季</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">統一檢閱和核准的變更追蹤</a>
+                <p>「變更歷史記錄」頁面現在會擷取統一稽核與核准工作流程中的活動，為管理員提供核准、階段和參與者動作的完整治理追蹤。</p>
+            </td>
+            <td><p>2026年7月7日</p></td>
+            <td><p>2026年7月15日</p></td>
+            <td><p>2026年7月16日</p></td>
+        </tr>
+        <!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Internal lookup field replacing Typeahead field type</a>
+                <p>The new Internal lookup field type in custom forms provides dynamic filtering, multi-select support, and improved performance for large datasets. It is replacing the Typeahead field type.</p>
+            </td>
+            <td><p>July 7, 2026</p></td>
+            <td><p>July 15, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Default value logic supported on native reference fields</a><p>[!BADGE Workflow Prime]{type=Informative}</p>
+                <p>In custom forms, native reference fields now allow you to add default value logic. This logic type is available only in the user interface and not in the Workfront API.</p>
+            </td>
+            <td><p>July 7, 2026</p></td>
+            <td><p>July 15, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Updates to native field filtering in custom forms</a>
+                <p>System filters on native fields are now visible to administrators in custom forms, and dynamic filtering is now available on native reference fields.</p>
+            </td>
+            <td><p>July 7, 2026</p></td>
+            <td><p>July 15, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Protect field names from accidental renaming</a>
+                <p>Field names in the custom form field settings panel are now read-only by default, requiring an explicit confirmation step to rename. The Name field has been updated to API Name.</p>
+            </td>
+            <td><p>July 7, 2026</p></td>
+            <td><p>July 15, 2026</p></td>
+            <td><p>July 16, 2026</p></td>
+        </tr>
+        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">檢視Workfront物件的變更記錄</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
@@ -156,6 +213,15 @@ ht-degree: 4%
             <td><strong>預覽</strong></td>
             <td><strong>快速發行</strong></td>
             <td><strong>每季</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">平行核准路徑現在可用於統一核准</a>
+                <p>檔案的核准工作流程現在支援平行路徑，可讓團隊在單次核准中執行最多30個獨立稽核追蹤，以及最多100個階段。</p>
+            </td>
+            <td><p>2026年7月7日</p></td>
+            <td><p>2026年7月15日</p></td>
+            <td><p>2026年7月16日</p></td>
+        </tr>
         <!--
         <tr>
             <td>
@@ -163,8 +229,8 @@ ht-degree: 4%
                 <p>Adobe Cloud Drive is a desktop application that mounts your Adobe cloud storage projects as a drive on your Mac or Windows computer, so you can open, edit, and save files in any application directly from Finder or File Explorer.</p>
             </td>
             <td><p>N/A</p></td>
-            <td><p>June 26, 2026</p></td>
-            <td><p>June 26, 2026</p></td>
+            <td><p>July 7, 2026</p></td>
+            <td><p>July 7, 2026</p></td>
         </tr>
         -->
         <tr>
@@ -323,6 +389,24 @@ ht-degree: 4%
             <td><strong>每季</strong></td>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Snowflake中Workfront Planning的自動存取控制</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <p>此發行版本引入了Snowflake中Workfront Planning資料的自動化、權益導向式存取管理，作為Workfront Data Connect的一部分。  </p>
+            </td>
+            <td><p>2026年7月16日</p></td>
+            <td><p>2026年7月16日</p></td>
+            <td><p>2026年7月16日</p></td>
+            <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">新增新物件的自訂資料支援</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <p>在2026年第二季，我們新增物件以支援Workfront的企業作業增強功能。</p>
+            </td>
+            <td><p>2026年7月7日</p></td>
+            <td><p>2026年7月7日</p></td>
+            <td><p>2026年7月7日</p></td>
+        </tr>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">畫布儀表板提示預設和使用者偏好設定持續性</a>
                 <p>控制面板管理員現在可以為「畫布」控制面板定義預設提示值，並自動套用至所有檢視器。 當使用者更新提示時，他們的選擇會在重新整理、重新開啟或導覽到記錄並返回後儲存和還原。</p>
             </td>
@@ -441,6 +525,15 @@ ht-degree: 4%
             <td><strong>預覽</strong></td>
             <td><strong>快速發行</strong></td>
             <td><strong>每季</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">全域導覽圖示的介面更新</a>
+                <p>我們已更新Workfront中一般導覽圖示的外觀和風格，包括主要功能表和導覽列圖示，以提供與其他Adobe應用程式一致的現代化設計。</p>
+            </td>
+            <td><p>2026年7月7日</p></td>
+            <td><p>2026年7月15日</p></td>
+            <td><p>2026年7月16日</p></td>
         </tr>
         <tr>
             <td>
