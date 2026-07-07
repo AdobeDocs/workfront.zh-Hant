@@ -14,9 +14,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: a76a39fde984bece43cda9812c436d81f41eb989
 workflow-type: tm+mt
-source-wordcount: 128
+source-wordcount: 133
 ht-degree: 0%
 
 ---
@@ -46,6 +46,7 @@ ht-degree: 0%
 <div class="preview">
 
 * [共用記錄](/help/quicksilver/planning/access/share-records.md)
+* [設定記錄的預設許可權](/help/quicksilver/planning/access/set-default-record-permissions.md)
 
 </div>
 
