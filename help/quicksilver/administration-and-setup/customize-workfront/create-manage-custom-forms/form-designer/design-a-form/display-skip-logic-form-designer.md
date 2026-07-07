@@ -20,14 +20,16 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: e3c91351ad38d0585747df4adfd8818dfcea3530
 workflow-type: tm+mt
-source-wordcount: 3556
+source-wordcount: 3610
 ht-degree: 0%
 
 ---
 
 # 新增邏輯規則至自訂表單和欄位
+
+{{highlighted-preview}}
 
 邏輯規則可讓您進一步自訂表單上的欄位。
 
@@ -95,8 +97,7 @@ ht-degree: 0%
 
 ## 使用顯示邏輯和略過邏輯的考量事項
 
-* 若要在自訂欄位、Widget或分割槽符號上新增顯示邏輯，表單上必須至少有一個多選欄位（選項按鈕、下拉清單或核取方塊）位於該欄位之前。
-如需自訂表單中自訂欄位和Widget的相關資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+* 若要在自訂欄位、Widget或分割槽符號上新增顯示邏輯，表單上必須至少有一個多選欄位（選項按鈕、下拉清單或核取方塊）位於該欄位之前。如需自訂表單中自訂欄位和Widget的相關資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 * 您無法將跳過邏輯新增至Widget或分割槽符號。 您只能將其新增至多選欄位（選項按鈕、下拉式清單或核取方塊）。
 * 您無法套用顯示或略過邏輯來顯示或隱藏多選項欄位的選擇。 例如，您無法根據其他欄位的顯示或略過邏輯，限制顯示下拉式清單、核取方塊群組或選項按鈕欄位的選項。
 * 如果自訂欄位符合以下所有條件，則您可以將顯示邏輯和略過邏輯新增到自訂欄位：
@@ -238,7 +239,7 @@ ht-degree: 0%
 
 預設值邏輯可讓您使用公式來設定自訂表單欄位的預設值。 當滿足定義的條件時，會顯示預設值。 預設值可以是參考物件內其他欄位的靜態值或動態值。 雖然預設值可參考其他欄位，但不會隨著表單上的其他欄位變更而變更。
 
-您可以將進階預設值邏輯套用至下列欄位型別：單行文字、段落、單選下拉式清單、多選下拉式清單、外部查閱、多選外部查閱。 原生欄位參考、預先輸入、核取方塊群組和選項按鈕。
+您可以將進階預設值邏輯套用至下列欄位型別：單行文字、段落、單選下拉式清單、多選下拉式清單、外部查閱、多選外部查閱、<span class="preview">原生欄位參考</span>、預先輸入、核取方塊群組，以及選項按鈕。
 
 >[!TIP]
 >
@@ -247,6 +248,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >表單設計器中的標準預設值邏輯仍然存在。 如果兩個型別都套用至相同欄位，則進階邏輯優先。 如需有關標準預設值邏輯的資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)中的[新增選項按鈕、核取方塊群組和下拉清單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs)。
+>
+><span class="preview">對於原生參考欄位，預設值邏輯僅在使用者介面中可用，在Workfront API中則不可用。</span>
 
 ### 範例
 
