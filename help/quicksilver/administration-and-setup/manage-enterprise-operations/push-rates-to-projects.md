@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c38e60dd-7fb2-4afc-976a-b0966398c162
-source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
+source-git-commit: d645aeb9d2d49432b49b6f2e2c4748f50075c42b
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 6%
+source-wordcount: '305'
+ht-degree: 5%
 
 ---
 
@@ -67,6 +67,10 @@ ht-degree: 6%
    <!--/staffing plans-->
    <!--and staffing plans -->
    <!--or staffing plan -->
+
+   >[!NOTE]
+   >
+   >對話方塊上只會顯示具有過時費率卡片費率的專案。 如果專案使用此費率卡，且專案上的費率為目前費率，則不會顯示該費率。
 
 1. 按一下「[!UICONTROL **儲存**]」。
 
