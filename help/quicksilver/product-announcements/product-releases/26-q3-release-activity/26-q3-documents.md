@@ -54,7 +54,7 @@ For more information, see [Adobe Cloud Drive overview](/help/quicksilver/documen
 
 >[!NOTE]
 >
->預覽：不適用生產快速發行： 2026年6月15日每個人都要生產： 2026年6月15日不在排程]{type=Neutral}內
+>預覽：不適用生產快速發行： 2026年6月15日每個人都要生產： 2026年6月15日不在排程&rbrack;{type=Neutral}內
 
 Adobe Express和Workfront與Frame.io整合，為Adobe Express中建立的內容提供結構化稽核和核准。 設計人員可以將Workfront核准工作流程範本對應至快速範本，如此一來，當範本重新混合時，發佈前便會自動需要核准，透過預先設定的Workfront工作流程和Frame.io檢視器路由傳送資產。
 

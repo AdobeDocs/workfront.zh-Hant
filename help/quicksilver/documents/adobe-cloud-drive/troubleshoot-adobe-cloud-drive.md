@@ -6,9 +6,12 @@ title: 疑難排解Adobe Cloud Drive
 description: 檢閱Mac和Windows上Adobe Cloud Drive的限制、效能考量事項，以及常見問題的解決方案。
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 6ad89f8d00dd3a06eb160863c3213a9f80b1a44b
 workflow-type: tm+mt
 source-wordcount: 928
