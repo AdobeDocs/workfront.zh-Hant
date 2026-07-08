@@ -10,17 +10,13 @@ exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/P-naBIVBoFQcBaL4Zgo0cEOTQ8eErxqr0MBmHTbec9E
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 8fa3fbb299fef17fbd49978e74adef94c45bb000
 workflow-type: tm+mt
-source-wordcount: 4114
+source-wordcount: 4173
 ht-degree: 0%
 
 ---
@@ -88,7 +84,7 @@ Adobe雲端儲存空間的主要優點包括：
 
 #### Frame.io檢視器中支援的檔案型別
 
-Frame.io檢視器支援所有常見的視訊、影像、音訊、PDF和MS® Office型別。 如需支援檔案的詳細清單，請參閱Frame.io[&#128279;](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的支援的檔案型別。
+Frame.io檢視器支援所有常見的視訊、影像、音訊、PDF和MS® Office型別。 如需支援檔案的詳細清單，請參閱Frame.io](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的[支援的檔案型別。
 
 #### Frame.io檢視器的存取與授權
 
@@ -146,6 +142,8 @@ Frame.io檢視器是所有Workfront檢閱和核准工作流程的預設檢視器
 ### Workfront的檔案管理
 
 上傳至Workfront的檔案會儲存在Adobe雲端儲存空間，並可在Workfront和Frame.io中存取。 當您將檔案上傳到Workfront中的任務或問題時，系統會在Adobe雲端儲存空間中建立一個系統產生的資料夾，該資料夾會繼承任務或問題的許可權。 上傳至該任務或問題的所有檔案都會儲存在該資料夾中，並繼承其許可權。 如需Workfront中檔案的詳細資訊，請參閱[新的檔案區域總覽](/help/quicksilver/documents/managing-documents/documents-area.md)和[Adobe雲端儲存模型物件許可權和存取層級總覽](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)。
+
+您也可以使用Adobe Cloud Drive，從Mac或Windows案頭存取這些相同的檔案。 Adobe Cloud Drive會將您的Adobe雲端儲存空間專案掛載為電腦上的磁碟機，如此一來，您便可以在任何應用程式中開啟和編輯檔案，同時讓變更與Workfront和Frame.io保持同步。 如需詳細資訊，請參閱[Adobe Cloud Drive總覽](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md)。
 
 ### 檔案體驗限制
 
