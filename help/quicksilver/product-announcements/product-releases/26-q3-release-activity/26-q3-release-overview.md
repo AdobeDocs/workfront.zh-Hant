@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: a7a94a89b0d1f626658ef97f0f32a0e62e44da6b
+source-git-commit: 68cbebcb62faceab2bfbbcb9024d3916c2ba84b6
 workflow-type: tm+mt
-source-wordcount: '2822'
+source-wordcount: '2824'
 ht-degree: 3%
 
 ---
@@ -121,7 +121,7 @@ ht-degree: 3%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">原生參考欄位支援預設值邏輯</a><p>[!BADGE Workflow Prime]{type=Informative}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">原生參考欄位支援預設值邏輯</a><p>[!BADGE Workflow Prime或更高版本]{type=Informational}</p>
                 <p>在自訂表單中，原生參考欄位現在可讓您新增預設值邏輯。 此邏輯型別僅在使用者介面中可用，無法在Workfront API中使用。</p>
             </td>
             <td><p>2026年7月7日</p></td>
