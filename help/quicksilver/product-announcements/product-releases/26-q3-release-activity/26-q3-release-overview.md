@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: c2e1da665d483552b2b91c74768ce3b77457d268
+source-git-commit: a9688886f32cd41dd7d53dbf0a918f25fdd04a0b
 workflow-type: tm+mt
 source-wordcount: '2822'
 ht-degree: 3%
