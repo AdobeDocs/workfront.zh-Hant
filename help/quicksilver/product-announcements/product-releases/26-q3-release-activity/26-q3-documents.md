@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: 8fa3fbb299fef17fbd49978e74adef94c45bb000
+source-git-commit: 3db125c4ff09e97519f9f6c756b4507a2447394a
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 1%
+source-wordcount: '941'
+ht-degree: 0%
 
 ---
 
@@ -33,24 +33,19 @@ ht-degree: 1%
 
 如需詳細資訊，請參閱[建立檔案核准工作流程](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)和[建立檔案的核准工作流程範本](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)。
 
-<!--
-
-## Adobe Cloud Drive
+## Adobe雲端通道
 
 >[!NOTE]
 >
->Preview: N/A
->Production fast release: July 7, 2026
->Production for everyone: July 7, 2026
->This feature is only available to organizations on the Workflow Ultimate package, with Adobe cloud storage enabled.
+>預覽：不適用生產快速發行： 2026年7月8日適用於所有人的生產： 2026年7月8日此功能僅適用於工作流程Ultimate套件上已啟用Adobe雲端儲存空間的組織。
 
-Adobe Cloud Drive is now available to organizations that are on a version of Workfront that supports Adobe cloud storage. Adobe Cloud Drive is a desktop application that mounts your Adobe cloud storage projects as a drive on your Mac or Windows computer, so you can open, edit, and save files in any application directly from Finder or File Explorer. Your changes sync automatically to Adobe cloud storage and are available to your team in Workfront and Frame.io.
+Adobe Cloud Drive現在可供採用Workfront版本（支援Adobe雲端儲存空間）的組織使用。 Adobe Cloud Drive是一款案頭應用程式，可將Adobe雲端儲存空間專案掛載到Mac或Windows電腦上，讓您直接從Finder或File Explorer開啟、編輯和儲存任何應用程式中的檔案。 您的變更會自動同步至Adobe雲端儲存空間，並可供Workfront和Frame.io中的團隊使用。
 
-For more information, see [Adobe Cloud Drive overview](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
+如需詳細資訊，請參閱[Adobe Cloud Drive總覽](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md)。
 
-[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3492492){target="_blank"}
+[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3492492){target="_blank"}
 
--->
+## 使用Workfront和Frame.io請求核准Adobe Express範本
 
 >[!NOTE]
 >

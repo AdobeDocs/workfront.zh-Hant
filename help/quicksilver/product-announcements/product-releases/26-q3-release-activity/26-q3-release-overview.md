@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 8fa3fbb299fef17fbd49978e74adef94c45bb000
+source-git-commit: 3db125c4ff09e97519f9f6c756b4507a2447394a
 workflow-type: tm+mt
-source-wordcount: '2761'
+source-wordcount: '2822'
 ht-degree: 3%
 
 ---
@@ -222,17 +222,15 @@ ht-degree: 3%
             <td><p>2026年7月15日</p></td>
             <td><p>2026年7月16日</p></td>
         </tr>
-        <!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Adobe Cloud Drive</a><p>[!BADGE Off schedule]{type=Neutral}</p><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
-                <p>Adobe Cloud Drive is a desktop application that mounts your Adobe cloud storage projects as a drive on your Mac or Windows computer, so you can open, edit, and save files in any application directly from Finder or File Explorer.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Adobe Cloud Drive</a><p>[!BADGE Off Schedule]{type=Neutral}</p><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>Adobe Cloud Drive是一款案頭應用程式，可將Adobe雲端儲存空間專案掛載到Mac或Windows電腦上，讓您直接從Finder或File Explorer開啟、編輯和儲存任何應用程式中的檔案。</p>
             </td>
-            <td><p>N/A</p></td>
-            <td><p>July 7, 2026</p></td>
-            <td><p>July 7, 2026</p></td>
+            <td><p>不適用</p></td>
+            <td><p>2026年7月8日</p></td>
+            <td><p>2026年7月8日</p></td>
         </tr>
-        -->
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">使用Workfront和Frame.io要求核准Adobe Express範本</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>Adobe Express和Workfront與Frame.io整合，為Adobe Express中建立的內容提供結構化稽核和核准。 設計人員可以將Workfront核准工作流程範本對應至快速範本，如此一來，當範本重新混合時，發佈前便會自動需要核准，透過預先設定的Workfront工作流程和Frame.io檢視器路由傳送資產。</p>
