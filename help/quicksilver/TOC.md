@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: a76a39fde984bece43cda9812c436d81f41eb989
+source-git-commit: 8fa3fbb299fef17fbd49978e74adef94c45bb000
 workflow-type: tm+mt
-source-wordcount: '14248'
+source-wordcount: '14272'
 ht-degree: 2%
 
 ---
@@ -1198,6 +1198,12 @@ ht-degree: 2%
       * [組織檔案](documents/organizing-documents/organize-documents.md)
       * [建立檔案資料夾](documents/organizing-documents/create-documents-folder.md)
       * [建立及管理智慧資料夾](documents/organizing-documents/create-manage-smart-folders.md)
+   * Adobe雲端通道 {#adobe-cloud-drive}
+      * [Adobe Cloud Drive：文章索引](documents/adobe-cloud-drive/adobe-cloud-drive.md)
+      * [Adobe Cloud Drive概述](documents/adobe-cloud-drive/adobe-cloud-drive-overview.md)
+      * [安裝Adobe Cloud Drive](documents/adobe-cloud-drive/install-adobe-cloud-drive.md)
+      * [使用Adobe Cloud Drive](documents/adobe-cloud-drive/use-adobe-cloud-drive.md)
+      * [疑難排解Adobe Cloud Drive](documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md)
    * Workfront與Experience Manager Assets整合 {#wf-aem-integrations}
       * [Workfront與Experience Manager Assets整合](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
       * 適用於Experience Manager的Workfront增強型聯結器 {#wf-aem-enhanced-connector}

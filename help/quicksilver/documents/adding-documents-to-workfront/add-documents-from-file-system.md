@@ -19,9 +19,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 5e63d7e8c5c282cf4d0cc588b59733b2d790b457
 workflow-type: tm+mt
-source-wordcount: 1317
+source-wordcount: 1383
 ht-degree: 2%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 2%
 
 Adobe Workfront目前有以下兩種檔案儲存型別：
 
-* 舊版Workfront儲存空間
+* 舊版 Workfront 儲存空間
 * Adobe 雲端儲存空間
 
 如需這些儲存體型別的詳細資訊，請參閱[Adobe雲端儲存體概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
@@ -184,6 +184,10 @@ Adobe Workfront目前有以下兩種檔案儲存型別：
 如果您需要有關將檔案新版本上傳到Workfront的資訊，請參閱[上傳檔案新版本](../../documents/managing-documents/upload-new-document-version.md)。
 
 系統會自動在「檔案」區段中建立與上載檔案目標物件同名的資料夾，並將檔案新增至資料夾。
+
+### 使用Adobe Cloud Drive新增檔案
+
+如果您的組織使用Adobe雲端儲存空間，您也可以使用Adobe Cloud Drive從案頭新增檔案。 Adobe Cloud Drive會將您的Adobe雲端儲存空間專案掛載為Mac或Windows電腦上的磁碟機。 您儲存在磁碟機中專案資料夾內的任何檔案都會自動同步至Workfront。 如需詳細資訊，請參閱[Adobe Cloud Drive總覽](../../documents/adobe-cloud-drive/adobe-cloud-drive-overview.md)。
 
 ## Adobe雲端儲存空間的檔案安全性
 

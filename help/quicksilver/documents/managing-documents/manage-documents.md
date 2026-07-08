@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents
 navigation-topic: documents-navigation-topic
-title: 管理檔案
+title: 管理檔案：文章索引
 description: 您可以在Workfront的「檔案」區域中整理和管理檔案。
 author: Courtney
 feature: Digital Content and Documents
@@ -13,14 +13,14 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 507718ad95931f2d2a7698620dd7b5e79c3c0105
 workflow-type: tm+mt
-source-wordcount: 106
+source-wordcount: 110
 ht-degree: 0%
 
 ---
 
-# 管理檔案
+# 管理檔案：文章索引
 
 您可以在Workfront的「檔案」區域中整理和管理檔案。
 

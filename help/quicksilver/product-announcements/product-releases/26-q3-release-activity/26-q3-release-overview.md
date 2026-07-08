@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 9cdb31404a92171c8972520eb54a9b5b0c729514
+source-git-commit: 8fa3fbb299fef17fbd49978e74adef94c45bb000
 workflow-type: tm+mt
 source-wordcount: '2761'
 ht-degree: 3%
@@ -233,7 +233,6 @@ ht-degree: 3%
             <td><p>July 7, 2026</p></td>
         </tr>
         -->
-        <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">使用Workfront和Frame.io要求核准Adobe Express範本</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>Adobe Express和Workfront與Frame.io整合，為Adobe Express中建立的內容提供結構化稽核和核准。 設計人員可以將Workfront核准工作流程範本對應至快速範本，如此一來，當範本重新混合時，發佈前便會自動需要核准，透過預先設定的Workfront工作流程和Frame.io檢視器路由傳送資產。</p>

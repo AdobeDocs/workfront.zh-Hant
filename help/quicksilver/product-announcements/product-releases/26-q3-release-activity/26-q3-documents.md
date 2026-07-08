@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: 6e0b4b17c927accc45846dc0affbf7a9425cca80
+source-git-commit: 8fa3fbb299fef17fbd49978e74adef94c45bb000
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '803'
 ht-degree: 1%
 
 ---
@@ -51,8 +51,6 @@ For more information, see [Adobe Cloud Drive overview](/help/quicksilver/documen
 [View a video demonstration of this feature.](https://video.tv.adobe.com/v/3492492){target="_blank"}
 
 -->
-
-## 使用Workfront和Frame.io請求核准Adobe Express範本
 
 >[!NOTE]
 >

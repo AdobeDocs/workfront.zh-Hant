@@ -15,9 +15,9 @@ feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 5e63d7e8c5c282cf4d0cc588b59733b2d790b457
 workflow-type: tm+mt
-source-wordcount: 72
+source-wordcount: 85
 ht-degree: 0%
 
 ---
@@ -30,7 +30,8 @@ ht-degree: 0%
 
 如需有關使用檔案的資訊，請檢視下列子小節中的文章：
 
-* [新增檔案至Adobe Workfront](../documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
-* [管理檔案](../documents/managing-documents/manage-documents.md)
-* [組織檔案](../documents/organizing-documents/organize-documents.md)
-* [Workfront與Experience Manager Assets整合](../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
+* [新增檔案至Adobe Workfront：文章索引](../documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
+* [管理檔案：文章索引](../documents/managing-documents/manage-documents.md)
+* [組織檔案：文章索引](../documents/organizing-documents/organize-documents.md)
+* [Adobe Cloud Drive：文章索引](../documents/adobe-cloud-drive/adobe-cloud-drive.md)
+* [Workfront與Experience Manager Assets整合：文章索引](../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
