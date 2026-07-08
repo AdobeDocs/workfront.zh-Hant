@@ -162,7 +162,7 @@ ht-degree: 0%
 
 如有授權問題、專案存取問題或組織專屬設定，請聯絡您的Workfront管理員。
 
-若要與Adobe支援共用記錄檔，請依照[執行Adobe記錄收集器工具](https://helpx.adobe.com/creative-cloud/apps/troubleshoot/diagnostics-repair-tools/run-log-collector-tool.html)中的步驟操作。
+若要與Adobe支援共用記錄檔，請依照[執行Adobe記錄收集器工具](https://helpx.adobe.com/tw/creative-cloud/apps/troubleshoot/diagnostics-repair-tools/run-log-collector-tool.html)中的步驟操作。
 
 ## 最佳做法
 
