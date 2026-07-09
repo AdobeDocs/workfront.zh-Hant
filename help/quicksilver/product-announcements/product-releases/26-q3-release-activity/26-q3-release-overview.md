@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 68cbebcb62faceab2bfbbcb9024d3916c2ba84b6
+source-git-commit: a131344f390abd94383fae0b9cc318ef0ca79d3a
 workflow-type: tm+mt
-source-wordcount: '2824'
+source-wordcount: '2920'
 ht-degree: 3%
 
 ---
@@ -522,6 +522,15 @@ ht-degree: 3%
             <td><strong>預覽</strong></td>
             <td><strong>快速發行</strong></td>
             <td><strong>每季</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">評論封存最佳化</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <p>我們目前正在針對顯示「更新」區域的所有Workfront物件，最佳化超過1年的評論封存。 這是內部工作，應該不會影響您使用更新區域的體驗。 任何物件型別的「更新」區域都沒有視覺上的變更，而且此更新的功能也沒有任何變更。 所有物件型別仍可看見所有註解。</p>
+            </td>
+            <td><p>自2026年7月7日起分階段推出</p></td>
+            <td><p>自2026年7月7日起分階段推出</p></td>
+            <td><p>自2026年7月7日起分階段推出</p></td>
         </tr>
         <tr>
             <td>
