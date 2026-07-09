@@ -5,9 +5,9 @@ title: Adobe Workfront MCP伺服器工具
 description: 透過Adobe Workfront MCP伺服器可用的工具參考清單，按Workfront區域分組。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 2b8db72feb3cbe7baa19d2cb9c8894ce9a5e4e62
+source-git-commit: 1b90f291995f636b1eecdf1af6a02fed7f01e9a4
 workflow-type: tm+mt
-source-wordcount: '1765'
+source-wordcount: '1768'
 ht-degree: 5%
 
 ---
@@ -214,6 +214,8 @@ Insights tools retrieve information about Workfront objects.
 ## 工作流程工具
 
 工作流程工具是AI代理平台用於處理任何Workfront物件的一般用途動作，包括專案、任務、問題、小時、指派、計畫、投資組合等。
+
+### 物件和欄位
 
 | 標題 | 工具名稱 | 作用 | 動作 |
 | --- | --- | --- | --- |
