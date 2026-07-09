@@ -17,7 +17,7 @@ feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 7113e16c3856fa984063f138c3fbb12e46f42db1
+source-git-commit: 347eb022f68e00b13b3b517a1aaec9cd15f952c7
 workflow-type: tm+mt
 source-wordcount: 96
 ht-degree: 0%
@@ -36,3 +36,4 @@ ht-degree: 0%
 * [統一檢閱和核准總覽](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
 * [使用Adobe Experience Manager與Frame.io整合](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
 * [透過Frame.io整合開始使用Adobe Express和Workfront](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/express-wf-frame.md)
+

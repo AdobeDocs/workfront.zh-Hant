@@ -7,7 +7,7 @@ description: 開始使用Adobe Express和Frame.io整合
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 7113e16c3856fa984063f138c3fbb12e46f42db1
+source-git-commit: 347eb022f68e00b13b3b517a1aaec9cd15f952c7
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 2%
@@ -112,3 +112,4 @@ Adobe Express使用者可以根據自己的需求混合使用快速範本。 發
 使用者必須至少擁有Collaborator Workfront授權，才能進行檢閱並作出決定。
 
 如需使用Frame.io檢視器的詳細資訊，請參閱[在您的媒體上發表評論](https://help.frame.io/en/articles/9105251-commenting-on-your-media)。
+
