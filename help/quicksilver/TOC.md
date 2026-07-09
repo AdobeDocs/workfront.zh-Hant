@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 7113e16c3856fa984063f138c3fbb12e46f42db1
+source-git-commit: 347eb022f68e00b13b3b517a1aaec9cd15f952c7
 workflow-type: tm+mt
-source-wordcount: '14291'
+source-wordcount: '14283'
 ht-degree: 2%
 
 ---
@@ -721,7 +721,7 @@ ht-degree: 2%
          * [管理 API 金鑰](administration-and-setup/manage-workfront/security/manage-api-keys.md)
          * [隱私權原則](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
          * {hide-from-toc}[增強式驗證概觀](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
-         * {hide-from-toc}[使用增強式驗證時更新IDP中的SAML 2.0中繼資料](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
+         * 使用增強式驗證時{hide-from-toc}[更新IDP中的SAML 2.0中繼資料](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
       * 匯率 {#exchange-rates}
          * [匯率](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
          * [設定匯率](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
@@ -1193,7 +1193,7 @@ ht-degree: 2%
       * [刪除文件](documents/managing-documents/delete-documents.md)
       * [從剪貼簿貼上影像](documents/managing-documents/paste-image-clipboard.md)
       * [大量編輯檔案](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)
-      * {hide-from-toc}[Workfront檔案詳細資訊中的AddBuilder](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
+      * {hide-from-toc}[Workfront檔案詳細資訊](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)中的AddBuilder
    * 組織檔案 {#organize-documents}
       * [組織檔案](documents/organizing-documents/organize-documents.md)
       * [建立檔案資料夾](documents/organizing-documents/create-documents-folder.md)
@@ -2616,10 +2616,10 @@ ht-degree: 2%
       * [使用JWT流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-pkce-flow.md)
       * [棄用API — 內部](wf-api/api/deprecation-api-internal.md)
-      * [&#x200B; API 22版的新增功能](/help/quicksilver/wf-api/api/new-api-version-22.md)
-      * [&#x200B; API 21版的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [&#x200B; API 20版的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [&#x200B; API 19版的新增功能](wf-api/api/new-api-version-19.md)
+      * [ API 22](/help/quicksilver/wf-api/api/new-api-version-22.md)版的新增功能
+      * [ API 21](/help/quicksilver/wf-api/api/new-api-version-21.md)版的新增功能
+      * [ API 20](/help/quicksilver/wf-api/api/new-api-version-20.md)版的新增功能
+      * [ API 19](wf-api/api/new-api-version-19.md)版的新增功能
       * [API 18版的新增功能](wf-api/api/new-api-version-18.md)
       * [API 17版的新增功能](wf-api/api/new-api-version-17.md)
       * [API 16版的新增功能](wf-api/api/new-api-version-16.md)
@@ -2702,6 +2702,7 @@ ht-degree: 2%
    * [使用Adobe App Builder為Workfront建立自訂應用程式](/help/quicksilver/app-builder/app-builder.md)
 * {hide-from-toc}[隱藏的測試檔案](hidden-test.md)
 * {hide-from-toc}[隱藏2](hidden-test-2.md)
+
 
 
 <!--
