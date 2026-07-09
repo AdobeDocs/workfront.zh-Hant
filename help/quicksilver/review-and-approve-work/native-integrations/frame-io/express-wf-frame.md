@@ -7,7 +7,7 @@ description: 開始使用Adobe Express和Frame.io整合
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 3b94bbc6141556e081cb6057c49375b21bd61b53
+source-git-commit: 7113e16c3856fa984063f138c3fbb12e46f42db1
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 2%
@@ -80,7 +80,7 @@ ht-degree: 2%
 
 使用者必須擁有Standard Workfront授權，才能向Adobe Express請求核准。
 
-瞭解如何[取得設計的核准](https://helpx.adobe.com/tw/express/web/share-and-publish/share-and-collaborate/request-approval.html)。
+瞭解如何[取得設計的核准](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html)。
 
 
 ## 重新混合快速範本，並傳送以供檢閱和核准
@@ -100,7 +100,7 @@ Adobe Express使用者可以根據自己的需求混合使用快速範本。 發
 
 如果未選取任何專案，則資產將預設為Express專用專案。
 
-如需詳細資訊，請參閱[傳送範本以供檢閱和核准](https://helpx.adobe.com/tw/express/web/invite-collaborate/request-approval.html)。
+如需詳細資訊，請參閱[傳送範本以供檢閱和核准](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html)。
 
 
 ## 檢閱並核准使用Frame.io重新混合的Express檔案
