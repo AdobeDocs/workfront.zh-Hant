@@ -7,7 +7,7 @@ description: 開始使用Adobe Express和Frame.io整合
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 3b94bbc6141556e081cb6057c49375b21bd61b53
+source-git-commit: 7113e16c3856fa984063f138c3fbb12e46f42db1
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 2%
