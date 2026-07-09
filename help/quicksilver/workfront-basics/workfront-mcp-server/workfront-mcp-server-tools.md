@@ -5,9 +5,9 @@ title: Adobe Workfront MCP伺服器工具
 description: 透過Adobe Workfront MCP伺服器可用的工具參考清單，按Workfront區域分組。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 67b774fd8f88c244fa6c1287d2dd8bb0c47f20a3
+source-git-commit: 588b4dac3acc411f63868bd603beba3312299830
 workflow-type: tm+mt
-source-wordcount: '1666'
+source-wordcount: '1765'
 ht-degree: 5%
 
 ---
@@ -107,6 +107,21 @@ ht-degree: 5%
 | 依名稱尋找專案 | `approvals_find_project_by_name` | 依整個系統的部分名稱相符專案來查詢Workfront專案。 | 讀取 |
 | 依所有者取得專案 | `approvals_get_projects_by_owner` | 列出呼叫使用者是擁有者的Workfront專案。 | 讀取 |
 | 取得Adobe地區 | `approvals_get_adobe_region` | 傳回雲端提供者地區的Adobe名稱。 | 讀取 |
+
+### 註解
+
+| 標題 | 工具名稱 | 作用 | 動作 |
+| --- | --- | --- | --- |
+| 查詢註解 | `comment-stream_query_comments` | 依物件ID查詢註解，包含分頁。 | 讀取 |
+| 取得註解 | `comment-stream_get_comment` | 依ID取得單一註解。 | 讀取 |
+| 取得評論計數 | `comment-stream_get_comments_count` | 取得物件的最上層註解總數。 | 讀取 |
+| 建立評論 | `comment-stream_create_comment` | 在物件上建立新註解。 | 寫入 |
+| 建立回覆 | `comment-stream_create_reply` | 建立現有註解的回覆。 | 寫入 |
+| 更新評論 | `comment-stream_update_comment` | 更新現有的註解或回覆。 | 寫入 |
+| 刪除評論 | `comment-stream_delete_comment` | 依ID刪除評論。 | 寫入 |
+| 新增反應 | `comment-stream_add_reaction` | 新增回應(like)至註解。 | 寫入 |
+| 移除反應 | `comment-stream_remove_reaction` | 從註解中移除回應（類似）。 | 寫入 |
+
 
 <!--
 
