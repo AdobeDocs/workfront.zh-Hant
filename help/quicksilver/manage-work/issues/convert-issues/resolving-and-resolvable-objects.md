@@ -10,22 +10,14 @@ exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/hJjssjxhgj3-0qndsIKMN5ygISRlv2GlE1HRKW68kdQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 71bea9d8e8a1987c5a1ee23d25402f784d2e22c8
 workflow-type: tm+mt
-source-wordcount: 1755
+source-wordcount: 1809
 ht-degree: 1%
 
 ---
@@ -189,11 +181,15 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 * 專案或任務的自訂狀態與問題自訂狀態具有相同的三個字母代碼。
 
-您可以針對問題和專案或任務建立具有相同索引鍵的自訂狀態。 當專案或任務（作為解決物件）變更為自訂狀態時，變更也會反映在問題狀態上。 問題和專案或任務狀態的狀態索引鍵必須相同。
+考慮以下事項：
 
-例如，假設您使用三個字母的程式碼LCD建立名為Launched的專案自訂狀態，這相當於Current。 接下來，您建立名為「已啟動專案」的問題自訂狀態，同時顯示字母代碼LCD，這相當於「進行中」。 當您將專案標籤為「已啟動」時，問題會自動將狀態變更為「已啟動專案」。 如果在解析物件變更設定的狀態未啟用時自動更新可解析問題狀態，則問題狀態將改為進行中。
+* 您可以針對問題和專案或任務建立具有相同索引鍵的自訂狀態。 當專案或任務（作為解決物件）變更為自訂狀態時，變更也會反映在問題狀態上。 問題和專案或任務狀態的狀態索引鍵必須相同。
 
-如需建立自訂狀態的詳細資訊，請參閱[建立或編輯狀態](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)。
+  例如，您可以使用三字母代碼LCD來建立名為Launched的專案自訂狀態，這相當於Current。 接下來，您建立名為「已啟動專案」的問題自訂狀態，同時顯示字母代碼LCD，這相當於「進行中」。 當您將專案標籤為「已啟動」時，問題會自動將狀態變更為「已啟動專案」。 如果在解析物件變更設定的狀態未啟用時自動更新可解析問題狀態，則問題狀態將改為進行中。
+
+* 當解析物件設定為對應至完成狀態的系統狀態時，可解析問題會設定為自身群組對該狀態的預設狀態。 三字母狀態金鑰相符專案僅適用於自訂狀態路徑，而不適用於Workfront設定的系統狀態。
+
+  如需建立自訂狀態的詳細資訊，請參閱[建立或編輯狀態](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)。
 
 ## 將解析物件的完成百分比與可解析物件的完成百分比同步
 
