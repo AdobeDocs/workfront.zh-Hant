@@ -5,15 +5,17 @@ title: 使用Adobe Workfront MCP伺服器
 description: 使用Adobe Workfront MCP伺服器，透過AI代理平台中的自然語言對話來搜尋、建立、更新和管理Workfront專案。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 267db684aa9b2b2a07c81394ba167017c89280f8
+source-git-commit: 5592c1b93b5e44c732f92d626ed878d2c4647ceb
 workflow-type: tm+mt
-source-wordcount: '1787'
+source-wordcount: '1896'
 ht-degree: 0%
 
 ---
 
 
 # 使用Adobe Workfront MCP伺服器
+
+<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 [!DNL Adobe Workfront] MCP伺服器可讓您透過詢問自然語言的AI代理平台，來尋找、建立、更新和管理Workfront專案。 平台會決定要呼叫哪些Workfront動作，並替您處理與Workfront的對話。
 
@@ -208,9 +210,8 @@ Workfront設定區域。 如果寫入動作停用，AI代理平台
 
 ### AI代理平台會在變更或刪除Workfront資料之前詢問我嗎？
 
-這取決於AI代理平台，而不是Workfront。大部分平台
-在執行動作前提示您確認，尤其是刪除動作。
-核准請求前，請先詳閱平台說明即將進行的作業 — 
+這取決於AI代理平台，而不是Workfront。 大部分平台
+在執行動作前提示您確認，尤其是刪除動作。核准請求前，請先詳閱平台說明即將進行的作業 — 
 變更會在Workfront中發生，就像您進行變更時一樣
 介面中為您自己。
 
@@ -242,9 +243,8 @@ AI代理平台會根據您使用的字詞挑選專案。 若您的
 
 ### 其他人能看見我與AI代理平台的對話嗎？
 
-Workfront不會儲存您的提示或AI代理平台的回應。
-提供您的AI代理平台的人可控制您的對話方式
-會儲存或共用。請洽詢您的AI代理平台提供者，以瞭解
+Workfront不會儲存您的提示或AI代理平台的回應。提供您的AI代理平台的人可控制您的對話方式
+會儲存或共用。 請洽詢您的AI代理平台提供者，以瞭解
 詳細資料。
 
 ### 我是否需要知道Workfront API或要使用哪種MCP工具？
