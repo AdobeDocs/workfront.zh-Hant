@@ -16,10 +16,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 9f74d7a567a77128b5d6d6cfa1d4a8d559998a0f
 workflow-type: tm+mt
-source-wordcount: 903
-ht-degree: 8%
+source-wordcount: 1040
+ht-degree: 7%
 
 ---
 
@@ -29,8 +29,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->工作流程僅適用於Adobe Experience Manager as a Cloud Service整合。無法將其與Adobe Experience Manager Assets Essentials整合。<br>
->新檔案區域沒有此功能。
+>工作流程僅適用於Adobe Experience Manager as a Cloud Service整合。 無法將其與Adobe Experience Manager Assets Essentials整合。新檔案區域未提供此功能。
 
 
 ## 存取權要求
@@ -176,3 +175,51 @@ ht-degree: 8%
 在Fusion中設定模組的連線時，您將使用此使用者端ID和使用者端密碼。
 
 如需建立連線的說明，請參閱Workfront模組一文中的[連線 [!DNL Workfront] 至 [!DNL Workfront Fusion]](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion)。
+
+## 疑難排解
+
+**問題**：自訂表單意外附加到Fusion建立的專案
+
+**因應措施**：
+
+將`categoryID`從進階專案JSON移出並移入`project_new.categoryID` （使用Fusion UI中的結構化欄位）。
+
+具體而言，將對應程式變更為：
+
+```
+// project_new — set just this one field via the structured UI
+{
+    "categoryID": "5d3a292300b69eb5d80c37e8ce6269d3"
+}
+```
+
+```
+// project (advanced JSON) — remove categoryID from here
+{
+    "aemNativeFolderTreeIDs": ["693c40280e09eb1bd4085a5e"],
+    "aemNativeFolderWorkflowEnabled": "true",
+    "name": "{{1.name}}",
+    "templateID": "{{if(...)}}",
+    "ownerID": "{{1.ownerID}}",
+    "sponsorID": "{{1.ownerID}}",
+    "priority": "2",
+    "programID": "{{ifempty(7.ID; null)}}",
+    "description": "test",
+    "portfolioID": "{{ifempty(8.ID; null)}}",
+    "scheduleMode": "S",
+    "completionType": "AUT"
+}
+```
+
+**為什麼這個可以運作**：
+
+1. `isCtgyIDsGive`n現在看到`project_new.categoryID = "5d3a292300b69eb5d80c37e8ce6269d3"`→傳回truthy → `temp.isCtgyIDsGiven = true`
+2. 已略過步驟(`getAttachedAndAttachableCategoryID`) — 其條件為`!temp.isCtgyIDsGiven`
+3. 此步驟會引發： `ctgyIds = split(parameters.project_new.categoryID, ',')` → [&quot;5d3a292300b69eb5d80c37e8ce6269d3&quot;]
+4. `prepareMiscActionData`仍針對所有AEM特定欄位使用進階專案JSON （其優先順序超過`project_new`），然後覆蓋`objectCategories: [{ categoryID: "5d3a292300b69eb5d80c37e8ce6269d3" }]`，只有其預期形式，沒有未預期的形式
+5. 將自訂欄位值從來源OPTASK複製到新專案的步驟仍如預期般執行`isCopyCustomData: true`
+
+AEM欄位(`aemNativeFolderTreeIDs`， `aemNativeFolderWorkflowEnabled`)保留在進階欄位中不受影響。 只有在找到`categoryID`時，此程式才會變更。
+
+
+
