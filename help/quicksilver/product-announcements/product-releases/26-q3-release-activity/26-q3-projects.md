@@ -4,7 +4,7 @@ description: 2026年第三季度專案增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 689f7f00502d41f22b5b2647ffaa30a3a1bd819f
+source-git-commit: f45c946e48b253018648c414915d53eca5a4de80
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2026年7月9日快速發行生產： 2026年8月13日每季發行量： 2026年10月15日不在排程&rbrack;{type=Neutral}內
+>預覽： 2026年6月11日快速發行生產： 2026年6月11日每季發行量： 2026年6月11日不在排程]{type=Neutral}內
 
 如果您的組織同時使用舊版Workfront儲存空間和Adobe雲端儲存空間，您現在可以將舊版儲存空間任務轉換為Adobe雲端儲存空間專案。當您進行此操作時，檔案和檔案核准會保留在父物件上，而不是轉移到新建立的專案。
 
