@@ -7,14 +7,11 @@ author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
 TQID: https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 4ac828444e49213cdc4e00a5f92e404899e2225d
 workflow-type: tm+mt
-source-wordcount: 516
+source-wordcount: 608
 ht-degree: 0%
 
 ---
@@ -87,3 +84,24 @@ No longer the case - they match now:
 <!--make this live with the GA: * There is no limit for how many workspaces you can create in your environment. However, we recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.-->
 
 * 您可以在Workfront Planning例項中建立的工作區物件數目有所限制。 如需詳細資訊，請參閱[Adobe Workfront Planning物件限制總覽](/help/quicksilver/planning/general/limitations-overview.md)。
+
+## 全域搜尋概觀
+
+在Planning登陸頁面上，您可以使用全域搜尋方塊來搜尋下列Planning物件：
+
+* 工作區
+* 記錄類型
+* 檢視
+
+![全域搜尋方塊](assets/global-search-box.png)
+
+關於使用全域搜尋，請考量下列事項：
+
+* 您可以按下列鍵盤組合，從Planning登陸頁面或任何Planning頁面存取搜尋：
+
+   * Windows版CTRL+K
+   * 適用於Mac的⌘+K
+* 每個物件的最後7個結果都會顯示在搜尋方塊中。
+* 您可以執行一般搜尋，或選取物件並搜尋個別清單。
+
+
