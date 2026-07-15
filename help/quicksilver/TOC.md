@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 347eb022f68e00b13b3b517a1aaec9cd15f952c7
+source-git-commit: cf5c324a5dd527d498b5ccc32e1eb81ab3ea638f
 workflow-type: tm+mt
-source-wordcount: '14283'
+source-wordcount: '14290'
 ht-degree: 2%
 
 ---
@@ -1203,6 +1203,7 @@ ht-degree: 2%
       * [Adobe Cloud Drive概述](documents/adobe-cloud-drive/adobe-cloud-drive-overview.md)
       * [安裝Adobe Cloud Drive](documents/adobe-cloud-drive/install-adobe-cloud-drive.md)
       * [使用Adobe Cloud Drive](documents/adobe-cloud-drive/use-adobe-cloud-drive.md)
+      * [設定和管理Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/set-up-and-manage-adobe-cloud-drive.md)
       * [疑難排解Adobe Cloud Drive](documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md)
    * Workfront與Experience Manager Assets整合 {#wf-aem-integrations}
       * [Workfront與Experience Manager Assets整合](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)

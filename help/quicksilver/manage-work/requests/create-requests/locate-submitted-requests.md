@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 6aec8f2f3dd6dd653361058712b9e7a251ec6a69
 workflow-type: tm+mt
-source-wordcount: 1561
+source-wordcount: 1591
 ht-degree: 2%
 
 ---
@@ -113,8 +113,7 @@ Remove production and preview references at release
 
 >[!NOTE]
 >
->* 如果您有Workfront Planning，您的Workfront和Planning請求會出現在相同的清單中。
->     Planning要求的&#x200B;**物件型別**&#x200B;的命名方式如下： `< Name of workspace > > < Name of record type >`。例如，Planning要求的Object型別可能命名為`Marketing workspace > Campaigns`。\
+>* 如果您有Workfront Planning，您的Workfront和Planning請求會出現在相同的清單中。Planning要求的&#x200B;**物件型別**&#x200B;的命名方式如下： `< Name of workspace > > < Name of record type >`。 例如，Planning要求的Object型別可能命名為`Marketing workspace > Campaigns`。\
 >     Workfront要求的&#x200B;**物件型別**&#x200B;是`Issue`。
 >* 依預設，在請求區域的清單中會顯示最多50個請求。 若要檢視更多請求，請捲動至清單底部。
 
@@ -166,9 +165,12 @@ Remove production and preview references at release
    * **進行中**：
       * Workfront請求：請求已轉換，工作正在進行。
       * Workfront計畫請求：請求完成會對應至特定的「計畫」欄位，而該欄位值尚未與完成值相符。
-   * **保留**：這可供Workfront要求使用，並由使用者手動設定。
-   * <span class="preview">**已取消**：這適用於Workfront要求。</span> <!--checking with Khach)-->
+   * **保留**：這可用於Workfront要求。 使用者可手動設定。
    * <span class="preview">**完成**：已建立完成請求的Planning記錄。 （僅限Planning）</span>
+   <!--
+   This is not live yet; might be live for the unified intake process: 
+   * <span class="preview">**Canceled**: This is for Workfront requests.</span> 
+   -->
 
 ### 在舊版請求體驗中檢視已提交的請求
 

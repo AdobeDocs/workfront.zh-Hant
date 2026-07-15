@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 689f7f00502d41f22b5b2647ffaa30a3a1bd819f
+source-git-commit: f45c946e48b253018648c414915d53eca5a4de80
 workflow-type: tm+mt
-source-wordcount: '2920'
+source-wordcount: '2919'
 ht-degree: 3%
 
 ---
@@ -357,9 +357,9 @@ ht-degree: 3%
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">將舊版儲存任務轉換為Adobe雲端儲存專案</a><p><p>[!BADGE Off Schedule]{type=Neutral}</p></p>
                 <p>如果您的組織同時使用舊版Workfront儲存空間和Adobe雲端儲存空間，您現在可以將舊版儲存空間任務轉換為Adobe雲端儲存空間專案。</p>
             </td>
-            <td><p>2026年7月9日</p></td>
-            <td><p>2026年8月13日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年6月11日</p></td>
+            <td><p>2026年6月11日</p></td>
+            <td><p>2026年6月11日</p></td>
         </tr>
         <tr>
             <td>
@@ -471,8 +471,8 @@ ht-degree: 3%
             <td><strong>每季</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">正在匯入新的要求狀態</a>
-                <p>為了取得有關您請求之狀態的詳細內容，我們為請求引進了新的狀態：新增、保留和已取消。 「已完成」狀態已重新命名為「完成」。</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">在舊版和新版體驗之間符合要求狀態</a>
+                <p>為了取得請求處於正確狀態的更多內容，我們將在新請求體驗中更新請求狀態。</p>
             </td>
             <td><p>2026年5月27日</p></td>
             <td><p>2026年6月11日</p></td>

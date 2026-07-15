@@ -5,9 +5,9 @@ title: Adobe Workfront MCP伺服器工具
 description: 透過Adobe Workfront MCP伺服器可用的工具參考清單，按Workfront區域分組。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 5592c1b93b5e44c732f92d626ed878d2c4647ceb
+source-git-commit: 862ef1882f4a7a40ca142da7ddb98a8431681947
 workflow-type: tm+mt
-source-wordcount: '1788'
+source-wordcount: '1949'
 ht-degree: 5%
 
 ---
@@ -110,24 +110,6 @@ ht-degree: 5%
 | 依所有者取得專案 | `approvals_get_projects_by_owner` | 列出呼叫使用者是擁有者的Workfront專案。 | 讀取 |
 | 取得Adobe地區 | `approvals_get_adobe_region` | 傳回雲端提供者地區的Adobe名稱。 | 讀取 |
 
-<!--
-
-## Insights tools
-
-Insights tools retrieve information about Workfront objects.
-
-| Title | Tool name | What it does | Action |
-| --- | --- | --- | --- |
-| Read documents | `insights_read_docs` | Load the Workfront playbook or domain documentation, such as conditions, status, dates, or field paths. This is the required first step before querying data. | Read |
-| Get current user | `insights_get_current_user` | Retrieve your own Workfront identity, including name, ID, and URL. | Read |
-| Search fields | `insights_search_fields` | Search for available fields (standard and custom) on projects, tasks, issues, users, portfolios, teams, and so on. | Read |
-| Get field paths | `insights_get_field_paths` | Resolve dot-notation field paths for entities, required by the data query tool. | Read |
-| Find ID by name | `insights_find_id_by_name` | Look up the ID of any Workfront object by name, such as projects, tasks, users, portfolios, and so on. | Read |
-| Find Workfront data | `insights_find_workfront_data` | Find, filter, count, sort, and aggregate Workfront data. This is the main query and report tool. | Read |
-| Summarize object | `insights_summarize_object` | Fetch and summarize a single Workfront object by ID. | Read |
-| List entities | `insights_list_entities` | List all Workfront object types available to query. | Read |
-
--->
 
 ## 規劃工具
 
@@ -240,6 +222,22 @@ Insights tools retrieve information about Workfront objects.
 | 刪除評論 | `comment-stream_delete_comment` | 依ID刪除評論。 | 寫入 |
 | 新增反應 | `comment-stream_add_reaction` | 新增回應(like)至註解。 | 寫入 |
 | 移除反應 | `comment-stream_remove_reaction` | 從註解中移除回應（類似）。 | 寫入 |
+
+### 分析工具
+
+前瞻分析工具會擷取Workfront物件的相關資訊。
+
+| 標題 | 工具名稱 | 作用 | 動作 |
+| --- | --- | --- | --- |
+| 讀取檔案 | `insights_read_docs` | 載入Workfront教戰手冊或網域檔案，例如條件、狀態、日期或欄位路徑。 這是查詢資料之前所需的第一個步驟。 | 讀取 |
+| 取得目前使用者 | `insights_get_current_user` | 擷取您自己的Workfront身分，包括名稱、ID和URL。 | 讀取 |
+| 搜尋欄位 | `insights_search_fields` | 搜尋有關專案、任務、問題、使用者、投資組合、團隊等的可用欄位（標準和自訂）。 | 讀取 |
+| 取得欄位路徑 | `insights_get_field_paths` | 解析實體的點標籤欄位路徑（資料查詢工具所需）。 | 讀取 |
+| 依名稱尋找識別碼 | `insights_find_id_by_name` | 依名稱查詢任何Workfront物件的ID，例如專案、任務、使用者、投資組合等。 | 讀取 |
+| 尋找Workfront資料 | `insights_find_workfront_data` | 尋找、篩選、計數、排序和彙總Workfront資料。 這是主要的查詢和報表工具。 | 讀取 |
+| 摘要物件 | `insights_summarize_object` | 依ID擷取並摘要單一Workfront物件。 | 讀取 |
+| 列出實體 | `insights_list_entities` | 列出可供查詢的所有Workfront物件型別。 | 讀取 |
+
 
 
 

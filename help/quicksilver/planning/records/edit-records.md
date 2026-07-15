@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 873b65fb7f23d2e2b0598b56bb8893a7b87c1be1
 workflow-type: tm+mt
-source-wordcount: 3158
+source-wordcount: 3175
 ht-degree: 0%
 
 ---
@@ -202,7 +202,19 @@ Old:
 1. （視條件而定）按一下表格檢視的索引標籤，或按一下&#x200B;**+檢視**&#x200B;以建立表格檢視。 表格檢視應該是預設檢視，除非您上次存取記錄型別時，已在其他型別的檢視中檢視該記錄型別。
 
    與所選記錄型別相關聯的記錄會顯示在表格檢視中。
+
 1. （選擇性）按一下搜尋方塊並新增關鍵字，以尋找您要編輯的記錄。
+
+   <!--
+    >[!TIP]
+    >
+    >You can use the following keyboard combination to open the global search box from any Workfront Planning page and search for records:
+    >
+    >* CTRL+K for Windows
+    >* ⌘+K for Mac
+    >
+    >![Global search box](assets/global-search-box.png)
+    -->
 
 1. 在記錄列內按一下，開始編輯有關內嵌記錄的資訊。
 
@@ -279,8 +291,7 @@ Old:
 
    * **檢視**&#x200B;或&#x200B;<span class="preview">**在新索引標籤中開啟**</span>：這會開啟記錄頁面。
    * **複製連結**：複製記錄頁面的連結。
-   * **編輯縮圖**：若要新增縮圖至記錄。
-如需詳細資訊，請參閱[新增縮圖至記錄](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
+   * **編輯縮圖**：若要新增縮圖至記錄。如需詳細資訊，請參閱[新增縮圖至記錄](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
    * **重複**：這會建立記錄的相同重複。
    * **在上方插入記錄/在下方插入記錄**：新增資料列，以便新增記錄。 <span class="preview">預覽環境中無法執行此操作。</span>
    * **刪除**：刪除記錄。 刪除的記錄會儲存在「最近刪除」方塊中最長30天。
