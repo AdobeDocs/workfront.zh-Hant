@@ -10,26 +10,21 @@ exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/P-naBIVBoFQcBaL4Zgo0cEOTQ8eErxqr0MBmHTbec9E
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 8fa3fbb299fef17fbd49978e74adef94c45bb000
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
 workflow-type: tm+mt
-source-wordcount: 4173
+source-wordcount: 4149
 ht-degree: 0%
 
 ---
 
 # 統一檢閱和核准總覽
 
-{{highlighted-preview}}
-
-統一的稽核和核准將Adobe Workfront和Adobe Frame.io整合為單一、深度連結的體驗，消除行銷管理、創意稽核和內容傳送之間的差距。專案專員在Workfront中管理工作，而創意人員、行銷人員和利害關係人則在專業級Frame.io檢視器中稽核及核准資產，所有這一切都無需在中斷連線的工具之間移動檔案。
+統一的稽核和核准將Adobe Workfront和Adobe Frame.io整合為單一、深度連結的體驗，消除行銷管理、創意稽核和內容傳送之間的差距。
+專案專員在Workfront中管理工作，而創意人員、行銷人員和利害關係人則在專業級Frame.io檢視器中稽核及核准資產，所有這一切都無需在中斷連線的工具之間移動檔案。
 
 ![圖表顯示整合式稽核與核准工作流程，專案專員在Workfront中管理工作，而稽核者與核准者在Frame.io檢視器中提供意見與決策。](assets/Unified-Review-Approvals-Image.png)
 
@@ -88,7 +83,7 @@ Adobe雲端儲存空間的主要優點包括：
 
 #### Frame.io檢視器中支援的檔案型別
 
-Frame.io檢視器支援所有常見的視訊、影像、音訊、PDF和MS® Office型別。 如需支援檔案的詳細清單，請參閱Frame.io[&#128279;](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的支援的檔案型別。
+Frame.io檢視器支援所有常見的視訊、影像、音訊、PDF和MS® Office型別。 如需支援檔案的詳細清單，請參閱Frame.io](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的[支援的檔案型別。
 
 #### Frame.io檢視器的存取與授權
 
@@ -288,13 +283,9 @@ Frame.io檢視器是所有Workfront檢閱和核准工作流程的預設檢視器
 
 是。 支援多階段核准工作流程，可讓您在每個階段透過不同參與者的循序稽核和核准輪次來路由資產。
 
-<div class="preview">
-
 **我可以在核准工作流程中設定平行稽核路徑嗎？**
 
-是。 在預覽中，除了循序階段外，核准工作流程還支援平行路徑。 每個路徑會獨立執行並包含一或多個循序階段，因此不同路徑的檢閱可同時進行。 您最多可以在單一核准中設定30個路徑和100個階段。 核准範本中提供了相同的選項。 如需詳細資訊，請參閱[建立檔案核准工作流程](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)和[建立檔案的核准工作流程範本](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)。
-
-</div>
+是。 除了循序階段外，核准工作流程還支援平行路徑。 每個路徑會獨立執行並包含一或多個循序階段，因此不同路徑的檢閱可同時進行。 您最多可以在單一核准中設定30個路徑和100個階段。 核准範本中提供了相同的選項。 如需詳細資訊，請參閱[建立檔案核准工作流程](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)和[建立檔案的核准工作流程範本](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)。
 
 <!--
 **Can I modify the trigger for a later stage---for example, based on all approved versus the due date ending?**
@@ -322,9 +313,7 @@ For both single-stage and multi-stage reviews, automated reminder emails are sen
 
 是。 核准者和稽核者會在被指派給稽核或核準時收到電子郵件通知。 自動提醒電子郵件也會在截止日期前72小時、前24小時及截止日期本身傳送。
 
-在生產環境中，自訂電子郵件通知訊息的功能目前無法使用，但位於產品藍圖中。
-
-<span class="preview">在預覽中，您可以將自訂訊息新增到核准工作流程的每個階段。 該訊息會顯示在核准電子郵件通知和Workfront的「核准」索引標籤中。 您可以對每個階段使用相同的訊息，或每個階段使用不同的訊息，而訊息最多可包含500個字元。 如果您在建立核准工作流程後編輯自訂訊息，則會傳送更新的電子郵件通知給所有現有參與者。 如果您稍後新增參與者，則自訂訊息會包含在其電子郵件通知中。 如需詳細資訊，請參閱[建立檔案核准工作流程](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。</span>
+您可以在核准工作流程的每一個階段新增自訂訊息。 該訊息會顯示在核准電子郵件通知和Workfront的「核准」索引標籤中。 您可以對每個階段使用相同的訊息，或每個階段使用不同的訊息，而訊息最多可包含500個字元。 如果您在建立核准工作流程後編輯自訂訊息，則會傳送更新的電子郵件通知給所有現有參與者。 如果您稍後新增參與者，則自訂訊息會包含在其電子郵件通知中。 如需詳細資訊，請參閱[建立檔案核准工作流程](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
 
 <!--
 **Can I change the notification frequency for a unified approver or reviewer (for example, all comments, replies to my comments, or daily summaries)?**

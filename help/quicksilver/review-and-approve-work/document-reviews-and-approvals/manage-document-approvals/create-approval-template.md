@@ -9,27 +9,19 @@ exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/jsEcIKopi-lJOSXQitDnufu3j0AmkWkPmCXtCR0V6nk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5e9318366f0dff85591a5d5a752920027f5c9b0e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
 workflow-type: tm+mt
-source-wordcount: 895
-ht-degree: 3%
+source-wordcount: 684
+ht-degree: 2%
 
 ---
 
 # 建立檔案的核准工作流程範本
-
-{{highlighted-preview}}
 
 在Workfront設定區域中，擁有標準授權的使用者可以建立可重複使用的核准範本。 核准範本建立後，即可套用至物件之檔案區域中的資產。
 >[!IMPORTANT]
@@ -62,53 +54,53 @@ ht-degree: 3%
 
 +++
 
-## 在生產環境中建立核准範本
+<!--
+## Create an Approval Template in Production
 
 {{step-1-to-setup}}
 
-1. 在左側面板中，按一下&#x200B;**檢閱和核准** > **核准範本**。
-1. 按一下頁面右側的&#x200B;**新範本**。
+1. In the left panel, click **Review and Approval** > **Approval Templates**.
+1. Click **New Template** on the right side of the page. 
 
-1. 填寫以下詳細資料：
+1. Fill in the following details:
 
    <table>
      <tr>
-   <td><strong>範本名稱</strong></td>
-   <td>新增範本名稱。 </td>
+   <td><strong>Template name</strong></td>
+   <td>Add a template name. </td>
    </tr>
    <tr>
-   <td><strong>階段名稱</strong></td>
-   <td>新增階段名稱。 您可以將名稱變更為描述性更強的名稱，例如<em>初始稽核</em>或<em>最終核准</em>。</td>
+   <td><strong>Stage name</strong></td>
+   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
    </tr>
    <tr>
-   <td><strong>新增姓名或電子郵件</strong></td>
-   <td>開始輸入使用者或團隊名稱，以新增為核准者或稽核者。 如果您只有稽核者，他們將會收到通知並可以選擇完成稽核，但不需要或做出任何決定。</td>
+   <td><strong>Add names or emails</strong></td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
    </tr>
    <tr>
-   <td><strong>需要一項決定（選擇性）</strong></td>
-   <td>第一個做出決定的人會完成階段。</td>
+   <td><strong>One decision required (optional)</strong></td>
+   <td>The first person who makes a decision completes the stage.</td>
    </tr>
    <tr>
-   <td><strong>到期日前的工作日數</strong></td>
-   <td>選擇階段啟動後核准到期的工作日數。</td>
+   <td><strong>Workdays until due date</strong></td>
+   <td>Choose how many workdays until the approval is due after a stage is activated.</td>
    </tr>
    </table>
 
-1. （選擇性）重複上一步驟，視需要新增其他階段。
+1. (Optional) Repeat the previous step to add additional stages as needed.
 
    >[!NOTE]
    >
-   >如果您新增多個階段，核准工作流程會依階段列出的順序進行。 完成所有必要的決定後，下一個階段會開始，而上一個階段會鎖定。
+   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
 
-   ![檔案詳細資料](assets/new-stage.png)
+   ![Document details](assets/new-stage.png)
+    
+1. Click **Save**.
 
-1. 按一下「**儲存**」。
+Once the template is created, it can be applied to documents in the Documents area of an object to begin the formal review and approval process in Workfront.
+-->
 
-建立範本後，可將其套用至物件之檔案區域中的檔案，以在Workfront中開始正式的稽核和核准流程。
-
-<div class="preview">
-
-## 在預覽中建立核准範本
+## 建立核准範本
 
 核准範本對話方塊一律會在進階模式下開啟。 範本沒有基本模式。 您可以在範本中設定最多30個平行路徑，總共100個階段。 每個路徑會獨立執行，並可包含一或多個循序階段。
 
@@ -162,10 +154,6 @@ ht-degree: 3%
 1. 按一下「**儲存**」。
 
 建立範本後，可將其套用至物件之檔案區域中的檔案，以在Workfront中開始正式的稽核和核准流程。
-
-</div>
-
-
 
 <!--
  Once a template is created, it can be applied to assets sent from Frame.io to begin the formal review and approval process in Workfront.
