@@ -9,30 +9,25 @@ exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/LLfVzbK4pCfwB24Hbf9hx0m-xKMVwuDGBP1l-Kxy6Oo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a76a39fde984bece43cda9812c436d81f41eb989
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 4341
-ht-degree: 1%
+source-wordcount: 4300
+ht-degree: 2%
 
 ---
 
 # 管理時間表檢視
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
-
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -200,7 +195,7 @@ Old:
    >在「設定」區域中設定自訂季度後，時間軸檢視會顯示自訂季度，而非傳統季度。
    >如需詳細資訊，請參閱[啟用自訂季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
-1. （視條件而定）如果您是Workfront管理員，請按一下&#x200B;**前往設定**&#x200B;設定您的季度。 如果沒有，請按一下[確定] **&#x200B;**，並要求Workfront管理員設定自訂季度。
+1. （視條件而定）如果您是Workfront管理員，請按一下&#x200B;**前往設定**&#x200B;設定您的季度。 如果沒有，請按一下[確定] ****，並要求Workfront管理員設定自訂季度。
 
    >[!TIP]
    >
@@ -268,7 +263,7 @@ Old:
 1. 更新下列檢視元素，如下列子區段所述：
    * [篩選器](#add-filters)
    * [分組](#add-grouping)
-   * &lbrack;設定
+   * [設定](#edit-the-timeline-view-settings)
      <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
 
 ### 新增篩選器
@@ -378,21 +373,22 @@ Old:
 1. 按一下左側的下列運運算元，指示如何連結及套用篩選條件：
 
    * **AND**：必須符合所有指定的條件。
-   * **OR**：必須符合任何指定的條件。這是預設選項。
+   * **OR**：必須符合任何指定的條件。
+這是預設選項。
 
 1. （選擇性）新增其他篩選器群組，並由&#x200B;**AND**&#x200B;或&#x200B;**OR**&#x200B;運運算元加入。
 
-   系統會根據您的篩選條件自動篩選記錄清單。  
+   系統會根據您的篩選條件自動篩選記錄清單。  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. （選擇性）按一下&#x200B;**x**&#x200B;圖示以移除篩選條件。
-1. <span class="preview"> （選擇性和條件性）如果您在時間軸檢視中新增劃分結構，請展開下列下拉式清單中的記錄型別，並重複上述相同步驟，為劃分中包含的記錄型別新增篩選器。</span>
+1. （選擇性和條件性）如果您在時間軸檢視中新增劃分結構，請展開下列下拉式清單中的記錄型別，並重複上述相同步驟，為劃分中包含的記錄型別新增篩選器。
 
-   對劃分中的每個記錄型別重複<span class="preview">。</span>
+   對劃分中的每個記錄型別重複此動作。
 
    ![具有時間軸檢視劃分的多層篩選器](assets/multi-tiered-filters-with-breakdown-for-timeline-view.png)
 
-   <span class="preview">您只能從時間表檢視篩選劃分記錄型別。</span>
+   您只能從時間表檢視中篩選劃分記錄型別。
 1. （選擇性）按一下&#x200B;**篩選器**&#x200B;或頁面上的任何其他位置，以關閉篩選器方塊。<!--right now you cannot "clear all" for filters, but this might come later-->
 
 
@@ -405,7 +401,8 @@ Old:
 在時間軸檢視中使用群組時，請考量下列事項：
 
 * 您可以在表格和時間軸檢視中套用群組。 表格檢視的分組與相同記錄型別之時間軸檢視中的群組是獨立的。
-* 您可以在檢視中套用3個群組層級。 記錄會依照您選取的群組順序進行分組。&lt;！—！—*使用API時，您最多可以套用4個層級的群組。  — 現在正在檢查此專案 — >
+* 您可以在檢視中套用3個群組層級。 記錄會依照您選取的群組順序進行分組。
+&lt;！—！—*使用API時，您最多可以套用4個層級的群組。  — 現在正在檢查此專案 — >
 * 群組對於您選取的檢視而言是唯一的。 相同記錄型別的兩個表格檢視可以套用不同的群組。 檢視相同表格檢視的兩個使用者會看到目前套用的相同分組。
 * 您無法為表格檢視建立的分組命名。
 * 移除群組會將群組從存取與您相同記錄型別以及顯示與您相同檢視的任何人中移除。
@@ -443,9 +440,7 @@ Old:
 
 1. 在&#x200B;**依**&#x200B;分組記錄方塊中，以正確的順序拖放分組。
 
-1. <span class="preview">在&#x200B;**Group records by**&#x200B;方塊的&#x200B;**配置**&#x200B;區域中，選取下列其中一個選項：</span>
-
-   <div class="preview">
+1. 在&#x200B;**Group records by**&#x200B;方塊的&#x200B;**配置**&#x200B;區域中，選取下列其中一個選項：
 
    * **棧疊**：群組顯示時沒有凍結的左欄，而且符合專案時程表的寬度。
 
@@ -609,7 +604,8 @@ this is not possible right now; if this is the same functionality as the table v
   例如，任務會連線至Workfront中的專案。 使用劃分功能，您可以在Planning中顯示連結至行銷活動的專案，但不能顯示連結至Workfront中專案的任務。
 
   如果您想要在Workfront Planning記錄型別的時程檢視中同時顯示產品組合和專案，產品組合和專案都必須連線至Planning記錄，或連線至您正在管理其時程檢視之Planning記錄的記錄。
-* 您無法顯示連線至Planning記錄型別的Adobe GenStudio Brands。如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
+* 您無法顯示連線至Planning記錄型別的Adobe GenStudio Brands。
+如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
 * 您只能顯示與至少兩個日期欄位關聯的記錄型別。
 * 您要在時間軸檢視中顯示的記錄型別日期欄位，必須在所選記錄型別的表格檢視中顯示，以作為查詢欄位。
 * 您要在時間軸檢視中顯示的記錄型別的「開始」和「結束」日期必須依時間順序排列。 例如，如果記錄的開始日期為1月31日，結束日期為1月1日，則它不會顯示在時間軸檢視中。 如需詳細資訊，請參閱本文中的[管理時間表檢視](#manage-a-timeline-view)一節。

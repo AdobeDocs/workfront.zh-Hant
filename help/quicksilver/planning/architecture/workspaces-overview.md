@@ -7,23 +7,22 @@ author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
 TQID: https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 4ac828444e49213cdc4e00a5f92e404899e2225d
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 608
-ht-degree: 0%
+source-wordcount: 566
+ht-degree: 1%
 
 ---
 
 # 工作區概觀
 
-<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -53,11 +52,14 @@ ht-degree: 0%
 
    * **我所在的工作區**：顯示您建立的工作區或與您共用的工作區。
    * **其他工作區**：顯示系統中的所有其他工作區。 這僅供系統管理員使用。
-   * <span class="preview">**範例工作區**：顯示內建的最佳實務工作區範例。 您無法編輯工作區、記錄型別，或新增記錄或欄位，但可以新增、編輯檢視並與他人共用檢視。</span>
+   * **範例工作區**：顯示內建的最佳實務工作區範例。 您無法編輯工作區、記錄型別或新增記錄或欄位，但可以新增、編輯及與其他人共用檢視。
 
   >[!NOTE]
   >
-  ><span class="preview">我們建議您不要編輯範例工作區，而是使用這些工作區作為建立您自己的工作區的參考。 使用多工作區範本組合來建立與「範例工作區」標籤中所列的工作區相同的工作區。 如需相關資訊，請參閱[建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md)一文中的「使用最佳實務多工作區範本套件組合建立多個工作區」一節。</span>
+  >我們建議不要編輯範例工作區，而是使用這些工作區作為參考，以建立您自己的工作區。 使用多工作區範本組合來建立與「範例工作區」標籤中所列的工作區相同的工作區。
+  >
+  >只有已購買Prime或Ultimate Planning套件的客戶才能檢視「範例工作區」標籤。
+  >如需相關資訊，請參閱[建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md)一文中的「使用最佳實務多工作區範本套件組合建立多個工作區」一節。
 
 <!--
 No longer the case - they match now: 

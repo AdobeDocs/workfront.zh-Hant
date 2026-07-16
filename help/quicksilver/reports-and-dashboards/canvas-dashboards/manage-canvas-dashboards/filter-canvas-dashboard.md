@@ -9,19 +9,14 @@ exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/SRUCt-lfcaIOPghpl2PfbbSMO4oMy4E1hfS7NensXL8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1194
-ht-degree: 1%
+source-wordcount: 1107
+ht-degree: 2%
 
 ---
 
@@ -29,7 +24,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->畫布儀表板功能目前僅適用於參與Beta階段的使用者。 在此階段中，部分功能可能無法完成或如預期般運作。 請依照「畫布控制面板」測試版概觀文章中[提供意見回饋](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)一節的指示，提交有關您體驗的任何意見回饋。如果您對可能的錯誤或技術問題有回饋，請向Workfront支援提交票證。 如需詳細資訊，請參閱[聯絡客戶支援](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。請注意，以下雲端服務供應商未提供此測試版：
+>畫布儀表板功能目前僅適用於參與Beta階段的使用者。 在此階段中，部分功能可能無法完成或如預期般運作。 請依照「畫布控制面板」測試版概觀文章中[提供意見回饋](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)一節的指示，提交有關您體驗的任何意見回饋。<br>
+>如果您對可能的錯誤或技術問題有回饋，請向Workfront支援提交票證。 如需詳細資訊，請參閱[聯絡客戶支援](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
+>請注意，以下雲端服務供應商未提供此測試版：
 >
 >* 自備Amazon Web Services金鑰
 >* Azure
@@ -39,9 +36,11 @@ ht-degree: 1%
 Take Preview and production mentions out at release
 -->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 您可以將篩選器套用至包含提示的畫布控制面板。 提示會當做篩選器修飾詞使用，套用其他篩選條件，以便您進一步縮小結果的範圍。 每次套用篩選器時都可以修改這些提示，讓您能夠調整顯示的結果，而無需編輯儀表板或每個個別報告的主要篩選條件。
 
@@ -122,7 +121,7 @@ Take Preview and production mentions out at release
 
 1. 在儀表板詳細資訊頁面的左上角，按一下&#x200B;**篩選器**。 篩選器側面板隨即開啟。
 
-1. (Conditionalt)在生產環境中，按一下&#x200B;**編輯篩選器**，或在預覽環境中，按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-icon.png)，然後按一下</span><span class="preview"> **編輯篩選器**。 **儀表板篩選器**&#x200B;對話方塊開啟。
+1. 按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-icon.png)，然後按一下&#x200B;**編輯篩選器**。 **儀表板篩選器**&#x200B;對話方塊開啟。
 
 1. （可選）若要新增規則，請遵循下列步驟：
 
@@ -177,9 +176,7 @@ Take Preview and production mentions out at release
 1. 按一下&#x200B;**儲存**，將篩選器套用至儀表板。
 
 
-1. <span class="preview">若要將提示儲存為預設值，請在儲存提示後執行下列動作： </span>
-
-   <div class="preview">
+1. 若要將提示儲存為預設值，請在儲存提示後執行下列動作：
 
    1. （選擇性）按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-icon.png)，然後按一下&#x200B;**另存為預設提示**。
 
@@ -197,8 +194,6 @@ Take Preview and production mentions out at release
    1. （視條件而定）如果您修改預設提示的設定，請按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-icon.png)，然後按一下&#x200B;**套用儀表板預設值**&#x200B;以返回預設篩選結果。
    1. （選擇性）按一下&#x200B;**重設預設值**，以您的修改取代原始預設設定。 此選項僅適用於控制面板管理員。
 
-   </div>
-
 
 1. 繼續進行[第3部分：套用儀表板提示](#step-3-apply-a-dashboard-prompt)。
 
@@ -214,7 +209,8 @@ Take Preview and production mentions out at release
 
 1. 在儀表板詳細資訊頁面的左上角，按一下&#x200B;**篩選器**。 篩選器側面板隨即開啟。
 
-1. 在&#x200B;**顯示記錄位置……**&#x200B;區段中，選擇一個或所有顯示的提示的條件。 已套用提示，且已套用&#x200B;**儀表板提示**&#x200B;標籤會出現在報告Widget的角落。   ![選取條件](assets/prompts-list.png)
+1. 在&#x200B;**顯示記錄位置……**&#x200B;區段中，選擇一個或所有顯示的提示的條件。 已套用提示，且已套用&#x200B;**儀表板提示**標籤會出現在報告Widget的角落。
+   ![選取條件](assets/prompts-list.png)
 
 1. 按一下右上角的&#x200B;**關閉**&#x200B;圖示![關閉圖示](assets/close-icon.png)以隱藏面板。
 

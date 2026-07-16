@@ -9,29 +9,24 @@ exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/FvXVCMMz-PfaT-QAaMq0c5qUruR1MJoMv6etcrAstXA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 009953346ae5ef29611101acaa08b4f9810cf9d8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 574
+source-wordcount: 514
 ht-degree: 3%
 
 ---
 
 # 要求檢視或工作區的許可權
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
-
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 <!-- 
 no longer needed: 
@@ -89,7 +84,7 @@ no longer needed:
    <ul><li><p>檢視或管理檢視</p></li>
    <li><p>檢視、貢獻或管理工作區</p></li>
    <li><p>檢視、貢獻或管理記錄型別</p></li>
-   <li><p><span class="preview">檢視或管理記錄</span></p></li>
+   <li><p>檢視或管理記錄</p></li>
    </ul>  
    <p>只有對工作區和檢視具有管理許可權的使用者才能公開共用檢視。</p></td> 
   </tr> 
@@ -175,9 +170,9 @@ no longer needed:
 
 ## 請求權限
 
-要求檢視許可權與要求工作區、記錄型別或<span class="preview">記錄</span>的許可權類似。
+請求檢視許可權與請求工作區、記錄型別或記錄的許可權類似。
 
-當有人與您共用工作區的連結、錄製型別、<span class="preview">錄製</span>，或您沒有存取權的檢視時：
+當有人與您共用一個連結至工作區、記錄型別、記錄或一個您沒有存取權的檢視時：
 
 1. 按一下與您共用的連結，以檢視或工作區。
 
@@ -187,7 +182,7 @@ no longer needed:
 
    >[!NOTE]
    >
-   >當您沒有記錄型別或<span class="preview">記錄</span>的存取權時，「您沒有存取權」頁面會顯示您必須擁有工作區的存取權。
+   >當您沒有記錄型別或記錄的存取權時，「您沒有存取權」頁面會顯示您必須擁有工作區的存取權。
 
 
 1. （視條件而定）如果共用的連結是針對您有存取權的工作區的檢視，請按一下&#x200B;**以現有檢視開啟**。 如果您有存取工作區的許可權，記錄型別頁面會在預設檢視中開啟。

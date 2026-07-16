@@ -9,15 +9,12 @@ exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/eF7kBTsursbrsXr8Lo6ql6U5JBLQDvi6nw4JDpRxClw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1372
-ht-degree: 5%
+source-wordcount: 1287
+ht-degree: 4%
 
 ---
 
@@ -27,9 +24,11 @@ ht-degree: 5%
 
 # 在Adobe Workfront Planning中共用許可權的概觀
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -61,8 +60,6 @@ ht-degree: 5%
 
   如需詳細資訊，請參閱[共用記錄型別](/help/quicksilver/planning/access/share-record-types.md)。
 
-<div class="preview">
-
 * 記錄
 
    * 您可以與組織內部人員共用記錄。
@@ -71,7 +68,7 @@ ht-degree: 5%
 
   如需詳細資訊，請參閱[共用記錄](/help/quicksilver/planning/access/share-records.md)。
 
-</div>
+
 
 * 檢視
 
@@ -190,19 +187,19 @@ The following are the levels of permissions for record types:
 
 依預設，當您授予許可權至工作區和記錄型別時，記錄許可權是從記錄型別繼承的。
 
-在生產環境中，記錄的許可權層級如下：
+<!--
+In the Production environment, the following are the levels of permissions for records: 
 
 
-|        | 管理 | 參與 | 檢視 |
+|        | Manage | Contribute | View  |
 |--------|--------|------------|-------|
-| 建立 | ✓ | ✓ |       |
-| 刪除 | ✓ | ✓ |       |
-| 編輯 | ✓ | ✓ |       |
-| 檢視 | ✓ | ✓ | ✓ |
+| Create | ✓      |     ✓       |       |
+| Delete | ✓      |     ✓       |       |
+| Edit   | ✓      |    ✓        |       |
+| View   | ✓      | ✓          | ✓     |
+-->
 
-<div class="preview">
-
-在「預覽」環境中，記錄的許可權層級如下：
+以下是記錄的許可權層級：
 
 |        | 管理 | 檢視 |
 |--------|--------|-------|
@@ -228,8 +225,6 @@ The following are the levels of permissions for record types:
 >[!NOTE]
 >
 >*當您從記錄中移除許可權時，使用者仍然保留對工作區和記錄型別的檢視許可權，除非您從工作區中移除其許可權。
-
-</div>
 
 ### 記錄欄位的許可權
 
