@@ -9,11 +9,16 @@ exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/vEseGrhKdhmMJCdM0q0PwzR9Gqjdj42djlpc-NfFXaQ
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 90b8da58f534f9033b427f0ad09c15dba50c28c9
 workflow-type: tm+mt
 source-wordcount: 523
@@ -152,7 +157,7 @@ ht-degree: 7%
    * 記錄時間
    * 新增快速連結
 
-1. （選擇性）按一下[新建] ****&#x200B;以新增工作專案至行事曆。 如需詳細資訊，請參閱[在優先順序](/help/quicksilver/workfront-basics/priorities/create-task-issue-priorities.md)中建立新任務或問題。
+1. （選擇性）按一下[新建] **&#x200B;**&#x200B;以新增工作專案至行事曆。 如需詳細資訊，請參閱[在優先順序](/help/quicksilver/workfront-basics/priorities/create-task-issue-priorities.md)中建立新任務或問題。
 
 ## 設定日曆
 
@@ -164,7 +169,7 @@ ht-degree: 7%
 
 1. 按一下行事曆右角的&#x200B;**設定**&#x200B;圖示。
 
-1. 在&#x200B;**列樣式**標籤上，選擇最多5個欄位顯示在行事曆的工作專案列上。
+1. 在&#x200B;**列樣式**&#x200B;標籤上，選擇最多5個欄位顯示在行事曆的工作專案列上。
    ![範例列](assets/sample-task-for-field-config.png)
 
 1. 在&#x200B;**色彩**&#x200B;標籤上，選擇您要如何顯示工作專案。 例如，如果您選擇&#x200B;**專案**，您的工作專案會根據工作清單上指派給專案的顏色顯示。
