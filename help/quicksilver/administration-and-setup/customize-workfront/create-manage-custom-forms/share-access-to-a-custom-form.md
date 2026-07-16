@@ -9,11 +9,16 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
 TQID: https://experienceleague.adobe.com/gpJQedqcdtjaxvhVuWKgJVpfAPAT2ICSgO6nRFLvimM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 58d13b171ada1f43efe4bcca0c3847048a32e863
 workflow-type: tm+mt
 source-wordcount: 967
@@ -124,7 +129,7 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
 
 ## 共用自訂表格
 
-您可以為特定使用者、工作角色、群組、團隊、公司和企業設定檔設定特定層級的表單存取權，而不是將自訂表單保留在預設共用狀態（本文中關於存取自訂表單](#access-to-custom-forms)的說明）。[
+您可以為特定使用者、工作角色、群組、團隊、公司和企業設定檔設定特定層級的表單存取權，而不是將自訂表單保留在預設共用狀態（本文中關於存取自訂表單[&#128279;](#access-to-custom-forms)的說明）。
 
 {{step-1-to-setup}}
 
