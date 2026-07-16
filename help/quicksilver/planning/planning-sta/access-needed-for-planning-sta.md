@@ -66,7 +66,7 @@ the bullets repeat in the "Planning overview" article
 
 * Workfront Planning可作為獨立產品，供貴組織使用者使用。 這讓使用者無法存取任何Workfront Workflow功能，也無法存取Planning功能。
 
-如需以獨立產品形式包含在Planning中的功能相關資訊，請參閱文章[以獨立產品形式開始使用Workfront Planning ](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)中的「Adobe Workfront Planning中包含的功能」一節。
+如需以獨立產品形式包含在Planning中的功能相關資訊，請參閱文章[以獨立產品形式開始使用Workfront Planning &#x200B;](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)中的「Adobe Workfront Planning中包含的功能」一節。
 
 ## 使用者授權和存取層級
 
