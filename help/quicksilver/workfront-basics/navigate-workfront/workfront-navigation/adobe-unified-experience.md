@@ -130,6 +130,6 @@ ht-degree: 3%
 
 如果您的密碼是由[!DNL Adobe]管理，您可以在Adobe帳戶中變更密碼。
 
-[請參閱本文以瞭解如何變更您的Adobe密碼。](https://helpx.adobe.com/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
+[請參閱本文以瞭解如何變更您的Adobe密碼。](https://helpx.adobe.com/tw/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
 
 如需變更密碼的詳細資訊，請連絡管理員。
