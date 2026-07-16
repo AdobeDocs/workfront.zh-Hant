@@ -5,7 +5,7 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: ee260723331ddff4e8d89f7d9ca2b807835d6130
+source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
@@ -20,6 +20,7 @@ ht-degree: 1%
 >本文資訊是指Adobe Workfront Planning （購買獨立產品時）。 當您的公司購買僅Adobe Workfront Planning套件，但未購買Workfront Workflow套件時，請參閱本文。
 >
 >如需搭配Adobe Workfront套件一起購買時的Workfront Planning相關資訊，請參閱[開始使用Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)。
+>
 
 您可以在Adobe Workfront Planning中將團隊管理為獨立產品，其方式與在Adobe Workfront中管理團隊類似，但有一些限制。
 

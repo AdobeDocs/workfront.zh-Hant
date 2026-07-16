@@ -6,7 +6,7 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 847c38fe006ca5f1170e4b28c9b0a2c61c5c77fa
+source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
 workflow-type: tm+mt
 source-wordcount: '3109'
 ht-degree: 0%
@@ -16,7 +16,9 @@ ht-degree: 0%
 # Adobe Workfront Planning 2026年第三季度發行活動
 
 <!--
+
 take the next sentence out when we start listing features
+
 -->
 
 <!--

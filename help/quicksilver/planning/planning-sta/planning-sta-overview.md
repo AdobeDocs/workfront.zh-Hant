@@ -5,7 +5,7 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 847c38fe006ca5f1170e4b28c9b0a2c61c5c77fa
+source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
 workflow-type: tm+mt
 source-wordcount: '921'
 ht-degree: 0%
@@ -16,7 +16,9 @@ ht-degree: 0%
 # 開始使用Adobe Workfront Planning作為獨立產品
 
 <!--
+
 This is linked from the "planning-important-intro" snippet and many other Planning integrated articles
+
 -->
 
 <!--
@@ -105,7 +107,7 @@ Workfront Planning作為獨立產品包含的許多功能，與Workfront Plannin
   如需詳細資訊，請參閱[以獨立產品管理您的Adobe Workfront Planning執行個體](/help/quicksilver/planning/planning-sta/manage-planning-sta-instance.md)。
 * 在Fusion中使用Workfront Planning聯結器
 
-  如需詳細資訊，請參閱[Adobe Workfront規劃模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)。
+  如需詳細資訊，請參閱[Adobe Workfront規劃模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)。
 * 如果貴組織也購買GenStudio for Performance Marketing，請管理Adobe GenStudio for Performance Marketing工作區。
 
   如需詳細資訊，請參閱[開始使用Adobe Workfront Planning與Adobe GenStudio for Performance Marketing整合](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)。
