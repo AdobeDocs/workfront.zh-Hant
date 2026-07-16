@@ -5,7 +5,7 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
+source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
@@ -78,4 +78,3 @@ ht-degree: 1%
    * 將滑鼠停留在清單中的團隊名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png) > **刪除團隊**
    * 在清單中選取團隊，然後按一下頁面底部藍色工具列上的&#x200B;**刪除團隊**
 1. 按一下&#x200B;**是，刪除**&#x200B;以進行確認。
-

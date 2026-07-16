@@ -5,7 +5,7 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
+source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
 workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 0%
@@ -132,6 +132,4 @@ ht-degree: 0%
 1. 按一下&#x200B;**停用**&#x200B;以確認。
 
    若要保留您工作的歷程記錄，建議您停用使用者，而非刪除使用者。
-
-
 
