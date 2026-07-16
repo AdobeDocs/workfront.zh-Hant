@@ -11,24 +11,14 @@ exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/46D3BBajFk39FP-dMDk0SuSSGM5nYPKas11Bs159R9Y
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b0dd2c2c448c829b2ce1559ddc87880c9a47a68f
 workflow-type: tm+mt
-source-wordcount: 1155
+source-wordcount: 1218
 ht-degree: 8%
 
 ---
@@ -115,7 +105,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
      </tr> 
      <tr> 
       <td role="rowheader"> <p>透過使用電子郵件地址與沒有Workfront帳戶的人共同作業</p> </td> 
-      <td>可讓Workfront使用者透過包含電子郵件地址而非姓名來與沒有Workfront帳戶的人共用特定專案。使用者可使用其電子郵件地址與外部使用者共用下列專案：
+      <td>可讓Workfront使用者透過包含電子郵件地址而非姓名來與沒有Workfront帳戶的人共用特定專案。 使用者可使用其電子郵件地址與外部使用者共用下列專案：
        <ul>
         <li>文件<br></li>
         <li>檔案請求<br></li>
@@ -150,12 +140,12 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
       <td>可讓您選擇為使用者啟用或停用優先順序工作清單體驗。 使用者仍可在Workfront中看到優先順序圖示，但無法存取該功能。 如需有關優先順序的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">開始使用優先順序</a>。</td> 
      </tr>
      <tr>
-      <td><span class="preview">大量編輯時務必強制填入必要欄位</span></td>
-      <td><span class="preview"><p>可讓您選擇當大量編輯物件時，是否強制使用者在必填欄位中輸入資訊。</p> <p>選取此選項時，必要欄位必須先有值，才能以大量編輯模式儲存。 如果必要欄位缺少至少一個大量選取物件的值，則不允許儲存。</p> <p>未選取此選項時，必填欄位僅在使用者修改欄位時強制。 如果欄位未修改，則會視為選用且未驗證。</p></span></td>
+      <td>大量編輯時務必強制填入必要欄位</td>
+      <td><p>可讓您選擇當大量編輯物件時，是否強制使用者在必填欄位中輸入資訊。</p> <p>選取此選項時，必要欄位必須先有值，才能以大量編輯模式儲存。 如果必要欄位缺少至少一個大量選取物件的值，則不允許儲存。</p> <p>未選取此選項時，必填欄位僅在使用者修改欄位時強制。 如果欄位未修改，則會視為選用且未驗證。</p></td>
      </tr>
      <tr> 
       <td role="rowheader">儲存偏好設定 </td> 
-      <td>您可以在此區段中啟用Adobe雲端偏好設定。可讓您選擇為整個組織或特定群組啟用或停用Adobe雲端儲存空間。 
+      <td>您可以在此區段中啟用Adobe雲端偏好設定。 可讓您選擇為整個組織或特定群組啟用或停用Adobe雲端儲存空間。 
       <p>更新下列資訊：</p>
       <ul><li><b>預設</b>：選擇舊版Workfront儲存空間或Adobe雲端儲存空間</li>
       <li><b>允許使用者選取儲存提供者</b>：這允許使用者在建立Workfront物件時，在兩種儲存型別之間進行選擇。</li>
@@ -163,7 +153,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
       <li><b>選取要轉換成Adobe雲端儲存空間的產品組合</b>：選取您要從Workfront舊版儲存空間自動轉換成Adobe雲端儲存空間的產品組合。 當您儲存系統偏好設定時，投資組合會轉換。</li></ul>     
     如需Adobe雲端儲存空間的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">為您的組織啟用Adobe雲端儲存空間</a>。</td></tr>
     <tr> 
-      <td role="rowheader">選取要轉換為Adobe雲端儲存空間的產品組合 </td> 
+      <td role="rowheader">選取要轉換為 Adobe 雲端儲存空間的專案組合 </td> 
       <td>可讓您將現有的舊版Workfront儲存產品組合轉換為Adobe雲端儲存空間。 如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md">將舊版產品組合轉換為Adobe雲端儲存空間</a>。</td> 
      </tr>
      <tr> 

@@ -9,19 +9,14 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
 TQID: https://experienceleague.adobe.com/wy8z0JmR-SV8cX-1opkDx6dTubPGsOS9R7MWIqvhdtk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 394
+source-wordcount: 395
 ht-degree: 13%
 
 ---
@@ -54,12 +49,12 @@ Workfront為每種物件型別提供許多內建欄位。
 
 * 單行文字
 * 段落
-* 含格式的文字
+* 豐富文字
 * 單選下拉式清單
 * 多選下拉式清單
 * 外部查詢
+* 內部查詢
 * 原生欄位參考
-* 自動提示
 * Planning欄位連線
 * 已計算
 * 日期
@@ -97,6 +92,7 @@ Workfront為每種物件型別提供許多內建欄位。
 * 疊代
 * 計費記錄
 * 費率卡
+* 指派
 
 如需將自訂表單附加至物件的詳細資訊，請參閱[將自訂表單新增至物件](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)。
 
