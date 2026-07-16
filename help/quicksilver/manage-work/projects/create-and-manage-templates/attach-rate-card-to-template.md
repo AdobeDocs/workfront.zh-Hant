@@ -6,16 +6,14 @@ title: 將費率卡附加至範本
 description: 當您指定費率卡至範本時，費率卡會附加至從範本建立的所有專案。
 author: Lisa
 feature: Work Management
-source-git-commit: ab0a089ddf33cc4c5342b11a54ab3af40641a50d
+source-git-commit: ace9a01e852e6d99ddc6f150c0ac34bd4ef44817
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '644'
 ht-degree: 3%
 
 ---
 
 # 將費率卡附加至範本
-
-{{highlighted-preview-article-level}}
 
 當您指定費率卡至範本時，費率卡會附加至從範本建立的所有專案。 費率卡會成為專案的預設值，但可視需求加以覆寫。
 

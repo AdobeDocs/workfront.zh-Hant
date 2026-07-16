@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
-source-git-commit: 18a1dda4ed60986496d9850c5823b42ad2291e4f
+source-git-commit: ace9a01e852e6d99ddc6f150c0ac34bd4ef44817
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 1%
@@ -16,8 +16,6 @@ ht-degree: 1%
 ---
 
 # 管理費率卡
-
-{{highlighted-preview}}
 
 費率卡代表與客戶訂立的合約協定，合約中針對將完成工作的工作角色定義了每小時的費率。 在費率卡中，您可以根據機構、地點或成本中心等屬性，為每個工作角色定義多個收費率。 您的唯一費率屬性是在「設定」區域中設定。 如需詳細資訊，請參閱[定義費率屬性](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)。
 
@@ -39,11 +37,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td>[!UICONTROL 標準]</td>
+   <td>[！UICONTROL標準]</td>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>編輯[!UICONTROL 費率卡]的存取權</td> 
+   <td>編輯[！UICONTROL費率卡]的存取權</td> 
   </tr> 
   <tr> 
    <td>物件許可權</td> 
@@ -115,7 +113,7 @@ ht-degree: 1%
      第一個收費率不需要有開始日期，而最後一個收費率不需要有結束日期。 費率日期之間允許間隙，但不允許重疊日期。 在間隔期間，帳單費率階層的其他區域會根據任務的收入型別來決定帳單費率。 如需詳細資訊，請參閱[收入與成本階層概覽](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)。
 
 1. 按一下「[!UICONTROL **儲存**]」。
-1. （選擇性）若要針對具有不同屬性的相同工作角色或不同工作角色新增其他收費率，請按一下[新增]工作角色&#x200B;[!UICONTROL **&#x200B;**]。
+1. （選擇性）若要針對具有不同屬性的相同工作角色或不同工作角色新增其他收費率，請按一下[新增]工作角色&#x200B;[!UICONTROL ****]。
 
    當您建立費率卡時，會將每個角色的費率新增到費率卡中。 以日期為基礎的目前有效費率會以圖示![目前費率圖示](assets/current-rate-icon.png)表示。
 
@@ -142,13 +140,9 @@ ht-degree: 1%
    >
    >因為每個費率都與角色和屬性的組合相關聯以建立唯一費率，所以當您編輯費率時，無法變更角色和屬性。
 
-<div class="preview">
-
 1. 若要在有效日期匯率清單的特定位置新增匯率，請將滑鼠移至匯率上，並選取匯率名稱右側的&#x200B;**更多**&#x200B;功能表。 然後，選擇&#x200B;**在**&#x200B;上方插入列，或選擇&#x200B;**在**&#x200B;下方插入列。
 
    「編輯收費率」方塊隨即顯示，其中新收費率的行已新增至您放置的位置。 您選取用來新增上方或下方列的速率會以藍線反白。 新增新的收費率，視需要調整現有收費率的有效日期，然後按一下&#x200B;**儲存**。
-
-</div>
 
 1. 若要從費率卡刪除收費率，請選取費率旁的核取方塊，然後按一下動作列上的&#x200B;[!UICONTROL **刪除**]。
 1. 若要鎖定速率，請選取速率旁邊的核取方塊，然後按一下動作列上的&#x200B;[!UICONTROL **鎖定**]。
