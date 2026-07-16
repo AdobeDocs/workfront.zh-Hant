@@ -5,9 +5,9 @@ title: 設定Adobe Workfront MCP伺服器
 description: 設定您的Workfront執行個體和AI代理平台，讓您透過自然語言對話來使用Workfront。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 3e189faacf67a9a565b0fbd5a92786110a9785f9
+source-git-commit: e9ddfa2847c44b0a92af3239a52d704d4a866dc8
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,6 @@ ht-degree: 0%
 [!DNL Adobe Workfront] MCP伺服器可讓您在支援的AI代理程式平台上，透過自然語言對話處理您的Workfront資料。
 
 在您可以將AI代理平台連線到Workfront之前，Workfront管理員必須在您的Workfront執行個體中啟用MCP伺服器存取。 每個支援的AI代理平台連線AI代理平台的確切步驟不同。
-
->[!IMPORTANT]
->
->目前，Workfront MCP伺服器僅供使用AWS的客戶使用。 使用GCP或Azure的客戶將能在不久的將來使用Workfront MCP功能。
 
 ## 支援的AI代理平台
 
@@ -66,10 +62,6 @@ MCP伺服器存取許可權由兩個不同的管理員所控制。
 
 
 ### 從聯結器目錄連線到Claude案頭
-
->[!IMPORTANT]
->
->目前，Claude Connector僅支援連線至美國地區的Workfront MCP伺服器。  若要連線到歐盟地區的Workfront執行個體，請參閱本文中的[使用URL連線到Claude](#connect-to-claude-with-a-url)。
 
 +++ 展開以檢視將Workfront連線到[!DNL Claude]的逐步指示。
 
@@ -122,14 +114,6 @@ MCP伺服器存取許可權由兩個不同的管理員所控制。
 
 1. 建立聯結器後，會彈出登入視窗。 使用您的Adobe ID憑證進行驗證。 如果您屬於多個Workfront執行個體，請務必選取所需執行個體。
 
-   >[!NOTE]
-   >
-   >您的Workfront執行個體必須連線到該執行個體所在地區的MCP伺服器。 例如，EU執行個體必須連線至EU MCP伺服器。
-   >
-   >選取執行個體時，與MCP伺服器區域不相容的執行個體會顯示為灰色，您無法連線到它們。
-   >
-   >若要連線到與MCP伺服器區域不相容的執行個體，請為該區域設定一個具有正確URL的新MCP連線。
-
 +++
 
 ### 使用技能自訂Claude行為
@@ -152,14 +136,6 @@ MCP伺服器存取許可權由兩個不同的管理員所控制。
 
 1. 確定驗證已設定為&#x200B;**OAuth** （預設為設定），並選取接受核取方塊以繼續。
 1. 建立應用程式後，系統會隨即顯示登入視窗。 使用您的Adobe ID憑證進行驗證。 如果您屬於多個Workfront執行個體，請務必選取所需執行個體。
-
-   >[!NOTE]
-   >
-   >您的Workfront執行個體必須連線到該執行個體所在地區的MCP伺服器。 例如，EU執行個體必須連線至EU MCP伺服器。
-   >
-   >選取執行個體時，與MCP伺服器區域不相容的執行個體會顯示為灰色，您無法連線到它們。
-   >
-   >若要連線到與MCP伺服器區域不相容的執行個體，請為該區域設定一個具有正確URL的新MCP連線。
 
 
 ### 使用自訂GPT自訂ChatGPT行為
