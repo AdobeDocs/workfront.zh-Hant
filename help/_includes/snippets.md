@@ -1,7 +1,7 @@
 ---
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
-source-wordcount: '2236'
+source-wordcount: '2258'
 ht-degree: 2%
 
 ---
@@ -99,7 +99,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 ## 步驟1 — 開始設定 {#step-1-to-setup}
 
-1. 按一下Adobe Workfront左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![設定圖示](/help/_includes/assets/gear-icon-setup.png)。
+1. 按一下Adobe Workfront左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![設定圖示](/help/_includes/assets/gear-icon-setup-2026.png)。
 
 ## 表單設計工具轉換為GA {#form-designer-default}
 
@@ -124,7 +124,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 ## 步驟1 — 接近使用者 {#step-1-to-users}
 
-1. 按一下Adobe Workfront左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 使用者]** ![使用者圖示](/help/_includes/assets/users-icon-in-main-menu.png)。
+1. 按一下Adobe Workfront左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 使用者]** ![使用者圖示](/help/_includes/assets/users-icon-in-main-menu-2026.png)。
 
 
 <!-- Agile -->
@@ -474,7 +474,7 @@ OLD:
 
 1. 在&#x200B;**[!UICONTROL 組織]**&#x200B;區段中，選取&#x200B;**[!UICONTROL 主團隊]**&#x200B;欄位。 開始輸入您想要與使用者建立關聯的團隊名稱。 當您在清單中看到團隊名稱時，請按一下該團隊的名稱。
 
-1. 按一下&#x200B;**[!UICONTROL 儲存變更]**。
+1. 按一下「**[!UICONTROL 儲存變更]**」。
 您選取的使用者現在與主團隊相關聯。
 這些使用者現在可以看到任何專案團隊設定，包括與「完成」按鈕關聯的狀態。
 
