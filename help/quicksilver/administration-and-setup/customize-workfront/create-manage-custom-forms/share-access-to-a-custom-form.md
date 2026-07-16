@@ -9,17 +9,12 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
 TQID: https://experienceleague.adobe.com/gpJQedqcdtjaxvhVuWKgJVpfAPAT2ICSgO6nRFLvimM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b0dd2c2c448c829b2ce1559ddc87880c9a47a68f
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 58d13b171ada1f43efe4bcca0c3847048a32e863
 workflow-type: tm+mt
 source-wordcount: 967
 ht-degree: 2%
@@ -129,7 +124,7 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
 
 ## 共用自訂表格
 
-您可以為特定使用者、工作角色、群組、團隊、公司和企業設定檔設定特定層級的表單存取權，而不是將自訂表單保留在預設共用狀態（本文中關於存取自訂表單[&#128279;](#access-to-custom-forms)的說明）。
+您可以為特定使用者、工作角色、群組、團隊、公司和企業設定檔設定特定層級的表單存取權，而不是將自訂表單保留在預設共用狀態（本文中關於存取自訂表單](#access-to-custom-forms)的說明）。[
 
 {{step-1-to-setup}}
 
@@ -169,14 +164,14 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
     </tbody> 
    </table>
 
-1. （可選）重複步驟5至6，將其他名稱新增至清單並設定其選項。
+1. （可選）重複步驟4至5，將其他名稱新增至清單並設定其選項。
 1. （選擇性）如果您想要將自訂表單（在其附加的物件上）的存取許可權制在您先前步驟中指定的物件上，請按一下「**誰有存取權**」下的下拉式箭頭，然後選取「**只有受邀者才能存取**」。
 
    如果您改變心意，可以選取&#x200B;**系統中的每個人都可以檢視**。
 
    >[!NOTE]
    >
-   >* 當您將自訂表單設定為全系統可見時，您僅允許使用者在指派給他們的物件上看見並填寫它，不允許將其附加到其他物件。 您可以使用步驟6中說明的「附加至自訂資料」選項，授與將自訂表單附加至物件的功能。
+   >* 當您將自訂表單設定為全系統可見時，您僅允許使用者在指派給他們的物件上看見並填寫它，不允許將其附加到其他物件。 您可以使用步驟5中說明的「附加至自訂資料」選項，授與將自訂表單附加至物件的功能。
    >* 大多陣列織都想要確保系統中的每個人都可以填寫自訂表單，將其附加到他們工作的物件上，並在報表中檢視其資料。 如果您的組織有此情況，建議您使用&#x200B;**系統中的每個人都可以檢視**。
    >* 如果您選取&#x200B;**系統中的每個人都可以檢視和附加**，則所有使用者都可以將表單附加到其他物件。
    >
