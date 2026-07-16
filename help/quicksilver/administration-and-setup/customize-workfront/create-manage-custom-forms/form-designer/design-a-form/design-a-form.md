@@ -11,11 +11,19 @@ exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/9vmobOfSleqLF7HqRnOav5IB1l8C4WPLO0vyEJwmfiI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
 source-wordcount: 7795
@@ -65,7 +73,7 @@ ht-degree: 6%
 1. 在左側面板中，按一下&#x200B;**自訂Forms**，然後選取&#x200B;**Forms**。
 
 1. 按一下&#x200B;**新增自訂表格。**
-1. 選取您要附加自訂表單的物件型別，然後按一下[繼續]。****
+1. 選取您要附加自訂表單的物件型別，然後按一下[繼續]。**&#x200B;**
 
    ![選擇物件型別](assets/new-custom-form-select-objects-new-spectrum-icons.png)
 
@@ -139,7 +147,7 @@ ht-degree: 6%
    >
    >若將現有欄位標示為非使用中，此後就無法用於報表元素和自訂表單。 如果報表或表單中目前正在使用非作用中欄位，則欄位及其歷史資料會維持原位。
 
-1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -343,7 +351,7 @@ ht-degree: 6%
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -522,7 +530,7 @@ ht-degree: 6%
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -720,7 +728,7 @@ To add typeahead and date fields:
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -799,12 +807,12 @@ To add typeahead and date fields:
       <td role="rowheader">JSON 路徑</td>
       <td><p>輸入或貼上API的JSON路徑。</p> <p>此選項允許從API URL傳回的JSON擷取資料。 這可當作選取要讓JSON內的哪些值會出現在下拉式選項中的方式。</p><p>例如，如果您的API URL以下列格式傳回JSON，則您可以使用「$.data[*].name」選取美國和加拿大作為下拉式選項：</br>
       <pre>
-      {
-       資料： {
+      &lbrace;
+       資料： &lbrace;
          { name： "USA"}，
          { name： "Canada"}
-       }
-      }
+       &rbrace;
+      &rbrace;
       </pre>
       </p>
      <p>如需有關JSON路徑並確保您撰寫正確JSON路徑的詳細資訊，請參閱<a href="https://jsonpath.com/">https://jsonpath.com/</a>。</p></td>
@@ -828,7 +836,7 @@ To add typeahead and date fields:
     </tbody>
    </table>
 
-1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -925,7 +933,7 @@ To add typeahead and date fields:
     </tbody>
    </table>
 
-1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -1018,7 +1026,7 @@ The Workfront Mobile app
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -1034,7 +1042,7 @@ The Workfront Mobile app
 1. 開啟校訂。
 1. 以滑鼠右鍵按一下視訊上的任何位置，然後選取&#x200B;**複製視訊位址**。
 1. 在您新增視訊Widget的自訂表單中，將複製的地址貼到&#x200B;**URL**&#x200B;方塊中。
-1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -1173,7 +1181,7 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
     </tbody> 
    </table>
 
-1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -1234,7 +1242,7 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -1330,7 +1338,7 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
 
    或
 

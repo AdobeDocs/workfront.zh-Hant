@@ -9,11 +9,17 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
 TQID: https://experienceleague.adobe.com/nQQNC-imexdKyKEfrUI3zNVEx5-wS7O8Lq0wbRSpG2g
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
 source-wordcount: 3613
@@ -70,16 +76,16 @@ ht-degree: 0%
 | --- | --- |
 | ![目標欄位的顯示邏輯](assets/display-logic-bottom-right.png) | 欄位是套用顯示邏輯的目標欄位。 如果在表單上做了特定選擇，則會顯示此欄位。 |
 | ![顯示參考欄位的邏輯圖示](assets/display-logic-bottom-left.png) | 此欄位是顯示邏輯的參考欄位。 此欄位中的特定選取範圍或值會顯示目標欄位。 |
-| 目標欄位](assets/skip-logic-bottom-right.png)的![略過邏輯 | 欄位是套用略過邏輯的目標欄位。 此欄位上的特定選取範圍或值會略過其他欄位，並直接移至參考欄位。 |
-| 參考欄位](assets/skip-logic-bottom-left.png)的![略過邏輯圖示 | 此欄位是略過邏輯的參考欄位。 如果在目標欄位上做了特定選擇，則表單會前進到此欄位，並且之間的欄位會隱藏。 |
-| 目標欄位](assets/validation-logic-icon.png)的![驗證邏輯 | 欄位是套用驗證邏輯的目標欄位。 參考欄位上的特定選取範圍或值會決定驗證是否失敗。 驗證邏輯的目標欄位和參考欄位可以相同。 |
-| 參考欄位](assets/validation-logic-reference-field.png)的![驗證邏輯 | 欄位是驗證邏輯的參考欄位。 此欄位上的特定選取範圍或值會決定目標欄位上的驗證是否失敗。 驗證邏輯的目標欄位和參考欄位可以相同。 |
+| 目標欄位![&#128279;](assets/skip-logic-bottom-right.png)的略過邏輯 | 欄位是套用略過邏輯的目標欄位。 此欄位上的特定選取範圍或值會略過其他欄位，並直接移至參考欄位。 |
+| 參考欄位![&#128279;](assets/skip-logic-bottom-left.png)的略過邏輯圖示 | 此欄位是略過邏輯的參考欄位。 如果在目標欄位上做了特定選擇，則表單會前進到此欄位，並且之間的欄位會隱藏。 |
+| 目標欄位![&#128279;](assets/validation-logic-icon.png)的驗證邏輯 | 欄位是套用驗證邏輯的目標欄位。 參考欄位上的特定選取範圍或值會決定驗證是否失敗。 驗證邏輯的目標欄位和參考欄位可以相同。 |
+| 參考欄位![&#128279;](assets/validation-logic-reference-field.png)的驗證邏輯 | 欄位是驗證邏輯的參考欄位。 此欄位上的特定選取範圍或值會決定目標欄位上的驗證是否失敗。 驗證邏輯的目標欄位和參考欄位可以相同。 |
 | ![目標欄位的預設值邏輯](assets/default-value-logic-icon.png) | 欄位是套用預設值邏輯的目標欄位。 參考欄位上的特定選取範圍或值會決定預設值。 預設值邏輯的目標欄位和參考欄位可以相同。 |
 | ![參考欄位的預設值邏輯](assets/default-value-logic-reference-field.png) | 欄位是預設值邏輯的參考欄位。 此欄位上的特定選取範圍或值會決定目標欄位的預設值。 預設值邏輯的目標欄位和參考欄位可以相同。 |
 | ![目標欄位的格式化邏輯](assets/formatting-logic-icon.png) | 欄位是套用格式邏輯的目標欄位。 參考欄位上的特定選取範圍或值會決定格式。 目標欄位和參考欄位在格式邏輯上可以相同。 |
 | ![參考欄位的格式化邏輯](assets/formatting-logic-reference-field.png) | 欄位是格式邏輯的參考欄位。 此欄位上的特定選取範圍或值會決定目標欄位的格式。 目標欄位和參考欄位在格式邏輯上可以相同。 |
-| 目標欄位](assets/editability-logic-icon.png)的![可編輯性邏輯 | 欄位是套用可編輯性邏輯的目標欄位。 當滿足定義的條件時，該欄位可以編輯或唯讀。 可編輯性邏輯的目標欄位和參考欄位可以相同。 |
-| 參考欄位](assets/editability-logic-reference-field.png)的![可編輯性邏輯 | 此欄位是可編輯性邏輯的參考欄位。 當此欄位符合定義的條件時，邏輯會套用至目標欄位。 可編輯性邏輯的目標欄位和參考欄位可以相同。 |
+| 目標欄位![&#128279;](assets/editability-logic-icon.png)的可編輯性邏輯 | 欄位是套用可編輯性邏輯的目標欄位。 當滿足定義的條件時，該欄位可以編輯或唯讀。 可編輯性邏輯的目標欄位和參考欄位可以相同。 |
+| 參考欄位![&#128279;](assets/editability-logic-reference-field.png)的可編輯性邏輯 | 此欄位是可編輯性邏輯的參考欄位。 當此欄位符合定義的條件時，邏輯會套用至目標欄位。 可編輯性邏輯的目標欄位和參考欄位可以相同。 |
 
 ![邏輯圖示](assets/custom-form-logic-icon-samples.png)
 
@@ -131,7 +137,7 @@ ht-degree: 0%
    1. 第一個選項是選擇定義欄位。 此欄位具有顯示目標的選取值。 它必須是多選欄位。
    1. 第二個選項是選擇選取值。 只有已為該欄位定義的值才可使用。
    1. 第三個選項是&#x200B;**已選取**&#x200B;或&#x200B;**未選取**。 選擇&#x200B;**已選取**&#x200B;表示選取值時，會顯示目標欄位。 選擇&#x200B;**未選取**&#x200B;表示在定義欄位中選取任何其他值時，會顯示目標欄位。
-   1. 若要將&#x200B;**And**&#x200B;規則新增至邏輯陳述式，請按一下您剛建立之規則下方的[新增規則]。 ****&#x200B;依照相同的提示來建置規則。 必須符合所有的And規則，目標欄位才會顯示。
+   1. 若要將&#x200B;**And**&#x200B;規則新增至邏輯陳述式，請按一下您剛建立之規則下方的[新增規則]。 **&#x200B;**&#x200B;依照相同的提示來建置規則。 必須符合所有的And規則，目標欄位才會顯示。
 
       ![顯示邏輯產生器](assets/simple-display-logic2.png)
 
@@ -161,7 +167,7 @@ ht-degree: 0%
 
 請注意，`123abc`代表資源管理員的角色ID。
 
-針對角色](assets/advanced-display-on-form1.png)顯示的![表單區段
+針對角色![&#128279;](assets/advanced-display-on-form1.png)顯示的表單區段
 
 具有不同角色ID的相同條件會套用至「專案財務KPI」區段，以定義只有「財務建議程式」角色才能檢視區段。
 
