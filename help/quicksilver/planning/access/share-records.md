@@ -9,20 +9,14 @@ exl-id: 9ffad1aa-3c96-40fa-9c62-7a3e00699f18
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/NTytTWD-zq3PVhXn4n-GHinvQxna1wfnAXjaeYBgTEY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 009953346ae5ef29611101acaa08b4f9810cf9d8
 workflow-type: tm+mt
-source-wordcount: 1713
+source-wordcount: 1742
 ht-degree: 2%
 
 ---
@@ -86,9 +80,9 @@ at GA, check that the Workfront plans article linked below has Planning info
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
-<p>任何Workfront和Planning套件</p> 
+<p>具有Planning套件的任何Workfront或工作流程</p> 
 或
-<p>任何工作流程和Planning套件</p> 
+<p>任何Workfront Planning作為獨立產品套件</p> 
  </tr>
 
 <tr> 

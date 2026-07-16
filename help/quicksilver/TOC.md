@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: cf5c324a5dd527d498b5ccc32e1eb81ab3ea638f
+source-git-commit: 5d8ac684791c11607947de1ea3d1309ee0dfcaab
 workflow-type: tm+mt
-source-wordcount: '14290'
+source-wordcount: '14340'
 ht-degree: 2%
 
 ---
@@ -721,7 +721,7 @@ ht-degree: 2%
          * [管理 API 金鑰](administration-and-setup/manage-workfront/security/manage-api-keys.md)
          * [隱私權原則](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
          * {hide-from-toc}[增強式驗證概觀](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
-         * {hide-from-toc}[使用增強式驗證時更新IDP中的SAML 2.0中繼資料](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
+         * 使用增強式驗證時{hide-from-toc}[更新IDP中的SAML 2.0中繼資料](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
       * 匯率 {#exchange-rates}
          * [匯率](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
          * [設定匯率](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
@@ -1193,7 +1193,7 @@ ht-degree: 2%
       * [刪除文件](documents/managing-documents/delete-documents.md)
       * [從剪貼簿貼上影像](documents/managing-documents/paste-image-clipboard.md)
       * [大量編輯檔案](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)
-      * {hide-from-toc}[Workfront檔案詳細資訊中的AddBuilder](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
+      * {hide-from-toc}[Workfront檔案詳細資訊](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)中的AddBuilder
    * 組織檔案 {#organize-documents}
       * [組織檔案](documents/organizing-documents/organize-documents.md)
       * [建立檔案資料夾](documents/organizing-documents/create-documents-folder.md)
@@ -2272,9 +2272,13 @@ ht-degree: 2%
       * [開始使用Adobe Workfront規劃和Adobe GenStudio for Performance Marketing整合](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
       * [在Adobe Workfront Planning中管理GenStudio工作區](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
       * {hide-from-toc}[將Workfront規劃工作區升級至GenStudio](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
-   * Adobe Workfront Planning獨立 {#planning-standalone}
-      * {hide-from-toc}[Adobe Workfront Planning Standalone：文章索引](planning/planning-sta/planning-sta-article-index.md)
-      * {hide-from-toc}[開始使用Adobe Workfront Planning Standlone](planning/planning-sta/get-started-with-planning-sta.md)
+   * Adobe Workfront Planning作為獨立產品 {#planning-standalone}
+      * [Adobe Workfront Planning作為獨立產品：文章索引](planning/planning-sta/planning-sta-article-index.md)
+      * [開始使用Adobe Workfront Planning作為獨立產品](planning/planning-sta/planning-sta-overview.md)
+      * [Adobe Workfront Planning作為獨立產品所需的存取權](planning/planning-sta/access-needed-for-planning-sta.md)
+      * [以獨立產品形式管理您的Adobe Workfront Planning執行個體](planning/planning-sta/manage-planning-sta-instance.md)
+      * [在Adobe Workfront Planning中作為獨立產品管理使用者](planning/planning-sta/manage-users-in-planning-sta.md)
+      * [以獨立產品形式管理Adobe Workfront Planning中的團隊](planning/planning-sta/manage-teams-in-planning-sta.md)
 * Adobe Workfront整合 {#adobe-workfront-integrations}
    * [Adobe Workfront整合](workfront-integrations-and-apps/workfront-integrations.md)
    * [Adobe Workfront內建整合概述](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
@@ -2617,10 +2621,10 @@ ht-degree: 2%
       * [使用JWT流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-jwt-flow.md)
       * [使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-pkce-flow.md)
       * [棄用API — 內部](wf-api/api/deprecation-api-internal.md)
-      * [&#x200B; API 22版的新增功能](/help/quicksilver/wf-api/api/new-api-version-22.md)
-      * [&#x200B; API 21版的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-      * [&#x200B; API 20版的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-      * [&#x200B; API 19版的新增功能](wf-api/api/new-api-version-19.md)
+      * [ API 22](/help/quicksilver/wf-api/api/new-api-version-22.md)版的新增功能
+      * [ API 21](/help/quicksilver/wf-api/api/new-api-version-21.md)版的新增功能
+      * [ API 20](/help/quicksilver/wf-api/api/new-api-version-20.md)版的新增功能
+      * [ API 19](wf-api/api/new-api-version-19.md)版的新增功能
       * [API 18版的新增功能](wf-api/api/new-api-version-18.md)
       * [API 17版的新增功能](wf-api/api/new-api-version-17.md)
       * [API 16版的新增功能](wf-api/api/new-api-version-16.md)

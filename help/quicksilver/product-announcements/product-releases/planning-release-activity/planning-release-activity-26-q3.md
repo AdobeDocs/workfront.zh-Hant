@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 4ac828444e49213cdc4e00a5f92e404899e2225d
+source-git-commit: 847c38fe006ca5f1170e4b28c9b0a2c61c5c77fa
 workflow-type: tm+mt
-source-wordcount: '2883'
+source-wordcount: '3109'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,38 @@ There are no features released during the Third Quarter Release for 2026. When f
 本文介紹2026年第三季度發行中針對Workfront Planning所推出的功能。
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+
+## 存取層級的新授權型別欄位
+
+>[!NOTE]
+>
+>所有客戶的預覽和生產： 2026年7月16日
+>[!BADGE 不在排程]{type=Neutral}內
+
+
+我們已在「存取層級」方塊中變更下列欄位：
+
+* 我們已將「存取層級」方塊中的「授權型別」欄位重新命名為「工作流程授權型別」。 此重新標籤標籤的功能沒有變更。
+
+  如需詳細資訊，請參閱[建立和修改自訂存取層級](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
+
+* 對於已購買Workfront Planning套件的客戶，我們已新增新的「Planning授權型別」欄位，以說明Workfront Planning的使用者授權。
+已購買相同數量的Workflow和Planning授權的客戶可使用下列授權型別：
+
+   * 規劃標準
+   * 規劃貢獻者
+   * 無
+
+>[!NOTE]
+>
+>您可以在Workflow和Planning之間為使用者指派混合式授權組合，但使用者必須擁有付費的Workflow授權才能擁有Planning Standard授權。
+>
+>例如，Planning Standard授權不能指派給工作流程貢獻者使用者。 擁有Workflow Light授權的使用者現在可以獲得Planning的標準授權，從而管理工作區及其內容。 之前，他們只能擁有對Planning資料的僅限檢視存取權。
+>
+>新客戶可以購買不同數量的「計畫」與「工作流程」授權，並搭配任何組合使用。 在此案例中，Planning貢獻者授權型別無法使用。
+
+如需詳細資訊，請參閱[Adobe Workfront Planning存取總覽](/help/quicksilver/planning/access/access-overview.md)。
 
 ## Snowflake中Workfront Planning的自動化存取控制
 
