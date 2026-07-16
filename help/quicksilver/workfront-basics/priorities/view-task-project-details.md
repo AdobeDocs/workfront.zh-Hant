@@ -7,15 +7,11 @@ feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
 TQID: https://experienceleague.adobe.com/0he3DEiya4uyF6tdS-xHqhqnSYiQkXijNxwheJVvDU4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: bd7ae926356225423e6f986bef0b216b2a04584c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7a657f3e0e6ee302e30e8bc9a61b1a3b0bab5ae9
 workflow-type: tm+mt
 source-wordcount: 409
 ht-degree: 6%
@@ -83,7 +79,7 @@ ht-degree: 6%
    * 新增檔案
    * 直接前往專案
 
-   ![專案詳細資料](assets/project-details-new.png)
+   ![專案詳細資料](assets/project-details-060226.png)
 
 ### 檢視任務詳細資訊
 
@@ -99,8 +95,7 @@ ht-degree: 6%
    * 新增檔案
    * 新增快速連結
 
-
-   ![任務詳細資料](assets/task-details-new.png)
+   ![任務詳細資料](assets/task-details-060226.png)
 
 ### 檢視問題詳細資訊
 
@@ -117,7 +112,7 @@ ht-degree: 6%
       * 新增檔案
       * 新增快速連結
 
-   ![問題詳細資料](assets/issue-details.png)
+   ![問題詳細資料](assets/issue-details-060226.png)
 
 ## 在「詳細資訊」頁面上檢視詳細資訊
 
