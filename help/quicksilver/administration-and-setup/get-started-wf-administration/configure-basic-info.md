@@ -11,19 +11,12 @@ exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
 last-update: 2026-04-29T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/4536sfZCe8ugbGGuFUQeyFXnNNifG0e5MZ4npIlH1iI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5fe8f3a46e3582a359b8d4641a7062b0590ea0b8
 workflow-type: tm+mt
 source-wordcount: 766
 ht-degree: 4%
@@ -31,8 +24,6 @@ ht-degree: 4%
 ---
 
 # 設定系統的基本資訊
-
-{{highlighted-preview}}
 
 <!-- Audited: 2/2024 -->
 
@@ -84,7 +75,7 @@ ht-degree: 4%
    | 區域 | 更多資訊 |
    |---------|-----------------|
    | **基本資訊** | 如需有關在Workfront中設定基本資訊的資訊，請參閱[設定基本資訊](#configure-basic-info)。 |
-   | <span class="preview">**儲存概述**</span> | <span class="preview">如需有關檢查檔案儲存使用量和配額的資訊，請參閱[檢查檔案儲存限制](../../documents/managing-documents/check-document-storage.md)。</span> |
+   | **儲存概述** | 如需有關檢查檔案儲存使用量和配額的資訊，請參閱[檢查檔案儲存限制](../../documents/managing-documents/check-document-storage.md)。 |
    | **API金鑰設定** | 如需API金鑰設定的相關資訊，請參閱[管理API金鑰](../../administration-and-setup/manage-workfront/security/manage-api-keys.md)。 |
    | **IP允許清單** | 如需將IP位址新增至您的允許清單（您的使用者可存取Workfront）的相關資訊，請參閱[設定防火牆的允許清單](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。 |
    | **電子郵件允許清單** | 如需新增電子郵件至允許清單的詳細資訊，請參閱[設定電子郵件允許清單](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)。 |

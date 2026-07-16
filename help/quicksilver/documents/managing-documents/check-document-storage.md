@@ -9,15 +9,11 @@ exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
 last-update: 2026-04-29T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/vOjgBLxX5rFIGHBCHB2a6Q3Bs3KE5x-opXUMvANjI1E
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 09dff59503604894e61f2a62af7ae1c2e8a39068
 workflow-type: tm+mt
 source-wordcount: 491
 ht-degree: 3%
@@ -25,8 +21,6 @@ ht-degree: 3%
 ---
 
 # 檢查檔案儲存限制
-
-{{highlighted-preview}}
 
 雖然使用者可上傳至您的Workfront執行個體的個別檔案型別和大小沒有限制，但您的Workfront計畫包含總儲存配額。 身為Workfront管理員，您可以從「客戶資訊」頁面的「設定」區域監控使用情況和配額。
 
@@ -62,7 +56,7 @@ ht-degree: 3%
 
 +++
 
-## 舊版Workfront儲存空間
+## 舊版 Workfront 儲存空間
 
 如果您的組織使用舊版Workfront儲存空間，客戶資訊頁面會顯示直接上傳至Workfront的檔案的單一儲存配額。
 
@@ -78,8 +72,6 @@ ht-degree: 3%
 >[!NOTE]
 >
 >此限制不適用於您從任何其他第三方服務提供者（SharePoint、Google Drive、Webdam、Box、Dropbox或任何其他檔案資產管理提供者）連結至Workfront的檔案。
-
-<div class="preview">
 
 ## Adobe 雲端儲存空間
 
@@ -107,5 +99,3 @@ ht-degree: 3%
 ### 給管理員的電子郵件通知
 
 當使用量超過儲存配額的75%、90%或100%時，Workfront會傳送電子郵件通知給系統管理員。
-
-</div>

@@ -10,11 +10,9 @@ exl-id: 69f0560f-8612-431d-9765-0216bf47d8b0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/k4qFA-R7MGSh5NBTbJCeOEac5Z30PVxzO8rxLRJi23Q
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 322583384e4397bf02d534c14db46020e409aa35
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 5fe8f3a46e3582a359b8d4641a7062b0590ea0b8
 workflow-type: tm+mt
 source-wordcount: 474
 ht-degree: 1%
@@ -22,8 +20,6 @@ ht-degree: 1%
 ---
 
 # 檔案詳細資訊總覽
-
-{{highlighted-preview}}
 
 「檔案詳細資訊」頁面可讓您檢視、傳達及管理附加至Adobe Workfront物件的檔案屬性。
 
@@ -112,8 +108,6 @@ ht-degree: 1%
    ![檔案詳細資料](assets/doc-details.png)
 
 
-<div class="preview">
-
 ### 在新的檔案區域中檢視列印摘要
 
 檔案獲得核准後，您可以開啟「Frame.io列印註解」頁面，以可列印格式檢視資產預覽、註解和核准決定。
@@ -130,5 +124,3 @@ ht-degree: 1%
 >
 >「列印摘要」連結只會在核准已新增至檔案之後顯示。
 
-
-</div>
