@@ -49,29 +49,29 @@ ht-degree: 0%
   <tr> 
    <td> 
     <ul> 
-     <li>[！UICONTROL首頁]： <a href="../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md" class="MCXref xref">使用[！UICONTROL首頁]區域</a></li> 
-     <li>[！UICONTROL產品組合]： <a href="../../manage-work/portfolios/portfolio-management-overview.md" class="MCXref xref">Portfolio管理</a></li> 
-     <li>[！UICONTROL程式]： <a href="../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md" class="MCXref xref">建立和管理程式</a></li> 
-     <li>[！UICONTROL專案]： <a href="../../manage-work/projects/projects-overview.md" class="MCXref xref">專案：文章索引</a></li> 
-     <li>[！UICONTROL報告]： <a href="../../reports-and-dashboards/reports/reports-overview.md" class="MCXref xref">報告</a></li> 
-     <li>[！UICONTROL儀表板]： <a href="../../reports-and-dashboards/dashboards/dashboards-overview.md" class="MCXref xref">儀表板</a></li> 
-     <li>[！UICONTROL行事曆]： <a href="../../reports-and-dashboards/reports/calendars/calendars.md" class="MCXref xref">行事曆：文章索引</a></li> 
-     <li>[！UICONTROL Resourcing]： <a href="../../resource-mgmt/resource-mgmt-overview/resource-management-overview.md" class="MCXref xref">資源管理</a></li> 
-     <li>[！UICONTROL團隊]： <a href="../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md" class="MCXref xref">建立和管理團隊</a></li> 
-     <li>[！UICONTROL使用者]： <a href="../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md" class="MCXref xref">建立和管理使用者</a></li> 
+     <li>[!UICONTROL 首頁]： <a href="../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md" class="MCXref xref">使用[!UICONTROL 首頁]區域</a></li> 
+     <li>[!UICONTROL 產品組合]： <a href="../../manage-work/portfolios/portfolio-management-overview.md" class="MCXref xref">Portfolio管理</a></li> 
+     <li>[!UICONTROL 程式]： <a href="../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md" class="MCXref xref">建立和管理程式</a></li> 
+     <li>[!UICONTROL 專案]： <a href="../../manage-work/projects/projects-overview.md" class="MCXref xref">專案：文章索引</a></li> 
+     <li>[!UICONTROL 報告]： <a href="../../reports-and-dashboards/reports/reports-overview.md" class="MCXref xref">報告</a></li> 
+     <li>[!UICONTROL 儀表板]： <a href="../../reports-and-dashboards/dashboards/dashboards-overview.md" class="MCXref xref">儀表板</a></li> 
+     <li>[!UICONTROL 行事曆]： <a href="../../reports-and-dashboards/reports/calendars/calendars.md" class="MCXref xref">行事曆：文章索引</a></li> 
+     <li>[!UICONTROL Resourcing]： <a href="../../resource-mgmt/resource-mgmt-overview/resource-management-overview.md" class="MCXref xref">資源管理</a></li> 
+     <li>[!UICONTROL 團隊]： <a href="../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md" class="MCXref xref">建立和管理團隊</a></li> 
+     <li>[!UICONTROL 使用者]： <a href="../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md" class="MCXref xref">建立和管理使用者</a></li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>[！UICONTROL要求]： <a href="../../manage-work/requests/create-requests/create-requests.md" class="MCXref xref">建立要求</a></li> 
-     <li>[！UICONTROL時程表]： <a href="../../timesheets/timesheets-all.md" class="MCXref xref">時程表：文章索引</a></li> 
-     <li>[！UICONTROL檔案]： <a href="../../documents/documents-overview.md" class="MCXref xref">檔案</a></li> 
-     <li>[！UICONTROL範本]： <a href="../../manage-work/projects/create-and-manage-templates/create-manage-templates.md" class="MCXref xref">建立和管理專案範本：文章索引</a></li> 
-     <li>[！UICONTROL面板]： <a href="/help/quicksilver/agile/boards-overview.md">面板概觀</a></li>
-     <li>[！UICONTROL藍圖]： <a href="/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md">藍圖概觀</a></li>
-     <li>[！UICONTROL優先順序]： <a href="/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md">開始使用優先順序</a></li>
-     <li>[！UICONTROL目標]： <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals]總覽</a></li> 
-     <li>[！UICONTROL案例]： <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">案例規劃工具概觀</a></li> 
-     <li>[！UICONTROL Proofing]： <a href="../../workfront-proof/workfront-proof.md" class="MCXref xref">[!DNL Workfront]校訂：文章索引</a></li> 
+     <li>[!UICONTROL 要求]： <a href="../../manage-work/requests/create-requests/create-requests.md" class="MCXref xref">建立要求</a></li> 
+     <li>[!UICONTROL 時程表]： <a href="../../timesheets/timesheets-all.md" class="MCXref xref">時程表：文章索引</a></li> 
+     <li>[!UICONTROL 檔案]： <a href="../../documents/documents-overview.md" class="MCXref xref">檔案</a></li> 
+     <li>[!UICONTROL 範本]： <a href="../../manage-work/projects/create-and-manage-templates/create-manage-templates.md" class="MCXref xref">建立和管理專案範本：文章索引</a></li> 
+     <li>[!UICONTROL 面板]： <a href="/help/quicksilver/agile/boards-overview.md">面板概觀</a></li>
+     <li>[!UICONTROL 藍圖]： <a href="/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md">藍圖概觀</a></li>
+     <li>[!UICONTROL 優先順序]： <a href="/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md">開始使用優先順序</a></li>
+     <li>[!UICONTROL 目標]： <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals]總覽</a></li> 
+     <li>[!UICONTROL 案例]： <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">案例規劃工具概觀</a></li> 
+     <li>[!UICONTROL Proofing]： <a href="../../workfront-proof/workfront-proof.md" class="MCXref xref">[!DNL Workfront]校訂：文章索引</a></li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -84,12 +84,12 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td> <p class="bold">[！UICONTROL設定]</p> </td> 
-   <td> <p>按一下<b>[！UICONTROL設定]</b>即可前往[！UICONTROL設定]區域，您可在此設定[!DNL Workfront]帳戶的不同層面。 根據您的存取設定，您可以設定的內容可能會受到限制。</p> <p>如需[！UICONTROL Setup]區域的詳細資訊，請參閱<a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">管理與設定：文章索引</a>。</p> </td> 
+   <td> <p class="bold">[!UICONTROL 設定]</p> </td> 
+   <td> <p>按一下<b>[!UICONTROL 設定]</b>即可前往[!UICONTROL 設定]區域，您可在此設定[!DNL Workfront]帳戶的不同層面。 根據您的存取設定，您可以設定的內容可能會受到限制。</p> <p>如需[!UICONTROL Setup]區域的詳細資訊，請參閱<a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">管理與設定：文章索引</a>。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p class="bold">[！UICONTROL說明]</p> </td> 
-   <td> <p>按一下<b>[！UICONTROL說明]</b>即可前往[!DNL Adobe Experience League]，存取說明文章、尋找訓練、提交客戶支援票證等等。</p> <p>如需有關[!DNL Experience League]或其他取得說明方法的詳細資訊，請參閱<a href="../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md" class="MCXref xref">在Adobe Workfront中尋找說明的快速指南</a>。</p> </td> 
+   <td> <p class="bold">[!UICONTROL 說明]</p> </td> 
+   <td> <p>按一下<b>[!UICONTROL 說明]</b>即可前往[!DNL Adobe Experience League]，存取說明文章、尋找訓練、提交客戶支援票證等等。</p> <p>如需有關[!DNL Experience League]或其他取得說明方法的詳細資訊，請參閱<a href="../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md" class="MCXref xref">在Adobe Workfront中尋找說明的快速指南</a>。</p> </td> 
   </tr>
   <!--
   <tr> 
