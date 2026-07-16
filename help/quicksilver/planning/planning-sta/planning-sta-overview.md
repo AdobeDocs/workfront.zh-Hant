@@ -107,7 +107,7 @@ Workfront Planning作為獨立產品包含的許多功能，與Workfront Plannin
   如需詳細資訊，請參閱[以獨立產品管理您的Adobe Workfront Planning執行個體](/help/quicksilver/planning/planning-sta/manage-planning-sta-instance.md)。
 * 在Fusion中使用Workfront Planning聯結器
 
-  如需詳細資訊，請參閱[Adobe Workfront規劃模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)。
+  如需詳細資訊，請參閱[Adobe Workfront規劃模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)。
 * 如果貴組織也購買GenStudio for Performance Marketing，請管理Adobe GenStudio for Performance Marketing工作區。
 
   如需詳細資訊，請參閱[開始使用Adobe Workfront Planning與Adobe GenStudio for Performance Marketing整合](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)。
