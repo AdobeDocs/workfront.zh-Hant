@@ -21,16 +21,14 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
-source-wordcount: 481
+source-wordcount: 466
 ht-degree: 0%
 
 ---
 
 # 瞭解[!UICONTROL 工作]授權使用者的導覽
-
-{{highlighted-preview}}
 
 [!UICONTROL 主要功能表]會隨著您的[!DNL Adobe Workfront]系統管理員指派給您的存取層級而變更。 依預設，您只能存取包含您存取層級所允許之功能的區域。 若要瞭解每個存取層級的預設配置元件，請參閱[關於預設 [!DNL Adobe Workfront] 配置](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)。
 
@@ -68,11 +66,7 @@ ht-degree: 0%
 
 * **[!UICONTROL 面板]**：使用共用面板，其中包含欄和卡片，可反映您想要完成的工作，以彈性與團隊成員共同作業。 如需詳細資訊，請參閱[開始使用看板：文章索引](../../../agile/get-started-with-boards/get-started-with-boards.md)。
 
-在預覽環境中<span class="preview">範例影像：</span>
 ![工作者主功能表](assets/worker-main-menu-070626.png)
-
-生產環境中的影像範例：
-![工作者主功能表](assets/worker-main-menu-2026.png)
 
 ## 自訂您的預設[!UICONTROL 主功能表]
 

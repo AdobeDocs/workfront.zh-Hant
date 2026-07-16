@@ -15,7 +15,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 90b8da58f534f9033b427f0ad09c15dba50c28c9
 workflow-type: tm+mt
 source-wordcount: 266
 ht-degree: 7%
@@ -78,7 +78,7 @@ ht-degree: 7%
    | **一般** | 「正常」表示在「緊急」和「高」優先順序專案完成之後，您將處理的例行工作專案。 這是任務和問題的預設值。 |
    | **低** | 「低」表示不需要立即關注的工作專案，並可延遲到所有優先順序較高的工作專案完成為止。 |
 
-   ![我的焦點](assets/my-focus-new.png)
+   ![我的焦點](assets/my-focus-060226.png)
 
    >[!TIP]
    >

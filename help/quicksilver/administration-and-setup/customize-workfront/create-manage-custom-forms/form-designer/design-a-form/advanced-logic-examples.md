@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 740
+source-wordcount: 745
 ht-degree: 2%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 2%
 
 如果套用了邏輯的欄位在使用者填寫自訂表單時符合定義的驗證條件，則該欄位會醒目提示並顯示錯誤訊息。
 
-您可以將驗證邏輯套用至下列欄位型別：單行文字、段落、單選下拉式清單、多選下拉式清單、外部查閱、預先輸入、日期、核取方塊群組，以及選項按鈕。
+您可以將驗證邏輯套用至下列欄位型別：單行文字、段落、單選下拉式清單、多選下拉式清單、外部查閱、內部查閱、日期、核取方塊群組，以及選項按鈕。
 
 ### 僅允許專案所有者選取「Rush」SLA
 
@@ -134,9 +134,9 @@ IF({ownerID}!=$$USER,IF(ISBLANK({ownerID}),"Project Owner will provide this.",CO
 
 ![只有Claire Stevens可以編輯此欄位](assets/only-project-owner-can-edit.png)
 
-### 自動提示會根據其他欄位值允許或拒絕值
+### 內部查詢會根據其他欄位值允許或拒絕值
 
-在此範例中，預先輸入欄位會根據表單上其他欄位中輸入的值，動態地允許或拒絕值。
+在此範例中，內部查詢欄位會根據表單上其他欄位中輸入的值，動態地允許或拒絕值。
 
 驗證運算式：
 
@@ -146,7 +146,7 @@ IF({DE:DV - Text - Budget}>"10000",
 )
 ```
 
-如果預算欄位中的值超過$10,000，則即使自動提示設定上未啟用角色篩選器，也只能從自動提示中選取具有主管角色的使用者。
+如果預算欄位中的值超過$10,000，則即使內部查閱設定上未啟用角色篩選，也只能從內部查閱中選取具有Director角色的使用者。
 
 ![預算金額需要主管核准](assets/budget-director.png)
 

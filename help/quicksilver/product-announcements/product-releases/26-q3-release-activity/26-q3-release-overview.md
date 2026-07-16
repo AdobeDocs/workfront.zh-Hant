@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: f45c946e48b253018648c414915d53eca5a4de80
+source-git-commit: 29d86cd2aa730d5bebe14fb2bd3cb1a59e00852a
 workflow-type: tm+mt
-source-wordcount: '2919'
+source-wordcount: '3150'
 ht-degree: 3%
 
 ---
@@ -110,6 +110,15 @@ ht-degree: 3%
             <td><p>July 16, 2026</p></td>
         </tr>
         -->
+        <tr>
+            <td>
+                存取層級的<a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">新授權型別欄位<p>[!BADGE Off Schedule]{type=Neutral}</p></a>
+                <p>我們已在「存取層級」方塊中變更下列欄位： <ul><li>我們已將「存取層級」方塊中的「授權型別」欄位重新命名為「工作流程授權型別」。 此重新標籤標籤的功能沒有變更。  </li><li>對於已購買Workfront Planning套件的客戶，我們已新增新的「Planning授權型別」欄位，以說明Workfront Planning的使用者授權。 </li><ul></p>
+            </td>
+            <td><p>2026年7月16日</p></td>
+            <td><p>2026年7月16日</p></td>
+            <td><p>2026年7月16日</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">內部查閱欄位取代Typeahead欄位型別</a>
@@ -597,6 +606,31 @@ New features in Workfront Planning are available in Production.
 此更新同時適用於Mac和Windows。
 
 ## 公告
+
+### Adobe Workfront Planning作為獨立產品
+
+>[!NOTE]
+>
+>所有客戶的預覽和生產：自2026年7月16日起
+>
+>[!BADGE 僅新客戶]{type=Neutral}
+
+您現在可以獨立購買Adobe Workfront Planning，而不需要Workfront工作流程授權。
+
+Adobe Workfront規劃是獨立產品，專為新客戶及需要行銷活動規劃及中繼資料管理功能（無完整工作流程功能）的團隊設計。
+
+>[!IMPORTANT]
+>
+>這僅供新客戶使用。 如需詳細資訊，請聯絡您的客戶代表。
+
+Adobe Workfront Planning作為獨立產品所包含的部分功能包括：
+
+* 完整的Workfront Planning功能，可建立和管理工作區、記錄型別、記錄、欄位和檢視。
+* 能夠連線記錄，包括Prime和Ultimate套件的跨工作區連線。
+* 建立Planning記錄的自動化。
+* 使用Planning要求表單的錄取程式。
+
+如需詳細資訊，請參閱[開始使用Adobe Workfront Planning作為獨立產品](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)。
 
 ### API 22版
 

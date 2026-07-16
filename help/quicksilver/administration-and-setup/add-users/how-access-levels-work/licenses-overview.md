@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: ee260723331ddff4e8d89f7d9ca2b807835d6130
 workflow-type: tm+mt
-source-wordcount: 369
+source-wordcount: 381
 ht-degree: 2%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 2%
 
 此表格和圖表顯示Workfront的主要存取層級：
 
-| 授權 | 關聯的存取層級 |
+| 工作流程授權 | 關聯的存取層級 |
 |--- |--- |
 | 標準 | 系統管理員，標準 |
 | 精簡 | 精簡 |
@@ -65,9 +65,9 @@ ht-degree: 2%
 
 ## 授權計數
 
-當您將存取層級指派給使用者時，您的可用授權數量會減少1。
+當您將與授權相關的存取層級指派給使用者時，您的可用授權計數會減少1。
 
-例如，如果您將「標準」存取層級指派給使用者，則您可用的「標準」授權數量會減少1。
+例如，如果您將與Standard的「工作流程」授權相關聯的「標準」存取層級指派給使用者，則您可用的「標準」授權數量會減少1。
 
 您可以檢視指派給使用者的授權和存取層級。 如需詳細資訊，請參閱[列出使用者的存取層級和授權](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)。
 

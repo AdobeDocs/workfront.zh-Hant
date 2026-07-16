@@ -15,9 +15,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 90b8da58f534f9033b427f0ad09c15dba50c28c9
 workflow-type: tm+mt
-source-wordcount: 176
+source-wordcount: 177
 ht-degree: 13%
 
 ---
@@ -58,8 +58,10 @@ ht-degree: 13%
 
 {{step1-to-priorities}}
 
-1. 在頁面頂端，按一下&#x200B;**回覆我**。
+1. 在頁面頂端，按一下&#x200B;**「回覆我」**&#x200B;按鈕。
+
    ![提示按鈕](assets/catch-me-up-button.png)
+
 1. 選取想要的時間範圍：
    * **過去24小時的摘要**
    * **過去3天的摘要**

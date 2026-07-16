@@ -11,24 +11,18 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
-source-wordcount: 362
+source-wordcount: 334
 ht-degree: 0%
 
 ---
 
 # 階層連結概觀
 
-{{highlighted-preview}}
-
 階層連結會顯示所有物件型別的完整導覽階層。 階層連結路徑中的每個物件都有顯示物件型別的標籤。 您目前所在的頁面會以斜體顯示在頁首和階層連結路徑結尾。 在以下範例中，這是「[!UICONTROL 與品牌團隊共用]」任務。
 
-在預覽環境中<span class="preview">範例影像：</span>
 ![摺疊的階層連結](assets/collapsed-breadcrumb-2026.png)
-
-生產環境中的影像範例：
-![摺疊的階層連結](assets/NWE-collapsed-breadcrumb.png)
 
 當階層連結路徑中有太多物件或熒幕寬度禁止顯示完整導覽階層時，路徑會摺疊部分階層連結，並將這些物件群組在階層連結路徑的開頭。 專案和目前物件頁面一律會顯示在階層連結路徑中。
 
@@ -36,11 +30,7 @@ ht-degree: 0%
 
 按一下「[!UICONTROL 更多]」可讓您展開完整的階層。 您可以按一下「[!UICONTROL 更少]」以再次收合階層連結路徑。
 
-在預覽環境中<span class="preview">範例影像：</span>
 ![摺疊的階層連結](assets/expanded-breadcrumb-2026.png)
-
-生產環境中的影像範例：
-![展開的階層連結](assets/NWE-expanded-breadcrumb.png)
 
 您也可以使用下列鍵來導覽階層連結：
 

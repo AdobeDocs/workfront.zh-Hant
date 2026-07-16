@@ -20,16 +20,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2fb0effe42a24898bb3389f72405a92f38ed5cc9
+source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
 workflow-type: tm+mt
-source-wordcount: 2758
+source-wordcount: 2231
 ht-degree: 1%
 
 ---
 
 # 建立檔案核准工作流程
-
-{{highlighted-preview}}
 
 您可以在Adobe Workfront中請求其他使用者或團隊核准檔案，或請求他們稽核檔案而無需核准。
 
@@ -73,54 +71,55 @@ ht-degree: 1%
 
 +++
 
-## 在生產環境的舊版檔案區域中建立核准工作流程
+<!--
 
-如果您的組織使用Workfront儲存空間，當您存取Workfront中的檔案時，將會看到舊版檔案區域。 如需Workfront儲存體的詳細資訊，請參閱[Adobe雲端儲存體與舊版Workfront儲存體之間的差異](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)。
+## Create an approval workflow in the legacy documents area in Production
 
-若要建立核准工作流程：
+If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
-1. 前往包含檔案的專案、任務或問題，然後在左側面板中選取&#x200B;**檔案**。
+To create an approval workflow:
 
-1. 按一下您需要的檔案，該檔案的「檔案摘要」面板隨即開啟。
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
 
-1. 在版本下拉式清單中選取您要建立核准的檔案版本。 預設會選取最新版本。
+1. Click on the document you need and the Document Summary panel for that document opens.
 
-1. 向下捲動至&#x200B;**核准**&#x200B;區段，然後按一下&#x200B;**建立工作流程**。
+1. Select the version of the document you would like to create an approval for in the version dropdown. The latest version is selected by default.
+
+1. Scroll down to the **Approvals** section, then click **Create workflow**.
 
 
-1. 填寫以下詳細資料：
+1. Fill in the following details:
 
    <table>
    <tr>
-   <td><strong>階段名稱</strong></td>
-   <td>新增階段名稱。 您可以將名稱變更為描述性更強的名稱，例如<em>初始稽核</em>或<em>最終核准</em>。</td>
+   <td><strong>Stage name</strong></td>
+   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
    </tr>
    <tr>
-   <td><strong>新增姓名或電子郵件</strong></td>
-   <td>開始輸入使用者或團隊名稱，以新增為核准者或稽核者。 如果您只有稽核者，他們將會收到通知並可以選擇完成稽核，但不需要或做出任何決定。</td>
+   <td><strong>Add names or emails</strong></td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
    </tr>
    <tr>
-   <td><strong>需要一項決定（選擇性）</strong></td>
-   <td>第一個做出決定的人會完成階段。</td>
+   <td><strong>One decision required (optional)</strong></td>
+   <td>The first person who makes a decision completes the stage.</td>
    </tr>
    <tr>
-   <td><strong>到期日（選擇性）</strong></td>
-   <td>設定核准的到期日。 使用者與團隊會收到電子郵件通知，通知時間為指定到期日前72小時或24小時。</td>
+   <td><strong>Due date (optional)</strong></td>
+   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
    </tr>
    </table>
 
-1. （選擇性）重複上一步驟，視需要新增其他階段。
+1. (Optional) Repeat the previous step to add additional stages as needed.
 
    >[!NOTE]
    >
-   >如果您新增多個階段，核准工作流程會依階段列出的順序進行。 完成所有必要的決定後，下一個階段會開始，而上一個階段會鎖定。
+   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
 
-   ![檔案詳細資料](assets/new-stage.png)
+   ![Document details](assets/new-stage.png)
 
+-->
 
-<div class="preview">
-
-## 在預覽的舊版檔案區域中建立核准工作流程
+## 在舊版檔案區域中建立核准工作流程
 
 如果您的組織使用Workfront儲存空間，當您存取Workfront中的檔案時，將會看到舊版檔案區域。 如需Workfront儲存體的詳細資訊，請參閱[Adobe雲端儲存體與舊版Workfront儲存體之間的差異](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)。
 
@@ -157,7 +156,8 @@ ht-degree: 1%
    </tr>
    <tr>
    <td><strong>新增自訂訊息（選擇性）</strong></td>
-   <td>在<strong>新增自訂訊息</strong>文字方塊中輸入訊息。 該訊息會顯示在核准電子郵件通知和Workfront的「核准」索引標籤中。<p>附註：如果您在建立核准工作流程後編輯自訂訊息，則會傳送更新的電子郵件通知給所有現有參與者。 如果您稍後新增參與者，則自訂訊息會包含在其電子郵件通知中。</p>
+   <td>在<strong>新增自訂訊息</strong>文字方塊中輸入訊息。 該訊息會顯示在核准電子郵件通知和Workfront的「核准」索引標籤中。
+   <p>附註：如果您在建立核准工作流程後編輯自訂訊息，則會傳送更新的電子郵件通知給所有現有參與者。 如果您稍後新增參與者，則自訂訊息會包含在其電子郵件通知中。</p>
    </td>
    </tr>
    </table>
@@ -225,54 +225,53 @@ ht-degree: 1%
 
 1. 按一下&#x200B;**要求核准**。
 
-</div>
 
+<!--
 
-## 在生產環境的新檔案區域中建立核准工作流程
+## Create an approval workflow in the new Documents area in Production
 
-如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的檔案區域。 如需Adobe雲端儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-若要建立核准工作流程：
+To create an approval workflow:
 
-1. 前往包含檔案的專案、任務或問題，然後在左側面板中選取&#x200B;**檔案**。
+1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
 
-1. 按一下檔案，然後按一下頁面右側的&#x200B;**核准**&#x200B;圖示。
+1. Click on the document, then click the **Approvals** icon on the right side of the page.
 
-   ![在檔案摘要中新增核准者](assets/approvals-icon-new.png)
+   ![Add approvers in document summary](assets/approvals-icon-new.png)
 
-1. 按一下「**建立工作流程**」，然後填寫下列詳細資料：
+1. Click **Create workflow**, then fill in the following details:
 
    <table>
    <tr>
-   <td><strong>階段名稱</strong></td>
-   <td>新增階段名稱。 您可以將名稱變更為描述性更強的名稱，例如<em>初始稽核</em>或<em>最終核准</em>。</td>
+   <td><strong>Stage name</strong></td>
+   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
    </tr>
    <tr>
-   <td><strong>新增姓名或電子郵件</strong></td>
-   <td>開始輸入使用者或團隊名稱，以新增為核准者或稽核者。 如果您只有稽核者，他們將會收到通知並可以選擇完成稽核，但不需要或做出任何決定。</td>
+   <td><strong>Add names or emails</strong></td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
    </tr>
    <tr>
-   <td><strong>需要一項決定（選擇性）</strong></td>
-   <td>第一個做出決定的人會完成階段。</td>
+   <td><strong>One decision required (optional)</strong></td>
+   <td>The first person who makes a decision completes the stage.</td>
    </tr>
    <tr>
-   <td><strong>到期日（選擇性）</strong></td>
-   <td>設定核准的到期日。 使用者與團隊會收到電子郵件通知，通知時間為指定到期日前72小時或24小時。</td>
+   <td><strong>Due date (optional)</strong></td>
+   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
    </tr>
    </table>
 
-1. （選擇性）重複上一步驟，視需要新增其他階段。
+1. (Optional) Repeat the previous step to add additional stages as needed.
 
    >[!NOTE]
    >
-   >如果您新增多個階段，核准工作流程會依階段列出的順序進行。 完成所有必要的決定後，下一個階段會開始，而上一個階段會鎖定。
+   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
 
-   ![檔案詳細資料](assets/new-stage.png)
+   ![Document details](assets/new-stage.png)
+   
+-->
 
-
-<div class="preview">
-
-## 在預覽中的新檔案區域中建立核准工作流程
+## 在新檔案區域中建立核准工作流程
 
 如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的檔案區域。 如需Adobe雲端儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
@@ -384,10 +383,6 @@ ht-degree: 1%
 1. （選擇性）若要清除所有路徑和階段並重新開始，請按一下右上方的&#x200B;**重設**。
 
 1. 按一下&#x200B;**要求核准**。
-
-</div>
-
-
 
 <!--
 ## Resubmit an approval on a new version

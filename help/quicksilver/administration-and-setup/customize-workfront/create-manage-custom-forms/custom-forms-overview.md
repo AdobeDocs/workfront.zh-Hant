@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 394
+source-wordcount: 395
 ht-degree: 13%
 
 ---
@@ -54,12 +54,12 @@ Workfront為每種物件型別提供許多內建欄位。
 
 * 單行文字
 * 段落
-* 含格式的文字
+* 豐富文字
 * 單選下拉式清單
 * 多選下拉式清單
 * 外部查詢
+* 內部查詢
 * 原生欄位參考
-* 自動提示
 * Planning欄位連線
 * 已計算
 * 日期
@@ -97,6 +97,7 @@ Workfront為每種物件型別提供許多內建欄位。
 * 疊代
 * 計費記錄
 * 費率卡
+* 指派
 
 如需將自訂表單附加至物件的詳細資訊，請參閱[將自訂表單新增至物件](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)。
 

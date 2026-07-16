@@ -5,17 +5,15 @@ title: Adobe Workfront MCP伺服器工具
 description: 透過Adobe Workfront MCP伺服器可用的工具參考清單，按Workfront區域分組。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 862ef1882f4a7a40ca142da7ddb98a8431681947
+source-git-commit: e51ba55867fdf47034e8baef28c2e3f7e541dde9
 workflow-type: tm+mt
-source-wordcount: '1949'
+source-wordcount: '1964'
 ht-degree: 5%
 
 ---
 
 
 # Adobe Workfront MCP伺服器工具
-
-<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 本文列出[!DNL Adobe Workfront] MCP伺服器公開至已連線之AI代理平台的工具。 當您要求平台尋找、建立、更新或刪除Workfront專案時，平台會代表您呼叫這些工具。
 
@@ -50,6 +48,8 @@ ht-degree: 5%
 | 依版本ID取得檔案 | `approvals_get_document_by_version_id` | 會擷取已知檔案版本ID的檔案詳細資訊（名稱、大小、上傳日期、上傳程式）。 | 讀取 |
 | 依專案取得檔案 | `approvals_get_documents_by_project` | 列出Workfront專案內的檔案，每個檔案的目前版本ID。 | 讀取 |
 | 解析檔案範圍 | `approvals_resolve_document_scope` | 將專案或資料夾展開至其包含的檔案版本ID清單中。 支援專案、資料夾和依名稱資料夾範圍。 | 讀取 |
+| 尋找檔案 | `approvals_find_document` | 依檔案名稱或檔案版本ID查詢檔案 | 讀取 |
+| 依範圍取得檔案 | approvals_get_documents_by_scope | 列出專案或資料夾內的檔案。 | 讀取 |
 
 <!--
 | List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
@@ -108,7 +108,7 @@ ht-degree: 5%
 | 依名稱尋找團隊 | `approvals_find_team_by_name` | 依名稱查詢Workfront團隊的ID （模糊或部分相符）。 | 讀取 |
 | 依名稱尋找專案 | `approvals_find_project_by_name` | 依整個系統的部分名稱相符專案來查詢Workfront專案。 | 讀取 |
 | 依所有者取得專案 | `approvals_get_projects_by_owner` | 列出呼叫使用者是擁有者的Workfront專案。 | 讀取 |
-| 取得Adobe地區 | `approvals_get_adobe_region` | 傳回雲端提供者地區的Adobe名稱。 | 讀取 |
+| 尋找專案 | approvals_find_projects | 查詢Workfront專案，可選擇依名稱篩選及/或限製為呼叫使用者擁有的專案。 | 讀取 |
 
 
 ## 規劃工具
@@ -142,7 +142,7 @@ ht-degree: 5%
 | 列出全域記錄型別 | `planning_list_global_record_types` | 列出目前使用者可見的所有集中定義（全域）記錄型別。 | 讀取 |
 | 列出可新增的全域記錄型別 | `planning_list_addable_global_record_types` | 列出可新增至特定工作區的全域記錄型別。 | 讀取 |
 | 將全域記錄型別新增至工作區 | `planning_add_global_record_type_to_workspace` | 將全域記錄型別連結至指定的工作區。 | 寫入 |
-| 從工作區移除全域記錄型別 | `planning_remove_global_record_type_from_workspace` | 從工作區取消連結全域記錄型別；刪除該工作區中的所有記錄。 | 寫入 |
+| 從工作區移除全域記錄型別 | `planning_remove_global_record_type_from_ws` | 從工作區取消連結全域記錄型別；刪除該工作區中的所有記錄。 | 寫入 |
 | 取得外部記錄工作區 | `planning_get_external_record_workspaces` | 尋找哪些工作區和記錄型別已連線至特定外部記錄。 | 讀取 |
 | 取得記錄型別共用 | `planning_get_record_type_sharing` | 傳回特定記錄型別的共用和許可權。 | 讀取 |
 | 修改記錄型別共用 | `planning_modify_record_type_sharing` | 更新誰可以存取記錄型別以及什麼許可權層級。 | 寫入 |

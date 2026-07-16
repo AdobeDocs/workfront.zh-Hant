@@ -24,9 +24,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 61d733a9808850e780bfd74dbf3dcfb9d9d86282
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 8296
+source-wordcount: 7795
 ht-degree: 6%
 
 ---
@@ -34,8 +34,6 @@ ht-degree: 6%
 # 建立自訂表格
 
 <!-- Audited: 6/2025 -->
-
-{{preview-fast-release-general}}
 
 您可以使用Adobe Workfront中的表單設計工具來設計自訂表單。 您可以將自訂表單附加至不同的Workfront物件，以擷取這些物件的相關資料。
 
@@ -77,7 +75,7 @@ ht-degree: 6%
 1. 按一下&#x200B;**新增自訂表格。**
 1. 選取您要附加自訂表單的物件型別，然後按一下[繼續]。**&#x200B;**
 
-   ![選擇物件型別](assets/new-custom-form-select-objects-032526.png)
+   ![選擇物件型別](assets/new-custom-form-select-objects-new-spectrum-icons.png)
 
    +++ 展開以檢視支援自訂表單的物件清單。
 
@@ -119,7 +117,7 @@ ht-degree: 6%
    * [新增文字欄位](#add-text-fields)
    * [新增計算欄位](#add-calculated-fields)
    * [新增選項按鈕、核取方塊群組和下拉式清單](#add-radio-buttons-checkbox-groups-and-drop-downs)
-   * [新增預先輸入和日期欄位](#add-typeahead-and-date-fields)
+   * [新增日期欄位](#add-date-fields)
    * [新增外部查詢欄位](#add-external-lookup-fields)
    * [新增影像、PDF和影片](#add-images-pdfs-and-videos)
    * [新增Workfront原生欄位](#add-workfront-native-fields)
@@ -163,7 +161,7 @@ ht-degree: 6%
   >
   >請避免在此標籤中使用特殊字元，因為這些字元在報表中無法正確顯示。
 
-* 每個欄位都必須有API名稱。 此名稱是當您新增自訂欄位至Workfront的各個區域時（例如報表、首頁和API互動），系統識別該欄位的方法。 當您第一次設定欄位或Widget並輸入標籤時，名稱欄位/ <span class="preview">API名稱欄位</span>會自動填入以符合它。 標籤和名稱/ <span class="preview">API名稱欄位</span>欄位未同步。 這可讓您選擇變更使用者看到的標籤，而不必變更系統看到的名稱。
+* 每個欄位都必須有API名稱。 此名稱是當您新增自訂欄位至Workfront的各個區域時（例如報表、首頁和API互動），系統識別該欄位的方法。 當您首次設定欄位或Widget且輸入標籤時，API名稱欄位會自動填入以和相符。 標籤和API名稱欄位未同步。 這可讓您選擇變更使用者看到的標籤，而不必變更系統看到的名稱。
 
 * 每個自訂欄位API名稱在貴組織的Workfront例項中必須是唯一的。 如此一來，您便可重複使用已針對其他自訂表單建立的表單。
 
@@ -171,7 +169,7 @@ ht-degree: 6%
 
   例如，如果您新增自訂欄位至報表，之後又變更其API名稱，Workfront將無法辨識報表中的自訂欄位，且除非您使用新名稱將其重新新增至報表，否則將無法正常運作。
 
-* <span class="preview">API名稱預設為唯讀。 若要讓API名稱可編輯，請按一下&#x200B;**API名稱**&#x200B;旁的&#x200B;**編輯**&#x200B;圖示。 然後，在確認方塊中輸入&#x200B;**確認**&#x200B;並按一下&#x200B;**重新命名欄位**。</span>
+* API名稱預設為唯讀。 若要讓API名稱可編輯，請按一下&#x200B;**API名稱**&#x200B;旁的&#x200B;**編輯**&#x200B;圖示。 然後，在確認方塊中輸入&#x200B;**確認**&#x200B;並按一下&#x200B;**重新命名欄位**。
 
 * 建議您不要輸入已用於內建Workfront欄位的API名稱。
 
@@ -199,19 +197,21 @@ ht-degree: 6%
 
 * **單行文字欄位**：允許使用者在欄位中輸入單行文字。
 * **段落欄位**：允許使用者在欄位中輸入多行文字。
-* <span class="preview">**RTF文字**：可讓使用者在欄位中輸入多行文字，並以粗體、斜體、底線、專案符號、編號、下標與上標、超連結、區塊引號、標題與表格來格式化文字。 15,000的字元限製為文字和格式設定提供了很大的空間。</span>
-
-  <span class="preview"> RTF文字欄位型別正在以格式欄位型別取代文字。 您可以按一下右側欄位選項中的&#x200B;**轉換為RTF文字**&#x200B;按鈕，快速將包含格式欄位的現有文字轉換為RTF文字。</span>
-
-* **含格式的文字欄位**：可讓使用者在欄位中輸入多行文字，並以粗體、斜體、底線、專案符號、編號、超連結和區塊引號來格式化文字。 15,000的字元限制可提供大量的文字和格式。
-
-  清單和報告上的篩選器不支援此自訂欄位型別。
-
-  如需有關透過API存取此欄位的資訊，請參閱[&#x200B; API中的RTF文字欄位儲存體](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)。
+* **RTF文字**：可讓使用者在欄位中輸入多行文字，並以粗體、斜體、底線、專案符號、編號、下標與上標、超連結、區塊引號、標題與表格來格式化文字。 15,000的字元限制可為文字和格式設定提供較大的空間。
 
   >[!NOTE]
   >
-  >含有格式的文字欄位不適用於Workfront行動應用程式（將於未來發行版本中提供）。
+  >RTF文字欄位型別正在將文字取代為格式欄位型別。 您可以按一下右側欄位選項中的&#x200B;**轉換為RTF文字**&#x200B;按鈕，快速將包含格式欄位的現有文字轉換為RTF文字。
+
+<!--
+
+* **Text field with formatting**: Allows users to type multiple lines of text in the field and format the text with bold, italics, underline, bullets, numbering, hyperlinks, and block quotes. A character limit of 15,000 allows for plenty of text and formatting.
+
+    This custom field type is not supported in filters on lists and reports.
+
+    For information about accessing this field through the API, see [Rich text field storage in the API](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).
+
+-->
 
 * **描述性文字**：可讓您加入Workfront外部頁面的指示和連結。
 
@@ -223,9 +223,9 @@ ht-degree: 6%
 
    * 單行文字
    * 段落
-   * <span class="preview">RTF文字</span>
-   * 含格式的文字
+   * 豐富文字
    * 描述文字
+     <!--Text with formatting-->
 
    ![將欄位拖曳到節](assets/drag-field-to-section.png)
 
@@ -244,8 +244,7 @@ ht-degree: 6%
     <td><ul>
     <li>單行文字</li>
     <li>段落</li>
-    <li><span class="preview">豐富文字</span></li>
-    <li>含格式的文字</li>
+    <li>豐富文字</li>
     <li>描述文字</li>
     </ul></td>
     </tr>
@@ -256,31 +255,30 @@ ht-degree: 6%
     <td><ul>
     <li>單行文字</li>
     <li>段落</li>
-    <li><span class="preview">豐富文字</span></li>
-    <li>含格式的文字</li>
+    <li>豐富文字</li>
     </ul></td>
     </tr>
     <tr>
-     <td>名稱</td>
-    <td><p>（必要）此名稱是系統識別欄位的方式。 當您第一次設定Widget且輸入標籤時，「名稱」欄位會自動填入以和相符。 「標籤」和「名稱」欄位未同步。 這可讓您選擇變更使用者看到的標籤，而不必變更系統看到的名稱。</p>
+     <td>API 名稱</td>
+    <td><p>（必要）此名稱是系統識別欄位的方式。 當您首次設定Widget且輸入標籤時，API名稱欄位會自動填入以和相符。 標籤和API名稱欄位未同步。 這可讓您選擇變更使用者看到的標籤，而不必變更系統看到的名稱。</p>
     <p>如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p>
     </td>
     <td><ul>
     <li>單行文字</li>
     <li>段落</li>
-    <li><span class="preview">豐富文字</span></li>
-    <li>含格式的文字</li>
+    <li>豐富文字</li>
     <li>描述文字</li>
     </ul></td>
     </tr>
     <tr>
     <td>指示</td>
-    <td>輸入有關欄位的任何其他資訊。 當使用者填寫自訂表單時，可以將滑鼠指標暫留在問號圖示上，以檢視包含您在此處輸入資訊的工具提示。</td>
+    <td>輸入有關欄位的任何其他資訊。 當使用者填寫自訂表單時，可以將滑鼠指標暫留在問號圖示上，以檢視包含您在此處輸入資訊的工具提示。
+    <img src="assets/instructions-form-designer.png">
+    </td>
     <td><ul>
     <li>單行文字</li>
     <li>段落</li>
-    <li><span class="preview">豐富文字</span></li>
-    <li>含格式的文字</li>
+    <li>豐富文字</li>
     </ul></td>
     </tr>
     <tr>
@@ -331,8 +329,7 @@ ht-degree: 6%
      <td><ul>
      <li>單行文字</li>
      <li>段落</li>
-     <li><span class="preview">豐富文字</span></li>
-     <li>含格式的文字</li>
+     <li>豐富文字</li>
      <li>描述文字</li></ul></td>
     </tr>
     <tr> 
@@ -341,8 +338,7 @@ ht-degree: 6%
     <td><ul>
     <li>單行文字</li>
     <li>段落</li>
-    <li><span class="preview">豐富文字</span></li>
-    <li>含格式的文字</li>
+    <li>豐富文字</li>
     </ul></td> 
     </tr> 
    </table>
@@ -415,8 +411,8 @@ ht-degree: 6%
     </ul></td>
      </tr> 
      <tr> 
-    <td role="rowheader">名稱</td> 
-     <td> <p>（必要）此名稱是系統識別欄位的方式。 當您第一次設定Widget且輸入標籤時，「名稱」欄位會自動填入以和相符。 「標籤」和「名稱」欄位未同步。 這可讓您選擇變更使用者看到的標籤，而不必變更系統看到的名稱。</p> 
+    <td role="rowheader">API 名稱</td> 
+     <td> <p>（必要）此名稱是系統識別欄位的方式。 當您首次設定Widget且輸入標籤時，API名稱欄位會自動填入以和相符。 標籤和API名稱欄位未同步。 這可讓您選擇變更使用者看到的標籤，而不必變更系統看到的名稱。</p> 
     <p>如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td>
      <td><ul>
     <li>選項按鈕</li>
@@ -540,125 +536,186 @@ ht-degree: 6%
 
    按一下&#x200B;**儲存並關閉**。
 
-### 新增預先輸入和日期欄位
+<!--
 
-您可以將預先輸入和日期欄位新增至自訂表單。
+### Add typeahead and date fields
 
-+++ 展開以檢視可用欄位的說明。
+ You can add typeahead and date fields to a custom form.
 
-* **自動提示**：允許使用者輸入Workfront中存在的物件名稱。 當使用者開始輸入時，建議清單隨即出現。 此欄位型別支援下列物件：
-   * 使用者
-   * 群組
-   * 職務角色
-   * 專案組合
-   * 方案
-   * 專案
-   * 團隊
-   * 範本
-   * 公司
-* **日期**：顯示一個行事曆，使用者可以在其中選取日期和時間。
++++ Expand to see descriptions of available fields.
+
+* **Typeahead**: Allows users to type the name of an object that exists in Workfront. A list of suggestions appears when the user starts typing. This field type supports the following objects:
+    * User
+    * Group
+    * Job Role
+    * Portfolio
+    * Program
+    * Project
+    * Team
+    * Template
+    * Company
+* **Date**: Displays a calendar where users can select a date and time.
 
 +++
 
-若要新增預先輸入和日期欄位：
+To add typeahead and date fields:
 
-1. 在畫面左側的&#x200B;**新欄位**&#x200B;索引標籤中，尋找下列其中一個欄位並將其拖曳至畫布上的區段。
+1. In the **New field** tab on the left side of the screen, find one of the following fields and drag it to a section on the canvas.
 
-   * 自動提示
-   * 日期
+    * Typeahead
+    * Date
 
-   ![將欄位拖曳到節](assets/drag-field-to-section.png)
+    ![Drag field to section](assets/drag-field-to-section.png)
 
-1. 在畫面的右側，設定您新增之自訂欄位型別的可用選項：
+1. On the right side of the screen, configure the options that are available for the type of custom field you are adding:
 
-   <table style="table-layout:auto"> 
+    <table style="table-layout:auto"> 
     <tbody> 
      <tr>
-    <td>欄位設定</td>
-    <td>說明</td>
-    <td>可用於 </td>
+    <td>Field setting</td>
+    <td>Description</td>
+    <td>Available for </td>
     </tr>
      <tr> 
-      <td role="rowheader">標籤</td> 
-      <td> <p>（必要）輸入描述性標籤，以在自訂欄位上方顯示。 您可以隨時變更標籤。</p> <p><b>重要</b>：請避免在此標籤中使用特殊字元，因為這些字元在報表中無法正確顯示。 如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td> 
+      <td role="rowheader">Label</td> 
+      <td> <p>(Required) Type a descriptive label to display above the custom field. You can change the label at any time.</p> <p><b>Important</b>: Avoid using special characters in this label as they don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
        <td><ul>
-    <li>自動提示</li>
-    <li>日期</li>
+    <li>Typeahead</li>
+    <li>Date</li>
     </ul></td>
      </tr> 
      <tr> 
-      <td role="rowheader">名稱</td> 
-      <td> <p>（必要）此名稱是系統識別欄位的方式。 當您第一次設定Widget且輸入標籤時，「名稱」欄位會自動填入以和相符。 「標籤」和「名稱」欄位未同步。 這可讓您選擇變更使用者看到的標籤，而不必變更系統看到的名稱。</p> 
-      <p>如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td>
+      <td role="rowheader">Name</td> 
+      <td> <p>(Required) This name is how the system identifies the field. When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. The Label and Name fields are not synchronized. This gives you the option to change the label that your users see without having to change the name that the system sees.</p> 
+      <p>For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td>
     <td><ul>
-    <li>自動提示</li>
-    <li>日期</li>
+    <li>Typeahead</li>
+    <li>Date</li>
     </ul></td>
      </tr> 
      <tr> 
-      <td role="rowheader">指示</td> 
-      <td> <p>輸入自訂欄位的任何其他資訊。 當使用者填寫自訂表單時，可以將滑鼠指標暫留在問號圖示上，以檢視包含您在此處輸入資訊的工具提示。</p> 
+      <td role="rowheader">Instructions</td> 
+      <td> <p>Type any additional information about the custom field. When users fill out the custom form, they can hover over the question mark icon to view a tooltip containing the information you type here.</p> 
       <p> <img src="assets/instructions-form-designer.png"> </p>
       </td> 
          <td><ul>
-    <li>自動提示</li>
-    <li>日期</li>
+    <li>Typeahead</li>
+    <li>Date</li>
     </ul></td>
      </tr> 
      <tr> 
-      <td role="rowheader">顯示當日時間</td> 
-      <td>如果您要在欄位中顯示一天中的時間和日期，請選取此選項。</td> 
+      <td role="rowheader">Display Time of Day</td> 
+      <td>Select this option if you want to show the time of day along with the date in the field.</td> 
          <td><ul>
-    <li>日期</li>
+    <li>Date</li>
     </ul></td>
      </tr> 
      <tr> 
-      <td role="rowheader">參考物件類型</td> 
-      <td> <p>選取您要與欄位關聯的物件型別。</p> <p>按一下<b>套用</b>或<b>儲存並關閉</b>後，您就無法變更欄位的物件型別。</p> <p><b>附註</b>：   
+      <td role="rowheader">Referenced Object Type</td> 
+      <td> <p>Select the object type that you want to associate with the field.</p> <p>Once you have clicked <b>Apply</b> or <b>Save and Close</b>, you can't change the object type for the field.</p> <p><b>Note</b>:   
         <ul> 
-         <li>如果您的Workfront管理員在Workfront使用者介面中為投資組合、程式或專案自訂名稱，則該物件的預設Workfront名稱會出現在下拉式清單中，而不是自訂名稱。 如果您需要這方面的協助，請洽詢Workfront管理員。<br></li> 
-         <li>iOS和Android Workfront Mobile應用程式支援下列物件型別：使用者、公司、群組、工作角色、Portfolio、方案、專案和範本。</li> 
+         <li>If your Workfront administrator customized the name for Portfolios, Programs, or Projects in the Workfront user interface, the default Workfront name for the object appears in this drop-down list, not the customized name. See your Workfront administrator if you need help with this.<br></li> 
+         <li>The following object types are supported in the iOS and Android Workfront Mobile Apps: User, Company, Group, Job Role, Portfolio, Program, Project, and Template.</li> 
         </ul> </p> </td> 
          <td><ul>
-    <li>自動提示</li>
+    <li>Typeahead</li>
     </ul></td>
      </tr>
      <tr>
-      <td role="rowheader">新增篩選器</td>
-      <td><p>為物件型別新增篩選條件，以限制使用者在使用欄位時可以選擇的物件。 </p> <p>例如，您可以限制欄位，讓使用者名稱只有在符合以下條件時才可選取：</p> 
+      <td role="rowheader">Add Filter</td>
+      <td><p>Add a filter for an object type to limit the objects users can choose when they are using the field. </p> <p>For example, you could limit a field so that usernames can be selected only if they meet the following criteria:</p> 
        <ul> 
-        <li>它們屬於您指定的群組。</li> 
-        <li>它們與您指定的角色或職稱相關聯。</li> 
-        <li>他們與使用欄位的人屬於同一群組。</li> 
+        <li>They belong to a group or groups that you specify.</li> 
+        <li>They are associated with a role or job title you specify.</li> 
+        <li>They belong to the same group as the person using the field.</li> 
        </ul>
-       <p>您必須使用「文字模式」語法來定義所選物件型別的濾鏡。 如需有關使用文字模式建立篩選的資訊，請參閱<a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">使用文字模式編輯篩選</a>。</p>
-       <p><b>秘訣：</b>您可以先建立報表以測試您的篩選器，然後再將篩選器直接新增至自動提示欄位。 這可協助您驗證篩選器是否傳回正確的物件。 然後，您可以在報表中切換到文字模式、複製文字模式陳述式，並將其新增至自動提示篩選。</p>
-       <p><b>附註</b>：
+       <p>You must define the filter for the object type you selected using Text Mode syntax. For information about creating a filter using Text Mode, see <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Edit a filter using text mode</a>.</p>
+       <p><b>Tip:</b> You can create a report to test your filter before adding the filter directly to the typeahead field. This will help you verify that the filter returns the correct objects. Then you can switch to text mode in the report, copy the text mode statement, and add it to the typeahead filter.</p>
+       <p><b>Note</b>:
        <ul> 
-        <li>如果您正在編輯現有的自訂表單，將篩選條件新增至預先輸入欄位時，不會移除使用者已使用該欄位新增的任何物件（在篩選條件範圍之外）。</li> 
-        <li>此篩選器不適用於行動裝置。 如果您針對預先輸入欄位使用篩選器，則該欄位會顯示在不受篩選器影響之使用者的行動裝置上。</li> 
+        <li>If you are editing an existing custom form, adding a filter to a typeahead field does not remove any objects (outside the scope of the filter) that users have already added using the field.</li> 
+        <li>This filter is not available on mobile devices. If you use the filter for a typeahead field, the field will appear on users' mobile devices unaffected by the filter.</li> 
         </ul></p>
       </td>  
       <td>
        <ul>
-       <li>自動提示</li>
+       <li>Typeahead</li>
        </ul>
       </td>
      </tr>
      <tr>
-      <td>作用中</td>
-      <td><p>此選項預設為開啟。<p><p>將欄位設為「非使用中」時，該欄位會從報表、篩選器和檢視中排除，並且無法再用於自訂表單欄位程式庫。</p></td>
+      <td>Active</td>
+      <td><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></td>
       <td><ul>
-      <li>自動提示</li>
-      <li>日期</li></ul></td>
+      <li>Typeahead</li>
+      <li>Date</li></ul></td>
      </tr>
      <tr> 
-      <td role="rowheader">設為必要欄位</td> 
-      <td>如果您希望欄位是使用者完成自訂表單的必要欄位，請選取此選項。 </td> 
+      <td role="rowheader">Make a required field</td> 
+      <td>Select this option if you want the field to be required in order for the user to complete the custom form. </td> 
        <td><ul>
-    <li>自動提示</li>
-    <li>日期</li>
+    <li>Typeahead</li>
+    <li>Date</li>
     </ul></td>
+     </tr> 
+    </tbody> 
+   </table>
+
+1. (Optional) Repeat the previous step to add any other fields or widgets. 
+
+    Or
+
+    To copy a field, hover over a field, and click the copy icon.
+
+    ![copy icon](assets/copy-field.png)
+
+1. To save your changes, click **Apply** and move on to another section to continue building your form.
+
+    Or
+
+    Click **Save and Close**.
+
+-->
+
+### 新增日期欄位
+
+日期欄位會顯示行事曆，使用者可在其中選取日期和時間。
+
+若要新增日期欄位：
+
+1. 在畫面左側的&#x200B;**新欄位**&#x200B;索引標籤中，尋找&#x200B;**日期**&#x200B;並將其拖曳至畫布上的區段。
+
+   ![將欄位拖曳到節](assets/drag-field-to-section.png)
+
+1. 在畫面右側，設定自訂欄位的選項：
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">標籤</td> 
+      <td> <p>（必要）輸入要顯示在Widget上方的描述性標籤。 您可以隨時變更標籤。</p> <p><b>重要</b>：請避免在此標籤中使用特殊字元，因為這些字元在報表中無法正確顯示。 如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">API 名稱</td> 
+      <td> <p>（必要）此名稱是系統識別欄位的方式。 當您首次設定Widget且輸入標籤時，API名稱欄位會自動填入以和相符。 標籤和API名稱欄位未同步。 這可讓您選擇變更使用者看到的標籤，而不必變更系統看到的名稱。</p> <p>如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">指示</td> 
+      <td> <p>輸入自訂欄位的任何其他資訊。 當使用者填寫自訂表單時，可以將滑鼠指標暫留在問號圖示上，以檢視包含您在此處輸入資訊的工具提示。</p> </td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">顯示當日時間</td>
+      <td><p>如果您要在欄位中顯示一天中的時間和日期，請選取此選項。</p></td>
+     </tr> 
+     <tr>
+      <td>作用中</td>
+      <td><p>此選項預設為開啟。<p><p>將欄位設為「非使用中」時，該欄位會從報表、篩選器和檢視中排除，並且無法再用於自訂表單欄位程式庫。</p></td>
+     </tr>
+     <tr> 
+      <td role="rowheader">設為必要欄位</td>
+      <td><p>如果您希望欄位是使用者完成自訂表單的必要欄位，請選取此選項。</p></td>
      </tr> 
     </tbody> 
    </table>
@@ -701,8 +758,8 @@ ht-degree: 6%
       <td> <p>（必要）輸入描述性標籤，以在自訂欄位上方顯示。 您可以隨時變更標籤。</p> <p><b>重要</b>：請避免在此標籤中使用特殊字元，因為這些字元在報表中無法正確顯示。 如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">名稱</td> 
-      <td> <p>（必要）此名稱是系統識別欄位的方式。 當您第一次設定欄位並輸入標籤時，「名稱」欄位會自動填入以和欄位相符。 但是「標籤」和「名稱」欄位不同步，因此您可以選擇變更使用者看到的標籤，而不必變更系統看到的名稱。</p>
+      <td role="rowheader">API 名稱</td> 
+      <td> <p>（必要）此名稱是系統識別欄位的方式。 當您第一次設定欄位並輸入標籤時，API名稱欄位會自動填入以和欄位相符。 但是「標籤」和「API名稱」欄位不同步，因此您可以選擇變更使用者看到的標籤，而不必變更系統看到的名稱。</p>
       <p>如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td>
      </tr> 
       <td role="rowheader">指示</td> 
@@ -748,14 +805,15 @@ ht-degree: 6%
      </tr>
      <tr> 
       <td role="rowheader">JSON 路徑</td>
-      <td><p>輸入或貼上API的JSON路徑。</p> <p>此選項允許從API URL傳回的JSON擷取資料。 這可當作選取要讓JSON內的哪些值會出現在下拉式選項中的方式。</p><p>例如，如果您的API URL以下列格式傳回JSON，則您可以使用「$.data[*].name」選取美國和加拿大作為下拉式選項：
+      <td><p>輸入或貼上API的JSON路徑。</p> <p>此選項允許從API URL傳回的JSON擷取資料。 這可當作選取要讓JSON內的哪些值會出現在下拉式選項中的方式。</p><p>例如，如果您的API URL以下列格式傳回JSON，則您可以使用「$.data[*].name」選取美國和加拿大作為下拉式選項：</br>
       <pre>
       &lbrace;
        資料： &lbrace;
          { name： "USA"}，
          { name： "Canada"}
        &rbrace;
-      &rbrace;</pre>
+      &rbrace;
+      </pre>
       </p>
      <p>如需有關JSON路徑並確保您撰寫正確JSON路徑的詳細資訊，請參閱<a href="https://jsonpath.com/">https://jsonpath.com/</a>。</p></td>
      </tr>
@@ -794,7 +852,7 @@ ht-degree: 6%
 >* 重試之間的等待持續時間：500毫秒
 >* 預期的回應狀態： 2xx
 
-<div class="preview">
+
 
 ### 新增內部查詢欄位
 
@@ -828,8 +886,8 @@ ht-degree: 6%
       <td> <p>（必要）輸入描述性標籤，以在自訂欄位上方顯示。 您可以隨時變更標籤。</p> <p><b>重要</b>：請避免在此標籤中使用特殊字元，因為這些字元在報表中無法正確顯示。 如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">名稱</td> 
-      <td> <p>（必要）此名稱是系統識別欄位的方式。 當您第一次設定欄位並輸入標籤時，「名稱」欄位會自動填入以和欄位相符。 但是「標籤」和「名稱」欄位不同步，因此您可以選擇變更使用者看到的標籤，而不必變更系統看到的名稱。</p>
+      <td role="rowheader">API 名稱</td> 
+      <td> <p>（必要）此名稱是系統識別欄位的方式。 當您第一次設定欄位並輸入標籤時，API名稱欄位會自動填入以和欄位相符。 但是「標籤」和「API名稱」欄位不同步，因此您可以選擇變更使用者看到的標籤，而不必變更系統看到的名稱。</p>
       <p>如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td>
      </tr> 
       <td role="rowheader">指示</td> 
@@ -881,8 +939,6 @@ ht-degree: 6%
 
    按一下&#x200B;**儲存並關閉**。
 
-</div>
-
 ### 新增影像、PDF和影片
 
 您可以將影像、PDF和視訊新增至自訂表單。 使用自訂表單附加至之物件的使用者只能在下列區域檢視影像、PDF或影片：
@@ -932,8 +988,8 @@ The Workfront Mobile app
       <td> <p>（必要）輸入要顯示在Widget上方的描述性標籤。 您可以隨時變更標籤。</p> <p><b>重要</b>：請避免在此標籤中使用特殊字元，因為這些字元在報表中無法正確顯示。 如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">名稱</td> 
-      <td> <p>（必要）此名稱是系統識別Widget的方式。 當您第一次設定Widget且輸入標籤時，「名稱」欄位會自動填入以和相符。 「標籤」和「名稱」欄位未同步。 這可讓您選擇變更使用者看到的標籤，而不必變更系統看到的名稱。</p> <p>如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td> 
+      <td role="rowheader">API 名稱</td> 
+      <td> <p>（必要）此名稱是系統識別Widget的方式。 當您首次設定Widget且輸入標籤時，API名稱欄位會自動填入以和相符。 標籤和API名稱欄位未同步。 這可讓您選擇變更使用者看到的標籤，而不必變更系統看到的名稱。</p> <p>如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -1002,32 +1058,32 @@ The Workfront Mobile app
 
 | 欄位名稱 | 專案 | 任務 | 問題 | 範本 | 範本任務 | 專案組合 | 方案 | 群組 |
 |--------------------------- |-------- |------- |------- |--------- |-------------- | --------- |-------- |------ |
-| <span class="preview">實際收益</span> | <span class="preview">✓ </span> |   |   |   |   |   |   |   |
+| 實際收益 | ✓ |   |   |   |   |   |   |   |
 | 實際完成日期 | ✓ | ✓ | ✓ |   |   |   |   |   |
 | 實際期間 | ✓ |   |   |   |   |   |   |   |
 | 實際時數 | ✓ |   | ✓ |   |   |   |   |   |
 | 實際開始日期 | ✓ | ✓ | ✓ |   |   |   |   |   |
-| <span class="preview">預算</span> | <span class="preview">✓ </span> |   |   | <span class="preview"> ✓ </span> |   | <span class="preview"> ✓ </span> |   |   |
+| 預算 | ✓ |   |   | ✓ |   | ✓ |   |   |
 | 公司 | ✓ |   |   | ✓ |   |   |   |   |
 | 條件 | ✓ | ✓ | ✓ |   |   |   |   |   |
 | 狀況類型 | ✓ |   |   | ✓ |   |   |   |   |
-| <span class="preview">貨幣</span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| 貨幣 | ✓ |   |   | ✓ |   |   |   |   |
 | 說明 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | 期間 |   | ✓ |   |   | ✓ |   |   |   |
 | 期間類型 |   | ✓ |   |   | ✓ |   |   |   |
 | 期間單位 |   | ✓ |   |   | ✓ |   |   |   |
 | 輸入者 | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
 | 輸入日期 | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
-| <span class="preview">匯率日期</span> | <span class="preview"> ✓ </span> |   |   |   |   |   |   |   |
-| <span class="preview">固定成本</span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
-| <span class="preview">固定收入</span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| 匯率日期 | ✓ |   |   |   |   |   |   |   |
+| 固定成本 | ✓ |   |   | ✓ |   |   |   |   |
+| 固定收入 | ✓ |   |   | ✓ |   |   |   |   |
 | 群組 | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
 | 上次更新者 | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | 上次更新日期 | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | 名稱 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | 所有者 | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
-| <span class="preview">績效指數方法</span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
-| <span class="preview">計畫收益</span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| 績效指數方法 | ✓ |   |   | ✓ |   |   |   |   |
+| 規劃收益 | ✓ |   |   | ✓ |   |   |   |   |
 | 規劃完成日期 | ✓ | ✓ | ✓ |   |   |   |   |   |
 | 計畫持續時間 | ✓ |   |   | ✓ |   |   |   |   |
 | 規劃時數 | ✓ | ✓ | ✓ |   | ✓ |   |   |   |
@@ -1045,13 +1101,11 @@ The Workfront Mobile app
 | 狀態 | ✓ | ✓ |   |   |   |   |   |   |
 | 腳本點數 |   | ✓ |   |   |   |   |   |   |
 | 範本 | ✓ |   |   |   |   |   |   |   |
-| 總估計成本<span class="preview"> </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
-| <span class="preview">總預估收入</span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| 總估計成本 | ✓ |   |   | ✓ |   |   |   |   |
+| 預估收入總計 | ✓ |   |   | ✓ |   |   |   |   |
 | URL | ✓ | ✓ |   | ✓ | ✓ |   |   |   |
 
 {style="table-layout:auto"}
-
-<div class="preview">
 
 這些額外的自訂表單物件型別也支援原生欄位參考。
 
@@ -1060,8 +1114,6 @@ The Workfront Mobile app
 * 公司：名稱、群組欄位
 * 評等卡：名稱、說明、公司、群組欄位
 * 工作角色：名稱、說明欄位
-
-</div>
 
 <!--
 Non-Labor Resource: Name, Description, Home Group, Non-labor Category, Non-labor Group, Unique Identifier fields
@@ -1087,8 +1139,8 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
       <td> <p>（必要）輸入描述性標籤以顯示於欄位上方。 您可以隨時變更標籤。</p> <p><b>重要</b>：請避免在此標籤中使用特殊字元，因為這些字元在報表中無法正確顯示。 如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">名稱</td>
-      <td> <p>（必要）此名稱是系統識別欄位的方式。 當您第一次設定欄位並輸入標籤時，「名稱」欄位會自動填入以和欄位相符。 「標籤」和「名稱」欄位未同步。 這可讓您選擇變更使用者看到的標籤，而不必變更系統看到的名稱。</p>
+      <td role="rowheader">API 名稱</td>
+      <td> <p>（必要）此名稱是系統識別欄位的方式。 當您第一次設定欄位並輸入標籤時，API名稱欄位會自動填入以和欄位相符。 標籤和API名稱欄位未同步。 這可讓您選擇變更使用者看到的標籤，而不必變更系統看到的名稱。</p>
       <p>如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p></td> 
      </tr> 
      <tr> 
@@ -1107,12 +1159,12 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
         <li>它們與您指定的角色或職稱相關聯。</li> 
         <li>他們與使用欄位的人屬於同一群組。</li> 
        </ul>
-       <p><span class="preview">當欄位上有系統篩選器時，如果您未新增自訂篩選器，預設會套用系統篩選器。 自訂篩選器會覆寫系統篩選器。</span></p>
+       <p>當欄位上有系統篩選器時，如果您未新增自訂篩選器，預設會套用系統篩選器。 自訂篩選器會覆寫系統篩選器。</p>
        <p>您必須使用「文字模式」語法來定義所選參考欄位的篩選器。 如需詳細資訊，請參閱<a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">使用文字模式編輯篩選器</a>。</p>
-       <p><span class="preview">根據其他欄位的值，使用動態篩選器語法來縮小此欄位中的專案清單。 例如，當您在專案欄位篩選中使用<code>?portfolioID={portfolio}.{ID}</code>，並且自訂表單上有Portfolio原生欄位時，專案欄位僅顯示所選投資組合中的專案。 如果Portfolio欄位留空，則所有專案都可在「專案」欄位中使用。</span></p>
+       <p>根據其他欄位的值，使用動態篩選器語法來縮小此欄位中的專案清單。 例如，當您在專案欄位篩選中使用<code>?portfolioID={portfolio}.{ID}</code>，並且自訂表單上有Portfolio原生欄位時，專案欄位僅顯示所選投資組合中的專案。 如果Portfolio欄位留空，則所有專案都可在「專案」欄位中使用。</p>
        <p><b>附註</b>：
        <ul> 
-        <li>篩選選項僅在您參考原生預先輸入欄位時可用，例如Portfolio、公司或所有者。</li>
+        <li>只有在您參考原生預先輸入或內部查詢欄位（例如Portfolio、公司或擁有者）時，才可使用篩選器選項。</li>
         <li>如果您正在編輯現有的自訂表單，將篩選新增至原生欄位時，不會移除使用者已使用該欄位新增的任何物件（在篩選範圍之外）。</li> 
         <li>此篩選器不適用於行動裝置。 如果您將篩選用於原生欄位，該欄位將會顯示在不受篩選影響之使用者的行動裝置上。</li> 
         </ul></p></td> 
@@ -1160,14 +1212,15 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
       <td> <p>（必要）輸入要顯示在Widget上方的描述性標籤。 您可以隨時變更標籤。</p> <p><b>重要</b>：請避免在此標籤中使用特殊字元，因為這些字元在報表中無法正確顯示。 如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">名稱</td> 
-      <td> <p>（必要）此名稱是系統識別Widget的方式。 當您第一次設定Widget且輸入標籤時，「名稱」欄位會自動填入以和相符。 「標籤」和「名稱」欄位未同步。 這可讓您選擇變更使用者看到的標籤，而不必變更系統看到的名稱。</p>
+      <td role="rowheader">API 名稱</td> 
+      <td> <p>（必要）此名稱是系統識別Widget的方式。 當您首次設定Widget且輸入標籤時，API名稱欄位會自動填入以和相符。 標籤和API名稱欄位未同步。 這可讓您選擇變更使用者看到的標籤，而不必變更系統看到的名稱。</p>
     <p>如需詳細資訊，請參閱<a href="design-a-form.md#notes-on-field-names-and-labels">欄位名稱和標籤的附註</a>。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>（必要）輸入或貼上有效的XD原型連結。</p> 
-      <p><b>注意</b>： Adobe XD中「共用」標籤上的「連結存取」設定必須設定為「擁有連結的任何人」。 否則，使用者將無法檢視原型。 </td> 
+      <p><b>注意</b>： Adobe XD中「共用」標籤上的「連結存取」設定必須設定為「擁有連結的任何人」。 否則，使用者將無法檢視原型。 
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader">指示</td> 
@@ -1234,8 +1287,8 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
       <p>建議您選擇一個有助於您輕鬆識別Planning記錄來源的標籤。 新增工作區名稱或記錄型別名稱之類的資訊。 </p>   </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">名稱</td>
-      <td> <p>（必要）名稱是系統識別欄位的方式。 當您第一次設定欄位並輸入標籤時，「名稱」欄位會自動填入以和欄位相符。 「標籤」和「名稱」欄位未同步。 這可讓您選擇變更使用者看到的標籤，而不必變更系統看到的名稱。</p></td> 
+      <td role="rowheader">API 名稱</td>
+      <td> <p>（必要）名稱是系統識別欄位的方式。 當您第一次設定欄位並輸入標籤時，API名稱欄位會自動填入以和欄位相符。 標籤和API名稱欄位未同步。 這可讓您選擇變更使用者看到的標籤，而不必變更系統看到的名稱。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">指示</td> 

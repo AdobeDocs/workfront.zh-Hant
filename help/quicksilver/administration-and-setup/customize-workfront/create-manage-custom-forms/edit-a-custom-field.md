@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: 新增或編輯自訂欄位、分割槽符號或Widget
-description: 您可以在Adobe Workfront執行個體中編輯自訂表單中使用的自訂欄位、分割槽符號或Widget的屬性。 其中包括專案的標籤、名稱、指示等。
+description: 您可以在Adobe Workfront執行個體中編輯自訂表單中使用的自訂欄位、分割槽符號或Widget的屬性。
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
 workflow-type: tm+mt
-source-wordcount: 409
+source-wordcount: 400
 ht-degree: 5%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 5%
 
 您可以直接從Workfront中的欄位區域新增新的自訂欄位或Widget，而無需開啟自訂表單來建立欄位。
 
-您也可以編輯自訂表單中使用的自訂欄位、分割槽符號或Widget的屬性。 其中包括專案的標籤、名稱、指示等。
+您也可以編輯自訂表單中使用的自訂欄位、分割槽符號或Widget的屬性。 其中包括專案的標籤、API名稱、指示等。
 
 將自訂欄位設定為非使用中會將其從報表、篩選器和檢視中排除，並且此欄位在自訂表單欄位庫中不再可用。 依預設，所有新欄位都會設為「作用中」。
 

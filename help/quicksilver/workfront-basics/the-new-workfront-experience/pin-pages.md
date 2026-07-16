@@ -14,16 +14,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0115873e8dc3f17ae11fe137bfb57f12e6b514db
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
-source-wordcount: 531
-ht-degree: 3%
+source-wordcount: 348
+ht-degree: 5%
 
 ---
 
 # 釘選頁面以自訂您的工作區
-
-{{highlighted-preview}}
 
 <!-- Audited: 4/2025 -->
 
@@ -64,11 +62,7 @@ ht-degree: 3%
 
 1. 在頁面的左上角，按一下&#x200B;**[!UICONTROL 釘選目前頁面]**。 釘選頁面現在可從[!DNL Workfront]中任何頁面的頂端存取。
 
-   在預覽環境中<span class="preview">範例影像：
    ![釘選目前頁面](assets/pin-current-page-button-2026.png)
-
-   生產環境中的影像範例：
-   ![釘選目前頁面](assets/pin-current-page-button.png)
 
 ## 存取釘選頁面
 
@@ -82,15 +76,9 @@ ht-degree: 3%
 
    如果您釘選了許多頁面，請按一下&#x200B;**[!UICONTROL 更多]**&#x200B;圖示![按一下「更多」圖示](assets/more-icon.png)以檢視其他釘選頁面。
 
-   在預覽環境中<span class="preview">範例影像：
    ![釘選目前頁面](assets/display-pinned-pages-2026.png)
 
-   生產環境中的影像範例：
-   ![檢視其他釘選頁面](assets/display-pinned-pages.png)
-
    釘選頁面隨即顯示。
-
-<div class="preview">
 
 ## 管理圖釘
 
@@ -107,36 +95,35 @@ ht-degree: 3%
 
 1. 完成編輯圖釘時，請按一下&#x200B;**關閉**。
 
-</div>
+<!--
+## Rename a pinned page
 
-## 重新命名釘選頁面
+1. Hover over the pinned page in the top navigation.
+1. Click the **More** icon ![More icon](assets/more-icon.png) that appears next to the pin name and select **[!UICONTROL Rename pin]**.
 
-1. 暫留在頂端導覽的釘選頁面上。
-1. 按一下圖釘名稱旁出現的&#x200B;**更多**&#x200B;圖示![更多圖示](assets/more-icon.png)，並選取&#x200B;**[!UICONTROL 重新命名圖釘]**。
+   ![Rename pin](assets/pin-menu.png)
 
-   ![重新命名圖釘](assets/pin-menu.png)
+1. Type the new pin name, then click **Save**.
 
-1. 輸入新的PIN名稱，然後按一下[儲存]。**&#x200B;**
+   ![Click the check mark to rename pin](assets/rename-pin-dialog-box.png)
 
-   ![按一下核取記號以重新命名圖釘](assets/rename-pin-dialog-box.png)
+## Reorder pinned pages
 
-## 重新排序釘選頁面
+You can rearrange the order that pinned pages appear.
 
-您可以重新排列釘選頁面的顯示順序。
+1. Hover over the pinned page you want to move, then click the **More** icon ![More icon](assets/more-icon.png).
+1. Choose **Move left** or **Move right** to move your pin. 
+1. (Optional) Choose **Move to front** to move your pin to the far-left position of the pin bar. 
 
-1. 將游標停留在您要移動的釘選頁面上，然後按一下&#x200B;**更多**&#x200B;圖示![更多圖示](assets/more-icon.png)。
-1. 選擇&#x200B;**向左移動**&#x200B;或&#x200B;**向右移動**&#x200B;以移動您的圖釘。
-1. （選擇性）選擇&#x200B;**移至前面**&#x200B;將您的圖釘移至圖釘列的最左位置。
+   ![move pins](assets/pin-menu.png)
 
-   ![移動圖釘](assets/pin-menu.png)
+   Your changes automatically save and are remembered the next time you access Workfront.
 
-   您的變更會自動儲存，並在您下次存取Workfront時記住這些變更。
+## Remove a pinned page
 
-## 移除釘選頁面
+1. Click the **More** icon ![](assets/more-icon.png) next to the pin you want to remove.
+1. Click **Remove pin**. The page is no longer accessible from the top of any page in [!DNL Workfront].
 
-1. 按一下您要移除的釘選旁的&#x200B;**更多**&#x200B;圖示![](assets/more-icon.png)。
-1. 按一下&#x200B;**移除圖釘**。 無法再從[!DNL Workfront]中任何頁面的頂端存取該頁面。
-
-   ![移除圖釘](assets/pin-menu.png)
-
+   ![Remove pin](assets/pin-menu.png)
+-->
 

@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 009953346ae5ef29611101acaa08b4f9810cf9d8
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1498'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >有權存取工作區的使用者至少會自動取得工作區中所有記錄型別的檢視許可權。
->共用檢視未授予使用者記錄型別的許可權。只有共用工作區才能授予使用者記錄型別的許可權。
+>共用檢視未授予使用者記錄型別的許可權。 只有共用工作區才能授予使用者記錄型別的許可權。
 >
 >* 如需在Workfront Planning中共用物件的一般資訊，另請參閱[在Adobe Workfront Planning中共用許可權概觀](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 >* 如需詳細資訊，請參閱本文中的[共用記錄型別](#considerations-when-sharing-record-types)時的考量事項。
@@ -56,9 +56,9 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
-<p>任何Workfront和Planning套件</p> 
+<p>具有Planning套件的任何Workfront或工作流程</p> 
 或
-<p>任何工作流程和Planning套件</p> 
+<p>任何Workfront Planning作為獨立產品套件</p> 
  </tr>
 
 <tr> 

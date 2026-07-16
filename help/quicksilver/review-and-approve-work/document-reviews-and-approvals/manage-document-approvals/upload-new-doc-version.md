@@ -20,16 +20,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
+source-git-commit: 66a134507a06c0ce0b4fd78bfa5e32bd95f8f08c
 workflow-type: tm+mt
-source-wordcount: 1196
-ht-degree: 1%
+source-wordcount: 798
+ht-degree: 2%
 
 ---
 
 # 上傳新檔案版本並請求核准
-
-{{highlighted-preview}}
 
 如果檔案在先前的稽核中被標籤為「需要工作」，您可以將新版本上傳到原始檔案並開始另一輪核准。 上傳檔案的新版本後，先前版本即會鎖定。
 
@@ -78,76 +76,77 @@ ht-degree: 1%
 
 
 
-## 使用拖放功能，在生產環境的舊版檔案區域中新增新版本
+<!--
+## Use drag-and-drop to add a new version in the legacy documents area in Production
 
-如果您的組織使用Workfront儲存空間，當您存取Workfront中的檔案時，將會看到舊版檔案區域。 如需Workfront儲存體的詳細資訊，請參閱[Adobe雲端儲存體與舊版Workfront儲存體之間的差異](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)。
+If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
 >[!NOTE]
 >
->Internet Explorer無法使用拖放功能。
+>Drag-and-drop does not work with Internet Explorer.
 
 
-如果您需要對檔案執行另一輪稽核和核准，可以在Workfront中建立新的檔案版本。
+If you need another round of review and approval on a document, you can create a new document version in Workfront.
 
-您可以新增先前的參與者、新參與者或兩者的組合。 您可以在「檔案詳細資訊」頁面上檢視先前版本和參與者的相關資訊。
+You can add the previous participants, new participants, or a mix of both. You can view information about previous versions and participants on the Document Details page. 
 
-若要新增版本：
+To add a new version:
 
-1. 導覽至Workfront中的檔案。
-1. 將新檔案拖放至上一個檔案的頂端。 這會自動建立新版本。
+1. Navigate to the document in Workfront.
+1. Drag and drop the new file on top of the previous document. This automatically creates a new version. 
 
-1. 檔案上傳完成後，請選取檔案以開啟檔案摘要面板。 您會在面板頂端看到版本號碼。
+1. Once the document finishes uploading, select the document to open the Document Summary panel. Here you'll see the version number at the top of the panel.
 
 
-1. 向下捲動至&#x200B;**核准**&#x200B;區段。
+1. Scroll down to the **Approvals** section.
 
-1. 按一下「**建立工作流程**」，然後填寫下列詳細資料：
+1. Click **Create workflow**, then fill in the following details:
 
    <table>
    <tr>
-   <td><strong>階段名稱</strong></td>
-   <td>新增階段名稱。 您可以將名稱變更為描述性更強的名稱，例如<em>初始稽核</em>或<em>最終核准</em>。</td>
+   <td><strong>Stage name</strong></td>
+   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
    </tr>
    <tr>
-   <td><strong>新增姓名或電子郵件</strong></td>
-   <td>開始輸入使用者或團隊名稱，以新增為核准者或稽核者。 如果您只有稽核者，他們將會收到通知並可以選擇完成稽核，但不需要或做出任何決定。</td>
+   <td><strong>Add names or emails</strong></td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
    </tr>
    <tr>
-   <td><strong>需要一項決定（選擇性）</strong></td>
-   <td>第一個做出決定的人會完成階段。</td>
+   <td><strong>One decision required (optional)</strong></td>
+   <td>The first person who makes a decision completes the stage.</td>
    </tr>
    <tr>
-   <td><strong>到期日（選擇性）</strong></td>
-   <td>設定核准的到期日。 使用者與團隊會收到電子郵件通知，通知時間為指定到期日前72小時或24小時。</td>
+   <td><strong>Due date (optional)</strong></td>
+   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
    </tr>
    </table>
 
-1. （選擇性）重複上一步驟，視需要新增其他階段。
+1. (Optional) Repeat the previous step to add additional stages as needed.
 
    >[!NOTE]
    >
-   >如果您新增多個階段，核准工作流程會依階段列出的順序進行。 完成所有必要的決定後，下一個階段會開始，而上一個階段會鎖定。
+   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
 
 
 
-1. （可選）若要新增現有的核准範本，請從對話方塊左側選取範本。
+1. (Optional) To add an existing approval template, select a template from the left side of the dialog.
 
    >[!TIP]
    >
-   >   擁有Standard授權的使用者可以從「設定」區域建立可重複使用的核准範本。 如需詳細資訊，請參閱[建立檔案的核准工作流程範本](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)。
+   >   Users with a Standard license can create reusable Approval Templates from the Setup area. For more information, see [Create an approval workflow template for documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 
 
-1. 新增您需要的所有階段和參與者後，按一下&#x200B;**要求核准**。
+1. Once you have added all the stages and participants you need, click **Request approval**.
 
-   核准工作流程隨即開始，核准者會收到新檔案版本需要其核准的通知。 先前檔案版本已鎖定，並撤銷先前版本上的所有未完成核准。
+   The approval workflow starts and the approvers receive a notification that their approval is needed on the new document version. The previous document version is locked and any outstanding approvals on the previous version are withdrawn.
 
-   !&lbrack;要求核准
-   <!--1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.-->
+    ![request approval](assets/request-approval.png)
+-->
 
-<div class="preview">
+<!--1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.-->
 
-## 使用拖放功能，在預覽的舊版檔案區域中新增新版本
+## 使用拖放功能，在舊版檔案區域中新增新版本
 
 如果您的組織使用Workfront儲存空間，當您存取Workfront中的檔案時，將會看到舊版檔案區域。 如需Workfront儲存體的詳細資訊，請參閱[Adobe雲端儲存體與舊版Workfront儲存體之間的差異](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage)。
 
@@ -171,11 +170,12 @@ ht-degree: 1%
 
 1. 設定核准工作流程。 如需欄位說明、進階模式切換和平行路徑流程，請參閱[建立檔案核准工作流程](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
 
+1. 若要複製上一個檔案版本的相同檢閱者和核准者，請按一下[複製]。**&#x200B;**
 1. 按一下&#x200B;**要求核准**。
 
    核准工作流程隨即開始，核准者會收到新檔案版本需要其核准的通知。 先前檔案版本已鎖定，並撤銷先前版本上的所有未完成核准。
 
-## 使用拖放功能，在預覽中的新檔案區域中新增新版本
+## 使用拖放功能在新的檔案區域中新增新版本
 
 如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的檔案區域。 如需Adobe雲端儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
@@ -203,8 +203,7 @@ the previous participants, new participants, or a mix of both. You can view info
 
 1. 設定核准工作流程。 如需欄位說明、進階模式切換和平行路徑流程，請參閱[建立檔案核准工作流程](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
 
+1. 若要複製上一個檔案版本的相同檢閱者和核准者，請按一下[複製]。**&#x200B;**
 1. 按一下&#x200B;**要求核准**。
 
    核准工作流程隨即開始，核准者會收到新檔案版本需要其核准的通知。 先前檔案版本已鎖定，並撤銷先前版本上的所有未完成核准。
-
-</div>

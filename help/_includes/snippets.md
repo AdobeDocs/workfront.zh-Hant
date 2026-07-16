@@ -1,7 +1,7 @@
 ---
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: cc78767fd0cc3090f5de71f44c64c9696ce6a36b
 workflow-type: tm+mt
-source-wordcount: '2236'
+source-wordcount: '2292'
 ht-degree: 2%
 
 ---
@@ -99,7 +99,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 ## 步驟1 — 開始設定 {#step-1-to-setup}
 
-1. 按一下Adobe Workfront左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![設定圖示](/help/_includes/assets/gear-icon-setup.png)。
+1. 按一下Adobe Workfront左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![設定圖示](/help/_includes/assets/gear-icon-setup-2026.png)。
 
 ## 表單設計工具轉換為GA {#form-designer-default}
 
@@ -124,7 +124,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 ## 步驟1 — 接近使用者 {#step-1-to-users}
 
-1. 按一下Adobe Workfront左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 使用者]** ![使用者圖示](/help/_includes/assets/users-icon-in-main-menu.png)。
+1. 按一下Adobe Workfront左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 使用者]** ![使用者圖示](/help/_includes/assets/users-icon-in-main-menu-2026.png)。
 
 
 <!-- Agile -->
@@ -295,11 +295,13 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 >[!IMPORTANT]
 >
->本文資訊說明Adobe Workfront的額外功能Adobe Workfront Planning。
+>本文資訊指的是Adobe Workfront Planning，您的組織可以作為Adobe Workfront套件或獨立產品購買。
 >
->如需存取Workfront Planning的需求清單，請參閱[Adobe Workfront Planning存取總覽](/help/quicksilver/planning/access/access-overview.md)。
-> 
+>Workfront Planning以獨立產品形式購買時，並非所有Planning套件所含的功能都可供使用。
+>
 >如需Workfront Planning的一般資訊，請參閱[開始使用Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)。
+> 
+>如需Workfront Planning作為獨立產品的相關資訊，請參閱[開始使用Adobe Workfront Planning作為獨立產品](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)。
 
 <!--
 Old - before Oct. 15, 2025:
@@ -474,7 +476,7 @@ OLD:
 
 1. 在&#x200B;**[!UICONTROL 組織]**&#x200B;區段中，選取&#x200B;**[!UICONTROL 主團隊]**&#x200B;欄位。 開始輸入您想要與使用者建立關聯的團隊名稱。 當您在清單中看到團隊名稱時，請按一下該團隊的名稱。
 
-1. 按一下&#x200B;**[!UICONTROL 儲存變更]**。
+1. 按一下「**[!UICONTROL 儲存變更]**」。
 您選取的使用者現在與主團隊相關聯。
 這些使用者現在可以看到任何專案團隊設定，包括與「完成」按鈕關聯的狀態。
 

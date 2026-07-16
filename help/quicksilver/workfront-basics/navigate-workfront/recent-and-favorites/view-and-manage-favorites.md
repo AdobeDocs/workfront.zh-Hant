@@ -15,7 +15,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
 source-wordcount: 375
 ht-degree: 4%
@@ -72,7 +72,7 @@ ht-degree: 4%
 
 ### 將最近的專案新增為我的最愛
 
-1. 按一下新[!DNL Adobe Workfront]體驗中任何頁面右上角的&#x200B;**[!UICONTROL 最近]**&#x200B;圖示![最近](assets/recents-icon-40x43.png)。
+1. 按一下新[!DNL Adobe Workfront]體驗中任何頁面右上角的&#x200B;**[!UICONTROL 最近]**&#x200B;圖示![最近](assets/recents-icon.png)。
 1. 按一下要儲存為最愛之專案的內嵌星號。 最近的專案會顯示在&#x200B;**我的最愛**&#x200B;功能表中。
 
    ![最愛最近專案](assets/recents-section.png)
@@ -86,7 +86,7 @@ ht-degree: 4%
 
    >[!NOTE]
    >
-   >如果您按一下已新增為我的最愛之物件上的&#x200B;**[!UICONTROL 我的最愛]**&#x200B;圖示，該物件將會從[!UICONTROL 我的最愛]功能表中移除。\
+   >如果您按一下已新增為我的最愛之物件上的&#x200B;**[!UICONTROL 我的最愛]**&#x200B;圖示，該物件將會從[!UICONTROL 我的最愛]功能表中移除。
    >![從我的最愛移除](assets/nwe-remove-from-favorites-350x52.png)
 
 ## 從[!UICONTROL 我的最愛]功能表中移除專案

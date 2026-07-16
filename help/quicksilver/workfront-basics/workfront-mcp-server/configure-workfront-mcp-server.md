@@ -5,17 +5,15 @@ title: 設定Adobe Workfront MCP伺服器
 description: 設定您的Workfront執行個體和AI代理平台，讓您透過自然語言對話來使用Workfront。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 5592c1b93b5e44c732f92d626ed878d2c4647ceb
+source-git-commit: 3e189faacf67a9a565b0fbd5a92786110a9785f9
 workflow-type: tm+mt
-source-wordcount: '1769'
+source-wordcount: '1729'
 ht-degree: 0%
 
 ---
 
 
 # 設定Adobe Workfront MCP伺服器
-
-<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它只能在「預覽Sandbox」環境中使用。</span>
 
 [!DNL Adobe Workfront] MCP伺服器可讓您在支援的AI代理程式平台上，透過自然語言對話處理您的Workfront資料。
 
@@ -34,12 +32,11 @@ Workfront MCP伺服器可與任何支援模型內容通訊協定(MCP)的AI代理
 * [!DNL Claude]
 * [!DNL ChatGPT]
 
-如果您使用其他MCP相容的AI代理平台（例如，[!DNL Gemini]或[!DNL Microsoft Copilot]），請依照該平台檔案中的步驟新增自訂MCP伺服器。 當系統提示您輸入MCP伺服器URL時，請輸入您地區的URL：
+如果您使用其他MCP相容的AI代理平台（例如，[!DNL Gemini]或[!DNL Microsoft Copilot]），請依照該平台檔案中的步驟新增自訂MCP伺服器。 當系統提示MCP伺服器URL時，請輸入：
 
-| 區域 | URL |
-| --- | --- |
-| 美國 | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
-| 歐盟 | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+```
+https://mcp.workfront.adobe.com/mcp/v1/workfront
+```
 
 ## 先決條件
 
@@ -117,12 +114,11 @@ MCP伺服器存取許可權由兩個不同的管理員所控制。
 1. 在左側功能表中，選取&#x200B;**自訂**&#x200B;圖示。
 1. 選取&#x200B;**聯結器**，然後選取&#x200B;**+**&#x200B;圖示以新增聯結器。
 1. 選取&#x200B;**建立應用程式**&#x200B;按鈕。
-1. 為聯結器指定所需的名稱（例如「Workfront」），然後輸入所需的MCP伺服器URL：
+1. 為聯結器提供所需的名稱（例如「Workfront」），並輸入MCP伺服器URL：
 
-   | 區域 | URL |
-   | --- | --- |
-   | 美國 | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
-   | 歐盟 | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+   ```
+   https://mcp.workfront.adobe.com/mcp/v1/workfront
+   ```
 
 1. 建立聯結器後，會彈出登入視窗。 使用您的Adobe ID憑證進行驗證。 如果您屬於多個Workfront執行個體，請務必選取所需執行個體。
 
@@ -148,12 +144,11 @@ MCP伺服器存取許可權由兩個不同的管理員所控制。
 1. 在左下方，選取&#x200B;**您的名稱** → **設定**。
 1. 選取&#x200B;**應用程式**，然後啟用&#x200B;**開發人員模式**。
 1. 選取&#x200B;**建立應用程式**&#x200B;按鈕。
-1. 為應用程式指定所需的名稱（例如「Workfront」），然後輸入所需的MCP伺服器URL：
+1. 為應用程式指定所需的名稱（例如「Workfront」），然後輸入MCP伺服器URL：
 
-   | 區域 | URL |
-   | --- | --- |
-   | 美國 | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
-   | 歐盟 | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+   ```
+   https://mcp.workfront.adobe.com/mcp/v1/workfront
+   ```
 
 1. 確定驗證已設定為&#x200B;**OAuth** （預設為設定），並選取接受核取方塊以繼續。
 1. 建立應用程式後，系統會隨即顯示登入視窗。 使用您的Adobe ID憑證進行驗證。 如果您屬於多個Workfront執行個體，請務必選取所需執行個體。

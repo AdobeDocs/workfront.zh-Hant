@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 90b8da58f534f9033b427f0ad09c15dba50c28c9
 workflow-type: tm+mt
-source-wordcount: 502
+source-wordcount: 523
 ht-degree: 7%
 
 ---
@@ -82,7 +82,9 @@ ht-degree: 7%
 {{step1-to-priorities}}
 
 1. 按一下工作清單頂端的&#x200B;**行事曆**&#x200B;圖示。
+
    ![行事曆圖示](assets/calendar-tab.png)
+
 1. 選取一或多個篩選器以縮小您的工作專案。
 
    +++展開以檢視有關可用篩選器的詳細資訊
@@ -162,11 +164,13 @@ ht-degree: 7%
 {{step1-to-priorities}}
 
 1. 按一下工作清單頂端的&#x200B;**行事曆**&#x200B;圖示。
+
    ![行事曆圖示](assets/calendar-tab.png)
+
 1. 按一下行事曆右角的&#x200B;**設定**&#x200B;圖示。
 
 1. 在&#x200B;**列樣式**&#x200B;標籤上，選擇最多5個欄位顯示在行事曆的工作專案列上。
    ![範例列](assets/sample-task-for-field-config.png)
 
-1. 在&#x200B;**色彩**&#x200B;標籤上，選擇您要如何顯示工作專案。例如，如果您選擇&#x200B;**專案**，您的工作專案會根據工作清單上指派給專案的顏色顯示。
+1. 在&#x200B;**色彩**&#x200B;標籤上，選擇您要如何顯示工作專案。 例如，如果您選擇&#x200B;**專案**，您的工作專案會根據工作清單上指派給專案的顏色顯示。
    ![顏色專案範例](assets/sample-calendar-projects.png)

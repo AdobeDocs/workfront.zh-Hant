@@ -15,16 +15,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 3c02b27f652567e117daf1d1334874144317be81
 workflow-type: tm+mt
-source-wordcount: 437
+source-wordcount: 431
 ht-degree: 5%
 
 ---
 
 # 自訂「優先順序」工作清單欄
-
-{{preview-fast-release-general}}
 
 <!--I think this article can point to the Enhanced lists article for managing the view-->
 
@@ -89,11 +87,7 @@ ht-degree: 5%
 
 1. 按一下畫面左側的&#x200B;**欄**。
 
-   <span class="preview">預覽環境中的範例影像：</span>
    ![欄](assets/columns-new-060226.png)
-
-   生產環境中的影像範例：
-   ![欄](assets/columns-new.png)
 
 1. 使用切換來顯示或隱藏工作清單中的欄。
 
@@ -102,14 +96,12 @@ ht-degree: 5%
 {{step1-to-priorities}}
 
 1. 按一下畫面左側的&#x200B;**欄**。
-1. 按一下&#x200B;**拖曳**&#x200B;圖示，並將資料行移至您想要的位置。自動移動工作清單中的欄更新。
+1. 按一下&#x200B;**拖曳**&#x200B;圖示，並將資料行移至您想要的位置。 自動移動工作清單中的欄更新。
    ![重新排序資料行](assets/reorder-columns-new.png)
 
 >[!NOTE]
 >
 >「名稱」欄是固定的，無法移動。
-
-<div class="preview">
 
 ### 使用欄管理員新增和移除欄
 
@@ -123,8 +115,6 @@ ht-degree: 5%
    >您只能將現有欄位新增到清單檢視。 任務和問題的原生和自訂欄位都可新增為欄。
 
 如需資料行管理員的詳細資訊，請參閱發行項[使用增強式清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)中的[新增及移除資料行管理員為](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager)的資料行。
-
-</div>
 
 ### 變更優先順序清單中的列高
 
@@ -141,8 +131,6 @@ ht-degree: 5%
 
    清單會立即更新。
 
-<div class="preview">
-
 ## 管理優先順序清單的檢視
 
 檢視會使用預設集設定來定義清單中的欄、篩選器和群組。
@@ -157,5 +145,3 @@ ht-degree: 5%
    檢視的變更會自動儲存。 下次套用此檢視時，欄和篩選設定仍會保留您設定的方式。
 
 如需檢視的詳細資訊，請參閱文章[使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)中的[更新增強型清單元素](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#update-enhanced-list-elements)一節。
-
-</div>

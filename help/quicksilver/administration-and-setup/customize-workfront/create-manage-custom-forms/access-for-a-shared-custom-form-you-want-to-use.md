@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
 workflow-type: tm+mt
-source-wordcount: 402
+source-wordcount: 404
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 0%
    <td> <p>如果您將欄位新增至自訂表單：</p> 
     <ul> 
      <li>您可以編輯欄位的表單相關設定，例如其顯示邏輯、其在表單上其他欄位的順序、是否為表單上的必要欄位，以及將其從表單中移除的功能。</li> 
-     <li>您無法編輯欄位的欄位相關設定，例如其標籤、名稱和型別。</li> 
+     <li>您無法編輯欄位的欄位相關設定，例如其標籤、API名稱和型別。</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -69,7 +69,7 @@ ht-degree: 0%
      <li>管理</li> 
      <li>在整個系統內可編輯</li> 
     </ul> </td> 
-   <td>您可以將欄位新增至自訂表單，並編輯其任何欄位相關設定，例如標籤、名稱和型別。</td> 
+   <td>您可以將欄位新增至自訂表單，並編輯其任何欄位相關設定，例如標籤、API名稱和型別。</td> 
   </tr> 
   <tr> 
    <td> 

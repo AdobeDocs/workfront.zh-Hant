@@ -20,10 +20,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 747
-ht-degree: 4%
+source-wordcount: 770
+ht-degree: 5%
 
 ---
 
@@ -47,6 +47,13 @@ ht-degree: 4%
 * 疊代
 * 費用
 * 計費記錄
+* 團隊
+
+如果您在Workflow Ultimate套件上，您可以將自訂表單附加到這些其他物件：
+
+* 職務角色
+* 費率卡
+* 指派
 
 您只能將自訂表單新增至已建立表單的物件型別。
 
