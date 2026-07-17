@@ -9,11 +9,17 @@ exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/YZRzcl8ymUo85jplCgKOx-qI83Gqa4CUI6saxfijtec
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 184cff4f2ebf8a1343d784936f10c902e350c134
 workflow-type: tm+mt
 source-wordcount: 1386
@@ -92,7 +98,7 @@ ht-degree: 1%
 1. 移至&#x200B;**系統** > **偏好設定** > **AI偏好設定**。
 1. 開啟&#x200B;**啟用AI**<!--and ensure you have a signed Gen AI Agreement with Adobe-->。
    <!--1. Turn on the **Opt in to AI Beta** setting.-->
-1. 開啟&#x200B;**規劃Designer**設定。
+1. 開啟&#x200B;**規劃Designer**&#x200B;設定。
    <!-- add new screenshot-->
    系統偏好設定中的![規劃Designer設定](assets/planning-designer-toggle-in-system-preferences.png)
 
