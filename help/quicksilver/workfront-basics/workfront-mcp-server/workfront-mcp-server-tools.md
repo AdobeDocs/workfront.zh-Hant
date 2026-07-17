@@ -5,9 +5,9 @@ title: Adobe Workfront MCP伺服器工具
 description: 透過Adobe Workfront MCP伺服器可用的工具參考清單，按Workfront區域分組。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: e51ba55867fdf47034e8baef28c2e3f7e541dde9
+source-git-commit: 2d6b26b8ab5e58b72fc16db87518c98cdc0c4cb1
 workflow-type: tm+mt
-source-wordcount: '1964'
+source-wordcount: '1992'
 ht-degree: 5%
 
 ---
@@ -208,6 +208,7 @@ ht-degree: 5%
 | 更新物件 | `workflow_update_any_object` | 更新現有Workfront物件上的欄位。 | 寫入 |
 | 刪除物件 | `workflow_delete_any_object` | 依ID刪除Workfront物件。 執行動作前需要明確的使用者確認。 | 寫入 |
 | 解析欄位名稱 | `workflow_resolve_field_names_any_object` | 將使用者提供的欄位名稱或標籤轉換為基礎Workfront API欄位名稱，讓AI代理平台可以建置準確的請求。 | 讀取 |
+| 讀取工作流程檔案 | `workflow_read_workflow_docs` | 載入Workfront工作流程檔案，包括工具使用指南和物件特定操作教戰手冊。 這是執行「工作流程」動作之前的必要第一個步驟。 | 讀取 |
 
 ### 註解
 
