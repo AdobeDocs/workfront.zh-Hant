@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1098
-ht-degree: 0%
+source-wordcount: 1038
+ht-degree: 1%
 
 ---
 
@@ -32,10 +32,11 @@ ht-degree: 0%
 
 <!--leave the choice value information in yellow till January 2026-->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
-
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -152,8 +153,8 @@ Old:
 * 儲存欄位後，您可以編輯以下欄位元素的設定：
 
    * 任何欄位的名稱或描述
-   * 單選或多選欄位<span class="preview">的選項及其預設選擇</span>。
-   * <span class="preview">人員欄位的預設選擇。</span>
+   * 單選或多選欄位的選項及其預設選擇。
+   * 「人員」欄位的預設選項。
    * 公式欄位的運算式。
 
   >[!WARNING]
@@ -209,14 +210,10 @@ this is not yet true, but it might come later:
    >
    >* 當您修改欄位設定（欄位選項或公式運算式）時，已包含修改欄位中資訊的記錄將即時更新其值。 欄位設定變更所觸發的值變更沒有警告或稽核記錄。 所有檢視欄位的使用者都會立即看到經過修改的新值。
 
-1. <span class="preview">（條件式）如果您要更新的欄位是要求表單的一部分，則會顯示&#x200B;**檢閱欄位變更**&#x200B;方塊，以指出將受到您變更影響的表單。 執行下列任一項作業：</span>
-
-   <div class="preview">
+1. （視條件而定）如果您要更新的欄位是要求表單的一部分，則會顯示&#x200B;**檢閱欄位變更**&#x200B;方塊，以指出將受到您變更影響的表單。 執行下列其中一項：
 
    * 按一下向右箭頭以顯示受變更影響的表單，然後按一下表單名稱，在新標籤中開啟表單並決定您是要保留表單上的欄位還是對表單進行其他變更。
    * 按一下&#x200B;**保留變更**，這會更新所有顯示區域的欄位。
-
-   </div>
 
    欄位資訊會針對所有有權檢視工作區的人員而更新。
 

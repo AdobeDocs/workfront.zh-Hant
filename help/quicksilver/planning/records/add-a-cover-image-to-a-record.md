@@ -20,19 +20,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 744
+source-wordcount: 679
 ht-degree: 1%
 
 ---
 
-# 新增封面影像至記錄
+# 新增
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -70,7 +71,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
-   <td>   <p>貢獻或更高的工作區許可權、記錄型別許可權，以及<span class="preview">管理記錄的許可權</span> </p>  
+   <td>   <p>貢獻或更高的工作區許可權、記錄型別和管理記錄的許可權 </p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p> </td> 
   </tr>   
 </tbody> 
@@ -187,16 +188,12 @@ Old:
 
    記錄的預覽會在檢視中開啟。
 
-   <!--update screen shot for new details views preview-->
-
    ![詳細資料預覽方塊](assets/details-box.png)
 
 
 1. （選擇性）按一下記錄預覽右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤中開啟](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->，以在新索引標籤中開啟記錄的頁面。
 
    記錄頁面隨即開啟。
-
-   <!--update screen shot for new details views preview-->
 
    ![詳細資料頁面](assets/details-page.png)
 
@@ -220,8 +217,6 @@ Old:
 1. 按一下&#x200B;**使用影像**。
 
    影像會上傳到記錄預覽或詳細資訊頁面的頂端，且變更會自動儲存。
-
-   <!--update screen shot for new details views preview-->
 
    ![含有封面影像的錄製頁面](assets/record-page-with-cover-image.png)
 

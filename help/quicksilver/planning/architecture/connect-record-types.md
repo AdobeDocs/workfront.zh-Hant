@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 3118
+source-wordcount: 3058
 ht-degree: 1%
 
 ---
@@ -33,10 +33,12 @@ ht-degree: 1%
 
 # 連線記錄型別
 
+<!--
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -359,7 +361,7 @@ Old:
    >
    >* 除了「名稱」和「說明」等系統欄位之外，您還可以新增下列型別的欄位，作為來自其他應用程式之物件型別的查詢欄位：
    >   * Workfront專案中的使用者欄位，例如「專案所有者」或「贊助者」。
-   >   * <span class="preview">參考欄位，例如Workfront專案的專案群組或專案公司。</span>
+   >   * 參考欄位，例如Workfront專案中的專案群組或專案公司。
    >* AEM內容片段僅支援下列欄位： <!--this information is also in "Connect record types overview"-->
    >   * 建立者及建立時間
    >   * 修改者與修改者：

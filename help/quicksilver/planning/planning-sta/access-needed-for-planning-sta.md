@@ -3,7 +3,7 @@ title: Adobe Workfront Planning作為獨立產品所需的存取
 description: 本文說明Adobe Workfront Planning作為獨立產品的授權、存取層級和使用者功能。
 last-update: 2026-04-01T18:02:40Z
 git-commit-file: 8cc175490a6aa1db68b238edbdf9da9da7fbb258
-source-git-commit: 847c38fe006ca5f1170e4b28c9b0a2c61c5c77fa
+source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 2%
@@ -11,8 +11,8 @@ ht-degree: 2%
 ---
 
 <!--
-Update metadata with this at release:
 
+Update metadata with this at release:
 ---
 title: Access Required for Planning Standalone
 description: This article describes how you can benefit from using the standalone version of Adobe Workfront Planning.

@@ -21,18 +21,20 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1311
+source-wordcount: 1252
 ht-degree: 1%
 
 ---
 
 # 建立工作區
 
-<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -277,7 +279,6 @@ Old:
 
       1. 開啟每個工作區範本的&#x200B;**預覽**&#x200B;方塊後，按一下&#x200B;**上一步**&#x200B;以返回&#x200B;**建立工作區**&#x200B;方塊，或按一下&#x200B;**使用範本**&#x200B;以使用套件組合中包含的範本並建立工作區。
 
-   <div class="preview">
 
    * 按一下&#x200B;**範例工作區**&#x200B;索引標籤，然後依照下列步驟進行：
 
@@ -289,8 +290,6 @@ Old:
          >
          >按一下範本中的記錄型別卡片，即可在右側面板中顯示記錄型別的欄位。
       1. 按一下&#x200B;**使用範本**。
-
-   </div>
 
    這6個工作區已建立並顯示在我所在的&#x200B;**工作區**&#x200B;以及系統管理員的&#x200B;**所有工作區**&#x200B;標籤中。 系統管理員建立所有標準授權使用者並與其共用新工作區後，這些使用者都會在其「工作區」區域中看見工作區。
 

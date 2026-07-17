@@ -20,19 +20,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 873b65fb7f23d2e2b0598b56bb8893a7b87c1be1
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 3175
+source-wordcount: 3103
 ht-degree: 0%
 
 ---
 
 # 編輯記錄
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -72,7 +73,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
-   <td>   <p>貢獻或更高的工作區許可權、記錄型別許可權，以及<span class="preview">管理記錄的許可權</span> </p>  
+   <td>   <p>貢獻或更高的工作區許可權、記錄型別和管理記錄的許可權</p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p> </td> 
   </tr>   
 </tbody> 
@@ -245,7 +246,7 @@ Old:
 
    * 複製一個欄位的一或多個現有值，然後將它們貼到另一個記錄上相同型別的欄位中
    * 按一下欄的欄標題以選取並複製它，然後按一下其他欄的欄標題並貼上複製欄的內容。 欄必須包含類似的欄位型別。
-   * 按住Shift鍵，按一下選取表格中的數列，複製選取列中的資訊，然後按一下其他列，然後將選取的資訊貼到新列中，接著再貼上後續的列。 <span class="preview">預覽環境中無法執行此操作。</span>
+   * 按住Shift鍵，按一下選取表格中的數列，複製選取列中的資訊，然後按一下其他列，然後將選取的資訊貼到新列中，接著再貼上後續的列。 預覽環境中無法執行此操作。
    * 複製一個儲存格的資訊，然後選取多個儲存格並在多個儲存格中貼上相同的資訊。 您可以選取多個儲存格，並在相鄰列和欄的多個儲存格中貼上相同的資訊。
    * 選取包含您要複製之資訊的現有儲存格的右下角，然後將其拖放到您想要貼上相同資訊的相鄰儲存格上。 所有儲存格都必須包含相同型別的資訊。
 
@@ -253,15 +254,18 @@ Old:
 
    * 從外部來源複製一或多個儲存格（例如，Excel檔案），然後將其貼到下列其中一個欄位型別中：
 
-      * Workfront規劃連線欄位。
-
-        <span class="preview">預覽環境中無法執行此操作。</span>
       * 人員欄位。 僅支援具有一個值的欄位。
       * 文字欄位。
       * 選取欄位。
       * 數字、百分比和貨幣欄位。
 
-     您無法從外部來源複製資訊，並將其貼到任何其他欄位型別中，包括Workfront或其他應用程式的連線欄位。
+   您無法從外部來源複製資訊，並將其貼到任何其他欄位型別中，包括Workfront或其他應用程式的連線欄位。
+
+   <!--
+    * Workfront Planning connection fields.  
+        This is not possible in the Preview environment.
+    -->
+
 
    >[!NOTE]
    >
@@ -289,11 +293,12 @@ Old:
 
 1. （選擇性）按一下記錄名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後從下列選項中選擇：
 
-   * **檢視**&#x200B;或&#x200B;<span class="preview">**在新索引標籤中開啟**</span>：這會開啟記錄頁面。
+   * **檢視**&#x200B;或&#x200B;**在新索引標籤中開啟**：這會開啟記錄頁面。
    * **複製連結**：複製記錄頁面的連結。
-   * **編輯縮圖**：若要新增縮圖至記錄。如需詳細資訊，請參閱[新增縮圖至記錄](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
+   * **編輯縮圖**：若要新增縮圖至記錄。
+如需詳細資訊，請參閱[新增縮圖至記錄](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
    * **重複**：這會建立記錄的相同重複。
-   * **在上方插入記錄/在下方插入記錄**：新增資料列，以便新增記錄。 <span class="preview">預覽環境中無法執行此操作。</span>
+   * **在上方插入記錄/在下方插入記錄**：新增資料列，以便新增記錄。 預覽環境中無法執行此操作。
    * **刪除**：刪除記錄。 刪除的記錄會儲存在「最近刪除」方塊中最長30天。
 
 
@@ -352,8 +357,6 @@ Old:
 
    從表格檢視中，按一下第一欄中的&#x200B;**開啟詳細資料**&#x200B;圖示![在表格名稱欄位中開啟詳細資料圖示](assets/open-details-icon-in-table-name-field.png)。 記錄的預覽會在檢視中開啟。
 
-   <!--update screenshot for new details views preview-->
-
    ![詳細資訊方塊](assets/details-box.png)
 
 1. （選擇性）按一下記錄標題右側的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**重新命名**。 這會更新顯示為記錄標題的欄位。
@@ -408,8 +411,6 @@ Old:
      ![記錄列](assets/contextual-menu-for-record-row.png)的內容相關功能表
 
      記錄頁面隨即開啟。
-
-     <!--update screenshot for new details views preview-->
 
      ![詳細資料頁面](assets/details-page.png)
 

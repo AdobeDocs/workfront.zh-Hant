@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 5497
+source-wordcount: 5395
 ht-degree: 1%
 
 ---
@@ -44,11 +44,11 @@ Do we need this for FORMULAS: when we release permissions to RECORDS and we rele
 
 <!--information about choice values must stay in yellow till Jan 2026-->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
-
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -356,7 +356,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
    按一下&#x200B;**自訂**，使用檢色器或十六進位代碼選取自訂顏色。
 1. 按一下顏色方塊外部以將其關閉。
 
-1. <span class="preview">在&#x200B;**預設選項**&#x200B;欄位中，選取您預設要在此欄位中顯示的選項。 您可以選擇多個選項。 使用者更新此欄位時，可以移除預設選項。</span>
+1. 在&#x200B;**預設選項**&#x200B;欄位中，選取您預設要在此欄位中顯示的選項。 您可以選擇多個選項。 使用者在更新此欄位時，可以移除預設選項。
 
 1. 按一下「**建立**」。
 
@@ -405,7 +405,7 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
    按一下&#x200B;**自訂**，使用檢色器或十六進位代碼選取自訂顏色。
 
-1. <span class="preview">在&#x200B;**預設選擇**&#x200B;欄位中，選取您預設要在此欄位中顯示的選擇。 您只能選擇一個選項。 使用者在更新此欄位時可移除預設選擇。</span>
+1. 在&#x200B;**預設選擇**&#x200B;欄位中，選取您預設要在此欄位中顯示的選擇。 您只能選擇一個選項。 使用者在更新此欄位時可移除預設選擇。
 
 1. 按一下顏色方塊外部以將其關閉。
 1. 按一下「**建立**」。
@@ -437,45 +437,21 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
 
 1. 在&#x200B;**新欄位**&#x200B;索引標籤中新增下列資訊：
+
    * **名稱**：欄位名稱，它將顯示在資料表或記錄頁面中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **描述**：有關欄位的額外資訊。 當您將滑鼠游標停留在表格中的欄位欄位上，或當您在記錄的詳細資訊頁面中按一下欄位名稱旁的資訊圖示時，會顯示欄位說明。
    * **日期格式**：您要在此欄位中顯示的日期格式型別。<!--update this casing - submitted bug for it-->
-
-     根據您存取欄位的環境，執行下列動作：
-
-      * 在生產環境中：
-
-         * 從下列格式中選取：
-            * **地區**：符合瀏覽器的地區。
-            * **標準**： 05/16/2023
-            * **長**：2023年5月16日
-            * **歐洲**： 16/05/2023
-            * **ISO**： 2023-05-16
+   * 從下列格式中選取：
+      * **短整數**： 6/9/26
+      * **Medium**：2026年6月9日
+      * **長** 2026年6月9日
       * **包含時間**：若要包含時間戳記，請選取此選項。 預設會取消選取此選項。 您無法包含儲存欄位後的時間。
 
-        從下列選項中選取：
+   * 從下列選項中選取：
 
-         * **24hr**：例如： 18:00
-         * **12hr**：例如：下午6:00
-
-     <div class="preview">
-
-      * 在預覽環境中：
-
-         * 從下列格式中選取：
-            * **短整數**： 6/9/26
-            * **Medium**：2026年6月9日
-            * **長** 2026年6月9日
-      * **包含時間**：若要包含時間戳記，請選取此選項。 預設會取消選取此選項。 您無法包含儲存欄位後的時間。
-
-        從下列選項中選取：
-
-         * **24hr**：例如： 18:00
-         * **12hr**：例如：下午6:00
-      * **對所有共同作業人員使用相同的時區**，然後選取&#x200B;**時區** <!--(************** logged bug to change this to "Show the same time zone to all users" ****************)-->：如果您想要對所有檢視此欄位的人顯示相同的時間戳記，無論其使用者的時區為何，請選取此選項。 選取的時區會新增至此欄位的欄標題。
-
-     </div>
-
+      * **24hr**：例如： 18:00
+      * **12hr**：例如：下午6:00
+      * **對所有使用者顯示相同的時區**，然後選取&#x200B;**時區**：如果您想要對所有檢視欄位的人顯示相同的時戳，而不論其使用者的時區為何，請選取此選項。 選取的時區會新增至此欄位的欄標題。
 
 1. 按一下「**建立**」。
 
@@ -696,15 +672,15 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
    >
    >    如果您選取「允許多個值」，且有多個使用者儲存在附加欄位的記錄中，則以後編輯此欄位時，無法再取消選取設定。
 
-1. <span class="preview">在&#x200B;**預設使用者**&#x200B;或&#x200B;**預設使用者**&#x200B;欄位中，選取您預設要在此欄位中顯示的使用者。</span>
+1. 在&#x200B;**預設使用者**&#x200B;或&#x200B;**預設使用者**&#x200B;欄位中，選取您預設要在此欄位中顯示的使用者。
 
-   <span class="preview">如果您也選取了&#x200B;**允許多個值**&#x200B;設定，則可以選擇多個使用者。</span>
+   如果您也選取了&#x200B;**允許多個值**&#x200B;設定，則可以選擇多個使用者。
 
-   <span class="preview">使用者更新此欄位時，可以移除預設使用者。</span>
+   使用者在更新此欄位時可移除預設使用者。
 
    >[!TIP]
    >
-   ><span class="preview">停用在此設定中選取為預設使用者的使用者，會保留使用者的名稱為預設值。 它不會從欄位值中移除已停用的使用者，而且沒有指示其他人該使用者已停用。</span>
+   >停用在此設定中選取為預設使用者的使用者時，會保留使用者的名稱作為預設值。 它不會從欄位值中移除已停用的使用者，並且沒有指示其他人該使用者已停用。
 
 1. 按一下「**建立**」。
 

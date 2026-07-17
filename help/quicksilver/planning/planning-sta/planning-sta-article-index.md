@@ -12,16 +12,17 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ee260723331ddff4e8d89f7d9ca2b807835d6130
+source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
 workflow-type: tm+mt
 source-wordcount: 163
 ht-degree: 0%
 
 ---
 
-<!--
-Update metadata with this at release:
 
+<!--
+
+Update metadata with this at release:
 ---
 title: "Adobe Planning Standalone: Article Index"
 description: The articles in this section describe how you can benefit from using the standalone version of Adobe Workfront Planning.

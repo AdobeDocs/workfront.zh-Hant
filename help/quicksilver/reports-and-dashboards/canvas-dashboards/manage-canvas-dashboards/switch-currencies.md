@@ -6,9 +6,9 @@ description: 您可以在畫布控制面板中使用貨幣欄位。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 207c24d3-2b69-4ea3-88d7-716a3cf33dd1
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '673'
 ht-degree: 4%
 
 ---
@@ -17,17 +17,19 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->畫布儀表板功能目前僅適用於參與Beta階段的使用者。在此階段中，部分功能可能無法完成或如預期般運作。請依照「畫布控制面板」測試版概觀文章中[提供意見回饋](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)一節的指示，提交有關您體驗的任何意見回饋。<br>
->如果您對可能的錯誤或技術問題有回饋意見，請向Workfront支援提交票證。如需詳細資訊，請參閱[聯絡客戶支援](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
->請注意，此測試版不適用於下列雲端服務提供者：
+>畫布儀表板功能目前僅適用於參與Beta階段的使用者。 在此階段中，部分功能可能無法完成或如預期般運作。 請依照「畫布控制面板」測試版概觀文章中[提供意見回饋](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)一節的指示，提交有關您體驗的任何意見回饋。<br>
+>如果您對可能的錯誤或技術問題有回饋，請向Workfront支援提交票證。 如需詳細資訊，請參閱[聯絡客戶支援](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
+>請注意，以下雲端服務供應商未提供此測試版：
 >
 >* 自備Amazon Web Services金鑰
 >* Azure
 >* Google Cloud Platform
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 ## 存取需求
 
@@ -143,19 +145,18 @@ ht-degree: 4%
 <ul>
 <li>在畫布圖表、KPI和表格報表中使用原生貨幣欄位</li>
 <li>在畫布圖表、KPI和圖表報表中使用自訂貨幣欄位</li>
+<li>在畫布圖表、重要績效指標及表格報表中使用「計畫」幣別欄位 </li>
 </ul>
+<p><b>附註</b></p>
+如果Planning幣別欄位使用未定義匯率的幣別，則「畫布資料面板」可能會在「 」時顯示錯誤訊息。
 </td>
 <td>
 <ul>
 <li>指派預設貨幣給控制面板（建立或編輯控制面板時）</li>
 <li>檢視並使用控制面板層級的貨幣切換</li>
 <li>鎖定特定貨幣，以在畫布圖表、KPI或表格報告中檢視</li>
-<li>在生產環境中，在畫布圖表、KPI和表格報告<span class="preview">中使用Planning貨幣欄位。 這可在預覽環境中使用。</span></li>
+
 </ul>
-
-<p><b>附註</b></p>
-<span class="preview">如果Planning貨幣欄位使用未定義匯率的貨幣，則Canvas Dashboard可能會在</span>時顯示錯誤訊息
-
 </td> 
 </tr>
 </td> 
@@ -168,17 +169,19 @@ ht-degree: 4%
   <li>設定儀表板的預設貨幣（在建立或編輯儀表板時）</li>
   <li>檢視並使用控制面板層級的貨幣切換</li>
   <li>鎖定畫布圖表、KPI或表格報表中檢視的特定貨幣，以忽略控制面板貨幣切換偏好設定</li>
+  <li>在畫布圖表、重要績效指標及表格報表中使用「計畫」幣別欄位 </li>
 </ul>
+<p><b>附註</b></p>
+
+<p>如果Planning幣別欄位使用未定義匯率的幣別，則「畫布資料面板」可能會在「 」時顯示錯誤訊息。</p>
 </td>
 <td><ul>
   <li>在畫布圖表、KPI和表格報表中使用自訂資料貨幣欄位</li>
-  <li>在生產環境中，在畫布圖表、KPI和表格報告<span class="preview">中使用Planning貨幣欄位。 這可在預覽環境中使用。</span></li>
+
 </ul>
 
 
-<p><b>附註</b></p>
 
-<p><span class="preview">如果Planning幣別欄位使用未定義匯率的幣別，則「畫布資料面板」可能會在「 」時顯示錯誤訊息。</span></p>
 
 </td>
 </tr></table>

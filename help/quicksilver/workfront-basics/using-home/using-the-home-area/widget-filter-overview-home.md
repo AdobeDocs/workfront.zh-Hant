@@ -20,18 +20,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1084
-ht-degree: 11%
+source-wordcount: 881
+ht-degree: 13%
 
 ---
 
 # 首頁Widget篩選器概觀
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 您可以對下列Widget使用篩選器來尋找及組織工作：
 
@@ -149,7 +151,7 @@ ht-degree: 11%
   </tr>
   <tr>
     <td>里程碑任務</td>
-    <td>顯示與里程碑關聯的任務。如需詳細資訊，請參閱<a href="/help/quicksilver/manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md">將里程碑與任務關聯</a>。
+    <td>顯示與里程碑關聯的任務。 如需詳細資訊，請參閱<a href="/help/quicksilver/manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md">將里程碑與任務關聯</a>。
 </td>
   </tr>
   <tr>
@@ -262,53 +264,53 @@ ht-degree: 11%
 
 ## 我的請求
 
-在生產環境中：
+我的請求Widget具備可自訂的篩選器，可讓您控制哪些請求會出現在Widget中。 您可以為不同的欄位和值設定此篩選器，也可以使用AND和OR棧疊條件。
+
+如需在「我的請求」Widget中設定篩選器的指示，請參閱「使用我的請求」Widget一文中的[篩選請求](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md#filter-requests)。
+
+<!--
+In the Production environment:
 
 <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">全部</td> 
-      <td>顯示所有已提交的請求，不論狀態或提交者為何。</td> 
+      <td role="rowheader">All</td> 
+      <td>Displays all submitted requests, regardless of status or who submitted them.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">開啟</td> 
-      <td> <p>顯示所有已提交的請求 
+      <td role="rowheader">Open</td> 
+      <td> <p>Displays all submitted requests 
       <ul>
-      <li>目前未完成的檔案，無論其提交者為何。 只有您至少有許可權檢視的要求，才會顯示在這裡（如果您未自行提交）。</li>
-      <li>沒有實際完成日期或其解析物件沒有實際完成日期則會列在「開啟」子標籤中。</li> 
+      <li>That are currently open, regardless of who submitted them. Only requests you have at least permissions to view display here if you did not submit them yourself.</li>
+      <li>Without an Actual Completion Date or whose resolving object does not have an Actual Completion Date are listed in the Open subtab.</li> 
       </ul>
-      <p><b>注意</b> 
-      處於任何不等於「已關閉」狀態的請求會視為未完成。</p> 
+      <p><b>NOTE</b> 
+      Requests that are in any status that does not equate with Closed are considered open.</p> 
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">我的請求</td> 
-      <td>顯示您提交的請求，無論其狀態為何。 </td> 
+      <td role="rowheader">My Requests</td> 
+      <td>Displays requests you submitted regardless of their status. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">我的待處理請求</td> 
-      <td> <p>顯示請求 
+      <td role="rowheader">My Open Requests</td> 
+      <td> <p>Displays requests 
       <ul>
-      <li>您已提交但尚未完成的專案。 </li> 
-      <li>沒有實際完成日期或其解析物件沒有實際完成日期則會列在「我的未結請求」子頁標中。  </li> 
+      <li>That you submitted and are still open. </li> 
+      <li>Without an Actual Completion Date or whose resolving object does not have an Actual Completion Date are listed in the My Open Requests subtab.  </li> 
       </ul>
-      <p><b>注意</b> 
-      未處於已關閉狀態的請求會視為未完成。</p> </td> 
+      <p><b>NOTE</b> 
+      Requests that are not in a status that equates with Closed are considered open.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-<div class="preview">
 
-在預覽環境中：
 
-我的請求Widget具備可自訂的篩選器，可讓您控制哪些請求會出現在Widget中。 您可以為不同的欄位和值設定此篩選器，也可以使用AND和OR棧疊條件。
-
-如需在「我的請求」Widget中設定篩選器的指示，請參閱「使用我的請求」Widget一文中的[篩選請求](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md#filter-requests)。
-
-</div>
+In the Preview environment:
+-->
 
 ## 我的工作
 

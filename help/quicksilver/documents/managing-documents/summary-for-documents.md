@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 322583384e4397bf02d534c14db46020e409aa35
+source-git-commit: 5fe8f3a46e3582a359b8d4641a7062b0590ea0b8
 workflow-type: tm+mt
 source-wordcount: 725
 ht-degree: 5%
@@ -29,8 +29,6 @@ ht-degree: 5%
 ---
 
 # 檔案摘要概覽
-
-{{highlighted-preview}}
 
 <!--Audited: April, 2024-->
 
@@ -147,7 +145,7 @@ ht-degree: 5%
 
 ### 詳細資料
 
-使用[詳細資料]區段來檢視高階概觀資訊、與自訂表格互動，以及<span class="preview">開啟列印摘要</span>。
+使用詳細資訊區段來檢視高階概觀資訊、與自訂表格互動以及開啟列印摘要。
 
 ![新檔案中的檔案摘要詳細資訊](assets/summary-details.png)
 

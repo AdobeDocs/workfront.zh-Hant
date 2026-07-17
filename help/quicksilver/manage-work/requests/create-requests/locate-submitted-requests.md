@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6aec8f2f3dd6dd653361058712b9e7a251ec6a69
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1591
+source-wordcount: 1528
 ht-degree: 2%
 
 ---
@@ -33,11 +33,13 @@ ht-degree: 2%
 Remove production and preview references at release
 -->
 
+<!--
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
+-->
 
 您可以檢視您或其他人提交的請求，或檢視您已開始但從未完成提交的請求。 未完成的請求會儲存為草稿。
 
@@ -113,7 +115,8 @@ Remove production and preview references at release
 
 >[!NOTE]
 >
->* 如果您有Workfront Planning，您的Workfront和Planning請求會出現在相同的清單中。Planning要求的&#x200B;**物件型別**&#x200B;的命名方式如下： `< Name of workspace > > < Name of record type >`。 例如，Planning要求的Object型別可能命名為`Marketing workspace > Campaigns`。\
+>* 如果您有Workfront Planning，您的Workfront和Planning請求會出現在相同的清單中。
+>     Planning要求的&#x200B;**物件型別**&#x200B;的命名方式如下： `< Name of workspace > > < Name of record type >`。 例如，Planning要求的Object型別可能命名為`Marketing workspace > Campaigns`。\
 >     Workfront要求的&#x200B;**物件型別**&#x200B;是`Issue`。
 >* 依預設，在請求區域的清單中會顯示最多50個請求。 若要檢視更多請求，請捲動至清單底部。
 
@@ -157,7 +160,7 @@ Remove production and preview references at release
 
    新的請求體驗中有以下狀態：
 
-   * <span class="preview">**新增**：要求是新的，而且沒有人已開始處理。</span>
+   * **新增**：要求是新的，而且沒有人已開始處理。
    * **草稿**：此要求尚未提交。 此狀態為硬式編碼。
    * **擱置檢閱**： （僅限Planning）此要求有核准者，而且沒有核准者開啟該要求。 此狀態為硬式編碼。
    * **稽核中**： （僅限Planning）此要求有核准者，且至少有一個核准者已開啟要求，但尚未做出任何決定。 此狀態為硬式編碼。
@@ -166,7 +169,7 @@ Remove production and preview references at release
       * Workfront請求：請求已轉換，工作正在進行。
       * Workfront計畫請求：請求完成會對應至特定的「計畫」欄位，而該欄位值尚未與完成值相符。
    * **保留**：這可用於Workfront要求。 使用者可手動設定。
-   * <span class="preview">**完成**：已建立完成請求的Planning記錄。 （僅限Planning）</span>
+   * **完成**：已建立完成請求的Planning記錄。 （僅限Planning）
    <!--
    This is not live yet; might be live for the unified intake process: 
    * <span class="preview">**Canceled**: This is for Workfront requests.</span> 

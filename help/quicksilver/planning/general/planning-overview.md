@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ee260723331ddff4e8d89f7d9ca2b807835d6130
+source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
 workflow-type: tm+mt
 source-wordcount: 2559
 ht-degree: 2%
@@ -36,7 +36,9 @@ ht-degree: 2%
 # 開始使用Adobe Workfront Planning
 
 <!--
+
 this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page
+
 -->
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->

@@ -20,19 +20,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 733
+source-wordcount: 673
 ht-degree: 1%
 
 ---
 
 # 刪除欄位
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -190,14 +191,10 @@ Old:
 
    <!--insert screen shot when finalized-->
 
-1. <span class="preview">（條件式）如果您要刪除的欄位是要求表單的一部分，則會顯示&#x200B;**刪除欄位**&#x200B;方塊以指出將受到您變更影響的表單。 執行下列任一項作業：</span>
-
-   <div class="preview">
+1. （視條件而定）如果您要刪除的欄位是請求表單的一部分，則會顯示&#x200B;**刪除欄位**&#x200B;方塊以指出將受到您變更影響的表單。 執行下列其中一項：
 
    * 按一下向右箭頭以顯示受變更影響的表單，然後按一下表單名稱，在新標籤中開啟表單並決定您是要保留表單上的欄位還是對表單進行其他變更。
    * 按一下&#x200B;**刪除**，欄位就會從所有顯示的區域刪除。
-
-   </div>
 
    已刪除的欄位無法復原。
 
