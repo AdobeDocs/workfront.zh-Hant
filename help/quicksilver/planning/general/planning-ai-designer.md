@@ -9,21 +9,15 @@ exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/YZRzcl8ymUo85jplCgKOx-qI83Gqa4CUI6saxfijtec
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 184cff4f2ebf8a1343d784936f10c902e350c134
 workflow-type: tm+mt
-source-wordcount: 1469
-ht-degree: 0%
+source-wordcount: 1386
+ht-degree: 1%
 
 ---
 
@@ -73,7 +67,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
    <td><p>標準</p> 
-   <p><span class="preview">系統管理員為您的組織啟用Planning Designer</span></p>
+   <p>系統管理員必須為您的組織啟用Planning Designer</p>
   </td> 
   </tr> 
   <tr> 
@@ -96,9 +90,10 @@ ht-degree: 0%
 1. 以Workfront管理員身分登入Workfront。
 1. 按一下&#x200B;**主功能表** ![主功能表圖示](assets/main-menu-shell.png)，然後按一下&#x200B;**設定**。
 1. 移至&#x200B;**系統** > **偏好設定** > **AI偏好設定**。
-1. 開啟&#x200B;**啟用AI**&#x200B;並確保您已與Adobe簽署了Gen AI合約。
-1. 開啟&#x200B;**規劃Designer**&#x200B;設定。
-
+1. 開啟&#x200B;**啟用AI**<!--and ensure you have a signed Gen AI Agreement with Adobe-->。
+   <!--1. Turn on the **Opt in to AI Beta** setting.-->
+1. 開啟&#x200B;**規劃Designer**設定。
+   <!-- add new screenshot-->
    系統偏好設定中的![規劃Designer設定](assets/planning-designer-toggle-in-system-preferences.png)
 
 1. 按一下「**儲存**」。
@@ -155,25 +150,35 @@ After we receive the email, our Engineering team will turn on the Planning Desig
 
 ## Planning Designer的相關考量事項
 
-* 若要使用Planning Designer，您必須先為組織啟用AI。 您必須備妥下列專案，組織中的所有人才能使用AI功能：
+* 在存取Planning Designer之前，您不需要啟用AI合約。
 
-   * Workfront必須將AI功能提供給您的組織使用。
+<!--* You must sign the Beta agreement to access the Planning Designer.-->
 
-     如需詳細資訊，請參閱[&#x200B; AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
-   * 在Workfront讓人工智慧功能可供您的組織使用後，Workfront的主要管理員就可以存取它。
+<!--
+Sargis and Ashot  said these are not required: 
 
-     如需詳細資訊，請參閱[設定您系統的基本資訊](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md)。
-   * Workfront管理員必須接受Gen AI合約，然後為您的組織開啟AI和Planning Designer 。
+* To use the Planning Designer, you first need to enable AI for your organization. The following must be in place for the AI features to be available to everyone in your organization:
 
-     如需詳細資訊，請參閱[啟用或停用AI助理](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)。
-* 系統管理員為您的組織開啟AI和Planning Designer後，依預設所有使用者都可使用Planning Designer 。
-* 當您在Planning區域使用Planning Designer時，AI助理也可以執行由Planning助理執行的動作。
+    * Workfront must make the AI features available for your organization.
+
+        For details, see [Prerequisites to AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
+    * After Workfront makes the AI features available for your organization, the main Workfront administrator can access it. 
+
+        For information, see [Configure basic information for your system](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md). 
+    * The Workfront administrator must accept the Gen AI agreement, and then turn on AI and the Planning Designer for your organization. 
+
+        For more information, see [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md). 
+
+-->
+
+* 您的Workfront管理員必須為貴組織開啟Planning Designer 。 此後，依預設，所有使用者都可使用Planning Designer。
+* 如果貴組織已簽署AI協定，則當您在「計畫」區域使用「AI助理」時，「計畫Designer」所執行的動作也可由「AI助理」執行。
 * AI助理在「計畫」區域中執行的動作或Planning Designer執行的動作會與Workfront Planning許可權和Workfront存取層級相關。
 
   如需詳細資訊，請參閱下列文章：
 
-   * [在Adobe Workfront Planning中共用許可權的概觀](/help/quicksilver/planning/access/sharing-permissions-overview.md)
-   * [使用Adobe Workfront Planning時的授權型別概觀](/help/quicksilver/planning/access/license-type-overview.md)
+  * [在Adobe Workfront Planning中共用許可權的概觀](/help/quicksilver/planning/access/sharing-permissions-overview.md)
+  * [使用Adobe Workfront Planning時的授權型別概觀](/help/quicksilver/planning/access/license-type-overview.md)
 
 * AI助理或Planning Designer代表使用者所做的變更會在紀錄的紀錄面板中進行追蹤。
 
