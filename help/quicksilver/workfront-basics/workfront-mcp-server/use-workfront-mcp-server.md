@@ -5,9 +5,9 @@ title: 使用Adobe Workfront MCP伺服器
 description: 使用Adobe Workfront MCP伺服器，透過AI代理平台中的自然語言對話來搜尋、建立、更新和管理Workfront專案。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: e009d9d52ddb478759c11a20967d48049f797d97
+source-git-commit: 836431c7840647b8f412f848fe22d3e64cc42e44
 workflow-type: tm+mt
-source-wordcount: '1875'
+source-wordcount: '1775'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,6 @@ ht-degree: 0%
 # 使用Adobe Workfront MCP伺服器
 
 [!DNL Adobe Workfront] MCP伺服器可讓您透過詢問自然語言的AI代理平台，來尋找、建立、更新和管理Workfront專案。 平台會決定要呼叫哪些Workfront動作，並替您處理與Workfront的對話。
-
->[!IMPORTANT]
->
->目前，Workfront MCP伺服器僅供使用AWS的客戶使用。
 
 ## 先決條件
 
@@ -208,7 +204,7 @@ Workfront設定區域。 如果寫入動作停用，AI代理平台
 
 ### AI代理平台會在變更或刪除Workfront資料之前詢問我嗎？
 
-這取決於AI代理平台，而不是Workfront。 大部分平台
+這取決於AI代理平台，而不是Workfront。大部分平台
 在執行動作前提示您確認，尤其是刪除動作。
 核准請求前，請先詳閱平台說明即將進行的作業 — 
 變更會在Workfront中發生，就像您進行變更時一樣
@@ -244,7 +240,7 @@ AI代理平台會根據您使用的字詞挑選專案。 若您的
 
 Workfront不會儲存您的提示或AI代理平台的回應。
 提供您的AI代理平台的人可控制您的對話方式
-會儲存或共用。 請洽詢您的AI代理平台提供者，以瞭解
+會儲存或共用。請洽詢您的AI代理平台提供者，以瞭解
 詳細資料。
 
 ### 我是否需要知道Workfront API或要使用哪種MCP工具？
