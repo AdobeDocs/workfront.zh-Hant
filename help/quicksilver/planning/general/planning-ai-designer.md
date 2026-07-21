@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a8e45498cd25caf846015dc5e695a6018727528f
+source-git-commit: e8216d44973c43f14ef615a6f8c4eb1cb05bd935
 workflow-type: tm+mt
-source-wordcount: 1434
+source-wordcount: 1496
 ht-degree: 1%
 
 ---
@@ -107,10 +107,16 @@ ht-degree: 1%
    >
    >在Beta版中使用Planning Designer時，不需要接受AI合約。
 
-1. 開啟&#x200B;**選擇加入AI Beta**&#x200B;設定。
-1. 開啟&#x200B;**規劃Designer**&#x200B;設定。
+1. 開啟&#x200B;**選擇加入AI Betas**&#x200B;設定（如果未啟用）。
+1. 開啟&#x200B;**計畫Designer**&#x200B;設定（如果未啟用）。
 
-   系統偏好設定中的![規劃Designer設定](assets/ai-preferences-with-planning-designer-beta.png)
+   ![系統偏好設定中的規劃Designer設定](assets/ai-preferences-with-planning-designer-unaccepted-agreement.png)。
+
+   >[!TIP]
+   >
+   >預設會開啟&#x200B;**選擇加入AI Betas**&#x200B;和&#x200B;**Planning Designer**&#x200B;選項，但您必須接受Beta合約，才能使用Planning Designer。
+
+1. （條件式與強制式）如果您尚未接受Beta合約，請按一下&#x200B;**檢閱Beta合約**&#x200B;並閱讀合約，然後按一下&#x200B;**接受**。
 
 1. 按一下「**儲存**」。
 
