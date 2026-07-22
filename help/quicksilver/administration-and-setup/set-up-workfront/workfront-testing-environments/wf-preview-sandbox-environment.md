@@ -10,18 +10,13 @@ feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
 TQID: https://experienceleague.adobe.com/IqwSI0BtN-tIZkT-TVZaR2nS5ZAZH7-8uGHuyygnHK4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5c9b42ffc6dd0cd93020ce476828fb61db3dc1dd
 workflow-type: tm+mt
-source-wordcount: 1372
+source-wordcount: 1365
 ht-degree: 0%
 
 ---
@@ -49,8 +44,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th> <p> </p> </th> 
-   <th> <p><strong>[!UICONTROL Standard]支援套件</strong> </p> </th> 
-   <th> <p><strong>[!UICONTROL Plus]、[!UICONTROL Preferred]和[!UICONTROL Enterprise]支援套件</strong> </p> </th> 
+   <th> <p><strong>[！UICONTROL Standard]支援套件</strong> </p> </th> 
+   <th> <p><strong>[！UICONTROL Plus]、[！UICONTROL Preferred]和[！UICONTROL Enterprise]支援套件</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -203,7 +198,5 @@ Workfront會停用來自預覽Sandbox環境的所有電子郵件通訊。 如果
 * [!DNL Workfront]預覽環境在正常工作時間內發生的任何中斷都將成為解決任何生產問題（如果存在）後的第一優先專案。
 
 * [!DNL Workfront]預覽環境在週末（星期六和星期日）發生的任何中斷都會得到解決，因此環境會在星期一的營業時間執行。
-
-* 預覽環境中沒有校訂可用。
 
 * 預覽環境中無法使用Frame.io檢視器。 Adobe雲端儲存空間可供使用，因此您可以在沙箱中進行測試，但完整統一檢閱和核准體驗必須在生產環境中驗證。 如需詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
