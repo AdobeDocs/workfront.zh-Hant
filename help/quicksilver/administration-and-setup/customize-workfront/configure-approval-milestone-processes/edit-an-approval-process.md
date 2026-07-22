@@ -11,20 +11,14 @@ exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Zfi1GowI6IVjCJaTHqxSoy25iq8GcUVGbA-a8RQlv7w
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8e9dbe4c91058d104f494ab012ae54e04abf8cee
 workflow-type: tm+mt
-source-wordcount: 1984
+source-wordcount: 1950
 ht-degree: 3%
 
 ---
@@ -42,12 +36,20 @@ ht-degree: 3%
 >[!NOTE]
 >
 >* 當您編輯已使用的全域核准流程時，您的變更會影響整個系統中已與其相關聯的所有物件。
->* 如果您將新核准者新增至物件上已啟動的核准程式上的目前階段，則該物件的程式會重設，且核准者必須重新開始。
 >
->  不過，如果您在物件上已啟動的核准程式中執行下列變更，該程式會繼續執行，而不會中斷：
+>
+>不過，如果您在物件上已啟動的核准程式中執行下列變更，該程式會繼續執行，而不會中斷：
 >
 >* 新增目前階段以外的階段
 >* 在目前階段之前新增其他核准者
+
+<!--
+
+Note from Lisa: This was the second bullet in the note box above, below the bullet starting "When you edit a global approval process..." If you comment out bullet points in a note box, weird stuff happens. So I copied it below just in case.
+
+* If you add a new approver to the current stage on an approval process that has already started on an object, the process for that object resets and the approvers have to start over.
+
+-->
 
 ## 存取權要求
 
