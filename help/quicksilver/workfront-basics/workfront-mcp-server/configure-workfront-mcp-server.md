@@ -5,9 +5,9 @@ title: 設定Adobe Workfront MCP伺服器
 description: 設定您的Workfront執行個體和AI代理平台，讓您透過自然語言對話來使用Workfront。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 836431c7840647b8f412f848fe22d3e64cc42e44
+source-git-commit: 881ec05a1b41b65339b3e90aef05762118093bdc
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1746'
 ht-degree: 0%
 
 ---
@@ -124,18 +124,45 @@ MCP伺服器存取許可權由兩個不同的管理員所控制。
 
 ## 連線到ChatGPT
 
-1. 使用您的認證登入[ChatGPT](https://chatgpt.com)。
-1. 在左下方，選取&#x200B;**您的名稱** → **設定**。
-1. 選取&#x200B;**應用程式**，然後啟用&#x200B;**開發人員模式**。
-1. 選取&#x200B;**建立應用程式**&#x200B;按鈕。
-1. 為應用程式指定所需的名稱（例如「Workfront」），然後輸入MCP伺服器URL：
+將Workfront MCP伺服器與ChatGPT連線的程式因您在網頁上使用ChatGPT Desktop、Codex或ChatGPT而有所不同。
+
+### 連線到ChatGPT Desktop或ChatGPT Codex
+
+1. 在ChatGPT中，開啟&#x200B;**設定**。
+1. 按一下左側導覽中的&#x200B;**外掛程式**。
+1. 按一下視窗右上角附近的&#x200B;**新增伺服器**。
+1. 輸入伺服器的名稱。
+1. 針對型別，選取&#x200B;**可串流的HTTP**。
+1. 設定MCP伺服器URL：
 
    ```
    https://mcp.workfront.adobe.com/mcp/v1/workfront
    ```
 
-1. 確定驗證已設定為&#x200B;**OAuth** （預設為設定），並選取接受核取方塊以繼續。
-1. 建立應用程式後，系統會隨即顯示登入視窗。 使用您的Adobe ID憑證進行驗證。 如果您屬於多個Workfront執行個體，請務必選取所需執行個體。
+1. 按一下「**儲存**」。
+1. 在顯示的清單中，針對您正在新增的MCP伺服器，按一下&#x200B;**驗證**。
+1. 登入Workfront。
+1. 在ChatGPT的MCP伺服器清單中，確定新MCP伺服器右側的切換仍保持切換狀態。
+
+
+### 在網頁上連線到ChatGPT
+
+1. 使用您的認證登入[ChatGPT](https://chatgpt.com)。
+1. 在左下方，選取您的名稱，然後選取&#x200B;**設定**。
+1. 在左側導覽中，選取&#x200B;**安全性與登入**。
+1. 前往ChatGPT外掛程式頁面，網址為https://chatgpt.com/plugins。
+1. 按一下「外掛程式」頁面右上角附近的加號圖示。
+1. 在&#x200B;**名稱**&#x200B;欄位中，輸入MCP伺服器的名稱。
+1. 在&#x200B;**連線**&#x200B;欄位中，選取&#x200B;**伺服器URL**&#x200B;並輸入MCP伺服器URL：
+
+   ```
+   https://mcp.workfront.adobe.com/mcp/v1/workfront
+   ```
+
+1. 確定驗證已設定為&#x200B;**OAuth** （預設為設定）。
+1. 閱讀風險訊息，並勾選方塊以顯示您已閱讀該訊息。
+1. 按一下「**建立**」。
+1. 建立應用程式後，Workfront登入視窗會隨即顯示。 使用您的Adobe ID憑證進行驗證。 如果您屬於多個Workfront執行個體，請務必選取所需執行個體。
 
 
 ### 使用自訂GPT自訂ChatGPT行為
@@ -149,7 +176,7 @@ ChatGPT支援使用者建立的助理，稱為自訂GPT。 您可以使用自訂
 若要建置Workfront MCP可連線的自訂Copilot代理程式，請使用Copilot Studio。
 
 1. 在Copilot Studio中，按一下&#x200B;**建立空白代理程式**。
-1. 為代理程式命名，然後按一下[建立]。**&#x200B;**
+1. 為代理程式命名，然後按一下[建立]。****
 代理程式的視窗會開啟。
 
 1. 在&#x200B;**指示**&#x200B;欄位中，說明您希望代理程式執行的動作。 包含您的流程以及如何使用Workfront等資訊。 建議您提供大量詳細資訊。
@@ -167,7 +194,7 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront`
 
    應用程式已註冊。
 
-1. 應用程式註冊後，在顯示的面板中，按一下[未連線] **，然後按一下[建立新連線]**，再按一下[建立] **&#x200B;**。**&#x200B;**
+1. 應用程式註冊後，在顯示的面板中，按一下[未連線] **，然後按一下[建立新連線]**，再按一下[建立] ****。****
 1. 在出現的登入面板中，登入Workfront，然後在顯示您要使用哪個Workfront執行個體時選取&#x200B;**繼續**。
 1. 在顯示伺服器的面板中，按一下[新增]並設定&#x200B;**。**
 
