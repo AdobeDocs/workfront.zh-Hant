@@ -21,9 +21,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: d0b0499c10d0e7b032eeceb0d200b4594414e475
 workflow-type: tm+mt
-source-wordcount: 1808
+source-wordcount: 1857
 ht-degree: 3%
 
 ---
@@ -159,6 +159,10 @@ IF(
 >[!ENDSHADEBOX]
 
 如需自訂本地化的詳細資訊，請參閱[設定自訂本地化](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)。
+
+>[!NOTE]
+>
+>商業規則會在主要程式完成後執行。 換言之，商業規則的用意是防止尚未由主要程式處理的動作。 它們不會覆寫或取代主要執行期間擲回的例外狀況，而是會在程式的最後執行。
 
 ## 商業規則自動化的案例
 
@@ -307,3 +311,4 @@ IF({status} = "APR", true)
 1. 在規則清單中選取商業規則，然後按一下「編輯」圖示。
 1. 在商業規則對話方塊中，選取&#x200B;**Is Active**&#x200B;的&#x200B;**是**。
 1. 按一下「**儲存**」。
+
