@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: cfc4bcf9d3956a50839a6da26fc98a645782bdc1
 workflow-type: tm+mt
-source-wordcount: 4300
+source-wordcount: 4223
 ht-degree: 2%
 
 ---
@@ -154,14 +154,14 @@ Old:
 
   建立時間表檢視時，您可以從下列日期欄位中選取：
 
-   * 記錄日期
-   * 記錄系統產生的欄位：建立日期、上次修改日期
-   * 來自已連線的記錄或物件型別的查詢日期（只有在您連線記錄或物件型別時為其新增彙總器時）
+  * 記錄日期
+  * 記錄系統產生的欄位：建立日期、上次修改日期
+  * 來自已連線的記錄或物件型別的查詢日期（只有在您連線記錄或物件型別時為其新增彙總器時）
 * 根據與記錄關聯的日期，在下列情況下，某些記錄可能不會顯示在時間軸檢視中：
 
-   * 當開始和結束日期沒有值時
-   * 當「開始」或「結束」日期沒有值時
-   * 當開始日期在結束日期之後時
+  * 當開始和結束日期沒有值時
+  * 當「開始」或「結束」日期沒有值時
+  * 當開始日期在結束日期之後時
 
 若要管理時間表檢視：
 
@@ -214,9 +214,9 @@ Old:
    * 按一下右上角的&#x200B;**今日**，將時間軸置中到今天的日期。
    * 從時間範圍下拉式選單中選取下列其中一個選項，以更新時間增量並更新檢視：
 
-      * **年**：顯示有年指標的季和月。
-      * **季**：顯示有季指示的月和周。
-      * **月**：顯示周和日。
+     * **年**：顯示有年指標的季和月。
+     * **季**：顯示有季指示的月和周。
+     * **月**：顯示周和日。
 
      >[!TIP]
      >
@@ -379,11 +379,11 @@ Old:
 
    * **AND**：必須符合所有指定的條件。
    * **OR**：必須符合任何指定的條件。
-這是預設選項。
+     這是預設選項。
 
 1. （選擇性）新增其他篩選器群組，並由&#x200B;**AND**&#x200B;或&#x200B;**OR**&#x200B;運運算元加入。
 
-   系統會根據您的篩選條件自動篩選記錄清單。  <!--at this time, you can't name and save the filter - but will this change?!-->
+   系統會根據您的篩選條件自動篩選記錄清單。 <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. （選擇性）按一下&#x200B;**x**&#x200B;圖示以移除篩選條件。
@@ -406,8 +406,8 @@ Old:
 在時間軸檢視中使用群組時，請考量下列事項：
 
 * 您可以在表格和時間軸檢視中套用群組。 表格檢視的分組與相同記錄型別之時間軸檢視中的群組是獨立的。
-* 您可以在檢視中套用3個群組層級。 記錄會依照您選取的群組順序進行分組。
-&lt;！—！—*使用API時，您最多可以套用4個層級的群組。  — 現在正在檢查此專案 — >
+* 您可以在檢視中套用3個群組層級。記錄會依照您選取的群組順序進行分組。
+&lt;！—*使用API時，您最多可以套用4個層級群組。 — 現在正在檢查此層級 — >
 * 群組對於您選取的檢視而言是唯一的。 相同記錄型別的兩個表格檢視可以套用不同的群組。 檢視相同表格檢視的兩個使用者會看到目前套用的相同分組。
 * 您無法為表格檢視建立的分組命名。
 * 移除群組會將群組從存取與您相同記錄型別以及顯示與您相同檢視的任何人中移除。
@@ -553,8 +553,16 @@ this is not possible right now; if this is the same functionality as the table v
      >
      >    * 您只能將顏色與具有顏色編碼選項的欄位比對。 例如，您可以將顏色與「狀態」欄位配對，或與顏色關聯的選項欄位。
      >    
-     >    * 您無法從連結的記錄或物件型別中尋找符合顏色的欄位。
+     >    * 您無法將顏色與連線的記錄及其查閱欄位進行比對。
 
+     <!--
+        For July 23: replace the note above with this note for the July 23 release:
+        >[!NOTE]
+        >
+        >* You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
+        >    
+        >* In the Production environment, you cannot match the color to connected records or their lookup fields. <span class="preview">In the Preview environment, you can match the color to connected records, but not to their lookup fields. </span>     
+        -->
 
    例如，多選或單選欄位可以有顏色編碼的選項。
 
@@ -570,6 +578,10 @@ this is not possible right now; if this is the same functionality as the table v
    * **欄位值**：記錄的顏色符合您指定的欄位顏色。 繼續步驟10。<!--ensure this stays accurate-->
    * **群組**：記錄的顏色符合您為群組指定的顏色。 當您未將群組套用到時間軸檢視時，此選項會變暗。
    * **無**：記錄以白色列顯示。
+
+   <!--
+    For July 23: add to the "None" bullet above this sentence: <span class="preview">The None option has been removed from the Preview environment.</span>
+    -->
 
 1. （視條件而定）如果您為記錄顏色選取&#x200B;**欄位值**，請從&#x200B;**將記錄顏色與**&#x200B;下拉式功能表中選取欄位。
 
@@ -598,11 +610,11 @@ this is not possible right now; if this is the same functionality as the table v
 * 您可以在時間軸檢視中選取的記錄型別記錄下顯示連線的記錄或物件。
 * 只有在以「標準」模式檢視記錄時，才可以在時間軸檢視中顯示連線的記錄。 您無法在時間軸檢視的「精簡」模式中使用「劃分」選項。
 * 您可以使用「劃分」功能，在時間軸檢視中顯示下列專案：
-   * Workfront Planning記錄已連線至選取的記錄型別。
-   * 連線到所選記錄型別的Workfront或Experience Manager物件型別。
-   * Workfront Planning記錄或其他應用程式的物件，這些應用程式已連線到與所選記錄型別連線的記錄。
+  * Workfront Planning記錄已連線至選取的記錄型別。
+  * 連線到所選記錄型別的Workfront或Experience Manager物件型別。
+  * Workfront Planning記錄或其他應用程式的物件，這些應用程式已連線到與所選記錄型別連線的記錄。
 
-     例如，您可以將行銷活動連結至產品組合。 此外，您可以連線其他記錄型別、產品、專案以及行銷活動。 建立行銷活動時間表檢視時，您可以依產品組合、產品和專案劃分行銷活動。
+    例如，您可以將行銷活動連結至產品組合。 此外，您可以連線其他記錄型別、產品、專案以及行銷活動。 建立行銷活動時間表檢視時，您可以依產品組合、產品和專案劃分行銷活動。
 
 * 您無法顯示僅連線到Workfront中的Workfront物件，但未連線到Workfront Planning記錄型別的物件型別。 您只能顯示在Workfront Planning中連線的物件或記錄型別。
 

@@ -17,9 +17,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: edee967a5c19d86fd471c4571a0b458f72bf370e
 workflow-type: tm+mt
-source-wordcount: 921
+source-wordcount: 2201
 ht-degree: 0%
 
 ---
@@ -84,13 +84,13 @@ WHERE ExpandedProjectName is not null
 
 * `<data_type>`會將從JSON物件傳回的值轉換為適合欄位的資料型別。 為傳回的值選擇不相容的資料型別會導致資料型別不符錯誤。 可能的資料型別包括：
 
-   * `text`
-   * `varchar`
-   * `int`
-   * `float`
-   * `number(len,precision)` （例如，`Number(32,4)`會傳回1234.0987）
-   * `date`
-   * `timestamp`
+  * `text`
+  * `varchar`
+  * `int`
+  * `float`
+  * `number(len,precision)` （例如，`Number(32,4)`會傳回1234.0987）
+  * `date`
+  * `timestamp`
 
 * `<column_name>`是您為每個自訂資料行建立的標籤。
 
@@ -195,6 +195,207 @@ FROM
 >若為projects_event： 
 >`From projects_event p`>`Join <above query> c on c.projectid = p.projectid  `>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
 
+## Planning：單一記錄型別查詢
+
+此範例示範如何查詢Workfront Planning資料，以取得儲存在Data Connect資料湖中的單一記錄型別。
+
+### 情境
+
+您的組織使用Workfront Planning來追蹤行銷活動。 每個行銷活動記錄包含名稱、狀態、開始日期、結束日期和擁有者。 您想要提取所有作用中行銷活動的清單及其重要詳細資訊，以用於控制面板。
+
+* Planning記錄型別資料儲存在PLANNINGRECORD_CURRENT檢視中。
+* 每一列代表單一記錄，而所有欄位值都儲存在名為FIELD_VALUES的JSON欄中。
+* 記錄型別由RECORDTYPEID欄識別。
+* 記錄的工作區由WORKSPACEID欄（或人類可讀篩選器的WORKSPACENAME欄）識別。
+
+### 查詢
+
+```sql
+SELECT
+  recordid,
+  FIELD_VALUES:"Name"::text AS campaign_name,
+  FIELD_VALUES:"Status"::text AS campaign_status,
+  FIELD_VALUES:"Start Date"::date AS start_date,
+  FIELD_VALUES:"End Date"::date AS end_date,
+  FIELD_VALUES:"Owner"::text AS owner
+FROM PLANNINGRECORD_CURRENT
+WHERE WORKSPACEID = '<your_campaign_workspace_id>'
+AND RECORDTYPEID = '<your_campaign_record_type_id>'
+AND FIELD_VALUES:"Status"::text = 'Active'
+ORDER BY start_date ASC
+```
+
+### 回應
+
+上述查詢會傳回下列資料：
+
+* **recordid**：行銷活動的唯一Planning記錄ID。
+* **campaign_name**：從FIELD_VALUES JSON物件擷取的促銷活動名稱。
+* **campaign_status**：行銷活動的目前狀態。
+* **start_date**：行銷活動的開始日期，已轉換為日期資料型別。
+* **end_date**：行銷活動的結束日期，已轉換為日期資料型別。
+* **所有者**：指派為行銷活動擁有者的使用者或團隊名稱。
+
+### 解釋
+
+Data Connect中的Planning記錄共用單一表格結構，無論記錄型別為何。 RECORDTYPEID欄用於將查詢的範圍設定為特定的記錄型別 — 在此例中為「促銷活動」。 將`<your_campaign_record_type_id>`取代為您要查詢的記錄型別ID，可在Workfront Planning記錄型別設定中或透過查詢RECORDTYPE_CURRENT找到。
+
+欄位值會儲存為FIELD_VALUES欄中的JSON物件，並使用用於自訂表單資料的相同冒號標籤語法來存取：
+
+```
+<field_column>:"<field_name>"::<data_type> AS <alias>
+```
+
+欄位名稱參照必須與Planning記錄型別欄位組態中定義的欄位名稱完全相符，包括大寫、間距和表情符號。
+
+>[!NOTE]
+>
+>在Workfront Planning中檢視記錄型別時，可在URL中找到Planning記錄型別ID。 它是以「Rt...」開頭的URL路徑。 在Data Connect中，也可以使用下列SQL呼叫找到記錄型別：
+>
+>
+>```sql
+>SELECT
+>ID AS recordtypeid,
+>DISPLAYNAME AS record_type_name,
+>WORKSPACEID
+>FROM RECORDTYPE_CURRENT
+>ORDER BY record_type_name ASC
+>```
+
+## Planning：連線記錄型別查詢
+
+此範例示範如何跨兩個連線的Planning記錄型別（父記錄型別及其連線的記錄型別）查詢資料。
+
+### 情境
+
+您的組織會將Campaign記錄連結至Workfront Planning中的策略記錄。 您想要產生一份報告，顯示每個行銷活動及其相關策略的重要詳細資訊。 他們特別想要顯示策略名稱、策略優先順序和預算分配，以便領導可以檢閱依策略組織的行銷活動活動。
+
+在「資料連線」中，原生Planning記錄型別之間的連線會直接儲存在PLANNINGRECORD_CURRENT的FIELD_VALUES_RAW資料欄。 對於名為「戰術」的參考欄位，值是連線記錄物件的JSON陣列，每個物件都包含具有連線記錄的RECORDID的id屬性。 使用Snowflake的LATERAL FLATTEN將此陣列展開為列，並聯結至連線的記錄型別。
+
+### 查詢
+
+```sql
+SELECT
+  c.RECORDID AS campaign_id,
+  c.FIELD_VALUES:"Name"::text AS campaign_name,
+  c.FIELD_VALUES:"Status"::text AS campaign_status,
+  t.FIELD_VALUES:"Name"::text AS tactic_name,
+  t.FIELD_VALUES:"Strategic Priority"::text AS strategic_priority,
+  t.FIELD_VALUES:"Budget Allocation"::float AS budget_allocation
+FROM PLANNINGRECORD_CURRENT c,
+INNER JOIN REFERENCE_CURRENT R 
+ON r.FROM_REFERENCEID = c.REFERENCE_IDS:"Tactics"::text
+INNER JOIN PLANNINGRECORD_CURRENT t
+-- Join to the Tactic record using the connected record ID from the array
+ON t.RECORDID = r.TO_RECORDID
+WHERE c.RECORDTYPEID = '<your_campaign_record_type_id>'
+ORDER BY tactic_name, campaign_name
+```
+
+### 回應
+
+上述查詢會傳回下列資料：
+
+* **campaign_id**：行銷活動的唯一Planning記錄ID。
+* **campaign_name**：行銷活動紀錄的名稱。
+* **campaign_status**：行銷活動的目前狀態。
+* **tactics_name**：連線的Tactics記錄的名稱。
+* **strategic_priority**：來自連線策略記錄的Strategic Priority欄位值。
+* **budget_allocation**：來自連線策略記錄的「預算分配」欄位值，已轉型為浮點數。
+
+### 說明 — 修改的KP
+
+原生Planning記錄型別之間的連線儲存在REFERENCE_CURRENT聯結表格中。  REFERENCE_CURRENT聯結表格用於RecordType之間的聯結。   在RecordType之間連線時，應該使用TO_RECORDID欄位。
+
+PLANNINGRECORD檢視表中的REFERENCE_ID欄位包含適用於該計畫記錄的所有REFERENCEID欄位清單。 您可以使用與field_value相同的JSON標籤法來存取ID。
+
+```
+<reference_ids>:"<reference_name>"::text
+```
+
+REFERENCE_CURRENT檢視包含一或多個記錄，其中TO_RECORDID指向PLANNINGRECORD_*檢視中的其他計畫`recordId`欄位。
+
+若要將另一個REFERENCE欄位聯結至其他計畫記錄，則上述查詢中會加入相同的聯結至REFERENCE_CURRENT與PLANNINGRECORD_*的模式。
+
+
+## Planning：聯結至Workfront工作流程資料查詢的記錄型別
+
+此範例示範如何使用Planning的原生連線功能（其將外部物件參考儲存在REFERENCE_CURRENT檢視中），將Workfront Planning記錄型別聯結至原生Workfront Workflow物件（在此例中為Project）。
+
+### 情境
+
+貴組織使用Planning的原生連線功能，將Workfront Planning中的Campaign記錄連線至Workfront專案。 您想要產生一份合併報告，顯示行銷活動詳細資訊以及連結專案的即時執行資料（特別是專案的目前完成百分比、計畫完成日期和指派的專案所有者），以便行銷活動經理可以追蹤傳遞進度，而不離開其Planning工作區內容。
+
+### 查詢
+
+```sql
+SELECT
+  c.RECORDID AS campaign_id,
+  c.FIELD_VALUES:"Name"::text AS campaign_name,
+  c.FIELD_VALUES:"Status"::text AS campaign_status,
+  conn.TO_EXTERNALID AS linked_project_id,
+  p.name AS project_name,
+  p.percentcomplete AS project_percent_complete,
+  p.plannedcompletiondate AS project_planned_completion,
+  p.ownerid AS project_owner_id,
+  u.name AS project_owner_name
+FROM WORKFRONT.PLANNING.PLANNINGRECORD_CURRENT c
+-- Join to the references table to find Workfront Project connections
+INNER JOIN WORKFRONT.PLANNING.REFERENCE_CURRENT conn
+ON conn.REFERENCE_ID = c.REFERENCE_IDS:"ProjectId"::text
+-- Join to the Workfront Projects table on the external ID
+INNER JOIN WORKFRONT.WF.PROJECTS_CURRENT p
+ON p.projectid = conn.TO_EXTERNALID
+-- Join to Users to resolve the project owner name
+LEFT JOIN WORKFRONT.WF.USERS_CURRENT u
+ON u.userid = p.ownerid
+WHERE c.RECORDTYPEID = '<your_campaign_record_type_id>'
+AND p.completiontype != 'CPL' -- Exclude completed projects
+ORDER BY campaign_name
+```
+
+### 回應
+
+上述查詢會傳回下列資料：
+
+* **campaign_id**：行銷活動的唯一Planning記錄ID。
+* **campaign_name**：行銷活動紀錄的名稱。
+* **campaign_status**：來自Planning的行銷活動目前狀態。
+* **linked_project_id**：來自REFERENCE_CURRENT.TO_EXTERNALID的Workfront專案識別碼，可識別已連線的Workfront專案。
+* **project_name**：來自PROJECTS_CURRENT的原生Workfront專案名稱。
+* **project_percent_complete**：專案目前的完成百分比值。
+* **project_planned_completion**：已連結Workfront專案的計畫完成日期。
+* **project_owner_id**：專案所有者的Workfront使用者ID。
+* **project_owner_name**：專案所有者的顯示名稱，已加入USERS_CURRENT加以解析。
+
+### 解釋
+
+從Planning記錄型別到原生Workfront Workflow物件的連線會儲存在REFERENCE_CURRENT中。 此檢視中的每一列代表一個方向連結：TO_EXTERNALID儲存連線的Workfront物件識別碼。 代表Workfront連線的列由`TO_EXTERNALCONNECTIONNAME = 'workfront'`和對應至Workfront物件型別的API程式碼的TO_EXTERNALOBJECTNAME值（例如，專案的PROJ）識別。
+
+PLANNINGRECORD表格中的REFERENCE_ID欄包含適用於該記錄的所有REFERENCEID欄位清單。  您可以使用與field_value相同的JSON標籤法來存取ID。\
+PLANNINGRECORD_CURRENT中的單一REFERENCE_ID可能包含REFERENCE_CURRENT表格中的一或多個參照連結，這些連結會連結至Workfront表格中特定物件型別的物件。
+
+```
+<reference_ids>:"<reference_name>"::text
+```
+
+請注意，Planning檢視(PLANNINGRECORD_CURRENT、REFERENCE_CURRENT)位於WORKFRONT.PLANNING架構中，而原生Workfront工作流程檢視（PROJECTS_CURRENT、USERS_CURRENT等）位於 位於WORKFRONT.WF結構描述中。 跨結構描述聯結需要完整的資料表名稱。
+
+查詢會執行三個聯結：
+
+1. **參考資料表** REFERENCE_CURRENT的Planning記錄已在`TO_RECORDID = c.RECORDID`上聯結，以尋找源自每個Campaign記錄的所有連線。 `TO_EXTERNALCONNECTIONNAME = 'workfront'`和`TO_EXTERNALOBJECTNAME = 'PROJ'`上的篩選器會將結果縮小為專門表示與Workfront專案的連線的列。
+1. **參考資料表至Workfront專案：** TO_EXTERNALID儲存已連線專案的原生Workfront projectid。 此專案已直接加入`PROJECTS_CURRENT.projectid`以擷取即時專案資料。
+1. **給使用者的專案：** USERS_CURRENT的LEFT JOIN將專案上的ownerid外部索引鍵解析為人類可讀的名稱。 這裡使用LEFT JOIN，因此沒有指派擁有者的專案仍會包含在結果中。
+
+>[!NOTE]
+>
+>當聯結至Planning外部的表格時，請勿使用查詢中的TO_RECORDID欄位。  連結至外部表格時不需要此專案。
+>
+>此模式可套用至Planning支援連線的任何Workfront Workflow物件（例如「專案」、「產品組合」或「程式」），方法是將TO_EXTERNALOBJECTNAME篩選器變更為適當的物件API程式碼（例如「產品組合」的PORT或「程式」的PRGM），並加入對應的WORKFRONT.WF表格。 如需每種物件型別的正確表格和ID欄名稱，請參閱Workfront Data Connect資料字典。
+
+若要將另一個REFERENCE欄位聯結到其他外部記錄，與聯結到REFERENCE_CURRENT和Workfront工作流程檢視的模式相同，將新增到上述查詢。
+
+透過多次聯結至REFERENCE_CURRENT表格並使用適當的聯結模式，可在相同查詢中聯結外部與Planningrecord值。
 
 
 <!--

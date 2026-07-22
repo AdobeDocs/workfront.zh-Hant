@@ -19,7 +19,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: cfc4bcf9d3956a50839a6da26fc98a645782bdc1
 workflow-type: tm+mt
 source-wordcount: 1763
 ht-degree: 5%
@@ -157,9 +157,9 @@ Old:
   您可以從記錄日期欄位中選取，或從連線的記錄或物件型別中查詢日期欄位。
 * 存在下列情況：
 
-   * 當「開始」與「結束」日期都沒有值時，記錄不會顯示在行事曆上
-   * 當「開始」或「結束」日期沒有值時，記錄會顯示為單日事件
-   * 當開始日期晚於結束日期時，記錄不會顯示在行事曆上。
+  * 當「開始」與「結束」日期都沒有值時，記錄不會顯示在行事曆上
+  * 當「開始」或「結束」日期沒有值時，記錄會顯示為單日事件
+  * 當開始日期晚於結束日期時，記錄不會顯示在行事曆上。
 
 若要管理行事曆檢視：
 
@@ -176,12 +176,12 @@ Old:
    * 按一下右上角的&#x200B;**今天**，將行事曆置中到今天的日期。
    * 從時間範圍下拉式選單中選取下列其中一個選項，以更新時間增量：
 
-      * **月**：記錄會顯示在每月行事曆中。
+     * **月**：記錄會顯示在每月行事曆中。
 
-      * **周**：記錄會顯示在下列區域中：
+     * **周**：記錄會顯示在下列區域中：
 
-         * 橫跨多天的記錄會顯示在行事曆的頂端。
-         * 持續一天或更短的記錄，會顯示在行事曆檢視的下半部分。 如果您選取顯示開始與結束日期的小時，則記錄會在記錄發生的當天的適當時間顯示。
+       * 橫跨多天的記錄會顯示在行事曆的頂端。
+       * 持續一天或更短的記錄，會顯示在行事曆檢視的下半部分。 如果您選取顯示開始與結束日期的小時，則記錄會在記錄發生的當天的適當時間顯示。
 
 1. （選擇性）按一下&#x200B;**全熒幕**&#x200B;圖示![開啟全熒幕圖示](assets/open-full-screen-icon.png)以全熒幕開啟檢視，然後按一下&#x200B;**退出全熒幕**&#x200B;圖示![退出全熒幕圖示](assets/exit-full-screen-icon.png)或鍵盤上的Escape以退出全熒幕。
 
@@ -449,6 +449,15 @@ Old:
    例如，多選或單選欄位可以有顏色編碼的選項。
 
    如果選取的記錄型別沒有包含顏色編碼選項的欄位，則此選項會變暗。
+
+   <!--
+        For July 23: add this note after the last sentence here
+        >[!NOTE]
+        >
+        >* You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
+        >    
+        >* In the Production environment, you cannot match the color to connected records or their lookup fields. <span class="preview">In the Preview environment, you can match the color to connected records, but not to their lookup fields. </span>     
+        -->
 
 
 1. 按一下「**儲存**」。
