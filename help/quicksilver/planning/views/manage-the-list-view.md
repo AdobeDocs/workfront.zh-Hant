@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: '1873'
+source-wordcount: '1813'
 ht-degree: 0%
 
 ---
@@ -24,16 +24,17 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 <!--If the List view in Project connected pages and request forms stays the same after GTable rolls out - keep this as the List view and change the Table view to "Table redesigned view" for now; keep it "the table view" there for later-->
 
-<span class="preview">本頁標示的資訊是指尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
 您可以在Workfront Planning的下列區域中檢視清單檢視中的物件：
 
-* 記錄的詳細資訊區域<!--update screen shot for preview May 14 with Grouping icon and add the note at the top in yellow about preview-->中專案的已連線記錄頁面
+* 記錄的詳細資訊區域中專案的已連線記錄頁面
 
   在清單檢視中![連線記錄頁面上的專案](assets/projects-on-connected-records-page-list-view.png)
 
@@ -86,17 +87,17 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 * 對於連線的記錄頁面清單檢視，請考量下列事項：
 
-   * 您只能在記錄的已連線記錄頁面中檢視清單檢視中的專案。 清單檢視不適用於已連線記錄頁面中的任何其他物件或記錄型別。
+  * 您只能在記錄的已連線記錄頁面中檢視清單檢視中的專案。 清單檢視不適用於已連線記錄頁面中的任何其他物件或記錄型別。
 
   如需有關建立連線記錄頁面的資訊，請參閱[新增連線記錄頁面至記錄](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)。
-   * 您必須先將Workfront專案與Planning記錄型別連線，才能在記錄的已連線記錄頁面中檢視清單檢視。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
-   * 您可以在記錄的連線記錄頁面中建立專案的多個清單檢視。
+  * 您必須先將Workfront專案與Planning記錄型別連線，才能在記錄的已連線記錄頁面中檢視清單檢視。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
+  * 您可以在記錄的連線記錄頁面中建立專案的多個清單檢視。
 
 * 對於請求表單清單檢視，請考慮下列事項：
 
-   * 您無法為Planning請求表單建立或編輯其他清單檢視。 Workfront會為請求表單建立一個清單檢視。<!--this will change-->
+  * 您無法為Planning請求表單建立或編輯其他清單檢視。 Workfront會為請求表單建立一個清單檢視。<!--this will change-->
 
-     如需請求表單的相關資訊，請參閱[在Adobe Workfront Planning中建立和管理請求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+    如需請求表單的相關資訊，請參閱[在Adobe Workfront Planning中建立和管理請求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 * 根據顯示的位置，並非每個清單檢視都有本文所述的所有元素。
 
 ## 管理清單檢視 {#manage-a-list-view}
@@ -186,10 +187,10 @@ Removed - more direct steps below:
       **資料行管理員**&#x200B;開啟。
 
       您只能將現有欄位新增到清單檢視。
-您不能移除在第一欄顯示的清單檢視中的主要欄位。
+      您不能移除在第一欄顯示的清單檢視中的主要欄位。
 
    1. 按一下&#x200B;**格式化儲存格**&#x200B;圖示![格式化儲存格圖示](assets/format-cells-icon.png)。 **格式**&#x200B;方塊開啟。 <!--change the name of the box when they update it-->
-執行下列動作：
+      執行下列動作：
 
       1. 按一下&#x200B;**新增條件**。
       1. 在&#x200B;**If**&#x200B;行中，選取欄位並選擇欄位值並新增修飾元。 修正因子會根據您選擇的欄位型別而變更。
@@ -223,8 +224,8 @@ Removed - more direct steps below:
       1. 按一下&#x200B;**格式**&#x200B;方塊外部以關閉它。
 
          這會將您帶回清單檢視。
-格式會立即套用至清單檢視。
-**格式化儲存格**&#x200B;圖示旁有一個藍點，表示檢視已套用特殊格式。
+         格式會立即套用至清單檢視。
+         **格式化儲存格**&#x200B;圖示旁有一個藍點，表示檢視已套用特殊格式。
 
    1. （選擇性）按一下&#x200B;**群組**&#x200B;圖示![群組圖示](assets/grouping-icon.png)，以共用欄位將清單中的專案群組。 選取其中一個選項，或使用搜尋列來尋找欄位。
 
@@ -254,9 +255,9 @@ Removed - more direct steps below:
 
 1. （視條件而定）對於選取的文字欄位，請使用鍵盤箭頭來瀏覽選項清單，然後按空格鍵以選取正確的選項。
 
-   <span class="preview">使用選取欄位型別中的&#x200B;**搜尋**&#x200B;行來尋找正確的選項。</span>
+   使用選取欄位型別中的&#x200B;**搜尋**&#x200B;行來尋找正確的選項。
 
-   <span class="preview">找不到結果時，可以直接從欄位儲存格新增選項。 並非所有清單都提供此功能。</span>
+   找不到結果時，可以直接從欄位儲存格新增選項。 並非所有清單皆提供此功能。
 
 1. 將滑鼠懸停在清單中專案的名稱上，然後按一下&#x200B;**更多**&#x200B;功能表[更多](assets/more-menu.png)，然後按一下&#x200B;**檢視**，在其他索引標籤中開啟專案
 

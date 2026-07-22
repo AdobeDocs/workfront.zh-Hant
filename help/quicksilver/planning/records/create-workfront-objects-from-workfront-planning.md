@@ -9,19 +9,12 @@ exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/GHx5HHn781v3Ut86bfjj6xJ5gwomendbp-N6a8Q1tJY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
 source-wordcount: 1330
 ht-degree: 2%
@@ -69,20 +62,20 @@ ht-degree: 2%
 
 * 您可以從連線欄位從Workfront計畫的下列區域連線Workfront專案、投資組合、方案、群組和公司：
 
-   * 記錄型別的表格檢視
-   * 記錄的詳細資訊頁面或預覽方塊
-   * 記錄的「連線」標籤
+  * 記錄型別的表格檢視
+  * 記錄的詳細資訊頁面或預覽方塊
+  * 記錄的「連線」標籤
 
 * 您可以從Workfront Planning的下列區域建立專案：
 
-   * 記錄型別的表格檢視
-   * 連線欄位中記錄的詳細資訊區域
-   * 記錄的「已連線」記錄頁面
+  * 記錄型別的表格檢視
+  * 連線欄位中記錄的詳細資訊區域
+  * 記錄的「已連線」記錄頁面
 
 * 您可以從Workfront Planning的下列區域建立產品組合和計畫：
 
-   * 記錄型別的表格檢視
-   * 連線欄位中記錄的詳細資訊區域
+  * 記錄型別的表格檢視
+  * 連線欄位中記錄的詳細資訊區域
 
 如需有關連線Planning記錄與Workfront物件的資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
 
@@ -121,7 +114,7 @@ ht-degree: 2%
 <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
    <td> <p>提供或更高許可權給您要新增記錄的工作區和記錄型別。 </p>  
-   <p><span class="preview">管理建立Workfront物件的來源記錄許可權。</span></p>
+   <p>管理建立Workfront物件的來源記錄許可權。</p>
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>
    <p>管理Workfront物件（專案組合）的許可權以新增子物件（專案）。</p>
    </td> 
@@ -222,7 +215,7 @@ Old:
 
 1. （視條件而定）按一下&#x200B;**新增專案**
 或
-開始輸入專案名稱，如果找不到，請按一下[新增專案]。 **&#x200B;**「新增」按鈕後面接著您輸入的專案名稱。
+開始輸入專案名稱，如果找不到，請按一下[新增專案]。 ****「新增」按鈕後面接著您輸入的專案名稱。
 
    ![從連線欄位連線時新增專案](assets/add-project-when-connecting-it-from-connection-field.png)
 
@@ -270,7 +263,7 @@ Old:
 
    或
 
-   開始輸入投資組合的名稱，如果找不到，請按一下[新增投資組合] **&#x200B;**。 「新增」按鈕後面接著您輸入的投資組合名稱。
+   開始輸入投資組合的名稱，如果找不到，請按一下[新增投資組合] ****。 「新增」按鈕後面接著您輸入的投資組合名稱。
 
    ![從連線欄位連線時新增投資組合](assets/add-portfolio-when-connecting-it-from-connection-field.png)
 
@@ -290,7 +283,7 @@ Old:
 
    或
 
-   開始輸入方案的名稱，如果找不到，請按一下[新增方案] **&#x200B;**。 新增按鈕後面接著您輸入的程式名稱。
+   開始輸入方案的名稱，如果找不到，請按一下[新增方案] ****。 新增按鈕後面接著您輸入的程式名稱。
 
    ![從連線欄位連線時新增Workfront程式](assets/add-wf-program-when-connecting-it-from-connection-field.png)
 

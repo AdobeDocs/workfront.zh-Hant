@@ -9,20 +9,14 @@ exl-id: 99fac041-a235-4991-b826-d19944164bc9
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/QuLxjUMlRgN0FvlDwR0JVQ-m-wV-z3C6sh30lJYRKfU
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ab0d036ea3bbcdad2daaed6b09864272fd1beb11
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 1010
+source-wordcount: 1002
 ht-degree: 1%
 
 ---
@@ -108,7 +102,7 @@ ht-degree: 1%
    <ul>
    <li><p>檢視或更高的工作區許可權、記錄未建立用來存取它們及其物件的型別和檢視。</p></li>
    <li><p>對於您未建立以編輯工作區與記錄型別，以及建立、編輯或刪除記錄型別，提供Contribute或更高許可權。</p></li>
-   <li><p><span class="preview">管理編輯、共用或刪除記錄的許可權。</p>
+   <li><p>管理編輯、共用或刪除記錄的許可權。</p>
    <li><p>為您未建立的檢視貢獻或更高的許可權，以編輯、刪除和共用檢視</p>
    </li>
     <li><p>Planning管理員可以管理他們未建立的工作區。 </p></li>
