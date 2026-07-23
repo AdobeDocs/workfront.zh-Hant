@@ -18,7 +18,7 @@ ht-degree: 2%
 
 此頁面上的增強功能可在預覽環境中取得。 隨著2026年第三季度版本接近其計畫生產版本，此頁面將透過其他增強功能進行更新。
 
-每個季度版本都會舉辦即時網路研討會，強調新功能並提供詳細資訊。 若要註冊，請造訪[事件頁面](https://experienceleague.adobe.com/en/events?filters=Workfront)並篩選Workfront。
+每個季度版本都會舉辦即時網路研討會，強調新功能並提供詳細資訊。 若要註冊，請造訪[事件頁面](https://experienceleague.adobe.com/zh-hant/events?filters=Workfront)並篩選Workfront。
 
 >[!IMPORTANT]
 >
@@ -618,7 +618,7 @@ New features in Workfront Planning are available in Production.
 
 這項變更是在2026年4月Workfront版本注意事項中首次宣佈，而且這是在截止日期前的最後提醒。 請確定所有受影響的讀者使用者在2026年8月8日之前啟用MFA，以避免其存取中斷。
 
-如需詳細資訊，請參閱[建立Snowflake的讀取器帳戶或連線](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account)。
+如需詳細資訊，請參閱[建立Snowflake的讀取器帳戶或連線](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/reporting/data-lake/create-a-reader-account)。
 
 ### Adobe Workfront Planning作為獨立產品
 
@@ -681,12 +681,12 @@ Workfront計畫試驗將於2026年5月15日結束。
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hant).
 
 -->
 
 
 ### 訓練更新
 
-探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的「新增功能」一節。
+探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hant)的「新增功能」一節。
 
