@@ -21,7 +21,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
 source-wordcount: 1330
 ht-degree: 2%
@@ -69,20 +69,20 @@ ht-degree: 2%
 
 * 您可以從連線欄位從Workfront計畫的下列區域連線Workfront專案、投資組合、方案、群組和公司：
 
-   * 記錄型別的表格檢視
-   * 記錄的詳細資訊頁面或預覽方塊
-   * 記錄的「連線」標籤
+  * 記錄型別的表格檢視
+  * 記錄的詳細資訊頁面或預覽方塊
+  * 記錄的「連線」標籤
 
 * 您可以從Workfront Planning的下列區域建立專案：
 
-   * 記錄型別的表格檢視
-   * 連線欄位中記錄的詳細資訊區域
-   * 記錄的「已連線」記錄頁面
+  * 記錄型別的表格檢視
+  * 連線欄位中記錄的詳細資訊區域
+  * 記錄的「已連線」記錄頁面
 
 * 您可以從Workfront Planning的下列區域建立產品組合和計畫：
 
-   * 記錄型別的表格檢視
-   * 連線欄位中記錄的詳細資訊區域
+  * 記錄型別的表格檢視
+  * 連線欄位中記錄的詳細資訊區域
 
 如需有關連線Planning記錄與Workfront物件的資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
 
@@ -121,7 +121,7 @@ ht-degree: 2%
 <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
    <td> <p>提供或更高許可權給您要新增記錄的工作區和記錄型別。 </p>  
-   <p><span class="preview">管理建立Workfront物件的來源記錄許可權。</span></p>
+   <p>管理建立Workfront物件的來源記錄許可權。</p>
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>
    <p>管理Workfront物件（專案組合）的許可權以新增子物件（專案）。</p>
    </td> 

@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 516
+source-wordcount: 522
 ht-degree: 4%
 
 ---
@@ -41,8 +41,8 @@ ht-degree: 4%
 Workfront Planning中發生下列動作時，您可能會收到應用程式內或電子郵件通知：
 
 * 有人將您或您的團隊新增到記錄頁面上的註解
-* 有人要求存取檢視或工作區<!--or <span class="preview">or a record</span>-->的許可權
-* 有人授予您存取檢視或工作區<!--or <span class="preview">or a record</span> I could not test this but Isk confirmed-->的許可權
+* 某人要求存取檢視、工作區或記錄的許可權
+* 有人授予您存取檢視、工作區或記錄的許可權
 * 您提交Workfront Planning請求。
 * 某人核准或拒絕您提交的Workfront Planning請求。
 * 狀態會變更為您提交的Workfront Planning請求。
@@ -162,8 +162,8 @@ Old:
 * 如需有關記錄的註解資訊，請參閱[管理記錄註解](/help/quicksilver/planning/records/manage-record-comments.md)。
 * 如需核准通知的相關資訊，請參閱下列文章：
 
-   * [在Adobe Workfront Planning中核准請求](/help/quicksilver/planning/requests/approve-request.md)
-   * [提交Adobe Workfront Planning請求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)
+  * [在Adobe Workfront Planning中核准請求](/help/quicksilver/planning/requests/approve-request.md)
+  * [提交Adobe Workfront Planning請求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)
 * 如需有關來自Workfront Planning的應用程式內通知的資訊，請參閱[管理Adobe Workfront Planning的應用程式內通知](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md)。
 * 如需Workfront Planning電子郵件通知的相關資訊，請參閱[管理Adobe Workfront Planning的電子郵件通知](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md)。
 
@@ -188,10 +188,10 @@ Old:
    * **提及**：當有人在Workfront Planning的評論中為您或您的團隊加標籤時，您會收到通知
    * **要求**：當某人執行下列其中一項作業時，您會收到通知：
 
-      * 要求或授予Workfront Planning物件的許可權
-      * 您已提交Workfront規劃請求
-      * 您提交變更的Workfront Planning請求狀態
-      * 請求、授予或拒絕對Workfront Planning請求的核准
+     * 要求或授予Workfront Planning物件的許可權
+     * 您已提交Workfront規劃請求
+     * 您提交變更的Workfront Planning請求狀態
+     * 請求、授予或拒絕對Workfront Planning請求的核准
 
    如需有關管理通知的詳細資訊，請參閱[帳戶偏好設定和通知](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/account-preferences)。
 

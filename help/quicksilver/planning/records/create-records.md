@@ -1,6 +1,6 @@
 ---
 title: 建立記錄
-description: 使用Adobe Workfront Planning時，記錄是記錄型別的例項。 您可以在Workfront Planning中為每個記錄型別建立唯一的記錄，方法是手動將它們新增至表格檢視、從清單匯入它們、複製它們，或在將它們連線至其他記錄時建立它們。
+description: 使用Adobe Workfront Planning時，記錄是記錄型別的例項。 您可以在Workfront Planning中為每個記錄型別建立唯一的記錄，方法是手動將它們新增至表格檢視、從清單匯入它們、複製它們，或在將它們連線至其他記錄時建立它們。 每筆記錄都可以與縮圖、封面影像和獨特顏色相關聯。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: d7831c8d233588bf2624ef23b2b524ed54aa5288
 workflow-type: tm+mt
-source-wordcount: 3224
+source-wordcount: 3239
 ht-degree: 0%
 
 ---
@@ -165,19 +165,30 @@ Old:
 
 * 根據新增記錄的工作區來源，下列使用者型別會顯示新增至全域記錄型別的記錄：
 
-   * 新增至全域記錄型別之原始工作區的記錄可從原始工作區中看到。
-   * 新增至全域記錄型別之次要工作區的記錄，只會從建立它們的工作區和全域記錄型別的原始工作區中顯示。
-如需詳細資訊，請參閱[跨工作區記錄型別概觀](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
+  * 新增至全域記錄型別之原始工作區的記錄可從原始工作區中看到。
+  * 新增至全域記錄型別之次要工作區的記錄，只會從建立它們的工作區和全域記錄型別的原始工作區中顯示。
+    如需詳細資訊，請參閱[跨工作區記錄型別概觀](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
 
 * 根據使用者對工作區和記錄型別的許可權，使用者可以透過下列方式建立記錄：
 
-   * 具有工作區及記錄型別檢視許可權的使用者僅能使用記錄型別頁面上的「請求記錄」按鈕來建立記錄。
-   * 對工作區和記錄型別具有「貢獻」和「管理」許可權的使用者可以使用記錄型別頁面上的「新增記錄」按鈕來建立記錄。
+  * 具有工作區及記錄型別檢視許可權的使用者僅能使用記錄型別頁面上的「請求記錄」按鈕來建立記錄。
+  * 對工作區和記錄型別具有「貢獻」和「管理」許可權的使用者可以使用記錄型別頁面上的「新增記錄」按鈕來建立記錄。
 
   >[!IMPORTANT]
   >
   >工作區管理員必須為記錄型別建立請求表單，以便擁有檢視許可權的使用者使用請求表單新增記錄。 否則，檢視許可權使用者無法建立記錄。
 
+<!--
+add this bullet for July 23 release:
+
+<div class="preview">
+
+* All records are automatically color-coded when they are created, regardless of the method you are using to create them. 
+
+    For more information, see the section [Color coding records](#color-coding-records) in this article. 
+
+</div>
+-->
 
 ## 使用任何記錄型態檢視中的「新增記錄」或「請求記錄」按鈕來建立記錄
 
@@ -190,7 +201,7 @@ Old:
 1. 按一下記錄型別卡。 如需有關建立記錄型別的資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
 
    記錄型別頁面會在您上次存取的檢視中開啟。依預設，會在表格檢視中開啟記錄型別頁面。
-所選型別的所有記錄都會顯示在檢視中。
+   所選型別的所有記錄都會顯示在檢視中。
 
 1. （視條件而定）從任何檢視中，根據工作區和錄製型別許可權，在熒幕右上角按一下下列內容：
 
@@ -207,9 +218,9 @@ Old:
       * **手動新增**。 記錄的預覽方塊開啟。\
         從步驟6開始，新增記錄的相關資訊，如[從本文中的記錄型別資料表檢視](#create-records-by-adding-them-inline-from-the-record-type-table-view)區段內嵌新增記錄，以建立記錄中所述。<!--insure this stays accurate-->
       * **從檔案上傳**
-新增記錄，如文章[中所述。從步驟6開始，從CSV或Excel檔案匯入資訊來建立記錄](/help/quicksilver/planning/records/import-file-to-create-records.md)。<!--ensure this stays accurate-->
+        新增記錄，如文章[中所述。從步驟6開始，從CSV或Excel檔案匯入資訊來建立記錄](/help/quicksilver/planning/records/import-file-to-create-records.md)。<!--ensure this stays accurate-->
       * **提交要求**
-記錄型別的請求表單隨即開啟。
+        記錄型別的請求表單隨即開啟。
 
         工作區管理員必須建立請求表單，才能使用請求表單新增記錄。
 
@@ -272,7 +283,7 @@ You can import records from other applications by linking them to existing recor
 1. 按一下記錄型別卡。 如需有關建立記錄型別的資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
 
    記錄型別頁面會在您上次存取的檢視中開啟。依預設，會在表格檢視中開啟記錄型別頁面。
-所選型別的記錄會顯示在檢視中。
+   所選型別的記錄會顯示在檢視中。
 
 1. （視條件而定）從表格檢視中，執行下列任一項作業：
 
@@ -374,9 +385,9 @@ You can import records from other applications by linking them to existing recor
 
      依預設，日期值會根據您顯示時間表檢視的方式預先選取。 存在下列情況：
 
-      * 按&#x200B;**年**：記錄的開始和結束日期跨越一個月。
-      * 按&#x200B;**季**：記錄的開始和結束日期跨越一週。
-      * 按&#x200B;**月**：記錄的開始和結束日期跨三天。
+     * 按&#x200B;**年**：記錄的開始和結束日期跨越一個月。
+     * 按&#x200B;**季**：記錄的開始和結束日期跨越一週。
+     * 按&#x200B;**月**：記錄的開始和結束日期跨三天。
 
 1. （選擇性）按一下下列圖示之一：
 
@@ -441,8 +452,8 @@ You can import records from other applications by linking them to existing recor
 
      依預設，日期值會根據您顯示行事曆檢視的方式預先選取。 存在下列情況：
 
-      * 按&#x200B;**月**：記錄的開始和結束日期跨越一天。
-      * 按&#x200B;**周**：記錄的開始和結束日期跨越兩天。
+     * 按&#x200B;**月**：記錄的開始和結束日期跨越一天。
+     * 按&#x200B;**周**：記錄的開始和結束日期跨越兩天。
 
 1. （選擇性）按一下下列圖示之一：
 
@@ -524,8 +535,8 @@ You can import records from other applications by linking them to existing recor
 
    * Workfront Planning下列區域的連線欄位：
 
-      * 表格檢視
-      * 記錄的詳細資訊頁面或預覽方塊
+     * 表格檢視
+     * 記錄的詳細資訊頁面或預覽方塊
 
    * Workfront中專案、投資組合或方案的「計畫」區段中的連線欄位。
 
@@ -534,7 +545,7 @@ You can import records from other applications by linking them to existing recor
 1. （視條件而定）如果嘗試連線時找不到記錄，請按一下[新增] **+ [新增]**
 
    或
-開始輸入名稱，然後按一下&#x200B;**+新增**。 **+新增**&#x200B;按鈕後面接著您連線的記錄型別名稱。 例如，將品牌新增至現有行銷活動時，「新增品牌」。 您輸入的名稱也會跟著新增按鈕。
+   開始輸入名稱，然後按一下&#x200B;**+新增**。 **+新增**&#x200B;按鈕後面接著您連線的記錄型別名稱。 例如，將品牌新增至現有行銷活動時，「新增品牌」。 您輸入的名稱也會跟著新增按鈕。
 
    ![新增按鈕以在醒目提示的內容中建立記錄](assets/add-button-to-create-records-in-context-highlighted.png)
 
@@ -584,5 +595,53 @@ You can import records from other applications by linking them to existing recor
 
 如需詳細資訊，請參閱[使用Adobe Workfront Planning記錄自動化建立物件](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)。
 
+<!--
+For July 23
+Move to its own article after preview release in 07/2026:
 
+<div class="preview">
 
+## Color coding records
+
+All records are automatically associated with a color when they are created. 
+
+1. Create a record using one of the methods described in this article. 
+
+    The color is immediately applied to the new record in the following areas:
+
+    * As a bar, to the left of the record name or primary field in the table, timeline and calendar views. 
+    * As a circle, to the left of the record name in the record's **Details** page. 
+
+        For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
+1. (Conditional) To view the color of a record, do one of the following: 
+    
+    * From the table view, click the **Fields** icon in the toolbar at the top of a list of records, then turn on the **Color** setting. A bar is added to the left of the record's primary field.
+
+        ![Table view record color bar](assets/table-record-color-bar.png)
+
+        For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
+    * From the timeline view, click **Settings** > **Bar style**, then turn on the **Color** setting. A bar is added to the left margin of the record's bar, when you select to color code the bar by **Record**. 
+
+        ![Timeline view record color bar](assets/timeline-record-color-bar.png)
+
+        For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+    * From the calendar view, click **Settings** > **Bar style**, then turn on the **Color** setting. The record bar color matches the record color and a darker shade of the same color is added to the left margin of the record's bar, when you select to color code the bar by **Record**.
+    
+        ![Calendar view record color bar](assets/calendar-record-color-bar.png)
+
+        For information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md). 
+
+    The Color setting is turned off by default.
+
+1. To change the color associated with a record, do the following: 
+
+    1. From the table view, click the record color bar
+        Or 
+        From the record details preview or page, click the record color circle. 
+    1. Click the **Swatches** or the **Custom** tab to select a new color. 
+
+        Once selected, the new color is applied immediately. 
+
+</div>
+
+-->
