@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 7df1d711b89cc69e354525c9eaea48abb6aec158
+source-git-commit: 20d4bc743c0d7f09e1a8c5b1ce48b88cd0c21287
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,29 @@ ht-degree: 0%
 本文介紹2026年第四季發行的Workfront Planning功能。
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 可自訂的記錄色彩和連線色彩編碼
+
+>[!NOTE]
+> 
+>預覽： 2026年7月23日>生產快速發行： 2026年8月13日>所有人生產： 2026年10月15日
+
+記錄現在支援可自訂的調色盤，可讓您將自動指派給新記錄的顏色更新為標準或自訂顏色。
+
+此增強功能包含下列變更： 
+
+* 我們在下列區域新增了「顏色」選項：
+  * 表格檢視中的欄點陣圖示。 
+  * 時間軸和行事曆檢視的「設定」區域中的「長條圖樣式」區段
+
+    開啟「顏色」設定時，指定給新記錄的顏色會顯示在這些檢視中顯示記錄的所有位置。 
+
+* 顏色圓圈會新增到記錄的「詳細資訊」頁面。 
+* 您現在可以在依欄位值著色時，將單一、多重選取和連線的記錄欄位新增至時間軸和行事曆檢視中長條的顏色編碼。 
+* 當您建立連線的記錄欄位時，除了記錄名稱和影像之外，還可以啟用顯示顏色。 
+* 「設定」區域中的「顏色」區段也藉由移除「無」選項而簡化。  
+
+如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。 
 
 ## 規劃Designer現在需要接受Beta合約
 
