@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 7df1d711b89cc69e354525c9eaea48abb6aec158
+source-git-commit: 62688ecf071774f0446e35035a3e0633e3094eae
 workflow-type: tm+mt
-source-wordcount: '3159'
-ht-degree: 3%
+source-wordcount: '3317'
+ht-degree: 2%
 
 ---
 
@@ -609,6 +609,16 @@ New features in Workfront Planning are available in Production.
 此更新同時適用於Mac和Windows。
 
 ## 公告
+
+### Data Connect讀取器使用者的僅限密碼驗證將於2026年8月8日結束
+
+自2026年8月8日起，除非已啟用多重驗證(MFA)，否則使用僅限密碼登入驗證的Workfront Data Connect / Snowflake Reader使用者將停止運作。 在此日期之後無法回溯新增MFA — 如果允許讀取器使用者在沒有它的情況下失效，則只能透過建立新的使用者設定檔來還原存取。
+
+如果您是Workfront管理員，且擁有Data Connect讀取器使用者，但尚未啟用MFA，請將此變更立即通知您的使用者。
+
+這項變更是在2026年4月Workfront版本注意事項中首次宣佈，而且這是在截止日期前的最後提醒。 請確定所有受影響的讀者使用者在2026年8月8日之前啟用MFA，以避免其存取中斷。
+
+如需詳細資訊，請參閱[建立Snowflake的讀取器帳戶或連線](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/reporting/data-lake/create-a-reader-account)。
 
 ### Adobe Workfront Planning作為獨立產品
 
