@@ -5,9 +5,9 @@ title: 設定Adobe Workfront MCP伺服器
 description: 設定您的Workfront執行個體和AI代理平台，讓您透過自然語言對話來使用Workfront。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 881ec05a1b41b65339b3e90aef05762118093bdc
+source-git-commit: 6ee4dc992b62ce2602bab0b75d8a27fa6a01acc2
 workflow-type: tm+mt
-source-wordcount: '1746'
+source-wordcount: '1935'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,9 @@ MCP伺服器存取許可權由兩個不同的管理員所控制。
 
 您針對每個[!DNL Claude]帳戶連線至Workfront一次。 連線會針對特定Workfront執行個體驗證您的身分，而且您會保持連線，直到您選擇中斷連線為止。
 
-
+* [從聯結器目錄連線到Claude案頭](#connect-to-claude-desktop-from-the-connectors-directory)
+* [使用URL連線到Claude](#connect-to-claude-with-a-url)
+* [使用技能自訂Claude行為](#customize-claude-behavior-with-skills)
 
 ### 從聯結器目錄連線到Claude案頭
 
@@ -126,6 +128,10 @@ MCP伺服器存取許可權由兩個不同的管理員所控制。
 
 將Workfront MCP伺服器與ChatGPT連線的程式因您在網頁上使用ChatGPT Desktop、Codex或ChatGPT而有所不同。
 
+* [連線到ChatGPT Desktop或ChatGPT Codex](#connect-to-chatgpt-desktop-or-chatgpt-codex)
+* [在網頁上連線到ChatGPT](#connect-to-chatgpt-on-the-web)
+* [使用自訂GPT自訂ChatGPT行為](#customize-chatgpt-behavior-with-custom-gpts)
+
 ### 連線到ChatGPT Desktop或ChatGPT Codex
 
 1. 在ChatGPT中，開啟&#x200B;**設定**。
@@ -176,7 +182,7 @@ ChatGPT支援使用者建立的助理，稱為自訂GPT。 您可以使用自訂
 若要建置Workfront MCP可連線的自訂Copilot代理程式，請使用Copilot Studio。
 
 1. 在Copilot Studio中，按一下&#x200B;**建立空白代理程式**。
-1. 為代理程式命名，然後按一下[建立]。**&#x200B;**
+1. 為代理程式命名，然後按一下[建立]。****
 代理程式的視窗會開啟。
 
 1. 在&#x200B;**指示**&#x200B;欄位中，說明您希望代理程式執行的動作。 包含您的流程以及如何使用Workfront等資訊。 建議您提供大量詳細資訊。
@@ -194,7 +200,7 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront`
 
    應用程式已註冊。
 
-1. 應用程式註冊後，在顯示的面板中，按一下[未連線] **，然後按一下[建立新連線]**，再按一下[建立] **&#x200B;**。**&#x200B;**
+1. 應用程式註冊後，在顯示的面板中，按一下[未連線] **，然後按一下[建立新連線]**，再按一下[建立] ****。****
 1. 在出現的登入面板中，登入Workfront，然後在顯示您要使用哪個Workfront執行個體時選取&#x200B;**繼續**。
 1. 在顯示伺服器的面板中，按一下[新增]並設定&#x200B;**。**
 
@@ -202,6 +208,30 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront`
 1. 設定並測試工具時，按一下&#x200B;**發佈**。
 
    您可能沒有發佈許可權。 如果是這種情況，請聯絡您的Copilot管理員。
+
+## 將Workfront連線至自訂MCP解決方案
+
+如果您建置自己的自訂應用程式或代理程式，可以直接連線至Workfront MCP伺服器。
+
+連線方式有兩種：
+
+* [使用服務對服務權杖連線](#connect-with-a-service-to-service-token)
+* [使用OAuth連線](#connect-with-oauth)
+
+### 使用服務對服務權杖連線
+
+1. 使用Adobe Developer Console建立服務認證。 如需詳細資訊，請參閱[伺服器對伺服器驗證](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/)。
+1. 使用下列資訊連線至Workfront MCP伺服器：
+
+   * **URL**： `https://mcp.workfront.adobe.com/mcp/v1/workfront`
+   * **標頭**：
+
+     * `Authorization: Bearer <access_token>`
+     * `wf-url: <your_subdomain>.my.workfront.com` (如果您的認證可存取多個Workfront執行個體（例如「預覽」和「生產」），則此為必要專案。
+
+### 使用OAuth連線
+
+Workfront尚不提供自訂OAuth整合的自助服務支援。
 
 ## 驗證您的連線
 
@@ -298,6 +328,10 @@ What happens next
 ## 關於設定的常見問題
 
 +++ 展開以檢視關於設定Workfront MCP伺服器的常見問題。
+
+* [我可以同時連線到多個Workfront執行個體嗎？](#can-i-connect-to-multiple-workfront-instances-at-the-same-time)
+* [哪位管理員會啟用此功能？](#which-administrator-enables-this)
+* [如果Workfront Identity Management System (IMS)上未啟用我的Workfront執行個體，我可以使用Adobe MCP伺服器嗎？](#can-i-use-the-workfront-mcp-server-if-my-workfront-instance-isnt-enabled-on-adobe-identity-management-system-ims)
 
 ### 我可以同時連線到多個Workfront執行個體嗎？
 
