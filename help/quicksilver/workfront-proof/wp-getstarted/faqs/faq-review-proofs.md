@@ -9,15 +9,11 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d8bcddf8-0586-4263-8445-26615fdf07f7
 TQID: https://experienceleague.adobe.com/ugmfko-cMBK-g6po1pPQ4RQKAZ3pEbe4PkRf2EUb2C0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 1127
 ht-degree: 0%
@@ -90,3 +86,4 @@ ht-degree: 0%
 ## 我可以產生校訂上所有評論的清單嗎？
 
 是的，您可以產生校樣上留下的&#x200B;*[!UICONTROL 列印摘要]*。 此檔案可以為單一版本產生，也可以跨與此稽核者共用的所有版本產生。 它會顯示校訂上所做的所有評論、加價和決定的清單。 如需有關此功能的詳細資訊，請造訪[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md)中列印及匯出註解。
+

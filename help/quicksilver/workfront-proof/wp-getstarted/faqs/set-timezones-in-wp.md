@@ -9,15 +9,11 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c55d514e-574b-4982-ae43-6e2b1da5ff7d
 TQID: https://experienceleague.adobe.com/AGkWMK6b8wafOO7ND0qxRPJyzuyzwiVTQG-MVMmlcIs
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 302
 ht-degree: 0%
@@ -52,3 +48,4 @@ ht-degree: 0%
 1. 按一下「**[!UICONTROL 設定]**」>「**[!UICONTROL 個人設定]**」，然後開啟「**[!UICONTROL 設定]**」標籤。
 
 1. 在&#x200B;**[!UICONTROL 帳戶詳細資料]**&#x200B;下，按一下&#x200B;**[!UICONTROL 時區預設值]**&#x200B;右邊的[!UICONTROL 編輯]並進行變更。
+

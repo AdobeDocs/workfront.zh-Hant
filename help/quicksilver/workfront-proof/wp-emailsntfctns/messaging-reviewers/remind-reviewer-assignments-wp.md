@@ -8,15 +8,11 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bb29f888-bc99-47ef-852f-1197efb2b41e
 TQID: https://experienceleague.adobe.com/QgADyJaadtQoow17rY7u5dZO9fKXNspU6cFQQR78VKE
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 225
 ht-degree: 0%
@@ -45,5 +41,6 @@ ht-degree: 0%
 1. 按一下&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 訊息。]**
 
 1. 在出現的&#x200B;**[!UICONTROL 傳送訊息]**&#x200B;方塊上，輸入&#x200B;**[!UICONTROL 標題]**&#x200B;和&#x200B;**[!UICONTROL 訊息]，**，然後按一下&#x200B;**[!UICONTROL 傳送]。**&#x200B;連絡人&#x200B;會收到一封電子郵件，其中包含所有校訂的資訊和個人連結。
+
 
 

@@ -9,17 +9,11 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d1aa69e5-f7e5-46d5-814e-e11a999e36db
 TQID: https://experienceleague.adobe.com/AYo0AEowl2QkJHe62-5KKjKZtllY-KW-AMySZKw-0T0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 435
 ht-degree: 0%
@@ -73,3 +67,4 @@ ht-degree: 0%
 ## 如果我在帳戶上使用SSO，該怎麼辦？
 
 如果您在校訂帳戶上使用SSO，則需要重新設定帳戶以使用新的[!DNL proofhq.eu]網域。
+

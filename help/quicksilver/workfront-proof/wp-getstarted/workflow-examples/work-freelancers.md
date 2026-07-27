@@ -9,13 +9,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 8a792e74-4755-4237-8155-d54bbcd97496
 TQID: https://experienceleague.adobe.com/U4G0Tt1KZZXbwLk1SNyRTIBEzEerq6izTDOznYVwMzk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 931
 ht-degree: 0%
@@ -85,3 +82,4 @@ ht-degree: 0%
 * 您也可以管理他們在校訂上所指定的角色，例如[!UICONTROL 唯讀]，以及與他們有關校訂的電子郵件通訊。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中管理校訂角色。
 * 如果您不想讓您的自由譯者參與檢閱程式，但希望他們收到最終決定的通知，您可以將您的[!UICONTROL 拖放區域]設定中的預設校訂角色，以及所有[!UICONTROL 拖放區域]提交者的電子郵件警示，分別設定為[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中管理校訂角色，以及在[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)中設定電子郵件通知設定。 如需詳細資訊，請參閱[電子郵件警示，](https://support.workfront.com/hc/en-us/sections/115000911867-Email-alerts) [在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中管理校訂角色，以及[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)中設定電子郵件通知設定。
 * 如果您確實希望您的自由譯者主動參與稽核流程，您可以視需要調整其校訂角色和電子郵件警報設定，方式為內聯編輯校訂詳細資訊頁面上的這些詳細資訊。 如需有關該頁面的詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中管理校訂詳細資訊
+

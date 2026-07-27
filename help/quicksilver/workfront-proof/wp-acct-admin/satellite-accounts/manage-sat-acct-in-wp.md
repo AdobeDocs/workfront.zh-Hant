@@ -8,16 +8,11 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 6ff109c2-0584-4087-82de-d431dd5abec7
 TQID: https://experienceleague.adobe.com/AkNxm8qhkBqnUGWh5MJOQKjVRKNnICnoCd1eFKtqFc8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 153
 ht-degree: 1%
@@ -39,7 +34,7 @@ ht-degree: 1%
 1. 移至[!UICONTROL 帳單]頁面。
 1. 開啟頁面頂端的下拉式功能表(1)，然後選擇相關的附屬帳戶。 (2)
 
-   如需詳細資訊，請參閱[帳單]頁面(../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。 [!DNL Workfront Proof] 
+   如需詳細資訊，請參閱[帳單]頁面](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。 [!DNL Workfront Proof] [!UICONTROL 
 
    ![Satellite_Account_Billing_Page_1__.png](assets/satellite-account-billing-page--1--350x167.png)
 
@@ -52,3 +47,4 @@ ht-degree: 1%
 1. 按一下相關標籤，管理Satellite帳戶的帳戶設定。
 
 ![SA_Account_Settings.png](assets/sa-account-settings-350x151.png)
+
