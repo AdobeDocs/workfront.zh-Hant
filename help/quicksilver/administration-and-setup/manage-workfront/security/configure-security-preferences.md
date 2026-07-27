@@ -26,16 +26,14 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b0dd2c2c448c829b2ce1559ddc87880c9a47a68f
+source-git-commit: 7c9dfc68d8df73734df7b6db3f45e6b31e1f0bc4
 workflow-type: tm+mt
-source-wordcount: 1218
+source-wordcount: 1155
 ht-degree: 8%
 
 ---
 
 # 設定系統偏好設定
-
-{{preview-fast-release-general}}
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
@@ -115,7 +113,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
      </tr> 
      <tr> 
       <td role="rowheader"> <p>透過使用電子郵件地址與沒有Workfront帳戶的人共同作業</p> </td> 
-      <td>可讓Workfront使用者透過包含電子郵件地址而非姓名來與沒有Workfront帳戶的人共用特定專案。 使用者可使用其電子郵件地址與外部使用者共用下列專案：
+      <td>可讓Workfront使用者透過包含電子郵件地址而非姓名來與沒有Workfront帳戶的人共用特定專案。使用者可使用其電子郵件地址與外部使用者共用下列專案：
        <ul>
         <li>文件<br></li>
         <li>檔案請求<br></li>
@@ -155,7 +153,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
      </tr>
      <tr> 
       <td role="rowheader">儲存偏好設定 </td> 
-      <td>您可以在此區段中啟用Adobe雲端偏好設定。 可讓您選擇為整個組織或特定群組啟用或停用Adobe雲端儲存空間。 
+      <td>您可以在此區段中啟用Adobe雲端偏好設定。可讓您選擇為整個組織或特定群組啟用或停用Adobe雲端儲存空間。 
       <p>更新下列資訊：</p>
       <ul><li><b>預設</b>：選擇舊版Workfront儲存空間或Adobe雲端儲存空間</li>
       <li><b>允許使用者選取儲存提供者</b>：這允許使用者在建立Workfront物件時，在兩種儲存型別之間進行選擇。</li>
