@@ -9,31 +9,25 @@ exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/yrm4kF5GdUGyOaR1AraNwLk3HHpEm1lEkT6r9HQsd4Q
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
-source-wordcount: 3103
+source-wordcount: 3223
 ht-degree: 0%
 
 ---
 
 # 編輯記錄
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -145,17 +139,17 @@ Old:
 * 如果您擁有工作區的許可權，您可以編輯您建立的記錄或其他人建立的記錄。
 * 您可以從下列區域編輯記錄欄位：
 
-   * 記錄檢視中的記錄預覽
-   * 記錄的詳細資訊頁面
-   * 內嵌，在表格檢視中。
-   * 調整記錄大小或拖放記錄時，行事曆和時間軸檢視。 這會更新記錄的日期。
+  * 記錄檢視中的記錄預覽
+  * 記錄的詳細資訊頁面
+  * 內嵌，在表格檢視中。
+  * 調整記錄大小或拖放記錄時，行事曆和時間軸檢視。 這會更新記錄的日期。
 
 * 當使用者在檢視中編輯記錄時，變更會立即在所有檢視中可見，並且記錄頁面會向所有其他使用者顯示。
 
 * 下列型別的欄位會自動更新，您無法手動編輯其值：
-   * 從其他記錄連結的欄位
-   * 公式型別欄位
-   * 系統欄位（「建立者」、「建立日期」、「上次修改者」、「上次修改日期」、「核准日期」、「核准者」、「記錄ID」）
+  * 從其他記錄連結的欄位
+  * 公式型別欄位
+  * 系統欄位（「建立者」、「建立日期」、「上次修改者」、「上次修改日期」、「核准日期」、「核准者」、「記錄ID」）
 * 如果顯示的記錄連結到其他記錄，則您正在編輯的記錄的新資訊會反映在連結該記錄的所有工作區中的連結記錄上。
 * 您無法大量編輯記錄。<!--this will probably change-->
 * URL只有以下列專案開頭時，才會被識別為單行文字欄位型別中的連結： http://、https://、ftp://或www。 .
@@ -167,8 +161,8 @@ Old:
 
   若要編輯記錄的日期，請參閱本文中的下列其中一節：
 
-   * [在記錄型別的行事曆檢視中編輯記錄](#edit-a-record-in-the-calendar-view-of-a-record-type)
-   * [在記錄型別的時間軸檢視中編輯記錄](#edit-a-record-in-the-timeline-view-of-a-record-type)
+  * [在記錄型別的行事曆檢視中編輯記錄](#edit-a-record-in-the-calendar-view-of-a-record-type)
+  * [在記錄型別的時間軸檢視中編輯記錄](#edit-a-record-in-the-timeline-view-of-a-record-type)
 
 
 ## 編輯記錄
@@ -237,7 +231,7 @@ Old:
    * 新增專案符號清單
    * 新增編號清單
 
-   段落欄位![&#128279;](assets/rich-text-toolbar-on-paragraph-field.png)上的RTF文字工具列
+   段落欄位](assets/rich-text-toolbar-on-paragraph-field.png)上的![RTF文字工具列
 
 1. （選擇性）連按兩下連線的記錄欄位，以將連線的記錄或物件新增至其他記錄。 如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
 1. 在鍵盤上按&#x200B;**Enter**，或按一下資料列外部以儲存變更。 變更會自動儲存。 **已儲存**&#x200B;指標會短暫顯示在表格檢視的右上角，顯示變更已儲存。
@@ -254,10 +248,10 @@ Old:
 
    * 從外部來源複製一或多個儲存格（例如，Excel檔案），然後將其貼到下列其中一個欄位型別中：
 
-      * 人員欄位。 僅支援具有一個值的欄位。
-      * 文字欄位。
-      * 選取欄位。
-      * 數字、百分比和貨幣欄位。
+     * 人員欄位。 僅支援具有一個值的欄位。
+     * 文字欄位。
+     * 選取欄位。
+     * 數字、百分比和貨幣欄位。
 
    您無法從外部來源複製資訊，並將其貼到任何其他欄位型別中，包括Workfront或其他應用程式的連線欄位。
 
@@ -296,7 +290,7 @@ Old:
    * **檢視**&#x200B;或&#x200B;**在新索引標籤中開啟**：這會開啟記錄頁面。
    * **複製連結**：複製記錄頁面的連結。
    * **編輯縮圖**：若要新增縮圖至記錄。
-如需詳細資訊，請參閱[新增縮圖至記錄](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
+     如需詳細資訊，請參閱[新增縮圖至記錄](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
    * **重複**：這會建立記錄的相同重複。
    * **在上方插入記錄/在下方插入記錄**：新增資料列，以便新增記錄。 預覽環境中無法執行此操作。
    * **刪除**：刪除記錄。 刪除的記錄會儲存在「最近刪除」方塊中最長30天。
@@ -372,6 +366,9 @@ Old:
    >  * 透過連線記錄型別建立的其他記錄中的查閱欄位。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
    >  * 下列型別的欄位：「建立者」、「建立日期」、「上次修改者」、「上次修改日期」、「公式」欄位。
 
+1. <span class="preview"> （選擇性）按一下記錄名稱左側的顏色圓圈以變更記錄顏色。</span>
+   <span class="preview">建立記錄時，會自動指定顏色。 按一下&#x200B;**色票**&#x200B;或&#x200B;**自訂**&#x200B;以選取新顏色。</span>
+
 1. （選擇性）按一下&#x200B;**新增封面**，將封面影像新增到記錄中。 如需詳細資訊，請參閱[新增封面影像至記錄](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)。
 
 1. （選擇性）將滑鼠停留在縮圖圖示上，然後按一下&#x200B;**更多** ![更多功能表](assets/more-menu.png) > **編輯縮圖**&#x200B;以新增縮圖影像。 如需詳細資訊，請參閱[新增縮圖至記錄](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
@@ -386,7 +383,7 @@ Old:
 
    ![即時指標展開的記錄預覽方塊](assets/real-time-indicator-expanded-record-preview-box.png)
 
-1. （選擇性）按一下記錄詳細資料頁面![&#128279;](assets/export-icon-in-record-details-page.png)中的&#x200B;**匯出**&#x200B;功能表匯出圖示，以匯出記錄的詳細資料。 如需詳細資訊，請參閱[匯出記錄的詳細資料](/help/quicksilver/planning/records/export-the-record-page.md)。
+1. （選擇性）按一下記錄詳細資料頁面](assets/export-icon-in-record-details-page.png)中的&#x200B;**匯出**&#x200B;功能表![匯出圖示，以匯出記錄的詳細資料。 如需詳細資訊，請參閱[匯出記錄的詳細資料](/help/quicksilver/planning/records/export-the-record-page.md)。
 
 1. （選擇性）按一下記錄預覽右上角的&#x200B;**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤圖示中開啟詳細資料](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->，以在新索引標籤中開啟記錄的頁面。 繼續編輯記錄，如本文中[從記錄頁面](#edit-a-record-from-the-records-page)區段編輯記錄。
 
@@ -428,6 +425,11 @@ Old:
    >  * 下列型別的欄位：「建立者」、「建立日期」、「上次修改者」、「上次修改日期」、「公式」欄位。
 
 1. （選擇性）按一下顯示任何欄位右側的資訊圖示，以檢視欄位說明。
+1. <span class="preview"> （選擇性）按一下記錄名稱左側的顏色圓圈以變更記錄顏色。</span>
+   <span class="preview">建立記錄時，會自動指定顏色。 按一下&#x200B;**色票**&#x200B;或&#x200B;**自訂**&#x200B;以選取新顏色。</span>
+
+   ![記錄詳細資訊方塊的檢色器方塊](assets/color-picker-box-for-record-color-in-details-page.png)
+
 1. （選擇性）按一下「**新增封面**」以將封面影像新增至記錄
 
    或
@@ -450,7 +452,7 @@ Old:
 
    ![即時指標展開的記錄預覽方塊](assets/real-time-indicator-expanded-record-preview-box.png)
 
-1. （選擇性）按一下記錄詳細資料頁面![&#128279;](assets/export-icon-in-record-details-page.png)中的&#x200B;**匯出**&#x200B;功能表匯出圖示，以匯出記錄的詳細資料。 如需詳細資訊，請參閱[匯出記錄的詳細資料](/help/quicksilver/planning/records/export-the-record-page.md)。
+1. （選擇性）按一下記錄詳細資料頁面](assets/export-icon-in-record-details-page.png)中的&#x200B;**匯出**&#x200B;功能表![匯出圖示，以匯出記錄的詳細資料。 如需詳細資訊，請參閱[匯出記錄的詳細資料](/help/quicksilver/planning/records/export-the-record-page.md)。
 
 
 ## 在Planning區段中編輯Workfront物件的記錄
@@ -481,7 +483,7 @@ Old:
 1. 移至記錄型別頁面並開啟表格檢視。
 1. 新增您要在表格檢視中新增選擇的單一或多重選取欄位作為新欄。 如需詳細資訊，請參閱[建立欄位](/help/quicksilver/planning/fields/create-fields.md)。
 1. 連按兩下欄位的儲存格，開始內嵌編輯欄位。
-1. 輸入您要新增的選擇名稱，然後按一下[新增選擇]。**&#x200B;**
+1. 輸入您要新增的選擇名稱，然後按一下[新增選擇]。****
 
    ![在表格檢視中的單一選取欄位中新增選項](assets/add-choice-in-table-view-for-single-select-field.png)
 
