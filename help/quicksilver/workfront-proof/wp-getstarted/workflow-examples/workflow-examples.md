@@ -13,7 +13,7 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 52
 ht-degree: 0%
@@ -32,3 +32,4 @@ ht-degree: 0%
 * [在 [!DNL Workfront Proof]中進行內部檢閱，然後再進行外部檢閱](../../../workfront-proof/wp-getstarted/workflow-examples/internal-external-review.md)
 * [與 [!DNL Workfront Proof]中的設計人員和專案經理合作](../../../workfront-proof/wp-getstarted/workflow-examples/work-designers-project-managers.md)
 * [使用 [!DNL Workfront Proof]中的自由譯者](../../../workfront-proof/wp-getstarted/workflow-examples/work-freelancers.md)
+

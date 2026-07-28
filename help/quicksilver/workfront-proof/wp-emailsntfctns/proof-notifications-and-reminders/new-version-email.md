@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 93
 ht-degree: 0%
@@ -41,3 +41,4 @@ ht-degree: 0%
 >如果[!UICONTROL 帳戶設定]中的電子郵件通知已停用為預設值，則檢閱者將不會收到任何[!UICONTROL 新版本]電子郵件，除非在新版本頁面上勾選[!UICONTROL 以電子郵件通知人員]方塊。
 
 ![New_Version_Email.png](assets/new-version-email-350x212.png)
+

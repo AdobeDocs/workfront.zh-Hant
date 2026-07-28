@@ -18,7 +18,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 51
 ht-degree: 0%
@@ -37,3 +37,4 @@ ht-degree: 0%
 * [電子郵件警示](../../workfront-proof/wp-emailsntfctns/email-alerts/email-alerts.md)
 * [傳送訊息給稽核者](../../workfront-proof/wp-emailsntfctns/messaging-reviewers/send-messages-to-reviewers.md)
 * [校訂通知和提醒](../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-notifications-and-reminders.md)
+

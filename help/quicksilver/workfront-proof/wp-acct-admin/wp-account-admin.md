@@ -20,7 +20,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 53
 ht-degree: 0%
@@ -41,3 +41,4 @@ ht-degree: 0%
 * [&#x200B; [!DNL Workfront Proof]中的夥伴帳戶](../../workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md)
 * [&#x200B; [!DNL Workfront Proof]中的附屬帳戶](../../workfront-proof/wp-acct-admin/satellite-accounts/satellite-accounts.md)
 * [&#x200B; [!DNL Workfront Proof] 帳戶管理的秘訣、技巧和疑難排解](../../workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting.md)
+

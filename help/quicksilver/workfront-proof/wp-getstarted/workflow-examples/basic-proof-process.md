@@ -13,7 +13,7 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 205
 ht-degree: 0%
@@ -41,5 +41,6 @@ ht-degree: 0%
 * **電子郵件警示**：設計人員或專案管理員會收到一封電子郵件，內含使用者端檢閱的摘要（視使用者端所設定的電子郵件警示而定）。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)中設定電子郵件通知設定。
 
 * **新版本** （如果需要）：設計人員或專案管理員會修正檔案，並將其上傳至[!DNL Workfront Proof]，作為新版本。
+
 
 

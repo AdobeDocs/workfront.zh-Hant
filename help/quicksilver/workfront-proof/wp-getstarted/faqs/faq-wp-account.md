@@ -20,7 +20,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 875
 ht-degree: 0%
@@ -90,3 +90,4 @@ ht-degree: 0%
 ## 如何為我的[!DNL Workfront Proof]訂閱付款？
 
 每月訂閱僅以信用卡支付。 年度訂閱可選擇信用卡或銀行轉帳。<!--Visit the [Account Payment in [!DNL Workfront Proof]](../../../workfront-proof/wp-billingsettings/manage-your-billing/acct-payment-in-wp.md) help page for additional information.-->
+

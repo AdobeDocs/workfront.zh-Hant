@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 384
 ht-degree: 0%
@@ -71,3 +71,4 @@ ht-degree: 0%
 如需有關如何變更您帳戶上信用卡詳細資料的資訊，請參閱[在Workfront Proof中選擇付款方式](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)。
 
 <!--For the detailed information on payments and invoicing, see [Account Payment in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/acct-payment-in-wp.md). -->
+

@@ -18,7 +18,7 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 444
 ht-degree: 0%
@@ -69,3 +69,4 @@ ht-degree: 0%
 | 為使用者端增強工作流程 | 您可以量身打造校訂程式，以符合特定使用者端的需求 |
 | 您的使用者端可從Satellite帳戶上傳校樣，並與您共用 | 您的使用者端可以起始自己的校樣 |
 | 之前與您使用者端共用的任何校訂都會自動顯示在其帳戶中 | 無需重新共用先前的校訂 |
+

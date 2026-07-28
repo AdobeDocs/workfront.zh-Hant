@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 180
 ht-degree: 0%
@@ -45,3 +45,4 @@ ht-degree: 0%
 1. 按一下校訂檢視器左下角的[!UICONTROL 詳細資料頁面]圖示。 ![Details_page_btn.png](assets/details-page-btn.png)
 
 1. 在出現的[!UICONTROL 校訂詳細資料]頁面的[!UICONTROL 工作流程]區段中，在&#x200B;**[!UICONTROL 電子郵件警示]**&#x200B;下方，按一下下拉式功能表中您想要的選項。
+

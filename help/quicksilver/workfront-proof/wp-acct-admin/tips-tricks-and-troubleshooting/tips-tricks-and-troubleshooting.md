@@ -19,7 +19,7 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 48
 ht-degree: 0%
@@ -35,3 +35,4 @@ ht-degree: 0%
 本節包含下列文章：
 
 * [常見問題集： [!DNL Workfront Proof]  — 美國移轉至EMEA](../../../workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/faq-wp-us-to-emea-mig.md)
+

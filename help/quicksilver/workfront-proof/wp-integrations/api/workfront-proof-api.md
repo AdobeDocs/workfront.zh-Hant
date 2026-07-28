@@ -15,7 +15,7 @@ feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 107
 ht-degree: 0%
@@ -31,3 +31,4 @@ ht-degree: 0%
 如果您是開發人員，而客戶的整合式檔案審查、共同作業和核准可能會讓您受益，您可以輕鬆地將[!DNL Workfront Proof]內嵌到您的應用程式中。 [!DNL Workfront Proof] API可讓您啟用該功能並節省數百個工時。
 
 如需詳細資訊，請參閱http://api.proofhq.com/上的API說明頁面。
+

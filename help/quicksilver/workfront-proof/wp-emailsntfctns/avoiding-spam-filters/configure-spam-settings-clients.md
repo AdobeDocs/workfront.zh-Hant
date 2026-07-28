@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 1499
 ht-degree: 0%
@@ -235,3 +235,4 @@ ht-degree: 0%
 1. 如果在&#x200B;**[!UICONTROL 寄件者篩選器]**&#x200B;欄位中選取了&#x200B;**[!UICONTROL 封鎖來自我指定之地址的郵件]**，且封鎖的位址清單中包含任何[!DNL Workfront Proof]位址或網域名稱，請從清單中刪除這些位址。
 
 1. 按一下「**[!UICONTROL 儲存]**」。
+

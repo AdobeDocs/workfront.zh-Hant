@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 403
 ht-degree: 0%
@@ -59,3 +59,4 @@ ht-degree: 0%
   >校訂的建立者會收到每個已建立校訂的個別[!UICONTROL 校訂]電子郵件。 如需詳細資訊，請參閱[校訂內容]電子郵件(../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)。
 
 * 如果您或您的檢閱者沒有收到預期的電子郵件通知，請參閱[設定 [!DNL Workfront Proof] 電子郵件以避免垃圾郵件篩選器](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md)。
+
