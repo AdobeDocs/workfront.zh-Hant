@@ -14,7 +14,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 9c592e336feb25253c18787c831adfc36da62ed1
 workflow-type: tm+mt
 source-wordcount: 986
 ht-degree: 2%
@@ -84,8 +84,9 @@ ht-degree: 2%
 
    * 所有其他通知會以圖示表示，這些圖示會建議它們關聯的工作專案型別。
 
-     ![個通知圖示](assets/ntfcntype&icon-350x330.png)
-藍點右側的圖示會顯示下列其中一項：
+     ![通知圖示](assets/ntfcntypeicon-350x330.png)
+
+   藍點右側的圖示會顯示下列其中一項：
 
    * 輸入資訊之人員的設定檔像片，通常是有關您正在處理的[!DNL Workfront]物件的更新。
    * [!DNL Workfront]標誌（如果通知是系統宣告）。
