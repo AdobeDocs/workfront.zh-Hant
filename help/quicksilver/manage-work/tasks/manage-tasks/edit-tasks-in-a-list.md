@@ -9,22 +9,12 @@ exl-id: 2af81907-3657-459e-b780-65983e224ca8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/tBznGe2cQ4VnNILQHjlgwILlD-CinYpv01ARGY9XiAw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9c592e336feb25253c18787c831adfc36da62ed1
 workflow-type: tm+mt
 source-wordcount: 2861
 ht-degree: 4%
@@ -116,36 +106,36 @@ Old:
 
 * 與在「編輯」方塊中編輯任務時需要「管理任務許可權」不同，您只能在具有「貢獻任務」許可權的清單中編輯任務。 這可讓您編輯任務的下列有限資訊：
 
-   * 說明
-   * 狀態
-   * 完成百分比
-   * 自訂表格資訊
+  * 說明
+  * 狀態
+  * 完成百分比
+  * 自訂表格資訊
 
-     >[!NOTE]
-     >
-     >只有在您具有更新欄位的許可權時，才能編輯清單中的任務自訂欄位。
+    >[!NOTE]
+    >
+    >只有在您具有更新欄位的許可權時，才能編輯清單中的任務自訂欄位。
 
-   * 記錄時數
-   * 修改指派
-   * 檢視財務資訊
-   * 新增費用、任務或問題
+  * 記錄時數
+  * 修改指派
+  * 檢視財務資訊
+  * 新增費用、任務或問題
 
 * 您可以編輯下列清單中的工作：
 
-   * 專案的任務區段
-   * 專案的子任務區段
-   * 任務報告
+  * 專案的任務區段
+  * 專案的子任務區段
+  * 任務報告
 
-     >[!NOTE]
-     >
-     >依預設，Workfront會自動將您對任務所做的變更儲存在「子任務」區段或任務報告中。
+    >[!NOTE]
+    >
+    >依預設，Workfront會自動將您對任務所做的變更儲存在「子任務」區段或任務報告中。
 
 * 您可以透過在開始編輯任務之前定義「計畫模式」，來控制Workfront何時儲存您對清單中的任務所做的變更。
 
   您可以透過下列方式，在Workfront儲存您所做的變更之間做出決定：
 
-   * 每次變更後自動
-   * 手動，只在您按一下[儲存]之後。
+  * 每次變更後自動
+  * 手動，只在您按一下[儲存]之後。
 
   如需有關在Workfront儲存您對清單中的工作所做的變更時進行設定的資訊，請參閱本文中[編輯清單中的工作之前](#modify-plan-mode-before-editing-tasks-in-a-list)一節的「修改計畫模式」。
 
@@ -202,7 +192,7 @@ Old:
 
    或
 
-   按一下工作名稱右邊的工作清單![&#128279;](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;功能表更多圖示。
+   按一下工作名稱右邊的工作清單](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;功能表![更多圖示。
 
 1. （選擇性）從下列選項中選取：
 
@@ -269,9 +259,9 @@ Old:
 * 您無法編輯專案。 編輯專案的選項已停用。
 * 您無法更新專案標頭中的資訊。 您只能在手動儲存工作清單中的變更時執行下列動作：
 
-   * 訂閱專案。
-   * 將專案新增至您的最愛清單。
-   * 按一下清單中的任務名稱以開啟任務。
+  * 訂閱專案。
+  * 將專案新增至您的最愛清單。
+  * 按一下清單中的任務名稱以開啟任務。
 
 * 大量編輯工作。 選取多個任務時，「編輯」圖示會停用。
 * Workfront只有在您儲存變更後，才會觸發您對工作進行變更的通知。
@@ -308,7 +298,7 @@ Old:
 
 1. 按一下「**套用**」。 此時會顯示工具列設定，其中包含還原、重做和儲存變更的選項。
 
-   ![手動儲存工具列](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
+   ![手動儲存工具列](assets/undo-redo-save-and-cancel-widget-for-task-list-350x65.png)
 
 1. 按一下您有權手動更新的任何欄位。 欄位會變成可編輯，您可以進行變更。
 
@@ -322,7 +312,7 @@ Old:
 
    或
 
-   按一下工作清單![&#128279;](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;功能表模式圖示。
+   按一下工作清單](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;功能表![模式圖示。
 
 1. （選擇性）從下列選項中選取：
 
@@ -366,7 +356,7 @@ Old:
    當您按一下父項任務以變更其位置時，也會移動所有子項。
 
    當您變更任務的時間表時，Workfront會更新所有專案內和跨專案相依性。
-1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。**&#x200B;**
+1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。****
 
 #### 當您選取「手動儲存時程表計畫」選項時，手動儲存工作清單中的變更 {#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-timeline-planning-option}
 
@@ -408,21 +398,21 @@ Old:
 
    * 「檢視」、「群組」和「篩選」下拉式功能表已移除，且檢視由下列欄位取代：
 
-      * 任務編號
-      * 任務名稱
-      * 限制類型
-      * 期間
-      * 規劃開始日期
-      * 規劃完成日期
-      * 前置任務
-      * 指派
-      * 狀態
-      * 完成百分比
+     * 任務編號
+     * 任務名稱
+     * 限制類型
+     * 期間
+     * 規劃開始日期
+     * 規劃完成日期
+     * 前置任務
+     * 指派
+     * 狀態
+     * 完成百分比
 
    * 敏捷檢檢視示已移除。
    * 此時會顯示工具列設定，其中包含還原、重做和儲存變更的選項。
 
-     ![手動儲存工具列](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
+     ![手動儲存工具列](assets/undo-redo-save-and-cancel-widget-for-task-list-350x65.png)
 
 1. 編輯您有權手動更新的任何欄位。
 
@@ -434,7 +424,7 @@ Old:
 
    或
 
-   按一下詢問清單![&#128279;](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;功能表更多圖示。
+   按一下詢問清單](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;功能表![更多圖示。
 
 1. 從下列選項中選取：
 
@@ -474,7 +464,7 @@ Old:
    </table>
 
 1. 當您變更任務的時間表時，Workfront會更新所有專案內和跨專案相依性。
-1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。**&#x200B;**
+1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。****
 
 ## 使用「摘要」編輯清單中的任務
 
