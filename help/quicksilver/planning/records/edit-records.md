@@ -20,20 +20,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
-source-wordcount: 3103
+source-wordcount: 3223
 ht-degree: 0%
 
 ---
 
 # 編輯記錄
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -145,17 +145,17 @@ Old:
 * 如果您擁有工作區的許可權，您可以編輯您建立的記錄或其他人建立的記錄。
 * 您可以從下列區域編輯記錄欄位：
 
-   * 記錄檢視中的記錄預覽
-   * 記錄的詳細資訊頁面
-   * 內嵌，在表格檢視中。
-   * 調整記錄大小或拖放記錄時，行事曆和時間軸檢視。 這會更新記錄的日期。
+  * 記錄檢視中的記錄預覽
+  * 記錄的詳細資訊頁面
+  * 內嵌，在表格檢視中。
+  * 調整記錄大小或拖放記錄時，行事曆和時間軸檢視。 這會更新記錄的日期。
 
 * 當使用者在檢視中編輯記錄時，變更會立即在所有檢視中可見，並且記錄頁面會向所有其他使用者顯示。
 
 * 下列型別的欄位會自動更新，您無法手動編輯其值：
-   * 從其他記錄連結的欄位
-   * 公式型別欄位
-   * 系統欄位（「建立者」、「建立日期」、「上次修改者」、「上次修改日期」、「核准日期」、「核准者」、「記錄ID」）
+  * 從其他記錄連結的欄位
+  * 公式型別欄位
+  * 系統欄位（「建立者」、「建立日期」、「上次修改者」、「上次修改日期」、「核准日期」、「核准者」、「記錄ID」）
 * 如果顯示的記錄連結到其他記錄，則您正在編輯的記錄的新資訊會反映在連結該記錄的所有工作區中的連結記錄上。
 * 您無法大量編輯記錄。<!--this will probably change-->
 * URL只有以下列專案開頭時，才會被識別為單行文字欄位型別中的連結： http://、https://、ftp://或www。 .
@@ -167,8 +167,8 @@ Old:
 
   若要編輯記錄的日期，請參閱本文中的下列其中一節：
 
-   * [在記錄型別的行事曆檢視中編輯記錄](#edit-a-record-in-the-calendar-view-of-a-record-type)
-   * [在記錄型別的時間軸檢視中編輯記錄](#edit-a-record-in-the-timeline-view-of-a-record-type)
+  * [在記錄型別的行事曆檢視中編輯記錄](#edit-a-record-in-the-calendar-view-of-a-record-type)
+  * [在記錄型別的時間軸檢視中編輯記錄](#edit-a-record-in-the-timeline-view-of-a-record-type)
 
 
 ## 編輯記錄
@@ -254,10 +254,10 @@ Old:
 
    * 從外部來源複製一或多個儲存格（例如，Excel檔案），然後將其貼到下列其中一個欄位型別中：
 
-      * 人員欄位。 僅支援具有一個值的欄位。
-      * 文字欄位。
-      * 選取欄位。
-      * 數字、百分比和貨幣欄位。
+     * 人員欄位。 僅支援具有一個值的欄位。
+     * 文字欄位。
+     * 選取欄位。
+     * 數字、百分比和貨幣欄位。
 
    您無法從外部來源複製資訊，並將其貼到任何其他欄位型別中，包括Workfront或其他應用程式的連線欄位。
 
@@ -296,7 +296,7 @@ Old:
    * **檢視**&#x200B;或&#x200B;**在新索引標籤中開啟**：這會開啟記錄頁面。
    * **複製連結**：複製記錄頁面的連結。
    * **編輯縮圖**：若要新增縮圖至記錄。
-如需詳細資訊，請參閱[新增縮圖至記錄](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
+     如需詳細資訊，請參閱[新增縮圖至記錄](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
    * **重複**：這會建立記錄的相同重複。
    * **在上方插入記錄/在下方插入記錄**：新增資料列，以便新增記錄。 預覽環境中無法執行此操作。
    * **刪除**：刪除記錄。 刪除的記錄會儲存在「最近刪除」方塊中最長30天。
@@ -372,6 +372,9 @@ Old:
    >  * 透過連線記錄型別建立的其他記錄中的查閱欄位。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
    >  * 下列型別的欄位：「建立者」、「建立日期」、「上次修改者」、「上次修改日期」、「公式」欄位。
 
+1. <span class="preview"> （選擇性）按一下記錄名稱左側的顏色圓圈以變更記錄顏色。</span>
+   <span class="preview">建立記錄時，會自動指定顏色。 按一下&#x200B;**色票**&#x200B;或&#x200B;**自訂**&#x200B;以選取新顏色。</span>
+
 1. （選擇性）按一下&#x200B;**新增封面**，將封面影像新增到記錄中。 如需詳細資訊，請參閱[新增封面影像至記錄](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)。
 
 1. （選擇性）將滑鼠停留在縮圖圖示上，然後按一下&#x200B;**更多** ![更多功能表](assets/more-menu.png) > **編輯縮圖**&#x200B;以新增縮圖影像。 如需詳細資訊，請參閱[新增縮圖至記錄](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
@@ -428,6 +431,11 @@ Old:
    >  * 下列型別的欄位：「建立者」、「建立日期」、「上次修改者」、「上次修改日期」、「公式」欄位。
 
 1. （選擇性）按一下顯示任何欄位右側的資訊圖示，以檢視欄位說明。
+1. <span class="preview"> （選擇性）按一下記錄名稱左側的顏色圓圈以變更記錄顏色。</span>
+   <span class="preview">建立記錄時，會自動指定顏色。 按一下&#x200B;**色票**&#x200B;或&#x200B;**自訂**&#x200B;以選取新顏色。</span>
+
+   ![記錄詳細資訊方塊的檢色器方塊](assets/color-picker-box-for-record-color-in-details-page.png)
+
 1. （選擇性）按一下「**新增封面**」以將封面影像新增至記錄
 
    或

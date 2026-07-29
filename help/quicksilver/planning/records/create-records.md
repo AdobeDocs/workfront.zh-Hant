@@ -20,21 +20,19 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d7831c8d233588bf2624ef23b2b524ed54aa5288
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
-source-wordcount: 3239
+source-wordcount: 3647
 ht-degree: 0%
 
 ---
 
 # 建立記錄
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
 
--->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -178,17 +176,14 @@ Old:
   >
   >工作區管理員必須為記錄型別建立請求表單，以便擁有檢視許可權的使用者使用請求表單新增記錄。 否則，檢視許可權使用者無法建立記錄。
 
-<!--
-add this bullet for July 23 release:
-
 <div class="preview">
 
-* All records are automatically color-coded when they are created, regardless of the method you are using to create them. 
+* 無論您使用何種方法來建立記錄，所有記錄在建立時都會自動以色彩標示。
 
-    For more information, see the section [Color coding records](#color-coding-records) in this article. 
+  如需詳細資訊，請參閱本文中的[色彩編碼記錄](#color-coding-records)一節。
 
 </div>
--->
+
 
 ## 使用任何記錄型態檢視中的「新增記錄」或「請求記錄」按鈕來建立記錄
 
@@ -293,8 +288,8 @@ You can import records from other applications by linking them to existing recor
      >
      >當您在分組或子分組中的最後一個記錄之後新增記錄時，Workfront會自動填入分組中包含的欄位。 如有需要，您可以手動編輯這些欄位，記錄可能會從分組中移除。
 
-   * 在表格的任何欄或列按一下鍵盤上的&#x200B;**Shift + Enter**。 這會在您開始的記錄底下新增一個空白列。<!--<span class="preview"> This is not possible in the Preview environment</span>-->
-   * 暫留在記錄的主要欄位上，按一下欄位右邊的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**插入以上記錄**&#x200B;或&#x200B;**插入以下記錄**。<!--<span class="preview"> This is not possible in the Preview environment</span>-->
+   * 在表格的任何欄或列按一下鍵盤上的&#x200B;**Shift + Enter**。 這會在您開始的記錄底下新增一個空白列。
+   * 暫留在記錄的主要欄位上，按一下欄位右邊的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**插入上方記錄**&#x200B;或&#x200B;**插入下方記錄**。
 
    ![在資料表列](assets/adding-a-new-campaign-in-table-row.png)加入新的行銷活動
 
@@ -596,52 +591,50 @@ You can import records from other applications by linking them to existing recor
 如需詳細資訊，請參閱[使用Adobe Workfront Planning記錄自動化建立物件](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)。
 
 <!--
-For July 23
-Move to its own article after preview release in 07/2026:
+Move to its own article after production release in 10/2026:
+-->
 
 <div class="preview">
 
-## Color coding records
+## 色彩編碼記錄
 
-All records are automatically associated with a color when they are created. 
+所有記錄在建立時自動與顏色相關聯。
 
-1. Create a record using one of the methods described in this article. 
+1. 使用本文所述的其中一種方法來建立記錄。
 
-    The color is immediately applied to the new record in the following areas:
+   顏色會立即套用至下列區域的新記錄：
 
-    * As a bar, to the left of the record name or primary field in the table, timeline and calendar views. 
-    * As a circle, to the left of the record name in the record's **Details** page. 
+   * 以長條圖形式顯示在表格、時間軸和行事曆檢視中記錄名稱或主要欄位的左側。
+   * 以圓形顯示，在記錄的&#x200B;**詳細資料**&#x200B;頁面中記錄名稱的左側。
 
-        For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
-1. (Conditional) To view the color of a record, do one of the following: 
-    
-    * From the table view, click the **Fields** icon in the toolbar at the top of a list of records, then turn on the **Color** setting. A bar is added to the left of the record's primary field.
+     如需詳細資訊，請參閱[管理記錄頁面配置](/help/quicksilver/planning/records/manage-the-record-page.md)。
+1. （視條件而定）若要檢視記錄的顏色，請執行下列任一項作業：
 
-        ![Table view record color bar](assets/table-record-color-bar.png)
+   * 從表格檢視中，按一下記錄清單頂端工具列上的&#x200B;**欄位**&#x200B;圖示，然後開啟&#x200B;**色彩**&#x200B;設定。 在記錄的主要欄位左側新增一個列。
 
-        For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
-    * From the timeline view, click **Settings** > **Bar style**, then turn on the **Color** setting. A bar is added to the left margin of the record's bar, when you select to color code the bar by **Record**. 
+     ![表格檢視記錄色彩列](assets/table-record-color-bar.png)
 
-        ![Timeline view record color bar](assets/timeline-record-color-bar.png)
+     如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)。
+   * 從時間軸檢視，按一下&#x200B;**設定** > **橫條樣式**，然後開啟&#x200B;**色彩**&#x200B;設定。 當您選取以&#x200B;**記錄**&#x200B;對長條進行顏色編碼時，長條會新增到記錄長條的左邊界。
 
-        For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
-    * From the calendar view, click **Settings** > **Bar style**, then turn on the **Color** setting. The record bar color matches the record color and a darker shade of the same color is added to the left margin of the record's bar, when you select to color code the bar by **Record**.
-    
-        ![Calendar view record color bar](assets/calendar-record-color-bar.png)
+     ![時間表檢視記錄色彩列](assets/timeline-record-color-bar.png)
 
-        For information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md). 
+     如需詳細資訊，請參閱[管理時間表檢視](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
+   * 從行事曆檢視，按一下&#x200B;**設定** > **橫條樣式**，然後開啟&#x200B;**色彩**&#x200B;設定。 當您選取以&#x200B;**記錄**&#x200B;對記錄列進行顏色編碼時，記錄列顏色會與記錄顏色相符，且相同顏色的較深陰影會新增至記錄列的左邊界。
 
-    The Color setting is turned off by default.
+     ![行事曆檢視記錄色彩列](assets/calendar-record-color-bar.png)
 
-1. To change the color associated with a record, do the following: 
+     如需詳細資訊，請參閱[管理行事曆檢視](/help/quicksilver/planning/views/manage-the-calendar-view.md)。
 
-    1. From the table view, click the record color bar
-        Or 
-        From the record details preview or page, click the record color circle. 
-    1. Click the **Swatches** or the **Custom** tab to select a new color. 
+   「顏色」設定預設為關閉。
 
-        Once selected, the new color is applied immediately. 
+1. 若要變更與記錄相關的顏色，請執行下列動作：
+
+   1. 在表格檢視中，按一下記錄顏色列
+      或
+      從記錄詳細資料預覽或頁面，按一下記錄顏色圓圈。
+   1. 按一下&#x200B;**色票**&#x200B;或&#x200B;**自訂**&#x200B;索引標籤以選取新顏色。
+
+      選取後，新顏色會立即套用。
 
 </div>
-
--->

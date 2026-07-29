@@ -20,7 +20,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
 source-wordcount: 1741
 ht-degree: 0%
@@ -311,7 +311,7 @@ Old:
 
 
 1. 若要顯示所有欄位，請展開頁面檢視下拉式功能表，然後選取&#x200B;**所有欄位**。
-1. （選擇性） ClicK **新詳細資料**&#x200B;新增並自訂頁面，然後執行下列動作：
+1. （選擇性）按一下「**新詳細資料**」以新增並自訂頁面，然後執行下列動作：
 
    1. 在&#x200B;**建立檢視**&#x200B;方塊中，新增新詳細資料頁面檢視的名稱，然後按一下&#x200B;**建立**。
    1. 將滑鼠懸停在檢視上的欄位上，然後按一下欄位左側的&#x200B;**隱藏欄位**&#x200B;圖示![隱藏欄點陣圖示](assets/hide-field-in-details-page-icon.png)以隱藏欄位。
