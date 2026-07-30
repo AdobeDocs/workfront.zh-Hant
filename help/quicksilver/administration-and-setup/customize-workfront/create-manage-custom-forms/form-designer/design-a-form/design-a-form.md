@@ -24,9 +24,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 58d13b171ada1f43efe4bcca0c3847048a32e863
+source-git-commit: f73a84c755dabfebdeb6cdd7b2ad59bc09a272f4
 workflow-type: tm+mt
-source-wordcount: 7956
+source-wordcount: 7922
 ht-degree: 4%
 
 ---
@@ -177,17 +177,17 @@ ht-degree: 4%
 
 * 自訂欄位標籤和API名稱不支援下列特殊字元。
 
-   * \t
-   * \n
-   * \r
-   * \f
-   * `[`
-   * `]`
-   * (
-   * )
-   * ：
-   * `{`
-   * `}`
+  * \t
+  * \n
+  * \r
+  * \f
+  * `[`
+  * `]`
+  * (
+  * )
+  * ：
+  * `{`
+  * `}`
 
 ### 新增文字欄位
 
@@ -272,7 +272,7 @@ ht-degree: 4%
     </tr>
     <tr>
     <td>指示</td>
-    <td>輸入有關欄位的任何其他資訊。 當使用者填寫自訂表單時，可以將滑鼠指標暫留在問號圖示上，以檢視包含您在此處輸入資訊的工具提示。
+    <td>輸入有關欄位的任何其他資訊。當使用者填寫自訂表單時，可以將滑鼠指標暫留在問號圖示上，以檢視包含您在此處輸入資訊的工具提示。
     <img src="assets/instructions-form-designer.png">
     </td>
     <td><ul>
@@ -1050,7 +1050,7 @@ The Workfront Mobile app
 
 ### 新增Workfront原生欄位
 
-您可以將Workfront原生欄位新增至自訂表單。 當自訂表單附加到物件時，會從物件資料填入欄位。 例如，附加到專案的自訂表單上的說明欄位將提取專案說明。 （如果沒有可用資料，欄位可能會顯示「N/A」。）
+您可以將Workfront原生欄位新增至自訂表單。 當自訂表單附加到物件時，會從物件資料填入欄位。 例如，如果自訂欄位參考說明欄位，並且它位於附加到專案的自訂表單上，則會提取專案說明。 （如果沒有可用資料，欄位可能會顯示「N/A」。）
 
 +++ 展開以檢視支援的原生欄位清單。
 
@@ -1218,7 +1218,7 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>（必要）輸入或貼上有效的XD原型連結。</p> 
-      <p><b>注意</b>： Adobe XD中「共用」標籤上的「連結存取」設定必須設定為「擁有連結的任何人」。 否則，使用者將無法檢視原型。 
+      <p><b>注意</b>： Adobe XD中「共用」標籤上的「連結存取」設定必須設定為「擁有連結的任何人」。否則，使用者將無法檢視原型。 
    </td> 
      </tr> 
      <tr> 

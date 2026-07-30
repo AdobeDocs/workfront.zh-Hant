@@ -23,14 +23,16 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: b3170f61af451136f8a2b0d7f196bfd379ed952a
 workflow-type: tm+mt
-source-wordcount: 1230
+source-wordcount: 1247
 ht-degree: 2%
 
 ---
 
 # 使用版面配置範本自訂左側面板
+
+{{preview-fast-release-general}}
 
 <!--Audited: 10/2024-->
 
@@ -38,6 +40,10 @@ ht-degree: 2%
 
 例如，您可以決定使用者在檢視專案時，會在左側面板中看見下列哪些專案：
 
+在預覽環境中<span class="preview">範例影像：</span>
+![專案的左側面板](assets/left-panel-in-project-072326.png)
+
+生產環境中的影像範例：
 ![專案的左側面板](assets/left-panel-in-project.png)
 
 >[!IMPORTANT]
@@ -149,7 +155,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td>[!UICONTROL 專案]</td> 
-      <td>[!UICONTROL 主功能表]中的專案<img src="assets/projects-in-main-menu.png"> <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>[!UICONTROL 主功能表]中的專案 <img src="assets/main-menu-icon-left-nav.png"></td> 
       <td>[!UICONTROL 專案]</td> 
      </tr> 
      <tr> 

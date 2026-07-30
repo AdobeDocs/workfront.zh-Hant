@@ -11,9 +11,9 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
+source-git-commit: 5b445284b2d7445ae2119c546244a45ac17d8c97
 workflow-type: tm+mt
-source-wordcount: 334
+source-wordcount: 412
 ht-degree: 0%
 
 ---
@@ -84,3 +84,20 @@ The multi-object listing in the breadcrumb (for example, the campaigns) displays
    物件頁面隨即開啟。
 
    如果您檢視的專案連線到Workfront Planning中的物件（例如行銷活動），您可以從階層連結在Planning和Workfront物件型別之間切換。 如需詳細資訊，請參閱[階層與階層連結概觀](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)。
+
+<div class="preview">
+
+## 從階層連結複製名稱和連結
+
+{{highlighted-preview}}
+
+您可以從階層連結路徑複製物件名稱，並一起連結在一個動作中。
+
+1. 暫留在階層連結路徑中的任何物件上。
+1. 按一下物件名稱旁出現的&#x200B;**[!UICONTROL 複製連結]**&#x200B;圖示。
+
+   在階層連結上![複製連結圖示](assets/copy-breadcrumbs.png)
+
+   物件的名稱和連結會一起複製。 貼上複製的資訊時，該資訊會顯示為可點按的連結，物件名稱為連結文字。
+
+</div>

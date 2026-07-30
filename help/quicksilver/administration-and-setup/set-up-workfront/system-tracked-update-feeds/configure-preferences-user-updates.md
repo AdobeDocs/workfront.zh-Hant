@@ -19,10 +19,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 75779f9563462e3cbde044f9323e174a9a9a70ad
 workflow-type: tm+mt
-source-wordcount: 271
-ht-degree: 8%
+source-wordcount: 291
+ht-degree: 7%
 
 ---
 
@@ -96,13 +96,13 @@ Old:
 >
 >* 更新中儲存的影像會計入檔案儲存限制。 如需詳細資訊，請參閱[檢查檔案儲存限制](../../../documents/managing-documents/check-document-storage.md)。
 >* 影像可透過物件上的[!UICONTROL 更新]標籤存取，也可在[!UICONTROL 主要功能表]下的[!UICONTROL 檔案]區域取得。
->
+>* 此偏好設定也控管使用者能否使用Adobe雲端儲存空間將影像附加到物件的註解上。 附加的影像會儲存在Adobe雲端儲存空間。
 
 1. 按一下[!DNL Adobe Workfront]右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![齒輪設定圖示](assets/gear-icon-settings.png)。
 1. 在左側面板中，選取&#x200B;**[!UICONTROL 介面]** > **[!UICONTROL 更新摘要]**。
 1. 選取&#x200B;**[!UICONTROL 偏好設定]**&#x200B;標籤。
 
-   ![更新摘要的使用者偏好設定](assets/updatefeeds-preferences-350x137.png)
+<!--![User preferences for update feeds](assets/updatefeeds-preferences-350x137.png)-->
 
 1. 選取&#x200B;**[!UICONTROL 允許使用者在更新中新增影像]**&#x200B;核取方塊。
 1. 選取&#x200B;**[!UICONTROL 「儲存」]**。

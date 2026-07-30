@@ -18,14 +18,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8865d770518504ccc3eb50175dafeab66eba8563
+source-git-commit: 01a67480d4dbaeaa03f3380d825676f7b6478ec0
 workflow-type: tm+mt
-source-wordcount: 3142
+source-wordcount: 3184
 ht-degree: 1%
 
 ---
 
 # 使用增強型清單
+
+{{preview-fast-release-general}}
 
 Adobe Workfront的部分割槽域提供增強型清單。 這些清單使用表格格式來顯示清單專案，並且它們具有與標準清單不同的外觀和感覺。 也增強了檢視管理，包括篩選、分組、管理欄和搜尋。
 
@@ -203,17 +205,20 @@ Adobe Workfront的部分割槽域提供增強型清單。 這些清單使用表�
 
    <!-- Add info about Properties and KPIs when something gets released with those options -->
 
+1. <span class="preview">（選擇性）若要重新排序欄，請將游標停留在&#x200B;**選取的**&#x200B;區段中的欄名稱上，然後按一下&#x200B;**拖曳**&#x200B;圖示![拖曳圖示](assets/drag-icon.png)。 垂直行動資料行，以依序排列。</span>
 1. 按一下「**儲存**」。
 
    ![資料行管理員](assets/glist-column-manager.png)
 
    清單會根據您所做的選擇更新欄。
 
-### 變更檢視中的列高
+## 自訂列
 
 >[!NOTE]
 >
 >並非所有增強型清單都具有本節所述的所有元素。
+
+若要變更檢視中的列高：
 
 1. 按一下增強型清單中的&#x200B;**列高**&#x200B;圖示![列高圖示](assets/row-height-icon.png)。
 
@@ -222,6 +227,14 @@ Adobe Workfront的部分割槽域提供增強型清單。 這些清單使用表�
    * 標準。 這是預設選擇。
    * 媒體
    * 高
+
+若要變更列的順序：
+
+1. 將列拖放至您偏好的順序。
+
+   >[!NOTE]
+   >
+   >如果您已套用排序，則無法手動變更列順序。
 
 ## 更新增強型清單元素
 
@@ -366,8 +379,8 @@ Adobe Workfront的部分割槽域提供增強型清單。 這些清單使用表�
 1. 按一下&#x200B;**格式**&#x200B;方塊外部以關閉它。
 
    這會將您帶回清單檢視。
-格式會立即套用至清單檢視。
-**格式化儲存格**&#x200B;圖示旁有一個藍點，表示檢視已套用特殊格式。
+   格式會立即套用至清單檢視。
+   **格式化儲存格**&#x200B;圖示旁有一個藍點，表示檢視已套用特殊格式。
 
 ### 篩選增強型清單中的專案
 

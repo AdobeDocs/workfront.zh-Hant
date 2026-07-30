@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
+source-git-commit: 69d930d5fa6272329e3d7f99fdf78ccd823857df
 workflow-type: tm+mt
-source-wordcount: '14352'
+source-wordcount: '14396'
 ht-degree: 2%
 
 ---
@@ -19,6 +19,15 @@ ht-degree: 2%
     * [產品發行概觀](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront發行排程和程式](product-announcements/product-releases/workfront-release-schedule.md)
     * [準備Adobe Workfront的季度發行](product-announcements/product-releases/release-readiness.md)
+    * 2026年第4季發行 {#release-26-q4}
+      * [2026年第四季版本總覽](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
+      * [2026年第四季AI增強功能](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md)
+      * [2026年第四季管理員增強功能](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md)
+      * [2026年第四季檔案增強功能](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md)
+      * [2026年第四季專案增強功能](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-projects.md)
+      * [2026年第四季報表增強功能](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md)
+      * [2026年第四季資源管理增強功能](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-resource-mgmt.md)
+      * [2026年第四季其他增強功能](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md)
     * 2026年第3季發行 {#release-26-q3}
       * [2026年第三季度版本總覽](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)
       * [2026年第三季AI增強功能](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md)
@@ -2198,7 +2207,7 @@ ht-degree: 2%
     * [從另一個工作區新增現有記錄型別](planning/architecture/add-existing-record-types-from-another-workspace.md)
     * [連線記錄型別概觀](planning/architecture/connect-record-types-overview.md)
     * [連線記錄型別](planning/architecture/connect-record-types.md)
-    * {hide-from-toc}[管理相依連線](planning/architecture/manage-dependent-connections.md)
+    * [管理相依連線](planning/architecture/manage-dependent-connections.md)
     * [編輯記錄型別](planning/architecture/edit-record-types.md)
     * [刪除工作區](planning/architecture/delete-workspaces.md)
     * [編輯工作區](planning/architecture/edit-workspaces.md)

@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 20d4bc743c0d7f09e1a8c5b1ce48b88cd0c21287
+source-git-commit: 6b8fc9e010c850625deb3927483f79da190e3f33
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,48 @@ ht-degree: 0%
 本文介紹2026年第四季發行的Workfront Planning功能。
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 在表格檢視中拖放列
+
+>[!NOTE]
+>
+>預覽： 2026年7月30日>生產快速發行： 2026年8月13日>所有人生產： 2026年10月15日
+
+在表格檢視中拖放列的體驗已改善視覺效果。
+
+如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)。
+
+
+## 相依的已連線記錄欄位
+
+>[!NOTE]
+>
+>預覽： 2026年7月30日>生產快速版本： 2026年8月13日>每個人都生產： 2026年10月15日
+
+Workspace管理員現在可以定義已連線記錄型別之間的相依性。 例如，確定區域欄位只會顯示與所選地理繫結的值。 這直接在連線欄位設定中設定：當從地域記錄型別新增連線到相依記錄型別（例如地區）時，新設定可讓工作區管理員使用在這些記錄型別之間已建立的關係，將其標籤為相依於地域記錄型別。
+
+設定之後，參考這兩個欄位（例如促銷活動）的任何記錄型別都會立即看到效果：選取地理值會將區域選擇器縮小為僅包含實際連結至該地理的區域。 這會自動強制執行您的記錄結構，消除不相符的組合，並減少手動清除作業。
+
+此更新包含下列功能：
+
+* 在連線記錄型別時，我們在「新連線」標籤中新增了新的「連線設定」區段
+* 我們已在新區段中新增「使該連線相依性」設定
+
+
+如需詳細資訊，請參閱[管理相依連線](/help/quicksilver/planning/architecture/manage-dependent-connections.md)。
+
+
+
+
+## 在表格檢視中顯示記錄的新註解指標
+
+>[!NOTE]
+>
+>預覽： 2026年7月30日>生產快速版本： 2026年8月13日>每個人都生產： 2026年10月15日
+
+我們新增了一個指標，顯示記錄中何時有未讀取的評論。 指標顯示在表格檢視中記錄的主要欄位的右上角。
+
+如需詳細資訊，請參閱[管理記錄註解](/help/quicksilver/planning/records/manage-record-comments.md)。
 
 ## 可自訂的記錄色彩和連線色彩編碼
 

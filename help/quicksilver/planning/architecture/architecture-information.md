@@ -12,9 +12,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
+source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
 workflow-type: tm+mt
-source-wordcount: 235
+source-wordcount: 238
 ht-degree: 9%
 
 ---
@@ -51,10 +51,8 @@ ht-degree: 9%
 * [階層與階層連結概觀](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)
 * [建立工作區階層](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)
 
-<!--
 <div class="preview">
 
-* [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md)
+* [管理相依連線](/help/quicksilver/planning/architecture/manage-dependent-connections.md)
 
 </div>
--->

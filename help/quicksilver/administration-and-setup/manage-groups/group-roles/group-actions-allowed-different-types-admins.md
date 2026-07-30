@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 2ccb057b73391f6b1899f1f14efdce1ae0ca7775
 workflow-type: tm+mt
-source-wordcount: 450
+source-wordcount: 456
 ht-degree: 4%
 
 ---
@@ -61,6 +61,12 @@ ht-degree: 4%
    <td>✓</td> 
    <td>✓*</td> 
    <td>✓*</td> 
+  </tr> 
+  <tr> 
+   <td>建立、編輯和刪除企業檔案</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>建立和管理子群組</td>

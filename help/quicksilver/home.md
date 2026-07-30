@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Adobe Workfront]檔案'
+title: '[!DNL Adobe Workfront] 文件'
 description: ' [!DNL Adobe Workfront]的檔案。'
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
@@ -18,14 +18,14 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: ff6a5ac43d9cbc162446ad14608b366dc737fc9b
 workflow-type: tm+mt
-source-wordcount: 454
-ht-degree: 27%
+source-wordcount: 459
+ht-degree: 29%
 
 ---
 
-# [!DNL Workfront]檔案
+# [!DNL Workfront] 文件
 
 歡迎使用Adobe Workfront產品與技術檔案首頁。 使用下列Adobe Workfront連結、說明文章和其他資源，瞭解如何在組織中實施並有效使用Adobe Workfront。
 
@@ -35,12 +35,13 @@ ht-degree: 27%
 
 >[!TAB 最新版本]
 
-* [2026年第三季度版本總覽](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)
-* [Adobe Workfront Planning發行活動](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
+* [2026年第四季版本總覽](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
+* [Adobe Workfront Planning發行活動](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)
 * [Adobe Workfront Fusion 發行活動](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 
 >[!TAB 2026版本]
 
+* [2026年第四季版本總覽](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
 * [2026年第三季度版本總覽](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)
 * [2026年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
 * [2026年第一季版本總覽](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)

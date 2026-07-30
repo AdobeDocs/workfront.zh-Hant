@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
+source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1332'
 ht-degree: 1%
 
 ---
@@ -110,6 +110,12 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
 * 如果來源欄位的值變更，相依欄位會自動清除，而不是保留在無效狀態，以防止不相符的組合持續存在。
 
   您會收到內嵌或快顯通知訊息，說明為何已清除相依欄位。
+
+* 每個相依欄位最多可以有3個直接控制欄位。
+
+* 相依性層級限製為6個連線。 這表示最多可以連線7個記錄型別。
+
+* 為了讓相依性鏈結運作，所有相依欄位必須同時存在於相同的記錄型別上。
 
 ## 建立相依連線
 

@@ -23,14 +23,16 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f73a84c755dabfebdeb6cdd7b2ad59bc09a272f4
 workflow-type: tm+mt
-source-wordcount: 1356
+source-wordcount: 1372
 ht-degree: 2%
 
 ---
 
 # 組織和預覽表單
+
+{{preview-fast-release-general}}
 
 您可以使用表單設計工具來組織自訂表單，並預覽以確認其設定正確。
 
@@ -191,6 +193,8 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >表單設計工具預覽模式不支援進階邏輯。
+   >在生產環境中，表單設計工具預覽模式不支援進階邏輯。
+   >
+   ><span class="preview">在預覽環境中，所有邏輯型別都可在預覽模式中使用。</span>
 
 

@@ -19,22 +19,18 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
+source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
 workflow-type: tm+mt
-source-wordcount: 807
+source-wordcount: 899
 ht-degree: 0%
 
 ---
 
 # 管理記錄註解
 
-<!--
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
--->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -214,15 +210,14 @@ Old:
 
    您在郵件中標籤的使用者會收到新郵件的通知。
 
-   <!--
    <div class="preview">
 
-   Everyone with View permissions to the record type can see a **New comment** indicator in the table view for the record you added the comment to. 
+   擁有記錄型別檢視許可權的所有人都可以在表格檢視中看到您新增註解之記錄的&#x200B;**新註解**&#x200B;指標。
 
-      ![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
+   ![表格檢視中的新註解圖示](assets/new-comment-icon-in-table-view-highlighted.png)
 
    </div>
-   -->
+
 1. （選擇性）按一下評論右上角的&#x200B;**更多**&#x200B;圖示![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**刪除**&#x200B;以刪除評論。
 1. （選擇性）按一下&#x200B;**隱藏註解**&#x200B;圖示![隱藏註解圖示](assets/hide-comments-icon.png)以關閉右側面板。
 

@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
+source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
 workflow-type: tm+mt
-source-wordcount: 3912
+source-wordcount: 3939
 ht-degree: 2%
 
 ---
@@ -308,13 +308,11 @@ Old:
 
    預設縮圖影像<span class="preview">和色彩</span>也會新增到新記錄中。
 
-   <!--
-    >[!TIP]
-    >
-    ><span class="preview">When a record has unread comments, a **New comment** indicator displays in the upper-right corner of the record's primary field.</span>
-    >
-    >![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
-    -->
+   >[!TIP]
+   >
+   ><span class="preview">當記錄有未讀取的註解時，會在記錄的主要欄位的右上角顯示&#x200B;**新註解**&#x200B;指示器。</span>
+   >
+   >![表格檢視中的新註解圖示](assets/new-comment-icon-in-table-view-highlighted.png)
 
 1. （選擇性）選取一或多個記錄或列，然後將&#x200B;**控制代碼**&#x200B;圖示![控制代碼圖示](assets/handle-icon.png)拖放到記錄左側，以重新排序列。
 
