@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
+source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
 workflow-type: tm+mt
-source-wordcount: 3068
+source-wordcount: 3092
 ht-degree: 1%
 
 ---
@@ -90,14 +90,19 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    <td> 
 <p>若要從相同工作區連線記錄型別： </p>
 <ul> 
-<li><p>任何Workfront和任何Planning套件</p></li>
-<li><p>任何工作流程與任何Planning套件</li></ul>
+<li><p>任何Workfront或工作流程套件和任何Planning套件</p></li>
+<p>或</p>
+<li><p>以獨立產品形式購買時的任何Planning套件</p></li>
+</ul>
 
 <p>若要從不同的工作區連線記錄型別：</p>
 
-<ul> 
-<li><p>任何Workfront和任何Planning套件</p></li>
-<li><p>任何工作流程和Planning Prime或Ultimate套件</p></li></ul>
+<ul>
+
+<li><p>任何工作流程和Planning Prime或Ultimate套件</p></li>
+<p>或</p>
+<li><p>任何以獨立產品形式購買的Planning Prime或Ultimate套件</p></li>
+</ul>
 <p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
    </td> 
 <tr> 
@@ -208,7 +213,7 @@ Old:
 1. 按一下記錄型別的卡片以開啟記錄型別頁面。
 1. 按一下表格檢視右上角的&#x200B;**+**&#x200B;圖示，然後按一下&#x200B;**新增連線**&#x200B;索引標籤。
 
-   ![與Workfront、AEM和GenStudio品牌的新連線索引標籤](assets/new-connection-tab-with-workfront-aem-options-gens-brands-etc.png)
+   ![與Workfront、AEM和GenStudio品牌的新連線標籤](assets/new-connection-tab-with-workfront-aem-options-gens-brands-etc.png)
 
    <!--
     Old shot:
@@ -299,7 +304,15 @@ Old:
    * **多重選取**：選取此專案以允許目前記錄型別中的一個記錄與連線記錄型別中的多個記錄連線。
    * **Single-select**：選取此專案可允許來自目前記錄型別的一個記錄與來自連線記錄型別的一個記錄連線。
 
-1. 選取&#x200B;**在連結的記錄型別**&#x200B;上建立對應的欄位。 選取後，除了新增到目前記錄型別的連線欄位外，還會為您連線的記錄型別建立連線欄位。 預設為停用。
+1. 在&#x200B;**連線型別**&#x200B;區段<!--<span class="preview">, when connecting all object types but not Planning record types</span>-->中，選取&#x200B;**在連結的記錄型別**&#x200B;上建立對應的欄位。
+
+   <!--
+    >[!TIP]
+    >
+    ><span class="preview">The **Connection type** section has been replaced by the **Connection settings** section when connecting Planning record types. </span>
+    -->
+
+   選取後，除了新增到目前記錄型別的連線欄位外，還會為您連線的記錄型別建立連線欄位。 預設為停用。
 
    >[!TIP]
    >
@@ -311,7 +324,7 @@ Old:
    >   * 未針對連線至Planning記錄的Workfront物件建立欄位。
    >   * Planning記錄型別從GenStudio工作區連線至記錄型別時，未建立任何欄位。
 
-1. （視條件而定）如果您已啟用&#x200B;**在連結的記錄型別**&#x200B;上建立對應的欄位，請從下列選項中選擇，以指出使用者可連線到多少筆記錄，以及可從多少筆記錄連線：
+1. （視條件而定）如果您在&#x200B;**連線型別**&#x200B;區段中啟用了&#x200B;**在連結的記錄型別**&#x200B;上建立對應的欄位，請從下列選項中選擇，以指出使用者可連線到多少筆記錄，以及可從多少筆記錄連線：
 
    * 多對多
    * 一對多

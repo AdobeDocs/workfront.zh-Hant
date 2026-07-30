@@ -12,7 +12,7 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
 workflow-type: tm+mt
 source-wordcount: 235
 ht-degree: 9%
@@ -50,3 +50,11 @@ ht-degree: 9%
 * [設定記錄型別的設定區域](/help/quicksilver/planning/architecture/configure-record-type-settings.md)
 * [階層與階層連結概觀](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)
 * [建立工作區階層](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)
+
+<!--
+<div class="preview">
+
+* [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md)
+
+</div>
+-->

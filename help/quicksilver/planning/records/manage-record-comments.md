@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
 workflow-type: tm+mt
-source-wordcount: 798
+source-wordcount: 807
 ht-degree: 0%
 
 ---
@@ -166,8 +166,8 @@ Old:
 
 * 您可以新增更新至記錄，並從Workfront Planning的下列區域複查變更歷史記錄：
 
-   * 從記錄詳細資訊頁面。
-   * 從檢視，在記錄詳細資訊方塊中。
+  * 從記錄詳細資訊頁面。
+  * 從檢視，在記錄詳細資訊方塊中。
 
 ### 管理記錄的評論
 
@@ -206,11 +206,23 @@ Old:
    >
    >您無法將影像新增至錄製註解。
 
-
 1. 繼續新增註解至記錄。
 
    如需有關更新物件的詳細資訊，包括Workfront Planning記錄，請參閱[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
+1. 按一下&#x200B;**提交**&#x200B;來錄製註解。
+
+   您在郵件中標籤的使用者會收到新郵件的通知。
+
+   <!--
+   <div class="preview">
+
+   Everyone with View permissions to the record type can see a **New comment** indicator in the table view for the record you added the comment to. 
+
+      ![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
+
+   </div>
+   -->
 1. （選擇性）按一下評論右上角的&#x200B;**更多**&#x200B;圖示![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**刪除**&#x200B;以刪除評論。
 1. （選擇性）按一下&#x200B;**隱藏註解**&#x200B;圖示![隱藏註解圖示](assets/hide-comments-icon.png)以關閉右側面板。
 
