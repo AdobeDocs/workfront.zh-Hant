@@ -1,28 +1,19 @@
 ---
 product-area: documents;workfront-integrations
-navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: 使用由Experience Manager Assets提供支援的「內容建議程式」連結內容和資料夾
-description: 您可以使用「內容建議程式」，將內容或資料夾從Experience Manager Assets連結至任何支援檔案的Adobe Workfront物件。 Content Advisor將智慧型內容感知探索功能直接匯入Workfront，協助您快速找到相關且經過核准的內容。
+navigation-topic: native-integrations
+title: 將Experience Manager Assets中的內容和資料夾與Adobe雲端儲存空間連結
+description: 如果您的組織使用Adobe雲端儲存空間，您可以從Experience Manager Assets將內容和資料夾連結至支援檔案的任何Adobe Workfront物件。
 author: Courtney
-feature: Digital Content and Documents, Workfront Integrations and Apps
-exl-id: dbd19985-88b1-48ca-9cba-b7933ff2c191
-TQID: https://experienceleague.adobe.com/0qWQcRcAeOK7SfQTqHfSrxvyTf2h9piCwwJ9Tg2rCWQ
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d7df53ffd980b9a05856bb40472bbeebba5da84e
+source-git-commit: 805cc8dfaa17438eb1d454d00d5f7986540379b3
 workflow-type: tm+mt
-source-wordcount: 1435
-ht-degree: 1%
+source-wordcount: '913'
+ht-degree: 2%
 
 ---
 
-# 使用Experience Manager Assets的內容警告器連結內容和資料夾
+# 將Experience Manager Assets中的內容和資料夾與Adobe雲端儲存空間連結
 
-Content Advisor將智慧型內容感知探索功能直接匯入Workfront，協助您根據內容快速找到相關且核准的內容。 藉由智慧建議、Dynamic Media轉譯和詳細資產中繼資料等功能，您能夠在不離開Workfront的情況下有效評估和重複使用內容，進而加快內容建立速度，同時維持品牌一致性。
-
-您可以使用「內容建議程式」，將內容和資料夾從Experience Manager Assets連結至Workfront。 連結後，您可以在Workfront中檢視和管理內容，對Experience Manager Assets內容所做的任何變更都會反映在Workfront中。
+如果您的組織使用Adobe雲端儲存空間，您可以將內容和資料夾從Experience Manager Assets連結至Workfront。 連結後，您可以在Workfront中檢視和管理內容，對Experience Manager Assets內容所做的任何變更都會反映在Workfront中。
 
 >[!IMPORTANT]
 >
@@ -48,7 +39,7 @@ Content Advisor將智慧型內容感知探索功能直接匯入Workfront，協�
   </tr> 
   <tr> 
    <td role="rowheader">其他產品</td> 
-   <td>您必須擁有Experience Manager as a Cloud Service或Assets Essentials，並且您必須在Admin Console中作為使用者新增到產品中。</td> 
+   <td>您必須擁有Experience Manager as a Cloud Service，且您必須在Admin Console中新增為產品使用者。</td> 
   </tr> 
    <tr> 
     <td role="rowheader">Experience Manager許可權</td> 
@@ -73,27 +64,20 @@ Content Advisor將智慧型內容感知探索功能直接匯入Workfront，協�
 
 開始之前：
 
-* 您的Workfront管理員必須設定Experience Manager整合。 如需詳細資訊，請參閱[設定Experience Manager Assets as a Cloud Service整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)。
+* 您的Workfront管理員必須設定Experience Manager整合。 如需詳細資訊，請參閱[使用Adobe Experience Manager與Frame.io整合](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)。
 
 * 若要使用Smart Suggestions或Campaign Briefs功能，您必須簽署GenAI Rider。 如需詳細資訊，請參閱[使用內容警告器存取Adobe應用程式中的AEM內容](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search)。
 
-
-
-## 使用「內容建議程式」從Experience Manager Assets連結內容
-
-您現在可以使用內容警告器，直接在Workfront中連結Experience Manager Assets的內容。 內容警告器不適用於Assets Essentials。
+## 從Experience Manager Assets連結內容
 
 若要連結內容：
 
-1. 移至Workfront中要新增檔案的&#x200B;**檔案**&#x200B;區域。
-1. 選取「**新增**」，然後選取管理員設定的Experience Manager整合。
-
-   >[!NOTE]
-   >
-   >Workfront管理員可為這項整合選擇任何名稱，因此可能不會特別提及Experience Manager Assets。
+1. 前往您要連結內容的Workfront物件。
+1. 按一下左側面板中的&#x200B;**檔案**&#x200B;區段。
+1. 按一下頁面右側的「**新增**」，然後按一下「**AEM檔案**」以連結個別資產。
+   ![將AEM檔案新增至檔案區域](assets/aem-files.png)
 
 1. 使用「內容建議程式」，您可以：
-
 
    <table style="table-layout:auto">
    <tbody>
@@ -117,10 +101,12 @@ Content Advisor將智慧型內容感知探索功能直接匯入Workfront，協�
          <td><strong>將Dynamic Media修飾元套用至轉譯。</strong> 新增修飾元以即時轉換資產轉譯，並在為您的主機應用程式選取轉譯之前預覽結果。</td>
          <td>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">可供使用的動態媒體資產轉譯</a>。</td>
       </tr>
+      <!--
       <tr>
-         <td><strong>探索和瀏覽內容片段。</strong> 搜尋內容片段、檢視即時縮圖預覽、檢查狀態（草稿、已修改或已發佈），以及檢查詳細的屬性、參考和變數。</td>
-         <td>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">探索內容片段</a>。</td>
+         <td><strong>Discover and browse Content Fragments.</strong> Search through Content Fragments, view live thumbnail previews, check status (Draft, Modified, or Published), and inspect detailed properties, references, and variations.</td>
+         <td>For more information, see <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">Discovery of Content Fragments</a>.</td>
       </tr>
+      -->
       <tr>
          <td><strong>存取資產中繼資料。</strong> 檢閱與Assets檢視一致的資產屬性，例如標題、說明、格式、大小和其他中繼資料標籤（產品、行銷活動、標籤）。</td>
          <td>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#asset-metadata-content-advisor">存取與Assets檢視一致的資產中繼資料</a>。</td>
@@ -140,56 +126,42 @@ Content Advisor將智慧型內容感知探索功能直接匯入Workfront，協�
    </tbody>
    </table>
 
+<!--
+### Link a new version from Experience Manager Assets
 
-### 使用「內容建議程式」從Experience Manager Assets連結新版本
+You can pull new content over from Experience Manager Assets and add it to an existing asset as a new version. If the document is already linked and a new version is added in Experience Manager Assets, the new version appears automatically in Workfront.
 
-您可以從Experience Manager Assets或Assets Essentials提取新內容，並將其作為新版本新增到現有資產。 如果檔案已連結，並在Experience Manager Assets或Assets Essentials中新增了新版本，新版本會自動在Workfront中顯示。
+To link a new version:
 
-若要連結新版本：
-
-1. 移至Workfront中要新增檔案的&#x200B;**檔案**&#x200B;區域。
-1. 選取您要取代為新版本的資產。 您無法在連結的資料夾中建立新版本的資產。
-1. 選取「**新增** > **版本**」，然後選取系統管理員設定的Experience Manager整合。
-
-   >[!NOTE]
-   >
-   >Workfront管理員可為這項整合選擇任何名稱，因此可能未特別提及Experience Manager Assets。
-
-1. 選取您要連結的內容：
-
-   * 選取Assets標籤以瀏覽Experience Manager Assets或Assets Essentials中的資產、資料夾或集合。
-
-     ![內容顧問](assets/content-advisor-full.png)
-
-   * 內容片段不支援版本。 如果您選取內容片段，新版本將會取代現有的內容片段，而不會建立新版本。
-
-1. 按一下「**選取**」。
-
-## 從Experience Manager Assets連結資料夾與內容建議程式
-
-檢視檔案夾內個別資產的許可權取決於Experience Manager Assets許可權。
-
-連結資料夾：
-
-1. 移至Workfront中您想要資料夾的&#x200B;**檔案**&#x200B;區域。
-1. 選取「**新增**」，然後選取管理員設定的Experience Manager整合。
+1. Go to the Workfront object where you want to link content.
+1. Click the **Documents** section in the left panel.
+1. Select the asset you want to replace with a new version. You can't create a new version of an asset in a linked folder.
+1. Select **Add New** > **Version**, then select the Experience Manager integration your administrator set up.
 
    >[!NOTE]
    >
-   >Workfront管理員可為這項整合選擇任何名稱，因此可能未特別提及Experience Manager Assets。
+   >The Workfront administrator can choose any name for this integration, so it might not specifically mention Experience Manager Assets.
 
-1. 按一下&#x200B;**Assets** > **檔案與資料夾**。
+1. Select the content you want to link.
+1. Click **Select**.
+-->
 
-1. 按一下&#x200B;**篩選器**&#x200B;圖示，然後在&#x200B;**資產型別**&#x200B;區段中，選擇&#x200B;**資料夾**。
+<!--
+## Link a folder from Experience Manager Assets
 
-1. 選取您要連結的資料夾。
+Permissions to view individual assets inside of a folder rely on Experience Manager Assets permissions.
 
-1. 按一下「**選取**」。
+To link a folder:
+
+1. Go to the Workfront object where you want to link content.
+1. Click the **Documents** section in the left panel.
+1. Click **Assets** > **Files & Folders**.
+1. Click the **Filter** icon, then in the **Asset Type** section, choose **Folders**.
+1. Select the folder you want to link.
+1. Click **Select**.
+-->
 
 ## 考量事項
 
-* 使用Adobe雲端儲存空間的物件無法使用「內容建議程式」功能。 如果您的組織使用Adobe雲端儲存空間，您仍可以從Experience Manager Assets或Assets Essentials連結資產和資料夾，但您將無法存取Content Advisor功能，例如AI 搜尋、智慧型建議或Dynamic Media轉譯。 如需詳細資訊，請參閱[將Experience Manager Assets的內容和資料夾與Adobe雲端儲存空間連結](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)。
-
-* 內容警告器功能不適用於Assets Essentials。 若要從Assets Essentials連結資產和資料夾，請參閱[從Experience Manager Assets Essentials連結資產和資料夾](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md)。
-
+* 連結的AEM資產不支援檢閱和核准工作流程。
 * 從Workfront傳送資產至Experience Manager Assets時，會先對應中繼資料欄位。 如果您的Workfront管理員已啟用物件中繼資料同步，則欄位在任一應用程式中變更後仍會保持最新狀態。
