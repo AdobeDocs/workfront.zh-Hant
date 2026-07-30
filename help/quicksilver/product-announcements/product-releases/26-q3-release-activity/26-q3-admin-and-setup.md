@@ -4,9 +4,9 @@ description: 2026年第三季度管理員增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 46db578d2412d622818a599cfb27ec4ae73a5298
+source-git-commit: 8300e424d36a438ebb8e5ce0cad85ea63614bd8d
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1543'
 ht-degree: 4%
 
 ---
@@ -17,29 +17,26 @@ ht-degree: 4%
 
 如需2026年第三季度發行週期中目前可用的所有變更清單，請參閱[2026年第三季度發行概觀](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)。
 
-<!--
 
-## Change tracking for unified review and approval
+## 統一稽核和核准的變更追蹤
 
 >[!NOTE]
 >
->Preview: July 7, 2026
->Production fast release: July 15, 2026
->Production for everyone: July 16, 2026
+>預覽： 2026年7月10日>生產快速版本： 2026年7月15日>每個人的生產： 2026年7月16日
 
-The Change History page in Workfront now captures activity across unified review and approval workflows, giving administrators a complete governance trail for review and document lifecycle events.
+Workfront中的「變更歷史記錄」頁面現在會擷取統一檢閱和核准工作流程中的活動，為管理員提供檢閱和檔案生命週期事件的完整治理追蹤。
 
-Approval, stage, and participant actions are now tracked. These actions may include:
+現在會追蹤核准、階段和參與者動作。 這些動作可能包括：
 
-* Making an approval decision in the Frame.io viewer
-* Creating or deleting an approval
-* Updating a document such as renaming, moving, or deleting it
+* 在Frame.io檢視器中做出核准決定
+* 建立或刪除核准
+* 更新檔案，例如重新命名、移動或刪除檔案
 
-Each entry includes the standard tracked fields: date and time, operation, user name (or "system generated"), and object name. Frame.io viewer comments are not included.
+每個專案都包含標準追蹤欄位：日期和時間、作業、使用者名稱（或「系統產生」）和物件名稱。 不包含Frame.io檢視器註解。
 
-This phase of change tracking does not include MCP events. Those will be part of a future release.
+此變更追蹤階段不包含MCP事件。 這些將成為未來版本的一部分。
 
-For more information, see [View and manage change history](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+如需詳細資訊，請參閱[檢視及管理變更記錄](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)。
 
 -->
 
@@ -59,9 +56,9 @@ For more information, see [View and manage change history](/help/quicksilver/adm
 * 對於已購買Workfront Planning套件的客戶，我們已新增新的「Planning授權型別」欄位，以說明Workfront Planning的使用者授權。
 已購買相同數量的Workflow和Planning授權的客戶可使用下列授權型別：
 
-   * 規劃標準
-   * 規劃貢獻者
-   * 無
+  * 規劃標準
+  * 規劃貢獻者
+  * 無
 
   >[!NOTE]
   >
@@ -77,9 +74,7 @@ For more information, see [View and manage change history](/help/quicksilver/adm
 
 >[!NOTE]
 >
->預覽： 2026年7月7日
->生產快速發行： 2026年7月15日
->適用於所有人的生產： 2026年7月16日
+>預覽： 2026年7月7日>生產快速發行： 2026年7月15日>每個人都生產： 2026年7月16日
 
 自訂表單中的新&#x200B;**內部查詢**&#x200B;欄位型別提供動態篩選。 它類似於「預先輸入」欄位型別，可讓使用者透過輸入部分名稱來搜尋及選取現有的Workfront物件。 內部查詢上的篩選器可以參考表單上另一個欄位的值，但Typeaheads無法這麼做。
 
@@ -97,9 +92,7 @@ For more information, see [View and manage change history](/help/quicksilver/adm
 
 >[!NOTE]
 >
->預覽： 2026年7月7日
->生產快速發行： 2026年7月15日
->適用於所有人的生產： 2026年7月16日
+>預覽： 2026年7月7日>生產快速發行： 2026年7月15日>每個人都生產： 2026年7月16日
 >
 >此功能僅適用於Workflow Prime或Ultimate套件上的組織。
 
@@ -113,9 +106,7 @@ For more information, see [View and manage change history](/help/quicksilver/adm
 
 >[!NOTE]
 >
->預覽： 2026年7月7日
->生產快速發行： 2026年7月15日
->適用於所有人的生產： 2026年7月16日
+>預覽： 2026年7月7日>生產快速發行： 2026年7月15日>每個人都生產： 2026年7月16日
 
 原生欄位上存在的系統篩選器現在套用至自訂表單中的欄位，並且管理員可以看到。
 
@@ -133,9 +124,7 @@ For more information, see [View and manage change history](/help/quicksilver/adm
 
 >[!NOTE]
 >
->預覽： 2026年7月7日
->生產快速發行： 2026年7月15日
->適用於所有人的生產： 2026年7月16日
+>預覽： 2026年7月7日>生產快速發行： 2026年7月15日>每個人都生產： 2026年7月16日
 
 為了保護整合和資料完整性，我們已更新如何在自訂表單的欄位設定面板中編輯欄位名稱。
 
@@ -147,9 +136,7 @@ For more information, see [View and manage change history](/help/quicksilver/adm
 
 >[!NOTE]
 >
->預覽： 2026年6月11日
->生產環境快速發行： 2026年6月11日
->適用於所有人的生產： 2026年7月16日
+>預覽： 2026年6月11日>生產快速版本： 2026年6月11日>每個人的生產： 2026年7月16日
 
 為了讓您更輕鬆地檢視在一個中央清單中發生的變更，我們已建立「變更記錄清單」。 此清單會顯示物件、作業和變更來源（例如使用者或Workfront系統）等資訊。
 
@@ -161,9 +148,7 @@ For more information, see [View and manage change history](/help/quicksilver/adm
 
 >[!NOTE]
 >
->預覽： 2026年6月11日
->每個人都要生產： 2026年6月11日
->[!BADGE 不在排程]{type=Neutral}內
+>預覽： 2026年6月11日>所有人生產： 2026年6月11日>[!BADGE 取消排程]{type=Neutral}
 
 Workfront管理員現在可以直接從「系統偏好設定」將舊版儲存產品組合轉換為Adobe雲端儲存空間。 若要轉換產品組合，請在新的選取產品組合中選取它們，以轉換為企業儲存欄位並儲存頁面。
 
@@ -182,9 +167,7 @@ Workfront管理員現在可以直接從「系統偏好設定」將舊版儲存�
 
 >[!NOTE]
 >
->預覽： 2026年5月28日
->生產環境快速發行： 2026年6月11日
->適用於所有人的生產： 2026年7月16日
+>預覽： 2026年5月28日>生產快速版本： 2026年6月11日>每個人的生產： 2026年7月16日
 
 自訂表單中的新&#x200B;**RTF**&#x200B;欄位型別是強大的文字編輯器，除了粗體、斜體、底線、專案符號、編號、超連結和區塊引號等傳統選項外，還有上標和下標、標題和表格等格式選項。 字元限制仍為15,000。
 
@@ -200,9 +183,7 @@ RTF文字欄位型別正在將文字取代為格式欄位型別。 您可以按�
 
 >[!NOTE]
 >
->預覽： 2026年5月28日
->生產環境快速發行： 2026年6月11日
->適用於所有人的生產： 2026年7月16日
+>預覽： 2026年5月28日>生產快速版本： 2026年6月11日>每個人的生產： 2026年7月16日
 
 您現在可以在自訂表單中加入Workfront原生財務欄位。 以前不支援財務欄位。
 
@@ -214,9 +195,7 @@ RTF文字欄位型別正在將文字取代為格式欄位型別。 您可以按�
 
 >[!NOTE]
 >
->預覽： 2026年5月28日
->生產環境快速發行： 2026年6月11日
->適用於所有人的生產： 2026年7月16日
+>預覽： 2026年5月28日>生產快速版本： 2026年6月11日>每個人的生產： 2026年7月16日
 
 已在自訂表單中新增共用選項「系統中的每個人都可以檢視和附加」。 當您選取此選項時，系統範圍內的所有使用者都可以將表單附加到其他物件。
 
@@ -228,12 +207,10 @@ RTF文字欄位型別正在將文字取代為格式欄位型別。 您可以按�
 
 >[!NOTE]
 >
->預覽： 2026年5月28日
->生產環境快速發行： 2026年6月11日
->適用於所有人的生產： 2026年7月16日
+>預覽： 2026年5月28日>生產快速版本： 2026年6月11日>每個人的生產： 2026年7月16日
 
 目前，當大量編輯物件時，只有當使用者修改欄位時才會強制執行必要欄位。 如果欄位未修改，則會視為選用且未驗證。
 
-新的系統偏好設定現在可讓您強制大量編輯中的必填欄位。 若要不允許儲存大量編輯的物件，除非所有必要欄位都有值，請在[設定] > [系統] > [偏好設定]頁面上選取[一律強制大量編輯必要欄位]選項&#x200B;**&#x200B;**。
+新的系統偏好設定現在可讓您強制大量編輯中的必填欄位。 若要不允許儲存大量編輯的物件，除非所有必要欄位都有值，請在[設定] > [系統] > [偏好設定]頁面上選取[一律強制大量編輯必要欄位]選項&#x200B;****。
 
 如需詳細資訊，請參閱[設定系統偏好設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
