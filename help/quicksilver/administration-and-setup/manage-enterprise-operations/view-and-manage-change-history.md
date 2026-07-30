@@ -20,9 +20,9 @@ ht-degree: 2%
 
 您可以在「設定」的「變更追蹤」區域中檢視變更歷史記錄，包括稽核記錄。
 
-* **稽核記錄**是由使用者觸發的變更。
+* **稽核記錄**&#x200B;是由使用者觸發的變更。
 如需稽核記錄檔和稽核記錄檔區域的詳細資訊，請參閱[稽核記錄檔總覽](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md)和[檢視及匯出稽核記錄檔](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)。
-* **組態**顯示正在追蹤「變更記錄清單」的欄位。
+* **組態**&#x200B;顯示正在追蹤「變更記錄清單」的欄位。
   <span class="preview">身為Workfront管理員，您可以設定Workfront追蹤的物件欄位和動作。 例如，您可以讓Workfront追蹤使用者對整個系統中的問題名稱所做的所有變更。 然後，任何問題名稱變更都會顯示為變更歷程記錄上的專案。</span>
 
 * **變更記錄清單**&#x200B;可讓您檢視Workfront物件的變更記錄，包括屬性，例如：
@@ -48,7 +48,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td>[！UICONTROL標準]</td> 
+   <td>[!UICONTROL 標準]</td> 
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
@@ -79,7 +79,7 @@ ht-degree: 2%
 
    ![新增變更追蹤的欄位](assets/change-history-config-add-fields.png)
 
-1. 選取您要追蹤的所有欄位後，按一下[新增]。****
+1. 選取您要追蹤的所有欄位後，按一下[新增]。**&#x200B;**
 
    這些欄位會新增至「追蹤的欄位」清單中。
 
