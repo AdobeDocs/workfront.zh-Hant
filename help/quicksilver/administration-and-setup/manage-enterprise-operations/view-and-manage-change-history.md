@@ -7,21 +7,24 @@ description: 變更記錄可讓您檢視Workfront物件的變更記錄
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: ba1843cf6be446a809f9526608a3ae3bef69c494
+source-git-commit: de1f426630b8c99cfaca07dafb9c2de0f16f263f
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 4%
+source-wordcount: '737'
+ht-degree: 2%
 
 ---
 
 # 檢視及管理變更歷史記錄
 
+{{preview-fast-release-general}}
+
 您可以在「設定」的「變更追蹤」區域中檢視變更歷史記錄，包括稽核記錄。
 
-* **稽核記錄**&#x200B;是由使用者觸發的變更。
-如需稽核記錄檔和稽核記錄檔區域的詳細資訊，請參閱[稽核記錄檔概述](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
-* **組態**&#x200B;顯示正在追蹤哪一個欄位以取得變更記錄清單。
-設定目前僅作為資訊提供，無法變更。在不久的將來，您將會使用變更追蹤哪些欄位的功能。
+* **稽核記錄**是由使用者觸發的變更。
+如需稽核記錄檔和稽核記錄檔區域的詳細資訊，請參閱[稽核記錄檔總覽](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md)和[檢視及匯出稽核記錄檔](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)。
+* **組態**顯示正在追蹤「變更記錄清單」的欄位。
+  <span class="preview">身為Workfront管理員，您可以設定Workfront追蹤的物件欄位和動作。 例如，您可以讓Workfront追蹤使用者對整個系統中的問題名稱所做的所有變更。 然後，任何問題名稱變更都會顯示為變更歷程記錄上的專案。</span>
+
 * **變更記錄清單**&#x200B;可讓您檢視Workfront物件的變更記錄，包括屬性，例如：
 
   * 物件
@@ -45,11 +48,13 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td>[!UICONTROL 標準]</td> 
+   <td>[！UICONTROL標準]</td> 
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>系統管理員</td> 
+   <td><p>系統管理員</p>
+       <p><span class="preview">若要檢視變更歷史記錄：變更歷史記錄的管理存取權</span></p>
+       <p><span class="preview">設定追蹤的欄位：系統管理員</span></p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,22 +63,55 @@ ht-degree: 4%
 
 +++
 
-## 檢視及管理稽核記錄
+<div class="preview">
 
-若要檢視及管理稽核記錄，請參閱[檢視及匯出稽核記錄](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)。
+## 新增您要追蹤的欄位
+
+{{step-1-to-setup}}
+
+1. 在左側面板中，按一下&#x200B;**變更追蹤>組態**。
+1. 在[設定]畫面上，按一下[新增]欄位&#x200B;**。**
+1. 在&#x200B;**新增欄位**&#x200B;方塊中，選取物件。 您可以開始輸入物件名稱，然後在物件出現在清單中時選取它。
+1. 接著，選取您要追蹤該物件的欄位名稱。 您可以輸入欄位名稱，然後當欄位出現在清單中時選取它。
+
+   自訂欄位和原生欄位都可供物件使用。
+   已追蹤的欄位會顯示在清單中選取的欄位。
+
+   ![新增變更追蹤的欄位](assets/change-history-config-add-fields.png)
+
+1. 選取您要追蹤的所有欄位後，按一下[新增]。****
+
+   這些欄位會新增至「追蹤的欄位」清單中。
+
+## 移除您不再想要追蹤的欄位
+
+您可以移除不希望系統透過Workfront介面追蹤特定物件型別的欄位。
+
+{{step-1-to-setup}}
+
+1. 在左側面板中，按一下&#x200B;**變更追蹤>組態**。
+1. 在設定畫面上，選取要停止追蹤的一個或多個欄位。
+
+   您可能會多次看到相同的欄位名稱。 欄位會依物件分組，以便您找到正確的欄位。 您也可以使用畫面頂端的搜尋方塊。
+
+1. 在熒幕底部的動作列中選取&#x200B;**刪除**。
+1. 按一下確認訊息上的&#x200B;**移除**。
+
+   這些欄位會從「追蹤的欄位」清單中移除。
+
+</div>
 
 ## 檢視變更追蹤的設定區域
 
 >[!NOTE]
 >
->設定目前僅作為資訊提供，無法變更。 在不久的將來，您將會使用變更追蹤哪些欄位的功能。
+>在生產環境中，「設定」目前僅可作為資訊使用，且無法變更。 在不久的將來，您將會使用變更追蹤哪些欄位的功能。
 
 若要檢視所追蹤的變更型別，請執行下列動作：
 
 {{step-1-to-setup}}
 
-1. 在左側面板中，按一下&#x200B;**變更追蹤** ![變更歷程記錄圖示](assets/change-history-icon.png)。
-1. 按一下&#x200B;**組態**。
+1. 在左側面板中，按一下&#x200B;**變更追蹤>**&#x200B;組態**。
 
    欄位會依物件型別分組顯示。
 
@@ -87,8 +125,7 @@ Workfront管理員可在設定區域中檢視變更歷史記錄。
 
 {{step-1-to-setup}}
 
-1. 在左側面板中，按一下&#x200B;**變更追蹤** ![變更歷程記錄圖示](assets/change-history-icon.png)。
-1. 按一下&#x200B;**變更歷程記錄清單**。
+1. 在左側面板中，按一下&#x200B;**變更追蹤>變更記錄清單**。
 
    「變更記錄」清單隨即開啟。
 
