@@ -5,15 +5,17 @@ title: Adobe Workfront MCP伺服器工具
 description: 透過Adobe Workfront MCP伺服器可用的工具參考清單，按Workfront區域分組。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 2d6b26b8ab5e58b72fc16db87518c98cdc0c4cb1
+source-git-commit: 53af04ed47a7741db5b3540bf9be706a4f45bca3
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '2140'
 ht-degree: 5%
 
 ---
 
 
 # Adobe Workfront MCP伺服器工具
+
+{{preview-fast-release-general}}
 
 本文列出[!DNL Adobe Workfront] MCP伺服器公開至已連線之AI代理平台的工具。 當您要求平台尋找、建立、更新或刪除Workfront專案時，平台會代表您呼叫這些工具。
 
@@ -66,10 +68,15 @@ ht-degree: 5%
 
 | 標題 | 工具名稱 | 作用 | 動作 |
 | --- | --- | --- | --- |
-| 取得核准工作流程資訊 | `approvals_get_approval_info` | 傳回檔案版本的目前核准工作流程（階段、參與者、狀態）。 | 讀取 |
-| 建立或更新核准工作流程 | `approvals_create_or_update_approval_workflow` | 建立或更新檔案版本的核准工作流程階段。 支援線性和平行（圖形）階段相依性。 | 寫入 |
-| 從範本建立核准 | `approvals_create_approval_from_template` | 使用現有範本在檔案上建立核准工作流程。 | 寫入 |
+| 取得核准工作流程資訊 | `approvals_get_approval_info` | 傳回檔案版本的目前核准工作流程（階段、參與者、狀態）。 <span class="preview">對於具有多個路徑的核准，它會顯示每個路徑及其階段。</span> | 讀取 |
+| 建立或更新核准工作流程 | `approvals_create_or_update_approval_workflow` | 建立或更新檔案版本的核准工作流程階段。 <span class="preview">支援單一階段追蹤或多個平行檢閱路徑。</span> | 寫入 |
+| 從範本建立核准 | `approvals_create_approval_from_template` | 使用現有的範本<span class="preview">在檔案上建立核准工作流程，包括定義多個平行路徑的範本。</span> | 寫入 |
 | 刪除核准階段 | `approvals_delete_approval_stage` | 依名稱或職位從核准工作流程中刪除單一階段。 只能刪除未啟動的階段。 | 寫入 |
+| <span class="preview">新增核准路徑</span> | <span class="preview">`approvals_add_path_to_approval`</span> | <span class="preview">將新的平行稽核路徑新增至現有的核准工作流程，以便在檔案版本上同時執行多個稽核追蹤。</span> | <span class="preview">寫入</span> |
+| <span class="preview">從核准中移除路徑</span> | <span class="preview">`approvals_remove_path_from_approval`</span> | <span class="preview">從核准工作流程移除平行路徑。 無法移除第一個路徑，而且包含已完成或已鎖定階段的路徑會受到保護。</span> | <span class="preview">寫入</span> |
+| <span class="preview">將階段新增至路徑</span> | <span class="preview">`approvals_add_stage_to_path`</span> | <span class="preview">在平行核准工作流程中的特定路徑結尾新增稽核階段。</span> | <span class="preview">寫入</span> |
+| <span class="preview">從路徑</span>移除階段 | <span class="preview">`approvals_remove_stage_from_path`</span> | <span class="preview">從平行核准工作流程中的特定路徑移除未啟動的階段。 每個路徑都必須至少保留一個階段。</span> | <span class="preview">寫入</span> |
+| <span class="preview">重新排序路徑</span>中的階段 | <span class="preview">`approvals_reorder_stages_in_path`</span> | <span class="preview">變更平行核准工作流程單一路徑中的階段順序。</span> | <span class="preview">寫入</span> |
 
 <!--
 | Add and remove participants for an approval in bulk | `approvals_bulk_update_approval_participants`<br>`approvals__submit_bulk_update_approval_participants` | Adds or removes participants to or from multiple approvals at the same time. Currently, bulk updates can be applied only across a single project. Bulk updates across multiple projects will be available in the near future. | Write |
