@@ -9,21 +9,14 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/y6gIjeP-4NXrR-itk9Ohr8h6LVutIN7AH0Kr1RJBfTA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: e147ce9d-7675-49bd-8a32-44f27d865560id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 75779f9563462e3cbde044f9323e174a9a9a70ad
 workflow-type: tm+mt
-source-wordcount: 3164
+source-wordcount: 3225
 ht-degree: 1%
 
 ---
@@ -179,21 +172,21 @@ Old:
 
 * 您可以從Workfront的下列區域新增更新至專案、任務和問題：
 
-   * 從Workfront物件，在更新區段（專案、任務和問題）
-   * 從首頁區域（用於任務和問題）
+  * 從Workfront物件，在更新區段（專案、任務和問題）
+  * 從首頁區域（用於任務和問題）
 
-     如需詳細資訊，請參閱[使用「我的工作」Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-work-widget.md)管理您的工作。
-   * 從「摘要」面板的下列區域（針對任務、問題和檔案）：
+    如需詳細資訊，請參閱[使用「我的工作」Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-work-widget.md)管理您的工作。
+  * 從「摘要」面板的下列區域（針對任務、問題和檔案）：
 
-      * 物件清單
-      * 時程表
-      * 首頁
-      * 工作負載平衡器
+    * 物件清單
+    * 時程表
+    * 首頁
+    * 工作負載平衡器
 
-     如需詳細資訊，請參閱下列文章：
+    如需詳細資訊，請參閱下列文章：
 
-      * [摘要概觀](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
-      * [使用摘要更新工作負載平衡器中的工作項](/help/quicksilver/resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
+    * [摘要概觀](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+    * [使用摘要更新工作負載平衡器中的工作項](/help/quicksilver/resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 
 <!--info for April 11: hide the section below: add an update to a work item-->
 
@@ -291,7 +284,7 @@ You can add updates to the following objects:
 
 1. 找到您要新增註解的物件，然後按一下其名稱以開啟物件的頁面。
 1. 按一下左側面板中的&#x200B;**更新**。
-預設會選取&#x200B;**註解**&#x200B;標籤。
+預設會選取**註解**&#x200B;標籤。
 
 1. 開始在&#x200B;**新註解**&#x200B;方塊中輸入註解。
 
@@ -368,7 +361,7 @@ You can add updates to the following objects:
 
    >[!TIP]
    >
-   >您無法在[全部]索引標籤的現有註解中回覆註解或標籤其他使用者。 若要在[全部]索引標籤中回複評論，請按一下[在評論中回覆]&#x200B;**&#x200B;**，在[評論]索引標籤中開啟評論。
+   >您無法在[全部]索引標籤的現有註解中回覆註解或標籤其他使用者。 若要在[全部]索引標籤中回複評論，請按一下[在評論中回覆]****，在[評論]索引標籤中開啟評論。
 
 ## 在Workfront註解中使用RTF文字{#use-rich-text-in-a-workfront-comment}
 
@@ -451,7 +444,6 @@ You can add updates to the following objects:
 
    >[!IMPORTANT]
    >
-   >
    >* 您無法將影像新增至目標或展示板上的臨機卡片。
    >
    >* 您的Workfront管理員必須先在Workfront介面區域的更新摘要偏好設定區段中啟用新增影像，您才能看到影像或新增附件圖示。 如需詳細資訊，請參閱[設定使用者更新的偏好設定](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)。
@@ -462,6 +454,8 @@ You can add updates to the following objects:
    >* 您可以傳送包含影像且不含文字的更新。
    >* 當您刪除包含影像的註解時，該影像會從「更新」區段及「檔案」區域移除。 當您編輯註解並刪除影像時，也會從「檔案」區域刪除影像。
    >* 當有人從「檔案」區域刪除附加至註解的影像時，該影像也會從註解中移除。
+   >* 如果您的組織使用Adobe雲端儲存空間作為統一稽核和核准的一部分，則Workfront管理員可以啟用相同的偏好設定，以讓您在評論中附加影像。 支援所有標準影像格式，且附加的影像會儲存在Adobe雲端儲存空間。
+   >* 無法使用Frame.io檢視器存取使用Adobe雲端儲存空間附加至物件評論的影像。
 
    <!--remove the statement above about legacy, when we remove the legacy environment.-->
 
@@ -657,10 +651,10 @@ Workfront物件的更新區段會顯示兩種型別的資訊：
 
   下列物件沒有系統產生的更新：
 
-   * 團隊
-   * 範本
-   * 範本任務
-   * 展示板上的臨時卡片
+  * 團隊
+  * 範本
+  * 範本任務
+  * 展示板上的臨時卡片
 
 如需有關使用者和系統更新以及它們在Workfront物件更新區段中如何顯示的詳細資訊，請參閱[更新區段概觀](../updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 

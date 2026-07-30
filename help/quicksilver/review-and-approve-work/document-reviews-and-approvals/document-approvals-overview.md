@@ -10,17 +10,13 @@ exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/P-naBIVBoFQcBaL4Zgo0cEOTQ8eErxqr0MBmHTbec9E
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 75779f9563462e3cbde044f9323e174a9a9a70ad
 workflow-type: tm+mt
-source-wordcount: 4149
+source-wordcount: 4230
 ht-degree: 0%
 
 ---
@@ -87,7 +83,7 @@ Adobe雲端儲存空間的主要優點包括：
 
 #### Frame.io檢視器中支援的檔案型別
 
-Frame.io檢視器支援所有常見的視訊、影像、音訊、PDF和MS® Office型別。 如需支援檔案的詳細清單，請參閱Frame.io[&#128279;](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的支援的檔案型別。
+Frame.io檢視器支援所有常見的視訊、影像、音訊、PDF和MS® Office型別。 如需支援檔案的詳細清單，請參閱Frame.io](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的[支援的檔案型別。
 
 #### Frame.io檢視器的存取與授權
 
@@ -212,7 +208,7 @@ Frame.io檢視器是所有Workfront檢閱和核准工作流程的預設檢視器
 
 * 一旦您使用支援Adobe雲端儲存空間的Workfront版本後，Adobe Professional Services將為您的組織設定整合。
 
-   * 如果您不確定您的Adobe客戶代表是誰，可以透過Adobe支援入口網站聯絡或造訪Experience League以取得聯絡選項。
+  * 如果您不確定您的Adobe客戶代表是誰，可以透過Adobe支援入口網站聯絡或造訪Experience League以取得聯絡選項。
 
 +++
 
@@ -360,6 +356,14 @@ Frame.io檢視器包含完整的視覺標籤工具，包括手繪繪圖和標準
 **我是否可以在外部與無法存取Workfront的利害關係人共用資產？**
 
 是。 Assets可在外部共用。 系統會透過電子郵件通知外部使用者，並提示您建立Frame.io登入以存取檢視器並參與檢閱。
+
+**我可以在Workfront的檔案上附加影像至註解嗎？**
+
+如果您的組織使用Adobe雲端儲存空間作為統一檢閱和核准的一部分，您可以直接將影像檔案附加到檔案上的註解。 附加的影像會儲存在Adobe雲端儲存空間，且支援所有媒體型別影像檔案格式。
+
+這些註解是Workfront原生註解，與Frame.io檢視器中的註解不同。 無法在Frame.io中存取附加到評論的影像，且附加影像不會將標籤新增至資產或路由資產以供核准。 無法將非影像檔案型別附加到註解。
+
+如需詳細資訊，請參閱[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
 <!--
 **Before unified review and approval, is a reviewer just directed to a proof?**
