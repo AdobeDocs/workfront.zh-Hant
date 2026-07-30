@@ -8,24 +8,21 @@ exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/2h2QsF799S3w-QTA1sswerywOQvdO9uWZppf5Y-tZvk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8865d770518504ccc3eb50175dafeab66eba8563
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 01a67480d4dbaeaa03f3380d825676f7b6478ec0
 workflow-type: tm+mt
-source-wordcount: 3142
+source-wordcount: 3184
 ht-degree: 1%
 
 ---
 
 # 使用增強型清單
+
+{{preview-fast-release-general}}
 
 Adobe Workfront的部分割槽域提供增強型清單。 這些清單使用表格格式來顯示清單專案，並且它們具有與標準清單不同的外觀和感覺。 也增強了檢視管理，包括篩選、分組、管理欄和搜尋。
 
@@ -203,17 +200,20 @@ Adobe Workfront的部分割槽域提供增強型清單。 這些清單使用表�
 
    <!-- Add info about Properties and KPIs when something gets released with those options -->
 
+1. <span class="preview">（選擇性）若要重新排序欄，請將游標停留在&#x200B;**選取的**&#x200B;區段中的欄名稱上，然後按一下&#x200B;**拖曳**&#x200B;圖示![拖曳圖示](assets/drag-icon.png)。 垂直行動資料行，以依序排列。</span>
 1. 按一下「**儲存**」。
 
    ![資料行管理員](assets/glist-column-manager.png)
 
    清單會根據您所做的選擇更新欄。
 
-### 變更檢視中的列高
+## 自訂列
 
 >[!NOTE]
 >
 >並非所有增強型清單都具有本節所述的所有元素。
+
+若要變更檢視中的列高：
 
 1. 按一下增強型清單中的&#x200B;**列高**&#x200B;圖示![列高圖示](assets/row-height-icon.png)。
 
@@ -222,6 +222,14 @@ Adobe Workfront的部分割槽域提供增強型清單。 這些清單使用表�
    * 標準。 這是預設選擇。
    * 媒體
    * 高
+
+若要變更列的順序：
+
+1. 將列拖放至您偏好的順序。
+
+   >[!NOTE]
+   >
+   >如果您已套用排序，則無法手動變更列順序。
 
 ## 更新增強型清單元素
 
@@ -247,10 +255,10 @@ Adobe Workfront的部分割槽域提供增強型清單。 這些清單使用表�
 
    按一下&#x200B;**新檢視**&#x200B;以建立檢視。
 
-1. （視條件而定）若要新增檢視，請輸入檢視的名稱，然後按一下[建立]。**&#x200B;**
+1. （視條件而定）若要新增檢視，請輸入檢視的名稱，然後按一下[建立]。****
 1. （選用）隱藏、顯示或重新排列欄。 如需詳細資訊，請參閱[自訂增強型清單中的欄](#customize-columns-in-an-enhanced-list)。
 1. （選用）篩選清單。 如需詳細資訊，請參閱[篩選增強型清單](#filter-items-in-an-enhanced-list)中的專案。
-1. （選用）將清單中的專案分組。 如需詳細資訊，請參閱增強型清單[&#128279;](#group-items-in-an-enhanced-list)中的群組專案。
+1. （選用）將清單中的專案分組。 如需詳細資訊，請參閱增強型清單](#group-items-in-an-enhanced-list)中的[群組專案。
 
    檢視的變更會自動儲存。 下次套用此檢視時，欄和篩選設定仍會保留您設定的方式。
 
@@ -366,8 +374,8 @@ Adobe Workfront的部分割槽域提供增強型清單。 這些清單使用表�
 1. 按一下&#x200B;**格式**&#x200B;方塊外部以關閉它。
 
    這會將您帶回清單檢視。
-格式會立即套用至清單檢視。
-**格式化儲存格**&#x200B;圖示旁有一個藍點，表示檢視已套用特殊格式。
+   格式會立即套用至清單檢視。
+   **格式化儲存格**&#x200B;圖示旁有一個藍點，表示檢視已套用特殊格式。
 
 ### 篩選增強型清單中的專案
 
