@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
+source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1332'
 ht-degree: 1%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 1%
    <ul><li><p>Adobe Experience Manager Assets授權及AEM Assets與Workfront之間的整合，用於連結AEM資產與Planning記錄型別。</p>
    <p>如需詳細資訊，請參閱<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 連線記錄型別與GenStudio物件和品牌的Adobe GenStudio for Performance Marketing授權</p>
-   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
+   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -111,6 +111,12 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
 
   您會收到內嵌或快顯通知訊息，說明為何已清除相依欄位。
 
+* 每個相依欄位最多可以有3個直接控制欄位。
+
+* 相依性層級限製為6個連線。 這表示最多可以連線7個記錄型別。
+
+* 為了讓相依性鏈結運作，所有相依欄位必須同時存在於相同的記錄型別上。
+
 ## 建立相依連線
 
 1. 以工作區管理員的身分，前往Workfront Planning中的記錄型別，並在表格檢視中開啟它。
@@ -140,7 +146,7 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
      如需相關資訊，請參閱本文章中的[相依連線記錄型別](#example-of-dependent-connected-record-types)範例。
    * 已連線記錄欄位的欄標題中有一個指示，說明該欄位處於相依連線關係。
 
-     欄標題![&#128279;](assets/dependent-icon-tooltip-in-column-header.png)中的相依圖示工具提示
+     欄標題](assets/dependent-icon-tooltip-in-column-header.png)中的![相依圖示工具提示
 
 1. （選用且建議使用）移至第三個記錄型別，並將第一個和第二個記錄型別新增為連線的記錄欄位。
 
