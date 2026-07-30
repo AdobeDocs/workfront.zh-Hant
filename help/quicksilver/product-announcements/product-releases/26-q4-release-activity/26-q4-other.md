@@ -27,7 +27,7 @@ ht-degree: 0%
 
 導覽面板位於Workfront中大部分割槽域和物件的左側，包括專案、任務和問題。
 
-如需詳細資訊，請參閱[ Adobe Workfront中的左側導覽](/help/quicksilver/workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)。
+如需詳細資訊，請參閱[&#x200B; Adobe Workfront中的左側導覽](/help/quicksilver/workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)。
 
 ## 增強型清單更新
 
