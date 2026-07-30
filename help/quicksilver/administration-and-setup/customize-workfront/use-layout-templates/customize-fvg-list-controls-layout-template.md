@@ -9,24 +9,20 @@ feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
 TQID: https://experienceleague.adobe.com/UJTrVSvxhzjNAhbV6TkLv6XYDQeHSCT9KU-BZFVukGA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 28369dd0d93b6dfce8ea867087938e0d849cf6f8
 workflow-type: tm+mt
-source-wordcount: 822
+source-wordcount: 851
 ht-degree: 2%
 
 ---
 
 # 使用版面配置範本自訂篩選器、檢視和群組
+
+{{preview-fast-release-general}}
 
 作為Adobe Workfront管理員，您可以使用版面配置範本來指定哪些清單控制項會出現在篩選、檢視和分組下拉式功能表中。 這些功能表會出現在整個Workfront的上方清單中，例如專案的任務清單：
 
@@ -97,6 +93,8 @@ ht-degree: 2%
    >* 在專案區域標題的標題中：
    >   
    >  ![停用篩選器按鈕](assets/disable-filter-pills.png)
+
+   <span class="preview">有些增強型清單可供選擇。 這些清單控制項旁會有「新體驗」標籤。 如需增強型清單的相關資訊，請參閱[使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。</span>
 
 1. （選擇性）如果要變更版面配置範本的預設篩選、檢視或群組，請將滑鼠游標停留在篩選、檢視或群組上，然後按一下&#x200B;**設定為預設**。
 
