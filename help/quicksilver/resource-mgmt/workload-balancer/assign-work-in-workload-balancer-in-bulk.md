@@ -7,21 +7,14 @@ author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
 TQID: https://experienceleague.adobe.com/6QlIfRh94tpLTZF6x5LU2BueTjShzNsaKxb45CEylqA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 154a30289097c946f072a606ce5dbc48a73cf1c5
 workflow-type: tm+mt
-source-wordcount: 1242
+source-wordcount: 1226
 ht-degree: 3%
 
 ---
@@ -32,7 +25,7 @@ ht-degree: 3%
 
 您可以使用Adobe Workfront工作負載平衡器大量指派資源給多個任務和問題。
 
-如需使用工作負載平衡器指派工作給使用者的一般資訊，請參閱在工作負載平衡器[&#128279;](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中指派工作的總覽。
+如需使用工作負載平衡器指派工作給使用者的一般資訊，請參閱在工作負載平衡器](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中指派工作的總覽。[
 
 ## 存取權要求
 
@@ -79,13 +72,13 @@ ht-degree: 3%
 * 您無法將資源指派給已完成的工作專案，或指派給已完成專案上的專案。
 * 大量指派工作角色和使用者時，您可以進行下列工作：
 
-   * 取代所有有效組合中使用者和角色之間的指派。
-   * 從使用者的所有工作專案解除指派使用者。
+  * 在所有有效組合中使用者和角色之間進行指派。
+  * 從使用者的所有工作專案解除指派使用者。
 
 **範例**
 
-* 您負責為多個新專案進行使用者指派。 專案原本是從範本建立的，工作角色已指派給專案內的各種任務。 您想要將特定使用者Jackie Simms指派給目前指派給工作角色的所有任務。 您可以使用Replace函式將這些工作指派給Jackie Simms。
-* 3個不同專案中的45個任務指派給Jackie Simms。 Jackie離開了組織，現在您需要將其任務重新指派給其他使用者。 您可以使用「取代」功能，將這些工作指派給新人員。
+* 您負責為多個新專案進行使用者指派。 專案原本是從範本建立的，工作角色已指派給專案內的各種任務。 您想要將特定使用者Jackie Simms指派給目前指派給工作角色的所有任務。 您可以使用Assign函式將這些工作指派給Jackie Simms。
+* 3個不同專案中的45個任務指派給Jackie Simms。 Jackie離開了組織，現在您需要將其任務重新指派給其他使用者。 您可以使用「指派」功能將這些工作指派給新人員。
 * 2個不同專案中的10個任務指派給另一位使用者Rick Kuvec。 您意識到這些任務錯誤地指派了Rick，但您不確定此時需要指派給誰。 您需要同時將Rick解除指派給所有工作。 您可以使用「取消指派」功能將Rick從這些工作中移除。
 
 ## 在工作負載平衡器中大量指派工作
@@ -127,11 +120,11 @@ ht-degree: 3%
 
    或
 
-   按一下「大量任務」面板右上角的「全部清除&#x200B;**&#x200B;**」以移除所有選取專案。
+   按一下「大量任務」面板右上角的「全部清除&#x200B;****」以移除所有選取專案。
 
 1. 選取下列其中一個選項，然後繼續下列步驟：
 
-   * [取代資源](#replace-user)
+   * [指派資源](#replace-user)
    * [取消指派資源](#unassign-user)
 
    >[!TIP]
@@ -189,26 +182,26 @@ To assign a user to work items previously assigned to job roles:
 
 -->
 
-### 取代資源 {#replace-user}
+### 指派資源 {#replace-user}
 
-您可以使用所選專案中的其他資源來取代已指派給工作專案的資源。
+您可以在選取的專案中指派或取代資源。
 
-資源取代可以是：
+資源指定可以是：
 
-* 角色與角色
-* 具有使用者的使用者
-* 使用者角色
-* 具有使用者的角色
+* 角色至角色
+* 使用者對使用者
+* 使用者至角色
+* 使用者的角色
 
-當您在工作負載平衡器使用批次指派將資源替換為另一個資源時，會發生以下情況：
+當您在工作負載平衡器使用大量指派來指派或取代資源時，會發生下列情況：
 
-* 取代資源會指派給目前指派給所選專案中原始資源的所有工作專案。
+* 新資源會指派給目前指派給所選專案中原始資源的所有工作專案。
 * 新資源未指派給任何已標示為「完成」的工作專案。
 * 對於使用者對使用者的替換，如果與第一個使用者關聯的角色與第二使用者的任何角色都不相符，則會將第二個使用者指派為其主要角色。
 
-以其他資源取代資源：
+若要大量指定資源，請執行下列動作：
 
-1. 如上所述，在工作負載平衡器大量指派區域中選取工作專案，並選取&#x200B;**取代資源**。
+1. 如上所述，在工作負載平衡器大量指派區域中選取工作專案，並選取&#x200B;**指派資源**。
 1. 在&#x200B;**目前指派的資源**&#x200B;欄位中，按一下下拉箭頭，從資源清單中選擇。 僅顯示指定專案內目前指派給未完成工作專案的資源。 這是必填欄位。
 
    ![取代資源](assets/bulk-assignments-workload-balancer-replace-selected.png)
@@ -217,11 +210,11 @@ To assign a user to work items previously assigned to job roles:
 
    Workfront會顯示一個附註，說明目前指派的資源將取代第二個資源的專案數量。
 
-1. 按一下&#x200B;**取代**。
+1. 按一下&#x200B;**指派**。
 
    所選專案或任務的所有工作專案中的第一個資源會由第二個資源取代。
 
-   您會收到確認，確認有多少工作專案已將原始指派取代為所選的第二個資源。
+   確認會顯示有多少工作專案已將原始工作分派取代為選取的第二個資源。
 
 ### 取消指派資源 {#unassign-user}
 
@@ -247,7 +240,7 @@ To assign a user to work items previously assigned to job roles:
    Workfront會顯示附註，說明目前指派的使用者將被取消指派的專案數量。
 
 1. 按一下&#x200B;**取消指派**。\
-   您會收到有關指定的使用者被移除的工作專案數目的確認。
+   確認會顯示移除指定使用者的工作專案數。
 
 
 
