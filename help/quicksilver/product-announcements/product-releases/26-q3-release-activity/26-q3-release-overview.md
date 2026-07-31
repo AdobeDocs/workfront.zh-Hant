@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 62688ecf071774f0446e35035a3e0633e3094eae
+source-git-commit: 4d6be75a507438eee1f3887474b847c2bece85ff
 workflow-type: tm+mt
-source-wordcount: '3317'
+source-wordcount: '3363'
 ht-degree: 2%
 
 ---
@@ -99,17 +99,15 @@ ht-degree: 2%
             <td><strong>快速發行</strong></td>
             <td><strong>每季</strong></td>
         </tr>
-        <!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Change tracking for unified review and approval</a>
-                <p>The Change History page now captures activity across unified review and approval workflows, giving administrators a complete governance trail for approval, stage, and participant actions.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">統一檢閱和核准的變更追蹤</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <p>「變更歷史記錄」頁面現在會擷取統一稽核與核准工作流程中的活動，為管理員提供核准、階段和參與者動作的完整治理追蹤。</p>
             </td>
-            <td><p>July 7, 2026</p></td>
-            <td><p>July 15, 2026</p></td>
-            <td><p>July 16, 2026</p></td>
+            <td><p>2026年7月10日</p></td>
+            <td><p>2026年7月15日</p></td>
+            <td><p>2026年7月16日</p></td>
         </tr>
-        -->
         <tr>
             <td>
                 存取層級的<a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">新授權型別欄位<p>[!BADGE Off Schedule]{type=Neutral}</p></a>

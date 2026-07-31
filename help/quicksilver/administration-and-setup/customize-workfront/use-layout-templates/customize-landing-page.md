@@ -22,14 +22,16 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1d62b2942d99d027cb68df973b2ec700dd1fa377
 workflow-type: tm+mt
-source-wordcount: 395
-ht-degree: 10%
+source-wordcount: 446
+ht-degree: 8%
 
 ---
 
 # 使用版面配置範本自訂登入頁面
+
+{{preview-fast-release-general}}
 
 身為Adobe Workfront管理員，您可以使用版面配置範本來指定使用者每次登入Workfront時想要看到的區域。
 
@@ -104,6 +106,11 @@ ht-degree: 10%
    * 使用者
    * 藍圖
    * 計畫
+   * <span class="preview">自訂應用程式</span>
+
+     >[!NOTE]
+     >
+     ><span class="preview">已新增至主要功能表的自訂應用程式可用作登陸頁面。 必須先個別建立，才可作為主功能表或登入頁面選項使用。 如需詳細資訊，請參閱[使用Adobe App Builder建立Workfront的自訂應用程式](/help/quicksilver/app-builder/app-builder.md)。</span>
 
    >[!IMPORTANT]
    >

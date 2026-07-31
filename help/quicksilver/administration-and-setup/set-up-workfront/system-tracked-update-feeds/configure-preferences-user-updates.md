@@ -19,7 +19,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 75779f9563462e3cbde044f9323e174a9a9a70ad
+source-git-commit: 8468e4e9daa5000e721ee8fb78f45064ab105e28
 workflow-type: tm+mt
 source-wordcount: 291
 ht-degree: 7%
@@ -102,9 +102,10 @@ Old:
 1. 在左側面板中，選取&#x200B;**[!UICONTROL 介面]** > **[!UICONTROL 更新摘要]**。
 1. 選取&#x200B;**[!UICONTROL 偏好設定]**&#x200B;標籤。
 
-<!--![User preferences for update feeds](assets/updatefeeds-preferences-350x137.png)-->
-
 1. 選取&#x200B;**[!UICONTROL 允許使用者在更新中新增影像]**&#x200B;核取方塊。
 1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
 
    啟用此偏好設定後，您可以隨時將其停用。 任何已在更新中張貼的影像將保留在物件的[!UICONTROL 更新]區域中。
+
+
+<!--Note from Lisa: This image is old so I hid it. Was after step 3 (select the Prefs tab) but it broke the numbering when I commented it out. ![User preferences for update feeds](assets/updatefeeds-preferences-350x137.png)-->

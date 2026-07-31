@@ -4,10 +4,10 @@ description: 此頁面提供2026年第四季度版本中包含的功能相關資
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4b04780c710368bf1154661b14b7bf27364a19a5
+source-git-commit: 1d62b2942d99d027cb68df973b2ec700dd1fa377
 workflow-type: tm+mt
-source-wordcount: '1096'
-ht-degree: 3%
+source-wordcount: '1271'
+ht-degree: 2%
 
 ---
 
@@ -131,6 +131,33 @@ ht-degree: 3%
             <td><p>2026年8月13日</p></td>
             <td><p>2026年10月15日</p></td>
         </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">在配置範本中將自訂應用程式定義為登入頁面</a>
+                <p>您現在可以將自訂應用程式設定為版面配置範本中的登入頁面。</p>
+            </td>
+            <td><p>2026年7月30日</p></td>
+            <td><p>2026年8月13日</p></td>
+            <td><p>2026年10月15日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">設定變更歷程記錄中的追蹤欄位</a>
+                <p>您可以在整個Workfront中新增要追蹤特定物件型別的欄位。 當使用者在該欄位中變更資訊時，系統會將有關變更的資訊記錄為變更歷史記錄中的專案。</p>
+            </td>
+            <td><p>2026年7月30日</p></td>
+            <td><p>2026年8月13日</p></td>
+            <td><p>2026年10月15日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">變更歷程記錄的管理存取權已新增至存取層級</a>
+                <p>在「標準」存取層級上，您現在可以定義具有該層級的使用者是否應該擁有「變更記錄清單」的存取權。</p>
+            </td>
+            <td><p>2026年7月30日</p></td>
+            <td><p>2026年8月13日</p></td>
+            <td><p>2026年10月15日</p></td>
+        </tr>
     </tbody>
 </table>
 
@@ -154,17 +181,15 @@ ht-degree: 3%
             <td><p>2026年7月30日</p></td>
             <td><p>2026年7月30日</p></td>
         </tr>
-        <!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Link content and folders from Experience Manager Assets with Adobe cloud storage</a>
-                <p>If your organization uses Adobe cloud storage, you can link individual assets or entire folders from Experience Manager Assets to any Workfront object that supports documents.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">從Experience Manager Assets連結內容與資料夾與Adobe雲端儲存空間</a>
+                <p>如果您的組織使用Adobe雲端儲存空間，您可以將來自Experience Manager Assets的個別資產或整個資料夾連結到任何支援檔案的Workfront物件。</p>
             </td>
-            <td><p>July 30, 2026</p></td>
-            <td><p>August 13, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>2026年7月30日</p></td>
+            <td><p>2026年8月13日</p></td>
+            <td><p>2026年10月15日</p></td>
         </tr>
-        -->
     </tbody>
 </table>
 

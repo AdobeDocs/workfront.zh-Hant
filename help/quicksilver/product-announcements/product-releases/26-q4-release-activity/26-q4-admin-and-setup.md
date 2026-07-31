@@ -4,9 +4,9 @@ description: 2026年第四季管理員增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1dd8ab20d11b2b4471308ac5402b31e20359a04c
+source-git-commit: 1d62b2942d99d027cb68df973b2ec700dd1fa377
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -84,3 +84,39 @@ Workfront中的「變更歷史記錄」頁面現在會擷取統一檢閱和核�
 每個專案都包含標準追蹤欄位：日期和時間、作業、使用者名稱（或「系統產生」）和物件名稱。 會擷取MCP活動，包括進行更新的LLM （例如Claude）。 不包含Frame.io檢視器註解。
 
 如需詳細資訊，請參閱[檢視及管理變更記錄](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)。
+
+## 在版面配置範本中將自訂應用程式定義為登入頁面
+
+>[!NOTE]
+>
+>預覽： 2026年7月30日>生產快速版本： 2026年8月13日>每個人都生產： 2026年10月15日
+
+您現在可以將自訂應用程式設定為版面配置範本中的登入頁面。 已新增至主要功能表的自訂應用程式可用作登陸頁面。
+
+自訂應用程式必須個別建立，才能作為主功能表或登入頁面選項使用。
+
+如需詳細資訊，請參閱[使用版面配置範本自訂登入頁面](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)和[使用Adobe App Builder建立Workfront的自訂應用程式](/help/quicksilver/app-builder/app-builder.md)。
+
+## 設定變更記錄中的追蹤欄位
+
+>[!NOTE]
+>
+>預覽： 2026年7月30日>生產快速版本： 2026年8月13日>每個人都生產： 2026年10月15日
+
+您可以在整個Workfront中新增要追蹤特定物件型別的欄位。 當使用者在該欄位中變更資訊時，系統會將有關變更的資訊記錄為變更歷史記錄中的專案。
+
+以前，定義追蹤欄位的Configuration畫面是僅供檢視。
+
+如需詳細資訊，請參閱[檢視及管理變更記錄](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)。
+
+## 變更歷史記錄的管理存取權已新增至存取層級
+
+>[!NOTE]
+>
+>預覽： 2026年7月30日>生產快速版本： 2026年8月13日>每個人都生產： 2026年10月15日
+
+在「標準」存取層級上，您現在可以定義具有該層級的使用者是否應該擁有「變更記錄清單」的存取權。 **變更歷程記錄**&#x200B;選項可在存取層級的&#x200B;**允許**&#x200B;的管理存取區段中取得。
+
+如需詳細資訊，請參閱[授予使用者對特定區域的管理存取權](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)和[檢視及管理變更記錄](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)。
+
+
