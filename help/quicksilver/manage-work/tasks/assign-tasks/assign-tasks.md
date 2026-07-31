@@ -2,7 +2,7 @@
 product-area: projects;user-management
 navigation-topic: assign-tasks
 title: 指派任務
-description: 您可以將任務指派給使用者、角色或專案團隊，以指出負責完成任務的人員。 您可以一次將任務指派給多個資源。
+description: 您可以將任務指派給使用者、角色、專案團隊或任務共同作業人員，以指出負責完成任務的人員。 您可以一次將任務指派給多個資源。
 author: Lisa
 feature: Work Management, Tasks
 role: User
@@ -10,21 +10,14 @@ exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/r3jT-ief9Sfqh7RgQRWJ77fgHR9tkgTBBuo-iEok9lE
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a63738805d62e2f71d55fe39f78d1f042ff72a15
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: eebfa7db6b4aa256a47aa881ff151e3b84a21742
 workflow-type: tm+mt
-source-wordcount: 1623
+source-wordcount: 1616
 ht-degree: 3%
 
 ---
@@ -45,7 +38,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 </div>
 -->
 
-您可以將任務指派給使用者、工作角色或專案團隊，以指出負責完成任務的人員。 您可以一次將任務指派給多個資源。
+您可以將任務指派給使用者、工作角色、團隊或任務共同作業人員，以指出負責完成任務的人員。 您可以一次將任務指派給多個資源。
 
 >[!TIP]
 >
@@ -65,6 +58,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 * [智慧指派總覽](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
 * [進行智慧指派](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
 * [建立進階工作分派](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
+* [使用任務共同作業人員](../../../manage-work/tasks/assign-tasks/use-task-collaborators.md)
 * [修改工作清單中的多個使用者指派](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
 * [編輯任務](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 * [計畫專案概述](../../../manage-work/projects/planning-a-project/plan-project.md)
@@ -173,7 +167,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina)
 
 1. 執行下列其中一項：
 
-   * 開始輸入您要指派的使用者、工作角色或團隊名稱，然後當名稱出現在清單中時按一下它。
+   * 開始輸入您要指派的使用者、工作角色、團隊或任務共同作業人員的名稱，然後當名稱出現在清單中時按一下它。
 
      >[!TIP]
      >
@@ -202,7 +196,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina)
 |---|---|
 | **指派給** | 指派一位使用者 |
 | **已指派** | 指派一位使用者 |
-| **指派** | 指派使用者、工作角色或團隊 |
+| **指派** | 指派使用者、工作角色、團隊或任務共同作業人員 |
 
 若要指派清單中的工作：
 
@@ -220,7 +214,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina)
 1. 若要指派工作，請執行下列任一項作業：
 
    * 在&#x200B;**指派給**&#x200B;或&#x200B;**已指派**&#x200B;欄位內按一下，並開始輸入您要指派給工作的作用中使用者名稱，然後當它顯示在清單中時按一下它。
-   * 按一下「**工作總攬**」欄位並開始輸入您想要指派給任務的作用中使用者、工作角色或團隊的名稱，然後當它顯示在清單中時按一下它。
+   * 按一下「**工作總攬**」欄位並開始輸入您想要指派給任務的作用中使用者、工作角色、團隊或任務共同作業人員的名稱，然後當它顯示在清單中時按一下它。
 
      >[!TIP]
      >
@@ -255,7 +249,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina)
 
    **編輯任務**&#x200B;方塊開啟。
 
-1. 在&#x200B;**工作總攬**&#x200B;區域中，開始在提供的&#x200B;**搜尋人員、角色或團隊**&#x200B;欄位中輸入使用者、團隊或角色的名稱，然後當他們顯示在清單中時按一下他們
+1. 在&#x200B;**工作總攬**&#x200B;區域中，開始在提供的&#x200B;**搜尋人員、角色或團隊**&#x200B;欄位中輸入使用者、團隊、角色或任務共同作業人員的名稱，然後當他們顯示在清單中時按一下他們
 
    >[!IMPORTANT]
    >
@@ -263,7 +257,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina)
 
 1. 為選取的任務指定下列欄位：
 
-   * 將游標暫留在指派名稱上，然後按一下[設為主要]，指出哪個受指派人是工作的擁有者。**&#x200B;**
+   * 將游標暫留在指派名稱上，然後按一下[設為主要]，指出哪個受指派人是工作的擁有者。****
    * **期間類型**
 
      如需有關工作的期間型別資訊，請參閱[工作期間與期間型別概觀](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)。
