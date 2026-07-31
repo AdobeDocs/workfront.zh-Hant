@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: dc6bfcd7d3431532c1227f6cd31f22445882143f
+source-git-commit: f27d4a7e48bbf1858642d99b2621d612f7ac54ad
 workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 2%
@@ -50,11 +50,11 @@ AI共同作業人員是將AI代理程式加入您的專案和任務的方法。 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p>
+   <td><p>[！UICONTROL標準]</p>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td> 
+   <td>[！UICONTROL系統管理員]</td> 
   </tr> 
   </tbody> 
 </table>
@@ -158,7 +158,7 @@ Reviewer AI共同作業人員可設定為使用Workfront品牌或Adobe Brand Int
       環境ID會顯示在左上角的環境名稱下方。
 
 1. 建立代理。
-   1. 在[受管理的代理程式] > [代理程式]下，按一下右上角的[建立代理程式] **&#x200B;**。
+   1. 在[受管理的代理程式] > [代理程式]下，按一下右上角的[建立代理程式] ****。
    1. 提供適用的名稱、型號、系統提示、技能及工具。請具描述性，因為任務共同作業人員會將任務內容傳遞給此代理程式，然後執行工作。
       代理程式ID會顯示在左上角的代理程式名稱下方。
 
@@ -187,7 +187,7 @@ Reviewer AI共同作業人員可設定為使用Workfront品牌或Adobe Brand Int
 1. 新增單一文字輸入欄位。 您可以使用預設名稱「文字輸入」。
 1. 將`@TextInput`新增至您的提示。 在應用程式設定的提示區段中，確認您的提示範本參考了輸入變數。 若沒有此專案，模型就不會看到任務資料。
 1. 調整您的提示以立即產生輸出。 移除在回應之前要求使用者澄清或其他內容的任何指示。 例如：「當您收到輸入時，將其視為內容產生請求，並立即產生輸出。 請勿要求澄清。」
-1. 複製您的API金鑰和應用程式ID。 您需要任務共同作業程式才能在Workfront中設定任務共同作業程式。
+1. 複製您的API金鑰和應用程式ID。 您將需要任務共同作業人員在Workfront中設定任務共同作業人員。
 
    * 如需在Writer中設定API金鑰的指示，請參閱Writer檔案中的[快速入門](https://dev.writer.com/home/quickstart)。
    * 如需在Writer中設定應用程式ID的說明，請參閱Writer檔案中的[透過API叫用無程式碼代理程式](https://dev.writer.com/home/applications)。
@@ -206,6 +206,6 @@ Reviewer AI共同作業人員可設定為使用Workfront品牌或Adobe Brand Int
 {{step-1-to-setup}}
 
 1. 在左側導覽列中，按一下&#x200B;**AI共同作業人員**。
-1. （條件式）若要編輯共同作業人員，請按一下您要編輯的共同作業人員名稱，在[編輯共同作業人員]視窗中進行任何編輯，然後按一下[儲存]。**&#x200B;**
+1. （條件式）若要編輯共同作業人員，請按一下您要編輯的共同作業人員名稱，在[編輯共同作業人員]視窗中進行任何編輯，然後按一下[儲存]。****
 1. （視條件而定）若要複製Collaborator，請按一下要複製之AI Collaborator列中的復製圖示![復製圖示](assets/copy-ai-collaborator.png)，按一下複製的名稱，在Edit Collaborator視窗中進行任何編輯，然後按一下&#x200B;**儲存**。
 1. （視條件而定）若要刪除Collaborator，請在您要刪除的AI Collaborator列中按一下「刪除」圖示![「刪除」圖示](assets/delete-collaborator-icon.png)，然後按一下&#x200B;**「刪除」**。
