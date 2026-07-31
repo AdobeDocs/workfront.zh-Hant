@@ -48,7 +48,7 @@ ht-degree: 0%
 
 對於每個存活的資料列，在URL中尋找`/using`，並僅保留其後`/`的後續部分（及包含），捨棄之前的所有內容，並包含`/using`。
 
-範例： `https://experienceleague.adobe.com/en/docs/workfront/using/home` → `/home`
+範例： `https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home` → `/home`
 
 如果在Workfront列的URL中找不到`/using`，請保持該URL不變，並為使用者加上旗標，而非猜測。
 
