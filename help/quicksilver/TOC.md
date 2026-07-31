@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 69d930d5fa6272329e3d7f99fdf78ccd823857df
+source-git-commit: 541f736ffb051e1a7d5e0a277e12353c40bf885c
 workflow-type: tm+mt
-source-wordcount: '14396'
+source-wordcount: '14399'
 ht-degree: 2%
 
 ---
@@ -1420,6 +1420,7 @@ ht-degree: 2%
       * [指派任務](manage-work/tasks/assign-tasks/assign-tasks-1.md)
       * [指派任務](manage-work/tasks/assign-tasks/assign-tasks.md)
       * [建立進階任務指派](manage-work/tasks/assign-tasks/create-advanced-assignments.md)
+      * [使用任務共同作業人員](manage-work/tasks/assign-tasks/use-task-collaborators.md)
       * [智慧指派總覽](manage-work/tasks/assign-tasks/smart-assignments.md)
       * [修改任務指派的概要](manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
       * [修改任務清單中的多個使用者指派](manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
