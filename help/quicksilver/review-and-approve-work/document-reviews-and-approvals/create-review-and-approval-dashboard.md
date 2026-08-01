@@ -15,9 +15,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: e07d9346bc39e91b59ce82d56fdc8801e6d5b846
 workflow-type: tm+mt
-source-wordcount: 2561
+source-wordcount: 2563
 ht-degree: 0%
 
 ---
@@ -139,7 +139,7 @@ ht-degree: 0%
 
    1. 按一下空白條件篩選，然後按一下&#x200B;**挑選欄位**。
 
-   1. 選取&#x200B;**核准階段** > **截止日期**。
+   1. 選取&#x200B;**核准階段** > **期限**。
    1. 將運運算元變更為&#x200B;**小於**。
    1. 將&#x200B;**設定相對日期**&#x200B;切換為&#x200B;**ON**，然後在文字方塊中輸入&#x200B;_$$TODAY_。
       ![超期kpi篩選範例](assets/overdue-kpi-filter.png)
@@ -327,7 +327,7 @@ ht-degree: 0%
       ![修訂圖表篩選範例](assets/revision-chart-filter.png)
    1. 按一下&#x200B;**新增條件**。
    1. 按一下空白條件篩選，然後按一下&#x200B;**挑選欄位**。
-   1. 選取&#x200B;**核准階段** > **截止日期**。
+   1. 選取&#x200B;**核准階段** > **期限**。
    1. 將運運算元變更為&#x200B;**小於或等於**，然後將&#x200B;**設定相對日期**&#x200B;切換為&#x200B;**ON**。
    1. 在文字方塊中輸入&#x200B;_$$TODAYem_。
       ![修訂圖表篩選範例](assets/revision-chart-filter-2.png)
@@ -373,7 +373,7 @@ ht-degree: 0%
     </tr>
     <tr>
     <td><strong>檔案版本</strong></td>
-    <td>檔案版本&gt;檔案&gt;版本</td>
+    <td>檔案版本&gt;檔案&gt;目前版本&gt;版本</td>
     </tr>
     <tr>
     <td><strong>截止日期</strong></td>
@@ -495,7 +495,7 @@ ht-degree: 0%
    1. 在左側面板中，按一下&#x200B;**篩選器** ![篩選器索引標籤圖示](assets/filter-tab.png)圖示。
    1. 按一下&#x200B;**編輯篩選器**，然後按&#x200B;**新增條件**。
    1. 按一下空白條件篩選，然後按一下&#x200B;**挑選欄位**。
-   1. 選取&#x200B;**核准階段** > **截止日期**。
+   1. 選取&#x200B;**核准階段** > **期限**。
    1. 將運運算元變更為&#x200B;**小於**，然後將&#x200B;**設定相對日期**&#x200B;切換為&#x200B;**ON**。
    1. 在文字欄位中輸入&#x200B;_$$TODAY_。
       ![逾期核准表篩選範例](assets/overdue-approval.png)
