@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: aadfd91d-19e5-4124-bbc4-70f5fbfa9ce6
-source-git-commit: 298865bbcdab40cda887d939529561e13a9ed093
+source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
@@ -30,4 +30,3 @@ ht-degree: 0%
 * [從範本匯入費率卡](/help/quicksilver/administration-and-setup/manage-enterprise-operations/import-rate-cards.md)
 * [專案的推送率變更](/help/quicksilver/administration-and-setup/manage-enterprise-operations/push-rates-to-projects.md)
 * [共用費率卡](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md)
-* [檢視及管理變更歷史記錄](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)

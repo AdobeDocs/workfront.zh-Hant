@@ -4,7 +4,7 @@ description: 2026年第三季度管理員增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8300e424d36a438ebb8e5ce0cad85ea63614bd8d
+source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 4%
@@ -36,7 +36,7 @@ Workfront中的「變更歷史記錄」頁面現在會擷取統一檢閱和核�
 
 此變更追蹤階段不包含MCP事件。 這些將成為未來版本的一部分。
 
-如需詳細資訊，請參閱[檢視及管理變更記錄](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)。
+如需詳細資訊，請參閱[檢視及管理變更記錄](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)。
 
 -->
 
@@ -142,7 +142,7 @@ Workfront中的「變更歷史記錄」頁面現在會擷取統一檢閱和核�
 
 以前，稽核記錄可供使用，但不涵蓋物件。
 
-如需詳細資訊，請參閱[檢視及管理變更記錄](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)。
+如需詳細資訊，請參閱[檢視及管理變更記錄](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)。
 
 ## 將舊版儲存產品組合轉換為Adobe雲端儲存空間的新系統偏好設定
 
@@ -211,6 +211,6 @@ RTF文字欄位型別正在將文字取代為格式欄位型別。 您可以按�
 
 目前，當大量編輯物件時，只有當使用者修改欄位時才會強制執行必要欄位。 如果欄位未修改，則會視為選用且未驗證。
 
-新的系統偏好設定現在可讓您強制大量編輯中的必填欄位。 若要不允許儲存大量編輯的物件，除非所有必要欄位都有值，請在[設定] > [系統] > [偏好設定]頁面上選取[一律強制大量編輯必要欄位]選項&#x200B;**&#x200B;**。
+新的系統偏好設定現在可讓您強制大量編輯中的必填欄位。 若要不允許儲存大量編輯的物件，除非所有必要欄位都有值，請在[設定] > [系統] > [偏好設定]頁面上選取[一律強制大量編輯必要欄位]選項&#x200B;****。
 
 如需詳細資訊，請參閱[設定系統偏好設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。

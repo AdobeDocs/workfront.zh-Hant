@@ -10,15 +10,11 @@ exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/P-naBIVBoFQcBaL4Zgo0cEOTQ8eErxqr0MBmHTbec9E
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 4d6be75a507438eee1f3887474b847c2bece85ff
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
 workflow-type: tm+mt
 source-wordcount: 4323
 ht-degree: 0%
@@ -87,7 +83,7 @@ Adobe雲端儲存空間的主要優點包括：
 
 #### Frame.io檢視器中支援的檔案型別
 
-Frame.io檢視器支援所有常見的視訊、影像、音訊、PDF和MS® Office型別。 如需支援檔案的詳細清單，請參閱Frame.io[&#128279;](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的支援的檔案型別。
+Frame.io檢視器支援所有常見的視訊、影像、音訊、PDF和MS® Office型別。 如需支援檔案的詳細清單，請參閱Frame.io](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的[支援的檔案型別。
 
 #### Frame.io檢視器的存取與授權
 
@@ -101,7 +97,7 @@ Frame.io檢視器是所有Workfront檢閱和核准工作流程的預設檢視器
 
 <span class="preview">整合式檢閱和核准包含完整的稽核記錄，可跨Workfront和Frame.io建立完整的治理追蹤。 變更追蹤記錄會擷取在Frame.io檢視器和檔案生命週期中所做的核准決定。 每個記錄專案都包含來源系統歸因（Workfront或Frame.io）以及標準Workfront稽核欄位：日期和時間、記錄型別、使用者名稱、動作和物件名稱。 Frame.io檢視器註解未包含在稽核記錄中。</span>
 
-<span class="preview">變更追蹤記錄會顯示在Workfront的「設定」區域中，且可供匯出。 如需詳細資訊，請參閱[檢視及管理變更歷史記錄](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)。</span>
+<span class="preview">變更追蹤記錄會顯示在Workfront的「設定」區域中，且可供匯出。 如需詳細資訊，請參閱[檢視及管理變更歷史記錄](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)。</span>
 
 ## Workfront強大的專案管理
 
