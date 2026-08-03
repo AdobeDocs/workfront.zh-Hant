@@ -46,7 +46,7 @@ Adobe Workfront會產生自動系統更新，以記錄下列事件：
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td>[！UICONTROL標準]</td> 
+   <td>[!UICONTROL 標準]</td> 
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
@@ -86,7 +86,7 @@ Adobe Workfront會產生自動系統更新，以記錄下列事件：
 
    ![新增變更追蹤的欄位](assets/change-history-config-add-fields.png)
 
-1. 選取您要追蹤的所有欄位後，按一下[新增]。****
+1. 選取您要追蹤的所有欄位後，按一下[新增]。**&#x200B;**
 
    這些欄位會新增至「追蹤的欄位」清單中。
 

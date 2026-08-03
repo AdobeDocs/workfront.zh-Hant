@@ -50,7 +50,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td>[！UICONTROL標準]</td> 
+   <td>[!UICONTROL 標準]</td> 
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
