@@ -9,20 +9,14 @@ exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/v1IRcsFil5-ba26LoUX6IgD5gG-9h2344Tfs-qRvvPU
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1101
+source-wordcount: 1134
 ht-degree: 1%
 
 ---
@@ -64,22 +58,33 @@ ht-degree: 1%
    <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
 <ul> 
-<li><p>任何Workfront和任何Planning套件</p></li>
+<li><p>任何具有Planning套件的Workfront或Workflow套件</p></li>
 或
-<li><p>任何工作流程與任何Planning套件</p></li></ul>
+<li><p>以獨立產品形式購買時的任何Planning套件</p></li></ul>
 
 <p>若要刪除全域記錄型別，請執行下列動作：</p>
 <ul><li><p>任何Workfront套件和Planning Plus套件</p></li>
 或
-<li><p>任何工作流程和Planning Prime或Ultimate套件</p></li></ul>
-
-<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
+<li><p>任何工作流程和Planning Prime或Ultimate套件</p></li>
+或
+<li>以獨立產品形式購買時的任何Planning套件</li>
+</ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
-   <td><p>標準</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
+</tr> 
+   <td role="rowheader"><p>Adobe計畫授權</p></td> 
+   <td><p>規劃標準</p>
+   </td> 
+  </tr>
+<tr> 
+   <td role="rowheader"><p>存取層級設定</p></td> 
+   <td> <p>擁有Workflow和Planning套件時，您必須將Workflow和Planning授權型別新增到存取層級</p>   
+</td> 
+  </tr>
   <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
    <td>   <p>管理工作區的許可權</p>  
@@ -139,7 +144,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -159,9 +164,9 @@ Old:
 * 您只能從您擁有「管理」許可權的工作區中刪除記錄型別。
 * 刪除記錄型別會移除下列與其相關的資訊：
 
-   * 該型別的所有記錄。
-   * 與記錄型別關聯的所有欄位。
-   * 記錄型別的所有檢視（包括篩選器、群組和排序標準）。
+  * 該型別的所有記錄。
+  * 與記錄型別關聯的所有欄位。
+  * 記錄型別的所有檢視（包括篩選器、群組和排序標準）。
 * 記錄型別會從存取工作區的所有使用者中移除。
 * 您無法復原已刪除的記錄型別或其資訊。
 * 建議您先在其他記錄型別上重新建立與您要刪除之記錄型別相關的欄位和記錄，然後再刪除它們。
@@ -244,7 +249,7 @@ Old:
 
 * 當您從次要工作區中刪除全域記錄型別時，也會刪除下列專案：
 
-   * 從次要工作區新增的記錄會從次要工作區和原始工作區中刪除，且無法復原。
+  * 從次要工作區新增的記錄會從次要工作區和原始工作區中刪除，且無法復原。
 
   <!--Coming later: * The fields added from the secondary workspace.-->
 

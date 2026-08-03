@@ -9,20 +9,14 @@ exl-id: 9ffad1aa-3c96-40fa-9c62-7a3e00699f18
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/NTytTWD-zq3PVhXn4n-GHinvQxna1wfnAXjaeYBgTEY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1683
+source-wordcount: 1693
 ht-degree: 2%
 
 ---
@@ -50,9 +44,9 @@ ht-degree: 2%
 
   如需詳細資訊，請參閱下列文章：
 
-   * [共用工作區](/help/quicksilver/planning/access/share-workspaces.md)
+  * [共用工作區](/help/quicksilver/planning/access/share-workspaces.md)
 
-   * [共用記錄型別](/help/quicksilver/planning/access/share-record-types.md)
+  * [共用記錄型別](/help/quicksilver/planning/access/share-record-types.md)
 
 * 使用&#x200B;**共用**&#x200B;選項，共用個別記錄或大量共用多個記錄。
 
@@ -79,21 +73,31 @@ at GA, check that the Workfront plans article linked below has Planning info
 <col> 
 </col> 
 <tbody> 
-    <tr> 
+    <tr>
+
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
 <p>具有Planning套件的任何Workfront或工作流程</p> 
 或
 <p>任何Workfront Planning作為獨立產品套件</p> 
- </tr>
-
-<tr> 
+ </tr> 
+  <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
    <td><p>任何</p> 
-   <p><b>附註</b></p>
-   <p>只有具有Standard授權的使用者才能被授與記錄的「管理」許可權。 所有其他授權只能具有「檢視」許可權，而且這些授權的「管理」選項會變暗。</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe計畫授權</p></td> 
+   <td><p>任何</p> 
+<p><b>附註</b></p>
+   <p>只有具有Planning Standard授權的人才能被授與記錄的管理許可權。 所有其他授權只能具有「檢視」許可權，而且這些授權的「管理」選項會變暗。</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>存取層級設定</p></td> 
+   <td> <p>擁有Workflow和Planning套件時，您必須將Workflow和Planning授權型別新增到存取層級</p>  
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
@@ -119,14 +123,14 @@ maybe use the Share record types as example here and touch on the same points: h
 * 您可以與下列實體共用記錄：人員、群組、團隊、公司或職務角色。
 * 下列限制存在：
 
-   * 您無法一次共用超過100筆記錄。
-   * 您無法與超過100個實體共用記錄。
+  * 您無法一次共用超過100筆記錄。
+  * 您無法與超過100個實體共用記錄。
 * 如果您限制記錄的許可權，則使用者不會再在顯示該記錄的系統中的任何位置檢視該記錄及其查閱欄位的值。
 * Workfront會檢查最多5筆記錄深層連線的記錄許可權，確保使用者只會看到與他們共用的記錄。
 * 您可以授予記錄的下列許可權層級：
 
-   * 檢視
-   * 管理
+  * 檢視
+  * 管理
 * 當您與使用者共用工作區和記錄型別時，預設情況下，他們也會收到工作區中記錄的相同許可權。
 當使用者擁有工作區或記錄型別的貢獻許可權時，他們將獲得該記錄型別的記錄的管理許可權。
 * 當您從工作區中移除實體時，所有共用許可權都會從記錄型別及其中的所有記錄中移除。
@@ -135,13 +139,13 @@ maybe use the Share record types as example here and touch on the same points: h
   如果您與不在工作區中的人員共用記錄，系統會自動將他們新增至工作區。
 * 使用者對記錄的存取權取決於以下3個設定的組合：
 
-   * 其許可權繼承自記錄型別和工作區
-   * 在記錄共用方塊中個別新增許可權
-   * 工作區中的&#x200B;**每個人都可以檢視**&#x200B;設定。
+  * 其許可權繼承自記錄型別和工作區
+  * 在記錄共用方塊中個別新增許可權
+  * 工作區中的&#x200B;**每個人都可以檢視**&#x200B;設定。
 
-     這可讓工作區中的每個人檢視記錄
+    這可讓工作區中的每個人檢視記錄
 
-     <!--
+    <!--
       Cannot do this on a record: 
       * **Only invited people can access**: This is selected by default and allows restricting access to the record to specific people. 
       -->
@@ -150,8 +154,8 @@ maybe use the Share record types as example here and touch on the same points: h
 
   例如：
 
-   * 如果他們擁有記錄型別的檢視許可權，他們將獲得記錄的檢視許可權
-   * 如果他們擁有記錄型別的「貢獻」或「管理」許可權，他們將獲得記錄的「管理」許可權
+  * 如果他們擁有記錄型別的檢視許可權，他們將獲得記錄的檢視許可權
+  * 如果他們擁有記錄型別的「貢獻」或「管理」許可權，他們將獲得記錄的「管理」許可權
 
 * 當使用者具有工作區的「管理」或「貢獻」許可權以及記錄型別，並且您將其新增到記錄許可權時，檢視許可權將暗顯。 他們保留對記錄的相同許可權，就像對記錄型別一樣，並且您不能授予他們較低的記錄許可權。
 

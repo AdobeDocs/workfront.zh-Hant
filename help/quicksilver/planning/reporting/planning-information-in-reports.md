@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '255'
 ht-degree: 6%
 
 ---
@@ -19,11 +19,12 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->畫布儀表板功能目前僅適用於參與Beta階段的使用者。 在此階段中，部分功能可能無法完成或如預期般運作。下列雲端提供者無法使用Beta版：
+>畫布儀表板功能目前僅適用於參與Beta階段的使用者。在此階段中，部分功能可能無法完成或如預期般運作。
+>下列雲端服務供應商無法使用Beta版：
 >
 >* 自備Amazon Web Services金鑰
 >* Azure
->* Google Cloud Platform如需詳細資訊，請參閱[管理畫布儀表板：文章索引](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)。
+>* Google Cloud平台> 如需詳細資訊，請參閱[管理畫布儀表板：文章索引](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)。
 
 ## 存取權要求
 
@@ -38,24 +39,33 @@ ht-degree: 6%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront套件</p></td> 
    <td> 
-<p>任何Workfront或Workflow套件</p>
-<p>任何Planning套件</p>
+<p>具有Planning套件的任何Workfront或工作流程</p>
+<p><b>附註</b></p>
+<p>購買Workfront Planning作為獨立產品的客戶無法取得報表</p>
    </td> </tr>
 
 </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
-   <td><p>標準</p> 
+   <td><p>Workflow Standard</p> 
   </td> 
   </tr>
-   <tr> 
+ <tr> 
+   <td role="rowheader"><p>Adobe計畫授權</p></td> 
+   <td><p>規劃標準</p> 
+  </td> 
+  </tr>
+
+<tr> 
    <td role="rowheader"><p>存取層級設定</p></td> 
    <td><p>編輯報告、儀表板和行事曆的存取權</p>
   </td> 
   </tr>  
   <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
-   <td><p>檢視工作區</a>的許可權 </p>  
+   <td>
+   <p>擁有Workflow和Planning套件時，您必須將Workflow和Planning授權型別新增到存取層級</p>   
+   <p>檢視工作區</a>的許可權 </p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>  
    </td> 
   </tr>  

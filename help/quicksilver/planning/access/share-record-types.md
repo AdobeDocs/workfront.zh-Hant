@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 009953346ae5ef29611101acaa08b4f9810cf9d8
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1485'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >有權存取工作區的使用者至少會自動取得工作區中所有記錄型別的檢視許可權。
->共用檢視未授予使用者記錄型別的許可權。 只有共用工作區才能授予使用者記錄型別的許可權。
+>共用檢視未授予使用者記錄型別的許可權。只有共用工作區才能授予使用者記錄型別的許可權。
 >
 >* 如需在Workfront Planning中共用物件的一般資訊，另請參閱[在Adobe Workfront Planning中共用許可權概觀](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
 >* 如需詳細資訊，請參閱本文中的[共用記錄型別](#considerations-when-sharing-record-types)時的考量事項。
@@ -59,13 +59,22 @@ ht-degree: 1%
 <p>具有Planning套件的任何Workfront或工作流程</p> 
 或
 <p>任何Workfront Planning作為獨立產品套件</p> 
- </tr>
-
-<tr> 
+ </tr> 
+  <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
    <td><p>任何</p> 
   </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe計畫授權</p></td> 
+   <td><p>任何</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>存取層級設定</p></td> 
+   <td> <p>擁有Workflow和Planning套件時，您必須將Workflow和Planning授權型別新增到存取層級</p>   
+</td> 
+  </tr>  
   <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
    <td>  <p>管理工作區和記錄型別的許可權</p>  
@@ -129,7 +138,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -154,17 +163,17 @@ Old:
 
 * 目前，當您共用記錄型別時，可以達成下列目標：
 
-   * 當您第一次與他人共用記錄型別，而對方沒有任何工作區許可權時，提供人員的工作區檢視許可權。
+  * 當您第一次與他人共用記錄型別，而對方沒有任何工作區許可權時，提供人員的工作區檢視許可權。
 
-     這也會授予他們工作區中所有記錄型別的檢視許可權。
+    這也會授予他們工作區中所有記錄型別的檢視許可權。
 
-     當您授予他們記錄型別的許可權時，共用方塊中會顯示這些許可權也已新增至工作區。
-   * 當您停用「繼承」許可權時，讓記錄型別僅供工作區中的每個人檢視（工作區管理員除外）。
+    當您授予他們記錄型別的許可權時，共用方塊中會顯示這些許可權也已新增至工作區。
+  * 當您停用「繼承」許可權時，讓記錄型別僅供工作區中的每個人檢視（工作區管理員除外）。
 
-     擁有工作區管理許可權的人員一律對記錄型別擁有管理許可權，即使您關閉記錄型別的繼承許可權亦然。
-   * 降低人員對記錄型別的許可權。 您無法根據某人在工作區中的擁有權來增加其對記錄型別的許可權。
+    擁有工作區管理許可權的人員一律對記錄型別擁有管理許可權，即使您關閉記錄型別的繼承許可權亦然。
+  * 降低人員對記錄型別的許可權。 您無法根據某人在工作區中的擁有權來增加其對記錄型別的許可權。
 
-     例如，如果某人擁有工作區的「貢獻內容」許可權，您可以將其許可權變更為檢視的特定記錄型別。 但是，如果他們擁有工作區的檢視許可權，您無法將任何記錄型別的貢獻許可權授予他們。
+    例如，如果某人擁有工作區的「貢獻內容」許可權，您可以將其許可權變更為檢視的特定記錄型別。 但是，如果他們擁有工作區的檢視許可權，您無法將任何記錄型別的貢獻許可權授予他們。
 
 * 無法移除工作區中人員的記錄型別存取權。 如果每個人都至少擁有工作區的檢視許可權，則至少每個人都擁有所有記錄型別的檢視許可權。
 
@@ -238,7 +247,7 @@ Old:
 1. 按一下「**儲存**」。
 
    記錄型別現在與其他使用者共用。
-您與其共用記錄型別的使用者會同時收到應用程式內和電子郵件通知，告知其擁有下列實體的特定許可權：
+   您與其共用記錄型別的使用者會同時收到應用程式內和電子郵件通知，告知其擁有下列實體的特定許可權：
 
    * 記錄型別
    * 工作區（如果在與他們共用記錄型別之前，他們未擁有工作區的許可權）。

@@ -9,19 +9,14 @@ exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/uUnIDCZ1-906MSz5B8La-9cu0k4pabUarBuUE9t8zhw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 899
+source-wordcount: 931
 ht-degree: 0%
 
 ---
@@ -57,13 +52,28 @@ ht-degree: 0%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
-<p>任何Workfront和任何Planning套件</p> <p>任何工作流程與任何Planning套件</p>
-<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
-   </td> 
+<p>具有Planning套件的任何Workfront或工作流程</p> 
+或
+<p>以獨立產品形式購買時的任何Planning套件</p>
+
+</td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
-   <td><p>投稿人或以上</p>
+   <td><p>工作流程指示燈或更高</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Planning授權</p></td> 
+   <td><p>Planning貢獻者或更高版本</p>
+
+<p><b>附註</b></p>
+   <p> 並非所有客戶都擁有Planning貢獻者授權</p>
+   </td> 
+  </tr>
+  <tr> 
+   <td role="rowheader"><p>存取層級設定</p></td> 
+   <td> <p>擁有Workflow和Planning套件時，您必須將Workflow和Planning授權型別新增到存取層級</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
@@ -125,7 +135,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -194,7 +204,7 @@ Old:
 1. （可選）若要復原或重做變更，請使用下列快速鍵：
    * CTRL + Z （Mac為⌘+z）可復原變更
    * 按CTRL + Y （Mac為⌘+y）以重做變更
-1. 新增&#x200B;**@**，然後加上使用者或團隊的名稱，以便在更新中標籤它們。 如需詳細資訊，請參閱本文中關於評論記錄[&#128279;](#considerations-about-commenting-on-a-record)的考量事項。
+1. 新增&#x200B;**@**，然後加上使用者或團隊的名稱，以便在更新中標籤它們。 如需詳細資訊，請參閱本文中關於評論記錄](#considerations-about-commenting-on-a-record)的[考量事項。
 
 1. （可選）使用RTF工具列中的選項來格式化文字、新增emoji或連結至更新，以強化內容。
 

@@ -9,20 +9,14 @@ exl-id: 77342724-0182-4134-903b-4428d54cdceb
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Uq0-7VfCb4nKr2xCXKmtJgwh0q-0iwTfu8mP2DgVBSU
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 1360
+source-wordcount: 1394
 ht-degree: 2%
 
 ---
@@ -67,8 +61,8 @@ ht-degree: 2%
 
   如需詳細資訊，請參閱下列文章：
 
-   * [將「連線的記錄」頁面新增至記錄](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)
-   * [管理清單檢視](/help/quicksilver/planning/views/manage-the-list-view.md)
+  * [將「連線的記錄」頁面新增至記錄](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)
+  * [管理清單檢視](/help/quicksilver/planning/views/manage-the-list-view.md)
 
 本文說明有關記錄檢視的下列資訊：
 
@@ -99,15 +93,29 @@ ht-degree: 2%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
-<p>任何Workfront和任何Planning套件</p>
-<p>任何工作流程與任何Planning套件</p>
-<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
-   </td> 
-  <tr> 
+<ul> 
+<li><p>具有Planning套件的任何Workfront或工作流程</p></li>
+或
+<li><p>以獨立產品形式購買時的任何Planning套件</p></li></ul>
+   </td> </tr>
+
+<tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
-   <td><p> 建立和刪除檢視的標準</p>
-   <p>更新檢視元素的投稿人或更新者</p>
+   <td><p>工作流程指示燈或更高</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe計畫授權</p></td> 
+   <td><p> Planning Standard建立和刪除檢視</p>
+   <p>Planning貢獻者或更高版本以更新檢視元素</p>
+   <p><b>附註</b><p>
+   <p>並非所有客戶都擁有Planning貢獻者授權</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>存取層級設定</p></td> 
+   <td> <p>擁有Workflow和Planning套件時，您必須將Workflow和Planning授權型別新增到存取層級</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
@@ -171,7 +179,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -197,14 +205,14 @@ Old:
 * 每位使用者最多可建立100個檢視。 您可以為記錄型別顯示100個以上的檢視，但一個使用者只能建立100個檢視。
 * 雖然某些檢視元素可以套用至相同記錄的多個檢視，但它們對每個記錄檢視都是獨一無二的：
 
-   * 篩選器
-   * 排序（適用於表格檢視）
-   * 列顏色（用於表格檢視）
-   * 欄位（適用於表格檢視）
-   * 劃分（適用於時間表檢視）
-   * 分組（針對表格和時間表檢視）
-   * 長條圖外觀（適用於時間軸和行事曆檢視）
-   * 列高（適用於表格和每月行事曆檢視）
+  * 篩選器
+  * 排序（適用於表格檢視）
+  * 列顏色（用於表格檢視）
+  * 欄位（適用於表格檢視）
+  * 劃分（適用於時間表檢視）
+  * 分組（針對表格和時間表檢視）
+  * 長條圖外觀（適用於時間軸和行事曆檢視）
+  * 列高（適用於表格和每月行事曆檢視）
 
   例如，在表格檢視中建立篩選時，篩選結果只會在選取的檢視（表格檢視）中顯示，而不會在與記錄型別關聯的所有檢視中顯示。
 
@@ -277,7 +285,7 @@ Old:
    * 時間軸
    * 行事曆
 
-1. 選擇檢視型別，然後按一下[建立]。**&#x200B;** 新檢視會新增至下拉式功能表。
+1. 選擇檢視型別，然後按一下[建立]。**** 新檢視會新增至下拉式功能表。
 
    >[!TIP]
    >

@@ -9,19 +9,14 @@ exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/mW--blSvQVx2QXVvVeV5NQfjPtO--UcKImNEvxFzbAs
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 555
+source-wordcount: 588
 ht-degree: 4%
 
 ---
@@ -59,13 +54,26 @@ ht-degree: 4%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
-<p>任何Workfront和任何Planning套件</p> <p>任何工作流程與任何Planning套件</p>
-<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
+<p>任何Workfront或Workflow以及Planning套件</p> 
+或
+<p>以獨立產品形式購買時的任何Planning套件</p>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
-   <td><p>投稿人或以上</p>
+   <td><p>工作流程光源或更高</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe計畫授權</p></td> 
+   <td><p>Planning貢獻者或更高版本</p>
+   <p><b>附註</b></p>
+   <p>並非所有客戶都擁有Planning貢獻者授權</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>存取層級設定</p></td> 
+   <td> <p>擁有Workflow和Planning套件時，您必須將Workflow和Planning授權型別新增到存取層級</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
@@ -128,7 +136,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -172,29 +180,29 @@ Old:
 
 * Workfront Planning會在「歷史記錄」區段中記錄下列資訊：
 
-   * 任何欄位變更
+  * 任何欄位變更
 
-   * 當值變更時，欄位的舊值和新值。 舊值會以刪除線格式顯示。
+  * 當值變更時，欄位的舊值和新值。 舊值會以刪除線格式顯示。
 
-   * 進行變更的使用者全名
+  * 進行變更的使用者全名
 
-   * 變更發生的日期和時間戳記。
+  * 變更發生的日期和時間戳記。
 
 * 下列型別的欄位一律會顯示舊值（以刪除線格式）和新值：
 
-   * 文字
-   * 段落
-   * 貨幣
-   * 日期
-   * 數字
-   * 百分比
-   * 單選
+  * 文字
+  * 段落
+  * 貨幣
+  * 日期
+  * 數字
+  * 百分比
+  * 單選
 
 * 只有在刪除了多個值中的至少一個時，以下型別的欄位才會以刪除線格式顯示舊值：
 
-   * 多選
-   * 連結的記錄欄位
-   * 人員
+  * 多選
+  * 連結的記錄欄位
+  * 人員
 
   如果變更僅新增值至欄位，則不會顯示舊值，而只會顯示新欄位值。
 
@@ -204,11 +212,11 @@ Old:
 
 * 下列型別的欄位變更不會顯示在「歷史記錄」區段中：
 
-   * 連結（查詢）欄位
-   * 公式
-   * 建立者
-   * 建立日期
-   * 上次修改者
-   * 上次修改日期
+  * 連結（查詢）欄位
+  * 公式
+  * 建立者
+  * 建立日期
+  * 上次修改者
+  * 上次修改日期
 
 * 如果欄位從系統中移除，對該欄位所做的更新會保留在「歷史記錄」區段中。 沒有跡象顯示欄位在記錄的History區段中已移除。

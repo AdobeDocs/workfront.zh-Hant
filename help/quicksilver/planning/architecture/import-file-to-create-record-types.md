@@ -9,20 +9,14 @@ exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/ydcYvw38Xrlh0QQz0FSI4RBsewDKL2r2Yf1m0tl83jc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: 859
 ht-degree: 1%
 
 ---
@@ -52,19 +46,29 @@ ht-degree: 1%
     <tr> 
 <tr> 
 </tr>   
-<tr> 
+tr&gt; 
    <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
-<p>任何Workfront和任何Planning套件</p>
+<ul> 
+<li><p>具有Planning套件的任何Workfront或工作流程</p></li>
 或
-<p>任何工作流程與任何Planning套件</p>
-<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
+<li><p>以獨立產品形式購買時的任何Planning套件</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
-   <td><p>標準</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe計畫授權</p></td> 
+   <td><p>規劃標準</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>存取層級設定</p></td> 
+   <td> <p>擁有Workflow和Planning套件時，您必須將Workflow和Planning授權型別新增到存取層級</p>   
+</td> 
+  </tr>  
   <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
    <td>   <p>管理工作區的許可權</p>  
@@ -124,7 +128,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -146,20 +150,20 @@ Old:
 * 欄位對於其各自的記錄型別來說都是唯一的。
 * 每個工作表中的每一列都會成為與其個別記錄型別相關聯的唯一記錄。
 * 每個Excel檔案工作表不應超過下列專案：
-   * 25,000列
-   * 500欄
+  * 25,000列
+  * 500欄
 * 檔案不應大於5MB。
 * 不支援空白工作表。
 * 不支援下列型別的欄位，且無法對應至匯入工作表上的欄位：
 
-   * Workfront、Adobe Experience Manager物件型別或GenStudio品牌的連線欄位。
-   * 從連線的Planning記錄、Workfront、Adobe Experience Manager物件或GenStudio品牌中查詢欄位。
-   * 公式欄位
-   * 建立日期，建立者
-   * 上次修改日期，上次修改者：
-   * 核准日期，核准者
-   * 人員
-   * 記錄 ID
+  * Workfront、Adobe Experience Manager物件型別或GenStudio品牌的連線欄位。
+  * 從連線的Planning記錄、Workfront、Adobe Experience Manager物件或GenStudio品牌中查詢欄位。
+  * 公式欄位
+  * 建立日期，建立者
+  * 上次修改日期，上次修改者：
+  * 核准日期，核准者
+  * 人員
+  * 記錄 ID
 
 若要使用Excel或CSV檔案匯入記錄型別：
 
@@ -221,7 +225,7 @@ Old:
 
 1. （視條件而定）更新欄位相關資訊後，按一下&#x200B;**儲存**。
 
-1. 當您準備好匯入您的檔案時，請按一下[匯入]。**&#x200B;**
+1. 當您準備好匯入您的檔案時，請按一下[匯入]。****
 
    下列資訊會匯入Workfront Planning中：
 

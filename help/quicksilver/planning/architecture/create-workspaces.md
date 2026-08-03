@@ -9,21 +9,14 @@ exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/LtHxTws4o0FI964-qOtFE-sbKaLGRQroBQvMD5fOUvY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1252
+source-wordcount: 1279
 ht-degree: 1%
 
 ---
@@ -60,16 +53,28 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
-<p>任何Workfront或Workflow套件</p> 
-<p>任何Workfront Planning套件</p>
+<p>任何具有Planning套件的Workfront或Workflow套件</p> 
+<p>作為獨立產品購買時的任何Planning套件</p>
+
+<p><b>附註</b></p>
 <p>Workfront Planning Prime或更新版本的套件，一次建立多個工作區</p>
-<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
-   </td> 
+
+</td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
-   <td><p>標準</p>
+   <td><p>Workflow Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe計畫授權</p></td> 
+   <td><p>規劃標準</p>
    <p>系統管理員使用最佳實務範本套件一次建立多個工作區</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>存取層級設定</p></td> 
+   <td> <p>擁有Workflow和Planning套件時，您必須將Workflow和Planning授權型別新增到存取層級</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
@@ -131,7 +136,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -195,7 +200,7 @@ Old:
 
    或
 
-   按一下[上一步]&#x200B;**&#x200B;**，然後按一下[新工作區]&#x200B;**&#x200B;**&#x200B;從頭開始建立工作區。
+   按一下[上一步]****，然後按一下[新工作區]****&#x200B;從頭開始建立工作區。
 
    會建立下列其中一種工作區型別：
 
@@ -261,35 +266,35 @@ Old:
 
    * 按一下「**建立工作區**」，然後依照下列步驟進行：
 
-      1. 「建立工作區」方塊隨即顯示。 您可以從頭開始建立工作區，或使用其中一個可用的範本建立工作區。
+     1. 「建立工作區」方塊隨即顯示。 您可以從頭開始建立工作區，或使用其中一個可用的範本建立工作區。
 
-      1. 按一下&#x200B;**從這裡開始（建議）**&#x200B;區域中的&#x200B;**檢閱工作區設定**。
-      1. （選擇性）在下列任何預先定義的工作區範本中按一下&#x200B;**預覽**，以開啟每個範本的「預覽」方塊：
+     1. 按一下&#x200B;**從這裡開始（建議）**&#x200B;區域中的&#x200B;**檢閱工作區設定**。
+     1. （選擇性）在下列任何預先定義的工作區範本中按一下&#x200B;**預覽**，以開啟每個範本的「預覽」方塊：
 
-         * 1.全域分類與分類法
+        * 1.全域分類與分類法
 
-           「全域分類與分類」範本包含我們建議您在您的環境中建立的所有記錄型別和欄位，以便成功實作Workfront Planning。
+          「全域分類與分類」範本包含我們建議您在您的環境中建立的所有記錄型別和欄位，以便成功實作Workfront Planning。
 
-           您稍後可以在您建立的其他工作區中連結或匯入此範本中的記錄型別。
-         * 2.Fréscopa全球行銷
-         * 3.Fréscopa社交行銷
-         * 4.弗雷斯科帕媒體與公關
-         * 5.Fréscopa全球活動
-         * 6.Fréscopa執行公司領導力
+          您稍後可以在您建立的其他工作區中連結或匯入此範本中的記錄型別。
+        * 2.Fréscopa全球行銷
+        * 3.Fréscopa社交行銷
+        * 4.弗雷斯科帕媒體與公關
+        * 5.Fréscopa全球活動
+        * 6.Fréscopa執行公司領導力
 
-      1. 開啟每個工作區範本的&#x200B;**預覽**&#x200B;方塊後，按一下&#x200B;**上一步**&#x200B;以返回&#x200B;**建立工作區**&#x200B;方塊，或按一下&#x200B;**使用範本**&#x200B;以使用套件組合中包含的範本並建立工作區。
+     1. 開啟每個工作區範本的&#x200B;**預覽**&#x200B;方塊後，按一下&#x200B;**上一步**&#x200B;以返回&#x200B;**建立工作區**&#x200B;方塊，或按一下&#x200B;**使用範本**&#x200B;以使用套件組合中包含的範本並建立工作區。
 
 
    * 按一下&#x200B;**範例工作區**&#x200B;索引標籤，然後依照下列步驟進行：
 
-      1. 按一下標籤上的其中一個工作區範本，即可檢閱每個範本中的記錄型別和欄位。 **範例工作區**&#x200B;索引標籤中的範本是唯讀的。
-      1. 按一下範本右上角的&#x200B;**從範本建立**。
-      1. （選擇性）按一下任何範本上的&#x200B;**預覽**&#x200B;以檢視記錄型別及其欄位。
+     1. 按一下標籤上的其中一個工作區範本，即可檢閱每個範本中的記錄型別和欄位。 **範例工作區**&#x200B;索引標籤中的範本是唯讀的。
+     1. 按一下範本右上角的&#x200B;**從範本建立**。
+     1. （選擇性）按一下任何範本上的&#x200B;**預覽**&#x200B;以檢視記錄型別及其欄位。
 
-         >[!TIP]
-         >
-         >按一下範本中的記錄型別卡片，即可在右側面板中顯示記錄型別的欄位。
-      1. 按一下&#x200B;**使用範本**。
+        >[!TIP]
+        >
+        >按一下範本中的記錄型別卡片，即可在右側面板中顯示記錄型別的欄位。
+     1. 按一下&#x200B;**使用範本**。
 
    這6個工作區已建立並顯示在我所在的&#x200B;**工作區**&#x200B;以及系統管理員的&#x200B;**所有工作區**&#x200B;標籤中。 系統管理員建立所有標準授權使用者並與其共用新工作區後，這些使用者都會在其「工作區」區域中看見工作區。
 

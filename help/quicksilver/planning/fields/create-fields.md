@@ -9,27 +9,20 @@ exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 TQID: https://experienceleague.adobe.com/S5Cb-wdfeCKuogJgIlfVZ-J3rUn0ca0NG1-SSD2SPJA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 5395
+source-wordcount: 5377
 ht-degree: 1%
 
 ---
 
 <!--
-Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=zh-Hant ??
+Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??
 -->
 
 <!--
@@ -84,16 +77,25 @@ Do we need this for FORMULAS: when we release permissions to RECORDS and we rele
    <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
 <ul> 
-<li><p>任何Workfront和任何Planning套件</p></li>
+<li><p>具有Planning套件的任何Workfront或工作流程</p></li>
 或
-<li><p>任何工作流程與任何Planning套件</p></li></ul>
-<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
+<li><p>以獨立產品形式購買時的任何Planning套件</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
-   <td><p>標準</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe計畫授權</p></td> 
+   <td><p>規劃標準</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>存取層級設定</p></td> 
+   <td> <p>擁有Workflow和Planning套件時，您必須將Workflow和Planning授權型別新增到存取層級</p>   
+</td> 
+  </tr>
   <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
    <td>   <p>管理工作區的許可權</p>  
@@ -154,7 +156,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -442,16 +444,16 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
    * **描述**：有關欄位的額外資訊。 當您將滑鼠游標停留在表格中的欄位欄位上，或當您在記錄的詳細資訊頁面中按一下欄位名稱旁的資訊圖示時，會顯示欄位說明。
    * **日期格式**：您要在此欄位中顯示的日期格式型別。<!--update this casing - submitted bug for it-->
    * 從下列格式中選取：
-      * **短整數**： 6/9/26
-      * **Medium**：2026年6月9日
-      * **長** 2026年6月9日
-      * **包含時間**：若要包含時間戳記，請選取此選項。 預設會取消選取此選項。 您無法包含儲存欄位後的時間。
+     * **短整數**： 6/9/26
+     * **Medium**：2026年6月9日
+     * **長** 2026年6月9日
+     * **包含時間**：若要包含時間戳記，請選取此選項。 預設會取消選取此選項。 您無法包含儲存欄位後的時間。
 
    * 從下列選項中選取：
 
-      * **24hr**：例如： 18:00
-      * **12hr**：例如：下午6:00
-      * **對所有使用者顯示相同的時區**，然後選取&#x200B;**時區**：如果您想要對所有檢視欄位的人顯示相同的時戳，而不論其使用者的時區為何，請選取此選項。 選取的時區會新增至此欄位的欄標題。
+     * **24hr**：例如： 18:00
+     * **12hr**：例如：下午6:00
+     * **對所有使用者顯示相同的時區**，然後選取&#x200B;**時區**：如果您想要對所有檢視欄位的人顯示相同的時戳，而不論其使用者的時區為何，請選取此選項。 選取的時區會新增至此欄位的欄標題。
 
 1. 按一下「**建立**」。
 
@@ -514,9 +516,9 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
      >如果您選取「允許負數」，且負值儲存在附加欄位的記錄上，則以後無法再取消選取設定。
 
    * **顯示為**：從下拉式功能表，選擇百分比值在表格檢視中的顯示方式。 從下列選項中選取：
-      * **數字**：百分比值顯示為後面跟著百分比符號的數字。
-      * **列**：百分比值會在百分比數字旁顯示成列。 長條的填色顏色表示百分比值。 這是預設選取範圍。
-      * **圓形**：百分比值在百分比數字旁邊顯示為圓形的外框。 圓形外框的填色顏色表示百分比值。
+     * **數字**：百分比值顯示為後面跟著百分比符號的數字。
+     * **列**：百分比值會在百分比數字旁顯示成列。 長條的填色顏色表示百分比值。 這是預設選取範圍。
+     * **圓形**：百分比值在百分比數字旁邊顯示為圓形的外框。 圓形外框的填色顏色表示百分比值。
 
    >[!NOTE]
    >
@@ -720,17 +722,17 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
    * **描述**：有關欄位的額外資訊。 當您將滑鼠游標停留在表格中的欄位欄位上，或當您在記錄的詳細資訊頁面中按一下欄位名稱旁的資訊圖示時，會顯示欄位說明。
    * **日期格式**：從下列格式選取：
 
-      * **地區**：符合瀏覽器的地區。
-      * **標準**： 05/16/2023
-      * **長**：2023年5月16日
-      * **歐洲**： 16/05/2023
-      * **ISO**： 2023-05-16
+     * **地區**：符合瀏覽器的地區。
+     * **標準**： 05/16/2023
+     * **長**：2023年5月16日
+     * **歐洲**： 16/05/2023
+     * **ISO**： 2023-05-16
    * **包含時間**：若要包含時間戳記，請選取此選項。 預設會取消選取此選項。 您無法包含儲存欄位後的時間。
 
      從下列選項中選取：
 
-      * **24hr**：例如： 18:00
-      * **12hr**：例如：下午6:00
+     * **24hr**：例如： 18:00
+     * **12hr**：例如：下午6:00
 
 1. 按一下「**建立**」。
 
@@ -769,17 +771,17 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
    * **描述**：有關欄位的額外資訊。 當您將滑鼠游標停留在表格中的欄位欄位上，或當您在記錄的詳細資訊頁面中按一下欄位名稱旁的資訊圖示時，會顯示欄位說明。
    * **日期格式**：從下列格式選取：
 
-      * **地區**：符合瀏覽器的地區。
-      * **標準**： 05/16/2023
-      * **長**：2023年5月16日
-      * **歐洲**： 16/05/2023
-      * **ISO**： 2023-05-16
+     * **地區**：符合瀏覽器的地區。
+     * **標準**： 05/16/2023
+     * **長**：2023年5月16日
+     * **歐洲**： 16/05/2023
+     * **ISO**： 2023-05-16
    * **包含時間**：若要包含時間戳記，請選取此選項。 預設會取消選取此選項。 您無法包含儲存欄位後的時間。
 
      從下列選項中選取：
 
-      * **24hr**：例如： 18:00
-      * **12hr**：例如：下午6:00
+     * **24hr**：例如： 18:00
+     * **12hr**：例如：下午6:00
 
 1. 按一下「**建立**」。
 
