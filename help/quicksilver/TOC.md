@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 541f736ffb051e1a7d5e0a277e12353c40bf885c
+source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
 workflow-type: tm+mt
-source-wordcount: '14399'
+source-wordcount: '14406'
 ht-degree: 2%
 
 ---
@@ -543,6 +543,8 @@ ht-degree: 2%
       * [刪除使用者](administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)
       * [稽核記錄概觀](administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
       * [檢視和匯出稽核記錄](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
+      * [檢視及管理變更歷史記錄](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)
+      * [設定要在變更記錄中追蹤的欄位](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md)
       * [檢視使用者登入資訊](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
       * [在Adobe Admin Console中管理使用者](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
       * [企業檔案概觀](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)
@@ -821,7 +823,6 @@ ht-degree: 2%
     * [從範本匯入費率卡](/help/quicksilver/administration-and-setup/manage-enterprise-operations/import-rate-cards.md)
     * [專案的推送率變更](/help/quicksilver/administration-and-setup/manage-enterprise-operations/push-rates-to-projects.md)
     * [共用費率卡](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md)
-    * [檢視及管理變更歷史記錄](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)
   * 設定整合 {#configure-integrations}
     * [設定整合](administration-and-setup/configure-integrations/workfront-integrations.md)
     * [Adobe Workfront整合](administration-and-setup/configure-integrations/workfront-integrations-1.md)

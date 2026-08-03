@@ -4,7 +4,7 @@ description: 2026年第三季度管理員增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8300e424d36a438ebb8e5ce0cad85ea63614bd8d
+source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 4%
@@ -36,7 +36,7 @@ Workfront中的「變更歷史記錄」頁面現在會擷取統一檢閱和核�
 
 此變更追蹤階段不包含MCP事件。 這些將成為未來版本的一部分。
 
-如需詳細資訊，請參閱[檢視及管理變更記錄](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)。
+如需詳細資訊，請參閱[檢視及管理變更記錄](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)。
 
 -->
 
@@ -142,7 +142,7 @@ Workfront中的「變更歷史記錄」頁面現在會擷取統一檢閱和核�
 
 以前，稽核記錄可供使用，但不涵蓋物件。
 
-如需詳細資訊，請參閱[檢視及管理變更記錄](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)。
+如需詳細資訊，請參閱[檢視及管理變更記錄](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)。
 
 ## 將舊版儲存產品組合轉換為Adobe雲端儲存空間的新系統偏好設定
 
