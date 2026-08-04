@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e8216d44973c43f14ef615a6f8c4eb1cb05bd935
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1496
+source-wordcount: 1528
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 1%
 * [Adobe Workfront Planning存取權概觀](/help/quicksilver/planning/access/access-overview.md)
 
 
-## 存取需求<!--edit theses??-->
+## 存取權要求
 
 +++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
@@ -66,20 +66,25 @@ ht-degree: 1%
    <td role="rowheader"><p>Adobe Workfront套件</p></td> 
    <td> 
 <p>任何具有Planning套件的Workfront或Workflow套件</p>
-<p>任何作為獨立產品套件的Planning</p>
+<p>購買獨立產品時的任何Planning</p>
    </td> </tr>
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Workfront授權</p></td> 
-   <td><p>標準</p> 
+   <td role="rowheader"><p>Adobe Workfront授權</p></td> 
+   <td><p>Workflow Standard</p> 
    <p>Workfront管理員必須為貴組織啟用Planning Designer</p>
   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Planning授權</p></td> 
-   <td><p>標準</p> 
+   <td><p>規劃標準</p> 
    <p>Workfront管理員必須為貴組織啟用Planning Designer</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>存取層級設定</p></td> 
+   <td> <p>擁有Workflow和Planning套件時，您必須將Workflow和Planning授權型別新增到存取層級</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 

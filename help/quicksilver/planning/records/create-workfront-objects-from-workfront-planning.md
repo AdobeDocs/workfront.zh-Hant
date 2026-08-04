@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1330
+source-wordcount: 1340
 ht-degree: 2%
 
 ---
@@ -102,19 +102,24 @@ ht-degree: 2%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
-<p>任何Workfront和任何Planning套件</p> <p>任何工作流程與任何Planning套件</p>
-<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
-   </td>
-
-<tr> 
+<ul> 
+<li><p>具有Planning套件的任何Workfront或工作流程</p></li>
+或
+<li><p>以獨立產品形式購買時的任何Planning套件</p></li></ul>
+   </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
-   <td><p>標準</p>
+   <td><p>Workflow Standard</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe計畫授權</p></td> 
+   <td><p>規劃標準</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>存取層級設定</p></td> 
-   <td> <p>Adobe Workfront Planning沒有存取層級控制</p> 
+   <td> <p>擁有Workflow和Planning套件時，您必須將Workflow和Planning授權型別新增到存取層級</p> 
    <p>編輯存取權，並存取您要建立之物件型別（專案、投資組合、方案）的「在Workfront中建立物件」。 </p>  
 </td> 
   </tr> 
@@ -181,7 +186,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p> 
    <p>Edit access with access to Create objects in Workfront for the object types that you want to create (projects, portfolios, programs). </p>  
 </td> 
   </tr> 

@@ -20,10 +20,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 677
-ht-degree: 5%
+source-wordcount: 697
+ht-degree: 6%
 
 ---
 
@@ -57,20 +57,28 @@ ht-degree: 5%
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
-<p>任何Workfront套件和任何Planning套件</p>
+<ul> 
+<li><p>具有Planning套件的任何Workfront或工作流程</p></li>
 或
-<p>任何Workflow套件和任何Planning套件</p>
-<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。</p>
+<li><p>以獨立產品形式購買時的任何Planning套件</p></li></ul>
    </td> </tr>
-
-</tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
-   <td><p>標準</p> 
-  </td> 
+   <td><p>Workflow Standard</p>
+   </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe計畫授權</p></td> 
+   <td><p>規劃標準</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>存取層級設定</p></td> 
+   <td> <p>擁有Workflow和Planning套件時，您必須將Workflow和Planning授權型別新增到存取層級</p>   
+</td> 
+  </tr>  
   <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
    <td>   <p>管理工作區與記錄型別</a>的許可權 </p>  

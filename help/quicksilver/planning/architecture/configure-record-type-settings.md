@@ -20,10 +20,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 429
-ht-degree: 3%
+source-wordcount: 445
+ht-degree: 4%
 
 ---
 
@@ -67,30 +67,39 @@ ht-degree: 3%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
-<p>任何Workfront和Planning套件</p>
-<p>任何工作流程和Planning套件</p>
+<p>具有Planning套件的任何Workfront或工作流程</p>
+或 
+<p>以獨立產品形式購買時的任何Planning套件</p>
 
 <p><b>附註</b></p>
 
 <p>若要設定可連線的記錄型別：</p>
 
 <ul> 
-<li><p>任何Workfront和Planning套件</p></li>
+<li><p>任何工作流程和Planning Prime或Ultimate套件</p></li>
 或
-<li><p>任何Workflow套件和Planning Prime或Ultimate套件</p></li></ul>
+<li>作為獨立產品購買時的Planning Prime或Ultimate套件</li>
+</ul>
 
 <p>若要設定全域記錄型別，請執行下列動作：</p>
 
 <ul> 
 <li><p>任何Workfront套件和Planning Plus套件</p></li>
 或
-<li><p>任何Workflow套件和Planning Prime或Ultimate套件</p></li></ul>
-<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p>
+<li><p>任何Workflow套件和Planning Prime或Ultimate套件</p></li>
+或
+<li>作為獨立產品購買時的Planning Prime或獨立套件 </li>
 
-</td> </tr>
+</ul>
+  </td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
-   <td><p>標準</p>
+   <td><p>Workflow Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe計畫授權</p></td> 
+   <td><p>規劃標準</p>
    </td> 
   </tr> 
   <tr> 
@@ -153,7 +162,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 

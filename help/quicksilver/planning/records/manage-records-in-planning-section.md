@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 1777
+source-wordcount: 1740
 ht-degree: 1%
 
 ---
@@ -59,19 +59,24 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
-<p>任何Workfront和任何Planning套件</p>
-<p>任何工作流程與任何Planning套件</p>
-<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
+<p>具有Planning套件的任何Workfront或工作流程</p>
+或
+<p>以獨立產品形式購買時的任何Planning套件</p>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
-   <td><p>標準</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
+   <tr> 
+   <td role="rowheader"><p>Adobe計畫授權</p></td> 
+   <td><p>規劃標準</p>
+   </td> 
+  </tr>
   <tr>
    <td role="rowheader"><p>存取層級設定</p></td>
-   <td> <p>檢視專案、方案和投資組合或取得更高的存取權</p>  
-   <p>Workfront Planning沒有存取層級設定。 </p>
+   <td><p>擁有Workflow和Planning套件時，您必須將Workflow和Planning授權型別新增到存取層級</p> 
+   <p>檢視專案、方案和投資組合或取得更高的存取權</p> 
 </td>
   </tr>
 <tr>
@@ -185,8 +190,8 @@ Old:
 
   如需詳細資訊，請參閱下列文章：
 
-   * [連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)
-   * [連接記錄](/help/quicksilver/planning/records/connect-records.md)
+  * [連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)
+  * [連接記錄](/help/quicksilver/planning/records/connect-records.md)
 * 您可以從Workfront物件檢視Planning區段，即使沒有與Workfront物件相關聯的記錄亦然。
 * 只有在您啟用連結記錄型別設定上的建立對應欄位時（建立兩個記錄型別之間的連線時），記錄型別才會顯示在Workfront物件的Planning區域中。
 
@@ -218,9 +223,9 @@ Old:
    Planning區段會顯示下列資訊：
 
    * 連線的記錄會顯示在包含以下資訊的個別卡片上：
-      * 記錄名稱
-      * 記錄縮圖
-      * 在Workfront Planning中顯示的連線記錄欄位名稱。
+     * 記錄名稱
+     * 記錄縮圖
+     * 在Workfront Planning中顯示的連線記錄欄位名稱。
    * 記錄會顯示在各自的工作區和記錄型別下。
 
    專案![&#128279;](assets/planning-section-on-project.png)上的規劃區段
@@ -253,11 +258,11 @@ Old:
 
 * Planning連線欄位會在建立連線之後，以及將該欄位附加到下列Workfront物件的表單時，顯示Planning記錄：
 
-   * 專案
-   * 專案組合
-   * 方案
-   * 群組
-   * 公司
+  * 專案
+  * 專案組合
+  * 方案
+  * 群組
+  * 公司
 
 如需詳細資訊，請參閱[建立表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
@@ -267,8 +272,8 @@ Old:
 
 * Planning記錄連線至Workfront物件後，Workfront物件的自訂表單上會以下列方式顯示Planning連線欄位：
 
-   * 如果只選取所連線記錄的主要欄位，則如果連線允許連結多個記錄，則Planning連線欄位會顯示為具有多個值的欄位。 如需詳細資訊，請參閱[連線記錄型別概觀](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
-   * 如果您的Workfront或群組管理員從自訂表單上的連線記錄中新增了其他查閱欄位，則Planning連線欄位會顯示為表格。 最多可以為Planning連線欄位選取7個欄位。 表格檢視是唯讀的。
+  * 如果只選取所連線記錄的主要欄位，則如果連線允許連結多個記錄，則Planning連線欄位會顯示為具有多個值的欄位。 如需詳細資訊，請參閱[連線記錄型別概觀](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
+  * 如果您的Workfront或群組管理員從自訂表單上的連線記錄中新增了其他查閱欄位，則Planning連線欄位會顯示為表格。 最多可以為Planning連線欄位選取7個欄位。 表格檢視是唯讀的。
 
 * 您只能將一個記錄型別與一個Planning連線欄位建立關聯。 您在表單中的Planning連線欄位數量沒有限制。
 * 您必須擁有物件、記錄和Workfront Planning的正確存取權和許可權，才能將具有Planning連線自訂欄位的自訂表單附加至Workfront物件。

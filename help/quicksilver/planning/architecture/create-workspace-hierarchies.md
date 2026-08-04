@@ -18,9 +18,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 934
+source-wordcount: 956
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 1%
 # 建立工作區階層
 
 <!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>    
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
@@ -62,15 +62,24 @@ ht-degree: 1%
    <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
 <ul> 
-<li><p>任何Workfront和任何Planning套件</p></li>
+<li><p>具有Planning套件的任何Workfront或工作流程</p></li>
 或
-<li><p>任何工作流程與任何Planning套件</p></li></ul>
-<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
-   </td> 
+<li><p>以獨立產品形式購買時的任何Planning套件</p></li></ul>
+   </td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
-   <td><p>標準</p>
+   <td><p>Workflow Standard</p>
    </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe計畫授權</p></td> 
+   <td><p>規劃標準</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>存取層級設定</p></td> 
+   <td> <p>擁有Workflow和Planning套件時，您必須將Workflow和Planning授權型別新增到存取層級</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 

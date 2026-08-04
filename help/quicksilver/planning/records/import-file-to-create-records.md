@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 839
+source-wordcount: 861
 ht-degree: 1%
 
 ---
@@ -57,16 +57,26 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
-<p>任何Workfront和任何Planning套件</p> <p>任何工作流程與任何Planning套件</p>
-<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
+<p>任何Workfront或Workflow以及Planning套件</p> 
+或
+<p>以獨立產品形式購買時的任何Planning套件</p>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
-   <td><p>標準</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr>
-
-<tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe計畫授權</p></td> 
+   <td><p>規劃標準</p>
+   </td> 
+  </tr>
+ <tr> 
+   <td role="rowheader"><p>存取層級設定</p></td> 
+   <td> <p>擁有Workflow和Planning套件時，您必須將Workflow和Planning授權型別新增到存取層級</p>   
+</td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
    <td> <p>為您匯入記錄的工作區和記錄型別貢獻或更高的許可權。 </p>
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>
@@ -127,7 +137,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p> 
    <p>Edit access in Workfront for the object types that you want to create (projects, programs, and portfolios) as you connect them from new records  </p>  
 </td> 
   </tr> 
@@ -149,21 +159,21 @@ Old:
 * 每一張工作表中的每一列都會成為相關聯的唯一記錄。
 * 如果Excel檔案包含多個頁面，則只匯入您在匯入過程中選取的一個頁面的資訊。
 * 檔案不應超過下列專案：
-   * 25,000列
-   * 500欄
+  * 25,000列
+  * 500欄
 * 檔案不應大於5MB。
 * 不支援空白工作表。
 * 不支援下列型別的欄位，且無法對應至匯入工作表上的欄位：
 
-   * Workfront和Adobe Experience Manager物件型別的連線欄位。 您只能將連線欄位對應到Planning記錄型別。
-   * 從連線的Planning記錄或Workfront與Adobe Experience Manager物件查詢欄位
-   * 公式欄位
-   * 建立日期，建立者
-   * 上次修改日期，上次修改者：
-   * 核准日期，核准者
-   * 人員
-   * 記錄 ID
-   * 如果匯入了多重或單一選取欄位，且與Planning中的類似欄位相比，其選擇更多，則會在匯入期間建立其他選項。 只有對工作區具有「管理」許可權的使用者才能匯入新的選擇。
+  * Workfront和Adobe Experience Manager物件型別的連線欄位。 您只能將連線欄位對應到Planning記錄型別。
+  * 從連線的Planning記錄或Workfront與Adobe Experience Manager物件查詢欄位
+  * 公式欄位
+  * 建立日期，建立者
+  * 上次修改日期，上次修改者：
+  * 核准日期，核准者
+  * 人員
+  * 記錄 ID
+  * 如果匯入了多重或單一選取欄位，且與Planning中的類似欄位相比，其選擇更多，則會在匯入期間建立其他選項。 只有對工作區具有「管理」許可權的使用者才能匯入新的選擇。
 
 ## 透過匯入CSV或Excel檔案來建立記錄
 

@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 611
+source-wordcount: 648
 ht-degree: 3%
 
 ---
@@ -55,29 +55,37 @@ ht-degree: 3%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
-<p>任何Workfront和Planning套件</p>
-<p>任何Workfront和Planning套件</p>
+<p>具有Planning套件的任何Workfront或工作流程</p>
+<p>以獨立產品形式購買時的任何Planning套件</p>
 <p><b>附註</b></p>
 <p>若要設定可連線的記錄型別： </p>
 <ul> 
 <li><p>任何Workfront套件和任何Planning套件</p></li>
 或
-<li><p>任何工作流程和Planning Prime或Ultimate套件</p></li></ul>
-
+<li><p>任何工作流程和Planning Prime或Ultimate套件</p></li>
+或
+<li>任何Planning Prime和Ultimate套件</li>
+</ul>
 
 <p>若要設定全域記錄型別，請執行下列動作：</p>
 
 <ul> 
-<li><p>任何Workfront套件和Planning Plus套件</p></li>
+<li><p>任何包含Planning Plus套件的Workfront套件</p></li>
 或
-<li><p>任何工作流程和Planning Prime或Ultimate套件</p></li></ul>
-<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p>
-
-</td> </tr>
+<li><p>任何工作流程和Planning Prime或Ultimate套件</p></li>
+或
+<li>以獨立產品形式購買時的任何Planning套件</li>
+</ul>
+   </td> </tr>
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront授權</p></td> 
-   <td><p>標準</p>
-   </td> 
+   <td role="rowheader"><p>Adobe Workfront與Planning授權</p></td> 
+   <td><p>任何</p> 
+  </td> 
+  </tr>  
+  <tr> 
+   <td role="rowheader"><p>存取層級設定</p></td> 
+   <td> <p>擁有Workflow和Planning套件時，您必須將Workflow和Planning授權型別新增到存取層級</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
@@ -138,7 +146,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -162,7 +170,7 @@ Old:
 1. 執行下列其中一項：
 
    * 將滑鼠停留在記錄型別的卡片上，然後按一下記錄型別卡片右上角的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**編輯**&#x200B;或&#x200B;**設定**
-或
+     或
    * 按一下記錄型別卡片以開啟記錄型別頁面，按一下記錄型別名稱右邊的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**編輯**&#x200B;或&#x200B;**設定**。
 
    ![更多含設定的記錄型別卡片功能表選項](assets/more-menu-options-from-record-type-card-with-settings-link.png)
@@ -176,8 +184,8 @@ Old:
    * 視需要編輯記錄型別名稱。<!--did they add a field label for this?-->
    * **描述**：編輯或新增記錄型別的描述，其中包含更多相關資訊。
    * 編輯與記錄型別關聯的圖示的顏色和形狀。 請執行下列動作：
-      * 選取顏色以識別記錄型別。 這是記錄型別圖示的顏色。
-      * 從清單中選取圖示，或開始輸入圖示名稱以說明其代表內容，然後在顯示時選取它。 這是記錄型別的圖示。 依預設，會選取檔案圖示。
+     * 選取顏色以識別記錄型別。 這是記錄型別圖示的顏色。
+     * 從清單中選取圖示，或開始輸入圖示名稱以說明其代表內容，然後在顯示時選取它。 這是記錄型別的圖示。 依預設，會選取檔案圖示。
 
 1. （選擇性和條件性）如果您是系統管理員，請按一下&#x200B;**跨工作區設定**&#x200B;索引標籤，並更新有關記錄型別的跨工作區功能的資訊。
 

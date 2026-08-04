@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 395
+source-wordcount: 418
 ht-degree: 1%
 
 ---
@@ -57,13 +57,25 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
-<p>任何Workfront和任何Planning套件</p> <p>任何工作流程與任何Planning套件</p>
-<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
+<ul> 
+<li><p>具有Planning套件的任何Workfront或工作流程</p></li>
+或
+<li><p>以獨立產品形式購買時的任何Planning套件</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
-   <td><p>標準</p>
+   <td><p>Workflow Standard</p>
    </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe計畫授權</p></td> 
+   <td><p>規劃標準</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>存取層級設定</p></td> 
+   <td> <p>擁有Workflow和Planning套件時，您必須將Workflow和Planning授權型別新增到存取層級</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
@@ -124,7 +136,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -143,10 +155,10 @@ Old:
 * 如果刪除的記錄連結到其他記錄，則連結的記錄不會被刪除，但是已刪除的記錄中的資訊也會被刪除。 還原已刪除的記錄將會從連線的記錄中還原資訊。
 * 您可以大量還原記錄。
 * 刪除記錄時，會將下列資訊儲存在「最近刪除」的資料匣中：
-   * **名稱**：這是記錄的[主要]欄位中的資訊。 如需有關記錄主要欄位的詳細資訊，請參閱[主要欄位概述](/help/quicksilver/planning/fields/primary-field-overview.md)。
-   * **已刪除日期**：刪除記錄的時間和日期。
-   * **最近刪除的時間**：刪除記錄後的時間。 在目前日期前30天以上被刪除的記錄不會顯示在「最近刪除」的資料匣中。
-   * **由**&#x200B;刪除：刪除紀錄的使用者名稱。
+  * **名稱**：這是記錄的[主要]欄位中的資訊。 如需有關記錄主要欄位的詳細資訊，請參閱[主要欄位概述](/help/quicksilver/planning/fields/primary-field-overview.md)。
+  * **已刪除日期**：刪除記錄的時間和日期。
+  * **最近刪除的時間**：刪除記錄後的時間。 在目前日期前30天以上被刪除的記錄不會顯示在「最近刪除」的資料匣中。
+  * **由**&#x200B;刪除：刪除紀錄的使用者名稱。
 
 ## 還原已刪除的記錄
 

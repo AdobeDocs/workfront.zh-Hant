@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1589
+source-wordcount: 1616
 ht-degree: 1%
 
 ---
@@ -53,18 +53,18 @@ ht-degree: 1%
 
 * 視您在連線的記錄頁面中顯示的物件或記錄型別而定，您可以使用下列檢視來顯示它們：
 
-   * 您可以在下列檢視型別中顯示已連線的Planning記錄：
-      * 表格
-      * 時間軸
-      * 行事曆
-   * 您可以在清單檢視中顯示連線的Workfront專案。
+  * 您可以在下列檢視型別中顯示已連線的Planning記錄：
+    * 表格
+    * 時間軸
+    * 行事曆
+  * 您可以在清單檢視中顯示連線的Workfront專案。
 
 * 您可以為下列連線記錄或物件型別新增「連線記錄」頁面：
 
-   * Workfront Planning記錄型別
-   * Workfront專案
+  * Workfront Planning記錄型別
+  * Workfront專案
 
-     即使您無權在Workfront中存取Workfront專案，仍可檢視這些連線的專案。
+    即使您無權在Workfront中存取Workfront專案，仍可檢視這些連線的專案。
 
 ## 存取權要求
 
@@ -82,10 +82,10 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
-<p>任何Workfront和任何Planning套件</p>
-<p>任何工作流程與任何Planning套件</p>
-<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
-   </td> 
+<p>具有Planning套件的任何Workfront或工作流程</p>
+或
+<p>以獨立產品形式購買時的任何Planning套件</p>
+</td> 
 <tr>
 <td> 
    <p> 其他產品</p> </td> 
@@ -95,13 +95,25 @@ ht-degree: 1%
    <p>如需詳細資訊，請參閱<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 連線記錄型別與GenStudio Brands的Adobe GenStudio for Performance Marketing授權</p>
    <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
-   </td> 
-  </tr>
 
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront授權</p></td> 
-   <td><p>標準</p>
+<p><b>附註</b></p>
+   如果您購買Planning套件作為獨立產品，您也必須購買Workflow套件，以將Planning記錄型別與Workfront物件型別連線</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront授權</p></td> 
+   <td><p>Workflow Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe計畫授權</p></td> 
+   <td><p>規劃標準</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>存取層級設定</p></td> 
+   <td> <p>擁有Workflow和Planning套件時，您必須將Workflow和Planning授權型別新增到存取層級</p>   
+</td> 
   </tr> 
   <tr>
    <td role="rowheader"><p>物件許可權</p></td>
@@ -161,9 +173,9 @@ ht-degree: 1%
 1. （視條件而定）請根據您在連線記錄頁面中顯示的記錄型別，執行下列其中一項作業：
 
    * 管理Planning記錄
-如需相關資訊，請參閱本文章的[管理Planning記錄的連線記錄頁面](#manage-the-connected-records-page-for-planning-records)一節。
+     如需相關資訊，請參閱本文章的[管理Planning記錄的連線記錄頁面](#manage-the-connected-records-page-for-planning-records)一節。
    * 管理Workfront專案
-如需詳細資訊，請參閱本文章的[管理Workfront專案的連線記錄頁面](#manage-the-connected-records-page-for-workfront-projects)一節。
+     如需詳細資訊，請參閱本文章的[管理Workfront專案的連線記錄頁面](#manage-the-connected-records-page-for-workfront-projects)一節。
 
 1. （選擇性）連按兩下&#x200B;**連線記錄頁面**&#x200B;索引標籤的名稱
 
@@ -283,16 +295,16 @@ When you create a connected records page for connected Planning records in the P
    1. 從&#x200B;**檢視型別**&#x200B;區域，選取下列檢視型別之一：
 
       * 表格
-如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)
+        如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)
       * 時間軸
-如需詳細資訊，請參閱[管理時間表檢視](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
+        如需詳細資訊，請參閱[管理時間表檢視](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
       * 行事曆
-如需詳細資訊，請參閱[管理行事曆檢視](/help/quicksilver/planning/views/manage-the-calendar-view.md)。
+        如需詳細資訊，請參閱[管理行事曆檢視](/help/quicksilver/planning/views/manage-the-calendar-view.md)。
 
         如需詳細資訊，請參閱本文中的[從連線的記錄頁面](#manage-multiple-views-from-the-connected-records-page)管理多個檢視一節。
 
-   1. 按一下「**建立**」。
-新檢視會新增至「檢視」下拉式功能表。
+   1. 按一下&#x200B;**建立**。
+      新檢視會新增至「檢視」下拉式功能表。
 
    1. （選擇性）將游標停留在您建立的檢視名稱上，按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下下列其中一個選項：
 
@@ -303,7 +315,7 @@ When you create a connected records page for connected Planning records in the P
       * **匯出**
 
       * **刪除**
-如需詳細資訊，請參閱[刪除記錄檢視](/help/quicksilver/planning/views/delete-record-views.md)。
+        如需詳細資訊，請參閱[刪除記錄檢視](/help/quicksilver/planning/views/delete-record-views.md)。
 
         ![檢視專案連線記錄頁面上的更多功能表](assets/view-more-menu-projects-connected-records-page.png)
 

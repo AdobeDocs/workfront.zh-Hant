@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 3723
+source-wordcount: 3643
 ht-degree: 1%
 
 ---
@@ -59,27 +59,27 @@ ht-degree: 1%
 
   您可以從下列應用程式將記錄與下列型別的物件連線：
 
-   * Adobe Workfront
+  * Adobe Workfront
 
-      * 專案
-      * 專案組合
-      * 計劃
-      * 公司
-      * 群組
+    * 專案
+    * 專案組合
+    * 計劃
+    * 公司
+    * 群組
 
-   * Adobe Experience Manager
+  * Adobe Experience Manager
 
-      * 資產
+    * 資產
 
-        您可以從Workfront Planning連線下列型別的資產：
+      您可以從Workfront Planning連線下列型別的資產：
 
-         * 影像檔案
-         * 資料夾
-      * 內容片段
+      * 影像檔案
+      * 資料夾
+    * 內容片段
 
 * Adobe GenStudio for Performance Marketing
 
-   * 品牌
+  * 品牌
 
   <!--when you add more objects, fix the Access Requirements below which right now refer only to projects-->
 
@@ -112,17 +112,26 @@ ht-degree: 1%
    <p>如需詳細資訊，請參閱<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> Adobe GenStudio for Performance Marketing授權可連線記錄型別與GenStudio Brands或存取GenStudio工作區</p>
    <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
-   </td> 
+<p><b>附註</b></p>
+<p>您必須購買Workfront Workflow套件，才能將Planning記錄與Workfront物件連線。 </p>
+
+</td> 
   </tr>   
 <tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
-   <td><p>標準</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
-   <tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe計畫授權</p></td> 
+   <td><p>規劃標準</p>
+   </td> 
+  </tr>
+
+<tr> 
    <td role="rowheader"><p>存取層級設定</p></td> 
-   <td> <p>Adobe Workfront Planning沒有存取層級控制</p> 
+   <td> <p>擁有Workflow和Planning套件時，您必須將Workflow和Planning授權型別新增到存取層級</p> 
    <p>針對您要在Workfront和AEM Assets中連線其物件的物件型別，提供檢視或更高的存取許可權。 </p>  
 </td> 
   </tr>
@@ -214,15 +223,15 @@ Old:
 
 * 若要將記錄與其他記錄或物件連線，您必須具備下列條件：
 
-   * 至少一個工作區、記錄型別和記錄。
+  * 至少一個工作區、記錄型別和記錄。
 
-     如需詳細資訊，請參閱下列文章：
+    如需詳細資訊，請參閱下列文章：
 
-      * [建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md)
-      * [建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)
-      * [建立記錄](/help/quicksilver/planning/records/create-records.md)
+    * [建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md)
+    * [建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)
+    * [建立記錄](/help/quicksilver/planning/records/create-records.md)
 
-   * 記錄型別之間的連線，或記錄型別與其他應用程式物件之間的連線。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
+  * 記錄型別之間的連線，或記錄型別與其他應用程式物件之間的連線。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
 * 您可以將一或多個記錄或物件彼此連線。 這取決於您在連線記錄或物件型別時選取的連線型別。 如需詳細資訊，請參閱[連線記錄型別概觀](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
 
@@ -305,7 +314,7 @@ Old:
    >
    >* Workfront物件的日期欄位資訊在Workfront Planning中會以24小時格式顯示，無論其在Workfront中的顯示方式為何。
    >
-   >   例如，如果專案的計劃開始日期在Workfront中顯示為3:00下午，則在匯入的查詢欄位中，它將在Workfront Planning中顯示為15:00。
+   >   例如，如果專案的計劃開始日期在Workfront中顯示為3:00 PM，則在匯入的查詢欄位中，它將在Workfront Planning中顯示為15:00。
 
 1. （可選）關閉記錄型別頁面，然後移至您選取的工作區。
 1. 按一下您所連結之記錄型別的卡片。
@@ -423,8 +432,8 @@ No longer needed to specify:
 
 >[!NOTE]
 >
->當您的Experience Manager Assets管理員透過Workfront與Workfront之間的整合設定中繼資料對應時，可從Adobe Experience Manager Assets存取Planning記錄及其欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
->將記錄從Planning中的GenStudio工作區連線至AEM物件（資產和內容片段）時，GenStudio資訊會自動顯示在AEM的AEM物件上。 在AEM Planning中建立連線時，GenStudio記錄的查詢欄位中會顯示Workfront資訊。 如需詳細資訊，請參閱[在Adobe Workfront規劃中管理GenStudio工作區](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)。
+>當您的Experience Manager Assets管理員透過Workfront與Workfront之間的整合設定中繼資料對應時，可從Adobe Experience Manager Assets存取Planning記錄及其欄位。如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+>當您從Planning中的GenStudio工作區將記錄連線至AEM物件（資產和內容片段）時，GenStudio資訊會自動顯示在AEM的AEM物件上。在AEM Planning中建立連線時，GenStudio記錄的查詢欄位中會顯示Workfront資訊。如需詳細資訊，請參閱[在Adobe Workfront規劃中管理GenStudio工作區](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)。
 
 <!--
 metadata mapping is not available yet for content fragments - as of April 22, 2026. Syuzanna said the mapping is available just for GenS workspace, but checking again with her and Isk.
@@ -468,7 +477,7 @@ metadata mapping is not available yet for content fragments - as of April 22, 20
 
    >[!IMPORTANT]
    >
-   > 您只能連線您有權在Experience Manager中檢視的資產。 連線之後，所有Workfront Planning使用者都能在Workfront Planning中檢視資產，無論他們在Experience Manager Assets中的存取權為何。
+   > 您只能連線您有權在Experience Manager中檢視的資產。連線之後，所有Workfront Planning使用者都能在Workfront Planning中檢視資產，無論他們在Experience Manager Assets中的存取權為何。
    > 如需「內容警告器」的詳細資訊，請參閱[使用「內容警告器」存取Adobe應用程式中的AEM內容](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}。
 
 1. 從&#x200B;**內容片段**&#x200B;索引標籤中，選取要新增至連結記錄欄位的內容片段。
@@ -602,14 +611,14 @@ metadata mapping is not available yet for content fragments - as of April 22, 20
 * 在Workfront Planning中建立的記錄型別與Workfront物件型別之間的連線。
 * 您的Workfront或群組管理員必須將下列任一專案新增至Workfront物件型別：
 
-   * 「版面配置範本」中Workfront專案、投資組合和方案的規劃區段。
+  * 「版面配置範本」中Workfront專案、投資組合和方案的規劃區段。
 
-   * Planning將自訂欄位連線到下列其中一個物件的自訂表單：
+  * Planning將自訂欄位連線到下列其中一個物件的自訂表單：
 
-      * 專案
-      * 專案組合
-      * 方案
-      * 群組
-      * 公司
+    * 專案
+    * 專案組合
+    * 方案
+    * 群組
+    * 公司
 
   如需詳細資訊，請參閱[管理來自Workfront物件的記錄連線](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。

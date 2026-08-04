@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 626
+source-wordcount: 621
 ht-degree: 2%
 
 ---
@@ -55,12 +55,19 @@ ht-degree: 2%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
-<p>任何Workfront和任何Planning套件</p> <p>任何工作流程與任何Planning套件</p>
-<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
+<ul> 
+<li><p>具有Planning套件的任何Workfront或工作流程</p></li>
+或
+<li><p>以獨立產品形式購買時的任何Planning套件</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
-   <td><p>標準</p>
+   <td><p>Workflow Standard</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe計畫授權</p></td> 
+   <td><p>規劃標準</p>
    </td> 
   </tr> 
   <tr> 
@@ -123,7 +130,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -173,7 +180,7 @@ Old:
 1. 按一下記錄名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**刪除**，再按一次&#x200B;**刪除**&#x200B;以進行確認。
 
    ![記錄詳細資料頁面中的其他功能表選項](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
-記錄已刪除。
+   記錄已刪除。
 1. （選擇性）移至記錄頁面的表格檢視，然後按一下檢視右上角的&#x200B;**還原**&#x200B;圖示![還原圖示](assets/undo-icon.png)，然後按一下&#x200B;**最近刪除**&#x200B;以復原刪除的記錄。
 
 如需有關復原已刪除記錄的資訊，請參閱[復原已刪除的記錄](/help/quicksilver/planning/records/restore-deleted-records.md)。
@@ -208,8 +215,8 @@ Old:
    * 按一下&#x200B;**復原**&#x200B;圖示![復原圖示](assets/undo-icon.png)，然後按一下&#x200B;**最近刪除的**，復原刪除的記錄。 如需有關復原已刪除記錄的資訊，請參閱[復原已刪除的記錄](/help/quicksilver/planning/records/restore-deleted-records.md)。
    * 使用下列鍵盤快速鍵來復原或重做刪除記錄：
 
-      * 按CTRL + Z （⌘ + Z代表Mac）以復原刪除記錄
-      * 按CTRL + Shift + Z （⌘ + Shift + Z代表Mac）以重做刪除記錄
+     * 按CTRL + Z （⌘ + Z代表Mac）以復原刪除記錄
+     * 按CTRL + Shift + Z （⌘ + Shift + Z代表Mac）以重做刪除記錄
 
 
 

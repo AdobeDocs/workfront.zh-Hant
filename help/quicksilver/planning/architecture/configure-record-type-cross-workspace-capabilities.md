@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1438
+source-wordcount: 1465
 ht-degree: 1%
 
 ---
@@ -79,22 +79,23 @@ this article is linked to the UI in the Advanced settings/ Cross-workspace setti
    <td> 
 <p>若要設定可連線的記錄型別： </p>
 <ul> 
-<li><p>任何Workfront套件和任何Planning套件</p></li>
+<li>任何工作流程和Planning Prime或Ultimate套件</p></li>
 或
-<li>任何工作流程和Planning Prime或Ultimate套件</p></li></ul>
-
+<li>Workfront Planning Prime或Ultimate套件作為獨立產品</li>
+</ul>
 
 <p>若要設定全域記錄型別，請執行下列動作：</p>
 
 <ul> 
-<li><p>任何Workfront套件和Planning Plus套件</p></li>
+<li><p>任何工作流程和Planning Prime或Ultimate套件</p></li>
+
 或
-<li><p>任何工作流程和Planning Prime或Ultimate套件</p></li></ul>
-<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p>
+<li>作為獨立產品購買時的Planning Prime或Ultimate套件 </li>
+</ul>
 
 </td> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront授權</p></td> 
+   <td role="rowheader"><p>Adobe Workfront與Planning授權</p></td> 
    <td>
    <!--
    <p>In the Production environment: </p>
@@ -105,15 +106,17 @@ this article is linked to the UI in the Advanced settings/ Cross-workspace setti
    -->
 
 <p>若要將記錄設為全域，請執行下列動作：</p>
-   <ul><li>標準或更高</li></ul>
+   <ul><li>Workfront和Planning Standard或更高版本</li></ul>
    <p>若要讓記錄可連線：</p>
 
-<ul><li>使記錄可從特定工作區連線的標準</li>
+<ul><li>Workfront與Planning Standard讓記錄可從特定工作區連線</li>
    <li>系統管理員，讓記錄可從所有工作區連線</li></ul>
-
 
 </td> 
   </tr> 
+  <td role="rowheader"><p>存取層級設定</p></td> 
+   <td> <p>擁有Workflow和Planning套件時，您必須將Workflow和Planning授權型別新增到存取層級</p>   
+</td> 
   <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
    <td>   <p>管理工作區的許可權</p>  

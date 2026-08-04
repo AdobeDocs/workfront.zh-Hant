@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9025c23900c031594d1a4b875826fc35f1d5bf6c
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 624
-ht-degree: 8%
+source-wordcount: 622
+ht-degree: 9%
 
 ---
 
@@ -60,14 +60,26 @@ ht-degree: 8%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
-<p>任何Workfront和任何Planning套件</p> <p>任何工作流程與任何Planning套件</p>
-<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
+<ul> 
+<li><p>具有Planning套件的任何Workfront或工作流程</p></li>
+或
+<li><p>以獨立產品形式購買時的任何Planning套件</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
-   <td><p>標準</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe計畫授權</p></td> 
+   <td><p>規劃標準</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>存取層級設定</p></td> 
+   <td> <p>擁有Workflow和Planning套件時，您必須將Workflow和Planning授權型別新增到存取層級</p>   
+</td> 
+  </tr>  
   <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
    <td>   <p>管理工作區的許可權</p>  
@@ -128,7 +140,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -147,24 +159,24 @@ Old:
 * 匯入Workfront欄位會建立相同欄位的復本，並在Workfront Planning中保留欄位名稱。 複製到Workfront Planning後，這些欄位獨立於原始Workfront欄位，不會共用資訊。
 <!--check this: * You do not need permissions or access to Workfront objects to be able to add their fields to Workfront Planning. -->
 * 您可以從下列Workfront物件新增原生或自訂欄位：
-   * 專案組合
-   * 方案
-   * 專案
-   * 任務
-   * 問題
-   * 文件
-   * 公司
-   * 群組
-   * 使用者
-   * 職務角色
-   * 指派
-   * 時數
-   * 計費記錄
-     <!--Available only to Preview, but might not come to Prod:* Rate card - visible in Production but asking PM if it should be hidden-->
-   * 費用
-   * 疊代
-     <!--* Non-labor resource - - visible in Production but asking PM if it should be hidden-->
-     <!--* Non-labour resource category - - visible in Production but asking PM if it should be hidden-->
+  * 專案組合
+  * 方案
+  * 專案
+  * 任務
+  * 問題
+  * 文件
+  * 公司
+  * 群組
+  * 使用者
+  * 職務角色
+  * 指派
+  * 時數
+  * 計費記錄
+    <!--Available only to Preview, but might not come to Prod:* Rate card - visible in Production but asking PM if it should be hidden-->
+  * 費用
+  * 疊代
+    <!--* Non-labor resource - - visible in Production but asking PM if it should be hidden-->
+    <!--* Non-labour resource category - - visible in Production but asking PM if it should be hidden-->
 * Workfront欄位匯入Workfront Planning後，可能不會保留其欄位型別。
 
   下表顯示Workfront欄位型別及其對應的Workfront Planning欄位型別。
@@ -185,7 +197,7 @@ Old:
   | 選項按鈕 | 多選 |
 
   *計算欄位將在稍後提供。
-Workfront Planning不支援所有其他Workfront欄位型別。
+  Workfront Planning不支援所有其他Workfront欄位型別。
 
 
 ## 從 Workfront 匯入欄位

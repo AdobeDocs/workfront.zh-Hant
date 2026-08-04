@@ -19,9 +19,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 2402
+source-wordcount: 2427
 ht-degree: 1%
 
 ---
@@ -109,9 +109,11 @@ No longer needed to specify:
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
-<p>任何Workfront和任何Planning套件</p> <p>任何工作流程與任何Planning套件</p>
-<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
-   </td> 
+<p>任何Workfront或工作流程以及任何Planning套件</p> 
+或
+<p>以獨立產品形式購買時的任何Planning套件</p>
+
+</td> 
    <tr> 
 <td> 
    <p> 其他產品</p> </td> 
@@ -120,10 +122,21 @@ No longer needed to specify:
   </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
-   <td><p>標準</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
   <tr> 
+   <td role="rowheader"><p>Adobe計畫授權</p></td> 
+   <td><p>規劃標準</p>
+   </td> 
+  </tr>
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront存取層級設定</p></td> 
+   <td> <p>當您同時具有Workflow和Planning套件時，您必須將Workflow和Planning授權型別新增到Workfront存取層級</p>   
+</td> 
+  </tr>
+
+<tr> 
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing使用者角色</p></td> 
    <td><p><ul><li>存取行銷活動、產品和角色的任何GenStudio使用者角色</li>
    <li>GenSudio System Manager存取啟用 <!--and Events--></li></ul>
@@ -267,15 +280,15 @@ Old for the second row in the table:
 * GenStudio工作區在Workfront Planning中建立後，會自動與所有同時擁有Workfront存取許可權的GenStudio使用者共用。
 * 身為Planning中GenStudio工作區的工作區管理員，您可以：
 
-   * 更新Planning中的GenStudio工作區（名稱、說明、圖示）
-   * 建立區段
-   * 新增記錄型別
-   * 與其他人共用
+  * 更新Planning中的GenStudio工作區（名稱、說明、圖示）
+  * 建立區段
+  * 新增記錄型別
+  * 與其他人共用
 
-     >[!NOTE]
-     >
-     >* 您可以與沒有GenStudio帳戶的其他人共用GenStudio工作區。 您只能與組織之Identity Management系統(IMS)中的可用使用者共用。
-     >* 您無法從GenStudio工作區或其記錄型別的共用中移除GenStudio使用者。
+    >[!NOTE]
+    >
+    >* 您可以與沒有GenStudio帳戶的其他人共用GenStudio工作區。 您只能與組織之Identity Management系統(IMS)中的可用使用者共用。
+    >* 您無法從GenStudio工作區或其記錄型別的共用中移除GenStudio使用者。
 
   <!--* Delete the workspace - check to see if this is possible; the link is there, but???-->
 
@@ -288,11 +301,11 @@ Old for the second row in the table:
   Workfront Planning中的![GenStudio記錄型別卡片](assets/genstudio-record-type-with-tag-and-tooltip-highlighted.png)
 * 在Planning中建立工作區時，GenStudio工作區中的記錄型別會自動與同時擁有Workfront存取權的所有GenStudio使用者共用。
 * 當您在Planning中擁有GenStudio工作區的「管理」許可權時，您可以從Workfront Planning執行下列作業：
-   * 編輯GenStudio記錄型別資訊（其外觀、進階設定）。
-   * 與其他人共用GenStudio記錄型別。 您無法從GenStudio記錄型別的共用中移除GenStudio使用者。
-   * 建立記錄型別。 這些記錄型別僅保留在Workfront Planning中。 它們不會顯示在GenStudio中。
-   * 從GenStudio工作區啟用記錄型別，以從其他工作區連線。
-   * 啟用從GenStudio工作區新增至其他工作區的記錄型別。
+  * 編輯GenStudio記錄型別資訊（其外觀、進階設定）。
+  * 與其他人共用GenStudio記錄型別。 您無法從GenStudio記錄型別的共用中移除GenStudio使用者。
+  * 建立記錄型別。 這些記錄型別僅保留在Workfront Planning中。 它們不會顯示在GenStudio中。
+  * 從GenStudio工作區啟用記錄型別，以從其他工作區連線。
+  * 啟用從GenStudio工作區新增至其他工作區的記錄型別。
 * 當您在Planning中擁有GenStudio工作區的「貢獻」許可權時，您無法從Planning中修改GenStudio記錄型別。
 
 ### GenStudio工作區中的記錄
@@ -301,16 +314,16 @@ Old for the second row in the table:
 * 當您從GenStudio for Performance Marketing編輯GenStudio記錄時，在GenStudio工作區中，所有Workfront例項中皆可看見變更。
 * 您無法從Workfront Planning的GenStudio工作區中建立或刪除啟用記錄。
 * 當您在Planning中擁有GenStudio工作區的「管理」或「貢獻」許可權時，您可以從Workfront Planning執行下列動作：
-   * 新增或刪除記錄，記錄便會顯示於GenStudio for Performance Marketing中（或從中移除）。
+  * 新增或刪除記錄，記錄便會顯示於GenStudio for Performance Marketing中（或從中移除）。
 
-     Workfront Planning或GenStudio for Performance Marketing中的已刪除記錄會放入Workfront Planning最近刪除的資料匣中30天。 GenStudio for Performance Marketing沒有最近刪除的bin。
-   * 從最近刪除的資料匣還原記錄。 還原已刪除的記錄會將其放回Workfront Planning和GenStudio for Performance Marketing。
-   * 以下列方式新增記錄：
+    Workfront Planning或GenStudio for Performance Marketing中的已刪除記錄會放入Workfront Planning最近刪除的資料匣中30天。 GenStudio for Performance Marketing沒有最近刪除的bin。
+  * 從最近刪除的資料匣還原記錄。 還原已刪除的記錄會將其放回Workfront Planning和GenStudio for Performance Marketing。
+  * 以下列方式新增記錄：
 
-      * 使用「新增記錄」按鈕，從任何檢視手動從頭開始
-      * 透過在表格檢視中使用CSV或Excel檔案匯入它們
-      * 手動，在Workfront Planning的任何檢視中
-      * 透過在Workfront中向記錄型別請求表單提交請求。
+    * 使用「新增記錄」按鈕，從任何檢視手動從頭開始
+    * 透過在表格檢視中使用CSV或Excel檔案匯入它們
+    * 手動，在Workfront Planning的任何檢視中
+    * 透過在Workfront中向記錄型別請求表單提交請求。
 
   如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
 * 您可以在Workfront Planning中編輯GenStudio工作區中所有記錄的記錄資訊。
@@ -327,26 +340,26 @@ Old for the second row in the table:
 
 * 當您在Planning中擁有GenStudio工作區的「管理」許可權時，您可以從Workfront Planning執行下列作業：
 
-   * 編輯GenStudio欄位設定。
-   * 建立GenStudio記錄型別的欄位。
+  * 編輯GenStudio欄位設定。
+  * 建立GenStudio記錄型別的欄位。
 
-     當您在Planning中為GenStudio記錄型別建立欄位時，可從下列區域看到這些欄位：
+    當您在Planning中為GenStudio記錄型別建立欄位時，可從下列區域看到這些欄位：
 
-      * Workfront Planning檢視
-      * Workfront Planning記錄詳細資訊頁面
-      * GenStudio記錄詳細資料頁面
+    * Workfront Planning檢視
+    * Workfront Planning記錄詳細資訊頁面
+    * GenStudio記錄詳細資料頁面
 
-     >[!TIP]
-     >
-     >在Workfront Planning中建立的欄位不會顯示在GenStudio清單中。
+    >[!TIP]
+    >
+    >在Workfront Planning中建立的欄位不會顯示在GenStudio清單中。
 
-   * 在Workfront Planning中隱藏GenStudio記錄型別的表格檢視中的欄位。
-   * 您無法從Workfront Planning中刪除在GenStudio中建立的欄位。
+  * 在Workfront Planning中隱藏GenStudio記錄型別的表格檢視中的欄位。
+  * 您無法從Workfront Planning中刪除在GenStudio中建立的欄位。
 
 * 當您在Planning中擁有GenStudio工作區的貢獻許可權時：
 
-   * 您無法在Workfront Planning中編輯欄位設定、刪除或新增來自GenStudio工作區的欄位。
-   * 您可以在Workfront Planning的表格檢視中隱藏欄位。
+  * 您無法在Workfront Planning中編輯欄位設定、刪除或新增來自GenStudio工作區的欄位。
+  * 您可以在Workfront Planning的表格檢視中隱藏欄位。
 
 #### 建立者與核准者欄位
 
@@ -368,21 +381,21 @@ Old for the second row in the table:
 
 * 當您在Planning中擁有GenStudio工作區的「管理」許可權時，您可以從Workfront Planning執行下列作業：
 
-   * 建立GenStudio記錄型別的檢視。
+  * 建立GenStudio記錄型別的檢視。
 
-     如需詳細資訊，請參閱[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)。
+    如需詳細資訊，請參閱[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)。
 
-   * 重新命名、共用、匯出、複製或刪除GenStudio記錄型別中的任何自訂檢視。
+  * 重新命名、共用、匯出、複製或刪除GenStudio記錄型別中的任何自訂檢視。
 
 * 當您在Planning中擁有GenStudio工作區的「貢獻」許可權時，您可以從Workfront Planning執行下列作業：
 
-   * 建立GenStudio記錄型別的檢視。
+  * 建立GenStudio記錄型別的檢視。
 
-     如需詳細資訊，請參閱[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)。
+    如需詳細資訊，請參閱[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)。
 
-   * 重新命名、匯出、複製或刪除GenStudio記錄型別的自訂檢視。
+  * 重新命名、匯出、複製或刪除GenStudio記錄型別的自訂檢視。
 
-     您無法在Workfront Planning中從GenStudio工作區共用檢視
+    您無法在Workfront Planning中從GenStudio工作區共用檢視
 
 ### 在GenStudio工作區中記錄連線
 
@@ -423,8 +436,8 @@ Old for the second row in the table:
 
 * 品牌預設會連線至下列GenStudio工作區記錄型別：
 
-   * 產品
-   * 人物誌
+  * 產品
+  * 人物誌
 
 * 品牌可用於手動連線到所有其他的GenStudio工作區記錄型別，或是您有權管理的所有其他工作區記錄型別。
 

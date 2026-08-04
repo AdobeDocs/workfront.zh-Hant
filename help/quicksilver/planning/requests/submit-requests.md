@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 2551
+source-wordcount: 2547
 ht-degree: 1%
 
 ---
@@ -65,17 +65,26 @@ Workspace管理員可建立請求表單，您能以使用者或外部人員身�
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
-<p>任何Workfront或Workflow套件</p>
-<p>任何Workfront Planning套件</p>
-<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。</p>
-   </td> </tr>
-  </tr> 
+<p>具有Planning套件的任何Workfront或工作流程</p> 
+或
+<p>任何以獨立產品形式購買的Workfront Planning</p> 
+ </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
    <td><p>任何</p> 
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe計畫授權</p></td> 
+   <td><p>任何</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>存取層級設定</p></td> 
+   <td> <p>擁有Workflow和Planning套件時，您必須將Workflow和Planning授權型別新增到存取層級</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
@@ -94,21 +103,21 @@ Workspace管理員可建立請求表單，您能以使用者或外部人員身�
 
 * Workfront Planning中必須存在下列專案：
 
-   * 工作區
-   * 記錄型別
-   * 與記錄型別相關聯的請求表單。
+  * 工作區
+  * 記錄型別
+  * 與記錄型別相關聯的請求表單。
 
-     如需詳細資訊，請參閱[在Adobe Workfront Planning中建立請求表單](/help/quicksilver/planning/requests/create-request-form.md)。
+    如需詳細資訊，請參閱[在Adobe Workfront Planning中建立請求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
 * 請求表單的共用方式必須讓您能存取。 存在下列情況：
 
-   * 在內部，表單必須和擁有工作區檢視或更高許可權的使用者共用。
+  * 在內部，表單必須和擁有工作區檢視或更高許可權的使用者共用。
 
-     Workfront使用者可從連結存取表單，或在Workfront的「請求」區域中尋找請求表單。
+    Workfront使用者可從連結存取表單，或在Workfront的「請求」區域中尋找請求表單。
 
-   * 從外部來說，就是透過與沒有Workfront帳戶的外部人員共用記錄表單的連結。
+  * 從外部來說，就是透過與沒有Workfront帳戶的外部人員共用記錄表單的連結。
 
-     Workfront使用者也可以存取與外部人員共用的連結。
+    Workfront使用者也可以存取與外部人員共用的連結。
 
 * 如果與連結共用，則指向表單的連結不能過期。
 
@@ -121,9 +130,9 @@ Workspace管理員可建立請求表單，您能以使用者或外部人員身�
   如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
 * 透過提交請求表單建立的記錄會連線至原始請求。 無法移除此連線。
 * 您可以在下列區域中檢視建立的記錄和用來建立這些記錄的請求：
-   * Workfront中的請求區域。
-   * 將請求新增為連線記錄時，在Workfront Planning中記錄型別頁面的連線欄位中。
-   * 將請求新增為連線記錄時，在Workfront Planning中記錄詳細資訊區域的連線欄位中。
+  * Workfront中的請求區域。
+  * 將請求新增為連線記錄時，在Workfront Planning中記錄型別頁面的連線欄位中。
+  * 將請求新增為連線記錄時，在Workfront Planning中記錄詳細資訊區域的連線欄位中。
 
   >[!TIP]
   >
@@ -146,7 +155,7 @@ Not sure how to change the request status, but dev also said: Changing the names
 {{step1-to-requests}}
 
 1. 開啟熒幕右上角的&#x200B;**使用新體驗**&#x200B;設定。
-開啟此設定後，Workfront的&#x200B;**要求**&#x200B;區域即可使用Workfront規劃要求表單。
+開啟此設定後，Workfront的&#x200B;**要求**&#x200B;區域就會提供Workfront規劃要求表單。
 
    >[!TIP]
    >
@@ -188,12 +197,12 @@ Not sure how to change the request status, but dev also said: Changing the names
 
      下列欄位會在「請求」區域與「首頁」的「我的請求」小工具中顯示請求與記錄資訊：
 
-      * **主旨**：新增至要求區域的原始要求名稱。 您無法從要求清單中隱藏或移除&#x200B;**主旨**&#x200B;欄位。 該名稱具有在Planning中開啟請求頁面的連結。
-      * **已建立的物件**：從要求建立的記錄名稱，在Planning中顯示。 「已建立」物件名稱有一個連結，可開啟從請求建立的記錄。
-      * **物件型別**：從Planning中的要求建立記錄的工作區和記錄型別的名稱。
-      * **狀態**：要求物件的狀態。 如需請求狀態的詳細資訊，請參閱[檢視已提交的請求](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)。
-      * **要求表單**：與Planning中的記錄型別相關聯的要求表單名稱。
-      * **已建立的物件狀態**：已建立記錄的狀態。
+     * **主旨**：新增至要求區域的原始要求名稱。 您無法從要求清單中隱藏或移除&#x200B;**主旨**&#x200B;欄位。 該名稱具有在Planning中開啟請求頁面的連結。
+     * **已建立的物件**：從要求建立的記錄名稱，在Planning中顯示。 「已建立」物件名稱有一個連結，可開啟從請求建立的記錄。
+     * **物件型別**：從Planning中的要求建立記錄的工作區和記錄型別的名稱。
+     * **狀態**：要求物件的狀態。 如需請求狀態的詳細資訊，請參閱[檢視已提交的請求](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)。
+     * **要求表單**：與Planning中的記錄型別相關聯的要求表單名稱。
+     * **已建立的物件狀態**：已建立記錄的狀態。
 
    * 如果要求表單與核准相關聯，則會將要求新增至「Workfront要求」區域和「我的要求」Widget中的「要求」清單，且狀態為&#x200B;**擱置稽核**。 新記錄只有在核准者核准後才新增到記錄型別頁面。
 
@@ -243,7 +252,7 @@ Not sure how to change the request status, but dev also said: Changing the names
    >
    >* 如果要求表單中未更新記錄的主要欄位，則要求之記錄欄位中的記錄名稱會顯示為&#x200B;**未命名**。
    >
-   >* 如果請求表單與核准相關聯，則必須先授權核准，然後才能從請求頁面存取記錄。 在授予核准之前，不會建立記錄。
+   >* 如果請求表單與核准相關聯，則必須先授權核准，然後才能從請求頁面存取記錄。在授予核准之前，不會建立記錄。
    >  如需核准請求的詳細資訊，請參閱[在Adobe Workfront規劃中核准請求](/help/quicksilver/planning/requests/approve-request.md)。
 
 1. （選擇性）按一下&#x200B;**記錄型別**&#x200B;的名稱。

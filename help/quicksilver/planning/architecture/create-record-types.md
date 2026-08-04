@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1179
+source-wordcount: 1193
 ht-degree: 2%
 
 ---
@@ -61,29 +61,37 @@ ht-degree: 2%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
-<p>任何Workfront和Planning套件</p>
-<p>任何工作流程和Planning套件</p>
+<p>任何Workfront或Workflow以及Planning套件</p>
+或
+<p>以獨立產品形式購買時的任何Planning套件</p>
 <p><b>附註</b></p>
 <p>若要設定可連線的記錄型別： </p>
 <ul> 
-<li><p>任何Workfront套件和任何Planning套件</p></li>
+<li><p>任何工作流程和Planning Prime或Ultimate套件</p></li>
 或
-<li><p>任何工作流程和Planning Prime或Ultimate套件</p></li></ul>
+<li>作為獨立產品購買時的Planning Prime或Ultimate套件</li>
+</ul>
 
 <p>若要設定全域記錄型別，請執行下列動作：</p>
 
 <ul> 
 <li><p>任何Workfront套件和Planning Plus套件</p></li>
 或
-<li><p>任何工作流程和Planning Prime或Ultimate套件</p></li></ul>
-<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p>
-
-</td> </tr>
+<li><p>任何工作流程和Planning Prime或Ultimate套件</p></li>
+或 
+<li>作為獨立產品購買時的Planning Prime或Ultimate套件</li>
+</ul>
+   </td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
    <td><p>標準</p>
    </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe計畫授權</p></td> 
+   <td><p>規劃標準</p>
+   </td> 
+  </tr>
   <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
    <td>   <p>管理工作區的許可權</p>  
@@ -143,7 +151,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -159,27 +167,27 @@ Old:
 
 * 您可以透過下列方式在工作區中建立記錄型別：
 
-   * 自動：
-      * 使用範本建立工作區時。
+  * 自動：
+    * 使用範本建立工作區時。
 
-        如需詳細資訊，請參閱[建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md)。
+      如需詳細資訊，請參閱[建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md)。
 
-      * 當您使用CSV或Excel檔案匯入時。
+    * 當您使用CSV或Excel檔案匯入時。
 
-        如需詳細資訊，請參閱本文中的[從CSV或Excel檔案匯入資訊，以建立記錄型別](#create-record-types-by-importing-information-from-a-csv-or-excel-file)一節。
+      如需詳細資訊，請參閱本文中的[從CSV或Excel檔案匯入資訊，以建立記錄型別](#create-record-types-by-importing-information-from-a-csv-or-excel-file)一節。
 
-     >[!TIP]
-     >
-     >從CSV或Excel檔案匯入記錄型別時，您也可以匯入記錄和欄位。
+    >[!TIP]
+    >
+    >從CSV或Excel檔案匯入記錄型別時，您也可以匯入記錄和欄位。
 
-   * 手動：
+  * 手動：
 
-      * 從頭開始。
+    * 從頭開始。
 
-        本文說明如何從頭開始建立記錄型別。
+      本文說明如何從頭開始建立記錄型別。
 
-      * 透過從另一個工作區新增它們
-如需相關資訊，請參閱本文[從其他工作區](#create-record-types-by-adding-existing-ones-from-another-workspace)新增現有記錄型別以建立記錄型別一節。
+    * 透過從另一個工作區新增它們
+      如需相關資訊，請參閱本文[從其他工作區](#create-record-types-by-adding-existing-ones-from-another-workspace)新增現有記錄型別以建立記錄型別一節。
 
 
 * 您可以在區段內以及工作區一個區段之間移動記錄型別。 您無法將記錄型別從一個工作區移動到另一個工作區。
@@ -230,8 +238,8 @@ Old:
    * 將「未命名的記錄型別」取代為您未來記錄型別的名稱。<!--did they bring back the field label here and did they rename it to "Name"-->
    * **描述**：新增記錄型別的詳細資訊。
    * 為與記錄型別關聯的圖示選取顏色和形狀。 請執行下列動作：
-      * 選取顏色以識別您的新記錄型別。 這是記錄型別圖示的顏色。 預設會選取「灰色」。
-      * 從清單中選取圖示，或在搜尋欄位中開始輸入圖示名稱以說明其代表內容，然後在顯示時選取它。 這是記錄型別的圖示。 依預設，會選取檔案圖示。
+     * 選取顏色以識別您的新記錄型別。 這是記錄型別圖示的顏色。 預設會選取「灰色」。
+     * 從清單中選取圖示，或在搜尋欄位中開始輸入圖示名稱以說明其代表內容，然後在顯示時選取它。 這是記錄型別的圖示。 依預設，會選取檔案圖示。
 
 1. （選擇性和條件性）如果您是系統管理員，請按一下&#x200B;**跨工作區設定**&#x200B;索引標籤，並更新有關記錄型別的跨工作區功能的資訊。
 
@@ -242,7 +250,7 @@ Old:
 1. 按一下「**儲存**」。
 
    記錄型別卡片會新增至區段以及您選取的工作區。
-記錄型別的「說明」會顯示在卡片上。
+   記錄型別的「說明」會顯示在卡片上。
 
    ![含有說明的記錄型別卡片](assets/record-type-card-with-description.png)
 

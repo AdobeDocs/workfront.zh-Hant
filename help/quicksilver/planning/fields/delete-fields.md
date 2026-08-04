@@ -20,10 +20,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 673
-ht-degree: 1%
+source-wordcount: 708
+ht-degree: 2%
 
 ---
 
@@ -60,23 +60,33 @@ ht-degree: 1%
    <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
 <ul> 
-<li><p>任何Workfront和任何Planning套件</p></li>
+<li><p>具有Planning套件的任何Workfront或工作流程</p></li>
 或
-<li><p>任何工作流程與任何Planning套件</p></li></ul>
+<li><p>以獨立套件購買時的任何Planning套件</p></li></ul>
 
 <p>若要從全域記錄型別中刪除欄位，請執行下列動作：</p>
 <ul><li><p>任何Workfront套件和Planning Plus套件</p></li>
 或
-<li><p>任何工作流程及計畫Prime和Ultimate套件</p></li></ul>
-
-<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
+<li><p>任何工作流程及計畫Prime和Ultimate套件</p></li>
+或
+<li>購買獨立產品時的任何Planning Primar和Ultimate套件</li>
+</ul>
    </td> 
-  <tr> 
+ <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
-   <td><p>標準</p>
+   <td><p>Workflow Standard</p>
    </td> 
   </tr> 
-  <tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe計畫授權</p></td> 
+   <td><p>規劃標準</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>存取層級設定</p></td> 
+   <td> <p>擁有Workflow和Planning套件時，您必須將Workflow和Planning授權型別新增到存取層級</p>   
+</td> 
+  </tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
    <td>   <p>管理工作區的許可權</p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>  </td> 
@@ -136,7 +146,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -157,9 +167,9 @@ Old:
 
   例如，當您將「行銷活動」連線至名為「產品」的另一個記錄型別，並從行銷活動刪除「已連線的產品」欄位和「產品的狀態」查詢欄位時，以下專案即會刪除：
 
-   * 來自行銷活動的已連線產品欄位
-   * 來自行銷活動的產品狀態查詢欄位
-   * 來自產品的「已連線促銷活動」欄位
+  * 來自行銷活動的已連線產品欄位
+  * 來自行銷活動的產品狀態查詢欄位
+  * 來自產品的「已連線促銷活動」欄位
 
   如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
 

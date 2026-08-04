@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 009953346ae5ef29611101acaa08b4f9810cf9d8
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1022
+source-wordcount: 1055
 ht-degree: 2%
 
 ---
@@ -66,11 +66,21 @@ This article describes how you can share a view with others. For information abo
 <p>具有Planning套件的任何Workfront或工作流程</p> 
 或
 <p>任何Workfront Planning作為獨立產品套件</p> 
- </tr>
-<tr> 
+ </tr> 
+  <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
-   <td><p>標準</p> 
+   <td><p>Workflow Standard</p> 
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe計畫授權</p></td> 
+   <td><p>規劃標準</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>存取層級設定</p></td> 
+   <td> <p>擁有Workflow和Planning套件時，您必須將Workflow和Planning授權型別新增到存取層級</p>   
+</td> 
   </tr>
 
 <td role="rowheader"><p>物件許可權</p></td> 
@@ -133,7 +143,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -174,13 +184,13 @@ Old:
 
    * 如果您是系統管理員，請從下列選項中選取：
 
-      * **只有受邀者才能存取**：您必須選取共用方塊中的實體，並選擇其工作區存取權。 這是預設選取範圍。
-      * **系統中的每個人都可以檢視**：系統中有權存取Planning的所有人都可以在Planning的&#x200B;**工作區**&#x200B;區域中檢視工作區。
+     * **只有受邀者才能存取**：您必須選取共用方塊中的實體，並選擇其工作區存取權。 這是預設選取範圍。
+     * **系統中的每個人都可以檢視**：系統中有權存取Planning的所有人都可以在Planning的&#x200B;**工作區**&#x200B;區域中檢視工作區。
 
    * （視條件而定）如果您是具有Standard許可證的工作區管理員，您可以看到下列其中一個選項，但無法變更它們：
 
-      * **只有受邀者可以存取**。 這是預設設定。
-      * **系統中的每個人都可以檢視**
+     * **只有受邀者可以存取**。 這是預設設定。
+     * **系統中的每個人都可以檢視**
 
      您必須要求系統管理員變更工作區的全域許可權。
 

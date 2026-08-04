@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1002
+source-wordcount: 1001
 ht-degree: 1%
 
 ---
@@ -69,8 +69,8 @@ ht-degree: 1%
    <tr>
    <td role="rowheader"><p>Adobe Workfront 封裝</p></td>
    <td>
-   <p>任何Workfront或工作流程計畫套件
-   和任何Workfront規劃套件</p>
+   <p>任何Workfront或Workflow套件
+   與任何Workfront Planning套件</p>
    <p><b>附註</b></p>
    <p>若要存取可連線的記錄型別：</p>
    <ul><li><p>任何Workfront套件和Planning套件</p></li>

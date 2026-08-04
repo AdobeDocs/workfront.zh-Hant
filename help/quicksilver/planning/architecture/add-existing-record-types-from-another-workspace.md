@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 765
+source-wordcount: 749
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 1%
 <col> 
 </col> 
 <col> 
-</col> 
+</col>  
 <tbody> 
     <tr> 
 <tr> 
@@ -64,17 +64,27 @@ ht-degree: 1%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
-<ul><li><p>任何Workfront套件和Planning Plus套件</p></li>
+<p>具有Planning套件的任何Workfront或工作流程</p> 
 或
-<li><p>任何工作流程和Planning Prime或Ultimate套件</p></p></li></ul>
-<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。 </p> 
-   </td> 
+<p>任何Workfront Planning作為獨立產品套件</p> 
+ </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
-   <td><p>標準</p>
-   </td> 
+   <td><p>Workflow Standard</p> 
+  </td> 
   </tr> 
   <tr> 
+   <td role="rowheader"><p>Adobe計畫授權</p></td> 
+   <td><p>規劃標準</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>存取層級設定</p></td> 
+   <td> <p>擁有Workflow和Planning套件時，您必須將Workflow和Planning授權型別新增到存取層級</p>   
+</td> 
+  </tr>
+
+<tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
    <td>   <p>管理工作區的許可權</p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>  </td> 
@@ -158,8 +168,8 @@ And
 
 * 以下資訊也會從現有的全域記錄型別中新增：
 
-   * 所有原始欄位
-   * 所有記錄連線
+  * 所有原始欄位
+  * 所有記錄連線
 * 您無法從次要工作區檢視從記錄型別的原始工作區新增的記錄。
 * 您至少擁有該工作區的「檢視」許可權時，才能檢視從該工作區中記錄型別的原始工作區新增的記錄。
 * 唯讀&#x200B;**Workspace**&#x200B;欄位已新增至新記錄型別資料表檢視。 欄位會顯示建立每個記錄的工作區。

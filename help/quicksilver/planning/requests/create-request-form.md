@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 2948
+source-wordcount: 2968
 ht-degree: 1%
 
 ---
@@ -60,20 +60,28 @@ ht-degree: 1%
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront套件</p></td> 
+   <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
-<p>任何Workfront套件和任何Planning套件</p>
+<ul> 
+<li><p>具有Planning套件的任何Workfront或工作流程</p></li>
 或
-<p>任何Workflow套件和任何Planning套件</p>
-<p>如需每個Workfront Planning套件所含內容的詳細資訊，請聯絡您的Workfront客戶代表。</p>
+<li><p>以獨立產品形式購買時的任何Planning套件</p></li></ul>
    </td> </tr>
-
-</tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
-   <td><p>標準</p> 
-  </td> 
+   <td><p>Workflow Standard</p>
+   </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe計畫授權</p></td> 
+   <td><p>規劃標準</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>存取層級設定</p></td> 
+   <td> <p>擁有Workflow和Planning套件時，您必須將Workflow和Planning授權型別新增到存取層級</p>   
+</td> 
+  </tr>  
   <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
    <td>   <p>管理工作區或記錄型別</a>的許可權 </p>  
@@ -94,27 +102,27 @@ ht-degree: 1%
 
 * 以下為要求表單、要求表單建立的記錄或要求詳細資訊頁面中特定欄位顯示方式的限制：
 
-   * 您無法將下列型別的欄位新增至請求表單：
+  * 您無法將下列型別的欄位新增至請求表單：
 
-      * 建立者、上次修改者、核准者
-      * 建立日期、上次修改日期、核准日期
-      * 記錄 ID
-      * Workfront物件的查閱欄位
-      * Workfront Planning連線記錄的查詢欄位
+    * 建立者、上次修改者、核准者
+    * 建立日期、上次修改日期、核准日期
+    * 記錄 ID
+    * Workfront物件的查閱欄位
+    * Workfront Planning連線記錄的查詢欄位
 
 * 以下為欄位格式在請求表單產生器中顯示方式，與欄位值在記錄或請求詳細資訊頁面中的格式設定方式之間的差異：
 
-   * 「貨幣」、「數字」和「百分比」欄位會在表單產生器中顯示為「單行」文字欄位型別。
+  * 「貨幣」、「數字」和「百分比」欄位會在表單產生器中顯示為「單行」文字欄位型別。
 
-     但是，欄位格式會保留，並在提交請求後、在記錄型別和請求詳細資訊頁面中，欄位值將顯示為貨幣、數字和百分比。
+    但是，欄位格式會保留，並在提交請求後、在記錄型別和請求詳細資訊頁面中，欄位值將顯示為貨幣、數字和百分比。
 
 * 以下說明某些欄位值如何在請求表單和請求詳細資訊頁面上顯示：
 
-   * 不保留貨幣、數字和百分比欄位的特殊格式。 例如，這些區域中的這些欄位值不會保留小數精確度。
-   * 人員欄位值會顯示為ID。
-   * 未參考其他欄位或計算的公式欄位不顯示任何值。 例如，具有`STRING`公式的欄位會顯示「N/A」值。
-   * 參考「幣別」欄位的公式欄位會顯示不含匯率會計的值。
-   * 段落欄位的值在請求表單上顯示「N/A」值，並在請求詳細資訊頁面中顯示html標籤而不是格式化文字。
+  * 不保留貨幣、數字和百分比欄位的特殊格式。 例如，這些區域中的這些欄位值不會保留小數精確度。
+  * 人員欄位值會顯示為ID。
+  * 未參考其他欄位或計算的公式欄位不顯示任何值。 例如，具有`STRING`公式的欄位會顯示「N/A」值。
+  * 參考「幣別」欄位的公式欄位會顯示不含匯率會計的值。
+  * 段落欄位的值在請求表單上顯示「N/A」值，並在請求詳細資訊頁面中顯示html標籤而不是格式化文字。
 
 ## 建立請求表單
 

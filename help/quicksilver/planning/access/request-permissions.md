@@ -18,9 +18,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 514
+source-wordcount: 533
 ht-degree: 3%
 
 ---
@@ -41,6 +41,8 @@ no longer needed:
 >
 >For more information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md). 
 -->
+
+{{planning-important-intro}}
 
 當有人與您共用您無權存取之檢視或工作區的連結時，您可以要求檢視或工作區的許可權。
 
@@ -63,26 +65,32 @@ no longer needed:
 </col> 
 <col> 
 </col> 
-<tbody> 
-    <tr> 
+<tbody>
+
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
 <p>具有Planning套件的任何Workfront或工作流程</p> 
 或
-<p>任何Workfront Planning作為獨立產品套件</p> 
- </tr>
-
-<tr> 
+<p>任何以獨立產品形式購買的Workfront Planning</p> 
+ </tr> 
+  <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
    <td><p>任何</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>存取層級設定</p></td> 
-   <td> <p>Adobe Workfront Planning沒有存取層級控制</p>   
-</td> 
+   <td role="rowheader"><p>Adobe計畫授權</p></td> 
+   <td><p>任何</p> 
+  </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><p>存取層級設定</p></td> 
+   <td> <p>擁有Workflow和Planning套件時，您必須將Workflow和Planning授權型別新增到存取層級</p>   
+</td> 
+  </tr>
+
+
 <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
    <td>  <p>您的許可權要求取得授權後，您就可以取得下列許可權：</p>
@@ -150,7 +158,7 @@ no longer needed:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
