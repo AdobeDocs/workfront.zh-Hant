@@ -10,21 +10,15 @@ exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/ezurCOB6dbk6JPL0eY33C9nR8lXVLMHl-SUTfAbVeTg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d2576b0e5abc0c4c46de740f1ea510452351a959
 workflow-type: tm+mt
-source-wordcount: 571
-ht-degree: 4%
+source-wordcount: 627
+ht-degree: 3%
 
 ---
 
@@ -69,7 +63,7 @@ ht-degree: 4%
 * 您的Workfront執行個體必須已啟用統一核准。
 
 * 您的組織必須有GenStudio Foundation。
-   * Workfront中的內容檢閱者提供GenStudio Foundation中可用的功能，以進行資產檢閱和核准工作流程。 您不需要直接存取GenStudio Foundation即可完成工作。 您透過「內容檢閱者」存取GenStudio Foundation功能時，需遵守Workfront合約的條款。
+  * Workfront中的內容檢閱者提供GenStudio Foundation中可用的功能，以進行資產檢閱和核准工作流程。 您不需要直接存取GenStudio Foundation即可完成工作。 您透過「內容檢閱者」存取GenStudio Foundation功能時，需遵守Workfront合約的條款。
 * Adobe必須有已簽署的Adobe Gen AI合約檔案。
 如需簽署合約的詳細資訊，請參閱[簽署Adobe Gen AI合約](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)。
 
@@ -86,10 +80,10 @@ ht-degree: 4%
 1. 在左側面板中，移至&#x200B;**檢閱和核准** > **品牌**。
 1. 按一下熒幕右上角的&#x200B;**新增品牌**。
 1. 為品牌命名。
-1. 按一下&#x200B;**上傳PDF**&#x200B;以上傳品牌檔案。
+1. 按一下&#x200B;**上傳PDF**以上傳品牌檔案。
    ![上傳品牌PDF](assets/upload-PDF.png)
 1. 按一下「**繼續**」。
-1. 上傳一或多個包含品牌准則的PDF檔案，然後按一下[新增品牌]。**&#x200B;**
+1. 上傳一或多個包含品牌准則的PDF檔案，然後按一下[新增品牌]。****
 1. 上傳檔案後，請檢閱擷取的品牌元素，以確保其符合您的品牌方針。
 
    >[!IMPORTANT]
@@ -142,6 +136,8 @@ ht-degree: 4%
 
 
 ## 撰寫品牌指引的最佳作法
+
+在撰寫准則之前，請先檢閱[內容檢閱者評估的內容](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md#what-content-reviewer-evaluates)中的影像和品牌聲音准則型別。 這些評估區域以外的准則將不會評分。
 
 *  撰寫描述可測量標準的品牌指導方針。 「內容檢閱者」會依字面上的意義評估內容，因此客觀規則會產生比主觀規則更一致的評分。
 

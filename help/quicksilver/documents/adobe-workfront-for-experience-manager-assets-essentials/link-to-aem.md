@@ -7,19 +7,13 @@ author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: dbd19985-88b1-48ca-9cba-b7933ff2c191
 TQID: https://experienceleague.adobe.com/0qWQcRcAeOK7SfQTqHfSrxvyTf2h9piCwwJ9Tg2rCWQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d7df53ffd980b9a05856bb40472bbeebba5da84e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 66635b2edc78833ec2d08cef382b39b89238b565
 workflow-type: tm+mt
-source-wordcount: 1435
+source-wordcount: 1467
 ht-degree: 1%
 
 ---
@@ -81,7 +75,7 @@ Content Advisor將智慧型內容感知探索功能直接匯入Workfront，協�
 
 * 您的Workfront管理員必須設定Experience Manager整合。 如需詳細資訊，請參閱[設定Experience Manager Assets as a Cloud Service整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)。
 
-* 若要使用Smart Suggestions或Campaign Briefs功能，您必須簽署GenAI Rider。 如需詳細資訊，請參閱[使用內容警告器存取Adobe應用程式中的AEM內容](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search)。
+* 若要使用Smart Suggestions或Campaign Briefs功能，您必須簽署GenAI Rider。 如需詳細資訊，請參閱[使用內容警告器存取Adobe應用程式中的AEM內容](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search)。
 
 
 
@@ -105,46 +99,54 @@ Content Advisor將智慧型內容感知探索功能直接匯入Workfront，協�
    <tbody>
       <tr>
          <td><strong>使用AI 搜尋搜尋資產。</strong> 使用AI支援的搜尋，瞭解查詢背後的含意和意圖，支援多種語言、拼寫錯誤和同義字。</td>
-         <td>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search">更聰明的資產探索AI 搜尋</a>。</td>
+         <td>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search">更聰明的資產探索AI 搜尋</a>。</td>
       </tr>
       <tr>
          <td><strong>根據內容和意圖檢視智慧型建議。</strong> 使用主機Adobe應用程式提供的內容感知建議，探索符合您內容需求的資產。</td>
-         <td>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#smart-suggestions-content-advisor">根據內容與意圖的智慧建議</a>。</td>
+         <td>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#smart-suggestions-content-advisor">根據內容與意圖的智慧建議</a>。</td>
       </tr>
       <tr>
          <td><strong>上傳行銷活動簡報以探索相關資產。</strong> 上傳PDF、DOCX或TXT行銷活動簡介檔案，讓「內容顧問」可以分析檔案並建議相關資產。</td>
-         <td>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#campaign-briefs-content-advisor">探索相關資產的Campaign簡介</a>。</td>
+         <td>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#campaign-briefs-content-advisor">探索相關資產的Campaign簡介</a>。</td>
       </tr>
       <tr>
          <td><strong>檢視並選取Dynamic Media資產轉譯。</strong> 瀏覽頻道最佳化的轉譯，包括影像預設集、智慧型裁切和格式型別，並套用Dynamic Media修飾元以即時預覽調整。</td>
-         <td>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">可供使用的動態媒體資產轉譯</a>。</td>
+         <td>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">可供使用的動態媒體資產轉譯</a>。</td>
       </tr>
       <tr>
          <td><strong>將Dynamic Media修飾元套用至轉譯。</strong> 新增修飾元以即時轉換資產轉譯，並在為您的主機應用程式選取轉譯之前預覽結果。</td>
-         <td>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">可供使用的動態媒體資產轉譯</a>。</td>
+         <td>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">可供使用的動態媒體資產轉譯</a>。</td>
       </tr>
       <tr>
          <td><strong>探索和瀏覽內容片段。</strong> 搜尋內容片段、檢視即時縮圖預覽、檢查狀態（草稿、已修改或已發佈），以及檢查詳細的屬性、參考和變數。</td>
-         <td>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">探索內容片段</a>。</td>
+         <td>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">探索內容片段</a>。</td>
       </tr>
       <tr>
          <td><strong>存取資產中繼資料。</strong> 檢閱與Assets檢視一致的資產屬性，例如標題、說明、格式、大小和其他中繼資料標籤（產品、行銷活動、標籤）。</td>
-         <td>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#asset-metadata-content-advisor">存取與Assets檢視一致的資產中繼資料</a>。</td>
+         <td>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#asset-metadata-content-advisor">存取與Assets檢視一致的資產中繼資料</a>。</td>
       </tr>
       <tr>
          <td><strong>使用預先定義的篩選器來篩選資產。</strong> 使用檔案型別、檔案格式、資產狀態、檔案大小、影像寬度、影像高度、修改日期和建立日期等篩選器來調整資產結果。</td>
-         <td>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#filters-content-advisor">與Assets檢視一致的存取篩選器</a>。</td>
+         <td>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#filters-content-advisor">與Assets檢視一致的存取篩選器</a>。</td>
       </tr>
       <tr>
          <td><strong>儲存並重複使用搜尋。</strong> 指定搜尋字詞和篩選選項，建立已儲存的搜尋，然後在Experience Manager Assets和其他Adobe應用程式中重複使用。</td>
-         <td>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#saved-searches-content-advisor">存取及重複使用最近和儲存的搜尋</a>。</td>
+         <td>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#saved-searches-content-advisor">存取及重複使用最近和儲存的搜尋</a>。</td>
       </tr>
       <tr>
          <td><strong>在集合間和集合內搜尋資產。</strong> 在所有集合中搜尋資產或集合，或將搜尋限制在特定集合中。</td>
-         <td>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#search-collections-content-advisor">搜尋收藏集間和收藏集中的資產</a>。</td>
+         <td>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#search-collections-content-advisor">搜尋收藏集間和收藏集中的資產</a>。</td>
       </tr>
    </tbody>
    </table>
+
+   >[!NOTE]
+   >
+   >「內容建議程式」中的「建議內容」會使用下列資料來判斷Workfront中的建議內容：
+   >
+   >* Workfront物件名稱和說明欄位
+   >* 標示為必要的自訂表單欄位
+   >* 附加檔案中的資料
 
 
 ### 使用「內容建議程式」從Experience Manager Assets連結新版本
