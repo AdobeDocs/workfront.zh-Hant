@@ -10,9 +10,9 @@ role: Admin
 exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 36a4c29fb3d5e3ff3bb3b4952076cdd4bdf5d1d6
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '462'
 ht-degree: 4%
 
 ---
@@ -74,11 +74,15 @@ Adobe雲端儲存空間是適用於所有Adobe產品的統一儲存解決方案�
    - **整個組織**：此選項會將預設儲存提供者套用至您的整個Workfront環境。 每當使用者建立新專案時，都會使用預設的儲存提供者。
    - **特定群組**：此選項只會將預設儲存提供者套用至您組織內的特定群組。 每當指定群組中的使用者建立新專案時，都會使用預設的儲存提供者
 
+   ![儲存偏好設定群組](assets/configure-storage-preference.png)
+
 1. 按一下「**儲存**」。
 
    >[!NOTE]
    >
    >現有專案會保留建立該專案的儲存模式。 例如，使用Adobe雲端儲存空間的專案會在您變更預設儲存偏好設定後，繼續使用Adobe雲端儲存空間。
+
+
 
 ## 沙箱環境中的Adobe雲端儲存空間
 

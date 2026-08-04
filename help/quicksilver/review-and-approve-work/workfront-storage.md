@@ -6,9 +6,9 @@ description: 規劃在Adobe雲端儲存空間上推出Workfront的計畫。 瞭�
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 6bfa9fd95de0301fea5f15885cc1aafbb2d14dbb
+source-git-commit: 36a4c29fb3d5e3ff3bb3b4952076cdd4bdf5d1d6
 workflow-type: tm+mt
-source-wordcount: '2967'
+source-wordcount: '2936'
 ht-degree: 0%
 
 ---
@@ -21,14 +21,20 @@ Adobe雲端儲存空間上的Workfront可啟用完整的統一檢閱和核准體
 
 本文內容適用於Workfront管理員，協助他們準備在Adobe雲端儲存空間上推出Workfront。 內容涵蓋有關Adobe雲端儲存物件的主要差異、如何選擇您的轉出型別，以及在您為使用者啟用Adobe雲端儲存空間之前需要思考的事項。
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >* 您必須使用支援Adobe雲端儲存空間的Workfront版本。 如果貴組織尚未使用支援的版本，請聯絡您的Adobe客戶代表。
->* 移到支援Adobe雲端儲存空間的Workfront版本，會將&#x200B;*全部*&#x200B;個現有核准工作流程從舊版檔案核准移至整合式核准。 如需詳細資訊，請參閱[無論儲存模式](#unified-approvals-applies-regardless-of-storage-model)皆套用統一核准。
 
 ## 無論儲存模式為何，均適用統一核准
 
-移到支援Adobe雲端儲存空間的Workfront版本，會將&#x200B;*所有*&#x200B;個現有的核准工作流程從舊版檔案核准移至統一核准 — 不論是在舊版Workfront儲存空間上還是移至Adobe雲端儲存空間，每個物件皆適用。 這與[中說明的儲存轉出選擇不同。選擇Adobe雲端儲存轉出的方式](#choose-how-adobe-cloud-storage-rolls-out)：這些選擇控制新物件使用的儲存模式，而非核准工作流程是否移至整合核准。 此變更沒有試行群組或逐步選項，只要您使用支援的版本，就會在整個組織內套用。
+移到支援Adobe雲端儲存空間的Workfront版本，會將&#x200B;*所有*&#x200B;個現有的核准工作流程從舊版檔案核准移至統一核准 — 不論是在舊版Workfront儲存空間上還是移至Adobe雲端儲存空間，每個物件皆適用。
+
+
+>[!IMPORTANT]
+>
+>這與[中說明的儲存轉出選擇不同。選擇Adobe雲端儲存轉出的方式](#choose-how-adobe-cloud-storage-rolls-out)：這些選擇控制新物件使用的儲存模式，而非核准工作流程是否移至整合核准。<br>
+>此變更沒有試行群組或逐步選項，只要您使用支援的版本，就會在整個組織內套用。
+
 
 在您推出Adobe雲端儲存空間之前，請確定管理核准的人員知道會發生什麼事：
 
@@ -242,11 +248,13 @@ Fusion聯結器具有整合檢閱和核准的原生支援，預計於2026年第3
 
 如需逐步指示，請參閱[為您的組織啟用Adobe雲端儲存空間](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
 
+
+### 設定選項
+
 * **僅限Adobe雲端儲存空間**：新專案預設使用Adobe雲端儲存空間。 使用者無法建立舊版專案。
 * **Adobe雲端儲存空間與舊版Workfront儲存空間**：使用者建立專案時，他們會選擇Adobe雲端儲存空間（標示為「新專案」）與舊版Workfront儲存空間（標示為「舊版儲存空間」）。
 
   ![選擇專案型別](assets/choose-project-type.png)
-
 
 
 >[!TIP]
