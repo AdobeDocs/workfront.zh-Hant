@@ -1,6 +1,6 @@
 ---
 title: 從Adobe Workfront匯入欄位
-description: 在Adobe Workfront Planning中，您可以為每種記錄型別建立自訂欄位。 然後，您可以將此欄位與Workfront Planning記錄建立關聯。
+description: 在Adobe Workfront規劃中，您可以從Adobe Workfront新增現有欄位。 然後，您可以將其與Planning記錄相關聯。 如果您的組織已購買Planning作為獨立產品，則無法匯入Workfront現有欄位。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -9,22 +9,15 @@ exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/uyoOkZ9Yd48O9Sur9YMal4cBZD9e45bTbwc6TQ2fAds
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 622
-ht-degree: 9%
+source-wordcount: 638
+ht-degree: 8%
 
 ---
 
@@ -41,8 +34,11 @@ ht-degree: 9%
 
 {{planning-important-intro}}
 
-您可以匯入現有Workfront欄位的復本。 從Workfront匯入欄位會為Workfront Planning記錄型別建立每個欄位的副本。
+您可以匯入現有Adobe Workfront欄位的復本。 從Workfront匯入欄位會為Workfront Planning記錄型別建立每個欄位的副本。
 
+>[!IMPORTANT]
+>
+>購買Planning作為獨立產品的客戶，無法透過從Workfront匯入欄位來建立欄位。
 
 ## 存取權要求
 
@@ -59,11 +55,9 @@ ht-degree: 9%
 </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
-   <td> 
-<ul> 
-<li><p>具有Planning套件的任何Workfront或工作流程</p></li>
-或
-<li><p>以獨立產品形式購買時的任何Planning套件</p></li></ul>
+   <td>
+
+<p>具有Planning套件的任何Workfront或工作流程</p>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
@@ -74,13 +68,9 @@ ht-degree: 9%
    <td role="rowheader"><p>Adobe計畫授權</p></td> 
    <td><p>規劃標準</p>
    </td> 
-  </tr> 
+  </tr>
+
 <tr> 
-   <td role="rowheader"><p>存取層級設定</p></td> 
-   <td> <p>擁有Workflow和Planning套件時，您必須將Workflow和Planning授權型別新增到存取層級</p>   
-</td> 
-  </tr>  
-  <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
    <td>   <p>管理工作區的許可權</p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>  </td> 

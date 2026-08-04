@@ -10,22 +10,14 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
 TQID: https://experienceleague.adobe.com/DP4cAQiJdCpE59ppP-EvU3UcJomEd9TUxza6DIB1cDg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ee260723331ddff4e8d89f7d9ca2b807835d6130
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 1070
+source-wordcount: 1184
 ht-degree: 1%
 
 ---
@@ -58,14 +50,25 @@ Workfront檔案how-to文章包含一個表格，說明該程式所需的存取�
   <p>您的組織可能在一個或多個上述區域購買了Workfront套件。</p>
   <p>之前，Workfront提供Workfront Select、Workfront Prime和Workfront Ultimate套件，而不區分工作流程、計畫和自動化與整合。 您的組織可能位於這些舊版套件之一。 
    <ul><li>若要瞭解貴組織使用哪個Adobe Workfront套件，包括貴組織使用目前的封裝模式或舊版封裝模式，請聯絡Workfront管理員。</li>
-   <li>如需Workfront管理員如何找到您組織的Workfront封裝的說明，請參閱<a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">檢視您組織的叢集和Workfront封裝</a>。</li><li>如需Workfront套件的詳細資訊，請參閱<a href="https://business.adobe.com/tw/products/workfront/pricing.html">Adobe Workfront定價與封裝</a>。</li></ul> </td> 
+   <li>如需Workfront管理員如何找到您組織的Workfront封裝的說明，請參閱<a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">檢視您組織的叢集和Workfront封裝</a>。</li><li>如需Workfront套件的詳細資訊，請參閱<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront定價與封裝</a>。</li></ul>
+
+貴組織可購買下列其中一種方案的Workfront Planning套件：
+
+<ul>
+    <li> 與Workflow套件一起使用，並具有相同數量的Workflow和Planning授權。 </li>
+    <li>與Workflow套件一起使用，且Workflow與Planning之間的授權數量不符。 </li>
+    <li>作為獨立產品。</li></ul>
+
+三個Workfront Planning方案的功能可能有所不同。 如需詳細資訊，請參閱<a href="/help/quicksilver/planning/general/planning-overview.md" class="MCXref xref">開始使用Adobe Workfront計畫</a>。
+
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront授權</td> 
    <td> Adobe Workfront授權指的是一組Workfront功能，包含在指派給您的授權中。 例如，一位使用者可能擁有將工作專案標籤為完成和記錄時間的授權，而另一位使用者擁有僅允許其核准資產或提交請求的授權。 <p> 
    <p>Adobe Workfront授權可以指涉下列型別的授權：</p>
-   <ul><li>Workfront工作流程授權</li>
-  <li>Workfront計畫授權</li></ul>
+   <ul><li><b>Workfront工作流程授權</b>：適用於所有購買Workfront的客戶。 工作流程授權包括：工作流程標準、輕量、投稿人。</li>
+  <li><b>Workfront Planning授權</b>：適用於購買任何Workfront Planning方案的所有客戶。 Planning授權包括：標準、貢獻者、無存取權。 購買Workfront Planning作為獨立產品的客戶沒有貢獻者授權。  </li></ul>
 
 <p>若要瞭解系統指派給您的授權，請連絡Workfront管理員。</p>
    <p>如需授權的相關資訊，請參閱：</p>
@@ -111,7 +114,7 @@ Workfront檔案how-to文章包含一個表格，說明該程式所需的存取�
    <ul><li>目前的授權模型是以執行的作業數為基礎，對組織可執行的動作沒有限制。 </li>
    <li>舊版授權取決於案例能否連線至協力廠商應用程式，或案例是否僅用於Workfront自動化。 </li>
    </ul>
-   如需Fusion授權的詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion授權</a>。
+   如需Fusion授權的詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion授權</a>。
    </td> 
   </tr> 
  </tbody> 
