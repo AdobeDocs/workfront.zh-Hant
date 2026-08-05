@@ -17,9 +17,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d7df53ffd980b9a05856bb40472bbeebba5da84e
+source-git-commit: 66635b2edc78833ec2d08cef382b39b89238b565
 workflow-type: tm+mt
-source-wordcount: 1435
+source-wordcount: 1467
 ht-degree: 1%
 
 ---
@@ -145,6 +145,14 @@ Content Advisor將智慧型內容感知探索功能直接匯入Workfront，協�
       </tr>
    </tbody>
    </table>
+
+   >[!NOTE]
+   >
+   >「內容建議程式」中的「建議內容」會使用下列資料來判斷Workfront中的建議內容：
+   >
+   >* Workfront物件名稱和說明欄位
+   >* 標示為必要的自訂表單欄位
+   >* 附加檔案中的資料
 
 
 ### 使用「內容建議程式」從Experience Manager Assets連結新版本

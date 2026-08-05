@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 3098
+source-wordcount: 3121
 ht-degree: 1%
 
 ---
@@ -48,6 +48,10 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 -->
 
 您可以將記錄型別彼此連線，也可以將記錄型別與其他應用程式的物件型別連線。
+
+>[!IMPORTANT]
+>
+>將Planning記錄型別與其他應用程式的物件型別連線時，您還必須擁有這些應用程式的授權和帳戶。
 
 當有數種工作物件型別影響彼此時，連線記錄型別會很有幫助。 例如，您可以使用行銷活動，而每個行銷活動可能會迎合多個品牌。 若要指出此關係，您可以將行銷活動連結至品牌。 這會為Campaign記錄上的Brands建立連線欄位。
 

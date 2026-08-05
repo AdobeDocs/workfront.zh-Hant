@@ -6,9 +6,9 @@ description: 規劃在Adobe雲端儲存空間上推出Workfront的計畫。 瞭�
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 4821a7db4014b2a73c0466726ba3d239c318d5f0
+source-git-commit: 36a4c29fb3d5e3ff3bb3b4952076cdd4bdf5d1d6
 workflow-type: tm+mt
-source-wordcount: '2702'
+source-wordcount: '2936'
 ht-degree: 0%
 
 ---
@@ -17,15 +17,33 @@ ht-degree: 0%
 
 Adobe雲端儲存空間上的Workfront可啟用完整的統一檢閱和核准體驗：在Frame.io檢視器中檢閱、強大的核准工作流程、資產的跨產品可見度等等。
 
-您現有的物件會繼續以目前的方式運作。 新的檔案區域、Frame.io檢視器和其他Adobe雲端儲存空間行為僅適用於使用Adobe雲端儲存空間的物件。
+新的「檔案」區域、Frame.io檢視器和本文所述的其他Adobe雲端儲存空間行為僅適用於使用Adobe雲端儲存空間的物件。
 
 本文內容適用於Workfront管理員，協助他們準備在Adobe雲端儲存空間上推出Workfront。 內容涵蓋有關Adobe雲端儲存物件的主要差異、如何選擇您的轉出型別，以及在您為使用者啟用Adobe雲端儲存空間之前需要思考的事項。
 
+>[!NOTE]
+>
+>* 您必須使用支援Adobe雲端儲存空間的Workfront版本。 如果貴組織尚未使用支援的版本，請聯絡您的Adobe客戶代表。
+
+## 無論儲存模式為何，均適用統一核准
+
+移到支援Adobe雲端儲存空間的Workfront版本，會將&#x200B;*所有*&#x200B;個現有的核准工作流程從舊版檔案核准移至統一核准 — 不論是在舊版Workfront儲存空間上還是移至Adobe雲端儲存空間，每個物件皆適用。
+
+
 >[!IMPORTANT]
 >
->您必須使用支援Adobe雲端儲存空間的Workfront版本。 如果貴組織尚未使用支援的版本，請聯絡您的Adobe客戶代表。
+>這與[中說明的儲存轉出選擇不同。選擇Adobe雲端儲存轉出的方式](#choose-how-adobe-cloud-storage-rolls-out)：這些選擇控制新物件使用的儲存模式，而非核准工作流程是否移至整合核准。<br>
+>此變更沒有試行群組或逐步選項，只要您使用支援的版本，就會在整個組織內套用。
 
 
+在您推出Adobe雲端儲存空間之前，請確定管理核准的人員知道會發生什麼事：
+
+* **新的核准體驗**&#x200B;稽核者和核准者從舊版檔案核准體驗移至整合式核准，新增多階段核准、平行稽核路徑等。 如需詳細資訊，請參閱下列文章：
+
+  * [開始使用統一檢閱和核准](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
+  * [檔案核准的可用功能](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
+* **新的報告位置**&#x200B;統一核准工作流程資料和報告會移至畫布控制面板。 現有的舊版核准報表不會自動延續。 如需詳細資訊，請參閱[建立報告儀表板以供檢閱和核准](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)。
+* **可能的Fusion案例更新**&#x200B;在舊版檔案核准上建置的現有Fusion案例可能需要編輯、重建或淘汰，才能使用整合核准。 如需詳細資訊，請參閱[更新Workfront Fusion的整合稽核與核准案例](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md)。
 
 ## 瞭解舊版Workfront儲存空間和Adobe雲端儲存空間
 
@@ -230,11 +248,13 @@ Fusion聯結器具有整合檢閱和核准的原生支援，預計於2026年第3
 
 如需逐步指示，請參閱[為您的組織啟用Adobe雲端儲存空間](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
 
+
+### 設定選項
+
 * **僅限Adobe雲端儲存空間**：新專案預設使用Adobe雲端儲存空間。 使用者無法建立舊版專案。
 * **Adobe雲端儲存空間與舊版Workfront儲存空間**：使用者建立專案時，他們會選擇Adobe雲端儲存空間（標示為「新專案」）與舊版Workfront儲存空間（標示為「舊版儲存空間」）。
 
   ![選擇專案型別](assets/choose-project-type.png)
-
 
 
 >[!TIP]

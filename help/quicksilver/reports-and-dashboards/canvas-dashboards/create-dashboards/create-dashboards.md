@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 5cc67b0f991a02759e42ec9b9369ae8359ecc40c
 workflow-type: tm+mt
-source-wordcount: 384
-ht-degree: 7%
+source-wordcount: 542
+ht-degree: 5%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->畫布儀表板功能目前僅適用於參與Beta階段的使用者。在此階段中，部分功能可能無法完成或如預期般運作。請依照「畫布控制面板」測試版概觀文章中[提供意見回饋](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)一節的指示，提交有關您體驗的任何意見回饋。<br>
->如果您對可能的錯誤或技術問題有回饋意見，請向Workfront支援提交票證。如需詳細資訊，請參閱[聯絡客戶支援](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
->請注意，此測試版不適用於下列雲端服務提供者：
+>畫布儀表板功能目前僅適用於參與Beta階段的使用者。 在此階段中，部分功能可能無法完成或如預期般運作。 請依照「畫布控制面板」測試版概觀文章中[提供意見回饋](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)一節的指示，提交有關您體驗的任何意見回饋。<br>
+>如果您對可能的錯誤或技術問題有回饋，請向Workfront支援提交票證。 如需詳細資訊，請參閱[聯絡客戶支援](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
+>請注意，以下雲端服務供應商未提供此測試版：
 >
 >* 自備Amazon Web Services金鑰
 >* Azure
@@ -88,9 +88,7 @@ ht-degree: 7%
 
 1. 按一下右上角的&#x200B;**新儀表板**。
 
-1. 在&#x200B;**建立儀表板**&#x200B;方塊中，
-
-1. 指定下列專案：
+1. 在&#x200B;**建立儀表板**&#x200B;方塊中，指定下列專案：
 
    <table style="table-layout:auto">
     <col>
@@ -106,8 +104,9 @@ ht-degree: 7%
      </tr>
       <tr>
       <td role="rowheader"><strong>貨幣</strong></td>
-      <td>選擇儀表板的預設貨幣型別。 <br>
-      <br>使用者可在篩選儀表板時切換不同的貨幣型別。 如需詳細資訊，請參閱<a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">依貨幣型別</a>篩選儀表板。</td>
+      <td><p>選擇儀表板的預設貨幣型別。</p>
+      <p>篩選控制面板時，您可以在不同的貨幣型別之間切換。 如需詳細資訊，請參閱<a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">依貨幣型別</a>篩選儀表板。</p>
+      <p><strong>注意：</strong>如果您在Workfront執行個體中只定義一種貨幣，當您建立儀表板時，不會看到「貨幣」欄位。</p></td>
      </tr>
     </tbody>
    </table>
@@ -121,7 +120,7 @@ ht-degree: 7%
 您可以在「畫布控制面板」中建立3種型別的報表：
 
 * **KPI**：此報表會將您的關鍵績效指標資料顯示為數字。
-如需詳細資訊，請參閱[建立KPI報告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)。
+如需詳細資訊，請參閱[建置KPI報告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)。
 
 * **圖表**：此報表以長條圖、欄圖、折線圖或圓餅圖顯示您的資料。
 如需詳細資訊，請參閱[建置圖表報告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)。

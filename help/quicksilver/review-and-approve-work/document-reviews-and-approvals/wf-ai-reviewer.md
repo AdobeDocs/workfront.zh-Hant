@@ -20,10 +20,10 @@ subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: d2576b0e5abc0c4c46de740f1ea510452351a959
 workflow-type: tm+mt
-source-wordcount: 775
-ht-degree: 4%
+source-wordcount: 960
+ht-degree: 3%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 4%
 
 * 您的Workfront執行個體必須已啟用統一核准。
 * 您的組織必須有GenStudio Foundation。
-   * Workfront中的內容檢閱者提供GenStudio Foundation中可用的功能，以進行資產檢閱和核准工作流程。 您不需要直接存取GenStudio Foundation即可完成工作。 您透過「內容檢閱者」存取GenStudio Foundation功能時，需遵守Workfront合約的條款。
+  * Workfront中的內容檢閱者提供GenStudio Foundation中可用的功能，以進行資產檢閱和核准工作流程。 您不需要直接存取GenStudio Foundation即可完成工作。 您透過「內容檢閱者」存取GenStudio Foundation功能時，需遵守Workfront合約的條款。
 * Adobe必須有已簽署的Adobe Gen AI合約檔案。
 如需簽署合約的詳細資訊，請參閱[簽署Adobe Gen AI合約](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)。
 * 沙箱環境中沒有內容檢閱者可用。
@@ -83,12 +83,46 @@ Workfront內容檢閱者在檢閱您的內容時，會使用品牌指引。 Work
 設定至少一個品牌後，Workfront管理員即可在設定區域中開始建立內容稽核者。 您可以建立多個內容檢閱者，並聚焦於不同的方針：
 
 * **影像**：此內容檢閱者會根據您在Workfront中設定的影像品牌指導方針檢閱資產。 [!BADGE Beta]{type=Positive tooltip="此功能目前處於Beta測試階段。"}
-   * 系統管理員必須簽署Beta版合約才能啟用此功能。
+  * 系統管理員必須簽署Beta版合約才能啟用此功能。
 * **品牌語調**：內容檢閱者會根據您在Workfront中設定的品牌語調准則，檢閱資產。
 
 接著，內容檢閱者就可以被指派給核准範本和個別的檢閱與核准請求。
 
 如需詳細資訊，請參閱[設定AI共同作業人員](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)。
+
+## 內容檢閱者會評估哪些內容 {#what-content-reviewer-evaluates}
+
+內容檢閱者會根據指引型別以不同方式評估內容：影像或品牌聲音。
+
+### 影像
+
+內容檢閱者會評估：
+
+* **構成**：焦點、背景、裁切、創意框架
+* **燈光與情緒**：使用光線、活力、樂觀主義
+* **多樣性和包容性**：代表人物（種族、性別、年齡、能力）
+
+內容檢閱者不會評估：
+
+* **標誌使用方式**：位置、空間、大小、正確的標誌版本
+* **調色盤**：符合品牌色彩規範，避免未核准的色彩
+* **印刷樣式**：字型系列、粗細、間距、對齊
+* **插圖樣式**：與品牌的插圖方式一致
+* **協助工具**：對比相容性、清晰度
+
+### 品牌語調
+
+內容檢閱者會評估：
+
+* **語調**：對話式、清晰、人性化，符合品牌個性
+* **行話/形式**：避免使用流行語、精英或過度的形式
+* **訊息**：鼓勵、誠實、負責的定位（例如AI主題）
+
+內容檢閱者不會評估：
+
+* **法律/法規遵循**：商標使用方式、免責宣告、本地化規則
+
+如需有關撰寫符合內容檢閱者評估內容的品牌指導方針的指引，請參閱[建立和管理內容檢閱者的品牌](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)。
 
 ## 新增內容稽核者以稽核和核准請求
 

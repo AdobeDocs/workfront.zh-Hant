@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 1340
+source-wordcount: 1364
 ht-degree: 2%
 
 ---
@@ -106,8 +106,16 @@ ht-degree: 2%
 <li><p>具有Planning套件的任何Workfront或工作流程</p></li>
 或
 <li><p>以獨立產品形式購買時的任何Planning套件</p></li></ul>
+   </td>
+
+<tr> 
+   <td role="rowheader"><p>產品</p></td> 
+   <td><p>如果您的組織購買了Workfront Planning作為獨立產品，您也必須購買工作流程套件，以從Planning建立Workfront物件。</p>
    </td> 
-  <tr> 
+  </tr>
+
+
+<tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
    <td><p>Workflow Standard</p>
    </td> 

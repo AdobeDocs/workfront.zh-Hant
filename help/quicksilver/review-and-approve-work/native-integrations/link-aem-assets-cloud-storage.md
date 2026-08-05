@@ -4,9 +4,9 @@ navigation-topic: native-integrations
 title: 將Experience Manager Assets中的內容和資料夾與Adobe雲端儲存空間連結
 description: 如果您的組織使用Adobe雲端儲存空間，您可以從Experience Manager Assets將內容和資料夾連結至支援檔案的任何Adobe Workfront物件。
 author: Courtney
-source-git-commit: 805cc8dfaa17438eb1d454d00d5f7986540379b3
+source-git-commit: 66635b2edc78833ec2d08cef382b39b89238b565
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '945'
 ht-degree: 2%
 
 ---
@@ -125,6 +125,14 @@ ht-degree: 2%
       </tr>
    </tbody>
    </table>
+
+   >[!NOTE]
+   >
+   >「內容建議程式」中的「建議內容」會使用下列資料來判斷Workfront中的建議內容：
+   >
+   >* Workfront物件名稱和說明欄位
+   >* 標示為必要的自訂表單欄位
+   >* 附加檔案中的資料
 
 <!--
 ### Link a new version from Experience Manager Assets

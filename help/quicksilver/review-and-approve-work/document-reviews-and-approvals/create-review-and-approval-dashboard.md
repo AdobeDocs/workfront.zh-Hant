@@ -15,9 +15,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: e07d9346bc39e91b59ce82d56fdc8801e6d5b846
+source-git-commit: 5cc67b0f991a02759e42ec9b9369ae8359ecc40c
 workflow-type: tm+mt
-source-wordcount: 2563
+source-wordcount: 2584
 ht-degree: 0%
 
 ---
@@ -41,6 +41,7 @@ ht-degree: 0%
 1. 按一下&#x200B;**新儀表板**。
 1. 為您的儀表板命名。
 1. （選用）新增說明。
+1. （選擇性）如果您在Workfront例項中定義了多種貨幣，您也可以為儀表板選取預設貨幣。
 1. 按一下「**建立**」。
    ![新增儀表板名稱和說明](assets/create-a-dashboard.png)
 

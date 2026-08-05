@@ -19,9 +19,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 2304
+source-wordcount: 2329
 ht-degree: 1%
 
 ---
@@ -36,11 +36,18 @@ ht-degree: 1%
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 -->
 
+{{planning-important-intro}}
+
 您可以透過連線個別記錄型別來指示它們彼此相關，或與來自其他應用程式的物件相關。
 
 本文概述記錄型別連線，並說明您可以在記錄與物件型別之間建立的連線型別。
 
 如需有關您連線記錄型別的資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
+
+>[!IMPORTANT]
+>
+>將Planning記錄型別與其他應用程式的物件型別連線時，您還必須擁有這些應用程式的授權和帳戶。
+
 
 ## 有關連線記錄型別的考量事項
 
@@ -48,8 +55,8 @@ ht-degree: 1%
 
   您可以透過下列方式將記錄型別和物件型別彼此連線：
 
-   * 手動
-   * 自動
+  * 手動
+  * 自動
 
   >[!NOTE]
   >
@@ -57,133 +64,134 @@ ht-degree: 1%
 
 * 您可以從記錄型別手動新增「新連線」欄位，以在Workfront Planning中連線下列實體：
 
-   * 兩種記錄型別
+  * 兩種記錄型別
 
-     依預設，您可以從相同的工作區連線兩種記錄型別。 如果您的組織購買了較高的Workfront或Planning套件，您也可以設定記錄型別以與其他工作區的記錄型別連線。 如需詳細資訊，請參閱[編輯記錄型別](/help/quicksilver/planning/architecture/edit-record-types.md)。
-   * 這些應用程式的記錄型別和下列物件型別：
+    依預設，您可以從相同的工作區連線兩種記錄型別。 如果您的組織購買了較高的Workfront或Planning套件，您也可以設定記錄型別以與其他工作區的記錄型別連線。 如需詳細資訊，請參閱[編輯記錄型別](/help/quicksilver/planning/architecture/edit-record-types.md)。
+  * 這些應用程式的記錄型別和下列物件型別：
 
-      * Adobe Workfront：
+    * Adobe Workfront：
 
-         * 專案
-         * 專案組合
-         * 計劃
-         * 公司
-         * 群組
-         * 原始請求
+      * 專案
+      * 專案組合
+      * 計劃
+      * 公司
+      * 群組
+      * 原始請求
 
-           「原始請求連線」欄位會顯示為Workfront Planning提交請求表單後，建立記錄的原始請求名稱。 請求的名稱會顯示在Workfront中請求的主旨欄位中。
-
-      * Adobe Experience Manager：
-
-         * 資產
-
-           您可以從Adobe Experience Manager Assets連線下列物件：
-
-            * 影像
-            * 資料夾
-
-         * 內容片段
-
-      * Adobe GenStudio for Performance Marketing
-
-         * 品牌
-
-        >[!IMPORTANT]
-        >
-        >您必須具備下列專案才能與Adobe Experience Manager物件和GenStudio品牌連線：
-        >* Adobe Experience Manager授權
-        >* Adobe GenStudio for Performance Marketing授權。
-
-   * GenStudio工作區及以下實體中的GenStudio for Performance Marketing記錄型別：
-
-      * Workfront Planning記錄型別
-      * Workfront物件
-      * AEM物件（資產或內容片段）
-      * GenStudio for Performance Marketing品牌
-
-        >[!NOTE]
-        >
-        >* 您無法將Adobe GenStudio工作區記錄型別連線至Planning中的其他GenStudio記錄型別。
-        >* 您無法從GenStudio工作區將Planning記錄型別連線至記錄型別。
+        「原始請求連線」欄位會顯示為Workfront Planning提交請求表單後，建立記錄的原始請求名稱。 請求的名稱會顯示在Workfront中請求的主旨欄位中。
 
 
-     手動連線記錄型別與其他記錄或物件型別之後，您可以連線個別記錄和物件。
+    * Adobe Experience Manager：
 
-     如需如何連線記錄和物件型別的詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
+      * 資產
 
-     如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
+        您可以從Adobe Experience Manager Assets連線下列物件：
+
+        * 影像
+        * 資料夾
+
+      * 內容片段
+
+    * Adobe GenStudio for Performance Marketing
+
+      * 品牌
+
+      >[!IMPORTANT]
+      >
+      >您必須具備下列專案才能與Adobe Experience Manager物件和GenStudio品牌連線：
+      >* Adobe Experience Manager授權
+      >* Adobe GenStudio for Performance Marketing授權。
+
+  * GenStudio工作區及以下實體中的GenStudio for Performance Marketing記錄型別：
+
+    * Workfront Planning記錄型別
+    * Workfront物件
+    * AEM物件（資產或內容片段）
+    * GenStudio for Performance Marketing品牌
+
+      >[!NOTE]
+      >
+      >* 您無法將Adobe GenStudio工作區記錄型別連線至Planning中的其他GenStudio記錄型別。
+      >* 您無法從GenStudio工作區將Planning記錄型別連線至記錄型別。
+
+
+    手動連線記錄型別與其他記錄或物件型別之後，您可以連線個別記錄和物件。
+
+    如需如何連線記錄和物件型別的詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
+
+    如需詳細資訊，請參閱[連線記錄](/help/quicksilver/planning/records/connect-records.md)。
 
 * 在下列情況下，實體之間的連線會自動建立：
 
-   * 當您使用自動化從記錄型別的頁面建立記錄時。
+  * 當您使用自動化從記錄型別的頁面建立記錄時。
 
-     當自動化建立連線的記錄或物件時，記錄型別或記錄型別與來自另一個應用程式的物件型別之間的連線會自動建立。
+    當自動化建立連線的記錄或物件時，記錄型別或記錄型別與來自另一個應用程式的物件型別之間的連線會自動建立。
 
-     如需詳細資訊，請參閱[設定Adobe Workfront規劃自動化](/help/quicksilver/planning/records/configure-automations-to-create-records.md)。
+    如需詳細資訊，請參閱[設定Adobe Workfront規劃自動化](/help/quicksilver/planning/records/configure-automations-to-create-records.md)。
 
-   * 當您為記錄型別設定請求表單以建立記錄或物件時。
+  * 當您為記錄型別設定請求表單以建立記錄或物件時。
 
-     當您提交並核准建立記錄的Planning請求時，系統會自動建立記錄型別與請求物件型別之間的連線。
+    當您提交並核准建立記錄的Planning請求時，系統會自動建立記錄型別與請求物件型別之間的連線。
 
-     如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
+    如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
 
-     您可以在Workfront的「請求」區域或Workfront Planning的「原始請求連線」欄位中，於&#x200B;**主旨**&#x200B;欄位中檢視原始請求。
+    您可以在Workfront的「請求」區域或Workfront Planning的「原始請求連線」欄位中，於&#x200B;**主旨**&#x200B;欄位中檢視原始請求。
 
 
 * 當連線兩個記錄型別或一個記錄型別以及另一個應用程式的物件型別時，會出現下列情況：
 
-   * **當您連線兩個Planning記錄型別時**：連結的記錄欄位會在您連線的記錄型別上建立。 類似的連結記錄欄位會在您連線的記錄型別上建立，但前提是在您啟用[新增連線]索引標籤上的[在連結的記錄型別上建立對應欄位]設定時。
+  * **當您連線兩個Planning記錄型別時**：連結的記錄欄位會在您連線的記錄型別上建立。 類似的連結記錄欄位會在您連線的記錄型別上建立，但前提是在您啟用[新增連線]索引標籤上的[在連結的記錄型別上建立對應欄位]設定時。
 
-     例如，如果您將「Campaign」記錄型別與「Product」記錄型別連結，您命名為「Linked Product」的連結記錄欄位（連線欄位）會在Campaign記錄型別上建立。 系統會在產品記錄型別上建立自動命名為「Campaign」的連結記錄型別。
+    例如，如果您將「Campaign」記錄型別與「Product」記錄型別連結，您命名為「Linked Product」的連結記錄欄位（連線欄位）會在Campaign記錄型別上建立。 系統會在產品記錄型別上建立自動命名為「Campaign」的連結記錄型別。
 
-     例如，存在以下情況：
+    例如，存在以下情況：
 
-      * 當您啟用「在連結的記錄型別上建立對應的欄位」設定，並且將「行銷活動」記錄型別與「產品」記錄型別連結時，您命名為「連結的產品」的連結記錄欄位（連線欄位）將會在「行銷活動」記錄型別上建立。 系統會在產品記錄型別上建立自動命名為「Campaign」的連結記錄型別。
-      * 當您停用在連結記錄型別上建立對應欄位設定，並連線「行銷活動」記錄型別與「產品」記錄型別時，您命名為「連結產品」的連結記錄欄位（連線欄位）會在「行銷活動」記錄型別上建立。 產品記錄型別上不會建立自動命名為「Campaign」的連結記錄型別。
+    * 當您啟用「在連結的記錄型別上建立對應的欄位」設定，並且將「行銷活動」記錄型別與「產品」記錄型別連結時，您命名為「連結的產品」的連結記錄欄位（連線欄位）將會在「行銷活動」記錄型別上建立。 系統會在產品記錄型別上建立自動命名為「Campaign」的連結記錄型別。
+    * 當您停用在連結記錄型別上建立對應欄位設定，並連線「行銷活動」記錄型別與「產品」記錄型別時，您命名為「連結產品」的連結記錄欄位（連線欄位）會在「行銷活動」記錄型別上建立。 產品記錄型別上不會建立自動命名為「Campaign」的連結記錄型別。
 
-     如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
+    如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
-   * **當您從另一個應用程式連線具有物件型別的記錄型別時**：
+  * **當您從另一個應用程式連線具有物件型別的記錄型別時**：
 
-      * 連結的記錄欄位會在您連線的記錄型別上建立。 不會在其他應用程式的物件型別上自動建立任何連結的記錄欄位。
-      * 無法從Workfront物件存取規劃記錄欄位。
-      * Planning記錄會顯示於Workfront物件的Planning區段。 如需詳細資訊，請參閱[管理來自Workfront物件的記錄連線](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
-      * 您可以建立Planning連線自訂欄位，並將其附加至Workfront物件的自訂表單。 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
-      * 當您的Experience Manager管理員透過Workfront與Adobe Experience Manager Assets之間的整合設定中繼資料對應時，可從Workfront資產存取規劃記錄欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。<!--not sure if this is also possible for content fragments-->
-      * 無法從GenStudio for Performance Marketing中的「品牌」存取計畫記錄欄位。
+    * 連結的記錄欄位會在您連線的記錄型別上建立。 不會在其他應用程式的物件型別上自動建立任何連結的記錄欄位。
+    * 無法從Workfront物件存取規劃記錄欄位。
+    * Planning記錄會顯示於Workfront物件的Planning區段。 如需詳細資訊，請參閱[管理來自Workfront物件的記錄連線](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
+    * 您可以建立Planning連線自訂欄位，並將其附加至Workfront物件的自訂表單。 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+    * 當您的Experience Manager管理員透過Workfront與Adobe Experience Manager Assets之間的整合設定中繼資料對應時，可從Workfront資產存取規劃記錄欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。<!--not sure if this is also possible for content fragments-->
+    * 無法從GenStudio for Performance Marketing中的「品牌」存取計畫記錄欄位。
 
-   * **當您從您連線的記錄或物件加入查閱欄位時**：除了建立連結的記錄欄位之外，您還可以從連線的記錄或物件型別連線到稱為查閱欄位的欄位。 連結（或查詢欄位）的資訊，來自於您所連線的記錄，顯示在您所連線的記錄上。
+  * **當您從您連線的記錄或物件加入查閱欄位時**：除了建立連結的記錄欄位之外，您還可以從連線的記錄或物件型別連線到稱為查閱欄位的欄位。 連結（或查詢欄位）的資訊，來自於您所連線的記錄，顯示在您所連線的記錄上。
 
-     新增查閱欄位時，請考慮下列事項：
+    新增查閱欄位時，請考慮下列事項：
 
-      * 您可以將其他記錄型別或其他應用程式物件的欄位連線到Workfront Planning記錄型別。
+    * 您可以將其他記錄型別或其他應用程式物件的欄位連線到Workfront Planning記錄型別。
 
-      * 查閱欄位是唯讀的，會自動顯示連線記錄的資訊。
+    * 查閱欄位是唯讀的，會自動顯示連線記錄的資訊。
 
-      * 並非所有欄位都支援從Workfront Planning連結。 例如，AEM內容片段僅支援下列欄位： <!--this information is also in "Connect record types"-->
+    * 並非所有欄位都支援從Workfront Planning連結。 例如，AEM內容片段僅支援下列欄位： <!--this information is also in "Connect record types"-->
 
-         * 建立者及建立時間
-         * 修改者與修改者：
+      * 建立者及建立時間
+      * 修改者與修改者：
 
-      * 您可以在公式、篩選器或群組中參照其他記錄或物件型別的查閱欄位。
+    * 您可以在公式、篩選器或群組中參照其他記錄或物件型別的查閱欄位。
 
-        例如，如果您將「行銷活動」記錄型別與Workfront專案連線，並選擇將專案的「計畫完成日期」欄位帶入Workfront計畫記錄，則系統會自動為行銷活動建立名為「計畫完成日期」（來自「專案」）的連結欄位。 您無法手動編輯此連結的欄位。 「計畫完成日期（來自專案）」欄位會顯示連結專案的「計畫完成日期」，如Workfront中所建立。
+      例如，如果您將「行銷活動」記錄型別與Workfront專案連線，並選擇將專案的「計畫完成日期」欄位帶入Workfront計畫記錄，則系統會自動為行銷活動建立名為「計畫完成日期」（來自「專案」）的連結欄位。 您無法手動編輯此連結的欄位。 「計畫完成日期（來自專案）」欄位會顯示連結專案的「計畫完成日期」，如Workfront中所建立。
 
-     >[!IMPORTANT]
-     >
-     >擁有工作區檢視或較高許可權的每個人皆可檢視查閱欄位中的資訊，無論其在連結物件型別應用程式中的許可權或存取層級，或其在其他工作區的許可權為何。
+    >[!IMPORTANT]
+    >
+    >擁有工作區檢視或較高許可權的每個人皆可檢視查閱欄位中的資訊，無論其在連結物件型別應用程式中的許可權或存取層級，或其在其他工作區的許可權為何。
 
-      * 連線的記錄欄位前面有關聯圖示![關聯欄點陣圖示](assets/relationship-field-icon.png)。
+    * 連線的記錄欄位前面有關聯圖示![關聯欄點陣圖示](assets/relationship-field-icon.png)。
 
-      * 連線的查閱欄位前面會有一個圖示，用來識別欄位型別。 查閱欄位前面有圖示，表示欄位是數字、段落或日期。
+    * 連線的查閱欄位前面會有一個圖示，用來識別欄位型別。 查閱欄位前面有圖示，表示欄位是數字、段落或日期。
 
-        >[!TIP]
-        >
-        >Workfront物件的日期欄位資訊在Workfront Planning中會以24小時格式顯示，無論其在Workfront中的顯示方式為何。
-        >
-        >例如，如果專案的計劃開始日期在Workfront中顯示為3:00下午，則在匯入的查詢欄位中，它將在Workfront Planning中顯示為15:00。
+      >[!TIP]
+      >
+      >Workfront物件的日期欄位資訊在Workfront Planning中會以24小時格式顯示，無論其在Workfront中的顯示方式為何。
+      >
+      >例如，如果專案的計劃開始日期在Workfront中顯示為3:00 PM，則在匯入的查詢欄位中，它將在Workfront Planning中顯示為15:00。
 
-   * 您必須連線記錄型別，才能在Workfront Planning中建立階層。 當記錄型別連線不存在時，會在您建立階層時自動建立連線。 如需詳細資訊，請參閱[建立工作區階層](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)。
+  * 您必須連線記錄型別，才能在Workfront Planning中建立階層。 當記錄型別連線不存在時，會在您建立階層時自動建立連線。 如需詳細資訊，請參閱[建立工作區階層](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)。
 
 
 ## 連線型別
@@ -206,15 +214,15 @@ ht-degree: 1%
 
 * 當連結記錄型別&#x200B;**的**&#x200B;建立對應欄位設定停用時，您可以選擇下列選項：
 
-   * [多選](#multi-select-connection-type)
-   * [單選](#single-select-connection-type)
+  * [多選](#multi-select-connection-type)
+  * [單選](#single-select-connection-type)
 
 * 啟用&#x200B;**在連結的記錄型別**&#x200B;上建立對應欄位設定時，您可以選擇下列選項：
 
-   * [多對多](#many-to-many-connection-type)
-   * [一對多](#one-to-many-connection-type)
-   * [多對一](#many-to-one-connection-type)
-   * [一對一](#many-to-one-connection-type)
+  * [多對多](#many-to-many-connection-type)
+  * [一對多](#one-to-many-connection-type)
+  * [多對一](#many-to-one-connection-type)
+  * [一對一](#many-to-one-connection-type)
 
 ### 多選連線型別
 

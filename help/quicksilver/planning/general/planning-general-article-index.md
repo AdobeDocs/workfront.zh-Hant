@@ -14,9 +14,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
+source-git-commit: b5b73103671c4a478d7e3a5f4eeb9672bac62de4
 workflow-type: tm+mt
-source-wordcount: 187
+source-wordcount: 191
 ht-degree: 23%
 
 ---
@@ -30,6 +30,7 @@ ht-degree: 23%
 檢閱下列文章：
 
 * [開始使用Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
+* [Workfront規劃主題概觀](/help/quicksilver/planning/general/planning-terminology.md)
 * [Adobe Workfront Planning AI Assistant概觀](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)
 * [Adobe Workfront Planning API基本需知](/help/quicksilver/planning/general/planning-api-basics.md)
 * [Adobe Workfront Planning物件限制總覽](/help/quicksilver/planning/general/limitations-overview.md)
