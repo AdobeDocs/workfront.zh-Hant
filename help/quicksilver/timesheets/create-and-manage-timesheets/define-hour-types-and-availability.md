@@ -7,11 +7,17 @@ author: Lisa
 feature: Timesheets
 exl-id: 3c07a6b0-4751-4fce-ac28-6a83084025d4
 TQID: https://experienceleague.adobe.com/EAwrDZagapXvWyUQ2PS4Bcmxi42n8W-mARDXDix0ZlY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 67bbd465c6bc489602a63ab6d24421d614c704c7
 workflow-type: tm+mt
 source-wordcount: 1506
@@ -123,13 +129,13 @@ Adobe Workfront中有2組小時型別：
    >只有系統管理員可以編輯其他使用者。
    >如果您有Standard或Plan授權，則可以在您自己的設定檔上編輯小時型別。 按一下Adobe Workfront頂端導覽區域中的個人資料圖片，然後按一下&#x200B;**Workfront個人資料**。 按一下您名稱旁邊的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**編輯**。
 
-1. 在「編輯使用者」方塊的「資源規劃」****&#x200B;區段的「可用時數型別」**的「可用時數型別」**&#x200B;下拉式功能表中，根據您要在專案、任務或問題上記錄時間時提供的時數型別，執行下列其中一項作業：
+1. 在「編輯使用者」方塊的「資源規劃」**&#x200B;**&#x200B;區段的「可用時數型別」**的「可用時數型別」**&#x200B;下拉式功能表中，根據您要在專案、任務或問題上記錄時間時提供的時數型別，執行下列其中一項作業：
 
    * **若要讓所有小時型別都可供使用者使用：**&#x200B;請選取所有小時型別。\
      如果您未選取所有小時型別，技術上就與選取所有小時型別相同。 不過，在此情況下，所有時數型別僅供使用者在編輯專案時於&#x200B;**篩選時數型別**&#x200B;選項中選取&#x200B;**否**&#x200B;的專案、任務和問題中使用，如[定義專案層級的可用性](#define-availability-at-the-project-level)中所述。
 
-   * **若要讓使用者僅能使用小時型別的子集：**請只選取您想讓使用者可用的小時型別。
-     為了在使用者層級選取的時數型別可用於專案、任務和問題，在編輯專案時，也必須在**篩選時數型別**&#x200B;選項中選取這些相同的時數型別，如[定義專案層級的可用性](#define-availability-at-the-project-level)中所述。
+   * **若要讓使用者僅能使用小時型別的子集：**&#x200B;請只選取您想讓使用者可用的小時型別。
+     為了在使用者層級選取的時數型別可用於專案、任務和問題，在編輯專案時，也必須在&#x200B;**篩選時數型別**&#x200B;選項中選取這些相同的時數型別，如[定義專案層級的可用性](#define-availability-at-the-project-level)中所述。
 
 1. （選用）在&#x200B;**預設時數型別**&#x200B;下拉式功能表中，選取一小時型別。 當使用者預設時數型別與專案已篩選時數型別相符時，該時數型別在記錄時間時預設為選取。
 
