@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
+source-git-commit: c9558f7de0e2f625c8426187436f2ea5cdeabb92
 workflow-type: tm+mt
-source-wordcount: 746
+source-wordcount: 745
 ht-degree: 2%
 
 ---
@@ -166,7 +166,7 @@ If your organization uses Adobe cloud storage, you will see the new Documents ar
 
 1. 按一下&#x200B;**編輯工作流程**。 「請求核准」對話方塊會以上次儲存核准的模式開啟：「基本」用於單階段核准，或「進階」用於具有平行路徑的多階段核准和核准。
 
-1. 新增使用者、團隊或電子郵件：
+1. 新增使用者或電子郵件：
 
    * 在[基本]模式中，在&#x200B;**新增名稱或電子郵件**&#x200B;欄位中輸入名稱或電子郵件。
    * 在[進階]模式中，選取包含您要更新的階段的路徑，然後在階段的&#x200B;**新增名稱或電子郵件**&#x200B;欄位中輸入名稱或電子郵件。

@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
+source-git-commit: c9558f7de0e2f625c8426187436f2ea5cdeabb92
 workflow-type: tm+mt
-source-wordcount: 2231
+source-wordcount: 2227
 ht-degree: 1%
 
 ---
@@ -71,53 +71,6 @@ ht-degree: 1%
 
 +++
 
-<!--
-
-## Create an approval workflow in the legacy documents area in Production
-
-If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
-
-To create an approval workflow:
-
-1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
-
-1. Click on the document you need and the Document Summary panel for that document opens.
-
-1. Select the version of the document you would like to create an approval for in the version dropdown. The latest version is selected by default.
-
-1. Scroll down to the **Approvals** section, then click **Create workflow**.
-
-
-1. Fill in the following details:
-
-   <table>
-   <tr>
-   <td><strong>Stage name</strong></td>
-   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
-   </tr>
-   <tr>
-   <td><strong>Add names or emails</strong></td>
-   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
-   </tr>
-   <tr>
-   <td><strong>One decision required (optional)</strong></td>
-   <td>The first person who makes a decision completes the stage.</td>
-   </tr>
-   <tr>
-   <td><strong>Due date (optional)</strong></td>
-   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
-   </tr>
-   </table>
-
-1. (Optional) Repeat the previous step to add additional stages as needed.
-
-   >[!NOTE]
-   >
-   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
-
-   ![Document details](assets/new-stage.png)
-
--->
 
 ## 在舊版檔案區域中建立核准工作流程
 
@@ -226,51 +179,6 @@ To create an approval workflow:
 1. 按一下&#x200B;**要求核准**。
 
 
-<!--
-
-## Create an approval workflow in the new Documents area in Production
-
-If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
-
-To create an approval workflow:
-
-1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
-
-1. Click on the document, then click the **Approvals** icon on the right side of the page.
-
-   ![Add approvers in document summary](assets/approvals-icon-new.png)
-
-1. Click **Create workflow**, then fill in the following details:
-
-   <table>
-   <tr>
-   <td><strong>Stage name</strong></td>
-   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
-   </tr>
-   <tr>
-   <td><strong>Add names or emails</strong></td>
-   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
-   </tr>
-   <tr>
-   <td><strong>One decision required (optional)</strong></td>
-   <td>The first person who makes a decision completes the stage.</td>
-   </tr>
-   <tr>
-   <td><strong>Due date (optional)</strong></td>
-   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
-   </tr>
-   </table>
-
-1. (Optional) Repeat the previous step to add additional stages as needed.
-
-   >[!NOTE]
-   >
-   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
-
-   ![Document details](assets/new-stage.png)
-   
--->
-
 ## 在新檔案區域中建立核准工作流程
 
 如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的檔案區域。 如需Adobe雲端儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
@@ -298,7 +206,7 @@ To create an approval workflow:
    </tr>
    <tr>
    <td><strong>新增姓名或電子郵件</strong></td>
-   <td>開始輸入使用者或團隊名稱，以新增為核准者或稽核者。 如果您只有稽核者，他們將會收到通知並可以選擇完成稽核，但不需要或做出任何決定。</td>
+   <td>開始輸入使用者名稱或電子郵件，以新增為核准者或稽核者。 如果您只有稽核者，他們將會收到通知並可以選擇完成稽核，但不需要或做出任何決定。</td>
    </tr>
    <tr>
    <td><strong>只需要一個決定（選擇性）</strong></td>
@@ -306,7 +214,7 @@ To create an approval workflow:
    </tr>
    <tr>
    <td><strong>到期日（選擇性）</strong></td>
-   <td>設定核准的到期日。 使用者與團隊會收到電子郵件通知，通知時間為指定到期日前72小時或24小時。</td>
+   <td>設定核准的到期日。 在指定到期日前72小時及24小時，會以電子郵件通知使用者。</td>
    </tr>
    <tr>
    <td><strong>新增自訂訊息（選擇性）</strong></td>
@@ -355,7 +263,7 @@ To create an approval workflow:
    </tr>
    <tr>
    <td><strong>新增姓名或電子郵件</strong></td>
-   <td>開始輸入使用者或團隊名稱，以新增為核准者或稽核者。 如果您只有稽核者，他們將會收到通知並可以選擇完成稽核，但不需要或做出任何決定。<p>附註：一次只能將檢閱者或核准者指派給相同資產上的一個開啟階段。 如果同時開啟多個平行階段，則無法將同一個使用者新增至多個階段。</p></td>
+   <td>開始輸入使用者名稱或電子郵件，以新增為核准者或稽核者。 如果您只有稽核者，他們將會收到通知並可以選擇完成稽核，但不需要或做出任何決定。<p>附註：一次只能將檢閱者或核准者指派給相同資產上的一個開啟階段。 如果同時開啟多個平行階段，則無法將同一個使用者新增至多個階段。</p></td>
    </tr>
    <tr>
    <td><strong>只需要一個決定（選擇性）</strong></td>
@@ -363,7 +271,7 @@ To create an approval workflow:
    </tr>
    <tr>
    <td><strong>到期日（選擇性）</strong></td>
-   <td>每個路徑的第一階段支援絕對到期日期。 路徑中的每個後續階段都支援相對到期日 — 從該階段開啟的天數。 使用者及團隊會透過電子郵件在到期日前72小時及24小時收到通知。</td>
+   <td>每個路徑的第一階段支援絕對到期日期。 路徑中的每個後續階段都支援相對到期日 — 從該階段開啟的天數。 到期日前72小時及24小時以電子郵件通知使用者。</td>
    </tr>
    <tr>
    <td><strong>新增自訂訊息（選擇性）</strong></td>

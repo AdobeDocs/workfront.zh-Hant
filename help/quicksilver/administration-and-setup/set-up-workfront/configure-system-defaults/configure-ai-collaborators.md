@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: d875b7e182b5b1782b4fae9d9b609e357bf876a3
+source-git-commit: 2070a27e18d768dd14ce4f5c681ab08669c81766
 workflow-type: tm+mt
 source-wordcount: '1438'
 ht-degree: 1%
@@ -46,7 +46,7 @@ AI共同作業人員是將AI代理程式加入您的專案和任務的方法。 
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] 封裝</td> 
-   <td><p>Standard、Prime或Ultimate</p></td> 
+   <td><p>選取、Prime或Ultimate</p></td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 

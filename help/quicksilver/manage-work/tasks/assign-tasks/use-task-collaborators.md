@@ -4,7 +4,7 @@ content-type: reference
 description: 瞭解如何使用可指派給Workfront任務的任務共同作業人員、AI共同作業人員。
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: f1bdb685cb7974c5c445377e0baa4f4b4e7dfa13
+source-git-commit: 2070a27e18d768dd14ce4f5c681ab08669c81766
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 3%
@@ -31,7 +31,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] 封裝</td> 
-   <td><p>Standard、Prime或Ultimate</p></td> 
+   <td><p>選取、Prime或Ultimate</p></td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
