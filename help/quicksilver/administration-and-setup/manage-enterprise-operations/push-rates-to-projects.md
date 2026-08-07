@@ -8,18 +8,22 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c38e60dd-7fb2-4afc-976a-b0966398c162
-source-git-commit: d645aeb9d2d49432b49b6f2e2c4748f50075c42b
+source-git-commit: 22e8acb748ddc4768dc1724aaa2f515b863ab0cf
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 5%
+source-wordcount: '346'
+ht-degree: 4%
 
 ---
 
 # 專案的推送率變更
 
-將費率卡附加至專案<!--or a staffing plan-->時，費率卡上的費率仍可調整。 然後，您可以選擇將這些費率推送至費率卡附加至的專案。 如果您不推送新費率，則原始費率會保留在專案上。
+將費率卡附加至專案<!--or a staffing plan-->時，仍可調整費率卡上的費率。 然後，您可以選擇將這些費率推送至費率卡附加至的專案。 如果您不推送新費率，則原始費率會保留在專案上。
 <!-- and staffing plans -->
 <!-- or staffing plan -->
+
+>[!NOTE]
+>
+>如果在專案層次手動覆寫職務角色或使用者收費率，則當費率卡變更推送至專案時，該費率會保留在專案上。 僅更新與費率卡繫結的費率。
 
 如需有關將費率卡附加至專案的資訊，請參閱[將費率卡附加至專案](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)。
 

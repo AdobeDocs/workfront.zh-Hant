@@ -7,9 +7,9 @@ description: 本頁包含有關Workfront Data Connect中資料結構和內容的
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 0666f0bee54821051a95354c38e775c02e935fa1
+source-git-commit: db297bb06ed50e668777bf5fb8e0f444b146a77a
 workflow-type: tm+mt
-source-wordcount: '11533'
+source-wordcount: '11542'
 ht-degree: 8%
 
 ---
@@ -48,8 +48,8 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
 
 >[!IMPORTANT]
 >
->圖表以單一物件為中心，不代表整個Workfront應用程式的完整實體關係圖表。<br>
->這些圖表旨在提供關聯性如何用來將資料聯結至相鄰物件的範例。
+>圖表以單一物件為中心，不代表整個Workfront應用程式的完整實體關係圖表。 <br>
+>這些圖表旨在提供如何使用關係將資料聯結到相鄰物件的範例。
 
 ### 實體關係圖範例
 
@@ -109,8 +109,8 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
 
 >[!NOTE]
 >
->新欄位可新增至物件檢視，恕不另行通知，以支援Workfront應用程式不斷變化的資料需求。當下游資料收件者未準備好在新增資料行時處理其他資料行時，請謹慎使用「SELECT」查詢。<br>
->如果需要重新命名或移除欄，我們會提前通知這些變更。
+>新欄位可新增至物件檢視，恕不另行通知，以支援Workfront應用程式不斷變化的資料需求。 如果下游資料收件者未準備好在新增資料行時處理其他資料行，我們建議您不要使用「SELECT」查詢。<br>
+>如果需要重新命名或移除欄，我們會提供這些變更的預先通知。
 
 ### 存取層級
 
@@ -6651,8 +6651,8 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
 
 >[!NOTE]
 >
->Team物件表格中儲存了3種專案團隊型別： PROJECT、TEMPLATE和ADHOC。<br>
->在Data Connect資料湖檢視中，這些群組型別都會同時呈現。若要隔離您想要傳回的特定團隊型別，您需要在`teamtype`欄上篩選。例如，如果您只想讓傳統團隊成為您組織結構的一部分，並在應用程式的Teams區域中設定，則您的查詢可能會如下所示：<code>select * from teams_current where teamtype = &#39;ADHOC&#39;；</code>
+>Team物件表格中儲存了3種專案團隊型別：「專案」、「範本」和「臨機」。 <br>
+>這些群組型別都會一起顯示在Data Connect資料湖檢視中。 若要隔離您想要傳回的特定團隊型別，您需要在`teamtype`欄上篩選。 例如，如果您只想讓傳統團隊成為您組織結構的一部分，並在應用程式的Teams區域中設定，則您的查詢可能會如下所示： <code>select * from teams_current where teamtype = &#39;ADHOC&#39;；</code>
 
 ### 小組成員
 
@@ -9005,7 +9005,7 @@ Planning資料可在下列檢視中使用：
     <tr>
         <td>LINKEDFIELD</td>
         <td>變體</td>
-        <td>包含此欄位連結之來源欄位之完整欄位定義的JSON物件。適用於「reference」和「lookup」欄位型別；包含「alias」、「displayName」、「fieldType」和「createdAt」等屬性。非連結為Null
+        <td>包含此欄位連結之來源欄位之完整欄位定義的JSON物件。 適用於「reference」和「lookup」欄位型別；包含「alias」、「displayName」、「fieldType」和「createdAt」等屬性。 非連結為Null
 </table>
 
 ### PLANNINGRECORD\_CURRENT
@@ -9180,12 +9180,6 @@ Planning資料可在下列檢視中使用：
         <td>說明</td>
         <td>相關表格</td>
         <td>相關欄位</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>別名</td>
@@ -9193,12 +9187,6 @@ Planning資料可在下列檢視中使用：
         <td>記錄型別的內部別名，用於系統層級識別和API存取。 對於尚未指派別名的記錄型別，可以空白。</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>顏色</td>
@@ -9206,12 +9194,6 @@ Planning資料可在下列檢視中使用：
         <td>在Planning介面中與此記錄型別相關聯的已命名顏色標籤（例如，「藍色」、「綠色」、「紫色」、「洋紅色」、「chartreuse」、「深灰色」）。 不是十六進位程式碼。</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>已建立</td>
@@ -9219,25 +9201,6 @@ Planning資料可在下列檢視中使用：
         <td>表示影響此記錄型別的最後一個作業型別的旗標。 值1表示在最近的資料重新整理週期中建立的記錄型別；0表示它不是。 如需實際的建立時間戳記，請參閱CREATEDAT 。</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>已建立</td>
-        <td>數字</td>
-        <td>表示影響此參考記錄的最後一個作業型別的旗標。 值1表示參照是在最近的資料重新整理週期中建立的；0表示不是。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>CREATEDAT</td>
@@ -9245,25 +9208,6 @@ Planning資料可在下列檢視中使用：
         <td>建立此記錄型別時的時間戳記（無時區）。</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>CREATEDAT</td>
-        <td>時間戳記\_NTZ</td>
-        <td>建立此記錄型別時的時間戳記（無時區）。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>建立者：</td>
@@ -9271,25 +9215,6 @@ Planning資料可在下列檢視中使用：
         <td>建立此記錄型別之使用者的識別碼。</td>
         <td>WF.USERS\_CURRENT</td>
         <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>建立者：</td>
-        <td>Varchar</td>
-        <td>建立此記錄型別之使用者的識別碼。</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>已刪除</td>
@@ -9297,25 +9222,6 @@ Planning資料可在下列檢視中使用：
         <td>表示此記錄型別是否已軟性刪除的旗標。 值1表示已刪除；0表示使用中。</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>已刪除</td>
-        <td>數字</td>
-        <td>表示此參考連線是否已軟性刪除的旗標。 值1表示參照已刪除；0表示參照處於活動狀態。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>說明</td>
@@ -9323,12 +9229,6 @@ Planning資料可在下列檢視中使用：
         <td>使用者提供的記錄型別用途說明。</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>DISPLAYNAME</td>
@@ -9336,12 +9236,6 @@ Planning資料可在下列檢視中使用：
         <td>顯示在Planning介面中的記錄型別的顯示名稱（例如「促銷活動」、「方案」）。</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>DL_LOAD_TIMESTAMP</td>
@@ -9349,25 +9243,6 @@ Planning資料可在下列檢視中使用：
         <td>上次將此記錄型別載入資料湖的資料重新整理工作的時間戳記。 在每個成功的資料重新整理週期後更新。</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>DL_LOAD_TIMESTAMP</td>
-        <td>時間戳記\_NTZ</td>
-        <td>上次將此參考記錄載入資料湖的資料重新整理工作的時間戳記。 在每個成功的資料重新整理週期後更新。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>EXTERNALOPTIONS</td>
@@ -9375,12 +9250,6 @@ Planning資料可在下列檢視中使用：
         <td>JSON物件，包含連線至外部系統的記錄型別的設定詳細資料。 包含「connectionName」（例如「workfront」）、「objectName」（Workfront API物件程式碼，例如「PROJ」）和「欄位」（標準欄位別名與同步欄位的Planning欄位ID的對應）。 原生建立的記錄型別為空。</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>ID</td>
@@ -9388,12 +9257,6 @@ Planning資料可在下列檢視中使用：
         <td>紀錄型別的唯一識別碼。 此檢視的主索引鍵。</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>ISEXTERNAL</td>
@@ -9401,12 +9264,6 @@ Planning資料可在下列檢視中使用：
         <td>表示此記錄型別是否代表外部連線的物件型別，而非原生Planning記錄的旗標。</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>ISFUSION</td>
@@ -9414,12 +9271,6 @@ Planning資料可在下列檢視中使用：
         <td>表示此記錄型別是透過Workfront Fusion整合建立或管理的旗標。 值'true'表示Fusion管理；'false'或空值表示它是原生建立的記錄型別。</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>ISTAXONOMY</td>
@@ -9427,25 +9278,6 @@ Planning資料可在下列檢視中使用：
         <td>表示此記錄型別是否分類為分類型別，用來組織和分類其他記錄。 若值為「true」，表示分類型別。 非分類記錄型別可以空白。</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>ISTAXONOMY</td>
-        <td>Varchar</td>
-        <td>表示此記錄型別是否分類為分類型別，用來組織和分類其他記錄。 若值為「true」，表示分類型別。 非分類記錄型別可以空白。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>許可權</td>
@@ -9453,25 +9285,6 @@ Planning資料可在下列檢視中使用：
         <td>針對存取此記錄型別設定的許可權層級（例如「檢視」、「貢獻」、「管理」）。 若未設定自訂許可權，則可為空白。</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>許可權</td>
-        <td>Varchar</td>
-        <td>針對存取此記錄型別設定的許可權層級（例如「檢視」、「貢獻」、「管理」）。 若未設定自訂許可權，則可為空白。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td>PRIMARYFIELDID</td>
-        <td>Varchar</td>
-        <td>指定為此記錄型別之主要（標題）欄位的識別碼。 FIELD\_CURRENT.ID的外部索引鍵。</td>
-        <td>FIELD\_CURRENT</td>
-        <td>ID</td>
     </tr>
     <tr>
         <td>PRIMARYFIELDID</td>
@@ -9479,38 +9292,6 @@ Planning資料可在下列檢視中使用：
         <td>指定為此記錄型別之主要（標題）欄位的識別碼。 FIELD\_CURRENT.ID的外部索引鍵。</td>
         <td>FIELD\_CURRENT</td>
         <td>ID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>RECORDTYPEID</td>
-        <td>Varchar</td>
-        <td>與擁有此參考之記錄相關聯之Planning記錄型別的唯一識別碼。 PLANNINGRECORD\_CURRENT.RECORDTYPEID的外部索引鍵。</td>
-        <td>RECORDTYPE\_CURRENT</td>
-        <td>ID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>REFERENCEVALUE</td>
-        <td>Varchar</td>
-        <td>截至上次資料重新整理的參考外部物件的顯示名稱（例如Workfront專案名稱，如「Beta」或「畫布儀表板專案」）。 此值會在重新整理時反映物件的名稱，如果重新命名物件，則可能會變成過時。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>已還原</td>
@@ -9518,64 +9299,6 @@ Planning資料可在下列檢視中使用：
         <td>表示此記錄型別在軟刪除後是否還原的旗標。</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>TO_EXTERNALCONNECTIONNAME</td>
-        <td>Varchar</td>
-        <td>參考物件所連線的外部連線名稱（例如在Planning中設定的Workfront連線名稱）。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>TO_EXTERNALID</td>
-        <td>Varchar</td>
-        <td>被參考外部物件的唯一識別碼（例如，Workfront專案ID、任務ID或其他連線物件ID）。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>TO_EXTERNALOBJECTNAME</td>
-        <td>Varchar</td>
-        <td>所參考外部物件型別的Workfront API物件程式碼（例如，專案為「PROJ」、任務為「TASK」、Portfolio為「PORT」）。 使用這個專案來決定在查詢參考物件時要聯結的Workfront表格。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>TO_RECORDID</td>
-        <td>Varchar</td>
-        <td>擁有此參考連線之Planning記錄的唯一識別碼。 PLANNINGRECORD\_CURRENT.RECORDID的外部索引鍵。</td>
-        <td>PLANNINGRECORD\_CURRENT</td>
-        <td>RECORDID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>TRIGGEREDBYSERVICE</td>
@@ -9583,12 +9306,6 @@ Planning資料可在下列檢視中使用：
         <td>觸發上次修改此記錄型別的服務或整合的名稱。 值「未知」表示無法判斷原始服務。</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>已更新</td>
@@ -9596,25 +9313,6 @@ Planning資料可在下列檢視中使用：
         <td>表示影響此記錄型別的最後一個作業型別的旗標。 值1表示在最近的資料重新整理週期中更新了記錄型別；值0表示未更新。 如需實際的上次更新時間戳記，請參閱UPDATEDAT 。</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>已更新</td>
-        <td>數字</td>
-        <td>表示影響此參考記錄的最後一個作業型別的旗標。 值1表示參考在最近的資料重新整理週期中更新；0表示參考未更新。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>UPDATEDAT</td>
@@ -9622,25 +9320,6 @@ Planning資料可在下列檢視中使用：
         <td>上次更新此記錄型別時的時間戳記（無時區）。</td>
         <td>—</td>
         <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>UPDATEDAT</td>
-        <td>時間戳記\_NTZ</td>
-        <td>上次更新此記錄型別時的時間戳記（無時區）。</td>
-        <td>—</td>
-        <td>—</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>更新者：</td>
@@ -9648,25 +9327,6 @@ Planning資料可在下列檢視中使用：
         <td>上次更新此記錄型別之使用者的識別碼。</td>
         <td>WF.USERS\_CURRENT</td>
         <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>更新者：</td>
-        <td>Varchar</td>
-        <td>上次更新此記錄型別之使用者的識別碼。</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>使用者ID</td>
@@ -9674,25 +9334,6 @@ Planning資料可在下列檢視中使用：
         <td>與此記錄型別相關聯之使用者的識別碼，通常是擁有者。</td>
         <td>WF.USERS\_CURRENT</td>
         <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>使用者ID</td>
-        <td>Varchar</td>
-        <td>與此記錄型別相關聯之使用者的識別碼，通常是擁有者。</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
     </tr>
     <tr>
         <td>WORKSPACEID</td>
@@ -9700,12 +9341,90 @@ Planning資料可在下列檢視中使用：
         <td>此記錄型別所屬之工作區的唯一識別碼。 搭配WORKSPACE\_CURRENT使用來查詢工作區詳細資訊。</td>
         <td>Workspace\_Current</td>
         <td>ID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+    </tr>
+</table>
+
+### 參照\_目前
+
+包含Workfront Planning記錄與Workfront （或其他外部）物件之間所有跨物件參考連線的目前狀態。 每一列代表一個參考連線。 將此檢視與PLANNINGRECORD\_CURRENT.REFERENCE\_IDS搭配使用，以解決連線的外部物件。
+
+<table>
+    <tr>
+        <td>欄名稱</td>
+        <td>類型</td>
+        <td>說明</td>
+        <td>相關表格</td>
+        <td>相關欄位</td>
+    </tr>
+    <tr>
+        <td>已建立</td>
+        <td>數字</td>
+        <td>表示影響此參考記錄的最後一個作業型別的旗標。 值1表示參照是在最近的資料重新整理週期中建立的；0表示不是。</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>已刪除</td>
+        <td>數字</td>
+        <td>表示此參考連線是否已軟性刪除的旗標。 值1表示參照已刪除；0表示參照處於活動狀態。</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>DL_LOAD_TIMESTAMP</td>
+        <td>時間戳記\_NTZ</td>
+        <td>上次將此參考記錄載入資料湖的資料重新整理工作的時間戳記。 在每個成功的資料重新整理週期後更新。</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>RECORDTYPEID</td>
+        <td>Varchar</td>
+        <td>與擁有此參考之記錄相關聯之Planning記錄型別的唯一識別碼。 PLANNINGRECORD\_CURRENT.RECORDTYPEID的外部索引鍵。</td>
+        <td>RECORDTYPE\_CURRENT</td>
+        <td>ID</td>
+    </tr>
+    <tr>
+        <td>REFERENCEVALUE</td>
+        <td>Varchar</td>
+        <td>截至上次資料重新整理的參考外部物件的顯示名稱（例如Workfront專案名稱，如「Beta」或「畫布儀表板專案」）。 此值會在重新整理時反映物件的名稱，如果重新命名物件，則可能會變成過時。</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>TO_EXTERNALCONNECTIONNAME</td>
+        <td>Varchar</td>
+        <td>參考物件所連線的外部連線名稱（例如在Planning中設定的Workfront連線名稱）。</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>TO_EXTERNALID</td>
+        <td>Varchar</td>
+        <td>被參考外部物件的唯一識別碼（例如，Workfront專案ID、任務ID或其他連線物件ID）。</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>TO_EXTERNALOBJECTNAME</td>
+        <td>Varchar</td>
+        <td>所參考外部物件型別的Workfront API物件程式碼（例如，專案為「PROJ」、任務為「TASK」、Portfolio為「PORT」）。 使用這個專案來決定在查詢參考物件時要聯結的Workfront表格。</td>
+        <td>—</td>
+        <td>—</td>
+    </tr>
+    <tr>
+        <td>TO_RECORDID</td>
+        <td>Varchar</td>
+        <td>擁有此參考連線之Planning記錄的唯一識別碼。 PLANNINGRECORD\_CURRENT.RECORDID的外部索引鍵。</td>
+        <td>PLANNINGRECORD\_CURRENT</td>
+        <td>RECORDID</td>
+    </tr>
+    <tr>
+        <td>已更新</td>
+        <td>數字</td>
+        <td>表示影響此參考記錄的最後一個作業型別的旗標。 值1表示參考在最近的資料重新整理週期中更新；0表示參考未更新。</td>
+        <td>—</td>
+        <td>—</td>
     </tr>
 </table>
 
