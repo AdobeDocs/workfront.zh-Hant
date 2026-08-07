@@ -9,10 +9,16 @@ exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/PsLkXfxx71YSwuBq78nohZPveaACRI6cADqUM2jRaRQ
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 4e6b06769d4001c4e08b4530289cfec7f8edd29e
 workflow-type: tm+mt
 source-wordcount: 464
@@ -207,7 +213,7 @@ ht-degree: 6%
     </tbody> 
    </table>
 
-1. 如果要儲存變更並繼續編輯檢視，請按一下[套用]。****
+1. 如果要儲存變更並繼續編輯檢視，請按一下[套用]。**&#x200B;**
 1. 按一下&#x200B;**儲存+關閉**&#x200B;以儲存您的報告。
 
    或
