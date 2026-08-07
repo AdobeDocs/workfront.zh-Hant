@@ -9,21 +9,14 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
 TQID: https://experienceleague.adobe.com/MkpKnVckztNvRWKb2rSDUzt8fnJMWIGKG4sYUmuefig
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 2721
+source-wordcount: 2734
 ht-degree: 1%
 
 ---
@@ -128,7 +121,7 @@ ht-degree: 1%
    >
    >複雜表單的範例包括含有階層式引數的表單、計算的自訂資料欄位，以及單一欄位中的多個值選項。
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -202,8 +195,8 @@ ht-degree: 1%
    </table>
 
 1. 在&#x200B;**計算**&#x200B;方塊中，開始建立計算：
-   1. 按一下&#x200B;**最大化**&#x200B;以開啟計算編輯器並建置您的計算。
-計算通常以運算式開始，後面接著括弧，其中包含當自訂表單附加至物件時要參考的欄位。
+   1. 按一下&#x200B;**最大化**以開啟計算編輯器並建置您的計算。
+      計算通常以運算式開始，後面接著括弧，其中包含當自訂表單附加至物件時要參考的欄位。
 
       每個欄位都必須以大括弧括住。 當您開始輸入欄位名稱時，系統會提供建議，您可以選取一個來將其插入計算。
 
@@ -231,7 +224,7 @@ ht-degree: 1%
 
         系統列出您在輸入`DE:`時可以選擇的所有自訂欄位。
 
-         * 如果您希望運算式參考在自訂表單附加至物件時，會從&#x200B;*parent*&#x200B;物件提取資料的欄位，則必須在欄位名稱前面加上父物件的物件型別，且必須用大括弧括住。
+        * 如果您希望運算式參考在自訂表單附加至物件時，會從&#x200B;*parent*&#x200B;物件提取資料的欄位，則必須在欄位名稱前面加上父物件的物件型別，且必須用大括弧括住。
 
         例如，如果自訂表單設定為與任務搭配使用，而您想要欄位在表單附加至任務時計算父系物件的實際收入，則您需要將`Project`表示為該欄位的物件型別：
 
@@ -261,9 +254,13 @@ ht-degree: 1%
 
         >[!NOTE]
         >
-        >自動提示欄位的語法與其他型別欄位的語法有些不同，因為您需要在結尾新增`:name`。
+        >內部查閱欄位的語法與其他型別的欄位語法有些不同，因為您需要在結尾新增`:name`。
         >
-        >例如，若要參照在名為「高階主管支援人」的自訂預先輸入欄位中選取的選項，您可以輸入：
+        >例如，若要在名為「高階主管支援人」的自訂內部查詢欄位中參照選取的選項，您可以輸入：
+        >
+        >`{DE:Executive sponsor}.{name}`
+        >
+        >對於使用預先輸入欄位的相同範例，您應輸入：
         >
         >`{DE:Executive sponsor:name}`
 
@@ -299,13 +296,13 @@ ht-degree: 1%
 
         當發生下列情況時，會自動重新計算物件上的已計算自訂欄位：
 
-         * 物件上的某些專案會變更，例如每日時間表計算。
-         * 有人編輯物件上計算自訂欄位參考的另一個欄位。
-         * 計算的運算式是空的，而欄位包含一個值 — 這會將值設定為null。
+        * 物件上的某些專案會變更，例如每日時間表計算。
+        * 有人編輯物件上計算自訂欄位參考的另一個欄位。
+        * 計算的運算式是空的，而欄位包含一個值 — 這會將值設定為null。
 
-           >[!NOTE]
-           >
-           ><div>在附加到物件的自訂表單中，計算自訂欄位中的日期和時間陳述式會由世界協調時間(UTC)計算和儲存，而不是由針對您的組織執行個體和您的使用者設定檔設定的時區設定計算和儲存。 自訂表單中的計算是根據每位使用者的個別時區產生。</div>
+          >[!NOTE]
+          >
+          ><div>在附加到物件的自訂表單中，計算自訂欄位中的日期和時間陳述式會由世界協調時間(UTC)計算和儲存，而不是由針對您的組織執行個體和您的使用者設定檔設定的時區設定計算和儲存。 自訂表單中的計算是根據每位使用者的個別時區產生。</div>
 
         +++
 
@@ -323,7 +320,7 @@ ht-degree: 1%
       >
       >您可以執行下列任一項作業，以取得計算的協助：
       > 
-      >* 將滑鼠停留在計算中的運算式上可檢視說明、如何使用的範例，以及文章[計算資料運算式概觀](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)中詳細資訊的&#x200B;**深入瞭解**&#x200B;連結。
+      >* 將滑鼠停留在計算中的運算式上可檢視說明、如何使用的範例，以及文章[計算資料運算式概觀](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)中詳細資訊的&#x200B;**深入瞭解**連結。
       >  ![運算式說明文字](assets/hover-expression-help-text.jpg)
       >* 使用顏色編碼來識別您新增的元件。 運算式會以藍色顯示，而欄位則會以綠色顯示。
       >  欄位運算式的![色彩](assets/colors-fields-expressions.jpg)
@@ -358,7 +355,7 @@ ht-degree: 1%
     </tbody> 
    </table>
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 

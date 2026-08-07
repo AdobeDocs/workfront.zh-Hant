@@ -11,22 +11,14 @@ exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/9vmobOfSleqLF7HqRnOav5IB1l8C4WPLO0vyEJwmfiI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f73a84c755dabfebdeb6cdd7b2ad59bc09a272f4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 7922
+source-wordcount: 7962
 ht-degree: 4%
 
 ---
@@ -73,7 +65,7 @@ ht-degree: 4%
 1. 在左側面板中，按一下&#x200B;**自訂Forms**，然後選取&#x200B;**Forms**。
 
 1. 按一下&#x200B;**新增自訂表格。**
-1. 選取您要附加自訂表單的物件型別，然後按一下[繼續]。**&#x200B;**
+1. 選取您要附加自訂表單的物件型別，然後按一下[繼續]。****
 
    ![選擇物件型別](assets/new-custom-form-select-objects-new-spectrum-icons.png)
 
@@ -147,7 +139,7 @@ ht-degree: 4%
    >
    >若將現有欄位標示為非使用中，此後就無法用於報表元素和自訂表單。 如果報表或表單中目前正在使用非作用中欄位，則欄位及其歷史資料會維持原位。
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -272,7 +264,7 @@ ht-degree: 4%
     </tr>
     <tr>
     <td>指示</td>
-    <td>輸入有關欄位的任何其他資訊。當使用者填寫自訂表單時，可以將滑鼠指標暫留在問號圖示上，以檢視包含您在此處輸入資訊的工具提示。
+    <td>輸入有關欄位的任何其他資訊。 當使用者填寫自訂表單時，可以將滑鼠指標暫留在問號圖示上，以檢視包含您在此處輸入資訊的工具提示。
     <img src="assets/instructions-form-designer.png">
     </td>
     <td><ul>
@@ -351,7 +343,7 @@ ht-degree: 4%
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -530,7 +522,7 @@ ht-degree: 4%
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -728,7 +720,7 @@ To add typeahead and date fields:
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -807,12 +799,12 @@ To add typeahead and date fields:
       <td role="rowheader">JSON 路徑</td>
       <td><p>輸入或貼上API的JSON路徑。</p> <p>此選項允許從API URL傳回的JSON擷取資料。 這可當作選取要讓JSON內的哪些值會出現在下拉式選項中的方式。</p><p>例如，如果您的API URL以下列格式傳回JSON，則您可以使用「$.data[*].name」選取美國和加拿大作為下拉式選項：</br>
       <pre>
-      &lbrace;
-       資料： &lbrace;
+      {
+       資料： {
          { name： "USA"}，
          { name： "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>如需有關JSON路徑並確保您撰寫正確JSON路徑的詳細資訊，請參閱<a href="https://jsonpath.com/">https://jsonpath.com/</a>。</p></td>
@@ -836,7 +828,7 @@ To add typeahead and date fields:
     </tbody>
    </table>
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -933,7 +925,7 @@ To add typeahead and date fields:
     </tbody>
    </table>
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -1026,7 +1018,7 @@ The Workfront Mobile app
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -1042,7 +1034,7 @@ The Workfront Mobile app
 1. 開啟校訂。
 1. 以滑鼠右鍵按一下視訊上的任何位置，然後選取&#x200B;**複製視訊位址**。
 1. 在您新增視訊Widget的自訂表單中，將複製的地址貼到&#x200B;**URL**&#x200B;方塊中。
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -1163,7 +1155,7 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
        <p>根據其他欄位的值，使用動態篩選器語法來縮小此欄位中的專案清單。 例如，當您在專案欄位篩選中使用<code>?portfolioID={portfolio}.{ID}</code>，並且自訂表單上有Portfolio原生欄位時，專案欄位僅顯示所選投資組合中的專案。 如果Portfolio欄位留空，則所有專案都可在「專案」欄位中使用。</p>
        <p><b>附註</b>：
        <ul> 
-        <li>只有在您參考原生預先輸入或內部查詢欄位（例如Portfolio、公司或擁有者）時，才可使用篩選器選項。</li>
+        <li>只有在您參考原生內部查詢或預先輸入欄位（例如Portfolio、公司或擁有者）時，篩選選項才可用。</li>
         <li>如果您正在編輯現有的自訂表單，將篩選新增至原生欄位時，不會移除使用者已使用該欄位新增的任何物件（在篩選範圍之外）。</li> 
         <li>此篩選器不適用於行動裝置。 如果您將篩選用於原生欄位，該欄位將會顯示在不受篩選影響之使用者的行動裝置上。</li> 
         </ul></p></td> 
@@ -1180,7 +1172,7 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
     </tbody> 
    </table>
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -1218,7 +1210,7 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>（必要）輸入或貼上有效的XD原型連結。</p> 
-      <p><b>注意</b>： Adobe XD中「共用」標籤上的「連結存取」設定必須設定為「擁有連結的任何人」。否則，使用者將無法檢視原型。 
+      <p><b>注意</b>： Adobe XD中「共用」標籤上的「連結存取」設定必須設定為「擁有連結的任何人」。 否則，使用者將無法檢視原型。 
    </td> 
      </tr> 
      <tr> 
@@ -1241,7 +1233,7 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -1337,7 +1329,7 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
 
    ![復製圖示](assets/copy-field.png)
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
