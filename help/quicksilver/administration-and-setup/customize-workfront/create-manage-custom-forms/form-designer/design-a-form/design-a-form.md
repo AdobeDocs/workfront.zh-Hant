@@ -24,9 +24,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f73a84c755dabfebdeb6cdd7b2ad59bc09a272f4
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 7922
+source-wordcount: 7962
 ht-degree: 4%
 
 ---
@@ -272,7 +272,7 @@ ht-degree: 4%
     </tr>
     <tr>
     <td>指示</td>
-    <td>輸入有關欄位的任何其他資訊。當使用者填寫自訂表單時，可以將滑鼠指標暫留在問號圖示上，以檢視包含您在此處輸入資訊的工具提示。
+    <td>輸入有關欄位的任何其他資訊。 當使用者填寫自訂表單時，可以將滑鼠指標暫留在問號圖示上，以檢視包含您在此處輸入資訊的工具提示。
     <img src="assets/instructions-form-designer.png">
     </td>
     <td><ul>
@@ -1163,7 +1163,7 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
        <p>根據其他欄位的值，使用動態篩選器語法來縮小此欄位中的專案清單。 例如，當您在專案欄位篩選中使用<code>?portfolioID={portfolio}.{ID}</code>，並且自訂表單上有Portfolio原生欄位時，專案欄位僅顯示所選投資組合中的專案。 如果Portfolio欄位留空，則所有專案都可在「專案」欄位中使用。</p>
        <p><b>附註</b>：
        <ul> 
-        <li>只有在您參考原生預先輸入或內部查詢欄位（例如Portfolio、公司或擁有者）時，才可使用篩選器選項。</li>
+        <li>只有在您參考原生內部查詢或預先輸入欄位（例如Portfolio、公司或擁有者）時，篩選選項才可用。</li>
         <li>如果您正在編輯現有的自訂表單，將篩選新增至原生欄位時，不會移除使用者已使用該欄位新增的任何物件（在篩選範圍之外）。</li> 
         <li>此篩選器不適用於行動裝置。 如果您將篩選用於原生欄位，該欄位將會顯示在不受篩選影響之使用者的行動裝置上。</li> 
         </ul></p></td> 
@@ -1218,7 +1218,7 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>（必要）輸入或貼上有效的XD原型連結。</p> 
-      <p><b>注意</b>： Adobe XD中「共用」標籤上的「連結存取」設定必須設定為「擁有連結的任何人」。否則，使用者將無法檢視原型。 
+      <p><b>注意</b>： Adobe XD中「共用」標籤上的「連結存取」設定必須設定為「擁有連結的任何人」。 否則，使用者將無法檢視原型。 
    </td> 
      </tr> 
      <tr> 

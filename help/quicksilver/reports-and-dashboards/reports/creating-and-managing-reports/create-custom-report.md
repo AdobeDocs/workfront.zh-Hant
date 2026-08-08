@@ -19,9 +19,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 1824
+source-wordcount: 1823
 ht-degree: 2%
 
 ---
@@ -142,7 +142,7 @@ ht-degree: 2%
 
    如需有關您在欄中看到的欄位詳細資訊，請參閱[Adobe Workfront術語辭彙表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
 
-   ![新增欄自動提示](assets/nwe-add-column-typeahead-350x459.png)
+   ![新增資料行](assets/nwe-add-column-typeahead-350x459.png)
 
 1. （選擇性）在&#x200B;**資料行設定**&#x200B;區域中，選取&#x200B;**依此資料行排序**&#x200B;以遞增字母順序來排序資料行中的值，然後指示清單是否應使用此資料行作為第一個排序。
 

@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 1477
-ht-degree: 2%
+source-wordcount: 1467
+ht-degree: 1%
 
 ---
 
@@ -178,7 +178,7 @@ Workfront Planning API中的端點可透過Get方法，依記錄型別ID搜尋�
    * 您可以新增$$QUERY以針對一般使用者實施查詢篩選。
 
    **範例**
-列出所有國家： <https://api.first.org/data/v1/countries>
+   列出所有國家： <https://api.first.org/data/v1/countries>
 
    允許使用者在下拉式欄位中搜尋任何國家： <https://api.first.org/data/v1/countries?q=$$QUERY>
 
@@ -232,7 +232,7 @@ Workfront Planning API中的端點可透過Get方法，依記錄型別ID搜尋�
 範本的基礎API URL範例，取代預先輸入欄位：
 `$$HOST/attask/api/v17.0/tmpl/search?isActive=true&name_Sort=asc`
 
-**使用案例：**&#x200B;建立包含更多功能的下拉式欄位（例如，外部eookup欄位中有換行字元）。
+**使用案例：**&#x200B;建立包含更多功能的下拉式欄位（例如，外部查詢欄位中有換行字元）。
 **解決方案：**&#x200B;使用系統中現有物件的API呼叫，或建立新物件並使用這個物件的API呼叫。
 
 **使用案例：**&#x200B;定義使用者在自訂表格區域外維護其欄位的方法。 設定「外部查詢」欄位，您可以將使用者指定給組成該欄位的物件。 此選項適合用於高維護欄位和團隊。

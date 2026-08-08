@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 643
-ht-degree: 4%
+source-wordcount: 644
+ht-degree: 3%
 
 ---
 
@@ -34,8 +34,6 @@ ht-degree: 4%
 作為[!DNL Adobe Workfront]管理員或具有工作角色管理存取許可權的使用者，您可以停用系統中已作廢的工作角色。 當您停用而非刪除工作角色時，您可以保留與其相關聯的任何歷史資訊。
 
 您也可以重新啟用先前已停用的工作角色。
-
-## 存取權要求
 
 ## 存取權要求
 
@@ -78,7 +76,7 @@ ht-degree: 4%
   >當您將新角色新增到使用者時，停用的工作角色不顯示。 但如果使用者在停用工作角色之前與工作角色相關聯，則它仍會顯示在[!UICONTROL 主要角色]和[!UICONTROL 其他角色]欄位中。
 
 * 物件的[!UICONTROL 共用]對話方塊，包括配置範本指派
-* 自訂表單中的預先輸入欄位
+* 自訂表單中的內部查詢和預先輸入欄位
 * [!UICONTROL 資源集區]中的[!UICONTROL 集區成員]欄位
 * 當使用者覆寫專案的計費費率時，[!UICONTROL 計費費率]編輯畫面的[!UICONTROL 工作角色]欄位
 * 專案中的[!UICONTROL 新增指派至Kanban面板]對話方塊
@@ -114,8 +112,8 @@ ht-degree: 4%
 
   如需有關建立核准程式與路由規則的資訊，請參閱下列文章：
 
-   * [為工作項目建立核准流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
-   * [建立路由規則](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
+  * [為工作項目建立核准流程](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
+  * [建立路由規則](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
 
 ## 停用工作角色
 

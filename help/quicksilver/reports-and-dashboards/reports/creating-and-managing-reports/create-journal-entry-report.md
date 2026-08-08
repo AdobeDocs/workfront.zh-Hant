@@ -17,9 +17,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 2782
+source-wordcount: 2783
 ht-degree: 5%
 
 ---
@@ -430,7 +430,7 @@ ht-degree: 5%
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">新文字值</p> </td> 
-      <td> <p>自訂欄位中目前的文字值。</p> <p>如果自訂欄位是預先輸入欄位，<strong>新文字值</strong>欄會顯示物件識別碼。</p> </td> 
+      <td> <p>自訂欄位中目前的文字值。</p> <p>如果自訂欄位是內部查詢欄位，<strong>新文字值</strong>欄會顯示物件識別碼。</p> </td> 
      </tr> 
     </tbody> 
    </table>
