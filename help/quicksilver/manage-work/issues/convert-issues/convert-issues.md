@@ -4,6 +4,7 @@ navigation-topic: convert-issues
 title: 在Adobe Workfront中轉換問題概觀
 description: 如果在提交問題後需要完成更多工作，您可以將問題轉換為專案或任務。
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 topic: Collaboration
 role: User
@@ -11,23 +12,14 @@ exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/-pfHOCi9qAoq5Jk7LzibEu0SDm-AoiPUTH61GCL1ATc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
-source-wordcount: 1531
+source-wordcount: 1547
 ht-degree: 3%
 
 ---
@@ -50,8 +42,8 @@ ht-degree: 3%
 * 當您將其轉換為任務或專案時，Workfront會覆寫問題的解決物件。 新任務或問題在轉換後會成為問題的新解決物件。
 * 考慮以下事項：
 
-   * 在轉換期間，系統可能會詢問您是否要保持問題及其解決方案與您正在建立的專案或任務繫結。
-   * 如果您保留問題，專案、任務或問題發生任何變更或Workfront重新計算時間表時，專案或任務的狀態和完成百分比會自動更新問題的狀態和完成百分比。
+  * 在轉換期間，系統可能會詢問您是否要保持問題及其解決方案與您正在建立的專案或任務繫結。
+  * 如果您保留問題，專案、任務或問題發生任何變更或Workfront重新計算時間表時，專案或任務的狀態和完成百分比會自動更新問題的狀態和完成百分比。
 
   >[!NOTE]
   >
@@ -62,14 +54,14 @@ ht-degree: 3%
 
 * 轉換問題時，原始問題的許可權未傳輸到轉換的物件（任務或專案）。
 
-* 使用範本將問題轉換為專案時，範本中的大部分資訊會傳輸到新專案。 不過，問題中的某些資訊也可傳輸到新專案。 如需詳細資訊，請參閱本文章使用範本[&#128279;](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template)將問題轉換為專案時的專案欄位概觀。
+* 使用範本將問題轉換為專案時，範本中的大部分資訊會傳輸到新專案。 不過，問題中的某些資訊也可傳輸到新專案。 如需詳細資訊，請參閱本文章使用範本](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template)將問題轉換為專案時的[專案欄位概觀。
 * 轉換問題時，並非所有檔案或其資訊都會移至問題轉換為的新物件。 當您轉換附加了檔案或檔案連結的問題時，會包含下列專案：
 
-   * 文件
-   * 檔案連結至協力廠商服務，例如Google Drive或SharePoint。
-   * 版本
-   * 只有取消選取&#x200B;**保留原始問題並將其解決方案連結至此任務**&#x200B;選項時，才會包含校樣。
-   * 當您轉換附加了檔案和檔案連結的問題時，不包含檔案核准。
+  * 文件
+  * 檔案連結至協力廠商服務，例如Google Drive或SharePoint。
+  * 版本
+  * 只有取消選取&#x200B;**保留原始問題並將其解決方案連結至此任務**&#x200B;選項時，才會包含校樣。
+  * 當您轉換附加了檔案和檔案連結的問題時，不包含檔案核准。
 * 轉換問題時有5分鐘的處理限制。 如果問題附加了大量檔案且無法轉換，您可能需要移除部分檔案，然後重試。
 * 如果您決定將問題保留在轉換中並且附加了檔案，則檔案及其版本會複製到專案或任務中。 校訂和檔案核准不會複製到專案或任務。
 * 如果您決定不將問題保留在轉換中，而其中包含附加的檔案、檔案、其版本和校樣會傳輸到專案或任務。 檔案核准將不會傳輸到專案或任務。
@@ -102,7 +94,7 @@ ht-degree: 3%
   <tr> 
    <td>優先順序</td> 
    <td><p>從問題中轉移。</p>
-   <p>當您針對轉換的專案使用範本時，您可以選擇手動變更「優先順序」。如果您選擇不變更，則問題的優先順序會轉移至專案。 
+   <p>當您針對轉換的專案使用範本時，您可以選擇手動變更「優先順序」。 如果您選擇不變更，則問題的優先順序會轉移至專案。 
     </td> 
   </tr> 
   <tr> 

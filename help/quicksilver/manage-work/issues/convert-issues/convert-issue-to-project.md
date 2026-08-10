@@ -4,24 +4,18 @@ navigation-topic: convert-issues
 title: 將問題轉換為專案
 description: 如果在提交問題後需要完成更多工作，您可以將問題轉換為Adobe Workfront中的專案。
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/mQINHJ0clh8RFxC67LR-L3djGlqKZNwOBwPGIGwZ-kQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 2167
 ht-degree: 2%
@@ -108,12 +102,12 @@ Old:
 
 * 將問題轉換為專案時有5分鐘的處理限制。 如果問題附加了大量檔案且無法轉換，您可能需要移除部分檔案，然後重試。
 * 當您的組織使用舊版Workfront和Adobe雲端儲存空間存放檔案時，將問題轉換為專案時出現以下情況： <!--this info also duplicated in Document management overview for projects and related objects and Convert a task to a project-->
-   * 舊版Workfront儲存空間問題會建立舊版Workfront儲存空間專案。
-   * Adobe雲端儲存空間問題會建立Adobe雲端儲存空間專案。
-   * 使用舊版Workfront儲存空間範本來轉換Adobe雲端儲存空間問題，會建立Adobe雲端儲存空間專案。
-   * 使用Adobe雲端儲存空間範本轉換舊版Workfront儲存空間問題時，會建立舊版Workfront儲存空間專案。
+  * 舊版Workfront儲存空間問題會建立舊版Workfront儲存空間專案。
+  * Adobe雲端儲存空間問題會建立Adobe雲端儲存空間專案。
+  * 使用舊版Workfront儲存空間範本來轉換Adobe雲端儲存空間問題，會建立Adobe雲端儲存空間專案。
+  * 使用Adobe雲端儲存空間範本轉換舊版Workfront儲存空間問題時，會建立舊版Workfront儲存空間專案。
 
-     如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
+    如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
 ## 將問題轉換為專案
 

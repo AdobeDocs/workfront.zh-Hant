@@ -4,28 +4,19 @@ content-type: overview
 navigation-topic: delegate-work
 title: 委派工作概覽
 description: 當您計畫短期不在辦公室時，您可以暫時將您的工作委派給其他使用者，以確保您的缺席不會成為完成工作的障礙。
-author: Becky
+author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/O-G3HS2JWZB36Y-kSloHo6u4--Z3q40fwAgfcEuELi4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: c33d85a1-be85-4290-854c-87408c10aa80id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 906
 ht-degree: 1%
@@ -70,9 +61,9 @@ ht-degree: 1%
 * 您只能從[!UICONTROL 首頁]區域委派任務和問題。
 * 委派工作時，下列授權型別會有例外：
 
-   * 您可以將工作委派給檢閱者或要求者，但[!DNL Workfront]不建議這麼做。
-   * 檢閱者可以將工作委派給其他人。 他們無法在其[!UICONTROL 首頁]區域中檢視工作專案。 他們只能檢視核准。
-   * 請求者無法將工作委派給其他人。 他們無法在其[!UICONTROL 首頁]區域中檢視工作專案
+  * 您可以將工作委派給檢閱者或要求者，但[!DNL Workfront]不建議這麼做。
+  * 檢閱者可以將工作委派給其他人。 他們無法在其[!UICONTROL 首頁]區域中檢視工作專案。 他們只能檢視核准。
+  * 請求者無法將工作委派給其他人。 他們無法在其[!UICONTROL 首頁]區域中檢視工作專案
 * 您只能委派指派給您的任務和問題。 您無法委派指派給其他使用者、團隊或工作角色的任務和問題。
 * 您只能委派在委派開始日期之前未完成的任務和問題。
 * 如果工作專案在委派時間範圍內完成，該專案會保留在委派者的「首頁」區域以及被指派者的「首頁」區域中2週，然後[!DNL Workfront]會自動移除它。

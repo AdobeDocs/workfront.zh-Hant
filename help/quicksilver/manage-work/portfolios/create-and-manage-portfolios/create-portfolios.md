@@ -9,21 +9,14 @@ exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/p47W1Seb-Ew-p-ogdb-ebjLAuxvY-0rdRHLMQtWCH30
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
-source-wordcount: 890
+source-wordcount: 902
 ht-degree: 2%
 
 ---
@@ -50,12 +43,12 @@ Portfolio是競爭相同資源、預算和排程的專案集合。 Portfolio中�
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>[!UICONTROL 標準]</p>
-   <p>[!UICONTROL 計畫] </p> </td> 
+   <td> <p>[！UICONTROL標準]</p>
+   <p>[！UICONTROL計畫] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL Edit]對投資組合的存取權</p>  </td> 
+   <td> <p>[！UICONTROL Edit]對投資組合的存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
@@ -112,10 +105,10 @@ Old:
 
 * 以下列方式從Workfront Planning新增產品組合：
 
-   * 當您從Workfront Planning中的記錄型別連結它們時。
+  * 當您從Workfront Planning中的記錄型別連結它們時。
 
   如需透過將專案組合新增至記錄來建立專案組合的資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)一文中的「連線時建立記錄」一節。
-   * 使用Workfront Planning自動化。
+  * 使用Workfront Planning自動化。
 
   如需詳細資訊，請參閱[使用Adobe Workfront Planning記錄自動化建立物件](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)。
 
@@ -145,17 +138,19 @@ Old:
 
      產品組合隨即建立，其預設名稱會遵循以下模式，具體取決於Workfront用於檔案的儲存空間：
 
-      * 舊版Workfront儲存產品組合的`Untitled Portfolio`。
+     * 舊版Workfront儲存產品組合的`Untitled Portfolio`。
 
-        舊版Workfront儲存產品組合名稱旁會顯示&#x200B;**舊版Workfront儲存空間**&#x200B;圖示![舊版儲存產品組合圖示](assets/legacy-storage-project-icon.png)。
+       舊版Workfront儲存產品組合名稱旁會顯示&#x200B;**舊版Workfront儲存空間**&#x200B;圖示![舊版儲存產品組合圖示](assets/legacy-storage-project-icon.png)。
 
-      * 適用於Adobe雲端儲存空間產品組合的`Untitled Portfolio - < Month day, year hour.minute.second >`
+     * 適用於Adobe雲端儲存空間產品組合的`Untitled Portfolio - < Month day, year hour.minute.second >`
 
-        >[!IMPORTANT]
-        >
-        >使用Adobe雲端儲存空間的產品組合必須具有唯一名稱。
+       >[!IMPORTANT]
+       >
+       >使用Adobe雲端儲存空間的產品組合必須具有唯一名稱。
 
      若為Adobe雲端儲存產品組合，系統會自動在檔案區域中建立與產品組合約名的新檔案資料夾。
+
+     如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
 1. 將投資組合名稱替換為投資組合標題中的新名稱。
 
@@ -179,12 +174,12 @@ Old:
       <td> <p>輸入Portfolio的說明以指出其獨特性。 </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
-      <td> <p>開始輸入您要指定做為投資組合經理的使用者名稱，然後當它出現在清單中時選取它。 這與[!UICONTROL Portfolio Owner]相同。 此人員可監督投資組合中專案所定義的工作，並可核准業務案例。</p> <p>重要：當您指定某人為[!UICONTROL Portfolio Manager]時，他們會自動取得專案組合、方案及專案組合中的[!UICONTROL 管理]許可權。 </p> <p>提示：您也可以更新頁面頂端標題中的[!UICONTROL Portfolio Manager]。</p> </td> 
+      <td role="rowheader">[！UICONTROL Portfolio Manager]</td> 
+      <td> <p>開始輸入您要指定做為投資組合經理的使用者名稱，然後當它出現在清單中時選取它。 這與[！UICONTROL Portfolio Owner]相同。 此人員可監督投資組合中專案所定義的工作，並可核准業務案例。</p> <p>重要：當您指定某人為[！UICONTROL Portfolio Manager]時，他們會自動取得專案組合、方案及專案組合中的[！UICONTROL管理]許可權。 </p> <p>提示：您也可以更新頁面頂端標題中的[！UICONTROL Portfolio Manager]。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">群組 </td> 
-      <td> <p>如果群組擁有投資組合或負責完成投資組合，請新增單一群組的名稱。 </p> <p>您可以暫留在群組上，並按一下旁邊顯示的[!UICONTROL 資訊]圖示<img src="assets/info-icon.png">，確定您選取的群組正確。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> </td> 
+      <td> <p>如果群組擁有投資組合或負責完成投資組合，請新增單一群組的名稱。 </p> <p>您可以暫留在群組上，並按一下旁邊顯示的[！UICONTROL資訊]圖示<img src="assets/info-icon.png">，確定您選取的群組正確。 這會顯示工具提示，列出群組的相關資訊，例如群組及其管理員上方的群組階層。</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> </td> 
      </tr> 
     </tbody> 
    </table>
