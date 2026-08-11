@@ -1,9 +1,9 @@
 ---
 name: clean-el-traffic-csv
 description: 清除原始Experience League / Adobe Analytics流量CSV匯出至僅限Workfront的頁面，依頁面檢視排序。 當使用者提供Experience League頁面流量CSV （「頁面URL一般」、「不重複訪客」、「造訪」、「頁面檢視」等欄）並要求清除、篩選或處理它，或提及「檔案追蹤」/「檢視次數最多的文章」試算表時使用。
-source-git-commit: 3c5f28f5656fec574cb1ca9d3853703b6b900fdb
+source-git-commit: e22d43e9962b2b00793577fd14ac00587e8a2a6d
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 清除Experience League流量CSV
 
-將Experience League頁面流量的原始Adobe Analytics自由格式表格匯出變更為依頁面檢視排序的純Workfront且重複資料刪除的CSV，並覆寫原始檔案。
+將Experience League頁面流量的原始Adobe Analytics自由格式表格匯出變更為依頁面檢視排序的純Workfront、重複資料刪除的CSV，覆寫原始檔案並將過期的復本儲存到案頭。
 
 ## 輸入形狀
 
@@ -79,6 +79,18 @@ ht-degree: 0%
 ### 步驟8：儲存
 
 以清除的結果覆寫原處的原始輸入檔案。
+
+### 步驟9：將日期副本儲存至案頭（僅當在步驟0中擷取了日期範圍時，才使用原始匯出）
+
+建立日期範圍的檔案名稱安全版本：移除逗號，並將任何`\ / : * ? " < > |`取代為`-` （這些字元在Windows檔案名稱中無效，否則可能會根據匯出地區設定/格式出現在日期範圍內）。
+
+將已清理的CSV的額外復本（與步驟8的內容相同）儲存到目前使用者的案頭，並命名為：
+
+`Documentation tracking report <filename-safe date range>.csv`
+
+範例：擷取的`Apr 1, 2026 - Apr 30, 2026`範圍變成`Documentation tracking report Apr 1 2026 - Apr 30 2026.csv`。
+
+針對已清除的CSV （形狀2）跳過此步驟，除非使用者另外提供日期範圍。
 
 ## 超出範圍
 
@@ -157,6 +169,11 @@ $outLines += $newHeader
 $outLines += $sorted | ForEach-Object { "$($_.URL),$($_.UV),$($_.Visits),$($_.PV)" }
 
 Set-Content -Path $path -Value $outLines -Encoding UTF8
+
+# Step 9: also save a dated copy to the Desktop
+$safeDateRange = ($dateRange -replace ',', '') -replace '[\\/:*?"<>|]', '-'
+$desktopPath = Join-Path ([Environment]::GetFolderPath('Desktop')) "Documentation tracking report $safeDateRange.csv"
+Set-Content -Path $desktopPath -Value $outLines -Encoding UTF8
 ```
 
-若是已經清除的CSV （輸入圖形2），請略過標題重新定位和日期範圍邏輯 — 直接在現有標題/列上執行步驟2-6和8。
+對於已經清除的CSV （輸入圖形2），請略過標題重新定位、日期範圍邏輯和步驟9 — 直接在現有標題/列上執行步驟2-6和8。
