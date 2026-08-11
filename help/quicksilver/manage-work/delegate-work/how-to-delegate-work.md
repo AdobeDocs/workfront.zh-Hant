@@ -3,7 +3,8 @@ filename: how-to-delegate-work
 navigation-topic: delegate-work
 title: 委派任務和問題
 description: 您不在辦公室時，可以暫時委派指派給您的工作。 本文介紹如何委派任務和問題指派。
-author: Becky
+author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
 last-update: 2026-04-01T18:03:50.000Z
@@ -24,7 +25,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 1556
 ht-degree: 1%
@@ -152,7 +153,7 @@ note from the table for Object permissions:
      >
      >如果您將「結束日期」欄位保留空白，而未選取「無結束日期」選項，則委派僅會針對當天設定。
 
-     ![已展開委派方塊](assets/delegate-box-expanded-in-home.png)
+     ![委派方塊已展開](assets/delegate-box-expanded-in-home.png)
      <!--check screen shot - submitted bug for casing-->
 
 1. 按一下「[!UICONTROL **儲存**]」。

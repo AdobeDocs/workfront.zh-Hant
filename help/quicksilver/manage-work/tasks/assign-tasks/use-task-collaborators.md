@@ -4,10 +4,10 @@ content-type: reference
 description: 瞭解如何使用可指派給Workfront任務的任務共同作業人員、AI共同作業人員。
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: 2070a27e18d768dd14ce4f5c681ab08669c81766
+source-git-commit: a05312fa1def1db593743e5e6d385da0b393d5d4
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 3%
+source-wordcount: '653'
+ht-degree: 2%
 
 ---
 
@@ -69,8 +69,28 @@ ht-degree: 3%
 >* 在Copilot Studio中設定代理程式時，您必須將安全性設定為&#x200B;**無驗證**。
 >* 如需有關在Workfront中建立工作共同作業人員的資訊和指示，請參閱設定AI共同作業人員一文中的[設定工作共同作業人員](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)。
 
+## 任務共同作業程式啟動觸發程式
+
+當任務共同作業人員被指派給任務時，它會在滿足以下任何情況時開始工作：
+
+* 已將任務共同作業人員指派給已準備好開始的任務。 （例如，如果任務具有前置任務，則前置任務為完成。）
+* 任務共同作業人員和使用者會獲派任務，而任務共同作業人員會先獲派。
+* 已為其指派任務共同作業人員的任務變為準備開始。 （例如，如果任務具有前置任務，則前置任務為完成。）
+* 已為其指派任務共同作業人員和使用者的任務變為準備開始。 （例如，如果任務具有前置任務，則前置任務為完成。）
+* 使用者和任務共同作業人員會指派給任務，且使用者會被移除。
+* 使用者和任務共同作業人員被指派給任務，任務共同作業人員被設定為該任務的主要受指派人。
+
+下列情況不會導致任務共同作業人員開始處理任務：
+
+* 已將任務共同作業人員指派給已指派使用者的任務。
+* 在任務中@mentioned立任務共同作業人員。
+* 「任務共同作業人員」會指派給已指派「任務共同作業人員」的任務。 在這種情況下，只有第一個指派的任務共同作業人員會開始處理任務。
+* 已將任務共同作業人員指派給未準備好開始的任務。 （例如，如果任務具有前置任務，則前置任務尚未完成。）
+
 ## 將任務共同作業人員指派給任務
 
 任務指派給共同作業人員的工作方式，與指派使用者的方式相同。
+
+當您在可用受指派人清單中搜尋任務共同作業人員時，任務共同作業人員的名稱只是名字。
 
 如需指示，請參閱[指派工作](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)。

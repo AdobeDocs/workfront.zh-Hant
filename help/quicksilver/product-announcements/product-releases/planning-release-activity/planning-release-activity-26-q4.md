@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 6b8fc9e010c850625deb3927483f79da190e3f33
+source-git-commit: 20f5a513d8d33ecf8770f35bc73ee799a7de939e
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '749'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,29 @@ ht-degree: 0%
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
+## Workfront Planning解決方案架構者技能簡介
+
+>[!NOTE]
+>
+>預覽： 2026年8月10日
+>生產： 2026年8月10日
+
+我們推出一項新技能，即Workfront Planning解決方案架構師，將Workfront Planning的最佳實務代理指引直接帶入Claude。 在Claude介面中，您現在可以執行下列動作：
+
+* 設定新的Planning工作區以符合您的業務需求，讓Workfront MCP伺服器在您的環境中執行設定。
+* 稽核大規模反圖樣的現有設定。
+* 根據建議的限制檢查使用情況。
+* 提出有關Planning的問題。
+
+如需詳細資訊，請參閱[可直接安裝的技能](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)。
+
 ## 在表格檢視中拖放列
 
 >[!NOTE]
 >
->預覽： 2026年7月30日>生產快速發行： 2026年8月13日>所有人生產： 2026年10月15日
+>預覽： 2026年7月30日
+>生產快速發行： 2026年8月13日
+>所有人的生產： 2026年10月15日
 
 在表格檢視中拖放列的體驗已改善視覺效果。
 
@@ -34,7 +52,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2026年7月30日>生產快速版本： 2026年8月13日>每個人都生產： 2026年10月15日
+>預覽： 2026年7月30日
+>生產快速發行： 2026年8月13日
+>適用於所有人的生產： 2026年10月15日
 
 Workspace管理員現在可以定義已連線記錄型別之間的相依性。 例如，確定區域欄位只會顯示與所選地理繫結的值。 這直接在連線欄位設定中設定：當從地域記錄型別新增連線到相依記錄型別（例如地區）時，新設定可讓工作區管理員使用在這些記錄型別之間已建立的關係，將其標籤為相依於地域記錄型別。
 
@@ -55,7 +75,9 @@ Workspace管理員現在可以定義已連線記錄型別之間的相依性。 �
 
 >[!NOTE]
 >
->預覽： 2026年7月30日>生產快速版本： 2026年8月13日>每個人都生產： 2026年10月15日
+>預覽： 2026年7月30日
+>生產快速發行： 2026年8月13日
+>適用於所有人的生產： 2026年10月15日
 
 我們新增了一個指標，顯示記錄中何時有未讀取的評論。 指標顯示在表格檢視中記錄的主要欄位的右上角。
 
@@ -65,7 +87,9 @@ Workspace管理員現在可以定義已連線記錄型別之間的相依性。 �
 
 >[!NOTE]
 > 
->預覽： 2026年7月23日>生產快速發行： 2026年8月13日>所有人生產： 2026年10月15日
+>預覽： 2026年7月23日
+>生產快速發行： 2026年8月13日
+>所有人的生產： 2026年10月15日
 
 記錄現在支援可自訂的調色盤，可讓您將自動指派給新記錄的顏色更新為標準或自訂顏色。
 
@@ -87,7 +111,8 @@ Workspace管理員現在可以定義已連線記錄型別之間的相依性。 �
 ## 規劃Designer現在需要接受Beta合約
 
 >[!NOTE]
->預覽及生產給所有客戶： 2026年7月20日>[!BADGE 取消排程]{type=Neutral}
+>預覽和生產（所有客戶）： 2026年7月20日
+>[!BADGE 不在排程]{type=Neutral}內
 
 規劃Designer現在需要使用已接受的Beta合約。 您的公司不需要簽署AI合約。 這適用於所有客戶。
 

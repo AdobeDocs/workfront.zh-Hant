@@ -6,9 +6,9 @@ description: 根據您的Workfront管理員是否選擇儲存偏好設定預設�
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: 397e5e36632872bb7be3f4e219b36e33b44136e9
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
-source-wordcount: '2037'
+source-wordcount: '2203'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ Workfront管理員可以執行下列任一項作業：
 * 選擇兩個儲存選項之一，作為貴組織的預設值
 * 可讓您選擇建立下列其中一個物件時偏好使用的儲存空間：
 
-   * 專案
-   * 專案組合
-   * 範本
+  * 專案
+  * 專案組合
+  * 範本
 
 如需有關設定Workfront的儲存偏好設定的資訊，請參閱[為您的組織啟用Adobe雲端儲存空間](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
 
@@ -106,12 +106,12 @@ Not sure we need these since this became an overview article:
 * 僅限Adobe雲端儲存空間。 「系統偏好設定」中的「儲存偏好設定」區域不存在。
 * Workfront儲存空間和Adobe雲端儲存空間。 Workfront管理員可選擇下列選項：
 
-   * 選取未來處理檔案的預設儲存環境。
-   * 允許使用者選擇建立下列物件時所選擇的儲存空間：
+  * 選取未來處理檔案的預設儲存環境。
+  * 允許使用者選擇建立下列物件時所選擇的儲存空間：
 
-      * 專案
-      * 專案組合
-      * 範本
+    * 專案
+    * 專案組合
+    * 範本
 
   >[!NOTE]
   >
@@ -144,12 +144,19 @@ Not sure we need these since this became an overview article:
 
 * 當您建立Adobe雲端儲存空間產品組合時，Workfront會在產品組合的「檔案」區段中建立一個資料夾，以儲存檔案。 資料夾名稱與投資組合名稱相同。 您無法刪除或手動重新命名資料夾。 如果您變更投資組合名稱以符合投資組合的新名稱，資料夾會重新命名。
 
-* 當您將Adobe雲端儲存空間專案新增至舊版Workfront儲存空間產品組合，且該產品組合沒有附加任何檔案時，該產品組合會轉換為Adobe雲端儲存空間產品組合。
-* 當您將Adobe雲端儲存空間專案新增至舊版Workfront儲存產品組合，且該產品組合已附加檔案，則產品組合檔案儲存空間仍會保留在Workfront儲存空間中。 不過，產品組合![舊版產品組合儲存圖示](assets/legacy-storage-project-icon.png)的舊版Workfront儲存圖示已從產品組合中移除。
+<!--
+This is not possible anymore: 
+* When you add an Adobe cloud storage project to a legacy Workfront storage portfolio and the portfolio has no documents attached to it, the portfolio is converted to an Adobe cloud storage portfolio. 
+* When you add an Adobe cloud storage project to a legacy Workfront storage portfolio and the portfolio has documents attached to it, the portfolio documents storage remains on Workfront storage. However, the legacy Workfront storage icon for the portfolio ![Legacy portfolio storage icon](assets/legacy-storage-project-icon.png) is removed from the portfolio. 
+-->
 * 您無法將Adobe雲端儲存空間專案新增至舊版儲存空間產品組合，或是將舊版儲存空間專案新增至Adobe儲存空間產品組合。
-* 您的管理員可以在「設定」的「系統偏好設定」區域中，將舊版儲存產品組合轉換為Adobe雲端儲存空間。所有子物件（計畫、專案和檔案）仍保留在舊版儲存體中。新專案將使用Adobe雲端儲存空間。加入產品組合的新檔案將繼續儲存在舊版儲存空間。
+* 您的管理員可以在「設定」的「系統偏好設定」區域中，將舊版儲存產品組合轉換為Adobe雲端儲存空間。 所有子物件（計畫、專案和檔案）仍保留在舊版儲存體中。 新專案將使用Adobe雲端儲存空間。 加入產品組合的新檔案將繼續儲存在舊版儲存空間。
 如需詳細資訊，請參閱[設定系統偏好設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
+* &#x200B;<!-- this point also repeats for programs below-->如果產品組合從舊版儲存空間轉換為Adobe雲端儲存空間，並且計畫具有舊版儲存空間，則計畫中的專案也將使用舊版儲存空間。
 
+  您無法再將現有的舊版儲存裝置專案新增至此產品組合。
+
+  所有新專案都必須使用Adobe雲端儲存空間（因為產品組合現在使用Adobe雲端儲存空間）。 為方案建立類似Adobe雲端儲存空間專案時，方案也會自動從舊版轉換到Adobe雲端儲存空間，而且從此刻起，將無法再新增任何舊版儲存空間專案。
 * 當您使用Workfront Planning自動化建立產品組合時，Workfront會使用您系統的預設產品組合儲存偏好設定。 您必須購買Planning套件，才能存取Workfront Planning。
 
 
@@ -164,6 +171,11 @@ Not sure we need these since this became an overview article:
 * 您無法將Adobe雲端儲存空間程式新增至舊版儲存空間產品組合，或將Legacy程式新增至Adobe雲端儲存空間產品組合。
 * 您無法從舊版儲存空間方案中的Adobe雲端儲存空間範本建立專案。
 * 您可以在Adobe雲端儲存方案中從舊版儲存範本建立專案，但範本上的檔案和資料夾未新增到新專案中。 專案會接收Adobe雲端儲存空間。
+* &#x200B;<!-- this point also repeats for portfolios above-->如果產品組合從舊版儲存空間轉換為Adobe雲端儲存空間，並且計畫具有舊版儲存空間，則計畫中的專案也將使用舊版儲存空間。
+
+  您無法再將現有的舊版儲存裝置專案新增至此產品組合。
+
+  所有新專案都必須使用Adobe雲端儲存空間（因為產品組合現在使用Adobe雲端儲存空間）。 為方案建立類似Adobe雲端儲存空間專案時，方案也會自動從舊版轉換到Adobe雲端儲存空間，而且從此刻起，將無法再新增任何舊版儲存空間專案。
 * 當您使用Workfront Planning自動化建立程式時，Workfront會使用您系統的預設程式儲存偏好設定。 您必須購買Planning套件，才能存取Workfront Planning。
 
 ### 任務的檔案管理
@@ -176,10 +188,10 @@ Not sure we need these since this became an overview article:
 * 對於Adobe雲端儲存空間專案，任務上的檔案資料夾顯示為專案自動建立的檔案資料夾的子資料夾。
 * 您無法將任務從舊版Workfront儲存空間專案複製或移動到Adobe雲端儲存空間專案。 也不可能反轉。
 * 將任務轉換為專案時有下列情況： <!--this info also duplicated in Convert tasks to projects-->
-   * 舊版Workfront儲存空間任務會建立舊版Workfront儲存空間專案。
-   * Adobe雲端儲存空間任務會建立Adobe雲端儲存空間專案。
-   * 使用舊版Workfront儲存範本來轉換Adobe雲端儲存空間任務，會建立Adobe雲端儲存空間專案。
-   * 使用Adobe雲端儲存空間範本來轉換舊版Workfront儲存空間任務，會建立舊版Workfront儲存空間專案。
+  * 舊版Workfront儲存空間任務會建立舊版Workfront儲存空間專案。
+  * Adobe雲端儲存空間任務會建立Adobe雲端儲存空間專案。
+  * 使用舊版Workfront儲存範本來轉換Adobe雲端儲存空間任務，會建立Adobe雲端儲存空間專案。
+  * 使用Adobe雲端儲存空間範本來轉換舊版Workfront儲存空間任務，會建立舊版Workfront儲存空間專案。
 * 您無法在摘要面板中新增檔案至Adobe雲端儲存空間任務。
 
 ### 問題的檔案管理
@@ -192,10 +204,10 @@ Not sure we need these since this became an overview article:
 * 對於Adobe雲端儲存空間專案，問題上的檔案資料夾顯示為專案自動建立的檔案資料夾的子資料夾。
 * 您無法將問題從舊版Workfront儲存空間專案複製或移動到Adobe雲端儲存空間專案。 也不可能反轉。
 * 將問題轉換為專案時，有下列情況： <!--this info also duplicated in Convert an issue to a project-->
-   * 舊版Workfront儲存空間問題會建立舊版Workfront儲存空間專案。
-   * Adobe雲端儲存空間問題會建立Adobe雲端儲存空間專案。
-   * 使用舊版Workfront儲存空間範本來轉換Adobe雲端儲存空間問題，會建立Adobe雲端儲存空間專案。
-   * 使用Adobe雲端儲存空間範本轉換舊版Workfront儲存空間問題時，會建立舊版Workfront儲存空間專案。
+  * 舊版Workfront儲存空間問題會建立舊版Workfront儲存空間專案。
+  * Adobe雲端儲存空間問題會建立Adobe雲端儲存空間專案。
+  * 使用舊版Workfront儲存空間範本來轉換Adobe雲端儲存空間問題，會建立Adobe雲端儲存空間專案。
+  * 使用Adobe雲端儲存空間範本轉換舊版Workfront儲存空間問題時，會建立舊版Workfront儲存空間專案。
 * 您無法在摘要面板中新增檔案至Adobe雲端儲存空間問題。
 
 ### 請求的檔案管理
@@ -211,8 +223,8 @@ Not sure we need these since this became an overview article:
 * 您可以使用舊版Workfront儲存空間範本來建立舊版Workfront儲存空間專案；您可以使用Adobe雲端儲存空間範本來建立Adobe雲端儲存空間專案。
 
 * 使用專案組合或方案的範本建立專案時，會出現下列情況：
-   * 您無法使用舊版Adobe儲存產品組合或方案中的Workfront雲端儲存空間範本來建立專案。
-   * 您可以使用舊版儲存空間範本，為Adobe儲存產品組合或方案建立Adobe雲端儲存空間專案。 任何範本檔案和資料夾都不會附加到新專案。
+  * 您無法使用舊版Adobe儲存產品組合或方案中的Workfront雲端儲存空間範本來建立專案。
+  * 您可以使用舊版儲存空間範本，為Adobe儲存產品組合或方案建立Adobe雲端儲存空間專案。 任何範本檔案和資料夾都不會附加到新專案。
 
 * 您可以將舊版Workfront儲存體範本附加至Adobe雲端儲存體專案，但這不會變更專案上檔案的儲存位置。
 * 您可以將Adobe雲端儲存空間範本附加至舊版Workfront儲存空間專案，但這不會變更專案上檔案的儲存位置。 範本的Adobe雲端儲存資料夾中的檔案會直接新增至專案，而不會新增資料夾，而範本任務資料夾中的檔案會新增至任務的「檔案」區段中附加到專案任務的資料夾。

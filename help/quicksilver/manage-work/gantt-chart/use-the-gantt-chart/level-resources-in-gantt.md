@@ -4,6 +4,7 @@ navigation-topic: use-the-gantt-chart
 title: 在[!UICONTROL 甘特圖]中平準資源
 description: 如果將相同的資源指派給兩個不同的任務，則可以使用資源平準來調整任務的時間表，使它們不會同時發生。 本文提供如何在甘特圖中平準資源的相關資訊。
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
 last-update: 2026-04-01T18:03:50.000Z
@@ -20,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 623
 ht-degree: 3%

@@ -5,6 +5,7 @@ navigation-topic: use-the-gantt-chart
 title: 設定資訊在[!UICONTROL 甘特圖]上的顯示方式
 description: 您可以設定哪些資訊會顯示在工作清單甘特圖和專案清單甘特圖中。
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: 465365a2-d94b-47b6-a393-16770fca2714
 last-update: 2026-04-01T18:03:50.000Z
@@ -23,7 +24,7 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 845
 ht-degree: 2%

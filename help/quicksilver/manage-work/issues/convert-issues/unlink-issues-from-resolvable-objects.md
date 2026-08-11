@@ -4,6 +4,7 @@ navigation-topic: convert-issues
 title: 將問題與其解決物件取消連結
 description: 當您透過將問題轉換為專案或任務來建立專案或任務時，您有選項可保留原始問題。 您的Adobe Workfront管理員必須啟用此偏好設定，您才能在轉換問題期間擁有此選項。 如需將問題轉換為專案和任務的詳細資訊，請參閱在Adobe Workfront中轉換問題的總覽。
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: c18160e5-9f95-4575-a1b3-b4f7e5334844
 last-update: 2026-04-01T18:03:50.000Z
@@ -21,7 +22,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 429
 ht-degree: 3%

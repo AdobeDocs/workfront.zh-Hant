@@ -4,6 +4,7 @@ navigation-topic: use-the-gantt-chart
 title: 更新工作清單甘特圖中的資訊
 description: Adobe Workfront任務清單的甘特圖顯示有關專案或範本上任務的詳細資訊。
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
 last-update: 2026-04-01T18:03:50.000Z
@@ -21,7 +22,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 1010
 ht-degree: 3%

@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
+source-git-commit: 20f5a513d8d33ecf8770f35bc73ee799a7de939e
 workflow-type: tm+mt
-source-wordcount: '14410'
+source-wordcount: '14415'
 ht-degree: 2%
 
 ---
@@ -966,6 +966,7 @@ ht-degree: 2%
     * [設定Adobe Workfront MCP伺服器](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)
     * [使用Adobe Workfront MCP伺服器](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
     * [Adobe Workfront MCP伺服器工具](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)
+    * [可直接安裝的技能](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)
   * 更新工作專案並檢視更新 {#update-work-items-view-updates}
     * [更新工作專案和檢視更新：文章索引](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
     * [更新區段概觀](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)

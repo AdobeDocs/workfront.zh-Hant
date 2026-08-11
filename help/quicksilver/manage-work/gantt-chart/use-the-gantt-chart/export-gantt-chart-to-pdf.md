@@ -3,6 +3,7 @@ navigation-topic: use-the-gantt-chart
 title: 將甘特圖匯出至PDF
 description: 您可以將甘特圖匯出至PDF。 之後，您可以列印或附加至電子郵件，與其他使用者共用。
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: 91aad9e0-25c9-4eae-aa66-8aab763d3b76
 last-update: 2026-04-01T18:03:50.000Z
@@ -20,9 +21,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
-source-wordcount: 968
+source-wordcount: 983
 ht-degree: 3%
 
 ---
@@ -119,18 +120,18 @@ Old:
 
      從下列選項中選取：
 
-      * 實際日期
-      * 指派
-      * 基準線
-      * 認可日期
-      * 完成百分比
-      * 關鍵路徑
-      * 里程碑菱形
-      * 里程碑線
-      * 前置任務
-      * 進度狀態
-      * （視條件而定）計畫日期
-      * （視條件而定）專案日期
+     * 實際日期
+     * 指派
+     * 基準線
+     * 認可日期
+     * 完成百分比
+     * 關鍵路徑
+     * 里程碑菱形
+     * 里程碑線
+     * 前置任務
+     * 進度狀態
+     * （視條件而定）計畫日期
+     * （視條件而定）專案日期
 
      如需詳細資訊，請參閱[設定資訊在[!UICONTROL 甘特圖]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md)上的顯示方式。
 
@@ -149,7 +150,7 @@ Old:
    例如，如果您正在檢視包含50個任務的專案的[!UICONTROL 甘特圖]，但您只想在匯出的[!UICONTROL 甘特圖]上顯示10個任務，請選取您要顯示的10個任務。
 
 1. 按一下甘特圖右上角的印表機圖示![印表機圖示](assets/printer-icon.png)。
-會顯示&#x200B;**[!UICONTROL 匯出至PDF]**&#x200B;對話方塊。
+顯示&#x200B;**[!UICONTROL 匯出至PDF]**&#x200B;對話方塊。
 
    ![匯出至PDF對話方塊](assets/exported-gantt-ui-350x225.png)
 

@@ -4,7 +4,7 @@ content-type: reference
 navigation-topic: projects-navigation-topic
 title: 委派工作
 description: 當您計畫短期不在辦公室時，您可以暫時將您的工作委派給其他使用者，以確保您的缺席不會成為完成工作的障礙。 本節中的文章包含暫時不在辦公室時如何委派工作的相關資訊。
-author: Becky
+author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: e449366e-3bfa-4710-a597-91de404112d4
@@ -19,7 +19,7 @@ subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 129
 ht-degree: 3%

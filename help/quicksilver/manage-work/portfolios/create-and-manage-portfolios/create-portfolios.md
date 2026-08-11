@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
-source-wordcount: 890
+source-wordcount: 902
 ht-degree: 2%
 
 ---
@@ -112,10 +112,10 @@ Old:
 
 * 以下列方式從Workfront Planning新增產品組合：
 
-   * 當您從Workfront Planning中的記錄型別連結它們時。
+  * 當您從Workfront Planning中的記錄型別連結它們時。
 
   如需透過將專案組合新增至記錄來建立專案組合的資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)一文中的「連線時建立記錄」一節。
-   * 使用Workfront Planning自動化。
+  * 使用Workfront Planning自動化。
 
   如需詳細資訊，請參閱[使用Adobe Workfront Planning記錄自動化建立物件](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)。
 
@@ -145,17 +145,19 @@ Old:
 
      產品組合隨即建立，其預設名稱會遵循以下模式，具體取決於Workfront用於檔案的儲存空間：
 
-      * 舊版Workfront儲存產品組合的`Untitled Portfolio`。
+     * 舊版Workfront儲存產品組合的`Untitled Portfolio`。
 
-        舊版Workfront儲存產品組合名稱旁會顯示&#x200B;**舊版Workfront儲存空間**&#x200B;圖示![舊版儲存產品組合圖示](assets/legacy-storage-project-icon.png)。
+       舊版Workfront儲存產品組合名稱旁會顯示&#x200B;**舊版Workfront儲存空間**&#x200B;圖示![舊版儲存產品組合圖示](assets/legacy-storage-project-icon.png)。
 
-      * 適用於Adobe雲端儲存空間產品組合的`Untitled Portfolio - < Month day, year hour.minute.second >`
+     * 適用於Adobe雲端儲存空間產品組合的`Untitled Portfolio - < Month day, year hour.minute.second >`
 
-        >[!IMPORTANT]
-        >
-        >使用Adobe雲端儲存空間的產品組合必須具有唯一名稱。
+       >[!IMPORTANT]
+       >
+       >使用Adobe雲端儲存空間的產品組合必須具有唯一名稱。
 
      若為Adobe雲端儲存產品組合，系統會自動在檔案區域中建立與產品組合約名的新檔案資料夾。
+
+     如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
 1. 將投資組合名稱替換為投資組合標題中的新名稱。
 
