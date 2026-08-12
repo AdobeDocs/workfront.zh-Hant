@@ -4,9 +4,9 @@ content-type: reference
 description: 瞭解如何使用可指派給Workfront任務的任務共同作業人員、AI共同作業人員。
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: 294abde1460326cd43eb30ac1aac134882cd2ee3
+source-git-commit: 45e7f102c201e550f0bd759e4387b17a7aabc806
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '878'
 ht-degree: 1%
 
 ---
@@ -35,11 +35,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p>
+   <td><p>[！UICONTROL標準]</p>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td> 
+   <td>[！UICONTROL系統管理員]</td> 
   </tr> 
   </tbody> 
 </table>
@@ -94,6 +94,10 @@ ht-degree: 1%
 當您在可用受指派人清單中搜尋任務共同作業人員時，任務共同作業人員的名稱只是名字。
 
 如需指示，請參閱[指派工作](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)。
+
+>[!NOTE]
+>
+>無法指派任務共同作業人員檢閱或核准檔案。
 
 ## 疑難排解任務共同作業人員
 
