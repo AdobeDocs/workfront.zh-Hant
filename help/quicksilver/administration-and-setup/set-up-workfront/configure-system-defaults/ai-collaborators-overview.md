@@ -7,9 +7,9 @@ description: 身為Adobe Workfront管理員，您可以設定AI共同作業人�
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 560297cc7e4d7e4b4df5917c1710411454b4c9cb
+source-git-commit: cd2f35687330dc8662b52e930ee8a118c90b6c49
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '74'
 ht-degree: 5%
 
 ---
@@ -22,4 +22,4 @@ AI共同作業人員是AI代理程式，您可以用指派人員的相同方式�
 
 觀看AI共同作業人員如何在Workfront中挑選及完成任務。
 
->[!VIDEO]&#x200B;(（此處為URL）/？quality=12&amp;learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3497105/?quality=12&learn=on)
