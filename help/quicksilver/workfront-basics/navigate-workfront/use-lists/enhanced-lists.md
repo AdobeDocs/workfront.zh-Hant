@@ -8,19 +8,14 @@ exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/2h2QsF799S3w-QTA1sswerywOQvdO9uWZppf5Y-tZvk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 01a67480d4dbaeaa03f3380d825676f7b6478ec0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
 workflow-type: tm+mt
-source-wordcount: 3184
+source-wordcount: 3202
 ht-degree: 1%
 
 ---
@@ -83,6 +78,10 @@ Adobe Workfront的部分割槽域提供增強型清單。 這些清單使用表�
 | 在任務中新增進階指派 | 任務>工作總攬>進階 |
 | 面板管理員檢視 | 面板>管理員檢視 |
 | Adobe雲端儲存空間上的檔案 | 專案，任務，問題，投資組合，方案，範本，範本任務>檔案 |
+<!--
+Add this BEFORE a list of reports in the table above:
+| <span class="preview">List of actions in the Update Feeds</span> | <span class="preview">Setup > Interface > Update Feeds > Actions tab</span> |
+-->
 
 ## 將專案新增至增強型清單
 
@@ -260,10 +259,10 @@ Adobe Workfront的部分割槽域提供增強型清單。 這些清單使用表�
 
    按一下&#x200B;**新檢視**&#x200B;以建立檢視。
 
-1. （視條件而定）若要新增檢視，請輸入檢視的名稱，然後按一下[建立]。**&#x200B;**
+1. （視條件而定）若要新增檢視，請輸入檢視的名稱，然後按一下[建立]。****
 1. （選用）隱藏、顯示或重新排列欄。 如需詳細資訊，請參閱[自訂增強型清單中的欄](#customize-columns-in-an-enhanced-list)。
 1. （選用）篩選清單。 如需詳細資訊，請參閱[篩選增強型清單](#filter-items-in-an-enhanced-list)中的專案。
-1. （選用）將清單中的專案分組。 如需詳細資訊，請參閱增強型清單[&#128279;](#group-items-in-an-enhanced-list)中的群組專案。
+1. （選用）將清單中的專案分組。 如需詳細資訊，請參閱增強型清單](#group-items-in-an-enhanced-list)中的[群組專案。
 
    檢視的變更會自動儲存。 下次套用此檢視時，欄和篩選設定仍會保留您設定的方式。
 

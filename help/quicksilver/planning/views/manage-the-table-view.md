@@ -9,19 +9,14 @@ exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/oajBrzqCNgufbSJPP0Wx8aI14d8VM7IFr-Hn1ed7Wks
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
 workflow-type: tm+mt
-source-wordcount: 3973
+source-wordcount: 4011
 ht-degree: 2%
 
 ---
@@ -315,7 +310,7 @@ Old:
 
 記錄型別最多可以有50,000筆記錄（或列）。
 
-1. 移至記錄型別頁面並選取資料表檢視，或按一下[檢視] **+新增檢視**，然後選擇[資料表] **&#x200B;**。
+1. 移至記錄型別頁面並選取資料表檢視，或按一下[檢視] **+新增檢視**，然後選擇[資料表] ****。
 
 1. 開始新增記錄（或列），如文章[建立記錄](/help/quicksilver/planning/records/create-records.md)中所述。
 
@@ -336,6 +331,8 @@ Old:
    >如果您對表格檢視套用至少一個排序或群組，則無法重新排序列。
    >
    >在相同檢視中存取記錄型別的所有使用者都可以看到您對列順序所做的變更。
+   >
+   ><!--<span class="preview">In the drag and drop line, a number indicator displays the number of records selected, if more than one. </span>-->
 
 1. （選擇性）按一下記錄右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**編輯縮圖**&#x200B;以編輯縮圖。
 1. 按一下表格頂端的&#x200B;**欄位**，然後選取&#x200B;**縮圖**&#x200B;欄位的切換按鈕，將其顯示在主要欄位的左側。 預設會取消選取它。
@@ -469,7 +466,7 @@ Old:
 
       ![檢視中的多重層級篩選器](assets/multi-tiered-filters-in-views.png)
 
-   系統會自動篩選記錄清單。 <!--at this time, you can't name and save the filter - but will this change?!-->
+   系統會自動篩選記錄清單。  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. （選擇性）按一下&#x200B;**x**&#x200B;圖示以移除篩選條件。
@@ -566,8 +563,8 @@ Old:
 考慮以下事項：
 
 * 您可以在表格和時間軸檢視中套用群組。 表格檢視的分組與相同記錄型別之時間軸檢視中的群組是獨立的。
-* 您可以在檢視中套用3個群組層級。記錄會依照您選取的群組順序進行分組。
-&lt;！—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** *使用API時，您最多可以套用4個層級群組。 — 現在正在檢查此層級**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+* 您可以在檢視中套用3個群組層級。 記錄會依照您選取的群組順序進行分組。
+&lt;！—！—*************** *使用API時，您最多可以套用4個層級的群組。  — 立即檢查此專案******************—>
 * 群組對於您選取的檢視而言是唯一的。 相同記錄型別的兩個表格檢視可以套用不同的群組。 檢視相同表格檢視的兩個使用者會看到目前套用的相同分組。
 * 您無法為表格檢視建立的分組命名。
 * 移除群組會將群組從存取與您相同記錄型別以及顯示與您相同檢視的任何人中移除。

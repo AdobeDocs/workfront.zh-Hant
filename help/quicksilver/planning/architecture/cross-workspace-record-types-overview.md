@@ -9,16 +9,12 @@ exl-id: aeedd871-dcd3-4fb3-bfc5-99db3e7c9296
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/G0zsfMcj1dSM-QN3lPprt8rPSoG1Wli4lWqDzMiG3c4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
 workflow-type: tm+mt
-source-wordcount: 1751
+source-wordcount: 1765
 ht-degree: 0%
 
 ---
@@ -105,31 +101,31 @@ ht-degree: 0%
 
 * 您可以從原始工作區對全域記錄型別執行下列動作：
 
-   * 編輯它
+  * 編輯它
 
-     編輯全域記錄型別包括編輯其外觀、跨工作區功能以及在原始工作區中建立的所有欄位。
-   * 共用
+    編輯全域記錄型別包括編輯其外觀、跨工作區功能以及在原始工作區中建立的所有欄位。
+  * 共用
 
-     共用記錄型別會將使用者新增至工作區，也會與這些使用者共用記錄。
-   * 刪除它
+    共用記錄型別會將使用者新增至工作區，也會與這些使用者共用記錄。
+  * 刪除它
 
-     只有在從新增全域記錄型別的所有次要工作區刪除if的所有例項之後，您才能從其原始工作區刪除全域記錄型別。
+    只有在從新增全域記錄型別的所有次要工作區刪除if的所有例項之後，您才能從其原始工作區刪除全域記錄型別。
 
-     如需詳細資訊，請參閱[刪除記錄型別](/help/quicksilver/planning/architecture/delete-record-types.md)。
-   * 使其可從其他工作區連線
-   * 建立及管理申請表單
-   * 建立及管理自動化
+    如需詳細資訊，請參閱[刪除記錄型別](/help/quicksilver/planning/architecture/delete-record-types.md)。
+  * 使其可從其他工作區連線
+  * 建立及管理申請表單
+  * 建立及管理自動化
 
 * 下列記錄會顯示在全域記錄型別的「主要」工作區中：
 
-   * 從主要工作區中的全域記錄型別新增的記錄
-   * 在新增記錄的次要工作區中，從全域記錄型別新增記錄
+  * 從主要工作區中的全域記錄型別新增的記錄
+  * 在新增記錄的次要工作區中，從全域記錄型別新增記錄
 
-     您從次要工作區新增的記錄會彙總並顯示在主要工作區中。 原始主要工作區的所有成員都會獲得其檢視許可權，且即使他們沒有次要工作區的許可權，也只能從主要工作區看見記錄。
+    您從次要工作區新增的記錄會彙總並顯示在主要工作區中。 原始主要工作區的所有成員都會獲得其檢視許可權，且即使他們沒有次要工作區的許可權，也只能從主要工作區看見記錄。
 * 根據記錄從何處新增，您對主要工作區中顯示的記錄具有的許可權種類如下：
 
-   * 您對在主要工作區中建立的記錄擁有與對工作區和原始全域記錄型別相同的許可權。
-   * 您對在次要工作區中建立的記錄擁有與對次要工作區以及該工作區中的全域記錄型別相同的許可權。
+  * 您對在主要工作區中建立的記錄擁有與對工作區和原始全域記錄型別相同的許可權。
+  * 您對在次要工作區中建立的記錄擁有與對次要工作區以及該工作區中的全域記錄型別相同的許可權。
 
   <!--
     Removed this as this was too confusing: 
@@ -159,23 +155,23 @@ ht-degree: 0%
 
 * 次要工作區管理員可以對從次要工作區中的全域記錄型別新增的記錄型別執行下列其他動作：
 
-   * 刪除它。
+  * 刪除它。
 
-     從次要工作區中刪除記錄型別只會將其從次要工作區中移除， 從次要工作區新增至此的記錄和欄位也會從次要空間刪除。 新增至次要空間的記錄會保留在主要工作區中。 這不會從其原始工作區或已新增記錄型別的任何其他次要工作區中刪除記錄型別。
+    從次要工作區中刪除記錄型別只會將其從次要工作區中移除， 從次要工作區新增至此的記錄和欄位也會從次要空間刪除。 新增至次要空間的記錄會保留在主要工作區中。 這不會從其原始工作區或已新增記錄型別的任何其他次要工作區中刪除記錄型別。
 
-     如需詳細資訊，請參閱[刪除記錄型別](/help/quicksilver/planning/architecture/delete-record-types.md)。
+    如需詳細資訊，請參閱[刪除記錄型別](/help/quicksilver/planning/architecture/delete-record-types.md)。
 
-   * 共用
+  * 共用
 
-     在次要工作區中共用全域記錄型別，也會發生下列情況：
+    在次要工作區中共用全域記錄型別，也會發生下列情況：
 
-      * 使用者會新增至具有檢視許可權的工作區。
-      * 使用者會獲得次要工作區中所有全域記錄型別的相同許可權。
-   * 共用記錄型別的檢視。
+    * 使用者會新增至具有檢視許可權的工作區。
+    * 使用者會獲得次要工作區中所有全域記錄型別的相同許可權。
+  * 共用記錄型別的檢視。
 
-     您無法在次要工作區中，透過全域記錄型別公開共用檢視。 您只能從次要工作區內部共用檢視。 您可以在原始工作區中，針對全域記錄型別在內部和公開共用檢視。
+    您無法在次要工作區中，透過全域記錄型別公開共用檢視。 您只能從次要工作區內部共用檢視。 您可以在原始工作區中，針對全域記錄型別在內部和公開共用檢視。
 
-     如需詳細資訊，請參閱[共用檢視](/help/quicksilver/planning/access/share-views.md)。
+    如需詳細資訊，請參閱[共用檢視](/help/quicksilver/planning/access/share-views.md)。
 
 
 <!--
@@ -193,21 +189,26 @@ These two capabilities will come later - and edit some of the bullets below afte
 
 * 任何使用者都無法在次要工作區中對全域記錄型別執行下列動作：
 
-   * 編輯它
+  * 編輯它
 
-     您無法編輯其外觀、跨工作區功能或從原始工作區新增的欄位。
-   * 建立及管理申請表單
-   * 建立及管理自動化
+    您無法編輯其外觀、跨工作區功能或從原始工作區新增的欄位。
+  * 建立及管理自動化
+  * 建立及管理申請表單
+
+    <!--
+        <span class="preview">You can create records for a secondary record type using a request form from the secondary record type page or by specifically indicating which workspace the record should be saved to when filling out a request form created for the primary global record type and updating the Workspace field. 
+        For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).</span>
+        -->
 
 * 當您擁有下列工作區的「檢視」或更高許可權時，您可從這些工作區看見新增至次要工作區的記錄：
 
-   * 新增的次要位置
-   * 全域記錄型別的原始主要工作區
+  * 新增的次要位置
+  * 全域記錄型別的原始主要工作區
 
 * 下列情況適用於存取在次要工作區中建立的記錄：
 
-   * 如果您對原始工作區具有「管理」許可權，而對次要工作區沒有許可權，則可以從原始工作區中的次要工作區檢視新增的記錄，但無法從原始工作區管理這些記錄。
-   * 如果您擁有原始和次要工作區的「管理」許可權，則可以從全域記錄型別的原始工作區以及新增記錄的次要工作區管理記錄。
+  * 如果您對原始工作區具有「管理」許可權，而對次要工作區沒有許可權，則可以從原始工作區中的次要工作區檢視新增的記錄，但無法從原始工作區管理這些記錄。
+  * 如果您擁有原始和次要工作區的「管理」許可權，則可以從全域記錄型別的原始工作區以及新增記錄的次要工作區管理記錄。
   <!--
     not anymore: * You can view the records in additional secondary workspaces where the global record type is added only if you have View permissions to those workspaces
     -->

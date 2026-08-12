@@ -9,20 +9,15 @@ exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/LLfVzbK4pCfwB24Hbf9hx0m-xKMVwuDGBP1l-Kxy6Oo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
 workflow-type: tm+mt
-source-wordcount: 4349
-ht-degree: 2%
+source-wordcount: 4418
+ht-degree: 1%
 
 ---
 
@@ -213,7 +208,7 @@ Old:
    >在「設定」區域中設定自訂季度後，時間軸檢視會顯示自訂季度，而非傳統季度。
    >如需詳細資訊，請參閱[啟用自訂季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
-1. （視條件而定）如果您是Workfront管理員，請按一下&#x200B;**前往設定**&#x200B;設定您的季度。 如果沒有，請按一下[確定] **&#x200B;**，並要求Workfront管理員設定自訂季度。
+1. （視條件而定）如果您是Workfront管理員，請按一下&#x200B;**前往設定**&#x200B;設定您的季度。 如果沒有，請按一下[確定] ****，並要求Workfront管理員設定自訂季度。
 
    >[!TIP]
    >
@@ -396,7 +391,7 @@ Old:
 
 1. （選擇性）新增其他篩選器群組，並由&#x200B;**AND**&#x200B;或&#x200B;**OR**&#x200B;運運算元加入。
 
-   系統會根據您的篩選條件自動篩選記錄清單。 <!--at this time, you can't name and save the filter - but will this change?!-->
+   系統會根據您的篩選條件自動篩選記錄清單。  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. （選擇性）按一下&#x200B;**x**&#x200B;圖示以移除篩選條件。
@@ -419,8 +414,8 @@ Old:
 在時間軸檢視中使用群組時，請考量下列事項：
 
 * 您可以在表格和時間軸檢視中套用群組。 表格檢視的分組與相同記錄型別之時間軸檢視中的群組是獨立的。
-* 您可以在檢視中套用3個群組層級。記錄會依照您選取的群組順序進行分組。
-&lt;！—*使用API時，您最多可以套用4個層級群組。 — 現在正在檢查此層級 — >
+* 您可以在檢視中套用3個群組層級。 記錄會依照您選取的群組順序進行分組。
+&lt;！—！—*使用API時，您最多可以套用4個層級的群組。  — 現在正在檢查此專案 — >
 * 群組對於您選取的檢視而言是唯一的。 相同記錄型別的兩個表格檢視可以套用不同的群組。 檢視相同表格檢視的兩個使用者會看到目前套用的相同分組。
 * 您無法為表格檢視建立的分組命名。
 * 移除群組會將群組從存取與您相同記錄型別以及顯示與您相同檢視的任何人中移除。
@@ -442,6 +437,7 @@ Old:
 1. 按一下其中一個建議的欄位，或按一下&#x200B;**選擇其他欄位**，並搜尋其他欄位，然後在欄位顯示在清單中時按一下它。
 
    分組會自動套用至時間軸，且記錄會顯示在分組方塊內。
+1. （選擇性）按一下&#x200B;**新增條件**&#x200B;以新增最多三個欄位作為群組依據。
 1. （選擇性和條件性）根據您選取的群組依據欄位型別，選取下列其中一個排序選項來依遞增或遞減順序排序群組：
 
    * **A -> Z**&#x200B;或&#x200B;**Z -> A** （針對選取欄位、文字欄位、段落欄位、連線的記錄或物件、人員欄位）
@@ -458,6 +454,7 @@ Old:
 
 1. 在&#x200B;**依**&#x200B;分組記錄方塊中，以正確的順序拖放分組。
 
+
 1. 在&#x200B;**Group records by**&#x200B;方塊的&#x200B;**配置**&#x200B;區域中，選取下列其中一個選項：
 
    * **棧疊**：群組顯示時沒有凍結的左欄，而且符合專案時程表的寬度。
@@ -466,7 +463,9 @@ Old:
    * **泳道**：群組以凍結的左標題欄顯示，其中列出群組專案，且群組符合時間軸檢視的寬度。
 
      在時間表檢視中![泳道群組](assets/swimlane-grouping-in-timeline-view.png)
-
+   <!--
+    1. <span class="preview">(Optional) Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png)  in the toolbar to open the **Group records by** box, then click **Expand all** to expand all the groupings, or **Collapse all** to collapse all the groupings and manually collapse only the ones you need. </span>
+    -->
 1. （選擇性）在&#x200B;**群組記錄依據**&#x200B;方塊中，按一下選取要移除分組的欄位右邊的&#x200B;**x**&#x200B;圖示
 
    或
