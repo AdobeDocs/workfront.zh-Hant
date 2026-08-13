@@ -5,9 +5,9 @@ title: Adobe Workfront MCP伺服器工具
 description: 透過Adobe Workfront MCP伺服器可用的工具參考清單，按Workfront區域分組。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: bea4b02589b7b4d88c86246ce489155e5921a508
+source-git-commit: bce4c4abfb75937424ff12271d85758e007bff6b
 workflow-type: tm+mt
-source-wordcount: '2633'
+source-wordcount: '2581'
 ht-degree: 4%
 
 ---
@@ -48,13 +48,13 @@ ht-degree: 4%
 | --- | --- | --- | --- |
 | 依名稱尋找檔案版本 | `approvals_find_document_version_by_name` | 依檔案名稱查詢檔案的目前版本ID。 支援部分比對。 | 讀取 |
 | 依版本ID取得檔案 | `approvals_get_document_by_version_id` | 會擷取已知檔案版本ID的檔案詳細資訊（名稱、大小、上傳日期、上傳程式）。 | 讀取 |
-| 依專案取得檔案 | `approvals_get_documents_by_project` | 列出Workfront專案內的檔案，每個檔案的目前版本ID。 | 讀取 |
 | 解析檔案範圍 | `approvals_resolve_document_scope` | 將專案或資料夾展開至其包含的檔案版本ID清單中。 支援專案、資料夾和依名稱資料夾範圍。 | 讀取 |
+| 依範圍取得檔案 | `approvals_get_documents_by_scope` | 列出專案或資料夾內的檔案。 | 讀取 |
+| 列出AEM連結的資料夾* | `approvals_list_aem_linked_folders` | 列出連結至Adobe Experience Manager的Workfront檔案資料夾。 | 讀取 |
 | 尋找檔案 | `approvals_find_document` | 依檔案名稱或檔案版本ID查詢檔案 | 讀取 |
-| 依範圍取得檔案 | approvals_get_documents_by_scope | 列出專案或資料夾內的檔案。 | 讀取 |
 | 傳送檔案至AEM資料夾* | `approvals_send_documents_to_aem_folder` | 將一或多個Workfront檔案移動到AEM連結的資料夾。 | 寫入 |
 
-*您必須在Workfront執行個體中設定原生[!DNL Adobe Experience Manager]整合，才能使用這些工具。 如需詳細資訊，請參閱[&#x200B; Adobe Experience Manager Assets整合概述](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)。
+*您必須在Workfront執行個體中設定原生[!DNL Adobe Experience Manager]整合，才能使用這些工具。 如需詳細資訊，請參閱[ Adobe Experience Manager Assets整合概述](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)。
 
 
 *Adobe雲端儲存空間上的專案尚不支援將檔案傳送至AEM資料夾。 未來版本預計會提供支援。
@@ -110,13 +110,8 @@ ht-degree: 4%
 
 | 標題 | 工具名稱 | 作用 | 動作 |
 | --- | --- | --- | --- |
-| 取得目前使用者 | `approvals_get_current_user` | 傳回呼叫使用者的Workfront身分，包括名稱、使用者ID、主團隊名稱和主團隊ID。 | 讀取 |
-| 依名稱尋找使用者 | `approvals_find_user_by_name` | 依名稱查詢Workfront使用者的ID （模糊或部分相符）。 傳回名稱、ID、電子郵件、標題和顯示圖片URL。 | 讀取 |
-| 依名稱尋找團隊 | `approvals_find_team_by_name` | 依名稱查詢Workfront團隊的ID （模糊或部分相符）。 | 讀取 |
 | 依名稱尋找專案 | `approvals_find_project_by_name` | 依整個系統的部分名稱相符專案來查詢Workfront專案。 | 讀取 |
 | 依所有者取得專案 | `approvals_get_projects_by_owner` | 列出呼叫使用者是擁有者的Workfront專案。 | 讀取 |
-| 尋找專案 | approvals_find_projects | 查詢Workfront專案，可選擇依名稱篩選及/或限製為呼叫使用者擁有的專案。 | 讀取 |
-
 
 ## 規劃工具
 
@@ -299,6 +294,7 @@ ht-degree: 4%
 | 尋找Workfront資料 | `insights_find_workfront_data` | 尋找、篩選、計數、排序和彙總Workfront資料。 這是主要的查詢和報表工具。 | 讀取 |
 | 摘要物件 | `insights_summarize_object` | 依ID擷取並摘要單一Workfront物件。 | 讀取 |
 | 列出實體 | `insights_list_entities` | 列出可供查詢的所有Workfront物件型別。 | 讀取 |
+| 搜尋使用者 | `insights_search_users` | 在您的Workfront執行個體中依名稱尋找人員。 輸入完整或部分名稱，然後取回最符合的使用者。 這也可以選擇包括AI共同作業人員「機器人」以及一般使用者。 | 讀取 |
 
 
 
