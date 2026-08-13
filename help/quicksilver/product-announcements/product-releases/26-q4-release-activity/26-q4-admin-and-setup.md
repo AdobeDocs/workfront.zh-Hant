@@ -4,9 +4,9 @@ description: 2026年第四季管理員增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
+source-git-commit: c34c4f351010980098b3efece8643a5f5620917f
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '928'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,35 @@ ht-degree: 0%
 
 如需2026年第四季版本週期目前可用的所有變更清單，請參閱[2026年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)。
 
+<!--
+
+## Interface improvements to the Actions list
+
+>[!NOTE]
+>
+>Preview: August 13, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+The Actions list in the Update Feeds section of the Setup area has an updated look and feel.
+
+The following enhancements are included:
+
+* We removed the Save and Cancel buttons.
+* The Track column now appears in the last position.
+* We removed the confirmation message that previously displayed when you saved changes in this area.
+
+For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+-->
+
 ## 群組管理員可以管理企業檔案
 
 >[!NOTE]
 >
->預覽： 2026年7月30日>生產快速版本： 2026年8月13日>每個人都生產： 2026年10月15日
+>預覽： 2026年7月30日
+>生產快速發行： 2026年8月13日
+>適用於所有人的生產： 2026年10月15日
 
 群組管理員現在可以建立、編輯和刪除他們管理的群組的企業設定檔，而不需要系統管理員存取權。 這可讓組織在群組層級委派業務設定檔管理時擁有更多彈性。
 
@@ -31,7 +55,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2026年7月30日>生產快速版本： 2026年8月13日>每個人都生產： 2026年10月15日
+>預覽： 2026年7月30日
+>生產快速發行： 2026年8月13日
+>適用於所有人的生產： 2026年10月15日
 
 現在系統層級可透過版面配置範本支援增強型清單的檢視。 您可以隱藏現有的系統檢視、將特定檢視指派為預設檢視，以及將自訂檢視新增到系統檢視清單中。
 
@@ -43,7 +69,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2026年7月30日>生產快速版本： 2026年8月13日>每個人都生產： 2026年10月15日
+>預覽： 2026年7月30日
+>生產快速發行： 2026年8月13日
+>適用於所有人的生產： 2026年10月15日
 
 大量編輯對話方塊現在允許編輯外部查閱欄位。 這在之前是不可能的。
 
@@ -57,7 +85,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2026年7月30日>生產快速版本： 2026年8月13日>每個人都生產： 2026年10月15日
+>預覽： 2026年7月30日
+>生產快速發行： 2026年8月13日
+>適用於所有人的生產： 2026年10月15日
 
 自訂表單設計工具預覽模式現在支援進階邏輯選項，包括進階顯示邏輯、預設值邏輯、驗證邏輯、格式邏輯和可編輯性邏輯。 您可以在表單預覽中測試邏輯公式，並視需要在邏輯產生器中調整它們。 您也可以選取測試物件（專案、任務、問題等） 以預覽具有真實內容資料的表單。
 
@@ -71,7 +101,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2026年7月30日>生產快速版本： 2026年8月13日>每個人都生產： 2026年10月15日
+>預覽： 2026年7月30日
+>生產快速發行： 2026年8月13日
+>適用於所有人的生產： 2026年10月15日
 
 Workfront中的「變更歷史記錄」頁面現在會擷取統一檢閱和核准工作流程中的活動，為管理員提供檢閱和檔案生命週期事件的完整治理追蹤。
 
@@ -89,7 +121,9 @@ Workfront中的「變更歷史記錄」頁面現在會擷取統一檢閱和核�
 
 >[!NOTE]
 >
->預覽： 2026年7月30日>生產快速版本： 2026年8月13日>每個人都生產： 2026年10月15日
+>預覽： 2026年7月30日
+>生產快速發行： 2026年8月13日
+>適用於所有人的生產： 2026年10月15日
 
 您現在可以將自訂應用程式設定為版面配置範本中的登入頁面。 已新增至主要功能表的自訂應用程式可用作登陸頁面。
 
@@ -101,7 +135,9 @@ Workfront中的「變更歷史記錄」頁面現在會擷取統一檢閱和核�
 
 >[!NOTE]
 >
->預覽： 2026年7月30日>生產快速版本： 2026年8月13日>每個人都生產： 2026年10月15日
+>預覽： 2026年7月30日
+>生產快速發行： 2026年8月13日
+>適用於所有人的生產： 2026年10月15日
 
 您可以在整個Workfront中新增要追蹤特定物件型別的欄位。 當使用者在該欄位中變更資訊時，系統會將有關變更的資訊記錄為變更歷史記錄中的專案。
 
@@ -113,7 +149,9 @@ Workfront中的「變更歷史記錄」頁面現在會擷取統一檢閱和核�
 
 >[!NOTE]
 >
->預覽： 2026年7月30日>生產快速版本： 2026年8月13日>每個人都生產： 2026年10月15日
+>預覽： 2026年7月30日
+>生產快速發行： 2026年8月13日
+>適用於所有人的生產： 2026年10月15日
 
 在「標準」存取層級上，您現在可以定義具有該層級的使用者是否應該擁有「變更記錄清單」的存取權。 **變更歷程記錄**&#x200B;選項可在存取層級的&#x200B;**允許**&#x200B;的管理存取區段中取得。
 

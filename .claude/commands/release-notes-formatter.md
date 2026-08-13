@@ -1,9 +1,9 @@
 ---
 name: release-notes-formatter
 description: 格式化及驗證Workfront發行說明，以取得一致性、正確結構和正確連結。 僅用於產品版本目錄中的版本注意事項檔案，或者當使用者提及版本注意事項、產品版本或季度版本時。 請勿套用至作法文章或一般檔案。
-source-git-commit: fa39320af72acf6d2ceaf201480baf78a07ae76e
+source-git-commit: dac869369d6d9ef32741aa0972ccf9cb25b2633c
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '2183'
 ht-degree: 2%
 
 ---
@@ -83,7 +83,7 @@ exl-id: <existing UUID — never generate or change>
 >Production for everyone: {Month Day, Year}
 ```
 
-&#x200B;5. **內文**：功能說明，然後連結到說明檔案
+5. **內文**：功能說明，然後連結到說明檔案
 
 #### 總覽頁面
 
@@ -100,10 +100,10 @@ exl-id: <existing UUID — never generate or change>
 * [Document enhancements](#document-enhancements)
 ```
 
-&#x200B;5. 每個產品區域有&#x200B;**H3**&#x200B;搭配HTML功能表（請參閱。claude/commands/_release-notes-formatter-reference.md#overview-feature-table）
+5. 每個產品區域有&#x200B;**H3**&#x200B;搭配HTML功能表（請參閱。claude/commands/_release-notes-formatter-reference.md#overview-feature-table）
    - 在每個表格中，**最新功能排在前** — 最近的列會顯示在表格頂端（標題列之後）
 
-&#x200B;6. **尾端區段** (H2)：其他區域的發行說明、案頭校訂檢視器更新、公告、API版本、維護更新、訓練更新
+6. **尾端區段** (H2)：其他區域的發行說明、案頭校訂檢視器更新、公告、API版本、維護更新、訓練更新
 
 ### 步驟3：驗證連結
 
@@ -135,7 +135,24 @@ exl-id: <existing UUID — never generate or change>
 | 產品區域頁面中的HTML | 維持為Markdown （HTML僅適用於概觀表格） |
 | 遺失`exl-id` | 將其忽略 — 不要產生一個 |
 
-### 步驟6：更新目錄
+### 步驟6：同步概觀頁面
+
+每當您將&#x200B;**新功能**&#x200B;新增至產品區域頁面時，請以相同變更在該季的`{YY}-q{N}-release-overview.md`中新增或更新相符的列。 僅存在於產品區域頁面上而不存在於總覽表格中的功能，將從發行版本總覽索引中隱藏。
+
+- 尋找該產品區域的H3區段（例如，`### Reporting enhancements`），並在表格的&#x200B;**頂端**&#x200B;新增新的`<tr>`列（在標題列之後），符合現有的列格式（請參閱。#overview-feature-table）。
+- 此列中的日期必須符合該功能的產品區域頁面上的`>[!NOTE]`區塊（步驟4）。
+- 如果將功能重新分類至不同的產品區域（例如，從報表移至管理員），請將其列移至新區域的H3區段 — 不要在舊區域中留下舊的副本。
+- 僅限Planning的功能不會新增至概觀表格 — Planning有自己的發行活動頁面，在「其他區域的發行說明」底下連結一次（不需要每個功能列）。
+
+當功能已經有列，而且其內容/日期未變更時，請勿觸碰概觀頁面。
+
+要避免的常見錯誤：
+
+- 將功能的H2新增至產品區域頁面，而不將相符的列新增至概觀表格。
+- 將內容移至不同區域的頁面後，在舊產品區域區段中保留過時的概觀列。
+- 不符合產品區域頁面`>[!NOTE]`區塊的概述列日期。
+
+### 步驟7：更新目錄
 
 每當您建立&#x200B;**新**&#x200B;發行說明頁面（總覽或產品區域）時，請將其新增至`help/quicksilver/TOC.md`，並進行相同變更。 不在目錄中的頁面不會出現在發佈的導覽中，即使概觀表格中的連結指向該頁面。
 
@@ -161,7 +178,7 @@ exl-id: <existing UUID — never generate or change>
 - 從新產品區域頁面連結至其他季度的概述（步驟3）。
 - 在上一個季度的標題下插入新季度的頁面。
 
-### 步驟7：更新首頁
+### 步驟8：更新首頁
 
 每當您建立&#x200B;**新季度的總覽頁面** （亦即，這是新季度的第一頁，而不僅僅是新增到現有季度的新產品區域頁面）時，請以相同變更更新`help/quicksilver/home.md`：
 
@@ -175,6 +192,31 @@ exl-id: <existing UUID — never generate or change>
 
 - 建立新季度的總覽頁面，而不更新`home.md`的「最新版本」索引標籤（它將持續指向舊季度）。
 - 忘記還要將新季度新增到當年索引標籤清單中。
+
+&lt;&lt;&lt;&lt;&lt;&lt;&lt;已更新上游
+### 步驟8：更新產品發行索引頁面
+=======
+### 步驟9：更新產品發行索引頁面
+>>>>>>>>>>隱藏的變更
+> 
+每當您建立&#x200B;**新季度的總覽頁面**&#x200B;時，也需在同一變更中更新`help/quicksilver/product-announcements/product-releases/product-releases.md`：
+
+- 在「Workfront發行版本」欄中尋找目前年份的`<p>Releases in {year}</p>`區塊。
+- 在該年度清單的&#x200B;**前**&#x200B;新增新的`<li>`，連結到新季度的總覽頁面，格式與現有專案相同：
+
+  ```html
+  <li><a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md" class="MCXref xref" xrefformat="{para}">Fourth Quarter 2026 release overview</a></li>
+  ```
+
+- 如果新季度的Planning發行活動頁面存在(`planning-release-activity-{YY}-q{N}.md`)，請在相同列的「其他產品發行」欄頂端新增相符的`<li>`。
+- 如果目前年份還沒有列（新年份的第一季），請依照現有的列結構，在前一年列上方新增新的`<tr data-mc-conditions="">`。
+
+僅將產品區域頁面新增至已列出概觀頁面的季度時，請勿觸及`product-releases.md`。
+
+要避免的常見錯誤：
+
+- 建立新季度的總覽頁面而不將其新增到`product-releases.md` （該頁面將只繼續顯示以前的季度）。
+- 新增總覽連結，但忘記對應的Planning發行活動連結。
 
 ## 檔案命名慣例
 
@@ -247,6 +289,7 @@ Source： 「2026年每月發行行事曆」（Adobe corp wiki、AWF空間 — `
 - [ ]功能是以最新優先順序排列（產品區域頁面和概觀表格）
 - [ ]新發行說明頁面列在正確季度下的`help/quicksilver/TOC.md`中，概覽在前，產品區域按字母順序（其他在後）
 - [ ]如果建立了新季度的總覽頁面，`help/quicksilver/home.md` 「最新版本」索引標籤和當年的索引標籤指向它
+- [ ]如果建立了新季度的總覽頁面，`help/quicksilver/product-announcements/product-releases/product-releases.md`會將其列在當前年度的「Workfront發行版本」清單頂端（如果存在的話，另加規劃連結）
 
 ## 其他資源
 
