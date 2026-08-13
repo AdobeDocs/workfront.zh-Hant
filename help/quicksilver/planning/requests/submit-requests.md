@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
 workflow-type: tm+mt
-source-wordcount: 2547
+source-wordcount: 2778
 ht-degree: 1%
 
 ---
@@ -146,6 +146,28 @@ Workspace管理員可建立請求表單，您能以使用者或外部人員身�
   如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
 <!--
+
+* When you submit a request form to create records from a global record type, the new records are saved either in the primary or the secondary record type, depending on where you submit them from.
+
+   Depending on which environment you use to submit requests and create records, the following scenarios exist when you submit forms for request forms associated with global record types: 
+  
+   * In the Production environment:
+   
+      * If you submit a request form associated with a global record type using any method described in this article, the records display in the primary record type's page. 
+
+   * <span class="preview"> In the Preview environment, the following scenarios exist: </span>
+   
+      * <span class="preview">When you submit a request form from a secondary global record type's page, the record displays in the secondary record type page. Users will also see the new record on the primary record type's page, if they have access to view the secondary workspace. </span>
+      * <span class="preview">When you submit a request form from the primary record type page or using any other method described in this article, the records display in the primary record type page.</span>
+      * <span class="preview">If the **Workspace** field is available in the request form and the user manually chooses a specific workspace to add the record to, the record is saved in that space, regardless of whether the form was selected from the primary or the secondary record type pages.</span>
+ 
+   For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). 
+
+-->
+
+
+
+<!--
 Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.
 -->
 
@@ -155,7 +177,7 @@ Not sure how to change the request status, but dev also said: Changing the names
 {{step1-to-requests}}
 
 1. 開啟熒幕右上角的&#x200B;**使用新體驗**&#x200B;設定。
-開啟此設定後，Workfront的&#x200B;**要求**&#x200B;區域就會提供Workfront規劃要求表單。
+開啟此設定後，Workfront的&#x200B;**要求**&#x200B;區域即可使用Workfront規劃要求表單。
 
    >[!TIP]
    >
@@ -252,7 +274,7 @@ Not sure how to change the request status, but dev also said: Changing the names
    >
    >* 如果要求表單中未更新記錄的主要欄位，則要求之記錄欄位中的記錄名稱會顯示為&#x200B;**未命名**。
    >
-   >* 如果請求表單與核准相關聯，則必須先授權核准，然後才能從請求頁面存取記錄。在授予核准之前，不會建立記錄。
+   >* 如果請求表單與核准相關聯，則必須先授權核准，然後才能從請求頁面存取記錄。 在授予核准之前，不會建立記錄。
    >  如需核准請求的詳細資訊，請參閱[在Adobe Workfront規劃中核准請求](/help/quicksilver/planning/requests/approve-request.md)。
 
 1. （選擇性）按一下&#x200B;**記錄型別**&#x200B;的名稱。
@@ -281,6 +303,40 @@ Removing this as this is covered at a higher level in the Use enhanced lists art
       ![Columns editing box in Requests area](assets/columns-editing-box-in-requests-planning-tab.png)
    * Click the **+** icon in the upper-right corner of the request list to open the **Column manager** and add or remove columns in the requests list. 
 -->
+
+## 從記錄型別頁面提交計畫請求
+
+當您從記錄型別頁面新增記錄時，可以提交請求。
+
+{{step1-to-planning}}
+
+1. 按一下工作區的卡片，然後按一下您有權建立記錄的記錄型別的卡片。
+1. 在記錄型別頁面上的任何檢視中，按一下[新增記錄]，然後按一下[送出要求]。**&#x200B;**。
+
+   >[!TIP]
+   >
+   >必須先建立及發佈要求表單，才能將&#x200B;**提交要求**&#x200B;選項新增至&#x200B;**新記錄**&#x200B;功能。
+
+1. 按一下「**繼續**」。
+
+1. （條件式）如果記錄型別有多個要求表單，請按一下您要在&#x200B;**新要求**&#x200B;方塊中使用的要求表單。
+
+   請求表單隨即開啟。
+1. 開始在所有可用欄位中輸入所有資訊
+
+   或按一下&#x200B;**填寫表單**，讓AI為您填寫表單。
+1. 按一下&#x200B;**送出要求**。
+
+   已提交請求。
+
+1. （選擇性）按一下下列其中一項：
+
+   * **提交其他要求**&#x200B;以開啟新表單。
+   * **檢視您的要求**&#x200B;以開啟新要求。
+   * 方塊右上角的&#x200B;**X**&#x200B;圖示可返回記錄型別頁面。
+
+   如果沒有與您的請求相關的核准，記錄已新增到您在步驟2中選擇的記錄型別。<!--accurate??-->
+
 
 ## 從共用連結提交要求至Workfront Planning至要求表單
 
@@ -323,13 +379,13 @@ Removing this as this is covered at a higher level in the Use enhanced lists art
 
 1. （選擇性）按一下&#x200B;**檢視您的要求**，在Workfront中開啟要求。
 
-或
+   或
 
-按一下[提交其他要求](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request)以開啟要求表單並新增要求。
+   按一下[提交其他要求](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request)以開啟要求表單並新增要求。
 
-請求詳細資訊頁面隨即開啟。
+   請求詳細資訊頁面隨即開啟。
 
-![含有註解的請求頁面](assets/new-request-page-with-comment.png)
+   ![含有註解的請求頁面](assets/new-request-page-with-comment.png)
 
 1. （選擇性）在&#x200B;**註解**&#x200B;區域輸入註解。
 1. （視條件而定）如果要求表單未與核准建立關聯，或要求已核准，請按一下要求名稱，然後在&#x200B;**建立的物件**&#x200B;欄位中按一下記錄名稱。
@@ -382,7 +438,7 @@ Removing this as this is covered at a higher level in the Use enhanced lists art
 
 1. 按一下「請求」清單中的計畫請求名稱，以開啟計畫請求。
 1. 按一下要求名稱右側的&#x200B;**更多**&#x200B;圖示![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**刪除**。
-1. 按一下&#x200B;**永久刪除**&#x200B;方塊中的D **e**&#x200B;以確認。
+1. 在&#x200B;**永久刪除**&#x200B;方塊中按一下&#x200B;**刪除**&#x200B;以進行確認。
 
    請求已刪除，無法復原。
 

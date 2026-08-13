@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
 workflow-type: tm+mt
-source-wordcount: 902
-ht-degree: 10%
+source-wordcount: 956
+ht-degree: 9%
 
 ---
 
@@ -190,6 +190,8 @@ Old:
 
 然後，變更會以系統更新的形式出現在任務或問題的[!UICONTROL 更新]區域中。
 
+當您停用動作時，先前記錄的有關該動作的任何更新都會保留在記錄該動作的[!UICONTROL 更新]區域中。 [!DNL Workfront]停止記錄已停用動作的任何新更新。
+
 下表說明您可以在[!DNL Workfront]中追蹤的物件動作：
 
 <table style="table-layout:auto"> 
@@ -199,7 +201,7 @@ Old:
  <thead> 
   <tr> 
    <th><strong>動作</strong> </th> 
-   <th><strong>物件</strong> </th> 
+   <th><strong>動作套用至</strong>的物件 </th> 
    <th><strong>預設狀態</strong> </th> 
   </tr> 
  </thead> 
@@ -268,4 +270,6 @@ Old:
 1. 選取動作的核取方塊以啟用動作，或取消選取動作以停用動作。
 1. 按一下「**[!UICONTROL 儲存]**」。
 
-   當您停用動作時，先前記錄的有關該動作的任何更新都會保留在記錄該動作的[!UICONTROL 更新]區域中。 [!DNL Workfront]停止記錄已停用動作的任何新更新。
+   <!--<span class="preview">The **Save** button has been removed from the Preview environment and changes are saved automatically. </span>-->
+
+

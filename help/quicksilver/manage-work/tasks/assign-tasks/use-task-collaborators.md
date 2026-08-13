@@ -4,10 +4,10 @@ content-type: reference
 description: 瞭解如何使用可指派給Workfront任務的任務共同作業人員、AI共同作業人員。
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: 72921e4a1cb9ca564a5c8b4a7a587e37f6a90cc5
+source-git-commit: 45e7f102c201e550f0bd759e4387b17a7aabc806
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 2%
+source-wordcount: '878'
+ht-degree: 1%
 
 ---
 
@@ -94,3 +94,23 @@ ht-degree: 2%
 當您在可用受指派人清單中搜尋任務共同作業人員時，任務共同作業人員的名稱只是名字。
 
 如需指示，請參閱[指派工作](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)。
+
+>[!NOTE]
+>
+>無法指派任務共同作業人員檢閱或核准檔案。
+
+## 疑難排解任務共同作業人員
+
+如果您的工作共同作業人員未傳回回應或輸出，請檢查下列專案：
+
+* 請確定您的代理程式已發佈在AI平台提供者端。
+* 請確定您有足夠的代理程式平台的AI積分。
+* 確定對任務採取的操作不需要特定的存取層級。
+* 如果您使用Copilot作為代理程式提供者，請確定您使用的是「無驗證」設定。
+* 如果您使用Copilot，請確定您的代理程式已設定在全球環境中。 Task Collaborator功能目前不支援Copilot Studio的區域版本。
+* 請確定共同作業人員是任務的主要受指派人。
+* 請確定指派給任務共同作業人員的任務可以開始。 例如，檢查該任務的所有前置任務是否已完成。
+
+>[!TIP]
+>
+>您也可以前往代理程式提供者平台，要求代理程式在平台內執行工作。 如果代理程式無法在平台內執行工作，則工作共同作業人員也會在Workfront中遇到問題。
