@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+source-git-commit: 91e55634e4217b1a7eb8307ce689090ff65fea89
 workflow-type: tm+mt
-source-wordcount: 4011
+source-wordcount: 4030
 ht-degree: 2%
 
 ---
@@ -337,7 +337,7 @@ Old:
    >
    >在相同檢視中存取記錄型別的所有使用者都可以看到您對列順序所做的變更。
    >
-   ><!--<span class="preview">In the drag and drop line, a number indicator displays the number of records selected, if more than one. </span>-->
+   ><span class="preview">在拖放行中，如果有多個記錄，數字指示器會顯示選取的記錄數。</span>
 
 1. （選擇性）按一下記錄右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**編輯縮圖**&#x200B;以編輯縮圖。
 1. 按一下表格頂端的&#x200B;**欄位**，然後選取&#x200B;**縮圖**&#x200B;欄位的切換按鈕，將其顯示在主要欄位的左側。 預設會取消選取它。

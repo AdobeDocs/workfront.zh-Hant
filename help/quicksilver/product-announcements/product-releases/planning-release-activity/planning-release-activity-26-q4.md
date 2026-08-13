@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f5a513d8d33ecf8770f35bc73ee799a7de939e
+source-git-commit: c34c4f351010980098b3efece8643a5f5620917f
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '971'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,66 @@ ht-degree: 0%
 本文介紹2026年第四季發行的Workfront Planning功能。
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 拖放多列時的表格檢視增強功能
+
+>[!NOTE]
+>
+>預覽： 2026年8月13日
+>生產快速發行： 2026年8月13日
+>適用於所有人的生產： 2026年10月15日
+
+在表格檢視中拖放多列時，會有新的視覺指示器。 更突出的加號和數字指示器現在會顯示為拖放動作選取了多少列。
+
+如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)。
+
+<!--
+
+## Collapse and expand all groupings in the timeline view
+
+>[!NOTE]
+>
+>Preview: August 13, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+Timeline views now include Collapse all and Expand all options for grouped timelines. This makes it easier to navigate large roadmap views: you can quickly reduce the view to grouping headings, then expand only the sections you want to review.
+
+For more information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+
+-->
+
+## 使用全域記錄型別時，將提交的請求物件路由到正確的工作區
+
+>[!NOTE]
+>
+>預覽： 2026年8月13日
+>生產快速發行： 2026年9月17日
+>適用於所有人的生產： 2026年10月15日
+
+透過提交請求表單為全域記錄型別建立的記錄現在會自動路由到從中提交記錄的工作區。
+
+透過從全域記錄型別的次要工作區提交請求而建立的記錄會新增到該次要工作區。 透過從原始工作區提交請求，或從主請求區域提交請求所建立的記錄會新增到原始工作區。
+
+如果輸入表單包含Workspace欄位，且使用者在提交前選取工作區，則無論表單從何處啟動，請求都會路由至所選的工作區。 這可確保從建立記錄的那一刻起，就將其組織在預期的工作區中。
+
+如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
+
+<!--
+
+## Updated column headers for dependent connected record fields
+
+>[!NOTE]
+>
+>Preview: August 13, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+We've made visual improvements to the column headers for a dependent connected record field in the table view.
+
+For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+
+-->
 
 ## Workfront Planning解決方案架構者技能簡介
 

@@ -5,10 +5,10 @@ title: Adobe Workfront MCP伺服器工具
 description: 透過Adobe Workfront MCP伺服器可用的工具參考清單，按Workfront區域分組。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 53af04ed47a7741db5b3540bf9be706a4f45bca3
+source-git-commit: bce4c4abfb75937424ff12271d85758e007bff6b
 workflow-type: tm+mt
-source-wordcount: '2140'
-ht-degree: 5%
+source-wordcount: '2581'
+ht-degree: 4%
 
 ---
 
@@ -48,20 +48,20 @@ ht-degree: 5%
 | --- | --- | --- | --- |
 | 依名稱尋找檔案版本 | `approvals_find_document_version_by_name` | 依檔案名稱查詢檔案的目前版本ID。 支援部分比對。 | 讀取 |
 | 依版本ID取得檔案 | `approvals_get_document_by_version_id` | 會擷取已知檔案版本ID的檔案詳細資訊（名稱、大小、上傳日期、上傳程式）。 | 讀取 |
-| 依專案取得檔案 | `approvals_get_documents_by_project` | 列出Workfront專案內的檔案，每個檔案的目前版本ID。 | 讀取 |
 | 解析檔案範圍 | `approvals_resolve_document_scope` | 將專案或資料夾展開至其包含的檔案版本ID清單中。 支援專案、資料夾和依名稱資料夾範圍。 | 讀取 |
+| 依範圍取得檔案 | `approvals_get_documents_by_scope` | 列出專案或資料夾內的檔案。 | 讀取 |
+| 列出AEM連結的資料夾* | `approvals_list_aem_linked_folders` | 列出連結至Adobe Experience Manager的Workfront檔案資料夾。 | 讀取 |
 | 尋找檔案 | `approvals_find_document` | 依檔案名稱或檔案版本ID查詢檔案 | 讀取 |
-| 依範圍取得檔案 | approvals_get_documents_by_scope | 列出專案或資料夾內的檔案。 | 讀取 |
+| 傳送檔案至AEM資料夾* | `approvals_send_documents_to_aem_folder` | 將一或多個Workfront檔案移動到AEM連結的資料夾。 | 寫入 |
+
+*您必須在Workfront執行個體中設定原生[!DNL Adobe Experience Manager]整合，才能使用這些工具。 如需詳細資訊，請參閱[&#x200B; Adobe Experience Manager Assets整合概述](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)。
+
+
+*Adobe雲端儲存空間上的專案尚不支援將檔案傳送至AEM資料夾。 未來版本預計會提供支援。
+
 
 <!--
 | List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
-| Send documents to AEM folder* | `approvals_send_documents_to_aem_folder` | Moves one or more Workfront documents to an AEM-linked folder. | Write |
-
-*You must have a native [!DNL Adobe Experience Manager] integration configured in your Workfront instance to use these tools. For more information, see [Overview of Adobe Experience Manager Assets integrations](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
-
-
-*Sending documents to an AEM folder is not yet supported for projects on Adobe cloud storage. Support is expected in a future release.
-
 -->
 
 ### 核准工作流程
@@ -110,13 +110,8 @@ ht-degree: 5%
 
 | 標題 | 工具名稱 | 作用 | 動作 |
 | --- | --- | --- | --- |
-| 取得目前使用者 | `approvals_get_current_user` | 傳回呼叫使用者的Workfront身分，包括名稱、使用者ID、主團隊名稱和主團隊ID。 | 讀取 |
-| 依名稱尋找使用者 | `approvals_find_user_by_name` | 依名稱查詢Workfront使用者的ID （模糊或部分相符）。 傳回名稱、ID、電子郵件、標題和顯示圖片URL。 | 讀取 |
-| 依名稱尋找團隊 | `approvals_find_team_by_name` | 依名稱查詢Workfront團隊的ID （模糊或部分相符）。 | 讀取 |
 | 依名稱尋找專案 | `approvals_find_project_by_name` | 依整個系統的部分名稱相符專案來查詢Workfront專案。 | 讀取 |
 | 依所有者取得專案 | `approvals_get_projects_by_owner` | 列出呼叫使用者是擁有者的Workfront專案。 | 讀取 |
-| 尋找專案 | approvals_find_projects | 查詢Workfront專案，可選擇依名稱篩選及/或限製為呼叫使用者擁有的專案。 | 讀取 |
-
 
 ## 規劃工具
 
@@ -212,10 +207,64 @@ ht-degree: 5%
 | --- | --- | --- | --- |
 | 搜尋物件 | `workflow_search_any_object` | 使用彈性的篩選引數、順序和分頁來搜尋Workfront物件。 | 讀取 |
 | 建立物件 | `workflow_create_any_object` | 建立新的Workfront物件，例如專案、任務、問題、小時、指派、方案或投資組合。 | 寫入 |
-| 更新物件 | `workflow_update_any_object` | 更新現有Workfront物件上的欄位。 | 寫入 |
+| 更新物件 | `workflow_update_any_object` | 更新現有物件的欄位。 也支援將任務或問題移動至另一個專案、將任務或問題轉換為新專案（或問題轉換為任務），以及設定任務前置任務（相依性）。 | 寫入 |
 | 刪除物件 | `workflow_delete_any_object` | 依ID刪除Workfront物件。 執行動作前需要明確的使用者確認。 | 寫入 |
 | 解析欄位名稱 | `workflow_resolve_field_names_any_object` | 將使用者提供的欄位名稱或標籤轉換為基礎Workfront API欄位名稱，讓AI代理平台可以建置準確的請求。 | 讀取 |
 | 讀取工作流程檔案 | `workflow_read_workflow_docs` | 載入Workfront工作流程檔案，包括工具使用指南和物件特定操作教戰手冊。 這是執行「工作流程」動作之前的必要第一個步驟。 | 讀取 |
+
+### 更新物件工具功能
+
+「更新物件」工具不僅會變更欄位值。 它也可以重新定位專案之間的工作、將工作專案升級為新物件，以及連線任務相依性。
+
+#### 將任務或問題移動至其他專案
+
+移動會將工作專案重新父系到適當位置。 物件會保留其身分和連結，只會存在於不同的專案或父系任務中。
+
+>[!NOTE]
+>
+>在純欄位更新中設定專案欄位不會移動任務或問題。 請改用移動功能。
+
+* **移動任務**：將任務移動到目標專案，並選擇性地在目標父級任務下。
+* **移動問題**：將問題（請求）移動到目標專案。
+
+提示範例：
+
+* 「將任務&#x200B;*線框*&#x200B;移動到&#x200B;*行動應用程式重新設計*&#x200B;專案。」
+* 「將此請求移動到&#x200B;*Q4 Launch*&#x200B;專案下。」
+
+#### 將問題或任務轉換為專案
+
+>[!NOTE]
+>
+>轉換會產生新物件。 來源料號已在處理中使用。
+
+* **將任務轉換為專案**：從任務建立新專案。 您可以選擇複製任務的自訂資料，並以專案範本為基礎建立新專案。
+* **將問題（請求）轉換為專案**：從問題建立新專案。 您可以選擇複製問題的自訂資料、複製其原生欄位值，並套用專案範本。
+* **將問題（請求）轉換為任務**：在問題的現有專案上建立任務。
+
+每次轉換都會傳回新建立的物件以及一個連結，讓您直接在Workfront中開啟物件。
+
+提示範例：
+
+* 「使用我們的標準範本，將工作&#x200B;*網站重新整理*&#x200B;轉換為名為&#x200B;*網站重新整理2026*&#x200B;的專案。」
+* 「將此請求轉換為專案，並複製其自訂欄位。」
+
+#### 設定任務前置任務（相依性）
+
+您可以定義任務的前置任務。 前置任務支援下列相依性型別，加上選用的延遲時間：
+
+* **完成 — 開始(FS)**：任務會在前置任務完成時開始。 （預設）
+* **開始 — 開始(SS)**：任務在其前置任務開始時開始。
+* **完成 — 完成(FF)**：任務在前置任務完成時完成。
+* **開始 — 完成(SF)**：任務在前置任務開始時完成。
+
+您可以在工作天新增延遲（延遲）或前置任務（負延遲），在單一任務上鍊結多個前置任務，以及在不同專案中參考任務。
+
+提示範例：
+
+* 「讓&#x200B;*開發*&#x200B;在&#x200B;*設計*&#x200B;完成後開始。」
+* 「將&#x200B;*QA*&#x200B;設定為在&#x200B;*開發*&#x200B;開始時開始，延遲兩天。」
+* 「將任務#3稱和任務#5稱新增為&#x200B;*Launch*&#x200B;的前置任務。」
 
 ### 註解
 
@@ -245,6 +294,7 @@ ht-degree: 5%
 | 尋找Workfront資料 | `insights_find_workfront_data` | 尋找、篩選、計數、排序和彙總Workfront資料。 這是主要的查詢和報表工具。 | 讀取 |
 | 摘要物件 | `insights_summarize_object` | 依ID擷取並摘要單一Workfront物件。 | 讀取 |
 | 列出實體 | `insights_list_entities` | 列出可供查詢的所有Workfront物件型別。 | 讀取 |
+| 搜尋使用者 | `insights_search_users` | 在您的Workfront執行個體中依名稱尋找人員。 輸入完整或部分名稱，然後取回最符合的使用者。 這也可以選擇包括AI共同作業人員「機器人」以及一般使用者。 | 讀取 |
 
 
 

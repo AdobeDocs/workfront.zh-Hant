@@ -4,9 +4,9 @@ description: 2026年第四季報表增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1dd8ab20d11b2b4471308ac5402b31e20359a04c
+source-git-commit: c34c4f351010980098b3efece8643a5f5620917f
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,43 @@ ht-degree: 0%
 
 如需2026年第四季版本週期目前可用的所有變更清單，請參閱[2026年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)。
 
+## 強制排程報表的結束日期
+
+>[!NOTE]
+>
+>預覽： 2026年8月13日
+>生產快速發行： 2026年9月17日
+>適用於所有人的生產： 2026年10月15日
+
+排程報告現在需要結束日期，以防止無限期傳送。 超過其結束日期的排程會自動停用。
+
+現有排程已更新為結束日期，以提高可靠性並減少不必要的系統使用。 Workfront也提供可見度和警告，協助您在報表排程生命週期接近結束日期時加以管理。
+
+如需詳細資訊，請參閱[排程自動報告傳遞](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md)。
+
+<!--
+
+## Updated column headers for dependent connected record fields
+
+>[!NOTE]
+>
+>Preview: August 13, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+We've made visual improvements to the column headers for a dependent connected record field in the table view.
+
+For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+
+-->
+
 ## 清單和報告有原生參考欄位可用
 
 >[!NOTE]
 >
->預覽： 2026年7月30日>生產快速版本： 2026年8月13日>每個人都生產： 2026年10月15日
+>預覽： 2026年7月30日
+>生產快速發行： 2026年8月13日
+>適用於所有人的生產： 2026年10月15日
 
 您現在可以在Workfront中，將原生參考欄位新增至清單和報表。
 
@@ -34,7 +66,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2026年7月30日>生產快速版本： 2026年8月13日>每個人都生產： 2026年10月15日
+>預覽： 2026年7月30日
+>生產快速發行： 2026年8月13日
+>適用於所有人的生產： 2026年10月15日
 
 您現在可以在舊版清單和報告上，以一致且可預測的順序，檢視多選自訂欄位的所選選項。 欄位順序取決於欄位在自訂表單中的排列方式。
 
