@@ -83,7 +83,7 @@ exl-id: <existing UUID — never generate or change>
 >Production for everyone: {Month Day, Year}
 ```
 
-5. **內文**：功能說明，然後連結到說明檔案
+&#x200B;5. **內文**：功能說明，然後連結到說明檔案
 
 #### 總覽頁面
 
@@ -100,10 +100,10 @@ exl-id: <existing UUID — never generate or change>
 * [Document enhancements](#document-enhancements)
 ```
 
-5. 每個產品區域有&#x200B;**H3**&#x200B;搭配HTML功能表（請參閱。claude/commands/_release-notes-formatter-reference.md#overview-feature-table）
+&#x200B;5. 每個產品區域有&#x200B;**H3**&#x200B;搭配HTML功能表（請參閱。claude/commands/_release-notes-formatter-reference.md#overview-feature-table）
    - 在每個表格中，**最新功能排在前** — 最近的列會顯示在表格頂端（標題列之後）
 
-6. **尾端區段** (H2)：其他區域的發行說明、案頭校訂檢視器更新、公告、API版本、維護更新、訓練更新
+&#x200B;6. **尾端區段** (H2)：其他區域的發行說明、案頭校訂檢視器更新、公告、API版本、維護更新、訓練更新
 
 ### 步驟3：驗證連結
 
@@ -194,12 +194,14 @@ exl-id: <existing UUID — never generate or change>
 - 忘記還要將新季度新增到當年索引標籤清單中。
 
 &lt;&lt;&lt;&lt;&lt;&lt;&lt;已更新上游
+
 ### 步驟8：更新產品發行索引頁面
 =======
+
 ### 步驟9：更新產品發行索引頁面
->>>>>>>>>>隱藏的變更
+&#x200B;>>>>>>>>>>隱藏的變更
 > 
-每當您建立&#x200B;**新季度的總覽頁面**&#x200B;時，也需在同一變更中更新`help/quicksilver/product-announcements/product-releases/product-releases.md`：
+>每當您建立&#x200B;**新季度的總覽頁面**&#x200B;時，也需在同一變更中更新`help/quicksilver/product-announcements/product-releases/product-releases.md`：
 
 - 在「Workfront發行版本」欄中尋找目前年份的`<p>Releases in {year}</p>`區塊。
 - 在該年度清單的&#x200B;**前**&#x200B;新增新的`<li>`，連結到新季度的總覽頁面，格式與現有專案相同：
