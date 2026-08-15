@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 53f6405b765424450cf929afc991278625bb33cb
 workflow-type: tm+mt
-source-wordcount: 987
-ht-degree: 11%
+source-wordcount: 1229
+ht-degree: 9%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 11%
 
 >[!IMPORTANT]
 >
->畫布儀表板功能目前僅適用於參與Beta階段的使用者。在此階段中，部分功能可能無法完成或如預期般運作。請依照「畫布控制面板」測試版概觀文章中[提供意見回饋](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)一節的指示，提交有關您體驗的任何意見回饋。<br>
->如果您對可能的錯誤或技術問題有回饋意見，請向Workfront支援提交票證。如需詳細資訊，請參閱[聯絡客戶支援](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
->請注意，此測試版不適用於下列雲端服務提供者：
+>畫布儀表板功能目前僅適用於參與Beta階段的使用者。 在此階段中，部分功能可能無法完成或如預期般運作。 請依照「畫布控制面板」測試版概觀文章中[提供意見回饋](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)一節的指示，提交有關您體驗的任何意見回饋。<br>
+>如果您對可能的錯誤或技術問題有回饋，請向Workfront支援提交票證。 如需詳細資訊，請參閱[聯絡客戶支援](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
+>請注意，以下雲端服務供應商未提供此測試版：
 >
 >* 自備Amazon Web Services金鑰
 >* Azure
@@ -190,6 +190,18 @@ ht-degree: 11%
 * 檔案核准階段>檔案核准階段參與者
 
 使用上面列出的任何父項至子項關係時，您會在表格中看到連線到父物件的每個子記錄的一列。
+
+### 從畫布儀表板報表中排除個人專案、任務和機器人使用者
+
+>[!NOTE]
+>
+>如果「畫布控制面板」報表傳回的結果比您預期類似「傳統」報表還要多，預設情況下可能納入個人專案、個人工作或機器人使用者。 新增篩選條件以將其排除。
+
+在畫布儀表板專案和任務報告中，`isPersonal`篩選器不會自動套用，因此預設會將個人專案和個人任務包含在結果中。 若要排除這些專案，請新增篩選條件，例如`isPersonal=false`。
+
+同樣地，畫布控制面板使用者報表預設會包含所有使用者，包括AI共同作業人員（機器人使用者）。 若要排除機器人使用者，請新增篩選條件，例如`isBot=false`。
+
+傳統專案和任務報告會自動排除個人專案和個人任務，而傳統使用者報告會自動排除機器人使用者。 若要改為將其納入傳統報表，請新增篩選條件，例如`isPersonal=true` （僅限個人專案）或`isPersonal_Mod=notnull` （個人和非個人專案）。
 
 ### 依欄位型別的欄位運運算元
 
