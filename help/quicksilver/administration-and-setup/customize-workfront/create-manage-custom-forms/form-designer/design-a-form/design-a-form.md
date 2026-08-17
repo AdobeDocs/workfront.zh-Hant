@@ -24,9 +24,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
+source-git-commit: ad46ecd012bf3b668396f5d05e2eb96017a43095
 workflow-type: tm+mt
-source-wordcount: 7962
+source-wordcount: 8071
 ht-degree: 4%
 
 ---
@@ -852,8 +852,6 @@ To add typeahead and date fields:
 >* 重試之間的等待持續時間：500毫秒
 >* 預期的回應狀態： 2xx
 
-
-
 ### 新增內部查詢欄位
 
 內部查詢欄位可讓使用者輸入Workfront中存在的物件名稱。 當使用者開始輸入時，建議清單隨即出現。 例如，如果使用者正在輸入使用者名稱，則會顯示相符名稱的清單。 下列物件支援內部查閱欄位型別：
@@ -871,6 +869,12 @@ To add typeahead and date fields:
 * 問題
 * 文件
 * 位置
+
+>[!NOTE]
+>
+>預先輸入欄位無法再新增至自訂表單。 您可以按一下右側欄位選項中的按鈕，將現有的預先輸入轉換為內部查詢。 轉換時，歷史資料會保留在欄位上，在報表中的使用方式也相同。
+> 
+>另請注意，如果環境促銷活動套件中包含預先輸入欄位，則促銷活動發生時，該欄位會自動轉換為內部查詢。 如需有關環境升級的詳細資訊，請參閱[在Workfront環境之間移動物件的概述（環境升級）](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)。
 
 若要新增內部查詢：
 

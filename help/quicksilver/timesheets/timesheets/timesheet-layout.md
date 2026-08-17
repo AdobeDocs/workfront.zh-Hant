@@ -20,7 +20,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
 workflow-type: tm+mt
 source-wordcount: 1056
 ht-degree: 1%
@@ -45,7 +45,7 @@ ht-degree: 1%
 
 如需如何在時程表上記錄時間的詳細資訊，請參閱[記錄時間](../../timesheets/create-and-manage-timesheets/log-time.md)。
 
-![時程表配置](assets/timesheet-layout-unshimmed.png)
+![時程表配置](assets/timesheet-layout-leftnav-updated.png)
 
 以下為時程表的區域：
 
@@ -71,8 +71,8 @@ ht-degree: 1%
 
 * 時程表的時間範圍。
 * 包含以下專案的「動作」區域：
-   * 星形圖示可將時程表新增至您的最愛清單。
-   * 更多圖示和允許您刪除時程表的刪除選項。
+  * 星形圖示可將時程表新增至您的最愛清單。
+  * 更多圖示和允許您刪除時程表的刪除選項。
 * 時程表所有者的名稱。
 * 針對時程表中顯示的專案所記錄的時數總計。
 * 加班小時數。 這是手動專案，只有在時程表上啟用&#x200B;**加班**&#x200B;設定時才會顯示。 如需詳細資訊，請參閱[編輯時程表資訊](../create-and-manage-timesheets/edit-timesheets.md)。

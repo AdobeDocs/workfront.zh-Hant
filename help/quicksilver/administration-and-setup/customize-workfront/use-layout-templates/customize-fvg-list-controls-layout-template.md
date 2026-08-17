@@ -19,9 +19,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 28369dd0d93b6dfce8ea867087938e0d849cf6f8
+source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
 workflow-type: tm+mt
-source-wordcount: 851
+source-wordcount: 847
 ht-degree: 2%
 
 ---
@@ -81,9 +81,6 @@ ht-degree: 2%
 
 1. 開始使用版面配置範本，如[建立和管理版面配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)中所述。
 1. 按一下&#x200B;**自訂使用者看到的內容**&#x200B;下的向下箭頭![向下箭頭](assets/down-arrow-blue.png)，然後在顯示的下拉式功能表中按一下&#x200B;**清單**。
-
-   ![自訂使用者看到的內容](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
-
 1. 按一下&#x200B;**下方的向下箭頭![向下箭頭](assets/down-arrow-blue.png)選取要自訂的清單**，然後選取您要自訂篩選、檢視及群組清單控制項的Workfront物件型別。
 
    ![選取要自訂的清單](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)

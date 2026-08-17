@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
 workflow-type: tm+mt
-source-wordcount: 4087
+source-wordcount: 4246
 ht-degree: 1%
 
 ---
@@ -124,9 +124,8 @@ ht-degree: 1%
 
 {{step1-click-main-menu}}
 
-1. 按一下&#x200B;[!UICONTROL **時程表**]。依預設會顯示您目前的時程表。
-   ![時程表](assets/timesheet-redesigned-nwe.png)
-
+1. 按一下&#x200B;[!UICONTROL **時程表**]。 依預設會顯示您目前的時程表。
+   ![時程表](assets/timesheet-layout-leftnav-updated.png)
 
 1. （選擇性）按一下&#x200B;**全熒幕**&#x200B;圖示![](assets/full-screen.png)以全熒幕模式顯示時程表，然後按一下&#x200B;**退出全熒幕** ![](assets/exit-full-screen.png)圖示以返回時程表。
 
@@ -154,8 +153,8 @@ ht-degree: 1%
 1. （視條件而定）如果您一次新增50個或更多專案，會顯示一則確認訊息，顯示新增至時程表的專案數量。
 
    按一下&#x200B;**全部新增**&#x200B;以新增所有專案
-或
-按一下[取消]&#x200B;**&#x200B;**&#x200B;停止新增選取的專案，然後按一下[取消]&#x200B;**&#x200B;**&#x200B;關閉專案清單。
+   或
+   按一下[取消]&#x200B;**&#x200B;**&#x200B;停止新增選取的專案，然後按一下[取消]&#x200B;**&#x200B;**&#x200B;關閉專案清單。
 
    任務和問題會列在專案名稱下。
 
@@ -288,7 +287,7 @@ ht-degree: 1%
 
 1. （選擇性）按一下左側面板中的&#x200B;[!UICONTROL **更新**]，然後將更新新增至時程表。 如需Workfront更新的詳細資訊，請參閱[更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
-   ![enter-an-update-in-redesigned-timesheet-left-panel](assets/enter-an-update-in-redesigned-timesheet-left-panel.png)
+   ![enter-an-update-in-redesigned-timesheet-left-panel](assets/timesheet-updates-with-all-tab.png)
 
 1. （選用）返回&#x200B;**時程表**&#x200B;區域以關閉或提交您的時程表。
 
@@ -492,7 +491,7 @@ ht-degree: 1%
 
 ### 展示板 {#boards}
 
-您可以在Workfront展示板上記錄已連線卡片上的時間。這是與任務或問題的記錄時間相同的程式，且卡片上記錄的小時會儲存在連線的任務或問題上。
+您可以在Workfront展示板上記錄已連線卡片上的時間。 這是與任務或問題的記錄時間相同的程式，且卡片上記錄的小時會儲存在連線的任務或問題上。
 如需詳細資訊，請參閱[使用主機板上的連線卡](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)。
 
 ### 行動應用程式 {#mobile-app}
@@ -526,19 +525,19 @@ ht-degree: 1%
 
 * 編輯專案特定時數時：
 
-   * 小時數
-   * 時數型別。 您只能將時數型別變更為專案特定型別。
-   * 工作角色指派。 只有在「設定」中啟用工作角色指派時，您才能變更工作角色指派。 如需詳細資訊，請參閱[設定時程表和小時喜好設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
-   * 時數專案的說明。
+  * 小時數
+  * 時數型別。 您只能將時數型別變更為專案特定型別。
+  * 工作角色指派。 只有在「設定」中啟用工作角色指派時，您才能變更工作角色指派。 如需詳細資訊，請參閱[設定時程表和小時喜好設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
+  * 時數專案的說明。
 
 
   ![](assets/edit-hour-box-project-hour-type.png)
 
 * 編輯一般時數時：
 
-   * 小時數。
-   * 時數型別。 您只能將時數型別變更為一般型別。
-   * 時數專案的說明。
+  * 小時數。
+  * 時數型別。 您只能將時數型別變更為一般型別。
+  * 時數專案的說明。
 
 >[!TIP]
 >
@@ -551,8 +550,8 @@ ht-degree: 1%
 
 * 當您大量編輯一般和專案特定時數的組合時：
 
-   * 小時數。
-   * 時數專案的說明。
+  * 小時數。
+  * 時數專案的說明。
 
 >[!TIP]
 >
@@ -585,6 +584,6 @@ ht-degree: 1%
 1. 按一下&#x200B;**儲存變更**。
 
    會更新小時輸入項資訊。
-如果您選取了超過一個小時條目並修改小時欄位，則會將相同的時數分配給所有選定的小時條目。所有所選時數專案的原始時數會以新值取代。
+   如果您選取了超過一個小時條目並修改小時欄位，則會將相同的時數分配給所有選定的小時條目。 所有所選時數專案的原始時數會以新值取代。
 
 

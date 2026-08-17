@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 97a09c592cc1e96f21334dc9f1592116ad10f3d2
 workflow-type: tm+mt
-source-wordcount: 849
+source-wordcount: 851
 ht-degree: 2%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 2%
 
 1. 按一下左側面板中的&#x200B;**工作負載平衡器**。
 
-   ![工作負載平衡器](assets/nwe-balancer-global.png)
+   ![工作負載平衡器](assets/wb-in-res-mgmt.png)
 
    依預設，工作負載平衡器會依資源區域中的資訊顯示以下內容：
 
@@ -118,7 +118,7 @@ ht-degree: 2%
 
 1. 按一下左側面板中的&#x200B;**工作負載平衡器**。
 
-   ![團隊的工作負載平衡器](assets/nwe-balancer-team-350x172.png)
+   ![團隊的工作負載平衡器](assets/wb-on-team.png)
 
    依預設，團隊的工作負載平衡器顯示以下資訊：
 
@@ -138,7 +138,7 @@ ht-degree: 2%
 
    專案的工作負載平衡器顯示。
 
-   專案的![工作負載平衡器](assets/nwe-balancer-project-350x152.png)
+   ![專案的工作負載平衡器](assets/wb-on-project.png)
 
    依預設，專案的工作負載平衡器會依資訊顯示以下內容：
 
