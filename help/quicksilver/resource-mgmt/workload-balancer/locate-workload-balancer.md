@@ -10,21 +10,14 @@ exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/MePbnMO9YHsyUXI3D0K2dMDeAAv3Rae-QKlXaS26aMk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 97a09c592cc1e96f21334dc9f1592116ad10f3d2
 workflow-type: tm+mt
-source-wordcount: 849
+source-wordcount: 851
 ht-degree: 2%
 
 ---
@@ -99,14 +92,14 @@ ht-degree: 2%
 
 1. 按一下左側面板中的&#x200B;**工作負載平衡器**。
 
-   ![工作負載平衡器](assets/nwe-balancer-global.png)
+   ![工作負載平衡器](assets/wb-in-res-mgmt.png)
 
    依預設，工作負載平衡器會依資源區域中的資訊顯示以下內容：
 
    * **未指派的工作**：沒有未指派的工作專案。
    * **已指派的工作**：系統中的所有作用中使用者。
 
-     在「已指派的工作」區域顯示使用者時，我們建議使用篩選器。 如需詳細資訊，請參閱工作負載平衡器[&#128279;](../workload-balancer/filter-information-workload-balancer.md)中的篩選器資訊。
+     在「已指派的工作」區域顯示使用者時，我們建議使用篩選器。 如需詳細資訊，請參閱工作負載平衡器](../workload-balancer/filter-information-workload-balancer.md)中的[篩選器資訊。
 
 ### 存取團隊的工作負載平衡器
 
@@ -118,7 +111,7 @@ ht-degree: 2%
 
 1. 按一下左側面板中的&#x200B;**工作負載平衡器**。
 
-   ![團隊的工作負載平衡器](assets/nwe-balancer-team-350x172.png)
+   ![團隊的工作負載平衡器](assets/wb-on-team.png)
 
    依預設，團隊的工作負載平衡器顯示以下資訊：
 
@@ -138,7 +131,7 @@ ht-degree: 2%
 
    專案的工作負載平衡器顯示。
 
-   專案的![工作負載平衡器](assets/nwe-balancer-project-350x152.png)
+   ![專案的工作負載平衡器](assets/wb-on-project.png)
 
    依預設，專案的工作負載平衡器會依資訊顯示以下內容：
 
