@@ -10,17 +10,12 @@ exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/wpqLg8-2NszOeqT--4RxDP0pZEEnYyPW7UzQeqaLJIo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
 workflow-type: tm+mt
 source-wordcount: 1056
 ht-degree: 1%
@@ -45,7 +40,7 @@ ht-degree: 1%
 
 如需如何在時程表上記錄時間的詳細資訊，請參閱[記錄時間](../../timesheets/create-and-manage-timesheets/log-time.md)。
 
-![時程表配置](assets/timesheet-layout-unshimmed.png)
+![時程表配置](assets/timesheet-layout-leftnav-updated.png)
 
 以下為時程表的區域：
 
@@ -71,8 +66,8 @@ ht-degree: 1%
 
 * 時程表的時間範圍。
 * 包含以下專案的「動作」區域：
-   * 星形圖示可將時程表新增至您的最愛清單。
-   * 更多圖示和允許您刪除時程表的刪除選項。
+  * 星形圖示可將時程表新增至您的最愛清單。
+  * 更多圖示和允許您刪除時程表的刪除選項。
 * 時程表所有者的名稱。
 * 針對時程表中顯示的專案所記錄的時數總計。
 * 加班小時數。 這是手動專案，只有在時程表上啟用&#x200B;**加班**&#x200B;設定時才會顯示。 如需詳細資訊，請參閱[編輯時程表資訊](../create-and-manage-timesheets/edit-timesheets.md)。
@@ -90,7 +85,7 @@ ht-degree: 1%
 您可以存取左側面板中的下列區段：
 
 * **時程表**：顯示實際時程表。
-* **更新**：顯示時程表的評論和系統更新。 如需詳細資訊，請參閱本文左面板[&#128279;](#updates-area-in-the-left-panel)中的更新區域。
+* **更新**：顯示時程表的評論和系統更新。 如需詳細資訊，請參閱本文左面板](#updates-area-in-the-left-panel)中的[更新區域。
 
 ## 工作專案
 
