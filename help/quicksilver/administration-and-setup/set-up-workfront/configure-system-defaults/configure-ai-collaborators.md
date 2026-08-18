@@ -8,18 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: 1894bbb5ec7f44f93468c202fb9c07fa656a83cf
+source-git-commit: c4f48ea9c228e815366230643f5335d116c66597
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 1%
+source-wordcount: '1416'
+ht-degree: 2%
 
 ---
 
 # 設定AI共同作業人員
-
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
-
 
 AI共同作業人員是將AI代理程式加入您的專案和任務的方法。 您可以設定AI共同作業人員，然後將其指派為您想要的使用者。
 
@@ -73,24 +69,20 @@ AI共同作業人員是將AI代理程式加入您的專案和任務的方法。 
 * 您必須先在Workfront中設定品牌，才能將其用於檢閱者型別的AI共同作業人員。
 
   如需指示，請參閱[建立和管理內容檢閱者的品牌](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)。
-* 若要針對檢閱者AI共同作業人員使用Adobe Brand Intelligence，您的組織必須在Workfront中使用統一的檢閱和核准體驗。</span>
+* 若要針對檢閱者AI共同作業人員使用Adobe Brand Intelligence，您的組織必須在Workfront中使用統一的檢閱和核准體驗。
 
-  如需詳細資訊，請參閱[開始進行統一檢閱和核准](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)。</span>
-
-<div class="preview">
+  如需詳細資訊，請參閱[開始進行統一檢閱和核准](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)。
 
 ### 針對任務共同作業人員
 
 您必須先在Claude、Copilot Studio或Writer中設定代理程式，才能將它當做工作共同作業人員使用。
-
-</div>
 
 ## 建立新的檢閱者型別AI共同作業人員
 
 Reviewer AI共同作業人員可設定為使用Workfront品牌或Adobe Brand Intelligence。
 
 * **品牌**：品牌是在Workfront中建立。 您可以上傳包含品牌方針的PDF檔案或手動輸入品牌元素，在Workfront中建立品牌。
-* **Adobe Brand Intelligence**：當AI共同作業人員使用Adobe Brand Intelligence檢閱資產時，您可以在Frame.io中檢視檢閱者所做的評論。 </span>
+* **Adobe Brand Intelligence**：當AI共同作業人員使用Adobe Brand Intelligence檢閱資產時，您可以在Frame.io中檢視檢閱者所做的評論。
 
 
 {{step-1-to-setup}}
@@ -102,8 +94,6 @@ Reviewer AI共同作業人員可設定為使用Workfront品牌或Adobe Brand Int
 1. 選取共同作業人員將使用品牌或Adobe Brand Intelligence進行稽核。
 1. （視條件而定）如果AI共同作業人員將使用品牌，請選取它將使用的品牌和品牌指引。
 1. 按一下「**儲存**」。
-
-<div class="preview">
 
 ## 設定任務共同作業人員
 
@@ -202,8 +192,6 @@ Reviewer AI共同作業人員可設定為使用Workfront品牌或Adobe Brand Int
 1. 將任務共同作業人員指派給Workfront任務。 當任務的所有前置任務完成時，共同作業人員就會開始工作。
 
 +++
-
-</div>
 
 ## 管理AI共同作業人員
 

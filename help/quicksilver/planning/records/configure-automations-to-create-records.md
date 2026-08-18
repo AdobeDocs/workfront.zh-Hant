@@ -18,9 +18,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: 7c21ccc7fb345de3d227eb3dcf7f543670f486f8
 workflow-type: tm+mt
-source-wordcount: 1780
+source-wordcount: 1884
 ht-degree: 4%
 
 ---
@@ -180,7 +180,7 @@ Old:
 
    * 將&#x200B;**未命名的自動化**&#x200B;取代為您要顯示在自動化按鈕上的文字。 使用自動化建立Workfront物件或Planning記錄時，使用者將按一下此按鈕。
    * **描述**：新增描述以識別自動化的目的。
-1. 按一下&#x200B;**儲存**。
+1. 按一下「**儲存**」。
 自動化詳細資訊頁面隨即開啟。
 
 1. 在自動化的詳細資訊頁面上，從&#x200B;**觸發器**&#x200B;區段中的下列選項中選取：
@@ -212,12 +212,17 @@ Old:
 
       已選取![欄位值變更觸發程式](assets/field-value-change-trigger-selected.png)
 
-      >[!TIP]
+      >[!IMPORTANT]
       >
-      >每個條件中的修飾元會隨著您選取的欄位型別而變更。
+      >* 每個條件中的修飾元會隨著您選取的欄位型別而變更。
+      >* 當欄位中有多個選取值時，每個條件都可以貢獻多個篩選器。 您條件中的篩選器總數不得超過5個，且篩選器群組不得為巢狀。 如果您的設定超過此限制，則條件下會顯示內嵌錯誤，而且您必須減少所選選項或條件的數量，才能儲存自動化。
+      >
+      >   如果您需要的條件超過限制，請將工作分割成兩個個別的自動化。
+      >
+      >   如需詳細資訊，請參閱&#x200B;*事件訂閱*&#x200B;中的[使用篩選器群組](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups)。
 
 1. 更新&#x200B;**動作**&#x200B;區段中的下列欄位： <!--submitted bugs for these fields - see if they need changing here-->
-   * **動作**：選取您希望Workfront在觸發自動化時執行的動作。這是必填欄位。
+   * **動作**：選取您希望Workfront在觸發自動化時執行的動作。 這是必填欄位。
      選取下列其中一個動作：
 
      * 建立多個專案
