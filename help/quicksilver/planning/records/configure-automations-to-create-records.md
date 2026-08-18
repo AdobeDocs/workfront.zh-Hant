@@ -9,18 +9,13 @@ exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/GgrkobfJEMRxHMsZF8mXAuH2xEoe-i4GTArk3S8O6fE
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7c21ccc7fb345de3d227eb3dcf7f543670f486f8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 13c240ad1b51b30dd410a1bf8f49678375ab2e93
 workflow-type: tm+mt
-source-wordcount: 1884
+source-wordcount: 1900
 ht-degree: 4%
 
 ---
@@ -215,11 +210,11 @@ Old:
       >[!IMPORTANT]
       >
       >* 每個條件中的修飾元會隨著您選取的欄位型別而變更。
-      >* 當欄位中有多個選取值時，每個條件都可以貢獻多個篩選器。 您條件中的篩選器總數不得超過5個，且篩選器群組不得為巢狀。 如果您的設定超過此限制，則條件下會顯示內嵌錯誤，而且您必須減少所選選項或條件的數量，才能儲存自動化。
+      >* 每個條件都可以參考一或多個值。 在所有條件中，無論您建立多少條件，您最多可以參考5個總計值。 例如，具有3個條件的設定共同參照6個值超過限制。 條件不可巢狀化。 如果您的設定超過5個值的限制，條件下方會顯示內嵌錯誤，而且您必須先減少參考值的數量，才能儲存自動化。
       >
       >   如果您需要的條件超過限制，請將工作分割成兩個個別的自動化。
       >
-      >   如需詳細資訊，請參閱&#x200B;*事件訂閱*&#x200B;中的[使用篩選器群組](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups)。
+      >   如需詳細資訊，請參閱文章事件訂閱中的[使用篩選器群組](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups)。
 
 1. 更新&#x200B;**動作**&#x200B;區段中的下列欄位： <!--submitted bugs for these fields - see if they need changing here-->
    * **動作**：選取您希望Workfront在觸發自動化時執行的動作。 這是必填欄位。
@@ -277,7 +272,7 @@ Old:
        這是必填欄位。
 
        <!--submitted a change in functionality and UI text for this - revise??-->
-                                                                                 在&#x200B;**對應欄位**&#x200B;區域中，更新下列資訊：
+                                                                                 在**對應欄位**&#x200B;區域中，更新下列資訊：
 
        * **傳輸自**：從建立自動化的記錄型別中選取欄位，以將它們對應到連線記錄型別的欄位。
        * **傳輸至**：從新建立的記錄中選取欄位，這些欄位會填入您執行自動化之記錄中的資訊。
@@ -328,13 +323,13 @@ Old:
 
 1. （選擇性）若要檢視、停用或刪除自動化清單，請按一下自動化名稱右邊的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後執行下列其中一項作業：
 
-   * 若要自動變更欄位值，請按一下[檢視] **&#x200B;**&#x200B;以檢視自動設定。
+   * 若要自動變更欄位值，請按一下[檢視] ****&#x200B;以檢視自動設定。
 
      >[!TIP]
      >
      >當自動化是由欄位值變更所觸發時，在自動化設定儲存後，您無法編輯這些設定。
 
-   * 若要使用按一下按鈕的自動化功能，請按一下[編輯] **&#x200B;**&#x200B;來更新下列資訊：
+   * 若要使用按一下按鈕的自動化功能，請按一下[編輯] ****&#x200B;來更新下列資訊：
 
      * 按一下自動化名稱右邊的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後&#x200B;**編輯**，即可取得自動化名稱。
      * 自動化中的任何欄位，**動作**&#x200B;欄位除外。
