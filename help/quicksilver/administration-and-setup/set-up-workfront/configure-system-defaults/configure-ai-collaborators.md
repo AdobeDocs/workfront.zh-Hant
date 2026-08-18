@@ -8,18 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: 1894bbb5ec7f44f93468c202fb9c07fa656a83cf
+source-git-commit: c4f48ea9c228e815366230643f5335d116c66597
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 1%
+source-wordcount: '1416'
+ht-degree: 2%
 
 ---
 
 # 設定AI共同作業人員
-
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
-
 
 AI共同作業人員是將AI代理程式加入您的專案和任務的方法。 您可以設定AI共同作業人員，然後將其指派為您想要的使用者。
 
@@ -50,11 +46,11 @@ AI共同作業人員是將AI代理程式加入您的專案和任務的方法。 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p>
+   <td><p>[！UICONTROL標準]</p>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td> 
+   <td>[！UICONTROL系統管理員]</td> 
   </tr> 
   </tbody> 
 </table>
@@ -73,24 +69,20 @@ AI共同作業人員是將AI代理程式加入您的專案和任務的方法。 
 * 您必須先在Workfront中設定品牌，才能將其用於檢閱者型別的AI共同作業人員。
 
   如需指示，請參閱[建立和管理內容檢閱者的品牌](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)。
-* 若要針對檢閱者AI共同作業人員使用Adobe Brand Intelligence，您的組織必須在Workfront中使用統一的檢閱和核准體驗。</span>
+* 若要針對檢閱者AI共同作業人員使用Adobe Brand Intelligence，您的組織必須在Workfront中使用統一的檢閱和核准體驗。
 
-  如需詳細資訊，請參閱[開始進行統一檢閱和核准](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)。</span>
-
-<div class="preview">
+  如需詳細資訊，請參閱[開始進行統一檢閱和核准](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)。
 
 ### 針對任務共同作業人員
 
 您必須先在Claude、Copilot Studio或Writer中設定代理程式，才能將它當做工作共同作業人員使用。
-
-</div>
 
 ## 建立新的檢閱者型別AI共同作業人員
 
 Reviewer AI共同作業人員可設定為使用Workfront品牌或Adobe Brand Intelligence。
 
 * **品牌**：品牌是在Workfront中建立。 您可以上傳包含品牌方針的PDF檔案或手動輸入品牌元素，在Workfront中建立品牌。
-* **Adobe Brand Intelligence**：當AI共同作業人員使用Adobe Brand Intelligence檢閱資產時，您可以在Frame.io中檢視檢閱者所做的評論。 </span>
+* **Adobe Brand Intelligence**：當AI共同作業人員使用Adobe Brand Intelligence檢閱資產時，您可以在Frame.io中檢視檢閱者所做的評論。
 
 
 {{step-1-to-setup}}
@@ -102,8 +94,6 @@ Reviewer AI共同作業人員可設定為使用Workfront品牌或Adobe Brand Int
 1. 選取共同作業人員將使用品牌或Adobe Brand Intelligence進行稽核。
 1. （視條件而定）如果AI共同作業人員將使用品牌，請選取它將使用的品牌和品牌指引。
 1. 按一下「**儲存**」。
-
-<div class="preview">
 
 ## 設定任務共同作業人員
 
@@ -160,7 +150,7 @@ Reviewer AI共同作業人員可設定為使用Workfront品牌或Adobe Brand Int
       環境ID會顯示在左上角的環境名稱下方。
 
 1. 建立代理。
-   1. 在[受管理的代理程式] > [代理程式]下，按一下右上角的[建立代理程式] **&#x200B;**。
+   1. 在[受管理的代理程式] > [代理程式]下，按一下右上角的[建立代理程式] ****。
    1. 提供適用的名稱、型號、系統提示、技能及工具。 請具描述性，因為任務共同作業人員會將任務內容傳遞給此代理程式，然後執行工作。
       代理程式ID會顯示在左上角的代理程式名稱下方。
 
@@ -203,8 +193,6 @@ Reviewer AI共同作業人員可設定為使用Workfront品牌或Adobe Brand Int
 
 +++
 
-</div>
-
 ## 管理AI共同作業人員
 
 您可以編輯、複製和刪除現有的AI共同作業人員。
@@ -212,6 +200,6 @@ Reviewer AI共同作業人員可設定為使用Workfront品牌或Adobe Brand Int
 {{step-1-to-setup}}
 
 1. 在左側導覽列中，按一下&#x200B;**AI共同作業人員**。
-1. （條件式）若要編輯共同作業人員，請按一下您要編輯的共同作業人員名稱，在[編輯共同作業人員]視窗中進行任何編輯，然後按一下[儲存]。**&#x200B;**
+1. （條件式）若要編輯共同作業人員，請按一下您要編輯的共同作業人員名稱，在[編輯共同作業人員]視窗中進行任何編輯，然後按一下[儲存]。****
 1. （視條件而定）若要複製Collaborator，請按一下要複製之AI Collaborator列中的復製圖示![復製圖示](assets/copy-ai-collaborator.png)，按一下複製的名稱，在Edit Collaborator視窗中進行任何編輯，然後按一下&#x200B;**儲存**。
 1. （視條件而定）若要刪除Collaborator，請在您要刪除的AI Collaborator列中按一下「刪除」圖示![「刪除」圖示](assets/delete-collaborator-icon.png)，然後按一下&#x200B;**「刪除」**。
