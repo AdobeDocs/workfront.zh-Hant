@@ -4,9 +4,9 @@ content-type: reference
 description: 瞭解如何使用可指派給Workfront任務的任務共同作業人員、AI共同作業人員。
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: c4f48ea9c228e815366230643f5335d116c66597
+source-git-commit: 73ca5de2dbc9ef698d3c8fa3098b783168c1c6b2
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '995'
 ht-degree: 1%
 
 ---
@@ -33,11 +33,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p>
+   <td><p>[！UICONTROL標準]</p>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td> 
+   <td>[！UICONTROL系統管理員]</td> 
   </tr> 
   </tbody> 
 </table>
@@ -66,6 +66,24 @@ ht-degree: 1%
 >* 任務共同作業人員目前支援在Copilot Studio、Claude和Writer.ai中建立的代理。
 >* 在Copilot Studio中設定代理程式時，您必須將安全性設定為&#x200B;**無驗證**。
 >* 如需有關在Workfront中建立工作共同作業人員的資訊和指示，請參閱設定AI共同作業人員一文中的[設定工作共同作業人員](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)。
+
+## 任務共同作業人員讀取的資訊
+
+當任務共同作業人員開始處理任務時，會自動讀取下列任務資訊作為前後關聯：
+
+* 任務標題
+* 任務說明
+* 任務更新流中的註解
+* 附加到任務的任何自訂表單中的資訊
+
+此資訊一律會讀取且無法設定為Workfront設定。
+
+>[!TIP]
+>
+>為獲得最佳結果，我們建議：
+>
+>* 包括您希望代理程式直接在任務說明或相關自訂表格欄位中使用的任何背景資訊。
+>* 確定任務符合指示代理程式執行的操作。 例如，如果指示您的代理將文字從英文翻譯成法文，請在工作說明中加入您要翻譯的文字。
 
 ## 任務共同作業程式啟動觸發程式
 
