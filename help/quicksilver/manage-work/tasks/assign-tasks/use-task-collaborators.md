@@ -4,9 +4,9 @@ content-type: reference
 description: 瞭解如何使用可指派給Workfront任務的任務共同作業人員、AI共同作業人員。
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: 73ca5de2dbc9ef698d3c8fa3098b783168c1c6b2
+source-git-commit: d56556791fad5d909a2878c42110fb552b719e2f
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1027'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 任務共同作業人員是可直接指派給Workfront任務的AI共同作業人員，此外還有用於檔案和資產檢閱的現有檢閱者型別AI共同作業人員。 就像其他AI共同作業人員一樣，任務共同作業人員會在「設定」區域中設定，並像使用者一樣指派給任務。
 
-工作共同作業人員會連線到您已設定的代理程式，很像是MCP伺服器。
+任務共同作業人員會連線至您已在Copilot Studio、Claude或Writer中設定的代理程式。
 
 如需有關在Workfront中建立工作共同作業人員的資訊和指示，請參閱設定AI共同作業人員一文中的[設定工作共同作業人員](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)。
 
@@ -33,11 +33,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p>
+   <td><p>[！UICONTROL標準]</p>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td> 
+   <td>[！UICONTROL系統管理員]</td> 
   </tr> 
   </tbody> 
 </table>
@@ -63,6 +63,7 @@ ht-degree: 1%
 >[!NOTE]
 >
 >* 有關代理程式職責和能力的特定詳細資訊是在建立代理程式的應用程式中設定，而不是在Workfront中設定。
+>* Workfront MCP伺服器不需要新增至用作「工作共同作業人員」的代理程式，也不需要連線以讓「工作共同作業人員」運作。
 >* 任務共同作業人員目前支援在Copilot Studio、Claude和Writer.ai中建立的代理。
 >* 在Copilot Studio中設定代理程式時，您必須將安全性設定為&#x200B;**無驗證**。
 >* 如需有關在Workfront中建立工作共同作業人員的資訊和指示，請參閱設定AI共同作業人員一文中的[設定工作共同作業人員](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)。
