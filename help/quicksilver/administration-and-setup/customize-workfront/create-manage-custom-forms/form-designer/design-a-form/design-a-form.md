@@ -24,9 +24,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ad46ecd012bf3b668396f5d05e2eb96017a43095
+source-git-commit: f491bb9e116067344d2b397cb4be5181b18e8ab4
 workflow-type: tm+mt
-source-wordcount: 8071
+source-wordcount: 8056
 ht-degree: 4%
 
 ---
@@ -165,11 +165,11 @@ ht-degree: 4%
 
 * 每個自訂欄位API名稱在貴組織的Workfront例項中必須是唯一的。 如此一來，您便可重複使用已針對其他自訂表單建立的表單。
 
-* 雖然可以這樣做，但建議您不要在您或其他使用者開始使用Workfront中的自訂表單後變更此API名稱。 如果這樣做，系統將不再識別現在可能在Workfront其他區域參考該欄位的自訂欄位。
+* API名稱預設為唯讀。 雖然可以這麼做，但建議您在Workfront中使用自訂表單後，不要變更此API名稱。 如果這樣做，系統將不再識別現在可能在Workfront其他區域參考該欄位的自訂欄位。
 
   例如，如果您新增自訂欄位至報表，之後又變更其API名稱，Workfront將無法辨識報表中的自訂欄位，且除非您使用新名稱將其重新新增至報表，否則將無法正常運作。
 
-* API名稱預設為唯讀。 若要讓API名稱可編輯，請按一下&#x200B;**API名稱**&#x200B;旁的&#x200B;**編輯**&#x200B;圖示。 然後，在確認方塊中輸入&#x200B;**確認**&#x200B;並按一下&#x200B;**重新命名欄位**。
+  您也可以中斷依賴欄位API名稱的現有整合和計算。
 
 * 建議您不要輸入已用於內建Workfront欄位的API名稱。
 

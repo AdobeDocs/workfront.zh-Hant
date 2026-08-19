@@ -6,16 +6,14 @@ description: ' [!DNL Workfront] 中的左側導覽面板可讓您輕鬆導覽系
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 3d0cbbd0fe1cb1ec707df4cd50a3862fcf8767f3
+source-git-commit: 5e2c674c3e0810bd4c6c57889ed659351a03b341
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1419'
 ht-degree: 2%
 
 ---
 
 # [!DNL Adobe Workfront]中的左側導覽
-
-{{preview-fast-release-general}}
 
 WF中的大部分割槽域和物件都使用熒幕左側的簡單導覽面板。 以下是左側面板導覽的優點：
 
@@ -264,11 +262,7 @@ WF中的大部分割槽域和物件都使用熒幕左側的簡單導覽面板。
 
    您必須有編輯物件的許可權，才能編輯資訊。
 
-   <span class="preview">預覽環境中的範例影像：</span>
    ![左側面板區段](assets/left-navigation-panel-072326.png)
-
-   生產環境中的影像範例：
-   ![左側面板區段](assets/left-navigation-panel.png)
 
 1. （選擇性）若要新增儀表板快速連結，請按一下左側面板底部的&#x200B;**[!UICONTROL 新增儀表板]**，然後執行下列動作：
 
@@ -283,17 +277,9 @@ WF中的大部分割槽域和物件都使用熒幕左側的簡單導覽面板。
 
 1. （選擇性）若要移除儀表板快速連結，請將滑鼠停留在左側導覽的儀表板上，然後在其出現時按一下&#x200B;**移除**&#x200B;圖示![移除圖示](assets/remove-dashboard-from-left.png)。
 
-1. （可選）若要變更區段在生產環境中的左側面板中的順序，請按一下區段旁的&#x200B;**[!UICONTROL 拖曳]**&#x200B;圖示![拖曳圖示](assets/drag-icon.png)，然後向上或向下拖曳。
-
-   ![拖曳區段](assets/drag-section.png)
-
-   <div class="preview">
-
-   若要變更「預覽」環境中左側面板中區段的順序，請按一下並將區段向上或向下拖曳到正確的位置。
+1. （可選）若要變更左側面板中區段的順序，請按一下並將區段向上或向下拖曳至正確的位置。
 
    ![拖曳區段](assets/click-drag-left-nav-section.png)
-
-   </div>
 
 1. （選擇性）若要關閉左側面板，請按一下&#x200B;**[!UICONTROL 摺疊]**&#x200B;圖示![](assets/left-panel-collapse-icon.png)。
 

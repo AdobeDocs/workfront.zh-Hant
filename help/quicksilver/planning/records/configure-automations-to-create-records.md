@@ -18,9 +18,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7c21ccc7fb345de3d227eb3dcf7f543670f486f8
+source-git-commit: 13c240ad1b51b30dd410a1bf8f49678375ab2e93
 workflow-type: tm+mt
-source-wordcount: 1884
+source-wordcount: 1900
 ht-degree: 4%
 
 ---
@@ -215,11 +215,11 @@ Old:
       >[!IMPORTANT]
       >
       >* 每個條件中的修飾元會隨著您選取的欄位型別而變更。
-      >* 當欄位中有多個選取值時，每個條件都可以貢獻多個篩選器。 您條件中的篩選器總數不得超過5個，且篩選器群組不得為巢狀。 如果您的設定超過此限制，則條件下會顯示內嵌錯誤，而且您必須減少所選選項或條件的數量，才能儲存自動化。
+      >* 每個條件都可以參考一或多個值。 在所有條件中，無論您建立多少條件，您最多可以參考5個總計值。 例如，具有3個條件的設定共同參照6個值超過限制。 條件不可巢狀化。 如果您的設定超過5個值的限制，條件下方會顯示內嵌錯誤，而且您必須先減少參考值的數量，才能儲存自動化。
       >
       >   如果您需要的條件超過限制，請將工作分割成兩個個別的自動化。
       >
-      >   如需詳細資訊，請參閱&#x200B;*事件訂閱*&#x200B;中的[使用篩選器群組](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups)。
+      >   如需詳細資訊，請參閱文章事件訂閱中的[使用篩選器群組](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups)。
 
 1. 更新&#x200B;**動作**&#x200B;區段中的下列欄位： <!--submitted bugs for these fields - see if they need changing here-->
    * **動作**：選取您希望Workfront在觸發自動化時執行的動作。 這是必填欄位。
