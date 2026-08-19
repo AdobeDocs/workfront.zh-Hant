@@ -6,9 +6,9 @@ description: 規劃在Adobe雲端儲存空間上推出Workfront的計畫。 瞭�
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 36a4c29fb3d5e3ff3bb3b4952076cdd4bdf5d1d6
+source-git-commit: 719cce365a8279b46c849b92f0cd31c6bc4021a8
 workflow-type: tm+mt
-source-wordcount: '2936'
+source-wordcount: '2966'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Adobe雲端儲存空間上的Workfront可啟用完整的統一檢閱和核准體
 
 在您推出Adobe雲端儲存空間之前，請確定管理核准的人員知道會發生什麼事：
 
+* **現有核准的變更**&#x200B;此變更會影響現有的舊版核准工作流程，無論是進行中還是已完成。 如需詳細資訊，請參閱[從舊版檔案核准移至整合式核准](/help/quicksilver/review-and-approve-work/move-to-unified-approvals.md)。
 * **新的核准體驗**&#x200B;稽核者和核准者從舊版檔案核准體驗移至整合式核准，新增多階段核准、平行稽核路徑等。 如需詳細資訊，請參閱下列文章：
 
   * [開始使用統一檢閱和核准](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
