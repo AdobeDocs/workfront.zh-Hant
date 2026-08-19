@@ -10,11 +10,9 @@ exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/o8vr8UGlRZJu3PA-8uyJtzYfpq-nvQmQWdl8Q-yp6tY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
 workflow-type: tm+mt
 source-wordcount: 755
 ht-degree: 1%
@@ -40,11 +38,11 @@ Old:
 >
 >* For the new plan and license structure:
 >
->   * The Ultimate Workfront plan 
+>   * The Ultimate Workfront package 
 >    
 >* For the current plan and license structure: 
 >
->   * A Pro or higher Workfront plan
+>   * A Pro or higher Workfront package
 >   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
@@ -69,8 +67,8 @@ Old:
 
 * 您應根據您的角色更新不同型別的目標。 例如：
 
-   * 身為個人投稿人，我們建議您貢獻適合團隊、群組和公司層級目標的個人目標。 更新您自己的目標應會更新所有其他上層目標的進度。
-   * 身為CEO或業務經理，我們建議您貢獻目標並更新指派給團隊、群組和公司的目標。
+  * 身為個人投稿人，我們建議您貢獻適合團隊、群組和公司層級目標的個人目標。 更新您自己的目標應會更新所有其他上層目標的進度。
+  * 身為CEO或業務經理，我們建議您貢獻目標並更新指派給團隊、群組和公司的目標。
 
 ## 目標對齊型別
 
