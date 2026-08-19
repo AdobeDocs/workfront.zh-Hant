@@ -6,7 +6,7 @@ description: 瞭解當您的組織移至支援統一核准的Workfront版本時�
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: b612a50b7445732f90b7de2a216f4bca499fd96b
+source-git-commit: 8f3c5ed32c6496a13703a5dce771a84462aa7f05
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 1%
@@ -34,8 +34,6 @@ ht-degree: 1%
 | 檢閱和標示 | 校訂檢視器 | 舊版Workfront儲存物件上的[校訂檢視器](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)，或Adobe雲端儲存物件上的[Frame.io檢視器](/help/quicksilver/review-and-approve-work/workfront-storage.md#review-and-approval-viewer) |
 | AI輔助檢閱 | 未提供 | 使用[內容檢閱者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)自動進行品牌相容性檢查 |
 | 報告 | 舊版報告 | 首頁KPI Widget和[畫布儀表板](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) |
-
-
 
 ### 進行中的核准有何變化
 
