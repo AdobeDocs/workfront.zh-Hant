@@ -18,16 +18,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 424
+source-wordcount: 423
 ht-degree: 6%
 
 ---
 
 # 使用摘要更新工作負載平衡器中的工作項
 
-您可以使用任務或問題的摘要面板來更新該專案的重要資訊。 在工作負載平衡器。
+您可以使用任務或問題的摘要面板來更新工作負載平衡器中該專案的重要資訊。
 
 「摘要」面板適用於工作負載平衡器的已指派和未指派工作區域中的任務和問題。
 
@@ -96,7 +96,7 @@ ht-degree: 6%
 
    ![摘要面板](assets/summary-panel-task-wb-new-comments.png)
 
-1. 修改工作專案的許多欄位、輸入更新，或從此處導覽至Workfront的其他區域，將檔案或其他資訊新增至工作專案。
+1. 修改工作專案的許多欄位、輸入更新或從此處導覽至Workfront的其他區域，以將檔案或其他資訊新增至工作專案。
 
    >[!CAUTION]
    >

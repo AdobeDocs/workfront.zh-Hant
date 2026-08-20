@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: c34c4f351010980098b3efece8643a5f5620917f
+source-git-commit: 81eb918df24ec95f911d7c91268239503af434ee
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '1072'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,18 @@ ht-degree: 0%
 本文介紹2026年第四季發行的Workfront Planning功能。
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 已更新相依已連線記錄欄位的欄標題
+
+>[!NOTE]
+>
+>預覽： 2026年8月20日
+>生產快速發行： 2026年9月17日
+>適用於所有人的生產： 2026年10月15日
+
+我們針對表格檢視中相依的已連線記錄欄位，在視覺上改善欄標題。
+
+如需詳細資訊，請參閱[管理相依連線](/help/quicksilver/planning/architecture/manage-dependent-connections.md)。
 
 ## 拖放多列時的表格檢視增強功能
 
@@ -63,22 +75,6 @@ For more information, see [Manage the timeline view](/help/quicksilver/planning/
 
 如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
 
-<!--
-
-## Updated column headers for dependent connected record fields
-
->[!NOTE]
->
->Preview: August 13, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
-
-We've made visual improvements to the column headers for a dependent connected record field in the table view.
-
-For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
-
--->
-
 ## Workfront Planning解決方案架構者技能簡介
 
 >[!NOTE]
@@ -86,12 +82,14 @@ For information, see [Manage dependent connections](/help/quicksilver/planning/a
 >預覽： 2026年8月10日
 >生產： 2026年8月10日
 
-我們推出一項新技能，即Workfront Planning解決方案架構師，將Workfront Planning的最佳實務代理指引直接帶入Claude。 在Claude介面中，您現在可以執行下列動作：
+我們將推出一項新技能，即Workfront Planning解決方案架構師，其將Workfront Planning的代理式最佳實務指引直接帶入Claude：
 
-* 設定新的Planning工作區以符合您的業務需求，讓Workfront MCP伺服器在您的環境中執行設定。
-* 稽核大規模反圖樣的現有設定。
-* 根據建議的限制檢查使用情況。
-* 提出有關Planning的問題。
+* **設定**&#x200B;要規格的新Planning工作區，而Workfront MCP伺服器會在您的環境中執行安裝程式。
+* **稽核**&#x200B;大規模反圖樣的現有設定。
+* **根據建議的限制（記錄、連線、階層深度）檢查使用量**。
+* **隨時詢問有關Planning的問題**。
+
+除了初始設定，這項技能還支援持續性治理，在造成摩擦之前捕捉配置漂移、在限制成為阻隔器之前標籤接近的限制、在每個工作區中強制實施一致的標準（無論設定者為何），並為團隊中的任何成員提供準確的答案，而不需要等候專家。 總體而言，這涵蓋了正確設定工作區的完整生命週期，並隨著使用量增加而維持運作方式。
 
 如需詳細資訊，請參閱[可直接安裝的技能](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)。
 

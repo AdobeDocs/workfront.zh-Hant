@@ -1,23 +1,23 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: native-integrations
-title: 將Experience Manager Assets中的內容和資料夾與Adobe雲端儲存空間連結
-description: 如果您的組織使用Adobe雲端儲存空間，您可以從Experience Manager Assets將內容和資料夾連結至支援檔案的任何Adobe Workfront物件。
+title: 從Experience Manager Assets將資產連結至Adobe雲端儲存空間
+description: 如果您的組織使用Adobe雲端儲存空間，您可以將來自Experience Manager Assets的資產連結至任何支援檔案的Adobe Workfront物件。
 author: Courtney
-source-git-commit: 66635b2edc78833ec2d08cef382b39b89238b565
+source-git-commit: b9eb36bbe792919e975cf27c06524755a3ef550b
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '935'
 ht-degree: 2%
 
 ---
 
-# 將Experience Manager Assets中的內容和資料夾與Adobe雲端儲存空間連結
+# 從Experience Manager Assets將資產連結至Adobe雲端儲存空間
 
-如果您的組織使用Adobe雲端儲存空間，您可以將內容和資料夾從Experience Manager Assets連結至Workfront。 連結後，您可以在Workfront中檢視和管理內容，對Experience Manager Assets內容所做的任何變更都會反映在Workfront中。
+如果您的組織使用Adobe雲端儲存空間，您可以將資產從Experience Manager Assets連結至Workfront。 連結後，您可以在Workfront中檢視和管理資產，對Experience Manager Assets中的資產所做的任何變更都會反映在Workfront中。
 
 >[!IMPORTANT]
 >
->如果貴組織拒絕簽署GenAI Rider合約，您仍可使用「內容警告器」在Experience Manager Assets中選擇資產和資料夾，但您將無法存取AI支援的功能，例如AI 搜尋、智慧建議或分析行銷活動簡報。
+>如果貴組織拒絕簽署GenAI Rider合約，您仍可使用「內容警告器」在Experience Manager Assets中選擇資產，但您將無法存取AI支援的功能，例如AI 搜尋、智慧建議或分析行銷活動簡報。
 
 ## 存取權要求
 

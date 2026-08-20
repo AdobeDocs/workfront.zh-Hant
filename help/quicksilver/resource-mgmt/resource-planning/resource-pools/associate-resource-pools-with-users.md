@@ -16,9 +16,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 6084af27550d2ad407ad6dff4a33b54039e7743b
 workflow-type: tm+mt
-source-wordcount: 435
+source-wordcount: 440
 ht-degree: 5%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 5%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: The info about how to add resource pools to users, are duplicated from the articles listed in those sections (Creating Users, etc). I decided to keep the steps here because those articles are too long to rummage through for updating just this one field.)</p>
 -->
 
-資源集區是使用者的集合，可協助您管理Adobe Workfront中的資源。
+資源集區是協助您管理Adobe Workfront中的資源的使用者集合。
 
 您必須先建立資源集區，然後才能將其與使用者建立關聯。
 
@@ -77,11 +77,11 @@ ht-degree: 5%
 
 {{step-1-to-users}}
 
-1. 勾選清單中使用者名稱旁的方塊，然後按一下&#x200B;**編輯**。
+1. 選取清單中使用者名稱旁的核取方塊，然後按一下[編輯]。**&#x200B;**
 1. 按一下&#x200B;**資源規劃**。
 1. 在&#x200B;**資源集區**&#x200B;欄位中，開始輸入您想要與使用者建立關聯的資源集區名稱，然後在其出現時從清單中選取它。\
    您可以將多個資源集區與一個使用者建立關聯。\
-   ![add_resource_pool_to_user.png](assets/add-resource-pool-to-user-350x307.png)
+   ![新增資源集區至使用者](assets/add-resource-pool-to-user.png)
 
 1. 按一下「**儲存變更**」。
 

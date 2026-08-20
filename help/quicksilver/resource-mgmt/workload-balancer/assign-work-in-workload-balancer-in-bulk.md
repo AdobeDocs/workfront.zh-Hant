@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 154a30289097c946f072a606ce5dbc48a73cf1c5
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 1226
+source-wordcount: 1229
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 3%
 
 您可以使用Adobe Workfront工作負載平衡器大量指派資源給多個任務和問題。
 
-如需使用工作負載平衡器指派工作給使用者的一般資訊，請參閱在工作負載平衡器[&#128279;](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中指派工作的總覽。
+如需使用工作負載平衡器指派工作給使用者和任務共同作業人員的一般資訊，請參閱在工作負載平衡器[&#128279;](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中指派工作的總覽。
 
 ## 存取權要求
 
@@ -231,7 +231,6 @@ To assign a user to work items previously assigned to job roles:
 
 * 指定的使用者會從指派給該使用者的所有工作專案中移除。
 * 如果未指派的使用者與工作角色相關聯，則移除使用者後，工作角色仍會指派給工作專案。
-
 * 如果將指定的使用者指派給已完成的工作專案，則該使用者仍會指派給這些工作專案。
 
 如需有關使用者和工作角色指派的詳細資訊，請參閱[在工作負載平衡器](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中指派工作的總覽。

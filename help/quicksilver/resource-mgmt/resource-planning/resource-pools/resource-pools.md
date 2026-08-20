@@ -14,7 +14,7 @@ feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 6084af27550d2ad407ad6dff4a33b54039e7743b
 workflow-type: tm+mt
 source-wordcount: 72
 ht-degree: 5%
@@ -33,4 +33,3 @@ ht-degree: 5%
 * [將資源集區與使用者關聯](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
 * [從資源集區中移除使用者](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
 
- 

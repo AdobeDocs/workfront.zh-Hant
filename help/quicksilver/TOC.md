@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 8ba03024e1c2ef0da755a6da3da13debb2f4e696
+source-git-commit: 3e5da889d33a67d9d80b2c978bb47510d49b8259
 workflow-type: tm+mt
-source-wordcount: '14417'
+source-wordcount: '14435'
 ht-degree: 2%
 
 ---
@@ -1931,6 +1931,7 @@ ht-degree: 2%
     * [開始使用Workfront內容檢閱者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
     * [Adobe雲端儲存空間概覽](/help/quicksilver/review-and-approve-work/esm-overview.md)
     * [Adobe雲端儲存模式的物件許可權和存取層級總覽](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
+    * [從舊版檔案核准移至整合式核准](/help/quicksilver/review-and-approve-work/move-to-unified-approvals.md)
     * 設定及管理資產和檔案核准 {#manage-asset-review-and-approval}
       * [設定及管理統一核准：文章索引](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
       * [建立並管理內容檢閱者的品牌](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
@@ -2069,6 +2070,7 @@ ht-degree: 2%
     * [開始使用校訂和Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
     * [開始使用校訂和GenStudio for Performance Marketing整合](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
     * [使用Adobe Experience Manager與Frame.io整合](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
+    * [從Experience Manager Assets將資產連結至Adobe雲端儲存空間](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)
     * [透過Frame.io整合開始使用Adobe Express和Workfront](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/express-wf-frame.md)
   * 核准的秘訣、技巧和疑難排解 {#ttt-approvals}
     * [核准的秘訣、技巧和疑難排解：文章索引](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)

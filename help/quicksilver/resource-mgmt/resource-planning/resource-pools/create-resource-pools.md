@@ -16,10 +16,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 6084af27550d2ad407ad6dff4a33b54039e7743b
 workflow-type: tm+mt
-source-wordcount: 515
-ht-degree: 13%
+source-wordcount: 544
+ht-degree: 12%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 13%
      </tr>
      <tr>
       <td role="rowheader"><strong>集區成員</strong></td>
-      <td><p> 個別新增使用者到資源集區。<br>或<br>一次新增大量使用者到資源集區。您可以新增下列與使用者或使用者集合相關聯的實體之一：
+      <td><p> 個別新增使用者至資源集區。<br>或<br>一次新增大量使用者至資源集區。 您可以新增下列與使用者或使用者集合相關聯的實體之一：
         <ul>
          <li><strong>團隊</strong>：團隊的所有成員都已新增至資源集區。</li>
          <li><strong>群組</strong>：群組的所有成員都已新增至資源集區。</li>

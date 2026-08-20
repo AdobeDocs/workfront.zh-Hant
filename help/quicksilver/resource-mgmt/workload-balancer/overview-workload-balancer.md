@@ -22,9 +22,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 1202
+source-wordcount: 1256
 ht-degree: 2%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->您可以使用工作負載平衡器將實際工作（任務和問題）指派給使用者。
+>您可以使用工作負載平衡器來指派實際工作（任務和問題）給使用者和任務共同作業人員。
 >
 >您必須使用資源規劃工具，而不是工作負載平衡器，以高層級評估您專案的工作角色分配。 如需資源規劃工具的詳細資訊，請參閱[資源規劃工具概觀](../../resource-mgmt/resource-planning/get-started-resource-planner.md)。
 
@@ -114,28 +114,25 @@ ht-degree: 2%
 
 * 您要管理其工作負載的使用者必須符合下列條件，以便有關其使用狀態和技能的資訊是準確的：
 
-   * 擁有與其設定檔相關聯的排程和工作角色。
+  * 擁有與其設定檔相關聯的排程和工作角色。
 
-     如需將排程和工作角色與使用者產生關聯的詳細資訊，請參閱[新增使用者](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
-   * 若使用者未與排程建立關聯，為了進行資源管理，您的Workfront系統的「預設排程」預設會與使用者建立關聯。
-   * 在其排程中更新「排程例外」。
+    如需將排程和工作角色與使用者產生關聯的詳細資訊，請參閱[新增使用者](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
+  * 若使用者未與排程建立關聯，為了進行資源管理，您的Workfront系統的「預設排程」預設會與使用者建立關聯。
+  * 在其排程中更新「排程例外」。
 
-     如需建立排程的詳細資訊，請參閱[建立排程](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+    如需建立排程的詳細資訊，請參閱[建立排程](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
-   * 在設定檔中更新其休假行事曆。
+  * 在設定檔中更新其休假行事曆。
 
-     如需有關更新使用者休假行事曆的資訊，請參閱[設定個人休假](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)。
-
-     <!--   
-     <div data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     <p>(NOTE: Add another bullet for Costs, when this becomes available:</p>   
-     <p>If you want to budget your resources by Cost, you must associate Job Roles with Cost/ Hr. rates. The cost associated with Job Roles assigned to users in your Resource Pools is used to calculate the Budgeted Labor Cost and the Budgeted Cost of the project.For more information about associating job roles with rates, see the article Creating and Managing Job Roles in the new Adobe Workfront experience.For more information about calculating Budgeted Labor Cost, see the article Calculating Budgeted Labor Cost in the new Adobe Workfront experience.For more information about calculating Budgeted Cost, see the article Calculating Budgeted Cost in .) </p>   
-     </div>   
-     -->
+    如需有關更新使用者休假行事曆的資訊，請參閱[設定個人休假](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)。
 
 * Workfront管理員必須決定Workfront計算使用者可用性的方式。 他們可以決定Workfront是否使用系統預設排程，或使用者的排程，透過調整Workfront設定區域中的資源管理偏好設定來計算使用者可使用的時間。
 
   如需詳細資訊，請參閱[設定資源管理喜好設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)。
+
+* 您可以透過所有與將工作指派給使用者相同的方法，將工作指派給任務共同作業人員。 任務共同作業人員必須存在於Workfront中，才能指派給任務。
+
+  如需有關建立任務共同作業人員的資訊，請參閱[設定AI共同作業人員](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)一文中的[設定任務共同作業人員](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)。
 
 ### 設定任務和問題的最佳實務 {#best-practices-for-setting-up-tasks-and-issues}
 
@@ -143,7 +140,6 @@ ht-degree: 2%
 
 * 父系任務未指派給使用者或角色。 父系任務未顯示在工作負載平衡器中。
 * 任務和問題的計畫時數值大於零。
-
 * 任務和問題的持續時間值大於零。
 * 問題的計畫日期在專案的時間表內。
 
@@ -151,12 +147,12 @@ ht-degree: 2%
 
 * 開始使用工作負載平衡器之前請檢閱下列文章：
 
-   * 本文會逐步說明如何導覽工作負載平衡器以執行這些動作： [導覽工作負載平衡器](../workload-balancer/navigate-the-workload-balancer.md)。
+  * 本文會逐步說明如何導覽工作負載平衡器以執行這些動作： [導覽工作負載平衡器](../workload-balancer/navigate-the-workload-balancer.md)。
 
-   * 以下文章將逐步引導您瞭解如何指派工作和管理使用者分配：
+  * 以下文章將逐步引導您瞭解如何指派工作和管理使用者分配：
 
-      * [在工作負載平衡器](../workload-balancer/assign-work-in-workload-balancer.md)中指派工作的概觀。
-      * [在工作負載平衡器](../workload-balancer/manage-user-allocations-workload-balancer.md)中管理使用者配置。
+    * [在工作負載平衡器](../workload-balancer/assign-work-in-workload-balancer.md)中指派工作的概觀。
+    * [在工作負載平衡器](../workload-balancer/manage-user-allocations-workload-balancer.md)中管理使用者配置。
 
 * 工作負載平衡器可以在Workfront的多個不同區域找到。 如需您可以在何處找到工作負載平衡器的相關資訊，請參閱[尋找工作負載平衡器](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)。
 
