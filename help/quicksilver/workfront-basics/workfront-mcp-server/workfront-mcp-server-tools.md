@@ -5,9 +5,9 @@ title: Adobe Workfront MCP伺服器工具
 description: 透過Adobe Workfront MCP伺服器可用的工具參考清單，按Workfront區域分組。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 2de2dd8d79af0929f010cda304f8d1e008deb553
+source-git-commit: c52aa353d5b9856cc6c7de458596f0145fb2c6e0
 workflow-type: tm+mt
-source-wordcount: '2705'
+source-wordcount: '2721'
 ht-degree: 4%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 4%
 | 尋找檔案 | `approvals_find_document` | 已棄用。 請改用`insights_find_workfront_data`。 此工具會依檔案名稱或檔案版本ID來查詢檔案。 | 讀取 |
 | 傳送檔案至AEM資料夾* | `approvals_send_documents_to_aem_folder` | 將一或多個Workfront檔案移動到AEM連結的資料夾。 | 寫入 |
 
-*您必須在Workfront執行個體中設定原生[!DNL Adobe Experience Manager]整合，才能使用這些工具。 如需詳細資訊，請參閱[&#x200B; Adobe Experience Manager Assets整合概述](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)。
+*您必須在Workfront執行個體中設定原生[!DNL Adobe Experience Manager]整合，才能使用這些工具。 如需詳細資訊，請參閱[ Adobe Experience Manager Assets整合概述](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)。
 
 
 *Adobe雲端儲存空間上的專案尚不支援將檔案傳送至AEM資料夾。 未來版本預計會提供支援。
@@ -110,8 +110,8 @@ ht-degree: 4%
 
 | 標題 | 工具名稱 | 作用 | 動作 |
 | --- | --- | --- | --- |
-| 依名稱尋找專案 | `approvals_find_project_by_name` | 依整個系統的部分名稱相符專案來查詢Workfront專案。 | 讀取 |
-| 依所有者取得專案 | `approvals_get_projects_by_owner` | 列出呼叫使用者是擁有者的Workfront專案。 | 讀取 |
+| 依名稱尋找專案 | `approvals_find_project_by_name` | 2026年8月13日移除。 請改用`insights_find_id_by_name`。 此工具會透過系統內相符的部分名稱來查詢Workfront專案。 | 讀取 |
+| 依所有者取得專案 | `approvals_get_projects_by_owner` | 2026年8月13日移除。 請改用`insights_find_workfront_data`。 此工具列出Workfront專案，其中電話使用者是其擁有者。 | 讀取 |
 | 取得目前使用者 | `approvals_get_current_user` | 2026年8月13日移除。 此工具會傳回呼叫使用者的Workfront身分識別，包括名稱、使用者ID、主團隊名稱和主團隊ID。 如需類似的功能，請參閱「見解工具」下的[取得目前使用者](#insights-tools)。 | 讀取 |
 | 依名稱尋找使用者 | `approvals_find_user_by_name` | 已棄用。 請改用`insights_search_users`。 此工具會依名稱（模糊或部分相符）、傳回名稱、ID、電子郵件、標題和顯示圖片URL來查詢Workfront使用者的ID。 | 讀取 |
 | 依名稱尋找團隊 | `approvals_find_team_by_name` | 已棄用。 請改用`insights_find_id_by_name`。 此工具會依名稱查詢Workfront團隊的ID （模糊或部分相符）。 | 讀取 |
