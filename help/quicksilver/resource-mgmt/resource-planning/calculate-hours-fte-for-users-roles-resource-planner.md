@@ -8,19 +8,12 @@ author: Lisa
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
 TQID: https://experienceleague.adobe.com/plzNKZEP3YSHuUZt2MrWb9Q--QemkwCEJD3JxWlB6x4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
 source-wordcount: 1325
 ht-degree: 0%
@@ -60,7 +53,7 @@ Workfront管理員在「設定」的「資源管理」區域中選取下列其�
 * 系統的「預設排程」和使用者的FTE。
 * 使用者的排程。
 
-![使用者排程的系統設定](assets/setup-resource-mgmt.png)
+![使用者排程的系統設定](assets/resource-management-preferences-section-in-setup.png)
 
 >[!NOTE]
 >
@@ -70,31 +63,31 @@ Workfront管理員在「設定」的「資源管理」區域中選取下列其�
 
 * **預設排程**：系統的預設排程和使用者FTE是用來決定資源規劃工具中使用者的可用時數和FTE值。 使用者的排程會被忽略。 在此案例中：
 
-   * 「資源規劃工具」中的「可用時數」使用下列公式計算：
+  * 「資源規劃工具」中的「可用時數」使用下列公式計算：
 
-     `User Available Hours = Default Schedule Hours * User FTE value`
+    `User Available Hours = Default Schedule Hours * User FTE value`
 
-     例如，如果預設排程每週有40小時可供工作，且使用者FTE為0.5，則使用者可在資源規劃工具中每週工作20小時。
+    例如，如果預設排程每週有40小時可供工作，且使用者FTE為0.5，則使用者可在資源規劃工具中每週工作20小時。
 
-     如需排程的詳細資訊，包括預設排程，請參閱[建立排程](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
+    如需排程的詳細資訊，包括預設排程，請參閱[建立排程](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
 
-   * 資源規劃工具中使用者的可用FTE與使用者設定中指定的使用者FTE相同。
+  * 資源規劃工具中使用者的可用FTE與使用者設定中指定的使用者FTE相同。
 
-     例如，如果使用者FTE在使用者設定中為0.5，則使用者的可用FTE在資源規劃工具中為0.5。 如需有關使用者FTE在使用者設定中所顯示值的詳細資訊，請參閱[編輯使用者的設定檔](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
+    例如，如果使用者FTE在使用者設定中為0.5，則使用者的可用FTE在資源規劃工具中為0.5。 如需有關使用者FTE在使用者設定中所顯示值的詳細資訊，請參閱[編輯使用者的設定檔](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
 * **使用者的排程**：使用者的排程是用來決定使用者在資源規劃工具中的可用性。 使用者FTE的值會被忽略。 在此案例中：
 
-   * 資源規劃工具中的可用時數與使用者排程中的時數相同。
+  * 資源規劃工具中的可用時數與使用者排程中的時數相同。
 
-     例如，如果使用者的排程每週有40小時可供工作，則使用者可在資源規劃工具中每週有40小時可供工作。
+    例如，如果使用者的排程每週有40小時可供工作，則使用者可在資源規劃工具中每週有40小時可供工作。
 
-   * 「資源規劃工具」中的「可用FTE」由下列公式計算：
+  * 「資源規劃工具」中的「可用FTE」由下列公式計算：
 
-     `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
+    `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
 
-     例如，如果使用者的排程有20小時可工作，而Workfront中的預設排程有40小時可工作，則使用者的FTE為0.5。
+    例如，如果使用者的排程有20小時可工作，而Workfront中的預設排程有40小時可工作，則使用者的FTE為0.5。
 
-     如需排程的詳細資訊，包括預設排程，請參閱[建立排程](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
+    如需排程的詳細資訊，包括預設排程，請參閱[建立排程](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
 
 >[!NOTE]
 >
@@ -104,8 +97,9 @@ Workfront管理員在「設定」的「資源管理」區域中選取下列其�
 
 您首先必須計算使用者可用性，然後可以計算其每個職務角色的可用性。
 
-「資源規劃工具」中工作角色的可用性會考慮使用者的總可用性，以及與使用者的每個角色相關聯的FTE可用性百分比。\
-![percent_of_fte_availability_at_the_user_level.png](assets/percent-of-fte-availability-at-the-user-level-350x144.png)
+「資源規劃工具」中工作角色的可用性會考慮使用者的總可用性，以及與使用者的每個角色相關聯的FTE可用性百分比。
+
+![percent_of_fte_availability_at_the_user_level.png](assets/percent-of-fte-availability-at-the-user-level.png)
 
 如需將FTE可用性百分比值與使用者的工作角色產生關聯的詳細資訊，請參閱[編輯使用者的設定檔](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
@@ -113,7 +107,7 @@ Workfront管理員在「設定」的「資源管理」區域中選取下列其�
 
 >[!NOTE]
 >
->使用者的總可用時間是透過本文中「資源規劃工具」的[計算使用者的可用時數和FTE &#x200B;](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner)」一節中所述的兩種方法之一計算的。
+>使用者的總可用時間是透過本文中「資源規劃工具」的[計算使用者的可用時數和FTE ](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner)」一節中所述的兩種方法之一計算的。
 
 在「角色檢視」中檢視「資源規劃工具」時，一個工作角色的可用性是能夠履行該工作角色之所有使用者的可用性總計。
 
@@ -152,10 +146,10 @@ Workfront管理員在「設定」的「資源管理」區域中選取下列其�
 * 預算時數
 * 小時差異
 * 淨小時\
-  如需相關資訊，請參閱資源規劃工具[&#128279;](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的專案與角色檢視中的時數概觀、約當全職人數與成本資訊。
+  如需相關資訊，請參閱資源規劃工具](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的專案與角色檢視中的[時數概觀、約當全職人數與成本資訊。
 
 * 小時差異\
-  如需相關資訊，請參閱資源規劃工具[&#128279;](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的專案與角色檢視中的時數概觀、約當全職人數與成本資訊。
+  如需相關資訊，請參閱資源規劃工具](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)的專案與角色檢視中的[時數概觀、約當全職人數與成本資訊。
 
 您可以在「資源規劃工具」中顯示與FTE或時數相同的資訊。
 

@@ -7,21 +7,14 @@ author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
 TQID: https://experienceleague.adobe.com/ax957eBrqej3uH8M4mZkSuY-heCNGWTiiwbBZTcH7VE
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
-source-wordcount: 1282
+source-wordcount: 1277
 ht-degree: 4%
 
 ---
@@ -81,7 +74,7 @@ ht-degree: 4%
 1. 按一下左側面板中的&#x200B;**專案詳細資料**。
 1. 按一下[詳細資料]區段右上角的&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)，然後按一下&#x200B;**財務**。
 
-   ![詳細資料檢視中的財務區域](assets/finance-area-in-details-view-only-nwe-350x188.png)
+   ![詳細資料檢視中的財務區域](assets/finance-area-in-details-view.png)
 
    >[!NOTE]
    >
@@ -147,15 +140,15 @@ ht-degree: 4%
 
 ## 編輯專案的財務資訊
 
-身為專案所有者，您可以編輯專案之「財務」子標籤上的資訊。
+身為專案所有者，您可以在專案的財務區域中編輯資訊。
 
-若要編輯「專案財務」子頁簽上的資訊，請執行下列動作：
+若要編輯「專案財務」區域中的資訊，請執行下列動作：
 
 1. 前往您擁有的專案。
 
    >[!NOTE]
    >
-   >您需要專案的管理許可權才能執行以下步驟。 我們也建議只有專案所有者應該變更專案的財務子標籤。
+   >您需要專案的管理許可權才能執行以下步驟。 我們也建議只有專案所有者應該對專案的財務區域進行變更。
 
 1. 按一下左側面板中的&#x200B;**專案詳細資料**。
 1. 按一下[詳細資料]區段右上角的&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)，然後按一下&#x200B;**財務**。 這將開啟「財務」區域以進行編輯。
@@ -165,9 +158,7 @@ ht-degree: 4%
    >
    >如果欄位是由Workfront自動計算，或是您沒有編輯許可權，則無法加以編輯。
 
-   ![編輯財務區域](assets/edit-finance-area-in-project-details-nwe-350x275.png)
-
-1. 更新以下任何欄位。
+1. 更新下列任何欄位。
 
    >[!NOTE]
    >

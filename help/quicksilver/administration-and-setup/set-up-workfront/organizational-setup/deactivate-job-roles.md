@@ -9,22 +9,14 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 934cef1a-8157-45db-b000-24a08a94dd18
 TQID: https://experienceleague.adobe.com/e8vdktak-XCg5wC1h4mYTMUtOHVOssw7BSFri6rAx5Y
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
-source-wordcount: 644
+source-wordcount: 647
 ht-degree: 3%
 
 ---
@@ -49,8 +41,8 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p>
-       <p>[!UICONTROL 計畫]</p></td>
+   <td><p>[！UICONTROL標準]</p>
+       <p>[！UICONTROL計畫]</p></td>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
@@ -82,7 +74,7 @@ ht-degree: 3%
 * 專案中的[!UICONTROL 新增指派至Kanban面板]對話方塊
 * 當有人使用[!DNL Adobe Workfront Scenario Planner]時，計畫或方案的[!UICONTROL 工作角色]欄位。
 
-  [!DNL Scenario Planner]僅在新的[!DNL Adobe Workfront]體驗中可用，而且需要額外的授權。 如需[!DNL Workfront Scenario Planner]的相關資訊，請參閱[&#x200B; [!DNL Scenario Planner] 概觀](../../../scenario-planner/scenario-planner-overview.md)。
+  [!DNL Scenario Planner]僅在新的[!DNL Adobe Workfront]體驗中可用，而且需要額外的授權。 如需[!DNL Workfront Scenario Planner]的相關資訊，請參閱[ [!DNL Scenario Planner] 概觀](../../../scenario-planner/scenario-planner-overview.md)。
 
 >[!TIP]
 >
@@ -120,12 +112,12 @@ ht-degree: 3%
 {{step-1-to-setup}}
 
 1. 在左側面板中，按一下&#x200B;**[!UICONTROL 工作角色].**
-1. （選擇性）在&#x200B;**[!UICONTROL 篩選器]**&#x200B;下拉式功能表中，選取&#x200B;**[!UICONTROL 作用中]**&#x200B;以僅顯示作用中的工作角色。
-1. 按一下要停用的工作角色名稱。
-1. 在&#x200B;**[!UICONTROL 為使用中]**&#x200B;下拉式功能表中，選取&#x200B;**[!UICONTROL 否]**。
+1. （選擇性）在&#x200B;**[!UICONTROL 篩選器]**&#x200B;清單中，選取&#x200B;**[!UICONTROL 作用中]**&#x200B;以僅顯示作用中的工作角色。
+1. 選取您要停用之工作角色旁的核取方塊，然後按一下&#x200B;[!UICONTROL **編輯**]&#x200B;圖示[編輯圖示](assets/edit-icon.png)。
+1. 針對&#x200B;**[!UICONTROL 為使用中]**&#x200B;欄位，請選取&#x200B;**[!UICONTROL 否]**。
 
-   ![停用工作角色](assets/deactivate-job-role-edit-role-box-nwe.png)
+   ![停用工作角色](assets/edit-job-role.png)
 
-1. 按一下「**[!UICONTROL 儲存變更]**」。
+1. 按一下「**[!UICONTROL 儲存]**」。
 
    工作角色已停用，無法再指派給工作、與版面配置範本關聯等。 如需[!DNL Workfront]中所有工作角色使用的相關資訊，請參閱[工作角色總覽](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md)。
