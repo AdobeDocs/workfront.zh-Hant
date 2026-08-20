@@ -10,17 +10,12 @@ exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/ZIuaLr4-N-g2ciqjiOtzrTpjz0GFpxcpb-KqdXc-Th0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: e889906dd08bbd6e307c33aa10fc9349b5c92d9f
 workflow-type: tm+mt
-source-wordcount: 3146
+source-wordcount: 3308
 ht-degree: 5%
 
 ---
@@ -118,13 +113,13 @@ ht-degree: 5%
 
 * 物件ID （選擇性）
 
-   * **String** — 為其引發事件的指定objCode物件識別碼。 如果未指定此欄位，使用者會收到指定型別之所有物件的事件。
+  * **String** — 為其引發事件的指定objCode物件識別碼。 如果未指定此欄位，使用者會收到指定型別之所有物件的事件。
 
 * 物件代碼（必要）
 
-   * **字串** — 正在訂閱變更之物件的objCode。 objCode的可能值列於下表。
+  * **字串** — 正在訂閱變更之物件的objCode。 objCode的可能值列於下表。
 
-     <table style="table-layout:auto"> 
+    <table style="table-layout:auto"> 
       <col> 
       <col> 
       <thead> 
@@ -263,19 +258,23 @@ ht-degree: 5%
 
 * eventType （必要）
 
-   * **String** — 代表物件訂閱的事件型別的值。 可用的事件型別包括：
+  * **String** — 代表物件訂閱的事件型別的值。 可用的事件型別包括：
 
-      * 建立
-      * DELETE
-      * 更新
+    * 建立
+    * DELETE
+    * 更新
 
 * url （必要）
 
-   * **String** — 透過HTTP傳送訂閱事件裝載的端點URL。
+  * **String** — 透過HTTP傳送訂閱事件裝載的端點URL。
 
-* authToken （必要）
+* authToken （建立時需要）
 
-   * **字串** — 用來使用「URL」欄位中指定的URL進行驗證的OAuth2持有人權杖。
+  * **字串** — 用來使用「URL」欄位中指定的URL進行驗證的OAuth2持有人權杖。 訂閱建立回應完全不包含此欄位，而且包含它的每個後續回應都會顯示遮罩（只有最後4個字元）。 提交完整值後不會傳回，因此建議您保留所傳送內容的副本。
+
+>[!NOTE]
+>
+>`authToken`在回應中一律被遮罩，最多顯示4個字元（例如： `****1234`）。 如果代號為8個字元或更短，則會改為完全遮罩，因此遮罩不會顯示一半或更多短代號。 這適用於傳回訂閱詳細資訊的每個端點，包括已棄用的清單端點。
 
 ## 建立事件訂閱API請求
 
@@ -430,7 +429,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
     "objCode": "PROJ",
     "url": "http://requestb.in/ua5hi2ua",
     "eventType": "UPDATE",
-    "authToken": "authTokenWorkfrontRocks1234_"
+    "authToken": "****234_"
     "subscription_url": {
         "url": "http://requestb.in/ua5hi2ua",
         "date_created": "2024-04-11T15:56:14.169489",
@@ -504,7 +503,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
     "objCode": "PROJ",
     "url": "http://requestb.in/ua5hi2ua",
     "eventType": "UPDATE",
-    "authToken": "authTokenWorkfrontRocks1234_"
+    "authToken": "****234_"
     "subscription_url": {
         "url": "http://requestb.in/ua5hi2ua",
         "date_created": "2024-04-11T15:56:14.169489",
@@ -631,10 +630,10 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 * 將多個事件訂閱指派給單一物件時，與該物件相關聯的所有事件訂閱都可以傳回至單一端點。 此實務可做為邏輯運運算元&#x200B;**OR**&#x200B;的同等替代使用，而此邏輯運運算元無法使用篩選引數設定。
 * 下列欄位無法篩選：
 
-   * docu.groups
-   * RECORD.data
-   * RECORD_TYPE.data
-   * RECORD_TYPE.欄位
+  * docu.groups
+  * RECORD.data
+  * RECORD_TYPE.data
+  * RECORD_TYPE.欄位
 
 ### 使用比較運運算元
 
@@ -860,13 +859,13 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 
 #### state
 
-此聯結器將篩選套用到已建立或更新之物件的新狀態或舊狀態。當您想知道某個專案在哪裡變更到另一個專案時，這會很有幫助。
+此聯結器將篩選套用到已建立或更新之物件的新狀態或舊狀態。 當您想知道某個專案在哪裡變更到另一個專案時，這會很有幫助。
 無法在CREATE `eventTypes`上執行`oldState`。
 
 >[!NOTE]
 >
 >底下具有指定篩選器的訂閱只會傳回工作名稱在`oldState`上包含`again`的訊息，這是更新工作之前的訊息。
->此使用案例是尋找從一個專案變更為另一個專案的objCode訊息。例如，找出從「Research Some name」變更為「Research TeamName Some name」的所有任務
+>此情況下的使用案例是尋找從一個事物變更為另一個事物的objCode訊息。 例如，找出從「Research Some name」變更為「Research TeamName Some name」的所有任務
 
 ```
 {
@@ -1031,8 +1030,8 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
    * `{ "type": "group", "connector": "OR", "filters": [ { "fieldName": "status", "fieldValue": "CUR", "comparison": "eq" }, { "fieldName": "priority", "fieldValue": "1", "comparison": "eq" } ] }`
    * 此群組會評估兩個內部篩選器：
 
-      * 第一個檢查任務狀態是否等於「CUR」（目前）。
-      * 第二個會檢查優先順序是否等於「1」（高優先順序）。
+     * 第一個檢查任務狀態是否等於「CUR」（目前）。
+     * 第二個會檢查優先順序是否等於「1」（高優先順序）。
    * 由於聯結器為「OR」，因此如果任一條件為true，則此群組會通過。
 
 1. 頂層聯結器(filterConnector： AND)：
@@ -1370,7 +1369,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
                 "obj_code": "TASK",
                 "url": "http://test.test.net/test/1234",
                 "event_type": "UPDATE",
-                "auth_token": "auth_token"
+                "auth_token": "****oken"
                 },
                 {
                 "id": "750a636c-5628-48f5-ba26-26b7ce537ac2",
@@ -1379,7 +1378,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
                 "obj_code": "PROJ",
                 "url": "http://requestb.in/ua5hi2ua",
                 "event_type": "UPDATE",
-                "auth_token": "authTokenWorkfrontRocks1234_"
+                "auth_token": "****234_"
                 }                
                 ]
 ```
