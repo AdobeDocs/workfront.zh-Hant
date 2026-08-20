@@ -8,18 +8,13 @@ author: Lisa
 feature: Resource Management
 exl-id: 0db9fbb3-4e94-47bd-b272-00b3ca4decaf
 TQID: https://experienceleague.adobe.com/a1BAY-ZUWgGlg96Cq7RKPbg3m-OfT-c106ttm2goj-k
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6084af27550d2ad407ad6dff4a33b54039e7743b
 workflow-type: tm+mt
-source-wordcount: 561
+source-wordcount: 559
 ht-degree: 0%
 
 ---
@@ -55,7 +50,7 @@ ht-degree: 0%
 
 * 針對單一專案的預算分配：使用專案之業務案例的「資源預算」區域中的專案層次資源規劃工具。 如需為一個專案編列預算資源的相關資訊，請參閱文章[商業案例中的預算資源](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)。
 
-  若要根據共同技能或部門結構來管理使用者，並將他們組織到集區，然後管理他們指派給專案的配置，您必須建立資源集區。 如需有關建立資源集區的詳細資訊，請參閱[建立資源集區](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)。
+  若要管理使用者、根據共同技能或部門結構組織使用者，然後管理其指派給專案的配置，您必須建立資源集區。 如需有關建立資源集區的詳細資訊，請參閱[建立資源集區](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)。
 
   >[!TIP]
   >
@@ -69,9 +64,9 @@ ht-degree: 0%
 
 * 您可以使用資源規劃工具執行下列作業：
 
-   * 排定專案的優先順序，以決定哪些專案應先接收資源。 （僅於資源規劃工具）
-   * 根據使用者的排程，瞭解資源的可用性。
-   * 針對資源（使用者和職位角色）指派給他們的專案，為其分配預算小時、FTE或成本分攤。
+  * 排定專案的優先順序，以決定哪些專案應先接收資源。 （僅於資源規劃工具）
+  * 根據使用者的排程，瞭解資源的可用性。
+  * 針對資源（使用者和職位角色）指派給他們的專案，為其分配預算小時、FTE或成本分攤。
 
   如需有關在資源規劃工具中工作的資訊，請參閱文章[資源規劃工具概觀](../../resource-mgmt/resource-planning/get-started-resource-planner.md)。
 
