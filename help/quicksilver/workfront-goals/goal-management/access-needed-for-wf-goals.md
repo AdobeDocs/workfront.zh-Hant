@@ -20,7 +20,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
 workflow-type: tm+mt
 source-wordcount: 676
 ht-degree: 0%
@@ -78,11 +78,11 @@ Workfront目標無法再用於較新套件的購買。
 
 <!--
 Old: >
-Depending on which Workfront plan your company is currently on, the following scenarios exist: 
+Depending on which Workfront package your company is currently on, the following scenarios exist: 
 
-* **A new Workfront plan**: You must have an Ultimate Workfront plan. Workfront Goals are included only in this plan. 
+* **A new Workfront package**: You must have an Ultimate Workfront package. Workfront Goals are included only in this plan. 
 
-* **A current Workfront plan**: Your organization must purchase an additional license, in addition to the Workfront license.
+* **A current Workfront package**: Your organization must purchase an additional license, in addition to the Workfront license.
 
   After your organization purchases the additional license, Workfront enables Workfront Goals for your account. For information about purchasing a license for Workfront Goals contact your Workfront account manager.
 
