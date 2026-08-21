@@ -22,7 +22,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
 source-wordcount: 2115
 ht-degree: 1%
@@ -62,9 +62,9 @@ ht-degree: 1%
 
 * 若要使用「使用者」檢視來檢視下列資訊：
 
-   * 使用者根據其排程的可用性
-   * 根據專案計畫完成工作所需的計畫時間量
-   * 使用者已登入實際工作專案的時間量
+  * 使用者根據其排程的可用性
+  * 根據專案計畫完成工作所需的計畫時間量
+  * 使用者已登入實際工作專案的時間量
 
   如需有關檢視資源規劃工具中使用者的可用、計畫和實際時數或FTE的詳細資訊，請參閱文章[使用使用者檢視時，資源規劃工具中的可用、計畫和實際時數或FTE](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md#using)。
 
@@ -84,8 +84,8 @@ ht-degree: 1%
 
   如需有關父系任務的資訊，請參閱下列文章：
 
-   * [任務總覽](../../manage-work/tasks/task-information/tasks-overview.md)
-   * [建立子任務](../../manage-work/tasks/create-tasks/create-subtasks.md)
+  * [任務總覽](../../manage-work/tasks/task-information/tasks-overview.md)
+  * [建立子任務](../../manage-work/tasks/create-tasks/create-subtasks.md)
 
   >[!TIP]
   >
@@ -188,8 +188,8 @@ ht-degree: 1%
 
 * 您正在為其編列預算資源的專案上的任務或問題，會指派給下列其中一個實體：
 
-   * 專案資源集區中亦與工作角色相關聯的使用者
-   * 職務角色
+  * 專案資源集區中亦與工作角色相關聯的使用者
+  * 職務角色
 
   >[!NOTE]
   >
@@ -207,7 +207,7 @@ ht-degree: 1%
 
 您必須瞭解您的Workfront執行個體如何根據系統中的資源管理偏好設定計算使用者可用性。 Workfront可以使用使用者的「使用者設定檔」頁面中定義的使用者排程，或您系統的「預設排程」，來計算使用者可用性。
 
-![管理喜好設定](assets/resource-management-preferences-section-in-setup-350x89.png)
+![管理喜好設定](assets/resource-management-preferences-section-in-setup.png)
 
 您的Workfront管理員會設定您的資源管理偏好設定。
 
@@ -215,43 +215,9 @@ ht-degree: 1%
 
 ## 找到資源規劃工具
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(This became another standalone article; drfat this section here when article is live.)</p>
--->
-
 您可以在Workfront的兩個區域中找到資源規劃工具，這取決於您是要為多個專案還是僅一個專案預算資源。
 
 如需有關尋找資源規劃工具的資訊，請參閱[尋找資源規劃工具](../../resource-mgmt/resource-planning/locate-resource-planner.md)。
-
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(this is drafted and moved to its own article: locate-resource-planner) </p>
-<p>Ensure that all prerequisites are met before starting to use the Resource Planner. This way, you ensure that the Resource Planner displays the correct information before you start budgeting your resources.<br>For information about the prerequisites that must be met before you can start using the Resource Planner, see the <a href="#prerequisites-for-working-in-the-resource-planner" class="MCXref xref">Prerequisites for working in the Resource Planner</a> section in this article. </p>
-<p>You can locate the Resource Planner in two areas of Workfront, depending on whether you want to budget your resources for multiple projects, or for just one project.</p>
-<ul>
-<li><a href="#use-the-resource-planner-for-multiple-projects" class="MCXref xref">Use the Resource Planner for multiple projects</a> </li>
-<li> <p><a href="#use-the-resource-planner-for-one-project" class="MCXref xref">Use the Resource Planner for one project</a> </p> </li>
-</ul>
-<p><strong>Use the Resource Planner for multiple projects</strong></p>
-<p>When using the Resource Planner for multiple projects, the allocation numbers for your resources represent numbers across multiple projects. </p>
-<p>To access the  Planner section  in the  Resourcing area: </p>
-<ol>
-<li value="1">  Click the <strong>Main Menu</strong> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront.  </li>
-<li value="2"> <p>  Click <strong>Resourcing</strong>. The Resource Planner displays by default.  For information about budgeting resources in the Resource Planner, see the article <a href="../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>. </p> <p> <img src="assets/qs-resource-management-area-with-planner-as-default-350x152.png" style="width: 350;height: 152;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li>
-<li value="3">  Hover over the left panel, and click <strong>Resource Pools</strong>. <br>For information about creating new resource pools, see <a href="../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md" class="MCXref xref">Create resource pools</a>.</li>
-</ol>
-<p><strong>Use the Resource Planner for one project</strong></p>
-<p>When using the Resource Planner for one project, the allocation numbers for your resources represent numbers for the selected project. </p>
-<ol>
-<li value="1"> <p>Go to a project you want to budget resources for.</p> </li>
-<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <strong>Business Case</strong> in the left panel.</p> </li>
-<li value="3"> <p>Scroll to the <strong>Resource Budgeting</strong> section of the Business Case.</p> </li>
-<li value="4"> <p>Click <strong>Edit Resource Budgeting</strong> to add resource pools to your project and start budgeting your resources. </p> <note type="tip">
-You can only add a resource pool in the Resource Budgeting area of the Business Case when the project has no resource pools associated with it. When the project already has a resource pool, the users in the pool and their job roles display in the Resource Budgeting area by default.
-</note> <p> <img src="assets/resource-budgeting-area-on-project-350x70.png" style="width: 350;height: 70;"> </p> <p>For information about budgeting resources for one project, see the article <a href="../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md" class="MCXref xref">Budget resources in the Business Case</a>.</p> </li>
-</ol>
-</div>
--->
 
 ## 資源規劃工具區域
 

@@ -17,10 +17,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
-source-wordcount: 354
-ht-degree: 5%
+source-wordcount: 352
+ht-degree: 4%
 
 ---
 
@@ -29,8 +29,6 @@ ht-degree: 5%
 您可以刪除組織不再使用的工作角色。 若職務角色過去曾與工作專案相關聯，建議您不要刪除。
 
 若要保留您關於工作指派的所有歷史資訊，我們建議您停用角色，而不是在角色過時時將其刪除。 如需有關停用角色的資訊，請參閱[停用工作角色](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)。
-
-## 存取權要求
 
 ## 存取權要求
 

@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
-source-wordcount: 644
+source-wordcount: 647
 ht-degree: 3%
 
 ---
@@ -120,12 +120,12 @@ ht-degree: 3%
 {{step-1-to-setup}}
 
 1. 在左側面板中，按一下&#x200B;**[!UICONTROL 工作角色].**
-1. （選擇性）在&#x200B;**[!UICONTROL 篩選器]**&#x200B;下拉式功能表中，選取&#x200B;**[!UICONTROL 作用中]**&#x200B;以僅顯示作用中的工作角色。
-1. 按一下要停用的工作角色名稱。
-1. 在&#x200B;**[!UICONTROL 為使用中]**&#x200B;下拉式功能表中，選取&#x200B;**[!UICONTROL 否]**。
+1. （選擇性）在&#x200B;**[!UICONTROL 篩選器]**&#x200B;清單中，選取&#x200B;**[!UICONTROL 作用中]**&#x200B;以僅顯示作用中的工作角色。
+1. 選取您要停用之工作角色旁的核取方塊，然後按一下&#x200B;[!UICONTROL **編輯**]&#x200B;圖示[編輯圖示](assets/edit-icon.png)。
+1. 針對&#x200B;**[!UICONTROL 為使用中]**&#x200B;欄位，請選取&#x200B;**[!UICONTROL 否]**。
 
-   ![停用工作角色](assets/deactivate-job-role-edit-role-box-nwe.png)
+   ![停用工作角色](assets/edit-job-role.png)
 
-1. 按一下「**[!UICONTROL 儲存變更]**」。
+1. 按一下「**[!UICONTROL 儲存]**」。
 
    工作角色已停用，無法再指派給工作、與版面配置範本關聯等。 如需[!DNL Workfront]中所有工作角色使用的相關資訊，請參閱[工作角色總覽](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md)。
