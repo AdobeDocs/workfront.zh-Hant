@@ -20,9 +20,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 0f2e9311d94714a3561dfdd9807e4267513e0426
 workflow-type: tm+mt
-source-wordcount: 1558
+source-wordcount: 1576
 ht-degree: 5%
 
 ---
@@ -358,6 +358,14 @@ Workfront管理員可以檢視系統中的所有物件（不論物件的建立�
    <td>系統：偏好設定</td> 
    <td>完整存取權</td> 
    <td>無存取權</td> 
+  <tr> 
+   <td>變更追蹤：設定</td> 
+   <td>完整存取權</td> 
+   <td>無存取權</td> 
+  <tr> 
+   <td>變更追蹤：變更記錄清單</td> 
+   <td>完整存取權</td> 
+   <td>完整存取權</td> 
   </tr> 
  </tbody> 
 </table>
@@ -372,7 +380,7 @@ Workfront管理員可以檢視系統中的所有物件（不論物件的建立�
   <tr> 
    <th>區域/物件</th> 
    <th>Workfront管理員 </th> 
-   <th>擁有Plan授權和某些管理許可權的使用者</th> 
+   <th>具有Standard或Plan授權和某些管理許可權的使用者</th> 
   </tr> 
  </thead> 
  <tbody> 
