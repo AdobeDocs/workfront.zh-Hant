@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 81eb918df24ec95f911d7c91268239503af434ee
+source-git-commit: 9b6b1157cf93418e8863f2e99ebe87414a23378d
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 0%
 >預覽： 2026年8月13日
 >生產快速發行： 2026年8月13日
 >適用於所有人的生產： 2026年10月15日
+>[!BADGE 不在排程]{type=Neutral}內
 
 在表格檢視中拖放多列時，會有新的視覺指示器。 更突出的加號和數字指示器現在會顯示為拖放動作選取了多少列。
 
