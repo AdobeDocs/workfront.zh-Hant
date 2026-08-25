@@ -7,20 +7,14 @@ author: Lisa
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
 TQID: https://experienceleague.adobe.com/qp-mum3AisU5J1qYW6qsb-Kq9M3-7RpBaUStpmtwSGM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 678
+source-wordcount: 689
 ht-degree: 3%
 
 ---
@@ -95,17 +89,13 @@ Adobe Workfront提供設定時程表核准的功能，以支援此區域。
 
    在時程表清單頂端選取&#x200B;**我的時程表核准**&#x200B;篩選器。
 
-   ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+   ![我的時程表篩選器按鈕在時程表清單頁面上](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
    >[!NOTE]
    >
-   >如果您的Workfront管理員或群組管理員從設定區域的清單控制項或版面配置範本中移除了「我的時程表核准」篩選器，則「我的時程表核准」選項不會顯示在時程表清單頂端或篩選器清單中。
-   >
-   >如需詳細資訊，請參閱[使用配置範本自訂篩選器、檢視和群組](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >   
-   >
+   >如果您的Workfront管理員或群組管理員從「設定」區域的「清單控制項」或您的「版面配置範本」中移除了這些篩選器，「我的時程表核准」和「我的時程表」選項不會顯示在時程表清單頂端或篩選器清單中。 如需詳細資訊，請參閱[使用配置範本自訂篩選器、檢視和群組](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)。
 
-1. （選擇性）按一下時程表清單頂端的&#x200B;**搜尋**&#x200B;圖示![](assets/search-icon.png)，然後輸入關鍵字以尋找特定時程表。 您可以搜尋時間範圍，或搜尋擁有者或核准者的名稱。
+1. （選擇性）按一下時程表清單頂端的&#x200B;**搜尋**&#x200B;圖示![搜尋圖示](assets/search-icon.png)，然後輸入關鍵字以尋找特定時程表。 您可以搜尋時間範圍，或搜尋擁有者或核准者的名稱。
 1. 按一下您要核準時程表的時間範圍。 時程表隨即開啟。
 
    >[!TIP]
@@ -129,9 +119,9 @@ Adobe Workfront提供設定時程表核准的功能，以支援此區域。
 
 「首頁」區域隨即開啟。
 
-1. 確保您已將&#x200B;**我的核准** Widget新增到您的首頁區域。 如需詳細資訊，請參閱新首頁[&#128279;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)中的新增、編輯或移除Widget。
+1. 確保您已將&#x200B;**我的核准** Widget新增到您的首頁區域。 如需詳細資訊，請參閱新首頁](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)中的[新增、編輯或移除Widget。
 1. 在我的核准Widget中尋找時程表核准。
-1. （選擇性）展開[核准]或[拒絕]按鈕右側的下拉式功能表，新增有關您決定的註解，然後按一下[新增]。**&#x200B;**
+1. （選擇性）展開[核准]或[拒絕]按鈕右側的下拉式功能表，新增有關您決定的註解，然後按一下[新增]。****
 1. 按一下下列其中一個按鈕，即可做出核准決定：
 
    * 核准

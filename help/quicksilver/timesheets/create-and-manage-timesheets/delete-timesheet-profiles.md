@@ -6,10 +6,10 @@ description: 您可以刪除可能不再相關的週期性時程表。
 author: Lisa
 feature: Timesheets
 exl-id: 1fb39f74-205b-485e-9e8b-a2ab3f9f1ac4
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 2%
+source-wordcount: '272'
+ht-degree: 8%
 
 ---
 
@@ -23,16 +23,16 @@ ht-degree: 2%
 
 如需週期性時程表的相關資訊，請參閱[建立、編輯和指派週期性時程表](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto">
  <col> 
  <col>
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -54,19 +54,19 @@ ht-degree: 2%
 
 ## 刪除週期性時程表
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 如果您要刪除系統層級時程表設定檔，請按一下&#x200B;**時程表和時數**。
 
    或
 
    如果您刪除群組的週期性時程表，請按一下&#x200B;**群組** >按一下群組的名稱，然後按一下&#x200B;**週期性時程表**。
-1. 請至少選取一個要刪除的時程表設定檔，然後按一下全系統時程表設定檔的&#x200B;**更多**&#x200B;圖示![](assets/more-icon.png) > **刪除**
+1. 請至少選取一個要刪除的時程表設定檔，然後按一下全系統時程表設定檔的&#x200B;**更多**&#x200B;圖示![更多圖示](assets/more-icon.png) > **刪除**
 
 1. 按一下&#x200B;**週期性時程表**。
 1. 請至少選取一個要刪除的時程表設定檔，然後按一下[更多]圖示![更多圖示](assets/more-icon.png) > **刪除**。
 或
-按一下群組層級時程表設定檔的&#x200B;**更多** > **刪除**。
+按一下群組層級時程表設定檔的**更多** > **刪除**。
 1. （視條件而定）如果時程表設定檔已指派給使用者，則會顯示&#x200B;**取代時程表設定檔**&#x200B;方塊。 請執行下列動作：
    1. 從下拉式清單中選取另一個時程表設定檔。 您即將刪除的時程表設定檔將會取代為您為所有指派使用者取代的時程表設定檔。 時程表將根據下列時程表產生週期中新指派的設定檔產生。
    1. 按一下&#x200B;**刪除它**&#x200B;以確認刪除。
