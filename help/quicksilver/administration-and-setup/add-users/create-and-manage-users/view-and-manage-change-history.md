@@ -6,9 +6,9 @@ description: 變更記錄可讓您檢視Workfront物件和欄位的變更記錄�
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 100b900bd7419d78a3135358026ec5e27755fdeb
+source-git-commit: 1e06115eb5688271e2a6f4c8a41647eb644d8292
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '523'
 ht-degree: 3%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 3%
 
 {{preview-fast-release-general}}
 
-變更記錄可讓您設定及追蹤Adobe Workfront中物件和特定欄位的變更。 彈性的設定可讓您精確設定要追蹤的物件和欄位。
+變更記錄可讓系統管理員設定及追蹤Adobe Workfront中物件和特定欄位的變更。 彈性的設定可讓管理員設定確切要追蹤哪些物件和欄位。
 
-變更記錄可以追蹤您定義的下列資料型別：
+變更記錄可追蹤下列型別的已定義資料：
 
 * 「設定」區域中的活動，例如建立或刪除存取層級或工作角色
 * 欄位層級更新，例如編輯專案說明或變更使用者的版面配置範本
@@ -36,6 +36,11 @@ ht-degree: 3%
 * 變更的日期和時間
 * 變更的Source，例如特定使用者、API、Workfront Fusion、AI LLM或Workfront系統
 
+>[!NOTE]
+>
+>當您存取「變更歷史記錄」時，只會看到您有權檢視之欄位的追蹤變更。
+>例如，如果在專案上追蹤財務資料，而您無權存取財務資料，則您不會在「變更歷史記錄清單」中看到財務欄位。
+
 ## 存取權要求
 
 +++ 展開以檢視這篇文章中所述功能的存取權要求。
@@ -50,7 +55,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td>[!UICONTROL 標準]</td> 
+   <td>[！UICONTROL標準]</td> 
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
@@ -62,25 +67,6 @@ ht-degree: 3%
 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
-
-<!--
-## View the Configuration area for change tracking
-
->[!NOTE]
->
->In the Production environment, Configuration is currently available only as information and cannot be changed. The ability to change which fields are tracked will be available in the near future.
-
-To view the types of changes that are tracked: 
-
-{{step-1-to-setup}}
-
-1. In the left panel, click **Change Tracking > Configuration**.
-   
-   Fields are displayed grouped by object type.
-
-1. To display fields under a specific object, click the dropdown arrow next to the object type.
--->
-
 
 ## 檢視變更記錄清單
 
@@ -113,7 +99,7 @@ To view the types of changes that are tracked:
 1. 按一下&#x200B;**匯出**&#x200B;圖示![匯出圖示](assets/export-icon.png)，並選取您要儲存為XLSX或CSV格式。
 
    儲存檔案方塊開啟，您可以將匯出的檔案儲存在電腦上。
-   完成儲存匯出的檔案。您現在可以在電腦上找到它，並與他人共用。
+   完成儲存匯出的檔案。 您現在可以在電腦上找到它，並與他人共用。
 
 
 
