@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 467
+source-wordcount: 482
 ht-degree: 6%
 
 ---
@@ -101,10 +101,9 @@ Old permissions:
 
 **時程表**&#x200B;區域隨即開啟。
 
+![時程表區域](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
-![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
-
-1. （選擇性）按一下&#x200B;**搜尋**&#x200B;圖示![](assets/search-icon.png)並輸入關鍵字及搜尋特定時間表。 例如，您可以搜尋時間設定時間範圍或擁有者名稱。
+1. （選擇性）按一下&#x200B;**搜尋**&#x200B;圖示![搜尋圖示](assets/search-icon.png)，然後輸入關鍵字並搜尋特定時程表。 例如，您可以搜尋時間設定時間範圍或擁有者名稱。
 
 1. （選用）執行下列任一項作業，更新時程表清單中的篩選器：
 
@@ -116,21 +115,15 @@ Old permissions:
 
      這會套用我的時程表核准或我的時程表篩選器到時程表清單。
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![我的時程表篩選器按鈕在時程表清單頁面上](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * 按一下「篩選」圖示![](assets/filter-nwepng.png)以套用不同的篩選，或建立新的篩選。 如需建立或更新篩選的資訊，請參閱[在Adobe Workfront中建立或編輯篩選器](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)。
+   * 按一下「篩選」圖示![篩選圖示](assets/filter-nwepng.png)以套用不同的篩選，或建立新的篩選。 如需建立或更新篩選的資訊，請參閱[在Adobe Workfront中建立或編輯篩選器](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)。
 
    >[!NOTE]
    >
-   >如果您的Workfront管理員或群組管理員從「設定」區域的「清單控制項」或您的「版面配置範本」中移除了「我的時程表核准」和「我的時程表」，則「我的時程表核准」和「我的時程表」選項不會顯示在時程表清單頂端或篩選器清單中。 如需詳細資訊，請參閱下列文章：
-   >
-   >   
-   >   
-   >   * [使用配置範本自訂篩選器、檢視和群組](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >   
-   >
+   >如果您的Workfront管理員或群組管理員從「設定」區域的「清單控制項」或您的「版面配置範本」中移除了這些篩選器，「我的時程表核准」和「我的時程表」選項不會顯示在時程表清單頂端或篩選器清單中。 如需詳細資訊，請參閱[使用配置範本自訂篩選器、檢視和群組](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)。
 
-1. （選擇性）按一下&#x200B;**檢視** ![](assets/view-icon.png)或&#x200B;**群組** ![](assets/grouping.png)圖示以套用不同的檢視或群組或建立新的檢視或群組。
+1. （選擇性）按一下&#x200B;**檢視** ![檢檢視示](assets/view-icon.png)或&#x200B;**群組** ![群組圖示](assets/grouping.png)圖示，以套用不同的檢視或群組或建立新的檢視或群組。
 
    如需有關建立篩選器、檢視或群組的資訊，請參閱下列文章：
 
@@ -138,9 +131,9 @@ Old permissions:
    * [在Adobe Workfront中建立或編輯檢視](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [在Adobe Workfront中建立群組](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. 選取您要匯出的時程表，然後按一下&#x200B;**匯出** ![](assets/export-38x15.png)圖示。
+1. 選取您要匯出的時程表，然後按一下&#x200B;**匯出** ![匯出圖示](assets/export-38x15.png)圖示。
 
-   ![](assets/all-timesheets-list-with-export-button-nwe-350x262.png)
+   ![按一下「匯出」圖示](assets/export-timesheets.png)
 
 1. 從下列選項中選取您要匯出時程表清單的檔案型別：
 

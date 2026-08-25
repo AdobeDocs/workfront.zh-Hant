@@ -20,9 +20,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 845
+source-wordcount: 828
 ht-degree: 2%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 2%
 1. 記錄時間，如[記錄時間](../../timesheets/create-and-manage-timesheets/log-time.md)中所述。
 1. 按一下&#x200B;**提交以進行核准**&#x200B;以啟動時程表核准流程。
 
-   ![](assets/submit-for-approval-button-on-timesheet-nwe.png)
+   ![提交核准按鈕](assets/submit-for-approval-button-on-timesheet-nwe.png)
 
    **提交以供核准**&#x200B;按鈕已由&#x200B;**核准**、**拒絕**&#x200B;和&#x200B;**撤銷**&#x200B;按鈕取代。 時程表的狀態變更為&#x200B;**已提交**。
 
@@ -101,10 +101,11 @@ ht-degree: 2%
 
 若要檢視時程表的狀態：
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)。
-1. 按一下&#x200B;**時程表**。 依預設會選取&#x200B;**全部**&#x200B;篩選器。
+{{step1-to-timesheets}}
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+依預設會選取&#x200B;**全部**&#x200B;篩選器。
+
+![已選取一個時程表的時程表清單](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. （選用）執行下列任一項作業，更新時程表清單中的篩選器：
 
@@ -116,19 +117,13 @@ ht-degree: 2%
 
      這會套用我的時程表核准或我的時程表篩選器到時程表清單。
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![我的時程表篩選器按鈕在時程表清單頁面上](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * 按一下「篩選」圖示![](assets/filter-nwepng.png)以套用不同的篩選，或建立新的篩選。 如需建立或更新篩選的資訊，請參閱[在Adobe Workfront中建立或編輯篩選器](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)。
+   * 按一下「篩選」圖示![篩選圖示](assets/filter-nwepng.png)以套用不同的篩選，或建立新的篩選。 如需建立或更新篩選的資訊，請參閱[在Adobe Workfront中建立或編輯篩選器](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)。
 
    >[!NOTE]
    >
-   >如果您的Workfront管理員或群組管理員從「設定」區域的「清單控制項」或您的「版面配置範本」中移除了「我的時程表核准」和「我的時程表」，則「我的時程表核准」和「我的時程表」選項不會顯示在時程表清單頂端或篩選器清單中。 如需詳細資訊，請參閱下列文章：
-   >
-   >   
-   >   
-   >   * [使用配置範本自訂篩選器、檢視和群組](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >   
-   >
+   >如果您的Workfront管理員或群組管理員從「設定」區域的「清單控制項」或您的「版面配置範本」中移除了這些篩選器，「我的時程表核准」和「我的時程表」選項不會顯示在時程表清單頂端或篩選器清單中。 如需詳細資訊，請參閱[使用配置範本自訂篩選器、檢視和群組](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)。
 
 1. （視條件而定）若您選取&#x200B;**我的時程表**，請確定已套用&#x200B;**標準**&#x200B;檢視，並注意&#x200B;**狀態**&#x200B;欄。
 
@@ -167,10 +162,9 @@ ht-degree: 2%
 
 若要撤回時程表：
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)。
+{{step1-to-timesheets}}
 
-1. 按一下&#x200B;**時程表**。
-1. 按一下畫面右上角的&#x200B;**我的時程表**，或從&#x200B;**篩選器** ![](assets/filter-nwepng.png)下拉式選單中選取&#x200B;**我的時程表**。
+1. 按一下畫面右上角的&#x200B;**我的時程表**，或從&#x200B;**篩選器** ![篩選器圖示](assets/filter-nwepng.png)下拉式功能表中選取&#x200B;**我的時程表**。
 1. 按一下狀態為&#x200B;**已提交**&#x200B;之時程表的時間範圍。
 1. 按一下&#x200B;**撤銷**。
 

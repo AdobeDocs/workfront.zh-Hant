@@ -17,9 +17,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 437
+source-wordcount: 405
 ht-degree: 4%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 4%
 
 您可以從設定的時程表和時數區域手動產生系統或群組層級時程表。
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 如果您產生的時程表正在整個系統中使用，請按一下&#x200B;**時程表和時數。**
 
@@ -79,7 +79,7 @@ ht-degree: 4%
    如果您正在產生特定群組使用的時程表，請按一下&#x200B;**群組**，然後按一下群組的名稱。
 
 1. 按一下&#x200B;**週期性時程表**。
-1. 按一下「更多」圖示![更多圖示](assets/more-icon.png)，然後&#x200B;**產生時程表**。
+1. 按一下&#x200B;**更多**&#x200B;圖示![更多圖示](assets/more-icon.png)，然後&#x200B;**產生時程表**。
 
 1. 在時程表設定檔清單頂端，按一下系統層級時程表設定檔的&#x200B;**更多**&#x200B;圖示![更多圖示](assets/more-icon.png)或群組時程表設定檔的&#x200B;**更多**，然後按一下&#x200B;**產生時程表**。
 
@@ -89,9 +89,8 @@ ht-degree: 4%
 
 您可以從「設定」的「診斷」區域手動產生系統層級時間表。
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 展開&#x200B;**系統**，然後按一下&#x200B;**診斷**。
-
 1. 按一下&#x200B;**執行診斷**。
 1. 按一下&#x200B;**產生時程表**。

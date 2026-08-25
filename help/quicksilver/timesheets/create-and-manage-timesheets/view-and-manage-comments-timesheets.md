@@ -17,9 +17,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 873
+source-wordcount: 831
 ht-degree: 2%
 
 ---
@@ -97,9 +97,8 @@ ht-degree: 2%
 
 您可以對時程表發表一般評論。 註解整個時程表與註解其他物件類似。
 
-1. 按一下右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，或左上角的&#x200B;**主功能表**&#x200B;圖示![行主功能表](assets/lines-main-menu.png)或Workfront （如果有的話）。
+{{step1-to-timesheets}}
 
-1. 按一下&#x200B;**時程表**。
 1. 移至您要發表註解的時程表。
 1. 按一下左側面板中的「**更新**」，然後按一下「**評論**」標籤。
 1. 開始新增註解或回覆現有註解，如[更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)中所述。
@@ -129,9 +128,8 @@ ht-degree: 2%
 
 ### 在時程表中評論個別小時專案 {#comment-on-an-individual-hour-entry-in-a-timesheet}
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)。
+{{step1-to-timesheets}}
 
-1. 按一下&#x200B;**時程表**。
 1. 移至您想要加上註解的時程表，然後按一下左側面板中的&#x200B;**時程表**。
 1. 按一下您想要註解的小時專案欄位，然後按一下&#x200B;**註解**，為您的小時專案新增註解。
 
@@ -168,8 +166,8 @@ ht-degree: 2%
 
 您只能對時程表中的任務和問題進行評論。 您無法評論專案或一般時間。
 
-1. 按一下Adobe Workfront右上角的&#x200B;[!UICONTROL **主功能表**]&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)。
-1. 按一下&#x200B;[!UICONTROL **時程表**]。
+{{step1-to-timesheets}}
+
 1. 移至您想要加上註解的時程表，然後按一下左側面板中的&#x200B;[!UICONTROL **時程表**]。
 1. 按一下任務或問題的列，然後按一下&#x200B;[!UICONTROL **開啟摘要**]。
 1. 開始在[摘要]面板的&#x200B;[!UICONTROL **更新**]&#x200B;區域輸入更新，然後按一下&#x200B;[!UICONTROL **提交**]。

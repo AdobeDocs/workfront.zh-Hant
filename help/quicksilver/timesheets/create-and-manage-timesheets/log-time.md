@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 4246
+source-wordcount: 4292
 ht-degree: 1%
 
 ---
@@ -122,12 +122,12 @@ ht-degree: 1%
 
 若要在時程表上記錄時間：
 
-{{step1-click-main-menu}}
+{{step1-to-timesheets}}
 
-1. 按一下&#x200B;[!UICONTROL **時程表**]。 依預設會顯示您目前的時程表。
-   ![時程表](assets/timesheet-layout-leftnav-updated.png)
+依預設會顯示您目前的時程表。
+![時程表](assets/timesheet-layout-leftnav-updated.png)
 
-1. （選擇性）按一下&#x200B;**全熒幕**&#x200B;圖示![](assets/full-screen.png)以全熒幕模式顯示時程表，然後按一下&#x200B;**退出全熒幕** ![](assets/exit-full-screen.png)圖示以返回時程表。
+1. （選擇性）按一下&#x200B;**全熒幕**&#x200B;圖示![全熒幕圖示](assets/full-screen.png)以全熒幕模式顯示時程表，然後按一下&#x200B;**退出全熒幕** ![退出全熒幕圖示](assets/exit-full-screen.png)圖示以返回時程表。
 
    <!-- drafted for the resize columns in timesheet story: 1. (optional) Click on the separator lines between weeks or between the time frame area and the work item area to resize the columns of the timesheet.-->
 
@@ -164,7 +164,7 @@ ht-degree: 1%
 
    <!--(ensure this stays accurate)-->
 
-1. （選擇性）按一下專案名稱旁的&#x200B;**摺疊** ![](assets/collapse-icon.png)或&#x200B;**展開** ![](assets/expand-icon.png)圖示，以顯示或隱藏專案的任務和問題清單。
+1. （選擇性）按一下專案名稱旁的&#x200B;**摺疊** ![摺疊圖示](assets/collapse-icon.png)或&#x200B;**展開** ![展開圖示](assets/expand-icon.png)圖示，以顯示或隱藏專案的任務和問題清單。
 
 
    >[!TIP]
@@ -178,7 +178,7 @@ ht-degree: 1%
    >     * Mac電腦的Shift + Option +向下鍵。
 
 
-1. （選擇性）若要手動釘選自動顯示在時間表上的專案，請將游標移至專案名稱上，然後按一下&#x200B;**釘選**&#x200B;圖示![](assets/empty-pin-icon.png)。
+1. （選擇性）若要手動釘選自動顯示在時程表上的專案，請將游標停留在專案名稱上，然後按一下&#x200B;**釘選**&#x200B;圖示![釘選圖示](assets/empty-pin-icon.png)。
 
    >[!TIP]
    >
@@ -186,7 +186,7 @@ ht-degree: 1%
    >   * Option + P （適用於Windows和Mac電腦）。
 
 
-1. （選用）按一下搜尋圖示![](assets/search-icon.png)並開始輸入關鍵字，以在時程表中尋找專案、任務或問題。
+1. （選擇性）按一下搜尋圖示![搜尋圖示](assets/search-icon.png)，然後開始輸入關鍵字以尋找專案、任務或時程表上的問題。
 
 1. （視條件而定）如果您的Workfront或群組管理員已啟用&#x200B;**手動將工作角色指派至時數專案**&#x200B;設定，請從下拉式選單中選取工作角色。 依預設，系統會顯示指派給工作專案時所指定的角色。 如果您在物件上未被指派角色，您的「主要角色」會顯示為預設值。 如需此設定的詳細資訊，請參閱文章[設定時程表和小時偏好設定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)。
 
@@ -214,7 +214,7 @@ ht-degree: 1%
    >
    >如果您想要將停用的小時型別保持與過去記錄時間相關聯，請考慮為您要記錄額外時間的工作專案新增一行，並選擇新的小時型別。
 
-1. 按一下工作角色旁的&#x200B;**刪除**&#x200B;圖示![](assets/delete.png)以將其移除。 同時也會移除角色記錄的任何時間。
+1. 按一下工作角色旁的&#x200B;**刪除**&#x200B;圖示![刪除圖示](assets/delete.png)以將其移除。 同時也會移除角色記錄的任何時間。
 
    >[!TIP]
    >
@@ -249,7 +249,7 @@ ht-degree: 1%
 
 1. （選擇性）按一下&#x200B;**註解**&#x200B;為您的小時專案新增註解。
 
-   ![](assets/commment-button-on-hour-log-redesigned-timesheet.png)
+   小時記錄上的![註解按鈕重新設計時程表](assets/commment-button-on-hour-log-redesigned-timesheet.png)
 
    >[!TIP]
    >
@@ -352,7 +352,7 @@ ht-degree: 1%
 1. 移至&#x200B;**首頁**&#x200B;區域。
 1. 將&#x200B;**我的工作** Widget新增至您的首頁。
 1. （選擇性）在清單中選取任務、問題或請求，然後按一下&#x200B;**處理它**。
-1. 暫留在您要記錄時間的任務或問題上，然後按一下任務資訊右側的&#x200B;**記錄時間**&#x200B;圖示![](assets/log-time-icon-in-new-home.png)。
+1. 暫留在您要記錄時間的任務或問題上，然後按一下任務資訊右側的&#x200B;**記錄時間**&#x200B;圖示![記錄時間圖示](assets/log-time-icon-in-new-home.png)。
 
    顯示&#x200B;**記錄時間**&#x200B;方塊。
 
@@ -487,7 +487,7 @@ ht-degree: 1%
 您可以在「摘要」面板中記錄任務和問題的時間。
 如需詳細資訊，請參閱[摘要概觀](../../workfront-basics/the-new-workfront-experience/summary-overview.md)。
 
-![](assets/summary-hour-log.png)
+![摘要面板](assets/summary-hour-log.png)
 
 ### 展示板 {#boards}
 
@@ -531,7 +531,7 @@ ht-degree: 1%
   * 時數專案的說明。
 
 
-  ![](assets/edit-hour-box-project-hour-type.png)
+  ![專案小時編輯方塊](assets/edit-hour-box-project-hour-type.png)
 
 * 編輯一般時數時：
 
@@ -545,7 +545,7 @@ ht-degree: 1%
 
 <!--update the screen shot at production - we should not see the job role field for general hours-->
 
-![](assets/edit-hour-box-general-overhead-hour-type.png)
+![一般時數編輯方塊](assets/edit-hour-box-general-overhead-hour-type.png)
 
 
 * 當您大量編輯一般和專案特定時數的組合時：
@@ -561,13 +561,13 @@ ht-degree: 1%
 
 <!--update the screen shot at production - we should not see the job role and the hour type fields for mixed hour types-->
 
-![](assets/edit-hour-box-mixed-hour-types-in-bulk.png)
+![混合時數編輯方塊](assets/edit-hour-box-mixed-hour-types-in-bulk.png)
 
 若要編輯時數報表或清單中的時數型別：
 
 1. 前往小時清單或報告。
 1. 按一下一個或多個小時專案左側的方塊以選取它們。
-1. 按一下清單頂端的&#x200B;**編輯圖示** ![](assets/edit-icon.png)。
+1. 按一下清單頂端的&#x200B;**編輯圖示** ![編輯圖示](assets/edit-icon.png)。
 
    **編輯小時**&#x200B;或&#x200B;**編輯小時**&#x200B;方塊開啟。
 1. 更新下列任一可用欄位：

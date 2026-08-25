@@ -20,9 +20,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0a3a49ff0e6347e0a0b327fcd692d5e1d9598f08
 workflow-type: tm+mt
-source-wordcount: 751
+source-wordcount: 757
 ht-degree: 3%
 
 ---
@@ -68,13 +68,13 @@ ht-degree: 3%
 
 ## 編輯時間表
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-icon.png)，然後按一下&#x200B;**時程表**。
+{{step1-to-timesheets}}
 
-   依預設會選取&#x200B;**全部**&#x200B;篩選器，以顯示您有權檢視的所有時程表。
+依預設會選取&#x200B;**全部**&#x200B;篩選器，以顯示您有權檢視的所有時程表。
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![已選取一個時程表的時程表清單](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
-1. （選擇性）按一下&#x200B;**搜尋**&#x200B;圖示![](assets/search-icon.png)並輸入關鍵字及搜尋特定時間表。 例如，您可以搜尋時程表的時間範圍或擁有者名稱。
+1. （選擇性）按一下&#x200B;**搜尋**&#x200B;圖示![搜尋圖示](assets/search-icon.png)，然後輸入關鍵字並搜尋特定時間表。 例如，您可以搜尋時程表的時間範圍或擁有者名稱。
 
 1. （選用）執行下列任一項作業，更新時程表清單中的篩選器：
 
@@ -86,21 +86,15 @@ ht-degree: 3%
 
      這會套用我的時程表核准或我的時程表篩選器到時程表清單。
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![我的時程表篩選器按鈕在時程表清單頁面上](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * 按一下「篩選」圖示![](assets/filter-nwepng.png)以套用不同的篩選，或建立新的篩選。 如需建立或更新篩選的資訊，請參閱[在Adobe Workfront中建立或編輯篩選器](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)。
+   * 按一下「篩選」圖示![篩選圖示](assets/filter-nwepng.png)以套用不同的篩選，或建立新的篩選。 如需建立或更新篩選的資訊，請參閱[在Adobe Workfront中建立或編輯篩選器](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)。
 
    >[!NOTE]
    >
-   >如果您的Workfront管理員或群組管理員從「設定」區域的「清單控制項」或您的「版面配置範本」中移除了「我的時程表核准」和「我的時程表」，則「我的時程表核准」和「我的時程表」選項不會顯示在時程表清單頂端或篩選器清單中。 如需詳細資訊，請參閱下列文章：
-   >
-   >   
-   >   
-   >   * [使用配置範本自訂篩選器、檢視和群組](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >   
-   >
+   >如果您的Workfront管理員或群組管理員從「設定」區域的「清單控制項」或您的「版面配置範本」中移除了這些篩選器，「我的時程表核准」和「我的時程表」選項不會顯示在時程表清單頂端或篩選器清單中。 如需詳細資訊，請參閱[使用配置範本自訂篩選器、檢視和群組](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)。
 
-1. （選擇性）按一下&#x200B;**檢視** ![](assets/view-icon.png)或&#x200B;**群組** ![](assets/grouping.png)圖示以套用不同的檢視或群組或建立新的檢視或群組。
+1. （選擇性）按一下&#x200B;**檢視** ![檢檢視示](assets/view-icon.png)或&#x200B;**群組** ![群組圖示](assets/grouping.png)圖示，以套用不同的檢視或群組或建立新的檢視或群組。
 
    如需有關建立篩選器、檢視或群組的資訊，請參閱下列文章：
 
@@ -108,7 +102,7 @@ ht-degree: 3%
    * [在Adobe Workfront中建立或編輯檢視](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [在Adobe Workfront中建立群組](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. 選取一或多個時間表，然後按一下時間表清單頂端的&#x200B;**編輯**&#x200B;圖示![](assets/edit-icon.png)。
+1. 選取一或多個時間表，然後按一下時間表清單頂端的&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
 1. 檢視或指定下列資訊：
 
    <table style="table-layout:auto"> 
@@ -146,7 +140,7 @@ ht-degree: 3%
       <td> <p>如果您希望允許核准者編輯時程表上的小時，請選取此選項。</p> <p>當您選取多個時程表時，此選項不可用。 </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span style="font-weight: bold;">加班</span> </td> 
+      <td role="rowheader"><strong>加班</strong> </td> 
       <td> <p>您可以選擇隱藏時程表上的「加班」方塊。</p> <p>此選項預設為停用。</p> </td> 
      </tr> 
     </tbody> 

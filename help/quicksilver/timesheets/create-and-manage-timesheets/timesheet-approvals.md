@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 678
+source-wordcount: 689
 ht-degree: 3%
 
 ---
@@ -95,17 +95,13 @@ Adobe Workfront提供設定時程表核准的功能，以支援此區域。
 
    在時程表清單頂端選取&#x200B;**我的時程表核准**&#x200B;篩選器。
 
-   ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+   ![我的時程表篩選器按鈕在時程表清單頁面上](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
    >[!NOTE]
    >
-   >如果您的Workfront管理員或群組管理員從設定區域的清單控制項或版面配置範本中移除了「我的時程表核准」篩選器，則「我的時程表核准」選項不會顯示在時程表清單頂端或篩選器清單中。
-   >
-   >如需詳細資訊，請參閱[使用配置範本自訂篩選器、檢視和群組](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >   
-   >
+   >如果您的Workfront管理員或群組管理員從「設定」區域的「清單控制項」或您的「版面配置範本」中移除了這些篩選器，「我的時程表核准」和「我的時程表」選項不會顯示在時程表清單頂端或篩選器清單中。 如需詳細資訊，請參閱[使用配置範本自訂篩選器、檢視和群組](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)。
 
-1. （選擇性）按一下時程表清單頂端的&#x200B;**搜尋**&#x200B;圖示![](assets/search-icon.png)，然後輸入關鍵字以尋找特定時程表。 您可以搜尋時間範圍，或搜尋擁有者或核准者的名稱。
+1. （選擇性）按一下時程表清單頂端的&#x200B;**搜尋**&#x200B;圖示![搜尋圖示](assets/search-icon.png)，然後輸入關鍵字以尋找特定時程表。 您可以搜尋時間範圍，或搜尋擁有者或核准者的名稱。
 1. 按一下您要核準時程表的時間範圍。 時程表隨即開啟。
 
    >[!TIP]

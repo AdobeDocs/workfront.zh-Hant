@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 1056
+source-wordcount: 1059
 ht-degree: 1%
 
 ---
@@ -179,7 +179,7 @@ You can resize the columns that display different weeks, the time frame, or the 
 
 您在時數專案註解方塊中輸入的註解會顯示在您記錄工具列中&#x200B;**顯示註解**&#x200B;設定啟用時間的每個工作專案下的時程表中。
 
-![](assets/hour-entry-comment-under-task-in-timesheet-unshimmed-redesign.png)
+![小時專案註解](assets/hour-entry-comment-under-task-in-timesheet-unshimmed-redesign.png)
 
 ## 時數
 
