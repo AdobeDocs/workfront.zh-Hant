@@ -9,12 +9,9 @@ exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/eXQq0xVpUr3-VGwwA-v8g2QbOk8hZ-xDFze58ofP240
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: a76a39fde984bece43cda9812c436d81f41eb989
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 2d26437c69b3c36366938952d426532934f55c52
 workflow-type: tm+mt
 source-wordcount: 133
 ht-degree: 0%
@@ -42,12 +39,13 @@ ht-degree: 0%
 * [共用檢視](/help/quicksilver/planning/access/share-views.md)
 * [共用工作區](/help/quicksilver/planning/access/share-workspaces.md)
 * [共用記錄型別](/help/quicksilver/planning/access/share-record-types.md)
-
-<div class="preview">
-
 * [共用記錄](/help/quicksilver/planning/access/share-records.md)
 * [設定記錄的預設許可權](/help/quicksilver/planning/access/set-default-record-permissions.md)
 
+<!--
+<div class="preview">
+
+* [Share Workfront Planning fields](/help/quicksilver/planning/access/share-fields.md)
+
 </div>
-
-
+-->
