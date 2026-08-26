@@ -4,37 +4,40 @@ description: 使用一組Claude程式碼技能，透過描述您想要的方式�
 author: Becky
 feature: Digital Content and Documents
 hide: true
-source-git-commit: e5a288dcac20be9176d1541d531edaf0d8c99a8c
+source-git-commit: 366cc4ffea48295b00389b5ee36f2df42b2c8a07
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 5%
+source-wordcount: '566'
+ht-degree: 4%
 
 ---
 
 
 # 使用克勞德程式碼技能建置App Builder應用程式
 
-一組[!DNL Claude Code]技能可讓[!DNL Claude]為[!DNL Workfront]建置自訂[!DNL Adobe App Builder]應用程式。 這表示您可以用純英文描述您想要的內容，而不需要成為開發人員或自己撰寫設定步驟，藉此建立帳戶。
+技能套件可讓[!DNL Claude] （或任何支援克勞德格式化技能的AI編碼配線，例如[!DNL Claude Code]或[!DNL OpenAI Codex]）為[!DNL Workfront]建置自訂[!DNL Adobe App Builder]應用程式。 如果您有這些工具的存取權，您可以透過以純英文描述您想要的東西來建置UI擴充功能，而不需要開發人員經驗或手動設定步驟。
 
 客戶和合作夥伴可以利用由 Adobe App Builder 提供技術支援的 Workfront UI 擴充功能，建立自訂使用者體驗。 UI擴充功能可讓您修改組織的Workfront體驗，以更符合組織的需求，進而提高效率、提供順暢、連結的體驗，並大幅提升使用者滿意度，並幫助您的組織實現其獨特願景。
 
 如需Workfront UI擴充功能的詳細資訊，請參閱[使用Adobe App Builder建立Workfront的自訂應用程式](/help/quicksilver/app-builder/app-builder.md)。
 
-## Claude的UI擴充性技能
+## UI擴充性技能
 
-在[!DNL Adobe App Builder]上建置可能相當技術性，如果使用者不熟悉程式或技術，這可能會造成障礙。 UI擴充性技能可使用[!DNL Claude]簡化此程式。 您說明了您想要的功能，而[!DNL Claude]會親自執行工作，例如設定工具、在[!DNL Adobe App Builder]中建立專案、建置應用程式、將其部署到Adobe雲端，以及在Workfront中執行。 只有在需要您執行決定的決策或登入動作時，您才會參與此程式。
+UI擴充性技能允許AI編碼工具在Workfront中管理UI擴充功能的建立。 您描述想要的功能，它會進行實作工作，例如設定工具、在[!DNL Adobe App Builder]中建立專案、建置應用程式、將其部署到Adobe雲端，以及在Workfront中執行。 只有在需要您執行決定的決策或登入動作時，您才會參與此程式。 本文以[!DNL Claude]為例，但這些指示適用於任何具有Claude Skills支援的AI編碼配線。
 
 ## 先決條件
 
 開始之前，請確定您擁有：
 
-* 已安裝&#x200B;**[!DNL Claude Code]**。
+* **支援Claude Skills**&#x200B;的AI編碼配線，例如[!DNL Claude Code]。
+
+  如需Claude技能的詳細資訊，請參閱[什麼是技能？](https://support.claude.com/en/articles/12512176-what-are-skills) 在Claude檔案中。
+
 * **存取技能**。
 
   * 您可以在[https://github.com/adobe/skills/blob/main/plugins/app-builder/skills/appbuilder-workfront/SKILL.md](https://github.com/adobe/skills/blob/main/plugins/app-builder/skills/appbuilder-workfront/SKILL.md)找到技能。
 
     如果此連結未為您開啟，請要求您的管理員授予您存取權。
-  * 下載技能後，請執行以下命令進行設定。
+  * 這些技能發佈在Adobe的公開技能市場([adobe/skills](https://github.com/adobe/skills))。 在[!DNL Claude Code]中，執行：
 
     ```
     /plugin marketplace add adobe/skills
