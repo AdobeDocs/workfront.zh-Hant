@@ -9,15 +9,11 @@ exl-id: 166a84d3-18ea-4a58-b0e8-f09df2a63caa
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/tP75wPqPCzTwe5PW7WG4S-K6GEcitinQzrHm8xnUIqg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 49f8e36099d38093210fe1caab88a478e3b5609b
 workflow-type: tm+mt
 source-wordcount: 368
 ht-degree: 4%
@@ -28,7 +24,6 @@ ht-degree: 4%
 
 使用卡片上的子任務可讓您在任務之間建立父子關係，並建立工作的階層。 您新增至Workfront展示板上卡片的子任務也會新增至Workfront專案中的任務。 如需專案層級之子任務和任務的詳細資訊，請參閱[建立子任務](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md)。
 
-子任務僅在已連線的卡片上可用，在問題中不可用。 如需有關已連線卡片的資訊，請參閱[使用主機板上的已連線卡片](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)。
 
 ## 存取權要求
 
@@ -58,6 +53,11 @@ ht-degree: 4%
 
 ## 將子任務新增至卡片
 
+>[!IMPORTANT]
+>
+>子任務僅在已連線的卡片上可用，在問題中不可用。 如需有關已連線卡片的資訊，請參閱[使用主機板上的已連線卡片](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)。
+
+
 {{step1-to-boards}}
 
 1. 存取展示板。 如需詳細資訊，請參閱[建立或編輯展示板](../../agile/get-started-with-boards/create-edit-board.md)。
@@ -69,7 +69,7 @@ ht-degree: 4%
 
    此任務的任何現有子任務都會出現在子任務區段中，檢查清單專案上方的卡片上。 按一下&#x200B;[!UICONTROL **搜尋**]&#x200B;圖示以搜尋子任務。
 
-1. 若要新增子工作，請按一下[新增子工作]。[!UICONTROL **&#x200B;**] 然後，鍵入子任務的標題並按Enter鍵。
+1. 若要新增子工作，請按一下[新增子工作]。[!UICONTROL ****] 然後，鍵入子任務的標題並按Enter鍵。
 
    清單頂端的計數器顯示已完成子工作的數目以及子工作的總數。
 
