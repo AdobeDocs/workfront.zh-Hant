@@ -6,14 +6,14 @@ description: 。
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '39'
-ht-degree: 12%
+ht-degree: 25%
 
 ---
 
 
 # Workfront知識庫
 
-* [管理與設定](administration-and-setup/administration-and-setup.md)
+* [管理和設定](administration-and-setup/administration-and-setup.md)
 * [Adobe Workfront基本知識：文章索引](workfront-basics/workfront-basics.md)
 * [人員、團隊和群組](people-teams-and-groups/people-teams-and-groups.md)
 * [管理資源](resource-mgmt/manage-resources.md)
@@ -30,7 +30,7 @@ ht-degree: 12%
 * [時程表：文章索引](timesheets/timesheets-all.md)
 * [Adobe Workfront整合](workfront-integrations-and-apps/workfront-integrations.md)
 <!--* [Adobe Workfront API](wf-api/workfront-api.md) -->
-* [Workfront 校訂](workfront-proof/workfront-proof.md)
+* [Workfront Proof](workfront-proof/workfront-proof.md)
 * [產品公告](product-announcements/product-announcements.md)
 
 。
