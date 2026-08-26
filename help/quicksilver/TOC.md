@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 3e5da889d33a67d9d80b2c978bb47510d49b8259
+source-git-commit: d2c1bf01d27958151c7eeb2c4e5e6daca9eb97c3
 workflow-type: tm+mt
-source-wordcount: '14435'
+source-wordcount: '14452'
 ht-degree: 2%
 
 ---
@@ -2210,6 +2210,7 @@ ht-degree: 2%
     * [從CSV或Excel檔案匯入資訊，以建立記錄型別](planning/architecture/import-file-to-create-record-types.md)
     * [跨工作區記錄型別概觀](planning/architecture/cross-workspace-record-types-overview.md)
     * [設定記錄型別的跨工作區功能](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+    * {hide-from-toc}[設定記錄型別商業規則](planning/architecture/configure-business-rules.md)
     * [設定記錄型別的設定區域](planning/architecture/configure-record-type-settings.md)
     * [從另一個工作區新增現有記錄型別](planning/architecture/add-existing-record-types-from-another-workspace.md)
     * [連線記錄型別概觀](planning/architecture/connect-record-types-overview.md)
@@ -2239,6 +2240,7 @@ ht-degree: 2%
     * [共用記錄型別](planning/access/share-record-types.md)
     * [共用檢視](planning/access/share-views.md)
     * [共用記錄](planning/access/share-records.md)
+    * {hide-from-toc}[共用Workfront規劃欄位](planning/access/share-fields.md)
     * [設定記錄的預設許可權](planning/access/set-default-record-permissions.md)
     * [要求檢視或工作區的許可權](planning/access/request-permissions.md)
   * Adobe Workfront Planning記錄 {#adobe-workfront-planning-records}
@@ -2723,6 +2725,7 @@ ht-degree: 2%
   * [App Builder：文章索引](/help/quicksilver/app-builder/app-builder-toc.md)
   * [從Adobe Exchange取得並安裝應用程式](/help/quicksilver/app-builder/install-apps-on-exchange.md)
   * [使用Adobe App Builder為Workfront建立自訂應用程式](/help/quicksilver/app-builder/app-builder.md)
+  * {hide-from-toc}[使用克勞德程式碼技能建置App Builder應用程式](/help/quicksilver/app-builder/build-apps-with-claude-code-skills.md)
 * {hide-from-toc}[隱藏的測試檔案](hidden-test.md)
 * {hide-from-toc}[隱藏2](hidden-test-2.md)
 
