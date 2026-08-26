@@ -9,15 +9,12 @@ feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 75635712-c237-4a83-9ab0-fe37c8069284
 TQID: https://experienceleague.adobe.com/LNvbs2uALlFVrFt2z9jnkBzdsf-X7oOGpg9R1x-hzEM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 5e63d7e8c5c282cf4d0cc588b59733b2d790b457
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 67718eeb12ae1e1b5ec5be1c88dbdedf5926f117
 workflow-type: tm+mt
-source-wordcount: 85
+source-wordcount: 90
 ht-degree: 0%
 
 ---
@@ -35,3 +32,4 @@ ht-degree: 0%
 * [組織檔案：文章索引](../documents/organizing-documents/organize-documents.md)
 * [Adobe Cloud Drive：文章索引](../documents/adobe-cloud-drive/adobe-cloud-drive.md)
 * [Workfront與Experience Manager Assets整合：文章索引](../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
+* [Adobe Workfront中的C2PA中繼資料](../documents/c2pa-metadata-overview.md)

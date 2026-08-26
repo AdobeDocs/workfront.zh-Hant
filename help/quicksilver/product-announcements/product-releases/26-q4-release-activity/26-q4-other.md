@@ -4,9 +4,9 @@ description: 2026年第四季發行時間範圍內的其他增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1dd8ab20d11b2b4471308ac5402b31e20359a04c
+source-git-commit: 723c5ce69f0e457dfd8e3d230e451a41b655603e
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -17,23 +17,37 @@ ht-degree: 0%
 
 如需2026年第四季版本週期目前可用的所有變更清單，請參閱[2026年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)。
 
+## C2PA中繼資料會保留在您的檔案中
+
+>[!NOTE]
+>
+>適用於所有人的生產日期： 2026年8月26日
+
+Adobe Workfront會在您上傳、儲存和下載的檔案上保留C2PA中繼資料，而不修改它。
+
+如需詳細資訊，請參閱Adobe Workfront](/help/quicksilver/documents/c2pa-metadata-overview.md)中的[C2PA中繼資料。
+
 ## 左側導覽面板圖示的介面更新
 
 >[!NOTE]
 >
->預覽： 2026年7月30日>所有人生產： 2026年8月13日>[!BADGE 排程外]{type=Neutral}
+>預覽： 2026年7月30日
+>適用於所有人的生產： 2026年8月13日
+>[!BADGE 不在排程]{type=Neutral}內
 
 我們已更新Workfront中左側導覽面板圖示的外觀和風格，提供現代設計，以及與其他Adobe應用程式一致的體驗。 功能未變更。
 
 導覽面板位於Workfront中大部分割槽域和物件的左側，包括專案、任務和問題。
 
-如需詳細資訊，請參閱[&#x200B; Adobe Workfront中的左側導覽](/help/quicksilver/workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)。
+如需詳細資訊，請參閱[ Adobe Workfront中的左側導覽](/help/quicksilver/workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)。
 
 ## 增強型清單更新
 
 >[!NOTE]
 >
->預覽： 2026年7月30日>生產快速版本： 2026年8月13日>每個人都生產： 2026年10月15日
+>預覽： 2026年7月30日
+>生產快速發行： 2026年8月13日
+>適用於所有人的生產： 2026年10月15日
 
 已對增強型清單進行多項更新：
 
@@ -46,7 +60,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2026年7月30日>生產快速版本： 2026年8月13日>每個人都生產： 2026年10月15日
+>預覽： 2026年7月30日
+>生產快速發行： 2026年8月13日
+>適用於所有人的生產： 2026年10月15日
 
 當您將滑鼠游標停留在物件的階層連結上時，您現在可以複製其名稱，並在一個動作中一起連結。 如此一來，在Slack、電子郵件或其他工具中共用物件會更快速，而且無須分別複製名稱和URL。
 
