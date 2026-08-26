@@ -25,7 +25,7 @@ ht-degree: 0%
 
 Adobe Workfront會在您上傳、儲存和下載的檔案上保留C2PA中繼資料，而不修改它。
 
-如需詳細資訊，請參閱Adobe Workfront](/help/quicksilver/documents/c2pa-metadata-overview.md)中的[C2PA中繼資料。
+如需詳細資訊，請參閱Adobe Workfront[&#128279;](/help/quicksilver/documents/c2pa-metadata-overview.md)中的C2PA中繼資料。
 
 ## 左側導覽面板圖示的介面更新
 
@@ -39,7 +39,7 @@ Adobe Workfront會在您上傳、儲存和下載的檔案上保留C2PA中繼資�
 
 導覽面板位於Workfront中大部分割槽域和物件的左側，包括專案、任務和問題。
 
-如需詳細資訊，請參閱[ Adobe Workfront中的左側導覽](/help/quicksilver/workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)。
+如需詳細資訊，請參閱[&#x200B; Adobe Workfront中的左側導覽](/help/quicksilver/workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)。
 
 ## 增強型清單更新
 

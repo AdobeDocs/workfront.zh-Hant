@@ -6,9 +6,12 @@ description: 瞭解什麼是C2PA中繼資料，以及Adobe Workfront如何將其
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 3510218fb179a0852ad22abe2a753ccdb261205a
 workflow-type: tm+mt
 source-wordcount: 215
