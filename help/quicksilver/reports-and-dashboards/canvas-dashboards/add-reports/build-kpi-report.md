@@ -9,21 +9,15 @@ exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/5tFfjJfCZzD-xA4YgFpz9V3jIVG2etiYJ-KAwPLI-Sk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 79d9eb9d3066cc83c1190d9732c64712917798aa
 workflow-type: tm+mt
-source-wordcount: 1299
-ht-degree: 7%
+source-wordcount: 1406
+ht-degree: 6%
 
 ---
 
@@ -31,9 +25,9 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->畫布儀表板功能目前僅適用於參與Beta階段的使用者。在此階段中，部分功能可能無法完成或如預期般運作。請依照「畫布控制面板」測試版概觀文章中[提供意見回饋](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)一節的指示，提交有關您體驗的任何意見回饋。<br>
->如果您對可能的錯誤或技術問題有回饋意見，請向Workfront支援提交票證。如需詳細資訊，請參閱[聯絡客戶支援](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
->請注意，此測試版不適用於下列雲端服務提供者：
+>畫布儀表板功能目前僅適用於參與Beta階段的使用者。 在此階段中，部分功能可能無法完成或如預期般運作。 請依照「畫布控制面板」測試版概觀文章中[提供意見回饋](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)一節的指示，提交有關您體驗的任何意見回饋。<br>
+>如果您對可能的錯誤或技術問題有回饋，請向Workfront支援提交票證。 如需詳細資訊，請參閱[聯絡客戶支援](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
+>請注意，以下雲端服務供應商未提供此測試版：
 >
 >* 自備Amazon Web Services金鑰
 >* Azure
@@ -80,7 +74,7 @@ ht-degree: 7%
 
 ## 先決條件
 
-您必須先建立儀表板，才能建立KPI報表。
+您必須先建立儀表板，才能建立KPI報表。 如需詳細資訊，請參閱[建立畫布控制面板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)。
 
 ## 在畫布控制面板中建立KPI報告
 
@@ -88,13 +82,9 @@ ht-degree: 7%
 
 {{step1-to-dashboards}}
 
-1. 在左側面板中，按一下&#x200B;**畫布控制面板**。
+1. 在左側面板中，按一下&#x200B;**畫布控制面板**，然後按一下您要新增報告的控制面板名稱。
 
-1. 按一下右上角的&#x200B;**新儀表板**。
-
-1. 在&#x200B;**建立儀表板**&#x200B;方塊中，輸入儀表板的&#x200B;**名稱**&#x200B;和&#x200B;**描述**。
-
-1. 按一下「**建立**」。
+1. 按一下頁面右上角的&#x200B;**新增報告**。
 
 1. 在&#x200B;**新增報告**&#x200B;方塊中，選取&#x200B;**建立報告**。
 
@@ -161,13 +151,9 @@ ht-degree: 7%
 
 {{step1-to-dashboards}}
 
-1. 在左側面板中，按一下&#x200B;**畫布控制面板**。
+1. 在左側面板中，按一下&#x200B;**畫布控制面板**，然後按一下您要新增報告的控制面板名稱。
 
-1. 按一下右上角的&#x200B;**新儀表板**。
-
-1. 在&#x200B;**建立儀表板**&#x200B;方塊中，輸入儀表板的&#x200B;**名稱**&#x200B;和&#x200B;**描述**。
-
-1. 按一下「**建立**」。
+1. 按一下頁面右上角的&#x200B;**新增報告**。
 
 1. 在&#x200B;**新增報告**&#x200B;方塊中，選取&#x200B;**建立報告**。
 
@@ -215,7 +201,7 @@ ht-degree: 7%
 * 能看到財務資料的使用者，僅限於他們已經有權限查看的記錄 (專案、任務、問題等)。 他們無法看到無法存取的記錄的財務數值。
 * 報告建立者在將財務資料納入儀表板時應謹慎，並注意與誰分享儀表板，以防止未經授權的存取。
 
-這是已知的限制，我們計畫儘快解決它。
+這是已知的限制，我們計畫在未來解決它。
 
 ### 利用欄位選擇器
 

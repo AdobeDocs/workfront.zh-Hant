@@ -10,15 +10,12 @@ exl-id: 25f045d9-a291-423d-81ee-6fbd2fb12607
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/iUA66WzGxCmngVNSHJ1hcm6o-5lyfKDk6gQK3AdXBG0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 5fe8f3a46e3582a359b8d4641a7062b0590ea0b8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ece6404b8c1413667fdfea76c883ee2077dee8c7
 workflow-type: tm+mt
-source-wordcount: 570
+source-wordcount: 674
 ht-degree: 1%
 
 ---
@@ -105,6 +102,24 @@ Once you open a Canvas Dashboard, you can interact with the reports displayed on
    >[!IMPORTANT]
    >
    >這些變更只會套用至您目前的作業階段，不會影響原始報表設定。 若要永久保留這些變更，您必須編輯報表。
+
+<div class="preview">
+
+### 在預覽中向下切入樞紐分析表資料
+
+您可以按一下樞紐分析表報表中的值，以向下展開並檢視構成該彙總值的個別記錄。
+
+{{step1-to-dashboards}}
+
+1. 在左側面板中，按一下&#x200B;**畫布控制面板**。
+1. 按一下現有儀表板的名稱以開啟它。
+   ![開啟儀表板](assets/open-dashboard.png)
+1. 找出您要檢視的樞紐分析表。
+1. 按一下樞紐分析表中的值以開啟向下追溯表格。
+
+   向下追溯表格會顯示報表建立者在「向下追溯欄設定」中設定的欄。 如需詳細資訊，請參閱[在畫布儀表板中建立樞紐分析表](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md)。
+
+</div>
 
 
 <!--
