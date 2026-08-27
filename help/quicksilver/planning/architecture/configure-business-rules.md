@@ -5,10 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 159b845c7b755117197d18f8474c01d4b19d53b8
+source-git-commit: 914f1f8a25aa5b9e1045d2f940ed15061301c21b
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 4%
+source-wordcount: '298'
+ht-degree: 3%
 
 ---
 
@@ -75,7 +75,10 @@ ht-degree: 4%
 
 ## 設定商業規則時的注意事項
 
-* 您可以設定何時可編輯或刪除記錄的規則。
+* 您可以根據您定義的條件，設定何時可編輯或刪除記錄的規則。
+
+  例如，您可以建立要求特定欄位有值的條件。 如果這些欄位缺少值，使用者無法編輯或刪除該記錄。
+* 您無法將商業規則新增至其主要或次要工作區中的全域記錄型別。
 * 建立記錄時，您無法設定規則。 擁有記錄型別管理許可權的所有人都可以建立記錄。
 * 您可以為商業規則建立條件，該條件會參考以下欄位型別以外的所有欄位型別：
   * 公式欄位

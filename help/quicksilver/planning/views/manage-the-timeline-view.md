@@ -9,19 +9,14 @@ exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/LLfVzbK4pCfwB24Hbf9hx0m-xKMVwuDGBP1l-Kxy6Oo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 913081d2d8fc6ac2fbd5dd80ae1cc588d8ba7cbc
 workflow-type: tm+mt
-source-wordcount: 4418
+source-wordcount: 4518
 ht-degree: 1%
 
 ---
@@ -213,7 +208,7 @@ Old:
    >在「設定」區域中設定自訂季度後，時間軸檢視會顯示自訂季度，而非傳統季度。
    >如需詳細資訊，請參閱[啟用自訂季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
-1. （視條件而定）如果您是Workfront管理員，請按一下&#x200B;**前往設定**&#x200B;設定您的季度。 如果沒有，請按一下[確定] **&#x200B;**，並要求Workfront管理員設定自訂季度。
+1. （視條件而定）如果您是Workfront管理員，請按一下&#x200B;**前往設定**&#x200B;設定您的季度。 如果沒有，請按一下[確定] ****，並要求Workfront管理員設定自訂季度。
 
    >[!TIP]
    >
@@ -465,12 +460,16 @@ Old:
    * **棧疊**：群組顯示時沒有凍結的左欄，而且符合專案時程表的寬度。
 
      時間軸檢視中的![棧疊群組](assets/stacked-grouping-in-timeline-view.png)
-   * **泳道**：群組以凍結的左標題欄顯示，其中列出群組專案，且群組符合時間軸檢視的寬度。
+   * **泳道**：群組以凍結的左側面板顯示，其中列出群組專案，且群組符合時間軸檢視的寬度。
 
      在時間表檢視中![泳道群組](assets/swimlane-grouping-in-timeline-view.png)
-   <!--
-    1. <span class="preview">(Optional) Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png)  in the toolbar to open the **Group records by** box, then click **Expand all** to expand all the groupings, or **Collapse all** to collapse all the groupings and manually collapse only the ones you need. </span>
-    -->
+
+   群組會立即套用。
+
+1. <span class="preview"> （選擇性）按一下工具列中的&#x200B;**群組**&#x200B;圖示![群組圖示](assets/grouping-icon.png)以開啟&#x200B;**群組記錄依據**&#x200B;方塊，然後按一下&#x200B;**全部展開**&#x200B;以展開所有群組，或按一下&#x200B;**全部摺疊**&#x200B;以摺疊所有群組，並手動只摺疊您需要的群組。</span>
+1. <span class="preview"> （選擇性和條件性）在泳道顯示中，拖放左側面板分隔符號以調整其寬度。 每個使用者的面板寬度會跨工作階段儲存，初次使用者的預設寬度為。</span>
+1. <span class="preview">（選擇性）若是長群組名稱，將滑鼠指標停留在群組的行上，即可在工具提示中檢視群組的完整名稱。</span>
+
 1. （選擇性）在&#x200B;**群組記錄依據**&#x200B;方塊中，按一下選取要移除分組的欄位右邊的&#x200B;**x**&#x200B;圖示
 
    或

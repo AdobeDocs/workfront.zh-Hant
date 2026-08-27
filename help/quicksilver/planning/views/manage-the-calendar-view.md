@@ -9,20 +9,15 @@ exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/r5i-iqQjF2cQtru6qxEAkrP6xkHGcAp7D8EYRav-7ls
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 913081d2d8fc6ac2fbd5dd80ae1cc588d8ba7cbc
 workflow-type: tm+mt
-source-wordcount: 1917
-ht-degree: 5%
+source-wordcount: 2002
+ht-degree: 4%
 
 ---
 
@@ -193,6 +188,10 @@ Old:
        * 橫跨多天的記錄會顯示在行事曆的頂端。
        * 持續一天或更短的記錄，會顯示在行事曆檢視的下半部分。 如果您選取顯示開始與結束日期的小時，則記錄會在記錄發生的當天的適當時間顯示。
 
+         <span class="preview">行事曆在每週檢視中會顯示過去、目前和未來幾週最多1,000筆記錄。</span>
+
+1. <span class="preview"> （選擇性和條件性）按一下行事曆底部的&#x200B;**載入更多** （如果超過1,000筆記錄，而且有些記錄預設不會顯示），依周檢視行事曆時。</span>
+
 1. （選擇性）按一下&#x200B;**全熒幕**&#x200B;圖示![開啟全熒幕圖示](assets/open-full-screen-icon.png)以全熒幕開啟檢視，然後按一下&#x200B;**退出全熒幕**&#x200B;圖示![退出全熒幕圖示](assets/exit-full-screen-icon.png)或鍵盤上的Escape以退出全熒幕。
 
 1. 若要在行事曆檢視中建立記錄或編輯其日期，請執行下列其中一個動作：
@@ -327,7 +326,7 @@ Old:
 
       ![檢視中的多重層級篩選器](assets/multi-tiered-filters-in-views.png)
 
-   系統會自動篩選記錄清單。 <!--at this time, you can't name and save the filter - but will this change?!-->
+   系統會自動篩選記錄清單。  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. （選擇性）按一下&#x200B;**x**&#x200B;圖示以移除篩選條件。
@@ -448,7 +447,7 @@ Old:
 
    * **記錄型別**：行事曆中記錄列的色彩符合您選取的記錄型別。 這是預設選項。
    * **欄位值**：記錄的顏色符合您指定的欄位顏色。
-   * **無**：記錄以白色列顯示。 <span class="preview">已從預覽環境中移除[無]選項。</span>
+   * **無**：記錄以白色列顯示。 <span class="preview">已從預覽環境中移除&#x200B;**無**&#x200B;選項。</span>
 
 
 
