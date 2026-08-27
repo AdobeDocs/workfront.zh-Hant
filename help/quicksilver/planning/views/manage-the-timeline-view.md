@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+source-git-commit: 913081d2d8fc6ac2fbd5dd80ae1cc588d8ba7cbc
 workflow-type: tm+mt
-source-wordcount: 4418
+source-wordcount: 4518
 ht-degree: 1%
 
 ---
@@ -465,12 +465,16 @@ Old:
    * **棧疊**：群組顯示時沒有凍結的左欄，而且符合專案時程表的寬度。
 
      時間軸檢視中的![棧疊群組](assets/stacked-grouping-in-timeline-view.png)
-   * **泳道**：群組以凍結的左標題欄顯示，其中列出群組專案，且群組符合時間軸檢視的寬度。
+   * **泳道**：群組以凍結的左側面板顯示，其中列出群組專案，且群組符合時間軸檢視的寬度。
 
      在時間表檢視中![泳道群組](assets/swimlane-grouping-in-timeline-view.png)
-   <!--
-    1. <span class="preview">(Optional) Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png)  in the toolbar to open the **Group records by** box, then click **Expand all** to expand all the groupings, or **Collapse all** to collapse all the groupings and manually collapse only the ones you need. </span>
-    -->
+
+   群組會立即套用。
+
+1. <span class="preview"> （選擇性）按一下工具列中的&#x200B;**群組**&#x200B;圖示![群組圖示](assets/grouping-icon.png)以開啟&#x200B;**群組記錄依據**&#x200B;方塊，然後按一下&#x200B;**全部展開**&#x200B;以展開所有群組，或按一下&#x200B;**全部摺疊**&#x200B;以摺疊所有群組，並手動只摺疊您需要的群組。</span>
+1. <span class="preview"> （選擇性和條件性）在泳道顯示中，拖放左側面板分隔符號以調整其寬度。 每個使用者的面板寬度會跨工作階段儲存，初次使用者的預設寬度為。</span>
+1. <span class="preview">（選擇性）若是長群組名稱，將滑鼠指標停留在群組的行上，即可在工具提示中檢視群組的完整名稱。</span>
+
 1. （選擇性）在&#x200B;**群組記錄依據**&#x200B;方塊中，按一下選取要移除分組的欄位右邊的&#x200B;**x**&#x200B;圖示
 
    或

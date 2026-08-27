@@ -4,9 +4,9 @@ description: 此頁面提供2026年第四季度版本中包含的功能相關資
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 467ae444ace2613b713ff2feb125e2471aa1b078
+source-git-commit: 63bdc885983f60c316409c3bba400ad82d475a5f
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: '1501'
 ht-degree: 2%
 
 ---
@@ -264,6 +264,15 @@ ht-degree: 2%
             <td><strong>預覽</strong></td>
             <td><strong>快速發行</strong></td>
             <td><strong>每季</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">畫布儀表板中的樞紐分析表報表</a>
+                <p>「畫布控制面板」中的新樞紐分析表報表型別，會以準確、完整的統計，以及向下切入基礎記錄來彙總資料。</p>
+            </td>
+            <td><p>2026年8月27日</p></td>
+            <td><p>2026年9月17日</p></td>
+            <td><p>2026年10月15日</p></td>
         </tr>
         <tr>
             <td>

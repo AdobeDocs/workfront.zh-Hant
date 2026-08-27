@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 9b6b1157cf93418e8863f2e99ebe87414a23378d
+source-git-commit: f2a7d09bbf25685395dc97f67bfde87a5d006aea
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1339'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,44 @@ ht-degree: 0%
 本文介紹2026年第四季發行的Workfront Planning功能。
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 摺疊和展開時間軸檢視中的所有群組
+
+>[!NOTE]
+>
+>預覽： 2026年8月27日
+>生產快速發行： 2026年9月17日
+>適用於所有人的生產： 2026年10月15日
+
+時間表檢視現在包含群組時間表的「全部摺疊」和「全部展開」選項。 這可讓您更輕鬆地導覽大型藍圖檢視：您可以快速將檢視縮減為分組標題，然後僅展開您要檢閱的區段。
+
+如需詳細資訊，請參閱[管理時間表檢視](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
+
+## 請參閱時間軸檢視中的完整群組名稱和調整群組面板的大小
+
+>[!NOTE]
+>
+>預覽： 2026年8月27日
+>生產快速發行： 2026年9月17日
+>適用於所有人的生產： 2026年10月15日
+
+在時間軸檢視中，現在游標停留在截斷的群組標籤上，會在工具提示中顯示全文，包括泳道和棧疊群組顯示。 未截斷的標籤不會顯示工具提示。
+
+泳道顯示中的群組左側面板現在可以透過拖曳其分隔線來調整大小。 檢視會即時更新，這與表格檢視一致。 每個使用者的面板寬度會跨工作階段儲存，初次使用者的預設寬度為何。
+
+如需詳細資訊，請參閱[管理時間表檢視](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
+
+## 改善周檢視中大型記錄集的行事曆效能
+
+>[!NOTE]
+>
+>預覽： 2026年8月27日
+>生產快速發行： 2026年9月17日
+>適用於所有人的生產： 2026年10月15日
+
+行事曆周檢視現在只會顯示可見週期間內的前1,000筆記錄。 如果有更多記錄，則行事曆底部會顯示以下訊息，指出有其他記錄可用：「有更多記錄。 載入更多。」
+
+如需詳細資訊，請參閱[管理行事曆檢視](/help/quicksilver/planning/views/manage-the-calendar-view.md)。
 
 ## 已更新相依已連線記錄欄位的欄標題
 
@@ -43,22 +81,6 @@ ht-degree: 0%
 在表格檢視中拖放多列時，會有新的視覺指示器。 更突出的加號和數字指示器現在會顯示為拖放動作選取了多少列。
 
 如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)。
-
-<!--
-
-## Collapse and expand all groupings in the timeline view
-
->[!NOTE]
->
->Preview: August 13, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
-
-Timeline views now include Collapse all and Expand all options for grouped timelines. This makes it easier to navigate large roadmap views: you can quickly reduce the view to grouping headings, then expand only the sections you want to review.
-
-For more information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
-
--->
 
 ## 使用全域記錄型別時，將提交的請求物件路由到正確的工作區
 

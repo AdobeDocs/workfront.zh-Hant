@@ -4,9 +4,9 @@ description: 2026年第四季報表增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a86f0169f804520be2828983a737c8c8d151792d
+source-git-commit: 63bdc885983f60c316409c3bba400ad82d475a5f
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,18 @@ ht-degree: 0%
 本頁說明2026年第四季版本針對預覽環境所進行的報告增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2026年第四季版本週期目前可用的所有變更清單，請參閱[2026年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)。
+
+## 畫布儀表板中的樞紐分析表報表
+
+>[!NOTE]
+>
+>預覽： 2026年8月27日
+>生產快速發行： 2026年9月17日
+>適用於所有人的生產： 2026年10月15日
+
+「畫布控制面板」中的新樞紐分析表報表型別，會以準確、完整的統計來彙總資料。 您可以直接在儀表板上建立計數、總和和平均等量度，然後深入研究任何總計背後的基礎記錄。
+
+如需詳細資訊，請參閱[在畫布儀表板中建立樞紐分析表](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md)。
 
 ## 強制排程報表的結束日期
 

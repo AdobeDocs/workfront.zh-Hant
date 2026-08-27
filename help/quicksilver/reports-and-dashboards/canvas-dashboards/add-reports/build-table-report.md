@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
+source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
 workflow-type: tm+mt
-source-wordcount: 1236
-ht-degree: 8%
+source-wordcount: 1343
+ht-degree: 7%
 
 ---
 
@@ -31,9 +31,9 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
->畫布儀表板功能目前僅適用於參與Beta階段的使用者。在此階段中，部分功能可能無法完成或如預期般運作。請依照「畫布控制面板」測試版概觀文章中[提供意見回饋](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)一節的指示，提交有關您體驗的任何意見回饋。<br>
->如果您對可能的錯誤或技術問題有回饋意見，請向Workfront支援提交票證。如需詳細資訊，請參閱[聯絡客戶支援](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
->請注意，此測試版不適用於下列雲端服務提供者：
+>畫布儀表板功能目前僅適用於參與Beta階段的使用者。 在此階段中，部分功能可能無法完成或如預期般運作。 請依照「畫布控制面板」測試版概觀文章中[提供意見回饋](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)一節的指示，提交有關您體驗的任何意見回饋。<br>
+>如果您對可能的錯誤或技術問題有回饋，請向Workfront支援提交票證。 如需詳細資訊，請參閱[聯絡客戶支援](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
+>請注意，以下雲端服務供應商未提供此測試版：
 >
 >* 自備Amazon Web Services金鑰
 >* Azure
@@ -80,7 +80,7 @@ ht-degree: 8%
 
 ## 先決條件
 
-在建置表格報表之前，您必須先建立儀表板。
+在建置表格報表之前，您必須先建立儀表板。 如需詳細資訊，請參閱[建立畫布控制面板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)。
 
 
 ## 在畫布儀表板中建立表格報告
@@ -89,13 +89,9 @@ ht-degree: 8%
 
 {{step1-to-dashboards}}
 
-1. 在左側面板中，按一下&#x200B;**畫布控制面板**。
+1. 在左側面板中，按一下&#x200B;**畫布控制面板**，然後按一下您要新增報告的控制面板名稱。
 
-1. 按一下右上角的&#x200B;**新儀表板**。
-
-1. 在&#x200B;**建立儀表板**&#x200B;方塊中，輸入儀表板的&#x200B;**名稱**&#x200B;和&#x200B;**描述**。
-
-1. 按一下「**建立**」。
+1. 按一下頁面右上角的&#x200B;**新增報告**。
 
 1. 在&#x200B;**新增報告**&#x200B;方塊中，選取&#x200B;**建立報告**。
 
@@ -151,13 +147,9 @@ ht-degree: 8%
 
 {{step1-to-dashboards}}
 
-1. 在左側面板中，按一下&#x200B;**畫布控制面板**。
+1. 在左側面板中，按一下&#x200B;**畫布控制面板**，然後按一下您要新增報告的控制面板名稱。
 
-1. 按一下右上角的&#x200B;**新儀表板**。
-
-1. 在&#x200B;**建立儀表板**&#x200B;方塊中，輸入儀表板的&#x200B;**名稱**&#x200B;和&#x200B;**描述**。
-
-1. 按一下「**建立**」。
+1. 按一下頁面右上角的&#x200B;**新增報告**。
 
 1. 在&#x200B;**新增報告**&#x200B;方塊中，選取&#x200B;**建立報告**。
 
@@ -232,7 +224,7 @@ ht-degree: 8%
 * 能看到財務資料的使用者，僅限於他們已經有權限查看的記錄 (專案、任務、問題等)。 他們無法看到無法存取的記錄的財務數值。
 * 報告建立者在將財務資料納入儀表板時應謹慎，並注意與誰分享儀表板，以防止未經授權的存取。
 
-這是已知的限制，我們計畫儘快解決它。
+這是已知的限制，我們計畫在未來解決它。
 
 ### 利用欄位選擇器
 
@@ -263,3 +255,4 @@ ht-degree: 8%
 * 檔案核准階段>檔案核准階段參與者
 
 使用上面列出的任何父項至子項關係時，您會在表格中看到連線到父物件的每個子記錄的一列。
+
