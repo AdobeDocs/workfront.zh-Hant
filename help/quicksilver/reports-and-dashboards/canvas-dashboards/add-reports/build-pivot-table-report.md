@@ -5,7 +5,7 @@ title: 在畫布儀表板中建立樞紐分析表
 description: 您可以將樞紐分析表新增至畫布控制面板，以表格格式檢視資料的彙總總數。
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 79d9eb9d3066cc83c1190d9732c64712917798aa
+source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 5%
@@ -239,3 +239,4 @@ ht-degree: 5%
 我們將存取許可權限製為選擇子物件做為樞紐分析表的區段。 區段選項可以是記錄本身的屬性，或是不代表1:many或許多:many關聯性的其他相關記錄。
 
 我們也限制存取權以參照任何父或子屬性作為量度，以減少重複計算或重複彙總值的可能性，導致實際資料的錯誤表示。
+
