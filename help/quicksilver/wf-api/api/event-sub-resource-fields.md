@@ -18,9 +18,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 7c4ce7371666033fbb5c86193e75e7f79f46654c
+source-git-commit: 388af1150be6381f613fb69eb1cbef9c0872138e
 workflow-type: tm+mt
-source-wordcount: 1078
+source-wordcount: 1184
 ht-degree: 12%
 
 ---
@@ -227,6 +227,11 @@ ht-degree: 12%
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>realRequesterID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td> Realuserid </td> 
   </tr> 
   <tr> 
@@ -405,6 +410,46 @@ ht-degree: 12%
    <td> </td> 
    <td>所需工作</td> 
   </tr> 
+  <tr> 
+   <td>預訂</td> 
+   <td>預訂</td> 
+   <td>存取子IDs</td> 
+  </tr> 
+  <tr><td> </td><td> </td><td>actualCompletionDate</td></tr> 
+  <tr><td> </td><td> </td><td>實際成本</td></tr> 
+  <tr><td> </td><td> </td><td>actualHours</td></tr> 
+  <tr><td> </td><td> </td><td>actualRevenue</td></tr> 
+  <tr><td> </td><td> </td><td>actualStartDate</td></tr> 
+  <tr><td> </td><td> </td><td>categoryID</td></tr> 
+  <tr><td> </td><td> </td><td>customerID</td></tr> 
+  <tr><td> </td><td> </td><td>說明</td></tr> 
+  <tr><td> </td><td> </td><td>enteredById</td></tr> 
+  <tr><td> </td><td> </td><td>entryDate</td></tr> 
+  <tr><td> </td><td> </td><td>ID</td></tr> 
+  <tr><td> </td><td> </td><td>isBillable</td></tr> 
+  <tr><td> </td><td> </td><td>isClosed</td></tr> 
+  <tr><td> </td><td> </td><td>isOvertime</td></tr> 
+  <tr><td> </td><td> </td><td>lastUpdateDate</td></tr> 
+  <tr><td> </td><td> </td><td>lastUpdatedByID</td></tr> 
+  <tr><td> </td><td> </td><td>nlbrCategoryID</td></tr> 
+  <tr><td> </td><td> </td><td>nonLaborResourceID</td></tr> 
+  <tr><td> </td><td> </td><td>物件代碼</td></tr> 
+  <tr><td> </td><td> </td><td>overtimeRatio</td></tr> 
+  <tr><td> </td><td> </td><td>parametervalues</td></tr> 
+  <tr><td> </td><td> </td><td>plannedCompletionDate</td></tr> 
+  <tr><td> </td><td> </td><td>計畫成本</td></tr> 
+  <tr><td> </td><td> </td><td>plannedHours</td></tr> 
+  <tr><td> </td><td> </td><td>plannedrevenue</td></tr> 
+  <tr><td> </td><td> </td><td>plannedStartDate</td></tr> 
+  <tr><td> </td><td> </td><td>projectID</td></tr> 
+  <tr><td> </td><td> </td><td>referenceObjectName</td></tr> 
+  <tr><td> </td><td> </td><td>resourceAliasName</td></tr> 
+  <tr><td> </td><td> </td><td>securityRootID</td></tr> 
+  <tr><td> </td><td> </td><td>securityRootObjCode</td></tr> 
+  <tr><td> </td><td> </td><td>seriesID</td></tr> 
+  <tr><td> </td><td> </td><td>狀態</td></tr> 
+  <tr><td> </td><td> </td><td>statusEquatesWith</td></tr> 
+  <tr><td> </td><td> </td><td>taskID</td></tr> 
   <tr> 
    <td>公司</td> 
    <td>CMPY</td> 
@@ -818,6 +863,11 @@ ht-degree: 12%
    <td> </td> 
    <td> </td> 
    <td>專案：portfolioID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>專案：狀態</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1572,6 +1622,11 @@ ht-degree: 12%
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>plannedStartDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>優先順序</td> 
   </tr> 
   <tr> 
@@ -1582,7 +1637,27 @@ ht-degree: 12%
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>project：programID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>專案：portfolioID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>專案：狀態</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>queueDefId</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>queueTopicBreadcrumb</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1669,6 +1744,49 @@ ht-degree: 12%
    <td> </td> 
    <td>Workflowautomationid</td> 
   </tr> 
+  <tr> 
+   <td>非人工類別</td> 
+   <td>NLBRCY</td> 
+   <td>categoryID</td> 
+  </tr> 
+  <tr><td> </td><td> </td><td>customerID</td></tr> 
+  <tr><td> </td><td> </td><td>說明</td></tr> 
+  <tr><td> </td><td> </td><td>enteredById</td></tr> 
+  <tr><td> </td><td> </td><td>entryDate</td></tr> 
+  <tr><td> </td><td> </td><td>ID</td></tr> 
+  <tr><td> </td><td> </td><td>isActive</td></tr> 
+  <tr><td> </td><td> </td><td>isBookable</td></tr> 
+  <tr><td> </td><td> </td><td>lastUpdateDate</td></tr> 
+  <tr><td> </td><td> </td><td>lastUpdatedByID</td></tr> 
+  <tr><td> </td><td> </td><td>measurementUnit</td></tr> 
+  <tr><td> </td><td> </td><td>名稱</td></tr> 
+  <tr><td> </td><td> </td><td>物件代碼</td></tr> 
+  <tr><td> </td><td> </td><td>parametervalues</td></tr> 
+  <tr><td> </td><td> </td><td>scheduleID</td></tr> 
+  <tr><td> </td><td> </td><td>唯一識別碼</td></tr> 
+  <tr> 
+   <td>非勞動力資源</td> 
+   <td>NLBR</td> 
+   <td>頭像日期</td> 
+  </tr> 
+  <tr><td> </td><td> </td><td>Avatardownloadurl</td></tr> 
+  <tr><td> </td><td> </td><td>categoryID</td></tr> 
+  <tr><td> </td><td> </td><td>customerID</td></tr> 
+  <tr><td> </td><td> </td><td>說明</td></tr> 
+  <tr><td> </td><td> </td><td>enteredById</td></tr> 
+  <tr><td> </td><td> </td><td>entryDate</td></tr> 
+  <tr><td> </td><td> </td><td>homeGroupID</td></tr> 
+  <tr><td> </td><td> </td><td>ID</td></tr> 
+  <tr><td> </td><td> </td><td>isActive</td></tr> 
+  <tr><td> </td><td> </td><td>lastUpdateDate</td></tr> 
+  <tr><td> </td><td> </td><td>lastUpdatedByID</td></tr> 
+  <tr><td> </td><td> </td><td>measurementUnit</td></tr> 
+  <tr><td> </td><td> </td><td>名稱</td></tr> 
+  <tr><td> </td><td> </td><td>nlbrCategoryID</td></tr> 
+  <tr><td> </td><td> </td><td>物件代碼</td></tr> 
+  <tr><td> </td><td> </td><td>parametervalues</td></tr> 
+  <tr><td> </td><td> </td><td>scheduleID</td></tr> 
+  <tr><td> </td><td> </td><td>唯一識別碼</td></tr> 
   <tr> 
    <td>備註</td> 
    <td>附註</td> 
@@ -1823,6 +1941,11 @@ ht-degree: 12%
    <td> </td> 
    <td> </td> 
    <td>主旨</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>標籤</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2188,6 +2311,11 @@ ht-degree: 12%
    <td> </td> 
    <td> </td> 
    <td>plannedCompletionDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>plannedStartDate</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -3149,6 +3277,11 @@ ht-degree: 12%
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>numberOfChildren</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>物件代碼</td> 
   </tr> 
   <tr> 
@@ -3165,6 +3298,11 @@ ht-degree: 12%
    <td> </td> 
    <td> </td> 
    <td>plannedCompletionDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>plannedStartDate</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -3246,6 +3384,21 @@ ht-degree: 12%
    <td> </td> 
    <td>Workflowautomationid</td> 
   </tr> 
+  <tr> 
+   <td>團隊</td> 
+   <td>TEAMOB</td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr><td> </td><td> </td><td>說明</td></tr> 
+  <tr><td> </td><td> </td><td>entryDate</td></tr> 
+  <tr><td> </td><td> </td><td>groupID</td></tr> 
+  <tr><td> </td><td> </td><td>ID</td></tr> 
+  <tr><td> </td><td> </td><td>lastUpdateDate</td></tr> 
+  <tr><td> </td><td> </td><td>lastUpdatedByID</td></tr> 
+  <tr><td> </td><td> </td><td>名稱</td></tr> 
+  <tr><td> </td><td> </td><td>物件代碼</td></tr> 
+  <tr><td> </td><td> </td><td>ownerID</td></tr> 
+  <tr><td> </td><td> </td><td>parametervalues</td></tr> 
   <tr> 
    <td>範本</td> 
    <td>範本</td> 
