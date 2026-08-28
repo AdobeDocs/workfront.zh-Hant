@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 31db7a4ef190793558bcb2fa10beb2585e1068e4
 workflow-type: tm+mt
-source-wordcount: 694
+source-wordcount: 704
 ht-degree: 6%
 
 ---
@@ -38,6 +38,8 @@ ht-degree: 6%
 
 當您建立專案計畫時，您可以決定專案上任務的順序和時間範圍。 任務可以獨立於任何任務序列運行，但它們可能會影響專案時間表。 任務限制可讓專案經理計畫特定任務何時可在專案上開始或完成。
 
+任務限制同樣適用於專案任務和範本任務。
+
 根據您使用的限制，您可能需要為任務指定計劃開始日期、計畫完成日期或兩者。
 
 需要定義日期的限制型別會影響前置任務關係。
@@ -46,7 +48,9 @@ ht-degree: 6%
 >
 >如果您在任務之間使用前置任務關係，請考慮使用不需要特定日期的限制型別。
 
-下表顯示每個限制及其縮寫。 任務清單和建立Kick-Start匯入檔案時會使用縮寫。 按一下每個任務限制的連結標題，以取得該型別限制的詳細資訊。
+下表顯示每個限制及其縮寫。
+
+任務清單和建立Kick-Start匯入檔案時會使用縮寫。 按一下每個任務限制的連結標題，以取得該型別限制的詳細資訊。
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
