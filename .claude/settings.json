@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(command -v claude)",
+      "Bash(claude --version)",
+      "Bash(claude mcp *)",
+      "PowerShell(Get-Command claude -ErrorAction SilentlyContinue)",
+      "PowerShell(claude --version 2>&1)"
+    ]
+  }
+}
