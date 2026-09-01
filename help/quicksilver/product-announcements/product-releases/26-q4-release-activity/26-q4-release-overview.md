@@ -212,7 +212,7 @@ ht-degree: 3%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">將影像附加至Adobe雲端儲存物件上的註解</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">將影像附加至Adobe雲端儲存物件上的註解</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>使用Adobe雲端儲存空間作為統一稽核和核准一部分的組織現在可以直接將影像檔案附加到評論。</p>
             </td>
             <td><p>2026年7月30日</p></td>
@@ -267,7 +267,7 @@ ht-degree: 3%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">畫布儀表板中的核准型別欄位</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">畫布儀表板中的核准型別欄位</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>「核准」實體現在包含「核准型別」欄位，可讓使用者區分校訂核准、檔案版本核准、接收核准和其他核准型別。</p>
             </td>
             <td><p>不適用</p></td>
@@ -276,7 +276,7 @@ ht-degree: 3%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">畫布儀表板中的核准術語更新</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">畫布儀表板中的核准術語更新</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>為了清楚起見，已重新命名畫布控制面板中用於檔案和工作核准的多個欄位名稱。</p>
             </td>
             <td><p>不適用</p></td>
@@ -334,7 +334,7 @@ ht-degree: 3%
             <td><strong>每季</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">工作負載平衡器大量指派增強功能</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">工作負載平衡器大量指派增強功能</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>在工作負載平衡器大量指派對話方塊上，<strong>取代</strong>動作已重新命名為<strong>指派</strong>，以便更妥善地說明該動作的功能。 功能未變更。</p>
             </td>
             <td><p>2026年7月30日</p></td>
@@ -357,7 +357,7 @@ ht-degree: 3%
         </tr>
            <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">C2PA中繼資料會保留在您的檔案中</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">C2PA中繼資料會保留在您的檔案中</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>Adobe Workfront會在您上傳、儲存和下載的檔案上保留C2PA中繼資料，而不修改它。</p>
             </td>
             <td><p>不適用</p></td>
@@ -366,7 +366,7 @@ ht-degree: 3%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">左側導覽面板圖示的介面更新</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">左側導覽面板圖示的介面更新</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>我們已更新Workfront中左側導覽面板圖示的外觀和風格，提供現代設計和與其他Adobe應用程式一致的體驗。</p>
             </td>
             <td><p>2026年7月30日</p></td>
