@@ -4,10 +4,10 @@ description: 此頁面提供2026年第四季度版本中包含的功能相關資
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 63bdc885983f60c316409c3bba400ad82d475a5f
+source-git-commit: 549e1bd0fd0910d8285552487115fdeaae5facc7
 workflow-type: tm+mt
-source-wordcount: '1501'
-ht-degree: 2%
+source-wordcount: '1579'
+ht-degree: 3%
 
 ---
 
@@ -264,6 +264,24 @@ ht-degree: 2%
             <td><strong>預覽</strong></td>
             <td><strong>快速發行</strong></td>
             <td><strong>每季</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">畫布儀表板中的核准型別欄位</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <p>「核准」實體現在包含「核准型別」欄位，可讓使用者區分校訂核准、檔案版本核准、接收核准和其他核准型別。</p>
+            </td>
+            <td><p>不適用</p></td>
+            <td><p>不適用</p></td>
+            <td><p>2026年8月28日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">畫布儀表板中的核准術語更新</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <p>為了清楚起見，已重新命名畫布控制面板中用於檔案和工作核准的多個欄位名稱。</p>
+            </td>
+            <td><p>不適用</p></td>
+            <td><p>不適用</p></td>
+            <td><p>2026年8月28日</p></td>
         </tr>
         <tr>
             <td>
