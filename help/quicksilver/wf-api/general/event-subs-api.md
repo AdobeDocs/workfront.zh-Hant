@@ -10,17 +10,12 @@ exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/ZIuaLr4-N-g2ciqjiOtzrTpjz0GFpxcpb-KqdXc-Th0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e889906dd08bbd6e307c33aa10fc9349b5c92d9f
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 0c334e47aaf59a02ec235776505076e5aa808a89
 workflow-type: tm+mt
-source-wordcount: 3308
+source-wordcount: 3545
 ht-degree: 5%
 
 ---
@@ -67,7 +62,10 @@ ht-degree: 5%
 * 核准階段
 * 核准階段參與者
 * 指派
+* 預訂
 * 公司
+* 自訂欄位
+* 自訂表單
 * 儀表板
 * 文件
 * 文件版本
@@ -75,6 +73,8 @@ ht-degree: 5%
 * 欄位
 * 時數
 * 問題
+* 非人工類別
+* 非勞動力資源
 * 備註
 * 專案組合
 * 方案
@@ -90,6 +90,8 @@ ht-degree: 5%
 * 人員配置計畫資源屬性值集
 * 人員配置計畫資源引數值
 * 任務
+* 團隊
+* 小組成員
 * 範本
 * 時程表
 * 使用者
@@ -151,8 +153,20 @@ ht-degree: 5%
         <td scope="col"><p>指派</p></td> 
        </tr> 
        <tr> 
+        <td scope="col">預訂</td> 
+        <td scope="col"><p>預訂</p></td> 
+       </tr> 
+       <tr> 
         <td scope="col">公司 </td> 
         <td scope="col"><p>CMPY</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">自訂欄位</td> 
+        <td scope="col"><p>引數</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">自訂表單</td> 
+        <td scope="col"><p>CTGY</p></td> 
        </tr> 
        <tr> 
         <td scope="col">儀表板</td> 
@@ -181,6 +195,14 @@ ht-degree: 5%
        <tr> 
         <td scope="col">問題</td> 
         <td scope="col"><p>OPTASK</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">非人工類別</td> 
+        <td scope="col"><p>NLBRCY</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">非勞動力資源</td> 
+        <td scope="col"><p>NLBR</p></td> 
        </tr> 
        <tr> 
         <td scope="col">備註</td> 
@@ -241,6 +263,14 @@ ht-degree: 5%
        <tr> 
         <td scope="col"><p>任務</p></td> 
         <td scope="col"><p>任務</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">團隊</td> 
+        <td scope="col"><p>TEAMOB</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">小組成員</td> 
+        <td scope="col"><p>TEAMMB</p></td> 
        </tr> 
        <tr> 
         <td scope="col"><p>範本</p></td> 
@@ -768,6 +798,8 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 
 如果發生的變更包含篩選器中的`fieldValue`，此篩選器可允許傳遞訊息。 `fieldValue`值區分大小寫
 
+如果`fieldName`參考物件陣列（例如，`tags`），`fieldValue`可以是一個物件；如果陣列中的任何元素具有您指定之索引鍵的相符值，則篩選器會相符。 不會考慮該元素上的其他欄位 — 這是部分比對，而不是整個物件的完全比對。
+
 ```
 {
     "objCode": "TASK",
@@ -783,6 +815,33 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
     ]
 }
 ```
+
+**範例：篩選物件陣列欄位**
+
+```
+{
+    "objCode": "NOTE",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedNotes",
+    "filters": [
+        {
+            "fieldName": "tags",
+            "fieldValue": {
+                "objID": "6229be410016986cfc6eb4b37c618a17"
+            },
+            "state": "newState",
+            "comparison": "contains"
+        }
+    ]
+}
+```
+
+此篩選器符合NOTE事件，其中`tags`陣列包含至少一個標籤，`objID`等於`6229be410016986cfc6eb4b37c618a17` — 無論該標籤的`objCode`或任何其他欄位為何。
+
+>[!NOTE]
+>
+>使用`contains`或`notContains`篩選物件陣列欄位（例如`tags`）時，`fieldValue`只需要包含您關心的金鑰 — 例如，`{"objID": "abc123"}`符合具有該ID的任何標籤，無論其其他欄位（例如`objCode`）為何。 這不是完整的物件相等檢查。 `containsOnly`目前不支援物件陣列欄位。
 
 #### containsOnly
 
@@ -817,6 +876,8 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 
 只有在指定的欄位(`fieldName`)不包含指定的值(`fieldValue`)時，此篩選器才允許傳遞訊息。
 
+與物件陣列一起使用時，只有在沒有元素符合指定的索引鍵時，才會傳回true。
+
 >[!NOTE]
 >
 >用於陣列型別（多重選取）或字串欄位。 如果欄位為字串，我們會檢查字串中未包含指定的值（例如「New」不在字串「Project - Updated」中）。 如果欄位為陣列，而指定的欄位值為字串或整數，我們會檢查陣列是否不包含指定的值（例如，「選擇1」不在[「選擇2」、「選擇3」]中）。 下列範例訂閱僅在`groups`欄位不包含字串「Group 2」時才允許傳遞訊息。
@@ -837,6 +898,10 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
     ]
 }
 ```
+
+>[!NOTE]
+>
+>使用`contains`或`notContains`篩選物件陣列欄位（例如`tags`）時，`fieldValue`只需要包含您關心的金鑰 — 例如，`{"objID": "abc123"}`符合具有該ID的任何標籤，無論其其他欄位（例如`objCode`）為何。 這不是完整的物件相等檢查。 `containsOnly`目前不支援物件陣列欄位。
 
 #### 變更
 
