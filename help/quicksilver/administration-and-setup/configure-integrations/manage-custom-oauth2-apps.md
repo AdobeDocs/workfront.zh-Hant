@@ -9,19 +9,14 @@ role: Admin
 author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
 TQID: https://experienceleague.adobe.com/nN-7cw-IwnuQ-7wjyjyp3wUifEvk2eNmo9zqyHDjfV0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ab8e110576ba47b5513441169a2f1e6c288d6d3
 workflow-type: tm+mt
-source-wordcount: 644
-ht-degree: 3%
+source-wordcount: 697
+ht-degree: 2%
 
 ---
 
@@ -29,9 +24,17 @@ ht-degree: 3%
 
 身為[!DNL Adobe Workfront]管理員，您可以檢視及管理[!DNL Workfront]執行個體的OAuth2應用程式，允許其他應用程式存取[!UICONTROL Workfront]。
 
->[!NOTE]
+>[!IMPORTANT]
+>
+>* 自訂OAuth2應用程式正在被棄用。 請注意下列日期：
+>
+>   * 2026年11月1日：您將無法再建立新的自訂OAuth2應用程式。
+>   * 2027年2月1日：現有的自訂OAuth2應用程式將不再運作。
+>
+>   如需詳細資訊，請參閱[從Workfront OAuth2移轉至Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)。
 >
 >* 在OAuth2的內容中，「Oauth2應用程式」是指應用程式和伺服器（例如[!DNL Workfront]）之間的此類存取連結。 如需詳細資訊，請參閱[建立 [!DNL Workfront] 整合的OAuth2應用程式](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+>
 >* 您一次最多可以有十個OAuth2應用程式。
 
 * 如需建立自訂OAuth2應用程式的資訊、指示和詳細資訊，請參閱[為 [!DNL Workfront] 整合建立OAuth2應用程式](../../administration-and-setup/configure-integrations/create-oauth-application.md)
@@ -108,7 +111,7 @@ ht-degree: 3%
 >您無法檢視使用者端密碼本身。 如果您遺失使用者端密碼，您必須刪除密碼並建立新的密碼。
 >
 >* 若要刪除使用者端密碼，請參閱本文中的[刪除使用者端密碼](#delete-client-secret)。
->* 若要建立新的使用者端密碼，請參閱[&#128279;](../../administration-and-setup/configure-integrations/create-oauth-application.md#create)在[建立OAuth2應用程式](../../administration-and-setup/configure-integrations/create-oauth-application.md)整合的OAuth2應用程式。 [!DNL Workfront] 
+>* 若要建立新的使用者端密碼，請參閱[在[建立OAuth2應用程式](../../administration-and-setup/configure-integrations/create-oauth-application.md)整合的OAuth2應用程式](../../administration-and-setup/configure-integrations/create-oauth-application.md#create)。 [!DNL Workfront] 
 >
 
 {{step-1-to-setup}}

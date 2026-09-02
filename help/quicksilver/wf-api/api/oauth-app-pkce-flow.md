@@ -8,23 +8,27 @@ feature: Workfront API
 role: Developer
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
 TQID: https://experienceleague.adobe.com/qBZFtRLkYCfnIVzOvX4ygc-KiAsJ9R9445hRsCF--G8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ab8e110576ba47b5513441169a2f1e6c288d6d3
 workflow-type: tm+mt
-source-wordcount: 817
+source-wordcount: 870
 ht-degree: 0%
 
 ---
 
 # 使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式
+
+>[!IMPORTANT]
+>
+>自訂OAuth2應用程式正在被棄用。 請注意下列日期：
+>
+>* 2026年11月1日：您將無法再建立新的自訂OAuth2應用程式。
+>* 2027年2月1日：現有的自訂OAuth2應用程式將不再運作。
+>
+>如需詳細資訊，請參閱[從Workfront OAuth2移轉至Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)。
 
 PKCE是安全的授權流程，非常適用於動態重新整理應用程式（例如行動應用程式），但在所有OAuth2使用者端都很有價值。 PKCE不使用靜態使用者端密碼，而是使用動態產生的字串，消除了使用者端密碼洩漏的風險。
 
