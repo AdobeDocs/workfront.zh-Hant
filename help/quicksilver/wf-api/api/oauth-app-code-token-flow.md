@@ -17,14 +17,23 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 9ab8e110576ba47b5513441169a2f1e6c288d6d3
 workflow-type: tm+mt
-source-wordcount: 730
+source-wordcount: 783
 ht-degree: 0%
 
 ---
 
 # 使用授權程式碼流程設定及使用您組織的自訂OAuth 2應用程式
+
+>[!IMPORTANT]
+>
+>自訂OAuth2應用程式正在被棄用。 請注意下列日期：
+>
+>* 2026年11月1日：您將無法再建立新的自訂OAuth2應用程式。
+>* 2027年2月1日：現有的自訂OAuth2應用程式將不再運作。
+>
+>如需詳細資訊，請參閱[從Workfront OAuth2移轉至Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)。
 
 為了與Workfront整合併允許您的使用者端應用程式代表使用者與Workfront通訊，您必須：
 
@@ -82,7 +91,7 @@ https://<URL of your organization's domain>/integrations/oauth2/authorize?client
    <td> <p><code>https://&lt;the full URL of your organization's domain&gt;/integrations/oauth2/authorize</code> </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><code> https://myorganization.my.workfront.com/integrations/oauth2/authorize</code> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">權杖URL</td> 
+   <td role="rowheader">權杖 URL</td> 
    <td> <p><code>https://&lt;the full URL of your organization's domain&gt;/integrations/oauth2/api/v1/token</code> </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>範例： </b></span></span><code>https://myorganization.my.workfront.com/integrations/oauth2/api/v1/token</code> </p> </td> 
   </tr> 
   <tr> 

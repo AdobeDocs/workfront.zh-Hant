@@ -22,9 +22,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 9ab8e110576ba47b5513441169a2f1e6c288d6d3
 workflow-type: tm+mt
-source-wordcount: 1959
+source-wordcount: 2018
 ht-degree: 5%
 
 ---
@@ -35,9 +35,16 @@ ht-degree: 5%
 
 建立[!UICONTROL OAuth2]應用程式時，會產生使用者端ID和使用者端密碼。 接著，您的使用者便可在API呼叫中使用使用者端ID，將與您建立的應用程式整合。
 
->[!NOTE]
+>[!IMPORTANT]
 >
->在OAuth2的上下文中，「建立應用程式」是指在應用程式和伺服器（例如[!DNL Workfront]）之間建立此類存取連結的程式。
+>* 自訂OAuth2應用程式正在被棄用。 請注意下列日期：
+>
+>   * 2026年11月1日：您將無法再建立新的自訂OAuth2應用程式。
+>   * 2027年2月1日：現有的自訂OAuth2應用程式將不再運作。
+>
+>   如需詳細資訊，請參閱[從Workfront OAuth2移轉至Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)。
+>
+>* 在OAuth2的上下文中，「建立應用程式」是指在應用程式和伺服器（例如[!DNL Workfront]）之間建立此類存取連結的程式。
 
 * 如需有關設定和搭配使用者認證（授權碼流程）使用OAuth2應用程式的指示，請參閱[使用授權碼流程設定和使用您組織的自訂OAuth2應用程式](../../wf-api/api/oauth-app-code-token-flow.md)。
 * 如需使用伺服器驗證（JWT流程）設定及使用OAuth2應用程式的指示，請參閱[使用JWT流程設定及使用您組織的自訂OAuth2應用程式](../../wf-api/api/oauth-app-jwt-flow.md)。

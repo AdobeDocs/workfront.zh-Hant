@@ -20,7 +20,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
 workflow-type: tm+mt
 source-wordcount: 648
 ht-degree: 3%
@@ -213,3 +213,11 @@ Old:
    >* 適用於Mac的⌘+K
    >
    >![全域搜尋方塊](assets/global-search-box.png)
+
+<!--
+1. <span class="preview">(Optional) To add, edit, deactivate or delete record type business rules, go to the record type page and click the More menu to the right of the record type name, then click **Business rules**. </span>
+
+   <span class="preview">Business rules are conditions set on the record type that define when records of that type can be edited or deleted. </span>
+
+   <span class="preview"> For information, see [Create record types business rules](/help/quicksilver/planning/architecture/configure-business-rules.md).</span> 
+-->

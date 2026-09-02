@@ -16,9 +16,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
 workflow-type: tm+mt
-source-wordcount: 1794
+source-wordcount: 1855
 ht-degree: 2%
 
 ---
@@ -58,7 +58,7 @@ recommendations: noDisplay, noCatalog
 >[!IMPORTANT]
 >
 >本文所述的步驟說明在擁有GenStudio工作區的「管理」許可權時，如何從Workfront Planning更新工作區。
-> 當您擁有GenStudio工作區的貢獻許可權時，並非所有功能都可用。
+> 當您擁有GenStudio工作區的貢獻許可權時，並非所有功能都可使用。
 >
 >如果您的公司有多個Workfront例項，則所有使用者都能在Workfront Planning中取得GenStudio工作區的貢獻許可權。
 
@@ -377,6 +377,17 @@ Workfront Planning首頁面隨即開啟。
 
      如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
+   <!--
+   <div class="preview">
+
+   * Business rules
+
+      You can configure record type business rules to define what conditions must be met before users are allowed to edit or delete records of that type. 
+
+      For information, see [Configure record type business rules](/help/quicksilver/planning/architecture/configure-business-rules.md).
+   </div>
+   -->
+
 1. 若要共用檢視或記錄型別，請執行下列動作：
 
    * 按一下記錄型別頁面右上角的&#x200B;**共用**，然後按一下下列其中一項：
@@ -477,8 +488,8 @@ Workfront Planning首頁面隨即開啟。
    1. （視條件而定）從GenStudio工作區中連線的AEM資產，按一下資產名稱，然後按一下&#x200B;**在AEM中開啟**&#x200B;圖示![在AEM中開啟圖示](assets/open-in-aem-icon.png)以在AEM中開啟資產。
    1. 按一下以選取右側面板中的&#x200B;**促銷活動**&#x200B;索引標籤。
 
-      連結至資產的行銷活動名稱會顯示在&#x200B;**行銷活動**&#x200B;欄位中。此為唯讀欄位。
-      如果資產也連線到Planning中GenStudio工作區的&#x200B;**區域**、**角色**、**產品**&#x200B;或&#x200B;**管道**，這些記錄型別的個別欄位會在資產的&#x200B;**行銷活動**&#x200B;索引標籤中以唯讀模式顯示其名稱。
+      連結至資產的行銷活動名稱會顯示在&#x200B;**行銷活動**&#x200B;欄位中。 此為唯讀欄位。
+      如果資產也連線到Planning中GenStudio工作區的&#x200B;**區域**、**角色**、**產品**&#x200B;或&#x200B;**管道**，這些記錄型別的個別欄位會在資產的&#x200B;**促銷活動**&#x200B;索引標籤中以唯讀模式顯示其名稱。
    1. （視條件而定）從Planning中GenStudio工作區中已連線的AEM內容片段，按一下內容片段的名稱，然後按一下&#x200B;**在AEM中開啟**&#x200B;圖示![在AEM中開啟圖示](assets/open-in-aem-icon.png)以在AEM中開啟內容片段。
    1. 按一下AEM中的&#x200B;**首頁**&#x200B;圖示![首頁圖示](assets/home-icon-in-aem.png)以移至內容片段清單，然後按一下內容片段名稱右邊的AEM中的&#x200B;**資訊**&#x200B;圖示![資訊](assets/info-icon-in-aem.png)。
    1. 按一下右側面板中的&#x200B;**中繼資料**&#x200B;索引標籤。
