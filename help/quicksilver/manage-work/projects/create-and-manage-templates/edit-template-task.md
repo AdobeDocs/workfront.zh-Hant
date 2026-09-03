@@ -10,24 +10,14 @@ exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/LGLJV7JroMRc1SmwEjCRGnF5FRDuaH4k7oqpmGl11bI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 3074
+source-wordcount: 3125
 ht-degree: 6%
 
 ---
@@ -39,13 +29,9 @@ ht-degree: 6%
 <!--take out production and preview references and new/ old experiences at release-->
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 建立範本後，您可以編輯範本任務的資訊。 使用範本建立專案或將範本附加到專案後，您在範本任務上更新的資訊會與專案任務相關聯。
@@ -150,10 +136,10 @@ Old:
       * 按一下&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)，然後從下列任何區域選取，或按一下&#x200B;**編輯全部**&#x200B;以編輯所有區域的資訊：
 
 
-         * 概觀
-         * 自訂表單
-只有當範本任務附加了自訂表單時，才會顯示自訂表單的名稱。
-         * 財務
+        * 概觀
+        * 自訂表單
+          只有當範本任務附加了自訂表單時，才會顯示自訂表單的名稱。
+        * 財務
 
         >[!TIP]
         >
@@ -194,7 +180,7 @@ Old:
 
 
 1. 如上所述，開始編輯範本任務。
-1. 在[編輯範本任務]方塊中，按一下[範本任務名稱] **&#x200B;**&#x200B;並新增範本任務的名稱。
+1. 在[編輯範本任務]方塊中，按一下[範本任務名稱] ****&#x200B;並新增範本任務的名稱。
 
    大量編輯範本任務時，此檢視不可用。
 
@@ -411,7 +397,7 @@ Old:
    <td> <p>指定任務的計畫時數（以小時為單位）。 這是任務受指派人完成任務所需的實際時間。 當「期間型別」設定為「計算的任務指派」時，您只能指定任務的計畫時數。 如需有關期間型別的詳細資訊，請參閱<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">工作期間與期間型別概觀</a>。</p> 
    <b>注意</b>
    <p>
-   建立週期性任務時，計畫時數是每個事件的計畫時數。父系任務的計畫時數是所有發生次數的所有計畫時數總計。如需有關建立週期性工作的資訊，請參閱<a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">建立週期性工作</a>。
+   建立週期性任務時，計畫時數是每個事件的計畫時數。 父系任務的計畫時數是所有發生次數的所有計畫時數總計。 如需有關建立週期性工作的資訊，請參閱<a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">建立週期性工作</a>。
    </p>
 
    </td> 
@@ -506,12 +492,12 @@ Old:
 1. 選取您想要與範本任務建立關聯的一或多個自訂表單。
 
    您必須先建置自訂表單，才能在此欄位中選取它們。
-清單中只會顯示作用中的自訂表單。
+   清單中只會顯示作用中的自訂表單。
 
    如需建立自訂表單的詳細資訊，請參閱[建立自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
    您最多可以將十個自訂表單新增到範本任務中。
-表單會自動新增至從範本建立的任務。
+   表單會自動新增至從範本建立的任務。
 1. （條件式與選擇性）如果您將自訂表單附加到範本任務，請編輯表單上的任何欄位。 您必須指定所有必填欄位，然後才能儲存範本任務。
 
    >[!NOTE]

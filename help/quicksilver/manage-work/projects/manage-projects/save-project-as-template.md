@@ -9,21 +9,14 @@ exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/LtLVPYF-n-V6dSkEbc-oSwsX5QkEVeyYjHyZV-eZy4M
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 473
+source-wordcount: 491
 ht-degree: 5%
 
 ---
@@ -37,13 +30,9 @@ ht-degree: 5%
 -->
 
 <!--
-<div class="preview">
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 如果您決定某個專案將在未來再次發生，則可以從現有專案建立範本。 然後，您可以再次使用範本來建立未來專案，這些專案可能包含類似的資訊，或與現有專案共用相同的時間表或工作分派。
@@ -206,10 +195,10 @@ Saving a project as a template differs in the Production and the Preview environ
     </tbody> 
    </table>
 
-1. 按一下左側面板中的「自訂Forms」**&#x200B;**，移除或重新排序表單。
+1. 按一下左側面板中的「自訂Forms」****，移除或重新排序表單。
 
    若要重新排序表單，請以正確順序拖放表單。
-若要移除表單，請選取該表單，然後按一下[移除]。**&#x200B;**&#x200B;按一下&#x200B;**取消**&#x200B;以移除選取的表單。
+   若要移除表單，請選取該表單，然後按一下[移除]。**** 按一下&#x200B;**取消**&#x200B;以移除選取的表單。
 
    ![儲存為範本方塊中的自訂表單區域](assets/custom-forms-ara-in-save-as-template-box.png)
 
@@ -219,7 +208,7 @@ Saving a project as a template differs in the Production and the Preview environ
 
    另存為範本方塊中的![選項區域](assets/options-area-in-save-as-template-box.png)
 
-1. 按一下左側面板中的「排除&#x200B;**&#x200B;**」，然後選取您要從專案排除的任何工作。 預設會取消選取所有工作。
+1. 按一下左側面板中的「排除&#x200B;****」，然後選取您要從專案排除的任何工作。 預設會取消選取所有工作。
 
    ![另存為範本方塊中的排除區域](assets/exclude-area-save-as-template-box.png)
 

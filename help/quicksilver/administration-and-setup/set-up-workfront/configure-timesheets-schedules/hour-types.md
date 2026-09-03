@@ -12,17 +12,12 @@ exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/3aCTuC7LupZScQ-xJDy1bhsyXT3W95zv5kvV9KBhQEs
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
 source-wordcount: 1150
 ht-degree: 3%
@@ -39,13 +34,9 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 -->
 
 <!--
-<div class="preview">
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 小時型別是您用來定義小時專案的標籤。 您可以將時數型別與時數專案建立關聯。
@@ -58,9 +49,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
   以下專案專屬預設小時型別一律可用：
 
-   * 專案時間
-   * 任務時間
-   * 問題時間
+  * 專案時間
+  * 任務時間
+  * 問題時間
 
   [!DNL Workfront]管理員會決定哪些專案特定時數型別可供使用，如[定義時數型別和可用性](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)中所述。
 
@@ -86,12 +77,12 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p>
-       <p>[!UICONTROL 計畫]</p></td>
+   <td><p>[！UICONTROL標準]</p>
+       <p>[！UICONTROL計畫]</p></td>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td> 
+   <td>[！UICONTROL系統管理員]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -143,11 +134,11 @@ Workfront隨附一組內建時數型別。 這些小時型別無法編輯或隱�
       <td>新增小時型別的說明。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 範圍]</td> 
-      <td> <p>在<strong>範圍</strong>下拉式功能表中，選取時數型別是一般或專案特定的時數型別。</p> <p>一般小時型別僅在時程表中可見，並且不能與專案、任務或問題相關聯。</p> <p><b>重要</b></p><p> 如果您有特定於&lbrack;！UICONTROL專案的自訂時數型別，並且您將其變更為[!UICONTROL 一般]，則所有現有的任務、問題和專案時數都會設定為其系統預設型別。</p> </td> 
+      <td role="rowheader">[！UICONTROL範圍]</td> 
+      <td> <p>在<strong>範圍</strong>下拉式功能表中，選取時數型別是一般或專案特定的時數型別。</p> <p>一般小時型別僅在時程表中可見，並且不能與專案、任務或問題相關聯。</p> <p><b>重要</b></p><p> 如果您有特定於[！UICONTROL專案的自訂時數型別，並且您將其變更為[！UICONTROL一般]，則所有現有的任務、問題和專案時數都會設定為其系統預設型別。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 計入收入]</td> 
+      <td role="rowheader">[！UICONTROL計入收入]</td> 
       <td><p>如果您希望與此時數型別相關的時數條目影響您的收入計算，請選取此選項。</p>
       <p>病假和休假時間不計算為收入。</p>
       <p><b>附註</b></p>
@@ -190,11 +181,11 @@ Workfront隨附一組內建時數型別。 這些小時型別無法編輯或隱�
       <td>新增小時型別的說明。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 範圍]</td> 
-      <td> <p>在<strong>範圍</strong>下拉式功能表中，選取時數型別是一般或專案特定的時數型別。</p> <p>一般小時型別僅在時程表中可見，並且不能與專案、任務或問題相關聯。</p> <p><b>重要</b></p> <p>如果您有特定於&lbrack;！UICONTROL專案的自訂時數型別，並且您將其變更為[!UICONTROL 一般]，則所有現有的任務、問題和專案時數都會設定為其系統預設型別。</p> </td> 
+      <td role="rowheader">[！UICONTROL範圍]</td> 
+      <td> <p>在<strong>範圍</strong>下拉式功能表中，選取時數型別是一般或專案特定的時數型別。</p> <p>一般小時型別僅在時程表中可見，並且不能與專案、任務或問題相關聯。</p> <p><b>重要</b></p> <p>如果您有特定於[！UICONTROL專案的自訂時數型別，並且您將其變更為[！UICONTROL一般]，則所有現有的任務、問題和專案時數都會設定為其系統預設型別。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 計入收入]</td> 
+      <td role="rowheader">[！UICONTROL計入收入]</td> 
       <td><p>如果您希望與此時數型別相關的時數條目影響您的收入計算，請選取此選項。</p>
       <p>病假和休假時間不計算為收入。</p>
       <p><b>附註</b></p>

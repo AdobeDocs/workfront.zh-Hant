@@ -11,20 +11,15 @@ exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/xucBhD4dm4gA-BJt-mqb3Lstxgc5NFGd49rJhX1MGRk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 956
-ht-degree: 9%
+source-wordcount: 1030
+ht-degree: 8%
 
 ---
 
@@ -32,16 +27,10 @@ ht-degree: 9%
 
 <!-- Audited: 08/2025 -->
 
-<!--
 
-<div class="preview">
+<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
-
-</div>
--->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 [!DNL Adobe Workfront]在物件的[!UICONTROL 更新]區域產生自動系統更新，以記錄下列事件：
 
@@ -74,13 +63,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p>
-   <p>[!UICONTROL 計畫]</p>
+   <td><p>[！UICONTROL標準]</p>
+   <p>[！UICONTROL計畫]</p>
    </td> 
   </tr>  
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td><p>[!UICONTROL 系統管理員]</p></td>
+   <td><p>[！UICONTROL系統管理員]</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -162,8 +151,8 @@ Old:
    >
    >如果[!DNL Workfront]已在追蹤欄位，您無法從清單中再次新增該欄位。
 
-1. 新增所有您要[!DNL Workfront]追蹤的欄位後，請按一下[新增]。**&#x200B;**
-您新增的內建欄位會顯示在&#x200B;**[!UICONTROL 內建欄位]**&#x200B;子標籤下，而自訂欄位會顯示在&#x200B;**[!UICONTROL 自訂欄位]**&#x200B;子標籤下。
+1. 新增所有您要[!DNL Workfront]追蹤的欄位後，請按一下[新增]。****
+您新增的內建欄位會顯示在**[!UICONTROL 內建欄位]**&#x200B;子標籤下，而自訂欄位會顯示在&#x200B;**[!UICONTROL 自訂欄位]**子標籤下。
 **[!UICONTROL 所有欄位]**&#x200B;子標籤會顯示[!DNL Workfront]追蹤的內建和自訂欄位。
 
 ### 移除您不想要追蹤的欄位 {#remove-fields-you-don-t-want-tracked}
@@ -270,6 +259,6 @@ Old:
 1. 選取動作的核取方塊以啟用動作，或取消選取動作以停用動作。
 1. 按一下「**[!UICONTROL 儲存]**」。
 
-   <!--<span class="preview">The **Save** button has been removed from the Preview environment and changes are saved automatically. </span>-->
+   <span class="preview">已從預覽環境中移除&#x200B;**儲存**&#x200B;按鈕，且變更會自動儲存。</span>
 
 
