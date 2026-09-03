@@ -7,21 +7,13 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
 TQID: https://experienceleague.adobe.com/yX-p5GzLd4EMOdWDrw3gAHqZfRvPCUaYXCjEnGxcwc4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
 workflow-type: tm+mt
-source-wordcount: 2329
+source-wordcount: 2440
 ht-degree: 1%
 
 ---
@@ -30,11 +22,10 @@ ht-degree: 1%
 
 # 連線記錄型別概觀
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -157,7 +148,7 @@ ht-degree: 1%
     * 無法從Workfront物件存取規劃記錄欄位。
     * Planning記錄會顯示於Workfront物件的Planning區段。 如需詳細資訊，請參閱[管理來自Workfront物件的記錄連線](/help/quicksilver/planning/records/manage-records-in-planning-section.md)。
     * 您可以建立Planning連線自訂欄位，並將其附加至Workfront物件的自訂表單。 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
-    * 當您的Experience Manager管理員透過Workfront與Adobe Experience Manager Assets之間的整合設定中繼資料對應時，可從Workfront資產存取規劃記錄欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。<!--not sure if this is also possible for content fragments-->
+    * 當您的Experience Manager管理員透過Workfront與Adobe Experience Manager Assets之間的整合設定中繼資料對應時，可從Workfront資產存取規劃記錄欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。<!--not sure if this is also possible for content fragments-->
     * 無法從GenStudio for Performance Marketing中的「品牌」存取計畫記錄欄位。
 
   * **當您從您連線的記錄或物件加入查閱欄位時**：除了建立連結的記錄欄位之外，您還可以從連線的記錄或物件型別連線到稱為查閱欄位的欄位。 連結（或查詢欄位）的資訊，來自於您所連線的記錄，顯示在您所連線的記錄上。
@@ -193,6 +184,13 @@ ht-degree: 1%
 
   * 您必須連線記錄型別，才能在Workfront Planning中建立階層。 當記錄型別連線不存在時，會在您建立階層時自動建立連線。 如需詳細資訊，請參閱[建立工作區階層](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)。
 
+  <div class="preview">
+
+  * 您可以讓連線欄位從屬於已連線記錄型別中對應的已連線欄位。 當兩個欄位顯示在第三個記錄型別上時，一個欄位可用的選擇取決於另一個欄位的選擇。
+
+    如需詳細資訊和其他考量事項，請參閱[管理相依連線](/help/quicksilver/planning/architecture/manage-dependent-connections.md)。
+
+  </div>
 
 ## 連線型別
 

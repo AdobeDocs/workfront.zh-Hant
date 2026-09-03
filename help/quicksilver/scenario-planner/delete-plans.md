@@ -8,14 +8,18 @@ feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 4%
+source-wordcount: '563'
+ht-degree: 3%
 
 ---
 
 # 刪除[!DNL Scenario Planner]中的計畫
+
+<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 您可以刪除您建立的計畫。 您無法刪除與您共用的計畫。
 
@@ -37,16 +41,16 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] 授權</p> </td> 
-   <td> <p>[!UICONTROL Light]或更高</p> 
-   <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <td> <p>[！UICONTROL Light]或更高</p> 
+   <p>[！UICONTROL Review]或更高版本</p> </td> 
   </tr> 
     <tr> 
    <td>存取層級設定</td> 
-   <td> <p>[!UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> </td> 
+   <td> <p>[！UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr> 
    <td> <p>物件許可權 </p> </td> 
-   <td> <p>[!UICONTROL Manage]計畫的許可權</p> </td> 
+   <td> <p>[！UICONTROL Manage]計畫的許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -126,6 +130,11 @@ Old:
 
 1. 按一下計畫名稱以開啟。
 1. 按一下計畫名稱右側的&#x200B;**[!UICONTROL 更多功能表]** ![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**[!UICONTROL 刪除]** > **[!UICONTROL 是，刪除]**。
+
+   >[!TIP]
+   >
+   ><span class="preview">您也可以在清單中選取計畫，然後按一下清單底部的&#x200B;**[刪除]**&#x200B;來刪除計畫。</span>
+
 
    計畫即被刪除，您將返回計劃清單。
 

@@ -11,18 +11,14 @@ exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Moddac2gKcXbmssSrzrMMcxuj-7al8Md76Vkjw-CSoY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
 workflow-type: tm+mt
-source-wordcount: 722
-ht-degree: 3%
+source-wordcount: 846
+ht-degree: 2%
 
 ---
 
@@ -32,11 +28,12 @@ ht-degree: 3%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
--->
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
+
 
 計分卡可測量專案與專案組合先前建立之條件的符合程度。 計分卡通常可反映組織的使命、價值和策略目標。
 
@@ -99,21 +96,21 @@ ht-degree: 3%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Question]</td> 
+      <td role="rowheader">[！UICONTROL Question]</td> 
       <td>輸入您要納入計分卡中的問題。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 點]</td> 
+      <td role="rowheader">[！UICONTROL點]</td> 
       <td>輸入此問題的最大可能分數。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 負點]</td> 
+      <td role="rowheader">[！UICONTROL負點]</td> 
       <td>選取此選項以指出[!DNL Workfront]應該從總可能點數中減去。 負分無法新增到計分卡的最大可能點數。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 顯示型別]</td> 
-      <td>如果您想要在計分卡中顯示數值欄位，讓使用者可指定介於0到100之間的任何值，請選取<strong>[!UICONTROL Value(0-100)]</strong>。<p>或者，選取<strong>[!UICONTROL 下拉式清單]</strong>或<strong>[!UICONTROL 選項按鈕]</strong>，以建立使用者可使用該控制項指定的答案。 按一下<strong>[!UICONTROL 新增答案]</strong>，然後輸入此答案的<strong>[!UICONTROL 值]</strong> （以百分點為單位），以備回應完成。 如果您選擇100%，則會完全達到分配給此問題的點數。 如果您要指出此答案只包含分配給此問題的總點數的一部分，請選取較低的百分比值。 例如，如果您的問題值是10點，而您想要此答案攜帶其中5點，請為您的值選擇50%。</p>
-      <p>如果您要指出此答案為預設答案，請選取<strong>[!UICONTROL 預設值]</strong>。</strong></p>
+      <td role="rowheader">[！UICONTROL顯示型別]</td> 
+      <td>如果您想要在計分卡中顯示數值欄位，讓使用者可指定介於0到100之間的任何值，請選取<strong>[！UICONTROL Value(0-100)]</strong>。<p>或者，選取<strong>[！UICONTROL下拉式清單]</strong>或<strong>[！UICONTROL選項按鈕]</strong>，以建立使用者可使用該控制項指定的答案。 按一下<strong>[！UICONTROL新增答案]</strong>，然後輸入此答案的<strong>[！UICONTROL值]</strong> （以百分點為單位），以備回應完成。 如果您選擇100%，則會完全達到分配給此問題的點數。 如果您要指出此答案只包含分配給此問題的總點數的一部分，請選取較低的百分比值。 例如，如果您的問題值是10點，而您想要此答案攜帶其中5點，請為您的值選擇50%。</p>
+      <p>如果您要指出此答案為預設答案，請選取<strong>[！UICONTROL預設值]</strong>。</strong></p>
      </tr> 
     </tbody> 
    </table>
@@ -128,6 +125,12 @@ ht-degree: 3%
 
    這會建立計分卡，專案經理現在可以將其附加至其專案業務案例。
 
+
+
+1. <span class="preview"> （選擇性）若要編輯計分卡，請在計分卡清單中選取計分卡，然後按一下清單底部的&#x200B;**編輯** ![編輯計分卡](assets/edit-scorecard-icon.png)。</span>
+
+1. <span class="preview"> （選擇性）若要刪除計分卡，請在計分卡清單中選取該計分卡，然後按一下清單底部的&#x200B;**刪除** ![刪除計分卡](assets/delete-scorecard-icon.png)。</span>
+
 ## 複製現有計分卡
 
 您可以複製並編輯現有的計分卡，藉此建立計分卡。
@@ -135,11 +138,15 @@ ht-degree: 3%
 {{step-1-to-setup}}
 
 1. 按一下左側面板中的&#x200B;**[!UICONTROL 計分卡]**。
-1. 在清單中選取計分卡，然後按一下計分卡清單頂端的&#x200B;**複製**&#x200B;圖示![複製計分卡圖示](assets/copy-scorecard-icon.png)。
+1. 在清單中選取計分卡，然後按一下計分卡清單<span class="preview">頂端的&#x200B;**複製**&#x200B;或清單</span>底部的&#x200B;**複製** ![複製計分卡圖示](assets/copy-scorecard-icon.png)。
 
-   **複製計分卡**&#x200B;方塊開啟。
+   **複製**&#x200B;計分卡方塊開啟。
 
    ![複製計分卡方塊](assets/copy-scorecard-box.png)
+
+   >[!TIP]
+   >
+   >計分卡的名稱會顯示在方塊的標題中。
 
 1. 指定下列資訊：
 
