@@ -9,10 +9,16 @@ feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
 TQID: https://experienceleague.adobe.com/KwUrEyHt6dqTcmP3JrTObsfvkcjP9q7O6-msiBuZVP4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
 source-wordcount: 646
@@ -54,12 +60,12 @@ Adobe Workfront有許多預設風險型別，您可以在計畫階段與專案�
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[！UICONTROL標準]</p>
-       <p>[！UICONTROL計畫]</p></td>
+   <td><p>[!UICONTROL 標準]</p>
+       <p>[!UICONTROL 計畫]</p></td>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[！UICONTROL系統管理員]</td> 
+   <td>[!UICONTROL 系統管理員]</td> 
   </tr> 
  </tbody> 
 </table>
