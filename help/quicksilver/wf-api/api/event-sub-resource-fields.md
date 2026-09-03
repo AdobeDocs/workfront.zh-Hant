@@ -18,9 +18,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 388af1150be6381f613fb69eb1cbef9c0872138e
+source-git-commit: 0c334e47aaf59a02ec235776505076e5aa808a89
 workflow-type: tm+mt
-source-wordcount: 1184
+source-wordcount: 1192
 ht-degree: 12%
 
 ---
@@ -3399,6 +3399,15 @@ ht-degree: 12%
   <tr><td> </td><td> </td><td>物件代碼</td></tr> 
   <tr><td> </td><td> </td><td>ownerID</td></tr> 
   <tr><td> </td><td> </td><td>parametervalues</td></tr> 
+  <tr> 
+   <td>小組成員</td> 
+   <td>TEAMMB</td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr><td> </td><td> </td><td>ID</td></tr> 
+  <tr><td> </td><td> </td><td>物件代碼</td></tr> 
+  <tr><td> </td><td> </td><td>teamID</td></tr> 
+  <tr><td> </td><td> </td><td>userID</td></tr> 
   <tr> 
    <td>範本</td> 
    <td>範本</td> 
