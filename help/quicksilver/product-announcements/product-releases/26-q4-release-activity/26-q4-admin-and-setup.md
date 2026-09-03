@@ -4,9 +4,9 @@ description: 2026年第四季管理員增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: db296d9043cb793e1af74bca38197de682f54cb8
+source-git-commit: c3dc1aa9e48d45d2546561c2ac9412b008258e2d
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '1267'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,60 @@ The following enhancements are included:
 For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 -->
+
+## 為Adobe Admin Console中布建的使用者設定預設存取層級
+
+>[!NOTE]
+>
+>預覽： 2026年9月3日
+>生產快速發行： 2026年9月17日
+>適用於所有人的生產： 2026年10月15日
+
+您現在可以為透過Adobe Admin Console在Workfront中布建的使用者設定預設存取層級。 Workfront管理員可以在「系統偏好設定」中設定此預設值。
+
+之前，Workfront會為使用者指派貢獻者或請求者存取層級。
+
+如需詳細資訊，請參閱[設定系統偏好設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
+
+## Workfront Planning客戶的自訂季度以外的自訂周數
+
+>[!NOTE]
+>
+>預覽： 2026年9月3日
+>生產快速發行： 2026年9月17日
+>適用於所有人的生產： 2026年10月15日
+
+如果您的組織已購買Planning套件，並且除了Workflow套件，您現在可以透過與Workfront管理員相同的方式，設定自訂季度。
+
+自訂周數在Workfront中不可見。 它們只顯示在Workfront Planning時間表檢視中。
+
+如需詳細資訊，請參閱[啟用自訂季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
+
+## 在主功能表中重新排序自訂應用程式
+
+>[!NOTE]
+>
+>預覽： 2026年9月3日
+>生產快速發行： 2026年9月17日
+>適用於所有人的生產： 2026年10月15日
+
+使用版面配置範本時，您現在可以使用預設的Workfront功能表選項，將自訂應用程式重新定位為任何順序。 這可讓您將每個應用程式放置在最相關的位置。
+
+以前，自訂應用程式永遠是版面配置範本主功能表選項中的最後一個專案，並且無法重新定位。
+
+如需新增自訂應用程式至主功能表的詳細資訊，請參閱[使用版面配置範本自訂主功能表](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)。
+
+## 自訂檔案整合的大型檔案支援
+
+>[!NOTE]
+>
+>預覽： 2026年9月3日
+>生產快速發行： 2026年9月17日
+>適用於所有人的生產： 2026年10月15日
+
+自訂檔案整合現在支援大型檔案的區塊上傳。 啟用後，超過25 MB的檔案會分成較小的區塊，並同時上傳，使得大型檔案的上傳速度更快、更可靠。 管理員可以開啟此功能，並設定每次整合的區塊大小上限（最多100 MB）。
+
+如需詳細資訊，請參閱[設定檔案整合](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md)。
 
 ## 群組管理員可以管理企業檔案
 

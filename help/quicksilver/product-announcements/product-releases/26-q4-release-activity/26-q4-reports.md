@@ -4,10 +4,10 @@ description: 2026年第四季報表增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 63bdc885983f60c316409c3bba400ad82d475a5f
+source-git-commit: ee1fceee828c97db535ccc03c8b428940d6f7eed
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 0%
+source-wordcount: '611'
+ht-degree: 3%
 
 ---
 
@@ -16,6 +16,58 @@ ht-degree: 0%
 本頁說明2026年第四季版本針對預覽環境所進行的報告增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2026年第四季版本週期目前可用的所有變更清單，請參閱[2026年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)。
+
+<!--
+
+## Duplicate dashboards in Canvas Dashboards
+
+>[!NOTE]
+>
+>Preview: September 3, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+You can now duplicate a Canvas Dashboard using the new **Duplicate dashboard** action. This action is available to any user whose access level grants edit or create rights to Dashboards, even if they only have view access to the specific dashboard being copied. Users without edit or create rights to Dashboards do not see this action.
+
+When you duplicate a dashboard, you can rename it, update its description and currency, and choose which widgets, dashboard filters, and dashboard prompts to carry over to the copy.
+
+Run as user configurations on widgets are only preserved if you are the designated user or a system administrator. Sharing preferences are not copied to the new dashboard, and a confirmation message with a link to the new dashboard displays once the copy is complete.
+
+Previously, there was no way to duplicate a dashboard; users had to rebuild dashboards from scratch to create audience-specific variations.
+
+For more information, see 
+
+-->
+
+## 畫布儀表板中的核准型別欄位
+
+>[!NOTE]
+>
+>適用於所有人的生產： 2026年8月28日
+>[!BADGE 不在排程]{type=Neutral}內
+
+核准實體現在包含&#x200B;**核准型別**&#x200B;欄位，可讓使用者區分校訂核准、檔案版本核准、接收核准和其他核准型別。
+
+## 畫布儀表板中的核准術語更新
+
+>[!NOTE]
+>
+>適用於所有人的生產： 2026年8月28日
+>[!BADGE 不在排程]{type=Neutral}內
+
+為了清楚起見，已重新命名下列在畫布儀表板中用於檔案和工作核准的欄位名稱：
+
+| 前一個名稱 | 新名稱 |
+| --- | --- |
+| 文件核准 | 核准 |
+| 文件核准階段 | 核准階段 |
+| 文件核准階段參與者 | 核准階段參與者 |
+| 核准流程 | 工作核准流程 |
+| 核准階段 | 工作核准階段 |
+| 核准者狀態 | 工作核准者狀態 |
+| 等待核准 | 等待工作核准 |
+
+此變更不會影響目前報表的運作方式。
 
 ## 畫布儀表板中的樞紐分析表報表
 
