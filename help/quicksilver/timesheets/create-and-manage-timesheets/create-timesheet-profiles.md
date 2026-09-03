@@ -9,20 +9,14 @@ exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/yxgLrUYYpVo-DhroRvE3zUP4zLYdDDg-1Ni3yXj06Ms
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: bf52de7515f8bcb29649b22c1fe40d5a7e306018
 workflow-type: tm+mt
-source-wordcount: 1593
+source-wordcount: 1599
 ht-degree: 3%
 
 ---
@@ -76,13 +70,12 @@ ht-degree: 3%
 
 {{step-1-to-setup}}
 
-1. 如果您建立或編輯時程表設定檔，以便在整個系統中使用，請按一下&#x200B;**時程表和時數**。
+1. 若要建立或編輯用於整個系統的時程表設定檔，請按一下&#x200B;**時程表和時數>時程表設定檔**。
 
    或
 
-   如果您建立或編輯群組的時程表設定檔，請按一下&#x200B;**群組**，然後按一下群組的名稱。
+   若要建立或編輯群組的時程表設定檔，請按一下&#x200B;**群組**、按一下群組的名稱，然後按一下左側面板中的&#x200B;**時程表設定檔**。
 
-1. 按一下&#x200B;**週期性時程表**。
 1. 若要建立時間表設定檔，請按一下&#x200B;**新增設定檔**。
 
    或
