@@ -9,26 +9,21 @@ feature: System Setup and Administration, Workfront Integrations and Apps, Digit
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
 TQID: https://experienceleague.adobe.com/RUHFPYpCgZq0qAMGB8-Na2olK7uHVtViIcygLUiTkSo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: c4a58f26-aa43-4761-aafe-56f1e034d7d5
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: c4a58f26-aa43-4761-aafe-56f1e034d7d5
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 94f14afac621d7a0e41daceeb8eb7a5d2682f911
 workflow-type: tm+mt
-source-wordcount: 1111
+source-wordcount: 1184
 ht-degree: 4%
 
 ---
 
 # 設定文件整合
+
+{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -97,14 +92,14 @@ ht-degree: 4%
 
 * 協力廠商雲端檔案提供者：
 
-   * [!DNL Box]
-   * [!DNL Dropbox]
-   * [!DNL Dropbox Business]
-   * [!DNL WebDAM]
-   * [!DNL Microsoft OneDrive]
-   * [!DNL Microsoft SharePoint]
-   * [!UICONTROL Google磁碟機]
-   * Quip
+  * [!DNL Box]
+  * [!DNL Dropbox]
+  * [!DNL Dropbox Business]
+  * [!DNL WebDAM]
+  * [!DNL Microsoft OneDrive]
+  * [!DNL Microsoft SharePoint]
+  * [!UICONTROL Google磁碟機]
+  * Quip
 
   >[!TIP]
   >
@@ -155,15 +150,15 @@ ht-degree: 4%
       <td>自訂整合的名稱。 這是使用者在Workfront中使用整合時看到的名稱。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 基本API URL] </td> 
+      <td role="rowheader">[！UICONTROL基本API URL] </td> 
       <td>API呼叫的基本HTTP或安全HTTP URL。 例如， <code>https://&lt;documentprovider&gt;.com/api/v2</code></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 驗證型別]</td> 
+      <td role="rowheader">[！UICONTROL驗證型別]</td> 
       <td> <p>對自訂整合發出授權API呼叫時所使用的驗證方法。</p> 
        <ul> 
-        <li>如果您選擇<strong>[!UICONTROL OAuth]</strong>，請繼續步驟5。</li> 
-        <li>如果您選擇<strong>[!UICONTROL ApiKey]</strong>，請繼續步驟6。</li> 
+        <li>如果您選擇<strong>[！UICONTROL OAuth]</strong>，請繼續步驟5。</li> 
+        <li>如果您選擇<strong>[！UICONTROL ApiKey]</strong>，請繼續步驟6。</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -180,7 +175,7 @@ ht-degree: 4%
       <td>用於使用者驗證的完整URL。 [!DNL Workfront]會在OAuth布建程式過程中將使用者導覽至此位址。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 權杖端點URL]</td> 
+      <td role="rowheader">[！UICONTROL權杖端點URL]</td> 
       <td>用於檢索 OAuth 權杖的完整 API URL。</td> 
      </tr> 
      <tr> 
@@ -192,7 +187,7 @@ ht-degree: 4%
       <td>此整合的OAut使用者端密碼。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 請求引數]</td> 
+      <td role="rowheader">[！UICONTROL請求引數]</td> 
       <td> <p>輸入要附加至每個API呼叫之查詢字串的選用值。 例如，access_type=offline。</p> <p>若要新增多個請求引數，請按一下<strong>+新增請求引數</strong>。</p> </td> 
      </tr> 
     </tbody> 
@@ -205,6 +200,8 @@ ht-degree: 4%
 1. （視條件而定）如果您為&#x200B;**[!UICONTROL 驗證型別]**&#x200B;選取&#x200B;**[!UICONTROL ApiKey]**&#x200B;驗證，請輸入自訂檔案提供者所發出的API金鑰。
 
    [!DNL Workfront]使用此API金鑰對檔案提供者進行授權的API呼叫。
+
+1. <span class="preview">（選擇性）若要啟用大型檔案支援，請在&#x200B;**[!UICONTROL 大型檔案支援]**&#x200B;區段中選取&#x200B;**[!UICONTROL 啟用大型檔案的區塊上傳]**，然後在&#x200B;**[!UICONTROL 區塊上傳臨界值(MB)]**&#x200B;欄位中輸入最大區塊大小(MB)。 此欄位接受最多100 MB的值。 啟用時，超過25 MB的檔案會以這種大小的區塊上傳，而不是以單一請求上傳。</span>
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以建立整合。
 
@@ -266,9 +263,9 @@ ht-degree: 4%
 ### Google Drive整合
 
 * 將連結資料夾新增至Workfront時，資料夾中的檔案不再自動新增。
-   * 您可以將Google資料夾新增至Workfront （不含檔案），然後將個別檔案新增至Workfront。這些檔案會自動新增至Workfront中的Google資料夾。
-或
-   * 您可以在Workfront中建立「檔案」資料夾，然後選取Google資料夾中的所有檔案，並將它們新增至Workfront資料夾。
+  * 您可以將Google資料夾新增至Workfront （不含檔案），然後將個別檔案新增至Workfront。 這些檔案會自動新增至Workfront中的Google資料夾。
+    或
+  * 您可以在Workfront中建立「檔案」資料夾，然後選取Google資料夾中的所有檔案，並將它們新增至Workfront資料夾。
 
 
 * Google Drive檔案整合支援從Google Drive的「我的磁碟機」區域新增檔案。 您無法從共用磁碟機新增資料夾或影像。 深入瞭解[Google共用磁碟機](https://support.google.com/a/users/answer/7212025?hl=en)。
