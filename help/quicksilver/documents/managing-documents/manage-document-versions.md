@@ -7,10 +7,15 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: 477153e4-847b-46ec-8107-72a7399c3767
 TQID: https://experienceleague.adobe.com/rCnj3Gx1SB3-UziuppQfifv2hJ6q3OjepNO9FcEEHEk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: c83b252faf7791c51475c5b82ca03cb4ee29bfc0
 workflow-type: tm+mt
 source-wordcount: 1077
@@ -208,7 +213,7 @@ Workfront會以您上傳各個版本的順序（例如V1、V2、V3）編號，�
 
 1. 按一下頁面右側的&#x200B;**版本**&#x200B;圖示![版本](assets/versions-icon.png)。
 
-1. 按一下[版本]面板頂端的[下載全部&#x200B;****]。
+1. 按一下[版本]面板頂端的[下載全部&#x200B;**&#x200B;**]。
 
    ![下載檔案的所有版本](assets/download-all-versions.png)
 
