@@ -11,22 +11,12 @@ exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/46D3BBajFk39FP-dMDk0SuSSGM5nYPKas11Bs159R9Y
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 19349c6eb433c45f6b9bc4dabe1001ef4b69bec1
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5477b925df1655014eb9db99cc92e7eeee4662b7
 workflow-type: tm+mt
 source-wordcount: 1318
 ht-degree: 8%
@@ -182,17 +172,17 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
       <td role="rowheader">請求表單中的智慧型自動完成 </td> 
       <td>可讓您選擇啟用根據先前的請求資料自動完成請求表單的功能。 如需表單自動完成的詳細資訊，請參閱<a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">從先前的資料自動填入要求</a>。</td> 
      </tr>
+     <tr> 
+      <td role="rowheader">選擇加入 AI Beta 版 </td> 
+      <td>可讓您選擇啟用Beta中目前的AI功能。 如果啟用此選項，您可以接著選取要啟用哪些AI Beta功能。 如需每個AI Beta功能的詳細資訊，請按一下該功能旁的資訊圖示
     <tr> 
       <td role="rowheader">規劃設計工具</td> 
       <td>這僅適用於已購買Workfront Planning套件的客戶。 開啟此設定可讓您的使用者使用Planning Designer來建立和編輯工作區。 如需詳細資訊，請參閱<a href="/help/quicksilver/planning/general/planning-ai-designer.md">開始使用Adobe Workfront Planning Designer</a>。</td> 
-     </tr>
-     <tr> 
-      <td role="rowheader">選擇加入 AI Beta 版 </td> 
-      <td>可讓您選擇啟用Beta中目前的AI功能。 如果啟用此選項，您可以接著選取要啟用哪些AI Beta功能。 如需每個AI Beta功能的詳細資訊，請按一下該功能旁的資訊圖示。</td> 
+     </tr>.</td> 
      </tr>
      <tr> 
       <td role="rowheader"><span class="preview">唯讀 MCP 工具</span></td> 
-      <td><span class="preview">可讓Workfront MCP伺服器對Workfront資料執行讀取動作，例如，尋找或列出專案、任務或其他專案。 此選項預設為啟用。<p>如需Workfront MCP伺服器的詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">設定Adobe Workfront MCP伺服器</a>。</p></span></td> 
+      <td><span class="preview">可讓Workfront MCP伺服器對Workfront資料執行讀取動作，例如尋找或列出專案、任務或其他專案。 此選項預設為啟用。<p>如需Workfront MCP伺服器的詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">設定Adobe Workfront MCP伺服器</a>。</p></span></td> 
      </tr>
      <tr> 
       <td role="rowheader"><span class="preview">編寫 MCP 工具</span></td> 

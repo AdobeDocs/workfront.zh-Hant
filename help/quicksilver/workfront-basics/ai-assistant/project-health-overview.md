@@ -6,18 +6,13 @@ author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
 TQID: https://experienceleague.adobe.com/JKswbVxwKRxGdUpn7GlLRNwu7lDLxGOL3l-ZD4SffKE
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
 workflow-type: tm+mt
-source-wordcount: 2065
+source-wordcount: 2100
 ht-degree: 2%
 
 ---
@@ -26,7 +21,8 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->專案健康狀態功能目前僅適用於參與Beta階段的使用者。
+>* 從2026年9月開始，AI Assistant正在轉換成CX Co-worker，這是一個可輕鬆完成工作的對話式介面。 如需CX Co-worker的相關資訊，請參閱[ CX Co-worker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
+>* 專案健康狀態功能目前僅適用於參與Beta階段的使用者。
 
 Adobe Workfront的專案運作狀態功能利用AI Assistant的強大功能，立即為您提供專案執行方式、需要您關注的領域以及如何避免可能會耗費您時間和金錢的問題的評估。
 
@@ -277,7 +273,7 @@ AI Assistant可指派一個可用的專案健康狀態，讓您快速評估專�
 
    ![專案狀況所需專案欄位](assets/project-completeness-fields.png)
 
-1. 按一下&lbrack;新增&#x200B;**&#x200B;**&#x200B;至更多原生或自訂專案或工作列位。
+1. 按一下[新增&#x200B;****&#x200B;至更多原生或自訂專案或工作列位。
 
 1. 按一下右上角的&#x200B;**儲存**。
 
@@ -328,7 +324,7 @@ Workfront管理員建立專案健康情況設定後，如果您擁有專案的�
 
    >[!NOTE]
    >
-   >如果您從Workfront中的其他頁面存取AI小幫手，您可以輸入&#x200B;*專案[專案名稱]的狀況為何？*&#x200B;或&#x200B;*方案[方案名稱]的狀況為何？* <br>
+   >如果您是從Workfront中的其他頁面存取AI小幫手，您可以輸入&#x200B;*專案[專案名稱]的狀況如何？* 或&#x200B;*什麼是程式[程式名稱]的健全狀態？* <br>
    >如需您可以輸入的目前提示的完整清單，請參閱本文中的[AI助理提示清單](#ai-assistant-prompts-list)小節。
 
 1. 按一下&#x200B;**傳送**&#x200B;圖示![傳送圖示](assets/send-icon.png)。 專案健康狀態評估會產生，並顯示在面板中。 每個專案健康狀態評估頂端都會顯示徽章，反映專案的目前狀態。
