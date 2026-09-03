@@ -37,11 +37,11 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td>[！UICONTROL標準]</td>
+   <td>[!UICONTROL 標準]</td>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[！UICONTROL系統管理員]</td> 
+   <td>[!UICONTROL 系統管理員]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,7 +78,7 @@ ht-degree: 3%
 {{step-1-to-setup}}
 
 1. 在左側面板中，按一下&#x200B;[!UICONTROL **位置**]。
-1. 在生產環境中，選取清單中的現有位置，然後按一下[新增子位置] [!UICONTROL ****]。
+1. 在生產環境中，選取清單中的現有位置，然後按一下[新增子位置] [!UICONTROL **&#x200B;**]。
    <span class="preview">在預覽環境中，選取清單中的現有位置，然後按一下熒幕底部動作列中的&#x200B;[!UICONTROL **新增子位置**]。</span>
 
 1. 輸入地點名稱和說明。
