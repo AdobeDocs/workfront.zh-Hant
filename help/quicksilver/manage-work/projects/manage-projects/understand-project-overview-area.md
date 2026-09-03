@@ -11,27 +11,21 @@ exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/VlZaPAR4m-l8J06i7vGB99HbRIJNTN2nBFhCvFy2aD0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: acbb78db2ce8c6c57fa10fe99f533d7dd7feea1b
 workflow-type: tm+mt
-source-wordcount: 1382
+source-wordcount: 1429
 ht-degree: 5%
 
 ---
 
 # 管理專案概述區域中的資訊
+
+{{highlighted-preview}}
 
 <!--
 <p>(NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)</p>
@@ -228,6 +222,7 @@ Old:
    | 上次更新日期 | 專案上次更新的日期與時間。 |
    | 上次更新者 | 上次更新專案的使用者名稱。 |
    | 範本 |  |
+   | Frame.io工作區 | <span class="preview">Frame.io工作區繼承自用來建立它的範本。 專案建立後，您無法變更此欄位。</span> |
 
 
 1. 如果您的公司已購買Adobe Workfront Scenario Planner的額外授權，並且專案具有從連結的方案發佈的資訊，請在Scenario Planner區域中檢閱以下方案資訊：
