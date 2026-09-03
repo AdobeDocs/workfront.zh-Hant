@@ -4,10 +4,10 @@ description: 此頁面提供2026年第四季度版本中包含的功能相關資
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 549e1bd0fd0910d8285552487115fdeaae5facc7
+source-git-commit: ee1fceee828c97db535ccc03c8b428940d6f7eed
 workflow-type: tm+mt
-source-wordcount: '1579'
-ht-degree: 3%
+source-wordcount: '2398'
+ht-degree: 1%
 
 ---
 
@@ -38,6 +38,7 @@ ht-degree: 3%
 * [管理員增強功能](#administrator-enhancements)
 * [AI增強功能](#ai-enhancements)
 * [檔案增強功能](#documents-enhancements)
+* [Financial Management增強功能](#financial-management-enhancements)
 * [專案增強功能](#project-enhancements)
 * [報告增強功能](#reporting-enhancements)
 * [資源管理增強功能](#resource-management-enhancements)
@@ -53,6 +54,42 @@ ht-degree: 3%
             <td><strong>預覽</strong></td>
             <td><strong>快速發行</strong></td>
             <td><strong>每季</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">為Adobe Admin Console中布建的使用者設定預設存取層級</a>
+                <p>您現在可以為透過Adobe Admin Console在Workfront中布建的使用者設定預設存取層級。</p>
+            </td>
+            <td><p>2026年9月3日</p></td>
+            <td><p>2026年9月17日</p></td>
+            <td><p>2026年10月15日</p></td>
+        </tr>
+        <tr>
+            <td>
+                除了為Workfront Planning客戶提供的自訂季度之外，<a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">自訂周數</a>
+                <p>如果貴組織有Planning套件，您現在可以透過設定自訂季度的相同方式設定自訂周數。</p>
+            </td>
+            <td><p>2026年9月3日</p></td>
+            <td><p>2026年9月17日</p></td>
+            <td><p>2026年10月15日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">在主要功能表中重新排序自訂應用程式</a>
+                <p>您現在可以在版面配置範本的主功能表中重新定位自訂應用程式，而不是讓它們一律顯示在最後。</p>
+            </td>
+            <td><p>2026年9月3日</p></td>
+            <td><p>2026年9月17日</p></td>
+            <td><p>2026年10月15日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">自訂檔案整合的大型檔案支援</a>
+                <p>自訂檔案整合現在支援區塊上傳，讓超過25 MB的檔案上傳速度更快、更可靠。</p>
+            </td>
+            <td><p>2026年9月3日</p></td>
+            <td><p>2026年9月17日</p></td>
+            <td><p>2026年10月15日</p></td>
         </tr>
 <!--
         <tr>
@@ -151,52 +188,64 @@ ht-degree: 3%
             <td><strong>快速發行</strong></td>
             <td><strong>每季</strong></td>
         </tr>
+<!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Workfront MCP聯結器中有新的搜尋使用者工具</a>
-                <p>全新的「搜尋使用者」工具可協助您更快速地在Workfront執行個體中尋找人員；有6種較舊的查詢工具已淘汰，改用其他現有查詢/查詢工具。</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Introducing CX Coworker in Workfront</a>
+                <p>CX Coworker is a new conversational interface for getting work done in Workfront and connected Adobe systems, replacing the current AI Assistant.</p>
             </td>
-            <td><p>2026年8月13日</p></td>
-            <td><p>2026年8月13日</p></td>
-            <td><p>2026年8月13日</p></td>
+            <td><p>September 3, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
         </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">使用Adobe Experience Manager MCP伺服器，將資產傳送至Workfront並新增自訂訊息以供核准</a>
-                <p>新的MCP聯結器工具可讓您將檔案傳送到AEM連結的資料夾，並使用自訂訊息請求檔案核准。</p>
-            </td>
-            <td><p>2026年8月12日</p></td>
-            <td><p>2026年8月12日</p></td>
-            <td><p>2026年8月12日</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">將AI任務共同作業人員指派給Workfront中的任務</a>
-                <p>任務共同作業人員是AI共同作業人員，可以直接指派給任務來完成任務層級的工作。</p>
-            </td>
-            <td><p>2026年7月31日</p></td>
-            <td><p>2026年8月13日</p></td>
-            <td><p>2026年8月13日</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Workfront MCP聯結器中有可用的新核准工具</a>
-                <p>為了擴展Workfront MCP聯結器的功能，我們新增了管理核准路徑的新工具，並擴充了現有工具以支援平行核准路徑。</p>
-            </td>
-            <td><p>2026年7月30日</p></td>
-            <td><p>2026年8月13日</p></td>
-            <td><p>2026年10月15日</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Workfront MCP Connector中可用的主機板工具</a>
-                <p>為了擴展Workfront MCP聯結器的功能，我們新增了使用面板、卡片、檢查清單專案和欄的工具。</p>
-            </td>
-            <td><p>2026年7月30日</p></td>
-            <td><p>2026年8月13日</p></td>
-            <td><p>2026年10月15日</p></td>
-        </tr>
-    </tbody>
+-->
+
+    &lt;tr>
+    &lt;td>
+    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Workfront MCP Connector中可用的新搜尋使用者工具&lt;/a>
+    &lt;p>新的搜尋使用者工具可協助您更快在Workfront執行個體中尋找人員；六個較舊的查詢工具已淘汰，以支援該工具及現有的搜尋/查詢工具。&lt;/p>
+    &lt;/td>
+    &lt;td>&lt;p>8月13日， 2026&lt;/p>&lt;/td>
+    &lt;td>&lt;p>2026年8月13日&lt;/p>&lt;/td>
+    &lt;td>&lt;p>2026年8月13日&lt;/p>&lt;/td>
+    &lt;/tr>
+    &lt;tr>
+    &lt;td>
+    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>將資產傳送到Adobe Experience Manager，並使用Workfront MCP伺服器新增自定義消息以供審批&lt;/a>
+    包含自定義消息的資料夾和請求文檔審批。&lt;/p>
+    &lt;/td>
+    &lt;td>&lt;p>2026年8月12日&lt;/p>&lt;/td>
+    &lt;td>&lt;p>2026年8月12日&lt;/p>&lt;/td>
+    &lt;td>&lt;p>2026年8月12日&lt;/p>&lt;/td>
+    &lt;/tr>
+    &lt;tr>
+    &lt;td>
+    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>將AI任務合作者分配給Workfront中的任務&lt;/a>
+    &lt;p>任務合作者是可直接分配給任務以完成任務級工作的AI合作者。&lt;/p>
+    &lt;/td>
+    &lt;td>&lt;p>2026年7月31日&lt;/p>&lt;/td>
+    &lt;td>&lt;p>2026年8月13日&lt;/p>&lt;/td>
+    &lt;td> 2026年8月13日&lt;/p>&lt;/td>
+    &lt;/tr>
+    &lt;tr>
+    &lt;td>
+    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>Workfront MCP聯結器中提供的新審批工具&lt;/a>
+    &lt;p>為了擴展Workfront MCP聯結器的功能，我們新增了管理審批路徑的新工具並擴展了現有工具以支援並行審批路徑。&lt;/p>
+    &lt;/td>
+    &lt;td>&lt;p>2026年7月30日&lt;/p>&lt;/td>
+    &lt;td>&lt;p>2026年8月13日&lt;/p>&lt;/td>
+    &lt;td>&lt;p>2026年10月15日&lt;/p>&lt;/td>
+    &lt;/tr>
+    &lt;tr>
+    &lt;td>
+    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md&quot; class=&quot;MCXxref mcp聯結器&lt;/a>
+    &lt;p>為了擴展AEM MCP聯結器的功能，我們新增了用於處理主機板、卡片、清單專案和列的工具。&lt;/p>
+    &lt;/td>
+    &lt;td>&lt;p>2026年7月30日&lt;/p>&lt;/td>
+    &lt;td>&lt;p>2026年8月13日&lt;/p>&lt;/td>
+    &lt;td>&lt;p>10月15日， 2026&lt;/p>&lt;/td>
+    &lt;/tr>
+    &lt;/tbody>
 </table>
 
 ### 檔案增強功能
@@ -210,6 +259,86 @@ ht-degree: 3%
             <td><strong>快速發行</strong></td>
             <td><strong>每季</strong></td>
         </tr>
+<!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Frame comment visibility in Workfront</a>
+                <p>The Comments panel in Workfront now lets you know when new comments are available in the Frame.io viewer.</p>
+            </td>
+            <td><p>September 3, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+-->
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">核准電子郵件連結的直接校訂存取權</a>
+                <p>當檔案附有校訂時，核准電子郵件中的「前往檢閱」連結現在會直接開啟校訂檢視器。</p>
+            </td>
+            <td><p>不適用</p></td>
+            <td><p>2026年9月17日</p></td>
+            <td><p>2026年10月15日</p></td>
+        </tr>
+<!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Add teams to approvals for objects using Adobe cloud storage</a>
+                <p>You can now add a Workfront Team as an approver or reviewer on a document approval or approval template instead of adding people individually.</p>
+            </td>
+            <td><p>September 3, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+-->
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">在專案範本上設定Frame.io工作區</a>
+                <p>您現在可以在專案範本上設定Frame.io工作區，以便使用該範本建立的專案會自動路由至所需的工作區。</p>
+            </td>
+            <td><p>2026年9月3日</p></td>
+            <td><p>2026年9月17日</p></td>
+            <td><p>2026年10月15日</p></td>
+        </tr>
+<!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Consistent review and approval buttons across documents</a>
+                <p>Review and approval buttons now look and work the same everywhere you review documents, and some buttons have new names.</p>
+            </td>
+            <td><p>September 3, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+-->
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">電子郵件主旨列中的自訂訊息</a>
+                <p>在檔案核准上設定的自訂訊息現在也會顯示在核准請求電子郵件的主旨列中。</p>
+            </td>
+            <td><p>不適用</p></td>
+            <td><p>2026年9月17日</p></td>
+            <td><p>2026年10月15日</p></td>
+        </tr>
+<!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Redesigned Versions panel in the new documents area</a>
+                <p>The Versions panel in the new Documents area has a new design, with versions numbered and approval status shown directly in the list.</p>
+            </td>
+            <td><p>September 3, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Redesigned Approvals panel in the new documents area</a>
+                <p>The Approvals panel in the new Documents area now shows approval history across all versions, not just the current version.</p>
+            </td>
+            <td><p>September 3, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+-->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">將影像附加至Adobe雲端儲存物件上的註解</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
@@ -226,6 +355,29 @@ ht-degree: 3%
             </td>
             <td><p>2026年7月30日</p></td>
             <td><p>2026年8月13日</p></td>
+            <td><p>2026年10月15日</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### Financial Management增強功能
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>功能</strong>
+            </td>
+            <td><strong>預覽</strong></td>
+            <td><strong>快速發行</strong></td>
+            <td><strong>每季</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">屬性階層現在會自動保持連線</a><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>選取最低層級的費率屬性現在會自動指派其上方的每個父層次，而非要求手動連結每個層次。</p>
+            </td>
+            <td><p>2026年9月3日</p></td>
+            <td><p>2026年9月17日</p></td>
             <td><p>2026年10月15日</p></td>
         </tr>
     </tbody>
@@ -265,62 +417,74 @@ ht-degree: 3%
             <td><strong>快速發行</strong></td>
             <td><strong>每季</strong></td>
         </tr>
+<!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">畫布儀表板中的核准型別欄位</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
-                <p>「核准」實體現在包含「核准型別」欄位，可讓使用者區分校訂核准、檔案版本核准、接收核准和其他核准型別。</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Duplicate dashboards in Canvas Dashboards</a>
+                <p>You can now duplicate a Canvas Dashboard using the new Duplicate dashboard action, and choose what to carry over to the copy.</p>
             </td>
-            <td><p>不適用</p></td>
-            <td><p>不適用</p></td>
-            <td><p>2026年8月28日</p></td>
+            <td><p>September 3, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
         </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">畫布儀表板中的核准術語更新</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
-                <p>為了清楚起見，已重新命名畫布控制面板中用於檔案和工作核准的多個欄位名稱。</p>
-            </td>
-            <td><p>不適用</p></td>
-            <td><p>不適用</p></td>
-            <td><p>2026年8月28日</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">畫布儀表板中的樞紐分析表報表</a>
-                <p>「畫布控制面板」中的新樞紐分析表報表型別，會以準確、完整的統計，以及向下切入基礎記錄來彙總資料。</p>
-            </td>
-            <td><p>2026年8月27日</p></td>
-            <td><p>2026年9月17日</p></td>
-            <td><p>2026年10月15日</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">強制排程報告的結束日期</a>
-                <p>排程報表現在需要結束日期，以防止無限期傳送，而且會在排程的結束日期過去時自動停用。</p>
-            </td>
-            <td><p>2026年8月13日</p></td>
-            <td><p>2026年9月17日</p></td>
-            <td><p>2026年10月15日</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">清單和報告有原生參考欄位可用</a>
-                <p>您現在可以在Workfront中，將原生參考欄位新增至清單和報表。</p>
-            </td>
-            <td><p>2026年7月30日</p></td>
-            <td><p>2026年8月13日</p></td>
-            <td><p>2026年10月15日</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">舊版清單和報告的多重選取欄位值順序一致</a>
-                <p>多選自訂欄位的已選取選項現在會以一致且可預測的順序顯示在舊版清單與報表中。</p>
-            </td>
-            <td><p>2026年7月30日</p></td>
-            <td><p>2026年8月13日</p></td>
-            <td><p>2026年10月15日</p></td>
-        </tr>
-    </tbody>
-</table>
+-->
+
+    &lt;tr>
+    &lt;td>
+    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>畫布儀表板中的核准型別欄位&lt;/a>&lt;p>[!BADGE 關閉排程]{type=Neutral}&lt;/p>
+    &lt;p>核准實體現在包含核准型別欄位，可讓使用者區分校訂核准、檔案版本核准、錄取核准和其他核准型別。&lt;/p>
+    &lt;/td>
+    &lt;td>&lt;p>N/N a&lt;/p>&lt;/td>
+    &lt;td>&lt;p>N/A&lt;/p>&lt;/td>
+    &lt;td>&lt;p>2026年8月28日&lt;/p>&lt;/td>
+    &lt;/tr>
+    &lt;tr>
+    &lt;td>
+    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xref=&quot;{para}&quot;>Canvas儀表板中的審批術語更新&lt;/a>&lt;p>[!BADGE Off計畫]{type=Neutrual}&lt;/p>為了清晰起見，已重新命名用於畫布功能板中的文檔和工作審批。&lt;/p>
+    &lt;/td>
+    &lt;td>&lt;p>N/A&lt;/p>&lt;/td>
+    &lt;td>&lt;p>N/A&lt;/p>&lt;/td>
+    &lt;td>&lt;p>2026年8月28日&lt;/p>&lt;/td>
+    &lt;/tr>
+    &lt;tr>
+    &lt;td>
+    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCX ref xref&quot; xrefformat=&quot;{para}&quot;>畫布儀表板中的透視表報表&lt;/a>
+    &lt;p>畫布儀表板中的新透視表報表型別使用準確、完整的彙總來聚合資料，並深入到基礎記錄。&lt;/p>
+    &lt;/td>
+    &lt;td>&lt;p>2026年8月27日&lt;/p>&lt;/td>
+    &lt;td>&lt;p>9月17日， 2026年&lt;/p>&lt;/td>
+    &lt;td>&lt;p>2026年10月15日&lt;/p>&lt;/td>
+    &lt;/tr>
+    &lt;tr>
+    &lt;td>
+    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>強制計畫報告的結束日期&lt;/a>
+    &lt;p>計畫報告現在需要結束日期以防止無限期交付，當計畫的結束日期超過時會自動停用。&lt;/p>&lbrace;3> 2026年&lt;/p>&lt;/td>
+    &lt;td>&lt;p>2026年9月17日&lt;/p>&lt;/td>
+    &lt;td>&lt;p>2026年10月15日&lt;/p>&lt;/td>
+    &lt;/tr>
+    &lt;tr>
+    &lt;td>
+    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>本機引用欄位可用於清單和報告&lt;/a>
+    &lt;p>您現在可以向Workfront中的清單和報告新增本機引用欄位。&lt;/p>
+    &lt;/td>
+    &lt;td>&lt;p>2026年7月30日&lt;/p>&lt;/td>
+    &lt;td>&lt;p>2026年8月13日&lt;/p>&lt;/td>
+    &lt;td>&lt;p>2026年10月15日&lt;/p>&lt;/td>
+    &lt;/tr>
+    &lt;tr>
+     href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>舊版清單和報告中的多選欄位值排列一致&lt;/a>
+    &lt;p>多選自定義欄位的選定選項現在以一致、可預測的順序在舊版清單和報告上顯示。&lt;/p>
+    &lt;/td>
+    &lt;td>&lt;p>2026年7月30日&lt;/p>&lt;/td>
+    &lt;td>&lt;p>8月13日， 2026&lt;/p>&lt;/td>
+    &lt;td>&lt;p>2026年10月15日&lt;/p>&lt;/td>
+    &lt;/tr>
+    &lt;/tbody>
+
+    
+    
+    
+    </table>
 
 ### 資源管理增強功能
 
@@ -354,6 +518,24 @@ ht-degree: 3%
             <td><strong>預覽</strong></td>
             <td><strong>快速發行</strong></td>
             <td><strong>每季</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">增強型清單更新</a>
+                <p>在表格上新增列的按鈕已在格線內移動，而清單上方的「欄」選項現在包含搜尋欄位。</p>
+            </td>
+            <td><p>2026年9月3日</p></td>
+            <td><p>2026年9月17日</p></td>
+            <td><p>2026年10月15日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">多個畫面已更新為增強型清單</a>
+                <p>「設定」、「檔案」和「情境規劃工具」中的數個清單現在使用增強型清單格式。</p>
+            </td>
+            <td><p>2026年9月3日</p></td>
+            <td><p>2026年9月17日</p></td>
+            <td><p>2026年10月15日</p></td>
         </tr>
            <tr>
             <td>

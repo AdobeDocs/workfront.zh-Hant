@@ -21,7 +21,7 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 26b9239894d071fa5a3a0e185f935091e9e7ad13
 workflow-type: tm+mt
 source-wordcount: 1705
 ht-degree: 1%
@@ -209,6 +209,9 @@ Old:
 
    ![專案圖示和上次發佈日期](assets/project-icons-and-last-published-date-in-publish-initiative-page-350x63.png)
 
+   <!--
+    1. <span class="preview">(Optional) In the Publish initiatives page, hover over the project icon ![Project icon](assets/project-icon-sp.png), then click the **More** menu ![More menu](assets/more-menu.png) > **Open project**. The project opens in a new browser tab.</span>
+    -->
 1. （選擇性和條件式）如果您想要從現有計畫發佈，請按一下計畫右上角的&#x200B;**[!UICONTROL 篩選器]**&#x200B;圖示![篩選器圖示](assets/filter-nwepng.png)，並選取下列其中一個選項：
 
    <table style="table-layout:auto"> 
@@ -316,7 +319,7 @@ Old:
 
    * **專案**&#x200B;之[!UICONTROL 商業案例]的[!UICONTROL 資源預算]區域：專案[!UICONTROL 商業案例]的[!UICONTROL 資源預算]區域新增了使用[!DNL Scenario Planner]資訊管理專案資源的新選項。
 
-     如需詳細資訊，請參閱[!UICONTROL 業務案例]中使用 [!DNL Scenario Planner][&#128279;](../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的預算資源。
+     如需詳細資訊，請參閱[!UICONTROL 業務案例]中使用 [!DNL Scenario Planner]&#x200B;[&#128279;](../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)的預算資源。
 
      ![業務案例中的情境規劃工具](assets/sp-in-business-case-selected-350x110.png)
 

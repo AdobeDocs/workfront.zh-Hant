@@ -17,14 +17,16 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 94f14afac621d7a0e41daceeb8eb7a5d2682f911
 workflow-type: tm+mt
-source-wordcount: 346
-ht-degree: 9%
+source-wordcount: 409
+ht-degree: 7%
 
 ---
 
 # 註冊Webhook整合
+
+{{highlighted-preview}}
 
 Adobe Workfront管理員可透過導覽至Workfront中的「設定>檔案>自訂整合」，為其公司新增自訂webhook整合。 在「設定」的「自訂整合」頁面中，管理員可以檢視現有檔案Webhook整合的清單。 您可以在此頁面新增、編輯、啟用和停用整合。
 
@@ -56,7 +58,7 @@ Adobe Workfront管理員可透過導覽至Workfront中的「設定>檔案>自訂
   </tr> 
   <tr> 
    <td>要求引數</td> 
-   <td> <p>附加至每個 API 呼叫的 querystring 的選用值。例如，access_type </p> </td> 
+   <td> <p>要附加到每個API呼叫的querystring的選用值。 例如，access_type=offline。 </p> </td> 
   </tr> 
   <tr> 
    <td>驗證類型</td> 
@@ -85,6 +87,14 @@ Adobe Workfront管理員可透過導覽至Workfront中的「設定>檔案>自訂
   <tr> 
    <td>ApiKey</td> 
    <td> <p>（僅限ApiKey）用來對webhook提供者進行授權的API呼叫。 webhook提供者所發行的API金鑰。</p> </td> 
+  </tr> 
+  <tr class="preview"> 
+   <td>啟用大型檔案的區塊上傳</td> 
+   <td> <p>選取此核取方塊可為25 MB以上的檔案啟用多部分（區塊）上傳。 若未選取，無論檔案大小，都會以單一請求上傳檔案。</p> </td> 
+  </tr> 
+  <tr class="preview"> 
+   <td>區塊上傳臨界值 (MB)</td> 
+   <td> <p>分割大型檔案以供上傳時，每個區塊的大小上限（以MB為單位）。 接受最多100 MB的值。</p> </td> 
   </tr> 
  </tbody> 
 </table>

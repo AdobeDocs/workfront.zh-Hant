@@ -8,18 +8,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 69233499-fbcb-44a4-a247-d5051f9bc8b9
-source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
+source-git-commit: d0464b7f055b9351ba5c3353c7e806c51008e30b
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 5%
+source-wordcount: '396'
+ht-degree: 3%
 
 ---
 
 # 設定位置
 
+{{preview-fast-release-general}}
+
 您可以設定預設位置，以指派為費率卡中工作角色的屬性。 這可確保費率卡準確反映每個位置的市場費率。
 
-費率卡可讓您的組織輕鬆管理專案的收費率。 如需詳細資訊，請參閱[管理費率卡](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)。
+費率卡可讓您的組織輕鬆管理專案的收費率。 如需詳細資訊，請參閱[管理費率卡](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)和[定義費率屬性](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)。
 
 ## 存取權要求
 
@@ -53,10 +55,13 @@ ht-degree: 5%
 {{step-1-to-setup}}
 
 1. 在左側面板中，按一下&#x200B;[!UICONTROL **位置**]。
-1. 按一下清單底部的&#x200B;[!UICONTROL **新增更多位置**]。
+1. 在生產環境中，按一下清單底部的&#x200B;[!UICONTROL **新增更多位置**]。
+   <span class="preview">在預覽環境中，按一下清單底部的&#x200B;[!UICONTROL **新增列**]。</span>
+
 1. 輸入地點名稱和說明。
-1. 按一下輸入區域外部以儲存位置。
-1. 若要刪除位置，請在清單中選取該位置，然後按一下&#x200B;**刪除**&#x200B;圖示![刪除](assets/delete.png)。
+1. 按一下列外部以儲存位置。
+1. 若要刪除生產環境中的位置，請在清單中選取該位置，然後按一下&#x200B;**刪除**&#x200B;圖示![刪除](assets/delete.png)。
+   <span class="preview">若要刪除預覽環境中的位置，請在清單中選取該位置，然後按一下畫面底部動作列中的&#x200B;[!UICONTROL **刪除**]。</span>
 
 >[!NOTE]
 >
@@ -73,12 +78,18 @@ ht-degree: 5%
 {{step-1-to-setup}}
 
 1. 在左側面板中，按一下&#x200B;[!UICONTROL **位置**]。
-1. 在清單中選取現有的位置，然後按一下[新增子位置] **&#x200B;**。
+1. 在生產環境中，選取清單中的現有位置，然後按一下[新增子位置] [!UICONTROL **&#x200B;**]。
+   <span class="preview">在預覽環境中，選取清單中的現有位置，然後按一下熒幕底部動作列中的&#x200B;[!UICONTROL **新增子位置**]。</span>
+
 1. 輸入地點名稱和說明。
 1. 按一下輸入區域外部以儲存位置。
 
    子位置會縮排在頂層位置下。
 
+   生產環境中的影像範例：
    ![位置和子位置](assets/locations-sublocations.png)
+
+   在預覽環境中<span class="preview">範例影像：</span>
+   ![位置和子位置](assets/locations-sublocations-082526.png)
 
 

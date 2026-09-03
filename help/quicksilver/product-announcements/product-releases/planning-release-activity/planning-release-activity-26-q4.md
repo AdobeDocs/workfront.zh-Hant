@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f2a7d09bbf25685395dc97f67bfde87a5d006aea
+source-git-commit: 3f0a939e9de6436117fcb8242449793dcef73205
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1770'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,79 @@ ht-degree: 0%
 本文介紹2026年第四季發行的Workfront Planning功能。
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 從表格檢視中的主要欄位欄管理記錄縮圖和顏色的可見性
+
+>[!NOTE]
+>
+>預覽： 2026年9月3日
+>生產快速發行： 2026年9月17日
+>適用於所有人的生產： 2026年10月15日
+
+您現在可以在編輯表格檢視中的主要欄位欄時，管理記錄縮圖和顏色的可見度。
+
+透過此更新，將從表格檢視工具列的「欄位」圖示中移除「縮圖」和「顏色」設定。
+
+如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)。
+
+## 建立記錄型別的商業規則
+
+>[!NOTE]
+>
+>預覽： 2026年9月3日
+>生產快速發行： 2026年9月17日
+>適用於所有人的生產： 2026年10月15日
+
+身為工作區管理員，您現在可以設定記錄型別的商業規則，以便稍後反映該型別記錄的管理方式。 您可以定義規則，讓使用者只有在符合特定條件或填入特定欄位時，才能編輯或刪除記錄。
+
+您可以為商業規則建立條件，該條件會參考以下欄位型別以外的所有欄位型別：
+
+* 公式欄位
+* 查詢欄位
+* 參考欄位
+
+您無法將商業規則新增至全域記錄型別。
+
+如需詳細資訊，請參閱[設定記錄型別商業規則](/help/quicksilver/planning/architecture/configure-business-rules.md)。
+
+>[!NOTE]
+>
+>透過這項更新，記錄型別的「更多」選單中的下列選單選項也已經更新：
+>
+>* **建立請求表單**&#x200B;和&#x200B;**管理請求表單**&#x200B;已變更為&#x200B;**請求表單**
+>* **管理自動化**&#x200B;已變更為&#x200B;**自動化**
+
+## 介紹時間軸檢視的自訂周數
+
+>[!NOTE]
+>
+>預覽： 2026年9月3日
+>生產快速發行： 2026年9月17日
+>適用於所有人的生產： 2026年10月15日
+
+身為Workfront管理員，您現在除了自訂季度之外，還可以設定自訂周數。 自訂周數和季度數可從Workfront Planning時間表檢視中檢視。 Workfront會在自訂第1季開始時，產生從第1週開始的連續周。
+
+您可以自訂時間軸檢視中顯示的周標籤。 您可以選擇預先定義的格式或輸入自訂格式。
+
+自訂周數在Workfront中不可見。 它們只顯示在Workfront Planning時間表檢視中。
+
+如需詳細資訊，請參閱[啟用自訂季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
+
+## 相依已連線記錄欄位的篩選器
+
+>[!NOTE]
+>
+>預覽： 2026年9月3日
+>生產快速發行： 2026年9月17日
+>適用於所有人的生產： 2026年10月15日
+
+現在當您在Planning中新增相依連線時，可以篩選符合篩選條件的特定記錄型別。
+
+相依性連線欄位不提供所有記錄型別，而是隻顯示符合篩選條件的記錄型別。
+
+針對此功能，我們在連線記錄型別時，在「新連線」索引標籤中新增了記錄篩選規則選項。
+
+如需詳細資訊，請參閱[管理相依連線](/help/quicksilver/planning/architecture/manage-dependent-connections.md)。
 
 ## 摺疊和展開時間軸檢視中的所有群組
 

@@ -23,14 +23,16 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: a25b6618c135eeb0de067a6cee16e461f44183b8
 workflow-type: tm+mt
-source-wordcount: 1744
+source-wordcount: 1856
 ht-degree: 1%
 
 ---
 
 # 設定[!DNL SharePoint]整合
+
+{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -127,6 +129,17 @@ ht-degree: 1%
 
 1. 按一下「**儲存**」。
 
+## 檢視和管理SharePoint整合
+
+若要檢視及管理您組織的[!DNL SharePoint]整合：
+
+1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![設定圖示](/help/_includes/assets/gear-icon-setup.png)。
+1. 在左側導覽中選取&#x200B;**[!UICONTROL 檔案]**，然後選取&#x200B;**[!UICONTROL [!DNL SharePoint]整合]**。
+
+   貴組織的[!DNL SharePoint]整合清單隨即顯示。
+
+1. （選擇性）若要編輯[!DNL SharePoint]整合，請選取其旁邊的核取方塊，然後按一下熒幕</span>底部藍色列中的&#x200B;**[!UICONTROL 編輯]** <span class="preview">。
+1. <span class="preview"> （選擇性）若要停用[!DNL SharePoint]整合，請選取其旁邊的核取方塊，然後按一下畫面底部藍色列中的&#x200B;**[!UICONTROL 停用]**。</span>
 
 ## [!DNL SharePoint]整合的安全性、存取和授權資訊
 

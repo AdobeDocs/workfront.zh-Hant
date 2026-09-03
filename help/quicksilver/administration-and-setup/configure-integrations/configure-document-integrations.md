@@ -21,14 +21,16 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 94f14afac621d7a0e41daceeb8eb7a5d2682f911
 workflow-type: tm+mt
-source-wordcount: 1111
+source-wordcount: 1184
 ht-degree: 4%
 
 ---
 
 # 設定文件整合
+
+{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -97,14 +99,14 @@ ht-degree: 4%
 
 * 協力廠商雲端檔案提供者：
 
-   * [!DNL Box]
-   * [!DNL Dropbox]
-   * [!DNL Dropbox Business]
-   * [!DNL WebDAM]
-   * [!DNL Microsoft OneDrive]
-   * [!DNL Microsoft SharePoint]
-   * [!UICONTROL Google磁碟機]
-   * Quip
+  * [!DNL Box]
+  * [!DNL Dropbox]
+  * [!DNL Dropbox Business]
+  * [!DNL WebDAM]
+  * [!DNL Microsoft OneDrive]
+  * [!DNL Microsoft SharePoint]
+  * [!UICONTROL Google磁碟機]
+  * Quip
 
   >[!TIP]
   >
@@ -206,6 +208,8 @@ ht-degree: 4%
 
    [!DNL Workfront]使用此API金鑰對檔案提供者進行授權的API呼叫。
 
+1. <span class="preview">（選擇性）若要啟用大型檔案支援，請在&#x200B;**[!UICONTROL 大型檔案支援]**&#x200B;區段中選取&#x200B;**[!UICONTROL 啟用大型檔案的區塊上傳]**，然後在&#x200B;**[!UICONTROL 區塊上傳臨界值(MB)]**&#x200B;欄位中輸入最大區塊大小(MB)。 此欄位接受最多100 MB的值。 啟用時，超過25 MB的檔案會以這種大小的區塊上傳，而不是以單一請求上傳。</span>
+
 1. 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以建立整合。
 
 ## 使用檔案整合
@@ -266,9 +270,9 @@ ht-degree: 4%
 ### Google Drive整合
 
 * 將連結資料夾新增至Workfront時，資料夾中的檔案不再自動新增。
-   * 您可以將Google資料夾新增至Workfront （不含檔案），然後將個別檔案新增至Workfront。這些檔案會自動新增至Workfront中的Google資料夾。
-或
-   * 您可以在Workfront中建立「檔案」資料夾，然後選取Google資料夾中的所有檔案，並將它們新增至Workfront資料夾。
+  * 您可以將Google資料夾新增至Workfront （不含檔案），然後將個別檔案新增至Workfront。 這些檔案會自動新增至Workfront中的Google資料夾。
+    或
+  * 您可以在Workfront中建立「檔案」資料夾，然後選取Google資料夾中的所有檔案，並將它們新增至Workfront資料夾。
 
 
 * Google Drive檔案整合支援從Google Drive的「我的磁碟機」區域新增檔案。 您無法從共用磁碟機新增資料夾或影像。 深入瞭解[Google共用磁碟機](https://support.google.com/a/users/answer/7212025?hl=en)。

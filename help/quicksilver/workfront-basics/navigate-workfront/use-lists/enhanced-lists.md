@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+source-git-commit: ebf8d5ed1eb0b49315bbe10718c5065fcc871654
 workflow-type: tm+mt
-source-wordcount: 3202
+source-wordcount: 3318
 ht-degree: 1%
 
 ---
@@ -74,18 +74,31 @@ Adobe Workfront的部分割槽域提供增強型清單。 這些清單使用表�
 | --- | --- |
 | 優先順序 | <ul><li>首頁>選取左側功能表中的「優先順序」圖示</li><li>主要功能表>優先順序</li></ul> |
 | 請求清單 | <ul><li>請求（僅限新體驗）</li><li>首頁上的我的請求Widget</li></ul> |
-| 設定中的狀態、優先順序、嚴重程度和匯率清單 | <ul><li>設定>專案偏好設定>狀態</li><li>設定>專案偏好設定>優先順序</li><li>設定>專案偏好設定>嚴重程度</li><li>設定>專案偏好設定>匯率</li></ul> |
-| 報告清單 | 報告（**使用可共用的資料夾**&#x200B;必須開啟） |
+| 安裝程式的狀態、優先順序、嚴重性、<span class="preview">條件</span>和匯率清單 | <ul><li>設定>專案偏好設定>狀態</li><li>設定>專案偏好設定>優先順序</li><li>設定>專案偏好設定>嚴重程度</li><li><span class="preview">設定>專案偏好設定>條件</span></li><li>設定>專案偏好設定>匯率</li></ul> |
+| <span class="preview">更新摘要中的動作和追蹤欄位清單</span> | <ul><li><span class="preview">設定>介面>更新摘要>追蹤的欄位索引標籤</span></li> <li><span class="preview">設定>介面>更新摘要>動作標籤</span></li></ul> |
+| <span class="preview">計分卡清單</span> | <span class="preview">設定>計分卡</span> |
+| <span class="preview">風險型別清單</span> | <span class="preview">設定>風險型別</span> |
 | 費率卡上的職務角色和費率清單 | 設定>費率卡>選取費率卡>職務角色與費率 |
+| <span class="preview">位置清單</span> | <span class="preview">設定>位置</span> |
 | 翻譯清單 | 設定>本地化 |
+| <span class="preview">整合清單</span> | <ul><li><span class="preview">設定>檔案> SharePoint整合</span></li><li><span class="preview">設定>檔案>自訂整合</span></li></ul> |
+| 報告清單 | 報告（**使用可共用的資料夾**&#x200B;必須開啟） |
 | 快照清單 | 專案>快照 |
 | 計費的資源清單 | 專案>計費資源 |
 | 在任務中新增進階指派 | 任務>工作總攬>進階 |
+| <span class="preview">檔案的所有版本檢視</span> | <span class="preview">專案>檔案>檔案詳細資訊>所有版本</span> |
 | 面板管理員檢視 | 面板>管理員檢視 |
 | Adobe雲端儲存空間上的檔案 | 專案，任務，問題，投資組合，方案，範本，範本任務>檔案 |
+| <span class="preview">情境計畫和方案的清單</span> | <span class="preview">主要功能表>案例</span> |
+| <span class="preview">目標和進度指標清單</span> | <ul><li><span class="preview">主要功能表>目標</span></li><li><span class="preview">主要功能表>目標>進度指示器</span></li></ul> |
+
 <!--
-Add this BEFORE a list of reports in the table above:
-| <span class="preview">List of actions in the Update Feeds</span> | <span class="preview">Setup > Interface > Update Feeds > Actions tab</span> |
+
+Last bullet in "Lists of integrations" <li><span class="preview">Setup > Documents > Experience Manager Assets</span></li>
+
+Under Locations?
+| <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
+
 -->
 
 ## 將專案新增至增強型清單
@@ -164,9 +177,16 @@ Add this BEFORE a list of reports in the table above:
 
 1. 按一下清單上方的&#x200B;**欄**。
 
+   生產環境中的影像範例：
    ![顯示資料行範例](assets/glist-display-move-columns.png)
 
+   在預覽環境中<span class="preview">範例影像：</span>
+   ![顯示資料行範例](assets/display-columns-090126.png)
+
 1. 使用切換來顯示或隱藏清單中的欄。
+
+<span class="preview">您可以在搜尋方塊中搜尋欄。</span>
+
 1. 若要重新排序欄，請按一下&#x200B;**拖曳**&#x200B;圖示![拖曳圖示](assets/drag-icon.png)並將欄移至您想要的位置。 移動欄會自動變更清單。
 
    >[!NOTE]
