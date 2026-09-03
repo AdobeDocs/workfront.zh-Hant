@@ -9,20 +9,14 @@ exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/OoGv4oNg6GkKeo-zoVi5lSxtPK3UE64-EYW21Mz7GRA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c83b252faf7791c51475c5b82ca03cb4ee29bfc0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c637cfabefebf01868ae0dd020d95bcce50b38e2
 workflow-type: tm+mt
-source-wordcount: 2406
+source-wordcount: 2662
 ht-degree: 1%
 
 ---
@@ -101,6 +95,11 @@ ht-degree: 1%
    <td><strong>新增姓名或電子郵件</strong></td>
    <td>開始輸入使用者或團隊名稱，以新增為核准者或稽核者。 如果您只有稽核者，他們將會收到通知並可以選擇完成稽核，但不需要或做出任何決定。</td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>在預覽中新增人員或團隊</strong></span></td>
+   <td><span class="preview">開始輸入使用者名稱、團隊或電子郵件地址。 依預設，專案團隊會新增為單一核准者或檢閱，但您可以選擇將每個專案團隊成員新增為個別參與者。 <br>
+   注意：如果使用者已經新增，或屬於您新增的多個團隊，則會納入一次。</span></td>
+   </tr>
    <tr>
    <td><strong>只需要一個決定（選擇性）</strong></td>
    <td>第一個做出決定的人會完成階段。</td>
@@ -120,6 +119,10 @@ ht-degree: 1%
 1. 按一下&#x200B;**要求核准**。
 
    ![在基本模式下要求核准](assets/request-approval-basic.jpeg)
+
+   <!-- 
+   preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
+   -->
 
 ### 建立進階核准工作流程
 
@@ -154,6 +157,11 @@ ht-degree: 1%
    <td><strong>新增姓名或電子郵件</strong></td>
    <td>開始輸入使用者或團隊名稱，以新增為核准者或稽核者。 如果您只有稽核者，他們將會收到通知並可以選擇完成稽核，但不需要或做出任何決定。<p>附註：一次只能將檢閱者或核准者指派給相同資產上的一個開啟階段。 如果同時開啟多個平行階段，則無法將同一個使用者新增至多個階段。</p></td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>在預覽中新增人員或團隊</strong></span></td>
+   <td><span class="preview">開始輸入使用者名稱、團隊或電子郵件地址。 依預設，專案團隊會新增為單一核准者或檢閱，但您可以選擇將每個專案團隊成員新增為個別參與者。 <br>
+   注意：如果使用者已經新增，或屬於您新增的多個團隊，則會納入一次。 此外，參與者一次只能被指派到相同資產上的一個開啟階段。</span></td>
+   </tr>
    <tr>
    <td><strong>只需要一個決定（選擇性）</strong></td>
    <td>第一個做出決定的人會完成階段。</td>
@@ -175,6 +183,10 @@ ht-degree: 1%
 1. （選用）若要移除路徑，請將游標移至路徑標籤，然後按一下垃圾桶圖示。 **路徑1**&#x200B;無法移除，且路徑無法重新排序。 只有在路徑中沒有鎖定或完成的階段時，才能移除其他路徑。
 
    ![具有平行路徑的進階模式](assets/request-approval-parallel-paths.jpeg)
+
+<!-- preview screen
+   ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
+-->
 
 1. （選擇性）若要清除所有路徑和階段並重新開始，請按一下右上方的&#x200B;**重設**。
 
@@ -210,6 +222,11 @@ ht-degree: 1%
    <td><strong>新增姓名或電子郵件</strong></td>
    <td>開始輸入使用者名稱或電子郵件，以新增為核准者或稽核者。 如果您只有稽核者，他們將會收到通知並可以選擇完成稽核，但不需要或做出任何決定。</td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>在預覽中新增人員或團隊</strong></span></td>
+   <td><span class="preview">開始輸入使用者名稱、團隊或電子郵件地址，然後選擇他們是<strong>核准者</strong>或<strong>檢閱者</strong>。 Workfront會個別新增團隊的每個作用中成員。 <br>
+   注意：如果使用者已經新增，或屬於您新增的多個團隊，則會納入一次。</span></td>
+   </tr>
    <tr>
    <td><strong>只需要一個決定（選擇性）</strong></td>
    <td>第一個做出決定的人會完成階段。</td>
@@ -227,6 +244,12 @@ ht-degree: 1%
 1. 按一下&#x200B;**要求核准**。
 
    ![在基本模式下要求核准](assets/request-approval-basic.jpeg)
+
+   <!-- 
+   preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
+   -->
+
+
 
 >[!NOTE]
 >
@@ -267,6 +290,11 @@ ht-degree: 1%
    <td><strong>新增姓名或電子郵件</strong></td>
    <td>開始輸入使用者名稱或電子郵件，以新增為核准者或稽核者。 如果您只有稽核者，他們將會收到通知並可以選擇完成稽核，但不需要或做出任何決定。<p>附註：一次只能將檢閱者或核准者指派給相同資產上的一個開啟階段。 如果同時開啟多個平行階段，則無法將同一個使用者新增至多個階段。</p></td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>在預覽中新增人員或團隊</strong></span></td>
+   <td><span class="preview">開始輸入使用者名稱、團隊或電子郵件地址，然後選擇他們是<strong>核准者</strong>或<strong>檢閱者</strong>。 Workfront會個別新增團隊的每個作用中成員。 <br>
+   注意：如果使用者已經新增，或屬於您新增的多個團隊，則會納入一次。 此外，參與者一次只能被指派到相同資產上的一個開啟階段。</span></td>
+   </tr>
    <tr>
    <td><strong>只需要一個決定（選擇性）</strong></td>
    <td>第一個做出決定的人會完成階段。</td>
@@ -289,6 +317,10 @@ ht-degree: 1%
 1. （選用）若要移除路徑，請將游標移至路徑標籤，然後按一下垃圾桶圖示。 **路徑1**&#x200B;無法移除，且路徑無法重新排序。 只有在路徑中沒有鎖定或完成的階段時，才能移除其他路徑。
 
    ![具有平行路徑的進階模式](assets/request-approval-advanced.jpeg)
+
+   <!-- preview screen
+   ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
+   -->
 
 1. （選擇性）若要清除所有路徑和階段並重新開始，請按一下右上方的&#x200B;**重設**。
 
