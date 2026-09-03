@@ -9,25 +9,21 @@ exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/OoGv4oNg6GkKeo-zoVi5lSxtPK3UE64-EYW21Mz7GRA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c9558f7de0e2f625c8426187436f2ea5cdeabb92
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c83b252faf7791c51475c5b82ca03cb4ee29bfc0
 workflow-type: tm+mt
-source-wordcount: 2227
+source-wordcount: 2406
 ht-degree: 1%
 
 ---
 
 # 建立檔案核准工作流程
+
+{{highlighted-preview}}
 
 您可以在Adobe Workfront中請求其他使用者或團隊核准檔案，或請求他們稽核檔案而無需核准。
 
@@ -291,6 +287,30 @@ ht-degree: 1%
 1. （選擇性）若要清除所有路徑和階段並重新開始，請按一下右上方的&#x200B;**重設**。
 
 1. 按一下&#x200B;**要求核准**。
+
+<div class="preview">
+
+## 在預覽中的新檔案區域中檢視先前版本的核准工作流程
+
+如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的檔案區域。 如需Adobe雲端儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+
+「核准」面板僅列出具有核准工作流程的檔案版本。
+
+若要檢視先前版本的核准工作流程：
+
+1. 前往包含檔案的專案、任務或問題，然後在左側面板中選取&#x200B;**檔案**。
+1. 按一下檔案，然後按一下頁面右側的&#x200B;**核准**&#x200B;圖示。
+
+   ![在檔案摘要中新增核准者](assets/approvals-icon-new.png)
+
+1. 按一下版本以將其展開。 您可以檢視其階段、每位核准者的決定、階段的決定規則（例如完成階段是否只需要一個決定）以及到期日。
+1. 按一下其他版本，展開其核准工作流程，而不離開面板。
+
+   >[!NOTE]
+   >
+   >如果因為請求較新版本的核准而撤回了版本的核准工作流程，該工作流程會保留在清單中、摺疊，因此您仍可檢閱其先前的決策。
+
+</div>
 
 <!--
 ## Resubmit an approval on a new version
