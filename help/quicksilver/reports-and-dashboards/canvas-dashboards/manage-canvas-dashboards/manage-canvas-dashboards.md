@@ -10,15 +10,12 @@ exl-id: 3e36ddc8-2552-4449-9c3a-3720e0af590b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/TpPiROUIMs1tDz3BCYNOA-Zr6RkIttxQSmj-dIAKQrY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 76a1cd19239fa701e462f5abcc7f3b0e64136501
 workflow-type: tm+mt
-source-wordcount: 85
+source-wordcount: 89
 ht-degree: 0%
 
 ---
@@ -36,6 +33,7 @@ ht-degree: 0%
 * [在畫布儀表板中使用貨幣欄位](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md)
 * [篩選畫布控制面板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)
 * [變更畫布控制面板的名稱或說明](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
+* [複製畫布控制面板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/duplicate-a-canvas-dashboard.md)
 * [刪除畫布控制面板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
 * [將畫布儀表板新增到版面配置範本](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template.md)
 
