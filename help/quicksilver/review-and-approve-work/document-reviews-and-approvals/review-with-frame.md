@@ -10,21 +10,19 @@ exl-id: 3190ad18-180e-42e5-aa10-bdad74303d3d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/0ZlRTte93Fl8omBRbQH5ZkA-pr533lkPA9QvWY3d5H4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 0f42eb9e5d6723849e668e3cd29fad36d43294c3
 workflow-type: tm+mt
-source-wordcount: 540
+source-wordcount: 626
 ht-degree: 3%
 
 ---
 
 # 使用Frame.io檢視器檢閱並核准
+
+{{highlighted-preview}}
 
 您可以使用Frame.io檢視器在Workfront中檢閱和核准檔案。
 
@@ -80,14 +78,14 @@ ht-degree: 3%
 
 1. 移至您的檢閱電子郵件通知，然後按一下&#x200B;**移至檢閱**。
 或
-前往Workfront首頁，尋找「我的核准」Widget，然後按一下&#x200B;**開啟稽核**。
+前往Workfront首頁，尋找「我的核准」Widget，然後按一下**開啟稽核**。
 
    >[!NOTE]
    > 
    >您可能需要將我的核准Widget新增到您的首頁。 如需詳細資訊，請參閱[新增、編輯或移除首頁中的Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)。
 
 1. 在Frame.io中，使用註解工具提供意見或提出問題。
-註解與資產標籤只會顯示在Frame.io檢視器中。評論不會顯示在Workfront中。如需使用Frame.io檢視器的詳細資訊，請參閱[在您的媒體上發表評論](https://help.frame.io/en/articles/9105251-commenting-on-your-media)。
+註解與資產標籤只會顯示在Frame.io檢視器中。 評論不會顯示在Workfront中。 <span class="preview">但是，Workfront中檔案的註解面板會顯示註解，其中包含註解的計數（計數可用時），以及開啟Frame.io檢視器並讀取註解的連結。</span> 如需使用Frame.io檢視器的詳細資訊，請參閱[在您的媒體上發表評論](https://help.frame.io/en/articles/9105251-commenting-on-your-media)。
 1. 在您滿意檔案後，請導覽回Workfront中的「檔案詳細資訊」頁面，並將您的檢閱標籤為完成。
 
    ![標示評論完成](assets/mark-review-complete.png)
@@ -102,7 +100,7 @@ ht-degree: 3%
 
 1. 移至您的檢閱電子郵件通知，然後按一下&#x200B;**移至檢閱**。
 或
-前往Workfront首頁，尋找「我的核准」Widget，然後按一下&#x200B;**開啟稽核**。
+前往Workfront首頁，尋找「我的核准」Widget，然後按一下**開啟稽核**。
 
    >[!NOTE]
    > 
@@ -110,6 +108,12 @@ ht-degree: 3%
 
 
 1. 在Frame.io中，使用註解工具提供意見或提出問題。 註解與資產標示只會顯示在Frame.io檢視器中。 如需使用Frame.io檢視器的詳細資訊，請參閱[在您的媒體上發表評論](https://help.frame.io/en/articles/9105251-commenting-on-your-media)。
+
+   >[!NOTE]
+   >
+   > <span class="preview">在預覽中，Workfront中的「註解」面板會顯示訊息，讓您知道Frame.io中有新註解時。</span>
+
+
 1. 一旦您對檔案滿意，就可以在Frame.io檢視器中選擇下列其中一項決定：
 
    * **核准**：資產不需要變更，而且已可供使用。

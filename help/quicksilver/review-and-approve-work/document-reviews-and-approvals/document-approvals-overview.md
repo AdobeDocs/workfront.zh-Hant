@@ -10,22 +10,20 @@ exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/P-naBIVBoFQcBaL4Zgo0cEOTQ8eErxqr0MBmHTbec9E
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 0f42eb9e5d6723849e668e3cd29fad36d43294c3
 workflow-type: tm+mt
-source-wordcount: 4323
+source-wordcount: 4442
 ht-degree: 0%
 
 ---
 
 # 統一檢閱和核准總覽
+
+{{highlighted-preview}}
 
 統一的稽核和核准將Adobe Workfront和Adobe Frame.io整合為單一、深度連結的體驗，消除行銷管理、創意稽核和內容傳送之間的差距。
 專案專員在Workfront中管理工作，而創意人員、行銷人員和利害關係人則在專業級Frame.io檢視器中稽核及核准資產，所有這一切都無需在中斷連線的工具之間移動檔案。
@@ -87,7 +85,7 @@ Adobe雲端儲存空間的主要優點包括：
 
 #### Frame.io檢視器中支援的檔案型別
 
-Frame.io檢視器支援所有常見的視訊、影像、音訊、PDF和MS® Office型別。 如需支援檔案的詳細清單，請參閱Frame.io[&#128279;](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的支援的檔案型別。
+Frame.io檢視器支援所有常見的視訊、影像、音訊、PDF和MS® Office型別。 如需支援檔案的詳細清單，請參閱Frame.io](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的[支援的檔案型別。
 
 #### Frame.io檢視器的存取與授權
 
@@ -348,6 +346,18 @@ Frame.io檢視器包含完整的視覺標籤工具，包括手繪繪圖和標準
 **在Frame.io檢視器中所做的評論是否會出現在Workfront專案中？**
 
 註解與註解會保留在Frame.io檢視器中，以便保留完整的上下文，包括時間戳記與視覺標籤。 這在未來版本中可能會演變。
+
+<span class="preview">
+
+在預覽中，Workfront中的「註解」面板會顯示訊息，讓您知道Frame.io中有新註解時。</span>
+
+<div class="preview">
+
+**誰能在Workfront中看到Frame.io註解指標？**
+
+只有可以在Frame.io中看到這些註解的使用者才能看到指標。 如果您有Frame.io Enterprise授權，您會在檔案上看見任何註解。 如果您沒有Frame.io Enterprise授權，您只會在該檔案有核准後才看到它。 核准也會讓您看到檔案上所有先前的註解。
+
+</div>
 
 **是否可以將註解新增至資產的下載版本（例如PDF）？**
 
