@@ -21,7 +21,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
 source-wordcount: 1373
 ht-degree: 1%
@@ -35,13 +35,9 @@ ht-degree: 1%
 <!--remove Preview and Production mentions from the article when this comes out live-->
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 您可以將「里程碑」檢視套用至專案清單或報告。 您可以使用「里程碑」檢視來檢視與您所檢視專案中任務相關聯的所有里程碑。
@@ -123,9 +119,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
   Workfront會依下列順序來排序第一區段中的專案：
 
-   1. 里程碑路徑ID。 您可以在里程碑路徑報告中檢視里程碑路徑ID。
+  1. 里程碑路徑ID。 您可以在里程碑路徑報告中檢視里程碑路徑ID。
 
-   2. 在您選取里程碑檢視之前，在先前套用至專案清單的檢視中，選取作為專案清單第一個排序欄位的欄位。
+  2. 在您選取里程碑檢視之前，在先前套用至專案清單的檢視中，選取作為專案清單第一個排序欄位的欄位。
 
 * 未與里程碑路徑相關聯的專案會顯示於下一個的「未指派」區段中。 在您選取「里程碑」檢視之前，Workfront會依先前套用至專案清單之檢視中，專案清單的第一個排序欄位所選取的欄位，來排序「未指派」區段中的專案。
 
@@ -140,9 +136,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
   如果您正在檢視計畫日期，並且您也擁有專案的「管理」存取權，您可以直接從「里程碑」檢視編輯下列日期：
 
-   * **專案開始日期：**&#x200B;如果專案是從開始日期開始排程，您可以手動變更專案的計劃開始日期，然後計算計畫完成日期。
-   * **專案完成日期：**&#x200B;如果專案是從計畫完成日期開始排程，您可以手動變更專案的計畫完成日期，然後計算計劃開始日期。
-   * **任務完成日期：**&#x200B;您可以直接從[里程碑]檢視手動更新任務的規劃完成日期。
+  * **專案開始日期：**&#x200B;如果專案是從開始日期開始排程，您可以手動變更專案的計劃開始日期，然後計算計畫完成日期。
+  * **專案完成日期：**&#x200B;如果專案是從計畫完成日期開始排程，您可以手動變更專案的計畫完成日期，然後計算計劃開始日期。
+  * **任務完成日期：**&#x200B;您可以直接從[里程碑]檢視手動更新任務的規劃完成日期。
 
 * **完成百分比：**&#x200B;顯示每個任務和專案的完成百分比。
 
@@ -152,10 +148,10 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 * **任務進度狀態圖示：**&#x200B;下列是指示任務進度狀態的圖示：
 
-   * 準時 — 綠色
-   * 滯後 — 黃色
-   * 有風險 — 藍色
-   * 延遲 — 紅色
+  * 準時 — 綠色
+  * 滯後 — 黃色
+  * 有風險 — 藍色
+  * 延遲 — 紅色
 
   <!--
    * In the Production environment, the following status icons display next to each project and task in the Milestone view: 
@@ -177,33 +173,33 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 * **已完成任務的任務狀態著色**：任務被標籤為「完成」之後，任務的背景會在「里程碑」檢視中著色，以指出任務是準時完成還是延遲完成：
 
-   * **工作資料行**&#x200B;的紅色陰影：當進度狀態為&#x200B;**延遲**&#x200B;時，工作的背景為紅色。
+  * **工作資料行**&#x200B;的紅色陰影：當進度狀態為&#x200B;**延遲**&#x200B;時，工作的背景為紅色。
 
-   * **工作資料行**&#x200B;的綠色陰影：當進度狀態為&#x200B;**開啟時間**&#x200B;時，工作的背景為綠色。
+  * **工作資料行**&#x200B;的綠色陰影：當進度狀態為&#x200B;**開啟時間**&#x200B;時，工作的背景為綠色。
 
 * **專案開始和完成資料行的專案狀態陰影效果**：
 
-   * **專案開始欄**：專案開始欄的背景為紅色或綠色，但必須填入實際開始日期：
+  * **專案開始欄**：專案開始欄的背景為紅色或綠色，但必須填入實際開始日期：
 
-      * **專案開始資料行**&#x200B;的紅色陰影：專案進度狀態為&#x200B;**延遲**&#x200B;時，專案開始資料行的背景為紅色。
+    * **專案開始資料行**&#x200B;的紅色陰影：專案進度狀態為&#x200B;**延遲**&#x200B;時，專案開始資料行的背景為紅色。
 
-      * **專案開始資料行**&#x200B;的綠色陰影：專案進度狀態為&#x200B;**開啟時間**&#x200B;時，專案開始資料行的背景為綠色。
+    * **專案開始資料行**&#x200B;的綠色陰影：專案進度狀態為&#x200B;**開啟時間**&#x200B;時，專案開始資料行的背景為綠色。
 
-     >[!TIP]
-     >
-     >您必須移至專案詳細資訊頁面才能檢視專案的實際開始日期。
+    >[!TIP]
+    >
+    >您必須移至專案詳細資訊頁面才能檢視專案的實際開始日期。
 
-   * **專案完成欄**： 「專案完成」欄的背景為紅色或綠色，但必須填入實際完成日期：
+  * **專案完成欄**： 「專案完成」欄的背景為紅色或綠色，但必須填入實際完成日期：
 
-      * **專案完成資料行的紅色陰影**：專案進度狀態為&#x200B;**延遲**&#x200B;時，專案完成資料行的背景為紅色。
+    * **專案完成資料行的紅色陰影**：專案進度狀態為&#x200B;**延遲**&#x200B;時，專案完成資料行的背景為紅色。
 
-      * **專案完成資料行的綠色陰影**：專案進度狀態為&#x200B;**準時**&#x200B;時，專案完成資料行的背景為綠色。
+    * **專案完成資料行的綠色陰影**：專案進度狀態為&#x200B;**準時**&#x200B;時，專案完成資料行的背景為綠色。
 
-     >[!TIP]
-     >
-     >您必須移至專案詳細資訊頁面才能檢視專案的實際完成日期。
+    >[!TIP]
+    >
+    >您必須移至專案詳細資訊頁面才能檢視專案的實際完成日期。
 
-   * 當任務的進度狀態為「有風險」或「落後」時，不會為「開始」和「完成」欄指定顏色陰影。
+  * 當任務的進度狀態為「有風險」或「落後」時，不會為「開始」和「完成」欄指定顏色陰影。
 
   <!--add new screen shot for preview or production release; logged a bug as this is not happening in the new view - if at prod this is still missing, hide this screen shot-->
 
@@ -212,9 +208,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 * **專案名稱**：專案名稱會顯示專案的連結。
 * **專案狀態圖示**：下列指標顯示專案狀態：
 
-   * 準時 — 綠色
-   * 有風險 — 黃色
-   * 存在問題 — 紅色
+  * 準時 — 綠色
+  * 有風險 — 黃色
+  * 存在問題 — 紅色
 
   <!--
    * In the Production environment, an icon displays next to the project name, indicating the condition of the project. The Condition of the project might be one of the following:

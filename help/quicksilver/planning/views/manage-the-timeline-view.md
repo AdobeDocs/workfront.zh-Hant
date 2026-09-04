@@ -19,14 +19,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 913081d2d8fc6ac2fbd5dd80ae1cc588d8ba7cbc
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 4518
+source-wordcount: 4584
 ht-degree: 1%
 
 ---
 
 # 管理時間表檢視
+
+<!--remove Production and Preview references at release-->
 
 <span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
 
@@ -233,7 +235,13 @@ Old:
 
      >[!TIP]
      >
-     >時間軸檢視只會根據傳統季度顯示會計周。 如果您的Workfront管理員在設定區域中開啟自訂季度，則時間軸檢視中不會顯示周資訊。
+     >根據您使用哪個環境來存取時間表檢視，以下是存在的案例：
+     >
+     >* 在生產環境中，時間軸檢視只會根據傳統季度顯示自訂周。 如果您的Workfront管理員在設定區域中開啟自訂季度，則時間軸檢視中不會顯示周資訊。
+     >
+     >* <span class="preview">在「預覽」環境中，依預設，時間軸檢視會根據傳統季度顯示自訂周數。 如果您的Workfront管理員在設定區域中開啟自訂季度和自訂周數，則時間表檢視會顯示季度和月份中的自訂季度和周數。</span>
+     >
+
 
 1. （選擇性）按一下&#x200B;**切換至精簡檢視**&#x200B;以顯示日期在同一行上不相交的記錄。<!--check to see if they updated the name of the setting here-->
 1. （視條件而定）如果您將模式變更為&#x200B;**緊密**，請按一下&#x200B;**切換至標準**&#x200B;檢視，以個別行顯示記錄。 **標準**&#x200B;選項是預設值。 <!--check to see if they updated the name of the setting here-->

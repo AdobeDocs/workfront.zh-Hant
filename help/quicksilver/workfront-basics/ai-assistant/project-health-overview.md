@@ -15,9 +15,9 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
 workflow-type: tm+mt
-source-wordcount: 2065
+source-wordcount: 2100
 ht-degree: 2%
 
 ---
@@ -26,7 +26,8 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->專案健康狀態功能目前僅適用於參與Beta階段的使用者。
+>* 從2026年9月開始，AI Assistant正在轉換成CX Co-worker，這是一個可輕鬆完成工作的對話式介面。 如需CX Co-worker的相關資訊，請參閱[&#x200B; CX Co-worker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
+>* 專案健康狀態功能目前僅適用於參與Beta階段的使用者。
 
 Adobe Workfront的專案運作狀態功能利用AI Assistant的強大功能，立即為您提供專案執行方式、需要您關注的領域以及如何避免可能會耗費您時間和金錢的問題的評估。
 
@@ -328,7 +329,7 @@ Workfront管理員建立專案健康情況設定後，如果您擁有專案的�
 
    >[!NOTE]
    >
-   >如果您從Workfront中的其他頁面存取AI小幫手，您可以輸入&#x200B;*專案[專案名稱]的狀況為何？*&#x200B;或&#x200B;*方案[方案名稱]的狀況為何？* <br>
+   >如果您是從Workfront中的其他頁面存取AI小幫手，您可以輸入&#x200B;*專案[專案名稱]的狀況如何？* 或&#x200B;*什麼是程式[程式名稱]的健全狀態？* <br>
    >如需您可以輸入的目前提示的完整清單，請參閱本文中的[AI助理提示清單](#ai-assistant-prompts-list)小節。
 
 1. 按一下&#x200B;**傳送**&#x200B;圖示![傳送圖示](assets/send-icon.png)。 專案健康狀態評估會產生，並顯示在面板中。 每個專案健康狀態評估頂端都會顯示徽章，反映專案的目前狀態。

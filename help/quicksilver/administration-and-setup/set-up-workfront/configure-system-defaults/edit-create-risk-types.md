@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 578
+source-wordcount: 646
 ht-degree: 5%
 
 ---
@@ -31,6 +31,12 @@ ht-degree: 5%
 <!--Audited: 03/2025-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
+
+<!--remove preview and production references-->
+
+<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 Adobe Workfront有許多預設風險型別，您可以在計畫階段與專案建立關聯，以在核准任何工作之前識別潛在障礙。
 
@@ -94,7 +100,7 @@ Adobe Workfront有許多預設風險型別，您可以在計畫階段與專案�
 
 1. 按一下&#x200B;**[!UICONTROL 風險型別]**。
 1. 選取您要編輯的風險型別。
-1. 按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
+1. 按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;圖示。
 
    [!UICONTROL **編輯風險型別**]&#x200B;方塊開啟。
 
@@ -110,18 +116,29 @@ Adobe Workfront有許多預設風險型別，您可以在計畫階段與專案�
 
 1. 按一下&#x200B;**[!UICONTROL 儲存變更]。**
 
-1. （選擇性）若要刪除風險型別，請在清單中選取它，然後按一下&#x200B;[!UICONTROL **刪除**]&#x200B;圖示![刪除圖示](assets/delete.png)，然後按一下&#x200B;[!UICONTROL **是，刪除**]。 風險型別已刪除，且無法復原。
+1. （選擇性）若要刪除風險型別，請在清單中選取它，然後按一下&#x200B;[!UICONTROL **刪除**]&#x200B;圖示，再按一下&#x200B;[!UICONTROL **是，刪除**]。 風險型別已刪除，且無法復原。
 
-1. （選擇性）若要匯出風險型別清單，請按一下&#x200B;[!UICONTROL **匯出**]&#x200B;圖示![匯出圖示](assets/export-icon.png)。 您可以匯出為下列檔案型別：
+1. （選擇性）若要匯出風險型別清單，請按一下&#x200B;[!UICONTROL **匯出**]&#x200B;圖示。 您可以匯出為下列檔案型別：
 
-   * PDF
-   * Excel
-   * Excel (xlsx)
-   * 頁籤分隔檔
+   * 在生產環境中：
+
+     * PDF
+     * Excel
+     * Excel (xlsx)
+     * 頁籤分隔檔
+     * CSV
+
+   <div class="preview">
+
+   * 在預覽環境中：
+
+     * CSV
+     * XLSX
+   </div>
 
    >[!TIP]
    >
-   >   您可以先選取有限數量的風險型別，然後將其匯出以取得較小的清單。
+   >   在生產環境中，您可以先選取有限的風險型別，然後匯出成較小的清單。<!--not sure if this should be logged as a bug because it's not working with the new Gtable list in Preview??-->
 
 ### 建立風險型別 {#create-risk-types}
 

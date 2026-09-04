@@ -16,16 +16,18 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: c83b252faf7791c51475c5b82ca03cb4ee29bfc0
 workflow-type: tm+mt
-source-wordcount: 634
-ht-degree: 3%
+source-wordcount: 1077
+ht-degree: 1%
 
 ---
 
 # 管理檔案版本
 
 <!-- Audited: 5/2025 -->
+
+{{highlighted-preview}}
 
 您可以在Workfront中管理檔案的多個版本。
 
@@ -70,7 +72,9 @@ ht-degree: 3%
 
   如果您需要有關將檔案新版本上傳到Workfront的資訊，請參閱[上傳檔案新版本](../../documents/managing-documents/upload-new-document-version.md)。
 
-## 檢視檔案所有版本的清單
+## 在舊版檔案區域中管理檔案版本
+
+### 檢視檔案所有版本的清單
 
 {{step1-to-documents}}
 
@@ -80,7 +84,7 @@ ht-degree: 3%
 
 1. 向下捲動至&#x200B;**版本**&#x200B;區段以檢視所有檔案版本。
 
-## 檢視和管理先前檔案版本的詳細資訊
+### 檢視和管理先前檔案版本的詳細資訊
 
 {{step1-to-documents}}
 
@@ -92,7 +96,7 @@ ht-degree: 3%
 
    除了檢視版本的詳細資訊之外，您還可以變更版本，例如其名稱、中繼資料和校訂設定（如果是檔案校訂）。
 
-## 下載單一檔案版本
+### 下載單一檔案版本
 
 {{step1-to-documents}}
 
@@ -104,7 +108,7 @@ ht-degree: 3%
 
    ![下載單一檔案](assets/more-versions-350x143.png)
 
-## 下載檔案的所有版本
+### 下載檔案的所有版本
 
 {{step1-to-documents}}
 
@@ -114,7 +118,7 @@ ht-degree: 3%
 
 1. 向下捲動至&#x200B;**版本**&#x200B;區段，然後按一下&#x200B;**全部下載**。
 
-## 刪除檔案版本
+### 刪除檔案版本
 
 如果您誤上傳檔案版本，或不再需要某個版本，可以刪除該版本並維護原始檔案。
 
@@ -149,3 +153,82 @@ ht-degree: 3%
    >* 如果檔案連結到外部來源，則該連結會遭到刪除，並且該檔案無法再透過Workfront存取。
 
    ![刪除檔案版本](assets/more-versions-350x143.png)
+
+<div class="preview">
+
+## 在預覽中管理新檔案區域中的檔案版本
+
+如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的檔案區域。 如需Adobe雲端儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+
+Workfront會以您上傳各個版本的順序（例如V1、V2、V3）編號，以符合Frame.io中的版本編號。
+
+### 檢視檔案所有版本的清單
+
+{{step1-to-documents}}
+
+1. 在&#x200B;**檔案**&#x200B;頁面上，選取清單中的檔案。
+
+1. 按一下頁面右側的&#x200B;**版本**&#x200B;圖示![版本](assets/versions-icon.png)。 「版本」面板會開啟，並在「版本記錄」下列出檔案的每個版本。
+
+   >[!NOTE]
+   >
+   >如果版本具有核准工作流程，其狀態（例如「已核准」或「已撤回」）會顯示在旁邊。 沒有核准工作流程的版本不會顯示狀態。
+
+### 請求核准版本
+
+{{step1-to-documents}}
+
+1. 在&#x200B;**檔案**&#x200B;頁面上，選取清單中的檔案。
+1. 按一下頁面右側的&#x200B;**版本**&#x200B;圖示![版本](assets/versions-icon.png)。
+1. 按一下版本旁的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**要求核准**。
+1. 設定核准工作流程。 如需詳細資訊，請參閱[建立檔案核准工作流程](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
+
+   >[!NOTE]
+   >
+   >如果先前版本已有開啟的核准工作流程，則在此版本上請求核准會將其撤銷。 舊版會保留其版本編號與核准歷史記錄，但其狀態會變更為「已撤銷」。
+
+### 檢視和管理先前檔案版本的詳細資訊
+
+{{step1-to-documents}}
+
+1. 在&#x200B;**檔案**&#x200B;頁面上，選取清單中的檔案。
+1. 按一下頁面右側的&#x200B;**版本**&#x200B;圖示![版本](assets/versions-icon.png)。
+1. 按一下版本旁的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**檢視詳細資料**。
+
+### 下載單一檔案版本
+
+{{step1-to-documents}}
+
+1. 在&#x200B;**檔案**&#x200B;頁面上，選取清單中的檔案。
+
+1. 按一下頁面右側的&#x200B;**版本**&#x200B;圖示![版本](assets/versions-icon.png)。
+
+1. 按一下版本旁的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**下載**。
+
+### 下載檔案的所有版本
+
+{{step1-to-documents}}
+
+1. 在&#x200B;**檔案**&#x200B;頁面上，選取清單中的檔案。
+
+1. 按一下頁面右側的&#x200B;**版本**&#x200B;圖示![版本](assets/versions-icon.png)。
+
+1. 按一下[版本]面板頂端的[下載全部&#x200B;**&#x200B;**]。
+
+   ![下載檔案的所有版本](assets/download-all-versions.png)
+
+### 刪除檔案版本
+
+{{step1-to-documents}}
+
+1. 在&#x200B;**檔案**&#x200B;頁面上，選取清單中的檔案。
+
+1. 按一下頁面右側的&#x200B;**版本**&#x200B;圖示![版本](assets/versions-icon.png)。
+
+1. 按一下版本旁的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**刪除**。
+
+   >[!NOTE]
+   >
+   >刪除版本不會變更其他版本的編號。 例如，如果您從版本為V1到V5的檔案中刪除V3，則其餘版本會保留其原始編號，而且之後沒有V3。 您上傳的下一個版本會變成V6。
+
+</div>

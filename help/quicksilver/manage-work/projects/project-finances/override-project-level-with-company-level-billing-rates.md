@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8c08e110aeccdf6d6416fd1070fbcbd40fd46983
 workflow-type: tm+mt
-source-wordcount: 475
-ht-degree: 5%
+source-wordcount: 480
+ht-degree: 4%
 
 ---
 
@@ -66,21 +66,21 @@ ht-degree: 5%
 
 +++
 
-## 啟用公司層級收費率覆寫選項
+## 開啟公司層級收費率覆寫選項
 
-當公司與專案相關聯且啟用此選項時，對公司層級計費率所做的變更將會覆寫專案上設定的計費率。
+當公司與專案相關聯且開啟此選項時，對公司層級計費率所做的變更會覆寫專案上設定的計費率。
 
 當使用者手動重新計算專案的財務時，將套用公司層級計費率的任何變更。 除非標籤為已記帳，否則也會覆寫歷史收入計算。
 
 1. 前往專案。
 1. 按一下標題中專案名稱旁的&#x200B;**更多**&#x200B;功能表![更多](assets/qs-more-icon-on-an-object.png)，然後按一下&#x200B;**編輯**。
-1. 在&#x200B;**財務**&#x200B;區段中，啟用&#x200B;**允許公司層級的收費率以覆寫專案層級的收費率**。
+1. 在&#x200B;**財務**&#x200B;區段中，選取&#x200B;**允許公司層級的收費率覆寫專案層級的收費率**。
 
    >[!CAUTION]
    >
-   >啟用此選項會覆寫歷史收入計算，除非將其標籤為已記帳。 您可以建立付費記錄，以保留歷史收入計算。 如需詳細資訊，請參閱文章[建立付費記錄](../../../manage-work/projects/project-finances/create-billing-records.md)
+   >啟用此選項會覆寫歷史收入計算，除非將其標籤為已記帳。 您可以建立付費記錄，以保留歷史收入計算。 如需詳細資訊，請參閱文章[建立付費記錄](../../../manage-work/projects/project-finances/create-billing-records.md)。
 
-1. 按一下「**儲存變更**」。
+1. 按一下「**儲存**」。
 
 ## 更新公司層級收費率，並將其套用至專案
 
@@ -93,23 +93,24 @@ ht-degree: 5%
 {{step-1-to-setup}}
 
 1. 按一下&#x200B;**公司**。
-1. 按一下與您啟用公司層級收費率覆寫之專案相關聯的公司名稱。
+1. 按一下與您開啟公司層級收費率覆寫之專案相關聯的公司名稱。
 1. 按一下左側面板中的&#x200B;**收費率**。
-1. 更新現有職務角色的&#x200B;**公司收費率**&#x200B;和開始/結束日期，然後按Enter鍵。
+1. 選取要更新的工作角色比率，然後按一下&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/edit-icon.png)。
 
-   若要新增生效日期的公司收費率，請選取工作角色的收費率，然後按一下[編輯]。**&#x200B;** 如需日期有效公司收費率的詳細資訊，請參閱[覆寫公司層級的工作角色收費率](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)。
+   視需要更新記帳費率與有效日期，然後按一下[儲存]。**&#x200B;** 如需日期有效公司收費率的詳細資訊，請參閱[覆寫公司層級的工作角色收費率](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)。
 
 1. 若要更新一或多個專案的公司費率，請執行下列其中一項作業：
 
    * 多個專案：
 
-      1. 前往專案清單。
-      1. 勾選與您要更新專案相符的核取方塊。
-      1. 按一下&#x200B;**編輯**。
-      1. 在設定區段中，啟用&#x200B;**重新計算成本和收入**&#x200B;選項。
-      1. 按一下「**儲存變更**」。
+     1. 前往專案清單。
+     1. 選取您要更新專案的核取方塊。
+     1. 按一下清單頂端的&#x200B;**更多**&#x200B;功能表![更多](assets/qs-more-icon-on-an-object.png)，然後按一下&#x200B;**重新計算財務**。
 
    * 單一專案：
 
-      1. 移至您已啟用公司層級收費率覆寫的專案。
-      1. 按一下標題中專案名稱旁的&#x200B;**更多**&#x200B;功能表![更多](assets/qs-more-icon-on-an-object.png)，然後按一下&#x200B;**重新計算財務**。
+     1. 移至您已啟用公司層級收費率覆寫的專案。
+     1. 按一下標題中專案名稱旁的&#x200B;**更多**&#x200B;功能表![更多](assets/qs-more-icon-on-an-object.png)，然後按一下&#x200B;**重新計算財務**。
+
+     如需重新計算一或多個專案財務的詳細資訊，請參閱[重新計算專案財務](/help/quicksilver/manage-work/projects/project-finances/recalculate-project-finances.md)。
+

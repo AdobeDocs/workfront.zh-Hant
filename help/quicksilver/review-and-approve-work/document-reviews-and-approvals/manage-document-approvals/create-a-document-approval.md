@@ -20,14 +20,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c9558f7de0e2f625c8426187436f2ea5cdeabb92
+source-git-commit: c637cfabefebf01868ae0dd020d95bcce50b38e2
 workflow-type: tm+mt
-source-wordcount: 2227
+source-wordcount: 2662
 ht-degree: 1%
 
 ---
 
 # 建立檔案核准工作流程
+
+{{highlighted-preview}}
 
 您可以在Adobe Workfront中請求其他使用者或團隊核准檔案，或請求他們稽核檔案而無需核准。
 
@@ -99,6 +101,11 @@ ht-degree: 1%
    <td><strong>新增姓名或電子郵件</strong></td>
    <td>開始輸入使用者或團隊名稱，以新增為核准者或稽核者。 如果您只有稽核者，他們將會收到通知並可以選擇完成稽核，但不需要或做出任何決定。</td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>在預覽中新增人員或團隊</strong></span></td>
+   <td><span class="preview">開始輸入使用者名稱、團隊或電子郵件地址。 依預設，專案團隊會新增為單一核准者或檢閱，但您可以選擇將每個專案團隊成員新增為個別參與者。 <br>
+   注意：如果使用者已經新增，或屬於您新增的多個團隊，則會納入一次。</span></td>
+   </tr>
    <tr>
    <td><strong>只需要一個決定（選擇性）</strong></td>
    <td>第一個做出決定的人會完成階段。</td>
@@ -118,6 +125,10 @@ ht-degree: 1%
 1. 按一下&#x200B;**要求核准**。
 
    ![在基本模式下要求核准](assets/request-approval-basic.jpeg)
+
+   <!-- 
+   preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
+   -->
 
 ### 建立進階核准工作流程
 
@@ -152,6 +163,11 @@ ht-degree: 1%
    <td><strong>新增姓名或電子郵件</strong></td>
    <td>開始輸入使用者或團隊名稱，以新增為核准者或稽核者。 如果您只有稽核者，他們將會收到通知並可以選擇完成稽核，但不需要或做出任何決定。<p>附註：一次只能將檢閱者或核准者指派給相同資產上的一個開啟階段。 如果同時開啟多個平行階段，則無法將同一個使用者新增至多個階段。</p></td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>在預覽中新增人員或團隊</strong></span></td>
+   <td><span class="preview">開始輸入使用者名稱、團隊或電子郵件地址。 依預設，專案團隊會新增為單一核准者或檢閱，但您可以選擇將每個專案團隊成員新增為個別參與者。 <br>
+   注意：如果使用者已經新增，或屬於您新增的多個團隊，則會納入一次。 此外，參與者一次只能被指派到相同資產上的一個開啟階段。</span></td>
+   </tr>
    <tr>
    <td><strong>只需要一個決定（選擇性）</strong></td>
    <td>第一個做出決定的人會完成階段。</td>
@@ -173,6 +189,10 @@ ht-degree: 1%
 1. （選用）若要移除路徑，請將游標移至路徑標籤，然後按一下垃圾桶圖示。 **路徑1**&#x200B;無法移除，且路徑無法重新排序。 只有在路徑中沒有鎖定或完成的階段時，才能移除其他路徑。
 
    ![具有平行路徑的進階模式](assets/request-approval-parallel-paths.jpeg)
+
+<!-- preview screen
+   ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
+-->
 
 1. （選擇性）若要清除所有路徑和階段並重新開始，請按一下右上方的&#x200B;**重設**。
 
@@ -208,6 +228,11 @@ ht-degree: 1%
    <td><strong>新增姓名或電子郵件</strong></td>
    <td>開始輸入使用者名稱或電子郵件，以新增為核准者或稽核者。 如果您只有稽核者，他們將會收到通知並可以選擇完成稽核，但不需要或做出任何決定。</td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>在預覽中新增人員或團隊</strong></span></td>
+   <td><span class="preview">開始輸入使用者名稱、團隊或電子郵件地址，然後選擇他們是<strong>核准者</strong>或<strong>檢閱者</strong>。 Workfront會個別新增團隊的每個作用中成員。 <br>
+   注意：如果使用者已經新增，或屬於您新增的多個團隊，則會納入一次。</span></td>
+   </tr>
    <tr>
    <td><strong>只需要一個決定（選擇性）</strong></td>
    <td>第一個做出決定的人會完成階段。</td>
@@ -225,6 +250,12 @@ ht-degree: 1%
 1. 按一下&#x200B;**要求核准**。
 
    ![在基本模式下要求核准](assets/request-approval-basic.jpeg)
+
+   <!-- 
+   preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
+   -->
+
+
 
 >[!NOTE]
 >
@@ -265,6 +296,11 @@ ht-degree: 1%
    <td><strong>新增姓名或電子郵件</strong></td>
    <td>開始輸入使用者名稱或電子郵件，以新增為核准者或稽核者。 如果您只有稽核者，他們將會收到通知並可以選擇完成稽核，但不需要或做出任何決定。<p>附註：一次只能將檢閱者或核准者指派給相同資產上的一個開啟階段。 如果同時開啟多個平行階段，則無法將同一個使用者新增至多個階段。</p></td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>在預覽中新增人員或團隊</strong></span></td>
+   <td><span class="preview">開始輸入使用者名稱、團隊或電子郵件地址，然後選擇他們是<strong>核准者</strong>或<strong>檢閱者</strong>。 Workfront會個別新增團隊的每個作用中成員。 <br>
+   注意：如果使用者已經新增，或屬於您新增的多個團隊，則會納入一次。 此外，參與者一次只能被指派到相同資產上的一個開啟階段。</span></td>
+   </tr>
    <tr>
    <td><strong>只需要一個決定（選擇性）</strong></td>
    <td>第一個做出決定的人會完成階段。</td>
@@ -288,9 +324,37 @@ ht-degree: 1%
 
    ![具有平行路徑的進階模式](assets/request-approval-advanced.jpeg)
 
+   <!-- preview screen
+   ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
+   -->
+
 1. （選擇性）若要清除所有路徑和階段並重新開始，請按一下右上方的&#x200B;**重設**。
 
 1. 按一下&#x200B;**要求核准**。
+
+<div class="preview">
+
+## 在預覽中的新檔案區域中檢視先前版本的核准工作流程
+
+如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的檔案區域。 如需Adobe雲端儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+
+「核准」面板僅列出具有核准工作流程的檔案版本。
+
+若要檢視先前版本的核准工作流程：
+
+1. 前往包含檔案的專案、任務或問題，然後在左側面板中選取&#x200B;**檔案**。
+1. 按一下檔案，然後按一下頁面右側的&#x200B;**核准**&#x200B;圖示。
+
+   ![在檔案摘要中新增核准者](assets/approvals-icon-new.png)
+
+1. 按一下版本以將其展開。 您可以檢視其階段、每位核准者的決定、階段的決定規則（例如完成階段是否只需要一個決定）以及到期日。
+1. 按一下其他版本，展開其核准工作流程，而不離開面板。
+
+   >[!NOTE]
+   >
+   >如果因為請求較新版本的核准而撤回了版本的核准工作流程，該工作流程會保留在清單中、摺疊，因此您仍可檢閱其先前的決策。
+
+</div>
 
 <!--
 ## Resubmit an approval on a new version

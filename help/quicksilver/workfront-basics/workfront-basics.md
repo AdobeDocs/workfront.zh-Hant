@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: e01b63c81bf085651195a5649bf3799e5168b550
 workflow-type: tm+mt
-source-wordcount: 212
-ht-degree: 59%
+source-wordcount: 215
+ht-degree: 58%
 
 ---
 
@@ -52,4 +52,5 @@ ht-degree: 59%
 * [行動應用程式](../workfront-basics/mobile-apps/mobile-apps.md)
 * [Workfront中的AI助理](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
 * [Workfront MCP伺服器](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server.md)
+* [Workfront中的同事](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
 * [Adobe Workfront基本功能的提示、秘訣和疑難排解](../workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)

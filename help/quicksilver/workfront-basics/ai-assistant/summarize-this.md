@@ -14,14 +14,18 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
 workflow-type: tm+mt
-source-wordcount: 398
+source-wordcount: 425
 ht-degree: 5%
 
 ---
 
 # 使用AI助理摘要
+
+>[!IMPORTANT]
+>
+>從2026年9月開始，AI Assistant正在轉換成CX Co-worker，這是一個可輕鬆完成工作的對話式介面。 如需CX Co-worker的相關資訊，請參閱[&#x200B; CX Co-worker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
 
 Workfront的AI助理可以摘要某些物件，讓您以高階檢視檢視物件的意圖或詳細資訊。
 

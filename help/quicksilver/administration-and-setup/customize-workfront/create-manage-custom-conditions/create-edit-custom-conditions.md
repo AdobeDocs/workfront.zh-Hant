@@ -21,7 +21,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d5694e2f94ded811e90b31f315896914ca31fc9f
+source-git-commit: 8c08e110aeccdf6d6416fd1070fbcbd40fd46983
 workflow-type: tm+mt
 source-wordcount: 676
 ht-degree: 4%
@@ -82,7 +82,7 @@ ht-degree: 4%
    生產環境中的影像範例：
    ![編輯自訂條件](assets/custom-conditions-0825.png)
 
-   預覽環境中的範例影像：
+   在預覽環境中<span class="preview">範例影像：</span>
    ![編輯自訂條件](assets/edit-conditions-082526.png)
 
 1. 使用下列選項設定自訂條件：

@@ -24,14 +24,16 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: acbb78db2ce8c6c57fa10fe99f533d7dd7feea1b
 workflow-type: tm+mt
-source-wordcount: 1382
+source-wordcount: 1429
 ht-degree: 5%
 
 ---
 
 # 管理專案概述區域中的資訊
+
+{{highlighted-preview}}
 
 <!--
 <p>(NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)</p>
@@ -228,6 +230,7 @@ Old:
    | 上次更新日期 | 專案上次更新的日期與時間。 |
    | 上次更新者 | 上次更新專案的使用者名稱。 |
    | 範本 |  |
+   | Frame.io工作區 | <span class="preview">Frame.io工作區繼承自用來建立它的範本。 專案建立後，您無法變更此欄位。</span> |
 
 
 1. 如果您的公司已購買Adobe Workfront Scenario Planner的額外授權，並且專案具有從連結的方案發佈的資訊，請在Scenario Planner區域中檢閱以下方案資訊：

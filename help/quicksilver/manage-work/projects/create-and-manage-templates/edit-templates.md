@@ -25,27 +25,25 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
+source-git-commit: 96cf04616582ac0208a9365d0f10f2403ebd317c
 workflow-type: tm+mt
-source-wordcount: 5111
+source-wordcount: 5223
 ht-degree: 3%
 
 ---
 
 # 編輯專案範本
 
+{{highlighted-preview}}
+
 <!-- Audited: 7/2025 -->
 
 <!--The Resource Pools part also duplicates in the "Working with Resource Pools" article-->
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div> 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 -->
 
@@ -253,6 +251,15 @@ Old:
       <tr> 
       <td role="rowheader"><strong>公司</strong></td> 
       <td><p>指定您要與範本建立關聯的公司。 清單中只會顯示作用中的公司。</p></td> 
+      </tr> 
+      <tr>
+      <td role="rowheader"><span class="preview"><strong>Frame.io工作區（條件式）</strong></span></td>
+      <td><span class="preview">
+      <p>在Adobe雲端儲存空間專案中，選取您要從此範本建立的專案所使用的Frame.io工作區。 如果您的組織有多個Frame.io工作區，這會決定要在哪個工作區中建立連結的Frame.io專案。</p>
+      <p>此清單僅包含您有權指派專案的Frame.io工作區。 未選取或未提供工作區時，使用的預設工作區。</p>
+      <p>您可以隨時在範本上變更此欄位。 變更只會套用至變更後建立的專案；已經從範本建立的專案會保留現有的Frame.io工作區。</p>
+      <p>注意：您必須擁有Frame.io enterprise才能使用Frame.io工作區欄位。</p>
+      </span></td>
       </tr> 
       <tr> 
       <td role="rowheader"><strong>範本所有者</strong></td> 
@@ -772,8 +779,8 @@ To edit templates in bulk:
 
   如需有關將主題群組和佇列主題新增至專案或範本的資訊，請參閱下列文章：
 
-   * [建立主題群組](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
-   * [建立佇列主題](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
+  * [建立主題群組](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
+  * [建立佇列主題](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
 
 您可以將下列專案新增至範本中的任務：
 

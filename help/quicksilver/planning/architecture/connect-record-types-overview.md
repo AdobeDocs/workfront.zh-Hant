@@ -19,9 +19,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
+source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
 workflow-type: tm+mt
-source-wordcount: 2329
+source-wordcount: 2440
 ht-degree: 1%
 
 ---
@@ -30,11 +30,10 @@ ht-degree: 1%
 
 # 連線記錄型別概觀
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -193,6 +192,13 @@ ht-degree: 1%
 
   * 您必須連線記錄型別，才能在Workfront Planning中建立階層。 當記錄型別連線不存在時，會在您建立階層時自動建立連線。 如需詳細資訊，請參閱[建立工作區階層](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)。
 
+  <div class="preview">
+
+  * 您可以讓連線欄位從屬於已連線記錄型別中對應的已連線欄位。 當兩個欄位顯示在第三個記錄型別上時，一個欄位可用的選擇取決於另一個欄位的選擇。
+
+    如需詳細資訊和其他考量事項，請參閱[管理相依連線](/help/quicksilver/planning/architecture/manage-dependent-connections.md)。
+
+  </div>
 
 ## 連線型別
 

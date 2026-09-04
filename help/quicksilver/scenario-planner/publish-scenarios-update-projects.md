@@ -21,14 +21,18 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 26b9239894d071fa5a3a0e185f935091e9e7ad13
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 1705
+source-wordcount: 1817
 ht-degree: 1%
 
 ---
 
 # 透過在[!DNL Scenario Planner]中發佈方案來更新或建立專案
+
+<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 從[!DNL Adobe Workfront Scenario Planner]發佈情境會完成下列作業：
 
@@ -195,24 +199,24 @@ Old:
    如需關於建立方案的資訊，請參閱[在 [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md)中建立和編輯方案。
 
 1. 按一下&#x200B;**[!UICONTROL 儲存計畫]**。
-1. 從&#x200B;**[!UICONTROL 初始情境]**&#x200B;下拉式功能表中選取您要發佈的情境，然後按一下右上角的&#x200B;**[!UICONTROL 移至發佈]** ![移至發佈](assets/go-to-publish-button-icon.png)。
+1. 從&#x200B;**[!UICONTROL 初始情境]**&#x200B;下拉式功能表中選取您要發佈的情境，然後按一下右上角的&#x200B;**[!UICONTROL 前往發佈]**。
 
    或
 
-   按一下「**[!UICONTROL 比較案例]**」，將游標暫留在您要發佈的案例卡片上，然後按一下「**[!UICONTROL 移至發佈]**」![移至發佈](assets/go-to-publish-button-icon.png)。
+   按一下&#x200B;**[!UICONTROL 比較案例]**，將游標暫留在您要發佈的案例卡片上，然後按一下&#x200B;**[!UICONTROL 移至發佈]**。
 
-   此時會顯示[!UICONTROL 發佈方案]頁面，顯示情境中所有方案的清單。 如果先前已發佈任何方案，則專案圖示![專案圖示](assets/project-icon-sp.png)會顯示在方案的名稱之後，且清單中會填入&#x200B;**[!UICONTROL 上次發佈]**&#x200B;日期。
+   此時會顯示&#x200B;[!UICONTROL **發佈方案**]&#x200B;頁面，顯示情境中所有方案的清單。 <span class="preview">如果先前已發佈任何方案，專案圖示![專案圖示](assets/project-icon-sp.png)會顯示在方案名稱之後，且清單中會填入&#x200B;**[!UICONTROL 上次發佈]**&#x200B;日期。</span>
 
    >[!TIP]
    >
-   >透過匯入專案所建立的方案在其名稱的右側也會顯示專案圖示![專案圖示](assets/project-icon-sp.png)
+   >在生產環境中，透過匯入專案建立的方案在其名稱的右側也會顯示專案圖示![專案圖示](assets/project-icon-sp.png)
 
    ![專案圖示和上次發佈日期](assets/project-icons-and-last-published-date-in-publish-initiative-page-350x63.png)
 
-   <!--
-    1. <span class="preview">(Optional) In the Publish initiatives page, hover over the project icon ![Project icon](assets/project-icon-sp.png), then click the **More** menu ![More menu](assets/more-menu.png) > **Open project**. The project opens in a new browser tab.</span>
-    -->
-1. （選擇性和條件式）如果您想要從現有計畫發佈，請按一下計畫右上角的&#x200B;**[!UICONTROL 篩選器]**&#x200B;圖示![篩選器圖示](assets/filter-nwepng.png)，並選取下列其中一個選項：
+
+1. <span class="preview"> （選擇性）在&#x200B;**發佈行動方案**&#x200B;頁面中，暫留在專案名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png) > **開啟專案**。 專案會在新的瀏覽器標籤中開啟。</span>
+
+1. （選擇性和條件式）如果要從現有計畫發佈，請按一下計畫<span class="preview">右上角的&#x200B;**[!UICONTROL 篩選器]**&#x200B;圖示或左上角的表格圖示</span>，然後選取下列其中一個選項：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -244,16 +248,20 @@ Old:
    >
    >新專案與已發佈方案的名稱相同。
 
-1. （視條件而定）執行下列任一項作業：
+1. （視條件而定）在方案發佈後，在確認訊息上按一下下列其中一項：
 
    * 如果您已發佈一個方案，請按一下&#x200B;**[!UICONTROL 檢視關聯的專案]**&#x200B;以開啟從方案建立或更新的專案。
-   * 如果您發佈多個方案，請按一下[檢視關聯的專案] **&#x200B;**&#x200B;以開啟從方案發佈的專案清單。 根據預設，[!DNL Workfront]會將[!DNL Scenario Planner]專案篩選器套用至專案清單。 最近發佈的專案會顯示在清單頂端。
+   * 如果您發佈多個方案，請按一下[檢視關聯的專案] **&#x200B;**&#x200B;以開啟從方案發佈的專案清單。
 
-     發佈行動方案後的![情境規劃工具](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
+   這將會開啟[專案]區域，而且預設會將[!DNL Scenario Planner]專案篩選器套用至專案清單。
+
+   最近發佈的專案會顯示在清單頂端。
+
+   發佈行動方案後的![情境規劃工具](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
 
 1. 移至下列區域以檢視專案上的方案資訊：
 
-   * **[!UICONTROL 更新]區段**：已發佈更新以表示專案是從方案建立或更新的。 更新包含建立或更新專案的方案名稱，以及包含該方案的計畫的連結名稱。 您可以按一下更新中的計畫名稱，以在[!DNL Scenario Planner]中開啟計畫。
+   * **[!UICONTROL 更新]區段**： **系統活動**&#x200B;索引標籤中發佈了一個更新，表示專案是從行動方案建立或更新的。 更新包含建立或更新專案的方案名稱，以及包含該方案的計畫的連結名稱。 您可以按一下更新中的計畫名稱，以在[!DNL Scenario Planner]中開啟計畫。
 
      ![更新發佈資料流確認](assets/update-stream-confirmation-of-publish-on-project-350x65.png)
 
@@ -297,6 +305,8 @@ Old:
      </tr> 
       </tbody> 
      </table>
+
+     <!-- for the above table - I am not seeing the job role information on the Overview of the project anymore- bug??-->
 
      >[!NOTE]
      >

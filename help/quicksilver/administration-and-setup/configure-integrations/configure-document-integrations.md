@@ -21,7 +21,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 94f14afac621d7a0e41daceeb8eb7a5d2682f911
+source-git-commit: bf611a79078eac9cf8f78a20ddc83079b36a7de5
 workflow-type: tm+mt
 source-wordcount: 1184
 ht-degree: 4%
@@ -208,7 +208,7 @@ ht-degree: 4%
 
    [!DNL Workfront]使用此API金鑰對檔案提供者進行授權的API呼叫。
 
-1. <span class="preview">（選擇性）若要啟用大型檔案支援，請在&#x200B;**[!UICONTROL 大型檔案支援]**&#x200B;區段中選取&#x200B;**[!UICONTROL 啟用大型檔案的區塊上傳]**，然後在&#x200B;**[!UICONTROL 區塊上傳臨界值(MB)]**&#x200B;欄位中輸入最大區塊大小(MB)。 此欄位接受最多100 MB的值。 啟用時，超過25 MB的檔案會以這種大小的區塊上傳，而不是以單一請求上傳。</span>
+1. （選擇性） <span class="preview">若要啟用大型檔案支援，請在&#x200B;**[!UICONTROL 大型檔案支援]**&#x200B;區段中選取&#x200B;**[!UICONTROL 啟用大型檔案的區塊上傳]**，然後在&#x200B;**[!UICONTROL 區塊上傳臨界值(MB)]**&#x200B;欄位中輸入最大區塊大小(MB)。 此欄位接受最多100 MB的值。 啟用時，超過25 MB的檔案會以這種大小的區塊上傳，而不是以單一請求上傳。</span>
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**&#x200B;以建立整合。
 

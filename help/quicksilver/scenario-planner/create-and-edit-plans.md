@@ -20,16 +20,21 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
 workflow-type: tm+mt
-source-wordcount: 2407
+source-wordcount: 2467
 ht-degree: 1%
 
 ---
 
 # 在[!DNL Scenario Planner]中建立和編輯計畫
 
-當排定貴公司較高層級策略的優先順序時，您可使用[!DNL Workfront Scenario Planner]來建立計畫。 如需計畫的詳細資訊，請參閱 [!DNL Scenario Planner][&#128279;](../scenario-planner/plans-overview.md)中的計畫總覽。
+<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
+
+當排定貴公司較高層級策略的優先順序時，您可使用[!DNL Workfront Scenario Planner]來建立計畫。 如需計畫的詳細資訊，請參閱 [!DNL Scenario Planner]&#x200B;[&#128279;](../scenario-planner/plans-overview.md)中的計畫總覽。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -126,7 +131,7 @@ Old:
 
 本文說明如何從頭開始建立計畫或編輯現有計畫。
 
-如需有關計畫的所有考量事項，包括可用於計畫的資訊，請參閱 [!DNL Scenario Planner][&#128279;](../scenario-planner/plans-overview.md)中的計畫總覽。
+如需有關計畫的所有考量事項，包括可用於計畫的資訊，請參閱 [!DNL Scenario Planner]&#x200B;[&#128279;](../scenario-planner/plans-overview.md)中的計畫總覽。
 
 如需有關刪除計畫的資訊，請參閱[刪除 [!DNL Scenario Planner]](../scenario-planner/delete-plans.md)中的計畫。
 
@@ -136,7 +141,7 @@ Old:
 
 您建立的現有計劃清單會顯示在[!DNL Workfront Scenario Planner]中。
 
-1. （選擇性）按一下計劃清單右上角的&#x200B;**[!UICONTROL 篩選器]**&#x200B;圖示![篩選器圖示](assets/filter-icon-34x37.png)，然後選取下列專案：
+1. （選擇性）按一下清單頂端的&#x200B;**[!UICONTROL 篩選器]**&#x200B;圖示![篩選器圖示](assets/filter-icon-34x37.png)、<span class="preview">或&#x200B;**表格**&#x200B;圖示![表格圖示](assets/table-icon.png)</span>，然後從下列專案選取：
 
    | 篩選器 | 說明 |
    |---|---|
@@ -148,23 +153,13 @@ Old:
 
 1. （選擇性）按一下&#x200B;**[!UICONTROL 搜尋]**&#x200B;圖示![搜尋圖示](assets/search-icon.png)以輸入關鍵字，並在清單中快速找到計畫。
 
-1. 按一下現有計畫的名稱以編輯它，然後繼續步驟7。
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is the step still accurate) </p>
-   -->
+1. 按一下現有計畫的名稱以編輯它，然後繼續步驟7.<!--is the step still accurate)-->
 
    或
 
-   按一下左上角的&#x200B;**[!UICONTROL 新計畫]**&#x200B;以建立計畫並繼續步驟5。
+   按一下左上角的「**[!UICONTROL 新計畫]**」以建立計畫並繼續步驟5。<!--is the step still accurate-->
 
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is the step still accurate)</p>
-   -->
-
-   ![新計畫按鈕](assets/new-plan-button.png)
-
-   [!UICONTROL 新計畫]方塊隨即顯示。
+   [!UICONTROL **新計畫**]&#x200B;方塊隨即顯示。
 
    ![新計畫方塊](assets/new-plan-ui-adding-a-new-plan-350x306.png)
 
@@ -209,7 +204,7 @@ Old:
     </tbody> 
    </table>
 
-<!--for table above - how FTE is calcualted: NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>-->
+   <!--for table above - how FTE is calcualted: NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>-->
 
 1. （視條件而定）按一下&#x200B;**[!UICONTROL 下一步]**。
 

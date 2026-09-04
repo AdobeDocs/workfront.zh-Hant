@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1108'
 ht-degree: 1%
 
 ---
@@ -17,11 +17,9 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 您可以為Adobe Workfront Planning記錄型別設定商業規則，以指示在允許或阻止對該型別記錄的動作之前，需要某些欄位。
 
@@ -95,7 +93,7 @@ ht-degree: 1%
   * 查詢欄位
   * 參考欄位
 * 規則適用於可以編輯或刪除記錄的所有人。
-* 記錄型別可以有多個商業規則。 <!--Syuzanna is checking this because it should be just ONE rule per action: one per edit and one per delete - see this: https://workfront.slack.com/archives/C0BHWEUSJCU/p1788281638322049?thread_ts=1787924876.280359&cid=C0BHWEUSJCU-->
+* 記錄型別可以有多個商業規則。 <!--Syuzanna is checking this because it should be just ONE rule per action: one per edit and one per delete - see this: https://workfront.slack.com/archives/C0BHWEUSJCU/p1788281638322049?thread_ts=1787924876.280359&cid=C0BHWEUSJCU; I also logged a bug for this because it released with more than one per action - https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/6a99add600001e9aa90435ec181dec3e/overview-->
 
   所有規則會同時檢查，而錯誤訊息會顯示一個陳述式中遺漏的所有欄位。
 
@@ -104,10 +102,15 @@ ht-degree: 1%
 1. 移至記錄型別頁面。
 1. 從任何檢視中，按一下記錄型別名稱右邊的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**商業規則**。
 
-   「商業規則」頁面隨即開啟。
+   「商業規則」表格頁面隨即開啟。
 1. 按一下&#x200B;**新商業規則**。
 1. 在&#x200B;**新企業**&#x200B;規則方塊中，在第一個可用欄位中為企業規則新增名稱。 這是必填欄位
 1. （選用）新增說明以定義商業規則，然後按一下[儲存]。**&#x200B;**
+
+   「商業規則設定」表單隨即開啟。
+
+   ![商業規則設定表單](assets/business-rule-setup-form.png)
+
 1. 在商業規則設定表單的&#x200B;**If**&#x200B;區段中，根據特定規則選擇要限制或允許哪些動作。 從下列專案中選擇： <!--check UI text-->
    * **記錄編輯**：如果符合此規則中定義的條件，將允許使用者編輯或不編輯記錄。
    * **刪除記錄**：如果符合此規則中定義的條件，則允許使用者刪除或不刪除記錄。
@@ -124,7 +127,7 @@ ht-degree: 1%
    例如，您可以輸入下列陳述式，讓&#x200B;**行銷活動摘要**&#x200B;欄位成為必要欄位：
 
    ```
-      IF(ISBLANK({Campaign summary}),"Campaign summary is a required field. You cannot edit this record without a value for the Campaign summary.")
+      IF(ISBLANK({Campaign summary}),"Campaign summary is a required field. You cannot edit this record without a value for the Campaign summary field.")
    ```
 
    >[!IMPORTANT]
@@ -149,7 +152,7 @@ ht-degree: 1%
 
 編輯現有規則不會變更現有記錄。 編輯的規則僅適用於有人嘗試編輯或刪除現有記錄時。
 
-1. 返回記錄型別的&#x200B;**商業規則**&#x200B;設定頁面。
+1. 返回記錄型別的&#x200B;**商業規則**&#x200B;表格頁面。
 1. 尋找您要變更的規則。
 1. 將游標暫留在規則名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下下列其中一個選項：
 
@@ -159,8 +162,9 @@ ht-degree: 1%
 
    已編輯的規則或規則的停用僅適用於未來的記錄，且不會回溯套用。
 
-   <!--add screen shot if UI is fixed with Deactivate-->
+   <!--add NEW screen shot below if UI is fixed with Deactivate at release; it was fixed in devTest-->
 
+   <!--![Business rule more menu expanded](assets/business-rule-more-menu-in-table-expanded.png)-->
 
 <!--
 

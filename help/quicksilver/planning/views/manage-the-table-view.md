@@ -19,15 +19,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 4047
+source-wordcount: 4041
 ht-degree: 2%
 
 ---
 
 # 管理表格檢視
 
+<!-- remove Production and Preview references at release-->
 
 <span class="preview">本頁標示的資訊是指尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
 
@@ -190,7 +191,7 @@ Old:
 <!--
 <div class="preview">
 
-* 500 records upload automaticall. Additional records display as you scroll the view. 
+* 500 records upload automatically. Additional records display as you scroll the view. 
 
 </div>
 -->
@@ -244,6 +245,8 @@ Old:
    * 抓取欄標題，並將其拖放到所需位置。 您移動的欄會短暫地以藍色背景顯示，直到您對表格進行其他調整為止。
 
    * 按一下表格工具列中的&#x200B;**欄位**，然後依所需順序拖放欄位，再按一下&#x200B;**欄位可見度和順序**&#x200B;方塊外部以關閉它。
+
+     <!--update the screen shot without Thumbnail at Production release-->
 
      ![欄位設定表格檢視工具列已展開](assets/fields-setting-table-view-toolbar-expanded.png)
 
@@ -360,26 +363,31 @@ Old:
    ><span class="preview">在拖放行中，如果有多個記錄，數字指示器會顯示選取的記錄數。</span>
 
 1. （選擇性）按一下記錄右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**編輯縮圖**&#x200B;以編輯縮圖。
-1. 按一下表格頂端的&#x200B;**欄位**，然後選取&#x200B;**縮圖**&#x200B;欄位的切換按鈕，將其顯示在主要欄位的左側。 預設會取消選取它。
+1. 在生產環境中，按一下表格頂端的&#x200B;**欄位**
+
+   或
+
+   <span class="preview">暫留在主要欄位標題</span>上，然後選取&#x200B;**縮圖**&#x200B;欄位的切換按鈕，將其顯示在主要欄位的左側。 預設會取消選取它。
 
    如需詳細資訊，請參閱[新增縮圖至記錄](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
 
-1. <span class="preview"> （選擇性）按一下表格頂端的&#x200B;**欄位**，然後按一下&#x200B;**色彩**，在主要欄位的左側顯示記錄的色彩。 預設會為每個新記錄隨機指派顏色。 預設會取消選取&#x200B;**色彩**&#x200B;設定。</span>
+1. <span class="preview">按一下資料表頂端的&#x200B;**欄位**</span>
+
+   或
+   <span class="preview">暫留在主要欄位標題上，然後選取&#x200B;**色彩**&#x200B;欄位的切換按鈕，將它顯示在主要欄位的左側。 預設會取消選取它。</span>
 
 1. <span class="preview"> （選擇性和條件性）如果您已開啟&#x200B;**色彩**&#x200B;設定，請按一下記錄主要欄位左側的色彩列，並從&#x200B;**色票**&#x200B;或&#x200B;**自訂**&#x200B;標籤中選取色彩，然後按一下方塊外部以關閉它。 顏色會立即套用。</span>
 
-   <div class="preview">
+<div class="preview">
 
-   ![錄製色彩編碼檢色器方塊](assets/color-picker-for-record-color-coding.png)
+![錄製色彩編碼檢色器方塊](assets/color-picker-for-record-color-coding.png)
 
-   如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
+如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
 
-   </div>
+</div>
 
 
 ### 新增篩選器 {#add-filters-1}
-
-篩選器可協助您減少熒幕上顯示的資訊量。
 
 篩選器可協助您減少熒幕上顯示的資訊量。
 

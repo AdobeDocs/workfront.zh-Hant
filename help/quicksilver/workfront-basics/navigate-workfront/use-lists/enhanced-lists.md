@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ebf8d5ed1eb0b49315bbe10718c5065fcc871654
+source-git-commit: 8c08e110aeccdf6d6416fd1070fbcbd40fd46983
 workflow-type: tm+mt
-source-wordcount: 3318
+source-wordcount: 3304
 ht-degree: 1%
 
 ---
@@ -90,7 +90,6 @@ Adobe Workfront的部分割槽域提供增強型清單。 這些清單使用表�
 | 面板管理員檢視 | 面板>管理員檢視 |
 | Adobe雲端儲存空間上的檔案 | 專案，任務，問題，投資組合，方案，範本，範本任務>檔案 |
 | <span class="preview">情境計畫和方案的清單</span> | <span class="preview">主要功能表>案例</span> |
-| <span class="preview">目標和進度指標清單</span> | <ul><li><span class="preview">主要功能表>目標</span></li><li><span class="preview">主要功能表>目標>進度指示器</span></li></ul> |
 
 <!--
 
@@ -98,6 +97,9 @@ Last bullet in "Lists of integrations" <li><span class="preview">Setup > Documen
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
+
+Last, under Scenario Planner
+| <span class="preview">Lists of goals and progress indicators</span> | <ul><li><span class="preview">Main Menu > Goals</span></li><li><span class="preview">Main Menu > Goals > Progress Indicators</span></li></ul> |
 
 -->
 
@@ -185,7 +187,7 @@ Under Locations?
 
 1. 使用切換來顯示或隱藏清單中的欄。
 
-<span class="preview">您可以在搜尋方塊中搜尋欄。</span>
+   <span class="preview">您可以在搜尋方塊中搜尋欄。</span>
 
 1. 若要重新排序欄，請按一下&#x200B;**拖曳**&#x200B;圖示![拖曳圖示](assets/drag-icon.png)並將欄移至您想要的位置。 移動欄會自動變更清單。
 

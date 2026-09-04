@@ -23,9 +23,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 54590f8d98a26bf3a7ee7e5becb3c21a24ffeab5
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 1266
+source-wordcount: 1278
 ht-degree: 3%
 
 ---
@@ -33,13 +33,9 @@ ht-degree: 3%
 # 將任務轉換為專案
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 當專案中的任務需要比您原本計畫更大的工作量完成時，您可以將其轉換為專案。
@@ -111,16 +107,16 @@ Old:
 * 檔案、檔案版本和校樣會移至新專案。
 * 將任務轉換為專案時有5分鐘的處理限制。 如果任務附加了大量檔案且無法轉換，您可能需要移除部分檔案，然後再試一次。
 * 當您的組織使用舊版Workfront和Adobe雲端儲存空間存放檔案時，將任務轉換為專案時會出現以下情況： <!--this info also duplicated in Document management overview for projects and related objects and Convert an issue to a project-->
-   * 舊版Workfront儲存空間任務會建立舊版Workfront儲存空間專案。
-   * Adobe雲端儲存空間任務會建立Adobe雲端儲存空間專案。
-   * 使用舊版Workfront儲存範本來轉換Adobe雲端儲存空間任務，會建立Adobe雲端儲存空間專案。
-   * 使用Adobe雲端儲存空間範本來轉換舊版Workfront儲存空間任務，會建立Adobe雲端儲存空間專案。 檔案及其核准仍保留在目前專案中。
+  * 舊版Workfront儲存空間任務會建立舊版Workfront儲存空間專案。
+  * Adobe雲端儲存空間任務會建立Adobe雲端儲存空間專案。
+  * 使用舊版Workfront儲存範本來轉換Adobe雲端儲存空間任務，會建立Adobe雲端儲存空間專案。
+  * 使用Adobe雲端儲存空間範本來轉換舊版Workfront儲存空間任務，會建立Adobe雲端儲存空間專案。 檔案及其核准仍保留在目前專案中。
 
-     如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
+    如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
-     >[!TIP]
-     >
-     >您的Workfront執行個體可能無法存取這兩種型別的檔案儲存空間。
+    >[!TIP]
+    >
+    >您的Workfront執行個體可能無法存取這兩種型別的檔案儲存空間。
 
 
 * 所有子任務和問題的狀態和完成百分比會保留。
@@ -163,7 +159,7 @@ Old:
     </tr> 
     <tr> 
     <td>專案狀況</td> 
-    <td>符合由Workfront管理員在設定區域中決定的系統層級預設偏好設定。如需詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md">將自訂條件設為專案的預設值</a>
+    <td>符合由Workfront管理員在設定區域中決定的系統層級預設偏好設定。 如需詳細資訊，請參閱<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md">將自訂條件設為專案的預設值</a>
     </td> 
     </tr> 
     <tr> 

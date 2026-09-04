@@ -22,7 +22,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
 source-wordcount: 1150
 ht-degree: 3%
@@ -39,13 +39,9 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 -->
 
 <!--
-<div class="preview">
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 小時型別是您用來定義小時專案的標籤。 您可以將時數型別與時數專案建立關聯。
@@ -58,9 +54,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
   以下專案專屬預設小時型別一律可用：
 
-   * 專案時間
-   * 任務時間
-   * 問題時間
+  * 專案時間
+  * 任務時間
+  * 問題時間
 
   [!DNL Workfront]管理員會決定哪些專案特定時數型別可供使用，如[定義時數型別和可用性](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)中所述。
 

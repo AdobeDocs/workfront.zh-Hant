@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 3121
+source-wordcount: 3273
 ht-degree: 1%
 
 ---
@@ -33,12 +33,10 @@ ht-degree: 1%
 
 # 連線記錄型別
 
-<!--
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
 
 
 {{planning-important-intro}}
@@ -308,18 +306,15 @@ Old:
 
    ![從另一個工作區新增記錄型別的連線](assets/new-connection-allow-multiple-records-box.png)
 
-1. （視條件而定）當您從相同工作區連線記錄型別，或使用Workfront物件型別的Planning記錄型別時，請選取下列其中一項：
+1. <span class="preview">選取&#x200B;**讓此連線相依**&#x200B;以在此連線欄位與連線記錄型別上建立的欄位之間新增相依性。</span>
 
-   * **多重選取**：選取此專案以允許目前記錄型別中的一個記錄與連線記錄型別中的多個記錄連線。
-   * **Single-select**：選取此專案可允許來自目前記錄型別的一個記錄與來自連線記錄型別的一個記錄連線。
+   <span class="preview">如需詳細資訊，請參閱[管理相依連線](/help/quicksilver/planning/architecture/manage-dependent-connections.md)。</span>
 
-1. 在&#x200B;**連線型別**&#x200B;區段<!--<span class="preview">, when connecting all object types but not Planning record types</span>-->中，選取&#x200B;**在連結的記錄型別**&#x200B;上建立對應的欄位。
+1. 在&#x200B;**連線型別**&#x200B;區段中，選取&#x200B;**在連結的記錄型別**&#x200B;上建立對應的欄位。
 
-   <!--
-    >[!TIP]
-    >
-    ><span class="preview">The **Connection type** section has been replaced by the **Connection settings** section when connecting Planning record types. </span>
-    -->
+   >[!TIP]
+   >
+   ><span class="preview">連線Planning記錄型別時，**連線型別**&#x200B;區段已由&#x200B;**連線設定**&#x200B;區段取代。</span>
 
    選取後，除了新增到目前記錄型別的連線欄位外，還會為您連線的記錄型別建立連線欄位。 預設為停用。
 
@@ -332,6 +327,10 @@ Old:
    >* 連結的記錄欄位不會為來自另一個應用程式的物件在其各自的應用程式中建立。 例如：
    >   * 未針對連線至Planning記錄的Workfront物件建立欄位。
    >   * Planning記錄型別從GenStudio工作區連線至記錄型別時，未建立任何欄位。
+1. （視條件而定）當您從相同工作區連線記錄型別，或使用Workfront物件型別的Planning記錄型別時，請選取下列其中一項：
+
+   * **多重選取**：選取此專案以允許目前記錄型別中的一個記錄與連線記錄型別中的多個記錄連線。
+   * **Single-select**：選取此專案可允許來自目前記錄型別的一個記錄與來自連線記錄型別的一個記錄連線。
 
 1. （視條件而定）如果您在&#x200B;**連線型別**&#x200B;區段中啟用了&#x200B;**在連結的記錄型別**&#x200B;上建立對應的欄位，請從下列選項中選擇，以指出使用者可連線到多少筆記錄，以及可從多少筆記錄連線：
 
@@ -358,7 +357,9 @@ Old:
    >
    >您的Workfront管理員可以透過Workfront中的中繼資料對應，將Workfront Planning欄位對應至Experience Manager Assets欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
+1. <span class="preview"> （選擇性和條件性）如果您選取&#x200B;**讓此連線相依**，請按一下&#x200B;**記錄篩選規則**&#x200B;以建立篩選器，在兩個連線的記錄欄位顯示於相同記錄型別時，限制連線欄位值的值。</span>
 
+   <span class="preview">如需詳細資訊，請參閱[管理相依連線](/help/quicksilver/planning/architecture/manage-dependent-connections.md)。</span>
 1. （選擇性）在&#x200B;**記錄外觀**&#x200B;區域中選擇下列其中一個選項：
 
    * **名稱和影像**：連線記錄的名稱和縮圖或圖示都會顯示在連線記錄欄位中。 這是預設選項。
@@ -382,7 +383,9 @@ Old:
    >
    >* 您在&#x200B;**記錄外觀**&#x200B;區域中所選取的專案會決定記錄在系統所有位置的連線中如何顯示，包括所有檢視和詳細資訊頁面。
 
-1. 選取&#x200B;**選取查閱欄位**&#x200B;以從您連線的記錄型別新增欄位。 查閱欄位是與您要連結的記錄或物件型別相關聯的欄位。 連結它們會顯示您連結的記錄或物件在您連結的記錄上的資訊。 依預設會選取此選項。
+1. 選取&#x200B;**選取查閱欄位**&#x200B;或<span class="preview">按一下&#x200B;**查閱欄位**&#x200B;功能表</span>，從您連線的記錄型別中選擇並新增欄位。
+
+   查閱欄位是與您要連線的記錄或物件型別相關聯的欄位。 連結它們會顯示您連結的記錄或物件在您連結的記錄上的資訊。<!--No more: This is selected by default.-->
 
    >[!NOTE]
    >

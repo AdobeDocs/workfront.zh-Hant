@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5d51290f1181ea1abfc6ac918721e803da049790
+source-git-commit: bde3551443641024b87397e35064ebf4577179eb
 workflow-type: tm+mt
 source-wordcount: 1471
 ht-degree: 1%
@@ -239,6 +239,7 @@ Old:
    編輯預先填入的值，以更符合您的專案。
 
    如需詳細資訊，請參閱[編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md)。
+
 1. 按一下&#x200B;**建立專案**。
 
    如果您在上一步沒有變更範本中定義的所有詳細資訊，這些詳細資訊會自動與新建立的專案建立關聯。
@@ -273,6 +274,7 @@ Old:
    如果欄位已填入範本中，則該欄位會預先填入&#x200B;**新增專案**&#x200B;方塊。 您可以編輯預先填入的值，以更符合您的專案。
 
    如需詳細資訊，請參閱[編輯專案](../../../manage-work/projects/manage-projects/edit-projects.md)。
+
 
 1. 按一下&#x200B;**建立專案**。
 

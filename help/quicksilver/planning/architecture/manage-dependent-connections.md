@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1404'
 ht-degree: 1%
 
 ---
@@ -158,7 +158,9 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
    * 已連線記錄欄位的欄標題中有一個指示，說明該欄位處於相依連線關係。
 
      欄標題![&#128279;](assets/dependent-icon-tooltip-in-column-header.png)中的相依圖示工具提示
+1. （選擇性）按一下「**記錄篩選規則**」，並從您要連線的記錄型別中選取欄位，以限制該欄位值的選項，然後按一下「**完成**」。
 
+   當這兩個欄位出現在第三個記錄型別上時，連線的欄位記錄型別的選項將受到您在此處選取的篩選條件的限制。
 1. （選用且建議使用）移至第三個記錄型別，並將第一個和第二個記錄型別新增為連線的記錄欄位。
 
    ![第三個記錄型別上的相依已連線欄位指標](assets/dependent-connected-field-indicator-on-a-third-record-type.png)

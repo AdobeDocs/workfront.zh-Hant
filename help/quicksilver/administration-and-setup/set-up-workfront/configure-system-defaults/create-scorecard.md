@@ -4,7 +4,7 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: 建立計分卡
 description: 計分卡可測量專案與專案組合先前建立之條件的符合程度。 計分卡通常可反映組織的使命、價值和策略目標。Portfolio經理通常會定義計分卡問題和答案，以確保它們在專案優先順序設定和選擇期間具有意義和價值。  [!DNL Adobe Workfront] 管理員會根據投資組合經理的建議來建置計分卡。
-author: Becky
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
@@ -19,10 +19,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 722
-ht-degree: 3%
+source-wordcount: 846
+ht-degree: 2%
 
 ---
 
@@ -32,11 +32,12 @@ ht-degree: 3%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
--->
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
+
 
 計分卡可測量專案與專案組合先前建立之條件的符合程度。 計分卡通常可反映組織的使命、價值和策略目標。
 
@@ -128,6 +129,11 @@ ht-degree: 3%
 
    這會建立計分卡，專案經理現在可以將其附加至其專案業務案例。
 
+
+1. <span class="preview"> （選擇性）若要編輯計分卡，請在計分卡清單中選取計分卡，然後按一下清單底部的&#x200B;**編輯** ![編輯計分卡](assets/edit-scorecard-icon.png)。</span>
+
+1. <span class="preview"> （選擇性）若要刪除計分卡，請在計分卡清單中選取該計分卡，然後按一下清單底部的&#x200B;**刪除** ![刪除計分卡](assets/delete-scorecard-icon.png)。</span>
+
 ## 複製現有計分卡
 
 您可以複製並編輯現有的計分卡，藉此建立計分卡。
@@ -135,11 +141,15 @@ ht-degree: 3%
 {{step-1-to-setup}}
 
 1. 按一下左側面板中的&#x200B;**[!UICONTROL 計分卡]**。
-1. 在清單中選取計分卡，然後按一下計分卡清單頂端的&#x200B;**複製**&#x200B;圖示![複製計分卡圖示](assets/copy-scorecard-icon.png)。
+1. 在清單中選取計分卡，然後按一下計分卡清單<span class="preview">頂端的&#x200B;**複製**&#x200B;或清單</span>底部的&#x200B;**複製** ![複製計分卡圖示](assets/copy-scorecard-icon.png)。
 
-   **複製計分卡**&#x200B;方塊開啟。
+   **複製**&#x200B;計分卡方塊開啟。
 
    ![複製計分卡方塊](assets/copy-scorecard-box.png)
+
+   >[!TIP]
+   >
+   >計分卡的名稱會顯示在方塊的標題中。
 
 1. 指定下列資訊：
 
