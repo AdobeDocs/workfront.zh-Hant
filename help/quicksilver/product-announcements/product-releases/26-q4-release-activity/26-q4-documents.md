@@ -4,9 +4,9 @@ description: 2026年第四季檔案增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1b37b57f764d1579629e019c2025c809530124ea
+source-git-commit: 5e13c944ac485a6999dd0a788cfbb0f5d5169742
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1101'
 ht-degree: 0%
 
 ---
@@ -34,23 +34,19 @@ For more information, see [Manage approval templates](/help/quicksilver/review-a
 
 -->
 
-<!--
-
-## Frame comment visibility in Workfront
+## Workfront中的框架註解可見性
 
 >[!NOTE]
 >
->Preview: September 3, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>預覽： 2026年9月3日
+>生產快速發行： 2026年9月17日
+>適用於所有人的生產： 2026年10月15日
 
-When an approval workflow is created for a document, users can leave comments and make annotations in the Frame.io viewer. These comments are not displayed in the Workfront Comments panel, but you can view them in the Frame.io viewer.
+為檔案建立核准工作流程時，使用者可以在Frame.io檢視器中留下註解及製作註解。 這些註解不會顯示在「Workfront註解」面板中，但您可以在Frame.io檢視器中檢視它們。
 
-Now, the Comments panel in Workfront displays a message letting you know when new comments are available in Frame.io.
+現在，Workfront中的「註解」面板會顯示訊息，讓您知道Frame.io中有新註解時。
 
-For more information, see [Add an update to a document](/help/quicksilver/documents/managing-documents/add-update-documents.md).
-
--->
+如需詳細資訊，請參閱[新增更新至檔案](/help/quicksilver/documents/managing-documents/add-update-documents.md)。
 
 ## 從核准電子郵件連結直接校訂存取權
 
