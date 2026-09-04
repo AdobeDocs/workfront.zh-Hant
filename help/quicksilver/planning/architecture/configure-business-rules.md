@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
+source-git-commit: cafe52c228520becb66e2fa9d8121127223a8f71
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1094'
 ht-degree: 1%
 
 ---
@@ -95,7 +95,7 @@ ht-degree: 1%
 * 規則適用於可以編輯或刪除記錄的所有人。
 * 記錄型別可以有多個商業規則。 <!--Syuzanna is checking this because it should be just ONE rule per action: one per edit and one per delete - see this: https://workfront.slack.com/archives/C0BHWEUSJCU/p1788281638322049?thread_ts=1787924876.280359&cid=C0BHWEUSJCU; I also logged a bug for this because it released with more than one per action - https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/6a99add600001e9aa90435ec181dec3e/overview-->
 
-  所有規則會同時檢查，而錯誤訊息會顯示一個陳述式中遺漏的所有欄位。
+  所有規則會同時檢查在一起。<!-- I have asked Syuzanna and Norayr multiple times HOW are the rules run/ prioritized and I got no answers; when I know, I will update here-->
 
 ## 設定商業規則
 
@@ -105,7 +105,7 @@ ht-degree: 1%
    「商業規則」表格頁面隨即開啟。
 1. 按一下&#x200B;**新商業規則**。
 1. 在&#x200B;**新企業**&#x200B;規則方塊中，在第一個可用欄位中為企業規則新增名稱。 這是必填欄位
-1. （選用）新增說明以定義商業規則，然後按一下[儲存]。**&#x200B;**
+1. （選用）新增說明以定義商業規則，然後按一下[儲存]。****
 
    「商業規則設定」表單隨即開啟。
 
@@ -141,7 +141,7 @@ ht-degree: 1%
 
    在商業規則的&#x200B;**Then**&#x200B;區段中，您可以檢視規則功能的說明。
 
-1. 按一下[啟動]&#x200B;**&#x200B;**&#x200B;以啟用此記錄型別的規則，然後按一下[儲存]&#x200B;**&#x200B;**。
+1. 按一下[啟動]****&#x200B;以啟用此記錄型別的規則，然後按一下[儲存]****。
 
    規則會在您啟動後立即套用，而所有有權編輯或刪除所選記錄型別中記錄的使用者都必須遵循這些規則。
 1. （選用且建議使用）按一下頁首中&#x200B;**Business rules**&#x200B;左側的返回箭頭，以顯示記錄型別頁面，並移至表格檢視或開啟記錄頁面，然後嘗試編輯或刪除記錄，以測試您剛才建立的規則。
