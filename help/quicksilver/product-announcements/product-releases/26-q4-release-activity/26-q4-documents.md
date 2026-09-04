@@ -4,7 +4,7 @@ description: 2026年第四季檔案增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4ca5bba5090d9e3a72c8964bdf6cca1085c314db
+source-git-commit: 1b37b57f764d1579629e019c2025c809530124ea
 workflow-type: tm+mt
 source-wordcount: '1012'
 ht-degree: 0%
@@ -16,6 +16,23 @@ ht-degree: 0%
 本頁說明2026年第四季版本的檔案增強功能與預覽環境。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2026年第四季版本週期目前可用的所有變更清單，請參閱[2026年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)。
+
+<!--
+
+## System Administrators full access to approval templates
+
+>[!NOTE]
+>
+>Preview: September 4, 2026
+>Production fast release: September 4, 2026
+>Production for everyone: September 4, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+System Administrators can now view, edit, delete, and bulk-delete every approval template in the account, regardless of who created or shared it. Previously, System Administrators were subject to the same sharing rules as other users, and could only see or manage templates they created or that were shared with them.
+
+For more information, see [Manage approval templates](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
+
+-->
 
 <!--
 
@@ -184,3 +201,23 @@ Adobe雲端儲存空間組織現在支援所有媒體型別影像格式。 （�
 連結功能由「內容顧問」提供技術支援，因此您也可以在選取內容時取得AI 搜尋、智慧建議、行銷活動簡訊分析等等。
 
 如需詳細資訊，請參閱[將Experience Manager Assets的內容與Adobe雲端儲存空間連結](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)。
+
+<!--
+
+## Approval workflow templates are private by default
+
+>[!NOTE]
+>
+>Preview: July 30, 2026
+>Production fast release: August 13, 2026
+>Production for everyone: October 15, 2026
+
+Approval templates are now private by default. Previously, every approval requester could see every template in the system, which made template lists long and hard to navigate. Now, a template is visible only to the user who created it, unless the creator shares it.
+
+For more information, see:
+
+* [Share a template](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template) in Manage approval templates
+* [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+
+-->
+
