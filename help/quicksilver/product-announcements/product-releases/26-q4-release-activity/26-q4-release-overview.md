@@ -4,9 +4,9 @@ description: 此頁面提供2026年第四季度版本中包含的功能相關資
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4ca5bba5090d9e3a72c8964bdf6cca1085c314db
+source-git-commit: 5e13c944ac485a6999dd0a788cfbb0f5d5169742
 workflow-type: tm+mt
-source-wordcount: '2559'
+source-wordcount: '2592'
 ht-degree: 1%
 
 ---
@@ -262,14 +262,23 @@ ht-degree: 1%
 <!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Frame comment visibility in Workfront</a>
-                <p>The Comments panel in Workfront now lets you know when new comments are available in the Frame.io viewer.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">System Administrators full access to approval templates</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>System Administrators can now view, edit, delete, and bulk-delete every approval template in the account, regardless of who created or shared it.</p>
             </td>
-            <td><p>September 3, 2026</p></td>
-            <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>September 4, 2026</p></td>
+            <td><p>September 4, 2026</p></td>
+            <td><p>September 4, 2026</p></td>
         </tr>
 -->
+        <tr>
+            <td>
+                在Workfront中顯示<a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">框架註解</a>
+                <p>Workfront中的「註解」面板現在可讓您知道Frame.io檢視器中何時有新註解。</p>
+            </td>
+            <td><p>2026年9月3日</p></td>
+            <td><p>2026年9月17日</p></td>
+            <td><p>2026年10月15日</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">核准電子郵件連結的直接校訂存取權</a>
@@ -353,7 +362,19 @@ ht-degree: 1%
             <td><p>2026年8月13日</p></td>
             <td><p>2026年10月15日</p></td>
         </tr>
-    </tbody>
+<!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Approval workflow templates are private by default</a>
+                <p>Approval templates are now private by default, visible only to the user who created them unless shared.</p>
+            </td>
+            <td><p>July 30, 2026</p></td>
+            <td><p>August 13, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+-->
+
+    &lt;/tbody>
 </table>
 
 ### Financial Management增強功能

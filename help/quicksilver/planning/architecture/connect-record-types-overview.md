@@ -19,9 +19,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
+source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
 workflow-type: tm+mt
-source-wordcount: 2440
+source-wordcount: 2498
 ht-degree: 1%
 
 ---
@@ -191,6 +191,13 @@ ht-degree: 1%
       >例如，如果專案的計劃開始日期在Workfront中顯示為3:00 PM，則在匯入的查詢欄位中，它將在Workfront Planning中顯示為15:00。
 
   * 您必須連線記錄型別，才能在Workfront Planning中建立階層。 當記錄型別連線不存在時，會在您建立階層時自動建立連線。 如需詳細資訊，請參閱[建立工作區階層](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)。
+
+  * 如果您的組織購買了Adobe GenStudio for Performance Marketing套件，則有下列情況：
+
+    * 您無法從Planning記錄型別連線到GenStudio記錄型別。
+    * 您可以在GenStudio工作區中連結GenStudio記錄型別。
+    * 您可以從GenStudio記錄型別和Planning記錄型別連線GenStudio Brands。
+    * 您不能在階層中包含GenStudio品牌。
 
   <div class="preview">
 

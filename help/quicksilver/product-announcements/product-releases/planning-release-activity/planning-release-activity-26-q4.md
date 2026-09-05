@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 3f0a939e9de6436117fcb8242449793dcef73205
+source-git-commit: 1b37b57f764d1579629e019c2025c809530124ea
 workflow-type: tm+mt
-source-wordcount: '1770'
+source-wordcount: '1780'
 ht-degree: 0%
 
 ---
@@ -218,6 +218,7 @@ Workspace管理員現在可以定義已連線記錄型別之間的相依性。 �
 
 * 在連線記錄型別時，我們在「新連線」標籤中新增了新的「連線設定」區段
 * 我們已在新區段中新增「使該連線相依性」設定
+* 我們已變更您新增查閱欄位至連線的方式
 
 
 如需詳細資訊，請參閱[管理相依連線](/help/quicksilver/planning/architecture/manage-dependent-connections.md)。

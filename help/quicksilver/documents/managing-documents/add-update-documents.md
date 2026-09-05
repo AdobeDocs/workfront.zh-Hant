@@ -17,14 +17,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: fd9480e119e9ea8e638221d569e57b27ecd5a34d
 workflow-type: tm+mt
-source-wordcount: 513
+source-wordcount: 631
 ht-degree: 3%
 
 ---
 
 # 將更新新增至檔案
+
+{{highlighted-preview}}
 
 <!--Audited: April, 2024-->
 
@@ -77,7 +79,7 @@ ht-degree: 3%
 
    * 按一下清單中的檔案，按一下右上角的&#x200B;**開啟摘要**&#x200B;圖示![開啟摘要圖示](assets/qs-summary-in-new-toolbar-small.png)，然後新增註解，或按一下&#x200B;**回覆**&#x200B;新增現有註解的回覆。 如需「摘要」的相關資訊，請參閱[檔案概述](../../documents/managing-documents/summary-for-documents.md)的摘要。
    * 將滑鼠停留在檔案上，按一下&#x200B;**檔案詳細資料**，然後在左側面板中按一下&#x200B;**更新**。
-如需有關新增更新至物件的詳細資訊，請參閱[更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
+     如需有關新增更新至物件的詳細資訊，請參閱[更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
    更新和回覆會新增至檔案以及較高等級的物件。 如需詳細資訊，請參閱[更新區段總覽](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
@@ -101,3 +103,20 @@ ht-degree: 3%
 1. 尋找您需要的檔案，然後按一下註解圖示![註解圖示](assets/new-doc-comment-icon.png)以開啟「註解」面板。
 1. 在文字方塊中輸入您的註解，然後按一下&#x200B;**提交**。
    ![新檔案註解面板](assets/comments-new-doc.png)
+
+
+<div class="preview">
+
+### 預覽中的Frame.io註解指標
+
+為檔案建立核准工作流程時，使用者可以在Frame.io檢視器中留下註解及製作註解。 這些註解不會顯示在「Workfront註解」面板中，但您可以在Frame.io檢視器中檢視它們。
+
+Workfront中的「註解」面板會顯示訊息，讓您知道Frame.io中有新註解時。
+
+1. 按一下「**檢閱註解**」，在Frame.io檢視器中開啟檔案並檢視註解。
+
+>[!NOTE]
+>
+>* 如果您擁有Frame.io Enterprise授權，則無需核准工作流程即可在Frame.io檢視器中檢視註解。
+
+</div>
