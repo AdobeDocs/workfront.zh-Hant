@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: bde3551443641024b87397e35064ebf4577179eb
+source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
 workflow-type: tm+mt
 source-wordcount: 1471
 ht-degree: 1%
@@ -195,7 +195,7 @@ Old:
       >
       >如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
-   1. （條件式與選擇性）如果您已選取舊版儲存範本，請選取「新增專案」方塊右下角的「在Adobe雲端儲存空間上建立此專案」設定。 這將建立Adobe雲端儲存空間專案。 範本中的檔案和檔案資料夾將不會新增到專案。
+   1. （條件式及選擇性）如果您選取了舊版儲存範本，請在[新增專案]方塊的右下角選取&#x200B;**在Adobe雲端儲存空間上建立此專案**&#x200B;設定。 這將建立Adobe雲端儲存空間專案。 範本中的檔案和檔案資料夾將不會新增到專案。
 
    1. 檢閱右側的下列範本詳細資訊：
 

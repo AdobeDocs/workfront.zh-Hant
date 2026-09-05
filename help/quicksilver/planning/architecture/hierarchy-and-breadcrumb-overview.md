@@ -14,9 +14,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
+source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
 workflow-type: tm+mt
-source-wordcount: 1051
+source-wordcount: 1108
 ht-degree: 0%
 
 ---
@@ -83,6 +83,12 @@ ht-degree: 0%
   * 當連線的記錄型別是階層的一部分時，您可以從子記錄型別連線一個記錄，到從父記錄型別連線最多10個記錄。
 
     例如，如果您在作為父項的「行銷活動」與作為子項記錄的「角色」之間建立階層，則可以將相同的角色連線到最多10個行銷活動。
+  * 如果您的組織購買了Adobe GenStudio for Performance Marketing套件，則有下列情況：
+
+    * 您無法從Planning記錄型別連線到GenStudio記錄型別。
+    * 您可以在GenStudio工作區中連結GenStudio記錄型別。
+    * 您可以將GenStudio Brands連線至GenStudio記錄型別和Planning記錄型別。
+    * 您不能在階層中包含GenStudio品牌。
 
 ## 檢視階層連結時的注意事項
 
