@@ -4,7 +4,7 @@ description: 2026年第四季檔案增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0e7a5b94d189cdebb7ded6c0fab1a98eb8029cf7
+source-git-commit: 37bfc284daa1056314a5e3b64822720a0dd21fc8
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 0%
@@ -211,7 +211,7 @@ Adobe雲端儲存空間組織現在支援所有媒體型別影像格式。 （�
 
 連結功能由「內容顧問」提供技術支援，因此您也可以在選取內容時取得AI 搜尋、智慧建議、行銷活動簡訊分析等等。
 
-如需詳細資訊，請參閱[將Experience Manager Assets的內容與Adobe雲端儲存空間連結](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)。
+如需詳細資訊，請參閱[將Experience Manager Assets的內容與Adobe雲端儲存空間連結](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md#link-content-from-experience-manager-assets)。
 
 <!--
 
