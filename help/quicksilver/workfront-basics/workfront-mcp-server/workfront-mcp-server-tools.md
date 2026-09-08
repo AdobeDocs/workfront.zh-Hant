@@ -5,9 +5,9 @@ title: Adobe Workfront MCP伺服器工具
 description: 透過Adobe Workfront MCP伺服器可用的工具參考清單，按Workfront區域分組。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: c52aa353d5b9856cc6c7de458596f0145fb2c6e0
+source-git-commit: 7d95c420db4566936f225daae7b82f61f757b4f5
 workflow-type: tm+mt
-source-wordcount: '2721'
+source-wordcount: '2785'
 ht-degree: 4%
 
 ---
@@ -300,6 +300,13 @@ ht-degree: 4%
 | 列出實體 | `insights_list_entities` | 列出可供查詢的所有Workfront物件型別。 | 讀取 |
 | 搜尋使用者 | `insights_search_users` | 在您的Workfront執行個體中依名稱尋找人員。 輸入完整或部分名稱，然後取回最符合的使用者。 這也可以選擇包括AI共同作業人員「機器人」以及一般使用者。 | 讀取 |
 
+## 意見回饋工具
+
+<span class="preview">意見回饋工具可讓您直接從AI代理平台報告Workfront MCP伺服器的使用體驗。</span>
+
+| 標題 | 工具名稱 | 作用 | 動作 |
+| --- | --- | --- | --- |
+| <span class="preview">分享意見</span> | <span class="preview">`share_feedback`</span> | <span class="preview">記錄您報告的情緒和交談期間發生的事情，以便改善Workfront的MCP工具。 僅用於您明確要求分享意見時（例如「分享意見回饋」或「回報錯誤」）。</span> | <span class="preview">寫入</span> |
 
 
 
