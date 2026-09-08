@@ -4,10 +4,10 @@ description: 2026年第四季報表增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ee1fceee828c97db535ccc03c8b428940d6f7eed
+source-git-commit: bc0b2d70878e754c8f4b0c2911d32e71b5d4c78d
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 3%
+source-wordcount: '783'
+ht-degree: 4%
 
 ---
 
@@ -17,27 +17,21 @@ ht-degree: 3%
 
 如需2026年第四季版本週期目前可用的所有變更清單，請參閱[2026年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)。
 
-<!--
-
-## Duplicate dashboards in Canvas Dashboards
+## 在畫布儀表板中複製儀表板
 
 >[!NOTE]
 >
->Preview: September 3, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>預覽： 2026年9月3日
+>生產快速發行： 2026年9月17日
+>適用於所有人的生產： 2026年10月15日
 
-You can now duplicate a Canvas Dashboard using the new **Duplicate dashboard** action. This action is available to any user whose access level grants edit or create rights to Dashboards, even if they only have view access to the specific dashboard being copied. Users without edit or create rights to Dashboards do not see this action.
+您現在可以使用新的&#x200B;**複製儀表板**&#x200B;動作來複製畫布儀表板。 任何使用者的存取層級授予控制面板的編輯或建立許可權時，都可以使用此動作，即使他們只有所複製之特定控制面板的檢視存取權。 沒有控制面板編輯或建立許可權的使用者看不到此動作。
 
-When you duplicate a dashboard, you can rename it, update its description and currency, and choose which widgets, dashboard filters, and dashboard prompts to carry over to the copy.
+當您複製儀表板時，可以重新命名儀表板、更新其說明和貨幣，以及選擇要延續到副本的Widget、儀表板篩選器和儀表板提示。
 
-Run as user configurations on widgets are only preserved if you are the designated user or a system administrator. Sharing preferences are not copied to the new dashboard, and a confirmation message with a link to the new dashboard displays once the copy is complete.
+只有當您是指定的使用者或系統管理員時，才會保留Widget上的執行身分使用者設定。 共用偏好設定不會複製到新儀表板，並在複製完成後顯示一則確認訊息，其中包含新儀表板的連結。
 
-Previously, there was no way to duplicate a dashboard; users had to rebuild dashboards from scratch to create audience-specific variations.
-
-For more information, see 
-
--->
+過去，無法複製儀表板；使用者必須從頭開始重建儀表板，以建立對象特定變數。
 
 ## 畫布儀表板中的核准型別欄位
 
@@ -65,7 +59,7 @@ For more information, see
 | 核准流程 | 工作核准流程 |
 | 核准階段 | 工作核准階段 |
 | 核准者狀態 | 工作核准者狀態 |
-| 等待核准 | 等待工作核准 |
+| 正在等待核准 | 正在等待工作核准 |
 
 此變更不會影響目前報表的運作方式。
 
