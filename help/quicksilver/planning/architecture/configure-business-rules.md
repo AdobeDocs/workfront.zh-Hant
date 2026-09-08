@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: cafe52c228520becb66e2fa9d8121127223a8f71
+source-git-commit: a0ba955b089480c01b187e39ed5a8a8226b23ea7
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1164'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 1%
    </td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront授權</p></td> 
-   <td><p>Workflow Standard</p>
+   <td><p>工作流程貢獻者或更高版本</p>
    </td> 
   </tr> 
 <tr> 
@@ -105,7 +105,7 @@ ht-degree: 1%
    「商業規則」表格頁面隨即開啟。
 1. 按一下&#x200B;**新商業規則**。
 1. 在&#x200B;**新企業**&#x200B;規則方塊中，在第一個可用欄位中為企業規則新增名稱。 這是必填欄位
-1. （選用）新增說明以定義商業規則，然後按一下[儲存]。**&#x200B;**
+1. （選用）新增說明以定義商業規則，然後按一下[儲存]。****
 
    「商業規則設定」表單隨即開啟。
 
@@ -141,9 +141,10 @@ ht-degree: 1%
 
    在商業規則的&#x200B;**Then**&#x200B;區段中，您可以檢視規則功能的說明。
 
-1. 按一下[啟動]&#x200B;**&#x200B;**&#x200B;以啟用此記錄型別的規則，然後按一下[儲存]&#x200B;**&#x200B;**。
+1. 按一下[啟動]****&#x200B;以啟用此記錄型別的規則，然後按一下[儲存]****。
 
    規則會在您啟動後立即套用，而所有有權編輯或刪除所選記錄型別中記錄的使用者都必須遵循這些規則。
+1. （選擇性）按一下頁首中商業規則名稱的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，以開啟&#x200B;**規則詳細資料**&#x200B;方塊並更新商業規則的相關資訊。
 1. （選用且建議使用）按一下頁首中&#x200B;**Business rules**&#x200B;左側的返回箭頭，以顯示記錄型別頁面，並移至表格檢視或開啟記錄頁面，然後嘗試編輯或刪除記錄，以測試您剛才建立的規則。
 
 ## 管理商業規則
@@ -153,18 +154,22 @@ ht-degree: 1%
 編輯現有規則不會變更現有記錄。 編輯的規則僅適用於有人嘗試編輯或刪除現有記錄時。
 
 1. 返回記錄型別的&#x200B;**商業規則**&#x200B;表格頁面。
-1. 尋找您要變更的規則。
-1. 將游標暫留在規則名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下下列其中一個選項：
+1. 在表格檢視中尋找您要變更的規則。
+1. 將游標停留在使用中規則的名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下下列其中一個選項：
 
    * **編輯**：這會開啟商業規則設定頁面，您可以編輯商業規則的相關資訊。
-   * **停用**： <!--check this in the UI: right now, it says Disable-->這會停止規則觸發，但會保留以備將來使用。
+   * **停用**：這會停止規則觸發，但會保留以備將來使用。
    * **刪除**：已刪除規則的所有相關資訊。 已刪除的規則無法復原。
 
+   ![商業規則其他功能表已展開](assets/business-rule-more-menu-in-table-expanded.png)
+
    已編輯的規則或規則的停用僅適用於未來的記錄，且不會回溯套用。
+1. （選擇性和條件性）將滑鼠停留在表格中已停用的商業規則名稱上，然後按一下[其他] **> [啟動]** **以啟動規則。**
 
-   <!--add NEW screen shot below if UI is fixed with Deactivate at release; it was fixed in devTest-->
+   規則已啟用。
 
-   <!--![Business rule more menu expanded](assets/business-rule-more-menu-in-table-expanded.png)-->
+
+
 
 <!--
 
