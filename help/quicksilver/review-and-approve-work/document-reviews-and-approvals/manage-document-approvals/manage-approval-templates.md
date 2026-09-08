@@ -5,11 +5,17 @@ title: 管理核准範本
 description: 您可以在核准範本建立後加以編輯、共用及刪除。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 75b5d93d97458a71d206a7701f8773d309eeb834
 workflow-type: tm+mt
 source-wordcount: 504
@@ -71,7 +77,7 @@ ht-degree: 5%
 
 1. 在左側面板中，按一下&#x200B;**檢閱和核准** > **核准範本**。
 1. 選取您要共用之範本旁的核取方塊。 頁面底部會出現一個長條圖。
-1. 在列中，按一下[共用]。**** **共用核准範本**&#x200B;對話方塊開啟。
+1. 在列中，按一下[共用]。**&#x200B;** **共用核准範本**&#x200B;對話方塊開啟。
 1. 按一下共用下拉式清單，然後選取下列其中一項：
 
    <table>
