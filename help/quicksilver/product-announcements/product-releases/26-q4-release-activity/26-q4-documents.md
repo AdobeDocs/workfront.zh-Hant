@@ -4,9 +4,9 @@ description: 2026年第四季檔案增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e13c944ac485a6999dd0a788cfbb0f5d5169742
+source-git-commit: 0336bef484214908f181b630f2d3298af5d10398
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,25 @@ ht-degree: 0%
 本頁說明2026年第四季版本的檔案增強功能與預覽環境。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2026年第四季版本週期目前可用的所有變更清單，請參閱[2026年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)。
+
+## 控制誰能看見並使用核准範本
+
+>[!NOTE]
+>
+>預覽： 2026年7月30日
+>生產快速發行： 2026年8月13日
+>適用於所有人的生產： 2026年10月15日
+
+核准範本現在預設為私人。 以前，每個核准請求者都可以看到系統中的每個範本，這使得範本清單冗長且難以瀏覽。 現在，範本僅對建立它的使用者可見，除非建立者共用它。
+
+範本建立者可以從Workfront設定的「核准範本」清單中，將範本與特定使用者或組織中的每個人共用。 請求核準時，使用者只會看到他們建立或與他們共用的範本。
+
+此變更會同時套用至新的和現有的範本，而且無論如何請求範本，存取都會一致地執行。
+
+如需詳細資訊，請參閱：
+
+* 在建立檔案的核准工作流程範本中[共用範本](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md#share-a-template)
+* [建立檔案核准工作流程](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
 
 <!--
 
