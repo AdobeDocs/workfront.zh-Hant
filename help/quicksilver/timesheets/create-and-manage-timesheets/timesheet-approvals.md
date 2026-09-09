@@ -7,20 +7,14 @@ author: Lisa
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
 TQID: https://experienceleague.adobe.com/qp-mum3AisU5J1qYW6qsb-Kq9M3-7RpBaUStpmtwSGM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 585b1e593cb59369ec933a138aa6927802c217ff
 workflow-type: tm+mt
-source-wordcount: 689
+source-wordcount: 728
 ht-degree: 3%
 
 ---
@@ -80,6 +74,7 @@ Adobe Workfront提供設定時程表核准的功能，以支援此區域。
 
 * Workfront管理員已啟用「使用者的時程表核准」和「使用者事件處理常式的時程表拒絕」 。 如需啟用事件通知的詳細資訊，請參閱[事件通知型別](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)。
 * 在使用者的設定檔頁面上啟用「我的時程表已核准」個人通知。 如需詳細資訊，請參閱[修改您自己的電子郵件通知](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
+* 提交時程表的使用者具有標準授權。 擁有輕度授權或更低授權的使用者不會收到時程表核准電子郵件通知，即使在其設定檔上啟用了我的時程表已核准個人通知時也是如此。
 
 ### 從時程表區域核準時程表
 
@@ -125,9 +120,9 @@ Adobe Workfront提供設定時程表核准的功能，以支援此區域。
 
 「首頁」區域隨即開啟。
 
-1. 確保您已將&#x200B;**我的核准** Widget新增到您的首頁區域。 如需詳細資訊，請參閱新首頁[&#128279;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)中的新增、編輯或移除Widget。
+1. 確保您已將&#x200B;**我的核准** Widget新增到您的首頁區域。 如需詳細資訊，請參閱新首頁](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)中的[新增、編輯或移除Widget。
 1. 在我的核准Widget中尋找時程表核准。
-1. （選擇性）展開[核准]或[拒絕]按鈕右側的下拉式功能表，新增有關您決定的註解，然後按一下[新增]。**&#x200B;**
+1. （選擇性）展開[核准]或[拒絕]按鈕右側的下拉式功能表，新增有關您決定的註解，然後按一下[新增]。****
 1. 按一下下列其中一個按鈕，即可做出核准決定：
 
    * 核准
