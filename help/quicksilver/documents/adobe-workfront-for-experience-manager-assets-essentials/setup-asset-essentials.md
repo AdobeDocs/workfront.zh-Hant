@@ -7,20 +7,14 @@ author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
 TQID: https://experienceleague.adobe.com/4ZNz4MKc5hvipk8bFpnPZIuWMrDLHjH-UdNiaJuY5WA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 3578c9c87c93aedd46f50fa660a54a73f5c574dc
 workflow-type: tm+mt
-source-wordcount: 620
-ht-degree: 4%
+source-wordcount: 683
+ht-degree: 3%
 
 ---
 
@@ -34,8 +28,8 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->您也可以將多個Experience Manager Assets存放庫連線至一個Workfront環境，或連線至跨組織ID的一個Workfront存放庫的多個Experience Manager Assets環境。請依照本文的設定指示，針對您想要設定的每個整合。<br>
->新檔案區域沒有此功能。
+>您也可以將多個Experience Manager Assets存放庫連線至一個Workfront環境，或連線至跨組織ID的一個Workfront存放庫的多個Experience Manager Assets環境。 針對您要設定的每項整合，請依照本文的設定指示操作。<br>
+>新檔案區域未提供此功能。
 
 ## 存取權要求
 
@@ -71,7 +65,7 @@ ht-degree: 4%
   <tr>
    <td><strong>存取層級設定</strong>
    </td>
-   <td>您必須是Workfront管理員才能設定Experience Manager整合。完成設定後，擁有Standard或Plan授權的使用者可以在個別專案上設定連結資料夾。
+   <td>您必須是Workfront管理員才能設定Experience Manager整合。 完成設定後，擁有Standard或Plan授權的使用者可以在個別專案上設定連結資料夾。
    </td>
   </tr>
 </table>
@@ -86,7 +80,7 @@ ht-degree: 4%
 
 {{step-1-to-setup}}
 
-1. 在左側面板中選取&#x200B;**檔案** ![檔案圖示](assets/document-icon.png)，然後選取&#x200B;**Experience Manager整合**。
+1. 在左側面板中選取&#x200B;**檔案** ![檔案圖示](assets/document-icon.png)，然後選取&#x200B;**Experience Manager Assets**。
 1. 選取&#x200B;**新增Experience Manager整合**。
 1. 指定下列專案：
 
@@ -100,7 +94,7 @@ ht-degree: 4%
    <tr>
       <td><strong>導覽URL</strong>
       </td>
-      <td>系統會自動填入導覽URL。此URL用於從主選單連結到您組織的Assets Essentials例項以快速訪問。
+      <td>系統會自動填入導覽URL。 此URL用於從主選單連結到您組織的Assets Essentials例項以快速訪問。
       </td>
    </tr>
    <tr>
@@ -125,7 +119,7 @@ ht-degree: 4%
 
 開始之前，您必須
 
-* 在Experience Manager Assets Essentials中設定中繼資料結構，如[設定Adobe Workfront和Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)中所述。
+* 在Experience Manager Assets Essentials中設定中繼資料結構，如[設定Adobe Workfront和Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)中所述。
 * （選用）在Workfront中設定自訂表單欄位。 Workfront有許多內建的自訂欄位可供您使用。 不過，您也可以建立自己的自訂欄位。 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
 ## 支援的Workfront和Experience Manager Assets欄位
@@ -140,7 +134,7 @@ ht-degree: 4%
 
 <!--
 Look for essentials article
-For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=zh-Hant).
+For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
 -->
 
 
