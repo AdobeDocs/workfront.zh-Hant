@@ -4,9 +4,9 @@ description: 2026年第四季檔案增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e13c944ac485a6999dd0a788cfbb0f5d5169742
+source-git-commit: 37bfc284daa1056314a5e3b64822720a0dd21fc8
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1334'
 ht-degree: 0%
 
 ---
@@ -17,22 +17,37 @@ ht-degree: 0%
 
 如需2026年第四季版本週期目前可用的所有變更清單，請參閱[2026年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)。
 
-<!--
-
-## System Administrators full access to approval templates
+## 控制誰能看見並使用核准範本
 
 >[!NOTE]
 >
->Preview: September 4, 2026
->Production fast release: September 4, 2026
->Production for everyone: September 4, 2026
->[!BADGE Off schedule]{type=Neutral}
+>預覽： 2026年7月30日
+>生產快速發行： 2026年8月13日
+>適用於所有人的生產： 2026年10月15日
 
-System Administrators can now view, edit, delete, and bulk-delete every approval template in the account, regardless of who created or shared it. Previously, System Administrators were subject to the same sharing rules as other users, and could only see or manage templates they created or that were shared with them.
+核准範本現在預設為私人。 以前，每個核准請求者都可以看到系統中的每個範本，這使得範本清單冗長且難以瀏覽。 現在，範本僅對建立它的使用者可見，除非建立者共用它。
 
-For more information, see [Manage approval templates](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
+範本建立者可以從Workfront設定的「核准範本」清單中，將範本與特定使用者或組織中的每個人共用。 請求核準時，使用者只會看到他們建立或與他們共用的範本。
 
--->
+此變更會同時套用至新的和現有的範本，而且無論如何請求範本，存取都會一致地執行。
+
+如需詳細資訊，請參閱：
+
+* 在建立檔案的核准工作流程範本中[共用範本](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md#share-a-template)
+* [建立檔案核准工作流程](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+
+## 系統管理員對核准範本的完整存取權
+
+>[!NOTE]
+>
+>預覽： 2026年9月8日
+>生產快速發行： 2026年9月8日
+>適用於所有人的生產： 2026年9月8日
+>[!BADGE 不在排程]{type=Neutral}內
+
+系統管理員現在可以檢視、編輯、刪除和大量刪除帳戶中的每個核准範本，無論範本的建立者或共用者為何。 以前，系統管理員必須遵循與其他使用者相同的共用規則，並且只能檢視或管理他們建立或與他們共用的範本。
+
+如需詳細資訊，請參閱[管理核准範本](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md)。
 
 ## Workfront中的框架註解可見性
 
@@ -196,7 +211,7 @@ Adobe雲端儲存空間組織現在支援所有媒體型別影像格式。 （�
 
 連結功能由「內容顧問」提供技術支援，因此您也可以在選取內容時取得AI 搜尋、智慧建議、行銷活動簡訊分析等等。
 
-如需詳細資訊，請參閱[將Experience Manager Assets的內容與Adobe雲端儲存空間連結](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)。
+如需詳細資訊，請參閱[將Experience Manager Assets的內容與Adobe雲端儲存空間連結](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md#link-content-from-experience-manager-assets)。
 
 <!--
 

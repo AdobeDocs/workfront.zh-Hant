@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
+source-git-commit: a0ba955b089480c01b187e39ed5a8a8226b23ea7
 workflow-type: tm+mt
-source-wordcount: 2467
+source-wordcount: 2462
 ht-degree: 1%
 
 ---
@@ -157,7 +157,7 @@ Old:
 
    或
 
-   按一下左上角的「**[!UICONTROL 新計畫]**」以建立計畫並繼續步驟5。<!--is the step still accurate-->
+   按一下&#x200B;**[!UICONTROL 新計畫]**&#x200B;以建立計畫並繼續步驟5。<!--is the step still accurate-->
 
    [!UICONTROL **新計畫**]&#x200B;方塊隨即顯示。
 

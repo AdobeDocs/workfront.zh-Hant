@@ -4,9 +4,9 @@ description: 此頁面提供2026年第四季度版本中包含的功能相關資
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: bc0b2d70878e754c8f4b0c2911d32e71b5d4c78d
+source-git-commit: 939939c9b07d554f71705782e5f6265f48e5335d
 workflow-type: tm+mt
-source-wordcount: '2709'
+source-wordcount: '2869'
 ht-degree: 1%
 
 ---
@@ -268,17 +268,15 @@ ht-degree: 1%
             <td><strong>快速發行</strong></td>
             <td><strong>每季</strong></td>
         </tr>
-<!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">System Administrators full access to approval templates</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-                <p>System Administrators can now view, edit, delete, and bulk-delete every approval template in the account, regardless of who created or shared it.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">系統管理員對核准範本的完整存取權</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <p>系統管理員現在可以檢視、編輯、刪除和大量刪除帳戶中的每個核准範本，無論範本的建立者或共用者為何。</p>
             </td>
-            <td><p>September 4, 2026</p></td>
-            <td><p>September 4, 2026</p></td>
-            <td><p>September 4, 2026</p></td>
+            <td><p>2026年9月8日</p></td>
+            <td><p>2026年9月8日</p></td>
+            <td><p>2026年9月8日</p></td>
         </tr>
--->
         <tr>
             <td>
                 在Workfront中顯示<a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">框架註解</a>
@@ -351,6 +349,15 @@ ht-degree: 1%
             </td>
             <td><p>2026年9月3日</p></td>
             <td><p>2026年9月17日</p></td>
+            <td><p>2026年10月15日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">控制誰能看見及使用核准範本</a>
+                <p>核准範本現在預設為私人，建立者可與特定使用者或組織中的每個人共用。</p>
+            </td>
+            <td><p>2026年7月30日</p></td>
+            <td><p>2026年8月13日</p></td>
             <td><p>2026年10月15日</p></td>
         </tr>
         <tr>
@@ -613,6 +620,19 @@ ht-degree: 1%
 
 * [Adobe Workfront Fusion發行活動](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
 * [Adobe Workfront規劃2026年第四季發行活動](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)。
+
+## 案頭校訂檢視器更新
+
+### 版本2.1.59
+
+所有客戶的生產版本： 2026年9月9日
+
+案頭校訂檢視器已更新至2.1.59版。 此更新包含下列變更：
+
+* 現在，案頭校訂檢視器可作為搭配Apple silicon的Mac的原生版本提供。
+* 將基礎應用程式架構(Electron)更新至更新版本，進而改善效能和安全性。
+
+如需有關下載和更新案頭校訂檢視器的資訊，請參閱[更新案頭校訂檢視器](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)。
 
 ## 公告
 

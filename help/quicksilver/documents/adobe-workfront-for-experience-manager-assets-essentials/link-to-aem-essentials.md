@@ -6,9 +6,9 @@ description: 您可以從Experience Manager Assets Essentials將資產或資料�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 0b93f6f6-cf4b-4077-a464-be7f19f7cd25
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '630'
 ht-degree: 4%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 若要使用「內容警告器」從Experience Manager Assets連結資產和資料夾，請參閱[使用Experience Manager Assets支援的「內容警告器」連結資產和資料夾](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)。
 
-如果您使用Adobe雲端儲存空間，請參閱[將Adobe Experience Manager與Frame.io整合搭配使用](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)。
+如果您使用Adobe雲端儲存空間，請參閱[將Adobe Experience Manager與Workfront和Adobe雲端儲存空間搭配使用](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)。
 
 
 ## 存取權要求

@@ -17,7 +17,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 66635b2edc78833ec2d08cef382b39b89238b565
+source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
 workflow-type: tm+mt
 source-wordcount: 1467
 ht-degree: 1%
@@ -202,7 +202,7 @@ Content Advisor將智慧型內容感知探索功能直接匯入Workfront，協�
 
 ## 考量事項
 
-* 使用Adobe雲端儲存空間的物件無法使用「內容建議程式」功能。 如果您的組織使用Adobe雲端儲存空間，您仍可以從Experience Manager Assets或Assets Essentials連結資產和資料夾，但您將無法存取Content Advisor功能，例如AI 搜尋、智慧型建議或Dynamic Media轉譯。 如需詳細資訊，請參閱[將Experience Manager Assets的內容和資料夾與Adobe雲端儲存空間連結](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)。
+* 使用Adobe雲端儲存空間的物件無法使用「內容建議程式」功能。 如果您的組織使用Adobe雲端儲存空間，您仍可以從Experience Manager Assets或Assets Essentials連結資產和資料夾，但您將無法存取Content Advisor功能，例如AI 搜尋、智慧型建議或Dynamic Media轉譯。 如需詳細資訊，請參閱[將Experience Manager Assets的內容和資料夾與Adobe雲端儲存空間連結](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md#link-content-from-experience-manager-assets)。
 
 * 內容警告器功能不適用於Assets Essentials。 若要從Assets Essentials連結資產和資料夾，請參閱[從Experience Manager Assets Essentials連結資產和資料夾](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md)。
 

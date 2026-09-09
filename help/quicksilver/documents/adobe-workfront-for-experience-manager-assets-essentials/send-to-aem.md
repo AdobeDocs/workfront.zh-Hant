@@ -17,9 +17,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
 workflow-type: tm+mt
-source-wordcount: 881
+source-wordcount: 931
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 2%
 >[!NOTE]
 >
 >新檔案區域未提供此功能。<br>
->如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的「檔案」區域。從那裡，您可以將資產傳送到Experience Manager Assets。如需詳細資訊，請參閱[將Adobe Experience Manager與Frame.io整合搭配使用](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)。
+>如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的檔案區域。 從那裡，您可以將資產傳送到Experience Manager Assets。 如需詳細資訊，請參閱[將Adobe Experience Manager與Workfront和Adobe雲端儲存空間搭配使用](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)。
 
 ## 後設資料
 

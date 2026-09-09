@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 15cb219fa00c531d53446a8cdcbdd4f36ed0bcb2
 workflow-type: tm+mt
-source-wordcount: 151
+source-wordcount: 129
 ht-degree: 0%
 
 ---
@@ -36,9 +36,8 @@ ht-degree: 0%
 ## 新增至「存取層級」頁面上的檢視
 
 若要檢視哪些存取層級被指派為自動升級選項：
-<!--
-1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear icon](assets/gear-icon-settings.png.png).
--->
+
+{{step-1-to-setup}}
 
 1. 在右側面板中，按一下&#x200B;**存取層級**。
 
@@ -54,6 +53,6 @@ ht-degree: 0%
 
 若要將新的自動升級選項指派給存取層級：
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![齒輪設定圖示](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 在右側面板中，按一下&#x200B;**存取層級**。

@@ -20,18 +20,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ec38b386a008c689946cb359d4714380dd8e5460
+source-git-commit: 0336bef484214908f181b630f2d3298af5d10398
 workflow-type: tm+mt
-source-wordcount: 757
+source-wordcount: 800
 ht-degree: 2%
 
 ---
 
 # 建立檔案的核准工作流程範本
 
-{{highlighted-preview}}
-
-在Workfront設定區域中，擁有標準授權的使用者可以建立可重複使用的核准範本。 核准範本建立後，即可套用至物件之檔案區域中的資產。
+在Workfront設定區域中，擁有標準授權的使用者可以建立可重複使用的核准範本。 除非建立者與特定使用者或組織中的每個人共用範本，否則範本僅對建立的使用者可見。 核准範本建立後，即可套用至物件之檔案區域中的資產。
 
 >[!IMPORTANT]
 >
@@ -131,6 +129,10 @@ ht-degree: 2%
 1. 按一下「**儲存**」。
 
 建立範本後，可將其套用至物件之檔案區域中的檔案，以在Workfront中開始正式的稽核和核准流程。
+
+>[!NOTE]
+>
+>新範本僅對您可見。 若要共用、編輯或刪除範本，請參閱[管理核准範本](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md)。
 
 <!--
  Once a template is created, it can be applied to assets sent from Frame.io to begin the formal review and approval process in Workfront.
