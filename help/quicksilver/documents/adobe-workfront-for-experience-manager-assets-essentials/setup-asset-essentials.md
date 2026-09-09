@@ -17,10 +17,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 3578c9c87c93aedd46f50fa660a54a73f5c574dc
 workflow-type: tm+mt
-source-wordcount: 620
-ht-degree: 4%
+source-wordcount: 683
+ht-degree: 3%
 
 ---
 
@@ -34,8 +34,8 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->您也可以將多個Experience Manager Assets存放庫連線至一個Workfront環境，或連線至跨組織ID的一個Workfront存放庫的多個Experience Manager Assets環境。請依照本文的設定指示，針對您想要設定的每個整合。<br>
->新檔案區域沒有此功能。
+>您也可以將多個Experience Manager Assets存放庫連線至一個Workfront環境，或連線至跨組織ID的一個Workfront存放庫的多個Experience Manager Assets環境。 針對您要設定的每項整合，請依照本文的設定指示操作。<br>
+>新檔案區域未提供此功能。
 
 ## 存取權要求
 
@@ -71,7 +71,7 @@ ht-degree: 4%
   <tr>
    <td><strong>存取層級設定</strong>
    </td>
-   <td>您必須是Workfront管理員才能設定Experience Manager整合。完成設定後，擁有Standard或Plan授權的使用者可以在個別專案上設定連結資料夾。
+   <td>您必須是Workfront管理員才能設定Experience Manager整合。 完成設定後，擁有Standard或Plan授權的使用者可以在個別專案上設定連結資料夾。
    </td>
   </tr>
 </table>
@@ -86,7 +86,7 @@ ht-degree: 4%
 
 {{step-1-to-setup}}
 
-1. 在左側面板中選取&#x200B;**檔案** ![檔案圖示](assets/document-icon.png)，然後選取&#x200B;**Experience Manager整合**。
+1. 在左側面板中選取&#x200B;**檔案** ![檔案圖示](assets/document-icon.png)，然後選取&#x200B;**Experience Manager Assets**。
 1. 選取&#x200B;**新增Experience Manager整合**。
 1. 指定下列專案：
 
@@ -100,7 +100,7 @@ ht-degree: 4%
    <tr>
       <td><strong>導覽URL</strong>
       </td>
-      <td>系統會自動填入導覽URL。此URL用於從主選單連結到您組織的Assets Essentials例項以快速訪問。
+      <td>系統會自動填入導覽URL。 此URL用於從主選單連結到您組織的Assets Essentials例項以快速訪問。
       </td>
    </tr>
    <tr>

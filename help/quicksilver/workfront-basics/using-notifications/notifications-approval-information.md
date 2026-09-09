@@ -13,9 +13,9 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 585b1e593cb59369ec933a138aa6927802c217ff
 workflow-type: tm+mt
-source-wordcount: 675
+source-wordcount: 706
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 0%
    <td><strong>即時</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>我的時程表已核准</strong> </p> <p>您的時程表獲得核准後，您會收到電子郵件通知。</p> <p>即時通知電子郵件的主旨為： <em>[!UICONTROL 已核准的時程表]： &lt;時程表開始日期&gt; - &lt;時程表結束日期&gt;</em></p> <p> <p>注意：您無法設定每日摘要電子郵件的此通知。</p> </p> </td> 
+   <td> <p><strong>我的時程表已核准</strong> </p> <p>您的時程表獲得核准後，您會收到電子郵件通知。</p> <p>即時通知電子郵件的主旨為： <em>[!UICONTROL 已核准的時程表]： &lt;時程表開始日期&gt; - &lt;時程表結束日期&gt;</em></p> <p> <p>注意：您無法設定每日摘要電子郵件的此通知。</p> </p> <p> <p>注意：您必須擁有Standard授權才能接收此通知。 擁有輕度授權或更低授權的使用者不會收到時程表核准電子郵件通知，即使它已啟用亦然。</p> </p> </td> 
    <td> 核准您的時程表的使用者名稱<br>核準時程表時的日期和時間<br>時程表狀態（[!UICONTROL 已核准]）<br>時程表的開始日期和結束日期<br>時程表中記錄的總時數<br>時程表中記錄的加班時數 </td> 
    <td><strong>即時</strong> </td> 
   </tr> 

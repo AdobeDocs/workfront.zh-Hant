@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+source-git-commit: 585b1e593cb59369ec933a138aa6927802c217ff
 workflow-type: tm+mt
-source-wordcount: 689
+source-wordcount: 728
 ht-degree: 3%
 
 ---
@@ -80,6 +80,7 @@ Adobe Workfront提供設定時程表核准的功能，以支援此區域。
 
 * Workfront管理員已啟用「使用者的時程表核准」和「使用者事件處理常式的時程表拒絕」 。 如需啟用事件通知的詳細資訊，請參閱[事件通知型別](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)。
 * 在使用者的設定檔頁面上啟用「我的時程表已核准」個人通知。 如需詳細資訊，請參閱[修改您自己的電子郵件通知](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
+* 提交時程表的使用者具有標準授權。 擁有輕度授權或更低授權的使用者不會收到時程表核准電子郵件通知，即使在其設定檔上啟用了我的時程表已核准個人通知時也是如此。
 
 ### 從時程表區域核準時程表
 
