@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: a0ba955b089480c01b187e39ed5a8a8226b23ea7
+source-git-commit: d29d16e2281b0dad8c603a81a92dd16e961d973f
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1166'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 您可以為Adobe Workfront Planning記錄型別設定商業規則，以指示在允許或阻止對該型別記錄的動作之前，需要某些欄位。
 
-根據規則的制定方式，如果符合定義的商業規則，您可以允許對記錄進行下列動作：
+根據規則的制定方式，如果符合定義的商業規則，您可以允許或禁止對記錄執行以下操作：
 
 * 編輯或不編輯記錄
 * 刪除或不刪除記錄

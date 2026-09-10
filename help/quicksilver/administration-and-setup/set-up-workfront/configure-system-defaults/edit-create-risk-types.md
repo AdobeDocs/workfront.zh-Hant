@@ -19,10 +19,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
+source-git-commit: d29d16e2281b0dad8c603a81a92dd16e961d973f
 workflow-type: tm+mt
-source-wordcount: 646
-ht-degree: 5%
+source-wordcount: 645
+ht-degree: 4%
 
 ---
 
@@ -120,25 +120,30 @@ Adobe Workfront有許多預設風險型別，您可以在計畫階段與專案�
 
 1. （選擇性）若要匯出風險型別清單，請按一下&#x200B;[!UICONTROL **匯出**]&#x200B;圖示。 您可以匯出為下列檔案型別：
 
-   * 在生產環境中：
+   <!--* In the Production environment:-->
 
-     * PDF
-     * Excel
-     * Excel (xlsx)
-     * 頁籤分隔檔
-     * CSV
+   * PDF
+   * Excel
+   * Excel (xlsx)
+   * 頁籤分隔檔
+   * CSV
 
-   <div class="preview">
+   <!--
+    PM confirmed that these lists should be the same: https://workfront.slack.com/archives/C05DPT67BD3/p1788465805975249?thread_ts=1788436678.273019&cid=C05DPT67BD3 
+    <div class="preview">
 
-   * 在預覽環境中：
+    * In the Preview environment: 
 
-     * CSV
-     * XLSX
-   </div>
+      * CSV
+      * XLSX 
+    </div>
+    -->
 
    >[!TIP]
    >
-   >   在生產環境中，您可以先選取有限的風險型別，然後匯出成較小的清單。<!--not sure if this should be logged as a bug because it's not working with the new Gtable list in Preview??-->
+   >   在生產環境中，您可以先選取有限的風險型別，然後匯出成較小的清單。
+   >
+   > <span class="preview">此功能已從預覽環境中移除。</span> <!--not sure if this should be logged as a bug because it's not working with the new Gtable list in Preview??-->
 
 ### 建立風險型別 {#create-risk-types}
 
