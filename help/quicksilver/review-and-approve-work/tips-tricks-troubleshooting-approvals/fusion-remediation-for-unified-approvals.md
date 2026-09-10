@@ -6,7 +6,7 @@ description: 當您的組織採用Workfront雲端儲存空間並統一檢閱和�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: a3ef3b4ea00298e23ebc8b6196c951417e75eebe
+source-git-commit: 56ab4879af4046f6b2dcdc177b4b20aa476fa90c
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 0%
@@ -18,12 +18,6 @@ ht-degree: 0%
 在舊版Workfront校訂上建置的Workfront Fusion案例不會自動搭配Adobe雲端儲存空間專案使用。 校訂特定的模組、webhook和API端點在某些情況下有直接的同等功能，而在其他情況下會有重大變更。 在將依賴受影響情境的團隊帶入Adobe雲端儲存推出之前，本文會協助您清查受影響的情境、將其分類並決定補救路徑。
 
 範圍設定為舊版Workfront專案的情境照常運作。 本文所述的補救工作適用於您打算針對Adobe雲端儲存空間專案執行的情境。
-
->[!IMPORTANT]
->
->Adobe Workfront統一檢閱和核准聯結器現在可在Workfront Fusion中使用。 我們建議將此聯結器用於更簡單、更可靠的案例，當搭配使用Fusion和Adobe雲端儲存空間時。
->
->如需相關資訊與指示，請參閱Workfront Fusion檔案中的[Adobe Workfront統一檢閱與核准模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules)。
 
 使用本文章清查及分類案例，瞭解升級Fusion案例的最佳方式，以說明Adobe雲端儲存空間。
 
@@ -55,6 +49,12 @@ ht-degree: 0%
 針對您的特定商業邏輯檢閱每個案例，以決定其分類。
 
 ## 補救方法
+
+>[!IMPORTANT]
+>
+>Adobe Workfront統一檢閱和核准聯結器現在可在Workfront Fusion中使用。 我們建議將此聯結器用於更簡單、更可靠的案例，當搭配使用Fusion和Adobe雲端儲存空間時。
+>
+>如需相關資訊與指示，請參閱Workfront Fusion檔案中的[Adobe Workfront統一檢閱與核准模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules)。
 
 使用下列方法來規劃和執行Fusion修正：
 
