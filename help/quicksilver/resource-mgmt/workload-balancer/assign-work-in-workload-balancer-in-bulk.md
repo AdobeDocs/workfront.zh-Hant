@@ -19,7 +19,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
+source-git-commit: 66c43904a7f5d937cba61b6e3da5adeb3a6c0c8c
 workflow-type: tm+mt
 source-wordcount: 1229
 ht-degree: 3%
@@ -158,7 +158,7 @@ To assign a user to work items previously assigned to job roles:
 
 1. In the **Role assignment** field, click the drop-down arrow to choose from a list of roles. Only roles currently assigned within the specified projects are displayed. This is a required field. 
 
-   ![Role assignment](assets/bulk-assignments-workload-balancer-assign-selected.png)
+   IMAGE
 
 1. In the **User to assign** field, click the drop-down arrow to choose from a list of suggested users or to type another user's name.
 
@@ -185,7 +185,7 @@ To assign a user to work items previously assigned to job roles:
 
    You receive a confirmation about how many work items have had the selected role replaced with the selected user.
 
-   ![Bulk assignment confirmation](assets/bulk-assign-user-confirmation-before-assigning-nwe-350x83.png)
+   IMAGE
 
 -->
 
@@ -247,7 +247,4 @@ To assign a user to work items previously assigned to job roles:
 
 1. 按一下&#x200B;**取消指派**。\
    確認會顯示移除指定使用者的工作專案數。
-
-
-
 

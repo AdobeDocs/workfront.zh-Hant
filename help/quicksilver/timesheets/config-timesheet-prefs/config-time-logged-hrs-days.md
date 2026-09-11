@@ -19,7 +19,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+source-git-commit: 66c43904a7f5d937cba61b6e3da5adeb3a6c0c8c
 workflow-type: tm+mt
 source-wordcount: 434
 ht-degree: 5%
@@ -87,6 +87,6 @@ ht-degree: 5%
    進行此設定時，請考量下列事項：
 
    * 設定為以小時記錄時間時，此選項無法使用。
-   * 此選項僅用於記錄時間。 此選項與編輯使用者時也可使用的&#x200B;**排程**&#x200B;選項無關。 **排程**&#x200B;選項用於計算時間表和Workfront的其他區域。 （如需使用&#x200B;**排程**&#x200B;選項的詳細資訊，請參閱[建立排程](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。） 
+   * 此選項僅用於記錄時間。 此選項與編輯使用者時也可使用的&#x200B;**排程**&#x200B;選項無關。 **排程**&#x200B;選項用於計算時間表和Workfront的其他區域。 如需使用&#x200B;**排程**&#x200B;選項的詳細資訊，請參閱[建立排程](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。
 
 1. 按一下「**儲存變更**」。
