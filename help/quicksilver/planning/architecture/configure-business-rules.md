@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: d29d16e2281b0dad8c603a81a92dd16e961d973f
+source-git-commit: 2ee576fa6d039bdbc4dcbf8bc27e4276790b0621
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1196'
 ht-degree: 1%
 
 ---
@@ -130,14 +130,19 @@ ht-degree: 1%
       IF(ISBLANK({Campaign summary}),"Campaign summary is a required field. You cannot edit this record without a value for the Campaign summary field.")
    ```
 
+   >[!TIP]
+   >
+   >您可以將連結的欄位新增至商業規則，但請謹慎使用會尋找陣列（而非欄位值）的陳述式。 例如，使用`ARRAYLENGTH(field)=0`而非`ISBLANK`。
+
+
+   當欄位或運算式錯誤時，**公式**&#x200B;欄位中有指標。 <!--add screen shot?-->
+
    >[!IMPORTANT]
    >
    >強烈建議您在規則公式中加入下列資訊，讓使用者更容易瞭解他們嘗試在記錄上執行的動作何時不適用：
    >
    >* 適用於設定規則的確切欄位。
    >* 不符合規則時的確切結果。
-
-   當欄位或運算式錯誤時，**公式**&#x200B;欄位中有指標。 <!--add screen shot?-->
 
    在商業規則的&#x200B;**Then**&#x200B;區段中，您可以檢視規則功能的說明。
 

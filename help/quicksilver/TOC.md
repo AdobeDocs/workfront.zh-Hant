@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
+source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
 workflow-type: tm+mt
-source-wordcount: '14499'
+source-wordcount: '14542'
 ht-degree: 2%
 
 ---
@@ -970,7 +970,7 @@ ht-degree: 2%
     * [使用Adobe Workfront MCP伺服器](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
     * [Adobe Workfront MCP伺服器工具](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)
     * [可直接安裝的技能](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)
-  * Workfront中的CX Co-worker {#coworker-in-workfront}
+  * Workfront中的CX Coworker {#coworker-in-workfront}
     * [Workfront中的CX Co-worker：文章索引](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
     * [CX Co-worker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
     * [CX同事技能](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
@@ -2309,6 +2309,13 @@ ht-degree: 2%
     * [以獨立產品形式管理您的Adobe Workfront Planning執行個體](planning/planning-sta/manage-planning-sta-instance.md)
     * [在Adobe Workfront Planning中作為獨立產品管理使用者](planning/planning-sta/manage-users-in-planning-sta.md)
     * [以獨立產品形式管理Adobe Workfront Planning中的團隊](planning/planning-sta/manage-teams-in-planning-sta.md)
+  * {hide-from-toc}Workfront規劃中的創意力空間 {#ideation}
+    * {hide-from-toc}[Adobe Workfront Planning的創意空間：文章索引](planning/ideation/planning-ideation-article-index.md)
+    * {hide-from-toc}[開始使用Adobe Workfront Planning的創意力空間](planning/ideation/get-started-with-planning-ideation.md)
+    * {hide-from-toc}[在創意力空間建立簡報](planning/ideation/create-briefs-in-ideation-space.md)
+    * {hide-from-toc}[從創意空間摘要建立規劃記錄](planning/ideation/create-records-in-ideation-space-for-planning.md)
+    * {hide-from-toc}[與他人共用創意力空間](planning/ideation/share-the-ideation-space.md)
+
 * Adobe Workfront整合 {#adobe-workfront-integrations}
   * [Adobe Workfront整合](workfront-integrations-and-apps/workfront-integrations.md)
   * [Adobe Workfront內建整合概述](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
@@ -2680,8 +2687,8 @@ ht-degree: 2%
     * [API範例指令碼](wf-api/general/api-example-scripts.md)
     * [使用API來同步處理程式與服務的資料](wf-api/general/api-sync-data.md)
     * [透過API停用使用者](wf-api/general/deactivate-user-api.md)
-  * 活動訂閱 {#event-subscriptions}
-    * [活動訂閱](wf-api/api/event-subscriptions.md)
+  * 事件訂閱 {#event-subscriptions}
+    * [事件訂閱](wf-api/api/event-subscriptions.md)
     * [事件訂閱API](wf-api/general/event-subs-api.md)
     * [活動訂閱最佳實務](wf-api/general/event-sub-best-practice.md)
     * [事件訂閱傳送需求](wf-api/general/setup-event-sub-endpoint.md)

@@ -20,7 +20,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0336bef484214908f181b630f2d3298af5d10398
+source-git-commit: 3eb7b5e0cca5245bc2fe8a733dcfd9a89c56d49f
 workflow-type: tm+mt
 source-wordcount: 800
 ht-degree: 2%
@@ -74,6 +74,9 @@ ht-degree: 2%
 1. 按一下頁面右側的&#x200B;**新範本**。
 
 1. 新增&#x200B;**範本名稱**。
+<!--
+This field has a character limit of 255.
+-->
 
 1. 填寫路徑1中階段1的詳細資訊：
 

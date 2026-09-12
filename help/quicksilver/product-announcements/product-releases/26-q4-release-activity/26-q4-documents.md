@@ -4,9 +4,9 @@ description: 2026年第四季檔案增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 37bfc284daa1056314a5e3b64822720a0dd21fc8
+source-git-commit: f46a0da928dd02415eac0a3dd555783912c1e740
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1333'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,11 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[管理核准範本](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md)。
 
-## Workfront中的框架註解可見性
+## Workfront中的Frame.io註解可見性
 
 >[!NOTE]
 >
->預覽： 2026年9月3日
+>預覽：不適用
 >生產快速發行： 2026年9月17日
 >適用於所有人的生產： 2026年10月15日
 
