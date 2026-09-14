@@ -6,13 +6,11 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1b37b57f764d1579629e019c2025c809530124ea
+source-git-commit: e76aa2b0a9002abd644f82d99a001f8b1c0fff6e
 workflow-type: tm+mt
-source-wordcount: '1780'
+source-wordcount: '1773'
 ht-degree: 0%
-
 ---
-
 # Adobe Workfront Planning 2026年第四季發行活動
 
 本文介紹2026年第四季發行的Workfront Planning功能。
@@ -76,7 +74,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[啟用自訂季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
-## 相依已連線記錄欄位的篩選器
+## 已連線記錄欄位的篩選器
 
 >[!NOTE]
 >
@@ -84,9 +82,9 @@ ht-degree: 0%
 >生產快速發行： 2026年9月17日
 >適用於所有人的生產： 2026年10月15日
 
-現在當您在Planning中新增相依連線時，可以篩選符合篩選條件的特定記錄型別。
+現在當您在Planning中新增連線時，可以篩選符合篩選條件的特定記錄型別。
 
-相依性連線欄位不提供所有記錄型別，而是隻顯示符合篩選條件的記錄型別。
+只有符合篩選條件的記錄才會顯示成已連線欄位中的選項。
 
 針對此功能，我們在連線記錄型別時，在「新連線」索引標籤中新增了記錄篩選規則選項。
 
