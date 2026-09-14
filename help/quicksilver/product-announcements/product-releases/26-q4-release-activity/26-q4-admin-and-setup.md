@@ -4,13 +4,11 @@ description: 2026年第四季管理員增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c3dc1aa9e48d45d2546561c2ac9412b008258e2d
+source-git-commit: 6fb4ffc73625485cf4f9b392020da94e938cf179
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1280'
 ht-degree: 0%
-
 ---
-
 # 2026年第四季管理員增強功能
 
 本頁說明2026年第四季版本管理員對預覽環境所做的增強功能。 如上所述，這些增強功能將於生產環境中提供。
@@ -74,6 +72,8 @@ For information, see [Configure system updates](/help/quicksilver/administration
 >預覽： 2026年9月3日
 >生產快速發行： 2026年9月17日
 >適用於所有人的生產： 2026年10月15日
+>
+>此功能已於2026年9月14日暫時從預覽環境中移除。
 
 使用版面配置範本時，您現在可以使用預設的Workfront功能表選項，將自訂應用程式重新定位為任何順序。 這可讓您將每個應用程式放置在最相關的位置。
 
