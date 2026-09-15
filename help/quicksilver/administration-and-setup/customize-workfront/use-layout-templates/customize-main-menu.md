@@ -11,24 +11,30 @@ exl-id: d4f02102-0378-472f-9ebb-753502ec048b
 TQID: https://experienceleague.adobe.com/g6y6RsDNuEDBGZBrZXxhyFZ2-z1EUr5yflGDQQ7AhdQ
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: a3966028ce3c73c141f6f79bc25505cd707cae62
 workflow-type: tm+mt
-source-wordcount: 730
+source-wordcount: '682'
 ht-degree: 6%
-
 ---
-
 # 使用版面配置範本自訂主功能表
 
 <!--Audited: 01/2024-->
@@ -39,7 +45,7 @@ ht-degree: 6%
 >
 >使用者看到的主要功能表選項取決於其授權型別以及在其存取層級中設定的設定。 某些將使用此配置範本的使用者可能不會看見您在這裡選擇的所有選項。 如需詳細資訊，請參閱[存取層級和許可權如何搭配運作](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)以及[每個物件型別可設定的功能存取權](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)。
 >
->您的組織加入Adobe Workfront Unified Experience後，您可能會在主要功能表中看到不同的選項。 如需詳細資訊，請參閱[Workfront的Adobe Unified Experience &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+>您的組織加入Adobe Workfront Unified Experience後，您可能會在主要功能表中看到不同的選項。 如需詳細資訊，請參閱[Workfront的Adobe Unified Experience ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 如需有關建立版面配置範本的資訊，請參閱[建立和管理版面配置範本](../use-layout-templates/create-and-manage-layout-templates.md)。
 
@@ -136,26 +142,19 @@ ht-degree: 6%
      >
      > 自訂應用程式必須個別建立，才能作為主功能表選項使用。 如需詳細資訊，請參閱[使用Adobe App Builder建立Workfront的自訂應用程式](/help/quicksilver/app-builder/app-builder.md)。
 
-在預覽環境中：
-
-1. 請針對&#x200B;**原生**&#x200B;專案執行下列任一項作業：
+1. 執行下列任一項作業<!-- for the **Native** items-->：
 
    * 隱藏![隱藏圖示](assets/remove-icon---x-in-circle.png)您不想要顯示在主功能表上的專案。
    * 顯示您想要顯示在主要功能表上的![圖示](assets/add-icon-plus-in-circle.png)專案。
    * 拖曳![拖曳圖示](assets/move-icon---dots.png)專案，以變更它們在主要功能表上的顯示順序。
 
-1. 請為&#x200B;**系統**&#x200B;專案執行下列任一動作：
-
-   * 隱藏![隱藏圖示](assets/remove-icon---x-in-circle.png)您不想要顯示在主功能表上的專案。
-   * 顯示您想要顯示在主要功能表上的![圖示](assets/add-icon-plus-in-circle.png)專案。
-
-   >[!NOTE]
-   >
-   >您無法變更系統專案的順序。 當這些專案處於活動狀態時，它們始終顯示在主選單底部。
+     >[!NOTE]
+     >
+     >您無法變更系統專案的順序。 當這些專案處於活動狀態時，它們始終顯示在主選單底部。
 
 1. 按一下「**完成**」。
 
-   如果您要捨棄變更，也可以隨時按一下&#x200B;**取消**。
+   您也可以隨時按一下[取消]****&#x200B;來捨棄變更。
 
 1. 繼續自訂版面範本。 您可以隨時按一下&#x200B;**套用**&#x200B;以儲存進度。
 
@@ -164,3 +163,18 @@ ht-degree: 6%
    如果您已完成自訂，請按一下&#x200B;**儲存並關閉**。
 
 如需配置範本的詳細資訊，請參閱[建立和管理配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
+
+<!--
+
+MOVE TO LINE 151 or thereabouts:
+
+<div class="preview">
+
+1. Do any of the following for the **System** items:
+
+   * Hide ![Hide icon](assets/remove-icon---x-in-circle.png) items that you don't want to display on the Main Menu.
+   * Show ![Show icon](assets/add-icon-plus-in-circle.png) items that you do want to display on the Main Menu.
+
+</div>
+
+-->

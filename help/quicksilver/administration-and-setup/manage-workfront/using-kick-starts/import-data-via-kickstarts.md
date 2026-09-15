@@ -14,20 +14,23 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/eDTZB36f13CgQ5HSrp5MGqHDnhMi-SVA9ygsfxRjh-M
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 62d9d350c2b233f657780ab540b709368e3e0bc9
 workflow-type: tm+mt
-source-wordcount: 2877
+source-wordcount: '2882'
 ht-degree: 7%
-
 ---
-
 # 使用Kick-Start範本將資料匯入Workfront
 
 <!--Audited: 12/2023-->
@@ -76,7 +79,9 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
 
 * 以這種方式匯入資料不會更新Workfront中已存在之記錄的資訊。
 * 您只能匯入新記錄及其資訊。
-* 一次匯入不超過2,000筆記錄，以確保匯入不會逾時
+* Kick-Start匯入會在背景執行，而且沒有記錄限制。
+
+<!--THIS IS OLD. The background run was added September 2026, can delete this text at the end of the year * Import no more than 2,000 records at a time to ensure that the import does not time out.-->
 
 ## 將Kick-Start範本匯出為試算表檔案
 
@@ -85,10 +90,6 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
 匯出Kick-Start範本：
 
 {{step-1-to-setup}}
-
-<!--
-1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).
--->
 
 1. 按一下&#x200B;**系統** > **匯入資料(Kick-Starts)**。
 
@@ -331,9 +332,9 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
    * 如果您要匯入的物件是新的，請輸入&#x200B;**TRUE**&#x200B;以匯入資料列中的資料。 此值區分大小寫，且必須一律使用大寫字母
    * 如果物件已在Workfront中，請在&#x200B;**isNew**&#x200B;欄中輸入&#x200B;**FALSE**&#x200B;以忽略該列。 此值區分大小寫，且必須一律使用大寫字母
 
-      * Workfront中已存在的記錄不會更新。
-      * 如果您從Workfront下載含有資料的範本，則現有物件已標示&#x200B;**FALSE**。
-      * 如果您下載了空白範本，則不需要為現有物件新增列。
+     * Workfront中已存在的記錄不會更新。
+     * 如果您從Workfront下載含有資料的範本，則現有物件已標示&#x200B;**FALSE**。
+     * 如果您下載了空白範本，則不需要為現有物件新增列。
 
 1. 以下列其中一種方式在&#x200B;**ID**&#x200B;欄中新增資訊：
 
@@ -353,13 +354,13 @@ Kick-Start是特別格式化的Excel活頁簿，可填入您要匯入Workfront�
 
    * 匯入專案時，您必須指定群組ID。
 
-      * 如果群組已存在於Workfront中，您必須將其唯一識別碼新增至專案的&#x200B;**setGroupID**&#x200B;欄位。
-      * 如果Workfront中不存在群組，您可以將&#x200B;**群組群組**&#x200B;工作表新增至匯入檔案，將「群組」工作表上的&#x200B;**isNew**&#x200B;欄位設定為&#x200B;**TRUE**，並在&#x200B;**ID**&#x200B;欄位中指出新群組的數值ID。 新專案的&#x200B;**setGroupID**&#x200B;欄位必須與新群組的數值&#x200B;**ID**&#x200B;相符。
+     * 如果群組已存在於Workfront中，您必須將其唯一識別碼新增至專案的&#x200B;**setGroupID**&#x200B;欄位。
+     * 如果Workfront中不存在群組，您可以將&#x200B;**群組群組**&#x200B;工作表新增至匯入檔案，將「群組」工作表上的&#x200B;**isNew**&#x200B;欄位設定為&#x200B;**TRUE**，並在&#x200B;**ID**&#x200B;欄位中指出新群組的數值ID。 新專案的&#x200B;**setGroupID**&#x200B;欄位必須與新群組的數值&#x200B;**ID**&#x200B;相符。
 
      **範例：**&#x200B;針對專案，**setGroupID**&#x200B;資料行中顯示的值必須是下列其中一項：
 
-      * Workfront例項中現有群組的GUID
-      * **群組群組**&#x200B;工作表上ID資料欄中的值（數字） （如果您在匯入期間建立新群組）
+     * Workfront例項中現有群組的GUID
+     * **群組群組**&#x200B;工作表上ID資料欄中的值（數字） （如果您在匯入期間建立新群組）
 
 1. 必要欄位的輸入值，以及您要在匯入期間填入的任何其他欄位。
 1. （選用）若要新增自訂資料：
@@ -387,11 +388,11 @@ Workfront可以處理大部分的日期格式。 不過，您必須確保試算�
 
 Workfront也接受時間值做為日期的一部分。
 
-例如： 07/10/2022 01:30或07/10/2022 1:00 PM。
+例如：07/10/2022 01:30或07/10/2022 1:00 PM。
 
 如果您在日期中省略時間，Workfront會執行下列任一項作業：
 
-* 假設時間是上午12:00。 為了檢視您預期的日期結果，系統時區必須與您的時區相符。
+* 假設時間是凌晨12:00。 為了檢視您預期的日期結果，系統時區必須與您的時區相符。
 * 如果它位在與排程相關聯的物件上，則時間會遞延至排程允許的最早時間。
 
 >[!NOTE]
@@ -461,13 +462,13 @@ Workfront也接受時間值做為日期的一部分。
 
   以下說明如何在相同的匯入檔案中使用這兩種方法：
 
-   * 在試算表中新增一欄至&#x200B;**setRoleID**&#x200B;欄的左側。
-   * 為新資料行&#x200B;**命名#setRoleID角色名稱**。
-   * 若要將角色指派給現有記錄，請在&#x200B;**#setRoleID ROLE name**&#x200B;欄位中輸入角色名稱。
+  * 在試算表中新增一欄至&#x200B;**setRoleID**&#x200B;欄的左側。
+  * 為新資料行&#x200B;**命名#setRoleID角色名稱**。
+  * 若要將角色指派給現有記錄，請在&#x200B;**#setRoleID ROLE name**&#x200B;欄位中輸入角色名稱。
 
-     對於新角色記錄的角色指派，請在setRoleID中輸入您在ROLE Role工作表中指派的ID。
+    對於新角色記錄的角色指派，請在setRoleID中輸入您在ROLE Role工作表中指派的ID。
 
-     ![使用者的角色ID](assets/set-role-id.png)
+    ![使用者的角色ID](assets/set-role-id.png)
 
 ## 將試算表資料匯入Workfront
 
@@ -491,8 +492,6 @@ Kick-Start匯入支援下列檔案型別：
 
 若要將範本試算表資料匯入Workfront：
 
-<!--1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).-->
-
 {{step-1-to-setup}}
 
 1. 按一下&#x200B;**系統** > **匯入資料(Kick-Starts)**。
@@ -501,7 +500,9 @@ Kick-Start匯入支援下列檔案型別：
 
    檔案會自動上傳，並顯示已成功匯入的通知。
 
-   如果Excel檔案上傳至Workfront需要5分鐘以上的時間，應用程式會逾時，且Workfront無法上傳檔案。 嘗試以較小的物件批次匯入資料。
+   <!--If the Excel file takes longer than 5 minutes to upload to Workfront, the application times out and Workfront cannot upload the file. Try importing your data in smaller batches of objects.-->
+
+   匯入會在背景執行，以免逾時。 請等到匯入完成，再開始其他匯入作業，或離開頁面進行導覽。 如果匯入花費太長時間，您可以取消它。
 
 1. （視條件而定）如果匯入失敗，您會收到錯誤訊息，指出問題所在。 嘗試識別發生問題的欄位、工作表和列號，並更正Excel檔案中的資訊。 然後，嘗試再次匯入檔案。
 1. （視條件而定）如果您正在使用Workfront Fusion，現在可以在匯入完成時開啟FLO或案例。
