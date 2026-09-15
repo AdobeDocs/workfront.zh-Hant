@@ -4,13 +4,11 @@ description: 此頁面提供2026年第四季度版本中包含的功能相關資
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f46a0da928dd02415eac0a3dd555783912c1e740
+source-git-commit: 6fb4ffc73625485cf4f9b392020da94e938cf179
 workflow-type: tm+mt
-source-wordcount: '2905'
+source-wordcount: '2919'
 ht-degree: 1%
-
 ---
-
 # 2026年第四季版本總覽
 
 此頁面提供排定於2026年10月發行的2026年第四季中所包含功能的相關資訊。
@@ -76,6 +74,7 @@ ht-degree: 1%
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">在主要功能表中重新排序自訂應用程式</a>
+                <p><strong>注意：</strong>此功能已於2026年9月14日暫時從預覽環境中移除。</p>
                 <p>您現在可以在版面配置範本的主功能表中重新定位自訂應用程式，而不是讓它們一律顯示在最後。</p>
             </td>
             <td><p>2026年9月3日</p></td>
