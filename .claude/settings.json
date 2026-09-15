@@ -5,7 +5,8 @@
       "Bash(claude --version)",
       "Bash(claude mcp *)",
       "PowerShell(Get-Command claude -ErrorAction SilentlyContinue)",
-      "PowerShell(claude --version 2>&1)"
+      "PowerShell(claude --version 2>&1)",
+      "mcp__claude_ai_Adobe_Workfront__insights_summarize_object"
     ]
   }
 }
