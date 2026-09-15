@@ -187,10 +187,10 @@ Worth noting
 
 ## 其他資源
 
-* [Adobe Workfront行銷活動規劃](https://business.adobe.com/products/workfront/campaign-planning.html)
+* [Adobe Workfront行銷活動規劃](https://business.adobe.com/tw/products/workfront/campaign-planning.html)
 * [Adobe Workfront規劃檔案](/help/quicksilver/planning/planning-information.md)
-* [Adobe GenStudio概觀](https://business.adobe.com/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
+* [Adobe GenStudio概觀](https://business.adobe.com/tw/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/tw/products/adobe-analytics/customer-journey-analytics.html)
 
 
 <!--
