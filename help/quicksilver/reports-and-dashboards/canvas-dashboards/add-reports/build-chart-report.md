@@ -196,7 +196,7 @@ ht-degree: 5%
 
 在左側面板中，按一下&#x200B;**向下分析群組設定** ![群組設定](assets/drilldown-group-icon.png)圖示，然後新增向下分析表格的群組。
 
-如需詳細資訊，請參閱[在[畫布儀表板中的群組報告資料](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md)中，設定圖表和KPI報告中的深入分析群組](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md#configure-drilldown-groupings-in-chart-and-kpi-reports)。
+如需詳細資訊，請參閱[&#128279;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md#configure-drilldown-groupings-in-chart-and-kpi-reports)在[畫布儀表板中的群組報告資料](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md)中，設定圖表和KPI報告中的深入分析群組。
 
 按一下&#x200B;**儲存**&#x200B;以建立報告並將其新增到儀表板。
 
