@@ -5,13 +5,11 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
+source-git-commit: cf783443d618874e1241d91895bcc78d78db23df
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 1%
-
+source-wordcount: '655'
+ht-degree: 0%
 ---
-
 
 # 使用構思空間所需的存取許可權
 
@@ -30,21 +28,43 @@ Adobe Workfront規劃現在提供另一項功能，可在您啟動行銷活動�
 
 ## 產品需求
 
-創意力空間不是獨立產品。 它需要Workfront Planning套件，而且只能從Workfront Planning存取。 此外還需要其他產品。
 
-貴組織必須購買下列產品的套件，才能存取創意空間：
+創意力空間不是獨立產品，而是Adobe Workfront Planning的額外功能。
 
-* 除了Planning套件之外的Adobe Workfront Workflow套件
+如果您的組織和您有權存取以下套件（視您何時存取創意力空間而定），則您可以存取創意力空間：
 
-  或
+* 在Open Beta發行期間，您必須具備下列專案：
 
-  Adobe Workfront Planning已購買作為獨立產品。
-* Adobe GenStudio for Performance Marketing授權
+  * Adobe Workfront工作流程套件與Workfront計畫套件
 
-  >[!TIP]
-  >
-  >需要GenStudio for Performance Marketing才能存取正確的字型權益。
+* 在「一般可用性」發行後，您可能會有以下其中一項：
 
+  * Adobe Workfront工作流程套件與Workfront計畫套件
+  * Adobe Workfront Planning作為獨立產品
+
+如需有關創意力空間發行階段的資訊，請參閱[開始使用Adobe Workfront計畫的創意力空間](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)。
+
+>[!NOTE]
+>
+>您只能從Adobe Workfront主功能表或Workfront Planning存取創意力空間。 您不需要個別登入即可存取創意空間。 如果您可登入Workfront，就可立即使用此功能。
+
+<!--
+No longer the case: 
+
+Your organization must purchase a package for the following products to access the Ideation space: 
+
+* An Adobe Workfront Workflow package in addition to a Planning package
+
+    Or
+    
+    An Adobe Workfront Planning purchased as a standalone product. 
+* An Adobe GenStudio for Performance Marketing license
+
+    >[!TIP]
+    >
+    >GenStudio for Performance Marketing is needed to have access to the correct font entitlements. 
+
+-->
 
 <!--only required for closed beta:* An Adobe Customer Journey Analytics license that includes campaign tracking-->
 
@@ -99,7 +119,9 @@ Adobe Workfront規劃現在提供另一項功能，可在您啟動行銷活動�
 
 如需共用創意力空間的詳細資訊，請參閱[共用創意力空間](/help/quicksilver/planning/ideation/share-the-ideation-space.md)。
 
-<!--there is no additional setup for Workfront layout template assignment because Contributors an below cannot access Ideation space; only Standard users-->
+<!--
+there is no additional setup for Workfront layout template assignment because Contributors an below cannot access Ideation space; only Standard users
+-->
 
 
 <!-- 

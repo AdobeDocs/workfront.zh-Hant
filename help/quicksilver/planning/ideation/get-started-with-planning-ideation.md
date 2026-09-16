@@ -5,13 +5,11 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
+source-git-commit: c969193e25b0f79082a8aa05bc5b449380cfe146
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 1%
-
+source-wordcount: '1001'
+ht-degree: 0%
 ---
-
 
 # 開始使用Adobe Workfront Planning的創意空間
 
@@ -19,7 +17,8 @@ ht-degree: 1%
 Should we add a new Feature to ExL for "Strategic Ideation"?
 -->
 
-<!--information in this article come from this document, in addition to my notes for this project up to August 31, 2026:
+<!--
+information in this article come from this document, in addition to my notes for this project up to August 31, 2026:
 
 https://adobe-my.sharepoint.com/:w:/r/personal/alinaw_adobe_com/_layouts/15/Doc.aspx?sourcedoc=%7B513DE769-B70B-4040-8C9E-6A9B8E3167BB%7D&file=getting-started-catalyze.docx&action=default&mobileredirect=true
 -->
@@ -31,42 +30,49 @@ https://adobe-my.sharepoint.com/:w:/r/personal/alinaw_adobe_com/_layouts/15/Doc.
 
 Adobe構思空間是Adobe由AI支援的戰略構思功能，直接內建在Workfront Planning中。 它為行銷團隊提供結構化、以資料為根據的行銷活動策略起點，並以組織真實績效歷史記錄為基礎的AI產生簡報，取代手動研究和猜測。
 
-僅可透過Workfront Planning存取，創意力空間位於行銷活動生命週期的最前面，在規劃、生產和交付之前，並直接饋送至Workfront Planning工作區，團隊在那裡規劃和執行他們的工作。
+創意力空間僅可透過Workfront Planning或Workfront主功能表存取，位於行銷活動生命週期的最前面，之後規劃、製作和交付，並直接饋送至Workfront Planning工作區，以供團隊規劃及執行其工作。
 
 ## 產品可用性
 
 創意空間可能會有所變更的計畫發行時間表包括以下里程碑：
 
 * **已關閉的Beta：**&#x200B;於2026年7月推出，有少數客戶。
-* **開啟Beta：**，目標為2026年9月。 這將是一種選擇加入服務，客戶必須主動開啟並設定該選項，而不是主動選擇退出。
+* **開啟Beta：** （目標為2026年10月）。 這將是一種選擇加入服務，客戶必須主動開啟並設定該選項，而不是主動選擇退出。
 * **一般可用性：**&#x200B;預定在2026年下半年推出。
 
 ## 產品需求
 
-如果您的組織和您同時擁有以下套件的存取權，則可以存取創意力空間：
+如果您的組織和您有權存取以下套件（視您何時存取創意力空間而定），則您可以存取創意力空間：
 
-* Adobe Workfront工作流程套件與Workfront計畫套件
+* 在Open Beta發行期間，您必須具備下列專案：
 
-  或
+  * Adobe Workfront工作流程套件與Workfront計畫套件
 
-  Adobe Workfront Planning作為獨立產品
+* 在「一般可用性」發行後，您可能會有以下其中一項：
 
-  >[!NOTE]
-  >
-  >創意力空間僅可從Adobe Planning存取。 您不需要個別登入即可存取創意空間。 如果您可登入Workfront Planning，即可立即使用此功能。
+  * Adobe Workfront工作流程套件與Workfront計畫套件
+  * Adobe Workfront Planning作為獨立產品
 
-* Adobe GenStudio for Performance Marketing
+>[!NOTE]
+>
+>您只能從Adobe Workfront主功能表或Workfront Planning存取創意力空間。 您不需要個別登入即可存取創意空間。 如果您可登入Workfront，就可立即使用此功能。
+
+<!--not required anymore: * Adobe GenStudio for Performance Marketing-->
 
 <!-- only required for closed beta, see below: * Adobe Customer Journey Analytics-->
 
 如需有關使用創意力空間所需存取權的詳細資訊，請參閱[使用創意力空間所需的存取權](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)。
 
-除了上述要求，您還必須符合以下條件才能參與封閉Beta計畫：
+<!--
+No longer required or recommended, per Et:
 
-* 擁有使用中的Adobe Customer Journey Analytics (CJA)帳戶，並具備行銷活動追蹤
-* 擁有具有重複計畫流程的多頻道行銷活動
-* 主動使用Workfront Planning進行行銷作業
-* 至少要有一位已識別的策略或構思使用者，將會是主要構思空間使用者
+In addition to above requirements, you must also meet the following criteria to participate in the Closed Beta program: 
+
+* Have an active Adobe Customer Journey Analytics (CJA) account with campaign tracking in place
+* Have multi-channel campaigns with a repeatable planning process
+* Actively use Workfront Planning for marketing operations
+* Have at least one identified strategist or ideation user who will be the primary Ideation space user
+-->
 
 ## 對象和使用案例
 
@@ -117,7 +123,7 @@ Too much:
 
 ## 創意力空間概觀
 
-創意力空間是品牌和產品行銷人員的策略性行銷創意力工具，可讓您更快建立更強大的行銷活動，並更好地協調團隊。 這會將AI建議納入即時行銷內容（過往簡報、績效資料、對象分析、品牌指引和現有行銷活動資產），因此結果相關，而非通用。
+創意力空間是合作式策略行銷創意力工具，適合品牌和產品行銷人員使用，以更快建立更強大的行銷活動，並有助於團隊協調。 這會將AI建議納入即時行銷內容（過往簡報、績效資料、對象分析、品牌指引和現有行銷活動資產），因此結果相關，而非通用。
 
 以下範例說明如何在建立摘要時善用您的想法：
 
@@ -142,7 +148,7 @@ Too much:
 
 使用者可以提出後續問題，並以對話方式完善簡短，而不需要一次取得單一的結果。
 
-當摘要繫結至即時Workfront Planning連線時，同事不會覆寫摘要，讓基礎計畫維持不變。
+當摘要繫結至即時Workfront Planning連線時，同事不會覆寫摘要，讓基礎計畫維持不變。<!--Et to check on this, it might be overwritten. -->
 
 <!--
 **************** CONSIDER INCLUDING THIS INFORMATION FROM JESH BARLOW ABOUT COWORKER IN CATALYZE?? - https://adobecorpdev.slack.com/archives/C091C0Y735W/p1788917610365089?thread_ts=1788917251.550099&cid=C091C0Y735W

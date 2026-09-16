@@ -3,13 +3,11 @@ title: 從創意空間摘要建立計畫記錄
 description: 使用Adobe Workfront Planning的新功能Ideation Space，您可以將簡報轉換為Planning記錄。 匯出的摘要會建立新記錄或更新現有記錄。 本文說明如何使用Ideation空間建立或編輯現有Planning記錄。
 role: User, Admin
 author: Alina
-source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
+source-git-commit: cf783443d618874e1241d91895bcc78d78db23df
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1166'
 ht-degree: 0%
-
 ---
-
 
 # 從創意空間摘要建立Planning記錄
 
@@ -60,18 +58,17 @@ are there additional license restrictions or packages to be purchased to have ac
 <li><p>具有Planning套件的任何Workfront或工作流程</p></li>
 或
 <li><p>以獨立產品形式購買時的任何Planning套件</p></li></ul>
-   </td>
-
-<tr> 
-   <td role="rowheader"><p>其他產品</p></td> 
-   <td><ul>
-   <li><p>Adobe GenStudio for Performance Marketing</p></li>
-   <!--
-   <li><p>Adobe Customer Journey Analytics</p></li>
-   -->
-   </ul>
    </td> 
-  </tr> 
+    <!--
+    <tr> 
+    <td role="rowheader"><p>Additional products</p></td> 
+    <td><ul>
+    <li><p>Adobe GenStudio for Performance Marketing</p></li>
+    <li><p>Adobe Customer Journey Analytics</p></li>
+    </ul>
+    </td> 
+    </tr> 
+    -->
   <tr> 
    <td role="rowheader"><p>Adobe工作流程授權</p></td> 
    <td><p>標準</p>
@@ -98,24 +95,26 @@ are there additional license restrictions or packages to be purchased to have ac
       <p>創意力空間的編輯器許可權以建立簡報</p>
    </td> 
   </tr>  
-   <tr> 
-   <td role="rowheader"><p>Adobe GenStudio for Performance Marketing使用者角色</p></td> 
-   <td><p><ul><li>存取行銷活動、產品和角色的任何GenStudio使用者角色</li>
-   <li>用於存取啟用的GenStudio系統管理員 <!--and Events--></li></ul>
-   如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">使用者角色和許可權</a>。 
-   </p>
-  </td> 
-  </tr> 
+    <!--
+    <tr> 
+    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
+    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
+    <li>GenStudio System Manager to access Activations and Events</li></ul>
+    For information, see <a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    </p>
+    </td> 
+    </tr> 
+    -->
 </tbody> 
 </table>
 
 如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-+++  
++++   
 
 ## 使用創意力空間建立記錄的相關考量事項
 
-* 在建立或編輯記錄時，您只能從Workfront Planning啟動創意力空間。 Workfront Planning之外沒有創意力空間。
+* 您建立或編輯記錄時，只能從Workfront Planning或Workfront的主功能表啟動創意力空間。 Workfront外部沒有創意力空間。
 * 若要存取創意力空間，您必須在Workfront Planning中擁有工作區和記錄型別。
 * 新記錄一律以預留位置內容開始，無論您如何建立它們。
 * 當您刪除連結至創意力簡述的Planning記錄時，簡述會保留在創意力空間中，且創意力空間中的相關畫布不會被刪除。
@@ -151,7 +150,7 @@ are there additional license restrictions or packages to be purchased to have ac
 
    記錄會立即以預留位置文字建立。
 
-1. （選擇性）按一下提示方塊中的&#x200B;**使用現有的簡介**，以瀏覽並新增現有檔案，創意空間將用來建立簡介和未來記錄。
+1. （選擇性）按一下提示方塊中的&#x200B;**使用現有的簡介**，以瀏覽並新增現有檔案，創意空間將用來建立簡介和未來記錄。<!--CORRECT THIS PART: this is possible ONLY when you launch Ideation from the Main Menu, not from a record-->
 
    ![空的創意力簡短提示](assets/empty-ideation-prompt.png)
 
@@ -225,7 +224,8 @@ are there additional license restrictions or packages to be purchased to have ac
 
 
 
-<!-- this is from Claude, but rephrased and included most of this above: 
+<!-- 
+this is from Claude, but rephrased and included most of this above: 
 
 ## Step 5: Open the Workfront Planning Records panel
 

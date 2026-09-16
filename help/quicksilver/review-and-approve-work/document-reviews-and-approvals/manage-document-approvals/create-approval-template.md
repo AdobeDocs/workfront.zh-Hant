@@ -11,22 +11,26 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/jsEcIKopi-lJOSXQitDnufu3j0AmkWkPmCXtCR0V6nk
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 3eb7b5e0cca5245bc2fe8a733dcfd9a89c56d49f
+    internal-label: Administration
+source-git-commit: ff8ec4e7f5f9ffefcfc6eeea7e37443bcd1f55d2
 workflow-type: tm+mt
-source-wordcount: 800
+source-wordcount: '800'
 ht-degree: 2%
-
 ---
-
 # 建立檔案的核准工作流程範本
 
 在Workfront設定區域中，擁有標準授權的使用者可以建立可重複使用的核准範本。 除非建立者與特定使用者或組織中的每個人共用範本，否則範本僅對建立的使用者可見。 核准範本建立後，即可套用至物件之檔案區域中的資產。
@@ -74,6 +78,7 @@ ht-degree: 2%
 1. 按一下頁面右側的&#x200B;**新範本**。
 
 1. 新增&#x200B;**範本名稱**。
+
 <!--
 This field has a character limit of 255.
 -->
@@ -110,8 +115,9 @@ This field has a character limit of 255.
 
    ![新增階段](assets/add-stage.png)
 
-<!-- screen for preview
-    ![add a stage](assets/add-stage-v2.png)
+<!-- 
+screen for preview
+![add a stage](assets/add-stage-v2.png)
 -->
 
 
@@ -121,8 +127,9 @@ This field has a character limit of 255.
 
    ![新增平行路徑](assets/add-path.png)
 
-<!-- screen for preview
-   ![add parallel paths](assets/add-path-v2.png)
+<!-- 
+screen for preview
+![add parallel paths](assets/add-path-v2.png)
 -->
 
 1. （選擇性）若要重新命名路徑，請將游標停留在路徑標籤上，按一下鉛筆圖示，然後輸入新名稱。 若要移除路徑，請將滑鼠指標暫留在路徑標籤上，然後按一下垃圾桶圖示。 **無法移除路徑1**，而且只有在路徑中沒有鎖定或完成的階段時，才能移除其他路徑。
