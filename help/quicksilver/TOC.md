@@ -3,13 +3,11 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: '14542'
+source-wordcount: '14555'
 ht-degree: 2%
-
 ---
-
 # Workfront 指南 {#using}
 
 * [Workfront檔案](home.md)
@@ -735,7 +733,7 @@ ht-degree: 2%
       * [管理 API 金鑰](administration-and-setup/manage-workfront/security/manage-api-keys.md)
       * [隱私權原則](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
       * {hide-from-toc}[增強式驗證概觀](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
-      * {hide-from-toc}[使用增強式驗證時更新IDP中的SAML 2.0中繼資料](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
+      * 使用增強式驗證時{hide-from-toc}[更新IDP中的SAML 2.0中繼資料](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
     * 匯率 {#exchange-rates}
       * [匯率](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
       * [設定匯率](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
@@ -971,10 +969,10 @@ ht-degree: 2%
     * [Adobe Workfront MCP伺服器工具](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)
     * [可直接安裝的技能](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)
   * Workfront中的CX Coworker {#coworker-in-workfront}
-    * [Workfront中的CX Co-worker：文章索引](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
-    * [CX Co-worker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
-    * [CX同事技能](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
-    * [在Workfront中使用CX Co-worker](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
+    * [Workfront中的CX Coworker：文章索引](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
+    * [CX Coworker概觀](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
+    * [CX Coworker技能](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
+    * [在Workfront中使用CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
   * 更新工作專案並檢視更新 {#update-work-items-view-updates}
     * [更新工作專案和檢視更新：文章索引](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
     * [更新區段概觀](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -1213,7 +1211,7 @@ ht-degree: 2%
     * [刪除文件](documents/managing-documents/delete-documents.md)
     * [從剪貼簿貼上影像](documents/managing-documents/paste-image-clipboard.md)
     * [大量編輯檔案](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)
-    * {hide-from-toc}[Workfront檔案詳細資訊中的AddBuilder](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
+    * {hide-from-toc}[Workfront檔案詳細資訊](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)中的AddBuilder
   * 組織檔案 {#organize-documents}
     * [組織檔案](documents/organizing-documents/organize-documents.md)
     * [建立檔案資料夾](documents/organizing-documents/create-documents-folder.md)
@@ -1645,7 +1643,9 @@ ht-degree: 2%
     * 管理報告 {#manage-reports}
       * [管理報告：文章索引](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/manage-reports-article-index.md)
       * [在畫布控制面板中編輯報告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
-      * [在畫布控制面板中編輯報告篩選器](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
+      * [在畫布控制面板中篩選報表](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)
+      * [畫布控制面板的報表篩選參考](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)
+      * [在畫布控制面板中將報表資料分組](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md)
       * [在畫布控制面板中複製報告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/duplicate-a-report.md)
       * [刪除畫布控制面板中的報告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
   * 報告 {#reports}
@@ -2658,10 +2658,10 @@ ht-degree: 2%
     * [使用JWT流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-jwt-flow.md)
     * [使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-pkce-flow.md)
     * [棄用API — 內部](wf-api/api/deprecation-api-internal.md)
-    * [&#x200B; API 22版的新增功能](/help/quicksilver/wf-api/api/new-api-version-22.md)
-    * [&#x200B; API 21版的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-    * [&#x200B; API 20版的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-    * [&#x200B; API 19版的新增功能](wf-api/api/new-api-version-19.md)
+    * [ API 22](/help/quicksilver/wf-api/api/new-api-version-22.md)版的新增功能
+    * [ API 21](/help/quicksilver/wf-api/api/new-api-version-21.md)版的新增功能
+    * [ API 20](/help/quicksilver/wf-api/api/new-api-version-20.md)版的新增功能
+    * [ API 19](wf-api/api/new-api-version-19.md)版的新增功能
     * [API 18版的新增功能](wf-api/api/new-api-version-18.md)
     * [API 17版的新增功能](wf-api/api/new-api-version-17.md)
     * [API 16版的新增功能](wf-api/api/new-api-version-16.md)

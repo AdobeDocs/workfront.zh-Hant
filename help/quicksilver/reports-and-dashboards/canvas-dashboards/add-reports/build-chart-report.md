@@ -11,20 +11,23 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/9ZMHrzOvdpkdnbBapJ65HFLutu0lfYmSOCamto-AU0c
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 79d9eb9d3066cc83c1190d9732c64712917798aa
+    internal-label: Administration
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: 1971
-ht-degree: 4%
-
+source-wordcount: '1860'
+ht-degree: 5%
 ---
-
 # 在畫布儀表板中建立圖表報告
 
 >[!IMPORTANT]
@@ -175,12 +178,9 @@ ht-degree: 4%
 
 ### 篩選器
 
-請依照下列步驟設定&#x200B;**篩選器**&#x200B;區段：
+在左側面板中，按一下&#x200B;**篩選** ![篩選圖示](assets/filter-icon.png)圖示，然後設定條件以決定要顯示哪些資料。
 
-1. 在左側面板中，按一下&#x200B;**篩選器**![&#x200B;篩選器圖示](assets/filter-icon.png)圖示。
-1. 選取&#x200B;**編輯篩選器**。
-1. 按一下&#x200B;**新增條件**，然後指定您要篩選的欄位，以及定義欄位必須符合何種條件的修飾元。
-1. （選擇性）按一下&#x200B;**新增篩選器群組**&#x200B;以新增另一組篩選准則。 集合之間的預設運運算元為AND。 按一下運運算元以將其變更為OR。
+如需詳細資訊，請參閱[在畫布儀表板中篩選報告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)。
 
 ### 深入分析設定
 
@@ -194,13 +194,11 @@ ht-degree: 4%
 
 ### 向下鑽研群組設定
 
-請依照下列步驟設定&#x200B;**向下鑽研群組設定**&#x200B;區段：
+在左側面板中，按一下&#x200B;**向下分析群組設定** ![群組設定](assets/drilldown-group-icon.png)圖示，然後新增向下分析表格的群組。
 
-1. 在左側面板中，按一下&#x200B;**群組設定** ![群組設定](assets/drilldown-group-icon.png)圖示。
+如需詳細資訊，請參閱[在[畫布儀表板中的群組報告資料](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md)中，設定圖表和KPI報告中的深入分析群組](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md#configure-drilldown-groupings-in-chart-and-kpi-reports)。
 
-1. 按一下「**新增群組**」按鈕，然後選取要建立為群組的欄位。
-
-1. 按一下&#x200B;**儲存**&#x200B;以建立報告並將其新增到儀表板。
+按一下&#x200B;**儲存**&#x200B;以建立報告並將其新增到儀表板。
 
 ## 建立圖表報告範例
 
@@ -266,7 +264,7 @@ ht-degree: 4%
 
    1. 在求值器欄位中輸入&#x200B;*$$TODAY*。
 
-      如需萬用字元的詳細資訊，請參閱[在畫布儀表板中編輯報告篩選器](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)文章中的日期型萬用字元篩選器變數一節。
+      如需詳細資訊，請參閱[Canvas儀表板的報告篩選器參考](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)中的[日期型萬用字元篩選器變數](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md#date-based-wildcard-filter-variables)。
 
       ![評估器欄位](assets/add-condition.png)
 
@@ -326,10 +324,4 @@ ht-degree: 4%
 
 ### 參照子物件
 
-其他欄、篩選選項和群組屬性的可用關係通常僅限於Workfront物件階層中較高的物件，或在報表的基本實體物件上具有單一選取範圍。 但有一些例外，包括：
-
-* 專案>任務
-* 檔案核准>檔案核准階段
-* 檔案核准階段>檔案核准階段參與者
-
-使用上面列出的任何父項至子項關係時，您會在表格中看到連線到父物件的每個子記錄的一列。
+欄、篩選器和群組有某些父子關係。 如需詳細資訊，請參閱[Canvas儀表板的報告篩選參考](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)中的[參考子物件](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md#referencing-children-objects)。
