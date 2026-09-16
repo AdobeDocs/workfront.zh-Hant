@@ -19,10 +19,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: dc9caae8cc85543986eaefb1d3debdebfdf6ce96
+source-git-commit: 85ae49708acf2c472816ac848ce15429577b934e
 workflow-type: tm+mt
-source-wordcount: '1210'
-ht-degree: 7%
+source-wordcount: '1022'
+ht-degree: 9%
 ---
 # 畫布控制面板的報表篩選參考
 
@@ -212,26 +212,29 @@ ht-degree: 7%
 
 使用上面列出的任何父項至子項關係時，您會在表格中看到連線到父物件的每個子記錄的一列。
 
+<!--
 <div class="preview">
 
-## 在預覽中篩選集合關係
+## Filter on collection relationships in Preview
 
-集合是連結至一組相關記錄（而非單一記錄）的欄位。 例如，專案核准階段的參與者是集合。 當您建立篩選器時，可以直接在集合上篩選，而無需切換到文字模式。
+A collection is a field that links to a group of related records rather than to a single record. For example, the participants on a project's approval stages are a collection. When you build a filter, you can filter on collections directly, without switching to text mode.
 
-若要篩選集合，請開啟「選取欄位」面板，然後選取「集合」。 本節僅列出集合關係。 單一記錄關係保留在「關係」下。
+To filter on a collection, open the Select a field panel, then select Collections. This section lists only collection relationships. Single-record relationships stay under Relationships.
 
-![集合關係](assets/collections.png)
+![collection relationships](assets/collections.png)
 
-選取集合後，您可以執行下列兩個動作：
+After you select a collection, you can do two things:
 
-* 在集合本身的欄位上篩選。 例如，您可以從投資組合的專案中篩選專案狀態。
-* 從集合中追蹤單一記錄關係。 例如，從投資組合的專案，您可以聯絡專案所有者。
+* Filter on the collection's own fields. For example, from a portfolio's projects, you can filter on a project's status.
+* Follow one single-record relationship out of the collection. For example, from a portfolio's projects, you can reach the project owner.
 
-集合不支援更深入的導覽。 您無法開啟巢狀在另一個集合內的集合、追蹤多個關係，或選取可回到您開始位置的關係。
+Collections don't support deeper navigation. You can't open a collection nested inside another collection, follow more than one relationship, or select the relationship that leads back to where you started.
 
-集合區段僅在您建立篩選器時顯示。 它不會出現在其他欄位選擇器中，例如表格欄、群組或圖表欄位的選擇器中。
+The Collections section appears only when you build a filter. It doesn't appear in other field choosers, such as those for table columns, groupings, or chart fields.
 
 </div>
+
+-->
 
 ## 排除個人專案、任務和機器人使用者
 
