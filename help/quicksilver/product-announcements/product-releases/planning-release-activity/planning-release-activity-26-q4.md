@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: e76aa2b0a9002abd644f82d99a001f8b1c0fff6e
+source-git-commit: 10d95f7fc71d72edd5cbb292af69a348b648b4ba
 workflow-type: tm+mt
-source-wordcount: '1773'
+source-wordcount: '2057'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 2026年第四季發行活動
@@ -16,6 +16,61 @@ ht-degree: 0%
 本文介紹2026年第四季發行的Workfront Planning功能。
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## CX Coworker現在可在Workfront Planning中使用
+
+>[!NOTE]
+>
+>預覽： 2026年9月3日
+>生產快速發行： 2026年9月17日
+>適用於所有人的生產： 2026年10月15日
+
+CX Coworker現在可在Workfront Planning中使用。 現在，您可以在整個CX Coworker Planning提供的面板中存取Workfront。
+
+CX Coworker Chat是一個對話式介面，用於完成工作。 以簡單的語言描述目標，同事規劃工作、跨Workfront Planning和您連線的Adobe系統執行、驗證結果，並將完成的工作交還給您核准。
+
+同事會尊重您組織現有的存取控制（預設為唯讀存取），以及系統管理員控制使用者何時取得寫入存取權。
+
+同事正在取代目前的AI助理，成為更強大的工作完成方式。 同事是Adobe生態系統的一部分，不限於Workfront Planning。
+
+>[!IMPORTANT]
+>
+>CX Coworker目前不適用於保健、金融或某些具有敏感資料的其他行業的組織。 AI助理可供這些組織使用。
+
+如需詳細資訊，請參閱[CX Coworker概觀](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
+
+<!--
+
+## Removed the AI Assistant icon in the Details preview box in preparation for the CX Coworker launch
+
+>[!NOTE]
+>
+>Preview: September 16, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+This change is available for customers who have the CX Coworker in Workfront.
+
+In preparation for the launch of the Adobe CX Coworker in Workfront, we have removed the AI Assistant icon from the Details preview page. The icon still exists on the Details page, when opened in full screen. Clicking it will open the CX Coworker.
+
+For information, see [CX Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md).
+
+-->
+
+## 改善在複製具有一對一或一對多連線型別之連線欄位的記錄時的體驗
+
+>[!NOTE]
+>
+>預覽： 2026年9月17日
+>生產快速發行： 2026年10月14日
+>適用於所有人的生產： 2026年10月15日
+
+現在即使存在一對一或一對多連線的記錄，也可以複製記錄。 複製後，使用者可以選擇將連線的記錄保留在原始記錄上，或將其連線到新記錄。 「保持原始」為預設選項。
+
+連線衝突解決對話方塊已更新，以反映此新行為，並在管理連線記錄時提供更大的彈性。
+
+如需詳細資訊，請參閱[重複記錄](/help/quicksilver/planning/records/copy-or-duplicate-records.md)。
 
 ## 從表格檢視中的主要欄位欄管理記錄縮圖和顏色的可見性
 
