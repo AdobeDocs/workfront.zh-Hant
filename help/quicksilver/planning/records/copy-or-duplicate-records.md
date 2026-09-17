@@ -11,28 +11,32 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/yk-q-wKrbIgyxw3WAz9un5HTNpwtdwFqaPFUQ6PzhT0
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+    internal-label: Administration
+source-git-commit: d5f36e0c8dbd9749503de25b75e70bf18b1d187b
 workflow-type: tm+mt
-source-wordcount: 510
-ht-degree: 2%
-
+source-wordcount: '714'
+ht-degree: 1%
 ---
-
 # 複製記錄
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<!--Remove Prod and Preview references-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -162,7 +166,7 @@ Old:
 
 1. 按一下記錄型別卡。 如需有關建立記錄型別的資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
 
-   記錄型別頁面會在您上次存取的檢視中開啟。依預設，會在表格檢視中開啟記錄型別頁面。
+   記錄型別頁面會在您上次存取的檢視中開啟。 依預設，會在表格檢視中開啟記錄型別頁面。
    所選型別的所有記錄都會顯示在檢視中。
 
 1. （視條件而定）選取表格檢視。
@@ -178,6 +182,11 @@ Old:
      ![表格檢視中工具列中的重複圖示](assets/duplicate-icon-in-toolbar-in-table-view.png)
 
    在原始記錄下會建立具有相同名稱的相同記錄。 新記錄的所有欄位都會填入與原始記錄相同的資訊。
+
+1. （視條件而定）如果您要複製的記錄連線到「一對一」或「一對多」連線型別中的記錄，請根據您使用的環境，按一下下列其中一項：
+
+   * 在生產環境中，按一下[連線] ****&#x200B;從原始記錄中移除連線的記錄，並將它新增至複製的記錄，或者如果您不想繼續複製記錄，請按一下[取消] **。**
+   * <span class="preview">在[預覽]環境中，如果要將連線的記錄移至新記錄，請按一下[連線到新記錄]**；如果要將連線的記錄保留在原始記錄上，請按一下[保留原始記錄]**。 ****&#x200B;重複的記錄在該欄位中不會有已連線的記錄。</span>
 
 1. （選擇性）在表格檢視中可用的欄位中開始更新有關新記錄的資訊，或在記錄預覽或頁面中按一下記錄並更新資訊。
 
