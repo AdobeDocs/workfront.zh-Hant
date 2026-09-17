@@ -1,13 +1,6 @@
 ---
 name: update-for-release
-description: ""
-source-git-commit: 4c2305da7635694d9d7bc174b5837a0d57fb7ac0
-workflow-type: tm+mt
-source-wordcount: '2009'
-ht-degree: 0%
-
----
-
+description: 為即將發行的版本記錄新的Workfront功能：識別受影響的說明文章、選擇正確的預覽程式碼片段、以預覽醒目提示標籤新內容（根據文章，每個區段或每行），並將邊界UI層級詳細資訊顯示為套用編輯之前的明確核准/拒絕提示。 當使用者更新Workfront說明文章中的功能出貨時（通常是先預覽）、提及PRD或即將發行的版本、詢問關於預覽醒目提示，或想要協助將「在預覽中」/「在生產中」區段新增到操作說明或概觀文章時使用。---
 
 # 針對發行版本進行更新(Workfront)
 
@@ -94,9 +87,9 @@ ht-degree: 0%
 
    針對每個「待稽核」專案，提供一句理由（「協助新手計畫較長的訊息」，「協助未在後續階段看到訊息的使用者知道要擴大訊息」）。 僅包含使用者挑選的專案。 預設原則為「如果使用者在執行任務時可以在熒幕上看到它，請勿重述」 — 但使用者獲得最終呼叫。
 
-   **為任一儲存貯體起草實際句子**&#x200B;時，請在撰寫時套用`~/.cursor/skills/writing-quality/SKILL.md`語音和音調規則 — 純欄位/行為描述，而不是變更記錄檔專案（「已移除」、「已新增」），而且不要為了附加預覽註記而重述未變更的指示。 第一次正確草擬它，而不是在稍後階段中固定色調。
+   **在起草任一儲存貯體的實際句子**&#x200B;之前，**叫用`writing-quality`技能（技能工具）**&#x200B;並在您撰寫時套用其語音和音調規則 — 純欄位/行為描述，而不是變更記錄檔專案（「已移除」、「已新增」），而且不會為了附加預覽附註而重述未變更的指示。 第一次正確草擬它，而不是在稍後階段中固定色調。
 
-5. **在顯示草稿文字之前，對草稿文字執行最後的寫入品質傳遞**。 這是安全網，不是第一次套用這些規則 — 可捕捉任何步驟4遺漏的專案（備援、音調、語音與周圍列不符）。
+5. **在顯示草稿文字之前，將`writing-quality`技能（技能工具）作為最後階段執行** — 每篇文章都需要，不是選擇性的。 它會重新捕捉任何步驟4遺漏的專案（備援、音調、語音與周圍列不符）。
 
 6. **建議編輯。** 顯示文章的前後摘錄（或焦點不同的樣式說明），內容包括：片段位置、標題重新命名、新的預覽內內容及其放置位置、熒幕擷取參照，以及任何內嵌`class="preview"`包裝。
 
@@ -217,12 +210,18 @@ For more information, see [{Primary article title}](/help/quicksilver/{path-to-a
 - 每列複製：原始`<tr>`的位元組數未變更；新`<tr class="preview">`的兩個儲存格都包裝在`<span class="preview">`中；標籤是全新的短標籤+小寫「在預覽中」(不是原始標籤+ &quot;（在預覽中）&quot;)；任何補充備註使用`<br>` + `Note:`內嵌，而不是巢狀`<p>`。
 - 如果同一個欄位出現在多個程式變體（基本/進階、舊版/ESM）中，則每個新列的措辭與該變體的實際行為相符，而不是從另一個變體複製貼上。
 - 新的標示為預覽的文章讀起來像是純欄位/行為說明，而不是變更記錄檔專案，而且不會重複重述未變更的指令。
+- 已在此文章的草擬文章中叫用`writing-quality`技能（兩個貯體）。
 - 已編輯檔案上的`ReadLints`是乾淨的。
 - 文章會在兩種狀態下正確閱讀（顯示和隱藏預覽內容）。
 
 ## 參考資料
 
-- Workfront檔案樣式：在`~/.cursor/skills/writing-quality/SKILL.md`檢視&#x200B;**寫作品質**&#x200B;技能。
+- Workfront檔案樣式： **透過技能工具叫用`writing-quality`技能** （來源： `.cursor/skills/writing-quality/`）。
 - 檔案存放庫中的片段目錄： `help/_includes/snippets.md`。
 - GA清理（反向工作流程）：在`.cursor/skills/remove-preview-highlighting/SKILL.md`檢視&#x200B;**移除預覽反白顯示**&#x200B;技能。
 - PRD的Adobe Wiki MCP：伺服器`user-Adobe Wiki Confluence`，工具`get_wiki_content`。
+source-git-commit: 60f7b8b7fc731d649d4d10910b38acda1b1d6891
+workflow-type: tm+mt
+source-wordcount: 2118
+ht-degree: 0%
+---
