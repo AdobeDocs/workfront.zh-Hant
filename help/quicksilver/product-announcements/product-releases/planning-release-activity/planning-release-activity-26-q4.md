@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 10d95f7fc71d72edd5cbb292af69a348b648b4ba
+source-git-commit: 43ad86656589b0a60bce9003d46dcb21bff12e3c
 workflow-type: tm+mt
-source-wordcount: '2057'
+source-wordcount: '2210'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 2026年第四季發行活動
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2026年9月3日
->生產快速發行： 2026年9月17日
->適用於所有人的生產： 2026年10月15日
+>預覽：自2026年9月3日起分階段推出
+>生產快速發行：自2026年9月17日起分階段推出
+>所有人的生產：自2026年10月15日起的分階段推出
 
 CX Coworker現在可在Workfront Planning中使用。 現在，您可以在整個CX Coworker Planning提供的面板中存取Workfront。
 
@@ -35,28 +35,28 @@ CX Coworker Chat是一個對話式介面，用於完成工作。 以簡單的語
 
 >[!IMPORTANT]
 >
->CX Coworker目前不適用於保健、金融或某些具有敏感資料的其他行業的組織。 AI助理可供這些組織使用。
+>CX Coworker目前不適用於保健、金融或某些具有敏感資料的其他行業的組織。 AI助理仍可供這些組織使用。
 
 如需詳細資訊，請參閱[CX Coworker概觀](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
 
-<!--
-
-## Removed the AI Assistant icon in the Details preview box in preparation for the CX Coworker launch
+## 移除「詳細資料」預覽方塊中的AI助理圖示，以準備CX Coworker啟動
 
 >[!NOTE]
 >
->Preview: September 16, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
->[!BADGE Off schedule]{type=Neutral}
+>預覽：自2026年9月16日起分階段推出
+>生產快速發行：自2026年9月17日起分階段推出
+>所有人的生產：自2026年10月15日起的分階段推出
+>[!BADGE 不在排程]{type=Neutral}內
 
-This change is available for customers who have the CX Coworker in Workfront.
+在Workfront中擁有CX Coworker的客戶可使用此變更。
 
-In preparation for the launch of the Adobe CX Coworker in Workfront, we have removed the AI Assistant icon from the Details preview page. The icon still exists on the Details page, when opened in full screen. Clicking it will open the CX Coworker.
+為準備在Workfront中啟動Adobe CX Coworker，我們已從詳細資訊預覽頁面中移除AI助理圖示。 以全熒幕開啟時，圖示仍存在於詳細資訊頁面上。 按一下以開啟CX Coworker。
 
-For information, see [CX Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md).
+>[!IMPORTANT]
+>
+>CX Coworker目前不適用於保健、金融或某些具有敏感資料的其他行業的組織。 AI助理仍可供這些組織使用。
 
--->
+如需詳細資訊，請參閱[Workfront中的CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)。
 
 ## 改善在複製具有一對一或一對多連線型別之連線欄位的記錄時的體驗
 
