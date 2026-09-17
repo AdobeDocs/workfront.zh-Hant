@@ -11,24 +11,30 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/j4ZFzyPot9XkML8u1-kmO6x4lRR3X2SGBwfthepmir0
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
+    internal-label: Administration
+source-git-commit: 242405ef348e288ae2ac06eaef6eb0609b277994
 workflow-type: tm+mt
-source-wordcount: 3066
+source-wordcount: '3066'
 ht-degree: 1%
-
 ---
-
 # 在Adobe Workfront Planning中建立和管理請求表單
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
@@ -237,6 +243,7 @@ ht-degree: 1%
 * 如果至少有一位核准者拒絕請求，則請求會遭到拒絕，且不會建立記錄。 此請求會保留在Workfront的請求區域中。
 * 如果您新增多個核准者，但未啟用「只有一個決定是必要的」選項，則所有核准者必須在核准或拒絕請求之前做出決定。
 * 如果團隊被設定為核准者，則只需從團隊中做出一個決定。
+  <!--<span class="preview">* Multiple stages are supported in the approval process. When all required decisions in a stage are made, the next stage begins and the new stage's approvers receive an email notification.</span>-->
 
 如需新增核准的詳細資訊，請參閱[新增核准至要求表單](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
 
@@ -255,11 +262,13 @@ ht-degree: 1%
 
    ![預設核准規則區域](assets/default-approvers.png)
 
+   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval. Add the approvers for each stage, and save the multi-stage approval.</span> FIX INDENT WHEN YOU UNCOMMENT THIS, SHOULD BE FLUSH LEFT-->
+
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
 1. （選用）請針對每個額外的核准規則，執行下列作業：
 
-   1. 按一下&#x200B;**新增核准規則**
+   1. 按一下&#x200B;**新增核准規則**。
    1. 按一下預留位置標題「未命名的核准規則」，然後輸入核准規則的名稱。
    1. 按一下&#x200B;**選取欄位**&#x200B;並選取啟用規則的欄位。
    1. 選取規則的運運算元。 運運算元會依欄位型別而異。
@@ -268,12 +277,14 @@ ht-degree: 1%
    1. 在核准規則的「動作」區域中，在&#x200B;**核准者**&#x200B;欄位中，新增至少一位當符合條件時要在核准者處設定的使用者或團隊。
    1. （視條件而定）如果要在任何核准者核准記錄後建立記錄，請核取&#x200B;**僅需要一個決定**&#x200B;核取方塊。
 
+   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval, and follow step 5 above.</span>-->
+
 1. （可選）若要重新排序路由規則，請按一下規則左側的拖曳控點，並將規則拖曳到所要的位置。
 
    無法重新排序預設規則。
 
 1. （選擇性）若要刪除路由規則，請按一下規則右側的&#x200B;**X**。
-1. 按一下[儲存]儲存核准規則。**&#x200B;**
+1. 按一下[儲存]儲存核准規則。****
 1. 按一下左側面板上的&#x200B;**要求完成選項**。
 1. 從下列選項中選取：
 
