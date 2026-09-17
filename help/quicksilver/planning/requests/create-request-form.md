@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 242405ef348e288ae2ac06eaef6eb0609b277994
+source-git-commit: d53ae5afd949644baf18d6a4f0ba8f30b80fa1e5
 workflow-type: tm+mt
 source-wordcount: '3066'
 ht-degree: 1%
@@ -205,12 +205,12 @@ ht-degree: 1%
    * **標籤**：這是欄位在要求表單上顯示的名稱。 這不會變更記錄欄位的名稱。
    * **指示**：新增欄位的詳細資訊。
    * **建立必要欄位**：選取時，該欄位必須具有值。 否則，無法提交表單。
-   * **新增邏輯**：定義必須符合哪些條件才能顯示或隱藏欄位。
+   * **新增邏輯**：定義必須符合哪些條件才能顯示或隱藏欄位。<!--<span class="preview">In addition to display and skip logic, validation logic is also available.</span> For information on field logic, see [Add logic rules to custom forms and fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).-->
 
    >[!TIP]
    >
-   >   在表單上選取欄位後，每個欄位的欄位型別都會顯示在右側面板的頂端。
-   >     
+   >在表單上選取欄位後，每個欄位的欄位型別都會顯示在右側面板的頂端。
+
 1. （可選）長按一下欄位，然後將其拖放到表單上的另一個位置。
 1. （選擇性）按一下表單左側的&#x200B;**Content elements**&#x200B;標籤，然後新增下列任一元素：
 
@@ -284,7 +284,7 @@ ht-degree: 1%
    無法重新排序預設規則。
 
 1. （選擇性）若要刪除路由規則，請按一下規則右側的&#x200B;**X**。
-1. 按一下[儲存]儲存核准規則。**&#x200B;**
+1. 按一下[儲存]儲存核准規則。****
 1. 按一下左側面板上的&#x200B;**要求完成選項**。
 1. 從下列選項中選取：
 
