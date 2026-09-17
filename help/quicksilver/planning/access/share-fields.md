@@ -5,13 +5,11 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 2d26437c69b3c36366938952d426532934f55c52
+source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '1171'
 ht-degree: 2%
-
 ---
-
 
 # 共用Workfront規劃欄位
 
@@ -80,62 +78,150 @@ ht-degree: 2%
 ## 共用欄位的相關考量事項
 
 * 您可以與使用者、工作角色、群組、團隊或公司共用欄位。
+* 您只能從記錄型別的表格檢視中共用欄位。
+* 您無法共用下列型別的欄位：
+
+  * 系統欄位（例如，建立者、記錄ID）
+  * 主要欄位
+  * 查詢欄位。 使用者一律會繼承其來源物件欄位的許可權。
 * 對欄位的存取權來自結合下列設定：
 
-  * **繼承許可權**：依預設，欄位繼承某人對於記錄型別的相同存取權（檢視記錄型別許可權授予使用者檢視欄位值的許可權；貢獻或管理記錄型別許可權授予使用者管理欄位值的許可權）。 您可以關閉繼承許可權，並給予使用者比記錄型別更低的欄位存取權。
+  * **繼承許可權**：依預設，欄位會繼承某人對於記錄型別的相同存取權。 您可以關閉繼承許可權，並給予使用者比記錄型別更低的欄位存取權。
   * 工作區中的&#x200B;**每個人都可以檢視**&#x200B;或&#x200B;**只有受邀者可以存取**&#x200B;選取專案。 您可以允許擁有工作區許可權的所有人檢視欄位，或僅將許可權授予個別實體。
 
   如果同一個人套用多個規則，這些規則會從其中一個規則中取得他們可用的最高許可權。
 
-* 只有工作區擁有者和管理員可以調整欄位許可權；工作區管理員一律保留對所有欄位的「管理」存取權，這是無法降低的。
+* 根據記錄型別許可權，使用者可以收到以下欄位許可權：
+
+  * 檢視記錄型別許可權授予使用者檢視欄位值的許可權
+  * Contribute或Manage記錄型別許可權提供使用者管理欄位值的許可權
+
+* 只有工作區擁有者和管理員可以調整欄位許可權。 Workspace管理員一律保留所有欄位的「管理」存取權，且不可降低。
 * 欄位共用控制對值的存取，而不是欄位設定。 只有工作區管理員可以變更欄位的設定。
 * 將某人新增至欄位的共用清單不會授予他們工作區或記錄型別存取權。 如果他們沒有該存取權，警告圖示會指出該許可權只有在將其新增到記錄型別後才會生效。
-* 系統欄位（例如，建立者、記錄ID）和主要欄位不能有受限制的共用。
-* 限制欄位會在顯示欄位的所有位置強制執行。 這包括所有的檢視、記錄詳細資訊頁面、請求表單、連線和查詢欄位、畫布控制面板、API和MCP工具。
-* 查閱欄位繼承其來源欄位的許可權。
+* 具有受限制許可權的欄位會在任何顯示欄位的位置強制執行。 這包括所有的檢視、記錄詳細資訊頁面、請求表單、連線和查詢欄位、畫布控制面板、API和MCP工具。
 * 任何可以存取公開檢視的使用者都能完全看見這些檢視，且維持唯讀狀態。
-* 當您複製記錄時，受限制的值不會複製到新記錄中。
+  <!--Not sure if this is right - right now, it allows me to duplicate with the values in the new record - checking with Lilit: * When you duplicate a record, the restricted values are not copied to the new records.-->
 * 限制的欄位值變更不會記錄在記錄的歷史記錄中。
 * 欄位的許可權變更不會觸發通知。
 * 對於全域記錄型別，欄位許可權會套用至所有次要工作區，且無法在本機調整。
 
+<!--
+From Claude: 
+Additional permissions for fields - maybe add this to the Overview article for all of the sharing?? - help/quicksilver/planning/access/sharing-permissions-overview.md 
 
-從克勞德：
-欄位的其他許可權 — 可將此許可權新增至所有共用的概述文章?? - help/quicksilver/planning/access/sharing-permissions-overview.md
+Here's how record type / workspace access maps to field-level access in the document:
 
-以下說明記錄型別/工作區存取對應至檔案中欄位層級存取的方式：
+Field permission levels (only two, plus none):
 
-欄位許可權層級（只有兩個，加上無）：
+No Access – field is completely hidden
+View field values – can see the value, can't edit
+Manage field values – can view and edit
 
-無存取權 — 欄位完全隱藏
-檢視欄位值 — 可檢視值，無法編輯
-管理欄位值 — 可以檢視和編輯
+Default inheritance from record type role
 
-從記錄型別角色的預設繼承
+Record type / workspace access    Default field permission
+View    View field values
+Contribute    Manage field values
+Manage (workspace manager)    Manage field values (locked — cannot be reduced)
 
-記錄型別/工作區存取預設欄位許可權
-檢視檢視欄位值
-「貢獻管理」欄位值
-管理（工作區管理員）管理欄位值（已鎖定 — 無法減少）
+So by default, a field simply mirrors whatever role someone has on the record type — Viewers get read-only, Contributors and Managers get edit rights. Workspace managers are a special case: whenever they're added to a field's sharing list, "Manage field values" is pre-selected and the "View field values" option is disabled, since their edit access can never be taken away.
 
-因此，依預設，欄位只是鏡射某人擁有的任何記錄型別角色 — 檢視者獲得唯讀許可權，貢獻者和管理者獲得編輯許可權。 Workspace管理員是特殊情況：無論何時將其新增到欄位的共用清單中，都會預先選取「管理欄位值」並停用「檢視欄位值」選項，因為他們的編輯存取權永遠無法移除。
+Wildcard (fallback) setting
+Separate from inheritance, each field has a wildcard default:
 
-萬用字元（備援）設定
-除了繼承以外，每個欄位都有萬用字元預設值：
+Everyone in the workspace can view (default)
+Only invited people can access
 
-工作區中的所有人都可以檢視（預設）
-只有受邀人員才能存取
+How the final permission is calculated
 
-最終許可權的計算方式
+If inherited permissions are enabled: a person's access = the highest of (inherited from record type, wildcard, individually granted permission).
+If inherited permissions are disabled: a person's access = the highest of (wildcard, individually granted permission) — record type role no longer factors in.
+If inheritance is disabled, wildcard is "Only invited people can access," and the person isn't individually added → they get No Access.
 
-如果已啟用繼承許可權：人員的存取權= （繼承自記錄型別、萬用字元、個別授予的許可權）中的最高者。
-如果繼承的許可權被停用：個人的存取權= （萬用字元，個別授予的許可權）中的最高值 — 記錄型別角色不再受影響。
-如果停用繼承，萬用字元為「只有受邀人員才能存取」，且在人員獲得「無存取權」→不會個別新增該人員。
+Other permission notes
 
-其他許可權附註
+Individually granting access to someone doesn't grant them workspace/record-type access — it just sits inactive (with a warning icon) until they're separately added to the workspace.
+For Global Record Types, field permissions are set once and apply to all secondary workspaces; secondary/team workspace managers cannot override them locally.
 
-單獨授予某人存取權不會授予他們工作區/記錄型別的存取權 — 它只會處於非使用中狀態（具有警告圖示），直到他們單獨新增到工作區為止。
-對於全域記錄型別，欄位許可權設定一次，並套用至所有次要工作區；次要/團隊工作區管理員無法在本機覆寫它們。
+-->
 
 ## 共用欄位
 
+身為工作區管理員，您可以調整個別欄位的許可權。
+
+{{step1-to-planning}}
+
+1. 開啟工作區，然後開啟要共用其欄位的記錄型別。
+
+1. 在表格檢視中，暫留在欄位欄位標題的名稱上，按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**共用欄位**。
+
+   **共用**&#x200B;方塊開啟。
+
+1. （選擇性）在&#x200B;**授與存取權**&#x200B;區域中，預設會選取&#x200B;**工作區中的每個人都可以檢視**&#x200B;選項。 所有對工作區和記錄型別具有&#x200B;**檢視**&#x200B;或更高許可權的使用者對該欄位具有相同的許可權。
+
+1. （可選）按一下「**繼承自**&#x200B;的許可權」選項下的使用者頭像，以檢視從工作區繼承許可權的使用者、團隊、群組、公司或工作角色。
+
+   當您展開繼承的許可權時，會顯示使用者對記錄型別的許可權。
+
+   >[!TIP]
+   >
+   >您無法從繼承的許可權清單中移除個別實體。 列出來自團隊、群組、公司或工作角色的使用者，而不是與他們共用工作區和記錄型別時他們關聯的實體。
+
+1. （選擇性和條件性）如果您想要與特定實體共用欄位，並授予他們與記錄型別不同的欄位存取權，請執行以下操作：
+
+   1. 從&#x200B;**繼承許可權**&#x200B;中取消選取&#x200B;**開啟**&#x200B;選項。 預設會選取此選項。
+
+      選項變更為&#x200B;**已關閉**。
+
+      >[!TIP]
+      >
+      >Workspace管理員繼續擁有記錄型別和欄位的管理許可權。
+
+   1. 在&#x200B;**授與存取權**&#x200B;方塊中，新增您要授與不同於工作區或記錄型別之許可權等級的使用者、團隊、群組、公司或工作角色。
+
+      當您和使用者共用欄位時，他們的主要工作角色和電子郵件也會顯示在欄位中。 您必須為存取層級中的Users物件啟用[檢視連絡人資訊]設定，才能檢視使用者的電子郵件。
+
+   1. 選擇下列其中一個許可權層級：
+
+      * 檢視欄位值
+      * 管理欄位值
+
+      >[!IMPORTANT]
+      >
+      ><!-- * If users have Contribute or Manage permissions to the workspace and the record type, you can give them Manage permissions to the field. The View permission is dimmed.-->
+      >* 如果使用者擁有記錄型別的Contribute或以上版本，則您無法授予其較少的欄位許可權。
+      >
+      >* 您無法向不在工作區中的使用者授予許可權。 沒有工作區許可權和記錄型別的使用者無法存取任何欄位。 當他們取得工作區和記錄型別的許可權時，將能夠存取欄位。
+
+1. 按一下「**儲存**」。
+
+   此欄位現在已與其他使用者共用。
+
+   <!--
+    Not possible for fields: 
+    The users you shared the field with receive both an in-app and email notification about having been given permissions to the field.
+    For information, see [Adobe Workfront Planning notifications: article index](/help/quicksilver/planning/notifications/notifications-information.md).
+    -->
+
+## 移除欄位的許可權
+
+您可以從欄位中移除使用者的許可權。 但是，他們至少會保留工作區的檢視許可權和記錄型別，這也會為他們提供至少欄位的檢視許可權。
+
+如果您希望他們沒有工作區中記錄型別或欄位的許可權，則必須從工作區中移除他們的存取權。
+
+您無法從繼承的許可權中移除使用者。
+
+{{step1-to-planning}}
+
+1. 開啟您要停止共用其欄位的工作區，然後按一下記錄型別卡片。 這會開啟記錄型別頁面。
+1. 在表格檢視中，暫留在欄位欄位標題的名稱上，按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**共用欄位**。
+
+   **共用**&#x200B;方塊開啟。
+1. 尋找您要移除其許可權的使用者、群組、團隊、公司或工作角色，展開其名稱右側的許可權下拉式功能表，然後按一下&#x200B;**移除**。
+
+1. 按一下「**儲存**」。
+
+   人員不再具有此欄位所指示的許可權。 但是，他們仍擁有記錄型別和工作區的許可權，除非您也將他們從這些許可權中移除。
+
+   對於已從存取欄位中移除的使用者，不會通知他們不再擁有這些許可權。

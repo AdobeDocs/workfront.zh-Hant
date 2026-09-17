@@ -11,16 +11,17 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/IPvYru6al05HMWf7jLZ1XuGWD8Eq2P6s22NamtxqA4w
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: b5b73103671c4a478d7e3a5f4eeb9672bac62de4
+    internal-label: Admin
+source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
 workflow-type: tm+mt
-source-wordcount: 191
-ht-degree: 23%
-
+source-wordcount: '197'
+ht-degree: 22%
 ---
-
 # Adobe Workfront Planning一般資訊：文章索引
 
 {{planning-important-intro}}
@@ -32,6 +33,13 @@ ht-degree: 23%
 * [開始使用Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
 * [Workfront規劃主題概觀](/help/quicksilver/planning/general/planning-terminology.md)
 * [Adobe Workfront Planning AI Assistant概觀](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)
+
+<div class="preview">
+
+* [Adobe Workfront規劃CX Coworker概觀](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)
+
+</div>
+
 * [Adobe Workfront Planning API基本需知](/help/quicksilver/planning/general/planning-api-basics.md)
 * [Adobe Workfront Planning物件限制總覽](/help/quicksilver/planning/general/limitations-overview.md)
 * [2024年Adobe Workfront計畫發行活動](/help/quicksilver/planning/general/release-activity.md)
@@ -40,5 +48,6 @@ ht-degree: 23%
 * [Adobe Workfront規劃實作建議](/help/quicksilver/planning/general/planning-best-practices.md)
 * [開始使用Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md)
 * [開始使用Adobe Workfront Planning免費試用版](/help/quicksilver/planning/general/trial-workfront-planning.md)
+
 
 
