@@ -11,22 +11,26 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/5tFfjJfCZzD-xA4YgFpz9V3jIVG2etiYJ-KAwPLI-Sk
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 79d9eb9d3066cc83c1190d9732c64712917798aa
+    internal-label: Administration
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: 1406
+source-wordcount: '1347'
 ht-degree: 6%
-
 ---
-
 # 在畫布控制面板中建立KPI報告
 
 >[!IMPORTANT]
@@ -121,17 +125,9 @@ ht-degree: 6%
 
    1. 在&#x200B;**彙總型別**&#x200B;下拉式清單中，選取資料如何彙總以產生KPI輸出。 此欄位中的選項會依上個步驟中選取的欄位型別而有所不同。
 
-1. 請依照下列步驟設定&#x200B;**篩選器**&#x200B;區段：
+1. 在左側面板中，按一下&#x200B;**篩選** ![篩選圖示](assets/filter-icon.png)圖示，然後設定條件以決定要顯示哪些資料。
 
-   1. 在左側面板中，按一下&#x200B;**篩選器** ![篩選器圖示](assets/filter-icon.png)圖示。
-
-   1. 選取&#x200B;**編輯篩選器**。
-
-   1. 按一下&#x200B;**新增條件**，然後指定您要篩選的欄位，以及定義欄位必須符合何種條件的修飾元。
-
-   1. （選擇性）按一下&#x200B;**新增篩選器群組**&#x200B;以新增另一組篩選准則。 集合之間的預設運運算元為AND。 按一下運運算元以將其變更為OR。
-
-      如需篩選的詳細資訊，請參閱[在畫布儀表板中編輯報告篩選](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)。
+   如需詳細資訊，請參閱[在畫布儀表板中篩選報告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)。
 
 1. 請依照下列步驟設定&#x200B;**向下鑽研資料行設定**&#x200B;區段：
 
@@ -141,11 +137,9 @@ ht-degree: 6%
 
    1. 按一下&#x200B;**新增欄**，然後選取您要在表格中顯示為欄的欄位。 對要新增的每個欄重複此程式。
 
-1. 請依照下列步驟設定&#x200B;**向下鑽研群組設定**&#x200B;區段：
+1. 在左側面板中，按一下&#x200B;**向下分析群組設定** ![向下分析群組圖示](assets/drilldown-group-icon.png)圖示，然後新增向下分析表格的群組。
 
-   1. 在左側面板中，按一下&#x200B;**群組設定** ![向下鑽研群組圖示](assets/drilldown-group-icon.png)圖示。
-
-   1. 按一下「**新增群組**」按鈕，然後選取要建立為群組的欄位。
+   如需詳細資訊，請參閱[&#128279;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md#configure-drilldown-groupings-in-chart-and-kpi-reports)在[畫布儀表板中的群組報告資料](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md)中，設定圖表和KPI報告中的深入分析群組。
 
 1. 按一下&#x200B;**儲存**&#x200B;以建立報告並將其新增到儀表板。
 

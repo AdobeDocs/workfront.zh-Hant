@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ff8ec4e7f5f9ffefcfc6eeea7e37443bcd1f55d2
+source-git-commit: bef848df8b263de89bfa90b7fec74b14734dfeff
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 2%
@@ -115,7 +115,7 @@ This field has a character limit of 255.
 
    ![新增階段](assets/add-stage.png)
 
-<!-- 
+<!--
 screen for preview
 ![add a stage](assets/add-stage-v2.png)
 -->
@@ -127,7 +127,7 @@ screen for preview
 
    ![新增平行路徑](assets/add-path.png)
 
-<!-- 
+<!--
 screen for preview
 ![add parallel paths](assets/add-path-v2.png)
 -->

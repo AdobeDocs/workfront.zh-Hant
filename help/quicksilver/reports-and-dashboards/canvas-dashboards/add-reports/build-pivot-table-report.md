@@ -5,13 +5,11 @@ title: 在畫布儀表板中建立樞紐分析表
 description: 您可以將樞紐分析表新增至畫布控制面板，以表格格式檢視資料的彙總總數。
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: '1556'
-ht-degree: 5%
-
+source-wordcount: '1510'
+ht-degree: 6%
 ---
-
 # 在畫布儀表板中建立樞紐分析表
 
 >[!IMPORTANT]
@@ -132,15 +130,9 @@ ht-degree: 5%
 
    1. 重複上述兩個步驟，即可新增最多2個區段。
 
-1. 請依照下列步驟設定&#x200B;**篩選器**&#x200B;區段：
+1. 在左側面板中，按一下&#x200B;**篩選** ![篩選圖示](assets/filter-icon.png)圖示，然後設定條件以決定要顯示哪些資料。
 
-   1. 在左側面板中，按一下&#x200B;**篩選器** ![篩選器圖示](assets/filter-icon.png)圖示。
-
-   1. 選取&#x200B;**編輯篩選器**。
-
-   1. 按一下&#x200B;**新增條件**，然後指定您要篩選的欄位，以及定義欄位必須符合何種條件的修飾元。
-
-   1. （選擇性）按一下&#x200B;**新增篩選器群組**&#x200B;以新增另一組篩選准則。 集合之間的預設運運算元為AND。 按一下運運算元以將其變更為OR。
+   如需詳細資訊，請參閱[在畫布儀表板中篩選報告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)。
 
 1. 請依照下列步驟設定&#x200B;**向下鑽研資料行設定**&#x200B;區段：
 

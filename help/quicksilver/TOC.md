@@ -3,13 +3,11 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
+source-git-commit: 4f6ce5b53e3c85225ad82cb88c699aa4871526cc
 workflow-type: tm+mt
-source-wordcount: '14542'
+source-wordcount: '14563'
 ht-degree: 2%
-
 ---
-
 # Workfront 指南 {#using}
 
 * [Workfront檔案](home.md)
@@ -971,10 +969,10 @@ ht-degree: 2%
     * [Adobe Workfront MCP伺服器工具](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)
     * [可直接安裝的技能](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)
   * Workfront中的CX Coworker {#coworker-in-workfront}
-    * [Workfront中的CX Co-worker：文章索引](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
-    * [CX Co-worker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
-    * [CX同事技能](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
-    * [在Workfront中使用CX Co-worker](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
+    * [Workfront中的CX Coworker：文章索引](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
+    * [CX Coworker概觀](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
+    * [CX Coworker技能](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
+    * [在Workfront中使用CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
   * 更新工作專案並檢視更新 {#update-work-items-view-updates}
     * [更新工作專案和檢視更新：文章索引](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
     * [更新區段概觀](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -1645,7 +1643,9 @@ ht-degree: 2%
     * 管理報告 {#manage-reports}
       * [管理報告：文章索引](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/manage-reports-article-index.md)
       * [在畫布控制面板中編輯報告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
-      * [在畫布控制面板中編輯報告篩選器](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
+      * [在畫布控制面板中篩選報表](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)
+      * [畫布控制面板的報表篩選參考](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)
+      * [在畫布控制面板中將報表資料分組](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md)
       * [在畫布控制面板中複製報告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/duplicate-a-report.md)
       * [刪除畫布控制面板中的報告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
   * 報告 {#reports}
@@ -1849,6 +1849,7 @@ ht-degree: 2%
     * [建立Snowflake的讀取器帳戶或連線](reports-and-dashboards/data-lake/create-a-reader-account.md)
     * [建立與Workfront資料連線的連線](reports-and-dashboards/data-lake/share-data-externally.md)
     * [Workfront Data Connect資料字典](reports-and-dashboards/data-lake/data-dictionary.md)
+    * {hide-from-toc}[註冊Workfront Data Connect的私人清單](reports-and-dashboards/data-lake/register-a-private-listing.md)
     * {hide-from-toc}[資料字典測試](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
     * [Workfront Data Connect查詢範例](reports-and-dashboards/data-lake/basic-query-examples.md)
     * [檢視Workfront Data Connect使用度量](reports-and-dashboards/data-lake/view-usage-metrics.md)

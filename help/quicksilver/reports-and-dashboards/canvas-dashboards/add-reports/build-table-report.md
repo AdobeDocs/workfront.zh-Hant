@@ -11,22 +11,26 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Xcq8aeqqH-JPYtfmbcf1gld93O6N93O9j0wqohss7oQ
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
+    internal-label: Administration
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: 1343
-ht-degree: 7%
-
+source-wordcount: '1208'
+ht-degree: 8%
 ---
-
 # 在畫布儀表板中建立表格報告
 
 >[!IMPORTANT]
@@ -121,21 +125,13 @@ ht-degree: 7%
 
    1. 對要新增的每個欄重複上述步驟。
 
-1. 請依照下列步驟設定&#x200B;**篩選器**&#x200B;區段：
+1. 在左側面板中，按一下&#x200B;**篩選** ![篩選圖示](assets/filter-icon.png)圖示，然後設定條件以決定要顯示哪些資料。
 
-   1. 在左側面板中，按一下&#x200B;**篩選器** ![篩選器圖示](assets/filter-icon.png)圖示。
+   如需詳細資訊，請參閱[在畫布儀表板中篩選報告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)。
 
-   1. 選取&#x200B;**編輯篩選器**。
+1. 在左側面板中，按一下&#x200B;**群組設定** ![群組設定圖示](assets/drilldown-group-icon.png)圖示，然後新增群組以組織報表列。
 
-   1. 按一下&#x200B;**新增條件**，然後指定您要篩選的欄位，以及定義欄位必須符合何種條件的修飾元。 欄會顯示在右側的預覽區段中。
-
-1. （選擇性）按一下&#x200B;**新增篩選器群組**&#x200B;以新增另一組篩選准則。 集合之間的預設運運算元為AND。 按一下運運算元以將其變更為OR。
-
-1. 請依照下列步驟設定&#x200B;**向下鑽研群組設定**&#x200B;區段：
-
-   1. 在左側面板中，按一下&#x200B;**群組設定** ![群組設定圖示](assets/drilldown-group-icon.png)圖示。
-
-   1. 按一下「**新增群組**」按鈕，然後選取要建立為群組的欄位。 群組欄會顯示在右側的預覽區段中。
+   如需詳細資訊，請參閱[在畫布儀表板中群組報表資料](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md)。
 
 1. 按一下&#x200B;**儲存**&#x200B;以建立報告並將其新增到儀表板。
 
@@ -248,11 +244,5 @@ ht-degree: 7%
 
 ### 參照子物件
 
-其他欄、篩選選項和群組屬性的可用關係通常僅限於Workfront物件階層中較高的物件，或在報表的基本實體物件上具有單一選取範圍。 但有一些例外，包括：
-
-* 專案>任務
-* 檔案核准>檔案核准階段
-* 檔案核准階段>檔案核准階段參與者
-
-使用上面列出的任何父項至子項關係時，您會在表格中看到連線到父物件的每個子記錄的一列。
+欄、篩選器和群組有某些父子關係。 如需詳細資訊，請參閱[Canvas儀表板的報告篩選參考](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)中的[參考子物件](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md#referencing-children-objects)。
 
