@@ -5,13 +5,12 @@ title: 使用Adobe Workfront MCP伺服器
 description: 使用Adobe Workfront MCP伺服器，透過AI代理平台中的自然語言對話來搜尋、建立、更新和管理Workfront專案。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 836431c7840647b8f412f848fe22d3e64cc42e44
+source-git-commit: 191778aae452a4b849f3dac8c61bc6b4157d655b
 workflow-type: tm+mt
-source-wordcount: '1775'
+source-wordcount: '1982'
 ht-degree: 0%
 
 ---
-
 
 # 使用Adobe Workfront MCP伺服器
 
@@ -138,6 +137,12 @@ AI代理平台有時會重複使用交談中先前提供的資料，而非要求
 
 * *從Workfront取得最新資料。 不要使用快取的結果。*
 
+### 深入分析資料近乎即時，而非即時
+
+用於尋找、篩選和報告Workfront資料的見解工具會近乎即時地反映變更，service level agreement (SLA)最長約為15分鐘。 如果您在Workfront中進行變更並立即提出相關問題，回應可能不會反映該變更。
+
+如果您需要確認最近進行的變更，請稍候幾分鐘並再詢問一次，或直接在Workfront中檢視。
+
 ### 檢查Workfront MCP伺服器的更新
 
 您可能想要定期重新整理與Workfront MCP伺服器的連線，以確保您擁有最新的工具和功能。
@@ -167,6 +172,7 @@ Workfront無法控制AI代理平台提供者處理您Workfront資料的方式。
 | 問題 | 可能的原因 | 修正 |
 | --- | --- | --- |
 | AI代理平台提供您過時的資訊。 | AI代理平台正在重複使用交談中先前提供的資料。 | 向Workfront索取最新資料。 |
+| 您剛才在Workfront中變更的資料尚未顯示。 | 分析資料近乎即時，SLA最長可達約15分鐘。 | 請稍候數分鐘，然後再次詢問，或直接在Workfront中檢視。 |
 | AI代理平台從錯誤的Workfront專案傳回資料。 | AI代理平台根據模稜兩可的措辭挑選了錯誤的專案。 | 再次詢問您更具體的名稱、ID或篩選器。 |
 | 更新或刪除在Workfront中未生效。 | 您的Workfront管理員已停用Workfront MCP伺服器的寫入動作，或您無權對特定專案執行動作。 | 透過AI代理平台確認該動作已執行。 然後檢查是否已為Workfront MCP伺服器啟用寫入動作，以及您是否有變更專案的許可權。 |
 
@@ -204,7 +210,7 @@ Workfront設定區域。 如果寫入動作停用，AI代理平台
 
 ### AI代理平台會在變更或刪除Workfront資料之前詢問我嗎？
 
-這取決於AI代理平台，而不是Workfront。大部分平台
+這取決於AI代理平台，而不是Workfront。 大部分平台
 在執行動作前提示您確認，尤其是刪除動作。
 核准請求前，請先詳閱平台說明即將進行的作業 — 
 變更會在Workfront中發生，就像您進行變更時一樣
@@ -240,7 +246,7 @@ AI代理平台會根據您使用的字詞挑選專案。 若您的
 
 Workfront不會儲存您的提示或AI代理平台的回應。
 提供您的AI代理平台的人可控制您的對話方式
-會儲存或共用。請洽詢您的AI代理平台提供者，以瞭解
+會儲存或共用。 請洽詢您的AI代理平台提供者，以瞭解
 詳細資料。
 
 ### 我是否需要知道Workfront API或要使用哪種MCP工具？

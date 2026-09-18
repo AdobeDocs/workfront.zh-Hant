@@ -5,14 +5,15 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: d5f36e0c8dbd9749503de25b75e70bf18b1d187b
+source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1119'
 ht-degree: 1%
 ---
 
 # Adobe Workfront規劃CX Coworker概觀
 
+<!--replaced information from the AI Assistant for Planning article with CX Coworker-->
 
 <span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
 
@@ -21,11 +22,18 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-CX Coworker是對話式介面，您可在其中以淺白語言描述目標，接著在Adobe及連線系統中規劃、執行及驗證工作，最後交還給您核准。
+CX Coworker是對話式介面，您可在其中以淺白語言描述目標，接著在Workfront Planning和其他連線的Adobe系統中規劃、執行及驗證工作，再重新帶回供您核准。
 
 CX Coworker保留AI Assistant目前的所有功能，同時在新的全熒幕體驗和Workfront右側邊欄中新增更強大的端對端功能。
 
 它會在您組織現有的產品層級存取控制項內運作，因此使用者只能採取已在Workfront中獲准採取的動作，且預設為唯讀存取權，以及由Workfront管理員控制的寫入存取權。
+
+>[!IMPORTANT]
+>
+>CX Coworker目前不適用於保健、金融或某些具有敏感資料的其他行業的組織。 AI助理可供這些組織使用。
+>
+>如需詳細資訊，請參閱[AI助理概述](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)。
+
 
 ## 存取權要求
 
@@ -81,87 +89,90 @@ CX Coworker保留AI Assistant目前的所有功能，同時在新的全熒幕體
 
 +++
 
-
 ## CX Coworker的考量事項
 
 * 貴公司使用者必須先為貴組織啟用CX Coworker，才能使用。
 
   如需詳細資訊，請參閱[CX Coworker概觀](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
 
-* Workfront為您的組織啟用代理程式後，Workfront的主要管理員即可使用該代理程式。 如需詳細資訊，請參閱[設定您系統的基本資訊](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md)。
+* 在Workfront為您的Workfront執行個體啟用代理程式後，Workfront主要管理員可以使用此代理程式，他們可以為您的組織啟用它。 如需詳細資訊，請參閱[設定系統偏好設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
 
-* Workfront管理員必須為所有其他使用者啟用AI助理。 如需詳細資訊，請參閱[啟用或停用AI助理](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)。
+* Workfront管理員也必須在存取層級中為您啟用CX Coworker 。 如需詳細資訊，請參閱[建立和修改存取層級](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
-* AI助理會在每個頁面的內容中運作。 您為AI助理提交的請求必須參考您開啟的頁面中可用的功能。
+* CX Coworker可處理Workfront或Workfront Planning中您有存取許可權的資訊和物件。 在Planning右側邊欄中，「同事」面板會在您已開啟的工作區、記錄型別或記錄頁面的內容中運作。
 
-* AI助理在「計畫」區域中執行的動作會根據您的Workfront Planning許可權和Workfront存取層級來設定。 如需詳細資訊，請參閱下列文章：
+* CX Coworker在Planning區域中執行的動作會根據您的Workfront Planning許可權和Workfront存取層級來設定。 如需詳細資訊，請參閱下列文章：
 
   * [在Adobe Workfront Planning中共用許可權的概觀](/help/quicksilver/planning/access/sharing-permissions-overview.md)
   * [使用Adobe Workfront Planning時的授權型別概觀](/help/quicksilver/planning/access/license-type-overview.md)
 
-* AI助理員代表使用者所做的變更會在紀錄的紀錄面板中進行追蹤。
+* CX Coworker代表使用者所做的變更會在紀錄的紀錄面板中進行追蹤。
 
-* AI助理完成的動作是永久性的，且無法復原。 例如，刪除欄位後便無法還原。 在接受之前，請先檢閱AI助理建議的所有動作。
+* CX Coworker執行的動作是永久性的，且無法復原。 例如，刪除欄位後便無法還原。 在接受之前，請先檢閱CX Coworker提出的所有動作。
 
-* 透過AI助理建立、更新或刪除物件時，AI助理會顯示預期的動作並要求確認。 之後，您可以確認或取消動作。
+* 透過CX Coworker建立、更新或刪除物件時，CX Coworker會顯示預期動作並要求確認。 之後，您可以確認或取消動作。
 
-## 目前可用於AI助理的功能
+## 目前適用於CX Coworker的功能
 
-目前，AI助理可在Workfront的「規劃」區域中用於下列頁面：
+目前，CX Coworker可在Workfront的Planning區域中使用，它使用一組技能來存取和控制Planning物件的資訊。 如需詳細資訊，請參閱[CX Coworker技能](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)。
 
-* Workspace頁面
-* 記錄型別頁面
-* 記錄頁面
-
-此時您可以使用AI助理執行下列動作：
+您可以使用CX Coworker來執行下列動作：
 
 * 搜尋記錄。 您可以依據任何記錄欄位中包含的資訊進行搜尋。
 * 建立記錄。 含有新記錄連結的ID會在建立記錄後顯示。 您可以指定要在建立過程中更新的欄位，例如日期或說明。
-* 根據您上傳的檔案建立記錄。 Workfront支援下列AI助理檔案格式：
+* 根據您上傳的檔案建立記錄。 Workfront支援下列CX Coworker檔案格式：
 
   PPTX、PDF、DOCX、XLSX、PPT、DOC、TXT和大部分影像格式
 * 更新您在畫面上看到的記錄欄位
-* 刪除記錄
-* 還原您剛剛刪除的記錄
+* 刪除、複製或還原記錄
+* 將記錄連結至其他記錄
+* 檢視記錄的變更記錄
 
 
-## 在Workfront Planning中找到AI助理
+## 在Workfront Planning中找到CX Coworker
 
-您可以在Workfront Planning的下列區域中找到AI助理：
+您可以在Workfront Planning的下列區域中找到CX Coworker：
 
 * 熒幕右上角的主要導覽列。
-* 在記錄的詳細資訊區域中，在預覽中開啟記錄之後或開啟記錄的頁面之後。
+* 在新的索引標籤中開啟記錄時，將其置於記錄的詳細資訊區域中。
 
-## 存取「規劃」區域的AI助理
+## 存取「規劃」區域中的CX Coworker
+
 
 1. 登入Workfront，然後按一下左上角的&#x200B;**主功能表**&#x200B;圖示![行主功能表](assets/lines-main-menu.png)，然後按一下&#x200B;**規劃**。
 
    「規劃」區域隨即開啟。
 
+   在頁面的右上角找到&#x200B;**AI圖示** ![AI圖示](assets/ai-icon.png)，或繼續下列步驟。
+
 1. 按一下&#x200B;**工作區卡片**。
 
-1. （選擇性）按一下&#x200B;**記錄型別卡片**。
+1. 按一下&#x200B;**記錄型別卡片**。
 
-1. （選擇性）按一下&#x200B;**記錄**&#x200B;以開啟記錄的&#x200B;**詳細資料**&#x200B;頁面。
+1. 按一下&#x200B;**記錄**&#x200B;以開啟記錄的&#x200B;**詳細資料**&#x200B;頁面，然後按一下在中開啟。
 
-1. 按一下全域導覽列中熒幕右上角或記錄預覽或頁面右上角的&#x200B;**AI助理圖示**。
+1. 按一下畫面右上角的&#x200B;**CX Coworker圖示**。
 
-   ![AI助理圖示](assets/ai-assistant-icon-highlighted.png)
+1. 在提供的空白處，開始輸入CX Coworker的命令，然後在完成後按一下Enter 。
 
-1. 在提供的空間中，開始輸入AI助理的命令，然後在完成時按一下Enter。
-
-   ![具有空白命令方塊的AI助理面板](assets/ai-assistant-panel-with-empty-command-box.png)
+   ![含空白命令方塊的CX Coworker面板](assets/cx-coworker-right-rail.png)
 
    例如，您可以鍵入下列其中一項：
 
-   * 建立開始日期為7月4日、結束日期為7月30日的行銷活動
-   * 更新夏季行銷活動記錄的「說明」欄位，日期待定
-   * 刪除最後一個記錄
-   * 還原記錄
+   * 建立名為「2026年夏季優惠」的新行銷活動記錄
+   * 將夏季行銷活動記錄中的預算欄位更新為$75,000
+   * 刪除名為「舊促銷」的行銷活動記錄
+   * 還原我意外刪除的行銷活動
 
-   AI助理處理命令時會顯示視覺指示器，設定回應時間的預期。
+   >[!TIP]
+   >
+   >在要求Workfront對物件執行編輯動作之前，請確定您的CX Coworker管理員已在系統偏好設定中啟用僅限寫入的MCP工具。
+
+   CX Coworker處理命令時會顯示視覺指示器，設定回應時間的預期值。
 
    收到成功回應後，請遵循提供的連結或注意左側的變更。
 
+
+1. （選擇性）按一下&#x200B;**展開全熒幕**&#x200B;圖示![展開全熒幕圖示](assets/expand-full-screen-icon.png)，以開啟全瀏覽器標籤中的「同事聊天」方塊。
 
 

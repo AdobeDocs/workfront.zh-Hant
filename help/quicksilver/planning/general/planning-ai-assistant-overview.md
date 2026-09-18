@@ -28,19 +28,19 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d5f36e0c8dbd9749503de25b75e70bf18b1d187b
+source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '988'
 ht-degree: 1%
 ---
 # Adobe Workfront Planning AI Assistant概觀
 
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 
 {{planning-important-intro}}
@@ -48,6 +48,10 @@ ht-degree: 1%
 您可以使用「AI輔助程式」，根據目前頁面內容，變更或更新Adobe Workfront Planning中的記錄和其他物件。
 
 使用者的命令和AI對這些命令的執行會共同運作，以確保AI所做的變更正確地反映在您的環境中。
+
+>[!IMPORTANT]
+>
+><span class="preview">在某些組織中，AI助理已由CX Coworker取代。 如需詳細資訊，請參閱[Adobe Workfront規劃CX Coworker概觀](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)。</span>
 
 ## 存取權要求
 
@@ -111,7 +115,7 @@ ht-degree: 1%
 
   如需詳細資訊，請參閱[AI助理概述](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)。
 
-* Workfront為您的組織啟用代理程式後，Workfront的主要管理員即可使用該代理程式。 如需詳細資訊，請參閱[設定您系統的基本資訊](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md)。
+* Workfront為您的組織啟用代理程式後，Workfront的主要管理員即可使用該代理程式。 如需詳細資訊，請參閱[設定系統偏好設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
 
 * Workfront管理員必須為所有其他使用者啟用AI助理。 如需詳細資訊，請參閱[啟用或停用AI助理](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)。
 
@@ -150,12 +154,17 @@ ht-degree: 1%
 
 ## 在Workfront Planning中找到AI助理
 
+>[!NOTE]
+>
+><span class="preview">如果貴組織已取得CX Coworker的存取權，找到CX Coworker與找到AI助理類似。 如需詳細資訊，請參閱[Adobe Workfront規劃CX Coworker概觀](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)。</span>
+
+
 您可以在Workfront Planning的下列區域中找到AI助理：
 
 * 熒幕右上角的主要導覽列。
 * 在記錄的詳細資訊區域中，在預覽中開啟記錄之後或開啟記錄的頁面之後。
 
-## 存取「規劃」區域的AI助理
+### 存取「規劃」區域的AI助理
 
 1. 登入Workfront，然後按一下左上角的&#x200B;**主功能表**&#x200B;圖示![行主功能表](assets/lines-main-menu.png)，然後按一下&#x200B;**規劃**。
 
