@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
+source-git-commit: ac94936cc4dc9dc4f2d56b3f1221f71a405c5c65
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1335'
 ht-degree: 2%
 ---
 
@@ -15,11 +15,10 @@ ht-degree: 2%
 
 {{planning-important-intro}}
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 您可以與其他人共用Workfront Planning記錄的欄位，以確保在使用Adobe Workfront Planning時共同作業。
 
@@ -87,9 +86,15 @@ ht-degree: 2%
 * 對欄位的存取權來自結合下列設定：
 
   * **繼承許可權**：依預設，欄位會繼承某人對於記錄型別的相同存取權。 您可以關閉繼承許可權，並給予使用者比記錄型別更低的欄位存取權。
-  * 工作區中的&#x200B;**每個人都可以檢視**&#x200B;或&#x200B;**只有受邀者可以存取**&#x200B;選取專案。 您可以允許擁有工作區許可權的所有人檢視欄位，或僅將許可權授予個別實體。
+  * 有權存取記錄型別的&#x200B;**每個人都可以檢視**&#x200B;或&#x200B;**只有受邀者才能存取**&#x200B;選取專案。 您可以允許擁有工作區許可權的所有人檢視欄位，或僅將許可權授予個別實體。
 
   如果同一個人套用多個規則，這些規則會從其中一個規則中取得他們可用的最高許可權。
+
+* 若要讓工作區的每個人都可以檢視欄位，請確定下列設定存在：
+
+  * 關閉繼承的權限
+  * 保留&#x200B;**所有可存取記錄型別的人都可以檢視**&#x200B;設定
+  * 請勿新增任何個別實體。
 
 * 根據記錄型別許可權，使用者可以收到以下欄位許可權：
 
@@ -158,7 +163,7 @@ For Global Record Types, field permissions are set once and apply to all seconda
 
    **共用**&#x200B;方塊開啟。
 
-1. （選擇性）在&#x200B;**授與存取權**&#x200B;區域中，預設會選取&#x200B;**工作區中的每個人都可以檢視**&#x200B;選項。 所有對工作區和記錄型別具有&#x200B;**檢視**&#x200B;或更高許可權的使用者對該欄位具有相同的許可權。
+1. （選擇性）在&#x200B;**授與存取權**&#x200B;區域中，預設會選取&#x200B;**有權存取記錄型別的所有人都可以檢視**&#x200B;選項。 所有對工作區和記錄型別具有&#x200B;**檢視**&#x200B;或更高許可權的使用者對該欄位具有相同的許可權。
 
 1. （可選）按一下「**繼承自**&#x200B;的許可權」選項下的使用者頭像，以檢視從工作區繼承許可權的使用者、團隊、群組、公司或工作角色。
 
@@ -177,6 +182,13 @@ For Global Record Types, field permissions are set once and apply to all seconda
       >[!TIP]
       >
       >Workspace管理員繼續擁有記錄型別和欄位的管理許可權。
+
+   1. （選擇性）按一下&#x200B;**每個可存取記錄型別的使用者都可以檢視**&#x200B;下拉式功能表，並選取&#x200B;**只有受邀者才能存取**。
+
+      >[!IMPORTANT]
+      >
+      >此變更與關閉&#x200B;**繼承的許可權**&#x200B;會移除所有可以檢視記錄型別並僅將存取權授予指定人員之人員的存取權。 Workspace管理員和管理員永遠都可存取所有欄位。
+
 
    1. 在&#x200B;**授與存取權**&#x200B;方塊中，新增您要授與不同於工作區或記錄型別之許可權等級的使用者、團隊、群組、公司或工作角色。
 
