@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d53ae5afd949644baf18d6a4f0ba8f30b80fa1e5
+source-git-commit: 4491dfceac19ce42ec1a0cabcaf146271017edd4
 workflow-type: tm+mt
 source-wordcount: '3066'
 ht-degree: 1%
@@ -503,3 +503,23 @@ For information on creating automations in other areas of Workfront Planning, se
 </div>
 
 -->
+
+<!--
+
+ADD AT LINE 291, before "Continue to publish form."
+
+<div class="preview">
+
+1. Click **Permissions** on the left panel.
+1. Select the permission level for the users submitting requests through this form:
+
+   * **View**: All requesters can comment on and share the form.
+   * **Contribute**: All requesters can comment on, share, and edit the form.
+   * **Manage**: All requesters can comment on, share, edit, and delete the form.
+
+1. Click **Save**.
+
+</div>
+
+-->
+
