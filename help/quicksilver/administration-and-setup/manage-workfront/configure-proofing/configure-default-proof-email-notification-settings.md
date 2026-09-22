@@ -11,20 +11,23 @@ exl-id: ed97b8a6-54db-42f8-afee-d76c2df53a94
 TQID: https://experienceleague.adobe.com/QxKE6DZTT7NHafvJRPKXYQs05EWCqEOa8UUMJIopn7s
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 5de70fe4958126ab0491f173505113adc9edc36c
 workflow-type: tm+mt
-source-wordcount: 291
+source-wordcount: '303'
 ht-degree: 5%
-
 ---
-
 # 設定預設校訂電子郵件通知設定
 
 對校訂做出評論或決定時，Adobe Workfront中的校訂使用者可以接收來自Workfront和Workfront Proof的電子郵件通知。 如果使用者已收到來自Workfront Proof的電子郵件通知，我們建議您停用從Workfront傳送的通知，以避免重複的通知電子郵件。
@@ -68,9 +71,9 @@ ht-degree: 5%
 
 1. 展開&#x200B;**電子郵件**，然後按一下&#x200B;**檢閱和核准**。
 
-1. 在&#x200B;**Workfront中的校訂通知**&#x200B;區段中，決定要啟用或停用選項。對校訂進行評論時，從Workfront傳送電子郵件。
+1. 在&#x200B;**Workfront中的校訂通知**&#x200B;區段中，決定要啟用或停用選項&#x200B;**在對校訂進行評論時從Workfront傳送通知**。
 
-   * 啟用此設定時，當對校訂進行評論時，使用者會收到來自Workfront的電子郵件。
-   * 停用此設定時，當對校訂進行評論時，使用者不會收到Workfront的電子郵件。
+   * 啟用此設定時，當對校訂進行評論時，使用者會收到來自Workfront的電子郵件。 也會顯示Workfront應用程式內通知。
+   * 停用此設定時，當對校訂進行評論時，使用者不會收到來自Workfront的電子郵件或應用程式內通知。
 
 1. 按一下「**儲存**」。
