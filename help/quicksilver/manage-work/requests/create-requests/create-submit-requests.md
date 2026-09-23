@@ -11,28 +11,38 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/6meiGiiAKIASHWC5a8p7WnQ9W1JY0xL71LsUqbAAukY
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
+    internal-label: Administration
+source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
 workflow-type: tm+mt
-source-wordcount: 2795
+source-wordcount: '2873'
 ht-degree: 1%
-
 ---
-
 # 建立及提交請求
 
 <!--Audited: 03/2026-->
@@ -216,6 +226,11 @@ Workfront管理員必須建立「請求佇列」的下列元件：
    >* 設定為所選請求佇列的專案說明會顯示在請求佇列名稱的右側。
    >   
    >有關如何將專案發佈為說明請求佇列的詳細資訊，請參閱文章[建立請求佇列](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
+
+1. （視條件而定）如果您從新請求體驗提交請求，而您的組織允許由AI支援的&#x200B;**表單填寫**，您可以上傳檔案、電子郵件或指向其他物件（專案、任務或問題）的連結作為提示。 AI使用這些專案填寫表單，您可以在提交請求之前接受或拒絕AI建議。
+
+
+   如需指示，請參閱[使用AI支援的表單填入功能，使用提示或檔案填入請求](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)。
 
 1. 在&#x200B;**新要求**&#x200B;表單中，執行下列其中一項作業：
 

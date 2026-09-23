@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4491dfceac19ce42ec1a0cabcaf146271017edd4
+source-git-commit: 3cd7a6fe3c719c8eba3c907512f66b2e285484b0
 workflow-type: tm+mt
 source-wordcount: '3066'
 ht-degree: 1%
@@ -284,7 +284,7 @@ ht-degree: 1%
    無法重新排序預設規則。
 
 1. （選擇性）若要刪除路由規則，請按一下規則右側的&#x200B;**X**。
-1. 按一下[儲存]儲存核准規則。**&#x200B;**
+1. 按一下[儲存]儲存核准規則。****
 1. 按一下左側面板上的&#x200B;**要求完成選項**。
 1. 從下列選項中選取：
 
@@ -292,6 +292,29 @@ ht-degree: 1%
    * **當要求的物件完成時，要求完成**：當記錄標示為完成時，這會完成要求。
 
 1. （視條件而定）如果您已選取在要求的物件完成時將要求標示為完成的請求，請選取欄位以及指示物件完成時間的值。 例如，當建立的物件狀態設為「完成」時，您可以選取「狀態」欄位和值「完成」以完成請求。
+
+
+   <!--
+   1. <span class="preview">Click **Permissions** on the left panel.</span>
+   1. <span class="preview">Select the permission level for the users submitting requests through this form:</span>
+      <div class="preview">
+      * **View**: All requesters can comment on and share the form.
+      * **Contribute**: All requesters can comment on, share, and edit the form.
+      * **Manage**: All requesters can comment on, share, edit, and delete the form.
+      </div>
+   1. <span class="preview"> (Optional) Deselect any of the granular permissions for each permission level to prevent requestors to perform the following actions:</span>
+      <div class="preview">
+      * Comment
+      * Share
+      * Edit. Not available for View. 
+      * Delete. Not available for Contribute and View. 
+      </div>
+      >[!TIP]
+      >
+      ><span class="preview">The granular permission you deselect here will be dimmed when sharing the request with those users from the request page. </span>
+   1. <span class="preview">Click **Save**.</span>
+   -->
+
 1. 繼續[發佈表單](#publish-form)。
 
 ### 發佈表單
@@ -504,22 +527,6 @@ For information on creating automations in other areas of Workfront Planning, se
 
 -->
 
-<!--
 
-ADD AT LINE 291, before "Continue to publish form."
 
-<div class="preview">
-
-1. Click **Permissions** on the left panel.
-1. Select the permission level for the users submitting requests through this form:
-
-   * **View**: All requesters can comment on and share the form.
-   * **Contribute**: All requesters can comment on, share, and edit the form.
-   * **Manage**: All requesters can comment on, share, edit, and delete the form.
-
-1. Click **Save**.
-
-</div>
-
--->
 

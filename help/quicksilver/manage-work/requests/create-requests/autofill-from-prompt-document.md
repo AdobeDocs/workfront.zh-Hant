@@ -10,28 +10,38 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Z2t6RQBsQZK6MNRd3w2gWEY8k9YU48Jsco7pev7papM
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
+    internal-label: Administration
+source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
 workflow-type: tm+mt
-source-wordcount: 1495
-ht-degree: 3%
-
+source-wordcount: '1764'
+ht-degree: 2%
 ---
-
 # 使用由AI支援的表單填寫功能，使用提示或檔案填寫請求
 
 >[!NOTE]
 >
->若要使用此功能，您的組織必須符合使用Workfront AI Assistant的需求。 如需詳細資訊，請參閱[&#x200B; AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
+>若要使用此功能，您的組織必須符合使用Workfront AI Assistant的需求。 如需詳細資訊，請參閱[ AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
 
-AI表單填寫可協助您根據輸入的提示自動填寫請求欄位。 它也可以根據文字（例如電子郵件或上傳的檔案）填寫欄位。 您可以在提交請求之前核准或拒絕這些建議。
+AI表單填寫可協助您根據輸入的提示自動填寫請求欄位。 它也可以根據您新增到提示的以下資訊填寫欄位：
+
+* 電子郵件
+* 已上傳的檔案
+* 專案、任務或問題的連結。
+
+您可以在提交請求之前核准或拒絕這些建議。
 
 在Workfront請求區域中建立請求時，可針對Workfront和Workfront Planning請求使用此功能。
 
@@ -155,6 +165,7 @@ AI表單填寫可根據文字（例如電子郵件）建議欄位值。 您貼�
    >[!NOTE]
    >
    >當您提交請求時，任何未稽核的建議都會自動被接受。
+1. 按一下&#x200B;**提交**&#x200B;以提交要求。
 
 ### 文字提示範例
 
@@ -342,6 +353,43 @@ Workfront欄位型別會影響指定欄位是否可自動填入。
    >[!NOTE]
    >
    >當您提交請求時，任何未稽核的建議都會自動被接受。
+1. 按一下&#x200B;**提交**&#x200B;以提交要求。
+
+### 新增另一個物件的連結以自動填寫請求
+
+您可以將現有專案、任務或問題的連結新增至提示，以套用至整個表單或表單的單一區段。
+
+1. 前往您想要將其資訊納入新請求的專案、任務或問題，並將物件的連結從瀏覽器地址行複製到剪貼簿。
+
+   專案、任務或問題必須與您的請求位於相同的Workfront例項。
+
+1. 開始建立請求。
+
+   如需指示，請參閱[建立及提交要求](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)。
+
+1. 若要將連結物件的資訊套用至整個表單，請按一下表單名稱下方的&#x200B;**AI圖示** ![AI圖示](assets/request-prompt-icon.png)。
+
+   或
+
+   若要套用單一區段連結物件的資訊，請按一下區段名稱旁的&#x200B;**AI圖示** ![AI圖示](assets/request-prompt-icon.png)。
+
+1. 開始新增提示，然後將您從專案、任務或問題複製的連結貼到提示視窗中。
+1. （視條件而定）按一下&#x200B;**套用至表單**&#x200B;或&#x200B;**套用至區段**。
+1. 按一下&#x200B;**填寫表單**&#x200B;或&#x200B;**填寫區段**。
+
+   Workfront會產生表單的建議。
+1. 針對每個欄位建議，按一下該欄位的&#x200B;**接受建議**&#x200B;或&#x200B;**拒絕建議**&#x200B;圖示。
+
+   ![接受或拒絕建議](assets/accept-reject-suggestion.png)
+
+   或
+
+   在頁面頂端選取「**全部接受**」或「**全部拒絕**」以接受或拒絕所有建議。
+
+   >[!NOTE]
+   >
+   >當您提交請求時，任何未稽核的建議都會自動被接受。
+1. 按一下&#x200B;**提交**&#x200B;以提交要求。
 
 ## 疑難排解
 
