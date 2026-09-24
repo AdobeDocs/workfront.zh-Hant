@@ -5,13 +5,12 @@ title: 設定Adobe Workfront MCP伺服器
 description: 設定您的Workfront執行個體和AI代理平台，讓您透過自然語言對話來使用Workfront。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: dd1123c8803a7d3c8ef7b461fe0e01610e0dccc9
+source-git-commit: 62a56dd910bed829e2f30752020cb014464aea4f
 workflow-type: tm+mt
-source-wordcount: '2007'
+source-wordcount: '2307'
 ht-degree: 0%
 
 ---
-
 
 # 設定Adobe Workfront MCP伺服器
 
@@ -53,6 +52,8 @@ MCP伺服器存取許可權由兩個不同的管理員所控制。
   如需詳細資訊，請參閱[設定系統偏好設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
 
 * 如果您使用AI代理平台的企業版，該平台的管理員必須為您的組織啟用[!DNL Adobe Workfront]聯結器，或為您提供連線至Workfront MCP伺服器的自訂URL存取權。
+
+* <span class="preview">如果您使用每個客戶的唯一OAuth回呼URL連線自訂應用程式或代理平台，您的Workfront管理員必須將該URL新增至&#x200B;**系統偏好設定> MCP偏好設定**&#x200B;中的&#x200B;**授權重新導向URL**&#x200B;清單。 如果沒有此專案，則會拒絕驗證。 如需詳細資訊，請參閱本文中的[連線至OAuth](#connect-with-oauth)。</span>
 
 
 ## 將Workfront連線至Claude
@@ -109,7 +110,7 @@ MCP伺服器存取許可權由兩個不同的管理員所控制。
 1. 按一下&#x200B;**連線**。
 Workfront登入視窗會隨即顯示。
 1. 使用您的Adobe ID憑證進行驗證。
-您可能需要選取設定檔和Workfront執行個體。您選取的設定檔會決定要連線的工作區。
+您可能需要選取設定檔和Workfront執行個體。 您選取的設定檔會決定要連線的工作區。
 
 +++
 
@@ -145,7 +146,7 @@ Workfront登入視窗會隨即顯示。
 1. 按一下「**儲存**」。
 1. 在顯示的清單中，針對您正在新增的MCP伺服器，按一下&#x200B;**驗證**。
 1. 登入Workfront。
-您可能需要選取設定檔和Workfront執行個體。您選取的設定檔會決定要連線的工作區。
+您可能需要選取設定檔和Workfront執行個體。 您選取的設定檔會決定要連線的工作區。
 1. 在ChatGPT的MCP伺服器清單中，確定新MCP伺服器右側的切換仍保持切換狀態。
 
 +++
@@ -186,7 +187,7 @@ ChatGPT支援使用者建立的助理，稱為自訂GPT。 您可以使用自訂
 若要建置Workfront MCP可連線的自訂Copilot代理程式，請使用Copilot Studio。
 
 1. 在Copilot Studio中，按一下&#x200B;**建立空白代理程式**。
-1. 為代理程式命名，然後按一下[建立]。**&#x200B;**
+1. 為代理程式命名，然後按一下[建立]。****
 代理程式的視窗會開啟。
 
 1. 在&#x200B;**指示**&#x200B;欄位中，說明您希望代理程式執行的動作。 包含您的流程以及如何使用Workfront等資訊。 建議您提供大量詳細資訊。
@@ -204,9 +205,9 @@ ChatGPT支援使用者建立的助理，稱為自訂GPT。 您可以使用自訂
 
    應用程式已註冊。
 
-1. 應用程式註冊後，在顯示的面板中，按一下[未連線] **，然後按一下[建立新連線]**，再按一下[建立] **&#x200B;**。**&#x200B;**
+1. 應用程式註冊後，在顯示的面板中，按一下[未連線] **，然後按一下[建立新連線]**，再按一下[建立] ****。****
 1. 若要設定連線，請按一下&#x200B;**未連線**、**建立新連線**、**建立**。
-1. 在出現的登入面板中，登入Workfront，選取您要使用的執行個體（如果您有權存取多個執行個體），然後按一下[繼續]。**&#x200B;**
+1. 在出現的登入面板中，登入Workfront，選取您要使用的執行個體（如果您有權存取多個執行個體），然後按一下[繼續]。****
 1. 在顯示伺服器的面板中，按一下[新增]並設定&#x200B;**。**
 
    您現在可以開始使用和設定MCP伺服器的工具。
@@ -238,7 +239,33 @@ ChatGPT支援使用者建立的助理，稱為自訂GPT。 您可以使用自訂
 
 ### 使用OAuth連線
 
-Workfront尚不提供自訂OAuth整合的自助服務支援。
+<div class="preview">
+
+如果您連線的AI代理平台或自訂應用程式具有每個客戶的唯一OAuth回呼（重新導向） URL，例如包含連線或租使用者ID的URL，則您的Workfront管理員必須將該URL新增到您組織的授權重新導向URL清單中，然後才能進行驗證。
+
+>[!NOTE]
+>
+>這只有在不是原生支援平台（例如Claude或Copilot）之一的整合時才需要。 如果您使用原生支援的平台，請參閱本文中適用於該平台的章節。
+
+您的Workfront管理員會在「系統偏好設定」中新增授權重新導向URL。
+
+如需為MCP伺服器新增重新導向URL的說明，請參閱[新增或移除授權的重新導向URL](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md#add-or-remove-an-authorized-redirect-url)。
+
+新增URL後，您可以將自訂應用程式或代理平台連線至Workfront MCP伺服器URL：
+
+```
+https://mcp.workfront.adobe.com/mcp/v1/workfront
+```
+
+連線時，系統會要求您使用Adobe ID憑證進行驗證。
+
+>[!IMPORTANT]
+>
+>回呼URL必須完全相符。 Workfront不支援自訂回呼URL的萬用字元或首碼相符。 只有此清單上的URL才能完成您的MCP代理程式登入 — 如果相關的代理程式遭到淘汰或危害，請立即移除URL。
+
+如果您的回呼URL不在清單上，則會拒絕驗證請求。 請要求Workfront管理員確認所輸入的URL與整合提供的完全相同。
+
+</div>
 
 ## 驗證您的連線
 
