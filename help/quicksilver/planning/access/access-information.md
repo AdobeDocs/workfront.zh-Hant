@@ -11,23 +11,24 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/eXQq0xVpUr3-VGwwA-v8g2QbOk8hZ-xDFze58ofP240
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 2d26437c69b3c36366938952d426532934f55c52
+    internal-label: Admin
+source-git-commit: aed290357bb33e56f35a1a87259455655ae46e96
 workflow-type: tm+mt
-source-wordcount: 133
+source-wordcount: '197'
 ht-degree: 0%
-
 ---
-
 # Adobe Workfront Planning存取資訊：文章索引
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -45,10 +46,9 @@ ht-degree: 0%
 * [共用記錄](/help/quicksilver/planning/access/share-records.md)
 * [設定記錄的預設許可權](/help/quicksilver/planning/access/set-default-record-permissions.md)
 
-<!--
 <div class="preview">
 
-* [Share Workfront Planning fields](/help/quicksilver/planning/access/share-fields.md)
+* [共用Workfront規劃欄位](/help/quicksilver/planning/access/share-fields.md)
 
 </div>
--->
+

@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
+source-git-commit: 6f3bc007af7971e8c66fec24930ec12e6c96a915
 workflow-type: tm+mt
-source-wordcount: '14569'
+source-wordcount: '14574'
 ht-degree: 2%
 ---
 # Workfront 指南 {#using}
@@ -19,12 +19,13 @@ ht-degree: 2%
     * [準備Adobe Workfront的季度發行](product-announcements/product-releases/release-readiness.md)
     * 2026年第4季發行 {#release-26-q4}
       * [2026年第四季版本總覽](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
-      * [2026年第四季AI增強功能](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md)
       * [2026年第四季管理員增強功能](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md)
+      * [2026年第四季AI增強功能](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md)
       * [2026年第四季檔案增強功能](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md)
       * [2026年第四季度Financial Management增強功能](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md)
       * [2026年第四季專案增強功能](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-projects.md)
       * [2026年第四季報表增強功能](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md)
+      * [2026年第四季要求增強功能](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-requests.md)
       * [2026年第四季資源管理增強功能](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-resource-mgmt.md)
       * [2026年第四季其他增強功能](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md)
     * 2026年第3季發行 {#release-26-q3}
@@ -2252,7 +2253,7 @@ ht-degree: 2%
     * [共用記錄型別](planning/access/share-record-types.md)
     * [共用檢視](planning/access/share-views.md)
     * [共用記錄](planning/access/share-records.md)
-    * {hide-from-toc}[共用Workfront規劃欄位](planning/access/share-fields.md)
+    * [共用Workfront規劃欄位](planning/access/share-fields.md)
     * [設定記錄的預設許可權](planning/access/set-default-record-permissions.md)
     * [要求檢視或工作區的許可權](planning/access/request-permissions.md)
   * Adobe Workfront Planning記錄 {#adobe-workfront-planning-records}
