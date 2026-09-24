@@ -11,27 +11,28 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/eF7kBTsursbrsXr8Lo6ql6U5JBLQDvi6nw4JDpRxClw
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+    internal-label: Admin
+source-git-commit: d45d85aecbcdabf2c02c347b80c7ee56b97efff0
 workflow-type: tm+mt
-source-wordcount: 1287
-ht-degree: 4%
-
+source-wordcount: '1502'
+ht-degree: 5%
 ---
-
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
 
 <!--remove the Prod and Preview references when we release to Prod-->
 
 # 在Adobe Workfront Planning中共用許可權的概觀
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -49,36 +50,57 @@ ht-degree: 4%
 
 * 工作區
 
-   * 您可以和組織內部人員共用工作區。
-   * 當您共用工作區時，也會共用與工作區相關聯的所有記錄型別、記錄和欄位。
-   * 當您共用工作區時，檢視不會共用。 檢視會個別共用。
+  * 您可以與使用者、群組、團隊、公司和職務角色共用組織內部的工作區。
+  * 當您共用工作區時，也會共用與工作區相關聯的所有記錄型別、記錄和欄位。
+  * 當您共用工作區時，檢視不會共用。 檢視會個別共用。
 
   如需詳細資訊，請參閱[共用工作區](/help/quicksilver/planning/access/share-workspaces.md)
 
 * 記錄類型
 
-   * 您可以和組織內部人員共用記錄型別。
-   * 授予工作區的許可權層級會顯示為記錄型別的繼承許可權。
-   * 您無法以高於使用者在工作區上的許可權層級來共用記錄型別。
+  * 您可以在組織內與使用者、群組、團隊、公司和職務角色共用記錄型別。
+  * 授予工作區的許可權層級會顯示為記錄型別的繼承許可權。
+  * 您無法以高於使用者在工作區上的許可權層級來共用記錄型別。
 
   如需詳細資訊，請參閱[共用記錄型別](/help/quicksilver/planning/access/share-record-types.md)。
 
 * 記錄
 
-   * 您可以與組織內部人員共用記錄。
-   * 依預設，使用者會從工作區和記錄型別繼承許可權。
-   * 您無法以高於或低於使用者對記錄型別之許可權層級來共用記錄。
+  * 您可以與組織內部的人員、使用者、群組、團隊、公司和職務角色共用記錄。
+  * 依預設，使用者會從工作區和記錄型別繼承許可權。
+  * 您無法以高於或低於使用者對記錄型別之許可權層級來共用記錄。
 
   如需詳細資訊，請參閱[共用記錄](/help/quicksilver/planning/access/share-records.md)。
 
+<!--
+* Fields
 
+    * In the Production environment, field permissions are inherited from record types. 
+
+    * Field permissions grant access to field values, and not to field settings. 
+    * You must have both permissions to a record and to a field to see the values of that field for a record. 
+
+    <div class="preview">
+
+    * In the Preview environment, consider the following: 
+
+        * You can share fields inside your organization, with users, groups, teams, companies, and job roles. 
+        * Access to a field comes from combining the following settings:
+
+            * **Inherited permissions**: By default, a field inherits the same access someone has on the record type. You can turn off Inherited permissions and give users a lower access to the field than they have for the record type. 
+            * The **Everyone with access to the record type can view** or **Only invited people can access** selection. You can either allow everyone with permissions to the workspace to view the field or give permissions only to individual entities. 
+    
+    For more information, see [Share fields](/help/quicksilver/planning/access/share-fields.md). 
+
+    </div>
+-->
 
 * 檢視
 
-   * 您必須授予使用者（包括系統管理員）存取檢視的許可權，而不授予其存取工作區的許可權。
-   * 當您共用檢視時，會共用所有檢視元素，包括篩選、分組、排序或設定。
-   * 當您共用檢視時，檢視中顯示的記錄不會共用。 記錄必須透過共用工作區來共用。
-   * 當您產生檢視的公共連結時，可以和您組織外部的人員公開共用檢視。從公開連結存取記錄頁面的人員可以檢視所有記錄及其欄位，包括連線的記錄和欄位。
+  * 您必須授予使用者（包括系統管理員）存取檢視的許可權，而不授予其存取工作區的許可權。
+  * 當您共用檢視時，會共用所有檢視元素，包括篩選、分組、排序或設定。
+  * 當您共用檢視時，檢視中顯示的記錄不會共用。 記錄必須透過共用工作區來共用。
+  * 當您產生檢視的公共連結時，可以和您組織外部的人員公開共用檢視。 從公開連結存取記錄頁面的人員可以檢視所有記錄及其欄位，包括連線的記錄和欄位。
 
   如需詳細資訊，請參閱[共用檢視](/help/quicksilver/planning/access/share-views.md)。
 
@@ -95,21 +117,21 @@ ht-degree: 4%
 
 * 您可以透過下列方式共用Planning物件：
 
-   * 在內部，您可以與下列Workfront實體共用Workfront Planning物件：
+  * 在內部，您可以與下列Workfront實體共用Workfront Planning物件：
 
-      * 使用者
-      * 群組
-      * 團隊
-      * 公司
-      * 職務角色
+    * 使用者
+    * 群組
+    * 團隊
+    * 公司
+    * 職務角色
 
-     您可以與每個物件最多100個實體共用Planning物件。
+    您可以與每個物件最多100個實體共用Planning物件。
 
-   * 在內部，透過與其他Planning使用者共用工作區或檢視的連結。 存在下列情況：
+  * 在內部，透過與其他Planning使用者共用工作區或檢視的連結。 存在下列情況：
 
-      * 收到工作區連結的使用者必須是作用中使用者，並登入Workfront才能存取工作區。
-      * 收到檢視的內部共用連結的使用者必須是作用中使用者，並且登入Workfront才能存取檢視。
-   * 從外部來說，透過與沒有Workfront帳戶的外部使用者共用檢視的公開共用連結。
+    * 收到工作區連結的使用者必須是作用中使用者，並登入Workfront才能存取工作區。
+    * 收到檢視的內部共用連結的使用者必須是作用中使用者，並且登入Workfront才能存取檢視。
+  * 從外部來說，透過與沒有Workfront帳戶的外部使用者共用檢視的公開共用連結。
 
 ## 共用Adobe Workfront Planning物件的許可權
 
@@ -143,6 +165,10 @@ ht-degree: 4%
 | 共用 | ✓ |            |       |
 | 刪除 | ✓ |            |       |
 | 檢視 | ✓ | ✓ | ✓ |
+
+<!--
+<span class="permissions">In addition to the permissions described in the above table, you can also change the owner of a workspace when sharing it. For information, see [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md).</span>
+-->
 
 ### 記錄型別的許可權
 
@@ -231,9 +257,13 @@ In the Production environment, the following are the levels of permissions for r
 
 ### 記錄欄位的許可權
 
-當您授與許可權給工作區和記錄型別時，欄位許可權是從記錄型別繼承的。
 
-以下許可權是指欄位本身，而不是與每個欄位關聯的值。 若要編輯欄位值，您必須擁有編輯記錄的許可權。
+#### 在生產環境中記錄欄位的許可權
+
+
+當您將許可權授予工作區和記錄型別時，編輯欄位設定的許可權繼承自記錄型別。
+
+以下許可權是指欄位設定，而不是與每個欄位關聯的值。 若要編輯欄位值，您必須擁有編輯記錄的許可權。
 
 |        | 管理 | 參與 | 檢視 |
 |--------|--------|------------|-------|
@@ -242,6 +272,38 @@ In the Production environment, the following are the levels of permissions for r
 | 編輯 | ✓ |            |       |
 | 檢視 | ✓ | ✓ | ✓ |
 
+
+<div class="preview">
+
+#### 在預覽環境中記錄欄位的許可權
+
+當您將許可權授予工作區和記錄型別時，欄位設定的許可權繼承自記錄型別。
+
+以下許可權是指欄位設定，而不是與每個欄位關聯的值。
+
+|        | 管理 | 參與 | 檢視 |
+|--------|--------|------------|-------|
+| 建立 | ✓ |            |       |
+| 刪除 | ✓ |            |       |
+| 編輯 | ✓ |            |       |
+| 檢視 | ✓ | ✓ | ✓ |
+
+
+欄位值的許可權是從記錄型別繼承而來，並與記錄的許可權結合使用。
+
+您可以管理個別欄位值的許可權，並限制可能包含機密資訊的欄位。
+
+您可以共用欄位，藉此將下列許可權授予欄位值：
+
+|        | 管理 | 檢視 |
+|--------|--------|------|
+| 刪除 | ✓ |      |
+| 編輯 | ✓ |      |
+| 檢視 | ✓ | ✓ |
+
+使用者必須至少具有記錄型別的檢視許可權才能存取欄位。
+
+</div>
 
 ### 檢視的許可權
 
