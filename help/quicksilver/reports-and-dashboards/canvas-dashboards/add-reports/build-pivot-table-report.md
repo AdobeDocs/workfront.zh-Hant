@@ -5,12 +5,14 @@ title: 在畫布儀表板中建立樞紐分析表
 description: 您可以將樞紐分析表新增至畫布控制面板，以表格格式檢視資料的彙總總數。
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
+source-git-commit: d318a3f44752e01494374472ea295fa22ec97fc8
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 6%
 ---
 # 在畫布儀表板中建立樞紐分析表
+
+{{highlighted-preview-article-level}}
 
 >[!IMPORTANT]
 >
