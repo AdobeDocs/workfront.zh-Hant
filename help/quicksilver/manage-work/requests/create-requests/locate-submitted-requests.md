@@ -13,20 +13,23 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/wph4vcZj6iJCRSWrh6CHLwRhspLqbV-HL0qoZEwV-OI
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+    internal-label: Administration
+source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
 workflow-type: tm+mt
-source-wordcount: 1528
+source-wordcount: '1550'
 ht-degree: 2%
-
 ---
-
 # 檢視已提交的請求
 
 <!--
@@ -56,8 +59,9 @@ Remove production and preview references at release
   >[!NOTE]
   >
   >* 您只能檢視自己的草稿要求。
-  >* 在新的請求體驗中，提交的請求和草稿可在相同清單中找到。
+  >* 在新請求體驗中，提交的請求和草稿可在相同清單中找到。
   >* 在舊版體驗中建立的草稿不會顯示在新的請求體驗中。
+  >* 在新請求體驗中，您只能看到從2025年7月到現在的舊Workfront請求。<!--replace this bullet with this: In the Production environment, in the new request experience, you can see old Workfront requests only from July 2025 to the present day. <span class="preview">In the Preview environment, in the new request experience, you can see old Workfront requests only from 2023 to the present day. You can see all Workfront requests in the legacy experience.</span>-->
 
 ## 存取權要求
 
@@ -166,8 +170,8 @@ Remove production and preview references at release
    * **稽核中**： （僅限Planning）此要求有核准者，且至少有一個核准者已開啟要求，但尚未做出任何決定。 此狀態為硬式編碼。
    * **已拒絕**： （僅限Planning）此要求有核准者且已被拒絕。 此請求將不會建立記錄。 此狀態為硬式編碼。
    * **進行中**：
-      * Workfront請求：請求已轉換，工作正在進行。
-      * Workfront計畫請求：請求完成會對應至特定的「計畫」欄位，而該欄位值尚未與完成值相符。
+     * Workfront請求：請求已轉換，工作正在進行。
+     * Workfront計畫請求：請求完成會對應至特定的「計畫」欄位，而該欄位值尚未與完成值相符。
    * **保留**：這可用於Workfront要求。 使用者可手動設定。
    * **完成**：已建立完成請求的Planning記錄。 （僅限Planning）
    <!--
