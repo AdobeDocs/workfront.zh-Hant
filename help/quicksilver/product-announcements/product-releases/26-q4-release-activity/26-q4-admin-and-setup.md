@@ -4,9 +4,9 @@ description: 2026年第四季管理員增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6fb4ffc73625485cf4f9b392020da94e938cf179
+source-git-commit: 64a18dc29c447ca4703fb25102663952942790ca
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1382'
 ht-degree: 0%
 ---
 # 2026年第四季管理員增強功能
@@ -14,6 +14,18 @@ ht-degree: 0%
 本頁說明2026年第四季版本管理員對預覽環境所做的增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2026年第四季版本週期目前可用的所有變更清單，請參閱[2026年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)。
+
+## 新增MCP整合的授權重新導向URL
+
+>[!NOTE]
+>
+>預覽： 2026年9月22日
+>生產快速發行： 2026年10月14日
+>適用於所有人的生產： 2026年10月15日
+
+為了讓Workfront MCP伺服器更靈活，且可供您的組織自訂，我們新增了新增自訂OAuth回呼URL的功能。 Workfront管理員現在可以維護其組織的受信任OAuth回呼URL允許清單，以進行MCP整合。 這可讓您在Workfront原生支援的平台之外，連線自訂AI代理平台，使其的OAuth回呼URL對您的組織而言是唯一的。
+
+如需詳細資訊，請參閱[設定系統偏好設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)中的[新增或移除授權的重新導向URL](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md#add-or-remove-an-authorized-redirect-url)。
 
 <!--
 
