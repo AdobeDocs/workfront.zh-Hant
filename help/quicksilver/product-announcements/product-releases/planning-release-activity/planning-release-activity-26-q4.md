@@ -6,9 +6,21 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 19ac0dd5e22782ed5262deb096f24f0d18ccc2f1
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
 workflow-type: tm+mt
-source-wordcount: '2785'
+source-wordcount: '2783'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 2026年第四季發行活動
@@ -21,7 +33,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2026年9月24日
+>預覽： 2026年9月25日
 >生產快速發行： 2026年10月14日
 >適用於所有人的生產： 2026年10月15日
 
@@ -37,7 +49,7 @@ Workspace管理員現在可以控制對個別欄位的存取，允許特定使�
 
 >[!NOTE]
 >
->預覽： 2026年9月24日
+>預覽： 2026年9月25日
 >生產快速發行： 2026年10月14日
 >適用於所有人的生產： 2026年10月15日
 
@@ -51,7 +63,7 @@ Workspace管理員現在可以控制對個別欄位的存取，允許特定使�
 
 >[!NOTE]
 >
->預覽： 2026年9月24日
+>預覽： 2026年9月25日
 >生產快速發行： 2026年10月14日
 >適用於所有人的生產： 2026年10月15日
 
@@ -63,7 +75,7 @@ Workspace管理員現在可以為每個Planning請求表單建立單階段或多
 
 >[!NOTE]
 >
->預覽： 2026年9月24日
+>預覽： 2026年9月25日
 >生產快速發行： 2026年10月14日
 >適用於所有人的生產： 2026年10月15日
 
@@ -73,11 +85,11 @@ Workspace管理員現在可以為每個Planning請求表單建立單階段或多
 
 如需詳細資訊，請參閱[建立請求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
-## 為每個存取層級設定每個請求表單的功能
+## 為Planning請求表單上的請求者設定預設許可權
 
 >[!NOTE]
 >
->預覽： 2026年9月24日
+>預覽： 2026年9月25日
 >生產快速發行： 2026年10月14日
 >適用於所有人的生產： 2026年10月15日
 
@@ -87,7 +99,7 @@ Workfront和工作區管理員現在可以在設定請求表單時，指出請�
 
 如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
-## AI表單填寫現在會從以連結參照的記錄中提取資料
+## AI表單填寫從連結參照的記錄中提取資料
 
 >[!NOTE]
 >
@@ -98,7 +110,7 @@ AI Form Fill現在可以直接從由其連結參考的Planning記錄中擷取欄
 
 如需詳細資訊，請參閱[使用由AI支援的表單填入，以使用提示或檔案填入請求](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)。
 
-## CX Coworker現在可在Workfront Planning中使用
+## Workfront Planning中提供的CX Coworker
 
 >[!NOTE]
 >
@@ -120,7 +132,7 @@ CX Coworker Chat是一個對話式介面，用於完成工作。 以簡單的語
 
 如需詳細資訊，請參閱[CX Coworker概觀](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
 
-## 移除「詳細資料」預覽方塊中的AI助理圖示，以準備CX Coworker啟動
+## AI助理圖示已從記錄詳細資料預覽方塊中移除，以準備CX Coworker啟動
 
 >[!NOTE]
 >
@@ -194,7 +206,7 @@ CX Coworker Chat是一個對話式介面，用於完成工作。 以簡單的語
 >* **建立請求表單**&#x200B;和&#x200B;**管理請求表單**&#x200B;已變更為&#x200B;**請求表單**
 >* **管理自動化**&#x200B;已變更為&#x200B;**自動化**
 
-## 介紹時間軸檢視的自訂周數
+## 時間表檢視的自訂周數
 
 >[!NOTE]
 >
@@ -238,7 +250,7 @@ CX Coworker Chat是一個對話式介面，用於完成工作。 以簡單的語
 
 如需詳細資訊，請參閱[管理時間表檢視](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
 
-## 請參閱時間軸檢視中的完整群組名稱和調整群組面板的大小
+## 在時間軸檢視中顯示完整的群組名稱，並調整群組面板的大小
 
 >[!NOTE]
 >
@@ -331,7 +343,7 @@ CX Coworker Chat是一個對話式介面，用於完成工作。 以簡單的語
 >生產快速發行： 2026年8月13日
 >所有人的生產： 2026年10月15日
 
-在表格檢視中拖放列的體驗已改善視覺效果。
+在表格檢視中拖放單一列的體驗已獲得視覺上的改善。
 
 如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)。
 
@@ -356,9 +368,6 @@ Workspace管理員現在可以定義已連線記錄型別之間的相依性。 �
 
 
 如需詳細資訊，請參閱[管理相依連線](/help/quicksilver/planning/architecture/manage-dependent-connections.md)。
-
-
-
 
 ## 在表格檢視中顯示記錄的新註解指標
 
