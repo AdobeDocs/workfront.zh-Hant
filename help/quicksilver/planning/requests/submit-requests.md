@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
+source-git-commit: 3b3d455ded251b06084249cf9df12c1f112f05e9
 workflow-type: tm+mt
-source-wordcount: '3070'
+source-wordcount: '3087'
 ht-degree: 1%
 ---
 # 提交Adobe Workfront Planning請求以建立記錄
@@ -160,21 +160,24 @@ Workspace管理員可建立請求表單，您能以使用者或外部人員身�
 
   * <span class="preview">在預覽環境中，存在下列案例： </span>
 
-    * <span class="preview">當您從次要全域記錄型別的頁面提交請求表單時，記錄會顯示在次要記錄型別頁面中。 如果使用者有權檢視次要工作區，他們也會在主要記錄型別的頁面上看到新記錄。</span>
-    * <span class="preview">當您從主要記錄型別頁面或使用本文所述的任何其他方法提交請求表單時，記錄會顯示在主要記錄型別頁面中。</span>
-    * <span class="preview">如果&#x200B;**Workspace**&#x200B;欄位可在要求表單中使用，且使用者手動選擇特定工作區以新增記錄，則無論表單是從主要或次要記錄型別頁面選取，記錄都會儲存在該空間中。</span>
+    <div class="preview">
+
+    * 當您從次要全域記錄型別的頁面提交請求表單時，該記錄將顯示在次要記錄型別頁面中。 如果使用者有權檢視次要工作區，他們也會在主要記錄型別的頁面上看到新記錄。
+    * 當您從主要記錄型別頁面或使用本文所述的任何其他方法提交請求表單時，記錄會顯示在主要記錄型別頁面中。
+    * 如果&#x200B;**Workspace**&#x200B;欄位可在要求表單中使用，且使用者手動選擇特定工作區以新增記錄，則該空間會儲存記錄，無論該表單是從主要還是次要記錄型別頁面中選取。
+
+    </div>
 
   如需詳細資訊，請參閱[跨工作區記錄型別概觀](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
 
-<!--
 <div class="preview">
 
-* You can share a request with others after it's been submitted. 
+* 您可以在請求提交後與他人共用。
 
-   For information, see [Share Planning requests](/help/quicksilver/planning/requests/share-requests.md).
+  如需詳細資訊，請參閱[共用計畫要求](/help/quicksilver/planning/requests/share-requests.md)。
 
 </div>
--->
+
 
 <!--
 Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.
@@ -184,8 +187,8 @@ Not sure how to change the request status, but dev also said: Changing the names
 
 {{step1-to-requests}}
 
-1. 開啟熒幕右上角的&#x200B;**使用新體驗**&#x200B;設定。
-開啟此設定後，Workfront的&#x200B;**要求**&#x200B;區域即可使用Workfront規劃要求表單。
+1. 開啟熒幕右上角的&#x200B;**使用新體驗**設定。
+開啟此設定後，Workfront的**要求**&#x200B;區域即可使用Workfront規劃要求表單。
 
    >[!TIP]
    >
@@ -319,7 +322,7 @@ Removing this as this is covered at a higher level in the Use enhanced lists art
 {{step1-to-planning}}
 
 1. 按一下工作區的卡片，然後按一下您有權建立記錄的記錄型別的卡片。
-1. 在記錄型別頁面上的任何檢視中，按一下[新增記錄]，然後按一下[送出要求]。**&#x200B;**。
+1. 在記錄型別頁面上的任何檢視中，按一下[新增記錄]，然後按一下[送出要求]。****。
 
    >[!TIP]
    >

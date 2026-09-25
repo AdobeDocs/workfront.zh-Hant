@@ -11,16 +11,17 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/H2fZ--6zAu0-JWlbaV2PreLR3aimETir57qH7rrgaKY
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: Admin
+source-git-commit: 3b3d455ded251b06084249cf9df12c1f112f05e9
 workflow-type: tm+mt
-source-wordcount: 110
+source-wordcount: '113'
 ht-degree: 0%
-
 ---
-
 # Adobe Workfront規劃請求：文章索引
 
 <!--
@@ -38,3 +39,9 @@ ht-degree: 0%
 * [在Adobe Workfront Planning中取消發佈請求表單](/help/quicksilver/planning/requests/unpublish-request-form.md)
 * [在Adobe Workfront Planning中新增核准至請求表單](/help/quicksilver/planning/requests/add-approval-to-request-form.md)
 * [在Adobe Workfront規劃中核准請求](/help/quicksilver/planning/requests/approve-request.md)
+
+<div class="preview">
+
+* [共用計畫請求](/help/quicksilver/planning/requests/share-requests.md)
+
+</div>

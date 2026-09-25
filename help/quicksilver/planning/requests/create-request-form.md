@@ -30,14 +30,16 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3cd7a6fe3c719c8eba3c907512f66b2e285484b0
+source-git-commit: 3b3d455ded251b06084249cf9df12c1f112f05e9
 workflow-type: tm+mt
-source-wordcount: '3066'
-ht-degree: 1%
+source-wordcount: '3098'
+ht-degree: 2%
 ---
 # 在Adobe Workfront Planning中建立和管理請求表單
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+
+<!--this article needs to be re-built - the structure is odd; some of the information needs to move to other articles - like the approval information - there is a standalone approval article - move there-->
 
 <!--take Preview and Production references at Production time-->
 
@@ -70,7 +72,7 @@ ht-degree: 1%
    <td> 
 <ul> 
 <li><p>具有Planning套件的任何Workfront或工作流程</p></li>
-或
+   或
 <li><p>以獨立產品形式購買時的任何Planning套件</p></li></ul>
    </td> </tr>
   <tr> 
@@ -90,7 +92,7 @@ ht-degree: 1%
   </tr>  
   <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
-   <td>   <p>管理工作區或記錄型別</a>的許可權 </p>  
+   <td>   <p>管理工作區或記錄型別的許可權</p>  
    <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>  </td> 
   </tr>  
 </tbody> 
@@ -202,14 +204,53 @@ ht-degree: 1%
    1. 按一下&#x200B;**x**&#x200B;圖示以移除&#x200B;**預設區段**。
 1. 按一下任何欄位，然後使用表單右側面板中的控制項來定義其大小或下列任何資訊：
 
+   * **大小**：控制欄位在表單上佔用的空間。 並非所有欄位型別皆可使用。
    * **標籤**：這是欄位在要求表單上顯示的名稱。 這不會變更記錄欄位的名稱。
    * **指示**：新增欄位的詳細資訊。
-   * **建立必要欄位**：選取時，該欄位必須具有值。 否則，無法提交表單。
-   * **新增邏輯**：定義必須符合哪些條件才能顯示或隱藏欄位。<!--<span class="preview">In addition to display and skip logic, validation logic is also available.</span> For information on field logic, see [Add logic rules to custom forms and fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).-->
+
+   <div class="preview">
+
+   * **選擇**：這僅適用於選取的欄位。 執行下列其中一項：
+
+     * 按一下&#x200B;**排序選擇A-Z**&#x200B;以自動排序。
+     * 拖放選擇或手動排序。
+     * 按一下「**設定**」圖示![設定圖示](assets/settings-icon.png)，然後依預設&#x200B;**選取**&#x200B;以指出預設選項，或按一下&#x200B;**隱藏選項**&#x200B;以隱藏選項。
+
+   </div>
 
    >[!TIP]
    >
-   >在表單上選取欄位後，每個欄位的欄位型別都會顯示在右側面板的頂端。
+   ><span class="preview">您無法重新命名或移除Planning要求表單上的選擇。 您必須在記錄型別的資料表檢視中編輯欄位選擇。</span>
+
+
+1. 在&#x200B;**進階設定**&#x200B;區域中，從下列選項中選取。 並非所有選項都適用於所有欄位型別。
+
+   * **建立必要欄位**：選取時，該欄位必須具有值。 否則，無法提交表單。
+   * **新增邏輯**：定義必須符合哪些條件才能顯示或隱藏欄位。 只有當欄位是單選和多選欄位或在其前面時，新增邏輯才可用。 <span class="preview">並非所有欄位型別都適用驗證與預設值規則。</span>
+
+     在生產環境中，從下列選項中選取：
+
+     * **顯示邏輯**：您選取的欄位前面必須是多選或單選欄位。
+     * **略過邏輯**：新增使用者應略過欄位並保留空白的略過規則。
+
+     <div class="preview">
+
+     在「預覽」環境中，從下列選項中選取：
+
+     * **顯示區**
+     * **略過**
+     * **預設值**
+     * **驗證**
+     * **正在格式化**
+     * **可編輯性**
+
+     </div>
+
+     如需詳細資訊，請參閱[新增邏輯規則至自訂表單和欄位](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)。
+
+     >[!TIP]
+     >
+     ><span class="preview">當您在表單上選取欄位後，每個欄位的欄位型別都會顯示在右側面板的頂端。</span>
 
 1. （可選）長按一下欄位，然後將其拖放到表單上的另一個位置。
 1. （選擇性）按一下表單左側的&#x200B;**Content elements**&#x200B;標籤，然後新增下列任一元素：
@@ -229,25 +270,19 @@ ht-degree: 1%
 
 ### 設定表單設定
 
-在「設定」索引標籤上，您可以設定核准規則，並設定從此表單建立的請求何時將標示為「已完成」。
+在[設定]索引標籤上，您可以設定核准規則、設定從此表單建立的請求何時將標籤為[已完成]，以及<span class="preview">將預設許可權指派給與使用表單提交的未來請求互動的使用者。</span>
 
 核准規則會根據已提交請求中的欄位值來定義核准流程。
 
 例如，如果請求表單有「Campaign type」欄位，則可建立規則，當欄位值為「Digital」時傳送請求給一個人，當值為「Print」時傳送請求給另一個人。
 
-新增核准規則時，請考量下列事項：
-
-* 規則會依順序排列優先順序。 如果滿足第一個規則條件，則會套用該規則，即使清單下方規則的條件也滿足。
-* 若不符合任何條件，則會套用預設規則。
-* 您可以將一或多個核准者新增至核准規則。
-* 如果至少有一位核准者拒絕請求，則請求會遭到拒絕，且不會建立記錄。 此請求會保留在Workfront的請求區域中。
-* 如果您新增多個核准者，但未啟用「只有一個決定是必要的」選項，則所有核准者必須在核准或拒絕請求之前做出決定。
-* 如果團隊被設定為核准者，則只需從團隊中做出一個決定。
-  <!--<span class="preview">* Multiple stages are supported in the approval process. When all required decisions in a stage are made, the next stage begins and the new stage's approvers receive an email notification.</span>-->
+<span class="preview">核准程式中支援多個階段。 當階段中所有必要的決定都完成時，下一個階段就會開始，新階段的核准者會收到電子郵件通知。</span>
 
 如需新增核准的詳細資訊，請參閱[新增核准至要求表單](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
 
 完成選項可讓您設定在建立要求的物件時，或是建立物件完成時，是否將要求標籤為完成。 您可以根據指定的條件定義物件的完成時間。
+
+<span class="preview">使用要求表單「設定」區域中的「許可權」區段，定義要求者<!--and non-requestors-->對使用表單建立的要求的預設許可權。</span>
 
 若要設定表單設定：
 
@@ -256,35 +291,12 @@ ht-degree: 1%
    所選記錄型別的請求表單會在「表單」標籤中開啟。
 1. （選擇性）設定任何表單詳細資料，如[設定表單詳細資料](#set-up-form-details)中所述。
 
-1. 若要開始設定核准規則，請按一下左側導覽中的核准![核准圖示](assets/approvals-icon-on-form.png)。
+1. 若要開始設定核准規則，請按一下左側導覽中的&#x200B;**核准** ![核准圖示](assets/approvals-icon-on-form.png)。
 
-1. （選擇性）如果您想要設定預設核准程式，請在[預設核准規則]區域的&#x200B;**核准者**&#x200B;欄位中新增至少一位使用者或團隊，然後按一下&#x200B;**僅需要一個決定**&#x200B;核取方塊（如果您想要在任何一位預設核准者核准記錄後建立記錄）。
+   您可以建立單一<span class="preview">或多階段核准規則</span>，並將使用者或團隊指派給核准。
 
-   ![預設核准規則區域](assets/default-approvers.png)
+   如需新增核准的詳細資訊，請參閱[新增核准至要求表單](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
 
-   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval. Add the approvers for each stage, and save the multi-stage approval.</span> FIX INDENT WHEN YOU UNCOMMENT THIS, SHOULD BE FLUSH LEFT-->
-
-   <!--below bullet list is duplicated in the Add approval to a request form article-->
-
-1. （選用）請針對每個額外的核准規則，執行下列作業：
-
-   1. 按一下&#x200B;**新增核准規則**。
-   1. 按一下預留位置標題「未命名的核准規則」，然後輸入核准規則的名稱。
-   1. 按一下&#x200B;**選取欄位**&#x200B;並選取啟用規則的欄位。
-   1. 選取規則的運運算元。 運運算元會依欄位型別而異。
-   1. 如果選取的運運算元需要值，請按一下加號圖示並新增一或多個值。
-   1. （選用）按一下「新增條件」並設定其他條件，以使用AND或OR新增更多條件。
-   1. 在核准規則的「動作」區域中，在&#x200B;**核准者**&#x200B;欄位中，新增至少一位當符合條件時要在核准者處設定的使用者或團隊。
-   1. （視條件而定）如果要在任何核准者核准記錄後建立記錄，請核取&#x200B;**僅需要一個決定**&#x200B;核取方塊。
-
-   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval, and follow step 5 above.</span>-->
-
-1. （可選）若要重新排序路由規則，請按一下規則左側的拖曳控點，並將規則拖曳到所要的位置。
-
-   無法重新排序預設規則。
-
-1. （選擇性）若要刪除路由規則，請按一下規則右側的&#x200B;**X**。
-1. 按一下[儲存]儲存核准規則。**&#x200B;**
 1. 按一下左側面板上的&#x200B;**要求完成選項**。
 1. 從下列選項中選取：
 
@@ -293,27 +305,34 @@ ht-degree: 1%
 
 1. （視條件而定）如果您已選取在要求的物件完成時將要求標示為完成的請求，請選取欄位以及指示物件完成時間的值。 例如，當建立的物件狀態設為「完成」時，您可以選取「狀態」欄位和值「完成」以完成請求。
 
+1. <span class="preview">按一下左側面板上的&#x200B;**許可權**。</span>
+1. <span class="preview">選取透過此表單提交請求之使用者的許可權等級：</span>
 
-   <!--
-   1. <span class="preview">Click **Permissions** on the left panel.</span>
-   1. <span class="preview">Select the permission level for the users submitting requests through this form:</span>
-      <div class="preview">
-      * **View**: All requesters can comment on and share the form.
-      * **Contribute**: All requesters can comment on, share, and edit the form.
-      * **Manage**: All requesters can comment on, share, edit, and delete the form.
-      </div>
-   1. <span class="preview"> (Optional) Deselect any of the granular permissions for each permission level to prevent requestors to perform the following actions:</span>
-      <div class="preview">
-      * Comment
-      * Share
-      * Edit. Not available for View. 
-      * Delete. Not available for Contribute and View. 
-      </div>
-      >[!TIP]
-      >
-      ><span class="preview">The granular permission you deselect here will be dimmed when sharing the request with those users from the request page. </span>
-   1. <span class="preview">Click **Save**.</span>
-   -->
+   <div class="preview">
+
+   * **檢視**：所有要求者都可以註解並共用表單。
+   * **Contribute**：所有要求者都可以評論、共用及編輯表單。
+   * **管理**：所有要求者都可以評論、共用、編輯和刪除表單。
+
+   </div>
+
+1. <span class="preview"> （選擇性）取消選取每個許可權層級的任何精細許可權，以防止要求者執行下列動作： </span>
+
+   <div class="preview">
+
+   * 註解
+   * 共用
+   * 編輯。 無法供檢視。
+   * 刪除。 不適用於Contribute和View。
+
+   </div>
+
+   >[!TIP]
+   >
+   ><span class="preview">當您從請求頁面與這些使用者共用請求時，您在此取消選取的詳細許可權將會變暗。</span>
+
+1. <span class="preview">按一下&#x200B;**儲存**。</span>
+
 
 1. 繼續[發佈表單](#publish-form)。
 
@@ -334,7 +353,7 @@ ht-degree: 1%
    如需共用申請表格的詳細資訊，請參閱本文的[共用申請表單](#share-a-request-form)一節
 1. 按一下頁首中表單名稱左側的向左箭頭以關閉表單。
 
-   **請求表單**&#x200B;清單會開啟，且表單會顯示在清單中。
+   **請求表單**&#x200B;清單會開啟，表單會顯示在清單中。
 
 ## 共用請求表單
 
@@ -361,7 +380,7 @@ ht-degree: 1%
 
    ![分享要求表單](assets/share-box-for-request-form.png)的方塊
 
-1. （選擇性）按一下&#x200B;**複製連結**，與有權存取表單及提交請求的人共用表單連結。 此連結會複製到您的剪貼簿，您可以與其他人共用。
+1. （選擇性）按一下&#x200B;**複製連結**，與可存取表單及提交請求的人共用表單連結。 此連結會複製到您的剪貼簿，您可以與其他人共用。
 1. 若要公開共用表單，請選取&#x200B;**公開共用**&#x200B;標籤，然後開啟&#x200B;**建立公開連結**&#x200B;設定。 預設為關閉。
 
    ![公開共用要求表單](assets/share-request-form-publicly-tab.png)
@@ -438,6 +457,8 @@ ht-degree: 1%
 1. （選用）前往Workfront中的&#x200B;**要求**&#x200B;區域，並尋找共用表單以提交要求。 如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
 
 <!--
+
+This information is for unified intake process: 
 
 <div class="preview">
 
