@@ -94,10 +94,10 @@ AI稽核者在稽核程式期間使用品牌指南來評估內容。 您可以�
 1. 在左側面板中，移至&#x200B;**檢閱和核准** > **品牌**。
 1. 按一下熒幕右上角的&#x200B;**新增品牌**。
 1. 為品牌命名。
-1. 按一下&#x200B;**上傳PDF**以上傳品牌檔案。
+1. 按一下&#x200B;**上傳PDF**&#x200B;以上傳品牌檔案。
    ![上傳品牌PDF](assets/upload-PDF.png)
 1. 按一下「**繼續**」。
-1. 上傳一或多個包含品牌准則的PDF檔案，然後按一下[新增品牌]。****
+1. 上傳一或多個包含品牌准則的PDF檔案，然後按一下[新增品牌]。**&#x200B;**
 1. 上傳檔案後，請檢閱擷取的品牌元素，以確保其符合您的品牌方針。
 
    >[!IMPORTANT]
@@ -151,7 +151,7 @@ AI稽核者在稽核程式期間使用品牌指南來評估內容。 您可以�
 
 ## 撰寫品牌指引的最佳作法
 
-在撰寫准則之前，請檢閱[ AI檢閱者評估的內容](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md#what-ai-reviewer-evaluates)中的影像和品牌語音准則型別。 這些評估區域以外的准則將不會評分。
+在撰寫准則之前，請檢閱[&#x200B; AI檢閱者評估的內容](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md#what-ai-reviewer-evaluates)中的影像和品牌語音准則型別。 這些評估區域以外的准則將不會評分。
 
 *  撰寫描述可測量標準的品牌指導方針。 AI檢閱者會逐字面上的評估內容，因此客觀規則會產生比主觀規則更一致的分數。
 
