@@ -10,25 +10,32 @@ exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
 TQID: https://experienceleague.adobe.com/fMt1jY5l7jMYTHUeKNyCE-HJdDEH89xmLqG2UacvU7c
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
+    internal-label: Administration
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: 1256
+source-wordcount: '1256'
 ht-degree: 2%
-
 ---
-
 # 工作負載平衡器概觀 {#workload-balancer-overview}
 
 >[!CONTEXTUALHELP]
@@ -44,7 +51,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->您可以使用工作負載平衡器來指派實際工作（任務和問題）給使用者和任務共同作業人員。
+>您可以使用工作負載平衡器將實際工作（任務和問題）指派給使用者和工作代理程式。
 >
 >您必須使用資源規劃工具，而不是工作負載平衡器，以高層級評估您專案的工作角色分配。 如需資源規劃工具的詳細資訊，請參閱[資源規劃工具概觀](../../resource-mgmt/resource-planning/get-started-resource-planner.md)。
 
@@ -130,9 +137,9 @@ ht-degree: 2%
 
   如需詳細資訊，請參閱[設定資源管理喜好設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)。
 
-* 您可以透過所有與將工作指派給使用者相同的方法，將工作指派給任務共同作業人員。 任務共同作業人員必須存在於Workfront中，才能指派給任務。
+* 您可以用指派工作給使用者的所有相同方式，將工作指派給工作代理程式。 工作代理程式必須存在於Workfront中，才能指派給任務。
 
-  如需有關建立任務共同作業人員的資訊，請參閱[設定AI共同作業人員](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)一文中的[設定任務共同作業人員](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)。
+  如需有關建立工作代理程式的資訊，請參閱[設定AI共同作業人員](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)一文中的[設定工作代理程式](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent)。
 
 ### 設定任務和問題的最佳實務 {#best-practices-for-setting-up-tasks-and-issues}
 

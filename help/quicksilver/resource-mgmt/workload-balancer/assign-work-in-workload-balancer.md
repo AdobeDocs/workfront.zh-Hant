@@ -9,28 +9,33 @@ exl-id: 98779b67-b975-4501-8426-63e255b1d7df
 TQID: https://experienceleague.adobe.com/V48Ew1abmm8Qkf2qwpO-9aERwltZq-3L0l2EEsNa8do
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
+    internal-label: Administration
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: 1104
+source-wordcount: '1104'
 ht-degree: 1%
-
 ---
-
 # 在工作負載平衡器中指派工作的總覽
 
 <!-- Audited: 5/2025 -->
 
-身為資源管理員，您可以使用Adobe Workfront工作負載平衡器來檢視尚未指派給使用者和任務共同作業人員的工作專案，並將這些專案指派給他們。
+作為資源管理員，您可以使用Adobe Workfront工作負載平衡器來檢視尚未指派給使用者和工作代理的工作專案，並將這些專案指派給他們。
 
 如需工作負載平衡器的一般資訊，請參閱[工作負載平衡器總覽](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)。
 

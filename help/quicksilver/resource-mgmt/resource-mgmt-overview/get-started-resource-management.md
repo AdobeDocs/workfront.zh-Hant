@@ -10,26 +10,34 @@ exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
 TQID: https://experienceleague.adobe.com/0-mIGjSaSi9gxuJ0tIYCmmGbBrgXWESmG3OtYoLnsfw
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d4726c4aacc316063bb9a47b590165202ca3ac0
+    internal-label: Administration
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: 1227
+source-wordcount: '1227'
 ht-degree: 0%
-
 ---
-
 # 開始使用資源管理
 
 <!-- Audited: 12/2023 -->
@@ -64,7 +72,7 @@ Workfront有幾組用於管理資源的工具。 每個工具都有個別的範�
 
 * 若要排程或指派資源給實際工作（任務和問題），請使用下列工具：
 
-  * **工作負載平衡器**：這屬於資源管理的較低層級階段，您可以根據完成資源所需的時數及其可用性，將資源指派給必須完成的實際工作（任務和問題）。 您可以使用工作負載平衡器將使用者或任務共同作業人員指派給目前未指派或指派給工作角色的實際工作。
+  * **工作負載平衡器**：這屬於資源管理的較低層級階段，您可以根據完成資源所需的時數及其可用性，將資源指派給必須完成的實際工作（任務和問題）。 您可以使用工作負載平衡器將使用者或工作代理指派給目前未指派或指派給工作角色的實際工作。
 
     如需Workfront平衡器的相關資訊，請參閱[工作負載平衡器：文章索引](../../resource-mgmt/workload-balancer/workload-balancer.md)。
 
@@ -109,8 +117,8 @@ Workfront有幾組用於管理資源的工具。 每個工具都有個別的範�
   * 職務角色\
     如需有關建立工作角色的詳細資訊，請參閱文章[建立及管理工作角色](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。
 
-  * 任務共同作業人員
-    如需有關建立任務共同作業人員的詳細資訊，請參閱[設定AI共同作業人員](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)一文中的[設定任務共同作業人員](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator)。
+  * 工作代理
+    如需有關建立工作代理程式的詳細資訊，請參閱[設定AI共同作業人員](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)一文中的[設定工作代理程式](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent)。
 
   * 排程\
     如需有關建立排程的詳細資訊，請參閱文章[建立排程](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)。

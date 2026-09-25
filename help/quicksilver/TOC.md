@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 593889d180b39e3c0cd6409947f0ec29a83bfe74
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
 source-wordcount: '14588'
 ht-degree: 2%
@@ -735,7 +735,7 @@ ht-degree: 2%
       * [管理 API 金鑰](administration-and-setup/manage-workfront/security/manage-api-keys.md)
       * [隱私權原則](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
       * {hide-from-toc}[增強式驗證概觀](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
-      * {hide-from-toc}[使用增強式驗證時更新IDP中的SAML 2.0中繼資料](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
+      * 使用增強式驗證時{hide-from-toc}[更新IDP中的SAML 2.0中繼資料](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
     * 匯率 {#exchange-rates}
       * [匯率](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
       * [設定匯率](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
@@ -1213,7 +1213,7 @@ ht-degree: 2%
     * [刪除文件](documents/managing-documents/delete-documents.md)
     * [從剪貼簿貼上影像](documents/managing-documents/paste-image-clipboard.md)
     * [大量編輯檔案](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)
-    * {hide-from-toc}[Workfront檔案詳細資訊中的AddBuilder](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
+    * {hide-from-toc}[Workfront檔案詳細資訊](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)中的AddBuilder
   * 組織檔案 {#organize-documents}
     * [組織檔案](documents/organizing-documents/organize-documents.md)
     * [建立檔案資料夾](documents/organizing-documents/create-documents-folder.md)
@@ -1941,13 +1941,13 @@ ht-degree: 2%
     * [整合式檔案核准：文章索引](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
     * [檔案核准的可用功能](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
     * [檔案決定狀態概觀](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-    * [開始使用Workfront內容檢閱者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
+    * [開始使用Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
     * [Adobe雲端儲存空間概覽](/help/quicksilver/review-and-approve-work/esm-overview.md)
     * [Adobe雲端儲存模式的物件許可權和存取層級總覽](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
     * [從舊版檔案核准移至整合式核准](/help/quicksilver/review-and-approve-work/move-to-unified-approvals.md)
     * 設定及管理資產和檔案核准 {#manage-asset-review-and-approval}
       * [設定及管理統一核准：文章索引](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
-      * [建立並管理內容檢閱者的品牌](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
+      * [為AI檢閱者建立和管理品牌](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
       * [建立檔案稽核或核准請求](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
       * [將其他檢閱者或核准者新增至資產或檔案](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
       * [從資產或檔案中移除核准者或稽核者](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
@@ -1958,7 +1958,7 @@ ht-degree: 2%
       * [建立報表控制面板以供檢閱和核准](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
     * 檢閱和核准資產和檔案 {#review-and-approve-documents}
       * [檢閱和核准檔案：文章索引](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
-      * [檢視內容檢閱者評分和意見反應](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
+      * [檢視AI檢閱者評分和意見反應](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
       * [檢閱檔案](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
       * [核准檔案](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
       * [在Frame.io檢視器中檢閱和核准檔案](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)
@@ -2663,10 +2663,10 @@ ht-degree: 2%
     * [使用JWT流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-jwt-flow.md)
     * [使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-pkce-flow.md)
     * [棄用API — 內部](wf-api/api/deprecation-api-internal.md)
-    * [&#x200B; API 22版的新增功能](/help/quicksilver/wf-api/api/new-api-version-22.md)
-    * [&#x200B; API 21版的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-    * [&#x200B; API 20版的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-    * [&#x200B; API 19版的新增功能](wf-api/api/new-api-version-19.md)
+    * [ API 22](/help/quicksilver/wf-api/api/new-api-version-22.md)版的新增功能
+    * [ API 21](/help/quicksilver/wf-api/api/new-api-version-21.md)版的新增功能
+    * [ API 20](/help/quicksilver/wf-api/api/new-api-version-20.md)版的新增功能
+    * [ API 19](wf-api/api/new-api-version-19.md)版的新增功能
     * [API 18版的新增功能](wf-api/api/new-api-version-18.md)
     * [API 17版的新增功能](wf-api/api/new-api-version-17.md)
     * [API 16版的新增功能](wf-api/api/new-api-version-16.md)
