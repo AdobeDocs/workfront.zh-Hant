@@ -13,26 +13,34 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/46D3BBajFk39FP-dMDk0SuSSGM5nYPKas11Bs159R9Y
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5477b925df1655014eb9db99cc92e7eeee4662b7
+    internal-label: Administration
+source-git-commit: 62a56dd910bed829e2f30752020cb014464aea4f
 workflow-type: tm+mt
-source-wordcount: 1318
-ht-degree: 8%
-
+source-wordcount: '1533'
+ht-degree: 7%
 ---
-
 # 設定系統偏好設定
 
 {{highlighted-preview}}
@@ -199,6 +207,10 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
       <td><span class="preview">可讓Workfront MCP伺服器對Workfront資料執行建立、更新和刪除動作。 此選項預設為停用。<p>如需Workfront MCP伺服器的詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">設定Adobe Workfront MCP伺服器</a>。</p></span></td> 
      </tr>
      <tr> 
+      <td role="rowheader"><span class="preview">已授權的重新導向 URL</span></td> 
+      <td><span class="preview">控制哪些回呼（重新導向） URL可以完成貴組織MCP代理程式的登入，該代理程式會透過自訂AI代理程式平台連線。<p>如需為MCP伺服器新增重新導向URL的說明，請參閱本文中的<a href="#add-or-remove-an-authorized-redirect-url">新增或移除授權的重新導向URL</a>。</p></span></td> 
+     </tr>
+     <tr> 
       <td role="rowheader">測試環境</td> 
       <td>可讓您存取Workfront測試環境。 如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md">Adobe Workfront預覽沙箱環境</a>。</p></td> 
     </tbody> 
@@ -207,3 +219,30 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 1. 按一下「**儲存**」。
 
    您在此處儲存的變更會影響Workfront中所有使用者的體驗，以及任何以外部使用者身分與系統互動的使用者體驗。
+
+## 新增或移除授權的重新導向URL
+
+<div class="preview">
+
+授權的重新導向URL可讓您連線自訂AI代理平台，其OAuth回呼URL是您的組織所獨有的，例如，包含連線或租使用者ID的URL。 如需關於何時需要此功能的詳細資訊，請參閱[設定Adobe Workfront MCP伺服器](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)中的[與OAuth連線](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#connect-with-oauth)。
+
++++ 展開以檢視管理MCP授權重新導向URL的逐步指示。
+
+新增URL：
+
+1. 如果您尚未在[系統偏好設定]頁面上，請按一下Workfront左上角的&#x200B;**主功能表**&#x200B;圖示，按一下&#x200B;**設定**，然後在左面板中，按一下&#x200B;**系統** > **偏好設定**。
+1. 在&#x200B;**MCP偏好設定**&#x200B;區域中，**授權的重新導向URL**&#x200B;旁邊，按一下&#x200B;**管理URL**。
+1. 輸入&#x200B;**標籤**&#x200B;以識別整合。
+1. 輸入回呼&#x200B;**URL**。
+1. 按一下&#x200B;**新增**。
+1. 按一下「**儲存**」。
+
+>[!IMPORTANT]
+>
+>回呼URL必須完全相符。 Workfront不支援自訂回呼URL的萬用字元或首碼相符。
+
+若要移除URL （例如，如果相關的整合已淘汰或遭破壞），請開啟&#x200B;**管理URL**，移除專案，然後按一下&#x200B;**儲存**。
+
++++
+
+</div>

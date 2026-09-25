@@ -4,9 +4,9 @@ description: 此頁面提供2026年第四季度版本中包含的功能相關資
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b16738e5fbfa99fe2e9288adc059559fa3a725d3
+source-git-commit: c72b03eca291790dbda954c316fbf19d7021379e
 workflow-type: tm+mt
-source-wordcount: '2715'
+source-wordcount: '2835'
 ht-degree: 2%
 ---
 # 2026年第四季版本總覽
@@ -406,8 +406,7 @@ ht-degree: 2%
             <td><p>October 15, 2026</p></td>
         </tr>
 -->
-
-    &lt;/tbody>
+    </tbody>
 </table>
 
 ### Financial Management增強功能
@@ -682,24 +681,22 @@ ht-degree: 2%
 * [Adobe Workfront Fusion發行活動](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
 * [Adobe Workfront規劃2026年第四季發行活動](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)。
 
-<!--
-## Desktop proofing viewer updates
+## 案頭校訂檢視器更新
 
-### Version 2.2.1
+### 版本2.2.1
 
-Production release for all customers: September 16, 2026
+所有客戶的生產版本： 2026年9月17日
 
-The Desktop Proofing Viewer has been updated to version 2.2.1. This update includes the following changes:
+案頭校訂檢視器已更新至2.2.1版。 此更新包含下列變更：
 
-* You can now open proofs from any environment (Production, Preview, Sandbox, and others) in the same viewer, without reinstalling when you switch.
-* Resolved an issue with opening proofs from a URL on non-US regions.
-* The viewer now keeps your 10 most recent proofs.
-* Updated the Workfront logo to the current branding.
-* Added more detail to the About Workfront Proof screen to speed up troubleshooting.
-* Updated the underlying framework (Electron) for performance and security improvements.
+* 您現在可以在相同檢視器中從任何環境開啟校樣（生產、預覽、沙箱等），交換時不需要重新安裝。
+* 解決從非美國區域的URL開啟校樣的問題。
+* 檢視器現在會保留您最近的10個校樣。
+* 將Workfront標誌更新為目前的品牌。
+* 「關於Workfront Proof」畫面新增更多詳細資料，以加速疑難排解。
+* 更新基礎架構(Electron)，以提升效能和安全性。
 
-For information on downloading and updating the Desktop Proofing Viewer, see [Update the Desktop Proofing Viewer](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
--->
+如需有關下載和更新案頭校訂檢視器的資訊，請參閱[更新案頭校訂檢視器](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)。
 
 ## 公告
 
@@ -711,12 +708,14 @@ For information on downloading and updating the Desktop Proofing Viewer, see [Up
 
 作為報表中的替代專案，您可以使用建議的文字模式代碼（視需要使用`costRates`或`billingRates`）：
 
+    &grave;&grave;
     displayname=Test
     listdelimiter=&lt;br>
     listmethod=nested(costRates)。lists
     type=iterate
     valueexpression=CONCAT({startDate}，&quot; - &quot;，{endDate}，&quot;： &quot;，{value})
     valueformat=HTML
+    &grave;&grave;
 
 若要管理和檢閱費率，請使用專屬的費率管理體驗：
 
