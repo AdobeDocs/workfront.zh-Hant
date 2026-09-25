@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 6f3bc007af7971e8c66fec24930ec12e6c96a915
+source-git-commit: 593889d180b39e3c0cd6409947f0ec29a83bfe74
 workflow-type: tm+mt
-source-wordcount: '14574'
+source-wordcount: '14588'
 ht-degree: 2%
 ---
 # Workfront 指南 {#using}
@@ -268,6 +268,7 @@ ht-degree: 2%
       * {hide-from-toc}[Adobe Workfront有限可用性功能發行活動](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md)
       * {hide-from-toc}[Adobe Workfront有限可用功能的2026年第一季度發行活動](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
       * {hide-from-toc}[Adobe Workfront有限可用功能的2026年第二季發行活動](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
+      * {hide-from-toc}[Adobe Workfront有限可用功能的2026年第四季發行活動](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q4.md)
     * Adobe Workfront Scenario Planner發行活動 {#scenario-planner-release}
       * [Adobe Workfront Scenario Planner發行活動](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
       * [含21.3版的Adobe Workfront Scenario Planner](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
@@ -2283,6 +2284,7 @@ ht-degree: 2%
     * [Adobe Workfront規劃請求：文章索引](planning/requests/requests-article-index.md)
     * [在Adobe Workfront Planning中建立和管理請求表單](planning/requests/create-request-form.md)
     * [提交Adobe Workfront Planning請求以建立記錄](planning/requests/submit-requests.md)
+    * [共用計畫請求](planning/requests/share-requests.md)
     * [在Adobe Workfront Planning中取消發佈請求表單](planning/requests/unpublish-request-form.md)
     * [在Adobe Workfront Planning中新增核准至請求表單](planning/requests/add-approval-to-request-form.md)
     * [在Adobe Workfront Planning中核准請求](planning/requests/approve-request.md)

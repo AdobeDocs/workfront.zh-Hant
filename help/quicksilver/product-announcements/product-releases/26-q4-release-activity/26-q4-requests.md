@@ -4,9 +4,9 @@ description: 2026年第四季要求增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d0feaa93676bdd96343454e419792f13a9eedaa0
+source-git-commit: 19ac0dd5e22782ed5262deb096f24f0d18ccc2f1
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '227'
 ht-degree: 0%
 ---
 # 2026年第四季要求增強功能
@@ -15,21 +15,17 @@ ht-degree: 0%
 
 如需2026年第四季版本週期目前可用的所有變更清單，請參閱[2026年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)。
 
-<!--
-
-## View historical requests from up to 3 years in the new request experience
+## 在新請求體驗中檢視最多3年的歷史請求
 
 >[!NOTE]
 >
->Preview: September 24, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>預覽： 2026年9月24日
+>生產快速發行： 2026年10月14日
+>適用於所有人的生產： 2026年10月15日
 
-You can now access Workfront issue requests submitted up to 3 years before July 2025 from the new request experience. Previously, you only had access to requests submitted after July 2025.
+您現在可以從新的請求體驗存取在2025年7月之前最多3年提交的Workfront問題請求。 之前，您只能存取在2025年7月之後提交的請求。
 
-For information, see [View submitted requests](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md).
-
--->
+如需詳細資訊，請參閱[檢視已提交的請求](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md)。
 
 ## AI表單填寫現在會從以連結參照的記錄中提取資料
 

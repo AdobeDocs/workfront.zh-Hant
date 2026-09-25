@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 41d3ddbe55b225c4a3a969d773378d6156de05f1
+source-git-commit: 19ac0dd5e22782ed5262deb096f24f0d18ccc2f1
 workflow-type: tm+mt
-source-wordcount: '2398'
+source-wordcount: '2785'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 2026年第四季發行活動
@@ -33,63 +33,59 @@ Workspace管理員現在可以控制對個別欄位的存取，允許特定使�
 
 如需詳細資訊，請參閱[共用Workfront規劃欄位](/help/quicksilver/planning/access/share-fields.md)。
 
-<!--
-
-## Share a Planning request
+## 共用計畫請求
 
 >[!NOTE]
 >
->Preview: September 24, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>預覽： 2026年9月24日
+>生產快速發行： 2026年10月14日
+>適用於所有人的生產： 2026年10月15日
 
-You can now share a Planning request with others from the Requests area in the new request experience.
+您現在可以從新請求體驗的「請求」區域，與其他人共用Planning請求。
 
-You can give others one of the following permissions to the request: View, Contribute, or Manage.
+您可以為其他人提供下列其中一項請求許可權：檢視、貢獻或管理。
 
-For information, see [Share Planning records](/help/quicksilver/planning/requests/share-requests.md).
+如需詳細資訊，請參閱[共用計畫記錄](/help/quicksilver/planning/requests/share-requests.md)。
 
-## Set up multi-stage approvals for Planning requests
-
->[!NOTE]
->
->Preview: September 24, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
-
-Workspace administrators can now build single- or multi-stage approval processes for each Planning request form, assigning one or more approvers or teams to every stage and reusing existing approval templates to speed up setup. Requests advance automatically once all required approvers in a stage sign off, and each approver is notified when a request reaches their stage. Requesters and approvers can track which stage a request is in and see which approvals are still pending.
-
-For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
-
-## Enhancements to display logic and field editing in Planning requests forms
+## 設定Planning請求的多階段核准
 
 >[!NOTE]
 >
->Preview: September 24, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>預覽： 2026年9月24日
+>生產快速發行： 2026年10月14日
+>適用於所有人的生產： 2026年10月15日
 
-You can now create advanced display logic in Planning request forms based on connection field values, so forms adapt to what requesters select. All Planning fields, including connection fields, are supported when building this logic.
+Workspace管理員現在可以為每個Planning請求表單建立單階段或多階段核准流程，將一個或多個核准者或團隊指派給每個階段，並重複使用現有核准範本以加快設定。 在階段中簽署所有需要的核准者後，請求會自動前進，當請求到達其階段時，會通知每個核准者。 請求者和核准者可以追蹤請求處於哪個階段，並檢視哪些核准仍在擱置中。
 
-In addition, you can now edit a field's options directly from the request form. For example, for select-field types, you can update the field choices, their order, and their default value from the request form. Previously, this capability was not available.
+如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
-For information, see [Create request form](/help/quicksilver/planning/requests/create-request-form.md).
-
-## Configure capabilities for each access tier per request form
+## 增強在Planning請求表單中顯示邏輯與欄位編輯的功能
 
 >[!NOTE]
 >
->Preview: September 24, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>預覽： 2026年9月24日
+>生產快速發行： 2026年10月14日
+>適用於所有人的生產： 2026年10月15日
 
-Workfront and workspace administrators can now indicate the level of permissions a requester receives on their requests when they configure the request form.
+您現在可以根據連線欄位值，在Planning要求表單中建立進階顯示邏輯，讓表單能適應要求者選取的專案。 建立此邏輯時，支援所有Planning欄位，包括連線欄位。
 
-Requesters can get the following permissions to a request they submitted: View, Contribute, or Manage. Users can comment, edit, share, or view a request, and the capabilities that are not shared with them are dimmed when viewing the sharing box from a request.
+此外，您現在可以直接從請求表單編輯欄位的選項。 例如，對於選取欄位型別，您可以從請求表單更新欄位選擇、順序和預設值。 此功能先前無法使用。
 
-For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+如需詳細資訊，請參閱[建立請求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
--->
+## 為每個存取層級設定每個請求表單的功能
+
+>[!NOTE]
+>
+>預覽： 2026年9月24日
+>生產快速發行： 2026年10月14日
+>適用於所有人的生產： 2026年10月15日
+
+Workfront和工作區管理員現在可以在設定請求表單時，指出請求者在其請求中收到的許可權等級。
+
+請求者可取得其提交之請求的下列許可權：檢視、貢獻或管理。 使用者可以註解、編輯、共用或檢視請求，未與他們共用的功能在檢視請求中的共用方塊時將會變暗。
+
+如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
 ## AI表單填寫現在會從以連結參照的記錄中提取資料
 

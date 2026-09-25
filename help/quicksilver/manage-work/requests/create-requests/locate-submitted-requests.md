@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
+source-git-commit: 3b3d455ded251b06084249cf9df12c1f112f05e9
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1646'
 ht-degree: 2%
 ---
 # 檢視已提交的請求
@@ -36,13 +36,11 @@ ht-degree: 2%
 Remove production and preview references at release
 -->
 
-<!--
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
--->
 
 您可以檢視您或其他人提交的請求，或檢視您已開始但從未完成提交的請求。 未完成的請求會儲存為草稿。
 
@@ -61,7 +59,7 @@ Remove production and preview references at release
   >* 您只能檢視自己的草稿要求。
   >* 在新請求體驗中，提交的請求和草稿可在相同清單中找到。
   >* 在舊版體驗中建立的草稿不會顯示在新的請求體驗中。
-  >* 在新請求體驗中，您只能看到從2025年7月到現在的舊Workfront請求。<!--replace this bullet with this: In the Production environment, in the new request experience, you can see old Workfront requests only from July 2025 to the present day. <span class="preview">In the Preview environment, in the new request experience, you can see old Workfront requests only from 2023 to the present day. You can see all Workfront requests in the legacy experience.</span>-->
+  >* 在生產環境中，在新請求體驗中，您可以找到僅從2025年7月到今天提交的Workfront請求。 <span class="preview">在「預覽」環境中，透過新的請求體驗，您可以鎖定從2023年至今提交的Workfront請求。 您可以在舊版體驗中看到所有Workfront請求。</span>
 
 ## 存取權要求
 

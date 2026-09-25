@@ -30,20 +30,20 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 242405ef348e288ae2ac06eaef6eb0609b277994
+source-git-commit: 3b3d455ded251b06084249cf9df12c1f112f05e9
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 2%
+source-wordcount: '1171'
+ht-degree: 1%
 ---
 # 在Adobe Workfront Planning中新增核准至請求表單
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -104,12 +104,81 @@ ht-degree: 2%
 
 ## 將核准新增至請求表單的考量事項
 
-* 您可以將一個或多個核准者新增至請求表單。 您可以將使用者和團隊新增為核准者。
-* 您可以在「核准者」與「已核准日期」欄位中提交請求表單，顯示所建立記錄的核准資訊。 如需詳細資訊，請參閱[建立欄位](/help/quicksilver/planning/fields/create-fields.md)。
-* 將多位核准者新增至請求表單時，所有核准者都必須先接受請求，才能在Workfront Planning中建立記錄。
-* 如果所有核准者都核准請求，系統將會針對與請求表單相關聯的記錄型別建立記錄。
-* 如果至少有一位核准者拒絕請求，而所有其他核准者皆已核准請求，則會在Workfront的「請求」區域中建立請求，但不會針對與請求表單相關聯的記錄型別建立記錄。
-* 將核准新增至請求表單為選用。 如果請求表單未與核准相關聯，Workfront Planning會在提交請求時立即建立記錄。
+* 您可以將一個或多個核准者（使用者或團隊）新增到請求表單或核准規則。
+* 核准規則會根據提交請求中的欄位值來路由請求（例如，「行銷活動型別」欄位中不同值的不同核准者）。
+* 您可以透過「核准者」和「核准日期」欄位，顯示已建立記錄的核准資訊。 請參閱建立欄位。
+* 如果所有核准者皆核准，系統便會針對與請求表單相關聯的記錄型別建立記錄。
+* 如果至少有一位核准者拒絕，系統不會為記錄型別建立記錄；而是將請求保留/留在Workfront的請求區域中。 （這點出現在兩個區段中，措辭稍有不同 — 此處合併為一個陳述式。）
+* 當需要多個核准者時，他們必須在請求被核准或拒絕之前做出決定 — 除非啟用僅需要一個決定選項。
+* 如果團隊設定為核准者，則只需從該團隊的一名成員中做出一個決定。
+* 核准是選擇性的 — 如果請求表單未附加核准，Workfront Planning會在提交時立即建立記錄。
+* <span class="preview">您可以新增一或多個階段至核准。</span>
+
+## 將核准規則新增至請求表單
+
+核准規則會根據已提交請求中的欄位值來定義核准流程。
+
+例如，如果請求表單有「Campaign type」欄位，則可建立規則，當欄位值為「Digital」時傳送請求給一個人，當值為「Print」時傳送請求給另一個人。
+
+若要設定請求表單的核准規則：
+
+1. 開始建立記錄型別的要求表單，如文章[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)中所述。
+1. 當要求表單開啟時，按一下&#x200B;**設定**。
+
+   **設定**&#x200B;索引標籤開啟。
+
+1. 若要開始設定核准規則，請按一下左側面板中的&#x200B;**核准** ![核准圖示](assets/approvals-icon-on-form.png)。
+
+1. （選擇性）如果您想要設定預設核准程式，請在&#x200B;**預設核准規則**&#x200B;區域的&#x200B;**核准者**&#x200B;欄位中新增至少一位使用者或團隊，然後按一下&#x200B;**僅需要一個決定**&#x200B;核取方塊（如果您想要在任何一位預設核准者核准記錄後建立記錄）。
+
+   ![預設核准規則區域](assets/default-approvers.png)
+
+1. （選用）開始新增核准規則。 針對每個自訂核准規則，執行下列動作：
+
+   1. 按一下&#x200B;**新增核准規則**。
+   1. 按一下預留位置標題&#x200B;**未命名的核准規則**，然後輸入核准規則的名稱。
+   1. 按一下&#x200B;**選取欄位**&#x200B;並選取啟用規則的欄位。
+   1. 選取規則的運運算元。 運運算元會依欄位型別而異。
+   1. 如果選取的運運算元需要值，請按一下加號圖示並新增一或多個值。
+   1. （選擇性）按一下&#x200B;**新增條件**&#x200B;以新增更多條件，並透過步驟C-E中設定其他條件來透過&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;陳述式連線這些條件。
+   1. 在核准規則的&#x200B;**動作**&#x200B;區域中，在&#x200B;**核准者**&#x200B;欄位中，新增當符合條件時要設定為核准者的至少一個使用者或團隊。
+   1. （條件式與選擇性）如果您想要在任何核准者核准記錄後建立記錄，請核取&#x200B;**僅需要一個決定**&#x200B;核取方塊。 否則，在接受或拒絕請求之前，所有核准者都必須決定核准。
+
+   >[!NOTE]
+   >
+   >   新增核准規則時，請考量下列事項：
+   >
+   >   * 若僅設定預設規則，則會套用至提交的每個請求。
+   >   * 如果符合自訂規則，則預設不會套用至請求核准工作流程。 只有相符的自訂規則才適用於核准，而預設規則會被忽略。
+   >   * 如果符合多個自訂規則，則會套用順序中的第一個自訂規則。 在此情況下，預設核准不適用（如果有的話）。
+
+1. <span class="preview">（選擇性）按一下&#x200B;**新增階段**&#x200B;以新增另一個階段至核准。</span>
+
+1. 按一下[儲存]儲存核准規則。**&#x200B;**
+
+1. <span class="preview">（選擇性）若要新增更多階段至核准，請執行下列動作：</span>
+
+   1. <span class="preview">按一下&#x200B;**新增階段**。</span>
+
+      <span class="preview">出現&#x200B;**多階段核准**&#x200B;方塊。 如果您已建立預設核准動作，這些核准者會自動新增至階段1。</span>
+
+   1. <span class="preview">在&#x200B;**新增人員或團隊**&#x200B;欄位中，新增至少一個要設定為階段核准者的使用者或團隊。</span>
+   1. <span class="preview"> （條件式與選擇性）如果您希望記錄在任何一位核准者核准後進入下一個階段，請核取&#x200B;**僅需要一個決定**&#x200B;核取方塊。 否則，在請求移至下一個階段之前，所有核准者都必須決定核准。</span>
+   1. <span class="preview">按一下&#x200B;**新增階段**&#x200B;並從步驟B重複以新增更多階段至核准。</span>
+
+      <span class="preview">當存在兩個或多個階段時，您可以按一下&#x200B;**拖曳**&#x200B;圖示![拖曳圖示](assets/drag-icon.png)以依序拖放它們。</span>
+
+      <span class="preview">按一下&#x200B;**刪除此階段**&#x200B;從核准中刪除階段，或按一下核准者旁的&#x200B;**刪除**&#x200B;圖示![刪除圖示](assets/delete.png)，從階段核准者清單中刪除使用者或團隊。</span>
+
+      ![多階段核准方塊](assets/planning-request-multi-stage-approval-box.png)
+
+   1. <span class="preview">當您完成建立核准工作流程時，請按一下&#x200B;**儲存**。</span>
+
+      <span class="preview">您可以從[核准]頁面編輯或刪除多階段核准。</span>
+
+1. （選擇性）如果您之前從未共用過請求表單，請按一下&#x200B;**發佈**。
+
+
 
 <!--
 
@@ -149,86 +218,4 @@ ht-degree: 2%
 
    For information about approving requests, see [Approve a request](/help/quicksilver/planning/requests/approve-request.md).
 
--->
-
-## 將核准規則新增至請求表單
-
-核准規則會根據已提交請求中的欄位值來定義核准流程。
-
-例如，如果請求表單有「Campaign type」欄位，則可建立規則，當欄位值為「Digital」時傳送請求給一個人，當值為「Print」時傳送請求給另一個人。
-
-新增核准規則時，請考量下列事項：
-
-* 您可以將一或多個核准者新增至核准規則。
-* 如果至少有一位核准者拒絕請求，則請求會遭到拒絕，且不會建立記錄。 此請求會保留在Workfront的請求區域中。
-* 如果您新增多個核准者，但未啟用「只有一個決定是必要的」選項，則所有核准者必須在核准或拒絕請求之前做出決定。
-* 如果團隊設定為核准者，則只需團隊的一名成員做出一個決定。
-
-若要設定請求表單的核准規則：
-
-1. 開始建立記錄型別的要求表單，如文章[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)中所述。
-1. 當要求表單開啟時，按一下&#x200B;**設定**。
-
-   **設定**&#x200B;索引標籤開啟。
-
-1. 若要開始設定核准規則，請按一下左側面板中的&#x200B;**核准** ![核准圖示](assets/approvals-icon-on-form.png)。
-
-1. （選擇性）如果您想要設定預設核准程式，請在&#x200B;**預設核准規則**&#x200B;區域的&#x200B;**核准者**&#x200B;欄位中新增至少一位使用者或團隊，然後按一下&#x200B;**僅需要一個決定**&#x200B;核取方塊（如果您想要在任何一位預設核准者核准記錄後建立記錄）。
-
-   ![預設核准規則區域](assets/default-approvers.png)
-
-1. （選用）開始新增核准規則。 針對每個自訂核准規則，執行下列動作：
-
-   1. 按一下&#x200B;**新增核准規則**。
-   1. 按一下預留位置標題&#x200B;**未命名的核准規則**，然後輸入核准規則的名稱。
-   1. 按一下&#x200B;**選取欄位**&#x200B;並選取啟用規則的欄位。
-   1. 選取規則的運運算元。 運運算元會依欄位型別而異。
-   1. 如果選取的運運算元需要值，請按一下加號圖示並新增一或多個值。
-   1. （選擇性）按一下&#x200B;**新增條件**&#x200B;以新增更多條件，並透過步驟C-E中設定其他條件來透過&#x200B;**And**&#x200B;或&#x200B;**Or**&#x200B;陳述式連線這些條件。
-   1. 在核准規則的&#x200B;**動作**&#x200B;區域中，在&#x200B;**核准者**&#x200B;欄位中，新增當符合條件時要設定為核准者的至少一個使用者或團隊。
-   1. （條件式與選擇性）如果您想要在任何核准者核准記錄後建立記錄，請核取&#x200B;**僅需要一個決定**&#x200B;核取方塊。 否則，在接受或拒絕請求之前，所有核准者都必須決定核准。
-
-   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval, and follow step 5 above.</span>-->
-
-   >[!NOTE]
-   >
-   >   新增核准規則時，請考量下列事項：
-   >
-   >   * 若僅設定預設規則，則會套用至提交的每個請求。
-   >   * 如果符合自訂規則，則預設不會套用至請求核准工作流程。 只有相符的自訂規則才適用於核准，而預設規則會被忽略。
-   >   * 如果符合多個自訂規則，則會套用順序中的第一個自訂規則。 在此情況下，預設核准不適用（如果有的話）。
-
-1. 按一下[儲存]儲存核准規則。**&#x200B;**
-1. （選擇性）如果您之前從未共用過請求表單，請按一下&#x200B;**發佈**。
-
-
-
-
-<!--
-
-MOVE THIS SECTION UNDER LINE 172 FOR PREVIEW RELEASE
-
-<div class="preview">
-
-1. (Optional) To add more stages to the approval, do the following:
-
-   1. Click **Add stage**.
-   
-      The **Multi-stage approval** box appears. If you already created a default approval action, those approvers are automatically added to Stage 1.
-
-   1. In the **Add people or teams** field, add at least one user or team to be set as the approver for the stage.
-   1. (Conditional and optional) If you want the record to advance to the next stage after any one of the approvers has approved it, check the **Only one decision is required** checkbox. Otherwise, all approvers must decide on the approval before the request moves to the next stage.
-   1. Click **Add stage** and repeat from step B to add more stages to the approval.
-
-      When two or more stages exist, you can click the **Drag** icon ![Drag icon](assets/drag-icon.png) to drag and drop them in order.
-
-      Click **Delete this stage** to delete a stage from the approval, or click the **Delete** icon ![Delete icon](assets/delete.png) next to an approver to delete the user or team from the list of approvers in a stage.
-
-      ![Multi-stage approval box](assets/planning-request-multi-stage-approval-box.png)
-
-   1. When you are finished building the approval workflow, click **Save**.
-
-      You can edit or delete the multi-stage approval from the Approvals page.
-
-</div>
 -->
