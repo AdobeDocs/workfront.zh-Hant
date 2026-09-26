@@ -8,22 +8,29 @@ feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/ZXwo18-zztYsq-gBU4VabsqhNapmtheAnSM5He0K2u0
+TQID: 'https://experienceleague.adobe.com/ZXwo18-zztYsq-gBU4VabsqhNapmtheAnSM5He0K2u0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: 385
+source-wordcount: '385'
 ht-degree: 0%
-
 ---
-
 # 檔案核准的可用功能
 
 Workfront中目前有3種不同的系統可供檔案核准：
@@ -73,7 +80,7 @@ Workfront中目前有3種不同的系統可供檔案核准：
 
 * 首頁區域中的我的核准Widget中的存取檢閱和核准請求
 
-* 使用「內容檢閱者」可自動進行品牌法規遵循檢閱。 如需詳細資訊，請參閱[開始使用Workfront內容檢閱者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)。
+* 使用AI檢閱者來自動進行品牌法規遵循檢閱。 如需詳細資訊，請參閱[開始使用Workfront AI檢閱者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)。
 
 * 使用Frame.io檢視器檢閱及核准檔案。 如需詳細資訊，請參閱[開始進行統一檢閱和核准](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)。
 

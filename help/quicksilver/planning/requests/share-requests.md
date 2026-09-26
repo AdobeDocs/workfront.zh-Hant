@@ -5,9 +5,23 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '592'
 ht-degree: 4%
 ---
 # 共用計畫請求
@@ -86,6 +100,7 @@ ht-degree: 4%
 
 * 不同的人員和團隊可針對相同請求保留不同的存取層級。
 * 許可權可透過多個實體指派。 如果使用者擁有請求的Contribute許可權，但其群組或工作角色擁有檢視許可權，則他們仍會保留Contribute的最高許可權層級。
+* 請求從工作區和記錄型別繼承許可權。 您無法移除或編輯Planning要求的繼承許可權。
 
 ## 共用請求
 
@@ -110,7 +125,14 @@ ht-degree: 4%
 1. （選擇性）對於每個許可權等級，按一下精細的許可權圖示，然後選取或取消選取任何精細的許可權，例如&#x200B;**編輯**、**註解**、**共用**&#x200B;或&#x200B;**刪除**。
 
    ![請求的精細許可權](assets/granular-permissions-on-requests.png)
+1. （可選）展開「繼承許可權」行以檢視誰從工作區和記錄型別獲得許可權。
+
+   >[!TIP]
+   >
+   >您無法移除或編輯Planning要求的繼承許可權。
+
 1. 按一下「**儲存**」。
+
 
    系統會與您選取的實體共用請求。
 

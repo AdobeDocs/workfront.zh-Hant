@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 593889d180b39e3c0cd6409947f0ec29a83bfe74
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
 source-wordcount: '14588'
 ht-degree: 2%
@@ -1941,13 +1941,13 @@ ht-degree: 2%
     * [整合式檔案核准：文章索引](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
     * [檔案核准的可用功能](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
     * [檔案決定狀態概觀](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-    * [開始使用Workfront內容檢閱者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
+    * [開始使用Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
     * [Adobe雲端儲存空間概覽](/help/quicksilver/review-and-approve-work/esm-overview.md)
     * [Adobe雲端儲存模式的物件許可權和存取層級總覽](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
     * [從舊版檔案核准移至整合式核准](/help/quicksilver/review-and-approve-work/move-to-unified-approvals.md)
     * 設定及管理資產和檔案核准 {#manage-asset-review-and-approval}
       * [設定及管理統一核准：文章索引](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
-      * [建立並管理內容檢閱者的品牌](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
+      * [為AI檢閱者建立和管理品牌](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
       * [建立檔案稽核或核准請求](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
       * [將其他檢閱者或核准者新增至資產或檔案](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
       * [從資產或檔案中移除核准者或稽核者](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
@@ -1958,7 +1958,7 @@ ht-degree: 2%
       * [建立報表控制面板以供檢閱和核准](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
     * 檢閱和核准資產和檔案 {#review-and-approve-documents}
       * [檢閱和核准檔案：文章索引](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
-      * [檢視內容檢閱者評分和意見反應](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
+      * [檢視AI檢閱者評分和意見反應](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
       * [檢閱檔案](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
       * [核准檔案](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
       * [在Frame.io檢視器中檢閱和核准檔案](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)

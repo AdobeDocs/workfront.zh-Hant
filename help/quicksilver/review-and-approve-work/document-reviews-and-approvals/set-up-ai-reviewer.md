@@ -10,26 +10,35 @@ hide: true
 exl-id: 4673049e-119e-4315-95f0-f10d8b286856
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/sfM3OtA-DVqywr3Up8VGjcycLRs5WtF22dcpXzRlnvQ
+TQID: 'https://experienceleague.adobe.com/sfM3OtA-DVqywr3Up8VGjcycLRs5WtF22dcpXzRlnvQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: 290
+source-wordcount: '289'
 ht-degree: 8%
-
 ---
-
 # 建立AI檢閱者
 
 >[!NOTE]
@@ -68,7 +77,7 @@ ht-degree: 8%
 
 ## 先決條件
 
-開始之前，您必須在Workfront中設定影像品牌指導方針。 如需詳細資訊，請參閱[建立和管理內容檢閱者的品牌](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)。
+開始之前，您必須在Workfront中設定影像品牌指導方針。 如需詳細資訊，請參閱[為AI檢閱者建立和管理品牌](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)。
 
 ## 新增AI檢閱者
 
@@ -76,11 +85,11 @@ ht-degree: 8%
 >
 >AI檢閱者並非設計成檢閱和核准工作流程中的決策者。 它只會提供分數和建議，以讓資產符合指定的品牌需求。
 
-若要新增內容檢閱者：
+新增AI檢閱者：
 
 {{step-1-to-setup}}
 
-1. 在左側面板中，移至&#x200B;**檢閱和核准** > **AI檢閱者**。
+1. 在左側面板中，移至&#x200B;**檢閱與核准** > **檢閱者**。
 1. 按一下&#x200B;**新增**。
 1. 為檢閱者命名。
 1. 選取&#x200B;**品牌**。

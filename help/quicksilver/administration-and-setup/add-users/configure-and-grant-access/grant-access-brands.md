@@ -8,13 +8,20 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 727efbd6-79b4-42c5-bfa2-e5350f30ff23
-source-git-commit: 3e76f4a798a55a674a5ada2661c4b6bbb55195f2
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '722'
 ht-degree: 4%
-
 ---
-
 # 授予品牌許可權的存取權
 
 使用者新增至使用者群組時，會獲得Adobe GenStudio系統管理員的品牌建立、編輯和發佈許可權。
@@ -55,11 +62,11 @@ ht-degree: 4%
 * 您的Workfront執行個體必須已啟用統一核准。
 
 * 您的組織必須有GenStudio Foundation。
-   * Workfront中的內容檢閱者提供GenStudio Foundation中可用的功能，以進行資產檢閱和核准工作流程。 您不需要直接存取GenStudio Foundation即可完成工作。 您透過「內容檢閱者」存取GenStudio Foundation功能時，需遵守Workfront合約的條款。
+  * Workfront中的AI檢閱者提供GenStudio Foundation中可用於資產檢閱和核准工作流程的功能。 您不需要直接存取GenStudio Foundation即可完成工作。 您透過AI Reviewer存取GenStudio Foundation功能須遵守Workfront合約的條款。
 * Adobe必須有已簽署的Adobe Gen AI合約檔案。
 如需簽署合約的詳細資訊，請參閱[簽署Adobe Gen AI合約](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)。
 
-## 1.在Admin Console中設定品牌許可權
+## &#x200B;1. 在Admin Console中設定品牌許可權
 
 ### 步驟1：建立使用者群組
 
@@ -123,7 +130,7 @@ ht-degree: 4%
 
 群組使用者現在擁有在Workfront中建立、編輯和發佈品牌資產的許可權。
 
-## 2.在Workfront存取層級中授予品牌存取權
+## &#x200B;2. 在Workfront存取層級中授與品牌存取權
 
 您必須先完成上一節中的所有步驟，才能在Workfront存取層級中授與個別使用者對Brands的存取權。
 
@@ -147,4 +154,4 @@ ht-degree: 4%
    ![允許存取品牌設定](assets/access-for-brands.png)
 1. 按一下「**儲存**」。
 
-設定「品牌」後，您可以建立「內容檢閱者」，在檢閱和核准工作流程中根據品牌指引檢閱資產。 如需詳細資訊，請參閱[設定AI共同作業人員](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)。
+設定Brands後，您可以建立AI檢閱者，以根據檢閱和核准工作流程中的品牌准則來檢閱資產。 如需詳細資訊，請參閱[設定AI共同作業人員](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)。

@@ -1,36 +1,44 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 建立並管理內容檢閱者的品牌
-description: 建立並管理內容檢閱者的品牌
+title: 為AI檢閱者建立和管理品牌
+description: 為AI檢閱者建立和管理品牌
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/ezurCOB6dbk6JPL0eY33C9nR8lXVLMHl-SUTfAbVeTg
+TQID: 'https://experienceleague.adobe.com/ezurCOB6dbk6JPL0eY33C9nR8lXVLMHl-SUTfAbVeTg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d2576b0e5abc0c4c46de740f1ea510452351a959
+    internal-label: Administration
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: 627
+source-wordcount: '627'
 ht-degree: 3%
-
 ---
+# 為AI檢閱者建立和管理品牌
 
-# 建立並管理內容檢閱者的品牌
-
-內容檢閱者在檢閱程式期間使用品牌指南來評估內容。 您可以上傳包含品牌方針的PDF檔案或手動輸入品牌元素，在Workfront中建立品牌。
+AI稽核者在稽核程式期間使用品牌指南來評估內容。 您可以上傳包含品牌方針的PDF檔案或手動輸入品牌元素，在Workfront中建立品牌。
 
 ## 存取權要求
 
@@ -69,7 +77,7 @@ ht-degree: 3%
 * 您的Workfront執行個體必須已啟用統一核准。
 
 * 您的組織必須有GenStudio Foundation。
-  * Workfront中的內容檢閱者提供GenStudio Foundation中可用的功能，以進行資產檢閱和核准工作流程。 您不需要直接存取GenStudio Foundation即可完成工作。 您透過「內容檢閱者」存取GenStudio Foundation功能時，需遵守Workfront合約的條款。
+  * Workfront中的AI檢閱者提供GenStudio Foundation中可用於資產檢閱和核准工作流程的功能。 您不需要直接存取GenStudio Foundation即可完成工作。 您透過AI Reviewer存取GenStudio Foundation功能須遵守Workfront合約的條款。
 * Adobe必須有已簽署的Adobe Gen AI合約檔案。
 如需簽署合約的詳細資訊，請參閱[簽署Adobe Gen AI合約](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)。
 
@@ -96,7 +104,7 @@ ht-degree: 3%
    >
    >准則是使用您的檔案和產生式AI技術產生的，可能不準確。 請檢閱擷取的准則，找出缺少或不正確的詳細資料，並在發佈此品牌之前加以編輯。
 
-1. 完成時，按一下&#x200B;**發佈**，讓內容檢閱者可以使用該品牌。
+1. 完成時，按一下&#x200B;**發佈**，讓AI檢閱者可以使用品牌。
 
 ## 手動建立品牌
 
@@ -138,14 +146,14 @@ ht-degree: 3%
    ![手動新增品牌元素](assets/brand-elements.png)
 
 
-1. 完成時，按一下&#x200B;**發佈**，讓內容檢閱者可以使用該品牌。
+1. 完成時，按一下&#x200B;**發佈**，讓AI檢閱者可以使用品牌。
 
 
 ## 撰寫品牌指引的最佳作法
 
-在撰寫准則之前，請先檢閱[內容檢閱者評估的內容](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md#what-content-reviewer-evaluates)中的影像和品牌聲音准則型別。 這些評估區域以外的准則將不會評分。
+在撰寫准則之前，請檢閱[&#x200B; AI檢閱者評估的內容](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md#what-ai-reviewer-evaluates)中的影像和品牌語音准則型別。 這些評估區域以外的准則將不會評分。
 
-*  撰寫描述可測量標準的品牌指導方針。 「內容檢閱者」會依字面上的意義評估內容，因此客觀規則會產生比主觀規則更一致的評分。
+*  撰寫描述可測量標準的品牌指導方針。 AI檢閱者會逐字面上的評估內容，因此客觀規則會產生比主觀規則更一致的分數。
 
 * 在您的指引中尋找「避免」、「保留」或「確定」等字詞。 這些通常表示您可以收緊的規則。 以文字、格式或限制的特定清單取代Vague指令。 例如，將「避免常見的滑雪陳詞濫調」取代為「請勿使用『gnar』、『pow』或『shred』」。
 

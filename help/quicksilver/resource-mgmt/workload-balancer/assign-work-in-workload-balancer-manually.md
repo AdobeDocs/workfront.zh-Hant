@@ -10,25 +10,29 @@ exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
 TQID: https://experienceleague.adobe.com/lLNKgsayPJ5WYqv-QO5GFY57FQGg6kMeVTSWOq3htIc
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
+    internal-label: Administration
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: 751
+source-wordcount: '751'
 ht-degree: 3%
-
 ---
-
 # 使用工作負載平衡器手動指派工作
 
-您可以使用Adobe Workfront工作負載平衡器手動指派工作專案給使用者和任務共同作業人員。
+您可以使用Adobe Workfront工作負載平衡器手動指派工作專案給使用者和工作代理。
 
 如需使用工作負載平衡器指派工作給使用者的一般資訊，請參閱在工作負載平衡器[&#128279;](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)中指派工作的總覽。
 
