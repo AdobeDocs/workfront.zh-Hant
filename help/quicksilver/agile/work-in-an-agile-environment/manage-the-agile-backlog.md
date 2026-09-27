@@ -8,25 +8,33 @@ feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/JjHAd2LRZNEfB-tWKHrMvT5DOroHf1jDJmLPPj-4-6M
+TQID: 'https://experienceleague.adobe.com/JjHAd2LRZNEfB-tWKHrMvT5DOroHf1jDJmLPPj-4-6M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1285
-ht-degree: 1%
-
+source-wordcount: '1340'
+ht-degree: 2%
 ---
-
 # 管理敏捷待處理專案
 
 以下工作專案可指派給敏捷團隊，並根據團隊使用的敏捷方法以該團隊的待辦專案新增到該團隊的待辦專案中：
@@ -195,7 +203,7 @@ ht-degree: 1%
 1. （選用）刪除任何現有的受指派人。
 1. 按一下&#x200B;**[!UICONTROL 新增被指定者]**。
 1. 開始輸入您要指派給任務或問題的敏捷團隊名稱，然後按一下出現在下拉式清單中的團隊名稱。
-1. 按一下&#x200B;**[!UICONTROL 儲存變更]**。
+1. 按一下「**[!UICONTROL 儲存變更]**」。
 團隊待處理專案現在提供任務或問題。
 
 ## 將劇本移入或移出待處理專案

@@ -8,26 +8,33 @@ feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/v5hWK5R5IrLAzdg-lKtzmw-xyimiDCCCbVlCK7sBtyY
+TQID: 'https://experienceleague.adobe.com/v5hWK5R5IrLAzdg-lKtzmw-xyimiDCCCbVlCK7sBtyY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 9e23143e-3f4f-5cbb-821d-095a63bee200
+    internal-label: Strategic Planning
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1422
+source-wordcount: '1450'
 ht-degree: 1%
-
 ---
-
 # 建立方案
 
 <!-- Audited: 05/2026-->
@@ -39,7 +46,7 @@ ht-degree: 1%
 -->
 
 方案代表共用跨專案界限的共同策略、目標或目標的專案集合。
-計畫是投資組合的細分，它們不能存在於投資組合之外。計畫通常與同一投資組合中的其他計畫共用相同的資源。
+計畫是投資組合的細分，它們不能存在於投資組合之外。 計畫通常與同一投資組合中的其他計畫共用相同的資源。
 
 當您的產品組合變得太大時，您可以建立計畫來組織它們。
 
@@ -121,10 +128,10 @@ Old:
 
 * 以下列方式從Workfront Planning建立方案：
 
-   * 當您從Workfront Planning中的記錄型別連結它們時。
+  * 當您從Workfront Planning中的記錄型別連結它們時。
 
   如需透過將程式新增至記錄來建立程式的資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)一文中的「連線時建立記錄」一節。
-   * 使用Workfront Planning自動化。
+  * 使用Workfront Planning自動化。
 
   如需詳細資訊，請參閱[使用Adobe Workfront Planning記錄自動化建立物件](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)。
 
@@ -140,21 +147,21 @@ Old:
 
    * 從[!UICONTROL 程式]區域建立程式：
 
-      1. 按一下&#x200B;[!DNL **主功能表**]![主功能表](assets/lines-main-menu.png)中的&#x200B;**[!UICONTROL 程式]**。
-      1. 按一下&#x200B;**[!UICONTROL 新增程式]**。
-      1. 在顯示的方塊中，於&#x200B;**[!UICONTROL 選取Portfolio]**&#x200B;欄位中輸入現有Portfolio的名稱。
-      1. 在&#x200B;**[!UICONTROL 名稱]**&#x200B;欄位中輸入新程式的名稱。
-      1. 按一下「**[!UICONTROL 儲存]**」。
+     1. 按一下&#x200B;[!DNL **主功能表**]![主功能表](assets/lines-main-menu.png)中的&#x200B;**[!UICONTROL 程式]**。
+     1. 按一下&#x200B;**[!UICONTROL 新增程式]**。
+     1. 在顯示的方塊中，於&#x200B;**[!UICONTROL 選取Portfolio]**&#x200B;欄位中輸入現有Portfolio的名稱。
+     1. 在&#x200B;**[!UICONTROL 名稱]**&#x200B;欄位中輸入新程式的名稱。
+     1. 按一下「**[!UICONTROL 儲存]**」。
    * 從[!UICONTROL 投資組合]區域建立方案：
 
-      1. 按一下&#x200B;[!DNL **主功能表**]![主功能表](assets/lines-main-menu.png)中的&#x200B;**[!UICONTROL 投資組合]**，然後開啟投資組合。
-      1. 在左側面板中，按一下&#x200B;**[!UICONTROL 程式]**。
-      1. 按一下&#x200B;**[!UICONTROL 新程式]**&#x200B;下拉式功能表，然後&#x200B;**[!UICONTROL 新程式]**。
+     1. 按一下&#x200B;[!DNL **主功能表**]![主功能表](assets/lines-main-menu.png)中的&#x200B;**[!UICONTROL 投資組合]**，然後開啟投資組合。
+     1. 在左側面板中，按一下&#x200B;**[!UICONTROL 程式]**。
+     1. 按一下&#x200B;**[!UICONTROL 新程式]**&#x200B;下拉式功能表，然後&#x200B;**[!UICONTROL 新程式]**。
    * 新增現有程式：
-      1. 按一下&#x200B;[!DNL **主功能表**]![主功能表](assets/lines-main-menu.png)中的&#x200B;**[!UICONTROL 投資組合]**，然後開啟投資組合。
-      1. 在左側面板中，按一下&#x200B;**[!UICONTROL 程式]**。
-      1. 按一下&#x200B;**[!UICONTROL 新程式]**&#x200B;下拉式功能表，然後按一下&#x200B;**[!UICONTROL 現有程式]**。
-      1. 開始輸入現有方案的名稱，或按一下下拉式選單，然後從清單中選取它。
+     1. 按一下&#x200B;[!DNL **主功能表**]![主功能表](assets/lines-main-menu.png)中的&#x200B;**[!UICONTROL 投資組合]**，然後開啟投資組合。
+     1. 在左側面板中，按一下&#x200B;**[!UICONTROL 程式]**。
+     1. 按一下&#x200B;**[!UICONTROL 新程式]**&#x200B;下拉式功能表，然後按一下&#x200B;**[!UICONTROL 現有程式]**。
+     1. 開始輸入現有方案的名稱，或按一下下拉式選單，然後從清單中選取它。
 
      >[!NOTE]
      >

@@ -2,13 +2,14 @@
 title: 新增顯示邏輯和略過邏輯至自訂表單
 description: 新增顯示邏輯和略過邏輯至自訂表單
 draft: Probably
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1491'
 ht-degree: 0%
-
 ---
-
 # 新增顯示邏輯和略過邏輯至自訂表單
 
 您可以使用智慧型規則來建立動態的自訂表單，並使其與填寫該表單的使用者更相關。 當使用者以特定方式回應表單上的多選欄位時，智慧規則會根據該回應顯示您接下來想要他們看到的內容。

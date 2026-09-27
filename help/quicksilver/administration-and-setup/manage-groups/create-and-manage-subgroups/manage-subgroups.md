@@ -9,22 +9,28 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
-TQID: https://experienceleague.adobe.com/Ng0xKCrHg--5s3MdiLEOJfjoao9WND2uFqS5VI9LGng
+TQID: 'https://experienceleague.adobe.com/Ng0xKCrHg--5s3MdiLEOJfjoao9WND2uFqS5VI9LGng'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1360
+source-wordcount: '1413'
 ht-degree: 1%
-
 ---
-
 # 管理子群組
 
 身為子群組的群組管理員，您可以建立、移動、檢視、編輯、複製、重新命名、匯出及刪除子群組。
@@ -188,8 +194,8 @@ ht-degree: 1%
 
 >[!TIP]
 >
->當您停用下有子群組的群組時，這些子群組也會變成非使用中。如果您希望其中一個處於作用中狀態，可以使用這些指示將其從父群組中移除，然後重新啟用它。
->如需停用及重新啟動群組的指示，請參閱[停用或重新啟動群組](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)。
+>當您停用下有子群組的群組時，這些子群組也會變成非使用中。 如果您希望其中一個處於作用中狀態，可以使用這些指示將其從父群組中移除，然後重新啟用它。
+>如需停用及重新啟動群組的說明，請參閱[停用或重新啟動群組](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md)。
 
 {{step-1-to-setup}}
 

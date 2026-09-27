@@ -5,23 +5,26 @@ description: 瞭解使用AI助理的最佳實務，並檢視提示範例清單�
 author: Jenny
 feature: Get Started with Workfront
 exl-id: 34a60482-e060-49f9-bbaf-8aed85845e26
-TQID: https://experienceleague.adobe.com/FTfet4al9-gwRXHYFzVlC3qrDfW8HUJA22sHN00eKOM
+TQID: 'https://experienceleague.adobe.com/FTfet4al9-gwRXHYFzVlC3qrDfW8HUJA22sHN00eKOM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 771
+source-wordcount: '771'
 ht-degree: 4%
-
 ---
-
 # AI助理提示和最佳實務
 
 >[!IMPORTANT]
 >
->從2026年9月開始，AI Assistant正在轉換成CX Co-worker，這是一個可輕鬆完成工作的對話式介面。 如需CX Co-worker的相關資訊，請參閱[&#x200B; CX Co-worker概述](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
+>從2026年9月開始，AI Assistant即將轉換成CX Coworker，這是一個讓使用者輕鬆完成工作的對話式介面。 如需CX Coworker的相關資訊，請參閱[CX Coworker概觀](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
 
 Workfront的AI Assistant是一款功能強大的工具，可協助您提供關於帳戶資料和特定物件型別的有用資訊，以更有效完成工作。
 

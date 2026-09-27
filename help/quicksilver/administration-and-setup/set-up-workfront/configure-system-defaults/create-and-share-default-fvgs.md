@@ -8,24 +8,30 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
-TQID: https://experienceleague.adobe.com/bgBICul4K2MFbMipuKZxp6i2vncdpV7RpFYtUyTFY7w
+TQID: 'https://experienceleague.adobe.com/bgBICul4K2MFbMipuKZxp6i2vncdpV7RpFYtUyTFY7w'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 814
+source-wordcount: '814'
 ht-degree: 2%
-
 ---
-
 # 建立、編輯和共用系統範圍的篩選器、檢視和群組
 
 <!-- Audited: 5/2025 -->
@@ -86,7 +92,7 @@ ht-degree: 2%
    如需可用選項的相關資訊，請參閱下列文章之一：
 
    * [篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-   * 在[!UICONTROL Adobe Workfront][&#128279;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)中的檢視總覽
+   * 在[!UICONTROL Adobe Workfront]&#x200B;[&#128279;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)中的檢視總覽
    * [[!UICONTROL Adobe Workfront]中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
 1. 按一下左下角附近的&#x200B;**[!UICONTROL 儲存]**。

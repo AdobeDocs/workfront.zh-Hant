@@ -7,20 +7,27 @@ description: 身為業務經理，您可以使用Adobe Workfront情境規劃工�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: df2b895b-8bc1-4a55-b0d7-8a06db420315
-TQID: https://experienceleague.adobe.com/FvNrULxi5wJwH6C6Rok0gnIriccNiYRXx150Ea-9-HI
+TQID: 'https://experienceleague.adobe.com/FvNrULxi5wJwH6C6Rok0gnIriccNiYRXx150Ea-9-HI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Customer experience
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1167
+source-wordcount: '1167'
 ht-degree: 0%
-
 ---
-
 # [!DNL Scenario Planner]中的計畫總覽
 
 身為業務經理，您可以使用[!DNL Adobe Workfront Scenario Planner]概述組織的一年、三年或五年計畫，藉此概述組織的近期與長遠未來策略。
@@ -37,7 +44,7 @@ ht-degree: 0%
 
 您可以識別每個高階組織結果，並將其新增為計畫至[!DNL Workfront Scenario Planner]。 計畫是[!DNL Scenario Planner]中最大的工作專案。 為了更方便達成計畫，您可以將計劃分成數個方案，以指出個別組織單位需要採取哪些步驟才能完成計畫。
 
-然後，您可以將方案與實際專案連線起來，以指出實際完成計畫時的工作因素。 本文提供計畫的一般資訊。 如需方案的相關資訊，請參閱 [!DNL Scenario Planner][&#128279;](../scenario-planner/initiatives-overview.md)中的方案概觀。
+然後，您可以將方案與實際專案連線起來，以指出實際完成計畫時的工作因素。 本文提供計畫的一般資訊。 如需方案的相關資訊，請參閱 [!DNL Scenario Planner]&#x200B;[&#128279;](../scenario-planner/initiatives-overview.md)中的方案概觀。
 
 您可以定義完成計畫上所識別之工作所需的人工與財務資源。 您也可以檢視計畫中方案所需的人工與財務資源，以便完成計畫。
 

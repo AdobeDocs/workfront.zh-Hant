@@ -2,34 +2,43 @@
 content-type: overview
 navigation-topic: the-new-workfront-experience
 title: 物件標題概觀
-description: 檢閱 [!DNL Adobe Workfront] 中物件的標頭時，您可以一眼檢視物件的資訊。 標題中的資訊可包含物件的擁有者、狀態或完成百分比。
+description: 檢視[!DNL Adobe Workfront]中物件的標頭時，您可以一眼檢視物件的相關資訊。 標題中的資訊可包含物件的擁有者、狀態或完成百分比。
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/TmMmBW3KGYiabGLEiJ40fnBBo8EEpr6PBAaEaddTGq8
+TQID: 'https://experienceleague.adobe.com/TmMmBW3KGYiabGLEiJ40fnBBo8EEpr6PBAaEaddTGq8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3702
+source-wordcount: '3703'
 ht-degree: 0%
-
 ---
-
 # 物件標題概觀
 
 檢視[!DNL Adobe Workfront]中物件的標頭時，您可以一眼檢視物件的相關資訊。

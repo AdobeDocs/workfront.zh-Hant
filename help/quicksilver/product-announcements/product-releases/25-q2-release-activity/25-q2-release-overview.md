@@ -7,31 +7,43 @@ recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/n5lx62Rt8OEspaQx3l6gvV63JUnOVJ7GYqH1-lbIi88
+TQID: 'https://experienceleague.adobe.com/n5lx62Rt8OEspaQx3l6gvV63JUnOVJ7GYqH1-lbIi88'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+    internal-label: APIs
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1684
+source-wordcount: '1737'
 ht-degree: 3%
-
 ---
-
 # 2025年第二季版本總覽
 
 此頁面提供2025年第二季度版本中包含的功能相關資訊。 這些增強功能預計會在整個季度內於生產環境中提供。
@@ -128,7 +140,7 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
             案頭校訂檢視器更新 </a></p>[!BADGE In Production &#x200B;]{type=Informative}
-            <p>案頭校訂檢視器已更新至2.1.45版。此更新可讓檢視器使用
+            <p>案頭校訂檢視器已更新至2.1.45版。 此更新可讓檢視器使用
             <ul><li>Electron 35版</li><li>Chromium 134版</li><ul></p>
         </td>
         <td>
@@ -235,7 +247,7 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront行事曆的更新</a></p><p>[!BADGE In Production &#x200B;]{type=Informative}</p>
-            <p>我們已將Workfront行事曆的外觀與風格更新為與Workfront其他區域一致的現代化設計。與目前的Workfront行事曆在功能上有細微的差異，包括：
+            <p>我們已將Workfront行事曆的外觀與風格更新為與Workfront其他區域一致的現代化設計。 與目前的Workfront行事曆在功能上有細微的差異，包括：
             <ul>
             <li>如何將臨時專案新增至行事曆</li>
             <li>如何建立及重新命名行事曆</li>
@@ -327,7 +339,7 @@ Workfront版本編號代表每月和每季的版本追蹤。 第一個數字代�
 #### 增強型Analytics淘汰
 
 由於使用率低且不斷下降，我們已決定在2025年5月25日當週淘汰增強型分析產品。
-建議您考慮改用Data Connect產品。Data Connect可讓您使用慣用的商業智慧工具，建立類似的可自訂視覺效果。
+建議您考慮改用Data Connect產品。 Data Connect可讓您使用慣用的商業智慧工具，建立類似的可自訂視覺效果。
 如需關於此棄用的詳細資訊，請參閱[Enhanced Analytics棄用指南](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)。
 
 ## 公告

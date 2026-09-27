@@ -6,28 +6,37 @@ description: 當工作任務和問題指派給您時，它們會列在我的工�
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
-TQID: https://experienceleague.adobe.com/NmvefgKn8ASoQwTJkOGcFVKUCWG0JLo4g5evg36FT9Y
+TQID: 'https://experienceleague.adobe.com/NmvefgKn8ASoQwTJkOGcFVKUCWG0JLo4g5evg36FT9Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 808
+source-wordcount: '808'
 ht-degree: 2%
-
 ---
-
 # 在[!UICONTROL 首頁]區域中管理工作專案和團隊請求
 
 當工作任務和問題指派給您時，它們會列在我的工作Widget、我的任務Widget和我的問題Widget中。  您可以檢視、處理或移除工作專案和請求。

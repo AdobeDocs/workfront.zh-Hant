@@ -6,20 +6,27 @@ description: 您可以檢視有關校訂如何在稽核流程中進行的資訊�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 78e81070-ff82-4d82-90a3-6e0cd176b290
-TQID: https://experienceleague.adobe.com/iYtVPQnpcuPSr7i615HgHzSX43yWqMRhEmzk-2nQoPw
+TQID: 'https://experienceleague.adobe.com/iYtVPQnpcuPSr7i615HgHzSX43yWqMRhEmzk-2nQoPw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 320
+source-wordcount: '377'
 ht-degree: 1%
-
 ---
-
 # 校訂進度和狀態概觀
 
 您可以檢視有關校訂如何在稽核流程中進行的資訊，並從檔案區域檢視校訂決策狀態的整體摘要。
@@ -100,7 +107,7 @@ ht-degree: 1%
 
 ## 校訂狀態概觀
 
-校訂狀態顯示校訂所需的決定狀態。證明的狀態是由「最壞情況」參與者所驅動。例如，假設證明上有三個決定：兩個決定的狀態為&#x200B;**已接受**，另一個決定的狀態為&#x200B;**已拒絕**。**已拒絕**&#x200B;的「最壞情況」決定會超過其他決定，且證明的整體狀態顯示為&#x200B;**已拒絕**。 
+校訂狀態顯示校訂所需的決定狀態。 證明的狀態是由「最壞情況」參與者所驅動。 例如，假設證明上有三個決定：兩個決定的狀態為&#x200B;**已接受**，另一個決定的狀態為&#x200B;**已拒絕**。 **已拒絕**&#x200B;的「最壞情況」決定會優先於其他決定，而且證明的整體狀態會顯示為&#x200B;**已拒絕**。 
 
 ![校訂編輯現有進度](assets/proof-edit-existing-progress-350x62.png)
 

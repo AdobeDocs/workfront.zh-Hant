@@ -1,31 +1,38 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: workfront-for-microsoft-teams
-title: '為Microsoft Teams安裝 [!DNL Adobe Workfront] '
-description: ' [!DNL Adobe Workfront for Microsoft Teams] 應用程式可讓您在 [!DNL Workfront] 中執行基本動作，而不需離開 [!DNL Microsoft Teams] 聊天頻道。'
+title: 安裝Microsoft Teams的[!DNL Adobe Workfront]
+description: '[!DNL Adobe Workfront for Microsoft Teams]應用程式可讓您在[!DNL Workfront]中執行基本動作，而不需離開[!DNL Microsoft Teams]聊天頻道。'
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-TQID: https://experienceleague.adobe.com/6bVoPpO5kyn202DJrUZ8lEmwzz6-V0wVEY8D9F42jFo
+TQID: 'https://experienceleague.adobe.com/6bVoPpO5kyn202DJrUZ8lEmwzz6-V0wVEY8D9F42jFo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+    internal-label: Adobe Workfront for Microsoft Teams
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 715
+source-wordcount: '719'
 ht-degree: 3%
-
 ---
-
 # 安裝Microsoft Teams的[!DNL Adobe Workfront]
 
 <!-- Audited: 1/2024 -->

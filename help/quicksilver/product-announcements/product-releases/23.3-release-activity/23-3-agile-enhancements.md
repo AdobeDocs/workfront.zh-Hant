@@ -5,18 +5,24 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a47d2592-0f00-4bcd-bc8e-75f8e707a573
-TQID: https://experienceleague.adobe.com/MuQQDV7Uvjj7qcG3nwa4Ec7lhAig2o4FiuifiR4Fz9I
+TQID: 'https://experienceleague.adobe.com/MuQQDV7Uvjj7qcG3nwa4Ec7lhAig2o4FiuifiR4Fz9I'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1323
+source-wordcount: '1323'
 ht-degree: 0%
-
 ---
-
 # 23.3敏捷增強功能
 
 本頁說明23.3版本的所有展示板和敏捷增強功能。 這些增強功能已在2023年7月20日和21日的23.3版本中在生產環境中提供。
@@ -57,7 +63,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您組織的Workfront執行個體已上線到Adobe統一體驗，您可以透過您的偏好設定選單（您的個人資料圖片）為所有Adobe Experience Cloud啟用深色主題格式，並且您將不會看到Workfront面板的個別深色模式選項。
+>如果您組織的Workfront執行個體已上線至Adobe統一體驗，您可以透過您的偏好設定選單（您的個人資料圖片）為所有Adobe Experience Cloud啟用深色主題格式，而且您將不會看到Workfront展示板的個別深色模式選項。
 
 如需詳細資訊，請參閱[面板電子郵件通知和偏好設定](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)。
 

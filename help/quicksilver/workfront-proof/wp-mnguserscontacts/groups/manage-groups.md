@@ -2,28 +2,38 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: groups-workfront-proof
-title: 使用 [!DNL Workfront Proof]管理群組
-description: 作為 [!DNL Workfront Proof] 管理員，您可以在「群組」頁面上管理您的公用和專用群組。
+title: 使用[!DNL Workfront Proof]管理群組
+description: 作為[!DNL Workfront Proof]管理員，您可以在「群組」頁面上管理您的公用和專用群組。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bb4cfe03-d2c8-47f5-8c5c-de5218935ab5
-TQID: https://experienceleague.adobe.com/LIZUQVXJnYbKZtmgZ6IhMJTv6Wo2AnFh8Y1M5bo6EfY
+TQID: 'https://experienceleague.adobe.com/LIZUQVXJnYbKZtmgZ6IhMJTv6Wo2AnFh8Y1M5bo6EfY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Privacy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 555
+source-wordcount: '592'
 ht-degree: 0%
-
 ---
-
 # 使用[!DNL Workfront Proof]管理群組
 
 >[!IMPORTANT]
@@ -43,25 +53,25 @@ ht-degree: 0%
    * 篩選及排序群組。
    * 選取一或多個群組後，便可使用下列其他選項：
 
-      * 新增人員至選取的群組。
+     * 新增人員至選取的群組。
 
-        ![Groups_page-add_people_btn.png](assets/groups-page-add-people-btn-30x29.png)
+       ![Groups_page-add_people_btn.png](assets/groups-page-add-people-btn-30x29.png)
 
-      * 將選取的群組設為私人或公用，如[使用 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)將群組設為私人中所述
-      * 私人群組僅對其建立者可見。
-      * 刪除選取的群組。
+     * 將選取的群組設為私人或公用，如[使用 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)將群組設為私人中所述
+     * 私人群組僅對其建立者可見。
+     * 刪除選取的群組。
 
-        ![刪除圖示](assets/trash-button.png)
+       ![刪除圖示](assets/trash-button.png)
    * 您也可以在每個群組上，分別對其自己的&#x200B;**[!UICONTROL 更多]** （三點）功能表執行動作：
 
      ![更多功能表](assets/more-button-small.png)
 
-      * 檢視群組詳細資料。
+     * 檢視群組詳細資料。
 
-        您也可以按一下「群組」名稱來檢視「群組」詳細資訊。
-      * 新增人員。
-      * 將群組設為公用/私用。
-      * 刪除群組。
+       您也可以按一下「群組」名稱來檢視「群組」詳細資訊。
+     * 新增人員。
+     * 將群組設為公用/私用。
+     * 刪除群組。
 
 
 ## 排序群組
@@ -72,7 +82,7 @@ ht-degree: 0%
 或
 從「排序」功能表中選取排序選項。
    ![Groups_page-Sort_menu.png](assets/groups-page-sort-menu-350x80.png)
-欄標題上的三角形表示排序順序。 向上指，表示遞增順序；向下指，表示遞減順序。
+   欄標題上的三角形表示排序順序。 向上指，表示遞增順序；向下指，表示遞減順序。
 
 ## 篩選群組
 
@@ -113,7 +123,7 @@ ht-degree: 0%
 1. 選取您要新增至群組的連絡人姓名旁邊的核取方塊。
 1. 按一下&#x200B;**[!UICONTROL 新增至群組]**&#x200B;按鈕。
    ![新增至群組](assets/screenshot-2018-04-06-15-27-17.png)
-**[!UICONTROL 新增至群組]**&#x200B;對話方塊就會顯示。
+   **[!UICONTROL 新增至群組]**&#x200B;對話方塊就會顯示。
 
 1. 在&#x200B;**[!UICONTROL 人員]**&#x200B;區段中：
 

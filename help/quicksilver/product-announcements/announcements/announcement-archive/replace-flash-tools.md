@@ -7,27 +7,37 @@ feature: Product Announcements
 exl-id: a0ca824d-aab8-4da2-97ed-0913a7f76d55
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/ZiRTszrV8GYwr0GIM523WXP7Qk6zfRRsMjVLJ3PZRZg
+TQID: 'https://experienceleague.adobe.com/ZiRTszrV8GYwr0GIM523WXP7Qk6zfRRsMjVLJ3PZRZg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2730
+source-wordcount: '2730'
 ht-degree: 0%
-
 ---
-
 # 取代Adobe Workfront中的Flash工具
 
 我們已從Adobe Workfront Classic移除所有Flash工具。
@@ -69,11 +79,11 @@ Workfront現在提供根據目前標準的取代工具。 這些變更與Adobe�
 
 * 「人員」區域中的「舊版資源規劃」標籤，以及標籤中包含的所有工具，包括下列專案：
 
-   * 資源預算管理器
-   * 產能規劃工具
-   * 資源估計
-   * 資源格線\
-     如需詳細資訊，請參閱[資源規劃：文章索引](../../../resource-mgmt/resource-planning/resource-planning-overview.md)。
+  * 資源預算管理器
+  * 產能規劃工具
+  * 資源估計
+  * 資源格線\
+    如需詳細資訊，請參閱[資源規劃：文章索引](../../../resource-mgmt/resource-planning/resource-planning-overview.md)。
 
 * 專案業務案例中的舊版資源估計區域
 
@@ -102,14 +112,14 @@ Workfront現在提供根據目前標準的取代工具。 這些變更與Adobe�
 
 * 移除的報告功能：
 
-   * 使用者報表中的資源格線選項
-   * 專案或任務報告中的「舊版甘特圖」選項\
-     如需詳細資訊，請參閱[檢視甘特圖中的資訊](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)。
+  * 使用者報表中的資源格線選項
+  * 專案或任務報告中的「舊版甘特圖」選項\
+    如需詳細資訊，請參閱[檢視甘特圖中的資訊](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)。
 
 * 移除的報告：
 
-   * 舊版資源集區報表
-   * 「資源預計」報表
+  * 舊版資源集區報表
+  * 「資源預計」報表
 
   >[!NOTE]
   >

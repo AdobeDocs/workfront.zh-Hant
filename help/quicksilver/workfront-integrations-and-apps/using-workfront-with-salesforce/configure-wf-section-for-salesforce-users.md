@@ -1,34 +1,41 @@
 ---
 product-area: workfront-integrations;setup;user-management
 navigation-topic: workfront-for-salesforce
-title: 設定 [!DNL Salesforce] 使用者的 [!DNL Adobe Workfront] 區段
-description: 當您以 [!DNL Workfront] 管理員身分安裝Salesforce的 [!DNL Adobe Workfront] 後，您可以將其新增至使用者在Salesforce中的「商機」和「帳戶」頁面配置的新區段，讓使用者可以使用它。
+title: 設定[!DNL Salesforce]使用者的[!DNL Adobe Workfront]區段
+description: 當您以[!DNL Workfront]管理員身分安裝Salesforce的[!DNL Adobe Workfront]後，您可以將其新增至使用者在Salesforce中的機會和帳戶頁面配置的新區段，以提供給使用者使用。
 author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/mjSptTTPuxObb09RLFHEwgjZj-dAn6VWckotwUxhMKg
+TQID: 'https://experienceleague.adobe.com/mjSptTTPuxObb09RLFHEwgjZj-dAn6VWckotwUxhMKg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: f1b6c8ba-53d0-432b-b0f4-64800d4b376e
+    internal-label: Adobe Workfront for Salesforce
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 154
+source-wordcount: '158'
 ht-degree: 0%
-
 ---
-
 # 設定[!DNL Salesforce]使用者的[!DNL Adobe Workfront]區段
 
 >[!IMPORTANT]

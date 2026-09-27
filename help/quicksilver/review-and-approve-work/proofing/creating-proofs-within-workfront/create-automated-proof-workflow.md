@@ -6,24 +6,31 @@ description: 如果您的程式複雜，或您定期傳送內容給相同的人�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-TQID: https://experienceleague.adobe.com/JCDEDcmb2GOWTW-GqUTHdQKp7O6FC2ACvj0HsIXaaRs
+TQID: 'https://experienceleague.adobe.com/JCDEDcmb2GOWTW-GqUTHdQKp7O6FC2ACvj0HsIXaaRs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1760
+source-wordcount: '1784'
 ht-degree: 1%
-
 ---
-
 # 使用自動化工作流程建立進階校訂
 
 <!-- Audited: 2/2024 -->
@@ -193,7 +200,7 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader">需要登入 — 校訂只能與其他使用者共用</td> 
-      <td>停用此選項（預設）時，具有URL的任何人都能夠檢視校訂。<br>選取此選項時：
+      <td>停用此選項（預設）時，具有URL的任何人都能夠檢視校訂。 <br>選取此選項時：
        <ul>
         <li>只有Workfront Proof使用者能檢視校訂。</li>
         <li>使用者無法登入校訂，除非他們已新增到校訂中。</li>
@@ -222,7 +229,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">透過公開URL或內嵌程式碼訂閱校訂</td> 
-      <td>選取此選項時，未明確新增到校訂的人員可以訂閱校訂。訂閱校訂的人員會獲得您在以下設定中定義的角色和電子郵件：
+      <td>選取此選項時，未明確新增到校訂的人員可以訂閱校訂。 訂閱校訂的人員會獲得您在以下設定中定義的角色和電子郵件：
        <ul>
         <li><strong>訂閱者角色：</strong>指派給所有訂閱校訂的檢閱者的預設校訂角色。</li>
         <li><strong>訂閱者的電子郵件警示設定：</strong>指派給所有訂閱校訂的稽核者的預設電子郵件警示。</li>

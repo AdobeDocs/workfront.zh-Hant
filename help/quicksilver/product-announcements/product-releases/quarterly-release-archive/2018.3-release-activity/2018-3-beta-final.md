@@ -7,25 +7,31 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d4411916-7f58-4174-b9a5-f19cde181d8b
-TQID: https://experienceleague.adobe.com/F5gvecGlTsPmXloxVvvSufwrwaz7Vj5Pd2WUCKha7To
+TQID: 'https://experienceleague.adobe.com/F5gvecGlTsPmXloxVvvSufwrwaz7Vj5Pd2WUCKha7To'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+    internal-label: Adobe Workfront for Microsoft Teams
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 862
+source-wordcount: '862'
 ht-degree: 0%
-
 ---
-
 # 2018.3 Beta決賽
 
 本頁說明2018.3 Beta最終版本預覽環境中最近可用的所有變更。 此功能將於2018年10月10日在預覽環境中提供。 它將於2018年11月在生產環境中提供。
@@ -128,10 +134,10 @@ ht-degree: 0%
 
   您現在可以透過在首頁畫面上按下Workfront應用程式來執行下列動作：
 
-   * 搜尋
-   * 存取通知
-   * 存取最近存取的專案 
-   * 存取最近存取的任務或問題
+  * 搜尋
+  * 存取通知
+  * 存取最近存取的專案 
+  * 存取最近存取的任務或問題
 
 * 新推播通知及引入推播通知的動作
 
@@ -141,18 +147,18 @@ ht-degree: 0%
 
   您可以長期按下推播通知來完成下列操作，無需前往應用程式或產生應用程式的專案：
 
-   * 對專案發表評論
-   * 接受以處理它
-   * 進行核准決定
+  * 對專案發表評論
+  * 接受以處理它
+  * 進行核准決定
 
 * 支援iOS裝置的橫向方向
 
   現在，我們完全支援iOS和Android行動應用程式的橫向和縱向方向，但下列iPhone大小除外：
 
-   * IPHONE 5
-   * iPhone 5S
-   * IPHONE SE\
-     在此增強功能之前，只有Android裝置支援橫向方向。
+  * IPHONE 5
+  * iPhone 5S
+  * IPHONE SE\
+    在此增強功能之前，只有Android裝置支援橫向方向。
 
 * 支援iOS 12和Android P平台
 * 支援iOS和Android平板電腦

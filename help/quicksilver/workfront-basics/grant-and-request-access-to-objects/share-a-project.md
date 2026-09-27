@@ -8,22 +8,26 @@ feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/il3HJ8UUx-E0TBUBRiuPIIveR37flNDeFQ9gZJ8chqA
+TQID: 'https://experienceleague.adobe.com/il3HJ8UUx-E0TBUBRiuPIIveR37flNDeFQ9gZJ8chqA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1530
+source-wordcount: '1558'
 ht-degree: 3%
-
 ---
-
 # 共用專案
 
 <!-- Audited: 1/2024 -->
@@ -79,9 +83,9 @@ ht-degree: 3%
 * 您可以個別共用專案，或一次共用多個專案。 共用專案與共用其他物件相同。 如需在Workfront中共用專案的詳細資訊，請參閱[共用物件](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
 * 您可以授予專案下列許可權：
 
-   * 檢視
-   * 管理
-   * 參與
+  * 檢視
+  * 管理
+  * 參與
 
 * 共用專案時，除非另有指定，否則所有任務、問題和檔案都會繼承相同的許可權。
 
@@ -104,25 +108,25 @@ ht-degree: 3%
 
 * 執行下列任一項作業以手動執行：
 
-   * 正在將使用者新增至專案團隊。 當您將使用者新增到專案團隊時，他們會自動獲得專案的檢視許可權。\
-     如需新增使用者至專案團隊的詳細資訊，請參閱[專案團隊概述](../../manage-work/projects/planning-a-project/project-team-overview.md)中的「新增使用者至專案團隊」一節。
-   * 使用&#x200B;**共用**&#x200B;選項時，個別或大量共用專案。
+  * 正在將使用者新增至專案團隊。 當您將使用者新增到專案團隊時，他們會自動獲得專案的檢視許可權。\
+    如需新增使用者至專案團隊的詳細資訊，請參閱[專案團隊概述](../../manage-work/projects/planning-a-project/project-team-overview.md)中的「新增使用者至專案團隊」一節。
+  * 使用&#x200B;**共用**&#x200B;選項時，個別或大量共用專案。
 
 * 執行下列任一項作業來自動執行：
 
-   * 將專案放在已與其他人共用的&#x200B;**Portfolio**&#x200B;或&#x200B;**方案**&#x200B;中。 使用者獲得與投資組合或計畫相同的專案許可權。\
-     如需將專案新增至&#x200B;**Portfolio**&#x200B;的相關資訊，請參閱[將專案新增至投資組合](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)。\
-     如需將專案新增至&#x200B;**方案**&#x200B;的相關資訊，請參閱[將專案新增至方案](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)。
-如需有關檢視物件繼承許可權的資訊，請參閱[檢視物件的繼承許可權](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)。
+  * 將專案放在已與其他人共用的&#x200B;**Portfolio**&#x200B;或&#x200B;**方案**&#x200B;中。 使用者獲得與投資組合或計畫相同的專案許可權。\
+    如需將專案新增至&#x200B;**Portfolio**&#x200B;的相關資訊，請參閱[將專案新增至投資組合](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)。\
+    如需將專案新增至&#x200B;**方案**&#x200B;的相關資訊，請參閱[將專案新增至方案](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)。
+    如需有關檢視物件繼承許可權的資訊，請參閱[檢視物件的繼承許可權](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)。
 
-   * 在用來建立專案的範本上，將實體新增至專案共用。 如需從範本共用專案的詳細資訊，請參閱[共用範本](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)。
-   * 定義專案存取權範本。
+  * 在用來建立專案的範本上，將實體新增至專案共用。 如需從範本共用專案的詳細資訊，請參閱[共用範本](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)。
+  * 定義專案存取權範本。
 
-     >[!TIP]
-     >
-     >附加或儲存範本時，您可以清除範本專案共用規則。
+    >[!TIP]
+    >
+    >附加或儲存範本時，您可以清除範本專案共用規則。
 
-   * 編輯專案並定義&#x200B;**當某人獲得此專案的存取權時**&#x200B;設定。  如需詳細資訊，請參閱[編輯專案](../../manage-work/projects/manage-projects/edit-projects.md)。
+  * 編輯專案並定義&#x200B;**當某人獲得此專案的存取權時**&#x200B;設定。  如需詳細資訊，請參閱[編輯專案](../../manage-work/projects/manage-projects/edit-projects.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

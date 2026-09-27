@@ -5,20 +5,27 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: cbeb123d-6735-42c8-b293-f9aa25c33a5d
-TQID: https://experienceleague.adobe.com/x-K8p72uY2vPrjBaqwLpbC4jz47m-DGW6VYfexNg7R4
+TQID: 'https://experienceleague.adobe.com/x-K8p72uY2vPrjBaqwLpbC4jz47m-DGW6VYfexNg7R4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 160
+source-wordcount: '160'
 ht-degree: 0%
-
 ---
-
 # 2025年第四季儀表板增強功能
 
 此頁面說明2025年第四季版本對於「預覽」環境所做的儀表板增強功能。 如上所述，這些增強功能將於生產環境中提供。

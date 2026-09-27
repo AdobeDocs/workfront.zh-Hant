@@ -7,23 +7,28 @@ description: 當使用者指派存取層級時，您的Adobe Workfront管理員�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c2dac54b-6506-41b0-a7f2-6fafab12c2d1
-TQID: https://experienceleague.adobe.com/-jlMqisDlyWp1rpYTDhSfiwq32-qoxfvvDhFyKw7yvk
+TQID: 'https://experienceleague.adobe.com/-jlMqisDlyWp1rpYTDhSfiwq32-qoxfvvDhFyKw7yvk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 573
+source-wordcount: '573'
 ht-degree: 0%
-
 ---
-
 # 共用報告、儀表板和行事曆
 
 當使用者指派存取層級時，您的Adobe Workfront管理員會授予他們檢視或編輯報告、儀表板和行事曆的存取權。 如需授與報告、儀表板和行事曆存取權的詳細資訊，請參閱[授與報告、儀表板和行事曆的存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)。
@@ -49,9 +54,9 @@ ht-degree: 0%
 
   另請參閱下列文章以瞭解如何共用報告、控制面板和行事曆：
 
-   * [在Adobe Workfront中共用報告](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
-   * [共用儀表板](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
-   * [共用行事曆報告](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
+  * [在Adobe Workfront中共用報告](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
+  * [共用儀表板](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
+  * [共用行事曆報告](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
 * 您可以個別共用報表和控制面板，也可以大量共用。
 
@@ -63,8 +68,8 @@ ht-degree: 0%
 
 * 您可以授予報表、控制面板和行事曆下列許可權：
 
-   * 檢視
-   * 管理
+  * 檢視
+  * 管理
 
 * 當您共用控制面板時，使用者預設擁有控制面板上所有報告、行事曆和外部頁面的檢視許可權。
 * 擁有請求授權的使用者無法檢視系統範圍的報告。 請求者需要檢視報表時，必須個別與請求者共用報表。

@@ -6,20 +6,27 @@ description: 您可以收到電子郵件通知，告知您對處理的校樣所�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d6ded72c-a140-4c19-b1e0-60456804fc61
-TQID: https://experienceleague.adobe.com/jfaqAWN5Xa-m02cPG1vofbHDqtqkbIcQqwmdHJfLNBw
+TQID: 'https://experienceleague.adobe.com/jfaqAWN5Xa-m02cPG1vofbHDqtqkbIcQqwmdHJfLNBw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Customer experience
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 426
+source-wordcount: '426'
 ht-degree: 0%
-
 ---
-
 # 校訂評論和決定總覽的通知
 
 您可以透過下列其中一種方式，接收有關您對校樣所做之評論和決定的電子郵件通知：

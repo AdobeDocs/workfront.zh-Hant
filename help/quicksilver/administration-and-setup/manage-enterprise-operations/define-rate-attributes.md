@@ -8,13 +8,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d570ef6a-935f-4dd0-9c54-a480163ec9d8
-source-git-commit: d5694e2f94ded811e90b31f315896914ca31fc9f
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1385'
 ht-degree: 1%
-
 ---
-
 # 定義費率屬性
 
 費率屬性可讓您新增其他維度至工作角色以外的費率，藉以擴充Adobe Workfront的費率卡和費率功能。 這對於機構與企業而言至關重要，因為費率不僅會因工作角色而有所不同，也會因機構、地點、品牌、成本中心或其他因素而有所不同。

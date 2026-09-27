@@ -2,27 +2,31 @@
 product-previous: mobile
 product-area: projects
 navigation-topic: use-workfront-view
-title: 篩選 [!DNL Adobe Workfront] 檢視中的專案清單
+title: 篩選[!DNL Adobe Workfront]檢視中的專案清單
 feature: Get Started with Workfront
-description: 依預設， [!DNL Adobe Workfront] 檢視會顯示 [!DNL Workfront]中的[!UICONTROL 所有專案]清單，因此無論專案處於何種狀態，您有權檢視的所有專案都會列出來。
+description: 依預設，「[!DNL Adobe Workfront]檢視」會在[!DNL Workfront]中顯示[!UICONTROL 所有專案]清單，因此無論專案處於何種狀態，系統都會列出您有權檢視的所有專案。
 author: Lisa
 exl-id: 78efce1a-f144-4e47-bd7e-c0347e016bea
-TQID: https://experienceleague.adobe.com/sFUUo65zy8RM2uNE6OmMFKj9J-e3dMCvmSoZaK2Ph3k
+TQID: 'https://experienceleague.adobe.com/sFUUo65zy8RM2uNE6OmMFKj9J-e3dMCvmSoZaK2Ph3k'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 324
+source-wordcount: '325'
 ht-degree: 7%
-
 ---
-
 # 篩選[!DNL Adobe Workfront View]中的專案清單
 
 根據預設，[!DNL Adobe Workfront View]會在[!DNL Workfront]中顯示[!UICONTROL 所有專案]清單，因此無論專案處於何種狀態，系統都會列出您有權檢視的所有專案。
@@ -71,22 +75,22 @@ ht-degree: 7%
    * 狀態：選取此選項可僅顯示特定[!UICONTROL 狀態]的專案。
    * [!UICONTROL 計劃開始]：選取此選項可只顯示下列時間範圍內[!UICONTROL 計劃開始日期]的專案：
 
-      * 過去 3 個月
-      * 過去 2 個月
-      * 上個月
-      * 過去兩週
+     * 過去 3 個月
+     * 過去 2 個月
+     * 上個月
+     * 過去兩週
    * [!UICONTROL 計畫完成]：選取此選項可在下列即將到來的時間範圍內，僅顯示具有[!UICONTROL 計畫完成日期]的專案：
 
-      * 兩週
-      * 一個月
-      * 兩個月
-      * 三個月
+     * 兩週
+     * 一個月
+     * 兩個月
+     * 三個月
    * [!UICONTROL 預計完成]：選取此選項可在下列即將到來的時間範圍內，僅顯示預計完成日期為[!UICONTROL 的專案：]
 
-      * 兩週
-      * 一個月
-      * 兩個月
-      * 三個月
+     * 兩週
+     * 一個月
+     * 兩個月
+     * 三個月
    * [!UICONTROL 所有者]：選取以顯示指派給特定所有者的專案。
    * [!UICONTROL 贊助者]：選取以顯示指派給特定[!UICONTROL 贊助者]的專案。
 

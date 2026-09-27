@@ -4,34 +4,42 @@ content-type: reference
 product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: 安裝Blueprint後要採取的動作
-description: 本文概述您在 [!DNL Adobe Workfront] 中安裝Blueprint後，應該做什麼，才能將該Blueprint完全部署給您的系統使用者。
+description: 本文概述您在[!DNL Adobe Workfront]中安裝Blueprint以將Blueprint完全部署給系統使用者後應該做什麼。
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e5da58f-105a-4edf-8fc1-65e8762d43c6
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/g6c8t3kp1NMAAiXowWC-0CZYnTjJg6A8vd9zgWimvIw
+TQID: 'https://experienceleague.adobe.com/g6c8t3kp1NMAAiXowWC-0CZYnTjJg6A8vd9zgWimvIw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1138
+source-wordcount: '1139'
 ht-degree: 0%
-
 ---
-
 # 安裝Blueprint後要採取的動作
 
 本文概述您在[!DNL Adobe Workfront]中安裝Blueprint以將Blueprint完全部署給系統使用者後應該做什麼。

@@ -2,23 +2,26 @@
 product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: 使用增強式驗證重設使用者密碼
-description: 為您的 [!DNL Workfront] 環境啟用增強式驗證(eAuth)時， [!DNL Workfront] 管理員無法重設其他使用者的登入認證。 這與沒有eAuth或啟用單一登入(SSO)的 [!DNL Workfront] 環境不同。
+description: 為您的[!DNL Workfront]環境啟用增強式驗證(eAuth)時，[!DNL Workfront]管理員無法重設其他使用者的登入認證。 這與沒有eAuth或啟用單一登入(SSO)的[!DNL Workfront]環境不同。
 author: Courtney
 feature: Get Started with Workfront
 hide: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
-TQID: https://experienceleague.adobe.com/DCTbiQAsLjKIEN4qNvPrCUDLO3eRnYhT1LYGKgwpf-Q
+TQID: 'https://experienceleague.adobe.com/DCTbiQAsLjKIEN4qNvPrCUDLO3eRnYhT1LYGKgwpf-Q'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 197
+source-wordcount: '200'
 ht-degree: 1%
-
 ---
-
 # 使用增強式驗證重設使用者密碼
 
 <!--This article has been hidden by request-->

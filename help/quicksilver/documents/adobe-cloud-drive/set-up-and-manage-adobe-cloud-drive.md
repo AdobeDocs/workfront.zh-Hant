@@ -6,13 +6,27 @@ description: 作為管理員，您可以為組織設定Adobe Cloud Drive、將�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps, System Setup and Administration
 role: Admin
-source-git-commit: f1dd9555df2adcf8a1afc48982bc2d52a14df54f
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '3139'
 ht-degree: 1%
-
 ---
-
 # 為貴組織設定和管理Adobe Cloud Drive
 
 身為管理員，您可以設定Adobe Cloud Drive，讓使用者透過macOS上的Finder和Windows上的File Explorer，直接透過案頭存取Adobe雲端儲存空間中的專案檔案。 本文介紹如何在Adobe Admin Console中啟用存取、將應用程式部署至使用者裝置，以及持續管理存取。

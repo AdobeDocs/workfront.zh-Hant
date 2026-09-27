@@ -8,22 +8,29 @@ feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/dOaVAx6iEbdP-hzSgKpS8drVTtmmhG-rjvZIsN19RH8
+TQID: 'https://experienceleague.adobe.com/dOaVAx6iEbdP-hzSgKpS8drVTtmmhG-rjvZIsN19RH8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 568
-ht-degree: 4%
-
+source-wordcount: '601'
+ht-degree: 3%
 ---
-
 # 將劇本新增至現有反複專案
 
 您可以透過下列任何方式將劇本新增至反複專案：
@@ -69,23 +76,23 @@ ht-degree: 4%
 
 * 在以下情況下，任務會使用反複專案的「開始日期」：
 
-   * 專案未設定[!UICONTROL 計劃開始日期]。
-   * 專案的[!UICONTROL 計劃開始日期]是&#x200B;**&#x200B;之前，或&#x200B;**&#x200B;反複專案的開始日期。
+  * 專案未設定[!UICONTROL 計劃開始日期]。
+  * 專案的[!UICONTROL 計劃開始日期]是&#x200B;**&#x200B;之前，或&#x200B;**&#x200B;反複專案的開始日期。
 
 * 任務在下列情況下使用專案的[!UICONTROL 計劃開始日期]：
 
-   * 專案的[!UICONTROL 計劃開始日期]是&#x200B;*晚於*&#x200B;反複專案的開始日期。
+  * 專案的[!UICONTROL 計劃開始日期]是&#x200B;*晚於*&#x200B;反複專案的開始日期。
 
 ### 任務[!UICONTROL 計畫完成日期]
 
 * 在以下情況下，任務會使用反複專案的「結束日期」：
 
-   * 專案未設定[!UICONTROL 計畫完成日期]。
-   * 專案的[!UICONTROL 計劃開始日期]是&#x200B;*在或是*&#x200B;反複專案的開始日期或專案的[!UICONTROL 計畫完成日期]是&#x200B;*在或是*&#x200B;反複專案的結束日期。
+  * 專案未設定[!UICONTROL 計畫完成日期]。
+  * 專案的[!UICONTROL 計劃開始日期]是&#x200B;*在或是*&#x200B;反複專案的開始日期或專案的[!UICONTROL 計畫完成日期]是&#x200B;*在或是*&#x200B;反複專案的結束日期。
 
 * 任務在下列情況下使用專案的[!UICONTROL 計畫完成日期]：
 
-   * 專案的[!UICONTROL 計劃開始日期]是&#x200B;*在*&#x200B;反複專案的開始日期之後，專案的[!UICONTROL 計畫完成日期]是&#x200B;*在*&#x200B;反複專案的結束日期之後。
+  * 專案的[!UICONTROL 計劃開始日期]是&#x200B;*在*&#x200B;反複專案的開始日期之後，專案的[!UICONTROL 計畫完成日期]是&#x200B;*在*&#x200B;反複專案的結束日期之後。
 
 您可以設定個別Scrum團隊以預設使用專案日期，而不是反複專案日期。 如需詳細資訊，請參閱[設定Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)一文中的[設定將工作專案新增至疊代](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)時如何套用日期一節。
 
@@ -104,7 +111,7 @@ ht-degree: 4%
 
 1. 開啟您要新增至疊代的任務或問題。
 或
-前往專案、報告或儀表板，其中包含您要新增至疊代的任務或問題。然後，選取一或多個任務或問題。
+前往專案、報告或儀表板，其中包含您要新增至疊代的任務或問題。 然後，選取一或多個任務或問題。
 
 1. 按一下&#x200B;**[!UICONTROL 更多]** ![更多圖示](assets/more-icon.png) > **[!UICONTROL 新增到反複專案]**。
 您無法將任務或問題指派給非敏捷團隊。

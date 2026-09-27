@@ -3,22 +3,30 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
 title: 在Workfront Proof中共用校訂連結
-description: 您可以透過電子郵件將校訂URL和校訂的下載URL傳送給任何人，無論他們是否擁有 [!DNL Workfront Proof] 帳戶。 如需校訂URL和下載URL的詳細資訊，請參閱在Workfront Proof中共用公用URL和下載儲存在Workfront Proof的檔案。
+description: 您可以透過電子郵件將校訂URL和校訂的下載URL傳送給任何人，無論他們是否擁有[!DNL Workfront Proof]帳戶。 如需校訂URL和下載URL的詳細資訊，請參閱在Workfront Proof中共用公用URL和下載儲存在Workfront Proof的檔案。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: aa3fd399-6381-4118-a64a-a331784b4854
-TQID: https://experienceleague.adobe.com/Atbe7oIceQ6Rk0WKQjeFd1lgSWwR4gfPs18K1Q0qIzA
+TQID: 'https://experienceleague.adobe.com/Atbe7oIceQ6Rk0WKQjeFd1lgSWwR4gfPs18K1Q0qIzA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 462
+source-wordcount: '463'
 ht-degree: 0%
-
 ---
-
 # 在[!DNL Workfront Proof]中共用校訂連結
 
 >[!IMPORTANT]

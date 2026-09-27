@@ -5,13 +5,25 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '921'
 ht-degree: 0%
-
 ---
-
 
 # 開始使用Adobe Workfront Planning作為獨立產品
 
@@ -75,11 +87,11 @@ Workfront Planning作為獨立產品包含的許多功能，與Workfront Plannin
 
   如需詳細資訊，請參閱下列文章：
 
-   * [建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md)
-   * [建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)
-   * [建立記錄](/help/quicksilver/planning/records/create-records.md)
-   * [建立欄位](/help/quicksilver/planning/fields/create-fields.md)
-   * [管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)
+  * [建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md)
+  * [建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)
+  * [建立記錄](/help/quicksilver/planning/records/create-records.md)
+  * [建立欄位](/help/quicksilver/planning/fields/create-fields.md)
+  * [管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)
 * 建立自動產生Planning記錄
 
   如需詳細資訊，請參閱[設定Adobe Workfront規劃自動化](/help/quicksilver/planning/records/configure-automations-to-create-records.md)
@@ -99,8 +111,8 @@ Workfront Planning作為獨立產品包含的許多功能，與Workfront Plannin
 
   如需詳細資訊，請參閱下列文章：
 
-   * [在Adobe Workfront Planning中作為獨立產品管理使用者](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)
-   * [以獨立產品形式管理Adobe Workfront Planning中的團隊](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)
+  * [在Adobe Workfront Planning中作為獨立產品管理使用者](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)
+  * [以獨立產品形式管理Adobe Workfront Planning中的團隊](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)
 
 * 在設定中存取客戶和授權詳細資訊
 

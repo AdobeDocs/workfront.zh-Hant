@@ -1,33 +1,39 @@
 ---
 product-area: workfront-integrations
 navigation-topic: workfront-for-jira
-title: 連結介於 [!DNL Adobe Workfront] 和 [!DNL Jira]之間的專案
-description: 您可以自動或手動將 [!DNL Jira] 問題連結至 [!DNL Adobe Workfront] 任務或問題。
+title: 連結介於[!DNL Adobe Workfront]和[!DNL Jira]之間的專案
+description: 您可以自動或手動將[!DNL Jira]問題連結至[!DNL Adobe Workfront]個任務或問題。
 author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/1DmJEj1cU6THiecmfS-2--P2GqnMk96gmr5YQf5mSvU
+TQID: 'https://experienceleague.adobe.com/1DmJEj1cU6THiecmfS-2--P2GqnMk96gmr5YQf5mSvU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: b8ea32d4-f1fe-4c71-8871-afe5a702a009
+    internal-label: Adobe Workfront for Jira
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 135
+source-wordcount: '138'
 ht-degree: 0%
-
 ---
-
 # 連結介於[!DNL Adobe Workfront]和[!DNL Jira]之間的專案
 
 <!-- Audited: 5/2025 -->

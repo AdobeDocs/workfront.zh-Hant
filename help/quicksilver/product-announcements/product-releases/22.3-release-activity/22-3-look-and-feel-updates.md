@@ -6,20 +6,27 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7f85bc50-52c7-4fe8-9f0f-489eaf19b441
-TQID: https://experienceleague.adobe.com/nY1jX-jSZQhuraFoxOUQc75yQqMAOImPidOCglpbRNA
+TQID: 'https://experienceleague.adobe.com/nY1jX-jSZQhuraFoxOUQc75yQqMAOImPidOCglpbRNA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 251
+source-wordcount: '251'
 ht-degree: 15%
-
 ---
-
 # 22.3版本時間範圍內的外觀和感覺更新
 
 本頁說明在22.3版發行時間範圍內對Adobe Workfront應用程式的各個區域外觀和感覺所做的小幅更新。 這些增強功能在發佈到「預覽」版後至少2週內可在「生產」環境中使用。

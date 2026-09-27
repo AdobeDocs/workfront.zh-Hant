@@ -3,14 +3,15 @@ title: 存取需求表範例 — 內部文章
 description: 這是我們的團隊的內部文章，詳細記錄我們用於存取要求的表格。 此不應發佈。
 author: Alina
 hide: true
-hidefromtoc: true
-source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
+hidefromtoc: 'yes'
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1321'
 ht-degree: 26%
-
 ---
-
 
 # 存取需求表範例 — 內部文章
 

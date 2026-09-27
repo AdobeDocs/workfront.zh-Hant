@@ -8,22 +8,28 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 3463e4cb-7336-49b7-b81a-c2acef72f61d
-TQID: https://experienceleague.adobe.com/WmHq8Aycq-cMfOt6ZnLF0MpNbtLPM5NhVylrsw9hHKE
+TQID: 'https://experienceleague.adobe.com/WmHq8Aycq-cMfOt6ZnLF0MpNbtLPM5NhVylrsw9hHKE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 286
+source-wordcount: '286'
 ht-degree: 0%
-
 ---
-
 # 鎖定和未鎖定的群組狀態
 
 鎖定群組的自訂狀態是確保群組及其子群組中的人員在其工作流程中使用相同處理序的方法。 鎖定群組狀態時，該群組和較低群組中的所有使用者都可使用該群組。 雖然您（或Workfront管理員）可以編輯或刪除您鎖定的狀態，但下列子群組的管理員無法編輯或刪除這些群組；他們只能變更其在「狀態」清單中的顯示順序。

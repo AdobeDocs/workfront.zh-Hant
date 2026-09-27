@@ -8,19 +8,26 @@ recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/jiru3zJiLp4ucCSjSRkDC-9OFRYvFVtqKz6-uPFNHOc
+TQID: 'https://experienceleague.adobe.com/jiru3zJiLp4ucCSjSRkDC-9OFRYvFVtqKz6-uPFNHOc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 481
+source-wordcount: '481'
 ht-degree: 2%
-
 ---
-
 # 欄位概述
 
 <!--
@@ -43,8 +50,8 @@ ht-degree: 2%
 
   如需有關管理欄位的資訊，另請參閱下列文章：
 
-   * [編輯欄位設定](/help/quicksilver/planning/fields/edit-fields.md)
-   * [刪除欄位](/help/quicksilver/planning/fields/delete-fields.md)
+  * [編輯欄位設定](/help/quicksilver/planning/fields/edit-fields.md)
+  * [刪除欄位](/help/quicksilver/planning/fields/delete-fields.md)
 
 * 與記錄型別相關聯的欄位可與該型別的所有記錄相關聯。<!--will this change and will the fields be available for other record types, too?! Also, the next bullet might need to change too if this one changes -->
 
@@ -52,45 +59,45 @@ ht-degree: 2%
 
 * 您可以透過下列方式手動或自動建立欄位：
 
-   * 手動：
+  * 手動：
 
-      * 當您在記錄型別頁面的表格檢視中新增欄時。 表格的欄是與記錄型別相關聯的欄位。 它們是顯示在記錄頁面上的相同欄位。
+    * 當您在記錄型別頁面的表格檢視中新增欄時。 表格的欄是與記錄型別相關聯的欄位。 它們是顯示在記錄頁面上的相同欄位。
 
-        您無法從記錄的頁面建立欄位。
+      您無法從記錄的頁面建立欄位。
 
-      * 當您連線記錄型別時。 當您在兩個記錄型別之間新增連線，或記錄型別和其他應用程式的物件型別之間新增連線時，可以建立連結的記錄欄位。
+    * 當您連線記錄型別時。 當您在兩個記錄型別之間新增連線，或記錄型別和其他應用程式的物件型別之間新增連線時，可以建立連結的記錄欄位。
 
-        如需有關連線記錄型別的詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
+      如需有關連線記錄型別的詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
 
-      * 當您從Workfront匯入現有欄位時。
+    * 當您從Workfront匯入現有欄位時。
 
-        如需詳細資訊，請參閱[從Adobe Workfront匯入欄位](/help/quicksilver/planning/fields/import-fields-from-workfront.md)。
+      如需詳細資訊，請參閱[從Adobe Workfront匯入欄位](/help/quicksilver/planning/fields/import-fields-from-workfront.md)。
 
 
-   * 自動：
+  * 自動：
 
-      * 建立記錄型別時：
+    * 建立記錄型別時：
 
-         * 名稱
-         * 說明
-         * 開始日期
-         * 結束日期
-         * 狀態。 記錄狀態的預設值為：
-            * 開發
-            * 已規劃
-            * 作用中
-            * 已完成
-            * 保留
+      * 名稱
+      * 說明
+      * 開始日期
+      * 結束日期
+      * 狀態。 記錄狀態的預設值為：
+        * 開發
+        * 已規劃
+        * 作用中
+        * 已完成
+        * 保留
 
-        您可以新增更多值或重新命名現有值。
+      您可以新增更多值或重新命名現有值。
 
-      * 從範本建立工作區時。
+    * 從範本建立工作區時。
 
-        如需詳細資訊，請參閱[建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md)。
+      如需詳細資訊，請參閱[建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md)。
 
-      * 當您使用Excel或CSV檔案匯入記錄型別時。
+    * 當您使用Excel或CSV檔案匯入記錄型別時。
 
-        如需詳細資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
+      如需詳細資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
 
 * 無法從Workfront存取Workfront規劃欄位。
 

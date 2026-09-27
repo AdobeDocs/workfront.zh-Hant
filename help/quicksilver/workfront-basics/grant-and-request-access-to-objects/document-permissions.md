@@ -9,24 +9,29 @@ feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/O7L1-5vtv0igPFna43Zrr2r2yzg4P7oPXgS2juSQ4Ec
+TQID: 'https://experienceleague.adobe.com/O7L1-5vtv0igPFna43Zrr2r2yzg4P7oPXgS2juSQ4Ec'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1418
+source-wordcount: '1418'
 ht-degree: 2%
-
 ---
-
 # 在舊版Workfront儲存空間共用檔案
 
 Workfront管理員可控制誰可以在「設定」的「存取層級」區域中檢視或編輯檔案。 如需詳細資訊，請參閱[授與檔案的存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)。
@@ -348,8 +353,8 @@ Workfront正轉換至Adobe雲端儲存解決方案，以提供與Adobe Creative 
 * 共用檔案類似於在Workfront中共用任何其他物件。 如需有關如何在Workfront中共用檔案的資訊，請參閱[共用物件](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
 * 您可以將下列許可權授與檔案：
 
-   * 檢視
-   * 管理
+  * 檢視
+  * 管理
 
 * 您也可以公開或全系統共用檔案。
 

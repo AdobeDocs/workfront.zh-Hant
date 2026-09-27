@@ -1,24 +1,27 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: 導覽 [!DNL Adobe Workfront]：文章索引
+title: 導覽[!DNL Adobe Workfront]：文章索引
 description: 請參閱這些文章以瞭解如何導覽Adobe Workfront並瞭解Workfront術語。
 feature: Get Started with Workfront
 author: Courtney
 recommendations: noDisplay, noCatalog
 exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
-TQID: https://experienceleague.adobe.com/NdEAmkWrFDjyyP1XQ9mTwR9WRKvTKF3wMONn7Zynu1U
+TQID: 'https://experienceleague.adobe.com/NdEAmkWrFDjyyP1XQ9mTwR9WRKvTKF3wMONn7Zynu1U'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 121
+source-wordcount: '121'
 ht-degree: 0%
-
 ---
-
 # 導覽[!DNL Adobe Workfront]：文章索引
 
 <!-- Audited: 12/2023 -->

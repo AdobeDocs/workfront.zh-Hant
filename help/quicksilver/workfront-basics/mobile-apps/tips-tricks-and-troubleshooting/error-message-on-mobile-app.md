@@ -2,26 +2,31 @@
 content-type: tips-tricks-troubleshooting
 product-previous: mobile
 navigation-topic: tips-tricks-and-troubleshooting-mobile-apps
-title: ' [!DNL Adobe Workfront] 行動應用程式上的錯誤訊息：「您的帳戶未啟用API。」'
-description: ' [!DNL Adobe Workfront] 行動應用程式上的錯誤訊息：「您的帳戶未啟用API。」'
+title: '[!DNL Adobe Workfront]行動應用程式上的錯誤訊息：「您的帳戶未啟用API。」'
+description: '[!DNL Adobe Workfront]行動應用程式上的錯誤訊息：「您的帳戶未啟用API。」'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 120e56f4-9fd5-4c41-890e-981937714db0
-TQID: https://experienceleague.adobe.com/t-ANxgXpzPBSM8cGUipyAIczqSEUJGXTthbaVP5dh2E
+TQID: 'https://experienceleague.adobe.com/t-ANxgXpzPBSM8cGUipyAIczqSEUJGXTthbaVP5dh2E'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 161
+source-wordcount: '163'
 ht-degree: 5%
-
 ---
-
 # [!DNL Adobe Workfront]行動應用程式上的錯誤訊息： &quot;[!UICONTROL 您的帳戶未啟用API。]&quot;
 
 ## 存取權要求

@@ -6,13 +6,17 @@ description: 您可以在畫布控制面板中使用貨幣欄位。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 207c24d3-2b69-4ea3-88d7-716a3cf33dd1
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '687'
 ht-degree: 4%
-
 ---
-
 # 在畫布儀表板中使用貨幣欄位
 
 >[!IMPORTANT]

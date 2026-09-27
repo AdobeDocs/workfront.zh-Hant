@@ -7,13 +7,22 @@ description: Adobe Workfront DAM是Workfront內的原生數位資產管理(DAM)�
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 4bb4b61a-eafe-41f1-9f5d-20583fb76d81
-source-git-commit: e2aef53f0ab8e76fb2c33aa91281fae0c4fece75
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '116'
 ht-degree: 0%
-
 ---
-
 # 存取[!UICONTROL [!DNL Adobe Workfront] DAM]的說明
 
 [!UICONTROL [!DNL Adobe Workfront] DAM]是[!DNL Workfront]內的原生數位資產管理(DAM)系統，可讓您儲存、組織、尋找、擷取和共用數位檔案。

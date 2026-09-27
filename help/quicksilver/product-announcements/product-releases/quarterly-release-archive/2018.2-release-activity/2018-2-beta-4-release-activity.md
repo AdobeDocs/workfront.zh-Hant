@@ -7,25 +7,31 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4b54b9e6-d1bf-4802-9d6c-9c3d3b6a6583
-TQID: https://experienceleague.adobe.com/gzQylGFyFhi6rQjzFHVOYuGU4nMqADtJ0vZ48L6NOmE
+TQID: 'https://experienceleague.adobe.com/gzQylGFyFhi6rQjzFHVOYuGU4nMqADtJ0vZ48L6NOmE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1700
+source-wordcount: '1722'
 ht-degree: 0%
-
 ---
-
 # 2018.2 Beta 4發行活動
 
 本頁說明2018.2 Beta 4版本預覽環境中最近可用的所有變更。 此功能將於2018年5月17日在預覽環境中提供。 它將在2018年7月的生產環境中提供。
@@ -145,7 +151,7 @@ ht-degree: 0%
 
   舊版校訂檢視器不支援針對在iframe內受到保護而無法檢視的網站進行檢視。
 
-* 以預先設定的解析度檢視各種裝置的內容。例如，您可以看到內容在各種標準案頭解析度上或iPhone 8等個別裝置上的顯示方式。 
+* 以預先設定的解析度檢視各種裝置的內容。 例如，您可以看到內容在各種標準案頭解析度上或iPhone 8等個別裝置上的顯示方式。 
 
 如需有關下載，安裝和使用Desktop Proofing Viewer的詳細資訊，請參閱。
 

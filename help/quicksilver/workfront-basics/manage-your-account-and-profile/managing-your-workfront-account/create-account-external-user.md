@@ -1,23 +1,26 @@
 ---
 product-area: user-management
 navigation-topic: manage-your-workfront-account
-title: 將帳戶 [!DNL Adobe Workfront] 建立為外部使用者
+title: 將帳戶[!DNL Adobe Workfront]建立為外部使用者
 description: 系統可能會要求您在Workfront中執行任務，即使您並非Workfront中的組織成員亦然。 您可以在Workfront中建立帳戶，以更輕鬆的方式完成這項工作。
 author: Becky
 feature: Get Started with Workfront
 exl-id: cfe6d7ab-e4c5-41e6-aa93-23133ac543a0
-TQID: https://experienceleague.adobe.com/l-Wr6y6FlFicTPpyCeXmitf9p9oyi6TOnKkVSBQUS44
+TQID: 'https://experienceleague.adobe.com/l-Wr6y6FlFicTPpyCeXmitf9p9oyi6TOnKkVSBQUS44'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 395
+source-wordcount: '396'
 ht-degree: 0%
-
 ---
-
 # 在[!DNL Adobe Workfront]中建立帳戶作為外部使用者
 
 您可能會被邀請檢視或核准[!DNL Workfront]中的專案，即使您不是[!DNL Workfront]組織的成員。 例如，可能會要求您檢閱或核准檔案。 您可以在[!DNL Workfront]中建立帳戶，以更輕鬆地檢視或核准這些專案。

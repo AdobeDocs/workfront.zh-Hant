@@ -10,25 +10,31 @@ role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/iWtyeGsk7xGf1Z9KE7Q2GrAbyCREAJYHZVT8GUboMW0
+TQID: 'https://experienceleague.adobe.com/iWtyeGsk7xGf1Z9KE7Q2GrAbyCREAJYHZVT8GUboMW0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 5242
-ht-degree: 7%
-
+source-wordcount: '5242'
+ht-degree: 8%
 ---
-
 # 事件通知型別
 
 <!-- Audited: 1/2024 -->
@@ -473,14 +479,14 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td> <p>問題</p> </td> 
-   <td> <p>核准決定</p> </td> 
+   <td> <p>核准決策</p> </td> 
    <td> <p>問題受指派的使用者</p> </td> 
    <td> <p>我解決的問題已核准或已拒絕。</p> <p>當做出核准決定（核准或拒絕）時，問題的受分派者會收到電子郵件通知。</p> <p>擁有輕度或稽核授權的使用者不會收到通知。</p> </td> 
    <td> <p>非使用中</p> </td> 
   </tr> 
   <tr> 
    <td> <p>任務</p> </td> 
-   <td> <p>核准決定</p> </td> 
+   <td> <p>核准決策</p> </td> 
    <td> <p>任務指派到的使用者</p> </td> 
    <td> <p>我完成的任務已核准或已拒絕。</p> <p>當任務被核准或拒絕時，任務受指派人會收到電子郵件通知。</p> <p>只有在專案狀態為「目前」時，才會傳送通知。</p> <p>擁有輕度或稽核授權的使用者不會收到通知。</p> </td> 
    <td> <p>非使用中</p> </td> 

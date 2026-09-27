@@ -8,20 +8,29 @@ author: Becky
 feature: Workfront API, Digital Content and Documents
 role: Developer
 exl-id: 8a3bf0c4-4a20-4311-8c05-15f4ef3a1d42
-TQID: https://experienceleague.adobe.com/flRrmTOPVSGP83tVYfKG9AZOT7CNZN4IeWZNsVwcOO4
+TQID: 'https://experienceleague.adobe.com/flRrmTOPVSGP83tVYfKG9AZOT7CNZN4IeWZNsVwcOO4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Metadata
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 139
+source-wordcount: '157'
 ht-degree: 5%
-
 ---
-
 # 透過Document Webhook搜尋
 
 傳回搜尋傳回之檔案和資料夾的中繼資料。 這可作為全文檢索搜尋或一般資料庫查詢來實施。 當使用者從外部檔案瀏覽器執行搜尋時，Adobe Workfront會呼叫/search端點。
@@ -48,7 +57,7 @@ GET /search
   </tr> 
   <tr> 
    <td>parentId</td> 
-   <td> <p>（選用）執行搜尋的來源資料夾ID。注意：這是Workfront中未來功能的預留位置。目前，Workfront不傳遞此引數。 </p> </td> 
+   <td> <p>（選用）執行搜尋的來源資料夾ID。 注意：這是Workfront中未來功能的預留位置。 目前，Workfront不傳遞此引數。 </p> </td> 
   </tr> 
   <tr> 
    <td>max</td> 

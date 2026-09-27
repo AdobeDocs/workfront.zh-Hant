@@ -4,13 +4,20 @@ description: 2026年第三季度發行時間範圍內的其他增強功能
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a131344f390abd94383fae0b9cc318ef0ca79d3a
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '575'
 ht-degree: 0%
-
 ---
-
 # 2026年第三季度發行時間範圍內的其他增強功能
 
 本頁說明2026年第三季度版本對預覽環境所做的增強功能。 如上所述，這些增強功能將於生產環境中提供。
@@ -22,7 +29,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->所有客戶的預覽和生產：從2026年7月7日開始不在排程&rbrack;{type=Neutral}內
+>所有客戶的預覽和生產：從2026年7月7日開始
+>[!BADGE 不在排程]{type=Neutral}內
 
 我們目前正在針對顯示「更新」區域的所有Workfront物件，最佳化超過1年的評論封存。 這是內部工作，應該不會影響您使用更新區域的體驗。 任何物件型別的「更新」區域都沒有視覺上的變更，而且此更新的功能也沒有任何變更。 所有物件型別仍可看見所有註解。
 
@@ -32,7 +40,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2026年7月7日生產快速發行： 2026年7月15日適用於所有人的生產： 2026年7月16日
+>預覽： 2026年7月7日
+>生產快速發行： 2026年7月15日
+>適用於所有人的生產： 2026年7月16日
 
 我們已更新Workfront中一般導覽圖示的外觀和風格，包括主要功能表和導覽列圖示，以提供現代設計和與其他Adobe應用程式一致的體驗。 此外，新增和移除釘選頁面的體驗已經過簡化，因此需要點按的次數更少。
 
@@ -62,7 +72,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2026年5月28日生產環境快速發行： 2026年6月11日適用於所有人的生產： 2026年7月16日
+>預覽： 2026年5月28日
+>生產環境快速發行： 2026年6月11日
+>適用於所有人的生產： 2026年7月16日
 
 增強型清單上的多種欄位型別已更新，包括鍵盤導覽和其他增強功能。
 

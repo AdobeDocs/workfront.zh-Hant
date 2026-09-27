@@ -8,26 +8,33 @@ feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-TQID: https://experienceleague.adobe.com/1IXsiNHxckJbTd30JCR3N4bEGOyAWfLRBdGj8dGsHnY
+TQID: 'https://experienceleague.adobe.com/1IXsiNHxckJbTd30JCR3N4bEGOyAWfLRBdGj8dGsHnY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1029
+source-wordcount: '1029'
 ht-degree: 4%
-
 ---
-
 # 復原已刪除的項目
 
 <!--Audited: 12/2023-->
@@ -95,15 +102,15 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 * 狀態
 * 財務資訊：
 
-   * 計費記錄
-   * 收費率
-   * 費用
+  * 計費記錄
+  * 收費率
+  * 費用
 
 * 時間表資訊：
 
-   * 前置任務
-   * 任務限制
-   * 期間型別
+  * 前置任務
+  * 任務限制
+  * 期間型別
 
 * 基準線
 
@@ -125,12 +132,12 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
   還原檔案和檔案版本時，請考量下列事項：
 
-   * 個別刪除的檔案可以個別還原。
+  * 個別刪除的檔案可以個別還原。
 
-     當您還原父級時，會復原已刪除的檔案及其父級專案、任務或問題，但您無法個別還原。
+    當您還原父級時，會復原已刪除的檔案及其父級專案、任務或問題，但您無法個別還原。
 
-   * 檔案或檔案校訂的所有版本都會在檔案還原時還原。\
-     個別刪除的檔案或檔案校訂的個別版本無法復原。
+  * 檔案或檔案校訂的所有版本都會在檔案還原時還原。\
+    個別刪除的檔案或檔案校訂的個別版本無法復原。
 
 ## 當您還原專案、任務或問題時，未復原的資訊
 
@@ -179,13 +186,13 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 * 還原專案之後：
 
-   * 系統會顯示訊息，讓您知道是否成功。
+  * 系統會顯示訊息，讓您知道是否成功。
 
-     您也會收到電子郵件通知。 如果您還原多個專案，電子郵件會列出這些專案。
+    您也會收到電子郵件通知。 如果您還原多個專案，電子郵件會列出這些專案。
 
-   * 註解會顯示在專案、任務或問題的更新區域中，以及父物件的更新區域中。
+  * 註解會顯示在專案、任務或問題的更新區域中，以及父物件的更新區域中。
 
-     當您還原檔案或範本時，不會發生這種情況。
+    當您還原檔案或範本時，不會發生這種情況。
 
 ## 已還原的校訂
 

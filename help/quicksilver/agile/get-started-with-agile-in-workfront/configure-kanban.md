@@ -8,22 +8,29 @@ feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/JxmS1LNAaCdJirWKbg1ab1d4oko8WOl9OC4mMdRIYVc
+TQID: 'https://experienceleague.adobe.com/JxmS1LNAaCdJirWKbg1ab1d4oko8WOl9OC4mMdRIYVc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1448
+source-wordcount: '1556'
 ht-degree: 2%
-
 ---
-
 # 設定[!UICONTROL Kanban]
 
 <!--Audited: 12/2023-->
@@ -178,8 +185,8 @@ ht-degree: 2%
 1. 按一下&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![](assets/more-menu.png)，然後選取&#x200B;**[!UICONTROL 編輯]**。
 1. 在&#x200B;**[!UICONTROL 敏捷]**&#x200B;區段的&#x200B;**[!UICONTROL 方法]**&#x200B;區段中，確定已選取Kanban。
 
-1. 在&#x200B;**[!UICONTROL 故事板]**&#x200B;區段的&#x200B;**[!UICONTROL WIP限制]**&#x200B;欄位中，指定[!UICONTROL Kanban]敏捷故事板每個欄中允許的專案數目上限。您可以為每個欄設定不同的限制。您可以為每個欄設定的最大限製為100。
-設定後，每當超過故事板上任何欄的限制，WIP限制會在[!UICONTROL Kanban]敏捷故事板上顯示警告訊息。此警告訊息只會在第一次超過WIP限制時顯示。此警告訊息不會顯示在任何狀態等於[!UICONTROL 完成]的資料行上。
+1. 在&#x200B;**[!UICONTROL 故事板]**&#x200B;區段的&#x200B;**[!UICONTROL WIP限制]**&#x200B;欄位中，指定[!UICONTROL Kanban]敏捷故事板每個欄中允許的專案數目上限。 您可以為每個欄設定不同的限制。 您可以為每個欄設定的最大限製為100。
+設定後，每當超過故事板上任何欄的限制，WIP限制會在[!UICONTROL Kanban]敏捷故事板上顯示警告訊息。 此警告訊息只會在第一次超過WIP限制時顯示。 此警告訊息不會顯示在任何狀態等於[!UICONTROL 完成]的資料行上。
 WIP限制只是視覺上的警告，不會限制您的團隊在單一欄中有超過您設定的限制以上的專案。
 
    ![在製品限制](assets/wip-limit-350x193.png)

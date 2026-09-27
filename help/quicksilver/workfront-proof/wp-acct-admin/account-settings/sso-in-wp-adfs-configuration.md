@@ -2,29 +2,40 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
-title: ' [!DNL Workfront Proof]中的單一登入： AD FS組態'
+title: '[!DNL Workfront Proof]中的單一登入： AD FS設定'
 description: 如果您是AD伺服器的管理員，則可以安裝和設定AD FS。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 670422e9-5db8-4f06-baf8-1f9ce83873fe
-TQID: https://experienceleague.adobe.com/SsCChdvLwy-i48BkLL8xbm7e0gUOVUStR-0XxcT3uXs
+TQID: 'https://experienceleague.adobe.com/SsCChdvLwy-i48BkLL8xbm7e0gUOVUStR-0XxcT3uXs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 769
+source-wordcount: '963'
 ht-degree: 0%
-
 ---
-
 # [!DNL Workfront Proof]中的單一登入： AD FS設定
 
 >[!IMPORTANT]
@@ -48,8 +59,8 @@ ht-degree: 0%
 
 1. 若要取得高可用性與負載平衡，請按一下[新增同盟伺服器陣列]。
 1. 指定您的Federation服務名稱。
-依預設，設定精靈會擷取繫結至IIS中預設網站的SSL憑證，並將使用那裡指定的主體名稱。如果您使用萬用字元憑證，則需要輸入Federation Service名稱。
-如果IIS中未設定SSL憑證，則設定精靈會在本機電腦憑證存放區中搜尋任何有效的憑證。這些引數會顯示在SSL憑證下拉式清單中。如果沒有找到憑證，您可以使用IIS中的伺服器憑證產生器來建立憑證。
+依預設，設定精靈會擷取繫結至IIS中預設網站的SSL憑證，並將使用那裡指定的主體名稱。 如果您使用萬用字元憑證，則需要輸入Federation Service名稱。
+如果IIS中未設定SSL憑證，則設定精靈會在本機電腦憑證存放區中搜尋任何有效的憑證。 這些引數會顯示在SSL憑證下拉式清單中。 如果沒有找到憑證，您可以使用IIS中的伺服器憑證產生器來建立憑證。
 
 1. 繼續進行組態，完成後按一下[關閉]。**&#x200B;**
 

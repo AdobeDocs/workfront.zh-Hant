@@ -9,20 +9,24 @@ feature: Reports and Dashboards
 exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/VS98ehq5B16r2n9wwHhWUSgTR3gI-i9GgQYRtLKylz0
+TQID: 'https://experienceleague.adobe.com/VS98ehq5B16r2n9wwHhWUSgTR3gI-i9GgQYRtLKylz0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 932
+source-wordcount: '932'
 ht-degree: 0%
-
 ---
-
 # 「IF」陳述式概述
 
 <!-- Audited: 1/2024 -->
@@ -42,9 +46,9 @@ ht-degree: 0%
 
 * 您可以為下列Workfront元素建立「IF」陳述式：
 
-   * 檢視
-   * 群組
-   * 已計算的自訂欄位
+  * 檢視
+  * 群組
+  * 已計算的自訂欄位
 
 * 您無法建立篩選器的「IF」陳述式。 這會導致Workfront發生「糟糕」錯誤。
 * 支援團隊不協助建立自訂資料。 建立自訂欄位或欄位後，如果看不到想要的結果，可以聯絡支援團隊。 如需建立運算式的協助，請聯絡您的客戶經理，查詢我們的諮詢選項。
@@ -60,9 +64,9 @@ ht-degree: 0%
 
 * **條件** =這是Workfront變數必須符合的條件，也是這個方程式的基礎。 之後可在方程式中指定的所有內容都取決於條件。 您可以使用許多參照、比較或數學運算式來啟動方程式。 條件的一些範例包括：
 
-   * 指定物件上的日期晚於另一個日期。
-   * 狀態等於指定物件上可用的狀態之一。
-   * 任務的完成百分比小於或大於特定百分比。
+  * 指定物件上的日期晚於另一個日期。
+  * 狀態等於指定物件上可用的狀態之一。
+  * 任務的完成百分比小於或大於特定百分比。
 
 * **條件運運算元** =這是協助您建置「IF」陳述式條件的運運算元。 例如，「等於」或「大於」是條件運運算元。 如需可在陳述式中使用的條件運運算元清單，請參閱計算自訂運算式中的[條件運運算元](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)。
 

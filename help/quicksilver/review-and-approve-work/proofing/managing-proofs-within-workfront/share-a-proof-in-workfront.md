@@ -6,25 +6,33 @@ description: 您可以透過共用檔案或將使用者新增到校訂來在Adob
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a5438db3-6507-4ebc-a27c-65f02c45783e
-TQID: https://experienceleague.adobe.com/2fQRZtOWmMXOPEq-NDvyHTVsM6SQuOj-V8UtrAys6y8
+TQID: 'https://experienceleague.adobe.com/2fQRZtOWmMXOPEq-NDvyHTVsM6SQuOj-V8UtrAys6y8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1164
+source-wordcount: '1164'
 ht-degree: 2%
-
 ---
-
 # 在Adobe Workfront中共用校訂
 
 您可以透過共用檔案或將使用者新增到校訂來在Adobe Workfront中共用校訂檔案。
@@ -93,15 +101,15 @@ ht-degree: 2%
 
    * 若要直接從Adobe Workfront透過電子郵件傳送連結，請執行下列動作：
 
-      1. 在&#x200B;**或電子郵件連結至**&#x200B;欄位中，開始輸入並選取收件者的名稱。 或指定要與其共用的外部使用者的電子郵件地址。
+     1. 在&#x200B;**或電子郵件連結至**&#x200B;欄位中，開始輸入並選取收件者的名稱。 或指定要與其共用的外部使用者的電子郵件地址。
 
-         >[!NOTE]
-         >
-         >如果您在共用校訂時看到別名電子郵件，請勿在存在對應的別名電子郵件時輸入原始電子郵件來建立新的訪客使用者。
+        >[!NOTE]
+        >
+        >如果您在共用校訂時看到別名電子郵件，請勿在存在對應的別名電子郵件時輸入原始電子郵件來建立新的訪客使用者。
 
-      1. 從下列選項中選取：
+     1. 從下列選項中選取：
 
-         <table style="table-layout:auto">
+        <table style="table-layout:auto">
           <col>
           <col>
           <tbody>
@@ -120,11 +128,11 @@ ht-degree: 2%
           </tbody>
          </table>
 
-      1. 按一下「**傳送**」。
+     1. 按一下「**傳送**」。
 
-         收件者會收到電子郵件通知，其中包含有關校樣和您選擇加入之按鈕的資訊。
+        收件者會收到電子郵件通知，其中包含有關校樣和您選擇加入之按鈕的資訊。
 
-         ![](assets/proof-share-email-350x87.png)
+        ![](assets/proof-share-email-350x87.png)
 
 ## 將使用者新增到校訂
 

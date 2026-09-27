@@ -7,18 +7,21 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1b621b35-6c8b-4f6a-bcba-ed6cbfe83a8c
-TQID: https://experienceleague.adobe.com/rft0idTJddZkXvAcOymqXarAs1zTf77HttI6vuwCTlw
+TQID: 'https://experienceleague.adobe.com/rft0idTJddZkXvAcOymqXarAs1zTf77HttI6vuwCTlw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Developer
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 275
+source-wordcount: '275'
 ht-degree: 0%
-
 ---
-
 # 事件訂閱傳送需求
 
 事件訂閱訊息是通知，可設定為在某些事件發生時通知使用者。 若要深入瞭解哪些是事件訂閱，請參閱[常見問題集 — 事件訂閱](../../wf-api/general/event-subs-faq.md)。
@@ -37,7 +40,7 @@ ht-degree: 0%
 
 * 如果由事件訂閱訊息觸發的長期執行業務流程，Workfront建議
 
-   1. 端點會在收到訊息時儲存訊息資訊，並立即以200層級狀態回應。
-   1. 端點回應事件訂閱傳遞請求後，即可處理儲存的訊息。
+  1. 端點會在收到訊息時儲存訊息資訊，並立即以200層級狀態回應。
+  1. 端點回應事件訂閱傳遞請求後，即可處理儲存的訊息。
 
 * 事件訂閱訊息或物件不能大於1 MB。

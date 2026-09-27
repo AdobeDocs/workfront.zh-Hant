@@ -1,27 +1,31 @@
 ---
 product-area: workfront-navigation
 navigation-topic: workfront-navigation
-title: ' [!DNL Workfront]的Adobe Unified Experience'
-description: 透過Adobe CX Enterprise存取 [!DNL Workfront] 可讓您以順暢、統一的體驗管理所有Adobe應用程式。
+title: '[!DNL Workfront]的Adobe Unified Experience'
+description: 透過Adobe CX Enterprise存取[!DNL Workfront]可讓您以順暢、統一的體驗管理所有Adobe應用程式。
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-TQID: https://experienceleague.adobe.com/4fgMPIn0x6PWLmdi-iP9lt7skFKPiGMLOGGYYfCrhC8
+TQID: 'https://experienceleague.adobe.com/4fgMPIn0x6PWLmdi-iP9lt7skFKPiGMLOGGYYfCrhC8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 96bd3d0995911ae32279972c891f92281ce7f0a1
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 697
+source-wordcount: '698'
 ht-degree: 3%
-
 ---
-
 # [!DNL Workfront]的[!DNL Adobe Unified Experience]
 
 <!--Audited: 10/2024-->

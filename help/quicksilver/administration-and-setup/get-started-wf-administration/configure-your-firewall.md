@@ -8,27 +8,35 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-TQID: https://experienceleague.adobe.com/voAiMROhu9NJkN-WLjPWcpDu-x8YYgtlZNeNWk8dFjA
+TQID: 'https://experienceleague.adobe.com/voAiMROhu9NJkN-WLjPWcpDu-x8YYgtlZNeNWk8dFjA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+    internal-label: APIs
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: ec8965fc-2f75-47f6-a9bb-730e8c2725f3
+    internal-label: Event Subscription API
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1456
+source-wordcount: '1456'
 ht-degree: 6%
-
 ---
-
 # 設定防火牆的允許清單
 
 <!-- Audited: 12/2023 -->
@@ -382,11 +390,11 @@ jira.workfront.com網域也必須可從您的公司伺服器存取。 此網域�
 
   這是包含下列所有網域的靜態網域。 您可以視需要新增個別網域：
 
-   * mfe.static.workfront.com
-   * mfe-c.static.workfront.com
-   * mfe-preview-c.static.workfront.com
-   * mfe-preview.static.workfront.com
-   * mfe-review.static.workfront.com
+  * mfe.static.workfront.com
+  * mfe-c.static.workfront.com
+  * mfe-preview-c.static.workfront.com
+  * mfe-preview.static.workfront.com
+  * mfe-review.static.workfront.com
 
 由於您的組織位於Adobe Unified Experience，因此會使用下列網域。 這些網域涵蓋在`*.adobe.com`下，但可視需要新增。
 
@@ -401,16 +409,16 @@ jira.workfront.com網域也必須可從您的公司伺服器存取。 此網域�
 <!--Remove me October 2026-->
 
 * 對於不在Adobe Unified Experience上的組織：
-   * app.workfrontfusion.com （美國AWS）
-   * app-eu.workfrontfusion.com （歐盟AWS）
-   * app-az.workfrontfusion.com （美國Azure）
+  * app.workfrontfusion.com （美國AWS）
+  * app-eu.workfrontfusion.com （歐盟AWS）
+  * app-az.workfrontfusion.com （美國Azure）
 
 * 適用於Adobe Unified Experience上的組織
 （`*.adobe.com`涵蓋這些網域，但可視需要新增。）
 
-   * fusion.adobe.com
-   * app-eu.fusion.adobe.com
-   * app-az.fusion.adobe.com
+  * fusion.adobe.com
+  * app-eu.fusion.adobe.com
+  * app-az.fusion.adobe.com
 
 
 

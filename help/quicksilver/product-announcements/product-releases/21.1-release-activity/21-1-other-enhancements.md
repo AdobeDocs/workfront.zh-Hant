@@ -8,24 +8,29 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aa6cfba2-d1df-4d7c-975b-2ae0e63b6d85
-TQID: https://experienceleague.adobe.com/1lcvQ0nqvMnGKfZmGhLU-brSdgjnNRu70P1RhEmBW2A
+TQID: 'https://experienceleague.adobe.com/1lcvQ0nqvMnGKfZmGhLU-brSdgjnNRu70P1RhEmBW2A'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 766
+source-wordcount: '766'
 ht-degree: 1%
-
 ---
-
 # 21.1其他增強功能
 
 本頁說明21.1版對預覽環境所做的所有其他增強功能。 這些增強功能將在2021年2月15日當週的生產環境中提供。

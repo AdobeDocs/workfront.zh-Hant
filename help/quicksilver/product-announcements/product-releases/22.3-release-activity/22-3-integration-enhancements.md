@@ -2,30 +2,37 @@
 title: 22.3整合增強功能
 description: 22.3整合增強功能
 author: Luke
-draft: No
+draft: 'No'
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: caaef6a2-a554-4a2c-a86d-df3f19a4f40c
-TQID: https://experienceleague.adobe.com/1Htz1VQzgsbRxs0PnoQqRDvWbF1WexWohgpDynsHfKQ
+TQID: 'https://experienceleague.adobe.com/1Htz1VQzgsbRxs0PnoQqRDvWbF1WexWohgpDynsHfKQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: d1807669-3cb9-4c7d-8433-600aa390c92f
+    internal-label: Adobe Workfront for Creative Cloud Plugin
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 378
+source-wordcount: '378'
 ht-degree: 2%
-
 ---
-
 # 22.3整合增強功能
 
 本頁說明22.3版對預覽環境所做的所有整合增強功能。 這些增強功能將於2022年1月11日當週的2022年7月11日在生產環境中提供。 如需22.3版本可用的所有變更清單，請參閱[22.3版本總覽](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)。

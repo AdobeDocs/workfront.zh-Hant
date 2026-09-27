@@ -8,20 +8,27 @@ feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/HQ4-iyp5Tky-LQIhkjhXUJR9v-tZHA7PEmZvPGOYuPQ
+TQID: 'https://experienceleague.adobe.com/HQ4-iyp5Tky-LQIhkjhXUJR9v-tZHA7PEmZvPGOYuPQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Customer experience
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 795
+source-wordcount: '795'
 ht-degree: 1%
-
 ---
-
 # Adobe Workfront目標中的目標進度和條件概觀
 
 <!--Audited for P&P only: 4/2025-->

@@ -8,26 +8,33 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-TQID: https://experienceleague.adobe.com/9fo3z6Jy3aEPYXJ9vYSbaqWCjwnq7vS-h067PtU9b-Y
+TQID: 'https://experienceleague.adobe.com/9fo3z6Jy3aEPYXJ9vYSbaqWCjwnq7vS-h067PtU9b-Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2612
+source-wordcount: '2612'
 ht-degree: 1%
-
 ---
-
 # 大量編輯使用者設定檔
 
 您可以大量編輯使用者帳戶。 當大量編輯使用者時，只有您特別選取的欄位會更新為所選的所有使用者提供相同的資訊。 您未選取的所有其他欄位，每位使用者都將維持不變，即使每位使用者各有不同。
@@ -123,11 +130,11 @@ ht-degree: 1%
 
   下列清單說明您在此欄位中可用的範本清單如何取決於您的存取權：
 
-   * 身為Workfront管理員，您可以檢視所有系統層級和群組層級的版面配置範本。
-   * 身為群組管理員，您可以檢視系統層級配置範本，以及與您管理的群組相關聯的配置範本。
-   * 作為具有Standard或Plan授權並擁有編輯使用者存取權的使用者，您只能看到系統層級的版面配置範本。
+  * 身為Workfront管理員，您可以檢視所有系統層級和群組層級的版面配置範本。
+  * 身為群組管理員，您可以檢視系統層級配置範本，以及與您管理的群組相關聯的配置範本。
+  * 作為具有Standard或Plan授權並擁有編輯使用者存取權的使用者，您只能看到系統層級的版面配置範本。
 
-     如需群組層級配置範本的詳細資訊，請參閱[建立和修改群組的配置範本](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)。
+    如需群組層級配置範本的詳細資訊，請參閱[建立和修改群組的配置範本](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)。
 
 ### 組織
 
@@ -140,9 +147,9 @@ ht-degree: 1%
 
   只有符合下列其中一項，您才能將群組指派給使用者：
 
-   * 您是Workfront管理員
-   * 您是群組的管理員
-   * 群組是公開的
+  * 您是Workfront管理員
+  * 您是群組的管理員
+  * 群組是公開的
 
 * **其他群組**：使用者可以屬於多個群組。 只有當您是Workfront管理員、您是群組管理員或群組為公用時，才能將群組指派給使用者。
 
@@ -211,9 +218,9 @@ ht-degree: 1%
 
   您在此欄位中可用的設定檔清單取決於您的存取權：
 
-   * 身為Workfront管理員，您可以檢視所有系統層級和所有群組層級的時程表設定檔。
-   * 作為群組管理員，您可以檢視系統層級的時程表設定檔，以及與您管理的群組相關聯的時程表設定檔。
-   * 作為具有標準或計畫授權並存取許可權以編輯使用者的使用者，您只能看到系統層級的時程表設定檔。 如需群組層級週期性時程表的詳細資訊，請參閱[建立、編輯和指派週期性時程表](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)。
+  * 身為Workfront管理員，您可以檢視所有系統層級和所有群組層級的時程表設定檔。
+  * 作為群組管理員，您可以檢視系統層級的時程表設定檔，以及與您管理的群組相關聯的時程表設定檔。
+  * 作為具有標準或計畫授權並存取許可權以編輯使用者的使用者，您只能看到系統層級的時程表設定檔。 如需群組層級週期性時程表的詳細資訊，請參閱[建立、編輯和指派週期性時程表](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)。
 
 * **預設小時型別**：為使用者選取預設小時型別。 這是使用者記錄時間時，預設使用的小時型別。
 * **可用時數型別**：選取使用者應該可用的時數型別。 這些小時型別在Workfront中任何使用者可記錄時間的位置都可見。 使用者只能看到在專案層級和使用者層級啟用的小時型別。 如需使用者可以使用哪些時數型別的詳細資訊，請參閱[定義時數型別和可用性](/help/quicksilver/timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)。

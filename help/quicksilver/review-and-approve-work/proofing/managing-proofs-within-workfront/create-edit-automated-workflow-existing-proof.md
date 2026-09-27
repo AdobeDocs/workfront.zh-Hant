@@ -6,22 +6,29 @@ description: 如果您的程式複雜或您定期傳送內容給相同的人員�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 852f960f-1b57-4a8a-a928-407ad52418e6
-TQID: https://experienceleague.adobe.com/-DB-GcrMJXtRFlMwPnH6yTfoN7MMy1-9Q1weey8U6r4
+TQID: 'https://experienceleague.adobe.com/-DB-GcrMJXtRFlMwPnH6yTfoN7MMy1-9Q1weey8U6r4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1149
+source-wordcount: '1149'
 ht-degree: 2%
-
 ---
-
 # 建立或編輯現有校訂的自動化工作流程
 
 如果您的程式複雜或您定期傳送內容給相同的人員群組進行稽核，自動化工作流程可讓您更輕鬆地管理稽核流程。 使用自動化工作流程建立校訂時，校訂會從不同階段移至不同階段，直到最終核准為止。 輪到參與者檢閱檔案時，會通知他們。

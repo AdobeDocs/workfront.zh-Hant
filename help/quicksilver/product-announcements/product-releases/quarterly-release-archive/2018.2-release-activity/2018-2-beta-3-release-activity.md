@@ -7,22 +7,27 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 239a4e7e-e9db-4cf0-a703-8888e00f0d83
-TQID: https://experienceleague.adobe.com/496MnQ2HZg6qwvdMzXQ7vQBtD2msLKmcDvDizeljurY
+TQID: 'https://experienceleague.adobe.com/496MnQ2HZg6qwvdMzXQ7vQBtD2msLKmcDvDizeljurY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 482
+source-wordcount: '527'
 ht-degree: 0%
-
 ---
-
 # 2018.2 Beta 3發行活動
 
 本頁說明2018.2 Beta 3版本預覽環境中最近可用的所有變更。 預覽環境已於2018年4月19日提供此功能。 它將於2018年6月在生產環境中提供。
@@ -71,7 +76,7 @@ Kanban內文板上的每個內文拼貼現在都包含一個旗標，團隊成�
 
 ## 改善多個字詞的搜尋相關性 {#improved-search-relevancy-for-multiple-words}
 
-我們改變了使用多個關鍵字執行搜尋的方式。透過新的更新，當搜尋多個單字時，搜尋會尋找包含所有指定單字的專案。如果要搜尋關鍵字中的任何單字，必須在搜尋字詞之間插入「OR」（不含引號）。 
+我們改變了使用多個關鍵字執行搜尋的方式。 透過新的更新，當搜尋多個單字時，搜尋會尋找包含所有指定單字的專案。 如果要搜尋關鍵字中的任何單字，必須在搜尋字詞之間插入「OR」（不含引號）。 
 
 在此變更之前，一次搜尋多個字詞會尋找包含片語中任何或所有字詞的專案。 
 

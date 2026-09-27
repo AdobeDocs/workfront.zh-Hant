@@ -8,27 +8,35 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-TQID: https://experienceleague.adobe.com/B-e1dKHbwsebC--FculRfneM-uqojz6REb1Fo6O486I
+TQID: 'https://experienceleague.adobe.com/B-e1dKHbwsebC--FculRfneM-uqojz6REb1Fo6O486I'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 527
+source-wordcount: '527'
 ht-degree: 7%
-
 ---
-
 # 使用版面配置範本自訂釘選頁面
 
 在版面配置範本中，您可以在Adobe Workfront頂端釘選希望使用者始終可用的頁面。 這些可能是透過主功能表![主功能表圖示](assets/main-menu-icon-left-nav.png)存取的頁面，或是儀表板。
@@ -82,25 +90,25 @@ ht-degree: 7%
 
    * 從下列區域選取：
 
-      * 行事曆
-      * 儀表板
-      * 文件
-      * 目標
-      * 首頁
-      * 我的更新
-      * 專案組合
-      * 計劃
-      * 專案
-      * 報告
-      * 請求
-      * 資源分配
-      * 情境
-      * 團隊
-      * 範本
-      * 時程表
-      * 使用者
-      * 藍圖
-      * 計畫
+     * 行事曆
+     * 儀表板
+     * 文件
+     * 目標
+     * 首頁
+     * 我的更新
+     * 專案組合
+     * 計劃
+     * 專案
+     * 報告
+     * 請求
+     * 資源分配
+     * 情境
+     * 團隊
+     * 範本
+     * 時程表
+     * 使用者
+     * 藍圖
+     * 計畫
 
      >[!IMPORTANT]
      >
@@ -113,9 +121,9 @@ ht-degree: 7%
      >* 如需Workfront Planning的相關資訊，請參閱[開始使用Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)。
 
    * 按一下&#x200B;**新增儀表板**
-      * 在&#x200B;<!--**Quick link name**-->**自訂名稱**&#x200B;欄位中輸入描述性名稱
-      * 在&#x200B;**新增儀表板**&#x200B;欄位<!-- dropdown for existing or canvas dashboard, called "Choose a dashboard" now -->中選取儀表板
-      * 按一下&#x200B;**新增**。
+     * 在&#x200B;<!--**Quick link name**-->**自訂名稱**&#x200B;欄位中輸入描述性名稱
+     * 在&#x200B;**新增儀表板**&#x200B;欄位<!-- dropdown for existing or canvas dashboard, called "Choose a dashboard" now -->中選取儀表板
+     * 按一下&#x200B;**新增**。
 
 1. 重複上一步驟以釘選任何其他頁面。
 

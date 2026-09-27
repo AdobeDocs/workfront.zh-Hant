@@ -10,18 +10,21 @@ role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/yBJa1km1L7-DnwPLDLUZgN-zqUeWgRO6Fg04sghMUWo
+TQID: 'https://experienceleague.adobe.com/yBJa1km1L7-DnwPLDLUZgN-zqUeWgRO6Fg04sghMUWo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 774
+source-wordcount: '774'
 ht-degree: 1%
-
 ---
-
 # 處理它並完成按鈕總覽
 
 當您被指派到任務或問題時，您可以使用內容按鈕，該按鈕會根據您對工作專案的參與來變更名稱和功能。

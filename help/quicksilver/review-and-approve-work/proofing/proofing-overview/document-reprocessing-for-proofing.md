@@ -6,20 +6,27 @@ description: 當您提交校訂檔案(DOCX、PDF、XLSX、AI)時，Adobe Workfro
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e577fa71-4828-4fc2-93a2-0eddbb5ad2ad
-TQID: https://experienceleague.adobe.com/giMfktfCHbpzATLm-1ZrKi1bkoc4OeFlAqXYu-YWQtA
+TQID: 'https://experienceleague.adobe.com/giMfktfCHbpzATLm-1ZrKi1bkoc4OeFlAqXYu-YWQtA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Customer experience
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 632
+source-wordcount: '681'
 ht-degree: 0%
-
 ---
-
 # 校訂概覽的檔案重新處理
 
 當您提交校訂檔案(DOCX、PDF、XLSX、AI)時，Adobe Workfront會重新處理該檔案，以便該檔案顯示在校訂檢視器中，而無需使用您用來建立它的軟體應用程式。 
@@ -59,6 +66,6 @@ ht-degree: 0%
 
 提交的檔案會進行下列部分或全部步驟：
 
-1. **提交**。將檔案上傳到系統時，您會使用新校樣頁面或使用應用程式設計介面(API)進行上傳。 
-1. **佇列**。在高流量期間，Workfront可能需要將提交內容排入佇列，以免系統過載。大部分的校訂在佇列中只會花費幾秒鐘。 
+1. **提交**。 將檔案上傳到系統時，您會使用新校樣頁面或使用應用程式設計介面(API)進行上傳。 
+1. **佇列**。 在高流量期間，Workfront可能需要將提交內容排入佇列，以免系統過載。 大部分的校訂在佇列中只會花費幾秒鐘。 
 1. **正在處理。**&#x200B;根據內容型別，檔案會到達處理電腦。 我們使用不同的工具來處理視訊校樣、網頁擷取、靜態影像和檔案。 多媒體容器(ZIP)和互動式網頁擷取提交不需要處理。

@@ -1,30 +1,39 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
-title: 將 [!DNL Anaplan] 預算分配套用至 [!DNL Adobe Workfront] 行銷活動請求或行銷活動專案
-description: 此整合案例會同步任何已在 [!DNL Anaplan] 回到 [!DNL Workfront]中進行的預算分配。 此案例會提取所有連結的行銷活動預算專案，然後在預算值已變更時，將預算值傳遞至連結的Workfront專案。
+title: 將[!DNL Anaplan]預算分配套用至[!DNL Adobe Workfront]行銷活動請求或行銷活動專案
+description: 此整合情境會將已在[!DNL Anaplan]中進行的所有預算分配同步回[!DNL Workfront]。 此案例會提取所有連結的行銷活動預算專案，然後在預算值已變更時，將預算值傳遞至連結的Workfront專案。
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: 8ae28911-fa18-459a-aa50-cfb347e70e61
-TQID: https://experienceleague.adobe.com/iN2SzXUL8Qa5J-TeFMtJeHFJeS3774TkD2xqtaA-DHE
+TQID: 'https://experienceleague.adobe.com/iN2SzXUL8Qa5J-TeFMtJeHFJeS3774TkD2xqtaA-DHE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d8302c96-f652-4d09-896b-19a70bab02a5
+    internal-label: System configuration
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 740
+source-wordcount: '744'
 ht-degree: 16%
-
 ---
-
 # 將[!DNL Anaplan]預算分配套用至[!DNL Adobe Workfront]行銷活動請求或行銷活動專案
 
 此整合情境會將已在[!DNL Anaplan]中進行的所有預算分配同步回[!DNL Workfront]。 案例會提取所有連結的行銷活動預算專案，然後在預算值已變更時，將預算值傳給連結的[!DNL Workfront]專案。
@@ -94,12 +103,12 @@ ht-degree: 16%
 
   清單的模組必須支援接收下列屬性：
 
-   * [!UICONTROL [!DNL Workfront]要求GUID]
-   * [!UICONTROL [!DNL Workfront]專案GUID]
-   * [!UICONTROL 行銷活動名稱]
-   * [!UICONTROL 已要求人力資金]
-   * [!UICONTROL 預估收入]
-   * [!UICONTROL 品牌]
+  * [!UICONTROL [!DNL Workfront]要求GUID]
+  * [!UICONTROL [!DNL Workfront]專案GUID]
+  * [!UICONTROL 行銷活動名稱]
+  * [!UICONTROL 已要求人力資金]
+  * [!UICONTROL 預估收入]
+  * [!UICONTROL 品牌]
 
   此清單和模組必須儲存[!DNL Anaplan]正常功能所需的額外詳細資料，包括設定預算並傳達預算清單專案已準備好同步回[!DNL Workfront]的能力。
 
@@ -107,19 +116,19 @@ ht-degree: 16%
 
   此檢視必須包含下列欄，依此順序排列：
 
-   1. [!UICONTROL 專案名稱]
+  1. [!UICONTROL 專案名稱]
 
-   2. [!UICONTROL [!DNL Workfront]要求GUID]
+  2. [!UICONTROL [!DNL Workfront]要求GUID]
 
-   3. [!UICONTROL [!DNL Workfront]專案GUID]
+  3. [!UICONTROL [!DNL Workfront]專案GUID]
 
-   4. [!UICONTROL 行銷活動名稱]
+  4. [!UICONTROL 行銷活動名稱]
 
-   5. [!UICONTROL 預算]
+  5. [!UICONTROL 預算]
 
-   6. [!UICONTROL 預估收入]
+  6. [!UICONTROL 預估收入]
 
-   7. [!UICONTROL 品牌]
+  7. [!UICONTROL 品牌]
 
   應篩選檢視以顯示具有[!UICONTROL [!DNL Workfront]專案GUID]的專案以及預算配置應傳輸至Workfront的某些指標。
 

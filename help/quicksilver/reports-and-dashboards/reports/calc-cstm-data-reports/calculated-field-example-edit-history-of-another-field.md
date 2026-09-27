@@ -10,25 +10,31 @@ feature: Reports and Dashboards
 exl-id: e233ef28-c95a-42a1-b2eb-448dad5feddb
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/JTxRZAJR9FasVE1YJugE-QZpAn7RVNwGu5mwtffutYQ
+TQID: 'https://experienceleague.adobe.com/JTxRZAJR9FasVE1YJugE-QZpAn7RVNwGu5mwtffutYQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 620
+source-wordcount: '620'
 ht-degree: 3%
-
 ---
-
 # 計算自訂欄位範例：顯示欄位的編輯歷史記錄
 
 如果使用者定期更新自訂欄位，而您想要擷取對欄位進行的所有變更的記錄以及變更發生的日期，則可以在計算的自訂欄位中擷取此資訊。
@@ -44,8 +50,8 @@ ht-degree: 3%
 * 將「指示編輯歷史記錄」欄位限製為最近2000個字元，以停留在Workfront資料庫限制內。
 * 檢查「指示」欄位的目前值是否與「指示編輯歷史記錄」值的前端相符；它會假設為空白，如果不是，則會執行下列動作：
 
-   * 如果兩者相符，則會將「指示編輯歷史記錄」維持原狀；
-   * 如果兩者不符，則會以「指示」欄位中的最新值取代「指示編輯歷史記錄」，後面接著括弧中的目前日期、垂直列，以及先前的「指示編輯歷史記錄」，這會保留先前值和輸入時的日期。
+  * 如果兩者相符，則會將「指示編輯歷史記錄」維持原狀；
+  * 如果兩者不符，則會以「指示」欄位中的最新值取代「指示編輯歷史記錄」，後面接著括弧中的目前日期、垂直列，以及先前的「指示編輯歷史記錄」，這會保留先前值和輸入時的日期。
 
 ## 存取權要求
 

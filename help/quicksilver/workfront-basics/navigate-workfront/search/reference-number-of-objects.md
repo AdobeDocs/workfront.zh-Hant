@@ -2,24 +2,28 @@
 content-type: reference
 navigation-topic: search
 title: 使用物件的參考編號
-description: 在 [!DNL Adobe Workfront]中，專案被識別為物件。 物件與資料庫相對應，並用來將資料與專案建立關聯。 在區分兩個在其他方面相似的物件（例如具有相同名稱的工作）時，參考編號非常有用。 您可以搜尋參考編號，並將其納入報表中。
+description: 在[!DNL Adobe Workfront]中，專案被識別為物件。 物件與資料庫相對應，並用來將資料與專案建立關聯。 在區分兩個在其他方面相似的物件（例如具有相同名稱的工作）時，參考編號非常有用。 您可以搜尋參考編號，並將其納入報表中。
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 94f5a174-21cc-4c10-88ed-89a8014d28f4
-TQID: https://experienceleague.adobe.com/IllwtQ1nujBL-7tjcfRqQAtg7JagQV2MEktjJQ0r4z0
+TQID: 'https://experienceleague.adobe.com/IllwtQ1nujBL-7tjcfRqQAtg7JagQV2MEktjJQ0r4z0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 448
+source-wordcount: '448'
 ht-degree: 0%
-
 ---
-
 # 使用物件的參考編號
 
 在[!DNL Adobe Workfront]中，專案被識別為物件。 物件與資料庫相對應，並用來將資料與專案建立關聯。
@@ -59,7 +63,7 @@ ht-degree: 0%
 
 若要檢視物件的參考編號，您可以建立自訂檢視或修改現有檢視，並將[!UICONTROL 參考編號]欄位新增至檢視中的欄。 例如，您可以修改[!UICONTROL 專案]檢視，以顯示您所有專案的參考編號。
 
-如需有關如何建立或修改檢視的資訊，請參閱 [!DNL Adobe Workfront][&#128279;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)中的檢視總覽。
+如需有關如何建立或修改檢視的資訊，請參閱 [!DNL Adobe Workfront]&#x200B;[&#128279;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)中的檢視總覽。
 
 ### 在報表中檢視參考編號
 

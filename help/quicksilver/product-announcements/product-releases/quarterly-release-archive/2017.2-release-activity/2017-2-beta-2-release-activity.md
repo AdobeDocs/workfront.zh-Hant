@@ -7,22 +7,29 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0aa8d61e-cf8c-46a7-b093-a0dbc90d37fd
-TQID: https://experienceleague.adobe.com/DMqQO0ANmU91bTeg5IYpb0XnfhmcpaqSWFc9b3jcdpM
+TQID: 'https://experienceleague.adobe.com/DMqQO0ANmU91bTeg5IYpb0XnfhmcpaqSWFc9b3jcdpM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 746
+source-wordcount: '796'
 ht-degree: 0%
-
 ---
-
 # 2017.2 Beta 2發行活動
 
 本頁說明2017.2 Beta 2版本預覽環境中所有可用的變更。 此頁面的功能已於2017年5月24日在預覽環境中推出。 它將在2017年7月底到8月初期間在生產環境中可用。
@@ -80,7 +87,7 @@ ht-degree: 0%
 
   在甘特圖中，與里程碑相關聯的任何任務後面都會顯示一條直線。
 
-在此變更之前，只有一個選項可讓里程碑顯示在甘特圖上，稱為「里程碑」。 此選項會同時啟用里程碑菱形圖示和里程碑線。無法分隔這些指標。這兩個選項現在可用於所有甘特圖，包括所有專案清單和報告。 
+在此變更之前，只有一個選項可讓里程碑顯示在甘特圖上，稱為「里程碑」。 此選項會同時啟用里程碑菱形圖示和里程碑線。 無法分隔這些指標。 這兩個選項現在可用於所有甘特圖，包括所有專案清單和報告。 
 
 如需有關設定資訊在甘特圖中的顯示方式的詳細資訊，請參閱[設定資訊在甘特圖上的顯示方式](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md)。
 
@@ -109,7 +116,7 @@ ht-degree: 0%
 
 ## 校訂核准報告中的新要求者物件 {#new-requester-object-in-proof-approval-report}
 
-現在，建立校訂核准報告時，有新的請求者物件。此物件可讓您報告有關請求校訂核准之使用者的資訊。 
+現在，建立校訂核准報告時，有新的請求者物件。 此物件可讓您報告有關請求校訂核准之使用者的資訊。 
 
 「校訂核准報告」中的新「請求者」物件包含其他物件報告型別中現有「使用者」物件可用的所有欄位。
 

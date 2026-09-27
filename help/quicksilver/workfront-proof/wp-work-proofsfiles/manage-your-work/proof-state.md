@@ -3,22 +3,30 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: 瞭解Workfront Proof中的校訂狀態
-description: 在 [!DNL Workfront Proof]中，校樣以不同的狀態存在。 這些狀態會決定您可以對校訂採取哪些動作，例如評論或決策。
+description: 在[!DNL Workfront Proof]中，校樣以不同的狀態存在。 這些狀態會決定您可以對校訂採取哪些動作，例如評論或決策。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cd120e53-d6c2-4929-904f-a9f72903f074
-TQID: https://experienceleague.adobe.com/hfrduMjWqBcyeqrHM5PTmCYY6jzwBCQwgQWzCqGDlls
+TQID: 'https://experienceleague.adobe.com/hfrduMjWqBcyeqrHM5PTmCYY6jzwBCQwgQWzCqGDlls'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 435
+source-wordcount: '435'
 ht-degree: 0%
-
 ---
-
 # 瞭解Workfront Proof中的校訂狀態
 
 >[!IMPORTANT]
@@ -52,7 +60,7 @@ ht-degree: 0%
 
 任何對校樣具有編輯許可權的使用者都可以將其解鎖。
 
-如需許可權的詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
+如需許可權的詳細資訊，請參閱 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
 
 >[!NOTE]
 >
@@ -68,7 +76,7 @@ ht-degree: 0%
 
 ## 檢視和變更校訂狀態
 
-如需有關檢視處於特定狀態之所有校訂清單的資訊，例如檢視所有作用中或鎖定的校訂，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中檢視頁面上的管理專案一文中的[管理檢視頁面上的專案 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)。
+如需有關檢視處於特定狀態之所有校訂清單的資訊，例如檢視所有作用中或鎖定的校訂，請參閱 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中檢視頁面上的管理專案一文中的[管理檢視頁面上的專案 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)。
 
 1. 存取您的[!DNL Workfront Proof]儀表板。
 

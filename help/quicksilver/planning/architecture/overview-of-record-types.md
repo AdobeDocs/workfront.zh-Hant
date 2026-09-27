@@ -8,19 +8,26 @@ recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/MuOE6NghGzhXKnkzBty7BSoQ3Nyo0PhkXCz7BHxpoXA
+TQID: 'https://experienceleague.adobe.com/MuOE6NghGzhXKnkzBty7BSoQ3Nyo0PhkXCz7BHxpoXA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 353
+source-wordcount: '353'
 ht-degree: 0%
-
 ---
-
 # 記錄型別概觀
 
 <!--
@@ -51,8 +58,8 @@ Workfront Planning物件型別稱為「記錄型別」，只有在使用者建�
 
 * 從範本建立工作區時，會在下列工作區區段中建立記錄型別：
 
-   * **作業記錄型別**：代表策略性計畫、方案或計畫工作的記錄型別。 例如，行銷活動、活動、策略、機會是營運記錄型別。
-   * **分類**：擷取有關作業記錄型別的屬性的記錄型別。 例如，地區、地址、對象是分類。
+  * **作業記錄型別**：代表策略性計畫、方案或計畫工作的記錄型別。 例如，行銷活動、活動、策略、機會是營運記錄型別。
+  * **分類**：擷取有關作業記錄型別的屬性的記錄型別。 例如，地區、地址、對象是分類。
 
   您可以重新命名或刪除區段和記錄型別，或建立更多區段。
 
@@ -63,8 +70,8 @@ Workfront Planning物件型別稱為「記錄型別」，只有在使用者建�
   如需一個工作區或Workfront執行個體中可以擁有多少記錄型別的限制，請參閱[Adobe Workfront Planning物件限制概觀](/help/quicksilver/planning/general/limitations-overview.md)。
 * 若要在多個工作區中使用記錄型別，您可以將記錄型別指定為全域或可連線。
 
-   * 您可以將全域記錄型別作為現有記錄型別新增到其他工作區。
-   * 可連線的記錄型別可以從其他工作區連線到。
+  * 您可以將全域記錄型別作為現有記錄型別新增到其他工作區。
+  * 可連線的記錄型別可以從其他工作區連線到。
 
   如需詳細資訊，請參閱[設定記錄型別的跨工作區功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)。
 

@@ -6,29 +6,41 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-TQID: https://experienceleague.adobe.com/7jiKsgfucD4HWoEz0nAKOGB4y2R0rpzAsq4vrNiyM3E
+TQID: 'https://experienceleague.adobe.com/7jiKsgfucD4HWoEz0nAKOGB4y2R0rpzAsq4vrNiyM3E'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Personalization
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2914
+source-wordcount: '2917'
 ht-degree: 1%
-
 ---
-
 # 23.2版本總覽
 
 本頁提供23.1版本所含功能的相關資訊。 這些增強功能已在2023年4月6日和7日的23.2版本中於生產環境中提供。
@@ -165,7 +177,7 @@ ht-degree: 1%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront展示板中可用的反複專案功能</a></p>
-                        <p>Workfront面板中提供的幾項新功能可讓您使用敏捷Scrum功能。這些功能包括：
+                        <p>Workfront面板中提供的幾項新功能可讓您使用敏捷Scrum功能。 這些功能包括：
                         <ul>
                         <li>與相同團隊相關並共同作業面板的工作串流</li>
                         <li>卡片清單或待處理工作，可選擇使用來源將卡片連線至Workfront任務和問題</li>
@@ -554,7 +566,7 @@ ht-degree: 1%
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">新的問題Beta註解體驗</a>
                         <p>Adobe Workfront中的評論體驗更新目前正在開發中。 此更新包含新介面、新功能，以及某些物件「更新」區段的改進效能。 </p>
-                        <p>此新體驗最終將統一整個Adobe Workfront及更廣泛、整個Adobe Experience Cloud的評論。 </p>
+                        <p>此新體驗最終將統一整個Adobe Workfront及其他版本（整個Adobe Experience Cloud）的評論。 </p>
                     </td>
                     <td><p><b>將於下列日期提供：</b></p>
                         <ul>
@@ -572,9 +584,9 @@ ht-degree: 1%
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">加入Adobe Unified Experience的新客戶</a></p>
                         <p>Adobe Unified Experience包括：
                         <ul>
-                        <li>透過Adobe Experience Cloud對所有Adobe應用程式執行單一登入</li>
+                        <li>透過Adobe Experience Cloud對所有Adobe應用程式進行單一登入</li>
                         <li>可在Workfront組織和環境之間移動的「組織切換器」</li>
-                        <li>包含Workfront頁面、Adobe Experience Cloud偏好設定和您的Workfront設定檔選項的導覽</li>
+                        <li>包含Workfront頁面、Adobe Experience Cloud偏好設定和Workfront設定檔選項的導覽</li>
                         </ul>
                         </p>
                     </td>

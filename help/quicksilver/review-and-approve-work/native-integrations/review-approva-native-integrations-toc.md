@@ -10,20 +10,28 @@ author: Courtney
 exl-id: b5fed2b5-aa58-4cf1-b7d8-2573216b79f5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/OWyXyT7vkj--6Rx9070wltvrG6dvGkeBkfOu2ZmqhFM
+TQID: 'https://experienceleague.adobe.com/OWyXyT7vkj--6Rx9070wltvrG6dvGkeBkfOu2ZmqhFM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 97
+source-wordcount: '97'
 ht-degree: 0%
-
 ---
-
 # 檢閱和核准原生整合：文章索引
 
 <!--Audited: 12/2025-->

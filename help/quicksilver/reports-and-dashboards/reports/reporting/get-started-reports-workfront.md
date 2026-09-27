@@ -9,27 +9,35 @@ feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/36hlWb4SKgHqZCt70lm6rt7l2V-qzpisXj6HJJUf9XQ
+TQID: 'https://experienceleague.adobe.com/36hlWb4SKgHqZCt70lm6rt7l2V-qzpisXj6HJJUf9XQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3259
+source-wordcount: '3321'
 ht-degree: 1%
-
 ---
-
 # 開始使用報告
 
 <!-- Audited: 12/2023 -->
@@ -193,7 +201,7 @@ Workfront提供數個系統報告，預設會載入您的系統。\
 >[!IMPORTANT]
 >
 >根據您的時區，「詳細資訊」標籤中的資訊可能會與「圖表」標籤顯示不同。\
->例如，加州的使用者於2月12日晚上9:30 PST完成工作。 當紐約的使用者檢視包含此任務完成的報告時，實際完成日期在2月13日詳細資訊標籤和圖表詳細資訊中都顯示為2月13日，因為它是在2月13日美國東部時間凌晨12:30完成的。 不過，在圖表中，它包含在2月12日分組中，直到您展開圖表元素為止。
+>例如，加州的使用者於2月12日晚上9:30完成工作。 當紐約的使用者檢視包含此作業完成的報表時，「實際完成日期」在「明細」標籤與「圖表」明細中皆顯示為2月13日，因為完成日期為2月13日EST凌晨12:30。 不過，在圖表中，它包含在2月12日分組中，直到您展開圖表元素為止。
 
 ### 摘要標籤 {#summary-tab}
 
@@ -222,7 +230,7 @@ Workfront提供數個系統報告，預設會載入您的系統。\
 >[!IMPORTANT]
 >
 >當您按一下圖表元素時，展開的資訊可能會根據您的時區，與圖表顯示不同的資訊。\
->例如，加州的使用者於2月12日晚上9:30 PST完成工作。 當紐約的使用者檢視包含此任務完成的報告時，實際完成日期在2月13日詳細資訊標籤和圖表詳細資訊中都顯示為2月13日，因為它是在2月13日美國東部時間凌晨12:30完成的。 不過，在圖表中，它包含在2月12日分組中，直到您展開圖表元素為止。
+>例如，加州的使用者於2月12日晚上9:30完成工作。 當紐約的使用者檢視包含此作業完成的報表時，「實際完成日期」在「明細」標籤與「圖表」明細中皆顯示為2月13日，因為完成日期為2月13日EST凌晨12:30。 不過，在圖表中，它包含在2月12日分組中，直到您展開圖表元素為止。
 
 如需有關使用圖表建置報表的資訊，請參閱文章[將圖表新增至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)。
 

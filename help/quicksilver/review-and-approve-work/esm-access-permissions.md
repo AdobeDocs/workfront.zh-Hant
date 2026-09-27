@@ -9,20 +9,26 @@ recommendations: noDisplay, noCatalog
 exl-id: 758d17e6-f31f-42b7-a9e6-6bd1821f5c15
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/ckHEVC5iDp8A8xidvA16L0csKu0ey8LZHVlA2-QlCgQ
+TQID: 'https://experienceleague.adobe.com/ckHEVC5iDp8A8xidvA16L0csKu0ey8LZHVlA2-QlCgQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 944
+source-wordcount: '944'
 ht-degree: 1%
-
 ---
-
 # Adobe雲端儲存模式的物件許可權和存取層級總覽
 
 <!--linked in UI -->
@@ -41,8 +47,8 @@ Workfront存取層級僅適用於Workfront。 Workfront中的專案和檔案限�
 * **Adobe雲端儲存空間**：使用Adobe雲端儲存空間的專案、計畫、產品組合和範本，會依循其他Adobe產品的Adobe雲端儲存空間存取層級邏輯。
 
 
-   * **專案、程式、產品組合及範本物件許可權**：當存取層級針對專案、程式、產品組合及範本選取&#x200B;**無存取權**，但物件已與他們共用，使用者無法在Workfront中檢視物件，但他們仍可在其他Adobe工具（例如Frame.io和Adobe Creative Cloud）中檢視物件名稱及任何關聯檔案。
-   * **檔案許可權**：當存取層級為檔案選取&#x200B;**無存取權**&#x200B;時，使用者無法在Workfront中檢視專案上的檔案，但他們仍可在其他Adobe工具（例如Frame.io和Adobe Creative Cloud）中檢視和管理與其共用專案的檔案。 這是因為檔案存取取決於Adobe雲端儲存空間中的專案層級許可權，而非僅由Workfront存取層級決定。
+  * **專案、程式、產品組合及範本物件許可權**：當存取層級針對專案、程式、產品組合及範本選取&#x200B;**無存取權**，但物件已與他們共用，使用者無法在Workfront中檢視物件，但他們仍可在其他Adobe工具（例如Frame.io和Adobe Creative Cloud）中檢視物件名稱及任何關聯檔案。
+  * **檔案許可權**：當存取層級為檔案選取&#x200B;**無存取權**&#x200B;時，使用者無法在Workfront中檢視專案上的檔案，但他們仍可在其他Adobe工具（例如Frame.io和Adobe Creative Cloud）中檢視和管理與其共用專案的檔案。 這是因為檔案存取取決於Adobe雲端儲存空間中的專案層級許可權，而非僅由Workfront存取層級決定。
 
 如果您在Workfront環境中啟用了Adobe雲端儲存空間，則可建立Adobe雲端儲存空間專案和舊版Workfront儲存空間專案。 舊版Workfront儲存專案會在Workfront中顯示的專案名稱旁顯示圖示。 Adobe雲端儲存空間專案不會顯示圖示。
 

@@ -1,23 +1,26 @@
 ---
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: '設定MobileIron的 [!DNL Adobe Workfront] '
+title: 設定MobileIron的[!DNL Adobe Workfront]
 description: 在適用於MobileIron應用程式的Adobe Workfront中，我們支援MobileIron為Android和iOS提供的預設設定。
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 294fd42d-89a8-44c2-a97c-95ea5dd876d4
-TQID: https://experienceleague.adobe.com/xjcpS1OWeVMi-vaSqehNuxg8-ry-Aue--nHY8Si1ZEU
+TQID: 'https://experienceleague.adobe.com/xjcpS1OWeVMi-vaSqehNuxg8-ry-Aue--nHY8Si1ZEU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 258
+source-wordcount: '259'
 ht-degree: 0%
-
 ---
-
 # 為[!DNL MobileIron]設定[!DNL Adobe Workfront]
 
 在[!DNL MobileIron]應用程式的Adobe Workfront中，我們支援[!DNL MobileIron]為[!DNL Android]和[!DNL iOS]提供的預設設定。

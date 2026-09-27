@@ -6,22 +6,26 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 2d76077d-2913-40b8-9596-4e201d12ec1a
-TQID: https://experienceleague.adobe.com/xCCyTLfCsX3-hFfqKaiAtBgLLCQ6QmVTx7UfSGpBp3s
+TQID: 'https://experienceleague.adobe.com/xCCyTLfCsX3-hFfqKaiAtBgLLCQ6QmVTx7UfSGpBp3s'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 283
+source-wordcount: '290'
 ht-degree: 6%
-
 ---
-
 # 在優先順序中新增和管理快速連結
 
 您可以儲存經常在任務或問題中瀏覽的連結，並從「優先順序」中的「概觀」標籤進行存取。
@@ -89,7 +93,7 @@ ht-degree: 6%
 
 1. 按一下工作專案名稱以開啟&#x200B;**概觀**&#x200B;頁面。
 1. 在&#x200B;**快速連結**&#x200B;區段中，尋找您要開啟的連結。
-1. 按一下連結。連結會在新標籤中開啟。
+1. 按一下連結。 連結會在新標籤中開啟。
    ![開啟連結](assets/open-link.png)
 
 ## 刪除快速連結

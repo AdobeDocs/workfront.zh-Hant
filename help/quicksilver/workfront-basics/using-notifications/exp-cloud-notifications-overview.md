@@ -1,30 +1,33 @@
 ---
 navigation-topic: notifications
 title: Experience Cloud通知總覽
-description: Adobe Workfront將所有數位體驗(DX)產品整合在稱為Experience Cloud Notifications的單一一致通知系統下。
+description: Adobe Workfront將所有數位體驗(DX)產品整合在稱為Experience Cloud通知的單一一致通知系統下。
 author: Courtney
 feature: Get Started with Workfront
 hide: true
 exl-id: 5efa1912-e827-42ef-8001-4de63a63a6c4
-TQID: https://experienceleague.adobe.com/8zSlhpBj99ss5H0yhxu0sW2KJNGambIgd6ZZlASobkQ
+TQID: 'https://experienceleague.adobe.com/8zSlhpBj99ss5H0yhxu0sW2KJNGambIgd6ZZlASobkQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 694
+source-wordcount: '694'
 ht-degree: 0%
-
 ---
-
 # Experience Cloud通知總覽
 
 Adobe Workfront通知正移至Adobe的集中式通知系統，稱為Experience Cloud通知。 此通知系統用於所有數位體驗產品。
 
-從2026年2月或前後開始，目前的Workfront電子郵件和應用程式內通知將移轉至Experience Cloud Notifications。 這項工作將分階段完成。 Workfront團隊會在設定開始移轉前通知您的組織。
+從2026年2月或前後開始，目前的Workfront電子郵件和應用程式內通知將移轉至Experience Cloud通知。 這項工作將分階段完成。 Workfront團隊會在設定開始移轉前通知您的組織。
 
 轉換後，使用者可在一個位置存取Adobe Workfront和其他Adobe DX應用程式的所有通知，簡化他們瞭解最新資訊及管理偏好設定的方式。
 
@@ -32,7 +35,7 @@ Adobe Workfront通知正移至Adobe的集中式通知系統，稱為Experience C
 
 ## 我們為什麼要進行此變更
 
-Workfront是Adobe數位體驗產品套件的一部分。 移至Experience Cloud有幾項優點，包括：
+Workfront是Adobe數位體驗產品套件的一部分。 移至Experience Cloud具備數個優點，包括：
 
 * 統一通知體驗：您現在可以體驗可在所有Adobe DX解決方案中使用的介面。
 * 隨時瞭解情況：將通知統一在一個地方可降低遺失通知的風險。
@@ -42,7 +45,7 @@ Workfront是Adobe數位體驗產品套件的一部分。 移至Experience Cloud�
 ## 變更內容
 
 * 單一「通知」圖示已取代上方標題中的「Workfront通知」圖示。
-* 現在，您可以透過新的「Experience Cloud通知」面板和「所有通知」頁面，存取您的個人通知設定。 之前，您可在使用者設定檔中存取這些專案。
+* 現在，您可透過新的Experience Cloud「通知」面板及「所有通知」頁面，存取您的個人通知設定。 之前，您可在使用者設定檔中存取這些專案。
 * 提供新的篩選和傳送選項。
 * 自訂電子郵件通知主旨行將無法再使用。
 

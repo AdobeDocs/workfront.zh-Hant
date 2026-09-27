@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/rgdmNzbJUt8eDoT7XBI2NbmDO55aaM9SgLZf6b64NQQ
+TQID: 'https://experienceleague.adobe.com/rgdmNzbJUt8eDoT7XBI2NbmDO55aaM9SgLZf6b64NQQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 258
-ht-degree: 8%
-
+source-wordcount: '281'
+ht-degree: 7%
 ---
-
 # 編輯現有的行事曆報告
 
 您可以透過新增或刪除專案的連結來修改現有行事曆。 您也可以修改與行事曆報告相關聯的行事曆群組。

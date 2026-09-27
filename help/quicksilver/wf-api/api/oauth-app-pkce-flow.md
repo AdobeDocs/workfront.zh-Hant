@@ -7,23 +7,28 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-TQID: https://experienceleague.adobe.com/qBZFtRLkYCfnIVzOvX4ygc-KiAsJ9R9445hRsCF--G8
+TQID: 'https://experienceleague.adobe.com/qBZFtRLkYCfnIVzOvX4ygc-KiAsJ9R9445hRsCF--G8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ab8e110576ba47b5513441169a2f1e6c288d6d3
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 870
+source-wordcount: '870'
 ht-degree: 0%
-
 ---
-
 # 使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式
 
 >[!IMPORTANT]

@@ -7,25 +7,31 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9647f3c6-f287-426c-a5e7-eb33b8b22a34
-TQID: https://experienceleague.adobe.com/OKzzIQnrWd9qvpM-vrh-jVLI3s120i1FaBdQxGpbMcY
+TQID: 'https://experienceleague.adobe.com/OKzzIQnrWd9qvpM-vrh-jVLI3s120i1FaBdQxGpbMcY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1379
+source-wordcount: '1394'
 ht-degree: 0%
-
 ---
-
 # 2017.2 Beta 3發行活動
 
 本頁說明2017.2 Beta 2版本預覽環境中所有可用的變更。 此頁面的功能已於2017年5月24日在預覽環境中推出。 它將在2017年7月底到8月初期間在生產環境中可用。
@@ -105,7 +111,7 @@ ht-degree: 0%
 
 {#new-proof-creator-object-in-document-version-report-workfront}
 
-現在，建立檔案版本報告時，會有新的校訂建立者物件。此物件可讓您報告有關建立校訂之使用者的資訊。 
+現在，建立檔案版本報告時，會有新的校訂建立者物件。 此物件可讓您報告有關建立校訂之使用者的資訊。 
 
 「檔案版本」報表中的新「校訂建立者」物件包含其他物件報表型別中現有使用者物件可用的所有欄位。
 

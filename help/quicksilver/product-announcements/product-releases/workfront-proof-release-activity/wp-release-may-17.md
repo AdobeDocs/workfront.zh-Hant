@@ -8,18 +8,28 @@ author: Luke
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: 8b148684-28bf-40e8-8014-d6458c8d14e1
-TQID: https://experienceleague.adobe.com/FS9XdIS9PfjACgdqRHGuohzXQHXmEmeu2jnb0wPBqwQ
+TQID: 'https://experienceleague.adobe.com/FS9XdIS9PfjACgdqRHGuohzXQHXmEmeu2jnb0wPBqwQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 175
+source-wordcount: '175'
 ht-degree: 0%
-
 ---
-
 # Workfront Proof發行活動： 2021年5月17日起一週
 
 本頁說明對Workfront Proof （獨立校訂應用程式）所做的變更。 此處說明的變更不適用於Adobe Workfront應用程式內的校訂功能。

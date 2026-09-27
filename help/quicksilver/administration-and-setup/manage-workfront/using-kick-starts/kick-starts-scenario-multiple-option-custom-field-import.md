@@ -9,25 +9,31 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-TQID: https://experienceleague.adobe.com/VN48OQlXHrmfEYUZ2hOusWN-LE-U6BhXBvqprFOsczY
+TQID: 'https://experienceleague.adobe.com/VN48OQlXHrmfEYUZ2hOusWN-LE-U6BhXBvqprFOsczY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: a91f865d-c69e-423f-aeff-28a3d6e8554d
+    internal-label: Data export
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2136
+source-wordcount: '2179'
 ht-degree: 1%
-
 ---
-
 # Kick-Starts情境：將多個選項自訂欄位匯入Workfront
 
 您可以使用Kick-Start功能，在Adobe Workfront中匯入具有多個選項的自訂欄位。
@@ -183,19 +189,19 @@ ht-degree: 1%
    * **`ID`** =代表新欄位的每行必須是唯一的數字。 您可以使用任何從1開始的數字，但前提是每個新欄位都有唯一的數字。
    * **`setDataType`** =對於代表新欄位的每一行，輸入欄位支援的資料型別。 必須按在資料庫中顯示的形式輸入資料型別。 從下列資料型別中選取：
 
-      * 數字&#x200B;**`NMBR`**
-      * **`CURC`**&#x200B;代表貨幣
-      * **`TEXT`**&#x200B;文字
+     * 數字&#x200B;**`NMBR`**
+     * **`CURC`**&#x200B;代表貨幣
+     * **`TEXT`**&#x200B;文字
 
    * `**setDisplaySize**`=任何多個選項自訂欄位的顯示大小(&#39;**setDisplaySize**&#39;)一律為0。
    * **`setDisplayType`** =對於代表新欄位的每一行，輸入欄位的顯示型別。 必須輸入顯示型別，就像在資料庫中顯示的顯示型別一樣。
 
      若為多選項自訂欄位，請從下列選項中選取：
 
-      * 多選下拉式清單的&#x200B;**`MULT`**
-      * 下拉式清單的&#x200B;**`SLCT`**
-      * 選項按鈕的&#x200B;**`RDIO`**
-      * 核取方塊的&#x200B;**`CHCK`**
+     * 多選下拉式清單的&#x200B;**`MULT`**
+     * 下拉式清單的&#x200B;**`SLCT`**
+     * 選項按鈕的&#x200B;**`RDIO`**
+     * 核取方塊的&#x200B;**`CHCK`**
 
      >[!TIP]
      >
@@ -246,18 +252,18 @@ ht-degree: 1%
    若要找出群組的`ID`，您可以建置群組報告並在檢視中新增`ID`欄位，或導覽至群組並尋找該群組的URL。 群組ID會位於群組頁面的URL中。 例如，如果群組的URL是`https://companyName.my.workfront.com/group/575b000800467a6f66e747932c807464/members`，則群組識別碼是`575b000800467a6f66e747932c807464`。
 
    * **`setCatObjCode`**=這是您要建立表單之物件型別的物件程式碼。 從下列選項輸入代碼：
-      * 公司&#x200B;**`CMPY`**
-      * 任務的&#x200B;**`TASK`**
-      * 專案的&#x200B;**`PROJ`**
-      * 適用於Portfolio的&#x200B;**`PORT`**
-      * 計畫的&#x200B;**`PRGM`**
-      * 使用者的&#x200B;**`USER`**
-      * 檔案&#x200B;**`DOCU`**
-      * 問題&#x200B;**`OPTASK`**
-      * 費用&#x200B;**`EXPNS`**
-      * 反複專案的&#x200B;**`ITRN`**
-      * 記帳記錄的&#x200B;**`BILL`**
-      * 群組&#x200B;**`GROUP`**
+     * 公司&#x200B;**`CMPY`**
+     * 任務的&#x200B;**`TASK`**
+     * 專案的&#x200B;**`PROJ`**
+     * 適用於Portfolio的&#x200B;**`PORT`**
+     * 計畫的&#x200B;**`PRGM`**
+     * 使用者的&#x200B;**`USER`**
+     * 檔案&#x200B;**`DOCU`**
+     * 問題&#x200B;**`OPTASK`**
+     * 費用&#x200B;**`EXPNS`**
+     * 反複專案的&#x200B;**`ITRN`**
+     * 記帳記錄的&#x200B;**`BILL`**
+     * 群組&#x200B;**`GROUP`**
 
      >[!NOTE]
      >
@@ -297,4 +303,4 @@ ht-degree: 1%
 
    * 刪除成功從Workfront從「自訂Forms」區域匯入的資訊，然後進行錯誤訊息所指示的更正。
    * 指出系統中已有欄位或表單用於已匯入的欄位或表單，然後進行更正。
-若要指出欄位或自訂表單已在Workfront中，您必須確定在包含表單(`CTGY`)或欄位(`PARAM`)相關資訊的工作表中，`inNew`欄位已標示為`FALSE`。
+     若要指出欄位或自訂表單已在Workfront中，您必須確定在包含表單(`CTGY`)或欄位(`PARAM`)相關資訊的工作表中，`inNew`欄位已標示為`FALSE`。

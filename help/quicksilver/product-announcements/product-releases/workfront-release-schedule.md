@@ -8,22 +8,27 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-TQID: https://experienceleague.adobe.com/a2VtxPZJ9Ut4VHmwqhrCbUH-3i2nMqOnzR18vyg8buQ
+TQID: 'https://experienceleague.adobe.com/a2VtxPZJ9Ut4VHmwqhrCbUH-3i2nMqOnzR18vyg8buQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 914
+source-wordcount: '936'
 ht-degree: 1%
-
 ---
-
 # Adobe Workfront發行排程和程式
 
 ## 更新排程以預覽
@@ -72,18 +77,18 @@ Workfront提供下列Beta版計畫：
 
 * **已關閉或私人Beta版**：下列是已關閉或私人Beta版的特性：
 
-   * 少數客戶可透過Workfront仔細選取功能。
-   * 參與者通常會與產品經理合作，並定期提供意見回饋。
-   * 屬於Beta版一部分的新功能可以發佈到「預覽」或「生產」，或者發佈到為Beta版計畫提供的單獨環境。 封閉Beta版功能會以隨機間隔發行，不會發出警告。
-   * 產品發行頁面上沒有已關閉beta的發行資訊。
+  * 少數客戶可透過Workfront仔細選取功能。
+  * 參與者通常會與產品經理合作，並定期提供意見回饋。
+  * 屬於Beta版一部分的新功能可以發佈到「預覽」或「生產」，或者發佈到為Beta版計畫提供的單獨環境。 封閉Beta版功能會以隨機間隔發行，不會發出警告。
+  * 產品發行頁面上沒有已關閉beta的發行資訊。
 
 * **公開或公開測試版**：下列是公開或公開測試版的特性：
 
-   * 此功能可供所有Workfront客戶使用，但處於Beta版狀態。 他們可能並不總是完全發揮功能，也總是歡迎提供意見回饋。
-   * 您可以選擇是否參與公開測試版，客戶可以自行決定是否開啟測試版功能。
-   * 屬於Beta版一部分的新功能可發佈到「預覽」或「生產」版。
-   * 功能發行頻率可能會高於Workfront的一般發行模式。
-   * 有關功能何時發佈到公開測試版的資訊包含在產品發行頁面中。
+  * 此功能可供所有Workfront客戶使用，但處於Beta版狀態。 他們可能並不總是完全發揮功能，也總是歡迎提供意見回饋。
+  * 您可以選擇是否參與公開測試版，客戶可以自行決定是否開啟測試版功能。
+  * 屬於Beta版一部分的新功能可發佈到「預覽」或「生產」版。
+  * 功能發行頻率可能會高於Workfront的一般發行模式。
+  * 有關功能何時發佈到公開測試版的資訊包含在產品發行頁面中。
 
 如需有關產品發行說明的資訊，請參閱[產品發行版本](../../product-announcements/product-releases/product-releases.md)。
 

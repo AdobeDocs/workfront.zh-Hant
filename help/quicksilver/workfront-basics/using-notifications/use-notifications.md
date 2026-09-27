@@ -7,18 +7,21 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c609c51d-df67-49bb-8fe3-8962a5270cc9
-TQID: https://experienceleague.adobe.com/ot65gZ-4AM5ywoHELcNRk-Xvzn356JSaOvD5vJdqQX4
+TQID: 'https://experienceleague.adobe.com/ot65gZ-4AM5ywoHELcNRk-Xvzn356JSaOvD5vJdqQX4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 120
+source-wordcount: '120'
 ht-degree: 0%
-
 ---
-
 # 使用通知：文章索引
 
 [!DNL Adobe Workfront]會傳送電子郵件通知、應用程式內通知和行動裝置通知，提醒您有關[!DNL Workfront]中的活動。

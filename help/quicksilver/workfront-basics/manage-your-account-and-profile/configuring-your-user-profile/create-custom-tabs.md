@@ -2,29 +2,35 @@
 product-area: user-management
 navigation-topic: configure-your-user-profile
 title: 在Workfront物件或區域的左側面板中新增儀表板
-description: 根據預設，您在 [!DNL Workfront] 網頁應用程式中看到的資訊通常顯示在左側面板的區段中。 每個區段都包含有關 [!DNL Workfront] 區域或物件的不同資訊。
+description: 根據預設，您在[!DNL Workfront]網頁應用程式中看到的資訊通常會顯示在左側面板的區段中。 每個區段都包含有關[!DNL Workfront]區域或物件的不同資訊。
 author: Becky and Lisa
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-TQID: https://experienceleague.adobe.com/GnU1tvjVHwZFsJwu8p1Y9tULbgRjE5-reFejaNEAt2Y
+TQID: 'https://experienceleague.adobe.com/GnU1tvjVHwZFsJwu8p1Y9tULbgRjE5-reFejaNEAt2Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 635
+source-wordcount: '637'
 ht-degree: 4%
-
 ---
-
 # 在Workfront物件或區域的左側面板中新增儀表板
 
 ## [!DNL Adobe Workfront]節

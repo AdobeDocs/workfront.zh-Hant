@@ -7,26 +7,33 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8e016f12-bc72-475c-a8cc-38ded4351f88
-TQID: https://experienceleague.adobe.com/L7mlcRH-mf84Dt3lfuzI59lDkn7jCKMOZTBqVVnkAq8
+TQID: 'https://experienceleague.adobe.com/L7mlcRH-mf84Dt3lfuzI59lDkn7jCKMOZTBqVVnkAq8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2427
+source-wordcount: '2444'
 ht-degree: 0%
-
 ---
-
 # 2018.1 Beta 4發行活動
 
 本頁說明2018.1 Beta 4版本預覽環境中最近可用的所有變更。 預覽環境已於2018年1月24日提供此功能。 它將在2018年3月的生產環境中提供。
@@ -198,8 +205,8 @@ Workfront中的檔案清單已進行下列改進： 
 
 * 以下設定已從「校訂設定」區段移至「新校訂」頁面上的「工作流程」區段：
 
-   * 主要決策者
-   * 只需要一個決定
+  * 主要決策者
+  * 只需要一個決定
 
 ## 透過Workfront Proof中的Basecamp整合更新外觀 {#updated-look-and-feel-with-basecamp-integration-in-workfront-proof}
 
@@ -350,6 +357,6 @@ Workfront的Portfolio Optimizer區域現在已更新為新外觀。 功能未變
 
 ## Emoji支援 {#emoji-support}
 
-現在，您可以插入emoji來設定您在Workfront中註釋和更新的基調。在「更新」標籤上新增至評論的任何表情符號，也會顯示在更新電子郵件通知中。 
+現在，您可以插入emoji來設定您在Workfront中註釋和更新的基調。 在「更新」標籤上新增至評論的任何表情符號，也會顯示在更新電子郵件通知中。 
 
 如需詳細資訊，請參閱[更新工作](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。

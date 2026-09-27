@@ -8,25 +8,37 @@ recommendations: noDisplay, noCatalog
 exl-id: 02e3b55f-9188-42bf-8d0b-c9fed86c63c4
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/iIXHucZmlY7CkbSWDWFO5XnHPvGylFrvt45QV90aFXQ
+TQID: 'https://experienceleague.adobe.com/iIXHucZmlY7CkbSWDWFO5XnHPvGylFrvt45QV90aFXQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Taxonomy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1564
+source-wordcount: '1572'
 ht-degree: 0%
-
 ---
-
 # 架構您的成功：模型化您的行銷活動階層
 
 <!--see the file again for additional comments from Seth and others-->
@@ -67,25 +79,25 @@ ht-degree: 0%
 
 * **第1級：行銷活動（Workfront規劃）**
 
-   * **焦點：**&#x200B;定義長期策略支柱與年度計畫。 例如，為您的組織定義名為「FY26全球品牌認知度」的計畫。 這是指定時間範圍的焦點。 建立行銷活動以支援此計畫。
+  * **焦點：**&#x200B;定義長期策略支柱與年度計畫。 例如，為您的組織定義名為「FY26全球品牌認知度」的計畫。 這是指定時間範圍的焦點。 建立行銷活動以支援此計畫。
 
-   * **角色：**&#x200B;此層級的利害關係人可以是行銷人員、行銷副總或其他策略性潛在客戶。
+  * **角色：**&#x200B;此層級的利害關係人可以是行銷人員、行銷副總或其他策略性潛在客戶。
 
   如需詳細資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
 
 * **第2級：通路策略（Workfront規劃）**
 
-   * **焦點：**&#x200B;定義概述特定管道之「內容」的營運簡介。 這是工作開始前策略性意圖的最後一層。 例如，建立「第1季社群媒體閃爍」策略。 然後，您就可以將其與行銷活動配對。
+  * **焦點：**&#x200B;定義概述特定管道之「內容」的營運簡介。 這是工作開始前策略性意圖的最後一層。 例如，建立「第1季社群媒體閃爍」策略。 然後，您就可以將其與行銷活動配對。
 
-   * **角色：**&#x200B;主要利害關係人是行銷營運負責人、頻道負責人或行銷活動經理。
+  * **角色：**&#x200B;主要利害關係人是行銷營運負責人、頻道負責人或行銷活動經理。
 
 * **第3級：專案（規劃與Workfront）**
 
-   * **焦點：**&#x200B;在將會最終完成您方案的確切體驗或活動上執行。 有些交付專案是特定的，例如社交貼文、電子郵件、網頁。
+  * **焦點：**&#x200B;在將會最終完成您方案的確切體驗或活動上執行。 有些交付專案是特定的，例如社交貼文、電子郵件、網頁。
 
-   * **實作：**&#x200B;您可以在Planning中建立策略，並將其直接連結至Workfront中的&#x200B;**專案**，其中個別交付專案會作為任務和問題管理。
+  * **實作：**&#x200B;您可以在Planning中建立策略，並將其直接連結至Workfront中的&#x200B;**專案**，其中個別交付專案會作為任務和問題管理。
 
-   * **角色：**&#x200B;這裡的主要利害關係人是創意人員、個人貢獻者，以及負責為支援此計畫而工作的所有人。
+  * **角色：**&#x200B;這裡的主要利害關係人是創意人員、個人貢獻者，以及負責為支援此計畫而工作的所有人。
 
 ### 策略性擴充：如何新增更多層級
 
@@ -102,7 +114,7 @@ ht-degree: 0%
 >如果您的組織每年產生超過5,000個活動，您應該將個別交付專案追蹤移至Workfront。
 >
 >在Planning中管理大量體驗記錄，可能會導致資料累積，使您的策略可見性變得模糊。
->我們建議您使用這項廣泛的指導方針，以發揮最大的效率：
+>我們建議您遵循這項廣泛的指引，以發揮最大效率：
 >
 >* 使用Planning瞭解「原因」和「內容」
 >* 將Workfront用於高容量的「做法」。

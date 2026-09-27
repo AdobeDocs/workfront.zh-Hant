@@ -4,13 +4,20 @@ description: 2026年第三季Financial Management增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '344'
 ht-degree: 0%
-
 ---
-
 # 2026年第三季Financial Management增強功能
 
 本頁說明2026年第三季度發行的「預覽」環境中的Financial Management增強功能。 如上所述，這些增強功能將於生產環境中提供。
@@ -21,7 +28,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2026年6月25日>生產快版本： 2026年7月15日>每個人的生產： 2026年7月16日>此功能僅適用於「工作流程Ultimate」封裝上的組織。
+>預覽： 2026年6月25日
+>生產快速發行： 2026年7月15日
+>適用於所有人的生產： 2026年7月16日
+>此功能僅適用於Workflow Ultimate套件上的組織。
 
 您現在可以選取費率卡以新增至範本，然後自動附加至從範本建立的所有專案。 費率卡會成為專案的預設值，但可視需求加以覆寫。
 
@@ -31,7 +41,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2026年6月25日>生產快版本： 2026年7月15日>每個人的生產： 2026年7月16日>此功能僅適用於「工作流程Ultimate」封裝上的組織。
+>預覽： 2026年6月25日
+>生產快速發行： 2026年7月15日
+>適用於所有人的生產： 2026年7月16日
+>此功能僅適用於Workflow Ultimate套件上的組織。
 
 您現在可以在清單中的特定位置新增費率，更快速地調整費率卡上有效日期帳單費率清單。 選取現有比率旁的&#x200B;**更多**&#x200B;功能表，以在該比率上方或下方插入列。
 
@@ -43,7 +56,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2026年5月21日>生產快速發行： 2026年5月21日>適用於所有人的生產： 2026年5月21日>此功能僅適用於Workflow Ultimate封裝上的組織。
+>預覽： 2026年5月21日
+>生產快速發行： 2026年5月21日
+>每個人都要生產： 2026年5月21日
+>此功能僅適用於Workflow Ultimate套件上的組織。
 
 將屬性新增至Workfront中的費率後，您就無法再在設定區域中編輯該屬性及其篩選器。 這樣可保留資料完整性，並防止屬性更新時意外變更速率。
 

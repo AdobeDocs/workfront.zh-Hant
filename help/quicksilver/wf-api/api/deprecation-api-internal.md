@@ -7,20 +7,23 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 45b42fe8-7ce3-441d-8fbc-b8db7f9b254e
-TQID: https://experienceleague.adobe.com/LGyk8MIATMQj6JHqKmjkeL2pXW-b6xtxo2heMd4h0y4
+TQID: 'https://experienceleague.adobe.com/LGyk8MIATMQj6JHqKmjkeL2pXW-b6xtxo2heMd4h0y4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Developer
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 241
+source-wordcount: '241'
 ht-degree: 0%
-
 ---
-
 # 棄用API — 內部
 
 API — 內部API是Adobe Workfront API的版本，由於其設計和用途不受支援。 雖然它包含Workfront API的最新更新，但可能會有所變更，恕不另行通知，因此在生產整合中應謹慎使用。 Workfront強烈建議將所有API內部整合更新至已設定版本API。

@@ -8,22 +8,26 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6fee45a6-1a55-4351-8b08-88244c742ed5
-TQID: https://experienceleague.adobe.com/1zAXAuKv5JPluThgY-x-ogH6MbGPtd9BK13bK5-aA7w
+TQID: 'https://experienceleague.adobe.com/1zAXAuKv5JPluThgY-x-ogH6MbGPtd9BK13bK5-aA7w'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 505
+source-wordcount: '505'
 ht-degree: 10%
-
 ---
-
 # 重新排序系統層次與群組狀態
 
 作為Workfront管理員，您可以變更系統中每個人或單一群組的專案、任務和問題狀態的順序。

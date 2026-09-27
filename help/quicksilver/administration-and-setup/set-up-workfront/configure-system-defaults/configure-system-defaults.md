@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;setup
 navigation-topic: set-up-workfront
 title: 設定系統預設值：文章索引
-description: 作為 [!DNL Adobe Workfront] 管理員，您可以設定系統預設值，例如使用者建立的所有專案的偏好設定。
+description: 作為[!DNL Adobe Workfront]管理員，您可以設定系統預設值，例如使用者建立的所有專案的偏好設定。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -12,23 +12,28 @@ recommendations: noDisplay, noCatalog
 exl-id: 0ea1722b-fbcf-4e13-b206-f954877076cf
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/o9gRMospXiFWe4RC3eaMMIHvHuxJGU1-xFvtxocWt-E
+TQID: 'https://experienceleague.adobe.com/o9gRMospXiFWe4RC3eaMMIHvHuxJGU1-xFvtxocWt-E'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 134
+source-wordcount: '135'
 ht-degree: 17%
-
 ---
-
 # 設定系統預設值：文章索引
 
 本節包含下列文章：

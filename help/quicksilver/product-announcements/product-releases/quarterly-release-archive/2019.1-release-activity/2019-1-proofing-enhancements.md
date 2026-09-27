@@ -7,24 +7,31 @@ author: Luke
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: 6b9b847c-dfb5-4285-b8fc-72f33c6a54d0
-TQID: https://experienceleague.adobe.com/D-UlRDpWIkRTBAuCaaOGM81qwz5i5UogMMDQRdF-MdY
+TQID: 'https://experienceleague.adobe.com/D-UlRDpWIkRTBAuCaaOGM81qwz5i5UogMMDQRdF-MdY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 884
+source-wordcount: '884'
 ht-degree: 0%
-
 ---
-
 # 2019.1校訂增強功能
 
 本頁說明2019.1版包含的所有校訂增強功能。 此功能現在可在生產環境中使用。

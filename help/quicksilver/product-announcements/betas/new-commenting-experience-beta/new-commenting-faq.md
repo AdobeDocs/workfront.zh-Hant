@@ -8,19 +8,26 @@ feature: Product Announcements
 role: User, Admin
 hide: true
 exl-id: 5ce15530-0858-44a4-b928-779654310dee
-TQID: https://experienceleague.adobe.com/jABmrg3J6ybnIePjVPsEXSBWrtroZm-BEIP-MDA3eDY
+TQID: 'https://experienceleague.adobe.com/jABmrg3J6ybnIePjVPsEXSBWrtroZm-BEIP-MDA3eDY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 419
+source-wordcount: '419'
 ht-degree: 0%
-
 ---
-
 # 新的評論體驗常見問題集
 
 本文包含有關新評論體驗最常見問題的清單。

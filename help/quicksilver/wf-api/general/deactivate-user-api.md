@@ -8,22 +8,26 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 45b06cce-4622-4739-b9f3-2edb9101c099
-TQID: https://experienceleague.adobe.com/GRPtXFkFhNHHeKMY0I05ckqLLwqsVzNCKY8wHLMaOpQ
+TQID: 'https://experienceleague.adobe.com/GRPtXFkFhNHHeKMY0I05ckqLLwqsVzNCKY8wHLMaOpQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 189
+source-wordcount: '189'
 ht-degree: 0%
-
 ---
-
 # 透過API停用使用者
 
 當使用者離開您的組織時，您可以停用使用者，將其Adobe Workfront授權提供給其他使用者使用，並防止他們不慎指派工作。 透過停用使用者，您可以保留其工作歷史記錄，包括其工作指派及其與附註、時數及檔案的關聯。

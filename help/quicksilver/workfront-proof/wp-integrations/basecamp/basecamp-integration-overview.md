@@ -3,25 +3,33 @@ content-type: overview
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: basecamp
-title: 瞭解Basecamp與 [!DNL Workfront Proof]的整合
+title: 瞭解Basecamp與[!DNL Workfront Proof]的整合
 description: Basecamp是一款領先的網頁式專案管理與共同作業工具。 它以簡單易用的方式提供待辦事項清單、檔案分享、時間追蹤和訊息、時程表和里程碑。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 8794a76a-c782-4038-9680-73e72697b21d
-TQID: https://experienceleague.adobe.com/y3acXMLEzDp-rhxtFIhSpvc1w6H4mohLNQP0ZztgO4Y
+TQID: 'https://experienceleague.adobe.com/y3acXMLEzDp-rhxtFIhSpvc1w6H4mohLNQP0ZztgO4Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 317
+source-wordcount: '317'
 ht-degree: 1%
-
 ---
-
 # 瞭解[!DNL Basecamp]與[!DNL Workfront Proof]的整合
 
 >[!IMPORTANT]

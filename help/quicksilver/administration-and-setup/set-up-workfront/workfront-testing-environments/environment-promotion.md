@@ -11,23 +11,28 @@ role: Admin
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/myYvAJThRVc2qzkWIiD9qGAsVl5kMoN9ZUM-nSZKvyo
+TQID: 'https://experienceleague.adobe.com/myYvAJThRVc2qzkWIiD9qGAsVl5kMoN9ZUM-nSZKvyo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d8302c96-f652-4d09-896b-19a70bab02a5
+    internal-label: System configuration
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2109
+source-wordcount: '2109'
 ht-degree: 3%
-
 ---
-
 # 使用[!DNL Workfront]環境升級API在[!DNL Workfront]環境之間移動物件
 
 「環境升級」功能可讓您將組態相關的物件從一個環境移動到另一個環境。 您可以使用本文所述的Workfront API來移動這些物件。

@@ -2,7 +2,7 @@
 product-area: workfront-integrations;projects
 keywords: google，doc，檔案，工作表，幻燈片
 navigation-topic: workfront-for-g-suite
-title: 使用電子郵件內容在Google Workspace中建立 [!DNL Adobe Workfront] 任務
+title: 使用電子郵件內容在Google Workspace中建立[!DNL Adobe Workfront]任務
 description: 您可以將外部電子郵件（非Adobe [!DNL Workfront]產生）轉換成Workfront工作。
 author: Becky
 feature: Workfront Integrations and Apps
@@ -10,26 +10,33 @@ recommendations: noDisplay, noCatalog
 exl-id: 6bbb4301-2791-4d72-bad8-fef63d6e892a
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/HF-WrFp4Ml1xoNDKq-9vlelfS7mzio-E1hzh8E8ACT8
+TQID: 'https://experienceleague.adobe.com/HF-WrFp4Ml1xoNDKq-9vlelfS7mzio-E1hzh8E8ACT8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: bbf3fe51-0066-4980-9062-f8005585ee10
+    internal-label: Adobe Workfront for Google Workspace
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 196
+source-wordcount: '197'
 ht-degree: 0%
-
 ---
-
 # 使用電子郵件內容在[!DNL Google Workspace]中建立[!DNL Adobe Workfront]任務
 
 >[!IMPORTANT]

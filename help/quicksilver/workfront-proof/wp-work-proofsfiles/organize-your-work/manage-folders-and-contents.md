@@ -2,23 +2,31 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
-title: 管理 [!DNL Workfront Proof]中的資料夾及其內容
+title: 管理[!DNL Workfront Proof]中的資料夾及其內容
 description: 將專案和校訂組織到資料夾的好處之一，是能夠在[!UICONTROL 資料夾詳細資料]頁面上管理它們。 此頁面是專案的控制中心，您可以在此處管理個別校訂和檔案以及執行大量動作。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cec385de-f1b9-4e28-8493-987536c04905
-TQID: https://experienceleague.adobe.com/vCYBMO0HLxXG73qV-3g6I8OHTX32ELjZbIIOO2rtidU
+TQID: 'https://experienceleague.adobe.com/vCYBMO0HLxXG73qV-3g6I8OHTX32ELjZbIIOO2rtidU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1260
+source-wordcount: '1260'
 ht-degree: 0%
-
 ---
-
 # 管理[!DNL Workfront Proof]中的資料夾及其內容
 
 >[!IMPORTANT]
@@ -49,7 +57,7 @@ ht-degree: 0%
 
 1. （視條件而定）執行下列任一項作業：
 
-   * 如果您要將校訂新增至資料夾，請依照 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中[!UICONTROL 管理校訂詳細資訊]中的說明，前往[!UICONTROL 校訂詳細資訊]頁面
+   * 如果您要將校訂新增至資料夾，請依照 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中[!UICONTROL 管理校訂詳細資訊]中的說明，前往[!UICONTROL 校訂詳細資訊]頁面
    * 如果您要將檔案新增至資料夾，請依照[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md)中管理檔案中的說明，移至[檔案詳細資料]頁面。
 
 1. 按一下檔案或校樣所在的&#x200B;**資料夾**&#x200B;的名稱，然後按一下您要移動它的資料夾名稱。\
@@ -59,7 +67,7 @@ ht-degree: 0%
 
 1. （視條件而定）執行下列任一項作業：
 
-   * 如果您正在將校訂移出資料夾，請依照 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中[!UICONTROL 管理校訂詳細資訊]的說明，前往[!UICONTROL 校訂詳細資訊]頁面
+   * 如果您正在將校訂移出資料夾，請依照 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中[!UICONTROL 管理校訂詳細資訊]的說明，前往[!UICONTROL 校訂詳細資訊]頁面
 
      或\
       如果您要將檔案移出資料夾，請依照[管理 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md)中的檔案中的說明，移至「檔案詳細資料」頁面。
@@ -73,7 +81,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您不是檔案的建立者或擁有者，則可用的選項將取決於您在 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的使用者校訂許可權設定檔。
+>如果您不是檔案的建立者或擁有者，則可用的選項將取決於您在 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的使用者校訂許可權設定檔。
 
 1. 在左側導覽功能表的「**[!UICONTROL 資料夾]**」索引標籤上，按一下任何資料夾以開啟「[!UICONTROL 資料夾詳細資料]」頁面。
 1. 如果資料夾僅包含封存的校樣，頁面頂端會以黃色顯示訊息。 如果您按一下郵件中的連結，資料夾檢視會變更為[!UICONTROL 已封存的校樣]檢視。

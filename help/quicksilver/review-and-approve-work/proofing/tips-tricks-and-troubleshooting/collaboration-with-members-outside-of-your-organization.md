@@ -3,13 +3,14 @@ title: 校訂與組織外人員的共同作業限制
 description: 校訂與組織外人員的共同作業限制
 author: Courtney
 draft: Probably
-source-git-commit: de30bd970bda06c706e5156d5195e8568558e593
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%
-
 ---
-
 # 校訂與組織外人員的共同作業限制
 
 將組織外人員新增至校訂時，與他們通訊時有一些需要注意的限制，尤其是組織外人員是否可在個別環境中取得校訂存取權。

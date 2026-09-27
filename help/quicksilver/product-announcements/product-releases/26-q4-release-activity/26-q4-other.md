@@ -4,13 +4,20 @@ description: 2026年第四季發行時間範圍內的其他增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c3dc1aa9e48d45d2546561c2ac9412b008258e2d
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 0%
-
 ---
-
 # 2026年第四季發行時間範圍內的其他增強功能
 
 本頁說明2026年第四季版本對預覽環境所做的增強功能。 如上所述，這些增強功能將於生產環境中提供。

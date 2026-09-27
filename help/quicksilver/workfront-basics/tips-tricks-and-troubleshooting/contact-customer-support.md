@@ -8,23 +8,28 @@ author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/x2Xcq-cSCBA-SjFQ-DBp4v3RIPJorZs8oBdSOTdTKFs
+TQID: 'https://experienceleague.adobe.com/x2Xcq-cSCBA-SjFQ-DBp4v3RIPJorZs8oBdSOTdTKFs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 455
+source-wordcount: '481'
 ht-degree: 1%
-
 ---
-
 # 聯絡客戶支援
 
 <!--Audited: 12/2023-->

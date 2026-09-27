@@ -7,20 +7,24 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-TQID: https://experienceleague.adobe.com/cJnPxNppHK0lh8A6GQKNoUCCBrRUKdMvU3ym6zdHCXo
+TQID: 'https://experienceleague.adobe.com/cJnPxNppHK0lh8A6GQKNoUCCBrRUKdMvU3ym6zdHCXo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1055
+source-wordcount: '1326'
 ht-degree: 6%
-
 ---
-
 # 事件訂閱版本設定
 
 Workfront有兩個版本的事件訂閱。 本文會說明兩者之間的差異。
@@ -108,7 +112,7 @@ Workfront有兩個版本的事件訂閱。 本文會說明兩者之間的差異�
    </td> 
    <td>更新此物件時，<code>UPDATE</code>事件有時會錯誤地顯示受影響的欄位從<code>null</code>變更為<code>ID value</code>。</td> 
    <td>所有<code>UPDATE</code>事件都會顯示受影響欄位的正確值。</td> 
-   <td>無。如果受影響的欄位有篩選器，則只有在這些欄位實際變更時，才會收到<code>UPDATE</code>事件，而不會在任何其他值已變更時收到。
+   <td>無。 如果受影響的欄位有篩選器，則只有在這些欄位實際變更時，才會收到<code>UPDATE</code>事件，而不會在任何其他值已變更時收到。
    </td> 
   </tr> 
   <tr> 
@@ -120,7 +124,7 @@ Workfront有兩個版本的事件訂閱。 本文會說明兩者之間的差異�
    </td> 
    <td>在此物件上更新任何引數值時，<code>UPDATE</code>事件未正確地顯示從<code>null</code>到<code>object id</code>受影響的欄位變更。 </td> 
    <td>所有<code>UPDATE</code>事件都會顯示受影響欄位的正確值。</td> 
-   <td>無。如果受影響的欄位有篩選器，則只有在這些欄位實際變更時，才會收到<code>UPDATE</code>事件，而不會在任何其他值已變更時收到。
+   <td>無。 如果受影響的欄位有篩選器，則只有在這些欄位實際變更時，才會收到<code>UPDATE</code>事件，而不會在任何其他值已變更時收到。
   </tr> 
   <tr> 
   <td>
@@ -130,7 +134,7 @@ Workfront有兩個版本的事件訂閱。 本文會說明兩者之間的差異�
    </td> 
    <td>刪除檔案時，<code>DELETE</code>事件將受影響的欄位錯誤地顯示為之前狀態的空白陣列。    </td> 
    <td><code>DELETE</code>事件正確顯示處於之前狀態的受影響欄位。</td> 
-   <td>無。<code>DELETE</code>事件仍會傳送，但現在會顯示受影響欄位的正確資料。 
+   <td>無。 <code>DELETE</code>事件仍會傳送，但現在會顯示受影響欄位的正確資料。 
 </td> 
   </tr> 
   <tr> 
@@ -144,7 +148,7 @@ Workfront有兩個版本的事件訂閱。 本文會說明兩者之間的差異�
    </td> 
    <td>更新此物件時，將會傳送兩個<code>UPDATE</code>事件。 第一個事件未包含受影響的欄位，而第二個事件包含。</td> 
    <td>所有欄位更新（包括受影響的欄位）都只會出現在一個<code>UPDATE</code>事件中，而不會傳送第二個不必要的事件。     </td> 
-   <td>無。如果受影響的欄位有篩選條件，事件會在第一個事件中傳送。 
+   <td>無。 如果受影響的欄位有篩選條件，事件會在第一個事件中傳送。 
 </td> 
   </tr> 
   <tr> 
@@ -157,7 +161,7 @@ Workfront有兩個版本的事件訂閱。 本文會說明兩者之間的差異�
    </td> 
    <td>在費用上更新任何引數值時，<code>UPDATE</code>事件錯誤地顯示了topReferenceObjCode從<code>EXPNS</code>到<code>PROJ</code>的變更，以及<code>referenceObjectName</code>從<code>null</code>到<code>string value of project name</code>的變更。      </td> 
    <td>所有<code>UPDATE</code>事件都會顯示受影響欄位的正確值。</td> 
-   <td>無。如果受影響的欄位有篩選器，則只有在這些欄位實際變更時，才會收到<code>UPDATE</code>事件，而不會在任何其他值已變更時收到。
+   <td>無。 如果受影響的欄位有篩選器，則只有在這些欄位實際變更時，才會收到<code>UPDATE</code>事件，而不會在任何其他值已變更時收到。
   </tr> 
   <tr> 
   <td>
@@ -168,7 +172,7 @@ Workfront有兩個版本的事件訂閱。 本文會說明兩者之間的差異�
    </td> 
    <td>刪除Expense物件時，會傳送<code>UPDATE</code>事件，並在傳送<code>DELETE</code>事件之前將受影響的欄位變更為Null。    </td> 
    <td>未傳送額外的<code>UPDATE</code>事件。 <code>DELETE</code>事件具有先前狀態中受影響欄位的正確值。 </td> 
-   <td>如果您有<code>UPDATE</code>事件中受影響欄位的篩選器，且您希望在物件被刪除時收到該篩選器，則您將不再收到該<code>UPDATE</code>事件。如果您希望在刪除物件時看到這些欄位，則必須建立額外的<code>DELETE</code>訂閱。
+   <td>如果您有<code>UPDATE</code>事件中受影響欄位的篩選器，且您希望在物件被刪除時收到該篩選器，則您將不再收到該<code>UPDATE</code>事件。 如果您希望在刪除物件時看到這些欄位，則必須建立額外的<code>DELETE</code>訂閱。
 </td> 
   </tr> 
   <tr> 
@@ -199,7 +203,7 @@ Workfront有兩個版本的事件訂閱。 本文會說明兩者之間的差異�
    </td> 
    <td>在此物件上更新任何引數值時，<code>UPDATE</code>事件未正確地顯示從<code>null</code>到<code>ID value</code>受影響的欄位變更。 </td> 
    <td>所有<code>UPDATE</code>事件都會顯示受影響欄位的正確值。</td> 
-   <td>無。如果您在受影響的欄位上有篩選器，則只有在欄位實際變更時，才會收到<code>UPDATE</code>事件，而不會在任何其他引數值已變更時收到。
+   <td>無。 如果您在受影響的欄位上有篩選器，則只有在欄位實際變更時，才會收到<code>UPDATE</code>事件，而不會在任何其他引數值已變更時收到。
 </td> 
   </tr> 
   <tr> 
@@ -222,7 +226,7 @@ Workfront有兩個版本的事件訂閱。 本文會說明兩者之間的差異�
     </ul> 
    <td>在此物件上更新任何引數值時，<code>UPDATE</code>事件未正確地顯示從<code>null</code>到<code>ID value</code>受影響的欄位變更。 </td> 
    <td>所有<code>UPDATE</code>事件都會顯示受影響欄位的正確值。</td> 
-   <td>無。如果您在受影響的欄位上有篩選器，則只有在欄位實際變更時，才會收到<code>UPDATE</code>事件，而不會在任何其他引數值已變更時收到。
+   <td>無。 如果您在受影響的欄位上有篩選器，則只有在欄位實際變更時，才會收到<code>UPDATE</code>事件，而不會在任何其他引數值已變更時收到。
   </tr> 
   <tr> 
   <td>
@@ -232,7 +236,7 @@ Workfront有兩個版本的事件訂閱。 本文會說明兩者之間的差異�
    </td> 
    <td>更新此物件時，<code>UPDATE</code>事件有時會錯誤地顯示受影響的欄位從<code>null</code>變更為<code>ID value</code>。</td> 
    <td>所有<code>UPDATE</code>事件都會顯示受影響欄位的正確值。</td> 
-   <td>無。如果您在受影響的欄位上有篩選器，則只有在欄位實際變更時，才會收到<code>UPDATE</code>事件，而不會在任何其他引數值已變更時收到。
+   <td>無。 如果您在受影響的欄位上有篩選器，則只有在欄位實際變更時，才會收到<code>UPDATE</code>事件，而不會在任何其他引數值已變更時收到。
   </tr> 
   <tr> 
    <th rowspan="2">任務</th> 
@@ -243,7 +247,7 @@ Workfront有兩個版本的事件訂閱。 本文會說明兩者之間的差異�
    </td> 
    <td>在此物件上更新任何引數值時，<code>UPDATE</code>事件未正確地顯示從<code>null</code>到<code>ID value</code>受影響的欄位變更。 </td> 
    <td>所有<code>UPDATE</code>事件都會顯示受影響欄位的正確值。</td> 
-   <td>無。如果您在受影響的欄位上有篩選器，則只有在欄位實際變更時，才會收到<code>UPDATE</code>事件，而不會在任何其他引數值已變更時收到。
+   <td>無。 如果您在受影響的欄位上有篩選器，則只有在欄位實際變更時，才會收到<code>UPDATE</code>事件，而不會在任何其他引數值已變更時收到。
   </tr> 
   <tr> 
   <td>
@@ -253,7 +257,7 @@ Workfront有兩個版本的事件訂閱。 本文會說明兩者之間的差異�
    </td> 
    <td>更新此物件時，<code>UPDATE</code>事件有時會錯誤地顯示受影響的欄位從<code>null</code>變更為<code>ID value</code>。</td> 
    <td>所有<code>UPDATE</code>事件都會顯示受影響欄位的正確值。</td> 
-   <td>無。如果您在受影響的欄位上有篩選器，則只有在欄位實際變更時，才會收到<code>UPDATE</code>事件，而不會在任何其他引數值已變更時收到。
+   <td>無。 如果您在受影響的欄位上有篩選器，則只有在欄位實際變更時，才會收到<code>UPDATE</code>事件，而不會在任何其他引數值已變更時收到。
  </tbody> 
 </table>
 

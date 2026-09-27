@@ -2,29 +2,40 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: users-workfront-proof
-title: 使用 [!DNL Workfront Proof]建立和管理自訂設定檔
+title: 使用[!DNL Workfront Proof]建立和管理自訂設定檔
 description: 帳單管理員和管理員可以建立和管理自訂設定檔，以指定使用者可以在您組織的帳戶和帳戶設定中執行的操作。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 26e76fb7-4a2d-4ae1-b9cb-293c074151da
-TQID: https://experienceleague.adobe.com/O8MYCpzLUHxiOhoFs1GUiVogqziOwIBjMapChrEd5hs
+TQID: 'https://experienceleague.adobe.com/O8MYCpzLUHxiOhoFs1GUiVogqziOwIBjMapChrEd5hs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 994
+source-wordcount: '1051'
 ht-degree: 0%
-
 ---
-
 # 使用[!DNL Workfront Proof]建立和管理自訂設定檔
 
 >[!IMPORTANT]
@@ -120,7 +131,7 @@ ht-degree: 0%
 如需詳細資訊，請參閱[還原並清空垃圾桶 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)。
 
 * 管理許可權設定檔
-如需相關資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
+如需相關資訊，請參閱 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
 
 * 檢視分析
 
@@ -146,11 +157,11 @@ ht-degree: 0%
 
    如需詳細資訊，請參閱[系統管理許可權](#administrative-permissions)。
 
-1. 按一下&#x200B;**[!UICONTROL 建立]**。
+1. 按一下「**[!UICONTROL 建立]**」。
 新的設定檔現在可在&#x200B;**[!UICONTROL 使用者]**&#x200B;標籤上使用。
 
 1. （可選）將新設定檔指派給新的和現有的使用者帳戶。
-如需詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
+如需詳細資訊，請參閱 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
 
 ## 啟用和停用設定檔 {#enabling-and-disabling-a-profile}
 
@@ -196,7 +207,7 @@ ht-degree: 0%
 1. 瀏覽至&#x200B;**[!UICONTROL 帳戶設定]**，然後按一下&#x200B;**[!UICONTROL 設定檔]**&#x200B;索引標籤。
 
 1. 按一下您要編輯的設定檔名稱。
-1. 對設定檔的名稱或許可權進行必要的變更。這些變更會自動儲存和更新。
+1. 對設定檔的名稱或許可權進行必要的變更。 這些變更會自動儲存和更新。
 如需許可權的詳細資訊，請參閱[模組許可權](#module-permissions)和[系統管理許可權](#administrative-permissions)。
 
 >[!NOTE]

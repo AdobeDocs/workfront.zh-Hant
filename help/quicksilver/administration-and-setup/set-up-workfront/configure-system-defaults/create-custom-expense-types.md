@@ -3,28 +3,33 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
 title: 建立自訂費用型別
-description: 作為 [!DNL Adobe Workfront] 管理員，您可以建立自訂費用型別，以定義及追蹤與您的任務和專案相關的費用。 費用是可與任務或專案相關聯的非人工成本。
+description: 作為[!DNL Adobe Workfront]管理員，您可以建立自訂費用型別以定義及追蹤與您的任務和專案相關的費用。 費用是可與任務或專案相關聯的非人工成本。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-TQID: https://experienceleague.adobe.com/lf8hEp6JYtT4mZPP5f6e5M-gX4juYH-hRZF8kGonN3E
+TQID: 'https://experienceleague.adobe.com/lf8hEp6JYtT4mZPP5f6e5M-gX4juYH-hRZF8kGonN3E'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 382
+source-wordcount: '383'
 ht-degree: 7%
-
 ---
-
 # 建立自訂費用類型
 
 <!--**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
@@ -84,13 +89,13 @@ ht-degree: 7%
    * **描述** — 費用的描述。
    * **計算單位** — 從下拉式清單中選取您費用型別的測量單位。 可用的測量單位如下：
 
-      * 英里
-      * 公里
-      * 公斤
-      * 元
-      * 時數
-      * Day
-      * 其他 — 選取此選項會提示您為度量單位命名，並將度量單位定義為組織所熟悉的單位。
+     * 英里
+     * 公里
+     * 公斤
+     * 元
+     * 時數
+     * Day
+     * 其他 — 選取此選項會提示您為度量單位命名，並將度量單位定義為組織所熟悉的單位。
 
    * **匯率** — 單價。 這是貨幣格式欄位，它代表在&#x200B;**計算單位**&#x200B;欄位中建立的每個單位的成本。 速率可包含小數點後最多4個數字的數值。 例如1.0375。
 

@@ -7,18 +7,24 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: b3f1002b-e3b4-48e5-9a64-467d4f7a15b2
-TQID: https://experienceleague.adobe.com/WfACzd26qbiMADECjBjQUd8a-NzxLv15rSj31AZ-9Ng
+TQID: 'https://experienceleague.adobe.com/WfACzd26qbiMADECjBjQUd8a-NzxLv15rSj31AZ-9Ng'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 7df1d711b89cc69e354525c9eaea48abb6aec158
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 170
+source-wordcount: '170'
 ht-degree: 2%
-
 ---
-
 # Adobe Workfront Planning發行活動：文章索引
 
 本文包含有關Adobe Workfront Planning產品的發行活動文章清單。

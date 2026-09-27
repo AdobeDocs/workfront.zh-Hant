@@ -6,22 +6,26 @@ description: 您可以移除其他使用者對您有權共用之物件的許可�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 8e191b5e-31df-4291-8b9d-9ca69be27561
-TQID: https://experienceleague.adobe.com/IJ79CqrncfDUAsrRiOqnoCIWMHgyotIEP5-kJO8h5pE
+TQID: 'https://experienceleague.adobe.com/IJ79CqrncfDUAsrRiOqnoCIWMHgyotIEP5-kJO8h5pE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 738
+source-wordcount: '771'
 ht-degree: 3%
-
 ---
-
 # 移除物件的許可權
 
 <!--Audited: 01/2024-->
@@ -91,7 +95,7 @@ ht-degree: 3%
       ![共用](assets/new-share-button.png)
    1. 尋找要從物件中移除的使用者、角色、團隊、群組或公司。
    1. 按一下&#x200B;**移除**。
-在&#x200B;**從**&#x200B;移除&lt; User Name >下拉式功能表中，選取是否要從您選取的物件移除其存取權，或是從與其關聯的所有子物件移除其存取權。
+      在&#x200B;**「從**&#x200B;移除&lt;使用者名稱>」下拉式功能表中，選取是否要從選取的物件移除其存取權，或是從與其關聯的所有子物件移除其存取權。
 
       ![移除](assets/remove-permissions-on-project-nwe-350x479.png)
 

@@ -1,25 +1,29 @@
 ---
-title: CX Co-worker提示和最佳作法
+title: CX Coworker提示和最佳實務
 content-type: reference
 description: 瞭解在Workfront中使用同事的最佳實務，並檢視提示範例清單。
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 01de260893e5bbf7a228479df2f3fc6a1337d31d
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '2247'
 ht-degree: 1%
-
 ---
-
-# CX Co-worker提示和最佳作法
+# CX Coworker提示和最佳實務
 
 &lt;！ — 不要使用這個 — 請改為連結到MCP範例提示文章，確定它已更新為最新的MCP版本 — >
 
 >[!IMPORTANT]
 >
->CX Co-worker目前不適用於醫療、金融或其他具有敏感資料產業的組織使用。 AI助理可供這些組織使用。 如需詳細資訊，請參閱[AI助理概述](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)。
+>CX Coworker目前不適用於保健、金融或某些具有敏感資料的其他行業的組織。 AI助理可供這些組織使用。 如需詳細資訊，請參閱[AI助理概述](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)。
 
-有了CX Co-worker，您可以使用自然語言與Workfront Workflow和Workfront Planning互動。
+透過CX Coworker，您可以使用自然語言與Workfront Workflow和Workfront Planning互動。
 
 同事是Adobe Experience Cloud Agent Orchestrator的一部分。
 
@@ -69,7 +73,7 @@ ht-degree: 1%
 
 ## 考量事項
 
-使用CX Co-worker時，請考量下列限制：
+使用CX Coworker時，請考慮下列限制：
 
 ### 可回覆
 
@@ -83,13 +87,13 @@ ht-degree: 1%
 
 ### 互動/UX限制
 
-* CX Co-worker目前不會從個別使用者的風格或偏好設定中長期「學習」。 每次聊天都只使用目前的交談和產品知識。
+* CX Coworker目前不會從個別使用者的樣式或偏好設定中長期「學習」。 每次聊天都只使用目前的交談和產品知識。
 * 交談內容會保留在單一交談工作階段中。 開啟新頁面或關閉助理會重設交談記錄。
 * 如果核准程式位於外部應用程式（如Confluence或SharePoint）中，且僅透過URL欄位連結，Co-worker目前不會擷取並推斷這些頁面。
 
 ### 資料儲存/客戶管理的金鑰
 
-* 由於CX Co-worker是Adobe Experience Platform Agent Orchestrator的一部分，您與Co-worker互動的資料會儲存在Adobe Experience Platform中，而非Workfront中。 因此，Workfront客戶自控金鑰(BYOK)合約不涵蓋這些資料。
+* 由於CX Coworker是Adobe Experience Platform Agent Orchestrator的一部分，您與同事互動的資料會儲存在Adobe Experience Platform中，而不是Workfront中。 因此，Workfront客戶自控金鑰(BYOK)合約不涵蓋這些資料。
 
 ## 一般用途的基礎AI技能
 
@@ -103,7 +107,7 @@ ht-degree: 1%
 
 ### 產品知識
 
-CX Co-worker可提供從Workfront檔案取得的指示或參考資訊。
+CX Coworker可提供從Workfront檔案提取的指示或參考資訊。
 
 如需有關從Workfront檔案提取資訊的詳細資訊，請參閱[從AI助理取得說明](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)。
 
@@ -111,7 +115,7 @@ CX Co-worker可提供從Workfront檔案取得的指示或參考資訊。
 
 ### 專案、任務和問題摘要
 
-CX Co-worker可摘要說明已上傳至Workfront的專案、任務或問題<!--, or documents-->。
+CX Coworker可以彙總已上傳至Workfront的專案、任務或問題<!--, or documents-->。
 
 如需有關專案、任務和問題摘要的詳細資訊，請參閱[使用AI助理摘要](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)。
 
@@ -151,7 +155,7 @@ For more information on using Smart Filters, see [Filter your work with Smart fi
 
 -->
 
-## Workfront中的CX Co-worker
+## Workfront中的CX Coworker
 
 * [專案、任務和問題資訊](#project-task-and-issue-information)
 * [專案和工作管理](#project-and-work-management)
@@ -159,7 +163,7 @@ For more information on using Smart Filters, see [Filter your work with Smart fi
 
 ### 專案、任務和問題資訊
 
-CX Co-worker可提供專案、任務和問題的相關資訊，包括摘要和專案狀況。
+CX Coworker可提供專案、任務和問題的相關資訊，包括摘要和專案健康狀態。
 
 請參閱以下區域的檔案和資產核准提示範例：
 
@@ -198,7 +202,7 @@ CX Co-worker可提供專案、任務和問題的相關資訊，包括摘要和�
 
 ### 專案和工作管理
 
-您可以使用CX Co-worker來建立和管理專案，包括任務和指派。
+您可以使用CX Coworker來建立和管理專案，包括任務和指派。
 
 請參閱以下區域的專案和工作管理範例提示：
 
@@ -262,7 +266,7 @@ CX Co-worker可提供專案、任務和問題的相關資訊，包括摘要和�
 
 ### 內容與核准
 
-CX Co-worker可協助管理Workfront中的檔案和資產核准。
+CX Coworker可協助管理Workfront中的檔案和資產核准。
 
 處理檔案和資產核準時，請考慮下列事項：
 
@@ -309,7 +313,7 @@ CX Co-worker可協助管理Workfront中的檔案和資產核准。
 * 移除Rick Kuvec並將Karen Sterling新增至階段2，以更新「Creative Review」範本。
 
 
-## Workfront中的CX同事Planning
+## Workfront Planning中的CX Coworker
 
 ### 使用Planning記錄
 

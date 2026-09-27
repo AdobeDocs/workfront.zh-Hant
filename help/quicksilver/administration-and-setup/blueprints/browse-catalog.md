@@ -3,33 +3,41 @@ user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: templates-navigation-topic
 title: 瀏覽Blueprint目錄並請求安裝Blueprint
-description: 藍圖提供基本的建置組塊，協助您建立隨成長的工作管理系統。 所有 [!DNL Adobe Workfront] 使用者都可以瀏覽藍圖目錄。 如果管理員已啟用Blueprint請求，您還可請求讓 [!DNL Workfront] 管理員為您安裝特定Blueprint。
+description: 藍圖提供基本的建置組塊，協助您建立隨成長的工作管理系統。 所有[!DNL Adobe Workfront]使用者都可以瀏覽藍圖目錄。 如果您的管理員已啟用Blueprint請求，則您還可以提出要求讓[!DNL Workfront]管理員為您安裝特定的Blueprint。
 author: Courtney
 feature: System Setup and Administration, Work Management
 exl-id: 932072e4-4d52-4b4b-a045-0cd38cb882d3
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-TQID: https://experienceleague.adobe.com/pXahlHijtEo-hqF7Rh9OBIYAyHIIR1ZtmlrWR8SyVYo
+TQID: 'https://experienceleague.adobe.com/pXahlHijtEo-hqF7Rh9OBIYAyHIIR1ZtmlrWR8SyVYo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 367
+source-wordcount: '369'
 ht-degree: 3%
-
 ---
-
 # 瀏覽藍圖目錄並請求安裝藍圖
 
 藍圖提供基本的建置組塊，協助您建立隨成長的工作管理系統。 所有[!DNL Adobe Workfront]使用者都可以瀏覽藍圖目錄。 如果您的管理員已啟用Blueprint請求，則您還可以提出要求讓[!DNL Workfront]管理員為您安裝特定的Blueprint。

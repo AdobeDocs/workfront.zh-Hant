@@ -9,22 +9,29 @@ feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/WZNDB3igMbgiwFTbMrq1j8iCWn-f-saNq2dcWqQ2pEc
+TQID: 'https://experienceleague.adobe.com/WZNDB3igMbgiwFTbMrq1j8iCWn-f-saNq2dcWqQ2pEc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 304
+source-wordcount: '304'
 ht-degree: 5%
-
 ---
-
 # 刪除或封存展示板
 
 您可以在[!DNL Workfront]中刪除或封存展示板。 刪除展示板會將其從[!DNL Workfront]中永久移除，而封存展示板會保留所有卡片，並允許稍後再還原。

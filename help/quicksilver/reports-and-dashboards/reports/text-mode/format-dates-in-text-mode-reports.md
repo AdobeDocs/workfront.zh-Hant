@@ -8,20 +8,24 @@ feature: Reports and Dashboards
 exl-id: ff0686aa-b306-4954-8f9b-3e98bf8cff22
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/-8gB8XDwLQTBCUsrex-PIAyxcF-rSPsoM2Gvw2EhTaU
+TQID: 'https://experienceleague.adobe.com/-8gB8XDwLQTBCUsrex-PIAyxcF-rSPsoM2Gvw2EhTaU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 204
-ht-degree: 5%
-
+source-wordcount: '206'
+ht-degree: 3%
 ---
-
 # 文字模式報表中的日期格式
 
 <!-- Audited: 1/2025 -->
@@ -53,4 +57,4 @@ valuefield=plannedCompletionDate
 | MM/DD/YY | 10/11/18 | `shortAtDate` |
 | 月、日、年 | 2018年10月11日 | `mediumAtDate` |
 | DW、月、日、年 | 2018年10月11日，星期一 | `partialAtDate` |
-| DW、月、日、年時間 | 2018年10月11日（星期一）下午12:00 | `fullAtDate` |
+| DW、月、日、年時間 | 2018年10月11日，星期一下午12:00 | `fullAtDate` |

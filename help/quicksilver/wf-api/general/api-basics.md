@@ -7,34 +7,45 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-TQID: https://experienceleague.adobe.com/ns4wVw0qHcgzPPrvLx--lnEAaXg2rcoNOBPMZpMth9M
+TQID: 'https://experienceleague.adobe.com/ns4wVw0qHcgzPPrvLx--lnEAaXg2rcoNOBPMZpMth9M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+    internal-label: APIs
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 subfeature_v2:
   - id: bb1dd007-4a34-496d-9d3b-2278fdaadac1
+    internal-label: API Explorer
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b191c48f65bc489457112f8401654d1e4b66fabf
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 4561
+source-wordcount: '4561'
 ht-degree: 0%
-
 ---
-
 # API 基本概念
 
 >[!NOTE]
 >
->本文範例包括`<supported-version>`。 以您要使用的Workfront API版本取代。如需Workfront API版本設定與支援排程的相關資訊，請參閱[API版本設定與支援排程](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
+>本文範例包括`<supported-version>`。 以您要使用的Workfront API版本取代。
+>如需Workfront API版本設定與支援排程的相關資訊，請參閱[API版本設定與支援排程](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
 
 Adobe Workfront API的目標是透過引入透過HTTP運作的REST-ful架構，簡化與Workfront的整合的建置。 本檔案假設您熟悉REST和JSON回應，並說明Workfront API所採取的方法。
 
@@ -319,7 +330,7 @@ OR陳述式只會傳回API呼叫中符合OR陳述式篩選條件的記錄。 OR�
 
 #### 使用篩選器引數
 
-將URL引數用於搜尋篩選的一個潛在陷阱是Workfront會先剖析某些引數，再檢查是否有不同的驗證方法（即使用者名稱、密碼、apiKey、Cookie）。 發生此情況時，引數不會作為呼叫中的篩選器。
+將URL引數用於搜尋篩選的一個潛在陷阱是Workfront會先剖析某些引數，再檢查是否有不同的驗證方法（即使用者名稱、密碼、apiKey、Cookie）。 發生此情況時，引數不會作為呼叫中的篩選器。 
 
 若要避免此問題，您可以將這些值放入具有JSON格式的篩選引數中。 例如，如果您想篩選使用者名稱testuser，而不是使用 
 <pre>/attask/api/&lt;supported-version&gt;/user/search？username=testuser@workfront.com</pre>在篩選器中傳遞URL引數，如下列範例所示：
@@ -455,7 +466,7 @@ OR陳述式只會傳回API呼叫中符合OR陳述式篩選條件的記錄。 OR�
 若要覆寫「預設結果數目」查詢限制並允許200個結果，您可以在查詢中包含`$$LIMIT=200`篩選器，如下列範例所示：
 <pre>GET /attask/api/&lt;supported-version&gt;/project/search？$$LIMIT=200</pre>
 
-為確保系統中其他租使用者的可靠性和效能，每個查詢允許的結果限制上限為2000個物件。 嘗試指定較大的限制會導致`IllegalArgumentException`錯誤訊息。
+為確保系統中其他租使用者的可靠性和效能，每個查詢允許的結果限制上限為2000個物件。 嘗試指定較大的限制會導致`IllegalArgumentException`錯誤訊息。 
 
 因此，我們建議您針對大型資料集使用分頁回應。 若要指定應傳回的第一個結果，請新增`$$FIRST`篩選器。 例如，下列要求會針對查詢傳回結果201-250：
 <pre>GET /attask/api/&lt;supported-version&gt;/project/search？$$FIRST=200&amp;$$LIMIT=50</pre>

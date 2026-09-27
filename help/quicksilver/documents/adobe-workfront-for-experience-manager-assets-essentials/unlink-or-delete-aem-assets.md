@@ -6,20 +6,28 @@ description: 您可以從Adobe Experience Manager Assets中取消連結或刪除
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: f082be12-2adc-4234-a01a-7543c032a35a
-TQID: https://experienceleague.adobe.com/1AQ4PYnxsWtrNjptPfk9jPQ6wbKPSNvDqqOGfq0eNig
+TQID: 'https://experienceleague.adobe.com/1AQ4PYnxsWtrNjptPfk9jPQ6wbKPSNvDqqOGfq0eNig'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 256
+source-wordcount: '256'
 ht-degree: 0%
-
 ---
-
 # 從Experience Manager Assets或Assets Essentials中取消連結或刪除資產和資料夾
 
 您可以從Adobe Experience Manager Assets中取消連結或刪除連結至Workfront的專案。

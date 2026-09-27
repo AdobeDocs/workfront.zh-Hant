@@ -1,32 +1,42 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
-title: 將 [!DNL Adobe Workfront] 費用傳送至 [!DNL Anaplan] 清單專案
-description: 此整合情境會共用具有 [!DNL Anaplan] 預算清單專案之 [!DNL Adobe Workfront] 專案的費用相關詳細資料。 共用此資訊可讓您更好地利用 [!DNL Anaplan] 提供的支出最佳化與財務分析。
+title: 將[!DNL Adobe Workfront]費用傳送至[!DNL Anaplan]清單專案
+description: 此整合情境會共用來自[!DNL Adobe Workfront]專案與[!DNL Anaplan]預算清單專案的費用相關詳細資料。 共用此資訊可讓您更好地利用[!DNL Anaplan]提供的支出最佳化和財務分析。
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: f9198017-9bbb-4776-86aa-3f78705dbb22
-TQID: https://experienceleague.adobe.com/SOZ90sJuOCBZL9sUCQIw-Rm-WnFQA2Vqx81LdUDVOpA
+TQID: 'https://experienceleague.adobe.com/SOZ90sJuOCBZL9sUCQIw-Rm-WnFQA2Vqx81LdUDVOpA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d8302c96-f652-4d09-896b-19a70bab02a5
+    internal-label: System configuration
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 979
+source-wordcount: '985'
 ht-degree: 13%
-
 ---
-
 # 將[!DNL Adobe Workfront]費用傳送至[!DNL Anaplan]清單專案
 
 此整合情境會共用來自[!DNL Adobe Workfront]專案與[!DNL Anaplan]預算清單專案的費用相關詳細資料。 共用此資訊可讓您更好地利用[!DNL Anaplan]提供的支出最佳化和財務分析。
@@ -105,31 +115,31 @@ ht-degree: 13%
 * [!DNL Anaplan]模型中您要擷取行銷活動預算的清單。
 * 包含下列資料行的&#x200B;**[!UICONTROL Anaplan實際費用匯入]**&#x200B;檔案（依此順序）：
 
-   1. [!UICONTROL [!DNL Workfront]費用GUID]
+  1. [!UICONTROL [!DNL Workfront]費用GUID]
 
-   2. [!UICONTROL [!DNL Workfront]專案GUID]
+  2. [!UICONTROL [!DNL Workfront]專案GUID]
 
-   3. [!UICONTROL 實際數量]
+  3. [!UICONTROL 實際數量]
 
-   4. [!UICONTROL 說明]
+  4. [!UICONTROL 說明]
 
-   5. [!UICONTROL 費用型別]
+  5. [!UICONTROL 費用型別]
 
-   6. [!UICONTROL 生效日期]
+  6. [!UICONTROL 生效日期]
 
-   7. [!UICONTROL 行銷活動名稱]
+  7. [!UICONTROL 行銷活動名稱]
 
-   8. [!UICONTROL [!DNL Anaplan]清單專案識別碼]
+  8. [!UICONTROL [!DNL Anaplan]清單專案識別碼]
 
   若要準備[!UICONTROL [!DNL Anaplan]實際費用匯入]檔案：
 
-   1. 將下列內容複製並貼到文字編輯器或[!DNL Excel]中。
-   1. 將檔案儲存為CSV格式。
-   1. 將檔案上傳至[!DNL Anaplan]。
+  1. 將下列內容複製並貼到文字編輯器或[!DNL Excel]中。
+  1. 將檔案儲存為CSV格式。
+  1. 將檔案上傳至[!DNL Anaplan]。
 
-      如需指示，請參閱[!DNL Anaplan]檔案，瞭解如何從檔案將資料匯入模組。
+     如需指示，請參閱[!DNL Anaplan]檔案，瞭解如何從檔案將資料匯入模組。
 
-   1. 請記下您為檔案指定的名稱；此名稱將會在[!UICONTROL Fusion]情境範本的部署期間使用。
+  1. 請記下您為檔案指定的名稱；此名稱將會在[!UICONTROL Fusion]情境範本的部署期間使用。
 
   範例CSV內容
 
@@ -138,31 +148,31 @@ ht-degree: 13%
 
 * 包含下列資料行的&#x200B;**[!UICONTROL [!DNL Anaplan]計畫費用匯入]**&#x200B;檔案（依此順序）：
 
-   1. [!UICONTROL [!DNL Workfront]費用GUID]
+  1. [!UICONTROL [!DNL Workfront]費用GUID]
 
-   2. [!UICONTROL [!DNL Workfront]專案GUID]
+  2. [!UICONTROL [!DNL Workfront]專案GUID]
 
-   3. [!UICONTROL 實際數量]
+  3. [!UICONTROL 實際數量]
 
-   4. [!UICONTROL 說明]
+  4. [!UICONTROL 說明]
 
-   5. [!UICONTROL 費用型別]
+  5. [!UICONTROL 費用型別]
 
-   6. [!UICONTROL 生效日期]
+  6. [!UICONTROL 生效日期]
 
-   7. [!UICONTROL 行銷活動名稱]
+  7. [!UICONTROL 行銷活動名稱]
 
-   8. [!UICONTROL [!DNL Anaplan]清單專案識別碼]
+  8. [!UICONTROL [!DNL Anaplan]清單專案識別碼]
 
   若要準備[!UICONTROL [!DNL Anaplan]計畫費用匯入]檔案：
 
-   1. 將下列內容複製並貼到文字編輯器或[!DNL Excel]
-   1. 以CSV格式儲存檔案
-   1. 將檔案上傳至Anaplan。
+  1. 將下列內容複製並貼到文字編輯器或[!DNL Excel]
+  1. 以CSV格式儲存檔案
+  1. 將檔案上傳至Anaplan。
 
-      如需指示，請參閱[!DNL Anaplan]檔案，瞭解如何從檔案將資料匯入模組。
+     如需指示，請參閱[!DNL Anaplan]檔案，瞭解如何從檔案將資料匯入模組。
 
-   1. 請記下您為檔案指定的名稱；此名稱將會在[!UICONTROL Fusion]情境範本的部署期間使用。
+  1. 請記下您為檔案指定的名稱；此名稱將會在[!UICONTROL Fusion]情境範本的部署期間使用。
 
   範例CSV內容
 

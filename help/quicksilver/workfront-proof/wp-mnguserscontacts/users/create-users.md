@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: users-workfront-proof
-title: 使用 [!DNL Workfront Proof]建立使用者
-description: 作為 [!DNL Workfront Proof] 管理員，您可以建立新使用者。
+title: 使用[!DNL Workfront Proof]建立使用者
+description: 作為[!DNL Workfront Proof]管理員，您可以建立新使用者。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 23a692ba-88d4-487f-beaf-52671259ebaf
-TQID: https://experienceleague.adobe.com/ZDu0dNJxpUI5FFtWy3Pvk8ASv1D0S1Vq1So4x-mmv2U
+TQID: 'https://experienceleague.adobe.com/ZDu0dNJxpUI5FFtWy3Pvk8ASv1D0S1Vq1So4x-mmv2U'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 259
+source-wordcount: '266'
 ht-degree: 0%
-
 ---
-
 # 使用[!DNL Workfront Proof]建立使用者
 
 >[!IMPORTANT]
@@ -31,7 +40,7 @@ ht-degree: 0%
 
 作為[!DNL Workfront Proof]管理員，您可以建立新使用者。
 
-如需有關管理員許可權的資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
+如需有關管理員許可權的資訊，請參閱 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
 
 >[!NOTE]
 >
@@ -48,7 +57,7 @@ ht-degree: 0%
    * 按一下「**[!UICONTROL 設定]**」>「**[!UICONTROL 帳戶設定]**」，然後按一下「**[!UICONTROL +新增使用者]**」。
 
    * 按一下左側導覽功能表中的&#x200B;**[!UICONTROL 連絡人]**，按一下&#x200B;**[!UICONTROL +新增]**，然後按一下&#x200B;**[!UICONTROL 新增使用者]**。
-*顯示[新增使用者]對話方塊。
+     *顯示[新增使用者]對話方塊。
 
 1. 在出現的&#x200B;**[!UICONTROL 新使用者]**&#x200B;方塊中，輸入人員資訊並設定組態選項，如[使用 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/configure-user-info.md)設定使用者資訊。
 

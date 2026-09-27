@@ -6,22 +6,29 @@ description: 您可以從現有的校樣下載檔案。 下載中不包含與校
 author: Courtney
 feature: Digital Content and Documents
 exl-id: dae3e083-3ad4-4a59-9e04-b017d078a89b
-TQID: https://experienceleague.adobe.com/F-dmG4OLmu1-22fjkkF0HYSeEmOfzD2Jrb4aUA-KFHg
+TQID: 'https://experienceleague.adobe.com/F-dmG4OLmu1-22fjkkF0HYSeEmOfzD2Jrb4aUA-KFHg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 784f376722301da9d450a4021d1d24ffc21f3165
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 244
+source-wordcount: '244'
 ht-degree: 8%
-
 ---
-
 # 在校訂檢視器中下載校訂
 
 您可以從現有的校樣下載檔案。 下載中不包含與校訂相關的評論和其他資訊。

@@ -6,25 +6,31 @@ description: 「我的核准」Widget會集中顯示您所有擱置中、已指�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 276a33f5-92de-440c-ae3a-8cd01731434f
-TQID: https://experienceleague.adobe.com/wfTP8CMqgTZtTLshO239HNrDAUbyrHNbOhs3ZKlMXGg
+TQID: 'https://experienceleague.adobe.com/wfTP8CMqgTZtTLshO239HNrDAUbyrHNbOhs3ZKlMXGg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 415
-ht-degree: 9%
-
+source-wordcount: '437'
+ht-degree: 8%
 ---
-
 # 使用我的核准Widget管理您的核准
 
 「我的核准」Widget會集中顯示您所有擱置中、已指派、已委派及已提交的核准。 在這裡，您可以依需求篩選及組織核准、做出決定及委派核准。
@@ -137,13 +143,13 @@ ht-degree: 9%
          <ul>
          <li>完成我的審閱</li>
          </ul>
-      此欄中的選項僅適用於整合式核准。舊版檔案核准看起來與工作專案核准相同。 
+      此欄中的選項僅適用於整合式核准。 舊版檔案核准看起來與工作專案核准相同。 
       </td>
       <td>
          <ul>
          <li>前往校訂</li>
          </ul>
-         您會在校訂檢視器中做出決定。如需檢閱校訂的相關資訊，請參閱<a href="/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md">在Adobe Workfront中檢閱校訂</a>。
+         您會在校訂檢視器中做出決定。 如需檢閱校訂的相關資訊，請參閱<a href="/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md">在Adobe Workfront中檢閱校訂</a>。
       </td>
    </tr>
    </table>

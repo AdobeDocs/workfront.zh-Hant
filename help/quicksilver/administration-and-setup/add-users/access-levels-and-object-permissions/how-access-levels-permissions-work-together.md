@@ -10,27 +10,35 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-TQID: https://experienceleague.adobe.com/yO-2iQdJUwZgAE93N-7Tqw3V8j3-JfYv0PrKohb-3o8
+TQID: 'https://experienceleague.adobe.com/yO-2iQdJUwZgAE93N-7Tqw3V8j3-JfYv0PrKohb-3o8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 908
+source-wordcount: '908'
 ht-degree: 2%
-
 ---
-
 # 舊版存取層級和許可權如何搭配運作
 
 >[!NOTE]
@@ -95,9 +103,9 @@ Adobe Workfront管理員會決定每個使用者應該具有的存取層級。 �
 
 * **檢視**：此許可權層級允許收件者以下列其中一種方式共用物件：
 
-   * 系統範圍，讓所有使用者都能看見（不適用於所有物件）
-   * 針對沒有Workfront授權的外部使用者（不適用於所有物件）
-   * 含電子郵件地址（僅適用於檔案）
+  * 系統範圍，讓所有使用者都能看見（不適用於所有物件）
+  * 針對沒有Workfront授權的外部使用者（不適用於所有物件）
+  * 含電子郵件地址（僅適用於檔案）
 
 * **Contribute**： （不適用於所有物件）
 * **管理**：當某人共用物件時，收件者對該物件的許可權是由收件者的存取層級與共用者所授予之物件許可權的組合所決定。 該組合中可用的最低存取度決定了收件者可以對物件執行的操作。

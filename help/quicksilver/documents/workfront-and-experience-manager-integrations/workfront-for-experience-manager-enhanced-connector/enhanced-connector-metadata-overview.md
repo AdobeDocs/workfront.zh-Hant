@@ -7,22 +7,31 @@ description: 適用於Experience Manager的Workfront增強型聯結器可自動�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 0b05e766-6b07-451a-9f43-7f1a980e1a9d
-TQID: https://experienceleague.adobe.com/IVhhrxU5f-M2mHGuCLkq4wxSqoI7qvKB3E3exfiU6xw
+TQID: 'https://experienceleague.adobe.com/IVhhrxU5f-M2mHGuCLkq4wxSqoI7qvKB3E3exfiU6xw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Metadata
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 221
+source-wordcount: '221'
 ht-degree: 7%
-
 ---
-
 # 適用於Experience Manager的Workfront增強型聯結器中繼資料概覽
 
 適用於Experience Manager的Workfront增強型聯結器可自動擷取從創意到傳遞的中繼資料。 提升資產存放庫內的可搜尋性，以提高您的內容速度。 使用者可透過搜尋專案標題、參考編號、日期或任何其他關聯的中繼資料屬性，輕鬆找到與特定Workfront專案關聯的所有資產。
@@ -33,30 +42,30 @@ ht-degree: 7%
 
 * 專案詳細資料
 
-   * 專案名稱
-   * 專案ID或參考編號
-   * 專案說明
-   * 專案開始和結束日期
-   * 利害關係人
-   * 贊助部門
+  * 專案名稱
+  * 專案ID或參考編號
+  * 專案說明
+  * 專案開始和結束日期
+  * 利害關係人
+  * 贊助部門
 
 * 檔案詳細資訊
 
-   * 文件名稱
-   * 檔案ID或參考編號
-   * 檔案說明
+  * 文件名稱
+  * 檔案ID或參考編號
+  * 檔案說明
 
 * 任務詳細資訊
 
-   * 任務名稱
-   * 任務ID或參考號碼
-   * 任務說明
-   * 被指派者
-   * 記錄時數總計
+  * 任務名稱
+  * 任務ID或參考號碼
+  * 任務說明
+  * 被指派者
+  * 記錄時數總計
 
 * 問題詳細資訊
 
-   * 問題名稱
-   * 問題ID或參考號碼
-   * 問題說明
-   * 被指派者
+  * 問題名稱
+  * 問題ID或參考號碼
+  * 問題說明
+  * 被指派者

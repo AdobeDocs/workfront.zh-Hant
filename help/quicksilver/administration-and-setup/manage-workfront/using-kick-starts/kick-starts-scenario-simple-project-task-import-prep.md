@@ -9,23 +9,28 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-TQID: https://experienceleague.adobe.com/--8-vO2RCBBbSZ2gfFl5RurpGviyK7sW6NauyoHKFhE
+TQID: 'https://experienceleague.adobe.com/--8-vO2RCBBbSZ2gfFl5RurpGviyK7sW6NauyoHKFhE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1402
-ht-degree: 10%
-
+source-wordcount: '1505'
+ht-degree: 9%
 ---
-
 # Kick-Starts情境：簡單的專案和任務匯入準備
 
 詳細說明使用Kick-Start方法匯入基本專案和任務的可用設定和控制項。
@@ -313,7 +318,7 @@ ht-degree: 10%
 * **提供專案日期。**
 在setPlannedStartDate欄中輸入每個專案的「計劃開始日期」。
 * **設定其他需要的詳細資料。**
-視需要填寫其他詳細資訊，例如說明或目前狀態。在「群組群組」工作表中查詢每個專案的群組ID，並將其輸入至個別專案的setGroupID欄。在COMPANY公司表上查詢專案的公司識別碼，並將其輸入到setCompanyID欄中。在「使用者」工作表中查詢每個專案所有者的使用者ID，並將其輸入到setOwnerID欄中。在使用者使用者工作表上查詢每個專案贊助者的使用者ID，並將其輸入到setSponnerID欄中。
+視需要填寫其他詳細資訊，例如說明或目前狀態。 在「群組群組」工作表中查詢每個專案的群組ID，並將其輸入至個別專案的setGroupID欄。 在COMPANY公司表上查詢專案的公司識別碼，並將其輸入到setCompanyID欄中。 在「使用者」工作表中查詢每個專案所有者的使用者ID，並將其輸入到setOwnerID欄中。 在使用者使用者工作表上查詢每個專案贊助者的使用者ID，並將其輸入到setSponnerID欄中。
 
 ![設定值](assets/im9.png)
 
@@ -380,11 +385,11 @@ ht-degree: 10%
 
   在此案例中，為您匯入的其他專案建置任務的最簡單方法是複製您剛才定義的任務，然後貼到下方（從第12列開始）。 然後您會：
 
-   1. 重新編號ID欄中的值。
-   1. 將setProjectID欄更新為您為下一個專案設定的值。
-   1. 更新setParentID和setPrecessionString值，以反映指派給此專案任務的新ID。
-   1. 更新任務指派和完成百分比。
-   1. 對下一個專案的任務重複這些步驟。
+  1. 重新編號ID欄中的值。
+  1. 將setProjectID欄更新為您為下一個專案設定的值。
+  1. 更新setParentID和setPrecessionString值，以反映指派給此專案任務的新ID。
+  1. 更新任務指派和完成百分比。
+  1. 對下一個專案的任務重複這些步驟。
 
 * **匯入Excel檔案**
 

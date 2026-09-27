@@ -6,13 +6,14 @@ navigation-topic: configure-proofing-functionality
 title: 獨立Workfront Proof至Workfront中的整合校訂概覽
 description: 如果您的組織從獨立版本的Workfront Proof變更為Workfront Pro計畫，其中Workfront Proof Premium與Workfront整合，則無法使用某些校訂功能。
 author: Courtney
-source-git-commit: 49d4de3455fc1156efc8a88e8d2bee329c375279
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 0%
-
 ---
-
 
 # 獨立Workfront Proof至Workfront中的整合校訂概覽
 
@@ -45,28 +46,28 @@ ht-degree: 0%
 * 可在新的整合帳戶與Workfront Proof帳戶之間連線。
 * 執行Workfront Proof報表的功能：
 
-   * 最近存取的專案
-   * 我管理的校訂具有準時、風險和延遲狀態
-   * 等待我決策的校訂具有準時、風險和延遲狀態
-   * 我需要檢閱的校訂
-   * 活動校樣
-   * 已封存的校樣
-   * 鎖定的校訂
-   * 直接從報告前往校訂
-   * 直接從報告前往校訂詳細資訊
-   * 直接在報告中共用校訂
-   * 直接來自報告的訊息校訂
-   * 從報告複製校訂
-   * 從報表下載原始檔案
-   * 從報表委派擁有權
-   * 從報告共用校訂連結
-   * 從報表列印註解
-   * 從報表匯出Excel
-   * 大量鎖定校訂
-   * 詳細的摘要以及工作流程進度矩陣
-   * 大量啟動校訂
-   * 大量封存校樣
-   * 大量取消封存校樣
-   * 大量變更擁有者
-   * 大量委派所有權
+  * 最近存取的專案
+  * 我管理的校訂具有準時、風險和延遲狀態
+  * 等待我決策的校訂具有準時、風險和延遲狀態
+  * 我需要檢閱的校訂
+  * 活動校樣
+  * 已封存的校樣
+  * 鎖定的校訂
+  * 直接從報告前往校訂
+  * 直接從報告前往校訂詳細資訊
+  * 直接在報告中共用校訂
+  * 直接來自報告的訊息校訂
+  * 從報告複製校訂
+  * 從報表下載原始檔案
+  * 從報表委派擁有權
+  * 從報告共用校訂連結
+  * 從報表列印註解
+  * 從報表匯出Excel
+  * 大量鎖定校訂
+  * 詳細的摘要以及工作流程進度矩陣
+  * 大量啟動校訂
+  * 大量封存校樣
+  * 大量取消封存校樣
+  * 大量變更擁有者
+  * 大量委派所有權
 

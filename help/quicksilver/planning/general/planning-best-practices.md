@@ -8,22 +8,31 @@ recommendations: noDisplay, noCatalog
 exl-id: 6e039b80-e3bf-412c-8c86-8f801f5861e3
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/lmewrF5ro-lPmIija0YlTRC-iaFr939tRNT-JgMOg4w
+TQID: 'https://experienceleague.adobe.com/lmewrF5ro-lPmIija0YlTRC-iaFr939tRNT-JgMOg4w'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3410
+source-wordcount: '3415'
 ht-degree: 1%
-
 ---
-
 <!--drafted because Kari Woolf will write something for Field Readiness instead, nothing for ExL, public-facing documentation-->
 
 # Adobe Workfront規劃實作建議
@@ -59,12 +68,12 @@ ht-degree: 1%
 * ✅首先，探索我們預先定義的工作區範本，以取得現有類似使用案例的想法。 您可以使用範本中預先定義的記錄型別和欄位，也可以新增您自己的記錄型別和欄位。
 * ✅識別您要透過Workfront Planning解決的主要使用案例。 例如，大多陣列織想要提高策略活動的可見度，其中可能包括建立更好的「行銷活動行事曆」。 因此，對於該使用案例，您首先想回答幾個問題：
 
-   * 誰在要求？
-   * 他們要將哪些專案放在行事曆中？
-行銷活動？戰術？方案？活動？活動？
-   * 他們想要透過此行事曆回答哪些型別的問題？
-   * 他們對於相同對象是否有任何重疊的行銷活動？
-   * 該行銷活動、策略、活動或事件的預算為何？
+  * 誰在要求？
+  * 他們要將哪些專案放在行事曆中？
+    行銷活動？ 戰術？ 方案？ 活動？ 活動？
+  * 他們想要透過此行事曆回答哪些型別的問題？
+  * 他們對於相同對象是否有任何重疊的行銷活動？
+  * 該行銷活動、策略、活動或事件的預算為何？
 
   這些問題的答案將決定您需要在Workfront Planning中建置什麼。
 
@@ -210,9 +219,9 @@ ht-degree: 1%
 
   您可以從下列許可權層級中選擇：
 
-   * **管理**：人員可以編輯、刪除和共用工作區、記錄型別，以及編輯、刪除和建立記錄。
-   * **Contribute**：人員可以建立、編輯和刪除記錄。
-   * **檢視**：人員可以檢視記錄。
+  * **管理**：人員可以編輯、刪除和共用工作區、記錄型別，以及編輯、刪除和建立記錄。
+  * **Contribute**：人員可以建立、編輯和刪除記錄。
+  * **檢視**：人員可以檢視記錄。
 
 * ✅雖然許多客戶覺得他們會將工作區的&#x200B;**管理**&#x200B;許可權授與大部分人員，但確實會將&#x200B;**管理**&#x200B;許可權限製為選取的信任人員群組，以免意外刪除記錄型別或建立不必要的記錄型別和欄位。 他們可以編輯、共用甚至刪除工作區。 此等級的許可權可授予他們對Workspace的完整管理存取權。
 
@@ -289,14 +298,14 @@ ht-degree: 1%
 
   您可以從下列共用選項中選擇：
 
-   * 若要與Workfront中的人員內部共用：
+  * 若要與Workfront中的人員內部共用：
 
-      * **擁有工作區檢視許可權或更高存取許可權的任何人：**&#x200B;允許所有擁有工作區檢視許可權或更高許可權的使用者提交建立記錄的請求。
-      * **任何擁有貢獻者或以上工作區存取權的使用者**：限制向擁有貢獻者或以上工作區許可權的使用者提交內容。
-      * **只有受邀者才能存取**：新增可以提交表單要求的人員、團隊、角色、群組或公司。
-   * 若要與沒有Workfront帳戶的人進行外部共用：
-      * **建立公開連結**，然後複製並和任何人共用，甚至是沒有Workfront帳戶的人：讓擁有表單連結的任何人能夠提交請求。
-      * **連結到期日：**&#x200B;請確定您設定公用連結的到期日，以增強安全性。
+    * **擁有工作區檢視許可權或更高存取許可權的任何人：**&#x200B;允許所有擁有工作區檢視許可權或更高許可權的使用者提交建立記錄的請求。
+    * **任何擁有貢獻者或以上工作區存取權的使用者**：限制向擁有貢獻者或以上工作區許可權的使用者提交內容。
+    * **只有受邀者才能存取**：新增可以提交表單要求的人員、團隊、角色、群組或公司。
+  * 若要與沒有Workfront帳戶的人進行外部共用：
+    * **建立公開連結**，然後複製並和任何人共用，甚至是沒有Workfront帳戶的人：讓擁有表單連結的任何人能夠提交請求。
+    * **連結到期日：**&#x200B;請確定您設定公用連結的到期日，以增強安全性。
 
 ### 管理請求表單的最佳作法
 

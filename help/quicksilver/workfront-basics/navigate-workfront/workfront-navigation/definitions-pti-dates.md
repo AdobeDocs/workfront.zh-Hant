@@ -1,25 +1,29 @@
 ---
 content-type: reference
 navigation-topic: workfront-navigation
-title: ' [!DNL Workfront]中專案、任務和問題日期的概觀'
-description: 本文提供 [!DNL Adobe Workfront]中與專案、任務和問題相關的最常見日期的定義。
+title: '[!DNL Workfront]中專案、任務和問題日期的概觀'
+description: 本文提供[!DNL Adobe Workfront]中與專案、任務和問題相關的最常見日期的定義。
 feature: Get Started with Workfront
 author: Alina
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-TQID: https://experienceleague.adobe.com/cubl7FHYyEeWbxpkMggRQOXPhHCnFWmn8Picjk77-hA
+TQID: 'https://experienceleague.adobe.com/cubl7FHYyEeWbxpkMggRQOXPhHCnFWmn8Picjk77-hA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2359
+source-wordcount: '2359'
 ht-degree: 3%
-
 ---
-
 # [!DNL Workfront]中專案、任務和問題日期的概觀
 
 <!-- Audited: 05/2024 -->

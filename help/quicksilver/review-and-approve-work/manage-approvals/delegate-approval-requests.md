@@ -8,28 +8,39 @@ feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/NaHz1Kof1NTCYBST3qhAy-K8BQZKvqOoI1VCEyA2yXM
+TQID: 'https://experienceleague.adobe.com/NaHz1Kof1NTCYBST3qhAy-K8BQZKvqOoI1VCEyA2yXM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1199
+source-wordcount: '1203'
 ht-degree: 1%
-
 ---
-
 # 委派核准請求
 
 您不在辦公室時，可以暫時委派指派給您的工作。 您可以委派任務和問題指派，也可以委派核准請求。 本文會說明如何委派核准請求。 有關委派任務和問題指派的資訊，請參閱[委派任務和問題](../../manage-work/delegate-work/how-to-delegate-work.md)。
@@ -135,11 +146,11 @@ ht-degree: 1%
 1. 在委派我的核准區段中指定下列資訊：
 
    * **名稱**：開始輸入您要委派核准的使用者名稱，然後在名稱出現在下拉式功能表中時按一下該名稱。
-   * **開始日期**：選取核准開始轉送的日期。 轉送從您選取的日期凌晨12:00開始。\
+   * **開始日期**：選取核准開始轉送的日期。 轉送從您選取的日期的凌晨12:00開始。\
      開始日期必須是目前日期或是未來日期。
    * **結束日期**：執行下列任一項作業：
-      * 選取核准停止轉送的日期。 轉送在您選取的日期晚上11:59結束。
-      * 選取&#x200B;**無結束日期**&#x200B;以設定Workfront無限期委派核准。
+     * 選取核准停止轉送的日期。 轉送會在您選取的日期晚上11:59結束。
+     * 選取&#x200B;**無結束日期**&#x200B;以設定Workfront無限期委派核准。
 
 1. 按一下「**儲存**」。
 
@@ -155,11 +166,11 @@ ht-degree: 1%
 1. 在委派我的核准區段中指定下列資訊：
 
    * **名稱**：開始輸入您要委派核准的使用者名稱，然後在名稱出現在下拉式功能表中時按一下該名稱。
-   * **開始日期**：選取核准開始轉送的日期。 轉送從您選取的日期凌晨12:00開始。\
+   * **開始日期**：選取核准開始轉送的日期。 轉送從您選取的日期的凌晨12:00開始。\
      開始日期必須是目前日期或是未來日期。
    * **結束日期**：執行下列任一項作業：
-      * 選取核准停止轉送的日期。 轉送在您選取的日期晚上11:59結束。
-      * 選取&#x200B;**無結束日期**&#x200B;以設定Workfront無限期委派核准。
+     * 選取核准停止轉送的日期。 轉送會在您選取的日期晚上11:59結束。
+     * 選取&#x200B;**無結束日期**&#x200B;以設定Workfront無限期委派核准。
 
 ## 更新或停止核准委派 {#update-or-stop-an-approval-delegation}
 

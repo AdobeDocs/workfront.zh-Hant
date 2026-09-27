@@ -2,23 +2,31 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
-title: 在 [!DNL Workfront] 校訂中訂閱校訂
+title: 在[!DNL Workfront]校訂中訂閱校訂
 description: 當另一個使用者傳送給您開啟校訂URL並在您的瀏覽器中開啟時，校訂檢視器會以唯讀模式啟動。 在校訂之前，您需要訂閱以識別自己。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 8f488839-efb5-44fb-9757-7e4d1c4aceef
-TQID: https://experienceleague.adobe.com/wCWD8rklFujwtuQamvtqo1oUCKwsMZVCVtjQSwAXC5U
+TQID: 'https://experienceleague.adobe.com/wCWD8rklFujwtuQamvtqo1oUCKwsMZVCVtjQSwAXC5U'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 255
+source-wordcount: '256'
 ht-degree: 0%
-
 ---
-
 # 在[!DNL Workfront Proof]中訂閱校訂
 
 >[!IMPORTANT]
@@ -29,7 +37,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在使用者可以訂閱校訂之前，必須啟用其訂閱設定（請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)中設定校訂設定 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)中的設定校訂設定一節）。
+>在使用者可以訂閱校訂之前，必須啟用其訂閱設定（請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)中設定校訂設定 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)中的設定校訂設定一節）。
 
 若要訂閱校訂：
 

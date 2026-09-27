@@ -7,20 +7,24 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 29d922f4-f4c6-45e5-b9fa-43e2068ec66d
-TQID: https://experienceleague.adobe.com/bhSRoKwkhcVC0E-d-fiNzoWaefME6ta2176gnF-Ts1M
+TQID: 'https://experienceleague.adobe.com/bhSRoKwkhcVC0E-d-fiNzoWaefME6ta2176gnF-Ts1M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 179
+source-wordcount: '179'
 ht-degree: 27%
-
 ---
-
 # API 9版的新增功能
 
 ## 新資源

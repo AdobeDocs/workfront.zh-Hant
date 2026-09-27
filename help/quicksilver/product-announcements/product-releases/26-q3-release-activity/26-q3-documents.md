@@ -5,13 +5,20 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: 77a1b575b45f60e6fd61e6751ec1fec4537a5697
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 0%
-
 ---
-
 # 2026年第三季度檔案增強功能
 
 本頁說明了2026年第三季度版本對預覽環境所做的「檔案」增強功能。 如上所述，這些增強功能將於生產環境中提供。
@@ -22,7 +29,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2026年7月7日生產快速發行： 2026年7月15日適用於所有人的生產： 2026年7月16日
+>預覽： 2026年7月7日
+>生產快速發行： 2026年7月15日
+>適用於所有人的生產： 2026年7月16日
 
 檔案的核准工作流程現在支援平行路徑，可協助團隊同時執行多個獨立稽核追蹤。 透過平行路徑，您可以：
 
@@ -37,7 +46,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽：不適用生產快速發行： 2026年7月8日適用於所有人的生產： 2026年7月8日超出排程此功能僅適用於工作流程Ultimate套件上已啟用Adobe雲端儲存空間的組織。
+>預覽：不適用
+>生產快速發行： 2026年7月8日
+>適用於所有人的生產： 2026年7月8日
+>[!BADGE 超出排程]{type=Neutral}
+>此功能僅適用於工作流程Ultimate套件上已啟用Adobe雲端儲存空間的組織。
 
 Adobe Cloud Drive現在可供採用Workfront版本（支援Adobe雲端儲存空間）的組織使用。 Adobe Cloud Drive是一款案頭應用程式，可將Adobe雲端儲存空間專案掛載到Mac或Windows電腦上，讓您直接從Finder或File Explorer開啟、編輯和儲存任何應用程式中的檔案。 您的變更會自動同步至Adobe雲端儲存空間，並可供Workfront和Frame.io中的團隊使用。
 
@@ -49,7 +62,10 @@ Adobe Cloud Drive現在可供採用Workfront版本（支援Adobe雲端儲存空�
 
 >[!NOTE]
 >
->預覽：不適用生產快速發行： 2026年6月15日每個人都要生產： 2026年6月15日不在排程&rbrack;{type=Neutral}內
+>預覽：不適用
+>生產快速發行： 2026年6月15日
+>每個人都要生產： 2026年6月15日
+>[!BADGE 不在排程]{type=Neutral}內
 
 Adobe Express和Workfront與Frame.io整合，為Adobe Express中建立的內容提供結構化稽核和核准。 設計人員可以將Workfront核准工作流程範本對應至快速範本，如此一來，當範本重新混合時，發佈前便會自動需要核准，透過預先設定的Workfront工作流程和Frame.io檢視器路由傳送資產。
 
@@ -68,7 +84,9 @@ Adobe Express和Workfront與Frame.io整合，為Adobe Express中建立的內容�
 
 >[!NOTE]
 >
->預覽： 2026年6月2日生產環境快速發行： 2026年6月11日適用於所有人的生產： 2026年7月16日
+>預覽： 2026年6月2日
+>生產環境快速發行： 2026年6月11日
+>適用於所有人的生產： 2026年7月16日
 
 您現在可以直接從新的檔案區域開啟檔案核准的可列印摘要。 此功能適用於使用Adobe雲端儲存空間的組織。
 
@@ -81,7 +99,9 @@ Adobe Express和Workfront與Frame.io整合，為Adobe Express中建立的內容�
 
 >[!NOTE]
 >
->預覽： 2026年5月28日生產環境快速發行： 2026年6月11日適用於所有人的生產： 2026年7月16日
+>預覽： 2026年5月28日
+>生產環境快速發行： 2026年6月11日
+>適用於所有人的生產： 2026年7月16日
 
 您現在可以新增自訂訊息至檔案核准工作流程的每個階段。 該訊息會顯示在核准電子郵件通知和Workfront的「核准」索引標籤中。
 
@@ -97,7 +117,9 @@ Adobe Express和Workfront與Frame.io整合，為Adobe Express中建立的內容�
 
 >[!NOTE]
 >
->預覽： 2026年5月14日生產快速發行： 2026年5月14日適用於所有人的生產： 2026年7月16日
+>預覽： 2026年5月14日
+>生產快速發行： 2026年5月14日
+>適用於所有人的生產： 2026年7月16日
 
 檔案區域中的連結資產現在會顯示狀態徽章，讓團隊立即檢視每個資產所處的位置，無需離開Workfront。 Assets可以顯示：
 
@@ -112,7 +134,9 @@ Adobe Express和Workfront與Frame.io整合，為Adobe Express中建立的內容�
 
 >[!NOTE]
 >
->預覽： 2026年4月30日生產快速發行： 2026年5月14日適用於所有人的生產： 2026年7月16日
+>預覽： 2026年4月30日
+>生產快速發行： 2026年5月14日
+>適用於所有人的生產： 2026年7月16日
 
 「設定」中的「客戶資訊」頁面現在包含新的「儲存空間概覽」區段，其中包含Adobe雲端儲存空間的使用量表。
 

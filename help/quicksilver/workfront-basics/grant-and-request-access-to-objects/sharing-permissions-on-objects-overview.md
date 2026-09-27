@@ -6,27 +6,35 @@ description: 您可以共用或移除您所建立之物件或與您共用之物�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-TQID: https://experienceleague.adobe.com/1qu77g6G1MGEEHPki6hVXfP5PG2TMD0xg5Gg3PC5G2Y
+TQID: 'https://experienceleague.adobe.com/1qu77g6G1MGEEHPki6hVXfP5PG2TMD0xg5Gg3PC5G2Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1382
+source-wordcount: '1382'
 ht-degree: 1%
-
 ---
-
 # 物件許可權共用概觀
 
 <!-- Audited: 12/2023 -->
@@ -68,9 +76,9 @@ ht-degree: 1%
 
 * **報告、儀表板和行事曆**：如需詳細資訊，請參閱[共用報告、儀表板和行事曆](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)。  此外，請參閱下列文章：
 
-   * [在Adobe Workfront中共用報表](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
-   * [共用儀表板](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
-   * [共用行事曆報告](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
+  * [在Adobe Workfront中共用報表](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
+  * [共用儀表板](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
+  * [共用行事曆報告](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
 * **篩選器、檢視和群組**：如需詳細資訊，請參閱[共用篩選器、檢視或群組](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)。
 
@@ -108,8 +116,8 @@ ht-degree: 1%
 
 * 當您與使用者共用物件時，Workfront會傳送通知給他們。 當同時啟用下列兩個設定時，會發出通知：
 
-   * 系統或群組管理員已在[設定]區域中啟用&#x200B;**與使用者共用物件**&#x200B;和&#x200B;**與團隊共用物件**&#x200B;電子郵件通知。 如需詳細資訊，請參閱[設定系統中每個人的事件通知](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)。
-   * **有人與我共用物件**&#x200B;且&#x200B;**有人與我的團隊共用物件**&#x200B;已在使用者的設定檔頁面中啟用通知。 如需詳細資訊，請參閱[修改您自己的電子郵件通知](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
+  * 系統或群組管理員已在[設定]區域中啟用&#x200B;**與使用者共用物件**&#x200B;和&#x200B;**與團隊共用物件**&#x200B;電子郵件通知。 如需詳細資訊，請參閱[設定系統中每個人的事件通知](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)。
+  * **有人與我共用物件**&#x200B;且&#x200B;**有人與我的團隊共用物件**&#x200B;已在使用者的設定檔頁面中啟用通知。 如需詳細資訊，請參閱[修改您自己的電子郵件通知](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
 
   必須先啟用系統或群組層級的設定，然後才能為使用者啟用通知設定。
 

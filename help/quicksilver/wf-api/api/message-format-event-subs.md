@@ -7,22 +7,26 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: addcf5bc-a101-4bb0-93a6-46b4af67c848
-TQID: https://experienceleague.adobe.com/-yUOhE9OsdK5SHaObgFhMgGt7Ih-FY7XqdEJn6QI4hk
+TQID: 'https://experienceleague.adobe.com/-yUOhE9OsdK5SHaObgFhMgGt7Ih-FY7XqdEJn6QI4hk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Metadata
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 254
+source-wordcount: '254'
 ht-degree: 0%
-
 ---
-
 # 事件訂閱的傳出訊息格式
 
 隨著Adobe Workfront 2017.3的發行，事件訂閱的輸出訊息格式將會變更，以提高效能並更好地使用事件訂閱來整合。

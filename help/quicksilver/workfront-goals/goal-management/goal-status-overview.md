@@ -9,18 +9,24 @@ feature: Workfront Goals
 exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/tJoRYFhaVMF85CiVYna7eA8OLP34TONpZlesSWZeEBM
+TQID: 'https://experienceleague.adobe.com/tJoRYFhaVMF85CiVYna7eA8OLP34TONpZlesSWZeEBM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 794
+source-wordcount: '794'
 ht-degree: 4%
-
 ---
-
 # Adobe Workfront目標中的目標狀態概觀
 
 <!--Audited: 4/2025-->
@@ -69,10 +75,10 @@ Old:
 * 開啟已關閉的目標也會更新目標的進度。
 * 您在目標上執行的特定動作也會更新其狀態。 如需有關如何更新目標狀態的資訊，請參閱下列文章：
 
-   * [在Adobe Workfront目標中建立目標](../../workfront-goals/goal-management/create-goals.md)
-   * [在Adobe Workfront目標中啟用目標](../../workfront-goals/goal-management/activate-goals.md)
-   * [刪除和停用Adobe Workfront目標中的目標](../../workfront-goals/goal-management/delete-and-deactivate-goals.md)
-   * [在Adobe Workfront目標中關閉並重新開啟目標](../../workfront-goals/goal-management/close-and-reopen-goals.md)
+  * [在Adobe Workfront目標中建立目標](../../workfront-goals/goal-management/create-goals.md)
+  * [在Adobe Workfront目標中啟用目標](../../workfront-goals/goal-management/activate-goals.md)
+  * [刪除和停用Adobe Workfront目標中的目標](../../workfront-goals/goal-management/delete-and-deactivate-goals.md)
+  * [在Adobe Workfront目標中關閉並重新開啟目標](../../workfront-goals/goal-management/close-and-reopen-goals.md)
 
 ## Workfront目標中的目標狀態概觀
 
@@ -96,8 +102,8 @@ Old:
 * 草擬的目標不會有助於其他目標的進度計算，並且圖表不會考慮這些目標。
 * 草擬的目標會顯示在Workfront目標的下列領域：
 
-   * 目標清單
-   * 目標校準區段（僅作為校準的目標）
+  * 目標清單
+  * 目標校準區段（僅作為校準的目標）
 
 
 >[!IMPORTANT]
@@ -111,9 +117,9 @@ Old:
 * 作用中目標有助於其他目標的進度計算，並在圖形中加以考慮。
 * 作用中目標會顯示在Workfront目標的下列區域中：
 
-   * 目標清單
-   * 目標對齊區段
-   * 作用中目標的進度會以圖形顯示
+  * 目標清單
+  * 目標對齊區段
+  * 作用中目標的進度會以圖形顯示
 
 * 您可以重新啟用「已關閉」或「非作用中」目標。
 
@@ -131,8 +137,8 @@ Old:
 * 非作用中的目標具有進度歷史，因為它們曾經是作用中的目標，不同於草擬的目標。
 * 非作用中目標會顯示在Workfront目標的下列區域中：
 
-   * 目標清單
-   * 目標對齊區段（僅對齊的目標）
+  * 目標清單
+  * 目標對齊區段（僅對齊的目標）
 
 ### 已關閉 {#closed}
 
@@ -148,6 +154,6 @@ Old:
 * 您無法更新已關閉目標的進度。
 * 封閉式目標會顯示在Workfront目標的下列區域中：
 
-   * 目標清單
-   * 目標對齊區段（僅對齊的目標）
-   * 已關閉目標的資訊也會在圖形區段中考慮。
+  * 目標清單
+  * 目標對齊區段（僅對齊的目標）
+  * 已關閉目標的資訊也會在圖形區段中考慮。

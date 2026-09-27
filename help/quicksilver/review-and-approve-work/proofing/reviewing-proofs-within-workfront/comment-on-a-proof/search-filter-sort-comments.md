@@ -8,23 +8,31 @@ feature: Digital Content and Documents
 exl-id: 03edaa7e-08c3-4ab1-83ab-747694cf1c17
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/06PPfHkl-tob4Ze47xstRtgBu6XrAgo8OkcN2IYEbrI
+TQID: 'https://experienceleague.adobe.com/06PPfHkl-tob4Ze47xstRtgBu6XrAgo8OkcN2IYEbrI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 780
+source-wordcount: '791'
 ht-degree: 3%
-
 ---
-
 # 搜尋、篩選和排序校訂評論
 
 您可以搜尋、篩選和排序校訂評論，以輕鬆導覽對內容的意見回饋。
@@ -101,7 +109,7 @@ ht-degree: 3%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>動作</strong> </td> 
-      <td>僅顯示符合您選取之動作的註解。無動作。您的系統中必須啟用動作。如需詳細資訊，請參閱。
+      <td>僅顯示符合您選取之動作的註解。無動作。 您的系統中必須啟用動作。 如需詳細資訊，請參閱。
       <!--
         &nbsp;
        -->

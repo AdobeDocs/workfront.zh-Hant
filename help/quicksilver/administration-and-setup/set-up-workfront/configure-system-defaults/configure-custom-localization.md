@@ -7,13 +7,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bdc6d5ee-2037-4d0b-bf18-3e6cc9cb078e
-source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 7%
-
 ---
-
 # 設定自訂本地化
 
 自訂本地化可讓您定義不同語言的自訂辭彙和片語。 Workfront接著會以使用者的Adobe Identity Management (IMS)設定中所設定的語言顯示這些詞語。

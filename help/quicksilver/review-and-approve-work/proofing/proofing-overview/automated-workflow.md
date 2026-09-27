@@ -7,20 +7,27 @@ description: 「自動化工作流程」可讓您建立一系列循序或平行�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d643970a-c00c-4fb4-94bc-fca4e090dcc9
-TQID: https://experienceleague.adobe.com/-BRaaTZcKosdFv6Au4RU0LDMuKffzxtWqprpzJfoh4g
+TQID: 'https://experienceleague.adobe.com/-BRaaTZcKosdFv6Au4RU0LDMuKffzxtWqprpzJfoh4g'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Privacy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 730
+source-wordcount: '730'
 ht-degree: 0%
-
 ---
-
 # 自動化工作流程總覽
 
 <!-- Audited: 01/2024 -->

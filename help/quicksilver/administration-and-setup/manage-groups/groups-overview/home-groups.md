@@ -8,24 +8,31 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 89adb9ea-bfde-4c0d-9fec-b1f97e925340
-TQID: https://experienceleague.adobe.com/S44kvUMrEV6C3K2BcqJZnKVqTRfT16xxhyDmG-P2J0c
+TQID: 'https://experienceleague.adobe.com/S44kvUMrEV6C3K2BcqJZnKVqTRfT16xxhyDmG-P2J0c'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 subfeature_v2:
   - id: d83a421c-ecb9-4757-b609-c531392f90eb
+    internal-label: Create and manage groups
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 333
+source-wordcount: '333'
 ht-degree: 0%
-
 ---
-
 # 主群組概觀
 
 主群組會在使用者的設定檔中指派。 所有使用者都必須有「主群組」。 一個使用者可以屬於多個群組，但他們只能有一個主群組。 如需群組的詳細資訊，請參閱[群組概述](../../../administration-and-setup/manage-groups/groups-overview/groups.md)。

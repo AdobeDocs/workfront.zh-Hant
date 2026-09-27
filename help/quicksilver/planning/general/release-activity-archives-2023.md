@@ -8,21 +8,29 @@ recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/pVAo3ZFNsUuJGI6GDOBCUWO6UkxQgWEif84qa79EXTk
+TQID: 'https://experienceleague.adobe.com/pVAo3ZFNsUuJGI6GDOBCUWO6UkxQgWEif84qa79EXTk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Taxonomy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3059
+source-wordcount: '3065'
 ht-degree: 1%
-
 ---
-
 # 2023年Adobe Workfront計畫發行活動
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
@@ -119,11 +127,11 @@ ht-degree: 1%
 
 * 您可以選擇以下任何型別的欄位作為主要欄位，並取代第一欄中的「名稱」欄位：
 
-   * 單行文字
+  * 單行文字
 
-   * 數字
+  * 數字
 
-   * 公式
+  * 公式
 
 * 表格檢視的主要欄位一律凍結且無法移動，除非您將其他欄位設定為主要欄位。
 
@@ -201,11 +209,11 @@ removed per PM, for now:
 
 * 您無法複製和貼上下列欄位型別的欄位值：
 
-   * 人員
+  * 人員
 
-   * 系統欄位
+  * 系統欄位
 
-   * 在連線記錄之後建立的連結欄位
+  * 在連線記錄之後建立的連結欄位
 
 如需詳細資訊，請參閱[編輯記錄](/help/quicksilver/planning/records/edit-records.md)。
 
@@ -292,19 +300,19 @@ removed per PM, for now:
 
 * 群組可符合下列顏色：
 
-   * 灰色（預設）
+  * 灰色（預設）
 
-   * 您分組依據的欄位色彩
+  * 您分組依據的欄位色彩
 
 * 長條圖可以符合下列顏色：
 
-   * 記錄型別的顏色
+  * 記錄型別的顏色
 
-   * 您選取的欄位顏色
+  * 您選取的欄位顏色
 
-   * 群組的顏色
+  * 群組的顏色
 
-   * 無顏色（預設）
+  * 無顏色（預設）
 
 將顏色與特定欄位比對時，您只能選取具有顏色編碼選項的欄位。
 
@@ -346,8 +354,8 @@ removed per PM, for now:
 
   如需詳細資訊，請參閱下列文章：
 
-   * [連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)
-   * [連接記錄](/help/quicksilver/planning/records/connect-records.md)
+  * [連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)
+  * [連接記錄](/help/quicksilver/planning/records/connect-records.md)
 
 ### 單行文字欄位的URL支援
 
@@ -397,8 +405,8 @@ removed per PM, for now:
 
 * 您現在可以下列模式顯示時間軸檢視：
 
-   * 標準：以個別的明細行顯示記錄。
-   * 緊密：顯示日期在同一行上不相交的記錄。
+  * 標準：以個別的明細行顯示記錄。
+  * 緊密：顯示日期在同一行上不相交的記錄。
 
 * 我們已變更時間軸檢視中群組行的外觀，以顯示在其包含記錄的時間軸上方。 在此改善之前，群組線會跨時間軸的整個長度顯示。
 

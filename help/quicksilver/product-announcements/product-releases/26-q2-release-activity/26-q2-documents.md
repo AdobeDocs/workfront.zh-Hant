@@ -5,13 +5,20 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: 347b94801a86f3357b46da4955605a9742b6cf83
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '870'
 ht-degree: 0%
-
 ---
-
 # 2026年第二季檔案增強功能
 
 <!--hide this article until multi stage goes out-->
@@ -24,7 +31,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2026年4月16日>生產快速版本： 2026年4月16日>每個人的生產： 2026年4月16日
+>預覽： 2026年4月16日
+>生產快速發行： 2026年4月16日
+>每個人都能使用生產： 2026年4月16日
 
 Workfront現在提供「內容建議程式」並與Adobe Experience Manager Assets整合，讓團隊更容易探索及重複使用現有的高價值內容。
 
@@ -43,7 +52,9 @@ Workfront現在提供「內容建議程式」並與Adobe Experience Manager Asse
 
 >[!NOTE]
 >
->預覽： 2026年3月31日>生產快速版本： 2026年3月31日>每個人的生產： 2026年3月31日
+>預覽： 2026年3月31日
+>生產快速發行： 2026年3月31日
+>適用於所有人的生產： 2026年3月31日
 
 在2026年3月31日，所有Workfront客戶都已布建GenStudio Foundation，而Admin Console系統管理員將會收到通知這項新增功能的電子郵件。 此產品僅供布建之用，以便Workfront客戶可視AI共同作業人員發行之需要，將存取權授予Workfront客戶。 產品本身只是品牌的存取機制，GenStudio Foundation產品中沒有其他功能。
 
@@ -53,7 +64,9 @@ Workfront現在提供「內容建議程式」並與Adobe Experience Manager Asse
 
 >[!NOTE]
 >
->預覽： 2026年4月2日>生產快速發行： 2026年4月15日>每個人都能生產： 2026年4月16日
+>預覽： 2026年4月2日
+>生產快速發行： 2026年4月15日
+>每個人都能使用生產： 2026年4月16日
 
 我們已將下列增強功能新增至「首頁」的「我的核准」小工具：
 
@@ -70,7 +83,9 @@ Workfront現在提供「內容建議程式」並與Adobe Experience Manager Asse
 
 >[!NOTE]
 >
->預覽： 2026年3月12日>生產快速版本： 2026年4月15日>每個人的生產： 2026年4月16日
+>預覽： 2026年3月12日
+>生產快速發行： 2026年4月15日
+>每個人都能使用生產： 2026年4月16日
 
 
 我們很高興推出由Workfront和Frame.io提供支援的統一檢閱和核准，這是簡化的檢閱和核准體驗。
@@ -105,7 +120,9 @@ Adobe雲端儲存是以雲端為主的儲存解決方案，可作為Adobe企業�
 
 >[!NOTE]
 >
->預覽： 2026年3月12日>生產快速版本： 2026年4月15日>每個人的生產： 2026年4月16日
+>預覽： 2026年3月12日
+>生產快速發行： 2026年4月15日
+>每個人都能使用生產： 2026年4月16日
 
 多階段核准工作流程現在可用於統一核准，幫助組織強制實施結構化、可重複的核准流程，以反映在現實世界中審查工作的方式。 透過多階段核准，您可以：
 
@@ -121,7 +138,9 @@ Adobe雲端儲存是以雲端為主的儲存解決方案，可作為Adobe企業�
 
 >[!NOTE]
 >
->預覽： 2026年3月12日>生產快速版本： 2026年4月15日>每個人的生產： 2026年4月16日
+>預覽： 2026年3月12日
+>生產快速發行： 2026年4月15日
+>每個人都能使用生產： 2026年4月16日
 
 您現在可以設定並重複使用多階段核准工作流程範本，讓您更輕鬆地在重複核准工作流程之間套用一致的控管。
 

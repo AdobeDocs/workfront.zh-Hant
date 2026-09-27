@@ -7,27 +7,35 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d6bb889c-a057-453f-8f80-761cfb1ad4a1
-TQID: https://experienceleague.adobe.com/JB7Mhf1RUya-cG9B1OJ-xuAW-y9aq-V2Jxa3Xpf7VFI
+TQID: 'https://experienceleague.adobe.com/JB7Mhf1RUya-cG9B1OJ-xuAW-y9aq-V2Jxa3Xpf7VFI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1625
+source-wordcount: '1681'
 ht-degree: 0%
-
 ---
-
 # 2017.3 Beta 4發行活動
 
 本頁說明2017.3 Beta 4版本預覽環境中最近可用的所有變更。 此頁面上的功能已在2017年9月25日當週的「預覽」環境中提供。 它將在2017年11月初的生產環境中提供。
@@ -62,7 +70,7 @@ ht-degree: 0%
 
 ## 複製任務 {#duplicate-tasks}
 
-您現在可以快速複製專案中的一項任務或一組任務。這個動作會建立與原始任務相同的任務。復製程式中沒有其他選項可讓您對新建立的任務進行任何變更。  
+您現在可以快速複製專案中的一項任務或一組任務。 這個動作會建立與原始任務相同的任務。 復製程式中沒有其他選項可讓您對新建立的任務進行任何變更。  
 
 在此變更之前，您可以將任務複製到新專案或現有專案，並在複製時修改部分資訊。
 
@@ -119,7 +127,7 @@ Workfront會分析所有可用使用者的目前工作指派，並為任何尚�
 您現在可以在安裝程式中找到稱為資源管理的新區域。 在此區域中，我們引進了設定，可讓您指定如何在資源規劃工具中計算使用者可用性。 您可以使用下列方法計算此值：
 
 * 手動：除了使用者的個別FTE之外，還會使用系統的「預設排程」來決定使用者在「資源規劃工具」中的可用時數。 使用者的排程會被忽略。
-* 自動：使用者的排程是用來決定使用者在資源規劃工具中的可用時數。FTE可用性是根據使用者的排程和預設排程來計算。使用者FTE的值會被忽略。 
+* 自動：使用者的排程是用來決定使用者在資源規劃工具中的可用時數。 FTE可用性是根據使用者的排程和預設排程來計算。 使用者FTE的值會被忽略。 
 
 如需有關為系統設定資源管理偏好設定的詳細資訊，請參閱[設定資源管理偏好設定](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)。
 

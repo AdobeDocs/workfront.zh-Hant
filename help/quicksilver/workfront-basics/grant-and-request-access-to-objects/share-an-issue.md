@@ -6,22 +6,26 @@ description: 當使用者指派存取層級時，您的Adobe Workfront管理員�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-TQID: https://experienceleague.adobe.com/APJfLfTk7gg-Tyi6wWhzLgXqFDnuRuv5hjKpr0IwwsU
+TQID: 'https://experienceleague.adobe.com/APJfLfTk7gg-Tyi6wWhzLgXqFDnuRuv5hjKpr0IwwsU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1226
+source-wordcount: '1226'
 ht-degree: 3%
-
 ---
-
 # 共用問題
 
 當使用者指派存取層級時，您的Adobe Workfront管理員會授予他們檢視或編輯問題的存取權。 如需授與問題存取權的詳細資訊，請參閱[授與問題存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)。
@@ -76,9 +80,9 @@ ht-degree: 3%
 * 您可以個別共用問題，也可以一次共用數個問題。 共用問題等同於在Workfront中共用其他專案。 如需在Workfront中共用專案的詳細資訊，請參閱[共用物件](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)。
 * 您可以向問題授予下列許可權：
 
-   * 檢視
-   * 參與
-   * 管理
+  * 檢視
+  * 參與
+  * 管理
 
 * 當您共用問題時，附加到問題的所有檔案都會繼承相同的許可權。
 
@@ -91,27 +95,27 @@ ht-degree: 3%
 * 手動，類似Workfront中的共用任何其他物件。
 * 執行下列任一項作業以自動執行：
 
-   * 指定問題之任何父系物件的許可權：專案、方案或投資組合。 問題會繼承其父物件的許可權。 如需有關檢視物件繼承許可權的資訊，請參閱[檢視物件的繼承許可權](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)。
-   * 在用來建立問題所在專案的範本上，將實體新增到專案共用。 如需從範本共用專案的詳細資訊，請參閱[共用範本](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)。
+  * 指定問題之任何父系物件的許可權：專案、方案或投資組合。 問題會繼承其父物件的許可權。 如需有關檢視物件繼承許可權的資訊，請參閱[檢視物件的繼承許可權](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)。
+  * 在用來建立問題所在專案的範本上，將實體新增到專案共用。 如需從範本共用專案的詳細資訊，請參閱[共用範本](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)。
 
-   * 指定編輯專案時專案中所有問題的許可權。 如需有關根據使用者對專案的許可權來管理專案上問題或請求的存取許可權的資訊，請參閱文章[編輯專案](../../manage-work/projects/manage-projects/edit-projects.md)中的[&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access)區段。
+  * 指定編輯專案時專案中所有問題的許可權。 如需有關根據使用者對專案的許可權來管理專案上問題或請求的存取許可權的資訊，請參閱文章[編輯專案](../../manage-work/projects/manage-projects/edit-projects.md)中的[&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access)區段。
 
-     >[!TIP]
-     >
-     >如果您未指定將使用者指派給專案問題的時候您希望使用者擁有哪些問題許可權，預設情況下，他們會獲得與專案相同的許可權。
+    >[!TIP]
+    >
+    >如果您未指定將使用者指派給專案問題的時候您希望使用者擁有哪些問題許可權，預設情況下，他們會獲得與專案相同的許可權。
 
-   * 指定使用者在建立請求佇列時，針對在請求佇列中提交的問題所接收的許可權。 如需詳細資訊，請參閱[建立要求佇列](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
+  * 指定使用者在建立請求佇列時，針對在請求佇列中提交的問題所接收的許可權。 如需詳細資訊，請參閱[建立要求佇列](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)。
 
-     >[!IMPORTANT]
-     >
-     >根據專案是否發佈為請求佇列，授予許可權的方式有所不同：
-     >
-     >   
-     >   
-     >   * 當使用者將請求提交到作為請求佇列發佈的專案時，主要聯絡人和輸入者使用者將被授予指定的許可權。
-     >   * 當使用者將請求提交到未作為請求佇列發佈的專案時，主要聯絡人（如果與「輸入者」使用者不同）被授予指定的許可權，並且「輸入者」使用者被授予該問題的管理許可權。
-     >   
-     >
+    >[!IMPORTANT]
+    >
+    >根據專案是否發佈為請求佇列，授予許可權的方式有所不同：
+    >
+    >   
+    >   
+    >   * 當使用者將請求提交到作為請求佇列發佈的專案時，主要聯絡人和輸入者使用者將被授予指定的許可權。
+    >   * 當使用者將請求提交到未作為請求佇列發佈的專案時，主要聯絡人（如果與「輸入者」使用者不同）被授予指定的許可權，並且「輸入者」使用者被授予該問題的管理許可權。
+    >   
+    >
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

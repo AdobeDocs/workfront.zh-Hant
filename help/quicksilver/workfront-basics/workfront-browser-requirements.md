@@ -6,20 +6,24 @@ description: Adobe Workfront和Workfront Proof都需要使用網際網路瀏覽�
 feature: Get Started with Workfront
 author: Courtney
 exl-id: d5252675-ae87-4393-b05a-7810036e2f7d
-TQID: https://experienceleague.adobe.com/wvnnVO-fUD4E0t8Q63bV6zz2QOm2t7pP1MT2QBa2hTc
+TQID: 'https://experienceleague.adobe.com/wvnnVO-fUD4E0t8Q63bV6zz2QOm2t7pP1MT2QBa2hTc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 245
+source-wordcount: '245'
 ht-degree: 1%
-
 ---
-
 # Adobe Workfront瀏覽器需求
 
 <!--Audited: 01/2024-->
@@ -30,10 +34,10 @@ Adobe Workfront和Workfront Proof都需要使用網際網路瀏覽器。
 
 * **網頁瀏覽器：** Workfront正式支援下列瀏覽器的目前瀏覽器版本和先前版本（以及至少佔Workfront總流量5%的任何先前版本）：
 
-   * Chrome
-   * Firefox
-   * Safari
-   * Microsoft Edge （非Microsoft Edge舊版）
+  * Chrome
+  * Firefox
+  * Safari
+  * Microsoft Edge （非Microsoft Edge舊版）
 
   >[!NOTE]
   >

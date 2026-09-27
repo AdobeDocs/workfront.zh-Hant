@@ -1,30 +1,33 @@
 ---
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: 在 [!DNL Adobe Workfront] 行動應用程式中共用和下載校樣
+title: 在[!DNL Adobe Workfront]行動應用程式中共用和下載校樣
 description: 您可以直接從行動應用程式與內部和外部收件者共用校訂檔案。 您也可以將校訂檔案下載到行動裝置。
 author: Lisa
 feature: Get Started with Workfront
 exl-id: a97ddd1e-1cae-49a8-b3a4-7c9850169179
-TQID: https://experienceleague.adobe.com/tr04xDTRvfDtXABpu-RdEwv-RJjCiQJ5ALNo6pzRaNk
+TQID: 'https://experienceleague.adobe.com/tr04xDTRvfDtXABpu-RdEwv-RJjCiQJ5ALNo6pzRaNk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 595
+source-wordcount: '597'
 ht-degree: 0%
-
 ---
-
 # 在[!DNL Adobe Workfront]行動應用程式中共用和下載校樣
 
 您可以直接從行動應用程式與內部和外部收件者共用校訂檔案。 您也可以將校訂檔案下載到行動裝置。
 
 >[!NOTE]
 >
->所有收件者必須在[!DNL Workfront]中擁有存取權才能檢閱校樣。 如需有關授權和存取層級的資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
+>所有收件者必須在[!DNL Workfront]中擁有存取權才能檢閱校樣。 如需有關授權和存取層級的資訊，請參閱 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
 
 ## 共用校訂
 

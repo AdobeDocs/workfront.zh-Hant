@@ -10,18 +10,24 @@ hide: true
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/3PkUo43qZPf0xRIZgxpEPIYNLnxhzuvT9yvzVVLg1uw
+TQID: 'https://experienceleague.adobe.com/3PkUo43qZPf0xRIZgxpEPIYNLnxhzuvT9yvzVVLg1uw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1043
+source-wordcount: '1043'
 ht-degree: 1%
-
 ---
-
 # 新的評論體驗
 
 <!--take out legacy, preview, prod references from below-->
@@ -424,26 +430,26 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 以下是新評論體驗發行的計畫時間表：
 
 * 第23.2發行版本（2023年4月6日）：
-   * 推出問題的Beta評論體驗
-   * 發佈新的目標評論體驗（作為唯一體驗）
+  * 推出問題的Beta評論體驗
+  * 發佈新的目標評論體驗（作為唯一體驗）
 * 第23.3發行版本（2023年7月20日）：
-   * 為專案、任務和檔案啟動評論體驗Beta 。
-   * 已針對面板區域中的卡片發行新的註解體驗（作為唯一體驗）
+  * 為專案、任務和檔案啟動評論體驗Beta 。
+  * 已針對面板區域中的卡片發行新的註解體驗（作為唯一體驗）
 * 在2023年第四季版本（限量版，僅供選擇快速版本的客戶使用）：
-   * 發行新的範本、範本任務、計畫、投資組合、團隊、使用者和時程表的註解體驗（作為唯一體驗）
-   * 更新專案、任務、問題和檔案的註釋體驗Beta ，成為預設選項。 已移除「Beta」標籤。
+  * 發行新的範本、範本任務、計畫、投資組合、團隊、使用者和時程表的註解體驗（作為唯一體驗）
+  * 更新專案、任務、問題和檔案的註釋體驗Beta ，成為預設選項。 已移除「Beta」標籤。
 * 2023年第四季(23.10)版本（2023年10月26日）
-   * 針對所有客戶的範本、範本任務、計畫、產品組合、團隊、使用者和時程表發佈新的評論體驗（作為唯一體驗）。
-   * 將專案、任務、問題和檔案的新註解體驗設為預設選項。
+  * 針對所有客戶的範本、範本任務、計畫、產品組合、團隊、使用者和時程表發佈新的評論體驗（作為唯一體驗）。
+  * 將專案、任務、問題和檔案的新註解體驗設為預設選項。
 
   >[!IMPORTANT]
   >
   >    這結束了新評論體驗的Beta階段。
 
-   * 自此日期起針對新評論體驗發佈的所有功能成為目前定期每月和季度發佈的一部分。
+  * 自此日期起針對新評論體驗發佈的所有功能成為目前定期每月和季度發佈的一部分。
 * 2023年底：
-   * 保留舊版註釋體驗作為下列物件的次要選項：專案、任務、問題和檔案。 新的註解體驗是這些物件之所有使用者的預設選項。
-   * 讓新的註解體驗成為所有其他物件的唯一體驗。
+  * 保留舊版註釋體驗作為下列物件的次要選項：專案、任務、問題和檔案。 新的註解體驗是這些物件之所有使用者的預設選項。
+  * 讓新的註解體驗成為所有其他物件的唯一體驗。
 
 * 2024年第二季發行版本（2024年4月11日）：
 

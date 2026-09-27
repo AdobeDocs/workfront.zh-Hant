@@ -7,18 +7,21 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
-TQID: https://experienceleague.adobe.com/DBbmeDqE6cbETZErhJEKzTMoZWJMq9OtX4TUJrD4Z7U
+TQID: 'https://experienceleague.adobe.com/DBbmeDqE6cbETZErhJEKzTMoZWJMq9OtX4TUJrD4Z7U'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 138
+source-wordcount: '138'
 ht-degree: 0%
-
 ---
-
 # 使用「首頁」區域：文章索引
 
 <!--Audited: 12/2024-->

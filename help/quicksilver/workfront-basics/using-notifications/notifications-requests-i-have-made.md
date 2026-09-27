@@ -6,20 +6,24 @@ description: 下列通知可讓您瞭解在Adobe Workfront中提出的請求。
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 42771f71-dbf8-4e73-9a0e-8efea612af4a
-TQID: https://experienceleague.adobe.com/IVweQmtHXCXNs7hC6hIIq4mJ-9XLmuucpmBs2AQQDKo
+TQID: 'https://experienceleague.adobe.com/IVweQmtHXCXNs7hC6hIIq4mJ-9XLmuucpmBs2AQQDKo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Customer experience
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1348
+source-wordcount: '1348'
 ht-degree: 0%
-
 ---
-
 # 通知：我已進行的請求
 
 下列通知可讓您知道您在[!DNL Adobe Workfront]中提出的請求。

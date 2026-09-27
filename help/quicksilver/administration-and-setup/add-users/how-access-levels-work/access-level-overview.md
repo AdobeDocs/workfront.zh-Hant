@@ -10,28 +10,37 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-TQID: https://experienceleague.adobe.com/AaN6iuEnPjrGEJPcfRxPvNWj1RuF9L6OlgSiXMBKSpc
+TQID: 'https://experienceleague.adobe.com/AaN6iuEnPjrGEJPcfRxPvNWj1RuF9L6OlgSiXMBKSpc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1748
+source-wordcount: '1776'
 ht-degree: 5%
-
 ---
-
 # 存取層級概觀
 
 >[!NOTE]
@@ -323,7 +332,8 @@ Workfront有5個新的內建存取層級：
 >
 >從24.7版開始，貢獻者預設擁有計畫和投資組合的檢視存取權。
 >
-> &#x200B;>在24.7版本之前上線的貢獻者依預設將繼續沒有計畫和投資組合的存取權。您可以視需要更新其存取權以手動檢視。
+> 
+>在24.7版本之前上線的貢獻者，依預設將繼續無法存取計畫和投資組合。 您可以視需要更新其存取權以手動檢視。
 
 ### 外部使用者存取層級
 
@@ -421,9 +431,9 @@ Workfront有5個新的內建存取層級：
 
 * **檢視**：此許可權層級允許收件者以下列其中一種方式共用物件：
 
-   * 系統範圍，讓所有使用者都能看見（不適用於所有物件）
-   * 針對沒有Workfront授權的外部使用者（不適用於所有物件）
-   * 含電子郵件地址（僅適用於檔案和行事曆）
+  * 系統範圍，讓所有使用者都能看見（不適用於所有物件）
+  * 針對沒有Workfront授權的外部使用者（不適用於所有物件）
+  * 含電子郵件地址（僅適用於檔案和行事曆）
 
 * **Contribute**： （不適用於所有物件）
 * **管理**：當某人共用物件時，收件者對該物件的許可權是由收件者的存取層級與共用者所授予之物件許可權的組合所決定。 該組合中可用的最低存取度決定了收件者可以對物件執行的操作。

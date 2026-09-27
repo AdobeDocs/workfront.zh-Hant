@@ -8,23 +8,30 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
-TQID: https://experienceleague.adobe.com/DSD8TkghWUd2ZDf8-kQYwnhDlpfCOrbOS83VZdzhJD0
+TQID: 'https://experienceleague.adobe.com/DSD8TkghWUd2ZDf8-kQYwnhDlpfCOrbOS83VZdzhJD0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 753
+source-wordcount: '753'
 ht-degree: 2%
-
 ---
-
 # 停用或重新啟用群組
 
 您可以停用您不再使用的管理群組。
@@ -99,16 +106,16 @@ ht-degree: 2%
 
 * 停用群組不會變更下列專案：
 
-   * 群組與物件的關聯。 關聯的物件會繼續像之前一樣運作，不會有任何變更。
+  * 群組與物件的關聯。 關聯的物件會繼續像之前一樣運作，不會有任何變更。
 
-     例如，如果專案與您停用的群組相關聯，專案會繼續使用群組的偏好設定和狀態，而不會有任何變更。
+    例如，如果專案與您停用的群組相關聯，專案會繼續使用群組的偏好設定和狀態，而不會有任何變更。
 
-   * 您從設定的群組頁面中建立新物件（例如核准、團隊或公司）的能力。 依預設，新物件與非使用中群組相關聯。
-   * 管理員可讓您在篩選器和報表中尋找群組。
+  * 您從設定的群組頁面中建立新物件（例如核准、團隊或公司）的能力。 依預設，新物件與非使用中群組相關聯。
+  * 管理員可讓您在篩選器和報表中尋找群組。
 
-     您也可以在群組預先輸入欄位中找到它，您可能想要在其中管理設定區域中的群組設定。 這包括「偏好設定」、「事件通知」和「系統授權」區域。
+    您也可以在群組預先輸入欄位中找到它，您可能想要在其中管理設定區域中的群組設定。 這包括「偏好設定」、「事件通知」和「系統授權」區域。
 
-     例如，如果您前往「設定>專案偏好設定>專案」，並清除那裡選項上方的預先輸入欄位，您仍然可以找到非作用中群組並設定其專案偏好設定。
+    例如，如果您前往「設定>專案偏好設定>專案」，並清除那裡選項上方的預先輸入欄位，您仍然可以找到非作用中群組並設定其專案偏好設定。
 
 ## 關於重新啟用非作用中父群組下方的子群組 {#about-reactivating-a-subgroup-below-an-inactive-parent-group}
 

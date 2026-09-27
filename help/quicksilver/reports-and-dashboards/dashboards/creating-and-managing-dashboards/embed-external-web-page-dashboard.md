@@ -8,24 +8,30 @@ feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/G45Rx-nLjiBMHF--VNCwEjUqHZwLk3qjEP9WifRC29A
+TQID: 'https://experienceleague.adobe.com/G45Rx-nLjiBMHF--VNCwEjUqHZwLk3qjEP9WifRC29A'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 989
+source-wordcount: '1035'
 ht-degree: 2%
-
 ---
-
 # 將外部網頁內嵌在控制面板中
 
 <!--Audited: 01/2025-->
@@ -41,8 +47,8 @@ ht-degree: 2%
 >若要允許內嵌您擁有的網站，請與您的網站管理員合作，調整&#x200B;**X-Frame-Options**&#x200B;設定。 如需詳細資訊，請參閱[X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options)。
 >
 >
->* 儀表板頁面不再支援作為儀表板中的內嵌外部頁面。雖然現有儀表板不會自動修改以移除這些外部頁面，但對包含此類參考的儀表板所做的任何修改都無法儲存，直到移除或更改參考為止。
-> 具體來說，系統已不再支援下列Workfront.com子網域：
+>* 儀表板頁面不再支援作為儀表板中的內嵌外部頁面。 雖然現有儀表板不會自動修改以移除這些外部頁面，但對包含此類參考的儀表板所做的任何修改都無法儲存，直到移除或更改參考為止。
+> 具體來說，下列Workfront.com子網域不再受支援：
 >
 >     * /&#x200B;控制面板
 >     * /dashboard/:ID&#x200B;
@@ -136,17 +142,17 @@ ht-degree: 2%
 
      您可以指定下列型別的URL：
 
-      * 網頁的https （加密） URL。\
-        只有https （加密）頁面會以URL載入。\
-        ![新增外部頁面對話方塊](assets/add-external-page-dialog-qs-350x247.png)
+     * 網頁的https （加密） URL。\
+       只有https （加密）頁面會以URL載入。\
+       ![新增外部頁面對話方塊](assets/add-external-page-dialog-qs-350x247.png)
 
-      * 包含特定網站的工作階段資訊的範本URL。\
-        例如： *https://localhost/?session={！$$SESSION}*
-您必須登入指定的網站才能顯示外部頁面。\
-        如需有關如何從Workfront取得SessionID的資訊，請參閱[API基本知識](../../../wf-api/general/api-basics.md)。\
-        基於安全理由，您的Workfront管理員可能會以不允許在外部頁面中使用工作階段資訊的方式設定您的系統偏好設定。 在此情況下，外部頁面不會在控制面板上載入。\
-        如需有關系統安全性偏好設定的詳細資訊，請參閱[設定系統安全性偏好設定](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)。\
-        ![external_page_with_session_id_example.png](assets/external-page-with-session-id-example-350x134.png)
+     * 包含特定網站的工作階段資訊的範本URL。\
+       例如： *https://localhost/?session={！$$SESSION}*
+       您必須登入指定的網站才能顯示外部頁面。\
+       如需有關如何從Workfront取得SessionID的資訊，請參閱[API基本知識](../../../wf-api/general/api-basics.md)。\
+       基於安全理由，您的Workfront管理員可能會以不允許在外部頁面中使用工作階段資訊的方式設定您的系統偏好設定。 在此情況下，外部頁面不會在控制面板上載入。\
+       如需有關系統安全性偏好設定的詳細資訊，請參閱[設定系統安全性偏好設定](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)。\
+       ![external_page_with_session_id_example.png](assets/external-page-with-session-id-example-350x134.png)
 
      >[!WARNING]
      >

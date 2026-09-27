@@ -7,13 +7,20 @@ description: 從「系統偏好設定」的「儲存偏好設定」區域，將�
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 5%
-
 ---
-
 # 將舊版產品組合轉換為Adobe雲端儲存空間
 
 身為Workfront管理員，您可以從系統偏好設定中的儲存偏好設定區域，將現有的舊版Workfront儲存產品組合轉換為Adobe雲端儲存空間。 產品組合轉換後，其行為會與任何其他Adobe雲端儲存產品組合相似。

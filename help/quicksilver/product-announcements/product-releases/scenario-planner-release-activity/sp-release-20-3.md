@@ -8,20 +8,29 @@ description: Workfront Scenario Planner僅可在20.3版的「生產」中使用�
 author: Luke
 feature: Product Announcements, Workfront Scenario Planner
 exl-id: 9f89b6d6-8ca7-4b03-a8fe-fddb4c0c750b
-TQID: https://experienceleague.adobe.com/EnH-8yrOK9Z3bsenHBWr7WPxUVCkSi3lvqoTbuFL9IM
+TQID: 'https://experienceleague.adobe.com/EnH-8yrOK9Z3bsenHBWr7WPxUVCkSi3lvqoTbuFL9IM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Optimization
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 274
+source-wordcount: '274'
 ht-degree: 0%
-
 ---
-
 # 含20.3版的Workfront Scenario Planner - 2020年8月14日
 
 Workfront Scenario Planner僅可在20.3版的「生產」中使用新的Adobe Workfront體驗。

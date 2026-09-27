@@ -7,20 +7,26 @@ recommendations: noDisplay, noCatalog
 exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/BH2uI58dlJweV-8QT9wqb2z4Bcqorzko78NE3beuqWA
+TQID: 'https://experienceleague.adobe.com/BH2uI58dlJweV-8QT9wqb2z4Bcqorzko78NE3beuqWA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 741
+source-wordcount: '744'
 ht-degree: 0%
-
 ---
-
 # 2024年第二季度更新流和通知增強功能
 
 本頁說明2024年第二季度版本對預覽環境所做的所有更新流和通知增強功能。 如上所述，這些增強功能將於生產環境中提供。
@@ -67,7 +73,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
-[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3427992/){target=_blank} （此特定功能的討論開始於2:47）
+[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3427992/){target=_blank} （關於此特定功能的討論在2:47開始）
 
 ## 新評論體驗上的系統活動標籤支援唯讀評論
 
@@ -79,7 +85,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[更新區段總覽](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
-[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3427992/){target=_blank} （此特定功能的討論開始於2:00）
+[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3427992/){target=_blank} （關於此特定功能的討論在2:00開始）
 
 ## 新的更新流索引標籤可擷取評論和系統活動專案
 
@@ -93,7 +99,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[更新區段總覽](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
-[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3427992/){target=_blank} （此特定功能的討論開始於0:31）
+[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3427992/){target=_blank} （有關此特定功能的討論在0:31開始）
 
 ## 摘要面板中現在提供新的評論資料流
 

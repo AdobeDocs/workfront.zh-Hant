@@ -2,22 +2,25 @@
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: 成為iOS Beta測試者
-description: 請參閱本文章，成為 [!DNL Adobe Workfront] 行動應用程式的iOS Beta測試者。
+description: 檢閱本文章，成為[!DNL Adobe Workfront]行動應用程式的iOS Beta測試者。
 author: Lisa
 feature: Get Started with Workfront
 exl-id: b02119ab-f4ea-4249-8d2c-b26df47e770d
-TQID: https://experienceleague.adobe.com/HUw6I8SHhD7iM9l4l0XIBDeG6g26cNy54-3BKQL9mHw
+TQID: 'https://experienceleague.adobe.com/HUw6I8SHhD7iM9l4l0XIBDeG6g26cNy54-3BKQL9mHw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 442
+source-wordcount: '443'
 ht-degree: 0%
-
 ---
-
 # 成為[!UICONTROL iOS] Beta測試者
 
 ## 下載Beta版應用程式

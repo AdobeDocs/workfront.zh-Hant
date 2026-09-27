@@ -8,20 +8,27 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: d15819af-7860-489c-b722-0dbaf6d71e69
-TQID: https://experienceleague.adobe.com/iA-uVnN-Ck1ifYDGgHt6aKolOFK7bG8cdwiDuf8Stag
+TQID: 'https://experienceleague.adobe.com/iA-uVnN-Ck1ifYDGgHt6aKolOFK7bG8cdwiDuf8Stag'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 70
+source-wordcount: '70'
 ht-degree: 0%
-
 ---
-
 # 校訂概觀：文章索引
 
 * [校訂許可權設定檔總覽](../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md)

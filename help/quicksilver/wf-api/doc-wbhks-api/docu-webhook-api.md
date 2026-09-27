@@ -8,26 +8,33 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
-TQID: https://experienceleague.adobe.com/NK0eGTvWNVbv2KsNm1eBbSqAPmN6O4RdNTN1hY-cIVI
+TQID: 'https://experienceleague.adobe.com/NK0eGTvWNVbv2KsNm1eBbSqAPmN6O4RdNTN1hY-cIVI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+    internal-label: APIs
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 subfeature_v2:
   - id: d6f15301-a604-47ff-897b-83a19659dedf
+    internal-label: Workfront Document Webhooks
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Implementation
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3699
+source-wordcount: '3700'
 ht-degree: 3%
-
 ---
-
 # 檔案Webhooks API
 
 <!-- Audited: 5/2025 -->
@@ -922,9 +929,9 @@ GET /customAction
 
 * 在回應標頭中包含錯誤代碼。 錯誤碼包括：
 
-   * 403 — 禁止。 指出要求權杖遺失或無效，或是與權杖關聯的認證無權存取指定的資源。 對於以OAuth為基礎的webhook提供者，Workfront將嘗試擷取新的存取權杖。
-   * 404 — 找不到。 表示指定的檔案或資料夾不存在。
-   * 500 — 內部伺服器錯誤。 任何其他型別的錯誤。
+  * 403 — 禁止。 指出要求權杖遺失或無效，或是與權杖關聯的認證無權存取指定的資源。 對於以OAuth為基礎的webhook提供者，Workfront將嘗試擷取新的存取權杖。
+  * 404 — 找不到。 表示指定的檔案或資料夾不存在。
+  * 500 — 內部伺服器錯誤。 任何其他型別的錯誤。
 
 * 使用以下格式說明回應本文中的錯誤：
 
@@ -1047,13 +1054,13 @@ GET /customAction
 
 * 1.0版（發行日期 — 2015年5月）
 
-   * 初始規格
+  * 初始規格
 
 * 1.1版（發行日期 — 2015年6月）
 
-   * 更新/uploadInit — 新增documentId和documentVersionId
+  * 更新/uploadInit — 新增documentId和documentVersionId
 
 * 1.2版（發行日期 — 2015年10月）
 
-   * 新增/createFolder
+  * 新增/createFolder
 

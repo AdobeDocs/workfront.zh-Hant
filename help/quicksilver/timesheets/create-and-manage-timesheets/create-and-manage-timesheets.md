@@ -7,18 +7,24 @@ author: Lisa
 feature: Timesheets
 recommendations: noDisplay, noCatalog
 exl-id: 605d47e4-fcb7-4635-a4c9-bbb34e1f73b1
-TQID: https://experienceleague.adobe.com/IeGGKDdFDkwDTws0yil1S987mrSQk8vbJP-4RC8OqgE
+TQID: 'https://experienceleague.adobe.com/IeGGKDdFDkwDTws0yil1S987mrSQk8vbJP-4RC8OqgE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 107
+source-wordcount: '107'
 ht-degree: 1%
-
 ---
-
 # 建立和管理時程表：文章索引
 
 <!-- Audited: 4/2025 -->

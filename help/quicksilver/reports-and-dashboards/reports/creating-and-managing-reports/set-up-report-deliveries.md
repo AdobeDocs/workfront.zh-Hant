@@ -8,25 +8,31 @@ feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/0V06HBLIE0zUGInshtWbZu2F8-R96YbNitv5viQzFhs
+TQID: 'https://experienceleague.adobe.com/0V06HBLIE0zUGInshtWbZu2F8-R96YbNitv5viQzFhs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 subfeature_v2:
   - id: a91f865d-c69e-423f-aeff-28a3d6e8554d
+    internal-label: Data export
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1538
+source-wordcount: '1538'
 ht-degree: 0%
-
 ---
-
 # 報表傳送概覽
 
 <!-- Audited: 11/2024 -->
@@ -75,20 +81,20 @@ ht-degree: 0%
 
   這些限制適用於：
 
-   * 手動匯出報告。
-   * 排程報告。
-   * 透過API整合的匯出。
-   * 透過Kick-Start匯出的資料。
+  * 手動匯出報告。
+  * 排程報告。
+  * 透過API整合的匯出。
+  * 透過Kick-Start匯出的資料。
 
-     如需有關透過Kick-Starts匯出資料的詳細資訊，請參閱文章[透過Kick-Starts從Adobe Workfront匯出資料](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)。
+    如需有關透過Kick-Starts匯出資料的詳細資訊，請參閱文章[透過Kick-Starts從Adobe Workfront匯出資料](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)。
 
-     >[!NOTE]
-     >
-     >您可以在快速啟動檔案中匯出50,000列，但只能匯出為Excel格式檔案。
+    >[!NOTE]
+    >
+    >您可以在快速啟動檔案中匯出50,000列，但只能匯出為Excel格式檔案。
 
-   * 匯出專案的利用資訊。
+  * 匯出專案的利用資訊。
 
-     如需有關匯出專案使用率資訊的詳細資訊，請參閱[資源使用率報告概述](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。
+    如需有關匯出專案使用率資訊的詳細資訊，請參閱[資源使用率報告概述](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)。
 
 * **65,530個超連結：**&#x200B;這是Excel對包含超過65,530個超連結的檔案所強加的限制。 以手動方式匯出或以傳送的報表傳送檔案時，無法開啟這些檔案。 請注意，一個Excel檔案可能只有200列資料，但如果檔案中有超過65,530個連結，則檔案不會開啟。 此限制僅存在於Excel檔案中，不存在於其他支援的格式中。
 * **256欄**：這是Excel對包含超過256欄的檔案所施加的限制。 這些檔案無法手動匯出，或以傳送的報告傳送。 此限制僅存在於Excel檔案中，不存在於其他支援的格式中。

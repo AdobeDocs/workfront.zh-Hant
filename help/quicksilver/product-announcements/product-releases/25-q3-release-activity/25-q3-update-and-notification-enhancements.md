@@ -7,20 +7,27 @@ recommendations: noDisplay, noCatalog
 exl-id: 26ed0bee-2fd4-480d-b55c-3c5a289d25b0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/9I9MPpDC-02VMM-VlOPtAOWz4rgJBfgmDBmIq-v8lEQ
+TQID: 'https://experienceleague.adobe.com/9I9MPpDC-02VMM-VlOPtAOWz4rgJBfgmDBmIq-v8lEQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 188
+source-wordcount: '188'
 ht-degree: 0%
-
 ---
-
 # 2025年第三季度更新與通知增強功能
 
 本頁說明2025年第三季度版本對預覽環境進行的所有更新和通知增強功能。 如上所述，這些增強功能將於生產環境中提供。

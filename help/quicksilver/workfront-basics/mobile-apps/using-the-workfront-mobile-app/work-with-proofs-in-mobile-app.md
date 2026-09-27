@@ -1,30 +1,33 @@
 ---
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: 在 [!DNL Adobe Workfront] 行動應用程式中檢閱並決定校訂
+title: 在[!DNL Adobe Workfront]行動應用程式中檢閱並決定校訂
 description: 當校訂指派給您進行核準時，它會顯示於行動應用程式中的核准清單中。 您可以直接在應用程式中檢閱校訂，並做出決定。
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4ab8dfd0-0a1f-425d-9e05-8e8134ce930a
-TQID: https://experienceleague.adobe.com/50PA5RHzFX275EI4nPAZ-b9P8Xx0Ia9dlgB1JHAd6-s
+TQID: 'https://experienceleague.adobe.com/50PA5RHzFX275EI4nPAZ-b9P8Xx0Ia9dlgB1JHAd6-s'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 768
+source-wordcount: '770'
 ht-degree: 0%
-
 ---
-
 # 在[!DNL Adobe Workfront]行動應用程式中檢閱並決定校訂
 
 當校訂指派給您進行核準時，它會顯示於行動應用程式中的核准清單中。 您可以直接在應用程式中檢閱校訂，並做出決定。 如需在[!DNL Adobe Workfront]中檢閱和核准校訂的資訊，請參閱[在 [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)中檢閱校訂。
 
 您可以在校樣中新增註解，並經歷修訂過程以做出最終決定。 如需註解的詳細資訊，請參閱[註解 [!DNL iOS]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md)中的校訂或[註解 [!DNL Android]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md)中的校訂。
 
-您檢閱和核准校訂的存取權與[!DNL Adobe Workfront]中的相同。 如需校訂功能的相關資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
+您檢閱和核准校訂的存取權與[!DNL Adobe Workfront]中的相同。 如需校訂功能的相關資訊，請參閱 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
 
 ## 開啟並檢閱校訂
 

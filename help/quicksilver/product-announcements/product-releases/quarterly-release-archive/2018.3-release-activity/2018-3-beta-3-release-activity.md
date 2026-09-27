@@ -7,24 +7,29 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 452fc235-ff90-4451-b48b-354671227f6f
-TQID: https://experienceleague.adobe.com/noEIBL6-bxByD8in9x7a2XHTPfU3QQ2YVWp5jaTb5n4
+TQID: 'https://experienceleague.adobe.com/noEIBL6-bxByD8in9x7a2XHTPfU3QQ2YVWp5jaTb5n4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 561
+source-wordcount: '561'
 ht-degree: 0%
-
 ---
-
 # 2018.3 Beta 3發行活動
 
 本頁說明2018.3 Beta 3版本預覽環境中最近可用的所有變更。 此功能將於2018年8月16日在預覽環境中提供。 它將於2018年11月在生產環境中提供。

@@ -7,20 +7,29 @@ description: 本頁提供隨21.2版發佈至生產環境的新Adobe Workfront體
 author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: 621303ed-14a2-4138-b3de-dbe85a8f6689
-TQID: https://experienceleague.adobe.com/N8R5Ionw5PukMqyzXoPM4ruHOcmHPrv6aLUq315X9eM
+TQID: 'https://experienceleague.adobe.com/N8R5Ionw5PukMqyzXoPM4ruHOcmHPrv6aLUq315X9eM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Customer experience
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 613
+source-wordcount: '613'
 ht-degree: 0%
-
 ---
-
 # 第21.2發行版本中的Adobe Workfront目標
 
 本頁提供隨21.2版發佈至生產環境的新Adobe Workfront體驗中Adobe Workfront目標功能的相關資訊。

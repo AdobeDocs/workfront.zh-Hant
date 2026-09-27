@@ -8,27 +8,35 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dead6081-dfd2-4b1a-8be2-32a0ba813bc3
-TQID: https://experienceleague.adobe.com/mnbklDR2PuLvTiu1QgzPih4Cp-jkZ2wy-pYj4-Qa5Zo
+TQID: 'https://experienceleague.adobe.com/mnbklDR2PuLvTiu1QgzPih4Cp-jkZ2wy-pYj4-Qa5Zo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9be1c13e172fd0f7ba4ea41a0b0b6d45868ee946
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 440
+source-wordcount: '440'
 ht-degree: 3%
-
 ---
-
 # 工作角色總覽
 
 職務角色代表使用者可能填入的功能容量或技能集。 本文說明[!DNL Adobe Workfront]中工作角色的各種使用方式。
@@ -48,24 +56,24 @@ ht-degree: 3%
 
   例如，在建立範本時，我們建議您建立任務與工作角色的關聯，目前還不清楚稍後會將哪個使用者指派給實際工作。 如需詳細資訊，請參閱下列文章：
 
-   * [建立專案範本](../../../manage-work/projects/create-and-manage-templates/create-template.md)
-   * [指派任務](../../../manage-work/tasks/assign-tasks/assign-tasks.md)
-   * [指派問題](../../../manage-work/issues/manage-issues/assign-issues.md)
+  * [建立專案範本](../../../manage-work/projects/create-and-manage-templates/create-template.md)
+  * [指派任務](../../../manage-work/tasks/assign-tasks/assign-tasks.md)
+  * [指派問題](../../../manage-work/issues/manage-issues/assign-issues.md)
 
 * 您可以將工作角色與專案、任務或問題核准流程建立關聯，任何可以履行工作角色的使用者都可以對核准做出決定。 如需詳細資訊，請參閱[建立工作專案的核准程式](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。
 * 您可以與工作角色共用下列物件：
 
-   * 專案
-   * 任務
-   * 問題
-   * 專案組合
-   * 計劃
-   * 範本
-   * 範本任務
-   * 報告
-   * 儀表板
+  * 專案
+  * 任務
+  * 問題
+  * 專案組合
+  * 計劃
+  * 範本
+  * 範本任務
+  * 報告
+  * 儀表板
 
-     如需共用物件的相關資訊，請參閱[物件共用許可權簡介](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
+    如需共用物件的相關資訊，請參閱[物件共用許可權簡介](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
 
 * 建立請求佇列時，您可以將工作角色與路由規則產生關聯。 如需詳細資訊，請參閱[建立路由規則](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)。
 * 您可以將版面配置範本指派給工作角色。 任何擁有指派的工作角色作為其主要角色的人都可以根據指派的版面配置範本檢視[!DNL Workfront]。

@@ -8,23 +8,31 @@ feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/gt8WP9pWYnTzQ4cyQTzj31PuZ8yH9JpkVRYoReTEj6w
+TQID: 'https://experienceleague.adobe.com/gt8WP9pWYnTzQ4cyQTzj31PuZ8yH9JpkVRYoReTEj6w'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1727
+source-wordcount: '1727'
 ht-degree: 1%
-
 ---
-
 # 設定[!UICONTROL Scrum]
 
 您可以在[!DNL Adobe Workfront]中建立敏捷團隊，如[建立敏捷團隊](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md)中所述。 建立敏捷團隊時，您可以選擇團隊用來完成其工作的方法。 您可以從下列選項中選擇：
@@ -204,11 +212,11 @@ ht-degree: 1%
    * **[!UICONTROL 任意格式]**：所有卡片預設都會顯示為藍色，直到使用者手動變更顏色為止，如Scrum展示板上的[[!UICONTROL 依顏色分類內文]中所述](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md)。
    * **[!UICONTROL 優先順序]**：色彩與劇本優先順序相關聯，如下所示：
 
-      * 高=紅色
-      * Medium =黃色
-      * 低=綠色
+     * 高=紅色
+     * Medium =黃色
+     * 低=綠色
 
-        如果您的系統管理員已設定您[!DNL Workfront]系統的自訂優先順序，則最高優先順序為紅色，第二高為黃色，第三高為綠色。
+       如果您的系統管理員已設定您[!DNL Workfront]系統的自訂優先順序，則最高優先順序為紅色，第二高為黃色，第三高為綠色。
    * **[!UICONTROL 工作擁有者]**：所有具有相同主要受指派人的劇本都是相同的色彩。 主要受指派人是首次受指派工作的使用者。
 
 1. 按一下&#x200B;**[!UICONTROL 儲存變更]**。

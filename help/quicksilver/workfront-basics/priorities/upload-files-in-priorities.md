@@ -6,23 +6,28 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-TQID: https://experienceleague.adobe.com/NCFVKM2w48sXJ6UhT13372feWIxLhyUz7on6cyJLUO4
+TQID: 'https://experienceleague.adobe.com/NCFVKM2w48sXJ6UhT13372feWIxLhyUz7on6cyJLUO4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 309
-ht-degree: 12%
-
+source-wordcount: '324'
+ht-degree: 16%
 ---
-
 # 上傳優先順序中的檔案
 
 您可以從「優先順序」工作清單或個別工作專案上傳檔案。 從「優先順序」上傳的檔案會出現在工作專案的「檔案」標籤中。
@@ -66,7 +71,7 @@ ht-degree: 12%
 1. 按一下「**上傳**」。
    ![更新、記錄時間和上傳](assets/update-log-upload.png)
 1. （選擇性）在&#x200B;**上傳檔案**&#x200B;方塊中，選取資料夾。
-1. 拖放檔案，或按Cmd/Ctrl + V從剪貼簿貼上
+1. 拖放檔案，或按 Cmd/Ctrl+V 從剪貼簿中貼上
 或
 按一下&#x200B;**新增檔案**&#x200B;以瀏覽檔案或從Document Cloud提供者匯入檔案。
    ![新增檔案](assets/add-files.png)

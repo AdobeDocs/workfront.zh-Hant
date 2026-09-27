@@ -7,26 +7,35 @@ description: 您可以建立核准程式並將其附加至物件，以確保指�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: dd0822b6-80f1-4a2e-bf6a-0c425984f4d0
-TQID: https://experienceleague.adobe.com/zuT3F839KAE1NOQvnSEXjARik9fVfWJYg74lNQhr31Y
+TQID: 'https://experienceleague.adobe.com/zuT3F839KAE1NOQvnSEXjARik9fVfWJYg74lNQhr31Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1789
+source-wordcount: '1816'
 ht-degree: 0%
-
 ---
-
 # 核准程序概觀
 
 <!-- Audited: 12/2023 -->
@@ -48,15 +57,15 @@ ht-degree: 0%
 
 * **系統層級全域核准程式**：使用者可以將這些連結附加到下列任一項：
 
-   * 核准區段中的專案、任務或問題
-   * 在編輯專案方塊中的任務預設核准流程區域
-   * 在預設核准流程區域中專案的佇列詳細資訊或佇列主題區段中。 專案必須啟用為請求佇列。
+  * 核准區段中的專案、任務或問題
+  * 在編輯專案方塊中的任務預設核准流程區域
+  * 在預設核准流程區域中專案的佇列詳細資訊或佇列主題區段中。 專案必須啟用為請求佇列。
 
 * **群組層級全域核准程式**：使用者可以將這些內容附加至下列專案：
 
-   * 屬於「核准」區段中與核准流程相關聯之群組的專案、任務或問題
-   * 在任務預設核准流程區域中屬於與核准流程相關聯之群組的專案的「編輯專案」方塊中
-   * 在預設核准流程區域中專案的佇列詳細資訊或佇列主題區段中。 專案必須啟用為請求佇列，且必須屬於與核准流程關聯的群組。
+  * 屬於「核准」區段中與核准流程相關聯之群組的專案、任務或問題
+  * 在任務預設核准流程區域中屬於與核准流程相關聯之群組的專案的「編輯專案」方塊中
+  * 在預設核准流程區域中專案的佇列詳細資訊或佇列主題區段中。 專案必須啟用為請求佇列，且必須屬於與核准流程關聯的群組。
 
   如需有關建立系統層級或群組層級核准流程的資訊，請參閱[建立工作專案的核准流程](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。
 
@@ -77,31 +86,31 @@ ht-degree: 0%
 * 您必須先建立專案、任務、問題、範本或範本任務，核准流程才能與它們相關聯。
 * 核准程式一律與兩個基本專案相關聯：
 
-   * 每個核准流程都會對應至Workfront系統中的特定工作專案狀態。 當您變更工作專案的狀態時，該狀態的附加核准需要先確認狀態變更，然後才能將新狀態指派給專案。
+  * 每個核准流程都會對應至Workfront系統中的特定工作專案狀態。 當您變更工作專案的狀態時，該狀態的附加核准需要先確認狀態變更，然後才能將新狀態指派給專案。
 
-     >[!TIP]
-     >
-     >
-     >   
-     >   
-     >   * 您可以將群組層級核准與全域或群組層級狀態建立關聯。
-     >   * 您無法使用核准程式將專案的狀態變更為與核准程式相關聯的狀態以外的狀態。
-     >   
-     >   
-     >     例如，如果您有一個與進行中狀態相關聯的任務核准，則當核准被授予時，任務會自動將其狀態變更為進行中。 它無法自動將其狀態變更為「已完成」或任何其他與核准無關聯的狀態。
-     >   
-     >   
-     >* 與核准流程關聯的實體可以是使用者、工作角色或團隊。 使用者最終需負責接受或拒絕核准。 您可以將核准指派給在專案上履行特定角色的使用者。 例如，您可以將核准指派給專案所有者或贊助者。 如需詳細資訊，請參閱[建立工作專案的核准程式](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。
+    >[!TIP]
+    >
+    >
+    >   
+    >   
+    >   * 您可以將群組層級核准與全域或群組層級狀態建立關聯。
+    >   * 您無法使用核准程式將專案的狀態變更為與核准程式相關聯的狀態以外的狀態。
+    >   
+    >   
+    >     例如，如果您有一個與進行中狀態相關聯的任務核准，則當核准被授予時，任務會自動將其狀態變更為進行中。 它無法自動將其狀態變更為「已完成」或任何其他與核准無關聯的狀態。
+    >   
+    >   
+    >* 與核准流程關聯的實體可以是使用者、工作角色或團隊。 使用者最終需負責接受或拒絕核准。 您可以將核准指派給在專案上履行特定角色的使用者。 例如，您可以將核准指派給專案所有者或贊助者。 如需詳細資訊，請參閱[建立工作專案的核准程式](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)。
 
-     存在下列情況：
+    存在下列情況：
 
-      * 當您指派核准給工作角色時，專案團隊中與工作角色相關聯的任何使用者都可以對核准做出決定。 與核准關聯的角色可以是其主要角色或任何其他角色。
+    * 當您指派核准給工作角色時，專案團隊中與工作角色相關聯的任何使用者都可以對核准做出決定。 與核准關聯的角色可以是其主要角色或任何其他角色。
 
-        如需有關專案團隊的資訊，請參閱[專案團隊概觀](../../manage-work/projects/planning-a-project/project-team-overview.md)。
+      如需有關專案團隊的資訊，請參閱[專案團隊概觀](../../manage-work/projects/planning-a-project/project-team-overview.md)。
 
-      * 當您將核准指派給團隊時，該團隊的任何成員都可以對核准做出決定。 與核准相關聯的團隊可以是他們的主團隊或他們的任何其他團隊。
+    * 當您將核准指派給團隊時，該團隊的任何成員都可以對核准做出決定。 與核准相關聯的團隊可以是他們的主團隊或他們的任何其他團隊。
 
-        如需有關使用者角色和團隊的資訊，請參閱[編輯使用者設定檔](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
+      如需有關使用者角色和團隊的資訊，請參閱[編輯使用者設定檔](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
 * 當您建立工作專案時，它不會自動附加核准流程。 如果要使用一個，則必須手動附加。 如需將核准程式附加至專案的相關資訊，請參閱[將新的或現有的核准程式與工作建立關聯](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)。
 * Workfront管理員或具有核准流程管理存取權的使用者可以建立系統層級的全域核准流程，以供整個系統使用。 擁有核准流程管理存取權的群組管理員可以建立群組層級全域核准流程，僅供其管理的特定群組使用。

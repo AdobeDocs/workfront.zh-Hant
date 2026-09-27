@@ -6,13 +6,25 @@ description: 當您的組織採用Workfront雲端儲存空間並統一檢閱和�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 56ab4879af4046f6b2dcdc177b4b20aa476fa90c
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 0%
-
 ---
-
 # 更新Workfront Fusion案例以進行統一檢閱和核准
 
 在舊版Workfront校訂上建置的Workfront Fusion案例不會自動搭配Adobe雲端儲存空間專案使用。 校訂特定的模組、webhook和API端點在某些情況下有直接的同等功能，而在其他情況下會有重大變更。 在將依賴受影響情境的團隊帶入Adobe雲端儲存推出之前，本文會協助您清查受影響的情境、將其分類並決定補救路徑。

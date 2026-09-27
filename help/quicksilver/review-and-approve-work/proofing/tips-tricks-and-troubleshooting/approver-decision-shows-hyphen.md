@@ -5,17 +5,20 @@ navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
 title: 「核准者決定」在校訂核准報告中顯示連字型大小
 description: 校訂核准報告的核准者決定欄位中的連字型大小表示收件者不再擔任校訂的決策角色。
 author: Courtney
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: e359ae2ed97260e9325842f9726326866c6a815e
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 287
+source-wordcount: '287'
 ht-degree: 0%
-
 ---
-
 # 「核准者決定」在校訂核准報告中顯示連字型大小
 
 ## 問題

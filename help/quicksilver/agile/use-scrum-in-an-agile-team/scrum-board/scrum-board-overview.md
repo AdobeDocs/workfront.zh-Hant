@@ -9,18 +9,24 @@ feature: Agile
 exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/81TvqkH7xJse6JU-uoknd4PYHaCrKpc-aTLLgzOoNjw
+TQID: 'https://experienceleague.adobe.com/81TvqkH7xJse6JU-uoknd4PYHaCrKpc-aTLLgzOoNjw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 810
+source-wordcount: '810'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Scrum]主機板概述
 
 <!-- Audited: 5/2025 -->
@@ -42,12 +48,12 @@ ht-degree: 0%
 
   在反複專案中，只有當故事板上的一或多個故事包含至少一個符合以下要求的子任務時，此欄才會出現在故事板上：
 
-   * 指派給與父任務相同的敏捷團隊。
-   * 屬於反複專案。
+  * 指派給與父任務相同的敏捷團隊。
+  * 屬於反複專案。
 
-     在專案中，每當任務至少有一個子任務時，就會出現此欄。
+    在專案中，每當任務至少有一個子任務時，就會出現此欄。
 
-     ![父級劇本欄](assets/agile-parentstory-swimlane.png)
+    ![父級劇本欄](assets/agile-parentstory-swimlane.png)
 
 * **任務狀態**：根據內文所在的狀態列，指出內文在反複專案或專案中的進度。
 
@@ -57,8 +63,8 @@ ht-degree: 0%
 
   在反複專案中，只有當故事板上的故事包含至少一個符合以下要求的子任務時，泳道才會出現在故事板上：
 
-   * 指派給與父任務相同的敏捷團隊。
-   * 屬於反複專案。
+  * 指派給與父任務相同的敏捷團隊。
+  * 屬於反複專案。
 
   在專案中，只要任務至少有一個子任務或一個父任務，泳道就會出現。
 

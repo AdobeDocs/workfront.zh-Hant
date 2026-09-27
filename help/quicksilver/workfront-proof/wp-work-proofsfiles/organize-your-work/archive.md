@@ -7,13 +7,25 @@ description: Workfront Proof會在閒置60天後封存校樣。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 66a15edf-8504-471a-a6be-f632760b50ed
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%
-
 ---
-
 # 在[!DNL Workfront Proof]中封存
 
 >[!IMPORTANT]
@@ -22,7 +34,7 @@ ht-degree: 0%
 
 [!DNL Workfront Proof]個在60天非使用狀態後封存的校樣。
 
-如果您有編輯許可權，您可以隨時手動封存校樣。 如需有關編輯許可權的資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
+如果您有編輯許可權，您可以隨時手動封存校樣。 如需有關編輯許可權的資訊，請參閱 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
 
 封存的校樣：
 
@@ -41,7 +53,7 @@ ht-degree: 0%
 
 ## 手動封存校樣
 
-如果您有編輯許可權，您可以隨時手動封存校樣。 如需有關編輯許可權的資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
+如果您有編輯許可權，您可以隨時手動封存校樣。 如需有關編輯許可權的資訊，請參閱 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
 
 封存程式最多可能需要24小時的時間才能完成。
 

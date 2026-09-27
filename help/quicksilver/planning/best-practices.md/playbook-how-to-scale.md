@@ -8,26 +8,39 @@ recommendations: noDisplay, noCatalog
 exl-id: 54df36b3-01a3-4fd3-b2d3-64ffb2fe5918
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/9T0iHPXONMWUcVb03kMr-rmQ1hAvTxtLoDzlucqaK6A
+TQID: 'https://experienceleague.adobe.com/9T0iHPXONMWUcVb03kMr-rmQ1hAvTxtLoDzlucqaK6A'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Taxonomy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2611
+source-wordcount: '2611'
 ht-degree: 0%
-
 ---
-
 # 將您的首次成功轉化為永續的動力：管理式擴展的行動手冊
 
 >[!IMPORTANT]
@@ -292,13 +305,13 @@ Managed Scaling的目標是透過標準化程度足以提供可見度，但不�
 
 * **責任**：
 
-   * 管理全域分類法Workspace。
+  * 管理全域分類法Workspace。
 
-   * 藉由促進本地成功達到全球標準，促進現場成熟度的途徑。
+  * 藉由促進本地成功達到全球標準，促進現場成熟度的途徑。
 
-   * 維護用於執行報告的主要Workspace檢視。
+  * 維護用於執行報告的主要Workspace檢視。
 
-   * 引領跨工作區的每月語意稽核。
+  * 引領跨工作區的每月語意稽核。
 
 ### 發言冠軍（團隊程式擁有者）
 
@@ -306,13 +319,13 @@ Managed Scaling的目標是透過標準化程度足以提供可見度，但不�
 
 * **責任**：
 
-   * 擔任功能團隊的單一聯絡點。
+  * 擔任功能團隊的單一聯絡點。
 
-   * 擁有本機工作區結構和自訂欄位實驗。
+  * 擁有本機工作區結構和自訂欄位實驗。
 
-   * 確保團隊使用控管閘道Forms進行資料輸入。
+  * 確保團隊使用控管閘道Forms進行資料輸入。
 
-   * 在協調期間參與合作交握。
+  * 在協調期間參與合作交握。
 
 ### 高階主管支援人（行銷領導力）
 
@@ -320,11 +333,11 @@ Managed Scaling的目標是透過標準化程度足以提供可見度，但不�
 
 * **責任**：
 
-   * 定義全域分類工作區中的企業行銷OKR。
+  * 定義全域分類工作區中的企業行銷OKR。
 
-   * 向其他領導者宣傳「可見性步驟1」的價值。
+  * 向其他領導者宣傳「可見性步驟1」的價值。
 
-   * 加強80/20資源配置（值超過清除）。
+  * 加強80/20資源配置（值超過清除）。
 
 ### 啟用銷售機會（變更管理）
 
@@ -332,11 +345,11 @@ Managed Scaling的目標是透過標準化程度足以提供可見度，但不�
 
 * **責任**：
 
-   * 主持定期辦公時間和探索工作坊(Discovery Workshop)接觸點。
+  * 主持定期辦公時間和探索工作坊(Discovery Workshop)接觸點。
 
-   * 維護內部Success Story展示。
+  * 維護內部Success Story展示。
 
-   * 識別供Enterprise Architect解決的技術衝突點。
+  * 識別供Enterprise Architect解決的技術衝突點。
 
 ## &#x200B;10. 擴展下一個團隊的核對清單
 

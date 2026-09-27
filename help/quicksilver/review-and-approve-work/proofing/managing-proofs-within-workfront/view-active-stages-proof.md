@@ -6,22 +6,29 @@ description: 您可以在包含自動化工作流程的校樣上檢視目前作�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: db32ca28-d475-4050-b04f-c7c82f79918a
-TQID: https://experienceleague.adobe.com/CPM7iF7dLA-x7yMYJ4XxkLFuAOLUdKq5eMxMjASwj0I
+TQID: 'https://experienceleague.adobe.com/CPM7iF7dLA-x7yMYJ4XxkLFuAOLUdKq5eMxMjASwj0I'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 114
+source-wordcount: '114'
 ht-degree: 18%
-
 ---
-
 # 檢視校訂上的使用中階段
 
 您可以在包含自動化工作流程的校樣上檢視目前作用中階段。

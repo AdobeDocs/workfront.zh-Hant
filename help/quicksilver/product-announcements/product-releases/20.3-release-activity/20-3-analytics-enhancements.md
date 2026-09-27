@@ -7,22 +7,29 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ca388df9-234f-4115-b399-f3f0a379f3d8
-TQID: https://experienceleague.adobe.com/b6mVT5-NK2lvcm3-S87SjROekfTXCM2RUP92m31cVLM
+TQID: 'https://experienceleague.adobe.com/b6mVT5-NK2lvcm3-S87SjROekfTXCM2RUP92m31cVLM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Insights
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 202
+source-wordcount: '202'
 ht-degree: 0%
-
 ---
-
 # 20.3 Analytics增強功能
 
 本頁說明20.3版本對生產環境所做的所有分析增強功能。 這些增強功能已在2020年8月10日當週的生產環境中推出。

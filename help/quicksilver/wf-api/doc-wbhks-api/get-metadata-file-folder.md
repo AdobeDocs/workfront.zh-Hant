@@ -8,20 +8,24 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7b594df5-c87f-45d4-b84a-cae17171e906
-TQID: https://experienceleague.adobe.com/H04UQeyhGw-FdXDwaRZs5PSXnN-YErVptHWn-78INYo
+TQID: 'https://experienceleague.adobe.com/H04UQeyhGw-FdXDwaRZs5PSXnN-YErVptHWn-78INYo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Metadata
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 263
+source-wordcount: '282'
 ht-degree: 8%
-
 ---
-
 # 取得檔案或資料夾的中繼資料
 
 傳回指定檔案或資料夾的中繼資料。
@@ -44,7 +48,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td>id</td> 
-   <td>檔案或資料夾的ID，由webhook提供者參照。這與Adobe Workfront的檔案ID不同。若要取得根目錄的中繼資料，請使用值'/'。
+   <td>檔案或資料夾的ID，由webhook提供者參照。 這與Adobe Workfront的檔案ID不同。 若要取得根目錄的中繼資料，請使用值'/'。
    <p>注意：ID的長度上限為255個字元。</p></td> 
   </tr> 
  </tbody> 

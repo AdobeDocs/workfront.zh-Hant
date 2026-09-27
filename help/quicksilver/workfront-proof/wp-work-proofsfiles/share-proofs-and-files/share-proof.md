@@ -3,22 +3,30 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
 title: 在Workfront Proof中共用校訂
-description: 如果您有校訂的編輯許可權，可以輕鬆與其他檢閱者共用校訂。 任何人都可以新增到校訂中，因為您不需要有 [!DNL Workfront Proof] 帳戶即可檢閱校訂。
+description: 如果您有校訂的編輯許可權，可以輕鬆與其他檢閱者共用校訂。 任何人都可以新增到校訂中，因為您不需要有[!DNL Workfront Proof]帳戶即可檢閱校訂。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bc145c50-9ab5-4ee8-9ed7-d307da6b0e8f
-TQID: https://experienceleague.adobe.com/wL1b-NeZg34ePbcEXn3wO3YzbdztS19SRZ7GinuuQ88
+TQID: 'https://experienceleague.adobe.com/wL1b-NeZg34ePbcEXn3wO3YzbdztS19SRZ7GinuuQ88'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 527
+source-wordcount: '528'
 ht-degree: 0%
-
 ---
-
 # 在[!DNL Workfront Proof]中共用校訂
 
 >[!IMPORTANT]
@@ -27,7 +35,7 @@ ht-degree: 0%
 
 如果您有校訂的編輯許可權，可以輕鬆與其他檢閱者共用校訂。 任何人都可以新增到校訂中，因為您不需要有[!DNL Workfront Proof]帳戶即可檢閱校訂。
 
-如需有關編輯許可權的資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
+如需有關編輯許可權的資訊，請參閱 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
 
 如果您透過新增稽核者來共用校訂：
 

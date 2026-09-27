@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: 51d9067c-8c55-433e-b560-7da241ef33ae
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/ww8outnwul3nadY343i2Z2vPqTuSFUzf1yNscwP-7zk
+TQID: 'https://experienceleague.adobe.com/ww8outnwul3nadY343i2Z2vPqTuSFUzf1yNscwP-7zk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 968
+source-wordcount: '968'
 ht-degree: 3%
-
 ---
-
 # 檢視報表使用情形
 
 <!--
@@ -97,9 +102,9 @@ ht-degree: 3%
    * **前10位使用者**：顯示檢視過報告的前10位使用者名稱。
    * **檢視次數**：顯示下列任一時間範圍內的檢視次數：
 
-      * **本月、季、年**
-      * **上個月、季、年**
-      * **所有檢視**：顯示報告上所有檢視的總計數
+     * **本月、季、年**
+     * **上個月、季、年**
+     * **所有檢視**：顯示報告上所有檢視的總計數
 
    * **上次檢視者**：顯示上次檢視報表之使用者的相關資訊
    * **上次檢視日期**：顯示上次檢視報告的日期
@@ -120,9 +125,9 @@ ht-degree: 3%
 
    * **檢視次數**：顯示下列任一時間範圍內的檢視次數：
 
-      * **本月、季、年**
-      * **上個月、季、年**
-      * **所有檢視**
+     * **本月、季、年**
+     * **上個月、季、年**
+     * **所有檢視**
 
    * **上次檢視者**：顯示上次檢視報表之使用者的相關資訊
    * **上次檢視日期**：顯示上次檢視報告的日期

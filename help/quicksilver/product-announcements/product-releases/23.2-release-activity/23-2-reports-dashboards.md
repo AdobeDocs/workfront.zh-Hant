@@ -6,22 +6,29 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2b5785e4-2fc3-4b93-9fdf-9638282c732d
-TQID: https://experienceleague.adobe.com/tyUTQDDJgid43kiVhq1UENejMkI1xWaeb9Se4v9b33Y
+TQID: 'https://experienceleague.adobe.com/tyUTQDDJgid43kiVhq1UENejMkI1xWaeb9Se4v9b33Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 134
+source-wordcount: '134'
 ht-degree: 1%
-
 ---
-
 # 23.2報表和控制面板增強功能
 
 本頁說明23.2版對「預覽」環境的所有報表和控制面板增強功能。 這些增強功能將在23.2版本的生產環境中提供。

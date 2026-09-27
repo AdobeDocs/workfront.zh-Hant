@@ -3,33 +3,40 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: organization-setup
 title: 建立和編輯公司
-description: 您可以將公司新增至 [!DNL Adobe Workfront] ，並將它們用於財務規劃、報告、定義物件相關許可權以及保密資訊。
+description: 您可以將公司新增至[!DNL Adobe Workfront]，並將它們用於財務規劃、報告、定義物件相關許可權以及保密資訊。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/NUy63Nw1T8QndFvqkJKLIfY4Z5ECSSmbSuvfGzvbgEE
+TQID: 'https://experienceleague.adobe.com/NUy63Nw1T8QndFvqkJKLIfY4Z5ECSSmbSuvfGzvbgEE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Privacy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1469
+source-wordcount: '1470'
 ht-degree: 1%
-
 ---
-
 # 建立和編輯公司
 
 <!--Audited: 01/2024-->
@@ -88,15 +95,15 @@ ht-degree: 1%
 * 身為專案經理，您可以識別同一公司內的可用資源。
 * 您可以選擇下列一或所有設定，讓公司之間的資訊保持私密：
 
-   * 來自同一公司的使用者可以看到彼此的請求。
+  * 來自同一公司的使用者可以看到彼此的請求。
 
-     如需有關[!DNL Workfront]管理員如何根據使用者的公司授予類似請求存取權的詳細資訊，請參閱[設定全系統的任務和問題偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)一節中的[設定 [!DNL Workfront]](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences)中每個人的任務和問題偏好設定。
+    如需有關[!DNL Workfront]管理員如何根據使用者的公司授予類似請求存取權的詳細資訊，請參閱[設定全系統的任務和問題偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)一節中的[設定 [!DNL Workfront]](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences)中每個人的任務和問題偏好設定。
 
-     如需有關群組管理員如何根據使用者的公司授予類似請求存取權的詳細資訊，請參閱[設定群組的任務和問題偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)。
+    如需有關群組管理員如何根據使用者的公司授予類似請求存取權的詳細資訊，請參閱[設定群組的任務和問題偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)。
 
-   * 使用者只能看到與其公司相關聯的請求佇列。 如需限制要求佇列可見性的詳細資訊，請參閱[提供要求佇列的存取權](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)。
-   * 您可以限制使用者只能看見其公司中的使用者，或其公司和主要公司的使用者。 如需有關使用者隱私權的主要公司功能資訊，請參閱[建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
-   * 使用者可以限制只讓公司使用者看到他們對專案進行的更新。 如需將更新設為公司私用的詳細資訊，請參閱[更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
+  * 使用者只能看到與其公司相關聯的請求佇列。 如需限制要求佇列可見性的詳細資訊，請參閱[提供要求佇列的存取權](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)。
+  * 您可以限制使用者只能看見其公司中的使用者，或其公司和主要公司的使用者。 如需有關使用者隱私權的主要公司功能資訊，請參閱[建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
+  * 使用者可以限制只讓公司使用者看到他們對專案進行的更新。 如需將更新設為公司私用的詳細資訊，請參閱[更新工作](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
 ## 在[!DNL Workfront]中建立或編輯公司 {#create-or-edit-a-company-in-workfront}
 

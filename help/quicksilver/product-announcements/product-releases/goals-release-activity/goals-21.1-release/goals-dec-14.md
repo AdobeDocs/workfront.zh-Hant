@@ -7,18 +7,26 @@ description: 本頁說明2020年12月14日當週預覽環境中Adobe Workfront�
 author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: 40074630-92fe-4388-8b4b-bb73d06b1eba
-TQID: https://experienceleague.adobe.com/wRS-w2UBHqAXS1-TNxh6khIKrqSBuyaoHTFhq74wdvM
+TQID: 'https://experienceleague.adobe.com/wRS-w2UBHqAXS1-TNxh6khIKrqSBuyaoHTFhq74wdvM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 304
+source-wordcount: '304'
 ht-degree: 0%
-
 ---
-
 # Adobe Workfront Goals 21.1發行活動：2020年12月14日當週
 
 本頁說明2020年12月14日當週預覽環境中Adobe Workfront目標的21.1版本所做的所有增強功能。 這些增強功能將於21.1第一季在生產環境中推出。

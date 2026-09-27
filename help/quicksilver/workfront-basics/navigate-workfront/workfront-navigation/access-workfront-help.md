@@ -4,25 +4,28 @@ title: 存取Adobe Workfront說明
 description: Workfront提供各種內容，協助您針對Workfront所提供各種產品的功能，尋找可能相關問題的解答。
 feature: Get Started with Workfront
 exl-id: 41b81083-771e-46de-85a3-31ed52d29917
-TQID: https://experienceleague.adobe.com/AD0uU89l7bVNXCiFiBDd3rRc59EUgzZNrHWyiZhUlgk
+TQID: 'https://experienceleague.adobe.com/AD0uU89l7bVNXCiFiBDd3rRc59EUgzZNrHWyiZhUlgk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 183
+source-wordcount: '183'
 ht-degree: 17%
-
 ---
-
 # 存取[!DNL Adobe Workfront]說明
 
 [!DNL Workfront]提供各種不同的內容，協助您尋找關於[!DNL Workfront]所提供的各種產品之功能的問題的解答。
 
 ## 存取Experience League上的[!DNL Adobe Workfront]檔案
 
-1. 移至 [!DNL Experience League][&#128279;](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home)上的[!DNL Adobe Workfront] 檔案頁面。
+1. 移至 [!DNL Experience League]&#x200B;[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home)上的[!DNL Adobe Workfront] 檔案頁面。
 
 除了搜尋說明檔案之外，您也可以從Experience League存取下列[!DNL Workfront]資源：
 

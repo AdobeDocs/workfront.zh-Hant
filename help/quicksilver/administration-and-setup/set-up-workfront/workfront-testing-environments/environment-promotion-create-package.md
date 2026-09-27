@@ -9,22 +9,26 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-TQID: https://experienceleague.adobe.com/wEVyLIZPMoEV-I4LDF6eqHbiFC-dr7bZouMPN4j-Jgw
+TQID: 'https://experienceleague.adobe.com/wEVyLIZPMoEV-I4LDF6eqHbiFC-dr7bZouMPN4j-Jgw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 775
-ht-degree: 1%
-
+source-wordcount: '805'
+ht-degree: 0%
 ---
-
 # 建立或編輯環境升級套件
 
 您必須在要從&#x200B;**複製物件**&#x200B;的環境中建立封裝。 例如，如果您在您的「自訂重新整理沙箱」環境中設定專案並將其升級至您的生產環境，則必須在您的「自訂重新整理沙箱」環境中建立套件。
@@ -110,7 +114,7 @@ ht-degree: 1%
 1. （選擇性）若要檢視內容（包括所有物件及其子物件），請在&#x200B;**內容**&#x200B;區段中按一下物件型別旁的下拉箭頭。
 1. （選擇性）若要檢視此套裝程式的先前安裝與安裝嘗試，請按一下&#x200B;**部署**。
 1. （選擇性）若要編輯封裝，請按一下畫面右上角的&#x200B;**編輯封裝**。
-套件必須處於`DRAFT`狀態才能編輯。若要將封裝移動到`DRAFT`狀態，請在&#x200B;**狀態**&#x200B;欄位中選取`Draft`。然後，您可以繼續編輯封裝。
+套件必須處於`DRAFT`狀態才能進行編輯。 若要將封裝移動到`DRAFT`狀態，請在&#x200B;**狀態**&#x200B;欄位中選取`Draft`。 然後，您可以繼續編輯封裝。
 1. 若要安裝套件，請按一下畫面右上角的&#x200B;**安裝**。
 
    如需安裝套件的說明，請參閱[安裝環境升級套件](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)。

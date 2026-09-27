@@ -2,7 +2,7 @@
 product-area: workfront-integrations;projects
 keywords: google，doc，檔案，工作表，幻燈片
 navigation-topic: workfront-for-g-suite
-title: 使用電子郵件內容從Google Workspace更新 [!DNL Adobe Workfront] 專案
+title: 使用電子郵件內容從Google Workspace更新[!DNL Adobe Workfront]專案
 description: 您可以利用非Adobe Workfront電子郵件的資訊，更新現有的專案、任務或問題。
 author: Becky
 feature: Workfront Integrations and Apps
@@ -10,26 +10,33 @@ recommendations: noDisplay, noCatalog
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/XJ0ABx-T296MgvxkvC7CbGtryTSj5B7L-RtgrOeCIPU
+TQID: 'https://experienceleague.adobe.com/XJ0ABx-T296MgvxkvC7CbGtryTSj5B7L-RtgrOeCIPU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: bbf3fe51-0066-4980-9062-f8005585ee10
+    internal-label: Adobe Workfront for Google Workspace
   - id: c4a58f26-aa43-4761-aafe-56f1e034d7d5
+    internal-label: Adobe Workfront for Outlook
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 199
+source-wordcount: '200'
 ht-degree: 0%
-
 ---
-
 # 使用電子郵件內容更新[!DNL Google Workspace]中的[!DNL Adobe Workfront]專案
 
 >[!IMPORTANT]

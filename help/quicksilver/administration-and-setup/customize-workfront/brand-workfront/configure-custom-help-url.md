@@ -8,22 +8,26 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
-TQID: https://experienceleague.adobe.com/sQ0-5jDNs4Pr8icC-mYCp0QFec5g1i-e0XkTz78WEWQ
+TQID: 'https://experienceleague.adobe.com/sQ0-5jDNs4Pr8icC-mYCp0QFec5g1i-e0XkTz78WEWQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 256
+source-wordcount: '256'
 ht-degree: 12%
-
 ---
-
 # 設定自訂說明 URL
 
 如果您建立自訂內部說明網站，其中包含有關您的組織如何使用Workfront的資訊，您可以設定主要功能表說明圖示移至該網站。

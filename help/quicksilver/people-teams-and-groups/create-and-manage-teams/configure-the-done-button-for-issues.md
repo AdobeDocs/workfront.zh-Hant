@@ -8,22 +8,26 @@ feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/ZQT-PUcRNi1GlWSCM3BKiw3TCT-te2-MeE8YQKtKiBw
+TQID: 'https://experienceleague.adobe.com/ZQT-PUcRNi1GlWSCM3BKiw3TCT-te2-MeE8YQKtKiBw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1164
-ht-degree: 3%
-
+source-wordcount: '1182'
+ht-degree: 2%
 ---
-
 # 設定問題的[!UICONTROL 完成]按鈕
 
 [!UICONTROL 完成]按鈕可以自動設定任務或問題的狀態。 依預設，當受指派人按一下其工作專案上的[!UICONTROL 完成]時，[!DNL Adobe Workfront]會將問題標示為[!UICONTROL 已解決]。
@@ -122,7 +126,7 @@ ht-degree: 3%
 
 1. 按一下「**[!UICONTROL 儲存變更]**」。\
    您選取的使用者現在與主團隊相關聯。
-這些使用者現在可以看到任何團隊設定，包括與[!UICONTROL 完成]按鈕相關聯的狀態。
+   這些使用者現在可以看到任何團隊設定，包括與[!UICONTROL 完成]按鈕相關聯的狀態。
 
 ## 在刪除[!UICONTROL 已解決]狀態時設定[!UICONTROL 完成]按鈕
 

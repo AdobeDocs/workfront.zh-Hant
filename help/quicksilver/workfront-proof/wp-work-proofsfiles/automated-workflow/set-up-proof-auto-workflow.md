@@ -2,25 +2,34 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: automated-workflow-workfront-proof
-title: 在 [!DNL Workfront Proof]中使用自動化工作流程設定校訂
+title: 在[!DNL Workfront Proof]中使用自動化工作流程設定校訂
 description: 這會重複在Workfront中設定校樣中的資訊。 在此處或那裡合併。 也許這裡更好。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 605569df-8e63-476d-a0cd-e73802042011
-TQID: https://experienceleague.adobe.com/H0iX2AA8WPbkiPDHagBRmnL6G2FQJmDFpaAdr3oEKOk
+TQID: 'https://experienceleague.adobe.com/H0iX2AA8WPbkiPDHagBRmnL6G2FQJmDFpaAdr3oEKOk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Privacy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1610
+source-wordcount: '1659'
 ht-degree: 0%
-
 ---
-
 # 在[!DNL Workfront Proof]中使用自動化工作流程設定校訂
 
 >[!IMPORTANT]
@@ -57,15 +66,15 @@ ht-degree: 0%
    * **[!UICONTROL 從階段啟用]：**&#x200B;選取將新增至階段啟用日期的工作天數，以在校訂上自動設定截止日期。
    * **[!UICONTROL 啟動階段]：**&#x200B;對於工作流程的每個階段，您可以決定何時啟動。 對於您的第一個階段，可以使用下列選項。
 
-      * 建立校訂時
-      * 在特定時間和日期
-      * 手動\
+     * 建立校訂時
+     * 在特定時間和日期
+     * 手動\
 
-        其他選項可用於後續階段。 這些選項需要父級階段。 它們是：
-      * 在到達上一個期限之後
-      * 所有決定皆已核准或已核准變更
-      * 所有決定皆已核准
-      * 所有決定皆已作出
+       其他選項可用於後續階段。 這些選項需要父級階段。 它們是：
+     * 在到達上一個期限之後
+     * 所有決定皆已核准或已核准變更
+     * 所有決定皆已核准
+     * 所有決定皆已作出
    * **[!UICONTROL 從]計算的截止日期：**&#x200B;您在此下拉式清單中選取的選項會影響&#x200B;**[!UICONTROL 截止日期]**&#x200B;欄位中可用的選項。
 
    * **[!UICONTROL 校訂建立]：**&#x200B;在&#x200B;**[!UICONTROL 截止日期]**&#x200B;欄位中，選取校訂的截止日期。
@@ -124,26 +133,26 @@ ht-degree: 0%
 * **[!UICONTROL 階段名稱]**：出現在工作流程圖表上，並包含在傳送給稽核者的電子郵件通知中。
 * **[!UICONTROL 啟動階段]**：對於工作流程的每個階段，您可以決定何時啟動。 您的第一個階段將可使用下列選項：
 
-   * 建立校訂時
-   * 在特定時間和日期
-   * 手動
-   * 您的第一個階段只有這三個選項可用。 當您新增第二個階段時，其他選項將變為可用；它們需要您選取父級階段。
-   * 達到上一個截止日期後（需要挑選父階段）
-   * 所有決定皆為「已核准」或[!UICONTROL 已核准變更] （需要挑選上層階段）
-   * 所有決定皆為「已核准」（需要挑選上層階段）
-   * 已做出所有決定（需要挑選父階段）
+  * 建立校訂時
+  * 在特定時間和日期
+  * 手動
+  * 您的第一個階段只有這三個選項可用。 當您新增第二個階段時，其他選項將變為可用；它們需要您選取父級階段。
+  * 達到上一個截止日期後（需要挑選父階段）
+  * 所有決定皆為「已核准」或[!UICONTROL 已核准變更] （需要挑選上層階段）
+  * 所有決定皆為「已核准」（需要挑選上層階段）
+  * 已做出所有決定（需要挑選父階段）
 
 * **[!UICONTROL 截止日期]：**&#x200B;您可以決定在工作流程的每個階段如何計算截止日期。 選項包括：
 
-   * 從校訂建立開始：在[!UICONTROL 截止日期]欄位(9)中，您可以選取校訂的截止日期。
-   * 從階段啟用：在[!UICONTROL 截止日期]下拉式清單中，您選取將新增至階段啟用日期的工作天數，以在校訂上自動設定截止日期。
+  * 從校訂建立開始：在[!UICONTROL 截止日期]欄位(9)中，您可以選取校訂的截止日期。
+  * 從階段啟用：在[!UICONTROL 截止日期]下拉式清單中，您選取將新增至階段啟用日期的工作天數，以在校訂上自動設定截止日期。
 
 * **[!UICONTROL 鎖定]：**&#x200B;有許多選項可決定何時可鎖定階段。 選項包括：
 
-   * 手動鎖定
-   * 絕不
-   * 當下一個階段開始時
-   * 完成所有決策時
+  * 手動鎖定
+  * 絕不
+  * 當下一個階段開始時
+  * 完成所有決策時
 
 **[!UICONTROL 主要決策者]**：您已在階段上設定主要決策者。 只有您將稽核者新增到舞台後，可用的決策者才會出現在清單中。
 
@@ -173,7 +182,7 @@ ht-degree: 0%
 您可以將基本校訂轉換為自動化工作流程。
 
 1. 在[!UICONTROL 校訂詳細資料]頁面上按一下&#x200B;**[!UICONTROL 「轉換為自動化工作流程]**」。
-將校訂重新處理至自動化工作流程後，所有階段皆為作用中、公開狀態，且其[!UICONTROL 鎖定階段]選項預設為「手動」。所有階段仍會保留使用者及其設定。
+將校訂重新處理至自動化工作流程後，所有階段皆為作用中、公開狀態，且其[!UICONTROL 鎖定階段]選項預設為「手動」。 所有階段仍會保留使用者及其設定。
 
    * 啟動階段已設定為每個階段中建立校訂時。
    * 從選項計算的截止日期設定為在每個階段中建立校訂。

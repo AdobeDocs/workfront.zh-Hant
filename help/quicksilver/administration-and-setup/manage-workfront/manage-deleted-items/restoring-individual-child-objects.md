@@ -8,25 +8,31 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: e2e4fbb7-5433-4d88-8e36-d82f4cc8a194
-TQID: https://experienceleague.adobe.com/-rjpPKLN8OTaEcmZkodNLCRXVlCaqThiLVimpBTQ5uI
+TQID: 'https://experienceleague.adobe.com/-rjpPKLN8OTaEcmZkodNLCRXVlCaqThiLVimpBTQ5uI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 625
+source-wordcount: '625'
 ht-degree: 4%
-
 ---
-
 # 還原個別子物件
 
 本文說明如何取得協助，以復原在少於30天前從Adobe Workfront生產或預覽環境刪除的個別子物件。
@@ -94,8 +100,8 @@ Workfront管理員可以還原每個Workfront執行個體中的專案、工作�
 
   找到物件的GUID時，請參閱下列資訊：
 
-   * 可透過參考與物件互動時所觸發的電子郵件通知（指派、評論等）來找到GUID
-   * 在URL結尾找到的GUID範例： `yourdomain.my.workfront.com/issue/view?ID=568bfa96011220154c8ca4c4e691556b`
+  * 可透過參考與物件互動時所觸發的電子郵件通知（指派、評論等）來找到GUID
+  * 在URL結尾找到的GUID範例： `yourdomain.my.workfront.com/issue/view?ID=568bfa96011220154c8ca4c4e691556b`
 
 收集這些資訊後，或需要協助時，請致電我們的客戶支援團隊：844-306-HELP(4357)，或線上提交票證。
 

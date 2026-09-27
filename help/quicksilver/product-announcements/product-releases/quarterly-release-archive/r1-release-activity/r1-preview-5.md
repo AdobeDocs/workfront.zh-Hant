@@ -7,13 +7,23 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4fba14b5-6c5a-4b03-99a7-f0e6f75807c3
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1301'
 ht-degree: 12%
-
 ---
-
 # R1預覽5
 
 本頁說明R1 Preview 5版本中「預覽」環境的所有可用變更。 此頁面的功能已於2017年3月16日在預覽環境中推出。
@@ -71,10 +81,10 @@ ht-degree: 12%
 * 診斷
 * 單一登入(SSO)包括：
 
-   * 主動式目錄
-   * LDAP
-   * SAML 1.1
-   * SAML 2.0
+  * 主動式目錄
+  * LDAP
+  * SAML 1.1
+  * SAML 2.0
 
 * 更新使用者以使用 SSO
 

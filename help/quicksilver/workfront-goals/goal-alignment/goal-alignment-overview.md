@@ -9,18 +9,24 @@ feature: Workfront Goals
 exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/o8vr8UGlRZJu3PA-8uyJtzYfpq-nvQmQWdl8Q-yp6tY
+TQID: 'https://experienceleague.adobe.com/o8vr8UGlRZJu3PA-8uyJtzYfpq-nvQmQWdl8Q-yp6tY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 755
+source-wordcount: '755'
 ht-degree: 1%
-
 ---
-
 # Adobe Workfront目標中的目標對齊方式概觀
 
 <!--Audited: 10/2025-->

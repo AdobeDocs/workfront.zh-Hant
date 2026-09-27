@@ -4,24 +4,28 @@ product-previous: workfront;workfront-proof
 product-area: user-management
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Workfront Proof Manager許可權疑難排解
-description: 在 [!DNL Adobe] Workfront中可用於校訂使用者的許可權設定檔為「管理員」、「監督員」和「管理員」。
+description: 在[!DNL Adobe] Workfront中可用於校訂使用者的許可權設定檔為「管理員」、「監督員」和「經理」。
 feature: Get Started with Workfront
 auhor: Courtney
 exl-id: 913241d0-f5b0-4674-b078-9a1ad3682aff
-TQID: https://experienceleague.adobe.com/JIdpxOQhSJGhnwl8iqZgeJ8esHq-Bb8x8HJuEJysxRI
+TQID: 'https://experienceleague.adobe.com/JIdpxOQhSJGhnwl8iqZgeJ8esHq-Bb8x8HJuEJysxRI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 255
+source-wordcount: '256'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL [!DNL Workfront]校訂管理員]許可權疑難排解
 
 以下是[!DNL Adobe Workfront]中可用於校訂使用者的許可權設定檔：
@@ -43,8 +47,8 @@ ht-degree: 0%
 * **問題：**&#x200B;具有[!UICONTROL 管理員]許可權的使用者無法將校訂版本新增到其他使用者建立的校訂中（他們可能會在檔案集中提交校訂，但版本不會連線到其他使用者建立的原始集）。\
    **解決方案：**&#x200B;具有[!UICONTROL 管理員]許可權的使用者只有在同時具有[!UICONTROL 管理員]許可權的使用者符合下列條件時，才能將版本提交至其他使用者的校訂：
 
-   * 明確新增到校樣
-   * 在校訂上設定為[!UICONTROL 作者] （校訂角色）
+  * 明確新增到校樣
+  * 在校訂上設定為[!UICONTROL 作者] （校訂角色）
 
 * **問題：**&#x200B;具有[!UICONTROL 管理員]許可權的使用者無法編輯其他使用者對於他們未擁有或未建立之校訂的評論。\
    **解決方案：**&#x200B;如果具有[!UICONTROL 管理員]許可權的使用者沒有校訂，但他們應該能夠編輯註解，請將它們新增為[!UICONTROL 作者] （或[!UICONTROL 版主]）。\

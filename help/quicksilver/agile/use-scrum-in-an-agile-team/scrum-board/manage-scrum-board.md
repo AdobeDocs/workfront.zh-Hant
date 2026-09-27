@@ -8,22 +8,29 @@ feature: Agile
 exl-id: 72990251-0264-4e68-83ef-1a9cde5b685c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/Ielfm99We9-fno0XOxp34XkWjtgLrmfCKhLx9kNAP8Q
+TQID: 'https://experienceleague.adobe.com/Ielfm99We9-fno0XOxp34XkWjtgLrmfCKhLx9kNAP8Q'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 471
+source-wordcount: '472'
 ht-degree: 3%
-
 ---
-
 # 管理[!UICONTROL Scrum]展示板上的劇本和問題
 
 您可以將內文或問題從[!UICONTROL Scrum]展示板移動至另一個反複專案或待處理專案，或從[!UICONTROL Scrum]展示板將其刪除。 當您刪除內文或問題時，內文或問題會移至資源回收筒並保留30天，且只有系統管理員才能復原。

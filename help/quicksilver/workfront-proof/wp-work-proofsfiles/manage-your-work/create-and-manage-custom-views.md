@@ -2,25 +2,34 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: 在 [!DNL Workfront Proof]中建立和管理自訂檢視
+title: 在[!DNL Workfront Proof]中建立和管理自訂檢視
 description: 您可以建立檔案和校樣的自訂檢視，以您想要的方式列出專案。 您也可以將「自訂」檢視中的資訊匯出為報表（CSV、逗號分隔值、檔案格式）。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7c6f3fdd-f767-4e8d-937a-1c7645aba55b
-TQID: https://experienceleague.adobe.com/QMQKw8XzYi2H-SA-paAka7w4fbJvQpitTxAwuJrjueA
+TQID: 'https://experienceleague.adobe.com/QMQKw8XzYi2H-SA-paAka7w4fbJvQpitTxAwuJrjueA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2482
+source-wordcount: '2482'
 ht-degree: 1%
-
 ---
-
 # 在[!DNL Workfront Proof]中建立和管理自訂檢視
 
 >[!IMPORTANT]
@@ -48,7 +57,7 @@ ht-degree: 1%
 若要建立自訂檢視：
 
 1. 移至&#x200B;**[!UICONTROL 檢視]**&#x200B;頁面。
-1. 如需檢視的詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的管理檢視頁面上的專案。
+1. 如需檢視的詳細資訊，請參閱 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的管理檢視頁面上的專案。
 1. 根據您是要從頭開始建立新的自訂檢視，還是要根據現有的標準檢視建立新的自訂檢視，執行下列任一項作業：
 
    * 若要根據現有標準檢視建立新的自訂檢視：從下拉式功能表中，選取要作為新自訂檢視基礎的現有標準檢視。 按一下「**[!UICONTROL 檢視設定]**」圖示，然後按一下「**[!UICONTROL 複製]**」以新增自訂檢視。
@@ -229,34 +238,34 @@ ht-degree: 1%
 
      如果您只想檢視沒有註解的校樣，請選取下列值：
 
-      * 欄位：註解
-      * 運運算元：等於
-      * 值欄位：0
+     * 欄位：註解
+     * 運運算元：等於
+     * 值欄位：0
 
      如果您只想檢視含有兩個或多個註解的校樣，請選取下列值：
 
-      * 欄位：註解
-      * 運運算元：大於或等於
-      * 值欄位：2
+     * 欄位：註解
+     * 運運算元：大於或等於
+     * 值欄位：2
 
      如果您只想檢視介於1到4個註解的校樣，請選取下列值：
 
-      * 欄位：註解
-      * 運運算元：介於
-      * 值欄位（第一個欄位）：1
-      * 值欄位（第二個欄位）：4
+     * 欄位：註解
+     * 運運算元：介於
+     * 值欄位（第一個欄位）：1
+     * 值欄位（第二個欄位）：4
 
-        您可以變更已新增至「自訂」檢視的篩選器，而不會發生任何問題，或是視需要按一下[!UICONTROL 設定]篩選器旁的十字圖示來移除篩選器。
+       您可以變更已新增至「自訂」檢視的篩選器，而不會發生任何問題，或是視需要按一下[!UICONTROL 設定]篩選器旁的十字圖示來移除篩選器。
 
-        因為[欄位]清單不限於您在[!UICONTROL 欄]索引標籤上選取的欄，所以當您建立篩選器時，請注意該篩選器是否包含您未選取要在自訂檢視中顯示的欄。 例如，檢視的下列篩選器將選取版本計數器值為2或以上的所有校樣：
+       因為[欄位]清單不限於您在[!UICONTROL 欄]索引標籤上選取的欄，所以當您建立篩選器時，請注意該篩選器是否包含您未選取要在自訂檢視中顯示的欄。 例如，檢視的下列篩選器將選取版本計數器值為2或以上的所有校樣：
 
-         * 欄位=版本計數器
-         * 運運算元=大於或等於
-         * 值欄位= 2
+       * 欄位=版本計數器
+       * 運運算元=大於或等於
+       * 值欄位= 2
 
-           >[!NOTE]
-           >
-           >您可以變更已新增至「自訂」檢視的篩選器，而不會發生任何問題，或是視需要按一下[!UICONTROL 設定]篩選器旁的十字圖示來移除篩選器。
+         >[!NOTE]
+         >
+         >您可以變更已新增至「自訂」檢視的篩選器，而不會發生任何問題，或是視需要按一下[!UICONTROL 設定]篩選器旁的十字圖示來移除篩選器。
 
 
 
@@ -270,14 +279,14 @@ ht-degree: 1%
    * 如果您目前選擇不與其他使用者共用您的檢視，您稍後可以編輯自訂檢視來執行此操作。
 
 1. 按一下「**[!UICONTROL 建立]**」。
-1. 此自訂檢視已顯示並可在[!DNL Views]頁面上使用。 如需檢視的詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中 [!DNL Views] 頁面上的管理專案。
+1. 此自訂檢視已顯示並可在[!DNL Views]頁面上使用。 如需檢視的詳細資訊，請參閱 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中 [!DNL Views] 頁面上的管理專案。
 
 ## 編輯自訂檢視
 
 您可以輕鬆編輯自訂檢視。 若要編輯自訂檢視：
 
 1. 移至&#x200B;**[!UICONTROL 檢視]**&#x200B;頁面。\
-   如需檢視的詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的管理檢視頁面上的專案。
+   如需檢視的詳細資訊，請參閱 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的管理檢視頁面上的專案。
 
 1. 按一下[!UICONTROL 檢視]按鈕(1)
 1. 從下拉式選單中選取您要編輯的檢視。\
@@ -308,7 +317,7 @@ ht-degree: 1%
 若要複製自訂檢視：
 
 1. 移至&#x200B;**[!UICONTROL 檢視]**&#x200B;頁面。\
-   如需檢視的詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的管理檢視頁面上的專案。
+   如需檢視的詳細資訊，請參閱 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的管理檢視頁面上的專案。
 
 1. 按一下&#x200B;**[!UICONTROL 檢視]**&#x200B;按鈕。 (1)
 1. 從清單中選取您的「自訂」檢視。 (2)
@@ -328,7 +337,7 @@ ht-degree: 1%
 若要與其他使用者共用自訂檢視：
 
 1. 移至&#x200B;**[!UICONTROL 檢視]**&#x200B;頁面。\
-   如需檢視的詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的管理檢視頁面上的專案。
+   如需檢視的詳細資訊，請參閱 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的管理檢視頁面上的專案。
 
 1. 按一下&#x200B;**[!UICONTROL 檢視]**&#x200B;按鈕(1)
 1. 從清單中選取您的自訂檢視(2)
@@ -346,7 +355,7 @@ ht-degree: 1%
 若要將資料從自訂檢視匯出至CSV檔案：
 
 1. 移至&#x200B;**[!UICONTROL 檢視]**&#x200B;頁面。\
-   如需檢視的詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的管理檢視頁面上的專案。
+   如需檢視的詳細資訊，請參閱 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的管理檢視頁面上的專案。
 
 1. 按一下&#x200B;**[!UICONTROL 檢視]**&#x200B;按鈕。 (1)
 1. 從清單中選取您的「自訂檢視」 。 (2)
@@ -366,7 +375,7 @@ ht-degree: 1%
 您可以輕鬆刪除自訂檢視。 操作步驟：
 
 1. 移至&#x200B;**[!UICONTROL 檢視]**&#x200B;頁面。\
-   如需檢視的詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的管理檢視頁面上的專案。
+   如需檢視的詳細資訊，請參閱 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)中的管理檢視頁面上的專案。
 
 1. 按一下&#x200B;**[!UICONTROL 檢視]**&#x200B;按鈕。
 1. 從清單中選取您的自訂檢視

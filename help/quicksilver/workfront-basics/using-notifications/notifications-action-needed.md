@@ -6,25 +6,31 @@ description: 下列通知可讓您知道您是否需要對工作專案採取行�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: dd383bd4-da30-45ea-889e-e6b49416974b
-TQID: https://experienceleague.adobe.com/3ZDXEj-RkaVm046mfT-xVk2Cij5mQOc9N-t7khpq7Ww
+TQID: 'https://experienceleague.adobe.com/3ZDXEj-RkaVm046mfT-xVk2Cij5mQOc9N-t7khpq7Ww'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2366
+source-wordcount: '2366'
 ht-degree: 0%
-
 ---
-
 # 通知： [!UICONTROL 需要動作]
 
 下列通知可讓您知道您是否需要對工作專案採取行動。 如需有關設定您收到哪些通知的資訊，請參閱[修改您自己的電子郵件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
