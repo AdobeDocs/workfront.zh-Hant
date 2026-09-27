@@ -27,7 +27,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->所有收件者必須在[!DNL Workfront]中擁有存取權才能檢閱校樣。 如需有關授權和存取層級的資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔。
+>所有收件者必須在[!DNL Workfront]中擁有存取權才能檢閱校樣。 如需有關授權和存取層級的資訊，請參閱 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
 
 ## 共用校訂
 

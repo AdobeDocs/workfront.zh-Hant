@@ -86,4 +86,4 @@ ht-degree: 7%
 
    當評論產生於[!DNL Slack]時，評論會在[!DNL Workfront]中顯示訊息「[!UICONTROL 張貼自[!DNL Slack]]」。
 
-   從Slack](assets/slack-update-posted-from-slack-350x112.png)張貼的![更新
+   從Slack![&#128279;](assets/slack-update-posted-from-slack-350x112.png)張貼的更新

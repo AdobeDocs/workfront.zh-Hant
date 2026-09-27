@@ -60,12 +60,12 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[！UICONTROL標準]</p>
-       <p>[！UICONTROL計畫]</p></td>
+   <td><p>[!UICONTROL 標準]</p>
+       <p>[!UICONTROL 計畫]</p></td>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[！UICONTROL系統管理員]</td> 
+   <td>[!UICONTROL 系統管理員]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -92,7 +92,7 @@ ht-degree: 2%
    如需可用選項的相關資訊，請參閱下列文章之一：
 
    * [篩選器概觀](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-   * 在[!UICONTROL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)中的[檢視總覽
+   * 在[!UICONTROL Adobe Workfront]&#x200B;[&#128279;](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)中的檢視總覽
    * [[!UICONTROL Adobe Workfront]中的群組概觀](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
 1. 按一下左下角附近的&#x200B;**[!UICONTROL 儲存]**。
@@ -117,7 +117,7 @@ ht-degree: 2%
 
 1. 按一下&#x200B;**[!UICONTROL 介面]**，然後按一下下列其中一個專案： **[!UICONTROL 篩選器]**、**[!UICONTROL 檢視]**&#x200B;或&#x200B;**[!UICONTROL 群組]**。
 
-1. （視條件而定）選取您要讓使用者使用的篩選、檢視或群組，然後按一下[啟用系統範圍] ****。
+1. （視條件而定）選取您要讓使用者使用的篩選、檢視或群組，然後按一下[啟用系統範圍] **&#x200B;**。
 
    ![](assets/enable-system-wide-fvg.png)
 

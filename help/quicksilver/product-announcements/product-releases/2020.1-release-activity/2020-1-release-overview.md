@@ -390,7 +390,7 @@ ht-degree: 0%
 
 ## API增強功能
 
-API第11版於2020.1版時發行。 如需有關新增功能和更新的資訊，請參閱[ API版本11的新功能](../../../wf-api/api/new-api-version-11.md) [ API版本11](https://experience.workfront.com/s/article/What-s-new-in-API-version-11-1760875145)的新功能。
+API第11版於2020.1版時發行。 如需有關新增功能和更新的資訊，請參閱[&#x200B; API版本11的新功能](../../../wf-api/api/new-api-version-11.md) [&#x200B; API版本11](https://experience.workfront.com/s/article/What-s-new-in-API-version-11-1760875145)的新功能。
 
 如需API版本的詳細資訊，請參閱[API版本設定與支援排程](../../../wf-api/api/api-version-support-schedule.md) [API版本發行與支援排程](https://experience.workfront.com/s/article/API-Version-Release-and-Support-Schedule-272875487?language=en_US&r=13&ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&ui-self-service-components-controller.ArticleTopicList.getTopics=1&ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1)。
 
@@ -511,7 +511,7 @@ and watch the recording on demand
 
 為了提供最佳安全性，Workfront要求所有使用TLS 1.1或更舊版本的整合和網頁流量都升級為使用TLS 1.2。 在預覽環境中，TLS 1.0已停用。
 
-如需詳細資訊，請參閱Adobe Workfront](../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md)中所需的[TLS 1.2。
+如需詳細資訊，請參閱Adobe Workfront[&#128279;](../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md)中所需的TLS 1.2。
 
 ### 移除Flash應用程式 {#flash-application-removal}
 

@@ -69,7 +69,7 @@ ht-degree: 0%
 
 ## 正在啟用[!DNL Basecamp]與[!DNL Workfront Proof]的整合
 
-作為 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔或 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔，您可以在[帳戶設定](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings)中設定整個帳戶的[!DNL Basecamp]整合。
+作為 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔或 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔，您可以在[帳戶設定](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings)中設定整個帳戶的[!DNL Basecamp]整合。
 
 1. 在[!UICONTROL Basecamp]中，收集下列資訊：
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 在您為組織設定[帳戶設定](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings)後，建立/提交校訂的每位作者都應該設定其[個人設定。](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings)
 
-1. 移至&#x200B;**[!UICONTROL 個人&#x200B;**設定]**。
+1. 移至&#x200B;**[!UICONTROL 個人&#x200B;**&#x200B;設定]**。
 
 1. 開啟&#x200B;**[!UICONTROL 整合]**&#x200B;標籤(1)。
 1. 若要啟用[!DNL Basecamp]整合，請按一下&#x200B;**[!UICONTROL 啟用]** (2)。

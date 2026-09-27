@@ -151,7 +151,7 @@ ht-degree: 1%
 
   您可以停用完成百分比的顯示，如本文中[設定里程碑檢視](#configure-what-information-displays-in-the-milestone-view)中顯示的資訊一節所述。
 
-  您可以直接從「里程碑」檢視調整完成百分比，如本文中「里程碑」檢視](#adjust-percent-complete-for-tasks-in-the-milestone-view)中之任務的調整完成百分比[小節所述。
+  您可以直接從「里程碑」檢視調整完成百分比，如本文中「里程碑」檢視[&#128279;](#adjust-percent-complete-for-tasks-in-the-milestone-view)中之任務的調整完成百分比小節所述。
 
 * **任務進度狀態圖示：**&#x200B;下列是指示任務進度狀態的圖示：
 

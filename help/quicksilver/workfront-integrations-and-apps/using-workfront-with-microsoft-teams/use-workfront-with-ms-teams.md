@@ -41,7 +41,7 @@ Adobe Workfront提供與Microsoft Teams的整合。 本文連結至安裝和設�
 
 * [適用於Microsoft Teams的[!DNL Adobe Workfront]概覽](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
 * [安裝 [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
-* [從 [!DNL Microsoft Teams]存取 [!DNL Adobe Workfront] ](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md)
+* [從 [!DNL Microsoft Teams]存取 [!DNL Adobe Workfront] &#x200B;](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md)
 * [搜尋並共用 [!DNL Microsoft Teams]中的 [!DNL Adobe Workfront] 個專案](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md)
 * [建立來自 [!DNL Microsoft Teams]的 [!DNL Adobe Workfront] 工作](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md)
 * [從 [!DNL Microsoft Teams]提交 [!DNL Adobe Workfront] 個請求](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/submit-workfront-requests-from-ms-teams.md)

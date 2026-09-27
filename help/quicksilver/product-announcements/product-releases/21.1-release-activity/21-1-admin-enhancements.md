@@ -53,7 +53,7 @@ ht-degree: 2%
 
 如需有關複製專案的資訊，請參閱[複製專案](../../../manage-work/projects/manage-projects/copy-project.md)。
 
-此功能現在包含在新Workfront體驗第1部分：使用者組織](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home)的Workfront One學習路徑的[管理員基礎課程中。
+此功能現在包含在新Workfront體驗第1部分：使用者組織[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home)的Workfront One學習路徑的管理員基礎課程中。
 
 ## 在物件的自訂表單中，選取多選下拉式欄位中的所有專案
 
@@ -85,7 +85,7 @@ Adobe Workfront管理員現在可以解鎖個別任務和問題偏好設定，�
 
 如需詳細資訊，請參閱[設定群組的任務和問題偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)。
 
-此功能現在包含在新Workfront Experience第2部分：專案設定](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home)的Workfront One學習路徑的[管理員基礎課程中。
+此功能現在包含在新Workfront Experience第2部分：專案設定[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home)的Workfront One學習路徑的管理員基礎課程中。
 
 ## 分別設定投資組合和計畫的存取層級設定
 
@@ -97,7 +97,7 @@ Adobe Workfront管理員現在可以解鎖個別任務和問題偏好設定，�
 
 如需您可以為程式與產品組合設定的存取設定相關資訊，請參閱[每個物件型別可設定的功能存取權](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)。
 
-此功能現在包含在新Workfront體驗第1部分：使用者組織](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home)的Workfront One學習路徑的[管理員基礎課程中。
+此功能現在包含在新Workfront體驗第1部分：使用者組織[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home)的Workfront One學習路徑的管理員基礎課程中。
 
 ## 在自訂表單中編輯資訊時，選取序列中的所有核取方塊
 
@@ -130,7 +130,7 @@ Adobe Workfront管理員現在可以解鎖個別任務和問題偏好設定，�
 
 如需詳細資訊，請參閱文章[子群組總覽](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md)中的[子群組的群組管理員](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md#for)一節。
 
-此功能現在包含在新Workfront體驗第1部分：使用者組織](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home)的Workfront One學習路徑的[管理員基礎課程中。
+此功能現在包含在新Workfront體驗第1部分：使用者組織[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home)的Workfront One學習路徑的管理員基礎課程中。
 
 ## 設定群組的事件通知
 

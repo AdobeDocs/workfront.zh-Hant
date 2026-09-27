@@ -48,7 +48,7 @@ ht-degree: 0%
 
 2017.3 Beta最終版本包含適用於Workfront管理員和其他使用者的增強功能：
 
-管理員的&#x200B;****
+管理員的&#x200B;**&#x200B;**
 
 * [在核准設定區域中重新呼叫要求的新設定](#new-configuration-for-recalling-requests-in-the-approval-settings-area)
 * [設定預設校訂角色](#configure-default-proof-roles)
@@ -70,7 +70,7 @@ ht-degree: 0%
 * [檔案增強功能：精簡的介面](#document-enhancements-streamlined-interface)
 * Workfront中的[校訂增強功能](#proofing-enhancements-within-workfront)
 * Workfront Proof和Workfront中的[校訂增強功能](#proofing-enhancements-within-both-workfront-proof-and-workfront)
-* 更新及電子郵件的[ RTF格式](#rich-text-formatting-for-updates-and-emails)
+* 更新及電子郵件的[&#x200B; RTF格式](#rich-text-formatting-for-updates-and-emails)
 * [新甘特圖重新設計](#new-gantt-chart-redesign)
 * [內建報告包含更新的說明](#built-in-reports-contain-updated-descriptions)
 * [在匯出的報告、清單和儀表板中標示品牌](#branding-in-exported-reports-lists-and-dashboards)
@@ -163,7 +163,7 @@ Workfront中的Scrum和Kanban敏捷方法有以下差異：
 
 如需有關使用待處理專案上的問題的資訊，請參閱[管理敏捷待處理專案](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)。
 
-如需有關啟用問題以在Agile Scrum團隊的待處理專案上可用的資訊，請參閱[在[設定Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)中設定將工作專案新增至疊代](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)時如何套用日期。
+如需有關啟用問題以在Agile Scrum團隊的待處理專案上可用的資訊，請參閱[&#128279;](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)在[設定Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)中設定將工作專案新增至疊代時如何套用日期。
 
 ## 在Scrum敏捷故事板上包含問題 {#include-issues-on-the-scrum-agile-story-board}
 

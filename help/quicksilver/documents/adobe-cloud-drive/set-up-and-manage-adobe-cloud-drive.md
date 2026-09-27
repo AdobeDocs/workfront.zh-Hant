@@ -140,7 +140,7 @@ Adobe Cloud Drive存取需在Adobe Admin Console中設定。 選擇符合轉出�
    >
    >如果Adobe Cloud Drive未出現在&#x200B;**成員**&#x200B;角色的&#x200B;**許可權**&#x200B;之下，則可能尚未為您的組織啟用Adobe Cloud Drive。 聯絡Adobe支援以確認。
 
-1. 如果您做了任何變更，請按一下[儲存]。****
+1. 如果您做了任何變更，請按一下[儲存]。**&#x200B;**
 
 ### 選項B：啟用特定使用者群組的存取權
 

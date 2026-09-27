@@ -86,4 +86,4 @@ ht-degree: 4%
 
 ## 依授權型別存取工作角色
 
-如需有關每個存取層級中的使用者可以對工作角色執行哪些操作的資訊，請參閱每個物件型別](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)可用的文章[功能中的[工作角色](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md#job-roles)小節。
+如需有關每個存取層級中的使用者可以對工作角色執行哪些操作的資訊，請參閱每個物件型別[&#128279;](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)可用的文章功能中的[工作角色](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md#job-roles)小節。

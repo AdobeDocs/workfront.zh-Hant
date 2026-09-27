@@ -449,7 +449,7 @@ Planning API支援大量建立、更新、修補及刪除單一請求中的記�
 
 ## 搭配Workfront自訂表單使用Planning API
 
-您可以從Workfront自訂表單中的外部查閱欄位呼叫Planning API，以直接在Workfront物件中呈現Planning資料。 如需詳細資訊，請參閱自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)中的外部查閱欄位範例[。
+您可以從Workfront自訂表單中的外部查閱欄位呼叫Planning API，以直接在Workfront物件中呈現Planning資料。 如需詳細資訊，請參閱自訂表單[&#128279;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)中的外部查閱欄位範例。
 
 ## 相關資源
 

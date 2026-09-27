@@ -92,7 +92,7 @@ ht-degree: 4%
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">已更新時區名稱</a><p>[！BADGE Off Schedule]{type=Neutral}</p><p>我們已更新Workfront中可用的時區，以遵循IANA標準。 這可確保與其他系統的相容性，並可確保一段時間內的準確性。</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">已更新時區名稱</a><p>[!BADGE Off Schedule]{type=Neutral}</p><p>我們已更新Workfront中可用的時區，以遵循IANA標準。 這可確保與其他系統的相容性，並可確保一段時間內的準確性。</p>
         </td>
         <td><p>2026年3月27日</p></td>
         <td><p>2026年3月27日</p></td>
@@ -271,7 +271,7 @@ ht-degree: 4%
         <td><strong>每季</strong></td>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">當和單一或大量指派範本任務時更新體驗</a><p>[！BADGE Off Schedule]{type=Neutral}</p><p> 編輯單一範本任務或大量編輯範本任務時，我們已更新「編輯範本任務」方塊中的「工作總攬」區段。  </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">當和單一或大量指派範本任務時更新體驗</a><p>[!BADGE Off Schedule]{type=Neutral}</p><p> 編輯單一範本任務或大量編輯範本任務時，我們已更新「編輯範本任務」方塊中的「工作總攬」區段。  </p>
         </td>
         <td><p>2026年2月5</p></td>
         <td><p>自2026年2月5日起</p></td>
@@ -279,7 +279,7 @@ ht-degree: 4%
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">單一或大量指派任務時更新體驗</a><p>[！BADGE Off Schedule]{type=Neutral}</p><p> 編輯單一任務或大量編輯任務時，我們已更新「編輯任務」方塊中的「工作總攬」區段。 </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">單一或大量指派任務時更新體驗</a><p>[!BADGE Off Schedule]{type=Neutral}</p><p> 編輯單一任務或大量編輯任務時，我們已更新「編輯任務」方塊中的「工作總攬」區段。 </p>
         </td>
         <td><p>2026年1月26日</p></td>
         <td><p>自2026年2月5日起</p></td>
@@ -524,7 +524,7 @@ Workfront API版本21已於2025年10月23日發行。 針對API 21版，我們�
 >
 > 若為多選欄位，事件訂閱版本2一律會以陣列形式傳送。 如果選取多個值，第1版會傳送陣列。 如果只選取一個值，則會傳送字串。
 
-如需新增和更新的詳細資訊，請參閱[ API 21](/help/quicksilver/wf-api/api/new-api-version-21.md)版的新增功能。
+如需新增和更新的詳細資訊，請參閱[&#x200B; API 21](/help/quicksilver/wf-api/api/new-api-version-21.md)版的新增功能。
 
 如需API版本的資訊，請參閱[API版本設定與支援排程](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
 

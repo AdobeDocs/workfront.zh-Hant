@@ -113,7 +113,7 @@ Workfront中有多種型別的篩選器。 所有篩選器都符合限制熒幕�
 
 * 工作負載平衡器
 
-  如需相關資訊，請參閱工作負載平衡器](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)中的[篩選資訊。
+  如需相關資訊，請參閱工作負載平衡器[&#128279;](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)中的篩選資訊。
 
 * 藍圖區域
 

@@ -124,7 +124,7 @@ ht-degree: 9%
 | 群組 | 已恢復為系統預設值 <p>不會刪除現有群組。 您可以再次選取它們。</p> |
 | 最近專案清單 | 已清除 |
 | 我的最愛清單 | 未受影響 |
-| 使用者偏好設定 | 已恢復為系統預設值 <p>電子郵件通知會恢復為系統預設值。 預設通知列在Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)中可用的[事件通知中。</p> |
+| 使用者偏好設定 | 已恢復為系統預設值 <p>電子郵件通知會恢復為系統預設值。 預設通知列在Adobe Workfront[&#128279;](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)中可用的事件通知中。</p> |
 
 ## 重設使用者偏好設定
 
@@ -143,7 +143,7 @@ ht-degree: 9%
 
 1. 按&#x200B;**Enter**。
 
-1. 若要重設所有使用者偏好設定，請按一下[重設]。****
+1. 若要重設所有使用者偏好設定，請按一下[重設]。**&#x200B;**
 
    或
 

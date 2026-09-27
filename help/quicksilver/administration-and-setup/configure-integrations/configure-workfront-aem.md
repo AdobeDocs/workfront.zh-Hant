@@ -150,7 +150,7 @@ ht-degree: 1%
 1. 在AEM中，移至&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 安全性]** > **[!UICONTROL 許可權]**。
 1. 在左上角，在下拉式選單中選擇&#x200B;**[!UICONTROL 使用者]**&#x200B;，並在&#x200B;**[!UICONTROL 搜尋]**&#x200B;欄&#x200B;位中輸入&#x200B;*[!UICONTROL workfront-service]*。 選取[!UICONTROL workfront-service]使用者。
 1. 在熒幕右側，選取&#x200B;**[!UICONTROL 新增ACE]**&#x200B;以建立新專案。
-1. 在{&#x200B;0}新增專案&#x200B;]**視窗中，選取**[!UICONTROL &#x200B;路徑&#x200B;]**欄&#x200B;位中的核取方塊圖示&#x200B;，然後選擇資料夾： */conf***[!UICONTROL 
+1. 在{&#x200B;0}新增專案&#x200B;**視窗中，選取**&#x200B;[!UICONTROL &#x200B;路徑&#x200B;]&#x200B;**欄&#x200B;位中的核取方塊圖示&#x200B;，然後選擇資料夾： */conf***
 1. 在&#x200B;**許可權**&#x200B;欄位中，輸入： *jcr:read*
 1. 在右上角，選取&#x200B;**新增**。
 1. （可選）重複上述步驟以建立更多專案。
@@ -167,7 +167,7 @@ ht-degree: 1%
 
       例如，[!DNL https]：//`<account>`.my.workfront.com，其中`<account>`是您用來與AEM整合的帳戶。
 
-   1. 在{&#x200B;0}基本資料夾&#x200B;]**欄位中，選取核取方塊圖示。**[!UICONTROL 
+   1. 在{&#x200B;0}基本資料夾&#x200B;**欄位中，選取核取方塊圖示。**
    1. 在下拉式功能表中，選取連結至[!DNL Workfront]物件的檔案儲存路徑。
    1. 在出現的AEM強制回應視窗中，將連結至[!DNL Workfront]物件的檔案置於資料夾的路徑之後。 選擇資料夾，然後按右上角的&#x200B;**[!UICONTROL &#x200B;選取]**。
 
@@ -293,7 +293,7 @@ ht-degree: 1%
 
 1. 在&#x200B;**[!UICONTROL 驗證型別]**&#x200B;下拉式功能表中，選取&#x200B;**[!UICONTROL ApiKey].**
 
-1. 在{&#x200B;0}API金鑰&#x200B;]**方塊中，貼上您設定[!UICONTROL AEM Assets]時複製的AEM API金鑰。**[!UICONTROL 
+1. 在{&#x200B;0}API金鑰&#x200B;**方塊中，貼上您設定[!UICONTROL AEM Assets]時複製的AEM API金鑰。**
 1. 按一下「**[!UICONTROL 儲存]**」。
 1. （選擇性）確定整合已標籤為[!UICONTROL 使用中]。\
    ![aem_custom_integration_active.png](assets/aem-custom-integration-active-350x81.png)
@@ -313,7 +313,7 @@ ht-degree: 1%
 ### 在[!DNL AEM assets]中設定使用者 {#set-up-users-in-aem-assets}
 
 1. 以Workfront管理員身分登入[!DNL AEM Assets]。
-1. 按一下「**[!UICONTROL 工具]**」>「{2&#x200B;}**{&#x200B;4}安全性]**」>「**[!UICONTROL 使用者]**」。****[!UICONTROL 
+1. 按一下「**[!UICONTROL 工具]**」>「{2&#x200B;}**{&#x200B;4}安全性**」>「**[!UICONTROL 使用者]**」。**&#x200B;**
 
 1. （視條件而定）如果使用者在AEM中沒有使用者設定檔，請建立AEM使用者設定檔。
 

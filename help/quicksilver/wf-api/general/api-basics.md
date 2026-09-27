@@ -348,7 +348,7 @@ OR陳述式只會傳回API呼叫中符合OR陳述式篩選條件的記錄。 OR�
 
 您可以使用欄位請求引數，指定傳回之特定欄位的逗號分隔清單。 例如，請求
 <pre>/attask/api/&lt;supported-version&gt;/task/search？fields=plannedStartDate，priority</pre>會傳回類似下列的回應：
-<pre>{<br>「優先順序」： 2，<br>「名稱」：「第一個任務」，<br>「識別碼」：「4c7c08fa0000002ff924e298ee148df4」，<br>「plannedStartDate」：「2010-08-30T09:00:00:000-0600」<br></pre>
+<pre>&lbrace;<br>「優先順序」： 2，<br>「名稱」：「第一個任務」，<br>「識別碼」：「4c7c08fa0000002ff924e298ee148df4」，<br>「plannedStartDate」：「2010-08-30T09:00:00:000-0600」<br></pre>
 
 >[!NOTE]
 >
@@ -361,7 +361,7 @@ OR陳述式只會傳回API呼叫中符合OR陳述式篩選條件的記錄。 OR�
 您可以搜尋巢狀物件。 依預設，巢狀物件只傳回名稱和ID。 例如，若要與擁有者取得所有問題，請使用以下請求：
 <pre>/attask/api/&lt;supported-version&gt;/issue/search？fields=owner</pre>如需詳細資訊，您可以使用冒號語法來要求巢狀欄位。 例如，以下請求會搜尋所有問題以及擁有者的名稱、ID、職稱和電話號碼
 <pre>/attask/api/&lt;supported-version&gt;/issue/search？fields=owner：title，owner：phoneNumber</pre>並傳回下列專案： 
-<pre>{<br> 「名稱」： 「重要問題」，<br> 「ID」： 「4c78285f00000908ea8cfd66e084939f」，<br> 「擁有者」： {<br> 「標題」： 「營運專員」，<br> 「電話號碼」： 「555-1234」，<br> 「名稱」： 「管理員使用者」，<br> 「ID」： 「4c76ed7a0000054c172b2d9f7f81c3」 <br> <br></pre>
+<pre>&lbrace;<br> 「名稱」： 「重要問題」，<br> 「ID」： 「4c78285f00000908ea8cfd66e084939f」，<br> 「擁有者」： &lbrace;<br> 「標題」： 「營運專員」，<br> 「電話號碼」： 「555-1234」，<br> 「名稱」： 「管理員使用者」，<br> 「ID」： 「4c76ed7a0000054c172b2d9f7f81c3」 <br> <br></pre>
 
 #### 正在擷取巢狀集合
 
@@ -506,7 +506,7 @@ POST /attask/api/<supported-version>/project?copySourceID=4c7...&name=Copied Pro
 您可以透過下列API URL上傳檔案：
 <pre>POST /attask/api/&lt;supported-version&gt;/upload</pre>API預期內容型別為多部分/表單資料。 檔案的引數名稱必須是uploadedFile。 伺服器會傳回下列JSON資料：
 <pre>{<br> "handle"： "4c7c08fa0000002ff924e298ee148df4"<br>}</pre>建立Workfront檔案時，您可以使用控制代碼並張貼至下列URL：
-<pre>POST /attask/api/&lt;supported-version&gt;/document？updates={<br>名稱： aFileName，<br>控制代碼： abc...123，（檔案上傳的控制代碼）<br> docObjCode： PROJ， （或TASK、OPTASK等）<br> objID： abc...123，<br> currentVersion：{version1.0，fileName：aFileName}<br></pre>
+<pre>POST /attask/api/&lt;supported-version&gt;/document？updates=&lbrace;<br>名稱： aFileName，<br>控制代碼： abc...123，（檔案上傳的控制代碼）<br> docObjCode： PROJ， （或TASK、OPTASK等）<br> objID： abc...123，<br> currentVersion：{version1.0，fileName：aFileName}<br></pre>
 
 ## PUT行為
 
@@ -527,7 +527,7 @@ PUT的回應與GET相同。 在這兩種情況下，伺服器都會在更新後�
 ### 進行巢狀更新
 
 有些物件擁有可以更新的私人擁有集合。 例如，下列範例示範如何覆寫指定任務的現有指派：
-<pre>PUT /attask/api/&lt;supported-version&gt;/task/4c7...？updates= <br>{<br>指派： [ <br> { <br> assignedToID： "2222...54d0， <br> assignmentPercent： 50.0 <br> }，{ <br> roleID： "1111...54d0"<br> } <br> ] <br></pre>
+<pre>PUT /attask/api/&lt;supported-version&gt;/task/4c7...？updates= <br>&lbrace;<br>指派： [ <br> { <br> assignedToID： "2222...54d0， <br> assignmentPercent： 50.0 <br> }，{ <br> roleID： "1111...54d0"<br> } <br> ] <br></pre>
 
 >[!NOTE]
 >
@@ -566,9 +566,9 @@ DELETE會移除物件。 在任何情況下，URI都可以包含引數force=true
 
 大量更新陳述式會在單一API呼叫中同時更新多個物件。 大量建立API呼叫的建置方式與一般更新呼叫類似，如下列範例所示：
 <pre>PUT /attask/api/&lt;supported-version&gt;/proj？updates=[{"name"："Test_Project_1"}，{"name"："Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>或 <pre>推播/attask/api/&lt;supported-version&gt;/proj？updates=[{"name"："Test_Project_1"}，{"name"："Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>會傳回類似下列的內容：
-<pre>資料： [{<br> ID： "53ff8d3d003b438b57a8a784df38f6b3"，<br>名稱： "Test_Project_1"，<br>物件代碼： "PROJ"，<br>百分比完成： 0，<br>計畫完成日期： "2014-08-28T11:00:00:000-0400"，<br> plannedStartDate： "2014-08-28T11:00:00:000-0400"，<br>優先順序： 0，<br>預計完成日期： "2014-08-28T16:12:00:000-0400"，<br>狀態： "CUR"<br>}，<br>{<br> ID： 「53ff8d49003b43a2562aa34eea3b6b10」，<br>名稱：「Test_Project_2」，<br>對象代碼：「PROJ」，<br>完成百分比： 0usi，<br>計畫完成日期：「2014-08-28T11:00:00:000-0400」，<br>計劃開始日期「2014-08-28T11:00:00:000-0400」，<br>優先順序： 0，<br>預計完成日期：「2014-08-28T16:12:00:000-0400」，<br>狀態：「CUR」<br>]</pre>您也可以進行類似下列的大量更新：
+<pre>資料： [{<br> ID： "53ff8d3d003b438b57a8a784df38f6b3"，<br>名稱： "Test_Project_1"，<br>物件代碼： "PROJ"，<br>百分比完成： 0，<br>計畫完成日期： "2014-08-28T11:00:00:000-0400"，<br> plannedStartDate： "2014-08-28T11:00:00:000-0400"，<br>優先順序： 0，<br>預計完成日期： "2014-08-28T16:12:00:000-0400"，<br>狀態： "CUR"<br>}，<br>&lbrace;<br> ID： 「53ff8d49003b43a2562aa34eea3b6b10」，<br>名稱：「Test_Project_2」，<br>對象代碼：「PROJ」，<br>完成百分比： 0usi，<br>計畫完成日期：「2014-08-28T11:00:00:000-0400」，<br>計劃開始日期「2014-08-28T11:00:00:000-0400」，<br>優先順序： 0，<br>預計完成日期：「2014-08-28T16:12:00:000-0400」，<br>狀態：「CUR」<br>]</pre>您也可以進行類似下列的大量更新：
 <pre>PUT /attask/api/&lt;supported-version&gt;/proj？Umethod=PUT&amp;updates=[{"ID"："123abcxxxxxxxxxxxxxxxxxxxxxxxx"，"name"："Test_Project_1_ Edit"}，{"ID"："123abcxxxxxxxxxxxxxxxxxxxxxxxx"，"name"："Test_Project_2_Edit"}]&amp;apiKey=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>會傳回類似下列的內容：
-<pre>資料： [ {<br> ID： "53ff8e15003b461d4560f7f65a440078"，<br>名稱： "Test_Project_1_Edit"，<br>物件代碼： "PROJ"，<br>百分比完成： 0，<br>計畫完成日期： "2014-08-28T11:00:00:000-0400"，<br>計劃開始日期： 「2014-08-28T11:00:00:000-0400」，<br>優先順序：0，<br>預計完成日期：「2014-08-28T16:16:00:000-0400」，<br>狀態：「CUR」<br>}，<br>{<br> ID： 「53ff8e19003b46238a58d303608de502」，<br>名稱：「Test_Project_2_Edit」，<br>對象代碼：「PROJ」，<br>完成百分比： 0，<br>計畫完成日期：「2014-08-28T11:00:00:000-0400」，<br>計劃開始日期：「2018」 t11:00:00:000-0400"，<br>優先順序： 0，<br>預計完成日期： "2014-08-28T16:16:00:000-0400"，<br>狀態： "CUR"<br>]</pre>如果您希望所有作業都發生在相同交易中，請將"atomic=true"新增至批次API呼叫，作為請求引數。 如此一來，如果有任何作業失敗，所有作業都會回覆。
+<pre>資料： [ {<br> ID： "53ff8e15003b461d4560f7f65a440078"，<br>名稱： "Test_Project_1_Edit"，<br>物件代碼： "PROJ"，<br>百分比完成： 0，<br>計畫完成日期： "2014-08-28T11:00:00:000-0400"，<br>計劃開始日期： 「2014-08-28T11:00:00:000-0400」，<br>優先順序：0，<br>預計完成日期：「2014-08-28T16:16:00:000-0400」，<br>狀態：「CUR」<br>}，<br>&lbrace;<br> ID： 「53ff8e19003b46238a58d303608de502」，<br>名稱：「Test_Project_2_Edit」，<br>對象代碼：「PROJ」，<br>完成百分比： 0，<br>計畫完成日期：「2014-08-28T11:00:00:000-0400」，<br>計劃開始日期：「2018」 t11:00:00:000-0400"，<br>優先順序： 0，<br>預計完成日期： "2014-08-28T16:16:00:000-0400"，<br>狀態： "CUR"<br>]</pre>如果您希望所有作業都發生在相同交易中，請將"atomic=true"新增至批次API呼叫，作為請求引數。 如此一來，如果有任何作業失敗，所有作業都會回覆。
 
 >[!NOTE]
 >

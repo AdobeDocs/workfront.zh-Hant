@@ -57,8 +57,8 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[！UICONTROL標準]</p>
-       <p>[！UICONTROL計畫]</p></td>
+   <td><p>[!UICONTROL 標準]</p>
+       <p>[!UICONTROL 計畫]</p></td>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
@@ -90,7 +90,7 @@ ht-degree: 3%
 * 專案中的[!UICONTROL 新增指派至Kanban面板]對話方塊
 * 當有人使用[!DNL Adobe Workfront Scenario Planner]時，計畫或方案的[!UICONTROL 工作角色]欄位。
 
-  [!DNL Scenario Planner]僅在新的[!DNL Adobe Workfront]體驗中可用，而且需要額外的授權。 如需[!DNL Workfront Scenario Planner]的相關資訊，請參閱[ [!DNL Scenario Planner] 概觀](../../../scenario-planner/scenario-planner-overview.md)。
+  [!DNL Scenario Planner]僅在新的[!DNL Adobe Workfront]體驗中可用，而且需要額外的授權。 如需[!DNL Workfront Scenario Planner]的相關資訊，請參閱[&#x200B; [!DNL Scenario Planner] 概觀](../../../scenario-planner/scenario-planner-overview.md)。
 
 >[!TIP]
 >

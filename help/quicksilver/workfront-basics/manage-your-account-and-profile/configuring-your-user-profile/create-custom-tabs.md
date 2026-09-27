@@ -115,7 +115,7 @@ ht-degree: 4%
 
 ## 在物件的左側面板中顯示儀表板
 
-如需有關在物件下新增儀表板的詳細資訊，請參閱本文中Workfront物件或區域](#add-a-dashboard-in-the-left-panel-of-a-workfront-object-or-area)左側面板中的[[!UICONTROL 新增儀表板]小節。
+如需有關在物件下新增儀表板的詳細資訊，請參閱本文中Workfront物件或區域[&#128279;](#add-a-dashboard-in-the-left-panel-of-a-workfront-object-or-area)左側面板中的[!UICONTROL 新增儀表板]小節。
 
 當您將儀表板新增到物件的左側面板時，該物件會充當儀表板的濾鏡。 例如，如果您在控制面板上新增任務報告，並將控制面板新增至專案，控制面板只會顯示您正在檢視的專案任務。
 

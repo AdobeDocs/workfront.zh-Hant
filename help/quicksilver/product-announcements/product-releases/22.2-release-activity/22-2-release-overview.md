@@ -638,7 +638,7 @@ Workfront Fusion中的新功能可在22.2版發行排程以外的步調中提供
 
 針對API版本14，我們已修改一些資源和端點。 有些變更支援新功能，有些則讓您更輕鬆地透過API使用可用資訊。
 
-如需新增和更新的詳細資訊，請參閱[ API 14](../../../wf-api/api/new-api-version-14.md)版的新增功能。
+如需新增和更新的詳細資訊，請參閱[&#x200B; API 14](../../../wf-api/api/new-api-version-14.md)版的新增功能。
 
 如需API版本的資訊，請參閱[API版本設定與支援排程](../../../wf-api/api/api-version-support-schedule.md)。
 
@@ -648,7 +648,7 @@ Workfront Fusion中的新功能可在22.2版發行排程以外的步調中提供
 
 ## 22.2版本網路研討會
 
-Workfront 22.2版本網路研討會將於2022年3月24日上午8:00 （山區標準時間）舉行。 您可以在Workfront One](https://webinars.on24.com/adobe_workfront/WF22point2?partnerref=WFOne)的[事件頁面上註冊此事件。
+Workfront 22.2版本網路研討會將於2022年3月24日上午8:00 （山區標準時間）舉行。 您可以在Workfront One[&#128279;](https://webinars.on24.com/adobe_workfront/WF22point2?partnerref=WFOne)的事件頁面上註冊此事件。
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">

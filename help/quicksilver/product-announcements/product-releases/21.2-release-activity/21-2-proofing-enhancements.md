@@ -53,7 +53,7 @@ ht-degree: 3%
 
 如需有關校訂決定的詳細資訊，請參閱[檔案區域](../../../documents/managing-documents/documents-area.md)。
 
-此功能現已包含在Workfront One上的新Workfront體驗](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home)學習路徑的[管理校訂和版本中。
+此功能現已包含在Workfront One上的新Workfront體驗[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home)學習路徑的管理校訂和版本中。
 
 ## 校訂核准報告的新欄位
 

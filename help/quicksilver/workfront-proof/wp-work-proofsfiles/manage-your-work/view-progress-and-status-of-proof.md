@@ -157,7 +157,7 @@ Workfront Proof使用進度圖示來追蹤校訂在下列每個層級的進度�
 
 >[!NOTE]
 >
->您編輯校訂詳細資訊的能力取決於您對校訂的許可權（請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔和 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中的[管理校訂角色）。
+>您編輯校訂詳細資訊的能力取決於您對校訂的許可權（請參閱 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔和 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中的管理校訂角色）。
 
 ![summary_details_3.png](assets/summary-details-3-350x160.png)
 
@@ -173,11 +173,11 @@ Workfront Proof使用進度圖示來追蹤校訂在下列每個層級的進度�
 
 >[!NOTE]
 >
->這些選項的可用性取決於您對校訂的許可權（請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔和 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中的[管理校訂角色）。
+>這些選項的可用性取決於您對校訂的許可權（請參閱 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔和 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中的管理校訂角色）。
 
 ![Stage_actions_menu.png](assets/stage-actions-menu-350x161.png)
 
-在「摘要」區段中，只要您擁有校訂的編輯許可權，即可存取檢閱者動作功能表。 如需詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔和 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中的[管理校訂角色。 當您將滑鼠停留在複查者的詳細資訊上時，複查者動作功能表(1)會出現，並可讓您：
+在「摘要」區段中，只要您擁有校訂的編輯許可權，即可存取檢閱者動作功能表。 如需詳細資訊，請參閱 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔和 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中的管理校訂角色。 當您將滑鼠停留在複查者的詳細資訊上時，複查者動作功能表(1)會出現，並可讓您：
 
 * 傳送訊息給稽核者(2)
 * 編輯稽核者的詳細資訊(3) — 可讓您編輯該稽核者的顯示名稱、校樣角色和電子郵件警報
@@ -187,7 +187,7 @@ Workfront Proof使用進度圖示來追蹤校訂在下列每個層級的進度�
 
 >[!NOTE]
 >
->這些選項的可見性取決於您在校訂上的許可權（請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔和 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中的[管理校訂角色）。
+>這些選項的可見性取決於您在校訂上的許可權（請參閱 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔和 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中的管理校訂角色）。
 
 ![Reviewer_actions_menu.png](assets/reviewer-actions-menu-350x135.png)
 
@@ -211,7 +211,7 @@ Workfront Proof使用進度圖示來追蹤校訂在下列每個層級的進度�
 
 >[!NOTE]
 >
->這些選項的可用性取決於您對校訂的許可權（請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔和 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中的[管理校訂角色）。
+>這些選項的可用性取決於您對校訂的許可權（請參閱 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔和 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中的管理校訂角色）。
 
 如需有關在[!DNL Workfront]內檢視校訂進度和狀態的資訊，請參閱[檢視進度與狀態](#viewing-progress-and-status)。
 

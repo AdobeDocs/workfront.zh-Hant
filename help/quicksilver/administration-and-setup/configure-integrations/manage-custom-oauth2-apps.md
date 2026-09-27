@@ -123,7 +123,7 @@ ht-degree: 2%
 >您無法檢視使用者端密碼本身。 如果您遺失使用者端密碼，您必須刪除密碼並建立新的密碼。
 >
 >* 若要刪除使用者端密碼，請參閱本文中的[刪除使用者端密碼](#delete-client-secret)。
->* 若要建立新的使用者端密碼，請參閱[在[建立OAuth2應用程式](../../administration-and-setup/configure-integrations/create-oauth-application.md)整合的OAuth2應用程式](../../administration-and-setup/configure-integrations/create-oauth-application.md#create)。 [!DNL Workfront] 
+>* 若要建立新的使用者端密碼，請參閱[&#128279;](../../administration-and-setup/configure-integrations/create-oauth-application.md#create)在[建立OAuth2應用程式](../../administration-and-setup/configure-integrations/create-oauth-application.md)整合的OAuth2應用程式。 [!DNL Workfront] 
 >
 
 {{step-1-to-setup}}

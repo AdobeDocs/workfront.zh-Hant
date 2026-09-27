@@ -170,7 +170,7 @@ Adobe Workfront中的快照可讓您快速準確地檢視快照（在特定日�
 
 1. 按一下清單上方的&#x200B;**欄**。
 
-   快照清單](assets/hide-display-columns-on-snapshot.png)的![資料行
+   快照清單![&#128279;](assets/hide-display-columns-on-snapshot.png)的資料行
 
 1. 使用切換來顯示或隱藏清單中的欄。
 1. 若要重新排序欄，請按一下&#x200B;**拖曳**&#x200B;圖示![拖曳圖示](assets/drag-icon.png)並將欄移至您想要的位置。 移動欄會自動變更清單。
@@ -211,7 +211,7 @@ Adobe Workfront中的快照可讓您快速準確地檢視快照（在特定日�
 
    快照上的![檢視功能表](assets/views-on-snapshot-list.png)
 
-1. （視條件而定）若要新增檢視，請輸入檢視的名稱，然後按一下[建立]。****
+1. （視條件而定）若要新增檢視，請輸入檢視的名稱，然後按一下[建立]。**&#x200B;**
 1. （選用）隱藏、顯示或重新排列欄。 如需詳細資訊，請參閱[自訂清單中的欄](#customize-columns-in-a-list)。
 1. （選用）篩選清單。 如需詳細資訊，請參閱[篩選清單](#filter-items-in-a-list)中的專案。
 

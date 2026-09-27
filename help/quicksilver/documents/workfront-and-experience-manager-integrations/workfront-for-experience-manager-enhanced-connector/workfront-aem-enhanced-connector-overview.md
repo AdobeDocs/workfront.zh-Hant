@@ -80,5 +80,5 @@ Adobe Workfront是工作管理應用程式，協助您在一個地方管理整�
 
 ## 更多相關資訊
 
-* 適用於Adobe Experience Manager](https://business.adobe.com/products/workfront/aem-integration.html)的[Workfront概觀
+* 適用於Adobe Experience Manager[&#128279;](https://business.adobe.com/products/workfront/aem-integration.html)的Workfront概觀
 * [適用於Experience Manager Assets Essentials的Adobe Workfront](../../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
