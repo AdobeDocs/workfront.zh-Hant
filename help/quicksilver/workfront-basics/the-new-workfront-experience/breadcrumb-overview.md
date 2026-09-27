@@ -6,18 +6,21 @@ feature: Get Started with Workfront
 exl-id: c4103f8e-4c3f-4d4d-a0eb-628c60735ab7
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/VryLEVTqJFgAxlm-al5y0hqxVQ71zFPi8YG1oAlox8k
+TQID: 'https://experienceleague.adobe.com/VryLEVTqJFgAxlm-al5y0hqxVQ71zFPi8YG1oAlox8k'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 5b445284b2d7445ae2119c546244a45ac17d8c97
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 412
+source-wordcount: '412'
 ht-degree: 0%
-
 ---
-
 # 階層連結概觀
 
 階層連結會顯示所有物件型別的完整導覽階層。 階層連結路徑中的每個物件都有顯示物件型別的標籤。 您目前所在的頁面會以斜體顯示在頁首和階層連結路徑結尾。 在以下範例中，這是「[!UICONTROL 與品牌團隊共用]」任務。

@@ -8,26 +8,33 @@ feature: Work Management, Strategic Planning
 exl-id: de9abb4e-0bf2-4673-8be1-3f0f35e17eaf
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/q6M40TAi0neyQeBEVKvQF1nARaiIfOWHycIkh0eWYMg
+TQID: 'https://experienceleague.adobe.com/q6M40TAi0neyQeBEVKvQF1nARaiIfOWHycIkh0eWYMg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 9e23143e-3f4f-5cbb-821d-095a63bee200
+    internal-label: Strategic Planning
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 139
+source-wordcount: '139'
 ht-degree: 9%
-
 ---
-
 # 找到[!UICONTROL Portfolio最佳化工具]
 
 存取投資組合時，可以找到[!UICONTROL Portfolio Optimizer]。
@@ -48,16 +55,16 @@ ht-degree: 9%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>[!UICONTROL 標準]</p>
-   <p>[!UICONTROL 計畫]</p> </td> 
+   <td> <p>[！UICONTROL標準]</p>
+   <p>[！UICONTROL計畫]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL Edit]對[!UICONTROL Portfolios]和[!UICONTROL Projects]的存取權</p>  </td>
+   <td> <p>[！UICONTROL Edit]對[！UICONTROL Portfolios]和[！UICONTROL Projects]的存取權</p>  </td>
 </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合的[!UICONTROL Manage]許可權</p>  </td> 
+   <td> <p>投資組合的[！UICONTROL Manage]許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>

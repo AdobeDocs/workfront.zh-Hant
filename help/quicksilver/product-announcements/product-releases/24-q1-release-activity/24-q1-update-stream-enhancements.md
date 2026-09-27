@@ -5,13 +5,20 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 837b5a23-162d-4862-b6fd-be3048ab0269
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
-
 ---
-
 # 2024年第一季度更新流和通知增強功能
 
 本頁說明2024年第一季度版本對預覽環境所做的所有更新流和通知增強功能。 這些增強功能將在2024年第一季度版本的生產環境中提供。
@@ -40,7 +47,7 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
-[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3425730/){target=_blank}
+[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3425730/){target=_blank}
 
 ## 在更新區段的註解中複製並貼上影像
 
@@ -50,4 +57,4 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
-[觀看此功能的影片示範。](https://video.tv.adobe.com/v/3425731/){target=_blank}
+[觀看此功能的示範影片。](https://video.tv.adobe.com/v/3425731/){target=_blank}

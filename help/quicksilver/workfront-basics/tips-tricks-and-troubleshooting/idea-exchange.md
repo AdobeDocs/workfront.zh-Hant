@@ -6,20 +6,24 @@ description: '[!UICONTROL 創新實驗室]可讓已驗證身分的使用者提�
 feature: Get Started with Workfront
 author: Becky
 exl-id: 4775ece1-2841-4acc-b3f0-66cd2783669f
-TQID: https://experienceleague.adobe.com/rtb0famKLxMSXQUT5AHUFqqMsp8S5-v83hTwN-IZ9uA
+TQID: 'https://experienceleague.adobe.com/rtb0famKLxMSXQUT5AHUFqqMsp8S5-v83hTwN-IZ9uA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 437
+source-wordcount: '437'
 ht-degree: 3%
-
 ---
-
 # 創新實驗室
 
 [!UICONTROL 創新實驗室]可讓已驗證身分的使用者提交、投票及與其他客戶討論想法。
@@ -32,7 +36,7 @@ ht-degree: 3%
 
 投票支援一個想法：
 
-1. 登入下列URL之[!DNL Adobe Experience League]網站上的[!DNL Adobe Workfront]社群： [[!DNL Adobe Workfront] 社群](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=zh-Hant)。
+1. 登入下列URL之[!DNL Adobe Experience League]網站上的[!DNL Adobe Workfront]社群： [[!DNL Adobe Workfront] 社群](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)。
 
 1. 按一下「**[!UICONTROL 想法]**」標籤。
 
@@ -55,4 +59,4 @@ ht-degree: 3%
 * **[!UICONTROL 已傳遞]：**&#x200B;已建立並傳遞解決方案。 將不會提供進一步的更新，且將停用評論。
 * **[!UICONTROL 已封存]**：達到第18個月標籤（從提交日期算起）且分數少於300點的創意將會封存。
 
-若要開始使用或瞭解更多資訊，請登入[創新實驗室](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=zh-Hant)。
+若要開始使用或瞭解更多資訊，請登入[創新實驗室](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)。

@@ -10,26 +10,33 @@ recommendations: noDisplay, noCatalog
 exl-id: 4048f8b5-70e2-4d63-ae64-a4fbf91a57df
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/YwQRzexSfJWorc-GxqUoGQsMyb40xxW-X4N5j09Zo-w
+TQID: 'https://experienceleague.adobe.com/YwQRzexSfJWorc-GxqUoGQsMyb40xxW-X4N5j09Zo-w'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1397
+source-wordcount: '1397'
 ht-degree: 2%
-
 ---
-
 # 21.1管理員增強功能
 
 本頁說明21.1版對「預覽」環境所做的所有管理員增強功能。 這些增強功能將在2021年2月15日當週的生產環境中提供。
@@ -46,7 +53,7 @@ ht-degree: 2%
 
 如需有關複製專案的資訊，請參閱[複製專案](../../../manage-work/projects/manage-projects/copy-project.md)。
 
-此功能現在包含在新Workfront體驗第1部分：使用者組織[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home)的Workfront One學習路徑的管理員基礎課程中。
+此功能現在包含在新Workfront體驗第1部分：使用者組織](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home)的Workfront One學習路徑的[管理員基礎課程中。
 
 ## 在物件的自訂表單中，選取多選下拉式欄位中的所有專案
 
@@ -78,7 +85,7 @@ Adobe Workfront管理員現在可以解鎖個別任務和問題偏好設定，�
 
 如需詳細資訊，請參閱[設定群組的任務和問題偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)。
 
-此功能現在包含在新Workfront Experience第2部分：專案設定[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home)的Workfront One學習路徑的管理員基礎課程中。
+此功能現在包含在新Workfront Experience第2部分：專案設定](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home)的Workfront One學習路徑的[管理員基礎課程中。
 
 ## 分別設定投資組合和計畫的存取層級設定
 
@@ -90,7 +97,7 @@ Adobe Workfront管理員現在可以解鎖個別任務和問題偏好設定，�
 
 如需您可以為程式與產品組合設定的存取設定相關資訊，請參閱[每個物件型別可設定的功能存取權](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)。
 
-此功能現在包含在新Workfront體驗第1部分：使用者組織[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home)的Workfront One學習路徑的管理員基礎課程中。
+此功能現在包含在新Workfront體驗第1部分：使用者組織](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home)的Workfront One學習路徑的[管理員基礎課程中。
 
 ## 在自訂表單中編輯資訊時，選取序列中的所有核取方塊
 
@@ -123,7 +130,7 @@ Adobe Workfront管理員現在可以解鎖個別任務和問題偏好設定，�
 
 如需詳細資訊，請參閱文章[子群組總覽](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md)中的[子群組的群組管理員](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md#for)一節。
 
-此功能現在包含在新Workfront體驗第1部分：使用者組織[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home)的Workfront One學習路徑的管理員基礎課程中。
+此功能現在包含在新Workfront體驗第1部分：使用者組織](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home)的Workfront One學習路徑的[管理員基礎課程中。
 
 ## 設定群組的事件通知
 
@@ -141,7 +148,7 @@ Workfront管理員現在可以允許群組管理員為其最上層群組設定�
 * [檢視和設定群組的事件通知](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
 
 <!--
-This feature is now included in the [Administrator Fundamentals in the new Workfront experience, Part 1: User Organization](https://experienceleague.adobe.com/zh-hant/docs/workfront-learn/tutorials-workfront/home) learning path on Workfront One.
+This feature is now included in the [Administrator Fundamentals in the new Workfront experience, Part 1: User Organization](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) learning path on Workfront One.
 
 This feature is now included in the [Email and In-App Notifications in the new Workfront experience](https://experienceleague.adobe.com/en/docs/workfront/using/home://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-MCDSDH3SRJ4ZGTJF5NJI64F4TW2U) learning path on Workfront One.
 -->

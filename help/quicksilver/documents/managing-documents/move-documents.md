@@ -8,24 +8,31 @@ feature: Digital Content and Documents
 exl-id: 46039017-58b3-4e9d-8dcd-6e1f52d98d27
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/cltbYOyyPJM9NIkrHZqE3JqvIF94tvQXjatzAhcw1Es
+TQID: 'https://experienceleague.adobe.com/cltbYOyyPJM9NIkrHZqE3JqvIF94tvQXjatzAhcw1Es'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 434
+source-wordcount: '434'
 ht-degree: 5%
-
 ---
-
 # 移動檔案
 
 擁有檔案管理許可權的使用者可以將檔案移動到另一個物件。

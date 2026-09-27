@@ -2,23 +2,31 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: 下載儲存在 [!DNL Workfront Proof]中的檔案
+title: 下載儲存在[!DNL Workfront Proof]中的檔案
 description: 您可以從使用中、已鎖定和已封存的校訂將原始檔案下載到本機電腦。 然後，您可以在用來建立它們的軟體應用程式（如果您有應用程式）中列印和開啟它們。 您可以從單一校訂或多個校訂下載原始檔案。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: daf44b00-0c55-470e-a52b-2bb21a961699
-TQID: https://experienceleague.adobe.com/CpaeZRKMyMlBYasqoepthgAFTZQJ4gQlzfX-ou6E3k0
+TQID: 'https://experienceleague.adobe.com/CpaeZRKMyMlBYasqoepthgAFTZQJ4gQlzfX-ou6E3k0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 402
+source-wordcount: '402'
 ht-degree: 0%
-
 ---
-
 # 下載儲存在[!DNL Workfront Proof]中的檔案
 
 >[!IMPORTANT]
@@ -36,7 +44,7 @@ ht-degree: 0%
 1. 在清單或縮圖清單版面配置中，按一下列出校樣之列尾的&#x200B;**[!UICONTROL 更多]**&#x200B;按鈕。
 1. ![More_button_small.png](assets/more-button-small.png)
 
-1. 如果您需要這些配置的相關詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md)中[檢視]索引標籤上的頁面配置。
+1. 如果您需要這些配置的相關詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md)中[檢視]索引標籤上的[頁面配置。
 1. 在出現的功能表中按一下&#x200B;**[!UICONTROL 下載原始檔案]**。\
    您也可以在清單中選取校訂，按一下清單上方的&#x200B;**[!UICONTROL 更多]**&#x200B;按鈕，然後按一下&#x200B;**[!UICONTROL 下載]**。\
    您也可以下載檔案：

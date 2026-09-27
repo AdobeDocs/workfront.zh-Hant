@@ -6,18 +6,24 @@ description: Adobe Workfront檢閱工具是瀏覽器擴充功能，可讓您校�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
-TQID: https://experienceleague.adobe.com/jwZKladWxKsiSvAjO8me1BWoxMx1UDB2TKl7k-jnjcY
+TQID: 'https://experienceleague.adobe.com/jwZKladWxKsiSvAjO8me1BWoxMx1UDB2TKl7k-jnjcY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 646
+source-wordcount: '646'
 ht-degree: 1%
-
 ---
-
 # 使用Adobe Workfront稽核工具稽核互動式內容
 
 

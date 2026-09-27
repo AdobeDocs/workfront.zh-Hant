@@ -8,22 +8,26 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
-TQID: https://experienceleague.adobe.com/knyphSiLwqiL0f6swxeDmx7SI6KMqb3GqYbxE8fQbgI
+TQID: 'https://experienceleague.adobe.com/knyphSiLwqiL0f6swxeDmx7SI6KMqb3GqYbxE8fQbgI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 435
+source-wordcount: '456'
 ht-degree: 3%
-
 ---
-
 # 設定專案的時間表重新計算
 
 重新計算時間表可讓管理員檢視專案外的力量如何影響專案的時間表。 專案的時間表是指專案的計畫和預計日期。
@@ -46,12 +50,12 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p>
-       <p>[!UICONTROL 計畫]</p></td>
+   <td><p>[！UICONTROL標準]</p>
+       <p>[！UICONTROL計畫]</p></td>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td> 
+   <td>[！UICONTROL系統管理員]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -77,7 +81,7 @@ ht-degree: 3%
    * **專案範圍變更時**：如需有關構成專案範圍變更的資訊，請參閱[重新計算專案時間表](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)。
 
      在此情況下，[!DNL Workfront]會重新計算所有更新型別為[!UICONTROL 自動且僅於變更時]或[!UICONTROL 僅於變更時]的專案的時間表。
-如需有關專案更新型別的資訊，請參閱[專案更新型別總覽](../../../manage-work/projects/planning-a-project/project-update-type-overview.md)。
+     如需有關專案更新型別的資訊，請參閱[專案更新型別總覽](../../../manage-work/projects/planning-a-project/project-update-type-overview.md)。
 
 1. 按一下「**[!UICONTROL 儲存]**」。
 

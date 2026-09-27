@@ -8,26 +8,33 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-TQID: https://experienceleague.adobe.com/9fo3z6Jy3aEPYXJ9vYSbaqWCjwnq7vS-h067PtU9b-Y
+TQID: 'https://experienceleague.adobe.com/9fo3z6Jy3aEPYXJ9vYSbaqWCjwnq7vS-h067PtU9b-Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2612
+source-wordcount: '2612'
 ht-degree: 1%
-
 ---
-
 # 大量編輯使用者設定檔
 
 您可以大量編輯使用者帳戶。 當大量編輯使用者時，只有您特別選取的欄位會更新為所選的所有使用者提供相同的資訊。 您未選取的所有其他欄位，每位使用者都將維持不變，即使每位使用者各有不同。
@@ -87,7 +94,7 @@ ht-degree: 1%
 
   >[!NOTE]
   >
-  >當您的組織使用Adobe統一體驗時，使用者的語言偏好設定會儲存在其Adobe設定檔中，而不使用電子郵件地區設定。 如需有關存取這些偏好設定的資訊，請參閱[Workfront的Adobe Unified Experience &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+  >當您的組織使用Adobe統一體驗時，使用者的語言偏好設定會儲存在其Adobe設定檔中，而不使用電子郵件地區設定。 如需有關存取這些偏好設定的資訊，請參閱[Workfront的Adobe Unified Experience ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 ### 通知
 
@@ -123,11 +130,11 @@ ht-degree: 1%
 
   下列清單說明您在此欄位中可用的範本清單如何取決於您的存取權：
 
-   * 身為Workfront管理員，您可以檢視所有系統層級和群組層級的版面配置範本。
-   * 身為群組管理員，您可以檢視系統層級配置範本，以及與您管理的群組相關聯的配置範本。
-   * 作為具有Standard或Plan授權並擁有編輯使用者存取權的使用者，您只能看到系統層級的版面配置範本。
+  * 身為Workfront管理員，您可以檢視所有系統層級和群組層級的版面配置範本。
+  * 身為群組管理員，您可以檢視系統層級配置範本，以及與您管理的群組相關聯的配置範本。
+  * 作為具有Standard或Plan授權並擁有編輯使用者存取權的使用者，您只能看到系統層級的版面配置範本。
 
-     如需群組層級配置範本的詳細資訊，請參閱[建立和修改群組的配置範本](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)。
+    如需群組層級配置範本的詳細資訊，請參閱[建立和修改群組的配置範本](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)。
 
 ### 組織
 
@@ -140,9 +147,9 @@ ht-degree: 1%
 
   只有符合下列其中一項，您才能將群組指派給使用者：
 
-   * 您是Workfront管理員
-   * 您是群組的管理員
-   * 群組是公開的
+  * 您是Workfront管理員
+  * 您是群組的管理員
+  * 群組是公開的
 
 * **其他群組**：使用者可以屬於多個群組。 只有當您是Workfront管理員、您是群組管理員或群組為公用時，才能將群組指派給使用者。
 
@@ -211,9 +218,9 @@ ht-degree: 1%
 
   您在此欄位中可用的設定檔清單取決於您的存取權：
 
-   * 身為Workfront管理員，您可以檢視所有系統層級和所有群組層級的時程表設定檔。
-   * 作為群組管理員，您可以檢視系統層級的時程表設定檔，以及與您管理的群組相關聯的時程表設定檔。
-   * 作為具有標準或計畫授權並存取許可權以編輯使用者的使用者，您只能看到系統層級的時程表設定檔。 如需群組層級週期性時程表的詳細資訊，請參閱[建立、編輯和指派週期性時程表](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)。
+  * 身為Workfront管理員，您可以檢視所有系統層級和所有群組層級的時程表設定檔。
+  * 作為群組管理員，您可以檢視系統層級的時程表設定檔，以及與您管理的群組相關聯的時程表設定檔。
+  * 作為具有標準或計畫授權並存取許可權以編輯使用者的使用者，您只能看到系統層級的時程表設定檔。 如需群組層級週期性時程表的詳細資訊，請參閱[建立、編輯和指派週期性時程表](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)。
 
 * **預設小時型別**：為使用者選取預設小時型別。 這是使用者記錄時間時，預設使用的小時型別。
 * **可用時數型別**：選取使用者應該可用的時數型別。 這些小時型別在Workfront中任何使用者可記錄時間的位置都可見。 使用者只能看到在專案層級和使用者層級啟用的小時型別。 如需使用者可以使用哪些時數型別的詳細資訊，請參閱[定義時數型別和可用性](/help/quicksilver/timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)。
@@ -245,13 +252,13 @@ ht-degree: 1%
 
 * **成本費率**：使用者每小時的成本金額。
 
-  若要取得日期有效成本費率，請按一下[新增費率]。**&#x200B;** 輸入時間期間的成本費率值，並視需要指定「開始日期」與「結束日期」。 成本費率1不會有開始日期，而最後的成本費率不會有結束日期。
+  若要取得日期有效成本費率，請按一下[新增費率]。**** 輸入時間期間的成本費率值，並視需要指定「開始日期」與「結束日期」。 成本費率1不會有開始日期，而最後的成本費率不會有結束日期。
 
   部分日期會自動新增。 例如，如果「成本費率1」沒有結束日期，而您新增了開始日期為2023年5月1日的「成本費率2」，則會將結束日期為2023年4月30日的成本費率新增至「成本費率1」，因此不會出現間隙。
 
 * **收費率**：使用者每小時的收費金額。
 
-  若要取得日期有效收費率，請按一下[新增費率]。**&#x200B;** 輸入時間期間的帳單費率值，並視需要指定「開始日期」與「結束日期」。 帳單費率1不會有開始日期，而最後的帳單費率不會有結束日期。
+  若要取得日期有效收費率，請按一下[新增費率]。**** 輸入時間期間的帳單費率值，並視需要指定「開始日期」與「結束日期」。 帳單費率1不會有開始日期，而最後的帳單費率不會有結束日期。
 
   部分日期會自動新增。 例如，如果「收費率1」沒有結束日期，而您新增了開始日期為2023年5月1日的第二個日期，則結束日期為2023年4月30日的日期會新增至「收費率1」，因此不存在間隔。
 

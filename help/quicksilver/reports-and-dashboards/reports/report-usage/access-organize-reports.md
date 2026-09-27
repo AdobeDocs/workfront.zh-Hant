@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/hvZKawl62R2rFe-C8gligDHZH-rKLDzEt1SYyhE7xIM
+TQID: 'https://experienceleague.adobe.com/hvZKawl62R2rFe-C8gligDHZH-rKLDzEt1SYyhE7xIM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 469
+source-wordcount: '469'
 ht-degree: 4%
-
 ---
-
 # 存取及組織報告
 
 您可以使用Adobe Workfront中的報表來檢閱或編輯系統中物件的相關資訊。 您可以建立自己的報表、組織您建立的報表，以及檢視與您共用或公開共用的報表。
@@ -71,7 +76,7 @@ ht-degree: 4%
 1. 根據您要檢視的報表，按一下下列任一選項：
 
    * 按一下&#x200B;**我的報告**&#x200B;以檢視您已建立的報告。
-   * 按一下「與我共用」**&#x200B;**&#x200B;以檢視其他人與您共用的報告。
+   * 按一下「與我共用」****&#x200B;以檢視其他人與您共用的報告。
    * 按一下&#x200B;**所有報告**&#x200B;以檢視您已建立的報告以及與您共用或公開共用的報告。
 
 ## 組織您建立的報告

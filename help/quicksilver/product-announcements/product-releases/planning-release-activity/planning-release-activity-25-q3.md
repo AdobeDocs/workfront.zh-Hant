@@ -9,23 +9,29 @@ recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/R45hY-jNAlCSwIy-070BRL78-altmrnFIL1yNxxPrz8
+TQID: 'https://experienceleague.adobe.com/R45hY-jNAlCSwIy-070BRL78-altmrnFIL1yNxxPrz8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2290
+source-wordcount: '2426'
 ht-degree: 0%
-
 ---
-
 # Adobe Workfront Planning 2025年第三季度發行活動
 
 本文介紹2025年第三季度發行中針對Workfront Planning所推出的功能。
@@ -38,7 +44,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2025年7月10日>所有人生產： 2025年7月10日>[!BADGE 取消排程]{type=Neutral}
+>預覽： 2025年7月10日
+>適用於所有人的生產： 2025年7月10日
+>[!BADGE 不在排程]{type=Neutral}內
 
 
 在建立或編輯記錄型別時，我們已更新「進階設定」索引標籤。
@@ -54,7 +62,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2025年7月10日>所有人生產： 2025年7月10日>[!BADGE 取消排程]{type=Neutral}
+>預覽： 2025年7月10日
+>適用於所有人的生產： 2025年7月10日
+>[!BADGE 不在排程]{type=Neutral}內
 
 現在，當您在Workfront Planning中將團隊新增到記錄評論時，團隊的所有成員都會收到有關評論的應用程式內通知和電子郵件通知。 在此增強功能之前，只有個別新增到評論的使用者會收到通知。
 
@@ -64,7 +74,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2025年7月10日>生產快速版本： 2025年8月14日>每個人都生產： 2025年10月16日
+>預覽： 2025年7月10日
+>生產快速發行： 2025年8月14日
+>適用於所有人的生產： 2025年10月16日
 
 
 現在，當您已將群組套用至表格檢視時，將記錄新增至表格將會自動填入與您將記錄新增至的群組相關聯的欄位。
@@ -79,7 +91,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2025年7月9日>每個人的生產： 2025年7月17日
+>預覽： 2025年7月9日
+>適用於所有人的生產： 2025年7月17日
 
 您現在可以從記錄型別頁面上的相同按鈕共用檢視和記錄型別。 在此增強功能之前，您只能從記錄型別頁面上的「共用」按鈕和檢視索引標籤的檢視共用記錄型別。
 
@@ -116,18 +129,18 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 * 我們已將「共用表單」對話方塊分隔為內部共用（選取共用對象）和公開共用（建立共用連結）。
 * 您現在可以將申請表單與以下專案共用：
 
-   * 使用者
-   * 團隊
-   * 群組
-   * 公司
-   * 職務角色
+  * 使用者
+  * 團隊
+  * 群組
+  * 公司
+  * 職務角色
 
   之前，您只能根據工作區存取權或共用連結來共用。
 * 我們已移除要求表單的繼承許可權。 現在，請求表單僅與您選取的人共用。
 * 我們已針對您共用請求表單的使用者移除管理和貢獻選項。 現在，新增的使用者只能提交表單。
 * 在啟用「建立公開連結」選項後，「公開共用」索引標籤現在會顯示連結和到期日欄位。
 
-如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)。
+如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form)。
 
 ## 展開和摺疊表格檢視中的所有群組
 
@@ -153,7 +166,8 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >[!NOTE]
 >
 >* 預覽： 2025年6月26日
->* 所有人的生產時間： 2025年6月26日>[!BADGE 排程中斷]{type=Neutral}
+>* 每個人都要生產： 2025年6月26日
+>[!BADGE 不在排程]{type=Neutral}內
 
 現在，當您連線記錄型別並將公式欄位作為查詢時，可以根據公式欄位的格式套用彙總函式（SUM、AVERAGE、MIN、MAX等）。 例如，如果公式欄位是數字，您可以使用SUM或AVG之類的函式；如果公式欄位的格式為文字，則不會應用SUM之類的彙總函式。
 
@@ -188,7 +202,8 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >[!NOTE]
 >
 >* 預覽： 2025年6月12日
->* 所有人的生產時間： 2025年6月12日>[!BADGE 排程中斷]{type=Neutral}
+>* 每個人都要生產： 2025年6月12日
+>[!BADGE 不在排程]{type=Neutral}內
 
 我們引進了一項改進，手動更新參考欄位後，可同時更新所有相互依賴的公式欄位。 與手動變更值的欄位相距2、3或4個欄位且彼此參照的公式欄位現在將自動同時更新。
 
@@ -201,7 +216,8 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >[!NOTE]
 >
 >* 預覽： 2025年6月6日
->* 所有客戶的生產： 2025年6月6日>[!BADGE 排程中斷]{type=Neutral}
+>* 適用於所有客戶的生產： 2025年6月6日
+>[!BADGE 不在排程]{type=Neutral}內
 
 我們在公式欄位中新增了下列運算式：
 
@@ -228,12 +244,12 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 * 依欄輸入，以指出新增請求的人員
 * 篩選條件可限制您在Planning標籤上檢視的請求數。 您可以依下列專案篩選清單：
 
-   * 請求表單源自的Workspace
-   * 與請求表單相關聯的記錄型別
-   * 請求的輸入日期
-   * 請求表單的名稱
-   * 請求的狀態
-   * 輸入請求的人員姓名。
+  * 請求表單源自的Workspace
+  * 與請求表單相關聯的記錄型別
+  * 請求的輸入日期
+  * 請求表單的名稱
+  * 請求的狀態
+  * 輸入請求的人員姓名。
 
 * 欄控制以檢視或隱藏「計畫請求」清單中的欄位（或欄）。
 
@@ -287,7 +303,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 
 * 匯出的資訊會考慮套用至Workfront Planning中表格檢視的篩選器、群組和排序。
 * 匯出的檔案不支援縮圖和自訂列顏色。  
-* 只會匯出Workfront介面中顯示的欄位。隱藏欄位不會匯出。  
+* 只會匯出Workfront介面中顯示的欄位。 隱藏欄位不會匯出。  
 
 如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)。 
 
@@ -343,7 +359,7 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 >[!NOTE]
 >
 >所有具有系統管理員和Standard授權的新使用者及現有使用者皆可看見此變更。
->指派給版面配置範本的現有使用者將會根據版面配置範本中定義的設定，繼續檢視所有內容。
+>指派給版面配置範本的現有使用者將根據版面配置範本中定義的設定繼續檢視所有內容。
 
 如需詳細資訊，請參閱[Adobe Workfront規劃總覽](/help/quicksilver/planning/access/access-overview.md)。
 

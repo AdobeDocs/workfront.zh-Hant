@@ -6,13 +6,17 @@ title: 將費率卡附加至範本
 description: 當您指定費率卡至範本時，費率卡會附加至從範本建立的所有專案。
 author: Lisa
 feature: Work Management
-source-git-commit: ace9a01e852e6d99ddc6f150c0ac34bd4ef44817
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 3%
-
 ---
-
 # 將費率卡附加至範本
 
 當您指定費率卡至範本時，費率卡會附加至從範本建立的所有專案。 費率卡會成為專案的預設值，但可視需求加以覆寫。
@@ -71,7 +75,7 @@ ht-degree: 3%
 1. 在「範本詳細資料>總覽>範本關聯」區段中，在&#x200B;**費率卡**&#x200B;欄位中選取費率卡。
 
    只有您有許可權的費率卡才可供選擇。
-您可以開始輸入費率卡的名稱，以縮小結果清單。
+   您可以開始輸入費率卡的名稱，以縮小結果清單。
 
    ![在範本上選取費率卡](assets/select-rate-card-on-template.png)
 

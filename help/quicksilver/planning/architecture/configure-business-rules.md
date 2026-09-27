@@ -5,13 +5,25 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 2ee576fa6d039bdbc4dcbf8bc27e4276790b0621
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1196'
 ht-degree: 1%
-
 ---
-
 
 # 設定記錄型別商業規則
 
@@ -105,7 +117,7 @@ ht-degree: 1%
    「商業規則」表格頁面隨即開啟。
 1. 按一下&#x200B;**新商業規則**。
 1. 在&#x200B;**新企業**&#x200B;規則方塊中，在第一個可用欄位中為企業規則新增名稱。 這是必填欄位
-1. （選用）新增說明以定義商業規則，然後按一下[儲存]。**&#x200B;**
+1. （選用）新增說明以定義商業規則，然後按一下[儲存]。****
 
    「商業規則設定」表單隨即開啟。
 
@@ -146,7 +158,7 @@ ht-degree: 1%
 
    在商業規則的&#x200B;**Then**&#x200B;區段中，您可以檢視規則功能的說明。
 
-1. 按一下[啟動]&#x200B;**&#x200B;**&#x200B;以啟用此記錄型別的規則，然後按一下[儲存]&#x200B;**&#x200B;**。
+1. 按一下[啟動]****&#x200B;以啟用此記錄型別的規則，然後按一下[儲存]****。
 
    規則會在您啟動後立即套用，而所有有權編輯或刪除所選記錄型別中記錄的使用者都必須遵循這些規則。
 1. （選擇性）按一下頁首中商業規則名稱的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，以開啟&#x200B;**規則詳細資料**&#x200B;方塊並更新商業規則的相關資訊。

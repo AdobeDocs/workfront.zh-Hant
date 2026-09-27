@@ -8,18 +8,21 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 6e0f3be7-5321-44bd-a404-d5bef1462d82
-TQID: https://experienceleague.adobe.com/KoMJXXZbDdywLGIwYTu7o8GigPxQ5RG6sNQpOTMHWY0
+TQID: 'https://experienceleague.adobe.com/KoMJXXZbDdywLGIwYTu7o8GigPxQ5RG6sNQpOTMHWY0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Developer
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 123
+source-wordcount: '123'
 ht-degree: 0%
-
 ---
-
 # 檔案Webhooks錯誤處理
 
 處理API請求時可能會出現問題。 所有API端點都應以一致的方式處理此問題。 發生錯誤時，webhook提供者應在回應標頭中包含錯誤代碼。 錯誤碼包括：

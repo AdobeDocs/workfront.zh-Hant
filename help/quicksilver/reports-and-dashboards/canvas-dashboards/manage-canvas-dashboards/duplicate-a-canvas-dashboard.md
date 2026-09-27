@@ -5,13 +5,17 @@ title: 複製畫布控制面板
 description: 您可以複製畫布控制面板以建立其變體，例如對象特定副本，而無需從頭開始重建。
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: b66f6931ee2fe83688fb8910861af6e958d1f74f
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 4%
-
 ---
-
 # 複製畫布控制面板
 
 {{highlighted-preview-article-level}}
@@ -97,7 +101,7 @@ ht-degree: 4%
 1. （選擇性）在&#x200B;**儀表板詳細資料**&#x200B;索引標籤上，更新新儀表板的&#x200B;**描述**&#x200B;或&#x200B;**貨幣**。
    ![複製儀表板 — 儀表板詳細資訊標籤](assets/duplicate-details.png)
 
-1. （選擇性）按一下&#x200B;**介面工具集**&#x200B;標籤，然後取消選取您不想要包含在重複儀表板中的任何介面工具集。
+1. （選擇性）按一下&#x200B;**介面工具集**標籤，然後取消選取您不想要包含在重複儀表板中的任何介面工具集。
    ![複製儀表板 — Widget標籤](assets/copy-widgets.png)
 
 1. （選擇性）按一下&#x200B;**篩選和提示**&#x200B;標籤，然後關閉&#x200B;**複製儀表板篩選器**&#x200B;或&#x200B;**複製儀表板提示**，以將其從重複儀表板中排除。

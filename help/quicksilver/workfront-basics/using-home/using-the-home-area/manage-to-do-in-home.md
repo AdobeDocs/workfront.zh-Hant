@@ -6,13 +6,22 @@ description: 您可以從[!UICONTROL 首頁]區域建立個人待辦事項。
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 247085a7-bb9e-4468-b496-d81e02f2de00
-source-git-commit: 29c82cd8265f3d05f4ae241c5c723a4ab09a6504
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 0%
-
+source-wordcount: '394'
+ht-degree: 4%
 ---
-
 # 建立和管理個人的待辦事項
 
 您可以在[!UICONTROL 首頁]區域的待辦事項Widget中建立個人待辦事項。 待辦事項是您為自己建立的個人任務。
@@ -23,9 +32,9 @@ ht-degree: 0%
 >
 >您從使用者設定檔頁面傳送給其他使用者或您自己的工作專案，也會顯示在使用者首頁區域的待辦事項Widget中。 如需詳細資訊，請參閱[建立個人工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,7 +48,7 @@ ht-degree: 0%
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 授權</strong></td> 
    <td> 
    <p>標準</p>
-   <p>工作或更高</p> </td> 
+   <p>工作或更高層級</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定</strong></td> 
@@ -47,7 +56,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>[!UICONTROL Edit]或更新的任務存取權</p> </td> 
+   <td> <p>[！UICONTROL Edit]或更新的任務存取權</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,7 +68,7 @@ ht-degree: 0%
 ## 建立待辦事項
 
 1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![](assets/main-menu-icon.png)，或左上角的&#x200B;**主功能表** ![](assets/lines-main-menu.png) （如果可用），然後按一下&#x200B;**[!UICONTROL 首頁]**。
-1. （視條件而定）按一下「自訂」**&#x200B;**，然後按一下「待辦事項」**&#x200B;**，將待辦事項Widget新增至您的主畫面。
+1. （視條件而定）按一下「自訂」****，然後按一下「待辦事項」****，將待辦事項Widget新增至您的主畫面。
 1. 移至&#x200B;**待辦事項** Widget，然後按一下&#x200B;**新增待辦事項**。
 1. 輸入個人待辦事項的名稱，然後按一下「輸入」。
 1. （選擇性）按一下&#x200B;**日期**&#x200B;圖示![](assets/date-icon.png)以新增專案的到期日。
@@ -71,7 +80,7 @@ ht-degree: 0%
 ## 管理待辦事項
 
 1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![](assets/main-menu-icon.png)，或左上角的&#x200B;**主功能表** ![](assets/lines-main-menu.png) （如果可用），然後按一下&#x200B;**[!UICONTROL 首頁]**。
-1. （視條件而定）按一下「自訂」**&#x200B;**，然後按一下「待辦事項」**&#x200B;**，將待辦事項Widget新增至您的主畫面。
+1. （視條件而定）按一下「自訂」****，然後按一下「待辦事項」****，將待辦事項Widget新增至您的主畫面。
 1. 移至&#x200B;**待辦事項** Widget，然後執行下列任一動作：
    1. 若要編輯待辦事項的名稱，請按一下名稱空間並進行變更。
    1. 若要變更待辦事項的到期日，請按一下「行事曆」圖示或輸入新日期。

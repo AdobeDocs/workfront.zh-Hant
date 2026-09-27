@@ -5,18 +5,24 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: df24d13e-d9ff-4c04-8669-9e0b6e4f6501
-TQID: https://experienceleague.adobe.com/ulNcq0pM3iF92IAHGiB0-zpPYiRoUkyG2idj-rtJoRg
+TQID: 'https://experienceleague.adobe.com/ulNcq0pM3iF92IAHGiB0-zpPYiRoUkyG2idj-rtJoRg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 208
+source-wordcount: '208'
 ht-degree: 0%
-
 ---
-
 # 23.3專案增強功能
 
 本頁說明23.3版本的所有專案增強功能。 這些增強功能已在2023年7月20日和21日的23.3版本中在生產環境中提供。
@@ -39,4 +45,4 @@ ht-degree: 0%
 
 已從專案、任務和問題的更多選單中提取「共用」選項，以讓共用更直覺。 新的「共用」按鈕現在顯示在「更多」功能表之前的物件名稱旁。 共用檔案、專案組合和方案維持不變。
 
-如需共用物件的詳細資訊，請參閱[共用物件](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/grant-request-object-permissions/share-an-object)。
+如需共用物件的詳細資訊，請參閱[共用物件](https://experienceleague.adobe.com/en/docs/workfront/using/basics/grant-request-object-permissions/share-an-object)。

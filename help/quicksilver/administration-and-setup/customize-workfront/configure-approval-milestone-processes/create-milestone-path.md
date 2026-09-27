@@ -10,25 +10,31 @@ role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/uzCwAabsfkHEzb5ikRXJqKeIb5IImYtWjx9vvgiBScc
+TQID: 'https://experienceleague.adobe.com/uzCwAabsfkHEzb5ikRXJqKeIb5IImYtWjx9vvgiBScc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 804
+source-wordcount: '804'
 ht-degree: 6%
-
 ---
-
 # 建立里程碑路徑
 
 <!--Audited: 08/2025-->
@@ -215,7 +221,7 @@ Old:
    此篩選器可確保您只顯示與報告中里程碑路徑相關聯的專案。
 
 1. 按一下「**儲存並關閉**」。
-1. 新增報表名稱，然後按一下[套用]。**&#x200B;**
+1. 新增報表名稱，然後按一下[套用]。****
 
    專案報告隨即顯示。 與每個專案相關聯的里程碑路徑會顯示在報表的最後一欄。
 1. 按一下報告最後一欄中的里程碑路徑名稱。

@@ -7,25 +7,35 @@ author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 6b86ba0d-977a-4c89-8832-e81bf28d9dad
-TQID: https://experienceleague.adobe.com/jKc48hGok8maxmidY12vz-mCzAz4c4eEn6bcTaA5jug
+TQID: 'https://experienceleague.adobe.com/jKc48hGok8maxmidY12vz-mCzAz4c4eEn6bcTaA5jug'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 967
+source-wordcount: '967'
 ht-degree: 0%
-
 ---
-
 # 2019.1行動裝置和整合增強功能
 
 此頁面說明2019.1版包含的所有資源管理增強功能。 此功能現在可在生產環境中使用。

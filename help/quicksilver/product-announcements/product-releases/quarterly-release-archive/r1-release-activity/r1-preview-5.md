@@ -7,13 +7,23 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4fba14b5-6c5a-4b03-99a7-f0e6f75807c3
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1301'
 ht-degree: 12%
-
 ---
-
 # R1預覽5
 
 本頁說明R1 Preview 5版本中「預覽」環境的所有可用變更。 此頁面的功能已於2017年3月16日在預覽環境中推出。
@@ -59,10 +69,10 @@ ht-degree: 12%
 在「里程碑」檢視中檢視專案清單或專案報告時，現在提供下列改善專案：
 
 * **設定進度狀態和完成百分比是否顯示在檢視中：**&#x200B;有一個新選項可讓您設定進度狀態圖示是否顯示在里程碑檢視中。 此外，您也可以設定是否顯示與專案及任務相關的「完成百分比」資訊。\
-  如需詳細資訊，請參閱[&#128279;](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)在[使用里程碑檢視](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)中使用里程碑檢視。
+  如需詳細資訊，請參閱[在[使用里程碑檢視](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)中使用里程碑檢視](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)。
 
 * **直接從[里程碑]檢視編輯完成百分比：**&#x200B;現在您可以直接從[里程碑]檢視編輯專案和任務的完成百分比。\
-  如需詳細資訊，請參閱[&#128279;](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)在[使用里程碑檢視](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)中使用里程碑檢視。 
+  如需詳細資訊，請參閱[在[使用里程碑檢視](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)中使用里程碑檢視](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)。 
 
 ## 更新數個系統設定頁面的外觀
 
@@ -71,10 +81,10 @@ ht-degree: 12%
 * 診斷
 * 單一登入(SSO)包括：
 
-   * 主動式目錄
-   * LDAP
-   * SAML 1.1
-   * SAML 2.0
+  * 主動式目錄
+  * LDAP
+  * SAML 1.1
+  * SAML 2.0
 
 * 更新使用者以使用 SSO
 

@@ -5,13 +5,20 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d5fe72c-7af5-4699-8344-36cfdd3810d0
-source-git-commit: 6aec8f2f3dd6dd653361058712b9e7a251ec6a69
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 2%
-
+ht-degree: 3%
 ---
-
 # 2026年第三季度請求增強功能
 
 本頁說明2026年第三季度版本針對預覽環境提出的請求增強功能。 如上所述，這些增強功能將於生產環境中提供。
@@ -22,7 +29,9 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->預覽： 2026年5月27日生產環境快速發行： 2026年6月11日適用於所有人的生產： 2026年7月16日
+>預覽： 2026年5月27日
+>生產環境快速發行： 2026年6月11日
+>適用於所有人的生產： 2026年7月16日
 
 為了取得請求處於正確狀態的更多內容，我們將在新請求體驗中更新請求狀態。
 
@@ -41,7 +50,10 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->預覽： 2026年4月23日生產快速發行： 2026年4月23日適合所有人的生產： 2026年4月23日不在排程&rbrack;{type=Neutral}內
+>預覽： 2026年4月23日
+>生產快速發行： 2026年4月23日
+>適合所有人的生產： 2026年4月23日
+>[!BADGE 不在排程]{type=Neutral}內
 
 為協助您更妥善地組織請求清單，我們在「請求」區域和「首頁」的「我的請求」小工具中，新增了下列預先定義的檢視：
 

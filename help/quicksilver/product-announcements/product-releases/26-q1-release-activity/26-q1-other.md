@@ -7,18 +7,24 @@ recommendations: noDisplay, noCatalog
 exl-id: 42fe3f53-6f83-4769-aaa6-953875cdfb7d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/QLkHTx4Ew5BM47EdLlzJE2yIsJvtIHpZdCIjokBgwEg
+TQID: 'https://experienceleague.adobe.com/QLkHTx4Ew5BM47EdLlzJE2yIsJvtIHpZdCIjokBgwEg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 290
+source-wordcount: '308'
 ht-degree: 0%
-
 ---
-
 # 2026年第一季度發行時間範圍內的其他增強功能
 
 本頁說明了2026年第一季度版本對預覽環境所做的增強功能。 如上所述，這些增強功能將於生產環境中提供。
@@ -36,7 +42,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2025年10月30日>生產快速發行： 2025年11月13日>每個人的生產： 2026年1月15日
+>預覽： 2025年10月30日
+>生產快速發行： 2025年11月13日
+>適用於所有人的生產： 2026年1月15日
 
 使用者填寫表單時，允許多重選取的欄位（例如核取方塊和多重選取下拉選單）現在限製為5000個選取專案。
 
@@ -49,16 +57,17 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2025年12月11日>生產快速發行： 2026年2月11日\
+>預覽： 2025年12月11日
+>生產快速發行： 2026年2月11日\
 >適用於所有人的生產： 2026年2月11日
 
 為了讓組織能夠存取Adobe Unified Experience的優點，我們繼續將其提供給現有的Workfront客戶。
 
 Adobe Unified Experience包括：
 
-* 透過Adobe Experience Cloud對所有Adobe應用程式執行單一登入
+* 透過Adobe Experience Cloud對所有Adobe應用程式進行單一登入
 * 可在Workfront組織和環境之間移動的「組織切換器」
-* 包含Workfront頁面、Adobe Experience Cloud偏好設定和您的Workfront設定檔選項的導覽
+* 包含Workfront頁面、Adobe Experience Cloud偏好設定和Workfront設定檔選項的導覽
 
 您的Workfront管理員將會收到有關您的組織將移至Adobe Unified Experience日期的宣告中心訊息。
 

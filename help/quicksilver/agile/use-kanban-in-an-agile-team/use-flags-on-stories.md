@@ -2,28 +2,35 @@
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
 title: 在Kanban面板上的劇本上使用旗標
-description: 在 [!DNL Kanban] 展示板上，旗標提供內文準備移至下一個狀態的視覺指示。 這可讓Kanban團隊在跨狀態移動故事時使用「提取」方法，而非「推送」方法。
+description: 在[!DNL Kanban]展示板上，旗標可提供劇本何時準備好移至下一個狀態的視覺指示。 這可讓Kanban團隊在跨狀態移動故事時使用「提取」方法，而非「推送」方法。
 author: Courtney
 feature: Agile
 exl-id: e19a007d-737c-42d4-aa69-771d8a9e9fd8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/zyfrbteuJy-xfPZL75ElkfotVrJWLHF78hDsIwkouko
+TQID: 'https://experienceleague.adobe.com/zyfrbteuJy-xfPZL75ElkfotVrJWLHF78hDsIwkouko'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 457
+source-wordcount: '471'
 ht-degree: 4%
-
 ---
-
 # 在[!UICONTROL Kanban]展示板上的劇本上使用旗標
 
 在[!DNL Kanban]展示板上，旗標可提供劇本何時準備好移至下一個狀態的視覺指示。 這可讓[!UICONTROL Kanban]團隊在跨狀態移動劇本時，使用「提取」方法，而非「推送」方法。
@@ -73,7 +80,7 @@ ht-degree: 4%
 
 1. 前往您想要變更劇本旗標的[!UICONTROL Kanban]面板。
 1. 展開內文拼貼以檢視旗標。
-每個內文的旗標預設為&#x200B;**[!UICONTROL 曲目]**。
+每個內文的旗標預設為**[!UICONTROL 曲目]**。
    ![看板卡](assets/agile-storycard-kanban-2021-350x308.png)
 
 1. 按一下目前的旗標，然後從下列旗標選項中選取：

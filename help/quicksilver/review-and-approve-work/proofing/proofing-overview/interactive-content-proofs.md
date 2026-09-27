@@ -6,18 +6,24 @@ description: 互動式內容提供多種吸引觀眾的方法。 機構可使用
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fdcad9c6-5508-476a-bfb8-2fe3bfbb007b
-TQID: https://experienceleague.adobe.com/y8EiNqvee6b7TAcYVxDMudQgy0njwI0EKG3EvKE-OSQ
+TQID: 'https://experienceleague.adobe.com/y8EiNqvee6b7TAcYVxDMudQgy0njwI0EKG3EvKE-OSQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 604
+source-wordcount: '604'
 ht-degree: 0%
-
 ---
-
 # 互動式內容校訂概觀
 
 <!-- Audited: 01/2024 -->

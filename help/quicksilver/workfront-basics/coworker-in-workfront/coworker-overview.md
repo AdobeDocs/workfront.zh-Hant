@@ -1,25 +1,29 @@
 ---
-title: CX Co-worker概述
+title: CX Coworker概觀
 content-type: reference
 description: 瞭解Adobe Workfront中的同事。
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 01de260893e5bbf7a228479df2f3fc6a1337d31d
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 0%
-
 ---
-
-# CX Co-worker概述
+# CX Coworker概觀
 
 {{preview-fast-release-general}}
 
 >[!IMPORTANT]
 >
->CX Co-worker目前不適用於醫療、金融或其他具有敏感資料產業的組織使用。 AI助理可供這些組織使用。 如需詳細資訊，請參閱[AI助理概述](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)。
+>CX Coworker目前不適用於保健、金融或某些具有敏感資料的其他行業的組織。 AI助理可供這些組織使用。 如需詳細資訊，請參閱[AI助理概述](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)。
 
-CX Co-worker Chat是完成工作的對話式介面。 您會以簡單的語言描述目標，而同事會規劃工作、在您的Adobe及連線系統中執行、驗證結果，並將完成的工作交還給您核准&#x200B;。
+CX Coworker Chat是一個對話式介面，用於完成工作。 您會以簡單的語言描述目標，而同事會規劃工作、在您的Adobe及連線系統中執行、驗證結果，並將完成的工作交還給您核准&#x200B;。
 
 現在，您的團隊在AI Assistant中依賴的所有專案都會持續運作，但如今擁有更強大的端對端功能，可在新的全熒幕體驗和Workfront右側邊欄中使用。
 
@@ -27,10 +31,10 @@ CX Co-worker Chat是完成工作的對話式介面。 您會以簡單的語言�
 
 同事是Adobe生態系統的一部分，不僅限於Workfront。
 
-如需有關在Workfront中使用CX Co-worker的資訊，請參閱[在Workfront中使用CX Co-worker &#x200B;](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)。
+如需有關在Workfront中使用CX Coworker的資訊，請參閱[在Workfront中使用CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)。
 
-如需有關同事及其功能的詳細資訊，請參閱[Adobe CX Enterprise Co-worker Chat概述](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/chat/overview)。
+如需同事及其功能的詳細資訊，請參閱[Adobe CX Enterprise Coworker聊天總覽](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview)。
 
-如需Workfront中同事可用的技能，請參閱[CX同事技能](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)。
+如需Workfront中同事可用的技能，請參閱[CX Coworker技能](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)。
 
 對於範例提示，請參閱文章[使用Adobe Workfront MCP伺服器](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)中的提示。

@@ -7,18 +7,21 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d0675dc1-b2d9-4d80-8c12-f26284cfb4cf
-TQID: https://experienceleague.adobe.com/FEwGBTsppCVzahbxXInxmIc9nSJ0WjGekoDzZP6YovY
+TQID: 'https://experienceleague.adobe.com/FEwGBTsppCVzahbxXInxmIc9nSJ0WjGekoDzZP6YovY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Developer
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1140
+source-wordcount: '1147'
 ht-degree: 1%
-
 ---
-
 # API 18版的新增功能
 
 Adobe Workfront於2024年4月8日發行API第18版。 API 18版具有下列17版中的變更。
@@ -495,7 +498,7 @@ Document物件代表檔案（例如書面材料、影像或其他形式的資訊
           <li>
             <p><b>moveToFolder</b>：
             </p>
-            <p>已新增。這個新動作會採用下列引數：
+            <p>已新增。 這個新動作會採用下列引數：
             <ul>
               <li>
                 <p><code>documentIDs</code>

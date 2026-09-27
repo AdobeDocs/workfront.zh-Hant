@@ -8,23 +8,31 @@ feature: Digital Content and Documents
 exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/ffz85N0pBJKg08FSPZ-Q0NeIT8B3jJupvA2mbfgTLlM
+TQID: 'https://experienceleague.adobe.com/ffz85N0pBJKg08FSPZ-Q0NeIT8B3jJupvA2mbfgTLlM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 525
+source-wordcount: '565'
 ht-degree: 3%
-
 ---
-
 # 建立及管理智慧資料夾
 
 智慧型資料夾是用來管理專案、任務或問題之外的檔案，可在主要功能表的主檔案區域中找到。 您可以設定智慧資料夾，以篩選資產並僅顯示對您而言重要的資產，而非搜尋您的所有資產。
@@ -34,7 +42,7 @@ ht-degree: 3%
 >[!NOTE]
 >
 >新檔案區域未提供此功能。<br>
->如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的「檔案」區域。如需Adobe雲端儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+>如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的檔案區域。 如需Adobe雲端儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 ## 存取權要求
 
@@ -88,7 +96,7 @@ ht-degree: 3%
 1. 在&#x200B;**資料夾**&#x200B;欄中，按一下您要編輯的智慧資料夾旁的&#x200B;**更多**&#x200B;圖示![更多功能表](assets/more-icon.png)。
 1. 按一下&#x200B;**編輯**。
 
-1. 進行變更，然後按一下[儲存資料夾]。**&#x200B;**
+1. 進行變更，然後按一下[儲存資料夾]。****
 
 ## 重新命名智慧資料夾 
 
@@ -104,7 +112,7 @@ ht-degree: 3%
 
    顯示&#x200B;**編輯智慧資料夾**&#x200B;對話方塊。 **資料夾名稱**&#x200B;欄位包含資料夾的原始名稱，並在括弧中加上「複製」一詞。
 
-1. 進行變更，然後按一下[儲存資料夾]。**&#x200B;**
+1. 進行變更，然後按一下[儲存資料夾]。****
 
 ## 刪除智慧資料夾
 

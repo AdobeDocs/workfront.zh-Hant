@@ -7,24 +7,31 @@ recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/fH-P7EmGGbZUe5Eq4T1uVDNTfZeio0b1TuSqwcWvr4s
+TQID: 'https://experienceleague.adobe.com/fH-P7EmGGbZUe5Eq4T1uVDNTfZeio0b1TuSqwcWvr4s'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1269
+source-wordcount: '1269'
 ht-degree: 0%
-
 ---
-
 # 2024年第四季發行時間範圍內的外觀與感覺更新
 
 本頁說明在2024年第四季發行時間範圍內對Adobe Workfront應用程式的各個區域外觀和感覺所做的小幅更新。

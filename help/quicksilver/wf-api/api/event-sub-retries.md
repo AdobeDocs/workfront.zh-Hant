@@ -7,20 +7,23 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b698cb60-4cff-4ccc-87d7-74afb5badc49
-TQID: https://experienceleague.adobe.com/DPlqoTaQc-eQo-QUmCMXzUOiKFZtNQOMhRUCr13BufE
+TQID: 'https://experienceleague.adobe.com/DPlqoTaQc-eQo-QUmCMXzUOiKFZtNQOMhRUCr13BufE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Developer
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 397
+source-wordcount: '397'
 ht-degree: 0%
-
 ---
-
 # 事件訂閱重試次數
 
 實作訊息傳送系統時，為了確保穩定性、一致性和良好的使用者體驗，有一些需要注意的事項。 訊息傳送系統的缺點之一，是確保訊息成功到達目的地，以及知道訊息無法到達時該怎麼做。

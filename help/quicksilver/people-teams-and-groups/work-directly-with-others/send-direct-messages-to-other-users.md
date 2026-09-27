@@ -7,13 +7,20 @@ description: Adobe Workfront可讓您快速輕鬆地將與任何工作專案無�
 author: Becky
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 0%
-
+source-wordcount: '567'
+ht-degree: 4%
 ---
-
 # 傳送直接訊息給其他使用者
 
 [!DNL Adobe Workfront]可讓您快速輕鬆地直接傳送與任何工作專案無關的訊息給其他[!DNL Workfront]使用者。 依照此節所述傳送的訊息會顯示在使用者設定檔頁面的[!UICONTROL 更新]索引標籤中，且所有使用者皆可看到。 如需更新的其他資訊，請參閱[更新工作專案並檢視更新：文章索引](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)。
@@ -25,16 +32,16 @@ ht-degree: 0%
 
   這取決於使用者設定為要接收的電子郵件通知型別。 如需詳細資訊，請參閱[設定系統中每個人的事件通知](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)、[檢視和設定群組的事件通知](../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)以及[修改您自己的電子郵件通知](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)。
 
-## 存取需求
+## 存取權要求
 
-+++ 展開以檢視本文中功能的存取需求。
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront套件</td> 
+   <td>Adobe Workfront 封裝</td> 
    <td><p>任何</p></td> 
   </tr> 
   <tr> 
@@ -45,7 +52,7 @@ ht-degree: 0%
    <p>評論或以上</p>
    <p>若要從使用者清單傳送訊息，您必須具備：</p>
    <p>標準</p>
-   <p>工作或更高</p></td>
+   <p>工作或更高層級</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -74,7 +81,7 @@ ht-degree: 0%
    >[!UICONTROL **我的公司專用**]&#x200B;設定只有在您的Workfront設定檔與公司相關聯時才可用。
 
 1. 按一下&#x200B;**[!UICONTROL 更新]。**
-訊息會張貼在使用者設定檔頁面的&#x200B;**[!UICONTROL 更新]**&#x200B;索引標籤上的訊息清單頂端。
+此訊息張貼在使用者設定檔頁面的**[!UICONTROL 更新]**&#x200B;索引標籤上的訊息清單頂端。
 
 ## 從使用者清單傳送訊息給一或多位使用者
 
@@ -83,7 +90,7 @@ ht-degree: 0%
 {{step-1-to-users}}
 
 1. 選取您要傳送訊息給的一或多位使用者，然後按一下&#x200B;[!UICONTROL **傳送更新給使用者**]。
-1. 在[!UICONTROL 傳送更新給使用者]視窗中輸入您的訊息。 視需要使用文字格式選項。 如需詳細資訊，請參閱文章[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md#use-rich-text-in-a-workfront-comment)中的[在Workfront註解中使用RTF文字](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
+1. 在[!UICONTROL 傳送更新給使用者]視窗中輸入您的訊息。 視需要使用文字格式選項。 如需詳細資訊，請參閱文章[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)中的[在Workfront註解中使用RTF文字](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md#use-rich-text-in-a-workfront-comment)。
 
    傳送更新給使用者視窗上的![訊息使用者](assets/send-update-to-user-072825.png)
 
@@ -93,5 +100,5 @@ ht-degree: 0%
    >[!TIP]
    >
    >[!UICONTROL **我的公司專用**]&#x200B;設定只有在您的Workfront設定檔與公司相關聯時才可用。
-1. 按一下&#x200B;[!UICONTROL **傳送**]。
-此郵件張貼在每個已標籤使用者設定檔頁面的&#x200B;**[!UICONTROL 更新]**&#x200B;索引標籤上的郵件清單頂端。
+1. 按一下「[!UICONTROL **傳送**]」。
+此郵件張貼在每個已標籤使用者設定檔頁面的**[!UICONTROL 更新]**&#x200B;索引標籤上的郵件清單頂端。

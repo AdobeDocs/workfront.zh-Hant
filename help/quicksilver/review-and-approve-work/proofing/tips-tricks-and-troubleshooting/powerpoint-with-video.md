@@ -7,20 +7,27 @@ description: 您可以使用「案頭校訂檢視器」檢視內嵌視訊的Powe
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b648e273-8062-492d-91b0-2333da095fc5
-TQID: https://experienceleague.adobe.com/tbmiQV-6iEX6qTPjoypoZG-Yo-tNoDWtCkHM7FR-xco
+TQID: 'https://experienceleague.adobe.com/tbmiQV-6iEX6qTPjoypoZG-Yo-tNoDWtCkHM7FR-xco'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 181
+source-wordcount: '181'
 ht-degree: 0%
-
 ---
-
 # 校訂PowerPoint搭配內嵌視訊
 
 您可以使用「案頭校訂檢視器」檢視內嵌視訊的PowerPoint校訂。

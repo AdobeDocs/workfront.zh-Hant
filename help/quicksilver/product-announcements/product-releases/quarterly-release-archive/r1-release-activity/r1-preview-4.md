@@ -7,24 +7,29 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2945e058-74dd-4cc3-9d6c-e5618ee7041c
-TQID: https://experienceleague.adobe.com/ISgHqMUiVKrpOFD68eLx7YInjxlNnCKjYOZzBUlpOQs
+TQID: 'https://experienceleague.adobe.com/ISgHqMUiVKrpOFD68eLx7YInjxlNnCKjYOZzBUlpOQs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 836
+source-wordcount: '855'
 ht-degree: 0%
-
 ---
-
 # R1預覽4
 
 本頁說明R1.4版本預覽環境中所有可用的變更。 此頁面的功能已於2017年2月15日在預覽環境中推出。
@@ -42,8 +47,8 @@ ht-degree: 0%
 
 * 下列與修改現有全域核准程式相關的既存限制已移除：
 
-   * 修改過的核准程式只會反映在整個系統中的物件上，其中核准程式尚未開始或核准程式尚未修改。 已啟動核准流程或已修改核准流程的物件不會更新您的變更。
-   * 您無法修改決定核准何時開始的狀態。
+  * 修改過的核准程式只會反映在整個系統中的物件上，其中核准程式尚未開始或核准程式尚未修改。 已啟動核准流程或已修改核准流程的物件不會更新您的變更。
+  * 您無法修改決定核准何時開始的狀態。
 
 * 更新外觀。
 
@@ -101,7 +106,7 @@ ht-degree: 0%
 
 管理群組和子群組有一個新介面，可提供更簡單、更方便使用的體驗。
 
-「群組擁有者」欄位和「群組成員」欄位現在合併為單一欄位，下方列出群組成員清單。此外，您可以篩選群組成員的清單，並變更他們是「擁有者」還是「成員」。 
+「群組擁有者」欄位和「群組成員」欄位現在合併為單一欄位，下方列出群組成員清單。 此外，您可以篩選群組成員的清單，並變更他們是「擁有者」還是「成員」。 
 
 如需新增子群組至群組，以及指定使用者為群組成員或群組擁有者的詳細資訊，請參閱[建立群組](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)和[建立群組](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)。 
 

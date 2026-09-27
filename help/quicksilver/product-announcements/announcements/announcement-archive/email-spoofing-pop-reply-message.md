@@ -6,22 +6,27 @@ description: 我們對Adobe Workfront在20.3版（目標為2020年8月）中傳�
 author: Luke
 feature: Product Announcements
 exl-id: 9110f04d-b7a9-428b-928c-c4eb746fec3f
-TQID: https://experienceleague.adobe.com/eOFRSbJicMbYHqq74-O9VW0c73RDQmAC-OIkLX-FKFw
+TQID: 'https://experienceleague.adobe.com/eOFRSbJicMbYHqq74-O9VW0c73RDQmAC-OIkLX-FKFw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 319
+source-wordcount: '319'
 ht-degree: 1%
-
 ---
-
 # 電子郵件詐騙和POP回覆
 
 我們對Adobe Workfront在20.3版（目標為2020年8月）中傳送和接收電子郵件的方式進行了兩項變更。
@@ -40,4 +45,4 @@ ht-degree: 1%
 
 直接來自Workfront Proof系統的電子郵件不會有任何變更。 您將會繼續收到這些電子郵件，一如以往。
 
-如果您有任何其他問題或顧慮，請聯絡[Workfront支援團隊](https://experienceleague.adobe.com/zh-hant?support-tab=home#support)。
+如果您有任何其他問題或顧慮，請聯絡[Workfront支援團隊](https://experienceleague.adobe.com/?support-tab=home#support)。

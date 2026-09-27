@@ -8,22 +8,34 @@ author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 82279305-d758-4ab3-b77c-8e65a3d19a9f
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '327'
 ht-degree: 0%
-
 ---
-
 # 21.2整合增強功能
 
 本頁說明21.2版對預覽環境所做的所有整合增強功能。 這些增強功能將在2021年5月10日當週的生產環境中提供。 如需21.2版本可用的所有變更清單，請參閱[21.2版本概觀](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md)。
 
-## 介紹XD適用的Adobe Workfront
+## 介紹適用於XD的Adobe Workfront
 
-我們很高興宣佈推出新的外掛程式：XD適用的Adobe Workfront。 此外掛程式可讓您存取工作專案詳細資訊、與更新區域的同事共同作業，以及提交校樣以供檢閱，這一切都無需離開XD。 立即前往Adobe XD Marketplace下載外掛程式。
+我們很高興宣佈推出新的外掛程式：XD的Adobe Workfront。 此外掛程式可讓您存取工作專案詳細資訊、與更新區域的同事共同作業，以及提交校樣以供檢閱，所有這些都不需要離開XD。 立即前往Adobe XD Marketplace下載外掛程式。
 
-若要進一步瞭解您可以使用XD適用的Adobe Workfront做什麼，請參閱[使用Creative Cloud應用程式適用的Adobe Workfront外掛程式來管理工作](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)。
+若要進一步瞭解您可以使用Adobe Workfront for XD做什麼，請參閱[使用Adobe Workfront plugin for Creative Cloud應用程式管理工作](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)。
 
 
 ## 在檔案整合中搜尋資料夾

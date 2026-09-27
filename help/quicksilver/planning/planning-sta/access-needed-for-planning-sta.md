@@ -1,15 +1,19 @@
 ---
 title: Adobe Workfront Planning作為獨立產品所需的存取
 description: 本文說明Adobe Workfront Planning作為獨立產品的授權、存取層級和使用者功能。
-last-update: 2026-04-01T18:02:40Z
+last-update: 2026-04-01T18:02:40.000Z
 git-commit-file: 8cc175490a6aa1db68b238edbdf9da9da7fbb258
-source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 2%
-
 ---
-
 <!--
 
 Update metadata with this at release:
@@ -66,7 +70,7 @@ the bullets repeat in the "Planning overview" article
 
 * Workfront Planning可作為獨立產品，供貴組織使用者使用。 這讓使用者無法存取任何Workfront Workflow功能，也無法存取Planning功能。
 
-如需以獨立產品形式包含在Planning中的功能相關資訊，請參閱文章[以獨立產品形式開始使用Workfront Planning &#x200B;](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)中的「Adobe Workfront Planning中包含的功能」一節。
+如需以獨立產品形式包含在Planning中的功能相關資訊，請參閱文章[以獨立產品形式開始使用Workfront Planning ](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)中的「Adobe Workfront Planning中包含的功能」一節。
 
 ## 使用者授權和存取層級
 
@@ -137,28 +141,28 @@ Managing your Adobe Workfront Planning instance is similar to managing an Adobe 
 
   如需詳細資訊，請參閱：
 
-   * [在Adobe Workfront Planning中作為獨立產品管理使用者](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)
-   * [以獨立產品形式管理Adobe Workfront Planning中的團隊](/help/quicksilver/planning/planning-sta/manage-teams-in-planning-sta.md)
+  * [在Adobe Workfront Planning中作為獨立產品管理使用者](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)
+  * [以獨立產品形式管理Adobe Workfront Planning中的團隊](/help/quicksilver/planning/planning-sta/manage-teams-in-planning-sta.md)
 * 可以提交及管理請求。
 
   如需詳細資訊，請參閱[Adobe Workfront規劃要求：文章索引](/help/quicksilver/planning/requests/requests-article-index.md)。
 * 在主要功能表中有下列區域：
 
-   * **Planning**：具有完整功能，可讓Planning物件建立、刪除、共用及連線物件。
-   * **使用者**：您可以新增使用者並編輯其設定檔。
-   * **請求**
-   * **設定**
+  * **Planning**：具有完整功能，可讓Planning物件建立、刪除、共用及連線物件。
+  * **使用者**：您可以新增使用者並編輯其設定檔。
+  * **請求**
+  * **設定**
 * 在「設定」區域中有下列區段：
 
-   * **團隊**：您可以新增、移除或編輯團隊。 編輯僅限於專案團隊名稱、說明和成員；沒有可用的篩選、檢視、分組或匯出控制項。
-   * **以**&#x200B;身分登入：模擬其他使用者以進行疑難排解。
-   * **自訂季度**：設定出現在Planning時間表檢視中的自訂會計季度。
-   * 系統
+  * **團隊**：您可以新增、移除或編輯團隊。 編輯僅限於專案團隊名稱、說明和成員；沒有可用的篩選、檢視、分組或匯出控制項。
+  * **以**&#x200B;身分登入：模擬其他使用者以進行疑難排解。
+  * **自訂季度**：設定出現在Planning時間表檢視中的自訂會計季度。
+  * 系統
 
 * 在「系統」區域中有下列區段：
 
-   * **客戶資訊**：檢視客戶與組織詳細資料。
-   * **偏好設定**：檢閱並設定系統層級的偏好設定。
+  * **客戶資訊**：檢視客戶與組織詳細資料。
+  * **偏好設定**：檢閱並設定系統層級的偏好設定。
 
 ### Planning Standard導覽概觀
 
@@ -170,9 +174,9 @@ Managing your Adobe Workfront Planning instance is similar to managing an Adobe 
   如需詳細資訊，請參閱[Adobe Workfront規劃要求：文章索引](/help/quicksilver/planning/requests/requests-article-index.md)。
 * Planning Standard使用者可在主功能表中存取下列區域：
 
-   * **規劃**
-   * **使用者**：他們擁有使用者的僅限檢視存取權。 他們無法建立或編輯使用者。<!--not sure if this is still true-->
-   * **請求**
+  * **規劃**
+  * **使用者**：他們擁有使用者的僅限檢視存取權。 他們無法建立或編輯使用者。<!--not sure if this is still true-->
+  * **請求**
 
 * 無法存取「設定」或其任何區段。
 
@@ -186,8 +190,8 @@ Managing your Adobe Workfront Planning instance is similar to managing an Adobe 
 
   存在下列情況：
 
-   * 新增至Adobe Console作為管理員的使用者，可在Workfront Planning中獲得Planning管理員存取層級。
-   * 新增至Adobe Console的使用者（作為使用者）可以在Workfront Planning中指派為Planning標準存取層級。 這是唯一可指派給Workfront Planning中新使用者作為獨立產品的存取權。
+  * 新增至Adobe Console作為管理員的使用者，可在Workfront Planning中獲得Planning管理員存取層級。
+  * 新增至Adobe Console的使用者（作為使用者）可以在Workfront Planning中指派為Planning標準存取層級。 這是唯一可指派給Workfront Planning中新使用者作為獨立產品的存取權。
 
 如需詳細資訊，請參閱[管理使用者](/help/quicksilver/planning/planning-sta/manage-users-in-planning-sta.md)。
 

@@ -2,25 +2,33 @@
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: basecamp
-title: 在 [!DNL Basecamp]中檢閱校訂
-description: Basecamp與 [!DNL Workfront Proof] 整合可讓您在不離開Basecamp的情況下輕鬆檢閱和核准校訂。
+title: 在[!DNL Basecamp]中檢閱校訂
+description: Basecamp與[!DNL Workfront Proof]整合可讓您在不離開Basecamp的情況下輕鬆檢閱及核准校樣。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 355e6bfe-ae6d-4bac-a648-0e48cf945bb4
-TQID: https://experienceleague.adobe.com/sJGBP-KcrGB1cQA49mOExJoWOPp6cva5aavhS9AVwTg
+TQID: 'https://experienceleague.adobe.com/sJGBP-KcrGB1cQA49mOExJoWOPp6cva5aavhS9AVwTg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 690
+source-wordcount: '691'
 ht-degree: 0%
-
 ---
-
 # 在[!DNL Basecamp]中檢閱校訂
 
 >[!IMPORTANT]
@@ -71,7 +79,7 @@ ht-degree: 0%
 1. 如果您在其中一個瀏覽器視窗中登入您的[!DNL Workfront Proof]帳戶，您就可以立即開始檢閱。 如果您在小型校訂的左下角看不到您的名稱：
 1. 按一下&#x200B;**[!UICONTROL 登入]** (5)。
 1. 輸入您的電子郵件地址（用於將您新增到校樣中）(6)。
-1. 按一下[下一步]&#x200B;**&#x200B;**，然後在出現的第二個方塊中，輸入您的[!DNL Workfront Proof]密碼(7)。\
+1. 按一下[下一步]****，然後在出現的第二個方塊中，輸入您的[!DNL Workfront Proof]密碼(7)。\
    如果您沒有[!DNL Workfront Proof]帳戶，請輸入要顯示的公用名稱。
 
 1. 按一下&#x200B;**[!UICONTROL 記住我]**，您只需輸入一次詳細資料。\

@@ -9,23 +9,28 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
-TQID: https://experienceleague.adobe.com/nuU1cn2BDPN7k-gr7a3t5JFR54zD9gHaxBeESEL53p0
+TQID: 'https://experienceleague.adobe.com/nuU1cn2BDPN7k-gr7a3t5JFR54zD9gHaxBeESEL53p0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 595
+source-wordcount: '595'
 ht-degree: 3%
-
 ---
-
 # 對應使用者屬性
 
 <!--Audited 2/2024-->
@@ -83,7 +88,7 @@ ht-degree: 3%
    >
    >建議您第一次在Adobe統一體驗中設定對應時移轉對應。 稍後再移轉這些檔案並沒有壞處，但不需要多次移轉。
 
-1. 若要建立新的屬性對應，請按一下[新增對應]。**&#x200B;**
+1. 若要建立新的屬性對應，請按一下[新增對應]。****
 
 1. 按一下Workfront欄位名稱旁的箭頭，然後選取您要對應到的[!DNL Workfront]欄位。
 
@@ -99,7 +104,7 @@ ht-degree: 3%
 
 1. 輸入要套用的Identity Manager欄位名稱，或輸入要套用的常數值文字。
 
-1. （選擇性）若要為相同的Workfront欄位新增更多規則，請按一下[新增規則] **&#x200B;**，然後依照步驟4-9執行。
+1. （選擇性）若要為相同的Workfront欄位新增更多規則，請按一下[新增規則] ****，然後依照步驟4-9執行。
 
    >[!IMPORTANT]
    >
@@ -109,6 +114,6 @@ ht-degree: 3%
 1. 若要刪除規則，請按一下要刪除的規則旁邊的三個點功能表，然後選取&#x200B;**刪除**。
 1. 若要刪除對應，請按一下對應卡片上的&#x200B;**刪除**&#x200B;圖示。
 
-1. 若要儲存，請捲動至頁面頂端，然後按一下[儲存]。**&#x200B;**
+1. 若要儲存，請捲動至頁面頂端，然後按一下[儲存]。****
 
 

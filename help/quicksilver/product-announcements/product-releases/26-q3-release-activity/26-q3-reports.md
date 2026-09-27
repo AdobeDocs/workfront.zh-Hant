@@ -4,13 +4,20 @@ description: 2026年第三季度報告增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0c7265c477030137d14e95f42eaf67580589d70b
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1047'
 ht-degree: 0%
-
 ---
-
 # 2026年第三季度報告增強功能
 
 本頁說明2026年第三季度版本中針對預覽環境進行的報告增強功能。 如上所述，這些增強功能將於生產環境中提供。
@@ -21,11 +28,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->所有客戶的預覽和生產： 2026年7月16日不在排程&rbrack;{type=Neutral}內
+>所有客戶的預覽和生產： 2026年7月16日
+>[!BADGE 不在排程]{type=Neutral}內
 
-此發行版本引入了Snowflake中Workfront Planning資料的自動化、權益導向式存取管理，作為Workfront Data Connect的一部分。
-首先，將安全檢視的產生延伸至Planning表格，建立下游存取控制的必要基礎，並使基於權利的授權成為可能。以此為基礎，讀取器帳戶布建現在會在建立時檢查TMS權益，並自動套用或保留Planning資料庫的授權，以確保正確無誤。
-在此增強功能之前，這僅適用於Workfront。
+此發行版本引入了Snowflake中Workfront Planning資料的自動化、權益導向式存取管理，作為Workfront Data Connect的一部分。 
+首先，將安全檢視的產生延伸至Planning表格，建立下游存取控制的必要基礎，並使基於權利的授權成為可能。
+以此為基礎，讀取器帳戶布建現在會在建立時檢查TMS權益，並自動套用或保留Planning資料庫的授權，以確保正確無誤。 
+在此增強功能之前，這僅適用於Workfront。 
 此更新包含下列功能： 
 
 * 自動的每日工作會偵測現有客戶的權益變更
@@ -38,9 +47,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->所有客戶的預覽和生產： 2026年7月7日不在排程&rbrack;{type=Neutral}內
+>所有客戶的預覽和生產： 2026年7月7日
+>[!BADGE 不在排程]{type=Neutral}內
 
-在2026年第二季，我們新增物件以支援Workfront的企業作業增強功能。在目前版本中，我們也會在「畫布控制面板」中新增多個新物件的自訂資料支援。
+在2026年第二季，我們新增物件以支援Workfront的企業作業增強功能。
+在目前版本中，我們也會在「畫布控制面板」中新增多個新物件的自訂資料支援。
 
 如需詳細資訊，請參閱[畫布儀表板總覽](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)。
 
@@ -48,7 +59,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2026年6月25日生產快速發行： 2026年7月15日適用於所有人的生產： 2026年7月16日
+>預覽： 2026年6月25日
+>生產快速發行： 2026年7月15日
+>適用於所有人的生產： 2026年7月16日
 
 為了透過保留使用者的工作篩選狀態來提高使用者在控制面板和記錄之間移動的效率，控制面板管理員現在可以定義Canvas控制面板的預設提示值。 這些預設值會自動套用至所有儀表板檢視器。
 
@@ -64,7 +77,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽：不適用生產環境快速發行： 2026年6月11日適用於所有人的生產： 2026年7月16日
+>預覽：不適用
+>生產環境快速發行： 2026年6月11日
+>適用於所有人的生產： 2026年7月16日
 
 Workfront管理員將Microsoft Power BI連線至Workfront Data Connect後，現在只需一個步驟，即可將整個區域的Azure IP位址範圍新增至允許清單。 在&#x200B;**Data Connect**&#x200B;的&#x200B;**IP允許清單**&#x200B;索引標籤中，**新IP位址**&#x200B;按鈕現在包含&#x200B;**新增Power BI IP位址區塊**&#x200B;選項，該選項會開啟一個對話方塊，您可以在此處貼上Microsoft已發佈的Azure IP範圍和服務標籤JSON檔案中的Power BI服務標籤專案。
 
@@ -77,7 +92,9 @@ Workfront管理員將Microsoft Power BI連線至Workfront Data Connect後，現�
 
 >[!NOTE]
 >
->預覽： 2026年6月11日生產快速發行： 2026年7月15日適用於所有人的生產： 2026年7月16日
+>預覽： 2026年6月11日
+>生產快速發行： 2026年7月15日
+>適用於所有人的生產： 2026年7月16日
 >
 >畫布儀表板目前是測試版。
 
@@ -89,7 +106,9 @@ Workfront管理員將Microsoft Power BI連線至Workfront Data Connect後，現�
 
 >[!NOTE]
 >
->預覽： 2026年6月1日生產環境快速發行： 2026年6月1日每個人都要生產： 2026年6月1日
+>預覽： 2026年6月1日
+>生產環境快速發行： 2026年6月1日
+>每個人都要生產： 2026年6月1日
 
 2025年，新的「實際時數」欄位已新增至Workfront資料庫，做為`actualWorkRequiredDouble`，而現有的「實際時數」欄位（資料庫中的`actualWorkRequired`）已重新命名為「舊版實際時數」。 如需詳細資訊，請參閱[發行說明](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md)。
 
@@ -105,7 +124,9 @@ Workfront管理員將Microsoft Power BI連線至Workfront Data Connect後，現�
 
 >[!NOTE]
 >
->預覽： 2026年5月28日生產環境快速發行： 2026年6月11日適用於所有人的生產： 2026年7月16日
+>預覽： 2026年5月28日
+>生產環境快速發行： 2026年6月11日
+>適用於所有人的生產： 2026年7月16日
 
 畫布控制面板報表現在支援自訂貨幣資料欄位做為欄、篩選器、群組和彙總，包括當在系統設定中設定多個匯率時。 當自訂貨幣資料欄位顯示為欄或彙總時，除非欄位在報表層級鎖定，否則值會轉換為在控制面板的匯率切換中選取的貨幣。
 
@@ -117,7 +138,9 @@ Workfront管理員將Microsoft Power BI連線至Workfront Data Connect後，現�
 
 >[!NOTE]
 >
->預覽： 2026年5月14日生產環境快速發行： 2026年6月11日適用於所有人的生產： 2026年7月16日
+>預覽： 2026年5月14日
+>生產環境快速發行： 2026年6月11日
+>適用於所有人的生產： 2026年7月16日
 >
 >畫布儀表板目前是測試版。
 

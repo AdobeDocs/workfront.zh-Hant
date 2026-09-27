@@ -8,22 +8,29 @@ feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/L473t3JSVgXHJ-RQXLXkBxQdzh9TbBwXM42DeiiCR7s
+TQID: 'https://experienceleague.adobe.com/L473t3JSVgXHJ-RQXLXkBxQdzh9TbBwXM42DeiiCR7s'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 811
+source-wordcount: '811'
 ht-degree: 2%
-
 ---
-
 # 建立檔案資料夾
 
 檔案可整理到資料夾中。 Workfront目前有兩個版本的檔案區域：舊版檔案區域和新檔案區域。 貴組織使用的版本取決於貴組織是在舊版Workfront儲存空間還是Adobe雲端儲存空間。 如需這些儲存體型別的詳細資訊，請參閱[Adobe雲端儲存體概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
@@ -94,7 +101,7 @@ ht-degree: 2%
 
    或
 
-   若要建立子資料夾，請選取您要建立子資料夾的資料夾，然後按一下[新增&#x200B;**] > [資料夾**]。**&#x200B;**
+   若要建立子資料夾，請選取您要建立子資料夾的資料夾，然後按一下[新增&#x200B;**] > [資料夾**]。****
 
 ### 共用資料夾
 
@@ -117,7 +124,7 @@ ht-degree: 2%
 1. 前往包含檔案的專案、任務或問題，然後在左側面板中選取&#x200B;**檔案**。
 1. 按一下您要建立子資料夾的資料夾，然後按一下&#x200B;**新增資料夾** ![新增資料夾圖示](assets/add-folder-icon.png)圖示。
    ![新增子資料夾](assets/add-subfolder.png)
-1. 輸入子資料夾的名稱，然後按一下[建立]。**&#x200B;**
+1. 輸入子資料夾的名稱，然後按一下[建立]。****
 
 ### 重新命名資料夾
 

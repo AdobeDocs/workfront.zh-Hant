@@ -6,13 +6,14 @@ navigation-topic: use-the-desktop-proofing-viewer
 title: 疑難排解校訂建立失敗
 description: 校樣建立過程包括匯入和校樣產生。 有時候，當您建立校訂時，檔案可能無法匯入，或是在檔案匯入後無法產生校訂。
 author: Courtney
-source-git-commit: de30bd970bda06c706e5156d5195e8568558e593
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%
-
 ---
-
 
 # 疑難排解校訂建立失敗
 
@@ -47,11 +48,11 @@ ht-degree: 0%
 
 * 校訂PDF檔案時，校訂產生失敗的原因包括：
 
-   * 字型和影像是從外部來源連結（例如從您的本機檔案系統）
+  * 字型和影像是從外部來源連結（例如從您的本機檔案系統）
 
-     字型和影像必須內嵌在PDF檔案中，才能顯示在其他電腦或Workfront Proof中。
+    字型和影像必須內嵌在PDF檔案中，才能顯示在其他電腦或Workfront Proof中。
 
-   * 您的PDF檔案包含空白圖層或透明或重疊欄位。
+  * 您的PDF檔案包含空白圖層或透明或重疊欄位。
 
-     如果您無法判斷造成此問題的圖層或物件，請將設計/檔案匯出為最佳化的PDF （這會移除所有不想要的元素）。
+    如果您無法判斷造成此問題的圖層或物件，請將設計/檔案匯出為最佳化的PDF （這會移除所有不想要的元素）。
 

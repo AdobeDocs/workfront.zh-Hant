@@ -7,23 +7,28 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: ac394b41-63cb-481a-a858-30d8d7f840bb
-TQID: https://experienceleague.adobe.com/E8QRlaGlxvGtgM6Q-23W1trqkejL5Y8RDUzHJtBF1uc
+TQID: 'https://experienceleague.adobe.com/E8QRlaGlxvGtgM6Q-23W1trqkejL5Y8RDUzHJtBF1uc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+    internal-label: APIs
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Metadata
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 640
+source-wordcount: '640'
 ht-degree: 0%
-
 ---
-
 # 更新使用預設API版本設定的整合
 
 我們每半年發佈新版本的Adobe Workfront API。 每個版本在發行後三年內都受到支援，但在有版本提供但不支援的過時狀態下，還會額外支援一年。

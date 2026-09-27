@@ -6,22 +6,29 @@ description: 您可以使用校訂核准報告來檢視有關您環境中校訂�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f8c924e-7c33-43f3-a9d6-75c56af28527
-TQID: https://experienceleague.adobe.com/ZU6Ej5QhI7v9zoAxurBz1YsFVIuVIh2a8tR2h6vYL18
+TQID: 'https://experienceleague.adobe.com/ZU6Ej5QhI7v9zoAxurBz1YsFVIuVIh2a8tR2h6vYL18'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a2241fa21f51f8146c1f3725d2ba2235f8458ab4
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 310
+source-wordcount: '310'
 ht-degree: 6%
-
 ---
-
 # 使用校訂核准報告
 
 您可以使用校訂核准報告來檢視有關您環境中校訂的資訊。
@@ -80,9 +87,9 @@ ht-degree: 6%
 * **工作流程範本**：顯示附加到校訂的任何工作流程範本。 如果沒有附加範本，欄為空白。
 * **等待決定**：顯示true表示最新版本尚未符合決定，若下列專案為true：
 
-   * 校訂尚未封存
-   * 核准者所在的階段為作用中
-   * 校訂正在等候核准
+  * 校訂尚未封存
+  * 核准者所在的階段為作用中
+  * 校訂正在等候核准
 
 * **校訂截止日期**：顯示校訂的截止日期。 每個階段都必須指派截止日期，才能填入此欄位。 欄位會顯示最近啟用階段的截止日期。
 

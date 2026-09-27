@@ -3,23 +3,31 @@ content-type: overview
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: basic-features-workfront-proof
-title: 正在搜尋 [!DNL Workfront Proof]
+title: 正在搜尋[!DNL Workfront Proof]
 description: 您可以在Workfront Proof網站中搜尋內容。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1596b3d2-d513-4e36-98b7-92e349aca5bc
-TQID: https://experienceleague.adobe.com/S892pU2h34E2ToBSAlYXyGLLwqsM7DEfdR5UqdD2VVc
+TQID: 'https://experienceleague.adobe.com/S892pU2h34E2ToBSAlYXyGLLwqsM7DEfdR5UqdD2VVc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 349
+source-wordcount: '349'
 ht-degree: 1%
-
 ---
-
 # 正在搜尋[!DNL Workfront]校訂
 
 >[!IMPORTANT]

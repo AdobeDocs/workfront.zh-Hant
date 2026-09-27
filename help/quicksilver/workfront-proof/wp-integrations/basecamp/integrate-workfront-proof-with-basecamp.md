@@ -2,25 +2,33 @@
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: basecamp
-title: 整合 [!DNL Workfront Proof] 與 [!DNL Basecamp]
-description: 如果您使用 [!DNL Basecamp] 進行專案管理，可以使用 [!DNL Workfront Proof]提供專案團隊更豐富的檢閱和核准工具。
+title: 將[!DNL Workfront Proof]與[!DNL Basecamp]整合
+description: 如果您使用[!DNL Basecamp]進行專案管理，則可以使用[!DNL Workfront Proof]提供專案團隊更豐富的檢閱和核准工具。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: f6d5aef6-573d-4398-a057-ffea2e67288f
-TQID: https://experienceleague.adobe.com/EyGqYRFaK3kCXNU-vY8DWhB4s8d2Gw1ZlVflB-0QqJk
+TQID: 'https://experienceleague.adobe.com/EyGqYRFaK3kCXNU-vY8DWhB4s8d2Gw1ZlVflB-0QqJk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 737
+source-wordcount: '741'
 ht-degree: 0%
-
 ---
-
 # 將[!DNL Workfront Proof]與[!DNL Basecamp]整合
 
 >[!IMPORTANT]
@@ -61,7 +69,7 @@ ht-degree: 0%
 
 ## 正在啟用[!DNL Basecamp]與[!DNL Workfront Proof]的整合
 
-作為 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔或 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔，您可以在[帳戶設定](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings)中設定整個帳戶的[!DNL Basecamp]整合。
+作為 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔或 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔，您可以在[帳戶設定](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings)中設定整個帳戶的[!DNL Basecamp]整合。
 
 1. 在[!UICONTROL Basecamp]中，收集下列資訊：
 
@@ -94,7 +102,7 @@ ht-degree: 0%
 
 在您為組織設定[帳戶設定](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings)後，建立/提交校訂的每位作者都應該設定其[個人設定。](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings)
 
-1. 移至&#x200B;**[!UICONTROL 個人&#x200B;**&#x200B;設定]**。
+1. 移至&#x200B;**[!UICONTROL 個人&#x200B;**設定]**。
 
 1. 開啟&#x200B;**[!UICONTROL 整合]**&#x200B;標籤(1)。
 1. 若要啟用[!DNL Basecamp]整合，請按一下&#x200B;**[!UICONTROL 啟用]** (2)。

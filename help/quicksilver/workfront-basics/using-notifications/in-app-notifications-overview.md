@@ -6,18 +6,21 @@ description: 本文列出您可收到的應用程式內通知。 應用程式內
 author: Courtney
 feature: Get Started with Workfront
 exl-id: afc8cfe7-d9a7-458a-b437-bd4c75838cb0
-TQID: https://experienceleague.adobe.com/uR2GdykN4aZ6H0hV-4-nXD7Iv5oEF9XKdbGa1i9Oa2s
+TQID: 'https://experienceleague.adobe.com/uR2GdykN4aZ6H0hV-4-nXD7Iv5oEF9XKdbGa1i9Oa2s'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: '837'
 ht-degree: 1%
-
 ---
-
 # 應用程式內通知概觀
 
 本文列出您可收到的應用程式內通知。 應用程式內通知可讓您隨時瞭解兩種資訊：宣告通知和工作專案通知。 網頁應用程式和行動應用程式皆可提供。
@@ -103,9 +106,9 @@ ht-degree: 1%
 * ![問題圖示](assets/issue.png) [!UICONTROL 指派給]的問題[團隊名稱] - [指派者名稱]
 * ![指派給您的任務](assets/icon-taskassngdtoyou.png) [!UICONTROL 指派給]的任務[團隊名稱] - [指派者名稱]
 
-   * 只有當專案狀態設定為[!UICONTROL 目前] （或相當於目前[!UICONTROL 的自訂狀態]）時，才會傳送工作分派通知。
-   * 請求者和檢閱者不會獲得指派的工作。 因此，如果他們被指派到任務和問題，則不會通知他們。
-   * 如果您將工作指派給自己或您所屬的團隊，您將不會收到通知。
+  * 只有當專案狀態設定為[!UICONTROL 目前] （或相當於目前[!UICONTROL 的自訂狀態]）時，才會傳送工作分派通知。
+  * 請求者和檢閱者不會獲得指派的工作。 因此，如果他們被指派到任務和問題，則不會通知他們。
+  * 如果您將工作指派給自己或您所屬的團隊，您將不會收到通知。
 
 ### [!UICONTROL 個註解]
 

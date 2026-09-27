@@ -8,24 +8,29 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 6d9a409d-8d16-4c58-ad02-f60aa1ac1714
-TQID: https://experienceleague.adobe.com/w4GbXu2z8f8kymWMp7mGn5qRm5gf5X0u9WAI2b5Lcdk
+TQID: 'https://experienceleague.adobe.com/w4GbXu2z8f8kymWMp7mGn5qRm5gf5X0u9WAI2b5Lcdk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 346
+source-wordcount: '346'
 ht-degree: 5%
-
 ---
-
 # 停用或重新啟用自訂表單
 
 您可以重新啟用或停用自訂表單。 建議您停用自訂表單，不要刪除您不再用來保留歷史資料的表單。

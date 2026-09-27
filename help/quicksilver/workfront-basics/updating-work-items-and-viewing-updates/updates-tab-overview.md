@@ -7,25 +7,31 @@ description: 物件的「更新」區段會顯示使用者對物件所做的註�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-TQID: https://experienceleague.adobe.com/NqVbeRxC-1ZOBHKNGLl8XRajN701qE2G5elE-fxDCkI
+TQID: 'https://experienceleague.adobe.com/NqVbeRxC-1ZOBHKNGLl8XRajN701qE2G5elE-fxDCkI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1206
+source-wordcount: '1206'
 ht-degree: 4%
-
 ---
-
 # 更新區段概觀
 
 <!-- Audited: 1/2024 -->
@@ -155,44 +161,44 @@ Depending on what objects you access the commenting experience for, you might fi
 
 * 以下物件在更新區段的所有三個索引標籤中具有類似的體驗：
 
-   * 專案
-   * 任務
-   * 問題
-   * 計劃
-   * 專案組合
-   * 使用者
-   * 時程表
+  * 專案
+  * 任務
+  * 問題
+  * 計劃
+  * 專案組合
+  * 使用者
+  * 時程表
 
 * 下列物件沒有「系統」活動標籤或「全部」標籤，且「註解」標籤中的體驗符合所有其他物件的體驗：
 
-   * 團隊
-   * 範本
-   * 範本任務
+  * 團隊
+  * 範本
+  * 範本任務
 
 * 下列物件沒有「系統」活動標籤或「全部」標籤，且「註解」標籤中的體驗與所有其他物件的體驗不同：
 
-   * 疊代
-   * 面板區域中的臨時卡片
+  * 疊代
+  * 面板區域中的臨時卡片
 
-     如需卡片更新的詳細資訊，請參閱[將臨機卡片新增到展示板](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md)。
+    如需卡片更新的詳細資訊，請參閱[將臨機卡片新增到展示板](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md)。
 
 * 下列物件有「系統」活動標籤，沒有「全部」標籤：
 
-   * 面板區域中的已連線卡片
+  * 面板區域中的已連線卡片
 
-     如需詳細資訊，請參閱[使用主機板上的連線卡](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)。
+    如需詳細資訊，請參閱[使用主機板上的連線卡](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)。
 
 * 下列物件具有「歷史記錄」標籤，可取代「系統」活動標籤：
 
-   * Workfront Planning中的記錄
+  * Workfront Planning中的記錄
 
-     如需詳細資訊，請參閱[歷程記錄區段總覽](/help/quicksilver/planning/records/history-section-overview.md)。
+    如需詳細資訊，請參閱[歷程記錄區段總覽](/help/quicksilver/planning/records/history-section-overview.md)。
 
 * 下列物件沒有「全部」標籤，「註解」標籤中的體驗符合大多數物件的體驗：
 
-   * 目標
+  * 目標
 
-     如需有關目標更新的詳細資訊，請參閱[管理目標註解](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md)。
+    如需有關目標更新的詳細資訊，請參閱[管理目標註解](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md)。
 
 <!-- info for April 11: hide the entire section below: -->
 
@@ -324,19 +330,19 @@ The following objects don't record system updates:
 
 * 團隊的「更新」區段由新增到下列物件的註解來填入：
 
-   * 使用者
-   * 劇本
-   * 時程表
-   * 疊代
+  * 使用者
+  * 劇本
+  * 時程表
+  * 疊代
 
 * 使用者的「更新」區域的「系統更新」標籤由其他物件的更新來填入。 當在設定的更新摘要區域中追蹤這些欄位時，以下是在使用者設定檔的系統更新索引標籤中顯示的更新：
 
-   * 檔案新增、移除和其他檔案更新
-   * 小時新增、移除、代表新增及其他小時專案更新
-   * 自訂欄位的更新
-   * 使用者設定檔更新（使用者頭像的更新、行動電話號碼、與我討論欄位、標題）
-   * 使用者新增、移除、存取層級變更、內建使用者欄位變更
-   * 來自任務和專案的財務資訊。
+  * 檔案新增、移除和其他檔案更新
+  * 小時新增、移除、代表新增及其他小時專案更新
+  * 自訂欄位的更新
+  * 使用者設定檔更新（使用者頭像的更新、行動電話號碼、與我討論欄位、標題）
+  * 使用者新增、移除、存取層級變更、內建使用者欄位變更
+  * 來自任務和專案的財務資訊。
 
 ### 代表其他使用者輸入評論時的限制
 

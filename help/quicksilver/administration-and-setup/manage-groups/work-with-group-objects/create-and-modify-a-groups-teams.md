@@ -8,27 +8,37 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
-TQID: https://experienceleague.adobe.com/y4osIytJeWgPtxz6fhWksmVS4uLV1n6Z-w2UiwwQRLs
+TQID: 'https://experienceleague.adobe.com/y4osIytJeWgPtxz6fhWksmVS4uLV1n6Z-w2UiwwQRLs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 subfeature_v2:
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 992
+source-wordcount: '992'
 ht-degree: 5%
-
 ---
-
 # 建立和修改群組的團隊
 
 當您在「群組」區域中檢視您管理的群組時，您可以檢視與群組及其任何子群組相關聯的專案團隊並與其合作。
@@ -117,7 +127,7 @@ ht-degree: 5%
       </tbody> 
      </table>
 
-   * **編輯團隊**：請至少選取一個團隊，按一下&#x200B;**&#x200B;**「編輯」圖示![「編輯」圖示](assets/edit-icon.png)，然後使用下列選項進行設定：
+   * **編輯團隊**：請至少選取一個團隊，按一下&#x200B;****「編輯」圖示![「編輯」圖示](assets/edit-icon.png)，然後使用下列選項進行設定：
 
      <table style="table-layout:auto"> 
       <col> 

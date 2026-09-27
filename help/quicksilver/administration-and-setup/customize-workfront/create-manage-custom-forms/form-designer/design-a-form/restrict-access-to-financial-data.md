@@ -8,13 +8,25 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3380cce6-8372-43c0-8520-473442ea0eb4
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '634'
 ht-degree: 6%
-
 ---
-
 # 限制存取自訂欄位中的財務資料
 
 建立自訂欄位時，您可以定義選擇性設定，以限制對財務資料的存取。 如此一來，在存取層級中設定特定許可權的使用者便能檢視資料，且無法檢視不應存取的財務資料。
@@ -94,7 +106,7 @@ ht-degree: 6%
    * 公式中使用的欄位會決定許可權欄位是否有效。 如果許可權欄位空白（並且未開啟自動許可權），則公式中的欄位不支援財務許可權。
    * 公式中所有欄位都需要存取權。 例如，如果在計算欄位中使用兩個欄位，其中一個已套用計費許可權，而另一個已套用成本許可權，則使用者必須具有檢視計費和成本費率的許可權才能檢視計算值。
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**&#x200B;並繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****&#x200B;並繼續建立您的表單。
 
    或
 

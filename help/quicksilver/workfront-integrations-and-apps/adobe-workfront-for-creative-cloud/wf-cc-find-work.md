@@ -8,23 +8,33 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4abb3257-5f6a-45f6-933b-f3bfb3728f1c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/kNA5u-MELdG4G4TzFgLRqQO7S5LWzdcucPoxsENV-uQ
+TQID: 'https://experienceleague.adobe.com/kNA5u-MELdG4G4TzFgLRqQO7S5LWzdcucPoxsENV-uQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 381
+source-wordcount: '381'
 ht-degree: 4%
-
 ---
-
 # 使用[!DNL Adobe Workfront]外掛程式尋找您的工作
 
 在[!DNL Adobe Workfront]中找到指派給您的工作，不要離開下列[!DNL Adobe Creative Cloud]個應用程式：
@@ -81,10 +91,10 @@ ht-degree: 4%
   <tr> 
    <td> 
     <ul> 
-     <li>[!UICONTROL 到期日期]</li> 
+     <li>[！UICONTROL到期日期]</li> 
      <li>[!UICONTROL 名稱]</li> 
-     <li>[!UICONTROL 專案名稱]</li> 
-     <li>[!UICONTROL 我的優先順序]</li> 
+     <li>[！UICONTROL專案名稱]</li> 
+     <li>[！UICONTROL我的優先順序]</li> 
     </ul> </td> 
    <td> <img src="assets/copy-of-sort-by-350x606.png" style="width: 350;height: 606;"> </td> 
   </tr> 
@@ -105,8 +115,8 @@ ht-degree: 4%
    <td> <p>第一個是僅根據工作專案型別或屬性進行篩選：</p> 
     <ul> 
      <li><strong>工作專案</strong>：任務、子任務、問題或個人任務</li> 
-     <li><strong>工作專案狀態</strong>： [!UICONTROL 正在處理]、[!UICONTROL 準備開始]或[!UICONTROL 未就緒]</li> 
-    </ul> <p>第二個是使用工作專案與工作專案狀態一起進行篩選。 例如，您可以選取「任務」和[!UICONTROL 準備開始] ，以在您的工作清單中尋找所有準備工作的任務。</p> <p>您也可以使用[!UICONTROL 欄位比對]來搜尋篩選集合中的特定專案。 </p> </td> 
+     <li><strong>工作專案狀態</strong>： [！UICONTROL正在處理]、[！UICONTROL準備開始]或[！UICONTROL未就緒]</li> 
+    </ul> <p>第二個是使用工作專案與工作專案狀態一起進行篩選。 例如，您可以選取「任務」和[！UICONTROL準備開始] ，以在您的工作清單中尋找所有準備工作的任務。</p> <p>您也可以使用[！UICONTROL欄位比對]來搜尋篩選集合中的特定專案。 </p> </td> 
    <td> <img src="assets/copy-of-filter-p-350x603.png" style="width: 350;height: 603;"> </td> 
   </tr> 
  </tbody> 

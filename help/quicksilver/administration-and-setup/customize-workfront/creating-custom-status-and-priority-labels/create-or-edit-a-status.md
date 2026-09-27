@@ -8,26 +8,33 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
-TQID: https://experienceleague.adobe.com/Ujv4d5ITVkWkTP3E3oqjrlZ0dV0wjlX4Y1PLTuGRxRQ
+TQID: 'https://experienceleague.adobe.com/Ujv4d5ITVkWkTP3E3oqjrlZ0dV0wjlX4Y1PLTuGRxRQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 950
+source-wordcount: '950'
 ht-degree: 4%
-
 ---
-
 # 建立或編輯狀態
 
 <!-- Audited: 1/2024 -->
@@ -86,7 +93,7 @@ ht-degree: 4%
 
    如果狀態為群組或子群組，請在右上角開始輸入群組的名稱，然後在其出現時選取它。
 
-   群組![&#128279;](assets/system-statuses-in-upper-rt-corner-group-new-png.png)的系統狀態
+   群組](assets/system-statuses-in-upper-rt-corner-group-new-png.png)的![系統狀態
 
 1. 選取您想要與狀態關聯的物件型別（**專案**、**任務**&#x200B;或&#x200B;**問題**）的標籤。
 

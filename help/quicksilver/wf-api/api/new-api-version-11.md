@@ -9,22 +9,28 @@ role: Developer
 exl-id: b8826dc6-9791-49f6-923d-5a0c5392a8b0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/jxT6mJm6ValA-MH9L0Xl-aE0Q5Oq-MxWdg-1NvGZ5EY
+TQID: 'https://experienceleague.adobe.com/jxT6mJm6ValA-MH9L0Xl-aE0Q5Oq-MxWdg-1NvGZ5EY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Customer experience
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3231
+source-wordcount: '3591'
 ht-degree: 2%
-
 ---
-
 # API 11版的新增功能
 
 * [已新增資源](#added-resources)
@@ -339,7 +345,7 @@ AccessLevelPermissions物件代表一組許可權。 然後可以將這組許可
    <td>直接欄位</td> 
    <td> 
     <ul> 
-     <li> <p style="font-weight: bold;">動作</p> <p>已新增可能的值BUDGETING_INFORMATION。這允許具有許可權的使用者編輯規劃工具中的優先順序和預算時數。  </p> </li> 
+     <li> <p style="font-weight: bold;">動作</p> <p>已新增可能的值BUDGETING_INFORMATION。 這允許具有許可權的使用者編輯規劃工具中的優先順序和預算時數。  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -431,7 +437,7 @@ ApprovalPath物件是核准流程中的分支。 「核准路徑」是以與「�
    <td>直接欄位</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>durationUnit </p> <p style="font-weight: normal;">新增可能的值ET。此值代表經過的月時間單位，不考慮週末或假日。  </p> </li> 
+     <li style="font-weight: bold;"> <p>durationUnit </p> <p style="font-weight: normal;">新增可能的值ET。 此值代表經過的月時間單位，不考慮週末或假日。  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -449,7 +455,7 @@ ApprovalProcess物件是可與專案、任務或問題相關聯的多步驟核�
    <td>直接欄位</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">此欄位已新增，且是布林引數，如果物件為作用中，則值為true，否則為false。設定為「作用中」的物件會出現在下拉式選單和預先輸入欄位中，並可附加到其他物件。未設定為「作用中」的物件在下拉式選單和要附加至其他物件的預先輸入欄位中不可見。  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">此欄位已新增，且是布林引數，如果物件為作用中，則值為true，否則為false。 設定為「作用中」的物件會出現在下拉式選單和預先輸入欄位中，並可附加到其他物件。 未設定為「作用中」的物件在下拉式選單和要附加至其他物件的預先輸入欄位中不可見。  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -474,7 +480,7 @@ ApprovalProcess物件是可與專案、任務或問題相關聯的多步驟核�
    <td>直接欄位</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>工作單位 </p> <p style="font-weight: normal;">新增可能的值ET。此值代表經過的月時間單位，不考慮週末或假日。  </p> </li> 
+     <li style="font-weight: bold;"> <p>工作單位 </p> <p style="font-weight: normal;">新增可能的值ET。 此值代表經過的月時間單位，不考慮週末或假日。  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -492,7 +498,7 @@ ApprovalProcess物件是可與專案、任務或問題相關聯的多步驟核�
    <td>直接欄位</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>durationUnit </p> <p style="font-weight: normal;">新增可能的值ET。此值代表經過的月時間單位，不考慮週末或假日。  </p> </li> 
+     <li style="font-weight: bold;"> <p>durationUnit </p> <p style="font-weight: normal;">新增可能的值ET。 此值代表經過的月時間單位，不考慮週末或假日。  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -510,7 +516,7 @@ ApprovalProcess物件是可與專案、任務或問題相關聯的多步驟核�
    <td>直接欄位</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">此欄位已新增，且是布林引數，如果物件為作用中，則值為true，否則為false。設定為「作用中」的物件會出現在下拉式選單和預先輸入欄位中，並可附加到其他物件。未設定為「作用中」的物件在下拉式選單和要附加至其他物件的預先輸入欄位中不可見。  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">此欄位已新增，且是布林引數，如果物件為作用中，則值為true，否則為false。 設定為「作用中」的物件會出現在下拉式選單和預先輸入欄位中，並可附加到其他物件。 未設定為「作用中」的物件在下拉式選單和要附加至其他物件的預先輸入欄位中不可見。  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -535,7 +541,7 @@ Company物件代表由人員集合組成的組織。 公司與使用者或專案
    <td>直接欄位</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">此欄位已新增，且是布林引數，如果物件為作用中，則值為true，否則為false。設定為「作用中」的物件會出現在下拉式選單和預先輸入欄位中，並可附加到其他物件。未設定為「作用中」的物件在下拉式選單和要附加至其他物件的預先輸入欄位中不可見。  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">此欄位已新增，且是布林引數，如果物件為作用中，則值為true，否則為false。 設定為「作用中」的物件會出現在下拉式選單和預先輸入欄位中，並可附加到其他物件。 未設定為「作用中」的物件在下拉式選單和要附加至其他物件的預先輸入欄位中不可見。  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -747,7 +753,7 @@ Document物件代表檔案（例如書面材料、影像或其他形式的資訊
    <td>直接欄位</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">此欄位已新增，且是布林引數，如果物件為作用中，則值為true，否則為false。設定為「作用中」的物件會出現在下拉式選單和預先輸入欄位中，並可附加到其他物件。未設定為「作用中」的物件在下拉式選單和要附加至其他物件的預先輸入欄位中不可見。  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">此欄位已新增，且是布林引數，如果物件為作用中，則值為true，否則為false。 設定為「作用中」的物件會出現在下拉式選單和預先輸入欄位中，並可附加到其他物件。 未設定為「作用中」的物件在下拉式選單和要附加至其他物件的預先輸入欄位中不可見。  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -853,7 +859,7 @@ Parameter物件是自訂欄位。
    <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>顯示型別</p> <p style="font-weight: normal;">新增可能的值TYAH （自動提示）。</p> </li> 
-     <li style="font-weight: bold;"> <p>refObjCode </p> <p style="font-weight: normal;">此欄位已新增，並參考參考參考物件的物件程式碼。您可以在<a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>中找到所有物件的物件程式碼。  </p> </li> 
+     <li style="font-weight: bold;"> <p>refObjCode </p> <p style="font-weight: normal;">此欄位已新增，並參考參考參考物件的物件程式碼。 您可以在<a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>中找到所有物件的物件程式碼。  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -890,7 +896,7 @@ Portfolio物件是競爭相同資源（通常是金錢或人力）的專案集�
    <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>說明</p> <p style="font-weight: normal;">新增驗證器MAX_LENGTH，指定說明長度不得超過4000個字元。</p> </li> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">此欄位已新增，且是布林引數，如果物件為作用中，則值為true，否則為false。設定為「作用中」的物件會出現在下拉式選單和預先輸入欄位中，並可附加到其他物件。未設定為「作用中」的物件在下拉式選單和要附加至其他物件的預先輸入欄位中不可見。  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">此欄位已新增，且是布林引數，如果物件為作用中，則值為true，否則為false。 設定為「作用中」的物件會出現在下拉式選單和預先輸入欄位中，並可附加到其他物件。 未設定為「作用中」的物件在下拉式選單和要附加至其他物件的預先輸入欄位中不可見。  </p> </li> 
      <li style="font-weight: bold;"> <p>名稱 </p> <p style="font-weight: normal;">新增驗證器MAX_LENGTH，指定名稱長度不得超過255個字元。  </p> </li> 
     </ul> </td> 
   </tr> 
@@ -1178,7 +1184,7 @@ Template物件代表專案的模式。 可以從範本建立專案以節省時�
    <td>直接欄位</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">此欄位已新增，且是布林引數，如果物件為作用中，則值為true，否則為false。設定為「作用中」的物件會出現在下拉式選單和預先輸入欄位中，並可附加到其他物件。未設定為「作用中」的物件在下拉式選單和要附加至其他物件的預先輸入欄位中不可見。  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">此欄位已新增，且是布林引數，如果物件為作用中，則值為true，否則為false。 設定為「作用中」的物件會出現在下拉式選單和預先輸入欄位中，並可附加到其他物件。 未設定為「作用中」的物件在下拉式選單和要附加至其他物件的預先輸入欄位中不可見。  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -1212,7 +1218,7 @@ Template物件代表專案的模式。 可以從範本建立專案以節省時�
    <td>直接欄位</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>工作單位</p> <p style="font-weight: normal;">新增可能的值ET。此值代表經過的月時間單位，不考慮週末或假日。  </p> </li> 
+     <li style="font-weight: bold;"> <p>工作單位</p> <p style="font-weight: normal;">新增可能的值ET。 此值代表經過的月時間單位，不考慮週末或假日。  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

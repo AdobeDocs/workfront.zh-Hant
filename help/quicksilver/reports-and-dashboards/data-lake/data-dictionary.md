@@ -7,13 +7,20 @@ description: 本頁包含有關Workfront Data Connect中資料結構和內容的
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: db297bb06ed50e668777bf5fb8e0f444b146a77a
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '11542'
 ht-degree: 8%
-
 ---
-
 # Workfront Data Connect資料字典
 
 本頁包含有關Workfront Data Connect中資料結構和內容的資訊。
@@ -648,7 +655,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
     </tbody>
 </table>
 
-### 等待核准
+### 正在等待核准
 
 <table>
     <thead>
@@ -662,10 +669,10 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
       </thead>
       <tbody>
         <tr>
-            <td>等待核准</td>
-            <td>等待核准</td>
+            <td>正在等待核准</td>
+            <td>正在等待核准</td>
             <td>AWAPVL</td>
-            <td>等待核准</td>
+            <td>正在等待核准</td>
             <td>AWAITINGAPPROVALS_CURRENT<br>AWAITINGAPPROVALS_DAILY_HISTORY<br>AWAITINGAPPROVALS_EVENT</td>
         </tr>
       </tbody>
@@ -1708,15 +1715,15 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
 >
 >透過`enumClass`屬性識別記錄的型別。 下列是預期的型別： <br>
 ><ul><li>CONDITION_OPTASK</li>
->&gt;<li>CONDITION_PROJ</li>
->&gt;<li>CONDITION_TASK</li>
->&gt;<li>PRIORITY_OPTASK</li>
->&gt;<li>優先順序_專案</li>
->&gt;<li>PRIORITY_TASK</li>
->&gt;<li>SEVERITY_OPTASK</li>
->&gt;<li>STATUS_OPTASK</li>
->&gt;<li>STATUS_PROJ</li>
->&gt;<li>狀態任務</li></ul>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>優先順序_專案</li>
+&gt;<li>PRIORITY_TASK</li>
+&gt;<li>SEVERITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJ</li>
+&gt;<li>狀態任務</li></ul>
 
 
 ### 文件
@@ -2404,7 +2411,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
     </tbody>
 </table>
 
-### 檔案提供者設定
+### 文件提供者設定
 
 <table>
     <thead>
@@ -2418,8 +2425,8 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
       </thead>
       <tbody>
         <tr>
-            <td>檔案提供者設定</td>
-            <td>檔案提供者設定</td>
+            <td>文件提供者設定</td>
+            <td>文件提供者設定</td>
             <td>DOCCFG</td>
             <td>DocumentProviderConfig</td>
             <td>DOCPROVIDERCONFIG_CURRENT<br>DOCPROVIDERCONFIG_DAILY_HISTORY<br>DOCPROVIDERCONFIG_EVENT</td>

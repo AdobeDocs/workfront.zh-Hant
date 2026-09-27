@@ -8,22 +8,31 @@ description: 讓本文更適合PiW。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d879b1c6-e862-4653-aa93-90ad92170951
-TQID: https://experienceleague.adobe.com/0HC5D2PBZQ7L7N5NI0Q2FbUg6qSjLK7M1OkRLrUj0kA
+TQID: 'https://experienceleague.adobe.com/0HC5D2PBZQ7L7N5NI0Q2FbUg6qSjLK7M1OkRLrUj0kA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 806
+source-wordcount: '806'
 ht-degree: 0%
-
 ---
-
 # 新校訂電子郵件
 
 >[!IMPORTANT]
@@ -65,7 +74,7 @@ ht-degree: 0%
 
 ## 活動記錄
 
-傳送[!UICONTROL 新校訂]電子郵件給檢閱者記錄在[!UICONTROL 校訂詳細資料]頁面的[!UICONTROL 活動]區段。 如需詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中的管理[!UICONTROL 校訂詳細資料]。 您可以檢查在建立校訂時是否已啟用[!UICONTROL 新校訂]電子郵件。
+傳送[!UICONTROL 新校訂]電子郵件給檢閱者記錄在[!UICONTROL 校訂詳細資料]頁面的[!UICONTROL 活動]區段。 如需詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)中的[管理[!UICONTROL 校訂詳細資料]。 您可以檢查在建立校訂時是否已啟用[!UICONTROL 新校訂]電子郵件。
 
 ![New_Verison_email_-_activity_log.png](assets/new-verison-email---acitivity-log-350x44.png)
 

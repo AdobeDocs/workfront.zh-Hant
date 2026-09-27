@@ -2,34 +2,41 @@
 product-area: workfront-integrations;projects
 keywords: google，doc，檔案，工作表，幻燈片
 navigation-topic: workfront-for-g-suite
-title: 從Google Workspace檢視及管理 [!DNL Adobe Workfront] 物件詳細資料
-description: 您無需離開Google Workspace，即可檢視和管理工作專案的詳細資料。 例如，您可以在Google Workspace的 [!DNL Adobe Workfront] 內讀取任務的說明、檢視其父系物件、變更其狀態，以及將其標示為完成。
+title: 從Google Workspace檢視及管理[!DNL Adobe Workfront]物件詳細資料
+description: 您無需離開Google Workspace，即可檢視和管理工作專案的詳細資料。 例如，您可以在Google Workspace的[!DNL Adobe Workfront]中讀取任務的說明、檢視其父系物件、變更其狀態並將其標示為完成。
 author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/0kNm1im-t00FReGTxaD0q9dUVqgtaB9-nm--VrGF79k
+TQID: 'https://experienceleague.adobe.com/0kNm1im-t00FReGTxaD0q9dUVqgtaB9-nm--VrGF79k'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: bbf3fe51-0066-4980-9062-f8005585ee10
+    internal-label: Adobe Workfront for Google Workspace
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 219
+source-wordcount: '221'
 ht-degree: 0%
-
 ---
-
 # 從[!DNL Google Workspace]檢視及管理[!DNL Adobe Workfront]物件詳細資料
 
 >[!IMPORTANT]
@@ -42,9 +49,9 @@ ht-degree: 0%
 >
 >為了滿足貴組織與Google Workspace的整合需求，我們建議您使用Workfront自動化和整合。
 >
->如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 >
->如需Google Workspace之Workfront自動化與整合模組的特定功能相關資訊，請參閱[Gmail模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)和[Google行事曆模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)。
+>如需Google Workspace之Workfront自動化與整合模組的特定功能相關資訊，請參閱[Gmail模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)和[Google行事曆模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)。
 
 <!--
 

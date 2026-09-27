@@ -8,23 +8,33 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: cfccb120-8759-49f2-8b7b-dabcd57d4fda
-TQID: https://experienceleague.adobe.com/S7EfI5qY6OdXY1XTEgFtODWIBqS6UzMKVp0GUL1geyg
+TQID: 'https://experienceleague.adobe.com/S7EfI5qY6OdXY1XTEgFtODWIBqS6UzMKVp0GUL1geyg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 565
+source-wordcount: '565'
 ht-degree: 9%
-
 ---
-
 # 設定預設校訂設定
 
 這些設定允許您設定適用於使用者建立的所有新校樣的預設值。 但是，使用者可以在建立校訂時覆寫這些設定中的大部分。
@@ -145,5 +155,5 @@ ht-degree: 9%
 
       ![隱藏決定](assets/hide-decision-350x109.png)
 
-1. （選擇性）若要返回Workfront預設值，請按一下[還原預設值]。**&#x200B;**
+1. （選擇性）若要返回Workfront預設值，請按一下[還原預設值]。****
 1. 按一下「**儲存**」。

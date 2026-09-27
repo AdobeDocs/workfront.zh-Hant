@@ -8,22 +8,28 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 3937fd72-fa54-4777-9ec4-1f097df7a2ee
-TQID: https://experienceleague.adobe.com/4P19FJmlpQfFZfWrfnjmgSJsQ9InspngsEAeMlTktvA
+TQID: 'https://experienceleague.adobe.com/4P19FJmlpQfFZfWrfnjmgSJsQ9InspngsEAeMlTktvA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 600
+source-wordcount: '605'
 ht-degree: 0%
-
 ---
-
 # 群組如何繼承狀態
 
 當您列出群組的可用狀態時，您會看到以下內容

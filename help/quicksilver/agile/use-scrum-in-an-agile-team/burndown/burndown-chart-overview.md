@@ -9,25 +9,33 @@ feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/8OZS7tJxkbVtVbH41oKsUmL2dwJdkOCTJFXcuxXtWFQ
+TQID: 'https://experienceleague.adobe.com/8OZS7tJxkbVtVbH41oKsUmL2dwJdkOCTJFXcuxXtWFQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 976
+source-wordcount: '976'
 ht-degree: 0%
-
 ---
-
 # 敏捷待執行工作圖表總覽
 
 待執行工作圖表提供內文在反複專案中的進度視覺化表示。 實際待執行工作速率是依照反複專案時間表的理想待執行工作速率來測量。
@@ -72,12 +80,12 @@ ht-degree: 0%
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="為燒毀的工作製作綠點"> </td> 
    <td> <p>每次工作燒毀時，實際燒毀率都會顯示綠色或紅點。 （當當天的實際待執行工作速率是紅色時，點代表紅色；噹噹噹天的實際待執行工作速率是綠色時，點代表綠色。）</p> <p>發生下列任一情況時，工作就會被燒毀：</p> 
     <ul> 
-     <li> 內文的[!UICONTROL 完成百分比]會增加。<br>[!UICONTROL 完成百分比]會增加： 
+     <li> 內文的[！UICONTROL完成百分比]會增加。<br>[！UICONTROL完成百分比]會增加： 
       <ul> 
        <li> <p>手動變更</p> </li> 
        <li> <p>內文上的點數或小時數已更新</p> </li> 
       </ul></li>  
-     <li>內文的狀態已變更為[!UICONTROL 完成]</li> 
+     <li>內文的狀態已變更為[！UICONTROL完成]</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -95,9 +103,9 @@ ht-degree: 0%
 
   當工作已登入休息日時：
 
-   * 計算理想的待執行工作時不包括任何記錄的工作，因為團隊未排程進行任何工作。
-   * 理想的待執行工作線（實心藍線和虛線藍線）會顯示在待執行工作圖中的任何一天或您檢視待執行工作圖的那一天（如果您在休息日檢視），顯示為平坦。
-   * 計算其他待執行工作統計資料（例如預估完成和平均每日點數或時數）時，會包含記錄的工作。
+  * 計算理想的待執行工作時不包括任何記錄的工作，因為團隊未排程進行任何工作。
+  * 理想的待執行工作線（實心藍線和虛線藍線）會顯示在待執行工作圖中的任何一天或您檢視待執行工作圖的那一天（如果您在休息日檢視），顯示為平坦。
+  * 計算其他待執行工作統計資料（例如預估完成和平均每日點數或時數）時，會包含記錄的工作。
 
 * 您正在休息日檢視待執行工作圖表。 （您檢視的日期會顯示在待執行工作圖表上。）
 * 您已在休息日完成疊代的總剩餘工作。

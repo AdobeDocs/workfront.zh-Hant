@@ -9,24 +9,33 @@ feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/BgcfmiUmikym8E0Lfai-do3Z9nckDKcaoBk-L9smdzM
+TQID: 'https://experienceleague.adobe.com/BgcfmiUmikym8E0Lfai-do3Z9nckDKcaoBk-L9smdzM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1018
+source-wordcount: '1018'
 ht-degree: 5%
-
 ---
-
 # 將輸入欄新增到展示板
 
 <!-- Audited: 5/2025 -->
@@ -139,7 +148,7 @@ ht-degree: 5%
 
    如需建立篩選的詳細資訊，請參閱文章[在 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md)中建立或編輯篩選中，標準產生器中的建立或編輯篩選區段。
 
-1. 為篩選器命名，然後按一下[儲存]。**&#x200B;** 該篩選器會出現在您儲存的篩選器清單中，並自動套用至輸入欄。
+1. 為篩選器命名，然後按一下[儲存]。**** 該篩選器會出現在您儲存的篩選器清單中，並自動套用至輸入欄。
 
    ![正在輸入新的篩選器名稱](assets/save-as-modal.png)
 

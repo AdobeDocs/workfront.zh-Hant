@@ -10,19 +10,26 @@ role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/vQxq09j6G2hcey1yZqWXV4V2t-2ko76Bu4WnFAAGUQc
+TQID: 'https://experienceleague.adobe.com/vQxq09j6G2hcey1yZqWXV4V2t-2ko76Bu4WnFAAGUQc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1988
+source-wordcount: '2063'
 ht-degree: 0%
-
 ---
-
 # 新的評論體驗發行活動
 
 <!--take the badge out when it comes to production GA for everyone-->
@@ -325,22 +332,22 @@ Beta版計畫結束後發行的功能會在發行時的最新發行頁面中傳�
 
 針對註解Beta版的問題和目標發佈了以下維護更新：
 
-編輯註解時編輯附加的影像。 如需詳細資訊，請參閱&lt;a href=&quot;https://experienceleague.adobe.com/zh-hant/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates於2023年4月</a>文章中的「4月27日維護更新」一節。
+編輯註解時編輯附加的影像。 如需詳細資訊，請參閱&lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates於2023年4月</a>文章中的「4月27日維護更新」一節。
 
 ### 2023 年 4 月 20 日
 
 針對註解Beta版的問題和目標發佈了以下維護更新：
 
-遠離目標更新和評論Beta版體驗中的問題時，請將影像保留為草稿。 如需詳細資訊，請參閱&lt;a href=&quot;https://experienceleague.adobe.com/zh-hant/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates於2023年4月</a>文章中的「4月20日維護更新」一節。
+遠離目標更新和評論Beta版體驗中的問題時，請將影像保留為草稿。 如需詳細資訊，請參閱&lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates於2023年4月</a>文章中的「4月20日維護更新」一節。
 
 ### 2023 年 4 月 17 日
 
 針對註解Beta版的問題和目標發佈了以下維護更新：
 
-在問題的更新區段（新註解Beta體驗）和目標中，在可見畫面區域之外顯示新註解。 如需詳細資訊，請參閱&lt;a href=&quot;https://experienceleague.adobe.com/zh-hant/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates於2023年4月</a>文章中的「4月17日維護更新」一節。
+在問題的更新區段（新註解Beta體驗）和目標中，在可見畫面區域之外顯示新註解。 如需詳細資訊，請參閱&lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates於2023年4月</a>文章中的「4月17日維護更新」一節。
 
 
 ### 2023年4月6日當週
 
 新的發表評論測試版體驗已針對問題推出。
-針對Workfront物件的評論測試版所發行的相同功能，會針對有權存取Workfront目標的所有使用者同時發行目標。如需詳細資訊，請參閱[23.2版本總覽](../../product-releases/23.2-release-activity/23-2-release-overview.md)。
+針對Workfront物件的評論測試版所發行的相同功能，會針對有權存取Workfront目標的所有使用者同時發行目標。 如需詳細資訊，請參閱[23.2版本總覽](../../product-releases/23.2-release-activity/23-2-release-overview.md)。

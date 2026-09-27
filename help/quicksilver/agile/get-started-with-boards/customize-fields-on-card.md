@@ -8,22 +8,29 @@ feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/EQ1z8JdgItM0LNWt0QYRnqygo6-2g-HAMOOqn4nOkE0
+TQID: 'https://experienceleague.adobe.com/EQ1z8JdgItM0LNWt0QYRnqygo6-2g-HAMOOqn4nOkE0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 647
+source-wordcount: '647'
 ht-degree: 2%
-
 ---
-
 # 自訂要在卡片上顯示的欄位
 
 依預設，所有可用欄位都會顯示在卡片上，當卡片開啟時會顯示為完整檢視，並在展示板上的壓縮卡片檢視中顯示。 您可以自訂哪些欄位會以下列方式顯示：
@@ -79,7 +86,7 @@ ht-degree: 2%
 
 1. 關閉欄位或區段以在兩個卡片檢視中將其停用。
 1. 按一下欄位或區段旁的隱藏圖示![隱藏圖示](assets/eye-hide-icon.png)，在壓縮檢視中隱藏它。
-1. 若要在兩個檢視中顯示所有欄位和區段，請按一下[將所有欄位還原為預設值]。**&#x200B;**
+1. 若要在兩個檢視中顯示所有欄位和區段，請按一下[將所有欄位還原為預設值]。**][!UICONTROL **
 1. 按一下&#x200B;[!UICONTROL **隱藏設定**]&#x200B;以關閉「設定」面板。
 
 ## 新增自訂欄位到卡片

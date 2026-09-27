@@ -8,23 +8,33 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/ZNcKhUpW6KoynPoCZ4UoV9780zHYsGKvtzmi4FbI6Qc
+TQID: 'https://experienceleague.adobe.com/ZNcKhUpW6KoynPoCZ4UoV9780zHYsGKvtzmi4FbI6Qc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 265
+source-wordcount: '275'
 ht-degree: 6%
-
 ---
-
 # 使用[!DNL Adobe Workfront]外掛程式將工作專案標示為完成
 
 您可以繼續使用下列[!DNL Adobe Creative Cloud]應用程式，並使用外掛程式在[!DNL Adobe Workfront]中順暢地完成您的工作：
@@ -57,11 +67,11 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>編輯[!UICONTROL 檔案]的存取權</p> </td> 
+   <td> <p>編輯[！UICONTROL檔案]的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>[!UICONTROL 檢視]存取您要上傳檔案之物件的更高版本。</p> </td> 
+   <td> <p>[！UICONTROL檢視]存取您要上傳檔案之物件的更高版本。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -93,7 +103,7 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >如果工作專案具有前置任務，「完成」按鈕為灰色，直到這些前置任務被標籤為完成。若要檢視[!DNL Workfront]內的前置任務，請按一下工作名稱。
+   >如果工作專案具有前置任務，「完成」按鈕為灰色，直到這些前置任務被標籤為完成。 若要檢視[!DNL Workfront]內的前置任務，請按一下工作名稱。
    >![導覽至Workfront](assets/navigate-to-workfront.png)
 
 <!-- I dont think we need this one ![Complete work](assets/complete-work-350x529.png) -->

@@ -10,20 +10,24 @@ recommendations: noDisplay, noCatalog
 exl-id: 673792b6-7369-47ce-b0df-9bda4254781c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/aNY9-MPPqe7xJmBGE17vNgLjQOOvtkYui7WYQ-2d8-Q
+TQID: 'https://experienceleague.adobe.com/aNY9-MPPqe7xJmBGE17vNgLjQOOvtkYui7WYQ-2d8-Q'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 86
+source-wordcount: '86'
 ht-degree: 0%
-
 ---
-
 # 報表中計算的自訂資料
 
 您可以使用計算的自訂資料建立報表。 以下文章將說明如何進行：
@@ -34,5 +38,5 @@ ht-degree: 0%
 * [&quot;IF&quot;陳述式總覽](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md)
 * [計算自訂欄位範例：在問題自訂表單上顯示問題建立者的管理員](../../../reports-and-dashboards/reports/calc-cstm-data-reports/custom-field-manager-issue-creator-on-issue-form.md)
 * [計算自訂欄位範例：在自訂表單中顯示狀態時間戳記](../../../reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md)
-* [計算自訂欄位範例：顯示欄位的編輯歷史記錄](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
+* [計算自訂欄位範例：顯示欄位的編輯歷程記錄](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
   <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program)-->

@@ -6,22 +6,27 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1e62e7b3-14b6-4669-b3e1-ac6507343479
-TQID: https://experienceleague.adobe.com/d5r4VDW3ZD3sNx5s9Kj9V8PKt39fZNFtwfiAj6dzdzk
+TQID: 'https://experienceleague.adobe.com/d5r4VDW3ZD3sNx5s9Kj9V8PKt39fZNFtwfiAj6dzdzk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 881
+source-wordcount: '881'
 ht-degree: 0%
-
 ---
-
 # 22.4管理員增強功能
 
 本頁說明22.4版對預覽環境所做的所有管理員增強功能。 這些增強功能將在2022年10月3日當週提供。
@@ -122,11 +127,11 @@ ht-degree: 0%
 
 Adobe Unified Experience包括：
 
-* 透過Adobe Experience Cloud對所有Adobe應用程式執行單一登入
+* 透過Adobe Experience Cloud對所有Adobe應用程式進行單一登入
 
 * 可在Workfront組織和環境之間移動的「組織切換器」
 
-* 包含Workfront頁面、Adobe Experience Cloud偏好設定和您的Workfront設定檔選項的導覽
+* 包含Workfront頁面、Adobe Experience Cloud偏好設定和Workfront設定檔選項的導覽
 
 如需詳細資訊，請參閱[適用於Workfront的Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 

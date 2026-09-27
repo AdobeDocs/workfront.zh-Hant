@@ -1,30 +1,36 @@
 ---
 product-area: workfront-integrations
 navigation-topic: workfront-for-slack
-title: 搜尋來自 [!DNL Slack]的 [!DNL Adobe Workfront] 個專案
-description: 您可以從已安裝的 [!DNL Slack], if your instance of Slack has had the [!DNL Workfront] 應用程式搜尋 [!DNL Adobe Workfront] 專案。
+title: 從[!DNL Slack]搜尋[!DNL Adobe Workfront]個專案
+description: 如果您的Slack執行個體已安裝[!DNL Workfront]應用程式，您可以從[!DNL Slack]搜尋[!DNL Adobe Workfront]專案。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 85821f21-d4fd-4f28-bd7a-0c109a4433a8
-TQID: https://experienceleague.adobe.com/JulYq173XQa6mG93qzUwfBDn4TPVEafD2OVpcIAXxi8
+TQID: 'https://experienceleague.adobe.com/JulYq173XQa6mG93qzUwfBDn4TPVEafD2OVpcIAXxi8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: e4fedd42-4a54-4109-859f-13c7f0366a72
+    internal-label: Adobe Workfront for Slack
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 208
-ht-degree: 15%
-
+source-wordcount: '219'
+ht-degree: 14%
 ---
-
 # 從[!DNL Slack]搜尋[!DNL Adobe Workfront]個專案
 
 如果您的[!DNL Slack]執行個體已安裝[!DNL Workfront]應用程式，您可以從[!DNL Slack]搜尋[!DNL Adobe Workfront]專案。

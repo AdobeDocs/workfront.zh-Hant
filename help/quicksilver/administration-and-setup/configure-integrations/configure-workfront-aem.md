@@ -1,34 +1,45 @@
 ---
-title: '使用 [!DNL Adobe Experience Manager] 舊版聯結器設定 [!DNL Workfront] '
+title: 使用[!DNL Adobe Experience Manager]舊版聯結器設定[!DNL Workfront]
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
-description: 作為 [!DNL Adobe Workfront] 管理員，您可以整合 [!DNL Workfront] 與Adobe Experience Manager (AEM) Assets，並為您的組織提供全方位的內容管理解決方案，以建立、共用及維護工作流程中的資產。
+description: 身為[!DNL Adobe Workfront]管理員，您可以將[!DNL Workfront]與Adobe Experience Manager (AEM) Assets整合，並為您的組織提供完整的內容管理解決方案，用於建立、共用及維護工作流程中的資產。
 author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-TQID: https://experienceleague.adobe.com/8Q6Zl8hZ-1xapGhFs9niCKnpeq-o4kgIta4tu8ObBYs
+TQID: 'https://experienceleague.adobe.com/8Q6Zl8hZ-1xapGhFs9niCKnpeq-o4kgIta4tu8ObBYs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d8302c96-f652-4d09-896b-19a70bab02a5
+    internal-label: System configuration
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: da3860b0-d637-47df-bef0-273751180266
+    internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1869
+source-wordcount: '1873'
 ht-degree: 1%
-
 ---
-
 # 使用[!DNL Adobe Experience Manager]舊版聯結器設定[!DNL Workfront]
 
 <!-- Audited: 4/2025 -->
@@ -87,7 +98,7 @@ ht-degree: 1%
 
 在安裝[!UICONTROL AEM Assets]的[!DNL Workfront]聯結器之前，請確定符合下列必要條件：
 
-* [!UICONTROL AEM Assets]已安裝並設定，版本6.5或更新版本。 如需有關安裝[!UICONTROL AEM Assets]的資訊，請參閱[[!DNL Adobe Experience Manager] 檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager)。
+* [!UICONTROL AEM Assets]已安裝並設定，版本6.5或更新版本。 如需有關安裝[!UICONTROL AEM Assets]的資訊，請參閱[[!DNL Adobe Experience Manager] 檔案](https://experienceleague.adobe.com/en/docs/experience-manager)。
 * （視條件而定）如果防火牆規則未如預期允許流量，請將叢集的IP位址和/或網域新增至允許清單。 如需詳細資訊，請參閱[設定防火牆的允許清單](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)。
 
 ## 安裝[!DNL Workfront for AEM Assets]聯結器封裝 {#install-the-workfront-for-aem-assets-connector-package}
@@ -139,7 +150,7 @@ ht-degree: 1%
 1. 在AEM中，移至&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 安全性]** > **[!UICONTROL 許可權]**。
 1. 在左上角，在下拉式選單中選擇&#x200B;**[!UICONTROL 使用者]**&#x200B;，並在&#x200B;**[!UICONTROL 搜尋]**&#x200B;欄&#x200B;位中輸入&#x200B;*[!UICONTROL workfront-service]*。 選取[!UICONTROL workfront-service]使用者。
 1. 在熒幕右側，選取&#x200B;**[!UICONTROL 新增ACE]**&#x200B;以建立新專案。
-1. 在{&#x200B;0}新增專案&#x200B;**視窗中，選取**&#x200B;[!UICONTROL &#x200B;路徑&#x200B;]&#x200B;**欄&#x200B;位中的核取方塊圖示&#x200B;，然後選擇資料夾： */conf***
+1. 在{&#x200B;0}新增專案&#x200B;]**視窗中，選取**[!UICONTROL &#x200B;路徑&#x200B;]**欄&#x200B;位中的核取方塊圖示&#x200B;，然後選擇資料夾： */conf***[!UICONTROL 
 1. 在&#x200B;**許可權**&#x200B;欄位中，輸入： *jcr:read*
 1. 在右上角，選取&#x200B;**新增**。
 1. （可選）重複上述步驟以建立更多專案。
@@ -156,7 +167,7 @@ ht-degree: 1%
 
       例如，[!DNL https]：//`<account>`.my.workfront.com，其中`<account>`是您用來與AEM整合的帳戶。
 
-   1. 在{&#x200B;0}基本資料夾&#x200B;**欄位中，選取核取方塊圖示。**
+   1. 在{&#x200B;0}基本資料夾&#x200B;]**欄位中，選取核取方塊圖示。**[!UICONTROL 
    1. 在下拉式功能表中，選取連結至[!DNL Workfront]物件的檔案儲存路徑。
    1. 在出現的AEM強制回應視窗中，將連結至[!DNL Workfront]物件的檔案置於資料夾的路徑之後。 選擇資料夾，然後按右上角的&#x200B;**[!UICONTROL &#x200B;選取]**。
 
@@ -282,7 +293,7 @@ ht-degree: 1%
 
 1. 在&#x200B;**[!UICONTROL 驗證型別]**&#x200B;下拉式功能表中，選取&#x200B;**[!UICONTROL ApiKey].**
 
-1. 在{&#x200B;0}API金鑰&#x200B;**方塊中，貼上您設定[!UICONTROL AEM Assets]時複製的AEM API金鑰。**
+1. 在{&#x200B;0}API金鑰&#x200B;]**方塊中，貼上您設定[!UICONTROL AEM Assets]時複製的AEM API金鑰。**[!UICONTROL 
 1. 按一下「**[!UICONTROL 儲存]**」。
 1. （選擇性）確定整合已標籤為[!UICONTROL 使用中]。\
    ![aem_custom_integration_active.png](assets/aem-custom-integration-active-350x81.png)
@@ -302,7 +313,7 @@ ht-degree: 1%
 ### 在[!DNL AEM assets]中設定使用者 {#set-up-users-in-aem-assets}
 
 1. 以Workfront管理員身分登入[!DNL AEM Assets]。
-1. 按一下「**[!UICONTROL 工具]**」>「{2&#x200B;}**{&#x200B;4}安全性**」>「**[!UICONTROL 使用者]**」。**&#x200B;**
+1. 按一下「**[!UICONTROL 工具]**」>「{2&#x200B;}**{&#x200B;4}安全性]**」>「**[!UICONTROL 使用者]**」。****[!UICONTROL 
 
 1. （視條件而定）如果使用者在AEM中沒有使用者設定檔，請建立AEM使用者設定檔。
 

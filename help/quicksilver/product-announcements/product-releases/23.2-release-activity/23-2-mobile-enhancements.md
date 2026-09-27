@@ -6,18 +6,24 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 08cb5991-ba8e-4444-ab95-b6b85420c4a2
-TQID: https://experienceleague.adobe.com/Ig2M3eP08MMQiaUYLY8eeYGY-Ua8re5iP2UpJztXx2o
+TQID: 'https://experienceleague.adobe.com/Ig2M3eP08MMQiaUYLY8eeYGY-Ua8re5iP2UpJztXx2o'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 206
+source-wordcount: '206'
 ht-degree: 0%
-
 ---
-
 # 23.2行動增強功能
 
 本頁說明23.2版對預覽環境所做的所有其他增強功能。 這些增強功能將在23.2版本的生產環境中提供。
@@ -37,4 +43,4 @@ ht-degree: 0%
 
 行動應用程式現在也支援面板集合，可讓行動使用者在案頭版本中，從行動面板清單檢視他們可存取的任何集合。
 
-如需詳細資訊，請參閱行動裝置[&#128279;](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)的[!DNL Adobe Workfront] [!UICONTROL 面板]。
+如需詳細資訊，請參閱行動裝置](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)的[[!DNL Adobe Workfront] [!UICONTROL 面板]。

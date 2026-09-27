@@ -7,22 +7,27 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 22e3836c-c41e-48a6-9926-e832af91e616
-TQID: https://experienceleague.adobe.com/6vUGOgtvkP4c4yBRo-wZTPB20tLdy-C1z28Ilg-xOok
+TQID: 'https://experienceleague.adobe.com/6vUGOgtvkP4c4yBRo-wZTPB20tLdy-C1z28Ilg-xOok'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1304
+source-wordcount: '1334'
 ht-degree: 2%
-
 ---
-
 # 2018.1 Beta 2發行活動
 
 本頁說明2018.1 Beta 2版本預覽環境中最近可用的所有變更。 此頁面的功能於2017年12月14日在預覽環境中提供。 它將在2018年3月的生產環境中提供。
@@ -35,7 +40,7 @@ ht-degree: 2%
 
 2018.1 Beta 2版本包含適用於Workfront管理員和其他使用者的增強功能：
 
-管理員的&#x200B;**&#x200B;**
+管理員的&#x200B;****
 
 * [使用者和版面配置範本的群組管理](#group-administration-for-users-and-layout-templates)
 
@@ -129,9 +134,9 @@ ht-degree: 2%
 
 * 外觀與感覺改善
 
-   * 右側面板現在已變大，可讓您有更多空間存放任務和問題資訊。
-   * 在左側面板中選取時，逾期專案現在會以較淺的紅色顯示。
-   * 您現在可以更輕鬆地檢視左面板與右面板之間的關係。 左側面板中選取的檔案指向右側面板。
+  * 右側面板現在已變大，可讓您有更多空間存放任務和問題資訊。
+  * 在左側面板中選取時，逾期專案現在會以較淺的紅色顯示。
+  * 您現在可以更輕鬆地檢視左面板與右面板之間的關係。 左側面板中選取的檔案指向右側面板。
 
 * 顯示所選專案的預設欄位。 
 
@@ -170,13 +175,13 @@ ht-degree: 2%
 
 ### 按評論編號搜尋評論 {#search-comments-by-comment-number}
 
-現在，當您在校訂檢視器中搜尋註解清單時，可以在搜尋欄位中輸入註解號碼。接著會篩選註解清單，以顯示您搜尋的註解。 
+現在，當您在校訂檢視器中搜尋註解清單時，可以在搜尋欄位中輸入註解號碼。 接著會篩選註解清單，以顯示您搜尋的註解。 
 
 如需詳細資訊，請參閱中的。
 
 ### 標示指標旁的編輯註解選項 {#option-to-edit-comment-next-to-the-markup-indicator}
 
-您現在可以更輕鬆地編輯現有註解。按一下校樣上的註解指示器後，球標旁會顯示編輯圖示。 
+您現在可以更輕鬆地編輯現有註解。 按一下校樣上的註解指示器後，球標旁會顯示編輯圖示。 
 
 在此變更之前，您必須按一下「註解」區域中的編輯圖示。  
 

@@ -8,21 +8,24 @@ author: Becky
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/Z076Zc-HS2zt8fhZ0Hwuw8CaMv5-0Qa9xzEG2hQbfy4
+TQID: 'https://experienceleague.adobe.com/Z076Zc-HS2zt8fhZ0Hwuw8CaMv5-0Qa9xzEG2hQbfy4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 996
+source-wordcount: '996'
 ht-degree: 1%
-
 ---
-
 # Adobe Workfront支援的語言
 
-您可以調整瀏覽器上的語言偏好設定（如果貴組織尚未移轉至Adobe Workfront）或Workfront設定檔語言偏好設定（如果移轉至Adobe Admin Console），以及您在Adobe Experience Cloud中的預設電子郵件地區設定，藉此變更顯示Adobe Admin Console和來自Workfront之電子郵件的語言。
+您可以調整瀏覽器上的語言偏好設定（如果貴組織尚未移轉至Workfront），或您的Adobe Workfront設定檔語言偏好設定（如果移轉至Adobe Admin Console），以及您在Workfront中的預設電子郵件地區設定，以變更顯示來自Adobe Admin Console的和電子郵件的語言。
 
 若要變更您顯示Workfront所用的語言，請參閱本文中的[變更語言](#change-the-language)。
 
@@ -41,7 +44,7 @@ Workfront支援下列語言：
 * 中文 — 簡體(zh-CN)
 * 中文 — 繁體(zh-TW)
 
-如果貴組織未在Workfront上，則在瀏覽器中檢視Adobe Admin Console時使用的語言是由瀏覽器語言設定所控制，或者如果貴組織在Adobe Admin Console上，則由您的Adobe Experience Cloud設定檔語言所控制。 無論是哪種情況，請確定您選取的語言列在支援的語言清單中。
+如果貴組織未在Workfront上，則在瀏覽器中檢視Adobe Admin Console時使用的語言是由瀏覽器語言設定所控制，或者如果貴組織在Adobe Admin Console上，則是由您的Adobe Experience Cloud設定檔語言所控制。 無論是哪種情況，請確定您選取的語言列在支援的語言清單中。
 
 若要以任何支援的語言顯示外寄電子郵件，請在Workfront中修改您的使用者電子郵件地區設定或客戶資訊設定。\
 您必須是Workfront管理員才能修改客戶資訊設定。\
@@ -99,7 +102,7 @@ Workfront中的Web Proof Viewer支援Workfront支援的大部分語言。
 * Workfront Fusion不支援在使用者輸入的欄位中使用非英文文字字元。
 
 貴公司必須購買Workfront Fusion授權才能存取Workfront Fusion。\
-如需Workfront Fusion的詳細資訊，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+如需Workfront Fusion的詳細資訊，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 ## 變更語言
 
@@ -138,7 +141,7 @@ See the "Help" menu for your browser for specific information about how to chang
 
 ### 變更Adobe Experience Cloud語言
 
-如果您的組織已移轉至Adobe Admin Console，則Adobe Experience Cloud設定檔語言會決定Workfront中顯示的語言。
+如果您的組織已移轉至Adobe Admin Console，您的Adobe Experience Cloud個人資料語言會決定Workfront中顯示的語言。
 
 1. 按一下Adobe Experience Cloud工具列最右端的個人資料圖片，然後按一下&#x200B;**偏好設定**。 Adobe Experience Cloud工具列位於Workfront主工具列的正上方。
 

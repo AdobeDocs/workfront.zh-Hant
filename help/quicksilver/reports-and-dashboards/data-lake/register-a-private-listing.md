@@ -14,6 +14,8 @@ product_v2:
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -22,7 +24,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed31fce397f9e99e7049d4f55eaca94f43dfcf5c
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 1%

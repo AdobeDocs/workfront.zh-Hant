@@ -9,18 +9,24 @@ feature: Workfront Goals
 exl-id: 81f531f7-3390-4f85-9a96-480f4e84295e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/FiarSThS8b2ABxGD7yoddoqjQMgv1CuiC7Y-bONp7r4
+TQID: 'https://experienceleague.adobe.com/FiarSThS8b2ABxGD7yoddoqjQMgv1CuiC7Y-bONp7r4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 145
+source-wordcount: '145'
 ht-degree: 0%
-
 ---
-
 # 目標檢閱和Adobe Workfront目標區段：文章索引
 
 <!--Audited: 10/2025-->

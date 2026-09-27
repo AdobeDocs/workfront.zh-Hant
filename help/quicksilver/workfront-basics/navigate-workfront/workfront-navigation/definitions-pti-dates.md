@@ -1,25 +1,29 @@
 ---
 content-type: reference
 navigation-topic: workfront-navigation
-title: ' [!DNL Workfront]中專案、任務和問題日期的概觀'
-description: 本文提供 [!DNL Adobe Workfront]中與專案、任務和問題相關的最常見日期的定義。
+title: '[!DNL Workfront]中專案、任務和問題日期的概觀'
+description: 本文提供[!DNL Adobe Workfront]中與專案、任務和問題相關的最常見日期的定義。
 feature: Get Started with Workfront
 author: Alina
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-TQID: https://experienceleague.adobe.com/cubl7FHYyEeWbxpkMggRQOXPhHCnFWmn8Picjk77-hA
+TQID: 'https://experienceleague.adobe.com/cubl7FHYyEeWbxpkMggRQOXPhHCnFWmn8Picjk77-hA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2359
+source-wordcount: '2359'
 ht-degree: 3%
-
 ---
-
 # [!DNL Workfront]中專案、任務和問題日期的概觀
 
 <!-- Audited: 05/2024 -->
@@ -35,7 +39,7 @@ ht-degree: 3%
 * [開始使用 [!DNL Adobe Workfront]中的清單](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
 * [開始使用報告](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
 
-如需有關專案、任務和問題欄位的詳細資訊，請參閱[&#x200B; [!DNL Adobe Workfront] 術語辭彙表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
+如需有關專案、任務和問題欄位的詳細資訊，請參閱[ [!DNL Adobe Workfront] 術語辭彙表](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)。
 
 
 ## [!UICONTROL 實際開始日期]
@@ -259,7 +263,7 @@ ht-degree: 3%
 * [設定專案[!UICONTROL 計畫完成日期]](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
 * [問題[!UICONTROL 計畫完成日期]的總覽](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
 
-標頭![&#128279;](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)中的計畫完成日期
+標頭](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)中的![計畫完成日期
 
 ![任務清單中的計畫完成日期](assets/planned-completion-date-in-task-list-highlighted-nwe-350x183.png)
 
@@ -294,7 +298,7 @@ ht-degree: 3%
 
 如果一切順利且按計畫進行，[!UICONTROL 預計完成日期]應符合[!UICONTROL 計畫完成日期]。 否則，由於前置任務上的延遲，[!UICONTROL 預計完成日期]可能會與[!UICONTROL 計畫完成日期]不同。
 
-如需詳細資訊，請參閱專案、任務和問題的[專案預計完成日期]的[[!UICONTROL 總覽]](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)。
+如需詳細資訊，請參閱專案、任務和問題的[專案預計完成日期]的[!UICONTROL 總覽](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)。
 
 ![預計完成日期](assets/projected-completion-date-in-task-details-highlighted-nwe-350x187.png)
 

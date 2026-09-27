@@ -4,13 +4,20 @@ description: 2026年第四季專案增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1dd8ab20d11b2b4471308ac5402b31e20359a04c
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '163'
 ht-degree: 0%
-
 ---
-
 # 2026年第四季專案增強功能
 
 本頁說明2026年第四季版本中針對預覽環境所進行的專案增強功能。 如上所述，這些增強功能將於生產環境中提供。
@@ -21,7 +28,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2026年7月30日>生產快速版本： 2026年8月13日>每個人都生產： 2026年10月15日
+>預覽： 2026年7月30日
+>生產快速發行： 2026年8月13日
+>適用於所有人的生產： 2026年10月15日
 
 當範本包含財務資料時，這些欄位值會在使用者從範本建立專案時保留。 使用者必須擁有財務資料的檢視存取權，才能檢視專案詳細資訊的財務欄位。
 

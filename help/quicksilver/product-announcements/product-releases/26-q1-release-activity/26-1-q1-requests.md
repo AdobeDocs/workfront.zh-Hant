@@ -5,20 +5,27 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ea2668c-cab9-4ee3-95c9-44996e951c29
-TQID: https://experienceleague.adobe.com/GGNj0hO47cAaCpN-sqHzdtPaL9BWcMdJIo7P3brSR8Y
+TQID: 'https://experienceleague.adobe.com/GGNj0hO47cAaCpN-sqHzdtPaL9BWcMdJIo7P3brSR8Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 900
+source-wordcount: '948'
 ht-degree: 0%
-
 ---
-
 # 2026年第一季要求增強功能
 
 本頁說明2026年第一季度版本對預覽環境提出的請求增強功能。 如上所述，這些增強功能將於生產環境中提供。
@@ -29,7 +36,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2025年12月18日>生產快速發行： 2026年1月14日\
+>預覽： 2025年12月18日
+>生產環境快速發行： 2026年1月14日\
 >適用於所有人的生產： 2026年1月15日
 
 為了讓您更輕鬆地前往由特定請求建立的物件，我們已新增連結至「已建立的物件」欄。 現在，您可以按一下此欄中的連結，直接前往已建立物件的頁面。
@@ -63,7 +71,8 @@ For more information on creating views for the Request list and My Requests widg
 
 >[!NOTE]
 >
->預覽： 2025年12月18日>生產快速發行： 2026年1月14日\
+>預覽： 2025年12月18日
+>生產環境快速發行： 2026年1月14日\
 >適用於所有人的生產： 2026年1月15日
 
 為了更方便確保可檢視您所需的資訊，我們已新增將檢視分享至新請求體驗的功能。 現在，您可以與其他使用者、團隊或群組共用檢視。
@@ -74,7 +83,8 @@ For more information on creating views for the Request list and My Requests widg
 
 >[!NOTE]
 >
->預覽： 2025年12月18日>生產快速發行： 2026年1月14日\
+>預覽： 2025年12月18日
+>生產環境快速發行： 2026年1月14日\
 >適用於所有人的生產： 2026年1月15日
 
 為了讓您更輕鬆地檢視您需要的資訊，我們新增了將自訂欄位新增為「請求」清單上的欄以及「首頁」中的「我的請求」Widget的功能。 現在，您可以從自訂表單新增欄位作為欄，並且該欄位中包含資訊的請求將在清單或Widget中顯示該資訊。
@@ -92,7 +102,8 @@ For more information on creating views for the Request list and My Requests widg
 
 >[!NOTE]
 >
->預覽： 2025年12月18日>生產快速發行： 2026年1月14日\
+>預覽： 2025年12月18日
+>生產環境快速發行： 2026年1月14日\
 >適用於所有人的生產： 2026年1月15日
 
 為了更方便篩選適用於您的請求，我們已建立目前的使用者萬用字元。 現在，篩選時，您可以選取「我（已登入使用者）」。 該篩選器將套用至正在檢視請求清單的使用者。
@@ -107,7 +118,8 @@ For more information on creating views for the Request list and My Requests widg
 
 >[!NOTE]
 >
->預覽： 2025年12月11日>生產快速發行： 2025年12月11日\
+>預覽： 2025年12月11日
+>生產快速發行： 2025年12月11日\
 >每個人都要生產： 2025年12月11日
 
 為了更方便建立請求，我們已建立由AI提供支援的表單填寫。 現在，您可以貼上提示或上傳檔案到請求表單，AI將提取相關資訊並填寫表單。
@@ -121,7 +133,8 @@ For more information on creating views for the Request list and My Requests widg
 
 >[!NOTE]
 >
->預覽： 2025年11月20日>生產快速發行： 2026年1月14日\
+>預覽： 2025年11月20日
+>生產環境快速發行： 2026年1月14日\
 >適用於所有人的生產： 2026年1月15日
 
 為了更方便建立及提交請求，我們已新增將草稿儲存至新請求體驗的功能。 現在，當您開始填寫並關閉請求時，請求會以草稿狀態儲存，並可在用於建立草稿的請求表單中找到。 之後，您可隨時重新開啟、更新及提交草稿。
@@ -134,7 +147,8 @@ For more information on creating views for the Request list and My Requests widg
 
 >[!NOTE]
 >
->預覽： 2025年11月20日>生產快速發行： 2026年1月14日\
+>預覽： 2025年11月20日
+>生產環境快速發行： 2026年1月14日\
 >適用於所有人的生產： 2026年1月15日
 
 為了更方便讓您的請求保持井然有序，我們已新增將請求刪除的功能至新的請求體驗。 現在，您可以刪除已提交的請求。 Workfront管理員和Workfront Planning Workspace管理員也可以刪除請求。
@@ -148,7 +162,8 @@ For more information on creating views for the Request list and My Requests widg
 
 >[!NOTE]
 >
->預覽： 2025年11月20日>生產快速發行： 2025年12月11日\
+>預覽： 2025年11月20日
+>生產快速發行： 2025年12月11日\
 >適用於所有人的生產： 2026年1月15日
 
 為了更方便提交請求，我們已新增將請求複製到新請求體驗的功能。 現在，您可以複製請求、編輯任何欄位，並將其提交為新請求。

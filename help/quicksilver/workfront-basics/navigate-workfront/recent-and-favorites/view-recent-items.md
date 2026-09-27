@@ -6,22 +6,26 @@ description: '[!UICONTROL Recents]功能表位於上方導覽列。 此功能表
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 531b6b77-bf54-4ab3-a757-5c59fc0586a6
-TQID: https://experienceleague.adobe.com/4d0RZrZxzslU973OcCK32h-IuwmoARE0CaSc75Zmj2M
+TQID: 'https://experienceleague.adobe.com/4d0RZrZxzslU973OcCK32h-IuwmoARE0CaSc75Zmj2M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 206
+source-wordcount: '206'
 ht-degree: 8%
-
 ---
-
 # 檢視最近專案
 
 [!UICONTROL Recents]功能表位於上方導覽列。 此功能表會顯示最近檢視的專案、報告、控制面板、任務、問題等。只包含過去兩週內檢視的物件，每種物件型別最多二十個，並依照最近檢視的順序列出。

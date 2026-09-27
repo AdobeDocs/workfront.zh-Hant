@@ -8,22 +8,29 @@ feature: Digital Content and Documents
 exl-id: f8f83f44-7001-4774-9a35-359cd21124d9
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/0fX1ljnPG5-GGqDogSU7Q2ZqSwaFps6b-nTJK3-MFh8
+TQID: 'https://experienceleague.adobe.com/0fX1ljnPG5-GGqDogSU7Q2ZqSwaFps6b-nTJK3-MFh8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 182
-ht-degree: 10%
-
+source-wordcount: '248'
+ht-degree: 7%
 ---
-
 # 複製和共用檔案資料夾的連結
 
 您可以為下列任何[!DNL Workfront]物件中包含的任何檔案資料夾複製直接連結： [!UICONTROL 方案]、[!UICONTROL Portfolio]、[!UICONTROL 專案]、[!UICONTROL 任務]或[!UICONTROL 問題]。 您無法從[主功能表]複製[!UICONTROL 檔案]區域包含的任何資料夾連結，因為這些資料夾會直接連結到您的使用者設定檔，且無法與其他人共用。
@@ -31,7 +38,7 @@ ht-degree: 10%
 >[!NOTE]
 >
 >新檔案區域未提供此功能。<br>
->如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的「檔案」區域。如需Adobe雲端儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+>如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的檔案區域。 如需Adobe雲端儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 ## 存取需求
 
@@ -68,5 +75,5 @@ ht-degree: 10%
 若要複製檔案資料夾的連結：
 
 1. 瀏覽至包含檔案資料夾的[!DNL Workfront]物件。
-1. 按一下&#x200B;**[!UICONTROL 更多]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 複製URL]**。您可以共用此連結，以提供資料夾的快速存取權。使用者必須至少具有物件的檢視存取權，才能檢視資料夾。
+1. 按一下&#x200B;**[!UICONTROL 更多]**&#x200B;功能表，然後選取&#x200B;**[!UICONTROL 複製URL]**。 您可以共用此連結，以提供資料夾的快速存取權。 使用者必須至少具有物件的檢視存取權，才能檢視資料夾。
    ![複製檔案資料夾url](assets/copy-doc-folder-url.png)

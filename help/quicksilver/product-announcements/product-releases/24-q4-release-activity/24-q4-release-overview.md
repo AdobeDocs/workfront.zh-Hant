@@ -7,28 +7,37 @@ recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/9hpQYI71fmR-r3Wr6FaWpJlf2Dd2PcKlEl8rXiQ33cE
+TQID: 'https://experienceleague.adobe.com/9hpQYI71fmR-r3Wr6FaWpJlf2Dd2PcKlEl8rXiQ33cE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2308
+source-wordcount: '2308'
 ht-degree: 1%
-
 ---
-
 # 2024年第四季版本總覽
 
 此頁面提供2024年第四季度版本中包含的功能相關資訊。 這些增強功能預計會在整個季度內於生產環境中提供。
@@ -80,7 +89,7 @@ ht-degree: 1%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">環境升級中現在有可用的存取層級</a></p>
-                    [!BADGE In Production &#x200B;]{type=Informative}
+                    [！BADGE In Production ]{type=Informative}
                     <p>為了擴展環境升級功能的功能，我們新增了包含存取層級的功能。 現在，您可以在沙箱環境中設定存取層級，然後將該存取層級提升至您的生產環境。</p>
                 </td>
                 <td><p><b>將於下列日期提供：</b></p>
@@ -97,7 +106,7 @@ ht-degree: 1%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">自訂表單上的計數器會顯示欄位數</a></p>
-                    [!BADGE In Production &#x200B;]{type=Informative}
+                    [！BADGE In Production ]{type=Informative}
                     <p>自訂表單限製為500個欄位。 在長表格中，可能很難知道表格中有多少欄位，以及您是否接近上限。 在左下方的自訂表單中新增了計數器。 計數器會顯示表單上使用的欄位數，當您在表單設計工具中捲動時，它始終可見。</p>
                 </td>
                 <td><p><b>將於下列日期提供：</b></p>
@@ -114,7 +123,7 @@ ht-degree: 1%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">配置範本中現在提供「全選」選項</a></p>
-                    [!BADGE In Production &#x200B;]{type=Informative}
+                    [！BADGE In Production ]{type=Informative}
                     <p>為了協助您更輕鬆地顯示和隱藏包含版面配置範本的欄位，在版面配置範本中，詳細資訊檢視的「概觀」和「財務」區域新增了「全選」核取方塊。 當您在「自訂使用者所看到內容」底下選取專案、任務、問題、Portfolio或計畫時，此選項可供使用。</p>
                 </td>
                 <td><p><b>將於下列日期提供：</b></p>
@@ -131,7 +140,7 @@ ht-degree: 1%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">復原環境升級套件</a></p>
-                    [!BADGE In Production &#x200B;]{type=Informative}
+                    [！BADGE In Production ]{type=Informative}
                     <p>為了讓環境升級更靈活且更易於使用，我們啟用了復原功能。 現在，您可以在24小時內復原套件，讓您更輕鬆地還原受環境促銷活動套件影響的先前設定。</p>
                 </td>
                 <td><p><b>將於下列日期提供：</b></p>
@@ -210,7 +219,7 @@ ht-degree: 1%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md">快速將先前的稽核者和核准者新增至新檔案版本</a></p>
-                    [!BADGE In Production &#x200B;]{type=Informative}
+                    [！BADGE In Production ]{type=Informative}
                     <p>您現在可以從先前的檔案版本快速新增稽核者和核准者。</p>
                 </td>
                 <td><p><b>將於下列日期提供：</b></p>
@@ -246,7 +255,7 @@ ht-degree: 1%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">新首頁中「等待我核准」Widget的更新</a></p>
-                    [!BADGE In Production &#x200B;]{type=Informative}
+                    [！BADGE In Production ]{type=Informative}
                     <p>我們已對「等待我的核准」Widget進行下列變更：</p>
                         <ul>
                             <li>已重新命名Widget：此Widget的名稱現在是「我的核准」。</li>
@@ -268,7 +277,7 @@ ht-degree: 1%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">介紹優先順序：為任務擁有者提供更簡單、簡化且直覺式的Workfront體驗</a></p>
-                    [!BADGE In Production &#x200B;]{type=Informative}
+                    [！BADGE In Production ]{type=Informative}
                     <p>優先順序可加強關注度與生產力，協助客戶在更短的時間內完成更多工作。</p>
                     <p>優先順序可讓您享受：</p>
                         <ul>
@@ -310,7 +319,7 @@ ht-degree: 1%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Outlook整合登入體驗增強功能</a></p>
-                    [!BADGE In Production &#x200B;]{type=Informative}
+                    [！BADGE In Production ]{type=Informative}
                     <p>Outlook整合的登入體驗已簡化，因此所有客戶無論已啟用IMS，都可看見相同的按鈕來登入Workfront。 IMS和非IMS執行個體的後續登入步驟會有所不同，但所有使用者的初始頁面都相同。</p>
                 </td>
                 <td><p><b>將於下列日期提供：</b></p>
@@ -346,7 +355,7 @@ ht-degree: 1%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">更多相關指派已新增至新任務工作流程</a></p>
-                    [!BADGE In Production for Fast Release &#x200B;]{type=Positive}
+                    [！BADGE In Production for Fast Release ]{type=Positive}
                     <p>將任務新增至專案和專案任務清單時，我們已將相同功能新增至「新增任務」方塊的「工作總攬」欄位，以提供更相關的智慧指派。</p>
                 </td>
                 <td><p><b>將於下列日期提供：</b></p>
@@ -364,7 +373,7 @@ ht-degree: 1%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">更多相關的智慧指派</a></p>
-                    [!BADGE In Production for Fast Release &#x200B;]{type=Positive}
+                    [！BADGE In Production for Fast Release ]{type=Positive}
                     <p>我們已變更Workfront用來計算及建議智慧型任務指派的演演算法。 新演演算法適用於Workfront中指派任務的以下區域：任務清單、任務標題中的「工作」區域、「首頁」和「摘要」面板。</p>
                 </td>
                 <td><p><b>將於下列日期提供：</b></p>
@@ -401,7 +410,7 @@ ht-degree: 1%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">案頭校訂檢視器的複製/貼上問題修正</a></p>
-                    [!BADGE In Production &#x200B;]{type=Informative}
+                    [！BADGE In Production ]{type=Informative}
                     <p>我們已修正「案頭校樣」檢視器的「更新」區段中內容貼錯的問題。</p>
                     <p>新版本：2.1.39</p>
                 </td>
@@ -419,7 +428,7 @@ ht-degree: 1%
             <tr>
                 <td>
                     案頭校訂檢視器Windows使用者的<a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">空白熒幕修正</a></p>
-                    [!BADGE In Production &#x200B;]{type=Informative}
+                    [！BADGE In Production ]{type=Informative}
                     <p>已修正新的2.1.36案頭校訂檢視器版本造成部分Windows使用者在開啟檢視器後看到空白畫面的問題。 </p>
                     <p>Windows使用者的新版本： 2.1.37</p>
                 </td>
@@ -437,7 +446,7 @@ ht-degree: 1%
             <tr>
                 <td>
                     案頭校訂檢視器的<a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Chromium更新</a></p>
-                    [!BADGE In Production &#x200B;]{type=Informative}
+                    [！BADGE In Production ]{type=Informative}
                     <p>我們正升級案頭校訂檢視器以支援Chromium 126.0.6478.127，其將解決互動式校訂中的UI元素問題。</p>
                 </td>
                 <td><p><b>將於下列日期提供：</b></p>
@@ -473,7 +482,7 @@ ht-degree: 1%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">可用於新計畫的Workfront Data Connect</a></p>
-                    [!BADGE In Production &#x200B;]{type=Informative}
+                    [！BADGE In Production ]{type=Informative}
                     <p>Workfront Data Connect將可供使用其中一個新Workfront計畫的組織使用。 Data Connect可讓組織透過安全且可擴充的資料湖存取其資料，資料湖可使用商業智慧工具進行分析和視覺化，或儲存在外部。 此外，組織可以使用Data Connect來檢視先前無法使用的資料分析，例如時間型趨勢分析、變數對應，以及結合Workfront資料的外部系統資料分析。</p>
                 </td>
                 <td><p><b>將於下列日期提供：</b></p>
@@ -497,7 +506,7 @@ ht-degree: 1%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">按一下即可摘要專案或更新</a></p>
-                    [!BADGE In Production &#x200B;]{type=Informative}
+                    [！BADGE In Production ]{type=Informative}
                     <p>為了更方便快速檢視專案或更新資料流的摘要，我們將「摘要」按鈕新增到Workfront的這些區域。 現在，您可以按一下按鈕以在AI助理中產生摘要。</p><p>之前，使用者可以開啟AI助理並輸入提示以建立專案摘要或更新資料流。</p>
                 </td>
                 <td><p><b>將於下列日期提供：</b></p>
@@ -514,7 +523,7 @@ ht-degree: 1%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Planning一般可用性</a></p>
-                    [!BADGE In Production &#x200B;]{type=Informative}
+                    [！BADGE In Production ]{type=Informative}
                     <p>除了其Workfront授權外，所有已購買Workfront Planning授權的客戶都可使用Workfront Planning。 如需有關Workfront規劃的詳細資訊，請聯絡您的客戶代表。</p>
                     <p>如需每季最新的Workfront Planning發行資訊，請參閱下方的<a href="#workfront-planning-enhancements">Workfront Planning增強功能</a>區段。</p>
                 </td>
@@ -529,7 +538,7 @@ ht-degree: 1%
             <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe AI助理可在Workfront中使用</a></p>
-                    [!BADGE In Production &#x200B;]{type=Informative}
+                    [！BADGE In Production ]{type=Informative}
                     <p>為了讓您更輕鬆地完成工作，我們已將Adobe的AI助理新增至Workfront。 AI助理可以透過以下方式協助您：</p>
                     <ul>
                         <li>摘要工作專案和檔案，讓您快速大致瞭解任務、專案和資產。</li>
@@ -602,7 +611,7 @@ Workfront Planning的新功能可在生產環境中使用。 如需最新功能�
 
 針對API版本19，我們已修改一些資源和端點。 有些變更支援新功能，有些則讓您更輕鬆地透過API使用可用資訊。
 
-如需新增和更新的詳細資訊，請參閱[&#x200B; API 19](/help/quicksilver/wf-api/api/new-api-version-19.md)版的新增功能。
+如需新增和更新的詳細資訊，請參閱[ API 19](/help/quicksilver/wf-api/api/new-api-version-19.md)版的新增功能。
 
 如需API版本的資訊，請參閱[API版本設定與支援排程](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
 

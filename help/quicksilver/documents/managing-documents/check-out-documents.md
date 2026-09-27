@@ -8,30 +8,37 @@ feature: Digital Content and Documents
 exl-id: 15d9ea43-1cee-4cb1-9365-4374a291c090
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/kkWxK2NzQtSfeRqsd0vEB-2AUYFrO6WIU3A752w7kM4
+TQID: 'https://experienceleague.adobe.com/kkWxK2NzQtSfeRqsd0vEB-2AUYFrO6WIU3A752w7kM4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 593
+source-wordcount: '686'
 ht-degree: 2%
-
 ---
-
 # 簽出檔案
 
-您可以出庫檔案，以防止其他使用者刪除檔案或上傳檔案的新版本。一次只能有一個使用者出庫檔案。 您可以簽出已上傳至Adobe Workfront的任何檔案，以及連結至協力廠商檔案提供者（Box、Dropbox、Google Drive、Webdam、Workfront DAM、SharePoint或任何其他自訂提供者）的檔案。 
+您可以出庫檔案，以防止其他使用者刪除檔案或上傳檔案的新版本。 一次只能有一個使用者出庫檔案。 您可以簽出已上傳至Adobe Workfront的任何檔案，以及連結至協力廠商檔案提供者（Box、Dropbox、Google Drive、Webdam、Workfront DAM、SharePoint或任何其他自訂提供者）的檔案。 
 
 >[!NOTE]
 >
 >新檔案區域未提供此功能。<br>
->如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的「檔案」區域。如需Adobe雲端儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+>如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的檔案區域。 如需Adobe雲端儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 ## 存取權要求
 
@@ -109,7 +116,7 @@ ht-degree: 2%
 
   如需有關刪除使用者的資訊，請參閱[刪除使用者](../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)。
 
-* 如果Workfront管理員停用使用者，則他們已出庫的任何檔案都會保持出庫狀態。只有Workfront管理員可以重新簽入。 
+* 如果Workfront管理員停用使用者，則他們已出庫的任何檔案都會保持出庫狀態。 只有Workfront管理員可以重新簽入。 
 
 ## 將檔案簽入
 

@@ -5,18 +5,24 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be95161b-2443-464a-b91c-82a96d5354a2
-TQID: https://experienceleague.adobe.com/5Ny1A3FP4VF8la2a4wSpNlTSPGc-b5HtvozqPHNVmIU
+TQID: 'https://experienceleague.adobe.com/5Ny1A3FP4VF8la2a4wSpNlTSPGc-b5HtvozqPHNVmIU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 566
+source-wordcount: '620'
 ht-degree: 1%
-
 ---
-
 # 2026年第二季度發行時間範圍內的其他增強功能
 
 本頁說明了2026年第二季度版本對預覽環境所做的增強功能。 如上所述，這些增強功能將於生產環境中提供。
@@ -27,7 +33,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->預覽： 2026年4月2日>生產快速發行： 2026年4月15日>所有人生產： 2026年4月16日
+>預覽： 2026年4月2日
+>生產快速發行： 2026年4月15日
+>適合所有人的生產： 2026年4月16日
 
 我們已新增一項設定，可調整增強型清單中的列高。
 
@@ -37,7 +45,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->預覽： 2026年4月2日>生產快速發行： 2026年4月15日>所有人生產： 2026年4月16日
+>預覽： 2026年4月2日
+>生產快速發行： 2026年4月15日
+>適合所有人的生產： 2026年4月16日
 
 我們在增強型清單中為團隊、群組、公司和角色篩選器新增了以下個人化名稱：
 
@@ -57,7 +67,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->預覽： 2026年4月2日>生產快速發行： 2026年4月15日>每個人都能生產： 2026年4月16日
+>預覽： 2026年4月2日
+>生產快速發行： 2026年4月15日
+>每個人都能使用生產： 2026年4月16日
 
 您現在可以在「請求」區域將條件式格式套用至請求清單，以及在「首頁」中套用我的請求Widget 。 在此增強功能之前，清單檢視中不存在此功能。
 
@@ -84,7 +96,9 @@ Workfront管理員可以在版面配置範本中新增或移除檢視。 您無�
 
 >[!NOTE]
 >
->預覽： 2026年4月2日>生產快速發行： 2026年4月15日>所有人生產： 2026年4月16日
+>預覽： 2026年4月2日
+>生產快速發行： 2026年4月15日
+>適合所有人的生產： 2026年4月16日
 
 為了讓您更容易找到您需要的請求，我們已將分組新增至請求清單和我的請求Widget。 現在，您可以依清單上的任何欄來群組請求。 建立群組時，這些群組會成為您使用之檢視的一部分。
 
@@ -94,16 +108,17 @@ Workfront管理員可以在版面配置範本中新增或移除檢視。 您無�
 
 >[!NOTE]
 >
->預覽： 2025年12月11日>生產快速發行： 2026年2月11日\
+>預覽： 2025年12月11日
+>生產快速發行： 2026年2月11日\
 >適用於所有人的生產： 2026年2月11日
 
 為了讓組織能夠存取Adobe Unified Experience的優點，我們繼續將其提供給現有的Workfront客戶。
 
 Adobe Unified Experience包括：
 
-* 透過Adobe Experience Cloud對所有Adobe應用程式執行單一登入
+* 透過Adobe Experience Cloud對所有Adobe應用程式進行單一登入
 * 可在Workfront組織和環境之間移動的「組織切換器」
-* 包含Workfront頁面、Adobe Experience Cloud偏好設定和您的Workfront設定檔選項的導覽
+* 包含Workfront頁面、Adobe Experience Cloud偏好設定和Workfront設定檔選項的導覽
 
 您的Workfront管理員將會收到有關您的組織將移至Adobe Unified Experience日期的宣告中心訊息。
 

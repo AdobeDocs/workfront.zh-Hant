@@ -7,18 +7,24 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 181174af-48b6-4b97-838d-f63551748b02
-TQID: https://experienceleague.adobe.com/jBEBRx-RGLF4Rqrz9IguBu8-c4TSjGAuRB0U91okFlY
+TQID: 'https://experienceleague.adobe.com/jBEBRx-RGLF4Rqrz9IguBu8-c4TSjGAuRB0U91okFlY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 357
+source-wordcount: '357'
 ht-degree: 0%
-
 ---
-
 # 2019.3資源規劃增強功能
 
 此頁面說明2019.3版本中「資源規劃」增強功能的所有變更。 它在2019年8月19日當週的生產環境中可用。

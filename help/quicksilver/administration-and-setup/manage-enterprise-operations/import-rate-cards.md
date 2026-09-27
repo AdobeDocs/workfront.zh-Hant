@@ -7,13 +7,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: debe90e7-08c2-4385-96fb-8d349dec6741
-source-git-commit: aa774419e65e9e4a5785382d3cb2b22bdb0389c9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1812'
 ht-degree: 1%
-
 ---
-
 # 從範本匯入費率卡
 
 您可以使用範本檔案在Excel中建立您的費率卡片，並將其匯入Adobe Workfront，而非手動新增所有工作角色和費率。
@@ -45,11 +52,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td>[!UICONTROL 標準]</td> 
+   <td>[！UICONTROL標準]</td> 
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>編輯[!UICONTROL 費率卡]的存取權</td> 
+   <td>編輯[！UICONTROL費率卡]的存取權</td> 
   </tr> 
  </tbody> 
 </table>
@@ -173,39 +180,39 @@ ht-degree: 1%
 
 ### 填寫RCRMET_RTCRD_RSALS （費率卡中繼資料）標籤
 
-On this tab you can define the connections between resources and aliases for a specific rate card.
+您可以在此標籤上定義資源與特定費率卡別名之間的連線。
 
-![RCRMET_RTCRD_RSALS tab on rate card import template file](assets/rcrmet-tab-rate-card-import.png)
+![費率卡匯入範本檔案上的RCRMET_RTCRD_RSALS標籤](assets/rcrmet-tab-rate-card-import.png)
 
-1. Enter the information on each row:
+1. 在每一列輸入資訊：
 
-   * **Rate Card** (required): The name or the sequence number of the rate card that the resource and alias belong to. The rate card must be listed on the RTCRD tab.
+   * **費率卡** （必要）：資源與別名所屬費率卡的名稱或序號。 費率卡必須列在RTCRD標籤上。
 
-     For a sequence number: If the rate card was the first one you listed on the RTCRD tab (row 2), enter 1. 如果是第二個，請輸入2，依此類推。
+     針對序號：如果費率卡是您在RTCRD頁標（列2）上列出的第一個費率卡，請輸入1。 如果是第二個，請輸入2，依此類推。
 
-   * **Job Role** (required if Expense Type and Non-Labor Resource Category are not used): The job role that the alias is connected to. 這可以是工作角色名稱或工作角色ID。 匯入將會識別兩者。
+   * **工作角色** （若未使用費用型別和非人工資源類別則為必要）：別名所連線的工作角色。 這可以是工作角色名稱或工作角色ID。 匯入將會識別兩者。
 
      範例： Designer或&#x200B;_68c0234e00000541dd8c0757723daa68_
 
-   * **Expense Type** (required if Job Role and Non-Labor Resource Category are not used): The expense type that the alias is connected to. This can be either the expense type name or the expense type ID. 匯入將會識別兩者。
+   * **費用型別** （若未使用工作角色和非人工資源類別則為必要）：別名所連線的費用型別。 這可以是費用型別名稱或費用型別ID。 匯入將會識別兩者。
 
-     Example: Travel or _68c0234e00000541dd8c0757723daa68_
+     範例： Travel或&#x200B;_68c0234e00000541dd8c0757723daa68_
 
-   * **Non-Labor Resource Category** (required if Job Role and Expense Type are not used): The non-labor resource category that the alias is connected to. 這可以是類別名稱或類別ID。 匯入將會識別兩者。
+   * **非人工資源分類** （若未使用「工作角色」與「費用型別」，則為必要）：別名所連線的非人工資源分類。 這可以是類別名稱或類別ID。 匯入將會識別兩者。
 
      範例：相機或&#x200B;_68c0234e00000541dd8c0757723daa68_
 
      >[!IMPORTANT]
      >
-     >You cannot enter all three of the **Job Role**, **Expense Type**, and **Non-Labor Resource Category** columns. 需要一個。
+     >您無法輸入&#x200B;**工作角色**、**費用型別**&#x200B;及&#x200B;**非人工資源類別**&#x200B;欄中的所有三欄。 需要一個。
 
-   * **Resource Alias**: The alias entered on the RSALS tab.
+   * **資源別名**：在RSALS索引標籤上輸入的別名。
 
-### Date formatting requirements
+### 日期格式需求
 
-When preparing rate card data for importing, you must ensure that the date columns are formatted as **General**, not as **Date**.
+準備匯入的費率卡資料時，您必須確定日期欄的格式為&#x200B;**一般**，而不是&#x200B;**日期**。
 
-If the columns are set to Date format, the system may misinterpret values during the import process, leading to errors or failed uploads. 使用一般格式會保留日期的原始數值或文字表示，讓系統正確驗證並套用值。
+如果欄設定為日期格式，系統可能會在匯入過程中錯誤解讀值，導致錯誤或上傳失敗。 使用一般格式會保留日期的原始數值或文字表示，讓系統正確驗證並套用值。
 
 遵循這些步驟將可避免不必要的問題，並確保順利且準確地匯入比率資料。
 

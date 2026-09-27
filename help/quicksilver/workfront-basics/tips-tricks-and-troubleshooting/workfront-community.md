@@ -1,25 +1,29 @@
 ---
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
-title: ' [!DNL Adobe Workfront] 社群'
-description: Adobe [!DNL Workfront] 社群是超過10,000 [!DNL Workfront] 個使用者的線上群組。 透過社群，您可以隨時掌握最新的產品發行、瞭解客戶活動，並與其他使用者討論 [!DNL Workfront] 產品和服務。 您可以找到問題的解答，並與其他 [!DNL Workfront] 客戶建立連線。
+title: '[!DNL Adobe Workfront]社群'
+description: Adobe [!DNL Workfront]社群是超過10,000個[!DNL Workfront]使用者的線上群組。 透過社群，您可以隨時掌握最新的產品發行、瞭解客戶活動，並與其他使用者討論[!DNL Workfront]產品和服務。 您可以找到問題的解答，並與其他[!DNL Workfront]客戶建立連線。
 feature: Get Started with Workfront
 author: Becky
 exl-id: 1b581917-2e71-4e8a-b38c-775ade578f09
-TQID: https://experienceleague.adobe.com/yBbbuQXIayjqzlCDbR4BqVQnkMAKKJ-oJKkgVxiM2bY
+TQID: 'https://experienceleague.adobe.com/yBbbuQXIayjqzlCDbR4BqVQnkMAKKJ-oJKkgVxiM2bY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 403
+source-wordcount: '409'
 ht-degree: 1%
-
 ---
-
 # [!DNL Adobe Workfront]社群
 
 Adobe [!DNL Workfront]社群是超過10,000個[!DNL Workfront]使用者的線上群組。 透過社群，您可以隨時掌握最新的產品發行、瞭解客戶活動，並與其他使用者討論[!DNL Workfront]產品和服務。 您可以找到問題的解答，並與其他[!DNL Workfront]客戶建立連線。
@@ -61,7 +65,7 @@ Adobe [!DNL Workfront]社群是超過10,000個[!DNL Workfront]使用者的線上
 
 ### [!DNL Workfront]社群的URL為何？
 
-[!DNL Workfront]社群可在[!DNL Adobe Experience League]網站上取得，網址如下： [[!DNL Workfront] 社群](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=zh-Hant)。
+[!DNL Workfront]社群可在[!DNL Adobe Experience League]網站上取得，網址如下： [[!DNL Workfront] 社群](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)。
 
 ### 我的子網域是什麼？ {#what-s-my-subdomain}
 

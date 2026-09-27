@@ -8,24 +8,30 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-TQID: https://experienceleague.adobe.com/T5iSq2SOJEQrlvLNiQ5l69OncRMYvEs4uf6QosY9vq8
+TQID: 'https://experienceleague.adobe.com/T5iSq2SOJEQrlvLNiQ5l69OncRMYvEs4uf6QosY9vq8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 835
+source-wordcount: '835'
 ht-degree: 3%
-
 ---
-
 # 刪除使用者
 
 <!--Remove me October 2026-->
@@ -48,7 +54,7 @@ ht-degree: 3%
 >
 >Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].
 >
->  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/tw/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
@@ -96,17 +102,17 @@ ht-degree: 3%
 * 物件無法再與使用者共用。
 * 它們與下列物件的關聯會維持不變：
 
-   * 任務、問題、專案、投資組合
-   * 儀表板
+  * 任務、問題、專案、投資組合
+  * 儀表板
 
-     >[!NOTE]
-     >
-     >如果您停用使用者且無法再檢視與使用者相關聯的報告或儀表板，則可能需要更新&#x200B;**使用**&#x200B;欄位的存取許可權執行此報告。\
-     >若要深入瞭解，請參閱[為什麼我無法存取停用使用者所擁有的報告？](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) [報告常見問題集](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)文章的區段。
+    >[!NOTE]
+    >
+    >如果您停用使用者且無法再檢視與使用者相關聯的報告或儀表板，則可能需要更新&#x200B;**使用**&#x200B;欄位的存取許可權執行此報告。\
+    >若要深入瞭解，請參閱[為什麼我無法存取停用使用者所擁有的報告？](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) [報告常見問題集](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)文章的區段。
 
-   * 文件
-   * 更新
-   * 時數
+  * 文件
+  * 更新
+  * 時數
 
 * 如果使用者已將檔案出庫，當您停用檔案時，檔案仍會保持出庫狀態。 只有Workfront管理員可以重新簽入。 如需簽出檔案的詳細資訊，請參閱[簽出檔案](../../../documents/managing-documents/check-out-documents.md)。
 
@@ -119,8 +125,8 @@ ht-degree: 3%
 * 物件無法再與使用者共用。
 * 刪除該使用者與下列物件的關聯：
 
-   * 任務、問題、專案、投資組合
-   * 儀表板
+  * 任務、問題、專案、投資組合
+  * 儀表板
 
   <!--
 
@@ -132,12 +138,12 @@ ht-degree: 3%
 
    -->
 
-   * 更新
-   * 時數
+  * 更新
+  * 時數
 
-     >[!NOTE]
-     >
-     >這些物件仍保留在Workfront中，但物件的擁有者現在為空白。
+    >[!NOTE]
+    >
+    >這些物件仍保留在Workfront中，但物件的擁有者現在為空白。
 
 * 如果使用者在「全域導覽列」的「檔案」區域下上傳了任何檔案，也會刪除檔案。
 * 如果使用者已出庫他們擁有的檔案，且檔案已上傳到主檔案區域（從主功能表存取），則會隨使用者刪除檔案。 如需簽出檔案的詳細資訊，請參閱[簽出檔案](../../../documents/managing-documents/check-out-documents.md)。
@@ -150,7 +156,7 @@ ht-degree: 3%
 
 {{step-1-to-users}}
 
-1. 請至少選取一個要刪除的使用者，按一下[更多]功能表![[更多]圖示](assets/more-icon.png)，然後按一下[刪除]&#x200B;**&#x200B;**。
+1. 請至少選取一個要刪除的使用者，按一下[更多]功能表![[更多]圖示](assets/more-icon.png)，然後按一下[刪除]****。
 1. 在出現的方塊中，按一下&#x200B;**刪除**&#x200B;以確認刪除。
 
    刪除使用者的程式會以背景程式執行，因此您可以在刪除使用者時繼續使用Workfront。

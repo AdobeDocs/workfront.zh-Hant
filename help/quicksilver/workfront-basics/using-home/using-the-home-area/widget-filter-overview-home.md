@@ -8,25 +8,31 @@ feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/1VkGz7LgrE1uBZ4uSwcTNLn3VpSMB-VI3o5HhpBG2XA
+TQID: 'https://experienceleague.adobe.com/1VkGz7LgrE1uBZ4uSwcTNLn3VpSMB-VI3o5HhpBG2XA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 881
+source-wordcount: '881'
 ht-degree: 13%
-
 ---
-
 # 首頁Widget篩選器概觀
 
 <!--

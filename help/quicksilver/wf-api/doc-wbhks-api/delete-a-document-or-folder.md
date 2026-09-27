@@ -8,18 +8,21 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b56ec13a-1ee1-4bef-b39b-e625d00e4952
-TQID: https://experienceleague.adobe.com/7-f8Z3qQQ2z7ZHHfSrGgJqIQCKdeqEoL96XlfCGzYSo
+TQID: 'https://experienceleague.adobe.com/7-f8Z3qQQ2z7ZHHfSrGgJqIQCKdeqEoL96XlfCGzYSo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Developer
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 75
+source-wordcount: '75'
 ht-degree: 9%
-
 ---
-
 # 刪除檔案或資料夾（尚未實作）
 
 刪除外部系統中具有特定ID的檔案或資料夾。 刪除資料夾也會刪除資料夾內容。

@@ -6,18 +6,24 @@ description: 在20.3版（預計於2020年8月推出）中，Adobe Workfront將�
 author: Luke
 feature: Product Announcements
 exl-id: 73abd185-81c6-43fc-b8b0-cad14d15b348
-TQID: https://experienceleague.adobe.com/q3IdES8LZlJDDBjUqTkHmWqjtVdMV-w80o7wC-uRSXg
+TQID: 'https://experienceleague.adobe.com/q3IdES8LZlJDDBjUqTkHmWqjtVdMV-w80o7wC-uRSXg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 306
+source-wordcount: '306'
 ht-degree: 1%
-
 ---
-
 # 移除作為外寄電子郵件選項的自訂SMTP
 
 >[!NOTE]
@@ -34,4 +40,4 @@ ht-degree: 1%
 
 如果您已設定自訂SMTP郵件伺服器，**強烈建議您連絡您的IT團隊**，以確保不會封鎖來自notifications@my.workfront.com的電子郵件，以接收系統傳入的電子郵件。 您也可以參考設定防火牆，以取得流量和電子郵件來自哪些IP位址的詳細資訊。
 
-如果您有任何其他問題或顧慮，請聯絡[Workfront支援團隊](https://experienceleague.adobe.com/zh-hant?support-tab=home#support)。
+如果您有任何其他問題或顧慮，請聯絡[Workfront支援團隊](https://experienceleague.adobe.com/?support-tab=home#support)。

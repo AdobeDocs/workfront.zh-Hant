@@ -7,25 +7,31 @@ recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/EqRUPqeqy6fSLryuWDtQGaypBlXmSJiaErDZymB95is
+TQID: 'https://experienceleague.adobe.com/EqRUPqeqy6fSLryuWDtQGaypBlXmSJiaErDZymB95is'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a76f87dd9d37d4221c9f441da362dfc48b4960fb
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 573
+source-wordcount: '663'
 ht-degree: 0%
-
 ---
-
 # 2026年第二季度管理員增強功能
 
 本頁說明管理員在2026年第二季度版本中針對預覽環境所做的增強功能。 如上所述，這些增強功能將於生產環境中提供。
@@ -36,7 +42,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2026年4月2日>生產快速發行： 2026年4月15日>每個人都能生產： 2026年4月16日
+>預覽： 2026年4月2日
+>生產快速發行： 2026年4月15日
+>每個人都能使用生產： 2026年4月16日
 
 為了讓您更輕鬆地在日常工作中從AI中獲益，我們建立了Content Review AI共同作業人員。 共同作業程式是將AI代理程式加入您的專案和任務的方法。 您可以使用品牌指南設定AI共同作業人員，然後將其指派給任務，就像您指派使用者一樣。
 
@@ -48,7 +56,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2026年3月27日>生產快速版本： 2026年3月27日>每個人的生產： 2026年3月27日
+>預覽： 2026年3月27日
+>生產快速發行： 2026年3月27日
+>適用於所有人的生產： 2026年3月27日
 
 我們已更新Workfront中可用的時區，以遵循IANA標準。 這可確保與其他系統的相容性，並可確保一段時間內的準確性。
 
@@ -60,14 +70,16 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2026年3月5日>生產快速發行： 2026年4月15日>每個人都生產： 2026年4月16日
+>預覽： 2026年3月5日
+>生產快速發行： 2026年4月15日
+>每個人都能使用生產： 2026年4月16日
 
-我們已將「自訂季度」區域從「專案偏好設定」區段移出。它現在是「設定」中的獨立區段。 
+我們已將「自訂季度」區域從「專案偏好設定」區段移出。 它現在是「設定」中的獨立區段。 
 此更新包含下列專案：
 
 * 自訂宿舍區域會從設定的專案偏好設定區段中移除
-* 「自訂季度」區段會新增至「設定」左側面板。功能保持不變。 
-* 「自訂季度」區段已從群組的專案偏好設定區段中移除。群組管理員無法再檢視自訂季度設定。 
+* 「自訂季度」區段會新增至「設定」左側面板。 功能保持不變。 
+* 「自訂季度」區段已從群組的專案偏好設定區段中移除。 群組管理員無法再檢視自訂季度設定。 
 
 如需詳細資訊，請參閱[啟用自訂季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
@@ -75,7 +87,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2026年2月26日>生產快速版本： 2026年3月12日>每個人的生產： 2026年4月16日
+>預覽： 2026年2月26日
+>生產快速發行： 2026年3月12日
+>每個人都能使用生產： 2026年4月16日
 
 依預設，當表單本身展開時，自訂表單上的所有區段都會展開。 自訂表單設計工具上的新選項可讓您在使用者開啟表單時，將區段標示為預設摺疊。 此選項適用於區段層級，而非欄位。
 
@@ -85,7 +99,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2026年1月29日>生產快速發行： 2026年2月12日>每個人的生產：待定
+>預覽： 2026年1月29日
+>生產快速發行： 2026年2月12日
+>適用於所有人的生產環境：待定
 >
 >此功能已於2026年2月13日暫時從生產環境中移除。
 

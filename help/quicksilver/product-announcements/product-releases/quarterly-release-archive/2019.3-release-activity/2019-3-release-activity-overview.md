@@ -9,27 +9,35 @@ recommendations: noDisplay, noCatalog
 exl-id: b2bee19f-32eb-49b9-9497-dea290ce64b2
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/NTbTLVymNowBCREUkeX3WireRh3CWaiomPKyRzSk-dI
+TQID: 'https://experienceleague.adobe.com/NTbTLVymNowBCREUkeX3WireRh3CWaiomPKyRzSk-dI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1334
+source-wordcount: '1335'
 ht-degree: 1%
-
 ---
-
 # 2019.3版本活動概覽
 
 本頁提供2019.3版所含功能的相關資訊。 此頁面上的功能已在2019年8月19日當週的生產環境中提供。
@@ -485,4 +493,4 @@ Replacement of Flash-based tools in Workfront
 
 ### 第3季產品藍圖網路研討會 {#q3-product-roadmap-webinar}
 
-深入瞭解將於8月1日上午9:00舉行的[第3季藍圖網路研討會](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=Product&eventid=2040896&sessionid=1&key=EFBB434E2FDF446E010DA62D1C27E9E5&regTag=&sourcepage=register)的內容。 最小
+深入瞭解將於8月1日上午9:00舉行的[第3季藍圖網路研討會](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=Product&eventid=2040896&sessionid=1&key=EFBB434E2FDF446E010DA62D1C27E9E5&regTag=&sourcepage=register)。 最小

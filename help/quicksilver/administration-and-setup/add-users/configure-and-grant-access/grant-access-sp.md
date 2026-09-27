@@ -5,25 +5,31 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4343f0ff-2f78-4556-801f-db9d94f80c95
-TQID: https://experienceleague.adobe.com/oIZ0F7oKuK-UsGCnjgXQphxTLqBcYCxHuGEHKBN328Y
+TQID: 'https://experienceleague.adobe.com/oIZ0F7oKuK-UsGCnjgXQphxTLqBcYCxHuGEHKBN328Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 610
+source-wordcount: '610'
 ht-degree: 3%
-
 ---
-
 # 授予Scenario Planner的存取權
 
 身為Adobe Workfront管理員，您可以使用存取層級來定義使用者對「情境規劃工具」的存取權，如[存取層級概觀](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)中所述。
@@ -81,7 +87,7 @@ ht-degree: 3%
 
 ## 依授權型別存取Scenario Planner
 
-如需有關每個存取層級中的使用者可以使用Scenario Planner做什麼，請參閱每個物件型別[&#128279;](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)可用的功能文章中的[Scenario Planner區域](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#scenario)一節。
+如需有關每個存取層級中的使用者可以使用Scenario Planner做什麼，請參閱每個物件型別](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)可用的[功能文章中的[Scenario Planner區域](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#scenario)一節。
 
 ## 依存取層級設定的「案例規劃工具」存取權
 

@@ -8,22 +8,26 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 71ef7a50-7a9f-43c4-b67c-8d9fc722569f
-TQID: https://experienceleague.adobe.com/gJ8o3kijaGF2W2aIaal4mv9iWXRfGMJ1-kkG3XLSB18
+TQID: 'https://experienceleague.adobe.com/gJ8o3kijaGF2W2aIaal4mv9iWXRfGMJ1-kkG3XLSB18'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 406
+source-wordcount: '406'
 ht-degree: 4%
-
 ---
-
 # 啟用或停用組織的快速發行
 
 Adobe Workfront有兩種發佈新功能和更新的模型。 您可以選擇每季接收新功能，還是以更快的發行時間表接收。

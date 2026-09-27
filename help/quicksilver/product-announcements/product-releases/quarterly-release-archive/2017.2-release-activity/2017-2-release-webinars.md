@@ -7,22 +7,29 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 97091ac4-f5de-4256-aa24-f96d083ced49
-TQID: https://experienceleague.adobe.com/j-B0syjTynUyElEvzamXoagAzd8pl4FfutepHohOHPA
+TQID: 'https://experienceleague.adobe.com/j-B0syjTynUyElEvzamXoagAzd8pl4FfutepHohOHPA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 426
+source-wordcount: '426'
 ht-degree: 2%
-
 ---
-
 # 2017.2版本網路研討會
 
 這些網路研討會著重於2017.2版本中的功能。 

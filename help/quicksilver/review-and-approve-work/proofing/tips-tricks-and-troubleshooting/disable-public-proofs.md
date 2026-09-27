@@ -8,20 +8,27 @@ description: 您可以關閉與公共URL共用校訂或根據校訂嵌入程式�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 73f08e12-f70d-4347-8a5b-441f94d24590
-TQID: https://experienceleague.adobe.com/QSiyfg19DWAAPIH4WB66KpOBorHcp73M7K5hv3h7jDA
+TQID: 'https://experienceleague.adobe.com/QSiyfg19DWAAPIH4WB66KpOBorHcp73M7K5hv3h7jDA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 228
+source-wordcount: '228'
 ht-degree: 0%
-
 ---
-
 # 停用透過公開URL或內嵌程式碼共用校訂
 
 您可以關閉與公共URL共用校訂或根據校訂嵌入程式碼或為個別使用者共用校訂的功能。

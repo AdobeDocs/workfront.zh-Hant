@@ -8,26 +8,35 @@ recommendations: noDisplay, noCatalog
 exl-id: 5e0be9d9-efa5-4b16-bd56-f9c85bc57ced
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/Sch9ArKRfEiy9KYoo-wny1j4-WyWcpHW86CuWP-qEV0
+TQID: 'https://experienceleague.adobe.com/Sch9ArKRfEiy9KYoo-wny1j4-WyWcpHW86CuWP-qEV0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1616
+source-wordcount: '1639'
 ht-degree: 1%
-
 ---
-
 # 將「連線的記錄」頁面新增至記錄
 
 <!--
@@ -94,7 +103,7 @@ ht-degree: 1%
    <ul><li><p>Adobe Experience Manager授權及Adobe Experience Manager與Workfront之間的整合，用於連結AEM物件與Planning記錄型別。</p>
    <p>如需詳細資訊，請參閱<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 連線記錄型別與GenStudio Brands的Adobe GenStudio for Performance Marketing授權</p>
-   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
+   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
 
 <p><b>附註</b></p>
    如果您購買Planning套件作為獨立產品，您也必須購買Workflow套件，以將Planning記錄型別與Workfront物件型別連線</p>
@@ -181,7 +190,7 @@ ht-degree: 1%
 
    或
 
-   暫留在索引標簽名稱上，然後按一下[其他] **&#x200B;**&#x200B;![&#x200B; [其他]功能表](assets/more-menu.png)，然後按一下[重新命名] **以重新命名為新的連線記錄頁面索引標籤。**
+   暫留在索引標簽名稱上，然後按一下[其他] **** ![ [其他]功能表](assets/more-menu.png)，然後按一下[重新命名] **以重新命名為新的連線記錄頁面索引標籤。**
 
 1. （選擇性）將游標暫留在連線記錄頁面索引標簽名稱上，按一下&#x200B;**更多** ![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**刪除**&#x200B;以移除至索引標籤。
 
@@ -303,7 +312,7 @@ When you create a connected records page for connected Planning records in the P
 
         如需詳細資訊，請參閱本文中的[從連線的記錄頁面](#manage-multiple-views-from-the-connected-records-page)管理多個檢視一節。
 
-   1. 按一下&#x200B;**建立**。
+   1. 按一下「**建立**」。
       新檢視會新增至「檢視」下拉式功能表。
 
    1. （選擇性）將游標停留在您建立的檢視名稱上，按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下下列其中一個選項：

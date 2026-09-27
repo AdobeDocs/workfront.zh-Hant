@@ -7,18 +7,24 @@ description: 否。 Desktop Proofing Viewer是專為即時網站校訂以及橫�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e5c9f039-2a6e-47be-a125-f0ce23cfaeaa
-TQID: https://experienceleague.adobe.com/1gc-y9JRhPoWI2jpVRsQoe05Vi9mzHYVu5Bo7pydfbw
+TQID: 'https://experienceleague.adobe.com/1gc-y9JRhPoWI2jpVRsQoe05Vi9mzHYVu5Bo7pydfbw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 417
+source-wordcount: '444'
 ht-degree: 1%
-
 ---
-
 # 常見問題集 — 案頭校訂檢視器
 
 ## 我的組織不會校訂互動式內容。 我仍需要安裝案頭校訂檢視器嗎？

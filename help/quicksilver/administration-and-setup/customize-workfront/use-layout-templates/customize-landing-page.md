@@ -8,27 +8,35 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-TQID: https://experienceleague.adobe.com/mZG3AgBJta1RtzQAIrXv-3jfkxS67SY-l-jhgeLZFVM
+TQID: 'https://experienceleague.adobe.com/mZG3AgBJta1RtzQAIrXv-3jfkxS67SY-l-jhgeLZFVM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1d62b2942d99d027cb68df973b2ec700dd1fa377
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 446
+source-wordcount: '446'
 ht-degree: 8%
-
 ---
-
 # 使用版面配置範本自訂登入頁面
 
 {{preview-fast-release-general}}

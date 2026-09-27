@@ -6,13 +6,20 @@ description: Adobe Workfront中的快照可讓您檢視快照（在特定日期�
 author: Lisa
 feature: Work Management
 exl-id: 9ff84f9a-46bd-46e8-a58d-7dafbc333507
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1282'
 ht-degree: 2%
-
 ---
-
 # 建立和檢視專案快照
 
 專案經理經常需要將專案的過去資料與目前狀態進行比較，以做出明智的決策，並檢視其專案隨時間的變化。
@@ -163,7 +170,7 @@ Adobe Workfront中的快照可讓您快速準確地檢視快照（在特定日�
 
 1. 按一下清單上方的&#x200B;**欄**。
 
-   快照清單![的](assets/hide-display-columns-on-snapshot.png)資料行
+   快照清單](assets/hide-display-columns-on-snapshot.png)的![資料行
 
 1. 使用切換來顯示或隱藏清單中的欄。
 1. 若要重新排序欄，請按一下&#x200B;**拖曳**&#x200B;圖示![拖曳圖示](assets/drag-icon.png)並將欄移至您想要的位置。 移動欄會自動變更清單。
@@ -204,7 +211,7 @@ Adobe Workfront中的快照可讓您快速準確地檢視快照（在特定日�
 
    快照上的![檢視功能表](assets/views-on-snapshot-list.png)
 
-1. （視條件而定）若要新增檢視，請輸入檢視的名稱，然後按一下[建立]。**&#x200B;**
+1. （視條件而定）若要新增檢視，請輸入檢視的名稱，然後按一下[建立]。****
 1. （選用）隱藏、顯示或重新排列欄。 如需詳細資訊，請參閱[自訂清單中的欄](#customize-columns-in-a-list)。
 1. （選用）篩選清單。 如需詳細資訊，請參閱[篩選清單](#filter-items-in-a-list)中的專案。
 

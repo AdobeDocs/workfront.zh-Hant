@@ -2,23 +2,31 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: 管理 [!DNL Workfront Proof]中的檔案
+title: 管理[!DNL Workfront Proof]中的檔案
 description: 您可以管理、共用和檢視有關已上傳至Workfront Proof的檔案（而非校樣）的資訊（請參閱將檔案和網頁內容上傳至Workfront Proof）。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 9bbf2448-74dc-412a-b17c-4321d0acaf07
-TQID: https://experienceleague.adobe.com/IMVAWm0N74jNGqSnWShXORGLdvcelgQ-oGSVZaPsDo8
+TQID: 'https://experienceleague.adobe.com/IMVAWm0N74jNGqSnWShXORGLdvcelgQ-oGSVZaPsDo8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 526
+source-wordcount: '526'
 ht-degree: 0%
-
 ---
-
 # 管理[!DNL Workfront Proof]中的檔案
 
 >[!IMPORTANT]
@@ -57,7 +65,7 @@ ht-degree: 0%
   >
   >針對從其他[!DNL Workfront Proof]帳戶共用（且未上傳至您自己的帳戶）的檔案，僅可在企業計畫上轉換。
 
-  您也可以按一下[下載&#x200B;**&#x200B;**]，將原始檔案下載到您的電腦。
+  您也可以按一下[下載&#x200B;****]，將原始檔案下載到您的電腦。
 
 1. （選擇性）開啟&#x200B;**[!UICONTROL 共用給]**&#x200B;區段以列出共用該檔案的使用者。
 

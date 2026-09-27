@@ -8,27 +8,37 @@ author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/2-X5FtwdWU0s-yJInRRPkiNgIsgHQuvXgPBtSusmyeY
+TQID: 'https://experienceleague.adobe.com/2-X5FtwdWU0s-yJInRRPkiNgIsgHQuvXgPBtSusmyeY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9e4b8593c559dd68f7c0948c58c3f796af1c22fd
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3743
+source-wordcount: '3743'
 ht-degree: 1%
-
 ---
-
 # 連接記錄
 
 <!--
@@ -111,7 +121,7 @@ ht-degree: 1%
    <ul><li><p>Adobe Experience Manager授權及Adobe Experience Manager與Workfront之間的整合，用於連結AEM資產或內容片段與Planning記錄型別。</p>
    <p>如需詳細資訊，請參閱<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> Adobe GenStudio for Performance Marketing授權可連線記錄型別與GenStudio Brands或存取GenStudio工作區</p>
-   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
+   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
 <p><b>附註</b></p>
 <p>您必須購買Workfront Workflow套件，才能將Planning記錄與Workfront物件連線。 </p>
 
@@ -297,7 +307,7 @@ Old:
 
    或
 
-   在方塊中選取一或多個記錄的名稱，然後按一下[連線物件]。**&#x200B;**
+   在方塊中選取一或多個記錄的名稱，然後按一下[連線物件]。****
 
    新增下列專案：
 
@@ -377,7 +387,7 @@ Old:
 
    或
 
-   在方塊中選取一或多個物件的名稱，然後按一下[連線物件]。**&#x200B;**
+   在方塊中選取一或多個物件的名稱，然後按一下[連線物件]。****
 
    >[!IMPORTANT]
    >
@@ -432,7 +442,7 @@ No longer needed to specify:
 
 >[!NOTE]
 >
->當您的Experience Manager Assets管理員透過Workfront與Workfront之間的整合設定中繼資料對應時，可從Adobe Experience Manager Assets存取Planning記錄及其欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+>當您的Experience Manager Assets管理員透過Workfront與Workfront之間的整合設定中繼資料對應時，可從Adobe Experience Manager Assets存取Planning記錄及其欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 >將記錄從Planning中的GenStudio工作區連線至AEM物件（資產和內容片段）時，GenStudio資訊會自動顯示在AEM的AEM物件上。 在AEM Planning中建立連線時，GenStudio記錄的查詢欄位中會顯示Workfront資訊。 如需詳細資訊，請參閱[在Adobe Workfront規劃中管理GenStudio工作區](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)。
 
 <!--
@@ -478,11 +488,11 @@ metadata mapping is not available yet for content fragments - as of April 22, 20
    >[!IMPORTANT]
    >
    > 您只能連線您有權在Experience Manager中檢視的資產。 連線之後，所有Workfront Planning使用者都能在Workfront Planning中檢視資產，無論他們在Experience Manager Assets中的存取權為何。
-   > 如需「內容警告器」的詳細資訊，請參閱[使用「內容警告器」存取Adobe應用程式中的AEM內容](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}。
+   > 如需「內容警告器」的詳細資訊，請參閱[使用「內容警告器」存取Adobe應用程式中的AEM內容](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}。
 
 1. 從&#x200B;**內容片段**&#x200B;索引標籤中，選取要新增至連結記錄欄位的內容片段。
 
-   如需內容片段的詳細資訊，請參閱[使用內容警告器存取Adobe應用程式中的AEM內容](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}。
+   如需內容片段的詳細資訊，請參閱[使用內容警告器存取Adobe應用程式中的AEM內容](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications){target="_blank"}。
 
 1. 當您完成選擇資產或內容片段時，請按一下&#x200B;**選取**。<!-- we might change this to Connect-->
 
@@ -558,7 +568,7 @@ metadata mapping is not available yet for content fragments - as of April 22, 20
    >
    >    依預設，只會顯示已連線個別記錄的已連線記錄。
 
-1. （選擇性）按一下[顯示所有連線]&#x200B;**&#x200B;**&#x200B;以顯示所有連線的記錄型別，包括沒有連線記錄的記錄型別。
+1. （選擇性）按一下[顯示所有連線]****&#x200B;以顯示所有連線的記錄型別，包括沒有連線記錄的記錄型別。
 
 1. （選擇性）按一下區段左側的向下箭頭以收合區段。
 

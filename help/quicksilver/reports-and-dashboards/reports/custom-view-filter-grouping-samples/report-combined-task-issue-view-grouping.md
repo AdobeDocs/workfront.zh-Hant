@@ -9,23 +9,28 @@ feature: Reports and Dashboards
 exl-id: 6eaae772-229d-44ea-b285-cbaf9e46eade
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/eE-k-X9-z3yBL0lAGP-DQrsibC3ErZ6btFnDiTlf3aw
+TQID: 'https://experienceleague.adobe.com/eE-k-X9-z3yBL0lAGP-DQrsibC3ErZ6btFnDiTlf3aw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 405
+source-wordcount: '405'
 ht-degree: 5%
-
 ---
-
 # 報告：合併的任務和問題檢視和分組
 
 <!--Audited: 10/2024-->
@@ -290,4 +295,4 @@ ht-degree: 5%
    此分組將所有任務和問題分組在一起。
 
 1. 按一下「**儲存並關閉**」。
-1. （選擇性）更新報表的名稱，然後按一下[套用]。**&#x200B;**
+1. （選擇性）更新報表的名稱，然後按一下[套用]。****

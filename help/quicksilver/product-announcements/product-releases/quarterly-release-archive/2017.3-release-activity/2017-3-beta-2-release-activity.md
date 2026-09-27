@@ -7,20 +7,27 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f3293166-ef91-4623-828b-9530d746296d
-TQID: https://experienceleague.adobe.com/CtGQZMxSWimi-9K73442-rUmpyPcqNh0EQ6MNaBNtns
+TQID: 'https://experienceleague.adobe.com/CtGQZMxSWimi-9K73442-rUmpyPcqNh0EQ6MNaBNtns'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 831
+source-wordcount: '831'
 ht-degree: 0%
-
 ---
-
 # 2017.3 Beta 2發行活動
 
 本頁說明2017.3 Beta 2版本預覽環境中最近可用的所有變更。 此頁面的功能已於2017年8月23日在預覽環境中推出。 它將在2017年11月初的生產環境中提供。
@@ -33,7 +40,7 @@ ht-degree: 0%
 
 2017.3 Beta 2版本包含適用於Workfront管理員和其他使用者的增強功能：
 
-管理員的&#x200B;**&#x200B;**
+管理員的&#x200B;****
 
 * [依Stage Activation (Workfront Proof)限制工作流程的存取權](#restrict-access-to-workflows-by-stage-activation-workfront-proof)
 
@@ -86,7 +93,7 @@ ht-degree: 0%
 
 訂閱後，每當對訂閱物件的更新流進行評論時，使用者會收到應用程式內通知。 此外，訂閱者可選擇接收電子郵件和行動通知。
 
-若要進一步瞭解如何訂閱及取消訂閱使用者物件，請參閱[訂閱Adobe Workfront中的專案](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md) [&#128279;](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)中的專案。
+若要進一步瞭解如何訂閱及取消訂閱使用者物件，請參閱[訂閱Adobe Workfront中的專案](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md) ](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)中的專案[。
 
 ## 在報表或檢視中檢視訂閱者清單 {#viewing-the-subscriber-list-in-a-report-or-view}
 

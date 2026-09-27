@@ -6,13 +6,20 @@ description: 身為Workfront管理員，您可以設定Workfront追蹤的物件�
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '446'
 ht-degree: 6%
-
 ---
-
 # 設定要在變更記錄中追蹤的欄位
 
 {{highlighted-preview-article-level}}
@@ -46,7 +53,7 @@ Adobe Workfront會產生自動系統更新，以記錄下列事件：
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td>[!UICONTROL 標準]</td> 
+   <td>[！UICONTROL標準]</td> 
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
@@ -86,7 +93,7 @@ Adobe Workfront會產生自動系統更新，以記錄下列事件：
 
    ![新增變更追蹤的欄位](assets/change-history-config-add-fields.png)
 
-1. 選取您要追蹤的所有欄位後，按一下[新增]。**&#x200B;**
+1. 選取您要追蹤的所有欄位後，按一下[新增]。****
 
    這些欄位會新增至「追蹤的欄位」清單中。
 

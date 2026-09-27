@@ -10,18 +10,24 @@ recommendations: noDisplay, noCatalog
 exl-id: b5b0e5b2-1133-443b-8ef1-cbb1ca377fd6
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/PE1Xto6A0SvgSaXTvttkiz1tfETBSy1IGn-C-eLl5is
+TQID: 'https://experienceleague.adobe.com/PE1Xto6A0SvgSaXTvttkiz1tfETBSy1IGn-C-eLl5is'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 173
+source-wordcount: '198'
 ht-degree: 0%
-
 ---
-
 # Adobe Workfront目標中的目標校準：文章索引
 
 <!--Audited P&P only: 4/2025-->

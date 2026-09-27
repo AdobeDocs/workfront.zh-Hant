@@ -8,27 +8,37 @@ recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/jyRdImgjr0238JzddL88QZYMyaX3E5zj65R8-s1VuMA
+TQID: 'https://experienceleague.adobe.com/jyRdImgjr0238JzddL88QZYMyaX3E5zj65R8-s1VuMA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3273
+source-wordcount: '3273'
 ht-degree: 1%
-
 ---
-
 <!--keep the 30 fields limit in yellow till Jan 2026; also the global record type cross-workspace capability information-->
 
 # 連線記錄型別
@@ -115,7 +125,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    <ul><li><p>Adobe Experience Manager Assets授權及AEM Assets與Workfront之間的整合，用於連結AEM資產與Planning記錄型別。</p>
    <p>如需詳細資訊，請參閱<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 連線記錄型別與GenStudio Brands的Adobe GenStudio for Performance Marketing授權</p>
-   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
+   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -357,7 +367,7 @@ Old:
 
    >[!NOTE]
    >
-   >您的Workfront管理員可以透過Workfront中的中繼資料對應，將Workfront Planning欄位對應至Experience Manager Assets欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+   >您的Workfront管理員可以透過Workfront中的中繼資料對應，將Workfront Planning欄位對應至Experience Manager Assets欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
 1. <span class="preview"> （選擇性和條件性）如果您選取&#x200B;**讓此連線相依**，請按一下&#x200B;**記錄篩選規則**&#x200B;以建立篩選器，在兩個連線的記錄欄位顯示於相同記錄型別時，限制連線欄位值的值。</span>
 
@@ -445,7 +455,7 @@ Old:
    >
    > 如果您希望欄位能新增為時間軸和行事曆檢視的開始和結束日期，新增查閱日期欄位時必須選取彙總值。 例如，您可以選取MAX或查閱日期欄位的MIN彙總。
 
-   連結的編號欄位![&#128279;](assets/aggregator-drop-down-for-number-linked-field.png)的彙總下拉式清單
+   連結的編號欄位](assets/aggregator-drop-down-for-number-linked-field.png)的![彙總下拉式清單
 
    >[!NOTE]
    >

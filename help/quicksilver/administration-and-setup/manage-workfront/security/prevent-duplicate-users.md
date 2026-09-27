@@ -8,24 +8,30 @@ author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 84d9a752-e894-42cf-9b40-375e35f02c97
-TQID: https://experienceleague.adobe.com/RSvNaBdgB5bZqkeD-KmlX1o54cUEdgi0Vtta9JWMTlw
+TQID: 'https://experienceleague.adobe.com/RSvNaBdgB5bZqkeD-KmlX1o54cUEdgi0Vtta9JWMTlw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 568
+source-wordcount: '577'
 ht-degree: 3%
-
 ---
-
 # 防止重複使用者
 
 在Adobe Workfront中建立新使用者時，您無法再使用已由其他使用者使用的電子郵件地址，即使電子郵件地址依大小寫而異（例如JohnDoe@example.com和johndoe@example.com）。 此外，為了準備迎接未來的驗證增強功能，請確保所有使用者在Workfront執行個體中具有唯一的電子郵件地址。
@@ -107,8 +113,8 @@ ht-degree: 3%
 
      例如，John Doe可以有一個使用者帳戶用於其日常使用帳戶，以及一個用於測試目的的使用帳戶：
 
-      * johndoe@workfront.com
-      * johndoe+reviewer@workfront.com
+     * johndoe@workfront.com
+     * johndoe+reviewer@workfront.com
 
    * 將下列文字附加至電子郵件地址，將網域變更為使用偽網域：
 
@@ -116,8 +122,8 @@ ht-degree: 3%
 
      例如，John Doe可能有下列網域： （這些網域必須是唯一的。）
 
-      * johndoe@workfront.inactive
-      * johndoe@workfront.inactive2
+     * johndoe@workfront.inactive
+     * johndoe@workfront.inactive2
 
      您無法再登入這些帳戶，因為密碼重設需要有效的電子郵件地址。 這些帳戶只能使用「登入身份」功能來存取。
 

@@ -3,29 +3,33 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
 title: 建立計分卡
-description: 計分卡可測量專案與專案組合先前建立之條件的符合程度。 計分卡通常可反映組織的使命、價值和策略目標。Portfolio經理通常會定義計分卡問題和答案，以確保它們在專案優先順序設定和選擇期間具有意義和價值。  [!DNL Adobe Workfront] 管理員會根據投資組合經理的建議來建置計分卡。
+description: 計分卡可測量專案與專案組合先前建立之條件的符合程度。 計分卡通常可反映組織的使命、價值和策略目標。Portfolio經理通常會定義計分卡問題和答案，以確保它們在專案優先順序設定和選擇期間具有意義和價值。 [!DNL Adobe Workfront]管理員會根據投資組合經理的建議來建置計分卡。
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/Moddac2gKcXbmssSrzrMMcxuj-7al8Md76Vkjw-CSoY
+TQID: 'https://experienceleague.adobe.com/Moddac2gKcXbmssSrzrMMcxuj-7al8Md76Vkjw-CSoY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 846
+source-wordcount: '847'
 ht-degree: 2%
-
 ---
-
 # 建立計分卡
 
 <!--Audited: 11/2025-->
@@ -100,21 +104,21 @@ ht-degree: 2%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Question]</td> 
+      <td role="rowheader">[！UICONTROL Question]</td> 
       <td>輸入您要納入計分卡中的問題。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 點]</td> 
+      <td role="rowheader">[！UICONTROL點]</td> 
       <td>輸入此問題的最大可能分數。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 負點]</td> 
+      <td role="rowheader">[！UICONTROL負點]</td> 
       <td>選取此選項以指出[!DNL Workfront]應該從總可能點數中減去。 負分無法新增到計分卡的最大可能點數。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 顯示型別]</td> 
-      <td>如果您想要在計分卡中顯示數值欄位，讓使用者可指定介於0到100之間的任何值，請選取<strong>[!UICONTROL Value(0-100)]</strong>。<p>或者，選取<strong>[!UICONTROL 下拉式清單]</strong>或<strong>[!UICONTROL 選項按鈕]</strong>，以建立使用者可使用該控制項指定的答案。 按一下<strong>[!UICONTROL 新增答案]</strong>，然後輸入此答案的<strong>[!UICONTROL 值]</strong> （以百分點為單位），以備回應完成。 如果您選擇100%，則會完全達到分配給此問題的點數。 如果您要指出此答案只包含分配給此問題的總點數的一部分，請選取較低的百分比值。 例如，如果您的問題值是10點，而您想要此答案攜帶其中5點，請為您的值選擇50%。</p>
-      <p>如果您要指出此答案為預設答案，請選取<strong>[!UICONTROL 預設值]</strong>。</strong></p>
+      <td role="rowheader">[！UICONTROL顯示型別]</td> 
+      <td>如果您想要在計分卡中顯示數值欄位，讓使用者可指定介於0到100之間的任何值，請選取<strong>[！UICONTROL Value(0-100)]</strong>。<p>或者，選取<strong>[！UICONTROL下拉式清單]</strong>或<strong>[！UICONTROL選項按鈕]</strong>，以建立使用者可使用該控制項指定的答案。 按一下<strong>[！UICONTROL新增答案]</strong>，然後輸入此答案的<strong>[！UICONTROL值]</strong> （以百分點為單位），以備回應完成。 如果您選擇100%，則會完全達到分配給此問題的點數。 如果您要指出此答案只包含分配給此問題的總點數的一部分，請選取較低的百分比值。 例如，如果您的問題值是10點，而您想要此答案攜帶其中5點，請為您的值選擇50%。</p>
+      <p>如果您要指出此答案為預設答案，請選取<strong>[！UICONTROL預設值]</strong>。</strong></p>
      </tr> 
     </tbody> 
    </table>

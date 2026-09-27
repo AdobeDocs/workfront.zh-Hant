@@ -6,23 +6,28 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
-TQID: https://experienceleague.adobe.com/R6wn9MEVWUTsVTJGktyPdOSrdWN6nb3jY4ldkEx5WPk
+TQID: 'https://experienceleague.adobe.com/R6wn9MEVWUTsVTJGktyPdOSrdWN6nb3jY4ldkEx5WPk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 562
-ht-degree: 6%
-
+source-wordcount: '592'
+ht-degree: 11%
 ---
-
 # 上傳檔案並在優先順序中建立校訂
 
 您可以上傳檔案，並在「優先順序」中建立校樣。
@@ -77,9 +82,9 @@ ht-degree: 6%
 1. 在工作清單中，暫留在工作名稱上，然後按一下&#x200B;**摘要**&#x200B;圖示![開啟摘要圖示](assets/summary-icon.png)。
 1. 確定您位於摘要面板中的&#x200B;**任務**&#x200B;或&#x200B;**問題**&#x200B;索引標籤上。
 1. 按一下&#x200B;**上傳檔案**&#x200B;圖示![上傳檔案圖示](assets/upload-file-icon.png)。
-1. 拖放檔案，或按Cmd/Ctrl + V從剪貼簿貼上
+1. 拖放檔案，或按 Cmd/Ctrl+V 從剪貼簿中貼上
 或
-按一下&#x200B;**新增檔案**&#x200B;以瀏覽檔案或從Document Cloud提供者匯入檔案。
+按一下**新增檔案**以瀏覽檔案或從Document Cloud提供者匯入檔案。
    ![新增檔案](assets/add-files.png)
 1. （選用）新增註解。
 1. （選用）新增更多檔案。
@@ -96,9 +101,9 @@ ht-degree: 6%
 1. 在工作清單中，按一下工作專案名稱。
 1. 按一下熒幕上方的&#x200B;**檔案**&#x200B;索引標籤。
 1. 按一下右上角的&#x200B;**上傳檔案**，然後選取&#x200B;**檔案**。
-1. 拖放檔案，或按Cmd/Ctrl + V從剪貼簿貼上
+1. 拖放檔案，或按 Cmd/Ctrl+V 從剪貼簿中貼上
 或
-按一下&#x200B;**新增檔案**&#x200B;以瀏覽檔案或從Document Cloud提供者匯入檔案。
+按一下**新增檔案**以瀏覽檔案或從Document Cloud提供者匯入檔案。
    ![新增檔案](assets/add-files.png)
 1. （選用）新增註解。
 1. （選用）新增更多檔案。

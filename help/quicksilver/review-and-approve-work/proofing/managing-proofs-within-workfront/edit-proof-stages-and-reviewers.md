@@ -6,23 +6,31 @@ description: 瞭解如何編輯校訂階段和檢閱者。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 91549c2d-d7b1-461c-a3c4-ad0032acfb23
-TQID: https://experienceleague.adobe.com/yh9htEooQ267a5ZSL60NXX5xNSuUJcBC2sjZOwF8VBY
+TQID: 'https://experienceleague.adobe.com/yh9htEooQ267a5ZSL60NXX5xNSuUJcBC2sjZOwF8VBY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 25d403b9266c31a39c1dce6c1c45ad96ee90af28
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 608
+source-wordcount: '608'
 ht-degree: 4%
-
 ---
-
 # 編輯校訂階段和檢閱者
 
 如果您是校訂所有者或建立者，或您擁有正確的校訂角色，則可以在校訂中編輯階段和檢閱者詳細資訊。

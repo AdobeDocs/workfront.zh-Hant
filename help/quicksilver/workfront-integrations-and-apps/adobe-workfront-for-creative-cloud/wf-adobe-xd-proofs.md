@@ -6,26 +6,37 @@ description: 您可以將工作區域作為校訂直接上傳到Adobe Workfront�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-TQID: https://experienceleague.adobe.com/5hqDm2la-PWL4l7MghSST8VhSx0eeQoJt5eVClY5yrw
+TQID: 'https://experienceleague.adobe.com/5hqDm2la-PWL4l7MghSST8VhSx0eeQoJt5eVClY5yrw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1014
+source-wordcount: '1014'
 ht-degree: 2%
-
 ---
-
 # 將[!DNL XD]個工作區域上傳為校訂到[!DNL Workfront]
 
 您可以將工作區域作為校訂直接上傳到[!DNL Adobe Workfront]，以進行徹底的檢閱和核准。
@@ -52,11 +63,11 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">校樣權限設定檔 </td> 
-   <td>[!UICONTROL Manager]或更高版本</td> 
+   <td>[！UICONTROL Manager]或更高版本</td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>編輯[!UICONTROL 檔案]的存取權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
+   <td> <p>編輯[！UICONTROL檔案]的存取權</p> <p>如需請求其他存取權的資訊，請參閱<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">請求物件</a>的存取權。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -100,17 +111,17 @@ ht-degree: 2%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Basic]： </td> 
+      <td role="rowheader">[！UICONTROL Basic]： </td> 
       <td> <p>基本核准流程是臨時性的，可以根據需要包含不同的稽核者： </p> 
        <ul> 
         <li> <p>（選擇性）在方塊中新增<strong>核准者</strong>。</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 自動化]</td> 
+      <td role="rowheader">[！UICONTROL自動化]</td> 
       <td> <p>自動核准流程由管理員預先建立，並包括特定稽核者和階段。 如需詳細資訊，請參閱<a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">自動化工作流程總覽</a>。</p> 
        <ul> 
-        <li> <p>從下拉式選單中選擇[!UICONTROL 工作流程範本]。</p> </li> 
+        <li> <p>從下拉式選單中選擇[！UICONTROL工作流程範本]。</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -176,17 +187,17 @@ ht-degree: 2%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Basic]： </td> 
+      <td role="rowheader">[！UICONTROL Basic]： </td> 
       <td> <p>基本核准流程是臨時性的，可以根據需要包含不同的稽核者： </p> 
        <ul> 
         <li> <p>（選擇性）在方塊中新增<strong>核准者</strong>。</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 自動化]</td> 
+      <td role="rowheader">[！UICONTROL自動化]</td> 
       <td> <p>自動核准流程由管理員預先建立，並包括特定稽核者和階段。 如需詳細資訊，請參閱<a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">自動化工作流程總覽</a>。</p> 
        <ul> 
-        <li> <p>從下拉式選單中選擇[!UICONTROL 工作流程範本]。</p> </li> 
+        <li> <p>從下拉式選單中選擇[！UICONTROL工作流程範本]。</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -199,7 +210,7 @@ ht-degree: 2%
    在XD中![校訂核准](assets/proof-approvals-xd-350x396.png)
 
 1. 在&#x200B;**[!UICONTROL 資產型別]**&#x200B;下拉式功能表中，選擇您剛才在&#x200B;**共用連結**&#x200B;標籤下建立的連結。 如需詳細資訊，請參閱[為您的工作區域建立互動式連結](#create-an-interactive-link-for-your-artboard)。\
-   在XDS![&#128279;](assets/shared-links-xd-350x870.png)中個共用連結
+   在XDS](assets/shared-links-xd-350x870.png)中![個共用連結
 
 1. 按一下「**[!UICONTROL 上傳]**」。
 
@@ -235,17 +246,17 @@ ht-degree: 2%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Basic]： </td> 
+      <td role="rowheader">[！UICONTROL Basic]： </td> 
       <td> <p>基本核准流程是臨時性的，可以根據需要包含不同的稽核者： </p> 
        <ul> 
         <li> <p>（選擇性）在方塊中新增<strong>核准者</strong>。</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 自動化]</td> 
+      <td role="rowheader">[！UICONTROL自動化]</td> 
       <td> <p>自動核准流程由管理員預先建立，並包括特定稽核者和階段。 如需詳細資訊，請參閱<a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">自動化工作流程總覽</a>。</p> 
        <ul> 
-        <li> <p>從下拉式選單中選擇[!UICONTROL 工作流程範本]。</p> </li> 
+        <li> <p>從下拉式選單中選擇[！UICONTROL工作流程範本]。</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 

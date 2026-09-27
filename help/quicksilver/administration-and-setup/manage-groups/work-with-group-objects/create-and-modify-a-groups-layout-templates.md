@@ -9,22 +9,28 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 2be211a8-df84-49c3-827f-1215c77159e0
-TQID: https://experienceleague.adobe.com/PH8TceV6IjEjl79kM6EJ3caoaPmClrdKQucE8TwZDDY
+TQID: 'https://experienceleague.adobe.com/PH8TceV6IjEjl79kM6EJ3caoaPmClrdKQucE8TwZDDY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 361
+source-wordcount: '361'
 ht-degree: 5%
-
 ---
-
 # 建立和修改群組的版面配置範本
 
 當您檢視您在「群組」區域中管理的群組時，您可以檢視和使用配置範本，該群組或其子群組的管理員可對其擁有管理存取權。
@@ -72,7 +78,7 @@ ht-degree: 5%
 
 1. 執行下列任一項作業：
 
-   * 若要建立群組的新範本，請按一下[新增配置範本]。**&#x200B;**
+   * 若要建立群組的新範本，請按一下[新增配置範本]。****
 
      或
 

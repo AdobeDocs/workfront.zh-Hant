@@ -5,13 +5,23 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1404'
 ht-degree: 1%
-
 ---
-
 
 # 管理相依連線
 
@@ -69,7 +79,7 @@ ht-degree: 1%
    <ul><li><p>Adobe Experience Manager Assets授權及AEM Assets與Workfront之間的整合，用於連結AEM資產與Planning記錄型別。</p>
    <p>如需詳細資訊，請參閱<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 連線記錄型別與GenStudio物件和品牌的Adobe GenStudio for Performance Marketing授權</p>
-   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
+   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -157,7 +167,7 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
      如需相關資訊，請參閱本文章中的[相依連線記錄型別](#example-of-dependent-connected-record-types)範例。
    * 已連線記錄欄位的欄標題中有一個指示，說明該欄位處於相依連線關係。
 
-     欄標題![&#128279;](assets/dependent-icon-tooltip-in-column-header.png)中的相依圖示工具提示
+     欄標題](assets/dependent-icon-tooltip-in-column-header.png)中的![相依圖示工具提示
 1. （選擇性）按一下「**記錄篩選規則**」，並從您要連線的記錄型別中選取欄位，以限制該欄位值的選項，然後按一下「**完成**」。
 
    當這兩個欄位出現在第三個記錄型別上時，連線的欄位記錄型別的選項將受到您在此處選取的篩選條件的限制。

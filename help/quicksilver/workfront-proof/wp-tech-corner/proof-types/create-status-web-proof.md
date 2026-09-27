@@ -2,25 +2,34 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: proof-types
-title: 使用 [!DNL Workfront Proof]建立靜態網站校訂
+title: 使用[!DNL Workfront Proof]建立靜態網站校訂
 description: 您可以從您的網頁建立靜態校樣。 此外，您可以定義擷取的熒幕解析度來模擬各種裝置。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b93ed288-1bf2-4268-96c3-6263ab6be633
-TQID: https://experienceleague.adobe.com/M9rAORvc-CQGUB2pYWQV16HPZuFd3ZU31HAf25JRGYk
+TQID: 'https://experienceleague.adobe.com/M9rAORvc-CQGUB2pYWQV16HPZuFd3ZU31HAf25JRGYk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 493
+source-wordcount: '519'
 ht-degree: 0%
-
 ---
-
 # 使用[!DNL Workfront Proof]建立靜態網站校訂
 
 >[!IMPORTANT]
@@ -34,8 +43,8 @@ ht-degree: 0%
 1. 開啟[!UICONTROL 新校訂]頁面，如[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)中產生校訂中所述。
 1. 在&#x200B;**www.shareyourlink.com**&#x200B;方塊中貼上或輸入您的URL。
 1. 您可以重複此步驟以新增多個URL。
-1. 在此方塊正下方，按一下解析度（預設為1366x768），然後在&#x200B;**[!UICONTROL 熒幕解析度]**&#x200B;方塊中選取您要的任何解析度。
-如果您想要校訂行動裝置的設計，請選取較小的解析度。一般而言，設計會根據熒幕/瀏覽器視窗解析度來載入。
+1. 在此方塊正下方，按一下解析度（預設為1366x768），然後在&#x200B;**[!UICONTROL 熒幕解析度]**方塊中選取您要的任何解析度。
+如果您想要校訂行動裝置的設計，請選取較小的解析度。 一般而言，設計會根據熒幕/瀏覽器視窗解析度來載入。
 
 1. 如果您想要包含與輸入的URL位於相同網域/子網域的已連線頁面，請按一下&#x200B;**[!UICONTROL 尋找子頁面]**。
    [!DNL Workfront Proof]會掃描連線的頁面，並在&#x200B;**[!UICONTROL 尋找子頁面]**&#x200B;選項下方列出這些頁面。 您可以選取要包含的頁面。

@@ -8,22 +8,26 @@ feature: Get Started with Workfront
 exl-id: 7025f097-ea99-41bf-965e-617b0f532ff7
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/pg859ZDBgJthRuOdgkC5bhOZ7AdaIN869uvWWDGkdfw
+TQID: 'https://experienceleague.adobe.com/pg859ZDBgJthRuOdgkC5bhOZ7AdaIN869uvWWDGkdfw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 295
+source-wordcount: '295'
 ht-degree: 7%
-
 ---
-
 # 檢視物件的繼承許可權
 
 指派存取層級時，您的Adobe Workfront管理員可授予您檢視或編輯物件的存取權。 如需詳細資訊，請參閱[授予專案存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)。

@@ -8,23 +8,28 @@ feature: Work Management, Strategic Planning
 exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/LkyWuPHqv0muTinWZT1PMKPGUNErWulIIxHmXVtPIVg
+TQID: 'https://experienceleague.adobe.com/LkyWuPHqv0muTinWZT1PMKPGUNErWulIIxHmXVtPIVg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 9e23143e-3f4f-5cbb-821d-095a63bee200
+    internal-label: Strategic Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 397e5e36632872bb7be3f4e219b36e33b44136e9
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 289
+source-wordcount: '323'
 ht-degree: 4%
-
 ---
-
 # 將現有方案新增至投資組合
 
 <!--Audited: 05/2026-->
@@ -51,15 +56,15 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>[!UICONTROL 標準]</p><p>[!UICONTROL 計畫]</p> </td> 
+   <td> <p>[！UICONTROL標準]</p><p>[！UICONTROL計畫]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL Edit]對[!UICONTROL Portfolios]和[!UICONTROL Programs]的存取權 </p> </td> 
+   <td> <p>[！UICONTROL Edit]對[！UICONTROL Portfolios]和[！UICONTROL Programs]的存取權 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>投資組合和計畫的[!UICONTROL 管理]許可權</p> </td> 
+   <td> <p>投資組合和計畫的[！UICONTROL管理]許可權</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -100,7 +105,7 @@ Old:
 >[!NOTE]
 >
 >當您的組織同時使用舊版Workfront和Adobe雲端儲存空間來儲存檔案時，您無法將Adobe雲端儲存空間計畫新增至舊版儲存空間產品組合，也無法將雲端儲存空間計畫新增至Adobe雲端儲存空間產品組合。
->您的Workfront執行個體可能沒有這兩種型別的檔案儲存空間。
+>您的Workfront執行個體可能沒有這兩種型別的檔案儲存。
 >如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 >
 

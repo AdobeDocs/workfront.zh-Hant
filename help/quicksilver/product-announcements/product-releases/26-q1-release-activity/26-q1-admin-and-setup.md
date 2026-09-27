@@ -5,25 +5,31 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a74d036b-e4fa-49e0-bb10-4baf379e1b1c
-TQID: https://experienceleague.adobe.com/IYlqpTdS-pJNpBaCeYywassuOaTQdaSZlctxd1J0NPA
+TQID: 'https://experienceleague.adobe.com/IYlqpTdS-pJNpBaCeYywassuOaTQdaSZlctxd1J0NPA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 669
+source-wordcount: '729'
 ht-degree: 0%
-
 ---
-
 # 2026年第一季度管理員增強功能
 
 本頁說明管理員在2026年第一季度版本中對「預覽」環境所做的增強功能。 如上所述，這些增強功能將於生產環境中提供。
@@ -34,7 +40,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽環境中暫時無法使用此功能>預覽： 2025年12月2日>生產快速版本： 2026年1月14日>每個人都要生產： 2026年1月15日
+>此功能在預覽環境中暫時不可用
+>預覽： 2025年12月2日
+>生產環境快速發行： 2026年1月14日
+>適用於所有人的生產： 2026年1月15日
 
 
 您現在可以在版面配置範本中啟用或停用特定使用者的優先順序。 如果您先前已針對組織停用「優先順序」，則進行此變更後，其配置範本仍會停用。
@@ -48,7 +57,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2025年12月18日>生產快速發行： 2026年1月14日>每個人的生產： 2026年1月15日
+>預覽： 2025年12月18日
+>生產環境快速發行： 2026年1月14日
+>適用於所有人的生產： 2026年1月15日
 
 相同的計算欄位在附加到不同的自訂表單時可以有不同的公式。 如果將包含相同計算欄位的兩個或更多表單附加至物件，則所有表單上的公式必須相同。 如果變更可能導致衝突，則不允許編輯公式。
 
@@ -61,7 +72,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2025年11月13日>生產快速發行： 2025年11月13日>每個人都要生產： 2025年11月13日
+>預覽： 2025年11月13日
+>生產快速發行： 2025年11月13日
+>適用於所有人的生產： 2025年11月13日
 
 輸入日期和由ID輸入的內容現在儲存在自訂表格、欄位和區段中。 您可以在報表中將這些資料選項作為篩選器、檢視或分組使用。 若要在「設定」中的自訂表單、欄位或區段清單中顯示它們，請新增「輸入日期」和「輸入者：名稱」作為新檢視或現有檢視中的欄。
 
@@ -73,7 +86,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2025年10月30日>生產快速發行： 2025年11月13日>每個人的生產： 2026年1月15日
+>預覽： 2025年10月30日
+>生產快速發行： 2025年11月13日
+>適用於所有人的生產： 2026年1月15日
 
 為了提供與其他設定區域（例如自訂表單設計工具）更一致的方式，您在編輯版面配置範本時看到的按鈕已變更為&#x200B;**套用**、**儲存並關閉**&#x200B;和&#x200B;**取消**。 新選項&#x200B;**套用**&#x200B;可讓您儲存配置範本的變更並繼續編輯。 先前可用的選項為&#x200B;**儲存**&#x200B;和&#x200B;**取消**。
 
@@ -83,7 +98,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2025年10月30日>生產快速發行： 2025年11月13日>每個人的生產： 2026年1月15日
+>預覽： 2025年10月30日
+>生產快速發行： 2025年11月13日
+>適用於所有人的生產： 2026年1月15日
 
 當系統中有大量的自訂欄位時，在自訂表單和報告中的這些欄位可能會難以管理。 您現在可以使用新的&#x200B;**作用中**&#x200B;旗標將自訂欄位標示為非作用中。 在自訂表單上使用欄位或從「欄位」清單新增或編輯欄位時，此旗標可供使用。
 

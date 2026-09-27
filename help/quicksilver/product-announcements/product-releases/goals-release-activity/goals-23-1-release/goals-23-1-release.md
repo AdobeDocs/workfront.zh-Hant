@@ -7,18 +7,26 @@ description: 本頁提供在23.1版中發佈至生產環境的新Adobe Workfront
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: d6a3e048-3f55-4954-9b65-f7f55c77d1a3
-TQID: https://experienceleague.adobe.com/AAXtDn2kVEUtnoYxpzsGQmpZpPtwCi82Tl8QIJbBOho
+TQID: 'https://experienceleague.adobe.com/AAXtDn2kVEUtnoYxpzsGQmpZpPtwCi82Tl8QIJbBOho'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 300
+source-wordcount: '352'
 ht-degree: 0%
-
 ---
-
 # 第23.1發行版本中的Adobe Workfront目標
 
 此頁面提供Adobe Workfront Goals隨23.1版發佈至生產環境之功能的相關資訊，該版本預計在2023年1月16日當週發行。

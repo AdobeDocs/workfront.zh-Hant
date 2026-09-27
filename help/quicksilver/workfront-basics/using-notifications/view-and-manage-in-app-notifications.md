@@ -5,22 +5,26 @@ description: 應用程式內通知可讓您隨時瞭解兩種資訊：宣告通�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 4c5da114-33cc-422b-84f4-67bc7fcd67c6
-TQID: https://experienceleague.adobe.com/2PxHbwQ0pfjUTIThm5ATGXl4IKPZFV8pQeL8s9waOOw
+TQID: 'https://experienceleague.adobe.com/2PxHbwQ0pfjUTIThm5ATGXl4IKPZFV8pQeL8s9waOOw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9c592e336feb25253c18787c831adfc36da62ed1
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 986
+source-wordcount: '986'
 ht-degree: 2%
-
 ---
-
 # 檢視及管理應用程式內通知
 
 應用程式內通知可讓您隨時瞭解兩種資訊：宣告通知和工作專案通知。 網頁應用程式和行動應用程式皆可提供。
@@ -68,7 +72,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->您可以從Web應用程式和行動應用程式檢視所有應用程式內通知。 在行動應用程式中，只有部分通知會以推播通知的形式傳送。 如需行動應用程式中通知的詳細資訊，請參閱iOS的[[!DNL Adobe Workfront] &#x200B;](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)或Android的[[!DNL Adobe Workfront] &#x200B;](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)。
+>您可以從Web應用程式和行動應用程式檢視所有應用程式內通知。 在行動應用程式中，只有部分通知會以推播通知的形式傳送。 如需行動應用程式中通知的詳細資訊，請參閱iOS的[[!DNL Adobe Workfront] ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)或Android的[[!DNL Adobe Workfront] ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)。
 
 1. 按一下[!DNL Workfront]右上角的編號圖示![通知圖示](assets/notifications-icon-jewel.jpg)以開啟您的通知清單。
 

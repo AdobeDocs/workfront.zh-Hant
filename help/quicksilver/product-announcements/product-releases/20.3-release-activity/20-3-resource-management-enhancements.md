@@ -7,25 +7,31 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a2c34117-e03c-4394-9b81-7c18433531d1
-TQID: https://experienceleague.adobe.com/HZe1tQDIY0YAxuaNp2M6j-6chmnj20eun4sMRRmB9f4
+TQID: 'https://experienceleague.adobe.com/HZe1tQDIY0YAxuaNp2M6j-6chmnj20eun4sMRRmB9f4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 845
+source-wordcount: '845'
 ht-degree: 0%
-
 ---
-
 # 20.3資源管理增強功能
 
 本頁說明20.3版中針對「生產」環境所做的所有資源管理增強功能。 這些增強功能已在2020年8月10日當週的生產環境中推出。
@@ -56,7 +62,7 @@ ht-degree: 0%
 
 當您套用這些篩選器之一，然後共用工作負載平衡器或將其放在儀表板上，所有其他使用者將看到他們自己的資訊。
 
-如需有關將篩選器套用至工作負載平衡器的資訊，請參閱工作負載平衡器[&#128279;](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)中的篩選器資訊。
+如需有關將篩選器套用至工作負載平衡器的資訊，請參閱工作負載平衡器](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)中的[篩選器資訊。
 
 ## 工作負載平衡器中專案的新排序
 

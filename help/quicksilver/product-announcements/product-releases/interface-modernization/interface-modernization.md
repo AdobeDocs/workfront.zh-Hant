@@ -7,28 +7,37 @@ recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/0Nu-Le3Lidn8TI-Eq-p9iAQR4IwM6QD2tZpDeV1gF2U
+TQID: 'https://experienceleague.adobe.com/0Nu-Le3Lidn8TI-Eq-p9iAQR4IwM6QD2tZpDeV1gF2U'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 9918
+source-wordcount: '9993'
 ht-degree: 0%
-
 ---
-
 # 介面現代化
 
 本頁面列出我們透過Adobe Workfront進行的介面更新，以改善使用者體驗，並將其與其他Adobe應用程式統一。 除非另有註明，否則這些變更主要是視覺化的，不會大幅改變工作流程。
@@ -89,8 +98,8 @@ ht-degree: 0%
 * 提供指派資源給範本任務的新體驗。 現在，當您大量編輯一項任務或編輯多項任務時，都可以使用新體驗。 下列欄位已從「編輯任務」方塊中移除：
 
 * 配置
-   * 所有者或任務所有者
-   * 受指派人角色
+  * 所有者或任務所有者
+  * 受指派人角色
 
 在範本任務中進行進階指派時，您仍然可以找到已移除的欄位。
 
@@ -115,9 +124,9 @@ ht-degree: 0%
 
 * 指派資源給任務有全新的體驗。 現在，在編輯一個任務或編輯多個任務時均可使用此功能。 下列欄位已從「編輯任務」方塊中移除：
 
-   * 配置
-   * 所有者或任務所有者
-   * 受指派人角色
+  * 配置
+  * 所有者或任務所有者
+  * 受指派人角色
 
 在任務中進行進階指派時，您仍然可以找到已移除的欄位。
 
@@ -145,9 +154,9 @@ ht-degree: 0%
 
 * 指派資源給問題的新體驗。 現在編輯一個問題或大量編輯多個問題時均可使用此功能。 下列欄位已從編輯問題方塊中移除：
 
-   * 配置
-   * 所有者或問題所有者
-   * 受指派人角色
+  * 配置
+  * 所有者或問題所有者
+  * 受指派人角色
 
 在問題上進行進階指派時，您可以更新已移除的欄位。
 
@@ -416,7 +425,7 @@ ht-degree: 0%
 
 若要檢視這項變更，請前往專案>收費率。
 
-如需相關資訊，請參閱專案層級[&#128279;](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)的覆寫工作角色收費率。
+如需相關資訊，請參閱專案層級](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)的[覆寫工作角色收費率。
 
 ### 套用里程碑檢視時，專案清單或報告的介面更新
 
@@ -581,8 +590,8 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 
 **預覽版本： 2025年7月31日；生產版本： 2025年7月31日**
 
-我們在範本上編輯「主題群組」時，已更新其外觀和風格。主題群組編輯頁面現在會比對Workfront其他區域的設計。
-主題群組已套用小幅功能變更。若要編輯「主題群組」，請從清單中選取「主題群組」，然後按一下「編輯」圖示。在您可以編輯之前，您不會再被導向至「主題群組詳細資訊」頁面。
+我們在範本上編輯「主題群組」時，已更新其外觀和風格。 主題群組編輯頁面現在會比對Workfront其他區域的設計。
+主題群組已套用小幅功能變更。 若要編輯「主題群組」，請從清單中選取「主題群組」，然後按一下「編輯」圖示。 在您可以編輯之前，您不會再被導向至「主題群組詳細資訊」頁面。
 
 如需詳細資訊，請參閱[建立主題群組](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)。
 
@@ -1242,7 +1251,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 我們以與Workfront其他區域一致的更現代化設計更新了「自動提醒」頁面。
 若要檢視此頁面，請前往「設定>電子郵件>自動提醒」。
-此更新包含區域的視覺化變更。功能未變更。
+此更新包含區域的視覺化變更。 功能未變更。
 
 ### 安裝程式中電子郵件範本頁面的介面更新
 
@@ -1370,7 +1379,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 此更新包含區域的視覺化變更。 功能未變更。
 
-若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。**&#x200B;**
+若要檢視此變更，請前往[團隊] > [選擇團隊] > [待處理專案]，然後按一下[新劇本] **或[新問題]**。****
 
 +++
 

@@ -5,15 +5,22 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '929'
 ht-degree: 0%
-
 ---
-
 # 2026年第二季報表增強功能
 
 本頁說明2026年第二季度版本中針對「預覽」環境所進行的報告增強功能。 如上所述，這些增強功能將於生產環境中提供。
@@ -36,8 +43,8 @@ ht-degree: 0%
 
 * 上傳新版本時：
 
-   * 新版本已標示為`TRUE`
-   * 舊版已標示為`FALSE`
+  * 新版本已標示為`TRUE`
+  * 舊版已標示為`FALSE`
 
 * 報表可以一致地識別畫布控制面板和舊式報表的最新版本
 
@@ -117,8 +124,8 @@ Workfront現在包含排程報告的新連結傳送型別。 此選項不會產�
 
 * **建立有組織的資料夾結構**：系統管理員可以建立最上層資料夾，而具有管理存取許可權的使用者可以建立最深4層的子資料夾。
 * **精細的許可權控制項**：共用兩個許可權層級的資料夾：
-   * 檢視：使用者可以開啟報表並共用資料夾
-   * 管理：使用者可以編輯資料夾詳細資訊、新增/移除專案，並自動獲得資料夾中所有報告的管理存取權
+  * 檢視：使用者可以開啟報表並共用資料夾
+  * 管理：使用者可以編輯資料夾詳細資訊、新增/移除專案，並自動獲得資料夾中所有報告的管理存取權
 * **繼承的許可權**：許可權從父資料夾級聯到資料夾樹狀結構中的所有子資料夾和報告
 * **增強型清單體驗**：當您啟用可共用的資料夾時，您將可存取增強型清單體驗。 如需詳細資訊，請參閱[使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
 
@@ -139,6 +146,6 @@ Workfront現在包含排程報告的新連結傳送型別。 此選項不會產�
 
 按日期分組資料的圖表現在會顯示更清晰、更易讀取的日期標籤。 透過此更新，日期標籤會根據選取的「分組依據」選項（例如日、周、月或年）動態調整，使圖表更易於快速閱讀和理解：
 
-<table> <tbody> <tr> <td>Day</td> <td>顯示完整日期。 範例： 2026年3月12日</td> </tr> <tr> <td>週</td> <td>顯示已格式化的周開始日期。 範例：2026年3月8日</td> </tr> <tr> <td>Month</td> <td>顯示月份和年份。 範例：2026年3月</td> </tr> <tr> <td>Year</td> <td>僅顯示年份。 範例：2026</td> </tr> </tbody> </table>
+<table> <tbody> <tr> <td>日</td> <td>顯示完整日期。 範例： 2026年3月12日</td> </tr> <tr> <td>週</td> <td>顯示已格式化的周開始日期。 範例：2026年3月8日</td> </tr> <tr> <td>Month</td> <td>顯示月份和年份。 範例：2026年3月</td> </tr> <tr> <td>Year</td> <td>僅顯示年份。 範例：2026</td> </tr> </tbody> </table>
 
 以前，圖表分組一律以數值格式顯示所選時段的開始日期。

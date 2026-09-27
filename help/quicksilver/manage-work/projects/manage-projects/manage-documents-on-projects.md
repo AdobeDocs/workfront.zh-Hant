@@ -6,13 +6,20 @@ description: 根據您的Workfront管理員是否選擇儲存偏好設定預設�
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '2203'
 ht-degree: 0%
-
 ---
-
 # 專案和相關物件的檔案管理概觀
 
 您的Adobe Workfront管理員可為貴組織的儲存偏好設定定義預設值，以指出檔案應儲存在Workfront中的何處。
@@ -152,7 +159,7 @@ This is not possible anymore:
 * 您無法將Adobe雲端儲存空間專案新增至舊版儲存空間產品組合，或是將舊版儲存空間專案新增至Adobe儲存空間產品組合。
 * 您的管理員可以在「設定」的「系統偏好設定」區域中，將舊版儲存產品組合轉換為Adobe雲端儲存空間。 所有子物件（計畫、專案和檔案）仍保留在舊版儲存體中。 新專案將使用Adobe雲端儲存空間。 加入產品組合的新檔案將繼續儲存在舊版儲存空間。
 如需詳細資訊，請參閱[設定系統偏好設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
-* &#x200B;<!-- this point also repeats for programs below-->如果產品組合從舊版儲存空間轉換為Adobe雲端儲存空間，並且計畫具有舊版儲存空間，則計畫中的專案也將使用舊版儲存空間。
+* <!-- this point also repeats for programs below-->如果產品組合從舊版儲存空間轉換為Adobe雲端儲存空間，並且計畫具有舊版儲存空間，則計畫中的專案也將使用舊版儲存空間。
 
   您無法再將現有的舊版儲存裝置專案新增至此產品組合。
 
@@ -171,7 +178,7 @@ This is not possible anymore:
 * 您無法將Adobe雲端儲存空間程式新增至舊版儲存空間產品組合，或將Legacy程式新增至Adobe雲端儲存空間產品組合。
 * 您無法從舊版儲存空間方案中的Adobe雲端儲存空間範本建立專案。
 * 您可以在Adobe雲端儲存方案中從舊版儲存範本建立專案，但範本上的檔案和資料夾未新增到新專案中。 專案會接收Adobe雲端儲存空間。
-* &#x200B;<!-- this point also repeats for portfolios above-->如果產品組合從舊版儲存空間轉換為Adobe雲端儲存空間，並且計畫具有舊版儲存空間，則計畫中的專案也將使用舊版儲存空間。
+* <!-- this point also repeats for portfolios above-->如果產品組合從舊版儲存空間轉換為Adobe雲端儲存空間，並且計畫具有舊版儲存空間，則計畫中的專案也將使用舊版儲存空間。
 
   您無法再將現有的舊版儲存裝置專案新增至此產品組合。
 

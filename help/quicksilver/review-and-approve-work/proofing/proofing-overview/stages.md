@@ -7,13 +7,23 @@ description: 校訂階段是不同使用者檢閱校訂的時間區段。 當校
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a03d2cf2-edb3-43b7-a739-32600f2ae2a0
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '406'
 ht-degree: 0%
-
 ---
-
 # 自動化工作流程階段概觀
 
 校訂階段是不同使用者檢閱校訂的時間區段。 當校訂從一個階段移至下一個階段時，Adobe Workfront會通知檢閱者，讓他們知道何時需要處理。
@@ -49,7 +59,7 @@ ht-degree: 0%
 
 **範例：**&#x200B;例如，如果您建立有四名稽核者的校訂：
 
-* 對於檢閱者Olivia和Tony，您指定從現在起數天內14:00的截止日期。
+* 對於稽核者Olivia和Tony，您指定從現在起數天後的14:00的截止日期。
 * 對於Aaron和Amy，您會在幾天後指定17:00的截止日期。
 * 您沒有指定自己的截止日期。
 

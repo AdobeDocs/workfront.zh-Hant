@@ -8,26 +8,33 @@ feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-TQID: https://experienceleague.adobe.com/Jav41X12-b9nrSTfeEvI03EuYMiinnHuf2CPIUmKwlc
+TQID: 'https://experienceleague.adobe.com/Jav41X12-b9nrSTfeEvI03EuYMiinnHuf2CPIUmKwlc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1373
+source-wordcount: '1373'
 ht-degree: 1%
-
 ---
-
 # 使用里程碑檢視
 
 <!-- Audited: 11/2024 -->
@@ -144,7 +151,7 @@ ht-degree: 1%
 
   您可以停用完成百分比的顯示，如本文中[設定里程碑檢視](#configure-what-information-displays-in-the-milestone-view)中顯示的資訊一節所述。
 
-  您可以直接從「里程碑」檢視調整完成百分比，如本文中「里程碑」檢視[&#128279;](#adjust-percent-complete-for-tasks-in-the-milestone-view)中之任務的調整完成百分比小節所述。
+  您可以直接從「里程碑」檢視調整完成百分比，如本文中「里程碑」檢視](#adjust-percent-complete-for-tasks-in-the-milestone-view)中之任務的調整完成百分比[小節所述。
 
 * **任務進度狀態圖示：**&#x200B;下列是指示任務進度狀態的圖示：
 

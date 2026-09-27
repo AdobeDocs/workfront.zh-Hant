@@ -5,22 +5,26 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 915d1520-f5c4-4e33-b645-cb219289383c
-TQID: https://experienceleague.adobe.com/Z9KMDwzTwBZLGjLtfxd3H42jd12-7ob3RCn0-IXN-Hc
+TQID: 'https://experienceleague.adobe.com/Z9KMDwzTwBZLGjLtfxd3H42jd12-7ob3RCn0-IXN-Hc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 677
+source-wordcount: '677'
 ht-degree: 7%
-
 ---
-
 # 授予團隊存取權
 
 身為Adobe Workfront管理員，您可以使用存取層級來定義使用者對Workfront中團隊的存取權，如[存取層級概觀](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)中所述。

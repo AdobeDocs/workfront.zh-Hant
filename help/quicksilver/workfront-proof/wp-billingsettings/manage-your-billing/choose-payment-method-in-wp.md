@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
-title: 在 [!DNL Workfront] 證明中選擇付款方式
+title: 在[!DNL Workfront]證明中選擇您的付款方式
 description: 進一步瞭解Workfront Proof中的付款。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cc23012f-ea1a-41e6-b101-877b85605775
-TQID: https://experienceleague.adobe.com/c5PekqBFApp6g08M-vg9eTw8pIVWvAByA7Y1vXvEXY8
+TQID: 'https://experienceleague.adobe.com/c5PekqBFApp6g08M-vg9eTw8pIVWvAByA7Y1vXvEXY8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 348
+source-wordcount: '349'
 ht-degree: 2%
-
 ---
-
 # 在[!DNL Workfront Proof]中選擇付款方式
 
 >[!IMPORTANT]
@@ -74,7 +83,7 @@ ht-degree: 2%
 如果您有Satellite帳戶，則需要分別更新每個帳戶的信用卡詳細資料和付款方法。 如需有關Satellite帳戶的詳細資訊，請參閱[Satellite帳戶。](https://support.workfront.com/hc/en-us/sections/115000921108-Satellite-accounts)
 
 1. 前往您中心帳戶中的[!UICONTROL 帳單]頁面。\
-   如需帳單頁面的詳細資訊，請參閱[校訂帳單頁面 [!DNL Workfront] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
+   如需帳單頁面的詳細資訊，請參閱[校訂帳單頁面 [!DNL Workfront] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
 
 1. 開啟[!UICONTROL 帳戶清單]下拉式功能表。 (1)
 1. 選擇與您要更新之信用卡相關聯的附屬帳戶(2)。

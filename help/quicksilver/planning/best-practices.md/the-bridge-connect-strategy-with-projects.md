@@ -8,22 +8,31 @@ recommendations: noDisplay, noCatalog
 exl-id: 567ab223-b282-4b98-9655-7b9766fba869
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/VRJ1TnXYb7TSnXsBLThdW-PhxPc-sCFP1-SQI7JZaGo
+TQID: 'https://experienceleague.adobe.com/VRJ1TnXYb7TSnXsBLThdW-PhxPc-sCFP1-SQI7JZaGo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Governance
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1193
+source-wordcount: '1193'
 ht-degree: 0%
-
 ---
-
 # 建置橋樑：將策略意圖連結至專案
 
 >[!IMPORTANT]
@@ -113,7 +122,7 @@ ht-degree: 0%
 
 此方法需要Adobe Workfront Fusion的授權。
 
-如需詳細資訊，請參閱[設定和管理Workfront Fusion：文章索引](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc)。
+如需詳細資訊，請參閱[設定和管理Workfront Fusion：文章索引](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc)。
 
 * **使用提交觸發程式：**&#x200B;由於表單提供單一、乾淨的提交事件，因此可將其用作Fusion自動化的觸發程式。 Fusion案例可以偵測表單提交，並立即在Workfront中產生連結專案。
 

@@ -4,13 +4,20 @@ description: 2026年第四季發行時間範圍內的其他增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c3dc1aa9e48d45d2546561c2ac9412b008258e2d
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 0%
-
 ---
-
 # 2026年第四季發行時間範圍內的其他增強功能
 
 本頁說明2026年第四季版本對預覽環境所做的增強功能。 如上所述，這些增強功能將於生產環境中提供。
@@ -77,7 +84,7 @@ ht-degree: 0%
 
 Adobe Workfront會在您上傳、儲存和下載的檔案上保留C2PA中繼資料，而不修改它。
 
-如需詳細資訊，請參閱Adobe Workfront[&#128279;](/help/quicksilver/documents/c2pa-metadata-overview.md)中的C2PA中繼資料。
+如需詳細資訊，請參閱Adobe Workfront](/help/quicksilver/documents/c2pa-metadata-overview.md)中的[C2PA中繼資料。
 
 ## 左側導覽面板圖示的介面更新
 
@@ -91,7 +98,7 @@ Adobe Workfront會在您上傳、儲存和下載的檔案上保留C2PA中繼資�
 
 導覽面板位於Workfront中大部分割槽域和物件的左側，包括專案、任務和問題。
 
-如需詳細資訊，請參閱[&#x200B; Adobe Workfront中的左側導覽](/help/quicksilver/workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)。
+如需詳細資訊，請參閱[ Adobe Workfront中的左側導覽](/help/quicksilver/workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)。
 
 ## 增強型清單更新
 

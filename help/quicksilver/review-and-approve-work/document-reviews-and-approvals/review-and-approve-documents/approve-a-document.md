@@ -8,26 +8,35 @@ feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/nphXqF7qKiAk-doHaeUmnYXzID3Blen2yafPsulc6ts
+TQID: 'https://experienceleague.adobe.com/nphXqF7qKiAk-doHaeUmnYXzID3Blen2yafPsulc6ts'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1204
+source-wordcount: '1204'
 ht-degree: 1%
-
 ---
-
 # 在Workfront中核准檔案
 
 如果您被指派為檔案的核准者，則您有多種方式可以做出核准決定。
@@ -100,9 +109,9 @@ ht-degree: 1%
 
    * **核准**&#x200B;下拉式清單包含兩個選項：
 
-      * **核准**&#x200B;表示此版本的檔案不需要變更，且已獲得核准。
+     * **核准**&#x200B;表示此版本的檔案不需要變更，且已獲得核准。
 
-      * **核准變更**&#x200B;表示檔案上仍需要一些小變更，但核准條件為進行這些變更。 如果選取此選項，將會出現一個視窗，其中包含名為&#x200B;**後續步驟**&#x200B;的文字方塊，您可以在其中指定要核准檔案所需的變更。 您可以輸入該資訊並按一下[新增訊息]&#x200B;**&#x200B;**，或按一下[略過]&#x200B;**以傳送核准決定，而不需要其他資訊。**
+     * **核准變更**&#x200B;表示檔案上仍需要一些小變更，但核准條件為進行這些變更。 如果選取此選項，將會出現一個視窗，其中包含名為&#x200B;**後續步驟**&#x200B;的文字方塊，您可以在其中指定要核准檔案所需的變更。 您可以輸入該資訊並按一下[新增訊息]****，或按一下[略過]**以傳送核准決定，而不需要其他資訊。**
 
    * **需要工作**&#x200B;表示檔案版本未核准，需要重大變更。
 
@@ -128,9 +137,9 @@ ht-degree: 1%
 
    * **核准**&#x200B;下拉式清單包含兩個選項：
 
-      * **核准**&#x200B;表示此版本的檔案不需要變更，且已獲得核准。
+     * **核准**&#x200B;表示此版本的檔案不需要變更，且已獲得核准。
 
-      * **核准變更**&#x200B;表示檔案上仍需要一些小變更，但核准條件為進行這些變更。 如果選取此選項，將會出現一個視窗，其中包含名為&#x200B;**後續步驟**&#x200B;的文字方塊，您可以在其中指定要核准檔案所需的變更。 您可以輸入該資訊並按一下[新增訊息]&#x200B;**&#x200B;**，或按一下[略過]&#x200B;**以傳送核准決定，而不需要其他資訊。**
+     * **核准變更**&#x200B;表示檔案上仍需要一些小變更，但核准條件為進行這些變更。 如果選取此選項，將會出現一個視窗，其中包含名為&#x200B;**後續步驟**&#x200B;的文字方塊，您可以在其中指定要核准檔案所需的變更。 您可以輸入該資訊並按一下[新增訊息]****，或按一下[略過]**以傳送核准決定，而不需要其他資訊。**
 
    * **需要工作**&#x200B;表示檔案版本未核准，需要重大變更。
 
@@ -150,9 +159,9 @@ ht-degree: 1%
 
    * **核准**&#x200B;下拉式清單包含兩個選項：
 
-      * **核准**&#x200B;表示此版本的檔案不需要變更，且已獲得核准。
+     * **核准**&#x200B;表示此版本的檔案不需要變更，且已獲得核准。
 
-      * **核准變更**&#x200B;表示檔案上仍需要一些小變更，但核准條件為進行這些變更。 如果選取此選項，將會出現一個視窗，其中包含名為&#x200B;**後續步驟**&#x200B;的文字方塊，您可以在其中指定要核准檔案所需的變更。 您可以輸入該資訊並按一下[新增訊息]&#x200B;**&#x200B;**，或按一下[略過]&#x200B;**以傳送核准決定，而不需要其他資訊。**
+     * **核准變更**&#x200B;表示檔案上仍需要一些小變更，但核准條件為進行這些變更。 如果選取此選項，將會出現一個視窗，其中包含名為&#x200B;**後續步驟**&#x200B;的文字方塊，您可以在其中指定要核准檔案所需的變更。 您可以輸入該資訊並按一下[新增訊息]****，或按一下[略過]**以傳送核准決定，而不需要其他資訊。**
 
    * **需要工作**&#x200B;表示檔案版本未核准，需要重大變更。
 

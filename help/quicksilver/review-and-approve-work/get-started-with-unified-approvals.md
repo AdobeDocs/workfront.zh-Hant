@@ -6,15 +6,24 @@ description: 深入瞭解由Workfront和Frame.io支援的統一檢閱和核准�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 0%
-
 ---
-
 # 開始使用統一檢閱和核准
 
 統一的稽核和核准將Adobe Workfront和Adobe Frame.io整合為單一、深度連結的體驗，縮短行銷管理、創意稽核和內容傳送之間的差距。 專案專員在Workfront中管理工作，而創意人員、行銷人員和利害關係人則在專業級Frame.io檢視器中稽核及核准資產，所有這一切都無需在中斷連線的工具之間移動檔案。

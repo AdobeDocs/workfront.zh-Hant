@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
-title: 正在下載您的 [!DNL Workfront Proof] 發票
+title: 正在下載您的[!DNL Workfront Proof]發票
 description: 在新計費期間的第一天，您的訂閱發票會傳送到您帳戶上的主要計費連絡人，並傳送到計費副本電子郵件地址（如果您已定義電子郵件地址）。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 6bfb82b8-f127-4dac-a1cf-7c7962a86e48
-TQID: https://experienceleague.adobe.com/awflnggvqWgcGKukvaZ51-mQzogYR9ZlfDaJc3x4t2g
+TQID: 'https://experienceleague.adobe.com/awflnggvqWgcGKukvaZ51-mQzogYR9ZlfDaJc3x4t2g'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 384
+source-wordcount: '386'
 ht-degree: 0%
-
 ---
-
 # 正在下載您的[!DNL Workfront Proof]發票
 
 >[!IMPORTANT]
@@ -31,7 +40,7 @@ ht-degree: 0%
 
 在新帳單期間的第一天，您的訂閱發票會傳送到您帳戶上的主要帳單連絡人，並傳送到[!UICONTROL 帳單副本]電子郵件地址（如果您已定義電子郵件地址）。
 
-發票也會顯示在您[!DNL Workfront Proof]帳戶的[!UICONTROL 帳單]區段中，可供下載。 如需詳細資訊，請參閱[&#x200B; [!DNL Workfront Proof] 帳單頁面](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
+發票也會顯示在您[!DNL Workfront Proof]帳戶的[!UICONTROL 帳單]區段中，可供下載。 如需詳細資訊，請參閱[ [!DNL Workfront Proof] 帳單頁面](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
 
 您會在商業發票上找到下列資訊：
 
@@ -51,7 +60,7 @@ ht-degree: 0%
 >
 > 如果已經收到該商業發票的付款（例如，針對自動信用卡付款），則付款條件與到期日將顯示為已付款，付款的參考編號將顯示在摘要中。
 
-依預設，我們會以美元開具所有訂閱的自動商業發票，但針對所有英國組織，我們會在檔案中納入增值稅(VAT)金額（美元與英鎊）。 如果您希望收到全部的訂閱發票，請透過[finance@proofhq.com](mailto:finance@proofhq.com)聯絡我們的財務團隊。
+我們預設會針對USD中的訂閱核發所有自動發票，但針對所有英國組織，我們會在檔案中納入增值稅(VAT)金額（USD與sterling）。 如果您希望收到全部的訂閱發票，請透過[finance@proofhq.com](mailto:finance@proofhq.com)聯絡我們的財務團隊。
 
 * [正在下載您的發票](#downloading-your-invoice)
 * [有用的連結](#useful-links)
@@ -66,7 +75,7 @@ ht-degree: 0%
 
 ## 有用的連結 {#useful-links}
 
-若要變更您帳戶的帳單資訊，請移至「帳單」頁面的「帳單連絡人和地址」區段。 檢視[校訂帳單頁面 [!DNL Workfront] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+若要變更您帳戶的帳單資訊，請移至「帳單」頁面的「帳單連絡人和地址」區段。 檢視[校訂帳單頁面 [!DNL Workfront] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 
 如需有關如何變更您帳戶上信用卡詳細資料的資訊，請參閱[在Workfront Proof中選擇付款方式](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)。
 

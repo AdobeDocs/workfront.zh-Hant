@@ -7,18 +7,24 @@ recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/z1Ktqu68DrH3GTmk-82YSZabdb-Ca7v1BdOt6BCMoyo
+TQID: 'https://experienceleague.adobe.com/z1Ktqu68DrH3GTmk-82YSZabdb-Ca7v1BdOt6BCMoyo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 848
+source-wordcount: '848'
 ht-degree: 0%
-
 ---
-
 # 2025年第一季優先順序增強功能
 
 此頁面說明2025年第一季度版本對「預覽」環境所做的所有「優先順序」增強功能。 如上所述，這些增強功能將於生產環境中提供。
@@ -69,7 +75,7 @@ ht-degree: 0%
 
 您現在可以在任務或問題的詳細資訊頁面上檢視即時更新。 您也可以檢視其他人是否與您同時檢視頁面，並透過即時狀態指標。
 
-如需詳細資訊，請參閱「優先順序」工作清單[&#128279;](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)中的檢視專案與工作詳細資訊。
+如需詳細資訊，請參閱「優先順序」工作清單](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)中的[檢視專案與工作詳細資訊。
 
 ## 上傳和檢視優先順序中的檔案和校樣
 
@@ -139,7 +145,7 @@ ht-degree: 0%
 
 您現在可以從優先順序工作清單直接導覽至Workfront中的專案。
 
-如需詳細資訊，請參閱「優先順序」工作清單[&#128279;](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)中的檢視專案與工作詳細資訊。
+如需詳細資訊，請參閱「優先順序」工作清單](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)中的[檢視專案與工作詳細資訊。
 
 ## 更新「優先順序」中「我的焦點」欄的選項
 
@@ -164,7 +170,7 @@ ht-degree: 0%
 
 您現在可以從「優先順序」的工作清單中檢視專案詳細資訊和註解。
 
-如需詳細資訊，請參閱「優先順序」工作清單[&#128279;](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)中的檢視專案與工作詳細資訊。
+如需詳細資訊，請參閱「優先順序」工作清單](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)中的[檢視專案與工作詳細資訊。
 
 ## 優先順序增強功能示範影片
 

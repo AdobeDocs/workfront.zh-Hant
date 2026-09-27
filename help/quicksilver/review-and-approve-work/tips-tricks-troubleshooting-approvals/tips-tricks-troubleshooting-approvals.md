@@ -6,22 +6,29 @@ draft: Probably
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 6dab28d7-48d3-4568-87ef-384992555da1
-TQID: https://experienceleague.adobe.com/dSvOjQlS4W21LafxKWqR1ZYImKHctx5N8W6zbUqyQAo
+TQID: 'https://experienceleague.adobe.com/dSvOjQlS4W21LafxKWqR1ZYImKHctx5N8W6zbUqyQAo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 54
+source-wordcount: '54'
 ht-degree: 0%
-
 ---
-
 # 核准的秘訣、技巧和疑難排解：文章索引
 
 本節包含下列文章：

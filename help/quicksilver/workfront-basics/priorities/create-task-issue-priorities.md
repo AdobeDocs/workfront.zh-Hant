@@ -6,22 +6,26 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
-TQID: https://experienceleague.adobe.com/5NtZhgbXQBRpaEE0TUaArsCPh3dG-ARR68xE3IhHsSA
+TQID: 'https://experienceleague.adobe.com/5NtZhgbXQBRpaEE0TUaArsCPh3dG-ARR68xE3IhHsSA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 90b8da58f534f9033b427f0ad09c15dba50c28c9
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 249
+source-wordcount: '249'
 ht-degree: 11%
-
 ---
-
 # 在優先順序中建立新任務或問題
 
 您可以直接從「優先順序」建立新任務和問題：

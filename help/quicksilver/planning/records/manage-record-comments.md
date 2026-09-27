@@ -8,24 +8,31 @@ recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/uUnIDCZ1-906MSz5B8La-9cu0k4pabUarBuUE9t8zhw
+TQID: 'https://experienceleague.adobe.com/uUnIDCZ1-906MSz5B8La-9cu0k4pabUarBuUE9t8zhw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 931
+source-wordcount: '944'
 ht-degree: 0%
-
 ---
-
 # 管理記錄註解
 
 <span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
@@ -209,7 +216,7 @@ Old:
 1. （可選）若要復原或重做變更，請使用下列快速鍵：
    * CTRL + Z （Mac為⌘+z）可復原變更
    * 按CTRL + Y （Mac為⌘+y）以重做變更
-1. 新增&#x200B;**@**，然後加上使用者或團隊的名稱，以便在更新中標籤它們。 如需詳細資訊，請參閱本文中關於評論記錄[&#128279;](#considerations-about-commenting-on-a-record)的考量事項。
+1. 新增&#x200B;**@**，然後加上使用者或團隊的名稱，以便在更新中標籤它們。 如需詳細資訊，請參閱本文中關於評論記錄](#considerations-about-commenting-on-a-record)的[考量事項。
 
 1. （可選）使用RTF工具列中的選項來格式化文字、新增emoji或連結至更新，以強化內容。
 

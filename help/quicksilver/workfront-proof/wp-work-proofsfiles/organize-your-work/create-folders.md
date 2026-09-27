@@ -2,23 +2,31 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
-title: 在 [!DNL Workfront Proof]中建立資料夾
+title: 在[!DNL Workfront Proof]中建立資料夾
 description: 您可以在Workfront Proof中建立子資料夾。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 5a7c4c8d-3136-4ea2-8b2c-98eed06822b0
-TQID: https://experienceleague.adobe.com/yHgnZWct7KCzUeazJ-HZcy39TFKmpPG1qrD6Q1L-22I
+TQID: 'https://experienceleague.adobe.com/yHgnZWct7KCzUeazJ-HZcy39TFKmpPG1qrD6Q1L-22I'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 766
+source-wordcount: '766'
 ht-degree: 0%
-
 ---
-
 # 在[!DNL Workfront Proof]中建立資料夾
 
 >[!IMPORTANT]
@@ -120,7 +128,7 @@ ht-degree: 0%
 
 * 指派資料夾的新擁有者(1) — 資料夾的建立者將保留在資料夾上且無法移除，但您可以讓帳戶中的其他使用者擁有資料夾的編輯許可權。
 * 透過輸入其電子郵件地址(2)與其他[!DNL Workfront Proof]使用者共用資料夾 — 請注意，資料夾只能與其他[!DNL Workfront Proof]登入的使用者共用。
-* 為您共用資料夾的人員設定許可權(3)。 這對於與您帳戶的使用者共用私人資料夾很有用 — 您可以決定是否應該允許在 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)設定檔中具有校訂許可權設定檔的使用者建立、編輯和刪除資料夾中的專案。
+* 為您共用資料夾的人員設定許可權(3)。 這對於與您帳戶的使用者共用私人資料夾很有用 — 您可以決定是否應該允許在 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)設定檔中具有[校訂許可權設定檔的使用者建立、編輯和刪除資料夾中的專案。
 * 按一下使用者名稱右側的垃圾桶圖示(4)，從資料夾共用清單中移除使用者。
 * 按一下最上方的垃圾桶圖示(5)，從資料夾共用清單中移除所有人 — 請注意，您將無法移除資料夾的建立者或擁有者。
 

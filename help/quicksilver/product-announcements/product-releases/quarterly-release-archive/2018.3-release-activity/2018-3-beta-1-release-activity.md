@@ -7,18 +7,24 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b19c0086-89b2-46c3-a70d-0140dfbd11e8
-TQID: https://experienceleague.adobe.com/K8AzmxJ1-IDBBvc7qZa-1q-Jl0stVWgDFUA1MufTewI
+TQID: 'https://experienceleague.adobe.com/K8AzmxJ1-IDBBvc7qZa-1q-Jl0stVWgDFUA1MufTewI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 552
+source-wordcount: '552'
 ht-degree: 0%
-
 ---
-
 # 2018.3 Beta 1發行活動
 
 本頁說明2018.3 Beta 1版本預覽環境中最近可用的所有變更。 此功能將於2018年6月1日在預覽環境中提供。 Beta 1發行的校訂增強功能將於7月18日星期三在預覽環境中提供。 它將於2018年11月在生產環境中提供。
@@ -33,7 +39,7 @@ ht-degree: 0%
 
 * [在首頁存取團隊請求](#access-team-requests-in-home)
 * [檢視專案清單甘特圖中的任務資訊](#view-task-information-in-the-project-list-gantt-chart)
-* 匯出資源規劃工具[&#128279;](#improvements-when-exporting-the-role-and-project-views-of-the-resource-planner)的角色和專案檢視時進行改進
+* 匯出資源規劃工具](#improvements-when-exporting-the-role-and-project-views-of-the-resource-planner)的角色和專案檢視時進行[改進
 * [直接從校訂檢視器(Workfront Proof)存取多個校訂](#access-multiple-proofs-directly-from-the-proofing-viewer-workfront-proof)
 
 ## 存取首頁中的團隊請求 {#access-team-requests-in-home}

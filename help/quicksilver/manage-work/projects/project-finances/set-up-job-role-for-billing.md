@@ -7,13 +7,17 @@ description: Workfront可讓您為使用者和其主要工作角色不同的工�
 author: Lisa
 feature: Work Management
 exl-id: d6e2947d-2f40-4591-b048-9a769caadf43
-source-git-commit: a7f7099f3de147ed166ab19ac44608ba01eb6d31
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 3%
-
 ---
-
 # 設定帳單的工作角色
 
 Workfront可讓您為使用者和其主要工作角色不同的工作角色開立帳單。 當一個人暫時執行應按不同費率計費的工作時，這將很有用。
@@ -115,7 +119,7 @@ John的主要職務角色為Designer 1。 專案需要資深Designer，而John�
 
    >[!NOTE]
    >
-   >如果帳單的工作角色是在專案層次指定，則會顯示在指定上。 您可以按一下&#x200B;**工作角色以計費**&#x200B;欄位，然後選取其他工作角色以用於指派。
+   >如果帳單的工作角色是在專案層次指定，則會顯示在指定上。 您可以按一下&#x200B;**工作角色以計費**欄位，然後選取其他工作角色以用於指派。
    >資訊圖示會通知您帳單的工作角色是在專案或指定層次定義。
 
    ![工作角色以針對工作分派記帳](assets/jrfb-assignment-level.png)

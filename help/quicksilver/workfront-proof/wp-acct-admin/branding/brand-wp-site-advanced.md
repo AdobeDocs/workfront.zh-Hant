@@ -2,28 +2,38 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: branding-workfront-proof
-title: 品牌化 [!DNL Workfront] 校訂網站 — 進階
+title: 品牌化[!DNL Workfront]校訂網站 — 進階
 description: 進階品牌適用於Select與Premium計畫，並包含在計畫的成本中。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: fd9e01ae-71c5-45fe-a874-4ee359fbe057
-TQID: https://experienceleague.adobe.com/D1jNALj0-WWhVocGr56-zhxe4zKvDlOI2-tJMA65XlY
+TQID: 'https://experienceleague.adobe.com/D1jNALj0-WWhVocGr56-zhxe4zKvDlOI2-tJMA65XlY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 754
+source-wordcount: '825'
 ht-degree: 1%
-
 ---
-
 # 品牌化[!DNL Workfront Proof]網站 — 進階
 
 >[!IMPORTANT]
@@ -49,7 +59,7 @@ ht-degree: 1%
 
 ## 進階品牌概觀
 
-您會在[帳戶設定](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)頁面的標籤中找到[!UICONTROL 品牌組態]區段。若要套用變更至您的帳戶，請確定品牌選項設定為[!UICONTROL 已啟用] (1)。
+您會在[帳戶設定](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)頁面的標籤中找到[!UICONTROL 品牌組態]區段。 若要套用變更至您的帳戶，請確定品牌選項設定為[!UICONTROL 已啟用] (1)。
 ![Advanced_Branding.png](assets/advanced-branding-350x618.png)
 
 請參閱下節以取得如何設定「進階品牌選項」(2-14)的詳細資訊。
@@ -122,7 +132,7 @@ ht-degree: 1%
 
 **頁尾**
 
-在品牌設定的此欄位(10)中，您可以撰寫將顯示在所有帳戶頁面底部的頁尾。您可以使用內建的WYSIWYG編輯器，或直接貼上您自己的設計。
+在品牌設定的此欄位(10)中，您可以撰寫將顯示在所有帳戶頁面底部的頁尾。 您可以使用內建的WYSIWYG編輯器，或直接貼上您自己的設計。
 ![頁尾.png](assets/footer-350x157.png)
 
 >[!NOTE]

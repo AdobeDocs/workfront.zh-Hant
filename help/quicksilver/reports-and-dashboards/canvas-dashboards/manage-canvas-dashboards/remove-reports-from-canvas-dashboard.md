@@ -5,17 +5,21 @@ title: 從儀表板移除報表
 description: 在新增報表後，您可以從儀表板中移除報表。
 author: Courtney
 feature: Reports and Dashboards
-hidefromtoc: true
+hidefromtoc: 'yes'
 hide: true
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%
-
 ---
-
 # 從儀表板移除報表
 
 >[!IMPORTANT]

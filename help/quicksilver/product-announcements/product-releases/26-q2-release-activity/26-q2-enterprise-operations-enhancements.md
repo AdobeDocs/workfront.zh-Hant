@@ -5,13 +5,20 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 72130462-ae78-4b9b-ae18-848602d4a858
-source-git-commit: 540d56017dccf238d301e81085b62b5163b71103
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: '1381'
 ht-degree: 0%
-
 ---
-
 # 2026年第二季企業營運增強功能
 
 此頁面說明2026年第二季度版本中「預覽」環境所進行的「企業作業」增強功能。 如上所述，這些增強功能將於生產環境中提供。
@@ -86,7 +93,7 @@ financial management的增強功能包括：
 
 如需詳細資訊，請參閱[建立和檢視專案快照](/help/quicksilver/manage-work/projects/create-projects/create-snapshots.md)。
 
-[檢視專案快照的視訊示範。](https://video.tv.adobe.com/v/3483249/){target="_blank"}
+[觀看專案快照的影片示範。](https://video.tv.adobe.com/v/3483249/){target="_blank"}
 
 >[!NOTE]
 >
@@ -99,7 +106,7 @@ financial management的增強功能包括：
 
 如需詳細資訊，請參閱[企業設定檔總覽](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)。
 
-[檢視企業設定檔的影片示範。](https://video.tv.adobe.com/v/3483246/){target="_blank"}
+[觀看企業設定檔的影片示範。](https://video.tv.adobe.com/v/3483246/){target="_blank"}
 
 >[!NOTE]
 >
@@ -115,7 +122,7 @@ financial management的增強功能包括：
 
 自訂表單中的進階邏輯提供更清楚的深入分析和更精確的專案與財務管理。
 
-[檢視自訂表單和欄位增強功能的影片示範。](https://video.tv.adobe.com/v/3483244/){target="_blank"}
+[觀看自訂表單和欄位增強功能的影片示範。](https://video.tv.adobe.com/v/3483244/){target="_blank"}
 
 自訂表單的增強功能包括：
 
@@ -128,9 +135,9 @@ financial management的增強功能包括：
   >新邏輯型別僅適用於Workflow Prime或Ultimate套件上的組織。
 
 * 表單設計人員介面的增強功能：
-   * 表單名稱現在會顯示在設計工具的左上方，讓您在捲動時可以在長表單上看到名稱。
-   * 表單可附加至的物件型別位於下拉式清單中。
-   * 您可以選擇顯示所有邏輯型別的欄位顯示或隱藏邏輯指示器。 顯示和略過邏輯型別會顯示兩個受影響欄位的指示器。 所有其他邏輯型別會影響一個欄位。
+  * 表單名稱現在會顯示在設計工具的左上方，讓您在捲動時可以在長表單上看到名稱。
+  * 表單可附加至的物件型別位於下拉式清單中。
+  * 您可以選擇顯示所有邏輯型別的欄位顯示或隱藏邏輯指示器。 顯示和略過邏輯型別會顯示兩個受影響欄位的指示器。 所有其他邏輯型別會影響一個欄位。
 
   如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
@@ -165,7 +172,7 @@ financial management的增強功能包括：
 
 如需詳細資訊，請參閱[建立及管理配置範本](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
 
-[檢視版面配置範本增強功能的影片示範。](https://video.tv.adobe.com/v/3483245/){target="_blank"}
+[觀看版面配置範本增強功能的影片示範。](https://video.tv.adobe.com/v/3483245/){target="_blank"}
 
 ### 自訂本地化
 
@@ -179,7 +186,7 @@ financial management的增強功能包括：
 
 如需詳細資訊，請參閱[設定自訂本地化](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)。
 
-[檢視自訂本地化的影片示範。](https://video.tv.adobe.com/v/3483248/){target="_blank"}
+[觀看自訂本地化的影片示範。](https://video.tv.adobe.com/v/3483248/){target="_blank"}
 
 ### 使用Business Rules自動化動作
 

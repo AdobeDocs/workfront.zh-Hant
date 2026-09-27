@@ -2,23 +2,31 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: 管理 [!DNL Workfront Proof]中[!UICONTROL 檢視]頁面上的專案
+title: 在[!DNL Workfront Proof]中管理[!UICONTROL 檢視]頁面上的專案
 description: '[!UICONTROL 檢視]頁面可讓您在一個位置檢視和使用所有校樣、檔案和資料夾。'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 56556d16-9aab-4b0e-b08c-ac5f1703e082
-TQID: https://experienceleague.adobe.com/cEwm8LT22jENgN3OFGgqzGoMfrz8JSqIyHQGdYpiV04
+TQID: 'https://experienceleague.adobe.com/cEwm8LT22jENgN3OFGgqzGoMfrz8JSqIyHQGdYpiV04'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1544
+source-wordcount: '1544'
 ht-degree: 0%
-
 ---
-
 # 在[!DNL Workfront Proof]中管理[!UICONTROL 檢視]頁面上的專案
 
 >[!IMPORTANT]
@@ -182,7 +190,7 @@ ht-degree: 0%
 
    * 按一下&#x200B;**[!UICONTROL 標籤]**&#x200B;以新增標籤至這些專案。
    * 按一下&#x200B;**[!UICONTROL 移至]**，將選取的專案移至其他資料夾(或若您選取（未選取資料夾），將專案移出資料夾。
-   * 按一下「共用選取的專案」**&#x200B;**&#x200B;以與其他檢閱者共用所有這些專案。\
+   * 按一下「共用選取的專案」****&#x200B;以與其他檢閱者共用所有這些專案。\
 
      ![Share_button-small.png](assets/share-button-small.png)
 
@@ -202,4 +210,4 @@ ht-degree: 0%
 1. 執行下列其中一項：
 
    * 若要移動一個專案，請按住該專案，將其拖放到您要放置它的資料夾。
-   * 若要同時移動多個專案，您可以選取專案左邊的核取方塊，然後按一下清單上方的&#x200B;**[!UICONTROL 移至]**，然後選取您要放置專案的資料夾，或為其建立新資料夾。
+   * 若要同時移動多個專案，您可以選取專案左邊的核取方塊，然後按一下清單上方的**[!UICONTROL 移至]**，然後選取您要放置專案的資料夾，或為其建立新資料夾。

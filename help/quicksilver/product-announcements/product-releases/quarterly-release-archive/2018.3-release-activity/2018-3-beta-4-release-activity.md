@@ -7,26 +7,33 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b40eda2c-8ad4-4945-a7e3-cb28ed8a14db
-TQID: https://experienceleague.adobe.com/gGZEw-nwXhtOQFIJS9-pZtb6XIg180CP02wMLVTTMPk
+TQID: 'https://experienceleague.adobe.com/gGZEw-nwXhtOQFIJS9-pZtb6XIg180CP02wMLVTTMPk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1134
+source-wordcount: '1134'
 ht-degree: 0%
-
 ---
-
 # 2018.3 Beta 4發行活動
 
 本頁說明2018.3 Beta 4版本預覽環境中最近可用的所有變更。 此功能將於2018年8月30日在預覽環境中提供。 它將於2018年11月在生產環境中提供。
@@ -35,7 +42,7 @@ ht-degree: 0%
 
 2018.3 Beta 4版本包含適用於Workfront管理員和其他使用者的增強功能：
 
-管理員的&#x200B;**&#x200B;**
+管理員的&#x200B;****
 
 * [以群組管理員身分更新使用者設定檔中的報告結構](#update-reporting-structure-in-the-user-profile-as-a-group-administrator) 
 
@@ -46,7 +53,7 @@ ht-degree: 0%
 * [專案清單改善](#project-list-improvements)
 * [在甘特圖編輯模式下編輯工作清單](#editing-the-task-list-in-gantt-chart-edit-mode)已從發行版本移除
 * [測量工具色彩](#measurement-tool-colors)
-* 在新索引標籤[&#128279;](#proofs-open-in-a-new-tab)中開啟的校訂已從發行版本中移除
+* 在新索引標籤](#proofs-open-in-a-new-tab)中開啟的[校訂已從發行版本中移除
 
 * [列印摘要增強功能](#print-summary-enhancements)
 * [在Workfront行動應用程式中記錄時間（以天為單位）](#log-time-in-days-in-the-workfront-mobile-app)
@@ -88,10 +95,10 @@ ht-degree: 0%
 * 按右鍵功能及其提供的內容功能表。\
   與其在任務上按一下右鍵進行編輯，您可以進行下列操作：
 
-   * 當您選取單一任務時，您現在可以使用「更多」選單，其選項與上一個右鍵選單相同。
-   * 選取多個工作時，您可以使用清單頂端的圖示，來執行上一個滑鼠右鍵功能表中包含的任何動作。
+  * 當您選取單一任務時，您現在可以使用「更多」選單，其選項與上一個右鍵選單相同。
+  * 選取多個工作時，您可以使用清單頂端的圖示，來執行上一個滑鼠右鍵功能表中包含的任何動作。
 
-     所有變更都會顯示在專案內的任務清單中，以及任務底下的子任務標籤中。
+    所有變更都會顯示在專案內的任務清單中，以及任務底下的子任務標籤中。
 
 如需使用清單的詳細資訊，請參閱[開始使用Adobe Workfront中的清單](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)。
 

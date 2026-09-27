@@ -8,38 +8,55 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f441a887-0670-4d55-8c60-cbe96aaf8379
-TQID: https://experienceleague.adobe.com/T7r9XDUzONpksCcMEV5-lz2GBplu5-9XQjvBgO-1-xg
+TQID: 'https://experienceleague.adobe.com/T7r9XDUzONpksCcMEV5-lz2GBplu5-9XQjvBgO-1-xg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
   - id: b8ea32d4-f1fe-4c71-8871-afe5a702a009
+    internal-label: Adobe Workfront for Jira
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
-  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Requests
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2403
+source-wordcount: '2403'
 ht-degree: 0%
-
 ---
-
 # 21.3版本總覽
 
 本頁提供Adobe Workfront Classic功能和21.3版所含新Adobe Workfront體驗的相關資訊
@@ -309,7 +326,7 @@ Workfront Proof現已提供新功能。 如需詳細資訊，請參閱[Workfront
 
 針對API版本13，我們已修改各種資源和端點。 有些變更支援新功能，有些則讓您更輕鬆地透過API使用可用資訊。
 
-如需新增和更新的詳細資訊，請參閱[&#x200B; API 13](../../../wf-api/api/new-api-version-13.md)版的新增功能。
+如需新增和更新的詳細資訊，請參閱[ API 13](../../../wf-api/api/new-api-version-13.md)版的新增功能。
 
 ## 21.3版本網路研討會
 

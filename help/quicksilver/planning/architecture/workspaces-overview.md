@@ -6,19 +6,26 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
-TQID: https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo
+TQID: 'https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 566
+source-wordcount: '566'
 ht-degree: 1%
-
 ---
-
 # 工作區概觀
 
 <!--
@@ -41,10 +48,10 @@ ht-degree: 1%
 * Workfront Planning未隨附任何預先設定的工作區。 您必須根據組織的需求來建立這些範本。
 * 您可以使用下列方式建立工作區：
 
-   * 從頭開始
-   * 使用範本。 範本包含預先設定的記錄型別數及其欄位。
-   * 使用AI支援的Planning Designer。 此功能目前在Beta中。
-   * 使用多工作區範本套裝。
+  * 從頭開始
+  * 使用範本。 範本包含預先設定的記錄型別數及其欄位。
+  * 使用AI支援的Planning Designer。 此功能目前在Beta中。
+  * 使用多工作區範本套裝。
 
   如需詳細資訊，請參閱[建立工作區](/help/quicksilver/planning/architecture/create-workspaces.md)。
 
@@ -53,9 +60,9 @@ ht-degree: 1%
   如需詳細資訊，請參閱[記錄型別概觀](/help/quicksilver/planning/architecture/overview-of-record-types.md)。
 * 工作區會顯示在Planning區域的下列標籤中：
 
-   * **我所在的工作區**：顯示您建立的工作區或與您共用的工作區。
-   * **其他工作區**：顯示系統中的所有其他工作區。 這僅供系統管理員使用。
-   * **範例工作區**：顯示內建的最佳實務工作區範例。 您無法編輯工作區、記錄型別或新增記錄或欄位，但可以新增、編輯及與其他人共用檢視。
+  * **我所在的工作區**：顯示您建立的工作區或與您共用的工作區。
+  * **其他工作區**：顯示系統中的所有其他工作區。 這僅供系統管理員使用。
+  * **範例工作區**：顯示內建的最佳實務工作區範例。 您無法編輯工作區、記錄型別或新增記錄或欄位，但可以新增、編輯及與其他人共用檢視。
 
   >[!NOTE]
   >
@@ -107,8 +114,8 @@ No longer the case - they match now:
 
 * 您可以按下列鍵盤組合，從Planning登陸頁面或任何Planning頁面存取搜尋：
 
-   * Windows版CTRL+K
-   * 適用於Mac的⌘+K
+  * Windows版CTRL+K
+  * 適用於Mac的⌘+K
 * 每個物件的最後7個結果都會顯示在搜尋方塊中。
 * 您可以執行一般搜尋，或選取物件並搜尋個別清單。
 

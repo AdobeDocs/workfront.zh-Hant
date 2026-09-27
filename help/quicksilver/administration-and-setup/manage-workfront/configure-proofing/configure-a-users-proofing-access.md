@@ -8,23 +8,33 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 98c90139-f31a-41bc-af0b-577dd8b254e3
-TQID: https://experienceleague.adobe.com/L-AMDvQYgtXJwxmtwekimbEA9OQQN72QHIcoQ2iKzGU
+TQID: 'https://experienceleague.adobe.com/L-AMDvQYgtXJwxmtwekimbEA9OQQN72QHIcoQ2iKzGU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1104
+source-wordcount: '1104'
 ht-degree: 1%
-
 ---
-
 # 設定使用者的校訂存取權
 
 身為Adobe Workfront管理員或Workfront Proof管理員，您可以設定使用者在Workfront和Workfront Proof中建立和檢視校訂的存取權。
@@ -66,7 +76,7 @@ ht-degree: 1%
 
 {{step-1-to-users}}
 
-1. 選取一或多個使用者，然後按一下[編輯]。**&#x200B;**
+1. 選取一或多個使用者，然後按一下[編輯]。****
 
 1. 在&#x200B;**存取**&#x200B;區段中，按一下&#x200B;**校訂許可權設定檔**&#x200B;下拉式功能表中的下列Workfront Proof許可權選項之一：
 
@@ -103,13 +113,13 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >當您在Workfront中建立或更新使用者，並且該使用者的Workfront電子郵件地址與授權的Workfront Proof使用者的電子郵件地址相符時，系統會在Workfront中啟用該使用者的校訂。 如需詳細資訊，請參閱[&#x200B; Adobe Workfront與Workfront Proof之間的使用者同步](../../../administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md)。
+   >當您在Workfront中建立或更新使用者，並且該使用者的Workfront電子郵件地址與授權的Workfront Proof使用者的電子郵件地址相符時，系統會在Workfront中啟用該使用者的校訂。 如需詳細資訊，請參閱[ Adobe Workfront與Workfront Proof之間的使用者同步](../../../administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md)。
 
 ### 考量事項
 
 設定許可權時，請考慮下列資訊：
 
-* 如果您將使用者的許可權設定檔變更為許可權較少的設定檔，使用者可能會失去Workfront中現有校訂的可見度。 當有人在Workfront中與使用者共用工作，但未共用附加至工作的校訂（請參閱[在Adobe Workfront中共用](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)的校訂[&#128279;](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)的校訂在Adobe Workfront中共用）時，就會發生這種情況。
+* 如果您將使用者的許可權設定檔變更為許可權較少的設定檔，使用者可能會失去Workfront中現有校訂的可見度。 當有人在Workfront中與使用者共用工作，但未共用附加至工作的校訂（請參閱[在Adobe Workfront中共用](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)的校訂](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)的校訂[在Adobe Workfront中共用）時，就會發生這種情況。
 * 您必須將Workfront Proof環境與Workfront Premium帳戶整合，才能從Workfront Proof設定Workfront許可權。 如果您無法依照本節所述使用校訂，請聯絡Workfront管理員。
 * 在您的Workfront環境中，必須至少有一個使用者擁有校訂的管理員許可權。 如果您嘗試從所有使用者中移除校訂的管理員許可權，則會出現錯誤訊息。
 * 當您將使用者的Workfront存取層級變更為系統管理員以外的任何層級時，該使用者的Workfront Proof許可權設定檔預設為「管理員」。

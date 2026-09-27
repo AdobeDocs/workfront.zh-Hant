@@ -10,26 +10,33 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 150a7e52-d379-4909-b7e3-df8a0b0289d1
-TQID: https://experienceleague.adobe.com/Nv07H5krfZefm5eiphjVwk-D5rjmUVN8O3Si2TSgSjE
+TQID: 'https://experienceleague.adobe.com/Nv07H5krfZefm5eiphjVwk-D5rjmUVN8O3Si2TSgSjE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 207
+source-wordcount: '207'
 ht-degree: 0%
-
 ---
-
 # 設定Adobe Workfront的存取權
 
 本文說明您身為Adobe Workfront管理員，如何透過指派存取層級來授予使用者檢視或編輯物件的存取權。

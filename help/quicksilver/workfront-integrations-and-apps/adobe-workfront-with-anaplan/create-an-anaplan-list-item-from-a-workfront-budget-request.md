@@ -1,32 +1,42 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
-title: 從 [!DNL Adobe Workfront] 預算請求建立 [!DNL Anaplan] 清單專案
-description: 此整合情境會連結 [!DNL Adobe Workfront] 專案（行銷活動）與 [!DNL Anaplan] 預算清單專案。 若要完成此作業，請將預算要求新增至需要取得資金的 [!DNL Workfront] 專案。 此案例會監視未處理的預算請求，然後執行在 [!DNL Anaplan] 中建立空白預算清單專案的程式，以在Anaplan中啟動預算分配程式。
+title: 從[!DNL Adobe Workfront]預算請求建立[!DNL Anaplan]清單專案
+description: 此整合情境連結[!DNL Adobe Workfront]專案（行銷活動）與[!DNL Anaplan]預算清單專案。 若要完成此作業，請將預算要求新增至需要取得資金的[!DNL Workfront]專案。 此案例會監視未處理的預算請求，然後執行在[!DNL Anaplan]中建立空白預算清單專案的程式，以在Anaplan中啟動預算分配程式。
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
-TQID: https://experienceleague.adobe.com/ozWZURR-8-rtFqj7UkEDJW1fVeKAmSV1tBnQMzGL0Xs
+TQID: 'https://experienceleague.adobe.com/ozWZURR-8-rtFqj7UkEDJW1fVeKAmSV1tBnQMzGL0Xs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d8302c96-f652-4d09-896b-19a70bab02a5
+    internal-label: System configuration
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 862
+source-wordcount: '868'
 ht-degree: 14%
-
 ---
-
 # 從[!DNL Adobe Workfront]預算請求建立[!DNL Anaplan]清單專案
 
 此整合情境連結[!DNL Adobe Workfront]專案（行銷活動）與[!DNL Anaplan]預算清單專案。 若要完成此作業，請將預算要求新增至需要取得資金的[!DNL Workfront]專案。 此案例會監視未處理的預算請求，然後執行在[!DNL Anaplan]中建立空白預算清單專案的程式，以在[!DNL Anaplan]中啟動預算分配程式。
@@ -67,9 +77,9 @@ ht-degree: 14%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)文件中的存取權要求[。
 
-關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
+關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
 
 +++
 
@@ -102,19 +112,19 @@ ht-degree: 14%
    </thead> 
    <tbody> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 預算請求型別]</td> 
-     <td> <p>[!UICONTROL 下拉式清單]</p> <p>選項：</p> 
+     <td role="rowheader">[！UICONTROL預算請求型別]</td> 
+     <td> <p>[！UICONTROL下拉式清單]</p> <p>選項：</p> 
       <ul> 
-       <li> <p>[!UICONTROL 資金調整]</p> </li> 
-       <li> <p>[!UICONTROL 初始資金]</p> </li> 
+       <li> <p>[！UICONTROL資金調整]</p> </li> 
+       <li> <p>[！UICONTROL初始資金]</p> </li> 
       </ul> </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 申請勞力資金]</td> 
+     <td role="rowheader">[！UICONTROL申請勞力資金]</td> 
      <td> </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 請求的費用基金]</td> 
+     <td role="rowheader">[！UICONTROL請求的費用基金]</td> 
      <td> </td> 
     </tr> 
    </tbody> 
@@ -140,24 +150,24 @@ ht-degree: 14%
    </thead> 
    <tbody> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 上市日期]</td> 
-     <td>[!UICONTROL 日期] </td> 
+     <td role="rowheader">[！UICONTROL上市日期]</td> 
+     <td>[！UICONTROL日期] </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 市場結束日期]</td> 
-     <td>[!UICONTROL 日期]</td> 
+     <td role="rowheader">[！UICONTROL市場結束日期]</td> 
+     <td>[！UICONTROL日期]</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 行銷活動概覽]</td> 
-     <td>[!UICONTROL RTF欄位]</td> 
+     <td role="rowheader">[！UICONTROL行銷活動概覽]</td> 
+     <td>[！UICONTROL RTF欄位]</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 金鑰訊息]</td> 
-     <td>[!UICONTROL RTF欄位]</td> 
+     <td role="rowheader">[！UICONTROL金鑰訊息]</td> 
+     <td>[！UICONTROL RTF欄位]</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL 目標對象]</td> 
-     <td> <p>[!UICONTROL 下拉式清單]</p> <p>包含適合您流程的選項。</p> </td> 
+     <td role="rowheader">[！UICONTROL目標對象]</td> 
+     <td> <p>[！UICONTROL下拉式清單]</p> <p>包含適合您流程的選項。</p> </td> 
     </tr> 
    </tbody> 
   </table>
@@ -174,12 +184,12 @@ ht-degree: 14%
 
   清單的模組必須支援接收下列屬性：
 
-   * [!UICONTROL Workfront專案GUID]
-   * [!UICONTROL 行銷活動名稱]
-   * [!UICONTROL 已要求人力資金]
-   * [!UICONTROL 已要求費用資金]
-   * [!UICONTROL 預算要求型別]
-   * [!UICONTROL 資金調整原因]
+  * [!UICONTROL Workfront專案GUID]
+  * [!UICONTROL 行銷活動名稱]
+  * [!UICONTROL 已要求人力資金]
+  * [!UICONTROL 已要求費用資金]
+  * [!UICONTROL 預算要求型別]
+  * [!UICONTROL 資金調整原因]
 
   此清單和模組必須儲存[!DNL Anaplan]正常功能所需的額外詳細資料，包括設定預算並傳達預算清單專案已準備好同步回[!DNL Workfront]的能力。
 

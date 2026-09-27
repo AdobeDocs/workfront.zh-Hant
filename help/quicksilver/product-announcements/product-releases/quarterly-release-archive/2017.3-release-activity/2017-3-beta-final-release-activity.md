@@ -7,27 +7,35 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 880828f4-3908-4ef0-ab1f-774f8dee72b6
-TQID: https://experienceleague.adobe.com/4-7YnUZXtvacLjoO4Y8c61kJ-kzHnY6ck8xsaqmuTvs
+TQID: 'https://experienceleague.adobe.com/4-7YnUZXtvacLjoO4Y8c61kJ-kzHnY6ck8xsaqmuTvs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3709
+source-wordcount: '3822'
 ht-degree: 0%
-
 ---
-
 # 2017.3 Beta最終發行活動
 
 本頁說明2017.3 Beta最終版本預覽環境中最近可用的所有變更。 此頁面的功能已於2017年9月12日在預覽環境中推出。 它將在2017年11月初的生產環境中提供。
@@ -40,7 +48,7 @@ ht-degree: 0%
 
 2017.3 Beta最終版本包含適用於Workfront管理員和其他使用者的增強功能：
 
-管理員的&#x200B;**&#x200B;**
+管理員的&#x200B;****
 
 * [在核准設定區域中重新呼叫要求的新設定](#new-configuration-for-recalling-requests-in-the-approval-settings-area)
 * [設定預設校訂角色](#configure-default-proof-roles)
@@ -62,7 +70,7 @@ ht-degree: 0%
 * [檔案增強功能：精簡的介面](#document-enhancements-streamlined-interface)
 * Workfront中的[校訂增強功能](#proofing-enhancements-within-workfront)
 * Workfront Proof和Workfront中的[校訂增強功能](#proofing-enhancements-within-both-workfront-proof-and-workfront)
-* 更新及電子郵件的[&#x200B; RTF格式](#rich-text-formatting-for-updates-and-emails)
+* 更新及電子郵件的[ RTF格式](#rich-text-formatting-for-updates-and-emails)
 * [新甘特圖重新設計](#new-gantt-chart-redesign)
 * [內建報告包含更新的說明](#built-in-reports-contain-updated-descriptions)
 * [在匯出的報告、清單和儀表板中標示品牌](#branding-in-exported-reports-lists-and-dashboards)
@@ -155,7 +163,7 @@ Workfront中的Scrum和Kanban敏捷方法有以下差異：
 
 如需有關使用待處理專案上的問題的資訊，請參閱[管理敏捷待處理專案](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)。
 
-如需有關啟用問題以在Agile Scrum團隊的待處理專案上可用的資訊，請參閱[&#128279;](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)在[設定Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)中設定將工作專案新增至疊代時如何套用日期。
+如需有關啟用問題以在Agile Scrum團隊的待處理專案上可用的資訊，請參閱[在[設定Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)中設定將工作專案新增至疊代](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)時如何套用日期。
 
 ## 在Scrum敏捷故事板上包含問題 {#include-issues-on-the-scrum-agile-story-board}
 
@@ -221,7 +229,7 @@ Workfront中的Scrum和Kanban敏捷方法有以下差異：
 
 ## 檔案增強功能：精簡的介面 {#document-enhancements-streamlined-interface}
 
-向Workfront新增檔案的使用者體驗現在更簡化且更直覺。現在，您可以從檔案系統上傳檔案、請求檔案，或從協力廠商應用程式（例如Google或Dropbox）連結檔案，全都透過簡單的下拉式選單完成。 
+向Workfront新增檔案的使用者體驗現在更簡化且更直覺。 現在，您可以從檔案系統上傳檔案、請求檔案，或從協力廠商應用程式（例如Google或Dropbox）連結檔案，全都透過簡單的下拉式選單完成。 
 
 以前，您可以透過啟動「新增檔案」對話方塊使用這些選項。 
 
@@ -304,9 +312,9 @@ HTML5檢視器現在支援靜態校樣。
 
 * 透過校訂縮圖導覽校訂
 
-   * 輕鬆識別正在稽核的校樣部分。 這很重要，尤其是當使用者使用格式較大的校樣和較長的網頁，或隨時需要較大的縮放等級以檢視詳細資訊時。
-   * 變更縮放等級
-   * 平移內容
+  * 輕鬆識別正在稽核的校樣部分。 這很重要，尤其是當使用者使用格式較大的校樣和較長的網頁，或隨時需要較大的縮放等級以檢視詳細資訊時。
+  * 變更縮放等級
+  * 平移內容
 
 * 在測量工具中指定自訂值
 * 在Workfront Proof的校樣檢視器中對校樣內的文字加上註解時，您可以包含用於指示文字應該加粗顯示、斜體顯示和底線的選項。
@@ -464,8 +472,8 @@ HTML5檢視器尚未支援現有Flash檢視器目前提供的所有功能。 下
 
 我們已對適用於Outlook 365的Workfront增益集進行下列改良：
 
-* 在Workfront中新增任務或問題至專案：您現在可以使用Outlook 365增益集將電子郵件轉換成Workfront中的任務或問題。在此程式中，您可以指定要新增任務或問題的專案，以及受指派人和到期日。在此增強功能之前，您只能提交要求至要求佇列，或從Outlook 365將個人工作新增至您的[處理中]清單。 
-* 在轉換為任務、問題或請求的原始電子郵件中保留Workfront物件的連結：當您從Outlook 365轉換電子郵件至任務、問題或請求時，Outlook 365會保留從原始電子郵件中轉換至任務或問題的連結。在此變更之前，Outlook中不會指出電子郵件是否已轉換為任務或提交為請求。 
+* 在Workfront中新增任務或問題至專案：您現在可以使用Outlook 365增益集將電子郵件轉換成Workfront中的任務或問題。 在此程式中，您可以指定要新增任務或問題的專案，以及受指派人和到期日。 在此增強功能之前，您只能提交要求至要求佇列，或從Outlook 365將個人工作新增至您的[處理中]清單。 
+* 在轉換為任務、問題或請求的原始電子郵件中保留Workfront物件的連結：當您從Outlook 365轉換電子郵件至任務、問題或請求時，Outlook 365會保留從原始電子郵件中轉換至任務或問題的連結。 在此變更之前，Outlook中不會指出電子郵件是否已轉換為任務或提交為請求。 
 
 ## API變更 {#api-changes}
 

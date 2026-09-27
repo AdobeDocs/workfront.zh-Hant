@@ -8,23 +8,31 @@ feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/IUSv8kAWns-YH5CFM8ijinqqUXfswp0aVh5igluSYDI
+TQID: 'https://experienceleague.adobe.com/IUSv8kAWns-YH5CFM8ijinqqUXfswp0aVh5igluSYDI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 347
-ht-degree: 5%
-
+source-wordcount: '415'
+ht-degree: 4%
 ---
-
 # 請求檔案
 
 您可以請求任何支援「檔案」之物件的檔案。
@@ -32,7 +40,7 @@ ht-degree: 5%
 >[!NOTE]
 >
 >新檔案區域未提供此功能。<br>
->如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的「檔案」區域。如需Adobe雲端儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+>如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的檔案區域。 如需Adobe雲端儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 ## 存取權要求
 
@@ -79,7 +87,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >如果您的帳戶已啟用[舊版授權總覽](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)，您可以傳送要求至任何電子郵件地址。[設定系統安全性偏好設定](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)中有設定可決定這些外部電子郵件使用者在與Workfront互動之前是否需要建立密碼。 
+   >如果您的帳戶已啟用[舊版授權總覽](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)，您可以傳送要求至任何電子郵件地址。 [設定系統安全性偏好設定](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)中有設定可決定這些外部電子郵件使用者在與Workfront互動之前是否需要建立密碼。 
 
 1. 說明您要求檔案的原因。
 1. 按一下&#x200B;**傳送要求**。

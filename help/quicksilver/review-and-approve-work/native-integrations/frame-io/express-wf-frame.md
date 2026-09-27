@@ -7,13 +7,22 @@ description: 開始使用Adobe Express和Frame.io整合
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 347eb022f68e00b13b3b517a1aaec9cd15f952c7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 2%
-
 ---
-
 
 # 透過Frame.io整合開始使用Adobe Express和Workfront
 
@@ -80,7 +89,7 @@ ht-degree: 2%
 
 使用者必須擁有Standard Workfront授權，才能向Adobe Express請求核准。
 
-瞭解如何[取得設計的核准](https://helpx.adobe.com/tw/express/web/share-and-publish/share-and-collaborate/request-approval.html)。
+瞭解如何[取得設計的核准](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html)。
 
 
 ## 重新混合快速範本，並傳送以供檢閱和核准
@@ -100,7 +109,7 @@ Adobe Express使用者可以根據自己的需求混合使用快速範本。 發
 
 如果未選取任何專案，則資產將預設為Express專用專案。
 
-如需詳細資訊，請參閱[傳送範本以供檢閱和核准](https://helpx.adobe.com/tw/express/web/invite-collaborate/request-approval.html)。
+如需詳細資訊，請參閱[傳送範本以供檢閱和核准](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html)。
 
 
 ## 檢閱並核准使用Frame.io重新混合的Express檔案

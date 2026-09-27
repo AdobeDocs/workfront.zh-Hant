@@ -1,25 +1,31 @@
 ---
-title: ​20. 4 Analytics增強功能
-description: ​20. 4 Analytics增強功能
+title: 20. 4 Analytics增強功能
+description: 20. 4 Analytics增強功能
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39e09278-afce-4e9b-857c-f18453081f9d
-TQID: https://experienceleague.adobe.com/RCi84gNcFN4SiAwEWYqSBTu-BBL-pFoGr0jc9o6yiYw
+TQID: 'https://experienceleague.adobe.com/RCi84gNcFN4SiAwEWYqSBTu-BBL-pFoGr0jc9o6yiYw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 209
+source-wordcount: '209'
 ht-degree: 1%
-
 ---
-
 # &#x200B;20. 4 Analytics增強功能
 
 本頁說明20.4版本對「預覽」環境所做的所有分析增強功能。 這些增強功能將在2020年11月9日當週的生產環境中提供。

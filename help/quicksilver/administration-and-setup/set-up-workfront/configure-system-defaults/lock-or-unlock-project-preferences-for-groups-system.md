@@ -8,22 +8,26 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f5a94eaf-ebb8-424b-80ff-ba40cc985a6e
-TQID: https://experienceleague.adobe.com/OpdIG-INmfU3jvgNvCFCtbNwiRFvfxPgFQ6p-hW-HUQ
+TQID: 'https://experienceleague.adobe.com/OpdIG-INmfU3jvgNvCFCtbNwiRFvfxPgFQ6p-hW-HUQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 513
+source-wordcount: '513'
 ht-degree: 3%
-
 ---
-
 # 鎖定或解除鎖定系統中所有群組的專案偏好設定
 
 您組織中的群組可能需要針對其獨特工作流程以不同方式設定的專案偏好設定。 您可以解鎖整個組織中所有群組的偏好設定，以便他們自行設定。
@@ -44,12 +48,12 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p>
-       <p>[!UICONTROL 計畫]</p></td>
+   <td><p>[！UICONTROL標準]</p>
+       <p>[！UICONTROL計畫]</p></td>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td> 
+   <td>[！UICONTROL系統管理員]</td> 
   </tr> 
  </tbody> 
 </table>

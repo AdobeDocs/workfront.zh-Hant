@@ -3,14 +3,15 @@ title: 存取需求表範例 — 內部文章
 description: 這是我們的團隊的內部文章，詳細記錄我們用於存取要求的表格。 此不應發佈。
 author: Alina
 hide: true
-hidefromtoc: true
-source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
+hidefromtoc: 'yes'
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1321'
 ht-degree: 26%
-
 ---
-
 
 # 存取需求表範例 — 內部文章
 
@@ -420,10 +421,10 @@ ht-degree: 26%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)文件中的存取權要求[。
 
 
-關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
+關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
 
 ## 進階企業控制項
 
@@ -438,7 +439,7 @@ ht-degree: 26%
 * 工作流程Prime和更新版本
 * Workfront Prime和更新版本
 
-如需套件的詳細資訊，請參閱[Adobe Workfront定價與封裝頁面](https://business.adobe.com/tw/products/workfront/pricing.html)。
+如需套件的詳細資訊，請參閱[Adobe Workfront定價與封裝頁面](https://business.adobe.com/products/workfront/pricing.html)。
 
 進階企業控制項：
 
@@ -483,9 +484,9 @@ ht-degree: 26%
  </tbody> 
 </table>
 
-若要詳細了解此表格中的資訊，請參閱[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)文件中的存取權要求。
+若要詳細了解此表格中的資訊，請參閱](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation)文件中的存取權要求[。
 
-關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
+關於 Adobe Workfront Fusion 授權的資訊，請參閱 [Adobe Workfront Fusion 授權](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration)。
 <td> <p>任何</p> </td> 
   </tr> 
   <tr> 

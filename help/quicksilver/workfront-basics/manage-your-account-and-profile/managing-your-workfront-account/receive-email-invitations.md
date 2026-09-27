@@ -1,27 +1,31 @@
 ---
 product-area: user-management
 navigation-topic: manage-your-workfront-account
-title: 接收電子郵件邀請並建立 [!DNL Adobe Workfront]的密碼
-description: 當 [!DNL Workfront] 管理員建立新使用者時，新使用者可能會收到邀請他們建立密碼的邀請電子郵件。
+title: 接收電子郵件邀請並建立[!DNL Adobe Workfront]的密碼
+description: 當[!DNL Workfront]管理員建立新使用者時，新使用者可能會收到邀請他們建立密碼的邀請電子郵件。
 author: Courtney
 feature: Get Started with Workfront
 exl-id: a13dbe33-f283-4732-a7f2-5a94a37855f0
-TQID: https://experienceleague.adobe.com/QhcEeZDvfIbdcXpkYyWoPBP1GP4VXSEbK7nE3RZEddI
+TQID: 'https://experienceleague.adobe.com/QhcEeZDvfIbdcXpkYyWoPBP1GP4VXSEbK7nE3RZEddI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 319
+source-wordcount: '320'
 ht-degree: 5%
-
 ---
-
 # 接收電子郵件邀請並建立[!DNL Adobe Workfront]的密碼
 
 當[!DNL Workfront]管理員建立新使用者時，新使用者可能會收到基於幾個因素的邀請電子郵件：

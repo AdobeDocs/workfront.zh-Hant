@@ -7,13 +7,17 @@ description: 本文說明如何覆寫專案的系統使用者收費率。
 author: Lisa
 feature: Work Management
 exl-id: eb7dbb6f-a31c-4569-be54-9a151dcf4135
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '749'
 ht-degree: 2%
-
 ---
-
 # 覆寫專案層級的使用者收費率
 
 身為專案經理，您可以指定特定專案上使用者的收費率。 此專案層級的收費率會覆寫此使用者之系統層級的收費率。 Workfront使用使用者的專案層級收費率來計算收入，而不使用系統層級收費率。
@@ -22,7 +26,7 @@ ht-degree: 2%
 
 如需有關覆寫專案的收費率以及計算專案收入的一般資訊，請參閱[覆寫收費率以及計算專案收入的概觀](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)。
 
-如需有關計算專案收入的詳細資訊，請參閱[收入和成本階層概觀](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)以及文章[帳單和收入概觀](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments)中的[根據使用者和角色指派的任務收入計算](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md)區段。
+如需有關計算專案收入的詳細資訊，請參閱[收入和成本階層概觀](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)以及文章[帳單和收入概觀](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md)中的[根據使用者和角色指派的任務收入計算](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments)區段。
 
 >[!NOTE]
 >
@@ -50,7 +54,7 @@ ht-degree: 2%
        <p><p>您也必須具備下列其中一項：</p> 
         <ul> 
           <li> <p>系統管理員存取層級。 </li> 
-          <li> <p>您的存取層級中的<b>使用者</b>設定已設定為<b>編輯</b>存取權，其中<b>建立</b>以及在<b>微調您的設定</b> <b>下啟用的兩個</b>使用者管理員<img src="assets/gear-icon-in-access-levels.png">選項中的至少一個。 </p> <p>在這兩個選項中，如果已啟用<b>使用者管理員（群組使用者）</b>，您必須是使用者所屬群組的群組管理員。</p> </li> 
+          <li> <p>您的存取層級中的<b>使用者</b>設定已設定為<b>編輯</b>存取權，其中<b>建立</b>以及在<b>微調您的設定</b> <img src="assets/gear-icon-in-access-levels.png">下啟用的兩個<b>使用者管理員</b>選項中的至少一個。 </p> <p>在這兩個選項中，如果已啟用<b>使用者管理員（群組使用者）</b>，您必須是使用者所屬群組的群組管理員。</p> </li> 
     </ul></td> 
   </tr> 
   <tr> 

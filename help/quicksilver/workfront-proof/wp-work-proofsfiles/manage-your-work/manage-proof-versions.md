@@ -2,23 +2,31 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: 管理 [!DNL Workfront Proof]中的校訂版本
-description: 管理多個版本或修訂版本的工作之意見可能是一項巨大的挑戰。 [!DNL Workfront Proof] 藉由讓您建立和比較多個版本的校訂，簡化此程式。
+title: 管理[!DNL Workfront Proof]中的校訂版本
+description: 管理作品多個版本或修訂版本的意見回饋可能是一項巨大的挑戰。 [!DNL Workfront Proof]可讓您建立和比較多個版本的校訂，藉此簡化此程式。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d1bee64d-c091-40d3-a9c1-847c7f645b96
-TQID: https://experienceleague.adobe.com/8dEKTMfZ6-nhdjvY4Ar-m29jxGJV8q4FysGAqIl6nEs
+TQID: 'https://experienceleague.adobe.com/8dEKTMfZ6-nhdjvY4Ar-m29jxGJV8q4FysGAqIl6nEs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 768
+source-wordcount: '769'
 ht-degree: 0%
-
 ---
-
 # 管理[!DNL Workfront Proof]中的校訂版本
 
 >[!IMPORTANT]

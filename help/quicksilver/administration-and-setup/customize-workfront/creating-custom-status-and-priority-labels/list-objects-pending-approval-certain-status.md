@@ -8,22 +8,26 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 52dd8750-9a6f-4ac6-9779-ba4ea9b6f4e0
-TQID: https://experienceleague.adobe.com/TfNnHDPjT1M9XlpBiXQw3vP9izeRWArYuhDuXqA0Cbw
+TQID: 'https://experienceleague.adobe.com/TfNnHDPjT1M9XlpBiXQw3vP9izeRWArYuhDuXqA0Cbw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 501
+source-wordcount: '501'
 ht-degree: 3%
-
 ---
-
 # 使用特定狀態列出具有未決核准流程的物件
 
 如果您嘗試刪除狀態，則錯誤訊息可能會告訴您無法刪除該狀態，因為該狀態在您的系統中至少有一個未決核准流程。 您可以執行報告，列出物件在擱置核准程式中的位置，然後決定您需要為每個物件做什麼。

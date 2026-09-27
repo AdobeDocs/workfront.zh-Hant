@@ -7,25 +7,33 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 267757fb-a8ef-43cf-a93c-3ac59d8bb432
-TQID: https://experienceleague.adobe.com/E-knnp2lqfo7D45q9KtIRzazdBO-woliweMCHAl7Xww
+TQID: 'https://experienceleague.adobe.com/E-knnp2lqfo7D45q9KtIRzazdBO-woliweMCHAl7Xww'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b8ea32d4-f1fe-4c71-8871-afe5a702a009
+    internal-label: Adobe Workfront for Jira
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Customer experience
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 355
+source-wordcount: '355'
 ht-degree: 5%
-
 ---
-
 # 2020.1版之前發行到生產環境的其他Workfront Classic功能
 
 下列功能在2020.1版發行至生產環境前已可供Workfront Classic生產環境使用。

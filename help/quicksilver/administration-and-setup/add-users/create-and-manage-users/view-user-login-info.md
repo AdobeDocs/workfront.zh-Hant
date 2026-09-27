@@ -8,23 +8,28 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
-TQID: https://experienceleague.adobe.com/faBqmsHF6tu9rS-mS0ucOS1-Pw4gKM5B8amHTXgHLZA
+TQID: 'https://experienceleague.adobe.com/faBqmsHF6tu9rS-mS0ucOS1-Pw4gKM5B8amHTXgHLZA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 532
+source-wordcount: '532'
 ht-degree: 4%
-
 ---
-
 # 檢視使用者登入資訊
 
 您可以藉由指定您要在使用者清單的檢視或使用者的報表中納入此資訊，來檢視使用者登入Adobe Workfront的頻率以及上次登入的時間。

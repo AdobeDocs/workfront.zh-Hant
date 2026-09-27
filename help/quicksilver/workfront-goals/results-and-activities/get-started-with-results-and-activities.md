@@ -9,18 +9,24 @@ feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/9GQMj-ij7gBqYKy4o0E619ago4c-G-Vu6KLmTWKrBPE
+TQID: 'https://experienceleague.adobe.com/9GQMj-ij7gBqYKy4o0E619ago4c-G-Vu6KLmTWKrBPE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 804
+source-wordcount: '804'
 ht-degree: 1%
-
 ---
-
 # 開始使用Adobe Workfront目標中的結果和活動
 
 <!--Audited for P& P only: 10/2025-->
@@ -89,9 +95,9 @@ Old:
 * 他們回答以下問題：「我如何知道我的目標何時完成？」
 * 它們是量度指標。 您可以從下列選項中選取，以指示結果的進度：
 
-   * 貨幣
-   * 數字
-   * 百分比
+  * 貨幣
+  * 數字
+  * 百分比
 
 如需有關結果的詳細資訊，請參閱本文中[結果、活動和專案之間的相似性](#similarities-between-results-activities-and-projects)一節中的結果和活動之間的相似性清單。
 
@@ -210,7 +216,7 @@ This will have additional types in the future - add another section for types?
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
-  <tr> **&#x200B;**
+  <tr> ****
    <td>它們提供介於開始值和結束值之間的值範圍，以說明您距離達到這些值的距離有多近。 接近結束值會計算目標的進度值。 </td> 
    <td>✔</td> 
    <td>✔</td> 

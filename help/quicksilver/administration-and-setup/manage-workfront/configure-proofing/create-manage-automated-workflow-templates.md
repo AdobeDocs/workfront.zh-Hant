@@ -8,24 +8,35 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
-TQID: https://experienceleague.adobe.com/HoUALwtvCHKaN408VjpHaxFI6bF-XpInL6S1chuxXt4
+TQID: 'https://experienceleague.adobe.com/HoUALwtvCHKaN408VjpHaxFI6bF-XpInL6S1chuxXt4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Privacy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2083
+source-wordcount: '2083'
 ht-degree: 1%
-
 ---
-
 # 建立及管理自動化工作流程範本
 
 <!-- Audited: 2/2024 -->
@@ -267,7 +278,7 @@ ht-degree: 1%
 
    如果您不需要檢視圖表，可以按一下&#x200B;**隱藏圖表**。
 
-1. 在&#x200B;**與**&#x200B;共用區段中，如果您想要刪除使用者，請按一下右側的![更多[更多]圖示](assets/more-icon.png)按鈕，然後按一下[移除]。**&#x200B;**
+1. 在&#x200B;**與**&#x200B;共用區段中，如果您想要刪除使用者，請按一下右側的[更多![更多]圖示](assets/more-icon.png)按鈕，然後按一下[移除]。****
 
 ## 建立自動化工作流程範本群組 {#create-automated-workflow-template-groups}
 

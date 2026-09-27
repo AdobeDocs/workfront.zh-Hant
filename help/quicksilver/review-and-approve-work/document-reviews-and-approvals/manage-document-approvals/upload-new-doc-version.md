@@ -8,25 +8,33 @@ feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/grwYgMUQc-Ft08jC1Fb1n7y18cLi1HNcXvJ3wPX0URg
+TQID: 'https://experienceleague.adobe.com/grwYgMUQc-Ft08jC1Fb1n7y18cLi1HNcXvJ3wPX0URg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c83b252faf7791c51475c5b82ca03cb4ee29bfc0
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 798
+source-wordcount: '798'
 ht-degree: 2%
-
 ---
-
 # 上傳新檔案版本並請求核准
 
 
@@ -171,7 +179,7 @@ To add a new version:
 
 1. 設定核准工作流程。 如需欄位說明、進階模式切換和平行路徑流程，請參閱[建立檔案核准工作流程](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
 
-1. 若要複製上一個檔案版本的相同檢閱者和核准者，請按一下[複製]。**&#x200B;**
+1. 若要複製上一個檔案版本的相同檢閱者和核准者，請按一下[複製]。****
 1. 按一下&#x200B;**要求核准**。
 
    核准工作流程隨即開始，核准者會收到新檔案版本需要其核准的通知。 先前檔案版本已鎖定，並撤銷先前版本上的所有未完成核准。
@@ -204,7 +212,7 @@ the previous participants, new participants, or a mix of both. You can view info
 
 1. 設定核准工作流程。 如需欄位說明、進階模式切換和平行路徑流程，請參閱[建立檔案核准工作流程](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
 
-1. 若要複製上一個檔案版本的相同檢閱者和核准者，請按一下[複製]。**&#x200B;**
+1. 若要複製上一個檔案版本的相同檢閱者和核准者，請按一下[複製]。****
 1. 按一下&#x200B;**要求核准**。
 
    核准工作流程隨即開始，核准者會收到新檔案版本需要其核准的通知。 先前檔案版本已鎖定，並撤銷先前版本上的所有未完成核准。

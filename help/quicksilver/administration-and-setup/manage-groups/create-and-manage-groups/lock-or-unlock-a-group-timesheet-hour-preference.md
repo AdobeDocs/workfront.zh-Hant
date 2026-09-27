@@ -8,24 +8,31 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5b36106f-d521-4cc1-9f1f-647415c282b4
-TQID: https://experienceleague.adobe.com/nTA2XGeNLCiL72IrACxltqpo0zysflqS9UEF5Itnm8M
+TQID: 'https://experienceleague.adobe.com/nTA2XGeNLCiL72IrACxltqpo0zysflqS9UEF5Itnm8M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 600
+source-wordcount: '600'
 ht-degree: 3%
-
 ---
-
 # 鎖定或解鎖群組時程表和小時偏好設定
 
 如果您是群組管理員，可以在Workfront管理員在系統層級解除鎖定您的群組後，設定並鎖定該群組的時程表和小時偏好設定。

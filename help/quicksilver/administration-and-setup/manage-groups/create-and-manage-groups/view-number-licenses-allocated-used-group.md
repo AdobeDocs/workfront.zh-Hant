@@ -5,22 +5,28 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8d1870ea-3f9e-4358-8e14-3dcfc3805637
-TQID: https://experienceleague.adobe.com/z7vh7rdkB40A2gzfSYddUAHF-nOGqVCgpVyu729gYgE
+TQID: 'https://experienceleague.adobe.com/z7vh7rdkB40A2gzfSYddUAHF-nOGqVCgpVyu729gYgE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 469
+source-wordcount: '469'
 ht-degree: 4%
-
 ---
-
 # 檢視群組中配置及使用的授權數目
 
 身為Adobe Workfront管理員，您可以檢視目前用於群組及其子群組的個別授權型別計數。 當您需要評估是否重新分配授權時，這個選項非常有用。

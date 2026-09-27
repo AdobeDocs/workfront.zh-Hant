@@ -8,24 +8,30 @@ feature: Reports and Dashboards
 exl-id: 4145119e-ef2c-4f0d-89e7-86669ca5b127
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/h9e0h-NIWGe1wvCYaqIB7CpyVO5QzL7ZiwB3AdWoL0g
+TQID: 'https://experienceleague.adobe.com/h9e0h-NIWGe1wvCYaqIB7CpyVO5QzL7ZiwB3AdWoL0g'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 199
+source-wordcount: '199'
 ht-degree: 9%
-
 ---
-
 # 將臨時事件新增至行事曆報表
 
 您可以將臨時事件新增至行事曆。 臨時事件只是作為行事曆中的提醒，與專案、任務或問題無關。

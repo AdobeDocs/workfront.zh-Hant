@@ -9,26 +9,35 @@ recommendations: noDisplay, noCatalog
 exl-id: 4162cfb7-d5e1-4152-857a-fc4a6eb09cd7
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/w9Ss7NTpVcwzUt4Dyll9vhLKuG-bwz46J5WJ5XpxDWg
+TQID: 'https://experienceleague.adobe.com/w9Ss7NTpVcwzUt4Dyll9vhLKuG-bwz46J5WJ5XpxDWg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2770
+source-wordcount: '2873'
 ht-degree: 0%
-
 ---
-
 # 2020.1版本總覽
 
 <!--
@@ -381,7 +390,7 @@ ht-degree: 0%
 
 ## API增強功能
 
-API第11版於2020.1版時發行。 如需有關新增功能和更新的資訊，請參閱[&#x200B; API版本11的新功能](../../../wf-api/api/new-api-version-11.md) [&#x200B; API版本11](https://experience.workfront.com/s/article/What-s-new-in-API-version-11-1760875145)的新功能。
+API第11版於2020.1版時發行。 如需有關新增功能和更新的資訊，請參閱[ API版本11的新功能](../../../wf-api/api/new-api-version-11.md) [ API版本11](https://experience.workfront.com/s/article/What-s-new-in-API-version-11-1760875145)的新功能。
 
 如需API版本的詳細資訊，請參閱[API版本設定與支援排程](../../../wf-api/api/api-version-support-schedule.md) [API版本發行與支援排程](https://experience.workfront.com/s/article/API-Version-Release-and-Support-Schedule-272875487?language=en_US&r=13&ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&ui-self-service-components-controller.ArticleTopicList.getTopics=1&ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1)。
 
@@ -427,7 +436,7 @@ API第11版於2020.1版時發行。 如需有關新增功能和更新的資訊�
 
 有了Workfront One，您將能從Workfront探索最重要的內容、資源和新聞 — 全部整合在單一位置，只需登入一次。 我們已整合體驗、社群和訓練網站，讓您更容易找到想要的東西。
 
-[進一步瞭解Workfront One](https://business.adobe.com/tw/products/workfront.html)。
+[進一步瞭解Workfront One](https://business.adobe.com/products/workfront.html)。
 
 ### 2020.1版本網路研討會 {#2020-1-release-webinar}
 
@@ -435,7 +444,7 @@ API第11版於2020.1版時發行。 如需有關新增功能和更新的資訊�
 
 ### 第1季產品藍圖網路研討會 {#q1-product-roadmap-webinar}
 
-深入瞭解[第1季藍圖網路研討會](https://webinars.on24.com/workfront/product_roadmap032620?partnerref=announcementcenter)期間將推出的內容。 此網路研討會將於2020年3月26日上午9:00a舉行。 北美山區時區 按一下連結即可註冊
+深入瞭解[第1季藍圖網路研討會](https://webinars.on24.com/workfront/product_roadmap032620?partnerref=announcementcenter)期間將推出的內容。 此網路研討會將於2020年3月26日上午9:00舉行 北美山區時區 按一下連結即可註冊
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -502,7 +511,7 @@ and watch the recording on demand
 
 為了提供最佳安全性，Workfront要求所有使用TLS 1.1或更舊版本的整合和網頁流量都升級為使用TLS 1.2。 在預覽環境中，TLS 1.0已停用。
 
-如需詳細資訊，請參閱Adobe Workfront[&#128279;](../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md)中所需的TLS 1.2。
+如需詳細資訊，請參閱Adobe Workfront](../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md)中所需的[TLS 1.2。
 
 ### 移除Flash應用程式 {#flash-application-removal}
 

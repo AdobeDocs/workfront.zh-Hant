@@ -8,20 +8,24 @@ feature: Reports and Dashboards
 exl-id: 230d1a30-2af9-4d2c-9ec1-34c3d4c080d4
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/i-F8ebsLAFO-0mP-bXzzEyFDsfvuWH-qswPc7C5cyMg
+TQID: 'https://experienceleague.adobe.com/i-F8ebsLAFO-0mP-bXzzEyFDsfvuWH-qswPc7C5cyMg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 362
+source-wordcount: '413'
 ht-degree: 2%
-
 ---
-
 # 在Data Connect中使用監控資料重新整理檢視
 
 「監控資料重新整理」檢視會顯示最近重新整理期間對資料湖日期所做的最新更新。 每次成功完成資料載入後，此檢視的資料都會更新。
@@ -43,7 +47,7 @@ ht-degree: 2%
         <td><b>說明</b></td>
     </tr>
     <tr>
-        <td>物件型別</td>
+        <td>OBJ型別</td>
         <td>Varchar
         </td>
         <td> 
@@ -66,7 +70,7 @@ ht-degree: 2%
         <td>PREVIOUS_RECORD_LOAD_TIMESTAMP </td>
         <td>Timestamp_NTZ </td>
         <td>
-       顯示在OBJ_TYPE欄中的物件型別，其最近一次資料重新整理的日期和時間。 </td>
+       顯示在OBJ_TYPE欄中的物件型別，其第二次資料重新整理的日期和時間。 </td>
     </tr>
         <tr>
         <td>MINUTES_SINCE_PREVIOUS_LOAD </td>

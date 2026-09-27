@@ -10,24 +10,30 @@ role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/t5iR6y08l5ovcwShZCiqYKv1B9K85Qtg7H18pLyTCTU
+TQID: 'https://experienceleague.adobe.com/t5iR6y08l5ovcwShZCiqYKv1B9K85Qtg7H18pLyTCTU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d0b0499c10d0e7b032eeceb0d200b4594414e475
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1857
+source-wordcount: '1857'
 ht-degree: 3%
-
 ---
-
 # 建立和編輯業務規則
 
 商業規則可讓您套用驗證至Workfront物件，並防止使用者在滿足某些條件時建立、編輯或刪除物件。 商業規則驗證可防止可能影響資料完整性的動作，有助於改善資料品質和營運效率。
@@ -283,7 +289,7 @@ IF({status} = "APR", true)
    >
    >您的組織必須在工作流程Ultimate套件上，才能使用驗證以外的動作。 如果您沒有看到這些其他選項，表示您的組織不在Workflow Ultimate套件中。
 
-1. 當您完成建立商業規則時，請按一下[儲存]。**&#x200B;**
+1. 當您完成建立商業規則時，請按一下[儲存]。****
 
 >[!NOTE]
 >

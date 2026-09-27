@@ -1,30 +1,36 @@
 ---
 product-area: workfront-integrations
 navigation-topic: workfront-for-slack
-title: 從 [!DNL Slack]存取您的最愛和最近專案
-description: 為Slack安裝並設定 [!DNL Adobe Workfront] 後，您可以檢視Workfront的「我的最愛」和「最近專案」，並從Slack的任一清單存取專案。
+title: 從[!DNL Slack]存取您的最愛和最近專案
+description: 安裝並設定Slack的[!DNL Adobe Workfront]後，您就可以檢視Workfront的「我的最愛」和「最近專案」，並可從Slack的任一清單存取專案。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4bf62192-66fe-42a7-b8c0-23b7bdef45e8
-TQID: https://experienceleague.adobe.com/Fqy-Tqgyza2C4STR6qD78-HsyKDiydUM1NTnzLY1-FE
+TQID: 'https://experienceleague.adobe.com/Fqy-Tqgyza2C4STR6qD78-HsyKDiydUM1NTnzLY1-FE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: e4fedd42-4a54-4109-859f-13c7f0366a72
+    internal-label: Adobe Workfront for Slack
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 323
+source-wordcount: '324'
 ht-degree: 6%
-
 ---
-
 # 從[!DNL Slack]存取您的最愛和最近專案
 
 安裝並設定[!DNL Adobe Workfront for Slack]後，您可以檢視您的[!UICONTROL Workfront]我的最愛和最近專案，並從[!DNL Slack]的任一清單存取專案。

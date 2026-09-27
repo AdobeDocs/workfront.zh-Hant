@@ -6,22 +6,26 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: a7237746-0a18-408b-b932-8a608fd72eee
-TQID: https://experienceleague.adobe.com/ST7uHa2yW7WjnUz9PwgKctI9jaBbp6maSuw6bTByGp0
+TQID: 'https://experienceleague.adobe.com/ST7uHa2yW7WjnUz9PwgKctI9jaBbp6maSuw6bTByGp0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 527
+source-wordcount: '533'
 ht-degree: 3%
-
 ---
-
 # 在優先順序中新增及檢視註解
 
 您可以在任務或問題上新增更新，以向他人傳達工作專案的進度。
@@ -72,7 +76,7 @@ ht-degree: 3%
 {{step1-to-priorities}}
 
 1. 找到您要更新的工作專案。
-1. 將游標暫留在名稱上，然後按一下[新增更新]。**&#x200B;**
+1. 將游標暫留在名稱上，然後按一下[新增更新]。****
    ![新增更新](assets/add-update.png)
    <!--new screen for prod ![Update](assets/update-log-upload.png)-->
 1. 開始輸入您的註解。
@@ -96,7 +100,7 @@ ht-degree: 3%
 1. 在熒幕右下角找到&#x200B;**更新**&#x200B;區域。
 1. （選擇性）使用&#x200B;**註解**&#x200B;標籤檢視其他人對工作專案所做的更新。
 1. （選擇性）使用&#x200B;**系統活動**&#x200B;標籤檢視與工作專案相關的系統活動。
-1. （選擇性）若要新增註解，請前往&#x200B;**註解**&#x200B;索引標籤，並開始輸入&#x200B;**新註解**&#x200B;方塊。完成時，請按一下&#x200B;**提交**。
+1. （選擇性）若要新增註解，請前往&#x200B;**註解**&#x200B;索引標籤，並開始輸入&#x200B;**新註解**&#x200B;方塊。 完成時，請按一下&#x200B;**提交**。
    ![更新區域](assets/updates-area-in-overview.png)
 
 ## 回複評論

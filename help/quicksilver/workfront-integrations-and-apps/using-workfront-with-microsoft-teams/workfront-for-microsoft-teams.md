@@ -3,27 +3,31 @@ content-type: overview
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
 title: 適用於Microsoft Teams的Adobe Workfront概觀
-description: 身為團隊擁有者，您可以為團隊安裝 [!DNL Adobe Workfront for Microsoft Teams] 應用程式。
+description: 身為團隊擁有者，您可以為團隊安裝[!DNL Adobe Workfront for Microsoft Teams]應用程式。
 author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 88b05a70-a304-461d-bab3-21d328c9356e
-TQID: https://experienceleague.adobe.com/-TF4rHMmoe23rKUxhaxWI5zkioK7JHJENK-vBWaihrU
+TQID: 'https://experienceleague.adobe.com/-TF4rHMmoe23rKUxhaxWI5zkioK7JHJENK-vBWaihrU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+    internal-label: Adobe Workfront for Microsoft Teams
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 406
+source-wordcount: '407'
 ht-degree: 0%
-
 ---
-
 # [!DNL Adobe Workfront for Microsoft Teams] 概觀
 
 >[!IMPORTANT]

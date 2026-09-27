@@ -9,26 +9,33 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 085b0f04-5a9c-49b9-86d7-2363731ee067
-source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 0%
-
+source-wordcount: '464'
+ht-degree: 2%
 ---
-
 # 比較不同環境之間的物件
 
 您可以比較環境之間的物件，以確保您的環境推進套件包含您需要的物件。
 
 您可以選取要比較的環境和物件型別。 Workfront會比較兩個環境中所選型別的所有物件，並顯示物件差異的相關資料。
 
-## 存取需求
+## 存取權要求
 
 您必須具備下列條件：
 
 <table>
   <tr>
-   <td>Adobe Workfront套件
+   <td>Adobe Workfront 封裝
    </td>
    <td> <p>Prime或Ultimate</p>
    </td>
@@ -76,7 +83,7 @@ ht-degree: 0%
 
 ![比較範例](assets/environment-promotion-comparison.png)
 
-在此範例中：
+在此範例中，
 
 * 第一行顯示存在於目標環境中，但與來源環境不同的物件。
 * 第二行顯示存在於目標環境中的物件，與來源環境中的物件相同。

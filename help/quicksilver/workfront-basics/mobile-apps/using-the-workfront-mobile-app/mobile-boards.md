@@ -2,22 +2,25 @@
 product-previous: mobile
 navigation-topic: mobile-apps
 title: 適用於行動裝置的Adobe Workfront展示板
-description: 在 [!DNL Workfront] 行動應用程式中，您可以看到您已建立或已加入案頭版 [!DNL Workfront]的所有主機板。
+description: 在[!DNL Workfront]行動應用程式中，您可以看到您已建立或已新增至案頭版[!DNL Workfront]的所有主機板。
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 34a009f6-6b4f-43ee-9689-2b9d1876db07
-TQID: https://experienceleague.adobe.com/ZwsNEdfQOIponHOPGKgux7II5ovrFo5glAq2lWXRHcE
+TQID: 'https://experienceleague.adobe.com/ZwsNEdfQOIponHOPGKgux7II5ovrFo5glAq2lWXRHcE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1047
+source-wordcount: '1074'
 ht-degree: 0%
-
 ---
-
 # [!DNL Adobe Workfront]行動裝置的[!UICONTROL 展示板]
 
 [!DNL Adobe Workfront] [!UICONTROL 看板]是彈性工具，可提供包含欄和卡片的共用看板的存取權，以允許團隊共同作業。 如需面板的其他相關資訊，請參閱[面板概述](/help/quicksilver/agile/boards-overview.md)。
@@ -30,7 +33,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->目前，行動應用程式支援所有型別的面板&#x200B;**&#x200B;**&#x200B;版序處理程式面板除外。
+>目前，行動應用程式支援所有型別的面板&#x200B;****&#x200B;版序處理程式面板除外。
 
 ## 檢視和篩選看板清單
 
@@ -138,6 +141,6 @@ ht-degree: 0%
 1. 在方塊中輸入搜尋字詞，然後選取&#x200B;[!UICONTROL **完成**]&#x200B;或![完成圖示](assets/mobile-apply-icon-checkmark.png)。
 
    標題中包含搜尋字詞的所有卡片都會顯示。
-選取X以清除搜尋。
+   選取X以清除搜尋。
 
    ![搜尋卡片](assets/mobile-search-for-card.png)

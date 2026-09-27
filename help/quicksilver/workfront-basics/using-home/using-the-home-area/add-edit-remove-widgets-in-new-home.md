@@ -6,18 +6,21 @@ description: 您可以從多個Widget中進行選擇，以自訂首頁上顯示�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 81f32dfe-cde0-4e61-a542-9b99a18a3953
-TQID: https://experienceleague.adobe.com/L9mVwCYmv2KOs2OKFlubf3MxjeRdthyE6prepRWebGc
+TQID: 'https://experienceleague.adobe.com/L9mVwCYmv2KOs2OKFlubf3MxjeRdthyE6prepRWebGc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1123
+source-wordcount: '1123'
 ht-degree: 6%
-
 ---
-
 # 新增、編輯或移除首頁中的Widget
 
 <!-- Audited: 4/2025 -->
@@ -88,7 +91,7 @@ ht-degree: 6%
 
 ## 將Widget新增至首頁
 
-Widget是Home的基礎。 將Widget新增至首頁後，您就可以選擇最符合您工作需求的資訊型別。 某些Widget僅適用於特定授權型別，因為它們追蹤的物件僅適用於這些授權。 如需詳細資訊，請參閱上面特定授權型別[&#128279;](#widgets-available-for-specific-license-types)可用的Widget。
+Widget是Home的基礎。 將Widget新增至首頁後，您就可以選擇最符合您工作需求的資訊型別。 某些Widget僅適用於特定授權型別，因為它們追蹤的物件僅適用於這些授權。 如需詳細資訊，請參閱上面特定授權型別](#widgets-available-for-specific-license-types)可用的[Widget。
 
 新增Widget：
 
@@ -124,9 +127,9 @@ Widget是Home的基礎。 將Widget新增至首頁後，您就可以選擇最符
 
    * **我的核准**\
        顯示所有待指派或委派的核准、用於委派核准的按鈕，以及用於直接在小工具中做出核准決策的按鈕。 核准的順序如下：
-      * 逾期截止日期
-      * 近期截止日期
-      * 無截止日期的專案
+     * 逾期截止日期
+     * 近期截止日期
+     * 無截止日期的專案
 
    * **檔案核准量度**\
            顯示2個圖表，內含平均核准時間和決定的相關資訊，以及擱置和逾期核准的清單檢視。 您必須啟用[整合式核准](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)，才能使用此Widget。
@@ -173,4 +176,4 @@ Widget是Home的基礎。 將Widget新增至首頁後，您就可以選擇最符
 
    ![自訂按鈕](assets/customize-button.png)
 
-1. 在「**自訂**」面板的「**背景**」區段中，按一下您要為「首頁」背景選取的色彩。 您也可以按一下[無]來移除背景。**&#x200B;**
+1. 在「**自訂**」面板的「**背景**」區段中，按一下您要為「首頁」背景選取的色彩。 您也可以按一下[無]來移除背景。****

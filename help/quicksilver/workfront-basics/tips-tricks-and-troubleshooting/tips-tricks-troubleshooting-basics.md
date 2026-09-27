@@ -1,24 +1,28 @@
 ---
-title: ' [!DNL Adobe Workfront]的秘訣、技巧和疑難排解：文章索引'
+title: '[!DNL Adobe Workfront]的秘訣、技巧和疑難排解：文章索引'
 description: 請參閱本節中的文章，了解疑難排解秘訣並尋找常見問題的解答。
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 89a1ac84-123b-487e-8c91-615a36e246c3
-TQID: https://experienceleague.adobe.com/sXCgHiht9i9Xf9SAJzX-yhV1DdbyKW-pDI8d1R9W7O8
+TQID: 'https://experienceleague.adobe.com/sXCgHiht9i9Xf9SAJzX-yhV1DdbyKW-pDI8d1R9W7O8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 5fc376d5e3fe8ab6e137d87f3ad0f57c06874d3d
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 109
+source-wordcount: '109'
 ht-degree: 0%
-
 ---
-
 # [!DNL Adobe Workfront]的秘訣、技巧和疑難排解：文章索引
 
 <!--Audited: 5/2025-->
@@ -27,8 +31,8 @@ ht-degree: 0%
 
 * [在 [!DNL Adobe Workfront]中尋找說明的快速指南](../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
 * [聯絡客戶支援](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)
-* [&#x200B; [!DNL Adobe Workfront] 社群](../../workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md)
-* [&#x200B; [!DNL Adobe Workfront] 狀態網站](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)
+* [ [!DNL Adobe Workfront] 社群](../../workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md)
+* [ [!DNL Adobe Workfront] 狀態網站](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)
 * [[!UICONTROL 創新實驗室]](../../workfront-basics/tips-tricks-and-troubleshooting/idea-exchange.md)
 * [跨時區工作](../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md)
 * [[!DNL Workfront] [!UICONTROL 校訂管理員]許可權疑難排解](../../workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)

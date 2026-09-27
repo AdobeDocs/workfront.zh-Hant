@@ -8,26 +8,35 @@ recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/GHx5HHn781v3Ut86bfjj6xJ5gwomendbp-N6a8Q1tJY
+TQID: 'https://experienceleague.adobe.com/GHx5HHn781v3Ut86bfjj6xJ5gwomendbp-N6a8Q1tJY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1364
+source-wordcount: '1364'
 ht-degree: 2%
-
 ---
-
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # 當您將Workfront物件連線至記錄時，從Workfront Planning建立它們
@@ -235,7 +244,7 @@ Old:
 
 1. （視條件而定）按一下&#x200B;**新增專案**
 或
-開始輸入專案名稱，如果找不到，請按一下[新增專案]。 **&#x200B;**「新增」按鈕後面接著您輸入的專案名稱。
+開始輸入專案名稱，如果找不到，請按一下[新增專案]。 ****「新增」按鈕後面接著您輸入的專案名稱。
 
    ![從連線欄位連線時新增專案](assets/add-project-when-connecting-it-from-connection-field.png)
 
@@ -283,7 +292,7 @@ Old:
 
    或
 
-   開始輸入投資組合的名稱，如果找不到，請按一下[新增投資組合] **&#x200B;**。 「新增」按鈕後面接著您輸入的投資組合名稱。
+   開始輸入投資組合的名稱，如果找不到，請按一下[新增投資組合] ****。 「新增」按鈕後面接著您輸入的投資組合名稱。
 
    ![從連線欄位連線時新增投資組合](assets/add-portfolio-when-connecting-it-from-connection-field.png)
 
@@ -303,7 +312,7 @@ Old:
 
    或
 
-   開始輸入方案的名稱，如果找不到，請按一下[新增方案] **&#x200B;**。 新增按鈕後面接著您輸入的程式名稱。
+   開始輸入方案的名稱，如果找不到，請按一下[新增方案] ****。 新增按鈕後面接著您輸入的程式名稱。
 
    ![從連線欄位連線時新增Workfront程式](assets/add-wf-program-when-connecting-it-from-connection-field.png)
 

@@ -7,35 +7,44 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/m4amFCjnBO9g2tk87JujNSdAQ4g4TPzkL-OXgcye-2w
+TQID: 'https://experienceleague.adobe.com/m4amFCjnBO9g2tk87JujNSdAQ4g4TPzkL-OXgcye-2w'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347b94801a86f3357b46da4955605a9742b6cf83
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2620
+source-wordcount: '2643'
 ht-degree: 4%
-
 ---
-
 # 2026年第二季版本總覽
 
 本頁提供預定於2026年4月發行的2026年第二季度中所包含功能的相關資訊。
 
 此頁面上的增強功能可在預覽環境中取得。 此頁面將在2026年第二季版本接近其計畫生產版本時以其他增強功能更新。
 
-每個季度版本都會舉辦即時網路研討會，強調新功能並提供詳細資訊。 若要註冊，請造訪[事件頁面](https://experienceleague.adobe.com/zh-hant/events?filters=Workfront)並篩選Workfront。
+每個季度版本都會舉辦即時網路研討會，強調新功能並提供詳細資訊。 若要註冊，請造訪[事件頁面](https://experienceleague.adobe.com/en/events?filters=Workfront)並篩選Workfront。
 
 >[!IMPORTANT]
 >
@@ -83,7 +92,7 @@ ht-degree: 4%
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">已更新時區名稱</a><p>[!BADGE Off Schedule]{type=Neutral}</p><p>我們已更新Workfront中可用的時區，以遵循IANA標準。 這可確保與其他系統的相容性，並可確保一段時間內的準確性。</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">已更新時區名稱</a><p>[！BADGE Off Schedule]{type=Neutral}</p><p>我們已更新Workfront中可用的時區，以遵循IANA標準。 這可確保與其他系統的相容性，並可確保一段時間內的準確性。</p>
         </td>
         <td><p>2026年3月27日</p></td>
         <td><p>2026年3月27日</p></td>
@@ -262,7 +271,7 @@ ht-degree: 4%
         <td><strong>每季</strong></td>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">當和單一或大量指派範本任務時更新體驗</a><p>[!BADGE Off Schedule]{type=Neutral}</p><p> 編輯單一範本任務或大量編輯範本任務時，我們已更新「編輯範本任務」方塊中的「工作總攬」區段。  </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md" class="MCXref xref" xrefformat="{para}">當和單一或大量指派範本任務時更新體驗</a><p>[！BADGE Off Schedule]{type=Neutral}</p><p> 編輯單一範本任務或大量編輯範本任務時，我們已更新「編輯範本任務」方塊中的「工作總攬」區段。  </p>
         </td>
         <td><p>2026年2月5</p></td>
         <td><p>自2026年2月5日起</p></td>
@@ -270,7 +279,7 @@ ht-degree: 4%
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">單一或大量指派任務時更新體驗</a><p>[!BADGE Off Schedule]{type=Neutral}</p><p> 編輯單一任務或大量編輯任務時，我們已更新「編輯任務」方塊中的「工作總攬」區段。 </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">單一或大量指派任務時更新體驗</a><p>[！BADGE Off Schedule]{type=Neutral}</p><p> 編輯單一任務或大量編輯任務時，我們已更新「編輯任務」方塊中的「工作總攬」區段。 </p>
         </td>
         <td><p>2026年1月26日</p></td>
         <td><p>自2026年2月5日起</p></td>
@@ -515,7 +524,7 @@ Workfront API版本21已於2025年10月23日發行。 針對API 21版，我們�
 >
 > 若為多選欄位，事件訂閱版本2一律會以陣列形式傳送。 如果選取多個值，第1版會傳送陣列。 如果只選取一個值，則會傳送字串。
 
-如需新增和更新的詳細資訊，請參閱[&#x200B; API 21](/help/quicksilver/wf-api/api/new-api-version-21.md)版的新增功能。
+如需新增和更新的詳細資訊，請參閱[ API 21](/help/quicksilver/wf-api/api/new-api-version-21.md)版的新增功能。
 
 如需API版本的資訊，請參閱[API版本設定與支援排程](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
 
@@ -528,15 +537,15 @@ Workfront API版本21已於2025年10月23日發行。 針對API 21版，我們�
 * 適用於Salesforce的Workfront。
 
 為了滿足貴組織與Google Workspace的整合需求，我們建議您使用Workfront自動化和整合。
-如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 
 
 ### Workfront 維護更新
 
-如需2026年第二季期間所進行維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hant)。
+如需2026年第二季期間所進行維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html)。
 
 ### 訓練更新
 
-探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hant)的「新增功能」一節。
+探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的「新增功能」一節。
 
 

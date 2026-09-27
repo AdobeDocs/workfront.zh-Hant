@@ -6,22 +6,26 @@ description: 從專案清單存取[!UICONTROL 專案]後，您可以透過將Wid
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 593dc4a2-20aa-44d3-b819-1d4b160095ed
-TQID: https://experienceleague.adobe.com/KMG0J4jmlcpxiHnsGTvB-pqm4IIYRDbt2p3hemysY2M
+TQID: 'https://experienceleague.adobe.com/KMG0J4jmlcpxiHnsGTvB-pqm4IIYRDbt2p3hemysY2M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 517
+source-wordcount: '517'
 ht-degree: 4%
-
 ---
-
 # 更新[!UICONTROL 專案詳細資料]檢視中的Widget
 
 從專案清單存取[!UICONTROL 專案]後，您可以透過將Widget新增至您的[!UICONTROL 專案詳細資料]畫面來檢視該專案的其他資訊。 每個使用者都可以自訂自己的Widget。
@@ -78,8 +82,8 @@ ht-degree: 4%
    * **[!UICONTROL 任務進度]**：在圓餅圖中[!UICONTROL 進度狀態]顯示專案中的所有任務。
    * **[!UICONTROL 近期任務]**：顯示最多6個近期任務。 Widget會依下列順序排序專案任務：
 
-      * 首先，在[!UICONTROL 預估到期日]之前
-      * 第二，依[!UICONTROL 工作分解結構]
+     * 首先，在[!UICONTROL 預估到期日]之前
+     * 第二，依[!UICONTROL 工作分解結構]
 
      它會顯示最後兩個完成任務（如果適用）和接下來的4個任務。 若要瞭解[!DNL Workfront]檢視行動應用程式中將會顯示哪些任務，您可以為您檢視的專案建立任務報告，並依「預估到期日」及「[!DNL Workfront]劃分結構」進行排序。 前6個任務將列於[!UICONTROL 近期]任務Widget的「Workfront檢視」行動應用程式中。
 
@@ -88,17 +92,17 @@ ht-degree: 4%
 
      您可以使用[!DNL Workfront View]開啟下列檔案格式：
 
-      * 所有文字檔案
-      * .pdf
-      * 影像檔案（.jpg、.jpeg、.png等）
-      * .xls
+     * 所有文字檔案
+     * .pdf
+     * 影像檔案（.jpg、.jpeg、.png等）
+     * .xls
    * **[!UICONTROL 詳細資料]**：顯示專案的下列詳細資料：
 
-      * 專案名稱
-      * 專案建立者的名稱
-      * 專案狀態
-      * 專案群組
-      * 專案排程
+     * 專案名稱
+     * 專案建立者的名稱
+     * 專案狀態
+     * 專案群組
+     * 專案排程
    * **[!UICONTROL 團隊]**：顯示專案團隊中的使用者名稱。\
 
      如需專案團隊的詳細資訊，請參閱[專案團隊概述](../../../manage-work/projects/planning-a-project/project-team-overview.md)。

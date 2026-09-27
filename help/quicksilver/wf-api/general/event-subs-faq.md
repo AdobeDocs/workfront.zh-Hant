@@ -7,22 +7,26 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
-TQID: https://experienceleague.adobe.com/sNnNP1IaqwE6GWsUDIKqOABzWgeeKusV73Uyf8s67Mk
+TQID: 'https://experienceleague.adobe.com/sNnNP1IaqwE6GWsUDIKqOABzWgeeKusV73Uyf8s67Mk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 987
+source-wordcount: '987'
 ht-degree: 0%
-
 ---
-
 # 常見問題集 — 事件訂閱
 
 <!--
@@ -70,16 +74,16 @@ ht-degree: 0%
 * 大型專案上長期執行的計算或時間表計算，可能導致發佈至事件訂閱的訊息發生延遲，進而耗用。
 * 訂閱可能已停用。
 
-   * 在100則訊息的寬限期後，如果特定URL （可能與一或多個訂閱相關聯）超過70%的時間失敗，或該URL在2000次連續嘗試後無法傳送，則不會嘗試傳送與同一URL的訂閱相符的所有訊息。 相反地，這些訊息會立即排入重試佇列。
+  * 在100則訊息的寬限期後，如果特定URL （可能與一或多個訂閱相關聯）超過70%的時間失敗，或該URL在2000次連續嘗試後無法傳送，則不會嘗試傳送與同一URL的訂閱相符的所有訊息。 相反地，這些訊息會立即排入重試佇列。
 
-     URL停用後，每隔10分鐘，我們都會嘗試傳送進入處理的下一個訊息。 如果訊息成功，我們會重新啟用該URL及後續的任何相符訂閱。 如果該訊息無法傳送，該10分鐘計時器會重設，我們會在訊息過期後重試。
+    URL停用後，每隔10分鐘，我們都會嘗試傳送進入處理的下一個訊息。 如果訊息成功，我們會重新啟用該URL及後續的任何相符訂閱。 如果該訊息無法傳送，該10分鐘計時器會重設，我們會在訊息過期後重試。
 
-     此行為可能會被視為不一致性或延遲傳送，但只會遵循我們處理事件訂閱訊息的原則。
+    此行為可能會被視為不一致性或延遲傳送，但只會遵循我們處理事件訂閱訊息的原則。
 
-   * 如果符合下列任一條件，事件訂閱URL將會被硬停用：
+  * 如果符合下列任一條件，事件訂閱URL將會被硬停用：
 
-      * 訂閱URL已有7天無法傳送，且在過去72小時內已嘗試傳送至少2000次失敗。
-      * 訂閱URL無法傳送50,000次連續嘗試。
+    * 訂閱URL已有7天無法傳送，且在過去72小時內已嘗試傳送至少2000次失敗。
+    * 訂閱URL無法傳送50,000次連續嘗試。
 
 ## 如果在嘗試呼叫事件訂閱API時收到500回應狀態，怎麼辦？
 

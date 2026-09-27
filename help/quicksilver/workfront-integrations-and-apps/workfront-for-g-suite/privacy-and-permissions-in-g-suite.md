@@ -10,26 +10,33 @@ recommendations: noDisplay, noCatalog
 exl-id: abb8ffa1-1da6-46dd-a929-18b17014839a
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/sQtJE7xx-1EXU5o8inetuH-Xnl5ZX0geXdETjuz9DaI
+TQID: 'https://experienceleague.adobe.com/sQtJE7xx-1EXU5o8inetuH-Xnl5ZX0geXdETjuz9DaI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+    internal-label: APIs
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: bbf3fe51-0066-4980-9062-f8005585ee10
+    internal-label: Adobe Workfront for Google Workspace
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Privacy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 191
+source-wordcount: '191'
 ht-degree: 0%
-
 ---
-
 # 適用於Google Workspace的Workfront中的隱私權與許可權
 
 >[!IMPORTANT]
@@ -42,9 +49,9 @@ ht-degree: 0%
 >
 >為了滿足貴組織與Google Workspace的整合需求，我們建議您使用Workfront自動化和整合。
 >
->如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 >
->如需Google Workspace之Workfront自動化與整合模組的特定功能相關資訊，請參閱[Gmail模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)和[Google行事曆模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)。
+>如需Google Workspace之Workfront自動化與整合模組的特定功能相關資訊，請參閱[Gmail模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)和[Google行事曆模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)。
 
 <!--
 

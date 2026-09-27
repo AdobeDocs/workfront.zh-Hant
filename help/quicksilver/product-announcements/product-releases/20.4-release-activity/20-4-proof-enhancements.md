@@ -6,22 +6,28 @@ draft: Probably
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: 0469ac71-66d1-4651-918a-99f2b6038b7c
-TQID: https://experienceleague.adobe.com/IRPhk2-nibgfScgrDT-RhaJpnTzCuALw0A6KT9EeIPM
+TQID: 'https://experienceleague.adobe.com/IRPhk2-nibgfScgrDT-RhaJpnTzCuALw0A6KT9EeIPM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 273
+source-wordcount: '273'
 ht-degree: 0%
-
 ---
-
 # 20.4校訂增強功能
 
 本頁說明預覽環境的20.4版本所做的所有校訂增強功能。 這些增強功能將在2020年11月9日當週的生產環境中提供。

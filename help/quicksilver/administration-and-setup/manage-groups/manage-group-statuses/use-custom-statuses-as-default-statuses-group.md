@@ -8,22 +8,28 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51018635-cd9a-402d-a136-c5bec4707cda
-TQID: https://experienceleague.adobe.com/wW7AdemSW4-KDj--r6Cy4K93tSWVTQKatStDKEKRChE
+TQID: 'https://experienceleague.adobe.com/wW7AdemSW4-KDj--r6Cy4K93tSWVTQKatStDKEKRChE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 664
+source-wordcount: '664'
 ht-degree: 3%
-
 ---
-
 # 使用自訂狀態作為群組的預設狀態
 
 作為群組管理員，您可以將自訂狀態設定為您管理的群組或子群組的預設狀態。 當系統需要自動將Workfront狀態指派給專案、任務或問題時，這將很有用。 專案、任務或問題一律會顯示您設定為預設狀態的自訂狀態，而不是顯示其所對應的Workfront狀態。
@@ -97,7 +103,7 @@ ht-degree: 3%
    >如果您將專案指派給不同的群組，專案狀態將會重新載入並可能變更。
 
    1. 前往您要使用自訂狀態的專案。
-   1. 按一下[更多]功能表![更多圖示](assets/more-icon.png)，然後按一下[編輯]&#x200B;**&#x200B;**。
+   1. 按一下[更多]功能表![更多圖示](assets/more-icon.png)，然後按一下[編輯]****。
    1. 在顯示的&#x200B;**編輯專案**&#x200B;方塊中，在&#x200B;**專案關聯**&#x200B;下的&#x200B;**群組**&#x200B;欄位中，選取自訂狀態關聯的群組。
 
    1. 按一下「**儲存變更**」。

@@ -6,27 +6,37 @@ description: 核准工作
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-TQID: https://experienceleague.adobe.com/dr9JkMk-s8-aartIC4j1N0uZOYOZwx96-xYdXC01fkU
+TQID: 'https://experienceleague.adobe.com/dr9JkMk-s8-aartIC4j1N0uZOYOZwx96-xYdXC01fkU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 829
+source-wordcount: '851'
 ht-degree: 3%
-
 ---
-
 # 核准工作
 
 <!--
@@ -136,13 +146,13 @@ ht-degree: 3%
          <ul>
          <li>完成我的審閱</li>
          </ul>
-      此欄中的選項僅適用於整合式核准。舊版檔案核准看起來與工作專案核准相同。 
+      此欄中的選項僅適用於整合式核准。 舊版檔案核准看起來與工作專案核准相同。 
       </td>
       <td>
          <ul>
          <li>前往校訂</li>
          </ul>
-         您會在校訂檢視器中做出決定。如需檢閱校訂的相關資訊，請參閱<a href="../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md">在Adobe Workfront中檢閱校訂</a>。
+         您會在校訂檢視器中做出決定。 如需檢閱校訂的相關資訊，請參閱<a href="../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md">在Adobe Workfront中檢閱校訂</a>。
       </td>
    </tr>
    </table>

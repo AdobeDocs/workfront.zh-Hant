@@ -7,20 +7,29 @@ description: 本頁說明2021年4月5日當週預覽環境中Adobe Workfront目�
 author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: 8439b983-7817-403e-b9be-dcbf209ad3ee
-TQID: https://experienceleague.adobe.com/VdhBiPRva31ng8RvVFsjJptXmOw-4xom3W-uvTkkfic
+TQID: 'https://experienceleague.adobe.com/VdhBiPRva31ng8RvVFsjJptXmOw-4xom3W-uvTkkfic'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 385
+source-wordcount: '385'
 ht-degree: 1%
-
 ---
-
 # Adobe Workfront Goals 21.2發行活動： 2021年4月5日當週
 
 本頁說明2021年4月5日當週預覽環境中Adobe Workfront目標的21.2版本所做的所有增強功能。 這些增強功能將於21.2第一季在生產環境中推出。
@@ -41,15 +50,15 @@ ht-degree: 1%
 
 * 建立目標報表。 這是「報表」區域中的新報表物件。 您現在可以在「目標」報表中顯示目標的各種相關資訊（例如：名稱、擁有者、日期、進度等），其中包括：
 
-   * 目標階層：顯示所有上層目標以及它們如何相互連線。
-   * 是公司目標：指出您的組織是否指定為目標的擁有者
-   * 擁有者型別：指出目標的擁有者是否為使用者、團隊或群組。
+  * 目標階層：顯示所有上層目標以及它們如何相互連線。
+  * 是公司目標：指出您的組織是否指定為目標的擁有者
+  * 擁有者型別：指出目標的擁有者是否為使用者、團隊或群組。
 
 * 建立可顯示目標資訊的專案報告，包括下列專案：
 
-   * 目標層級
-   * 目標：此集合欄位會顯示與專案相關聯的所有目標。
-   * 連結的目標數：與專案相關聯的目標數。
+  * 目標層級
+  * 目標：此集合欄位會顯示與專案相關聯的所有目標。
+  * 連結的目標數：與專案相關聯的目標數。
 
 如需有關尋找專案目標資訊的資訊，請參閱[在Adobe Workfront目標中新增專案](../../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)。
 

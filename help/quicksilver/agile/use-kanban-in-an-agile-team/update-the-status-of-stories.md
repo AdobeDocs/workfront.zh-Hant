@@ -6,15 +6,25 @@ description: 您可以直接從Kanban面板變更內文的狀態，以反映內�
 author: Courtney
 feature: Agile
 exl-id: fd75ab8e-08c4-4643-bc67-aada5b5c005e
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '215'
 ht-degree: 9%
-
 ---
-
 # 更新[!UICONTROL Kanban]展示板上內文的狀態
 
 您可以直接從[!UICONTROL Kanban]面板變更內文的狀態，以反映內文的進度。

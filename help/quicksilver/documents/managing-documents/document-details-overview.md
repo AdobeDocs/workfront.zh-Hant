@@ -9,18 +9,24 @@ feature: Digital Content and Documents
 exl-id: 69f0560f-8612-431d-9765-0216bf47d8b0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/k4qFA-R7MGSh5NBTbJCeOEac5Z30PVxzO8rxLRJi23Q
+TQID: 'https://experienceleague.adobe.com/k4qFA-R7MGSh5NBTbJCeOEac5Z30PVxzO8rxLRJi23Q'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 5fe8f3a46e3582a359b8d4641a7062b0590ea0b8
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 474
+source-wordcount: '474'
 ht-degree: 1%
-
 ---
-
 # 檔案詳細資訊總覽
 
 「檔案詳細資訊」頁面可讓您檢視、傳達及管理附加至Adobe Workfront物件的檔案屬性。

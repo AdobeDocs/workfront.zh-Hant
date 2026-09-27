@@ -6,22 +6,26 @@ description: 作為 Adobe Workfront 管理員，您可以在指派使用者的�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-TQID: https://experienceleague.adobe.com/UdZkAKoT2k4LGePdElrTm1IlstQ1ayWesarebExA41E
+TQID: 'https://experienceleague.adobe.com/UdZkAKoT2k4LGePdElrTm1IlstQ1ayWesarebExA41E'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 596
+source-wordcount: '596'
 ht-degree: 14%
-
 ---
-
 # 共用範本
 
 作為 Adobe Workfront 管理員，您可以在指派使用者的存取層級時，授予他們檢視或編輯範本的權限。 使用者必須擁有「標準」或「計畫」授權，才能存取「編輯範本」。
@@ -42,18 +46,18 @@ ht-degree: 14%
 * 根據預設，範本的建立者以及範本擁有者具有範本的管理許可權。 如需有關指定使用者為範本擁有者的資訊，請參閱[編輯專案範本](../../manage-work/projects/create-and-manage-templates/edit-templates.md)。
 * 共用範本時，您可以共用下列專案：
 
-   * 範本
+  * 範本
 
-     如需如何共用範本的詳細資訊，請參閱[共用專案範本](../../manage-work/projects/create-and-manage-templates/share-project-template.md)。
+    如需如何共用範本的詳細資訊，請參閱[共用專案範本](../../manage-work/projects/create-and-manage-templates/share-project-template.md)。
 
-     您可以將下列許可權授與範本：
+    您可以將下列許可權授與範本：
 
-      * 檢視
-      * 管理
+    * 檢視
+    * 管理
 
-   * 使用範本建立的未來專案。 您可以對使用範本建立的專案賦予與個別專案相同的許可權層級。
+  * 使用範本建立的未來專案。 您可以對使用範本建立的專案賦予與個別專案相同的許可權層級。
 
-     若要瞭解如何在範本層級共用範本中的專案，請參閱[共用專案範本](../../manage-work/projects/create-and-manage-templates/share-project-template.md)。
+    若要瞭解如何在範本層級共用範本中的專案，請參閱[共用專案範本](../../manage-work/projects/create-and-manage-templates/share-project-template.md)。
 
 * 當您共用範本或從範本建立的專案時，使用者預設會繼承與範本或專案相關聯的所有子物件的相同許可權。
 

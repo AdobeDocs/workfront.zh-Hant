@@ -8,20 +8,28 @@ author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 0cd407f6-2593-4de8-9456-c26ba231e482
-TQID: https://experienceleague.adobe.com/fl-BzJ--JWaqu0Y9lZ5Ri-1cCA59VOrkPiZt8YBE4wI
+TQID: 'https://experienceleague.adobe.com/fl-BzJ--JWaqu0Y9lZ5Ri-1cCA59VOrkPiZt8YBE4wI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 234
+source-wordcount: '234'
 ht-degree: 0%
-
 ---
-
 # 21.1整合增強功能
 
 本頁說明21.1版對預覽環境所做的所有整合增強功能。 這些增強功能將在2021年2月15日當週的生產環境中提供。

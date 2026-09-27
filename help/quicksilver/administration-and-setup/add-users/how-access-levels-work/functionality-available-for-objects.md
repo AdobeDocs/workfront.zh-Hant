@@ -10,29 +10,39 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-TQID: https://experienceleague.adobe.com/nh6fCYhtqUcPipkWTi6Vw6cUwwNH2ONGN45VUI0YzuM
+TQID: 'https://experienceleague.adobe.com/nh6fCYhtqUcPipkWTi6Vw6cUwwNH2ONGN45VUI0YzuM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1447
+source-wordcount: '1447'
 ht-degree: 18%
-
 ---
-
 # 適用於每種物件型別的功能
 
 >[!NOTE]
@@ -46,7 +56,7 @@ ht-degree: 18%
 >[!NOTE]
 >
 >* 本文說明新Workfront套件模型中可用於存取層級的功能。 若要檢視目前封裝模型中可用的功能，請參閱[各種存取層級中每種物件型別的可用功能](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)。
->* 如需最新模式中不同套件可用的功能清單，請參閱[Adobe Workfront定價與封裝](https://business.adobe.com/tw/products/workfront/pricing.html)。
+>* 如需最新模式中不同套件可用的功能清單，請參閱[Adobe Workfront定價與封裝](https://business.adobe.com/products/workfront/pricing.html)。
 
 ## 專案
 
@@ -285,7 +295,7 @@ ht-degree: 18%
 | 編輯、刪除、停用、登入身份或重設其管理的群組之任何使用者的密碼 | ✓* |   |   |   |
 | 檢視使用者 | ✓ | ✓ | ✓ |   |
 | 檢視聯絡資訊 | ✓ | ✓ | ✓ |   |
-| 檢視計費率 | ✓* |   |   |   |
+| 檢視計費費率 | ✓* |   |   |   |
 | 檢視成本率 | ✓* |   |   |   |
 | 檢視一般財務 | ✓* |   |   |   |
 
@@ -306,7 +316,7 @@ ht-degree: 18%
 | 編輯計費費率 | ✓* |   |   |   |
 | 編輯成本費率 | ✓* |   |   |   |
 | 編輯一般財務 | ✓* |   |   |   |
-| 檢視計費率 | ✓* |   |   |   |
+| 檢視計費費率 | ✓* |   |   |   |
 | 檢視成本率 | ✓* |   |   |   |
 | 檢視一般財務 | ✓* |   |   |   |
 
@@ -388,7 +398,7 @@ ht-degree: 18%
 | 編輯計費費率 | ✓&#42; |   |   |   |
 | 編輯成本費率 | ✓&#42; |   |   |   |
 | 編輯一般財務 | ✓&#42; |   |   |   |
-| 檢視計費率 | ✓&#42; | ✓&#42; |   |   |
+| 檢視計費費率 | ✓&#42; | ✓&#42; |   |   |
 | 檢視成本率 | ✓&#42; | ✓&#42; |   |   |
 | 檢視一般財務 | ✓&#42; | ✓&#42; |   |   |
 | 管理計費記錄 | ✓ |   |   |   |

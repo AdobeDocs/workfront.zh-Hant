@@ -8,22 +8,31 @@ description: 校樣建立者建立校樣後，才會向校樣建立者傳送電�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: a6bfe471-2032-4b74-8316-584f923e8651
-TQID: https://experienceleague.adobe.com/GmmKj5aqXNRDlKfo8BBcN7-6-jCtf2-8Dv4o2m1mPAY
+TQID: 'https://experienceleague.adobe.com/GmmKj5aqXNRDlKfo8BBcN7-6-jCtf2-8Dv4o2m1mPAY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 441
+source-wordcount: '441'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL 校訂已進行]電子郵件
 
 >[!IMPORTANT]
@@ -60,7 +69,7 @@ ht-degree: 0%
 
 ## 正在停用[!UICONTROL 校訂已製作]電子郵件
 
-1. 按一下&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 個人設定]**，開啟&#x200B;**[!UICONTROL 校訂預設值]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL 校訂就緒時電子郵件確認旁的**&#x200B;[!UICONTROL &#x200B;停用&#x200B;]&#x200B;**]**。
+1. 按一下&#x200B;**[!UICONTROL 設定]** > **[!UICONTROL 個人設定]**，開啟&#x200B;**[!UICONTROL 校訂預設值]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL 校訂就緒時電子郵件確認旁的**[!UICONTROL &#x200B;停用&#x200B;]**]**。
 
 1. ![Proof_Made_-_proofing_defaults.png](assets/proof-made---proofing-defaults-350x103.png)
 

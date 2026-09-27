@@ -9,21 +9,28 @@ recommendations: noDisplay, noCatalog
 exl-id: 3190ad18-180e-42e5-aa10-bdad74303d3d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/0ZlRTte93Fl8omBRbQH5ZkA-pr533lkPA9QvWY3d5H4
+TQID: 'https://experienceleague.adobe.com/0ZlRTte93Fl8omBRbQH5ZkA-pr533lkPA9QvWY3d5H4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0f42eb9e5d6723849e668e3cd29fad36d43294c3
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 626
+source-wordcount: '626'
 ht-degree: 3%
-
 ---
-
 # 使用Frame.io檢視器檢閱並核准
 
 {{highlighted-preview}}
@@ -82,7 +89,7 @@ ht-degree: 3%
 
 1. 移至您的檢閱電子郵件通知，然後按一下&#x200B;**移至檢閱**。
 或
-前往Workfront首頁，尋找「我的核准」Widget，然後按一下&#x200B;**開啟稽核**。
+前往Workfront首頁，尋找「我的核准」Widget，然後按一下**開啟稽核**。
 
    >[!NOTE]
    > 
@@ -104,7 +111,7 @@ ht-degree: 3%
 
 1. 移至您的檢閱電子郵件通知，然後按一下&#x200B;**移至檢閱**。
 或
-前往Workfront首頁，尋找「我的核准」Widget，然後按一下&#x200B;**開啟稽核**。
+前往Workfront首頁，尋找「我的核准」Widget，然後按一下**開啟稽核**。
 
    >[!NOTE]
    > 

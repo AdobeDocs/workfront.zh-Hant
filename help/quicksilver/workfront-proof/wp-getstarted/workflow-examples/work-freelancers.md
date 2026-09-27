@@ -3,25 +3,34 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;user-management
 navigation-topic: workflow-examples
-title: 使用 [!DNL Workfront Proof]中的自由譯者
-description: 如果貴組織與自由譯者合作，您也可以將他們納入 [!DNL Workfront Proof] 程式。
+title: 與[!DNL Workfront Proof]中的自由譯者合作
+description: 如果貴組織與自由職業者合作，您也可以將他們加入您的[!DNL Workfront Proof]程式。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 8a792e74-4755-4237-8155-d54bbcd97496
-TQID: https://experienceleague.adobe.com/U4G0Tt1KZZXbwLk1SNyRTIBEzEerq6izTDOznYVwMzk
+TQID: 'https://experienceleague.adobe.com/U4G0Tt1KZZXbwLk1SNyRTIBEzEerq6izTDOznYVwMzk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
+    internal-label: Privacy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 931
+source-wordcount: '932'
 ht-degree: 0%
-
 ---
-
 # 與[!DNL Workfront Proof]中的自由譯者合作
 
 >[!IMPORTANT]

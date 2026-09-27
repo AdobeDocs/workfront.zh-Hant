@@ -6,24 +6,29 @@ feature: Get Started with Workfront
 exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/NjEhz0XPK3AsV36PQ2LzU9cMROQyCLE-JPT-zYEpN8Q
+TQID: 'https://experienceleague.adobe.com/NjEhz0XPK3AsV36PQ2LzU9cMROQyCLE-JPT-zYEpN8Q'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 582
+source-wordcount: '582'
 ht-degree: 4%
-
 ---
-
 # 匯出自訂表單和物件詳細資料
 
 <!--Audited: 10/2025-->
@@ -134,7 +139,7 @@ Old:
 
    您最多可以新增10個表單。
 
-1. （選擇性）更新[詳細資料]區段中的資訊，然後按一下[儲存變更]。**&#x200B;**
+1. （選擇性）更新[詳細資料]區段中的資訊，然後按一下[儲存變更]。****
 1. 按一下右上角的&#x200B;**匯出**&#x200B;下拉式功能表，選取&#x200B;**概述**&#x200B;或您要匯出的表單，然後按一下&#x200B;**匯出**。
 
    如果您要匯出[概述]區域與所有自訂表格，您也可以選取&#x200B;**全選**。

@@ -4,13 +4,20 @@ description: 2026年第三季資源管理增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%
-
 ---
-
 # 2026年第三季資源管理增強功能
 
 此頁面說明2026年第三季度版本對「預覽」環境所做的「資源管理」增強功能。 如上所述，這些增強功能將於生產環境中提供。
@@ -21,7 +28,10 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->預覽： 2026年6月19日生產快速發行： 2026年6月19日每個人都要生產： 2026年6月19日不在排程&rbrack;{type=Neutral}內
+>預覽： 2026年6月19日
+>生產快速發行： 2026年6月19日
+>每個人都要生產： 2026年6月19日
+>[!BADGE 不在排程]{type=Neutral}內
 
 已在工作負載平衡器中簡化大量指派，其動作包括指派使用者和取代合併到&#x200B;**取代資源**&#x200B;動作中的使用者。
 

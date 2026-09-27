@@ -6,18 +6,26 @@ draft: Probably
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: fcf89bd6-0e07-42a7-9ae3-9a1309e51946
-TQID: https://experienceleague.adobe.com/IDspEIEFUjP23bvjd8BWJRdSzBCOFe5TLEJG7sguU5M
+TQID: 'https://experienceleague.adobe.com/IDspEIEFUjP23bvjd8BWJRdSzBCOFe5TLEJG7sguU5M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Developer
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 792
+source-wordcount: '792'
 ht-degree: 0%
-
 ---
-
 # SOAP API常見問題集
 
 ## 如何建立我的第一個檔案校訂？

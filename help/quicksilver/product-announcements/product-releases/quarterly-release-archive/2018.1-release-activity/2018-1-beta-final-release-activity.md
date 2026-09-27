@@ -7,18 +7,24 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 35bd3604-5452-4b46-afb1-78bc2fbb48ec
-TQID: https://experienceleague.adobe.com/d8MDB-E0EtqYt8meTvwOQPKwyJC1iCjgjklVdGdy5Rk
+TQID: 'https://experienceleague.adobe.com/d8MDB-E0EtqYt8meTvwOQPKwyJC1iCjgjklVdGdy5Rk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 895
+source-wordcount: '910'
 ht-degree: 0%
-
 ---
-
 # 2018.1 Beta最終發行活動
 
 本頁說明2018.1 Beta最終版本預覽環境中最近可用的所有變更。 預覽環境已於2018年1月31日提供此功能。 它將在2018年3月的生產環境中提供。
@@ -31,7 +37,7 @@ ht-degree: 0%
 
 2018.1 Beta最終版本包含適用於Workfront管理員和其他使用者的增強功能：
 
-管理員的&#x200B;**&#x200B;**
+管理員的&#x200B;****
 
 * [設定資源可用性與使用者配置，以根據使用者排程進行計算](#configure-resource-availability-and-user-allocations-to-calculate-based-on-the-user-schedule)
 
@@ -108,7 +114,7 @@ Workfront管理員現在可以決定Workfront如何計算系統層級的資源�
 
 Workfront Proof生產環境中的資料現在每週都會同步至Workfront Proof預覽環境。
 
-在此變更前，資料會每月從Workfront Proof生產環境同步到預覽環境，而來自Workfront生產環境的資料每週會同步到Workfront預覽環境。在Workfront預覽環境中使用校訂功能時，這種差異會導致一些同步處理錯誤。 
+在此變更前，資料會每月從Workfront Proof生產環境同步到預覽環境，而來自Workfront生產環境的資料每週會同步到Workfront預覽環境。 在Workfront預覽環境中使用校訂功能時，這種差異會導致一些同步處理錯誤。 
 
 如需詳細資訊，請參閱[預覽Sandbox測試環境 — Workfront Proof](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md)。 
 

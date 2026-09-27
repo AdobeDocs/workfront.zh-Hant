@@ -7,13 +7,23 @@ description: 您可以與檢閱者共用及檢閱各種型別的檔案，即使�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: e9fd96e32cabb1a99bb2170261577ec05c35ff6f
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 0%
-
 ---
-
 # 支援的校訂檔案型別和大小限制概觀
 
 <!--Audited: 12/2023-->
@@ -137,7 +147,7 @@ Workfront有下列限制：
 
   >[!NOTE]
   >
-  >PowerPoint簡報檔案目前無法上傳的已知問題。 如果您遇到此問題，請將檔案轉換至PDF，並改為上傳PDF。 如需詳細資訊，請參閱[校訂：無法從PowerPoint檔案](https://experienceleague.adobe.com/zh-hant/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx)產生校訂。
+  >PowerPoint簡報檔案目前無法上傳的已知問題。 如果您遇到此問題，請將檔案轉換至PDF，並改為上傳PDF。 如需詳細資訊，請參閱[校訂：無法從PowerPoint檔案](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx)產生校訂。
 
 * PS - PostScript檔案
 * PSD - PHOTOSHOP
@@ -227,12 +237,12 @@ Workfront有下列限制：
 * MKV
 * 輸入音訊轉碼器（視訊的一部分）
 
-   * MP3
-   * AAC/AAC-HE
-   * Windows Media
-   * PCM/WAV/AIFF
-   * AMR
-   * Ogg Vorbis
+  * MP3
+  * AAC/AAC-HE
+  * Windows Media
+  * PCM/WAV/AIFF
+  * AMR
+  * Ogg Vorbis
 
 ## 音訊檔案
 

@@ -6,19 +6,20 @@ navigation-topic: configure-proofing-functionality
 title: 設定是否自動產生校樣
 description: 您可以設定在您指定的使用者將檔案新增到Workfront時，系統是否自動產生校樣。 此設定預設為停用。
 author: Courtney
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 2%
-
+source-wordcount: '251'
+ht-degree: 3%
 ---
-
 
 # 設定是否自動產生校樣
 
 您可以設定在您指定的使用者將檔案新增到Workfront時，系統是否自動產生校樣。 此設定預設為停用。
 
-## 存取需求
+## 存取權要求
 
 您必須具備下列條件：
 
@@ -27,7 +28,7 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/tw/products/workfront/pricing.html" target="_blank">Adobe Workfront計畫</a> </td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Adobe Workfront計畫</a> </td> 
    <td>任何</td> 
   </tr> 
   <tr> 
@@ -46,7 +47,7 @@ ht-degree: 2%
 ## 設定是否為單一使用者自動產生校樣
 
 1. 按一下Adobe Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**使用者** ![使用者](assets/users-icon-in-main-menu.png)。
-1. 選取具有校訂存取許可權的使用者，然後按一下[編輯]。**&#x200B;**
+1. 選取具有校訂存取許可權的使用者，然後按一下[編輯]。****
 1. 在&#x200B;**偏好設定**&#x200B;區段中，啟用或停用&#x200B;**上傳檔案時自動產生校樣**&#x200B;核取方塊。
 
    ![自動產生校樣](assets/autogenerate-proofs-350x216.png)
@@ -56,7 +57,7 @@ ht-degree: 2%
 ## 設定是否為多個使用者自動產生校樣
 
 1. 按一下Adobe Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**使用者** ![使用者圖示](assets/users-icon-in-main-menu.png)。
-1. 選取具有校訂存取權的使用者，然後按一下[編輯]。**&#x200B;**
+1. 選取具有校訂存取權的使用者，然後按一下[編輯]。****
 
    >[!IMPORTANT]
    >

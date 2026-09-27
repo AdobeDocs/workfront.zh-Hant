@@ -8,22 +8,31 @@ description: 身為Workfront管理員或Workfront Proof管理員，您可以將�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 249aa332-c051-49ac-be85-264d8babfcad
-TQID: https://experienceleague.adobe.com/bnWwfz-MsjXnfJIix2k3prysLG6S-IGgAndYQLGT6o4
+TQID: 'https://experienceleague.adobe.com/bnWwfz-MsjXnfJIix2k3prysLG6S-IGgAndYQLGT6o4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1840
+source-wordcount: '1840'
 ht-degree: 1%
-
 ---
-
 # [!DNL Workfront Proof]中的校訂許可權設定檔
 
 >[!IMPORTANT]
@@ -73,7 +82,7 @@ ht-degree: 1%
 
 ## 帳單管理員 {#billing-administrator}
 
-帳單管理員可以存取 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) and [The [!DNL Workfront Proof] 帳單頁面](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)中的帳戶設定，並具有下列許可權：
+帳單管理員可以存取 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) and [The [!DNL Workfront Proof] 帳單頁面](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)中的[帳戶設定，並具有下列許可權：
 
 ![核取記號](assets/cleaner2.png)可以產生校樣、上傳檔案和建立資料夾。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)中產生校樣、[將檔案和網頁內容上傳到 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md)以及[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md)中建立資料夾。
 
@@ -87,9 +96,9 @@ ht-degree: 1%
 
 ![核取記號](assets/cleaner2.png)可以設定為拖放區域擁有者。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)中設定dropzone。
 
-![核取記號](assets/cleaner2.png)可以存取帳單頁面並編輯帳單詳細資料。 如需詳細資訊，請參閱[帳單頁面 [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
+![核取記號](assets/cleaner2.png)可以存取帳單頁面並編輯帳單詳細資料。 如需詳細資訊，請參閱[帳單頁面 [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
 
-![核取記號](assets/cleaner2.png)可以存取[帳戶設定]頁面並編輯帳戶詳細資料。 如需詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的帳戶設定。
+![核取記號](assets/cleaner2.png)可以存取[帳戶設定]頁面並編輯帳戶詳細資料。 如需詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的[帳戶設定。
 
 ![核取記號](assets/cleaner2.png)可以清空垃圾桶。 如需詳細資訊，請參閱[還原並清空垃圾桶 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)。
 
@@ -105,9 +114,9 @@ ht-degree: 1%
 
 ![紅色X](assets/no2.png)無法刪除其他使用者的私人資料夾。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)中管理資料夾。
 
-如需帳戶設定的詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的帳戶設定。
+如需帳戶設定的詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的[帳戶設定。
 
-如需計費資訊，請參閱[計費頁面 [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
+如需計費資訊，請參閱[計費頁面 [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
 
 ### 管理員 {#administrator}
 
@@ -125,7 +134,7 @@ ht-degree: 1%
 
 ![核取記號](assets/cleaner2.png)可以設定為拖放區域擁有者。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)中設定dropzone。
 
-![核取記號](assets/cleaner2.png)可以存取[帳戶設定]頁面並編輯帳戶詳細資料。 如需詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的帳戶設定。
+![核取記號](assets/cleaner2.png)可以存取[帳戶設定]頁面並編輯帳戶詳細資料。 如需詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的[帳戶設定。
 
 ![核取記號](assets/cleaner2.png)可以清空垃圾桶。 如需詳細資訊，請參閱[還原並清空垃圾桶 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)。
 
@@ -141,7 +150,7 @@ ht-degree: 1%
 
 ![紅色X](assets/no2.png)無法刪除其他使用者的私人資料夾。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)中管理資料夾。
 
-![紅色X](assets/no2.png)無法存取帳單頁面或編輯帳單詳細資料。 如需詳細資訊，請參閱[帳單頁面 [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
+![紅色X](assets/no2.png)無法存取帳單頁面或編輯帳單詳細資料。 如需詳細資訊，請參閱[帳單頁面 [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)。
 
 ### 主管 {#supervisor}
 
@@ -167,9 +176,9 @@ ht-degree: 1%
 
 ![紅色X](assets/no2.png)無法編輯校訂回覆。
 
-![紅色X](assets/no2.png)無法刪除其他使用者的私人資料夾。 如需詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)中的資料夾。
+![紅色X](assets/no2.png)無法刪除其他使用者的私人資料夾。 如需詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)中的[資料夾。
 
-![紅色X](assets/no2.png)無法存取帳單頁面或帳戶設定。 如需詳細資訊，請參閱[帳單頁面](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)和 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的帳戶設定。 [!DNL Workfront Proof] 
+![紅色X](assets/no2.png)無法存取帳單頁面或帳戶設定。 如需詳細資訊，請參閱[帳單頁面](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)和 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的[帳戶設定。 [!DNL Workfront Proof] 
 
 ![紅色X](assets/no2.png)無法新增、編輯或刪除使用者。
 
@@ -195,7 +204,7 @@ ht-degree: 1%
 
 ![紅色X](assets/no2.png)無法刪除其他使用者的公用資料夾。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)中管理資料夾。
 
-![紅色X](assets/no2.png)無法存取帳單頁面或帳戶設定。 如需詳細資訊，請參閱[帳單頁面](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)和 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的帳戶設定。 [!DNL Workfront Proof] 
+![紅色X](assets/no2.png)無法存取帳單頁面或帳戶設定。 如需詳細資訊，請參閱[帳單頁面](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)和 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的[帳戶設定。 [!DNL Workfront Proof] 
 
 ![紅色X](assets/no2.png)無法設定為拖放區域擁有者。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)中設定dropzone。
 
@@ -223,7 +232,7 @@ ht-degree: 1%
 
 ![紅色X](assets/no2.png)無法刪除組織中建立的任何專案。
 
-![紅色X](assets/no2.png)無法存取帳單頁面或帳戶設定。 如需詳細資訊，請參閱[帳單頁面](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)和 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的帳戶設定。 [!DNL Workfront Proof] 
+![紅色X](assets/no2.png)無法存取帳單頁面或帳戶設定。 如需詳細資訊，請參閱[帳單頁面](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)和 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的[帳戶設定。 [!DNL Workfront Proof] 
 
 ![紅色X](assets/no2.png)無法設定為拖放區域擁有者。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)中設定dropzone。
 
@@ -261,7 +270,7 @@ ht-degree: 1%
 
 ![紅色X](assets/no2.png)無法刪除組織中建立的任何專案。
 
-![紅色X](assets/no2.png)無法存取帳單頁面或帳戶設定。 如需詳細資訊，請參閱[帳單頁面](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)和 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的帳戶設定。 [!DNL Workfront Proof] 
+![紅色X](assets/no2.png)無法存取帳單頁面或帳戶設定。 如需詳細資訊，請參閱[帳單頁面](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)和 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)中的[帳戶設定。 [!DNL Workfront Proof] 
 
 ![紅色X](assets/no2.png)無法設定為拖放區域擁有者。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)中設定dropzone。
 

@@ -3,7 +3,15 @@ title: 從創意空間摘要建立計畫記錄
 description: 使用Adobe Workfront Planning的新功能Ideation Space，您可以將簡報轉換為Planning記錄。 匯出的摘要會建立新記錄或更新現有記錄。 本文說明如何使用Ideation空間建立或編輯現有Planning記錄。
 role: User, Admin
 author: Alina
-source-git-commit: bef848df8b263de89bfa90b7fec74b14734dfeff
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 0%
@@ -100,7 +108,7 @@ are there additional license restrictions or packages to be purchased to have ac
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 

@@ -7,32 +7,45 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 55787c1e-45af-4b9f-bdbc-10cfacb326e6
-TQID: https://experienceleague.adobe.com/A8tWEEc2s9q0bcSRx3o4JPJ1qBn27iEf6sl-stLtrW0
+TQID: 'https://experienceleague.adobe.com/A8tWEEc2s9q0bcSRx3o4JPJ1qBn27iEf6sl-stLtrW0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1115
+source-wordcount: '1138'
 ht-degree: 0%
-
 ---
-
 # 2018.3版本活動概覽
 
 >[!NOTE]
@@ -77,7 +90,7 @@ ht-degree: 0%
 * [匯出資源規劃工具中指定期間的資料](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md#export-data-for-a-given-period-in-the-resource-planner)
 * 當使用者過度分配時，[每日總計現在會以紅色顯示](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md#daily-totals-now-display-in-red-when-the-user-is-overallocated)
 * 最小化時，[排程時間表上會隱藏任務和問題](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md#tasks-and-issues-are-hidden-on-the-scheduling-timeline-when-minimized)
-* 匯出資源規劃工具[&#128279;](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-1-release-activity.md#improvements-when-exporting-the-role-and-project-views-of-the-resource-planner)的角色和專案檢視時進行改進
+* 匯出資源規劃工具](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-1-release-activity.md#improvements-when-exporting-the-role-and-project-views-of-the-resource-planner)的角色和專案檢視時進行[改進
 * [使用率報告：從新資源預算區域填入預算時數](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md#utilization-report-populates-budgeted-hours)
 * [使用率報表：依使用者檢視專案的預算時數](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md#utilization-view-budgeted-hours-by-user)
 
@@ -143,7 +156,7 @@ ht-degree: 0%
 
 ### API版本10現在可在預覽中使用 {#api-version-10-now-available-in-preview}
 
-API版本10現在可在預覽環境中使用。它將在18.3版本的生產環境中提供。如需詳細資訊，請參閱[&#x200B; API 10](../../../../wf-api/api/new-api-version-10.md)版的新功能。 
+API版本10現在可在預覽環境中使用。 它將在18.3版本的生產環境中提供。 如需詳細資訊，請參閱[ API 10](../../../../wf-api/api/new-api-version-10.md)版的新功能。 
 
 ### 不再支援API第3版 {#api-version-3-no-longer-supported}
 
@@ -153,7 +166,7 @@ API版本10現在可在預覽環境中使用。它將在18.3版本的生產環�
 
 為了提供最佳安全性，Workfront要求所有使用TLS 1.0或較舊版本的整合和網頁流量，都必須升級為使用TLS 1.1或更新版本。 此變更已在預覽環境中生效。
 
-如需詳細資訊，請參閱Adobe Workfront[&#128279;](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md)中所需的TLS 1.2。
+如需詳細資訊，請參閱Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md)中所需的[TLS 1.2。
 
 ### JSONP支援即將結束 {#jsonp-support-is-ending}
 

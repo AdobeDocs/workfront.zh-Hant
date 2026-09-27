@@ -8,34 +8,39 @@ feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/2YH5Y7yvmUdpuV-p5cnrVSmXBQTjix2pMyUP5o-WKpU
+TQID: 'https://experienceleague.adobe.com/2YH5Y7yvmUdpuV-p5cnrVSmXBQTjix2pMyUP5o-WKpU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d8302c96-f652-4d09-896b-19a70bab02a5
+    internal-label: System configuration
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 222
-ht-degree: 5%
-
+source-wordcount: '222'
+ht-degree: 6%
 ---
-
 # 登入 [!DNL Adobe Workfront]
 
 <!--Audited: 2024-->
 
-一個登入可用於Workfront和所有Adobe CX Enterprise應用程式。
+一次登入可用於Workfront和所有Adobe CX Enterprise應用程式。
 
 如需詳細資訊，請參閱[CX Enterprise介面和管理](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/experience-cloud)。
 
 ## 存取[!DNL Workfront]
 
-登入CX Enterprise後，按一下頂端導覽區中的組織切換器，即可檢視您有權存取的所有[!DNL Workfront]組織和環境。 選取您要使用的[!DNL Workfront]組織或環境。 如果您的組織使用[!UICONTROL 預覽]和[!UICONTROL 沙箱]等環境。
+登入CX Enterprise後，按一下頂端導覽區域中的組織切換器，即可檢視您有權存取的所有[!DNL Workfront]組織和環境。 選取您要使用的[!DNL Workfront]組織或環境。 如果您的組織使用[!UICONTROL 預覽]和[!UICONTROL 沙箱]等環境。
 
 ![檢視[!DNL Workfront]組織和環境](assets/wf-org-instance-switcher-2026.png)
 
@@ -43,7 +48,7 @@ ht-degree: 5%
 >
 >第一次登入CX Enterprise時，組織會預設為字母清單中的第一個組織。 下次登入時，組織會預設為您上次造訪的組織。
 
-[!DNL Workfront]會出現在您可存取的CX Enterprise產品清單中。 您可以在CX Enterprise首頁上的快速存取功能表中選擇[!DNL Workfront]，或使用產品切換器![產品切換器](assets/main-menu-icon.png)隨時變更應用程式。
+[!DNL Workfront]會出現在您有權存取的CX Enterprise產品清單中。 您可以在CX Enterprise首頁上的快速存取功能表中選擇[!DNL Workfront]，或使用產品切換器![產品切換器](assets/main-menu-icon.png)隨時變更應用程式。
 
 ![選取[!DNL Workfront]以存取應用程式](assets/cx-enterprise-home-2026.png)
 

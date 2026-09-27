@@ -8,22 +8,29 @@ feature: Agile
 exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/Vy3r2L1yuMPvMesRxEohYAgA6geAlKYIRsstLp1kpt8
+TQID: 'https://experienceleague.adobe.com/Vy3r2L1yuMPvMesRxEohYAgA6geAlKYIRsstLp1kpt8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 401
+source-wordcount: '402'
 ht-degree: 3%
-
 ---
-
 # 變更[!UICONTROL Scrum]展示板上的劇本順序
 
 故事出現在故事板上的順序不表示優先順序。 不過，它會使故事更顯眼，因而會影響感知的優先順序。 優先順序是在待處理專案中定義的，當內文被帶入內文板時，它們沒有設定的優先順序，因為它們將在反複專案時間範圍內處理。 如果內文傳回至待處理專案，您可以重新排序來顯示優先順序。
@@ -46,9 +53,9 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：[!UICONTROL Standard]</p> 
+   <td> <p>新增：[！UICONTROL Standard]</p> 
    或
-   <p>目前： [!UICONTROL Work]或更高版本</p> </td> 
+   <p>目前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -70,4 +77,4 @@ ht-degree: 3%
 
 和敏捷反複專案不同，在敏捷檢視中檢視專案時，您無法變更本文順序。 若要修改專案的內文順序，您必須在標準檢視中檢視專案。
 
-如需有關如何變更專案檢視的資訊，請參閱[!UICONTROL 敏捷]檢視[&#128279;](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)中的[!UICONTROL 管理專案]。 請選取標準檢視，而不要選取敏捷檢視。
+如需有關如何變更專案檢視的資訊，請參閱[!UICONTROL 敏捷]檢視](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)中的[[!UICONTROL 管理專案]。 請選取標準檢視，而不要選取敏捷檢視。

@@ -9,20 +9,24 @@ role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/6-AohxGDArrxGsV8LUHHc0cQQd4ZWoTHqO3DWKRagP4
+TQID: 'https://experienceleague.adobe.com/6-AohxGDArrxGsV8LUHHc0cQQd4ZWoTHqO3DWKRagP4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1864
+source-wordcount: '1864'
 ht-degree: 0%
-
 ---
-
 # 文字模式語法概觀
 
 <!--Audited: 1/2025-->
@@ -48,8 +52,8 @@ ht-degree: 0%
 * 參考Workfront資料庫中的物件或屬性時，請一律使用駝峰式大小寫。
 * 請記住Workfront中的物件階層。 檢視、篩選和群組之間有下列差異：
 
-   * 您可以在檢視中顯示與報表或清單物件相距三個物件的物件。
-   * 您不能在群組、篩選或自訂提示中參照遠離主物件2個以上的物件。
+  * 您可以在檢視中顯示與報表或清單物件相距三個物件的物件。
+  * 您不能在群組、篩選或自訂提示中參照遠離主物件2個以上的物件。
 
   **範例：**&#x200B;您可以在工作檢視中顯示Portfolio擁有者的名稱或GUID：
 
@@ -63,8 +67,8 @@ ht-degree: 0%
 
   如需Workfront中物件階層的相關資訊，請參閱：
 
-   * [瞭解Adobe Workfront中的物件](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
-   * [API Explorer](../../../wf-api/general/api-explorer.md)
+  * [瞭解Adobe Workfront中的物件](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
+  * [API Explorer](../../../wf-api/general/api-explorer.md)
 
 * 儘可能使用萬用字元，讓您的報告和清單更動態，並避免針對不同使用者和類似時間表重複使用它們。
 
@@ -96,15 +100,15 @@ ht-degree: 0%
 
   如需以文字模式建立檢視和群組時，其程式碼關鍵行的相關資訊，請參閱：
 
-   * [使用文字模式編輯檢視](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
-   * [使用文字模式編輯群組](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+  * [使用文字模式編輯檢視](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+  * [使用文字模式編輯群組](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 * 篩選和自訂提示的程式碼行和語法類似。
 
   如需詳細資訊，請參閱：
 
-   * [使用文字模式編輯篩選器](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
-   * [新增提示至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
+  * [使用文字模式編輯篩選器](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
+  * [新增提示至報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
 ### 檢視和群組的語法
 
@@ -197,22 +201,22 @@ ht-degree: 0%
 
   **範例：**&#x200B;若要在任務報告中顯示與任務名稱串連的專案名稱，請使用下列行：
 
-   * 在檢視中：
+  * 在檢視中：
 
-     `valueexpression=CONCAT({project}.{name},' - ',{name})`
+    `valueexpression=CONCAT({project}.{name},' - ',{name})`
 
-   * 在群組中：
+  * 在群組中：
 
-     `group.0.valueexpression=CONCAT({project}.{name},' - ',{name})`
+    `group.0.valueexpression=CONCAT({project}.{name},' - ',{name})`
 
   如需物件在Workfront資料庫中如何相互參照的詳細資訊，請參閱[API總管](../../../wf-api/general/api-explorer.md)。
 
 * 參照自訂欄位時，請使用下列規則：
 
-   * 使用與介面中顯示的欄位完全相同的名稱。
-   * 在欄位名稱前面加上「DE：」。
-   * 以大括弧將欄位括住。
-   * 以句點分隔與物件相關的欄位。
+  * 使用與介面中顯示的欄位完全相同的名稱。
+  * 在欄位名稱前面加上「DE：」。
+  * 以大括弧將欄位括住。
+  * 以句點分隔與物件相關的欄位。
 
   **範例：**&#x200B;若要在valueexpression行的任務檢視中顯示[其他詳細資料]專案自訂欄位，請使用下列行：
 
@@ -284,14 +288,14 @@ ht-degree: 0%
 
 * 連線多個篩選陳述式的陳述式聯結器：
 
-   * 且
+  * 且
 
-     這是篩選器陳述式之間的預設聯結器。
+    這是篩選器陳述式之間的預設聯結器。
 
-   * 或
+  * 或
 
-     >[!TIP]
-     >
-     >陳述式聯結器會區分大小寫，且一律大寫。 文字模式中可省略「AND」。
+    >[!TIP]
+    >
+    >陳述式聯結器會區分大小寫，且一律大寫。 文字模式中可省略「AND」。
 
 * 萬用字元，讓篩選器更動態，並針對目前時間或登入的使用者自訂篩選器。 如需萬用字元的詳細資訊，請參閱[萬用字元篩選變數總覽](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)。

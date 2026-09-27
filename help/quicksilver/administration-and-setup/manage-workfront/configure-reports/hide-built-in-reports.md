@@ -10,23 +10,28 @@ author: Courtney, Lisa
 exl-id: d48b0dd7-933e-4e91-a2f1-8d64b1c6dbb3
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/svybcrL8zPsWYzQhqF0sf6dYrWFeKUXsDQ8KvJBHw-U
+TQID: 'https://experienceleague.adobe.com/svybcrL8zPsWYzQhqF0sf6dYrWFeKUXsDQ8KvJBHw-U'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 186
+source-wordcount: '186'
 ht-degree: 12%
-
 ---
-
 # 隱藏內建報告
 
 Adobe Workfront提供使用者可存取和檢視的廣泛預設內建報告清單。 身為Workfront管理員，您可以修改使用者的存取層級以隱藏內建報表，讓使用者無法存取。
@@ -66,7 +71,7 @@ Adobe Workfront提供使用者可存取和檢視的廣泛預設內建報告清�
 {{step-1-to-setup}}
 
 1. 按一下&#x200B;**存取層級**。
-1. 選取您要隱藏內建報告的存取層級，然後按一下[編輯]。**&#x200B;**
+1. 選取您要隱藏內建報告的存取層級，然後按一下[編輯]。****
 1. 針對&#x200B;**報表**&#x200B;物件，按一下可用最高存取層級旁的&#x200B;**設定**&#x200B;圖示，然後取消選取&#x200B;**檢視內建報表**。
 
    ![編輯存取層級](assets/edit-access-level.png)

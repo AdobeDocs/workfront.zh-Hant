@@ -8,22 +8,26 @@ feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-TQID: https://experienceleague.adobe.com/CmlT3NwdCWm-UiIiN5mxGgEVFVLjtqOY97ATuTgaN4g
+TQID: 'https://experienceleague.adobe.com/CmlT3NwdCWm-UiIiN5mxGgEVFVLjtqOY97ATuTgaN4g'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 674
+source-wordcount: '698'
 ht-degree: 3%
-
 ---
-
 # 使用我的請求Widget
 
 <!--
@@ -36,8 +40,8 @@ remove Preview and Production references at Production release April 15, 2026
 
 >[!IMPORTANT]
 >
->本文會說明新的「我的請求」Widget。您必須啟用新的請求體驗才能檢視新的Widget。
->您可以在您的要求區域中啟用新的要求體驗。
+>本文會說明新的「我的請求」Widget。 您必須啟用新的請求體驗才能檢視新的Widget。
+>您可以在請求區域中啟用新的請求體驗。
 
 「我的請求」Widget會顯示您已提交的請求。 您可以篩選請求、搜尋特定請求，或調整欄順序和可見度。 您也可以從「我的請求」Widget建立新請求。
 
@@ -76,7 +80,7 @@ remove Preview and Production references at Production release April 15, 2026
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>[!UICONTROL 檢視]對您在對話中被標籤或需要解決核准的專案、任務、問題和檔案的許可權或更高</p> </td> 
+   <td> <p>[！UICONTROL檢視]對您在對話中被標籤或需要解決核准的專案、任務、問題和檔案的許可權或更高</p> </td> 
   </tr> 
  </tbody> 
 </table>

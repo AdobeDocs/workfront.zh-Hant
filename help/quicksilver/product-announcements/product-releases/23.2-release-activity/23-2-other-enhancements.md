@@ -6,20 +6,26 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 565c365b-d611-4a9a-80a9-bfb7a5b0f319
-TQID: https://experienceleague.adobe.com/qmNKLogk-6ziKzb3zAmLY3vCbyP1gbwRGyWOBAGsuKk
+TQID: 'https://experienceleague.adobe.com/qmNKLogk-6ziKzb3zAmLY3vCbyP1gbwRGyWOBAGsuKk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 519
+source-wordcount: '519'
 ht-degree: 0%
-
 ---
-
 # 23.2其他增強功能
 
 本頁說明23.2版對預覽環境所做的所有其他增強功能。 這些增強功能將在23.2版本的生產環境中提供。
@@ -37,7 +43,7 @@ ht-degree: 0%
 
 Adobe Workfront中的評論體驗更新目前正在開發中。 此更新包含新介面、新功能，以及某些物件「更新」區段的改進效能。
 
-此新體驗最終將統一整個Adobe Workfront及更廣泛、整個Adobe Experience Cloud的評論。
+此新體驗最終將統一整個Adobe Workfront及其他版本（整個Adobe Experience Cloud）的評論。
 
 作為此更新的一部分，我們將向問題的更新區段介紹新的評論體驗。 在目前版本中，每個使用者都可以在測試版模式下，在各自的環境中切換啟用此體驗。 接受Beta版協定後，會顯示新的「更新」區段，讓他們能繼續像現在一樣管理該區段的工作。
 
@@ -78,9 +84,9 @@ Workfront Goals在23.1版本中發佈了類似功能。
 
 Adobe Unified Experience包括：
 
-* 透過Adobe Experience Cloud對所有Adobe應用程式執行單一登入
+* 透過Adobe Experience Cloud對所有Adobe應用程式進行單一登入
 * 可在Workfront組織和環境之間移動的「組織切換器」
-* 包含Workfront頁面、Adobe Experience Cloud偏好設定和您的Workfront設定檔選項的導覽
+* 包含Workfront頁面、Adobe Experience Cloud偏好設定和Workfront設定檔選項的導覽
 
 如需詳細資訊，請參閱[適用於Workfront的Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 

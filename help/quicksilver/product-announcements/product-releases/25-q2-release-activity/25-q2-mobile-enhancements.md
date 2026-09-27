@@ -5,18 +5,24 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 35e5309a-ad8d-44f0-af84-6070c20d06e1
-TQID: https://experienceleague.adobe.com/x7PmIGv1NMgZwUnPEs33hFwG1G79Qb2q7a9o6zEIDvg
+TQID: 'https://experienceleague.adobe.com/x7PmIGv1NMgZwUnPEs33hFwG1G79Qb2q7a9o6zEIDvg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 157
+source-wordcount: '157'
 ht-degree: 0%
-
 ---
-
 # 2025年第二季行動裝置增強功能
 
 本頁說明在2025年第二季releasetime範圍內所進行的所有Mobile增強功能。

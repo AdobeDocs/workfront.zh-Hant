@@ -7,22 +7,31 @@ description: 讓PiW能夠順利運作
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 53abbd88-7915-4d74-9bda-d75c59663463
-TQID: https://experienceleague.adobe.com/eCJhedBSQgqT9i4784HdrUFM-N61zC8O3wPJvuvXlKQ
+TQID: 'https://experienceleague.adobe.com/eCJhedBSQgqT9i4784HdrUFM-N61zC8O3wPJvuvXlKQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 437
+source-wordcount: '437'
 ht-degree: 2%
-
 ---
-
 # 傳送提醒訊息給校訂上的檢閱者
 
 >[!IMPORTANT]
@@ -55,7 +64,7 @@ ht-degree: 2%
 1. 在出現的&#x200B;**[!UICONTROL 訊息]**&#x200B;方塊中，選取您想要的收件者。
 1. 執行下列其中一項：
 
-   * 若要使用預設的[!DNL Workfront Proof]訊息，請按一下[捨棄自訂訊息] **，然後按一下[傳送]**&#x200B;**。\**
+   * 若要使用預設的[!DNL Workfront Proof]訊息，請按一下[捨棄自訂訊息] ]**，然後按一下[傳送]****。\**[!UICONTROL 
 
      預設訊息會提醒稽核者他們已新增到校訂中，並包含校訂的截止日期。
 
@@ -70,7 +79,7 @@ ht-degree: 2%
 1. 在出現的&#x200B;**[!UICONTROL 訊息]**&#x200B;方塊中，選取您想要的收件者。
 1. 執行下列其中一項：
 
-   * 若要使用預設的[!DNL Workfront Proof]訊息，請按一下[捨棄自訂訊息] **，然後按一下[傳送]**&#x200B;**。\**
+   * 若要使用預設的[!DNL Workfront Proof]訊息，請按一下[捨棄自訂訊息] ]**，然後按一下[傳送]****。\**[!UICONTROL 
 
      預設訊息會提醒稽核者他們已新增到校訂中，並包含校訂的截止日期。
 

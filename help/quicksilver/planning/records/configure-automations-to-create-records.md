@@ -8,23 +8,31 @@ recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/GgrkobfJEMRxHMsZF8mXAuH2xEoe-i4GTArk3S8O6fE
+TQID: 'https://experienceleague.adobe.com/GgrkobfJEMRxHMsZF8mXAuH2xEoe-i4GTArk3S8O6fE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 13c240ad1b51b30dd410a1bf8f49678375ab2e93
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1900
+source-wordcount: '1900'
 ht-degree: 4%
-
 ---
-
 # 設定Adobe Workfront Planning自動化
 
 <!--
@@ -277,7 +285,7 @@ Old:
        這是必填欄位。
 
        <!--submitted a change in functionality and UI text for this - revise??-->
-                                                                                 在&#x200B;**對應欄位**&#x200B;區域中，更新下列資訊：
+                                                                                 在**對應欄位**&#x200B;區域中，更新下列資訊：
 
        * **傳輸自**：從建立自動化的記錄型別中選取欄位，以將它們對應到連線記錄型別的欄位。
        * **傳輸至**：從新建立的記錄中選取欄位，這些欄位會填入您執行自動化之記錄中的資訊。
@@ -328,13 +336,13 @@ Old:
 
 1. （選擇性）若要檢視、停用或刪除自動化清單，請按一下自動化名稱右邊的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後執行下列其中一項作業：
 
-   * 若要自動變更欄位值，請按一下[檢視] **&#x200B;**&#x200B;以檢視自動設定。
+   * 若要自動變更欄位值，請按一下[檢視] ****&#x200B;以檢視自動設定。
 
      >[!TIP]
      >
      >當自動化是由欄位值變更所觸發時，在自動化設定儲存後，您無法編輯這些設定。
 
-   * 若要使用按一下按鈕的自動化功能，請按一下[編輯] **&#x200B;**&#x200B;來更新下列資訊：
+   * 若要使用按一下按鈕的自動化功能，請按一下[編輯] ****&#x200B;來更新下列資訊：
 
      * 按一下自動化名稱右邊的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後&#x200B;**編輯**，即可取得自動化名稱。
      * 自動化中的任何欄位，**動作**&#x200B;欄位除外。

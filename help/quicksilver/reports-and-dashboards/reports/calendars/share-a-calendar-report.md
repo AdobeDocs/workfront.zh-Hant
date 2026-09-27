@@ -2,29 +2,34 @@
 product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: 共用行事曆報告
-description: 您可以與其他使用者共用行事曆，也可以公開行事曆，讓沒有 [!DNL Adobe Workfront] 授權的人檢視行事曆。
+description: 您可以與其他使用者共用行事曆，也可以公開使用，讓沒有[!DNL Adobe Workfront]授權的人檢視行事曆。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/stg5BuJJo-hPWoXl3E7QnO2RW2h7rwQ4Pptw5H2MGq4
+TQID: 'https://experienceleague.adobe.com/stg5BuJJo-hPWoXl3E7QnO2RW2h7rwQ4Pptw5H2MGq4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 593
+source-wordcount: '594'
 ht-degree: 3%
-
 ---
-
 # 共用行事曆報告
 
 您可以與其他使用者共用行事曆，也可以公開使用，讓沒有[!DNL Adobe Workfront]授權的人檢視行事曆。
@@ -107,9 +112,9 @@ ht-degree: 3%
 
 1. 移至您要共用的行事曆。
 1. 按一下&#x200B;**[!UICONTROL 行事曆動作]**，然後按一下&#x200B;**[!UICONTROL 共用]**。
-1. 按一下行事曆名稱旁的&#x200B;**更多**&#x200B;功能表。
+1. 按一下行事曆名稱旁的&#x200B;**更多**功能表。
    ![行事曆其他功能表](assets/more-menu-calendar.png)
-按一下&#x200B;**複製公開連結**。
+   按一下**複製公開連結**。
 1. 按一下「**[!UICONTROL 儲存]**」。
 
 ## 與私人連結共用行事曆

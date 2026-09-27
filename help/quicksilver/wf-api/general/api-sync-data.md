@@ -8,22 +8,26 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1d0583fc-1573-4279-a3fa-a912d9a4213c
-TQID: https://experienceleague.adobe.com/7ozt2OXI0CWlPmtkJGlaD-n6pekapA0X-GBpwDhFZ4Q
+TQID: 'https://experienceleague.adobe.com/7ozt2OXI0CWlPmtkJGlaD-n6pekapA0X-GBpwDhFZ4Q'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 478
+source-wordcount: '478'
 ht-degree: 0%
-
 ---
-
 # 使用API來同步處理程式與服務的資料
 
 以下是您運用API來同步處理程式和服務資料的常見方式。

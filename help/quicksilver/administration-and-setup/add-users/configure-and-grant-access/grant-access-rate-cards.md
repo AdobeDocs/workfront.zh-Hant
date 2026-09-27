@@ -8,13 +8,20 @@ author: Becky and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b21e65d3-3c9f-4f3d-95d3-de4c09199622
-source-git-commit: 85399542ce8e92de6da5a1de0960194e72958987
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '378'
 ht-degree: 5%
-
 ---
-
 # 授與費率卡的存取權
 
 身為Adobe Workfront管理員，您可以透過使用者的存取層級定義使用者對評等卡的存取權，如[存取層級概觀](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)中所述。
@@ -58,7 +65,7 @@ ht-degree: 5%
 ## 使用自訂存取層級設定使用者存取權以評等卡片
 
 1. 開始建立或編輯存取層級，如[建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)中所述。
-1. 按一下費率卡右側![](assets/gear-icon-settings.png)檢視&#x200B;**或**&#x200B;編輯&#x200B;**按鈕上的齒輪圖示**，然後在&#x200B;**微調您的設定**&#x200B;下選取您要授與的功能。
+1. 按一下費率卡右側&#x200B;**檢視**&#x200B;或&#x200B;**編輯**&#x200B;按鈕上的齒輪圖示![](assets/gear-icon-settings.png)，然後在&#x200B;**微調您的設定**&#x200B;下選取您要授與的功能。
 
    ![微調速率卡存取權](assets/rate-card-access-fine-tune.png)
 

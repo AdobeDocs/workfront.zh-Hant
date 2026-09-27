@@ -9,25 +9,31 @@ feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/xauKU-ASfnD7MiuqK-t9h-JGiTTlcVmzFL-pofZOPJ8
+TQID: 'https://experienceleague.adobe.com/xauKU-ASfnD7MiuqK-t9h-JGiTTlcVmzFL-pofZOPJ8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 332
+source-wordcount: '332'
 ht-degree: 7%
-
 ---
-
 # 建立使用者委派報告
 
 <!--Audited: 10/2024-->

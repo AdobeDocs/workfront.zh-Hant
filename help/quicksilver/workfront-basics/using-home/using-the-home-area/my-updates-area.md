@@ -8,25 +8,31 @@ feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/tBVFQLaFE0Vb15SDNsWRomKEDRTeIsEjnMaCv-CrMR8
+TQID: 'https://experienceleague.adobe.com/tBVFQLaFE0Vb15SDNsWRomKEDRTeIsEjnMaCv-CrMR8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 786
+source-wordcount: '786'
 ht-degree: 2%
-
 ---
-
 # 使用[!UICONTROL 我的更新]區域
 
 <!--
@@ -67,7 +73,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
-   <td> <p>[!UICONTROL 檢視]對您在對話中被標籤或需要解決核准的專案、任務、問題和檔案的許可權或更高</p> </td> 
+   <td> <p>[！UICONTROL檢視]對您在對話中被標籤或需要解決核准的專案、任務、問題和檔案的許可權或更高</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -111,15 +117,15 @@ ht-degree: 2%
     </col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL All]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL All]</strong></td> 
       <td>由其他使用者提交給您或委派給您的核准。 如需委託核准的詳細資訊，請參閱<a href="../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md" class="MCXref xref">委託核准要求</a>。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 委派核准]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL委派核准]</strong></td> 
       <td>其他使用者委派給您的核准。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 我的核准]</strong></td> 
+      <td role="rowheader"><strong>[！UICONTROL我的核准]</strong></td> 
       <td> <p>核准已提交給您。 </p> <p>如需核准專案的詳細資訊，請參閱<a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">核准工作</a>。</p> </td> 
      </tr> 
     </tbody> 

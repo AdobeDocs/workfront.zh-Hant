@@ -2,32 +2,39 @@
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: 跨時區工作
-description: 瞭解 [!DNL Adobe Workfront] 如何使用時區來計算物件的時間欄位，以及在其他區域（例如電子郵件）中的時間會很有幫助。
+description: 瞭解[!DNL Adobe Workfront]如何使用時區來計算物件的時間欄位，以及在其他區域（例如電子郵件）中的時間會很有幫助。
 feature: Get Started with Workfront
 author: Becky
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/6ns60P4-S7ZlUbhzB9R-5ZHhYDeFnBbiiQ-I7S-Wyjc
+TQID: 'https://experienceleague.adobe.com/6ns60P4-S7ZlUbhzB9R-5ZHhYDeFnBbiiQ-I7S-Wyjc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1252
+source-wordcount: '1260'
 ht-degree: 0%
-
 ---
-
 # 跨時區工作
 
 <!-- Audited: 2/2024 -->
@@ -72,7 +79,7 @@ ht-degree: 0%
 
   如需這兩個範例的詳細資訊，請參閱[設定您系統的基本資訊](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)。
 
-* 專案之覆寫收費率的開始或結束。 如需詳細資訊，請參閱專案層級[&#128279;](../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)的覆寫工作角色收費率。
+* 專案之覆寫收費率的開始或結束。 如需詳細資訊，請參閱專案層級](../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)的[覆寫工作角色收費率。
 
 ### 您的使用者設定檔 {#your-user-profile}
 
@@ -97,13 +104,13 @@ ht-degree: 0%
   如果將位於多個時區的使用者指派給物件，[!DNL Workfront]會使用每個使用者瀏覽器中設定的時區，轉換每個相關人員的物件時間。
 
   **範例**
-在您工作的東部標準時間(EST)區域中，您將工作設定為下午4:00開始，並將其指派給在太平洋標準時間(PST)區域工作的使用者。 對於這些使用者，開始時間顯示為下午1:00。 如果它顯示為下午4:00，他們會延遲三個小時開始處理。
+  在您工作的東部標準時間(EST)區域中，您將工作設定為下午4:00，並將其指派給在太平洋標準時間(PST)區域工作的使用者。 對於這些使用者，開始時間顯示為下午1:00。 如果顯示為下午4:00，他們會延遲三個小時開始處理。
 
   如果物件建立者不知道受指派人時區之間的差異，且在設定物件時間時未進行必要的調整，或受指派人不知道該差異，則當每個人都在物件上合作時，可能很難取得正確的時機。
 
   **範例**
 
-  您設定從東部時間上午9:00點開始的一天工作，忘記工作上的某些使用者在PST區域工作。 對於他們來說，開始時間是上午6:00。 由於他們要等到9:00時間（您時間的中午）才會開始處理，因此任務會延遲三個小時開始和完成。
+  您設定從東部時間上午9:00開始的一天任務，忘記任務上的一些使用者在PST區域工作。 對於他們，開始時間是上午6:00。 由於他們要到時間9:00 （您時間的中午）才會開始處理，因此任務會延遲三個小時開始和完成。
 
 不同瀏覽器的時區設定不同。 如需詳細資訊，請參閱每個瀏覽器的檔案或說明資訊。
 
@@ -126,20 +133,20 @@ ht-degree: 0%
 
   如果將多個使用者指派到一個任務，則系統會使用下列其中一項，如系統或群組範圍專案偏好設定中所設定：
 
-   * 任務主要擁有者的排程時區
-   * 專案排程的時區。
+  * 任務主要擁有者的排程時區
+  * 專案排程的時區。
 
   如果將一位使用者指派給任務，則系統會使用下列其中一項，如系統或群組範圍專案偏好設定中所設定：
 
-   * 任務受指派人排程的時區
-   * 專案排程的時區。
+  * 任務受指派人排程的時區
+  * 專案排程的時區。
 
   這可能會造成任務日期變更。
 
 >[!BEGINSHADEBOX]
 
 **範例：**
-將EST使用者指派給排程於上午9:00 PST （亦即EST中午）開始的一日工作。 由於EST使用者一天只剩下2個工作小時，因此任務完成日期會延長約6小時，直到下一個工作日。
+EST使用者會被指派給排程在早上9:00 PST （亦即EST中午）開始的一日工作。 由於EST使用者一天只剩下2個工作小時，因此任務完成日期會延長約6小時，直到下一個工作日。
 
 
 >[!ENDSHADEBOX]

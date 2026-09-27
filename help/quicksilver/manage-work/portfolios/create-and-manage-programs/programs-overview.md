@@ -9,25 +9,31 @@ feature: Work Management, Strategic Planning
 exl-id: 1c64fe00-12e3-49f6-b864-b8f89ed9140d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/0ndc0Z8wEEfbo8zcfjrmhVGO9FnPhBC8m-Iqt0CM6vI
+TQID: 'https://experienceleague.adobe.com/0ndc0Z8wEEfbo8zcfjrmhVGO9FnPhBC8m-Iqt0CM6vI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 9e23143e-3f4f-5cbb-821d-095a63bee200
+    internal-label: Strategic Planning
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 494
+source-wordcount: '494'
 ht-degree: 1%
-
 ---
-
 # 計畫總覽
 
 <!-- Audited: 08/2025 -->
@@ -54,12 +60,12 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>[!UICONTROL 標準]</p>
-   <p>[!UICONTROL 計畫]</p> </td> 
+   <td> <p>[！UICONTROL標準]</p>
+   <p>[！UICONTROL計畫]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>[!UICONTROL Edit]對[!UICONTROL Portfolios]和[!UICONTROL Programs]的存取權</p>  </td> 
+   <td> <p>[！UICONTROL Edit]對[！UICONTROL Portfolios]和[！UICONTROL Programs]的存取權</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
@@ -125,18 +131,18 @@ Old:
 
 * 建立專案、計畫與投資組合時，請考量下列事項：
 
-   * 專案可以是獨立的，不必與方案或投資組合相關聯。
-   * 專案可以與投資組合相關聯，但它不需要也與計畫相關聯。
-   * 方案必須一律與投資組合相關聯。 它永遠不可能存在於投資組合之外。
-   * 與方案相關聯的專案總是與方案的投資組合相關聯。
-   * 一個計畫只能與一個投資組合相關聯。
-   * 一個專案一次只能與一個方案和方案的投資組合相關聯。
-   * 一個投資組合可以有多個計畫和專案。
-   * 一個計畫可以有多個專案。
+  * 專案可以是獨立的，不必與方案或投資組合相關聯。
+  * 專案可以與投資組合相關聯，但它不需要也與計畫相關聯。
+  * 方案必須一律與投資組合相關聯。 它永遠不可能存在於投資組合之外。
+  * 與方案相關聯的專案總是與方案的投資組合相關聯。
+  * 一個計畫只能與一個投資組合相關聯。
+  * 一個專案一次只能與一個方案和方案的投資組合相關聯。
+  * 一個投資組合可以有多個計畫和專案。
+  * 一個計畫可以有多個專案。
 
   如需建立專案與投資組合的相關資訊，請參閱下列文章：
-   * [建立專案](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
-   * [建立專案組合](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
+  * [建立專案](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
+  * [建立專案組合](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
 
 
 * 您可以使用專案組合最佳化工具來分析專案組合內所有專案的效能。 您無法單獨比較相同方案中多個專案的效能。 您必須在投資組合層級分析專案績效。

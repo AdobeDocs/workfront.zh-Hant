@@ -9,25 +9,33 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 589cf9fb-f195-4b69-a240-3f73e6ca623e
-TQID: https://experienceleague.adobe.com/Ne32ZVtfFZjrw4kw-c-Tl-j7uEIVz-uBnb7-vxcVcjA
+TQID: 'https://experienceleague.adobe.com/Ne32ZVtfFZjrw4kw-c-Tl-j7uEIVz-uBnb7-vxcVcjA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1037
+source-wordcount: '1063'
 ht-degree: 1%
-
 ---
-
 # 群組管理員
 
 <!-- Audited: 12/2023 -->
@@ -59,9 +67,9 @@ ht-degree: 1%
 * 決定您是否希望群組管理員能夠以其他使用者身份登入，或重設您管理之群組中的使用者密碼。 需要額外的存取權才能執行這些工作，如下文[群組管理員所需存取權](#access-needed-for-group-administrators)中所述。
 * 為了更好地管理使用者，請考慮將群組或子群組指派給下列物件，而非指派使用者：
 
-   * 版面配置範本
-   * 排程
-   * 時程表設定檔
+  * 版面配置範本
+  * 排程
+  * 時程表設定檔
 
 ## 群組管理員所需的存取權 {#access-needed-for-group-administrators}
 
@@ -130,8 +138,8 @@ ht-degree: 1%
 
 * 當系統各群組的專案偏好設定、任務或問題偏好設定、或時程表和時數偏好設定已解鎖時，請編輯您管理之群組的該偏好設定。 這些偏好設定會影響專案、任務和問題行為。 如需詳細資訊，請參閱以下頁面:
 
-   * [設定群組的專案偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
-   * [設定群組的任務和問題偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)
+  * [設定群組的專案偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
+  * [設定群組的任務和問題偏好設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)
 
 * 為您管理的群組建立和編輯群組狀態。 如需詳細資訊，請參閱[建立或編輯群組狀態](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)。
 * 為您管理的群組設定事件通知。 只有在Workfront管理員解除鎖定透過系統為群組設定事件通知的功能後，您才能執行此動作。 如需詳細資訊，請參閱[檢視並設定群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)的事件通知。

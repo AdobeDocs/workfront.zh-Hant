@@ -3,13 +3,14 @@ title: 含21.4版的Adobe Workfront Scenario Planner
 description: 含21.4版的Adobe Workfront Scenario Planner
 author: Luke
 draft: Probably
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '111'
 ht-degree: 0%
-
 ---
-
 # 含21.4版的Adobe Workfront Scenario Planner
 
 Adobe Workfront Scenario Planner僅適用於新的Adobe Workfront體驗。

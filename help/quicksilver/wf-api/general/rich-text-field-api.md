@@ -7,18 +7,21 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 67fc34dc-0722-4419-8254-0371ad5abfc3
-TQID: https://experienceleague.adobe.com/mbMDFBRO9-bIJdlxbJjy2nqsvkjnppOJsMqTltjQ2qM
+TQID: 'https://experienceleague.adobe.com/mbMDFBRO9-bIJdlxbJjy2nqsvkjnppOJsMqTltjQ2qM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Developer
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 769
+source-wordcount: '777'
 ht-degree: 0%
-
 ---
-
 # Adobe Workfront API中的RTF文字欄位
 
 <!-- Audited: 5/2025 -->
@@ -127,4 +130,4 @@ GET /attask/api/v12.0/<OBJ Code>/<OBJ ID>?fields=parameterValues
 1. 使用上述JSON上的stringify方法發出PUT請求並傳送更新。
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre>&lt;OBJ Code>&lt;OBJ ID></pre>
+   <pre><OBJ Code><OBJ ID></pre>

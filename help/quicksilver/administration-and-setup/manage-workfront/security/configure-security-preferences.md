@@ -10,7 +10,7 @@ role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/46D3BBajFk39FP-dMDk0SuSSGM5nYPKas11Bs159R9Y
+TQID: 'https://experienceleague.adobe.com/46D3BBajFk39FP-dMDk0SuSSGM5nYPKas11Bs159R9Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -19,6 +19,8 @@ feature_v2:
     internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
     internal-label: Integrations
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
     internal-label: Get started
@@ -36,7 +38,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 62a56dd910bed829e2f30752020cb014464aea4f
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1533'
 ht-degree: 7%

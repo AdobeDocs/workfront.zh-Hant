@@ -1,31 +1,38 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: 管理 [!DNL Microsoft] 團隊中的 [!DNL Adobe Workfront] 通知
-description: 您可以接收來自 [!DNL Adobe Workfront] 的通知，內容有關您需要核准的專案、已指派給您的工作分派，或您關聯專案的註解與變更。
+title: 管理[!DNL Microsoft]團隊中的[!DNL Adobe Workfront]個通知
+description: 您可以從[!DNL Adobe Workfront]接收有關您需要核准的專案、已給予您的指派，或您關聯專案的評論和變更的通知。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-TQID: https://experienceleague.adobe.com/VdZs7a8E9LDHRW8H-pu7-rFZqbwN6yVzxQCUfL4PBPA
+TQID: 'https://experienceleague.adobe.com/VdZs7a8E9LDHRW8H-pu7-rFZqbwN6yVzxQCUfL4PBPA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+    internal-label: Adobe Workfront for Microsoft Teams
   - id: f1b6c8ba-53d0-432b-b0f4-64800d4b376e
+    internal-label: Adobe Workfront for Salesforce
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1422
+source-wordcount: '1425'
 ht-degree: 2%
-
 ---
-
 # 管理[!DNL Microsoft Teams]中的[!DNL Adobe Workfront]個通知
 
 >[!IMPORTANT]
@@ -153,11 +160,11 @@ ht-degree: 2%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th>[!UICONTROL 核准]</th> 
-   <th>[!UICONTROL 拒絕]</th> 
-   <th> <p>[!UICONTROL 變更]</p> </th> 
-   <th> <p>[!UICONTROL 前往校訂] </p> </th> 
-   <th>[!UICONTROL 註解]</th> 
+   <th>[！UICONTROL核准]</th> 
+   <th>[！UICONTROL拒絕]</th> 
+   <th> <p>[！UICONTROL變更]</p> </th> 
+   <th> <p>[！UICONTROL前往校訂] </p> </th> 
+   <th>[！UICONTROL註解]</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -290,9 +297,9 @@ ht-degree: 2%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th>[!UICONTROL 開始]</th> 
-   <th>[!UICONTROL 註解]</th> 
-   <th> <p>[!UICONTROL 狀態]</p> </th> 
+   <th>[！UICONTROL開始]</th> 
+   <th>[！UICONTROL註解]</th> 
+   <th> <p>[！UICONTROL狀態]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -340,8 +347,8 @@ ht-degree: 2%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th>[!UICONTROL 回覆]</th> 
-   <th> <p>[!UICONTROL 狀態]</p> </th> 
+   <th>[！UICONTROL回覆]</th> 
+   <th> <p>[！UICONTROL狀態]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -405,8 +412,8 @@ ht-degree: 2%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th>[!UICONTROL 回覆]</th> 
-   <th> <p>[!UICONTROL 狀態]</p> </th> 
+   <th>[！UICONTROL回覆]</th> 
+   <th> <p>[！UICONTROL狀態]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -421,7 +428,7 @@ ht-degree: 2%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">有人將您的團隊加入[!UICONTROL 導向更新]</td> 
+   <td role="rowheader">有人將您的團隊加入[！UICONTROL導向更新]</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -442,8 +449,8 @@ ht-degree: 2%
  <thead> 
   <tr> 
    <th>通知</th> 
-   <th> <p>[!UICONTROL 註解]</p> </th> 
-   <th> <p>[!UICONTROL 狀態]</p> </th> 
+   <th> <p>[！UICONTROL註解]</p> </th> 
+   <th> <p>[！UICONTROL狀態]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 

@@ -5,32 +5,38 @@ product-area: system-administration;timesheets
 keywords: user，schedule
 navigation-topic: configure-timesheets-and-schedules
 title: 排程總覽
-description: 您可以使用排程來定義您的工作週。 您可以將排程與使用者或專案建立關聯。 這可讓 [!DNL Adobe Workfront] 計算時間表和使用者可用性。 如需指示，請參閱建立排程。
+description: 您可以使用排程來定義您的工作週。 您可以將排程與使用者或專案建立關聯。 這可讓[!DNL Adobe Workfront]計算時間表和使用者可用性。 如需指示，請參閱建立排程。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/RSCrGr2jt6lfVf03ixndpc-GUTxb-XNdiMZMZk0II4g
+TQID: 'https://experienceleague.adobe.com/RSCrGr2jt6lfVf03ixndpc-GUTxb-XNdiMZMZk0II4g'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 761
+source-wordcount: '763'
 ht-degree: 0%
-
 ---
-
 # 排程總覽
 
 <!-- Audited: 1/2024 -->
@@ -84,17 +90,17 @@ ht-degree: 0%
 
 * 當一個使用者被指派到一個任務時，[!DNL Workfront]會使用下列其中一個排程，如[!UICONTROL 設定]的[!UICONTROL 專案偏好設定]區域中所定義：
 
-   * 指派給任務的使用者排程
-   * 與專案關聯的排程。
+  * 指派給任務的使用者排程
+  * 與專案關聯的排程。
 
-     如需個人時間的詳細資訊，請參閱[設定個人休假](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)。
+    如需個人時間的詳細資訊，請參閱[設定個人休假](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)。
 
 * 當多個使用者被指派到一個任務，並且該使用者在該任務的時間範圍內具有不同的排程時，[!DNL Workfront]會使用以下其中一個排程，如[!UICONTROL 設定]的[!UICONTROL 專案偏好設定]區域中所定義：
 
-   * 被指定為主要受指派者的使用者的排程
-   * 與專案關聯的排程。
+  * 被指定為主要受指派者的使用者的排程
+  * 與專案關聯的排程。
 
-     如需有關專案偏好設定的詳細資訊，請參閱[設定全系統的專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
+    如需有關專案偏好設定的詳細資訊，請參閱[設定全系統的專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 
 * 如果指派給任務的使用者沒有排程，或任務僅指派給工作角色、團隊或未指派，[!DNL Workfront]會使用專案排程進行時間表計算。
 * 如果指派給任務的使用者沒有排程，或任務僅指派給工作角色、團隊或未指派，並且專案沒有排程，則[!DNL Workfront]會使用系統中指定為預設排程的排程來計算時間表。

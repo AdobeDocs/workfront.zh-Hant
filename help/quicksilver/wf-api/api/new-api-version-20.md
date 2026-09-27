@@ -9,20 +9,24 @@ role: Developer
 exl-id: 2cf9d708-ce62-4434-8352-31dd8440ecb9
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/68EwYY0fktdR0x0e3tR8V0MJ2QkmmpL3nkxZ9CBnEn8
+TQID: 'https://experienceleague.adobe.com/68EwYY0fktdR0x0e3tR8V0MJ2QkmmpL3nkxZ9CBnEn8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Metadata
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1807
+source-wordcount: '1807'
 ht-degree: 0%
-
 ---
-
 # API 20版的新增功能
 
 Adobe Workfront於2025年5月4日發行API 20版。 API 20版具有下列19版中的變更。

@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
-title: 管理 [!DNL Workfront Proof]中的校訂角色
+title: 管理[!DNL Workfront Proof]中的校訂角色
 description: 校訂角色可讓您向受使用者設定檔上設定的許可權設定檔限制的使用者授予許可權。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b371cc20-4226-49ce-96c6-9815b2e84713
-TQID: https://experienceleague.adobe.com/-kFiMr-1GYxY3JvfHTW0NBNupGvnob0KuzELquFISDI
+TQID: 'https://experienceleague.adobe.com/-kFiMr-1GYxY3JvfHTW0NBNupGvnob0KuzELquFISDI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1317
+source-wordcount: '1317'
 ht-degree: 1%
-
 ---
-
 # 管理[!DNL Workfront Proof]中的校訂角色
 
 <!-- Audited: 01/2024 -->
@@ -31,11 +40,11 @@ ht-degree: 1%
 >
 >本文提及獨立產品[!DNL Workfront Proof]中的功能。 有關[!DNL Adobe Workfront]內部校訂的資訊，請參閱[校訂](../../../review-and-approve-work/proofing/proofing.md)。
 
-校訂角色可讓您向受使用者設定檔上設定的許可權設定檔限制的使用者授予許可權。 （如需許可權設定檔的詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。）
+校訂角色可讓您向受使用者設定檔上設定的許可權設定檔限制的使用者授予許可權。 （如需許可權設定檔的詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔。）
 
 校樣角色與帳戶設定檔不同。 您的帳戶設定檔與您帳戶中的整體許可權層級有關，並將影響您對帳戶中所有校訂所擁有的許可權，即使那些尚未明確與您共用的校訂亦然。
 
-如需詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
+如需詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔。
 
 ## 關於校訂角色
 
@@ -222,7 +231,7 @@ ht-degree: 1%
 >
 >只有具有管理員或計費管理員設定檔的使用者才能變更其帳戶中其他使用者的校訂預設值。
 
-如需詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-getstarted/personal-settings/personal-settings.md)中的個人設定。
+如需詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/personal-settings.md)中的[個人設定。
 
 ## 建立者和擁有者
 
@@ -263,7 +272,7 @@ ht-degree: 1%
 >
 >只有來自相同帳戶或合作夥伴帳戶的使用者才能成為校訂的擁有者。 只有符合以下條件時，合作夥伴帳戶中的使用者才能成為校訂的擁有者：
 >
->* 帳戶之間已設定現有的合作夥伴關係。 如需詳細資訊，請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md)中的夥伴帳戶。
+>* 帳戶之間已設定現有的合作夥伴關係。 如需詳細資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md)中的[夥伴帳戶。
 >* [!UICONTROL 新校訂]頁面上沒有自訂欄位。
 >* 校訂尚未指派到資料夾。
 >* 尚未將任何標籤套用到校訂。

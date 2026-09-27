@@ -1,27 +1,32 @@
 ---
 navigation-topic: search
 title: 搜尋 [!DNL Adobe Workfront]
-description: 當您不記得專案的確切位置時，可以搜尋專案，在 [!DNL Adobe Workfront] 中輕鬆找到專案。
+description: 當您不記得專案的確切位置時，可以搜尋專案，輕鬆找到[!DNL Adobe Workfront]中的專案。
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-TQID: https://experienceleague.adobe.com/3dFbIhQzzlEcbHdb3lO0R0-2eAZ2GkDmVo1g5i0z5gI
+TQID: 'https://experienceleague.adobe.com/3dFbIhQzzlEcbHdb3lO0R0-2eAZ2GkDmVo1g5i0z5gI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1469
+source-wordcount: '1523'
 ht-degree: 2%
-
 ---
-
 # 搜尋 [!DNL Adobe Workfront]
 
 <!-- Audited: 5/2025 -->
@@ -54,7 +59,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL View]物件型別的存取權/td&gt; 
+   <td>[！UICONTROL View]物件型別的存取權/td&gt; 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
@@ -92,11 +97,11 @@ ht-degree: 2%
 
 * **基本搜尋**：在基本搜尋中搜尋物件時，[!DNL Workfront]會在下列欄位中尋找可能包含關鍵字的文字：
 
-   * 物件名稱
-   * 說明
-   * 自訂資料欄位
-   * 更新
-   * 檔名稱（在特定檔案搜尋和基本搜尋中）
+  * 物件名稱
+  * 說明
+  * 自訂資料欄位
+  * 更新
+  * 檔名稱（在特定檔案搜尋和基本搜尋中）
 
   如需[!DNL Workfront]中「基本搜尋」的詳細資訊，請參閱本文中的下列章節： [基本搜尋](#basic-search)。
 
@@ -148,7 +153,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>包含OR</td> 
-   <td> <p>使用「OR」連線單字（不含引號）可讓您僅尋找至少符合[!UICONTROL 搜尋]方塊中一個單字的物件。 這些字詞可依任何順序輸入。<br>例如，搜尋「Marketing OR Demo」（不含引號）會尋找具有以下名稱的物件：</p> 
+   <td> <p>使用「OR」連線單字（不含引號）可讓您僅尋找至少符合[！UICONTROL搜尋]方塊中一個單字的物件。 這些字詞可依任何順序輸入。<br>例如，搜尋「Marketing OR Demo」（不含引號）會尋找具有以下名稱的物件：</p> 
     <ul> 
      <li> 市場分析示範</li> 
      <li>1月市場分析示範</li> 
@@ -158,7 +163,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>包含和</td> 
-   <td> <p>使用「AND」連線單字（不含引號）可讓您僅尋找符合[!UICONTROL 搜尋]方塊中所有單字的物件。 這些字詞可依任何順序輸入。<br>例如，搜尋「Marketing AND Demo」（不含引號）會尋找具有以下名稱的物件：</p> 
+   <td> <p>使用「AND」連線單字（不含引號）可讓您僅尋找符合[！UICONTROL搜尋]方塊中所有單字的物件。 這些字詞可依任何順序輸入。<br>例如，搜尋「Marketing AND Demo」（不含引號）會尋找具有以下名稱的物件：</p> 
     <ul> 
      <li>行銷示範</li> 
      <li>示範行銷</li> 
@@ -203,7 +208,7 @@ ht-degree: 2%
 
    ![依物件型別搜尋](assets/search-by-object-type-2026.png)
 
-1. 在&#x200B;**[!UICONTROL 搜尋]**&#x200B;方塊中，開始輸入您要搜尋的資訊。
+1. 在&#x200B;**[!UICONTROL 搜尋]**方塊中，開始輸入您要搜尋的資訊。
 如需[!DNL Workfront]中搜尋哪些欄位的詳細資訊，請參閱本文中的下列章節： [瞭解搜尋](#understand-search)。
    ![搜尋下拉式清單](assets/search-dropdown-suggestions-2026.png)
 
@@ -234,7 +239,7 @@ ht-degree: 2%
 
 1. （條件式）如果您執行一般搜尋，請在結果左上角的物件清單中選取要搜尋的物件。
 1. 在結果左側的工具列中，找出搜尋中顯示的物件可用的欄位。 每個欄位的值會依計數排序，每個欄位最多可顯示10個值。
-1. 在任一可用欄位中按一下，以縮短結果清單。您所做的選擇會以藍色反白，而未選取的欄位值會隱藏。
+1. 在任一可用欄位中按一下，以縮短結果清單。 您所做的選擇會以藍色反白，而未選取的欄位值會隱藏。
 選取每個新值後，右側的結果會動態更新。
 
    ![基本搜尋索引標籤](assets/basic-search.png)

@@ -6,22 +6,29 @@ description: 您可以在畫布控制面板中檢閱核准量度。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-TQID: https://experienceleague.adobe.com/c8-TIFSw6jfjZq-S76dP7SSrf69EFAfjB-OPAJJdVOQ
+TQID: 'https://experienceleague.adobe.com/c8-TIFSw6jfjZq-S76dP7SSrf69EFAfjB-OPAJJdVOQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 3c25e6bf7cfa1e2ac25a83096d83a8eb0ef4a148
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2771
+source-wordcount: '2771'
 ht-degree: 0%
-
 ---
-
 # 建立報表控制面板以供檢閱和核准
 
 您可以在「畫布控制面板」區域中建立報告控制面板，以顯示有關具有整合式核准功能的檢閱和核准的高階資訊和詳細資訊。
@@ -459,7 +466,7 @@ ht-degree: 0%
 1. 按一下&#x200B;**編輯篩選器** > **新增條件**：
    1. 按一下空白條件篩選，然後按一下&#x200B;**挑選欄位**。
    1. 選取&#x200B;**檔案版本** > **檔案** > **專案** > **所有者** >在搜尋方塊中輸入&#x200B;_名稱_。
-   1. 將運運算元變更為&#x200B;**等於**，然後選擇&#x200B;**我（已登入的使用者）**&#x200B;以在Workfront中顯示您標示為專案所有者的專案。
+   1. 將運運算元變更為&#x200B;**等於**，然後選擇&#x200B;**我（已登入的使用者）**以在Workfront中顯示您標示為專案所有者的專案。
       ![擱置核准資料表篩選範例](assets/pending-approvals-my-project-filter.png)
 1. 按一下熒幕右上角的&#x200B;**儲存**。
 
@@ -468,7 +475,7 @@ ht-degree: 0%
 1. 按一下&#x200B;**編輯篩選器** > **新增條件**：
    1. 按一下進入空條件篩選器，按一下&#x200B;**挑選欄位**。
    1. 選取&#x200B;**核准階段** > **核准階段參與者** > **請求者** >在搜尋方塊中輸入&#x200B;_名稱_。
-   1. 將運運算元變更為&#x200B;**等於**，然後選擇&#x200B;**我（已登入的使用者）**&#x200B;以在Workfront中顯示您標示為專案所有者的專案。
+   1. 將運運算元變更為&#x200B;**等於**，然後選擇&#x200B;**我（已登入的使用者）**以在Workfront中顯示您標示為專案所有者的專案。
       ![擱置核准資料表篩選範例](assets/pending-approvals-my-project-filter.png)
 1. 按一下熒幕右上角的&#x200B;**儲存**。
 
@@ -555,7 +562,7 @@ ht-degree: 0%
 1. 按一下&#x200B;**編輯篩選器** > **新增條件**：
    1. 按一下進入空條件篩選器，按一下&#x200B;**挑選欄位**。
    1. 選取&#x200B;**檔案版本** > **檔案** > **專案** > **所有者** >在搜尋方塊中輸入&#x200B;_名稱_。
-   1. 將運運算元變更為&#x200B;**等於**，然後選擇&#x200B;**我（已登入的使用者）**&#x200B;以在Workfront中顯示您標示為專案所有者的專案。
+   1. 將運運算元變更為&#x200B;**等於**，然後選擇&#x200B;**我（已登入的使用者）**以在Workfront中顯示您標示為專案所有者的專案。
       ![擱置核准資料表篩選範例](assets/pending-approvals-my-project-filter.png)
 1. 按一下熒幕右上角的&#x200B;**儲存**。
 
@@ -564,7 +571,7 @@ ht-degree: 0%
 1. 按一下&#x200B;**編輯篩選器** > **新增條件**：
    1. 按一下進入空條件篩選器，按一下&#x200B;**挑選欄位**。
    1. 選取&#x200B;**核准階段** > **核准階段參與者** > **請求者** >在搜尋方塊中輸入&#x200B;_名稱_。
-   1. 將運運算元變更為&#x200B;**等於**，然後選擇&#x200B;**我（已登入的使用者）**&#x200B;以在Workfront中顯示您標示為專案所有者的專案。
+   1. 將運運算元變更為&#x200B;**等於**，然後選擇&#x200B;**我（已登入的使用者）**以在Workfront中顯示您標示為專案所有者的專案。
       ![擱置核准資料表篩選範例](assets/pending-approvals-my-project-filter.png)
 1. 按一下熒幕右上角的&#x200B;**儲存**。
 
@@ -573,7 +580,7 @@ ht-degree: 0%
 1. 按一下&#x200B;**編輯篩選器** > **新增條件**：
    1. 按一下進入空條件篩選器，按一下&#x200B;**挑選欄位**。
    1. 選取&#x200B;**核准階段** > **核准階段參與者** > **參與者團隊** >在搜尋方塊中輸入&#x200B;_名稱_。
-   1. 將運運算元變更為&#x200B;**等於**，然後選擇&#x200B;**我的預設團隊（登入使用者）**&#x200B;或&#x200B;**我的其他團隊（登入使用者）**&#x200B;以顯示指派給您的預設團隊或您所在的其他團隊的專案。
+   1. 將運運算元變更為&#x200B;**等於**，然後選擇&#x200B;**我的預設團隊（登入使用者）**&#x200B;或&#x200B;**我的其他團隊（登入使用者）**以顯示指派給您的預設團隊或您所在的其他團隊的專案。
       ![擱置核准資料表篩選範例](assets/approvals-ive-submitted-filter.png)
 
    1. 按一下&#x200B;**新增條件**。

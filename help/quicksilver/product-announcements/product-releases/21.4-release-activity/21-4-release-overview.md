@@ -8,27 +8,37 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0897b269-c6f3-4b63-8956-b7f9fbe0a553
-TQID: https://experienceleague.adobe.com/vwgAQJSe18Esj-O1VLnjZf6jCuJSXk4O-WVjCoDRHuI
+TQID: 'https://experienceleague.adobe.com/vwgAQJSe18Esj-O1VLnjZf6jCuJSXk4O-WVjCoDRHuI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 4862
+source-wordcount: '4862'
 ht-degree: 0%
-
 ---
-
 # 21.4版本總覽
 
 本頁提供Adobe Workfront Classic功能和21.4版所含新Adobe Workfront體驗的相關資訊。
@@ -70,7 +80,7 @@ unless otherwise specifiedthe week of May 10, 2021.
 </MadCap:conditionalText>
 
 
-For specific release dates and times for each cluster, see the [Adobe Workfront status page](https://status.adobe.com/zh-tw/products/5943) on [status.adobe.com](http://status.adobe.com/zh-tw/). You must log in to see specific release times.
+For specific release dates and times for each cluster, see the [Adobe Workfront status page](https://status.adobe.com/en/products/5943) on [status.adobe.com](http://status.adobe.com/). You must log in to see specific release times.
 
 -->
 
@@ -457,13 +467,13 @@ Workfront Scenario Planner第21.4發行版本將推出新功能。 如需這些�
 
 針對API版本14，我們已修改一些資源和端點。 有些變更支援新功能，有些則讓您更輕鬆地透過API使用可用資訊。
 
-如需新增和更新的詳細資訊，請參閱[&#x200B; API 14](../../../wf-api/api/new-api-version-14.md)版的新增功能。
+如需新增和更新的詳細資訊，請參閱[ API 14](../../../wf-api/api/new-api-version-14.md)版的新增功能。
 
 如需API版本的資訊，請參閱[API版本設定與支援排程](../../../wf-api/api/api-version-support-schedule.md)。
 
 ## 21.4版本網路研討會
 
-Workfront 21.4版本網路研討會已於2021年9月23日推出。 您可以從Workfront One[&#128279;](https://one.workfront.com/s/event)上的活動頁面檢視網路研討會影片。
+Workfront 21.4版本網路研討會已於2021年9月23日推出。 您可以從Workfront One](https://one.workfront.com/s/event)上的[活動頁面檢視網路研討會影片。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -8,22 +8,28 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
-TQID: https://experienceleague.adobe.com/v22T-oPz-Tx6iizM-CHAoxpaJklqGeb9kbd5-VluHtg
+TQID: 'https://experienceleague.adobe.com/v22T-oPz-Tx6iizM-CHAoxpaJklqGeb9kbd5-VluHtg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 550
+source-wordcount: '550'
 ht-degree: 4%
-
 ---
-
 # 刪除群組狀態
 
 作為群組管理員，您可以刪除您管理的群組的狀態（如果未在系統層級上設定為必要或鎖定狀態），或是刪除階層中較高群組的狀態。
@@ -88,10 +94,10 @@ ht-degree: 4%
 
    * **若已鎖定**：下列其中一項true：
 
-      * 如果有其他鎖定、非隱藏的狀態，則只能使用這些狀態。
-      * 如果沒有鎖定的非隱藏狀態，則預設的Workfront狀態可供使用，即使該狀態為隱藏或未鎖定亦然。
+     * 如果有其他鎖定、非隱藏的狀態，則只能使用這些狀態。
+     * 如果沒有鎖定的非隱藏狀態，則預設的Workfront狀態可供使用，即使該狀態為隱藏或未鎖定亦然。
 
-        如需有關預設Workfront狀態的資訊，請參閱[存取系統專案狀態清單](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)，[存取系統任務狀態清單](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)，以及[中有關4個必要問題狀態的資訊。存取系統問題狀態清單](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)。
+       如需有關預設Workfront狀態的資訊，請參閱[存取系統專案狀態清單](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)，[存取系統任務狀態清單](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)，以及[中有關4個必要問題狀態的資訊。存取系統問題狀態清單](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)。
 
 1. 按一下&#x200B;**刪除**。
 

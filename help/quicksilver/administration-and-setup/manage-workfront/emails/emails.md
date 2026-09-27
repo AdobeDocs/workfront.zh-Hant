@@ -12,25 +12,31 @@ recommendations: noDisplay, noCatalog
 exl-id: cdc0a2bb-f125-42b2-acab-c869bc71250c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/t-kTwX7J47gGdomK36R7vwuojBveDZBPXBLPxr2vIWU
+TQID: 'https://experienceleague.adobe.com/t-kTwX7J47gGdomK36R7vwuojBveDZBPXBLPxr2vIWU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 261
+source-wordcount: '261'
 ht-degree: 3%
-
 ---
-
 # 電子郵件
 
 Adobe Workfront中的電子郵件包含通知、提醒和使用者邀請。 系統管理員負責建立許多電子郵件設定；但是，其他使用者（視存取層級而定）可以受益於使用電子郵件功能來管理他們自己的工作相關通訊。

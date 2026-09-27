@@ -6,22 +6,26 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 5457f516-c213-4b82-b033-bc8db943a217
-TQID: https://experienceleague.adobe.com/HqqE7qvcwIZxg83G3EtJmr5t0g7WVBimiJBnnQrVcv0
+TQID: 'https://experienceleague.adobe.com/HqqE7qvcwIZxg83G3EtJmr5t0g7WVBimiJBnnQrVcv0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 513
+source-wordcount: '513'
 ht-degree: 4%
-
 ---
-
 # 在優先順序中記錄時間
 
 您可以在Adobe Workfront中記錄工作專案的時間，以指出您花在工作專案上的小時數。 您的記錄時間會顯示在您的時程表中。
@@ -75,7 +79,7 @@ ht-degree: 4%
 
 1. （視條件而定）如果您的Workfront或群組管理員已啟用手動將工作角色指派至時數專案設定，請從下拉式選單中選取工作角色。 依預設，系統會顯示指派給工作專案時所指定的角色。 如果您在物件上未被指派角色，您的「主要角色」會顯示為預設值。 如果您沒有指派主要角色，則不會顯示任何工作角色。
 
-1. 輸入您要記錄的時間，然後按一下[記錄時間]。**&#x200B;**
+1. 輸入您要記錄的時間，然後按一下[記錄時間]。****
 
    ![記錄時間](assets/log-time-dialog.png)
 
@@ -90,6 +94,6 @@ ht-degree: 4%
 1. 在&#x200B;**小時型別**&#x200B;下拉式功能表中，選取適當的小時型別。 如定義時數型別和可用性所述，可用時數型別取決於系統、專案和使用者層級中已定義的內容。
 1. （視條件而定）如果您的Workfront或群組管理員已啟用手動將工作角色指派至時數專案設定，請從下拉式選單中選取工作角色。 依預設，系統會顯示指派給工作專案時所指定的角色。 如果您在物件上未被指派角色，您的「主要角色」會顯示為預設值。 如果您沒有指派主要角色，則不會顯示任何工作角色。
 
-1. 輸入您要記錄的時間，然後按一下[記錄時間]。**&#x200B;**
+1. 輸入您要記錄的時間，然後按一下[記錄時間]。****
 
    ![記錄時間](assets/log-time-dialog.png)

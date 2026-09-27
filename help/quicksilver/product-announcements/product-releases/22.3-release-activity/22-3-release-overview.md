@@ -6,35 +6,51 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bfc7ce9e-b715-47b7-bab7-2e3540d0da3e
-TQID: https://experienceleague.adobe.com/yhdEiiC-0I-M1m8xTKfqQa1BSsyf-kZOGDWtCKMhTyA
+TQID: 'https://experienceleague.adobe.com/yhdEiiC-0I-M1m8xTKfqQa1BSsyf-kZOGDWtCKMhTyA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
   - id: d1807669-3cb9-4c7d-8433-600aa390c92f
+    internal-label: Adobe Workfront for Creative Cloud Plugin
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3364
+source-wordcount: '3390'
 ht-degree: 2%
-
 ---
-
 # 22.3版本總覽
 
 本頁提供22.3版本中包含之功能的相關資訊。 新版Adobe Workfront體驗將列出所有功能。 Adobe Workfront Classic也提供部分功能；不過，[Workfront Classic將於2022年3月終止](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home)，其後不久將於2022年7月Workfront Classic終止服務。
@@ -320,7 +336,7 @@ ht-degree: 2%
                         <a href="/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront行銷活動(Beta)</a> </p>
                         <p>我們為Adobe Workfront引入全新物件，此物件有可能改變您管理工作方式。 </p>
                         <p>Workfront行銷活動可讓您在新的工作容器中組織來自不同投資組合和方案的專案。
-行銷活動在2022年7月透過22.3版發行預覽測試版。如需詳細資訊，請參閱<a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">22.3專案增強功能</a> </p>
+行銷活動在2022年7月透過22.3版發行預覽測試版。 如需詳細資訊，請參閱<a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">22.3專案增強功能</a> </p>
 <p>此新容器將在未來版本中改進，以連線目前在不同獨立單位中管理的工作物件。</p>
 
 </td>
@@ -550,7 +566,7 @@ Workfront Fusion中的新功能可在22.3發行排程之外的步調中用於生
 
 針對API版本14，我們已修改一些資源和端點。 有些變更支援新功能，有些則讓您更輕鬆地透過API使用可用資訊。
 
-如需新增和更新的詳細資訊，請參閱[&#x200B; API 14](../../../wf-api/api/new-api-version-14.md)版的新增功能。
+如需新增和更新的詳細資訊，請參閱[ API 14](../../../wf-api/api/new-api-version-14.md)版的新增功能。
 
 如需API版本的資訊，請參閱[API版本設定與支援排程](../../../wf-api/api/api-version-support-schedule.md)。
 

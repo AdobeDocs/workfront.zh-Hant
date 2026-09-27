@@ -7,18 +7,24 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5656710c-873b-4f8c-822f-49858f149892
-TQID: https://experienceleague.adobe.com/l83QAxJpcxJjhoNruRz62063hIOKhZVSbV6w3hCPG-U
+TQID: 'https://experienceleague.adobe.com/l83QAxJpcxJjhoNruRz62063hIOKhZVSbV6w3hCPG-U'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 320
+source-wordcount: '320'
 ht-degree: 3%
-
 ---
-
 # R1發行網路研討會
 
 這些網路研討會著重於R1版本中的功能。 

@@ -6,22 +6,29 @@ description: 您可以為儲存在ZIP檔案中的非網站互動式內容產生�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ab00d17-a3a3-4417-a958-ac3d95cb8fc8
-TQID: https://experienceleague.adobe.com/wJNC4pCRhTpOfoiB1X6-6vKrYvWA2EaR-x2HfhwcDaY
+TQID: 'https://experienceleague.adobe.com/wJNC4pCRhTpOfoiB1X6-6vKrYvWA2EaR-x2HfhwcDaY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 350
-ht-degree: 6%
-
+source-wordcount: '388'
+ht-degree: 5%
 ---
-
 # 在ZIP檔案中建立互動式內容的校訂
 
 您可以為儲存在ZIP檔案中的非網站互動式內容產生校訂。 這類網頁內容的範例包括含有串流視訊或音訊的廣告、HTML動畫、互動橫幅。
@@ -62,7 +69,7 @@ ht-degree: 6%
 
 ## 在ZIP檔案中建立互動式內容的校訂
 
-一旦您將互動式內容加入ZIP檔案到校訂中，Adobe Workfront就會建立壓縮檔案的校訂。上傳載入時間會依檔案大小而有所不同。建立大型檔案需要更長的時間。您可以離開頁面，Workfront會繼續建立您的檔案。 檔案上傳大小上限為4GB。 
+一旦您將互動式內容加入ZIP檔案到校訂中，Adobe Workfront就會建立壓縮檔案的校訂。 上傳載入時間會依檔案大小而有所不同。 建立大型檔案需要更長的時間。 您可以離開頁面，Workfront會繼續建立您的檔案。 檔案上傳大小上限為4GB。 
 
 1. 建立ZIP隨附檔案，準備您的內容。
 
@@ -78,7 +85,7 @@ ht-degree: 6%
 
 1. 前往您要上傳ZIP檔案的專案、任務或問題。
 1. 按一下左側面板中的&#x200B;**檔案**。
-1. 按一下[新增]&#x200B;**&#x200B;**，然後在出現的功能表中按一下[校訂]&#x200B;**&#x200B;**。
+1. 按一下[新增]****，然後在出現的功能表中按一下[校訂]****。
 1. 在&#x200B;**新增檔案**&#x200B;區段中，拖放或瀏覽您所需的ZIP檔案。
 1. 按一下&#x200B;**建立校訂**&#x200B;以建立不含稽核程式的簡單校訂。\
    或\

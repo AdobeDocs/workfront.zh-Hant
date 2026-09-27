@@ -4,13 +4,20 @@ description: 2026年第四季度Financial Management增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4ca5bba5090d9e3a72c8964bdf6cca1085c314db
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%
-
 ---
-
 # 2026年第四季度Financial Management增強功能
 
 本頁說明2026年第四季度發行的「預覽」環境中的Financial Management增強功能。 如上所述，這些增強功能將於生產環境中提供。

@@ -8,29 +8,36 @@ feature: Agile
 exl-id: d4eec3c5-8cea-467f-b1b4-3f9fab57b10f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/CapWxR-tjybMrL03dQVmq4La0hsYrEMncixYSLGnxr0
+TQID: 'https://experienceleague.adobe.com/CapWxR-tjybMrL03dQVmq4La0hsYrEMncixYSLGnxr0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 415
+source-wordcount: '416'
 ht-degree: 4%
-
 ---
-
 # 從[!UICONTROL Scrum]展示板新增劇本和問題
 
 您可以直接從Scrum展示板快速建立新劇本或問題，或從展示板新增現有劇本或問題。
 
 >[!NOTE]
 >
->工作專案[!UICONTROL 計劃開始日期]和[!UICONTROL 計畫完成日期]受[!UICONTROL 編輯團隊]頁面上的設定影響。 如需詳細資訊，請參閱[設定Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)一文中的[[[!UICONTROL 設定將工作專案新增至疊代]](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)時如何套用日期]一節。
+>工作專案[!UICONTROL 計劃開始日期]和[!UICONTROL 計畫完成日期]受[!UICONTROL 編輯團隊]頁面上的設定影響。 如需詳細資訊，請參閱[設定Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)一文中的[[!UICONTROL 設定將工作專案新增至疊代](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)時如何套用日期]一節。
 
 ## 存取權要求
 
@@ -46,13 +53,13 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 授權</td> 
-   <td> <p>新增：[!UICONTROL Standard]</p> 
+   <td> <p>新增：[！UICONTROL Standard]</p> 
    或
-   <p>目前： [!UICONTROL Work]或更高版本</p> </td> 
+   <p>目前： [！UICONTROL Work]或更高版本</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td>[!UICONTROL 管理]任務或問題所在專案的存取權 </td> 
+   <td>[！UICONTROL管理]任務或問題所在專案的存取權 </td> 
   </tr>
  </tbody> 
 </table>
@@ -80,11 +87,11 @@ ht-degree: 4%
         <td>專案的說明。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 估計]</strong></td>
+        <td><strong>[！UICONTROL估計]</strong></td>
         <td>預估專案小時數或點數。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 父專案]</strong></td>
+        <td><strong>[！UICONTROL父專案]</strong></td>
         <td>（必要）儲存新內文或問題的專案。 開始輸入專案名稱，然後在其顯示在清單中時選取它。</td>
     </tr>
    </table>

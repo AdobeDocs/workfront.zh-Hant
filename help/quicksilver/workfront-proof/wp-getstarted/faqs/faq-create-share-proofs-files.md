@@ -8,23 +8,33 @@ description: 校訂是靜態、音訊或視訊檔案，可在校訂檢視器中�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb0eb160-4bcf-4bc1-ad13-df19f692bef6
-TQID: https://experienceleague.adobe.com/0oYcd7WkVWw4a1mX8yXtOSdmcqcXXC2cxNbXTarsQt0
+TQID: 'https://experienceleague.adobe.com/0oYcd7WkVWw4a1mX8yXtOSdmcqcXXC2cxNbXTarsQt0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1370
+source-wordcount: '1370'
 ht-degree: 1%
-
 ---
-
 # 常見問題集 — 建立和共用校樣和檔案
 
 >[!IMPORTANT]
@@ -59,7 +69,7 @@ ht-degree: 1%
 
 您可以從靜態檔案、音訊檔案、視訊檔案和URL建立校樣（請參閱）。
 
-若要在帳戶中建立校訂，您必須是具有正確許可權設定檔的使用者（請參閱 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[!UICONTROL 校訂許可權設定檔]）。
+若要在帳戶中建立校訂，您必須是具有正確許可權設定檔的使用者（請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[[!UICONTROL 校訂許可權設定檔]）。
 
 如果同時上傳多個檔案，您會建立多個校樣，並使用一封電子郵件將其傳送給相同的稽核者群組。 如果您的組織有[!UICONTROL Enterprise]或[!UICONTROL Unlimited]帳戶，您可以將檔案合併為單一校訂（請參閱[建立多頁校訂](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)）。
 

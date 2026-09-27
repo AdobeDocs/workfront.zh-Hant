@@ -7,34 +7,45 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-TQID: https://experienceleague.adobe.com/ns4wVw0qHcgzPPrvLx--lnEAaXg2rcoNOBPMZpMth9M
+TQID: 'https://experienceleague.adobe.com/ns4wVw0qHcgzPPrvLx--lnEAaXg2rcoNOBPMZpMth9M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+    internal-label: APIs
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 subfeature_v2:
   - id: bb1dd007-4a34-496d-9d3b-2278fdaadac1
+    internal-label: API Explorer
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b191c48f65bc489457112f8401654d1e4b66fabf
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 4561
+source-wordcount: '4561'
 ht-degree: 0%
-
 ---
-
 # API 基本概念
 
 >[!NOTE]
 >
->本文範例包括`<supported-version>`。 以您要使用的Workfront API版本取代。如需Workfront API版本設定與支援排程的相關資訊，請參閱[API版本設定與支援排程](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
+>本文範例包括`<supported-version>`。 以您要使用的Workfront API版本取代。
+>如需Workfront API版本設定與支援排程的相關資訊，請參閱[API版本設定與支援排程](/help/quicksilver/wf-api/api/api-version-support-schedule.md)。
 
 Adobe Workfront API的目標是透過引入透過HTTP運作的REST-ful架構，簡化與Workfront的整合的建置。 本檔案假設您熟悉REST和JSON回應，並說明Workfront API所採取的方法。
 
@@ -319,7 +330,7 @@ OR陳述式只會傳回API呼叫中符合OR陳述式篩選條件的記錄。 OR�
 
 #### 使用篩選器引數
 
-將URL引數用於搜尋篩選的一個潛在陷阱是Workfront會先剖析某些引數，再檢查是否有不同的驗證方法（即使用者名稱、密碼、apiKey、Cookie）。 發生此情況時，引數不會作為呼叫中的篩選器。
+將URL引數用於搜尋篩選的一個潛在陷阱是Workfront會先剖析某些引數，再檢查是否有不同的驗證方法（即使用者名稱、密碼、apiKey、Cookie）。 發生此情況時，引數不會作為呼叫中的篩選器。 
 
 若要避免此問題，您可以將這些值放入具有JSON格式的篩選引數中。 例如，如果您想篩選使用者名稱testuser，而不是使用 
 <pre>/attask/api/&lt;supported-version&gt;/user/search？username=testuser@workfront.com</pre>在篩選器中傳遞URL引數，如下列範例所示：
@@ -337,7 +348,7 @@ OR陳述式只會傳回API呼叫中符合OR陳述式篩選條件的記錄。 OR�
 
 您可以使用欄位請求引數，指定傳回之特定欄位的逗號分隔清單。 例如，請求
 <pre>/attask/api/&lt;supported-version&gt;/task/search？fields=plannedStartDate，priority</pre>會傳回類似下列的回應：
-<pre>&lbrace;<br>「優先順序」： 2，<br>「名稱」：「第一個任務」，<br>「識別碼」：「4c7c08fa0000002ff924e298ee148df4」，<br>「plannedStartDate」：「2010-08-30T09:00:00:000-0600」<br></pre>
+<pre>{<br>「優先順序」： 2，<br>「名稱」：「第一個任務」，<br>「識別碼」：「4c7c08fa0000002ff924e298ee148df4」，<br>「plannedStartDate」：「2010-08-30T09:00:00:000-0600」<br></pre>
 
 >[!NOTE]
 >
@@ -350,7 +361,7 @@ OR陳述式只會傳回API呼叫中符合OR陳述式篩選條件的記錄。 OR�
 您可以搜尋巢狀物件。 依預設，巢狀物件只傳回名稱和ID。 例如，若要與擁有者取得所有問題，請使用以下請求：
 <pre>/attask/api/&lt;supported-version&gt;/issue/search？fields=owner</pre>如需詳細資訊，您可以使用冒號語法來要求巢狀欄位。 例如，以下請求會搜尋所有問題以及擁有者的名稱、ID、職稱和電話號碼
 <pre>/attask/api/&lt;supported-version&gt;/issue/search？fields=owner：title，owner：phoneNumber</pre>並傳回下列專案： 
-<pre>&lbrace;<br> 「名稱」： 「重要問題」，<br> 「ID」： 「4c78285f00000908ea8cfd66e084939f」，<br> 「擁有者」： &lbrace;<br> 「標題」： 「營運專員」，<br> 「電話號碼」： 「555-1234」，<br> 「名稱」： 「管理員使用者」，<br> 「ID」： 「4c76ed7a0000054c172b2d9f7f81c3」 <br> <br></pre>
+<pre>{<br> 「名稱」： 「重要問題」，<br> 「ID」： 「4c78285f00000908ea8cfd66e084939f」，<br> 「擁有者」： {<br> 「標題」： 「營運專員」，<br> 「電話號碼」： 「555-1234」，<br> 「名稱」： 「管理員使用者」，<br> 「ID」： 「4c76ed7a0000054c172b2d9f7f81c3」 <br> <br></pre>
 
 #### 正在擷取巢狀集合
 
@@ -455,7 +466,7 @@ OR陳述式只會傳回API呼叫中符合OR陳述式篩選條件的記錄。 OR�
 若要覆寫「預設結果數目」查詢限制並允許200個結果，您可以在查詢中包含`$$LIMIT=200`篩選器，如下列範例所示：
 <pre>GET /attask/api/&lt;supported-version&gt;/project/search？$$LIMIT=200</pre>
 
-為確保系統中其他租使用者的可靠性和效能，每個查詢允許的結果限制上限為2000個物件。 嘗試指定較大的限制會導致`IllegalArgumentException`錯誤訊息。
+為確保系統中其他租使用者的可靠性和效能，每個查詢允許的結果限制上限為2000個物件。 嘗試指定較大的限制會導致`IllegalArgumentException`錯誤訊息。 
 
 因此，我們建議您針對大型資料集使用分頁回應。 若要指定應傳回的第一個結果，請新增`$$FIRST`篩選器。 例如，下列要求會針對查詢傳回結果201-250：
 <pre>GET /attask/api/&lt;supported-version&gt;/project/search？$$FIRST=200&amp;$$LIMIT=50</pre>
@@ -495,7 +506,7 @@ POST /attask/api/<supported-version>/project?copySourceID=4c7...&name=Copied Pro
 您可以透過下列API URL上傳檔案：
 <pre>POST /attask/api/&lt;supported-version&gt;/upload</pre>API預期內容型別為多部分/表單資料。 檔案的引數名稱必須是uploadedFile。 伺服器會傳回下列JSON資料：
 <pre>{<br> "handle"： "4c7c08fa0000002ff924e298ee148df4"<br>}</pre>建立Workfront檔案時，您可以使用控制代碼並張貼至下列URL：
-<pre>POST /attask/api/&lt;supported-version&gt;/document？updates=&lbrace;<br>名稱： aFileName，<br>控制代碼： abc...123，（檔案上傳的控制代碼）<br> docObjCode： PROJ， （或TASK、OPTASK等）<br> objID： abc...123，<br> currentVersion：{version1.0，fileName：aFileName}<br></pre>
+<pre>POST /attask/api/&lt;supported-version&gt;/document？updates={<br>名稱： aFileName，<br>控制代碼： abc...123，（檔案上傳的控制代碼）<br> docObjCode： PROJ， （或TASK、OPTASK等）<br> objID： abc...123，<br> currentVersion：{version1.0，fileName：aFileName}<br></pre>
 
 ## PUT行為
 
@@ -516,7 +527,7 @@ PUT的回應與GET相同。 在這兩種情況下，伺服器都會在更新後�
 ### 進行巢狀更新
 
 有些物件擁有可以更新的私人擁有集合。 例如，下列範例示範如何覆寫指定任務的現有指派：
-<pre>PUT /attask/api/&lt;supported-version&gt;/task/4c7...？updates= <br>&lbrace;<br>指派： [ <br> { <br> assignedToID： "2222...54d0， <br> assignmentPercent： 50.0 <br> }，{ <br> roleID： "1111...54d0"<br> } <br> ] <br></pre>
+<pre>PUT /attask/api/&lt;supported-version&gt;/task/4c7...？updates= <br>{<br>指派： [ <br> { <br> assignedToID： "2222...54d0， <br> assignmentPercent： 50.0 <br> }，{ <br> roleID： "1111...54d0"<br> } <br> ] <br></pre>
 
 >[!NOTE]
 >
@@ -555,9 +566,9 @@ DELETE會移除物件。 在任何情況下，URI都可以包含引數force=true
 
 大量更新陳述式會在單一API呼叫中同時更新多個物件。 大量建立API呼叫的建置方式與一般更新呼叫類似，如下列範例所示：
 <pre>PUT /attask/api/&lt;supported-version&gt;/proj？updates=[{"name"："Test_Project_1"}，{"name"："Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>或 <pre>推播/attask/api/&lt;supported-version&gt;/proj？updates=[{"name"："Test_Project_1"}，{"name"："Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>會傳回類似下列的內容：
-<pre>資料： [{<br> ID： "53ff8d3d003b438b57a8a784df38f6b3"，<br>名稱： "Test_Project_1"，<br>物件代碼： "PROJ"，<br>百分比完成： 0，<br>計畫完成日期： "2014-08-28T11:00:00:000-0400"，<br> plannedStartDate： "2014-08-28T11:00:00:000-0400"，<br>優先順序： 0，<br>預計完成日期： "2014-08-28T16:12:00:000-0400"，<br>狀態： "CUR"<br>}，<br>&lbrace;<br> ID： 「53ff8d49003b43a2562aa34eea3b6b10」，<br>名稱：「Test_Project_2」，<br>對象代碼：「PROJ」，<br>完成百分比： 0usi，<br>計畫完成日期：「2014-08-28T11:00:00:000-0400」，<br>計劃開始日期「2014-08-28T11:00:00:000-0400」，<br>優先順序： 0，<br>預計完成日期：「2014-08-28T16:12:00:000-0400」，<br>狀態：「CUR」<br>]</pre>您也可以進行類似下列的大量更新：
+<pre>資料： [{<br> ID： "53ff8d3d003b438b57a8a784df38f6b3"，<br>名稱： "Test_Project_1"，<br>物件代碼： "PROJ"，<br>百分比完成： 0，<br>計畫完成日期： "2014-08-28T11:00:00:000-0400"，<br> plannedStartDate： "2014-08-28T11:00:00:000-0400"，<br>優先順序： 0，<br>預計完成日期： "2014-08-28T16:12:00:000-0400"，<br>狀態： "CUR"<br>}，<br>{<br> ID： 「53ff8d49003b43a2562aa34eea3b6b10」，<br>名稱：「Test_Project_2」，<br>對象代碼：「PROJ」，<br>完成百分比： 0usi，<br>計畫完成日期：「2014-08-28T11:00:00:000-0400」，<br>計劃開始日期「2014-08-28T11:00:00:000-0400」，<br>優先順序： 0，<br>預計完成日期：「2014-08-28T16:12:00:000-0400」，<br>狀態：「CUR」<br>]</pre>您也可以進行類似下列的大量更新：
 <pre>PUT /attask/api/&lt;supported-version&gt;/proj？Umethod=PUT&amp;updates=[{"ID"："123abcxxxxxxxxxxxxxxxxxxxxxxxx"，"name"："Test_Project_1_ Edit"}，{"ID"："123abcxxxxxxxxxxxxxxxxxxxxxxxx"，"name"："Test_Project_2_Edit"}]&amp;apiKey=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>會傳回類似下列的內容：
-<pre>資料： [ {<br> ID： "53ff8e15003b461d4560f7f65a440078"，<br>名稱： "Test_Project_1_Edit"，<br>物件代碼： "PROJ"，<br>百分比完成： 0，<br>計畫完成日期： "2014-08-28T11:00:00:000-0400"，<br>計劃開始日期： 「2014-08-28T11:00:00:000-0400」，<br>優先順序：0，<br>預計完成日期：「2014-08-28T16:16:00:000-0400」，<br>狀態：「CUR」<br>}，<br>&lbrace;<br> ID： 「53ff8e19003b46238a58d303608de502」，<br>名稱：「Test_Project_2_Edit」，<br>對象代碼：「PROJ」，<br>完成百分比： 0，<br>計畫完成日期：「2014-08-28T11:00:00:000-0400」，<br>計劃開始日期：「2018」 t11:00:00:000-0400"，<br>優先順序： 0，<br>預計完成日期： "2014-08-28T16:16:00:000-0400"，<br>狀態： "CUR"<br>]</pre>如果您希望所有作業都發生在相同交易中，請將"atomic=true"新增至批次API呼叫，作為請求引數。 如此一來，如果有任何作業失敗，所有作業都會回覆。
+<pre>資料： [ {<br> ID： "53ff8e15003b461d4560f7f65a440078"，<br>名稱： "Test_Project_1_Edit"，<br>物件代碼： "PROJ"，<br>百分比完成： 0，<br>計畫完成日期： "2014-08-28T11:00:00:000-0400"，<br>計劃開始日期： 「2014-08-28T11:00:00:000-0400」，<br>優先順序：0，<br>預計完成日期：「2014-08-28T16:16:00:000-0400」，<br>狀態：「CUR」<br>}，<br>{<br> ID： 「53ff8e19003b46238a58d303608de502」，<br>名稱：「Test_Project_2_Edit」，<br>對象代碼：「PROJ」，<br>完成百分比： 0，<br>計畫完成日期：「2014-08-28T11:00:00:000-0400」，<br>計劃開始日期：「2018」 t11:00:00:000-0400"，<br>優先順序： 0，<br>預計完成日期： "2014-08-28T16:16:00:000-0400"，<br>狀態： "CUR"<br>]</pre>如果您希望所有作業都發生在相同交易中，請將"atomic=true"新增至批次API呼叫，作為請求引數。 如此一來，如果有任何作業失敗，所有作業都會回覆。
 
 >[!NOTE]
 >

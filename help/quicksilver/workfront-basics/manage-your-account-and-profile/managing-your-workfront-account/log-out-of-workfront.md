@@ -1,28 +1,33 @@
 ---
 product-area: user-management
 navigation-topic: manage-your-workfront-account
-title: 登出 [!DNL Adobe Workfront]
-description: 基於安全理由，請務必定期登出 [!DNL Adobe Workfront] 。 根據預設， [!DNL Workfront] 會在使用者閒置8小時後自動將其登出。
+title: 登出[!DNL Adobe Workfront]
+description: 基於安全考量，請務必定期登出[!DNL Adobe Workfront]。 根據預設，[!DNL Workfront]會在使用者閒置8小時後自動將其登出。
 author: Becky
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
-TQID: https://experienceleague.adobe.com/TL-sc7xerkROX1uDg9KpPYmgxPHpTbJeDn9lGdkk6Rw
+TQID: 'https://experienceleague.adobe.com/TL-sc7xerkROX1uDg9KpPYmgxPHpTbJeDn9lGdkk6Rw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 127
+source-wordcount: '128'
 ht-degree: 13%
-
 ---
-
 # 登出[!DNL Adobe Workfront]
 
 基於安全考量，請務必定期登出[!DNL Adobe Workfront]。 根據預設，[!DNL Workfront]會在使用者閒置8小時後自動將其登出。

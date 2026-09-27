@@ -6,25 +6,33 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: daf977fe-957a-40ad-a37f-1c164cb4ada3
-TQID: https://experienceleague.adobe.com/ieutvnVZOYbQpqpUgAMx81QcoRXOUuwyB9Tq18b2p4Q
+TQID: 'https://experienceleague.adobe.com/ieutvnVZOYbQpqpUgAMx81QcoRXOUuwyB9Tq18b2p4Q'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Customer experience
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 4991
+source-wordcount: '4991'
 ht-degree: 1%
-
 ---
-
 # 22.1版本總覽
 
 本頁提供22.1版本所含功能的相關資訊。 全新Adobe Workfront體驗提供所有功能。 Adobe Workfront Classic也提供部分功能；不過，[Workfront Classic將於2022年3月終止](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/home)，其後不久將於2022年7月Workfront Classic終止服務。
@@ -60,8 +68,8 @@ These enhancements are currently available in the Preview environment and will b
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 For specific release dates and times for each cluster, see the
-<a href="https://status.adobe.com/zh-tw/products/5943" target="_blank">Adobe Workfront status page</a> on
-<a href="http://status.adobe.com/zh-tw/" target="_blank">status.adobe.com</a>. You must log in to see specific release times
+<a href="https://status.adobe.com/en/products/5943" target="_blank">Adobe Workfront status page</a> on
+<a href="http://status.adobe.com/" target="_blank">status.adobe.com</a>. You must log in to see specific release times
 </MadCap:conditionalText>
 -->
 
@@ -403,7 +411,7 @@ Workfront Proof現已提供新功能。 如需詳細資訊，請參閱[Workfront
 
 針對API版本14，我們已修改一些資源和端點。 有些變更支援新功能，有些則讓您更輕鬆地透過API使用可用資訊。
 
-如需新增和更新的詳細資訊，請參閱[&#x200B; API 14](../../../wf-api/api/new-api-version-14.md)版的新增功能。
+如需新增和更新的詳細資訊，請參閱[ API 14](../../../wf-api/api/new-api-version-14.md)版的新增功能。
 
 如需API版本的資訊，請參閱[API版本設定與支援排程](../../../wf-api/api/api-version-support-schedule.md)。
 
@@ -413,7 +421,7 @@ Workfront Proof現已提供新功能。 如需詳細資訊，請參閱[Workfront
 
 ## 22.1版本網路研討會
 
-Workfront 22.1版本網路研討會已於2022年1月12日推出。 您可以在Workfront One[&#128279;](https://one.workfront.com/s/event)的活動頁面上檢視網路研討會影片。
+Workfront 22.1版本網路研討會已於2022年1月12日推出。 您可以在Workfront One](https://one.workfront.com/s/event)的[活動頁面上檢視網路研討會影片。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

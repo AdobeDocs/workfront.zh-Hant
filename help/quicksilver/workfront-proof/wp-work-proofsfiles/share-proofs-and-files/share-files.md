@@ -3,22 +3,30 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
 title: 在Workfront Proof中共用檔案
-description: 除了管理校樣之外，您還能使用 [!DNL Workfront Proof] 。 也是儲存及共用檔案的理想解決方案。
+description: 除了管理校樣之外，您還能使用[!DNL Workfront Proof]。 也是儲存及共用檔案的理想解決方案。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c4ca7a87-cacc-4b9b-aa9b-d7022ef9e267
-TQID: https://experienceleague.adobe.com/gqAvtlTosbFa3VbRCbgC4zbdQZVM8xzmBH-uF3HZLlU
+TQID: 'https://experienceleague.adobe.com/gqAvtlTosbFa3VbRCbgC4zbdQZVM8xzmBH-uF3HZLlU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 562
+source-wordcount: '563'
 ht-degree: 0%
-
 ---
-
 # 在[!DNL Workfront Proof]中共用檔案
 
 >[!IMPORTANT]
@@ -37,7 +45,7 @@ ht-degree: 0%
 
 1. 您無法選擇加入檔案之人員的角色。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中管理校訂角色。 如果您希望其他人能檢閱/核准檔案，您必須先將檔案轉換為校訂。
 1. 如果您要傳送有關新檔案的電子郵件警示給使用者，請確定已選取&#x200B;**[!UICONTROL 透過電子郵件通知人員]**。\
-   您可以按一下[新增自訂訊息] **&#x200B;**，輸入您要包含在電子郵件中的訊息。\
+   您可以按一下[新增自訂訊息] ****，輸入您要包含在電子郵件中的訊息。\
    電子郵件警報包含個人URL，可帶他們前往可以下載檔案的頁面。
 
 1. 按一下&#x200B;**[!UICONTROL 上傳檔案]**。
@@ -51,7 +59,7 @@ ht-degree: 0%
 
 1. 您無法選擇加入檔案之人員的角色。 如需詳細資訊，請參閱[在 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)中管理校訂角色。 如果您希望其他人能檢閱/核准檔案，您必須先將檔案轉換為校訂。
 1. 如果您要傳送有關新檔案的電子郵件警示給使用者，請確定已選取&#x200B;**[!UICONTROL 透過電子郵件通知人員]**。\
-   您可以按一下[新增自訂訊息] **&#x200B;**，輸入您要包含在電子郵件中的訊息。\
+   您可以按一下[新增自訂訊息] ****，輸入您要包含在電子郵件中的訊息。\
    電子郵件警報包含個人URL，可帶他們前往可以下載檔案的頁面。
 
 1. 按一下&#x200B;**[!UICONTROL 共用]**。

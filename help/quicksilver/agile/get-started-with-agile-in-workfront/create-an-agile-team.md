@@ -8,22 +8,29 @@ feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/LPML04xJOX-N5kVmXX5iBgDipiFIAPbQ11vA1zrZtBo
+TQID: 'https://experienceleague.adobe.com/LPML04xJOX-N5kVmXX5iBgDipiFIAPbQ11vA1zrZtBo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 944
+source-wordcount: '1039'
 ht-degree: 2%
-
 ---
-
 # 建立敏捷團隊
 
 <!--Audited: 01/2024-->
@@ -117,32 +124,32 @@ ht-degree: 2%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 團隊名稱]</strong> </td> 
+      <td role="rowheader"><strong>[！UICONTROL團隊名稱]</strong> </td> 
       <td>輸入新敏捷團隊的名稱。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 這是敏捷團隊]</strong> </td> 
+      <td role="rowheader"><strong>[！UICONTROL這是敏捷團隊]</strong> </td> 
       <td>選取此選項可將此新團隊設定為敏捷團隊。</td> 
      </tr>
 
    <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 作用中]</strong> </td> 
+      <td role="rowheader"><strong>[！UICONTROL作用中]</strong> </td> 
       <td>選取此選項以啟動此團隊。 其他使用者看不到非作用中的團隊以指派給工作。 </td> 
      </tr>
 
 
    <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-      <td role="rowheader"><strong>[!UICONTROL 群組]</strong> </td> 
-      <td> <p>開始鍵入要加入團隊的群組名稱，然後在名稱出現在下拉式清單中時選取名稱。</p> <p><b>附註</b></p> <p> 將專案團隊指派給群組或子群組時，該群組或子群組的任何群組管理員都可以管理專案團隊，而無需成為專案團隊的成員。 群組管理員可以從[!UICONTROL 主功能表]前往[!UICONTROL 團隊]區域，然後按一下[!UICONTROL 切換團隊]箭頭<img src="assets/switch-team-icon.png" alt="切換群組圖示">，列出指派給其管理群組的所有團隊。</p> </td> 
+      <td role="rowheader"><strong>[！UICONTROL群組]</strong> </td> 
+      <td> <p>開始鍵入要加入團隊的群組名稱，然後在名稱出現在下拉式清單中時選取名稱。</p> <p><b>附註</b></p> <p> 將專案團隊指派給群組或子群組時，該群組或子群組的任何群組管理員都可以管理專案團隊，而無需成為專案團隊的成員。 群組管理員可以從[！UICONTROL主功能表]前往[！UICONTROL團隊]區域，然後按一下[！UICONTROL切換團隊]箭頭<img src="assets/switch-team-icon.png" alt="切換群組圖示">，列出指派給其管理群組的所有團隊。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 團隊成員]</strong> </td> 
+      <td role="rowheader"><strong>[！UICONTROL團隊成員]</strong> </td> 
       <td>開始輸入加入團隊的使用者名稱，然後在名稱出現在下拉式清單中時選取名稱。<br>重複此程式，將多位使用者新增至團隊。<br>由於使用者可以位於多個團隊中，因此他們可以同時位於敏捷和非敏捷團隊中。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 描述]</strong> </td> 
-      <td><p>輸入團隊的說明。</p> <p>選擇團隊時，說明會顯示在[!UICONTROL 團隊]區域的右上方。</p>
-      <p>如果說明很長，您可以按一下該說明，在快顯視窗中顯示完整說明。 如果您有權編輯[!UICONTROL 團隊設定]，也可以直接在快顯視窗中編輯說明。</p></td>
+      <td role="rowheader"><strong>[！UICONTROL描述]</strong> </td> 
+      <td><p>輸入團隊的說明。</p> <p>選擇團隊時，說明會顯示在[！UICONTROL團隊]區域的右上方。</p>
+      <p>如果說明很長，您可以按一下該說明，在快顯視窗中顯示完整說明。 如果您有權編輯[！UICONTROL團隊設定]，也可以直接在快顯視窗中編輯說明。</p></td>
      </tr> 
     </tbody> 
    </table>

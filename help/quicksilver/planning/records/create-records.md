@@ -8,25 +8,33 @@ recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/6kEg5JYAO9pilVnKb5eGZbhPeAdbt-g-8SMteodoqP8
+TQID: 'https://experienceleague.adobe.com/6kEg5JYAO9pilVnKb5eGZbhPeAdbt-g-8SMteodoqP8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3670
+source-wordcount: '3730'
 ht-degree: 0%
-
 ---
-
 # 建立記錄
 
 
@@ -207,7 +215,7 @@ Old:
 
 1. 按一下記錄型別卡。 如需有關建立記錄型別的資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
 
-   記錄型別頁面會在您上次存取的檢視中開啟。依預設，會在表格檢視中開啟記錄型別頁面。
+   記錄型別頁面會在您上次存取的檢視中開啟。 依預設，會在表格檢視中開啟記錄型別頁面。
    所選型別的所有記錄都會顯示在檢視中。
 
 1. （視條件而定）從任何檢視中，根據工作區和錄製型別許可權，在熒幕右上角按一下下列內容：
@@ -220,7 +228,7 @@ Old:
 
 1. （視條件而定）如果您按一下&#x200B;**新記錄**，請執行下列動作：
 
-   1. 按一下下列其中一個方式來建立記錄，然後按一下[繼續]&#x200B;**&#x200B;**：
+   1. 按一下下列其中一個方式來建立記錄，然後按一下[繼續]****：
 
       * **手動新增**。 記錄的預覽方塊開啟。\
         從步驟6開始，新增記錄的相關資訊，如[從本文中的記錄型別資料表檢視](#create-records-by-adding-them-inline-from-the-record-type-table-view)區段內嵌新增記錄，以建立記錄中所述。<!--insure this stays accurate-->
@@ -289,7 +297,7 @@ You can import records from other applications by linking them to existing recor
 
 1. 按一下記錄型別卡。 如需有關建立記錄型別的資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
 
-   記錄型別頁面會在您上次存取的檢視中開啟。依預設，會在表格檢視中開啟記錄型別頁面。
+   記錄型別頁面會在您上次存取的檢視中開啟。 依預設，會在表格檢視中開啟記錄型別頁面。
    所選型別的記錄會顯示在檢視中。
 
 1. （視條件而定）從表格檢視中，執行下列任一項作業：
@@ -552,7 +560,7 @@ You can import records from other applications by linking them to existing recor
 1. （視條件而定）如果嘗試連線時找不到記錄，請按一下[新增] **+ [新增]**
 
    或
-   開始輸入名稱，然後按一下&#x200B;**+新增**。 **+新增**&#x200B;按鈕後面接著您連線的記錄型別名稱。 例如，將品牌新增至現有行銷活動時，「新增品牌」。 您輸入的名稱也會跟著新增按鈕。
+   開始輸入名稱，然後按一下**+新增**。 **+新增**&#x200B;按鈕後面接著您連線的記錄型別名稱。 例如，將品牌新增至現有行銷活動時，「新增品牌」。 您輸入的名稱也會跟著新增按鈕。
 
    ![新增按鈕以在醒目提示的內容中建立記錄](assets/add-button-to-create-records-in-context-highlighted.png)
 

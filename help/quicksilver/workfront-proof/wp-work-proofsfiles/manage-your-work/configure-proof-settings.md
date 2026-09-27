@@ -2,25 +2,34 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: 在 [!DNL Workfront Proof]中設定校訂設定
+title: 在[!DNL Workfront Proof]中設定校訂設定
 description: 您可以設定在校樣中建立或編輯的校樣。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ca379054-4737-4796-a812-f2ec38b437ba
-TQID: https://experienceleague.adobe.com/TmIsFRFe5aBI4M9Qv430PwZSpNNPvqojV-S4OVG0ZyI
+TQID: 'https://experienceleague.adobe.com/TmIsFRFe5aBI4M9Qv430PwZSpNNPvqojV-S4OVG0ZyI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1055
+source-wordcount: '1055'
 ht-degree: 1%
-
 ---
-
 # 在[!DNL Workfront Proof]中設定校訂設定
 
 >[!IMPORTANT]

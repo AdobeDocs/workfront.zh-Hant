@@ -2,25 +2,34 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: 在 [!DNL Workfront Proof]中執行報告
+title: 在[!DNL Workfront Proof]中執行報告
 description: Workfront Proof可讓您檢視報表，以便追蹤團隊的工作進度和效率。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 342f9282-b6f5-425e-a7ef-e23bd011d284
-TQID: https://experienceleague.adobe.com/85Z2YFfmz4zUV2oIkQFUDFOYVtLFgiGh44KEm6pAlr4
+TQID: 'https://experienceleague.adobe.com/85Z2YFfmz4zUV2oIkQFUDFOYVtLFgiGh44KEm6pAlr4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 694
+source-wordcount: '694'
 ht-degree: 0%
-
 ---
-
 # 在[!DNL Workfront Proof]中執行報告
 
 
@@ -47,7 +56,7 @@ Workfront Proof可讓您檢視報表，以便追蹤團隊的工作進度和效�
 
 ### 使用者必要條件 {#user-prerequisites}
 
-報告資訊僅適用於擁有您帳戶中所有校訂完整存取權的使用者（亦即 [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中至少有個校訂許可權設定檔的使用者）。
+報告資訊僅適用於擁有您帳戶中所有校訂完整存取權的使用者（亦即 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中至少有[個校訂許可權設定檔的使用者）。
 
 在此面板中，您可以
 
@@ -64,7 +73,7 @@ Workfront Proof可讓您檢視報表，以便追蹤團隊的工作進度和效�
    ![proof_reports.png](assets/proof-reports-350x193.png)
 
 1. 在&#x200B;**[!UICONTROL 時間範圍]**&#x200B;下拉式功能表中，選取您要顯示過去24小時、7天、30天、90天或自訂時段內所建立校樣的相關資訊。\
-   如果您選取自訂時段，請選取開始和結束日期，然後按一下[套用]。**&#x200B;**\
+   如果您選取自訂時段，請選取開始和結束日期，然後按一下[套用]。****\
    系統會顯示所選時段的下列資訊：\
    **建立的校訂：**&#x200B;在選取的時段內建立的校訂數目。\
    **每個校訂的版本：**&#x200B;所選時段內所有已完成校訂（已核准或已核准變更）的每個校訂平均版本數。\

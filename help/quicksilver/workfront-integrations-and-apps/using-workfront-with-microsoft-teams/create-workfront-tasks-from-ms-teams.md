@@ -1,30 +1,36 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: 建立來自 [!DNL Microsoft] 團隊的 [!DNL Adobe Workfront] 工作
-description: 如果團隊擁有者已為您的團隊安裝和設定 [!DNL Workfront] 的Adobe，且您從Microsoft Teams登入Microsoft Teams，您就可以從Microsoft Teams在Workfront [!DNL Workfront] 中建立個人工作。
+title: 從[!DNL Microsoft]個團隊建立[!DNL Adobe Workfront]個任務
+description: 如果團隊擁有者已為您的團隊安裝和設定Adobe的[!DNL Workfront]，並且您從Microsoft Teams登入Workfront，則您可以在Microsoft Teams [!DNL Workfront]中從Microsoft Teams建立個人任務。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 31b86c8d-967a-446a-86f2-3d38e44c45e1
-TQID: https://experienceleague.adobe.com/EGXeEO-HU8813eA-dyVAuKSv6rAQg8tsDiDT5leVee0
+TQID: 'https://experienceleague.adobe.com/EGXeEO-HU8813eA-dyVAuKSv6rAQg8tsDiDT5leVee0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+    internal-label: Adobe Workfront for Microsoft Teams
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 449
+source-wordcount: '453'
 ht-degree: 4%
-
 ---
-
 # 從[!DNL Microsoft Teams]建立[!DNL Adobe Workfront]個任務
 
 >[!IMPORTANT]
@@ -83,12 +89,12 @@ ht-degree: 4%
    * 如果您在[!DNL Workfront]機器人聊天頻道，請在[!UICONTROL 交談]欄位中輸入&#x200B;**[!UICONTROL 新任務]**&#x200B;以建立新任務。
    * 如果您在[!DNL Workfront]機器人聊天頻道以外的聊天頻道：
 
-      * 開始在[!UICONTROL 交談]欄位中輸入&#x200B;**[!DNL @workfront]**，然後選取您想要的[!DNL Workfront]機器人頻道。
-      * 繼續在[!UICONTROL 交談]欄位中輸入&#x200B;**[!UICONTROL 新工作]**&#x200B;以建立新工作。
+     * 開始在[!UICONTROL 交談]欄位中輸入&#x200B;**[!DNL @workfront]**，然後選取您想要的[!DNL Workfront]機器人頻道。
+     * 繼續在[!UICONTROL 交談]欄位中輸入&#x200B;**[!UICONTROL 新工作]**&#x200B;以建立新工作。
 
-        [!UICONTROL 新任務]卡片會顯示在[!DNL Workfront]機器人頻道中。
+       [!UICONTROL 新任務]卡片會顯示在[!DNL Workfront]機器人頻道中。
 
-        ![ms_teams_new_task_card.png](assets/ms-teams-new-task-card-350x181.png)
+       ![ms_teams_new_task_card.png](assets/ms-teams-new-task-card-350x181.png)
 
 1. 在[!UICONTROL Workfront]機器人頻道中，在[!UICONTROL 新增工作]卡片上指定下列資訊：
 

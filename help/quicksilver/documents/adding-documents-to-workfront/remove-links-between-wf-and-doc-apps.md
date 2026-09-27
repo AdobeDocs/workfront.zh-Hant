@@ -8,23 +8,31 @@ feature: Digital Content and Documents
 exl-id: fce8e8aa-fc48-49e1-a71d-c3933a179cf5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/wDii-Gr-3a0NfMhc9VPfbiUNSTyJaJuFHeXACI26NxU
+TQID: 'https://experienceleague.adobe.com/wDii-Gr-3a0NfMhc9VPfbiUNSTyJaJuFHeXACI26NxU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 384
+source-wordcount: '424'
 ht-degree: 4%
-
 ---
-
 # 移除Adobe Workfront和外部檔案儲存提供者之間的連結
 
 第一次從任何服務上傳檔案時，Adobe Workfront會向使用者要求存取其檔案服務的許可權。 當使用者提供他們的檔案服務憑證以登入時，檔案服務會將其自身連結到Workfront。
@@ -36,7 +44,7 @@ ht-degree: 4%
 >[!NOTE]
 >
 >新檔案區域未提供此功能。<br>
->如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的「檔案」區域。如需Adobe雲端儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+>如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的檔案區域。 如需Adobe雲端儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 ## 存取權要求
 
@@ -89,7 +97,7 @@ ht-degree: 4%
 1. 按一下右上角的齒輪圖示，然後按一下&#x200B;**設定**。
 1. 按一下左側的&#x200B;**管理應用程式**，然後在清單中尋找&#x200B;**Workfront**。
 
-1. 在[選項]下拉式功能表下，按一下[中斷與磁碟機的連線]。**&#x200B;**
+1. 在[選項]下拉式功能表下，按一下[中斷與磁碟機的連線]。****
 
 ## 移除Workfront與其他檔案儲存提供者之間的連結
 

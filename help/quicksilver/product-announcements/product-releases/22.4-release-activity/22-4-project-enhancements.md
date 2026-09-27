@@ -6,20 +6,27 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 41372dd8-5002-4f8b-a5ac-a577c8b05d11
-TQID: https://experienceleague.adobe.com/h42aq8ShyeC-mZrt8JlpHYFGfgml9HQ2vWHI0-Op-io
+TQID: 'https://experienceleague.adobe.com/h42aq8ShyeC-mZrt8JlpHYFGfgml9HQ2vWHI0-Op-io'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 965
+source-wordcount: '965'
 ht-degree: 2%
-
 ---
-
 # 22.4專案增強功能
 
 本頁說明22.4版對預覽環境所做的所有專案增強功能。 這些增強功能將在2022年10月3日當週提供。
@@ -119,7 +126,7 @@ ht-degree: 2%
 
 ### 我們需要您的意見反應！
 
-有了此公共Beta，使用者可以按一下意見按鈕，直接將意見提交至處理篩選器體驗的團隊。 我們期待您和您的使用者能分享公開測試版中新的篩選器體驗。 如果您的團隊想要直接與產品會面以提供其他意見反應，歡迎在這裡排程會議： https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&date=2022-08-25
+有了此公共Beta，使用者可以按一下意見按鈕，直接將意見提交至處理篩選器體驗的團隊。 我們期待您和您的使用者能分享公開測試版中新的篩選器體驗。 如果您的團隊想要直接與產品會面以提供其他意見反應，歡迎在這裡排程會議： https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&amp;date=2022-08-25
 
 ### 接下來呢？
 

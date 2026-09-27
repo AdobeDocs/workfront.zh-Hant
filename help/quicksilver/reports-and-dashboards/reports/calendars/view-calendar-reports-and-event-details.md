@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/uBBzqWVxR4akDI-mgnuTbRCfnY9o2-hzpLw-SVWJ-Eo
+TQID: 'https://experienceleague.adobe.com/uBBzqWVxR4akDI-mgnuTbRCfnY9o2-hzpLw-SVWJ-Eo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 590
+source-wordcount: '590'
 ht-degree: 3%
-
 ---
-
 # 檢視行事曆報告和事件詳細資訊
 
 您可以在Adobe Workfront中檢視您建立或與您共用的行事曆報告和事件詳細資訊。
@@ -83,9 +88,9 @@ ht-degree: 3%
 
      若要瞭解共用行事曆，請參閱[[!UICONTROL 共用行事曆]報告](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)。
 
-1. （視條件而定）按一下&#x200B;**[!UICONTROL 檢視]**&#x200B;下拉式清單，然後選取您要檢視的行事曆持續時間。
+1. （視條件而定）按一下&#x200B;**[!UICONTROL 檢視]**下拉式清單，然後選取您要檢視的行事曆持續時間。
    ![行事曆期間](assets/view-menu-calendar-report-350x189.png)
-您可以從下列行事曆報表檢視中進行選擇：
+   您可以從下列行事曆報表檢視中進行選擇：
 
    * **[!UICONTROL 月]**：顯示行事曆的四個星期
    * **[!UICONTROL 周]**：顯示日曆的一週
@@ -110,17 +115,17 @@ ht-degree: 3%
 
    * 若要快速變更顯示的日期：
 
-      1. 在&#x200B;**[!UICONTROL 行事曆]**&#x200B;工具列上，按一下日期指示器的左箭頭在行事曆中往回移動，或按一下右箭頭往前移動。
+     1. 在&#x200B;**[!UICONTROL 行事曆]**&#x200B;工具列上，按一下日期指示器的左箭頭在行事曆中往回移動，或按一下右箭頭往前移動。
 
-         ![按一下箭頭以變更日期](assets/click-arrows-to-change-dates-calendar-report.png)
+        ![按一下箭頭以變更日期](assets/click-arrows-to-change-dates-calendar-report.png)
 
-         顯示的日期會根據您目前的行事曆檢視調整間隔。 例如，如果您在&#x200B;**周**&#x200B;檢視中檢視行事曆，行事曆會向前顯示一週，或向後顯示一週，視您選取的箭頭而定。
+        顯示的日期會根據您目前的行事曆檢視調整間隔。 例如，如果您在&#x200B;**周**&#x200B;檢視中檢視行事曆，行事曆會向前顯示一週，或向後顯示一週，視您選取的箭頭而定。
 
-      1. （選擇性）若要返回當天，請按一下&#x200B;[!UICONTROL **今天**]。
+     1. （選擇性）若要返回當天，請按一下&#x200B;[!UICONTROL **今天**]。
 
 1. （選擇性）若要隱藏連結至行事曆之專案或行事曆群組的事件，請清除專案清單中的專案或行事曆群組。
    ![隱藏事件](assets/hide-events-for-project-or-cal-grouping.png)
-您可以選取專案清單中的[!UICONTROL 專案]或行事曆群組，讓事件再次可見。
+   您可以選取專案清單中的[!UICONTROL 專案]或行事曆群組，讓事件再次可見。
 
 ## 檢視行事曆報告事件詳細資料
 

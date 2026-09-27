@@ -7,23 +7,31 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ed7488f1-2076-4160-97f3-a3da25cccd0f
-TQID: https://experienceleague.adobe.com/YIrC0bPIlY8yLTVQ5VlsYctwXFu-fV5syuqmmh7i5ek
+TQID: 'https://experienceleague.adobe.com/YIrC0bPIlY8yLTVQ5VlsYctwXFu-fV5syuqmmh7i5ek'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Customer experience
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 566
+source-wordcount: '600'
 ht-degree: 0%
-
 ---
-
 # 2019.4其他增強功能
 
 本頁說明2019.4版進行的各種增強功能。 它將在2019年11月11日當週的生產環境中提供。

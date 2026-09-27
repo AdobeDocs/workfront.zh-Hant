@@ -8,18 +8,21 @@ feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/QenYRRNaW0mkZ4oszgmrvs2XBRx7RQ1rKkuJffP2qV0
+TQID: 'https://experienceleague.adobe.com/QenYRRNaW0mkZ4oszgmrvs2XBRx7RQ1rKkuJffP2qV0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1003
+source-wordcount: '1003'
 ht-degree: 6%
-
 ---
-
 # 開始使用首頁
 
 <!--Audited: 12/2023-->
@@ -46,7 +49,7 @@ Adobe Workfront新的首頁體驗旨在改善目前的首頁體驗，同時提�
 
 Widget是新首頁的基礎。 將Widget新增至首頁後，您就可以選擇最符合您工作需求的資訊型別。 某些Widget僅適用於特定授權型別，因為它們追蹤的物件僅適用於這些授權。
 
-如需新增、移動、調整大小或刪除介面工具集的資訊，請參閱新首頁[&#128279;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)中的新增、編輯或移除介面工具。
+如需新增、移動、調整大小或刪除介面工具集的資訊，請參閱新首頁](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)中的[新增、編輯或移除介面工具。
 
 目前有11個Widget可供選擇，以及它們顯示的資訊摘要如下：
 
@@ -164,7 +167,7 @@ Widget是新首頁的基礎。 將Widget新增至首頁後，您就可以選擇�
 
    「自訂」面板隨即開啟。
 
-1. 在「**自訂**」面板的「**背景**」區段中，按一下您要為「首頁」背景選取的色彩。 您也可以按一下[無]來移除背景。**&#x200B;**
+1. 在「**自訂**」面板的「**背景**」區段中，按一下您要為「首頁」背景選取的色彩。 您也可以按一下[無]來移除背景。****
 
 
 

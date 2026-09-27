@@ -7,18 +7,21 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1477b98e-1cdc-4661-b3ee-0b6ab1e8c3ee
-TQID: https://experienceleague.adobe.com/Cqu86di2VR3q4MpLYnUFwm0D4YyTxWqLXaGqJdtU-UE
+TQID: 'https://experienceleague.adobe.com/Cqu86di2VR3q4MpLYnUFwm0D4YyTxWqLXaGqJdtU-UE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Developer
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 209
+source-wordcount: '209'
 ht-degree: 9%
-
 ---
-
 # API回應中的逸出字元
 
 某些API回應的語法可能包含逸出字元`\` （反斜線）。 逸出字元表示緊接在逸出字元之後的字元或字串具有特殊值。 例如，`\t`告訴讀取裝置`t`應該解譯為`tab`，而不是解譯為字母「t」。 反斜線後面一或多個字元的字串稱為逸出序列。

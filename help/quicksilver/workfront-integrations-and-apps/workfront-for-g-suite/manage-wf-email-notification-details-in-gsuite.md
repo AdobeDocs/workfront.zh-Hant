@@ -2,35 +2,43 @@
 product-area: workfront-integrations
 keywords: google，doc，檔案，工作表，幻燈片
 navigation-topic: workfront-for-g-suite
-title: 從Google Workspace管理 [!DNL Adobe Workfront] 通知詳細資料
-description: 在Google Workspace中，當您開啟Adobe [!DNL Workfront] 已傳送的通知電子郵件時，可以檢視相關工作專案詳細資訊，並在不離開收件匣的情況下回應。 如果有可用動作（例如核准請求），您可以直接從適用於Google Workspace的Workfront執行這些動作。
+title: 從Google Workspace管理[!DNL Adobe Workfront]通知詳細資料
+description: 在Google Workspace中，當您開啟Adobe [!DNL Workfront]已傳送的通知電子郵件時，可以檢視相關工作專案詳細資訊並回應，而不需要離開收件匣。 如果有可用動作（例如核准請求），您可以直接從適用於Google Workspace的Workfront執行這些動作。
 author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/B63zZZe8WPyK9AcnjE0DEM06-6d7uXIgaNKpHwjo9HI
+TQID: 'https://experienceleague.adobe.com/B63zZZe8WPyK9AcnjE0DEM06-6d7uXIgaNKpHwjo9HI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: bbf3fe51-0066-4980-9062-f8005585ee10
+    internal-label: Adobe Workfront for Google Workspace
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 221
+source-wordcount: '223'
 ht-degree: 0%
-
 ---
-
 # 管理來自[!DNL Google Workspace]的[!DNL Adobe Workfront]通知詳細資料
 
 >[!IMPORTANT]
@@ -43,9 +51,9 @@ ht-degree: 0%
 >
 >為了滿足貴組織與Google Workspace的整合需求，我們建議您使用Workfront自動化和整合。
 >
->如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
+>如需Workfront自動化與整合的概觀，請參閱[Adobe Workfront Fusion概觀](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)。
 >
->如需Google Workspace之Workfront自動化與整合模組的特定功能相關資訊，請參閱[Gmail模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)和[Google行事曆模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)。
+>如需Google Workspace之Workfront自動化與整合模組的特定功能相關資訊，請參閱[Gmail模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)和[Google行事曆模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)。
 
 <!--
 
