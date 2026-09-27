@@ -86,10 +86,10 @@ ht-degree: 3%
 
 1. 若要檢視和管理先前的聊天，請按一下CX Coworker面板中的「聊天」圖示![「聊天」圖示](assets/ai-icon.png)。
 
-   如需有關聊天室的詳細資訊，請參閱Adobe CX Coworker檔案中的[管理您的聊天室](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats)。
+   如需有關聊天室的詳細資訊，請參閱Adobe CX Coworker檔案中的[管理您的聊天室](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats)。
 1. 若要檢視及管理聊天成品（例如輸出清單），請按一下「成品」圖示![成品](assets/artifacts-icon.png)。
 
-   如需CX Coworker中成品的詳細資訊，請參閱Adobe CX Coworker檔案中的[成品](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#artifacts)。
+   如需CX Coworker中成品的詳細資訊，請參閱Adobe CX Coworker檔案中的[成品](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#artifacts)。
 1. 若要管理同事的設定，請按一下[設定]圖示![[設定]](assets/coworker-settings-icon.png)。
 1. 若要展開「同事」面板，請按一下「展開」圖示![「展開」圖示](assets/coworker-expand-icon.png)。
 1. 若要進入Adobe CX Coworker介面，請按一下頁面右上角的「應用程式」圖示![「應用程式」圖示](assets/apps-icon.png)，然後從可用應用程式清單中選取「同事」。

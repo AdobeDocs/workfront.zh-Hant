@@ -55,7 +55,7 @@ Workfront管理員可以還原每個Workfront執行個體中的專案、工作�
 
 在週末的維護期間，會重新整理預覽沙箱環境。
 
-如需有關預覽Sandbox環境維護期間的詳細資訊，請參閱[Adobe狀態網站](https://status.adobe.com)。
+如需有關預覽Sandbox環境維護期間的詳細資訊，請參閱[Adobe狀態網站](https://status.adobe.com/zh-tw)。
 
 >[!IMPORTANT]
 >

@@ -332,19 +332,19 @@ Beta版計畫結束後發行的功能會在發行時的最新發行頁面中傳�
 
 針對註解Beta版的問題和目標發佈了以下維護更新：
 
-編輯註解時編輯附加的影像。 如需詳細資訊，請參閱&lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates於2023年4月</a>文章中的「4月27日維護更新」一節。
+編輯註解時編輯附加的影像。 如需詳細資訊，請參閱&lt;a href=&quot;https://experienceleague.adobe.com/zh-hant/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates於2023年4月</a>文章中的「4月27日維護更新」一節。
 
 ### 2023 年 4 月 20 日
 
 針對註解Beta版的問題和目標發佈了以下維護更新：
 
-遠離目標更新和評論Beta版體驗中的問題時，請將影像保留為草稿。 如需詳細資訊，請參閱&lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates於2023年4月</a>文章中的「4月20日維護更新」一節。
+遠離目標更新和評論Beta版體驗中的問題時，請將影像保留為草稿。 如需詳細資訊，請參閱&lt;a href=&quot;https://experienceleague.adobe.com/zh-hant/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates於2023年4月</a>文章中的「4月20日維護更新」一節。
 
 ### 2023 年 4 月 17 日
 
 針對註解Beta版的問題和目標發佈了以下維護更新：
 
-在問題的更新區段（新註解Beta體驗）和目標中，在可見畫面區域之外顯示新註解。 如需詳細資訊，請參閱&lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates於2023年4月</a>文章中的「4月17日維護更新」一節。
+在問題的更新區段（新註解Beta體驗）和目標中，在可見畫面區域之外顯示新註解。 如需詳細資訊，請參閱&lt;a href=&quot;https://experienceleague.adobe.com/zh-hant/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates於2023年4月</a>文章中的「4月17日維護更新」一節。
 
 
 ### 2023年4月6日當週
