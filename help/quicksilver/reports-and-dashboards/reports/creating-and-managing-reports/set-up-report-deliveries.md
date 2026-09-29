@@ -28,12 +28,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 8b59974fbec3c7ec33b2920889717cac56a6c778
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1636'
 ht-degree: 0%
 ---
 # 報表傳送概覽
+
+{{highlighted-preview}}
 
 <!-- Audited: 11/2024 -->
 
@@ -58,6 +60,7 @@ ht-degree: 0%
 
 * 您最多可以為任何指定報告排程10個重複報告傳遞。
 * 只有當您是報表的建立者時，才能排程報表傳送。 如果您需要傳送未建立的報表，可以手動傳送。
+* <span class="preview">在預覽中，每個排程報告傳送都必須有已定義的結束日期。 如果先前已將傳送設為「從不」，Workfront會自動將結束日期設為下次傳送報表日期起的13個月。</span>
 
 ## 匯出限制
 
@@ -146,6 +149,7 @@ ht-degree: 0%
 * [品牌](#branding)
 * [正在格式化](#formatting)
 * [連結](#links)
+* [報告到期通知](#report-expiration-notices)
 
 ### 主旨列、附件名稱和報告標題 {#subject-line-attachment-name-and-report-title}
 
@@ -197,6 +201,18 @@ ht-degree: 0%
 當您從Workfront將報表傳送至PDF或Excel格式時，原始檔案中存在的任何有效連結都會保留在傳送的檔案中。 連結可以指向Workfront中支援連結的任何物件。
 
 電子郵件訊息中的報告名稱也是連結。
+
+<div class="preview">
+
+### 報告到期通知 {#report-expiration-notices}
+
+在預覽中，傳遞的報告電子郵件包含報告的到期日。
+
+如果每天重複傳送，則當到期日在45天內時，電子郵件會包含每次傳送的到期警告。
+
+如果每週或每月重複傳送，則電子郵件會在到期日前的最後四個排程傳送期間包含到期警告。
+
+</div>
 
 ## 報告排程報告
 
