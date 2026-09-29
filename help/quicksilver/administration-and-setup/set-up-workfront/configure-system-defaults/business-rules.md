@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Data quality
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 17e85ce107b36aa62d7efb23b113e48324057803
 workflow-type: tm+mt
 source-wordcount: '1857'
 ht-degree: 3%
@@ -289,7 +289,7 @@ IF({status} = "APR", true)
    >
    >您的組織必須在工作流程Ultimate套件上，才能使用驗證以外的動作。 如果您沒有看到這些其他選項，表示您的組織不在Workflow Ultimate套件中。
 
-1. 當您完成建立商業規則時，請按一下[儲存]。**&#x200B;**
+1. 當您完成建立商業規則時，請按一下[儲存]。****
 
 >[!NOTE]
 >
