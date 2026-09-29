@@ -30,7 +30,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 42b9fa8715c8fdb3936e754289d4102947f2d83b
+source-git-commit: 267e7ab4279a86112b343d32e96b482a490d73c4
 workflow-type: tm+mt
 source-wordcount: '2878'
 ht-degree: 1%
@@ -70,7 +70,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>檢視專案、任務、問題、範本、投資組合、計畫、報告、儀表板和行事曆、檔案的或更高存取權</p> </td> 
+   <td> <p>檢視專案、任務、問題、範本、投資組合、計畫、報告、儀表板、行事曆和檔案的或更高存取權</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">物件許可權</td> 
@@ -112,9 +112,9 @@ ht-degree: 1%
    <td>開始輸入使用者或團隊名稱，以新增為核准者或稽核者。 如果您只有稽核者，他們將會收到通知並可以選擇完成稽核，但不需要或做出任何決定。</td>
    </tr>
    <tr class="preview">
-   <td><strong><span class="preview">在預覽中新增人員或團隊</span></strong></td>
-   <td><span class="preview">開始輸入使用者名稱、團隊或電子郵件地址。 預設會將專案團隊新增為單一核准者或檢閱，但您可以選擇將每個專案團隊成員新增為個別參與者。</span>
-   <p><span class="preview">注意：如果使用者已經新增，或屬於您新增的多個團隊，則會納入一次。</span></p></td>
+   <td><strong>在預覽中新增人員或團隊</strong></td>
+   <td><p>開始輸入使用者名稱、團隊或電子郵件地址。 依預設，專案團隊會新增為單一核准者或檢閱，但您可以選擇將每個專案團隊成員新增為個別參與者。</p>
+   <p>注意：如果使用者已經新增，或屬於您新增的多個團隊，則會納入一次。</p></td>
    </tr>
    <tr>
    <td><strong>只需要一個決定（選擇性）</strong></td>
@@ -182,9 +182,9 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
    <td>開始輸入使用者或團隊名稱，以新增為核准者或稽核者。 如果您只有稽核者，他們將會收到通知並可以選擇完成稽核，但不需要或做出任何決定。<p>附註：一次只能將檢閱者或核准者指派給相同資產上的一個開啟階段。 如果同時開啟多個平行階段，則無法將同一個使用者新增至多個階段。</p></td>
    </tr>
    <tr class="preview">
-   <td><strong><span class="preview">在預覽中新增人員或團隊</span></strong></td>
-   <td><span class="preview">開始輸入使用者名稱、團隊或電子郵件地址。 預設會將專案團隊新增為單一核准者或檢閱，但您可以選擇將每個專案團隊成員新增為個別參與者。</span>
-   <p><span class="preview">注意：如果使用者已經新增，或屬於您新增的多個團隊，則會納入一次。 此外，參與者一次只能被指派到相同資產上的一個開啟階段。</span></p></td>
+   <td><strong>在預覽中新增人員或團隊</strong></td>
+   <td><p>開始輸入使用者名稱、團隊或電子郵件地址。 依預設，專案團隊會新增為單一核准者或檢閱，但您可以選擇將每個專案團隊成員新增為個別參與者。</p>
+   <p>注意：如果使用者已經新增，或屬於您新增的多個團隊，則會納入一次。 此外，參與者一次只能被指派到相同資產上的一個開啟階段。</p></td>
    </tr>
    <tr>
    <td><strong>只需要一個決定（選擇性）</strong></td>
@@ -248,9 +248,9 @@ preview screen
    <td>開始輸入使用者名稱或電子郵件，以新增為核准者或稽核者。 如果您只有稽核者，他們將會收到通知並可以選擇完成稽核，但不需要或做出任何決定。</td>
    </tr>
    <tr class="preview">
-   <td><strong><span class="preview">在預覽中新增人員或團隊</span></strong></td>
-   <td><span class="preview">開始輸入使用者名稱、團隊或電子郵件地址，然後選擇他們是<strong>核准者</strong>或<strong>檢閱者</strong>。 Workfront會個別新增團隊的每個作用中成員。</span>
-   <p><span class="preview">注意：如果使用者已經新增，或屬於您新增的多個團隊，則會納入一次。</span></p></td>
+   <td><strong>在預覽中新增人員或團隊</strong></td>
+   <td><p>開始輸入使用者名稱、團隊或電子郵件地址，然後選擇他們是<strong>核准者</strong>或<strong>檢閱者</strong>。 Workfront會個別新增團隊的每個作用中成員。</p>
+   <p>注意：如果使用者已經新增，或屬於您新增的多個團隊，則會納入一次。</p></td>
    </tr>
    <tr>
    <td><strong>只需要一個決定（選擇性）</strong></td>
@@ -324,9 +324,9 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
    <td>開始輸入使用者名稱或電子郵件，以新增為核准者或稽核者。 如果您只有稽核者，他們將會收到通知並可以選擇完成稽核，但不需要或做出任何決定。<p>附註：一次只能將檢閱者或核准者指派給相同資產上的一個開啟階段。 如果同時開啟多個平行階段，則無法將同一個使用者新增至多個階段。</p></td>
    </tr>
    <tr class="preview">
-   <td><strong><span class="preview">在預覽中新增人員或團隊</span></strong></td>
-   <td><span class="preview">開始輸入使用者名稱、團隊或電子郵件地址，然後選擇他們是<strong>核准者</strong>或<strong>檢閱者</strong>。 Workfront會個別新增團隊的每個作用中成員。</span>
-   <p><span class="preview">注意：如果使用者已經新增，或屬於您新增的多個團隊，則會納入一次。 此外，參與者一次只能被指派到相同資產上的一個開啟階段。</span></p></td>
+   <td><strong>在預覽中新增人員或團隊</strong></td>
+   <td><p>開始輸入使用者名稱、團隊或電子郵件地址，然後選擇他們是<strong>核准者</strong>或<strong>檢閱者</strong>。 Workfront會個別新增團隊的每個作用中成員。</p>
+   <p>注意：如果使用者已經新增，或屬於您新增的多個團隊，則會納入一次。 此外，參與者一次只能被指派到相同資產上的一個開啟階段。</p></td>
    </tr>
    <tr>
    <td><strong>只需要一個決定（選擇性）</strong></td>
