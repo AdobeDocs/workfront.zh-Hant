@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 1ee0f2de61c518fc608a03045339ac9c50afc7f9
 workflow-type: tm+mt
-source-wordcount: '2877'
+source-wordcount: '2863'
 ht-degree: 2%
 ---
 # 2026年第四季版本總覽
@@ -707,11 +707,11 @@ ht-degree: 2%
 
 ## 公告
 
-### 取代舊版帳單和成本費率欄位
+### 棄用工作角色清單檢視中的舊版帳單和成本費率欄位
 
 隨著時間推移，我們引進了更強大的費率管理功能以及專屬的工作角色體驗，可提供更完整且可擴充的費率資訊維護方法。 因此，費率管理開始轉向這些專屬的體驗，而非清單式管理工作流程。
 
-在2027年1月版本中，舊版欄位&#x200B;**每小時計費**&#x200B;和&#x200B;**每小時成本**&#x200B;將不再在Workfront API或使用者和工作角色清單檢視中可用，包括篩選/檢視/分組設定（直接參考和文字模式計算欄）。
+在2027年1月版本中，舊欄位&#x200B;**每小時計費**&#x200B;和&#x200B;**每小時成本**&#x200B;將不再在Workfront API或工作角色清單檢視中可用，包括篩選/檢視/分組設定（直接參考和文字模式計算欄）。
 
 作為報表中的替代專案，您可以使用建議的文字模式代碼（視需要使用`costRates`或`billingRates`）：
 
@@ -724,15 +724,14 @@ ht-degree: 2%
     valueformat=HTML
     &grave;&grave;
 
-若要管理和檢閱費率，請使用專屬的費率管理體驗：
+若要管理和檢閱工作角色費率，請使用專用的費率管理體驗：
 
-* 直接從使用者設定檔存取使用者費率。
 * 直接從「工作角色>費率」頁面存取和管理工作角色費率。
-* 使用費率報表可檢閱、分析和報告使用者與職務角色之間的費率資訊。
+* 使用費率報表可複查、分析及報告各職務角色的費率資訊。
 
-不需要執行任何動作即可準備變更。 不過，目前在「使用者」或「工作角色」清單檢視中顯示&#x200B;**每小時帳單**&#x200B;和&#x200B;**每小時成本**&#x200B;欄位的管理員應更新其工作流程，以使用上述建議的費率管理體驗。
+不需要執行任何動作即可準備變更。 不過，目前在工作角色清單檢視中顯示&#x200B;**每小時計費**&#x200B;和&#x200B;**每小時成本**&#x200B;欄位的管理員應更新其工作流程，以使用上述建議的費率管理體驗。
 
-有關工作角色和使用者費率的資訊，請參閱[建立和管理工作角色](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)和[編輯使用者的設定檔](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
+有關工作角色費率的資訊，請參閱[建立和管理工作角色](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。
 
 ### Data Connect讀取器使用者的僅限密碼驗證將於2026年8月8日結束
 
