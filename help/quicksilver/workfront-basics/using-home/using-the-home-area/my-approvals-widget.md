@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 88ab250a262e9ca4a311fb1c88988a3747e6baeb
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '498'
 ht-degree: 8%
 ---
 # 使用我的核准Widget管理您的核准
@@ -82,7 +82,14 @@ ht-degree: 8%
 
 1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
 1. （視條件而定）按一下&#x200B;**自訂**&#x200B;以新增&#x200B;**我的核准** Widget。
-1. （視條件而定）按一下&#x200B;**篩選器**&#x200B;下拉式功能表，然後選取&#x200B;**全部**&#x200B;以檢視指派給您的核准和委派。
+1. （選擇性）調整我的核准Widget中的篩選選項，以選擇要顯示的核准。 可使用下列篩選選項：
+
+   | 篩選器選項 | 說明 |
+   |--------|-------------|
+   | 全部 | 顯示指派給您、由其他使用者委派給您以及由您提交的所有核准。 |
+   | 我的核准 | 顯示指派給您的核准。 這是預設選項。 |
+   | 已委派的核准 | 顯示其他使用者已委派給您的核准。 |
+   | 我已提交的核准 | 顯示您提交給其他使用者的核准。 |
 
    >[!NOTE]
    >
