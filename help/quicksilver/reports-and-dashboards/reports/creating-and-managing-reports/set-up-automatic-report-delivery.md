@@ -27,12 +27,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b55b05885b54620c11225648dd44c75891e388ab
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1404'
 ht-degree: 3%
 ---
 # 排程自動報告傳送
+
+{{highlighted-preview}}
 
 <!-- Audited: 4/2025 -->
 
@@ -150,7 +152,7 @@ ht-degree: 3%
      </tr> 
      <tr> 
       <td role="rowheader"> <p>重覆</p> </td> 
-      <td> <p>選取報表應每日傳送、每週傳送、每月傳送或每年傳送。</p> </td> 
+      <td> <p>選取報表應每日傳送、每週傳送、每月傳送或每年傳送。 <span class="preview">在[預覽]中，選取報告應每天、每週或每月傳送。</span></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>重覆於每</p> </td> 
@@ -174,11 +176,15 @@ ht-degree: 3%
      </tr> 
      <tr> 
       <td role="rowheader"> <p>結束日期</p> </td> 
-      <td>選取排程傳遞的結束日期。</td> 
+      <td><p>選取排程傳遞的結束日期。</p> <p class="preview">在預覽中，選取排程傳送的結束日期。</p> <p class="preview">備註：從您建立或更新交貨規則之日算起，結束日期不得超過13個月。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>絕不</p> </td> 
-      <td>若要讓排程的傳遞無限期持續，請選取<strong>永不</strong>。</td> 
+      <td><p>若要讓排程的傳遞無限期持續，請選取<strong>永不</strong>。</p> <p class="preview">預覽或快速發行環境中不再提供此選項。</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><div class="preview"><p>使用中</p></div></td> 
+      <td><div class="preview"><p>開啟以保持此傳遞作用中。 新傳送預設為作用中。</p> <p>當<strong>結束日期</strong>過後，Workfront會自動關閉並停用此切換功能。 若要繼續傳遞，請將<strong>結束日期</strong>更新為未來的日期，然後再開啟切換功能。</p></div></td> 
      </tr> 
     </tbody> 
    </table>

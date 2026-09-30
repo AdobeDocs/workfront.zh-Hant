@@ -12,28 +12,38 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/iOGP-byuQ0X7Sd-DhKYw7aHJe3Q8n2blSj-rrlnfK9k
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
 subfeature_v2:
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5606ecce47d871bfaaa7d0c7e305651e6eb9c15b
+    internal-label: Administration
+source-git-commit: 17e85ce107b36aa62d7efb23b113e48324057803
 workflow-type: tm+mt
-source-wordcount: 1377
+source-wordcount: '1377'
 ht-degree: 1%
-
 ---
-
 # 檢視實際小時
 
 <!-- Audited: 5/2025 -->
@@ -115,21 +125,21 @@ ht-degree: 1%
 
 * 在專案、任務和問題報告及清單中：
 
-   * **實際時數**： 2021年5月至今天期間專案、任務或問題所記錄的時數。 它們會以小時為單位儲存在Workfront資料庫中，其valuefield為`actualWorkRequiredDouble`。
-   * **舊版實際時數**：在2021年5月之前的任何日期與今天之間的任何時間，為專案、任務或問題記錄的時數。 它們以分鐘數儲存在Workfront資料庫中，其valuefield為`actualWorkRequired`。
+  * **實際時數**： 2021年5月至今天期間專案、任務或問題所記錄的時數。 它們會以小時為單位儲存在Workfront資料庫中，其valuefield為`actualWorkRequiredDouble`。
+  * **舊版實際時數**：在2021年5月之前的任何日期與今天之間的任何時間，為專案、任務或問題記錄的時數。 它們以分鐘數儲存在Workfront資料庫中，其valuefield為`actualWorkRequired`。
 
-     目前記錄的時數將會更新實際和舊版實際時數。
+    目前記錄的時數將會更新實際和舊版實際時數。
 
-     >[!IMPORTANT]
-     >
-     >專案的實際成本使用舊版實際時數進行計算。
+    >[!IMPORTANT]
+    >
+    >專案的實際成本使用舊版實際時數進行計算。
 
 * 在專案、任務或問題詳細資訊區域，實際時數可顯示在以下欄位：
 
-   * **實際時數**：在「詳細資料」索引標籤中，這些是2021年5月與今天之間專案、任務或問題的記錄時數。 它們會以小時為單位儲存在Workfront資料庫中，其valuefield為`actualWorkRequiredDouble`。
-   * **實際時數**：在專案、任務或問題自訂表單中，當使用參考實際時數原生欄位的原生欄位參考自訂欄位存取它們時。 這些是2021年5月之前和今天之間任何日期的專案、任務或問題所記錄的小時。 它們會以小時為單位儲存在Workfront資料庫中，其valuefield為`actualWorkRequiredDouble`。
+  * **實際時數**：在「詳細資料」索引標籤中，這些是2021年5月與今天之間專案、任務或問題的記錄時數。 它們會以小時為單位儲存在Workfront資料庫中，其valuefield為`actualWorkRequiredDouble`。
+  * **實際時數**：在專案、任務或問題自訂表單中，當使用參考實際時數原生欄位的原生欄位參考自訂欄位存取它們時。 這些是2021年5月之前和今天之間任何日期的專案、任務或問題所記錄的小時。 它們會以小時為單位儲存在Workfront資料庫中，其valuefield為`actualWorkRequiredDouble`。
 
-     目前記錄的時數將會更新實際和舊版實際時數。
+    目前記錄的時數將會更新實際和舊版實際時數。
 
 >[!NOTE]
 >
