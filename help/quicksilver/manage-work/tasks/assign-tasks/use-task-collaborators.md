@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
+source-git-commit: ce3795d14390ccff1c66d7c6add34455c0ca4082
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1024'
 ht-degree: 1%
 ---
 # 使用工作代理
@@ -43,11 +43,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p>
+   <td><p>[！UICONTROL標準]</p>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td> 
+   <td>[！UICONTROL系統管理員]</td> 
   </tr> 
   </tbody> 
 </table>
@@ -62,7 +62,7 @@ ht-degree: 1%
 
 ## 工作代理程式概述
 
-工作代理是將MCP代理指派給Workfront中特定工作的方法。 您可以在Copilot Studio、Claude或Writer.ai等應用程式中設定代理程式，然後將該代理程式以工作代理程式身分連線至Workfront。 然後，您可以像指派使用者一樣將其指派給任務。
+工作代理是指派代理給Workfront中特定工作的方法。 您可以在Copilot Studio、Claude或Writer.ai等應用程式中設定代理程式，然後將該代理程式以工作代理程式身分連線至Workfront。 然後，您可以像指派使用者一樣將其指派給任務。
 
 某些範例工作流程可能包括：
 
