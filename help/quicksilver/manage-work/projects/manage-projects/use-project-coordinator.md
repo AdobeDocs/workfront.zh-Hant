@@ -36,7 +36,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[！UICONTROL標準]</p></td>
+   <td><p>[!UICONTROL 標準]</p></td>
   </tr> 
   <tr> 
    <td>物件許可權</td> 
