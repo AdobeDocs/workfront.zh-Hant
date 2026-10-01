@@ -9,24 +9,31 @@ exl-id: 68774286-da24-409a-bbd8-eb18dfe75063
 TQID: https://experienceleague.adobe.com/BOZkyUl3TKCzpbjbLnUcMQZjM-1laW-TSsVptvBP-0U
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: a98167536dec4cee61b0b310be0fcc8c9d06449c
 workflow-type: tm+mt
-source-wordcount: 422
+source-wordcount: '446'
 ht-degree: 4%
-
 ---
-
 # 使用前置任務區域建立前置任務關係
+
+{{highlighted-preview}}
 
 <!-- Audited: 5/2025 -->
 
@@ -105,7 +112,7 @@ ht-degree: 4%
 
 1. 輸入&#x200B;**延遲**&#x200B;量。
 
-   如需詳細資訊，請參閱{&#x200B;0}延遲型別概觀[&#128279;](../../../manage-work/tasks/use-prdcssrs/lag-types.md)。
+   如需詳細資訊，請參閱{&#x200B;0}延遲型別概觀](../../../manage-work/tasks/use-prdcssrs/lag-types.md)。[
 
    ![新增前置任務對話方塊](assets/add-predecessor-dialog-box.png)
 
@@ -116,5 +123,6 @@ ht-degree: 4%
 1. 按一下「**儲存**」。
 
 1. （選擇性）若要移除前置任務，請從前置任務清單中選取它，然後按一下&#x200B;**移除**&#x200B;圖示![移除圖示](assets/remove-or-delete-icon.png)。
+   <span class="preview">若要移除前置任務，請在前置任務清單中選取該前置任務，然後按一下畫面底部動作列中的&#x200B;**移除**。</span>
 
    前置任務會從清單中移除。 前置任務未從其專案中刪除。
