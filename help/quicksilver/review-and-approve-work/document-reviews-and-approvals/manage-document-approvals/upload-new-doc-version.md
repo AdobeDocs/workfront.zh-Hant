@@ -179,7 +179,7 @@ To add a new version:
 
 1. 設定核准工作流程。 如需欄位說明、進階模式切換和平行路徑流程，請參閱[建立檔案核准工作流程](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
 
-1. 若要複製上一個檔案版本的相同檢閱者和核准者，請按一下[複製]。****
+1. 若要複製上一個檔案版本的相同檢閱者和核准者，請按一下[複製]。**&#x200B;**
 1. 按一下&#x200B;**要求核准**。
 
    核准工作流程隨即開始，核准者會收到新檔案版本需要其核准的通知。 先前檔案版本已鎖定，並撤銷先前版本上的所有未完成核准。
@@ -212,7 +212,7 @@ the previous participants, new participants, or a mix of both. You can view info
 
 1. 設定核准工作流程。 如需欄位說明、進階模式切換和平行路徑流程，請參閱[建立檔案核准工作流程](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
 
-1. 若要複製上一個檔案版本的相同檢閱者和核准者，請按一下[複製]。****
+1. 若要複製上一個檔案版本的相同檢閱者和核准者，請按一下[複製]。**&#x200B;**
 1. 按一下&#x200B;**要求核准**。
 
    核准工作流程隨即開始，核准者會收到新檔案版本需要其核准的通知。 先前檔案版本已鎖定，並撤銷先前版本上的所有未完成核准。
