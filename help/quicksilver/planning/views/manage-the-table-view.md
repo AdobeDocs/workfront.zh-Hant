@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
+source-git-commit: cc47859cfb1dc1946050ba679b2678ccb9408223
 workflow-type: tm+mt
-source-wordcount: '4045'
+source-wordcount: '3630'
 ht-degree: 2%
 ---
 # 管理表格檢視
@@ -331,10 +331,10 @@ Old:
    * **MAX**：顯示欄中所有儲存格的最高值。
    * **AVG**：顯示資料行中所有儲存格的平均值。
 
-   <!-- 
+   <!--    
     <div class="preview"> 
 
-    * **NONE**: The values of the column are not aggregated. This is the default option. 
+    * **NONE**: The values of the column are not aggregated.This is the default option. 
     
     </div> 
     -->
@@ -398,69 +398,70 @@ At preview release, replace the last procedure step with this:
         * Record ID
     * Formula fields and look up fields have the aggregators that correspond to their field format. 
 
-    </div>
-    -->
+    </div> 
 
-### 新增列（或記錄） {#add-rows-1}
+### Add rows (or records) {#add-rows-1}
 
-表格檢視的列會顯示所選記錄型別的個別記錄。 新增列與建立記錄相同。
+The rows of a table view display individual records of the selected record type. Adding rows is identical to creating records. 
 
-記錄型別最多可以有50,000筆記錄（或列）。
+You can have up to 50,000 records (or rows) for a record type. 
 
-1. 移至記錄型別頁面並選取資料表檢視，或按一下[檢視] **+新增檢視**，然後選擇[資料表] **&#x200B;**。
+1. Go to a record type page and select a table view, or click **+ View** to add a new view, then choose **Table**. 
 
-1. 開始新增記錄（或列），如文章[建立記錄](/help/quicksilver/planning/records/create-records.md)中所述。
+1. Start adding records (or rows), as described in the article [Create records](/help/quicksilver/planning/records/create-records.md). 
 
-   您在表格檢視中新增的記錄會立即儲存，且所有擁有工作區檢視或更高許可權的使用者皆可看到。
+    The records you add in the table view are saved immediately and are visible to all users who have View or higher permissions to the workspace. 
 
-   預設縮圖影像<span class="preview">和色彩</span>也會新增到新記錄中。
+    A default thumbnail image <span class="preview">and color</span> are also added to the new record.
 
-   >[!TIP]
-   >
-   ><span class="preview">當記錄有未讀取的註解時，會在記錄的主要欄位的右上角顯示&#x200B;**新註解**&#x200B;指示器。</span>
-   >
-   >![表格檢視中的新註解圖示](assets/new-comment-icon-in-table-view-highlighted.png)
+    >[!TIP]
+    >
+    ><span class="preview">When a record has unread comments, a **New comment** indicator displays in the upper-right corner of the record's primary field.</span>
+    >
+    >![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
+    
+1. (Optional) Select one or multiple records or rows, then drag and drop the **handle** icon ![Handle icon](assets/handle-icon.png) to the left of the record to reorder the rows. 
 
-1. （選擇性）選取一或多個記錄或列，然後將&#x200B;**控制代碼**&#x200B;圖示![控制代碼圖示](assets/handle-icon.png)拖放到記錄左側，以重新排序列。
+    >[!NOTE]
+    >
+    >You cannot reorder rows if you apply at least one sort or grouping to the table view. 
+    >
+    >The changes you make to the row order are visible to all users who access the record type in the same view. 
+    >
+    ><span class="preview">In the drag and drop line, a number indicator displays the number of records selected, if more than one. </span>
 
-   >[!NOTE]
-   >
-   >如果您對表格檢視套用至少一個排序或群組，則無法重新排序列。
-   >
-   >在相同檢視中存取記錄型別的所有使用者都可以看到您對列順序所做的變更。
-   >
-   ><span class="preview">在拖放行中，如果有多個記錄，數字指示器會顯示選取的記錄數。</span>
+1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record, then click **Edit thumbnail** to edit the thumbnail. 
+1. Click **Fields** at the top of the table in the Production environment
 
-1. （選擇性）按一下記錄右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**編輯縮圖**&#x200B;以編輯縮圖。
-1. 在生產環境中，按一下表格頂端的&#x200B;**欄位**
+    Or 
+    
+    <span class="preview">Hover over the primary field header</span>, then select the toggle for the **Thumbnail** field to display it to the left of the primary field. It is deselected by default. 
 
-   或
+    For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-   <span class="preview">暫留在主要欄位標題</span>上，然後選取&#x200B;**縮圖**&#x200B;欄位的切換按鈕，將其顯示在主要欄位的左側。 預設會取消選取它。
+1. <span class="preview">Click **Fields** at the top of the table</span>
+   
+   Or 
+   <span class="preview">Hover over the primary field header, then select the toggle for the **Color** field to display it to the left of the primary field. It is deselected by default. </span>
 
-   如需詳細資訊，請參閱[新增縮圖至記錄](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
-
-1. <span class="preview">按一下資料表頂端的&#x200B;**欄位**</span>
-
-   或
-   <span class="preview">暫留在主要欄位標題上，然後選取&#x200B;**色彩**&#x200B;欄位的切換按鈕，將它顯示在主要欄位的左側。 預設會取消選取它。</span>
-
-1. <span class="preview"> （選擇性和條件性）如果您已開啟&#x200B;**色彩**&#x200B;設定，請按一下記錄主要欄位左側的色彩列，並從&#x200B;**色票**&#x200B;或&#x200B;**自訂**&#x200B;標籤中選取色彩，然後按一下方塊外部以關閉它。 顏色會立即套用。</span>
+1. <span class="preview"> (Optional and conditional) If you turned on the **Color** setting, click the color bar to the left of the record's primary field and select a color from the **Swatches** or **Custom** tabs, then click outside the box to close it. The color is applied immediately.</span>
 
 <div class="preview">
 
-![錄製色彩編碼檢色器方塊](assets/color-picker-for-record-color-coding.png)
+![Record color coding color picker box](assets/color-picker-for-record-color-coding.png)
 
-如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
+For more information, see [Create records](/help/quicksilver/planning/records/create-records.md).
 
 </div>
 
 
-### 新增篩選器 {#add-filters-1}
+### Add filters {#add-filters-1}
 
-篩選器可協助您減少熒幕上顯示的資訊量。
+Filters help you reduce the amount of information displayed on the screen.
 
-在表格檢視中使用篩選器時，請考量下列事項：
+Consider the following when working with filters in the table view: 
+
+-->
 
 <!-- this list is almost identical to the one for the table view - update both-->
 
@@ -666,7 +667,7 @@ At preview release, replace the last procedure step with this:
 
 * 您可以在表格和時間軸檢視中套用群組。 表格檢視的分組與相同記錄型別之時間軸檢視中的群組是獨立的。
 * 您可以在檢視中套用3個群組層級。 記錄會依照您選取的群組順序進行分組。
-&lt;！—！—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** *使用API時，您最多可以套用4個層級的群組。  — 立即檢查此專案**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;！—！—*************** *使用API時，您最多可以套用4個層級的群組。  — 立即檢查此專案******************—>
 * 群組對於您選取的檢視而言是唯一的。 相同記錄型別的兩個表格檢視可以套用不同的群組。 檢視相同表格檢視的兩個使用者會看到目前套用的相同分組。
 * 您無法為表格檢視建立的分組命名。
 * 移除群組會將群組從存取與您相同記錄型別以及顯示與您相同檢視的任何人中移除。
