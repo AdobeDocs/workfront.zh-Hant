@@ -30,18 +30,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1210'
 ht-degree: 2%
 ---
 # 共用工作區
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -173,6 +173,15 @@ Old:
 * 當您共用工作區時，檢視不會共用。 您必須個別共用檢視。
 * Workspace許可權在記錄型別上顯示為繼承許可權。
 
+<div class="preview">
+
+* 您可以將工作區的擁有者變更為作用中、標準授權使用者。 您無法讓群組、團隊、公司或工作角色成為工作區的擁有者。
+
+</div>
+
+
+&lt;！—！ — 在生產環境中檢查上述專案：您是否需要以作用中使用者來取代它?? 或者，非使用中也可以 — 沒有環境 — >
+
 ## 與工作區共用許可權
 
 下列使用者可以與其他使用者共用工作區：
@@ -202,7 +211,7 @@ Old:
 
      您必須要求系統管理員變更工作區的全域許可權。
 
-1. 在&#x200B;**授與此工作區的存取權**&#x200B;欄位中，開始輸入使用者、群組、團隊、公司或工作角色的名稱，然後當它顯示在清單中時按一下它。
+1. 在&#x200B;**授與此工作區的存取權**&#x200B;欄位中，開始輸入使用者、群組、團隊、公司或工作角色的名稱，然後當它顯示在清單中時按一下它。<!--update screen shot at production-->
 
    ![與群組共用UI](assets/sharing-ui-with-groups.png)
 
@@ -212,7 +221,7 @@ Old:
    >
    >* 當您和使用者共用工作區時，他們的主要工作角色和電子郵件也會顯示在欄位中。 您必須在存取層級中為使用者物件啟用「檢視連絡人資訊」設定，才能檢視使用者的電子郵件。
 
-1. （選擇性）當您與群組、團隊、角色或公司共用時，將滑鼠指標暫留在實體的名稱上，然後按一下向右的箭頭，以展開正在接收許可權的使用者清單。
+1. （選擇性）當您與群組、團隊、角色或公司共用時，將滑鼠指標暫留在實體的名稱上，然後按一下向右的箭頭，以展開正在接收許可權的使用者清單。<!--update screen shot at preview-->
 
    ![與群組共用工作區](assets/share-workspace-role-expanding-arrow-highlighted.png)
 
@@ -222,6 +231,18 @@ Old:
    * 管理
 
      如需許可權層級，以及使用者可針對每個層級執行的動作的相關資訊，請參閱[在Adobe Workfront Planning中共用許可權的總覽](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
+
+   <div class="preview">
+
+   * 所有者
+
+     您只能讓其他使用中的標準授權使用者成為工作區的擁有者。 原始擁有者會保留在具有「管理」許可權的工作區。
+
+   </div>
+
+1. <span class="preview">（條件式）如果您選擇變更工作區擁有者，請按一下&#x200B;**變更擁有者**&#x200B;以確認。</span>
+
+
 1. 按一下&#x200B;**複製連結**&#x200B;以將工作區的連結複製到剪貼簿。
 1. 與他人共用複製的連結。 收到連結的使用者必須是作用中使用者，並登入Workfront才能存取工作區。
 1. 按一下「**儲存**」。
@@ -240,7 +261,7 @@ Old:
      ![存取要求的電子郵件通知](assets/email-notification-for-access-request.png)
 1. （視條件而定）從Workfront的通知區域，按一下應用程式內通知
 或
-在電子郵件通知中，按一下&#x200B;**檢視所有通知**，然後按一下清單中的通知。
+在電子郵件通知中，按一下**檢視所有通知**，然後按一下清單中的通知。
 
    顯示&#x200B;**擱置中的存取要求**&#x200B;方塊。
 
@@ -254,7 +275,6 @@ Old:
 1. 按一下&#x200B;**擱置存取要求**&#x200B;左側的向左箭頭，然後按一下&#x200B;**儲存**。
 
    如果您已核准請求，使用者會新增至工作區的共用方塊。 請求許可權的使用者會收到一封電子郵件，確認其請求已核准。<!--will they also get an in-app notification??-->
-
 
 ## 移除工作區的許可權
 

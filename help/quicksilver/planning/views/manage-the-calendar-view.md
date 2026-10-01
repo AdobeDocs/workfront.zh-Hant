@@ -28,7 +28,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
 workflow-type: tm+mt
 source-wordcount: '2002'
 ht-degree: 4%
@@ -287,10 +287,10 @@ Old:
         </tr>
         <tr>
             <td>多選，人員</td>
-            <td><p>具有任一</p>
+            <td><p>具有任一</p> <!--or <span class="preview"><p>Is any of</p></span>-->
             <p>具有所有</p>
             <p>完全符合</p>
-            <p>不具有</p>
+            <p>不具有</p> <!--or <span class="preview"><p>Is any of</p></span>-->
             <p>是空的</p>
             <p>不是空的</p></td>
         </tr>
