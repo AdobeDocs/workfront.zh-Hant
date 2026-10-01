@@ -16,14 +16,18 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3cf7495f827156fabac1214b38a104ed826d558c
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '94'
 ht-degree: 4%
 ---
 # AI 協作者
 
+{{preview-fast-release-general}}
+
 AI共同作業人員是AI代理程式，您可以用指派人員的相同方式將其指派給任務。 您可以將AI共同作業人員安排到您現有的工作流程中，讓您的團隊能夠專注於最重要的事項。
+
+可用的AI共同作業人員型別包括AI檢閱者和工作代理程式。<!--<span class="preview">and Project Coordinators.</span>-->
 
 ## 正在工作的AI共同作業人員
 
