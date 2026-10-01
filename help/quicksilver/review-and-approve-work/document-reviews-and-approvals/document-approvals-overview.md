@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
 workflow-type: tm+mt
-source-wordcount: '4439'
+source-wordcount: '4466'
 ht-degree: 0%
 ---
 # 統一檢閱和核准總覽
@@ -50,16 +50,18 @@ ht-degree: 0%
 
 ## 內建於Adobe雲端儲存空間
 
-統一的檢閱和核准是以Adobe雲端儲存空間為基礎所打造，這是一種雲端儲存空間解決方案，可作為Adobe企業產品（包括Workfront和Frame.io）中資產的中央存放庫。<!--, and Creative Cloud.-->
+統一檢閱和核准是以Adobe雲端儲存空間為基礎所打造，這是一種雲端儲存空間解決方案，可作為Adobe企業產品（包括Workfront、Frame.io和Creative Cloud）中資產的中央存放庫。
 
 Adobe雲端儲存空間的主要優點包括：
 
 * 適用於創意與工作管理資產的統一儲存層
 * 使用Adobe Identity Management系統(IMS)集中管理許可權，以進行安全存取控制
-* Workfront和Frame.io <!--, and Creative Cloud apps -->的端對端資產可見性
+* Workfront、Frame.io和Creative Cloud應用程式的端對端資產可見性
 * 可擴充的儲存與配額管理，因應企業需求
 
 如需詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+
+Creative Cloud應用程式（Photoshop、Illustrator和InDesign）也可以直接存取Workfront專案。 如需詳細資訊，請參閱[Adobe Creative Cloud專案概觀](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md)。
 
 ## 統一的稽核和核准
 
@@ -96,7 +98,7 @@ Adobe雲端儲存空間的主要優點包括：
 
 #### Frame.io檢視器中支援的檔案型別
 
-Frame.io檢視器支援所有常見的視訊、影像、音訊、PDF和MS® Office型別。 如需支援檔案的詳細清單，請參閱Frame.io[&#128279;](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的支援的檔案型別。
+Frame.io檢視器支援所有常見的視訊、影像、音訊、PDF和MS® Office型別。 如需支援檔案的詳細清單，請參閱Frame.io](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io)上的[支援的檔案型別。
 
 #### Frame.io檢視器的存取與授權
 

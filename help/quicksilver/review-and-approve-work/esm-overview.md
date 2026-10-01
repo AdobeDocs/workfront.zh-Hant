@@ -29,16 +29,16 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1066'
 ht-degree: 0%
 ---
 # Adobe雲端儲存空間概覽
 
 Adobe雲端儲存是以雲端為主的儲存解決方案，可作為Adobe企業產品中資產的中央存放庫。 Workfront與Frame.io整合建立在Adobe雲端儲存空間上，可在這兩種平台之間實現順暢的協同作業和資產管理。
 
-此儲存選項也為日後資產管理與其他Adobe產品（例如Adobe Creative Cloud）的整合鋪平了道路。
+此儲存空間選項也可讓資產管理與其他Adobe產品（包括Adobe Creative Cloud應用程式）整合。 如需詳細資訊，請參閱[Adobe Creative Cloud專案概觀](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md)。
 
 ## 主要功能
 
