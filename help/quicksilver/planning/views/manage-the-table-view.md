@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 97207d72bce4b03f6080996b9c5e4edde47633ab
+source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
 workflow-type: tm+mt
-source-wordcount: '4037'
+source-wordcount: '4045'
 ht-degree: 2%
 ---
 # 管理表格檢視
@@ -407,7 +407,7 @@ At preview release, replace the last procedure step with this:
 
 記錄型別最多可以有50,000筆記錄（或列）。
 
-1. 移至記錄型別頁面並選取資料表檢視，或按一下[檢視] **+新增檢視**，然後選擇[資料表] **&#x200B;**。
+1. 移至記錄型別頁面並選取資料表檢視，或按一下[檢視] **+新增檢視**，然後選擇[資料表] ****。
 
 1. 開始新增記錄（或列），如文章[建立記錄](/help/quicksilver/planning/records/create-records.md)中所述。
 
@@ -517,10 +517,10 @@ At preview release, replace the last procedure step with this:
         </tr>
         <tr>
             <td>多選，人員</td>
-            <td><p>具有任一</p> <!--or <span class="preview"><p>Is any of</p></span>-->
+            <td><p>具有任一</p> 或<span class="preview"><p>屬於任一</p></span>
             <p>具有所有</p>
             <p>完全符合</p>
-            <p>不具有</p> <!--or <span class="preview"><p>Is none of</p></span>-->
+            <p>不具有</p> 或<span class="preview"><p>不屬於</p></span>
             <p>是空的</p>
             <p>不是空的</p></td>
         </tr>
@@ -666,7 +666,7 @@ At preview release, replace the last procedure step with this:
 
 * 您可以在表格和時間軸檢視中套用群組。 表格檢視的分組與相同記錄型別之時間軸檢視中的群組是獨立的。
 * 您可以在檢視中套用3個群組層級。 記錄會依照您選取的群組順序進行分組。
-&lt;！—！—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** *使用API時，您最多可以套用4個層級的群組。  — 立即檢查此專案**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;！—！—*************** *使用API時，您最多可以套用4個層級的群組。  — 立即檢查此專案******************—>
 * 群組對於您選取的檢視而言是唯一的。 相同記錄型別的兩個表格檢視可以套用不同的群組。 檢視相同表格檢視的兩個使用者會看到目前套用的相同分組。
 * 您無法為表格檢視建立的分組命名。
 * 移除群組會將群組從存取與您相同記錄型別以及顯示與您相同檢視的任何人中移除。
