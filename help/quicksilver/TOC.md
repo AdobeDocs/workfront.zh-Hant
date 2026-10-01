@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 3cf7495f827156fabac1214b38a104ed826d558c
+source-git-commit: dc90b81e2781351d61f014ef7952ba71bdf55c92
 workflow-type: tm+mt
-source-wordcount: '14593'
+source-wordcount: '14604'
 ht-degree: 2%
 ---
 # Workfront 指南 {#using}
@@ -735,7 +735,7 @@ ht-degree: 2%
       * [管理 API 金鑰](administration-and-setup/manage-workfront/security/manage-api-keys.md)
       * [隱私權原則](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
       * {hide-from-toc}[增強式驗證概觀](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
-      * {hide-from-toc}[使用增強式驗證時更新IDP中的SAML 2.0中繼資料](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
+      * 使用增強式驗證時{hide-from-toc}[更新IDP中的SAML 2.0中繼資料](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
     * 匯率 {#exchange-rates}
       * [匯率](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
       * [設定匯率](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
@@ -1213,7 +1213,7 @@ ht-degree: 2%
     * [刪除文件](documents/managing-documents/delete-documents.md)
     * [從剪貼簿貼上影像](documents/managing-documents/paste-image-clipboard.md)
     * [大量編輯檔案](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)
-    * {hide-from-toc}[Workfront檔案詳細資訊中的AddBuilder](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
+    * {hide-from-toc}[Workfront檔案詳細資訊](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)中的AddBuilder
   * 組織檔案 {#organize-documents}
     * [組織檔案](documents/organizing-documents/organize-documents.md)
     * [建立檔案資料夾](documents/organizing-documents/create-documents-folder.md)
@@ -1950,6 +1950,9 @@ ht-degree: 2%
       * [設定及管理統一核准：文章索引](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
       * [為AI檢閱者建立和管理品牌](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
       * [建立檔案稽核或核准請求](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+      * [建立群組核准](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-grouped-approval.md)
+      * {hide-from-toc}[檢閱群組核准](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/review-a-grouped-approval.md)
+      * {hide-from-toc}[管理群組核准](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-grouped-approvals.md)
       * [將其他檢閱者或核准者新增至資產或檔案](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
       * [從資產或檔案中移除核准者或稽核者](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
       * [建立資產和檔案的核准範本](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
@@ -2664,10 +2667,10 @@ ht-degree: 2%
     * [使用JWT流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-jwt-flow.md)
     * [使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-pkce-flow.md)
     * [棄用API — 內部](wf-api/api/deprecation-api-internal.md)
-    * [&#x200B; API 22版的新增功能](/help/quicksilver/wf-api/api/new-api-version-22.md)
-    * [&#x200B; API 21版的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-    * [&#x200B; API 20版的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-    * [&#x200B; API 19版的新增功能](wf-api/api/new-api-version-19.md)
+    * [ API 22](/help/quicksilver/wf-api/api/new-api-version-22.md)版的新增功能
+    * [ API 21](/help/quicksilver/wf-api/api/new-api-version-21.md)版的新增功能
+    * [ API 20](/help/quicksilver/wf-api/api/new-api-version-20.md)版的新增功能
+    * [ API 19](wf-api/api/new-api-version-19.md)版的新增功能
     * [API 18版的新增功能](wf-api/api/new-api-version-18.md)
     * [API 17版的新增功能](wf-api/api/new-api-version-17.md)
     * [API 16版的新增功能](wf-api/api/new-api-version-16.md)
