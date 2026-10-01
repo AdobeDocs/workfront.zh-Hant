@@ -12,24 +12,30 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/glxqYn2m92yNMfsneQ3DW0KALaPKruUgU8o-xjMA1CI
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 246f2fe7a8f1b4c34ca6e3755bef488744acbcd6
 workflow-type: tm+mt
-source-wordcount: 1532
+source-wordcount: '1490'
 ht-degree: 1%
-
 ---
-
 # 工作投入概觀
 
 <!--Audited: 01/2024-->
@@ -54,20 +60,22 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">工作投入 </td> 
-   <td> <p>手動標籤，定義使用者需要少量、中量或大量的日常工作才能完成任務。
-   &lt;！—！—
-
-    工作量估計為每日工作時間的百分比。 (注意：請保持草稿。 Vazgen說不需要此欄位，但正在等待使用者的意見回饋)
-    
-    —>
-    &lt;/p> &lt;p>請考慮下列有關工作投入的內容：&lt;/p>
-    &lt;ul>
-    &lt;li>此欄位僅適用於具有簡單期間型別的任務。 &lt;/li>
-    &lt;li>您可以啟用此標籤的使用並在專案層級定義與其關聯的工作時間百分比。 &lt;/li>
-    &lt;/ul> &lt;/td>
-</tr> 
+   <td> <p>手動標籤，定義使用者需要少量、中量或大量的日常工作才能完成任務。</p> <p>請考量下列有關工作投入的內容：</p>
+    <ul> 
+     <li>此欄位僅適用於具有簡單期間型別的任務。 </li> 
+     <li>您可以啟用此標籤的使用並在專案層級定義與其關聯的工作時間百分比。 </li> 
+    </ul> </td> 
+  </tr> 
  </tbody> 
 </table>
+
+<!--
+       
+       THIS GOES IN THE WORK EFFORT DEFINITION. Lisa moved it here because it was showing on the live site.
+       
+       The level of effort is estimated to be a percentage of the daily amount of working time. (NOTE: keep this drafted. Vazgen said it's not needed, but waiting for feedback from users)
+       
+-->
 
 本文說明什麼是工作量，以及您在估計任務的工作量時應該如何使用它。
 
