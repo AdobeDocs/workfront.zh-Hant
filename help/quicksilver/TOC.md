@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
+source-git-commit: 3cf7495f827156fabac1214b38a104ed826d558c
 workflow-type: tm+mt
-source-wordcount: '14588'
+source-wordcount: '14593'
 ht-degree: 2%
 ---
 # Workfront 指南 {#using}
@@ -1324,6 +1324,7 @@ ht-degree: 2%
       * [瞭解專案量度](manage-work/projects/manage-projects/project-metrics.md)
       * [專案限制總覽](manage-work/projects/manage-projects/project-maximums.md)
       * [使用AI助理概述更新](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
+      * {hide-from-toc}[使用專案協調員共同作業人員](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md)
       * [專案和相關物件的檔案管理概觀](manage-work/projects/manage-projects/manage-documents-on-projects.md)
     * 建立和管理專案範本 {#create-and-manage-project-templates}
       * [建立及管理專案範本：文章索引](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
@@ -1431,7 +1432,7 @@ ht-degree: 2%
       * [指派任務](manage-work/tasks/assign-tasks/assign-tasks-1.md)
       * [指派任務](manage-work/tasks/assign-tasks/assign-tasks.md)
       * [建立進階任務指派](manage-work/tasks/assign-tasks/create-advanced-assignments.md)
-      * [使用任務共同作業人員](manage-work/tasks/assign-tasks/use-task-collaborators.md)
+      * [使用工作代理](manage-work/tasks/assign-tasks/use-task-collaborators.md)
       * [智慧指派總覽](manage-work/tasks/assign-tasks/smart-assignments.md)
       * [修改任務指派的概要](manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
       * [修改任務清單中的多個使用者指派](manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)

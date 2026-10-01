@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f1a6727b3282e86f8f8b541173674450fbfe45dc
 workflow-type: tm+mt
-source-wordcount: '4041'
+source-wordcount: '4228'
 ht-degree: 2%
 ---
 # 管理表格檢視
@@ -198,12 +198,10 @@ Old:
 <!--
 <div class="preview">
 
-* 500 records upload automatically. Additional records display as you scroll the view. 
+* 500 records upload by default. Additional records display as you scroll the view. 
 
 </div>
 -->
-
-預設顯示500筆記錄
 
 若要管理表格檢視：
 
@@ -314,6 +312,7 @@ Old:
       您無法使用與表格檢視中隱藏之欄位關聯的關鍵字。
 
       <!--
+        this might change at the release of table lazy loading:
         >[!TIP]
         >
         ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
@@ -325,19 +324,78 @@ Old:
 
    1. 按一下搜尋方塊中的&#x200B;**x**&#x200B;圖示以清除搜尋關鍵字。
 
-1. 若是數字、貨幣、百分比和公式欄位格式化為下列任何欄位型別，請展開欄底部的彙總器下拉式功能表，然後從下列選項中選取：
 
-   * **SUM**：顯示欄中所有儲存格的總計。 這是預設選取範圍。
-   * **MIN**：顯示欄中所有儲存格的最低值。
-   * **MAX**：顯示欄中所有儲存格的最高值。
-   * **AVG**：顯示資料行中所有儲存格的平均值。
+1. （視條件而定）根據您檢視的欄位型別，執行下列任一項作業；
+
+   * 若是數字、貨幣、百分比和公式欄位格式化為下列任何欄位型別，請展開欄底部的彙總器下拉式功能表，然後從下列選項中選取：
+
+     * **SUM**：顯示欄中所有儲存格的總計。
+     * **MIN**：顯示欄中所有儲存格的最低值。
+     * **MAX**：顯示欄中所有儲存格的最高值。
+     * **AVG**：顯示資料行中所有儲存格的平均值。
+     * <span class="preview">**無**：資料行的值未彙總。 這是預設選項。</span>
+
+   <div class="preview">
+
+   * 針對日期欄位，展開欄底部的彙總器下拉式功能表，然後從下列選項中選取：
+
+     * **無**：資料行的值未彙總。 這是預設選項。
+     * **EMPTY**：顯示沒有值的欄位計數。
+     * **非空白**：顯示具有值的欄位計數。
+     * **分鐘**：顯示最早的日期。
+     * **MAX**：顯示最新日期。
+
+   * 對於文字，請選取，布林值，人員欄位展開欄底部的彙總器下拉式功能表，然後從下列選項中選取：
+
+     * **無**：資料行的值未彙總。 這是預設選項。
+     * **EMPTY**：顯示沒有值的欄位計數。
+     * **非空白**：顯示具有值的欄位計數。
+
+   </div>
 
    使用彙總時，請考量下列事項：
 
-   * 欄中的彙總列是凍結的，而且是檢視設定的一部分。
+   * 當欄中的彙總器列顯示值時會凍結，而且是檢視設定的一部分。
    * 作為「檢視管理員」，您可以選擇彙總，當您與其他人共用檢視時，它將會與檢視共用。
    * 作為檢視器，您可以修改彙總，但不會與檢視一起儲存。
    * 公用共用檢視會與無法修改的已儲存彙總共用。
+
+   <div class="preview">
+
+   * 下列欄位型別沒有彙總：
+
+     * 建立者
+     * 上次修改者
+     * 記錄 ID
+   * 公式欄位和查詢欄位具有與其欄位格式相對應的彙總。
+
+   </div>
+
+<!--
+
+FROM LISA: This is the old section. I commented it out vs deleting.
+
+1. (Conditional) For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+
+    * **SUM**: Displays the total of all cells in the column. This is the default selection. 
+    * **MIN**: Displays the lowest value from all the cells in the column. 
+    * **MAX**: Displays the highest value from all the cells in the column. 
+    * **AVG**: Displays the average value of all the cells in the column.  
+
+    <div class="preview"> 
+
+    * **NONE**: The values of the column are not aggregated. This is the default option. 
+    
+    </div> 
+
+    Consider the following when working with aggregators: 
+    
+    * The aggregator row in the column is frozen and is part of the view settings. 
+    * As a View manager, you can choose the aggregator, and it will be shared with the view when you share the view with others. 
+    * As a viewer, you can modify the aggregator, but it does not save with the view. 
+    * Public shared views are shared with the saved aggregators which cannot be modified. 
+
+-->
 
 ### 新增列（或記錄） {#add-rows-1}
 
@@ -400,6 +458,7 @@ Old:
 
 在表格檢視中使用篩選器時，請考量下列事項：
 
+
 <!-- this list is almost identical to the one for the table view - update both-->
 
 * 您為表格檢視建立的篩選器在套用至相同記錄型別時，會與時間軸檢視中的篩選器分開運作。
@@ -455,10 +514,10 @@ Old:
         </tr>
         <tr>
             <td>多選，人員</td>
-            <td><p>具有任一</p>
+            <td><p>具有任一</p> 或<span class="preview"><p>屬於任一</p></span>
             <p>具有所有</p>
             <p>完全符合</p>
-            <p>不具有</p>
+            <p>不具有</p> 或<span class="preview"><p>不屬於</p></span>
             <p>是空的</p>
             <p>不是空的</p></td>
         </tr>
@@ -615,7 +674,7 @@ Old:
 * 群組會按其值的字母順序列出。
 
 <!--
-* <span class="preview">Groupings apply only on the records currently loaded on the page. Only 500 records load at one time, by default. Additional records are added to the page as you scroll.</span>
+* <span class="preview">Groupings apply only on the records currently loaded on the page. Only 500 records load at one time, by default. More records might belong to the visible groupings but might not be loaded by default. Additional records are added to the page as you scroll.</span>
 -->
 
 <!--********************* checking into this: * You can apply up to 4 levels of grouping when using the API. ******************-->
@@ -630,6 +689,14 @@ Old:
 1. 按一下其中一個建議的欄位，或按一下&#x200B;**選擇其他欄位**，搜尋其他欄位，然後在欄位顯示在清單中時按一下它。
 
    此分組會自動套用至表格，且記錄會顯示在分組分隔行下方。
+
+   <!--
+    <div class="preview">
+
+    500 records display by default. There might be more records that belong to the visible groupings that are not uploaded by default. Continue to scroll to upload all records. 
+
+    </div>
+    -->
 
 1. （選擇性）按一下&#x200B;**新增條件**&#x200B;並重複上述步驟以新增最多3個群組。
 
@@ -1195,9 +1262,5 @@ When you display the table view, you can also view which field another user is e
 >Real-time presence indicators display users that are currently editing a field anywhere in Workfront Planning. This includes either the table view or the Details area of the record.
 
 -->
-
-
-
-
 
 

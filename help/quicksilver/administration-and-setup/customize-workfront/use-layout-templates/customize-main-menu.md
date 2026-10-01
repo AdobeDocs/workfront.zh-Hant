@@ -32,12 +32,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 66ec381c7f0dec9a382bd9a23e6691d38c5595e7
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '723'
 ht-degree: 6%
 ---
 # 使用版面配置範本自訂主功能表
+
+{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -144,7 +146,7 @@ ht-degree: 6%
      >
      > 自訂應用程式必須個別建立，才能作為主功能表選項使用。 如需詳細資訊，請參閱[使用Adobe App Builder建立Workfront的自訂應用程式](/help/quicksilver/app-builder/app-builder.md)。
 
-1. 執行下列任一項作業<!-- for the **Native** items-->：
+1. 請針對&#x200B;**原生**&#x200B;專案執行下列任一項作業：
 
    * 隱藏![隱藏圖示](assets/remove-icon---x-in-circle.png)您不想要顯示在主功能表上的專案。
    * 顯示您想要顯示在主要功能表上的![圖示](assets/add-icon-plus-in-circle.png)專案。
@@ -152,7 +154,16 @@ ht-degree: 6%
 
      >[!NOTE]
      >
-     >您無法變更系統專案的順序。 當這些專案處於活動狀態時，它們始終顯示在主選單底部。
+     >您無法變更系統專案的順序。 當這些專案處於活動狀態時，它們始終顯示在主選單底部。<!-- REMOVE THIS NOTE AT PROD RELEASE October 2026 -->
+
+<div class="preview">
+
+1. 請為&#x200B;**系統**&#x200B;專案執行下列任一動作：
+
+   * 隱藏![隱藏圖示](assets/remove-icon---x-in-circle.png)您不想要顯示在主功能表上的專案。
+   * 顯示您想要顯示在主要功能表上的![圖示](assets/add-icon-plus-in-circle.png)專案。
+
+</div>
 
 1. 按一下「**完成**」。
 
@@ -166,17 +177,3 @@ ht-degree: 6%
 
 如需配置範本的詳細資訊，請參閱[建立和管理配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
 
-<!--
-
-MOVE TO LINE 151 or thereabouts:
-
-<div class="preview">
-
-1. Do any of the following for the **System** items:
-
-   * Hide ![Hide icon](assets/remove-icon---x-in-circle.png) items that you don't want to display on the Main Menu.
-   * Show ![Show icon](assets/add-icon-plus-in-circle.png) items that you do want to display on the Main Menu.
-
-</div>
-
--->

@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
 workflow-type: tm+mt
-source-wordcount: '5561'
+source-wordcount: '5636'
 ht-degree: 1%
 ---
 <!--
@@ -301,6 +301,17 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
     -->
 
 1. 繼續新增每個欄位，如下節所述。
+1. （選擇性和條件式）新增欄位後，將滑鼠移至表格檢視欄標題中的欄位名稱上，然後按一下&#x200B;**更多**&#x200B;下拉式功能表，然後&#x200B;**編輯欄位**&#x200B;以編輯欄位。
+
+   如需詳細資訊，請參閱[編輯欄位](/help/quicksilver/planning/fields/edit-fields.md)。
+1. （選擇性和條件式）新增欄位後，將滑鼠移至表格檢視欄標題中的欄位名稱上，然後按一下&#x200B;**更多**&#x200B;下拉式功能表，然後&#x200B;**刪除**&#x200B;以刪除欄位。
+
+   如需詳細資訊，請參閱[刪除欄位](/help/quicksilver/planning/fields/delete-fields.md)。
+<!--
+1. <span class="preview">(Optional and conditional) After you add a field, hover over the field name in the table view column header and click the **More** drop-down menu, then **Share field** to share the field. </span>
+
+    </span>For information, see [Share fields](/help/quicksilver/planning/access/share-fields.md). </span>
+-->
 
 1. <span class="preview"> （選擇性和條件式）新增欄位後，將滑鼠移至表格檢視欄標題中的欄位名稱上，然後按一下&#x200B;**更多**&#x200B;下拉式功能表，然後按&#x200B;**共用欄位**&#x200B;以共用欄位。</span>
 

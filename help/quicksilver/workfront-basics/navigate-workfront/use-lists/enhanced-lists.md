@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 98aa8dfa8ddb2c4b159e21c29d0385d5bdd7744a
 workflow-type: tm+mt
-source-wordcount: '3304'
+source-wordcount: '3374'
 ht-degree: 1%
 ---
 # 使用增強型清單
@@ -78,27 +78,32 @@ Adobe Workfront的部分割槽域提供增強型清單。 這些清單使用表�
 | Workfront清單 | 物件清單的位置 |
 | --- | --- |
 | 優先順序 | <ul><li>首頁>選取左側功能表中的「優先順序」圖示</li><li>主要功能表>優先順序</li></ul> |
-| 請求清單 | <ul><li>請求（僅限新體驗）</li><li>首頁上的我的請求Widget</li></ul> |
+| 請求清單 | <ul><li>主要功能表>請求（僅限新體驗）</li><li>首頁上的我的請求Widget</li></ul> |
 | 安裝程式的狀態、優先順序、嚴重性、<span class="preview">條件</span>和匯率清單 | <ul><li>設定>專案偏好設定>狀態</li><li>設定>專案偏好設定>優先順序</li><li>設定>專案偏好設定>嚴重程度</li><li><span class="preview">設定>專案偏好設定>條件</span></li><li>設定>專案偏好設定>匯率</li></ul> |
 | <span class="preview">更新摘要中的動作和追蹤欄位清單</span> | <ul><li><span class="preview">設定>介面>更新摘要>追蹤的欄位索引標籤</span></li> <li><span class="preview">設定>介面>更新摘要>動作標籤</span></li></ul> |
 | <span class="preview">計分卡清單</span> | <span class="preview">設定>計分卡</span> |
 | <span class="preview">風險型別清單</span> | <span class="preview">設定>風險型別</span> |
+| <span class="preview">事件通知清單</span> | <ul><li><span class="preview">設定>電子郵件>通知>事件通知</span></li><li><span class="preview">群組詳細資料頁面>事件通知</span></li></ul> |
 | 費率卡上的職務角色和費率清單 | 設定>費率卡>選取費率卡>職務角色與費率 |
 | <span class="preview">位置清單</span> | <span class="preview">設定>位置</span> |
 | 翻譯清單 | 設定>本地化 |
-| <span class="preview">整合清單</span> | <ul><li><span class="preview">設定>檔案> SharePoint整合</span></li><li><span class="preview">設定>檔案>自訂整合</span></li></ul> |
-| 報告清單 | 報告（**使用可共用的資料夾**&#x200B;必須開啟） |
+| <span class="preview">整合清單</span> | <ul><li><span class="preview">設定>檔案> SharePoint整合</span></li><li><span class="preview">設定>檔案>自訂整合</span></li><li><span class="preview">設定>檔案> Experience Manager Assets</span></li></ul> |
+| 報告清單 | 主要功能表>報表（**使用可共用資料夾**&#x200B;必須開啟） |
+| <span class="preview">佇列主題、主題群組及路由規則清單</span> | <ul><li><span class="preview">專案或範本>佇列主題</span></li><li><span class="preview">專案或範本>主題群組</span></li><li><span class="preview">專案或範本>路由規則</span></li></ul> |
 | 快照清單 | 專案>快照 |
 | 計費的資源清單 | 專案>計費資源 |
+| <span class="preview">前置任務清單</span> | <span class="preview">設定>任務或範本任務>前置任務</span> |
 | 在任務中新增進階指派 | 任務>工作總攬>進階 |
 | <span class="preview">檔案的所有版本檢視</span> | <span class="preview">專案>檔案>檔案詳細資訊>所有版本</span> |
 | 面板管理員檢視 | 面板>管理員檢視 |
 | Adobe雲端儲存空間上的檔案 | 專案，任務，問題，投資組合，方案，範本，範本任務>檔案 |
 | <span class="preview">情境計畫和方案的清單</span> | <span class="preview">主要功能表>案例</span> |
+| <span class="preview">目標和進度指標清單</span> | <ul><li><span class="preview">主要功能表>目標</span></li><li><span class="preview">主要功能表>目標>進度指示器</span></li></ul> |
 
 <!--
 
-Last bullet in "Lists of integrations" <li><span class="preview">Setup > Documents > Experience Manager Assets</span></li>
+Under integrations?
+| <span class="preview">List of layout templates</span> | <ul><li><span class="preview">Setup > Interface > Layout Templates</span></li><li><span class="preview">Group Detail page > Layout Templates</span></li></ul> |
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
@@ -424,7 +429,7 @@ Last, under Scenario Planner
 1. 按一下清單上方的&#x200B;**篩選器**。
 1. 在[篩選]方塊中，按一下[**新增條件**]。
 1. 選取欄位作為篩選依據。
-1. 選取篩選修飾元，例如「具有任何」、「不具有任何」、「早於」或「晚於」。 修正因子選項會因您篩選的欄位型別而異。
+1. 選取篩選修飾元，例如「為任何」、「不為」、「早於」或「晚於」。 修正因子選項會因您篩選的欄位型別而異。
 1. 選取一或多個欄位值。 根據您篩選的欄位型別，系統可能會提示您從清單中選取專案、搜尋專案，或使用日曆來選取日期範圍。
 
    ![在增強型清單中篩選](assets/glist-filter-with-options.png)

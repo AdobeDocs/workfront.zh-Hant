@@ -34,12 +34,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 7a38b5250065c1f1570342ad2f6eef857ca8db6a
 workflow-type: tm+mt
-source-wordcount: '8056'
+source-wordcount: '8284'
 ht-degree: 4%
 ---
 # 建立自訂表格
+
+{{highlighted-preview}}
 
 <!-- Audited: 6/2025 -->
 
@@ -483,7 +485,8 @@ ht-degree: 4%
     <li>單選下拉式清單</li>
     <li>多選下拉式清單</li>
     </ul></td>
-    </tr> 
+    </tr>
+    <tr>
     <td role="rowheader">選擇 </td> 
     <td> 
     <p>選取下列任一選項：</p> 
@@ -507,6 +510,36 @@ ht-degree: 4%
     </ul>
     </td>
      </tr>
+    <tr>
+    <td role="rowheader"><span class="preview">選擇</span></td> 
+    <td>
+    <div class="preview">
+    <p>按一下<strong>編輯選項</strong>以新增或編輯欄位的選項。</p>
+    <p>若要在「編輯選項」對話方塊中新增選項：</p>
+    <ol>
+    <li><p>按一下表格底部的<strong>新列</strong>。</p> <p><b>注意：</b>您可以新增的選項數量沒有限制。</p></li>
+    <li>輸入<strong>選擇名稱</strong>和<strong>選擇值</strong>。 這些通常是相同的，就像欄位API名稱和標籤。</li>
+    <li>（選擇性）選取<strong>依預設選取</strong>，讓欄位中的選項依預設選取。</li> 
+    </ol>
+    <p>如需其他動作：</p>
+    <ul>
+    <li>若要編輯現有的選擇，請在您要變更的區域中連按兩下。</li>
+    <li> 若要隱藏欄位中的選擇，請選取該選擇，然後按一下熒幕底部動作列中的<strong>隱藏選擇</strong>。 隱藏的選擇在報表中仍可存取。</li> 
+    <li> <p>若要從欄位中刪除選擇，請選取該選擇，然後按一下畫面底部動作列中的<strong>移除選擇</strong>。</p> <p><b>警告</b>：如果您有使用此選擇的目前物件，請勿將其從欄位移除。 移除它將會導致歷史資料遺失。 相反地，選取要隱藏它的選項，這會防止使用者在將來選取它。</p> </li> 
+    <li>使用<strong>拖曳</strong>圖示<img src="assets/drag-icon.png">手動排序選項。</li>
+    <li>按一下<strong>排序選擇A-Z</strong>，依欄位中的字母順序排序選擇。</li>
+    </ul>
+    <p>當您完成編輯選擇時，請按一下[儲存]。<strong></strong></p>
+    </div>
+    </td> 
+    <td><ul>
+    <li><span class="preview">選項按鈕</span></li>
+    <li><span class="preview">核取方塊群組</span></li>
+    <li><span class="preview">單選下拉式清單</span></li>
+    <li><span class="preview">多選下拉式清單</span></li>
+    </ul>
+    </td>
+    </tr> 
     <tr>
      <td>作用中</td>
      <td><p>此選項預設為開啟。<p><p>將欄位設為「非使用中」時，該欄位會從報表、篩選器和檢視中排除，並且無法再用於自訂表單欄位程式庫。</p></td>

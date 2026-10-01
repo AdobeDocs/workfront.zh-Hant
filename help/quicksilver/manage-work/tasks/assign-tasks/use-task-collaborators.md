@@ -16,16 +16,24 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: ce3795d14390ccff1c66d7c6add34455c0ca4082
+source-git-commit: a4dfe29c0cf85f6029fd5f4398942c60bd3d6b5a
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1072'
 ht-degree: 1%
 ---
 # 使用工作代理
 
-工作代理是可直接指派給Workfront任務的AI共同作業人員，除了現有的AI檢閱者用於檔案和資產檢閱外。 就像其他AI共同作業人員一樣，工作代理會在「設定」區域中設定，並像使用者一樣指派給任務。
+{{preview-fast-release-general}}
 
-工作代理會連線到您在Copilot Studio、Claude或Writer中設定的代理。
+工作代理是可直接指派給Workfront任務和問題的AI共同作業人員。 就像其他AI共同作業人員一樣，工作代理會在「設定」區域中設定，並像使用者一樣指派給任務。
+
+工作代理會連線到您已在Copilot Studio、Claude、Writer、<span class="preview">OpenAI或IBM中設定的代理。</span>
+
+>[!IMPORTANT]
+>
+>Writer不建議使用代理程式。 使用Writer代理程式設定的工作代理程式在10月9日之後將無法運作。 2026.
+>
+>如需有關棄用的資訊，請參閱Writer檔案中的[代理程式庫移轉與棄用](https://support.writer.com/articles/8335689949-migrating-no-code-agents)。
 
 如需有關在Workfront中建立工作代理程式的資訊和指示，請參閱設定AI共同作業人員一文中的[設定工作代理程式](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent)。
 
@@ -58,7 +66,7 @@ ht-degree: 1%
 
 ## 先決條件
 
-* 您必須先在Copilot、Claude或Writer.ai中設定代理程式，才能將其用作「工作代理程式」。
+* 您必須先在Copilot、Claude、Writer.ai、OpenAI或IBM中設定代理程式，才能在Workfront中將其用為工作代理程式。
 
 ## 工作代理程式概述
 
@@ -74,7 +82,7 @@ ht-degree: 1%
 >
 >* 有關代理程式職責和能力的特定詳細資訊是在建立代理程式的應用程式中設定，而不是在Workfront中設定。
 >* Workfront MCP伺服器不需要新增至作為工作代理程式的代理程式，也不需要連線工作代理程式才能運作。
->* 工作代理目前支援在Copilot Studio、Claude和Writer.ai中建立的代理。
+>* 工作代理目前支援在Copilot Studio、Claude和Writer.ai、<span class="preview">OpenAI和IBM中建立的代理。</span>
 >* 在Copilot Studio中設定代理程式時，您必須將安全性設定為&#x200B;**無驗證**。
 >* 如需有關在Workfront中建立工作代理程式的資訊和指示，請參閱設定AI共同作業人員一文中的[設定工作代理程式](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent)。
 
@@ -86,6 +94,7 @@ ht-degree: 1%
 * 任務說明
 * 任務更新流中的註解
 * 附加到任務的任何自訂表單中的資訊
+* <span class="preview">附加檔案</span>
 
 此資訊一律會讀取且無法設定為Workfront設定。
 
@@ -98,7 +107,9 @@ ht-degree: 1%
 
 ## 工作代理程式啟動觸發程式
 
-當工作代理程式被指派給任務時，它會在滿足以下任何情況時開始工作：
+當工作代理程式被指派給任務<span class="preview">或問題</span>時，它會在滿足以下任何情況時開始工作：
+
+<!--update wording to include issues when this goes to production-->
 
 * 「工作代理程式」已指派給準備開始的任務。 （例如，如果任務具有前置任務，則前置任務為完成。）
 * 工作代理程式和使用者會指派給任務，而工作代理程式會先指派。
@@ -114,9 +125,9 @@ ht-degree: 1%
 * 「工作代理程式」會指派給已指派「工作代理程式」的工作。 在這種情況下，指派的第一個工作代理程式將已開始工作，而第二個工作代理程式將不會執行任何動作。
 * 「工作代理程式」被指派給未準備好開始的任務。 （例如，如果任務具有前置任務，則前置任務尚未完成。）
 
-## 將工作代理指派至任務
+## 指派工作代理至工作<span class="preview">或問題</span>
 
-工作代理的指派方式與使用者的指派方式相同。
+以指派使用者的相同方式，將工作代理指派給任務<span class="preview">或問題</span>。
 
 當您在可用受指派人清單中搜尋「工作代理程式」時，「工作代理程式」的名稱僅為名字。
 

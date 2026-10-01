@@ -1,0 +1,9 @@
+{
+	"servers": {
+		"glean_default": {
+			"type": "http",
+			"url": "https://adobe-be.glean.com/mcp/default"
+		}
+	},
+	"inputs": []
+}

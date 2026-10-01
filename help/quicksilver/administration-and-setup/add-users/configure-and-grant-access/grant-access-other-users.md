@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 1dc0bdb90242129fc2097f029440efbcbd04b62c
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '912'
 ht-degree: 3%
 ---
 # 授予使用者存取許可權
@@ -158,6 +158,10 @@ ht-degree: 3%
      <tr> 
       <td role="rowheader"><strong>檢視成本費率</strong> </td> 
       <td> 允許使用者檢視使用者設定檔的成本率。</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>檢視僱用歷史記錄</strong> </td> 
+      <td> 允許使用者檢視使用者設定檔的僱用歷史記錄。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>檢視一般財務</strong> </td> 

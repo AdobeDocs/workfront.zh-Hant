@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
 workflow-type: tm+mt
-source-wordcount: '4584'
+source-wordcount: '5023'
 ht-degree: 1%
 ---
 # 管理時間表檢視
@@ -192,11 +192,16 @@ Old:
 
    ![時間表檢視範例](assets/timeline-view-example.png)
 
-   與您選取的記錄型別相關聯的記錄會在時間軸中顯示為長條，並依其開始日期的時間順序依預設排序。
+   與您選取的記錄型別相關聯的記錄會在時間軸中顯示為長條圖，並依預設以開始日期的時間順序自動排序。
+
+   <!--
+    <span class="preview">First 500 records display by default. Additional records continue to display as you scroll the page.</span> 
+    -->
+   <!-- must check here to see if the timeline is not getting the same button at the bottom of the page that says "Load more" like the calendar view-->
 
    >[!TIP]
    >
-   >    時間軸中記錄的排序在壓縮檢視中不可見。
+   >    時間軸中記錄的自動排序在壓縮檢視中不可見。
 
 1. （視條件而定）如果管理員已啟用自訂季度，而Workfront偵測到自訂季度設定方式發生問題，則開啟時間表檢視時，您可能會收到警告。
 
@@ -263,6 +268,14 @@ Old:
       您可以使用熒幕上可見的任何文字或特殊字元。
 
       您無法使用與未顯示在時間表檢視中的欄位關聯的關鍵字。
+
+      <!--
+        this might change at the release of table lazy loading:
+        >[!TIP]
+        >
+        ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
+        -->
+      <!--see if additional records load after you click Load more - not sure what the functionality is here-->
 
    1. 在鍵盤上按Enter鍵以移至下一個找到的欄位。
    1. （選擇性）如果有多個相符專案，請按一下搜尋關鍵字右邊的向上和向下箭頭，以尋找表格中的所有相符專案。
@@ -361,10 +374,10 @@ Old:
         </tr>
         <tr>
             <td>多選，人員</td>
-            <td><p>具有任一</p>
+            <td><p>具有任一</p> 或<span class="preview"><p>屬於任一</p></span>
             <p>具有所有</p>
             <p>完全符合</p>
-            <p>不具有</p>
+            <p>不具有</p> 或<span class="preview"><p>不屬於</p></span>
             <p>是空的</p>
             <p>不是空的</p></td>
         </tr>
@@ -486,6 +499,16 @@ Old:
 
    群組會立即套用。
 
+   <!--
+    <div class="preview">
+    *** Not sure which one will be released: 
+    500 records display by default. There might be more records that belong to the groupings visible on the screen that are not uploaded. Continue to scroll to upload all records. 
+
+    OR
+
+    500 records display by default. There might be more records that belong to the groupings visible on the screen that are not uploaded. Click **Load more** to load all records. 
+    </div>
+    -->
 1. <span class="preview"> （選擇性）按一下工具列中的&#x200B;**群組**&#x200B;圖示![群組圖示](assets/grouping-icon.png)以開啟&#x200B;**群組記錄依據**&#x200B;方塊，然後按一下&#x200B;**全部展開**&#x200B;以展開所有群組，或按一下&#x200B;**全部摺疊**&#x200B;以摺疊所有群組，並手動只摺疊您需要的群組。</span>
 1. <span class="preview"> （選擇性和條件性）在泳道顯示中，拖放左側面板分隔符號以調整其寬度。 每個使用者的面板寬度會跨工作階段儲存，初次使用者的預設寬度為。</span>
 1. <span class="preview">（選擇性）若是長群組名稱，將滑鼠指標停留在群組的行上，即可在工具提示中檢視群組的完整名稱。</span>
@@ -504,50 +527,50 @@ Old:
    >將記錄從一個群組拖放至另一個群組時，在群組中所選的欄位會自動更新移動記錄上的值。
 1. （選擇性）按一下&#x200B;**設定**，然後按一下&#x200B;**色彩**&#x200B;以使用色彩代碼分組。 如需詳細資訊，請參閱本文中的[編輯時間表檢視設定](#edit-the-timeline-view-settings)一節。
 
-<!--
-
 <div class="preview">
 
-### Add sort
+### 新增排序
 
-You can sort records and groupings in the timeline view. 
+您可以在時間軸檢視中排序記錄和群組。
 
-Consider the following when working with record sorting in the timeline view: 
+在時間軸檢視中使用記錄排序時，請考慮下列事項：
 
-* You can apply sorting both in the table and timeline views. The sorting of the table view is independent from that in the timeline view of the same record type.
-* You can apply 10 sorting conditions for records and as many sorting conditions as you have groupings in the timeline view (you can have up to 3 groupings conditions in the timeline view). 
+* 您可以在表格和時間軸檢視中套用排序。 表格檢視的排序與相同記錄型別之時間軸檢視中的排序不同。
+* 您可以為記錄套用10個排序條件，並且時間軸檢視中群組數量的排序條件不限（時間軸檢視中最多可以有3個群組條件）。
 
-* The sortings are unique to the view that you select. Two timeline views of the same record type can have different sortings applied to them. Two users looking at the same timeline view see the same sorting that is currently applied. 
-* You cannot name the sorting you build for a timeline view.
-* Removing sorting removes it from anyone accessing the same record type as you and who displays the same view as you do. 
+* 排序對於您選取的檢視而言是唯一的。 相同記錄型別的兩個時間軸檢視可以套用不同的排序。 檢視相同時間表檢視的兩個使用者會看到目前套用的相同排序。
+* 您無法為時間表檢視命名您建置的排序。
+* 移除排序會使存取與您相同記錄型別及顯示與您相同檢視的任何人無法存取。
 
-* You can sort by connected record fields or lookup fields.  
+* 您可以依連線的記錄欄位或查詢欄位排序。
 
-To add a sort in the timeline view:
+若要在時間軸檢視中新增排序：
 
-1. Create a timeline view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. Click **Sort** in the view's toolbar. 
+1. 如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述，建立記錄型別的時間表檢視。
+1. 按一下檢視工具列中的&#x200B;**排序**。
 
-    The sorting box opens. 
+   排序方塊開啟。
 
-    ![Sort in timeline with grouping sort](assets/sort-in-timeline.png)
-1. From the drop-down menu, select **Sort records**, then either click a field listed in the **Start with a suggested field** list, or click **Choose a different field**, then search for field and click it when it displays in the list.
-1. Select the order you want the sorting to be applied (alphabetical, reverse descendent etc). The order a sorting is applied depends on the format of the field you selected. 
-1. (Optional) Click **Add condition** to add up to 10 conditions. 
-1. (Optional) Click **Clear all** to remove all conditions.
-1. From the drop-down menu in the upper-left corner of the sorting box, select **Sort groupings**. 
+   ![使用分組排序在時間軸中排序](assets/sort-in-timeline.png)
+1. 從下拉式功能表中選取&#x200B;**排序記錄**，然後按一下&#x200B;**以建議的欄位開始**&#x200B;清單中列出的欄位，或按一下&#x200B;**選擇其他欄位**，然後搜尋欄位，並在欄位顯示在清單中時按一下該欄位。
+1. 選取您要套用記錄排序的方向（字母順序、反向下階等）。 排序的套用方向取決於所選欄位的格式。
+1. （選擇性）按一下&#x200B;**新增條件**&#x200B;以新增最多10個條件。
+1. （選擇性）按一下&#x200B;**全部清除**&#x200B;以移除所有條件。
+1. 從排序方塊左上角的下拉式功能表中，選取&#x200B;**排序群組**。
 
-    >[!TIP]
-    >
-    >If there are no groupings applied to the timeline view, the Sort groupings option is not available.
-1. To reorder the sorting order of the fields, click **Grouping** in the toolbar and reorder the groupings. Sorting field order also changes. 
-1. (Optional) To remove grouping sorting, remove the groupings from the timeline view. 
+   >[!TIP]
+   >
+   >如果沒有套用至時間表檢視的分組，則&#x200B;**排序群組**&#x200B;選項無法使用。
+1. （選擇性）選取要套用群組排序的方向（字母順序、反向下階等）。 排序的套用方向取決於所選欄位的格式。
+1. （視條件而定）如果您從預設值修改排序方向，請按一下&#x200B;**全部重設**&#x200B;以重設排序方向。
+1. 若要重新排序欄位的排序順序，請按一下工具列中的&#x200B;**群組**&#x200B;並重新排序群組。 排序欄位順序也會變更。
+1. （可選）若要移除群組排序，請從時間軸檢視中移除群組。
 
-    Sorting is applied immediately.
-1. Click anywhere on the page to close the sorting box. 
+   排序會立即套用。
+1. 按一下頁面上的任何位置，關閉排序方塊。
 
 </div>
--->
+
 
 <!--this ("To remove grouping sorting, remove the groupings from the timeline view. ") might change at production - we have a button here called Reset all but right now it's not functioning - I logged a bug for this-->
 
