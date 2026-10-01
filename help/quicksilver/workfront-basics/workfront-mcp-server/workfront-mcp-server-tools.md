@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d185ddbfe7e85f214181eb9a76ff83b775abace3
 workflow-type: tm+mt
-source-wordcount: '2811'
+source-wordcount: '3020'
 ht-degree: 4%
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 4%
 | 尋找檔案 | `approvals_find_document` | 已棄用。 請改用`insights_find_workfront_data`。 此工具會依檔案名稱或檔案版本ID來查詢檔案。 | 讀取 |
 | 傳送檔案至AEM資料夾* | `approvals_send_documents_to_aem_folder` | 將一或多個Workfront檔案移動到AEM連結的資料夾。 | 寫入 |
 
-*您必須在Workfront執行個體中設定原生[!DNL Adobe Experience Manager]整合，才能使用這些工具。 如需詳細資訊，請參閱[&#x200B; Adobe Experience Manager Assets整合概述](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)。
+*您必須在Workfront執行個體中設定原生[!DNL Adobe Experience Manager]整合，才能使用這些工具。 如需詳細資訊，請參閱[ Adobe Experience Manager Assets整合概述](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)。
 
 
 *Adobe雲端儲存空間上的專案尚不支援將檔案傳送至AEM資料夾。 未來版本預計會提供支援。
@@ -316,7 +316,22 @@ ht-degree: 4%
 | --- | --- | --- | --- |
 | <span class="preview">分享意見</span> | <span class="preview">`share_feedback`</span> | <span class="preview">記錄您報告的情緒和交談期間發生的事情，以便改善Workfront的MCP工具。 僅用於您明確要求分享意見時（例如「分享意見回饋」或「回報錯誤」）。</span> | <span class="preview">寫入</span> |
 
+## 報告工具
 
+報告工具可讓您透過聊天室建立和管理畫布控制面板。 以淺顯語言描述您要的報告，而AI代理平台會使用Workfront資料為您建立控制面板和Widget。
+
+
+### 畫布儀表板
+
+| 標題 | 工具名稱 | 作用 | 動作 |
+| --- | --- | --- | --- |
+| 讀取 | `read` | 以傳遞ID選取的三種模式讀取報表資料：列出您可見的控制面板、擷取單一控制面板的結構，或擷取一個Widget的完整設定。 | 讀取 |
+| 建立儀表板 | `create_dashboard` | 建立新的空白報表控制面板並傳回，當中附有開啟控制面板的連結。 | 寫入 |
+| 更新儀表板 | `update_dashboard` | 部分更新儀表板的中繼資料、提示、篩選器和每個Widget的位置。 省略的欄位將保持不變。 | 寫入 |
+| 建立Widget | `create_widget` | 在儀表板上建立Widget及其報表設定。 一個工具可處理所有三種Widget型別：圖表、KPI和表格。 | 寫入 |
+| 更新Widget | `update_widget` | 部分更新現有Widget的設定。 Widget型別是自動推斷的，因此您只會傳送您要變更的欄位。 | 寫入 |
+| 複製物件 | `copy_object` | 將整個儀表板（包括其小工具、提示和篩選器）複製到新儀表板，或複製儀表板內或儀表板的單一小工具。 | 寫入 |
+| 刪除物件 | `delete_object` | 永久刪除報表儀表板及其所有Widget，或單一Widget。 此動作無法還原。 | 寫入 |
 
 ## 如何更新工具
 
@@ -329,5 +344,6 @@ ht-degree: 4%
 我們日後會致力新增下列工具至Workfront MCP伺服器：
 
 * 展示板
+
 
 
