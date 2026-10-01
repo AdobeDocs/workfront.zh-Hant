@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0c08d79733bc6da0ecfd41f765ce2c624e71ad0e
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%
@@ -23,6 +23,32 @@ ht-degree: 0%
 本頁說明2026年第四季度發行的「預覽」環境中的Financial Management增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2026年第四季版本週期目前可用的所有變更清單，請參閱[2026年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)。
+
+<!--
+
+## Enhancements to billing rates on templates
+
+>[!NOTE]
+>
+>Preview: October 1, 2026
+>Production fast release: October 15, 2026
+>Production for everyone: October 15, 2026
+
+Multiple updates have been made to the billing rates functionality on a project template.
+
+### For customers on all Workfront and Workflow packages
+
+The Rates area on templates has been updated to an enhanced list.
+
+For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+### For customers on the Workflow Ultimate package only
+
+Rate attributes are now available to apply to job role billing rates on the template.
+
+For more information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md#add-more-items-to-a-template) and [Override Job Role Billing Rates at the project level](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
+
+-->
 
 ## 公司收費率的增強功能
 

@@ -13,10 +13,10 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3599b27bb1b838ebe7d0a2648e6c67333da83dc8
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 4%
+source-wordcount: '1434'
+ht-degree: 2%
 ---
 # 2026年第四季報表增強功能
 
@@ -24,23 +24,99 @@ ht-degree: 4%
 
 如需2026年第四季版本週期目前可用的所有變更清單，請參閱[2026年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)。
 
-<!--
-
-## Filter on collection relationships in Canvas Dashboards
+## Google Cloud Platform和Microsoft Azure現在提供畫布控制面板
 
 >[!NOTE]
 >
->Preview: September 24, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>預覽：不適用
+>生產快速發行： 2026年10月14日
+>適用於所有人的生產： 2026年10月15日
 
-When you build a filter in a Canvas Dashboard, you can now filter on collection relationships, which are fields that link to a group of related records rather than to a single record. For example, you can filter on the status of tasks belonging to a project to show a list of projects that have tasks in the "New" status.
+Google Cloud Platform (GCP)和Azure上的Workfront執行個體現在可以選擇加入「畫布控制面板」開放Beta版。 如需詳細資訊，請參閱[使用畫布儀表板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)。
 
-Previously, filtering on collection relationships required text mode.
+## 註冊Workfront Data Connect的Snowflake私人清單
 
-For more information, see [Report filter reference for Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md).
+>[!NOTE]
+>
+>預覽：不適用
+>生產快速發行： 2026年10月14日
+>適用於所有人的生產： 2026年10月15日
 
--->
+您現在可以透過註冊私人清單，直接與組織的Snowflake帳戶共用您的Workfront Data Connect資料。 此連線方法使用Snowflake的私人清單功能，在不公開資料的情況下在組織之間安全地共用資料，並且跨地區和託管平台運作。
+
+當您想要將Workfront資料與企業資料倉儲中的其他資料結合時，私人清單會很有用。 由於資料位於您自己的Snowflake帳戶中，因此您可以連同其他資料一起查詢。
+
+如需詳細資訊，請參閱[註冊Workfront資料連線的私人清單](/help/quicksilver/reports-and-dashboards/data-lake/register-a-private-listing.md)。
+
+## 報告MCP工具現在可用於畫布儀表板
+
+>[!NOTE]
+>
+>預覽： 2026年10月1日
+>生產快速發行： 2026年10月14日
+>適用於所有人的生產： 2026年10月15日
+
+為了更方便使用畫布控制面板，我們在Workfront MCP中新增了工具。 現在，您可以透過聊天來建立和管理Canvas控制面板，而且控制面板和Widget都是使用您的Workfront資料為您建立的。 這適用於Claude和Cursor等MCP使用者端。
+
+例如，您可以：
+
+* 透過詢問建立報告。 以自然語言描述儀表板或圖表，而非手動建置。
+* 就地編輯。 要求重新命名Widget、變更篩選器、交換圖表型別或調整大小，而變更會套用至即時儀表板。
+* 重複使用您擁有的資源。 複製現有的儀表板或Widget作為起點，而非從頭重建。
+
+### 支援的功能
+
+**儀表板**
+
+* 建立新儀表板
+* 列出您的儀表板（您的、與您共用、全部或我的最愛），並按標題搜尋
+* 開啟或檢視控制面板的結構
+* 更新標題、說明、貨幣、篩選和提示
+* 複製儀表板（無論是否包含其Widget、提示和篩選器）
+* 刪除儀表板
+
+**介面工具集**
+
+* KPI — 單一彙總數字（總計、平均值、計數、最小值、最大值等）
+* 圖表 — 長條圖、直條圖、折線圖和圓餅圖；支援簡單、多系列和棧疊圖表
+* 表格 — 具有列群組的多欄表格
+* 檢視Widget的設定，以及更新、複製、調整大小或重新定位，或刪除它
+
+**報告選項**
+
+* 使用條件和AND/OR群組篩選資料
+* 依任何欄位分組和彙總
+* 從重要績效指標或圖表向下追溯至基礎記錄
+* 自訂欄標籤、數字、日期和貨幣格式，以及條件式儲存格樣式
+* 儀表板層級提示和篩選器
+
+如需詳細資訊，請參閱[使用畫布儀表板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md)。
+
+## 在畫布儀表板之間複製或移動Widget
+
+>[!NOTE]
+>
+>預覽： 2026年10月1日
+>生產快速發行： 2026年10月14日
+>適用於所有人的生產： 2026年10月15日
+
+您現在可以將Widget複製到相同儀表板、您擁有編輯存取權的另一個儀表板或新儀表板。 您也可以將Widget移至您對其擁有編輯存取權的另一個儀表板，或移至新儀表板。
+
+當您複製Widget時，將會開啟一個對話方塊，您可在其中選取目標控制面板以及是否要複製或移動Widget。 過去，Report Builder會立即開啟。
+
+## 在畫布儀表板中篩選集合關係
+
+>[!NOTE]
+>
+>預覽： 2026年10月1日
+>生產快速發行： 2026年10月14日
+>適用於所有人的生產： 2026年10月15日
+
+當您在「畫布控制面板」中建立篩選器時，現在可以依集合關係進行篩選，這些欄位會連結至一組相關記錄，而非單一記錄。 例如，您可以篩選屬於專案之任務的狀態，以顯示具有「新」狀態任務的專案清單。
+
+以前，篩選集合關係需要文字模式。
+
+如需詳細資訊，請參閱[畫布控制面板的報告篩選器參考](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)。
 
 ## 在畫布儀表板中複製儀表板
 

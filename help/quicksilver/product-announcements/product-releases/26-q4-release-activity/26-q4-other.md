@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d25795f93d0ba333d79e3850fc25c7f046cc2ab1
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '1108'
 ht-degree: 0%
 ---
 # 2026年第四季發行時間範圍內的其他增強功能
@@ -23,6 +23,59 @@ ht-degree: 0%
 本頁說明2026年第四季版本對預覽環境所做的增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2026年第四季版本週期目前可用的所有變更清單，請參閱[2026年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)。
+
+## 更新增強型清單
+
+>[!NOTE]
+>
+>預覽： 2026年10月1日
+>生產快速發行： 2026年10月14日
+>適用於所有人的生產： 2026年10月15日
+
+已對增強的清單篩選器和群組進行下列變更：
+
+* 在使用欄位群組的篩選器和群組中，群組現在預設為摺疊。 您不再需要捲動到最遠的位置來尋找正確的欄位群組。
+* 篩選運運算元「具有任何」和「沒有任何」已變更為「為任何」和「不為」。
+
+已針對增強型清單欄標題進行下列變更，以便在Workfront中提供所有增強型清單的一致性：
+
+* 已在每個標題中新增圖示，以指示欄表示的欄位型別。 例如，「受指派人」或「使用者」欄有人員的圖示，而日期欄位會顯示行事曆。 這些圖示也會顯示在欄管理員中的欄位旁邊。
+* 欄標題現在會在變更欄大小時提供更順暢、更一致的體驗。
+
+如需詳細資訊，請參閱[使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
+
+## 多個畫面已更新為增強型清單
+
+>[!NOTE]
+>
+>預覽： 2026年10月1日
+>生產快速發行： 2026年10月14日
+>適用於所有人的生產： 2026年10月15日
+
+下列Workfront清單現在使用增強型清單格式：
+
+* 設定>電子郵件>通知>事件通知與群組詳細資訊頁面>事件通知
+* 設定>檔案> Experience Manager Assets
+* 專案或範本>佇列主題
+* 專案或範本>主題群組
+* 專案或範本>路由規則
+* 任務或範本任務>前置任務
+
+部分或全部清單的更新包括以下內容：
+
+* 清單的新外觀，包括顏色、格式和字型的更新。
+* 在清單中建立新物件的選項已移至右上方，並顯示為藍色按鈕。
+* 工具列已移除。 現在，當您選取表格中的一或多個物件時，動作列會以藍色顯示在清單底部。
+* 某些欄可能已重新定位或移除，或新增了新欄。
+* 部分確認和警告已移除或變更。
+* 現在會自動儲存在某些清單中，而且可能已移除「儲存」按鈕。
+* 部分增強型清單可讓欄重新命名或排序。
+* 有些增強型清單包含欄管理員，可讓您新增及排列欄。 您可以在Workfront中依原生或自訂欄位選取欄。
+* 表格儲存格內的圖示已由具有多個選項的「更多」功能表取代。
+
+注意：並非所有更新都可在所有清單中取得。
+
+如需詳細資訊，請參閱[使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
 
 ## 增強型清單更新
 
@@ -84,7 +137,7 @@ ht-degree: 0%
 
 Adobe Workfront會在您上傳、儲存和下載的檔案上保留C2PA中繼資料，而不修改它。
 
-如需詳細資訊，請參閱Adobe Workfront[&#128279;](/help/quicksilver/documents/c2pa-metadata-overview.md)中的C2PA中繼資料。
+如需詳細資訊，請參閱Adobe Workfront](/help/quicksilver/documents/c2pa-metadata-overview.md)中的[C2PA中繼資料。
 
 ## 左側導覽面板圖示的介面更新
 
@@ -98,7 +151,7 @@ Adobe Workfront會在您上傳、儲存和下載的檔案上保留C2PA中繼資�
 
 導覽面板位於Workfront中大部分割槽域和物件的左側，包括專案、任務和問題。
 
-如需詳細資訊，請參閱[&#x200B; Adobe Workfront中的左側導覽](/help/quicksilver/workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)。
+如需詳細資訊，請參閱[ Adobe Workfront中的左側導覽](/help/quicksilver/workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)。
 
 ## 增強型清單更新
 

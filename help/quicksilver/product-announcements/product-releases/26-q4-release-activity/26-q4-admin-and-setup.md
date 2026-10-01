@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 6fb8df06a03ba2189c16585ffb2844f484f4ca1d
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1666'
 ht-degree: 0%
 ---
 # 2026年第四季管理員增強功能
@@ -23,6 +23,80 @@ ht-degree: 0%
 本頁說明2026年第四季版本管理員對預覽環境所做的增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2026年第四季版本週期目前可用的所有變更清單，請參閱[2026年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)。
+
+## 使用AI產生自訂本地化
+
+>[!NOTE]
+>
+>預覽： 2026年10月1日
+>生產快速發行： 2026年10月14日
+>適用於所有人的生產： 2026年10月15日
+
+為協助您節省翻譯自訂字詞和欄位標籤的時間，我們已新增為自訂本地化產生AI翻譯的功能。 現在，Workfront管理員可以使用人工智慧產生未翻譯自訂文字的翻譯，或填寫先前本地化辭彙的其他語言翻譯，然後在儲存前檢閱和調整結果。
+
+如需詳細資訊，請參閱[設定自訂本地化](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)。
+
+<!--
+
+## Grant access to MCP Tools
+
+>[!NOTE]
+>
+>Preview: October 1, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+To make it easier to control secure access to Workfront data, we've added the ability for administrators to configure MCP Tools permissions by access level. Now, you can configure actions a given access level can take through the Workfront MCP.
+
+* No access
+* Read
+* Create
+* Update / Delete
+
+You can edit this access when editing a specific access level, or edit access to MCP tools for multiple access levels at once.
+
+For more information, see [Grant access to MCP Tools](help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-mcp-tools.md).
+
+-->
+
+## 版面配置範本的增強功能
+
+>[!NOTE]
+>
+>預覽： 2026年10月1日
+>生產快速發行： 2026年10月14日
+>適用於所有人的生產： 2026年10月15日
+
+已針對版面配置範本進行數個增強功能：
+
+* 系統和群組管理員現在可以選擇在版面配置範本的主功能表中隱藏或顯示系統專案。 系統專案包括「設定」和「說明」按鈕。
+* 您現在可以使用預設的Workfront功能表選項，以任意順序重新定位自訂應用程式。 這可讓您將每個應用程式放置在最相關的位置。 以前，自訂應用程式永遠是版面配置範本主功能表選項中的最後一個專案，並且無法重新定位。
+* 您現在可以從左側導覽面板隱藏物件的「詳細資訊」頁面。 物件必須至少有一個專案顯示在左側面板中。 如果隱藏所有其他專案，則無法隱藏最後一個剩餘的專案。
+
+如需詳細資訊，請參閱[使用版面配置範本自訂主功能表](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)和[使用版面配置範本自訂左側面板](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)。
+
+## 改善在自訂表單設計工具中更新欄位選擇的體驗
+
+>[!NOTE]
+>
+>預覽： 2026年10月1日
+>生產快速發行： 2026年10月14日
+>適用於所有人的生產： 2026年10月15日
+
+使用表單設計工具中的下拉式欄位、選項按鈕和核取方塊時，您現在可以在單一對話方塊中新增、編輯和刪除欄位選項。 以前，您會在設計工具的右側面板中新增和編輯選項，如果您建立了很長的選項清單，則不會有太多空間。
+
+如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs)。
+
+## 在Workfront介面中建立和管理事件訂閱
+
+為了讓您更輕鬆地建立和管理您組織的活動訂閱，我們將「活動訂閱」區域新增到「設定」。 現在，您可以：
+
+* 檢視現有事件訂閱的清單：
+* 建立新的事件訂閱，包括依您指定的條件篩選：
+* 刪除事件訂閱。
+
+<!--ADD LINK WHEN READY-->
+
 
 ## 新增MCP整合的授權重新導向URL
 
@@ -85,22 +159,6 @@ For information, see [Configure system updates](/help/quicksilver/administration
 自訂周數在Workfront中不可見。 它們只顯示在Workfront Planning時間表檢視中。
 
 如需詳細資訊，請參閱[啟用自訂季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
-
-## 在主功能表中重新排序自訂應用程式
-
->[!NOTE]
->
->預覽： 2026年9月3日
->生產快速發行： 2026年9月17日
->適用於所有人的生產： 2026年10月15日
->
->此功能已於2026年9月14日暫時從預覽環境中移除。
-
-使用版面配置範本時，您現在可以使用預設的Workfront功能表選項，將自訂應用程式重新定位為任何順序。 這可讓您將每個應用程式放置在最相關的位置。
-
-以前，自訂應用程式永遠是版面配置範本主功能表選項中的最後一個專案，並且無法重新定位。
-
-如需新增自訂應用程式至主功能表的詳細資訊，請參閱[使用版面配置範本自訂主功能表](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)。
 
 ## 自訂檔案整合的大型檔案支援
 

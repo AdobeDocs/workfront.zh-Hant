@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
+source-git-commit: a51e0a56d4a45794b2d9d1097ec14ff46a6b3065
 workflow-type: tm+mt
-source-wordcount: '2783'
+source-wordcount: '3139'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 2026年第四季發行活動
@@ -28,6 +28,86 @@ ht-degree: 0%
 本文介紹2026年第四季發行的Workfront Planning功能。
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+<!--
+
+## See the total record count in table views
+
+>[!NOTE]
+>
+>Preview: October 1, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+The table view now shows the total number of records, with no setup required, and the count updates automatically as you apply filters, search, or change the view.
+
+The record count always reflects your full filtered results, not just the rows on screen, and respects your permissions so you only count records you can access.
+
+For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+-->
+
+## 多值欄位的篩選運運算元標籤更清楚
+
+>[!NOTE]
+>
+>預覽： 2026年10月1日
+>生產快速發行： 2026年10月14日
+>適用於所有人的生產： 2026年10月15日
+
+所有Planning檢視中的多值篩選器運運算元已更新為「為任何」和「不為」，而非「具有任何」和「沒有為」，為您提供更清晰、更一致的Workfront篩選器產生器措辭。
+
+這是僅標籤更新。 系統會自動移轉您現有的篩選器，並繼續依照之前的模式運作。
+
+所有Planning檢視的篩選器都會顯示變更。 如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)。
+
+## 在表格檢視中新增非數字欄位的彙總
+
+>[!NOTE]
+>
+>預覽： 2026年10月1日
+>生產快速發行： 2026年10月14日
+>適用於所有人的生產： 2026年10月15日
+
+我們在表格檢視中引進了其他欄位型別的彙總。 在此增強功能之前，只有數字相關欄位會在欄底部顯示彙總。
+
+彙總會因欄位型別而異：
+
+* 文字、選取、核取方塊和人員欄位：無、空白、非空白
+* 日期欄位：無、MAX、最小值
+* 公式欄位：與格式對應的彙總
+
+我們將NONE新增至與數字相關的欄位型別，而NONE是所有欄位型別的預設值。
+
+不支援下列系統欄位的彙總：建立者、上次修改者和記錄ID。
+
+如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)。
+
+## 變更工作區擁有者
+
+>[!NOTE]
+>
+>預覽： 2026年10月1日
+>生產快速發行： 2026年10月14日
+>適用於所有人的生產： 2026年10月15日
+
+Workspace建立者目前會指派為預設擁有者。 透過此更新，工作區管理員可從共用對話方塊將擁有權轉移給其他Standard-license使用者。
+
+新擁有者會在共用清單和Planning首頁中反白顯示為工作區擁有者，而先前的擁有者會保留工作區的「管理」存取權。
+
+如需詳細資訊，請參閱[共用工作區](/help/quicksilver/planning/access/share-workspaces.md)。
+
+## 在時間軸檢視中排序記錄和群組
+
+>[!NOTE]
+>
+>預覽： 2026年10月1日
+>生產快速發行： 2026年10月14日
+>適用於所有人的生產： 2026年10月15日
+
+您現在可以在時間軸檢視中排序記錄和群組。 在此增強功能之前，此功能無法使用。
+
+如需詳細資訊，請參閱[管理時間表檢視](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
 
 ## 共用Workfront Planning中的欄位
 
