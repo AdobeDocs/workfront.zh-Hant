@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2d1619fde79a80c016c7c963614fd4f7ba63035b
+source-git-commit: 69af10a8df4faf85df36f148c7d261eefefa951e
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1543'
 ht-degree: 7%
 ---
 # 設定系統偏好設定
@@ -240,11 +240,11 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 1. 輸入回呼&#x200B;**URL**。
 1. 按一下&#x200B;**新增**。
 1. 按一下「**儲存**」。
-1. 若要移除URL，請開啟&#x200B;**管理URL**，移除專案，然後按一下[儲存]。**&#x200B;** 當相關的整合遭到淘汰或妥協時，可能有必要進行此作業。
+1. 若要移除URL，請開啟&#x200B;**管理URL**，移除專案，然後按一下[儲存]。**** 當相關的整合遭到淘汰或妥協時，可能有必要進行此作業。
 
 >[!IMPORTANT]
 >
->回呼URL必須完全相符。 Workfront不支援自訂回呼URL的萬用字元或首碼相符。
+>回呼URL必須完全相符，包括任何URL引數。 Workfront不支援自訂回呼URL的萬用字元或首碼相符。
 
 +++
 
