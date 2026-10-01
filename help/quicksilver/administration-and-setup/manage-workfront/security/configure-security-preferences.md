@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 2d1619fde79a80c016c7c963614fd4f7ba63035b
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1539'
 ht-degree: 7%
 ---
 # 設定系統偏好設定
@@ -226,7 +226,9 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 <div class="preview">
 
-授權的重新導向URL可讓您連線自訂AI代理平台，其OAuth回呼URL是您的組織所獨有的，例如，包含連線或租使用者ID的URL。 如需關於何時需要此功能的詳細資訊，請參閱[設定Adobe Workfront MCP伺服器](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)中的[與OAuth連線](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#connect-with-oauth)。
+授權的重新導向URL可讓您連線自訂AI代理平台，該平台的OAuth回呼URL是您的組織所獨有的，例如包含連線或租使用者ID的URL。
+
+如需關於何時可能需要授權重新導向URL的詳細資訊，請參閱[設定Adobe Workfront MCP伺服器](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)中的[使用OAuth連線](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#connect-with-oauth)。
 
 +++ 展開以檢視管理MCP授權重新導向URL的逐步指示。
 
@@ -238,12 +240,11 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 1. 輸入回呼&#x200B;**URL**。
 1. 按一下&#x200B;**新增**。
 1. 按一下「**儲存**」。
+1. 若要移除URL，請開啟&#x200B;**管理URL**，移除專案，然後按一下[儲存]。**** 當相關的整合遭到淘汰或妥協時，可能有必要進行此作業。
 
 >[!IMPORTANT]
 >
 >回呼URL必須完全相符。 Workfront不支援自訂回呼URL的萬用字元或首碼相符。
-
-若要移除URL （例如，如果相關的整合已淘汰或遭破壞），請開啟&#x200B;**管理URL**，移除專案，然後按一下&#x200B;**儲存**。
 
 +++
 
