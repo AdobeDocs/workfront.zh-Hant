@@ -240,7 +240,7 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 1. 輸入回呼&#x200B;**URL**。
 1. 按一下&#x200B;**新增**。
 1. 按一下「**儲存**」。
-1. 若要移除URL，請開啟&#x200B;**管理URL**，移除專案，然後按一下[儲存]。**** 當相關的整合遭到淘汰或妥協時，可能有必要進行此作業。
+1. 若要移除URL，請開啟&#x200B;**管理URL**，移除專案，然後按一下[儲存]。**&#x200B;** 當相關的整合遭到淘汰或妥協時，可能有必要進行此作業。
 
 >[!IMPORTANT]
 >
