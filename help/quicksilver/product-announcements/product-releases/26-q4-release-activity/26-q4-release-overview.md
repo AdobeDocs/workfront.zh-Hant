@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: deeb63ceccc28b8f376713d4a6fb6c103ab4e06b
+source-git-commit: 650684e66eb10bf2afacd88038d06a88b3308df4
 workflow-type: tm+mt
-source-wordcount: '3444'
+source-wordcount: '3473'
 ht-degree: 1%
 ---
 # 2026年第四季版本總覽
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 此頁面上的增強功能可在預覽環境中取得。 此頁面將在2026年第四季版本接近其計畫生產版本時以其他增強功能更新。
 
-每個季度版本都會舉辦即時網路研討會，強調新功能並提供詳細資訊。 若要註冊，請造訪[事件頁面](https://experienceleague.adobe.com/zh-hant/events?filters=Workfront)並篩選Workfront。
+每個季度版本都會舉辦即時網路研討會，強調新功能並提供詳細資訊。 若要註冊，請造訪[事件頁面](https://experienceleague.adobe.com/en/events?filters=Workfront)並篩選Workfront。
 
 >[!IMPORTANT]
 >
@@ -354,7 +354,7 @@ ht-degree: 1%
         </tr>
          <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">從Creative Cloud應用程式</a>存取Workfront專案<p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">從Creative Cloud應用程式</a>存取Workfront專案<p>[！BADGE Off Schedule]{type=Neutral}</p>
                 <p>您現在可以直接從Adobe Photoshop、Illustrator和InDesign存取您的Workfront專案。 使用Workfront雲端儲存空間的Adobe專案會與您的其他Creative Cloud專案一起出現在應用程式視窗左側的「專案」面板中。</p>
             </td>
             <td><p>不適用</p></td>
@@ -363,7 +363,7 @@ ht-degree: 1%
         </tr>
          <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">將多個檔案分組為單一核准工作流程</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">將多個檔案分組為單一核准工作流程</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
                 <p>您現在可以在單一核准工作流程下將多個檔案分組，以便它們一起經過相同的階段。</p>
             </td>
             <td><p>此功能在預覽Sandbox環境中無法使用，因為在此處無法使用Frame.io整合。</p></td>
@@ -393,7 +393,7 @@ ht-degree: 1%
         -->
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">系統管理員對核准範本的完整存取權</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">系統管理員對核准範本的完整存取權</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
                 <p>系統管理員現在可以檢視、編輯、刪除和大量刪除帳戶中的每個核准範本，無論範本的建立者或共用者為何。</p>
             </td>
             <td><p>2026年9月8日</p></td>
@@ -484,7 +484,7 @@ ht-degree: 1%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">將影像附加至Adobe雲端儲存物件上的註解</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">將影像附加至Adobe雲端儲存物件上的註解</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
                 <p>使用Adobe雲端儲存空間作為統一稽核和核准一部分的組織現在可以直接將影像檔案附加到評論。</p>
             </td>
             <td><p>2026年7月30日</p></td>
@@ -524,18 +524,16 @@ ht-degree: 1%
             <td><strong>預覽</strong></td>
             <td><strong>快速發行</strong></td>
             <td><strong>每季</strong></td>
-        </tr>
-<!--        
+        </tr>       
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Enhancements to billing rates on templates</a>
-                <p>Project templates now support enhanced list improvements and rate attribute updates for billing rates.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">對範本計費率的增強功能</a>
+                <p>專案範本現在支援帳單費率的增強型清單改進和費率屬性更新。</p>
             </td>
-            <td><p>October 1, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
-        </tr>
--->        
+            <td><p>2026年10月1日</p></td>
+            <td><p>2026年10月14日</p></td>
+            <td><p>2026年10月15日</p></td>
+        </tr>    
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">公司收費率的增強功能</a>
@@ -547,7 +545,7 @@ ht-degree: 1%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">屬性階層現在會自動保持連線</a><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">屬性階層現在會自動保持連線</a><p>[！BADGE Workflow Ultimate]{type=Informative}</p>
                 <p>選取最低層級的費率屬性現在會自動指派其上方的每個父層次，而非要求手動連結每個層次。</p>
             </td>
             <td><p>2026年9月3日</p></td>
@@ -647,7 +645,7 @@ ht-degree: 1%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">畫布儀表板中的核准型別欄位</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">畫布儀表板中的核准型別欄位</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
                 <p>「核准」實體現在包含「核准型別」欄位，可讓使用者區分校訂核准、檔案版本核准、接收核准和其他核准型別。</p>
             </td>
             <td><p>不適用</p></td>
@@ -656,7 +654,7 @@ ht-degree: 1%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">畫布儀表板中的核准術語更新</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">畫布儀表板中的核准術語更新</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
                 <p>為了清楚起見，已重新命名畫布控制面板中用於檔案和工作核准的多個欄位名稱。</p>
             </td>
             <td><p>不適用</p></td>
@@ -724,7 +722,7 @@ ht-degree: 1%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-requests.md" class="MCXref xref" xrefformat="{para}">AI表單填寫現在會從連結參照的記錄中提取資料</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-requests.md" class="MCXref xref" xrefformat="{para}">AI表單填寫現在會從連結參照的記錄中提取資料</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
                 <p>AI Form Fill現在可以直接從由其連結參考的Workfront物件擷取欄位資料，並在填入表單時將其用作上下文。</p>
             </td>
             <td><p>2026年9月22日</p></td>
@@ -746,7 +744,7 @@ ht-degree: 1%
             <td><strong>每季</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">工作負載平衡器大量指派增強功能</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">工作負載平衡器大量指派增強功能</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
                 <p>在工作負載平衡器大量指派對話方塊上，<strong>取代</strong>動作已重新命名為<strong>指派</strong>，以便更妥善地說明該動作的功能。 功能未變更。</p>
             </td>
             <td><p>2026年7月30日</p></td>
@@ -805,7 +803,7 @@ ht-degree: 1%
         </tr>
            <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">C2PA中繼資料會保留在您的檔案中</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">C2PA中繼資料會保留在您的檔案中</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
                 <p>Adobe Workfront會在您上傳、儲存和下載的檔案上保留C2PA中繼資料，而不修改它。</p>
             </td>
             <td><p>不適用</p></td>
@@ -814,7 +812,7 @@ ht-degree: 1%
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">左側導覽面板圖示的介面更新</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md" class="MCXref xref" xrefformat="{para}">左側導覽面板圖示的介面更新</a><p>[！BADGE Off Schedule]{type=Neutral}</p>
                 <p>我們已更新Workfront中左側導覽面板圖示的外觀和風格，提供現代設計和與其他Adobe應用程式一致的體驗。</p>
             </td>
             <td><p>2026年7月30日</p></td>
@@ -874,14 +872,14 @@ ht-degree: 1%
 
 作為報表中的替代專案，您可以使用建議的文字模式代碼（視需要使用`costRates`或`billingRates`）：
 
-    &grave;&grave;
+    ``
     displayname=Test
     listdelimiter=&lt;br>
     listmethod=nested(costRates)。lists
     type=iterate
     valueexpression=CONCAT({startDate}，&quot; - &quot;，{endDate}，&quot;： &quot;，{value})
     valueformat=HTML
-    &grave;&grave;
+    ``
 
 若要管理和檢閱工作角色費率，請使用專用的費率管理體驗：
 
@@ -900,8 +898,8 @@ ht-degree: 1%
 
 這項變更是在2026年4月Workfront版本注意事項中首次宣佈，而且這是在截止日期前的最後提醒。 請確定所有受影響的讀者使用者在2026年8月8日之前啟用MFA，以避免其存取中斷。
 
-如需詳細資訊，請參閱[建立Snowflake的讀取器帳戶或連線](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/reporting/data-lake/create-a-reader-account)。
+如需詳細資訊，請參閱[建立Snowflake的讀取器帳戶或連線](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account)。
 
 ### 訓練更新
 
-探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hant)的「新增功能」一節。
+探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的「新增功能」一節。
