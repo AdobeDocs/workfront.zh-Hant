@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ecee8b1aadd804a45ff0830e04e77981a3269cff
 workflow-type: tm+mt
-source-wordcount: '2734'
+source-wordcount: '2735'
 ht-degree: 1%
 ---
 # 新增計算欄位至表單
@@ -103,8 +103,8 @@ ht-degree: 1%
 >
 >變更計算運算式可能會導致物件上的欄位值過時。 為確保您一律檢視這些欄位中的最新計算，請執行下列任一項作業：
 >
->* 在儲存您已在附加自訂表單中編輯資料的物件後，在物件首頁面上按一下「更多」圖示![「更多」圖示](assets/more-icon.png)，然後按一下「重新計算自訂運算式」。
->* 選取大量編輯物件時重新計算自訂運算式選項。
+>* 在儲存您已在附加的自訂表單中編輯資料的物件後，按一下物件首頁面上的&#x200B;**更多**&#x200B;圖示![更多](assets/more-icon.png)，然後&#x200B;**重新計算自訂運算式**。
+>* 選取大量編輯物件時的&#x200B;**重新計算自訂運算式**&#x200B;選項。
 >* 在自訂表單上編輯計算的自訂欄位時，選取「更新先前的計算」選項。
 
 若要重複使用現有的計算自訂欄位：
@@ -135,7 +135,7 @@ ht-degree: 1%
    >
    >複雜表單的範例包括含有階層式引數的表單、計算的自訂資料欄位，以及單一欄位中的多個值選項。
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -209,7 +209,7 @@ ht-degree: 1%
    </table>
 
 1. 在&#x200B;**計算**&#x200B;方塊中，開始建立計算：
-   1. 按一下&#x200B;**最大化**&#x200B;以開啟計算編輯器並建置您的計算。
+   1. 按一下&#x200B;**最大化**以開啟計算編輯器並建置您的計算。
       計算通常以運算式開始，後面接著括弧，其中包含當自訂表單附加至物件時要參考的欄位。
 
       每個欄位都必須以大括弧括住。 當您開始輸入欄位名稱時，系統會提供建議，您可以選取一個來將其插入計算。
@@ -334,18 +334,19 @@ ht-degree: 1%
       >
       >您可以執行下列任一項作業，以取得計算的協助：
       > 
-      >* 將滑鼠停留在計算中的運算式上可檢視說明、如何使用的範例，以及文章[計算資料運算式概觀](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)中詳細資訊的&#x200B;**深入瞭解**&#x200B;連結。
-      >  ![運算式說明文字](assets/hover-expression-help-text.jpg)
+      >* 將滑鼠指標暫留在計算中的運算式上，即可檢視說明和如何使用的範例。 <!--and a **Learn More** link to more information in the article [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).-->
+      >  ![運算式說明文字](assets/hover-expression-help-text.png)
       >* 使用顏色編碼來識別您新增的元件。 運算式會以藍色顯示，而欄位則會以綠色顯示。
-      >  欄位運算式的![色彩](assets/colors-fields-expressions.jpg)
-      >* 立即尋找以粉紅色反白顯示的計算錯誤。 您可以將滑鼠停留在醒目提示的錯誤上，以顯示其原因的簡短說明。
+      >  欄位運算式的![色彩](assets/colors-fields-expressions.png)
+      >* 尋找計算錯誤（以紅色加底線）。 您可以將滑鼠停留在醒目提示的錯誤上，以顯示其原因的簡短說明。
       >  ![錯誤說明](assets/error-help.png)
       >* 在計算下方的區域中，預覽現有Workfront物件的結果。
       ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
-      >  ![預覽計算](assets/preview-calc.jpg)
+      >  ![預覽計算](assets/preview-calc.png)
       >* 使用左邊顯示的行號在長計算中參考運算式。
 
       +++
+
    1. 當您完成計算自訂欄位的計算時，請按一下&#x200B;**最小化**。
 
    1. （可選）使用下列任一選項來進一步設定您的計算自訂欄位：
@@ -356,7 +357,7 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader">新增邏輯</td> 
-      <td>您可以新增顯示邏輯，以根據使用者在填寫表單時於前置的多重選擇欄位（下拉式清單、核取方塊或選項按鈕）中進行的至少一個選擇，決定是否要顯示計算欄位。<!-- For more information, see <a href="Need to add link for new article when it's written" class="MCXref xref">Add display logic and skip logic to a custom form</a>.--> <p>唯有在表單的計算自訂欄位前面至少有一個核取方塊、選項按鈕或下拉欄位時，才能使用此選項。 </p> <p>略過邏輯不適用於已計算的自訂欄位。</p> </td> 
+      <td>您可以新增顯示邏輯，以根據使用者在填寫表單時於前置的多重選擇欄位（下拉式清單、核取方塊或選項按鈕）中進行的至少一個選擇，決定是否要顯示計算欄位。 如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md">新增邏輯規則至自訂表單和欄位</a>。 <p>唯有在表單的計算自訂欄位前面至少有一個核取方塊、選項按鈕或下拉欄位時，才能使用此選項。 </p> <p>跳過邏輯和其他邏輯型別不適用於已計算的自訂欄位。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">更新先前的計算</td> 
@@ -369,7 +370,7 @@ ht-degree: 1%
     </tbody> 
    </table>
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
