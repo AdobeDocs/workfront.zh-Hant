@@ -17,14 +17,18 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 7%
+source-wordcount: '66'
+ht-degree: 6%
 ---
 # 事件訂閱
 
 以下是Adobe Workfront中活動訂閱的相關各種資源：
+
+>[!NOTE]
+>
+>若要使用Workfront應用程式中的事件訂閱，請參閱[在Workfront中設定事件訂閱](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md)。
 
 * [事件訂閱API](../../wf-api/general/event-subs-api.md)
 * [活動訂閱最佳實務](../../wf-api/general/event-sub-best-practice.md)
