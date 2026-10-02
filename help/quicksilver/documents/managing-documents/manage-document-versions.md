@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1162'
 ht-degree: 1%
 ---
 # 管理檔案版本
@@ -240,3 +240,11 @@ Workfront會以您上傳各個版本的順序（例如V1、V2、V3）編號，�
    >刪除版本不會變更其他版本的編號。 例如，如果您從版本為V1到V5的檔案中刪除V3，則其餘版本會保留其原始編號，而且之後沒有V3。 您上傳的下一個版本會變成V6。
 
 </div>
+
+### 在核准期間檢視目前的檔案
+
+如果檔案是Creative Cloud檔案（例如，Photoshop cloud檔案），且在核准過程中有人編輯它，則Workfront會顯示&#x200B;**目前檔案**&#x200B;區段，其徽章指出即時檔案中存在新的更新，與正在核准的版本不同。
+
+>[!IMPORTANT]
+>
+>**未完成的問題：**&#x200B;目前的檔案區段第一次出現後，會永久保持可見，或是即時檔案有未稽核的更新時，才會永久保持可見？ 請在發佈前使用產品確認。

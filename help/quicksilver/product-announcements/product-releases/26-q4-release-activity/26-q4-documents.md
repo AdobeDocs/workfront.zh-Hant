@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: deeb63ceccc28b8f376713d4a6fb6c103ab4e06b
 workflow-type: tm+mt
-source-wordcount: '1333'
+source-wordcount: '1617'
 ht-degree: 0%
 ---
 # 2026年第四季檔案增強功能
@@ -24,24 +24,59 @@ ht-degree: 0%
 
 如需2026年第四季版本週期目前可用的所有變更清單，請參閱[2026年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)。
 
-<!--
+## 從Creative Cloud應用程式存取Workfront專案
 
-## Access Workfront projects in Adobe Creative Cloud apps
+>[!NOTE]
+>  
+>預覽：不適用\
+>生產快速發行： 2026年10月1日\
+>適用於所有人的生產： 2026年10月1日
+
+您現在可以直接從Adobe Photoshop、Illustrator和InDesign存取您的Workfront專案。 使用Workfront雲端儲存空間的Adobe專案會與您的其他Creative Cloud專案一起出現在應用程式視窗左側的「專案」面板中。
+
+您可以從專案資料夾開啟檔案、編輯並儲存檔案。 您的變更會儲存回Workfront。 您也可以直接將新檔案儲存至Workfront專案。
+
+當您儲存具有核准工作流程的檔案時，Workfront會建立新版本並保留核准歷史記錄。 當您儲存不含核准工作流程的檔案時，Workfront會更新最新版本。
+
+若要使用此整合：
+
+* 您的組織必須採用支援Adobe雲端儲存空間的Workfront版本。
+* Workfront與Photoshop、Illustrator或InDesign必須有權使用同一個Adobe Identity Management System (IMS)組織。
+
+如需詳細資訊，請參閱：
+
+* [Adobe Creative Cloud專案概觀](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md)
+* [在Creative Cloud應用程式中使用Workfront檔案](/help/quicksilver/documents/adobe-creative-cloud-projects/use-wf-documents-in-cc-apps.md)
+
+## 將多份檔案分組為單一核准工作流程
 
 >[!NOTE]
 >
->Preview: N/A
->Production fast release: [DATE]
->Production for everyone: [DATE]
+>預覽：此功能在預覽Sandbox環境中無法使用，因為在此處無法使用Frame.io整合。
+>生產快速發行： 2026年10月14日
+>適用於所有人的生產： 2026年10月15日
 
-You can now access your Workfront projects directly from Adobe Photoshop, Illustrator, and InDesign, using the Projects panel. Projects that use Adobe cloud storage appear in the panel, allowing you to open, edit, and save documents in a Workfront project without leaving the app.
+您現在可以在單一核准工作流程下將多個檔案分組，以便它們一起經過相同的階段。
 
-The Documents folder structure in a Workfront project is mirrored in the Projects panel. When you open a document from a project folder, edit it, and save, your changes appear in Workfront. You can also request a document approval on any document connected with Photoshop, Illustrator, or InDesign from Workfront.
+群組核准支援基本和進階模式、多個階段和平行路徑。
 
-For more information, see:
+群組核准僅在新檔案區域可用，當您的組織使用支援Adobe雲端儲存空間的Workfront版本時，就會顯示。
 
-* [Adobe Creative Cloud Projects overview](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md)
-* [Use Workfront documents in Creative Cloud apps](/help/quicksilver/documents/adobe-creative-cloud-projects/use-wf-documents-in-cc-apps.md)
+如需詳細資訊，請參閱[建立群組核准](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-grouped-approval.md)。
+
+<!--
+
+## Add a web link as a document
+
+>[!NOTE]
+>
+> Preview: This feature isn't available in preview because Frame.io doesn't currently offer a preview environment.
+> Production fast release: October 14, 2026
+> Production for everyone: October 15, 2026
+
+You can now add a website to Adobe Workfront as a web link in the new Documents area. After you add it, you can request approval on the live web page the same way you request approval on an uploaded file.
+
+For more information, see [Add a web link as a document](/help/quicksilver/documents/adding-documents-to-workfront/add-live-url.md) and [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 -->
 

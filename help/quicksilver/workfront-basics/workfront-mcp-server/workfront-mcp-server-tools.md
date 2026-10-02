@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: d185ddbfe7e85f214181eb9a76ff83b775abace3
+source-git-commit: ef85d371933c979faebd60bae49cb66936fd81e3
 workflow-type: tm+mt
-source-wordcount: '3020'
+source-wordcount: '3093'
 ht-degree: 4%
 ---
 
@@ -50,6 +50,7 @@ ht-degree: 4%
 
 | 標題 | 工具名稱 | 作用 | 動作 |
 | --- | --- | --- | --- |
+| 將檔案上傳至** | `upload_document_ui` | 它可讓您將檔案上傳至專案、任務、問題、方案、投資組合或範本，並選擇性地上傳至資料夾。 | 寫入 |
 | 依名稱尋找檔案版本 | `approvals_find_document_version_by_name` | 依檔案名稱查詢檔案的目前版本ID。 支援部分比對。 | 讀取 |
 | 依版本ID取得檔案 | `approvals_get_document_by_version_id` | 會擷取已知檔案版本ID的檔案詳細資訊（名稱、大小、上傳日期、上傳程式）。 | 讀取 |
 | 解析檔案範圍 | `approvals_resolve_document_scope` | 將專案或資料夾展開至其包含的檔案版本ID清單中。 支援專案、資料夾和依名稱資料夾範圍。 | 讀取 |
@@ -62,7 +63,7 @@ ht-degree: 4%
 
 
 *Adobe雲端儲存空間上的專案尚不支援將檔案傳送至AEM資料夾。 未來版本預計會提供支援。
-
+**此工具會在聊天中開啟互動式上傳面板，因此僅適用於支援MCP應用程式的工具。 目前，此工具僅支援Claude。 它出現在工具許可權的「互動工具」下，並依預設要求核准。
 
 <!--
 | List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |

@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 3cf7495f827156fabac1214b38a104ed826d558c
+source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
 workflow-type: tm+mt
-source-wordcount: '14593'
+source-wordcount: '14626'
 ht-degree: 2%
 ---
 # Workfront 指南 {#using}
@@ -1225,6 +1225,10 @@ ht-degree: 2%
     * [使用Adobe Cloud Drive](documents/adobe-cloud-drive/use-adobe-cloud-drive.md)
     * [設定和管理Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/set-up-and-manage-adobe-cloud-drive.md)
     * [疑難排解Adobe Cloud Drive](documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md)
+  * Adobe Creative Cloud專案 {#adobe-creative-cloud-projects}
+    * [Adobe Creative Cloud專案：文章索引](documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects.md)
+    * [Adobe Creative Cloud專案概觀](documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md)
+    * [在Creative Cloud應用程式中使用Workfront檔案](documents/adobe-creative-cloud-projects/use-wf-documents-in-cc-apps.md)
   * Workfront與Experience Manager Assets整合 {#wf-aem-integrations}
     * [Workfront與Experience Manager Assets整合](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
     * 適用於Experience Manager的Workfront增強型聯結器 {#wf-aem-enhanced-connector}
@@ -1950,6 +1954,9 @@ ht-degree: 2%
       * [設定及管理統一核准：文章索引](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
       * [為AI檢閱者建立和管理品牌](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
       * [建立檔案稽核或核准請求](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+      * [建立群組核准](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-grouped-approval.md)
+      * {hide-from-toc}[檢閱群組核准](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/review-a-grouped-approval.md)
+      * {hide-from-toc}[管理群組核准](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-grouped-approvals.md)
       * [將其他檢閱者或核准者新增至資產或檔案](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
       * [從資產或檔案中移除核准者或稽核者](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
       * [建立資產和檔案的核准範本](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
