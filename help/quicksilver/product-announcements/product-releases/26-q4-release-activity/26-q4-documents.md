@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: deeb63ceccc28b8f376713d4a6fb6c103ab4e06b
+source-git-commit: c1c304ec49cb1b93e15358bee4a39e67abdec6d6
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1630'
 ht-degree: 0%
 ---
 # 2026年第四季檔案增強功能
@@ -204,8 +204,8 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 >[!NOTE]
 >
 >預覽：不適用
->生產快速發行： 2026年9月17日
 >適用於所有人的生產： 2026年10月15日
+>此功能未按原計畫於2026年9月17日在生產環境快速發行中發行。 現在將於2026年10月15日在生產環境中向所有人提供。
 
 當您在檔案核准上設定自訂訊息時，該訊息現在也會顯示在核准請求電子郵件的主旨行中，在設定到期日期之前先行。 這可讓檢閱者直接從其收件匣檢視需要注意的事項和方式，而不需開啟電子郵件。
 
