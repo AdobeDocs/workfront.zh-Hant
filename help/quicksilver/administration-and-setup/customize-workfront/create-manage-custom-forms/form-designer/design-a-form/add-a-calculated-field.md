@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ecee8b1aadd804a45ff0830e04e77981a3269cff
+source-git-commit: 76c6943ccbf51ec7860bdb4707bc3ed7c2374128
 workflow-type: tm+mt
 source-wordcount: '2735'
 ht-degree: 1%
@@ -135,7 +135,7 @@ ht-degree: 1%
    >
    >複雜表單的範例包括含有階層式引數的表單、計算的自訂資料欄位，以及單一欄位中的多個值選項。
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
@@ -209,7 +209,7 @@ ht-degree: 1%
    </table>
 
 1. 在&#x200B;**計算**&#x200B;方塊中，開始建立計算：
-   1. 按一下&#x200B;**最大化**&#x200B;以開啟計算編輯器並建置您的計算。
+   1. 按一下&#x200B;**最大化**以開啟計算編輯器並建置您的計算。
       計算通常以運算式開始，後面接著括弧，其中包含當自訂表單附加至物件時要參考的欄位。
 
       每個欄位都必須以大括弧括住。 當您開始輸入欄位名稱時，系統會提供建議，您可以選取一個來將其插入計算。
@@ -341,7 +341,6 @@ ht-degree: 1%
       >* 尋找計算錯誤（以紅色加底線）。 您可以將滑鼠停留在醒目提示的錯誤上，以顯示其原因的簡短說明。
       >  ![錯誤說明](assets/error-help.png)
       >* 在計算下方的區域中，預覽現有Workfront物件的結果。
-      ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
       >  ![預覽計算](assets/preview-calc.png)
       >* 使用左邊顯示的行號在長計算中參考運算式。
 
@@ -370,7 +369,7 @@ ht-degree: 1%
     </tbody> 
    </table>
 
-1. 若要儲存您的變更，請按一下[套用] **&#x200B;**，然後移至其他區段以繼續建立您的表單。
+1. 若要儲存您的變更，請按一下[套用] ****，然後移至其他區段以繼續建立您的表單。
 
    或
 
