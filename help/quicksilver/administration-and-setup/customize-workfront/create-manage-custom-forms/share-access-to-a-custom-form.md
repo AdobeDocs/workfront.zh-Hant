@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ecee8b1aadd804a45ff0830e04e77981a3269cff
 workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 2%
@@ -72,65 +72,6 @@ ht-degree: 2%
 * 有人將自訂表單共用為「系統中的每個人都可以檢視和附加」
 * 有人將自訂表單與使用者共用，或與其團隊、工作角色、群組、公司或企業設定檔共用，已選取附加至自訂資料並至少授予檢視許可權
 * 使用者擁有標準或計畫授權，其存取層級允許對自訂表單的管理存取權
-
-<!--
-
-## Share a custom form from the list of forms
-
-Rather than leaving a custom form in the default sharing state (described in [Access to custom forms](#access-to-custom-forms) in this article), you can configure specific levels of access to the form for certain users, job roles, groups, teams, and companies.
-
-{{step-1-to-setup}}
-
-1. In the left panel, click **Custom Forms**.
-1. Select the custom form, then click ![Share icon](assets/share-icon.png).
-1. In the box that displays, under **Give custom form access to**, start typing the name of the user, team, job role, group, company, or business profile you want to share the custom form with, then press **Enter** when the name displays.
-1. To adjust access for the user, team, job role, group, company, or business profile you just added, click the drop-down menu to the right of the name, then configure one of the following available options and any of its advanced settings:
-
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">View it</td> 
-      <td> <p>This option provides the ability to view and fill out the custom form on objects. At the object level, users must also have at least Contribute access with the <strong>Edit custom form</strong> advanced setting enabled. For example, if the form is attached to a project, users must have Contribute access to that project, or they will not be able to fill out the form.</p>
-      
-      <p><b>NOTE</b>: For users with Light and Contributor licenses (or Work, Review, and Request licenses), this is the highest available option.</p>
-      
-      <p>Click <strong>Advanced Settings</strong> to specify whether you want to allow the following:</p> 
-       <ul> 
-        <li><strong>Attach to custom data</strong>: Ability to attach the custom form to projects, tasks, and issues for which they have Manage access</li> 
-        <li> <p><strong>Share</strong>: Ability to share the custom form with others in the system</p> <p>Users with a Light or Contributor license (or Work, Review, or Request license) can share a custom form only through the API or a custom forms report.</p> </li>
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Manage it</td> 
-      <td> <p>This option available only for users with a Standard or Plan license. </p> <p>In addition to being able to add the form to objects they have access to edit, users can also fully edit the custom form, including adding, editing, and deleting fields.</p> <p>Click <strong>Advanced Settings</strong> to specify whether you want to allow following:</p> 
-       <ul> 
-        <li> <p><strong>Attach to custom data</strong>: Ability to attach the custom form to projects, tasks, and issues for which they have Manage access</p> </li> 
-        <li><strong>Delete</strong>: Delete the custom form from the system</li> 
-        <li><strong>Share</strong>: Share the custom form with others in the system</li> 
-       </ul> </td> 
-     </tr> 
-    </tbody> 
-   </table>
-
-1. (Optional) Repeat Steps 4-5 to add other names to the list and configure their options.
-1. (Optional) If you want to limit access to the custom form (on objects where it's attached) to those you have specified in the previous steps, click the gear icon ![](assets/gear-icon-settings-with-dn-arrow.jpg) in the upper right corner of the sharing box, then click **Remove system-wide access**.
-
-   If you change your mind, you can click **Make this visible system-wide** (the default option).
-
-   >[!NOTE]
-   >
-   >* When you make a custom form visible system-wide, you allow users only to see and fill it out on objects they are assigned to, not to attach it to other objects. You can grant the ability to attach the custom form to objects using the option "Attach to custom data" explained under step 5.
-   >* Most organizations want to ensure that everyone in the system can fill out a custom form when it's attached to objects they work on and view its data in reports. If this is true for your organization, we recommend that you use **Make this visible system-wide**. When the option is configured this way, "Visible System-Wide" displays in the dialog box:
-   >   
-   >![](assets/visible-system-wide-350x480.png)
-   >   
-   >If you are concerned about a custom form where users might enter sensitive data when it is attached to certain objects, limiting sharing for those *objects* might be better rather than limiting access to the form itself.
-
-1. Click **Save**.
-
--->
 
 ## 共用自訂表格
 

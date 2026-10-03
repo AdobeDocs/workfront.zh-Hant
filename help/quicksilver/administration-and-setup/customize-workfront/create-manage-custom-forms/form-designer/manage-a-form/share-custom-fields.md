@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ecee8b1aadd804a45ff0830e04e77981a3269cff
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 2%
@@ -64,59 +64,6 @@ ht-degree: 2%
 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
-
-<!--
-
-## Configure sharing a custom field or widget from the list of forms
-
-{{step-1-to-setup}}
-
-1. In the left panel, click **Custom Forms**.
-1. Click **Fields** to open the Fields area.
-1. Select the item you want to configure sharing for, then click ![Share icon](assets/share-icon.png).
-1. In the Custom Field Access box that displays, specify who you want to share the item with and how you want to share it:
-
-   1. Near the lower-left corner of the **Custom Field Access** box, under **Give custom field access to**, start typing the name of a user, team, job role, group, or company you want to share the item with, then click the name when it appears.
-
-      ![Custom Field Access box](assets/share-field-give-access-to.jpg)
-
-   1. If you want to be more specific about how you want to share the item, click the drop-down list to the right of the name, then use any of the following options:
-
-      ![Sharing options](assets/share-field-view-mng-options.jpg)
-
-      <table style="table-layout:auto"> 
-       <col> 
-       <col> 
-       <tbody> 
-        <tr> 
-         <td role="rowheader">View it</td> 
-         <td> <p>You can click <strong>Advanced Settings</strong> to specify whether you want the user or users to be able to use their access to add the item to a custom form or share it with other users.</p> </td> 
-        </tr> 
-        <tr> 
-         <td role="rowheader">Manage it</td> 
-         <td> <p>Allows access to edit the custom field and to see it in the Field Library and on the page where you build custom forms.</p> <p>You can click <strong>Advanced Settings</strong> to specify whether you want the user or users to be able to use their access to delete the item from the system or share it with other users.</p> </td> 
-        </tr> 
-       </tbody> 
-      </table>   
-
-1. (Optional) Repeat the previous step to add other names to the list and configure their options.
-1. (Optional) Click the gear icon ![Settings icon](assets/gear-icon-settings.png) in the top-right corner if you want to choose a system-wide sharing option for the field.
-
-   Not all of the following options display in this drop-down menu at the same time. For example, the second one displays only when one of the other two are selected.
-
-   * **Make this editable system-wide so that everyone in Workfront can edit it** (the default option)
-
-     When you add a custom field or widget and you don't limit sharing for it, everyone in the system who has access to custom forms can view it and edit its properties.
-   
-   * **Remove system-wide edit access**
-
-     Limits access to only those whom you added to the list. 
-   
-   * **Make this visible system-wide so that everyone in Workfront can see it**
-
-1. Click **Save**.
-
--->
 
 ## 設定共用自訂欄位或Widget
 

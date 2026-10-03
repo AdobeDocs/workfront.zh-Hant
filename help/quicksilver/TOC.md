@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
+source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
 workflow-type: tm+mt
-source-wordcount: '14626'
+source-wordcount: '14631'
 ht-degree: 2%
 ---
 # Workfront 指南 {#using}
@@ -694,6 +694,7 @@ ht-degree: 2%
       * [刪除自訂條件](administration-and-setup/customize-workfront/create-manage-custom-conditions/delete-custom-conditions.md)
   * 管理Adobe Workfront {#manage-wf}
     * [管理Workfront](administration-and-setup/manage-workfront/manage-workfront.md)
+    * [在Workfront中設定事件訂閱](administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md)
     * 設定校訂功能 {#configure-proofing}
       * [設定校樣](administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
       * [校樣設定](administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)
@@ -1653,7 +1654,7 @@ ht-degree: 2%
       * [在畫布控制面板中篩選報表](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)
       * [畫布控制面板的報表篩選參考](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)
       * [在畫布控制面板中將報表資料分組](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md)
-      * [在畫布控制面板中複製報告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/duplicate-a-report.md)
+      * [在畫布儀表板中複製和移動報告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/duplicate-a-report.md)
       * [刪除畫布控制面板中的報告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
   * 報告 {#reports}
     * [報告](reports-and-dashboards/reports/reports-overview.md)

@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: ef85d371933c979faebd60bae49cb66936fd81e3
+source-git-commit: 1043dde02b6d66f9a0d041846b74184013989764
 workflow-type: tm+mt
-source-wordcount: '3093'
+source-wordcount: '3281'
 ht-degree: 4%
 ---
 
@@ -28,6 +28,19 @@ ht-degree: 4%
 >[!IMPORTANT]
 >
 >AI代理平台會使用您的Workfront帳戶、存取層級和物件許可權，在Workfront中運作。 只有當您在Workfront中擁有對應的存取權時，工具才能運作。 Adobe對使用AI代理平台變更Workfront資料概不負責。
+
+## 產品權益如何影響工具清單
+
+顯示在您的AI代理平台中的工具取決於您組織的Workfront產品許可權。
+
+* 僅授權Workfront Planning的客戶可參閱規劃工具，但無法參閱工作流程工具。
+* 僅授權Workfront工作流程的客戶，請參閱工作流程工具，但不見規劃工具。
+* 同時獲得Workfront Workflow和Workfront Planning授權的客戶可以看到兩組工具。
+* 所有客戶都可使用見解和內容工具。
+
+如果您的組織無權使用產品區域，則相關工具不會出現在該連線的工具清單中。 如果AI代理平台嘗試呼叫您權益無法使用的工具，請求會被封鎖。
+
+下表識別每個工具所屬的產品區域。
 
 
 ## 讀取和寫入動作
@@ -45,6 +58,10 @@ ht-degree: 4%
 如果AI代理平台可以找到Workfront專案，但無法建立、更新或刪除它們，請要求Workfront管理員啟用寫入動作。 如需詳細資訊，請參閱&#x200B;*設定Adobe Workfront MCP伺服器*&#x200B;中的[管理員必要條件](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#admin-prerequisites)。
 
 ## 核准工具
+
+產品需求：所有客戶
+
+核准工具目前沒有軟體權利檔案限制。
 
 ### 文件
 
@@ -123,6 +140,8 @@ ht-degree: 4%
 | 尋找專案 | `approvals_find_projects` | 已棄用。 請改用`insights_find_workfront_data`。 此工具會查詢Workfront專案，選擇性地依名稱篩選及/或限製為通話使用者擁有的專案。 | 讀取 |
 
 ## 規劃工具
+
+產品需求：Workfront規劃
 
 >[!IMPORTANT]
 >
@@ -208,6 +227,8 @@ ht-degree: 4%
 
 ## 工作流程工具
 
+產品需求： Workfront工作流程
+
 工作流程工具是AI代理平台用於處理任何Workfront物件的一般用途動作，包括專案、任務、問題、小時、指派、計畫、投資組合等。
 
 ### 物件和欄位
@@ -291,6 +312,8 @@ ht-degree: 4%
 
 ### 分析工具
 
+產品需求：Workfront工作流程或Workfront計畫。
+
 前瞻分析工具會擷取Workfront物件的相關資訊。
 
 >[!NOTE]
@@ -311,6 +334,8 @@ ht-degree: 4%
 
 ## 意見回饋工具
 
+產品需求：Workfront工作流程或Workfront計畫。
+
 <span class="preview">意見回饋工具可讓您直接從AI代理平台報告Workfront MCP伺服器的使用體驗。</span>
 
 | 標題 | 工具名稱 | 作用 | 動作 |
@@ -318,6 +343,8 @@ ht-degree: 4%
 | <span class="preview">分享意見</span> | <span class="preview">`share_feedback`</span> | <span class="preview">記錄您報告的情緒和交談期間發生的事情，以便改善Workfront的MCP工具。 僅用於您明確要求分享意見時（例如「分享意見回饋」或「回報錯誤」）。</span> | <span class="preview">寫入</span> |
 
 ## 報告工具
+
+產品需求：所有客戶
 
 報告工具可讓您透過聊天室建立和管理畫布控制面板。 以淺顯語言描述您要的報告，而AI代理平台會使用Workfront資料為您建立控制面板和Widget。
 
@@ -336,7 +363,9 @@ ht-degree: 4%
 
 ## 如何更新工具
 
-當Adobe發行新版Workfront MCP伺服器時，AI代理平台會自動使用更新的工具集。 您不需要重新連線或變更任何專案。
+當Adobe發行新版Workfront MCP伺服器時，AI代理平台會自動使用更新的工具集。
+
+刀具清單會在連線啟動時設定。 如果您組織的產品權益有所變更，則下次您啟動與Workfront MCP伺服器的新連線時，更新的工具清單會出現。
 
 
 

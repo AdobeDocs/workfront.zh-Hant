@@ -1,8 +1,8 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: 在畫布控制面板中複製報告
-description: 您可以在畫布控制面板中複製報告。
+title: 在畫布儀表板中複製和移動報告
+description: 您可以在畫布控制面板之間複製或移動報表。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: e0f9d091-bb89-4c5b-a18d-b1e339084e67
@@ -25,12 +25,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 45491118778279522358f87c1c4185c4cf824829
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 6%
+source-wordcount: '693'
+ht-degree: 4%
 ---
-# 在畫布控制面板中複製報告
+# 在畫布儀表板中複製和移動報告
+
+{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -91,7 +93,7 @@ KPI、表格或圖表報表建立後，您可以在畫布控制面板中複製�
 
 如需詳細資訊，請參閱[建立畫布儀表板](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)。
 
-## 複製報告
+## 在生產環境中複製報告
 
 {{step1-to-dashboards}}
 
@@ -109,3 +111,53 @@ KPI、表格或圖表報表建立後，您可以在畫布控制面板中複製�
    >這些標籤會因您複製的KPI、表格或圖表報告而異。  如需詳細資訊，請參閱[在畫布儀表板中建置KPI報告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)、[在畫布儀表板中建置圖表報告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)以及[在畫布儀表板中建置表格報告](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)。
 
 1. 按一下「**儲存**」。 重複的報告會出現在控制面板上。
+
+<div class="preview">
+
+## 在預覽中複製或移動報告
+
+您可以將報告複製到目前的儀表板、複製到另一個儀表板，或將其移動到另一個儀表板。 複製會在目的地建立重複的報表；移動會將報表從目前的儀表板重新定位。
+
+>[!IMPORTANT]
+>
+>* 若要複製報表，您需要目的地控制面板的管理許可權。
+>* 若要移動報表，您必須同時具備來源和目的地控制面板的「管理」存取權。
+>* 如果報告已設定「以使用者身分執行」設定，而您不是系統管理員或「以使用者身分執行」，您仍可複製或移動報告，但「以使用者身分執行」會從產生的報告中移除。
+
+
+若要複製或移動報表：
+
+{{step1-to-dashboards}}
+
+1. 在左側面板中，按一下&#x200B;**畫布控制面板**。
+1. 開啟包含報表的控制面板。
+1. 按一下報告右上角的&#x200B;**更多** ![更多按鈕](assets/more-icon.png)圖示，然後選取&#x200B;**複製報告**。
+
+   ![複製報告選項](assets/copy-report-button.png)
+
+1. 在&#x200B;**複製報告**&#x200B;對話方塊中，選擇下列其中一個選項：
+
+   <table>
+   <tr>
+   <td><strong>複製</strong></td>
+   <td>按一下畫面底部的<strong>[複製</strong>]以複製報告。 依預設，會選取目前的儀表板。 您需要「管理」控制面板的存取權才能複製報告。</td>
+   </tr>
+   <tr>
+   <td><strong>複製並移動</strong></td>
+   <td>選取不同的目標控制面板以複製報表，並將其移至新控制面板。 原始報告會保留在目前的儀表板上。您需要「管理」目的地控制面板的存取權，才能複製和移動報表。 </td>
+   </tr>
+   <tr>
+   <td><strong>移動</strong></td>
+   <td>選取要移動報表的其他目標控制面板。 這會將報表重新定位到目標控制面板，並將其從目前控制面板移除。 您需要「管理」來源和目的地控制面板的存取權才能移動報表。</td>
+   </tr>
+   </table>
+
+   >[!NOTE]
+   >
+   >如果報告已設定「以使用者身分執行」，而您不是系統管理員或設定為「以使用者身分執行」的使用者，您仍可複製或移動報告。 「以使用者身分執行」會從產生的報表中移除。
+
+1. 按一下「**儲存**」。
+
+   ![複製並移動](assets/copy-and-move.png)
+
+</div>
