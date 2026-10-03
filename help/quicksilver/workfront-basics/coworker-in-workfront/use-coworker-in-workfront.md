@@ -32,7 +32,7 @@ ht-degree: 3%
 
 由於同事是較大的Adobe CX Enterprise生態系統的一部分，因此您可以使用同事處理其他Adobe產品中的資訊和物件（在Workfront的右側邊欄中），或從Workfront跳至Adobe CX Coworker介面。
 
-如需在Workfront外部的同事及其功能的詳細資訊，請參閱[Adobe CX Enterprise Coworker聊天總覽](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview)。
+如需在Workfront外部的同事及其功能的詳細資訊，請參閱[Adobe CX Enterprise Coworker聊天總覽](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/chat/overview)。
 
 
 ## 存取權要求
@@ -82,7 +82,7 @@ ht-degree: 3%
    * **麥克風**：使用語音輸入聽寫您的訊息。 再次選取以停止錄製。
    * **傳送**：傳送訊息。 當同事聊天正在回應時，這會變成您可以用來中斷的「停止」控制項。
 
-   如需這些動作的詳細資訊，請參閱Adobe CX Coworker檔案中的[聊天輸入方塊](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#the-chat-input-box)。
+   如需這些動作的詳細資訊，請參閱Adobe CX Coworker檔案中的[聊天輸入方塊](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#the-chat-input-box)。
 
 1. 若要檢視和管理先前的聊天，請按一下CX Coworker面板中的「聊天」圖示![「聊天」圖示](assets/ai-icon.png)。
 

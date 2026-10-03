@@ -179,7 +179,7 @@ ht-degree: 1%
 
 在Experience Manager Assets中建立標籤後，標籤會顯示在中繼資料區段的「標籤」下拉式清單下。 若要將欄位連結至標籤，請在中繼資料對應區域的Experience Manager Assets欄位下拉式清單中選取`xcm:keywords`。
 
-如需Experience Manager Assets中標籤的詳細資訊，包括如何建立和管理標籤，請參閱[管理標籤](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags)。
+如需Experience Manager Assets中標籤的詳細資訊，包括如何建立和管理標籤，請參閱[管理標籤](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-64/administering/contentmanagement/tags)。
 
 **Experience Manager Assets自訂中繼資料結構描述欄位**
 
@@ -302,7 +302,7 @@ link to documentation about creating schema - waiting on response from Anuj abou
       </tr>
       <tr>
          <td><strong>上傳行銷活動簡報以探索相關資產。</strong> 上傳PDF、DOCX或TXT行銷活動簡介檔案，讓「內容顧問」可以分析檔案並建議相關資產。</td>
-         <td>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#campaign-briefs-content-advisor">探索相關資產的Campaign簡介</a>。</td>
+         <td>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#campaign-briefs-content-advisor">探索相關資產的Campaign簡介</a>。</td>
       </tr>
       <tr>
          <td><strong>檢視並選取Dynamic Media資產轉譯。</strong> 瀏覽頻道最佳化的轉譯，包括影像預設集、智慧型裁切和格式型別，並套用Dynamic Media修飾元以即時預覽調整。</td>
@@ -330,7 +330,7 @@ link to documentation about creating schema - waiting on response from Anuj abou
       </tr>
       <tr>
          <td><strong>在集合間和集合內搜尋資產。</strong> 在所有集合中搜尋資產或集合，或將搜尋限制在特定集合中。</td>
-         <td>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#search-collections-content-advisor">搜尋收藏集間和收藏集中的資產</a>。</td>
+         <td>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#search-collections-content-advisor">搜尋收藏集間和收藏集中的資產</a>。</td>
       </tr>
    </tbody>
    </table>
