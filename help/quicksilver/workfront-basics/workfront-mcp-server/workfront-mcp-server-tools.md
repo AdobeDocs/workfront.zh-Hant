@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 1043dde02b6d66f9a0d041846b74184013989764
+source-git-commit: 3a1a64a53cd3717840cd45d5792c1c16d2e40bde
 workflow-type: tm+mt
-source-wordcount: '3281'
+source-wordcount: '3349'
 ht-degree: 4%
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 4%
 | 尋找檔案 | `approvals_find_document` | 已棄用。 請改用`insights_find_workfront_data`。 此工具會依檔案名稱或檔案版本ID來查詢檔案。 | 讀取 |
 | 傳送檔案至AEM資料夾* | `approvals_send_documents_to_aem_folder` | 將一或多個Workfront檔案移動到AEM連結的資料夾。 | 寫入 |
 
-*您必須在Workfront執行個體中設定原生[!DNL Adobe Experience Manager]整合，才能使用這些工具。 如需詳細資訊，請參閱[&#x200B; Adobe Experience Manager Assets整合概述](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)。
+*您必須在Workfront執行個體中設定原生[!DNL Adobe Experience Manager]整合，才能使用這些工具。 如需詳細資訊，請參閱[ Adobe Experience Manager Assets整合概述](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)。
 
 
 *Adobe雲端儲存空間上的專案尚不支援將檔案傳送至AEM資料夾。 未來版本預計會提供支援。
@@ -369,11 +369,15 @@ ht-degree: 4%
 
 
 
+## 目的遙測
+
+Workfront MCP伺服器會追蹤客戶的使用者意圖。 收集的意圖資料是用於遙測目的的一般資料，並且只會為了使用者的意圖而收集與Workfront產品相關的資料。 提示意圖遙測僅用於改善現有的MCP工具，以提供更精確的回應。
+
+使用者可以透過聯絡客戶支援以提出請求來停用遙測收集。
+
+
 ## 即將推出的其他工具
 
 我們日後會致力新增下列工具至Workfront MCP伺服器：
 
 * 展示板
-
-
-
