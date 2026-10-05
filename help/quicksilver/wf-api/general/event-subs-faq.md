@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 461daa394cf7b7e3481e35f1af8436492e47cc0f
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '984'
 ht-degree: 0%
 ---
 # 常見問題集 — 事件訂閱
@@ -82,7 +82,7 @@ ht-degree: 0%
 
   * 如果符合下列任一條件，事件訂閱URL將會被硬停用：
 
-    * 訂閱URL已有7天無法傳送，且在過去72小時內已嘗試傳送至少2000次失敗。
+    * 訂閱URL已至少72小時無法傳送，且已失敗超過2,000次連續傳送嘗試。
     * 訂閱URL無法傳送50,000次連續嘗試。
 
 ## 如果在嘗試呼叫事件訂閱API時收到500回應狀態，怎麼辦？
