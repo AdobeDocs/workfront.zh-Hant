@@ -1,6 +1,6 @@
 ---
 title: 開始使用Adobe Workfront Planning Designer
-description: 您可以使用由AI支援的Adobe Planning Designer，輕鬆設定工作區和資料結構。 Planning Designer支援從建立和設定工作區到定義欄位和公式、管理記錄、檢閱變更記錄和建立自訂檢視的所有功能。 不論是直接使用或透過AI Assistant或CX Coworker使用，Planning Designer都能提供靈活、強大的環境，用於建置和維護結構化、連線的資訊。
+description: 您可以使用由AI支援的Adobe Planning Designer，輕鬆設定工作區和資料結構。 Planning Designer支援從建立和設定工作區到定義欄位和公式、管理記錄、檢閱變更記錄和建立自訂檢視的所有功能。 不論是直接使用或透過AI Assistant或CX Enterprise Coworker使用，Planning Designer都能提供靈活、強大的環境，用於建置和維護結構化、連線的資訊。
 recommendations: noDisplay, noCatalog
 author: Alina, Becky
 feature: Workfront Planning
@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1642'
 ht-degree: 1%
 ---
 # 開始使用Adobe Workfront Planning Designer
@@ -55,7 +55,7 @@ ht-degree: 1%
 
 您可以使用由AI支援的Adobe Planning Designer，輕鬆設定工作區和資料結構。 Planning Designer支援從建立和設定工作區到定義欄位和公式、管理記錄、檢閱變更記錄和建立自訂檢視的所有功能。
 
-不論是透過AI Assistant或<span class="preview"> CX Coworker</span>直接使用，Planning Designer都能提供靈活、強大的環境，用於建置和維護結構化、連線的資訊。
+不論是透過AI Assistant或<span class="preview"> CX Enterprise Coworker</span>直接使用，Planning Designer都能提供靈活、強大的環境，用於建置和維護結構化、連線的資訊。
 
 如需Workfront Planning的相關資訊，請參閱下列文章：
 
@@ -66,7 +66,7 @@ ht-degree: 1%
 如需Planning中AI助理與同事的相關資訊，請參閱下列文章：
 
 * [Adobe Workfront Planning AI Assistant概觀](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)
-* [Adobe Workfront規劃CX Coworker概觀](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)
+* [Adobe Workfront規劃CX Enterprise Coworker概觀](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)
 
 ## 存取權要求
 

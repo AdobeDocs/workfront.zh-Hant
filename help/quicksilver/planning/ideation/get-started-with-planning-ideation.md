@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 1%
+source-wordcount: '1002'
+ht-degree: 0%
 ---
 
 # 開始使用Adobe Workfront Planning的創意空間
@@ -155,9 +155,9 @@ Too much:
   * 在完成&#x200B;**之前**&#x200B;驗證。 AI產生的回應可能不準確，因此請務必檢查卡片上的&#x200B;**來源**，並在完成記錄之前確認連結的來源。
   * **將AI卡片與真實記錄混合**。 將實際記錄拖放至創意力空間。
 
-## Adobe CX Coworker中可用的創意力空間
+## Adobe CX Enterprise Coworker中可用的創意力空間
 
-創意空間也可透過Adobe的CX Coworker支援交談、往返模式。
+創意空間也可透過Adobe的CX Enterprise Coworker支援交談、往返模式。
 
 使用者可以提出後續問題，並以對話方式完善簡短，而不需要一次取得單一的結果。
 
@@ -200,10 +200,10 @@ Worth noting
 
 ## 其他資源
 
-* [Adobe Workfront行銷活動規劃](https://business.adobe.com/tw/products/workfront/campaign-planning.html)
+* [Adobe Workfront行銷活動規劃](https://business.adobe.com/products/workfront/campaign-planning.html)
 * [Adobe Workfront規劃檔案](/help/quicksilver/planning/planning-information.md)
-* [Adobe GenStudio概觀](https://business.adobe.com/tw/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/tw/products/adobe-analytics/customer-journey-analytics.html)
+* [Adobe GenStudio概觀](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
 
 
 <!--

@@ -1,5 +1,5 @@
 ---
-title: CX Coworker提示和最佳實務
+title: CX Enterprise Coworker提示和最佳實務
 content-type: reference
 description: 瞭解在Workfront中使用同事的最佳實務，並檢視提示範例清單。
 author: Becky
@@ -10,20 +10,20 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '2237'
+source-wordcount: '2241'
 ht-degree: 1%
 ---
-# CX Coworker提示和最佳實務
+# CX Enterprise Coworker提示和最佳實務
 
 &lt;！ — 不要使用這個 — 請改為連結到MCP範例提示文章，確定它已更新為最新的MCP版本 — >
 
 >[!IMPORTANT]
 >
->CX Coworker目前不適用於保健、金融或某些具有敏感資料的其他行業的組織。 AI助理可供這些組織使用。 如需詳細資訊，請參閱[AI助理概述](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)。
+>CX Enterprise Coworker目前不適用於保健、金融或某些具有敏感資料的其他行業的組織。 AI助理可供這些組織使用。 如需詳細資訊，請參閱[AI助理概述](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)。
 
-透過CX Coworker，您可以使用自然語言與Workfront Workflow和Workfront Planning互動。
+透過CX Enterprise Coworker，您可以使用自然語言與Workfront Workflow和Workfront Planning互動。
 
 同事是Adobe Experience Cloud Agent Orchestrator的一部分。
 
@@ -66,7 +66,7 @@ ht-degree: 1%
 
 * 您的Workfront管理員必須為貴組織啟用AI助理。
 
-  如需詳細資訊，請參閱AI助理總覽一文中的[&#x200B; AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
+  如需詳細資訊，請參閱AI助理總覽一文中的[ AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
 * 您的Workfront管理員必須為您的存取層級啟用AI助理。
 
   如需詳細資訊，請參閱[啟用或停用AI助理](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)。
