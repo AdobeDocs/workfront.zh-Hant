@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 1043dde02b6d66f9a0d041846b74184013989764
+source-git-commit: 3a1a64a53cd3717840cd45d5792c1c16d2e40bde
 workflow-type: tm+mt
-source-wordcount: '3281'
+source-wordcount: '3349'
 ht-degree: 4%
 ---
 
@@ -369,11 +369,15 @@ ht-degree: 4%
 
 
 
+## 目的遙測
+
+Workfront MCP伺服器會追蹤客戶的使用者意圖。 收集的意圖資料是用於遙測目的的一般資料，並且只會為了使用者的意圖而收集與Workfront產品相關的資料。 提示意圖遙測僅用於改善現有的MCP工具，以提供更精確的回應。
+
+使用者可以透過聯絡客戶支援以提出請求來停用遙測收集。
+
+
 ## 即將推出的其他工具
 
 我們日後會致力新增下列工具至Workfront MCP伺服器：
 
 * 展示板
-
-
-

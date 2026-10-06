@@ -33,7 +33,7 @@ role_v2:
 source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
 source-wordcount: '958'
-ht-degree: 2%
+ht-degree: 3%
 ---
 # 開始使用Workfront AI Reviewer
 
@@ -62,7 +62,7 @@ AI檢閱者是AI共同作業人員 — 一種AI代理程式，可新增至您的
 >[!CONTEXTUALHELP]
 >id="wf_document_approvals_ai_supported_files"
 >title="不受支援的檔案類型"
->abstract="此 AI 檢閱者不支援所選的檔案類型。 上傳支援的檔案型別，或移除AI檢閱者以提交請求。"
+>abstract="此 AI 檢閱者不支援所選的檔案類型。 上傳支援的檔案類型，或移除 AI 檢閱者以提交請求。"
 
 AI檢閱者可檢閱下列檔案型別：
 
