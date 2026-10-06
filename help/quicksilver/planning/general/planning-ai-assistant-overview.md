@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '984'
 ht-degree: 1%
 ---
 # Adobe Workfront Planning AI Assistant概觀
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 ## 存取權要求
 
-+++ 展開以檢視這篇文章中所述功能的存取權要求。 
++++ 展開以檢視這篇文章中所述功能的存取權要求。
 
 <table style="table-layout:auto"> 
 <col> 
@@ -160,7 +160,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-><span class="preview">如果貴組織已取得CX Coworker的存取權，找到CX Coworker與找到AI助理類似。 如需詳細資訊，請參閱[Adobe Workfront規劃CX Coworker概觀](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)。</span>
+><span class="preview">如果貴組織已獲得CX Coworker的存取權，尋找同事與尋找AI助理類似。 如需詳細資訊，請參閱[Adobe Workfront規劃CX Coworker概觀](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)。</span>
 
 
 您可以在Workfront Planning的下列區域中找到AI助理：

@@ -15,16 +15,16 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '168'
 ht-degree: 0%
 ---
 # 使用AI自動填寫請求
 
 >[!IMPORTANT]
 >
->從2026年9月開始，AI Assistant即將轉換成CX Coworker，這是一個讓使用者輕鬆完成工作的對話式介面。 如需CX Coworker的相關資訊，請參閱[CX Coworker概觀](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
+>從2026年9月開始，AI Assistant即將轉換成CX Coworker，這是一個讓使用者輕鬆完成工作的對話式介面。 如需同事的資訊，請參閱[CX Coworker概觀](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
 
 AI可協助您自動填寫請求欄位。 它可以根據先前的請求來建議欄位值，或從文字（例如電子郵件和已上傳的檔案）中剖析欄位值。
 
@@ -39,6 +39,6 @@ AI可協助您自動填寫請求欄位。 它可以根據先前的請求來建�
 * [使用先前請求的資料自動完成請求](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
 * [使用AI表單填寫以使用提示或檔案填寫請求](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
 
-  若要使用提示或檔案的自動填寫，您的組織必須符合使用Workfront AI助理的要求。 如需詳細資訊，請參閱[&#x200B; AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
+  若要使用提示或檔案的自動填寫，您的組織必須符合使用Workfront AI助理的要求。 如需詳細資訊，請參閱[ AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
 
 

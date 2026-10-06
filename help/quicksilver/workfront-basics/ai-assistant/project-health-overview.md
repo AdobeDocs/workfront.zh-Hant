@@ -22,16 +22,16 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '2100'
+source-wordcount: '2099'
 ht-degree: 2%
 ---
 # 專案健康情況概觀
 
 >[!IMPORTANT]
 >
->* 從2026年9月開始，AI Assistant即將轉換成CX Coworker，這是一個讓使用者輕鬆完成工作的對話式介面。 如需CX Coworker的相關資訊，請參閱[CX Coworker概觀](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
+>* 從2026年9月開始，AI Assistant即將轉換成CX Coworker，這是一個讓使用者輕鬆完成工作的對話式介面。 如需同事的資訊，請參閱[CX Coworker概觀](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
 >* 專案健康狀態功能目前僅適用於參與Beta階段的使用者。
 
 Adobe Workfront的專案運作狀態功能利用AI Assistant的強大功能，立即為您提供專案執行方式、需要您關注的領域以及如何避免可能會耗費您時間和金錢的問題的評估。
@@ -283,7 +283,7 @@ AI Assistant可指派一個可用的專案健康狀態，讓您快速評估專�
 
    ![專案狀況所需專案欄位](assets/project-completeness-fields.png)
 
-1. 按一下&lbrack;新增&#x200B;**&#x200B;**&#x200B;至更多原生或自訂專案或工作列位。
+1. 按一下[新增&#x200B;****&#x200B;至更多原生或自訂專案或工作列位。
 
 1. 按一下右上角的&#x200B;**儲存**。
 

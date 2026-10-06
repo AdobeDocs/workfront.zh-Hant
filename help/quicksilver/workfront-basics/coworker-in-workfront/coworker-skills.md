@@ -10,9 +10,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '251'
 ht-degree: 5%
 ---
 # CX Coworker技能
@@ -25,7 +25,7 @@ ht-degree: 5%
 
 本文列出Workfront中CX Coworker目前可用的技能。
 
-這些技能所涵蓋的技能可在CX Coworker中透過對話介面取得，您不需要直接呼叫這些技能。 不過，如果您確實要直接呼叫技能，可以在「同事」面板中輸入斜線`/`並輸入技能名稱，以呼叫技能。
+這些技能所涵蓋的技能可在同事中透過對話介面取得，您不需要直接呼叫這些技能。 不過，如果您確實要直接呼叫技能，可以在「同事」面板中輸入斜線`/`並輸入技能名稱，以呼叫技能。
 
 對於範例提示，請參閱文章[使用Adobe Workfront MCP伺服器](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)中的提示。
 
