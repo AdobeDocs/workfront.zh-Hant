@@ -15,16 +15,16 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '170'
 ht-degree: 0%
 ---
 # 使用AI自動填寫請求
 
 >[!IMPORTANT]
 >
->從2026年9月開始，AI Assistant即將轉換成CX Coworker，這是一個讓使用者輕鬆完成工作的對話式介面。 如需CX Coworker的相關資訊，請參閱[CX Coworker概觀](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
+>從2026年9月開始，AI Assistant即將轉換成CX Enterprise Coworker，這是一個讓使用者輕鬆完成工作的對話式介面。 如需同事的資訊，請參閱[CX Enterprise Coworker概觀](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
 
 AI可協助您自動填寫請求欄位。 它可以根據先前的請求來建議欄位值，或從文字（例如電子郵件和已上傳的檔案）中剖析欄位值。
 

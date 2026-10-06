@@ -23,9 +23,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '198'
 ht-degree: 22%
 ---
 # Adobe Workfront Planning一般資訊：文章索引
@@ -42,7 +42,7 @@ ht-degree: 22%
 
 <div class="preview">
 
-* [Adobe Workfront規劃CX Coworker概觀](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)
+* [Adobe Workfront規劃CX Enterprise Coworker概觀](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)
 
 </div>
 

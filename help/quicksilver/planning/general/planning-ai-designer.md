@@ -1,6 +1,6 @@
 ---
 title: 開始使用Adobe Workfront Planning Designer
-description: 您可以使用由AI支援的Adobe Planning Designer，輕鬆設定工作區和資料結構。 Planning Designer支援從建立和設定工作區到定義欄位和公式、管理記錄、檢閱變更記錄和建立自訂檢視的所有功能。 不論是直接使用或透過AI Assistant或CX Coworker使用，Planning Designer都能提供靈活、強大的環境，用於建置和維護結構化、連線的資訊。
+description: 您可以使用由AI支援的Adobe Planning Designer，輕鬆設定工作區和資料結構。 Planning Designer支援從建立和設定工作區到定義欄位和公式、管理記錄、檢閱變更記錄和建立自訂檢視的所有功能。 不論是直接使用或透過AI Assistant或CX Enterprise Coworker使用，Planning Designer都能提供靈活、強大的環境，用於建置和維護結構化、連線的資訊。
 recommendations: noDisplay, noCatalog
 author: Alina, Becky
 feature: Workfront Planning
@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1642'
 ht-degree: 1%
 ---
 # 開始使用Adobe Workfront Planning Designer
@@ -55,7 +55,7 @@ ht-degree: 1%
 
 您可以使用由AI支援的Adobe Planning Designer，輕鬆設定工作區和資料結構。 Planning Designer支援從建立和設定工作區到定義欄位和公式、管理記錄、檢閱變更記錄和建立自訂檢視的所有功能。
 
-無論是透過AI Assistant直接使用，或是<span class="preview"> CX Coworker</span>使用，Planning Designer都能提供靈活、強大的環境，用於建置和維護結構化、連線的資訊。
+不論是透過AI Assistant或<span class="preview"> CX Enterprise Coworker</span>直接使用，Planning Designer都能提供靈活、強大的環境，用於建置和維護結構化、連線的資訊。
 
 如需Workfront Planning的相關資訊，請參閱下列文章：
 
@@ -63,10 +63,10 @@ ht-degree: 1%
 * [開始使用Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
 * [Adobe Workfront Planning存取權概觀](/help/quicksilver/planning/access/access-overview.md)
 
-如需Planning中AI助理和CX Coworker的相關資訊，請參閱下列文章：
+如需Planning中AI助理與同事的相關資訊，請參閱下列文章：
 
 * [Adobe Workfront Planning AI Assistant概觀](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)
-* [Adobe Workfront規劃CX Coworker概觀](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)
+* [Adobe Workfront規劃CX Enterprise Coworker概觀](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)
 
 ## 存取權要求
 
@@ -215,15 +215,15 @@ Sargis and Ashot  said these are not required:
 -->
 
 * 您的Workfront管理員必須為貴組織開啟Planning Designer 。 此後，依預設，所有使用者都可使用Planning Designer。
-* 如果貴組織已簽署AI合約，則當您在Planning區域使用Planning Designer時，AI助理或<span class="preview">CX Coworker</span>也可執行Planning執行的動作。
-* AI助理或<span class="preview">Planning區域中的CX Coworker</span>所執行的動作，或是Planning Designer所執行的動作，都位在Workfront Planning許可權和Workfront存取層級的內容中。
+* 如果您的組織已簽署AI合約，當您在「計畫」區域使用「計畫Designer」時，AI助理或<span class="preview">同事</span>也可以執行「計畫AI助理」所執行的動作。
+* AI助理或<span class="preview">同事</span>在「計畫」區域中執行的動作，或是Planning Designer執行的動作，都與Workfront Planning許可權和Workfront存取層級相關。
 
   如需詳細資訊，請參閱下列文章：
 
   * [在Adobe Workfront Planning中共用許可權的概觀](/help/quicksilver/planning/access/sharing-permissions-overview.md)
   * [使用Adobe Workfront Planning時的授權型別概觀](/help/quicksilver/planning/access/license-type-overview.md)
 
-* AI助理、<span class="preview">CX Coworker</span>或Planning Designer代表使用者所做的變更會在紀錄的歷程記錄面板中進行追蹤。
+* AI助理、<span class="preview">同事、</span>或Planning Designer代表使用者所做的變更會在記錄的歷史記錄面板中進行追蹤。
 
 * Planning Designer所做的動作是永久性的，且可能不可逆轉。 例如，刪除欄位後便無法還原。 在接受之前，請先檢閱Designer提出的所有動作。
 
@@ -235,7 +235,7 @@ Sargis and Ashot  said these are not required:
 
 ## 目前適用於Planning Designer的功能
 
-您可以使用Planning Designer、AI助理或<span class="preview">CX Coworker</span>執行下列任一動作：
+您可以使用Planning Designer、AI助理或<span class="preview">同事，</span>執行下列任一動作：
 
 * 建立及設定工作區
 
@@ -274,7 +274,7 @@ Sargis and Ashot  said these are not required:
 
 ## 使用Planning Designer建立或更新物件
 
-除非另有指定，否則您可以使用Planning Designer、AI Assistant或<span class="preview"> CX Coworker</span>，在Workfront Planning中建立或更新物件。
+除非另有指定，否則您可以使用Planning Designer、AI助理或<span class="preview">同事</span>，在Workfront Planning中建立或更新物件。
 
 1. 登入Workfront，然後按一下左上角的&#x200B;**主功能表**&#x200B;圖示![行主功能表](assets/lines-main-menu.png)，然後按一下&#x200B;**規劃**。
 
@@ -288,7 +288,7 @@ Sargis and Ashot  said these are not required:
 
    ![規劃Designer視窗](assets/planning-designer-window.png)
 
-1. 在提供的空白處，開始輸入AI助理<span class="preview"> CX Coworker</span>的提示，然後在完成時按一下Enter。
+1. 在提供的空間中，開始輸入AI助理<span class="preview">或同事</span>的提示，然後在完成時按一下Enter。
 
    <!--add screen shot-->
 

@@ -25,16 +25,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '887'
 ht-degree: 4%
 ---
 # Workfront中的AI助理
 
 >[!IMPORTANT]
 >
->從2026年9月開始，AI Assistant即將轉換成CX Coworker，這是一個讓使用者輕鬆完成工作的對話式介面。 如需CX Coworker的相關資訊，請參閱[CX Coworker概觀](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
+>從2026年9月開始，AI Assistant即將轉換成CX Enterprise Coworker，這是一個讓使用者輕鬆完成工作的對話式介面。 如需同事的資訊，請參閱[CX Enterprise Coworker概觀](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
 
 Workfront的AI助理可在自然語言對話中提供應用程式內資訊和建議，協助您完成工作。 AI助理可以透過以下方式為您提供更流暢的工作體驗
 
