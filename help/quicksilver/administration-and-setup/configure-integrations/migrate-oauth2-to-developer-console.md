@@ -18,9 +18,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 667caf828abe21bd1d89ab26bfbab71a7711fe9a
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1474'
 ht-degree: 1%
 ---
 # 從Workfront OAuth2移轉至Adobe Developer Console
@@ -159,4 +159,4 @@ Adobe Developer Console支援多種驗證方式。 您可以選取符合整合�
 
 **我可以在哪裡取得協助？**
 
-如果您對特定整合或時間表有任何疑問，請聯絡您的Workfront帳戶團隊或開啟支援案例。 如需使用熒幕擷取畫面進行正式的最新設定逐步解說，請參閱Adobe的Developer Console檔案中的[取得存取權](https://developer.adobe.com/workfront-apis/guides/gaining_access/)。
+如果您對特定整合或時間表有任何疑問，請聯絡您的Workfront帳戶團隊或開啟支援案例。 如需使用熒幕擷取畫面進行正式的最新設定逐步解說，請參閱Adobe的Developer Console檔案中的[取得存取權](https://developer.adobe.com/workfront-apis/guides/gaining-access/)。
