@@ -14,9 +14,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: e8e94a483c700dc00466ce7fa37f9ddaf3e86004
+source-git-commit: db6d682b43caf1d28779599495b931da5c80d126
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '648'
 ht-degree: 2%
 ---
 # 在Creative Cloud應用程式中使用Workfront檔案
@@ -79,8 +79,14 @@ Workfront專案中的「檔案」資料夾結構會反映在「專案」面板�
 
 ## 從Creative Cloud應用程式將新檔案儲存至Workfront
 
+您可以將新檔案儲存至Workfront，也可以從Photoshop、Illustrator或InDesign將現有檔案的新副本儲存至Workfront。
+
+若要將新檔案儲存至Workfront：
+
 1. 開啟Photoshop、Illustrator或InDesign，然後建立新檔案。
-1. 在頂端功能表中，選取&#x200B;**檔案>另存新檔**。
+1. 如果您要儲存新檔案，請按一下頂端功能表中的[儲存]。**&#x200B;**
+或
+如果您要儲存現有檔案的新復本，請按一下頂端功能表中的[另存新檔]。**&#x200B;**
 1. 在&#x200B;**另存新檔**&#x200B;對話方塊中，選取&#x200B;**儲存至雲端檔案**，然後選擇您需要的Workfront專案。
 
    >[!NOTE]
