@@ -14,9 +14,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: db6d682b43caf1d28779599495b931da5c80d126
+source-git-commit: 485b9a47cb2d5dee9dfbb77f3f6da76995df88ad
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '662'
 ht-degree: 2%
 ---
 # 在Creative Cloud應用程式中使用Workfront檔案
@@ -84,9 +84,9 @@ Workfront專案中的「檔案」資料夾結構會反映在「專案」面板�
 若要將新檔案儲存至Workfront：
 
 1. 開啟Photoshop、Illustrator或InDesign，然後建立新檔案。
-1. 如果您要儲存新檔案，請按一下頂端功能表中的[儲存]。**&#x200B;**
-或
-如果您要儲存現有檔案的新復本，請按一下頂端功能表中的[另存新檔]。**&#x200B;**
+1. 在頂端功能表中，執行下列任一項作業：
+   * 若要儲存新檔案，請按一下&#x200B;**儲存**。
+   * 若要儲存現有檔案的新復本，請按一下[另存新檔]。****
 1. 在&#x200B;**另存新檔**&#x200B;對話方塊中，選取&#x200B;**儲存至雲端檔案**，然後選擇您需要的Workfront專案。
 
    >[!NOTE]
@@ -96,7 +96,7 @@ Workfront專案中的「檔案」資料夾結構會反映在「專案」面板�
 
    ![在workfront中儲存新檔案](assets/save-new-to-wf.png)
 
-1. 選擇檔案資料夾，然後按一下[儲存]。**&#x200B;** 如果您未選擇資料夾，檔案會儲存至專案根資料夾。
+1. 選擇檔案資料夾，然後按一下[儲存]。**** 如果您未選擇資料夾，檔案會儲存至專案根資料夾。
 
    ![選擇資料夾以在workfront中儲存新檔案](assets/save-to-folder.png)
 
@@ -108,7 +108,7 @@ Workfront專案中的「檔案」資料夾結構會反映在「專案」面板�
 
 ## 從Creative Cloud應用程式管理Workfront中的檔案版本
 
-將檔案從Photoshop、Illustrator或InDesign儲存至Workfront時，您儲存的變更會顯示在「版本」標籤的「目前」檔案中，並標有「新變更」徽章。
+將檔案從Photoshop、Illustrator或InDesign儲存至Workfront時，您儲存的變更會顯示在「版本」標籤的「目前」檔案中，並標有「新更新」徽章。
 
 您可以請求對目前檔案的核准，而不是上傳檔案的新版本。 如需詳細資訊，請參閱[要求核准目前的檔案](#request-approval-on-the-current-file)。
 
