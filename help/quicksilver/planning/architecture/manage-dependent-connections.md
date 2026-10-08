@@ -17,9 +17,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: cf3b7277ff6e6f41a8c388358dfa3f26d1498b4c
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1427'
 ht-degree: 1%
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 1%
    <ul><li><p>Adobe Experience Manager Assets授權及AEM Assets與Workfront之間的整合，用於連結AEM資產與Planning記錄型別。</p>
    <p>如需詳細資訊，請參閱<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 連線記錄型別與GenStudio物件和品牌的Adobe GenStudio for Performance Marketing授權</p>
-   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
+   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -138,6 +138,8 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
 
 * 為了讓相依性鏈結運作，所有相依欄位必須同時存在於相同的記錄型別上。
 
+* 所有顯示已連線記錄欄位的區域都支援相依欄位，包括記錄或請求表單的詳細資訊區域。
+
 ## 建立相依連線
 
 1. 以工作區管理員的身分，前往Workfront Planning中的記錄型別，並在表格檢視中開啟它。
@@ -167,7 +169,7 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
      如需相關資訊，請參閱本文章中的[相依連線記錄型別](#example-of-dependent-connected-record-types)範例。
    * 已連線記錄欄位的欄標題中有一個指示，說明該欄位處於相依連線關係。
 
-     欄標題![&#128279;](assets/dependent-icon-tooltip-in-column-header.png)中的相依圖示工具提示
+     欄標題](assets/dependent-icon-tooltip-in-column-header.png)中的![相依圖示工具提示
 1. （選擇性）按一下「**記錄篩選規則**」，並從您要連線的記錄型別中選取欄位，以限制該欄位值的選項，然後按一下「**完成**」。
 
    當這兩個欄位出現在第三個記錄型別上時，連線的欄位記錄型別的選項將受到您在此處選取的篩選條件的限制。
