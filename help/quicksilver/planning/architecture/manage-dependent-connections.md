@@ -17,9 +17,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: cf3b7277ff6e6f41a8c388358dfa3f26d1498b4c
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1427'
 ht-degree: 1%
 ---
 
@@ -137,6 +137,8 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
 * 相依性層級限製為6個連線。 這表示最多可以連線7個記錄型別。
 
 * 為了讓相依性鏈結運作，所有相依欄位必須同時存在於相同的記錄型別上。
+
+* 所有顯示已連線記錄欄位的區域都支援相依欄位，包括記錄或請求表單的詳細資訊區域。
 
 ## 建立相依連線
 

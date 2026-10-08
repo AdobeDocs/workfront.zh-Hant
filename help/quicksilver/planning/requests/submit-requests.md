@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: cf3b7277ff6e6f41a8c388358dfa3f26d1498b4c
 workflow-type: tm+mt
-source-wordcount: '3087'
+source-wordcount: '3110'
 ht-degree: 1%
 ---
 # 提交Adobe Workfront Planning請求以建立記錄
@@ -220,6 +220,12 @@ Not sure how to change the request status, but dev also said: Changing the names
    >**Name**&#x200B;欄位是您組織專屬的欄位，可能會在您的Workfront執行個體中顯示不同的標籤。 欄位是記錄的主要欄位。
 
 1. 更新請求表單中的其餘欄位。 需要紅色星號的欄位。
+
+   >[!TIP]
+   >
+   >相依性連線記錄欄位的值受記錄之間的相依性規則的限制。 如需詳細資訊，請參閱[管理相依連線](/help/quicksilver/planning/architecture/manage-dependent-connections.md)。
+
+
 1. （視條件而定）如果您的組織允許AI支援的&#x200B;**表單填寫**，您可以上傳檔案作為提示。 AI使用這些檔案填寫表單，您可以在提交請求之前接受或拒絕AI建議。
 
 
