@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: c1c304ec49cb1b93e15358bee4a39e67abdec6d6
+source-git-commit: 9a6798d8c5d0ec621c9b0c3da9026973c9e0e701
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1723'
 ht-degree: 0%
 ---
 # 2026年第四季檔案增強功能
@@ -48,6 +48,25 @@ ht-degree: 0%
 * [Adobe Creative Cloud專案概觀](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md)
 * [在Creative Cloud應用程式中使用Workfront檔案](/help/quicksilver/documents/adobe-creative-cloud-projects/use-wf-documents-in-cc-apps.md)
 
+<!--
+
+## Delegate unified document approvals
+
+>[!NOTE]
+>
+>Preview: October 8, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+You can now delegate your unified document approvals to another user, who can approve, reject, or mark reviews complete on your behalf during the delegation period. Delegated decisions show both names in the approval workflow, so it's clear who made each decision.
+
+Legacy document and proof approvals remain unsupported.
+
+For more information, see [Delegate approval request](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+
+-->
+
 ## 將多份檔案分組為單一核准工作流程
 
 >[!NOTE]
@@ -64,21 +83,18 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[建立群組核准](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-grouped-approval.md)。
 
-<!--
-
-## Add a web link as a document
+## 將網頁連結新增為檔案
 
 >[!NOTE]
 >
-> Preview: This feature isn't available in preview because Frame.io doesn't currently offer a preview environment.
-> Production fast release: October 14, 2026
-> Production for everyone: October 15, 2026
+>預覽：此功能在預覽Sandbox環境中無法使用，因為在此處無法使用Frame.io整合。
+>生產快速發行： 2026年10月14日
+>適用於所有人的生產： 2026年10月15日
+>[!BADGE 不在排程]{type=Neutral}內
 
-You can now add a website to Adobe Workfront as a web link in the new Documents area. After you add it, you can request approval on the live web page the same way you request approval on an uploaded file.
+您現在可以在新的檔案區域中，將網站作為網頁連結新增至Adobe Workfront。 新增後，您可以透過請求核准上傳檔案的方式，在即時網頁上請求核准。
 
-For more information, see [Add a web link as a document](/help/quicksilver/documents/adding-documents-to-workfront/add-live-url.md) and [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
-
--->
+如需詳細資訊，請參閱<!-- [Add a web link as a document](/help/quicksilver/documents/adding-documents-to-workfront/add-live-url.md) and  -->[建立檔案核准工作流程](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)。
 
 ## 控制誰能看見並使用核准範本
 

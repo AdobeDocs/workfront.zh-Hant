@@ -12,26 +12,34 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/u2Ifl47l4tOd-g-WC-8Io96xmV8ut4RLvwzxyFBwmeA
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 8f3c773d75c6765b540ecbb71372a16611dcdd02
 workflow-type: tm+mt
-source-wordcount: 755
+source-wordcount: '755'
 ht-degree: 7%
-
 ---
-
 # 複製專案
 
 <!--
@@ -162,76 +170,76 @@ ht-degree: 7%
 
 
    <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
       <td role="rowheader">全選</td> 
       <td> <p>選取所有選項，並清除新專案中列出的所有欄位和物件。 </p>
 
    <p> 取消選取此選項會取消選取所有專案。 </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">指派</td> 
-      <td>移除所有專案和任務指派。</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">進度</td> 
-      <td>移除所有任務的進度，顯示為新任務。 </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">自訂資料</td> 
-      <td> <p>從專案的自訂表單中移除資訊，以及與以下專案相關聯的自訂表單上的資訊：</p> 
-       <ul> 
-        <li>任務</li> 
-        <li>費用</li> 
-        <li> 文件</li> 
-       </ul> 
-      <p>自訂表單仍附加到任務、費用、檔案和專案，但表單的自訂欄位中的資訊不會複製到新專案。 </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">文件</td> 
-      <td> <p>移除「檔案」標籤中的所有專案，包括檔案版本、連結的檔案和資料夾。</p> <p>依預設，檔案校訂和核准無法複製到另一個專案。 </p> </td> 
-     </tr> 
-     <tr> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">指派</td> 
+        <td>移除所有專案和任務指派。</td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">進度</td> 
+        <td>移除所有任務的進度，顯示為新任務。 </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">自訂資料</td> 
+        <td> <p>從專案的自訂表單中移除資訊，以及與以下專案相關聯的自訂表單上的資訊：</p> 
+        <ul> 
+          <li>任務</li> 
+          <li>費用</li> 
+          <li> 文件</li> 
+        </ul> 
+        <p>自訂表單仍附加到任務、費用、檔案和專案，但表單的自訂欄位中的資訊不會複製到新專案。 </p> </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">文件</td> 
+        <td> <p>移除「檔案」標籤中的所有專案，包括檔案版本、連結的檔案和資料夾。</p> <p>依預設，檔案校訂和核准無法複製到另一個專案。 </p> </td> 
+      </tr> 
+      <tr> 
       <td role="rowheader">所有前置任務</td> 
       <td> <p>移除專案上任務間的所有前置任務關係。 </p> <p>
 
    跨專案前置任務絕不會轉移到新專案，無論是否選取此選項。 </p> </td>
    </tr>
 
-<tr> 
-      <td role="rowheader">預算時數</td> 
-      <td> <p>從複製的專案中移除專案之業務案例的資源規劃區域中預算的時數。</p> 
-    <p>
-   使用「情境規劃工具」的預算時數永遠不會複製到新專案，因為新專案未連結到「情境規劃工具」中的方案。 如需詳細資訊，請參閱使用案例規劃工具</a>的業務案例中的<a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">預算資源</p>
-   </tr></td>
-    <tr> 
-      <td role="rowheader">財務資訊</td> 
-      <td> <p>移除下列區域中的資訊： </p> 
-       <ul> 
-        <li>專案的財務子頁標</li> 
-        <li> 業務案例中的計畫收益</li> 
-        <li>所有工作的財務資訊<br></li> 
-       </ul> <p>如需有關專案財務子頁簽的詳細資訊，請參閱<a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">管理專案財務區域的資訊</a>。</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">核准流程</td> 
-      <td>移除與任務或專案相關的所有核准。 </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">提醒通知</td> 
-      <td> 移除與任務或專案關聯的提醒通知。 </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">費用</td> 
-      <td>移除與任務或專案相關聯的費用。 </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">權限</td> 
-      <td> 移除任務或專案上所有使用者的許可權。</td> 
-     </tr> 
-    </tbody> 
-   </table>
+   <tr> 
+        <td role="rowheader">預算時數</td> 
+        <td> <p>從複製的專案中移除專案之業務案例的資源規劃區域中預算的時數。</p> 
+      <p>
+    使用「情境規劃工具」的預算時數永遠不會複製到新專案，因為新專案未連結到「情境規劃工具」中的方案。 如需詳細資訊，請參閱使用案例規劃工具</a>的業務案例中的<a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">預算資源</p>
+    </tr></td>
+      <tr> 
+        <td role="rowheader">財務資訊</td> 
+        <td> <p>移除下列區域中的資訊： </p> 
+        <ul> 
+          <li>專案的財務子頁標</li> 
+          <li> 業務案例中的計畫收益</li> 
+          <li>所有工作的財務資訊<br></li> 
+        </ul> <p>如需有關專案財務子頁簽的詳細資訊，請參閱<a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">管理專案財務區域的資訊</a>。</p> </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">核准流程</td> 
+        <td>移除與任務或專案相關的所有核准。 </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">提醒通知</td> 
+        <td> 移除與任務或專案關聯的提醒通知。 </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">費用</td> 
+        <td>移除與任務或專案相關聯的費用。 </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">權限</td> 
+        <td> 移除任務或專案上所有使用者的許可權。</td> 
+      </tr> 
+      </tbody> 
+    </table>
 
 1. 按一下&#x200B;**複製專案**。 複製的專案隨即建立。

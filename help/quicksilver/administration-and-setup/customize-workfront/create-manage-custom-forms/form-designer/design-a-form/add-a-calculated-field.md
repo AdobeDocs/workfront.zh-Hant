@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 76c6943ccbf51ec7860bdb4707bc3ed7c2374128
+source-git-commit: 671c643d520235c3a5bef628cdb793ca2fffe78f
 workflow-type: tm+mt
-source-wordcount: '2735'
+source-wordcount: '2755'
 ht-degree: 1%
 ---
 # 新增計算欄位至表單
@@ -356,7 +356,7 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader">新增邏輯</td> 
-      <td>您可以新增顯示邏輯，以根據使用者在填寫表單時於前置的多重選擇欄位（下拉式清單、核取方塊或選項按鈕）中進行的至少一個選擇，決定是否要顯示計算欄位。 如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md">新增邏輯規則至自訂表單和欄位</a>。 <p>唯有在表單的計算自訂欄位前面至少有一個核取方塊、選項按鈕或下拉欄位時，才能使用此選項。 </p> <p>跳過邏輯和其他邏輯型別不適用於已計算的自訂欄位。</p> </td> 
+      <td>您可以新增顯示邏輯，以根據使用者在填寫表單時於前置的多重選擇欄位（下拉式清單、核取方塊或選項按鈕）中進行的至少一個選擇，決定是否要顯示計算欄位。 如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md">新增邏輯規則至自訂表單和欄位</a>。 <p>唯有在表單的計算自訂欄位前面至少有一個核取方塊、選項按鈕或下拉欄位時，才能使用此選項。 </p> <p>跳過邏輯和其他邏輯型別不適用於已計算的自訂欄位。</p> <p><b>注意：</b>顯示邏輯隱藏的自訂欄位會保留其值，而且仍包含在CONCAT等運算式中。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">更新先前的計算</td> 

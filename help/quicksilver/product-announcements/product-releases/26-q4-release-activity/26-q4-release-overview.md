@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: 9a6798d8c5d0ec621c9b0c3da9026973c9e0e701
 workflow-type: tm+mt
-source-wordcount: '3475'
+source-wordcount: '3601'
 ht-degree: 1%
 ---
 # 2026年第四季版本總覽
@@ -65,8 +65,26 @@ ht-degree: 1%
         </tr>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">檢視使用者的僱用歷史記錄</a>
+                <p>Workfront管理員現在可以在單一可篩選的「僱用歷史記錄」檢視中，追蹤使用者工作角色、代理、成本中心和計費率在一段時間內的變更。</p>
+            </td>
+            <td><p>2026年10月1日</p></td>
+            <td><p>2026年10月14日</p></td>
+            <td><p>2026年10月15日</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">使用AI產生自訂本地化</a>
                 <p>Workfront管理員現在可以使用AI產生自訂本地化文字的翻譯，並在儲存前檢閱或調整結果。</p>
+            </td>
+            <td><p>2026年10月1日</p></td>
+            <td><p>2026年10月14日</p></td>
+            <td><p>2026年10月15日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">版面配置範本的增強功能</a>
+                <p>對版面配置範本進行了幾項增強，包括在主功能表中隱藏或顯示專案、在主功能表中定位自訂應用程式，以及在左側導覽中隱藏詳細資訊。</p>
             </td>
             <td><p>2026年10月1日</p></td>
             <td><p>2026年10月14日</p></td>
@@ -134,16 +152,6 @@ ht-degree: 1%
             <td>
                 除了為Workfront Planning客戶提供的自訂季度之外，<a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">自訂周數</a>
                 <p>如果貴組織有Planning套件，您現在可以透過設定自訂季度的相同方式設定自訂周數。</p>
-            </td>
-            <td><p>2026年9月3日</p></td>
-            <td><p>2026年9月17日</p></td>
-            <td><p>2026年10月15日</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">在主要功能表中重新排序自訂應用程式</a>
-                <p><strong>注意：</strong>此功能已於2026年9月14日暫時從預覽環境中移除。</p>
-                <p>您現在可以在版面配置範本的主功能表中重新定位自訂應用程式，而不是讓它們一律顯示在最後。</p>
             </td>
             <td><p>2026年9月3日</p></td>
             <td><p>2026年9月17日</p></td>
@@ -361,6 +369,17 @@ ht-degree: 1%
             <td><p>2026年10月1日</p></td>
             <td><p>2026年10月1日</p></td>
         </tr>
+<!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Delegate unified document approvals</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>You can now delegate your unified document approvals to another user, who can approve, reject, or mark reviews complete on your behalf during the delegation period.</p>
+            </td>
+            <td><p>October 8, 2026</p></td>
+            <td><p>October 14, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+-->        
          <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">將多個檔案分組為單一核准工作流程</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
@@ -370,27 +389,24 @@ ht-degree: 1%
             <td><p>2026年10月14日</p></td>
             <td><p>2026年10月15日</p></td>
         </tr>
-        <!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Add a web link as a document</a>
-                <p>You can now add a website to Adobe Workfront as a web link in the new Documents area and request approval on the live web page.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">將網頁連結新增為檔案</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <p>您現在可以在新的「檔案」區域中，將網站作為網頁連結新增至Adobe Workfront，並在即時網頁上請求核准。</p>
             </td>
-            <td><p>N/A</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>此功能在預覽Sandbox環境中無法使用，因為在此處無法使用Frame.io整合。</p></td>
+            <td><p>2026年10月14日</p></td>
+            <td><p>2026年10月15日</p></td>
         </tr>
-        <tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Access Workfront projects in Adobe Creative Cloud apps</a>
-                <p>You can now access your Workfront projects directly from Adobe Photoshop, Illustrator, and InDesign using the Projects panel.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">在Adobe Creative Cloud應用程式中存取Workfront專案</a>
+                <p>您現在可以使用專案面板，直接從Adobe Photoshop、Illustrator和InDesign存取您的Workfront專案。</p>
             </td>
-            <td><p>N/A</p></td>
-            <td><p>[DATE]</p></td>
-            <td><p>[DATE]</p></td>
+            <td><p>不適用</p></td>
+            <td><p>[日期]</p></td>
+            <td><p>[日期]</p></td>
         </tr>
-        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">系統管理員對核准範本的完整存取權</a><p>[!BADGE Off Schedule]{type=Neutral}</p>

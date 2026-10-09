@@ -32,7 +32,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: cf3b7277ff6e6f41a8c388358dfa3f26d1498b4c
+source-git-commit: 8f3c773d75c6765b540ecbb71372a16611dcdd02
 workflow-type: tm+mt
 source-wordcount: '3110'
 ht-degree: 1%
@@ -223,7 +223,7 @@ Not sure how to change the request status, but dev also said: Changing the names
 
    >[!TIP]
    >
-   >相依性連線記錄欄位的值受記錄之間的相依性規則的限制。 如需詳細資訊，請參閱[管理相依連線](/help/quicksilver/planning/architecture/manage-dependent-connections.md)。
+   ><span class="preview">相依連線記錄欄位的值受記錄之間的相依性規則的限制。 如需詳細資訊，請參閱[管理相依連線](/help/quicksilver/planning/architecture/manage-dependent-connections.md)。</span>
 
 
 1. （視條件而定）如果您的組織允許AI支援的&#x200B;**表單填寫**，您可以上傳檔案作為提示。 AI使用這些檔案填寫表單，您可以在提交請求之前接受或拒絕AI建議。
