@@ -10,23 +10,28 @@ exl-id: 857859fb-87ee-4397-b292-239ed9dc8281
 TQID: https://experienceleague.adobe.com/2YS0JaxRwYAAN5ZqNzPO7kGyQ876UlJ5b-X4MY4bT6c
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 8f3c773d75c6765b540ecbb71372a16611dcdd02
 workflow-type: tm+mt
-source-wordcount: 492
+source-wordcount: '492'
 ht-degree: 0%
-
 ---
-
 # 任務限制總覽：開始時間不得早於
 
 使用「開始時間不早於(SNET)作業限制」將作業排定在您指定的日期之後開始。
@@ -42,17 +47,17 @@ ht-degree: 0%
 * 如果您排定專案的「從完成日期開始」專案，且新作業的系統預設開始日期設定為「今天」，則「開始時間不得早於」限制會將作業排定為「儘可能延遲」作業。
 * 當您將具有SNET限制的任務移動或複製到另一個專案時，任務的限制或專案日期可能會根據限制日期以及專案的開始和完成日期而變更。 存在下列情況：
 
-   * 從開始排程目的地專案時：
+  * 從開始排程目的地專案時：
 
-      * 當任務的限制日期早於專案計劃開始日期時，任務限制會變更為「儘快」。
-      * 當任務的限制日期晚於專案計畫完成日期時，專案計畫完成日期會變更以符合任務的完成限制日期。
+    * 當任務的限制日期早於專案計劃開始日期時，任務限制會變更為「儘快」。
+    * 當任務的限制日期晚於專案計畫完成日期時，專案計畫完成日期會變更以符合任務的完成限制日期。
 
-      * 當目標專案排程為從完成開始時：
+  * 當目標專案排程為從完成開始時：
 
-         * 當任務的限制日期晚於「專案完成日期」時，任務限制會變更為「儘可能遲」。
-         * 當任務的限制日期早於專案的「計劃開始日期」時，專案的「計劃開始日期」會變更以符合任務的開始限制日期。
+    * 當任務的限制日期晚於「專案完成日期」時，任務限制會變更為「儘可能遲」。
+    * 當任務的限制日期早於專案的「計劃開始日期」時，專案的「計劃開始日期」會變更以符合任務的開始限制日期。
 
-      * 無論專案的排程為何，當任務的限制日期在專案的「開始」與「完成」日期內時，不會變更「任務限制」或專案日期。
+  * 無論專案的排程為何，當任務的限制日期在專案的「開始」與「完成」日期內時，不會變更「任務限制」或專案日期。
 
   如需關於移動任務的資訊，請參閱[移動任務](../../../manage-work/tasks/manage-tasks/move-tasks.md)。 如需複製工作的相關資訊，請參閱[複製和複製工作](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)。
 
