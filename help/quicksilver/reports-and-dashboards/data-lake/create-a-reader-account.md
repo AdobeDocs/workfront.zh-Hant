@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a761d5287c7eb5194c870e21d8c40c3fc87101f
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '976'
 ht-degree: 1%
 ---
 # 建立Snowflake的讀取器帳戶或連線
@@ -73,6 +73,10 @@ ht-degree: 1%
 ## 建立讀者帳戶
 
 您必須先為您的組織建立新的Snowflake讀取器帳戶，才能開始建立連線。
+
+Reader帳戶提供您Data Connect資料的唯讀存取權，您可從Snowflake或協力廠商視覺效果或資料處理工具查詢資料。 Data Connect只會透過Snowflake檢視分享您的資料。 未包含資料庫表格。
+
+如需詳細資訊，請參閱Snowflake檔案中的[建立讀者帳戶](https://docs.snowflake.com/en/user-guide/data-sharing-reader-create)。
 
 >[!IMPORTANT]
 >

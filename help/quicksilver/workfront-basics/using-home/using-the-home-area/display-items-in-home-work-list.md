@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a761d5287c7eb5194c870e21d8c40c3fc87101f
 workflow-type: tm+mt
-source-wordcount: '1015'
+source-wordcount: '1048'
 ht-degree: 5%
 ---
 # 在[!UICONTROL 首頁]區域的[!UICONTROL 工作清單]中顯示專案
@@ -120,7 +120,8 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->篩選器選項會儲存在瀏覽器中。 如果您一致在同一部電腦上使用相同的瀏覽器（且不清除網站資料），則請勿變更選取的篩選器。 如果您切換瀏覽器或電腦，則篩選器會還原為預設選項，該選項會取消選取所有篩選器。
+>大部分Widget的篩選選項會儲存在瀏覽器中。 如果您一致在同一部電腦上使用相同的瀏覽器（且不清除網站資料），則請勿變更選取的篩選器。 如果您切換瀏覽器或電腦，則篩選器會還原為預設選項，該選項會取消選取所有篩選器。 <br>
+>我的核准Widget不會將篩選選項儲存在瀏覽器中。 「我的核准」Widget一律預設為「我的核准」篩選器選項，該選項會顯示指派給您的核准。
 
 若要篩選您的工作：
 
