@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8f3c773d75c6765b540ecbb71372a16611dcdd02
+source-git-commit: e8682aad0e752979afe524f6d218730f1b00559c
 workflow-type: tm+mt
-source-wordcount: '3110'
+source-wordcount: '3249'
 ht-degree: 1%
 ---
 # 提交Adobe Workfront Planning請求以建立記錄
@@ -191,8 +191,8 @@ Not sure how to change the request status, but dev also said: Changing the names
 
 {{step1-to-requests}}
 
-1. 開啟熒幕右上角的&#x200B;**使用新體驗**&#x200B;設定。
-開啟此設定後，Workfront的&#x200B;**要求**&#x200B;區域即可使用Workfront規劃要求表單。
+1. 開啟熒幕右上角的&#x200B;**使用新體驗**設定。
+開啟此設定後，Workfront的**要求**&#x200B;區域即可使用Workfront規劃要求表單。
 
    >[!TIP]
    >
@@ -225,8 +225,17 @@ Not sure how to change the request status, but dev also said: Changing the names
    >
    ><span class="preview">相依連線記錄欄位的值受記錄之間的相依性規則的限制。 如需詳細資訊，請參閱[管理相依連線](/help/quicksilver/planning/architecture/manage-dependent-connections.md)。</span>
 
+1. （選擇性和條件性）按一下&#x200B;**填寫表單**，讓AI為您填寫表單。 Workfront會根據先前請求的資訊填寫表單上的欄位。
 
-1. （視條件而定）如果您的組織允許AI支援的&#x200B;**表單填寫**，您可以上傳檔案作為提示。 AI使用這些檔案填寫表單，您可以在提交請求之前接受或拒絕AI建議。
+   >[!TIP]
+   >
+   >您的組織必須允許[系統偏好設定]區域中的&#x200B;**AI表單填寫**，才能使用填寫表單功能。
+   >
+   >如需指示，請參閱[使用AI支援的表單填入功能，使用提示或檔案填入請求](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)。
+
+
+
+1. （視條件而定）如果貴組織允許&#x200B;**AI表單填入**，您可以上傳檔案作為提示。 AI使用這些檔案填寫表單，您可以在提交請求之前接受或拒絕AI建議。
 
 
    如需指示，請參閱[使用AI支援的表單填入功能，使用提示或檔案填入請求](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)。
@@ -332,7 +341,7 @@ Removing this as this is covered at a higher level in the Use enhanced lists art
 {{step1-to-planning}}
 
 1. 按一下工作區的卡片，然後按一下您有權建立記錄的記錄型別的卡片。
-1. 在記錄型別頁面上的任何檢視中，按一下[新增記錄]，然後按一下[送出要求]。**&#x200B;**。
+1. 在記錄型別頁面上的任何檢視中，按一下[新增記錄]，然後按一下[送出要求]。****。
 
    >[!TIP]
    >
@@ -345,7 +354,15 @@ Removing this as this is covered at a higher level in the Use enhanced lists art
    請求表單隨即開啟。
 1. 開始在所有可用欄位中輸入所有資訊
 
-   或按一下&#x200B;**填寫表單**，讓AI為您填寫表單。
+   或按一下&#x200B;**填寫表單**，讓AI為您填寫表單。 Workfront會根據先前請求的資訊填寫表單上的欄位。
+
+   >[!TIP]
+   >
+   >如果您的組織允許[系統偏好設定]區域中的&#x200B;**AI表單填寫**，您可以上傳檔案作為提示。 AI使用這些檔案填寫表單，您可以在提交請求之前接受或拒絕AI建議。
+   >
+   >如需指示，請參閱[使用AI支援的表單填入功能，使用提示或檔案填入請求](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)。
+
+
 1. 按一下&#x200B;**送出要求**。
 
    已提交請求。
