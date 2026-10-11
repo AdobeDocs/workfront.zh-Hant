@@ -22,10 +22,10 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 77be87f54c8745b1cdab219d9d0c5f4ea48d86e4
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 6%
+source-wordcount: '755'
+ht-degree: 5%
 ---
 # 限制存取自訂欄位中的財務資料
 
@@ -33,7 +33,7 @@ ht-degree: 6%
 
 如需建立自訂欄位的詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
-如需存取層級的詳細資訊，請參閱[存取層級概觀](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)。 如需關於共用和許可權的資訊，請參閱[物件共用許可權總覽](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
+如需透過存取層級和許可權定義財務資料存取權的相關資訊，請參閱[授予財務資料的存取權](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)和[共用物件的財務許可權](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md)。
 
 ## 存取權要求
 
@@ -89,16 +89,27 @@ ht-degree: 6%
    >
    >對於計算欄位，允許任何格式。 所有其他欄位型別都必須使用&#x200B;**貨幣**&#x200B;格式，否則&#x200B;**財務許可權型別**&#x200B;欄位將無法使用。
 
-1. （選擇性）僅針對計算欄位，開啟&#x200B;**自動許可權**&#x200B;選項以允許財務許可權自動來自公式中的欄位。
+1. （選擇性）僅針對計算欄位，開啟&#x200B;**自動許可權**&#x200B;選項，允許從公式中的欄位自動建立財務許可權。
 
 1. 選取&#x200B;**財務許可權型別**&#x200B;的選項。
 
-   使用者必須有此財務許可權型別，才能檢視或編輯表單上的此自訂欄位。
+   此設定會定義使用者在檢視或編輯表單上的此自訂欄位之前必須擁有的存取型別和許可權。
 
-   * **不需要許可權：**&#x200B;所有使用者都可以看到此欄位
-   * **一般：**&#x200B;使用者必須具有編輯或檢視一般財務的許可權
-   * **帳單：**&#x200B;使用者必須擁有編輯或檢視收費率的許可權
-   * **成本：**&#x200B;使用者必須擁有編輯或檢視成本費率的許可權
+   * **不需要許可權：**&#x200B;所有使用者都可以看到欄位，無論其存取層級和物件許可權為何。
+   * **一般：**&#x200B;使用者必須擁有下列其中一個欄位才能檢視此欄位：
+
+     * 其存取層級包括財務資料的檢視或編輯存取權，並啟用General Finance的存取權。
+     * 他們對已附加自訂表單的物件的許可權包括檢視或編輯「一般財務」。
+
+   * **帳單：**&#x200B;使用者必須擁有下列其中一項，才能檢視欄位：
+
+     * 其存取層級包含對財務資料的檢視或編輯存取權，並針對記帳費率啟用存取權。
+     * 他們對已附加自訂表單的物件的許可權包括檢視或編輯收費率。
+
+   * **成本：**&#x200B;使用者必須擁有下列其中一個欄位才能檢視欄位：
+
+     * 其存取層級包含對財務資料的檢視或編輯存取權，並啟用成本費率的存取權。
+     * 他們對已附加自訂表單的物件的許可權包括檢視或編輯成本費率。
 
    對於計算欄位：
 

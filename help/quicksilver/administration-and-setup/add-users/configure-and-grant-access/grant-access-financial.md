@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 77be87f54c8745b1cdab219d9d0c5f4ea48d86e4
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 3%
+source-wordcount: '831'
+ht-degree: 2%
 ---
 # 授予財務資料的存取權
 
@@ -121,10 +121,12 @@ If you make changes here, make them also in the "Grant access to" articles where
 * issue
 -->
 
-當您與另一個使用者共用任何物件時，收件者對該物件的權利取決於兩個專案的組合：
+當您與其他使用者共用任何物件時，收件者檢視或編輯該物件上財務資料的許可權是由兩個專案的組合所決定：
 
-* 您授予收件者的物件許可權
-* 收件者物件型別的存取層級設定
+* 您授予收件者特定物件的許可權
+* 收件者的物件型別與財務資料存取層級設定
+
+您也可以根據使用者的許可權和存取層級設定，限制自訂財務欄位的存取權。 如需詳細資訊，請參閱[限制存取自訂欄位中的財務資料](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md)。
 
 ## 依授權型別存取財務資訊
 
