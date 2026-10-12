@@ -6,29 +6,37 @@ description: 您可以使用專案範本來擷取與組織中專案相關的大�
 author: Alina
 feature: Work Management
 exl-id: cac7662f-f2ae-44f0-a0bb-1569c03d172e
-TQID: https://experienceleague.adobe.com/9RlRNqkZYIcLjI5-he3f2BMtoXj3R--8MQbVUFmRHqI
+TQID: 'https://experienceleague.adobe.com/9RlRNqkZYIcLjI5-he3f2BMtoXj3R--8MQbVUFmRHqI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 702
-ht-degree: 2%
-
+source-wordcount: '702'
+ht-degree: 3%
 ---
-
 # 專案範本概觀
 
 <!-- Audited: 12/2023 -->
@@ -48,15 +56,15 @@ ht-degree: 2%
 * 在報告專案時，這個用法很有幫助。 例如，您可以報告共用相同範本的專案、比較其進度並找出完成方式的改善。
 * 除了定義未來的專案設定外，您還可以為範本上的未來專案新增下列資訊：
 
-   * 任務
-   * 文件
-   * 核准
-   * 佇列詳細資訊
-   * 佇列主題
-   * 主題群組
-   * 路由規則
-   * 自訂表單
-   * 公司和群組資訊
+  * 任務
+  * 文件
+  * 核准
+  * 佇列詳細資訊
+  * 佇列主題
+  * 主題群組
+  * 路由規則
+  * 自訂表單
+  * 公司和群組資訊
 
 ## 建立範本的最佳實務
 
@@ -71,8 +79,8 @@ ht-degree: 2%
 
   如需有關「持續時間」的資訊，請參閱下列文章：
 
-   * [任務期間與期間型別概觀](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
-   * [專案期間概觀](../../../manage-work/projects/planning-a-project/project-duration.md)
+  * [任務期間與期間型別概觀](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
+  * [專案期間概觀](../../../manage-work/projects/planning-a-project/project-duration.md)
 
   如需計畫時數的詳細資訊，請參閱[計畫時數總覽](../../../manage-work/tasks/task-information/planned-hours.md)。
 
@@ -89,8 +97,8 @@ ht-degree: 2%
 
 * 決定您要在未來的專案中使用的檔案儲存空間。 有些組織可以存取下列檔案儲存型別：
 
-   * 舊版Workfront儲存空間
-   * Adobe 雲端儲存空間
+  * 舊版 Workfront 儲存空間
+  * Adobe 雲端儲存空間
 
   新增檔案會依您選擇的儲存型別而有所不同。 您為範本選擇的儲存型別將影響未來專案將繼承的儲存型別。
 
@@ -98,8 +106,8 @@ ht-degree: 2%
 
   如需詳細資訊，另請參閱：
 
-   * [建立專案範本](/help/quicksilver/manage-work/projects/create-and-manage-templates/create-template.md)
-   * [專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)
+  * [建立專案範本](/help/quicksilver/manage-work/projects/create-and-manage-templates/create-template.md)
+  * [專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)
 
 ## 建立範本的方法
 

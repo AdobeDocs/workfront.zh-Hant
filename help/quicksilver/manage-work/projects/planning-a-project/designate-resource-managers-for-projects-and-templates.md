@@ -8,27 +8,33 @@ feature: Work Management
 exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/56MMpWiXGkKxBYKIiQ2-bOXm-1-WjpS3L-z-Zh2-nWI
+TQID: 'https://experienceleague.adobe.com/56MMpWiXGkKxBYKIiQ2-bOXm-1-WjpS3L-z-Zh2-nWI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 732
+source-wordcount: '732'
 ht-degree: 3%
-
 ---
-
 # 指定專案或範本的資源管理員
 
 <!--
@@ -151,10 +157,10 @@ Old:
 * 您可以指定專案或專案範本的資源管理員。 當您在專案範本上指定「資源管理員」時，您在範本上指定為「資源管理員」的任何使用者，都會自動成為使用該範本建立之任何專案的資源管理員。
 * 您可以在下列區域中檢視Resource Manager欄位：
 
-   * 編輯專案時，如本文所述。
-   * 編輯範本時，如本文所述。
-   * 建立專案或範本報表時。 如需建立報表的相關資訊，請參閱[建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
-   * 建立或自訂清單的專案或範本檢視時。 如需詳細資訊，請參閱[Adobe Workfront中的檢視總覽](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)。
+  * 編輯專案時，如本文所述。
+  * 編輯範本時，如本文所述。
+  * 建立專案或範本報表時。 如需建立報表的相關資訊，請參閱[建立自訂報表](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)。
+  * 建立或自訂清單的專案或範本檢視時。 如需詳細資訊，請參閱[Adobe Workfront中的檢視總覽](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)。
 
 * 您可以快速在多個專案或範本上新增或移除資源管理員，方法是將資源管理員欄位新增到清單或專案的檢視中，並使用內嵌編輯來編輯此欄位。
 
@@ -164,7 +170,7 @@ Old:
 
    * 若要將資源管理員新增至單一專案，請移至您要指定一或多個資源管理員的專案，然後按一下專案名稱旁的&#x200B;**更多&#39;a5&#39;5c能表**，然後&#x200B;**編輯。**
 
-   * 若要同時新增資源管理員至多個專案，請瀏覽至專案清單，選取您要指定一或多個資源管理員的專案，然後按一下[編輯]。**&#x200B;**
+   * 若要同時新增資源管理員至多個專案，請瀏覽至專案清單，選取您要指定一或多個資源管理員的專案，然後按一下[編輯]。****
 
      不會從您編輯的專案中移除現有的資源管理員；您以這種方式新增的任何使用者都會新增為專案上的資源管理員，以及任何現有的資源管理員。
 
@@ -187,11 +193,11 @@ Old:
 
    * 若要將資源管理員新增至單一範本，請移至您要指定一或多個資源管理員的範本，然後按一下範本名稱旁的&#x200B;**更多功能表**，然後&#x200B;**編輯。**
 
-   * 若要同時新增資源管理員到多個範本，請移至範本清單，並選取您要指定一或多個資源管理員的範本，然後按一下[編輯]。**&#x200B;**
+   * 若要同時新增資源管理員到多個範本，請移至範本清單，並選取您要指定一或多個資源管理員的範本，然後按一下[編輯]。****
 
      不會從您編輯的範本中移除現有的資源管理員；您以這種方式新增的任何使用者都會新增為範本上的資源管理員，以及任何現有的資源管理員。
 
-   * 若要將資源管理員新增至新範本，請按一下[新增範本] **，然後按一下範本名稱旁的[其他]功能表**，再按一下[編輯] **。**&#x200B;**&#x200B;**
+   * 若要將資源管理員新增至新範本，請按一下[新增範本] **，然後按一下範本名稱旁的[其他]功能表**，再按一下[編輯] **。******
 
 1. 在&#x200B;**總覽**&#x200B;區段中，按一下&#x200B;**資源管理員**&#x200B;欄位。
 1. 開始輸入您想要新增為範本資源管理員的使用者名稱，然後按一下出現在清單中的名稱。

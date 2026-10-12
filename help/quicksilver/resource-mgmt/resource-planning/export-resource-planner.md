@@ -6,25 +6,29 @@ description: 您可以從資源規劃工具的任何檢視中，將資訊匯出�
 author: Lisa
 feature: Resource Management
 exl-id: 07acd28a-5dc0-45b4-bdf2-20abbd5e098c
-TQID: https://experienceleague.adobe.com/f1tAWm7-QiEGbN-ENKTlJumMK29mqdiZ5PgY-27gzc4
+TQID: 'https://experienceleague.adobe.com/f1tAWm7-QiEGbN-ENKTlJumMK29mqdiZ5PgY-27gzc4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 582
+source-wordcount: '599'
 ht-degree: 8%
-
 ---
-
 # 從資源規劃工具匯出資訊
 
 您可以從資源規劃工具的任何檢視中，將資訊匯出至儲存在電腦上的Excel (.xlsx)檔案。
@@ -95,25 +99,25 @@ ht-degree: 8%
    * 12季
 
    **選取以匯出**：視您選取的檢視而定，您可以選取匯出畫面中列出的所有物件或特定物件的使用狀態和預算資訊。
-您可以選取匯出下列資訊：
+   您可以選取匯出下列資訊：
 
    * 在「專案檢視」中，選取以匯出：
 
-      * 專案
-      * 專案和角色
-      * 全部（這是預設選項）
+     * 專案
+     * 專案和角色
+     * 全部（這是預設選項）
 
    * 在「使用者檢視」中，選取以匯出：
 
-      * 使用者
-      * 使用者和專案
-      * 全部（這是預設選項）
+     * 使用者
+     * 使用者和專案
+     * 全部（這是預設選項）
 
    * 在「角色檢視」中，選取以匯出：
 
-      * 角色
-      * 角色和專案
-      * 全部（這是預設選項）
+     * 角色
+     * 角色和專案
+     * 全部（這是預設選項）
 
    **資料格式**：根據您希望Excel檔案的顯示方式，選取下列選項：
 
@@ -131,7 +135,7 @@ Excel (.xlsx)檔案會下載至您的電腦。\
    （視條件而定）如果您匯出大量資料，您會收到一封電子郵件，其中包含您可下載檔案的連結。\
    ![RP_eamil_with_exported_planner_attached.png](assets/rp-eamil-with-exported-planner-attached-350x116.png)
 
-1. （視條件而定）當您收到含有匯出檔案的電子郵件時，請按一下[下載] **&#x200B;**&#x200B;下載檔案。\
+1. （視條件而定）當您收到含有匯出檔案的電子郵件時，請按一下[下載] ****&#x200B;下載檔案。\
    這會帶您返回Workfront以下載檔案。\
    您必須登入Workfront才能完成下載。\
    如果您在傳送檔案時未下載檔案，下載連結會在您啟動匯出後的7天內保持作用中。

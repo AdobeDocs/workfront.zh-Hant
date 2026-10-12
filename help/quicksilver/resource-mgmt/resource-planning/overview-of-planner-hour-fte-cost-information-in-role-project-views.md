@@ -7,27 +7,33 @@ description: 資源規劃工具之專案與角色檢視中的時數、約當全�
 author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-TQID: https://experienceleague.adobe.com/xi553ymGC9ZqiMp5wueog3-wIqu072uVXeuXpsQbvIo
+TQID: 'https://experienceleague.adobe.com/xi553ymGC9ZqiMp5wueog3-wIqu072uVXeuXpsQbvIo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 3089
+source-wordcount: '3089'
 ht-degree: 0%
-
 ---
-
 # 資源規劃工具之專案與角色檢視中的時數、約當全職人數及成本資訊概要
 
 <!--
@@ -67,11 +73,11 @@ ht-degree: 0%
 
 * 資源規劃工具中資源的預算配置可透過下列方式完成：
 
-   * 手動
+  * 手動
 
-     或
+    或
 
-   * 使用&#x200B;**依專案檢視**&#x200B;和&#x200B;**依角色檢視**&#x200B;檢視中的專案和角色選項，自動執行。
+  * 使用&#x200B;**依專案檢視**&#x200B;和&#x200B;**依角色檢視**&#x200B;檢視中的專案和角色選項，自動執行。
 
   如需詳細資訊，請參閱資源規劃工具中使用專案和角色檢視的[預算資源](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)。
 
@@ -190,16 +196,16 @@ ht-degree: 0%
   週末天數、排程例外和休假天數會從此分佈中排除。
 * 計算每個資源的計畫時數時，會包含下列任務類別：
 
-   * 指派給資源集區、工作角色或專案團隊中使用者的任務\
-     如果任務已指派給團隊，則其配置將顯示在&#x200B;**無角色**&#x200B;和&#x200B;**無使用者**&#x200B;區段下。 您可以檢視與團隊關聯的計畫時數，但無法預算時數，因為沒有任何角色或使用者與任務相關聯。
+  * 指派給資源集區、工作角色或專案團隊中使用者的任務\
+    如果任務已指派給團隊，則其配置將顯示在&#x200B;**無角色**&#x200B;和&#x200B;**無使用者**&#x200B;區段下。 您可以檢視與團隊關聯的計畫時數，但無法預算時數，因為沒有任何角色或使用者與任務相關聯。
 
-   * 未指派任務
+  * 未指派任務
 
 * 資源規劃工具中的計畫時數不包含與下列專案關聯的計畫時數：
 
-   * 父系任務
-   * 指派給無資源集區之使用者的任務
-   * 問題，當&#x200B;**包含來自問題的時數**&#x200B;設定停用時。
+  * 父系任務
+  * 指派給無資源集區之使用者的任務
+  * 問題，當&#x200B;**包含來自問題的時數**&#x200B;設定停用時。
 
 * 如果任務期間為零，則計畫時數不會顯示在資源規劃工具。
 * 未顯示與已停用使用者相關的計畫時數。
@@ -237,7 +243,7 @@ ht-degree: 0%
 
 * 依預設，資源規劃工具中的預算時數，對於所有資源和所有專案都是零。
 * 您可以手動估計使用者和角色的預算時數，或者您可以使用專案或工作角色&#x200B;**更多**&#x200B;選單中的其中一個連結，根據計畫時數來更新它們。\
-  如需有關專案和角色選項的詳細資訊，請參閱本文中資源規劃工具[&#128279;](#Budget)的專案和角色檢視中的時數概觀、約當全職人數和成本資訊一節。
+  如需有關專案和角色選項的詳細資訊，請參閱本文中資源規劃工具](#Budget)的專案和角色檢視中的[時數概觀、約當全職人數和成本資訊一節。
 
 * 您可以為預算小時、FTE或成本的最小期間是一週。 您無法編列一天的時數、約當全職人數或成本的預算。
 * 預算時數會平均分配給任務期間內的每一天，適用於指派給他們的每個資源。 「工期」是以任務的「計劃開始日期」和「完成日期」為基礎，並包含該時段內的每個行事曆日。

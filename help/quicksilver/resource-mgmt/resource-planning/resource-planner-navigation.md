@@ -7,25 +7,29 @@ description: 使用Adobe Workfront資源規劃工具，您可以輕鬆瞭解資�
 author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-TQID: https://experienceleague.adobe.com/aDlEs3QYjcq5ycrGOI5X-T0GGvBngLiw1b-7i-WSeU4
+TQID: 'https://experienceleague.adobe.com/aDlEs3QYjcq5ycrGOI5X-T0GGvBngLiw1b-7i-WSeU4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 2411
+source-wordcount: '2442'
 ht-degree: 2%
-
 ---
-
 # 資源規劃工具導覽概觀
 
 <!-- Audited: 5/2025 -->
@@ -131,13 +135,13 @@ Adobe Workfront資源規劃工具可協助您輕鬆瞭解資源的可用性，�
 
 * 您可以在「專案」檢視中檢視下列時數、約當全職人數或成本資訊：
 
-   * 可用
-   * 已規劃
-   * 已編列預算
-   * 變異數
-   * 淨額
+  * 可用
+  * 已規劃
+  * 已編列預算
+  * 變異數
+  * 淨額
 
-     如需詳細資訊，請參閱資源規劃工具中使用專案和角色檢視的[預算資源](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)。
+    如需詳細資訊，請參閱資源規劃工具中使用專案和角色檢視的[預算資源](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)。
 
 ### 依角色檢視 {#view-by-role}
 
@@ -152,13 +156,13 @@ Adobe Workfront資源規劃工具可協助您輕鬆瞭解資源的可用性，�
 * 套用此檢視時，專案時數、約當全職人數或成本將加總至角色時數、約當全職人數或成本。
 * 您可以在「角色」檢視中檢視下列小時、約當全職人數或成本資訊：
 
-   * 可用
-   * 已規劃
-   * 已編列預算
-   * 變異數
-   * 淨額
+  * 可用
+  * 已規劃
+  * 已編列預算
+  * 變異數
+  * 淨額
 
-     如需詳細資訊，請參閱資源規劃工具中使用專案和角色檢視的[預算資源](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)。
+    如需詳細資訊，請參閱資源規劃工具中使用專案和角色檢視的[預算資源](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)。
 
 ### 依使用者檢視 {#view-by-user}
 
@@ -191,23 +195,23 @@ Adobe Workfront資源規劃工具可協助您輕鬆瞭解資源的可用性，�
 
   存在下列情況：
 
-   * 如果您沒有檢視專案和指派給使用者之任務或問題的許可權（顯示在「資源規劃工具」中），這些專案會列在「無法存取的專案」區段下。 在這種情況下，這些區段會取代專案或任務區段。
+  * 如果您沒有檢視專案和指派給使用者之任務或問題的許可權（顯示在「資源規劃工具」中），這些專案會列在「無法存取的專案」區段下。 在這種情況下，這些區段會取代專案或任務區段。
 
-   * 如果您沒有許可權檢視專案，但您可以檢視專案上的任務或問題，則專案、任務和問題會列在指派給它們的使用者名稱下。
-   * 當您有權檢視專案，但沒有專案上的任何任務或問題時，專案名稱會顯示，並且任務和問題會列在「無法存取的專案」區段下。
+  * 如果您沒有許可權檢視專案，但您可以檢視專案上的任務或問題，則專案、任務和問題會列在指派給它們的使用者名稱下。
+  * 當您有權檢視專案，但沒有專案上的任何任務或問題時，專案名稱會顯示，並且任務和問題會列在「無法存取的專案」區段下。
 
-     如需詳細資訊，請參閱[物件共用許可權總覽](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
+    如需詳細資訊，請參閱[物件共用許可權總覽](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)。
 
 
 * 您可以在「使用者」檢視中檢視下列時數和FTE資訊：
 
-   * 可用
-   * 已規劃
-   * 實際
-   * 計畫與實際之間的差異
-   * 計畫配置的百分比
+  * 可用
+  * 已規劃
+  * 實際
+  * 計畫與實際之間的差異
+  * 計畫配置的百分比
 
-     如需詳細資訊，請參閱[使用使用者檢視時，在資源規劃工具中檢視可用、計畫和實際時數或FTE](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)
+    如需詳細資訊，請參閱[使用使用者檢視時，在資源規劃工具中檢視可用、計畫和實際時數或FTE](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)
 
 ## 專案名稱
 
@@ -259,9 +263,9 @@ Adobe Workfront資源規劃工具可協助您輕鬆瞭解資源的可用性，�
 * 他們的主要工作角色
 * 其次要工作角色，在下列情況中：
 
-   * 如果次要職務角色在其使用者設定檔中具有有效的FTE可用性百分比。
-   * 如果將使用者指派給這些角色中的任務。
-如需有關工作角色FTE可用性百分比的詳細資訊，請參閱[編輯使用者設定檔](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) 。
+  * 如果次要職務角色在其使用者設定檔中具有有效的FTE可用性百分比。
+  * 如果將使用者指派給這些角色中的任務。
+    如需有關工作角色FTE可用性百分比的詳細資訊，請參閱[編輯使用者設定檔](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) 。
 
 ## 沒有角色和沒有使用者區段
 
@@ -300,12 +304,12 @@ Adobe Workfront資源規劃工具可協助您輕鬆瞭解資源的可用性，�
 
   啟用此設定時，請考量下列事項：
 
-   * 指派給問題的使用者名稱會顯示在問題中與其相關聯的工作角色下。 您可以在「專案」和「角色」檢視中，指定使用者與工作角色的預算時數。
-   * 指派給使用者的問題列在「使用者」檢視中的工作角色名稱下。
+  * 指派給問題的使用者名稱會顯示在問題中與其相關聯的工作角色下。 您可以在「專案」和「角色」檢視中，指定使用者與工作角色的預算時數。
+  * 指派給使用者的問題列在「使用者」檢視中的工作角色名稱下。
 
-     >[!IMPORTANT]
-     >
-     >當問題計劃開始和完成日期在專案的時間表以外時，問題的計畫時數會根據問題日期顯示。 例如，如果專案時間表介於1月至3月之間，但問題的時間表是8月，問題的計畫時數會顯示在8月時段。
+    >[!IMPORTANT]
+    >
+    >當問題計劃開始和完成日期在專案的時間表以外時，問題的計畫時數會根據問題日期顯示。 例如，如果專案時間表介於1月至3月之間，但問題的時間表是8月，問題的計畫時數會顯示在8月時段。
 
 
 * **顯示Portfolio優先順序**：根據指派給專案的Portfolio顯示專案優先順序。

@@ -6,26 +6,31 @@ description: Adobe Workfront可以為資源規劃工具的使用者檢視產生�
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-TQID: https://experienceleague.adobe.com/C6VONkwVFolewhXNwvuYv4WWMx6Ee5v6w9vEgFPgUow
+TQID: 'https://experienceleague.adobe.com/C6VONkwVFolewhXNwvuYv4WWMx6Ee5v6w9vEgFPgUow'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 649
+source-wordcount: '649'
 ht-degree: 3%
-
 ---
-
 # 使用連結共用資源規劃工具使用者檢視
 
 Adobe Workfront可以為資源規劃工具的使用者檢視產生唯一的URL，您可將該URL作為外部頁面嵌入到儀表板中，或在新的瀏覽器標籤中單獨將其開啟。 當與可能沒有資源區域的直接存取許可權的使用者共用資源規劃工具資訊時，這會很有幫助。
@@ -72,9 +77,9 @@ Adobe Workfront可以為資源規劃工具的使用者檢視產生唯一的URL�
   他們必須有權檢視其他使用者，才能從您與他們共用的URL檢視資源規劃工具中的資訊。
 * 當您與其他使用者共用URL時，會儲存下列資訊：
 
-   * 時間週期型別（周、月、季）。
-   * 您套用的篩選器。
-   * 顯示型別（時數或FTE）。
+  * 時間週期型別（周、月、季）。
+  * 您套用的篩選器。
+  * 顯示型別（時數或FTE）。
 
 若要在資源規劃工具的使用者檢視中取得唯一URL並與其他使用者共用：
 
@@ -112,11 +117,11 @@ Adobe Workfront可以為資源規劃工具的使用者檢視產生唯一的URL�
      </MadCap:conditionalText>   
      -->
 
-      1. 移至&#x200B;**報告**>**儀表板**>**新儀表板**>**新增外部頁面。**
+     1. 移至&#x200B;**報告**>**儀表板**>**新儀表板**>**新增外部頁面。**
 
-      1. 在&#x200B;**URL**&#x200B;欄位中貼上您複製到剪貼簿的連結。
-      1. 按一下&#x200B;**儲存**，然後按一下&#x200B;**儲存+關閉**。\
-         這會將URL內嵌到儀表板中，並且資源規劃工具的使用者檢視會顯示在單獨的儀表板中。
+     1. 在&#x200B;**URL**&#x200B;欄位中貼上您複製到剪貼簿的連結。
+     1. 按一下&#x200B;**儲存**，然後按一下&#x200B;**儲存+關閉**。\
+        這會將URL內嵌到儀表板中，並且資源規劃工具的使用者檢視會顯示在單獨的儀表板中。
 
 1. （可選）如果您將URL內嵌到儀表板中，請考慮將其新增到版面配置範本，或與其他可能沒有資源管理區域存取權的使用者共用。\
    如需將儀表板新增到版面配置範本的相關資訊，請參閱[建立和管理版面配置範本](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) 。\

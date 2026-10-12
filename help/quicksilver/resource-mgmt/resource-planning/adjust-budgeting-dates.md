@@ -6,25 +6,29 @@ description: 如果您在資源規劃工具中編列預算之後發現資源過�
 author: Lisa
 feature: Resource Management
 exl-id: bc49d45a-73a5-4b02-9054-9c9dbb54224d
-TQID: https://experienceleague.adobe.com/GksjnlROYkPaLMrp8vMkvx8IBZ8CPy2A54KGB2GBnVs
+TQID: 'https://experienceleague.adobe.com/GksjnlROYkPaLMrp8vMkvx8IBZ8CPy2A54KGB2GBnVs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 509
+source-wordcount: '509'
 ht-degree: 5%
-
 ---
-
 # 在資源規劃工具中調整預算日期
 
 如果您在資源規劃工具中編列預算之後發現資源過度分攤，您可以將預算時數、約當全職人數或成本移至另一個時間範圍，以探索假設分析案例。 根據這些案例中的發現，您可以調整預算時數、約當全職人數或成本。
@@ -66,7 +70,7 @@ ht-degree: 5%
 
 ## 調整預算日期
 
-1. 移至[資源規劃工具]並選取[依專案檢視] **&#x200B;**。
+1. 移至[資源規劃工具]並選取[依專案檢視] ****。
 
    >[!NOTE]
    >

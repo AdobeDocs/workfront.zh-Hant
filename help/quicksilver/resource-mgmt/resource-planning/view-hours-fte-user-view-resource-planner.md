@@ -7,27 +7,33 @@ description: 在RP中使用「使用者」檢視表計畫時，在「資源供�
 author: LIsa
 feature: Resource Management
 exl-id: 6b532aa2-435f-4fda-b7ce-abe0a785638f
-TQID: https://experienceleague.adobe.com/usuiwhQ-2kexur4dNbkV1taPUhlGFlRHQfQ3OzcNUT8
+TQID: 'https://experienceleague.adobe.com/usuiwhQ-2kexur4dNbkV1taPUhlGFlRHQfQ3OzcNUT8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 1741
+source-wordcount: '1741'
 ht-degree: 1%
-
 ---
-
 # 使用使用者檢視時檢視資源規劃工具中的可用、計畫和實際時數或FTE
 
 <!--
@@ -43,8 +49,8 @@ ht-degree: 1%
 * 您可以在資源規劃工具的所有檢視中，檢視使用者、工作角色和專案的可用和計畫時數或FTE資訊。
 * 您只能在「使用者檢視」中檢視下列資訊：
 
-   * 計畫時數或約當全職人數與可用時數或約當全職人數之間的差額。 接著，您就可以根據專案和角色檢視中的這項差異，為使用者配置預算。
-   * 實際時數或FTE。
+  * 計畫時數或約當全職人數與可用時數或約當全職人數之間的差額。 接著，您就可以根據專案和角色檢視中的這項差異，為使用者配置預算。
+  * 實際時數或FTE。
 
 * 您可以在「使用者」檢視中，以數字或百分比值顯示「可用使用者」與「計畫時數」或「約當全職人數」之間的差異。
 * 您無法在使用者檢視中依成本顯示資訊。
@@ -56,14 +62,14 @@ ht-degree: 1%
 * Workfront會將實際時間填入實際小時，實際時間由指派給它們的使用者記錄到任務和問題。 這包括專案的登入時間。
 * 在「使用者」檢視中，您可以執行下列動作：
 
-   * 展開每位使用者以顯示指派該使用者的專案清單。
+  * 展開每位使用者以顯示指派該使用者的專案清單。
 
-     >[!NOTE]
-     >
-     >只有與篩選器中所包含專案相關聯的使用者才能展開。
+    >[!NOTE]
+    >
+    >只有與篩選器中所包含專案相關聯的使用者才能展開。
 
-   * 展開每個專案以顯示使用者可在這些專案中完成的工作角色清單。
-   * 展開每個角色，以顯示該角色中的使用者指派給該角色的任務清單。
+  * 展開每個專案以顯示使用者可在這些專案中完成的工作角色清單。
+  * 展開每個角色，以顯示該角色中的使用者指派給該角色的任務清單。
 
   如果使用者沒有關聯的工作角色，**無角色**&#x200B;區段中會列出他們的可用、計畫和實際時數或FTE。\
   如需有關將使用者檢視套用至資源規劃工具時顯示哪些欄位和專案的資訊，請參閱[資源規劃工具導覽概觀](../../resource-mgmt/resource-planning/resource-planner-navigation.md)中的「專案/角色/使用者檢視選擇」一節。
@@ -152,17 +158,17 @@ ht-degree: 1%
 
 * 計算每個資源的計畫時數時，會包含下列任務類別：
 
-   * 指派給資源集區、工作角色或專案團隊中使用者的任務。
+  * 指派給資源集區、工作角色或專案團隊中使用者的任務。
 
-     >[!TIP]
-     >
-     >如果任務已指派給團隊，則其配置將顯示在&#x200B;**無角色**&#x200B;和&#x200B;**無使用者**&#x200B;區段下。 您可以檢視與團隊關聯的計畫時數，但無法預算時數，因為沒有任何角色或使用者與任務相關聯。
+    >[!TIP]
+    >
+    >如果任務已指派給團隊，則其配置將顯示在&#x200B;**無角色**&#x200B;和&#x200B;**無使用者**&#x200B;區段下。 您可以檢視與團隊關聯的計畫時數，但無法預算時數，因為沒有任何角色或使用者與任務相關聯。
 
 * 資源規劃工具中的計畫時數不包含與下列專案關聯的計畫時數：
 
-   * 父系任務
-   * 未指派任務
-   * 問題，當&#x200B;**包含來自問題的時數**&#x200B;設定停用時。
+  * 父系任務
+  * 未指派任務
+  * 問題，當&#x200B;**包含來自問題的時數**&#x200B;設定停用時。
 
 * 如果任務或問題期間為零，則計畫時數未顯示在資源規劃工具。
 * 未顯示與已停用使用者相關的計畫時數。
