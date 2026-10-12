@@ -153,7 +153,7 @@ ht-degree: 0%
      * 指派給角色、團隊或未指派的工作專案（任務和問題）會在您套用篩選器後顯示。
        依預設，「未指派的工作」區域不會顯示任何工作專案。 我們建議使用篩選器在此區域顯示您的相關資訊。
 
-       如需有關使用篩選的資訊，請參閱工作負載平衡器](../workload-balancer/filter-information-workload-balancer.md)中的[篩選資訊。
+       如需有關使用篩選的資訊，請參閱工作負載平衡器[&#128279;](../workload-balancer/filter-information-workload-balancer.md)中的篩選資訊。
 
      * 工作專案下的角色指派僅在您啟用「顯示角色指派」設定時顯示。 如需詳細資訊，請參閱本文中的[自訂檢視](#customize-the-view)一節。
 
@@ -230,7 +230,7 @@ ht-degree: 0%
 
 1. （選擇性和建議性）使用「未指派工作」和「已指派工作」區域中的篩選器，僅顯示與您相關的工作專案或使用者。
 
-   如需詳細資訊，請參閱工作負載平衡器](../workload-balancer/filter-information-workload-balancer.md)中的[篩選器資訊。
+   如需詳細資訊，請參閱工作負載平衡器[&#128279;](../workload-balancer/filter-information-workload-balancer.md)中的篩選器資訊。
 
    根據預設，藍色列代表專案和任務的時間表，而栗色列代表問題。
 
@@ -347,7 +347,7 @@ ht-degree: 0%
      * 在Windows中：按住CTRL鍵並按一下任務列或問題列。
      * 在Mac中： CMD按一下任務或問題列。
 
-     如需有關在工作負載平衡器中指派工作專案給使用者的詳細資訊，請參閱在工作負載平衡器中指派工作的概述[](../workload-balancer/assign-work-in-workload-balancer.md)。
+     如需有關在工作負載平衡器中指派工作專案給使用者的詳細資訊，請參閱在工作負載平衡器中指派工作的概述[&#128279;](../workload-balancer/assign-work-in-workload-balancer.md)。
 
      >[!NOTE]
      >
@@ -462,7 +462,7 @@ ht-degree: 0%
 
    我們建議使用篩選器來只顯示對您重要的使用者。
 
-   例如，您可以考慮只顯示屬於您團隊或群組的使用者。 如需詳細資訊，請參閱工作負載平衡器](../workload-balancer/filter-information-workload-balancer.md)中的[篩選器資訊。
+   例如，您可以考慮只顯示屬於您團隊或群組的使用者。 如需詳細資訊，請參閱工作負載平衡器[&#128279;](../workload-balancer/filter-information-workload-balancer.md)中的篩選器資訊。
 
 1. （選擇性）按一下指派的工作區域中的&#x200B;**篩選器**&#x200B;圖示![篩選器圖示](assets/filter-icon.png)，然後從篩選器面板的&#x200B;**建議**&#x200B;區域選取&#x200B;**此專案的工作專案**&#x200B;選項。 預設會取消選取此篩選器。
 
@@ -478,7 +478,7 @@ ht-degree: 0%
 
    例如，您可能想要先篩選屬於您團隊或群組的使用者，然後顯示所有這些使用者。
 
-   如需有關如何建立篩選的資訊，請參閱工作負載平衡器](../workload-balancer/filter-information-workload-balancer.md)中的[篩選資訊。
+   如需有關如何建立篩選的資訊，請參閱工作負載平衡器[&#128279;](../workload-balancer/filter-information-workload-balancer.md)中的篩選資訊。
 
    >[!NOTE]
    >

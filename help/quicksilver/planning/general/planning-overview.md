@@ -84,7 +84,7 @@ the bullets repeat in the "Access needed for Planning STA" article
 
 * Workfront Planning可作為獨立產品，供貴組織使用者使用。 這讓使用者無法存取任何Workfront Workflow功能，也無法存取Planning功能。
 
-如需以獨立產品形式包含在Planning中的功能相關資訊，請參閱[開始以獨立產品形式使用Adobe Workfront Planning ](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)。
+如需以獨立產品形式包含在Planning中的功能相關資訊，請參閱[開始以獨立產品形式使用Adobe Workfront Planning &#x200B;](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)。
 
 ## Adobe Workfront規劃簡介
 
