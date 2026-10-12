@@ -6,26 +6,31 @@ description: 您可以在Adobe Workfront資源規劃工具中使用專案和角�
 author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-TQID: https://experienceleague.adobe.com/BiosJgXO3-6wZ9peIZwoj8rSKpgSSqN3hnVi8btFt88
+TQID: 'https://experienceleague.adobe.com/BiosJgXO3-6wZ9peIZwoj8rSKpgSSqN3hnVi8btFt88'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 2087
+source-wordcount: '2121'
 ht-degree: 1%
-
 ---
-
 # 使用專案和角色檢視的資源規劃工具中的預算資源
 
 <!--
@@ -130,9 +135,9 @@ ht-degree: 1%
 
    * 在&#x200B;**BDG**&#x200B;欄中，手動指定專案的預算時數、FTE或成本。 這會將專案預算時數分配給專案下的每個角色。 存在下列情況：
 
-      * 如果您指定的專案預算時數等於專案計畫時數，則角色預算時數符合角色計畫時數。
-      * 如果您指定的專案預算時數與專案計畫時數不相等，則會根據每個角色所需的計畫時數百分比來分配角色預算時數。\
-        例如，如果專案有20個計畫時數，這些時數分佈在兩個工作角色之間（顧問需要12個計畫時數，工程師需要8個計畫時數），而您為專案編列了30個小時的預算，則時數分佈如下：顧問角色接收18個預算時數，工程師角色接收12個預算時數。
+     * 如果您指定的專案預算時數等於專案計畫時數，則角色預算時數符合角色計畫時數。
+     * 如果您指定的專案預算時數與專案計畫時數不相等，則會根據每個角色所需的計畫時數百分比來分配角色預算時數。\
+       例如，如果專案有20個計畫時數，這些時數分佈在兩個工作角色之間（顧問需要12個計畫時數，工程師需要8個計畫時數），而您為專案編列了30個小時的預算，則時數分佈如下：顧問角色接收18個預算時數，工程師角色接收12個預算時數。
 
 1. 若要配置專案的預算，請執行下列任一項作業：
 
@@ -225,7 +230,7 @@ ht-degree: 1%
 
 1. 按一下「**儲存**」。\
    在資源規劃工具中編列資源預算後，資源的預算時數及與其相關聯的任何成本會列在每個專案的業務案例中。
-如需有關瞭解業務案例的資源預算編列區域的詳細資訊，請參閱文章[業務案例中的預算資源](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)。
+   如需有關瞭解業務案例的資源預算編列區域的詳細資訊，請參閱文章[業務案例中的預算資源](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)。
 
 1. （選擇性）選取&#x200B;**依使用者檢視**&#x200B;檢視，以注意每個使用者的可用和計畫時數之間是否有使用者過度配置或利用不足。 「依使用者檢視」檢視中看不到已編列預算時數。
 

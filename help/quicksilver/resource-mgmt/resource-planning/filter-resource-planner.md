@@ -6,27 +6,33 @@ description: 使用篩選條件，您可以從儲存在系統中的所有資訊�
 author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-TQID: https://experienceleague.adobe.com/VA0bJYfRCQrZECzbiBOMjDD9Rpzf4ePG4EwQlowlhyI
+TQID: 'https://experienceleague.adobe.com/VA0bJYfRCQrZECzbiBOMjDD9Rpzf4ePG4EwQlowlhyI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 2369
+source-wordcount: '2381'
 ht-degree: 1%
-
 ---
-
 # 在資源規劃工具中篩選資訊
 
 <!--
@@ -84,9 +90,9 @@ ht-degree: 1%
 * 套用篩選器不會變更專案、角色或使用者之資源規劃工具中的配置和可用性資料。 篩選器只會變更您在資源規劃工具中看到的物件數目。
 * 篩選會套用至同時顯示在「資源規劃工具」中的所有物件。 例如，如果您篩選特定使用者，「資源規劃工具」只會顯示下列結果：
 
-   * 若專案中，該使用者屬於資源集區（針對專案和角色檢視）或擁有專案指派（針對使用者檢視）
-   * 在這些專案中與使用者關聯的角色\
-     使用者關聯的專案上的其他角色或使用者不會顯示。
+  * 若專案中，該使用者屬於資源集區（針對專案和角色檢視）或擁有專案指派（針對使用者檢視）
+  * 在這些專案中與使用者關聯的角色\
+    使用者關聯的專案上的其他角色或使用者不會顯示。
 
 ## 資源規劃工具中的預設篩選器概要 {#overview-of-the-default-filter-in-the-resource-planner}
 
@@ -96,9 +102,9 @@ ht-degree: 1%
 
 * 預設篩選器只會從具有以下特性的專案擷取資訊：
 
-   * 發生在本月第一個日期之後的計畫完成日期
-   * 計劃開始日期在目前日期起第四個月的最後一天之前
-   * 目前或規劃的狀態
+  * 發生在本月第一個日期之後的計畫完成日期
+  * 計劃開始日期在目前日期起第四個月的最後一天之前
+  * 目前或規劃的狀態
 
   >[!IMPORTANT]
   >
@@ -138,7 +144,7 @@ ht-degree: 1%
 1. 在的左上角，按一下&#x200B;**篩選器**&#x200B;圖示。
    ![filter_icon.png](assets/filter-icon.png)
 或
-展開&#x200B;**篩選器**&#x200B;下拉式功能表，然後按一下&#x200B;**新增篩選器**。
+展開&#x200B;**篩選器**&#x200B;下拉式功能表並按一下&#x200B;**新增篩選器**。
    ![篩選器下拉式清單](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
 
 1. 若要使用內建條件建立篩選器，請指定下列任一欄位：

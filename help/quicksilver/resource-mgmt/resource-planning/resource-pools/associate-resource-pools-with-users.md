@@ -6,23 +6,26 @@ description: 您必須先建立資源集區，然後才能將其與使用者建�
 author: Lisa
 feature: Resource Management
 exl-id: 0816a2d6-2a45-4e01-8ca2-6d0d190b2568
-TQID: https://experienceleague.adobe.com/OQBqFxBx-VGQsWF-2yGgcZk1EO-ZQ0MAlMsSH3fiMZo
+TQID: 'https://experienceleague.adobe.com/OQBqFxBx-VGQsWF-2yGgcZk1EO-ZQ0MAlMsSH3fiMZo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6084af27550d2ad407ad6dff4a33b54039e7743b
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 440
+source-wordcount: '440'
 ht-degree: 5%
-
 ---
-
 # 將資源集區與使用者建立關聯
 
 <!--

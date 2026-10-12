@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: manage-issues
 title: 指派問題
-description: 您可以將問題指派給使用者、角色和團隊，以指出誰負責完成問題。 如需指派問題的一般資訊，請參閱修改問題指派概述。
+description: 您可以將問題指派給使用者、角色、專案團隊和工作代理，以指出誰負責完成問題。 如需指派問題的一般資訊，請參閱修改問題指派概述。
 author: Lisa
 feature: Work Management
 role: User
@@ -12,23 +12,29 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/jJLBz6MVWaSCabnj-y8FKnqtQlT5PGRfZ9KZtrgOar8
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a63738805d62e2f71d55fe39f78d1f042ff72a15
+    internal-label: Administration
+source-git-commit: 0f99c6d23daa91bfd3080ead402f60abf8b18c42
 workflow-type: tm+mt
-source-wordcount: 1367
+source-wordcount: '1380'
 ht-degree: 2%
-
 ---
-
 # 指派問題
+
+{{preview-fast-release-general}}
 
 <!--Audited: 10/2024-->
 
@@ -42,13 +48,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 </div>
 -->
 
-您可以將問題指派給使用者、角色和團隊，以指出誰負責完成問題。 如需指派問題的一般資訊，請參閱[修改問題指派的概觀](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)。
+您可以將問題指派給使用者、角色、專案團隊或工作代理程式，以指出負責完成問題的人員。 如需指派問題的一般資訊，請參閱[修改問題指派的概觀](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)。
 
 >[!TIP]
 >
->您可以指派多個使用者、工作角色或團隊。 您只能指派作用中的使用者、工作角色和團隊。
+>您可以指派多個使用者、工作角色、專案團隊或工作代理。 您只能指派作用中使用者、工作角色、專案團隊和工作代理。
 >
->如果使用者、工作角色或團隊在停用之前已被指派，則他們仍被指派給工作專案。 在此情況下，我們建議採取下列步驟：
+>如果使用者、工作角色、團隊或工作代理程式在停用之前已被指派，則它們仍會指派給工作專案。 在此情況下，我們建議採取下列步驟：
 >
 >* 將工作專案重新指派給作用中的資源。
 >* 將已停用團隊中的使用者與作用中團隊建立關聯，並將工作專案重新指派給作用中團隊。
@@ -109,9 +115,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
   如果將任務或問題指派給一個或多個角色，然後您也指派了使用者，Adobe Workfront會根據以下規則決定要將哪個工作角色與其他使用者（如果有）相關聯：
 
-   * 如果僅指派了一個工作角色，並且該工作角色與使用者的主要角色匹配，則任務或問題僅指派給履行其主要角色的使用者。
-   * 如果有指派的多個角色，且至少有一個角色符合使用者的次要角色，則會將任務或問題指派給履行其中一個其他角色（如果有多個符合專案，則Workfront會隨機選取該角色）的使用者，以及任何已指派的其他角色。
-   * 如果有指派的一或多個工作角色，但沒有匹配的使用者角色，則會將任務或問題指派給該角色或角色以及使用者。
+  * 如果僅指派了一個工作角色，並且該工作角色與使用者的主要角色匹配，則任務或問題僅指派給履行其主要角色的使用者。
+  * 如果有指派的多個角色，且至少有一個角色符合使用者的次要角色，則會將任務或問題指派給履行其中一個其他角色（如果有多個符合專案，則Workfront會隨機選取該角色）的使用者，以及任何已指派的其他角色。
+  * 如果有指派的一或多個工作角色，但沒有匹配的使用者角色，則會將任務或問題指派給該角色或角色以及使用者。
 
 * 如果將任務或問題指派給團隊且您也指派了使用者，則該任務或問題仍會同時指派給團隊和使用者。
 
@@ -143,7 +149,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. 執行下列其中一項：
 
-   * 開始輸入您要指派的使用者、角色或團隊名稱，然後當名稱出現在清單中時按一下它。
+   * 開始輸入您要指派的使用者、角色、專案團隊或工作代理程式的名稱，然後當名稱出現在清單中時按一下它。
 
      ![工作分派搜尋](assets/smart-assignments-issue-header.png)
 
@@ -192,7 +198,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
      ![已指派給欄位](assets/assigned-to-field-task-list-nwe.png)
 
-   * 按一下&#x200B;**指派**&#x200B;欄位並開始輸入您想要指派給問題的作用中使用者、工作角色或作用中團隊的名稱，然後當它顯示在清單中時按一下它。
+   * 按一下「**指派**」欄位，然後開始輸入您要指派給問題的作用中使用者、工作角色、團隊或工作代理程式的名稱，然後在清單中顯示時按一下它。
 
      ![指派欄位](assets/assignments-field-0825.png)
 

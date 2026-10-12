@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4dc9ef8ad7c6314d4c9c331ed25760ad0343d9ff
+source-git-commit: 28bc67576996051daa1e38c35e5dbe20c6aa0ebd
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1793'
 ht-degree: 0%
 ---
 # 2026年第四季管理員增強功能
@@ -23,6 +23,22 @@ ht-degree: 0%
 本頁說明2026年第四季版本管理員對預覽環境所做的增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2026年第四季版本週期目前可用的所有變更清單，請參閱[2026年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)。
+
+## 檢視使用者的僱用歷史記錄
+
+>[!NOTE]
+>
+>預覽： 2026年10月1日
+>生產快速發行： 2026年10月14日
+>適用於所有人的生產： 2026年10月15日
+
+為了協助您追蹤使用者的工作角色、代理、成本中心和計費率在一段時間內的變化，我們新增了「僱用歷史記錄」。
+
+僱用歷史記錄會顯示一或多個使用者的這些詳細資訊的時間順序檢視。 每一行代表一組特定的值和套用這些值的日期範圍。
+
+您可以檢視多個使用者的僱用歷史記錄，或檢視單一使用者的完整歷史記錄。 從任一檢視中，您可以篩選結果、自訂顯示哪些欄，以及將資料匯出為CSV或XLSX檔案。
+
+如需詳細資訊，請參閱[檢視使用者僱用歷史記錄](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-employment-history.md)。
 
 ## 使用AI產生自訂本地化
 

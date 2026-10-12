@@ -7,28 +7,35 @@ description: 與任務、問題或專案相關的計畫時數代表指派的使�
 author: Alina
 feature: Work Management
 exl-id: 0b86c760-691a-436e-9beb-31e9ac36440a
-TQID: https://experienceleague.adobe.com/L8Z7JFYj68n3f5ErCcj43KszgDbB3bKAsVCutD-oMow
+TQID: 'https://experienceleague.adobe.com/L8Z7JFYj68n3f5ErCcj43KszgDbB3bKAsVCutD-oMow'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 2815
+source-wordcount: '2815'
 ht-degree: 0%
-
 ---
-
 # 計畫時數概觀
 
 <!-- Audited: 01/2024 -->

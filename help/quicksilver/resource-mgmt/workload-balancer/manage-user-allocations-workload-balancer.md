@@ -8,25 +8,29 @@ feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-TQID: https://experienceleague.adobe.com/XyWVRXfAEOZppXJVTWL4jFX9UoB2s1uzXEebHrlY0xw
+TQID: 'https://experienceleague.adobe.com/XyWVRXfAEOZppXJVTWL4jFX9UoB2s1uzXEebHrlY0xw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 2839
+source-wordcount: '2870'
 ht-degree: 0%
-
 ---
-
 # 在工作負載平衡器中管理使用者配置
 
 <!-- Audited: 01/2024 -->
@@ -88,7 +92,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->工作負載平衡器只顯示專案期間的<!--up to 1000 Planned Hours per work item per user, and-->至1000天。達到1000天的限制後，工作負載平衡器中的配置顯示為零。我們建議將任務劃分到持續時間超過1000天的較小子任務中。
+>工作負載平衡器只顯示專案期間的<!--up to 1000 Planned Hours per work item per user, and-->至1000天。 達到1000天的限制後，工作負載平衡器中的配置顯示為零。 我們建議將任務劃分到持續時間超過1000天的較小子任務中。
 <!--to accommodate a larger number of Planned Hours or-->
 
 為工作負載平衡器中的任務或問題找到每日、每週或每月分配時，請考慮以下事項：
@@ -105,7 +109,7 @@ ht-degree: 0%
 
   >[!INFO]
   >
-  > 例如，任務的期間可能是2天和2個計畫小時，其計劃開始時間為期間第一天晚上12:00，而專案排程在下午5點結束。 使用者第一天的容量為5小時。 第二天的使用者容量為8小時（如果排程從上午9點開始）。
+  > 例如，任務的工期可能為2天且計畫時間為2小時，其計劃開始時間為工期第一天下午12:00，使用者與專案排程於下午5點結束。 使用者第一天的容量為5小時。 第二天的使用者容量為8小時（如果排程從上午9點開始）。
   >
   >Workfront會使用下列公式，計算工期2天內2小時的分配：
   >
@@ -127,15 +131,15 @@ ht-degree: 0%
   >
   >如果在將使用者指派給工作專案後標籤休假，您必須重新計算專案的時間表以顯示移動的分配。 如需詳細資訊，請參閱[重新計算專案時間表](../../manage-work/projects/manage-projects/recalculate-project-timeline.md)。
 
-   * 當多個使用者被指派到一個任務且主要受指派人已排程休假時，時間軸會移動（如果日期未固定），並且所有受指派人的計畫時數會重新分配到任務的新期間中。 如果任務有固定日期，則時間表不會因休假而變更，並且小時數會在剩餘天數之間重新分配。
-   * 如果手動進行分配，則在休假後不會重新分配計畫時數。
+  * 當多個使用者被指派到一個任務且主要受指派人已排程休假時，時間軸會移動（如果日期未固定），並且所有受指派人的計畫時數會重新分配到任務的新期間中。 如果任務有固定日期，則時間表不會因休假而變更，並且小時數會在剩餘天數之間重新分配。
+  * 如果手動進行分配，則在休假後不會重新分配計畫時數。
 
 * 如果有多個使用者被指派到任務，則計畫時數的數量會先平均分配給每個使用者，然後平均分配給任務期間內的每一天。 此分配會成為每個使用者對任務的配置。
 
   例如，可能有下列情況：
 
-   * 對於持續時間為2天且指派給一位使用者的10個計畫時數的任務，使用者的每日分配預設為每天5小時。
-   * 對於持續期間2天且將10個計畫時數指派給兩名使用者的任務，每個使用者的每日配置預設為每日2.5小時。
+  * 對於持續時間為2天且指派給一位使用者的10個計畫時數的任務，使用者的每日分配預設為每天5小時。
+  * 對於持續期間2天且將10個計畫時數指派給兩名使用者的任務，每個使用者的每日配置預設為每日2.5小時。
 
 * 如果任務或問題在計畫完成日期之前完成，則剩餘天數的分配時數會被刪除，且不計入使用者的整體分配。 只有在同時啟用顯示配置圖示與顯示預計日期設定時，才會顯示此圖示。 如需有關在工作負載平衡器中啟用設定的詳細資訊，請參閱[瀏覽工作負載平衡器](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
@@ -285,8 +289,8 @@ ht-degree: 0%
 
 * 您擁有從工作負載平衡器管理計畫時數的正確許可權和存取權。 這些功能包括：
 
-   * 管理任務的許可權。
-   * 更新計畫時數（在存取層級的「資源管理」區域的工作負載平衡器存取）。
+  * 管理任務的許可權。
+  * 更新計畫時數（在存取層級的「資源管理」區域的工作負載平衡器存取）。
 
   如需有關使用工作負載平衡器所需存取權的詳細資訊，請參閱本文中的[存取需求](#access-requirements)一節。
 

@@ -6,25 +6,29 @@ description: 您可以在Adobe Workfront資源規劃工具中使用成本值（�
 author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-TQID: https://experienceleague.adobe.com/k8gK4CEKv7EatW5tFiS0ebNDQXfryINmjGi-hZVP2d4
+TQID: 'https://experienceleague.adobe.com/k8gK4CEKv7EatW5tFiS0ebNDQXfryINmjGi-hZVP2d4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 1416
+source-wordcount: '1416'
 ht-degree: 1%
-
 ---
-
 # 在資源規劃工具中計算成本
 
 <!--
@@ -145,10 +149,10 @@ ht-degree: 1%
 * 任務的指派型別。\
   您可以讓任務保持未指派狀態，或將下列實體指派給任務：
 
-   * 使用者（無論是否擁有工作角色）
-   * 角色
-   * 團隊\
-     從資源規劃工具的角度來看，指派給團隊的任務會視為未指派。
+  * 使用者（無論是否擁有工作角色）
+  * 角色
+  * 團隊\
+    從資源規劃工具的角度來看，指派給團隊的任務會視為未指派。
 
 * 專案上任務的&#x200B;**成本型別**。\
   如需有關任務的成本型別的詳細資訊，請參閱[追蹤成本](../../manage-work/projects/project-finances/track-costs.md)。
@@ -165,99 +169,99 @@ ht-degree: 1%
 
 * 當&#x200B;**成本型別**&#x200B;為&#x200B;**使用者小時**，且任務上有&#x200B;**無指派**&#x200B;時：
 
-   * **角色和使用者計畫成本**：
+  * **角色和使用者計畫成本**：
 
-     角色和使用者計畫成本為$0.00。
+    角色和使用者計畫成本為$0.00。
 
-   * **專案計畫成本**：
+  * **專案計畫成本**：
 
-     專案計畫成本為$0.00。
+    專案計畫成本為$0.00。
 
 * 當&#x200B;**成本型別**&#x200B;為&#x200B;**使用者小時**，且任務中有&#x200B;**使用者指派**&#x200B;時：
 
-   * **角色和使用者計畫成本**：
+  * **角色和使用者計畫成本**：
 
-     「使用者計畫成本」使用下列公式計算：
+    「使用者計畫成本」使用下列公式計算：
 
-     `User Planned Cost Rate = User Planned Hours * User Cost per Hour Rate`
+    `User Planned Cost Rate = User Planned Hours * User Cost per Hour Rate`
 
-     如果使用者在其設定檔中有成本費率，則會使用該費率來計算計畫成本。 否則，會使用其主要角色的系統層級每小時成本費率。
+    如果使用者在其設定檔中有成本費率，則會使用該費率來計算計畫成本。 否則，會使用其主要角色的系統層級每小時成本費率。
 
-     >[!NOTE]
-     >
-     >您可以將使用者指派給具有其中一個次要工作角色的任務，但此處會改用主要工作角色的速率。
+    >[!NOTE]
+    >
+    >您可以將使用者指派給具有其中一個次要工作角色的任務，但此處會改用主要工作角色的速率。
 
-     角色計畫成本使用下列公式計算：
+    角色計畫成本使用下列公式計算：
 
-     `Role Planned Cost = SUM(User Planned Cost)`
+    `Role Planned Cost = SUM(User Planned Cost)`
 
-   * **專案計畫成本**：
+  * **專案計畫成本**：
 
-     專案計畫成本為$0.00。
+    專案計畫成本為$0.00。
 
 * 當&#x200B;**成本型別**&#x200B;為&#x200B;**使用者小時**，且任務上有&#x200B;**工作角色指派**&#x200B;時：
 
-   * **角色和使用者計畫成本**：
+  * **角色和使用者計畫成本**：
 
-     使用者計畫成本為$0.00。
+    使用者計畫成本為$0.00。
 
-     角色計畫成本使用下列公式計算：
+    角色計畫成本使用下列公式計算：
 
-     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
+    `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
-     系統會使用指派給任務之工作角色的系統層級每小時成本費率來計算計畫成本。
+    系統會使用指派給任務之工作角色的系統層級每小時成本費率來計算計畫成本。
 
-   * **專案計畫成本**：
+  * **專案計畫成本**：
 
-     專案計畫成本為$0.00。
+    專案計畫成本為$0.00。
 
 * 當&#x200B;**成本型別**&#x200B;為&#x200B;**每小時**&#x200B;角色，且任務上有&#x200B;**無指派**&#x200B;時：
 
-   * **角色和使用者計畫成本**：
+  * **角色和使用者計畫成本**：
 
-     角色和使用者計畫成本為$0.00。
+    角色和使用者計畫成本為$0.00。
 
-   * **專案計畫成本**：
+  * **專案計畫成本**：
 
-     專案計畫成本為$0.00。
+    專案計畫成本為$0.00。
 
 * 當&#x200B;**成本型別**&#x200B;為&#x200B;**每小時**&#x200B;角色，且任務上有&#x200B;**使用者指派**&#x200B;時：
 
-   * **角色和使用者計畫成本**：
+  * **角色和使用者計畫成本**：
 
-     使用者計畫成本為$0.00。
+    使用者計畫成本為$0.00。
 
-     角色計畫成本的計算公式如下：
+    角色計畫成本的計算公式如下：
 
-     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
+    `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
-     Workfront會檢視使用者在任務上所履行的工作角色，以計算該角色的計畫成本。
+    Workfront會檢視使用者在任務上所履行的工作角色，以計算該角色的計畫成本。
 
-     如果使用者未與任務上的任何角色相關聯，則計畫成本為$0.00。
+    如果使用者未與任務上的任何角色相關聯，則計畫成本為$0.00。
 
-   * **專案計畫成本**：
+  * **專案計畫成本**：
 
-     專案計畫成本使用下列公式計算：
+    專案計畫成本使用下列公式計算：
 
-     `Project Planned Cost = SUM(Role Planned Costs)`
+    `Project Planned Cost = SUM(Role Planned Costs)`
 
 * 當&#x200B;**成本型別**&#x200B;為&#x200B;**角色每小時**，且任務上有&#x200B;**工作角色指派**&#x200B;時：
 
-   * **角色和使用者計畫成本**：
+  * **角色和使用者計畫成本**：
 
-     使用者計畫成本為$0.00。
+    使用者計畫成本為$0.00。
 
-     角色計畫成本的計算公式如下：
+    角色計畫成本的計算公式如下：
 
-     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
+    `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
-     Workfront會檢視使用者在任務上所履行的工作角色，以計算該角色的計畫成本。
+    Workfront會檢視使用者在任務上所履行的工作角色，以計算該角色的計畫成本。
 
-   * **專案計畫成本**：
+  * **專案計畫成本**：
 
-     專案計畫成本使用下列公式計算：
+    專案計畫成本使用下列公式計算：
 
-     `Project Planned Cost = SUM(Role Planned Costs)`
+    `Project Planned Cost = SUM(Role Planned Costs)`
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(table below ideal but drafted because it does not display correctly in Markdown)</p>
