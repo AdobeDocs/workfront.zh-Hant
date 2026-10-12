@@ -1,7 +1,7 @@
 ---
 title: 使用工作代理
 content-type: reference
-description: 瞭解如何使用工作代理程式、可指派給Workfront任務的AI共同作業人員。
+description: 瞭解如何使用工作代理程式、可指派給Workfront任務、問題和請求的AI共同作業人員。
 author: Becky
 feature: Work Management, Tasks
 product_v2:
@@ -16,16 +16,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: a4dfe29c0cf85f6029fd5f4398942c60bd3d6b5a
+source-git-commit: 0f99c6d23daa91bfd3080ead402f60abf8b18c42
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1085'
 ht-degree: 1%
 ---
 # 使用工作代理
 
 {{preview-fast-release-general}}
 
-工作代理是可直接指派給Workfront任務和問題的AI共同作業人員。 就像其他AI共同作業人員一樣，工作代理會在「設定」區域中設定，並像使用者一樣指派給任務。
+工作代理是可直接指派給Workfront任務、問題和請求的AI共同作業人員。 就像其他AI共同作業人員一樣，工作代理會在「設定」區域中設定，並像使用者一樣指派給工作專案。
 
 工作代理會連線到您已在Copilot Studio、Claude、Writer、<span class="preview">OpenAI或IBM中設定的代理。</span>
 
@@ -51,11 +51,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p>
+   <td><p>[！UICONTROL標準]</p>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td> 
+   <td>[！UICONTROL系統管理員]</td> 
   </tr> 
   </tbody> 
 </table>
@@ -125,13 +125,13 @@ ht-degree: 1%
 * 「工作代理程式」會指派給已指派「工作代理程式」的工作。 在這種情況下，指派的第一個工作代理程式將已開始工作，而第二個工作代理程式將不會執行任何動作。
 * 「工作代理程式」被指派給未準備好開始的任務。 （例如，如果任務具有前置任務，則前置任務尚未完成。）
 
-## 指派工作代理至工作<span class="preview">或問題</span>
+## 將工作代理指派至任務、問題或請求
 
-以指派使用者的相同方式，將工作代理指派給任務<span class="preview">或問題</span>。
+以指派使用者的相同方式將工作代理指派給任務、問題或請求。
 
 當您在可用受指派人清單中搜尋「工作代理程式」時，「工作代理程式」的名稱僅為名字。
 
-如需指示，請參閱[指派工作](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)。
+如需指示，請參閱[指派工作](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)和[管理工作和團隊要求](/help/quicksilver/people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)。
 
 >[!NOTE]
 >
