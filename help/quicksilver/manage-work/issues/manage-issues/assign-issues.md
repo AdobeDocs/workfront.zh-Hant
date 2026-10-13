@@ -27,7 +27,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0f99c6d23daa91bfd3080ead402f60abf8b18c42
+source-git-commit: c1d154d2d6ce0cedbd61c2b311ad95ddf86c48f8
 workflow-type: tm+mt
 source-wordcount: '1380'
 ht-degree: 2%
@@ -48,13 +48,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 </div>
 -->
 
-您可以將問題指派給使用者、角色、專案團隊或工作代理程式，以指出負責完成問題的人員。 如需指派問題的一般資訊，請參閱[修改問題指派的概觀](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)。
+您可以將問題指派給使用者、角色、團隊、<span class="preview">或工作代理程式</span>，以指出誰負責完成問題。 如需指派問題的一般資訊，請參閱[修改問題指派的概觀](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)。
 
 >[!TIP]
 >
->您可以指派多個使用者、工作角色、專案團隊或工作代理。 您只能指派作用中使用者、工作角色、專案團隊和工作代理。
+>您可以指派多個使用者、工作角色、團隊、<span class="preview">或工作代理程式</span>。 您只能指派作用中使用者、工作角色、團隊、<span class="preview">和工作代理程式</span>。
 >
->如果使用者、工作角色、團隊或工作代理程式在停用之前已被指派，則它們仍會指派給工作專案。 在此情況下，我們建議採取下列步驟：
+>如果使用者、工作角色、團隊、<span class="preview">或工作代理程式</span>在停用之前已指派，則仍會指派給工作專案。 在此情況下，我們建議採取下列步驟：
 >
 >* 將工作專案重新指派給作用中的資源。
 >* 將已停用團隊中的使用者與作用中團隊建立關聯，並將工作專案重新指派給作用中團隊。
@@ -149,7 +149,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. 執行下列其中一項：
 
-   * 開始輸入您要指派的使用者、角色、專案團隊或工作代理程式的名稱，然後當名稱出現在清單中時按一下它。
+   * 開始輸入您要指派的使用者、角色、團隊、<span class="preview">或工作代理程式</span>的名稱，然後當它出現在清單中時按一下它。
 
      ![工作分派搜尋](assets/smart-assignments-issue-header.png)
 
@@ -198,7 +198,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
      ![已指派給欄位](assets/assigned-to-field-task-list-nwe.png)
 
-   * 按一下「**指派**」欄位，然後開始輸入您要指派給問題的作用中使用者、工作角色、團隊或工作代理程式的名稱，然後在清單中顯示時按一下它。
+   * 按一下「**指派**」欄位，然後開始輸入您要指派給問題的作用中使用者、工作角色、團隊、<span class="preview">或工作代理程式</span>的名稱，然後當它顯示在清單中時按一下它。
 
      ![指派欄位](assets/assignments-field-0825.png)
 

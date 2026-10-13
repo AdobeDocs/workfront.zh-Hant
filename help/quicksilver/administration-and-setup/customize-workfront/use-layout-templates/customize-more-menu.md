@@ -18,9 +18,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4e0576ab13efb4bbf127722be9b71c8abb8950c9
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '376'
 ht-degree: 5%
 ---
 # 使用版面配置範本自訂「更多」選單
@@ -75,5 +75,9 @@ ht-degree: 5%
    * 按一下&#x200B;**顯示** ![顯示圖示](assets/add-secondary-nav-item.png)或&#x200B;**隱藏** ![隱藏圖示](assets/delete-secondary-nav-item.png)圖示，以顯示或隱藏左側面板中的區段。 您無法隱藏沒有&#x200B;**顯示**&#x200B;或&#x200B;**隱藏**&#x200B;圖示的專案。
 
    * 拖曳專案![移動圖示](assets/move-icon---dots.png)以變更其在左側面板上的順序。
+
+   >[!NOTE]
+   >
+   >如果您在專案、任務或問題的更多選單中隱藏&#x200B;**共用**&#x200B;選項，共用按鈕會隱藏在物件標頭中。
 
 1. 按一下「**完成**」。

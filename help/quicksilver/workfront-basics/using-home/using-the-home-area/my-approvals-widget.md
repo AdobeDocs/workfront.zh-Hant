@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 88ab250a262e9ca4a311fb1c88988a3747e6baeb
+source-git-commit: 2c62a1bacd6b2826f08e11a84f55e174cdd313c3
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 8%
+source-wordcount: '523'
+ht-degree: 7%
 ---
 # 使用我的核准Widget管理您的核准
 
@@ -162,3 +162,7 @@ ht-degree: 8%
    </table>
 
 在您做出決定後，核准會從我的核准Widget中移除。
+
+>[!NOTE]
+>
+>當專案、任務或問題標籤為「已解決」、「保留」、「已關閉」或「已取消」時，也可以從「我的核准」Widget中移除工作核准。

@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b449628309a82d7880612ea60dd5ee7de7f37e03
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '772'
 ht-degree: 2%
 ---
 # 檢視核准
@@ -97,7 +97,8 @@ ht-degree: 2%
 
   * 所有等待您核准的專案、任務、問題、時程表、檔案、存取權和<span class="preview">Workfront計畫請求</span>都會顯示在首頁區域的我的核准Widget中。
   * 當您選擇我已提交的核准篩選選項時，您自己提交的核准也會顯示在首頁區域的我的核准Widget中。 如需詳細資訊，請參閱本文中[首頁]區域[&#128279;](#review-work-you-submit-for-approval-in-the-home-area)一節中的檢閱您提交核准的工作。
-  * 當關聯的專案、任務或問題標示為「已解決」、「保留」、「已關閉」或「已取消」時，核准會從「首頁」區域的「我的核准」小工具中移除。
+  * 當專案、任務或問題標籤為「已解決」、「保留」、「已關閉」或「已取消」時，工作核准會從「我的核准」Widget中移除。
+  * 當檔案或校訂工作流程完成或刪除時，整合檔案和校訂核准會從我的核准Widget中移除。
 
   如需有關使用首頁的資訊，請參閱[開始使用首頁](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)。
 
