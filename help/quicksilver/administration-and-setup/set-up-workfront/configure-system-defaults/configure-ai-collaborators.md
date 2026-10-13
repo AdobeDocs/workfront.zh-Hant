@@ -17,10 +17,10 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3cf7495f827156fabac1214b38a104ed826d558c
+source-git-commit: 4a27006cc4989fb1fed0eed5d7a4cef3a69af1d4
 workflow-type: tm+mt
-source-wordcount: '1577'
-ht-degree: 1%
+source-wordcount: '1347'
+ht-degree: 2%
 ---
 # 設定AI共同作業人員
 
@@ -36,7 +36,7 @@ AI共同作業人員是將AI代理程式帶入您的專案、任務和問題的�
 
   如需詳細資訊，請參閱[開始使用Workfront AI檢閱者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)。
 
-* 工作代理：使用標準AI平台（如Claude、OpenAI、Copilot或Writer）建立共同作業人員，然後將共同作業人員指派給任務或問題以完成工作專案。
+* 工作代理：使用標準AI平台（如Claude、OpenAI或Copilot）建立共同作業人員，然後將共同作業人員指派給任務或問題以完成工作專案。
 
   如需詳細資訊，請參閱[使用工作代理](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md)。
 
@@ -61,11 +61,11 @@ AI共同作業人員是將AI代理程式帶入您的專案、任務和問題的�
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p>
+   <td><p>[！UICONTROL標準]</p>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員] <span class="preview">或群組管理員</span></td> 
+   <td>[！UICONTROL系統管理員] <span class="preview">或群組管理員</span></td> 
   </tr> 
   </tbody> 
 </table>
@@ -93,7 +93,7 @@ AI共同作業人員是將AI代理程式帶入您的專案、任務和問題的�
 
 ### 工作代理程式
 
-您必須先在Claude、Copilot Studio、Writer、OpenAI或IBM中設定代理程式，才能將其用作Work Agent。
+您必須先在Claude、Copilot Studio、OpenAI或IBM中設定代理程式，才能將其用作Work Agent。
 
 >[!NOTE]
 >
@@ -121,7 +121,7 @@ AI檢閱者可設定為使用Workfront品牌或Adobe Brand Intelligence。
 
 工作代理程式是可指派給Workfront中任務或問題的代理程式。 您可使用名稱、存取層級和其他詳細資訊來設定「工作代理程式」，並將其指派給工作，就像指派使用者一樣。
 
-因為工作代理程式是代理程式，其動作和功能會在您設定代理程式的位置進行設定。 目前，作為工作代理使用的代理可以在Copilot Studio、Claude或Writer、OpenAI和IBM中建立。
+因為工作代理程式是代理程式，其動作和功能會在您設定代理程式的位置進行設定。 目前，作為工作代理使用的代理可以在Copilot Studio、Claude、OpenAI和IBM中建立。
 
 可以將工作代理指派給任務或問題。
 
@@ -146,14 +146,13 @@ AI檢閱者可設定為使用Workfront品牌或Adobe Brand Intelligence。
    >
    ><span class="preview">如果您是群組管理員，此欄位只會顯示您是管理員的群組。 群組管理員必須選取至少一個群組。</span>
 
-1. 在&#x200B;**選擇代理程式來源**&#x200B;區域中，選取您要連線在通用平台（例如Copilot或Writer）中建立的代理程式，或使用自訂代理程式。
+1. 在&#x200B;**選擇代理程式來源**&#x200B;區域中，選取您要連線在通用平台（例如Copilot）中建立的代理程式，或使用自訂代理程式。
 1. （視條件而定）如果您使用來自通用平台的代理程式，請輸入代理程式平台的驗證詳細資訊：
 
    | 平台 | 必要的驗證 |
    |---|---|
    | Copilot Studio | 網頁管道密鑰 |
    | Claude 管理的代理 | Anthropic API金鑰<br>代理程式識別碼<br>環境識別碼 |
-   | 編寫器代理程式 | API金鑰<br>應用程式識別碼 |
    | <span class="preview">OpenAI代理程式</span> | <span class="preview">API金鑰<br>代理程式識別碼</span> |
    | <span class="preview">IBM Watsonx Orchestrate</span> | <span class="preview">服務URL<br>API金鑰<br>代理程式識別碼</span> |
 
@@ -173,7 +172,7 @@ AI檢閱者可設定為使用Workfront品牌或Adobe Brand Intelligence。
 
 您可能會發現下列最佳實務有助於在Workfront中建立要作為工作代理的代理程式。 若要檢視最佳實務，請按一下您建立代理程式之應用程式的區段。
 
-+++ 克勞德
++++ Claude
 
 1. 瀏覽至[platform.claude.com](https://platform.claude.com/)的Claude主控台。
 1. 建立API金鑰。
@@ -188,7 +187,7 @@ AI檢閱者可設定為使用Workfront品牌或Adobe Brand Intelligence。
       環境ID會顯示在左上角的環境名稱下方。
 
 1. 建立代理。
-   1. 在[受管理的代理程式] > [代理程式]下，按一下右上角的[建立代理程式] **&#x200B;**。
+   1. 在[受管理的代理程式] > [代理程式]下，按一下右上角的[建立代理程式] ****。
    1. 提供適用的名稱、型號、系統提示、技能及工具。 描述性，因為「工作代理程式」會將工作內容傳遞至此代理程式，然後執行工作。
       代理程式ID會顯示在左上角的代理程式名稱下方。
 
@@ -209,25 +208,38 @@ AI檢閱者可設定為使用Workfront品牌或Adobe Brand Intelligence。
 -->
 +++ 作者
 
+
+
+>[!IMPORTANT]
+>
+>Writer已棄用代理程式。 使用Writer代理程式設定的工作代理程式在10月9日之後不再運作。 2026.
+>
+>如需有關棄用的資訊，請參閱Writer檔案中的[代理程式庫移轉與棄用](https://support.writer.com/articles/8335689949-migrating-no-code-agents)。
+
+
+<!--
+
 >[!NOTE]
 >
-> 您可以使用Writer代理程式作為Work Agent，但Writer教戰手冊不能用作Work Agent。
+> You can use a Writer agent as a Work Agent, but Writer playbooks cannot be used as Work Agents.
 
-建立代理程式以用作Writer中的工作代理程式時，我們建議使用下列工作流程。
+When creating an agent for use as a Work Agent in Writer, we recommend the following workflow.
 
-有關建立代理程式的詳細資訊，請參閱[Writer檔案](https://dev.writer.com/no-code/introduction)。
+More detailed information about creating agents can be found in the [Writer documentation](https://dev.writer.com/no-code/introduction).
 
-1. 在Writer AI Studio中建立無程式碼應用程式。
-1. 新增單一文字輸入欄位。 您可以使用預設名稱「文字輸入」。
-1. 將`@TextInput`新增至您的提示。 在應用程式設定的提示區段中，確認您的提示範本參考了輸入變數。 若沒有此專案，模型就不會看到任務資料。
-1. 調整您的提示以立即產生輸出。 移除在回應之前要求使用者澄清或其他內容的任何指示。 例如：「當您收到輸入時，將其視為內容產生請求，並立即產生輸出。 請勿要求澄清。」
-1. 複製您的API金鑰和應用程式ID。 您需要在Workfront中設定工作代理程式。
+1. Create a no-code app in Writer AI Studio. 
+1. Add a single Text input field. You can use the default name "Text input."
+1. Add `@TextInput` to your Prompt. In the Prompts section of your app configuration, make sure your prompt template references the input variable. Without this, the model never sees the task data.
+1. Adjust your Prompt to generate output immediately. Remove any instructions that ask the user for clarification or additional context before responding. For example: "When you receive input, treat it as a content generation request and produce the output immediately. Do not ask for clarification."
+1. Copy your API key and Application ID. You will need them to configure the Work Agent in Workfront.
 
-   * 如需在Writer中設定API金鑰的指示，請參閱Writer檔案中的[快速入門](https://dev.writer.com/home/quickstart)。
-   * 如需在Writer中設定應用程式ID的說明，請參閱Writer檔案中的[透過API叫用無程式碼代理程式](https://dev.writer.com/home/applications)。
+   * For instructions on setting up an API key in Writer, see [Quickstart](https://dev.writer.com/home/quickstart) in the Writer documentation.
+   * For instructions on setting up an application ID in Writer, see [Invoke no-code agents via the API](https://dev.writer.com/home/applications) in the Writer documentation.
+ 
+1. Configure the Work Agent in Workfront. As part of the configuration, enter your API key and Application ID, then click **Test connection** to verify.
+1. Assign the Work Agent to a Workfront task. The Work Agent begins work when all of the task's predecessor tasks are complete.
 
-1. 在Workfront中設定工作代理程式。 在設定中，輸入您的API金鑰和應用程式ID，然後按一下[測試連線] **以進行驗證。**
-1. 將工作代理指派給Workfront工作。 當任務的所有前置任務完成時，「工作代理程式」就會開始工作。
+-->
 
 +++
 
@@ -275,5 +287,5 @@ For more information on the Project Coordinator, including how to assign it to p
 {{step-1-to-setup}}
 
 1. 在左側導覽列中，按一下&#x200B;**AI共同作業人員**。
-1. （條件式）若要編輯共同作業人員，請按一下您要編輯的共同作業人員名稱，在[編輯共同作業人員]視窗中進行任何編輯，然後按一下[儲存]。**&#x200B;**
+1. （條件式）若要編輯共同作業人員，請按一下您要編輯的共同作業人員名稱，在[編輯共同作業人員]視窗中進行任何編輯，然後按一下[儲存]。****
 1. （視條件而定）若要刪除Collaborator，請在您要刪除的AI Collaborator列中按一下「刪除」圖示![「刪除」圖示](assets/delete-collaborator-icon.png)，然後按一下&#x200B;**「刪除」**。

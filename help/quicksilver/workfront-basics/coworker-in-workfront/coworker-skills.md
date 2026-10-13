@@ -1,5 +1,5 @@
 ---
-title: CX Enterprise Coworker技能
+title: CX Enterprise Coworker中的Workfront技能
 content-type: reference
 description: 瞭解Adobe Workfront中同事的可用技能。
 author: Becky
@@ -10,12 +10,12 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: d72869cb62d06b24298004ba2c9482a153b8e5f7
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '259'
 ht-degree: 5%
 ---
-# CX Enterprise Coworker技能
+# CX Enterprise Coworker中的Workfront技能
 
 {{preview-fast-release-general}}
 
