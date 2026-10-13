@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 8560eeda3684b849383dca0c1c4b729ad5b9db4d
 workflow-type: tm+mt
-source-wordcount: '1615'
+source-wordcount: '1635'
 ht-degree: 0%
 ---
 # 系統專案狀態概觀
@@ -64,7 +64,7 @@ Workfront為您的Adobe Workfront執行個體提供下列專案狀態：
   <tr> 
    <td>Planning （必要狀態）</td> 
    <td> <p>專案經理正在規劃專案的時間表、任務指派及核准。 專案經理在專案上手動設定此狀態。</p> <p><b>秘訣</p> <p> 建議您在Workfront中為新專案設定預設狀態至Planning。 身為Workfront管理員，您可以在「專案偏好設定」的「專案」區域中變更所有新專案的預設狀態。</p> <p>如需詳細資訊，請參閱<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md">設定全系統的專案偏好設定</a>。</p></td> 
-   <td> <p>專案團隊中的使用者可以在Workfront的「專案」區域中，依預設在其專案清單中檢視專案（沒有自訂篩選器）。 在專案中指派給他們的任務和問題未填入其工作清單。 首頁工作清單中僅顯示核准和接受的工作專案。</p> <p>專案處於此狀態時不會傳送任何通知。</p> <p>建議您在專案處於「計畫中」狀態時，進行所有可觸發專案時間表更新的變更，或對任務和問題指派進行任何變更。 這會將使用者收到的通知數量減到最少。</p> <p>系統不會自動計算專案的時間表。</p> </td> 
+   <td> <p>專案團隊中的使用者可以在Workfront的「專案」區域中，依預設在其專案清單中檢視專案（沒有自訂篩選器）。 在專案中指派給他們的任務和問題未填入其工作清單。 首頁工作清單中僅顯示核准和接受的工作專案。</p> <p>當專案處於「計畫」狀態時，會將一些關於指派、核准和問題活動的通知傳送給專案團隊中的使用者，而許多與時間表相關的通知則不會。</p> <p>建議您在專案處於「計畫中」狀態時，進行所有可觸發專案時間表更新的變更，或對任務和問題指派進行任何變更。 這會將使用者收到的通知數量減到最少。</p> <p>系統不會自動計算專案的時間表。</p> </td> 
   </tr> 
   <tr> 
    <td>目前（必要狀態）</td> 
