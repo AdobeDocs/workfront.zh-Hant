@@ -21,10 +21,10 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 8a1564e510b2e32b0e5dda8bf2d0e0c7547e63e2
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 2%
+source-wordcount: '362'
+ht-degree: 3%
 ---
 # 設定事件訂閱的使用者端TLS
 
@@ -84,7 +84,7 @@ server {
 }
 ```
 
-如需詳細資訊，請參閱ngx_http_ssl_module[&#128279;](https://nginx.org/en/docs/http/ngx_http_ssl_module.html)的NGiNX檔案。
+如需詳細資訊，請參閱ngx_http_ssl_module](https://nginx.org/en/docs/http/ngx_http_ssl_module.html)的[NGiNX檔案。
 
 ### Apache
 
@@ -122,11 +122,21 @@ Listen 443
 
 ## 下載憑證
 
-按一下下列連結以下載使用者端憑證。
+下載包含目前Workfront事件訂閱使用者端憑證的ZIP檔案。 這些憑證將於2027年4月25日到期。
 
-* [使用者端憑證 — 生產環境](assets/prod-ES-client-cert-oct25.crt)
-* [使用者端憑證 — 預覽環境](assets/preview-ES-client-cert-oct25.crt)
-* [使用者端憑證 — 沙箱環境](assets/sandbox-ES-client-cert-oct25.crt)
+[下載使用者端憑證](assets/event-subscription-certificates-nov02.zip)
+
+| 環境 | 憑證檔案 |
+| -- | -- |
+| 生產 | event-subs-prod-cert-nov02.crt |
+| 預覽 | event-subs-preview-cert-nov02.crt |
+| 沙箱 | event-subs-sandbox-cert-nov02.crt |
+
+<!--
+* [Client certificate - Production environment](assets/prod-ES-client-cert-oct25.crt)
+* [Client certificate - Preview environment](assets/preview-ES-client-cert-oct25.crt)
+* [Client certificate - Sandbox environment](assets/sandbox-ES-client-cert-oct25.crt)
+-->
 
 >[!NOTE]
 >
