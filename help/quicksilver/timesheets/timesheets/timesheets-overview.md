@@ -10,23 +10,28 @@ exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
 TQID: https://experienceleague.adobe.com/VJQGCqYo3FZNceECWZrbsrTNX7jnKMZnIV1N4TQo9GA
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+    internal-label: Administration
+source-git-commit: 868f8c0ad40f66244559a52bd8afd96b92bc3e54
 workflow-type: tm+mt
-source-wordcount: 525
+source-wordcount: '525'
 ht-degree: 0%
-
 ---
-
 # 時程表總覽
 
 <!-- Audited: 12/2023 -->
