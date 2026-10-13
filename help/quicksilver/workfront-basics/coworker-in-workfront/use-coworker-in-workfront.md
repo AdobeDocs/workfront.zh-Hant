@@ -10,9 +10,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '610'
 ht-degree: 3%
 ---
 # 在Workfront中使用CX Enterprise Coworker
@@ -32,7 +32,7 @@ ht-degree: 3%
 
 由於同事是較大的Adobe CX Enterprise生態系統的一部分，因此您可以使用Co-worker在其他Adobe產品中處理資訊和物件（在Workfront的右側邊欄中），也可以從Workfront跳轉到Adobe Co-worker介面。
 
-如需在Workfront外部的同事及其功能的詳細資訊，請參閱[Adobe CX Enterprise Coworker聊天總覽](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-coworker/content/chat/overview)。
+如需在Workfront外部的同事及其功能的詳細資訊，請參閱[Adobe CX Enterprise Coworker聊天總覽](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/overview)。
 
 
 ## 存取權要求

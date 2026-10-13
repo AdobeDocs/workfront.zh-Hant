@@ -10,9 +10,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '84'
 ht-degree: 0%
 ---
 # Workfront中的CX Enterprise Coworker：文章索引
@@ -23,6 +23,6 @@ ht-degree: 0%
 
 本節包含下列文章：
 
-* [CX Enterprise Coworker概觀](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
+* [Workfront中的CX Enterprise Coworker概觀](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
 * [在Workfront中使用CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
-* [CX Enterprise Coworker技能](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
+* [CX Enterprise Coworker中的Workfront技能](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)

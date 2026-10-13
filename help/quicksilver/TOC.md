@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
 workflow-type: tm+mt
-source-wordcount: '14637'
+source-wordcount: '14642'
 ht-degree: 2%
 ---
 # Workfront 指南 {#using}
@@ -973,8 +973,8 @@ ht-degree: 2%
     * [可直接安裝的技能](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)
   * Workfront中的CX Enterprise Coworker {#coworker-in-workfront}
     * [Workfront中的CX Enterprise Coworker：文章索引](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
-    * [CX Enterprise Coworker概觀](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
-    * [CX Enterprise Coworker技能](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
+    * [Workfront中的CX Enterprise Coworker概觀](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
+    * [CX Enterprise Coworker中的Workfront技能](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
     * [在Workfront中使用CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
   * 更新工作專案並檢視更新 {#update-work-items-view-updates}
     * [更新工作專案和檢視更新：文章索引](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)

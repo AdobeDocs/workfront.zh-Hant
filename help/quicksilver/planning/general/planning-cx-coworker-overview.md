@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1090'
 ht-degree: 1%
 ---
 
@@ -107,7 +107,7 @@ Co-worker保留目前AI Assistant所做的一切，同時在新的全熒幕體�
 
 * 在您公司內的使用者可以使用同事之前，必須先為您的組織啟用同事。
 
-  如需詳細資訊，請參閱[CX Enterprise Coworker概觀](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
+  如需詳細資訊，請參閱[Workfront中的CX Enterprise Coworker概觀](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
 
 * 在Workfront為您的Workfront執行個體啟用代理程式後，Workfront主要管理員可以使用此代理程式，他們可以為您的組織啟用它。 如需詳細資訊，請參閱[設定系統偏好設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
 
@@ -128,7 +128,7 @@ Co-worker保留目前AI Assistant所做的一切，同時在新的全熒幕體�
 
 ## 目前可供同事使用的功能
 
-目前，Co-worker可在Workfront的Planning區域中使用，它使用一組技能來存取和操作Planning物件的資訊。 如需詳細資訊，請參閱[CX Enterprise Coworker技能](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)。
+目前，Co-worker可在Workfront的Planning區域中使用，它使用一組技能來存取和操作Planning物件的資訊。 如需詳細資訊，請參閱[CX Enterprise Coworker中的Workfront技能](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)。
 
 您可以使用「同事」執行下列動作：
 

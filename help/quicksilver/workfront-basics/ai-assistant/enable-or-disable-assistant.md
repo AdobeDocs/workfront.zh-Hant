@@ -22,16 +22,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '357'
 ht-degree: 5%
 ---
 # 啟用或停用AI助理
 
 >[!IMPORTANT]
 >
->從2026年9月開始，AI Assistant即將轉換成CX Enterprise Coworker，這是一個讓使用者輕鬆完成工作的對話式介面。 如需同事的資訊，請參閱[CX Enterprise Coworker概觀](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
+>從2026年9月開始，AI Assistant即將轉換成CX Enterprise Coworker，這是一個讓使用者輕鬆完成工作的對話式介面。 如需同事的資訊，請參閱[Workfront中的CX Enterprise Coworker概觀](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
 
 身為Workfront管理員，您可以控制組織中哪些使用者已啟用AI助理。 這項作業可透過存取層級來管理。
 
