@@ -26,7 +26,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d4fb6d9113cf01ba92abf627fc64e4c10c9f2302
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 3%
@@ -70,8 +70,6 @@ ht-degree: 3%
 
 +++
 
-
-
 ## 在Mac上安裝案頭校訂檢視器
 
 如果您的Adobe Workfront管理員或Workfront Proof管理員已在您的工作站上下載應用程式，並將「案頭校訂檢視器」設定為互動校訂的預設檢視器，則只要從「檔案」區域開啟互動校訂即可完成安裝。
@@ -84,7 +82,7 @@ ht-degree: 3%
    * 如果您使用預覽環境，請按一下案頭校訂檢視器的[Mac預覽下載。](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.44.pkg)
 
 1. 開啟您剛下載的檔案，開始安裝。
-1. 在出現的安裝方塊上，按一下[繼續]&#x200B;**&#x200B;**，然後按一下[安裝]&#x200B;**&#x200B;**。
+1. 在出現的安裝方塊上，按一下[繼續]****，然後按一下[安裝]****。
 
    ![00000776.png](assets/00000776-350x244.png)
 
