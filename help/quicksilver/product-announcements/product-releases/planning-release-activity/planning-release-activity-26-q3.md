@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '3103'
+source-wordcount: '3235'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 2026年第三季度發行活動
@@ -384,6 +384,17 @@ GenStudio促銷活動資訊現在顯示在AEM中內容片段的「中繼資料�
 
 如需詳細資訊，請參閱[在Adobe Workfront規劃中管理GenStudio工作區](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)。
 
+## Workfront MCP伺服器中可用的規劃功能
+
+>[!NOTE]
+>
+>* 預覽： 2026年5月28日
+>* 生產環境快速發行： 2026年6月11日
+>* 適用於所有人的生產： 2026年7月16日
+
+Workfront Planning功能現在可從Workfront MCP伺服器存取，因此團隊可以參考Planning內容，並使用新的MCP聯結器工具執行設定和核准。
+
+如需詳細資訊，請參閱[Adobe Workfront MCP伺服器工具](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)。
 
 ## 清單檢視更新
 

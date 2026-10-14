@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '665'
 ht-degree: 0%
 ---
 # 2026年第二季度管理員增強功能
@@ -81,7 +81,7 @@ ht-degree: 0%
 * 「自訂季度」區段會新增至「設定」左側面板。 功能保持不變。 
 * 「自訂季度」區段已從群組的專案偏好設定區段中移除。 群組管理員無法再檢視自訂季度設定。 
 
-如需詳細資訊，請參閱[啟用自訂季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
+如需詳細資訊，請參閱[啟用自訂季度和周](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
 ## 依預設摺疊自訂表單區段
 

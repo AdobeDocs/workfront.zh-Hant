@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '1662'
 ht-degree: 1%
 ---
 # 開始使用Adobe Workfront Planning Designer
@@ -274,7 +274,12 @@ Sargis and Ashot  said these are not required:
 
 ## 使用Planning Designer建立或更新物件
 
-除非另有指定，否則您可以使用Planning Designer、AI助理或<span class="preview">同事</span>，在Workfront Planning中建立或更新物件。
+除非另有指定，否則您可以使用Planning Designer、AI Assistant或<span class="preview">同事</span>，在Workfront Planning中建立或更新物件。
+
+>[!TIP]
+>
+>建議您先搜尋現有的工作區，再開始建立相同的工作區。 如果工作區已存在，Planning Designer可能會顯示錯誤訊息。
+
 
 1. 登入Workfront，然後按一下左上角的&#x200B;**主功能表**&#x200B;圖示![行主功能表](assets/lines-main-menu.png)，然後按一下&#x200B;**規劃**。
 
