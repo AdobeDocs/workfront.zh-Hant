@@ -26,7 +26,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d4fb6d9113cf01ba92abf627fc64e4c10c9f2302
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 3%
@@ -69,8 +69,6 @@ ht-degree: 3%
 如需有關此表格的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
 +++
-
-
 
 ## 在Mac上安裝案頭校訂檢視器
 

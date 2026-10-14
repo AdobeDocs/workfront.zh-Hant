@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 905f4417aac97d95a3e170e0ead1b067a9436617
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1651'
 ht-degree: 1%
 ---
 # 通知：關於我擁有的專案資訊
@@ -49,7 +49,7 @@ ht-degree: 1%
    <td><strong>每日</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>我擁有的一項專案進度落後</strong> </p> <p>當專案進度落後時，專案所有者會收到電子郵件通知。 當進度狀態為「[!UICONTROL 有風險]」、「[!UICONTROL 落後]」或「[!UICONTROL 延遲]」時，專案進度落後。</p> <p>最佳實務建議將此通知保持作用中。 </p> <p>擁有[!UICONTROL Review]授權的使用者不會收到通知。</p> <p>即時通知電子郵件的主旨為： <em>[!UICONTROL 專案進度變更]： &lt;專案名稱&gt;</em></p> <p> 每日摘要通知的主旨為： <em> [!UICONTROL 您擁有的專案摘要] &lt;每日摘要日期&gt; </em></p> </td> 
+   <td> <p><strong>我擁有的一項專案進度落後</strong> </p> <p>當專案進度落後時，專案所有者會收到電子郵件通知。 當進度狀態為「[!UICONTROL 有風險]」、「[!UICONTROL 落後]」或「[!UICONTROL 延遲]」時，專案進度落後。 <p>只有在專案狀態為[!UICONTROL 目前]或[!UICONTROL 規劃]時，才會傳送通知。</p> <p>最佳實務建議將此通知保持作用中。 </p> <p>擁有[!UICONTROL Review]授權的使用者不會收到通知。</p> <p>即時通知電子郵件的主旨為： <em>[!UICONTROL 專案進度變更]： &lt;專案名稱&gt;</em></p> <p> 每日摘要通知的主旨為： <em> [!UICONTROL 您擁有的專案摘要] &lt;每日摘要日期&gt; </em></p> </td> 
    <td> <p>專案名稱<br>Portfolio名稱<br>專案參考編號<br>專案進度狀態<br>專案[!UICONTROL 計劃開始日期]<br>專案[!UICONTROL 計畫完成日期]<br>專案[!UICONTROL 預計開始日期]<br>專案[!UICONTROL 預計完成日期]<br>專案完成百分比<br>專案狀態<br>專案所有者<br>*專案名稱<br>*專案參考編號number<br>*專案進度狀態<br>*每日摘要的日期<br></p> </td> 
    <td><strong>每日</strong> </td> 
   </tr> 

@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
 workflow-type: tm+mt
-source-wordcount: '2177'
+source-wordcount: '2185'
 ht-degree: 3%
 ---
 # 設定群組的任務和問題偏好設定
@@ -165,7 +165,7 @@ ht-degree: 3%
       <td> <p>本節中的設定會決定從問題轉換為任務期間會發生什麼情況：</p> 
        <ul> 
         <li><strong>保留原始問題並將其解決方案連結至任務</strong>：當您轉換問題時，在任務完成之前，它仍會被視為問題。 任務完成後，問題的狀態會自動變更為「已關閉」。</li> 
-        <li><strong>允許主要連絡人存取任務</strong>：讓主要連絡人（問題建立者）存取任務，以檢閱任務、更新並隨時瞭解其進度</li> 
+        <li><strong>允許主要連絡人存取任務</strong>：授予主要連絡人（問題建立者）檢視任務存取權，以檢閱任務、隨時瞭解其進度，並在任務的[更新]區段上發表評論。</li> 
         <li> <p><strong>允許在轉換期間變更這些設定</strong>：允許轉換問題的使用者在轉換問題至任務期間變更這些選項。</p>
         <!--
           Screenshot when possible</p>

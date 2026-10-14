@@ -30,7 +30,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
 workflow-type: tm+mt
 source-wordcount: '3232'
 ht-degree: 1%
@@ -621,6 +621,29 @@ The Quote Reply option copies the original comment to a new reply as a block quo
    A new comment box opens and the quoted reply is included in the new comment and marked as a block quote.
 
 1. Continue adding your update and click **Reply** to add the comment.
+-->
+
+<!--
+<div class="preview">
+
+## Pin comments
+
+You can pin top-level comments to the top of the Comments tab. You cannot pin replies that are part of a thread. 
+
+1. Go to an object that supports pinning comments, and click Updates in the left panel, then click the  **Comments** tab.
+
+   For information, see [Updates tab overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+
+1. Add a comment, or from an existing one, click the **More** menu ![More menu](assets/more-menu.png) to the right of the comment, click **Pin thread**. The comment and any existing replies are pinned to the top of the Comments tab. 
+
+   A new **Pinned threads** section is created at the top of the **Comments** tab. 
+
+   The number of pinned threads is listed in parentheses to the right of the section name. 
+
+1. (Optional) To unpin a thread, click the **Unpin** icon ![Unpin icon](assets/unpin-icon-comments.png) in the upper-right corner of the pinned comment. 
+
+</div>
+
 -->
 
 ## 刪除評論或回覆

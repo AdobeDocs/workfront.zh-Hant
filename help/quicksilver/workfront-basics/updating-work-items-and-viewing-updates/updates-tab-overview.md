@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 4%
@@ -147,7 +147,19 @@ Depending on what objects you access the commenting experience for, you might fi
 
 「更新」區段會在下列標籤中顯示資訊：
 
-* **註解**：顯示使用者所做的註解以及這些註解的回覆。 使用「註解」標籤來新增註解或回覆現有註解。 如需有關更新物件的資訊，請參閱[更新工作](../updating-work-items-and-viewing-updates/update-work.md)。
+* **註解**：顯示使用者所做的註解以及這些註解的回覆。 使用「註解」標籤來新增註解或回覆現有註解。
+
+  <!--
+  <div class="preview">
+
+  * **Pinned threads**: Top-level comments that are pinned display under the Pinned threads section on the Comments tab. 
+
+    You can pin threads only on the Comments tab of objects that have an Updates section. You cannot pin threads in other areas of Workfront, like Boards, or Home. 
+
+  </div>
+  -->
+
+  如需有關更新物件的資訊，請參閱[更新工作](../updating-work-items-and-viewing-updates/update-work.md)。
 * **系統活動**：顯示系統更新，這些是Workfront建立的資訊訊息，用來在物件上記錄特定事件。 例如，狀態、名稱或自訂欄位的變更會透過系統更新擷取。 您的Workfront或群組管理員可以為您的物件啟用系統更新。 對舊版評論體驗中系統活動記錄所做的任何回覆，都會以唯讀形式填入系統活動標籤中。 如需詳細資訊，請參閱[設定系統更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)。
 * **全部（唯讀）**：在一個位置同時顯示使用者註解和系統活動註解。 這是僅供檢視的標籤。 您無法在[全部]索引標籤的現有註解中回覆註解或標籤其他使用者。 若要回覆特定註解，請使用「全部」標籤到「註解」標籤的連結。 如需有關更新物件的資訊，請參閱[更新工作](../updating-work-items-and-viewing-updates/update-work.md)。
 
