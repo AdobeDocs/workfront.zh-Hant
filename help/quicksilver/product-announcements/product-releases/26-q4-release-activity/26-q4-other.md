@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: d25795f93d0ba333d79e3850fc25c7f046cc2ab1
+source-git-commit: c459d95f58469fe3fe406963645bb7c58c8b1546
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1137'
 ht-degree: 0%
 ---
 # 2026年第四季發行時間範圍內的其他增強功能
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 下列Workfront清單現在使用增強型清單格式：
 
-* 設定>電子郵件>通知>事件通知與群組詳細資訊頁面>事件通知
+* 設定>電子郵件>通知>事件通知，以及群組詳細資料頁面>事件通知(此更新已於10月14日從預覽環境中移除，將不屬於季度版本的一部分。 這些清單將在稍後更新。)
 * 設定>檔案> Experience Manager Assets
 * 專案或範本>佇列主題
 * 專案或範本>主題群組

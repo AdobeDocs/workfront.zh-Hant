@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
+source-git-commit: c61cdd05b9b7470a45b8706035992b12c5d34711
 workflow-type: tm+mt
-source-wordcount: '14642'
+source-wordcount: '14646'
 ht-degree: 2%
 ---
 # Workfront 指南 {#using}
@@ -547,6 +547,7 @@ ht-degree: 2%
       * [檢視和匯出稽核記錄](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
       * [檢視及管理變更歷史記錄](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)
       * [設定要在變更記錄中追蹤的欄位](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md)
+      * [檢視使用者僱用歷史記錄](administration-and-setup/add-users/create-and-manage-users/view-employment-history.md)
       * [檢視使用者登入資訊](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
       * [在Adobe Admin Console中管理使用者](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
       * [企業檔案概觀](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)

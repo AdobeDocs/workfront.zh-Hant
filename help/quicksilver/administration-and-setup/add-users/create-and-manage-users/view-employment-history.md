@@ -7,7 +7,7 @@ description: 您可以檢視使用者的僱用歷史記錄，包括屬性、成�
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: f0560dc380160725c12d3f222e3fe7f3d8d32d63
+source-git-commit: 4674a75b106a663b68320088c7bed22938dc2ab3
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 0%
@@ -66,6 +66,7 @@ Karen Sterling自2019年3月3日受聘以來一直擔任執行董事。 2025年1
 1. 若要篩選結果，請按一下&#x200B;**篩選**，然後輸入您要作為篩選依據的欄位、運運算元和值。 系統會自動篩選結果。
 1. 若要新增或移除欄，請按一下表格右側的「新增」圖示![「新增」圖示](assets/add-column.png)，然後按一下您想要新增的每個欄旁的加號圖示，或按一下您想要從檢視中移除的每個欄旁的減號圖示。
 1. 若要匯出僱用歷史記錄，請按一下[匯出]。**&#x200B;** 您可以將僱用歷史記錄匯出為CSV或XLSX檔案。
+
 
 
 
