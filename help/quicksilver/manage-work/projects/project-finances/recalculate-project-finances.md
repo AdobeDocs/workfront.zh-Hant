@@ -148,7 +148,7 @@ ht-degree: 1%
   如需有關變更使用者成本費率資訊的詳細資訊，請參閱[編輯使用者設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
 * 專案等級（適用於使用者）
-如需有關覆寫使用者成本費率的詳細資訊，請參閱專案層級](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md)的[覆寫使用者成本費率。
+如需有關覆寫使用者成本費率的詳細資訊，請參閱專案層級[&#128279;](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md)的覆寫使用者成本費率。
 
 當成本費率在上述任何層級變更時，您可以透過鎖定專案上記錄的時間並使用舊費率計算至帳單記錄（狀態為「已記帳」）來保留已在專案上計算的現有成本。 如需建立付費記錄的詳細資訊，請參閱[建立付費記錄](../../../manage-work/projects/project-finances/create-billing-records.md)。
 
