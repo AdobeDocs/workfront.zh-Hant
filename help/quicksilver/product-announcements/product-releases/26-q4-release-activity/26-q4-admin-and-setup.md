@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 28bc67576996051daa1e38c35e5dbe20c6aa0ebd
+source-git-commit: 6a2e4dc7e4592c3930723fb42cec92c439332074
 workflow-type: tm+mt
 source-wordcount: '1793'
 ht-degree: 0%
@@ -305,5 +305,3 @@ Workfront中的「變更歷史記錄」頁面現在會擷取統一檢閱和核�
 在「標準」存取層級上，您現在可以定義具有該層級的使用者是否應該擁有「變更記錄清單」的存取權。 **變更歷程記錄**&#x200B;選項可在存取層級的&#x200B;**允許**&#x200B;的管理存取區段中取得。
 
 如需詳細資訊，請參閱[授予使用者對特定區域的管理存取權](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)和[檢視及管理變更記錄](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)。
-
-
