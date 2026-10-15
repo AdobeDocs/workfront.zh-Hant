@@ -6,36 +6,20 @@ description: 瞭解當您的組織移至支援統一核准的Workfront版本時�
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-    internal-label: Workfront
-feature_v2:
-  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
-    internal-label: System Setup and Administration
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-    internal-label: Work management
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-    internal-label: Resource management
-subfeature_v2:
-  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
-    internal-label: Digital content and documents
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-    internal-label: Admin
-source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
+source-git-commit: 4f63b6c4f4c73bedba707aed6b02c9046f9b356c
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '396'
 ht-degree: 1%
 ---
 # 從舊版檔案核准移至整合式核准
 
-移到支援Adobe雲端儲存空間的Workfront版本，也會將您的組織從舊版檔案核准移至統一核准。 本文提供整合式核准中可以使用哪些功能的相關資訊，以及建議Workfront管理員將使用者從舊版檔案核准中移除。
+Adobe雲端儲存空間專案預設使用統一核准。 本文說明與舊版檔案核准相比，整合式核准中可用的功能。
 
 
->[!IMPORTANT]
+>[!NOTE]
 >
->當您改用支援Adobe雲端儲存空間的Workfront版本時，這項變更會套用至整個組織。 從舊版檔案核准移至統一核準時，沒有試行群組或逐步推出選項。<br>
->如需Adobe雲端儲存空間變更的詳細資訊，請參閱[在Adobe雲端儲存空間上移至Workfront](/help/quicksilver/review-and-approve-work/workfront-storage.md)。
+>「統一核准」僅適用於在Adobe雲端儲存空間上建立的新物件。 舊版Workfront儲存物件會保留其目前的核准服務。<br>
+>如需詳細資訊，請參閱[在Adobe雲端儲存空間上移至Workfront](/help/quicksilver/review-and-approve-work/workfront-storage.md)。
 
 ## 瞭解從舊版檔案核准到統一核准的變更
 
@@ -46,18 +30,18 @@ ht-degree: 1%
 | 核准階段和路徑 | 一個核准階段，沒有平行路徑 | [多個核准階段與平行稽核路徑](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) |
 | 核准範本 | 每個核准都是從頭開始設定 | 在Workfront安裝程式中提供[可重複使用的範本](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) |
 | 檢閱和標示 | 校訂檢視器 | 舊版Workfront儲存物件上的[校訂檢視器](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)，或Adobe雲端儲存物件上的[Frame.io檢視器](/help/quicksilver/review-and-approve-work/workfront-storage.md#review-and-approval-viewer) |
-| AI輔助檢閱 | 未提供 | 使用[AI檢閱者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)自動進行品牌相容性檢查 |
+| AI輔助檢閱 | 未提供 | 使用[內容檢閱者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)自動進行品牌相容性檢查 |
 | 報告 | 舊版報告 | 首頁KPI Widget和[畫布儀表板](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) |
 
 ### 進行中的核准有何變化
 
-在舊版檔案核准中建立的執行中核准，將繼續像升級前一樣運作。 但是，在升級後建立的任何新核准都將使用統一核准。
+在舊版檔案核准中建立的執行中核准仍可繼續如往常般運作。 Adobe雲端儲存體物件上的新核准使用統一核准。 舊版Workfront儲存物件上的新核准會保留這些物件已使用的核准服務。
 
 
-## 準備升級
+## 準備移動
 
 * 與一般使用者共用[開始進行統一檢閱和核准](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)文章。
-* 檢閱您現有的Workfront Fusion案例。 如果您使用含校訂的舊版檔案核准，請在貴組織升級之前，參閱[更新Workfront Fusion案例以進行統一檢閱和核准](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md)。
+* 檢閱您現有的Workfront Fusion案例。 如果您使用含校訂的舊版檔案核准，請先參閱[更新Workfront Fusion案例以進行統一檢閱和核准](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md)，然後再將團隊帶入Adobe雲端儲存空間。
 * 在畫布儀表板中設定檢閱和核准儀表板，以取代任何舊版核准報告。 如需詳細資訊，請參閱[建立稽核與核准儀表板](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)。
 
 
@@ -69,4 +53,4 @@ ht-degree: 1%
 * [使用Frame.io檢視器檢閱並核准](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)
 * [一起使用統一核准和校訂](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
 * [檔案決定狀態概觀](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-* [開始使用Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
+* [開始使用Workfront內容檢閱者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
