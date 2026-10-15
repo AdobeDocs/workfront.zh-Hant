@@ -27,9 +27,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: f3b0b9985b2056ca71ce16aa81becb4723015472
+source-git-commit: 44231a55a0431783eb63dbf7070f013e8c06d350
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '111'
 ht-degree: 0%
 ---
 # 設定及管理統一核准：文章索引
@@ -39,10 +39,8 @@ ht-degree: 0%
 * [為AI檢閱者建立和管理品牌](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
 * [建立檔案稽核或核准請求](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
 * [建立群組核准](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-grouped-approval.md)
-<!--
-* [Review a grouped approval](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/review-a-grouped-approval.md)
-* [Manage grouped approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-grouped-approvals.md)
--->
+* [檢閱群組核准](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/review-a-grouped-approval.md)
+* [管理分組的核准](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-grouped-approvals.md)
 * [將其他檢閱者或核准者新增至資產或檔案](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
 * [從資產或檔案中移除核准者或稽核者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
 * [建立資產和檔案的核准範本](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)

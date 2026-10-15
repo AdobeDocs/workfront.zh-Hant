@@ -5,9 +5,9 @@ title: 建立群組核准
 description: 您可以將多個檔案捆綁到單一核准工作流程中，以便它們一起在相同的階段中移動。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 31bba5df6f491bfd048c1005ecd5330d3321e748
+source-git-commit: 958f3a23e3947b54b576f256e277390845a3f565
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1188'
 ht-degree: 1%
 ---
 
@@ -17,7 +17,10 @@ ht-degree: 1%
 
 分組的核准會在單一核准工作流程下繫結多個檔案。 您可以使用基本和進階模式、多個階段以及具有分組核准的平行路徑，就像處理單一檔案核准一樣。
 
-群組核准僅在新的檔案區域可用，當您的組織使用Adobe雲端儲存空間時就會顯示。 如需詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+>[!IMPORTANT]
+>
+>如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的檔案區域。 群組核准僅在新的檔案區域可用。 如需Adobe雲端儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+
 
 ## 存取權要求
 

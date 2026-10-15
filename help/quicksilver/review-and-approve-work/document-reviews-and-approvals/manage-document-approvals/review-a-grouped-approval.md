@@ -2,12 +2,12 @@
 product-area: documents
 navigation-topic: approvals
 title: 檢閱群組核准
-description: 您可以從「首頁」或Frame.io檢視器中的「我的核准」Widget，檢視及決定群組核准中的所有資產。
+description: 您可以從「首頁」或Frame.io檢視器中的「我的核准」Widget，檢視和決定群組核准中的所有檔案。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 8250a95bec88df91e3422c8da7c05ac802b3cb22
+source-git-commit: 9459c6251b2576207e1766d94e6cb634f65f1f68
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '630'
 ht-degree: 3%
 ---
 
@@ -15,13 +15,15 @@ ht-degree: 3%
 
 {{highlighted-preview-article-level}}
 
-當您被指派給群組核準時，群組中的所有資產會一起出現，以便您對每個資產做出決策。 您可以一次核准或請求每個資產的變更，或單獨對每個資產做出決定。
+當您被指派給群組核準時，群組中的所有檔案都會顯示在一起，以便您對每個檔案做出決定。 您可以一次核准或請求每個檔案的變更，或單獨對每個檔案做出決定。
 
-本文介紹檢閱資產群組的特定內容。 如需進行單一決定、新增標籤以及您可以核准的其他位置的機制，請參閱[在Workfront中核准檔案](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)、[在Workfront中檢閱檔案](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)以及[使用Frame.io檢視器檢閱及核准](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)。
+如果一個或多個檔案被標籤為&#x200B;**需要工作**&#x200B;在多階段群組核准中，則群組無法前進到下一個階段，直到群組中的所有檔案都有核准的決定。 如需詳細資訊，請參閱[解決多階段群組核准中單一檔案的「需要工作」決定](#resolve-a-needs-work-decision-on-a-single-document-in-a-multi-stage-grouped-approval)。
+
+
 
 >[!IMPORTANT]
 >
->本文內容指的更新檔案核准功能僅適用於特定帳戶。 如需有關標準核准程式的資訊，請參閱[工作核准](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md)中列出的文章。
+>如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的檔案區域。 群組核准僅在新的檔案區域可用。 如需Adobe雲端儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 ## 存取權要求
 
@@ -59,7 +61,7 @@ ht-degree: 3%
 
 ## 從首頁中的我的核准Widget檢閱群組核准
 
-首頁中的我的核准Widget在單一核准下將資產分組，以便您一起對所有資產執行動作。
+首頁中的我的核准Widget會將檔案分組在單一核准下，以便您一起對所有檔案執行動作。
 
 >[!NOTE]
 >
@@ -67,30 +69,43 @@ ht-degree: 3%
 
 1. 按一下Adobe Workfront左上角的&#x200B;**首頁**&#x200B;圖示，然後尋找&#x200B;**我的核准** Widget。
 
-1. 開啟分組的核准。 群組中的所有資產都會列在一起，而群組中的專案數量則會列在頂端。
+1. 開啟分組的核准。 群組中的所有檔案都會列在一起，而群組中的專案數量則會列在頂端。
 
 1. 使用下列其中一項，做出決定：
 
-   * **標籤所有已核准的** — 一次會記錄群組中每個資產的已核准決定。
-   * **標示所有需求工作** — 一次記錄群組中每個資產的需求工作決定。
-   * **做出決定** — 對單一資產做出個別決定。 針對您要個別決定的每個資產重複此步驟。
+   * **標籤所有已核准專案**：一次記錄群組中每個檔案的已核准決定。
+   * **標示所有需求工作**：一次記錄群組中每個檔案的需求工作決定。
+   * **做出決定**：對單一檔案做出個別決定。 對要分別決定的每個檔案重複此步驟。
+
+
+   ![我的核准Widget群組核准](assets/my-approvals-group.png)
 
 ## 在Frame.io檢視器中檢閱群組核准
 
-在Frame.io檢視器中，群組中的所有資產會一起顯示，因此您可以對每個資產做出快速決策，或開啟資產以詳細檢閱。
+在Frame.io檢視器中，群組中的所有檔案會顯示在一起，因此您可以快速決定每個檔案，或開啟檔案以詳細檢閱。
 
 1. 前往您的檢閱電子郵件通知，然後按一下&#x200B;**前往檢閱**，或從[首頁]中的&#x200B;**我的核准** Widget開啟群組核准。
 
 1. 執行下列其中一項：
 
-   * 直接從群組頁面快速決定每個資產，無需開啟它。
-   * 按一下資產以開啟、新增註釋或標示，然後使用箭頭移至群組中的下一個資產。 資產計數器（例如，**1 / 2**）會顯示您在群組中的位置。
+   * 直接從群組頁面快速決定每個檔案，無需開啟它。
+   * 按一下檔案以開啟、新增註釋或標示，然後使用箭頭移至群組中的下一個檔案。 檔案計數器（例如，**1 / 2**）會顯示您在群組中的位置。
 
    如需在Frame.io檢視器中加上註解和標示的詳細資訊，請參閱[使用Frame.io檢視器檢閱並核准](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)。
 
-1. 為每個資產選擇決定：
+1. 為每個檔案選擇一個決定：
 
-   * **已核准** — 資產不需要變更，且已可供使用。
-   * **需要工作** — 資產需要變更，而且尚未準備好使用。
+   * **已核准**：檔案不需要變更，已可供使用。
+   * **需要工作**：檔案需要變更，而且尚未準備好使用。
 
    如需決定的詳細資訊，請參閱[檔案決定狀態概觀](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)。
+
+   ![frame.io檢視器群組核准](assets/frame-group-approval.png)
+
+## 其他資源
+
+本文涵蓋有關檢閱一組檔案的資訊。 如需有關對單一檔案做出決策、新增標籤等內容的資訊，請參閱
+
+* [在Workfront中核准檔案](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
+* [在Workfront中檢閱檔案](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
+* [使用Frame.io檢視器檢閱並核准](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)
