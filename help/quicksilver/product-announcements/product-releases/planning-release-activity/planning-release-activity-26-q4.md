@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
+source-git-commit: 73607215c20da53c1a7f37fc74932537fbd44392
 workflow-type: tm+mt
-source-wordcount: '3156'
+source-wordcount: '3269'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 2026年第四季發行活動
@@ -28,6 +28,36 @@ ht-degree: 0%
 本文介紹2026年第四季發行的Workfront Planning功能。
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+<!--
+
+## New Status field value and Tracking ID field for Activations records
+
+>[!NOTE]
+>
+>Preview and production: October 16, 2026
+>[!BADGE Off schedule]{type=Neutral}
+>Available only for customers with GenStudio for Performance Marketing
+
+GenStudio for Performance Marketing Activations records now include an optional Tracking ID field that stores the resolved value for each segment of a Tracking ID formula, along with any errors. A new "Generating" status choice indicates that the Tracking ID generation is in progress. The activation status returns to "Draft" when the generation finishes or fails. Existing activations are unaffected.
+
+ For information, see [Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
+
+-->
+
+## 使用Co-worker和Workfront Planning的Workfront MCP伺服器建立和管理商業規則
+
+>[!NOTE]
+>
+>預覽： 2026年10月12日
+>適用於所有人的生產： 2026年10月15日
+>[!BADGE 不在排程]{type=Neutral}內
+
+我們已為Co-worker和Workfront MCP伺服器新增管理Planning商業規則的技能。
+
+您現在可以使用「同事」或Workfront MCP來建立、列出、檢視、更新及刪除記錄型別的商業規則。 新技能也可協助您產生公式引擎接受的商業規則公式，因此您會取得較少的無效公式。
+
+如需詳細資訊，請參閱[CX Enterprise Coworker中的Workfront技能](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)或[使用Adobe Workfront MCP伺服器](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)。
 
 <!--
 

@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 650684e66eb10bf2afacd88038d06a88b3308df4
+source-git-commit: a500a7cf3f8f75f3961d6cb2e5a61599b4cd0177
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 0%
@@ -29,8 +29,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >預覽： 2026年10月1日
->生產快速發行： 2026年10月14日
->適用於所有人的生產： 2026年10月15日
+>生產快速發行： 2026年10月16日
+>適用於所有人的生產： 2026年10月16日
 
 專案範本的計費費率功能已進行多項更新。
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 費率屬性現在可套用至範本上的工作角色收費率。
 
-如需詳細資訊，請參閱專案層級[&#128279;](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)的[編輯專案範本](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md#add-more-items-to-a-template)和覆寫工作角色收費率。
+如需詳細資訊，請參閱專案層級](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)的[編輯專案範本](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md#add-more-items-to-a-template)和[覆寫工作角色收費率。
 
 ## 公司收費率的增強功能
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 >
 >預覽： 2026年9月3日
 >生產快速發行： 2026年9月17日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月16日
 
 已對公司收費率功能進行多項更新。
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 >
 >預覽： 2026年9月3日
 >生產快速發行： 2026年9月17日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月16日
 >此功能僅適用於Workflow Ultimate套件上的組織。
 
 在Workfront的各種區域（例如進階指派）中使用比率屬性作為篩選器時，現在會將其他驗證套用至父子篩選。
