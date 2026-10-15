@@ -11,10 +11,10 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 3a1a64a53cd3717840cd45d5792c1c16d2e40bde
+source-git-commit: 9bb1e7773748d9432656c0949ea37b1fcf054b0e
 workflow-type: tm+mt
-source-wordcount: '3349'
-ht-degree: 4%
+source-wordcount: '3561'
+ht-degree: 3%
 ---
 
 # Adobe Workfront MCP伺服器工具
@@ -353,13 +353,20 @@ ht-degree: 4%
 
 | 標題 | 工具名稱 | 作用 | 動作 |
 | --- | --- | --- | --- |
-| 讀取 | `read` | 以傳遞ID選取的三種模式讀取報表資料：列出您可見的控制面板、擷取單一控制面板的結構，或擷取一個Widget的完整設定。 | 讀取 |
-| 建立儀表板 | `create_dashboard` | 建立新的空白報表控制面板並傳回，當中附有開啟控制面板的連結。 | 寫入 |
-| 更新儀表板 | `update_dashboard` | 部分更新儀表板的中繼資料、提示、篩選器和每個Widget的位置。 省略的欄位將保持不變。 | 寫入 |
-| 建立Widget | `create_widget` | 在儀表板上建立Widget及其報表設定。 一個工具可處理所有三種Widget型別：圖表、KPI和表格。 | 寫入 |
-| 更新Widget | `update_widget` | 部分更新現有Widget的設定。 Widget型別是自動推斷的，因此您只會傳送您要變更的欄位。 | 寫入 |
-| 複製物件 | `copy_object` | 將整個儀表板（包括其小工具、提示和篩選器）複製到新儀表板，或複製儀表板內或儀表板的單一小工具。 | 寫入 |
-| 刪除物件 | `delete_object` | 永久刪除報表儀表板及其所有Widget，或單一Widget。 此動作無法還原。 | 寫入 |
+| 清單儀表板 | `reporting_relist_dashboards` | 列出您可見的報告儀表板。 支援`view`值`"my"`、`"shared"`、`"all"`和`"favorites"`。 僅傳回控制面板中繼資料，包括用於開啟每個控制面板的URL。 | 讀取 |
+| 取得儀表板 | `reporting_get_dashboard` | 依ID擷取畫布控制面板，包括中繼資料、配置、提示、篩選器和Widget ID。 Widget資料不會水合。 | 讀取 |
+| 取得Widget | `reporting_get_widget` | 擷取Widget Shell及其平面化的內容設定。 欄位參考會傳回為`{id, label, dataType}`，以便直接在`reporting_update_*_widget`工具中重複使用。 支援的內容型別包括表格、KPI和多系列。 | 讀取 |
+| 建立儀表板 | `reporting_create_dashboard` | 建立空的報表控制面板。 傳回完整建立的儀表板，包括其ID、標題、說明、貨幣、建立者ID、建立日期，以及空白Widget、提示和篩選集合。 | 寫入 |
+| 更新儀表板 | `reporting_update_dashboard` | 部分更新儀表板的標題、說明、貨幣、提示、篩選器和每個Widget `ignoreDashboardFilters`以及版面設定。 省略的欄位將保持不變，提示和篩選器在提供時將被完全替換。 | 寫入 |
+| 建立表格Widget | `reporting_create_table_widget` | 在儀表板上建立表格Widget及其報表設定。 傳回平面化`get_widget`圖形中建立的完整Widget。 | 寫入 |
+| 更新表格Widget | `reporting_update_table_widget` | 更新現有的表格Widget及其報表設定。 取代已儲存的表格設定，包括欄、貯體、列限制、標題、說明、條件和以使用者身分執行設定。 | 寫入 |
+| 建立KPI Widget | `reporting_create_kpi_widget` | 在儀表板上建立KPI Widget及其報表設定。 傳回平面化`get_widget`圖形中建立的完整Widget。 | 寫入 |
+| 更新KPI Widget | `reporting_update_kpi_widget` | 更新現有的KPI Widget及其報表設定。 需要`fieldId`和`aggregation`，且基礎報告已完全取代。 | 寫入 |
+| 建立圖表Widget | `reporting_create_chart_widget` | 建立圖表Widget及其報表設定。 支援的圖表型別為BAR、COLUMN、LINE和PIE，包括SIMPLE、MULTI_SERIES和棧疊變體（若支援）。 | 寫入 |
+| 更新圖表Widget | `reporting_update_chart_widget` | 更新現有的圖表Widget及其報表設定。 需要`aggregationFieldId`、`aggregationType`、`groupByFields`和`chartType`，且基礎報告已完全取代。 | 寫入 |
+| 複製Widget | `reporting_copy_widget` | 將現有Widget複製到相同儀表板或不同儀表板，複製該Widget及其報表設定。 | 寫入 |
+| 複製報告面板 | `reporting_copy_dashboard` | 將儀表板複製到新儀表板，包括其Widget和報告設定。 您可以選擇僅複製Widget的子集，並選擇是否包含提示和篩選器。 | 寫入 |
+| 刪除物件 | `reporting_delete_object` | 永久刪除報表儀表板及其所有Widget，或單一Widget。 此動作無法還原。 | 寫入 |
 
 ## 如何更新工具
 

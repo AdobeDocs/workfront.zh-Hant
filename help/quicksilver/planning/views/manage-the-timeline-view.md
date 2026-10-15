@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '5023'
+source-wordcount: '5027'
 ht-degree: 1%
 ---
 # 管理時間表檢視
@@ -225,7 +225,7 @@ Old:
    >
    >若未正確儲存自訂季度，則時間軸檢視會顯示傳統季度。
    >在「設定」區域中設定自訂季度後，時間軸檢視會顯示自訂季度，而非傳統季度。
-   >如需詳細資訊，請參閱[啟用自訂季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
+   >如需詳細資訊，請參閱[啟用自訂季度和周](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
 1. （視條件而定）如果您是Workfront管理員，請按一下&#x200B;**前往設定**&#x200B;設定您的季度。 如果沒有，請按一下[確定] **&#x200B;**，並要求Workfront管理員設定自訂季度。
 
@@ -593,7 +593,7 @@ Old:
 
 1. （條件式與選擇性）如果您是Workfront管理員，請按一下&#x200B;**使用自訂季度**&#x200B;方塊中的&#x200B;**前往設定**，前往設定區域並設定自訂季度。 設定自訂季度後，您可以在時間軸檢視中顯示它們，而非傳統季度。 如果您不是Workfront管理員，可以向管理員要求為您的組織啟用自訂季度。
 
-   如需詳細資訊，請參閱[啟用自訂季度](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
+   如需詳細資訊，請參閱[啟用自訂季度和周](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
 
    ![在時間表檢視設定內使用自訂季度警告](assets/use-custom-quarters-warning-inside-timelive-view-settings.png)
 

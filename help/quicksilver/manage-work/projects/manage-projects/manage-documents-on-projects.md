@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '2203'
+source-wordcount: '2453'
 ht-degree: 0%
 ---
 # 專案和相關物件的檔案管理概觀
@@ -138,6 +138,7 @@ Not sure we need these since this became an overview article:
 使用專案時，請考量下列事項：
 
 * 當您建立Adobe雲端儲存空間專案時，Workfront會在專案的「檔案」區段中建立一個資料夾，以便儲存檔案。 資料夾名稱與專案名稱相同。 您無法刪除或手動重新命名資料夾。 如果您變更專案名稱以符合專案的新名稱，資料夾會重新命名。
+* 當您使用Adobe雲端儲存空間重新命名專案時，檔案資料夾會自動重新命名。 但是，如果發生問題，且此時無法連線至儲存空間，則會拒絕專案和資料夾的新名稱，而舊名稱保持不變。 您可以稍後再嘗試重新命名。<!--checking with Hui on issue 29532225 about which name is flipping back - the project or the folder or both-->
 * 當您建立或將Adobe雲端儲存空間專案移動到舊版Workfront儲存空間專案組合或方案時，如果該組合或方案在新增專案之前沒有附加檔案，則該組合或方案會自動轉換為Adobe雲端儲存空間物件。
 * 您無法為Workfront雲端儲存產品組合或方案建立舊版Adobe儲存專案。
 * 當您從MS Project匯入專案時，Workfront會建立舊版Workfront儲存空間專案，即使Workfront管理員將Adobe雲端儲存空間設為您系統的預設值亦然。
@@ -150,6 +151,7 @@ Not sure we need these since this became an overview article:
 使用投資組合時，請考慮下列事項：
 
 * 當您建立Adobe雲端儲存空間產品組合時，Workfront會在產品組合的「檔案」區段中建立一個資料夾，以儲存檔案。 資料夾名稱與投資組合名稱相同。 您無法刪除或手動重新命名資料夾。 如果您變更投資組合名稱以符合投資組合的新名稱，資料夾會重新命名。
+* 當您使用Adobe雲端儲存空間重新命名產品組合時，檔案資料夾會自動重新命名。 但是，如果發生問題，且此時無法連線至儲存空間，則會同時拒絕產品組合和資料夾的新名稱，而舊名稱會保持不變。 您可以稍後再嘗試重新命名。<!--checking with Hui on issue 29532225 about which name is flipping back - the project or the folder or both-->
 
 <!--
 This is not possible anymore: 
@@ -172,6 +174,7 @@ This is not possible anymore:
 使用方案時，請考慮下列事項：
 
 * 當您建立Adobe雲端儲存空間計畫時，Workfront會在計畫的檔案區段中建立一個資料夾，以便儲存檔案。 資料夾名稱與方案的名稱相同。 您無法刪除或手動重新命名資料夾。 如果您變更方案名稱，資料夾會重新命名，以符合方案的新名稱。
+* 當您使用Adobe雲端儲存空間重新命名方案時，檔案資料夾會自動重新命名。 但是，如果發生問題，且此時無法連線至儲存空間，則程式和資料夾都會拒絕新名稱，而舊名稱會保持不變。 您可以稍後再嘗試重新命名。<!--checking with Hui on issue 29532225 about which name is flipping back - the project or the folder or both-->
 
 * 您無法將舊版Workfront儲存空間專案新增到Adobe雲端儲存空間方案。
 
@@ -191,7 +194,8 @@ This is not possible anymore:
 
 * 任務會從專案繼承儲存型別。
 * 當您將檔案上傳到Adobe雲端儲存空間專案上的任務時，Workfront會自動在任務的檔案區段中建立資料夾。 資料夾名稱與工作相同。
-* 您可以重新命名並從Adobe雲端儲存任務中刪除檔案資料夾，這也會刪除資料夾中的檔案。 將新檔案新增至任務後，資料夾會自動重新建立。 刪除的檔案不會放回資料夾。
+* 重新命名工作不會重新命名為檔案資料夾。
+* 您可以從Adobe雲端儲存空間任務中刪除檔案資料夾，這也會刪除資料夾中的檔案。 將新檔案新增至任務後，資料夾會自動重新建立。 刪除的檔案不會放回資料夾。
 * 對於Adobe雲端儲存空間專案，任務上的檔案資料夾顯示為專案自動建立的檔案資料夾的子資料夾。
 * 您無法將任務從舊版Workfront儲存空間專案複製或移動到Adobe雲端儲存空間專案。 也不可能反轉。
 * 將任務轉換為專案時有下列情況： <!--this info also duplicated in Convert tasks to projects-->
@@ -207,7 +211,8 @@ This is not possible anymore:
 
 * 從專案繼承儲存型別時發生問題。
 * 當您將檔案上傳到Adobe雲端儲存空間專案的問題時，Workfront會自動在問題的檔案區段中建立資料夾。 資料夾名稱與問題相同。
-* 您可以重新命名檔案資料夾，並從Adobe雲端儲存空間問題中刪除該檔案資料夾，這也會刪除資料夾中的檔案。 將新檔案新增到問題中後，會自動重新建立資料夾。 刪除的檔案不會放回資料夾。
+* 重新命名問題不會重新命名檔案資料夾。
+* 您可以從Adobe雲端儲存空間問題中刪除檔案資料夾，這也會刪除資料夾中的檔案。 將新檔案新增到問題中後，會自動重新建立資料夾。 刪除的檔案不會放回資料夾。
 * 對於Adobe雲端儲存空間專案，問題上的檔案資料夾顯示為專案自動建立的檔案資料夾的子資料夾。
 * 您無法將問題從舊版Workfront儲存空間專案複製或移動到Adobe雲端儲存空間專案。 也不可能反轉。
 * 將問題轉換為專案時，有下列情況： <!--this info also duplicated in Convert an issue to a project-->
@@ -227,6 +232,7 @@ This is not possible anymore:
 使用範本時，請考量下列事項：
 
 * 當您建立Adobe雲端儲存空間範本時，Workfront會在範本的「檔案」區段中建立一個資料夾，用來儲存檔案。 資料夾名稱與方案相同。 您無法刪除或手動重新命名資料夾。 如果您變更範本的名稱，資料夾會重新命名，以符合範本的新名稱。
+* 當您使用Adobe雲端儲存空間重新命名範本時，檔案資料夾會自動重新命名。 不過，如果發生問題，且目前無法連線至儲存空間，則會拒絕範本和資料夾的新名稱，而舊名稱會保持不變。 您可以稍後再嘗試重新命名。<!--checking with Hui on issue 29532225 about which name is flipping back - the project or the folder or both-->
 * 您可以使用舊版Workfront儲存空間範本來建立舊版Workfront儲存空間專案；您可以使用Adobe雲端儲存空間範本來建立Adobe雲端儲存空間專案。
 
 * 使用專案組合或方案的範本建立專案時，會出現下列情況：
@@ -244,7 +250,8 @@ This is not possible anymore:
 
 * 範本任務會繼承範本的儲存型別。
 * 當您在Adobe雲端儲存空間範本上傳檔案至範本任務時，Workfront會自動在範本任務的「檔案」區段中建立資料夾。 資料夾名稱與範本任務相同。
-* 您可以重新命名並從Adobe雲端儲存空間範本任務中刪除檔案資料夾，這也會刪除資料夾中的檔案。 將新檔案加入範本任務後，資料夾會自動重新建立。 刪除的檔案不會放回資料夾。
+* 重新命名範本任務不會重新命名檔案資料夾。
+* 您可以從Adobe雲端儲存空間範本任務中刪除檔案資料夾，這也會刪除資料夾中的檔案。 將新檔案加入範本任務後，資料夾會自動重新建立。 刪除的檔案不會放回資料夾。
 * 對於Adobe雲端儲存範本，範本任務上的檔案資料夾顯示為自動為範本建立的檔案資料夾的子資料夾。
 * 您無法將範本任務從舊版Workfront儲存體範本複製或移動到Adobe雲端儲存體範本。 也不可能反轉。
 
