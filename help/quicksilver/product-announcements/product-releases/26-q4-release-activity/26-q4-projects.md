@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: a500a7cf3f8f75f3961d6cb2e5a61599b4cd0177
+source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 >
 >預覽： 2026年7月30日
 >生產快速發行： 2026年8月13日
->適用於所有人的生產： 2026年10月16日
+>適用於所有人的生產： 2026年10月22日
 
 當範本包含財務資料時，這些欄位值會在使用者從範本建立專案時保留。 使用者必須擁有財務資料的檢視存取權，才能檢視專案詳細資訊的財務欄位。
 

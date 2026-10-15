@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: a500a7cf3f8f75f3961d6cb2e5a61599b4cd0177
+source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
 workflow-type: tm+mt
 source-wordcount: '1137'
 ht-degree: 0%
@@ -29,8 +29,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >預覽： 2026年10月1日
->生產快速發行： 2026年10月16日
->適用於所有人的生產： 2026年10月16日
+>生產快速發行： 2026年10月22日
+>適用於所有人的生產： 2026年10月22日
 
 已對增強的清單篩選器和群組進行下列變更：
 
@@ -49,8 +49,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >預覽： 2026年10月1日
->生產快速發行： 2026年10月16日
->適用於所有人的生產： 2026年10月16日
+>生產快速發行： 2026年10月22日
+>適用於所有人的生產： 2026年10月22日
 
 下列Workfront清單現在使用增強型清單格式：
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 >
 >預覽： 2026年9月3日
 >生產快速發行： 2026年9月17日
->適用於所有人的生產： 2026年10月16日
+>適用於所有人的生產： 2026年10月22日
 
 在所有增強型清單中，下列更新現已開放使用：
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 >
 >預覽： 2026年9月3日
 >生產快速發行： 2026年9月17日
->適用於所有人的生產： 2026年10月16日
+>適用於所有人的生產： 2026年10月22日
 
 下列Workfront清單現在使用增強型清單格式：
 
@@ -137,7 +137,7 @@ ht-degree: 0%
 
 Adobe Workfront會在您上傳、儲存和下載的檔案上保留C2PA中繼資料，而不修改它。
 
-如需詳細資訊，請參閱Adobe Workfront[&#128279;](/help/quicksilver/documents/c2pa-metadata-overview.md)中的C2PA中繼資料。
+如需詳細資訊，請參閱Adobe Workfront](/help/quicksilver/documents/c2pa-metadata-overview.md)中的[C2PA中繼資料。
 
 ## 左側導覽面板圖示的介面更新
 
@@ -151,7 +151,7 @@ Adobe Workfront會在您上傳、儲存和下載的檔案上保留C2PA中繼資�
 
 導覽面板位於Workfront中大部分割槽域和物件的左側，包括專案、任務和問題。
 
-如需詳細資訊，請參閱[&#x200B; Adobe Workfront中的左側導覽](/help/quicksilver/workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)。
+如需詳細資訊，請參閱[ Adobe Workfront中的左側導覽](/help/quicksilver/workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)。
 
 ## 增強型清單更新
 
@@ -159,7 +159,7 @@ Adobe Workfront會在您上傳、儲存和下載的檔案上保留C2PA中繼資�
 >
 >預覽： 2026年7月30日
 >生產快速發行： 2026年8月13日
->適用於所有人的生產： 2026年10月16日
+>適用於所有人的生產： 2026年10月22日
 
 已對增強型清單進行多項更新：
 
@@ -174,7 +174,7 @@ Adobe Workfront會在您上傳、儲存和下載的檔案上保留C2PA中繼資�
 >
 >預覽： 2026年7月30日
 >生產快速發行： 2026年8月13日
->適用於所有人的生產： 2026年10月16日
+>適用於所有人的生產： 2026年10月22日
 
 當您將滑鼠游標停留在物件的階層連結上時，您現在可以複製其名稱，並在一個動作中一起連結。 如此一來，在Slack、電子郵件或其他工具中共用物件會更快速，而且無須分別複製名稱和URL。
 
