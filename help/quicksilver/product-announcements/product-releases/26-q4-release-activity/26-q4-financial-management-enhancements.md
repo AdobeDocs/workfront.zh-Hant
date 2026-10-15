@@ -44,7 +44,7 @@ ht-degree: 0%
 
 費率屬性現在可套用至範本上的工作角色收費率。
 
-如需詳細資訊，請參閱專案層級](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)的[編輯專案範本](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md#add-more-items-to-a-template)和[覆寫工作角色收費率。
+如需詳細資訊，請參閱專案層級[&#128279;](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)的[編輯專案範本](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md#add-more-items-to-a-template)和覆寫工作角色收費率。
 
 ## 公司收費率的增強功能
 
