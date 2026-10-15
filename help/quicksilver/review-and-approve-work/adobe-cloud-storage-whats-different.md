@@ -6,16 +6,16 @@ description: 瞭解Adobe雲端儲存體物件的主要差異，包括新的檔�
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 4f63b6c4f4c73bedba707aed6b02c9046f9b356c
+source-git-commit: c6f385adb378adaa8aa8110373573315f89f2ed8
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1702'
 ht-degree: 0%
 ---
 # Adobe雲端儲存空間有何不同
 
-更新合約以包含新的統一檢閱和核准體驗後，您的環境可以包含兩種物件型別：舊版Workfront儲存空間上的物件（您目前擁有的物件）和使用Adobe雲端儲存空間建立的物件。 新的「檔案」區域、Frame.io檢視器以及此處說明的其他行為僅適用於使用Adobe雲端儲存空間的物件。
+使用Adobe雲端儲存空間時，您的環境可包含兩種物件型別：舊版Workfront儲存空間上的物件（您目前擁有的物件）和使用Adobe雲端儲存空間建立的物件。 新的「檔案」區域、Frame.io檢視器以及此處說明的其他行為僅適用於使用Adobe雲端儲存空間的物件。
 
-如需移動方向以及何時開啟，請參閱[在Adobe雲端儲存空間上移動至Workfront](/help/quicksilver/review-and-approve-work/workfront-storage.md)。
+如需移動的方向，請參閱[在Adobe雲端儲存空間上移至Workfront](/help/quicksilver/review-and-approve-work/workfront-storage.md)。
 
 ## 瞭解舊版Workfront儲存空間和Adobe雲端儲存空間
 
