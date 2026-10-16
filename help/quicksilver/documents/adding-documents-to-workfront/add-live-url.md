@@ -64,7 +64,7 @@ ht-degree: 4%
 >* 如果網站允許iFrame內嵌，則支援URL。
 >* 支援私用Web URL，但某些驗證流程可能無法運作，端視伺服器設定而定。
 >* 目前不支援Youtube和圖片URL。<br>
->如需詳細資訊，請參閱[ Frame.io](https://help.frame.io/en/articles/12893213-html-review-for-frame-io#:~:text=of%20the%20page.-,What%20types%20of%20URLs%20are%20supported%3F,-URLs%20are%20supported)支援的URL型別。
+>如需詳細資訊，請參閱[&#x200B; Frame.io](https://help.frame.io/en/articles/12893213-html-review-for-frame-io#:~:text=of%20the%20page.-,What%20types%20of%20URLs%20are%20supported%3F,-URLs%20are%20supported)支援的URL型別。
 
 
 若要新增網頁連結：
