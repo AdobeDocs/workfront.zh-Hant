@@ -18,7 +18,7 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 34b3f57d2339d13dd3b331b1c51e2bd0f9333843
+source-git-commit: b3d98796609ca5db35d11749eb0f1db39bd0feea
 workflow-type: tm+mt
 source-wordcount: '3261'
 ht-degree: 0%
@@ -66,7 +66,7 @@ GenStudio for Performance Marketing Activations records now include an optional 
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 14, 2026
+>Production fast release: October 22, 2026
 >Production for everyone: October 22, 2026
 
 The table view now shows the total number of records, with no setup required, and the count updates automatically as you apply filters, search, or change the view.
@@ -82,7 +82,7 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >[!NOTE]
 >
 >預覽： 2026年10月1日
->生產快速發行： 2026年10月14日
+>生產快速發行： 2026年10月22日
 >適用於所有人的生產： 2026年10月22日
 
 所有Planning檢視中的多值篩選器運運算元已更新為「為任何」和「不為」，而非「具有任何」和「沒有為」，為您提供更清晰、更一致的Workfront篩選器產生器措辭。
@@ -96,7 +96,7 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >[!NOTE]
 >
 >預覽： 2026年10月1日
->生產快速發行： 2026年10月14日
+>生產快速發行： 2026年10月22日
 >適用於所有人的生產： 2026年10月22日
 
 我們在表格檢視中引進了其他欄位型別的彙總。 在此增強功能之前，只有數字相關欄位會在欄底部顯示彙總。
@@ -118,7 +118,7 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >[!NOTE]
 >
 >預覽： 2026年10月1日
->生產快速發行： 2026年10月14日
+>生產快速發行： 2026年10月22日
 >適用於所有人的生產： 2026年10月22日
 
 Workspace建立者目前會指派為預設擁有者。 透過此更新，工作區管理員可從共用對話方塊將擁有權轉移給其他Standard-license使用者。
@@ -132,7 +132,7 @@ Workspace建立者目前會指派為預設擁有者。 透過此更新，工作�
 >[!NOTE]
 >
 >預覽： 2026年10月1日
->生產快速發行： 2026年10月14日
+>生產快速發行： 2026年10月22日
 >適用於所有人的生產： 2026年10月22日
 
 您現在可以在時間軸檢視中排序記錄和群組。 在此增強功能之前，此功能無法使用。
@@ -144,7 +144,7 @@ Workspace建立者目前會指派為預設擁有者。 透過此更新，工作�
 >[!NOTE]
 >
 >預覽： 2026年9月25日
->生產快速發行： 2026年10月14日
+>生產快速發行： 2026年10月22日
 >適用於所有人的生產： 2026年10月22日
 
 Workspace管理員現在可以控制對個別欄位的存取，允許特定使用者和團隊檢視、編輯或完全限制相同記錄型別中的敏感資料。
@@ -160,7 +160,7 @@ Workspace管理員現在可以控制對個別欄位的存取，允許特定使�
 >[!NOTE]
 >
 >預覽： 2026年9月25日
->生產快速發行： 2026年10月14日
+>生產快速發行： 2026年10月22日
 >適用於所有人的生產： 2026年10月22日
 
 您現在可以從新請求體驗的「請求」區域，與其他人共用Planning請求。
@@ -174,7 +174,7 @@ Workspace管理員現在可以控制對個別欄位的存取，允許特定使�
 >[!NOTE]
 >
 >預覽： 2026年9月25日
->生產快速發行： 2026年10月14日
+>生產快速發行： 2026年10月22日
 >適用於所有人的生產： 2026年10月22日
 
 Workspace管理員現在可以為每個Planning請求表單建立單階段或多階段核准流程，將一個或多個核准者或團隊指派給每個階段，並重複使用現有核准範本以加快設定。 在階段中簽署所有需要的核准者後，請求會自動前進，當請求到達其階段時，會通知每個核准者。 請求者和核准者可以追蹤請求處於哪個階段，並檢視哪些核准仍在擱置中。
@@ -186,7 +186,7 @@ Workspace管理員現在可以為每個Planning請求表單建立單階段或多
 >[!NOTE]
 >
 >預覽： 2026年9月25日
->生產快速發行： 2026年10月14日
+>生產快速發行： 2026年10月22日
 >適用於所有人的生產： 2026年10月22日
 
 您現在可以根據連線欄位值，在Planning要求表單中建立進階顯示邏輯，讓表單能適應要求者選取的專案。 建立此邏輯時，支援所有Planning欄位，包括連線欄位。
@@ -200,7 +200,7 @@ Workspace管理員現在可以為每個Planning請求表單建立單階段或多
 >[!NOTE]
 >
 >預覽： 2026年9月25日
->生產快速發行： 2026年10月14日
+>生產快速發行： 2026年10月22日
 >適用於所有人的生產： 2026年10月22日
 
 Workfront和工作區管理員現在可以在設定請求表單時，指出請求者在其請求中收到的許可權等級。
@@ -266,7 +266,7 @@ CX Enterprise Coworker Chat是一個對話式介面，用於完成工作。 以�
 >[!NOTE]
 >
 >預覽： 2026年9月17日
->生產快速發行： 2026年10月14日
+>生產快速發行： 2026年10月22日
 >適用於所有人的生產： 2026年10月22日
 
 現在即使存在一對一或一對多連線的記錄，也可以複製記錄。 複製後，使用者可以選擇將連線的記錄保留在原始記錄上，或將其連線到新記錄。 「保持原始」為預設選項。
