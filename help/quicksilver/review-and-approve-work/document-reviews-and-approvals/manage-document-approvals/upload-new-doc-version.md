@@ -30,13 +30,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
+source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 2%
 ---
 # 上傳新檔案版本並請求核准
 
+{{highlighted-preview}}
 
 如果檔案在先前的稽核中被標籤為「需要工作」，您可以將新版本上傳到原始檔案並開始另一輪核准。 上傳檔案的新版本後，先前版本即會鎖定。
 

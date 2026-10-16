@@ -5,15 +5,15 @@ title: 建立群組核准
 description: 您可以將多個檔案捆綁到單一核准工作流程中，以便它們一起在相同的階段中移動。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 958f3a23e3947b54b576f256e277390845a3f565
+source-git-commit: ccb3d004feca5373473a872b101a7acff11de77f
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1186'
 ht-degree: 1%
 ---
 
 # 建立群組核准
 
-<span class="preview">此頁面上的資訊在預覽Sandbox環境中無法使用，因為Frame.io整合在此無法使用。 此功能將於2026年10月14日和15日在生產環境中可用。</span>
+<span class="preview">此頁面上的資訊在預覽Sandbox環境中無法使用，因為Frame.io整合在此無法使用。 此功能將於2026年10月22日在生產環境中提供。</span>
 
 分組的核准會在單一核准工作流程下繫結多個檔案。 您可以使用基本和進階模式、多個階段以及具有分組核准的平行路徑，就像處理單一檔案核准一樣。
 

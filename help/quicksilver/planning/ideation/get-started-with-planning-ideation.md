@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1296'
 ht-degree: 0%
 ---
 
@@ -45,17 +45,28 @@ Adobe構思空間是Adobe由AI支援的戰略構思功能，直接內建在Workf
 
 創意力空間僅可透過Workfront Planning或Workfront主功能表存取，位於行銷活動生命週期的最前面，之後規劃、製作和交付，並直接饋送至Workfront Planning工作區，以供團隊規劃及執行其工作。
 
+創意力空間會利用Enterprise CX Coworker產生簡介，以便您稍後轉換成Planning記錄或下載為PDF。
+
 ## 產品可用性
 
 創意空間可能會有所變更的計畫發行時間表包括以下里程碑：
 
-* **已關閉的Beta：**&#x200B;於2026年7月推出，有少數客戶。
-* **開啟Beta：** （目標為2026年10月）。 這將是一種選擇加入服務，客戶必須主動開啟並設定該選項，而不是主動選擇退出。
-* **一般可用性：**&#x200B;預定在2026年下半年推出。
+* **已關閉的Beta：**&#x200B;已於2026年7月推出，適合少數客戶使用。
+* **開啟Beta：**，目標為2026年11月。 這將是一種選擇加入服務，客戶必須主動開啟並設定該選項，而不是主動選擇退出。
+* **一般可用性：**&#x200B;目標為2027年。
 
 ## 產品需求
 
-如果您的組織和您有權存取以下套件（視您何時存取創意力空間而定），則您可以存取創意力空間：
+如果您的組織和您有權存取以下產品，則可以存取創意力空間：
+
+* Adobe Workfront與Workfront Planning
+* 企業CX Coworker
+
+  >[!IMPORTANT]
+  >
+  >CX Enterprise Coworker目前不適用於保健、金融或某些具有敏感資料的其他行業的組織。 AI Assistant可供這些組織使用，但構思空間不適用於沒有CX Coworker的Workfront客戶。
+
+視您存取創意力空間的時間而定，您必須擁有下列套件的存取權：
 
 * 在Open Beta發行期間，您必須具備下列專案：
 
@@ -68,13 +79,13 @@ Adobe構思空間是Adobe由AI支援的戰略構思功能，直接內建在Workf
 
 >[!NOTE]
 >
->您只能從Adobe Workfront主功能表或Workfront Planning存取創意力空間。 您不需要個別登入即可存取創意空間。 如果您可登入Workfront，就可立即使用此功能。
+>您只能從Workfront主功能表或Workfront Planning存取創意力空間。 您不需要個別登入即可存取創意空間。 如果您可登入Workfront，就可立即使用此功能。
+
+如需有關使用創意力空間所需存取權的詳細資訊，請參閱[使用創意力空間所需的存取權](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)。
 
 <!--not required anymore: * Adobe GenStudio for Performance Marketing-->
 
 <!-- only required for closed beta, see below: * Adobe Customer Journey Analytics-->
-
-如需有關使用創意力空間所需存取權的詳細資訊，請參閱[使用創意力空間所需的存取權](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)。
 
 <!--
 No longer required or recommended, per Et:
@@ -120,20 +131,6 @@ Too much:
   * 例如，您可以在啟動無直接行銷活動歷史記錄的新產品、區段或方案時建立行銷活動。
   * 這會透過引導式構想、建議的頻道組合以及初始概念或訊息方向，產生全新的簡報。
 
-## 取得創意力空間的存取權
-
-若要存取創意力空間，您可以執行下列動作：
-
-1. 請確認您符合本文章[產品需求](#product-requirements)一節中所述的產品需求。
-1. 請連絡您的Adobe客戶代表，以表示有興趣參與「已關閉的Beta」或加入「開放Beta」等候清單。
-1. 識別您的第一個行銷活動：要重新整理的最近行銷活動，或從頭開始建立的新方案。
-
-如需有關使用創意力空間的詳細資訊，另請參閱下列文章：
-
-* [使用構思空間所需的存取許可權](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
-* [從創意空間摘要建立Planning記錄](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
-* [在構思空間建立簡報](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
-
 ## 創意力空間概觀
 
 創意力空間是合作式策略行銷創意力工具，適合品牌和產品行銷人員使用，以更快建立更強大的行銷活動，並有助於團隊協調。 這會將AI建議納入即時行銷內容（過往簡報、績效資料、對象分析、品牌指引和現有行銷活動資產），因此結果相關，而非通用。
@@ -155,9 +152,49 @@ Too much:
   * 在完成&#x200B;**之前**&#x200B;驗證。 AI產生的回應可能不準確，因此請務必檢查卡片上的&#x200B;**來源**，並在完成記錄之前確認連結的來源。
   * **將AI卡片與真實記錄混合**。 將實際記錄拖放至創意力空間。
 
-## Adobe CX Enterprise Coworker中可用的創意力空間
+## 取得創意力空間的存取權
 
-創意空間也可透過Adobe的CX Enterprise Coworker支援交談、往返模式。
+若要存取創意力空間：
+
+1. 請確認您符合本文章[產品需求](#product-requirements)一節中所述的產品需求。
+1. 請連絡您的Adobe客戶代表，以表達參與封閉Beta的興趣，或在開放Beta可用時加入它。
+1. （建議）識別您的第一個行銷活動：要重新整理的最近行銷活動，或從頭開始建立的新方案。
+
+如需有關使用創意力空間的詳細資訊，另請參閱下列文章：
+
+* [使用構思空間所需的存取許可權](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
+* [從創意空間摘要建立Planning記錄](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
+* [在構思空間建立簡報](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
+
+## 找出創意力空間
+
+在您確定有權存取設定的適當產品、套件和系統及存取層級後，您可以在Workfront的下列區域中找到「構思」空間：
+
+* 在Workfront Planning中手動新增記錄時
+
+  ![規劃中的創意力空間](assets/ideation-space-in-planning-new-record.png)
+* 在Workfront主要功能表中，透過開啟創意力空間區域
+
+  主要功能表中的![創意空間區域](assets/ideation-space-area-icon-in-main-menu.png)
+
+  >[!TIP]
+  >
+  >您無法使用版面配置範本從[主要]功能表中移除[創意空間]區域。 如果您希望使用者無法存取創意力空間，則必須在其存取層級中開啟[停用創意力空間]設定，如[使用創意力空間所需的存取權](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)中所述。
+
+## 創意力空間產生的物件
+
+您可以使用創意力空間來集思廣益，並構思出您之後可轉換為對工作流程而言重要之專案的想法。
+
+創意力空間會從內部或外部（網頁）來源取得您的所有創意和資訊，並建立簡報。 確定摘要完成之後，您可以將其匯出至下列檔案或物件：
+
+* 下列其中一種檔案格式：PDF、Word、PowerPoint、Powerpoint範本
+* Planning記錄
+
+  只有在從Workfront Planning存取創意力空間或先前將Planning記錄連線至創意力摘要時，才能將摘要匯出至Planning記錄。
+
+## 創意力空間與Adobe CX Enterprise Coworker
+
+創意力空間會使用Adobe的CX Enterprise Coworker作為提示介面。
 
 使用者可以提出後續問題，並以對話方式完善簡短，而不需要一次取得單一的結果。
 

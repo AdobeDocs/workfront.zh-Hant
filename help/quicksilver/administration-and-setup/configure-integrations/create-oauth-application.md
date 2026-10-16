@@ -33,9 +33,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0b8e9664578fcd5526d445bd19ad4fbe62834839
 workflow-type: tm+mt
-source-wordcount: '2020'
+source-wordcount: '2033'
 ht-degree: 5%
 ---
 # 建立[!DNL Workfront]整合的OAuth2應用程式
@@ -51,7 +51,7 @@ ht-degree: 5%
 >   * 2026年11月1日：您將無法再建立新的自訂OAuth2應用程式。
 >   * 2027年2月1日：現有的自訂OAuth2應用程式將不再運作。
 >
->   如需詳細資訊，請參閱[從Workfront OAuth2移轉至Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)。
+>   如需詳細資訊，請參閱[從Workfront OAuth2移轉至Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)和[Adobe Developer Console驗證總覽](https://developer.adobe.com/developer-console/docs/guides/authentication/)。
 >
 >* 在OAuth2的上下文中，「建立應用程式」是指在應用程式和伺服器（例如[!DNL Workfront]）之間建立此類存取連結的程式。
 

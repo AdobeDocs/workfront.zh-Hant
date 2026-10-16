@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: fd5df8f333ecc83ef87a753133a0ac46f04497db
+source-git-commit: 50078481f5318fd1fe1b79548ccd0f9385848c9a
 workflow-type: tm+mt
-source-wordcount: '3584'
+source-wordcount: '3579'
 ht-degree: 1%
 ---
 # 2026年第四季版本總覽
@@ -382,12 +382,12 @@ ht-degree: 1%
 -->        
          <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">將多個檔案分組為單一核准工作流程</a><p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">將多個檔案分組為單一核准工作流程</a>
                 <p>您現在可以在單一核准工作流程下將多個檔案分組，以便它們一起經過相同的階段。</p>
             </td>
             <td><p>此功能在預覽Sandbox環境中無法使用，因為在此處無法使用Frame.io整合。</p></td>
-            <td><p>2026年10月15日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>

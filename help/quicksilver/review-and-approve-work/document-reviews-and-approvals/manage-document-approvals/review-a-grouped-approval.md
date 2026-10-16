@@ -5,15 +5,15 @@ title: 檢閱群組核准
 description: 您可以從「首頁」或Frame.io檢視器中的「我的核准」Widget，檢視和決定群組核准中的所有檔案。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 9459c6251b2576207e1766d94e6cb634f65f1f68
+source-git-commit: ccb3d004feca5373473a872b101a7acff11de77f
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '662'
 ht-degree: 3%
 ---
 
 # 檢閱群組核准
 
-{{highlighted-preview-article-level}}
+<span class="preview">此頁面上的資訊在預覽Sandbox環境中無法使用，因為Frame.io整合在此無法使用。 此功能將於2026年10月22日在生產環境中提供。</span>
 
 當您被指派給群組核準時，群組中的所有檔案都會顯示在一起，以便您對每個檔案做出決定。 您可以一次核准或請求每個檔案的變更，或單獨對每個檔案做出決定。
 

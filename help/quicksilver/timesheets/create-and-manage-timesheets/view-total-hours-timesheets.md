@@ -9,23 +9,28 @@ exl-id: ff0823f2-61d0-453f-ae1c-68f0f1465d73
 TQID: https://experienceleague.adobe.com/oh6bBQz6sfxCpodHahZXtlMMuYYT-4U7-5MP6TQeuIs
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+    internal-label: Administration
+source-git-commit: 64bb9e6dba8976ba413ec9b58e926da931bba1c5
 workflow-type: tm+mt
-source-wordcount: 476
+source-wordcount: '469'
 ht-degree: 3%
-
 ---
-
 # 在時程表上檢視總時數
 
 <!--Audited: 8/2024-->
@@ -76,29 +81,27 @@ ht-degree: 3%
 
 {{step1-to-timesheets}}
 
-**時程表**&#x200B;區域隨即開啟。
+預設會顯示您有權檢視的所有時間表。
 
-![已選取一個時程表的時程表清單](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![時程表清單](assets/list-of-all-timesheets.png)
 
 1. （選用）執行下列任一項作業，更新時程表清單中的篩選器：
 
-   * 選取頁面右上角的&#x200B;**我的時程表核准**，僅檢視您核准的時程表
+   * 選取頁面右上角的&#x200B;**我的時程表核准**，僅檢視您核准的時程表，
 
      或
 
      選取&#x200B;**我的時程表**&#x200B;以僅檢視您的時程表。
 
-     這會套用我的時程表核准或我的時程表篩選器到時程表清單。
+     這會將&#x200B;**我的時程表核准**&#x200B;或&#x200B;**我的時程表**&#x200B;篩選器套用至時程表清單。
 
-     ![我的時程表篩選器按鈕在時程表清單頁面上](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
-
-   * 按一下「篩選」圖示![篩選圖示](assets/filter-nwepng.png)以套用不同的篩選，或建立新的篩選。 如需建立或更新篩選的資訊，請參閱[在Adobe Workfront中建立或編輯篩選器](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)。
+   * 按一下&#x200B;**篩選器**&#x200B;圖示![篩選器圖示](assets/filter-nwepng.png)以套用篩選器或建立新篩選器。 如需建立或更新篩選的資訊，請參閱[在Adobe Workfront中建立或編輯篩選器](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)。
 
    >[!NOTE]
    >
    >如果您的Workfront管理員或群組管理員從「設定」區域的「清單控制項」或您的「版面配置範本」中移除了這些篩選器，「我的時程表核准」和「我的時程表」選項不會顯示在時程表清單頂端或篩選器清單中。 如需詳細資訊，請參閱[使用配置範本自訂篩選器、檢視和群組](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)。
 
-1. （選擇性）按一下&#x200B;**檢視** ![檢檢視示](assets/view-icon.png)或&#x200B;**群組** ![群組圖示](assets/grouping.png)圖示，以套用不同的檢視或群組或建立新的檢視或群組。
+1. （選擇性）按一下&#x200B;**檢視** ![檢檢視示](assets/view-icon.png)或&#x200B;**群組** ![群組圖示](assets/grouping.png)圖示，以套用檢視或群組或建立新檢視或群組。
 
    如需有關建立篩選器、檢視或群組的資訊，請參閱下列文章：
 
@@ -108,7 +111,7 @@ ht-degree: 3%
 
 1. 每個時程表的總時數會顯示在&#x200B;**總時數**&#x200B;欄中。
 
-   ![總時數欄](assets/total-hours-column-highlighted-all-timesheets-list-nwe-350x120.png)
+   ![總時數欄](assets/total-hours-column.png)
 
    >[!TIP]
    >

@@ -26,9 +26,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '668'
 ht-degree: 3%
 ---
 # 使用Frame.io檢視器檢閱並核准
@@ -82,6 +82,7 @@ ht-degree: 3%
 ## 先決條件
 
 * 您必須在Workfront執行個體中設定Workfront和Frame.io整合。 如需詳細資訊，請參閱[整合式檢閱與核准總覽](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements)。
+* 若要檢閱網頁連結檔案，您必須安裝[Frame.io Chrome擴充功能](https://chromewebstore.google.com/detail/frameio/ppppcfnokinhahidobbfppdahipiejen)。 如果未安裝，當您第一次在Workfront中開啟網頁連結檔案的Frame.io檢視器時，系統會提示您下載它。
 
 ## 檢閱檔案
 
@@ -117,7 +118,6 @@ ht-degree: 3%
    > 
    >您可能需要將我的核准Widget新增到您的首頁。 如需詳細資訊，請參閱[新增、編輯或移除首頁中的Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)。
 
-
 1. 在Frame.io中，使用註解工具提供意見或提出問題。 註解與資產標示只會顯示在Frame.io檢視器中。 如需使用Frame.io檢視器的詳細資訊，請參閱[在您的媒體上發表評論](https://help.frame.io/en/articles/9105251-commenting-on-your-media)。
 
    >[!NOTE]
@@ -135,7 +135,3 @@ ht-degree: 3%
    如需Workfront中決定的詳細資訊，請參閱[檔案決定狀態概觀](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)。
 
    ![框架檢視器和決定](assets/make-decision-frame.png)
-
-
-
-<!--is document owner the correct term?-->

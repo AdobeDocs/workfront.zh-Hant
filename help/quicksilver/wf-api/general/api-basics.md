@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0b8e9664578fcd5526d445bd19ad4fbe62834839
 workflow-type: tm+mt
-source-wordcount: '4561'
+source-wordcount: '4407'
 ht-degree: 0%
 ---
 # API 基本概念
@@ -150,16 +150,18 @@ SessionID: abc1234
 
 >[!IMPORTANT]
 >
->Workfront不再建議使用`/login`端點或API金鑰。 請改用下列其中一種驗證方法：
+>Workfront不再建議使用API金鑰進行新整合。 請改用Adobe Developer Console驗證：
 >
->* 使用JWT進行伺服器驗證
->* 使用OAuth2進行使用者驗證
+>* 伺服器對伺服器驗證
+>* 使用者驗證
 >
->如需設定這些驗證方法的說明，請參閱[為Workfront整合建立OAuth2應用程式](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+>目前API金鑰仍會繼續運作，但Adobe建議規劃圍繞Adobe Developer Console驗證的新整合。
 >
->如需在Workfront中使用伺服器驗證的指示，請參閱[使用JWT流程設定和使用您組織的自訂OAuth 2應用程式](../../wf-api/api/oauth-app-jwt-flow.md)
+>Workfront的舊版自訂OAuth2服務即將淘汰。 自2026年11月1日起無法再建立新的自訂OAuth2應用程式，且現有的自訂OAuth2應用程式已於2027年2月1日停止運作。
 >
->如需在Workfront中使用使用者驗證的指示，請參閱[使用授權碼流程設定並使用您組織的自訂OAuth 2應用程式](../../wf-api/api/oauth-app-code-token-flow.md)
+>如需驗證指南，請參閱[Adobe Developer Console驗證概觀](https://developer.adobe.com/developer-console/docs/guides/authentication/)。
+>
+>如需移轉資訊，請參閱[從Workfront OAuth2移轉至Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)。
 
 >[!NOTE]
 >
@@ -167,53 +169,9 @@ SessionID: abc1234
 >
 >如需根據貴組織是否已加入Adobe Business Platform而有所差異的程式清單，請參閱[Adobe Workfront與Adobe Business Platform之間的管理差異](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
-使用有效的使用者名稱和密碼，您可以使用以下要求來取得工作階段ID：
+`/login`端點和API金鑰式登入的舊版範例不應再用於新整合。
 
-```
-POST /attask/api/<supported-version>/login?username=admin&password=user
-```
-
-這樣會設定Cookie以驗證未來的請求，並傳回JSON回應，其中包含新建立的sessionID、登入使用者的使用者ID以及其他工作階段屬性。
-
->[!NOTE]
->
->如果您有同時身為管理員的指定API使用者，Workfront強烈建議您使用API金鑰來登入。
-
-**產生API金鑰**
-
-您可以以該使用者身分登入系統時產生API金鑰，如下列範例所示：
-
-
-```
-PUT /attask/api/<supported-version>/user?action=generateApiKey&username= username&password=password&method=put
-```
-
-**擷取先前產生的API金鑰**
-
-您也可以執行getApiKey，擷取先前為特定使用者產生的API金鑰：
-
-
-```
-PUT /attask/api/<supported-version>/user?action=getApiKey&username=user@email.com&password=userspassword&method=put
-```
-
-然後，您可以使用此結果，新增「apiKey」作為請求引數，取代工作階段ID或使用者名稱和密碼，以驗證任何API呼叫。 從安全性角度來看，這是有好處的。
-
-以下請求為使用apiKey從專案擷取資料的範例：
-
-```
-GET /attask/api/<supported-version>/project/abc123xxxxx?apiKey=123abcxxxxxxxxx
-```
-
-**使API金鑰失效**
-
-如果apiKey值已洩漏，您可以執行「clearApiKey」，讓目前的API金鑰失效，如下列範例所示：
-
-```
-GET /attask/api/<supported-version>/user?action=clearApiKey&username=user@email.com&password=userspassword&method=put
-```
-
-清除後，您可以再次執行getApiKey以產生新的API金鑰。
+如需目前的驗證指引，請使用Adobe Developer Console驗證。 如需舊版Workfront OAuth2應用程式的移轉詳細資料，請參閱[從Workfront OAuth2移轉至Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)。
 
 ### 登出
 

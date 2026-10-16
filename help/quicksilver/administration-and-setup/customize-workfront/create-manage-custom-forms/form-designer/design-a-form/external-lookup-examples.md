@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 9b233bb7501b487a5220882902c47e7d933709ef
 workflow-type: tm+mt
 source-wordcount: '1467'
 ht-degree: 1%
@@ -246,4 +246,3 @@ Workfront Planning API中的端點可透過Get方法，依記錄型別ID搜尋�
 
 **使用案例：**&#x200B;與Workfront外部的物件整合。 例如，存取另一個系統以取得每個使用者的名稱，而不是被限制在預先輸入欄位中。
 **解決方案：** Webhook/Fusion Automation連線到其他系統。
-

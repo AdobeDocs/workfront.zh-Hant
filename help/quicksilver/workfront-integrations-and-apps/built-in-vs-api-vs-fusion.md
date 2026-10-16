@@ -31,9 +31,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0b8e9664578fcd5526d445bd19ad4fbe62834839
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1085'
 ht-degree: 1%
 ---
 # Adobe Workfront整合方法
@@ -81,7 +81,11 @@ Adobe [!DNL Workfront]管理員可以為您的[!DNL Workfront]執行個體建立
 * 設定或使用[!UICONTROL OAuth2]應用程式不需要其他技術知識，例如熟悉[!DNL Workfront] API。
 * 您的組織可能會使用未提供為[!DNL Workfront]內建應用程式的軟體。 您仍然可以使用[!UICONTROL OAuth2]應用程式將此軟體與[!DNL Workfront]整合，即使此軟體是您組織的專有軟體亦然。
 
-如需詳細資訊，請參閱[為Workfront整合建立OAuth2應用程式](../administration-and-setup/configure-integrations/create-oauth-application.md)。
+Workfront自訂OAuth2應用程式即將淘汰。 自2026年11月1日起無法再建立新的自訂OAuth2應用程式，且現有的自訂OAuth2應用程式已於2027年2月1日停止運作。
+
+如需移轉資訊，請參閱[從Workfront OAuth2移轉至Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)。
+
+如需新整合的驗證指南，請參閱[Adobe Developer Console驗證概觀](https://developer.adobe.com/developer-console/docs/guides/authentication/)。
 
 ## [!DNL Workfront] API
 

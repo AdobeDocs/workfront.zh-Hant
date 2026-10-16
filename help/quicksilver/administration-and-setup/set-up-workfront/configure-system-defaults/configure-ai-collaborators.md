@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4a27006cc4989fb1fed0eed5d7a4cef3a69af1d4
+source-git-commit: 18b3d84862352792e094738269e4307e2f6006bf
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1348'
 ht-degree: 2%
 ---
 # 設定AI共同作業人員
@@ -160,7 +160,7 @@ AI檢閱者可設定為使用Workfront品牌或Adobe Brand Intelligence。
 1. 在&#x200B;**當共同作業人員完成其工作後，它可以**&#x200B;區域，切換您要共同作業人員採取的動作。
 
    * <span class="preview">傳送通知：代理程式會在更新流中加上註解，標籤要求工作、指派代理程式或擁有專案的使用者。</span>
-   * <span class="preview">上傳檔案</span>
+   * <span class="preview">上傳文字型檔案</span>
    * <span class="preview">標籤任務完成</span>
    * 寫入工作列位：選取「代理程式」可以寫入的表單和欄位。
 

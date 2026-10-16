@@ -21,16 +21,17 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 5%
+source-wordcount: '62'
+ht-degree: 4%
 ---
 # 新增檔案至Adobe Workfront：文章索引
 
 本節包含下列文章：
 
 * [從您的檔案系統新增檔案至Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)
+* [將網頁連結新增為檔案](../../documents/adding-documents-to-workfront/add-live-url.md)
 * [從外部應用程式連結檔案](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
 * [移除Adobe Workfront與外部檔案儲存提供者之間的連結](../../documents/adding-documents-to-workfront/remove-links-between-wf-and-doc-apps.md)
 * [請求文件](../../documents/adding-documents-to-workfront/request-a-document.md)

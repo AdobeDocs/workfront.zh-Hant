@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0b8e9664578fcd5526d445bd19ad4fbe62834839
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '762'
 ht-degree: 3%
 ---
 # 管理 API 金鑰
@@ -46,16 +46,18 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 >[!IMPORTANT]
 >
->Workfront不再建議使用`/login`端點或API金鑰。 請改用下列其中一種驗證方法：
+>Workfront不再建議使用API金鑰進行新整合。 請改透過Adobe Developer Console使用以下其中一種驗證方法：
 >
->* 使用JWT進行伺服器驗證
->* 使用OAuth2進行使用者驗證
+>* 伺服器對伺服器驗證
+>* 使用者驗證
 >
->如需設定這些驗證方法的說明，請參閱[為Workfront整合建立OAuth2應用程式](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)
+>目前API金鑰仍會繼續運作，但Adobe建議規劃圍繞Adobe Developer Console驗證的新整合。
 >
->如需在Workfront中使用伺服器驗證的指示，請參閱[使用JWT流程設定和使用您組織的自訂OAuth 2應用程式](/help/quicksilver/wf-api/api/oauth-app-jwt-flow.md)
+>Workfront的舊版自訂OAuth2服務也即將淘汰。 自2026年11月1日起無法再建立新的自訂OAuth2應用程式，且現有的自訂OAuth2應用程式已於2027年2月1日停止運作。
 >
->如需在Workfront中使用使用者驗證的指示，請參閱[使用授權碼流程設定並使用您組織的自訂OAuth 2應用程式](/help/quicksilver/wf-api/api/oauth-app-code-token-flow.md)
+>如需驗證指南，請參閱[Adobe Developer Console驗證概觀](https://developer.adobe.com/developer-console/docs/guides/authentication/)。
+>
+>如需移轉資訊，請參閱[從Workfront OAuth2移轉至Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)。
 
 為了將API安全性弱點降至最低，Adobe Workfront管理員可以管理API金鑰，讓應用程式能夠代表使用者存取Workfront。
 

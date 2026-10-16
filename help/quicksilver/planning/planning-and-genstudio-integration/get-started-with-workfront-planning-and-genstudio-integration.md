@@ -29,23 +29,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
+source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
 workflow-type: tm+mt
-source-wordcount: '2565'
+source-wordcount: '2621'
 ht-degree: 1%
 ---
-<!--
-Better metadata, at publishing:
----
-title: Get Started with the Workfront Planning and GenStudio for Performance Marketing Integration
-description: The GenStudio for Performance Marketing workspace is available in Adobe Workfront Planning when your company has purchased both products. Learn some of the basics about how you can streamline your workflows using this integration.
-feature: Workfront Planning
-role: User, Admin
-author: Alina
-recommendations: noDisplay, noCatalog
-
----
--->
 
 <!--use this article to make this one similar to it: https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/review-approval-integrations/wf-proof-and-genstudio-->
 
@@ -351,7 +339,6 @@ Some commented out information here comes from glean
 
 * 您無法從Workfront Planning建立啟用記錄。
 
-
 * GenStudio專案將1:1對應至Workfront Planning工作區；啟用會儲存在該工作區中，並從中參照。
 
 * 可見度和動作取決於您對該GenStudio專案和工作區的存取權。
@@ -360,18 +347,11 @@ Some commented out information here comes from glean
 
 * 當您從GenStudio啟動時，會在Workfront Planning中記錄並追蹤啟動詳細資訊。 GenStudio與Planning保持共用記錄（行銷活動、產品、角色、啟用等）一致。
 
-<!--
+* 啟用記錄包括：
 
-<div class="preview">
+  * 追蹤ID欄位，用於儲存「追蹤ID」公式中每個區段的已解析值以及任何錯誤。
+  * 表示「追蹤ID」正在產生的「正在產生」狀態選擇。 當產生完成或失敗時，啟用狀態會傳回「草稿」。 現有的啟用不受影響。
 
-* Activations records include the following:
-
-    * A Tracking ID field that stores the resolved value for each segment of a Tracking ID formula, along with any errors. 
-    * A "Generating" status choice which indicates that the Tracking ID generation is in progress. The activation status returns to "Draft" when the generation finishes or fails. Existing activations are unaffected. 
-
-</div>
-
--->
 
 <!--
 They're stored in Planning even when a customer hasn't separately purchased Planning.

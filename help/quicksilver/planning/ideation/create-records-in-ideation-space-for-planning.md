@@ -1,5 +1,5 @@
 ---
-title: 從創意空間摘要建立計畫記錄
+title: 從創意空間摘要建立或編輯計畫記錄
 description: 使用Adobe Workfront Planning的新功能Ideation Space，您可以將簡報轉換為Planning記錄。 匯出的摘要會建立新記錄或更新現有記錄。 本文說明如何使用Ideation空間建立或編輯現有Planning記錄。
 role: User, Admin
 author: Alina
@@ -11,13 +11,13 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1172'
 ht-degree: 0%
 ---
 
-# 從創意空間摘要建立Planning記錄
+# 從創意空間摘要建立或編輯Planning記錄
 
 <!--
 Will this release JUST to preview? If not - hide the preview portion below
@@ -64,8 +64,12 @@ are there additional license restrictions or packages to be purchased to have ac
    <td> 
 <ul> 
 <li><p>具有Planning套件的任何Workfront或工作流程</p></li>
-或
-<li><p>以獨立產品形式購買時的任何Planning套件</p></li></ul>
+<!--
+Not available for beta:
+Or
+<li><p>Any Planning package when purchased as a standalone product</p></li>
+-->
+</ul>
    </td> 
     <!--
     <tr> 
@@ -120,13 +124,13 @@ are there additional license restrictions or packages to be purchased to have ac
 
 +++   
 
-## 使用創意力空間建立記錄的相關考量事項
+## 使用Ideation空間建立或編輯Planning記錄的相關考量事項
 
-* 您建立或編輯記錄時，只能從Workfront Planning或Workfront的主功能表啟動創意力空間。 Workfront外部沒有創意力空間。
-* 若要存取創意力空間，您必須在Workfront Planning中擁有工作區和記錄型別。
+* 您必須從Workfront Planning啟動創意力空間，才能建立或編輯Planning記錄。 從Workfront主功能表存取創意力空間時，無法將創意力摘要連結至Planning記錄。
+* 若要使用「構思」空間來建立或編輯記錄，您必須在Workfront Planning中擁有工作區和記錄型別。
 * 新記錄一律以預留位置內容開始，無論您如何建立它們。
-* 當您刪除連結至創意力簡述的Planning記錄時，簡述會保留在創意力空間中，且創意力空間中的相關畫布不會被刪除。
-* 同步資訊只會從創意空間到Workfront Planning。 從Planning記錄到Ideation space brief沒有反向同步或自動同步。
+* 當您刪除連結至創意力簡述的Planning記錄時，簡述會保留在創意力空間中，其相關的空間不會被刪除。
+* 同步資訊只會從創意空間到Workfront Planning。 從Planning記錄到Ideation space brief沒有反向同步或自動同步。<!--this might change?-->
 * 在Workfront Planning中建立、編輯或移除欄位時，會發生下列情況：
 
   * 連結至創意力簡報的記錄所建立的新欄位，每天都會新增至簡報。 新欄位在創意力簡報中顯示為空白。
@@ -134,7 +138,7 @@ are there additional license restrictions or packages to be purchased to have ac
   * 重新命名欄位會更新摘要中的名稱。
 * 您可以將檔案新增為創意空間中的卡片。 這也包括影像。
 
-  支援的檔案型別如下：PDF、Excel、CSV、PNG （和其他影像格式）、Word、PowerPoint。 不支援影片。
+  您可以新增下列檔案型別：PDF、Excel、CSV、PNG （和其他影像格式）、Word、PowerPoint。 不支援影片。
 
   所有上傳的檔案都會在後端轉換為PDF以供處理。
 * 您可以直接將記錄從Workfront Planning拖放至空間，其顯示方式與手動上傳檔案相同。
@@ -201,7 +205,7 @@ are there additional license restrictions or packages to be purchased to have ac
 
    這樣會使用其他資訊完成記錄的建立，並將其新增到您最初選取的記錄型別。
 
-## 編輯創意力空間中的現有記錄
+## 使用創意力空間編輯現有記錄
 
 您可以從現有記錄中開啟創意空間以更新它們。
 
