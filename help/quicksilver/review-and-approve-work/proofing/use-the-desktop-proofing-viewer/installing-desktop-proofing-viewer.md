@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d4fb6d9113cf01ba92abf627fc64e4c10c9f2302
+source-git-commit: 0ab5dffb538623d0bfcb44b54fb33833594ac649
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '574'
 ht-degree: 3%
 ---
 # 安裝案頭校訂檢視器
@@ -79,10 +79,10 @@ ht-degree: 3%
 1. 執行下列任一項作業來下載應用程式：
 
    * 如果您使用生產環境，請按一下案頭校訂檢視器的[Mac生產下載。](https://app.proofhq.com/desktopviewer/mac)
-   * 如果您使用預覽環境，請按一下案頭校訂檢視器的[Mac預覽下載。](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.44.pkg)
+   * 如果您使用預覽環境，請按一下案頭校訂檢視器的[Mac預覽下載。](https://app.preview.proofhq.com/desktopviewer/mac)
 
 1. 開啟您剛下載的檔案，開始安裝。
-1. 在出現的安裝方塊上，按一下[繼續]&#x200B;**&#x200B;**，然後按一下[安裝]&#x200B;**&#x200B;**。
+1. 在出現的安裝方塊上，按一下[繼續]****，然後按一下[安裝]****。
 
    ![00000776.png](assets/00000776-350x244.png)
 
