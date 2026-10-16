@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 868f8c0ad40f66244559a52bd8afd96b92bc3e54
+source-git-commit: a3c1ab8fc8012199d9863fc978cca7418fa0a2f5
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '519'
 ht-degree: 0%
 ---
 # 時程表總覽
@@ -71,19 +71,19 @@ ht-degree: 0%
 
 {{step1-to-timesheets}}
 
-您的所有時程表以及您預設有權顯示的時程表。 如需Adobe Workfront中時程表配置的相關資訊，請參閱[時程表配置總覽](../../timesheets/timesheets/timesheet-layout.md)。
+預設會顯示您所有的時程表以及您有權存取的時程表。 如需Adobe Workfront中時程表配置的相關資訊，請參閱[時程表配置總覽](../../timesheets/timesheets/timesheet-layout.md)。
 
-![所有時程表清單](assets/all-timesheets-list-nwe-350x68.png)
+![所有時程表清單](assets/list-of-all-timesheets.png)
 
 1. 按一下右上角的以下選項之一，以顯示您的時程表：
 
    * **我的時程表**，只顯示您的時程表。
 
-   ![我的時程表清單](assets/my-timesheets-list-various-statuses-nwe-350x60.png)
+   <!--![My Timesheets list](assets/my-timesheets-list-various-statuses-nwe-350x60.png)-->
 
    * **我的時程表核准**&#x200B;只顯示您核准的時程表。
 
-     ![我核准的時程表清單](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)
+   <!--![Timesheets I Approve list](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)-->
 
 
 1. （選用）更新時程表清單頂端的檢視、篩選和群組。 如需詳細資訊，請參閱[報告元素：篩選器、檢視和群組](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)。
