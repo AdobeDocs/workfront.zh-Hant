@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0b8e9664578fcd5526d445bd19ad4fbe62834839
 workflow-type: tm+mt
-source-wordcount: '4561'
+source-wordcount: '4407'
 ht-degree: 0%
 ---
 # API 基本概念
@@ -150,16 +150,18 @@ SessionID: abc1234
 
 >[!IMPORTANT]
 >
->Workfront不再建議使用`/login`端點或API金鑰。 請改用下列其中一種驗證方法：
+>Workfront不再建議使用API金鑰進行新整合。 請改用Adobe Developer Console驗證：
 >
->* 使用JWT進行伺服器驗證
->* 使用OAuth2進行使用者驗證
+>* 伺服器對伺服器驗證
+>* 使用者驗證
 >
->如需設定這些驗證方法的說明，請參閱[為Workfront整合建立OAuth2應用程式](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+>目前API金鑰仍會繼續運作，但Adobe建議規劃圍繞Adobe Developer Console驗證的新整合。
 >
->如需在Workfront中使用伺服器驗證的指示，請參閱[使用JWT流程設定和使用您組織的自訂OAuth 2應用程式](../../wf-api/api/oauth-app-jwt-flow.md)
+>Workfront的舊版自訂OAuth2服務即將淘汰。 自2026年11月1日起無法再建立新的自訂OAuth2應用程式，且現有的自訂OAuth2應用程式已於2027年2月1日停止運作。
 >
->如需在Workfront中使用使用者驗證的指示，請參閱[使用授權碼流程設定並使用您組織的自訂OAuth 2應用程式](../../wf-api/api/oauth-app-code-token-flow.md)
+>如需驗證指南，請參閱[Adobe Developer Console驗證概觀](https://developer.adobe.com/developer-console/docs/guides/authentication/)。
+>
+>如需移轉資訊，請參閱[從Workfront OAuth2移轉至Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)。
 
 >[!NOTE]
 >
@@ -167,53 +169,9 @@ SessionID: abc1234
 >
 >如需根據貴組織是否已加入Adobe Business Platform而有所差異的程式清單，請參閱[Adobe Workfront與Adobe Business Platform之間的管理差異](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 
-使用有效的使用者名稱和密碼，您可以使用以下要求來取得工作階段ID：
+`/login`端點和API金鑰式登入的舊版範例不應再用於新整合。
 
-```
-POST /attask/api/<supported-version>/login?username=admin&password=user
-```
-
-這樣會設定Cookie以驗證未來的請求，並傳回JSON回應，其中包含新建立的sessionID、登入使用者的使用者ID以及其他工作階段屬性。
-
->[!NOTE]
->
->如果您有同時身為管理員的指定API使用者，Workfront強烈建議您使用API金鑰來登入。
-
-**產生API金鑰**
-
-您可以以該使用者身分登入系統時產生API金鑰，如下列範例所示：
-
-
-```
-PUT /attask/api/<supported-version>/user?action=generateApiKey&username= username&password=password&method=put
-```
-
-**擷取先前產生的API金鑰**
-
-您也可以執行getApiKey，擷取先前為特定使用者產生的API金鑰：
-
-
-```
-PUT /attask/api/<supported-version>/user?action=getApiKey&username=user@email.com&password=userspassword&method=put
-```
-
-然後，您可以使用此結果，新增「apiKey」作為請求引數，取代工作階段ID或使用者名稱和密碼，以驗證任何API呼叫。 從安全性角度來看，這是有好處的。
-
-以下請求為使用apiKey從專案擷取資料的範例：
-
-```
-GET /attask/api/<supported-version>/project/abc123xxxxx?apiKey=123abcxxxxxxxxx
-```
-
-**使API金鑰失效**
-
-如果apiKey值已洩漏，您可以執行「clearApiKey」，讓目前的API金鑰失效，如下列範例所示：
-
-```
-GET /attask/api/<supported-version>/user?action=clearApiKey&username=user@email.com&password=userspassword&method=put
-```
-
-清除後，您可以再次執行getApiKey以產生新的API金鑰。
+如需目前的驗證指引，請使用Adobe Developer Console驗證。 如需舊版Workfront OAuth2應用程式的移轉詳細資料，請參閱[從Workfront OAuth2移轉至Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)。
 
 ### 登出
 
@@ -348,7 +306,7 @@ OR陳述式只會傳回API呼叫中符合OR陳述式篩選條件的記錄。 OR�
 
 您可以使用欄位請求引數，指定傳回之特定欄位的逗號分隔清單。 例如，請求
 <pre>/attask/api/&lt;supported-version&gt;/task/search？fields=plannedStartDate，priority</pre>會傳回類似下列的回應：
-<pre>&lbrace;<br>「優先順序」： 2，<br>「名稱」：「第一個任務」，<br>「識別碼」：「4c7c08fa0000002ff924e298ee148df4」，<br>「plannedStartDate」：「2010-08-30T09:00:00:000-0600」<br></pre>
+<pre>{<br>「優先順序」： 2，<br>「名稱」：「第一個任務」，<br>「識別碼」：「4c7c08fa0000002ff924e298ee148df4」，<br>「plannedStartDate」：「2010-08-30T09:00:00:000-0600」<br></pre>
 
 >[!NOTE]
 >
@@ -361,7 +319,7 @@ OR陳述式只會傳回API呼叫中符合OR陳述式篩選條件的記錄。 OR�
 您可以搜尋巢狀物件。 依預設，巢狀物件只傳回名稱和ID。 例如，若要與擁有者取得所有問題，請使用以下請求：
 <pre>/attask/api/&lt;supported-version&gt;/issue/search？fields=owner</pre>如需詳細資訊，您可以使用冒號語法來要求巢狀欄位。 例如，以下請求會搜尋所有問題以及擁有者的名稱、ID、職稱和電話號碼
 <pre>/attask/api/&lt;supported-version&gt;/issue/search？fields=owner：title，owner：phoneNumber</pre>並傳回下列專案： 
-<pre>&lbrace;<br> 「名稱」： 「重要問題」，<br> 「ID」： 「4c78285f00000908ea8cfd66e084939f」，<br> 「擁有者」： &lbrace;<br> 「標題」： 「營運專員」，<br> 「電話號碼」： 「555-1234」，<br> 「名稱」： 「管理員使用者」，<br> 「ID」： 「4c76ed7a0000054c172b2d9f7f81c3」 <br> <br></pre>
+<pre>{<br> 「名稱」： 「重要問題」，<br> 「ID」： 「4c78285f00000908ea8cfd66e084939f」，<br> 「擁有者」： {<br> 「標題」： 「營運專員」，<br> 「電話號碼」： 「555-1234」，<br> 「名稱」： 「管理員使用者」，<br> 「ID」： 「4c76ed7a0000054c172b2d9f7f81c3」 <br> <br></pre>
 
 #### 正在擷取巢狀集合
 
@@ -506,7 +464,7 @@ POST /attask/api/<supported-version>/project?copySourceID=4c7...&name=Copied Pro
 您可以透過下列API URL上傳檔案：
 <pre>POST /attask/api/&lt;supported-version&gt;/upload</pre>API預期內容型別為多部分/表單資料。 檔案的引數名稱必須是uploadedFile。 伺服器會傳回下列JSON資料：
 <pre>{<br> "handle"： "4c7c08fa0000002ff924e298ee148df4"<br>}</pre>建立Workfront檔案時，您可以使用控制代碼並張貼至下列URL：
-<pre>POST /attask/api/&lt;supported-version&gt;/document？updates=&lbrace;<br>名稱： aFileName，<br>控制代碼： abc...123，（檔案上傳的控制代碼）<br> docObjCode： PROJ， （或TASK、OPTASK等）<br> objID： abc...123，<br> currentVersion：{version1.0，fileName：aFileName}<br></pre>
+<pre>POST /attask/api/&lt;supported-version&gt;/document？updates={<br>名稱： aFileName，<br>控制代碼： abc...123，（檔案上傳的控制代碼）<br> docObjCode： PROJ， （或TASK、OPTASK等）<br> objID： abc...123，<br> currentVersion：{version1.0，fileName：aFileName}<br></pre>
 
 ## PUT行為
 
@@ -527,7 +485,7 @@ PUT的回應與GET相同。 在這兩種情況下，伺服器都會在更新後�
 ### 進行巢狀更新
 
 有些物件擁有可以更新的私人擁有集合。 例如，下列範例示範如何覆寫指定任務的現有指派：
-<pre>PUT /attask/api/&lt;supported-version&gt;/task/4c7...？updates= <br>&lbrace;<br>指派： [ <br> { <br> assignedToID： "2222...54d0， <br> assignmentPercent： 50.0 <br> }，{ <br> roleID： "1111...54d0"<br> } <br> ] <br></pre>
+<pre>PUT /attask/api/&lt;supported-version&gt;/task/4c7...？updates= <br>{<br>指派： [ <br> { <br> assignedToID： "2222...54d0， <br> assignmentPercent： 50.0 <br> }，{ <br> roleID： "1111...54d0"<br> } <br> ] <br></pre>
 
 >[!NOTE]
 >
@@ -566,9 +524,9 @@ DELETE會移除物件。 在任何情況下，URI都可以包含引數force=true
 
 大量更新陳述式會在單一API呼叫中同時更新多個物件。 大量建立API呼叫的建置方式與一般更新呼叫類似，如下列範例所示：
 <pre>PUT /attask/api/&lt;supported-version&gt;/proj？updates=[{"name"："Test_Project_1"}，{"name"："Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>或 <pre>推播/attask/api/&lt;supported-version&gt;/proj？updates=[{"name"："Test_Project_1"}，{"name"："Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>會傳回類似下列的內容：
-<pre>資料： [{<br> ID： "53ff8d3d003b438b57a8a784df38f6b3"，<br>名稱： "Test_Project_1"，<br>物件代碼： "PROJ"，<br>百分比完成： 0，<br>計畫完成日期： "2014-08-28T11:00:00:000-0400"，<br> plannedStartDate： "2014-08-28T11:00:00:000-0400"，<br>優先順序： 0，<br>預計完成日期： "2014-08-28T16:12:00:000-0400"，<br>狀態： "CUR"<br>}，<br>&lbrace;<br> ID： 「53ff8d49003b43a2562aa34eea3b6b10」，<br>名稱：「Test_Project_2」，<br>對象代碼：「PROJ」，<br>完成百分比： 0usi，<br>計畫完成日期：「2014-08-28T11:00:00:000-0400」，<br>計劃開始日期「2014-08-28T11:00:00:000-0400」，<br>優先順序： 0，<br>預計完成日期：「2014-08-28T16:12:00:000-0400」，<br>狀態：「CUR」<br>]</pre>您也可以進行類似下列的大量更新：
+<pre>資料： [{<br> ID： "53ff8d3d003b438b57a8a784df38f6b3"，<br>名稱： "Test_Project_1"，<br>物件代碼： "PROJ"，<br>百分比完成： 0，<br>計畫完成日期： "2014-08-28T11:00:00:000-0400"，<br> plannedStartDate： "2014-08-28T11:00:00:000-0400"，<br>優先順序： 0，<br>預計完成日期： "2014-08-28T16:12:00:000-0400"，<br>狀態： "CUR"<br>}，<br>{<br> ID： 「53ff8d49003b43a2562aa34eea3b6b10」，<br>名稱：「Test_Project_2」，<br>對象代碼：「PROJ」，<br>完成百分比： 0usi，<br>計畫完成日期：「2014-08-28T11:00:00:000-0400」，<br>計劃開始日期「2014-08-28T11:00:00:000-0400」，<br>優先順序： 0，<br>預計完成日期：「2014-08-28T16:12:00:000-0400」，<br>狀態：「CUR」<br>]</pre>您也可以進行類似下列的大量更新：
 <pre>PUT /attask/api/&lt;supported-version&gt;/proj？Umethod=PUT&amp;updates=[{"ID"："123abcxxxxxxxxxxxxxxxxxxxxxxxx"，"name"："Test_Project_1_ Edit"}，{"ID"："123abcxxxxxxxxxxxxxxxxxxxxxxxx"，"name"："Test_Project_2_Edit"}]&amp;apiKey=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>會傳回類似下列的內容：
-<pre>資料： [ {<br> ID： "53ff8e15003b461d4560f7f65a440078"，<br>名稱： "Test_Project_1_Edit"，<br>物件代碼： "PROJ"，<br>百分比完成： 0，<br>計畫完成日期： "2014-08-28T11:00:00:000-0400"，<br>計劃開始日期： 「2014-08-28T11:00:00:000-0400」，<br>優先順序：0，<br>預計完成日期：「2014-08-28T16:16:00:000-0400」，<br>狀態：「CUR」<br>}，<br>&lbrace;<br> ID： 「53ff8e19003b46238a58d303608de502」，<br>名稱：「Test_Project_2_Edit」，<br>對象代碼：「PROJ」，<br>完成百分比： 0，<br>計畫完成日期：「2014-08-28T11:00:00:000-0400」，<br>計劃開始日期：「2018」 t11:00:00:000-0400"，<br>優先順序： 0，<br>預計完成日期： "2014-08-28T16:16:00:000-0400"，<br>狀態： "CUR"<br>]</pre>如果您希望所有作業都發生在相同交易中，請將"atomic=true"新增至批次API呼叫，作為請求引數。 如此一來，如果有任何作業失敗，所有作業都會回覆。
+<pre>資料： [ {<br> ID： "53ff8e15003b461d4560f7f65a440078"，<br>名稱： "Test_Project_1_Edit"，<br>物件代碼： "PROJ"，<br>百分比完成： 0，<br>計畫完成日期： "2014-08-28T11:00:00:000-0400"，<br>計劃開始日期： 「2014-08-28T11:00:00:000-0400」，<br>優先順序：0，<br>預計完成日期：「2014-08-28T16:16:00:000-0400」，<br>狀態：「CUR」<br>}，<br>{<br> ID： 「53ff8e19003b46238a58d303608de502」，<br>名稱：「Test_Project_2_Edit」，<br>對象代碼：「PROJ」，<br>完成百分比： 0，<br>計畫完成日期：「2014-08-28T11:00:00:000-0400」，<br>計劃開始日期：「2018」 t11:00:00:000-0400"，<br>優先順序： 0，<br>預計完成日期： "2014-08-28T16:16:00:000-0400"，<br>狀態： "CUR"<br>]</pre>如果您希望所有作業都發生在相同交易中，請將"atomic=true"新增至批次API呼叫，作為請求引數。 如此一來，如果有任何作業失敗，所有作業都會回覆。
 
 >[!NOTE]
 >

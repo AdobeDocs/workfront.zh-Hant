@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0b8e9664578fcd5526d445bd19ad4fbe62834839
 workflow-type: tm+mt
-source-wordcount: '2232'
+source-wordcount: '2235'
 ht-degree: 2%
 ---
 # Adobe Workfront Planning API基本需知
@@ -67,9 +67,7 @@ Workfront Planning API使用OAuth 2.0進行驗證。 認證是透過Adobe Develo
 
 若要開始使用，請在Adobe Developer Console中建立專案，並新增Workfront Planning API以取得您的認證。
 
-若要設定認證，請在Workfront中建立OAuth2應用程式。
-
-如需詳細資訊，請參閱[為Workfront整合建立OAuth2應用程式](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)。
+如需驗證指南，請參閱[Adobe Developer Console驗證概觀](https://developer.adobe.com/developer-console/docs/guides/authentication/)。
 
 >[!NOTE]
 >
@@ -449,7 +447,7 @@ Planning API支援大量建立、更新、修補及刪除單一請求中的記�
 
 ## 搭配Workfront自訂表單使用Planning API
 
-您可以從Workfront自訂表單中的外部查閱欄位呼叫Planning API，以直接在Workfront物件中呈現Planning資料。 如需詳細資訊，請參閱自訂表單[&#128279;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)中的外部查閱欄位範例。
+您可以從Workfront自訂表單中的外部查閱欄位呼叫Planning API，以直接在Workfront物件中呈現Planning資料。 如需詳細資訊，請參閱自訂表單](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)中的外部查閱欄位範例[。
 
 ## 相關資源
 
@@ -458,7 +456,7 @@ Planning API支援大量建立、更新、修補及刪除單一請求中的記�
 * [Workfront Planning API](https://developer.adobe.com/wf-planning)開發人員檔案與參考
 * [開始使用Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
 * [Adobe Workfront Planning存取權概觀](/help/quicksilver/planning/access/access-overview.md)
-* [為Workfront整合建立OAuth2應用程式](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)
+* [Adobe Developer Console驗證概觀](https://developer.adobe.com/developer-console/docs/guides/authentication/)
 
 <!--
 
