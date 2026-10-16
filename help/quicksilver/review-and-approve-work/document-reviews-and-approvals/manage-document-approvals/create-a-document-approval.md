@@ -30,16 +30,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f11da983435265b00e7dd9993593bab28f6599a6
+source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
 workflow-type: tm+mt
-source-wordcount: '2878'
+source-wordcount: '2881'
 ht-degree: 1%
 ---
 # 建立檔案核准工作流程
 
 {{highlighted-preview}}
 
-您可以在Adobe Workfront中請求其他使用者或團隊核准檔案，或請求他們稽核檔案而無需核准。
+您可以在Adobe Workfront中要求其他使用者或團隊核准檔案或已上線的網站，或要求他們稽核檔案而無需核准。
 
 依預設，核准範本僅對建立者可見。 整篇文章中，您只能選取您建立或與您共用的範本。 如需詳細資訊，請參閱管理核准範本中的[共用範本](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template)。
 
@@ -359,6 +359,7 @@ preview screen
 1. （選擇性）若要清除所有路徑和階段並重新開始，請按一下右上方的&#x200B;**重設**。
 
 1. 按一下&#x200B;**要求核准**。
+
 
 <div class="preview">
 
