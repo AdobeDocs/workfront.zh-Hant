@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
+source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
 workflow-type: tm+mt
-source-wordcount: '3232'
+source-wordcount: '3436'
 ht-degree: 1%
 ---
 # 更新工作
@@ -40,11 +40,11 @@ ht-degree: 1%
 <!-- Audited: 4/2025 -->
 
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 <!--info for April 11: hide the "Important" box below-->
 
@@ -298,7 +298,7 @@ You can add updates to the following objects:
 
 1. 找到您要新增註解的物件，然後按一下其名稱以開啟物件的頁面。
 1. 按一下左側面板中的&#x200B;**更新**。
-預設會選取&#x200B;**註解**&#x200B;標籤。
+預設會選取**註解**&#x200B;標籤。
 
 1. 開始在&#x200B;**新註解**&#x200B;方塊中輸入註解。
 
@@ -375,7 +375,7 @@ You can add updates to the following objects:
 
    >[!TIP]
    >
-   >您無法在[全部]索引標籤的現有註解中回覆註解或標籤其他使用者。 若要在[全部]索引標籤中回複評論，請按一下[在評論中回覆]&#x200B;**&#x200B;**，在[評論]索引標籤中開啟評論。
+   >您無法在[全部]索引標籤的現有註解中回覆註解或標籤其他使用者。 若要在[全部]索引標籤中回複評論，請按一下[在評論中回覆]****，在[評論]索引標籤中開啟評論。
 
 ## 在Workfront註解中使用RTF文字{#use-rich-text-in-a-workfront-comment}
 
@@ -623,28 +623,29 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 1. Continue adding your update and click **Reply** to add the comment.
 -->
 
-<!--
 <div class="preview">
 
-## Pin comments
+## 釘選評論
 
-You can pin top-level comments to the top of the Comments tab. You cannot pin replies that are part of a thread. 
+您可以將最上層註解釘選到「註解」標籤的最上方。 您無法釘選屬於執行緒一部分的回覆。
 
-1. Go to an object that supports pinning comments, and click Updates in the left panel, then click the  **Comments** tab.
+1. 移至支援釘選註解的物件，然後按一下左側面板中的[更新]，再按一下[註解] **索引標籤。**
 
-   For information, see [Updates tab overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+   如需詳細資訊，請參閱[更新索引標籤總覽](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
-1. Add a comment, or from an existing one, click the **More** menu ![More menu](assets/more-menu.png) to the right of the comment, click **Pin thread**. The comment and any existing replies are pinned to the top of the Comments tab. 
+1. 新增註解，或從現有註解按一下註解右邊的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，按一下&#x200B;**釘選執行緒**。 評論和所有現有的回覆都會釘選到「評論」索引標籤的頂端。
 
-   A new **Pinned threads** section is created at the top of the **Comments** tab. 
+   新的&#x200B;**釘選執行緒**&#x200B;區段建立在&#x200B;**註解**&#x200B;索引標籤的頂端。
 
-   The number of pinned threads is listed in parentheses to the right of the section name. 
+   釘選的執行緒數目會列在區段名稱右側的括弧中。
 
-1. (Optional) To unpin a thread, click the **Unpin** icon ![Unpin icon](assets/unpin-icon-comments.png) in the upper-right corner of the pinned comment. 
+   ![評論區段中的釘選執行緒](assets/pin-thread-comments-areas-and-link.png)
+
+1. （選擇性）若要取消釘選執行緒，請按一下釘選評論右上角的&#x200B;**取消釘選**&#x200B;圖示![取消釘選圖示](assets/unpin-icon-comments.png)。
 
 </div>
 
--->
+
 
 ## 刪除評論或回覆
 

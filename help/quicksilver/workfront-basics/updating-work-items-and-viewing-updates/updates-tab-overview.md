@@ -27,23 +27,18 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
+source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 4%
+source-wordcount: '1313'
+ht-degree: 3%
 ---
 # 更新區段概觀
 
 <!-- Audited: 1/2024 -->
 
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
--->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 物件的「更新」區段會顯示使用者對物件所做的註解，或追蹤物件變更的系統更新。
 
@@ -149,17 +144,16 @@ Depending on what objects you access the commenting experience for, you might fi
 
 * **註解**：顯示使用者所做的註解以及這些註解的回覆。 使用「註解」標籤來新增註解或回覆現有註解。
 
-  <!--
   <div class="preview">
 
-  * **Pinned threads**: Top-level comments that are pinned display under the Pinned threads section on the Comments tab. 
+  * **釘選的對話串**：釘選的頂層評論顯示在[評論]索引標籤的[釘選的對話串]區段下。
 
-    You can pin threads only on the Comments tab of objects that have an Updates section. You cannot pin threads in other areas of Workfront, like Boards, or Home. 
+    您只能在具有「更新」區段的物件的「註解」標籤上釘選螺紋。 您無法在Workfront的其他區域（例如展示板或首頁）中釘選對話串。
 
   </div>
-  -->
 
   如需有關更新物件的資訊，請參閱[更新工作](../updating-work-items-and-viewing-updates/update-work.md)。
+
 * **系統活動**：顯示系統更新，這些是Workfront建立的資訊訊息，用來在物件上記錄特定事件。 例如，狀態、名稱或自訂欄位的變更會透過系統更新擷取。 您的Workfront或群組管理員可以為您的物件啟用系統更新。 對舊版評論體驗中系統活動記錄所做的任何回覆，都會以唯讀形式填入系統活動標籤中。 如需詳細資訊，請參閱[設定系統更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)。
 * **全部（唯讀）**：在一個位置同時顯示使用者註解和系統活動註解。 這是僅供檢視的標籤。 您無法在[全部]索引標籤的現有註解中回覆註解或標籤其他使用者。 若要回覆特定註解，請使用「全部」標籤到「註解」標籤的連結。 如需有關更新物件的資訊，請參閱[更新工作](../updating-work-items-and-viewing-updates/update-work.md)。
 

@@ -10,9 +10,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: d72869cb62d06b24298004ba2c9482a153b8e5f7
+source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '270'
 ht-degree: 5%
 ---
 # CX Enterprise Coworker中的Workfront技能
@@ -59,6 +59,9 @@ ht-degree: 5%
 * 欄位
 * 檢視
 * 記錄
+<!--
+* Business rules
+-->
 
 ### 管理Workfront物件
 
@@ -75,13 +78,12 @@ ht-degree: 5%
 
 名稱： `query-workfront-data`
 
-此技能可尋找、列出及報告Workfront物件，例如：
+此技能可尋找、列出及報告Workfront物件。 以下是此類Workfront物件的部分範例，但清單並不完整：
 
 * 專案
 * 任務
 * 問題
 * 使用者
 * 專案組合
-* 及更多內容
 
 

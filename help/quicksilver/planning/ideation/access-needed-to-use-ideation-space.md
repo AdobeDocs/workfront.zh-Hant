@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '826'
 ht-degree: 0%
 ---
 
@@ -34,7 +34,9 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-Adobe Workfront規劃現在提供另一項功能，可在您啟動行銷活動之前加以構想。 運用AI的強大功能，將資料和直接輸入轉換為實際的計畫，並為團隊提供明智的起點，而不是具有Adobe Ideation空間的空白頁面。
+Adobe Workfront規劃現在提供另一項功能，可在您啟動行銷活動之前加以構想。
+
+使用創意空間時，您可以運用Adobe Enterprise CX Coworker對話功能，將資料與直接輸入內容轉換為實際的計畫，並為團隊提供明智的起點，而非空白頁面。
 
 本文說明從Workfront Planning存取Ideation Space所需的存取權和許可權。
 
@@ -42,10 +44,14 @@ Adobe Workfront規劃現在提供另一項功能，可在您啟動行銷活動�
 
 ## 產品需求
 
-
 創意力空間不是獨立產品，而是Adobe Workfront Planning的額外功能。
 
-如果您的組織和您有權存取以下套件（視您何時存取創意力空間而定），則您可以存取創意力空間：
+如果您的組織和您有權存取以下產品，則可以存取創意力空間：
+
+* Adobe Workfront與Workfront Planning
+* 企業CX Coworker
+
+視您存取創意力空間的時間而定，您必須擁有下列套件的存取權：
 
 * 在Open Beta發行期間，您必須具備下列專案：
 
@@ -56,11 +62,12 @@ Adobe Workfront規劃現在提供另一項功能，可在您啟動行銷活動�
   * Adobe Workfront工作流程套件與Workfront計畫套件
   * Adobe Workfront Planning作為獨立產品
 
-如需有關創意力空間發行階段的資訊，請參閱[開始使用Adobe Workfront計畫的創意力空間](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)。
-
 >[!NOTE]
 >
->您只能從Adobe Workfront主功能表或Workfront Planning存取創意力空間。 您不需要個別登入即可存取創意空間。 如果您可登入Workfront，就可立即使用此功能。
+>您只能從Workfront主功能表或Workfront Planning存取創意力空間。 您不需要個別登入即可存取創意空間。 如果您可登入Workfront，就可立即使用此功能。
+
+如需有關創意力空間發行階段的資訊，請參閱[開始使用Adobe Workfront計畫的創意力空間](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)。
+
 
 <!--
 No longer the case: 
@@ -82,23 +89,45 @@ Your organization must purchase a package for the following products to access t
 
 <!--only required for closed beta:* An Adobe Customer Journey Analytics license that includes campaign tracking-->
 
-## Workfront Planning存取層級需求
+## 系統和存取層級需求
 
-創意力空間存取是在Workfront中設定。
+透過開啟系統層級和存取層級設定的組合，在Workfront中設定創意空間存取。
 
-您的Workfront存取層級必須包含下列專案，才能存取創意空間：
+存取Workfront中的創意空間需要下列設定：
+
+* 在設定<!--check the UI because Becky was going to change it-->的「系統偏好設定」區域中開啟「同事與MCP」偏好設定
+
+  如需詳細資訊，請參閱[設定系統偏好設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
+
+  >[!IMPORTANT]
+  >
+  >CX Enterprise Coworker目前不適用於保健、金融或某些具有敏感資料的其他行業的組織。 AI助理可供這些組織使用。 不過，創意力空間不適用於沒有CX Coworker的Workfront客戶。
+
+* 在存取層級的「設定其他限制」區段中，取消選取「停用創意空間」設定。
+
+  >[!TIP]
+  >
+  >身為Workfront管理員，您可以取消選取存取層級中的「停用構思空間」設定，以限制特定使用者對構思空間的存取權。
+
+  如需詳細資訊，請參閱[建立和修改自訂存取層級](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
+
+## 授權需求
+
+您的Workfront存取層級必須包括下列授權型別，才能存取創意空間：
 
 * 標準工作流程授權，指貴公司購買計畫套件以外的工作流程套件。
-* 標準Planning授權，當您的公司與Workflow和Planning套件一起購買時，或Workfront Planning作為獨立產品時。
-* 您必須取消選取存取層級的「設定其他限制」區段中的「停用構思空間」設定。<!--***********check the UI for this***********-->
+* Standard Planning授權，貴公司購買下列其中一項產品時：
 
-## Workfront規劃許可權需求
+  * Open Beta版期間的工作流程和Planning套件
+  * 正式發行後，作為獨立產品的Workflow和Planning套件或Workfront Planning。
 
-每個Planning記錄都連線到Ideation space中的一個摘要。
+## Workfront許可權需求
+
+當您使用Workfront Planning的創意空間時，每個Planning記錄都會連線至創意空間中的一個摘要。
 
 創意空間摘要許可權繼承自Workfront Planning記錄許可權。<!--not sure if this is right, because now you can share the ideation with others??-->
 
-您必須在Planning中擁有記錄型別的「管理」許可權才能建立記錄，才能在創意空間建立或編輯記錄。
+您必須在Planning中擁有記錄型別的Contribute或更高許可權才能建立記錄，才能在創意空間建立或編輯記錄。
 
 對記錄具有「檢視」許可權的Planning使用者可檢視記錄的創意空間。
 
@@ -106,7 +135,7 @@ Your organization must purchase a package for the following products to access t
 
 | Planning記錄層級許可權 | 創意力空間簡短層級許可權 |
 |---|---|
-| 管理記錄的許可權 | 可以在記錄的構思空間中建立簡報 |
+| 貢獻或更高的記錄許可權 | 可以在記錄的構思空間中建立簡報 |
 | 檢視記錄的許可權 | 可以在構思空間中讀取該記錄的摘要，但無法修改它 |
 
 ## 創意力空間許可權
