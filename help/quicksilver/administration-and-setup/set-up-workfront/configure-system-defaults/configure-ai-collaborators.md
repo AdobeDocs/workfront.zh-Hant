@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4a27006cc4989fb1fed0eed5d7a4cef3a69af1d4
+source-git-commit: 18b3d84862352792e094738269e4307e2f6006bf
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1348'
 ht-degree: 2%
 ---
 # 設定AI共同作業人員
@@ -61,11 +61,11 @@ AI共同作業人員是將AI代理程式帶入您的專案、任務和問題的�
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p>
+   <td><p>[！UICONTROL標準]</p>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員] <span class="preview">或群組管理員</span></td> 
+   <td>[！UICONTROL系統管理員] <span class="preview">或群組管理員</span></td> 
   </tr> 
   </tbody> 
 </table>
@@ -160,7 +160,7 @@ AI檢閱者可設定為使用Workfront品牌或Adobe Brand Intelligence。
 1. 在&#x200B;**當共同作業人員完成其工作後，它可以**&#x200B;區域，切換您要共同作業人員採取的動作。
 
    * <span class="preview">傳送通知：代理程式會在更新流中加上註解，標籤要求工作、指派代理程式或擁有專案的使用者。</span>
-   * <span class="preview">上傳檔案</span>
+   * <span class="preview">上傳文字型檔案</span>
    * <span class="preview">標籤任務完成</span>
    * 寫入工作列位：選取「代理程式」可以寫入的表單和欄位。
 
@@ -187,7 +187,7 @@ AI檢閱者可設定為使用Workfront品牌或Adobe Brand Intelligence。
       環境ID會顯示在左上角的環境名稱下方。
 
 1. 建立代理。
-   1. 在[受管理的代理程式] > [代理程式]下，按一下右上角的[建立代理程式] **&#x200B;**。
+   1. 在[受管理的代理程式] > [代理程式]下，按一下右上角的[建立代理程式] ****。
    1. 提供適用的名稱、型號、系統提示、技能及工具。 描述性，因為「工作代理程式」會將工作內容傳遞至此代理程式，然後執行工作。
       代理程式ID會顯示在左上角的代理程式名稱下方。
 
@@ -287,5 +287,5 @@ For more information on the Project Coordinator, including how to assign it to p
 {{step-1-to-setup}}
 
 1. 在左側導覽列中，按一下&#x200B;**AI共同作業人員**。
-1. （條件式）若要編輯共同作業人員，請按一下您要編輯的共同作業人員名稱，在[編輯共同作業人員]視窗中進行任何編輯，然後按一下[儲存]。**&#x200B;**
+1. （條件式）若要編輯共同作業人員，請按一下您要編輯的共同作業人員名稱，在[編輯共同作業人員]視窗中進行任何編輯，然後按一下[儲存]。****
 1. （視條件而定）若要刪除Collaborator，請在您要刪除的AI Collaborator列中按一下「刪除」圖示![「刪除」圖示](assets/delete-collaborator-icon.png)，然後按一下&#x200B;**「刪除」**。

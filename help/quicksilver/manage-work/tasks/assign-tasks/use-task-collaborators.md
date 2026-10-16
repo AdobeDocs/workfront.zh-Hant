@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4a27006cc4989fb1fed0eed5d7a4cef3a69af1d4
+source-git-commit: 18b3d84862352792e094738269e4307e2f6006bf
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1143'
 ht-degree: 1%
 ---
 # 使用工作代理
@@ -51,11 +51,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p>
+   <td><p>[！UICONTROL標準]</p>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td> 
+   <td>[！UICONTROL系統管理員]</td> 
   </tr> 
   </tbody> 
 </table>
@@ -74,7 +74,7 @@ ht-degree: 1%
 
 某些範例工作流程可能包括：
 
-* 偵測已上傳至任務的影像、根據提供給代理程式的條件產生變數，並將新影像上傳至任務。
+* 從工作詳細資料和附加的文字型檔案產生復本，然後將輸出張貼到更新串流或將其上傳為文字型檔案。
 * 從工作說明產生復本、根據代理程式中設定的准則複查復本，並將復本張貼至更新流。
 * 讀取事件的詳細資料、識別遺漏的詳細資料，以及在更新流中發佈有關遺漏詳細資料的問題。
 
@@ -94,7 +94,8 @@ ht-degree: 1%
 * 任務說明
 * 任務更新流中的註解
 * 附加到任務的任何自訂表單中的資訊
-* <span class="preview">附加檔案</span>
+* <span class="preview">附加的文字型檔案，例如DOC和PDF檔案</span>
+* <span class="preview">專案欄位（若在工作代理程式組態中設定）</span>
 
 此資訊一律會讀取且無法設定為Workfront設定。
 
@@ -104,6 +105,14 @@ ht-degree: 1%
 >
 >* 包括您希望代理程式直接在任務說明或相關自訂表格欄位中使用的任何背景資訊。
 >* 確定任務符合指示代理程式執行的操作。 例如，如果指示您的代理將文字從英文翻譯成法文，請在工作說明中加入您要翻譯的文字。
+
+## 工作代理程式可以採取的動作
+
+視工作代理程式在Workfront中的設定方式而定，它可以在完成工作後採取下列動作：
+
+* 寫入工作列位（如果已設定）
+* 上傳文字型檔案
+* 將任務標示為完成
 
 ## 工作代理程式啟動觸發程式
 
