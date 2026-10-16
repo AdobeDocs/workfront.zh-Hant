@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f3b3d154728bbaec422e4786452bac4b9ba9a400
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '513'
 ht-degree: 6%
 ---
 # 校訂Experience Manager Assets或Assets Essentials的連結資產
@@ -101,7 +101,7 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >如果您在使用者設定檔中啟用&#x200B;**上傳檔案時自動產生校訂**，則系統會自動建立簡易校訂。
+   >上傳檔案時自動產生校訂&#x200B;**設定不適用於連結資料夾中的檔案。**&#x200B;您必須手動建立這些檔案的校樣。
 
 1. 從下拉式清單中選擇下列其中一項：
 
