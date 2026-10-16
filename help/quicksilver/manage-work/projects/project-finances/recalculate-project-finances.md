@@ -9,22 +9,26 @@ exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
 TQID: https://experienceleague.adobe.com/b3urO3jsw7wxvdDhpYHZqgf01ewJi0LvulUaQHlCYWY
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 035783e301929fe2a26a9e7886276f49899b0e4a
 workflow-type: tm+mt
-source-wordcount: 1614
+source-wordcount: '1753'
 ht-degree: 1%
-
 ---
-
 # 重新計算專案財務
 
 當專案記錄的時數或用於計算成本和收入的費率發生變更時，在專案上計算財務。
@@ -146,7 +150,7 @@ ht-degree: 1%
 * 專案等級（適用於使用者）
 如需有關覆寫使用者成本費率的詳細資訊，請參閱專案層級[&#128279;](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md)的覆寫使用者成本費率。
 
-當上述任何層級的計費率變更時，您可以鎖定專案上記錄的時間，並使用舊費率計算至狀態為「已記帳」的計費記錄中，以保留已在專案上計算的現有成本。 如需建立付費記錄的詳細資訊，請參閱[建立付費記錄](../../../manage-work/projects/project-finances/create-billing-records.md)。
+當成本費率在上述任何層級變更時，您可以透過鎖定專案上記錄的時間並使用舊費率計算至帳單記錄（狀態為「已記帳」）來保留已在專案上計算的現有成本。 如需建立付費記錄的詳細資訊，請參閱[建立付費記錄](../../../manage-work/projects/project-finances/create-billing-records.md)。
 
 如果您不想建立付費記錄，也可以避免使用手動重新計算財務選項，如本文中[手動重新計算專案財務](#manually-recalculate-finances-for-a-project)一節所述。
 
@@ -183,7 +187,7 @@ ht-degree: 1%
    專案的所有計畫成本和收入會使用任何新資訊重新計算。
 
    您應該會在瀏覽器頂端收到確認，表示已成功重新計算專案的財務。
-現有成本值與某些尚未鎖定的收入值會更新以反映新的費率。
+   現有成本值與某些尚未鎖定的收入值會更新以反映新的費率。
 
 ## 手動大量重新計算財務{#manually-recalculate-finances-in-bulk}
 
@@ -217,9 +221,25 @@ ht-degree: 1%
 * 變更任務狀態
 * 將具有時數的任務移動到另一個專案
 * 將專案狀態從完成變更為使用中狀態
+* 在專案或任務層級新增可記帳費用
 
 >[!NOTE]
 >
 >當您變更專案狀態時，只會重新計算計畫值。
 
 您也可以按一下&#x200B;**重新計算財務**，在專案層級的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/qs-more-menu.png)下手動重新計算財務。
+
+### 費用如何影響自動財務重新計算
+
+將費用新增至專案和任務時，會出現以下情況：
+
+* 將不可記帳費用新增到專案會更新專案的成本，而不會重新計算所有財務。
+* 將不可開立帳單費用新增至任務時，會重新計算該任務的成本與專案成本。 不會重新計算任何其他任務。
+* 在專案或作業層次新增可開立帳單的費用會觸發專案的財務重新計算，包括人工成本與收入。
+
+>[!NOTE]
+>
+>當在費用上儲存計畫金額時，計畫成本會更新。 將實際金額儲存在費用上時，會更新實際成本。
+
+如需費用的詳細資訊，請參閱[管理專案費用](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md)。
+

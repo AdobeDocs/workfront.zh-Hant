@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e19eca57bfc65b561d08331c368aed92f19c05d2
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 29%
+source-wordcount: '481'
+ht-degree: 30%
 ---
 # [!DNL Workfront] 文件
 
@@ -42,9 +42,16 @@ ht-degree: 29%
 
 >[!TAB 最新版本]
 
-* [2026年第四季版本總覽](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
+* [2027年第一季度發行概觀](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)
 * [Adobe Workfront Planning發行活動](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md)
 * [Adobe Workfront Fusion 發行活動](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+
+>[!TAB 2027版本]
+
+* [2027年第一季度發行概觀](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)
+* [Adobe Workfront Planning發行活動](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+* [Adobe Workfront Fusion 發行活動](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+
 
 >[!TAB 2026版本]
 
@@ -53,6 +60,7 @@ ht-degree: 29%
 * [2026年第二季版本總覽](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
 * [2026年第一季版本總覽](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)
 * [Adobe Workfront Planning發行活動](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+* [Adobe Workfront Fusion 發行活動](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
 
 
 >[!TAB 2025版本]

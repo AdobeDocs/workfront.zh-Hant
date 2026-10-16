@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 6264202c41efa103b143ecbfd8a6acba29020fc0
+source-git-commit: 23c046611fccec4106f0830fdf7fa89c18613f9e
 workflow-type: tm+mt
-source-wordcount: '14648'
+source-wordcount: '14687'
 ht-degree: 2%
 ---
 # Workfront 指南 {#using}
@@ -17,6 +17,9 @@ ht-degree: 2%
     * [產品發行概觀](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront發行排程和程式](product-announcements/product-releases/workfront-release-schedule.md)
     * [準備Adobe Workfront的季度發行](product-announcements/product-releases/release-readiness.md)
+    * 2027年第1季發行 {#release-27-q1}
+      * [2027年第一季度發行概觀](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)
+      * [2027年第一季度專案增強功能](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md)
     * 2026年第4季發行 {#release-26-q4}
       * [2026年第四季版本總覽](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
       * [2026年第四季管理員增強功能](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md)
@@ -486,7 +489,6 @@ ht-degree: 2%
       * [專案時間表重新計算](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
       * [啟用自訂季度和周](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
       * [啟用或停用組織的快速發行](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
-      * [為您的組織啟用Adobe雲端儲存空間](administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
       * [將舊版產品組合轉換為Adobe雲端儲存空間](administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md)
       * [建立和編輯業務規則](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
       * [設定自訂本地化](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
@@ -1929,9 +1931,14 @@ ht-degree: 2%
   * [檢閱和核准工作](review-and-approve-work/review-and-approve-work.md)
   * [統一檢閱和核准總覽](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
   * [開始使用統一檢閱和核准](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
-  * [在Adobe雲端儲存空間上移至Workfront](/help/quicksilver/review-and-approve-work/workfront-storage.md)
   * [非付費使用者的有限檔案和校訂決定概覽](review-and-approve-work/proof-doc-decision-limits.md)
   * {hide-from-toc}[設定AI檢閱者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
+  * 在Adobe雲端儲存空間上移至Workfront {#move-to-adobe-cloud-storage}
+    * [在Adobe雲端儲存空間上移至Workfront](/help/quicksilver/review-and-approve-work/workfront-storage.md)
+    * [Adobe雲端儲存空間有何不同](/help/quicksilver/review-and-approve-work/adobe-cloud-storage-whats-different.md)
+    * [規劃您的Adobe雲端儲存空間轉出](/help/quicksilver/review-and-approve-work/plan-adobe-cloud-storage-rollout.md)
+    * [為您的組織啟用Adobe雲端儲存空間](administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
+    * [將舊版物件轉換為Adobe雲端儲存空間](/help/quicksilver/review-and-approve-work/convert-objects-to-adobe-cloud-storage.md)
   * 工作核准 {#work-approvals}
     * [工作核准](review-and-approve-work/manage-approvals/manage-approvals.md)
     * [核准程序概觀](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
@@ -1957,8 +1964,8 @@ ht-degree: 2%
       * [為AI檢閱者建立和管理品牌](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
       * [建立檔案稽核或核准請求](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
       * [建立群組核准](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-grouped-approval.md)
-      * {hide-from-toc}[檢閱群組核准](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/review-a-grouped-approval.md)
-      * {hide-from-toc}[管理群組核准](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-grouped-approvals.md)
+      * [檢閱群組核准](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/review-a-grouped-approval.md)
+      * [管理分組的核准](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-grouped-approvals.md)
       * [將其他檢閱者或核准者新增至資產或檔案](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
       * [從資產或檔案中移除核准者或稽核者](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
       * [建立資產和檔案的核准範本](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)

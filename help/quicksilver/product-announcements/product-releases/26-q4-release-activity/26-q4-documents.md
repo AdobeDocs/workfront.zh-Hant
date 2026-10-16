@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 9a6798d8c5d0ec621c9b0c3da9026973c9e0e701
+source-git-commit: fd5df8f333ecc83ef87a753133a0ac46f04497db
 workflow-type: tm+mt
 source-wordcount: '1723'
 ht-degree: 0%
@@ -55,8 +55,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >Preview: October 8, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Production fast release: October 22, 2026
+>Production for everyone: October 22, 2026
 >[!BADGE Off schedule]{type=Neutral}
 
 You can now delegate your unified document approvals to another user, who can approve, reject, or mark reviews complete on your behalf during the delegation period. Delegated decisions show both names in the approval workflow, so it's clear who made each decision.
@@ -72,7 +72,7 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >[!NOTE]
 >
 >預覽：此功能在預覽Sandbox環境中無法使用，因為在此處無法使用Frame.io整合。
->生產快速發行： 2026年10月14日
+>生產快速發行： 2026年10月15日
 >適用於所有人的生產： 2026年10月15日
 
 您現在可以在單一核准工作流程下將多個檔案分組，以便它們一起經過相同的階段。
@@ -88,7 +88,7 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >[!NOTE]
 >
 >預覽：此功能在預覽Sandbox環境中無法使用，因為在此處無法使用Frame.io整合。
->生產快速發行： 2026年10月14日
+>生產快速發行： 2026年10月15日
 >適用於所有人的生產： 2026年10月15日
 >[!BADGE 不在排程]{type=Neutral}內
 
@@ -102,7 +102,7 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >
 >預覽： 2026年7月30日
 >生產快速發行： 2026年8月13日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 核准範本現在預設為私人。 以前，每個核准請求者都可以看到系統中的每個範本，這使得範本清單冗長且難以瀏覽。 現在，範本僅對建立它的使用者可見，除非建立者共用它。
 
@@ -134,7 +134,7 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >
 >預覽：不適用
 >生產快速發行： 2026年9月17日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 為檔案建立核准工作流程時，使用者可以在Frame.io檢視器中留下註解及製作註解。 這些註解不會顯示在「Workfront註解」面板中，但您可以在Frame.io檢視器中檢視它們。
 
@@ -148,7 +148,7 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >
 >預覽：不適用
 >生產快速發行： 2026年9月17日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 當檔案附加校訂時，核准電子郵件中的「前往檢閱」連結現在會直接開啟校訂檢視器，因此檢閱者和核准者可以立即開始檢閱。 如果檔案沒有校訂，連結會繼續開啟檔案的核准區段，就像之前一樣。
 
@@ -158,7 +158,7 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >
 >預覽： 2026年9月3日
 >生產快速發行： 2026年9月17日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 您現在可以在檔案核准或核准範本上新增Workfront團隊作為核准者或稽核者，而不是分別新增每個人：
 
@@ -178,7 +178,7 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >
 >預覽： 2026年9月3日
 >生產快速發行： 2026年9月17日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 如果您的組織使用Adobe雲端儲存空間，而且您擁有Frame.io Enterprise授權，您現在可以在專案範本的專案詳細資訊中選擇Frame.io工作區。 從範本建立的專案會自動使用範本上設定的工作區，因此專案會路由到所需的Frame.io工作區，而不需要在專案建立時執行額外的動作。
 
@@ -198,7 +198,7 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 >
 >Preview: September 3, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 Review and approval buttons now look and work the same everywhere you review documents: My approvals widget in Home, Document summary panel, the Document Details page, and the document preview page.
 
@@ -220,8 +220,8 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 >[!NOTE]
 >
 >預覽：不適用
->適用於所有人的生產： 2026年10月15日
->此功能未按原計畫於2026年9月17日在生產環境快速發行中發行。 現在將於2026年10月15日在生產環境中向所有人提供。
+>適用於所有人的生產： 2026年10月22日
+>此功能未按原計畫於2026年9月17日在生產環境快速發行中發行。 現在將於2026年10月22日在生產環境中向所有人提供。
 
 當您在檔案核准上設定自訂訊息時，該訊息現在也會顯示在核准請求電子郵件的主旨行中，在設定到期日期之前先行。 這可讓檢閱者直接從其收件匣檢視需要注意的事項和方式，而不需開啟電子郵件。
 
@@ -233,7 +233,7 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 >
 >預覽： 2026年9月3日
 >生產快速發行： 2026年9月17日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 如果您的組織使用Adobe雲端儲存空間，則新「檔案」區域中的「版本」面板會採用新設計：
 
@@ -251,7 +251,7 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 >
 >預覽： 2026年9月3日
 >生產快速發行： 2026年9月17日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 如果您的組織使用Adobe雲端儲存空間，則新「檔案」區域中的「核准」面板現在會顯示各個版本的核准歷史記錄：
 
@@ -284,7 +284,7 @@ Adobe雲端儲存空間組織現在支援所有媒體型別影像格式。 （�
 >
 >預覽： 2026年7月30日
 >生產快速發行： 2026年8月13日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 如果您的組織使用Adobe雲端儲存空間，您可以將來自Experience Manager Assets的個別資產連結至任何支援檔案的Workfront物件。 連結的內容會自動保持同步：在Experience Manager Assets中進行的變更會顯示在Workfront中，而您可以提取新的資產版本而不離開Workfront。
 
@@ -300,7 +300,7 @@ Adobe雲端儲存空間組織現在支援所有媒體型別影像格式。 （�
 >
 >Preview: July 30, 2026
 >Production fast release: August 13, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 Approval templates are now private by default. Previously, every approval requester could see every template in the system, which made template lists long and hard to navigate. Now, a template is visible only to the user who created it, unless the creator shares it.
 

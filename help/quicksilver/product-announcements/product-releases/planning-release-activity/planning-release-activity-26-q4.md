@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
+source-git-commit: 34b3f57d2339d13dd3b331b1c51e2bd0f9333843
 workflow-type: tm+mt
-source-wordcount: '3156'
+source-wordcount: '3261'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 2026年第四季發行活動
@@ -31,13 +31,43 @@ ht-degree: 0%
 
 <!--
 
+## New Status field value and Tracking ID field for Activations records
+
+>[!NOTE]
+>
+>Preview and production: October 16, 2026
+>[!BADGE Off schedule]{type=Neutral}
+>Available only for customers with GenStudio for Performance Marketing
+
+GenStudio for Performance Marketing Activations records now include an optional Tracking ID field that stores the resolved value for each segment of a Tracking ID formula, along with any errors. A new "Generating" status choice indicates that the Tracking ID generation is in progress. The activation status returns to "Draft" when the generation finishes or fails. Existing activations are unaffected.
+
+ For information, see [Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
+
+-->
+
+## 使用Co-worker和Workfront Planning的Workfront MCP伺服器建立和管理商業規則
+
+>[!NOTE]
+>
+>預覽： 2026年10月12日
+>適用於所有人的生產： 2026年10月22日
+>[!BADGE 不在排程]{type=Neutral}內
+
+我們已為Co-worker和Workfront MCP伺服器新增管理Planning商業規則的技能。
+
+您現在可以使用「同事」或Workfront MCP來建立、列出、檢視、更新及刪除記錄型別的商業規則。 新技能也可協助您產生公式引擎接受的商業規則公式，因此您會取得較少的無效公式。
+
+如需詳細資訊，請參閱[CX Enterprise Coworker中的Workfront技能](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)或[使用Adobe Workfront MCP伺服器](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)。
+
+<!--
+
 ## See the total record count in table views
 
 >[!NOTE]
 >
 >Preview: October 1, 2026
 >Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 The table view now shows the total number of records, with no setup required, and the count updates automatically as you apply filters, search, or change the view.
 
@@ -53,7 +83,7 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >
 >預覽： 2026年10月1日
 >生產快速發行： 2026年10月14日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 所有Planning檢視中的多值篩選器運運算元已更新為「為任何」和「不為」，而非「具有任何」和「沒有為」，為您提供更清晰、更一致的Workfront篩選器產生器措辭。
 
@@ -67,7 +97,7 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >
 >預覽： 2026年10月1日
 >生產快速發行： 2026年10月14日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 我們在表格檢視中引進了其他欄位型別的彙總。 在此增強功能之前，只有數字相關欄位會在欄底部顯示彙總。
 
@@ -89,7 +119,7 @@ For information, see [Manage the table view](/help/quicksilver/planning/views/ma
 >
 >預覽： 2026年10月1日
 >生產快速發行： 2026年10月14日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 Workspace建立者目前會指派為預設擁有者。 透過此更新，工作區管理員可從共用對話方塊將擁有權轉移給其他Standard-license使用者。
 
@@ -103,7 +133,7 @@ Workspace建立者目前會指派為預設擁有者。 透過此更新，工作�
 >
 >預覽： 2026年10月1日
 >生產快速發行： 2026年10月14日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 您現在可以在時間軸檢視中排序記錄和群組。 在此增強功能之前，此功能無法使用。
 
@@ -115,7 +145,7 @@ Workspace建立者目前會指派為預設擁有者。 透過此更新，工作�
 >
 >預覽： 2026年9月25日
 >生產快速發行： 2026年10月14日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 Workspace管理員現在可以控制對個別欄位的存取，允許特定使用者和團隊檢視、編輯或完全限制相同記錄型別中的敏感資料。
 
@@ -131,7 +161,7 @@ Workspace管理員現在可以控制對個別欄位的存取，允許特定使�
 >
 >預覽： 2026年9月25日
 >生產快速發行： 2026年10月14日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 您現在可以從新請求體驗的「請求」區域，與其他人共用Planning請求。
 
@@ -145,7 +175,7 @@ Workspace管理員現在可以控制對個別欄位的存取，允許特定使�
 >
 >預覽： 2026年9月25日
 >生產快速發行： 2026年10月14日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 Workspace管理員現在可以為每個Planning請求表單建立單階段或多階段核准流程，將一個或多個核准者或團隊指派給每個階段，並重複使用現有核准範本以加快設定。 在階段中簽署所有需要的核准者後，請求會自動前進，當請求到達其階段時，會通知每個核准者。 請求者和核准者可以追蹤請求處於哪個階段，並檢視哪些核准仍在擱置中。
 
@@ -157,7 +187,7 @@ Workspace管理員現在可以為每個Planning請求表單建立單階段或多
 >
 >預覽： 2026年9月25日
 >生產快速發行： 2026年10月14日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 您現在可以根據連線欄位值，在Planning要求表單中建立進階顯示邏輯，讓表單能適應要求者選取的專案。 建立此邏輯時，支援所有Planning欄位，包括連線欄位。
 
@@ -171,7 +201,7 @@ Workspace管理員現在可以為每個Planning請求表單建立單階段或多
 >
 >預覽： 2026年9月25日
 >生產快速發行： 2026年10月14日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 Workfront和工作區管理員現在可以在設定請求表單時，指出請求者在其請求中收到的許可權等級。
 
@@ -196,7 +226,7 @@ AI Form Fill現在可以直接從由其連結參考的Planning記錄中擷取欄
 >
 >預覽：自2026年9月3日起分階段推出
 >生產快速發行：自2026年9月17日起分階段推出
->所有人的生產：自2026年10月15日起的分階段推出
+>所有人的生產：自2026年10月22日起的分階段推出
 
 CX Enterprise Coworker現在可在Workfront Planning中使用。 現在，您可以在整個CX Enterprise Coworker Planning提供的面板中存取Workfront。
 
@@ -218,7 +248,7 @@ CX Enterprise Coworker Chat是一個對話式介面，用於完成工作。 以�
 >
 >預覽：自2026年9月16日起分階段推出
 >生產快速發行：自2026年9月17日起分階段推出
->所有人的生產：自2026年10月15日起的分階段推出
+>所有人的生產：自2026年10月22日起的分階段推出
 >[!BADGE 不在排程]{type=Neutral}內
 
 在Workfront中擁有CX Enterprise Coworker的客戶可使用此變更。
@@ -237,7 +267,7 @@ CX Enterprise Coworker Chat是一個對話式介面，用於完成工作。 以�
 >
 >預覽： 2026年9月17日
 >生產快速發行： 2026年10月14日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 現在即使存在一對一或一對多連線的記錄，也可以複製記錄。 複製後，使用者可以選擇將連線的記錄保留在原始記錄上，或將其連線到新記錄。 「保持原始」為預設選項。
 
@@ -251,7 +281,7 @@ CX Enterprise Coworker Chat是一個對話式介面，用於完成工作。 以�
 >
 >預覽： 2026年9月3日
 >生產快速發行： 2026年9月17日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 您現在可以在編輯表格檢視中的主要欄位欄時，管理記錄縮圖和顏色的可見度。
 
@@ -265,7 +295,7 @@ CX Enterprise Coworker Chat是一個對話式介面，用於完成工作。 以�
 >
 >預覽： 2026年9月3日
 >生產快速發行： 2026年9月17日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 身為工作區管理員，您現在可以設定記錄型別的商業規則，以便稍後反映該型別記錄的管理方式。 您可以定義規則，讓使用者只有在符合特定條件或填入特定欄位時，才能編輯或刪除記錄。
 
@@ -292,7 +322,7 @@ CX Enterprise Coworker Chat是一個對話式介面，用於完成工作。 以�
 >
 >預覽： 2026年9月3日
 >生產快速發行： 2026年9月17日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 身為Workfront管理員，您現在除了自訂季度之外，還可以設定自訂周數。 自訂周數和季度數可從Workfront Planning時間表檢視中檢視。 Workfront會在自訂第1季開始時，產生從第1週開始的連續周。
 
@@ -308,7 +338,7 @@ CX Enterprise Coworker Chat是一個對話式介面，用於完成工作。 以�
 >
 >預覽： 2026年9月3日
 >生產快速發行： 2026年9月17日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 現在當您在Planning中新增連線時，可以篩選符合篩選條件的特定記錄型別。
 
@@ -324,7 +354,7 @@ CX Enterprise Coworker Chat是一個對話式介面，用於完成工作。 以�
 >
 >預覽： 2026年8月27日
 >生產快速發行： 2026年9月17日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 時間表檢視現在包含群組時間表的「全部摺疊」和「全部展開」選項。 這可讓您更輕鬆地導覽大型藍圖檢視：您可以快速將檢視縮減為分組標題，然後僅展開您要檢閱的區段。
 
@@ -336,7 +366,7 @@ CX Enterprise Coworker Chat是一個對話式介面，用於完成工作。 以�
 >
 >預覽： 2026年8月27日
 >生產快速發行： 2026年9月17日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 在時間軸檢視中，現在游標停留在截斷的群組標籤上，會在工具提示中顯示全文，包括泳道和棧疊群組顯示。 未截斷的標籤不會顯示工具提示。
 
@@ -350,7 +380,7 @@ CX Enterprise Coworker Chat是一個對話式介面，用於完成工作。 以�
 >
 >預覽： 2026年8月27日
 >生產快速發行： 2026年9月17日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 行事曆周檢視現在只會顯示可見週期間內的前1,000筆記錄。 如果有更多記錄，則行事曆底部會顯示以下訊息，指出有其他記錄可用：「有更多記錄。 載入更多。」
 
@@ -362,7 +392,7 @@ CX Enterprise Coworker Chat是一個對話式介面，用於完成工作。 以�
 >
 >預覽： 2026年8月20日
 >生產快速發行： 2026年9月17日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 我們針對表格檢視中相依的已連線記錄欄位，在視覺上改善欄標題。
 
@@ -374,7 +404,7 @@ CX Enterprise Coworker Chat是一個對話式介面，用於完成工作。 以�
 >
 >預覽： 2026年8月13日
 >生產快速發行： 2026年8月13日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 >[!BADGE 不在排程]{type=Neutral}內
 
 在表格檢視中拖放多列時，會有新的視覺指示器。 更突出的加號和數字指示器現在會顯示為拖放動作選取了多少列。
@@ -387,7 +417,7 @@ CX Enterprise Coworker Chat是一個對話式介面，用於完成工作。 以�
 >
 >預覽： 2026年8月13日
 >生產快速發行： 2026年9月17日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 透過提交請求表單為全域記錄型別建立的記錄現在會自動路由到從中提交記錄的工作區。
 
@@ -421,7 +451,7 @@ CX Enterprise Coworker Chat是一個對話式介面，用於完成工作。 以�
 >
 >預覽： 2026年7月30日
 >生產快速發行： 2026年8月13日
->所有人的生產： 2026年10月15日
+>所有人的生產： 2026年10月22日
 
 在表格檢視中拖放單一列的體驗已獲得視覺上的改善。
 
@@ -434,7 +464,7 @@ CX Enterprise Coworker Chat是一個對話式介面，用於完成工作。 以�
 >
 >預覽： 2026年7月30日
 >生產快速發行： 2026年8月13日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 Workspace管理員現在可以定義已連線記錄型別之間的相依性。 例如，確定區域欄位只會顯示與所選地理繫結的值。 這直接在連線欄位設定中設定：當從地域記錄型別新增連線到相依記錄型別（例如地區）時，新設定可讓工作區管理員使用在這些記錄型別之間已建立的關係，將其標籤為相依於地域記錄型別。
 
@@ -455,7 +485,7 @@ Workspace管理員現在可以定義已連線記錄型別之間的相依性。 �
 >
 >預覽： 2026年7月30日
 >生產快速發行： 2026年8月13日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 我們新增了一個指標，顯示記錄中何時有未讀取的評論。 指標顯示在表格檢視中記錄的主要欄位的右上角。
 
@@ -467,7 +497,7 @@ Workspace管理員現在可以定義已連線記錄型別之間的相依性。 �
 > 
 >預覽： 2026年7月23日
 >生產快速發行： 2026年8月13日
->所有人的生產： 2026年10月15日
+>所有人的生產： 2026年10月22日
 
 記錄現在支援可自訂的調色盤，可讓您將自動指派給新記錄的顏色更新為標準或自訂顏色。
 

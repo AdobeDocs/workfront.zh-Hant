@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 1015301c058f538dac450299f709b52e0718d067
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 16%
+source-wordcount: '307'
+ht-degree: 17%
 ---
 # 使用診斷來觸發自動化流程
 
@@ -71,7 +71,7 @@ ht-degree: 16%
 
 ## 使用診斷來觸發自動化流程
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![齒輪設定圖示](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. 展開&#x200B;**系統**，然後按一下&#x200B;**診斷**。
 1. 從下列任一選項中選取：

@@ -7,30 +7,28 @@ description: 您可以為貴組織啟用Adobe雲端儲存空間，針對所有Ad
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
-last-update: 2026-04-01T18:03:50.000Z
-git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-    internal-label: Workfront
-feature_v2:
-  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
-    internal-label: System Setup and Administration
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-    internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 7a21293ad984311b274fe6a7c79e081e9bc8b156
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 4%
+source-wordcount: '636'
+ht-degree: 3%
+
 ---
 # 為您的組織啟用Adobe雲端儲存空間
 
-Adobe雲端儲存空間是適用於所有Adobe產品的統一儲存解決方案。 這是雲端型儲存解決方案，可作為Adobe企業產品中資產的中央存放庫。
+Adobe雲端儲存是統一的雲端型儲存解決方案，可作為Adobe企業產品中資產的中央存放庫。 本文說明如何啟用Adobe雲端儲存空間，作為整個組織或特定群組的預設儲存空間選項。
 
-新客戶預設啟用Adobe雲端儲存空間，現有客戶亦可在續約時啟用。
+此單一動作會開啟新體驗：啟用後，新專案就會使用Adobe雲端儲存空間，其中包括Frame.io檢視器和「統一核准」。 在您選擇啟用Adobe雲端儲存空間之前，不會有任何變更。
 
-如需Adobe雲端儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+由於您可以控制時間，因此可以測試體驗、更新Workfront Fusion案例，以及在任何使用者使用之前規劃報表變更。 如需差異以及如何規劃轉出的詳細資訊，請參閱[在Adobe雲端儲存空間上移至Workfront](/help/quicksilver/review-and-approve-work/workfront-storage.md)。
+
+## 核准如何與Adobe雲端儲存空間搭配運作
+
+Adobe雲端儲存空間會決定專案要使用的核准服務。 移到支援Adobe雲端儲存空間的Workfront版本，不會自動將整個組織切換為統一核准。 相反，核准服務取決於每個專案的儲存模式：
+
+* **Adobe雲端儲存空間專案**&#x200B;預設會使用統一核准，並在Frame.io檢視器中經過檢閱和核准。
+* **舊版Workfront儲存專案**&#x200B;保留已使用的核准服務。 根據您的組織，這可以是統一核准或舊版檔案核准。
+
+如需有關Adobe雲端儲存空間上的檢閱和核准體驗的詳細資訊，請參閱[在Adobe雲端儲存空間上移至Workfront](/help/quicksilver/review-and-approve-work/workfront-storage.md)。
 
 ## 存取權要求
 
@@ -78,10 +76,10 @@ Adobe雲端儲存空間是適用於所有Adobe產品的統一儲存解決方案�
 
 1. 在「套用至」下拉式功能表中，選擇下列其中一個選項：
 
-   - **整個組織**：此選項會將預設儲存提供者套用至您的整個Workfront環境。 每當使用者建立新專案時，都會使用預設的儲存提供者。
-   - **特定群組**：此選項只會將預設儲存提供者套用至您組織內的特定群組。 每當指定群組中的使用者建立新專案時，都會使用預設的儲存提供者
+   * **整個組織**：此選項會將預設儲存提供者套用至您的整個Workfront環境。 每當使用者建立新專案時，都會使用預設的儲存提供者。
+   * **特定群組**：此選項只會將預設儲存提供者套用至您組織內的特定群組。 每當指定群組中的使用者建立新專案時，都會使用預設的儲存提供者。
 
-   ![儲存偏好設定群組](assets/configure-storage-preference.png)
+     ![儲存偏好設定群組](assets/configure-storage-preference.png)
 
 1. 按一下「**儲存**」。
 

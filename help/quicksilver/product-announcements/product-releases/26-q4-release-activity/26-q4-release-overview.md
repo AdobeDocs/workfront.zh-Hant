@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 9a6798d8c5d0ec621c9b0c3da9026973c9e0e701
+source-git-commit: fd5df8f333ecc83ef87a753133a0ac46f04497db
 workflow-type: tm+mt
-source-wordcount: '3601'
+source-wordcount: '3584'
 ht-degree: 1%
 ---
 # 2026年第四季版本總覽
@@ -33,9 +33,9 @@ ht-degree: 1%
 >
 >| 每月發行 | 每季發行 |
 >|----|----|
->| <ul><li>26.8 （2026年8月13日）</li><li>26.9 （2026年9月17日）</li><li>26.10 （2026年10月14日）</li></ul> | <ul><li>26.10 （2026年10月15日）</li></ul> |
+>| <ul><li>26.8 （2026年8月13日）</li><li>26.9 （2026年9月17日）</li><li>26.10 （2026年10月14日）</li></ul> | <ul><li>26.10 （2026年10月22日）</li></ul> |
 >
->* 請注意，對於每季的最終發行（本季26.10版），快速發行排程中的使用者將提前一天收到發行（2026年10月14日）。
+>* 26.10 （2026年10月）已移至2026年10月22日。
 >
 >   如需快速發行程式的詳細資訊，請參閱[啟用或停用快速發行程式](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。
 >* 在26.10版（2026年10月）中，功能在預覽環境中最後出現的日期為10月1日。
@@ -69,8 +69,8 @@ ht-degree: 1%
                 <p>Workfront管理員現在可以在單一可篩選的「僱用歷史記錄」檢視中，追蹤使用者工作角色、代理、成本中心和計費率在一段時間內的變更。</p>
             </td>
             <td><p>2026年10月1日</p></td>
-            <td><p>2026年10月14日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>
@@ -78,8 +78,8 @@ ht-degree: 1%
                 <p>Workfront管理員現在可以使用AI產生自訂本地化文字的翻譯，並在儲存前檢閱或調整結果。</p>
             </td>
             <td><p>2026年10月1日</p></td>
-            <td><p>2026年10月14日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>
@@ -87,8 +87,8 @@ ht-degree: 1%
                 <p>對版面配置範本進行了幾項增強，包括在主功能表中隱藏或顯示專案、在主功能表中定位自訂應用程式，以及在左側導覽中隱藏詳細資訊。</p>
             </td>
             <td><p>2026年10月1日</p></td>
-            <td><p>2026年10月14日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
 <!--
         <tr>
@@ -97,8 +97,8 @@ ht-degree: 1%
                 <p>Administrators can now configure MCP Tools permissions by access level to control how Workfront data is used through the Workfront MCP.</p>
             </td>
             <td><p>October 1, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 -->
 <!--
@@ -108,8 +108,8 @@ ht-degree: 1%
                 <p>Several enhancements have been made to layout templates, including the ability to hide or display system items in the Main Menu, reposition custom applications, and hide an object's Details page from the left navigation panel.</p>
             </td>
             <td><p>October 1, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 -->        
         <tr>
@@ -118,8 +118,8 @@ ht-degree: 1%
                 <p>為了讓您更輕鬆地建立和管理您組織的活動訂閱，我們將「活動訂閱」區域新增到「設定」。</p>
             </td>
             <td><p>2026年10月1日</p></td>
-            <td><p>2026年10月14日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>
@@ -127,8 +127,8 @@ ht-degree: 1%
                 <p>使用表單設計工具中的下拉式欄位、選項按鈕和核取方塊時，您現在可以在單一對話方塊中新增、編輯和刪除欄位選項。</p>
             </td>
             <td><p>2026年10月1日</p></td>
-            <td><p>2026年10月14日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>
@@ -136,8 +136,8 @@ ht-degree: 1%
                 <p>Workfront管理員現在可以維護信任的OAuth回呼URL允許清單，讓自訂AI代理平台可以連線至Workfront MCP伺服器。</p>
             </td>
             <td><p>2026年9月22日</p></td>
-            <td><p>2026年10月14日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>
@@ -146,7 +146,7 @@ ht-degree: 1%
             </td>
             <td><p>2026年9月3日</p></td>
             <td><p>2026年9月17日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>
@@ -155,7 +155,7 @@ ht-degree: 1%
             </td>
             <td><p>2026年9月3日</p></td>
             <td><p>2026年9月17日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>
@@ -164,7 +164,7 @@ ht-degree: 1%
             </td>
             <td><p>2026年9月3日</p></td>
             <td><p>2026年9月17日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
 <!--
         <tr>
@@ -174,7 +174,7 @@ ht-degree: 1%
             </td>
             <td><p>August 20, 2026</p></td>
             <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 -->
         <tr>
@@ -184,7 +184,7 @@ ht-degree: 1%
             </td>
             <td><p>2026年7月30日</p></td>
             <td><p>2026年8月13日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>
@@ -193,7 +193,7 @@ ht-degree: 1%
             </td>
             <td><p>2026年7月30日</p></td>
             <td><p>2026年8月13日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>
@@ -202,7 +202,7 @@ ht-degree: 1%
             </td>
             <td><p>2026年7月30日</p></td>
             <td><p>2026年8月13日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>
@@ -211,7 +211,7 @@ ht-degree: 1%
             </td>
             <td><p>2026年7月30日</p></td>
             <td><p>2026年8月13日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>
@@ -220,7 +220,7 @@ ht-degree: 1%
             </td>
             <td><p>2026年7月30日</p></td>
             <td><p>2026年8月13日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>
@@ -229,7 +229,7 @@ ht-degree: 1%
             </td>
             <td><p>2026年7月30日</p></td>
             <td><p>2026年8月13日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>
@@ -238,7 +238,7 @@ ht-degree: 1%
             </td>
             <td><p>2026年7月30日</p></td>
             <td><p>2026年8月13日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>
@@ -247,7 +247,7 @@ ht-degree: 1%
             </td>
             <td><p>2026年7月30日</p></td>
             <td><p>2026年8月13日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
     </tbody>
 </table>
@@ -270,8 +270,8 @@ ht-degree: 1%
                 <p>Project Coordinators can monitor project status and send daily or weekly updates without requiring a separate custom agent setup.</p>
             </td>
             <td><p>October 1, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 -->        
         <tr>
@@ -280,8 +280,8 @@ ht-degree: 1%
                 <p>AI共同作業人員現在可以與代理程式處理任務和問題、使用檔案內容，並在更新區域中即時發佈更新。</p>
             </td>
             <td><p>2026年10月1日</p></td>
-            <td><p>2026年10月14日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>
@@ -290,7 +290,7 @@ ht-degree: 1%
             </td>
             <td><p>自2026年9月3日起分階段推出</p></td>
             <td><p>自2026年9月17日起分階段推出</p></td>
-            <td><p>自2026年10月15日起分階段推出</p></td>
+            <td><p>自2026年10月22日起分階段推出</p></td>
         </tr>
         <tr>
             <td>
@@ -326,7 +326,7 @@ ht-degree: 1%
             </td>
             <td><p>2026年7月30日</p></td>
             <td><p>2026年8月13日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>
@@ -335,7 +335,7 @@ ht-degree: 1%
             </td>
             <td><p>2026年7月30日</p></td>
             <td><p>2026年8月13日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>
@@ -344,7 +344,7 @@ ht-degree: 1%
             </td>
             <td><p>2026年9月3日</p></td>
             <td><p>2026年9月17日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
     </tbody>
 </table>
@@ -376,8 +376,8 @@ ht-degree: 1%
                 <p>You can now delegate your unified document approvals to another user, who can approve, reject, or mark reviews complete on your behalf during the delegation period.</p>
             </td>
             <td><p>October 8, 2026</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 -->        
          <tr>
@@ -386,7 +386,7 @@ ht-degree: 1%
                 <p>您現在可以在單一核准工作流程下將多個檔案分組，以便它們一起經過相同的階段。</p>
             </td>
             <td><p>此功能在預覽Sandbox環境中無法使用，因為在此處無法使用Frame.io整合。</p></td>
-            <td><p>2026年10月14日</p></td>
+            <td><p>2026年10月15日</p></td>
             <td><p>2026年10月15日</p></td>
         </tr>
         <tr>
@@ -395,7 +395,7 @@ ht-degree: 1%
                 <p>您現在可以在新的「檔案」區域中，將網站作為網頁連結新增至Adobe Workfront，並在即時網頁上請求核准。</p>
             </td>
             <td><p>此功能在預覽Sandbox環境中無法使用，因為在此處無法使用Frame.io整合。</p></td>
-            <td><p>2026年10月14日</p></td>
+            <td><p>2026年10月15日</p></td>
             <td><p>2026年10月15日</p></td>
         </tr>
         <tr>
@@ -423,7 +423,7 @@ ht-degree: 1%
             </td>
             <td><p>不適用</p></td>
             <td><p>2026年9月17日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>
@@ -432,7 +432,7 @@ ht-degree: 1%
             </td>
             <td><p>不適用</p></td>
             <td><p>2026年9月17日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">使用Adobe雲端儲存空間將團隊新增至物件的核准</a>
@@ -440,7 +440,7 @@ ht-degree: 1%
             </td>
             <td><p>2026年9月3日</p></td>
             <td><p>2026年9月17日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>
@@ -449,7 +449,7 @@ ht-degree: 1%
             </td>
             <td><p>2026年9月3日</p></td>
             <td><p>2026年9月17日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
 <!--
         <tr>
@@ -459,7 +459,7 @@ ht-degree: 1%
             </td>
             <td><p>September 3, 2026</p></td>
             <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 -->
         <tr>
@@ -468,8 +468,8 @@ ht-degree: 1%
                 <p>在檔案核准上設定的自訂訊息現在也會顯示在核准請求電子郵件的主旨列中。</p>
             </td>
             <td><p>不適用</p></td>
-            <td><p>2026年10月15日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>
@@ -478,7 +478,7 @@ ht-degree: 1%
             </td>
             <td><p>2026年9月3日</p></td>
             <td><p>2026年9月17日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>
@@ -487,7 +487,7 @@ ht-degree: 1%
             </td>
             <td><p>2026年9月3日</p></td>
             <td><p>2026年9月17日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>
@@ -496,7 +496,7 @@ ht-degree: 1%
             </td>
             <td><p>2026年7月30日</p></td>
             <td><p>2026年8月13日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>
@@ -514,7 +514,7 @@ ht-degree: 1%
             </td>
             <td><p>2026年7月30日</p></td>
             <td><p>2026年8月13日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
 <!--
         <tr>
@@ -524,7 +524,7 @@ ht-degree: 1%
             </td>
             <td><p>July 30, 2026</p></td>
             <td><p>August 13, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>October 22, 2026</p></td>
         </tr>
 -->
     </tbody>
@@ -547,8 +547,8 @@ ht-degree: 1%
                 <p>專案範本現在支援帳單費率的增強型清單改進和費率屬性更新。</p>
             </td>
             <td><p>2026年10月1日</p></td>
-            <td><p>2026年10月14日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>    
         <tr>
             <td>
@@ -557,7 +557,7 @@ ht-degree: 1%
             </td>
             <td><p>2026年9月3日</p></td>
             <td><p>2026年9月17日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>
@@ -566,7 +566,7 @@ ht-degree: 1%
             </td>
             <td><p>2026年9月3日</p></td>
             <td><p>2026年9月17日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
     </tbody>
 </table>
@@ -589,7 +589,7 @@ ht-degree: 1%
             </td>
             <td><p>2026年7月30日</p></td>
             <td><p>2026年8月13日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
     </tbody>
 </table>
@@ -611,8 +611,8 @@ ht-degree: 1%
                 <p>Google Cloud Platform (GCP)和Azure上的Workfront執行個體現在可以選擇加入「畫布控制面板」開放Beta版。</p>
             </td>
             <td><p>不適用</p></td>
-            <td><p>2026年10月14日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
            <tr>
             <td>
@@ -620,8 +620,8 @@ ht-degree: 1%
                 <p>您現在可以透過註冊私人清單，直接與組織的Snowflake帳戶共用您的Workfront Data Connect資料。 此連線方法使用Snowflake的私人清單功能，在不公開資料的情況下在組織之間安全地共用資料，並且跨地區和託管平台運作。</p>
             </td>
             <td><p>不適用</p></td>
-            <td><p>2026年10月14日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>
@@ -629,8 +629,8 @@ ht-degree: 1%
                 <p>您現在可以使用自然語言提示和結構化的儀表板動作，透過Claude和Cursor等MCP使用者端建立和管理畫布儀表板。</p>
             </td>
             <td><p>2026年10月1日</p></td>
-            <td><p>2026年10月14日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>
@@ -638,8 +638,8 @@ ht-degree: 1%
                 <p>您現在可以將Widget複製到相同儀表板、您擁有編輯存取權的另一個儀表板或新儀表板。 您也可以將Widget移至您對其擁有編輯存取權的另一個儀表板，或移至新儀表板。 </p>
             </td>
             <td><p>2026年10月1日</p></td>
-            <td><p>2026年10月14日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>
@@ -647,8 +647,8 @@ ht-degree: 1%
                 <p>您現在可以篩選集合關係，這些欄位連結到一組相關記錄，而不是單一記錄。</p>
             </td>
             <td><p>2026年10月1日</p></td>
-            <td><p>2026年10月14日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>
@@ -657,7 +657,7 @@ ht-degree: 1%
             </td>
             <td><p>2026年9月3日</p></td>
             <td><p>2026年9月17日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>
@@ -684,7 +684,7 @@ ht-degree: 1%
             </td>
             <td><p>2026年8月27日</p></td>
             <td><p>2026年9月17日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>
@@ -693,7 +693,7 @@ ht-degree: 1%
             </td>
             <td><p>2026年8月13日</p></td>
             <td><p>2026年9月17日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>
@@ -702,7 +702,7 @@ ht-degree: 1%
             </td>
             <td><p>2026年7月30日</p></td>
             <td><p>2026年8月13日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>
@@ -711,7 +711,7 @@ ht-degree: 1%
             </td>
             <td><p>2026年7月30日</p></td>
             <td><p>2026年8月13日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
     </tbody>
 </table>
@@ -733,8 +733,8 @@ ht-degree: 1%
                 <p>您現在可以從新的請求體驗存取在2025年7月之前最多3年提交的Workfront問題請求。</p>
             </td>
             <td><p>2026年9月24日</p></td>
-            <td><p>2026年10月14日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>
@@ -787,8 +787,8 @@ ht-degree: 1%
                 <p>設定、專案、範本和任務中的數個清單現在使用增強型清單格式。</p>
             </td>
             <td><p>2026年10月1日</p></td>
-            <td><p>2026年10月14日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>
@@ -796,8 +796,8 @@ ht-degree: 1%
                 <p>我們改良了一些清單篩選器和群組：群組預設為收合，而篩選器運運算元已更新為更清楚的標籤。</p>
             </td>
             <td><p>2026年10月1日</p></td>
-            <td><p>2026年10月14日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>
@@ -806,7 +806,7 @@ ht-degree: 1%
             </td>
             <td><p>2026年9月3日</p></td>
             <td><p>2026年9月17日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>
@@ -815,7 +815,7 @@ ht-degree: 1%
             </td>
             <td><p>2026年9月3日</p></td>
             <td><p>2026年9月17日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
            <tr>
             <td>
@@ -842,7 +842,7 @@ ht-degree: 1%
             </td>
             <td><p>2026年7月30日</p></td>
             <td><p>2026年8月13日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
         <tr>
             <td>
@@ -851,7 +851,7 @@ ht-degree: 1%
             </td>
             <td><p>2026年7月30日</p></td>
             <td><p>2026年8月13日</p></td>
-            <td><p>2026年10月15日</p></td>
+            <td><p>2026年10月22日</p></td>
         </tr>
     </tbody>
 </table>

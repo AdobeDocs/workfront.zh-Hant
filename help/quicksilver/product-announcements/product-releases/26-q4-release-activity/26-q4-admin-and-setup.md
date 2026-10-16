@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 6a2e4dc7e4592c3930723fb42cec92c439332074
+source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
 workflow-type: tm+mt
 source-wordcount: '1793'
 ht-degree: 0%
@@ -29,8 +29,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >預覽： 2026年10月1日
->生產快速發行： 2026年10月14日
->適用於所有人的生產： 2026年10月15日
+>生產快速發行： 2026年10月22日
+>適用於所有人的生產： 2026年10月22日
 
 為了協助您追蹤使用者的工作角色、代理、成本中心和計費率在一段時間內的變化，我們新增了「僱用歷史記錄」。
 
@@ -45,8 +45,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >預覽： 2026年10月1日
->生產快速發行： 2026年10月14日
->適用於所有人的生產： 2026年10月15日
+>生產快速發行： 2026年10月22日
+>適用於所有人的生產： 2026年10月22日
 
 為協助您節省翻譯自訂字詞和欄位標籤的時間，我們已新增為自訂本地化產生AI翻譯的功能。 現在，Workfront管理員可以使用人工智慧產生未翻譯自訂文字的翻譯，或填寫先前本地化辭彙的其他語言翻譯，然後在儲存前檢閱和調整結果。
 
@@ -59,8 +59,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >Preview: October 1, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Production fast release: October 22, 2026
+>Production for everyone: October 22, 2026
 
 To make it easier to control secure access to Workfront data, we've added the ability for administrators to configure MCP Tools permissions by access level. Now, you can configure actions a given access level can take through the Workfront MCP.
 
@@ -80,8 +80,8 @@ For more information, see [Grant access to MCP Tools](help/quicksilver/administr
 >[!NOTE]
 >
 >預覽： 2026年10月1日
->生產快速發行： 2026年10月14日
->適用於所有人的生產： 2026年10月15日
+>生產快速發行： 2026年10月22日
+>適用於所有人的生產： 2026年10月22日
 
 已針對版面配置範本進行數個增強功能：
 
@@ -96,8 +96,8 @@ For more information, see [Grant access to MCP Tools](help/quicksilver/administr
 >[!NOTE]
 >
 >預覽： 2026年10月1日
->生產快速發行： 2026年10月14日
->適用於所有人的生產： 2026年10月15日
+>生產快速發行： 2026年10月22日
+>適用於所有人的生產： 2026年10月22日
 
 使用表單設計工具中的下拉式欄位、選項按鈕和核取方塊時，您現在可以在單一對話方塊中新增、編輯和刪除欄位選項。 以前，您會在設計工具的右側面板中新增和編輯選項，如果您建立了很長的選項清單，則不會有太多空間。
 
@@ -119,8 +119,8 @@ For more information, see [Grant access to MCP Tools](help/quicksilver/administr
 >[!NOTE]
 >
 >預覽： 2026年9月22日
->生產快速發行： 2026年10月14日
->適用於所有人的生產： 2026年10月15日
+>生產快速發行： 2026年10月22日
+>適用於所有人的生產： 2026年10月22日
 
 為了讓Workfront MCP伺服器更靈活，且可供您的組織自訂，我們新增了新增自訂OAuth回呼URL的功能。 Workfront管理員現在可以維護其組織的受信任OAuth回呼URL允許清單，以進行MCP整合。 這可讓您在Workfront原生支援的平台之外，連線自訂AI代理平台，使其的OAuth回呼URL對您的組織而言是唯一的。
 
@@ -134,7 +134,7 @@ For more information, see [Grant access to MCP Tools](help/quicksilver/administr
 >
 >Preview: August 20, 2026
 >Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Production for everyone: October 22, 2026
 
 The Actions list in the Update Feeds section of the Setup area has an updated look and feel.
 
@@ -154,7 +154,7 @@ For information, see [Configure system updates](/help/quicksilver/administration
 >
 >預覽： 2026年9月3日
 >生產快速發行： 2026年9月17日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 您現在可以為透過Adobe Admin Console在Workfront中布建的使用者設定預設存取層級。 Workfront管理員可以在「系統偏好設定」中設定此預設值。
 
@@ -168,7 +168,7 @@ For information, see [Configure system updates](/help/quicksilver/administration
 >
 >預覽： 2026年9月3日
 >生產快速發行： 2026年9月17日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 如果您的組織已購買Planning套件，並且除了Workflow套件，您現在可以透過與Workfront管理員相同的方式，設定自訂季度。
 
@@ -182,7 +182,7 @@ For information, see [Configure system updates](/help/quicksilver/administration
 >
 >預覽： 2026年9月3日
 >生產快速發行： 2026年9月17日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 自訂檔案整合現在支援大型檔案的區塊上傳。 啟用後，超過25 MB的檔案會分成較小的區塊，並同時上傳，使得大型檔案的上傳速度更快、更可靠。 管理員可以開啟此功能，並設定每次整合的區塊大小上限（最多100 MB）。
 
@@ -194,7 +194,7 @@ For information, see [Configure system updates](/help/quicksilver/administration
 >
 >預覽： 2026年7月30日
 >生產快速發行： 2026年8月13日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 群組管理員現在可以建立、編輯和刪除他們管理的群組的企業設定檔，而不需要系統管理員存取權。 這可讓組織在群組層級委派業務設定檔管理時擁有更多彈性。
 
@@ -206,7 +206,7 @@ For information, see [Configure system updates](/help/quicksilver/administration
 >
 >預覽： 2026年7月30日
 >生產快速發行： 2026年8月13日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 現在系統層級可透過版面配置範本支援增強型清單的檢視。 您可以隱藏現有的系統檢視、將特定檢視指派為預設檢視，以及將自訂檢視新增到系統檢視清單中。
 
@@ -220,7 +220,7 @@ For information, see [Configure system updates](/help/quicksilver/administration
 >
 >預覽： 2026年7月30日
 >生產快速發行： 2026年8月13日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 大量編輯對話方塊現在允許編輯外部查閱欄位。 這在之前是不可能的。
 
@@ -236,7 +236,7 @@ For information, see [Configure system updates](/help/quicksilver/administration
 >
 >預覽： 2026年7月30日
 >生產快速發行： 2026年8月13日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 自訂表單設計工具預覽模式現在支援進階邏輯選項，包括進階顯示邏輯、預設值邏輯、驗證邏輯、格式邏輯和可編輯性邏輯。 您可以在表單預覽中測試邏輯公式，並視需要在邏輯產生器中調整它們。 您也可以選取測試物件（專案、任務、問題等） 以預覽具有真實內容資料的表單。
 
@@ -252,7 +252,7 @@ For information, see [Configure system updates](/help/quicksilver/administration
 >
 >預覽： 2026年7月30日
 >生產快速發行： 2026年8月13日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 Workfront中的「變更歷史記錄」頁面現在會擷取統一檢閱和核准工作流程中的活動，為管理員提供檢閱和檔案生命週期事件的完整治理追蹤。
 
@@ -272,7 +272,7 @@ Workfront中的「變更歷史記錄」頁面現在會擷取統一檢閱和核�
 >
 >預覽： 2026年7月30日
 >生產快速發行： 2026年8月13日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 您現在可以將自訂應用程式設定為版面配置範本中的登入頁面。 已新增至主要功能表的自訂應用程式可用作登陸頁面。
 
@@ -286,7 +286,7 @@ Workfront中的「變更歷史記錄」頁面現在會擷取統一檢閱和核�
 >
 >預覽： 2026年7月30日
 >生產快速發行： 2026年8月13日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 您可以在整個Workfront中新增要追蹤特定物件型別的欄位。 當使用者在該欄位中變更資訊時，系統會將有關變更的資訊記錄為變更歷史記錄中的專案。
 
@@ -300,7 +300,7 @@ Workfront中的「變更歷史記錄」頁面現在會擷取統一檢閱和核�
 >
 >預覽： 2026年7月30日
 >生產快速發行： 2026年8月13日
->適用於所有人的生產： 2026年10月15日
+>適用於所有人的生產： 2026年10月22日
 
 在「標準」存取層級上，您現在可以定義具有該層級的使用者是否應該擁有「變更記錄清單」的存取權。 **變更歷程記錄**&#x200B;選項可在存取層級的&#x200B;**允許**&#x200B;的管理存取區段中取得。
 

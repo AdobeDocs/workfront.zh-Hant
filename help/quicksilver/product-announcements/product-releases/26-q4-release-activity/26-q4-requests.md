@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -29,8 +29,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >預覽： 2026年9月24日
->生產快速發行： 2026年10月14日
->適用於所有人的生產： 2026年10月15日
+>生產快速發行： 2026年10月22日
+>適用於所有人的生產： 2026年10月22日
 
 您現在可以從新的請求體驗存取在2025年7月之前最多3年提交的Workfront問題請求。 之前，您只能存取在2025年7月之後提交的請求。
 
