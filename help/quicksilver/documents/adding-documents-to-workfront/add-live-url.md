@@ -11,10 +11,10 @@ role_v2:
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
-source-git-commit: 87fa240bc7d5694d475072b9787dca6f05702c3c
+source-git-commit: 85f0798c7956369e7b3c92a6c777414fa81511b6
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 5%
+source-wordcount: '481'
+ht-degree: 4%
 ---
 # 將網頁連結新增為檔案
 
@@ -56,13 +56,16 @@ ht-degree: 5%
 
 ## 將網頁連結新增為檔案
 
-您可以將HTML網頁以網頁連結的形式上傳至Workfront。 新增後，您可以透過請求核准上傳檔案的方式，在即時網頁上請求核准。 如需Frame.io如何處理網頁連結的詳細資訊，請參閱[Frame.io網頁連結](https://help.frame.io/en/articles/12893213-html-review-for-frame-io)。
+您可以將HTML網頁以網頁連結的形式上傳至Workfront。 新增後，您可以透過請求核准上傳檔案的方式，在即時網頁上請求核准。 如需Frame.io如何處理網頁連結的詳細資訊，請參閱[HTML的Frame.io檢閱](https://support.frame.io/hc/en-us/articles/360041187574-Frame-io-Web-Links)。
 
-<!--
+
 >[!IMPORTANT]
 >
->A web page behind single sign-on or a login page can't be displayed for review.
--->
+>* 如果網站允許iFrame內嵌，則支援URL。
+>* 支援私用Web URL，但某些驗證流程可能無法運作，端視伺服器設定而定。
+>* 目前不支援Youtube和圖片URL。<br>
+>如需詳細資訊，請參閱[ Frame.io](https://help.frame.io/en/articles/12893213-html-review-for-frame-io#:~:text=of%20the%20page.-,What%20types%20of%20URLs%20are%20supported%3F,-URLs%20are%20supported)支援的URL型別。
+
 
 若要新增網頁連結：
 
