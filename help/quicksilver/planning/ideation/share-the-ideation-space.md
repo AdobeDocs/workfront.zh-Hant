@@ -1,6 +1,6 @@
 ---
 title: 與他人共用創意力空間
-description: Adobe Workfront規劃現在提供另一項功能，可在您啟動行銷活動之前加以構想。 利用AI的強大功能，在構思成為規劃記錄之前建立構思並與他人合作。
+description: Adobe Workfront規劃現在提供另一項功能，可在您啟動行銷活動之前加以構想。 您可以與其他使用者共用構思空間及其各自的摘要，以進行更好的共同作業。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b81918ef8da7c7a4eeb9797b65a5af964db93911
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 2%
+source-wordcount: '591'
+ht-degree: 1%
 ---
 
 # 與他人共用創意力空間
@@ -39,15 +39,19 @@ ht-degree: 2%
 Some of this information is also duplicated in the section for Ideation space permissions in the Access needed to use Ideation space article
 -->
 
-Workfront Planning記錄許可權會傳輸到記錄的構思空間。
+在啟動行銷活動和其他記錄型別之前，您可以使用Adobe Workfront中的創意空間來建立行銷活動摘要資訊。 這邀請其他人集思廣益，並收集資訊，在啟動您的工作之前共同建立簡報。
 
-此外，您可以授予其他使用者使用構思空間的許可權，並為其新增構思。
+您可以與其他使用者共用構思空間及其各自的摘要，以進行更好的共同作業。
 
 考慮以下事項：
 
+* Workfront Planning記錄許可權會傳輸到記錄的構思空間。
+
+* 此外，您可以授予其他使用者使用構思空間的許可權，並為其新增構思。
+
 * 創意力建立者一律擁有其創意力的「編輯者」許可權。
 
-* 您必須擁有創意力空間的編輯器許可權，才能建立摘要並將其匯出至其他應用程式。
+* 您必須擁有創意力空間的編輯器許可權，才能建立或協助撰寫簡報，並將簡報匯出至其他應用程式。
 
 ## 存取權要求
 
@@ -71,8 +75,12 @@ are there additional license restrictions or packages to be purchased to have ac
    <td> 
 <ul> 
 <li><p>具有Planning套件的任何Workfront或工作流程</p></li>
-或
-<li><p>以獨立產品形式購買時的任何Planning套件</p></li></ul>
+<!--
+Not available right now: 
+Or
+<li><p>Any Planning package when purchased as a standalone product</p></li>
+-->
+</ul>
    </td> 
     <!--
     <tr> 
@@ -107,7 +115,7 @@ are there additional license restrictions or packages to be purchased to have ac
    <td> <p>提供或更高許可權給您要新增記錄的工作區和記錄型別 </p>
       <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>
       <p>檢視Workfront物件的許可權，以將它們新增至摘要 <!--not sure if this is available--></p>
-      <p>創意力空間的編輯器許可權以建立簡報</p>
+      <p>編輯者許可權在創意空間建立簡介</p>
    </td> 
   </tr>  
   <!--
@@ -115,7 +123,7 @@ are there additional license restrictions or packages to be purchased to have ac
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -129,15 +137,12 @@ are there additional license restrictions or packages to be purchased to have ac
 
 ## 共用創意力空間
 
-1. 存取Planning記錄的創意空間。
+1. 存取創意力空間。
 
-   如需詳細資訊，請參閱下列其中一篇文章：
+   如需詳細資訊，請參閱[在創意力空間建立簡介](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)。
 
-   * [從創意空間摘要建立Planning記錄](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
-   * [在構思空間建立簡報](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
-
-1. 按一下右上角的&#x200B;**共用**，然後按一下&#x200B;**共用檔案**&#x200B;方塊右上角的&#x200B;**設定**&#x200B;圖示![設定圖示](assets/setting-icon.png)。
-1. 在「誰擁有存取權」清單中，選擇下列選項：
+1. 按一下右上角的&#x200B;**共用**，然後按一下&#x200B;**共用檔案**&#x200B;方塊右上角的&#x200B;**設定**&#x200B;圖示![設定圖示](assets/setting-icon.png)。<!--should this say "document"?-->
+1. 在&#x200B;**擁有存取權**&#x200B;清單中，從下列選項中選擇：
 
    * **只有受邀者可以存取**
 
