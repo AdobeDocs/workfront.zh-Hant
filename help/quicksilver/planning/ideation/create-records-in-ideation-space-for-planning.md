@@ -11,9 +11,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
+source-git-commit: b81918ef8da7c7a4eeb9797b65a5af964db93911
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '916'
 ht-degree: 0%
 ---
 
@@ -158,50 +158,40 @@ Or
 
    ![具有開啟創意空間按鈕的新記錄方塊](assets/new-record-creation-picker-with-ideation.png)
 
-   創意力空間會在新標籤中開啟，並帶有空白提示。
+   創意力空間會在新標籤中開啟。
 
-   記錄會立即以預留位置文字建立。
+   CX Coworker會在右側面板中開啟。
 
-1. （選擇性）按一下提示方塊中的&#x200B;**使用現有的簡介**，以瀏覽並新增現有檔案，創意空間將用來建立簡介和未來記錄。<!--CORRECT THIS PART: this is possible ONLY when you launch Ideation from the Main Menu, not from a record-->
+   系統會使用預留位置名稱立即建立記錄。
 
-   ![空的創意力簡短提示](assets/empty-ideation-prompt.png)
+   <!--
+    1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
+    -->
 
-1. （選擇性）按一下提示方塊右上角的&#x200B;**開啟先前的畫布** <!--accurate??-->圖示![開啟現有的簡介圖示](assets/open-existing-briefs-icon.png)以開啟現有的簡介
-
-1. 在&#x200B;**您正在處理什麼工作？** 提示方塊，說明您要建立哪種記錄。
+1. 在&#x200B;**CX Coworker**&#x200B;對話方塊中新增提示，然後按Enter鍵。
 
    您分享的詳細資訊越多，構思空間提供的資訊就越有用。 例如，輸入您計畫之行銷活動的說明：「返回行銷機構的學校行銷活動」。
 
-1. 按一下&#x200B;**開始構思**。
+1. 依照文章[在構思空間](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)中建立簡介中的說明，繼續建立構思簡介。
 
-   創意空間在建立您的創意時會透過下列步驟運作： <!--check some of these in the UI - there might have been UI text changes-->
+   <!--
+    1. Click **Start ideating**.
+        The Ideation space works through the following steps while it builds your idea: 
+        1. Understand your goal and context
+        2. Review your space and selected materials
+        3. Gather evidence from documents, web, and data
+        4. Synthesize findings into a research summary
+        5. Create and refine cards with citations
+        During this process you'll see the Ideation space actively searching connected Workfront Planning data or information available on the web.
+        For example, it might search for existing programs, products, personas, or regions, as well as for similar concepts available online. 
+        When the ideation completes, the following things are added to the Ideation space:  
+        * A summary of the AI findings which is linked to several cards with detailed information about things to consider. The details cards display in a new section. A connector indicates which card section belongs to which summary.  
+        * A **Brief** file in the lower-left corner of the ideation space. The brief is a draft of the future record and it displays as a record's Details page. 
+        ![Ideation card with branches](assets/ideation-card-with-branched-off-additional-cards.png)      
+    1. Continue to add information to the ideation space to complete creating your brief. 
+    -->
 
-   1. 瞭解您的目標與內容
-   2. 檢閱您的分享空間與選取的材料
-   3. 從檔案、網頁和資料收集證據
-   4. 將發現綜合成研究摘要
-   5. 建立和調整包含引文的卡片
-
-   在此過程中，您會看到Ideation Space主動搜尋已連線的Workfront Planning資料或網頁上可用的資訊。
-
-   例如，它可能會搜尋現有的計畫、產品、角色或區域，以及線上提供的類似概念。<!--check on this with Et-->
-
-   構思完成後，下列專案會新增至構思空間：
-
-   * AI結果的摘要，已連結至數張卡片，其中包含有關要考慮的事項的詳細資訊。 詳細資訊卡會顯示在新的區段中。 聯結器會指出哪個卡區段屬於哪個摘要。
-
-   * 位於創意力空間左下角的&#x200B;**Brief**&#x200B;檔案。 摘要是未來記錄的草稿，會顯示為記錄的「詳細資訊」頁面。
-
-   ![含分支的創意力卡](assets/ideation-card-with-branched-off-additional-cards.png)
-
-1. 繼續將資訊新增至創意力空間，以完成建立您的簡報。
-
-1. （視條件而定）簡介完成時，請按一下左下角的預覽影像，然後按一下下列其中一項：
-
-   * **匯出至檔案**&#x200B;以建立檔案
-   * **匯出至Workfront Planning**&#x200B;以建立Planning記錄
-
-   如需有關新增專案到簡介並匯出的資訊，請參閱[在構思空間建立簡介](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)。
+1. （視條件而定）摘要完成時，請按一下左下角的預覽影像，然後按一下&#x200B;**匯出至Workfront Planning**&#x200B;以建立Planning記錄。
 
    這樣會使用其他資訊完成記錄的建立，並將其新增到您最初選取的記錄型別。
 
@@ -213,7 +203,7 @@ Or
 
 1. 前往Workfront Planning中的現有記錄，並開啟其詳細資訊頁面。
 
-1. 按一下&#x200B;**在創意力空間**&#x200B;中開啟。 這會在新標籤中開啟「構思」空間。
+1. 按一下&#x200B;**在創意力空間開啟** ![](assets/open-in-ideation-space.png)。 這會在新標籤中開啟「構思」空間。
 
    如果記錄的構思已存在，則會開啟該空間。
 
@@ -221,19 +211,14 @@ Or
 
    >[!TIP]
    >
-   >無法使用創意力空間大量編輯記錄。
+   >您無法使用創意力空間大量編輯記錄。
+1. 繼續編輯簡報，如本文中[使用創意空間](#create-records-using-the-ideation-space)建立記錄一節中所述。
 
    <!-- 
     I don't think these steps are still valid but the environment was not available to test: 
     - If a record is already linked to a Catalyze canvas, a link appears beneath the record title; clicking it opens the associated canvas.
     - If a linked canvas hasn't been exported/pushed back yet, the record shows a placeholder message ("This record has active Canvas...") even if the canvas itself has a real name in Catalyze.
     -->
-
-1. 繼續編輯簡報，如本文中[使用創意空間](#create-records-using-the-ideation-space)建立記錄一節中所述。
-
-
-
-
 
 
 <!--

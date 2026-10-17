@@ -26,10 +26,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
+source-git-commit: 549753cc305825309c42861a9d38f95ab0aa9f11
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 3%
+source-wordcount: '903'
+ht-degree: 2%
 ---
 # 使用Frame.io檢視器檢閱並核准
 
@@ -84,6 +84,7 @@ ht-degree: 3%
 * 您必須在Workfront執行個體中設定Workfront和Frame.io整合。 如需詳細資訊，請參閱[整合式檢閱與核准總覽](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#integration-requirements)。
 * 若要檢閱網頁連結檔案，您必須安裝[Frame.io Chrome擴充功能](https://chromewebstore.google.com/detail/frameio/ppppcfnokinhahidobbfppdahipiejen)。 如果未安裝，當您第一次在Workfront中開啟網頁連結檔案的Frame.io檢視器時，系統會提示您下載它。
 
+
 ## 檢閱檔案
 
 身為檢閱者，您可以對資產新增註解及標示。 完成後，您可以在Workfront中將您的評論標籤為完成。 資產不需要將稽核標籤為完成，才能在核准程式中前進。
@@ -135,3 +136,28 @@ ht-degree: 3%
    如需Workfront中決定的詳細資訊，請參閱[檔案決定狀態概觀](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)。
 
    ![框架檢視器和決定](assets/make-decision-frame.png)
+
+## 檢閱網頁連結
+
+如果檔案是即時網頁URL，您可以在Frame.io檢視器中檢閱頁面，並直接在頁面上留下意見回饋。
+
+1. 移至您的檢閱電子郵件通知，然後按一下&#x200B;**移至檢閱**。
+或
+前往Workfront首頁，尋找「我的核准」Widget，然後按一下&#x200B;**開啟稽核**。
+
+   >[!NOTE]
+   > 
+   >您可能需要將我的核准Widget新增到您的首頁。 如需詳細資訊，請參閱[新增、編輯或移除首頁中的Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)。
+
+1. 在Frame.io中，開啟網頁連結檔案。 如果出現提示，請安裝[Frame.io Chrome擴充功能](https://chromewebstore.google.com/detail/frameio/ppppcfnokinhahidobbfppdahipiejen)，以便您可以檢視頁面、擷取URL的目前狀態。
+
+1. 使用檢視器在頁面上直接新增註解、註解等。
+
+1. 檢閱完網頁連結檔案後，您可以在Frame.io檢視器中選擇下列其中一個決定：
+
+   * **核准**：資產不需要變更，而且已可供使用。
+   * **需要工作**：資產需要變更，而且尚未準備好使用。 完成指定的變更後，必須將資產上傳為新版本，並經過另一輪核准。 如需詳細資訊，請參閱[上傳新檔案版本並請求核准](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)。<!--do they need to tell someone it was uploaded via comment tagging?-->
+
+   做出決定後，檔案所有者會透過電子郵件收到通知。
+
+如需有關檢視和檢閱即時網頁URL的詳細指示，包括支援的URL、瀏覽器擴充功能要求以及註解選項，請參閱[HTML檢閱Frame.io](https://help.frame.io/en/articles/12893213-html-review-for-frame-io)。

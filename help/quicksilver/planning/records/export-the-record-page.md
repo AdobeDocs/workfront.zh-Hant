@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b81918ef8da7c7a4eeb9797b65a5af964db93911
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '419'
 ht-degree: 1%
 ---
 # 匯出記錄的詳細資料
@@ -167,6 +167,8 @@ Old:
 * 您只能匯出記錄頁面或預覽區域的詳細資訊標籤。
 
 * 匯出的檔案會保留記錄頁面的版面，包括縮圖和封面影像。
+
+* 您無法匯出自訂的「詳細資訊」頁面，該頁面中隱藏了數個欄位。
 
 ## 匯出記錄的詳細資料
 

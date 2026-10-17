@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 50078481f5318fd1fe1b79548ccd0f9385848c9a
+source-git-commit: b3d98796609ca5db35d11749eb0f1db39bd0feea
 workflow-type: tm+mt
 source-wordcount: '3579'
 ht-degree: 1%
@@ -33,7 +33,7 @@ ht-degree: 1%
 >
 >| 每月發行 | 每季發行 |
 >|----|----|
->| <ul><li>26.8 （2026年8月13日）</li><li>26.9 （2026年9月17日）</li><li>26.10 （2026年10月14日）</li></ul> | <ul><li>26.10 （2026年10月22日）</li></ul> |
+>| <ul><li>26.8 （2026年8月13日）</li><li>26.9 （2026年9月17日）</li><li>26.10 （2026年10月22日）</li></ul> | <ul><li>26.10 （2026年10月22日）</li></ul> |
 >
 >* 26.10 （2026年10月）已移至2026年10月22日。
 >
