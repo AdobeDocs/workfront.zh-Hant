@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 58f437f05fd68d14ac96dae0449d8e67db816406
+source-git-commit: 20b6b1fc08e06d2305d1e73c81ad0b15c19d621f
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 8%
+source-wordcount: '322'
+ht-degree: 9%
 ---
 
 # 2027年第一季度發行概觀
@@ -58,7 +58,7 @@ ht-degree: 8%
 ## 其他區域發行說明
 
 * [Adobe Workfront Fusion發行活動](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)。
-* [Adobe Workfront規劃發行活動](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-planning/get-started/planning-overview)。
+* [Adobe Workfront規劃發行活動](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
 此版本尚無下列專案的更新：
 

@@ -3,6 +3,7 @@ cloud: Experience Cloud
 solution: Workfront
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: "Workfront"
 usetq: true
 landing-page-name: workfront
 landing-page-breadcrumb-title: Workfront
@@ -13,11 +14,9 @@ git-repo: https://github.com/AdobeDocs/workfront.zh-Hant
 index: true
 source-git-commit: 8e1dc6afabb3f336c3e7112bb65a8ab8f4697e4d
 workflow-type: tm+mt
-source-wordcount: 70
-ht-degree: 94%
-
+source-wordcount: '66'
+ht-degree: 100%
 ---
-
 
 # 僅限內部使用的中繼資料
 
