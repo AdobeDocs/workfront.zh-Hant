@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
+source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
 workflow-type: tm+mt
-source-wordcount: '3560'
+source-wordcount: '3623'
 ht-degree: 5%
 ---
 # 事件訂閱API
@@ -45,7 +45,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->若要使用Workfront應用程式中的事件訂閱，請參閱[在Workfront中設定事件訂閱](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md)。
+>若要在Workfront應用程式中使用事件訂閱，請參閱[在Workfront中設定事件訂閱](/help/quicksilver/administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md)以及[以非管理員使用者身分管理事件訂閱](/help/quicksilver/wf-api/general/event-subs-non-admin.md)。
 
 若要透過防火牆接收事件訂閱裝載，您必須將下列IP位址新增至允許清單：
 
@@ -118,12 +118,14 @@ ht-degree: 5%
 
 ## 事件訂閱驗證
 
-若要建立、查詢或刪除事件訂閱，您的Workfront使用者需要下列專案：
+若要建立、查詢或刪除事件訂閱，您的Workfront使用者必須具有事件訂閱功能的必要存取權，以及所執行動作的適當許可權。
 
-* 需要「系統管理員」的存取層級才能使用事件訂閱。
-* 需要`sessionID`標頭才能使用事件訂閱API
+* 具有必要存取許可權的使用者可以在Workfront中管理事件訂閱，但僅限於其許可權和系統設定允許的範圍內。
+* 需要`sessionID`標頭才能使用事件訂閱API。
 
   如需詳細資訊，請參閱[API基本知識](api-basics.md)中的[驗證](api-basics.md#authentication)。
+
+如需當您不是Workfront管理員時，在Workfront應用程式中管理事件訂閱的相關資訊，請參閱[以非管理員使用者身分管理事件訂閱](/help/quicksilver/wf-api/general/event-subs-non-admin.md)。
 
 ## 避免讓事件訂閱超載
 
