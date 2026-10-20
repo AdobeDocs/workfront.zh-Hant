@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 9bb1e7773748d9432656c0949ea37b1fcf054b0e
+source-git-commit: de155fd16a4750162a465cb5f2eac2d5f7ec6b7d
 workflow-type: tm+mt
-source-wordcount: '3561'
+source-wordcount: '3537'
 ht-degree: 3%
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 3%
 | 尋找檔案 | `approvals_find_document` | 已棄用。 請改用`insights_find_workfront_data`。 此工具會依檔案名稱或檔案版本ID來查詢檔案。 | 讀取 |
 | 傳送檔案至AEM資料夾* | `approvals_send_documents_to_aem_folder` | 將一或多個Workfront檔案移動到AEM連結的資料夾。 | 寫入 |
 
-*您必須在Workfront執行個體中設定原生[!DNL Adobe Experience Manager]整合，才能使用這些工具。 如需詳細資訊，請參閱[&#x200B; Adobe Experience Manager Assets整合概述](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)。
+*您必須在Workfront執行個體中設定原生[!DNL Adobe Experience Manager]整合，才能使用這些工具。 如需詳細資訊，請參閱[ Adobe Experience Manager Assets整合概述](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)。
 
 
 *Adobe雲端儲存空間上的專案尚不支援將檔案傳送至AEM資料夾。 未來版本預計會提供支援。
@@ -235,11 +235,11 @@ ht-degree: 3%
 
 | 標題 | 工具名稱 | 作用 | 動作 |
 | --- | --- | --- | --- |
-| 搜尋物件 | `workflow_search_any_object` | 使用彈性的篩選引數、順序和分頁來搜尋Workfront物件。 | 讀取 |
+| 搜尋物件 | `workflow_search_any_object` | 此工具已淘汰。 | 讀取 |
 | 建立物件 | `workflow_create_any_object` | 建立新的Workfront物件，例如專案、任務、問題、小時、指派、方案或投資組合。 | 寫入 |
 | 更新物件 | `workflow_update_any_object` | 更新現有物件的欄位。 也支援將任務或問題移動至另一個專案、將任務或問題轉換為新專案（或問題轉換為任務），以及設定任務前置任務（相依性）。 | 寫入 |
 | 刪除物件 | `workflow_delete_any_object` | 依ID刪除Workfront物件。 執行動作前需要明確的使用者確認。 | 寫入 |
-| 解析欄位名稱 | `workflow_resolve_field_names_any_object` | 將使用者提供的欄位名稱或標籤轉換為基礎Workfront API欄位名稱，讓AI代理平台可以建置準確的請求。 | 讀取 |
+| 解析欄位名稱 | `workflow_resolve_field_names_any_object` | 此工具已淘汰。 | 讀取 |
 | 讀取工作流程檔案 | `workflow_read_workflow_docs` | 載入Workfront工作流程檔案，包括工具使用指南和物件特定操作教戰手冊。 這是執行「工作流程」動作之前的必要第一個步驟。 | 讀取 |
 
 ### 更新物件工具功能
