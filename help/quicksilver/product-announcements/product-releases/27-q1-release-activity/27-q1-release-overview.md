@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20b6b1fc08e06d2305d1e73c81ad0b15c19d621f
+source-git-commit: a8c35fd2f1059bd91de7d6d59db7e447ec6af6a9
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 9%
+source-wordcount: '516'
+ht-degree: 5%
 ---
 
 # 2027年第一季度發行概觀
@@ -66,9 +66,41 @@ ht-degree: 9%
 * 校樣
 * 目標
 
-### Workfront 維護更新
+## 公告
 
-如需2027年第一季度期間所進行維護更新的相關資訊，請參閱[Workfront維護更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hant)。
+### 棄用工作角色清單檢視中的舊版帳單和成本費率欄位
+
+隨著時間推移，我們引進了更強大的費率管理功能以及專屬的工作角色體驗，可提供更完整且可擴充的費率資訊維護方法。 因此，費率管理開始轉向這些專屬的體驗，而非清單式管理工作流程。
+
+在2027年1月版本中，舊欄位&#x200B;**每小時計費**&#x200B;和&#x200B;**每小時成本**&#x200B;將不再在Workfront API或工作角色清單檢視中可用，包括篩選/檢視/分組設定（直接參考和文字模式計算欄）。
+
+作為報表中的替代專案，您可以使用建議的文字模式代碼（視需要使用`costRates`或`billingRates`）：
+
+    &grave;&grave;
+    displayname=Test
+    listdelimiter=&lt;br>
+    listmethod=nested(costRates)。lists
+    type=iterate
+    valueexpression=CONCAT({startDate}，&quot; - &quot;，{endDate}，&quot;： &quot;，{value})
+    valueformat=HTML
+    &grave;&grave;
+
+若要管理和檢閱工作角色費率，請使用專用的費率管理體驗：
+
+* 直接從「工作角色>費率」頁面存取和管理工作角色費率。
+* 使用費率報表可複查、分析及報告各職務角色的費率資訊。
+
+不需要執行任何動作即可準備變更。 不過，目前在工作角色清單檢視中顯示&#x200B;**每小時計費**&#x200B;和&#x200B;**每小時成本**&#x200B;欄位的管理員應更新其工作流程，以使用上述建議的費率管理體驗。
+
+有關工作角色費率的資訊，請參閱[建立和管理工作角色](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。
+
+<!--
+
+### Workfront Maintenance Updates
+
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hant).
+
+-->
 
 ### 訓練更新
 
