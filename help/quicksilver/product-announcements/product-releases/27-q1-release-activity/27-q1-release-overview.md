@@ -76,14 +76,14 @@ ht-degree: 5%
 
 作為報表中的替代專案，您可以使用建議的文字模式代碼（視需要使用`costRates`或`billingRates`）：
 
-    ``
+    &grave;&grave;
     displayname=Test
     listdelimiter=&lt;br>
     listmethod=nested(costRates)。lists
     type=iterate
     valueexpression=CONCAT({startDate}，&quot; - &quot;，{endDate}，&quot;： &quot;，{value})
     valueformat=HTML
-    ``
+    &grave;&grave;
 
 若要管理和檢閱工作角色費率，請使用專用的費率管理體驗：
 
