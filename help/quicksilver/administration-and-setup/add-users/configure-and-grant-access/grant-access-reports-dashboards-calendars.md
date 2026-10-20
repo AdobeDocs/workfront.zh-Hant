@@ -23,9 +23,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d4a9a8e4608e46eb9a2e16619bf1042de002cd12
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '587'
 ht-degree: 3%
 ---
 # 授予對報告、儀表板和行事曆的存取權
@@ -80,12 +80,15 @@ ht-degree: 3%
 
    * **建立**
    * **刪除**
-   * **檢視內建報告**：必須選取此專案，才能檢視Workfront建置的報告。
    * **共用**
+
+   預設情況下未啟用的選項包括：
+
+   * **檢視內建報告**：必須選取此專案，才能檢視Workfront建置的報告。
    * **公開共用報告**：可與沒有Workfront帳戶的任何人共用報告的公開連結，以公開共用報告。 必須選取此選項以允許此共用層級。
    * **在整個系統內共用**：可與系統中擁有Workfront授權的所有人共用報告。 必須選取此選項以允許此共用層級。
 
-     如需共用報告、儀表板和行事曆的資訊，請參閱[共用報告、儀表板和行事曆](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)。
+   如需共用報告、儀表板和行事曆的資訊，請參閱[共用報告、儀表板和行事曆](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)。
 
 1. （選擇性）若要針對您正在處理的存取層級中的其他物件與區域設定存取設定，請繼續使用[設定對Adobe Workfront的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)中所列的文章之一，例如[授與對工作的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)和[授與對財務資料的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)。
 1. 完成時，按一下&#x200B;**儲存**。
