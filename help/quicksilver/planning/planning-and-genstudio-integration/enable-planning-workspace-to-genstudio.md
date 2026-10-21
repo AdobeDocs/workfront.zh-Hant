@@ -55,7 +55,7 @@ recommendations: noDisplay, noCatalog
 
    **讓工作區GenStudio**&#x200B;啟用方塊開啟，包括以下步驟：
 
-   1. **ACPC專案**：選取您要與此工作區同步的&#x200B;**ACPC專案** （Adobe雲端儲存空間專案），然後按一下[下一步]**。**&#x200B;使用者可透過此專案存取GenStudio中的工作區。
+   1. **ACPC專案**：選取您要與此工作區同步的&#x200B;**ACPC專案** （Adobe雲端儲存空間專案），然後按一下[下一步]&#x200B;**。**&#x200B;使用者可透過此專案存取GenStudio中的工作區。
 
       ![啟用工作區GenStudio - ACPC專案步驟](assets/make-workspace-genstudio-enabled-box-acpc-step.png)
 
