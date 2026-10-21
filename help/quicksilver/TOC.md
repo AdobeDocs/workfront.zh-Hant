@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
+source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
 workflow-type: tm+mt
-source-wordcount: '14694'
+source-wordcount: '14700'
 ht-degree: 2%
 ---
 # Workfront 指南 {#using}
@@ -697,7 +697,9 @@ ht-degree: 2%
       * [刪除自訂條件](administration-and-setup/customize-workfront/create-manage-custom-conditions/delete-custom-conditions.md)
   * 管理Adobe Workfront {#manage-wf}
     * [管理Workfront](administration-and-setup/manage-workfront/manage-workfront.md)
-    * [在Workfront中設定事件訂閱](administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md)
+    * 管理事件訂閱 {#manage-event-subscriptions}
+      * [管理事件訂閱](administration-and-setup/manage-workfront/manage-event-subscriptions/manage-event-subscriptions.md)
+      * [在Workfront中設定事件訂閱](administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md)
     * 設定校訂功能 {#configure-proofing}
       * [設定校樣](administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
       * [校樣設定](administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)

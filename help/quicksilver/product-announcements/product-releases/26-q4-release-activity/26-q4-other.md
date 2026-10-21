@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 80e0ade22a2d40a1c0244ef8c11f9db37dd9661a
+source-git-commit: cb6ded1c823c82a876e5e2729205b4b02c7035e2
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1286'
 ht-degree: 0%
 ---
 # 2026年第四季發行時間範圍內的其他增強功能
@@ -23,6 +23,22 @@ ht-degree: 0%
 本頁說明2026年第四季版本對預覽環境所做的增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2026年第四季版本週期目前可用的所有變更清單，請參閱[2026年第四季版本概觀](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)。
+
+## 非管理員現在可以建立事件訂閱
+
+>[!NOTE]
+>
+>所有人的預覽和生產： 2026年10月16日
+>[!BADGE 不在排程]{type=Neutral}內
+
+
+為了更輕鬆地在沒有系統管理員存取權的情況下對重要的Workfront物件變更做出反應，我們新增了使用者事件訂閱。 現在，您可以使用IMS使用者存取權杖以及每個物件和事件組合的目標訂閱，接收受支援Workfront物件的webhook通知。
+
+使用者事件訂閱支援Task、Project、Note或Comment以及Assignment物件，具有CREATE、UPDATE和DELETE事件。 您可以針對所需的每個物件和事件組合建立個別的訂閱，也可以使用物件ID或篩選器來縮小傳送範圍，以符合您想要的記錄。
+
+此版本對於需要輕量、事件導向整合而不授予廣泛管理員許可權（例如使用Workfront Fusion時）的團隊特別實用。
+
+如需詳細資訊，請參閱[以非管理員使用者身分管理事件訂閱](/help/quicksilver/wf-api/general/event-subs-non-admin.md)。
 
 ## 更新增強型清單
 

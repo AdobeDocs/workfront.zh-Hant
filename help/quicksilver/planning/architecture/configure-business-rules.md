@@ -19,7 +19,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
+source-git-commit: fac1ea173c1dced72e4273dc2a30b2b25c3c4071
 workflow-type: tm+mt
 source-wordcount: '1196'
 ht-degree: 1%
@@ -112,7 +112,7 @@ ht-degree: 1%
 <!--
 <div class="preview">
 
-* To ensure data integrity, when a business rule is violated during an edit, the change is blocked, the value reverts, and a toast notification explains why the edit is not allowed.  
+* To ensure data integrity, when a business rule for editing a record is violated as you edit the record, the change is blocked, the value reverts, and a toast notification explains why the edit is not allowed.  
 
    The warning is visible in all areas where you are editing records, including the table view or details page. 
 

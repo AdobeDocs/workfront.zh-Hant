@@ -4,13 +4,13 @@ content-type: how-to
 product-area: system-administration
 navigation-topic: manage-workfront
 title: 在Workfront中設定事件訂閱
-description: 身為Adobe Workfront管理員，您可以從設定區域建立、檢視和刪除事件訂閱，以將Workfront事件傳送至外部端點。
+description: Workfront管理員可在設定中建立、檢視和刪除事件訂閱。 具有所需存取許可權的使用者也可以在其許可權和系統設定允許的範圍內管理事件訂閱。
 feature: System Setup and Administration
 role: Admin
 author: Courtney
-source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
+source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '452'
 ht-degree: 5%
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 5%
 身為Adobe Workfront管理員，您可以從設定區域建立、檢視和刪除事件訂閱。 事件訂閱會在指定事件發生時，將Workfront事件資訊傳送至外部端點。
 
 您可以在Workfront中建立和刪除事件訂閱，但無法編輯現有訂閱。 如果您需要變更訂閱，請刪除它並建立新的訂閱。
+
+具有必要存取許可權的使用者或許也能在Workfront中管理事件訂閱，但僅限在其許可權和系統設定允許的範圍內。 如需詳細資訊，請參閱[以非管理員使用者身分管理事件訂閱](/help/quicksilver/wf-api/general/event-subs-non-admin.md)。
 
 如需有關活動訂閱的詳細資訊，請參閱[活動訂閱](/help/quicksilver/wf-api/api/event-subscriptions.md)下的文章。
 
@@ -45,7 +47,10 @@ ht-degree: 5%
   </tr>
   <tr>
    <td role="rowheader">存取層級設定</td>
-   <td>您必須是Workfront管理員。</td>
+   <td>
+    <p>您必須有適當的存取權才能管理事件訂閱。</p>
+    <p>非管理員使用者只能在其許可權和系統設定允許的範圍內進行存取。</p>
+   </td>
   </tr>
  </tbody>
 </table>
