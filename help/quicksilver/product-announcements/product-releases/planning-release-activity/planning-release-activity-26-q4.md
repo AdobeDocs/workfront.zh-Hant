@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: a3f75cbd27f4e881e7a49a77675c55345aab95f9
+source-git-commit: 04c7239a6b8dc46c22e978164ad71d6a600d4e62
 workflow-type: tm+mt
-source-wordcount: '3427'
+source-wordcount: '3514'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 2026年第四季發行活動
@@ -28,6 +28,20 @@ ht-degree: 0%
 本文介紹2026年第四季發行的Workfront Planning功能。
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 使用CX Enterprise Coworker匯入大量記錄
+
+>[!NOTE]
+>
+>預覽和生產： 2026年10月22日
+>[!BADGE 超出排程]{type=Neutral}
+>僅供擁有Adobe的客戶使用
+
+CX Coworker現在可以從Excel試算表匯入10,000筆或以上的記錄，並使用這些記錄來建立或更新Planning記錄，而不需要管理員手動對應每個欄。
+
+您可以使用在Co-worker中附加檔案的現有功能，使用相同的結構化輸出來預覽和匯入記錄，因此對於任何大小的檔案，結果都是一致的。
+
+如需詳細資訊，請參閱[在Workfront中使用CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)。
 
 ## 在GenStudio for Performance Marketing中啟用Planning工作區
 
