@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: de155fd16a4750162a465cb5f2eac2d5f7ec6b7d
+source-git-commit: aa562305ecdd732b6202d90543878ea13195c800
 workflow-type: tm+mt
-source-wordcount: '3537'
+source-wordcount: '3774'
 ht-degree: 3%
 ---
 
@@ -42,6 +42,51 @@ ht-degree: 3%
 
 下表識別每個工具所屬的產品區域。
 
+<div class="preview">
+
+<!--This section is for the 27.1 release-->
+
+## Workfront MCP伺服器中的工具集
+
+>[!IMPORTANT]
+>
+>當您設定與Workfront MCP伺服器的連線時，會選取工具集。
+>如需資訊與指示，請參閱[設定Adobe Workfront MCP伺服器](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)
+
+工具集可讓您選取AI使用者端所需的Workfront功能，而非公開完整的MCP目錄。 對於預先載入所有工具定義、必須保持在工具計數限制範圍內，或受益於更聚焦工具清單的使用者端，此功能會很有用。
+
+您可以將`toolsets`查詢引數新增到Workfront MCP伺服器URL來指定工具集。
+
+>[!BEGINSHADEBOX]
+
+範例：
+
+```
+https://mcp.workfront.adobe.com/mcp/v1/workfront?toolsets=core,comment-stream
+```
+
+此範例公開`core`和`comment-stream`功能。 只要選取子集，就會自動包含`core`群組。
+
+>[!ENDSHADEBOX]
+
+可用的工具集包括：
+
+* `core` — 當您選取工具集的子集時，會自動包含的基礎Workfront工具集。
+* `comment-stream` — 評論與討論工作流程工具。
+* `planning` — Workfront規劃功能的工具。
+* `approvals` — 核准工作流程的工具。
+
+若要公開完整的授權目錄，請省略引數或使用`toolsets=all`。
+
+您可以將選用的群組與逗號結合，例如`toolsets=core,planning,approvals`。
+
+選取範圍適用於在UI中顯示Workfront工具的工具、資源和資源範本、提示和MCP應用程式。 後端特定的伺服器指示也遵循選取的工具集組態。
+
+工具集不會變更許可權。 您的Workfront存取層級和物件許可權會持續強制執行。
+
+如果您希望AI使用者端存取不同的網域，請更新連線設定以選取適當的工具集。
+
+</div>
 
 ## 讀取和寫入動作
 
@@ -76,7 +121,7 @@ ht-degree: 3%
 | 尋找檔案 | `approvals_find_document` | 已棄用。 請改用`insights_find_workfront_data`。 此工具會依檔案名稱或檔案版本ID來查詢檔案。 | 讀取 |
 | 傳送檔案至AEM資料夾* | `approvals_send_documents_to_aem_folder` | 將一或多個Workfront檔案移動到AEM連結的資料夾。 | 寫入 |
 
-*您必須在Workfront執行個體中設定原生[!DNL Adobe Experience Manager]整合，才能使用這些工具。 如需詳細資訊，請參閱[&#x200B; Adobe Experience Manager Assets整合概述](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)。
+*您必須在Workfront執行個體中設定原生[!DNL Adobe Experience Manager]整合，才能使用這些工具。 如需詳細資訊，請參閱[ Adobe Experience Manager Assets整合概述](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)。
 
 
 *Adobe雲端儲存空間上的專案尚不支援將檔案傳送至AEM資料夾。 未來版本預計會提供支援。
