@@ -29,9 +29,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
+source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2638'
 ht-degree: 1%
 ---
 
@@ -39,6 +39,8 @@ ht-degree: 1%
 
 
 # 開始使用Adobe Workfront規劃和Adobe GenStudio for Performance Marketing整合
+
+{{planning-important-intro}}
 
 <!--
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
@@ -350,6 +352,7 @@ Some commented out information here comes from glean
 * 啟用記錄包括：
 
   * 追蹤ID欄位，用於儲存「追蹤ID」公式中每個區段的已解析值以及任何錯誤。
+  * 動態創意影像和動態創意視訊啟用型別，用於儲存Meta動態Creative物件資訊。
   * 表示「追蹤ID」正在產生的「正在產生」狀態選擇。 當產生完成或失敗時，啟用狀態會傳回「草稿」。 現有的啟用不受影響。
 
 

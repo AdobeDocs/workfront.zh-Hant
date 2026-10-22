@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 98aa8dfa8ddb2c4b159e21c29d0385d5bdd7744a
+source-git-commit: e3f394fd4bb2767993df2714aed4aa06b312d48d
 workflow-type: tm+mt
-source-wordcount: '3374'
+source-wordcount: '3360'
 ht-degree: 1%
 ---
 # 使用增強型清單
@@ -83,7 +83,6 @@ Adobe Workfront的部分割槽域提供增強型清單。 這些清單使用表�
 | <span class="preview">更新摘要中的動作和追蹤欄位清單</span> | <ul><li><span class="preview">設定>介面>更新摘要>追蹤的欄位索引標籤</span></li> <li><span class="preview">設定>介面>更新摘要>動作標籤</span></li></ul> |
 | <span class="preview">計分卡清單</span> | <span class="preview">設定>計分卡</span> |
 | <span class="preview">風險型別清單</span> | <span class="preview">設定>風險型別</span> |
-| <span class="preview">事件通知清單</span> | <ul><li><span class="preview">設定>電子郵件>通知>事件通知</span></li><li><span class="preview">群組詳細資料頁面>事件通知</span></li></ul> |
 | 費率卡上的職務角色和費率清單 | 設定>費率卡>選取費率卡>職務角色與費率 |
 | <span class="preview">位置清單</span> | <span class="preview">設定>位置</span> |
 | 翻譯清單 | 設定>本地化 |
@@ -104,6 +103,8 @@ Adobe Workfront的部分割槽域提供增強型清單。 這些清單使用表�
 
 Under integrations?
 | <span class="preview">List of layout templates</span> | <ul><li><span class="preview">Setup > Interface > Layout Templates</span></li><li><span class="preview">Group Detail page > Layout Templates</span></li></ul> |
+
+| <span class="preview">List of event notifications</span> | <ul><li><span class="preview">Setup > Email > Notifications > Event Notifications</span></li><li><span class="preview">Group Detail page > Event Notifications</span></li></ul> |
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
