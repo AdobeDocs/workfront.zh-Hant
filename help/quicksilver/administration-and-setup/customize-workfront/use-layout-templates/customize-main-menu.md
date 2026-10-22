@@ -32,14 +32,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 66ec381c7f0dec9a382bd9a23e6691d38c5595e7
+source-git-commit: 4ac506e9ab5af397523fe4fda10cafaeb858ce37
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '700'
 ht-degree: 6%
 ---
 # 使用版面配置範本自訂主功能表
-
-{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -49,7 +47,7 @@ ht-degree: 6%
 >
 >使用者看到的主要功能表選項取決於其授權型別以及在其存取層級中設定的設定。 某些將使用此配置範本的使用者可能不會看見您在這裡選擇的所有選項。 如需詳細資訊，請參閱[存取層級和許可權如何搭配運作](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)以及[每個物件型別可設定的功能存取權](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)。
 >
->您的組織加入Adobe Workfront Unified Experience後，您可能會在主要功能表中看到不同的選項。 如需詳細資訊，請參閱[Workfront的Adobe Unified Experience &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
+>您的組織加入Adobe Workfront Unified Experience後，您可能會在主要功能表中看到不同的選項。 如需詳細資訊，請參閱[Workfront的Adobe Unified Experience ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)。
 
 如需有關建立版面配置範本的資訊，請參閱[建立和管理版面配置範本](../use-layout-templates/create-and-manage-layout-templates.md)。
 
@@ -152,22 +150,14 @@ ht-degree: 6%
    * 顯示您想要顯示在主要功能表上的![圖示](assets/add-icon-plus-in-circle.png)專案。
    * 拖曳![拖曳圖示](assets/move-icon---dots.png)專案，以變更它們在主要功能表上的顯示順序。
 
-     >[!NOTE]
-     >
-     >您無法變更系統專案的順序。 當這些專案處於活動狀態時，它們始終顯示在主選單底部。<!-- REMOVE THIS NOTE AT PROD RELEASE October 2026 -->
-
-<div class="preview">
-
 1. 請為&#x200B;**系統**&#x200B;專案執行下列任一動作：
 
    * 隱藏![隱藏圖示](assets/remove-icon---x-in-circle.png)您不想要顯示在主功能表上的專案。
    * 顯示您想要顯示在主要功能表上的![圖示](assets/add-icon-plus-in-circle.png)專案。
 
-</div>
-
 1. 按一下「**完成**」。
 
-   您也可以隨時按一下[取消]&#x200B;**&#x200B;**&#x200B;來捨棄變更。
+   您也可以隨時按一下[取消]****&#x200B;來捨棄變更。
 
 1. 繼續自訂版面範本。 您可以隨時按一下&#x200B;**套用**&#x200B;以儲存進度。
 
