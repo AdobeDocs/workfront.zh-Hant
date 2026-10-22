@@ -32,14 +32,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 66ec381c7f0dec9a382bd9a23e6691d38c5595e7
+source-git-commit: 4ac506e9ab5af397523fe4fda10cafaeb858ce37
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '700'
 ht-degree: 6%
 ---
 # 使用版面配置範本自訂主功能表
-
-{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -152,18 +150,10 @@ ht-degree: 6%
    * 顯示您想要顯示在主要功能表上的![圖示](assets/add-icon-plus-in-circle.png)專案。
    * 拖曳![拖曳圖示](assets/move-icon---dots.png)專案，以變更它們在主要功能表上的顯示順序。
 
-     >[!NOTE]
-     >
-     >您無法變更系統專案的順序。 當這些專案處於活動狀態時，它們始終顯示在主選單底部。<!-- REMOVE THIS NOTE AT PROD RELEASE October 2026 -->
-
-<div class="preview">
-
 1. 請為&#x200B;**系統**&#x200B;專案執行下列任一動作：
 
    * 隱藏![隱藏圖示](assets/remove-icon---x-in-circle.png)您不想要顯示在主功能表上的專案。
    * 顯示您想要顯示在主要功能表上的![圖示](assets/add-icon-plus-in-circle.png)專案。
-
-</div>
 
 1. 按一下「**完成**」。
 

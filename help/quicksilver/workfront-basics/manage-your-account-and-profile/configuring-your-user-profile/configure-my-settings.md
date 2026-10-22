@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
 workflow-type: tm+mt
-source-wordcount: '3389'
+source-wordcount: '3387'
 ht-degree: 1%
 ---
 # 設定我的設定
@@ -370,7 +370,7 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL 電子郵件地區設定]</strong> </td> 
    <td><p>在這裡指定您偏好的語言。 這會控制外寄電子郵件中所使用的語言、日期和數字格式。</p>
-   <p><strong>注意：</strong>當您的組織使用Adobe Unified Experience時，語言偏好設定會儲存在您的Adobe設定檔中，而且不會使用電子郵件地區設定。 如需詳細資訊，請參閱文章<a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Adobe Workfront支援的語言</a>中的<a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">變更Adobe Experience Cloud語言</a>。</p></td> 
+   <p><strong>注意：</strong>當您的組織使用Adobe Unified Experience時，語言偏好設定會儲存在您的Adobe設定檔中，而且不會使用電子郵件地區設定。 如需詳細資訊，請參閱文章<a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Adobe Workfront支援的語言</a>中的<a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-cx-enterprise-language">變更Adobe CX Enterprise語言</a>。</p></td> 
   </tr>
   <tr><td><strong>[!UICONTROL 當任務為自行指派時，自動將任務狀態設定為進行中]</strong> </td>
   <td>如果您要將指派給自己的工作狀態自動設定為「進行中」而非「新增」，請選取此選項。</td>

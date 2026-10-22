@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
 workflow-type: tm+mt
 source-wordcount: '1115'
 ht-degree: 0%
@@ -106,7 +106,7 @@ Workfront產品設定檔管理員（Workfront系統管理員）將：
 
 * **當使用者移轉時，他們會收到Adobe的電子郵件，通知他們已變更Workfront的登入方式。** 使用者將獲邀接受邀請，以使用Adobe身分識別首次登入，方法是使用現有的Adobe ID登入，或使用相同的電子郵件地址設定新的Adobe ID。
 
-  如需如何使用Adobe ID登入Workfront的詳細資訊，請參閱[登入Adobe Experience Cloud](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#log-in-to-adobe-experience-cloud)。
+  如需如何使用Adobe ID登入Workfront的詳細資訊，請參閱[登入Adobe CX Enterprise](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#log-in-to-adobe-cx-enterprise)。
 
 ### 使用者移轉完成
 

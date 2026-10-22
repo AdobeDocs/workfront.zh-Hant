@@ -25,14 +25,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e3f394fd4bb2767993df2714aed4aa06b312d48d
+source-git-commit: 310f706e34a2b23007216361e8355637db4ccd73
 workflow-type: tm+mt
-source-wordcount: '3360'
+source-wordcount: '3345'
 ht-degree: 1%
 ---
 # 使用增強型清單
-
-{{preview-fast-release-general}}
 
 Adobe Workfront的部分割槽域提供增強型清單。 這些清單使用表格格式來顯示清單專案，並且它們具有與標準清單不同的外觀和感覺。 也增強了檢視管理，包括篩選、分組、管理欄和搜尋。
 
@@ -84,20 +82,20 @@ Adobe Workfront的部分割槽域提供增強型清單。 這些清單使用表�
 | <span class="preview">計分卡清單</span> | <span class="preview">設定>計分卡</span> |
 | <span class="preview">風險型別清單</span> | <span class="preview">設定>風險型別</span> |
 | 費率卡上的職務角色和費率清單 | 設定>費率卡>選取費率卡>職務角色與費率 |
-| <span class="preview">位置清單</span> | <span class="preview">設定>位置</span> |
+| 位置清單 | 設定>位置 |
 | 翻譯清單 | 設定>本地化 |
-| <span class="preview">整合清單</span> | <ul><li><span class="preview">設定>檔案> SharePoint整合</span></li><li><span class="preview">設定>檔案>自訂整合</span></li><li><span class="preview">設定>檔案> Experience Manager Assets</span></li></ul> |
+| 整合清單 | <ul><li>設定>檔案> SharePoint整合</li><li>設定>檔案>自訂整合</li><li>設定>檔案> Experience Manager Assets</li></ul> |
 | 報告清單 | 主要功能表>報表（**使用可共用資料夾**&#x200B;必須開啟） |
-| <span class="preview">佇列主題、主題群組及路由規則清單</span> | <ul><li><span class="preview">專案或範本>佇列主題</span></li><li><span class="preview">專案或範本>主題群組</span></li><li><span class="preview">專案或範本>路由規則</span></li></ul> |
+| 佇列主題、主題群組及路由規則的清單 | <ul><li>專案或範本>佇列主題</li><li>專案或範本>主題群組</li><li>專案或範本>路由規則</li></ul> |
 | 快照清單 | 專案>快照 |
 | 計費的資源清單 | 專案>計費資源 |
-| <span class="preview">前置任務清單</span> | <span class="preview">設定>任務或範本任務>前置任務</span> |
+| 前置任務清單 | 設定>任務或範本任務>前置任務 |
 | 在任務中新增進階指派 | 任務>工作總攬>進階 |
-| <span class="preview">檔案的所有版本檢視</span> | <span class="preview">專案>檔案>檔案詳細資訊>所有版本</span> |
+| 檔案的所有版本檢視 | 專案>檔案>檔案詳細資訊>所有版本 |
 | 面板管理員檢視 | 面板>管理員檢視 |
 | Adobe雲端儲存空間上的檔案 | 專案，任務，問題，投資組合，方案，範本，範本任務>檔案 |
-| <span class="preview">情境計畫和方案的清單</span> | <span class="preview">主要功能表>案例</span> |
-| <span class="preview">目標和進度指標清單</span> | <ul><li><span class="preview">主要功能表>目標</span></li><li><span class="preview">主要功能表>目標>進度指示器</span></li></ul> |
+| 情境計畫和方案的清單 | 主要功能表>案例 |
+| 目標和進度指標清單 | <ul><li>主要功能表>目標</li><li>主要功能表>目標>進度指示器</li></ul> |
 
 <!--
 
@@ -190,15 +188,11 @@ Last, under Scenario Planner
 
 1. 按一下清單上方的&#x200B;**欄**。
 
-   生產環境中的影像範例：
-   ![顯示資料行範例](assets/glist-display-move-columns.png)
-
-   在預覽環境中<span class="preview">範例影像：</span>
    ![顯示資料行範例](assets/display-columns-090126.png)
 
 1. 使用切換來顯示或隱藏清單中的欄。
 
-   <span class="preview">您可以在搜尋方塊中搜尋欄。</span>
+   您可以在搜尋方塊中搜尋欄。
 
 1. 若要重新排序欄，請按一下&#x200B;**拖曳**&#x200B;圖示![拖曳圖示](assets/drag-icon.png)並將欄移至您想要的位置。 移動欄會自動變更清單。
 
@@ -242,7 +236,7 @@ Last, under Scenario Planner
 
    <!-- Add info about Properties and KPIs when something gets released with those options -->
 
-1. <span class="preview">（選擇性）若要重新排序欄，請將游標停留在&#x200B;**選取的**&#x200B;區段中的欄名稱上，然後按一下&#x200B;**拖曳**&#x200B;圖示![拖曳圖示](assets/drag-icon.png)。 垂直行動資料行，以依序排列。</span>
+1. （選擇性）若要重新排序欄，請將游標停留在&#x200B;**選取的**&#x200B;區段中的欄名稱上，然後按一下&#x200B;**拖曳**&#x200B;圖示![拖曳圖示](assets/drag-icon.png)。 垂直移動欄以依序放置。
 1. 按一下「**儲存**」。
 
    ![資料行管理員](assets/glist-column-manager.png)

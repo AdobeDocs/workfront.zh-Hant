@@ -15,14 +15,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 3%
 ---
 # 檢視及管理變更歷史記錄
-
-{{preview-fast-release-general}}
 
 變更記錄可讓系統管理員設定及追蹤Adobe Workfront中物件和特定欄位的變更。 彈性的設定可讓管理員設定確切要追蹤哪些物件和欄位。
 
@@ -31,7 +29,7 @@ ht-degree: 3%
 * 「設定」區域中的活動，例如建立或刪除存取層級或工作角色
 * 欄位層級更新，例如編輯專案說明或變更使用者的版面配置範本
 * 物件更新，例如更新專案狀態或附加自訂表單到任務
-* <span class="preview">統一檢閱和核准工作流程活動，包括參與者和決定</span>
+* 統一的稽核和核准工作流程活動，包括參與者和決定
 
 如需定義要追蹤哪些物件和欄位的詳細資訊，請參閱[設定要在變更歷程記錄中追蹤的欄位](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md)。
 

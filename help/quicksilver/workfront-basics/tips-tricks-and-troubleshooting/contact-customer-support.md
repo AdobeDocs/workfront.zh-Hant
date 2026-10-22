@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 1%
@@ -142,7 +142,7 @@ Old numbers - before 2/10/2025:
 
 1. 瀏覽至&#x200B;**[!UICONTROL 我的案例]**&#x200B;頁面。 當您提交案例時，此頁面便會開啟；或者，您可以按一下左側導覽中的&#x200B;**[!UICONTROL 我的案例]**&#x200B;來開啟此頁面。
 
-1. （選擇性）使用頁面頂端的選項，依&#x200B;**產品（[!DNL Experience Cloud]解決方案）**&#x200B;或大小寫&#x200B;**[!UICONTROL 狀態]** （[!UICONTROL 開啟]或Closed）篩選。 您也可以使用[!UICONTROL 搜尋]方塊來搜尋與您的支援案例相關的任何關鍵字。
+1. （選擇性）使用頁面頂端的選項，依&#x200B;**產品（[!DNL CX Enterprise]解決方案）**&#x200B;或案例&#x200B;**[!UICONTROL 狀態]** （[!UICONTROL 開啟]或[!UICONTROL 關閉]）篩選。 您也可以使用[!UICONTROL 搜尋]方塊來搜尋與您的支援案例相關的任何關鍵字。
 
 1. （選擇性）若要檢視案例的詳細資訊，請按一下&#x200B;**案例編號**&#x200B;加以存取。
 

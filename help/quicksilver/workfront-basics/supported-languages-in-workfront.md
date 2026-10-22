@@ -18,14 +18,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 1%
 ---
 # Adobe Workfront支援的語言
 
-您可以調整瀏覽器上的語言偏好設定（如果貴組織尚未移轉至Workfront），或您的Adobe Workfront設定檔語言偏好設定（如果移轉至Adobe Admin Console），以及您在Workfront中的預設電子郵件地區設定，以變更顯示來自Adobe Admin Console的和電子郵件的語言。
+您可以調整瀏覽器上的語言偏好設定（如果貴組織尚未移轉至Adobe Workfront）或Workfront設定檔語言偏好設定（如果移轉至Adobe Admin Console），以及您在Adobe CX Enterprise中的預設電子郵件地區設定，藉此變更顯示Adobe Admin Console和來自Workfront之電子郵件的語言。
 
 若要變更您顯示Workfront所用的語言，請參閱本文中的[變更語言](#change-the-language)。
 
@@ -44,7 +44,7 @@ Workfront支援下列語言：
 * 中文 — 簡體(zh-CN)
 * 中文 — 繁體(zh-TW)
 
-如果貴組織未在Workfront上，則在瀏覽器中檢視Adobe Admin Console時使用的語言是由瀏覽器語言設定所控制，或者如果貴組織在Adobe Admin Console上，則是由您的Adobe Experience Cloud設定檔語言所控制。 無論是哪種情況，請確定您選取的語言列在支援的語言清單中。
+如果貴組織未在Workfront上，則在瀏覽器中檢視Adobe Admin Console時使用的語言是由瀏覽器語言設定所控制，或者如果貴組織在Adobe Admin Console上，則由您的Adobe CX Enterprise設定檔語言所控制。 無論是哪種情況，請確定您選取的語言列在支援的語言清單中。
 
 若要以任何支援的語言顯示外寄電子郵件，請在Workfront中修改您的使用者電子郵件地區設定或客戶資訊設定。\
 您必須是Workfront管理員才能修改客戶資訊設定。\
@@ -119,10 +119,10 @@ Workfront中的Web Proof Viewer支援Workfront支援的大部分語言。
 | URL | Adobe體驗 | 語言控制 |
 |---|---|---|
 | （公司名稱）.my.workfront.com | 未移轉至Adobe Admin Console | [變更瀏覽器語言](#change-the-browser-language) |
-| experience.adobe.com | 已移轉至Adobe Admin Console | [變更Adobe Experience Cloud語言](#change-the-adobe-experience-cloud-language) |
+| experience.adobe.com | 已移轉至Adobe Admin Console | [變更Adobe CX Enterprise語言](#change-the-adobe-cx-enterprise-language) |
 
 * [變更瀏覽器語言](#change-the-browser-language)
-* [變更Adobe Experience Cloud語言](#change-the-adobe-experience-cloud-language)
+* [變更Adobe CX Enterprise語言](#change-the-adobe-cx-enterprise-language)
 * [變更Workfront和使用者電子郵件地區設定](#change-the-workfront-and-user-locales)
 
 <!--DELETE THIS SECTION MARCH 2026-->
@@ -139,11 +139,11 @@ The browser language must be changed on an individual user basis.
 See the "Help" menu for your browser for specific information about how to change the language of your browser.
 -->
 
-### 變更Adobe Experience Cloud語言
+### 變更Adobe CX Enterprise語言
 
-如果您的組織已移轉至Adobe Admin Console，您的Adobe Experience Cloud個人資料語言會決定Workfront中顯示的語言。
+如果您的組織已移轉至Adobe Admin Console，則Adobe CX Enterprise設定檔語言會決定Workfront中顯示的語言。
 
-1. 按一下Adobe Experience Cloud工具列最右端的個人資料圖片，然後按一下&#x200B;**偏好設定**。 Adobe Experience Cloud工具列位於Workfront主工具列的正上方。
+1. 按一下Adobe CX Enterprise工具列最右端的個人資料圖片，然後按一下&#x200B;**偏好設定**。 Adobe CX Enterprise工具列位於Workfront主工具列的正上方。
 
 1. 在您的名稱和電子郵件地址下方的&#x200B;**設定檔**&#x200B;下，按一下目前選取語言的名稱。
 
@@ -178,7 +178,7 @@ When changing your User Email Locale, you modify the language, date, and number 
 
 >[!NOTE]
 >
->語言偏好設定會儲存在Adobe設定檔中，且不會使用電子郵件地區設定。 請參閱本文中的[變更Adobe Experience Cloud語言](#change-the-adobe-experience-cloud-language)。
+>語言偏好設定會儲存在Adobe設定檔中，且不會使用電子郵件地區設定。 請參閱本文中的[變更Adobe CX Enterprise語言](#change-the-adobe-cx-enterprise-language)。
 
 <!--
 To change your User Email Locale:
