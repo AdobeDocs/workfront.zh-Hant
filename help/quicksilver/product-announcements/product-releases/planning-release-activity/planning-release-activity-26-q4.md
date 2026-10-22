@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b3d98796609ca5db35d11749eb0f1db39bd0feea
+source-git-commit: f18e4b5c5ae56df3923879a2f58d44ffc4184480
 workflow-type: tm+mt
-source-wordcount: '3261'
+source-wordcount: '3427'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 2026年第四季發行活動
@@ -28,6 +28,32 @@ ht-degree: 0%
 本文介紹2026年第四季發行的Workfront Planning功能。
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 在GenStudio for Performance Marketing中啟用Planning工作區
+
+>[!NOTE]
+>
+>預覽和生產： 2026年10月21日
+>[!BADGE 超出排程]{type=Neutral}
+>僅適用於擁有Adobe GenStudio for Performance Marketing授權的客戶
+
+您現在可以啟用現有的Workfront Planning工作區以用於GenStudio for Performance Marketing計畫，以便重複使用行銷活動、產品、角色和其他記錄，而無需重新建立。
+
+使用GenStudio Adobe儲存專案，您可以將Planning記錄型別和欄位對應至GenStudio工作區記錄型別和欄位，然後從專案切換器存取GenStudio中的Planning工作區資訊。
+
+如需詳細資訊，請參閱[將Adobe Workfront規劃工作區升級至GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)。
+
+## Meta動態創意啟用型別
+
+>[!NOTE]
+>
+>預覽和生產： 2026年10月21日
+>[!BADGE 超出排程]{type=Neutral}
+>僅適用於擁有Adobe GenStudio for Performance Marketing授權的客戶
+
+Workfront Planning現在支援Meta動態Creative物件的動態創意影像和動態創意視訊啟用型別。 這些選項可在啟用記錄的型別欄位中使用，以取消封鎖Meta Dynamic Creative物件啟用。
+
+如需詳細資訊，請參閱[開始使用Adobe Workfront Planning與Adobe GenStudio for Performance Marketing整合](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)。
 
 <!--
 

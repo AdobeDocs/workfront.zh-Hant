@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a8c35fd2f1059bd91de7d6d59db7e447ec6af6a9
+source-git-commit: 4af92ba2774dc7fea7f91df14d8c3cdc8e865025
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '564'
 ht-degree: 5%
 ---
 
@@ -30,7 +30,31 @@ ht-degree: 5%
 
 ## Adobe Workfront增強功能
 
+* [AI增強功能](#ai-enhancements)
 * [專案增強功能](#project-enhancements)
+
+### AI增強功能
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>功能</strong>
+            </td>
+            <td><strong>預覽</strong></td>
+            <td><strong>快速發行</strong></td>
+            <td><strong>每季</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">Workfront MCP伺服器工具組</a></p>
+                <p>您現在可以將Workfront MCP目錄限製為特定工具集，並依產品權益篩選可用性，因此AI使用者端只能存取所需的功能。</p>
+            </td>
+            <td><p>2026年10月21日</p></td>
+            <td><p>2026年11月12日</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+    </tbody>
+</table>
 
 ### 專案增強功能
 
@@ -76,14 +100,14 @@ ht-degree: 5%
 
 作為報表中的替代專案，您可以使用建議的文字模式代碼（視需要使用`costRates`或`billingRates`）：
 
-    &grave;&grave;
+    ``
     displayname=Test
     listdelimiter=&lt;br>
     listmethod=nested(costRates)。lists
     type=iterate
     valueexpression=CONCAT({startDate}，&quot; - &quot;，{endDate}，&quot;： &quot;，{value})
     valueformat=HTML
-    &grave;&grave;
+    ``
 
 若要管理和檢閱工作角色費率，請使用專用的費率管理體驗：
 
@@ -98,10 +122,10 @@ ht-degree: 5%
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hant).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
 ### 訓練更新
 
-探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hant)的「新增功能」一節。
+探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的「新增功能」一節。
