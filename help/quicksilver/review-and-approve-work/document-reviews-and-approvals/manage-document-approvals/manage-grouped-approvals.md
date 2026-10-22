@@ -5,15 +5,13 @@ title: 管理分組的核准
 description: 您可以新增或移除群組核准中的參與者和檔案，而不會中斷群組其他成員的工作流程。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: ccb3d004feca5373473a872b101a7acff11de77f
+source-git-commit: e62ae215bcc7ea42701d6eb92cf43f531a6afc0d
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1030'
 ht-degree: 2%
 ---
 
 # 管理分組的核准
-
-<span class="preview">此頁面上的資訊在預覽Sandbox環境中無法使用，因為Frame.io整合在此無法使用。 此功能將於2026年10月22日在生產環境中提供。</span>
 
 分組的核准在單一核准工作流程下將多個檔案捆綁，因此所有檔案一起移動經過相同的階段，而不是要求每個檔案單獨核准。 您可以新增或移除使用中群組核准中的參與者和檔案，而無需重新建立工作流程。
 
