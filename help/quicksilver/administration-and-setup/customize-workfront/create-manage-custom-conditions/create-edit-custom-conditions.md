@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
+source-git-commit: 15838c63a3894675382b07de04e6e787ff683f9a
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 5%
@@ -74,11 +74,12 @@ ht-degree: 5%
 
 1. 按一下您想要與條件關聯的物件型別（**專案**、**任務**&#x200B;或&#x200B;**問題**）的標籤。
 
-1. 若要建立新條件，請按一下[新增條件] **&#x200B;**。
+1. 若要建立新條件，請按一下[新增條件] ****。
 
    或
 
    若要編輯現有條件，請選取您要刪除的條件名稱旁的核取方塊，然後按一下畫面底部動作列中的&#x200B;**編輯**。
+
 
    ![編輯自訂條件](assets/edit-conditions-082526.png)
 

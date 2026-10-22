@@ -9,9 +9,9 @@ feature: System Setup and Administration
 role: Admin
 author: Courtney
 recommendations: noDisplay, noCatalog
-source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
+source-git-commit: 35d1ee552feec33f3f2ae17dff12601ab0d90951
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '44'
 ht-degree: 0%
 ---
 
@@ -20,4 +20,3 @@ ht-degree: 0%
 本節包含下列文章：
 
 * [在Workfront中設定事件訂閱](configure-event-subscriptions-in-workfront.md)
-* [以非管理員使用者身分管理事件訂閱](../../../wf-api/general/event-subs-non-admin.md)

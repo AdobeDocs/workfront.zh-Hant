@@ -17,10 +17,10 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: f0cde465a56d0cc936e8c886f4a120dec5fe5f73
+source-git-commit: 35d1ee552feec33f3f2ae17dff12601ab0d90951
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 4%
+source-wordcount: '74'
+ht-degree: 5%
 ---
 # 事件訂閱
 
@@ -28,10 +28,10 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->若要在Workfront應用程式中使用事件訂閱，請參閱[在Workfront中設定事件訂閱](/help/quicksilver/administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md)以及[以非管理員使用者身分管理事件訂閱](/help/quicksilver/wf-api/general/event-subs-non-admin.md)。
+>若要使用Workfront應用程式中的事件訂閱，請參閱[在Workfront中設定事件訂閱](/help/quicksilver/administration-and-setup/manage-workfront/manage-event-subscriptions/configure-event-subscriptions-in-workfront.md)。
 
 * [事件訂閱API](../../wf-api/general/event-subs-api.md)
-* [以非管理員使用者身分管理事件訂閱](../../wf-api/general/event-subs-non-admin.md)
+* [以非管理員使用者身分管理事件訂閱](/help/quicksilver/wf-api/general/event-subs-non-admin.md)
 * [活動訂閱最佳實務](../../wf-api/general/event-sub-best-practice.md)
 * [事件訂閱傳遞需求](../../wf-api/general/setup-event-sub-endpoint.md)
 * [事件訂閱資源欄位](../../wf-api/api/event-sub-resource-fields.md)

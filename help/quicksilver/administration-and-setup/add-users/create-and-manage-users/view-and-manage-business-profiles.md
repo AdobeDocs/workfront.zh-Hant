@@ -20,18 +20,16 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c50ca7e7462b8246b0e77c97658da4ce24a30756
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 6%
 ---
 # 檢視和管理企業檔案
 
-{{highlighted-preview}}
-
 若要將業務設定檔指派給使用者，您必須指派群組和關聯的存取層級。
 
-身為Workfront管理員，您可以指派存取層級和群組的組合，以設定使用者的企業設定檔。 這項管理可從Workfront中使用者的「使用者」頁面進行。 <span class="preview">群組管理員也可以建立、編輯和刪除企業設定檔，但僅限於他們管理的群組。</span>
+身為Workfront管理員，您可以指派存取層級和群組的組合，以設定使用者的企業設定檔。 這項管理可從Workfront中使用者的「使用者」頁面進行。 群組管理員也可以建立、編輯和刪除企業設定檔，但僅限於他們管理的群組。
 
 如需企業檔案的詳細資訊，請參閱[企業檔案概觀](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)。
 
@@ -56,7 +54,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td><p>系統管理員</p><p><span class="preview">群組管理員（針對他們管理的群組）</span></p></td>
+   <td><p>系統管理員</p><p>群組管理員（針對他們管理的群組）</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -79,8 +77,6 @@ ht-degree: 6%
 
 ## 編輯企業檔案
 
-<div class="preview">
-
 編輯企業設定檔會開啟用來建立企業設定檔的相同視窗。
 
 {{step-1-to-users}}
@@ -95,11 +91,7 @@ ht-degree: 6%
 >
 >群組管理員只能編輯其管理之群組的企業設定檔。
 
-</div>
-
 ## 刪除企業檔案
-
-<div class="preview">
 
 {{step-1-to-users}}
 
@@ -111,5 +103,3 @@ ht-degree: 6%
 >[!NOTE]
 >
 >群組管理員只能刪除其管理之群組的企業設定檔。
-
-</div>

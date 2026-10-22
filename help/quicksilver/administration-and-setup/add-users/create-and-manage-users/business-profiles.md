@@ -20,14 +20,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
 workflow-type: tm+mt
 source-wordcount: '1475'
 ht-degree: 0%
 ---
 # 企業檔案概觀
-
-{{highlighted-preview}}
 
 企業檔案是增強的許可權模型，可讓代理商等客戶有效率地管理使用者存取，並確保群組層級的精確許可權控制。 在商業設定檔中，使用者對群組特定物件有不同的許可權。 其他物件也可以直接與企業設定檔共用。
 
@@ -40,7 +38,7 @@ Workfront系統管理員：
 * 視需要定義業務設定檔的有效日期
 * 指派配置範本給存取層級
 
-<span class="preview">群組管理員也可以建立、編輯和刪除企業設定檔，但僅限於他們管理的群組。</span>
+群組管理員也可以建立、編輯和刪除企業設定檔，但僅限於他們管理的群組。
 
 任何有權共用物件的使用者都可以與企業設定檔共用物件，而具有設定檔的所有使用者都會看到物件。
 

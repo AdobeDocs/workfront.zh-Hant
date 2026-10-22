@@ -10,14 +10,12 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 04c7239a6b8dc46c22e978164ad71d6a600d4e62
+source-git-commit: 15838c63a3894675382b07de04e6e787ff683f9a
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
 ---
 # Workfront中的CX Enterprise Coworker概觀
-
-{{preview-fast-release-general}}
 
 >[!IMPORTANT]
 >
@@ -33,7 +31,7 @@ CX Enterprise Coworker Chat是一個用於完成工作的對話式介面，現�
 
 如需有關在Workfront中使用同事的資訊，請參閱[在Workfront中使用CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)。
 
-如需同事及其功能的詳細資訊，請參閱[Adobe CX Enterprise Coworker聊天總覽](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/overview)。
+如需同事及其功能的詳細資訊，請參閱[Adobe CX Enterprise Coworker聊天總覽](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview)。
 
 如需Workfront中同事可用的技能，請參閱CX Enterprise Coworker中的[Workfront技能](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)。
 
