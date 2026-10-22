@@ -171,7 +171,7 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
      如需相關資訊，請參閱本文章中的[相依連線記錄型別](#example-of-dependent-connected-record-types)範例。
    * 已連線記錄欄位的欄標題中有一個指示，說明該欄位處於相依連線關係。
 
-     欄標題](assets/dependent-icon-tooltip-in-column-header.png)中的![相依圖示工具提示
+     欄標題![&#128279;](assets/dependent-icon-tooltip-in-column-header.png)中的相依圖示工具提示
 1. （選擇性）按一下「**記錄篩選規則**」，並從您要連線的記錄型別中選取欄位，以限制該欄位值的選項，然後按一下「**完成**」。
 
    如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。

@@ -68,12 +68,12 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[！UICONTROL Workflow Standard]或[！UICONTROL Workfront Plan]授權</p>
+   <td><p>[!UICONTROL Workflow Standard]或[!UICONTROL Workfront Plan]授權</p>
        <p></p></td>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[！UICONTROL系統管理員]</td> 
+   <td>[!UICONTROL 系統管理員]</td> 
   </tr> 
  </tbody> 
 </table>
