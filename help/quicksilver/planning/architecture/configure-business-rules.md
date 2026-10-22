@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: fac1ea173c1dced72e4273dc2a30b2b25c3c4071
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1137'
 ht-degree: 1%
 ---
 
@@ -29,9 +29,11 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 您可以為Adobe Workfront Planning記錄型別設定商業規則，以指示在允許或阻止對該型別記錄的動作之前，需要某些欄位。
 
@@ -130,7 +132,7 @@ ht-degree: 1%
    「商業規則」表格頁面隨即開啟。
 1. 按一下&#x200B;**新商業規則**。
 1. 在&#x200B;**新企業**&#x200B;規則方塊中，在第一個可用欄位中為企業規則新增名稱。 這是必填欄位
-1. （選用）新增說明以定義商業規則，然後按一下[儲存]。**&#x200B;**
+1. （選用）新增說明以定義商業規則，然後按一下[儲存]。****
 
    「商業規則設定」表單隨即開啟。
 
@@ -171,7 +173,7 @@ ht-degree: 1%
 
    在商業規則的&#x200B;**Then**&#x200B;區段中，您可以檢視規則功能的說明。
 
-1. 按一下[啟動]&#x200B;**&#x200B;**&#x200B;以啟用此記錄型別的規則，然後按一下[儲存]&#x200B;**&#x200B;**。
+1. 按一下[啟動]****&#x200B;以啟用此記錄型別的規則，然後按一下[儲存]****。
 
    規則會在您啟動後立即套用，而所有有權編輯或刪除所選記錄型別中記錄的使用者都必須遵循這些規則。
 1. （選擇性）按一下頁首中商業規則名稱的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，以開啟&#x200B;**規則詳細資料**&#x200B;方塊並更新商業規則的相關資訊。

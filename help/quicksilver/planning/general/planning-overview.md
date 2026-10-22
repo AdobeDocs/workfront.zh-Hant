@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 35d1ee552feec33f3f2ae17dff12601ab0d90951
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 0%
@@ -87,7 +87,7 @@ the bullets repeat in the "Access needed for Planning STA" article
 
 * Workfront Planning可作為獨立產品，供貴組織使用者使用。 這讓使用者無法存取任何Workfront Workflow功能，也無法存取Planning功能。
 
-如需以獨立產品形式包含在Planning中的功能相關資訊，請參閱[開始以獨立產品形式使用Adobe Workfront Planning &#x200B;](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)。
+如需以獨立產品形式包含在Planning中的功能相關資訊，請參閱[開始以獨立產品形式使用Adobe Workfront Planning ](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)。
 
 ## Adobe Workfront規劃簡介
 
@@ -186,8 +186,10 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 * [Adobe Workfront Planning的一般資訊和文章索引](/help/quicksilver/planning/planning-information.md)：包含有關Workfront Planning檔案的所有文章索引，依興趣區域分組。
 * [以獨立產品形式開始使用Adobe Workfront Planning](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)：以獨立產品形式購買時，提供Workfront Planning的一般資訊。
 * [Adobe Workfront Planning AI Assistant總覽](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)：使用Workfront AI Assistant for Planning，您可以使用命令來搜尋記錄，或建立、更新和刪除記錄，並讓助理為您工作。
+
 * [Adobe Workfront Planning CX Enterprise Coworker總覽](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)：對話式介面，您可以透過簡單的語言描述目標，然後規劃、執行及驗證整個Workfront Planning和其他連線的Adobe系統的工作，再重新啟用以供核准。 CX Enterprise Coworker保留AI Assistant目前所做的一切，同時在新的全熒幕體驗和Workfront右側邊欄中新增更強大的端對端功能。
-* [適用於Workfront Fusion的Adobe Workfront規劃模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：透過Adobe Workfront規劃模組，您可以在Workfront規劃中發生事件時觸發情境。 您也可以建立、讀取、更新及刪除記錄，或對Adobe Workfront Planning帳戶執行自訂API呼叫。 您必須購買額外的授權才能存取Workfront Fusion。
+
+* [適用於Workfront Fusion的Adobe Workfront規劃模組](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：透過Adobe Workfront規劃模組，您可以在Workfront規劃中發生事件時觸發情境。 您也可以建立、讀取、更新及刪除記錄，或對Adobe Workfront Planning帳戶執行自訂API呼叫。 您必須購買額外的授權才能存取Workfront Fusion。
 
 * [Adobe Workfront Planning API基本知識](/help/quicksilver/planning/general/planning-api-basics.md)： Adobe Workfront Planning API的目標是透過引入透過HTTP運作的REST-ful架構，簡化與Planning的整合建置。
 

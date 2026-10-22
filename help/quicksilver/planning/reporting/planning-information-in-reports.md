@@ -19,13 +19,15 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 6%
 ---
 
 # 在報表中檢視Workfront規劃資訊
+
+{{planning-important-intro}}
 
 使用「畫布控制面板」時，您可以在報表中檢視Adobe Workfront Planning資訊。
 

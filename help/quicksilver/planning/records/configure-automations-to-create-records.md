@@ -28,7 +28,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '1900'
 ht-degree: 4%
@@ -48,6 +48,8 @@ ht-degree: 4%
 <!-- add a new section to this article to mention a new way to create WF objects from Planning: help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md-->
 
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
+
+{{planning-important-intro}}
 
 您可以在Adobe Workfront Planning中設定自動化，以便在從Planning記錄觸發時，在Workfront中建立物件或Workfront Planning中的記錄。 建立的物件或記錄會自動連線至您觸發自動處理的記錄。
 
@@ -285,7 +287,7 @@ Old:
        這是必填欄位。
 
        <!--submitted a change in functionality and UI text for this - revise??-->
-                                                                                 在&#x200B;**對應欄位**&#x200B;區域中，更新下列資訊：
+                                                                                 在**對應欄位**&#x200B;區域中，更新下列資訊：
 
        * **傳輸自**：從建立自動化的記錄型別中選取欄位，以將它們對應到連線記錄型別的欄位。
        * **傳輸至**：從新建立的記錄中選取欄位，這些欄位會填入您執行自動化之記錄中的資訊。
@@ -336,13 +338,13 @@ Old:
 
 1. （選擇性）若要檢視、停用或刪除自動化清單，請按一下自動化名稱右邊的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後執行下列其中一項作業：
 
-   * 若要自動變更欄位值，請按一下[檢視] **&#x200B;**&#x200B;以檢視自動設定。
+   * 若要自動變更欄位值，請按一下[檢視] ****&#x200B;以檢視自動設定。
 
      >[!TIP]
      >
      >當自動化是由欄位值變更所觸發時，在自動化設定儲存後，您無法編輯這些設定。
 
-   * 若要使用按一下按鈕的自動化功能，請按一下[編輯] **&#x200B;**&#x200B;來更新下列資訊：
+   * 若要使用按一下按鈕的自動化功能，請按一下[編輯] ****&#x200B;來更新下列資訊：
 
      * 按一下自動化名稱右邊的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後&#x200B;**編輯**，即可取得自動化名稱。
      * 自動化中的任何欄位，**動作**&#x200B;欄位除外。

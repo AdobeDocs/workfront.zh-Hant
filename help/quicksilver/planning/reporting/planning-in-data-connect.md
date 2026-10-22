@@ -19,13 +19,15 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
 ---
 
 # 適用於Workfront Planning的Workfront Data Connect
+
+{{planning-important-intro}}
 
 Workfront Data Connect可讓您使用Snowflake技術存取Workfront資料，包括來自Adobe Workfront Planning的資料，以回答業務關鍵問題並評估流程的價值。 企業客戶可使用資料視覺化工具，直接從Workfront資料湖分析其資料，或將Workfront資料匯出至客戶擁有的資料倉儲。
 

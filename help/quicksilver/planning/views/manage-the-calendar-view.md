@@ -28,16 +28,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
+source-git-commit: 2dc0cd1ea81b1a71afd5c065bfe7007188e68375
 workflow-type: tm+mt
-source-wordcount: '2010'
+source-wordcount: '1898'
 ht-degree: 5%
 ---
 # 管理行事曆檢視
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -200,9 +202,9 @@ Old:
        * 橫跨多天的記錄會顯示在行事曆的頂端。
        * 持續一天或更短的記錄，會顯示在行事曆檢視的下半部分。 如果您選取顯示開始與結束日期的小時，則記錄會在記錄發生的當天的適當時間顯示。
 
-         <span class="preview">行事曆在每週檢視中會顯示過去、目前和未來幾週最多1,000筆記錄。</span>
+         行事曆在每週檢視中針對這兩個區域顯示前、目前和未來幾週最多1,000筆記錄。
 
-1. <span class="preview"> （選擇性和條件性）按一下行事曆底部的&#x200B;**載入更多** （如果超過1,000筆記錄，而且有些記錄預設不會顯示），依周檢視行事曆時。</span>
+1. （選擇性和條件性）按一下行事曆底部的&#x200B;**載入更多** （如果超過1,000筆記錄，且其中部分記錄預設不會顯示），然後依周檢視行事曆。
 
 1. （選擇性）按一下&#x200B;**全熒幕**&#x200B;圖示![開啟全熒幕圖示](assets/open-full-screen-icon.png)以全熒幕開啟檢視，然後按一下&#x200B;**退出全熒幕**&#x200B;圖示![退出全熒幕圖示](assets/exit-full-screen-icon.png)或鍵盤上的Escape以退出全熒幕。
 
@@ -287,10 +289,10 @@ Old:
         </tr>
         <tr>
             <td>多選，人員</td>
-            <td><p>具有任一</p> 或<span class="preview"><p>屬於任一</p></span>
+            <td><p>屬於任一</p>
             <p>具有所有</p>
             <p>完全符合</p>
-            <p>不具有</p> 或<span class="preview"><p>屬於任一</p></span>
+            <p>屬於任一</p>
             <p>是空的</p>
             <p>不是空的</p></td>
         </tr>
@@ -459,7 +461,11 @@ Old:
 
    * **記錄型別**：行事曆中記錄列的色彩符合您選取的記錄型別。 這是預設選項。
    * **欄位值**：記錄的顏色符合您指定的欄位顏色。
-   * **無**：記錄以白色列顯示。 <span class="preview">已從預覽環境中移除&#x200B;**無**&#x200B;選項。</span>
+   * **記錄**：顏色符合記錄的顏色。
+
+   <!-- 
+    * **None**: Records displays in a white bar. <span class="preview">The **None** option has been removed from the Preview environment.</span
+    -->
 
 
 
@@ -477,9 +483,7 @@ Old:
    >[!NOTE]
    >
    >* 您只能將顏色與具有顏色編碼選項的欄位比對。 例如，您可以將顏色與「狀態」欄位配對，或與顏色關聯的選項欄位。
-   >    
-   >* 在生產環境中，您無法將顏色與連線的記錄或其查詢欄位進行比對。 <span class="preview">在[預覽]環境中，您可以讓顏色符合連線的記錄，但不能符合其查詢欄位。</span>
-
+   >            
 
 1. 按一下「**儲存**」。
 

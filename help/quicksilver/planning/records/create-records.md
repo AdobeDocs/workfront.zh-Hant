@@ -30,17 +30,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '3730'
+source-wordcount: '3769'
 ht-degree: 0%
 ---
 # 建立記錄
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
-
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -57,6 +58,7 @@ ht-degree: 0%
 * [從其他記錄連線](#create-records-as-you-connect-them)
 * [提交申請表單至記錄型別](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [從CSV或Excel檔案匯入資訊](#create-records-by-importing-records-from-a-csv-or-excel-file)
+* [使用CX Enterprise Coworker建立記錄](#create-records-using-cx-enterprise-coworker)
 * [使用自動化](#create-records-by-using-automations)
 
 如需有關管理表格或時間表檢視中的記錄的資訊，請參閱下列文章：
@@ -196,14 +198,9 @@ Old:
   >
   >工作區管理員必須為記錄型別建立請求表單，以便擁有檢視許可權的使用者使用請求表單新增記錄。 否則，檢視許可權使用者無法建立記錄。
 
-<div class="preview">
-
 * 無論您使用何種方法來建立記錄，所有記錄在建立時都會自動以色彩標示。
 
   如需詳細資訊，請參閱本文中的[色彩編碼記錄](#color-coding-records)一節。
-
-</div>
-
 
 ## 使用任何記錄型態檢視中的「新增記錄」或「請求記錄」按鈕來建立記錄
 
@@ -228,7 +225,7 @@ Old:
 
 1. （視條件而定）如果您按一下&#x200B;**新記錄**，請執行下列動作：
 
-   1. 按一下下列其中一個方式來建立記錄，然後按一下[繼續]&#x200B;**&#x200B;**：
+   1. 按一下下列其中一個方式來建立記錄，然後按一下[繼續]****：
 
       * **手動新增**。 記錄的預覽方塊開啟。\
         從步驟6開始，新增記錄的相關資訊，如[從本文中的記錄型別資料表檢視](#create-records-by-adding-them-inline-from-the-record-type-table-view)區段內嵌新增記錄，以建立記錄中所述。<!--insure this stays accurate-->
@@ -560,7 +557,7 @@ You can import records from other applications by linking them to existing recor
 1. （視條件而定）如果嘗試連線時找不到記錄，請按一下[新增] **+ [新增]**
 
    或
-   開始輸入名稱，然後按一下&#x200B;**+新增**。 **+新增**&#x200B;按鈕後面接著您連線的記錄型別名稱。 例如，將品牌新增至現有行銷活動時，「新增品牌」。 您輸入的名稱也會跟著新增按鈕。
+   開始輸入名稱，然後按一下**+新增**。 **+新增**&#x200B;按鈕後面接著您連線的記錄型別名稱。 例如，將品牌新增至現有行銷活動時，「新增品牌」。 您輸入的名稱也會跟著新增按鈕。
 
    ![新增按鈕以在醒目提示的內容中建立記錄](assets/add-button-to-create-records-in-context-highlighted.png)
 
@@ -602,6 +599,16 @@ You can import records from other applications by linking them to existing recor
 
 如需詳細資訊，請參閱[從CSV或Excel檔案匯入資訊，以建立記錄](/help/quicksilver/planning/records/import-file-to-create-records.md)。
 
+## 使用CX Enterprise Coworker建立記錄
+
+您可以使用CX Enterprise Coworker來建立記錄，方法是提示AI為您建立記錄。
+
+您也可以使用Workfront CX Enterprise Coworker的&#x200B;**附加檔案**&#x200B;功能一次上傳大量記錄。 您可以使用此方法匯入10,000筆以上的記錄。
+
+CX Enterprise Coworker目前不適用於保健、金融或某些具有敏感資料的其他行業的組織。 AI助理可供這些組織使用。
+
+如需詳細資訊，請參閱[在Workfront中使用CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)。
+
 ## 使用自動化建立記錄
 
 您可以在Workfront Planning中設定自動化，以便在啟動時從Planning記錄觸發時建立記錄。 建立的記錄會自動連線到您觸發自動處理的記錄。
@@ -613,8 +620,6 @@ You can import records from other applications by linking them to existing recor
 <!--
 Move to its own article after production release in 10/2026:
 -->
-
-<div class="preview">
 
 ## 色彩編碼記錄
 
@@ -657,4 +662,3 @@ Move to its own article after production release in 10/2026:
 
       選取後，新顏色會立即套用。
 
-</div>

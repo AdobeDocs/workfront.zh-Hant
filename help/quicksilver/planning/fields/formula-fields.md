@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '782'
 ht-degree: 1%
 ---
 # 公式欄位概觀
@@ -203,13 +203,7 @@ Adobe Workfront Planning公式欄位支援Workfront計算欄位的大部分運�
 >
 >Workfront Planning公式欄位不支援下列Workfront運算式：
 >
-><!--* SORTASCARRAY-->
-><!--* SORTDESCARRAY-->
->* ADDHOUR
->* SWITCH
 >* 格式
-
-<!--remove the ones commented out when we go live to Preview and Prod, if they truly are added to Planning-->
 
 如需Workfront運算式的完整清單，請參閱[計算資料運算式概觀](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)。
 

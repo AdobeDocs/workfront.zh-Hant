@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 35d1ee552feec33f3f2ae17dff12601ab0d90951
+source-git-commit: 97ceae994929577acf1f7931df494b8b45b50e13
 workflow-type: tm+mt
-source-wordcount: '1610'
+source-wordcount: '1631'
 ht-degree: 1%
 ---
 # 開始使用Adobe Workfront Planning Designer
@@ -40,10 +40,10 @@ ht-degree: 1%
 <!--remove the Beta tags in the screen shots on this page when this is released to GA - maybe March 2, 2026-->
 
 <!--
-
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 -->
 
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 您可以使用由AI支援的Adobe Planning Designer，輕鬆設定工作區和資料結構。 Planning Designer支援從建立和設定工作區到定義欄位和公式、管理記錄、檢閱變更記錄和建立自訂檢視的所有功能。
 
-不論是直接透過AI Assistant或CX Enterprise Coworker使用，Planning Designer都提供靈活、強大的環境，用於建置和維護結構化、連線的資訊。
+不論是直接使用或想透過AI Assistant或CX Enterprise Coworker存取其功能，Workfront Planning中的Planning Designer都能提供彈性、強大的環境，用於建置和維護結構化、連線的資訊。
 
 如需Workfront Planning的相關資訊，請參閱下列文章：
 
@@ -219,7 +219,8 @@ Sargis and Ashot  said these are not required:
 -->
 
 * 您的Workfront管理員必須為貴組織開啟Planning Designer 。 此後，依預設，所有使用者都可使用Planning Designer。
-* 如果貴組織已簽署AI協定，則當您在「計畫」區域使用「AI助理員」或「同事」時，也可以執行「計畫Designer」所執行的作業。
+* 如果貴組織已簽署AI協定，則當您在「計畫」區域使用「AI助理」時，也可由「計畫Designer」執行的動作。
+* 您也可以使用CX Enterprise Coworker來存取類似功能。
 * AI助理或同事在「計畫」區域中執行的動作，或是Planning Designer執行的動作，都與您的Workfront Planning許可權和Workfront存取層級的內容相關。
 
   如需詳細資訊，請參閱下列文章：
@@ -297,7 +298,7 @@ Sargis and Ashot  said these are not required:
 
    ![規劃Designer視窗](assets/planning-designer-window.png)
 
-1. 在提供的空白處，開始輸入AI助理或同事的提示，然後在完成時按一下Enter。
+1. 在提供的空白處，開始輸入Planning Designer AI助理的提示，然後在完成時按一下Enter 。
 
    <!--add screen shot-->
 

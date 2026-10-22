@@ -21,16 +21,18 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '2188'
+source-wordcount: '2129'
 ht-degree: 1%
 ---
 # 連線記錄型別和記錄的範例
 
-<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -63,14 +65,10 @@ ht-degree: 1%
    * **名稱**：為新欄位命名。 例如，「產品資訊」。 這是連結的記錄欄位名稱。
    * **描述**：新增新欄位的描述。 例如，「這些是我想要與行銷活動相關聯的產品。」 將滑鼠游標停留在欄標題中的欄位上時，會顯示欄位說明。
 
-   <div class="preview">
-
    * **讓此連線相依**：啟用且兩個連線的記錄同時顯示在第三個記錄時，其中一個記錄型別的選擇會相依於另一個記錄型別的選擇。
 
      如需詳細資訊，請參閱[管理相依連線](/help/quicksilver/planning/architecture/manage-dependent-connections.md)。
    * **在連結的記錄型別上建立對應的欄位**：啟用時，也會在您連線的記錄型別（產品）上建立連線欄位。
-
-   </div>
 
    * **連線型別**：從下列選項中選取：
      * **多對多**：使用者可以將一個行銷活動連線到數個產品，並將一個產品連線到數個行銷活動。
@@ -87,13 +85,11 @@ ht-degree: 1%
      * **名稱**：只顯示連線記錄的名稱。
      * **影像**：只顯示連線記錄的縮圖或圖示。
 
-     <div class="preview">
+     * **顏色和名稱**：只顯示連線記錄的顏色和名稱。
 
-     * **顏色和名稱**：只顯示連線記錄的顏色和名稱
+   * **查閱欄位**：展開此選項也可從連線的記錄連線查閱欄位。
 
-     </div>
-
-   * <span class="preview">**查閱欄位**：展開此選項也可從連線的記錄連線查閱欄位。 </span>接著會開啟&#x200B;**新增查詢欄位**&#x200B;方塊，讓您連結產品欄位與行銷活動記錄型別。 您可以按一下&#x200B;**跳過**&#x200B;以略過此步驟，並於稍後新增產品欄位。
+     接著會開啟&#x200B;**新增查詢欄位**&#x200B;方塊，讓您連結產品欄位與行銷活動記錄型別。 您可以按一下&#x200B;**跳過**&#x200B;以略過此步驟，並於稍後新增產品欄位。
 
      ![產品記錄型別的新連線](assets/new-connection-with-product-record-type.png)
 

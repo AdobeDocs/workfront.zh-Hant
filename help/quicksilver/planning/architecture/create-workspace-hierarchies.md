@@ -28,7 +28,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '973'
 ht-degree: 1%
@@ -40,6 +40,8 @@ ht-degree: 1%
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
+
+{{planning-important-intro}}
 
 身為工作區管理員，您可以在Adobe Workfront Planning的記錄型別之間建立多個工作區階層。
 
@@ -115,7 +117,7 @@ ht-degree: 1%
 
    Workfront專案不能選取為階層中其他物件型別的父項。
 
-1. 按一下&#x200B;**新增物件**&#x200B;以新增第二個物件型別，這是階層中的第一個子系，然後在下拉式選單中選取另一個物件型別。
+1. 按一下&#x200B;**新增物件**以新增第二個物件型別，這是階層中的第一個子系，然後在下拉式選單中選取另一個物件型別。
 每個額外的物件型別都會成為先前物件型別的子系。
 
    ![未選取欄位的新階層方塊](assets/new-hierarchy-modal-without-connecte-fielf-selected.png)
@@ -125,13 +127,13 @@ ht-degree: 1%
 
    或
 
-   按一下[新增連線]&#x200B;**&#x200B;**&#x200B;以新增連線欄位。
+   按一下[新增連線]****&#x200B;以新增連線欄位。
 
    這會根據您當作父項的記錄型別建立一個連線欄位，並根據您當作子項的記錄型別建立一個對應的連線欄位。
 
    如果您要建立與Workfront專案的連線，專案上不會建立任何欄位。
 
-1. （視條件而定）如果沒有可用的連線欄位，請按一下[建立連線] **並新增連線，然後按一下[儲存]**&#x200B;**。**
+1. （視條件而定）如果沒有可用的連線欄位，請按一下[建立連線] **並新增連線，然後按一下[儲存]****。**
 
 1. （視條件而定）如果您要新增連線，請執行下列動作：
 

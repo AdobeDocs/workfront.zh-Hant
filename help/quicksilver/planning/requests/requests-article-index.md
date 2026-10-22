@@ -23,7 +23,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%
@@ -47,9 +47,6 @@ ht-degree: 0%
 * [在Adobe Workfront Planning中取消發佈請求表單](/help/quicksilver/planning/requests/unpublish-request-form.md)
 * [在Adobe Workfront Planning中新增核准至請求表單](/help/quicksilver/planning/requests/add-approval-to-request-form.md)
 * [在Adobe Workfront規劃中核准請求](/help/quicksilver/planning/requests/approve-request.md)
-
-<div class="preview">
-
 * [共用計畫請求](/help/quicksilver/planning/requests/share-requests.md)
 
-</div>
+

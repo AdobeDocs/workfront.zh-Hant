@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
     internal-label: Taxonomy
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '500'
 ht-degree: 4%
 ---
 <!--keep the 30 connection limit in yellow till Jan 2026-->
@@ -67,6 +67,7 @@ Adobe Workfront Planning限制您可在執行個體中建立的物件數目。 �
 | CSV的Excel檔案大小，您可以匯入以建立記錄型別 | 5MB |
 | 您可以匯入CSV或Excel檔案以建立記錄型別的列數 | 25,000 |
 | 您可以匯入CSV或Excel檔案以建立記錄型別的欄數 | 500 |
+| 使用CX Enterprise Coworker建立記錄時，CSV或Excel檔案中可匯入的列數 | 超過10,000 |
 | 一種記錄型別的公式欄位數 | 20 |
 | 一種記錄型別的連線欄位數 | 30 |
 | 公式欄位運算式中的字元數 | 50,000 |

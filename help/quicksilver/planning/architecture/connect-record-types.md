@@ -34,20 +34,20 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '3238'
+source-wordcount: '3172'
 ht-degree: 1%
 ---
 <!--keep the 30 fields limit in yellow till Jan 2026; also the global record type cross-workspace capability information-->
 
 # 連線記錄型別
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -125,7 +125,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    <ul><li><p>Adobe Experience Manager Assets授權及AEM Assets與Workfront之間的整合，用於連結AEM資產與Planning記錄型別。</p>
    <p>如需詳細資訊，請參閱<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 連線記錄型別與GenStudio Brands的Adobe GenStudio for Performance Marketing授權</p>
-   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
+   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -267,14 +267,18 @@ Old:
 
      如需詳細資訊，請參閱[編輯記錄型別](/help/quicksilver/planning/architecture/edit-record-types.md)。
 
-     >[!TIP]
-     >
-     >您可以使用下列鍵盤組合，從任何Workfront Planning頁面開啟全域搜尋方塊並搜尋記錄型別：
-     >
-     >* Windows版CTRL+K
-     >* 適用於Mac的⌘+K
-     >
-     >![全域搜尋方塊](assets/global-search-box.png)
+
+     <!--
+        not needed here??
+        >[!TIP]
+        >
+        >You can use the following keyboard combination to open the global search box from any Workfront Planning page and search for record types:
+        >
+        >* CTRL+K for Windows
+        >* ⌘+K for Mac
+        >
+        >![Global search box](assets/global-search-box.png)
+        -->
 
    * 來自&#x200B;**Workfront物件型別**&#x200B;區段的&#x200B;**專案、Portfolio、方案、公司**&#x200B;或&#x200B;**群組**。
 
@@ -318,15 +322,15 @@ Old:
     1. (Conditional) When you connect record types from two different workspaces, a record type and an Adobe Experience Manager asset object, or a record type and a GenStudio Brand, select the **Allow multiple records**. By selecting it, you indicate that you allow users to add multiple records when the connected record type field displays on the original records. This is selected by default.  
         ![New connection to record type from another workspace](assets/new-connection-allow-multiple-records-box.png)
     -->
-1. <span class="preview">（選擇性）選取&#x200B;**讓此連線相依**&#x200B;以在此連線欄位與連線記錄型別上建立的欄位之間新增相依性。</span>
+1. （選擇性）選取&#x200B;**讓此連線相依**&#x200B;以在此連線欄位與連線記錄型別上建立的欄位之間新增相依性。
 
-   <span class="preview">如需詳細資訊，請參閱[管理相依連線](/help/quicksilver/planning/architecture/manage-dependent-connections.md)。</span>
+   如需詳細資訊，請參閱[管理相依連線](/help/quicksilver/planning/architecture/manage-dependent-connections.md)。
 
-1. <span class="preview">（選擇性）在&#x200B;**連線設定**&#x200B;區段中，選取&#x200B;**在連結的記錄型別**&#x200B;上建立對應的欄位。</span>
+1. （選擇性）選取&#x200B;**在連結的記錄型別**&#x200B;上建立對應的欄位。
 
    >[!TIP]
    >
-   ><span class="preview">連線Planning記錄型別時，**連線型別**&#x200B;區段已由&#x200B;**連線設定**&#x200B;區段取代。</span>
+   >連線Planning記錄型別時，**連線型別**&#x200B;區段已由&#x200B;**連線設定**&#x200B;區段取代。
 
    選取後，除了新增到目前記錄型別的連線欄位外，還會為您連線的記錄型別建立連線欄位。 預設為停用。
 
@@ -339,25 +343,17 @@ Old:
    >* 連結的記錄欄位不會為來自另一個應用程式的物件在其各自的應用程式中建立。 例如：
    >   * 未針對連線至Planning記錄的Workfront物件建立欄位。
    >   * Planning記錄型別從GenStudio工作區連線至記錄型別時，未建立任何欄位。
-1. 選取下列其中一項：
-
-   <div class="preview">
+1. （視條件而定）如果您未開啟&#x200B;**在連結的記錄型別**&#x200B;上建立對應欄位，請選取下列其中一項：
 
    * **多重選取**：選取此專案以允許目前記錄型別中的一個記錄與連線記錄型別中的多個記錄連線。
    * **Single-select**：選取此專案可允許來自目前記錄型別的一個記錄與來自連線記錄型別的一個記錄連線。
 
-   </div>
-
-1. <span class="preview">（條件式）如果您在&#x200B;**連線型別**&#x200B;區段中啟用&#x200B;**在連結的記錄型別**&#x200B;上建立對應的欄位，請從下列選項中選擇，以指出使用者可連線到多少筆記錄以及可從多少筆記錄連線：</span>
-
-   <div class="preview">
+1. （視條件而定）如果您開啟&#x200B;**在連結的記錄型別**&#x200B;上建立對應的欄位，請從下列選項中選擇，以指出使用者可連線到多少筆記錄，以及可從多少筆記錄連線：
 
    * 多對多
    * 一對多
    * 多對一
    * 一對一
-
-   </div>
 
    如需連線型別的詳細資訊，請參閱[連線記錄型別概觀](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
 
@@ -365,28 +361,24 @@ Old:
    >
    >如果您為「連線」型別選取「一對多」或「一對一」，而您稍後想要連線記錄或已在其他地方連線的物件，您將會收到警告，指出再次連線會將它從原始連線中移除。 您可以允許移除或選取其他記錄。
 
-1. （有條件且選擇性）當您選取連線Workfront物件時，請從&#x200B;**僅連結符合這些條件的物件**&#x200B;區段中選擇&#x200B;**自訂表單**。 只有已附加所選自訂表單的物件才能連結至所選記錄型別。 您可以選取多個表單。
+1. （有條件且選擇性）當您選取連線至&#x200B;**原始要求**&#x200B;以外的Workfront物件時，請從&#x200B;**僅連線符合這些條件的物件**&#x200B;區段中選擇&#x200B;**自訂表單**。 只有已附加所選自訂表單的物件才能連結至所選記錄型別。 您可以選取多個表單。
 
    >[!NOTE]
    >
    > 您必須先在Workfront中為選取的物件建立自訂表單，這些表單才會顯示在此清單中。
 
-1. （視條件而定）當您選取連線至Experience Manager時，請從&#x200B;**從下列存放庫連結資產**&#x200B;區段的&#x200B;**Experience Manager存放庫**&#x200B;下拉式功能表中選擇存放庫。 這是必填欄位。 此欄位只會顯示您在Experience Manager中有權存取的存放庫。
+1. （視條件而定）當您選取連線至Experience Manager時，請從&#x200B;**從下列存放庫連線資產**&#x200B;區段的&#x200B;**Experience Manager存放庫**&#x200B;下拉式功能表中選擇存放庫。 這是必填欄位。 此欄位只會顯示您在Experience Manager中有權存取的存放庫。
 
    >[!NOTE]
    >
-   >您的Workfront管理員可以透過Workfront中的中繼資料對應，將Workfront Planning欄位對應至Experience Manager Assets欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
+   >您的Workfront管理員可以透過Workfront中的中繼資料對應，將Workfront Planning欄位對應至Experience Manager Assets欄位。 如需詳細資訊，請參閱[設定Adobe Workfront與Experience Manager Assets之間的資產中繼資料對應](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)。
 
-1. （選擇性）在&#x200B;**記錄外觀**&#x200B;區域中選擇下列其中一個選項：
+1. （選擇性和條件式）如果可用，請在&#x200B;**記錄外觀**&#x200B;區域中選擇下列其中一個選項：
 
    * **名稱和影像**：連線記錄的名稱和縮圖或圖示都會顯示在連線記錄欄位中。 這是預設選項。
    * **名稱**：連線的記錄欄位中只會顯示連線記錄的名稱。
    * **影像**：連線記錄欄位中只會顯示連線記錄的縮圖或圖示。
-   <div class="preview">
-
    * **顏色和名稱**：當您連線Planning記錄時，每個連線的記錄的顏色會顯示在記錄名稱左邊的圓圈中。 當您將記錄型別與其他應用程式的物件型別連線時，此選項無法使用。
-
-   </div>
 
    沒有縮圖影像的記錄會改為顯示記錄型別圖示。
 
@@ -399,8 +391,8 @@ Old:
    >* 從Workfront選取物件型別時，無法選取記錄外觀。
    >
    >* 您在&#x200B;**記錄外觀**&#x200B;區域中所選取的專案會決定記錄在系統所有位置的連線中如何顯示，包括所有檢視和詳細資訊頁面。
-1. <span class="preview">（選擇性和條件性）如果可用，請按一下&#x200B;**記錄篩選規則**&#x200B;以建立篩選器，根據定義的值限制連線欄位的選擇。</span>
-1. 選取&#x200B;**選取查閱欄位**&#x200B;或<span class="preview">按一下&#x200B;**查閱欄位**&#x200B;功能表</span>以開啟[新增查閱欄位]方塊，並從您連線的記錄型別中選擇並新增欄位。
+1. （選擇性和條件式）如果可用，請按一下&#x200B;**記錄篩選規則**&#x200B;以建立篩選器，根據定義的值限制連線欄位的選擇。<!--this is available only for record types, not Workfront objects, etc, but we don't say this because the others will be released soon - 2026-2027-->
+1. 按一下&#x200B;**查閱欄位**&#x200B;功能表以開啟[新增查閱欄位]方塊，並從您連線的記錄型別中選擇要新增的欄位。
 
    查閱欄位是與您要連線的記錄或物件型別相關聯的欄位。 連結它們會顯示您連結的記錄或物件在您連結的記錄上的資訊。
 
@@ -419,14 +411,13 @@ Old:
    >
    >   例如，如果專案的計劃開始日期在Workfront中顯示為3:00 PM，則在匯入的查詢欄位中，它將在Workfront Planning中顯示為15:00。
 
-1. <span class="preview">（選擇性）按一下&#x200B;**欄位存取**&#x200B;以變更連線欄位的許可權。 從下列選項中選擇： </span>
-
-   <div class="preview">
+1. （選擇性）按一下&#x200B;**欄位存取**&#x200B;以變更連線欄位的許可權。 從下列選項中選擇:
 
    * **有權存取記錄型別的所有人都可以檢視**：只有可以存取記錄型別的人員才能檢視欄位。 這是預設設定。
    * **只有選取的人員可以存取**：新增要共用欄位的使用者、團隊、群組、公司或角色。
 
-   </div>
+     如需詳細資訊，請參閱[共用欄位](/help/quicksilver/planning/access/share-fields.md)。
+
 1. 按一下「**建立**」。
 
 1. （視條件而定）如果您按一下&#x200B;**查閱欄位**，會開啟&#x200B;**新增查閱欄位**&#x200B;方塊。
@@ -445,7 +436,7 @@ Old:
    >
    >    擁有工作區檢視或更高許可權的所有人都可以檢視連結欄位中的資訊，無論其在連結物件型別應用程式中的許可權或存取層級為何。
 
-1. （選擇性）按一下&#x200B;**跳過**&#x200B;以跳過從連結的記錄或物件型別新增欄位。 連結記錄的名稱或主要欄位是您連線之記錄型別的表格檢視中唯一可見的欄位。<!--take this step out at production-->
+   &lt;!--1. （選擇性）按一下&#x200B;**跳過**&#x200B;以跳過從連結的記錄或物件型別新增欄位。 連結記錄的名稱或主要欄位是您連線之記錄型別的表格檢視中唯一可見的欄位。 — 在生產環境中執行此步驟 — >
 
 1. 為您新增的查閱欄位選擇彙總器。
 
@@ -455,6 +446,8 @@ Old:
    >
    >    * 段落
    >    * 核取方塊
+   >    * 人員
+   >    * 記錄 ID
 
    當使用者在連結的記錄欄位中選取多個連結的記錄時，連結欄位的值會根據您選擇的彙總器，以逗號分隔或顯示為摘要值。
 
@@ -470,7 +463,7 @@ Old:
    >
    > 如果您希望欄位能新增為時間軸和行事曆檢視的開始和結束日期，新增查閱日期欄位時必須選取彙總值。 例如，您可以選取MAX或查閱日期欄位的MIN彙總。
 
-   連結的編號欄位![&#128279;](assets/aggregator-drop-down-for-number-linked-field.png)的彙總下拉式清單
+   連結的編號欄位](assets/aggregator-drop-down-for-number-linked-field.png)的![彙總下拉式清單
 
    >[!NOTE]
    >

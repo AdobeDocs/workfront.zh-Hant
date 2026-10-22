@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 2dc0cd1ea81b1a71afd5c065bfe7007188e68375
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1124'
 ht-degree: 1%
 ---
 <!--keep the global record type reference in yellow till January 2026-->
@@ -287,6 +287,8 @@ Old:
    * 從全域記錄型別建立的記錄型別會從選取的次要工作區中移除。
    * 原始記錄型別及其欄位會保留在其原始工作區中。
    * 記錄型別會保留在已新增它的所有其他工作區中。
-   * 從次要工作區新增至記錄型別的記錄<!--and fields-->已刪除。 從已新增全域記錄型別的其他工作區新增的所有其他記錄都會保留在各自的工作區和原始工作區中。 &lt;！—！ — 欄位會保留在新增的工作區中。
+   * 從次要工作區新增至記錄型別的記錄<!--and fields-->已刪除。 從已新增全域記錄型別的其他工作區新增的所有其他記錄都會保留在各自的工作區和原始工作區中。
+
+     <!--Fields are preserved in the workspaces where they were added.-->
 
 

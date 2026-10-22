@@ -32,13 +32,13 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '5636'
+source-wordcount: '5576'
 ht-degree: 1%
 ---
 <!--
-Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=zh-Hant ??
+Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??
 -->
 
 <!--
@@ -51,10 +51,11 @@ Do we need this for FORMULAS: when we release permissions to RECORDS and we rele
 
 # 建立欄位
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -307,15 +308,10 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 1. （選擇性和條件式）新增欄位後，將滑鼠移至表格檢視欄標題中的欄位名稱上，然後按一下&#x200B;**更多**&#x200B;下拉式功能表，然後&#x200B;**刪除**&#x200B;以刪除欄位。
 
    如需詳細資訊，請參閱[刪除欄位](/help/quicksilver/planning/fields/delete-fields.md)。
-<!--
-1. <span class="preview">(Optional and conditional) After you add a field, hover over the field name in the table view column header and click the **More** drop-down menu, then **Share field** to share the field. </span>
 
-    </span>For information, see [Share fields](/help/quicksilver/planning/access/share-fields.md). </span>
--->
+1. （選擇性和條件式）新增欄位後，將滑鼠移至表格檢視欄標題中的欄位名稱上，然後按一下&#x200B;**更多**&#x200B;下拉式功能表，然後按&#x200B;**共用欄位**&#x200B;以共用欄位。
 
-1. <span class="preview"> （選擇性和條件式）新增欄位後，將滑鼠移至表格檢視欄標題中的欄位名稱上，然後按一下&#x200B;**更多**&#x200B;下拉式功能表，然後按&#x200B;**共用欄位**&#x200B;以共用欄位。</span>
-
-   </span>如需詳細資訊，請參閱[共用欄位](/help/quicksilver/planning/access/share-fields.md)。</span>
+   如需詳細資訊，請參閱[共用欄位](/help/quicksilver/planning/access/share-fields.md)。
 
 ### 單行文字 {#single-line-text}
 
