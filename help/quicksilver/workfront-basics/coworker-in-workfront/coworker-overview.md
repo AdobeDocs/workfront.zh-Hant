@@ -33,7 +33,7 @@ CX Enterprise Coworker Chat是一個用於完成工作的對話式介面，現�
 
 如需有關在Workfront中使用同事的資訊，請參閱[在Workfront中使用CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)。
 
-如需同事及其功能的詳細資訊，請參閱[Adobe CX Enterprise Coworker聊天總覽](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview)。
+如需同事及其功能的詳細資訊，請參閱[Adobe CX Enterprise Coworker聊天總覽](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/overview)。
 
 如需Workfront中同事可用的技能，請參閱CX Enterprise Coworker中的[Workfront技能](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)。
 
