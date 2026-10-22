@@ -17,14 +17,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 3%
+source-wordcount: '318'
+ht-degree: 4%
 ---
 # 設定位置
-
-{{preview-fast-release-general}}
 
 您可以設定預設位置，以指派為費率卡中工作角色的屬性。 這可確保費率卡準確反映每個位置的市場費率。
 
@@ -44,11 +42,11 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td>[!UICONTROL 標準]</td>
+   <td>[！UICONTROL標準]</td>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td> 
+   <td>[！UICONTROL系統管理員]</td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,13 +60,10 @@ ht-degree: 3%
 {{step-1-to-setup}}
 
 1. 在左側面板中，按一下&#x200B;[!UICONTROL **位置**]。
-1. 在生產環境中，按一下清單底部的&#x200B;[!UICONTROL **新增更多位置**]。
-   <span class="preview">在預覽環境中，按一下清單底部的&#x200B;[!UICONTROL **新增列**]。</span>
-
+1. 按一下清單底部的&#x200B;[!UICONTROL **新列**]。
 1. 輸入地點名稱和說明。
 1. 按一下列外部以儲存位置。
-1. 若要刪除生產環境中的位置，請在清單中選取該位置，然後按一下&#x200B;**刪除**&#x200B;圖示![刪除](assets/delete.png)。
-   <span class="preview">若要刪除預覽環境中的位置，請在清單中選取該位置，然後按一下畫面底部動作列中的&#x200B;[!UICONTROL **刪除**]。</span>
+1. 若要刪除位置，請在清單中選取該位置，然後按一下畫面底部動作列中的&#x200B;[!UICONTROL **刪除**]。
 
 >[!NOTE]
 >
@@ -85,18 +80,12 @@ ht-degree: 3%
 {{step-1-to-setup}}
 
 1. 在左側面板中，按一下&#x200B;[!UICONTROL **位置**]。
-1. 在生產環境中，選取清單中的現有位置，然後按一下[新增子位置] [!UICONTROL **&#x200B;**]。
-   <span class="preview">在預覽環境中，選取清單中的現有位置，然後按一下熒幕底部動作列中的&#x200B;[!UICONTROL **新增子位置**]。</span>
-
+1. 在清單中選取現有位置，然後按一下熒幕底部動作列中的&#x200B;[!UICONTROL **[新增子位置**]]。
 1. 輸入地點名稱和說明。
 1. 按一下輸入區域外部以儲存位置。
 
    子位置會縮排在頂層位置下。
 
-   生產環境中的影像範例：
-   ![位置和子位置](assets/locations-sublocations.png)
-
-   在預覽環境中<span class="preview">範例影像：</span>
    ![位置和子位置](assets/locations-sublocations-082526.png)
 
 

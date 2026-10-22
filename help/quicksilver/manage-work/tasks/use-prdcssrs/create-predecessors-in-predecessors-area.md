@@ -26,14 +26,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a98167536dec4cee61b0b310be0fcc8c9d06449c
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '428'
 ht-degree: 4%
 ---
 # 使用前置任務區域建立前置任務關係
-
-{{highlighted-preview}}
 
 <!-- Audited: 5/2025 -->
 
@@ -112,7 +110,7 @@ ht-degree: 4%
 
 1. 輸入&#x200B;**延遲**&#x200B;量。
 
-   如需詳細資訊，請參閱{&#x200B;0}延遲型別概觀[&#128279;](../../../manage-work/tasks/use-prdcssrs/lag-types.md)。
+   如需詳細資訊，請參閱{&#x200B;0}延遲型別概觀](../../../manage-work/tasks/use-prdcssrs/lag-types.md)。[
 
    ![新增前置任務對話方塊](assets/add-predecessor-dialog-box.png)
 
@@ -122,7 +120,6 @@ ht-degree: 4%
 
 1. 按一下「**儲存**」。
 
-1. （選擇性）若要移除前置任務，請從前置任務清單中選取它，然後按一下&#x200B;**移除**&#x200B;圖示![移除圖示](assets/remove-or-delete-icon.png)。
-   <span class="preview">若要移除前置任務，請在前置任務清單中選取該前置任務，然後按一下畫面底部動作列中的&#x200B;**移除**。</span>
+1. （選擇性）若要移除前置任務，請在前置任務清單中選取它，然後按一下畫面底部動作列中的&#x200B;**移除**。
 
    前置任務會從清單中移除。 前置任務未從其專案中刪除。

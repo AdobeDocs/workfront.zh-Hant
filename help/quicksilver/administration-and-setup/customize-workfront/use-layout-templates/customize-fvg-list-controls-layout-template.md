@@ -27,14 +27,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9b233bb7501b487a5220882902c47e7d933709ef
+source-git-commit: beb4990355a7445994309d242bdc195d6d3a847c
 workflow-type: tm+mt
 source-wordcount: '847'
 ht-degree: 2%
 ---
 # 使用版面配置範本自訂篩選器、檢視和群組
-
-{{preview-fast-release-general}}
 
 作為Adobe Workfront管理員，您可以使用版面配置範本來指定哪些清單控制項會出現在篩選、檢視和分組下拉式功能表中。 這些功能表會出現在整個Workfront的上方清單中，例如專案的任務清單：
 
@@ -103,7 +101,7 @@ ht-degree: 2%
    >   
    >  ![停用篩選器按鈕](assets/disable-filter-pills.png)
 
-   <span class="preview">有些增強型清單可供選擇。 這些清單控制項旁會有「新體驗」標籤。 如需增強型清單的相關資訊，請參閱[使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。</span>
+   有些增強型清單可供選擇。 這些清單控制項旁會有「新體驗」標籤。 如需有關增強型清單的資訊，請參閱[使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
 
 1. （選擇性）如果要變更版面配置範本的預設篩選、檢視或群組，請將滑鼠游標停留在篩選、檢視或群組上，然後按一下&#x200B;**設定為預設**。
 

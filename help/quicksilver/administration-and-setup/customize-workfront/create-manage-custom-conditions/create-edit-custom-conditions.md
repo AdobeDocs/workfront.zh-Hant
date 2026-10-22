@@ -29,14 +29,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 00c44bda4c719c94bd974cca133a0d8faf47612a
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 4%
+source-wordcount: '646'
+ht-degree: 5%
 ---
 # 建立或編輯自訂條件
-
-{{preview-fast-release-general}}
 
 作為Adobe Workfront管理員，您可以建立或編輯專案、任務和問題的自訂條件，以符合您組織的需求。
 
@@ -76,19 +74,12 @@ ht-degree: 4%
 
 1. 按一下您想要與條件關聯的物件型別（**專案**、**任務**&#x200B;或&#x200B;**問題**）的標籤。
 
-1. 若要建立新條件，請按一下[新增條件] **&#x200B;**。
+1. 若要建立新條件，請按一下[新增條件] ****。
 
    或
 
-   若要編輯現有條件，請執行下列動作：
+   若要編輯現有條件，請選取您要刪除的條件名稱旁的核取方塊，然後按一下畫面底部動作列中的&#x200B;**編輯**。
 
-   * 在生產環境中，按一下條件名稱旁的&#x200B;**編輯**。
-   * <span class="preview">在[預覽]環境中，選取您要刪除的條件名稱旁的核取方塊，然後按一下熒幕底部動作列中的[編輯]。</span>**&#x200B;**
-
-   生產環境中的影像範例：
-   ![編輯自訂條件](assets/custom-conditions-0825.png)
-
-   在預覽環境中<span class="preview">範例影像：</span>
    ![編輯自訂條件](assets/edit-conditions-082526.png)
 
 1. 使用下列選項設定自訂條件：
