@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f619f55cb5df1c0aabbf9bc9137b506e39882e1d
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '561'
 ht-degree: 4%
 ---
 # Canvas控制面板Beta版資訊
@@ -37,11 +37,7 @@ ht-degree: 4%
 >
 >畫布儀表板功能目前僅適用於參與Beta階段的使用者。 在此階段中，部分功能可能無法完成或如預期般運作。 請依照下方[提供意見反應](#provide-feedback)一節中的指示，提交有關您體驗的任何意見反應。<br>
 >如果您對可能的錯誤或技術問題有回饋，請向Workfront支援提交票證。 如需詳細資訊，請參閱[聯絡客戶支援](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
->請注意，以下雲端服務供應商未提供此測試版：
->
->* 自備Amazon Web Services金鑰
->* Azure
->* Google Cloud Platform
+
 
 「畫布控制面板」是目前正在開發中的功能，可讓您新增各種報表型別至畫布，提供許多彈性的版面選項，包括調整大小、拖放等等，輕鬆將Adobe Workfront資料視覺化。
 

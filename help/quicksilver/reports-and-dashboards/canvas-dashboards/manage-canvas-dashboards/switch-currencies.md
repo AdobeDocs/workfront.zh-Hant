@@ -12,10 +12,10 @@ product_v2:
 feature_v2:
   - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
     internal-label: Reports and dashboards
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f619f55cb5df1c0aabbf9bc9137b506e39882e1d
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 4%
+source-wordcount: '658'
+ht-degree: 3%
 ---
 # 在畫布儀表板中使用貨幣欄位
 
@@ -23,11 +23,7 @@ ht-degree: 4%
 >
 >畫布儀表板功能目前僅適用於參與Beta階段的使用者。 在此階段中，部分功能可能無法完成或如預期般運作。 請依照「畫布控制面板」測試版概觀文章中[提供意見回饋](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)一節的指示，提交有關您體驗的任何意見回饋。<br>
 >如果您對可能的錯誤或技術問題有回饋，請向Workfront支援提交票證。 如需詳細資訊，請參閱[聯絡客戶支援](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
->請注意，以下雲端服務供應商未提供此測試版：
->
->* 自備Amazon Web Services金鑰
->* Azure
->* Google Cloud Platform
+
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
