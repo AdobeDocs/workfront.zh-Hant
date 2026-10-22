@@ -23,14 +23,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '638'
 ht-degree: 2%
 ---
 # 覆寫公司層級的工作角色收費率
-
-{{preview-fast-release-general}}
 
 建立職務角色時，您可以選擇選取該角色的每小時收費率。 您可以建立公司特定的多個每小時收費率。 每個收費率在特定日期範圍內有效。
 
@@ -51,8 +49,8 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p>
-       <p>[!UICONTROL 計畫]</p></td>
+   <td><p>[！UICONTROL標準]</p>
+       <p>[！UICONTROL計畫]</p></td>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
@@ -74,38 +72,8 @@ ht-degree: 2%
 1. 找出指派工作角色的公司。
 1. 按一下清單中的公司名稱。
 1. 按一下左側面板中的&#x200B;**[!UICONTROL 收費率]**。
-1. 按一下&#x200B;**[!UICONTROL 新增收費率] > [!UICONTROL 新增收費率]**，或&#x200B;<span class="preview">**新增收費率**</span>。
+1. 按一下&#x200B;**[!UICONTROL 新增收費率]**。
 1. 在[!UICONTROL 新收費率]對話方塊中，選取&#x200B;[!UICONTROL **工作角色**]&#x200B;以定義收費率。
-
-### 在生產環境中：
-
-[!UICONTROL **預設收費率**]&#x200B;會顯示此工作角色的系統層級費率。
-
-![新收費率對話方塊](assets/date-effective-billing-rates-for-company.png)
-
-1. 在&#x200B;[!DNL **收費率1**]&#x200B;欄位中，輸入收費率。 然後，按一下[儲存]&#x200B;[!UICONTROL **一次覆寫收費率。**]
-
-   或
-
-   按一下&#x200B;[!UICONTROL **新增費率**]&#x200B;以新增更多具有有效日期的計費費率。
-
-1. （視條件而定）如果您要新增多個收費率，請輸入下列資訊：
-
-   * **[!UICONTROL 記帳費率1]、2等。**：時間週期的記帳費率值。
-   * **[!UICONTROL 開始日期]**：費率生效的日期。
-   * **[!UICONTROL 結束日期]**：費率結束的日期。
-
-     帳單費率1不會有開始日期，而最後的帳單費率不會有結束日期。 部分日期會自動新增。 例如，如果「帳單費率1」沒有結束日期，而您新增了開始日期為2023年5月1日的「帳單費率2」，則會在「帳單費率1」中新增結束日期為2023年4月30日的「帳單費率2」，因此不會有間隙。
-
-1. 按一下「[!UICONTROL **儲存**]」。
-
-   >[!NOTE]
-   >
-   >專案上工作角色費率變更只會影響該專案。 公司層級變更的費率將影響所有專案。 如需詳細資訊，請參閱[覆寫帳單費率與計算專案收入的總覽](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)。
-
-<div class="preview">
-
-### 在預覽環境中：
 
 1. 選取費率屬性，例如「代理商」、「地點」或「成本中心」。
 
@@ -129,7 +97,7 @@ ht-degree: 2%
 
    如果您使用屬性，則屬性和職務角色會結合以定義唯一費率。 例如，代理商A在紐約的Designer角色與代理商B在巴黎的Designer角色可能有不同的費率。
 
-   若要取得日期有效收費率，請按一下[新增日期有效費率]。**&#x200B;** 輸入時間期間的每小時帳單費率，並視需要指定「開始日期」與「結束日期」。 第一個收費率不會有開始日期，而最後一個收費率則不會有結束日期。
+   若要取得日期有效收費率，請按一下[新增日期有效費率]。**** 輸入時間期間的每小時帳單費率，並視需要指定「開始日期」與「結束日期」。 第一個收費率不會有開始日期，而最後一個收費率則不會有結束日期。
 
    Workfront可讓您在日期範圍之間保留間隙，但您會收到警告，確認這是刻意為之。
 
@@ -145,5 +113,35 @@ ht-degree: 2%
    >
    >專案上工作角色費率變更只會影響該專案。 公司層級變更的費率將影響所有已指派公司的專案。 如需詳細資訊，請參閱[覆寫帳單費率與計算專案收入的總覽](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)。
 
-</div>
+
+
+
+<!--
+
+   The [!UICONTROL **Default Billing Rate**] displays the system-level rate for this job role.
+
+   ![New Billing Rate dialog](assets/date-effective-billing-rates-for-company.png)
+
+1. In the [!DNL **Billing Rates 1**] field, enter the billing rate. Then, click [!UICONTROL **Save**] to override the billing rate one time.
+
+   Or
+
+   Click [!UICONTROL **Add Rate**] to add more billing rates with effective dates.
+
+1. (Conditional) If you are adding more than one billing rate, enter the following information:
+
+   * **[!UICONTROL Billing Rates 1], 2, etc.**: The value of the billing rate for the time period.
+   * **[!UICONTROL Start Date]**: The date when the rate becomes effective.
+   * **[!UICONTROL End Date]**: The date when the rate ends.
+
+     Billing Rate 1 will not have a start date and the last billing rate will not have an end date. Some dates are added automatically. For example, if Billing Rate 1 does not have an end date, and you add Billing Rate 2 with a start date of May 1, 2023, an end date of April 30, 2023 is added to Billing Rate 1 so that no gaps exist.
+
+1. Click [!UICONTROL **Save**].
+
+   >[!NOTE]
+   >
+   >Job role rates changed on the project will only impact only that project. Rates changed at the company level will impact all projects. For more information, see [Overview of overriding billing rates and calculating revenue on a project](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+
+-->
+
 

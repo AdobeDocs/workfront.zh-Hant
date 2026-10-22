@@ -15,14 +15,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 6%
 ---
 # 設定要在變更記錄中追蹤的欄位
-
-{{highlighted-preview-article-level}}
 
 Adobe Workfront會產生自動系統更新，以記錄下列事件：
 
@@ -53,7 +51,7 @@ Adobe Workfront會產生自動系統更新，以記錄下列事件：
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td>[!UICONTROL 標準]</td> 
+   <td>[！UICONTROL標準]</td> 
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
@@ -71,7 +69,7 @@ Adobe Workfront會產生自動系統更新，以記錄下列事件：
 您可追蹤的欄位數限制是由Workfront套件定義。
 
 | Workfront套件 | 追蹤欄位的最大數量 |
-|---------|----------|
+| --------- | ---------- |
 | 選擇 | 700 |
 | Prime | 3000 |
 | Ultimate | 5000 |
@@ -93,7 +91,7 @@ Adobe Workfront會產生自動系統更新，以記錄下列事件：
 
    ![新增變更追蹤的欄位](assets/change-history-config-add-fields.png)
 
-1. 選取您要追蹤的所有欄位後，按一下[新增]。**&#x200B;**
+1. 選取您要追蹤的所有欄位後，按一下[新增]。****
 
    這些欄位會新增至「追蹤的欄位」清單中。
 

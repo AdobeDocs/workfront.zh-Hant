@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
 workflow-type: tm+mt
-source-wordcount: '2259'
+source-wordcount: '2171'
 ht-degree: 1%
 ---
 # 匯出資料
@@ -341,16 +341,22 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 當您匯出為Excel格式時，匯出的檔案中只會包含指向Workfront內物件的連結，而且只有當您可選取在匯出的Excel檔案中允許連結的位置（例如報表傳送）才支援這些連結。
 
-## 品牌化 {#branding}
+<!--
+
+## Branding {#branding}
 
 >[!IMPORTANT]
 >
->品牌推廣僅適用於尚未加入Adobe Experience Cloud的組織。
+>Branding applies only to organizations that are not yet onboarded to Adobe Experience Cloud.
 >
->如果您的組織已上線Adobe Experience Cloud，將無法使用品牌推廣。
+>If your organization has been onboarded to Adobe Experience Cloud, branding is not available.
 
-如果您的Workfront管理員已將自訂品牌新增至全域導覽列的Workfront執行個體，則匯出的PDF檔案也會包含您的個人化標誌。
+If your Workfront administrator has added customized branding to your Workfront instance for the Global Navigation Bar, the exported PDF files also include your personalized logo.
 
-以任何其他格式匯出的資料無法以您的標誌進行個人化。
+Data that is exported in any other formats cannot be personalized with your logo.
 
-如需品牌化Workfront執行個體與全域導覽列的詳細資訊，請參閱[品牌化Adobe Workfront執行個體](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)。
+For more information about branding your Workfront instance and the Global Navigation Bar, see [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+
+-->
+
+

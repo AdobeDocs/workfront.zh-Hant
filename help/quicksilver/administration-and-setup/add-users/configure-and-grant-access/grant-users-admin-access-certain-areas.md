@@ -27,14 +27,12 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 5%
 ---
 # 授予使用者管理特定區域的存取權
-
-{{preview-fast-release-general}}
 
 <!--Linked in several places, do not rename or change URL.-->
 
@@ -95,9 +93,9 @@ ht-degree: 5%
       <td><p>建立並管理整個系統和特定群組的核准流程。</p><p>若無此存取權，使用者只能對其有權管理的專案建立臨時核准流程。</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="preview">變更歷史記錄</span></td> 
-      <td><p><span class="preview">在「設定&gt;變更追蹤&gt;變更歷程記錄清單」中檢視Workfront變更歷程記錄記錄。</span></p>
-      <p><span class="preview">若沒有此存取權，使用者在「設定」區域中將無法使用此選項。</span></p></td> 
+      <td role="rowheader">變更歷史記錄</td> 
+      <td><p>在「設定&gt;變更追蹤&gt;變更歷程記錄清單」中檢視Workfront變更歷程記錄記錄。</p>
+      <p>若沒有此存取權，使用者在「設定」區域中將無法使用此選項。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">公司</td> 
