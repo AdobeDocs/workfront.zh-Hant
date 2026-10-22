@@ -7,9 +7,9 @@ description: 您可以為貴組織啟用Adobe雲端儲存空間，針對所有Ad
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 7a21293ad984311b274fe6a7c79e081e9bc8b156
+source-git-commit: 5d487a068f747eb538775846cca80ab5a3a612bf
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '647'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,10 @@ ht-degree: 3%
 
 Adobe雲端儲存是統一的雲端型儲存解決方案，可作為Adobe企業產品中資產的中央存放庫。 本文說明如何啟用Adobe雲端儲存空間，作為整個組織或特定群組的預設儲存空間選項。
 
-此單一動作會開啟新體驗：啟用後，新專案就會使用Adobe雲端儲存空間，其中包括Frame.io檢視器和「統一核准」。 在您選擇啟用Adobe雲端儲存空間之前，不會有任何變更。
+>[!IMPORTANT]
+>
+>在Workfront的「設定」區域中啟用Adobe雲端儲存空間後，您的環境才會發生任何變更。<br>
+>啟用Adobe雲端儲存空間後，只有新專案會使用Adobe雲端儲存空間，其中包括Frame.io檢視器和「統一核准」。 您現有的專案會繼續使用其目前的儲存空間，並且保持不變。
 
 由於您可以控制時間，因此可以測試體驗、更新Workfront Fusion案例，以及在任何使用者使用之前規劃報表變更。 如需差異以及如何規劃轉出的詳細資訊，請參閱[在Adobe雲端儲存空間上移至Workfront](/help/quicksilver/review-and-approve-work/workfront-storage.md)。
 
