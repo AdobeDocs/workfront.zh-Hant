@@ -19,7 +19,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
 source-wordcount: '1137'
 ht-degree: 1%
@@ -101,7 +101,19 @@ ht-degree: 1%
 * 規則不會阻止記錄建立。 使用者仍然可以建立記錄，但他們必須確定必填欄位不是空白或包含指定值。
 * 規則不會自動編輯或刪除記錄。 變更必須由使用者蓄意並觸發。
 * 規則不回溯套用：舊記錄不受影響。 規則檢查只會在下次有人嘗試編輯或刪除記錄時執行。
-* 您無法將商業規則新增至其主要或次要工作區中的全域記錄型別。
+* <!--In the Production environment,--> 您無法將商業規則新增至其主要或次要工作區中的全域記錄型別。
+
+<!--
+<div class="preview">
+* In the Preview environment, you can add business rules to the following: 
+
+   * Global record types in their primary workspace. Rules created for global record types are visible in read-only mode from the secondary workspaces and they apply to all records of the same type in all workspaces. 
+   * Secondary record types, imported from other workspaces. Rules created for secondary record types are visible in read-only mode from the global record type and they apply to all records of the same type in all workspaces. 
+
+* Business rules in read-only mode can be edited only from their original workspaces. 
+</div>
+-->
+
 * 您可以為商業規則建立條件，該條件會參考以下欄位型別以外的所有欄位型別：
   * 公式欄位
   * 查詢欄位
@@ -132,7 +144,7 @@ ht-degree: 1%
    「商業規則」表格頁面隨即開啟。
 1. 按一下&#x200B;**新商業規則**。
 1. 在&#x200B;**新企業**&#x200B;規則方塊中，在第一個可用欄位中為企業規則新增名稱。 這是必填欄位
-1. （選用）新增說明以定義商業規則，然後按一下[儲存]。**&#x200B;**
+1. （選用）新增說明以定義商業規則，然後按一下[儲存]。****
 
    「商業規則設定」表單隨即開啟。
 
@@ -173,7 +185,7 @@ ht-degree: 1%
 
    在商業規則的&#x200B;**Then**&#x200B;區段中，您可以檢視規則功能的說明。
 
-1. 按一下[啟動]&#x200B;**&#x200B;**&#x200B;以啟用此記錄型別的規則，然後按一下[儲存]&#x200B;**&#x200B;**。
+1. 按一下[啟動]****&#x200B;以啟用此記錄型別的規則，然後按一下[儲存]****。
 
    規則會在您啟動後立即套用，而所有有權編輯或刪除所選記錄型別中記錄的使用者都必須遵循這些規則。
 1. （選擇性）按一下頁首中商業規則名稱的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，以開啟&#x200B;**規則詳細資料**&#x200B;方塊並更新商業規則的相關資訊。

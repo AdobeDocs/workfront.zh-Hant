@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1735'
 ht-degree: 2%
 ---
 <!--update metadata with real information at release-->
@@ -234,7 +234,15 @@ Lilit is checking on this, it is not working correctly
    >
    >您無法與新增至不同工作區的記錄共用許可權。 當您大量共用記錄時，必須在相同的工作區中建立所有記錄。
 
-1. （選擇性）在&#x200B;**擁有存取權**&#x200B;區域中，預設會選取&#x200B;**工作區中的每個人都可以檢視**&#x200B;選項。  對工作區和記錄型別具有&#x200B;**檢視**&#x200B;或更高許可權的所有使用者都擁有對記錄的相同許可權。
+1. （選擇性）預設會選取&#x200B;**工作區中的每個人都可以檢視**&#x200B;選項。  對工作區和記錄型別具有&#x200B;**檢視**&#x200B;或更高許可權的所有使用者都擁有對記錄的相同許可權。 您無法限制所有具有工作區存取許可權的使用者之許可權。
+
+   <!--
+   Replace the point above with this at record-level permissions re-release: 
+   1. (Optional and conditional) In the Production environment, the **Everyone in the workspace can view** option is selected by default.  All users that have **View** or higher permissions to the workspace and record type have the same permissions to the record. You cannot restrict permissions for all users with access to the workspace.
+   1. <span class="preview">(Optional and conditional) In the Preview environment, expand the **Everyone in the workspace can view** drop-down menu (which is selected by default), and select **Only invited people can access**, then add the names of people, teams, roles, groups, or companies in the **Grant access to this record** box  and specify the level of access. </span>
+      <span class="preview">No one in the workspace will have access the record by default, and only the people you specify here will have access to the record. </span>
+      <span class="preview">Users you share a record with must have permissions to the workspace and the record type. </span>
+   -->
 
 1. （可選）按一下「**繼承自**&#x200B;的許可權」選項下的使用者頭像，以檢視從工作區繼承許可權的使用者、團隊、群組、公司或工作角色。<!--logged bug to move "Permissions" to lowercase-->
 
@@ -277,6 +285,7 @@ Lilit is checking on this, it is not working correctly
       >* 如果使用者擁有記錄型別的Contribute或更高許可權，則您無法授予他們較低許可權存取記錄。
       >如需詳細資訊，請參閱[在Adobe Workfront Planning中共用許可權的總覽](/help/quicksilver/planning/access/sharing-permissions-overview.md)。
       >* 您無法向不在工作區中的使用者授予許可權。 無權存取工作區和記錄型別的使用者無法存取任何記錄。
+      >* 您必須擁有記錄的管理許可權才能與他人共用記錄。
 
    <!--   
    Not possible:

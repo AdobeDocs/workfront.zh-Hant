@@ -13,7 +13,7 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 {{planning-important-intro}}
 
-<!-- add to TOC and mini TOC-->
+<!-- THIS IS HIDDEN FROM TOC-->
 
 <!--
 Better metadata, at publishing:
@@ -45,7 +45,7 @@ recommendations: noDisplay, noCatalog
 * 您必須同時擁有Workfront Planning和GenStudio for Performance Marketing的存取權。
 * 您必須擁有Adobe雲端儲存空間專案，才能連結至工作區。 組織管理員可以在Adobe Admin Console中建立一個。
 
-  如需詳細資訊，請參閱[管理Adobe儲存空間](https://helpx.adobe.com/tw/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html)。<!--ensure this site still works-->
+  如需詳細資訊，請參閱[管理Adobe儲存空間](https://helpx.adobe.com/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html)。<!--ensure this site still works-->
 
 
 ## 啟用Workfront規劃工作區至GenStudio
@@ -55,7 +55,7 @@ recommendations: noDisplay, noCatalog
 
    **讓工作區GenStudio**&#x200B;啟用方塊開啟，包括以下步驟：
 
-   1. **ACPC專案**：選取您要與此工作區同步的&#x200B;**ACPC專案** （Adobe雲端儲存空間專案），然後按一下[下一步]&#x200B;**。**&#x200B;使用者可透過此專案存取GenStudio中的工作區。
+   1. **ACPC專案**：選取您要與此工作區同步的&#x200B;**ACPC專案** （Adobe雲端儲存空間專案），然後按一下[下一步]**。**&#x200B;使用者可透過此專案存取GenStudio中的工作區。
 
       ![啟用工作區GenStudio - ACPC專案步驟](assets/make-workspace-genstudio-enabled-box-acpc-step.png)
 

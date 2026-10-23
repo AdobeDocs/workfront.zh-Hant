@@ -20,9 +20,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
-source-wordcount: '1881'
+source-wordcount: '1896'
 ht-degree: 0%
 ---
 
@@ -42,7 +42,7 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 {{planning-important-intro}}
 
-您可以在Workfront Planning的下列區域中檢視清單檢視中的物件：
+您可以在Adobe Workfront Planning的清單檢視中，於下列區域檢視物件：
 
 * 記錄的詳細資訊區域中專案的已連線記錄頁面
 
@@ -53,6 +53,8 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
   ![在清單檢視中要求表單](assets/request-forms-in-list-view.png)
 
 本文說明如何在Workfront Planning中導覽、建立或編輯清單檢視。
+
+如需Workfront Planning中其他所有檢視的相關資訊，請參閱[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)。
 
 ## 存取權要求
 
