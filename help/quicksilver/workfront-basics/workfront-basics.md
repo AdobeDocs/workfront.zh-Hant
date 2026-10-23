@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 35d1ee552feec33f3f2ae17dff12601ab0d90951
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '217'
 ht-degree: 58%
 ---
 # Adobe Workfront基本介紹：文章索引
@@ -58,5 +58,5 @@ ht-degree: 58%
 * [行動應用程式](../workfront-basics/mobile-apps/mobile-apps.md)
 * [Workfront中的AI助理](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
 * [Workfront MCP伺服器](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server.md)
-* [Workfront中的同事](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
+* [Workfront中的CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
 * [Adobe Workfront基本功能的提示、秘訣和疑難排解](../workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)

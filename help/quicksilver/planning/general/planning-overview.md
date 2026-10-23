@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1360'
+source-wordcount: '1300'
 ht-degree: 0%
 ---
 # 開始使用Adobe Workfront Planning
@@ -53,10 +53,13 @@ this article is linked to the WF Planning landing page - do not change URL or mo
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
+<!--
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 >[!IMPORTANT]
 >
@@ -184,11 +187,7 @@ Workfront Planning的架構可完全自訂。 您可以建立所有記錄型別�
 * [以獨立產品形式開始使用Adobe Workfront Planning](/help/quicksilver/planning/planning-sta/planning-sta-overview.md)：以獨立產品形式購買時，提供Workfront Planning的一般資訊。
 * [Adobe Workfront Planning AI Assistant總覽](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)：使用Workfront AI Assistant for Planning，您可以使用命令來搜尋記錄，或建立、更新和刪除記錄，並讓助理為您工作。
 
-<div class="preview">
-
 * [Adobe Workfront Planning CX Enterprise Coworker總覽](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)：對話式介面，您可以透過簡單的語言描述目標，然後規劃、執行及驗證整個Workfront Planning和其他連線的Adobe系統的工作，再重新啟用以供核准。 CX Enterprise Coworker保留AI Assistant目前所做的一切，同時在新的全熒幕體驗和Workfront右側邊欄中新增更強大的端對端功能。
-
-</div>
 
 * [適用於Workfront Fusion的Adobe Workfront規劃模組](https://experienceleague.adobe.com/zh-hant/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules)：透過Adobe Workfront規劃模組，您可以在Workfront規劃中發生事件時觸發情境。 您也可以建立、讀取、更新及刪除記錄，或對Adobe Workfront Planning帳戶執行自訂API呼叫。 您必須購買額外的授權才能存取Workfront Fusion。
 

@@ -11,7 +11,7 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: aa562305ecdd732b6202d90543878ea13195c800
+source-git-commit: 29ff664c0ec62dc87c52052fac8b2b2183bf0841
 workflow-type: tm+mt
 source-wordcount: '3774'
 ht-degree: 3%
@@ -41,10 +41,6 @@ ht-degree: 3%
 如果您的組織無權使用產品區域，則相關工具不會出現在該連線的工具清單中。 如果AI代理平台嘗試呼叫您權益無法使用的工具，請求會被封鎖。
 
 下表識別每個工具所屬的產品區域。
-
-<div class="preview">
-
-<!--This section is for the 27.1 release-->
 
 ## Workfront MCP伺服器中的工具集
 
@@ -86,7 +82,6 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront?toolsets=core,comment-stream
 
 如果您希望AI使用者端存取不同的網域，請更新連線設定以選取適當的工具集。
 
-</div>
 
 ## 讀取和寫入動作
 

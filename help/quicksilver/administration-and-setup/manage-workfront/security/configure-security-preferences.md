@@ -38,14 +38,12 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 69af10a8df4faf85df36f148c7d261eefefa951e
+source-git-commit: a3cf3050da6355c2b0929b24e3bfe7035db76117
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 7%
 ---
 # 設定系統偏好設定
-
-{{highlighted-preview}}
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
@@ -164,8 +162,8 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
       <td><p>可讓您選擇當大量編輯物件時，是否強制使用者在必填欄位中輸入資訊。</p> <p>選取此選項時，必要欄位必須先有值，才能以大量編輯模式儲存。 如果必要欄位缺少至少一個大量選取物件的值，則不允許儲存。</p> <p>未選取此選項時，必填欄位僅在使用者修改欄位時強制。 如果欄位未修改，則會視為選用且未驗證。</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">在 Admin Console 中建立之使用者的存取層級</span></td>
-      <td><span class="preview">可讓您選擇預設存取層級，以自動指派給透過Adobe Admin Console在Workfront中建立的使用者。 如果您未設定預設值，這些使用者會繼續收到「貢獻者」或「請求者」存取層級。 「系統管理員」和「外部使用者」存取層級不提供為預設值，而且此設定不適用於將Workfront Planning作為獨立產品的組織。<p><b>注意</b>：您不能在存取層級設定為預設時將其刪除。 若要刪除預設存取層級，請先選取不同的預設存取層級。</p></span></td>
+      <td role="rowheader">在 Admin Console 中建立之使用者的存取層級</td>
+      <td>可讓您選擇預設存取層級，以自動指派給透過Adobe Admin Console在Workfront中建立的使用者。 如果您未設定預設值，這些使用者會繼續收到「貢獻者」或「請求者」存取層級。 「系統管理員」和「外部使用者」存取層級不提供為預設值，而且此設定不適用於將Workfront Planning作為獨立產品的組織。<p><b>注意</b>：您不能在存取層級設定為預設時將其刪除。 若要刪除預設存取層級，請先選取不同的預設存取層級。</p></td>
      </tr>
      <tr> 
       <td role="rowheader">儲存偏好設定 </td> 
@@ -201,16 +199,16 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
      </tr>.</td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">唯讀 MCP 工具</span></td> 
-      <td><span class="preview">可讓Workfront MCP伺服器對Workfront資料執行讀取動作，例如尋找或列出專案、任務或其他專案。 此選項預設為啟用。<p>如需Workfront MCP伺服器的詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">設定Adobe Workfront MCP伺服器</a>。</p></span></td> 
+      <td role="rowheader">唯讀 MCP 工具</td> 
+      <td>可讓Workfront MCP伺服器對Workfront資料執行讀取動作，例如尋找或列出專案、任務或其他專案。 此選項預設為啟用。<p>如需Workfront MCP伺服器的詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">設定Adobe Workfront MCP伺服器</a>。</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">編寫 MCP 工具</span></td> 
-      <td><span class="preview">可讓Workfront MCP伺服器對Workfront資料執行建立、更新和刪除動作。 此選項預設為停用。<p>如需Workfront MCP伺服器的詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">設定Adobe Workfront MCP伺服器</a>。</p></span></td> 
+      <td role="rowheader">編寫 MCP 工具</td> 
+      <td>可讓Workfront MCP伺服器對Workfront資料執行建立、更新和刪除動作。 此選項預設為停用。<p>如需Workfront MCP伺服器的詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">設定Adobe Workfront MCP伺服器</a>。</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">已授權的重新導向 URL</span></td> 
-      <td><span class="preview">控制哪些回呼（重新導向） URL可以完成貴組織MCP代理程式的登入，該代理程式會透過自訂AI代理程式平台連線。<p>如需為MCP伺服器新增重新導向URL的說明，請參閱本文中的<a href="#add-or-remove-an-authorized-redirect-url">新增或移除授權的重新導向URL</a>。</p></span></td> 
+      <td role="rowheader">已授權的重新導向 URL</td> 
+      <td>控制哪些回呼（重新導向） URL可以完成貴組織MCP代理程式的登入，該代理程式會透過自訂AI代理程式平台連線。<p>如需為MCP伺服器新增重新導向URL的說明，請參閱本文中的<a href="#add-or-remove-an-authorized-redirect-url">新增或移除授權的重新導向URL</a>。</p></td> 
      </tr>
      <tr> 
       <td role="rowheader">測試環境</td> 
@@ -223,8 +221,6 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
    您在此處儲存的變更會影響Workfront中所有使用者的體驗，以及任何以外部使用者身分與系統互動的使用者體驗。
 
 ## 新增或移除授權的重新導向URL
-
-<div class="preview">
 
 授權的重新導向URL可讓您連線自訂AI代理平台，該平台的OAuth回呼URL是您的組織所獨有的，例如包含連線或租使用者ID的URL。
 
@@ -248,4 +244,3 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 +++
 
-</div>

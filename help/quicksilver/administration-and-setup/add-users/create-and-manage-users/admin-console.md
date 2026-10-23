@@ -22,14 +22,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
 workflow-type: tm+mt
 source-wordcount: '1647'
 ht-degree: 2%
 ---
 # 在Adobe Admin Console中管理使用者
-
-{{highlighted-preview}}
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
@@ -192,7 +190,7 @@ ht-degree: 2%
 
    視您組織的Workfront套件而定，使用者是在Workfront中建立的，具有請求者或貢獻者存取層級。
 
-   <span class="preview">如果您的Workfront管理員已為Admin Console中建立的使用者設定預設存取層級，則會改用該存取層級建立使用者。 如需詳細資訊，請參閱[設定系統偏好設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。</span>
+   如果您的Workfront管理員已為Admin Console中建立的使用者設定預設存取層級，則會改用該存取層級建立使用者。 如需詳細資訊，請參閱[設定系統偏好設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)。
 
    >[!IMPORTANT]
    >

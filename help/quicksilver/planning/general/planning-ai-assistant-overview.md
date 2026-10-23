@@ -32,20 +32,18 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '928'
 ht-degree: 1%
 ---
 # Adobe Workfront Planning AI Assistant概觀
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
-
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -55,7 +53,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
-><span class="preview">在某些組織中，AI助理已由CX Enterprise Coworker取代。 如需詳細資訊，請參閱[Adobe Workfront規劃CX Enterprise Coworker概觀](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)。</span>
+>在某些組織中，AI助理已由CX Enterprise Coworker取代。 如需詳細資訊，請參閱[Adobe Workfront規劃CX Enterprise Coworker概觀](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)。
 
 ## 存取權要求
 
@@ -160,7 +158,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-><span class="preview">如果貴組織已獲得CX Enterprise Coworker的存取權，尋找同事與尋找AI助理類似。 如需詳細資訊，請參閱[Adobe Workfront規劃CX Enterprise Coworker概觀](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)。</span>
+>如果貴組織已獲得CX Enterprise Coworker的存取權，找到同事就像找到AI助理一樣。 如需詳細資訊，請參閱[Adobe Workfront規劃CX Enterprise Coworker概觀](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)。
 
 
 您可以在Workfront Planning的下列區域中找到AI助理：

@@ -28,19 +28,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '5027'
+source-wordcount: '4867'
 ht-degree: 1%
 ---
 # 管理時間表檢視
 
 <!--remove Production and Preview references at release-->
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -245,14 +246,10 @@ Old:
      * **季**：顯示有季指示的月和周。
      * **月**：顯示周和日。
 
-     >[!TIP]
-     >
-     >根據您使用哪個環境來存取時間表檢視，以下是存在的案例：
-     >
-     >* 在生產環境中，時間軸檢視只會根據傳統季度顯示自訂周。 如果您的Workfront管理員在設定區域中開啟自訂季度，則時間軸檢視中不會顯示周資訊。
-     >
-     >* <span class="preview">在「預覽」環境中，依預設，時間軸檢視會根據傳統季度顯示自訂周數。 如果您的Workfront管理員在設定區域中開啟自訂季度和自訂周數，則時間表檢視會顯示季度和月份中的自訂季度和周數。</span>
-     >
+     依預設，時間軸檢視會根據傳統季度顯示自訂周數。 如果您的Workfront管理員在設定區域中開啟自訂季度和自訂周，則時間軸檢視會在「季」和「月」模式中顯示自訂季度和周。
+
+     如需詳細資訊，請參閱[啟用自訂季度和周](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)。
+
 
 
 1. （選擇性）按一下&#x200B;**切換至精簡檢視**&#x200B;以顯示日期在同一行上不相交的記錄。<!--check to see if they updated the name of the setting here-->
@@ -374,10 +371,10 @@ Old:
         </tr>
         <tr>
             <td>多選，人員</td>
-            <td><p>具有任一</p> 或<span class="preview"><p>屬於任一</p></span>
+            <td><p>屬於任一</p>
             <p>具有所有</p>
             <p>完全符合</p>
-            <p>不具有</p> 或<span class="preview"><p>不屬於</p></span>
+            <p><p>不屬於</p>
             <p>是空的</p>
             <p>不是空的</p></td>
         </tr>
@@ -509,9 +506,9 @@ Old:
     500 records display by default. There might be more records that belong to the groupings visible on the screen that are not uploaded. Click **Load more** to load all records. 
     </div>
     -->
-1. <span class="preview"> （選擇性）按一下工具列中的&#x200B;**群組**&#x200B;圖示![群組圖示](assets/grouping-icon.png)以開啟&#x200B;**群組記錄依據**&#x200B;方塊，然後按一下&#x200B;**全部展開**&#x200B;以展開所有群組，或按一下&#x200B;**全部摺疊**&#x200B;以摺疊所有群組，並手動只摺疊您需要的群組。</span>
-1. <span class="preview"> （選擇性和條件性）在泳道顯示中，拖放左側面板分隔符號以調整其寬度。 每個使用者的面板寬度會跨工作階段儲存，初次使用者的預設寬度為。</span>
-1. <span class="preview">（選擇性）若是長群組名稱，將滑鼠指標停留在群組的行上，即可在工具提示中檢視群組的完整名稱。</span>
+1. （選擇性）按一下工具列中的&#x200B;**群組**&#x200B;圖示![群組圖示](assets/grouping-icon.png)以開啟&#x200B;**群組記錄依據**&#x200B;方塊，然後按一下&#x200B;**全部展開**&#x200B;以展開所有群組，或按一下&#x200B;**全部收合**&#x200B;以收合所有群組，並僅手動收合您需要的群組。
+1. （選擇性和條件性）在泳道顯示中，拖放左側面板分隔符號以調整其寬度。 每個使用者的面板寬度會跨工作階段儲存，初次使用者的預設寬度為何。
+1. （選用）如果是長群組名稱，將滑鼠指標停留在群組的行上，即可在工具提示中檢視群組的完整名稱。
 
 1. （選擇性）在&#x200B;**群組記錄依據**&#x200B;方塊中，按一下選取要移除分組的欄位右邊的&#x200B;**x**&#x200B;圖示
 
@@ -527,7 +524,6 @@ Old:
    >將記錄從一個群組拖放至另一個群組時，在群組中所選的欄位會自動更新移動記錄上的值。
 1. （選擇性）按一下&#x200B;**設定**，然後按一下&#x200B;**色彩**&#x200B;以使用色彩代碼分組。 如需詳細資訊，請參閱本文中的[編輯時間表檢視設定](#edit-the-timeline-view-settings)一節。
 
-<div class="preview">
 
 ### 新增排序
 
@@ -568,12 +564,6 @@ Old:
 
    排序會立即套用。
 1. 按一下頁面上的任何位置，關閉排序方塊。
-
-</div>
-
-
-<!--this ("To remove grouping sorting, remove the groupings from the timeline view. ") might change at production - we have a button here called Reset all but right now it's not functioning - I logged a bug for this-->
-
 
 ### 編輯時間軸檢視設定 {#edit-the-timeline-view-settings}
 
@@ -652,10 +642,8 @@ Old:
    >
    >* 您只能將顏色與具有顏色編碼選項的欄位比對。 例如，您可以將顏色與「狀態」欄位配對，或與顏色關聯的選項欄位。
    >    
-   >* 在生產環境中，您無法將顏色與連線的記錄或其查詢欄位進行比對。 <span class="preview">在[預覽]環境中，您可以讓顏色符合連線的記錄，但不能符合其查詢欄位。</span>
+   >* 您可以比對已連線記錄的顏色，但無法比對其查閱欄位。
 
-
-   例如，多選或單選欄位可以有顏色編碼的選項。
 
    如果您依據沒有顏色編碼選項的欄位分組，則分組顏色保持灰色。
 
@@ -667,8 +655,8 @@ Old:
 
    * **記錄型別**：記錄的顏色符合您選取的記錄型別顏色。 這是預設選項。
    * **欄位值**：記錄的顏色符合您指定的欄位顏色。 繼續步驟10。<!--ensure this stays accurate-->
+   * **記錄**：顏色符合記錄的顏色。
    * **群組**：記錄的顏色符合您為群組指定的顏色。 當您未將群組套用到時間軸檢視時，此選項會變暗。
-   * **無**：記錄以白色列顯示。 <span class="preview">已從預覽環境中移除[無]選項。</span>
 
 1. （視條件而定）如果您為記錄顏色選取&#x200B;**欄位值**，請從&#x200B;**將記錄顏色與**&#x200B;下拉式功能表中選取欄位。
 

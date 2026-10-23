@@ -26,22 +26,18 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 549753cc305825309c42861a9d38f95ab0aa9f11
+source-git-commit: 7badf4d57dfb120d4e36cfa27e489a54cfcd5fdb
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '901'
 ht-degree: 2%
 ---
 # 使用Frame.io檢視器檢閱並核准
-
-{{highlighted-preview}}
 
 您可以使用Frame.io檢視器在Workfront中檢閱和核准檔案。
 
 使用Frame.io檢視器檢閱Workfront檔案，可讓您留下註解或標示檔案、影像或視訊的特定區段，以便與團隊有效率地合作，並確保意見清晰且易於操作。
 
 如需有關Frame.io與Workfront整合的詳細資訊，請參閱[整合式稽核和核准總覽](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)。
-
-
 
 ## 存取權要求
 
@@ -98,7 +94,7 @@ ht-degree: 2%
    >您可能需要將我的核准Widget新增到您的首頁。 如需詳細資訊，請參閱[新增、編輯或移除首頁中的Widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)。
 
 1. 在Frame.io中，使用註解工具提供意見或提出問題。
-註解與資產標籤只會顯示在Frame.io檢視器中。 評論不會顯示在Workfront中。 <span class="preview">但是，Workfront中檔案的註解面板會顯示註解，其中包含註解的計數（計數可用時），以及開啟Frame.io檢視器並讀取註解的連結。</span> 如需使用Frame.io檢視器的詳細資訊，請參閱[在您的媒體上發表評論](https://help.frame.io/en/articles/9105251-commenting-on-your-media)。
+註解與資產標籤只會顯示在Frame.io檢視器中。 評論不會顯示在Workfront中。 不過，Workfront中檔案的註解面板會顯示註解，其中包含註解的計數（計數可用時），以及開啟Frame.io檢視器並讀取註解的連結。 如需使用Frame.io檢視器的詳細資訊，請參閱[在您的媒體上發表評論](https://help.frame.io/en/articles/9105251-commenting-on-your-media)。
 1. 在您滿意檔案後，請導覽回Workfront中的「檔案詳細資訊」頁面，並將您的檢閱標籤為完成。
 
    ![標示評論完成](assets/mark-review-complete.png)
@@ -123,7 +119,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   > <span class="preview">在預覽中，Workfront中的「註解」面板會顯示訊息，讓您知道Frame.io中有新註解時。</span>
+   >Workfront中的「註解」面板會顯示訊息，讓您知道Frame.io中有新註解時。</span>
 
 
 1. 一旦您對檔案滿意，就可以在Frame.io檢視器中選擇下列其中一項決定：

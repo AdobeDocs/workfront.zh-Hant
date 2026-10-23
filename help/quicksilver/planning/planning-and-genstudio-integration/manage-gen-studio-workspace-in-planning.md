@@ -25,9 +25,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '2022'
+source-wordcount: '1956'
 ht-degree: 2%
 ---
 <!--
@@ -50,11 +50,11 @@ recommendations: noDisplay, noCatalog
 
 {{planning-important-intro}}
 
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
-
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 當貴公司同時購買產品，且您的Adobe GenStudio for Performance Marketing執行個體已整合至貴公司的GenStudio執行個體時，Adobe Workfront Planning中即可使用Workfront工作區。
 
@@ -377,23 +377,20 @@ Workfront Planning首頁面隨即開啟。
    * **編輯**
 
      如需詳細資訊，請參閱[編輯記錄型別](/help/quicksilver/planning/architecture/edit-record-types.md)。
-   * **管理自動化**&#x200B;或&#x200B;<span preview="preview">**自動化**</span>
+   * **自動化**
 
      如需詳細資訊，請參閱[設定Adobe Workfront規劃自動化](/help/quicksilver/planning/records/configure-automations-to-create-records.md)。
-   * **管理請求表單**&#x200B;或&#x200B;<span class="preview">**請求表單**</span>
+   * **要求表單**
 
      您可以建立多個請求表單。 Workfront的請求區域會提供請求表單，您也可以公開或透過連結共用請求表單。
 
      如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
-
-   <div class="preview">
 
    * **業務規則**
 
      您可以設定記錄型別商業規則，以定義在允許使用者編輯或刪除該型別記錄之前必須符合的條件。
 
      如需詳細資訊，請參閱[設定記錄型別商業規則](/help/quicksilver/planning/architecture/configure-business-rules.md)。
-   </div>
 
 1. 若要共用檢視或記錄型別，請執行下列動作：
 

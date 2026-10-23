@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 45491118778279522358f87c1c4185c4cf824829
+source-git-commit: f619f55cb5df1c0aabbf9bc9137b506e39882e1d
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '550'
 ht-degree: 1%
 ---
 # Canvas儀表板概觀
@@ -43,11 +43,7 @@ ht-degree: 1%
 >
 >如果您對可能的錯誤或技術問題有回饋，請向Workfront支援提交票證。 如需詳細資訊，請參閱[聯絡客戶支援](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。
 >
->請注意，以下雲端服務供應商未提供此測試版：
->
->* 自備Amazon Web Services金鑰
->* Azure
->* Google Cloud Platform
+
 
 畫布儀表板可讓您將報表型別新增到畫布上，提供許多彈性的版面選項，包括調整大小、拖放等等，讓您輕鬆將Adobe Workfront資料視覺化。
 

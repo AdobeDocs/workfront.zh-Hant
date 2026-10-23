@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e8682aad0e752979afe524f6d218730f1b00559c
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '3249'
+source-wordcount: '3233'
 ht-degree: 1%
 ---
 # 提交Adobe Workfront Planning請求以建立記錄
@@ -156,31 +156,25 @@ Workspace管理員可建立請求表單，您能以使用者或外部人員身�
 
 * 當您提交請求表單，以從全域記錄型態建立記錄時，新記錄會儲存在主要或次要記錄型態中，視您從何處提交記錄而定。
 
-  根據您用來提交請求和建立記錄的環境，當您提交與全域記錄型別相關的請求表單時，會出現下列情況：
+  <!--
+   Depending on which environment you use to submit requests and create records,
+   -->
+  當您針對與全域記錄型別相關的請求表單提交表單時，會發生下列情況：
 
-  * 在生產環境中：
+  * 當您從次要全域記錄型別的頁面提交請求表單時，該記錄將顯示在次要記錄型別頁面中。 如果使用者有權檢視次要工作區，他們也會在主要記錄型別的頁面上看到新記錄。
+  * 當您從主要記錄型別頁面或使用本文所述的任何其他方法提交請求表單時，記錄會顯示在主要記錄型別頁面中。
+  * 如果&#x200B;**Workspace**&#x200B;欄位可在要求表單中使用，且使用者手動選擇特定工作區以新增記錄，則該空間會儲存記錄，無論該表單是從主要還是次要記錄型別頁面中選取。
 
-    * 如果您使用本文所述的任何方法來提交與全域記錄型別關聯的請求表單，則記錄會顯示在主要記錄型別的頁面中。
-
-  * <span class="preview">在預覽環境中，存在下列案例： </span>
-
-    <div class="preview">
-
-    * 當您從次要全域記錄型別的頁面提交請求表單時，該記錄將顯示在次要記錄型別頁面中。 如果使用者有權檢視次要工作區，他們也會在主要記錄型別的頁面上看到新記錄。
-    * 當您從主要記錄型別頁面或使用本文所述的任何其他方法提交請求表單時，記錄會顯示在主要記錄型別頁面中。
-    * 如果&#x200B;**Workspace**&#x200B;欄位可在要求表單中使用，且使用者手動選擇特定工作區以新增記錄，則該空間會儲存記錄，無論該表單是從主要還是次要記錄型別頁面中選取。
-
-    </div>
+  <!--
+   * In the Production environment:
+        * If you submit a request form associated with a global record type using any method described in this article, the records display in the primary record type's page. 
+   -->
 
   如需詳細資訊，請參閱[跨工作區記錄型別概觀](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
-
-<div class="preview">
 
 * 您可以在請求提交後與他人共用。
 
   如需詳細資訊，請參閱[共用計畫要求](/help/quicksilver/planning/requests/share-requests.md)。
-
-</div>
 
 
 <!--
@@ -223,15 +217,19 @@ Not sure how to change the request status, but dev also said: Changing the names
 
    >[!TIP]
    >
-   ><span class="preview">相依連線記錄欄位的值受記錄之間的相依性規則的限制。 如需詳細資訊，請參閱[管理相依連線](/help/quicksilver/planning/architecture/manage-dependent-connections.md)。</span>
+   >相依性連線記錄欄位的值受記錄之間的相依性規則的限制。 如需詳細資訊，請參閱[管理相依連線](/help/quicksilver/planning/architecture/manage-dependent-connections.md)。
 
-1. （選擇性和條件性）按一下&#x200B;**填寫表單**，讓AI為您填寫表單。 Workfront會根據先前請求的資訊填寫表單上的欄位。
+1. （選擇性和條件性）按一下&#x200B;**填寫表單**&#x200B;以附加檔案，並讓AI為您填寫包含檔案內資訊的表單。<!--Workfront fills in the fields on the form based on information from previous requests.-->
 
    >[!TIP]
    >
-   >您的組織必須允許[系統偏好設定]區域中的&#x200B;**AI表單填寫**，才能使用填寫表單功能。
+   >* 您的組織必須允許[系統偏好設定]區域中的&#x200B;**AI表單填寫**，才能使用填寫表單功能。
    >
-   >如需指示，請參閱[使用AI支援的表單填入功能，使用提示或檔案填入請求](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)。
+   >     如需指示，請參閱[使用AI支援的表單填入功能，使用提示或檔案填入請求](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)。
+   >
+   >* <span class="preview">如果工作區管理員在要求表單中新增預設提示，AI會根據預設提示中建立的規則，以資訊填入表單。
+   >
+   >     如需詳細資訊，請參閱[在Adobe Workfront Planning中建立和管理要求表單](/help/quicksilver/planning/requests/create-request-form.md)。
 
 
 

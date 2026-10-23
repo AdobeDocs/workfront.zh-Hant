@@ -5,24 +5,18 @@ title: 在畫布儀表板中建立樞紐分析表
 description: 您可以將樞紐分析表新增至畫布控制面板，以表格格式檢視資料的彙總總數。
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: d318a3f44752e01494374472ea295fa22ec97fc8
+source-git-commit: 63ee9b3bd23d0715909018835adbc60739ab45c2
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1481'
 ht-degree: 6%
 ---
 # 在畫布儀表板中建立樞紐分析表
-
-{{highlighted-preview-article-level}}
 
 >[!IMPORTANT]
 >
 >畫布儀表板功能目前僅適用於參與Beta階段的使用者。 在此階段中，部分功能可能無法完成或如預期般運作。 請依照「畫布控制面板」測試版概觀文章中[提供意見回饋](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)一節的指示，提交有關您體驗的任何意見回饋。<br>
 >如果您對可能的錯誤或技術問題有回饋，請向Workfront支援提交票證。 如需詳細資訊，請參閱[聯絡客戶支援](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。<br>
->請注意，以下雲端服務供應商未提供此測試版：
->
->* 自備Amazon Web Services金鑰
->* Azure
->* Google Cloud Platform
+
 
 您可以將樞紐分析表新增至畫布控制面板，以表格格式檢視資料的彙總總計，例如總計、計數和平均值。 針對多個維度比較多個彙總值或計數時，樞紐分析表相當實用。
 

@@ -32,19 +32,20 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '2578'
+source-wordcount: '2479'
 ht-degree: 1%
 ---
 <!--keep the 30 limit verbiage in yellow til Jan 2026-->
 
 # 連線記錄型別概觀
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 {{planning-important-intro}}
 
@@ -210,18 +211,12 @@ ht-degree: 1%
     * 您可以從GenStudio記錄型別和Planning記錄型別連線GenStudio Brands。
     * 您不能在階層中包含GenStudio品牌。
 
-  <div class="preview">
-
   * 您可以讓連線欄位從屬於已連線記錄型別中對應的已連線欄位。 當兩個欄位顯示在第三個記錄型別上時，一個欄位可用的選擇取決於另一個欄位的選擇。
 
     如需詳細資訊和其他考量事項，請參閱[管理相依連線](/help/quicksilver/planning/architecture/manage-dependent-connections.md)。
 
-  </div>
 
-* 在「一對一」或「一對多」連線型別中複製具有連線記錄的記錄時，會出現以下情況：
-
-  * 在生產環境中，連線的記錄會移至複製的記錄，或者您必須先從原始記錄中手動移除該記錄，然後再複製記錄，然後將其重新新增。
-  * <span class="preview">在[預覽]環境中，您可以選取連線的記錄是保留在原始記錄上，還是移至重複的記錄。</span>
+* 在「一對一」或「一對多」連線型別中複製具有連線記錄的記錄時，您可以選取連線記錄是保留在原始記錄上，還是移至複製的記錄。
 
   如需詳細資訊，請參閱[重複記錄](/help/quicksilver/planning/records/copy-or-duplicate-records.md)。
 

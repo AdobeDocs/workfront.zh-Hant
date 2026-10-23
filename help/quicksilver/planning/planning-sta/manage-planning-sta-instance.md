@@ -3,6 +3,7 @@ title: 以獨立產品形式管理您的Adobe Workfront Planning執行個體
 description: 本文說明當貴組織已購買作為獨立產品時，如何針對Adobe Workfront Planning管理偏好設定和客戶資訊。
 author: Alina
 feature: Workfront Planning
+recommendations: noDisplay, noCatalog
 role: User, Admin
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
@@ -18,7 +19,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 3%

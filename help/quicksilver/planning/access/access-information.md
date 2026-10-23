@@ -23,18 +23,18 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '137'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning存取資訊：文章索引
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
-
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -51,10 +51,7 @@ ht-degree: 0%
 * [共用記錄型別](/help/quicksilver/planning/access/share-record-types.md)
 * [共用記錄](/help/quicksilver/planning/access/share-records.md)
 * [設定記錄的預設許可權](/help/quicksilver/planning/access/set-default-record-permissions.md)
-
-<div class="preview">
-
 * [共用Workfront規劃欄位](/help/quicksilver/planning/access/share-fields.md)
 
-</div>
+
 

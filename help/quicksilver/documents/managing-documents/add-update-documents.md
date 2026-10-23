@@ -26,14 +26,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b5e412f9131f469cd926b20a4879bb638eda7ffb
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '629'
 ht-degree: 3%
 ---
 # 將更新新增至檔案
-
-{{highlighted-preview}}
 
 <!--Audited: April, 2024-->
 
@@ -112,9 +110,7 @@ ht-degree: 3%
    ![新檔案註解面板](assets/comments-new-doc.png)
 
 
-<div class="preview">
-
-### 預覽中的Frame.io註解指標
+### Frame.io註解指標
 
 為檔案建立核准工作流程時，使用者可以在Frame.io檢視器中留下註解及製作註解。 這些註解不會顯示在「Workfront註解」面板中，但您可以在Frame.io檢視器中檢視它們。
 
@@ -125,5 +121,3 @@ Workfront中的「註解」面板會顯示訊息，讓您知道Frame.io中有新
 >[!NOTE]
 >
 >* 如果您擁有Frame.io Enterprise授權，則無需核准工作流程即可在Frame.io檢視器中檢視註解。
-
-</div>

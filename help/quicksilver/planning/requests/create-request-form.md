@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '3098'
+source-wordcount: '3176'
 ht-degree: 2%
 ---
 # 在Adobe Workfront Planning中建立和管理請求表單
@@ -160,7 +160,7 @@ ht-degree: 2%
 
    記錄型別頁面會在您上次存取的檢視中開啟。 依預設，記錄型別頁面會在清單檢視中開啟。
 
-1. 按一下頁面標頭中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**建立請求表單** （如果您是第一次建立表單）。 按一下&#x200B;**管理申請表單**&#x200B;或&#x200B;<span class="preview">**申請表單**.</span> （如果您已經有表單，而且想要建立其他表單）。
+1. 按一下頁面標頭中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**建立請求表單** （如果您是第一次建立表單）。 按一下&#x200B;**要求表單**。
 
    **請求表單**&#x200B;頁面會開啟，且請求會顯示在清單檢視中。
 
@@ -212,49 +212,35 @@ ht-degree: 2%
    * **標籤**：這是欄位在要求表單上顯示的名稱。 這不會變更記錄欄位的名稱。
    * **指示**：新增欄位的詳細資訊。
 
-   <div class="preview">
-
    * **選擇**：這僅適用於選取的欄位。 執行下列其中一項：
 
      * 按一下&#x200B;**排序選擇A-Z**&#x200B;以自動排序。
      * 拖放選擇或手動排序。
      * 按一下「**設定**」圖示![設定圖示](assets/settings-icon.png)，然後依預設&#x200B;**選取**&#x200B;以指出預設選項，或按一下&#x200B;**隱藏選項**&#x200B;以隱藏選項。
 
-   </div>
-
    >[!TIP]
    >
-   ><span class="preview">您無法重新命名或移除Planning要求表單上的選擇。 您必須在記錄型別的資料表檢視中編輯欄位選擇。</span>
-
+   >您無法重新命名或移除Planning要求表單上的選擇。 您必須在記錄型別的表格檢視中編輯欄位選項。
 
 1. 在&#x200B;**進階設定**&#x200B;區域中，從下列選項中選取。 並非所有選項都適用於所有欄位型別。
 
    * **建立必要欄位**：選取時，該欄位必須具有值。 否則，無法提交表單。
-   * **新增邏輯**：定義必須符合哪些條件才能顯示或隱藏欄位。 只有當欄位是單選和多選欄位或在其前面時，新增邏輯才可用。 <span class="preview">並非所有欄位型別都適用驗證與預設值規則。</span>
+   * **新增邏輯**：定義必須符合哪些條件才能顯示或隱藏欄位。 只有當欄位是單選和多選欄位或在其前面時，新增邏輯才可用。 並非所有欄位型別都可使用驗證和預設值規則。
 
-     在生產環境中，從下列選項中選取：
+   從下列選項中選取：
 
-     * **顯示邏輯**：您選取的欄位前面必須是多選或單選欄位。
-     * **略過邏輯**：新增使用者應略過欄位並保留空白的略過規則。
+   * **顯示區**
+   * **略過**
+   * **預設值**
+   * **驗證**
+   * **正在格式化**
+   * **可編輯性**
 
-     <div class="preview">
+   如需詳細資訊，請參閱[新增邏輯規則至自訂表單和欄位](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)。
 
-     在「預覽」環境中，從下列選項中選取：
-
-     * **顯示區**
-     * **略過**
-     * **預設值**
-     * **驗證**
-     * **正在格式化**
-     * **可編輯性**
-
-     </div>
-
-     如需詳細資訊，請參閱[新增邏輯規則至自訂表單和欄位](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)。
-
-     >[!TIP]
-     >
-     ><span class="preview">當您在表單上選取欄位後，每個欄位的欄位型別都會顯示在右側面板的頂端。</span>
+   >[!TIP]
+   >
+   >在表單上選取欄位後，每個欄位的欄位型別都會顯示在右側面板的頂端。
 
 1. （可選）長按一下欄位，然後將其拖放到表單上的另一個位置。
 1. （選擇性）按一下表單左側的&#x200B;**Content elements**&#x200B;標籤，然後新增下列任一元素：
@@ -269,24 +255,25 @@ ht-degree: 2%
 1. （選擇性）按一下&#x200B;**預覽**&#x200B;以檢視其他使用者使用表單提交請求時表單的顯示方式。
 1. 繼續下列其中一項：
 
-   * [設定表單設定](#configure-form-settings) （如果您想要為生產環境中的表單設定更多詳細資料）
-   * 如果您不想進一步設定，請[發佈表單](#publish-form)。
+   * [設定表單設定](#configure-form-settings)如果您想要設定表單的詳細資訊
+   * [發佈表單](#publish-form)以發佈表單，讓使用者可以向其提交請求
+   * [共用要求表單](#share-a-request-form)以與其他人共用或公開共用表單
 
 ### 設定表單設定
 
-在[設定]索引標籤上，您可以設定核准規則、設定從此表單建立的請求何時將標籤為[已完成]，以及<span class="preview">將預設許可權指派給與使用表單提交的未來請求互動的使用者。</span>
+在「設定」標籤上，您可以設定核准規則、設定從此表單建立的請求何時將標籤為「已完成」，以及指派預設許可權給與使用表單提交的未來請求互動的使用者。
 
 核准規則會根據已提交請求中的欄位值來定義核准流程。
 
 例如，如果請求表單有「Campaign type」欄位，則可建立規則，當欄位值為「Digital」時傳送請求給一個人，當值為「Print」時傳送請求給另一個人。
 
-<span class="preview">核准程式中支援多個階段。 當階段中所有必要的決定都完成時，下一個階段就會開始，新階段的核准者會收到電子郵件通知。</span>
+核准流程支援多個階段。 當階段中所有必要的決定都完成時，下一階段開始，新階段的核准者會收到電子郵件通知。
 
 如需新增核准的詳細資訊，請參閱[新增核准至要求表單](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
 
 完成選項可讓您設定在建立要求的物件時，或是建立物件完成時，是否將要求標籤為完成。 您可以根據指定的條件定義物件的完成時間。
 
-<span class="preview">使用要求表單「設定」區域中的「許可權」區段，定義要求者<!--and non-requestors-->對使用表單建立的要求的預設許可權。</span>
+使用要求表單「設定」區域中的「許可權」區段，定義要求者<!--and non-requestors-->對使用表單建立的要求的預設許可權。
 
 若要設定表單設定：
 
@@ -297,7 +284,7 @@ ht-degree: 2%
 
 1. 若要開始設定核准規則，請按一下左側導覽中的&#x200B;**核准** ![核准圖示](assets/approvals-icon-on-form.png)。
 
-   您可以建立單一<span class="preview">或多階段核准規則</span>，並將使用者或團隊指派給核准。
+   您可以建立單一或多階段核准規則，並將使用者或團隊指派給核准。
 
    如需新增核准的詳細資訊，請參閱[新增核准至要求表單](/help/quicksilver/planning/requests/add-approval-to-request-form.md)。
 
@@ -309,56 +296,41 @@ ht-degree: 2%
 
 1. （視條件而定）如果您已選取在要求的物件完成時將要求標示為完成的請求，請選取欄位以及指示物件完成時間的值。 例如，當建立的物件狀態設為「完成」時，您可以選取「狀態」欄位和值「完成」以完成請求。
 
-1. <span class="preview">按一下左側面板上的&#x200B;**許可權**。</span>
-1. <span class="preview">選取透過此表單提交請求之使用者的許可權等級：</span>
-
-   <div class="preview">
+1. 按一下左側面板上的&#x200B;**許可權**。
+1. 選取透過此表單提交請求之使用者的許可權層級：
 
    * **檢視**：所有要求者都可以註解並共用表單。
    * **Contribute**：所有要求者都可以評論、共用及編輯表單。
    * **管理**：所有要求者都可以評論、共用、編輯和刪除表單。
 
-   </div>
-
-1. <span class="preview"> （選擇性）取消選取每個許可權層級的任何精細許可權，以防止要求者執行下列動作： </span>
-
-   <div class="preview">
+1. （選用）取消選取每個許可權層級的任意精細許可權，以防止請求者執行下列動作：
 
    * 註解
    * 共用
    * 編輯。 無法供檢視。
    * 刪除。 不適用於Contribute和View。
 
-   </div>
+   >[!TIP]
+   >
+   >從請求頁面與那些使用者共用請求時，您在此處取消選取的精細許可權將變暗。
+
+1. <span class="preview">按一下&#x200B;**AI表單填寫**，在提交請求時使用&#x200B;**填寫表單**&#x200B;功能時設定自訂提示。</span>
 
    >[!TIP]
    >
-   ><span class="preview">當您從請求頁面與這些使用者共用請求時，您在此取消選取的詳細許可權將會變暗。</span>
+   ><span class="preview">使用AI填寫要求表單時，您必須附加檔案，提示才會生效。</span>
+
+1. <span class="preview">開啟&#x200B;**啟用預設提示設定**，然後新增預設提示。</span>
+
+   <span class="preview">請儘可能詳細提示提示。 例如，如果您在使用「填寫」表單時一律使用包含日期的檔案，則可以在提示中新增「一律以歐洲格式儲存日期」。</span>
+
+   <span class="preview">當您使用&#x200B;**填寫表單**&#x200B;功能，並在使用此表單提交請求時附加檔案時，AI會在新請求時執行您在此預設提示中指定的編輯。 提交變更前，請先檢閱變更。</span>
+
+   ![AI表單填寫預設提示範例](assets/ai-form-fill-with-default-prompt-example.png)
 
 1. 繼續[發佈表單](#publish-form)。
 
 1. 按一下「**儲存**」。
-
-
-
-<!--
-
-Add these before Continue to Publish form above:
-
-1. <span class="preview">Click **Ai form filling** to configure a custom prompt when using the **Fill form** functionality when submitting requests. </span>
-
-      >[!TIP]
-      >
-      ><span class="preview">You must attach a file when using AI to fill the request form for the prompt to take effect. </span>   
-
-1. <span class="preview">Turn on the **Enable default prompt setting**, then add a default prompt. </span> 
-
-   <span class="preview">Make the prompt as detailed as possible. For example, if you always use files with dates in them when using Fill form, you may add "Always store dates in European format" to the prompt. </span> 
-
-   <span class="preview">When you use the **Fill form** capability and attach a file when submitting a request using this form, AI will perform the edits you are prescribing in this default prompt on the new request. You will have a change to review the changes before you submit it. </span> 
-
-   ![AI form filling default prompt example](assets/ai-form-fill-with-default-prompt-example.png)
--->
 
 ### 發佈表單
 
@@ -446,7 +418,7 @@ Add these before Continue to Publish form above:
 
 1. 按一下記錄型別卡。 如需有關建立記錄型別的資訊，請參閱[建立記錄型別](/help/quicksilver/planning/architecture/create-record-types.md)。
 
-1. 按一下頁面標頭中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**管理請求表單**&#x200B;或&#x200B;<span class="preview">**請求表單**</span>。
+1. 按一下頁面標頭中記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**要求表單**。
 
    **請求表單**&#x200B;頁面隨即開啟，所有與記錄型別相關的請求表單都會顯示在清單檢視中。
 1. （選擇性）更新&#x200B;**要求表單**&#x200B;頁面中的下列檢視元素，以變更資訊在表格中的顯示方式：

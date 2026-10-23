@@ -11,30 +11,37 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/36z25D3UWtmRwiOqdPOc3DCFXQcvSJHK2RvtuqFOvVU
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 96cf04616582ac0208a9365d0f10f2403ebd317c
+    internal-label: Administration
+source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
 workflow-type: tm+mt
-source-wordcount: 5223
+source-wordcount: '5223'
 ht-degree: 3%
-
 ---
-
 # 編輯專案範本
-
-{{highlighted-preview}}
 
 <!-- Audited: 7/2025 -->
 
@@ -253,13 +260,13 @@ Old:
       <td><p>指定您要與範本建立關聯的公司。 清單中只會顯示作用中的公司。</p></td> 
       </tr> 
       <tr>
-      <td role="rowheader"><span class="preview"><strong>Frame.io工作區（條件式）</strong></span></td>
-      <td><span class="preview">
+      <td role="rowheader"><strong>Frame.io工作區（條件式）</strong></td>
+      <td>
       <p>在Adobe雲端儲存空間專案中，選取您要從此範本建立的專案所使用的Frame.io工作區。 如果您的組織有多個Frame.io工作區，這會決定要在哪個工作區中建立連結的Frame.io專案。</p>
       <p>此清單僅包含您有權指派專案的Frame.io工作區。 未選取或未提供工作區時，使用的預設工作區。</p>
       <p>您可以隨時在範本上變更此欄位。 變更只會套用至變更後建立的專案；已經從範本建立的專案會保留現有的Frame.io工作區。</p>
       <p>注意：您必須擁有Frame.io enterprise才能使用Frame.io工作區欄位。</p>
-      </span></td>
+      </td>
       </tr> 
       <tr> 
       <td role="rowheader"><strong>範本所有者</strong></td> 

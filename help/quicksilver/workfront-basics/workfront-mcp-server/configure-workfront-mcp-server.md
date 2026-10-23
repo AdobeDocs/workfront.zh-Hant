@@ -11,7 +11,7 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: aa562305ecdd732b6202d90543878ea13195c800
+source-git-commit: ea37064458010280997e3fda3136fa431d2759e2
 workflow-type: tm+mt
 source-wordcount: '2357'
 ht-degree: 0%
@@ -40,13 +40,13 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront
 
 >[!NOTE]
 >
-><span class="preview">若要縮減預先載入所有工具之使用者端的MCP目錄大小，您可以將`toolsets`查詢引數新增至Workfront MCP伺服器URL。 例如︰</span>
+>若要縮減預先載入所有工具之使用者端的MCP目錄大小，您可以將`toolsets`查詢引數新增至Workfront MCP伺服器URL。 例如：
 >
 >```
 >https://mcp.workfront.adobe.com/mcp/v1/workfront?>toolsets=core,comment-stream
 >```
 >
-><span class="preview">如需工具集的詳細資訊，請參閱Adobe Workfront MCP伺服器工具一文中的[Workfront MCP伺服器](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md#toolsets-in-the-workfront-mcp-server)工具集。</span>
+>如需工具集的詳細資訊，請參閱Adobe Workfront MCP伺服器工具一文中的[Workfront MCP伺服器](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md#toolsets-in-the-workfront-mcp-server)工具集。
 
 ## 先決條件
 
@@ -68,7 +68,7 @@ MCP伺服器存取許可權由兩個不同的管理員所控制。
 
 * 如果您使用AI代理平台的企業版，該平台的管理員必須為您的組織啟用[!DNL Adobe Workfront]聯結器，或為您提供連線至Workfront MCP伺服器的自訂URL存取權。
 
-* <span class="preview">如果您使用每個客戶的唯一OAuth回呼URL連線自訂應用程式或代理平台，您的Workfront管理員必須將該URL新增至&#x200B;**系統偏好設定> MCP偏好設定**&#x200B;中的&#x200B;**授權重新導向URL**&#x200B;清單。 如果沒有此專案，則會拒絕驗證。 如需詳細資訊，請參閱本文中的[連線至OAuth](#connect-with-oauth)。</span>
+* 如果您使用每個客戶的唯一OAuth回呼URL連線自訂應用程式或代理平台，您的Workfront管理員必須將該URL新增至&#x200B;**系統偏好設定> MCP偏好設定**&#x200B;中的&#x200B;**授權重新導向URL**&#x200B;清單。 如果沒有此專案，則會拒絕驗證。 如需詳細資訊，請參閱本文中的[使用OAuth連線](#connect-with-oauth)。
 
 
 ## 將Workfront連線至Claude
@@ -254,8 +254,6 @@ ChatGPT支援使用者建立的助理，稱為自訂GPT。 您可以使用自訂
 
 ### 使用OAuth連線
 
-<div class="preview">
-
 如果您連線的AI代理平台或自訂應用程式具有每個客戶的唯一OAuth回呼（重新導向） URL，例如包含連線或租使用者ID的URL，則您的Workfront管理員必須將該URL新增到您組織的授權重新導向URL清單中，然後才能進行驗證。
 
 >[!NOTE]
@@ -280,7 +278,6 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront
 
 如果您的回呼URL不在清單上，則會拒絕驗證請求。 請要求Workfront管理員確認所輸入的URL與整合提供的完全相同。
 
-</div>
 
 ## 驗證您的連線
 

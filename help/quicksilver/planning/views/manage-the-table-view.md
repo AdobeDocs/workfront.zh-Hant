@@ -28,18 +28,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f1a6727b3282e86f8f8b541173674450fbfe45dc
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '4228'
+source-wordcount: '4138'
 ht-degree: 2%
 ---
 # 管理表格檢視
 
 <!-- remove Production and Preview references at release-->
 
-<span class="preview">本頁標示的資訊是指尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>
 
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -207,7 +209,7 @@ Old:
 
 1. 建立資料表檢視，如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述。
 
-   ![資料表檢視範例](assets/table-view-example-g-list.png)
+   ![資料表檢視範例](assets/table-view-example.png)
 
 1. （選擇性）按一下&#x200B;**列高度**，然後從下列選項中選取，以修改表格列的高度：
    * 短
@@ -333,9 +335,7 @@ Old:
      * **MIN**：顯示欄中所有儲存格的最低值。
      * **MAX**：顯示欄中所有儲存格的最高值。
      * **AVG**：顯示資料行中所有儲存格的平均值。
-     * <span class="preview">**無**：資料行的值未彙總。 這是預設選項。</span>
-
-   <div class="preview">
+     * **無**：資料行的值未彙總。 這是預設選項。
 
    * 針對日期欄位，展開欄底部的彙總器下拉式功能表，然後從下列選項中選取：
 
@@ -351,17 +351,12 @@ Old:
      * **EMPTY**：顯示沒有值的欄位計數。
      * **非空白**：顯示具有值的欄位計數。
 
-   </div>
-
    使用彙總時，請考量下列事項：
 
    * 當欄中的彙總器列顯示值時會凍結，而且是檢視設定的一部分。
    * 作為「檢視管理員」，您可以選擇彙總，當您與其他人共用檢視時，它將會與檢視共用。
    * 作為檢視器，您可以修改彙總，但不會與檢視一起儲存。
    * 公用共用檢視會與無法修改的已儲存彙總共用。
-
-   <div class="preview">
-
    * 下列欄位型別沒有彙總：
 
      * 建立者
@@ -369,7 +364,7 @@ Old:
      * 記錄 ID
    * 公式欄位和查詢欄位具有與其欄位格式相對應的彙總。
 
-   </div>
+
 
 <!--
 
@@ -409,11 +404,11 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 
    您在表格檢視中新增的記錄會立即儲存，且所有擁有工作區檢視或更高許可權的使用者皆可看到。
 
-   預設縮圖影像<span class="preview">和色彩</span>也會新增到新記錄中。
+   預設的縮圖影像和顏色也會新增到新記錄中。
 
    >[!TIP]
    >
-   ><span class="preview">當記錄有未讀取的註解時，會在記錄的主要欄位的右上角顯示&#x200B;**新註解**&#x200B;指示器。</span>
+   >當記錄有未讀取的註解時，**新註解**&#x200B;指標會顯示在記錄的主要欄位的右上角。
    >
    >![表格檢視中的新註解圖示](assets/new-comment-icon-in-table-view-highlighted.png)
 
@@ -425,32 +420,20 @@ FROM LISA: This is the old section. I commented it out vs deleting.
    >
    >在相同檢視中存取記錄型別的所有使用者都可以看到您對列順序所做的變更。
    >
-   ><span class="preview">在拖放行中，如果有多個記錄，數字指示器會顯示選取的記錄數。</span>
+   >在拖放行中，如果有多個記錄，數字指示器會顯示選取的記錄數。
 
 1. （選擇性）按一下記錄右側的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**編輯縮圖**&#x200B;以編輯縮圖。
-1. 在生產環境中，按一下表格頂端的&#x200B;**欄位**
-
-   或
-
-   <span class="preview">暫留在主要欄位標題</span>上，然後選取&#x200B;**縮圖**&#x200B;欄位的切換按鈕，將其顯示在主要欄位的左側。 預設會取消選取它。
+1. 暫留在主要欄位標題上，然後選取&#x200B;**縮圖**&#x200B;欄位的切換按鈕，以在主要欄位的左側顯示。 預設會取消選取它。
 
    如需詳細資訊，請參閱[新增縮圖至記錄](/help/quicksilver/planning/records/add-thumbnails-to-records.md)。
 
-1. <span class="preview">按一下資料表頂端的&#x200B;**欄位**</span>
+1. 暫留在主要欄位標題上，然後選取&#x200B;**色彩**&#x200B;欄位的切換按鈕，將其顯示在主要欄位的左側。 預設會取消選取它。
 
-   或
-   <span class="preview">暫留在主要欄位標題上，然後選取&#x200B;**色彩**&#x200B;欄位的切換按鈕，將它顯示在主要欄位的左側。 預設會取消選取它。</span>
-
-1. <span class="preview"> （選擇性和條件性）如果您已開啟&#x200B;**色彩**&#x200B;設定，請按一下記錄主要欄位左側的色彩列，並從&#x200B;**色票**&#x200B;或&#x200B;**自訂**&#x200B;標籤中選取色彩，然後按一下方塊外部以關閉它。 顏色會立即套用。</span>
-
-<div class="preview">
+1. （選擇性和條件性）如果您已開啟&#x200B;**色彩**&#x200B;設定，請按一下記錄主要欄位左側的色彩列，並從&#x200B;**色票**&#x200B;或&#x200B;**自訂**&#x200B;標籤中選取色彩，然後按一下方塊外部以關閉它。 顏色會立即套用。
 
 ![錄製色彩編碼檢色器方塊](assets/color-picker-for-record-color-coding.png)
 
 如需詳細資訊，請參閱[建立記錄](/help/quicksilver/planning/records/create-records.md)。
-
-</div>
-
 
 ### 新增篩選器 {#add-filters-1}
 
@@ -514,10 +497,10 @@ FROM LISA: This is the old section. I commented it out vs deleting.
         </tr>
         <tr>
             <td>多選，人員</td>
-            <td><p>具有任一</p> 或<span class="preview"><p>屬於任一</p></span>
+            <td><p>屬於任一</p>
             <p>具有所有</p>
             <p>完全符合</p>
-            <p>不具有</p> 或<span class="preview"><p>不屬於</p></span>
+            <p>不屬於</p>
             <p>是空的</p>
             <p>不是空的</p></td>
         </tr>

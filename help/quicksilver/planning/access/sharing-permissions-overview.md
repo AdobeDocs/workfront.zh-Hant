@@ -23,9 +23,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1529'
+source-wordcount: '1396'
 ht-degree: 5%
 ---
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
@@ -34,11 +34,11 @@ ht-degree: 5%
 
 # 在Adobe Workfront Planning中共用許可權的概觀
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
-
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -173,7 +173,7 @@ ht-degree: 5%
 | 檢視 | ✓ | ✓ | ✓ |
 
 
-<span class="preview">除了上表所述的許可權之外，您也可以在共用工作區時變更工作區的擁有者。 如需詳細資訊，請參閱[共用工作區](/help/quicksilver/planning/access/share-workspaces.md).</span>
+除了上表所述的許可權之外，您也可以在共用工作區時變更工作區的擁有者。 如需詳細資訊，請參閱[共用工作區](/help/quicksilver/planning/access/share-workspaces.md)。
 
 
 ### 記錄型別的許可權
@@ -263,25 +263,22 @@ In the Production environment, the following are the levels of permissions for r
 
 ### 記錄欄位的許可權
 
+<!--
 
-#### 在生產環境中記錄欄位的許可權
+#### Permissions to record fields in the Production environment
 
 
-當您將許可權授予工作區和記錄型別時，編輯欄位設定的許可權繼承自記錄型別。
+Permissions to edit field settings are inherited from the record type, when you grant permissions to the workspace and the record type.
 
-以下許可權是指欄位設定，而不是與每個欄位關聯的值。 若要編輯欄位值，您必須擁有編輯記錄的許可權。
+The following permissions refer to the fields settings and not to the values associated with each field. To edit field values you must have permissions to edit records. 
 
-|        | 管理 | 參與 | 檢視 |
+|        | Manage | Contribute | View  |
 |--------|--------|------------|-------|
-| 建立 | ✓ |            |       |
-| 刪除 | ✓ |            |       |
-| 編輯 | ✓ |            |       |
-| 檢視 | ✓ | ✓ | ✓ |
-
-
-<div class="preview">
-
-#### 在預覽環境中記錄欄位的許可權
+| Create | ✓      |            |       |
+| Delete | ✓      |            |       |
+| Edit   | ✓      |            |       |
+| View   | ✓      | ✓          | ✓     |
+-->
 
 當您將許可權授予工作區和記錄型別時，欄位設定的許可權繼承自記錄型別。
 
@@ -308,8 +305,6 @@ In the Production environment, the following are the levels of permissions for r
 | 檢視 | ✓ | ✓ |
 
 使用者必須至少具有記錄型別的檢視許可權才能存取欄位。
-
-</div>
 
 ### 檢視的許可權
 

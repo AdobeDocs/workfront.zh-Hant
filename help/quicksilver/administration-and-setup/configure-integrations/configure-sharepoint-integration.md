@@ -40,14 +40,12 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
 workflow-type: tm+mt
 source-wordcount: '1861'
 ht-degree: 1%
 ---
 # 設定[!DNL SharePoint]整合
-
-{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -153,8 +151,8 @@ ht-degree: 1%
 
    貴組織的[!DNL SharePoint]整合清單隨即顯示。
 
-1. （選擇性）若要編輯[!DNL SharePoint]整合，請選取其旁邊的核取方塊，然後按一下熒幕</span>底部藍色列中的&#x200B;**[!UICONTROL 編輯]** <span class="preview">。
-1. <span class="preview"> （選擇性）若要停用[!DNL SharePoint]整合，請選取其旁邊的核取方塊，然後按一下畫面底部藍色列中的&#x200B;**[!UICONTROL 停用]**。</span>
+1. （選擇性）若要編輯[!DNL SharePoint]整合，請選取其旁邊的核取方塊，然後按一下畫面底部藍色列中的&#x200B;**[!UICONTROL 編輯]**。
+1. （選擇性）若要停用[!DNL SharePoint]整合，請選取其旁邊的核取方塊，然後按一下畫面底部藍色列中的&#x200B;**[!UICONTROL 「停用]**」。
 
 ## [!DNL SharePoint]整合的安全性、存取和授權資訊
 

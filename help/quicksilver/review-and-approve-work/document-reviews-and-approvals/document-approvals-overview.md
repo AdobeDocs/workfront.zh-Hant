@@ -27,14 +27,12 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
+source-git-commit: ba1234b2e48d9dbed57c88ccc65221c65913b43b
 workflow-type: tm+mt
-source-wordcount: '4466'
+source-wordcount: '4464'
 ht-degree: 0%
 ---
 # 統一檢閱和核准總覽
-
-{{highlighted-preview}}
 
 統一的稽核和核准將Adobe Workfront和Adobe Frame.io整合為單一、深度連結的體驗，消除行銷管理、創意稽核和內容傳送之間的差距。
 專案專員在Workfront中管理工作，而創意人員、行銷人員和利害關係人則在專業級Frame.io檢視器中稽核及核准資產，所有這一切都無需在中斷連線的工具之間移動檔案。
@@ -110,9 +108,9 @@ Frame.io檢視器是所有Workfront檢閱和核准工作流程的預設檢視器
 
 ## 完成稽核軌跡
 
-<span class="preview">整合式檢閱和核准包含完整的稽核記錄，可跨Workfront和Frame.io建立完整的治理追蹤。 變更追蹤記錄會擷取在Frame.io檢視器和檔案生命週期中所做的核准決定。 每個記錄專案都包含來源系統歸因（Workfront或Frame.io）以及標準Workfront稽核欄位：日期和時間、記錄型別、使用者名稱、動作和物件名稱。 Frame.io檢視器註解未包含在稽核記錄中。</span>
+整合式稽核和核准包含完整的稽核記錄，可跨Workfront和Frame.io建立完整的治理追蹤。 變更追蹤記錄會擷取在Frame.io檢視器和檔案生命週期中所做的核准決定。 每個記錄專案都包含來源系統歸因（Workfront或Frame.io）以及標準Workfront稽核欄位：日期和時間、記錄型別、使用者名稱、動作和物件名稱。 Frame.io檢視器註解未包含在稽核記錄中。
 
-<span class="preview">變更追蹤記錄會顯示在Workfront的「設定」區域中，且可供匯出。 如需詳細資訊，請參閱[檢視及管理變更歷史記錄](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)。</span>
+變更追蹤記錄會顯示在Workfront的「設定」區域中，且可供匯出。 如需詳細資訊，請參閱[檢視及管理變更記錄](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)。
 
 ## Workfront強大的專案管理
 
@@ -360,17 +358,11 @@ Frame.io檢視器包含完整的視覺標籤工具，包括手繪繪圖和標準
 
 註解與註解會保留在Frame.io檢視器中，以便保留完整的上下文，包括時間戳記與視覺標籤。 這在未來版本中可能會演變。
 
-<span class="preview">
-
-在預覽中，Workfront中的「註解」面板會顯示訊息，讓您知道Frame.io中有新註解時。</span>
-
-<div class="preview">
+Workfront中的「註解」面板會顯示訊息，讓您知道Frame.io中有新註解時。
 
 **誰能在Workfront中看到Frame.io註解指標？**
 
 只有可以在Frame.io中看到這些註解的使用者才能看到指標。 如果您有Frame.io Enterprise授權，您會在檔案上看見任何註解。 如果您沒有Frame.io Enterprise授權，您只會在該檔案有核准後才看到它。 核准也會讓您看到檔案上所有先前的註解。
-
-</div>
 
 **是否可以將註解新增至資產的下載版本（例如PDF）？**
 

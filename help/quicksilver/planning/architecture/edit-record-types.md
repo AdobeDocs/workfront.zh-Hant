@@ -30,18 +30,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '711'
 ht-degree: 2%
 ---
 # 編輯記錄型別
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
-
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -222,8 +222,7 @@ Old:
    >
    >![全域搜尋方塊](assets/global-search-box.png)
 
-1. <span class="preview"> （選擇性）若要新增、編輯、停用或刪除記錄型別商業規則，請移至記錄型別頁面，然後按一下記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**商業規則**。</span>
+1. （選擇性）若要新增、編輯、停用或刪除記錄型別商業規則，請移至記錄型別頁面，然後按一下記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**商業規則**。
+商業規則是在記錄型別上設定的條件，定義何時可以編輯或刪除該型別的記錄。
 
-   <span class="preview">商業規則是在記錄型別上設定的條件，用來定義何時可以編輯或刪除該型別的記錄。</span>
-
-   <span class="preview">如需詳細資訊，請參閱[建立記錄型別商業規則](/help/quicksilver/planning/architecture/configure-business-rules.md)。</span>
+   如需詳細資訊，請參閱[建立記錄型別商業規則](/help/quicksilver/planning/architecture/configure-business-rules.md)。

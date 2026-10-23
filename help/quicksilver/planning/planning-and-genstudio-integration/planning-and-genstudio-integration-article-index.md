@@ -21,12 +21,14 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3f3f144e9cc7d3e64ed8e367a83c7c849b2f43b2
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning與Adobe GenStudio for Performance Marketing整合：文章索引
+
+{{planning-important-intro}}
 
 當貴公司同時購買GenStudio和Adobe Workfront時，您可在Adobe GenStudio for Performance Marketing Planning中使用Adobe Workfront工作區。
 

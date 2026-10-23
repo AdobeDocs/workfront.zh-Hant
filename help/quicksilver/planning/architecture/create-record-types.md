@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1200'
 ht-degree: 2%
 ---
 <!--this is linked to the UI in an empty workspace screen-->
@@ -41,11 +41,11 @@ ht-degree: 2%
 
 # 建立記錄型別
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
-
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -301,18 +301,14 @@ Old:
 
    變更會自動儲存。
 
-   如需有關新增記錄、刪除或編輯記錄型別、<span class="preview">建立商業規則</span>或更新記錄型別頁面中的檢視的其他資訊，請參閱下列文章：
+   如需新增和管理記錄至記錄型別的詳細資訊，請參閱下列文章：
 
    * [建立記錄](/help/quicksilver/planning/records/create-records.md)
    * [刪除記錄型別](/help/quicksilver/planning/architecture/delete-record-types.md)
    * [編輯記錄型別](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)
-
-   <div class="preview">
-
    * [建立記錄型別商業規則](/help/quicksilver/planning/architecture/configure-business-rules.md)
 
-   </div>
 
 ## 從CSV或Excel檔案匯入資訊，建立記錄型別
 

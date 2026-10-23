@@ -26,16 +26,14 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4ae4f25382ce72424e484336fb85df969f190921
+source-git-commit: 7badf4d57dfb120d4e36cfa27e489a54cfcd5fdb
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1130'
 ht-degree: 1%
 ---
 # 管理檔案版本
 
 <!-- Audited: 5/2025 -->
-
-{{highlighted-preview}}
 
 您可以在Workfront中管理檔案的多個版本。
 
@@ -162,9 +160,7 @@ ht-degree: 1%
 
    ![刪除檔案版本](assets/more-versions-350x143.png)
 
-<div class="preview">
-
-## 在預覽中管理新檔案區域中的檔案版本
+## 在新檔案區域中管理檔案版本
 
 如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的檔案區域。 如需Adobe雲端儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
@@ -239,12 +235,6 @@ Workfront會以您上傳各個版本的順序（例如V1、V2、V3）編號，�
    >
    >刪除版本不會變更其他版本的編號。 例如，如果您從版本為V1到V5的檔案中刪除V3，則其餘版本會保留其原始編號，而且之後沒有V3。 您上傳的下一個版本會變成V6。
 
-</div>
+### 在核准期間檢視目前的檔案
 
-<!--
-
-### View the current file during an approval
-
-If a document is a Creative Cloud file (for example, a Photoshop cloud document) and someone edits it while an approval is in progress, Workfront shows a **Current file** section with a badge indicating that new updates exist on the live document, separate from the version under approval.
-
--->
+如果檔案是Creative Cloud檔案（例如，Photoshop cloud檔案），且在核准過程中有人編輯它，則Workfront會顯示&#x200B;**目前檔案**&#x200B;區段，其徽章指出即時檔案中存在新的更新，與正在核准的版本不同。

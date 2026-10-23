@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 63ee9b3bd23d0715909018835adbc60739ab45c2
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '647'
 ht-degree: 1%
 ---
 # 使用畫布控制面板
@@ -34,12 +34,7 @@ ht-degree: 1%
 >畫布儀表板功能目前僅適用於參與Beta階段的使用者。 在此階段中，部分功能可能無法完成或如預期般運作。 請依照「畫布控制面板」測試版概觀文章中[提供意見回饋](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback)一節的指示，提交有關您體驗的任何意見回饋。
 >
 >如果您對可能的錯誤或技術問題有回饋，請向Workfront支援提交票證。 如需詳細資訊，請參閱[聯絡客戶支援](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)。
->
->請注意，以下雲端服務供應商未提供此測試版：
->
->* 自備Amazon Web Services金鑰
->* Azure
->* Google Cloud Platform
+
 
 畫布儀表板可讓您將不同的報表型別新增到彈性的畫布配置中，以視覺化您的Adobe Workfront資料。 本文概述如何有效使用畫布控制面板。
 
@@ -110,9 +105,9 @@ Once you open a Canvas Dashboard, you can interact with the reports displayed on
    >
    >這些變更只會套用至您目前的作業階段，不會影響原始報表設定。 若要永久保留這些變更，您必須編輯報表。
 
-<div class="preview">
 
-### 在預覽中向下切入樞紐分析表資料
+
+### 向下鑽研樞紐分析表資料
 
 您可以按一下樞紐分析表報表中的值，以向下展開並檢視構成該彙總值的個別記錄。
 
@@ -126,7 +121,7 @@ Once you open a Canvas Dashboard, you can interact with the reports displayed on
 
    向下追溯表格會顯示報表建立者在「向下追溯欄設定」中設定的欄。 如需詳細資訊，請參閱[在畫布儀表板中建立樞紐分析表](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md)。
 
-</div>
+
 
 
 <!--

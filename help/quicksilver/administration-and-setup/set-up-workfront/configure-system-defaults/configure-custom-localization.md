@@ -16,16 +16,14 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b077c95d8bb795fcd7c0983c78b7533cb8167270
+source-git-commit: da04199570bf7317c4cee5254d8f1fc8a0746c6c
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 4%
 ---
 # 設定自訂本地化
 
-{{highlighted-preview}}
-
-自訂本地化可讓您<span class="preview">使用AI</span>定義不同語言的自訂辭彙和片語。 Workfront接著會以使用者的Adobe Identity Management (IMS)設定中所設定的語言顯示這些詞語。
+自訂本地化可讓您使用AI定義不同語言的自訂辭彙和片語。 Workfront接著會以使用者的Adobe Identity Management (IMS)設定中所設定的語言顯示這些詞語。
 
 例如，「目標對象」標籤可本地化為德文「Zielgruppe」。 任何以德文選取為主要瀏覽器語言的使用者，都會看到「Zielgruppe」一詞，當作任何以英文標示「目標對象」欄位的標籤。
 
@@ -92,8 +90,6 @@ ht-degree: 4%
 1. （選擇性）若要重新排序語言欄，請按一下要移動的欄標題，並將其拖曳至所需位置。
 1. （選擇性）若要刪除字詞的翻譯，請按一下字詞旁的核取方塊，然後按一下頁面底部藍色列中的&#x200B;**刪除**。
 
-<div class="preview">
-
 ## 使用AI翻譯將未翻譯的自訂文字當地語系化
 
 您可以使用AI來本地化自訂文字。 您可以選取字詞和語言，並可在套用翻譯前核准翻譯。
@@ -149,5 +145,3 @@ ht-degree: 4%
 1. 按一下「**儲存**」。
 1. （選擇性）若要刪除字詞的所有翻譯，請按一下字詞旁的核取方塊，然後按一下頁面底部藍色列中的&#x200B;**刪除**。
 
-
-</div>

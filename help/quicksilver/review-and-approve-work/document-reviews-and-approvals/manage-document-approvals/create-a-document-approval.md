@@ -30,16 +30,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5298faf95a89935356a94374246ec3b98b785fbb
+source-git-commit: ba1234b2e48d9dbed57c88ccc65221c65913b43b
 workflow-type: tm+mt
-source-wordcount: '2881'
-ht-degree: 1%
+source-wordcount: '2673'
+ht-degree: 0%
 ---
 # 建立檔案核准工作流程
 
-{{highlighted-preview}}
-
-您可以在Adobe Workfront中要求其他使用者或團隊核准檔案或已上線的網站，或要求他們稽核檔案而無需核准。
+您可以在Adobe Workfront中請求其他使用者或團隊核准檔案，或請求他們稽核檔案而無需核准。
 
 依預設，核准範本僅對建立者可見。 整篇文章中，您只能選取您建立或與您共用的範本。 如需詳細資訊，請參閱管理核准範本中的[共用範本](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template)。
 
@@ -178,13 +176,9 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
    <td>依預設，階段名為<em>階段1</em>、<em>階段2</em>等。 將階段重新命名為較清楚描述的階段，例如<em>初始稽核</em>或<em>最終核准</em>。</td>
    </tr>
    <tr>
-   <td><strong>新增姓名或電子郵件</strong></td>
-   <td>開始輸入使用者或團隊名稱，以新增為核准者或稽核者。 如果您只有稽核者，他們將會收到通知並可以選擇完成稽核，但不需要或做出任何決定。<p>附註：一次只能將檢閱者或核准者指派給相同資產上的一個開啟階段。 如果同時開啟多個平行階段，則無法將同一個使用者新增至多個階段。</p></td>
-   </tr>
-   <tr>
-   <td><strong><span class="preview">在預覽中新增人員或團隊</span></strong></td>
-   <td><p><span class="preview">開始輸入使用者名稱、團隊或電子郵件地址。 依預設，專案團隊會新增為單一核准者或檢閱，但您可以選擇將每個專案團隊成員新增為個別參與者。</span></p>
-   <p><span class="preview">注意：如果使用者已經新增，或屬於您新增的多個團隊，則會納入一次。 此外，參與者一次只能被指派到相同資產上的一個開啟階段。</span></p></td>
+   <td><strong>在預覽中新增人員或團隊</strong></td>
+   <td><p>開始輸入使用者名稱、團隊或電子郵件地址。 依預設，專案團隊會新增為單一核准者或檢閱，但您可以選擇將每個專案團隊成員新增為個別參與者。</p>
+   <p>注意：如果使用者已經新增，或屬於您新增的多個團隊，則會納入一次。 此外，參與者一次只能被指派到相同資產上的一個開啟階段。</p></td>
    </tr>
    <tr>
    <td><strong>只需要一個決定（選擇性）</strong></td>
@@ -244,13 +238,9 @@ preview screen
    <td>預設會收合範本欄位。 按一下欄位以展開，然後從下拉式選單中選取範本。 功能表只會列出您建立或他人與您共用的範本 — 或是特別與您共用或他人與您共用或他人共用的範本。 系統管理員可在此看到帳戶中的每個範本，無論範本的建立者或共用者為何。 如果範本具有一個路徑和一個階段，則會套用在「基本」模式中。 如果範本有多個階段或多個路徑，對話方塊會自動切換到「進階」模式，而您在「基本」模式中輸入的任何輸入都會被範本的內容取代。</td>
    </tr>
    <tr>
-   <td><strong>新增姓名或電子郵件</strong></td>
-   <td>開始輸入使用者名稱或電子郵件，以新增為核准者或稽核者。 如果您只有稽核者，他們將會收到通知並可以選擇完成稽核，但不需要或做出任何決定。</td>
-   </tr>
-   <tr>
-   <td><strong><span class="preview">在預覽中新增人員或團隊</span></strong></td>
-   <td><p><span class="preview">開始輸入使用者名稱、團隊或電子郵件地址，然後選擇他們是<strong>核准者</strong>或<strong>檢閱者</strong>。 Workfront會個別新增團隊的每個作用中成員。</span></p>
-   <p><span class="preview">注意：如果使用者已經新增，或屬於您新增的多個團隊，則會納入一次。</span></p></td>
+   <td><strong>在預覽中新增人員或團隊</strong></td>
+   <td><p>開始輸入使用者名稱、團隊或電子郵件地址，然後選擇他們是<strong>核准者</strong>或<strong>檢閱者</strong>。 Workfront會個別新增團隊的每個作用中成員。</p>
+   <p>注意：如果使用者已經新增，或屬於您新增的多個團隊，則會納入一次。</p></td>
    </tr>
    <tr>
    <td><strong>只需要一個決定（選擇性）</strong></td>
@@ -320,13 +310,9 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
    <td>依預設，階段名為<em>階段1</em>、<em>階段2</em>等。 將階段重新命名為較清楚描述的階段，例如<em>初始稽核</em>或<em>最終核准</em>。</td>
    </tr>
    <tr>
-   <td><strong>新增姓名或電子郵件</strong></td>
-   <td>開始輸入使用者名稱或電子郵件，以新增為核准者或稽核者。 如果您只有稽核者，他們將會收到通知並可以選擇完成稽核，但不需要或做出任何決定。<p>附註：一次只能將檢閱者或核准者指派給相同資產上的一個開啟階段。 如果同時開啟多個平行階段，則無法將同一個使用者新增至多個階段。</p></td>
-   </tr>
-   <tr>&gt;
-   <td><strong><span class="preview">在預覽中新增人員或團隊</span></strong></td>
-   <td><p><span class="preview">開始輸入使用者名稱、團隊或電子郵件地址，然後選擇他們是<strong>核准者</strong>或<strong>檢閱者</strong>。 Workfront會個別新增團隊的每個作用中成員。</span></p>
-   <p><span class="preview">注意：如果使用者已經新增，或屬於您新增的多個團隊，則會納入一次。 此外，參與者一次只能被指派到相同資產上的一個開啟階段。</span></p></td>
+   <td><strong>在預覽中新增人員或團隊</strong></td>
+   <td><p>開始輸入使用者名稱、團隊或電子郵件地址，然後選擇他們是<strong>核准者</strong>或<strong>檢閱者</strong>。 Workfront會個別新增團隊的每個作用中成員。</p>
+   <p>注意：如果使用者已經新增，或屬於您新增的多個團隊，則會納入一次。 此外，參與者一次只能被指派到相同資產上的一個開啟階段。</p></td>
    </tr>
    <tr>
    <td><strong>只需要一個決定（選擇性）</strong></td>
@@ -360,10 +346,7 @@ preview screen
 
 1. 按一下&#x200B;**要求核准**。
 
-
-<div class="preview">
-
-## 在預覽中的新檔案區域中檢視先前版本的核准工作流程
+## 在新的檔案區域中檢視先前版本的核准工作流程
 
 如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的檔案區域。 如需Adobe雲端儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
@@ -383,7 +366,6 @@ preview screen
    >
    >如果因為請求較新版本的核准而撤回了版本的核准工作流程，該工作流程會保留在清單中、摺疊，因此您仍可檢閱其先前的決策。
 
-</div>
 
 <!--
 ## Resubmit an approval on a new version
