@@ -45,7 +45,7 @@ recommendations: noDisplay, noCatalog
 * 您必須同時擁有Workfront Planning和GenStudio for Performance Marketing的存取權。
 * 您必須擁有Adobe雲端儲存空間專案，才能連結至工作區。 組織管理員可以在Adobe Admin Console中建立一個。
 
-  如需詳細資訊，請參閱[管理Adobe儲存空間](https://helpx.adobe.com/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html)。<!--ensure this site still works-->
+  如需詳細資訊，請參閱[管理Adobe儲存空間](https://helpx.adobe.com/tw/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html)。<!--ensure this site still works-->
 
 
 ## 啟用Workfront規劃工作區至GenStudio
