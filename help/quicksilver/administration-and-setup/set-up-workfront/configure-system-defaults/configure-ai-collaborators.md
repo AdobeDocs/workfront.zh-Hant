@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
+source-git-commit: b411f277b245c51a0a1206d477530f432cccc99a
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1393'
 ht-degree: 2%
 ---
 # 設定AI共同作業人員
@@ -123,6 +123,8 @@ AI檢閱者可設定為使用Workfront品牌或Adobe Brand Intelligence。
 
 可以將工作代理指派給任務或問題。
 
+工作代理程式使用的授權不會收費。 如果您的組織有200個Workfront授權並建立工作代理程式，則有201個授權在使用中，但只有200個需要付費。
+
 如需建立代理程式以作為工作代理程式時的最佳作法清單，請參閱[建立工作代理程式之代理程式的最佳作法](#best-practices-for-creating-an-agent-for-a-work-agent)。
 
 * [在Workfront中設定工作代理程式](#configure-a-work-agent-in-workfront)
@@ -200,7 +202,6 @@ AI檢閱者可設定為使用Workfront品牌或Adobe Brand Intelligence。
 +++
 <!--
 +++ Copilot Studio
-
 
 
 +++

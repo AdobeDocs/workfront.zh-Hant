@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 29ff664c0ec62dc87c52052fac8b2b2183bf0841
+source-git-commit: 5f979207e0f29ec4279e2e170d87eb5162d6d678
 workflow-type: tm+mt
-source-wordcount: '3774'
+source-wordcount: '3777'
 ht-degree: 3%
 ---
 
@@ -67,10 +67,11 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront?toolsets=core,comment-stream
 
 可用的工具集包括：
 
-* `core` — 當您選取工具集的子集時，會自動包含的基礎Workfront工具集。
-* `comment-stream` — 評論與討論工作流程工具。
-* `planning` — Workfront規劃功能的工具。
-* `approvals` — 核准工作流程的工具。
+* `core`：當您選取工具集的子集時，會自動包含的基本Workfront工具集。
+* `comment-stream`：評論與討論工作流程工具。
+* `planning`： Workfront規劃功能的工具。
+* `approvals`：核准工作流程的工具。
+* `reporting`：報告工具。
 
 若要公開完整的授權目錄，請省略引數或使用`toolsets=all`。
 
