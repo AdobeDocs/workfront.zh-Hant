@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 04c7239a6b8dc46c22e978164ad71d6a600d4e62
+source-git-commit: 5e482e130c58018d83ab8ea4ba7f219931b47bf4
 workflow-type: tm+mt
-source-wordcount: '3514'
+source-wordcount: '3415'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 2026年第四季發行活動
@@ -43,19 +43,23 @@ CX Coworker現在可以從Excel試算表匯入10,000筆或以上的記錄，並�
 
 如需詳細資訊，請參閱[在Workfront中使用CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)。
 
-## 在GenStudio for Performance Marketing中啟用Planning工作區
+<!--
+
+## Enable Planning workspaces in GenStudio for Performance Marketing
 
 >[!NOTE]
 >
->預覽和生產： 2026年10月21日
->[!BADGE 超出排程]{type=Neutral}
->僅適用於擁有Adobe GenStudio for Performance Marketing授權的客戶
+>Preview and production: October 21, 2026
+>[!BADGE Off schedule]{type=Neutral}
+>Available only to customers who have an Adobe GenStudio for Performance Marketing license
 
-您現在可以啟用現有的Workfront Planning工作區以用於GenStudio for Performance Marketing計畫，以便重複使用行銷活動、產品、角色和其他記錄，而無需重新建立。
+You can now enable an existing Workfront Planning workspace for use in a GenStudio for Performance Marketing plan, so you can reuse your campaigns, products, personas, and other records without recreating them.
 
-使用GenStudio Adobe儲存專案，您可以將Planning記錄型別和欄位對應至GenStudio工作區記錄型別和欄位，然後從專案切換器存取GenStudio中的Planning工作區資訊。
+Using GenStudio Adobe storage projects, you can map your Planning record types and fields to the GenStudio workspace record types and fields and then access the Planning workspace's information in GenStudio from the project switcher.
 
-如需詳細資訊，請參閱[啟用Adobe Workfront規劃工作區至GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md)。
+For information, see [Enable an Adobe Workfront Planning workspace to GenStudio for Performance Marketing](/help/quicksilver/planning/planning-and-genstudio-integration/enable-planning-workspace-to-genstudio.md).
+
+-->
 
 ## Meta動態創意啟用型別
 
