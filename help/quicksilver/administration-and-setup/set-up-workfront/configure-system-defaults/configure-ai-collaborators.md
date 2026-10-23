@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b411f277b245c51a0a1206d477530f432cccc99a
+source-git-commit: 3c7e8dc66a334d765e8648d0bbc2ca5fd09dbc32
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1424'
 ht-degree: 2%
 ---
 # 設定AI共同作業人員
@@ -37,6 +37,8 @@ AI共同作業人員是將AI代理程式帶入您的專案、任務和問題的�
 * 工作代理：使用標準AI平台（如Claude、OpenAI或Copilot）建立共同作業人員，然後將共同作業人員指派給任務或問題以完成工作專案。
 
   如需詳細資訊，請參閱[使用工作代理](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md)。
+
+AI共同作業人員使用的授權不會收費。 如果您的組織有200個Workfront授權並建立AI Collaborator，接著會使用201個授權，但只需付費200個。
 
 <!--
 * <span class="preview">Project Coordinator: An out-of-the-box collaborator that monitors project status and follows up on overdue tasks automatically, without needing to configure an external agent.</span>
@@ -59,11 +61,11 @@ AI共同作業人員是將AI代理程式帶入您的專案、任務和問題的�
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p>
+   <td><p>[！UICONTROL標準]</p>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]或群組管理員</span></td> 
+   <td>[！UICONTROL系統管理員]或群組管理員</span></td> 
   </tr> 
   </tbody> 
 </table>
@@ -188,7 +190,7 @@ AI檢閱者可設定為使用Workfront品牌或Adobe Brand Intelligence。
       環境ID會顯示在左上角的環境名稱下方。
 
 1. 建立代理。
-   1. 在[受管理的代理程式] > [代理程式]下，按一下右上角的[建立代理程式] **&#x200B;**。
+   1. 在[受管理的代理程式] > [代理程式]下，按一下右上角的[建立代理程式] ****。
    1. 提供適用的名稱、型號、系統提示、技能及工具。 描述性，因為「工作代理程式」會將工作內容傳遞至此代理程式，然後執行工作。
       代理程式ID會顯示在左上角的代理程式名稱下方。
 
@@ -287,5 +289,5 @@ For more information on the Project Coordinator, including how to assign it to p
 {{step-1-to-setup}}
 
 1. 在左側導覽列中，按一下&#x200B;**AI共同作業人員**。
-1. （條件式）若要編輯共同作業人員，請按一下您要編輯的共同作業人員名稱，在[編輯共同作業人員]視窗中進行任何編輯，然後按一下[儲存]。**&#x200B;**
+1. （條件式）若要編輯共同作業人員，請按一下您要編輯的共同作業人員名稱，在[編輯共同作業人員]視窗中進行任何編輯，然後按一下[儲存]。****
 1. （視條件而定）若要刪除Collaborator，請在您要刪除的AI Collaborator列中按一下「刪除」圖示![「刪除」圖示](assets/delete-collaborator-icon.png)，然後按一下&#x200B;**「刪除」**。
