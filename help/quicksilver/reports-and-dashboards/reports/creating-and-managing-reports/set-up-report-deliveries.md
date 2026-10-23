@@ -28,14 +28,12 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8b59974fbec3c7ec33b2920889717cac56a6c778
+source-git-commit: 3e9220d91f998644cd5b2a7e1ec83cdd903119af
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1634'
 ht-degree: 0%
 ---
 # 報表傳送概覽
-
-{{highlighted-preview}}
 
 <!-- Audited: 11/2024 -->
 
@@ -202,17 +200,13 @@ ht-degree: 0%
 
 電子郵件訊息中的報告名稱也是連結。
 
-<div class="preview">
-
 ### 報告到期通知 {#report-expiration-notices}
 
-在預覽中，傳遞的報告電子郵件包含報告的到期日。
+傳遞的報表電子郵件包含報表的到期日。
 
 如果每天重複傳送，則當到期日在45天內時，電子郵件會包含每次傳送的到期警告。
 
 如果每週或每月重複傳送，則電子郵件會在到期日前的最後四個排程傳送期間包含到期警告。
-
-</div>
 
 ## 報告排程報告
 
