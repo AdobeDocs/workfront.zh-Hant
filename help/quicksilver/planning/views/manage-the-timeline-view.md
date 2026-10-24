@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
-source-wordcount: '4867'
+source-wordcount: '4882'
 ht-degree: 1%
 ---
 # 管理時間表檢視
@@ -484,7 +484,6 @@ Old:
 
 1. 在&#x200B;**依**&#x200B;分組記錄方塊中，以正確的順序拖放分組。
 
-
 1. 在&#x200B;**Group records by**&#x200B;方塊的&#x200B;**配置**&#x200B;區域中，選取下列其中一個選項：
 
    * **棧疊**：群組顯示時沒有凍結的左欄，而且符合專案時程表的寬度。
@@ -524,6 +523,11 @@ Old:
    >將記錄從一個群組拖放至另一個群組時，在群組中所選的欄位會自動更新移動記錄上的值。
 1. （選擇性）按一下&#x200B;**設定**，然後按一下&#x200B;**色彩**&#x200B;以使用色彩代碼分組。 如需詳細資訊，請參閱本文中的[編輯時間表檢視設定](#edit-the-timeline-view-settings)一節。
 
+<!--
+1. <span class="preview">(Optional) From either the **Swimlane** or **Stacked** arrangement, grab a grouping in the timeline view and drop it in another position.</span>
+
+    <span class="preview">This changes the grouping order and it changes the sorting of the grouping to **Custom**. For more information, see the section [Add sort](#add-sort) in this article.</span>
+-->
 
 ### 新增排序
 
@@ -549,7 +553,17 @@ Old:
 
    ![使用分組排序在時間軸中排序](assets/sort-in-timeline.png)
 1. 從下拉式功能表中選取&#x200B;**排序記錄**，然後按一下&#x200B;**以建議的欄位開始**&#x200B;清單中列出的欄位，或按一下&#x200B;**選擇其他欄位**，然後搜尋欄位，並在欄位顯示在清單中時按一下該欄位。
-1. 選取您要套用記錄排序的方向（字母順序、反向下階等）。 排序的套用方向取決於所選欄位的格式。
+1. 選取您要套用記錄排序的方向（字母順序、反向下階等）。
+
+   例如，文字欄位的排序可以是A -> Z或Z -> A。
+
+   <!--
+    >[!TIP]
+    >
+    ><span class="preview">If the timeline view has groupings and you manually rearranged the groupings' order, the direction of the sort displays as **Custom**. </span>
+    -->
+
+   排序的套用方向取決於所選欄位的格式。
 1. （選擇性）按一下&#x200B;**新增條件**&#x200B;以新增最多10個條件。
 1. （選擇性）按一下&#x200B;**全部清除**&#x200B;以移除所有條件。
 1. 從排序方塊左上角的下拉式功能表中，選取&#x200B;**排序群組**。

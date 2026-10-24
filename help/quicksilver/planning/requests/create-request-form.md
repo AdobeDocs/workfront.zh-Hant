@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
 workflow-type: tm+mt
-source-wordcount: '3176'
+source-wordcount: '3223'
 ht-degree: 2%
 ---
 # 在Adobe Workfront Planning中建立和管理請求表單
@@ -296,14 +296,14 @@ ht-degree: 2%
 
 1. （視條件而定）如果您已選取在要求的物件完成時將要求標示為完成的請求，請選取欄位以及指示物件完成時間的值。 例如，當建立的物件狀態設為「完成」時，您可以選取「狀態」欄位和值「完成」以完成請求。
 
-1. 按一下左側面板上的&#x200B;**許可權**。
-1. 選取透過此表單提交請求之使用者的許可權層級：
+1. 按一下左側面板上的「**許可權**」，以設定使用者對於使用此表單提交的請求所擁有的預設許可權。 您在此處授與的許可權將對未來請求立即生效，並且不會影響現有請求。
+1. &#x200B;<!--<span class="preview">In the **Requestor access** section,</span>--> 為使用此表單提交請求的使用者，針對提交至此表單的請求，選取許可權層級：
 
    * **檢視**：所有要求者都可以註解並共用表單。
    * **Contribute**：所有要求者都可以評論、共用及編輯表單。
-   * **管理**：所有要求者都可以評論、共用、編輯和刪除表單。
+   * **管理**：所有要求者都可以評論、共用、編輯和刪除表單。 這是預設許可權。
 
-1. （選用）取消選取每個許可權層級的任意精細許可權，以防止請求者執行下列動作：
+1. （選擇性） <!--<span class="preview">In the **Requestor access** section,</span>-->取消選取每個許可權層級的任何精細許可權，以防止要求者執行下列動作：
 
    * 註解
    * 共用
@@ -313,6 +313,28 @@ ht-degree: 2%
    >[!TIP]
    >
    >從請求頁面與那些使用者共用請求時，您在此處取消選取的精細許可權將變暗。
+
+   <!--
+   1. <span class="preview">In the **Additional access** section (*************check UI name, submitted a bug********), select the permission level to the requests submitted to this form for **Everyone in this workspace**: </span>
+      <div class="preview">
+      * **No access**: No users in the workspace can access requests submitted using this form. 
+      * **View**: Workspace users can comment on and share the form. This is the default permission. 
+      * **Contribute**: Workspace users can comment on, share, and edit the form.
+      * **Manage**: Workspace users can comment on, share, edit, and delete the form. 
+      </div>
+   1. <span class="preview">(Optional) In the **Additional access** section,</span>, deselect any of the granular permissions for each permission level to prevent workspace users to perform the following actions:</span>
+      <div class="preview">
+      * Comment
+      * Share
+      * Edit. Not available for View. 
+      * Delete. Not available for Contribute and View. 
+      </div>
+
+   1. <span class="preview"> In the **Search for people, groups, teams, roles and companies** field, start adding entities and grant them View, Contribute, or Manage permissions.</span> 
+      >[!TIP]
+      >
+      ><span class="preview">The granular permission you deselect here will be dimmed when sharing the request with those users from the request page.</span>
+   -->
 
 1. <span class="preview">按一下&#x200B;**AI表單填寫**，在提交請求時使用&#x200B;**填寫表單**&#x200B;功能時設定自訂提示。</span>
 

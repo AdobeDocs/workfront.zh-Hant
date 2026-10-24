@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b411f277b245c51a0a1206d477530f432cccc99a
+source-git-commit: 3c7e8dc66a334d765e8648d0bbc2ca5fd09dbc32
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1424'
 ht-degree: 2%
 ---
 # 設定AI共同作業人員
@@ -37,6 +37,8 @@ AI共同作業人員是將AI代理程式帶入您的專案、任務和問題的�
 * 工作代理：使用標準AI平台（如Claude、OpenAI或Copilot）建立共同作業人員，然後將共同作業人員指派給任務或問題以完成工作專案。
 
   如需詳細資訊，請參閱[使用工作代理](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md)。
+
+AI共同作業人員使用的授權不會收費。 如果您的組織有200個Workfront授權並建立AI Collaborator，接著會使用201個授權，但只需付費200個。
 
 <!--
 * <span class="preview">Project Coordinator: An out-of-the-box collaborator that monitors project status and follows up on overdue tasks automatically, without needing to configure an external agent.</span>
