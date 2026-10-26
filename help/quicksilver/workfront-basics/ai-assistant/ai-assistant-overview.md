@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '872'
 ht-degree: 4%
 ---
 # Workfront中的AI助理
@@ -69,10 +69,6 @@ Workfront的AI助理可在自然語言對話中提供應用程式內資訊和建
 
 若要為您的組織啟用AI助理，必須套用下列&#x200B;**所有**：
 
-<!--Remove me October 2026-->
-
-* 貴組織必須已移轉至Adobe IMS （Identity Management系統）
-* 必須啟用Adobe Unified Experience
 * 貴組織必須有Select、Prime或Ultimate Workfront計畫
 * Adobe必須已簽署檔案Adobe Gen AI合約
 

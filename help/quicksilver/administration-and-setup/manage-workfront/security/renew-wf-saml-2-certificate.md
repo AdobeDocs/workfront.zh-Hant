@@ -32,22 +32,24 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e7123179a59cd7ed9c76f4718b3b8019854cbfe1
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '174'
 ht-degree: 0%
 ---
 # 續約Adobe Workfront SAML 2.0中繼資料憑證
 
 >[!IMPORTANT]
 >
->本頁所述的程式僅適用於尚未加入Admin Console的組織。 如果您的組織已上線Adobe Admin Console，則不需要採取任何動作。
+>本頁所述的程式僅適用於尚未上線至Admin Console的組織。 如果您的組織已上線Adobe Admin Console，則不需要採取任何動作。
 >
 >由於所有組織現已上線至Adobe Admin Console，因此此功能已淘汰。
+>
+>如需在Adobe Admin Console上續約SAML憑證的說明，請參閱「SAML回應中的數位簽章未驗證……」一節 在[疑難排解Federated ID](https://helpx.adobe.com/tw/enterprise/kb/tshoot-fed-id.html)中。
 
 <!--
 
-Remove me October 2026
+Remove me January 2027
 
 The Adobe Workfront servers utilize the SAML 2.0 protocol for authentication and authorization. Once updated, the new certificate remains valid for one year. When it is time for you to renew the certificate on your identity provider, you receive a warning in Workfront alerting you that this change must occur. As a Workfront administrator, you can manage this change at the system level.
 

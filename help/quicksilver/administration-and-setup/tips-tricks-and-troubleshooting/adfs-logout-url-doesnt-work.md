@@ -26,66 +26,68 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 6%
+source-wordcount: '67'
+ht-degree: 0%
 ---
 # ADFS登出URL無法運作
 
 <!-- Audited: 1/2024 -->
 
-<!--Remove me October 2026-->
+<!--Remove me January 2027-->
 
 >[!IMPORTANT]
 >
 >此頁面上說明的程式僅適用於尚未加入[!UICONTROL Adobe Admin Console]的組織。
 >
->由於所有組織現在都已上線至Adobe Admin Console，本文不久將會移除。
->
->如果您的組織已加入[!UICONTROL Adobe Admin Console]，請參閱[平台式管理差異([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
+>由於所有組織現已上線至Adobe Admin Console，因此本文已移除。
 
-## 問題
+<!--
 
-使用ADFS登出URL (https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0)時，您會收到一個訊息頁面，其中包含錯誤：「存取網站時發生問題。 請再次嘗試瀏覽網站。」
+## Problem
 
-如果問題仍然存在，請連絡此網站的系統管理員，並提供下列參考號碼以識別問題： **57092dfc-751a-4915-8e6a-b4c5d413f8c6**
+When using the ADFS logout URL (https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0), you receive a message page with the error: "There was a problem accessing the site. Try to browse to the site again."
 
-## 存取權要求
+If the problem persists, contact the administrator of this site and provide the following reference number to identify the problem: **57092dfc-751a-4915-8e6a-b4c5d413f8c6**
 
-+++ 展開以檢視這篇文章中所述功能的存取權要求。
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront]套件</td> 
-   <td>任何</td> 
+   <td role="rowheader">Adobe [!DNL Workfront] package</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront]授權</td> 
+   <td role="rowheader">Adobe [!DNL Workfront] license</td> 
    <td>
-   <p>標準</p>
-   <p>規劃</p></td>
+   <p>Standard</p>
+   <p>Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td>  
+   <td role="rowheader">Access level configurations</td> 
+   <td>[!UICONTROL System Administrator]</td>  
   </tr> 
  </tbody> 
 </table>
 
-如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## 解決方案
+## Solution
 
-1. 在您的ADFS管理員伺服器中，移至&#x200B;**[!UICONTROL 信任關係]** > **[!UICONTROL 信賴方信任]** > `<your party trust>`屬性。
+1. In your ADFS manager server, go to **[!UICONTROL Trust Relationships]** > **[!UICONTROL Relying Party Trusts]** > `<your party trust>` properties.
 
-1. 在&#x200B;**[!UICONTROL 端點]**&#x200B;標籤下，按一下&#x200B;**[!UICONTROL 新增]**。
+1. Under the **[!UICONTROL Endpoints]** tab, click **[!UICONTROL Add]**.
 
-1. **[!UICONTROL 端點型別]** = SAML登出，繫結= POST，URL = https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0
+1. **[!UICONTROL Endpoint Type]** = SAML Logout, Binding = POST, URL = https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0
 
-   如果您想要將回應URL重新導向至其他頁面，可設定回應URL。 但是我們建議您使用ADFS網站，因為它會警告您已經登出，但您仍應關閉瀏覽器。
+   You can set a response URL if you want it to redirect to another page. But we recommend the ADFS site because it warns that you are logged off, but you should still close your browser.
+
+   -->

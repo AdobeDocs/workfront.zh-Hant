@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 715971cb207849034d77b26fabf3253283ae659f
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 15%
+source-wordcount: '412'
+ht-degree: 13%
 ---
 # 活動訂閱最佳實務
 
@@ -62,7 +62,9 @@ ht-degree: 15%
 
 若要建立、查詢或刪除事件訂閱，您的Workfront使用者需要：
 
-* **系統管理員的存取層級**
-若要瞭解更多資訊，請參閱[授予使用者完整管理存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)或[授予使用者對特定區域的管理存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
+* **系統管理員**&#x200B;的存取層級
+
+  系統管理員是在Adobe Admin Console中建立。
+  若要深入瞭解，請參閱[使用Adobe Admin Console在Workfront中建立系統管理員](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console)一節。 在「在Adobe Admin Console中管理使用者」一文中。 或[授予使用者對特定區域的管理存取權](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)。
 
 * 如果您的組織使用Adobe IMS （Identity Management系統），請包含在`X-User-Token`標頭中傳遞的IMS使用者權杖。

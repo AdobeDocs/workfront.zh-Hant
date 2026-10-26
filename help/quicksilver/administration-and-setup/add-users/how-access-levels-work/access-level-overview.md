@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 715971cb207849034d77b26fabf3253283ae659f
 workflow-type: tm+mt
-source-wordcount: '1776'
+source-wordcount: '1803'
 ht-degree: 5%
 ---
 # 存取層級概觀
@@ -93,7 +93,7 @@ Workfront有5個新的內建存取層級：
 
 使用者也可存取完整的「設定」區域，在此變更系統層級的任何設定，並可存取主功能表中的所有區域。
 
-如需詳細資訊，請參閱[授予使用者完整管理存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)。
+透過Adobe Admin Console授與使用者管理員存取權。 如需指示，請參閱[使用Adobe Admin Console在Workfront中建立系統管理員](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console)一節。 在「在Adobe Admin Console中管理使用者」一文中。
 
 ### 標準存取層級
 

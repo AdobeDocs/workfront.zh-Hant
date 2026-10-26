@@ -26,23 +26,31 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e7123179a59cd7ed9c76f4718b3b8019854cbfe1
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 4%
+source-wordcount: '77'
+ht-degree: 0%
 ---
 # 登入錯誤：下列欄位無效： emailAddr不可為空
 
-## 問題
+>[!IMPORTANT]
+>
+>由於登入現在透過Adobe IMS （Identity Management系統）處理，因此已移除本文中的資訊。
 
-當我嘗試使用我的URL (https://customerdomain.my.workfront.com)登入[!DNL Adobe Workfront]時，我被重新導向到SAML登入入口網站，然後重新導向回[!DNL Workfront]，並出現以下錯誤：
+<!--
 
-「請再試一次。 下列欄位無效： emailAddr不可以是Null。」
+## Problem
 
-## 原因
+When I try to log into [!DNL Adobe Workfront] with my URL (https://customerdomain.my.workfront.com), I am redirected to the SAML login portal and then redirected back to [!DNL Workfront] with the following error:
 
-此錯誤是由於SAML 2.0設定的「對應使用者屬性」區域中不正確的專案所導致。 如需有關對SAML 2.0的使用者屬性的詳細資訊，請參閱[使用SAML 2.0設定Adobe Workfront](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)。
+"Let's try that again. The following fields are invalid: emailAddr cannot be null."
 
-## 解決方案
+## Cause
 
-更新電子郵件地址的屬性對應，然後按一下&#x200B;**[!UICONTROL 儲存]**。
+This error is caused by an incorrect item in the Map User Attributes area of the SAML 2.0 configuration. For more information about mapping user attributes for SAML 2.0, see [Configure Adobe Workfront with SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).
+
+## Solution
+
+Update the Attribute Mapping for the email address, and click **[!UICONTROL Save]**.
+
+-->

@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 0%
@@ -42,7 +42,7 @@ ht-degree: 0%
 >
 >若要對應已上線至Adobe Admin Console的組織中的使用者屬性，請參閱文章「對應使用者屬性」中的[對應使用者屬性](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience)。
 
-<!--Remove me October 2026-->
+<!--Remove me January 2027-->
 
 <!--
 

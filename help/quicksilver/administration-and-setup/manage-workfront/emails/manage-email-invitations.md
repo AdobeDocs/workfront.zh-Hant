@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e7123179a59cd7ed9c76f4718b3b8019854cbfe1
 workflow-type: tm+mt
-source-wordcount: '946'
-ht-degree: 2%
+source-wordcount: '98'
+ht-degree: 6%
 ---
 # 管理新使用者的電子郵件邀請
 
@@ -38,120 +38,124 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->本頁所述的程式僅適用於尚未加入Admin Console的組織。 如果您的組織已加入Adobe Admin Console，您必須透過Adobe Admin Console執行此動作。
+>本頁所述的程式僅適用於尚未加入Admin Console的組織。 由於所有組織都已上線至Adobe Admin Console，因此使用者會透過Adobe Admin Console新增。
 >
->如需根據貴組織是否已加入Adobe Admin Console而有所差異的程式清單，請參閱[Adobe Workfront與Adobe商務平台之間的管理差異](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
+>如需相關資訊與指示，請參閱在Adobe Admin Console中管理使用者一文中的[使用Adobe Admin Console在Workfront中建立使用者](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
 
-身為Adobe Workfront管理員，您可以使用電子郵件邀請將使用者新增至Workfront，並通知他們已新增。
+<!--
 
-電子郵件邀請可讓新使用者追蹤連結，以便選擇Workfront帳戶的密碼。 接著，他們就可以完成帳戶的設定。
+As an Adobe Workfront administrator, you can add users to Workfront and notify them that they have been added, by using email invitations.
 
-為確保新帳戶的安全性，我們建議您為新使用者使用電子郵件邀請，以便他們可以選擇自己的密碼。 或者，您也可以在建立新使用者的帳戶時，為其選取密碼。 如需新增使用者至Workfront的詳細資訊，請參閱[新增使用者](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)。
+The email invitation allows new users to follow a link where they can choose a password for their Workfront account. They can then finish setting up their account.
 
-您可以為新使用者設定電子郵件：
+To ensure the security of the new accounts, we recommend that you use email invitations for your new users, so they can choose their own password. Alternatively, you can also select a password for a new user when creating their account. For more information about adding new users to Workfront, see [Add users](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
-* 任何新增到Workfront的使用者
-* 使用請求者授權新增至Workfront的使用者
+You can configure the new user emails for:
 
-傳送電子郵件邀請時，所有新使用者都會看到相同的電子郵件。
+* Any new user added to Workfront
+* Users added to Workfront with a Requestor license
 
-如需接收電子郵件邀請的詳細資訊，請參閱[接收電子郵件邀請並建立Adobe Workfront的密碼](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)。
+All new users see the same email when an email invitation is sent.
 
-## 存取權要求
+For information about receiving email invitations, see [Receive email invitations and create a password for Adobe Workfront](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md).
 
-+++ 展開以檢視這篇文章中所述功能的存取權要求。
+## Access requirements
 
-您必須具有下列存取權才能執行本文中的步驟：
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 封裝</td> 
-   <td>任何</td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td>
-   <p>標準</p>
-   <p>規劃</p></td> 
+   <p>Standard</p>
+   <p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
-   <td> <p>系統管理員</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>System administrator</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## 重新傳送電子郵件邀請給現有的未註冊使用者
+## Resend email invitations to existing unregistered users
 
-在下列情況下會產生電子郵件邀請：
+Email invitations are generated in the following scenarios:
 
-* 當您建立新使用者，並在&#x200B;**新增使用者**&#x200B;表單上選取&#x200B;**傳送邀請電子郵件給此人**&#x200B;時。 如需有關建立新使用者的詳細資訊，請參閱[新增使用者](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)。
-* 當您匯入多個新使用者，並選取&#x200B;**傳送邀請電子郵件給這些人員**&#x200B;選項時。 如需有關匯入多個新使用者的詳細資訊，請參閱[匯入使用者](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md)。
-* 建立使用者後，您可以手動向尚未在Workfront註冊帳戶且尚未建立Workfront密碼的使用者產生邀請。\
-  已建立帳戶但尚未註冊帳戶的使用者，在Workfront中會標示為&#x200B;**已取消註冊**。
+* When you create a new user and you select the **Send an invite email to this person** on the **New User** form. For more information about creating new users, see [Add users](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+* When you import multiple new users and you select the **Send invite emails to these people** option. For more information about importing several new users, see [Import users](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
+* After the users are created, you can manually generate the invitations to users who have not yet registered their account with Workfront, and they have not established a Workfront password.  
+  Users who have an account created but have not yet registered their account are marked as **Unregistered** in Workfront.
 
   >[!NOTE]
   >
-  >如果您在建立使用者時取消選取&#x200B;**傳送電子郵件邀請給此人**&#x200B;方塊，則無法手動產生電子郵件邀請。 只有已在其帳戶建立時傳送原始電子郵件邀請的使用者，才能手動重新傳送電子郵件邀請。 如需有關建立新使用者的詳細資訊，請參閱[新增使用者](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)。
+  >If you deselect the **Send an email invite to this person** box when you create the user, the email invitation cannot be generated manually. Resending the email invitations manually is only possible for users who have been sent the original email invitation when their account was created. For more information about creating new users, see [Add users](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
-若要手動將電子郵件邀請重新傳送給現有的未註冊使用者：
+To manually resend email invitations to existing unregistered users:
 
-{{step-1-to-users}}
+{{step-1-to-users}} 
 
-1. 選取在其名稱后面顯示&#x200B;**已取消註冊**&#x200B;標籤的使用者。
+1. Select the user who shows the **Unregistered** label after their name.
 
-   ![已取消註冊](assets/unreg-user-qs-350x221.png)
+   ![Unregistered](assets/unreg-user-qs-350x221.png)
 
-1. 按一下「更多」圖示![「更多」圖示](assets/more-icon.png)，然後按一下&#x200B;**「提醒使用者註冊」**。
+1. Click the More icon ![More icon](assets/more-icon.png), then click **Remind user to register**.
 
-   系統會傳送電子郵件邀請給新使用者，其中包含可用來建立其Workfront密碼的新連結。
+   An email invitation is sent to the new user with a new link they can use to create their Workfront password.
 
    >[!NOTE]
    >
-   >如果您的組織已加入Admin Console，而您透過Workfront新增使用者，則無法選擇傳送電子郵件邀請給新使用者。
+   >If your organization has been onboarded to the Admin Console and you add a user through Workfront, you do not have the option to send an email invitation to new users.
    >
-   >新的Adobe使用者會新增至Admin Console，而Admin Console會傳送電子郵件邀請他們完成註冊程式。 所有使用者都必須完成註冊程式，才能存取任何Adobe系統。
+   >New Adobe users are added to the Admin Console, and the Admin Console delivers an email to invite them to complete the registration process. All users must complete the registration process to access any Adobe system.
    >
-   >對於現有的Adobe使用者，使用者可能會收到也可能不會收到有關Workfront可用性的電子郵件。 這是由Adobe管理員控制的產品偏好設定。
+   >For existing Adobe users, the user may or may not receive an email about Workfront being available. This is a preference controlled by the Adobe administrator for the product.
 
-## 設定電子郵件邀請 {#configure-email-invitations}
+## Configure email invitations {#configure-email-invitations}
 
-身為Workfront管理員，您可以設定新使用者的電子郵件邀請所包含的訊息。
+As a Workfront administrator, you can configure the message you include with the email invitations for new users.
 
 {{step-1-to-setup}}
 
-1. 在左邊的清單中，按一下&#x200B;**電子郵件** > **邀請**。
+1. In the list on the left, click **Email** > **Invitations**.
 
-1. 在&#x200B;**一般選項**&#x200B;區段中，進行下列任何修改：
+1. In the **General Options** section, make any of the following modifications:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>在……天后停用邀請連結</strong> </td> 
-      <td> <p>選擇電子郵件邀請不再包含Workfront有效連結的時間長度。 預設天數是45。</p> </td> 
+      <td role="rowheader"><strong>Deactivate invitation links after ... days</strong> </td> 
+      <td> <p>Choose the amount of time after which the email invitations no longer contain a valid link to Workfront. The default amount of days is 45.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>包含訊息和/或服務條款</strong> </td> 
-      <td> <p>如果您想要修改所有新增至Workfront之新使用者的電子郵件邀請，請選取此選項。 這不包括擁有請求者授權的使用者。</p> 
+      <td role="rowheader"><strong>Include a message and/ or term of service</strong> </td> 
+      <td> <p>Select this option if you want to modify the email invitation for all new users added to Workfront. This does not include users with a Requestor license.</p> 
        <ul> 
-        <li><strong>訊息</strong>：如果您選擇修改所有新使用者的電子郵件邀請，請指定您要在電子郵件邀請中包含的文字做為電子郵件內文。</li> 
-        <li><strong>條款與條件</strong>：如果您選擇修改所有新使用者的電子郵件邀請，請指定要包含在電子郵件邀請中的文字做為條款與條件。<br></li> 
-        <li><strong>包括訊息和/或服務條件給服務檯使用者</strong>：如果您要修改新增到Workfront且擁有要求者授權的所有新使用者的電子郵件邀請，請選取此選項。</li> 
-        <li><strong>訊息</strong>：如果您選擇修改所有具有要求者授權的新使用者的電子郵件邀請，請指定您要在電子郵件邀請中包含的文字做為電子郵件內文。</li> 
-        <li><strong>條款與條件</strong>：如果您選擇修改所有具有要求者授權的新使用者的電子郵件邀請，請指定您要加入電子郵件邀請的文字做為條款與條件。<br></li> 
-        <li> <p>在<strong>邀請預覽</strong>區段中，您可以看到電子郵件邀請的預覽。 如果您選取在電子郵件邀請中包含自訂訊息，則自訂訊息會顯示在此區域中。</p> <p> <img src="assets/email-invitation-for-all-users-preview-qs-350x190.png" style="width: 350;height: 190;"> </p> </li> 
+        <li><strong>Message</strong>: If you select to modify the email invitation for all new users, specify the text that you want to include in your email invitations as the email body.</li> 
+        <li><strong>Terms and Conditions</strong>: If you select to modify the email invitation for all new users, specify the text that you want to include in your email invitations as the terms and conditions.<br></li> 
+        <li><strong>Include a message and/or term of service for helpdesk users</strong>: Select this option if you want to modify the email invitation for all new users added to Workfront that have a Requestor license.</li> 
+        <li><strong>Message</strong>: If you select to modify the email invitation for all new users with a Requestor license, specify the text that you want to include in your email invitations as the email body.</li> 
+        <li><strong>Terms and Conditions</strong>: If you select to modify the email invitation for all new users with a Requestor license, specify the text that you want to include in your email invitations as the terms and conditions.<br></li> 
+        <li> <p>In the <strong>Invitation Preview</strong> section, you can see a preview of your email invitation. If you selected to include a customized message in your email invitation, the customized message shows in this area.</p> <p> <img src="assets/email-invitation-for-all-users-preview-qs-350x190.png" style="width: 350;height: 190;"> </p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 按一下「**儲存**」。
+1. Click **Save**.
+-->
+

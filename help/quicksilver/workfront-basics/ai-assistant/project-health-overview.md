@@ -22,9 +22,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
-source-wordcount: '2104'
+source-wordcount: '2092'
 ht-degree: 2%
 ---
 # 專案健康情況概觀
@@ -93,9 +93,6 @@ AI助理可以產生下列物件的專案健康情況評估：
 
 若要為貴組織啟用AI助理和專案健康狀態，必須套用下列所有專案：
 
-<!--Remove me October 2026-->
-
-* 貴組織必須已移轉至Adobe Identity Management系統(IMS)。
 * 您的組織必須有Workfront或Workflow Select、Prime或Ultimate套件。
 * 必須啟用Adobe Unified Experience。
 * Adobe必須有已簽署的Adobe Gen AI合約檔案。

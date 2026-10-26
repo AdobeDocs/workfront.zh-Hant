@@ -32,16 +32,16 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1465'
 ht-degree: 6%
 ---
 # 設定防火牆的允許清單
 
 <!-- Audited: 12/2023 -->
 
-<!--Follow up October 2026-->
+<!--Follow up January 2027-->
 
 >[!IMPORTANT]
 >
@@ -406,12 +406,7 @@ jira.workfront.com網域也必須可從您的公司伺服器存取。 此網域�
 
 針對Workfront Fusion，新增下列網域：
 
-<!--Remove me October 2026-->
-
-* 對於不在Adobe Unified Experience上的組織：
-  * app.workfrontfusion.com （美國AWS）
-  * app-eu.workfrontfusion.com （歐盟AWS）
-  * app-az.workfrontfusion.com （美國Azure）
+<!--Remove me January 2027-->
 
 * 適用於Adobe Unified Experience上的組織
 （`*.adobe.com`涵蓋這些網域，但可視需要新增。）
@@ -419,6 +414,14 @@ jira.workfront.com網域也必須可從您的公司伺服器存取。 此網域�
   * fusion.adobe.com
   * app-eu.fusion.adobe.com
   * app-az.fusion.adobe.com
+
+  >[!NOTE]
+  >
+  >由於所有組織現在都使用Adobe Unified Experience，因此不再需要下列網域。
+  >
+  >* app.workfrontfusion.com （美國AWS）
+  >* app-eu.workfrontfusion.com （歐盟AWS）
+  >* app-az.workfrontfusion.com （美國Azure）
 
 
 

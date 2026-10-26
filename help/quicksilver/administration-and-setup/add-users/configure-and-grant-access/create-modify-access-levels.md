@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 715971cb207849034d77b26fabf3253283ae659f
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1583'
 ht-degree: 8%
 ---
 # 建立和修改自訂存取層級
@@ -265,7 +265,8 @@ ht-degree: 8%
 
    如需詳細資訊，請參閱[編輯使用者的設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。
 
-   如需Adobe管理員如何指派系統管理員存取層級給使用者的詳細資訊，請參閱[授予使用者完整管理存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)。
+   如需Adobe管理員如何指派系統管理員存取層級給使用者的詳細資訊，請參閱[使用Adobe Admin Console在Workfront中建立系統管理員](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console)小節。 在「在Adobe Admin Console中管理使用者」一文中。
+
 
 <!--
 

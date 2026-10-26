@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: aabc2873072fadbdaedb003fa3bc11b66626e570
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 4%
@@ -87,7 +87,7 @@ ht-degree: 4%
    「客戶資訊」區域中提供的區段包括：
 
    | 區域 | 更多資訊 |
-   |---------|-----------------|
+   | --------- | ----------------- |
    | **基本資訊** | 如需有關在Workfront中設定基本資訊的資訊，請參閱[設定基本資訊](#configure-basic-info)。 |
    | **儲存概述** | 如需有關檢查檔案儲存使用量和配額的資訊，請參閱[檢查檔案儲存限制](../../documents/managing-documents/check-document-storage.md)。 |
    | **API金鑰設定** | 如需API金鑰設定的相關資訊，請參閱[管理API金鑰](../../administration-and-setup/manage-workfront/security/manage-api-keys.md)。 |

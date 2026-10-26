@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 1dc0bdb90242129fc2097f029440efbcbd04b62c
+source-git-commit: 715971cb207849034d77b26fabf3253283ae659f
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '936'
 ht-degree: 3%
 ---
 # 授予使用者存取許可權
@@ -63,7 +63,7 @@ ht-degree: 3%
 
 * Workfront管理員。
 
-  如需詳細資訊，請參閱[授予使用者完整管理存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)。
+  Workfront管理員需在Adobe Admin Console中設定。 如需指示，請參閱[使用Adobe Admin Console在Workfront中建立系統管理員](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console)一節。 在「在Adobe Admin Console中管理使用者」一文中。
 
 * 具有預設Standard或Plan授權的使用者，也可以存取使用者，如本文所述。
 
