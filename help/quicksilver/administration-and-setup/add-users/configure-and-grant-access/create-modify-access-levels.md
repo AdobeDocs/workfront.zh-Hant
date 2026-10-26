@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 715971cb207849034d77b26fabf3253283ae659f
+source-git-commit: e1ed15278689476313ad690a00803022d413418b
 workflow-type: tm+mt
-source-wordcount: '1583'
+source-wordcount: '1584'
 ht-degree: 8%
 ---
 # 建立和修改自訂存取層級

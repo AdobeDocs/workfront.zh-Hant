@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e1ed15278689476313ad690a00803022d413418b
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1246'
 ht-degree: 5%
 ---
 # 新增使用者
@@ -42,8 +42,6 @@ ht-degree: 5%
 >   如需在Adobe Admin Console中建立系統管理員的指示，請參閱[在Adobe Admin Console中管理使用者](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
 >
 >   已加入Adobe Admin Console的組織中，群組管理員可使用此程式來建立使用者並提交使用者以供管理員核准。
->
->   如需根據貴組織是否已加入Adobe Admin Console而有所差異的程式清單，請參閱[Adobe Workfront與Adobe商務平台之間的管理差異](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
 >
 >* **如果您的組織使用單一登入(SSO)**，建議您在Adobe Admin Console中建立使用者並將其指派給Workfront。 您可以在Workfront中建立這些使用者，但根據您組織的Admin Console設定方式，將該資訊傳輸至Adobe Admin Console時可能會發生問題。
 >   在Adobe Admin Console中建立使用者後，您可以在Workfront中設定使用者的資訊，例如指派角色、群組、團隊和存取層級。

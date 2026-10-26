@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: ea37064458010280997e3fda3136fa431d2759e2
+source-git-commit: e1ed15278689476313ad690a00803022d413418b
 workflow-type: tm+mt
-source-wordcount: '2357'
+source-wordcount: '2407'
 ht-degree: 0%
 ---
 
@@ -199,10 +199,15 @@ ChatGPT支援使用者建立的助理，稱為自訂GPT。 您可以使用自訂
 
 +++ 展開以檢視將Workfront連線至Copilot的逐步指示。
 
+* [使用Copilot Studio連線Workfront至Copilot](#connect-workfront-to-copilot-with-copilot-studio)
+* [將Workfront連線至GitHub Copilot](#connect-workfront-to-github-copilot)
+
+### 使用Copilot Studio連線Workfront至Copilot
+
 若要建置Workfront MCP可連線的自訂Copilot代理程式，請使用Copilot Studio。
 
 1. 在Copilot Studio中，按一下&#x200B;**建立空白代理程式**。
-1. 為代理程式命名，然後按一下[建立]。**&#x200B;**
+1. 為代理程式命名，然後按一下[建立]。****
 代理程式的視窗會開啟。
 
 1. 在&#x200B;**指示**&#x200B;欄位中，說明您希望代理程式執行的動作。 包含您的流程以及如何使用Workfront等資訊。 建議您提供大量詳細資訊。
@@ -220,15 +225,23 @@ ChatGPT支援使用者建立的助理，稱為自訂GPT。 您可以使用自訂
 
    應用程式已註冊。
 
-1. 應用程式註冊後，在顯示的面板中，按一下[未連線] **，然後按一下[建立新連線]**，再按一下[建立] **&#x200B;**。**&#x200B;**
+1. 應用程式註冊後，在顯示的面板中，按一下[未連線] **，然後按一下[建立新連線]**，再按一下[建立] ****。****
 1. 若要設定連線，請按一下&#x200B;**未連線**、**建立新連線**、**建立**。
-1. 在出現的登入面板中，登入Workfront，選取您要使用的執行個體（如果您有權存取多個執行個體），然後按一下[繼續]。**&#x200B;**
+1. 在出現的登入面板中，登入Workfront，選取您要使用的執行個體（如果您有權存取多個執行個體），然後按一下[繼續]。****
 1. 在顯示伺服器的面板中，按一下[新增]並設定&#x200B;**。**
 
    您現在可以開始使用和設定MCP伺服器的工具。
 1. 設定並測試工具時，按一下&#x200B;**發佈**。
 
    您可能沒有發佈許可權。 如果是這種情況，請聯絡您的Copilot管理員。
+
+### 將Workfront連線至GitHub Copilot
+
+1. 在GitHub Copilot中，移至&#x200B;**自訂**。
+1. 按一下&#x200B;**新增** > **MCP伺服器**。
+1. 將名稱設為「Workfront」之類的專案。
+1. 將&#x200B;**伺服器型別**&#x200B;設定為`HTTP`。
+1. 將URL設定為`https://mcp.workfront.adobe.com/mcp/v1/workfront`。
 
 +++
 
