@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 18e1d35b98b8c1afc6f9c1b14dba73d160b7e420
+source-git-commit: 3c6235a01af5a18a6ab4b2b80bbdea2c447009aa
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 5%
+source-wordcount: '641'
+ht-degree: 4%
 ---
 
 # 2027年第一季度發行概觀
@@ -67,6 +67,23 @@ ht-degree: 5%
 * 校樣
 * 目標
 
+## 案頭校訂檢視器更新
+
+### 版本2.3.0
+
+>[!NOTE]
+>
+>預覽： 2026年10月27日
+>所有客戶的生產版本： 2026年10月28日
+
+案頭校訂檢視器已更新至2.3.0版。 此更新包含下列變更：
+
+* 解決互動式校樣的問題，該問題導致移動多個版本時按一下熒幕擷取畫面下方的連結會在多個索引標籤中開啟頁面。 連結現在會在單一標籤中開啟頁面。
+
+* 將基礎架構(Electron)更新至最新版本，該版本會在Chrome版本156上執行，以提升效能和安全性。
+
+如需有關下載和更新案頭校訂檢視器的資訊，請參閱[更新案頭校訂檢視器](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer)。
+
 ## 公告
 
 ### 棄用工作角色清單檢視中的舊版帳單和成本費率欄位
@@ -77,14 +94,14 @@ ht-degree: 5%
 
 作為報表中的替代專案，您可以使用建議的文字模式代碼（視需要使用`costRates`或`billingRates`）：
 
-    &grave;&grave;
+    ``
     displayname=Test
     listdelimiter=&lt;br>
     listmethod=nested(costRates)。lists
     type=iterate
     valueexpression=CONCAT({startDate}，&quot; - &quot;，{endDate}，&quot;： &quot;，{value})
     valueformat=HTML
-    &grave;&grave;
+    ``
 
 若要管理和檢閱工作角色費率，請使用專用的費率管理體驗：
 
@@ -99,10 +116,10 @@ ht-degree: 5%
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hant).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
 ### 訓練更新
 
-探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hant)的「新增功能」一節。
+探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的「新增功能」一節。
