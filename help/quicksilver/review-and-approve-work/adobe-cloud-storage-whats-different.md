@@ -6,7 +6,7 @@ description: 瞭解Adobe雲端儲存體物件的主要差異，包括新的檔�
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: c6f385adb378adaa8aa8110373573315f89f2ed8
+source-git-commit: 2b5d95ed0a5c72062700bf026a18b8301e4be421
 workflow-type: tm+mt
 source-wordcount: '1702'
 ht-degree: 0%
@@ -120,6 +120,12 @@ Adobe雲端儲存空間會強制實施嚴格的命名和結構規則，以保持
 ## 物件可攜性
 
 在大多數案例中，您只能在類似儲存模式之間移動、複製和轉換Workfront物件。 例如，您可以將任務從一個Adobe雲端儲存空間專案移動至另一個Adobe雲端儲存空間專案。 您可以在三種特定情況下，將舊版Workfront儲存體物件轉換成Adobe雲端儲存體。
+
+<!--
+During a group-scoped rollout, only members of the group that has Adobe cloud storage can convert an Adobe cloud storage object, such as a request, into a project. Users outside the group, including Workfront administrators, see the error "User is not eligible for this operation."
+
+For more information, see [Plan your Adobe cloud storage rollout](/help/quicksilver/review-and-approve-work/plan-adobe-cloud-storage-rollout.md).
+-->
 
 如需詳細資訊，請參閱[將舊物件轉換成Adobe雲端儲存空間](/help/quicksilver/review-and-approve-work/convert-objects-to-adobe-cloud-storage.md)。
 
