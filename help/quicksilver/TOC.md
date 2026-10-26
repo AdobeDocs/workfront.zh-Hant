@@ -3,7 +3,7 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: f56dd9bec282768b8cda59a39bca502c1a796070
 workflow-type: tm+mt
 source-wordcount: '14725'
 ht-degree: 2%
@@ -599,14 +599,14 @@ ht-degree: 2%
       * [授予Workfront目標的存取權](administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
       * [授予品牌許可權的存取權](administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md)
     * Workfront中的單一登入 {#sso}
-      * [單一登入：文章索引](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
-      * [單一登入概觀](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
-      * [更新單一登入的使用者](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
-      * [使用SAML 2.0設定Workfront](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
-      * [更新身分提供者中的SAML 2.0中繼資料](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
-      * [使用ADFS以SAML 2.0設定Adobe Workfront](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
-      * [啟用Outlook for Workfront和SAML 2.0](administration-and-setup/add-users/single-sign-on/enable-outlook-for-use-w-wf-and-saml-2.md)
-      * [停用單一登入](administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
+      * {hide-from-toc}[單一登入：文章索引](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
+      * {hide-from-toc}[單一登入概觀](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
+      * {hide-from-toc}[更新單一登入的使用者](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
+      * {hide-from-toc}[使用SAML 2.0設定Workfront](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
+      * {hide-from-toc}[更新身分提供者中的SAML 2.0中繼資料](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
+      * {hide-from-toc}[使用ADFS設定Adobe Workfront的SAML 2.0](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
+      * {hide-from-toc}[啟用Outlook for Workfront和SAML 2.0](administration-and-setup/add-users/single-sign-on/enable-outlook-for-use-w-wf-and-saml-2.md)
+      * {hide-from-toc}[停用單一登入](administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
     * 建立及管理團隊 {#create-manage-teams}
       * [管理團隊](administration-and-setup/add-users/create-and-manage-teams/create-and-manage-teams.md)
       * [建立團隊](administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)
@@ -743,7 +743,7 @@ ht-degree: 2%
       * [管理 API 金鑰](administration-and-setup/manage-workfront/security/manage-api-keys.md)
       * [隱私權原則](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
       * {hide-from-toc}[增強式驗證概觀](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
-      * {hide-from-toc}[使用增強式驗證時更新IDP中的SAML 2.0中繼資料](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
+      * 使用增強式驗證時{hide-from-toc}[更新IDP中的SAML 2.0中繼資料](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
     * 匯率 {#exchange-rates}
       * [匯率](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
       * [設定匯率](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
@@ -859,9 +859,9 @@ ht-degree: 2%
     * [安裝Blueprint後要採取的動作](administration-and-setup/blueprints/best-next-actions-after-install.md)
     * [可用藍圖清單](administration-and-setup/blueprints/list-of-available-blueprints.md)
   * Adobe Admin Console中的管理 {#admin-in-admin-console}
-    * [Adobe Admin Console中的Workfront管理](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
-    * [準備Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
-    * [瞭解Workfront移轉至Adobe Admin Console](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
+    * Adobe Admin Console中的{hide-from-toc}[Workfront管理](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
+    * {hide-from-toc}[準備Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
+    * {hide-from-toc}[瞭解Workfront移轉至Adobe Admin Console](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
   * 管理和設定的秘訣、技巧和疑難排解 {#admin-setup-tips}
     * [秘訣、技巧和疑難排解](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
     * [群組管理員的存取權必須高於其管理的群組](administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
@@ -1222,7 +1222,7 @@ ht-degree: 2%
     * [刪除文件](documents/managing-documents/delete-documents.md)
     * [從剪貼簿貼上影像](documents/managing-documents/paste-image-clipboard.md)
     * [大量編輯檔案](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)
-    * {hide-from-toc}[Workfront檔案詳細資訊中的AddBuilder](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
+    * {hide-from-toc}[Workfront檔案詳細資訊](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)中的AddBuilder
   * 組織檔案 {#organize-documents}
     * [組織檔案](documents/organizing-documents/organize-documents.md)
     * [建立檔案資料夾](documents/organizing-documents/create-documents-folder.md)
@@ -2685,10 +2685,10 @@ ht-degree: 2%
     * [使用JWT流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-jwt-flow.md)
     * [使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-pkce-flow.md)
     * [棄用API — 內部](wf-api/api/deprecation-api-internal.md)
-    * [&#x200B; API 22版的新增功能](/help/quicksilver/wf-api/api/new-api-version-22.md)
-    * [&#x200B; API 21版的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-    * [&#x200B; API 20版的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-    * [&#x200B; API 19版的新增功能](wf-api/api/new-api-version-19.md)
+    * [ API 22](/help/quicksilver/wf-api/api/new-api-version-22.md)版的新增功能
+    * [ API 21](/help/quicksilver/wf-api/api/new-api-version-21.md)版的新增功能
+    * [ API 20](/help/quicksilver/wf-api/api/new-api-version-20.md)版的新增功能
+    * [ API 19](wf-api/api/new-api-version-19.md)版的新增功能
     * [API 18版的新增功能](wf-api/api/new-api-version-18.md)
     * [API 17版的新增功能](wf-api/api/new-api-version-17.md)
     * [API 16版的新增功能](wf-api/api/new-api-version-16.md)

@@ -31,87 +31,91 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8df24bd60107f3cad2335cebf80e1fbe1e40f68c
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 1%
+source-wordcount: '73'
+ht-degree: 0%
 ---
 # 準備將您的組織加入Adobe Admin Console
 
 <!-- Audited: 12/2023 -->
 
-<!--Remove me October 2026-->
+<!--Remove me January 2027-->
 
 >[!IMPORTANT]
 >
->由於所有組織現已移至Adobe Admin Console，因此本文將於近期移除。
+>由於所有組織現已移至Adobe Admin Console，因此本文已移除。
 
-由於Adobe Workfront是Adobe產品，因此您可以透過Adobe Admin Console存取。 這可讓您集中管理Workfront，以及使用者的其他Adobe帳戶和產品。
+<!--
 
-所有Workfront客戶很快就會移至Adobe Admin Console。 您的組織移至Adobe Admin Console後，Workfront驗證會由主控台管理。 為這項工作做好準備，並加快進度，為工作管理效率奠定基礎，並為貴組織未來更快創新做好準備
+Because Adobe Workfront is an Adobe product, you can access it through the Adobe Admin Console. This enables you to manage Workfront along with other Adobe accounts and products for your users in a central place.
 
-如需Adobe Admin Console的概觀，請參閱[Admin Console概觀](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。
+All Workfront customers will soon be moved to the Adobe Admin Console. After your organization moves to the Adobe Admin Console, Workfront authentication is managed by the Console. Preparing and making this move sooner lays the groundwork for efficiency in work management and positions your organization for faster innovation in the future 
 
-## 移轉檢查清單
+For an overview of the Adobe Admin Console, see [Admin Console Overview](https://helpx.adobe.com/enterprise/using/admin-console.html).
 
-為確保您的組織可移轉至Adobe Admin Console，您必須執行下列動作。
+## Migration checklist
 
-1. 識別您要在其中新增Workfront的所需Adobe Admin Console。
+To ensure that your organization can migrate to the Adobe Admin Console, you must perform the following actions.
 
-   * 如果貴組織沒有現有的Adobe Admin Console，或您不想使用現有的Adobe Admin Console，Workfront支援可協助您建立新架構。
+1. Identify the desired Adobe Admin Console where you would like to add Workfront.
+    
+   * If your organization does not have an existing Adobe Admin Console, or if you do not want to use an existing Adobe Admin Console, Workfront Support can assist you in creating a new one.
+        
+   * If you have multiple Adobe Admin Consoles and you are unsure which one is most appropriate to add Workfront to, contact Workfront Support.
 
-   * 如果您有多個Adobe Admin Console，而且您不確定哪一個最適合新增Workfront，請聯絡Workfront支援。
-
-1. 向Workfront支援確認您要使用現有的Adobe Admin Console，或建立一個新的系統。
-
-1. 在Adobe Admin Console上設定身分管理。
-
+1. Confirm with Workfront Support that you want to use an existing Adobe Admin Console, or have a new one created.
+    
+1. Set up identity management on the Adobe Admin Console.
+    
    >[!IMPORTANT]
    >
-   >請準備好與Workfront支援和您的IT團隊討論驗證偏好設定，例如單一登入(SSO)或非SSO。
+   >Be prepared to speak with Workfront Support and your IT team regarding authentication preferences such as Single Sign-on (SSO) or non-SSO.
+    
+   For instructions, see the Identity Management section of the [Deployment Guide for the Adobe Admin Console](https://helpx.adobe.com/enterprise/using/deployment-planning.html).
 
-   如需指示，請參閱[Adobe Admin Console部署指南](https://helpx.adobe.com/tw/enterprise/using/deployment-planning.html)的Identity Management一節。
+1. (Conditional) If using Single Sign-on, connect the new Adobe Admin Console to your existing SSO provider.
 
-1. （視條件而定）如果使用單一登入，請將新的Adobe Admin Console連線至您現有的SSO提供者。
-
-   如需詳細資訊與指示，請參閱[設定身分](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html)。
+   For more information and instructions, see [Set up identity](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
 
    >[!NOTE]
    >
-   >如果您的組織未使用單一登入，則任何移轉至Adobe Admin Console的使用者都會收到電子郵件，要求建立其帳戶和密碼。
+   >If your organization does not use Single Sign-on, any users migrated to the Adobe Admin Console will receive an email to create their account and password.
 
-1. 確保使用者電子郵件地址準備好進行移轉：
-
-   1. 從Workfront移除重複的電子郵件。
-
-      如需指示，請參閱[防止重複使用者](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md)中的[更新Workfront執行個體中現有使用者的電子郵件地址](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md#update-email-addresses-of-existing-users-in-your-workfront-instance)。
-
-      如果您的組織中有重複的電子郵件地址，則以電子郵件地址表示並具有最近`lastLoginDate`的使用者將會移至Adobe Admin Console組織。 將停用使用該電子郵件地址的任何其他使用者。
-
+1. Ensure that user email addresses are ready for migration:
+    
+   1. Remove duplicate emails from Workfront.
+        
+      For instructions, see [Update email addresses of existing users in your Workfront instance](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md#update-email-addresses-of-existing-users-in-your-workfront-instance) in [Prevent duplicate users](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md).
+        
+      If there are duplicate email address in your organization, the user represented by the email address with the most recent `lastLoginDate` will be moved to the Adobe Admin Console organization. Any other users with that email address will be deactivated.
+        
       >[!NOTE]
       >
-      >由於在指定時間只能有一個具有指定電子郵件地址的使用者處於作用中狀態，因此如果您需要啟用另一個與目前作用中使用者具有相同電子郵件地址的使用者，則必須先停用目前作用中的使用者，才能啟用該已停用的使用者。
-
-   1. （視條件而定）如果您正在利用自訂API整合，請確認這些使用者擁有可以存取的有效電子郵件地址。
-
-   1. （選用）我們建議停用不再需要存取Workfront的任何使用者，因此不會將他們新增至Adobe Admin Console。
-
+      >Because only one user with a given email address can be active at a given time, if you need to activate another user with the same email address as a currently active user, you must first deactivate the currently active user before activating the deactivated user.
+        
+   1. (Conditional) If you are utilizing custom API integrations, confirm those users have a valid email address that they can access.
+        
+   1. (Optional) We recommend deactivating any users who no longer need access to Workfront, so they are not added to the Adobe Admin Console.
+    
    >[!IMPORTANT]
    >
-   >有關使用者電子郵件的這些動作必須在您的組織開始移至Adobe Admin Console之前完成。
+   >These actions regarding user emails must be complete before your organization begins moving to the Adobe Admin Console.
+    
+1. (Optional) Update all custom integrations to use Adobe Developer Console authentication.
 
-1. （選用）更新所有自訂整合以使用Adobe Developer Console驗證。
+    For information about migrating legacy Workfront OAuth2 integrations, see [Migrate from Workfront OAuth2 to Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
 
-   如需有關移轉舊版Workfront OAuth2整合的資訊，請參閱[從Workfront OAuth2移轉至Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md)。
+    For authentication guidance, see [Adobe Developer Console authentication overview](https://developer.adobe.com/developer-console/docs/guides/authentication/).
 
-   如需驗證指南，請參閱[Adobe Developer Console驗證概觀](https://developer.adobe.com/developer-console/docs/guides/authentication/)。
+    >[!NOTE]
+    >
+    >This step is optional, but highly recommended. Workfront custom OAuth2 applications can no longer be created after November 1, 2026, and existing custom OAuth2 applications stop working on February 1, 2027. 
 
-   >[!NOTE]
-   >
-   >此步驟為選用，但強烈建議使用。 Workfront自訂OAuth2應用程式在2026年11月1日之後無法再建立，且現有的自訂OAuth2應用程式在2027年2月1日停止運作。
+After your Adobe Admin Console is configured with Workfront, you can use it to create your Workfront system administrators.
 
-使用Workfront設定Adobe Admin Console後，您就可以用它來建立Workfront系統管理員。
+For more information, see [Manage users in the Adobe Admin Console](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
-如需詳細資訊，請參閱[在Adobe Admin Console中管理使用者](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)。
+For a list of other actions that are different based on whether your organization has been onboarded to the Adobe Admin Console, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-如需根據貴組織是否已加入Adobe Admin Console而有所不同的其他動作清單，請參閱[Adobe Workfront與Adobe商務平台之間的管理差異](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
+-->

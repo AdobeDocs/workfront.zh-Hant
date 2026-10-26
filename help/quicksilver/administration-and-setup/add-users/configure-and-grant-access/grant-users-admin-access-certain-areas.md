@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
+source-git-commit: 715971cb207849034d77b26fabf3253283ae659f
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 5%
+source-wordcount: '751'
+ht-degree: 4%
 ---
 # 授予使用者管理特定區域的存取權
 
@@ -40,7 +40,8 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->這與授與使用者Workfront的完整管理存取權（在[授與使用者完整管理存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)中說明）不同&#x200B;。
+>這不同於給予使用者Workfront的完整管理存取權。 透過Adobe Admin Console授與使用者管理員存取權。 如需在Adobe Admin Console中授與完整管理員存取權的指示，請參閱[使用Adobe Admin Console在Workfront中建立系統管理員](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md#create-system-administrators-in-workfront-with-the-adobe-admin-console)小節。 在「在Adobe Admin Console中管理使用者」一文中。
+
 
 ## 存取權要求
 

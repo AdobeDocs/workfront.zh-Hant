@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
 source-wordcount: '1829'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 >
 >  此外，取得預覽沙箱不需要的自訂重新整理沙箱會另外產生成本。
 >
->  如需有關預覽沙箱的詳細資訊，請參閱[預覽沙箱環境 [!DNL Adobe Workfront] &#x200B;](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。
+>  如需有關預覽沙箱的詳細資訊，請參閱[預覽沙箱環境 [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。
 
 ## 存取權要求
 
@@ -220,7 +220,7 @@ Adobe雲端儲存空間可在自訂重新整理沙箱中使用，因此您可以
 
 <!--
 
-Remove me October 2026
+Remove me January 2026
 
 ## Configure Single Sign-On in the Custom Refresh Sandbox
 

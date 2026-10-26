@@ -23,50 +23,58 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e7123179a59cd7ed9c76f4718b3b8019854cbfe1
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 17%
+source-wordcount: '42'
+ht-degree: 0%
 ---
 # 在Adobe Workfront中停用單一登入
 
+>[!IMPORTANT]
+>
+>由於登入現在透過Adobe IMS （Identity Management系統）處理，因此已移除本文中的資訊。
+
+<!--
+
 {{important-admin-console-onboard}}
 
-在Adobe Workfront中停用單一登入(SSO)後，使用者需要使用其Workfront憑證登入。 這些是使用者最初設定的認證。 （如需變更使用者認證，請參閱[編輯使用者的設定檔](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)。）
+After you deactivate single sign-on (SSO) in Adobe Workfront, users need to log in using their Workfront credentials. These are the credentials the user originally set up. (If you need to change user credentials, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).)
 
 
-## 存取權要求
+## Access requirements
 
-+++ 展開以檢視這篇文章中所述功能的存取權要求。
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 封裝</td> 
-   <td><p>任何</p></td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>標準</p><p>規劃</p></td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard</p><p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是Workfront管理員。</p> </p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## 停用SSO
+## Deactivate SSO
 
 {{step-1-to-setup}}
 
-1. 按一下&#x200B;**系統** > **單一登入(SSO)**。
+1. Click **System** > **Single Sign-On (SSO)**.
 
-1. 捲動至頁面底部，並停用&#x200B;**啟用**&#x200B;選項。
-1. 按一下「**儲存**」。
+1. Scroll to the bottom of the page and disable the **Enable** option.
+1. Click **Save**.
+
+-->

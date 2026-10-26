@@ -26,7 +26,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
 workflow-type: tm+mt
 source-wordcount: '1764'
 ht-degree: 2%
@@ -35,7 +35,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->若要使用此功能，您的組織必須符合使用Workfront AI Assistant的需求。 如需詳細資訊，請參閱[&#x200B; AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
+>若要使用此功能，您的組織必須符合使用Workfront AI Assistant的需求。 如需詳細資訊，請參閱[ AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
 
 AI表單填寫可協助您根據輸入的提示自動填寫請求欄位。 它也可以根據您新增到提示的以下資訊填寫欄位：
 
@@ -84,11 +84,6 @@ AI表單填寫可協助您根據輸入的提示自動填寫請求欄位。 它�
 
 若要使用AI支援的表單填寫功能來使用提示或檔案填寫請求，必須套用下列的&#x200B;**所有**：
 
-<!--
-Remove me October 2026
-* Your organization must have migrated to Adobe IMS (Identity Management System)
-* The Adobe Unified Experience must be enabled
--->
 * 您的組織必須有Select、Prime、Ultimate Workfront或Workflow套件
 * Adobe必須已簽署檔案Adobe Gen AI合約
 

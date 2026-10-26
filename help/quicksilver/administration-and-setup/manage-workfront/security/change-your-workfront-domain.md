@@ -29,59 +29,59 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e7123179a59cd7ed9c76f4718b3b8019854cbfe1
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 11%
+source-wordcount: '76'
+ht-degree: 0%
 ---
 # 變更您的Adobe Workfront網域
 
-<!--Remove me October 2026-->
+<!--Remove me January 2027-->
 
 >[!IMPORTANT]
 >
->本頁所述的程式僅適用於尚未加入Admin Console的組織。 因為所有組織現在都已加入Adobe Admin Console，**無法變更您的Workfront網域**。
->
->如需根據貴組織是否已加入Adobe Admin Console而有所差異的程式清單，請參閱[Adobe Workfront與Adobe商務平台之間的管理差異](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
->
->此文章將在不久的將來移除。
+>本頁所述的程式僅適用於尚未上線至Admin Console的組織。 因為所有組織現在都已加入Adobe Admin Console，**無法變更您的Workfront網域**。
 
-身為Adobe Workfront管理員和授權的Workfront支援聯絡人，您可以向Workfront支援團隊請求協助，以變更貴組織的Workfront網域。
+<!--
 
-## 存取權要求
+As an Adobe Workfront administrator and an authorized Workfront Support contact, you can request help from the Workfront Support team to change your organization's Workfront domain.
 
-+++ 展開以檢視這篇文章中所述功能的存取權要求。
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront 封裝</td> 
-   <td><p>任何</p></td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront授權</td> 
-   <td><p>標準</p><p>規劃</p></td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>Standard</p><p>Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">存取層級設定</td> 
-   <td> <p>您必須是Workfront管理員。</p> </p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## 要求網域變更
+## Request a domain change
 
-1. 開始在Experience League上建立支援票證。
-1. 在&#x200B;**說明**&#x200B;方塊中，加入您想要的新網域，以及您想要新網域上線的時間範圍。
-1. 完成填寫支援案例的方塊，然後按一下&#x200B;**提交**。
+1. Begin creating a support ticket on Experience League.
+1. In the **Description** box, include the new new domain you want, as well as the timeframe when you want the new domain to go live.
+1. Finish filling out the boxes for the support case, then click **Submit**.
 
-您也可以聯絡Workfront支援，取得變更網域的協助。
+You can also call Workfront Support to get help changing your domain.
+
+-->
 
 <!--
 

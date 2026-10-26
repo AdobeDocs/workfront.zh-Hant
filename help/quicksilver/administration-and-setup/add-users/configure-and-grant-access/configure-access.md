@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 715971cb207849034d77b26fabf3253283ae659f
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '201'
 ht-degree: 0%
 ---
 # 設定Adobe Workfront的存取權
@@ -42,7 +42,6 @@ ht-degree: 0%
 本文說明您身為Adobe Workfront管理員，如何透過指派存取層級來授予使用者檢視或編輯物件的存取權。
 
 * [建立或修改自訂存取層級](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
-* [授與使用者完整管理存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)
 * [授與使用者對特定區域的管理存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)
 * [授與專案的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
 * [授與工作的存取權](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)
