@@ -52,7 +52,7 @@ Because Adobe Workfront is an Adobe product, you can access it through the Adobe
 
 All Workfront customers will soon be moved to the Adobe Admin Console. After your organization moves to the Adobe Admin Console, Workfront authentication is managed by the Console. Preparing and making this move sooner lays the groundwork for efficiency in work management and positions your organization for faster innovation in the future 
 
-For an overview of the Adobe Admin Console, see [Admin Console Overview](https://helpx.adobe.com/enterprise/using/admin-console.html).
+For an overview of the Adobe Admin Console, see [Admin Console Overview](https://helpx.adobe.com/tw/enterprise/using/admin-console.html).
 
 ## Migration checklist
 
@@ -72,11 +72,11 @@ To ensure that your organization can migrate to the Adobe Admin Console, you mus
    >
    >Be prepared to speak with Workfront Support and your IT team regarding authentication preferences such as Single Sign-on (SSO) or non-SSO.
     
-   For instructions, see the Identity Management section of the [Deployment Guide for the Adobe Admin Console](https://helpx.adobe.com/enterprise/using/deployment-planning.html).
+   For instructions, see the Identity Management section of the [Deployment Guide for the Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/using/deployment-planning.html).
 
 1. (Conditional) If using Single Sign-on, connect the new Adobe Admin Console to your existing SSO provider.
 
-   For more information and instructions, see [Set up identity](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
+   For more information and instructions, see [Set up identity](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html).
 
    >[!NOTE]
    >

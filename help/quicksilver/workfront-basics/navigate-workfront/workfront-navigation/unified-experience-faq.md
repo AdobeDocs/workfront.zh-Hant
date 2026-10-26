@@ -80,11 +80,11 @@ For information about the [!DNL Admin Console], review these articles:
 
 * [Prepare for the [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
 * [Platform-based administration differences ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
-* [[!DNL Adobe Admin Console] overview](https://helpx.adobe.com/enterprise/using/admin-console.html)
+* [[!DNL Adobe Admin Console] overview](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)
 
 ### What do I as a customer need to do to facilitate the migration?
 
-Existing customers will be contacted to schedule migrations. The migration team support colleagues will walk customers through the process, advise on [!DNL Admin Console] setup, and provide links to documentation needed to make the move as simple and hassle-free as possible. Review the [[!DNL Adobe Business Platform] and [!DNL Admin Console] FAQ](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/workfront/faq) for more information.
+Existing customers will be contacted to schedule migrations. The migration team support colleagues will walk customers through the process, advise on [!DNL Admin Console] setup, and provide links to documentation needed to make the move as simple and hassle-free as possible. Review the [[!DNL Adobe Business Platform] and [!DNL Admin Console] FAQ](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/workfront/faq) for more information.
 
 ### How are you handling [!DNL Adobe Admin Console] for companies that already have this enabled for federated IDs differently than [!DNL Workfront] SSO is set up?
 

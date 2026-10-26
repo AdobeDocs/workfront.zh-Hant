@@ -45,7 +45,7 @@ ht-degree: 0%
 >
 >由於所有組織現已上線至Adobe Admin Console，因此此功能已淘汰。
 >
->如需在Adobe Admin Console上續約SAML憑證的說明，請參閱「SAML回應中的數位簽章未驗證……」一節 在[疑難排解Federated ID](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html)中。
+>如需在Adobe Admin Console上續約SAML憑證的說明，請參閱「SAML回應中的數位簽章未驗證……」一節 在[疑難排解Federated ID](https://helpx.adobe.com/tw/enterprise/kb/tshoot-fed-id.html)中。
 
 <!--
 
