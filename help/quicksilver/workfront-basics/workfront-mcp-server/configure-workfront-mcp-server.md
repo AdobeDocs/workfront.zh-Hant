@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: ea37064458010280997e3fda3136fa431d2759e2
+source-git-commit: 5f19339cde475ed60c77e752af3ab61d55fa9401
 workflow-type: tm+mt
-source-wordcount: '2357'
+source-wordcount: '2423'
 ht-degree: 0%
 ---
 
@@ -197,7 +197,13 @@ ChatGPT支援使用者建立的助理，稱為自訂GPT。 您可以使用自訂
 
 ## 將Workfront連線至Copilot
 
-+++ 展開以檢視將Workfront連線至Copilot的逐步指示。
+
+* [使用Copilot Studio連線Workfront至Copilot](#connect-workfront-to-copilot-with-copilot-studio)
+* [將Workfront連線至GitHub Copilot](#connect-workfront-to-github-copilot)
+
+### 使用Copilot Studio連線Workfront至Copilot
+
++++ 展開以檢視使用Copilot Studio將Workfront連線至Copilot的逐步指示。
 
 若要建置Workfront MCP可連線的自訂Copilot代理程式，請使用Copilot Studio。
 
@@ -229,6 +235,20 @@ ChatGPT支援使用者建立的助理，稱為自訂GPT。 您可以使用自訂
 1. 設定並測試工具時，按一下&#x200B;**發佈**。
 
    您可能沒有發佈許可權。 如果是這種情況，請聯絡您的Copilot管理員。
+
++++
+
+
+### 將Workfront連線至GitHub Copilot
+
++++ 展開以檢視將Workfront連線至GitHub Copilot的逐步指示。
+
+
+1. 在GitHub Copilot中，移至&#x200B;**自訂**。
+1. 按一下&#x200B;**新增** > **MCP伺服器**。
+1. 將名稱設為「Workfront」之類的專案。
+1. 將&#x200B;**伺服器型別**&#x200B;設定為`HTTP`。
+1. 將URL設定為`https://mcp.workfront.adobe.com/mcp/v1/workfront`。
 
 +++
 

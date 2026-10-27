@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: e1ed15278689476313ad690a00803022d413418b
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 2%
+source-wordcount: '58'
+ht-degree: 3%
 ---
 # 安全性
 
@@ -43,10 +43,8 @@ ht-degree: 2%
 * [設定系統安全性偏好設定](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)
 * [設定驗證的密碼原則](../../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
 * [移除各種單一登入選項](../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
-* [續約Adobe Workfront SAML 2.0中繼資料憑證](../../../administration-and-setup/manage-workfront/security/renew-wf-saml-2-certificate.md)
 * [防止重複的使用者](../../../administration-and-setup/manage-workfront/security/prevent-duplicate-users.md)
 * [依IP位址限制對Adobe Workfront的存取](../../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)
 * [檔案加密](../../../administration-and-setup/manage-workfront/security/file-encryption.md)
-* [變更您的Adobe Workfront網域](../../../administration-and-setup/manage-workfront/security/change-your-workfront-domain.md)
 * [管理API金鑰](../../../administration-and-setup/manage-workfront/security/manage-api-keys.md)
 * [Adobe Workfront隱私權原則](../../../administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)

@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c3f012074799cc64a3aa5e1ffd212e1871e61529
+source-git-commit: 86cd7c186c2b27cd8f93b640f8a56223c345959d
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '548'
 ht-degree: 4%
 ---
 # 為系統中的每個人設定事件通知
@@ -78,6 +78,7 @@ ht-degree: 4%
 如需詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 +++
 
+
 ## 為所有使用者設定事件通知
 
 您必須先在Workfront的設定區域中啟用通知，使用者才能在其個別設定檔中啟用或停用通知。
@@ -92,23 +93,62 @@ ht-degree: 4%
 
    ![設定電子郵件下的通知區域](assets/notifications-area-under-setup-emails.png)
 
+
 1. 請確定&#x200B;**事件通知**&#x200B;索引標籤已開啟。
-1. 將開關切換至事件名稱左側，以開啟或關閉該開關。<!--Click in the **Active** column for the event and select **Active** to turn it on, or **Inactive** to turn it off.-->
+1. 將開關切換至事件名稱左側，以開啟或關閉該開關。
 
    若要檢視事件的預設通知狀態，請參閱[事件通知](../../../workfront-basics/using-notifications/event-notifications.md)。
 
-1. （可選）若要自訂電子郵件通知的主旨行，您可以：
-
-   * 按一下通知右側的鎖定圖示![鎖定圖示](assets/lock-icon-100626.png)或&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-icon.png)，並選取&#x200B;**編輯**。
-   * 選取通知旁的核取方塊，然後按一下畫面底部動作列中的&#x200B;**編輯**。
+1. （選用）按一下事件通知的名稱，以自訂電子郵件通知的主旨行。
 
    如需自訂電子郵件通知主旨行的詳細資訊，請參閱[自訂事件通知的電子郵件主旨](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)。
 
-1. （選用）若要解除鎖定電子郵件通知的設定，讓群組管理員可以為其群組個別進行設定，您可以：
-
-   * 按一下通知右側的鎖定圖示![鎖定圖示](assets/lock-icon-100626.png)，並選取&#x200B;**解除鎖定群組存取權**。 解除鎖定通知時，鎖定圖示不再顯示。
-   * 選取通知旁的核取方塊，然後按一下熒幕底部動作列中的&#x200B;**解除鎖定群組存取權**。
+1. （選擇性）如果您想要解除鎖定電子郵件通知的設定，讓群組管理員可以分別設定其群組的設定，請按一下通知右側的按鈕![[鎖定]切換](assets/lock-toggle-button.png)，將其切換至解除鎖定位置![[解除鎖定]切換](assets/unlock-toggle-button.png)。
 
    如需詳細資訊，請參閱[解除鎖定或鎖定所有群組的事件通知設定](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)。
 
 使用者可以在他們的使用者設定檔中自訂這些通知的頻率。
+
+
+<!--
+<div class="preview">
+## Configure event notifications for all users in Preview
+
+You must enable notifications in the Setup area of Workfront before users can enable or disable them in their individual profiles.
+
+>[!TIP]
+>
+>You cannot activate notifications for Workfront Goals from the Setup area. Users can activate these notifications only in their profiles. Users with Plan licenses can activate them for other users. For information about enabling Workfront Goals notifications for users, see [Notifications: Goals](../../../workfront-basics/using-notifications/notifications-goals.md).
+
+{{step-1-to-setup}}
+
+1. Click **Email** > **Notifications**.
+
+    ![Notifications area under setup emails](assets/notifications-area-under-setup-emails.png)
+   
+1. Make sure the **Event Notifications** tab is open.
+1. Toggle the switch to the left of the event name to turn it on or off. 
+
+Click in the **Active** column for the event and select **Active** to turn it on, or **Inactive** to turn it off.
+
+
+   To see the default notification status for an event, see [Event notifications](../../../workfront-basics/using-notifications/event-notifications.md).
+
+1. (Optional) To customize the subject line of the email notification, you can:
+
+   * Click the lock icon ![Lock icon](assets/lock-icon-100626.png) or **More** menu ![More menu](assets/more-icon.png) to the right of the notification and select **Edit**.
+   * Select the check box next to the notification and click **Edit** in the action bar at the bottom of the screen.
+
+   For more information about customizing the subject lines of email notifications, see [Customize email subjects for event notifications](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md).
+
+1. (Optional) To unlock configuration for an email notification so that group administrators can configure it separately for their groups, you can:
+
+   * Click the lock icon ![Lock icon](assets/lock-icon-100626.png) to the right of the notification and select **Unlock Group Access**. The lock icon is no longer displayed when the notification is unlocked.
+   * Select the check box next to the notification and click **Unlock Group Access** in the action bar at the bottom of the screen.
+
+   For more information, see [Unlock or lock configuration of event notifications for all groups](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
+
+Users can customize the frequency of these notifications in their user profile. 
+</div >
+
+-->

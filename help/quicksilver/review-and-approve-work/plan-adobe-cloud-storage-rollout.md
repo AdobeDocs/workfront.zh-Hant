@@ -9,7 +9,7 @@ feature: System Setup and Administration, Work Management, Digital Content and D
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: b4413742-c250-4110-9097-6d38842355a4
-source-git-commit: 7a21293ad984311b274fe6a7c79e081e9bc8b156
+source-git-commit: 2b5d95ed0a5c72062700bf026a18b8301e4be421
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 0%
@@ -47,6 +47,12 @@ ht-degree: 0%
 ### 挑選試行方案群組
 
 群組範圍的轉出可讓您先將Adobe雲端儲存空間放在較小團隊的前面、收集意見並在更廣的轉出之前進行調整。 選擇其工作模式具有足夠代表性的群組，以便及早顯示您想要瞭解的問題。
+
+<!--
+>[!IMPORTANT]
+>
+>Only members of the pilot group can convert an Adobe cloud storage object, such as a request or a task, into a project. Users outside the group, including Workfront administrators, see the error "User is not eligible for this operation."
+-->
 
 ### 上線前測試
 

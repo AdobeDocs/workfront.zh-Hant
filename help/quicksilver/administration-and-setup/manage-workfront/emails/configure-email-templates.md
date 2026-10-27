@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: addf646d45d70c4806e7285b000c26165aff8eb3
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 5%
@@ -87,7 +87,10 @@ ht-degree: 5%
    ![電子郵件範本索引標籤](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
 1. 按一下&#x200B;**新增電子郵件範本**。
-
+<!--
+new screen for monthly. delete screen in previous step.
+    ![add new email template](assets/email-template-add-new.png)
+-->
 1. 在&#x200B;**新電子郵件範本**&#x200B;方塊中，指定下列資訊：
 
    <table style="table-layout:auto"> 
