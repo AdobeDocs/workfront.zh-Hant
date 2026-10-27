@@ -19,14 +19,14 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f1a2e52fc5c832ebd94b32bb58e5faaee06cf3d6
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 0%
 ---
 # Adobe Workfront有限可用功能的2026年第四季發行活動
 
-本文會說明將於2026年第三季度發行的Workfront功能有限可用性。
+本文介紹2026年第四季推出的Workfront功能有限可用性。
 
 <!--keep the sentence below for all future quarterly release pages-->
 
