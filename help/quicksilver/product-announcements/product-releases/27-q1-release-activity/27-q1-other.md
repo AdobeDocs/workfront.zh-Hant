@@ -58,7 +58,7 @@ You can now create sections in the View dropdown menu of an enhanced list to org
 
 This enhancement is available in the following areas: Requests, Home, Priorities in the Main Menu.
 
-For information, see [Use enhanced lists](https://experienceleague.adobe.com/en/docs/workfront/using/basics/navigate/lists-in-adobe-workfront/enhanced-lists).
+For information, see [Use enhanced lists](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/navigate/lists-in-adobe-workfront/enhanced-lists).
 
 -->
 
