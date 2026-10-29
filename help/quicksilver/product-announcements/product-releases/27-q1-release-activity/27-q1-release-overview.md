@@ -70,7 +70,7 @@ ht-degree: 3%
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">變更記錄現在會追蹤畫布控制面板物件</a></p>
                 <p>「變更歷史記錄」現在會記錄建立、更新或刪除畫布控制面板或報表的人員、變更時間以及變更內容。</p>
-                <p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <p>[!BADGE Off Schedule]{type=Neutral}</p>
             </td>
             <td><p>2026年10月29日</p></td>
             <td><p>2026年10月29日</p></td>
@@ -303,14 +303,14 @@ ht-degree: 3%
 
 作為報表中的替代專案，您可以使用建議的文字模式代碼（視需要使用`costRates`或`billingRates`）：
 
-    ``
+    &grave;&grave;
     displayname=Test
     listdelimiter=&lt;br>
     listmethod=nested(costRates)。lists
     type=iterate
     valueexpression=CONCAT({startDate}，&quot; - &quot;，{endDate}，&quot;： &quot;，{value})
     valueformat=HTML
-    ``
+    &grave;&grave;
 
 若要管理和檢閱工作角色費率，請使用專用的費率管理體驗：
 
