@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ecee8b1aadd804a45ff0830e04e77981a3269cff
+source-git-commit: 7e4bfe51c25672d2695573786b1192709ba8f4da
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '987'
 ht-degree: 2%
 ---
 # 共用自訂表格
+
+{{preview-fast-release-general}}
 
 您可以設定自訂表單的存取權，以控制誰 — 人員、角色、群組、團隊、公司、企業設定檔 — 可以檢視、共用及編輯它。
 
@@ -75,7 +77,7 @@ ht-degree: 2%
 
 ## 共用自訂表格
 
-您可以為特定使用者、工作角色、群組、團隊、公司和企業設定檔設定特定層級的表單存取權，而不是將自訂表單保留在預設共用狀態（本文中關於存取自訂表單[&#128279;](#access-to-custom-forms)的說明）。
+您可以為特定使用者、工作角色、群組、團隊、公司和企業設定檔設定特定層級的表單存取權，而不是將自訂表單保留在預設共用狀態（本文中關於存取自訂表單](#access-to-custom-forms)的說明）。[
 
 {{step-1-to-setup}}
 
@@ -108,7 +110,8 @@ ht-degree: 2%
       <td> <p>此選項僅適用於擁有Standard或Plan授權的使用者。 </p> <p>除了能夠將表單新增到他們有權編輯的物件之外，使用者還可以完全編輯自訂表單，包括新增、編輯和刪除欄位。</p> <p>按一下<strong>進階設定</strong>，指定是否要允許下列專案：</p> 
        <ul> 
         <li> <p><strong>附加至自訂資料</strong>：能夠將自訂表單附加至他們具有「管理」存取權的專案、任務和問題</p> </li> 
-        <li><strong>刪除</strong>：從系統中刪除自訂表單</li> 
+        <li><strong>刪除</strong>：從系統中刪除自訂表單</li>
+        <li> <p><span class="preview"><strong>移除自訂資料</strong>：能夠移除具有管理存取權的專案、任務和問題中的自訂表格</span></p> </li> 
         <li><strong>共用</strong>：與系統中的其他人共用自訂表單</li> 
        </ul> </td> 
      </tr> 
