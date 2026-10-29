@@ -26,19 +26,19 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1948'
 ht-degree: 0%
 ---
 # 跨工作區記錄型別總覽
 
-<!--
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
+
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -228,7 +228,15 @@ These two capabilities will come later - and edit some of the bullets below afte
 
 ### 存取全域記錄型別的連線
 
-在原始工作區中連線至全域記錄型別的記錄型別，會從已新增全域記錄型別的其他工作區中顯示，並且可用於從已新增全域記錄型別的次要工作區連線。
+* 在原始工作區中連線至全域記錄型別的記錄型別，會從已新增全域記錄型別的其他工作區中顯示，並且可用於從已新增全域記錄型別的次要工作區連線。
+
+<div class="preview">
+
+* 將兩種連線的全域記錄型別新增至次要工作區時，您可以關閉跨工作區連線，同時仍在本機連結記錄。
+
+  每個次要記錄型別只會針對這兩種記錄型別顯示其自己的記錄，並且可以將它們相互連線。 不再顯示全域工作區和其他次要工作區的記錄。
+
+</div>
 
 ### 全域記錄型別的API存取
 

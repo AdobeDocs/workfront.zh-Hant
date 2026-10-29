@@ -28,20 +28,19 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '4138'
+source-wordcount: '4353'
 ht-degree: 2%
 ---
 # 管理表格檢視
 
 <!-- remove Production and Preview references at release-->
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>
+<span class="preview">本頁標示的資訊是指尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 
 {{planning-important-intro}}
@@ -195,15 +194,13 @@ Old:
 
 依預設，下列專案會顯示在表格檢視中：
 
-* 所選記錄型別的所有欄位和所有記錄。
+* 在生產環境中，所有欄位和所選記錄型別的所有記錄。
 
-<!--
 <div class="preview">
 
-* 500 records upload by default. Additional records display as you scroll the view. 
+* 在預覽環境中，預設會顯示500筆記錄。 捲動頁面時會顯示其他記錄。
 
 </div>
--->
 
 若要管理表格檢視：
 
@@ -244,6 +241,10 @@ Old:
 1. 開始新增欄位（或欄），如文章[建立欄位](/help/quicksilver/planning/fields/create-fields.md)中所述。
 
    您新增的欄對存取記錄型別的所有使用者可見，並作為記錄頁面的新欄位新增。
+
+   在生產環境中，新新增的欄位會新增並在所有檢視中可見。
+
+   <span class="preview">在預覽環境中，新新增的欄位會在所有檢視中新增為隱藏欄位，但您新增欄位的檢視除外。</span>
 
 1. （選擇性）按一下工具列中的&#x200B;**欄位**&#x200B;圖示![欄點陣圖示](assets/fields-icon.png)，搜尋欄位，然後取消選取欄位名稱右側的切換以隱藏欄位。
 
@@ -301,11 +302,11 @@ Old:
    >根據預設，隱藏的欄位不會顯示在記錄的&#x200B;**詳細資料**&#x200B;預覽方塊中。 所有欄位都會顯示在記錄的詳細資訊頁面中。 如需詳細資訊，請參閱[管理記錄頁面配置](/help/quicksilver/planning/records/manage-the-record-page.md)。
 
 
-1. 按一下&#x200B;**欄位**&#x200B;圖示，然後選取與您要顯示在表格欄位中的欄位相關聯的切換。 預設會顯示所有欄位。
+1. 按一下&#x200B;**欄位**&#x200B;圖示，然後開啟與您要顯示在表格欄位中的欄位相關聯的切換。 預設會顯示所有欄位。
 
 1. 執行下列動作以快速尋找符合關鍵字的記錄：
 
-   1. 在&#x200B;**搜尋**&#x200B;方塊![搜尋圖示](assets/search-icon.png)中，開始輸入與熒幕上顯示之記錄的任何欄位相關聯的關鍵字。 正確相符的數目會顯示在搜尋專案旁邊，而具有正確相符專案的欄位會反白顯示。
+   1. 在&#x200B;**搜尋**&#x200B;方塊![搜尋圖示](assets/search-icon.png)中，開始輸入與熒幕上顯示之記錄的任何欄位相關聯的關鍵字。 正確相符的數目會顯示在搜尋專案旁邊，而具有正確相符專案的欄位會反白顯示。 <span class="preview">搜尋方塊左邊顯示的記錄總數會由搜尋中找到的記錄數取代。 表格會經過篩選，僅顯示符合搜尋的專案。</span>
 
       ![搜尋方塊在資料表檢視中具有結果藍色外框](assets/search-box-with-results-blue-outline-g-table.png)
 
@@ -313,12 +314,10 @@ Old:
 
       您無法使用與表格檢視中隱藏之欄位關聯的關鍵字。
 
-      <!--
-        this might change at the release of table lazy loading:
-        >[!TIP]
-        >
-        ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
-        -->
+      >[!TIP]
+      >
+      ><span class="preview">快速搜尋適用於所有記錄，而不只是顯示在目前檢視中的記錄。 捲動時載入更多記錄。</span>
+
 
    1. 在鍵盤上按&#x200B;**Enter**&#x200B;以移至下一個找到的欄位。
 
@@ -396,9 +395,9 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 
 表格檢視的列會顯示所選記錄型別的個別記錄。 新增列與建立記錄相同。
 
-記錄型別最多可以有50,000筆記錄（或列）。
+記錄型別最多可以有50,000筆記錄（或列）。 <span class="preview">預設只會顯示500列。 捲動頁面時載入更多。</span>
 
-1. 移至記錄型別頁面並選取資料表檢視，或按一下[檢視] **+新增檢視**，然後選擇[資料表] **&#x200B;**。
+1. 移至記錄型別頁面並選取資料表檢視，或按一下[檢視] **+新增檢視**，然後選擇[資料表] ****。
 
 1. 開始新增記錄（或列），如文章[建立記錄](/help/quicksilver/planning/records/create-records.md)中所述。
 
@@ -411,6 +410,8 @@ FROM LISA: This is the old section. I commented it out vs deleting.
    >當記錄有未讀取的註解時，**新註解**&#x200B;指標會顯示在記錄的主要欄位的右上角。
    >
    >![表格檢視中的新註解圖示](assets/new-comment-icon-in-table-view-highlighted.png)
+
+   <span class="preview">在表格右上角快速搜尋方塊左邊顯示的記錄總數。</span>
 
 1. （選擇性）選取一或多個記錄或列，然後將&#x200B;**控制代碼**&#x200B;圖示![控制代碼圖示](assets/handle-icon.png)拖放到記錄左側，以重新排序列。
 
@@ -646,7 +647,7 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 
 * 您可以在表格和時間軸檢視中套用群組。 表格檢視的分組與相同記錄型別之時間軸檢視中的群組是獨立的。
 * 您可以在檢視中套用3個群組層級。 記錄會依照您選取的群組順序進行分組。
-&lt;！—！—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** *使用API時，您最多可以套用4個層級的群組。  — 立即檢查此專案**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;！—！—*************** *使用API時，您最多可以套用4個層級的群組。  — 立即檢查此專案******************—>
 * 群組對於您選取的檢視而言是唯一的。 相同記錄型別的兩個表格檢視可以套用不同的群組。 檢視相同表格檢視的兩個使用者會看到目前套用的相同分組。
 * 您無法為表格檢視建立的分組命名。
 * 移除群組會將群組從存取與您相同記錄型別以及顯示與您相同檢視的任何人中移除。

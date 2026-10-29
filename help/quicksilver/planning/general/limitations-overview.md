@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
     internal-label: Taxonomy
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '538'
 ht-degree: 4%
 ---
 <!--keep the 30 connection limit in yellow till Jan 2026-->
@@ -77,6 +77,9 @@ Adobe Workfront Planning限制您可在執行個體中建立的物件數目。 �
 | 工作區中的階層數 | 5 |
 | 階層內從父記錄型別連線到子記錄型別的一個記錄的父記錄數 | 10 |
 | 多重選取連線型別中連線至一個記錄的記錄數，這些記錄之間未設定階層 | 500 |
+| <span class="preview">每個記錄型別的查閱欄位數目</span> | 40 |
+| <span class="preview">每個記錄型別的長文字查閱欄位數目</span> | 5 |
+| <span class="preview">單一長文字查閱欄位儲存格值中的字元數（在表格檢視中）</span> | 50,000字元 |
 
 *我們建議您不要有太多工作區，因為這些工作區可能會變得難以管理，而且您的工作流程可能太分散。
 

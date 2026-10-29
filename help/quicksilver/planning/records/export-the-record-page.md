@@ -28,18 +28,16 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '518'
 ht-degree: 1%
 ---
 # 匯出記錄的詳細資料
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它只能在「預覽」環境中供所有客戶使用，或在「生產」環境中供啟用快速發行的客戶使用。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -171,7 +169,13 @@ Old:
 
 * 匯出的檔案會保留記錄頁面的版面，包括縮圖和封面影像。
 
-* 您無法匯出自訂的「詳細資訊」頁面，該頁面中隱藏了數個欄位。
+* 在生產環境中，您無法匯出自訂的詳細資訊頁面，該頁面中隱藏了數個欄位。
+
+<div class="preview">
+
+* 在「預覽」環境中，您可以匯出自訂的「詳細資訊」頁面，其中數個欄位已隱藏。
+
+</div>
 
 ## 匯出記錄的詳細資料
 
@@ -206,7 +210,6 @@ Old:
    >[!NOTE]
    >
    >    不會顯示在頁面上，且只會在按一下記錄詳細資訊區域中的顯示更多後顯示的其他資訊，不會顯示在匯出的PDF檔案中。 匯出的檔案中只會顯示頁面上顯示的資訊。
-
 
 1. （選擇性）移至下載的檔案，開啟檔案並加以編輯（如果是Word檔案），或與其他人共用。
 

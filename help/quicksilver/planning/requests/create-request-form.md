@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
 source-wordcount: '3223'
 ht-degree: 2%
@@ -297,7 +297,7 @@ ht-degree: 2%
 1. （視條件而定）如果您已選取在要求的物件完成時將要求標示為完成的請求，請選取欄位以及指示物件完成時間的值。 例如，當建立的物件狀態設為「完成」時，您可以選取「狀態」欄位和值「完成」以完成請求。
 
 1. 按一下左側面板上的「**許可權**」，以設定使用者對於使用此表單提交的請求所擁有的預設許可權。 您在此處授與的許可權將對未來請求立即生效，並且不會影響現有請求。
-1. &#x200B;<!--<span class="preview">In the **Requestor access** section,</span>--> 為使用此表單提交請求的使用者，針對提交至此表單的請求，選取許可權層級：
+1. <!--<span class="preview">In the **Requestor access** section,</span>--> 為使用此表單提交請求的使用者，針對提交至此表單的請求，選取許可權層級：
 
    * **檢視**：所有要求者都可以註解並共用表單。
    * **Contribute**：所有要求者都可以評論、共用及編輯表單。
@@ -329,7 +329,6 @@ ht-degree: 2%
       * Edit. Not available for View. 
       * Delete. Not available for Contribute and View. 
       </div>
-
    1. <span class="preview"> In the **Search for people, groups, teams, roles and companies** field, start adding entities and grant them View, Contribute, or Manage permissions.</span> 
       >[!TIP]
       >
