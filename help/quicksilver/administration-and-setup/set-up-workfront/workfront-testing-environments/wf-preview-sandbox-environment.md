@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 29c11bcb8189bb3d5e9f57e1249ee58c9a206b87
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: '1379'
 ht-degree: 0%
 ---
 # [!DNL Adobe Workfront]預覽沙箱環境
@@ -54,8 +54,8 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th> <p> </p> </th> 
-   <th> <p><strong>[!UICONTROL Standard]支援套件</strong> </p> </th> 
-   <th> <p><strong>[!UICONTROL Plus]、[!UICONTROL Preferred]和[!UICONTROL Enterprise]支援套件</strong> </p> </th> 
+   <th> <p><strong>[！UICONTROL Standard]支援套件</strong> </p> </th> 
+   <th> <p><strong>[！UICONTROL Plus]、[！UICONTROL Preferred]和[！UICONTROL Enterprise]支援套件</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -83,6 +83,10 @@ ht-degree: 0%
 預覽沙箱還允許[!DNL Workfront]在準備部署到生產環境之前，在安全環境中部署新功能。 您可以測試新功能，並透過存取預覽沙箱提供[!DNL Workfront]對其功能的意見反應。 因此，預覽沙箱的程式碼一律先於生產程式碼，不過您的資料每週都會重新整理。
 
 預覽環境適用於執行培訓、測試新功能和判斷設定功能。
+
+>[!IMPORTANT]
+>
+>Canvas儀表板中的Planning資料僅對沙箱環境中的[!DNL Workfront]管理員可見。
 
 >[!NOTE]
 >
