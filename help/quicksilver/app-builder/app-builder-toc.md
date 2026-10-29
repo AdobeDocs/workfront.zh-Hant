@@ -7,8 +7,10 @@ exl-id: ec379838-3aca-4498-a61f-091e3ce891ae
 TQID: https://experienceleague.adobe.com/gy4r4i7UgrrwVxk3outnjaVysRINIbuw7S1LjKrepgg
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 source-git-commit: e5a288dcac20be9176d1541d531edaf0d8c99a8c
 workflow-type: tm+mt
 source-wordcount: 40
