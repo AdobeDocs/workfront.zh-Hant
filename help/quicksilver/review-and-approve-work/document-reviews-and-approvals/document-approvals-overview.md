@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ba1234b2e48d9dbed57c88ccc65221c65913b43b
+source-git-commit: 120abd12533cfed2e5c7f8c2f849d34a26054dbb
 workflow-type: tm+mt
-source-wordcount: '4464'
+source-wordcount: '4476'
 ht-degree: 0%
 ---
 # 統一檢閱和核准總覽
@@ -82,7 +82,7 @@ Creative Cloud應用程式（Photoshop、Illustrator和InDesign）也可以直�
 * 標籤和註解工具
 * 版本記錄與比較
 * 視訊評論的時間戳記評論
-* 行動存取以進行行動稽核和核准
+* 使用[Frame.io iOS應用程式](https://help.frame.io/en/collections/9679120-ios-app)進行行動存取以進行即時檢閱和核准
 
 如需詳細資訊，請參閱[開始進行統一檢閱和核准](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)。
 

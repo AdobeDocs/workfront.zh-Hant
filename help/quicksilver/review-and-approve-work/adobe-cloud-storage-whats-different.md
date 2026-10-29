@@ -6,9 +6,9 @@ description: 瞭解Adobe雲端儲存體物件的主要差異，包括新的檔�
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 2b5d95ed0a5c72062700bf026a18b8301e4be421
+source-git-commit: 120abd12533cfed2e5c7f8c2f849d34a26054dbb
 workflow-type: tm+mt
-source-wordcount: '1702'
+source-wordcount: '1714'
 ht-degree: 0%
 ---
 # Adobe雲端儲存空間有何不同
@@ -94,7 +94,7 @@ Frame.io檢視器提供：
 * 標籤和註解工具，包括手繪繪圖和標準形狀，例如圓形、箭頭和正方形
 * 視訊評論的時間戳記加上精確影格
 * 版本記錄和版本比較
-* 行動存取以進行行動稽核和核准
+* 使用[Frame.io iOS應用程式](https://help.frame.io/en/collections/9679120-ios-app)進行行動存取以進行即時檢閱和核准
 * 支援40多種檔案格式，包括所有常見的視訊、影像、音訊、PDF和Microsoft Office型別，並支援ProRes、H.265和DNxHD等專業視訊格式的原生播放，以及高達500 GB的檔案支援
 
 ## 物件命名規則
