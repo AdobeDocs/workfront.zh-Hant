@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: fe5e49243ec9e752b48751a506c9f95c3a12fd01
+source-git-commit: 3357df4d9805b7a8252a79b070295a0b55a2cd42
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1099'
 ht-degree: 3%
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 3%
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">變更記錄現在會追蹤畫布控制面板物件</a></p>
                 <p>「變更歷史記錄」現在會記錄建立、更新或刪除畫布控制面板或報表的人員、變更時間以及變更內容。</p>
-                <p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <p>[！BADGE Off Schedule]{type=Neutral}</p>
             </td>
             <td><p>2026年10月29日</p></td>
             <td><p>2026年10月29日</p></td>
@@ -138,7 +138,7 @@ ht-degree: 3%
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">設定統一的稽核和核准電子郵件通知</a></p>
                 <p>您現在可以設定18個整合式稽核和核准電子郵件通知，其主旨行會稍微變更。</p>
             </td>
-            <td><p>2026年10月29日</p></td>
+            <td> <p>此功能在預覽環境中暫時不可用。</p></td>
             <td><p>2026年11月12日</p></td>
             <td><p>2027年1月21日</p></td>
         </tr>
@@ -291,7 +291,7 @@ ht-degree: 3%
 
 * 將基礎架構(Electron)更新至最新版本，該版本會在Chrome版本156上執行，以提升效能和安全性。
 
-如需有關下載和更新案頭校訂檢視器的資訊，請參閱[更新案頭校訂檢視器](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer)。
+如需有關下載和更新案頭校訂檢視器的資訊，請參閱[更新案頭校訂檢視器](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer)。
 
 ## 公告
 
@@ -303,14 +303,14 @@ ht-degree: 3%
 
 作為報表中的替代專案，您可以使用建議的文字模式代碼（視需要使用`costRates`或`billingRates`）：
 
-    &grave;&grave;
+    ``
     displayname=Test
     listdelimiter=&lt;br>
     listmethod=nested(costRates)。lists
     type=iterate
     valueexpression=CONCAT({startDate}，&quot; - &quot;，{endDate}，&quot;： &quot;，{value})
     valueformat=HTML
-    &grave;&grave;
+    ``
 
 若要管理和檢閱工作角色費率，請使用專用的費率管理體驗：
 
@@ -325,10 +325,10 @@ ht-degree: 3%
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hant).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
 ### 訓練更新
 
-探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hant)的「新增功能」一節。
+探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的「新增功能」一節。
