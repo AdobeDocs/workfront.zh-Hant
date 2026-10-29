@@ -25,12 +25,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 310f706e34a2b23007216361e8355637db4ccd73
+source-git-commit: b9fd74c50d2d5d47514cb4f6b1893c5b2be9b404
 workflow-type: tm+mt
-source-wordcount: '3345'
+source-wordcount: '3388'
 ht-degree: 1%
 ---
 # 使用增強型清單
+
+{{preview-fast-release-general}}
 
 Adobe Workfront的部分割槽域提供增強型清單。 這些清單使用表格格式來顯示清單專案，並且它們具有與標準清單不同的外觀和感覺。 也增強了檢視管理，包括篩選、分組、管理欄和搜尋。
 
@@ -77,14 +79,16 @@ Adobe Workfront的部分割槽域提供增強型清單。 這些清單使用表�
 | --- | --- |
 | 優先順序 | <ul><li>首頁>選取左側功能表中的「優先順序」圖示</li><li>主要功能表>優先順序</li></ul> |
 | 請求清單 | <ul><li>主要功能表>請求（僅限新體驗）</li><li>首頁上的我的請求Widget</li></ul> |
-| 安裝程式的狀態、優先順序、嚴重性、<span class="preview">條件</span>和匯率清單 | <ul><li>設定>專案偏好設定>狀態</li><li>設定>專案偏好設定>優先順序</li><li>設定>專案偏好設定>嚴重程度</li><li><span class="preview">設定>專案偏好設定>條件</span></li><li>設定>專案偏好設定>匯率</li></ul> |
-| <span class="preview">更新摘要中的動作和追蹤欄位清單</span> | <ul><li><span class="preview">設定>介面>更新摘要>追蹤的欄位索引標籤</span></li> <li><span class="preview">設定>介面>更新摘要>動作標籤</span></li></ul> |
-| <span class="preview">計分卡清單</span> | <span class="preview">設定>計分卡</span> |
-| <span class="preview">風險型別清單</span> | <span class="preview">設定>風險型別</span> |
+| 設定中的狀態、優先順序、嚴重性、條件和匯率清單 | <ul><li>設定>專案偏好設定>狀態</li><li>設定>專案偏好設定>優先順序</li><li>設定>專案偏好設定>嚴重程度</li><li>設定>專案偏好設定>條件</li><li>設定>專案偏好設定>匯率</li></ul> |
+| 更新摘要中的動作和追蹤欄位清單 | <ul><li>設定>介面>更新摘要>追蹤的欄位索引標籤</li> <li>設定>介面>更新摘要>動作標籤</li></ul> |
+| 計分卡清單 | 設定>計分卡 |
+| 風險型別清單 | 設定>風險型別 |
 | 費率卡上的職務角色和費率清單 | 設定>費率卡>選取費率卡>職務角色與費率 |
 | 位置清單 | 設定>位置 |
 | 翻譯清單 | 設定>本地化 |
 | 整合清單 | <ul><li>設定>檔案> SharePoint整合</li><li>設定>檔案>自訂整合</li><li>設定>檔案> Experience Manager Assets</li></ul> |
+| <span class="preview">配置範本清單</span> | <span class="preview">設定>介面>配置範本</span> |
+| <span class="preview">事件通知清單</span> | <ul><li><span class="preview">設定>電子郵件>通知>事件通知</span></li><li><span class="preview">群組詳細資料頁面>事件通知</span></li></ul> |
 | 報告清單 | 主要功能表>報表（**使用可共用資料夾**&#x200B;必須開啟） |
 | 佇列主題、主題群組及路由規則的清單 | <ul><li>專案或範本>佇列主題</li><li>專案或範本>主題群組</li><li>專案或範本>路由規則</li></ul> |
 | 快照清單 | 專案>快照 |
@@ -99,10 +103,7 @@ Adobe Workfront的部分割槽域提供增強型清單。 這些清單使用表�
 
 <!--
 
-Under integrations?
 | <span class="preview">List of layout templates</span> | <ul><li><span class="preview">Setup > Interface > Layout Templates</span></li><li><span class="preview">Group Detail page > Layout Templates</span></li></ul> |
-
-| <span class="preview">List of event notifications</span> | <ul><li><span class="preview">Setup > Email > Notifications > Event Notifications</span></li><li><span class="preview">Group Detail page > Event Notifications</span></li></ul> |
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
@@ -470,14 +471,18 @@ Workfront提供有限數量的預先定義群組，且您無法加以修改。
 
    ![選取一個群組](assets/glist-grouping-choose-a-group-by.png)
 
-1. 按一下「全部摺疊&#x200B;**」**&#x200B;以顯示包含所有摺疊群組的清單。 預設選項是顯示所有展開分組的清單。
+1. 按一下「全部摺疊&#x200B;**」**&#x200B;以顯示包含所有摺疊群組的清單。 預設選項是顯示所有群組展開的清單。<!--Delete this line at January release-->
 1. 套用群組時，您可以再次開啟「群組」選項以一次摺疊或展開所有群組、將群組變更為依不同欄位分組，或清除所有群組。
 
-   ![在增強型清單中分組](assets/glist-group-by-due-date-priorities.png)
+   ![在增強型清單中分組](assets/glist-group-by-due-date-priorities.png)<!--Swap this out at January release to not show the collapse all button-->
 
    將分組套用至清單時，**分組**&#x200B;按鈕上會出現指示器。
 
    ![群組已套用指標](assets/glist-grouping-applied-indicator.png)
+
+   <span class="preview">若要摺疊或展開清單中的所有群組，請按一下第一個欄標題旁的箭頭。</span>
+
+   <span class="preview">![摺疊所有群組](assets/collapse-expand-all-groupings.png)</span>
 
 ### 在增強型清單中排序
 

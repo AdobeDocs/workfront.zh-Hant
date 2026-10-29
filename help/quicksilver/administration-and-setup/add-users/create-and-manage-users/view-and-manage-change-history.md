@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: a41c8c19f14058571c027da1dc49041b060e4b65
+source-git-commit: 735544e2ce8702d03532a979ea8e31a7a0296d73
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '545'
 ht-degree: 3%
 ---
 # 檢視及管理變更歷史記錄
@@ -30,6 +30,7 @@ ht-degree: 3%
 * 欄位層級更新，例如編輯專案說明或變更使用者的版面配置範本
 * 物件更新，例如更新專案狀態或附加自訂表單到任務
 * 統一的稽核和核准工作流程活動，包括參與者和決定
+* 畫布控制面板活動，例如建立、更新或刪除控制面板或報表的人員、更新時間以及變更內容
 
 如需定義要追蹤哪些物件和欄位的詳細資訊，請參閱[設定要在變更歷程記錄中追蹤的欄位](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md)。
 

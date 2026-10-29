@@ -23,12 +23,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c001918f8b5d59acee1211a5a655ac8b1a478744
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '337'
 ht-degree: 6%
 ---
 # 復製版面範本
+
+{{preview-fast-release-general}}
 
 <!--Audited: 09/2024-->
 
@@ -74,12 +76,14 @@ ht-degree: 6%
 
 1. 在左側面板中，按一下&#x200B;**介面** > **配置範本**。
 
-1. 按一下要修改的版面配置範本的名稱。
-1. 按一下&#x200B;**複製**&#x200B;圖示![復製圖示](assets/copy-icon.png)。
+1. 選取要修改的版面配置範本旁的核取方塊。
+1. 按一下&#x200B;**複製**&#x200B;圖示![復製圖示](assets/copy-icon.png)、<span class="preview">或按一下熒幕底部動作列中的&#x200B;**複製**。</span>
 
    現有版面配置範本中名稱、說明和使用者指派以外的所有設定都會複製到新範本。
 
-1. 在出現的畫面中，輸入新的&#x200B;**配置範本名稱**&#x200B;和（選擇性）它的&#x200B;**描述**。
+   如需有關增強型清單的動作列和其他功能的資訊，請參閱[使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
+
+1. 在出現的畫面上，輸入新的&#x200B;**配置範本名稱**&#x200B;和（選擇性）它的&#x200B;**描述**。
 
 1. 將範本指派給需要它的使用者，如[將使用者指派給配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)中所述。
 1. （選用）自訂範本，如下列文章所述：
@@ -92,3 +96,6 @@ ht-degree: 6%
    * [使用版面配置範本自訂登入頁面](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
    * [使用配置範本自訂篩選器、檢視和群組](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    * [使用版面配置範本自訂使用者介面術語](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
+
+1. 按一下「**建立**」。
+

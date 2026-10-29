@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: fdddfb692215fcd856b2a3702436aded69a7f0f6
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 3%
+source-wordcount: '669'
+ht-degree: 2%
 ---
 # 檢視和設定群組的事件通知
+
+{{highlighted-preview}}
 
 作為群組管理員，您可以檢視針對您管理的群組啟用的事件通知。
 
@@ -73,7 +75,7 @@ Workfront管理員也可以為任何群組執行此動作。
 
 +++
 
-## 檢視及設定群組的事件通知
+## 在生產環境中檢視和設定群組的事件通知
 
 >[!TIP]
 >
@@ -108,3 +110,31 @@ This step (with substeps) is for functionality from a Sprint 3 2021 story that g
   For more information about customizing the email subject line of an event notification, see <a href="../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md" class="MCXref xref">Customize email subjects for event notifications</a>. 
 -->
 
+
+
+
+<div class="preview">
+
+## 在預覽中檢視及設定群組的事件通知
+
+>[!TIP]
+>
+>如果您是Workfront管理員，而且您已在「電子郵件通知」頁面（「設定>電子郵件>通知」），您可以執行下列動作，然後跳至步驟6：刪除清單上方方塊中的&#x200B;**系統事件通知**，開始在方塊中輸入群組名稱，然後在其出現時按一下。
+
+{{step-1-to-setup}}
+
+1. 在左側面板中，按一下&#x200B;**群組** ![群組](assets/groups-icon.png)。
+
+1. 按一下最上層群組的名稱。
+1. 在左側功能表中，按一下&#x200B;**事件通知**。
+1. 按一下事件的&#x200B;**作用中**&#x200B;資料行，然後選取&#x200B;**作用中**&#x200B;以開啟它，或選取&#x200B;**非作用中**&#x200B;以關閉它。
+
+   >[!IMPORTANT]
+   >
+   >無法為群組編輯或設定具有鎖定圖示的專案。
+
+   ![設定電子郵件下的通知區域](assets/group-event-notifications-g.png)
+
+   若要檢視事件的預設通知狀態，請參閱[事件通知](../../../workfront-basics/using-notifications/event-notifications.md)。
+
+</div>

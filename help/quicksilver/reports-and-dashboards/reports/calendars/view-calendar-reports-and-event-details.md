@@ -25,12 +25,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: fdddfb692215fcd856b2a3702436aded69a7f0f6
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 3%
+source-wordcount: '648'
+ht-degree: 2%
 ---
 # 檢視行事曆報告和事件詳細資訊
+
+{{highlighted-preview}}
 
 您可以在Adobe Workfront中檢視您建立或與您共用的行事曆報告和事件詳細資訊。
 
@@ -108,20 +110,26 @@ ht-degree: 3%
 
 1. （選擇性）如果您是以&#x200B;**月**&#x200B;或&#x200B;**周**&#x200B;檢視檢視檢視檢視行事曆，可以使用下列選項變更行事曆檢視：
 
-   <!--
-         * To include or exclude weekends:
-      1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.
-      -->
-
-   * 若要快速變更顯示的日期：
-
-     1. 在&#x200B;**[!UICONTROL 行事曆]**&#x200B;工具列上，按一下日期指示器的左箭頭在行事曆中往回移動，或按一下右箭頭往前移動。
-
-        ![按一下箭頭以變更日期](assets/click-arrows-to-change-dates-calendar-report.png)
-
-        顯示的日期會根據您目前的行事曆檢視調整間隔。 例如，如果您在&#x200B;**周**&#x200B;檢視中檢視行事曆，行事曆會向前顯示一週，或向後顯示一週，視您選取的箭頭而定。
-
-     1. （選擇性）若要返回當天，請按一下&#x200B;[!UICONTROL **今天**]。
+   <table style="table-layout:auto"> 
+    <col> 
+    </col> 
+    <col> 
+    </col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">在月檢視中檢視行事曆時排除週末</td> 
+      <td>在行事曆的右上角，切換開啟或關閉<b>顯示週末</b>。</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="preview">在<b>[!UICONTROL 周]</b>檢視中檢視行事曆時，顯示或隱藏一天中的時數</span></td> 
+      <td><span class="preview">在行事曆的右上角，切換開啟或關閉<b>顯示時數</b>。</span></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">若要快速變更顯示的日期</td> 
+      <td> <p>在<b>[!UICONTROL 行事曆]</b>工具列上，按一下日期指示器的左箭頭在行事曆中往後移，或按一下右箭頭往前移。</p> <p><img src="assets/click-arrows-to-change-dates-calendar-report.png" alt="按一下箭頭以變更日期"></p> <p>顯示的日期會根據您目前的行事曆檢視以間隔調整。 例如，如果您在<b>周</b>檢視中檢視行事曆，行事曆會向前顯示一週，或向後顯示一週，視您選取的箭頭而定。</p> <p>（選擇性）若要返回當天，請按一下<b>[!UICONTROL Today]</b>。</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
 
 1. （選擇性）若要隱藏連結至行事曆之專案或行事曆群組的事件，請清除專案清單中的專案或行事曆群組。
    ![隱藏事件](assets/hide-events-for-project-or-cal-grouping.png)

@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 198d06b55407ebff9f5454ce75eb776601a51dbf
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '377'
 ht-degree: 5%
 ---
 # 建立和修改群組的版面配置範本
@@ -88,9 +88,12 @@ ht-degree: 5%
 
      如需複製配置範本以建立新配置範本的相關資訊，請參閱[複製配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)。
 
+     如需有關增強型清單的動作列和其他功能的資訊，請參閱[使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
+
    * 若要編輯現有的群組配置範本，請選取該範本，然後按一下&#x200B;**編輯**&#x200B;圖示![編輯](assets/edit-icon.png)。
 
      如需有關編輯版面配置範本的資訊，請參閱[建立和管理版面配置範本](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)。
 
    * 若要刪除一或多個配置範本，請選取這些範本，然後按一下&#x200B;**刪除**&#x200B;圖示![刪除圖示](assets/delete.png)。
    * 若要匯出配置範本清單，請按一下&#x200B;**匯出**&#x200B;圖示![匯出圖示](assets/export-icon.png)。
+

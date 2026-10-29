@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c001918f8b5d59acee1211a5a655ac8b1a478744
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '559'
 ht-degree: 5%
 ---
 # 建立和管理版面配置範本
+
+{{preview-fast-release-general}}
 
 <!--Audited: 12/2023-->
 
@@ -100,9 +102,12 @@ ht-degree: 5%
 
 1. 按一下&#x200B;**新配置範本**。
 
-   或
+   若要編輯版面配置範本：
 
-   按一下要修改的版面配置範本的名稱。
+   * 按一下要修改的版面配置範本的名稱，或
+   * <span class="preview">選取清單中配置範本旁的核取方塊，然後按一下熒幕底部動作列中的&#x200B;**編輯**。</span>
+
+     如需有關增強型清單的動作列和其他功能的資訊，請參閱[使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
 
 1. 如果您正在建立新的版面配置範本，請輸入&#x200B;**版面配置範本名稱**&#x200B;和（選擇性）它的&#x200B;**描述**。
 

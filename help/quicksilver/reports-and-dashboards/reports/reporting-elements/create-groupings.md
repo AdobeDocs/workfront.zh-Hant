@@ -28,12 +28,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 5%
+source-wordcount: '464'
+ht-degree: 4%
 ---
 # 在Adobe Workfront中建立群組
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 11/2024 -->
 
@@ -92,6 +94,11 @@ ht-degree: 5%
 1. 在&#x200B;**群組預覽**&#x200B;區域中，按一下&#x200B;**新增群組**&#x200B;以定義您想要如何整理報告中的資訊。 報表中的群組預覽如下所示。
 
 1. 開始輸入欄位名稱，代表您要在報告中組織資訊的方式，然後在下拉式清單中出現時按一下它。
+
+   >[!TIP]
+   >
+   ><span class="preview">標籤為我的最愛的自訂欄位會出現在搜尋結果頂端的&#x200B;**建議**&#x200B;區段中。</span>
+
 1. （選擇性和條件性）在更新的清單中建立群組時，如果您希望群組中的結果顯示摺疊而非展開，請依預設選取&#x200B;**摺疊此群組**。 此設定預設為停用，群組結果一律顯示在展開清單中。
 
    如需有關更新清單和舊版清單的資訊，請參閱[開始使用Adobe Workfront中的清單](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)一文中的[更新清單和舊版清單的差異](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)小節。

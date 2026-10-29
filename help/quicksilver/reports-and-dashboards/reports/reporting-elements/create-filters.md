@@ -28,12 +28,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '2386'
+source-wordcount: '2420'
 ht-degree: 2%
 ---
 # 在Adobe Workfront中建立或編輯篩選器
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 11/2024 -->
 
@@ -250,6 +252,10 @@ ht-degree: 2%
 
 1. 按一下欄位下拉式功能表，以檢視最近使用之欄位的清單，以及篩選依據的建議欄位。 建議的欄位目前顯示在您正在篩選的清單中。
 
+   >[!TIP]
+   >
+   ><span class="preview">標籤為我的最愛的自訂欄位會出現在搜尋結果頂端的&#x200B;**建議**&#x200B;區段中。</span>
+
    您也可以選取&#x200B;**瀏覽欄位**，以檢視您可以篩選的所有欄位清單。 進階搜尋中的欄位會依物件類別分組。
 
    ![尋找欄位以作為篩選依據](assets/new-filter-search-for-field.png)
@@ -390,6 +396,10 @@ ht-degree: 2%
    * 按一下&#x200B;**新增其他篩選器規則**，開始在&#x200B;**開始輸入欄位名稱**&#x200B;方塊中輸入您要新增規則的選項名稱，然後當它出現在下拉式清單中時按一下它，即可新增篩選器規則。
 
      與篩選器物件關聯的欄位列在&#x200B;**開始輸入欄位名稱**&#x200B;方塊中。
+
+     >[!TIP]
+     >
+     ><span class="preview">標籤為我的最愛的自訂欄位會出現在搜尋結果頂端的&#x200B;**建議**&#x200B;區段中。</span>
 
    * 新增篩選規則時，按一下&#x200B;**AND**&#x200B;或&#x200B;**OR**。\
      新增篩選規則時，請使用篩選修飾元來建立您的篩選條件。 如需篩選修飾元的詳細資訊，請參閱[篩選和條件修飾元](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)。

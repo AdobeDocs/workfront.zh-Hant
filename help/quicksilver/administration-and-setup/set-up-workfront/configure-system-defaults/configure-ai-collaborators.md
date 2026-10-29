@@ -17,12 +17,14 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3c7e8dc66a334d765e8648d0bbc2ca5fd09dbc32
+source-git-commit: 331746b2e3f0a5ce6cd0bb01e020d787d6ad951b
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1564'
 ht-degree: 2%
 ---
 # 設定AI共同作業人員
+
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於所有客戶的預覽環境。</span>
 
 AI共同作業人員是將AI代理程式帶入您的專案、任務和問題的方式。 您可以設定AI共同作業人員，然後將其指派為您想要的使用者。
 
@@ -34,9 +36,13 @@ AI共同作業人員是將AI代理程式帶入您的專案、任務和問題的�
 
   如需詳細資訊，請參閱[開始使用Workfront AI檢閱者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)。
 
-* 工作代理：使用標準AI平台（如Claude、OpenAI或Copilot）建立共同作業人員，然後將共同作業人員指派給任務或問題以完成工作專案。
+* 工作代理程式：建立由Adobe CX Coworker </span>提供支援的共同作業人員<span class="preview">，或從支援的外部平台連線代理程式，然後將共同作業人員指派給任務或問題以完成工作專案。
 
   如需詳細資訊，請參閱[使用工作代理](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md)。
+
+  如需Adobe CX Enterprise Coworker的詳細資訊，請參閱[Workfront中的CX Enterprise Coworker概觀](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
+
+<!-- BECKY CHECK ME: Why this changed: we updated the Work Agent description to include Adobe Native and need product confirmation on any additional package, license, agreement, credit, or administrator restrictions before publishing. -->
 
 AI共同作業人員使用的授權不會收費。 如果您的組織有200個Workfront授權並建立AI Collaborator，接著會使用201個授權，但只需付費200個。
 
@@ -93,11 +99,16 @@ AI共同作業人員使用的授權不會收費。 如果您的組織有200個Wo
 
 ### 工作代理程式
 
-您必須先在Claude、Copilot Studio、OpenAI或IBM中設定代理程式，才能將其用作Work Agent。
+<span class="preview">先決條件取決於代理程式來源：</span>
+
+* <span class="preview">Adobe Native：您的組織必須啟用Adobe CX Coworker。 您不需要在外部平台中設定代理程式或提供外部平台認證。</span>
+* 外部平台或自訂代理程式：在Workfront中建立工作代理程式之前，先設定您計畫連線的平台中的代理程式。
 
 >[!NOTE]
 >
 >我們的目標是連線任何代理程式提供者，因此如果您使用的提供者目前與工作代理程式不相容，請洽詢您的帳戶團隊以尋求協助。
+
+<!-- BECKY CHECK ME: Why this changed: we separated Native and external-agent prerequisites to match the draft, and we still need product confirmation on the final setup and entitlement requirements before removing the qualifiers. -->
 
 ## 建立新的AI稽核者
 
@@ -119,11 +130,15 @@ AI檢閱者可設定為使用Workfront品牌或Adobe Brand Intelligence。
 
 ## 設定工作代理程式
 
+<span class="preview">下列安裝指引反映Adobe原生支援和仍在預覽中的原始設定模型。</span>
+
 工作代理程式是可指派給Workfront中任務或問題的代理程式。 您可使用名稱、存取層級和其他詳細資訊來設定「工作代理程式」，並將其指派給工作，就像指派使用者一樣。
 
-因為工作代理程式是代理程式，其動作和功能會在您設定代理程式的位置進行設定。 目前，作為工作代理使用的代理可以在Copilot Studio、Claude、OpenAI和IBM中建立。
+因為工作代理程式是代理程式，其動作和功能會在您設定代理程式的位置進行設定。 工作代理可以是<span class="preview">使用共同背景工作的原生工作代理，</span>，也可以來自支援的外部平台，例如Copilot Studio、Claude、OpenAI和IBM。
 
-可以將工作代理指派給任務或問題。
+>可以將工作代理指派給任務或問題。
+
+<!-- BECKY CHECK ME: Why this changed: we broadened the origin language to include Adobe Native and want product confirmation on whether the release should describe it as a ready-to-use origin and whether the external-agent setup language still matches production. -->
 
 工作代理程式使用的授權不會收費。 如果您的組織有200個Workfront授權並建立工作代理程式，則有201個授權在使用中，但只有200個需要付費。
 
@@ -148,7 +163,8 @@ AI檢閱者可設定為使用Workfront品牌或Adobe Brand Intelligence。
    >
    >如果您是群組管理員，此欄位只會顯示您是管理員的群組。 群組管理員必須選取至少一個群組。
 
-1. 在&#x200B;**選擇代理程式來源**&#x200B;區域中，選取您要連線在通用平台（例如Copilot）中建立的代理程式，或使用自訂代理程式。
+1. 在&#x200B;**選擇代理程式來源**&#x200B;區域中，選取您是要<span class="preview">使用Adobe Native</span>、連線在通用平台（例如Copilot）中建立的代理程式，或使用自訂代理程式。
+1. <span class="preview">（視條件而定）如果您選取Adobe Native，請確認您的組織已啟用Adobe CX Coworker，而且您想使用現成的Adobe Native代理程式。</span>
 1. （視條件而定）如果您使用來自通用平台的代理程式，請輸入代理程式平台的驗證詳細資訊：
 
    | 平台 | 必要的驗證 |

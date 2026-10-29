@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 461daa394cf7b7e3481e35f1af8436492e47cc0f
+source-git-commit: 7f5bcddadcd27c359a5ae872144f04b049949ca9
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '1101'
 ht-degree: 0%
 ---
 # 常見問題集 — 事件訂閱
@@ -96,6 +96,16 @@ ht-degree: 0%
 ## 我應多久之後才會從Workfront事件訂閱收到事件裝載？
 
 一般而言，您會預期在記錄資料變更後5秒內收到事件訂閱事件傳送請求。 平均而言，從進行資料變更的時間開始，不到1秒就會收到webhook通知。 不過，服務可能會收到大量訊息，而且可能需要更長的時間。
+
+## 我是否可以收到相同事件多次？
+
+是。 Workfront使用重複資料刪除以減少重複事件傳送，但不保證只傳送一次。
+
+端點傳回成功的HTTP回應(2xx)後，Workfront會暫時記錄該傳送，並使用此記錄來隱藏相同訂閱的相同事件後續傳送。 個別訂閱的傳遞會個別進行追蹤。
+
+仍可能發生重複專案，例如，當傳送嘗試重疊時，端點處理事件但其回應未送達Workfront，或傳送記錄過期或無法使用。
+
+設計您的端點以安全地處理重複的傳送（必要時）。 使用`X-Event-ID`請求標頭以及裝載的`subscriptionId`來識別訂閱的重複傳遞。
 
 ## 其他資源
 

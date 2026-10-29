@@ -34,12 +34,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4ac506e9ab5af397523fe4fda10cafaeb858ce37
+source-git-commit: 4867969d04ee8f7317558ee0d31a1c707bdf57c0
 workflow-type: tm+mt
-source-wordcount: '8130'
-ht-degree: 4%
+source-wordcount: '8508'
+ht-degree: 5%
 ---
 # 建立自訂表格
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 6/2025 -->
 
@@ -141,6 +143,11 @@ ht-degree: 4%
 ### 重複使用已在其他自訂表單中使用的現有欄位或Widget
 
 1. 在熒幕的左上角，按一下&#x200B;**欄位程式庫**。
+1. 搜尋您要新增至表單的欄位。
+
+   >[!TIP]
+   >
+   >標示為我的最愛的<span class="preview">欄位會出現在欄位資料庫頂端的&#x200B;**建議**&#x200B;區段中。</span>
 
 1. 將所需的欄位或Widget拖放至畫布上。 重複此步驟以新增任何其他欄位或Widget。
 
@@ -332,6 +339,15 @@ ht-degree: 4%
     <td><ul><li>描述文字</li></ul></td>
     </tr>
     <tr>
+     <td>加入最愛</td>
+     <td><p><span class="preview">選取此選項，以在清單和報表中建立篩選器、檢視和群組時，以及在表單設計器的欄位資料庫頂端時，讓欄位顯示為建議的欄位。</span></td>
+     <td><ul>
+     <li>單行文字</li>
+     <li>段落</li>
+     <li>豐富文字</li>
+     <li>描述文字</li></ul></td>
+    </tr>
+    <tr>
      <td>作用中</td>
      <td><p>此選項預設為開啟。<p><p>將欄位設為「非使用中」時，該欄位會從報表、篩選器和檢視中排除，並且無法再用於自訂表單欄位程式庫。</p></td>
      <td><ul>
@@ -511,6 +527,15 @@ ht-degree: 4%
     <li>多選下拉式清單</span></li>
     </ul>
     </td>
+    </tr>
+    <tr>
+     <td>加入最愛</td>
+     <td><span class="preview">選取此選項，以在清單和報表中建立篩選器、檢視和群組時，以及在表單設計器的欄位資料庫頂端時，讓欄位顯示為建議的欄位。</span></td>
+     <td><ul>
+     <li>選項按鈕</li>
+     <li>核取方塊群組</li>
+     <li>單選下拉式清單</li>
+     <li>多選下拉式清單</li></ul></td>
     </tr> 
     <tr>
      <td>作用中</td>
@@ -754,6 +779,10 @@ To add typeahead and date fields:
       <td><p>如果您要在欄位中顯示一天中的時間和日期，請選取此選項。</p></td>
      </tr> 
      <tr>
+      <td>加入最愛</td>
+      <td><span class="preview">選取此選項，以在清單和報表中建立篩選器、檢視和群組時，以及在表單設計器的欄位資料庫頂端時，讓欄位顯示為建議的欄位。</span></td>
+     </tr>
+     <tr>
       <td>作用中</td>
       <td><p>此選項預設為開啟。<p><p>將欄位設為「非使用中」時，該欄位會從報表、篩選器和檢視中排除，並且無法再用於自訂表單欄位程式庫。</p></td>
      </tr>
@@ -870,6 +899,10 @@ To add typeahead and date fields:
       <td><p>選取此選項可允許使用者在下拉式清單中選取多個值。</p></td>
      </tr>
      <tr>
+      <td>加入最愛</td>
+      <td><span class="preview">選取此選項，以在清單和報表中建立篩選器、檢視和群組時，以及在表單設計器的欄位資料庫頂端時，讓欄位顯示為建議的欄位。</span></td>
+     </tr>
+     <tr>
       <td>作用中</td>
       <td><p>此選項預設為開啟。<p><p>將欄位設為「非使用中」時，該欄位會從報表、篩選器和檢視中排除，並且無法再用於自訂表單欄位程式庫。</p></td>
      </tr>
@@ -971,6 +1004,10 @@ To add typeahead and date fields:
       <td><p>選取此選項可允許使用者在下拉式清單中選取多個值。</p></td>
      </tr>
      <tr>
+      <td>加入最愛</td>
+      <td><span class="preview">選取此選項，以在清單和報表中建立篩選器、檢視和群組時，以及在表單設計器的欄位資料庫頂端時，讓欄位顯示為建議的欄位。</span></td>
+     </tr>
+     <tr>
       <td>作用中</td>
       <td><p>此選項預設為開啟。<p><p>將欄位設為「非使用中」時，該欄位會從報表、篩選器和檢視中排除，並且無法再用於自訂表單欄位程式庫。</p></td>
      </tr>
@@ -1054,7 +1091,11 @@ The Workfront Mobile app
      <tr> 
       <td role="rowheader">指示</td> 
       <td> <p>輸入有關Widget的任何其他資訊。 當使用者填寫自訂表單時，可以將滑鼠指標暫留在問號圖示上，以檢視包含您在此處輸入資訊的工具提示。</p> </td> 
-     </tr> 
+     </tr>
+     <tr>
+      <td>加入最愛</td>
+      <td><span class="preview">選取此選項，以在清單和報表中建立篩選器、檢視和群組時，以及在表單設計器的欄位資料庫頂端時，讓欄位顯示為建議的欄位。</span></td>
+     </tr>
      <tr>
       <td>作用中</td>
       <td><p>此選項預設為開啟。<p><p>將欄位設為「非使用中」時，該欄位會從報表、篩選器和檢視中排除，並且無法再用於自訂表單欄位程式庫。</p></td>
@@ -1218,6 +1259,10 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
       <td>
      </tr>
      <tr>
+      <td>加入最愛</td>
+      <td><span class="preview">選取此選項，以在清單和報表中建立篩選器、檢視和群組時，以及在表單設計器的欄位資料庫頂端時，讓欄位顯示為建議的欄位。</span></td>
+     </tr>
+     <tr>
       <td>作用中</td>
       <td><p>此選項預設為開啟。<p><p>將欄位設為「非使用中」時，該欄位會從報表、篩選器和檢視中排除，並且無法再用於自訂表單欄位程式庫。</p></td>
      </tr>
@@ -1273,6 +1318,10 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
       <td role="rowheader">指示</td> 
       <td> <p>輸入有關Widget的任何其他資訊。 當使用者填寫自訂表單時，可以將滑鼠指標暫留在問號圖示上，以檢視包含您在此處輸入資訊的工具提示。
     <img src="assets/instructions-form-designer.png"></p> </td> 
+     </tr>
+     <tr>
+      <td>加入最愛</td>
+      <td><span class="preview">選取此選項，以在清單和報表中建立篩選器、檢視和群組時，以及在表單設計器的欄位資料庫頂端時，讓欄位顯示為建議的欄位。</span></td>
      </tr>
      <tr>
       <td>作用中</td>
@@ -1369,6 +1418,10 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
       <td role="rowheader">記錄類型欄位</td> 
       <td><p>（可選）從連線的記錄型別中選取最多7個查詢欄位，以在自訂表單中顯示。 預設會選取主要欄位，且無法編輯。 </p> <p> 您選取的已連線記錄欄位會顯示在自訂表單的表格檢視中。 當表單附加至Workfront物件時，表格檢視是唯讀的。 </p>  
     <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
+     </tr>
+     <tr>
+      <td>加入最愛</td>
+      <td><span class="preview">選取此選項，以在清單和報表中建立篩選器、檢視和群組時，以及在表單設計器的欄位資料庫頂端時，讓欄位顯示為建議的欄位。</span></td>
      </tr>
      <tr>
       <td>作用中</td>

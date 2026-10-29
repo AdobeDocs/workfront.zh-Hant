@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba1234b2e48d9dbed57c88ccc65221c65913b43b
+source-git-commit: fdddfb692215fcd856b2a3702436aded69a7f0f6
 workflow-type: tm+mt
-source-wordcount: '2673'
-ht-degree: 0%
+source-wordcount: '2622'
+ht-degree: 1%
 ---
 # 建立檔案核准工作流程
 
@@ -106,13 +106,9 @@ ht-degree: 0%
    <td>從下拉式選單中選取範本。 功能表只會列出您建立或他人與您共用的範本 — 或是特別與您共用或他人與您共用或他人共用的範本。 系統管理員可在此看到帳戶中的每個範本，無論範本的建立者或共用者為何。 如果範本具有一個路徑和一個階段，則會套用在「基本」模式中。 如果範本有多個階段或多個路徑，對話方塊會自動切換到「進階」模式，而您在「基本」模式中輸入的任何輸入都會被範本的內容取代。</td>
    </tr>
    <tr>
-   <td><strong>新增姓名或電子郵件</strong></td>
-   <td>開始輸入使用者或團隊名稱，以新增為核准者或稽核者。 如果您只有稽核者，他們將會收到通知並可以選擇完成稽核，但不需要或做出任何決定。</td>
-   </tr>
-   <tr>
-   <td><strong><span class="preview">在預覽中新增人員或團隊</span></strong></td>
-   <td><p><span class="preview">開始輸入使用者名稱、團隊或電子郵件地址。 依預設，專案團隊會新增為單一核准者或檢閱，但您可以選擇將每個專案團隊成員新增為個別參與者。</span></p>
-   <p><span class="preview">注意：如果使用者已經新增，或屬於您新增的多個團隊，則會納入一次。</span></p></td>
+   <td><strong>新增人員或團隊</strong></td>
+   <td><p>開始輸入使用者名稱、團隊或電子郵件地址。 依預設，專案團隊會新增為單一核准者或檢閱，但您可以選擇將每個專案團隊成員新增為個別參與者。</p>
+   <p>注意：如果使用者已經新增，或屬於您新增的多個團隊，則會納入一次。</p></td>
    </tr>
    <tr>
    <td><strong>只需要一個決定（選擇性）</strong></td>
@@ -176,7 +172,7 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
    <td>依預設，階段名為<em>階段1</em>、<em>階段2</em>等。 將階段重新命名為較清楚描述的階段，例如<em>初始稽核</em>或<em>最終核准</em>。</td>
    </tr>
    <tr>
-   <td><strong>在預覽中新增人員或團隊</strong></td>
+   <td><strong>新增人員或團隊</strong></td>
    <td><p>開始輸入使用者名稱、團隊或電子郵件地址。 依預設，專案團隊會新增為單一核准者或檢閱，但您可以選擇將每個專案團隊成員新增為個別參與者。</p>
    <p>注意：如果使用者已經新增，或屬於您新增的多個團隊，則會納入一次。 此外，參與者一次只能被指派到相同資產上的一個開啟階段。</p></td>
    </tr>
@@ -200,12 +196,7 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
 
 1. （選用）若要移除路徑，請將游標移至路徑標籤，然後按一下垃圾桶圖示。 **路徑1**&#x200B;無法移除，且路徑無法重新排序。 只有在路徑中沒有鎖定或完成的階段時，才能移除其他路徑。
 
-   ![具有平行路徑的進階模式](assets/request-approval-parallel-paths.jpeg)
-
-<!--
-preview screen
-![Advanced mode with parallel paths](assets/parallel-path-v2.png)
--->
+   ![具有平行路徑的進階模式](assets/parallel-path-v2.png)
 
 1. （選擇性）若要清除所有路徑和階段並重新開始，請按一下右上方的&#x200B;**重設**。
 
@@ -238,7 +229,7 @@ preview screen
    <td>預設會收合範本欄位。 按一下欄位以展開，然後從下拉式選單中選取範本。 功能表只會列出您建立或他人與您共用的範本 — 或是特別與您共用或他人與您共用或他人共用的範本。 系統管理員可在此看到帳戶中的每個範本，無論範本的建立者或共用者為何。 如果範本具有一個路徑和一個階段，則會套用在「基本」模式中。 如果範本有多個階段或多個路徑，對話方塊會自動切換到「進階」模式，而您在「基本」模式中輸入的任何輸入都會被範本的內容取代。</td>
    </tr>
    <tr>
-   <td><strong>在預覽中新增人員或團隊</strong></td>
+   <td><strong>新增人員或團隊</strong></td>
    <td><p>開始輸入使用者名稱、團隊或電子郵件地址，然後選擇他們是<strong>核准者</strong>或<strong>檢閱者</strong>。 Workfront會個別新增團隊的每個作用中成員。</p>
    <p>注意：如果使用者已經新增，或屬於您新增的多個團隊，則會納入一次。</p></td>
    </tr>
@@ -258,11 +249,10 @@ preview screen
 
 1. 按一下&#x200B;**要求核准**。
 
-   ![在基本模式下要求核准](assets/request-approval-basic.jpeg)
+   ![在基本模式下要求核准](assets/request-approval-basic-v2.png)
 
-<!--
-preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
--->
+
+
 
 
 
@@ -310,7 +300,7 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
    <td>依預設，階段名為<em>階段1</em>、<em>階段2</em>等。 將階段重新命名為較清楚描述的階段，例如<em>初始稽核</em>或<em>最終核准</em>。</td>
    </tr>
    <tr>
-   <td><strong>在預覽中新增人員或團隊</strong></td>
+   <td><strong>新增人員或團隊</strong></td>
    <td><p>開始輸入使用者名稱、團隊或電子郵件地址，然後選擇他們是<strong>核准者</strong>或<strong>檢閱者</strong>。 Workfront會個別新增團隊的每個作用中成員。</p>
    <p>注意：如果使用者已經新增，或屬於您新增的多個團隊，則會納入一次。 此外，參與者一次只能被指派到相同資產上的一個開啟階段。</p></td>
    </tr>
@@ -335,12 +325,11 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
 
 1. （選用）若要移除路徑，請將游標移至路徑標籤，然後按一下垃圾桶圖示。 **路徑1**&#x200B;無法移除，且路徑無法重新排序。 只有在路徑中沒有鎖定或完成的階段時，才能移除其他路徑。
 
-   ![具有平行路徑的進階模式](assets/request-approval-advanced.jpeg)
+   ![具有平行路徑的進階模式](assets/parallel-path-v2.png)
 
-<!--
-preview screen
-![Advanced mode with parallel paths](assets/parallel-path-v2.png)
--->
+
+
+
 
 1. （選擇性）若要清除所有路徑和階段並重新開始，請按一下右上方的&#x200B;**重設**。
 

@@ -23,12 +23,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: fdddfb692215fcd856b2a3702436aded69a7f0f6
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 3%
+source-wordcount: '811'
+ht-degree: 2%
 ---
 # 解鎖或鎖定所有群組的事件通知設定
+
+{{highlighted-preview}}
 
 如果您是Adobe Workfront管理員，您可以解除鎖定或重新鎖定群組管理員為其管理的最上層群組設定事件通知的能力。 事件通知的設定包含啟用或停用。
 
@@ -71,7 +73,7 @@ ht-degree: 3%
 
 +++
 
-## 解鎖或重新鎖定設定事件通知的功能
+## 解鎖或重新鎖定在生產環境中設定事件通知的功能
 
 >[!IMPORTANT]
 >
@@ -93,3 +95,32 @@ ht-degree: 3%
 
    * 在通知清單上方的搜尋方塊中刪除&#x200B;**系統事件通知**，搜尋並選取最上層群組的名稱以列出其通知，然後在顯示的清單中啟動或停用已解除鎖定的通知。
    * 按一下左側功能表中的&#x200B;**群組**，然後按一下最上層群組的名稱。 按一下左側面板中的&#x200B;**事件通知**，然後設定解除鎖定的事件通知，如[檢視及設定群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)的事件通知中所述。
+
+
+<div class="preview">
+
+## 解鎖或重新鎖定在生產環境中設定事件通知的功能
+
+>[!IMPORTANT]
+>
+>當您重新鎖定通知時，系統中的所有群組都會繼承與您設定的完全相同的通知。 這會覆寫群組管理員可能對其群組所做的任何變更，因此建議您先與他們商議。
+
+{{step-1-to-setup}}
+
+1. 按一下&#x200B;**電子郵件** > **通知**。
+
+1. 請確定&#x200B;**事件通知**&#x200B;索引標籤已開啟。
+
+
+1. 若要解除鎖定群組的通知，請按一下通知右側的鎖定圖示![鎖定圖示](assets/lock-icon-100626.png)，並選取&#x200B;**解除鎖定群組存取權**。 解除鎖定通知時，鎖定圖示不再顯示。
+
+1. 若要鎖定群組的通知，請選取通知右邊的[更多]功能表![[更多]功能表](assets/more-icon.png)，然後按一下熒幕底部動作列中的[鎖定群組存取]&#x200B;**。**&#x200B;鎖定通知時，會顯示鎖定圖示![鎖定圖示](assets/lock-icon-100626.png)。
+
+
+
+1. （選擇性）如果要為最上層群組設定事件通知，而不是將此工作留給群組管理員，您可以執行下列任一項作業：
+
+   * 在通知清單上方的搜尋方塊中刪除&#x200B;**系統事件通知**，搜尋並選取最上層群組的名稱以列出其通知，然後在顯示的清單中啟動或停用已解除鎖定的通知。
+   * 按一下左側功能表中的&#x200B;**群組**，然後按一下最上層群組的名稱。 按一下左側面板中的&#x200B;**事件通知**，然後設定解除鎖定的事件通知，如[檢視及設定群組](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)的事件通知中所述。
+
+   </div>

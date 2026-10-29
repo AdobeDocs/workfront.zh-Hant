@@ -28,14 +28,16 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3da69fe6ab5bdb843e17bd5ae2ffa985bf2b5cc4
+source-git-commit: 29c11bcb8189bb3d5e9f57e1249ee58c9a206b87
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1842'
 ht-degree: 0%
 ---
 # [!DNL Adobe Workfront]自訂重新整理沙箱環境
 
 自訂重新整理沙箱是一個環境，您可在其中使用生產環境中的資料進行測試和工作。 此外，也非常適合用於執行培訓及判斷設定功能。
+
+
 
 >[!NOTE]
 >
@@ -132,6 +134,10 @@ Adobe雲端儲存空間可在自訂重新整理沙箱中使用，因此您可以
    您的自訂重新整理沙箱認證與生產認證相同，除非您自上次重新整理自訂重新整理沙箱以來已變更生產認證。 登入只有在重新整理發生時才進行同步處理。 它們不會自動同步。
 
    自訂重新整理沙箱會在畫面頂端的橫幅中顯示版本以及上次重新整理日期。 重新整理完成後，生產環境中的所有資訊都可供使用並準備就緒。
+
+>[!IMPORTANT]
+>
+>Canvas儀表板中的Planning資料僅對沙箱環境中的[!DNL Workfront]管理員可見。
 
 ## 使用URL存取自訂重新整理沙箱 {#access-the-custom-refresh-sandbox-using-a-url}
 

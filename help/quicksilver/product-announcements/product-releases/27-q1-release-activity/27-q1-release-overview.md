@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 3c6235a01af5a18a6ab4b2b80bbdea2c447009aa
+source-git-commit: fe5e49243ec9e752b48751a506c9f95c3a12fd01
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 4%
+source-wordcount: '1093'
+ht-degree: 3%
 ---
 
 # 2027年第一季度發行概觀
@@ -30,8 +30,147 @@ ht-degree: 4%
 
 ## Adobe Workfront增強功能
 
+* [管理員增強功能](#administrator-enhancements)
+* [AI增強功能](#ai-enhancements)
+* [檔案增強功能](#documents-enhancements)
+<!-- * [Financial Management enhancements](#financial-management-enhancements) -->
 * [專案增強功能](#project-enhancements)
+* [其他增強功能](#other-enhancements)
 
+### 管理員增強功能
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>功能</strong>
+            </td>
+            <td><strong>預覽</strong></td>
+            <td><strong>快速發行</strong></td>
+            <td><strong>每季</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">移除附加自訂表單的許可權</a></p>
+                <p>共用自訂表單時，您現在可以為具有「管理」存取許可權的使用者設定許可權，以從表單附加至的物件中移除表單。</p>
+            </td>
+            <td><p>2026年10月29日</p></td>
+            <td><p>2026年11月12日</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">將自訂欄位標示為我的最愛</a></p>
+                <p>您現在可以將自訂欄位標示為我的最愛，這樣當您建立篩選器、檢視和群組時，它就會顯示在可用欄位的頂端，並顯示在表單設計器欄位資料庫中。</p>
+            </td>
+            <td><p>2026年10月29日</p></td>
+            <td><p>2026年11月12日</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">變更記錄現在會追蹤畫布控制面板物件</a></p>
+                <p>「變更歷史記錄」現在會記錄建立、更新或刪除畫布控制面板或報表的人員、變更時間以及變更內容。</p>
+                <p>[!BADGE Off Schedule]{type=Neutral}</p>
+            </td>
+            <td><p>2026年10月29日</p></td>
+            <td><p>2026年10月29日</p></td>
+            <td><p>2026年10月29日</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### AI增強功能
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>功能</strong>
+            </td>
+            <td><strong>預覽</strong></td>
+            <td><strong>快速發行</strong></td>
+            <td><strong>每季</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">工作代理程式：Adobe原生支援</a></p>
+                <p>您現在無需設定外部平台或輸入外部認證，即可建立使用Adobe CX Coworker的Work Agent。</p>
+            </td>
+            <td><p>2026年10月29日</p></td>
+            <td><p>2026年11月12日</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">有些圖示已從Workfront的Adobe CX Enterprise Coworker中移除</a></p>
+                <p>「設定」和「成品」圖示已移除，以簡化Workfront中的Adobe CX Enterprise Coworker。</p>
+            </td>
+            <td><p>2026年10月29日</p></td>
+            <td><p>2026年11月12日</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### 檔案增強功能
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>功能</strong>
+            </td>
+            <td><strong>預覽</strong></td>
+            <td><strong>快速發行</strong></td>
+            <td><strong>每季</strong></td>
+        </tr>
+<!--
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Delegate unified document approvals</a></p>
+                <p>You can now delegate your unified document approvals to another user, who can approve, reject, or mark reviews complete on your behalf.</p>
+            </td>
+            <td><p>October 29, 2026</p></td>
+            <td><p>November 12, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
+        </tr>
+-->
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">設定統一的稽核和核准電子郵件通知</a></p>
+                <p>您現在可以設定18個整合式稽核和核准電子郵件通知，其主旨行會稍微變更。</p>
+            </td>
+            <td><p>2026年10月29日</p></td>
+            <td><p>2026年11月12日</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+    </tbody>
+</table>
+
+<!--
+
+### Financial Management enhancements
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Feature</strong>
+            </td>
+            <td><strong>Preview</strong></td>
+            <td><strong>Fast release</strong></td>
+            <td><strong>Quarterly</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-financial-management-enhancements.md">Deactivate exchange rates</a></p>
+                <p>System administrators can now deactivate currencies from the list of exchange rates and activate them again later.</p>
+            </td>
+            <td><p>October 29, 2026</p></td>
+            <td><p>November 12, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
+        </tr>
+    </tbody>
+</table>
+
+-->
 
 ### 專案增強功能
 
@@ -50,6 +189,76 @@ ht-degree: 4%
                 <p>您現在可以將最重要的對話串釘選到專案、任務、問題或請求的「更新」區域頂端，讓您的團隊仍然可以看到關鍵資訊。</p>
             </td>
             <td><p>2026年10月15日</p></td>
+            <td><p>2026年11月12日</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### 其他增強功能
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>功能</strong>
+            </td>
+            <td><strong>預覽</strong></td>
+            <td><strong>快速發行</strong></td>
+            <td><strong>每季</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">檢視增強型清單中的記錄總數</a></p>
+                <p>增強型檢視現在會顯示專案總數，以及篩選、搜尋或變更檢視時計數更新。</p>
+            </td>
+            <td><p>2026年10月29日</p></td>
+            <td><p>2026年11月12日</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">在增強型清單中更清楚顯示快速搜尋結果</a></p>
+                <p>增強型清單中的快速搜尋現在只會顯示相符的專案，而不會在所有專案之間反白顯示相符專案。</p>
+            </td>
+            <td><p>2026年10月29日</p></td>
+            <td><p>2026年11月12日</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+<!--
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">Add sections to organize enhanced views</a></p>
+                <p>You can now create sections in the View dropdown menu of an enhanced list to organize related views.</p>
+            </td>
+            <td><p>October 29, 2026</p></td>
+            <td><p>November 12, 2026</p></td>
+            <td><p>January 21, 2027</p></td>
+        </tr>
+-->
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">更新增強型清單</a></p>
+                <p>您現在可以展開或收合增強型清單中的所有群組，而且只要一個檢視型別可用時，您就不必再選取檢視型別。</p>
+            </td>
+            <td><p>2026年10月29日</p></td>
+            <td><p>2026年11月12日</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">多個畫面已更新為增強型清單</a></p>
+                <p>「版面配置範本」和「事件通知」清單現在使用增強型清單格式。</p>
+            </td>
+            <td><p>2026年10月29日</p></td>
+            <td><p>2026年11月12日</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">在行事曆報告周檢視中顯示或隱藏小時</a></p>
+                <p>您現在可以在行事曆報告的「週」檢視中，顯示或隱藏當天的時數。</p>
+            </td>
+            <td><p>2026年10月29日</p></td>
             <td><p>2026年11月12日</p></td>
             <td><p>2027年1月21日</p></td>
         </tr>
