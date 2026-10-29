@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
+source-git-commit: fb5bc6f0563c8009b4b4496ffceef621c89c660c
 workflow-type: tm+mt
-source-wordcount: '4353'
+source-wordcount: '4357'
 ht-degree: 2%
 ---
 # 管理表格檢視
@@ -396,8 +396,9 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 表格檢視的列會顯示所選記錄型別的個別記錄。 新增列與建立記錄相同。
 
 記錄型別最多可以有50,000筆記錄（或列）。 <span class="preview">預設只會顯示500列。 捲動頁面時載入更多。</span>
+<span class="preview">在表格右上角快速搜尋方塊左邊顯示的記錄總數。</span>
 
-1. 移至記錄型別頁面並選取資料表檢視，或按一下[檢視] **+新增檢視**，然後選擇[資料表] **&#x200B;**。
+1. 移至記錄型別頁面並選取資料表檢視，或按一下[檢視] **+新增檢視**，然後選擇[資料表] ****。
 
 1. 開始新增記錄（或列），如文章[建立記錄](/help/quicksilver/planning/records/create-records.md)中所述。
 
@@ -411,7 +412,6 @@ FROM LISA: This is the old section. I commented it out vs deleting.
    >
    >![表格檢視中的新註解圖示](assets/new-comment-icon-in-table-view-highlighted.png)
 
-   <span class="preview">在表格右上角快速搜尋方塊左邊顯示的記錄總數。</span>
 
 1. （選擇性）選取一或多個記錄或列，然後將&#x200B;**控制代碼**&#x200B;圖示![控制代碼圖示](assets/handle-icon.png)拖放到記錄左側，以重新排序列。
 
@@ -647,7 +647,7 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 
 * 您可以在表格和時間軸檢視中套用群組。 表格檢視的分組與相同記錄型別之時間軸檢視中的群組是獨立的。
 * 您可以在檢視中套用3個群組層級。 記錄會依照您選取的群組順序進行分組。
-&lt;！—！—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** *使用API時，您最多可以套用4個層級的群組。  — 立即檢查此專案**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;！—！—*************** *使用API時，您最多可以套用4個層級的群組。  — 立即檢查此專案******************—>
 * 群組對於您選取的檢視而言是唯一的。 相同記錄型別的兩個表格檢視可以套用不同的群組。 檢視相同表格檢視的兩個使用者會看到目前套用的相同分組。
 * 您無法為表格檢視建立的分組命名。
 * 移除群組會將群組從存取與您相同記錄型別以及顯示與您相同檢視的任何人中移除。

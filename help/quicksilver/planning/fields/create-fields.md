@@ -32,13 +32,13 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
+source-git-commit: fb5bc6f0563c8009b4b4496ffceef621c89c660c
 workflow-type: tm+mt
-source-wordcount: '5673'
+source-wordcount: '5676'
 ht-degree: 1%
 ---
 <!--
-Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=zh-Hant ??
+Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??
 -->
 
 <!--
@@ -188,7 +188,7 @@ Old:
 * 您只能從表格檢視建立欄位。
 * 在生產環境中，新新增的欄位會新增並在所有表格檢視中可見。
 
-  <span class="preview">在預覽環境中，新新增的欄位會新增為所有表格檢視中的隱藏欄位。 新欄位會顯示在您用來新增欄位的檢視中。</span>
+  <span class="preview">在「預覽」環境中，新新增的欄位會在包含這些欄位的所有表格檢視中新增為隱藏欄位。 新欄位會顯示在您用來新增欄位的檢視中。</span>
 
 ## 透過連線記錄型別建立欄位
 
