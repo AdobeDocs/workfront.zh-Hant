@@ -16,16 +16,20 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
+source-git-commit: 331746b2e3f0a5ce6cd0bb01e020d787d6ad951b
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1230'
 ht-degree: 1%
 ---
 # 使用工作代理
 
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於所有客戶的預覽環境。</span>
+
 工作代理是可直接指派給Workfront任務、問題和請求的AI共同作業人員。 就像其他AI共同作業人員一樣，工作代理會在「設定」區域中設定，並像使用者一樣指派給工作專案。
 
-工作代理會連線到您已在Copilot Studio、Claude、OpenAI或IBM中設定的代理。
+<span class="preview">您可以使用由Adobe CX Coworker </span>提供支援的現成可用的Adobe原生工作代理程式，或是連線至外部平台的工作代理程式。 可用的功能和設定要求取決於代理程式的來源。
+
+<!-- BECKY CHECK ME: Why this changed: we added the Adobe Native origin to the usage article and need product confirmation on the final naming and on any @mention or follow-up reply trigger behavior that differs from the current external-agent guidance. -->
 
 >[!IMPORTANT]
 >
@@ -49,11 +53,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p>
+   <td><p>[！UICONTROL標準]</p>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td> 
+   <td>[！UICONTROL系統管理員]</td> 
   </tr> 
   </tbody> 
 </table>
@@ -64,7 +68,9 @@ ht-degree: 1%
 
 ## 先決條件
 
-* 您必須先在Copilot、Claude、OpenAI或IBM中設定代理程式，才能在Workfront中作為工作代理程式使用。
+* 管理員必須在Workfront中設定工作代理程式，您才能使用。
+* <span class="preview">若要使用Adobe原生工作代理程式，貴組織必須啟用Adobe CX Coworker。</span>
+* 對於連線到外部平台的工作代理程式，也必須在該平台中設定代理程式。
 
 ## 工作代理程式概述
 
@@ -116,21 +122,22 @@ ht-degree: 1%
 
 當工作代理程式被指派給任務或問題時，它會在滿足以下任何情況時開始工作：
 
-<!--update wording to include issues when this goes to production-->
-
 * 「工作代理程式」已指派給準備開始的任務。 （例如，如果任務具有前置任務，則前置任務為完成。）
 * 工作代理程式和使用者會指派給任務，而工作代理程式會先指派。
 * 工作代理已被指派為已準備好開始的工作，且工作代理是唯一的或主要受指派人。 （例如，如果任務具有前置任務，則前置任務為完成。）
 * 工作代理程式和使用者已被指派的任務已準備好開始，且工作代理程式已先指派或為主要受指派人。 （例如，如果任務具有前置任務，則前置任務為完成。）
 * 將使用者與工作代理指派給任務，並移除使用者。
 * 使用者和「工作代理程式」被指派給任務，而「工作代理程式」被設定為任務的「主要受指派人」。
+* <span class="preview">任務中@mentioned有Workfront原生工作代理。
 
 下列情況不會導致Work Agent開始處理工作：
 
 * 「工作代理程式」會指派給已指派使用者的任務。
-* 工作代理程式@mentioned在任務中。
+* <span class="preview">工作代理程式@mentioned在不支援啟動觸發程式的提供者任務中。</span>
 * 「工作代理程式」會指派給已指派「工作代理程式」的工作。 在這種情況下，指派的第一個工作代理程式將已開始工作，而第二個工作代理程式將不會執行任何動作。
 * 「工作代理程式」被指派給未準備好開始的任務。 （例如，如果任務具有前置任務，則前置任務尚未完成。）
+
+<!-- BECKY CHECK ME: Why this changed: we updated the start-trigger wording to reflect Native vs external-agent differences; product still needs to confirm whether @mentions, follow-up replies, readiness rules, and primary-assignee conditions apply to Adobe Native the same way they do for external agents. -->
 
 ## 將工作代理指派至任務、問題或請求
 
