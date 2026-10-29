@@ -25,12 +25,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f1d448e36f36c37234920274474dc99d697a2379
+source-git-commit: fdddfb692215fcd856b2a3702436aded69a7f0f6
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 3%
 ---
 # 為系統中的每個人設定事件通知
+
+{{highlighted-preview}}
 
 <!-- Audited: 1/2024 -->
 
