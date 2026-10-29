@@ -90,7 +90,7 @@ ht-degree: 2%
 
      若要瞭解共用行事曆，請參閱[[!UICONTROL 共用行事曆]報告](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)。
 
-1. （視條件而定）按一下&#x200B;**[!UICONTROL 檢視]**下拉式清單，然後選取您要檢視的行事曆持續時間。
+1. （視條件而定）按一下&#x200B;**[!UICONTROL 檢視]**&#x200B;下拉式清單，然後選取您要檢視的行事曆持續時間。
    ![行事曆期間](assets/view-menu-calendar-report-350x189.png)
    您可以從下列行事曆報表檢視中進行選擇：
 
@@ -121,12 +121,12 @@ ht-degree: 2%
       <td>在行事曆的右上角，切換開啟或關閉<b>顯示週末</b>。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="preview">在<b>[！UICONTROL周]</b>檢視中檢視行事曆時，顯示或隱藏一天中的時數</span></td> 
+      <td role="rowheader"><span class="preview">在<b>[!UICONTROL 周]</b>檢視中檢視行事曆時，顯示或隱藏一天中的時數</span></td> 
       <td><span class="preview">在行事曆的右上角，切換開啟或關閉<b>顯示時數</b>。</span></td> 
      </tr> 
      <tr> 
       <td role="rowheader">若要快速變更顯示的日期</td> 
-      <td> <p>在<b>[！UICONTROL行事曆]</b>工具列上，按一下日期指示器的左箭頭在行事曆中往後移，或按一下右箭頭往前移。</p> <p><img src="assets/click-arrows-to-change-dates-calendar-report.png" alt="按一下箭頭以變更日期"></p> <p>顯示的日期會根據您目前的行事曆檢視以間隔調整。 例如，如果您在<b>周</b>檢視中檢視行事曆，行事曆會向前顯示一週，或向後顯示一週，視您選取的箭頭而定。</p> <p>（選擇性）若要返回當天，請按一下<b>[！UICONTROL Today]</b>。</p> </td> 
+      <td> <p>在<b>[!UICONTROL 行事曆]</b>工具列上，按一下日期指示器的左箭頭在行事曆中往後移，或按一下右箭頭往前移。</p> <p><img src="assets/click-arrows-to-change-dates-calendar-report.png" alt="按一下箭頭以變更日期"></p> <p>顯示的日期會根據您目前的行事曆檢視以間隔調整。 例如，如果您在<b>周</b>檢視中檢視行事曆，行事曆會向前顯示一週，或向後顯示一週，視您選取的箭頭而定。</p> <p>（選擇性）若要返回當天，請按一下<b>[!UICONTROL Today]</b>。</p> </td> 
      </tr> 
     </tbody> 
    </table>
