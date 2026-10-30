@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b9fd74c50d2d5d47514cb4f6b1893c5b2be9b404
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '3388'
+source-wordcount: '3531'
 ht-degree: 1%
 ---
 # 使用增強型清單
@@ -249,6 +249,25 @@ Last, under Scenario Planner
 >[!NOTE]
 >
 >並非所有增強型清單都具有本節所述的所有元素。
+
+若要檢視清單中的專案總數，請執行下列任一項作業：
+
+* 在生產環境中：
+
+  1. 開啟增強型清單。
+  1. 捲動至清單底部。
+
+     專案總數（考量了套用的任何篩選器）會顯示在清單的右下角。
+
+<div class="preview">
+
+* 在預覽環境中：
+
+  1. 開啟增強型清單。
+  1. 可用時，在清單的右上角，檢視快速搜尋方塊左邊的專案總數。
+  1. （視條件而定）如果預設畫面上未顯示專案，請捲動頁面以顯示更多專案。
+
+</div>
 
 若要變更檢視中的列高：
 
@@ -516,7 +535,11 @@ Workfront提供有限數量的預先定義群組，且您無法加以修改。
 >
 >並非所有增強型清單都具有本節所述的所有元素。
 
-1. 在清單右上角的「搜尋」方塊中，輸入您要搜尋的關鍵字。 當您鍵入時，結果會在清單中反白顯示。
+1. 在清單右上角的&#x200B;**搜尋**&#x200B;方塊中，輸入您要搜尋的關鍵字。
+
+   在生產環境中，當您鍵入時，結果會在清單中反白顯示。
+
+   <span class="preview">在預覽環境中，清單經過篩選，只會顯示符合搜尋條件的專案。 快速搜尋方塊左側的記錄總數被找到的專案數取代。</span>
 
    ![強調的搜尋字詞](assets/glist-search-highlighted.png)
 

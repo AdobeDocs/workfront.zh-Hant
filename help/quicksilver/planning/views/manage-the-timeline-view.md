@@ -28,20 +28,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '4882'
+source-wordcount: '5111'
 ht-degree: 1%
 ---
 # 管理時間表檢視
 
 <!--remove Production and Preview references at release-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -195,9 +193,10 @@ Old:
 
    與您選取的記錄型別相關聯的記錄會在時間軸中顯示為長條圖，並依預設以開始日期的時間順序自動排序。
 
-   <!--
-    <span class="preview">First 500 records display by default. Additional records continue to display as you scroll the page.</span> 
-    -->
+   <span class="preview">預設會顯示前1000筆記錄。 當您捲動頁面時，會持續顯示其他記錄，批次為1000。</span>
+
+   <span class="preview">在表格右上角快速搜尋方塊左邊顯示的記錄總數。</span>
+
    <!-- must check here to see if the timeline is not getting the same button at the bottom of the page that says "Load more" like the calendar view-->
 
    >[!TIP]
@@ -255,10 +254,13 @@ Old:
 1. （選擇性）按一下&#x200B;**切換至精簡檢視**&#x200B;以顯示日期在同一行上不相交的記錄。<!--check to see if they updated the name of the setting here-->
 1. （視條件而定）如果您將模式變更為&#x200B;**緊密**，請按一下&#x200B;**切換至標準**&#x200B;檢視，以個別行顯示記錄。 **標準**&#x200B;選項是預設值。 <!--check to see if they updated the name of the setting here-->
 
-
 1. 執行下列動作以快速尋找符合關鍵字的記錄：
 
-   1. 按一下&#x200B;**搜尋**&#x200B;圖示![搜尋圖示](assets/search-icon.png)，然後開始輸入與熒幕上顯示之記錄的任何欄位相關聯的關鍵字。 正確相符的數目會顯示在搜尋專案旁邊，而具有正確相符專案的記錄會反白顯示。
+   1. 按一下&#x200B;**搜尋**&#x200B;圖示![搜尋圖示](assets/search-icon.png)，然後開始輸入與熒幕上顯示之記錄的任何欄位相關聯的關鍵字。
+
+      正確相符的數目會顯示在搜尋專案旁邊，而具有正確相符專案的記錄會反白顯示。
+
+      <span class="preview">搜尋方塊左邊顯示的記錄總數會由搜尋中找到的記錄數取代。</span>
 
       ![搜尋方塊和結果時間表檢視](assets/search-box-and-results-timeline-view.png)
 
@@ -266,19 +268,15 @@ Old:
 
       您無法使用與未顯示在時間表檢視中的欄位關聯的關鍵字。
 
-      <!--
-        this might change at the release of table lazy loading:
-        >[!TIP]
-        >
-        ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
-        -->
-      <!--see if additional records load after you click Load more - not sure what the functionality is here-->
+      >[!TIP]
+      >
+      ><span class="preview">快速搜尋適用於所有記錄，而不只是目前顯示在頁面上的記錄。 預設會顯示1000筆記錄。 按一下&#x200B;**載入更多**&#x200B;以顯示快速搜尋中找到的更多記錄。</span>
 
    1. 在鍵盤上按Enter鍵以移至下一個找到的欄位。
    1. （選擇性）如果有多個相符專案，請按一下搜尋關鍵字右邊的向上和向下箭頭，以尋找表格中的所有相符專案。
    1. 按一下搜尋方塊中的&#x200B;**x**&#x200B;圖示以清除搜尋關鍵字。
 
-   1. （選擇性）按一下&#x200B;**全熒幕**&#x200B;圖示![開啟全熒幕圖示](assets/open-full-screen-icon.png)以全熒幕開啟檢視，然後按一下&#x200B;**退出全熒幕**&#x200B;圖示![退出全熒幕圖示](assets/exit-full-screen-icon.png)或鍵盤上的Escape以退出全熒幕。
+1. （選擇性）按一下&#x200B;**全熒幕**&#x200B;圖示![開啟全熒幕圖示](assets/open-full-screen-icon.png)以全熒幕開啟檢視，然後按一下&#x200B;**退出全熒幕**&#x200B;圖示![退出全熒幕圖示](assets/exit-full-screen-icon.png)或鍵盤上的Escape以退出全熒幕。
 
 1. （選擇性）按一下&#x200B;**劃分**，在時間軸上顯示連線的記錄。
 
@@ -523,11 +521,9 @@ Old:
    >將記錄從一個群組拖放至另一個群組時，在群組中所選的欄位會自動更新移動記錄上的值。
 1. （選擇性）按一下&#x200B;**設定**，然後按一下&#x200B;**色彩**&#x200B;以使用色彩代碼分組。 如需詳細資訊，請參閱本文中的[編輯時間表檢視設定](#edit-the-timeline-view-settings)一節。
 
-<!--
-1. <span class="preview">(Optional) From either the **Swimlane** or **Stacked** arrangement, grab a grouping in the timeline view and drop it in another position.</span>
+1. <span class="preview"> （選擇性）從&#x200B;**泳道**&#x200B;或&#x200B;**棧疊**&#x200B;排列，抓取時間軸檢視中的群組並將它拖放到其他位置。</span>
 
-    <span class="preview">This changes the grouping order and it changes the sorting of the grouping to **Custom**. For more information, see the section [Add sort](#add-sort) in this article.</span>
--->
+   <span class="preview">這會變更群組順序，並將群組的排序變更為&#x200B;**自訂**。 如需詳細資訊，請參閱本文[新增排序](#add-sort)一節。</span>
 
 ### 新增排序
 
@@ -557,11 +553,9 @@ Old:
 
    例如，文字欄位的排序可以是A -> Z或Z -> A。
 
-   <!--
-    >[!TIP]
-    >
-    ><span class="preview">If the timeline view has groupings and you manually rearranged the groupings' order, the direction of the sort displays as **Custom**. </span>
-    -->
+   >[!TIP]
+   >
+   ><span class="preview">如果時間表檢視有群組，而您手動重新排列群組的順序，則排序的方向會顯示為&#x200B;**自訂**。</span>
 
    排序的套用方向取決於所選欄位的格式。
 1. （選擇性）按一下&#x200B;**新增條件**&#x200B;以新增最多10個條件。

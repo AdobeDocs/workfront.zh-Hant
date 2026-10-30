@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: fe5e49243ec9e752b48751a506c9f95c3a12fd01
+source-git-commit: 3357df4d9805b7a8252a79b070295a0b55a2cd42
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1099'
 ht-degree: 3%
 ---
 
@@ -138,7 +138,7 @@ ht-degree: 3%
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">設定統一的稽核和核准電子郵件通知</a></p>
                 <p>您現在可以設定18個整合式稽核和核准電子郵件通知，其主旨行會稍微變更。</p>
             </td>
-            <td><p>2026年10月29日</p></td>
+            <td> <p>此功能在預覽環境中暫時不可用。</p></td>
             <td><p>2026年11月12日</p></td>
             <td><p>2027年1月21日</p></td>
         </tr>

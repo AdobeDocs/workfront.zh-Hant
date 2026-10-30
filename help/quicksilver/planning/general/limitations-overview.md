@@ -26,20 +26,18 @@ role_v2:
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
     internal-label: Taxonomy
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: fb5bc6f0563c8009b4b4496ffceef621c89c660c
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 4%
+source-wordcount: '598'
+ht-degree: 3%
 ---
 <!--keep the 30 connection limit in yellow till Jan 2026-->
 
 # Adobe Workfront Planning物件限制總覽
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases.</span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，對於啟用快速發行的客戶，生產環境中每月也會提供相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -77,6 +75,9 @@ Adobe Workfront Planning限制您可在執行個體中建立的物件數目。 �
 | 工作區中的階層數 | 5 |
 | 階層內從父記錄型別連線到子記錄型別的一個記錄的父記錄數 | 10 |
 | 多重選取連線型別中連線至一個記錄的記錄數，這些記錄之間未設定階層 | 500 |
+| <span class="preview">每個記錄型別的查閱欄位數目</span> | 40 |
+| <span class="preview">每個記錄型別的長文字查閱欄位數目</span> | 5 |
+| <span class="preview">單一長文字查閱欄位儲存格值中的字元數（在表格檢視中）</span> | 50,000字元 |
 
 *我們建議您不要有太多工作區，因為這些工作區可能會變得難以管理，而且您的工作流程可能太分散。
 

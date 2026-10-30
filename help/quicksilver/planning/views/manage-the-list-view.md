@@ -20,9 +20,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '2017'
 ht-degree: 0%
 ---
 
@@ -34,11 +34,9 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 <!--If the List view in Project connected pages and request forms stays the same after GTable rolls out - keep this as the List view and change the Table view to "Table redesigned view" for now; keep it "the table view" there for later-->
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁標示的資訊是指尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 {{planning-important-intro}}
 
@@ -165,6 +163,11 @@ Removed - more direct steps below:
    * 記錄的詳細資訊區域中專案的已連線記錄頁面
    * 記錄型別的「請求表單」頁面
 
+   >[!TIP]
+   >
+   ><span class="preview">清單中的專案數會顯示在清單右上角快速搜尋方塊的左側。 數字反映套用至清單之篩選器的顯示專案數量。 您無權檢視的專案不會計算在內。</span>
+
+
 1. （視條件而定）可用時，請執行下列任一項作業來修改清單檢視：
 
    1. 展開清單左上角的下拉式檢視功能表，以選取其他檢視，或按一下&#x200B;**新增檢視**&#x200B;並建立另一個檢視。
@@ -270,6 +273,8 @@ Removed - more direct steps below:
 1. （可選）在清單右上角的搜尋方塊中新增關鍵字，以搜尋專案。
 
    符合搜尋字詞的專案會在清單中反白顯示。
+
+   <span class="preview">清單經過篩選，只會顯示符合搜尋的專案。</span>
 
 1. （選擇性和條件性）在專案<!--change projects to items here when more items will display in the Glist-->已連線的頁面中，若要新增更多專案至清單並自動將它們連線至選取的記錄，請執行下列其中一個動作：
 

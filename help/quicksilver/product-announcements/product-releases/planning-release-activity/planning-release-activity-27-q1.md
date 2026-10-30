@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 949503fecba92a7b8536b4af0b9c684e7f9e3300
+source-git-commit: 65b1e818b321dd396720fb791e49e8ae9eb7af92
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1191'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 2027年第一季度發行活動
@@ -65,13 +65,15 @@ PLACEHOLDER: The release note field on the Workfront task points to an anchor st
 >生產快速發行： 2026年11月12日
 >適用於所有人的生產： 2027年1月21日
 
-將兩種連線的全域記錄型別新增至次要工作區時，您現在可以關閉跨工作區連線，並且仍可在本機連結記錄。 每個次要工作區只會看到這兩種記錄型別自己的記錄，並且可以將它們連結到彼此。 不再顯示全域工作區和其他次要工作區的記錄。
+將兩種連線的全域記錄型別新增至次要工作區時，您可以關閉跨工作區連線，同時仍在本機連結記錄。
+
+每個次要記錄型別只會針對這兩種記錄型別顯示其自己的記錄，並且可以將它們相互連線。 不再顯示全域工作區和其他次要工作區的記錄。
 
 在此增強功能之前，如果針對連線的全域記錄型別關閉跨工作區連線，次要工作區就無法將其自己的記錄相互連結。 如果已開啟，使用者可以從全域工作區和所有其他次要工作區檢視並連結記錄。
 
 如需詳細資訊，請參閱[跨工作區記錄型別概觀](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)。
 
-## 檢視表格檢視中的記錄總數
+## 在表格、時間軸和清單檢視中檢視記錄總數
 
 >[!NOTE]
 >
@@ -79,7 +81,9 @@ PLACEHOLDER: The release note field on the Workfront task points to an anchor st
 >生產快速發行： 2026年11月12日
 >適用於所有人的生產： 2027年1月21日
 
-表格檢視現在會顯示記錄總數，而且會在您套用篩選器、搜尋或變更檢視時自動更新計數。 記錄計數一律會反映完整的篩選結果，並尊重您的許可權。
+現在，當您套用篩選器、搜尋或變更檢視時，表格、時間軸和清單檢視會自動顯示記錄總數和計數更新。 記錄計數一律會反映完整的篩選結果，並尊重您的許可權。
+
+記錄計數會顯示在快速搜尋方塊的左側，位於表格、時間軸或清單檢視的右上角。
 
 如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)。
 
@@ -197,8 +201,6 @@ For more information, see [Configure business rules](/help/quicksilver/planning/
 
 ## 透過在表格和時間表檢視中載入增量資料來提高效能
 
-<!-- NOTE FROM CSV: Must check with Lilit whether this will come to the timeline view in addition to the table (Lilit said yes; this was messaged before but pulled). The second bullet will change; check with Lilit first. -->
-
 >[!NOTE]
 >
 >預覽： 2026年10月29日
@@ -207,8 +209,10 @@ For more information, see [Configure business rules](/help/quicksilver/planning/
 
 為了改善大量記錄的效能，我們已對表格和時間表檢視進行下列改進：
 
-* 檢視現在一開始會載入前500筆記錄，當您以500筆批次捲動時，會自動載入其他記錄。
-* 快速搜尋和分組只會影響檢視中目前載入的記錄。
+* 現在，表格檢視一開始會載入前500筆記錄，當您以500筆批次捲動時，會自動載入其他記錄。
+* 時間軸檢視有類似行為，但一次載入1000筆記錄，並在捲動時載入下一個1000筆。
+* 快速搜尋適用於所有記錄，而不只是顯示在目前檢視中的記錄。 當您同時捲動時間軸和表格檢視時，會載入更多記錄。
+* 在時間軸檢視中套用快速搜尋，且找到超過1000個專案時，您可以按一下時間軸底部的「載入更多」 ，以顯示更多符合搜尋的記錄。
 
 如需詳細資訊，請參閱[管理資料表檢視](/help/quicksilver/planning/views/manage-the-table-view.md)和[管理時間表檢視](/help/quicksilver/planning/views/manage-the-timeline-view.md)。
 

@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0bcb6ef2abbf3789339af27119422ef413cd6eef
+source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
 workflow-type: tm+mt
 source-wordcount: '3223'
 ht-degree: 2%
@@ -329,7 +329,6 @@ ht-degree: 2%
       * Edit. Not available for View. 
       * Delete. Not available for Contribute and View. 
       </div>
-
    1. <span class="preview"> In the **Search for people, groups, teams, roles and companies** field, start adding entities and grant them View, Contribute, or Manage permissions.</span> 
       >[!TIP]
       >
