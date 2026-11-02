@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Security
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
     internal-label: Taxonomy
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0cedd58bb89825150b201e3aefd17bee12ff85e6
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1196'
 ht-degree: 12%
 ---
 # 事件訂閱資源欄位
@@ -77,18 +77,15 @@ ht-degree: 12%
    <td> ID </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> isLocked </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> 物件代碼 </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -135,12 +132,10 @@ ht-degree: 12%
    <td> ID </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> isLocked </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -151,7 +146,6 @@ ht-degree: 12%
    <td> </td> 
    <td> 物件代碼 </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -198,13 +192,10 @@ ht-degree: 12%
    <td> decisionuserid </td> 
   </tr> 
   <tr> 
-  <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> 物件代碼 </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -381,7 +372,6 @@ ht-degree: 12%
    <td> securityRootID </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td>狀態</td> 
@@ -404,7 +394,7 @@ ht-degree: 12%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>workPerDate <p>[!BADGE 已移除]{type=negative tooltip="此欄位已於2023年10月26日移除。"}</span></td> 
+   <td>workPerDate <p>[！BADGE已移除]{type=negative tooltip="此欄位已於2023年10月26日移除。"}</span></td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -477,18 +467,15 @@ ht-degree: 12%
    <td> ID </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> extRefId </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> groupID </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -509,7 +496,6 @@ ht-degree: 12%
    <td> </td> 
    <td> 物件代碼 </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -1866,6 +1852,16 @@ ht-degree: 12%
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>isPrivate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>noteObjCode</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>附註文字</td> 
   </tr> 
   <tr> 
@@ -1931,6 +1927,11 @@ ht-degree: 12%
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>proofID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>proofactionid</td> 
   </tr> 
   <tr> 
@@ -1977,6 +1978,11 @@ ht-degree: 12%
    <td> </td> 
    <td> </td> 
    <td>timesheetID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>topNoteObjCode</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2192,6 +2198,11 @@ ht-degree: 12%
    <td> </td> 
    <td> </td> 
    <td>companyID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>條件</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2764,18 +2775,15 @@ ht-degree: 12%
    <td> companyID </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> 貨幣 </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> customerID </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -2897,18 +2905,15 @@ ht-degree: 12%
    <td> 數字值 </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> 物件代碼 </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> 物件ID </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -2955,18 +2960,15 @@ ht-degree: 12%
    <td> categoryID </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> customerID </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> entryDate </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -3043,18 +3045,15 @@ ht-degree: 12%
    <td> ID </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> 物件代碼 </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> rateattributeid </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -3091,12 +3090,10 @@ ht-degree: 12%
    <td> 物件代碼 </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> systemGenerate </td> 
   </tr> 
-  <tr> 
   <tr> 
    <td>人員配置計畫資源引數值 <p>（事件子集v2）</p></td> 
    <td>SRPVAL</td> 
@@ -3118,18 +3115,15 @@ ht-degree: 12%
    <td> 數字值 </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> 物件代碼 </td> 
   </tr> 
   <tr> 
-  <tr> 
    <td> </td> 
    <td> </td> 
    <td> 物件ID</td> 
   </tr> 
-  <tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
@@ -3219,11 +3213,6 @@ ht-degree: 12%
    <td> </td> 
    <td> </td> 
    <td>entryDate</td> 
-  </tr> 
-  <tr> 
-   <td> </td> 
-   <td> </td> 
-   <td>lastUpdateDate</td> 
   </tr> 
   <tr> 
    <td> </td> 
