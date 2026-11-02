@@ -24,7 +24,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 046d6314c87d227891a89a1df7684ddef726d46a
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ht-degree: 0%
   <tr>
    <td><strong>Workfront授權</strong>
    </td>
-   <td> <p>標準</p>&gt;
+   <td> <p>標準</p>
    </td>
   </tr>
    <tr>
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 1. 若要新增其他型別的物件，請重複步驟7-9。
 1. （選擇性）若要從封裝中移除物件，請將游標暫留在「封裝內容」區域中的物件上，然後按一下物件旁邊的X。
-1. 將所有想要的物件加入封裝之後，按一下[儲存並關閉] **&#x200B;**&#x200B;儲存封裝而不進行組裝。
+1. 將所有想要的物件加入封裝之後，按一下[儲存並關閉] ****&#x200B;儲存封裝而不進行組裝。
 
    或
 
@@ -127,6 +127,6 @@ ht-degree: 0%
 1. 在產生的比較中，選取要包含在封裝中的物件。
 1. 按一下熒幕右上角的&#x200B;**建立封裝**。
 1. 輸入封裝的名稱和描述。
-1. 在[建立封裝]視窗中，按一下[建立封裝]。**&#x200B;**
+1. 在[建立封裝]視窗中，按一下[建立封裝]。****
 
    套件隨即產生。
