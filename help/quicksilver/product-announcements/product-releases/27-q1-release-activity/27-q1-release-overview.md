@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 3357df4d9805b7a8252a79b070295a0b55a2cd42
+source-git-commit: 8f435f1c501822066f115b33c0d89727e72d57c1
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1137'
 ht-degree: 3%
 ---
 
@@ -61,6 +61,15 @@ ht-degree: 3%
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">將自訂欄位標示為我的最愛</a></p>
                 <p>您現在可以將自訂欄位標示為我的最愛，這樣當您建立篩選器、檢視和群組時，它就會顯示在可用欄位的頂端，並顯示在表單設計器欄位資料庫中。</p>
+            </td>
+            <td><p>2026年10月29日</p></td>
+            <td><p>2026年11月12日</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">變更格式時已在自訂欄位上驗證的值</a></p>
+                <p>現在，當您將現有的文字自訂欄位格式變更為數字或貨幣時，系統會檢查不相容的值。</p>
             </td>
             <td><p>2026年10月29日</p></td>
             <td><p>2026年11月12日</p></td>
