@@ -4,9 +4,9 @@ description: 2027年第一季度管理員增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: cb4679716489be235d72b67aa660c6cb71536f04
+source-git-commit: 8f435f1c501822066f115b33c0d89727e72d57c1
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '413'
 ht-degree: 0%
 ---
 
@@ -39,6 +39,20 @@ ht-degree: 0%
 您現在可以在欄位清單或自訂表格設計工具中，將自訂欄位標示為我的最愛。 當您使用某些清單和報告（例如專案、任務和問題清單）並建立篩選器、檢視和分組時，最喜愛的欄位會出現在「建議」區段中可用欄位清單的最上方。
 
 標籤為我的最愛欄位也會出現在表單設計器的欄位資料庫頂端。
+
+如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
+
+## 變更格式時已在自訂欄位上驗證的值
+
+>[!NOTE]
+>
+>預覽： 2026年10月29日
+>生產快速發行： 2026年11月12日
+>適用於所有人的生產： 2027年1月21日
+
+現在，當您將現有的文字自訂欄位格式變更為數字或貨幣時，系統會檢查不相容的值。
+
+如果欄位的現有值都是數字，則系統僅會更新欄位格式。 但是，如果任何現有值為非數值，系統會顯示警告訊息，指出當您儲存欄位時，系統會清除不相容的值。
 
 如需詳細資訊，請參閱[建立自訂表格](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
