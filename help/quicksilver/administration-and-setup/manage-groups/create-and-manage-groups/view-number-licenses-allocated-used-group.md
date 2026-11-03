@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: cb0f538ff392ebff585fbdeeba3729d9b2247292
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 4%
+source-wordcount: '476'
+ht-degree: 3%
 ---
 # 檢視群組中配置及使用的授權數目
 
@@ -72,11 +72,16 @@ ht-degree: 4%
 1. 在左側面板中，按一下&#x200B;**群組** ![群組](assets/groups-icon.png)。
 
 1. 按一下群組的名稱。
-1. 在顯示的頁面上，在右上角附近的標頭區域中，檢視&#x200B;**使用中的授權**&#x200B;區域，以檢視目前使用的&#x200B;**計畫**&#x200B;和&#x200B;**工作**&#x200B;授權數目。
+1. 在顯示的頁面上，在右上角附近的標頭區域中檢視&#x200B;**使用中的授權**&#x200B;區域，以檢視目前使用的授權數目。
 
-   如果您檢視的是頂層群組，而Workfront管理員已為群組定義了每個授權型別的最大數量，這些數字也會顯示。 例如，在下列群組中，最多10名使用者可以擁有「計畫」授權，15名使用者可以擁有「工作」授權：
+   根據您的Workfront套件，授權可能是：
 
-   ![已配置的授權](assets/licenses-used-allocated.png)
+   * **標準**&#x200B;和&#x200B;**輕度**
+   * **計畫**&#x200B;和&#x200B;**工作**
+
+   ![已配置的授權](assets/how-many-licenses-standard-light.png)
+
+   如果您檢視的是頂層群組，而Workfront管理員已為群組定義了每個授權型別的最大數量，這些數量也會以比率顯示。 例如，2/10表示已在10個可用授權中指派了兩個授權。
 
    如需Workfront管理員如何定義群組最大分配授權數目的詳細資訊，請參閱[管理系統中的可用授權](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)一文中的[設定主群組的授權數目上限](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md#set)小節。
 
@@ -84,15 +89,14 @@ ht-degree: 4%
    >
    >如果您要檢視的群組是子群組，您只能檢視正在使用的授權數目，而非配置給該群組的授權數目上限。 這是因為Workfront管理員不會為子群組定義授權數量上限。
    >
-   >![在子群組](assets/subgroup-used-licenses-only.png)中使用授權
-   >
 
-1. 如需群組目前使用的每種授權型別（包括檢閱和要求）的個別計數，請按一下&#x200B;**使用中授權正下方的文字區域：**
+1. 若要取得群組目前使用之每種授權型別的個別計數（包括檢閱和請求），請按一下顯示使用中授權的區域。
 
-   ![按一下以檢視更多](assets/click-text-to-see-more.png)
+   顯示的方塊會為所有適用的Workfront授權型別提供相同資訊。 根據您的Workfront套件，這可能是：
 
-   顯示的方塊針對所有四種Workfront授權型別提供相同的資訊：計畫、工作、稽核和請求。 在方塊底部，您可以看到此群組或其子群組的成員所使用的授權總數：
+   * 標準、輕度、貢獻者和外部
+   * 計畫、工作、稽核和請求
 
-   ![更多授權資訊](assets/more-license-info.png)
+   在方塊底部，您可以看到此群組或其子群組的成員所使用的授權總數。
 
    對於「檢閱和請求」授權，「最大值」欄一律顯示「無限制」。
