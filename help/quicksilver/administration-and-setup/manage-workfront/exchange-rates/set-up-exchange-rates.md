@@ -25,16 +25,17 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d2f7cb46001ac260801ef28a0d0e936249cc1cfa
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 4%
+source-wordcount: '938'
+ht-degree: 3%
 ---
 # 設定匯率
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">*** DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
+
 
 身為Adobe Workfront管理員，您可以在Workfront中設定貨幣匯率。 這包含下列專案：
 
@@ -109,6 +110,14 @@ ht-degree: 4%
 ## 設定貨幣匯率的有效日期
 
 幣別匯率的有效日期設定為匯率值在特定日期結束，而另一個匯率開始。 然後會在財務計算中使用正確日期的匯率。
+
+>[!NOTE]
+>
+>設定日期有效匯率會定義適用於特定日期的系統匯率。 這並不表示所有專案財務計算每天都使用不同的匯率。
+>
+>當專案的&#x200B;**使用來自系統**&#x200B;的生效日期匯率設定開啟時，計畫成本和收入使用專案的&#x200B;**匯率日期**&#x200B;生效的系統匯率。 他們不會自動使用每日計畫工作之有效率。
+>
+>如需有關設定專案以使用系統層級日期有效匯率的資訊，請參閱[編輯專案](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md#finance)。
 
 {{step-1-to-setup}}
 
