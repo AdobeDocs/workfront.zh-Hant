@@ -24,7 +24,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 046d6314c87d227891a89a1df7684ddef726d46a
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ht-degree: 0%
   <tr>
    <td><strong>Workfront授權</strong>
    </td>
-   <td> <p>標準</p>&gt;
+   <td> <p>標準</p>
    </td>
   </tr>
    <tr>
