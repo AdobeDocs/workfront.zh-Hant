@@ -28,13 +28,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
-source-wordcount: 636
+source-wordcount: '636'
 ht-degree: 4%
-
 ---
-
 # 更新任務狀態
 
 <!--Audited: 10/2024-->
@@ -112,10 +110,19 @@ Old:
 
 * 將任務標示為「完成」時，任務的完成百分比會更新為100%。
 * 父系任務存在下列情況：
-   * 當專案的摘要完成模式設定為自動且子任務未完成時，您無法將父系任務的狀態更新為完成。
-   * 當專案的「摘要完成模式」設定為「手動」，且子任務已完成或未完成時，您可以將父系任務的「狀態」更新為「完成」。
+  * 當專案的摘要完成模式設定為自動且子任務未完成時，您無法將父系任務的狀態更新為完成。
+  * 當專案的「摘要完成模式」設定為「手動」，且子任務已完成或未完成時，您可以將父系任務的「狀態」更新為「完成」。
 
   如需詳細資訊，請參閱[編輯專案](../manage-projects/edit-projects.md)。
+
+<!--
+* If a task status is deleted or becomes unavailable, the Status of the task displays as Not applicable.  As a user with Manage permissions to the task, you can update the status to a different one, or ask a Workfront administrator to recreate the status or add a new one. 
+-->
+
+<!--
+IN THE ABOVE NOTE: ensure this is the status, because I asked for a change to "Not available"
+ALSO: see in the steps below for more commented out text. 
+-->
 
 ## 手動更新任務狀態
 
@@ -152,6 +159,12 @@ Old:
    >[!IMPORTANT]
    >
    >  只有任務受指派人可以更新認可日期。
+
+<!--
+1. (Conditional) When the status of the task is **Not applicable**, click the warning sign next to the **Status** field, select a new status from the list, then click **Save**. (*****************VERIFY UI - I ASKED FOR "Not available)
+
+  If you don't see an acceptable status, ask your administrator to create one.
+-->
 
 <!--
 old functionality in old commenting: 

@@ -5,7 +5,7 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 046d6314c87d227891a89a1df7684ddef726d46a
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
 source-wordcount: '1236'
 ht-degree: 2%
@@ -26,7 +26,7 @@ Not sure if this bit will ever be needed because this only exists when both Prev
 
 {{planning-important-intro}}
 
-<!--if Lilit says this is not for STA, break the intro and specify that-->
+<!--if Lilit says this is not for STA, break the intro and specify that; she is checking on this-->
 
 您可以使用「環境升級」功能，將Workfront Planning工作區、記錄型別、欄位和檢視從一個Workfront環境複製到另一個環境。
 
@@ -46,7 +46,7 @@ Not sure if this bit will ever be needed because this only exists when both Prev
   * 檢視
   * 階層
   * 共用所有物件的設定
-  * 自動化
+  * 自動化<!--this might not be part of it; Lilit is checking-->
   * 請求表單
   * 業務規則
   * 連線的物件
@@ -152,13 +152,13 @@ Not sure if this bit will ever be needed because this only exists when both Prev
    >[!TIP]
    >
    >建置封裝後，其狀態會設為&#x200B;**草稿**。 必須先測試封裝，才能使用&#x200B;**作用中**&#x200B;狀態。
-1. （建議使用）按一下[安裝]&#x200B;**&#x200B;**，然後選擇其中一個可用的測試環境來部署它並測試組態。
+1. （建議使用）按一下[安裝]****，然後選擇其中一個可用的測試環境來部署它並測試組態。
 
    >[!TIP]
    >
    >當狀態設定為&#x200B;**測試**&#x200B;時，生產環境不能作為其中一個選項使用。
 
-1. 在測試環境中安裝它之後，再按一下[編輯]，然後將&#x200B;**[狀態]**&#x200B;設定為&#x200B;**[使用中]**，再按一下[儲存]&#x200B;**，然後關閉**。**&#x200B;**
+1. 在測試環境中安裝它之後，再按一下[編輯]，然後將&#x200B;**[狀態]**&#x200B;設定為&#x200B;**[使用中]**，再按一下[儲存]**，然後關閉**。****
 
    >[!TIP]
    >
@@ -169,7 +169,7 @@ Not sure if this bit will ever be needed because this only exists when both Prev
 
 ### 在目標環境中安裝套件
 
-1. 在封裝頁面上，驗證封裝後，按一下[安裝]。**&#x200B;**
+1. 在封裝頁面上，驗證封裝後，按一下[安裝]。****
 1. 在&#x200B;**目標環境**&#x200B;清單中，選取要部署到的環境（例如您的生產環境），然後按一下&#x200B;**繼續**。 預設目標是目前的環境。
 1. 在&#x200B;**封裝資訊**&#x200B;頁面上，確認您要部署到的來源環境與環境。
 1. 在&#x200B;**物件對應**&#x200B;區段中，展開每個物件群組（例如&#x200B;**群組**&#x200B;和&#x200B;**規劃工作區**）以檢閱物件。

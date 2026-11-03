@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1295'
 ht-degree: 0%
 ---
 
@@ -52,8 +52,8 @@ Adobe構思空間是Adobe由AI支援的戰略構思功能，直接內建在Workf
 創意空間可能會有所變更的計畫發行時間表包括以下里程碑：
 
 * **已關閉的Beta：**&#x200B;已於2026年7月推出，適合少數客戶使用。
-* **開啟Beta：**，目標為2026年11月。 這將是一種選擇加入服務，客戶必須主動開啟並設定該選項，而不是主動選擇退出。
-* **一般可用性：**&#x200B;目標為2027年。
+* **開啟Beta：**，目標為2026年11月12日。 這是選擇加入服務，您必須主動開啟選項，而不是主動選擇退出。
+* **一般可用性：**&#x200B;預計於2027年2月1日推出。
 
 ## 產品需求
 
@@ -237,10 +237,10 @@ Worth noting
 
 ## 其他資源
 
-* [Adobe Workfront行銷活動規劃](https://business.adobe.com/tw/products/workfront/campaign-planning.html)
+* [Adobe Workfront行銷活動規劃](https://business.adobe.com/products/workfront/campaign-planning.html)
 * [Adobe Workfront規劃檔案](/help/quicksilver/planning/planning-information.md)
-* [Adobe GenStudio概觀](https://business.adobe.com/tw/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/tw/products/adobe-analytics/customer-journey-analytics.html)
+* [Adobe GenStudio概觀](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
 
 
 <!--

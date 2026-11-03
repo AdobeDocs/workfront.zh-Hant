@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 046d6314c87d227891a89a1df7684ddef726d46a
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 2%
@@ -140,6 +140,10 @@ ht-degree: 2%
 -->
 
 <!--
+
+**** Automations might not be part of this
+**** Planning STA might not be supported - Lilit is checking on this
+
 ## Workfront Planning objects
 
 >[!IMPORTANT]
@@ -191,7 +195,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>ASSEMBLY_FAILED</td> 
-   <td><p>如果ASSEMBLY階段失敗，則推進封裝會自動處於此狀態。</p><p>若要將封裝返回ASSEMBLING階段，您必須再次觸發組裝過程。</p><p>如需組裝套件的詳細資訊，請參閱文章建立或編輯環境升級套件中的<a href="https://experienceleague.adobe.com/zh-hant/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">編輯或組裝現有套件</a>小節。</td> 
+   <td><p>如果ASSEMBLY階段失敗，則推進封裝會自動處於此狀態。</p><p>若要將封裝返回ASSEMBLING階段，您必須再次觸發組裝過程。</p><p>如需組裝套件的詳細資訊，請參閱文章建立或編輯環境升級套件中的<a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">編輯或組裝現有套件</a>小節。</td> 
   </tr> 
   </tbody> 
 </table>

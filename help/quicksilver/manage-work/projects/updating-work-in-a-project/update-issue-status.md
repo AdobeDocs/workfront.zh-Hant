@@ -30,13 +30,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
-source-wordcount: 641
+source-wordcount: '641'
 ht-degree: 6%
-
 ---
-
 # 更新問題狀態
 
 <!--Audited: 01/2024-->
@@ -126,6 +124,18 @@ Old:
 * [建立或編輯狀態](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)
 * [建立問題](../../../manage-work/issues/manage-issues/create-issues.md)
 
+<!--
+
+>[!NOTE]
+>
+>If an issue status is deleted or becomes unavailable, the Status of the issue displays as Not applicable.  As a user with Manage permissions to the issue, you can update the status to a different one, or ask a Workfront administrator to recreate the status or add a new one. 
+-->
+<!--
+IN THE ABOVE NOTE: ensure this is the status, because I asked for a change to "Not available"
+ALSO: see in the steps below for more commented out text. 
+-->
+
+
 您可以手動更新問題狀態，也可以讓Workfront在某些動作發生時自動更新。
 
 ## 手動更新問題狀態
@@ -148,7 +158,7 @@ Old:
 
    在問題標題的泡泡內按一下以輸入百分比。
 
-   在標題![&#128279;](assets/nwe-updatetaskpercentinheader-350x54.png)中更新任務完成百分比
+   在標題](assets/nwe-updatetaskpercentinheader-350x54.png)中![更新任務完成百分比
 
 1. （可選）執行下列任一項作業，以提供有關更新的其他資訊：
 
@@ -164,7 +174,11 @@ Old:
    >
    >  只有問題受指派人可以更新認可日期。
 
+<!--
+1. (Conditional) When the status of the issue is **Not applicable**, click the warning sign for the **Status** field, select a new status from the list, then click **Save**. (*****************VERIFY UI - I ASKED FOR "Not available)
 
+  If you don't see an acceptable status, ask your administrator to create one.
+-->
 
 <!--
 Old instructions, in old commenting: 
