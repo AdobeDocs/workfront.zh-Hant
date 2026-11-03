@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a2fa27fa656dcc4a9799b20b734a7a0121470419
+source-git-commit: 4ea8bc003ce17978be5e5a6fd838012dfcfeae78
 workflow-type: tm+mt
-source-wordcount: '3387'
+source-wordcount: '3298'
 ht-degree: 1%
 ---
 # 設定我的設定
@@ -421,10 +421,12 @@ ht-degree: 1%
     &lt;/p>&lt;/td>
 </tr>
   --&gt; 
+  <!--
   <tr> 
-   <td role="rowheader"><strong>（視條件而定） [!UICONTROL 使用者可以產生校訂（剩下……個校訂授權中的……）]</strong></td> 
-   <td>此欄位僅在貴公司使用舊版[!DNL Workfront]封裝且已購買[!DNL Workfront Proof]元件時可用。 選取後，您即成為校訂使用者。 它也會顯示系統中使用的校訂授權數量在購買的總校訂授權數量中。 只有身為[!DNL Workfront]管理員的使用者才能看見及編輯此欄位。 如需有關[!DNL Workfront]中校訂的計畫選項的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">在[!DNL Workfront]</a>中存取校訂功能。</td>
+   <td role="rowheader"><strong>(Conditional) [!UICONTROL User can generate proofs (... out of ... proof licenses left)]</strong></td> 
+   <td>This field is available only if your company uses a legacy [!DNL Workfront] package and has purchased the [!DNL Workfront Proof] component. When it is selected, you are enabled as a proofing user. It also displays the number of proof licenses used in your system out of the total number of proof licenses purchased. This field is visible and editable only to users who are also [!DNL Workfront] administrators. For more information about the plan options for proofing in [!DNL Workfront], see <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">Access to proofing functionality in [!DNL Workfront]</a>.</td>
   </tr> 
+  -->
   <tr> 
    <td role="rowheader"><strong>（視條件而定） [!UICONTROL 許可權設定檔]</strong></td> 
    <td> <p>此欄位顯示您在[!DNL Workfront Proof]中的存取層級。 它僅在以下情況下才可用：</p> 
