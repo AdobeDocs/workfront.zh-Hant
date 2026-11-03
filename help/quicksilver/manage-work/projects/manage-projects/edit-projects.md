@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d2f7cb46001ac260801ef28a0d0e936249cc1cfa
+source-git-commit: 4b5e1563a302c9b7f75e5df085d5c6c4c947db8e
 workflow-type: tm+mt
-source-wordcount: '8209'
+source-wordcount: '8244'
 ht-degree: 1%
 ---
 # 編輯專案
@@ -454,10 +454,10 @@ Old:
     <tbody> 
      <tr>
       <td><strong>使用系統中的生效日期匯率</strong></td>
-      <td><p>選取此選項時，一律會使用系統層級的日期有效匯率，且專案上不允許匯率覆寫。</p><p>如需有關匯率的詳細資訊，請參閱<a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">設定匯率</a>。 </p></td> 
+      <td><p>選取此選項可一律使用系統層次日期有效匯率，並防止專案上的匯率覆寫。</p><p>如需有關匯率的詳細資訊，請參閱<a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">設定匯率</a>。 </p></td> 
      </tr>
      <tr><td><strong>匯率日期</strong></td>
-     <td><p>當您選擇使用系統中的日期有效匯率時，您必須選取日期。 此日期用於定義計畫成本與收入的匯率。</p><p>對於實際成本與收入，會使用記錄時數之日期的匯率。</p></td>
+     <td><p>當您選取使用系統中日期有效匯率的選項時，您也必須選取日期。 此日期用於定義計畫成本與收入的匯率。</p><p>例如，如果「匯率日期」是2月12日，Workfront會使用2月12日的系統層級匯率進行計畫成本與收入幣別轉換，即使計畫工作在其他日期發生。</p><p>對於實際成本與收入，會使用記錄時數之日期的匯率。</p></td>
      </tr>
      <tr>
       <td><strong>保留專案計費費率資訊</strong></td>
@@ -879,7 +879,7 @@ Old:
 
    當自訂表單已附加到某些所選專案時，表單名稱旁邊會顯示新增表單時已附加表單的專案數量。
 
-1. （選擇性）按一下自訂表單名稱右邊的&#x200B;**x**&#x200B;圖示，然後按一下[移除]&#x200B;**&#x200B;**，將其從所有選取的專案中移除。
+1. （選擇性）按一下自訂表單名稱右邊的&#x200B;**x**&#x200B;圖示，然後按一下[移除]****，將其從所有選取的專案中移除。
 
    >[!CAUTION]
    >
@@ -889,13 +889,13 @@ Old:
 
 1. 按一下&#x200B;**財務**，編輯所有選取專案的財務資訊。
 如需有關編輯財務區域的詳細資訊，請參閱本文章的[財務](#finance)小節。
-1. 按一下&#x200B;**專案設定**&#x200B;以編輯所有選取專案的設定。
+1. 按一下&#x200B;**專案設定**以編輯所有選取專案的設定。
 如需有關編輯[專案設定]區域的詳細資訊，請參閱本文中的[專案設定](#project-settings)小節。
 1. 按一下「**任務設定**」以編輯所有選定專案的任務設定。
 如需有關編輯[工作設定]區域的詳細資訊，請參閱本文中的[工作設定](#task-settings)小節。
-1. 按一下&#x200B;**問題設定**&#x200B;以編輯所有選定專案的問題設定。
+1. 按一下&#x200B;**問題設定**以編輯所有選定專案的問題設定。
 如需有關編輯問題設定區域的詳細資訊，請參閱本文中的[問題設定](#issue-settings)小節。
-1. 按一下&#x200B;**存取**&#x200B;以編輯所有選取專案的存取設定。
+1. 按一下&#x200B;**存取**以編輯所有選取專案的存取設定。
 如需有關編輯[存取]區域的詳細資訊，請參閱本文中的[存取](#access)一節。
 1. 按一下&#x200B;**註解**，然後在提供的空間新增註解。 Workfront在每個專案的&#x200B;**更新**&#x200B;區域新增註解。 如需更新工作的相關資訊，請參閱[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 1. （選擇性）若要移除您在「編輯專案」方塊中新增的任何資訊，請將游標移至已編輯的欄位上，然後按一下欄位右上角的&#x200B;**x**&#x200B;捨棄圖示。
