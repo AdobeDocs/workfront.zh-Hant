@@ -5,7 +5,7 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 046d6314c87d227891a89a1df7684ddef726d46a
+source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
 workflow-type: tm+mt
 source-wordcount: '1236'
 ht-degree: 2%
@@ -26,7 +26,7 @@ Not sure if this bit will ever be needed because this only exists when both Prev
 
 {{planning-important-intro}}
 
-<!--if Lilit says this is not for STA, break the intro and specify that-->
+<!--if Lilit says this is not for STA, break the intro and specify that; she is checking on this-->
 
 您可以使用「環境升級」功能，將Workfront Planning工作區、記錄型別、欄位和檢視從一個Workfront環境複製到另一個環境。
 
@@ -46,7 +46,7 @@ Not sure if this bit will ever be needed because this only exists when both Prev
   * 檢視
   * 階層
   * 共用所有物件的設定
-  * 自動化
+  * 自動化<!--this might not be part of it; Lilit is checking-->
   * 請求表單
   * 業務規則
   * 連線的物件

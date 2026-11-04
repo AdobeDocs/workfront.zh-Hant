@@ -35,13 +35,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4b5e1563a302c9b7f75e5df085d5c6c4c947db8e
 workflow-type: tm+mt
-source-wordcount: 7995
+source-wordcount: '8244'
 ht-degree: 1%
-
 ---
-
 # 編輯專案
 
 <!--Audited: 07/2024-->
@@ -146,8 +144,8 @@ Old:
 * 只有在Workfront管理員或群組管理員在專案偏好設定區域中啟用此功能時，您才能將檔案或範本附加至狀態為「完成」、「廢棄」或「擱置核准」的專案。 如需有關設定專案偏好設定的資訊，請參閱[設定全系統的專案偏好設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)。
 * 您只能在處於廢棄或完成狀態的專案上編輯下列資訊：
 
-   * 修改現有費用。
-   * 新增、移除或編輯自訂表格。
+  * 修改現有費用。
+  * 新增、移除或編輯自訂表格。
 
 ## 編輯專案
 
@@ -294,7 +292,7 @@ Old:
       </tr> 
       <tr> 
          <td role="rowheader"><strong>排程模式</strong> </td> 
-         <td> <p>指定專案是從「開始日期」排程，還是從「完成日期」排程。此選取範圍決定專案上任務的計畫日期。 
+         <td> <p>指定專案是從「開始日期」排程，還是從「完成日期」排程。 此選取範圍決定專案上任務的計畫日期。 
          <ul> 
          <li><strong>開始日期</strong>：依照預設，專案的第一項任務的計劃開始日期與專案相同。 如需任務計劃開始日期的相關資訊，請參閱<a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">任務計劃開始日期</a>的總覽。 專案時間表會從開始日期開始計算，而專案完成日期則由系統根據所有任務的持續時間來計算。 </li> 
          <li><strong>完成日期</strong>：專案的最後一個任務具有與專案相同的計畫完成日期。 專案時間表會從「完成日期」開始計算，而專案的「開始日期」則由系統計算，方法是從專案的「完成日期」減去所有任務的持續時間。 </li> 
@@ -310,7 +308,7 @@ Old:
       </tr> 
       <tr> 
       <td role="rowheader"><strong>專案組合</strong></td> 
-      <td>指出專案所屬的Portfolio。您必須先建立Portfolio，才能讓其出現在下拉式清單中。只有作用中的專案組合可以與專案相關聯。如需關於建立投資組合的詳細資訊，請參閱<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">建立投資組合</a>。
+      <td>指出專案所屬的Portfolio。 您必須先建立Portfolio，才能讓其出現在下拉式清單中。 只有作用中的專案組合可以與專案相關聯。 如需關於建立投資組合的詳細資訊，請參閱<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">建立投資組合</a>。
       <p><b>附註</b></p>
       <ul>
       <li>您必須擁有投資組合的管理許可權，才能在專案中新增或移除投資組合。</li>
@@ -456,7 +454,10 @@ Old:
     <tbody> 
      <tr>
       <td><strong>使用系統中的生效日期匯率</strong></td>
-      <td><p>選取此選項時，一律會使用系統層級的日期有效匯率，且專案上不允許匯率覆寫。</p> <p>選取選項時，您也必須選取要開始的<strong>匯率日期</strong>。</p></td> 
+      <td><p>選取此選項可一律使用系統層次日期有效匯率，並防止專案上的匯率覆寫。</p><p>如需有關匯率的詳細資訊，請參閱<a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">設定匯率</a>。 </p></td> 
+     </tr>
+     <tr><td><strong>匯率日期</strong></td>
+     <td><p>當您選取使用系統中日期有效匯率的選項時，您也必須選取日期。 此日期用於定義計畫成本與收入的匯率。</p><p>例如，如果「匯率日期」是2月12日，Workfront會使用2月12日的系統層級匯率進行計畫成本與收入幣別轉換，即使計畫工作在其他日期發生。</p><p>對於實際成本與收入，會使用記錄時數之日期的匯率。</p></td>
      </tr>
      <tr>
       <td><strong>保留專案計費費率資訊</strong></td>
@@ -526,7 +527,7 @@ Old:
       </tr> 
       <tr> 
       <td role="rowheader"><strong>完成模式</strong> </td> 
-      <td> <p>控制如何將專案標示為完成。從下列選項中選取： 
+      <td> <p>控制如何將專案標示為完成。 從下列選項中選取： 
        <ul> 
        <li><p><strong>自動</strong>：當所有任務和問題都完成時，專案會標示為完成。</p><p>專案狀態只有在任務完成時專案狀態為目前時，才會自動變更為完成。 </p></li> 
        <li><strong>手動</strong>：您必須在所有任務和問題都完成時，手動選取專案的完成狀態。</li> 
@@ -534,7 +535,7 @@ Old:
        </tr> 
        <tr> 
        <td role="rowheader"><strong>摘要完成模式</strong></td> 
-       <td> <p>控制如何將父系任務標示為完成。從下列選項中選取： 
+       <td> <p>控制如何將父系任務標示為完成。 從下列選項中選取： 
        <ul> 
        <li><strong>自動</strong>：父系任務標示為「完成」，而且當子系任務完成且子系完成百分比更新時，父系任務會自動更新完成百分比。 </li> 
        <li><strong>手動</strong>：您必須手動更新完成百分比和父系任務的狀態，而不考慮對子系任務所做的變更。 這可讓您標籤已完成父系任務，即使子任務未完成。 </li> 
@@ -542,7 +543,7 @@ Old:
        </tr> 
        <tr> 
        <td role="rowheader"><strong>更新類型</strong></td> 
-       <td> <p>控制您對專案時間表所做的變更何時儲存在專案或父任務上。例如，專案的下列變更會觸發專案時間表更新： 
+       <td> <p>控制您對專案時間表所做的變更何時儲存在專案或父任務上。 例如，專案的下列變更會觸發專案時間表更新： 
        <ul> 
        <li>更新任務日期</li> 
        <li>變更任務的前置任務關係</li> 
@@ -813,17 +814,17 @@ Old:
 
 * 除了「多個值」指標外，當至少有一個選定專案上的選定選項不同時，具有多個選項的欄位會以下列其中一種方式顯示：
 
-   * 核取方塊欄位中會有一行，而不是針對已勾選部分而非所有選定專案的選項勾選的核取方塊。
+  * 核取方塊欄位中會有一行，而不是針對已勾選部分而非所有選定專案的選項勾選的核取方塊。
 
-     ![大量編輯專案方塊中的多個值指標核取方塊](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
+    ![大量編輯專案方塊中的多個值指標核取方塊](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
 
-   * 切換型別欄位會顯示為暗灰色，且中間會有一個切換選項，該選項已啟用部分而非所有選定專案。
+  * 切換型別欄位會顯示為暗灰色，且中間會有一個切換選項，該選項已啟用部分而非所有選定專案。
 
   ![大量編輯專案中反白顯示的多個值](assets/multiple-values-highlighted-bulk-edit-projects.png)
 
-   * 已選取部分選項但不是全部選項的單選按鈕型別欄位，會將所有單選按鈕顯示為空白。
+  * 已選取部分選項但不是全部選項的單選按鈕型別欄位，會將所有單選按鈕顯示為空白。
 
-     ![多個值指標選項按鈕大量編輯專案方塊](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
+    ![多個值指標選項按鈕大量編輯專案方塊](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
 
 * 當您在多選項欄位（例如顯示為一組切換或核取方塊的欄位）中更新一個選項時，所選專案之間的所有其他選項必須相符。
 
@@ -889,13 +890,13 @@ Old:
 1. 按一下&#x200B;**財務**，編輯所有選取專案的財務資訊。
 如需有關編輯財務區域的詳細資訊，請參閱本文章的[財務](#finance)小節。
 1. 按一下&#x200B;**專案設定**&#x200B;以編輯所有選取專案的設定。
-如需有關編輯[專案設定]區域的詳細資訊，請參閱本文的[專案設定](#project-settings)小節。
+如需有關編輯[專案設定]區域的詳細資訊，請參閱本文中的[專案設定](#project-settings)小節。
 1. 按一下「**任務設定**」以編輯所有選定專案的任務設定。
 如需有關編輯[工作設定]區域的詳細資訊，請參閱本文中的[工作設定](#task-settings)小節。
 1. 按一下&#x200B;**問題設定**&#x200B;以編輯所有選定專案的問題設定。
 如需有關編輯問題設定區域的詳細資訊，請參閱本文中的[問題設定](#issue-settings)小節。
 1. 按一下&#x200B;**存取**&#x200B;以編輯所有選取專案的存取設定。
-如需有關編輯[存取]區域的詳細資訊，請參閱本文的[存取](#access)一節。
+如需有關編輯[存取]區域的詳細資訊，請參閱本文中的[存取](#access)一節。
 1. 按一下&#x200B;**註解**，然後在提供的空間新增註解。 Workfront在每個專案的&#x200B;**更新**&#x200B;區域新增註解。 如需更新工作的相關資訊，請參閱[更新工作](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 1. （選擇性）若要移除您在「編輯專案」方塊中新增的任何資訊，請將游標移至已編輯的欄位上，然後按一下欄位右上角的&#x200B;**x**&#x200B;捨棄圖示。
 
