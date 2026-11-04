@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2c62a1bacd6b2826f08e11a84f55e174cdd313c3
+source-git-commit: 2df240b7a3c04c34f37337532e5a94fc0b12769f
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 7%
+source-wordcount: '757'
+ht-degree: 5%
 ---
 # 使用我的核准Widget管理您的核准
 
@@ -44,6 +44,10 @@ ht-degree: 7%
 * 校訂
 * 計畫記錄請求
 * 時程表
+
+>[!NOTE]
+>
+>如果您的組織使用Adobe雲端儲存空間，則僅當與您共用包含檔案的專案時，檔案核准才會顯示在Widget中。
 
 ## 存取權要求
 
@@ -79,6 +83,7 @@ ht-degree: 7%
 +++
 
 ## 從我的核准Widget核准工作
+
 
 1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**[!UICONTROL 首頁]**。
 1. （視條件而定）按一下&#x200B;**自訂**&#x200B;以新增&#x200B;**我的核准** Widget。
@@ -161,8 +166,25 @@ ht-degree: 7%
    </tr>
    </table>
 
-在您做出決定後，核准會從我的核准Widget中移除。
+## 從介面工具集移除核準時
 
->[!NOTE]
->
->當專案、任務或問題標籤為「已解決」、「保留」、「已關閉」或「已取消」時，也可以從「我的核准」Widget中移除工作核准。
+在您對核准做出決定後，它就會從我的核准Widget中移除。 在下列情況下也會移除核准：
+
+* **工作核准**：當專案處於下列其中一種狀態時，會從Widget移除專案、任務和問題的核准：
+  * 完成
+  * 廢棄
+  * 保留
+
+  >[!NOTE]
+  >
+  >如果專案處於未決核准，專案自己的核准仍可以顯示給其目前的核准者，但其任務和問題的任何核准不顯示。
+
+
+* **舊版檔案核准**：舊版檔案核准會根據檔案直接附加至之物件的狀態從Widget移除，而非移除至父物件。 當物件處於以下其中一種狀態時，會移除核准：
+  * 專案：完成或廢棄
+  * 任務：完成
+  * 問題：已關閉或已關閉的狀態。 這包括「已解決」、「將不會解決」、「無法複製」以及「已驗證完成」。
+
+* **整合式核准**：無論專案、任務或問題狀態為何，整合式核准都會保留在Widget中。 其可見性由核准工作流程及您的未決核准責任控制，因此可在整個工作流程完成之前從介面工具中移除核准。
+
+自訂狀態會依循其相等於對應，因此相等於上述任何狀態的狀態會產生相同的結果。 即使物件已從Widget中移除，其核准仍可維持「擱置中」狀態。 如需自訂狀態的詳細資訊，請參閱[建立或編輯狀態](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)。
