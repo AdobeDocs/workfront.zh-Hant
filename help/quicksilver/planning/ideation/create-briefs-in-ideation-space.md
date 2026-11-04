@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: e209f8e5ada29b1c488fcfe42c13c6c9523a26bd
+source-git-commit: 17607dd765bdd4892ddc455cee48ab45db1fcd6b
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1776'
 ht-degree: 1%
 ---
 
@@ -122,7 +122,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -138,27 +138,36 @@ Or
 
 您可以建立摘要來建立或編輯Planning記錄，或是建立可匯出至其他應用程式的檔案。
 
-1. 使用Planning （Co-worker已開啟）登入Workfront，並執行下列任一項作業：
+1. 使用Planning （Co-worker已開啟）登入Workfront，並執行下列其中一項作業，以首次開啟Ideation空間來建立簡介：
 
-   * 移至&#x200B;**主功能表** > **創意空間**
-   * 移至&#x200B;**主功能表** > **規劃** >按一下工作區>按一下記錄型別> **新記錄** > **開始創意空間**
-
-     如需有關使用創意力空間建立記錄的詳細資訊，請參閱[從創意力空間摘要建立Planning記錄](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)。
-   * 移至&#x200B;**主功能表** > **規劃** >按一下工作區>按一下記錄型別>按一下現有記錄> **在創意空間開啟**
+   * 移至&#x200B;**主功能表** ![主功能表](assets/main-menu-lines.png) > **創意空間**
+   * 移至&#x200B;**主功能表** ![主功能表](assets/main-menu-lines.png) > **規劃** >按一下工作區>按一下記錄型別> **新記錄** > **開始創意空間**
 
    創意力空間隨即開啟，新創意力預設會以下列格式命名：
 
    `catalyze-canvas-< number > - Month date, year at time` <!--submitted bug to change the default name to "Untitled ideation"-->
 
-   如果您從現有記錄中開啟創意效果，創意效果名稱會符合記錄的名稱。
+   如需有關使用創意力空間建立記錄的詳細資訊，請參閱[從創意力空間摘要建立Planning記錄](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)。
 
-1. （建議）按一下創意力名稱以變更名稱。
+1. （視條件而定）若要在Ideation space中開啟現有的簡介，請在已開啟Co-worker的情況下使用Planning登入Workfront，並執行下列任一項作業：
+
+   * 移至&#x200B;**主功能表** ![主功能表](assets/main-menu-lines.png) > **規劃** >按一下工作區>按一下記錄型別>按一下現有記錄> **在創意空間開啟**
+
+     創意力名稱符合紀錄的名稱。
+
+1. （建議）如果您是第一次開啟構思，請按一下構思名稱來變更名稱。
 
 1. （條件式與選擇性）若要開啟另一個現有的創意力空間，請按一下創意力名稱右側的下拉式功能表，依名稱搜尋，然後按一下顯示在清單中的創意力。
 
-1. 當&#x200B;**創意力空間**&#x200B;開啟時，CX Coworker會在右側開啟。 使用「同事」提示來說明您要建立的簡報。
+   **創意力空間**&#x200B;開啟，CX Coworker在右側開啟。
+1. 使用「同事」提示來說明您要建立的簡報。
 
    例如，輸入「為K-12學生建立返校行銷活動，以在美國進行8月份的活動，對象為美國的家長和教師」。  為了儘可能提供簡報，請儘可能指明可用於哪些行銷活動、時間表、利害關係人、核准查核點和其他詳細資訊的資訊。
+1. （選擇性）按一下Co-worker提示方塊中的&#x200B;**+**&#x200B;圖示，然後以下列方式附加資訊：
+
+   * **命令**：使用清單中的命令提示同事輸入內容。
+   * **附加檔案**：將檔案附加至提示方塊，以將檔案或其資訊新增至創意空間。 您必須要求同事根據檔案建立卡片，以便稍後將卡片傳送至簡報。
+   * **參考物件**：從清單中選取物件，以在您的創意中參考該物件。 物件必須存在於Workfront中。
 
 1. 按一下Enter。
 
@@ -171,6 +180,11 @@ Or
 1. （視條件而定）當同事提議建立創意的卡片時，回答&#x200B;**是**。
 
    卡片會新增至創意空間，您可以檢視每個卡片的來源，並決定要將哪個卡片新增至您的簡報。
+
+   >[!TIP]
+   >
+   >您不能直接將檔案新增到簡報。 您必須先將檔案資訊傳輸到可傳送給簡報的卡片。
+
 
 1. 按一下&#x200B;**搜尋**&#x200B;圖示![搜尋圖示](assets/search-icon.png)以搜尋創意力空間中的專案，然後按一下它顯示在清單中以導覽至它。
 
