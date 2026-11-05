@@ -4,9 +4,9 @@ description: 2027年第一季度檔案增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 3357df4d9805b7a8252a79b070295a0b55a2cd42
+source-git-commit: c2ff8f01bd660c91e249394e39820bfb5477b382
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '211'
 ht-degree: 0%
 ---
 
@@ -34,21 +34,57 @@ For more information, see [Delegate approval request](/help/quicksilver/review-a
 
 -->
 
-## 設定統一的稽核和核准電子郵件通知
-
->[!IMPORTANT]
->
->此功能在預覽環境中暫時不可用。
-
-
 <!--
+
+## Consistent review and approval buttons across documents
+
 >[!NOTE]
 >
->Preview: October 29, 2026
->Production fast release: November 12, 2026
+>Preview: November 5, 2026
+>Production fast release: December 17, 2026
 >Production for everyone: January 21, 2027
 
+Review and approval buttons now look and work the same everywhere you review documents: My approvals widget in Home, Document summary panel, the Document Details page, and the document preview page.
+
+In addition to a new look and feel, some buttons have new names:
+
+| Previous name | New name |
+| --- | --- |
+| Open proof | Open viewer |
+| Review and approve | Make decision |
+| Complete my review | Complete review |
+| Open in Frame.io | Open viewer |
+
+For more information, see [Review and approve documents](/help/quicksilver/documents/review-and-approve-documents.md).
+
 -->
+
+<!--
+
+## Turn the Approved with changes decision on or off
+
+>[!NOTE]
+>
+>Preview: November 5, 2026
+>Production fast release: December 17, 2026
+>Production for everyone: January 21, 2027
+
+If your organization uses Adobe cloud storage, System Administrators can now turn the "Approved with changes" decision on or off for document approvals. When it's on, reviewers see three decisions (Approved, Approved with changes, and Needs Work) in both the Workfront approval interface and the Frame.io viewer. When it's off, reviewers see only Approved and Needs Work.
+
+The setting lives on the Approval Settings page in Setup, and a live preview on that page shows exactly which decisions reviewers currently see.
+
+For more information, see [Configure the Approved with changes decision](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/configure-approved-with-changes.md).
+
+-->
+
+## 設定統一的稽核和核准電子郵件通知
+
+
+>[!NOTE]
+>
+>預覽： 2026年11月5日
+>生產快速發行： 2026年11月12日
+>適用於所有人的生產： 2027年1月21日
 
 您現在可以設定統一的稽核和核准電子郵件通知。 Workfront一律會傳送這些電子郵件，但您目前無法設定。 現在有18個通知已分組為統一核准，預設為作用中。 Workfront管理員可以在「設定」中為每個人啟用或停用這些設定，使用者可以在他們的設定檔中管理這些設定。
 

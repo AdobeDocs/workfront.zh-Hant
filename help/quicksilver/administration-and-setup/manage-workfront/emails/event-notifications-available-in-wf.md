@@ -30,16 +30,19 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 9803bd48a48eee4fc1df34e902b443f0306a63e5
 workflow-type: tm+mt
-source-wordcount: '5242'
-ht-degree: 8%
+source-wordcount: '5600'
+ht-degree: 9%
 ---
 # 事件通知型別
 
 <!-- Audited: 1/2024 -->
 
+{{highlighted-preview}}
+
 事件通知是由物件（例如專案、任務和問題）上各種型別的事件所觸發的電子郵件，如[事件通知](../../../workfront-basics/using-notifications/event-notifications.md)中所述。
+
 
 可在系統和群組層級設定這些通知：
 
@@ -957,3 +960,156 @@ ht-degree: 8%
 | 任務和問題 | 停止任務和問題委派 | 被指派者 | 我停止委派我的任務和問題 (確認) | 使用中（僅即時） |
 | 任務和問題 | 任務和問題委派 | 委派 | 有人將其任務和問題委派給我 | 使用中（僅即時） |
 | 任務和問題 | 停止任務和問題委派 | 委派 | 有人停止將其任務和問題委派給我 | 使用中（僅即時） |
+
+<div class="preview">
+
+## 統一核准
+
+
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>物件類型</th> 
+   <th>活動</th> 
+   <th>收件人</th> 
+   <th>說明</th> 
+   <th>預設狀態</th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>文件</p> </td> 
+   <td> <p>新增為核准者或檢閱者</p> </td> 
+   <td> <p>核准者或檢閱者</p> </td> 
+   <td> <p>您被新增為檔案核准的核准者或稽核者。</p> </td> 
+   <td> <p>作用中</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>文件</p> </td> 
+   <td> <p>以核准者或檢閱者的身分移除</p> </td> 
+   <td> <p>核准者或檢閱者</p> </td> 
+   <td> <p>您已從檔案核准中移除核准者或稽核者。</p> </td> 
+   <td> <p>作用中</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>文件</p> </td> 
+   <td> <p>角色已變更</p> </td> 
+   <td> <p>核准者或檢閱者</p> </td> 
+   <td> <p>您的核准者或稽核者角色在檔案核准上變更。</p> </td> 
+   <td> <p>作用中</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>文件</p> </td> 
+   <td> <p>已作出決定 — 已核准</p> </td> 
+   <td> <p>文件所有者</p> </td> 
+   <td> <p>核准者在檔案核准上決定為「已核准」。</p> </td> 
+   <td> <p>作用中</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>文件</p> </td> 
+   <td> <p>已作出決定 — 已核准變更</p> </td> 
+   <td> <p>文件所有者</p> </td> 
+   <td> <p>核准者對檔案核准做出決定「已核准」，且有變更專案。</p> </td> 
+   <td> <p>作用中</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>文件</p> </td> 
+   <td> <p>已作出決定 — 需要工作</p> </td> 
+   <td> <p>文件所有者</p> </td> 
+   <td> <p>核准者決定檔案核准需要工作。</p> </td> 
+   <td> <p>作用中</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>文件</p> </td> 
+   <td> <p>核准已完成 — 已核准</p> </td> 
+   <td> <p>文件所有者</p> </td> 
+   <td> <p>檔案核准的最終決定為「已核准」。</p> </td> 
+   <td> <p>作用中</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>文件</p> </td> 
+   <td> <p>核准已完成 — 已核准但有變更</p> </td> 
+   <td> <p>文件所有者</p> </td> 
+   <td> <p>檔案核准的最終決定為「已核准，但有變更」。</p> </td> 
+   <td> <p>作用中</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>文件</p> </td> 
+   <td> <p>核准完成 — 需要工作</p> </td> 
+   <td> <p>文件所有者</p> </td> 
+   <td> <p>檔案核准以需求工作的最終決定完成。</p> </td> 
+   <td> <p>作用中</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>文件</p> </td> 
+   <td> <p>檢閱已完成</p> </td> 
+   <td> <p>文件所有者</p> </td> 
+   <td> <p>稽核者完成檔案核准的稽核。</p> </td> 
+   <td> <p>作用中</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>文件</p> </td> 
+   <td> <p>所有檢閱已完成</p> </td> 
+   <td> <p>文件所有者</p> </td> 
+   <td> <p>每個稽核者在檔案核准上完成稽核。</p> </td> 
+   <td> <p>作用中</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>文件</p> </td> 
+   <td> <p>截止日期即將到來</p> </td> 
+   <td> <p>核准者或檢閱者</p> </td> 
+   <td> <p>您參與的檔案核准即將到達截止日期。</p> </td> 
+   <td> <p>作用中</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>文件</p> </td> 
+   <td> <p>最後期限已過</p> </td> 
+   <td> <p>核准者或檢閱者</p> </td> 
+   <td> <p>您參與的檔案核准已超過其期限，但無最終決定。</p> </td> 
+   <td> <p>作用中</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>文件</p> </td> 
+   <td> <p>提醒 - 24 小時</p> </td> 
+   <td> <p>核准者或檢閱者</p> </td> 
+   <td> <p>您還有24小時來檢閱及核准檔案。</p> </td> 
+   <td> <p>作用中</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>文件</p> </td> 
+   <td> <p>提醒 - 72 小時</p> </td> 
+   <td> <p>核准者或檢閱者</p> </td> 
+   <td> <p>您還剩72小時來檢閱及核准檔案。</p> </td> 
+   <td> <p>作用中</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>文件</p> </td> 
+   <td> <p>新增至群組核准或從群組核准移除的文件</p> </td> 
+   <td> <p>核准者或檢閱者</p> </td> 
+   <td> <p>在您所屬的群組檔案核准中新增或移除檔案。</p> </td> 
+   <td> <p>使用中</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>影片</p> </td> 
+   <td> <p>影片核准限制接近 (80%)</p> </td> 
+   <td> <p>系統/群組管理員</p> </td> 
+   <td> <p>影片核准達到其計畫80%的影片核准限制。</p> </td> 
+   <td> <p>使用中</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>影片</p> </td> 
+   <td> <p>已達影片核准限制</p> </td> 
+   <td> <p>系統/群組管理員</p> </td> 
+   <td> <p>視訊核准達到其計畫的視訊核准限制。</p> </td> 
+   <td> <p>使用中</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+</div>

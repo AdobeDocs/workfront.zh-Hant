@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: bf5e862df3570b568d7eb03cbf9b44674cff19ed
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 6%
+source-wordcount: '732'
+ht-degree: 5%
 ---
 # 更新問題狀態
 
@@ -124,16 +124,9 @@ Old:
 * [建立或編輯狀態](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)
 * [建立問題](../../../manage-work/issues/manage-issues/create-issues.md)
 
-<!--
-
 >[!NOTE]
 >
->If an issue status is deleted or becomes unavailable, the Status of the issue displays as Not applicable.  As a user with Manage permissions to the issue, you can update the status to a different one, or ask a Workfront administrator to recreate the status or add a new one. 
--->
-<!--
-IN THE ABOVE NOTE: ensure this is the status, because I asked for a change to "Not available"
-ALSO: see in the steps below for more commented out text. 
--->
+>如果問題狀態已刪除或變為不可用，則問題的狀態將顯示為不可用。  作為具有此問題的管理許可權的使用者，您可以將狀態更新為其他狀態，或要求Workfront管理員重新建立狀態或新增狀態。
 
 
 您可以手動更新問題狀態，也可以讓Workfront在某些動作發生時自動更新。
@@ -174,11 +167,10 @@ ALSO: see in the steps below for more commented out text.
    >
    >  只有問題受指派人可以更新認可日期。
 
-<!--
-1. (Conditional) When the status of the issue is **Not applicable**, click the warning sign for the **Status** field, select a new status from the list, then click **Save**. (*****************VERIFY UI - I ASKED FOR "Not available)
+1. （視條件而定）當問題的狀態為&#x200B;**_無法使用_**&#x200B;時，請按一下&#x200B;**狀態**&#x200B;欄位的警告符號，從清單中選取新狀態，然後按一下&#x200B;**儲存**。
 
-  If you don't see an acceptable status, ask your administrator to create one.
--->
+如果您沒有看到可接受的狀態，請要求您的管理員建立狀態。
+
 
 <!--
 Old instructions, in old commenting: 

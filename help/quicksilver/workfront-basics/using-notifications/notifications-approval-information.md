@@ -5,10 +5,6 @@ title: 通知：核准資訊
 description: 下列通知會提醒您有關您參與之工作專案的核准活動。 如需有關設定您收到哪些通知的資訊，請參閱修改您自己的電子郵件通知。
 author: Courtney
 feature: Get Started with Workfront
-exl-id: e152913e-de7e-405f-af63-827a9b91e2ae
-last-update: 2026-04-01T18:03:50.000Z
-git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: 'https://experienceleague.adobe.com/P2AOhU62RdYgN1vJCky27ZjE9X6VWmDfJF4E-5M-dgo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -18,9 +14,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 9803bd48a48eee4fc1df34e902b443f0306a63e5
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '704'
 ht-degree: 0%
 ---
 # 通知：核准資訊
@@ -29,8 +25,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->這些通知僅適用於舊版檔案核准。 整合檔案核准的通知控制專案前無法使用。
-
+>這些通知僅適用於舊版檔案核准。 如需統一核准通知，請參閱[通知：統一核准](notifications-unified-approvals.md)。
 
 另請參閱[事件通知](../../workfront-basics/using-notifications/event-notifications.md)。
 
@@ -78,3 +73,4 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+
