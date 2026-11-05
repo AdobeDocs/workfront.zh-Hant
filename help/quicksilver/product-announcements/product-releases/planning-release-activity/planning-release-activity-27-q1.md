@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 65b1e818b321dd396720fb791e49e8ae9eb7af92
+source-git-commit: bcc3437dd98f582b6c9220253199e136046768fc
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1289'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 2027年第一季度發行活動
@@ -28,6 +28,18 @@ ht-degree: 0%
 本文介紹2027年第一季度發行的Workfront Planning功能。
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 改善提交請求時相依欄位中的衝突偵測
+
+>[!NOTE]
+>
+>預覽： 2026年11月5日
+>生產快速發行： 2026年12月17日
+>適用於所有人的生產： 2027年1月21日
+
+當您提交相依性連線欄位有相依性衝突的請求時，系統會顯示錯誤，並防止您在衝突解決之前提交請求。 當您檢視和編輯請求時，尚未核准的請求也會顯示因稍後變更規則設定中的相依欄位所導致的任何衝突。
+
+如需詳細資訊，請參閱[提交Adobe Workfront Planning要求以建立記錄](/help/quicksilver/planning/requests/submit-requests.md)。
 
 ## 在表格檢視中更清楚顯示快速搜尋結果
 

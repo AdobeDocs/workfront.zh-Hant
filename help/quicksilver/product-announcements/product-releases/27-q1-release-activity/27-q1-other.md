@@ -4,7 +4,7 @@ description: 2027年第一季度發行時間範圍內的其他增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: fe5e49243ec9e752b48751a506c9f95c3a12fd01
+source-git-commit: 7090c156fa1ec635e5c673fb9b0e140ee6bd0d15
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 0%
@@ -15,6 +15,22 @@ ht-degree: 0%
 本頁說明了2027年第一季度版本對預覽環境所做的增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2027年第一季發行週期目前可用的所有變更清單，請參閱[2027年第一季發行概觀](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)。
+
+<!--
+
+## Enhanced list button and icon improvements
+
+>[!NOTE]
+>
+>Preview: November 5, 2026
+>Production fast release: December 17, 2026
+>Production for everyone: January 21, 2027
+
+Button text and icons in all enhanced lists have been adjusted to match, to achieve a more consistent user interface across Workfront.
+
+For information, see [Enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+-->
 
 ## 檢視增強型清單中的記錄總數
 
@@ -58,7 +74,7 @@ You can now create sections in the View dropdown menu of an enhanced list to org
 
 This enhancement is available in the following areas: Requests, Home, Priorities in the Main Menu.
 
-For information, see [Use enhanced lists](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/basics/navigate/lists-in-adobe-workfront/enhanced-lists).
+For information, see [Use enhanced lists](https://experienceleague.adobe.com/en/docs/workfront/using/basics/navigate/lists-in-adobe-workfront/enhanced-lists).
 
 -->
 
