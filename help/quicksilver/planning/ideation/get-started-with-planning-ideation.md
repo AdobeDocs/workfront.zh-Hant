@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1345'
 ht-degree: 0%
 ---
 
@@ -39,7 +39,30 @@ https://adobe-my.sharepoint.com/:w:/r/personal/alinaw_adobe_com/_layouts/15/Doc.
 <span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它只能做為&#x200B;**創意空間Beta**&#x200B;程式的一部分。</span>\
 </span>
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>本文資訊為Adobe Workfront Planning。 貴公司必須購買額外的Planning套件才能存取Workfront Planning。
+>
+>如果您的組織以獨立產品形式購買Workfront Planning，則此處說明的功能無法使用。
+>
+>如需Workfront Planning的一般資訊，請參閱[開始使用Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)。
+> 
+>
+
+<!--
+Future - when they make it available in Planning: replace the above with this OR ... insert the snippet:
+
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning which your organization can purchase either as an Adobe Workfront package or a standalone product. 
+>
+>Not all capabilities included in the Planning package are available to Workfront Planning when it is purchased as a standalone product. 
+>
+>For general information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+> 
+>For information about Workfront Planning as a standalone product, see [Get started with Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/planning-sta-overview.md). 
+>
+-->
 
 Adobe構思空間是Adobe由AI支援的戰略構思功能，直接內建在Workfront Planning中。 它為行銷團隊提供結構化、以資料為根據的行銷活動策略起點，並以組織真實績效歷史記錄為基礎的AI產生簡報，取代手動研究和猜測。
 
@@ -237,10 +260,10 @@ Worth noting
 
 ## 其他資源
 
-* [Adobe Workfront行銷活動規劃](https://business.adobe.com/tw/products/workfront/campaign-planning.html)
+* [Adobe Workfront行銷活動規劃](https://business.adobe.com/products/workfront/campaign-planning.html)
 * [Adobe Workfront規劃檔案](/help/quicksilver/planning/planning-information.md)
-* [Adobe GenStudio概觀](https://business.adobe.com/tw/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/tw/products/adobe-analytics/customer-journey-analytics.html)
+* [Adobe GenStudio概觀](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
 
 
 <!--

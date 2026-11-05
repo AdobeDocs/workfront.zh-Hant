@@ -5,9 +5,9 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1277'
 ht-degree: 2%
 ---
 
@@ -24,9 +24,30 @@ Not sure if this bit will ever be needed because this only exists when both Prev
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>本文資訊為Adobe Workfront Planning。 貴公司必須購買額外的Planning套件才能存取Workfront Planning。
+>
+>如果您的組織以獨立產品形式購買Workfront Planning，則此處說明的功能無法使用。
+>
+>如需Workfront Planning的一般資訊，請參閱[開始使用Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)。
+> 
+>
 
-<!--if Lilit says this is not for STA, break the intro and specify that; she is checking on this-->
+<!--
+Future - when they make it available in Planning: replace the above with this OR ... insert the snippet:
+
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning which your organization can purchase either as an Adobe Workfront package or a standalone product. 
+>
+>Not all capabilities included in the Planning package are available to Workfront Planning when it is purchased as a standalone product. 
+>
+>For general information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+> 
+>For information about Workfront Planning as a standalone product, see [Get started with Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/planning-sta-overview.md). 
+>
+-->
 
 您可以使用「環境升級」功能，將Workfront Planning工作區、記錄型別、欄位和檢視從一個Workfront環境複製到另一個環境。
 
@@ -77,7 +98,7 @@ Not sure if this bit will ever be needed because this only exists when both Prev
    <td role="rowheader"><p>Adobe Workfront套件</p></td> 
    <td> 
 <p>Prime或Ultimate Workflow套件搭配Prime或Ultimate計畫套件</p>
-<p>以獨立產品形式購買時的Prime或Ultimate Planning套件</p>
+<!--This might come later: <p>Prime or Ultimate Planning package when purchased as a standalone product</p>-->
    </td> 
    </tr>
   <tr> 
@@ -152,13 +173,13 @@ Not sure if this bit will ever be needed because this only exists when both Prev
    >[!TIP]
    >
    >建置封裝後，其狀態會設為&#x200B;**草稿**。 必須先測試封裝，才能使用&#x200B;**作用中**&#x200B;狀態。
-1. （建議使用）按一下[安裝]&#x200B;**&#x200B;**，然後選擇其中一個可用的測試環境來部署它並測試組態。
+1. （建議使用）按一下[安裝]****，然後選擇其中一個可用的測試環境來部署它並測試組態。
 
    >[!TIP]
    >
    >當狀態設定為&#x200B;**測試**&#x200B;時，生產環境不能作為其中一個選項使用。
 
-1. 在測試環境中安裝它之後，再按一下[編輯]，然後將&#x200B;**[狀態]**&#x200B;設定為&#x200B;**[使用中]**，再按一下[儲存]&#x200B;**，然後關閉**。**&#x200B;**
+1. 在測試環境中安裝它之後，再按一下[編輯]，然後將&#x200B;**[狀態]**&#x200B;設定為&#x200B;**[使用中]**，再按一下[儲存]**，然後關閉**。****
 
    >[!TIP]
    >
@@ -169,7 +190,7 @@ Not sure if this bit will ever be needed because this only exists when both Prev
 
 ### 在目標環境中安裝套件
 
-1. 在封裝頁面上，驗證封裝後，按一下[安裝]。**&#x200B;**
+1. 在封裝頁面上，驗證封裝後，按一下[安裝]。****
 1. 在&#x200B;**目標環境**&#x200B;清單中，選取要部署到的環境（例如您的生產環境），然後按一下&#x200B;**繼續**。 預設目標是目前的環境。
 1. 在&#x200B;**封裝資訊**&#x200B;頁面上，確認您要部署到的來源環境與環境。
 1. 在&#x200B;**物件對應**&#x200B;區段中，展開每個物件群組（例如&#x200B;**群組**&#x200B;和&#x200B;**規劃工作區**）以檢閱物件。
