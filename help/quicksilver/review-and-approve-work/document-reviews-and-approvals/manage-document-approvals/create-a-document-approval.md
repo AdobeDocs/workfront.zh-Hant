@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: fdddfb692215fcd856b2a3702436aded69a7f0f6
+source-git-commit: 2df240b7a3c04c34f37337532e5a94fc0b12769f
 workflow-type: tm+mt
-source-wordcount: '2622'
+source-wordcount: '2647'
 ht-degree: 1%
 ---
 # 建立檔案核准工作流程
@@ -206,6 +206,10 @@ preview screen![Request approval in Basic mode](assets/request-approval-basic-v2
 ## 在新檔案區域中建立核准工作流程
 
 如果您的組織使用Adobe雲端儲存空間，當您存取Workfront中的檔案時，將會看到新的檔案區域。 如需Adobe雲端儲存空間的詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
+
+>[!NOTE]
+>
+>核准者或稽核者必須具有包含與其共用之檔案的專案，否則核准將不會出現在其「我的核准」小工具中。
 
 根據預設，**要求核准**&#x200B;對話方塊會以&#x200B;**基本**&#x200B;模式開啟。 基本模式是一個單一階段，其中包含一組核准者或稽核者。 切換至&#x200B;**進階**&#x200B;模式以設定多階段核准或平行路徑。
 
