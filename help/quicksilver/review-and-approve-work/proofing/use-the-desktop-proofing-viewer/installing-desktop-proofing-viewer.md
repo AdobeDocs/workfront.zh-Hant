@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0ab5dffb538623d0bfcb44b54fb33833594ac649
+source-git-commit: f1e77f9f6d479fe4317dbe2195fede0c4635757e
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '570'
 ht-degree: 3%
 ---
 # 安裝案頭校訂檢視器
@@ -78,11 +78,11 @@ ht-degree: 3%
 
 1. 執行下列任一項作業來下載應用程式：
 
-   * 如果您使用生產環境，請按一下案頭校訂檢視器的[Mac生產下載。](https://app.proofhq.com/desktopviewer/mac)
-   * 如果您使用預覽環境，請按一下案頭校訂檢視器的[Mac預覽下載。](https://app.preview.proofhq.com/desktopviewer/mac)
+   * 如果您使用生產環境，請按一下[案頭校訂檢視器]的[生產下載]。[](https://us.my.workfront.com/proof/desktopviewer)
+   * 如果您使用預覽環境，請按一下[案頭校訂檢視器]的[預覽下載]。[](https://us.preview.workfront.com/proof/desktopviewer)
 
 1. 開啟您剛下載的檔案，開始安裝。
-1. 在出現的安裝方塊上，按一下[繼續]&#x200B;**&#x200B;**，然後按一下[安裝]&#x200B;**&#x200B;**。
+1. 在出現的安裝方塊上，按一下[繼續]****，然後按一下[安裝]****。
 
    ![00000776.png](assets/00000776-350x244.png)
 
@@ -102,8 +102,8 @@ ht-degree: 3%
 
 1. 執行下列任一項作業來下載應用程式：
 
-   * 在生產環境中，按一下案頭校訂檢視器的[Windows生產下載。](https://app.proofhq.com/desktopviewer/windows)
-   * 在預覽環境中，按一下案頭校訂檢視器的[Windows預覽下載](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.44.exe)
+* 如果您使用生產環境，請按一下[案頭校訂檢視器]的[生產下載]。[](https://us.my.workfront.com/proof/desktopviewer)
+* 如果您使用預覽環境，請按一下[案頭校訂檢視器]的[預覽下載]。[](https://us.preview.workfront.com/proof/desktopviewer)
 
 1. 開啟您剛下載的檔案，開始安裝。
 1. 在出現的安裝方塊中，開啟您剛下載的檔案以開始安裝。
