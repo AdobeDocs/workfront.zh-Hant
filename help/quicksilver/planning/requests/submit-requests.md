@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: bf5e862df3570b568d7eb03cbf9b44674cff19ed
 workflow-type: tm+mt
-source-wordcount: '3233'
+source-wordcount: '3288'
 ht-degree: 1%
 ---
 # 提交Adobe Workfront Planning請求以建立記錄
@@ -185,8 +185,8 @@ Not sure how to change the request status, but dev also said: Changing the names
 
 {{step1-to-requests}}
 
-1. 開啟熒幕右上角的&#x200B;**使用新體驗**&#x200B;設定。
-開啟此設定後，Workfront的&#x200B;**要求**&#x200B;區域即可使用Workfront規劃要求表單。
+1. 開啟熒幕右上角的&#x200B;**使用新體驗**設定。
+開啟此設定後，Workfront的**要求**&#x200B;區域即可使用Workfront規劃要求表單。
 
    >[!TIP]
    >
@@ -219,7 +219,7 @@ Not sure how to change the request status, but dev also said: Changing the names
    >
    >相依性連線記錄欄位的值受記錄之間的相依性規則的限制。 如需詳細資訊，請參閱[管理相依連線](/help/quicksilver/planning/architecture/manage-dependent-connections.md)。
    >
-   ><!--<span class="preview">When there is a conflict in the selected values of a dependent field on the request form, you must resolve the conflict before you can save the form.</span>-->
+   ><span class="preview">當請求表單上相依欄位的選取值發生衝突時，您必須先解決衝突，才能儲存表單。</span>
 
 1. （選擇性和條件性）按一下&#x200B;**填寫表單**&#x200B;以附加檔案，並讓AI為您填寫包含檔案內資訊的表單。<!--Workfront fills in the fields on the form based on information from previous requests.-->
 
@@ -294,7 +294,7 @@ Not sure how to change the request status, but dev also said: Changing the names
    >* 僅當尚未建立記錄且請求正在等待核準時，才能編輯請求。
    >* 有些欄位是唯讀的，您無法加以編輯。
    >* 從中建立記錄後，您無法再編輯請求。
-   ><!--* <span class="preview">When there is a conflict in the selected values of a dependent field on the request, you must resolve the conflict before you can save the request.</span>-->
+   >* <span class="preview">當要求的相依欄位中選取的值發生衝突時，您必須先解決衝突，才能儲存要求。</span>
 
 1. （選擇性）編輯請求後，按一下&#x200B;**提交變更**。
 1. （視條件而定）如果要求表單未與核准建立關聯，或要求已核准，請按一下要求名稱，然後在&#x200B;**建立的物件**&#x200B;欄位中按一下記錄名稱。
@@ -342,7 +342,7 @@ Removing this as this is covered at a higher level in the Use enhanced lists art
 {{step1-to-planning}}
 
 1. 按一下工作區的卡片，然後按一下您有權建立記錄的記錄型別的卡片。
-1. 在記錄型別頁面上的任何檢視中，按一下[新增記錄]，然後按一下[送出要求]。**&#x200B;**。
+1. 在記錄型別頁面上的任何檢視中，按一下[新增記錄]，然後按一下[送出要求]。****。
 
    >[!TIP]
    >

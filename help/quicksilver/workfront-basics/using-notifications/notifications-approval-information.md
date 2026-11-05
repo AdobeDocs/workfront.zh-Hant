@@ -5,10 +5,6 @@ title: 通知：核准資訊
 description: 下列通知會提醒您有關您參與之工作專案的核准活動。 如需有關設定您收到哪些通知的資訊，請參閱修改您自己的電子郵件通知。
 author: Courtney
 feature: Get Started with Workfront
-exl-id: e152913e-de7e-405f-af63-827a9b91e2ae
-last-update: 2026-04-01T18:03:50.000Z
-git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: 'https://experienceleague.adobe.com/P2AOhU62RdYgN1vJCky27ZjE9X6VWmDfJF4E-5M-dgo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
@@ -18,9 +14,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 9803bd48a48eee4fc1df34e902b443f0306a63e5
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '704'
 ht-degree: 0%
 ---
 # 通知：核准資訊
@@ -29,8 +25,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->這些通知僅適用於舊版檔案核准。 整合檔案核准的通知控制專案前無法使用。
-
+>這些通知僅適用於舊版檔案核准。 如需統一核准通知，請參閱[通知：統一核准](notifications-unified-approvals.md)。
 
 另請參閱[事件通知](../../workfront-basics/using-notifications/event-notifications.md)。
 
@@ -47,34 +42,35 @@ ht-degree: 0%
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p><strong>受委派問題核准要求已完成</strong> </p> <p>您委派給其他使用者的問題核准已由該使用者核准或拒絕。</p> <p>即時通知電子郵件的主旨為： <em>[!UICONTROL 由] &lt;使用者名稱&gt;</em>代表您所做出的問題核准/拒絕</p> <p>每日摘要通知的主旨為：<em> [!UICONTROL 核准資訊摘要] &lt;每日摘要日期&gt;</em></p> </td> 
-   <td> <p>問題名稱<br>專案名稱<br>問題參考編號<br>代表您核准/拒絕問題的使用者名稱<br>核准決定<br>問題狀態<br>要求核准的使用者名稱<br><strong>[!UICONTROL 檢視更多詳細資料]</strong>按鈕<br>*專案參考編號<br>*專案名稱<br>*委派問題核准總數<br>*問題名稱<br>*核准者名稱<br>*每日摘要日期<br><br></p> </td> 
+   <td> <p><strong>受委派問題核准要求已完成</strong> </p> <p>您委派給其他使用者的問題核准已由該使用者核准或拒絕。</p> <p>即時通知電子郵件的主旨為： <em>[！UICONTROL由] &lt;使用者名稱&gt;</em>代表您所做出的問題核准/拒絕</p> <p>每日摘要通知的主旨為：<em> [！UICONTROL核准資訊摘要] &lt;每日摘要日期&gt;</em></p> </td> 
+   <td> <p>問題名稱<br>專案名稱<br>問題參考編號<br>代表您核准/拒絕問題的使用者名稱<br>核准決定<br>問題狀態<br>要求核准的使用者名稱<br><strong>[！UICONTROL檢視更多詳細資料]</strong>按鈕<br>*專案參考編號<br>*專案名稱<br>*委派問題核准總數<br>*問題名稱<br>*核准者名稱<br>*每日摘要日期<br><br></p> </td> 
    <td><strong>每日</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>受委派專案核准要求已完成</strong> </p> <p>您委派給其他使用者的專案核准已由該使用者核准或拒絕。</p> <p>即時通知電子郵件的主旨為： <em>[!UICONTROL 由] &lt;使用者名稱&gt;</em>代表您所做出的專案核准/拒絕</p> <p><em>每日摘要通知的主旨為：[!UICONTROL 核准資訊摘要] &lt;每日摘要日期&gt;</em> </p> </td> 
-   <td> 專案名稱<br>[!UICONTROL Portfolio名稱]<br>[!UICONTROL 專案參考編號]<br>代表您核准/拒絕專案的使用者名稱<br>[!UICONTROL 核准決定]<br>[!UICONTROL 專案狀態]<br>要求核准的使用者名稱<br><strong>[!UICONTROL 檢視更多詳細資料]</strong>按鈕<br>*專案參考編號<br>*專案名稱<br>*核准者name<br>[!UICONTROL *每日摘要的日期]<br></td> 
+   <td> <p><strong>受委派專案核准要求已完成</strong> </p> <p>您委派給其他使用者的專案核准已由該使用者核准或拒絕。</p> <p>即時通知電子郵件的主旨為： <em>[！UICONTROL由] &lt;使用者名稱&gt;</em>代表您所做出的專案核准/拒絕</p> <p><em>每日摘要通知的主旨為：[！UICONTROL核准資訊摘要] &lt;每日摘要日期&gt;</em> </p> </td> 
+   <td> 專案名稱<br>[！UICONTROL Portfolio名稱]<br>[！UICONTROL專案參考編號]<br>代表您核准/拒絕專案的使用者名稱<br>[！UICONTROL核准決定]<br>[！UICONTROL專案狀態]<br>要求核准的使用者名稱<br><strong>[！UICONTROL檢視更多詳細資料]</strong>按鈕<br>*專案參考編號<br>*專案名稱<br>*核准者name<br>[！UICONTROL *每日摘要的日期]<br></td> 
    <td><strong>每日</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>受委派任務核准要求已完成</strong> </p> <p>您委派給其他使用者的任務核准已由該使用者核准或拒絕。</p> <p>即時通知電子郵件的主旨為： <em>[!UICONTROL 由] &lt;使用者名稱&gt;</em>代表您所做出的任務核准/拒絕</p> <p>每日摘要通知的主旨為：<em> [!UICONTROL 核准資訊摘要] &lt;每日摘要日期&gt;</em></p> </td> 
+   <td> <p><strong>受委派任務核准要求已完成</strong> </p> <p>您委派給其他使用者的任務核准已由該使用者核准或拒絕。</p> <p>即時通知電子郵件的主旨為： <em>[！UICONTROL由] &lt;使用者名稱&gt;</em>代表您所做出的任務核准/拒絕</p> <p>每日摘要通知的主旨為：<em> [！UICONTROL核准資訊摘要] &lt;每日摘要日期&gt;</em></p> </td> 
    <td> 任務名稱<br>專案名稱<br>任務參考編號<br>代表您核准/拒絕任務的使用者名稱<br>核准決定<br>任務狀態<br>要求核准的使用者名稱<br><strong>檢視更多詳細資料</strong>按鈕<br>*專案參考編號<br>*專案名稱<br>*委派任務核准總數<br>*任務名稱<br>*核准者名稱<br>*每日摘要的日期<br></td> 
    <td><strong>每日</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>檔案核准要求已取消</strong> </p> <p>檔案核准者會在檔案核准要求取消時，收到電子郵件通知。</p> <p>即時通知電子郵件的主旨為： <em>&lt;使用者名稱&gt; [!UICONTROL 已取消檔案核准要求]</em></p> <p> <p>注意：您無法設定每日摘要電子郵件的此通知。</p> </p> </td> 
-   <td> 取消核准要求的使用者名稱<br>[!UICONTROL 檔名稱] </td> 
+   <td> <p><strong>檔案核准要求已取消</strong> </p> <p>檔案核准者會在檔案核准要求取消時，收到電子郵件通知。</p> <p>即時通知電子郵件的主旨為： <em>&lt;使用者名稱&gt; [！UICONTROL已取消檔案核准要求]</em></p> <p> <p>注意：您無法設定每日摘要電子郵件的此通知。</p> </p> </td> 
+   <td> 取消核准要求的使用者名稱<br>[！UICONTROL檔名稱] </td> 
    <td><strong>即時</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>我被委派為核准者</strong> </p> <p>如果有人將核准委派給您，您會收到電子郵件通知。 </p> <p>即時通知電子郵件的主旨為： <em>[!UICONTROL Delegated] &lt;Object Type&gt; [!UICONTROL 核准 — 請檢閱] &lt;物件名稱&gt;</em></p> <p> <p>注意：您無法設定每日摘要電子郵件的此通知。</p> </p> </td> 
-   <td> <p>[!UICONTROL 物件名稱]<br>[!UICONTROL 父物件名稱]<br>[!UICONTROL 物件參考編號]<br>提交物件以供核准的使用者名稱<br>您代表核准物件的使用者名稱<br>物件狀態<br>要求核准的日期和時間<br>物件優先順序<br>核准步驟名稱<br>[!UICONTROL 規劃完成日期]物件<br><strong>[!UICONTROL 進行核准決策]</strong>按鈕</p> </td> 
+   <td> <p><strong>我被委派為核准者</strong> </p> <p>如果有人將核准委派給您，您會收到電子郵件通知。 </p> <p>即時通知電子郵件的主旨為： <em>[！UICONTROL Delegated] &lt;Object Type&gt; [！UICONTROL核准 — 請檢閱] &lt;物件名稱&gt;</em></p> <p> <p>注意：您無法設定每日摘要電子郵件的此通知。</p> </p> </td> 
+   <td> <p>[！UICONTROL物件名稱]<br>[！UICONTROL父物件名稱]<br>[！UICONTROL物件參考編號]<br>提交物件以供核准的使用者名稱<br>您代表核准物件的使用者名稱<br>物件狀態<br>要求核准的日期和時間<br>物件優先順序<br>核准步驟名稱<br>[！UICONTROL規劃完成日期]物件<br><strong>[！UICONTROL進行核准決策]</strong>按鈕</p> </td> 
    <td><strong>即時</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>我的時程表已核准</strong> </p> <p>您的時程表獲得核准後，您會收到電子郵件通知。</p> <p>即時通知電子郵件的主旨為： <em>[!UICONTROL 已核准的時程表]： &lt;時程表開始日期&gt; - &lt;時程表結束日期&gt;</em></p> <p> <p>注意：您無法設定每日摘要電子郵件的此通知。</p> </p> <p> <p>注意：您必須擁有Standard授權才能接收此通知。 擁有輕度授權或更低授權的使用者不會收到時程表核准電子郵件通知，即使它已啟用亦然。</p> </p> </td> 
-   <td> 核准您的時程表的使用者名稱<br>核準時程表時的日期和時間<br>時程表狀態（[!UICONTROL 已核准]）<br>時程表的開始日期和結束日期<br>時程表中記錄的總時數<br>時程表中記錄的加班時數 </td> 
+   <td> <p><strong>我的時程表已核准</strong> </p> <p>您的時程表獲得核准後，您會收到電子郵件通知。</p> <p>即時通知電子郵件的主旨為： <em>[！UICONTROL已核准的時程表]： &lt;時程表開始日期&gt; - &lt;時程表結束日期&gt;</em></p> <p> <p>注意：您無法設定每日摘要電子郵件的此通知。</p> </p> <p> <p>注意：您必須擁有Standard授權才能接收此通知。 擁有輕度授權或更低授權的使用者不會收到時程表核准電子郵件通知，即使它已啟用亦然。</p> </p> </td> 
+   <td> 核准您的時程表的使用者名稱<br>核準時程表時的日期和時間<br>時程表狀態（[！UICONTROL已核准]）<br>時程表的開始日期和結束日期<br>時程表中記錄的總時數<br>時程表中記錄的加班時數 </td> 
    <td><strong>即時</strong> </td> 
   </tr> 
  </tbody> 
 </table>
+

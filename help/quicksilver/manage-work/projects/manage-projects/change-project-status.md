@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: bf5e862df3570b568d7eb03cbf9b44674cff19ed
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 5%
+source-wordcount: '449'
+ht-degree: 4%
 ---
 # 變更專案狀態
 
@@ -112,14 +112,7 @@ Old:
 * **將專案更新為完成時：**&#x200B;請確定專案上的所有任務和問題都已完成。 當專案上有任務或問題尚未完成時，您無法選擇專案的完成狀態，或等於完成的任何其他狀態。 這包括核准任何處於「完成 — 未決核准」狀態的任務或問題。
 * **將專案從「完成」更新為「目前」時：**&#x200B;如果專案上的所有任務和問題都已完成，請確定專案的完成模式設定為「手動」。 如果專案的完成模式為自動，專案狀態會保持為完成。
 
-<!--
-* If a project status is deleted or becomes unavailable, the Status of the project displays as Not applicable.  As a user with Manage permissions to the project, you can update the status to a different one, or ask a Workfront administrator to recreate the status or add a new one. 
--->
-
-<!--
-IN THE ABOVE NOTE: ensure this is the status, because I asked for a change to "Not available"
-ALSO: see in the steps below for more commented out text. 
--->
+* 如果專案狀態已刪除或變為無法使用，專案狀態會顯示為不適用。  身為具有專案管理許可權的使用者，您可以將狀態更新為其他狀態，或要求Workfront管理員重新建立狀態或新增狀態。
 
 ## 變更專案狀態
 
@@ -134,8 +127,7 @@ ALSO: see in the steps below for more commented out text.
 
    專案狀態會更新為您選取的狀態。
 
-<!--
-1. (Conditional) When the status of the project is **Not applicable**, click the warning sign for the **Status** field, select a new status from the list, then click **Save**. (*****************VERIFY UI - I ASKED FOR "Not available)
+1. （視條件而定）專案狀態為&#x200B;**_無法使用_**&#x200B;時，請按一下&#x200B;**狀態**&#x200B;欄位的警告符號，從清單中選取新狀態，然後按一下&#x200B;**儲存**。
 
-  If you don't see an acceptable status, ask your administrator to create one.
--->
+如果您沒有看到可接受的狀態，請要求您的管理員建立狀態。
+

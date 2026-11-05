@@ -17,19 +17,18 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: bf5e862df3570b568d7eb03cbf9b44674cff19ed
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1442'
 ht-degree: 1%
 ---
 
 # 管理相依連線
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
+
 
 {{planning-important-intro}}
 
@@ -81,7 +80,7 @@ ht-degree: 1%
    <ul><li><p>Adobe Experience Manager Assets授權及AEM Assets與Workfront之間的整合，用於連結AEM資產與Planning記錄型別。</p>
    <p>如需詳細資訊，請參閱<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">適用於Experience Manager Assets和Assets Essentials的Adobe Workfront：文章索引</a>。 </p></li>
    <li><p> 連線記錄型別與GenStudio物件和品牌的Adobe GenStudio for Performance Marketing授權</p>
-   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
+   <p>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">開始使用Adobe GenStudio for Performance Marketing</a>。</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -142,9 +141,8 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
 
 * 所有顯示已連線記錄欄位的區域都支援相依欄位，包括記錄或請求表單的詳細資訊區域。
 
-<!--
-* <span class="preview">When there is a conflict in the selected values of a dependent field on a request form or a submitted request, you must resolve the conflict before you can save the form or the request.</span>
--->
+* <span class="preview">當請求表單或已提交請求之相依欄位的選取值發生衝突時，您必須先解決衝突，才能儲存表單或請求。</span>
+
 
 ## 建立相依連線
 
@@ -175,7 +173,7 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
      如需相關資訊，請參閱本文章中的[相依連線記錄型別](#example-of-dependent-connected-record-types)範例。
    * 已連線記錄欄位的欄標題中有一個指示，說明該欄位處於相依連線關係。
 
-     欄標題![&#128279;](assets/dependent-icon-tooltip-in-column-header.png)中的相依圖示工具提示
+     欄標題](assets/dependent-icon-tooltip-in-column-header.png)中的![相依圖示工具提示
 1. （選擇性）按一下「**記錄篩選規則**」，並從您要連線的記錄型別中選取欄位，以限制該欄位值的選項，然後按一下「**完成**」。
 
    如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
