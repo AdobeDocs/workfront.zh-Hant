@@ -14,7 +14,7 @@ ht-degree: 1%
 標點符號、術語、大寫和程式參考，請閱讀
 [.cursor/skills/writing-quality/reference.md](../../.cursor/skills/writing-quality/reference.md)。
 
-請&#x200B;**不**將這些規則套用至下的發行說明
+請&#x200B;**不**&#x200B;將這些規則套用至下的發行說明
 `help/quicksilver/product-announcements/product-releases/` — 使用
 請改用release-notes-formatter指示。
 

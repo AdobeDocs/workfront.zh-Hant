@@ -6,7 +6,7 @@ ht-degree: 0%
 ---
 # AGENTS.md
 
-**workfront.en**存放庫的代理程式指引（Adobe Workfront英文）
+**workfront.en**&#x200B;存放庫的代理程式指引（Adobe Workfront英文）
 檔案)。 此檔案指向規範指示，因此任何代理程式 — 
 無論讀取哪個慣例檔案，都會遵循相同的規則。
 
