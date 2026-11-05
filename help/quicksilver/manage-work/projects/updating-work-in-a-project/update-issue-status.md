@@ -151,7 +151,7 @@ Old:
 
    在問題標題的泡泡內按一下以輸入百分比。
 
-   在標題](assets/nwe-updatetaskpercentinheader-350x54.png)中![更新任務完成百分比
+   在標題![&#128279;](assets/nwe-updatetaskpercentinheader-350x54.png)中更新任務完成百分比
 
 1. （可選）執行下列任一項作業，以提供有關更新的其他資訊：
 
