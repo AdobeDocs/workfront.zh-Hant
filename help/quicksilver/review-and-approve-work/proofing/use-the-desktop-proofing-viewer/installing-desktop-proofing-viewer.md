@@ -78,11 +78,11 @@ ht-degree: 3%
 
 1. 執行下列任一項作業來下載應用程式：
 
-   * 如果您使用生產環境，請按一下[案頭校訂檢視器]的[生產下載]。[](https://us.my.workfront.com/proof/desktopviewer)
-   * 如果您使用預覽環境，請按一下[案頭校訂檢視器]的[預覽下載]。[](https://us.preview.workfront.com/proof/desktopviewer)
+   * 如果您使用生產環境，請按一下[案頭校訂檢視器]的[生產下載]。[&#128279;](https://us.my.workfront.com/proof/desktopviewer)
+   * 如果您使用預覽環境，請按一下[案頭校訂檢視器]的[預覽下載]。[&#128279;](https://us.preview.workfront.com/proof/desktopviewer)
 
 1. 開啟您剛下載的檔案，開始安裝。
-1. 在出現的安裝方塊上，按一下[繼續]****，然後按一下[安裝]****。
+1. 在出現的安裝方塊上，按一下[繼續]&#x200B;**&#x200B;**，然後按一下[安裝]&#x200B;**&#x200B;**。
 
    ![00000776.png](assets/00000776-350x244.png)
 
@@ -102,8 +102,8 @@ ht-degree: 3%
 
 1. 執行下列任一項作業來下載應用程式：
 
-* 如果您使用生產環境，請按一下[案頭校訂檢視器]的[生產下載]。[](https://us.my.workfront.com/proof/desktopviewer)
-* 如果您使用預覽環境，請按一下[案頭校訂檢視器]的[預覽下載]。[](https://us.preview.workfront.com/proof/desktopviewer)
+* 如果您使用生產環境，請按一下[案頭校訂檢視器]的[生產下載]。[&#128279;](https://us.my.workfront.com/proof/desktopviewer)
+* 如果您使用預覽環境，請按一下[案頭校訂檢視器]的[預覽下載]。[&#128279;](https://us.preview.workfront.com/proof/desktopviewer)
 
 1. 開啟您剛下載的檔案，開始安裝。
 1. 在出現的安裝方塊中，開啟您剛下載的檔案以開始安裝。
