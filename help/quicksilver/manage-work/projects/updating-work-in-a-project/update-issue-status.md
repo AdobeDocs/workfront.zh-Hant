@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: bf5e862df3570b568d7eb03cbf9b44674cff19ed
+source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 5%
@@ -169,7 +169,7 @@ Old:
 
 1. （視條件而定）當問題的狀態為&#x200B;**_無法使用_**&#x200B;時，請按一下&#x200B;**狀態**&#x200B;欄位的警告符號，從清單中選取新狀態，然後按一下&#x200B;**儲存**。
 
-如果您沒有看到可接受的狀態，請要求您的管理員建立狀態。
+   如果您沒有看到可接受的狀態，請要求您的管理員建立狀態。
 
 
 <!--

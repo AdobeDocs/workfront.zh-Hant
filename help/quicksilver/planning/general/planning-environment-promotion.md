@@ -5,9 +5,9 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1277'
 ht-degree: 2%
 ---
 
@@ -24,9 +24,30 @@ Not sure if this bit will ever be needed because this only exists when both Prev
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>本文資訊為Adobe Workfront Planning。 貴公司必須購買額外的Planning套件才能存取Workfront Planning。
+>
+>如果您的組織以獨立產品形式購買Workfront Planning，則此處說明的功能無法使用。
+>
+>如需Workfront Planning的一般資訊，請參閱[開始使用Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)。
+> 
+>
 
-<!--if Lilit says this is not for STA, break the intro and specify that; she is checking on this-->
+<!--
+Future - when they make it available in Planning: replace the above with this OR ... insert the snippet:
+
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning which your organization can purchase either as an Adobe Workfront package or a standalone product. 
+>
+>Not all capabilities included in the Planning package are available to Workfront Planning when it is purchased as a standalone product. 
+>
+>For general information about Workfront Planning, see [Get started with Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+> 
+>For information about Workfront Planning as a standalone product, see [Get started with Adobe Workfront Planning as a standalone product](/help/quicksilver/planning/planning-sta/planning-sta-overview.md). 
+>
+-->
 
 您可以使用「環境升級」功能，將Workfront Planning工作區、記錄型別、欄位和檢視從一個Workfront環境複製到另一個環境。
 
@@ -77,7 +98,7 @@ Not sure if this bit will ever be needed because this only exists when both Prev
    <td role="rowheader"><p>Adobe Workfront套件</p></td> 
    <td> 
 <p>Prime或Ultimate Workflow套件搭配Prime或Ultimate計畫套件</p>
-<p>以獨立產品形式購買時的Prime或Ultimate Planning套件</p>
+<!--This might come later: <p>Prime or Ultimate Planning package when purchased as a standalone product</p>-->
    </td> 
    </tr>
   <tr> 

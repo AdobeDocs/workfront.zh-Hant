@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1088'
 ht-degree: 1%
 ---
 
@@ -42,6 +42,8 @@ CX Enterprise Coworker是對話式介面，您可使用淺顯語言描述目標�
 Co-worker保留目前AI Assistant所做的一切，同時在新的全熒幕體驗和Workfront右側邊欄中新增更強大的端對端功能。
 
 它會在您組織現有的產品層級存取控制項內運作，因此使用者只能採取已在Workfront中獲准採取的動作，且預設為唯讀存取權，以及由Workfront管理員控制的寫入存取權。
+
+Co-worker使用Workfront MCP伺服器功能來代表您執行動作。 如需詳細資訊，請參閱[CX Enterprise Coworker中的Workfront技能](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)。
 
 >[!IMPORTANT]
 >
@@ -159,11 +161,11 @@ Co-worker保留目前AI Assistant所做的一切，同時在新的全熒幕體�
 
    在頁面的右上角找到&#x200B;**同事**&#x200B;圖示![同事圖示](assets/coworker-icon.png)，或繼續下列步驟。
 
-1. 按一下&#x200B;**工作區卡片**。
+1. 執行下列任一項作業：
 
-1. 按一下&#x200B;**記錄型別卡片**。
-
-1. 按一下&#x200B;**記錄**&#x200B;以開啟記錄的&#x200B;**詳細資料**&#x200B;頁面，然後按一下&#x200B;**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤中開啟](assets/open-workspace-on-new-tab-icon.png) 。
+* 按一下&#x200B;**工作區卡片**。
+* 按一下&#x200B;**記錄型別卡片**。
+* 按一下&#x200B;**記錄**&#x200B;以開啟記錄的&#x200B;**詳細資料**&#x200B;頁面，然後按一下&#x200B;**在新索引標籤中開啟**&#x200B;圖示![在新索引標籤中開啟](assets/open-workspace-on-new-tab-icon.png) 。
 
 1. 按一下畫面右上角的&#x200B;**同事圖示** ![同事圖示](assets/coworker-icon.png)。
 
@@ -173,7 +175,9 @@ Co-worker保留目前AI Assistant所做的一切，同時在新的全熒幕體�
 
    例如，您可以鍵入下列其中一項：
 
-   * 建立名為「2026年夏季優惠」的新行銷活動記錄
+   * 建立工作區並將其命名為「行銷團隊」。
+   * 在此工作區中建立行銷活動和角色記錄型別。
+   * 建立名為「2026年夏季促銷」的行銷活動記錄
    * 將夏季行銷活動記錄中的預算欄位更新為$75,000
    * 刪除名為「舊促銷」的行銷活動記錄
    * 還原我意外刪除的行銷活動

@@ -3,7 +3,7 @@ content-type: reference
 product-area: reports and dashboards
 navigation-topic: data connect
 title: Workfront Data Connect資料字典
-description: 本頁包含有關Workfront Data Connect中資料結構和內容的資訊。
+description: 此頁面包含Workfront Data Connect中資料的結構與內容相關資訊。
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
@@ -16,14 +16,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 43aa6b279bef07ccc2c02beda018d138274d95f4
 workflow-type: tm+mt
 source-wordcount: '11542'
 ht-degree: 8%
 ---
 # Workfront Data Connect資料字典
 
-本頁包含有關Workfront Data Connect中資料結構和內容的資訊。
+此頁面包含Workfront Data Connect中資料的結構與內容相關資訊。
 
 >[!NOTE]
 >
@@ -49,9 +49,9 @@ ht-degree: 8%
 
 ## 實體關係圖
 
-Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅是由其個別值所定義，也是由其與其他物件的關係所定義。
+Workfront中的物件（以及您Data Connect資料湖中的物件）不僅是由其個別值所定義，也是由其與其他物件的關係所定義。
 
-下列實體關係圖(ERD)提供核心Workfront物件之資料連線中物件關係的高層級對應。
+下列實體關係圖(ERD)提供核心Workfront物件在Data Connect中物件關係的高層級對應。
 
 >[!IMPORTANT]
 >
@@ -116,7 +116,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
 
 >[!NOTE]
 >
->新欄位可新增至物件檢視，恕不另行通知，以支援Workfront應用程式不斷變化的資料需求。 如果下游資料收件者未準備好在新增資料行時處理其他資料行，我們建議您不要使用「SELECT」查詢。<br>
+>新欄位可新增至物件檢視，恕不另行通知，以支援Workfront應用程式不斷變化的資料需求。 如果下游資料收件者未準備好在新增資料行時處理其他資料行，我們建議不要使用「SELECT *」查詢。<br>
 >如果需要重新命名或移除欄，我們會提供這些變更的預先通知。
 
 ### 存取層級
@@ -6659,7 +6659,7 @@ Workfront中的物件（以及您的Data Connect資料湖中的物件）不僅�
 >[!NOTE]
 >
 >Team物件表格中儲存了3種專案團隊型別：「專案」、「範本」和「臨機」。 <br>
->這些群組型別都會一起顯示在Data Connect資料湖檢視中。 若要隔離您想要傳回的特定團隊型別，您需要在`teamtype`欄上篩選。 例如，如果您只想讓傳統團隊成為您組織結構的一部分，並在應用程式的Teams區域中設定，則您的查詢可能會如下所示： <code>select * from teams_current where teamtype = &#39;ADHOC&#39;；</code>
+>這些團隊型別都會在Data Connect資料湖檢視中一起呈現。 若要隔離您想要傳回的特定團隊型別，您需要在`teamtype`欄上篩選。 例如，如果您只想讓傳統團隊成為您組織結構的一部分，並在應用程式的Teams區域中設定，則您的查詢可能會如下所示： <code>select * from teams_current where teamtype = &#39;ADHOC&#39;；</code>
 
 ### 小組成員
 
