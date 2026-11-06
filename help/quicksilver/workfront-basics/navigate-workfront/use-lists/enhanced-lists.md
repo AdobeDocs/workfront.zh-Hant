@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
+source-git-commit: 238371e2026eaf216c2b3b554f5fe9d8101263e4
 workflow-type: tm+mt
-source-wordcount: '3531'
+source-wordcount: '3611'
 ht-degree: 1%
 ---
 # 使用增強型清單
@@ -149,6 +149,19 @@ Last, under Scenario Planner
    >請注意，並非所有清單都支援所有欄位型別。
 
 ![增強型清單範例](assets/glist-exchange-rates.png)
+
+## 編輯內嵌專案
+
+有些增強型清單可讓您內嵌編輯物件。 當您編輯清單中顯示的物件資訊時，物件會立即更新。
+
+在清單上：
+
+1. 找到您要編輯的專案，然後在清單中的任何欄位中按一下。
+1. 編輯此儲存格內的資訊，然後按Enter。
+1. 按Tab鍵移至下一個可編輯的儲存格。
+1. 修改完所有儲存格後，請按Enter儲存變更。
+
+![編輯內嵌增強型清單](assets/edit-enhanced-list-inline.png)
 
 ## 使用動作列編輯專案
 
