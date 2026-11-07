@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
 workflow-type: tm+mt
-source-wordcount: '1851'
+source-wordcount: '1849'
 ht-degree: 0%
 ---
 
@@ -185,7 +185,7 @@ Or
 
 1. （條件式與選擇性）若要開啟另一個現有的創意力空間，請按一下創意力名稱右側的下拉式功能表，依名稱搜尋，然後按一下顯示在清單中的創意力。
 
-   **創意力空間**&#x200B;開啟，CX Coworker在右側開啟。
+   **創意力空間**&#x200B;隨即開啟，同事在右側開啟。
 1. 使用「同事」提示來說明您要建立的簡報。
 
    例如，輸入「為K-12學生建立返校行銷活動，以在美國進行8月份的活動，對象為美國的家長和教師」。  為了儘可能提供簡報，請儘可能指明可用於哪些行銷活動、時間表、利害關係人、核准查核點和其他詳細資訊的資訊。

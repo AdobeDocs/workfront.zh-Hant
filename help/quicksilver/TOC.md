@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: cb4679716489be235d72b67aa660c6cb71536f04
+source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
 workflow-type: tm+mt
-source-wordcount: '14757'
+source-wordcount: '14762'
 ht-degree: 2%
 ---
 # Workfront 指南 {#using}
@@ -457,6 +457,7 @@ ht-degree: 2%
       * [移除作為外寄電子郵件選項的自訂SMTP](product-announcements/announcements/announcement-archive/remove-custom-smtp.md)
   * Beta計畫 {#beta}
     * [Beta計畫](product-announcements/betas/betas.md)
+    * {hide-from-toc}[連線組織功能Beta版計畫](product-announcements/betas/connected-organizations-beta/connected-organization-beta.md)
     * Canvas控制面板Beta版 {#canvas-dashboards-beta}
       * [Canvas控制面板Beta版資訊](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
       * {hide-from-toc}[報告畫布測試版概觀](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
