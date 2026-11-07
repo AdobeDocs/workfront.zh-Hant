@@ -1,17 +1,17 @@
 ---
 product-area: betas
-title: 開始使用連線組織功能
+title: 連線組織功能Beta計畫
 description:
 author: Alina
 feature: Product Announcements
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '1424'
 ht-degree: 0%
 ---
-# 開始使用連線組織功能
+# 連線組織功能測試版計畫
 
 >[!IMPORTANT]
 >

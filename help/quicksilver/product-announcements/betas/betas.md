@@ -19,7 +19,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 1%
@@ -55,9 +55,16 @@ ht-degree: 1%
 
 <!--
 
-* Adobe Workfront Planning with Catalyze is available in Closed beta.
+* Ideation space for Adobe Workfront Planning is available in Open beta.
 
-    For information, see [Get started with Adobe Workfront Planning with Catalyze](LINK HERE)
+    For information, see [Get started with Ideation space for Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
+-->
+
+<!--
+
+* The Connected organizations capability is available in closed beta 
+
+    For information, see [Connected organizations capability beta program](/help/quicksilver/product-announcements/betas/connected-organizations-beta/connected-organization-beta.md)
 -->
 
 <!--
