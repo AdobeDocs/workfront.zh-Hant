@@ -22,12 +22,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 7%
 ---
 # 篩選[!DNL Adobe Workfront View]中的專案清單
+
+{{mobile-maintenance-mode}}
 
 根據預設，[!DNL Adobe Workfront View]會在[!DNL Workfront]中顯示[!UICONTROL 所有專案]清單，因此無論專案處於何種狀態，系統都會列出您有權檢視的所有專案。
 

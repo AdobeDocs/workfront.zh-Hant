@@ -20,12 +20,14 @@ role_v2:
 topic_v2:
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
     internal-label: Mobile experience
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 3%
 ---
 # [!DNL Mobile Device Management] (MDM)的[!DNL Adobe Workfront]
+
+{{mobile-maintenance-mode}}
 
 Adobe [!DNL Workfront]已與一些[!DNL Mobile Device Management] (MDM)平台合作，為組織提供更安全、更受控制的行動體驗。 [!DNL Workfront]行動應用程式可用於下列行動裝置管理平台：
 

@@ -22,12 +22,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 5%
 ---
 # 在[!UICONTROL Adobe Workfront檢視]中顯示專案
+
+{{mobile-maintenance-mode}}
 
 根據預設，[!DNL Adobe Workfront View]中顯示的專案清單會顯示最近100個使用中的專案。 專案清單未依任何條件分組。
 

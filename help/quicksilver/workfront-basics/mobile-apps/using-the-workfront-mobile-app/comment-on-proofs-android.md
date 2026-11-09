@@ -16,16 +16,18 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 0%
 ---
 # [!DNL Android]中校訂的註解
 
+{{mobile-maintenance-mode}}
+
 您可以檢閱和解決校訂上的現有評論，並將新評論和註解新增到校訂檔案中。
 
-您對校訂的評論存取權與[!DNL Adobe Workfront]中的相同。 如需校訂功能的相關資訊，請參閱 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
+您對校訂的評論存取權與[!DNL Adobe Workfront]中的相同。 如需校訂功能的相關資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔。
 
 >[!NOTE]
 >

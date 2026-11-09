@@ -16,18 +16,20 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 0%
 ---
 # 在[!DNL Adobe Workfront]行動應用程式中共用和下載校樣
 
+{{mobile-maintenance-mode}}
+
 您可以直接從行動應用程式與內部和外部收件者共用校訂檔案。 您也可以將校訂檔案下載到行動裝置。
 
 >[!NOTE]
 >
->所有收件者必須在[!DNL Workfront]中擁有存取權才能檢閱校樣。 如需有關授權和存取層級的資訊，請參閱 [!DNL Workfront Proof]&#x200B;[&#128279;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的校訂許可權設定檔。
+>所有收件者必須在[!DNL Workfront]中擁有存取權才能檢閱校樣。 如需有關授權和存取層級的資訊，請參閱 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)中的[校訂許可權設定檔。
 
 ## 共用校訂
 

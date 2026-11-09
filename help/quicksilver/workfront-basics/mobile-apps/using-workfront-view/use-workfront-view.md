@@ -17,12 +17,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '40'
 ht-degree: 7%
 ---
 # 使用[!DNL Adobe Workfront View]
+
+{{mobile-maintenance-mode}}
 
 本節包含下列文章：
 

@@ -21,12 +21,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 4%
 ---
 # 更新[!UICONTROL 專案詳細資料]檢視中的Widget
+
+{{mobile-maintenance-mode}}
 
 從專案清單存取[!UICONTROL 專案]後，您可以透過將Widget新增至您的[!UICONTROL 專案詳細資料]畫面來檢視該專案的其他資訊。 每個使用者都可以自訂自己的Widget。
 

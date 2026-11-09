@@ -22,12 +22,14 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 5%
 ---
 # [!DNL Adobe Workfront]行動應用程式上的錯誤訊息： &quot;[!UICONTROL 您的帳戶未啟用API。]&quot;
+
+{{mobile-maintenance-mode}}
 
 ## 存取權要求
 
@@ -47,7 +49,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定</strong></td> 
-   <td> <p>[!UICONTROL 系統管理員] </p> </td> 
+   <td> <p>[！UICONTROL系統管理員] </p> </td> 
   </tr> 
  </tbody> 
 </table>

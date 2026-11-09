@@ -1,7 +1,7 @@
 ---
-source-git-commit: 53015645361082447e0574c4b66388369bbd2f40
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
-source-wordcount: '2294'
+source-wordcount: '2312'
 ht-degree: 2%
 ---
 # 程式碼片段
@@ -362,6 +362,12 @@ OLD:
 ## 行動校訂 — 更多選單 {#mobile-proof-more-menu}
 
 1. 開啟檔案校訂，然後選取檔案右上角的&#x200B;**[!UICONTROL 更多]**&#x200B;功能表![更多功能表](/help/_includes/assets/mobile-verticalmoremenu-20x33.png)。 然後，選取&#x200B;**[!UICONTROL 更多]**。
+
+## 行動 — 無新開發 {#mobile-maintenance-mode}
+
+>[!IMPORTANT]
+>
+>Workfront行動應用程式處於維護模式，不再進行新開發。
 
 <!-- My Updates -->
 

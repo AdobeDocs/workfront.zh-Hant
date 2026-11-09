@@ -21,13 +21,15 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '38'
 ht-degree: 0%
 ---
 # [!DNL Adobe Workfront]行動應用程式的秘訣、技巧和疑難排解
 
+{{mobile-maintenance-mode}}
+
 本節包含下列文章：
 
-* [&#x200B; [!DNL Adobe Workfront] 行動應用程式上的錯誤訊息： &quot;[!UICONTROL 您的帳戶未啟用API。]&quot;](../../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
+* [ [!DNL Adobe Workfront] 行動應用程式上的錯誤訊息： &quot;[!UICONTROL 您的帳戶未啟用API。]&quot;](../../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
