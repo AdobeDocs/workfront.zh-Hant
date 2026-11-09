@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d37b33ba0d7f3abaecd7982bed165d5a30aa9c5d
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '855'
 ht-degree: 0%
 ---
 # Adobe Workfront API中的RTF文字欄位
@@ -27,6 +27,12 @@ ht-degree: 0%
 <!-- Audited: 5/2025 -->
 
 Adobe Workfront中的某些物件允許以RTF格式儲存文字。 在Workfront API中，RTF使用開放原始碼架構Draft.js儲存為JSON。
+
+>[!NOTE]
+>
+>本文所述的RTF文字欄位是「含格式的文字」欄位。 此欄位型別無法再新增至新欄位，現有欄位應轉換成「RTF文字」欄位型別。
+> 
+>請注意，新的RTF欄位會將內容儲存為HTML，但不會儲存套用至欄位編輯器的任何樣式。 從儲存空間中移除樣式資訊有助於防止未預期的UI問題和安全漏洞。
 
 ## 概觀範例
 

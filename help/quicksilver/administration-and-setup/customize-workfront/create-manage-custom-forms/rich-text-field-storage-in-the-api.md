@@ -26,12 +26,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d37b33ba0d7f3abaecd7982bed165d5a30aa9c5d
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '252'
 ht-degree: 0%
 ---
 # API中的RTF文字欄位儲存
+
+>[!NOTE]
+>
+>本文所述的RTF文字欄位是「含格式的文字」欄位。 此欄位型別無法再新增至新欄位，現有欄位應轉換成「RTF文字」欄位型別。
+> 
+>請注意，新的RTF欄位會將內容儲存為HTML，但不會儲存套用至欄位編輯器的任何樣式。 從儲存空間中移除樣式資訊有助於防止未預期的UI問題和安全漏洞。
 
 如果專案、問題或任務等物件包含RTF文字，則會透過Workfront API將其儲存為引數值以供存取。
 
