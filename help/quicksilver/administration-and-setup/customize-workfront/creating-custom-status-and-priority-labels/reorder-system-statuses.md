@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 50554892bd22133114e33d2806bf238cfb72ae45
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 10%
+source-wordcount: '483'
+ht-degree: 11%
 ---
 # 重新排序系統層次與群組狀態
 
@@ -145,7 +145,7 @@ ht-degree: 10%
 
 ## 重新排序問題的狀態
 
-1. 按一下Adobe Workfront右上角的&#x200B;**主功能表**&#x200B;圖示![主功能表圖示](assets/main-menu-icon.png)，然後按一下&#x200B;**設定** ![齒輪設定圖示](assets/gear-icon-settings.png)。
+{#step-1-to-setup}
 
 1. 按一下&#x200B;**專案偏好設定>狀態。**
 1. （視條件而定）如果您要重新排序群組的狀態，請在右上角的方塊中開始輸入群組的名稱，然後在其出現時按一下名稱。

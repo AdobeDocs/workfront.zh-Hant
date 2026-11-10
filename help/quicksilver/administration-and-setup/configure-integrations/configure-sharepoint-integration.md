@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 781aec7dbd13173fd601cfae366dd216cd0fa4f2
+source-git-commit: fff5e72b80bf72d3da5648dcce2109c518beb741
 workflow-type: tm+mt
-source-wordcount: '1861'
+source-wordcount: '1811'
 ht-degree: 1%
 ---
 # 設定[!DNL SharePoint]整合
@@ -146,7 +146,7 @@ ht-degree: 1%
 
 若要檢視及管理您組織的[!DNL SharePoint]整合：
 
-1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![設定圖示](/help/_includes/assets/gear-icon-setup.png)。
+1. 按一下Workfront左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![設定圖示](/help/_includes/assets/gear-icon-setup.png)。
 1. 在左側導覽中選取&#x200B;**[!UICONTROL 檔案]**，然後選取&#x200B;**[!UICONTROL [!DNL SharePoint]整合]**。
 
    貴組織的[!DNL SharePoint]整合清單隨即顯示。
@@ -171,7 +171,7 @@ ht-degree: 1%
 需要下列許可權：
 
 | 存取權 | 原因 |
-|---|---|
+| --- | --- |
 | 擁有檔案的完整存取權 | 允許[!DNL Workfront]存取使用者的檔案以連結資產。 當檔案從[!DNL Workfront]傳送到[!DNL SharePoint]時，[!DNL Workfront]需要存取權才能建立資產。 |
 | 讀取所有網站集合中的專案 | 允許[!DNL Workfront]讀取資產以啟用使用者導覽。 |
 | 編輯或刪除所有網站集合中的專案 | 允許[!DNL Workfront]在網站和網站集合中建立資產。 刪除只會在不成功的連結嘗試後清除時使用。 |
@@ -209,7 +209,7 @@ ht-degree: 1%
 > * 舊版[!DNL SharePoint]整合已標籤為「[!DNL SharePoint]」。
 > * 新的[!DNL SharePoint]整合已標籤為「[!UICONTROL [!DNL SharePoint] (Graph API)]」。
 
-1. 按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](assets/main-menu-icon.png)，或（如果有的話）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![設定圖示](/help/_includes/assets/gear-icon-setup.png)。
+1. 按一下Workfront左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![設定圖示](/help/_includes/assets/gear-icon-setup.png)。
 1. 在左側導覽中選取&#x200B;**[!UICONTROL 檔案]**，然後選取&#x200B;**[!UICONTROL 雲端提供者]**。
 1. 請確定&#x200B;**[!DNL SharePoint]**&#x200B;選項和&#x200B;**[!UICONTROL [!DNL SharePoint] (Graph API)]**&#x200B;選項皆已啟用。
 1. 按一下「**[!UICONTROL 儲存]**」。
@@ -235,7 +235,7 @@ ht-degree: 1%
 1. 產生新的使用者端密碼，如[取代 [!DNL SharePoint] 增益集](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret)中即將到期的使用者端密碼。
 1. 將此使用者端密碼複製到安全位置。
 1. 以系統管理員身分登入[!DNL Workfront]。
-1. 在Workfront中，按一下Adobe Workfront右上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](assets/main-menu-icon.png)，或（如果可用）按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![設定圖示](/help/_includes/assets/gear-icon-setup.png)。
+1. 在Workfront中，按一下左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 設定]** ![設定圖示](/help/_includes/assets/gear-icon-setup.png)。
 1. 在左側面板中，按一下&#x200B;**[!UICONTROL 檔案]** > **[!UICONTROL [!DNL SharePoint]整合]**。
 1. 按一下要更新的[!DNL SharePoint]整合，然後按一下&#x200B;**[!UICONTROL 編輯]**。
 1. 找出編輯視窗的&#x200B;**連線資訊**&#x200B;區段，然後在&#x200B;**[!UICONTROL SharePoint使用者端密碼]**&#x200B;欄位中輸入新的使用者端密碼。
