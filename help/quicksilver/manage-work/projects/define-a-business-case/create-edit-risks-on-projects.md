@@ -28,13 +28,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 04335eec43d9690e7dbc028c2066039ae28be432
 workflow-type: tm+mt
-source-wordcount: 1068
-ht-degree: 2%
-
+source-wordcount: '1064'
+ht-degree: 3%
 ---
-
 # 建立及編輯專案的風險
 
 <!--Audited: 06/2025-->
@@ -131,8 +129,6 @@ ht-degree: 2%
 
 1. 移至您要建立風險的專案。
 1. 按一下左側面板中的&#x200B;**風險**。
-
-   ![任務的風險區段](assets/risks-section-on-project-2022.png)
 
 1. 按一下&#x200B;**新增更多風險**，並透過內嵌編輯其資訊來建立風險。
 
