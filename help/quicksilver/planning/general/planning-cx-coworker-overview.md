@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1097'
 ht-degree: 1%
 ---
 
@@ -129,7 +129,7 @@ Co-worker使用Workfront MCP伺服器功能來代表您執行動作。 如需詳
 
 * 透過「同事」建立、更新或刪除物件時，「同事」會顯示預期動作並要求確認。 之後，您可以確認或取消動作。
 
-## 目前可供同事使用的功能
+## Workfront Planning中目前可供同事使用的功能
 
 目前，Co-worker可在Workfront的Planning區域中使用，它使用一組技能來存取和操作Planning物件的資訊。 如需詳細資訊，請參閱[CX Enterprise Coworker中的Workfront技能](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)。
 
@@ -137,14 +137,16 @@ Co-worker使用Workfront MCP伺服器功能來代表您執行動作。 如需詳
 
 * 搜尋記錄。 您可以依據任何記錄欄位中包含的資訊進行搜尋。
 * 建立記錄。 含有新記錄連結的ID會在建立記錄後顯示。 您可以指定要在建立過程中更新的欄位，例如日期或說明。
-* 根據您上傳的檔案建立記錄。 Workfront支援Co-worker的下列檔案格式：
+* 根據您上傳的檔案建立記錄。 Workfront支援以下檔案格式附加至Co-worker：
 
   PPTX、PDF、DOCX、XLSX、PPT、DOC、TXT和大部分影像格式
 * 更新您在畫面上看到的記錄欄位
 * 刪除、複製或還原記錄
 * 將記錄連結至其他記錄
 * 檢視記錄的變更記錄
-* 將Excel檔案附加至Co-worker，匯入10,000筆或更多記錄。
+* 將Excel檔案附加至同事，匯入10,000筆或更多記錄
+* 建立和管理業務規則
+
 
 ## 在Workfront Planning中尋找同事
 

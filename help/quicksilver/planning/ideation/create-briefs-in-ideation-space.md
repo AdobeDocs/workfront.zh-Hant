@@ -18,10 +18,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b19d0b1bcda5a4f0f2b6b2caf986e1e4dbc9773a
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '1849'
-ht-degree: 0%
+source-wordcount: '1899'
+ht-degree: 1%
 ---
 
 # 在構思空間建立簡報
@@ -32,12 +32,10 @@ ht-degree: 0%
 
 <span class="preview">如需詳細資訊，請參閱[開始使用Adobe Workfront Planning的創意空間](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)。</span>
 
-<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它只能做為&#x200B;**創意空間Beta**&#x200B;程式的一部分。</span>\
-</span>
 
 >[!IMPORTANT]
 >
->本文資訊為Adobe Workfront Planning。 貴公司必須購買額外的Planning套件才能存取Workfront Planning。
+>本文資訊為僅供同時擁有Adobe Workfront Planning的Workfront客戶使用的功能。 貴公司必須購買額外的Planning套件。
 >
 >如果您的組織以獨立產品形式購買Workfront Planning，則此處說明的功能無法使用。
 >
@@ -91,12 +89,19 @@ are there additional license restrictions or packages to be purchased to have ac
 <tbody> 
     <tr> 
 <tr> 
-</tr>   
+</tr> 
+<tr> 
+   <td role="rowheader"><p>雲端提供者需求</p></td> 
+   <td><p>AWS</p>
+   <p><b>注意：</b></p>
+   <p>不支援其他雲端提供者</p>
+   </td> 
+  </tr>
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
 <ul> 
-<li><p>具有Planning套件的任何Workfront或工作流程</p></li>
+<li><p>具有Planning套件的任何工作流程</p></li>
 <!--
 Add this at GA - not available in beta:
 Or
@@ -114,6 +119,11 @@ Or
 </td> 
 </tr> 
 -->
+<tr> 
+   <td role="rowheader"><p>系統需求</p></td> 
+   <td><p>必須開啟[設定]區域中[系統偏好設定]中的[同事與MCP偏好設定]設定</p>
+   </td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe工作流程授權</p></td> 
    <td><p>標準</p>
@@ -128,8 +138,9 @@ Or
    <td role="rowheader"><p>存取層級設定</p></td> 
    <td> 
    <ul>
-   <li><p>擁有Workflow和Planning套件時，您必須將Workflow和Planning授權型別新增到存取層級</p>   </li>
+   <li><p>您必須將Workflow和Planning授權型別新增到存取層級 <!--when you have both a Workflow and a Planning package--></p>   </li>
    <li><p>必須取消選取存取層級中的停用創意空間設定</p></li>
+   <li><p>必須取消選取存取層級中的「在Workfront中停用CX Coworker面板」設定</p></li></ul>
 </td> 
   </tr>  
    <tr> 
@@ -300,25 +311,29 @@ Or
     -->
 1. 按一下「**儲存**」。
 
-1. 按一下&#x200B;**說明**&#x200B;圖示左側的&#x200B;**縮放等級**&#x200B;下拉式圖示或&#x200B;**說明**&#x200B;圖示![說明圖示](assets/more-information-icon.png)以選取選項，或檢閱可用來瀏覽創意空間或選取不同縮放值的鍵盤快速鍵。
+1. 按一下&#x200B;**說明**&#x200B;圖示![說明圖示](assets/more-information-icon.png)左側的&#x200B;**縮放等級**&#x200B;下拉式功能表，以選取選項。
 
-   從下列縮放等級中選擇：
+   從下列選項中選擇:
 
-   * 縮放至100%
-   * 縮放至200%
-   * 縮放以符合
+   * **縮放以符合**
+   * **放大**
+   * **縮小**
+   * 縮放至&#x200B;**50**、**100**、**150**&#x200B;或&#x200B;**200%**
+   * **顯示點格線**：開啟選取範圍以顯示點格線。
+   * **產品導覽**：使用創意空間時，關閉選取範圍以選擇退出指導提示。
 
-   或使用下列捷徑之一在頁面上導覽：
+1. 按一下&#x200B;**說明**&#x200B;圖示![說明圖示](assets/more-information-icon.png)以檢閱您可用來瀏覽創意空間或選取不同縮放值的鍵盤快速鍵：
 
-   | 動作 | 快速鍵 |
-   | --- | --- |
-   | 放大/縮小 | Ctrl/⌘ + / − |
-   | 縮放以符合/符合選取範圍 | — |
-   | 縮放至游標 | Ctrl/⌘ +捲動 |
-   | 平移畫布 | 空格鍵+拖曳 |
-   | 顯示/隱藏點格線 | G |
-
-
+| 動作 | 快速鍵 |
+| --- | --- |
+| 放大/縮小 | Ctrl/⌘ + / − |
+| 縮放至100% / | Ctrl/⌘ 1 / 1 |
+| 縮放至200% / | Ctrl/⌘ 2 / 2 |
+| 縮放以符合 | Ctrl/⌘ 0 / 0 |
+| 縮放以符合選取範圍 | Alt Ctrl 0 |
+| 縮放至游標 | Ctrl/⌘捲動 |
+| 平移 | 按住空格拖曳 |
+| 顯示/隱藏點格線 | G |
 
 <!--
 

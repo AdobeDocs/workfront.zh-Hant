@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '1345'
+source-wordcount: '1311'
 ht-degree: 0%
 ---
 
@@ -68,43 +68,61 @@ Adobe構思空間是Adobe由AI支援的戰略構思功能，直接內建在Workf
 
 創意力空間僅可透過Workfront Planning或Workfront主功能表存取，位於行銷活動生命週期的最前面，之後規劃、製作和交付，並直接饋送至Workfront Planning工作區，以供團隊規劃及執行其工作。
 
-創意力空間會利用Enterprise CX Coworker產生簡介，以便您稍後轉換成Planning記錄或下載為PDF。
+創意力空間會利用Adobe Enterprise CX Coworker產生簡介，以便您稍後轉換成Planning記錄或下載為PDF。
 
 ## 產品可用性
 
 創意空間可能會有所變更的計畫發行時間表包括以下里程碑：
 
 * **已關閉的Beta：**&#x200B;已於2026年7月推出，適合少數客戶使用。
+
+  生產環境中提供創意力空間給參與的客戶。
 * **開啟Beta：**，目標為2026年11月12日。 這是選擇加入服務，您必須主動開啟選項，而不是主動選擇退出。
+
+  創意空間可在生產、預覽和沙箱環境中提供，以供符合所有其他需求的所有客戶使用。
+
 * **一般可用性：**&#x200B;預計於2027年2月1日推出。
 
 ## 產品需求
 
-如果您的組織和您有權存取以下產品，則可以存取創意力空間：
-
-* Adobe Workfront與Workfront Planning
-* 企業CX Coworker
-
-  >[!IMPORTANT]
-  >
-  >CX Enterprise Coworker目前不適用於保健、金融或某些具有敏感資料的其他行業的組織。 AI Assistant可供這些組織使用，但構思空間不適用於沒有CX Coworker的Workfront客戶。
-
-視您存取創意力空間的時間而定，您必須擁有下列套件的存取權：
-
-* 在Open Beta發行期間，您必須具備下列專案：
-
-  * Adobe Workfront工作流程套件與Workfront計畫套件
-
-* 在「一般可用性」發行後，您可能會有以下其中一項：
-
-  * Adobe Workfront工作流程套件與Workfront計畫套件
-  * Adobe Workfront Planning作為獨立產品
+<!--section duplicated here: help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md-->
 
 >[!NOTE]
 >
->您只能從Workfront主功能表或Workfront Planning存取創意力空間。 您不需要個別登入即可存取創意空間。 如果您可登入Workfront，就可立即使用此功能。
+>您不需要個別登入即可存取創意空間。 如果您也有Workfront Planning，只要登入Workfront，就能立即使用此功能。
+>
+>如需有關使用創意力空間所需存取權的詳細資訊，請參閱[使用創意力空間所需的存取權](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)。
 
-如需有關使用創意力空間所需存取權的詳細資訊，請參閱[使用創意力空間所需的存取權](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)。
+如果您的組織和您有權存取以下專案，則可以存取創意力空間：
+
+* 雲端服務供應商：
+
+  * AWS
+
+    不支援Azure和GCP提供者。
+
+* 產品：
+
+  * Adobe Workfront與Workfront Planning
+  * 適用於Workfront的Adobe Enterprise CX Coworker
+
+    >[!IMPORTANT]
+    >
+    >Adobe CX Enterprise Coworker目前不適用於保健、金融或某些具有敏感資料的其他行業的組織。 AI Assistant可供這些組織使用，但構思空間不適用於沒有同事的Workfront客戶。
+
+* Adobe套件：
+
+  * 在Open Beta版本中（從2026年11月12日開始），您必須具備下列條件：
+
+    * Adobe Workfront工作流程套件與Workfront計畫套件
+
+  * 在「一般可用性」版本（預計於2027年2月1日推出）之後，您可能會有以下其中一項：
+
+    * Adobe Workfront工作流程套件與Workfront計畫套件
+    * Adobe Workfront Planning作為獨立產品
+
+
+
 
 <!--not required anymore: * Adobe GenStudio for Performance Marketing-->
 
@@ -154,13 +172,24 @@ Too much:
   * 例如，您可以在啟動無直接行銷活動歷史記錄的新產品、區段或方案時建立行銷活動。
   * 這會透過引導式構想、建議的頻道組合以及初始概念或訊息方向，產生全新的簡報。
 
-## 創意力空間概觀
+## 創意力空間與Adobe CX Enterprise Coworker
 
-創意力空間是合作式策略行銷創意力工具，適合品牌和產品行銷人員使用，以更快建立更強大的行銷活動，並有助於團隊協調。 這會將AI建議納入即時行銷內容（過往簡報、績效資料、對象分析、品牌指引和現有行銷活動資產），因此結果相關，而非通用。
+創意力空間會使用Adobe CX Enterprise Coworker作為其提示介面。
 
-以下範例說明如何在建立摘要時善用您的想法：
+使用者可以提出後續問題，並以對話方式完善簡短，而不需要一次取得單一的結果。
 
-* 上傳檔案或社交聆聽深入分析
+當摘要繫結至即時Workfront計畫記錄時，同事不會加以覆寫，讓基礎計畫維持不變。 只有在您將摘要匯出至Workfront Planning時，才會覆寫記錄。
+
+<!--
+Previous intro but oped for the more direct one above: 
+The Ideation space is a collaborative strategic marketing ideation tool for brand and product marketers to build stronger campaigns faster and with better team alignment. It grounds AI suggestions in real-marketing context — past briefs, performance data, audience insights, brand guidelines, and existing campaign assets — so results are relevant, not generic.
+
+Ideation space works exclusively with the CX Enterprise Coworker for Workfront as the prompting agent for all its capabilities. 
+-->
+
+以下是在創意力空間中使用Co-worker時的一些功能：
+
+* 上傳檔案或社交深入分析
 * 存取與您正在建置的簡報相關的網路內容
 * 定義行銷活動目標
 * 取得對象深入分析摘要
@@ -169,7 +198,7 @@ Too much:
 * 在大型視覺畫布中工作，使用AI提示產生文字、影像、檔案、圖表和insight卡片
 * 組織、修訂及擴展卡片，以最終將其轉換為行銷活動簡報
 * 與多位使用者共同作業，這些使用者可以在簡報完成前新增創意、在特定畫布專案上留下評論，或使用註解來表達自由形式的創意
-* 我們建議在使用創意力空間時遵循下列最佳實務：
+* 建議您在創意空間中使用同事時，遵循下列最佳作法：
 
   * **必須特定**。 更豐富的行銷活動說明會產生更相關、更接地氣的卡片。
   * 在完成&#x200B;**之前**&#x200B;驗證。 AI產生的回應可能不準確，因此請務必檢查卡片上的&#x200B;**來源**，並在完成記錄之前確認連結的來源。
@@ -181,6 +210,8 @@ Too much:
 
 1. 請確認您符合本文章[產品需求](#product-requirements)一節中所述的產品需求。
 1. 請連絡您的Adobe客戶代表，以表達參與封閉Beta的興趣，或在開放Beta可用時加入它。
+
+   依預設，系統管理員可以存取創意力空間，而當創意力空間在Open Beta中可供使用時，系統管理員無法將其移除。 他們可以為所有其他使用者將其開啟。
 1. （建議）識別您的第一個行銷活動：要重新整理的最近行銷活動，或從頭開始建立的新方案。
 
 如需有關使用創意力空間的詳細資訊，另請參閱下列文章：
@@ -200,9 +231,10 @@ Too much:
 
   主要功能表中的![創意空間區域](assets/ideation-space-area-icon-in-main-menu.png)
 
-  >[!TIP]
-  >
-  >您無法使用版面配置範本從[主要]功能表中移除[創意空間]區域。 如果您希望使用者無法存取創意力空間，則必須在其存取層級中開啟[停用創意力空間]設定，如[使用創意力空間所需的存取權](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)中所述。
+>[!TIP]
+>
+>您無法使用版面配置範本從[主要]功能表中移除[創意空間]區域。 如需有關封鎖使用者存取創意力空間的詳細資訊，請參閱[使用創意力空間所需的存取權](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)。
+>
 
 ## 創意力空間產生的物件
 
@@ -214,14 +246,6 @@ Too much:
 * Planning記錄
 
   只有在從Workfront Planning存取創意力空間或先前將Planning記錄連線至創意力摘要時，才能將摘要匯出至Planning記錄。
-
-## 創意力空間與Adobe CX Enterprise Coworker
-
-創意力空間會使用Adobe的CX Enterprise Coworker作為提示介面。
-
-使用者可以提出後續問題，並以對話方式完善簡短，而不需要一次取得單一的結果。
-
-當摘要繫結至即時Workfront Planning連線時，同事不會覆寫摘要，讓基礎計畫維持不變。<!--Et to check on this, it might be overwritten. -->
 
 <!--
 **************** CONSIDER INCLUDING THIS INFORMATION FROM JESH BARLOW ABOUT COWORKER IN CATALYZE?? - https://adobecorpdev.slack.com/archives/C091C0Y735W/p1788917610365089?thread_ts=1788917251.550099&cid=C091C0Y735W
@@ -258,13 +282,15 @@ Worth noting
 *************************************
 -->
 
-## 其他資源
+<!--
+## Additional resources
 
-* [Adobe Workfront行銷活動規劃](https://business.adobe.com/tw/products/workfront/campaign-planning.html)
-* [Adobe Workfront規劃檔案](/help/quicksilver/planning/planning-information.md)
-* [Adobe GenStudio概觀](https://business.adobe.com/tw/products/genstudio.html)
+* [Adobe Workfront Campaign Planning](https://business.adobe.com/tw/products/workfront/campaign-planning.html)
+* [Adobe Workfront Planning documentation](/help/quicksilver/planning/planning-information.md)
+* [Adobe GenStudio Overview](https://business.adobe.com/tw/products/genstudio.html)
 * [Adobe Customer Journey Analytics](https://business.adobe.com/tw/products/adobe-analytics/customer-journey-analytics.html)
 
+-->
 
 <!--
 

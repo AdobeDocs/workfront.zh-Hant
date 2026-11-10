@@ -11,9 +11,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '993'
 ht-degree: 0%
 ---
 
@@ -36,12 +36,10 @@ THIS ARTICLE HAS 2 DRAFTS IN 2 SEPARATE AREAS FROM CLAUDE - THEY WERE CREATED AT
 
 <span class="preview">如需詳細資訊，請參閱[開始使用Adobe Workfront Planning的創意空間](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)。</span>
 
-<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它只能做為&#x200B;**創意空間Beta**&#x200B;程式的一部分。</span>\
-</span>
 
 >[!IMPORTANT]
 >
->本文資訊為Adobe Workfront Planning。 貴公司必須購買額外的Planning套件才能存取Workfront Planning。
+>本文資訊為僅供同時擁有Adobe Workfront Planning的Workfront客戶使用的功能。 貴公司必須購買額外的Planning套件。
 >
 >如果您的組織以獨立產品形式購買Workfront Planning，則此處說明的功能無法使用。
 >
@@ -84,29 +82,41 @@ are there additional license restrictions or packages to be purchased to have ac
 <tbody> 
     <tr> 
 <tr> 
-</tr>   
+</tr> 
+<tr> 
+   <td role="rowheader"><p>雲端提供者需求</p></td> 
+   <td><p>AWS</p>
+   <p><b>注意：</b></p>
+   <p>不支援其他雲端提供者</p>
+   </td> 
+  </tr>
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
 <ul> 
-<li><p>具有Planning套件的任何Workfront或工作流程</p></li>
+<li><p>具有Planning套件的任何工作流程</p></li>
 <!--
-Not available for beta:
+Add this at GA - not available in beta:
 Or
 <li><p>Any Planning package when purchased as a standalone product</p></li>
 -->
 </ul>
    </td> 
-    <!--
-    <tr> 
-    <td role="rowheader"><p>Additional products</p></td> 
-    <td><ul>
-    <li><p>Adobe GenStudio for Performance Marketing</p></li>
-    <li><p>Adobe Customer Journey Analytics</p></li>
-    </ul>
-    </td> 
-    </tr> 
-    -->
+<!--
+<tr> 
+<td role="rowheader"><p>Additional products</p></td> 
+<td><ul>
+<li><p>Adobe GenStudio for Performance Marketing</p></li>
+<li><p>Adobe Customer Journey Analytics</p></li>
+</ul>
+</td> 
+</tr> 
+-->
+<tr> 
+   <td role="rowheader"><p>系統需求</p></td> 
+   <td><p>必須開啟[設定]區域中[系統偏好設定]中的[同事與MCP偏好設定]設定</p>
+   </td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe工作流程授權</p></td> 
    <td><p>標準</p>
@@ -116,20 +126,24 @@ Or
    <td role="rowheader"><p>Adobe計畫授權</p></td> 
    <td><p>標準</p>
    </td> 
-  </tr> 
+  </tr>  
 <tr> 
    <td role="rowheader"><p>存取層級設定</p></td> 
    <td> 
    <ul>
-   <li><p>擁有Workflow和Planning套件時，您必須將Workflow和Planning授權型別新增到存取層級</p>   </li>
+   <li><p>您必須將Workflow和Planning授權型別新增到存取層級 <!--when you have both a Workflow and a Planning package--></p>   </li>
    <li><p>必須取消選取存取層級中的停用創意空間設定</p></li>
+   <li><p>必須取消選取存取層級中的「在Workfront中停用CX Coworker面板」設定</p></li></ul>
 </td> 
   </tr>  
    <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
    <td> <p>提供或更高許可權給您要新增記錄的工作區和記錄型別 </p>
       <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>
-      <p>檢視Workfront物件的許可權，以將它們新增至摘要 <!--not sure if this is available--></p>
+      <!--
+      not available right now:
+      <p>View permissions to Workfront objects to add them to briefs </p>
+      -->
       <p>創意力空間的編輯器許可權以建立簡報</p>
    </td> 
   </tr>  
@@ -148,7 +162,7 @@ Or
 
 如需Workfront存取需求的詳細資訊，請參閱Workfront檔案中的[存取需求](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)。
 
-+++   
++++  
 
 ## 使用Ideation空間建立或編輯Planning記錄的相關考量事項
 
@@ -186,7 +200,7 @@ Or
 
    創意力空間會在新標籤中開啟。
 
-   CX Coworker會在右側面板中開啟。
+   「同事」會在右側面板中開啟。
 
    系統會使用預留位置名稱立即建立記錄。
 
@@ -194,7 +208,7 @@ Or
     1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
     -->
 
-1. 在&#x200B;**CX Coworker**&#x200B;對話方塊中新增提示，然後按Enter鍵。
+1. 在&#x200B;**Co-worker**&#x200B;對話方塊中新增提示，然後按Enter。
 
    您分享的詳細資訊越多，構思空間提供的資訊就越有用。 例如，輸入您計畫之行銷活動的說明：「返回行銷機構的學校行銷活動」。
 
