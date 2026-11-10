@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a10a7acd51fcbcd0f42ef1ca4ceedc6124459896
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '706'
 ht-degree: 11%
 ---
 # 上傳檔案並在優先順序中建立校訂
@@ -84,7 +84,7 @@ ht-degree: 11%
 1. 按一下&#x200B;**上傳檔案**&#x200B;圖示![上傳檔案圖示](assets/upload-file-icon.png)。
 1. 拖放檔案，或按 Cmd/Ctrl+V 從剪貼簿中貼上
 或
-按一下&#x200B;**新增檔案**&#x200B;以瀏覽檔案或從Document Cloud提供者匯入檔案。
+按一下**新增檔案**以瀏覽檔案或從Document Cloud提供者匯入檔案。
    ![新增檔案](assets/add-files.png)
 1. （選用）新增註解。
 1. （選用）新增更多檔案。
@@ -103,8 +103,30 @@ ht-degree: 11%
 1. 按一下右上角的&#x200B;**上傳檔案**，然後選取&#x200B;**檔案**。
 1. 拖放檔案，或按 Cmd/Ctrl+V 從剪貼簿中貼上
 或
-按一下&#x200B;**新增檔案**&#x200B;以瀏覽檔案或從Document Cloud提供者匯入檔案。
+按一下**新增檔案**以瀏覽檔案或從Document Cloud提供者匯入檔案。
    ![新增檔案](assets/add-files.png)
+1. （選用）新增註解。
+1. （選用）新增更多檔案。
+
+   >[!NOTE]
+   >
+   >其他檔案會以個別檔案的形式上傳。
+1. 按一下「**上傳**」。
+
+## 將檔案上傳至Adobe雲端儲存空間專案
+
+您無法直接將檔案上傳到Adobe雲端儲存空間專案上的任務或問題。 請改為從&#x200B;**專案**&#x200B;索引標籤將檔案上傳到專案。
+
+{{step1-to-priorities}}
+
+1. 在工作清單中，暫留在工作名稱上，然後按一下&#x200B;**摘要**&#x200B;圖示![開啟摘要圖示](assets/summary-icon.png)。
+1. 在摘要面板中，按一下&#x200B;**專案**&#x200B;索引標籤。
+1. 按一下&#x200B;**上傳檔案**&#x200B;圖示![上傳檔案圖示](assets/upload-file-icon.png)。
+1. 拖放檔案，或按 Cmd/Ctrl+V 從剪貼簿中貼上
+
+   或
+
+   按一下&#x200B;**新增檔案**&#x200B;以瀏覽檔案或從Document Cloud提供者匯入檔案。
 1. （選用）新增註解。
 1. （選用）新增更多檔案。
 
