@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 1eaa497ba7e446f7fdf978f369205f309bbe231f
+source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '667'
 ht-degree: 1%
 ---
 
@@ -33,12 +33,10 @@ ht-degree: 1%
 
 <span class="preview">如需詳細資訊，請參閱[開始使用Adobe Workfront Planning的創意空間](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)。</span>
 
-<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它只能做為&#x200B;**創意空間Beta**&#x200B;程式的一部分。</span>\
-</span>
 
 >[!IMPORTANT]
 >
->本文資訊為Adobe Workfront Planning。 貴公司必須購買額外的Planning套件才能存取Workfront Planning。
+>本文資訊為僅供同時擁有Adobe Workfront Planning的Workfront客戶使用的功能。 貴公司必須購買額外的Planning套件。
 >
 >如果您的組織以獨立產品形式購買Workfront Planning，則此處說明的功能無法使用。
 >
@@ -95,29 +93,41 @@ are there additional license restrictions or packages to be purchased to have ac
 <tbody> 
     <tr> 
 <tr> 
-</tr>   
+</tr> 
+<tr> 
+   <td role="rowheader"><p>雲端提供者需求</p></td> 
+   <td><p>AWS</p>
+   <p><b>注意：</b></p>
+   <p>不支援其他雲端提供者</p>
+   </td> 
+  </tr>
 <tr> 
    <td role="rowheader"><p>Adobe Workfront 封裝</p></td> 
    <td> 
 <ul> 
-<li><p>具有Planning套件的任何Workfront或工作流程</p></li>
+<li><p>具有Planning套件的任何工作流程</p></li>
 <!--
-Not available right now: 
+Add this at GA - not available in beta:
 Or
 <li><p>Any Planning package when purchased as a standalone product</p></li>
 -->
 </ul>
    </td> 
-    <!--
-    <tr> 
-    <td role="rowheader"><p>Additional products</p></td> 
-    <td><ul>
-    <li><p>Adobe GenStudio for Performance Marketing</p></li>
-    <li><p>Adobe Customer Journey Analytics</p></li>
-    </ul>
-    </td> 
-    </tr> 
-    -->
+<!--
+<tr> 
+<td role="rowheader"><p>Additional products</p></td> 
+<td><ul>
+<li><p>Adobe GenStudio for Performance Marketing</p></li>
+<li><p>Adobe Customer Journey Analytics</p></li>
+</ul>
+</td> 
+</tr> 
+-->
+<tr> 
+   <td role="rowheader"><p>系統需求</p></td> 
+   <td><p>必須開啟[設定]區域中[系統偏好設定]中的[同事與MCP偏好設定]設定</p>
+   </td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe工作流程授權</p></td> 
    <td><p>標準</p>
@@ -127,29 +137,33 @@ Or
    <td role="rowheader"><p>Adobe計畫授權</p></td> 
    <td><p>標準</p>
    </td> 
-  </tr> 
+  </tr>  
 <tr> 
    <td role="rowheader"><p>存取層級設定</p></td> 
    <td> 
    <ul>
-   <li><p>擁有Workflow和Planning套件時，您必須將Workflow和Planning授權型別新增到存取層級</p>   </li>
+   <li><p>您必須將Workflow和Planning授權型別新增到存取層級 <!--when you have both a Workflow and a Planning package--></p>   </li>
    <li><p>必須取消選取存取層級中的停用創意空間設定</p></li>
+   <li><p>必須取消選取存取層級中的「在Workfront中停用CX Coworker面板」設定</p></li></ul>
 </td> 
   </tr>  
    <tr> 
    <td role="rowheader"><p>物件許可權</p></td> 
    <td> <p>提供或更高許可權給您要新增記錄的工作區和記錄型別 </p>
       <p>系統管理員擁有所有工作區的許可權，包括他們未建立的工作區</p>
-      <p>檢視Workfront物件的許可權，以將它們新增至摘要 <!--not sure if this is available--></p>
-      <p>編輯者許可權在創意空間建立簡介</p>
+      <!--
+      not available right now:
+      <p>View permissions to Workfront objects to add them to briefs </p>
+      -->
+      <p>創意力空間的編輯器許可權以建立簡報</p>
    </td> 
   </tr>  
-  <!--
+    <!--
     <tr> 
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
