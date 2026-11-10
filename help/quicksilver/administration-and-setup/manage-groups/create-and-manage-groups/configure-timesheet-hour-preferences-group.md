@@ -29,9 +29,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d702a6f8a9a8897b6d0271fe17d49d9d59bd6985
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1351'
 ht-degree: 2%
 ---
 # 設定群組的時程表和小時偏好設定
@@ -107,7 +107,7 @@ Adobe Workfront管理員可以在系統層級解除鎖定時程表和小時偏�
 1. 在左側面板中，按一下&#x200B;**群組** ![群組](assets/groups-icon.png)。
 
 1. 按一下要設定其時程表或小時偏好設定的群組名稱。
-1. 在左側面板中，按一下&#x200B;**時程表和時數**。
+1. 在顯示的頁面上，按一下左側的&#x200B;**時程表和時數**。
 
 1. 在顯示的頁面上，在&#x200B;**一般偏好設定**&#x200B;區段中，設定下列任一選項：
 

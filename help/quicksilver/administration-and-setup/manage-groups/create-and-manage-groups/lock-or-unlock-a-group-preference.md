@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d702a6f8a9a8897b6d0271fe17d49d9d59bd6985
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '570'
 ht-degree: 3%
 ---
 # 鎖定或解除鎖定子群組的專案、任務或問題偏好設定
@@ -91,7 +91,7 @@ ht-degree: 3%
 
 1. 在左側面板中，按一下&#x200B;**群組**。
 1. 按一下您要鎖定或解除鎖定專案偏好設定的群組名稱。
-1. 在左側面板中，按一下&#x200B;**專案偏好設定**&#x200B;或&#x200B;**任務與問題偏好設定**。
+1. 在左側，按一下&#x200B;**專案偏好設定**&#x200B;或&#x200B;**任務與問題偏好設定**。
 
 1. 在出現的頁面上，針對系統層級上已解鎖的偏好設定或群組上方的群組執行下列任一動作：
 
