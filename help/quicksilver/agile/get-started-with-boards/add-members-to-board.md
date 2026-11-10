@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 17e85ce107b36aa62d7efb23b113e48324057803
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 4%
 ---
 # 從展示板新增或移除成員
+
+{{boards-maintenance-mode}}
 
 必須先將人員和團隊新增到展示板中作為成員，他們才能檢視展示板。
 

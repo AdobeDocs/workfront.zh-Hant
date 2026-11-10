@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 4%
 ---
 # 將敏捷團隊Kanban卡片移轉至Workfront展示板
+
+{{boards-maintenance-mode}}
 
 您可以將工作專案從敏捷團隊Kanban展示板移轉到新的或現有的Workfront展示板。 當您執行移轉時，Kanban展示板上的所有卡片都會複製到Workfront展示板。 您不得選擇特定卡片。
 

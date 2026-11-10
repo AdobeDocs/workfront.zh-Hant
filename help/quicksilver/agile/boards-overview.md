@@ -22,12 +22,14 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 0%
 ---
 # [!UICONTROL 面板]總覽
+
+{{boards-maintenance-mode}}
 
 [!DNL Adobe Workfront] [!UICONTROL 看板]是彈性工具，可提供包含欄和卡片的共用看板的存取權，以允許團隊共同作業。
 
@@ -45,7 +47,7 @@ ht-degree: 0%
 
 如需有關在專案上使用面板的資訊，請參閱[在面板檢視中管理敏捷專案](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md)。
 
-您也可以存取行動應用程式中的面板。 如需詳細資訊，請參閱行動裝置[&#128279;](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)的[!DNL Adobe Workfront] [!UICONTROL 面板]。
+您也可以存取行動應用程式中的面板。 如需詳細資訊，請參閱行動裝置](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)的[[!DNL Adobe Workfront] [!UICONTROL 面板]。
 
 如需展示板功能的視訊逐步說明，請參閱[[!DNL Adobe Workfront] [!UICONTROL 展示板]視訊示範](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)。
 

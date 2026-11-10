@@ -27,16 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '919'
 ht-degree: 2%
 ---
 # 管理工作流程
 
->[!IMPORTANT]
->
->工作串流僅適用於特定客戶群組。
+{{boards-workstreams}}
 
 工作流程是一組可設定的展示板和卡片，用於共同處理工作。 工作流程可以包含從範本建立的不同版面型別，以及工作專案的卡片清單。 在工作流程中，您可以追蹤反複專案或衝刺中的工作。
 
@@ -81,7 +79,7 @@ ht-degree: 2%
 
 ## 在工作串流中建立新展示板
 
-1. 如果您不在工作流程中，請按一下儀表板上的[檢視工作流程] [!UICONTROL **&#x200B;**]&#x200B;以開啟現有的工作流程。
+1. 如果您不在工作流程中，請按一下儀表板上的[檢視工作流程] [!UICONTROL ****]&#x200B;以開啟現有的工作流程。
 1. 在工作流的[!UICONTROL 面板]索引標籤上按一下&#x200B;**[!UICONTROL 新增面板]**。
 1. 選取展示板的範本。
 
@@ -96,7 +94,7 @@ ht-degree: 2%
 
 ## 篩選工作流程上的展示板清單
 
-將預設值以外的篩選器套用至展示板清單時，篩選器圖示![已套用篩選器](assets/boards-filterapplied-30x30.png)上會顯示指示器。 按一下[全部清除][!UICONTROL **以移除所有篩選器，然後按一下[隱藏篩選器]**]&#x200B;以關閉篩選器面板。**&#x200B;**
+將預設值以外的篩選器套用至展示板清單時，篩選器圖示![已套用篩選器](assets/boards-filterapplied-30x30.png)上會顯示指示器。 按一下[全部清除][!UICONTROL **以移除所有篩選器，然後按一下[隱藏篩選器]**]&#x200B;以關閉篩選器面板。**][!UICONTROL **
 
 {{step1-to-boards}}
 

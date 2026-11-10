@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 4%
 ---
 # 管理面板管理檢視
+
+{{boards-maintenance-mode}}
 
 「看板管理員檢視」包含您帳戶中每個看板的清單，系統管理員可使用此清單來快速取得整體看板詳細資訊的快照，包括上次更新時間、每個看板有多少卡片等等。
 
@@ -90,7 +92,7 @@ ht-degree: 4%
 
    1. （選擇性）按一下&#x200B;**行事曆**&#x200B;圖示![行事曆圖示](assets/calendar-icon.png)，然後選取日期範圍，以依據該時間範圍內最後修改的展示板進行篩選。
 
-   1. （選擇性）在&#x200B;**範本**&#x200B;區段中，選取清單篩選所依據的主機板範本型別。 您可以選取多個範本型別。
+   1. （選擇性）在&#x200B;**範本**區段中，選取清單篩選所依據的主機板範本型別。 您可以選取多個範本型別。
       如需面板範本型別的詳細資訊，請參閱[建立或編輯面板](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md)。
 
    1. （選擇性）在&#x200B;**已封存**&#x200B;區段中，選取要顯示已封存或未封存的展示板。 您可以選取多個選項。

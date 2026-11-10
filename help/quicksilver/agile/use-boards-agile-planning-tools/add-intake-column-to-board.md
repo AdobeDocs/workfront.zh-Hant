@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '1018'
 ht-degree: 5%
@@ -39,6 +39,8 @@ ht-degree: 5%
 # 將輸入欄新增到展示板
 
 <!-- Audited: 5/2025 -->
+
+{{boards-maintenance-mode}}
 
 您可以選擇新增輸入欄到您的展示板，當根據您定義的篩選器將任務和問題新增到[!DNL Workfront]中時，該欄會自動提取作為已連線卡片的任務和問題。 輸入欄可做為Kanban團隊的待處理欄、支援團隊檢視新增至請求佇列之問題的輸入位置，或您所需的任何其他目的。
 
@@ -148,7 +150,7 @@ ht-degree: 5%
 
    如需建立篩選的詳細資訊，請參閱文章[在 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md)中建立或編輯篩選中，標準產生器中的建立或編輯篩選區段。
 
-1. 為篩選器命名，然後按一下[儲存]。**&#x200B;** 該篩選器會出現在您儲存的篩選器清單中，並自動套用至輸入欄。
+1. 為篩選器命名，然後按一下[儲存]。**** 該篩選器會出現在您儲存的篩選器清單中，並自動套用至輸入欄。
 
    ![正在輸入新的篩選器名稱](assets/save-as-modal.png)
 

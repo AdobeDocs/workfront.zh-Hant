@@ -27,12 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 8%
 ---
 # 面板電子郵件通知和偏好設定
+
+{{boards-maintenance-mode}}
 
 [!DNL Adobe Workfront] [!UICONTROL 展示板]會在您將您新增至展示板時，以及當卡片指派給您時，傳送電子郵件給您。 通知預設為開啟，您可以在面板偏好設定中選取要接收哪些電子郵件。
 

@@ -27,12 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 5%
 ---
 # 刪除或封存展示板
+
+{{boards-maintenance-mode}}
 
 您可以在[!DNL Workfront]中刪除或封存展示板。 刪除展示板會將其從[!DNL Workfront]中永久移除，而封存展示板會保留所有卡片，並允許稍後再還原。
 

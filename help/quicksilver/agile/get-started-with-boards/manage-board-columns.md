@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 1%
@@ -34,6 +34,8 @@ ht-degree: 1%
 # 管理展示板的欄
 
 <!-- Audited: 05/2024 -->
+
+{{boards-maintenance-mode}}
 
 依預設，新展示板包含三欄。 您可以新增更多欄、變更欄的順序、重新命名欄，以及刪除任何您不需要的欄。
 
@@ -153,7 +155,7 @@ ht-degree: 1%
 
    1. 選取卡片移至此欄時要套用的狀態。
 
-      資料行![&#128279;](assets/boards-column-status.png)的狀態
+      資料行](assets/boards-column-status.png)的![狀態
 
       也會顯示已連線卡片的狀態轉譯選項。 （狀態轉譯不適用於臨時卡。） 這些選項決定在連線的卡片移至此欄時，套用到[!DNL Workfront]中任務或問題的自訂狀態。
 
@@ -185,7 +187,7 @@ ht-degree: 1%
 
    1. 從下拉式清單中選取標籤。 只有已在[!UICONTROL 標籤管理員]中建立的標籤才可供選擇。 如需新增標籤的相關資訊，請參閱[新增標籤](/help/quicksilver/agile/get-started-with-boards/add-tags.md)。
 
-      資料行![&#128279;](assets/boards-column-tags.png)的標籤
+      資料行](assets/boards-column-tags.png)的![標籤
 
 1. 啟用&#x200B;**[!UICONTROL 進行中工作限制]**&#x200B;原則以限制可新增到資料行的卡片數量。 然後，在&#x200B;**[!UICONTROL 設定限制]**&#x200B;欄位中輸入限制數字。
 

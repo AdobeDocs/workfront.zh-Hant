@@ -28,16 +28,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '579'
 ht-degree: 4%
 ---
 # 將現有任務或問題新增到[!DNL Workfront]展示板
 
->[!IMPORTANT]
->
->工作串流僅適用於特定客戶群組。
+{{boards-workstreams}}
 
 您可以從清單或報告檢視，或物件詳細資訊，將任何任務或問題新增到[!DNL Adobe Workfront]中的展示板或工作流程。
 
@@ -119,7 +117,7 @@ ht-degree: 4%
 1. 移至專案、報告或儀表板，其中包含您要檢視其面板資訊的任務或問題。
 1. 選取包含「面板」欄的檢視，或使用「面板」欄建立新檢視。
 如需檢視的資訊，請參閱[在Adobe Workfront中建立或編輯檢視](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)。
-1. 按一下欄中的[顯示&#x200B;[!UICONTROL **&#x200B;**]]以顯示任務或問題所在面板的清單。
+1. 按一下欄中的[顯示&#x200B;[!UICONTROL ****]]以顯示任務或問題所在面板的清單。
 
    ![顯示欄](assets/show-boards-in-column.png)中的面板
 

@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 6%
 ---
 # 在卡片上新增檔案
+
+{{boards-maintenance-mode}}
 
 您可以將檔案新增至Adobe Workfront展示板上已連線的卡片。 您新增到卡片上的任何檔案都可在已連線任務或問題的檔案索引標籤上使用，且新增到任務或問題上的檔案會顯示在卡片上。 這兩個區域都支援相同的檔案型別。 如需Workfront中檔案的詳細資訊，請參閱[從您的檔案系統新增檔案至Adobe Workfront](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md)。
 

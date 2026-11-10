@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 4%
 ---
 # 管理展示板上的子任務
+
+{{boards-maintenance-mode}}
 
 使用卡片上的子任務可讓您在任務之間建立父子關係，並建立工作的階層。 您新增至Workfront展示板上卡片的子任務也會新增至Workfront專案中的任務。 如需專案層級之子任務和任務的詳細資訊，請參閱[建立子任務](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md)。
 
@@ -80,7 +82,7 @@ ht-degree: 4%
 
    此任務的任何現有子任務都會出現在子任務區段中，檢查清單專案上方的卡片上。 按一下&#x200B;[!UICONTROL **搜尋**]&#x200B;圖示以搜尋子任務。
 
-1. 若要新增子工作，請按一下[新增子工作]。[!UICONTROL **&#x200B;**] 然後，鍵入子任務的標題並按Enter鍵。
+1. 若要新增子工作，請按一下[新增子工作]。[!UICONTROL ****] 然後，鍵入子任務的標題並按Enter鍵。
 
    清單頂端的計數器顯示已完成子工作的數目以及子工作的總數。
 

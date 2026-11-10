@@ -22,14 +22,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '179'
 ht-degree: 0%
 ---
 # 敏捷規劃工具總覽：文章索引
 
 <!-- Audited: 5/2025 -->
+
+{{boards-workstreams}}
 
 當您使用臨機操作卡和連線的卡片來建立展示板時，您可以利用其他敏捷規劃工具。
 
@@ -44,10 +46,6 @@ Scrum適用的工具包括：
 * 工作串流和反複專案面板
 * 卡片清單或待處理專案
 * 反複專案量度
-
->[!IMPORTANT]
->
->工作串流及其相關工具僅適用於特定客戶群組。
 
 您可以使用適合您和團隊的方式使用其中任何或全部工具，而不需遵循特定的敏捷方法。
 

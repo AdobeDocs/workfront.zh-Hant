@@ -1,7 +1,7 @@
 ---
-source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '2312'
+source-wordcount: '2437'
 ht-degree: 2%
 ---
 # 程式碼片段
@@ -131,6 +131,24 @@ Add snippets within the section that the snippet is used. Snippets that are used
 ## 步驟1 — 前往展示板 —  {#step1-to-boards}
 
 1. 按一下Adobe Workfront左上角的&#x200B;**[!UICONTROL 主功能表]**&#x200B;圖示![主功能表](/help/_includes/assets/main-menu-icon-left-nav.png)，然後按一下&#x200B;**[!UICONTROL 面板]**。
+
+## 主機板 — 維護模式 {#boards-maintenance-mode}
+
+>[!IMPORTANT]
+>
+>Workfront主機板目前尚未開發中。
+
+## 看板 — 工作流程無法使用 {#boards-workstreams}
+
+>[!IMPORTANT]
+>
+>Workfront主機板目前尚未開發中。
+> 
+>面板中的工作串流功能已淘汰，但仍可供已使用它的客戶使用。
+>
+>* 建議您不要使用工作流程，因為已不再支援這些工作流程。
+>* 如果面板圖示板上沒有「工作串流」標籤，則無法新增工作串流。
+>* 如果您有工作流程的存取權，您可以新增工作流程並管理現有工作流程。 如果封存或刪除工作流程，則無法復原它。 如果您有剩餘的工作串流且您將其封存或刪除，則您的Workfront執行個體將完全停用工作串流，且您無法新增工作串流。
 
 <!-- Blueprints -->
 
