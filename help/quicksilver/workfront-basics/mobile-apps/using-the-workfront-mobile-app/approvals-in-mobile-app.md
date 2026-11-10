@@ -16,12 +16,18 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 3%
+source-wordcount: '290'
+ht-degree: 2%
 ---
 # [!DNL Adobe Workfront]行動應用程式中的核准
+
+>[!IMPORTANT]
+>
+>Workfront行動應用程式處於維護模式，不再進行新開發。
+> 
+>Workfront行動應用程式不支援整合式核准。
 
 您可以從[!DNL Adobe Workfront]行動應用程式的[!UICONTROL 核准]區域，管理指派或委派給您的核准。 從[!UICONTROL 核准]區域，您可以核准：
 

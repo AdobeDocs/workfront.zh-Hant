@@ -16,12 +16,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 0%
 ---
 # 在[!DNL Adobe Workfront]行動應用程式中檢閱並決定校訂
+
+{{mobile-maintenance-mode}}
 
 當校訂指派給您進行核準時，它會顯示於行動應用程式中的核准清單中。 您可以直接在應用程式中檢閱校訂，並做出決定。 如需在[!DNL Adobe Workfront]中檢閱和核准校訂的資訊，請參閱[在 [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)中檢閱校訂。
 

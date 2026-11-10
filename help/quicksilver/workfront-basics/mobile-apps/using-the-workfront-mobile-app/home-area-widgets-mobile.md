@@ -16,12 +16,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
 ---
 # [!UICONTROL 首頁]區域Widget
+
+{{mobile-maintenance-mode}}
 
 [!DNL iOS]和[!DNL Android]的主區域Widget可協助您快速找到工作專案。
 

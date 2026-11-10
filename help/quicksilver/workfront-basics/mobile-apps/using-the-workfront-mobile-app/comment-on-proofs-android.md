@@ -16,12 +16,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 0%
 ---
 # [!DNL Android]中校訂的註解
+
+{{mobile-maintenance-mode}}
 
 您可以檢閱和解決校訂上的現有評論，並將新評論和註解新增到校訂檔案中。
 

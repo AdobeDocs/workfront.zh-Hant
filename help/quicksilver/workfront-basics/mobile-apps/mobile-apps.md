@@ -21,12 +21,14 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '34'
 ht-degree: 0%
 ---
 # 行動應用程式
+
+{{mobile-maintenance-mode}}
 
 本節包含下列子章節：
 

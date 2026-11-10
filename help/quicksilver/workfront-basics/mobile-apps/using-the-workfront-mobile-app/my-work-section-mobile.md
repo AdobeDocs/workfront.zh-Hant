@@ -16,12 +16,14 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: a59c8515addb7c665be4021d0906021c86bb1ee9
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 1%
 ---
 # 行動應用程式中的[!UICONTROL 我的工作]區段
+
+{{mobile-maintenance-mode}}
 
 [!UICONTROL 首頁]區域的[!UICONTROL 我的工作]區段會顯示您的任務、問題、專案、核准、要求和時程表。
 
