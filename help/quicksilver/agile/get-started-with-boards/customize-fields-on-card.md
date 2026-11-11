@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 2%
 ---
 # 自訂要在卡片上顯示的欄位
+
+{{boards-maintenance-mode}}
 
 依預設，所有可用欄位都會顯示在卡片上，當卡片開啟時會顯示為完整檢視，並在展示板上的壓縮卡片檢視中顯示。 您可以自訂哪些欄位會以下列方式顯示：
 

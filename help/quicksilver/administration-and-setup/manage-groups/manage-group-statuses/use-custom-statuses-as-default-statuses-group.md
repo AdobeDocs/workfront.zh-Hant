@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 04335eec43d9690e7dbc028c2066039ae28be432
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '660'
 ht-degree: 3%
 ---
 # 使用自訂狀態作為群組的預設狀態
@@ -77,16 +77,16 @@ ht-degree: 3%
 
 ## 問題狀態
 
-如果自訂狀態是問題狀態，則必須為其啟用所有四種問題型別（錯誤報告、變更順序、問題和請求）。 例如，在下方顯示的問題狀態中，由於未選取「變更單」問題型別，因此「重新開啟」狀態無法作為預設狀態：
+如果自訂狀態是問題狀態，則必須為其啟用所有四種問題型別（錯誤報告、變更順序、問題和請求）。 例如，在下面顯示的問題狀態中，狀態Idea無法用作預設狀態，因為未選取「變更單」問題型別：
 
-![所有問題型別已啟用](assets/all-4-issue-types-enabled.png)
+![所有問題型別已啟用](assets/new-all-issue-types-enabled.png)
 
 ## 將自訂狀態設定為群組的預設狀態
 
 {{step-1-to-setup}}
 
 1. 在左側面板中，按一下&#x200B;**群組** ![群組](assets/groups-icon.png)，然後按一下您要建立或自訂狀態的群組名稱。
-1. 在左側面板中，按一下&#x200B;**狀態** ![齒輪設定圖示](assets/gear-icon-settings.png)。
+1. 在左側面板中，按一下&#x200B;**狀態** ![狀態圖示](assets/status-icon.png)。
 1. 視您要設定為預設狀態的狀態型別而定，開啟&#x200B;**專案**、**任務**&#x200B;或&#x200B;**問題**&#x200B;標籤。
 1. 按一下右上角附近的&#x200B;**設定預設狀態**。
 1. 在顯示的下拉式區域中，在您要設定預設狀態的狀態旁邊，選取您要設定的預設狀態。
@@ -122,4 +122,3 @@ Workfront管理員將自訂狀態設定為預設狀態後，建立的新群組�
 
 如果沒有同等型別的可用狀態，則狀態型別會顯示為&#x200B;**隱藏**，且不適用於工作專案。
 
-![沒有可用的狀態](assets/when-hide-default-status-no-equivalent.png)

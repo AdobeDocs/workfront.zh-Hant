@@ -24,7 +24,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 1%
@@ -32,6 +32,8 @@ ht-degree: 1%
 # Workfront主機板影片示範
 
 <!--Audited: 12/2023-->
+
+{{boards-maintenance-mode}}
 
 這些影片會向您介紹Adobe Workfront中可用的各種版面，並示範如何在日常工作中使用版面。
 

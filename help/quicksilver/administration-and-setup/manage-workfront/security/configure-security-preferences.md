@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a3cf3050da6355c2b0929b24e3bfe7035db76117
+source-git-commit: d00e08bb44ff533f6bbdbbe6f932a85533514269
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 7%
@@ -102,26 +102,26 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>啟用快速發佈程序</p> </td> 
-      <td>可讓您為貴組織啟用每月Workfront發行，而非每季發行。</p><p>如需快速發行程式的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md" class="MCXref xref">為您的組織啟用或停用快速發行</a>。</p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"> <p>允許在iframe中內嵌Workfront</p> </td> 
-      <td>可讓您將Workfront內嵌於iframe中。<p>此選項預設為停用。</p><p><b>重要</b>：在iframe中顯示Web應用程式，會使應用程式容易發生點選劫持安全性弱點。</p></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Office 365 增益集允許 SAML 2.0 驗證</td> 
-      <td> <p>當Workfront與SAML 2.0單一登入解決方案整合時，可讓您僅將Workfront內嵌在Office 365增益集適用的iframe中。 </p> <p>此選項預設為啟用。</p> <p><b>注意</b>：如果您啟用上述選項<strong>允許在iframe中內嵌Workfront</strong>，則選項<strong>允許Office 365增益集中的SAML 2.0驗證</strong>已啟用且變暗。</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">啟用在建立外部頁面URL時使用工作階段資訊</td> 
-      <td> <p>允許使用者在將外部頁面新增到儀表板時使用網站的工作階段ID資訊。</p> <p>此選項不安全，預設為關閉。 建議改用OAuth進行整合。</p> <p>如需將外部頁面新增至控制面板的詳細資訊，請參閱<a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">將外部網頁內嵌於控制面板</a>。</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">讓人們使用Workfront的行動應用程式</td> 
-      <td> <p>允許使用者存取行動應用程式（適用於iPad和行動電話應用程式的Workfront檢視）</p> <p>此選項預設為啟用。 </p> <p>如需Workfront檢視的相關資訊，請參閱<a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">使用Adobe Workfront檢視</a>。 如需行動應用程式的詳細資訊，請參閱<a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">使用Adobe Workfront行動應用程式：文章索引</a>。</p> </td> 
-     </tr> 
-     <tr> 
+         <td role="rowheader"> <p>啟用快速發佈程序</p> </td> 
+         <td>可讓您為貴組織啟用每月Workfront發行，而非每季發行。</p><p>如需快速發行程式的詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md" class="MCXref xref">為您的組織啟用或停用快速發行</a>。</p></td> 
+        </tr> 
+        <tr> 
+         <td role="rowheader"> <p>允許在iframe中內嵌Workfront</p> </td> 
+         <td>可讓您將Workfront內嵌於iframe中。<p>此選項預設為停用。</p><p><b>重要</b>：在iframe中顯示Web應用程式，會使應用程式容易發生點選劫持安全性弱點。</p></td> 
+        </tr> 
+        <tr> 
+         <td role="rowheader">Office 365 增益集允許 SAML 2.0 驗證</td> 
+         <td> <p>當Workfront與SAML 2.0單一登入解決方案整合時，可讓您僅將Workfront內嵌在Office 365增益集適用的iframe中。 </p> <p>此選項預設為啟用。</p> <p><b>注意</b>：如果您啟用上述選項<strong>允許在iframe中內嵌Workfront</strong>，則選項<strong>允許Office 365增益集中的SAML 2.0驗證</strong>已啟用且變暗。</p> </td> 
+        </tr> 
+        <tr> 
+         <td role="rowheader">啟用在建立外部頁面URL時使用工作階段資訊</td> 
+         <td> <p>允許使用者在將外部頁面新增到儀表板時使用網站的工作階段ID資訊。</p> <p>此選項不安全，預設為關閉。 建議改用OAuth進行整合。</p> <p>如需將外部頁面新增至控制面板的詳細資訊，請參閱<a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">將外部網頁內嵌於控制面板</a>。</p> </td> 
+        </tr> 
+        <tr> 
+         <td role="rowheader">讓人們使用Workfront的行動應用程式</td> 
+         <td> <p>允許使用者存取行動應用程式（適用於iPad和行動電話應用程式的Workfront檢視）</p> <p>此選項預設為啟用。 </p> <p>如需Workfront檢視的相關資訊，請參閱<a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">使用Adobe Workfront檢視</a>。 如需行動應用程式的詳細資訊，請參閱<a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">使用Adobe Workfront行動應用程式：文章索引</a>。</p> </td> 
+        </tr> 
+        <tr> 
       <td role="rowheader"> <p>透過使用電子郵件地址與沒有Workfront帳戶的人共同作業</p> </td> 
       <td>可讓Workfront使用者透過包含電子郵件地址而非姓名來與沒有Workfront帳戶的人共用特定專案。 使用者可使用其電子郵件地址與外部使用者共用下列專案：
        <ul>
@@ -196,7 +196,6 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
     <tr> 
       <td role="rowheader">規劃設計工具</td> 
       <td>這僅適用於已購買Workfront Planning套件的客戶。 開啟此設定可讓您的使用者使用Planning Designer來建立和編輯工作區。 如需詳細資訊，請參閱<a href="/help/quicksilver/planning/general/planning-ai-designer.md">開始使用Adobe Workfront Planning Designer</a>。</td> 
-     </tr>.</td> 
      </tr>
      <tr> 
       <td role="rowheader">唯讀 MCP 工具</td> 

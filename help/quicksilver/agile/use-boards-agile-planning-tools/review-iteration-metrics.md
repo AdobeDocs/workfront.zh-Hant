@@ -27,16 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '213'
 ht-degree: 7%
 ---
 # 檢閱反複專案量度
 
->[!IMPORTANT]
->
->工作串流僅適用於特定客戶群組。
+{{boards-workstreams}}
 
 量度可用於工作流程中的每個反複專案，位於反複專案程式板和控制面板上。
 

@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 1%
@@ -34,6 +34,8 @@ ht-degree: 1%
 # 管理展示板的欄
 
 <!-- Audited: 05/2024 -->
+
+{{boards-maintenance-mode}}
 
 依預設，新展示板包含三欄。 您可以新增更多欄、變更欄的順序、重新命名欄，以及刪除任何您不需要的欄。
 

@@ -26,12 +26,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 588af2e164efa31b092254726cf1506134e1ef69
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 6%
 ---
 # 新增標籤
+
+{{boards-maintenance-mode}}
 
 您可以將標籤新增至卡片，以視覺化方式顯示兩者相似。 然後，您可以按這些標籤進行篩選以顯示相關卡片。
 

@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d702a6f8a9a8897b6d0271fe17d49d9d59bd6985
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '599'
 ht-degree: 3%
 ---
 # 鎖定或解鎖群組時程表和小時偏好設定
@@ -100,7 +100,7 @@ Unlike other Lock/Unlock articles that start just like this one, we need the ste
 
 1. 在左側面板中，按一下&#x200B;**群組**。
 1. 按一下您要鎖定或解除鎖定時程表和時數偏好設定的群組名稱。
-1. 在左側面板中，按一下&#x200B;**時程表和時數偏好設定**。
+1. 在左側，按一下&#x200B;**時程表和時數偏好設定**。
 
 1. 在出現的頁面上，執行下列任一項作業：
 

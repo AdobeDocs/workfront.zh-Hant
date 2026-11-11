@@ -26,18 +26,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '808'
 ht-degree: 2%
 ---
 # 使用面板儀表板
 
 <!-- Audited: 1/2024 -->
 
->[!IMPORTANT]
->
->工作串流僅適用於特定客戶群組。
+{{boards-workstreams}}
 
 面板儀表板會顯示您可以存取的面板和工作串流清單，包括您已建立的面板以及您已加入的面板。 您有權存取但不是工作流程一部分的個別面板會先顯示。
 

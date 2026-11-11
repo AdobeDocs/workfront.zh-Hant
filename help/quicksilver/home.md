@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e19eca57bfc65b561d08331c368aed92f19c05d2
+source-git-commit: e6e1bd35cc525995ea48509b48640fb9f24a6c23
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 30%
@@ -157,3 +157,4 @@ ht-degree: 30%
 ### 在社群論壇中尋找答案
 
 * **提出問題**：如果檔案沒有回答您的問題，請嘗試在[Workfront社群論壇](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=zh-Hant)中張貼，其他使用者和專家可在其中提供協助。
+

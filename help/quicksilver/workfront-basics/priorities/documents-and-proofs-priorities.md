@@ -23,7 +23,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: fb173da014e7411a9b7bb3ef36eae77f6ec44cb9
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 11%
@@ -112,7 +112,6 @@ ht-degree: 11%
    >
    >其他檔案會以個別檔案的形式上傳。
 1. 按一下「**上傳**」。
-
 
 ## 建立簡單或進階校訂
 

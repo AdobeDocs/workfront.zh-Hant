@@ -27,16 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '919'
 ht-degree: 2%
 ---
 # 管理工作流程
 
->[!IMPORTANT]
->
->工作串流僅適用於特定客戶群組。
+{{boards-workstreams}}
 
 工作流程是一組可設定的展示板和卡片，用於共同處理工作。 工作流程可以包含從範本建立的不同版面型別，以及工作專案的卡片清單。 在工作流程中，您可以追蹤反複專案或衝刺中的工作。
 

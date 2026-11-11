@@ -27,16 +27,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ca7080a33a12d54644a8a2e0637856a53af5954
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '470'
 ht-degree: 3%
 ---
 # 在工作流程展示板上設定待處理專案
 
->[!IMPORTANT]
->
->工作串流僅適用於特定客戶群組。
+{{boards-workstreams}}
 
 您可以選擇在工作流程中的展示板上顯示待處理資料欄，並為從工作流程卡片清單提取到展示板待處理資料中的卡片定義查詢。
 
