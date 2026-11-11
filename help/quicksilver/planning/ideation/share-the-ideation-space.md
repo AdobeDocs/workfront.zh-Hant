@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '675'
 ht-degree: 1%
 ---
 
@@ -63,7 +63,7 @@ Future - when they make it available in Planning: replace the above with this OR
 Some of this information is also duplicated in the section for Ideation space permissions in the Access needed to use Ideation space article
 -->
 
-在啟動行銷活動和其他記錄型別之前，您可以使用Adobe Workfront中的創意空間來建立行銷活動摘要資訊。 這邀請其他人集思廣益，並收集資訊，在啟動您的工作之前共同建立簡報。
+在啟動行銷活動和其他記錄型別之前，您可以使用Adobe Workfront中的構思空間為其建立簡報。 這邀請其他人集思廣益，並收集資訊，在啟動您的工作之前共同建立簡報。
 
 您可以與其他使用者共用構思空間及其各自的摘要，以進行更好的共同作業。
 
@@ -96,9 +96,9 @@ are there additional license restrictions or packages to be purchased to have ac
 </tr> 
 <tr> 
    <td role="rowheader"><p>雲端提供者需求</p></td> 
-   <td><p>AWS</p>
+   <td><p>Amazon Web Services (AWS)</p>
    <p><b>注意：</b></p>
-   <p>不支援其他雲端提供者</p>
+   <p>我們不支援任何其他雲端服務提供者。</p>
    </td> 
   </tr>
 <tr> 
@@ -163,7 +163,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -192,7 +192,7 @@ Or
      貴組織中存取層級中擁有Workflow和Planning授權的所有人都可以尋找並評論該構思。
    * **擁有連結的任何人都可以註解**
 
-     您共用創意力連結的任何人都可以評論，包括組織外部的人員。
+     您與之共用創意力畫布連結的任何人都可以評論，包括組織外部的人員。
 
 1. 按一下&#x200B;**複製連結**&#x200B;以產生該創意的連結，並與他人共用。 連結會新增到您的剪貼簿。
 1. 按一下「設定」方塊上的「上一步」箭頭，返回共用。
@@ -200,11 +200,11 @@ Or
 
    | 創意力空間許可權 | 功能 |
    |---|---|
-   | **編輯器** | 可以編輯、下載及共用創意力空間 |
-   | **評論者** | 可以在創意力空間上檢視和註解 |
-   | **檢視器** | 可檢視創意力空間 |
+   | **編輯器** | 可以編輯、下載和共用創意力畫布 |
+   | **評論者** | 可以在創意力畫布上檢視和註解 |
+   | **檢視器** | 可檢視創意力畫布 |
 
-1. （選擇性）將郵件加入您的工作分派，然後按一下&#x200B;**邀請**。
+1. （選擇性）將郵件加入您的共用邀請，然後按一下[邀請]。****
 
    受邀使用者會收到有關其許可權指派的電子郵件通知。
 

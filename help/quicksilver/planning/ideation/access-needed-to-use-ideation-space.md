@@ -1,5 +1,5 @@
 ---
-title: 使用構思空間所需的存取許可權
+title: 使用創意力空間所需的存取權
 description: Adobe Workfront規劃現在提供另一項功能，可在您啟動行銷活動之前加以構想。 運用AI的強大功能，將資料和直接輸入轉換為實際的計畫，並為團隊提供明智的起點，而不是具有Adobe Ideation空間的空白頁面。
 author: Alina
 feature: Workfront Planning
@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '969'
 ht-degree: 1%
 ---
 
@@ -79,9 +79,9 @@ Adobe Workfront規劃現在提供另一項功能，可在您啟動行銷活動�
 
 * 雲端服務供應商：
 
-  * AWS
+  * Amazon Web Services (AWS)
 
-    不支援Azure和GCP提供者。
+    創意力空間不支援Azure和GCP提供者。
 
 * 產品：
 
@@ -92,16 +92,20 @@ Adobe Workfront規劃現在提供另一項功能，可在您啟動行銷活動�
     >
     >CX Enterprise Coworker目前不適用於保健、金融或某些具有敏感資料的其他行業的組織。 AI Assistant可供這些組織使用，但構思空間不適用於沒有同事的Workfront客戶。
 
-* Adobe套件：
+* Adobe套件： <!--Et wanted the Coworker added to these-->
 
   * 在Open Beta版本中（從2026年11月12日開始），您必須具備下列條件：
 
-    * Adobe Workfront工作流程套件與Workfront計畫套件
+    * Adobe Workfront Workflow套件和已啟動Adobe CX Enterprise Coworker的Workfront Planning套件
 
   * 在「一般可用性」版本（預計於2027年2月1日推出）之後，您可能會有以下其中一項：
 
     * Adobe Workfront工作流程套件與Workfront計畫套件
     * Adobe Workfront Planning作為獨立產品
+
+    兩個套件都必須啟用Adobe CX Enterprise Coworker
+
+
 
 
 <!--
@@ -171,7 +175,7 @@ Your organization must purchase a package for the following products to access t
 
 當您使用Workfront Planning的創意空間時，每個Planning記錄都會連線至創意空間中的一個摘要。
 
-創意空間摘要許可權繼承自Workfront Planning記錄許可權。<!--not sure if this is right, because now you can share the ideation with others??-->
+創意空間摘要許可權繼承自Workfront Planning記錄許可權。
 
 您必須在Planning中擁有記錄型別的Contribute或更高許可權才能建立記錄，才能在Ideation space中建立或編輯記錄。
 
@@ -183,6 +187,8 @@ Your organization must purchase a package for the following products to access t
 |---|---|
 | 貢獻或更高的記錄許可權 | 可以在記錄的構思空間中建立簡報 |
 | 檢視記錄的許可權 | 可以讀取創意空間中的記錄摘要，但無法修改它 |
+
+您也可以與他人共用創意力畫布。 如需詳細資訊，請參閱本文中的下節。
 
 ## 創意力空間許可權
 

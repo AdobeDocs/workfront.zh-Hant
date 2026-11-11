@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 64b421c1e1b00d37f55458b49510d9ca496f70e8
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1391'
 ht-degree: 3%
 ---
 # 更新區段概觀
@@ -154,12 +154,22 @@ Depending on what objects you access the commenting experience for, you might fi
 
   如需有關更新物件的資訊，請參閱[更新工作](../updating-work-items-and-viewing-updates/update-work.md)。
 
+  <!--<span class="preview">The **Comments** tab includes a filter that hides or displays resolved comments. For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). </span>-->
+
 * **系統活動**：顯示系統更新，這些是Workfront建立的資訊訊息，用來在物件上記錄特定事件。 例如，狀態、名稱或自訂欄位的變更會透過系統更新擷取。 您的Workfront或群組管理員可以為您的物件啟用系統更新。 對舊版評論體驗中系統活動記錄所做的任何回覆，都會以唯讀形式填入系統活動標籤中。 如需詳細資訊，請參閱[設定系統更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)。
 * **全部（唯讀）**：在一個位置同時顯示使用者註解和系統活動註解。 這是僅供檢視的標籤。 您無法在[全部]索引標籤的現有註解中回覆註解或標籤其他使用者。 若要回覆特定註解，請使用「全部」標籤到「註解」標籤的連結。 如需有關更新物件的資訊，請參閱[更新工作](../updating-work-items-and-viewing-updates/update-work.md)。
 
   >[!NOTE]
   >
   >「註解」和「系統」活動標籤會即時更新。 您必須重新整理[全部]索引標籤才能檢視最近的更新。
+* **摘要註解**：這會開啟右側的AI助理或同事面板，並提供物件所有更新歷史記錄的AI產生摘要。
+
+  >[!NOTE]
+  >
+  >您必須簽署AI Assistant合約，或在[設定]區域中啟用[同事與MCP偏好設定]，才能使用&#x200B;**摘要註解**&#x200B;標籤。 您的組織可能有AI助理或Workfront的CX Enterprise Coworker。
+  >
+  >如需詳細資訊，請參閱[Workfront中的AI助理](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)和[Workfront中的CX Enterprise Coworker概觀](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)。
+
 
 ### 不同物件「更新」區域的異同
 
