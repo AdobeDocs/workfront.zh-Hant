@@ -380,7 +380,7 @@ ht-degree: 2%
 
 * 將基礎架構(Electron)更新至最新版本，該版本會在Chrome版本156上執行，以提升效能和安全性。
 
-如需有關下載和更新案頭校訂檢視器的資訊，請參閱[更新案頭校訂檢視器](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer)。
+如需有關下載和更新案頭校訂檢視器的資訊，請參閱[更新案頭校訂檢視器](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer)。
 
 ## 公告
 
@@ -437,10 +437,10 @@ Workfront Planning現在包含創意空間，這是團隊可以擷取、組織�
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hant).
 
 -->
 
 ### 訓練更新
 
-探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的「新增功能」一節。
+探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hant)的「新增功能」一節。
