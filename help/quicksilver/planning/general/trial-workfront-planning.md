@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '2346'
+source-wordcount: '2348'
 ht-degree: 1%
 ---
 # 開始使用Adobe Workfront Planning免費試用版
@@ -254,7 +254,7 @@ this information will be live on March 2 - the How to sign up below will be a ##
 1. （有條件且必要）身為Workfront管理員，請簽署免費試用合約。
 
    如需相關資訊，請參閱本文章的[註冊Adobe Workfront Planning免費試用](#enroll-in-the-adobe-workfront-planning-free-trial)一節。
-1. （視條件而定）試用合約由Workfront管理員簽署後，按一下&#x200B;**主要功能表**&#x200B;圖示![](assets/main-menu-shell.png)，然後按一下下列其中一個以存取&#x200B;**計畫**&#x200B;區域：
+1. （視條件而定）在Workfront管理員簽署試用合約後，按一下&#x200B;**主功能表**&#x200B;圖示![主功能表](assets/main-menu-shell.png)，然後按一下下列其中一個以存取&#x200B;**計畫**&#x200B;區域：
 
    * **規劃**。 圖示旁邊會顯示&#x200B;**試用版**&#x200B;標籤。
    * **專案**，**要求**，**行事曆**，然後按一下&#x200B;**探索行銷活動行事曆**

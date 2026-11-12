@@ -11,9 +11,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1026'
 ht-degree: 0%
 ---
 
@@ -85,9 +85,9 @@ are there additional license restrictions or packages to be purchased to have ac
 </tr> 
 <tr> 
    <td role="rowheader"><p>雲端提供者需求</p></td> 
-   <td><p>AWS</p>
+   <td><p>Amazon Web Services (AWS)</p>
    <p><b>注意：</b></p>
-   <p>不支援其他雲端提供者</p>
+   <p>我們不支援任何其他雲端服務提供者。</p>
    </td> 
   </tr>
 <tr> 
@@ -170,7 +170,7 @@ Or
 * 若要使用「構思」空間來建立或編輯記錄，您必須在Workfront Planning中擁有工作區和記錄型別。
 * 新記錄一律以預留位置內容開始，無論您如何建立它們。
 * 當您刪除連結至創意力簡述的Planning記錄時，簡述會保留在創意力空間中，其相關的空間不會被刪除。
-* 同步資訊只會從創意空間到Workfront Planning。 從Planning記錄到Ideation space brief沒有反向同步或自動同步。<!--this might change?-->
+* 同步資訊只會從創意空間到Workfront Planning。 從Planning記錄到Ideation space brief沒有反向同步或自動同步。<!--this might change after beta?-->
 * 在Workfront Planning中建立、編輯或移除欄位時，會發生下列情況：
 
   * 連結至創意力簡報的記錄所建立的新欄位，每天都會新增至簡報。 新欄位在創意力簡報中顯示為空白。
@@ -189,8 +189,8 @@ Or
 1. 按一下可新增記錄的記錄型別卡片。
 1. 執行下列任一項作業來建立記錄：
 
-   * 從任何記錄型別頁面的檢視，按一下頁面右上角的&#x200B;**新增記錄**，並在&#x200B;**選擇新增記錄的方式**&#x200B;方塊中，按一下&#x200B;**開啟創意空間**，然後按一下&#x200B;**繼續**。
-   * 捲動到記錄表底部，按一下&#x200B;**新增列**，然後按一下&#x200B;**開啟創意空間**。
+   * 從任何記錄型別頁面的檢視中，按一下頁面右上角的&#x200B;**新增記錄**，並在&#x200B;**選擇新增記錄的方式**&#x200B;方塊中，按一下&#x200B;**開始創意空間**，然後按一下&#x200B;**繼續**。
+   * 捲動到記錄表底部，按一下&#x200B;**新增列**，然後按一下&#x200B;**開始創意空間**。
 
      >[!TIP]
      >
@@ -198,11 +198,15 @@ Or
 
    ![具有開啟創意空間按鈕的新記錄方塊](assets/new-record-creation-picker-with-ideation.png)
 
-   創意力空間會在新標籤中開啟。
+1. 閱讀Beta版合約，然後按一下&#x200B;**同意**。 您必須簽署合約才能使用創意力空間。
 
-   「同事」會在右側面板中開啟。
+   會發生下列情況：
 
-   系統會使用預留位置名稱立即建立記錄。
+   * 創意力空間畫布會在新標籤中開啟。
+
+   * 「同事」會在右側面板中開啟。
+
+   * 系統會使用預留位置名稱立即建立記錄。
 
    <!--
     1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
@@ -243,7 +247,7 @@ Or
 
 1. 前往Workfront Planning中的現有記錄，並開啟其詳細資訊頁面。
 
-1. 按一下&#x200B;**在創意力空間開啟** ![](assets/open-in-ideation-space.png)。 這會在新標籤中開啟「構思」空間。
+1. 按一下詳細資訊頁面右上角的&#x200B;**在創意力空間開啟**。 這會在新標籤中開啟「構思」空間。
 
    如果記錄的構思已存在，則會開啟該空間。
 

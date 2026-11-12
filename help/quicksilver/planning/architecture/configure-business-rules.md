@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
+source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1302'
 ht-degree: 1%
 ---
 
@@ -187,7 +187,7 @@ ht-degree: 1%
 1. 按一下[啟動]&#x200B;**&#x200B;**&#x200B;以啟用此記錄型別的規則，然後按一下[儲存]&#x200B;**&#x200B;**。
 
    規則會在您啟動後立即套用，而所有有權編輯或刪除所選記錄型別中記錄的使用者都必須遵循這些規則。
-1. （選擇性）按一下頁首中商業規則名稱的&#x200B;**更多**&#x200B;功能表![](assets/more-menu.png)，以開啟&#x200B;**規則詳細資料**&#x200B;方塊並更新商業規則的相關資訊。
+1. （選擇性）按一下頁首中商業規則名稱的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，以開啟&#x200B;**規則詳細資料**&#x200B;方塊並更新商業規則的相關資訊。
 1. （選用且建議使用）按一下頁首中&#x200B;**Business rules**&#x200B;左側的返回箭頭，以顯示記錄型別頁面，並移至表格檢視或開啟記錄頁面，然後嘗試編輯或刪除記錄，以測試您剛才建立的規則。
 
 ## 管理商業規則
