@@ -1,13 +1,11 @@
 ---
 name: release-notes-formatter
 description: 格式化及驗證Workfront發行說明，以取得一致性、正確結構和正確連結。 僅用於產品版本目錄中的版本注意事項檔案，或者當使用者提及版本注意事項、產品版本或季度版本時。 請勿套用至作法文章或一般檔案。
-source-git-commit: dac869369d6d9ef32741aa0972ccf9cb25b2633c
+source-git-commit: 58f795a32a915d49ca16c08c92235c47d3088327
 workflow-type: tm+mt
-source-wordcount: '2183'
+source-wordcount: '2336'
 ht-degree: 2%
-
 ---
-
 
 # 發行說明格式化程式
 
@@ -91,7 +89,7 @@ exl-id: <existing UUID — never generate or change>
 
 2. **將段落**&#x200B;與排定的發行月份一起介紹
 
-3. 使用發行排程表的&#x200B;**`>[!IMPORTANT]`區塊**
+3. **`>[!IMPORTANT]`區塊** （含發行排程表格），後面接著說明並行發行和關閉排程徽章的徽章圖例（請參閱參考檔案中的概觀頁面範本）
 
 4. **H2`Adobe Workfront enhancements`**&#x200B;包含錨點連結的專案符號清單：
 
@@ -100,8 +98,11 @@ exl-id: <existing UUID — never generate or change>
 * [Document enhancements](#document-enhancements)
 ```
 
+- 如果產品區域區段被標籤為註解，請從此清單中完全移除其連結。 請勿將連結往外註解。
+
 &#x200B;5. 每個產品區域有&#x200B;**H3**&#x200B;搭配HTML功能表（請參閱。claude/commands/_release-notes-formatter-reference.md#overview-feature-table）
    - 在每個表格中，**最新功能排在前** — 最近的列會顯示在表格頂端（標題列之後）
+      — 如果某個功能有徽章（`[!BADGE Off schedule]{type=Neutral}`或`[!BADGE Concurrent release]{type=Neutral}`），請將其放在它自己的`<p>`中，直接放在功能連結段落的正下方，在說明段落之前。
 
 &#x200B;6. **尾端區段** (H2)：其他區域的發行說明、案頭校訂檢視器更新、公告、API版本、維護更新、訓練更新
 
@@ -134,6 +135,8 @@ exl-id: <existing UUID — never generate or change>
 | 編號說明行中的額外空格 | 修剪尾隨空格 |
 | 產品區域頁面中的HTML | 維持為Markdown （HTML僅適用於概觀表格） |
 | 遺失`exl-id` | 將其忽略 — 不要產生一個 |
+| 在概觀表格中，將徽章放在說明之後 | 直接在功能連結下將其移至自己的`<p>` |
+| 備註區段的迷你TOC連結 | 從清單中移除連結；請勿將其註解 |
 
 ### 步驟6：同步概觀頁面
 
@@ -193,15 +196,9 @@ exl-id: <existing UUID — never generate or change>
 - 建立新季度的總覽頁面，而不更新`home.md`的「最新版本」索引標籤（它將持續指向舊季度）。
 - 忘記還要將新季度新增到當年索引標籤清單中。
 
-&lt;&lt;&lt;&lt;&lt;&lt;&lt;已更新上游
-
-### 步驟8：更新產品發行索引頁面
-=======
-
 ### 步驟9：更新產品發行索引頁面
-&#x200B;>>>>>>>>>>隱藏的變更
-> 
->每當您建立&#x200B;**新季度的總覽頁面**&#x200B;時，也需在同一變更中更新`help/quicksilver/product-announcements/product-releases/product-releases.md`：
+
+每當您建立&#x200B;**新季度的總覽頁面**&#x200B;時，也需在同一變更中更新`help/quicksilver/product-announcements/product-releases/product-releases.md`：
 
 - 在「Workfront發行版本」欄中尋找目前年份的`<p>Releases in {year}</p>`區塊。
 - 在該年度清單的&#x200B;**前**&#x200B;新增新的`<li>`，連結到新季度的總覽頁面，格式與現有專案相同：
@@ -288,6 +285,9 @@ Source： 「2026年每月發行行事曆」（Adobe corp wiki、AWF空間 — `
 - [ 概覽中的]功能表格列符合產品區域頁面內容
 - [ ]沒有中斷的內部連結
 - [ 總覽中的]個錨點連結符合H3區段ID
+- [ ]總覽迷你目錄沒有指向註解區段的連結，且徽章直接位於功能連結下方
+- [ ]總覽`>[!IMPORTANT]`區塊包含徽章圖例，表格中使用的每個徽章皆有說明
+- [ ]總覽中未註解的每個增強功能表格在迷你目錄中都有一個相符的連結，因此未註解時新增回的區段不會遺失
 - [ ]功能是以最新優先順序排列（產品區域頁面和概觀表格）
 - [ ]新發行說明頁面列在正確季度下的`help/quicksilver/TOC.md`中，概覽在前，產品區域按字母順序（其他在後）
 - [ ]如果建立了新季度的總覽頁面，`help/quicksilver/home.md` 「最新版本」索引標籤和當年的索引標籤指向它

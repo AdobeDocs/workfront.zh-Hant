@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 5f979207e0f29ec4279e2e170d87eb5162d6d678
+source-git-commit: e748c67cff6d8ca3fd58063e48d5eec7003c1626
 workflow-type: tm+mt
-source-wordcount: '3777'
+source-wordcount: '3931'
 ht-degree: 3%
 ---
 
@@ -387,10 +387,28 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront?toolsets=core,comment-stream
 
 產品需求：所有客戶
 
-報告工具可讓您透過聊天室建立和管理畫布控制面板。 以淺顯語言描述您要的報告，而AI代理平台會使用Workfront資料為您建立控制面板和Widget。
+### 展示板
+
+| 標題 | 工具名稱 | 作用 | 動作 |
+| --- | --- | --- | --- |
+| 取得展示板 | `boards_get_board` | 以不同的細節層級擷取主機板資料。 | 讀取 |
+| 取得卡片 | `boards_get_card` | 依展示板ID和卡片ID擷取單一卡片。 | 讀取 |
+| 建立卡片 | `boards_create_card` | 在指定欄中的展示板上建立新卡片。 | 寫入 |
+| 更新卡片 | `boards_update_card` | 更新卡片，包括純量欄位、移動、封存狀態、標籤、成員，或從Workfront中斷卡片連線。 | 寫入 |
+| 連接卡片 | `boards_connect_card` | 建立Workfront任務或問題，並將其連結至卡片。 | 寫入 |
+| 建立展示板標籤 | `boards_create_board_tag` | 在展示板的標籤目錄中建立新標籤。 | 寫入 |
+| 建立檢查清單專案 | `boards_create_checklist_item` | 將檢查清單專案或子任務新增至卡片。 | 寫入 |
+| 更新檢查清單專案 | `boards_update_checklist_item` | 更新檢查清單專案的名稱、說明、到期日、狀態或估計。 | 寫入 |
+| 刪除檢查清單專案 | `boards_delete_checklist_item` | 從清單專案的父卡片中刪除清單專案。 | 寫入 |
+| 建立欄 | `boards_create_column` | 將新的純欄新增至展示板。 | 寫入 |
+| 更新欄 | `boards_update_column` | 重新命名展示板欄。 | 寫入 |
+| 刪除欄 | `boards_delete_column` | 刪除展示板欄，視需要先移動卡片。 | 寫入 |
+| 建立展示板 | `boards_create_board` | 在工作區中建立新的基本展示板（可選）。 | 寫入 |
 
 
 ### 畫布儀表板
+
+畫布儀表板工具可讓您透過聊天來建立和管理畫布儀表板。 以淺顯語言描述您要的報告，而AI代理平台會使用Workfront資料為您建立控制面板和Widget。
 
 | 標題 | 工具名稱 | 作用 | 動作 |
 | --- | --- | --- | --- |
@@ -424,8 +442,3 @@ Workfront MCP伺服器會追蹤客戶的使用者意圖。 收集的意圖資料
 使用者可以透過聯絡客戶支援以提出請求來停用遙測收集。
 
 
-## 即將推出的其他工具
-
-我們日後會致力新增下列工具至Workfront MCP伺服器：
-
-* 展示板

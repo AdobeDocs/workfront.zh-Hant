@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1441'
 ht-degree: 0%
 ---
 
@@ -83,7 +83,7 @@ Adobe構思空間是Adobe由AI支援的戰略構思功能，直接內建在Workf
 
 * **一般可用性：**&#x200B;預計於2027年2月1日推出。
 
-## 產品需求
+## 產品資格要求
 
 <!--section duplicated here: help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md-->
 
@@ -123,8 +123,11 @@ Adobe構思空間是Adobe由AI支援的戰略構思功能，直接內建在Workf
 
     兩個套件都必須啟用Adobe CX Enterprise Coworker
 
+* Adobe Workfront授權：
 
+  * 工作流程與Planning系統管理員或標準授權使用者
 
+如需詳細資訊，請參閱[使用創意力空間所需的存取權](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)。
 
 <!--not required anymore: * Adobe GenStudio for Performance Marketing-->
 
@@ -141,38 +144,55 @@ In addition to above requirements, you must also meet the following criteria to 
 * Have at least one identified strategist or ideation user who will be the primary Ideation space user
 -->
 
-## 對象和使用案例
+## 取得創意力空間的存取權
 
-創意空間是專為負責設定行銷活動策略及製作行銷活動簡介的產品和品牌行銷人員所設計。
+若要存取創意力空間：
 
-<!--
-Too much: 
+1. 請確認您符合本文章[產品需求](#product-requirements)一節中所述的產品需求。
+1. 請連絡您的Adobe客戶代表，以表達參與封閉Beta的興趣，或在開放Beta可用時加入它。
 
-| Role | Primary job to be done |
-|---|---|
-| Brand Marketer | Identify messaging, trends, and cultural shifts that resonate with target audiences |
-| Product Marketer | Launch insight-driven, culturally relevant campaigns that deliver business impact |
-| Collaborators | Internal creative studios, external agencies, media planners/managers, and executives who need visibility into strategic direction |
--->
+   依預設，系統管理員可以存取創意力空間，而當創意力空間在Open Beta中可供使用時，系統管理員無法將其移除。 他們可以在以下任何環境中為所有其他使用者開啟此功能：
 
-身為工作區管理員，您可以使用構思空間在Workfront Planning中建立記錄，步驟如下：
+   * 生產
+   * 預覽
+   * 自訂沙箱
 
-* 當您開始建立或編輯記錄時，從Planning啟動Ideation Space之後建立簡報。
-* 使用AI提示從系統中的其他記錄或從網路收集詳細資訊，並完成創意力簡述的建立。
-* 從摘要建立Planning記錄型別。
-* 在Planning中精簡您的創意力簡報，並更新現有的記錄型別。
+1. 作為系統管理員，執行以下操作：
 
-以下是如何使用創意空間的使用案例：
+   * 開啟系統偏好設定中的同事與MCP工具設定，以允許存取整個公司的同事。
+   * 關閉標準授權使用者存取層級的下列設定：
+     * 停用 Workfront 中的 CX Coworker 面板
+     * 停用構思空間
 
-* **使用歷史績效重新整理先前的行銷活動**
+   如需有關使用創意力空間的詳細資訊，另請參閱下列文章：
 
-  * 例如，您可以針對新的季度、季度或產品時刻更新現有的行銷活動。
-  * 這會產生以先前效能為基礎的「差異摘要」，概述保留的專案、變更專案及原因。
+   * [使用構思空間所需的存取許可權](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
+   * [從創意空間摘要建立Planning記錄](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
+   * [在構思空間建立簡報](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
 
-* **使用歷史績效建立全新行銷活動**
+1. （建議）識別您的第一個行銷活動：要重新整理的最近行銷活動，或從頭開始建立的新方案。
 
-  * 例如，您可以在啟動無直接行銷活動歷史記錄的新產品、區段或方案時建立行銷活動。
-  * 這會透過引導式構想、建議的頻道組合以及初始概念或訊息方向，產生全新的簡報。
+## 找出創意力空間
+
+在您確定有權存取設定的適當產品、套件和系統及存取層級後，您可以在Workfront的下列區域中找到「構思」空間：
+
+* 在Workfront主要功能表中，透過開啟創意力空間區域
+
+  主要功能表中的![創意空間區域](assets/ideation-space-area-icon-in-main-menu.png)
+
+* 在Workfront Planning中手動新增記錄時
+
+  ![加入新記錄的創意空間](assets/ideation-space-in-planning-new-record.png)
+
+* 在Workfront Planning中，編輯現有記錄時
+
+  ![記錄詳細資訊頁面中的創意空間](assets/ideation-space-button-in-details-page.png)
+
+
+>[!TIP]
+>
+>您無法使用版面配置範本從[主要]功能表中移除[創意空間]區域。 如需有關封鎖使用者存取創意力空間的詳細資訊，請參閱[使用創意力空間所需的存取權](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)。
+>
 
 ## 創意力空間與Adobe CX Enterprise Coworker
 
@@ -207,42 +227,38 @@ Ideation space works exclusively with the CX Enterprise Coworker for Workfront a
   * 在完成&#x200B;**之前**&#x200B;驗證。 AI產生的回應可能不準確，因此請務必檢查卡片上的&#x200B;**來源**，並在完成記錄之前確認連結的來源。
   * **將AI卡片與真實記錄混合**。 將實際記錄拖放至創意力空間。
 
-## 取得創意力空間的存取權
+## 對象和使用案例
 
-若要存取創意力空間：
+創意空間是專為負責設定行銷活動策略及製作行銷活動簡介的產品和品牌行銷人員所設計。
 
-1. 請確認您符合本文章[產品需求](#product-requirements)一節中所述的產品需求。
-1. 請連絡您的Adobe客戶代表，以表達參與封閉Beta的興趣，或在開放Beta可用時加入它。
+<!--
+Too much: 
 
-   依預設，系統管理員可以存取創意力空間，而當創意力空間在Open Beta中可供使用時，系統管理員無法將其移除。 他們可以在以下任何環境中為所有其他使用者開啟此功能：
+| Role | Primary job to be done |
+|---|---|
+| Brand Marketer | Identify messaging, trends, and cultural shifts that resonate with target audiences |
+| Product Marketer | Launch insight-driven, culturally relevant campaigns that deliver business impact |
+| Collaborators | Internal creative studios, external agencies, media planners/managers, and executives who need visibility into strategic direction |
+-->
 
-   * 生產
-   * 預覽
-   * 自訂沙箱
+身為工作區管理員，您可以使用構思空間在Workfront Planning中建立記錄，步驟如下：
 
-1. （建議）識別您的第一個行銷活動：要重新整理的最近行銷活動，或從頭開始建立的新方案。
+* 當您開始建立或編輯記錄時，從Planning啟動Ideation Space之後建立簡報。
+* 使用AI提示從系統中的其他記錄或從網路收集詳細資訊，並完成創意力簡述的建立。
+* 從摘要建立Planning記錄型別。
+* 在Planning中精簡您的創意力簡報，並更新現有的記錄型別。
 
-如需有關使用創意力空間的詳細資訊，另請參閱下列文章：
+以下是如何使用創意空間的使用案例：
 
-* [使用構思空間所需的存取許可權](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
-* [從創意空間摘要建立Planning記錄](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
-* [在構思空間建立簡報](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
+* **使用歷史績效重新整理先前的行銷活動**
 
-## 找出創意力空間
+  * 例如，您可以針對新的季度、季度或產品時刻更新現有的行銷活動。
+  * 這會產生以先前效能為基礎的「差異摘要」，概述保留的專案、變更專案及原因。
 
-在您確定有權存取設定的適當產品、套件和系統及存取層級後，您可以在Workfront的下列區域中找到「構思」空間：
+* **使用歷史績效建立全新行銷活動**
 
-* 在Workfront Planning中手動新增記錄時
-
-  ![規劃中的創意力空間](assets/ideation-space-in-planning-new-record.png)
-* 在Workfront主要功能表中，透過開啟創意力空間區域
-
-  主要功能表中的![創意空間區域](assets/ideation-space-area-icon-in-main-menu.png)
-
->[!TIP]
->
->您無法使用版面配置範本從[主要]功能表中移除[創意空間]區域。 如需有關封鎖使用者存取創意力空間的詳細資訊，請參閱[使用創意力空間所需的存取權](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)。
->
+  * 例如，您可以在啟動無直接行銷活動歷史記錄的新產品、區段或方案時建立行銷活動。
+  * 這會透過引導式構想、建議的頻道組合以及初始概念或訊息方向，產生全新的簡報。
 
 ## 創意力空間產生的物件
 

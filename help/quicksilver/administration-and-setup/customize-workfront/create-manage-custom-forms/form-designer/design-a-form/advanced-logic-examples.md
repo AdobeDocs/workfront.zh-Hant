@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 1bbc850f5cb2086b85582f1ba80b072397b27e50
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '900'
 ht-degree: 2%
 ---
 # 自訂表單中的進階邏輯範例
@@ -198,3 +198,27 @@ IF({DE:DV - Override}!="Disable Validation"&&ARRAYLENGTH(ARRAY({DE:DV - Checkbox
 使用者如果未選取正確數量的選項，則會看到驗證錯誤。
 
 ![驗證錯誤範例](assets/min-max-selections.png)
+
+### 只有在欄位可見時才會觸發驗證的公式
+
+系統會一律檢查驗證邏輯，即使欄位未顯示亦然。 如果使用者與包含驗證邏輯的欄位互動，並且該欄位稍後被顯示邏輯隱藏，則即使在該欄位隱藏之前清除了該欄位的值，也會發生驗證錯誤。
+
+解決方法：使用驗證公式中顯示規則的相同條件，以確保只有在欄位可見時才會觸發驗證。
+
+例如，您有兩個欄位：A和B。
+欄位B具有顯示規則，只有在欄位A的值為`"show"`時才會顯示。
+
+欄位B也有以下驗證公式：
+
+```
+IF({status} = 'PLN' && {DE:B} = 'Value1', 'field value is invalid')`
+```
+
+若要只在欄位B可見時加以驗證，您可以在驗證公式中加入顯示條件：
+
+```
+IF({status} = 'PLN' && {DE:B} = 'Value1' && {DE:A} = 'show', 'field value is invalid')
+```
+
+如此一來，只有在欄位A設為`"show"`且符合其他驗證條件時，才會顯示驗證錯誤。
+

@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 63811ae159e365898db47bcf54705c41f72b2746
+source-git-commit: 31d0e371eb6da0d39d5b8b0354e756e79b2dfd8e
 workflow-type: tm+mt
 source-wordcount: '3631'
 ht-degree: 1%
@@ -180,6 +180,7 @@ ht-degree: 1%
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">群組管理員可以管理企業檔案</a>
+                <p>[!BADGE Workflow Ultimate]{type=Informative}</p>
                 <p>群組管理員現在可以建立、編輯和刪除他們管理的群組的企業設定檔，而不需要系統管理員存取權。</p>
             </td>
             <td><p>2026年7月30日</p></td>
@@ -895,6 +896,11 @@ ht-degree: 1%
 
 在2027年1月版本中，舊欄位&#x200B;**每小時計費**&#x200B;和&#x200B;**每小時成本**&#x200B;將不再在Workfront API或工作角色清單檢視中可用，包括篩選/檢視/分組設定（直接參考和文字模式計算欄）。
 
+雖然這些欄位在1月之前仍然可用，但可能無法正常運作。 目前在工作角色清單檢視中顯示&#x200B;**每小時計費**&#x200B;和&#x200B;**每小時成本**&#x200B;欄位的管理員應更新其工作流程，以使用建議的費率管理體驗來管理和檢閱工作角色費率：
+
+* 直接從「工作角色>費率」頁面存取和管理工作角色費率。
+* 使用費率報表可複查、分析及報告各職務角色的費率資訊。
+
 作為報表中的替代專案，您可以使用建議的文字模式代碼（視需要使用`costRates`或`billingRates`）：
 
     &grave;&grave;
@@ -905,13 +911,6 @@ ht-degree: 1%
     valueexpression=CONCAT({startDate}，&quot; - &quot;，{endDate}，&quot;： &quot;，{value})
     valueformat=HTML
     &grave;&grave;
-
-若要管理和檢閱工作角色費率，請使用專用的費率管理體驗：
-
-* 直接從「工作角色>費率」頁面存取和管理工作角色費率。
-* 使用費率報表可複查、分析及報告各職務角色的費率資訊。
-
-不需要執行任何動作即可準備變更。 不過，目前在工作角色清單檢視中顯示&#x200B;**每小時計費**&#x200B;和&#x200B;**每小時成本**&#x200B;欄位的管理員應更新其工作流程，以使用上述建議的費率管理體驗。
 
 有關工作角色費率的資訊，請參閱[建立和管理工作角色](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。
 

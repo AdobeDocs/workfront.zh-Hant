@@ -19,10 +19,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 1%
+source-wordcount: '268'
+ht-degree: 0%
 ---
 # Beta計畫
 
@@ -51,14 +51,16 @@ ht-degree: 1%
 
 * Adobe Workfront規劃Designer
 
+  使用由AI支援的Adobe Planning Designer，輕鬆設定您的工作區和資料結構。 Planning Designer支援從建立和設定工作區到定義欄位和公式、管理記錄、檢閱變更記錄和建立自訂檢視的所有功能。
+
   如需詳細資訊，請參閱[開始使用Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md)。
 
-<!--
+* Adobe Workfront Planning的創意空間
 
-* Ideation space for Adobe Workfront Planning 
+  Adobe的AI支援策略構想功能，直接內建於Workfront Planning中。 它為行銷團隊提供結構化、以資料為根據的行銷活動策略起點，並以組織真實績效歷史記錄為基礎的AI產生簡報，取代手動研究和猜測。
 
-    For information, see [Get started with Ideation space for Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
--->
+  如需詳細資訊，請參閱[開始使用Adobe Workfront Planning的創意力空間](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
+
 
 <!--
 

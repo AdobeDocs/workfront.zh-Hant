@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '314'
 ht-degree: 0%
 ---
 
@@ -59,9 +59,11 @@ Future - when they make it available in Planning: replace the above with this OR
 
 Adobe Workfront規劃現在提供另一項功能，可在您啟動行銷活動之前加以構想。 運用AI的強大功能，將資料和直接輸入轉換為實際的計畫，並為團隊提供明智的起點，而不是空白頁面。
 
-* [開始使用Adobe Workfront Planning的創意空間](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
-* [使用構思空間所需的存取許可權](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
-* [在構思空間建立簡報](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
-* [從創意空間摘要建立或編輯Planning記錄](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
-* [與他人共用創意力空間](/help/quicksilver/planning/ideation/share-the-ideation-space.md)
+下列文章包含有關創意力空間的資訊，並會提供其功能的指南：
+
+* 從這裡開始，以大致瞭解Workfront中的構思空間：[開始使用Adobe Workfront Planning的構思空間](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
+* 作為系統管理員，請確定您瞭解如何讓您的組織可以使用創意力空間： [使用創意力空間所需的存取許可權](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
+* 當您準備好建立您的第一個行銷活動策略時，瞭解如何使用創意力空間建立簡報： [在創意力空間建立簡報](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
+* 如果您使用Workfront Planning，瞭解如何使用創意空間建立記錄： [從創意空間摘要建立或編輯Planning記錄](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)
+* 與他人共同使用創意力空間： [與他人共用創意力空間](/help/quicksilver/planning/ideation/share-the-ideation-space.md)
 
