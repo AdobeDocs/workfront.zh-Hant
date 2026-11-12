@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
 workflow-type: tm+mt
-source-wordcount: '2011'
+source-wordcount: '2052'
 ht-degree: 1%
 ---
 
@@ -159,7 +159,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -177,8 +177,17 @@ Or
 
 1. 使用Planning （Co-worker已開啟）登入Workfront，並執行下列其中一項作業，以首次開啟Ideation空間來建立簡介：
 
-   * 移至&#x200B;**主功能表** ![主功能表](assets/main-menu-lines.png) > **創意空間**
-   * 移至&#x200B;**主功能表** ![主功能表](assets/main-menu-lines.png) > **規劃** >按一下工作區>按一下記錄型別> **新記錄** > **開始創意空間**
+   * 移至&#x200B;**主功能表** ![主功能表](assets/main-menu-lines.png) >按一下&#x200B;**創意空間**
+
+     主要功能表中的![創意力空間](assets/ideation-space-area-icon-in-main-menu.png)
+
+   * 移至&#x200B;**主功能表** ![主功能表](assets/main-menu-lines.png) > **規劃** >按一下工作區>按一下記錄型別>按一下&#x200B;**新記錄** >按一下&#x200B;**開始創意空間**
+
+     ![新記錄中的創意力空間](assets/ideation-space-in-planning-new-record.png)
+
+   * 移至&#x200B;**主功能表** ![主功能表](assets/main-menu-lines.png) > **規劃** >按一下工作區>按一下記錄型別>按一下現有記錄>按一下&#x200B;**在創意空間開啟**
+
+     ![記錄中的創意力空間](assets/ideation-space-button-in-details-page.png)
 
 1. 閱讀Beta版合約，然後按一下&#x200B;**同意**。 您必須簽署合約才能使用創意力空間。
 
