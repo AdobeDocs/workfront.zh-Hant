@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 8789c5c75e104be60de42e76a8951e9380b112ef
 workflow-type: tm+mt
-source-wordcount: '3504'
+source-wordcount: '3799'
 ht-degree: 1%
 ---
 # 更新工作
@@ -298,7 +298,7 @@ You can add updates to the following objects:
 
 1. 找到您要新增註解的物件，然後按一下其名稱以開啟物件的頁面。
 1. 按一下左側面板中的&#x200B;**更新**。
-預設會選取&#x200B;**註解**&#x200B;標籤。
+預設會選取**註解**&#x200B;標籤。
 
 1. 開始在&#x200B;**新註解**&#x200B;方塊中輸入註解。
 
@@ -375,7 +375,7 @@ You can add updates to the following objects:
 
    >[!TIP]
    >
-   >您無法在[全部]索引標籤的現有註解中回覆註解或標籤其他使用者。 若要在[全部]索引標籤中回複評論，請按一下[在評論中回覆]&#x200B;**&#x200B;**，在[評論]索引標籤中開啟評論。
+   >您無法在[全部]索引標籤的現有註解中回覆註解或標籤其他使用者。 若要在[全部]索引標籤中回複評論，請按一下[在評論中回覆]****，在[評論]索引標籤中開啟評論。
 
 ## 在Workfront註解中使用RTF文字{#use-rich-text-in-a-workfront-comment}
 
@@ -653,41 +653,39 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 
 </div>
 
-<!--
 <div class="preview">
 
-## Resolve comment threads
+## 解析評論對話串
 
-To save space and to make the Comments tab easier to navigate, you can resolve comment threads which hides them from the updates stream. 
+為了節省空間並使「註解」索引標籤更易於瀏覽，您可以解析將註解從更新流中隱藏的註解對話串。
 
-Consider the following when resolving comments: 
+解決評論時請考慮下列事項：
 
-* You can resolve comment threads, not individual comments. The capability exists for only for the first comment in a thread. 
-* Comments that are part of a resolved thread are read-only. 
-* You cannot edit, delete, reply to, like, or pin comments that are part of a resolved thread. 
-* You can display resolved comments or hide them for yourself.
-* You can unresolve threads which brings them back to the Updates stream with all capabilities.  
+* 您可以解析註解對話串，而非個別註解。 只有對話串中的第一個註解才有此功能。
+* 屬於已解析執行緒一部分的註解是唯讀的。
+* 您無法編輯、刪除、回覆、贊或釘選屬於已解析對話串一部分的註解。
+* 您可以自行顯示已解析的註解或隱藏它們。
+* 您可以解除解析對話串，使其回到具有所有功能的更新資料流。
 
-To resolve comment threads: 
+若要解析評論對話串：
 
-1. Go to an object that has an **Updates** tab, and click **Updates** in the left panel, then click the  **Comments** tab.
+1. 移至具有&#x200B;**更新**&#x200B;標籤的物件，然後按一下左側面板中的&#x200B;**更新**，再按一下&#x200B;**註解**&#x200B;標籤。
 
-   For information, see [Updates tab overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+   如需詳細資訊，請參閱[更新索引標籤總覽](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)。
 
-1. From the top comment of an existing thread, click the **More** menu ![More menu](assets/more-menu.png) to the right of the comment, then click **Resolve**. 
+1. 從現有執行緒的頂端註解，按一下註解右邊的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下&#x200B;**解決**。
 
-   ************add a screen shot***************
+   ![附有Pin和Resolve選項的其他註解功能表](assets/more-menu-for-comment-with-resolve-and-pin.png)
 
-   The **Resolve comment** box opens to remind you that the comment will be hidden from the Updates area and you can no longer interact with it. 
+   **解決註解**&#x200B;方塊會開啟，提醒您該註解會隱藏在[更新]區域，您無法再與其互動。
 
-1. (Optional) Select the **Do not show this again** setting, if you don't want the warning to display every time you resolve comments. You cannot display the **Resolve comment** box again if you select this setting.
-1. Click **Resolve**.
+1. （選擇性）如果您不想在每次解析評論時都顯示警告，請選取&#x200B;**不要再顯示此訊息**&#x200B;設定。 如果您選取這個設定，就無法再顯示&#x200B;**解析註解**&#x200B;方塊。
+1. 按一下&#x200B;**解析**。
 
-   The thread is resolved and all the comments in the thread are hidden from the **Updates** tab.
-1. (Optional) Click the filter in the upper-right corner of the Updates tab, then turn off the **Hide resolved comments** setting. Resolved threads are displayed on the Updates tab. This setting impacts only what you view. Other users could  keep the resolved comments hidden. 
+   已解析對話串，且對話串中的所有註解都隱藏在&#x200B;**更新**&#x200B;索引標籤中。
+1. （選擇性）按一下[更新]索引標籤右上角的篩選器，然後關閉&#x200B;**隱藏已解析的註解**&#x200B;設定。 已解析的對話串會顯示在「更新」標籤上。 此設定只會影響您檢視的內容。 其他使用者可以隱藏已解決的註解。
 
 </div>
--->
 
 ## 刪除評論或回覆
 
@@ -700,7 +698,7 @@ Workfront使用者（包括Workfront管理員）無法刪除其他使用者所�
 1. 前往您要刪除的註解或回覆。
 1. 按一下您要刪除的評論或回覆旁的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**刪除**。
 
-   ![更新資料流註解更多功能表](assets/update-stream-comment-menu-marked-350x152.png)
+   ![附有Pin和Resolve選項的其他註解功能表](assets/more-menu-for-comment-with-resolve-and-pin.png)
 
 1. 在顯示的訊息中，按一下&#x200B;**刪除**。
 
