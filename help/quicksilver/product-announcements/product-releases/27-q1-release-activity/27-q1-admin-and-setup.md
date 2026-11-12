@@ -4,9 +4,9 @@ description: 2027年第一季度管理員增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8f435f1c501822066f115b33c0d89727e72d57c1
+source-git-commit: 02c2be8da17c954e508596225df1904feb4da2e2
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '554'
 ht-degree: 0%
 ---
 
@@ -15,6 +15,27 @@ ht-degree: 0%
 本頁說明管理員在2027年第一季度版本中對「預覽」環境所做的增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2027年第一季發行週期目前可用的所有變更清單，請參閱[2027年第一季發行概觀](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)。
+
+## 適用於Workfront Planning的環境升級
+
+>[!NOTE]
+>
+>預覽： 2026年11月12日
+>生產快速發行： 2026年11月12日
+>適用於所有人的生產： 2026年11月12日
+>[!BADGE 並行發行]{type=Neutral}
+
+>[!NOTE]
+>
+>Workfront Planning的環境促銷活動僅適用於已購買Workfront Planning套件以及Workflow套件的客戶。 已購買Workfront Planning作為獨立產品的客戶無法使用此功能。
+
+Workfront管理員現在可以將Workfront Planning工作區及其物件從一個環境提升至另一個環境，因此您不再需要手動重建設定。 這樣可節省時間並減少手動設定帶來的錯誤。
+
+不屬於匯出工作區的記錄、自動化和欄位無法提升。
+
+此功能需要Prime或Ultimate Workflow及Planning套件、標準授權和Workfront管理員存取權。
+
+如需詳細資訊，請參閱[使用Workfront Planning的環境升級](/help/quicksilver/planning/general/planning-environment-promotion.md)。
 
 ## 移除附加自訂表單的許可權
 
@@ -33,7 +54,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >預覽： 2026年10月29日
->生產快速發行： 2026年11月12日
+>生產快速發行： 2026年12月17日
 >適用於所有人的生產： 2027年1月21日
 
 您現在可以在欄位清單或自訂表格設計工具中，將自訂欄位標示為我的最愛。 當您使用某些清單和報告（例如專案、任務和問題清單）並建立篩選器、檢視和分組時，最喜愛的欄位會出現在「建議」區段中可用欄位清單的最上方。

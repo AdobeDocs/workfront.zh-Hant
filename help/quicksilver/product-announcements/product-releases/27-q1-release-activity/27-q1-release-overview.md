@@ -5,10 +5,10 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c2ff8f01bd660c91e249394e39820bfb5477b382
+source-git-commit: a578d96ff128bff2f0edd13f6e44dff25926b651
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 3%
+source-wordcount: '1542'
+ht-degree: 2%
 ---
 
 # 2027年第一季度發行概觀
@@ -27,13 +27,19 @@ ht-degree: 3%
 >| <ul><li>2026.11 （2026年11月12日）</li><li>2026.12 （2026年12月17日）</li><li>2027.01 （2027年1月21日）</li></ul> | <ul><li>2027.01 （2027年1月21日）</li></ul> |
 >
 >如需快速發行程式的詳細資訊，請參閱[啟用或停用快速發行程式](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。
+>
+>未遵循此排程的功能會顯示下列其中一個徽章：
+>
+>* [!BADGE 同時發行]{type=Neutral}
+>   由於技術情況（例如屬於功能的其他Adobe產品的發行排程），這些功能會同時發行到預覽和生產環境。
+>* [!BADGE 關閉排程]{type=Neutral}
+>   這些功能會在標準Workfront發行排程之外發行。
 
 ## Adobe Workfront增強功能
 
 * [管理員增強功能](#administrator-enhancements)
 * [AI增強功能](#ai-enhancements)
 * [檔案增強功能](#documents-enhancements)
-<!-- * [Financial Management enhancements](#financial-management-enhancements) -->
 * [專案增強功能](#project-enhancements)
 * [其他增強功能](#other-enhancements)
 
@@ -50,6 +56,16 @@ ht-degree: 3%
         </tr>
         <tr>
             <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">適用於Workfront Planning的環境升級</a></p>
+                <p>[！BADGE同時發行]{type=Neutral}</p>
+                <p>Workfront管理員現在可以將Workfront Planning工作區及其物件從一個環境提升至另一個環境。</p>
+            </td>
+            <td><p>2026年11月12日</p></td>
+            <td><p>2026年11月12日</p></td>
+            <td><p>2026年11月12日</p></td>
+        </tr>
+        <tr>
+            <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">移除附加自訂表單的許可權</a></p>
                 <p>共用自訂表單時，您現在可以為具有「管理」存取許可權的使用者設定許可權，以從表單附加至的物件中移除表單。</p>
             </td>
@@ -63,7 +79,7 @@ ht-degree: 3%
                 <p>您現在可以將自訂欄位標示為我的最愛，這樣當您建立篩選器、檢視和群組時，它就會顯示在可用欄位的頂端，並顯示在表單設計器欄位資料庫中。</p>
             </td>
             <td><p>2026年10月29日</p></td>
-            <td><p>2026年11月12日</p></td>
+            <td><p>2026年12月17日</p></td>
             <td><p>2027年1月21日</p></td>
         </tr>
         <tr>
@@ -78,8 +94,8 @@ ht-degree: 3%
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">變更記錄現在會追蹤畫布控制面板物件</a></p>
+                <p>[！BADGE Off Schedule]{type=Neutral}</p>
                 <p>「變更歷史記錄」現在會記錄建立、更新或刪除畫布控制面板或報表的人員、變更時間以及變更內容。</p>
-                <p>[!BADGE Off Schedule]{type=Neutral}</p>
             </td>
             <td><p>2026年10月29日</p></td>
             <td><p>2026年10月29日</p></td>
@@ -216,9 +232,18 @@ ht-degree: 3%
         </tr>
         <tr>
             <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">解析評論對話串</a></p>
+                <p>您現在可以解析註解對話串，以將其隱藏在所有檢視器的註解串流中，並在稍後取消解析以將其復原。</p>
+            </td>
+            <td><p>2026年11月12日</p></td>
+            <td><p>2026年12月17日</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+        <tr>
+            <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">無法使用的狀態指引</a></p>
+                <p>[！BADGE Off Schedule]{type=Neutral}</p>
                 <p>當已儲存的問題、任務或專案狀態無法使用時，現在會出現警告，說明原因並顯示已儲存的狀態代碼。</p>
-                <p>[!BADGE Off Schedule]{type=Neutral}</p>
             </td>
             <td><p>2026年11月4</p></td>
             <td><p>2026年11月4</p></td>
@@ -330,6 +355,18 @@ ht-degree: 3%
 
 ## 案頭校訂檢視器更新
 
+### 版本2.4.0
+
+>[!NOTE]
+>
+>所有客戶的生產版本： 2026年11月11日
+
+案頭校訂檢視器已從2.3.0版更新至2.4.0版。 此更新包含內部工具更新，不會影響一般使用者功能。
+
+此更新同時適用於Mac和Windows。
+
+如需有關下載和更新案頭校訂檢視器的資訊，請參閱[更新案頭校訂檢視器](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)。
+
 ### 版本2.3.0
 
 >[!NOTE]
@@ -343,9 +380,34 @@ ht-degree: 3%
 
 * 將基礎架構(Electron)更新至最新版本，該版本會在Chrome版本156上執行，以提升效能和安全性。
 
-如需有關下載和更新案頭校訂檢視器的資訊，請參閱[更新案頭校訂檢視器](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer)。
+如需有關下載和更新案頭校訂檢視器的資訊，請參閱[更新案頭校訂檢視器](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer)。
 
 ## 公告
+
+### Workfront Planning的構思空間現在可在Open Beta中使用
+
+>[!NOTE]
+>
+>預覽： 2026年11月12日
+>生產快速發行： 2026年11月12日
+>適用於所有人的生產： 2026年11月12日
+>[!BADGE 並行發行]{type=Neutral}
+
+>[!NOTE]
+>
+>此功能以開放Beta版計畫提供。 構思空間僅適用於已購買Workfront Planning套件以及Workflow套件的客戶。 已購買Workfront Planning作為獨立產品的客戶無法使用此功能。
+
+Workfront Planning現在包含創意空間，這是團隊可以擷取、組織、完善和評估創意的合作區域，然後再將其變成可操作的工作。 創意空間可協助利害關係人集中腦力激盪、根據優先順序保持一致，並將核准的概念順暢地移轉至規劃工作流程。
+
+現在您可以使用CX Enterprise Coworker建立創意力簡報，以便匯出至檔案或Workfront Planning記錄。
+
+使用構思空間，您可以：
+
+* 與您的團隊和利害關係人擷取想法並進行合作。
+* 組織、評估意見並安排其優先順序，讓輸入程式具有可見性。
+* 將核准的想法轉換為規劃記錄和工作流程。
+
+如需詳細資訊，請參閱[開始使用Workfront Planning的構思空間](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)。
 
 ### 棄用工作角色清單檢視中的舊版帳單和成本費率欄位
 
@@ -355,14 +417,14 @@ ht-degree: 3%
 
 作為報表中的替代專案，您可以使用建議的文字模式代碼（視需要使用`costRates`或`billingRates`）：
 
-    &grave;&grave;
+    ``
     displayname=Test
     listdelimiter=&lt;br>
     listmethod=nested(costRates)。lists
     type=iterate
     valueexpression=CONCAT({startDate}，&quot; - &quot;，{endDate}，&quot;： &quot;，{value})
     valueformat=HTML
-    &grave;&grave;
+    ``
 
 若要管理和檢閱工作角色費率，請使用專用的費率管理體驗：
 
@@ -377,10 +439,10 @@ ht-degree: 3%
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hant).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
 ### 訓練更新
 
-探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hant)的「新增功能」一節。
+探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的「新增功能」一節。

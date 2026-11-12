@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: bcc3437dd98f582b6c9220253199e136046768fc
+source-git-commit: b14797ccd399444b86c4002cf8ff52f720154869
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1614'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 2027年第一季度發行活動
@@ -28,6 +28,52 @@ ht-degree: 0%
 本文介紹2027年第一季度發行的Workfront Planning功能。
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
+
+## 適用於Workfront Planning的環境升級
+
+>[!NOTE]
+>
+>預覽： 2026年11月12日
+>生產快速發行： 2026年11月12日
+>適用於所有人的生產： 2026年11月12日
+>[!BADGE 並行發行]{type=Neutral}
+
+>[!NOTE]
+>
+>Workfront Planning的環境促銷活動僅適用於已購買Workfront Planning套件以及Workflow套件的客戶。 已購買Workfront Planning作為獨立產品的客戶無法使用此功能。
+
+Workfront管理員現在可以將Workfront Planning工作區及其物件從一個環境提升至另一個環境，因此您不再需要手動重建設定。 這樣可節省時間並減少手動設定帶來的錯誤。
+
+不屬於匯出工作區的記錄、自動化和欄位無法提升。
+
+此功能需要Prime或Ultimate Workflow及Planning套件、標準授權和Workfront管理員存取權。
+
+如需詳細資訊，請參閱[使用Workfront Planning的環境升級](/help/quicksilver/planning/general/planning-environment-promotion.md)。
+
+## Workfront Planning的構思空間現在可在Open Beta中使用
+
+>[!NOTE]
+>
+>預覽： 2026年11月12日
+>生產快速發行： 2026年11月12日
+>適用於所有人的生產： 2026年11月12日
+>[!BADGE 並行發行]{type=Neutral}
+
+>[!NOTE]
+>
+>此功能以開放Beta版計畫提供。 構思空間僅適用於已購買Workfront Planning套件以及Workflow套件的客戶。 已購買Workfront Planning作為獨立產品的客戶無法使用此功能。
+
+Workfront Planning現在包含創意空間，這是團隊可以擷取、組織、完善和評估創意的合作區域，然後再將其變成可操作的工作。 創意空間可協助利害關係人集中腦力激盪、根據優先順序保持一致，並將核准的概念順暢地移轉至規劃工作流程。
+
+現在您可以使用CX Enterprise Coworker建立創意力簡報，以便匯出至檔案或Workfront Planning記錄。
+
+使用構思空間，您可以：
+
+* 與您的團隊和利害關係人擷取想法並進行合作。
+* 組織、評估意見並安排其優先順序，讓輸入程式具有可見性。
+* 將核准的想法轉換為規劃記錄和工作流程。
+
+如需詳細資訊，請參閱[開始使用Workfront Planning的構思空間](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)。
 
 ## 改善提交請求時相依欄位中的衝突偵測
 
