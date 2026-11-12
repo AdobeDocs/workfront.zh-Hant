@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a578d96ff128bff2f0edd13f6e44dff25926b651
+source-git-commit: 69e36133dc4aed70c7dd0275b57521e56f0db288
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1537'
 ht-degree: 2%
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 2%
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">適用於Workfront Planning的環境升級</a></p>
-                <p>[!BADGE 同時發行]{type=Neutral}</p>
+                <p>[！BADGE同時發行]{type=Neutral}</p>
                 <p>Workfront管理員現在可以將Workfront Planning工作區及其物件從一個環境提升至另一個環境。</p>
             </td>
             <td><p>2026年11月12日</p></td>
@@ -94,7 +94,7 @@ ht-degree: 2%
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">變更記錄現在會追蹤畫布控制面板物件</a></p>
-                <p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <p>[！BADGE Off Schedule]{type=Neutral}</p>
                 <p>「變更歷史記錄」現在會記錄建立、更新或刪除畫布控制面板或報表的人員、變更時間以及變更內容。</p>
             </td>
             <td><p>2026年10月29日</p></td>
@@ -242,7 +242,7 @@ ht-degree: 2%
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">無法使用的狀態指引</a></p>
-                <p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <p>[！BADGE Off Schedule]{type=Neutral}</p>
                 <p>當已儲存的問題、任務或專案狀態無法使用時，現在會出現警告，說明原因並顯示已儲存的狀態代碼。</p>
             </td>
             <td><p>2026年11月4</p></td>
@@ -380,7 +380,7 @@ ht-degree: 2%
 
 * 將基礎架構(Electron)更新至最新版本，該版本會在Chrome版本156上執行，以提升效能和安全性。
 
-如需有關下載和更新案頭校訂檢視器的資訊，請參閱[更新案頭校訂檢視器](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer)。
+如需有關下載和更新案頭校訂檢視器的資訊，請參閱[更新案頭校訂檢視器](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer)。
 
 ## 公告
 
@@ -415,23 +415,21 @@ Workfront Planning現在包含創意空間，這是團隊可以擷取、組織�
 
 在2027年1月版本中，舊欄位&#x200B;**每小時計費**&#x200B;和&#x200B;**每小時成本**&#x200B;將不再在Workfront API或工作角色清單檢視中可用，包括篩選/檢視/分組設定（直接參考和文字模式計算欄）。
 
+雖然這些欄位在1月之前仍然可用，但可能無法正常運作。 目前在工作角色清單檢視中顯示&#x200B;**每小時計費**&#x200B;和&#x200B;**每小時成本**&#x200B;欄位的管理員應更新其工作流程，以使用建議的費率管理體驗來管理和檢閱工作角色費率：
+
+* 直接從「工作角色>費率」頁面存取和管理工作角色費率。
+* 使用費率報表可複查、分析及報告各職務角色的費率資訊。
+
 作為報表中的替代專案，您可以使用建議的文字模式代碼（視需要使用`costRates`或`billingRates`）：
 
-    &grave;&grave;
+    ``
     displayname=Test
     listdelimiter=&lt;br>
     listmethod=nested(costRates)。lists
     type=iterate
     valueexpression=CONCAT({startDate}，&quot; - &quot;，{endDate}，&quot;： &quot;，{value})
     valueformat=HTML
-    &grave;&grave;
-
-若要管理和檢閱工作角色費率，請使用專用的費率管理體驗：
-
-* 直接從「工作角色>費率」頁面存取和管理工作角色費率。
-* 使用費率報表可複查、分析及報告各職務角色的費率資訊。
-
-不需要執行任何動作即可準備變更。 不過，目前在工作角色清單檢視中顯示&#x200B;**每小時計費**&#x200B;和&#x200B;**每小時成本**&#x200B;欄位的管理員應更新其工作流程，以使用上述建議的費率管理體驗。
+    ``
 
 有關工作角色費率的資訊，請參閱[建立和管理工作角色](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。
 
@@ -439,10 +437,10 @@ Workfront Planning現在包含創意空間，這是團隊可以擷取、組織�
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hant).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
 ### 訓練更新
 
-探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hant)的「新增功能」一節。
+探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的「新增功能」一節。
