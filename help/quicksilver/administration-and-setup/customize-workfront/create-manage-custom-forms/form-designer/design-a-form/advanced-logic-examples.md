@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e7a61a71c731d3fdbf5551e55ceb5954749df8c6
+source-git-commit: 1bbc850f5cb2086b85582f1ba80b072397b27e50
 workflow-type: tm+mt
 source-wordcount: '900'
 ht-degree: 2%
@@ -199,7 +199,7 @@ IF({DE:DV - Override}!="Disable Validation"&&ARRAYLENGTH(ARRAY({DE:DV - Checkbox
 
 ![驗證錯誤範例](assets/min-max-selections.png)
 
-## 只有在欄位可見時才會觸發驗證的公式
+### 只有在欄位可見時才會觸發驗證的公式
 
 系統會一律檢查驗證邏輯，即使欄位未顯示亦然。 如果使用者與包含驗證邏輯的欄位互動，並且該欄位稍後被顯示邏輯隱藏，則即使在該欄位隱藏之前清除了該欄位的值，也會發生驗證錯誤。
 
