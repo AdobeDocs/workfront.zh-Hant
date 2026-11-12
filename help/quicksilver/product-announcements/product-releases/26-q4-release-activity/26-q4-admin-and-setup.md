@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: cb6ded1c823c82a876e5e2729205b4b02c7035e2
+source-git-commit: be4623920eb86efac831d92d741cd0a10251eed2
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1797'
 ht-degree: 0%
 ---
 # 2026年第四季管理員增強功能
@@ -194,6 +194,7 @@ For information, see [Configure system updates](/help/quicksilver/administration
 >預覽： 2026年7月30日
 >生產快速發行： 2026年8月13日
 >適用於所有人的生產： 2026年10月22日
+>[!BADGE 工作流程Ultimate]{type=Informative}
 
 群組管理員現在可以建立、編輯和刪除他們管理的群組的企業設定檔，而不需要系統管理員存取權。 這可讓組織在群組層級委派業務設定檔管理時擁有更多彈性。
 
