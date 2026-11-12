@@ -81,7 +81,7 @@ exl-id: <existing UUID — never generate or change>
 >Production for everyone: {Month Day, Year}
 ```
 
-5. **內文**：功能說明，然後連結到說明檔案
+&#x200B;5. **內文**：功能說明，然後連結到說明檔案
 
 #### 總覽頁面
 
@@ -100,11 +100,11 @@ exl-id: <existing UUID — never generate or change>
 
 - 如果產品區域區段被標籤為註解，請從此清單中完全移除其連結。 請勿將連結往外註解。
 
-5. 每個產品區域有&#x200B;**H3**&#x200B;搭配HTML功能表（請參閱。claude/commands/_release-notes-formatter-reference.md#overview-feature-table）
+&#x200B;5. 每個產品區域有&#x200B;**H3**&#x200B;搭配HTML功能表（請參閱。claude/commands/_release-notes-formatter-reference.md#overview-feature-table）
    - 在每個表格中，**最新功能排在前** — 最近的列會顯示在表格頂端（標題列之後）
       — 如果某個功能有徽章（`[!BADGE Off schedule]{type=Neutral}`或`[!BADGE Concurrent release]{type=Neutral}`），請將其放在它自己的`<p>`中，直接放在功能連結段落的正下方，在說明段落之前。
 
-6. **尾端區段** (H2)：其他區域的發行說明、案頭校訂檢視器更新、公告、API版本、維護更新、訓練更新
+&#x200B;6. **尾端區段** (H2)：其他區域的發行說明、案頭校訂檢視器更新、公告、API版本、維護更新、訓練更新
 
 ### 步驟3：驗證連結
 
