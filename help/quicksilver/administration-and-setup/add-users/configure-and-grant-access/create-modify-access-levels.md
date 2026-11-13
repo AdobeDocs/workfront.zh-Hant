@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 8f8f4e7962bfde525470842caecd49f03b758b29
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1673'
 ht-degree: 8%
 ---
 # 建立和修改自訂存取層級
@@ -250,19 +250,18 @@ ht-degree: 8%
       <td role="rowheader">允許使用者存取品牌</td> 
       <td>允許使用者存取和管理Workfront中的GenStudio品牌。 如需詳細資訊，請參閱<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md" class="MCXref xref">授予品牌許可權的存取權</a>。</td> 
      </tr>
-    <!--
-    <tr>
-      <td role="rowheader">Disable Ideation space</td> 
+        <tr>
+      <td role="rowheader">停用構思空間</td> 
       <td>
-      <p>Select this setting to allow users to access Ideation space.</p> 
-      <p>This is selected by default.</p>
-      <p>For more information, see <a href="/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md" class="MCXref xref">Get started with Ideation space for Adobe Workfront Planning </a>.</p>
-      <p><b>NOTE:</b></p>
-      <p>Available in Beta only for customers who also have a Workfront Planning package.</p>
+      <p>選取此設定以允許使用者存取創意空間。</p> 
+      <p>依預設會選取此選項。</p>
+      <p>如需詳細資訊，請參閱<a href="/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md" class="MCXref xref">開始使用Adobe Workfront規劃</a>的創意空間。</p>
+      <p><b>注意：</b></p>
+      <p>Beta中的創意力空間僅適用於同時擁有Workfront Planning套件的客戶。</p>
       </td> 
      </tr>
-    -->
-    </tbody> 
+
+   </tbody> 
    </table>
 
 

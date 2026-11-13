@@ -24,13 +24,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f8f4e7962bfde525470842caecd49f03b758b29
 workflow-type: tm+mt
-source-wordcount: 717
+source-wordcount: '729'
 ht-degree: 3%
-
 ---
-
 # 透過在Adobe Workfront目標中連線目標來對齊目標
 
 <!--Audited P&P only: 10/2025-->
@@ -41,15 +39,16 @@ ht-degree: 3%
 
 在Adobe Workfront目標中連結目標的方法有兩種：
 
-* 您可以藉由將目標相互連線來建立目標之間的對齊方式。
+* 您可以藉由將目標相互連線來建立目標之間的對齊方式。 本文會介紹此方法。
 
-* 您可以手動對齊兩個目標，也可以將現有目標的結果和活動轉換為另一個目標。 轉換的結果或活動會成為原始目標的子目標。
+* 您也可以將現有目標的結果和活動轉換為另一個目標，以對齊兩個目標。 轉換的結果或活動會成為原始目標的子目標。
+
+  如需有關將結果和活動轉換為目標以對齊目標的資訊，請參閱[將結果和活動轉換為目標以對齊目標](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)。
 
 >[!IMPORTANT]
 >
 >一個目標總共可以有1000個進度指示器。
 
-本文說明如何藉由將目標相互連線來對齊目標。 如需有關將結果和活動轉換為目標以對齊目標的資訊，請參閱[將結果和活動轉換為目標以對齊目標](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)。
 
 ## 存取權要求
 
@@ -215,7 +214,7 @@ Aligning goals by connecting them differs depending on what environment you use.
 
    您一開始的目標（目標2）現在是將它與（目標1）對齊之父目標的子目標。\
    校準的目標會顯示在「目標校準」區段中，以目標2作為目標1的次要。
-當子目標的進度更新父目標的進度時，其進度會顯示在父目標的進度指示器區段中。
+   當子目標的進度更新父目標的進度時，其進度會顯示在父目標的進度指示器區段中。
 
    ![對齊的卡片](assets/goal-1-and-2-aligned-cards-350x427.png)
 
