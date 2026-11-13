@@ -41,8 +41,8 @@ ht-degree: 2%
 
 ## 測試環境
 
-* [ [!DNL Adobe Workfront] 預覽沙箱環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
-* [ [!DNL Adobe Workfront] 自訂重新整理沙箱環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
+* [&#x200B; [!DNL Adobe Workfront] 預覽沙箱環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
+* [&#x200B; [!DNL Adobe Workfront] 自訂重新整理沙箱環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
 
 ## 環境提升
 
