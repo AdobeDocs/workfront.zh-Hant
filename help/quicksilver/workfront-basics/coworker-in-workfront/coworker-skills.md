@@ -10,10 +10,10 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 215b8f1bf28e8df2b95c4f0519ffebcbcaa8df16
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 5%
+source-wordcount: '486'
+ht-degree: 3%
 ---
 # CX Enterprise Coworker中的Workfront技能
 
@@ -59,19 +59,27 @@ ht-degree: 5%
 * 記錄
 * 業務規則
 
-<!--
+### 創意力空間（測試版）技能
 
-### Ideation space skills
+>[!NOTE]
+>
+>創意空間目前以Workfront Planning的附加功能提供予Beta版。
+>
+>如需有關創意力空間的詳細資訊，請參閱[開始使用Adobe Workfront計畫的創意力空間](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)。
 
-Coworker has a variety of skills to work with Workfront Planning Ideation space. These cover actions such as:
+構思空間是Adobe由AI支援的戰略構思功能，直接內建在Workfront Planning中。 它為行銷團隊提供結構化、以資料為根據的行銷活動策略起點，並以組織真實績效歷史記錄為基礎的AI產生簡報，取代手動研究和猜測。
 
-* Thing 1
-* Thing 2
-* Other thing
+同事有多種技能可使用Workfront規劃構思空間。 這些涵蓋的動作包括：
 
-For more information about Ideation space, see [Get started with Ideation space for Adobe Workfront Planning ](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).
+<!--list duplicated in: help/quicksilver/workfront-basics/coworker-in-workfront/coworker-prompts-and-best-practices.md-->
 
--->
+* 行銷活動構想 — 使用您附加的來原始檔和其他來源，在行銷活動和其他主題的畫布上集思廣益並產生構想卡片。 這是構思的主要起點。
+* Campaign對話 — 在Ideation Space應用程式中以對話方式處理行銷活動想法。
+* 行銷活動簡報 — 建置並調整結構化的行銷活動簡報，並加上護欄，確保簡報完整且順利進行。
+* 檔案問答 — 針對您附加至創意工作階段的檔案提出問題。
+* 研究 — 拉入研究，在畫布上為您的創意提供資訊。
+* 入門提示 — 取得建議的提示，以開始或擴大您的構思。
+* 開啟畫布 — 啟動或跳至創意空間畫布（從應用程式外部的常規聊天開始時使用）。
 
 ## Workfront技能
 

@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 1%
+source-wordcount: '853'
+ht-degree: 0%
 ---
 # 使用Adobe Workfront Planning記錄自動化建立物件
 
@@ -110,6 +110,8 @@ ht-degree: 1%
    <p>管理您執行自動化之記錄的許可權。</p>
    <p>管理Workfront物件（投資組合）的許可權以新增子物件（方案或專案）。</p>
    <p>系統管理員擁有所有工作區的管理許可權，包括他們未建立的工作區</p>
+   <p>自動化建立者擁有管理自己的自動化許可權</p>
+   <p>您需要編輯或更高的自動化許可權才能進行編輯，需要執行許可權才能執行</p>
    </td> 
   </tr> 
 </tbody> 
@@ -198,6 +200,8 @@ Old:
 * 當您的組織同時使用舊版Workfront和Adobe雲端儲存空間時，系統會使用Workfront管理員在設定區域中選取的預設儲存空間，建立從Planning自動建立的專案。
 
   如需在您的環境中啟用Adobe雲端儲存空間的相關資訊，請參閱[為您的組織啟用Adobe雲端儲存空間](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)。
+
+* 您必須至少擁有自動化的「執行」許可權才能執行。 如需詳細資訊，請參閱[設定Adobe Workfront Planning自動化以建立記錄](/help/quicksilver/planning/records/configure-automations-to-create-records.md)。
 
 <!--hide this for now; they are trying to remove this limitation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
 

@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 00706e8c7ed590cf112f4817da9740a970a4a4b3
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '1041'
 ht-degree: 2%
 ---
 # 在Workfront環境之間移動物件的概觀（環境升級）
@@ -64,9 +64,8 @@ ht-degree: 2%
 * [自訂資料物件](#custom-data-objects)
 * [組織物件](#organization-objects)
 * [其他組態物件](#other-configuration-objects)
-<!--
-* [Workfront Planning objects](#workfront-planning-objects)
--->
+* [Workfront計畫物件](#workfront-planning-objects)
+
 
 ### 工作物件
 
@@ -139,25 +138,24 @@ ht-degree: 2%
 
 -->
 
-<!--
 
-**** Automations might not be part of this
-**** Planning STA might not be supported - Lilit is checking on this
-
-## Workfront Planning objects
+## Workfront計畫物件
 
 >[!IMPORTANT]
 >
->Workfront Planning objects are available only to customers who have purchased a Planning package in addition to a Workfront package or as a standalone product.
+>Workfront Planning物件僅適用於除了Workfront套件外還購買了Planning套件的客戶。
+>
+>環境促銷活動不適用於購買Workfront Planning作為獨立產品的客戶。
 
-| Promotable object | Included promotable linked objects |
+| 可升級的物件 | 包含的可升級連結物件 |
 | --- | --- |
-| Workspaces | Workspace sections |
-| Record types | Connected record types <br> Fields <br> Views <br> Hierarchies <br> Automations <br> Request forms  |
-| Sharing for all objects |  |
-| Additional objects that imported objects depend on| Groups <br> Teams <br> Job roles |
--->
+| 工作區 | Workspace區段 |
+| 記錄類型 | 連線的記錄型別* <br>欄位<br>檢視<br>階層<br>要求表單 |
+| 共用所有物件 | 群組<br>團隊<br>職務角色<br>使用者<br>公司 |
 
+*只有屬於已匯入之工作區的已連線記錄型別才會傳輸到目標環境。
+
+如需詳細資訊，請參閱[使用Adobe Workfront Planning的環境升級](/help/quicksilver/planning/general/planning-environment-promotion.md)。
 
 ## 環境升級狀態
 
