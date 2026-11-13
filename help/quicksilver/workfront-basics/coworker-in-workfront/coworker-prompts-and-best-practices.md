@@ -10,9 +10,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '2241'
+source-wordcount: '2366'
 ht-degree: 1%
 ---
 # CX Enterprise Coworker提示和最佳實務
@@ -66,7 +66,7 @@ ht-degree: 1%
 
 * 您的Workfront管理員必須為貴組織啟用AI助理。
 
-  如需詳細資訊，請參閱AI助理總覽一文中的[&#x200B; AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
+  如需詳細資訊，請參閱AI助理總覽一文中的[ AI助理的必要條件](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)。
 * 您的Workfront管理員必須為您的存取層級啟用AI助理。
 
   如需詳細資訊，請參閱[啟用或停用AI助理](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)。
@@ -355,7 +355,7 @@ For more information on using Smart Filters, see [Filter your work with Smart fi
 * 您可以顯示誰修改了此專案以及變更了哪些內容？
 * 我需要檢視上週對此記錄所做的所有更新
 
-### 在Workfront Planning中使用系統Designer
+### 在Workfront Planning中使用Planning Designer
 
 * [建立及設定工作區](#create-and-configure-workspaces)
 * [定義記錄型別](#define-record-types)
@@ -386,3 +386,15 @@ For more information on using Smart Filters, see [Filter your work with Smart fi
 * 在「計畫」中建立時間表檢視，以按開始和結束日期檢視我的行銷活動排程
 * 新增表格檢視至我的Planning方案，該檢視只會篩選作用中狀態
 * 複製我的Planning作用中行銷活動檢視並修改排序。
+
+### Workfront Planning創意空間中的同事（測試版）
+
+<!--duplicated in help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md-->
+
+* 行銷活動構想 — 使用您附加的來原始檔和其他來源，在行銷活動和其他主題的畫布上集思廣益並產生構想卡片。 這是構思的主要起點。
+* Campaign對話 — 在Ideation Space應用程式中以對話方式處理行銷活動想法。
+* 行銷活動簡報 — 建置並調整結構化的行銷活動簡報，並加上護欄，確保簡報完整且順利進行。
+* 檔案問答 — 針對您附加至創意工作階段的檔案提出問題。
+* 研究 — 拉入研究，在畫布上為您的創意提供資訊。
+* 入門提示 — 取得建議的提示，以開始或擴大您的構思。
+* 開啟畫布 — 啟動或跳至創意空間畫布（從應用程式外部的常規聊天開始時使用）。

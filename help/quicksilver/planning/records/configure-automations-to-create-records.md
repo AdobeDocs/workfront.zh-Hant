@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c7c74fdba29c4c6d28d12447459c5903a34c7856
+source-git-commit: 7eb2aeed3e711e36b1f735e75075a10291cd551a
 workflow-type: tm+mt
-source-wordcount: '1900'
-ht-degree: 4%
+source-wordcount: '2146'
+ht-degree: 3%
 ---
 # 設定Adobe Workfront Planning自動化
 
@@ -102,6 +102,8 @@ ht-degree: 4%
    <td role="rowheader"><p>物件許可權</p></td> 
    <td> <p>管理您要建立自動的工作區和記錄型別的許可權。 </p>
    <p>系統管理員擁有所有工作區的管理許可權，包括他們未建立的工作區</p>
+   <p>自動化建立者擁有管理自己的自動化許可權</p>
+   <p>您需要編輯或更高的自動化許可權才能進行編輯，需要執行許可權才能執行</p>
    </td> 
   </tr>  
 </tbody> 
@@ -287,7 +289,7 @@ Old:
        這是必填欄位。
 
        <!--submitted a change in functionality and UI text for this - revise??-->
-                                                                                 在&#x200B;**對應欄位**&#x200B;區域中，更新下列資訊：
+                                                                                 在**對應欄位**&#x200B;區域中，更新下列資訊：
 
        * **傳輸自**：從建立自動化的記錄型別中選取欄位，以將它們對應到連線記錄型別的欄位。
        * **傳輸至**：從新建立的記錄中選取欄位，這些欄位會填入您執行自動化之記錄中的資訊。
@@ -338,13 +340,13 @@ Old:
 
 1. （選擇性）若要檢視、停用或刪除自動化清單，請按一下自動化名稱右邊的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後執行下列其中一項作業：
 
-   * 若要自動變更欄位值，請按一下[檢視] **&#x200B;**&#x200B;以檢視自動設定。
+   * 若要自動變更欄位值，請按一下[檢視] ****&#x200B;以檢視自動設定。
 
      >[!TIP]
      >
      >當自動化是由欄位值變更所觸發時，在自動化設定儲存後，您無法編輯這些設定。
 
-   * 若要使用按一下按鈕的自動化功能，請按一下[編輯] **&#x200B;**&#x200B;來更新下列資訊：
+   * 若要使用按一下按鈕的自動化功能，請按一下[編輯] ****&#x200B;來更新下列資訊：
 
      * 按一下自動化名稱右邊的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後&#x200B;**編輯**，即可取得自動化名稱。
      * 自動化中的任何欄位，**動作**&#x200B;欄位除外。
@@ -361,3 +363,79 @@ Old:
    * 按一下&#x200B;**刪除**&#x200B;以刪除自動化。 已刪除的自動化無法復原。
 
      使用已刪除的自動化所建立的記錄會保持與原始選取的記錄連線。
+
+## 共用自動化
+
+身為自動化系統的建立者，您預設擁有管理許可權。
+
+此外，您也可以與其他使用者或團隊共用。
+
+根據預設，屬於工作區一部分的使用者不會獲得工作區中自動化的許可權。 您必須特別與他們共用自動化功能。
+
+1. 移至您要共用其自動化的記錄型別。
+1. 按一下記錄型別名稱右側的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**自動化**。
+
+   自動化清單隨即開啟。
+1. （視條件而定）如果清單中沒有自動化，請建立一個自動化，如本文中[在Workfront Planning中設定自動化](#configure-an-automation-in-workfront-planning)一節所述。
+1. 在自動化清單中，按一下自動化名稱右邊的&#x200B;**更多**&#x200B;功能表，然後按一下&#x200B;**共用**。
+1. 在共用方塊中，開始輸入您要共用之使用者或團隊的名稱。<!--checking with Mikayel if the other entities are not available for sharing for automations-->
+1. 從下列共用許可權層級中選擇：
+
+   | 許可權層級 | 允許的動作 |
+   | --- | --- |
+   | **管理** | 可以刪除、編輯、啟動和檢視自動化 |
+   | **編輯** | 可以編輯、啟動和檢視自動化 |
+   | **執行** | 可以開始並檢視自動化 |
+
+1. 若要變更現有使用者的許可權，請開啟相同的對話方塊，並從其名稱旁邊的下拉式清單中選取不同的許可權層級，或按一下「移除」以撤銷所有存取權。
+1. 按一下[儲存]儲存共用變更。****
+
+
+<!--checking this with Mikayel Aleksanyan to be sure-->
+
+
+<!-- 
+original info sent in slack from Mikayel: 
+Update the [Workfront Planning automations documentation](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/configure-automations-to-create-records) to explain the change from automatic sharing to explicit, owner-controlled sharing.
+
+Feature overview
+
+Previously, newly created automations were automatically shared with everyone in the Workfront Planning workspace. Now, a new automation is available only to its owner by default. The owner must manually share it with other users to grant them access.
+
+This change gives owners control over who can access their automations and what access level each user receives.
+
+What the documentation should cover
+
+1. Default visibility and sharing
+
+* Previously, a newly created automation was available to everyone in its Workfront Planning workspace by default.
+* With the new permission system, a newly created automation is available only to its creator/owner by default.
+* Owners must explicitly share new automations with other users to grant them access; workspace membership alone does not grant access to a new automation.
+* Owners can use the **Share** action to grant access to other users in the same organization. In the automations list, open the automation's **More options (···)** menu next to its name, then select **Share**.
+* Sharing grants access to an automation; it does not transfer ownership.
+
+1. Automation access levels
+
+The sharing dialog offers the following access levels, with these descriptions:
+
+| Access level | Allowed actions |
+| --- | --- |
+| **Manage** | Can delete, edit, start, and view |
+| **Edit** | Can edit, start, and view |
+| **Run** | Can start and view |
+
+The automation creator is listed as **Owner**. **Remove** is an action for removing a user's access, not an access level.
+
+1. How to share and update access
+
+1. In the automations list, open the automation's **More options (···)** menu and select **Share**.
+1. In the **Share [automation name]** dialog, use **Add people** to select the users to share with.
+1. Use the access-level dropdown next to a user to assign **Manage**, **Edit**, or **Run**.
+1. Click **Save** to save the sharing changes.
+
+To change an existing user's access, open the same dialog and select a different access level from the dropdown next to their name. To revoke access, select **Remove**. Click **Save** to save the changes.
+
+1. Existing automations
+
+* At the introduction of the new permission system, existing automations were shared with users in their respective Workfront Planning workspaces to preserve existing access.
+-->

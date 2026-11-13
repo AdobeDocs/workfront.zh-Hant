@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
+source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
 workflow-type: tm+mt
-source-wordcount: '2052'
+source-wordcount: '2125'
 ht-degree: 1%
 ---
 
@@ -159,7 +159,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -233,6 +233,9 @@ Or
    >
    >您不能直接將檔案新增到簡報。 您必須先將檔案資訊傳輸到可傳送給簡報的卡片。
 
+1. （選擇性）按一下Co-worker面板右上角的&#x200B;**聊天**&#x200B;圖示![聊天圖示](assets/chats-icon-coworker.png)，然後按一下&#x200B;**新增聊天**&#x200B;以開啟新的提示，或按一下清單中先前聊天內容之一以返回較舊的聊天。
+
+   如需有關聊天室的詳細資訊，請參閱Adobe CX Enterprise Coworker檔案中的[管理您的聊天室](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats)。
 
 1. 按一下「**搜尋**」圖示「![搜尋」圖示](assets/search-icon.png)以搜尋創意力畫布中的專案，然後按一下畫布在清單中顯示時即可導覽至該畫布。
 
