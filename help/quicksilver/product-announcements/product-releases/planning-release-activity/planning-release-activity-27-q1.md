@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b14797ccd399444b86c4002cf8ff52f720154869
+source-git-commit: 0ec3841584258ef9e3b1434b921e54750814457a
 workflow-type: tm+mt
-source-wordcount: '1614'
+source-wordcount: '1711'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 2027年第一季度發行活動
@@ -29,14 +29,26 @@ ht-degree: 0%
 
 如需針對Adobe Workfront Planning發行之所有功能的清單，請參閱[Adobe Workfront Planning發行活動：文章索引](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)。
 
-## 適用於Workfront Planning的環境升級
+## 共用Planning自動化
 
 >[!NOTE]
 >
 >預覽： 2026年11月12日
 >生產快速發行： 2026年11月12日
 >適用於所有人的生產： 2026年11月12日
->[!BADGE 並行發行]{type=Neutral}
+>[!BADGE 不在排程]{type=Neutral}內
+
+新的Workfront Planning自動化現在預設僅供其擁有者使用，而不會自動與工作區中的每個人共用。 擁有者可以透過與他人共用自動化來選擇誰可以取得存取權。 您可以授予其他使用者&#x200B;**管理**、**編輯**&#x200B;或&#x200B;**執行**&#x200B;存取層級。 現有自動化會與其Workspace使用者共用，因此目前的存取不受影響。
+
+如需詳細資訊，請參閱[設定Workfront規劃自動化](/help/quicksilver/planning/records/configure-automations-to-create-records.md)。
+
+## 適用於Workfront Planning的環境升級
+
+>[!NOTE]
+>
+>生產和沙箱快速發行： 2026年11月12日
+>適用於每個人的生產、預覽、沙箱：即將溝通
+>[!BADGE 不在排程]{type=Neutral}內
 
 >[!NOTE]
 >

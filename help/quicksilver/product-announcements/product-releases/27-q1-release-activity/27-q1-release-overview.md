@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 69e36133dc4aed70c7dd0275b57521e56f0db288
+source-git-commit: 943ec27eb6e355e8f86e680a23dbcb86c3822880
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1539'
 ht-degree: 2%
 ---
 
@@ -57,12 +57,12 @@ ht-degree: 2%
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">適用於Workfront Planning的環境升級</a></p>
-                <p>[!BADGE 同時發行]{type=Neutral}</p>
+                <p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>Workfront管理員現在可以將Workfront Planning工作區及其物件從一個環境提升至另一個環境。</p>
             </td>
+            <td><p>即將進行溝通</p></td>
             <td><p>2026年11月12日</p></td>
-            <td><p>2026年11月12日</p></td>
-            <td><p>2026年11月12日</p></td>
+            <td><p>即將進行溝通</p></td>
         </tr>
         <tr>
             <td>
