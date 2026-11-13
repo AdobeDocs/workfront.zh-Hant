@@ -29,7 +29,7 @@ CX Enterprise Coworker Chat是一個用於完成工作的對話式介面，現�
 
 同事是Adobe生態系統的一部分，不僅限於Workfront。
 
-如需同事及其功能的詳細資訊，請參閱[Adobe CX Enterprise Coworker聊天總覽](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview)。
+如需同事及其功能的詳細資訊，請參閱[Adobe CX Enterprise Coworker聊天總覽](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/overview)。
 
 如需有關在Workfront中使用同事的資訊，請參閱[在Workfront中使用CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)。
 
