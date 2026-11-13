@@ -16,9 +16,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3e4856a8edc426c9624ec08e7c4f86d0c38dd2ef
+source-git-commit: 13403cc11448a0611ad0996ed21e1745277e9c05
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '167'
 ht-degree: 2%
 ---
 # AI 協作者
@@ -27,9 +27,7 @@ ht-degree: 2%
 
 AI共同作業人員是AI代理程式，您可以用指派人員的相同方式將其指派給任務。 您可以將AI共同作業人員安排到您現有的工作流程中，讓您的團隊能夠專注於最重要的事項。
 
-可用的AI共同作業人員型別包括AI檢閱者和工作代理程式。<!--<span class="preview">and Project Coordinators.</span>-->
-
-<!-- BECKY CHECK ME: Why this changed: we are introducing Adobe Native as a new Work Agent origin in the overview; confirm the final product naming and whether it should be described as an origin option rather than a separate collaborator type. -->
+可用的AI共同作業人員型別包括AI檢閱者、工作代理<span class="preview">和專案協調員</span>。
 
 對於工作代理程式，您可以從支援的外部平台<span class="preview">連線代理程式，或者，如果您的組織已啟用Adobe CX Coworker，請選取Adobe Native以使用由Adobe CX Coworker提供支援的現成代理程式。 Adobe原生選項不需要外部平台認證。</span>
 
