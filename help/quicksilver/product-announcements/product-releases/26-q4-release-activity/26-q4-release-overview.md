@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 31d0e371eb6da0d39d5b8b0354e756e79b2dfd8e
+source-git-commit: 13403cc11448a0611ad0996ed21e1745277e9c05
 workflow-type: tm+mt
-source-wordcount: '3631'
+source-wordcount: '3665'
 ht-degree: 1%
 ---
 # 2026年第四季版本總覽
@@ -264,17 +264,15 @@ ht-degree: 1%
             <td><strong>快速發行</strong></td>
             <td><strong>每季</strong></td>
         </tr>
-<!--        
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">New AI Collaborator type: Project Coordinators</a>
-                <p>Project Coordinators can monitor project status and send daily or weekly updates without requiring a separate custom agent setup.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">新AI共同作業人員型別：專案協調員</a>
+                <p>專案專員可監控專案狀態，並傳送每日或每週更新，而不需要個別的自訂代理程式設定。</p>
             </td>
-            <td><p>October 1, 2026</p></td>
-            <td><p>October 22, 2026</p></td>
-            <td><p>October 22, 2026</p></td>
+            <td><p>2026年10月29日</p></td>
+            <td><p>2026年12月17日</p></td>
+            <td><p>2027年1月21日</p></td>
         </tr>
--->        
        <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md">Workfront MCP伺服器工具組</a></p>

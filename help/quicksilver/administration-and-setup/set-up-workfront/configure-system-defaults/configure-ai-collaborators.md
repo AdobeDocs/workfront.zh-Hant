@@ -17,10 +17,10 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 331746b2e3f0a5ce6cd0bb01e020d787d6ad951b
+source-git-commit: 13403cc11448a0611ad0996ed21e1745277e9c05
 workflow-type: tm+mt
-source-wordcount: '1564'
-ht-degree: 2%
+source-wordcount: '1993'
+ht-degree: 1%
 ---
 # 設定AI共同作業人員
 
@@ -42,15 +42,11 @@ AI共同作業人員是將AI代理程式帶入您的專案、任務和問題的�
 
   如需Adobe CX Enterprise Coworker的詳細資訊，請參閱[Workfront中的CX Enterprise Coworker概觀](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)。
 
-<!-- BECKY CHECK ME: Why this changed: we updated the Work Agent description to include Adobe Native and need product confirmation on any additional package, license, agreement, credit, or administrator restrictions before publishing. -->
-
 AI共同作業人員使用的授權不會收費。 如果您的組織有200個Workfront授權並建立AI Collaborator，接著會使用201個授權，但只需付費200個。
 
-<!--
-* <span class="preview">Project Coordinator: An out-of-the-box collaborator that monitors project status and follows up on overdue tasks automatically, without needing to configure an external agent.</span>
+* <span class="preview">專案協調員：現成可用的共同作業人員，可監控專案狀態並傳送專案更新，不需要設定外部代理程式。</span>
 
-   <span class="preview">For more information, see [Use the Project Coordinator collaborator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).</span>
--->
+  <span class="preview">如需詳細資訊，請參閱[使用專案協調員共同作業人員](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md)。</span>
 
 
 ## 存取權要求
@@ -108,8 +104,6 @@ AI共同作業人員使用的授權不會收費。 如果您的組織有200個Wo
 >
 >我們的目標是連線任何代理程式提供者，因此如果您使用的提供者目前與工作代理程式不相容，請洽詢您的帳戶團隊以尋求協助。
 
-<!-- BECKY CHECK ME: Why this changed: we separated Native and external-agent prerequisites to match the draft, and we still need product confirmation on the final setup and entitlement requirements before removing the qualifiers. -->
-
 ## 建立新的AI稽核者
 
 AI檢閱者可設定為使用Workfront品牌或Adobe Brand Intelligence。
@@ -137,8 +131,6 @@ AI檢閱者可設定為使用Workfront品牌或Adobe Brand Intelligence。
 因為工作代理程式是代理程式，其動作和功能會在您設定代理程式的位置進行設定。 工作代理可以是<span class="preview">使用共同背景工作的原生工作代理，</span>，也可以來自支援的外部平台，例如Copilot Studio、Claude、OpenAI和IBM。
 
 >可以將工作代理指派給任務或問題。
-
-<!-- BECKY CHECK ME: Why this changed: we broadened the origin language to include Adobe Native and want product confirmation on whether the release should describe it as a ready-to-use origin and whether the external-agent setup language still matches production. -->
 
 工作代理程式使用的授權不會收費。 如果您的組織有200個Workfront授權並建立工作代理程式，則有201個授權在使用中，但只有200個需要付費。
 
@@ -263,34 +255,41 @@ More detailed information about creating agents can be found in the [Writer docu
 
 <div class="preview">
 
-<!--
-## Configure a Project Coordinator
+## 設定專案協調員
 
-The Project Coordinator is an out-of-the-box collaborator that monitors project status and helps keep work on track. Unlike Work Agents, the Project Coordinator does not require you to configure an external agent.
+專案協調員是開箱即用的共同作業人員，可監控專案狀態並幫助工作按計畫進行。 與「工作代理程式」不同，「專案協調器」不需要您設定外部代理程式。
 
 {{step-1-to-setup}}
 
-1. In the left navigation, click **AI Collaborators**.
-1. Click **New Collaborator** in the upper-right corner of the screen.
-1. Select **Project Coordinator**.
-1. In the **AI Collaborator name** field, enter a name for the Project Coordinator. This is the name that appears as the collaborator in your project.
-1. In the **AI Collaborator description** field, enter a description of what the Project Coordinator does or its purpose.
-1. In the **Access level** field, select an access level for the Project Coordinator. This access level controls what the collaborator can do on projects.
-1. (Optional) In the **Send project updates** section, toggle **Allow** to enable project update notifications, then specify update details.
-   * In the **Cadence** field, select whether the Coordinator sends updates daily or weekly.
-   * If the Coordinator sends updates weekly, in the **Day of week** field, select the day of the week that updates are sent.
-   * In the **Time (MST)** field, select the time to send updates.
-   * In the **How to send** field, select whether the Coordinator sends updates as an update on the project, or as an email
-   * In the **Who gets the update** field, select whether the update is sent only to the project owner, or to all project stakeholders.
-   * (Optional) Check **Send additional update immediately when coordinator is assigned** to notify on assignment.
-   * (Optional) Check **Send additional update when a date is missed** to send notifications when dates are missed.
-1. (Optional) In the **Notify task assignees** section, toggle **Allow** to enable task notifications, then check the boxes for the situations that you want to notify assignees about.
-1. (Optional) In the **Remind reviewers and approvers** section, toggle **Allow** to enable reminders for reviewers, then check the boxes for the situations that you want to remind reviewers and approvers about.
-1. (Optional) In the **Update the content of project and task fields** section, toggle **Allow** to enable the coordinator to update project and task field values.
-1. Click **Save**.
+1. 在左側導覽列中，按一下&#x200B;**AI共同作業人員**。
+1. 按一下畫面右上角的&#x200B;**新增共同作業人員**。
+1. 選取&#x200B;**專案協調器**，然後按一下&#x200B;**繼續**。
+1. 在&#x200B;**AI共同作業人員名稱**&#x200B;欄位中，輸入專案協調員的名稱。 此名稱會顯示為您專案中的共同作業人員。
+1. （選擇性）在&#x200B;**AI Collaborator描述**&#x200B;欄位中，輸入專案協調器的功能或其用途的描述。
+1. 在&#x200B;**存取層級**&#x200B;欄位中，選取專案協調器的存取層級。 此存取層級會控制共同作業人員在專案上可以執行的動作，就像存取層級會控制使用者可以執行的動作一樣。
+1. （選擇性）在&#x200B;**群組**&#x200B;欄位中，選取專案協調員將關聯的群組。
 
-For more information on the Project Coordinator, including how to assign it to projects, see [Use the Project Coordinator collaborator](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md).
--->
+   >[!NOTE]
+   >
+   >如果您是群組管理員，此欄位只會顯示您是管理員的群組。 群組管理員必須選取至少一個群組。
+
+1. 在&#x200B;**協調員動作**&#x200B;區域中，指定專案協調員傳送專案更新的方式。 專案協調員必須擁有執行這些動作的許可權。 專案協調員也可以評論專案及其任務。
+
+   專案更新可包括進度摘要、專案健康狀態、逾期或存在風險的任務或核准，以及缺少欄位或指派。
+
+   * 在&#x200B;**步調**&#x200B;欄位中，選取專案協調器是每日還是每週傳送更新。
+   * （視條件而定）如果您選取每週，請在&#x200B;**Day**&#x200B;欄位中，選取一週中傳送更新的日期。
+   * 在&#x200B;**Time**&#x200B;欄位中，選取傳送更新的時間。
+   * 在&#x200B;**時區**&#x200B;欄位中，選取更新時間的時區。
+   * 在&#x200B;**誰取得更新**&#x200B;欄位中，選取更新是傳送給專案所有者還是專案關係人。 預設為專案所有者。
+
+1. 按一下「**儲存**」。
+
+儲存專案協調員之後，將&#x200B;**專案協調員**&#x200B;欄位新增到您的使用者使用的版面配置範本中的專案標題。 在標題中有該欄位之前，使用者無法將專案協調員指派給專案。
+
+如需指示，請參閱[使用配置範本自訂物件標頭](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)。
+
+如需有關專案協調器的詳細資訊，包括如何將其指派給專案，請參閱[使用專案協調器共同作業人員](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md)。
 
 </div>
 
