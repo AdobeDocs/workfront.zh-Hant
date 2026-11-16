@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7eb2aeed3e711e36b1f735e75075a10291cd551a
+source-git-commit: 36a875994b811a2830b4bd2fa037748285c67bc2
 workflow-type: tm+mt
-source-wordcount: '2146'
+source-wordcount: '2454'
 ht-degree: 3%
 ---
 # 設定Adobe Workfront Planning自動化
@@ -237,9 +237,10 @@ Old:
    * **動作**：選取您希望Workfront在觸發自動化時執行的動作。 這是必填欄位。
      選取下列其中一個動作：
 
-     * 建立多個專案
+     * 使用AEM工作流程建立專案
      * 建立單一專案
-     * 建立專案
+     * 建立多個專案
+     * 建立多個記錄
      * 建立記錄
      * 建立方案
      * 建立專案組合
@@ -250,6 +251,12 @@ Old:
      >儲存自動化後，您將無法再變更在此欄位中選取的動作。
 
 1. （視條件而定）根據您選取的動作，更新下列欄位：
+
+   * **使用AEM工作流程建立專案**：
+     * **建立專案的已連線欄位**：這是將顯示新專案的已連線欄位。 這是必填欄位。
+     * **專案範本**：選取Workfront用來建立專案的專案範本。
+     * **建立連結資料夾**：如果您要為專案建立連結資料夾，請啟用此選項。
+
 
    * **建立單一專案**： <!--replace to the left: Create a single project-->
      * **建立專案的已連線欄位**：這是將顯示新專案的已連線欄位。 這是必填欄位。
@@ -284,12 +291,41 @@ Old:
 
        * **目前記錄將顯示的連線記錄型別欄位**：這是針對目前記錄將顯示的動作選取的記錄型別上的連線欄位。
 
-       例如，如果您正在建立行銷活動的自動化，以便從連線產品記錄，這是產品記錄型別上顯示的行銷活動之已連線欄位（使用自動化建立產品後）。
+         例如，如果您正在建立行銷活動的自動化，以便從連線產品記錄，這是產品記錄型別上顯示的行銷活動之已連線欄位（使用自動化建立產品後）。
 
-       這是必填欄位。
+         這是必填欄位。
 
        <!--submitted a change in functionality and UI text for this - revise??-->
-                                                                                 在&#x200B;**對應欄位**&#x200B;區域中，更新下列資訊：
+                                                                                 在**對應欄位**&#x200B;區域中，更新下列資訊：
+
+       * **傳輸自**：從建立自動化的記錄型別中選取欄位，以將它們對應到連線記錄型別的欄位。
+       * **傳輸至**：從新建立的記錄中選取欄位，這些欄位會填入您執行自動化之記錄中的資訊。
+
+       >[!TIP]
+       >
+       >* 來自原始記錄型別的欄位型別必須與來自新建記錄型別的欄位型別匹配。
+       >* 如果您選擇無欄位，則新記錄的名稱將為&#x200B;**未命名的記錄**。
+
+
+   * **建立多個記錄**：
+     * **記錄型別**：選取您要建立的記錄型別。
+
+       **設定**&#x200B;子區段隨即顯示。 更新&#x200B;**設定**&#x200B;子區段中的下列欄位：
+
+       * **目前記錄將顯示的連線記錄型別欄位**：這是針對目前記錄將顯示的動作選取的記錄型別上的連線欄位。
+
+         例如，如果您正在建立行銷活動的自動化，以便從連線產品記錄，這是產品記錄型別上顯示的行銷活動之已連線欄位（使用自動化建立產品後）。
+
+         這是必填欄位。
+
+       * **其選擇將建立新記錄的欄位：**
+
+         這是從中建立新記錄的欄位。
+
+         例如，如果計畫記錄有一個欄位代表三個區域，例如英國、歐盟和美國，選取該欄位會建立三個新記錄，每個選項一個。
+
+       <!--submitted a change in functionality and UI text for this - revise??-->
+                                                                                 在**對應欄位**&#x200B;區域中，更新下列資訊：
 
        * **傳輸自**：從建立自動化的記錄型別中選取欄位，以將它們對應到連線記錄型別的欄位。
        * **傳輸至**：從新建立的記錄中選取欄位，這些欄位會填入您執行自動化之記錄中的資訊。
@@ -340,13 +376,13 @@ Old:
 
 1. （選擇性）若要檢視、停用或刪除自動化清單，請按一下自動化名稱右邊的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後執行下列其中一項作業：
 
-   * 若要自動變更欄位值，請按一下[檢視] **&#x200B;**&#x200B;以檢視自動設定。
+   * 若要自動變更欄位值，請按一下[檢視] ****&#x200B;以檢視自動設定。
 
      >[!TIP]
      >
      >當自動化是由欄位值變更所觸發時，在自動化設定儲存後，您無法編輯這些設定。
 
-   * 若要使用按一下按鈕的自動化功能，請按一下[編輯] **&#x200B;**&#x200B;來更新下列資訊：
+   * 若要使用按一下按鈕的自動化功能，請按一下[編輯] ****&#x200B;來更新下列資訊：
 
      * 按一下自動化名稱右邊的&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後&#x200B;**編輯**，即可取得自動化名稱。
      * 自動化中的任何欄位，**動作**&#x200B;欄位除外。
@@ -388,7 +424,7 @@ Old:
    | **執行** | 可以開始並檢視自動化 |
 
 1. 若要變更現有使用者的許可權，請開啟相同的對話方塊，並從其名稱旁邊的下拉式清單中選取不同的許可權層級，或按一下「移除」以撤銷所有存取權。
-1. 按一下[儲存]儲存共用變更。**&#x200B;**
+1. 按一下[儲存]儲存共用變更。****
 
 
 <!--checking this with Mikayel Aleksanyan to be sure-->
@@ -396,7 +432,7 @@ Old:
 
 <!-- 
 original info sent in slack from Mikayel: 
-Update the [Workfront Planning automations documentation](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/configure-automations-to-create-records) to explain the change from automatic sharing to explicit, owner-controlled sharing.
+Update the [Workfront Planning automations documentation](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-records/configure-automations-to-create-records) to explain the change from automatic sharing to explicit, owner-controlled sharing.
 
 Feature overview
 
