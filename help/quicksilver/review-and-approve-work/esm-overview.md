@@ -29,9 +29,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
+source-git-commit: f23589e5184ea27347a18084984c6c31939e4090
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1147'
 ht-degree: 0%
 ---
 # Adobe雲端儲存空間概覽
@@ -138,6 +138,12 @@ Workfront物件包括投資組合、方案、專案、範本、任務和問題�
 ## 沙箱環境中的Adobe雲端儲存空間
 
 Adobe雲端儲存空間可在[!DNL Workfront]沙箱環境中使用，因此您可以在生產環境中啟用它之前先測試它。 不過，沙箱中不提供Frame.io檢視器，因此完整統一檢閱和核准體驗必須在生產環境中驗證。
+
+>[!IMPORTANT]
+>
+>從生產環境重新整理沙箱時，不會將Adobe雲端儲存空間資料複製到沙箱。 Adobe雲端儲存空間專案、其檔案和相關資料不包含在重新整理中。 這是預期行為，也是Adobe雲端儲存空間架構的結果。 舊版Workfront儲存專案和檔案會照常繼續複製到沙箱。
+>
+>若要在沙箱中測試Adobe雲端儲存空間，請建立新的Adobe雲端儲存空間專案，並直接在該環境中上傳檔案。
 
 如果您有自訂重新整理沙箱，您必須在升級至支援Adobe雲端儲存空間的Workfront版本後，重新整理沙箱，才能存取沙箱中的Adobe雲端儲存空間功能。 如需詳細資訊，請參閱[自訂重新整理沙箱環境](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)。 [!DNL Adobe Workfront] 
 
