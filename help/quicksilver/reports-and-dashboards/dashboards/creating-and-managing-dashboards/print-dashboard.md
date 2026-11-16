@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 4%
+source-wordcount: '431'
+ht-degree: 5%
 ---
 # 列印儀表板
 
@@ -95,7 +95,7 @@ ht-degree: 4%
 * 報告標題
 * 上次產生報表的時間戳記
 * 控制面板上的所有物件，包括清單檢視、外部網頁、報告和行事曆
-* 貴公司的標誌（如果您的Workfront管理員已在您的全域導覽列中自訂該標誌）。 如需品牌化Workfront網站的詳細資訊，請參閱[品牌化Adobe Workfront執行個體](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)。
+  <!--* Your company's logo, if your Workfront administrator has customized it in your Global Navigation Bar. For more information about branding the Workfront site, see [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). NOTE FROM LISA: Branding is no longer available and the article this links to was deprecated.-->
 
 ### 不會顯示哪些內容？ {#what-is-not-displayed}
 
@@ -122,7 +122,7 @@ ht-degree: 4%
 1. 在&#x200B;**目的地**&#x200B;欄位中，從各種可用的列印選項中選取。\
    列印選項會依您使用的瀏覽器和瀏覽器版本而有所不同。
 
-1. （選擇性）將儀表板儲存為。PDF檔案，然後按一下[儲存] **&#x200B;**&#x200B;以儲存。PDF。\
+1. （選擇性）將儀表板儲存為。PDF檔案，然後按一下[儲存] ****&#x200B;以儲存。PDF。\
    若要瞭解如何將儀表板儲存為。PDF檔案，請參閱[匯出儀表板](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md)。
 
 1. 按一下&#x200B;**列印**。
