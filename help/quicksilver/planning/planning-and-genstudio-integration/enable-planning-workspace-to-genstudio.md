@@ -37,7 +37,7 @@ ht-degree: 3%
 * 存取Workfront Planning和GenStudio for Performance Marketing。
 * 要連結至工作區的Adobe雲端儲存空間專案。 組織管理員可以在Adobe Admin Console中建立一個。
 
-  如需詳細資訊，請參閱[管理Adobe儲存空間](https://helpx.adobe.com/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html)。<!--ensure this site still works-->
+  如需詳細資訊，請參閱[管理Adobe儲存空間](https://helpx.adobe.com/tw/business/enterprise/manage-storage-assets/manage-storage/manage-adobe-storage.html)。<!--ensure this site still works-->
 
 ## 存取權要求
 
@@ -73,7 +73,7 @@ ht-degree: 3%
    <td> 
    <p> 您必須在Adobe Admin Console中建立Adobe儲存雲端專案 </p>
 
-<p>如需詳細資訊，請參閱<a href="https://helpx.adobe.com/business/enterprise/manage-storage-assets/manage-storage/projects-in-business-storage.html#project-policies">管理專案</a>
+<p>如需詳細資訊，請參閱<a href="https://helpx.adobe.com/tw/business/enterprise/manage-storage-assets/manage-storage/projects-in-business-storage.html#project-policies">管理專案</a>
 
 </td> 
   </tr>
@@ -99,7 +99,7 @@ ht-degree: 3%
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing使用者角色</p></td> 
    <td><p><ul><li>任何GenStudio使用者角色（如果您需要存取行銷活動、產品和角色）</li>
    <li>GenSudio System Manager （如果您需要存取「啟用」） <!--and Events--></li></ul>
-   如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">使用者角色和許可權</a>。 
+   如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">使用者角色和許可權</a>。 
    </p>
   </td> 
   </tr>   
