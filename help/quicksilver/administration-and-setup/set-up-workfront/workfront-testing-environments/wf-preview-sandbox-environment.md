@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 29c11bcb8189bb3d5e9f57e1249ee58c9a206b87
+source-git-commit: f23589e5184ea27347a18084984c6c31939e4090
 workflow-type: tm+mt
-source-wordcount: '1379'
+source-wordcount: '1509'
 ht-degree: 0%
 ---
 # [!DNL Adobe Workfront]預覽沙箱環境
@@ -83,6 +83,18 @@ ht-degree: 0%
 預覽沙箱還允許[!DNL Workfront]在準備部署到生產環境之前，在安全環境中部署新功能。 您可以測試新功能，並透過存取預覽沙箱提供[!DNL Workfront]對其功能的意見反應。 因此，預覽沙箱的程式碼一律先於生產程式碼，不過您的資料每週都會重新整理。
 
 預覽環境適用於執行培訓、測試新功能和判斷設定功能。
+
+## 預覽沙箱中的Adobe雲端儲存空間
+
+Adobe雲端儲存空間可在預覽沙箱中使用，因此您可以在生產環境中啟用它之前先測試它。 不過，Frame.io檢視器不適用於沙箱環境，因此完整統一檢閱和核准體驗必須在生產環境中驗證。
+
+>[!IMPORTANT]
+>
+>從生產環境重新整理預覽沙箱時，不會將Adobe雲端儲存空間資料複製到沙箱。 Adobe雲端儲存空間專案、其檔案和相關資料不包含在重新整理中。 這是預期的行為。 舊版Workfront儲存專案和檔案會照常繼續複製到沙箱。
+>
+>若要在預覽沙箱中測試Adobe雲端儲存空間，請建立新的Adobe雲端儲存空間專案，並直接在該環境中上傳檔案。
+
+如需詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 >[!IMPORTANT]
 >

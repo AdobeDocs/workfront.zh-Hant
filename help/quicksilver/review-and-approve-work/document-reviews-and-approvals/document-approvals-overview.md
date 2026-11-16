@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 120abd12533cfed2e5c7f8c2f849d34a26054dbb
+source-git-commit: f23589e5184ea27347a18084984c6c31939e4090
 workflow-type: tm+mt
-source-wordcount: '4476'
+source-wordcount: '4571'
 ht-degree: 0%
 ---
 # 統一檢閱和核准總覽
@@ -580,6 +580,10 @@ Adobe雲端儲存空間提供您以遞增方式推出新體驗的彈性，從最
 部分。 核准工作流程可在Workfront沙箱環境中測試。 不過，沙箱中不提供Frame.io檢視器體驗。 測試檢閱表面本身需要生產環境。
 
 若要限制轉出時的曝光度，您可以在Workfront生產環境中為特定群組啟用統一檢閱和核准。 這可讓您在更廣泛推出之前，先以較小的使用者集執行目標式試驗。
+
+**重新整理後，為什麼我的Adobe雲端儲存空間專案和檔案沒有出現在沙箱中？**
+
+這是預期的行為。 從生產環境重新整理沙箱時，不會將Adobe雲端儲存空間資料複製到沙箱。 Adobe雲端儲存空間專案、其檔案和相關資料不包含在重新整理中。 舊版Workfront儲存專案和檔案會照常繼續複製到沙箱。 若要在沙箱中測試Adobe雲端儲存空間，請建立新的Adobe雲端儲存空間專案，並直接在該環境中上傳檔案。 如需詳細資訊，請參閱[Adobe雲端儲存空間概觀](/help/quicksilver/review-and-approve-work/esm-overview.md)。
 
 <!--
 **How should we test future quarterly releases involving unified review and approval if the Frame.io viewer is not available in sandbox?**
