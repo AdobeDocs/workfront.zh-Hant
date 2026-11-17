@@ -30,18 +30,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 3%
 ---
 # 從[!DNL Photoshop]上傳校樣
 
+{{cc-plugin-legacy-only}}
+
 您可以直接將某些Photoshop檔案預設集型別作為校訂上傳到[!DNL Adobe Workfront]，以進行徹底的檢閱和核准。
 
 >[!IMPORTANT]
 >
->檔案必須是像片檔案預設集，如[Photoshop](https://helpx.adobe.com/tw/photoshop/using/create-documents.html)中的範本和預設集所述。
+>檔案必須是像片檔案預設集，如[Photoshop](https://helpx.adobe.com/photoshop/using/create-documents.html)中的範本和預設集所述。
 
 
 
@@ -69,11 +71,11 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">校樣權限設定檔 </td> 
-   <td>[!UICONTROL Manager]或更高版本</td> 
+   <td>[！UICONTROL Manager]或更高版本</td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>編輯[!UICONTROL 檔案]的存取權</p>  </td> 
+   <td> <p>編輯[！UICONTROL檔案]的存取權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -110,7 +112,7 @@ ht-degree: 3%
 1. （選擇性）選取&#x200B;**[!UICONTROL 新增外部檔案]**&#x200B;以從您的電腦新增檔案。
 1. 按一下&#x200B;**[!UICONTROL 上傳]**，然後根據上述選擇的資產型別設定任何需要的匯出選項。
 
-   外掛程式![&#128279;](assets/plugin-files-350x307.png)中的檔案\
+   外掛程式](assets/plugin-files-350x307.png)中的![檔案\
    檔案出現在[!DNL Photoshop]的[!DNL Workfront]面板中的[!UICONTROL 檔案]區域以及[!DNL Workfront]案頭應用程式中。
 
 
@@ -159,7 +161,7 @@ ht-degree: 3%
 1. 按一下[!DNL Workfront]面板底部附近的&#x200B;**[!UICONTROL 新版本]**。
 1. 啟用&#x200B;**[!UICONTROL 建立校訂]**&#x200B;切換。
 
-1. 在&#x200B;*[!UICONTROL *校訂核准]&#x200B;**區段中，選擇&#x200B;**&#x200B;[!UICONTROL 基本]&#x200B;**&#x200B;或&#x200B;**&#x200B;[!UICONTROL 自動化]**。
+1. 在&#x200B;*[!UICONTROL *校訂核准]**區段中，選擇&#x200B;**[!UICONTROL 基本]**&#x200B;或&#x200B;**[!UICONTROL 自動化]**。
 
 1. 根據您在步驟7中選取的核准型別，新增&#x200B;**[!UICONTROL 檢閱者]**&#x200B;或&#x200B;**[!UICONTROL 工作流程範本]**。
 

@@ -1,7 +1,7 @@
 ---
-source-git-commit: f366d51780b787e0f37412d558b210897d764e5e
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
-source-wordcount: '2437'
+source-wordcount: '2461'
 ht-degree: 2%
 ---
 # 程式碼片段
@@ -233,6 +233,12 @@ Add snippets within the section that the snippet is used. Snippets that are used
 * Illustrator
 * Premiere Pro
 * After Effects
+
+## 僅限CC外掛程式舊版儲存空間 {#cc-plugin-legacy-only}
+
+>[!IMPORTANT]
+>
+>[!DNL Creative Cloud]外掛程式的[!DNL Adobe Workfront]僅適用於舊版Workfront儲存空間上的專案。 不支援Adobe雲端儲存空間上的專案。
 
 ## 調整自動校樣設定 {#adjust-proof-settings}
 

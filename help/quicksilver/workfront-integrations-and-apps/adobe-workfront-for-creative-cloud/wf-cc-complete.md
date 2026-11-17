@@ -30,12 +30,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 6%
 ---
 # 使用[!DNL Adobe Workfront]外掛程式將工作專案標示為完成
+
+{{cc-plugin-legacy-only}}
 
 您可以繼續使用下列[!DNL Adobe Creative Cloud]應用程式，並使用外掛程式在[!DNL Adobe Workfront]中順暢地完成您的工作：
 
@@ -67,11 +69,11 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td role="rowheader">存取層級設定</td> 
-   <td> <p>編輯[!UICONTROL 檔案]的存取權</p> </td> 
+   <td> <p>編輯[！UICONTROL檔案]的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">物件許可權</td> 
-   <td> <p>[!UICONTROL 檢視]存取您要上傳檔案之物件的更高版本。</p> </td> 
+   <td> <p>[！UICONTROL檢視]存取您要上傳檔案之物件的更高版本。</p> </td> 
   </tr> 
  </tbody> 
 </table>

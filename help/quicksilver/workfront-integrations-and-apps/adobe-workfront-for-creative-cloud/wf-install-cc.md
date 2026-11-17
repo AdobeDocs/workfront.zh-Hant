@@ -34,12 +34,14 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 4%
 ---
 # 安裝並開啟[!DNL Adobe Workfront for design and video]
+
+{{cc-plugin-legacy-only}}
 
 您可以從[!DNL Adobe Marketplace]安裝[!DNL Adobe Workfront for design and video]。 此外掛程式支援下列Creative Cloud應用程式：
 
@@ -106,7 +108,7 @@ ht-degree: 4%
 
 [在此觀看教學課程影片](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
 
-[!DNL Adobe Admin Console]管理員也可以建立僅含外掛程式的套件，以分發給使用者。 如需詳細資訊，請參閱 [!DNL Adobe Admin Console]&#x200B;[&#128279;](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)中的[為您的使用者建立 [!DNL Creative Cloud]] 套裝的！UICONTROL [!DNL Adobe Workfront] 
+[!DNL Adobe Admin Console]管理員也可以建立僅含外掛程式的套件，以分發給使用者。 如需詳細資訊，請參閱 [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)中的[為您的使用者建立 [!DNL Creative Cloud]] 套裝的[！UICONTROL [!DNL Adobe Workfront] 
 
 ## 個別安裝[!DNL Workfront for design and video]
 
@@ -115,7 +117,7 @@ ht-degree: 4%
 1. 前往Adobe Exchange上的[Adobe Workfront for Design and Video安裝頁面](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&workflow=share)。
 1. 在出現的對話方塊中，按一下&#x200B;**開啟[!DNL Adobe Creative Cloud]案頭應用程式**。
 1. 在[!DNL Adobe Creative Cloud]外掛程式管理員開啟後，按一下&#x200B;**[!UICONTROL 安裝]**。
-1. 讀取對話方塊中的資訊，然後按一下[確定]。**&#x200B;**
+1. 讀取對話方塊中的資訊，然後按一下[確定]。****
 1. 安裝[!DNL Workfront for design and video]後，請開啟您所需的[!DNL Creative Cloud]應用程式，並在外掛程式面板中找到[!DNL Workfront]外掛程式。
 
 1. 繼續下一節以取得如何開啟[!DNL Workfront for design and video]的資訊。
