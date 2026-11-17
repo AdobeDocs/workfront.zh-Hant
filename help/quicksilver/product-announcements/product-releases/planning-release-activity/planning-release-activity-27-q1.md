@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 36a875994b811a2830b4bd2fa037748285c67bc2
+source-git-commit: bcd87200467aa7f62af4c4c54f692b174ab3e517
 workflow-type: tm+mt
-source-wordcount: '1851'
+source-wordcount: '1848'
 ht-degree: 0%
 ---
 # Adobe Workfront Planning 2027年第一季度發行活動
@@ -61,7 +61,7 @@ Workfront Fusion現在提供兩種新的自動化範本。
 >[!NOTE]
 >
 >生產和沙箱快速發行： 2026年11月12日
->適用於每個人的生產、預覽、沙箱：即將溝通
+>適用於每個人的生產、預覽、沙箱： 2026年12月17日
 >[!BADGE 不在排程]{type=Neutral}內
 
 >[!NOTE]
