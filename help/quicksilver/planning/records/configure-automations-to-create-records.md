@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 36a875994b811a2830b4bd2fa037748285c67bc2
+source-git-commit: 521ab14f157ae346c8551536239a79332dafb791
 workflow-type: tm+mt
-source-wordcount: '2454'
+source-wordcount: '2476'
 ht-degree: 3%
 ---
 # 設定Adobe Workfront Planning自動化
@@ -401,6 +401,10 @@ Old:
      使用已刪除的自動化所建立的記錄會保持與原始選取的記錄連線。
 
 ## 共用自動化
+
+>[!NOTE]
+>
+>此功能已於2026年11月16日暫時從所有環境中移除，並將在未來日期啟用。
 
 身為自動化系統的建立者，您預設擁有管理許可權。
 

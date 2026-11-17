@@ -30,18 +30,23 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5690922c396a91f0fbf8cfa88e885f1e819aeae0
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 6%
+source-wordcount: '93'
+ht-degree: 4%
 ---
 # 自訂Adobe Workfront
 
 本節包含下列子章節：
 
-* [Adobe Workfront中的自訂品牌](../../administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
 * [版面配置範本](../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
 * [自訂表單：文章索引](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
 * [狀態和優先順序標籤](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
 * [核准程式和里程碑路徑](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/config-approval-milestone-paths.md)
 * [自訂條件](../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)
+
+此自訂Workfront章節也包含如何[設定自訂說明URL](/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)的文章。
+
+>[!NOTE]
+>
+>品牌推廣不適用於Adobe Workfront。 品牌推廣在Workfront上線到Adobe CX Enterprise時被取代。

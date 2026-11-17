@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 4f3207d7f37c24eb2814a9c0d6442eb5c34a0440
+source-git-commit: 69173f21bfd7dd81db69a30a01c1bfee2e575306
 workflow-type: tm+mt
-source-wordcount: '14776'
+source-wordcount: '14764'
 ht-degree: 2%
 ---
 # Workfront 指南 {#using}
@@ -619,10 +619,7 @@ ht-degree: 2%
       * [編輯團隊的設定](administration-and-setup/add-users/create-and-manage-teams/edit-team-settings-from-setup.md)
   * 自訂Adobe Workfront {#customize}
     * [自訂Workfront](administration-and-setup/customize-workfront/customize-workfront.md)
-    * Adobe Workfront中的自訂品牌 {#custom-branding}
-      * [自訂品牌](administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
-      * [品牌化您的執行個體](administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
-      * [設定自訂說明 URL](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
+    * [設定自訂說明 URL](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
     * 版面配置範本 {#layout-templates}
       * [版面配置範本](administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
       * [預設Workfront配置](administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
@@ -638,7 +635,6 @@ ht-degree: 2%
       * [自訂篩選器、檢視、群組](administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
       * [自訂使用者介面術語](administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
       * [自訂登入頁面](administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
-      * [品牌Workfront](administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
       * [測試版面範本](administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
       * [版面配置範本的管理存取權](administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
       * [將使用者指派給版面配置範本](administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)

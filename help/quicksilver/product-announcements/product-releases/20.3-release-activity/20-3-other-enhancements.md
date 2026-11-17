@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1523'
 ht-degree: 1%
 ---
 # 20.3其他增強功能
@@ -129,7 +129,7 @@ ht-degree: 1%
 
 現在，您可以使用版面範本來變更頂端導覽區域和[主要]功能表上的標誌，以利特定群組、團隊、工作角色和擁有自己品牌的使用者使用。
 
-如需詳細資訊，請參閱[將您的Adobe Workfront執行個體品牌化](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)。
+<!--For more information, see [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).-->
 
 ## 群組管理員可以建立和管理核准流程
 

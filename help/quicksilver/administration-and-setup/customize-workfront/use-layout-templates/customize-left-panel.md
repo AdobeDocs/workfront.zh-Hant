@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 1dc0bdb90242129fc2097f029440efbcbd04b62c
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1256'
 ht-degree: 2%
 ---
 # 使用版面配置範本自訂左側面板
@@ -247,14 +247,12 @@ ht-degree: 2%
    >* [!UICONTROL 清單]
    >* [!UICONTROL 摘要面板]
    >* [!UICONTROL 首頁]
-   >* [!UICONTROL 品牌]
    > 
    >如需有關如何自訂這些額外區域的資訊，請參閱下列文章：
    >
    >* [使用配置範本自訂篩選器、檢視和群組](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >* [使用配置範本自訂[!UICONTROL 摘要面板]](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
    >* [使用配置範本自訂首頁](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
-   >* 使用版面配置範本的[品牌Adobe [!DNL Workfront] &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
 1. （選擇性）如果您想要新增連結至貴組織其中一個儀表板的左側面板專案，請按一下&#x200B;**[!UICONTROL 新增儀表板]**，輸入專案的&#x200B;**[!UICONTROL 快速連結名稱]**，然後選擇儀表板。

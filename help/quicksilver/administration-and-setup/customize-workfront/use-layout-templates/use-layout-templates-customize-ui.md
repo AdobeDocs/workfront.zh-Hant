@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d8cde4790120ba508fc1745ff720964f00e45082
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '197'
 ht-degree: 0%
 ---
 # 版面配置範本：文章索引
@@ -40,7 +40,6 @@ ht-degree: 0%
 以下文章說明如何使用版面配置範本來自訂Workfront介面：
 
 * [關於預設Adobe Workfront配置](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md)
-* [使用版面配置範本的品牌Adobe Workfront](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 * [使用版面配置範本自訂主功能表](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
 * [使用版面配置範本自訂物件標頭](../../customize-workfront/use-layout-templates/customize-object-headers.md)
 * [使用版面配置範本自訂左側面板](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
