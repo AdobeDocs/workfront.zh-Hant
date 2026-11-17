@@ -7,9 +7,9 @@ description: 您可以檢視使用者的僱用歷史記錄，包括屬性、成�
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 6a2e4dc7e4592c3930723fb42cec92c439332074
+source-git-commit: aa83e1036d82d5db7a0e22a40fdb8472ff329143
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '511'
 ht-degree: 0%
 ---
 # 檢視使用者僱用歷史記錄
@@ -37,6 +37,10 @@ Karen Sterling自2019年3月3日受聘以來一直擔任執行董事。 2025年1
 ## 檢視僱用歷史記錄
 
 您可以從「使用者」清單檢視僱用歷史記錄，或者可以在單一使用者的「使用者」頁面上檢視其僱用歷史記錄總計。
+
+>[!NOTE]
+>
+>使用者就業歷史記錄目前未考慮使用者的開始日期。
 
 ### 從使用者清單檢視僱用歷史記錄
 

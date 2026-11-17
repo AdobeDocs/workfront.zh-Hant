@@ -34,12 +34,14 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 4%
 ---
 # 安裝並開啟[!DNL Adobe Workfront for design and video]
+
+{{cc-plugin-legacy-only}}
 
 您可以從[!DNL Adobe Marketplace]安裝[!DNL Adobe Workfront for design and video]。 此外掛程式支援下列Creative Cloud應用程式：
 

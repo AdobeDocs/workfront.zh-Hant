@@ -32,12 +32,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5140045592af9e4ec618671e172b5986ec5a0ff7
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 3%
 ---
 # 從[!DNL InDesign]上傳校樣
+
+{{cc-plugin-legacy-only}}
 
 您可以將藝術版面板直接上傳到[!DNL Adobe Workfront]作為校訂，以進行徹底的檢閱和核准。
 
