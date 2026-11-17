@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 13403cc11448a0611ad0996ed21e1745277e9c05
+source-git-commit: ac384fb96e24d3c0ea825cb212262966dbd5b7d2
 workflow-type: tm+mt
-source-wordcount: '1993'
+source-wordcount: '1956'
 ht-degree: 1%
 ---
 # 設定AI共同作業人員
@@ -63,11 +63,11 @@ AI共同作業人員使用的授權不會收費。 如果您的組織有200個Wo
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p>
+   <td><p>[！UICONTROL標準]</p>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]或群組管理員</span></td> 
+   <td>[！UICONTROL系統管理員]或群組管理員</span></td> 
   </tr> 
   </tbody> 
 </table>
@@ -161,10 +161,11 @@ AI檢閱者可設定為使用Workfront品牌或Adobe Brand Intelligence。
 
    | 平台 | 必要的驗證 |
    |---|---|
-   | Copilot Studio | 網頁管道密鑰 |
    | Claude 管理的代理 | Anthropic API金鑰<br>代理程式識別碼<br>環境識別碼 |
-   | OpenAI Agents | API金鑰<br>代理程式識別碼 |
+   | Copilot Studio | 網頁管道密鑰 |
    | IBM Watsonx Orchestrate | 服務URL<br>API金鑰<br>代理程式識別碼 |
+   | OpenAI Agents | API金鑰<br>代理程式識別碼 |
+   | 作者教戰手冊 | API金鑰</br>教戰手冊ID |
 
 1. 按一下&#x200B;**測試連線**。 這可讓您知道連線設定是否正確。
 1. 在&#x200B;**當共同作業人員完成其工作後，它可以**&#x200B;區域，切換您要共同作業人員採取的動作。
@@ -198,7 +199,7 @@ AI檢閱者可設定為使用Workfront品牌或Adobe Brand Intelligence。
       環境ID會顯示在左上角的環境名稱下方。
 
 1. 建立代理。
-   1. 在[受管理的代理程式] > [代理程式]下，按一下右上角的[建立代理程式] **&#x200B;**。
+   1. 在[受管理的代理程式] > [代理程式]下，按一下右上角的[建立代理程式] ****。
    1. 提供適用的名稱、型號、系統提示、技能及工具。 描述性，因為「工作代理程式」會將工作內容傳遞至此代理程式，然後執行工作。
       代理程式ID會顯示在左上角的代理程式名稱下方。
 
@@ -216,42 +217,6 @@ AI檢閱者可設定為使用Workfront品牌或Adobe Brand Intelligence。
 
 +++
 -->
-+++ 作者
-
-
-
->[!IMPORTANT]
->
->Writer已棄用代理程式。 使用Writer代理程式設定的工作代理程式在10月9日之後不再運作。 2026.
->
->如需有關棄用的資訊，請參閱Writer檔案中的[代理程式庫移轉與棄用](https://support.writer.com/articles/8335689949-migrating-no-code-agents)。
-
-
-<!--
-
->[!NOTE]
->
-> You can use a Writer agent as a Work Agent, but Writer playbooks cannot be used as Work Agents.
-
-When creating an agent for use as a Work Agent in Writer, we recommend the following workflow.
-
-More detailed information about creating agents can be found in the [Writer documentation](https://dev.writer.com/no-code/introduction).
-
-1. Create a no-code app in Writer AI Studio. 
-1. Add a single Text input field. You can use the default name "Text input."
-1. Add `@TextInput` to your Prompt. In the Prompts section of your app configuration, make sure your prompt template references the input variable. Without this, the model never sees the task data.
-1. Adjust your Prompt to generate output immediately. Remove any instructions that ask the user for clarification or additional context before responding. For example: "When you receive input, treat it as a content generation request and produce the output immediately. Do not ask for clarification."
-1. Copy your API key and Application ID. You will need them to configure the Work Agent in Workfront.
-
-   * For instructions on setting up an API key in Writer, see [Quickstart](https://dev.writer.com/home/quickstart) in the Writer documentation.
-   * For instructions on setting up an application ID in Writer, see [Invoke no-code agents via the API](https://dev.writer.com/home/applications) in the Writer documentation.
- 
-1. Configure the Work Agent in Workfront. As part of the configuration, enter your API key and Application ID, then click **Test connection** to verify.
-1. Assign the Work Agent to a Workfront task. The Work Agent begins work when all of the task's predecessor tasks are complete.
-
--->
-
-+++
 
 <div class="preview">
 
@@ -304,5 +269,5 @@ More detailed information about creating agents can be found in the [Writer docu
 {{step-1-to-setup}}
 
 1. 在左側導覽列中，按一下&#x200B;**AI共同作業人員**。
-1. （條件式）若要編輯共同作業人員，請按一下您要編輯的共同作業人員名稱，在[編輯共同作業人員]視窗中進行任何編輯，然後按一下[儲存]。**&#x200B;**
+1. （條件式）若要編輯共同作業人員，請按一下您要編輯的共同作業人員名稱，在[編輯共同作業人員]視窗中進行任何編輯，然後按一下[儲存]。****
 1. （視條件而定）若要刪除Collaborator，請在您要刪除的AI Collaborator列中按一下「刪除」圖示![「刪除」圖示](assets/delete-collaborator-icon.png)，然後按一下&#x200B;**「刪除」**。
