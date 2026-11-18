@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 69173f21bfd7dd81db69a30a01c1bfee2e575306
+source-git-commit: cc5be188176b9ed605d057b2ab06adbdb3706a41
 workflow-type: tm+mt
-source-wordcount: '14764'
+source-wordcount: '14759'
 ht-degree: 2%
 ---
 # Workfront 指南 {#using}
@@ -745,7 +745,7 @@ ht-degree: 2%
       * [管理 API 金鑰](administration-and-setup/manage-workfront/security/manage-api-keys.md)
       * [隱私權原則](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
       * {hide-from-toc}[增強式驗證概觀](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
-      * {hide-from-toc}[使用增強式驗證時更新IDP中的SAML 2.0中繼資料](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
+      * 使用增強式驗證時{hide-from-toc}[更新IDP中的SAML 2.0中繼資料](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
     * 匯率 {#exchange-rates}
       * [匯率](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
       * [設定匯率](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
@@ -861,7 +861,7 @@ ht-degree: 2%
     * [安裝Blueprint後要採取的動作](administration-and-setup/blueprints/best-next-actions-after-install.md)
     * [可用藍圖清單](administration-and-setup/blueprints/list-of-available-blueprints.md)
   * Adobe Admin Console中的管理 {#admin-in-admin-console}
-    * {hide-from-toc}[Adobe Admin Console中的Workfront管理](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
+    * Adobe Admin Console中的{hide-from-toc}[Workfront管理](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
     * {hide-from-toc}[準備Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
     * {hide-from-toc}[瞭解Workfront移轉至Adobe Admin Console](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
   * 管理和設定的秘訣、技巧和疑難排解 {#admin-setup-tips}
@@ -1074,7 +1074,6 @@ ht-degree: 2%
       * [評論Android中的校樣](workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md)
       * [評論iOS中的校樣](workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md)
       * [適用於行動裝置管理(MDM)的Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
-      * [設定適用於MobileIron的Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
       * [Adobe Workfront行動應用程式中的核准](workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
     * 使用Adobe Workfront檢視 {#use-workfront-view}
       * [使用Adobe Workfront檢視](workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
@@ -1224,7 +1223,7 @@ ht-degree: 2%
     * [刪除文件](documents/managing-documents/delete-documents.md)
     * [從剪貼簿貼上影像](documents/managing-documents/paste-image-clipboard.md)
     * [大量編輯檔案](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)
-    * {hide-from-toc}[Workfront檔案詳細資訊中的AddBuilder](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
+    * {hide-from-toc}[Workfront檔案詳細資訊](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)中的AddBuilder
   * 組織檔案 {#organize-documents}
     * [組織檔案](documents/organizing-documents/organize-documents.md)
     * [建立檔案資料夾](documents/organizing-documents/create-documents-folder.md)
@@ -2689,10 +2688,10 @@ ht-degree: 2%
     * [使用JWT流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-jwt-flow.md)
     * [使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-pkce-flow.md)
     * [棄用API — 內部](wf-api/api/deprecation-api-internal.md)
-    * [&#x200B; API 22版的新增功能](/help/quicksilver/wf-api/api/new-api-version-22.md)
-    * [&#x200B; API 21版的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-    * [&#x200B; API 20版的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-    * [&#x200B; API 19版的新增功能](wf-api/api/new-api-version-19.md)
+    * [ API 22](/help/quicksilver/wf-api/api/new-api-version-22.md)版的新增功能
+    * [ API 21](/help/quicksilver/wf-api/api/new-api-version-21.md)版的新增功能
+    * [ API 20](/help/quicksilver/wf-api/api/new-api-version-20.md)版的新增功能
+    * [ API 19](wf-api/api/new-api-version-19.md)版的新增功能
     * [API 18版的新增功能](wf-api/api/new-api-version-18.md)
     * [API 17版的新增功能](wf-api/api/new-api-version-17.md)
     * [API 16版的新增功能](wf-api/api/new-api-version-16.md)
