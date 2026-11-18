@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0ea55dca0d6ac19d484741b3418e1238ac68c44e
+source-git-commit: ac384fb96e24d3c0ea825cb212262966dbd5b7d2
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1568'
 ht-degree: 2%
 ---
 
@@ -114,6 +114,16 @@ ht-degree: 2%
             <td><strong>預覽</strong></td>
             <td><strong>快速發行</strong></td>
             <td><strong>每季</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">使用Writer教戰手冊建立工作代理</a></p>
+                <p>[!BADGE 同時發行]{type=Neutral}</p>
+                <p>您現在可以使用Writer教戰手冊來建立工作代理。</p>
+            </td>
+            <td><p>2026年11月12日</p></td>
+            <td><p>2026年11月12日</p></td>
+            <td><p>2026年11月12日</p></td>
         </tr>
         <tr>
             <td>
