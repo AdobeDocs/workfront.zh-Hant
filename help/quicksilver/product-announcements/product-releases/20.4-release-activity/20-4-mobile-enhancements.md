@@ -26,9 +26,9 @@ role_v2:
 topic_v2:
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
     internal-label: Mobile experience
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 0f2e6b4454d8366d9b8473029e12818d7359bf81
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '441'
 ht-degree: 0%
 ---
 # 20.4行動裝置和整合增強功能
@@ -58,7 +58,7 @@ Workfront與行動裝置管理(MDM)平台MobileIron合作，為組織提供更�
 
 透過MobileIron適用的Workfront，管理員可以限制複製/貼上功能和熒幕擷取等功能。 您可以在[https://marketplace.mobileiron.com/listing/workfront](https://marketplace.mobileiron.com/listing/workfront)下載適用於MobileIron應用程式的Workfront。
 
-如需設定應用程式的詳細資訊，請參閱[設定MobileIron的Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)。
+<!--For information on configuring the app, see [Configure Adobe Workfront for MobileIron].-->
 
 ## 在Workfront行動應用程式中快速建立任務
 

@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 69173f21bfd7dd81db69a30a01c1bfee2e575306
+source-git-commit: cc5be188176b9ed605d057b2ab06adbdb3706a41
 workflow-type: tm+mt
-source-wordcount: '14764'
+source-wordcount: '14759'
 ht-degree: 2%
 ---
 # Workfront 指南 {#using}
@@ -1074,7 +1074,6 @@ ht-degree: 2%
       * [評論Android中的校樣](workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md)
       * [評論iOS中的校樣](workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md)
       * [適用於行動裝置管理(MDM)的Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
-      * [設定適用於MobileIron的Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
       * [Adobe Workfront行動應用程式中的核准](workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
     * 使用Adobe Workfront檢視 {#use-workfront-view}
       * [使用Adobe Workfront檢視](workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
