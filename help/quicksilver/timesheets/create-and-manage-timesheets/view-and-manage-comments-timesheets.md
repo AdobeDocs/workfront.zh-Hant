@@ -22,13 +22,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+source-git-commit: 3dea3d85473b359d2178921ba019038df04c3005
 workflow-type: tm+mt
-source-wordcount: 831
+source-wordcount: '831'
 ht-degree: 2%
-
 ---
-
 # 檢視和管理時程表上的註解
 
 <!-- Audited: April, 2024-->
@@ -108,7 +106,7 @@ ht-degree: 2%
 1. 按一下左側面板中的「**更新**」，然後按一下「**評論**」標籤。
 1. 開始新增註解或回覆現有註解，如[更新工作](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)中所述。
 1. （選用）在&#x200B;**標籤人員或團隊**&#x200B;欄位中新增人員或團隊，以將其他人加入您的更新。 如需詳細資訊，請參閱[標籤其他人的更新](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)。
-1. （選擇性）如果您只想讓公司的人員檢視更新，請選取&#x200B;**我的公司私有**&#x200B;選項。
+1. （選擇性）如果您只想讓公司的人員檢視更新，請Select為&#x200B;**我的公司私有**&#x200B;選項。
 
    >[!TIP]
    >
@@ -175,7 +173,7 @@ ht-degree: 2%
 
 1. 移至您想要加上註解的時程表，然後按一下左側面板中的&#x200B;[!UICONTROL **時程表**]。
 1. 按一下任務或問題的列，然後按一下&#x200B;[!UICONTROL **開啟摘要**]。
-1. 開始在[摘要]面板的&#x200B;[!UICONTROL **更新**]&#x200B;區域輸入更新，然後按一下&#x200B;[!UICONTROL **提交**]。
+1. 開始在[摘要]面板的[更新] [!UICONTROL **&#x200B;**]&#x200B;索引標籤中輸入更新，然後按一下[提交] **。**
 更新會顯示在任務和問題的更新區段中。
 1. （選擇性）按一下&#x200B;[!UICONTROL **關閉摘要**]&#x200B;以關閉摘要面板。
 

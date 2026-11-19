@@ -31,9 +31,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3eb5040e7f756f9827ad0a8780fbf7199bc68443
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '759'
 ht-degree: 5%
 ---
 # 檔案摘要概覽
@@ -96,7 +96,11 @@ ht-degree: 5%
 
    ![摘要詳細資料](assets/document-summary-panel.png)
 
-   開啟「摘要」後，它仍會在此頁面上保持開啟狀態（即使您按一下其他檔案），直到您手動關閉它為止。
+<span class="preview">預覽：
+![摘要詳細資料](assets/document-details-summary-legacy.png)
+</span>
+
+開啟「摘要」後，它仍會在此頁面上保持開啟狀態（即使您按一下其他檔案），直到您手動關閉它為止。
 
 
 ### 詳細資料
@@ -112,17 +116,29 @@ ht-degree: 5%
 
 ![檔案摘要概觀](assets/details-section.png)
 
+<span class="preview">預覽：
+![摘要詳細資料](assets/document-details-summary-legacy.png)
+</span>
+
 #### 自訂表單 {#custom-forms}
 
 使用自訂Forms區段來新增、編輯或檢視與檔案相關聯的任何自訂表單。 開始輸入自訂表單的名稱，以將其新增到檔案。 如需詳細資訊，請參閱[新增或編輯檔案的自訂表單](../../documents/managing-documents/add-custom-form-documents.md)。
 
 ![在檔案摘要中新增自訂表格](assets/custom-forms-section.png)
 
+<span class="preview">預覽：
+![在檔案摘要中新增自訂表格](assets/custom-form-summary-legacy.png)
+</span>
+
 ### 更新
 
 使用更新區段來檢視某人對該檔案或校訂進行的更新。 摘要會顯示前2個註解。 如需更新的詳細資訊，請參閱[對校訂的註解](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)。
 
 摘要面板中的![更新區段](assets/updates-section.png)
+
+<span class="preview">預覽：
+摘要面板中的![更新區段](assets/updates-summary-legacy.png)
+</span>
 
 ### 核准
 
@@ -135,6 +151,10 @@ ht-degree: 5%
 
 ![檔案摘要核准](assets/approvals-section.png)
 
+<span class="preview">預覽：
+![檔案摘要核准](assets/document-approvals-summary-legacy.png)
+</span>
+
 ### 版本
 
 使用「版本」區段可檢視針對特定檔案建立的版本數目。 按一下「更多」圖示![「更多」圖示](assets/more-icon.png)以執行下列動作：
@@ -146,6 +166,10 @@ ht-degree: 5%
 * 刪除校訂或檔案。
 
 ![檔案摘要版本](assets/versions-section.png)
+
+<span class="preview">預覽：
+![檔案摘要版本](assets/document-versions-summary-legacy.png)
+</span>
 
 ## 新檔案體驗中的檔案摘要
 

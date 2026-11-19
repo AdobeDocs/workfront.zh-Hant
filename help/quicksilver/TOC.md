@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: cc5be188176b9ed605d057b2ab06adbdb3706a41
+source-git-commit: 654328db7759fdbcf472017936b565ce17f10a54
 workflow-type: tm+mt
-source-wordcount: '14759'
+source-wordcount: '14764'
 ht-degree: 2%
 ---
 # Workfront 指南 {#using}
@@ -20,6 +20,7 @@ ht-degree: 2%
     * 2027年第1季發行 {#release-27-q1}
       * [2027年第一季度發行概觀](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)
       * [2027年第一季度管理員增強功能](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md)
+      * [2027年第一季敏捷增強功能](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-agile.md)
       * [2027年第一季AI增強功能](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md)
       * [2027年第一季度檔案增強功能](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md)
       * {hide-from-toc}[2027年第一季Financial Management增強功能](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-financial-management-enhancements.md)

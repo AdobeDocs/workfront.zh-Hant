@@ -34,13 +34,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9c592e336feb25253c18787c831adfc36da62ed1
+source-git-commit: 3dea3d85473b359d2178921ba019038df04c3005
 workflow-type: tm+mt
-source-wordcount: 2861
+source-wordcount: '2861'
 ht-degree: 4%
-
 ---
-
 # 編輯清單中的任務 {#edit-tasks-in-a-list}
 
 <!-- Audited: 10/2025 -->
@@ -191,7 +189,7 @@ Old:
 
 * 您可以將自訂檢視套用至任務清單，並編輯您有權更新的任何任務相關欄位。
 * 您無法回覆自動儲存的變更。 這是預設設定。
-* 當專案更新型別為自動或自動且變更時，Workfront會在每次變更後自動重新計算專案的時間表以及所有專案內和跨專案相依性。 如需有關專案更新型別的資訊，請參閱[選取專案更新型別](../../../manage-work/projects/manage-projects/select-project-update-type.md)。
+* 當專案更新型別為自動或自動且變更時，Workfront會在每次變更後自動重新計算專案的時間表以及所有專案內和跨專案相依性。 如需有關專案更新型別的資訊，請參閱[Select專案更新型別](../../../manage-work/projects/manage-projects/select-project-update-type.md)。
 
 若要編輯清單中的工作並自動儲存變更，請執行下列動作：
 
@@ -214,7 +212,7 @@ Old:
 
    按一下工作名稱右邊的工作清單![&#128279;](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;功能表更多圖示。
 
-1. （選擇性）從下列選項中選取：
+1. （選用）以下選項中的Select：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -300,7 +298,7 @@ Old:
 選取「手動儲存標準」選項後，更新清單中的任務時，請考量下列事項：
 
 * 您可以將自訂檢視套用至任務清單，並編輯您有權在該檢視中管理的任何任務相關欄位。
-* 當專案「更新型別」為「自動」或「自動」且「變更時」時，Workfront會在您按一下「儲存」後計算專案的時間表，以及專案內和跨專案的所有相依性。 如需有關專案更新型別的資訊，請參閱[選取專案更新型別](../../../manage-work/projects/manage-projects/select-project-update-type.md)。
+* 當專案「更新型別」為「自動」或「自動」且「變更時」時，Workfront會在您按一下「儲存」後計算專案的時間表，以及專案內和跨專案的所有相依性。 如需有關專案更新型別的資訊，請參閱[Select專案更新型別](../../../manage-work/projects/manage-projects/select-project-update-type.md)。
 
 若要在選取「手動儲存標準」選項時編輯清單中的工作：
 
@@ -334,7 +332,7 @@ Old:
 
    按一下工作清單![&#128279;](assets/more-icon-task-list.png)上的&#x200B;**更多**&#x200B;功能表模式圖示。
 
-1. （選擇性）從下列選項中選取：
+1. （選用）以下選項中的Select：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -391,7 +389,7 @@ Old:
 * 您無法將「手動儲存時間表計畫」選項套用至具有超過2000個任務的專案。
 * 您無法將自訂檢視、篩選或分組套用至工作清單。 「檢視」、「篩選」和「群組」下拉式功能表，以及「敏捷檢視」圖示都會停用。 依預設套用的檢視包含有限數目的欄位。
 * 當專案的「更新型別」為「自動」或「自動」且「變更時」時，每次變更後會自動計算專案的時間表和所有專案內的相依性。
-* 當專案更新型別為「自動」或「自動」且「變更時」時，會在您按一下「儲存」後計算跨專案相依性。 如需有關專案更新型別的資訊，請參閱[選取專案更新型別](../../../manage-work/projects/manage-projects/select-project-update-type.md)。
+* 當專案更新型別為「自動」或「自動」且「變更時」時，會在您按一下「儲存」後計算跨專案相依性。 如需有關專案更新型別的資訊，請參閱[Select專案更新型別](../../../manage-work/projects/manage-projects/select-project-update-type.md)。
 
 若要在使用「手動儲存時間表規劃」選項時編輯清單中的工作：
 
@@ -483,6 +481,7 @@ Old:
     </tbody> 
    </table>
 
+
 1. 當您變更任務的時間表時，Workfront會更新所有專案內和跨專案相依性。
 1. 當您想要永久保留工作變更並儲存專案的時間表時，請按一下[儲存]。**&#x200B;**
 
@@ -494,7 +493,7 @@ Old:
 
 1. 在左側面板中，按一下&#x200B;**工作**&#x200B;區段。 專案上的任務清單隨即顯示。
 
-1. 選取您要編輯的工作，然後按一下清單右上角的&#x200B;**開啟摘要**&#x200B;圖示![開啟摘要圖示](assets/task-summary-icon.png)。 **任務摘要**&#x200B;面板隨即開啟。
+1. Select您要編輯的工作，然後按一下清單右上角的&#x200B;**開啟摘要**&#x200B;圖示![開啟摘要圖示](assets/task-summary-icon.png)。 **任務摘要**&#x200B;面板隨即開啟。
 
 1. （選擇性）在&#x200B;**更新**&#x200B;區域輸入工作的更新。
 1. 按一下下列任一圖示或區域，移至工作並編輯工作層次的資訊：
@@ -527,6 +526,19 @@ Old:
       </tbody> 
       </table>
 
+<!--
+uncomment for production release
+
+      | Icon  |Action |
+      |---|---|
+      | Updates ![Updates icon](assets/updates.png) |Click **New comment** to add an update to the task. |
+      | Documents* ![Documents icon](assets/documents.png) |Click **Click here to add** to add documents to the task. |
+      | Details ![Details icon](assets/details.png) |Click to update information about the task. |
+      | Subtask ![Subtask icon](assets/subtask.png) |Click to view subtasks of the task. |
+      | Hours ![Log time](assets/log-time.png)  |Click to log hours. |
+      | Approvals ![Approvals icon](assets/approvals.png)  |Click to add task approvals.  |
+-->
+
 1. 按一下面板右上角的&#x200B;**X**&#x200B;以將其關閉。
 
 ## 大量編輯任務
@@ -546,7 +558,7 @@ Old:
    >
    >手動儲存任務時，您無法大量編輯任務。
 
-1. 在工作清單中選取多個工作。
+1. Select任務清單中有多個任務。
 1. （選擇性）按一下工作清單頂端的&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-icon.png)，然後&#x200B;**重新計算運算式**&#x200B;以更新計算自訂欄位中的所有資訊。
 1. 按一下&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/qs-edit-icon.png)。 **編輯任務**&#x200B;方塊開啟。
 
