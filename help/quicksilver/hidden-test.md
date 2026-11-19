@@ -10,14 +10,16 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 02c20015be69f0f6c2bcd915eccb37ea4fbb50fe
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '618'
 ht-degree: 19%
 ---
 # 隱藏測試
 
 用來測試大型存放庫中的發佈時間的隱藏檔案。
+
+11月19日
 
 如果發生問題，請聯絡Bob。
 
@@ -230,7 +232,7 @@ ht-degree: 19%
    <td> 
 <p>任何Adobe Workfront工作流程套件和任何Adobe Workfront計畫套件</p> 
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront平台（**&#x200B;**&#x200B;我們是否要標註此內容，或將其設為底部連結之文章的一部分???**&#x200B;***）</p></td> 
+<td role="rowheader"><p>Adobe Workfront平台（****我們是否要標註此內容，或將其設為底部連結之文章的一部分???*****）</p></td> 
    <td> 
 <p>貴組織的Workfront例項必須上線至Adobe Unified Experience，才能存取Workfront Planning。</p> 
 <p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">適用於Workfront的Adobe Unified Experience</a>。 </p> 
@@ -283,15 +285,15 @@ ht-degree: 19%
    <td> <p>[!DNL Adobe Workfront] 授權*</p> </td> 
    <td> <p>淺色或更高</p> 
    或
-   <p>[!UICONTROL Review]或更高版本</p> </td> 
+   <p>[！UICONTROL Review]或更高版本</p> </td> 
   </tr>
 
 <td><p>存取層級設定</p> </td> 
-   <td> <p>[!UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> </td> 
+   <td> <p>[！UICONTROL Edit]對的存取權 [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>物件許可權 </p> </td> 
-   <td> <p>[!UICONTROL Manage]計畫的許可權</p>  </td> 
+   <td> <p>[！UICONTROL Manage]計畫的許可權</p>  </td> 
   </tr> 
  </tbody> 
 </table>
