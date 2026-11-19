@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8f8f4e7962bfde525470842caecd49f03b758b29
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
 source-wordcount: '1673'
 ht-degree: 8%
@@ -242,7 +242,7 @@ ht-degree: 8%
       <p>依預設會選取此選項。</p>
       <p>如需詳細資訊，請參閱<a href="/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md" class="MCXref xref">在Workfront中使用CX Enterprise Coworker</a>。</p>
       <p><b>注意：</b></p>
-      <p>並非所有客戶都能存取Coworkere。</p>
+      <p>並非所有客戶都可以存取同事。</p>
       </td> 
      </tr>
 

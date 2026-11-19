@@ -11,9 +11,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 4beee4cb9c4d0f3f2ef037621d508868229ba25e
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1161'
 ht-degree: 0%
 ---
 
@@ -152,7 +152,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -167,10 +167,12 @@ Or
 ## 使用Ideation空間建立或編輯Planning記錄的相關考量事項
 
 * 您必須從Workfront Planning啟動創意力空間，才能建立或編輯Planning記錄。 從Workfront主功能表存取創意力空間時，無法將創意力摘要連結至Planning記錄。
+* 當您從記錄中啟動創意力空間時，Workfront會使用記錄的結構和資訊來建立和更新簡介的欄位。
 * 若要使用「構思」空間來建立或編輯記錄，您必須在Workfront Planning中擁有工作區和記錄型別。
 * 新記錄一律以預留位置內容開始，無論您如何建立它們。
 * 當您刪除連結至創意力簡述的Planning記錄時，簡述會保留在創意力空間中，其相關的空間不會被刪除。
-* 同步資訊只會從創意空間到Workfront Planning。 從Planning記錄到Ideation space brief沒有反向同步或自動同步。<!--this might change after beta?-->
+* 同步僅能從Ideation Space執行至Workfront Planning。 從Planning記錄到Ideation brief沒有反向同步或自動同步。
+* 匯出至Workfront Planning會覆寫連線之Planning記錄中的所有現有欄位資料。
 * 在Workfront Planning中建立、編輯或移除欄位時，會發生下列情況：
 
   * 連結至創意力簡報的記錄所建立的新欄位，每天都會新增至簡報。 新欄位在創意力簡報中顯示為空白。
@@ -208,9 +210,15 @@ Or
 
    * 系統會使用預留位置名稱立即建立記錄。
 
+   * 創意力摘要是以預留位置名稱建立的。 構思簡介欄位與您開始使用的記錄型別欄位相同。
+
    <!--
     1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
     -->
+
+1. （選擇性）將游標停留在Ideation space畫布右上角的&#x200B;**Workfront Planning**&#x200B;標籤上，即可檢視記錄型別的名稱、您正在建立記錄的工作區以及您正在建立之簡介的版本號碼。
+
+   ![畫布中的Workfront Planning工作區和記錄型別資訊標籤](assets/workfront-planning-with-ercord-type-and-workspace-name-tag-inside-canvas.png)
 
 1. 在&#x200B;**Co-worker**&#x200B;對話方塊中新增提示，然後按Enter。
 
@@ -253,9 +261,12 @@ Or
 
    如果沒有創意力存在，則會建立創意力空間與摘要。
 
+   創意力摘要包含的欄位與您開始記錄的欄位相同。 欄位值會從記錄填入摘要中。
+
    >[!TIP]
    >
    >您無法使用創意力空間大量編輯記錄。
+
 1. 繼續編輯簡報，如本文中[使用創意空間](#create-records-using-the-ideation-space)建立記錄一節中所述。
 
    <!-- 

@@ -32,13 +32,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: acbb78db2ce8c6c57fa10fe99f533d7dd7feea1b
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: 1429
+source-wordcount: '1466'
 ht-degree: 5%
-
 ---
-
 # 管理專案概述區域中的資訊
 
 {{highlighted-preview}}
@@ -183,7 +181,8 @@ Old:
      </tr> 
      <tr> 
       <td role="rowheader">方案</td> 
-      <td>與專案投資組合關聯的方案。 您必須先建立方案，才能將其新增至專案。 </td> 
+      <td></p>與專案投資組合關聯的計畫。 您必須先建立方案，才能將其新增至專案。</p>
+      <p> 當產品組合中有超過20個進行中的計畫時，計畫欄位在專案的概述，僅列出前20個計畫的字母順序。 輸入部分名稱會尋找投資組合中任何使用中的計畫。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader">群組</td> 

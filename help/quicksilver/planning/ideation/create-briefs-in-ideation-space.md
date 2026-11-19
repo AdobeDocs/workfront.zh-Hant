@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 58aec1c9c7dc45c5ecb6ad5d070a4e34b29c458c
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: '2125'
+source-wordcount: '2224'
 ht-degree: 1%
 ---
 
@@ -159,7 +159,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -188,6 +188,16 @@ Or
    * 移至&#x200B;**主功能表** ![主功能表](assets/main-menu-lines.png) > **規劃** >按一下工作區>按一下記錄型別>按一下現有記錄>按一下&#x200B;**在創意空間開啟**
 
      ![記錄中的創意力空間](assets/ideation-space-button-in-details-page.png)
+
+     >[!IMPORTANT]
+     >
+     >您從中啟動創意力空間的時間點會決定簡短結構。 存在下列情況：
+     >
+     >* 當您從Planning中的「新增記錄」按鈕啟動摘要時，摘要會包含與您開始使用的記錄型別相同的欄位。
+     >
+     >* 當您從Planning現有記錄啟動摘要時，摘要會包含與記錄具有相同值的相同欄位。
+     >
+     >* 當您從Workfront的主要功能表啟動摘要時，摘要會包含您上傳至畫布之檔案的欄位和資訊。
 
 1. 閱讀Beta版合約，然後按一下&#x200B;**同意**。 您必須簽署合約才能使用創意力空間。
 
@@ -235,7 +245,7 @@ Or
 
 1. （選擇性）按一下Co-worker面板右上角的&#x200B;**聊天**&#x200B;圖示![聊天圖示](assets/chats-icon-coworker.png)，然後按一下&#x200B;**新增聊天**&#x200B;以開啟新的提示，或按一下清單中先前聊天內容之一以返回較舊的聊天。
 
-   如需有關聊天室的詳細資訊，請參閱Adobe CX Enterprise Coworker檔案中的[管理您的聊天室](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats)。
+   如需有關聊天室的詳細資訊，請參閱Adobe CX Enterprise Coworker檔案中的[管理您的聊天室](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats)。
 
 1. 按一下「**搜尋**」圖示「![搜尋」圖示](assets/search-icon.png)以搜尋創意力畫布中的專案，然後按一下畫布在清單中顯示時即可導覽至該畫布。
 
@@ -244,10 +254,16 @@ Or
    您可從Workfront Planning或網頁匯入資訊。
 
    您也可以按一下空間右上角的&#x200B;**來源**&#x200B;圖示![來源圖示](assets/sources-icon.png)，以顯示空間中所有卡片的來源清單。
-1. （選擇性）按一下空間右上角的&#x200B;**註解** ![註解圖示](assets/comments-icon.png)，然後按一下&#x200B;**@**&#x200B;標籤其他專案，開始空間內的頭腦風暴。
+1. （選擇性）按一下畫布右上角的&#x200B;**註解** ![註解圖示](assets/comments-icon.png)和&#x200B;**@**&#x200B;標籤其他專案，以開始在分享空間中進行腦力激盪。
 
    使用者將收到有關標籤的電子郵件通知。
+
+   >[!TIP]
+   >
+   >您可以為一張卡片或一組卡片新增註解。
+
 1. （選擇性）按一下註解卡片內的&#x200B;**篩選器**&#x200B;圖示![篩選器圖示](assets/filter-comments-icon.png)，依下列條件篩選註解：
+
 
    * 審閱者
    * 新增註解的時間

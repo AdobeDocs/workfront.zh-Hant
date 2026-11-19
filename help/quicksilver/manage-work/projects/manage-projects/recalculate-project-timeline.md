@@ -28,13 +28,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: 1015
+source-wordcount: '1119'
 ht-degree: 2%
-
 ---
-
 # 重新計算專案時間表
 
 <!--Audited: 06/2025-->
@@ -115,10 +113,11 @@ Old:
 >[!IMPORTANT]
 >
 >* 如果專案的時間表超過15年，則該專案的自動重新計算功能會停用，而且您只能選取「手動」更新型別。 如果您將專案日期變更為少於15年，則必須在自動計算時間表之前手動重新計算一次。
+>* 對於工期超過1000天的專案，不會自動重新計算時間表。 您必須手動重新計算這些專案的時間表。
 >* 針對「預覽」和「自訂重新整理沙箱」環境，會停用每晚重新計算，且不會自動重新計算專案時間表。 您必須手動重新計算預覽和自訂重新整理沙箱環境的專案時間表。
 >* 如果專案複雜，則可能不會發生自動重新計算時間表的情況。
-> 複雜專案的範例可能是有多個相依性、大量任務、多個跨專案前置任務或多個任務縮排的專案。
-> Workfront會在專案頁面上的專案名稱右側放置警告，以建議使用者必須手動重新計算專案時間表。只有具有專案管理許可權的使用者才能手動重新計算時間表。
+> 複雜專案的範例可能是具有多個相依性、大量任務、多個跨專案前置任務或多個任務縮排的專案。
+> Workfront會在專案頁面上的專案名稱右側放置警告，以建議使用者必須手動重新計算專案時間表。 只有具有專案管理許可權的使用者才能手動重新計算時間表。
 >
 >   ![要重新計算時間表的](assets/project-warning-to-manually-recalculate-timeline.png)專案警告
 >
@@ -154,7 +153,7 @@ or changes made to another project that the timeline is dependent on
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: above, the last part is drafted because of this: I don't think this is right because we told people that in the case of cross-project predecessors, the timeline must be calculated manually for the successor to see the updates in the predecessor's project. Drafting for now.)</p>
 -->
 
-如需詳細資訊，請參閱[選取專案更新型別](../../../manage-work/projects/manage-projects/select-project-update-type.md)。
+如需詳細資訊，請參閱[Select專案更新型別](../../../manage-work/projects/manage-projects/select-project-update-type.md)。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -228,7 +227,7 @@ If the timeline of a project is longer than 15 years, the automatic recalculatio
 >根據您專案的複雜性，我們建議不要在大量編輯專案時選取大量專案，以確保最佳效能。 某些因素會導致專案過於複雜，例如依賴關係或指派過多，或是自訂欄位過多。
 
 1. 前往專案清單。
-1. 選取清單中的多個專案，然後按一下[編輯]。**&#x200B;**
+1. Select清單中有數個專案，然後按一下[編輯]。****
 1. 按一下&#x200B;**設定**，然後選取&#x200B;**重新計算時間表**。
 
 1. 按一下「**儲存變更**」。
