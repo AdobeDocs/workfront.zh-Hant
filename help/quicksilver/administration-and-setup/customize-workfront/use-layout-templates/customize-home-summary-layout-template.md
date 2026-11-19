@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3dea3d85473b359d2178921ba019038df04c3005
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 4%
@@ -100,8 +100,7 @@ ht-degree: 4%
      <tr> 
       <td role="rowheader">任務</td> 
       <td> <p>在任務清單中，此設定會影響當使用者選擇任務，然後按一下「開啟摘要」圖示<img src="assets/summary-panel-icon.png">時顯示在頁面右側的「摘要」面板。</p>
-
-   <p> <img src="assets/summary-area.png"> </p> </td> 
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">問題</td> 

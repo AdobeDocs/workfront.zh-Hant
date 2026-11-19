@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3eb5040e7f756f9827ad0a8780fbf7199bc68443
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '924'
 ht-degree: 0%
 ---
 # 檔案區域
@@ -65,6 +65,11 @@ Workfront目前有兩個版本的檔案區域：舊版檔案區域和新檔案�
 當您需要有關檔案的所有資訊時，可以按一下「詳細資訊」標題以前往完整的「檔案詳細資訊」區域。
 
 ![檔案區域](assets/documents-area-v2-350x199.png)
+
+<span class="preview">預覽：
+![檔案區域摘要面板](assets/legacy-document-summary.png)
+</span>
+
 
 如需「摘要」的相關資訊，請參閱[檔案概述](../../documents/managing-documents/summary-for-documents.md)的摘要。
 

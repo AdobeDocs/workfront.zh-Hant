@@ -32,13 +32,11 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 769a19f560ba582ef696eb48c144baf41b373c5f
 workflow-type: tm+mt
-source-wordcount: 909
-ht-degree: 2%
-
+source-wordcount: '910'
+ht-degree: 3%
 ---
-
 # 編輯清單中的問題
 
 <!--Audited: 10/2025-->
@@ -132,8 +130,8 @@ Old:
 * 您可以編輯清單中顯示的任何問題欄位，並擁有更新許可權。
 * 您可以編輯下列清單中的問題：
 
-   * 專案或任務的問題區段
-   * 問題報告
+  * 專案或任務的問題區段
+  * 問題報告
 
 若要內聯編輯問題：
 
@@ -151,7 +149,7 @@ Old:
 1. 前往專案或任務中的問題清單。
 1. 執行下列任一項作業
 
-   * 在清單中選取問題，然後按一下工具列中的&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/qs-edit-icon.png)。
+   * Select清單中的問題，然後按一下工具列中的&#x200B;**編輯**&#x200B;圖示![編輯圖示](assets/qs-edit-icon.png)。
    * 按一下問題名稱，然後按一下&#x200B;**編輯**。
 
      這些動作中的任何一個都會開啟&#x200B;**編輯問題**&#x200B;方塊。
@@ -167,7 +165,7 @@ Old:
 
    專案上的問題清單隨即顯示。
 
-1. 選取您要編輯的問題，然後按一下問題清單右上角的&#x200B;**開啟摘要**&#x200B;圖示![開啟摘要圖示](assets/qs-open-summary-icon-in-new-toolbar-small.png)。
+1. Select您想要編輯的問題，然後按一下問題清單右上角的&#x200B;**開啟摘要**&#x200B;圖示![開啟摘要圖示](assets/qs-open-summary-icon-in-new-toolbar-small.png)。
 
    **摘要**&#x200B;隨即開啟。
 
@@ -181,9 +179,22 @@ Old:
    | 小時![記錄時間](assets/log-time-icon-in-summary.png) | 按一下以記錄時數。 |
    | 核准![核准圖示](assets/approvals-icon-in-summary.png) | 按一下以新增問題核准。 |
 
-   *如果您的組織使用Adobe雲端儲存空間存放檔案，您無法將檔案新增到「摘要」面板中的Adobe雲端儲存空間問題。
+<!--
+uncomment for prod
 
-   如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
+   | Icon  |Action |
+   |---|---|
+   | Updates ![Updates icon](assets/updates.png) |Click **New comment** to add an update to the issue. |
+   | Documents* ![Documents icon](assets/documents.png) |Click **Click here to add** to add documents to the issue. |
+   | Details ![Details icon](assets/details.png) |Click to update information about the issue. |
+   | Hours ![Log time](assets/log-time.png)  |Click to log hours. |
+   | Approvals ![Approvals icon](assets/approvals.png)  |Click to add issue approvals.  |
+
+-->
+
+*如果您的組織使用Adobe雲端儲存空間存放檔案，您無法將檔案新增到「摘要」面板中的Adobe雲端儲存空間問題。
+
+如需詳細資訊，請參閱[專案和相關物件的檔案管理概觀](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)。
 
 
 1. （選擇性）再次按一下&#x200B;**開啟摘要**&#x200B;圖示，或按一下摘要右上角的&#x200B;**X圖示**&#x200B;以關閉面板並編輯問題內嵌。

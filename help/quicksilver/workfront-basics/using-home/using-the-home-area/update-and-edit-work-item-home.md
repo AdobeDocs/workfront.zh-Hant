@@ -32,12 +32,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 900be426cec2556c4c035124fc1c3bd094896340
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '818'
 ht-degree: 9%
 ---
 # 更新或編輯[!UICONTROL 首頁]區域中的工作專案
+
+{{highlighted-preview}}
 
 <!--Audited: 04/2024-->
 
@@ -70,7 +72,7 @@ ht-degree: 9%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>存取層級設定</strong></td> 
-   <td> <p>[!UICONTROL 編輯]對任務和問題的存取權</p> </td> 
+   <td> <p>[！UICONTROL編輯]對任務和問題的存取權</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>物件許可權</strong></td> 
@@ -175,10 +177,8 @@ You can view updates on any work item in the [!UICONTROL Work List]:
 1. 按一下右上角的&#x200B;**[!UICONTROL 主功能表]** ![主功能表圖示](assets/main-menu-icon.png)，或左上角的&#x200B;**主功能表** ![主功能表行圖示](assets/lines-main-menu.png) （如果有的話），然後按一下&#x200B;**[!UICONTROL 首頁]**。
 1. （視條件而定）按一下&#x200B;**自訂**&#x200B;以新增&#x200B;**我的工作** Widget。
 
-1. 將滑鼠停留在工作專案上，然後按一下&#x200B;**摘要**&#x200B;圖示。
+1. 將滑鼠停留在工作專案上，然後按一下&#x200B;**摘要**圖示。
    ![開啟摘要](assets/open-summary-new-home.png)
 
-1. 在「摘要」面板中，暫留在您要編輯的欄位上。
-如果您有權編輯欄位，當您將游標停留在欄位上時，該欄位將會反白顯示。
-1. 按一下您要編輯的欄位，然後進行所需的更新。
+1. 在「摘要」面板中，按一下您要編輯的欄位，然後進行所需的更新。
 1. 按一下離開欄位以儲存變更。
