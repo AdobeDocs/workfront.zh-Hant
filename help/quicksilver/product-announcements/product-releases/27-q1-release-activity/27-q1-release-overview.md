@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ac384fb96e24d3c0ea825cb212262966dbd5b7d2
+source-git-commit: 654328db7759fdbcf472017936b565ce17f10a54
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1655'
 ht-degree: 2%
 ---
 
@@ -38,6 +38,7 @@ ht-degree: 2%
 ## Adobe Workfront增強功能
 
 * [管理員增強功能](#administrator-enhancements)
+* [敏捷增強功能](#agile-enhancements)
 * [AI增強功能](#ai-enhancements)
 * [檔案增強功能](#documents-enhancements)
 * [專案增強功能](#project-enhancements)
@@ -57,7 +58,7 @@ ht-degree: 2%
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">適用於Workfront Planning的環境升級</a></p>
-                <p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <p>[！BADGE Off Schedule]{type=Neutral}</p>
                 <p>Workfront管理員現在可以將Workfront Planning工作區及其物件從一個環境提升至另一個環境。</p>
             </td>
             <td><p>2026年12月17日</p></td>
@@ -94,12 +95,35 @@ ht-degree: 2%
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">變更記錄現在會追蹤畫布控制面板物件</a></p>
-                <p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <p>[！BADGE Off Schedule]{type=Neutral}</p>
                 <p>「變更歷史記錄」現在會記錄建立、更新或刪除畫布控制面板或報表的人員、變更時間以及變更內容。</p>
             </td>
             <td><p>2026年10月29日</p></td>
             <td><p>2026年10月29日</p></td>
             <td><p>2026年10月29日</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### 敏捷增強功能
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>功能</strong>
+            </td>
+            <td><strong>預覽</strong></td>
+            <td><strong>快速發行</strong></td>
+            <td><strong>每季</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-agile.md">更新編輯敏捷卡片欄位的外觀</a></p>
+                <p>您用來編輯敏捷卡片的欄位具有更新的外觀，以符合Workfront中的其他樣式。</p>
+            </td>
+            <td><p>2026年11月19日</p></td>
+            <td><p>2026年12月17日</p></td>
+            <td><p>2027年1月21日</p></td>
         </tr>
     </tbody>
 </table>
@@ -118,7 +142,7 @@ ht-degree: 2%
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">使用Writer教戰手冊建立工作代理</a></p>
-                <p>[!BADGE 同時發行]{type=Neutral}</p>
+                <p>[！BADGE同時發行]{type=Neutral}</p>
                 <p>您現在可以使用Writer教戰手冊來建立工作代理。</p>
             </td>
             <td><p>2026年11月12日</p></td>
@@ -252,7 +276,7 @@ ht-degree: 2%
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">無法使用的狀態指引</a></p>
-                <p>[!BADGE Off Schedule]{type=Neutral}</p>
+                <p>[！BADGE Off Schedule]{type=Neutral}</p>
                 <p>當已儲存的問題、任務或專案狀態無法使用時，現在會出現警告，說明原因並顯示已儲存的狀態代碼。</p>
             </td>
             <td><p>2026年11月4</p></td>
@@ -281,6 +305,15 @@ ht-degree: 2%
             <td><strong>預覽</strong></td>
             <td><strong>快速發行</strong></td>
             <td><strong>每季</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-other.md">更新任務、問題和檔案的摘要面板外觀</a></p>
+                <p>「摘要」面板具有更新的外觀，資訊和欄位會整理到單獨的標籤中。</p>
+            </td>
+            <td><p>2026年11月19日</p></td>
+            <td><p>2026年12月17日</p></td>
+            <td><p>2027年1月21日</p></td>
         </tr>
 <!--
         <tr>
@@ -390,7 +423,7 @@ ht-degree: 2%
 
 * 將基礎架構(Electron)更新至最新版本，該版本會在Chrome版本156上執行，以提升效能和安全性。
 
-如需有關下載和更新案頭校訂檢視器的資訊，請參閱[更新案頭校訂檢視器](https://experienceleague.adobe.com/zh-hant/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer)。
+如需有關下載和更新案頭校訂檢視器的資訊，請參閱[更新案頭校訂檢視器](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer)。
 
 ## 公告
 
@@ -432,14 +465,14 @@ Workfront Planning現在包含創意空間，這是團隊可以擷取、組織�
 
 作為報表中的替代專案，您可以使用建議的文字模式代碼（視需要使用`costRates`或`billingRates`）：
 
-    &grave;&grave;
+    ``
     displayname=Test
     listdelimiter=&lt;br>
     listmethod=nested(costRates)。lists
     type=iterate
     valueexpression=CONCAT({startDate}，&quot; - &quot;，{endDate}，&quot;： &quot;，{value})
     valueformat=HTML
-    &grave;&grave;
+    ``
 
 有關工作角色費率的資訊，請參閱[建立和管理工作角色](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。
 
@@ -447,10 +480,10 @@ Workfront Planning現在包含創意空間，這是團隊可以擷取、組織�
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=zh-Hant).
+For information about the maintenance updates made during the First Quarter 2027 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
 ### 訓練更新
 
-探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=zh-Hant)的「新增功能」一節。
+探索每個Adobe Workfront產品版本的學習計畫、學習路徑、影片和指南的最新更新。 如需詳細資訊，請參閱[Workfront教學課程頁面](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html)的「新增功能」一節。
