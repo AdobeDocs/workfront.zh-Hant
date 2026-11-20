@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: 4beee4cb9c4d0f3f2ef037621d508868229ba25e
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '700'
 ht-degree: 1%
 ---
 
@@ -76,6 +76,9 @@ Some of this information is also duplicated in the section for Ideation space pe
 * 創意力建立者一律擁有其創意力的「編輯者」許可權。
 
 * 您必須擁有創意力空間的編輯器許可權，才能建立或協助撰寫簡報，並將簡報匯出至其他應用程式。
+
+* &#x200B;
+  * 共用僅可控制誰可以在創意力畫布中存取及共同作業。 只有在有人將摘要匯出至Workfront Planning時，記錄才會更新。
 
 ## 存取權要求
 

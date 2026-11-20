@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
+source-git-commit: 4beee4cb9c4d0f3f2ef037621d508868229ba25e
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1540'
 ht-degree: 0%
 ---
 
@@ -174,7 +174,16 @@ In addition to above requirements, you must also meet the following criteria to 
 
 ## 找出創意力空間
 
-在您確定有權存取設定的適當產品、套件和系統及存取層級後，您可以在Workfront的下列區域中找到「構思」空間：
+在您確定有權存取設定的適當產品、套件和系統及存取層級後，您可以在Workfront和Workfront Planning的多個區域中找到「創意空間」。
+
+>[!TIP]
+>
+>您無法使用版面配置範本從[主要]功能表中移除[創意空間]區域。
+>
+>如需有關封鎖使用者存取創意力空間的詳細資訊，請參閱[使用創意力空間所需的存取權](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)。
+>
+
+在Workfront的下列區域中存取創意力空間：
 
 * 在Workfront主要功能表中，透過開啟創意力空間區域
 
@@ -188,11 +197,16 @@ In addition to above requirements, you must also meet the following criteria to 
 
   ![記錄詳細資訊頁面中的創意空間](assets/ideation-space-button-in-details-page.png)
 
+>[!IMPORTANT]
+>
+>您從中啟動創意力空間的時間點會決定簡短結構。 存在下列情況：
+>
+>* 當您從Planning中的「新增記錄」按鈕啟動摘要時，摘要會包含與您開始使用的記錄型別相同的欄位。
+>
+>* 當您從Planning現有記錄啟動摘要時，摘要會包含與記錄具有相同值的相同欄位。
+>
+>* 當您從Workfront的主要功能表啟動摘要時，摘要會包含您上傳至畫布之檔案的欄位和資訊。
 
->[!TIP]
->
->您無法使用版面配置範本從[主要]功能表中移除[創意空間]區域。 如需有關封鎖使用者存取創意力空間的詳細資訊，請參閱[使用創意力空間所需的存取權](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)。
->
 
 ## 創意力空間與Adobe CX Enterprise Coworker
 

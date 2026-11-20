@@ -27,13 +27,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: 623
-ht-degree: 3%
-
+source-wordcount: '641'
+ht-degree: 2%
 ---
-
 # 在[!UICONTROL 甘特圖]中平準資源
 
 <!--Audited: 08/2025-->
@@ -122,6 +120,7 @@ If you still don't have access, ask your [!DNL Workfront] administrator if they 
   ![資源平準模式](assets/resource-leveling-mode-350x177.png)
 
 * 作為專案所有者或任務受指派人，您可以為任務引入平準延遲，以表示任務極有可能需要額外的時間。 如需將平準延遲新增至任務的詳細資訊，請參閱[更新任務平準延遲](../../../manage-work/tasks/task-information/task-leveling-delay.md)。
+* 為確保最佳效能，資源平準不適用於持續時間超過1000天的任務。
 
 ## 在[!UICONTROL 甘特圖]中套用資源平準
 
@@ -144,7 +143,7 @@ If you still don't have access, ask your [!DNL Workfront] administrator if they 
 
    ![Level_resources.png](assets/level-resouces.png)
 
-1. 選取下列其中一個選項：
+1. Select是下列其中一個選項：
 
    * **[!UICONTROL 立即層級]**：將資源平準套用至選取的任務。
    * **[!UICONTROL 清除資源撫平]**：從選取的任務移除所有資源撫平。

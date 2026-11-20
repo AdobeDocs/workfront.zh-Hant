@@ -23,9 +23,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '487'
 ht-degree: 3%
 ---
 # 設定專案的時間表重新計算
@@ -67,6 +67,11 @@ ht-degree: 3%
 ## 設定自動重新計算
 
 作為[!DNL Adobe Workfront]管理員，您可以設定[!DNL Workfront]何時自動重新計算專案時間表。 [!DNL Workfront]可以每晚或專案範圍變更時重新計算專案時間表，或兩者皆重新計算。
+
+>[!NOTE]
+>
+>為確保最佳效能，對於工期超過1000天的專案，不會自動重新計算時間表。 您必須手動重新計算這些專案的時間表。
+
 
 {{step-1-to-setup}}
 
