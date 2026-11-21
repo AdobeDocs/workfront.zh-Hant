@@ -11,7 +11,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4beee4cb9c4d0f3f2ef037621d508868229ba25e
+source-git-commit: 11d5c57468270943e5b8a9fecf3b65af507e2c75
 workflow-type: tm+mt
 source-wordcount: '1161'
 ht-degree: 0%
@@ -216,7 +216,7 @@ Or
     1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
     -->
 
-1. （選擇性）將游標停留在Ideation space畫布右上角的&#x200B;**Workfront Planning**&#x200B;標籤上，即可檢視記錄型別的名稱、您正在建立記錄的工作區以及您正在建立之簡介的版本號碼。
+1. （選擇性）將游標停留在Ideation space畫布右上角的&#x200B;**Workfront Planning**&#x200B;標籤上，即可檢視記錄型別的名稱、您正在建立記錄的工作區，以及您正在建立之簡介的版本號碼。
 
    ![畫布中的Workfront Planning工作區和記錄型別資訊標籤](assets/workfront-planning-with-ercord-type-and-workspace-name-tag-inside-canvas.png)
 

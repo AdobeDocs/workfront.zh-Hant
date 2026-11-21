@@ -30,18 +30,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: 11d5c57468270943e5b8a9fecf3b65af507e2c75
 workflow-type: tm+mt
-source-wordcount: '3235'
+source-wordcount: '3174'
 ht-degree: 0%
 ---
 # 編輯記錄
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
-
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -173,7 +173,7 @@ Old:
   * 系統欄位（「建立者」、「建立日期」、「上次修改者」、「上次修改日期」、「核准日期」、「核准者」、「記錄ID」）
 * 如果顯示的記錄連結到其他記錄，則您正在編輯的記錄的新資訊會反映在連結該記錄的所有工作區中的連結記錄上。
 * 您無法大量編輯記錄。<!--this will probably change-->
-* URL只有以下列專案開頭時，才會被識別為單行文字欄位型別中的連結： http://、https://、ftp://或www。 .
+* URL只有以下列專案開頭時，才會被識別為單行文字欄位型別的連結： http://、https://、ftp://或 <www>. .
 * 您可以將封面影像新增到每張記錄中。 每個記錄的影像都是唯一的，不會套用至同一時間的所有記錄。 如需詳細資訊，請參閱[新增封面影像至記錄](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)。
 * 您可以編輯記錄詳細資訊頁面中的欄位順序。 如需詳細資訊，請參閱[管理記錄頁面配置](/help/quicksilver/planning/records/manage-the-record-page.md)。
 * 您可以在時間軸和行事曆檢視中調整記錄大小或重新定位記錄，以編輯記錄的「開始」和「結束」日期。
@@ -265,7 +265,7 @@ Old:
    * 按一下欄的欄標題以選取並複製它，然後按一下其他欄的欄標題並貼上複製欄的內容。 欄必須包含類似的欄位型別。
    * 按住Shift鍵，按一下選取表格中的數列，複製選取列中的資訊，然後按一下其他列，然後將選取的資訊貼到新列中，接著再貼上後續的列。 預覽環境中無法執行此操作。
    * 複製一個儲存格的資訊，然後選取多個儲存格並在多個儲存格中貼上相同的資訊。 您可以選取多個儲存格，並在相鄰列和欄的多個儲存格中貼上相同的資訊。
-   * 選取包含您要複製之資訊的現有儲存格的右下角，然後將其拖放到您想要貼上相同資訊的相鄰儲存格上。 所有儲存格都必須包含相同型別的資訊。
+   * Select位於現有儲存格的右下角，其中包含您要複製的資訊，然後拖放至您想要貼上相同資訊的相鄰儲存格。 所有儲存格都必須包含相同型別的資訊。
 
      ![可拖曳的右下角，用於複製貼上資料表檢視](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
@@ -273,7 +273,7 @@ Old:
 
      * 人員欄位。 僅支援具有一個值的欄位。
      * 文字欄位。
-     * 選取欄位。
+     * Select欄位。
      * 數字、百分比和貨幣欄位。
 
    您無法從外部來源複製資訊，並將其貼到任何其他欄位型別中，包括Workfront或其他應用程式的連線欄位。
@@ -389,8 +389,8 @@ Old:
    >  * 透過連線記錄型別建立的其他記錄中的查閱欄位。 如需詳細資訊，請參閱[連線記錄型別](/help/quicksilver/planning/architecture/connect-record-types.md)。
    >  * 下列型別的欄位：「建立者」、「建立日期」、「上次修改者」、「上次修改日期」、「公式」欄位。
 
-1. <span class="preview"> （選擇性）按一下記錄名稱左側的顏色圓圈以變更記錄顏色。 </span>
-   <span class="preview">建立記錄時，會自動指定顏色。 按一下&#x200B;**色票**&#x200B;或&#x200B;**自訂**&#x200B;以選取新顏色。</span>
+1. （可選）按一下記錄名稱左側的顏色圓圈以變更記錄顏色。
+建立記錄時，系統會自動為記錄指定顏色。 按一下「**色票**」或「**自訂**」以選取新顏色。
 
 1. （選擇性）按一下&#x200B;**新增封面**，將封面影像新增到記錄中。 如需詳細資訊，請參閱[新增封面影像至記錄](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)。
 
@@ -448,8 +448,8 @@ Old:
    >  * 下列型別的欄位：「建立者」、「建立日期」、「上次修改者」、「上次修改日期」、「公式」欄位。
 
 1. （選擇性）按一下顯示任何欄位右側的資訊圖示，以檢視欄位說明。
-1. <span class="preview"> （選擇性）按一下記錄名稱左側的顏色圓圈以變更記錄顏色。 </span>
-   <span class="preview">建立記錄時，會自動指定顏色。 按一下&#x200B;**色票**&#x200B;或&#x200B;**自訂**&#x200B;以選取新顏色。</span>
+1. （可選）按一下記錄名稱左側的顏色圓圈以變更記錄顏色。
+建立記錄時，系統會自動為記錄指定顏色。 按一下「**色票**」或「**自訂**」以選取新顏色。
 
    ![記錄詳細資訊方塊的檢色器方塊](assets/color-picker-box-for-record-color-in-details-page.png)
 
