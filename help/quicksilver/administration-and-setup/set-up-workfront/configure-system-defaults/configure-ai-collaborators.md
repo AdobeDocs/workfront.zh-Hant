@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ac384fb96e24d3c0ea825cb212262966dbd5b7d2
+source-git-commit: 12d853c199743583110c988ef2cfbec164d69378
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '1992'
 ht-degree: 1%
 ---
 # 設定AI共同作業人員
@@ -63,11 +63,11 @@ AI共同作業人員使用的授權不會收費。 如果您的組織有200個Wo
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p>
+   <td><p>[！UICONTROL標準]</p>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]或群組管理員</span></td> 
+   <td>[！UICONTROL系統管理員]或群組管理員</span></td> 
   </tr> 
   </tbody> 
 </table>
@@ -156,7 +156,12 @@ AI檢閱者可設定為使用Workfront品牌或Adobe Brand Intelligence。
    >如果您是群組管理員，此欄位只會顯示您是管理員的群組。 群組管理員必須選取至少一個群組。
 
 1. 在&#x200B;**選擇代理程式來源**&#x200B;區域中，選取您是要<span class="preview">使用Adobe Native</span>、連線在通用平台（例如Copilot）中建立的代理程式，或使用自訂代理程式。
-1. <span class="preview">（視條件而定）如果您選取Adobe Native，請確認您的組織已啟用Adobe CX Coworker，而且您想使用現成的Adobe Native代理程式。</span>
+1. <span class="preview">（條件式）如果您選取Adobe Native，請選取您要使用的共同作業人員： CX Enterprise Coworker共同作業人員或預先建立的AI共同作業人員，例如錄取協調員。 如需有關預先建立的共同作業人員的詳細資訊，包括說明，請參閱[設定預先建立的AI共同作業人員](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md)。</span>
+
+   >[!NOTE]
+   >
+   ><span class="preview">開啟預先建立的AI Collaborator後，需要大約30秒的時間才能布建。 Collaborator就緒前會顯示旋轉圖示。</span>
+
 1. （視條件而定）如果您使用來自通用平台的代理程式，請輸入代理程式平台的驗證詳細資訊：
 
    | 平台 | 必要的驗證 |
@@ -199,7 +204,7 @@ AI檢閱者可設定為使用Workfront品牌或Adobe Brand Intelligence。
       環境ID會顯示在左上角的環境名稱下方。
 
 1. 建立代理。
-   1. 在[受管理的代理程式] > [代理程式]下，按一下右上角的[建立代理程式] **&#x200B;**。
+   1. 在[受管理的代理程式] > [代理程式]下，按一下右上角的[建立代理程式] ****。
    1. 提供適用的名稱、型號、系統提示、技能及工具。 描述性，因為「工作代理程式」會將工作內容傳遞至此代理程式，然後執行工作。
       代理程式ID會顯示在左上角的代理程式名稱下方。
 
@@ -228,7 +233,7 @@ AI檢閱者可設定為使用Workfront品牌或Adobe Brand Intelligence。
 
 1. 在左側導覽列中，按一下&#x200B;**AI共同作業人員**。
 1. 按一下畫面右上角的&#x200B;**新增共同作業人員**。
-1. 選取&#x200B;**專案協調器**，然後按一下&#x200B;**繼續**。
+1. Select **專案協調員**，然後按一下&#x200B;**繼續**。
 1. 在&#x200B;**AI共同作業人員名稱**&#x200B;欄位中，輸入專案協調員的名稱。 此名稱會顯示為您專案中的共同作業人員。
 1. （選擇性）在&#x200B;**AI Collaborator描述**&#x200B;欄位中，輸入專案協調器的功能或其用途的描述。
 1. 在&#x200B;**存取層級**&#x200B;欄位中，選取專案協調器的存取層級。 此存取層級會控制共同作業人員在專案上可以執行的動作，就像存取層級會控制使用者可以執行的動作一樣。
@@ -269,5 +274,5 @@ AI檢閱者可設定為使用Workfront品牌或Adobe Brand Intelligence。
 {{step-1-to-setup}}
 
 1. 在左側導覽列中，按一下&#x200B;**AI共同作業人員**。
-1. （條件式）若要編輯共同作業人員，請按一下您要編輯的共同作業人員名稱，在[編輯共同作業人員]視窗中進行任何編輯，然後按一下[儲存]。**&#x200B;**
+1. （條件式）若要編輯共同作業人員，請按一下您要編輯的共同作業人員名稱，在[編輯共同作業人員]視窗中進行任何編輯，然後按一下[儲存]。****
 1. （視條件而定）若要刪除Collaborator，請在您要刪除的AI Collaborator列中按一下「刪除」圖示![「刪除」圖示](assets/delete-collaborator-icon.png)，然後按一下&#x200B;**「刪除」**。

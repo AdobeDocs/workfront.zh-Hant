@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 331746b2e3f0a5ce6cd0bb01e020d787d6ad951b
+source-git-commit: 71c1855166c2f950509cc8b7dc63792eabb6de16
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1249'
 ht-degree: 1%
 ---
 # 使用工作代理
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 工作代理是可直接指派給Workfront任務、問題和請求的AI共同作業人員。 就像其他AI共同作業人員一樣，工作代理會在「設定」區域中設定，並像使用者一樣指派給工作專案。
 
-<span class="preview">您可以使用由Adobe CX Coworker </span>提供支援的現成可用的Adobe原生工作代理程式，或是連線至外部平台的工作代理程式。 可用的功能和設定要求取決於代理程式的來源。
+<span class="preview">您可以使用現成可用的Adobe原生工作代理程式，例如CX Enterprise Coworker共同作業人員或預先建立的AI共同作業人員，例如Intract Coordinator （如需詳細資訊，請參閱[設定預先建立的AI共同作業人員](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md)）、</span>或連線到外部平台的工作代理程式。 可用的功能和設定要求取決於代理程式的來源。
 
 <!-- BECKY CHECK ME: Why this changed: we added the Adobe Native origin to the usage article and need product confirmation on the final naming and on any @mention or follow-up reply trigger behavior that differs from the current external-agent guidance. -->
 
@@ -53,11 +53,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p>
+   <td><p>[！UICONTROL標準]</p>
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]</td> 
+   <td>[！UICONTROL系統管理員]</td> 
   </tr> 
   </tbody> 
 </table>
