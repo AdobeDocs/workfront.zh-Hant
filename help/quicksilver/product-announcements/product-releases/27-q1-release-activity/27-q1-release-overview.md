@@ -58,7 +58,7 @@ ht-degree: 2%
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">適用於Workfront Planning的環境升級</a></p>
-                <p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>Workfront管理員現在可以將Workfront Planning工作區及其物件從一個環境提升至另一個環境。</p>
             </td>
             <td><p>2026年12月17日</p></td>
@@ -95,7 +95,7 @@ ht-degree: 2%
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-admin-and-setup.md">變更記錄現在會追蹤畫布控制面板物件</a></p>
-                <p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>「變更歷史記錄」現在會記錄建立、更新或刪除畫布控制面板或報表的人員、變更時間以及變更內容。</p>
             </td>
             <td><p>2026年10月29日</p></td>
@@ -142,7 +142,7 @@ ht-degree: 2%
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">設定攝入協調員預先建立的AI共同作業人員</a></p>
-                <p>[！BADGE同時發行]{type=Neutral}</p>
+                <p>[!BADGE 同時發行]{type=Neutral}</p>
                 <p>管理員現在可以將攝入協調員（預先建立的AI共同作業人員）設定為工作代理程式，以檢查資訊是否遺失、不明確或不一致的問題。</p>
             </td>
             <td><p>2026年11月12日</p></td>
@@ -152,7 +152,7 @@ ht-degree: 2%
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">使用Writer教戰手冊建立工作代理</a></p>
-                <p>[！BADGE同時發行]{type=Neutral}</p>
+                <p>[!BADGE 同時發行]{type=Neutral}</p>
                 <p>您現在可以使用Writer教戰手冊來建立工作代理。</p>
             </td>
             <td><p>2026年11月12日</p></td>
@@ -162,7 +162,7 @@ ht-degree: 2%
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">工作代理程式：Adobe原生支援</a></p>
-                <p>[！BADGE同時發行]{type=Neutral}</p>
+                <p>[!BADGE 同時發行]{type=Neutral}</p>
                 <p>您現在可以建立使用CX Enterprise Coworker collaborator （由CX Enterprise Coworker Agent Orchestrator提供支援的Adobe代理程式）的工作代理程式，而不需要設定外部平台或輸入外部認證。</p>
             </td>
             <td><p>2026年11月12日</p></td>
@@ -287,7 +287,7 @@ ht-degree: 2%
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-projects.md">無法使用的狀態指引</a></p>
-                <p>[！BADGE Off Schedule]{type=Neutral}</p>
+                <p>[!BADGE Off Schedule]{type=Neutral}</p>
                 <p>當已儲存的問題、任務或專案狀態無法使用時，現在會出現警告，說明原因並顯示已儲存的狀態代碼。</p>
             </td>
             <td><p>2026年11月4</p></td>
@@ -476,14 +476,14 @@ Workfront Planning現在包含創意空間，這是團隊可以擷取、組織�
 
 作為報表中的替代專案，您可以使用建議的文字模式代碼（視需要使用`costRates`或`billingRates`）：
 
-    ``
+    &grave;&grave;
     displayname=Test
     listdelimiter=&lt;br>
     listmethod=nested(costRates)。lists
     type=iterate
     valueexpression=CONCAT({startDate}，&quot; - &quot;，{endDate}，&quot;： &quot;，{value})
     valueformat=HTML
-    ``
+    &grave;&grave;
 
 有關工作角色費率的資訊，請參閱[建立和管理工作角色](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)。
 
