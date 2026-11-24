@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8789c5c75e104be60de42e76a8951e9380b112ef
+source-git-commit: 27060a08f07aea5fb0d5ac18b8f903ad407510e6
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1464'
 ht-degree: 3%
 ---
 # 更新區段概觀
@@ -350,6 +350,8 @@ The following objects don't record system updates:
   * 劇本
   * 時程表
   * 疊代
+
+* 團隊的更新區段顯示團隊任何成員所做的更新，包括團隊沒有關聯的專案的更新。 更新不會依專案或團隊關聯的其他物件篩選。 若要檢視特定專案的更新，請前往該專案的更新區段。
 
 * 使用者的「更新」區域的「系統更新」標籤由其他物件的更新來填入。 當在設定的更新摘要區域中追蹤這些欄位時，以下是在使用者設定檔的系統更新索引標籤中顯示的更新：
 

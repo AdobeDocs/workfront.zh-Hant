@@ -16,9 +16,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 13403cc11448a0611ad0996ed21e1745277e9c05
+source-git-commit: 71c1855166c2f950509cc8b7dc63792eabb6de16
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '183'
 ht-degree: 2%
 ---
 # AI 協作者
@@ -29,7 +29,7 @@ AI共同作業人員是AI代理程式，您可以用指派人員的相同方式�
 
 可用的AI共同作業人員型別包括AI檢閱者、工作代理<span class="preview">和專案協調員</span>。
 
-對於工作代理程式，您可以從支援的外部平台<span class="preview">連線代理程式，或者，如果您的組織已啟用Adobe CX Coworker，請選取Adobe Native以使用由Adobe CX Coworker提供支援的現成代理程式。 Adobe原生選項不需要外部平台認證。</span>
+對於工作代理程式，您可以從支援的外部平台<span class="preview">連線代理程式，或者，如果您的組織已啟用Adobe CX Coworker，請選取Adobe Native以使用CX Enterprise Coworker共同作業人員或預先建立的AI共同作業人員，例如錄取協調員。 Adobe原生選項不需要外部平台認證。 如需選項清單，請參閱[設定預先建立的AI共同作業人員](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md)。</span>
 
 ## 正在工作的AI共同作業人員
 

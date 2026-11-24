@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 654328db7759fdbcf472017936b565ce17f10a54
+source-git-commit: fe229b1cc5608a4a5ac999fbcaeb1a8c1607bc42
 workflow-type: tm+mt
-source-wordcount: '1655'
+source-wordcount: '1708'
 ht-degree: 2%
 ---
 
@@ -141,6 +141,15 @@ ht-degree: 2%
         </tr>
         <tr>
             <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">設定攝入協調員預先建立的AI共同作業人員</a></p>
+                <p>管理員現在可以將攝入協調員（預先建立的AI共同作業人員）設定為工作代理程式，以檢查資訊是否遺失、不明確或不一致的問題。</p>
+            </td>
+            <td><p>2026年11月22日</p></td>
+            <td><p>2026年12月17日</p></td>
+            <td><p>2027年1月21日</p></td>
+        </tr>
+        <tr>
+            <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">使用Writer教戰手冊建立工作代理</a></p>
                 <p>[!BADGE 同時發行]{type=Neutral}</p>
                 <p>您現在可以使用Writer教戰手冊來建立工作代理。</p>
@@ -152,7 +161,7 @@ ht-degree: 2%
         <tr>
             <td>
                 <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-ai.md">工作代理程式：Adobe原生支援</a></p>
-                <p>您現在無需設定外部平台或輸入外部認證，即可建立使用Adobe CX Coworker的Work Agent。</p>
+                <p>您現在可以建立使用CX Enterprise Coworker collaborator （由CX Enterprise Coworker Agent Orchestrator提供支援的Adobe代理程式）的工作代理程式，而不需要設定外部平台或輸入外部認證。</p>
             </td>
             <td><p>2026年10月29日</p></td>
             <td><p>2026年11月12日</p></td>
