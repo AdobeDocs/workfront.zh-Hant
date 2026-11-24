@@ -20,9 +20,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 16e4d70d45e4f312d31f3cd491754820ef0c9b9d
+source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2096'
 ht-degree: 0%
 ---
 
@@ -172,14 +172,22 @@ Removed - more direct steps below:
 
    1. 展開清單左上角的下拉式檢視功能表，以選取其他檢視，或按一下&#x200B;**新增檢視**&#x200B;並建立另一個檢視。
 
+      檢視會顯示在下列其中一個區段中：
+
+      * **系統檢視**，由Workfront建立。
+      * **其他人與您共用的檢視**。
+      * **我的檢視**，由您建立。
+
       >[!TIP]
       >
       >檢視會在整個系統中共用。 如果您為一個記錄型別建立「專案」檢視，則可以在顯示已連線專案的其他記錄型別上檢視它。
 
    1. 將滑鼠停留在現有檢視的名稱上，然後按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-menu.png)，然後按一下下列其中一項：
       * **重新命名**，為檢視提供新名稱
-      * **共用**，與其他人共用檢視
+      * **共用**，與其他人共用檢視。 當有人與您共用檢視時，它會顯示在[檢視]下拉式功能表的&#x200B;**共用檢視**&#x200B;區域中。
       * **刪除**，以刪除檢視。
+      * **使用偏好設定複製** <span class="preview"><!--or **Copy with my changes**</span>-->，以使用您所做的變更來複製檢視，而非複製與您共用的原始檢視。 這僅適用於「系統檢視」和「共用檢視」。
+        <!--* <span class="preview">**Copy**, to copy the view</span>-->
 
       >[!NOTE]
       >
@@ -189,21 +197,35 @@ Removed - more direct steps below:
       >
       >* 在修改檢視以恢復其原始偏好設定後，您可以重設與您共用的檢視（您只有「檢視」的許可權），也可以複製檢視並共用其副本。 如需詳細資訊，請參閱[使用增強型清單](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)。
 
-   1. 按一下&#x200B;**篩選器**&#x200B;圖示![篩選器圖示](assets/filter-icon.png)將篩選器新增至檢視。 結果會立即在清單中篩選。 您無法儲存並命名篩選器。 日後存取頁面時會記住篩選器，這些篩選器也是共用檢視的一部分。
+   1. 按一下&#x200B;**篩選器**&#x200B;圖示![篩選器圖示](assets/filter-icon.png)將篩選器新增至檢視。 結果會立即在清單中篩選。 您無法儲存並命名篩選器。 您日後存取頁面時會記住篩選器，這些篩選器也是共用檢視的一部分。
 
       >[!TIP]
       >
-      >若要套用個人化篩選，請為欄位值選取下列其中一個選項：
+      >* 若要套用個人化篩選，請為欄位值選取下列其中一個選項：
       >
-      >* **我（已登入的使用者）**&#x200B;在引用使用者的欄位中引用已登入的使用者。
+      >   * **我（已登入的使用者）**&#x200B;在引用使用者的欄位中引用已登入的使用者。
       >
-      >* **我的團隊**&#x200B;或&#x200B;**我的主團隊**&#x200B;在引用團隊的欄位中引用您的團隊。
+      >   * **我的團隊**&#x200B;或&#x200B;**我的主團隊**&#x200B;在引用團隊的欄位中引用您的團隊。
       >
-      >* **我的群組**&#x200B;或&#x200B;**我的主群組**&#x200B;在引用群組的欄位中引用您的群組。
+      >   * **我的群組**&#x200B;或&#x200B;**我的主群組**&#x200B;在引用群組的欄位中引用您的群組。
       >
-      >* **我的公司**&#x200B;在引用公司的欄位中引用您的公司。
+      >   * **我的公司**&#x200B;在引用公司的欄位中引用您的公司。
       > 
-      >* **我的角色**&#x200B;或&#x200B;**我的主要角色**，在引用角色的欄位中引用您的工作角色。
+      >   * **我的角色**&#x200B;或&#x200B;**我的主要角色**，在引用角色的欄位中引用您的工作角色。
+      <!--
+        >* <span class="preview">When you filter by date, you can apply relative dates to make the filter more flexible. The results update every time the view loads without having to modify the filter. Choose from the following relative dates: </span>
+        >
+        >    <div class="preview">
+        >
+        >   * **Is today**
+        >   * **Is yesterday**
+        >   * **Is tomorrow**
+        >   * **Is this month**
+        >   * **Is last month**
+        >   * **Is next month**
+        >
+        >  </div>
+        -->
 
    1. 按一下&#x200B;**欄**&#x200B;圖示![欄圖示](assets/columns-icon.png)以選取要在檢視中顯示或隱藏的欄。
    1. 暫留在欄名稱上，然後按一下欄名稱左側的向下箭頭，然後按一下下列其中一項：
