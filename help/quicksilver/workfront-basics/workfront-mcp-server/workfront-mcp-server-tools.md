@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: e748c67cff6d8ca3fd58063e48d5eec7003c1626
+source-git-commit: b836c42f007e31be8533e89cb0c2f3095c9ace9a
 workflow-type: tm+mt
-source-wordcount: '3931'
+source-wordcount: '3801'
 ht-degree: 3%
 ---
 
@@ -112,20 +112,14 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront?toolsets=core,comment-stream
 | 依名稱尋找檔案版本 | `approvals_find_document_version_by_name` | 依檔案名稱查詢檔案的目前版本ID。 支援部分比對。 | 讀取 |
 | 依版本ID取得檔案 | `approvals_get_document_by_version_id` | 會擷取已知檔案版本ID的檔案詳細資訊（名稱、大小、上傳日期、上傳程式）。 | 讀取 |
 | 解析檔案範圍 | `approvals_resolve_document_scope` | 將專案或資料夾展開至其包含的檔案版本ID清單中。 支援專案、資料夾和依名稱資料夾範圍。 | 讀取 |
-| 依範圍取得檔案 | `approvals_get_documents_by_scope` | 已棄用。 請改用`insights_find_workfront_data`。 此工具列出專案或資料夾內的檔案。 | 讀取 |
 | 列出AEM連結的資料夾* | `approvals_list_aem_linked_folders` | 列出連結至Adobe Experience Manager的Workfront檔案資料夾。 | 讀取 |
-| 尋找檔案 | `approvals_find_document` | 已棄用。 請改用`insights_find_workfront_data`。 此工具會依檔案名稱或檔案版本ID來查詢檔案。 | 讀取 |
 | 傳送檔案至AEM資料夾* | `approvals_send_documents_to_aem_folder` | 將一或多個Workfront檔案移動到AEM連結的資料夾。 | 寫入 |
 
-*您必須在Workfront執行個體中設定原生[!DNL Adobe Experience Manager]整合，才能使用這些工具。 如需詳細資訊，請參閱[&#x200B; Adobe Experience Manager Assets整合概述](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)。
+*您必須在Workfront執行個體中設定原生[!DNL Adobe Experience Manager]整合，才能使用這些工具。 如需詳細資訊，請參閱[ Adobe Experience Manager Assets整合概述](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)。
 
 
 *Adobe雲端儲存空間上的專案尚不支援將檔案傳送至AEM資料夾。 未來版本預計會提供支援。
 **此工具會在聊天中開啟互動式上傳面板，因此僅適用於支援MCP應用程式的工具。 目前，此工具僅支援Claude。 它出現在工具許可權的「互動工具」下，並依預設要求核准。
-
-<!--
-| List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
--->
 
 ### 核准工作流程
 
@@ -141,13 +135,6 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront?toolsets=core,comment-stream
 | <span class="preview">從路徑</span>移除階段 | <span class="preview">`approvals_remove_stage_from_path`</span> | <span class="preview">從平行核准工作流程中的特定路徑移除未啟動的階段。 每個路徑都必須至少保留一個階段。</span> | <span class="preview">寫入</span> |
 | <span class="preview">重新排序路徑</span>中的階段 | <span class="preview">`approvals_reorder_stages_in_path`</span> | <span class="preview">變更平行核准工作流程單一路徑中的階段順序。</span> | <span class="preview">寫入</span> |
 
-<!--
-| Add and remove participants for an approval in bulk | `approvals_bulk_update_approval_participants`<br>`approvals__submit_bulk_update_approval_participants` | Adds or removes participants to or from multiple approvals at the same time. Currently, bulk updates can be applied only across a single project. Bulk updates across multiple projects will be available in the near future. | Write |
--->
-
-<!--
-| Request document approval | `approvals_request_document_approval` | Opens a guided form for requesting approval on a document version (title, approvers/reviewers, optional due date and message). | Write |
--->
 
 ### 提醒
 
@@ -176,9 +163,6 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront?toolsets=core,comment-stream
 | 依名稱尋找專案 | `approvals_find_project_by_name` | 2026年8月13日移除。 請改用`insights_find_id_by_name`。 此工具會透過系統內相符的部分名稱來查詢Workfront專案。 | 讀取 |
 | 依所有者取得專案 | `approvals_get_projects_by_owner` | 2026年8月13日移除。 請改用`insights_find_workfront_data`。 此工具列出Workfront專案，其中電話使用者是其擁有者。 | 讀取 |
 | 取得目前使用者 | `approvals_get_current_user` | 2026年8月13日移除。 此工具會傳回呼叫使用者的Workfront身分識別，包括名稱、使用者ID、主團隊名稱和主團隊ID。 如需類似的功能，請參閱「見解工具」下的[取得目前使用者](#insights-tools)。 | 讀取 |
-| 依名稱尋找使用者 | `approvals_find_user_by_name` | 已棄用。 請改用`insights_search_users`。 此工具會依名稱（模糊或部分相符）、傳回名稱、ID、電子郵件、標題和顯示圖片URL來查詢Workfront使用者的ID。 | 讀取 |
-| 依名稱尋找團隊 | `approvals_find_team_by_name` | 已棄用。 請改用`insights_find_id_by_name`。 此工具會依名稱查詢Workfront團隊的ID （模糊或部分相符）。 | 讀取 |
-| 尋找專案 | `approvals_find_projects` | 已棄用。 請改用`insights_find_workfront_data`。 此工具會查詢Workfront專案，選擇性地依名稱篩選及/或限製為通話使用者擁有的專案。 | 讀取 |
 
 ## 規劃工具
 
@@ -276,11 +260,9 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront?toolsets=core,comment-stream
 
 | 標題 | 工具名稱 | 作用 | 動作 |
 | --- | --- | --- | --- |
-| 搜尋物件 | `workflow_search_any_object` | 此工具已淘汰。 | 讀取 |
 | 建立物件 | `workflow_create_any_object` | 建立新的Workfront物件，例如專案、任務、問題、小時、指派、方案或投資組合。 | 寫入 |
 | 更新物件 | `workflow_update_any_object` | 更新現有物件的欄位。 也支援將任務或問題移動至另一個專案、將任務或問題轉換為新專案（或問題轉換為任務），以及設定任務前置任務（相依性）。 | 寫入 |
 | 刪除物件 | `workflow_delete_any_object` | 依ID刪除Workfront物件。 執行動作前需要明確的使用者確認。 | 寫入 |
-| 解析欄位名稱 | `workflow_resolve_field_names_any_object` | 此工具已淘汰。 | 讀取 |
 | 讀取工作流程檔案 | `workflow_read_workflow_docs` | 載入Workfront工作流程檔案，包括工具使用指南和物件特定操作教戰手冊。 這是執行「工作流程」動作之前的必要第一個步驟。 | 讀取 |
 
 ### 更新物件工具功能
