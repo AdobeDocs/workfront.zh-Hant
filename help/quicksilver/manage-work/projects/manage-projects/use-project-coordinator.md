@@ -4,15 +4,13 @@ content-type: reference
 description: 瞭解如何使用專案協調器，這個現成的AI共同作業程式可監控專案狀態並追蹤逾期任務。
 author: Becky
 feature: Work Management, Projects
-source-git-commit: 13403cc11448a0611ad0996ed21e1745277e9c05
+source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 4%
 
 ---
 # 使用專案協調員共同作業人員
-
-{{highlighted-preview-article-level}}
 
 專案協調員是現成的AI共同作業人員，可監視您的專案並通知利害關係人重要狀態資訊。
 
@@ -36,7 +34,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p></td>
+   <td><p>[！UICONTROL標準]</p></td>
   </tr> 
   <tr> 
    <td>物件許可權</td> 
@@ -78,7 +76,7 @@ ht-degree: 4%
 
 1. 移至您要為其指派專案協調器的專案。
 1. 在專案標題中，按一下&#x200B;**專案協調員**&#x200B;欄位。
-1. 選取您要指派的專案協調器。
+1. Select您要指派的專案協調員。
 
    此視窗會顯示所選「專案協調器」的描述，以及「專案協調器」執行的動作。
 1. 按一下「**套用**」。

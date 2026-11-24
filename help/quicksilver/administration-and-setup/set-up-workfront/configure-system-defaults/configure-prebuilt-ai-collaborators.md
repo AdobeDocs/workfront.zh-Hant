@@ -6,16 +6,12 @@ description: 身為Adobe Workfront管理員，您可以從Adobe將預先建立�
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 71c1855166c2f950509cc8b7dc63792eabb6de16
+source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 4%
+source-wordcount: '357'
+ht-degree: 5%
 ---
 # 設定預先建立的AI共同作業人員
-
-<span class="preview">此頁面上的資訊是指尚未普遍提供的功能。 它僅在預覽環境中可供所有客戶使用。 在「預覽」版發行後，啟用的客戶每月可在「生產」環境中使用相同的功能。</span>
-
-<span class="preview">如需快速發行資訊，請參閱[為您的組織啟用或停用快速發行](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)。</span>
 
 ## 概觀
 
@@ -39,11 +35,11 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p></td> 
+   <td><p>[！UICONTROL標準]</p></td> 
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]或群組管理員</td> 
+   <td>[！UICONTROL系統管理員]或群組管理員</td> 
   </tr> 
   </tbody> 
 </table>
