@@ -22,9 +22,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 686609dc5a220316ee2d39fd815d152dda43d03c
 workflow-type: tm+mt
-source-wordcount: '3139'
+source-wordcount: '3206'
 ht-degree: 1%
 ---
 # 為貴組織設定和管理Adobe Cloud Drive
@@ -140,7 +140,7 @@ Adobe Cloud Drive存取需在Adobe Admin Console中設定。 選擇符合轉出�
    >
    >如果Adobe Cloud Drive未出現在&#x200B;**成員**&#x200B;角色的&#x200B;**許可權**&#x200B;之下，則可能尚未為您的組織啟用Adobe Cloud Drive。 聯絡Adobe支援以確認。
 
-1. 如果您做了任何變更，請按一下[儲存]。**&#x200B;**
+1. 如果您做了任何變更，請按一下[儲存]。****
 
 ### 選項B：啟用特定使用者群組的存取權
 
@@ -222,9 +222,13 @@ Adobe Cloud Drive為獨立應用程式。 它不會透過Creative Cloud案頭應
    ![在封裝精靈中選擇應用程式步驟](assets/choose-apps-step-in-wizard.png)
 
 1. 按一下「**下一步**」。
-1. 在&#x200B;**選項**&#x200B;步驟中，按一下&#x200B;**下一步**，而不選取任何選項。
+1. 在&#x200B;**選項**&#x200B;步驟中，按一下&#x200B;**停用使用者更新**&#x200B;以防止使用者自行更新應用程式，或按一下&#x200B;**下一步**&#x200B;而不選取任何選項。
 
-   這些設定會套用至Creative Cloud案頭應用程式，不會套用至Adobe Cloud Drive。
+   <!-- Courtney check me: Removed the old sentence saying Options settings don't apply to Adobe Cloud Drive, which contradicted the Disable update for end-users option. Added the note Pulkit requested. Confirm wording, and whether the note duplicates step text above. -->
+
+   >[!NOTE]
+   >
+   >若要防止使用者自行更新應用程式，請在&#x200B;**選項**&#x200B;步驟中選取&#x200B;**停用使用者的更新**。 此步驟中的其他設定適用於Creative Cloud案頭應用程式，不適用於Adobe Cloud Drive。
 
    封裝精靈中的![選項步驟](assets/options-step-in-wizard.png)
 
@@ -238,6 +242,10 @@ Adobe Cloud Drive為獨立應用程式。 它不會透過Creative Cloud案頭應
    ![封裝正在準備狀態](assets/package-is-preparing.png)
 
 1. 按一下&#x200B;**下載**&#x200B;並將封裝檔案儲存到您選擇的位置。
+
+   >[!NOTE]
+   >
+   >套件下載連結和下載程式公用程式會在套件建立後3天到期。 不過，下載的.pkg或.zip檔案不會過期，並可用於稍後安裝。
 
 ### 方法B：從Software Distribution自助直接下載
 
@@ -301,7 +309,7 @@ Adobe Cloud Drive為獨立應用程式。 它不會透過Creative Cloud案頭應
 1. 登入[adminconsole.adobe.com](https://adminconsole.adobe.com/)。
 1. 按一下頂端導覽列中的&#x200B;**使用者**，然後按一下左側面板中的&#x200B;**角色**。
 1. 按一下角色清單中的&#x200B;**ACD使用者**。
-1. 選取使用者並按一下&#x200B;**移除**。
+1. Select使用者並按一下&#x200B;**移除**。
 
 使用者會立即失去已掛載磁碟機的存取權。 不會刪除儲存在Workfront中的檔案。 使用者的本機快取會保留在其裝置上，直到解除安裝應用程式為止。
 

@@ -22,9 +22,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: fca74d916d6b5cf6529da411e4debd7d376fb0a9
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '1073'
 ht-degree: 0%
 ---
 # 疑難排解Adobe Cloud Drive
@@ -166,11 +166,46 @@ ht-degree: 0%
 * 若要建立、重新命名或刪除專案，請使用Workfront網頁介面。
 * 要求專案所有者與您共用專案，並擁有編輯存取權。
 
+<!-- Courtney check me: Three new troubleshooting entries below added for Adobe Cloud Drive v1.2.0, per helpxNewFeature.pdf. The PDF's solution wording was minimal, so verify steps and macOS menu paths. -->
+
+### 上傳至雲端選項無法使用
+
+**可能的原因：**
+
+* 在Mac上，Adobe Cloud Drive Finder Helper未啟用。
+
+**解決方案：**
+
+* 在Mac上，前往&#x200B;**系統設定** > **一般** > **登入專案與擴充功能**，並確認已啟用Adobe Cloud Drive Finder Helper。
+
+### 從案頭上傳、檔案或下載失敗，發生授權錯誤(Mac)
+
+**可能的原因：**
+
+* Adobe Cloud Drive無權存取「案頭」、「檔案」或「下載」資料夾。
+* macOS設定中已停用必要的資料夾存取許可權。
+
+**解決方案：**
+
+1. 移至&#x200B;**系統設定** > **隱私權與安全性** > **檔案與資料夾**。
+1. 授予Adobe雲端磁碟機對相關資料夾的存取權。
+1. 重試上傳。
+
+### 出現多個Finder Sync程式(Mac)
+
+**可能的原因：**
+
+* 在正常作業中，macOS可能會在Activity Monitor中顯示2至3個Adobe Cloud Drive Finder Sync程式。
+
+**解決方案：**
+
+* 不需要採取任何動作。 預期會有兩到三個Adobe Cloud Drive Finder Sync程式在執行中。
+
 ## 取得協助
 
 如有授權問題、專案存取問題或組織專屬設定，請聯絡您的Workfront管理員。
 
-若要與Adobe支援共用記錄檔，請依照[執行Adobe記錄收集器工具](https://helpx.adobe.com/tw/creative-cloud/apps/troubleshoot/diagnostics-repair-tools/run-log-collector-tool.html)中的步驟操作。
+若要與Adobe支援共用記錄檔，請依照[執行Adobe記錄收集器工具](https://helpx.adobe.com/creative-cloud/apps/troubleshoot/diagnostics-repair-tools/run-log-collector-tool.html)中的步驟操作。
 
 ## 最佳做法
 

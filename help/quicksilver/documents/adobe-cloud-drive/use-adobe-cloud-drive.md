@@ -21,9 +21,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: c16dc2b8b508f71767999aec7029664f5d31f23f
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '3955'
 ht-degree: 1%
 ---
 # 使用Adobe Cloud Drive
@@ -123,6 +123,17 @@ Adobe Cloud Drive使用視覺指示器來顯示檔案同步處理狀態。 圖�
 >
 >系統層級的錯誤（例如中斷連線、驗證失敗、網路無法使用、本機磁碟已滿或雲端儲存空間已滿）會顯示在系統匣或功能表列(Mac)中，而不是顯示在個別檔案中。
 
+### 同步排除清單
+
+Adobe Cloud Drive不會同步處理某些系統產生的暫存及鎖定檔案。 下列檔案型別和模式已排除：
+
+| 類別 | 檔案型別/模式 | 說明 |
+|---|---|---|
+| 系統檔案 | `.DS_Store`, `Thumbs.db` | 作業系統中繼資料和縮圖快取檔案。 |
+| 系統和虛擬記憶體檔案 | `*.sys` （例如，`hiberfil.sys`、`pagefile.sys`、`swapfile.sys`） | 用於虛擬記憶體、休眠或其他作業系統功能的大型系統檔案。 |
+| macOS索引檔案 | `.Spotlight-V100`, `.fseventsd` | macOS Spotlight索引和檔案系統事件追蹤檔案。 |
+| 暫存和備份檔案 | `*.tmp`, `*.swp`, `*~`, `*.bak` | 應用程式產生的暫時、暫時或備份檔案。 |
+
 ## 開啟檔案
 
 1. 在Adobe Cloud Drive中，導覽至檔案。
@@ -179,14 +190,14 @@ Adobe Cloud Drive支援電腦上安裝的應用程式可開啟的任何檔案型
 ### 在裝置上保留檔案或資料夾
 
 1. 在Adobe Cloud Drive中的檔案或資料夾上按一下滑鼠右鍵。
-1. 選取&#x200B;**永遠保留在此裝置上**。
+1. Select **永遠保留在此裝置上**。
 
    檔案或資料夾會下載至本機快取，即使離線也能使用。
 
 ### 移除離線存取以釋放空間
 
 1. 以滑鼠右鍵按一下離線檔案或資料夾。
-1. 選取&#x200B;**釋放空間**。
+1. Select **釋放空間**。
 
    檔案或資料夾仍保留在雲端儲存空間，但已從本機快取中移除。
 
@@ -199,13 +210,242 @@ Adobe Cloud Drive支援電腦上安裝的應用程式可開啟的任何檔案型
 您可以將檔案從Adobe雲端磁碟機複製到本機磁碟機。 原始檔案會保留在Adobe Cloud Drive中，而復本會成為獨立的本機檔案。
 
 1. 在Adobe Cloud Drive中的檔案上按一下滑鼠右鍵。
-1. 選取「**複製**」，然後將檔案貼到您本機磁碟機上您想要的位置。
+1. Select **複製**，然後將檔案貼到您本機磁碟機上您想要的位置。
 
    檔案會複製到目的地。 原始檔案仍儲存在Adobe Cloud Drive中。
 
 >[!NOTE]
 >
 >複製到本機儲存體的檔案是獨立的復本。 您對本機復本進行的變更不會同步回Adobe雲端儲存空間。
+
+<!-- Courtney check me: New sections below (Upload to Cloud through Open in Workfront) added for Adobe Cloud Drive v1.2.0, per helpxNewFeature.pdf from Pulkit Goel. Verify content, placement, and heading order. -->
+
+## 上傳檔案至雲端（直接上傳） {#direct-upload}
+
+<!-- Courtney check me: Source PDF calls this "Upload to Cloud (Direct Upload)". Confirm heading wording. -->
+
+直接上傳會將檔案從您的電腦直接傳送到Adobe雲端儲存空間，無需先將檔案複製到Adobe雲端磁碟機資料夾。
+
+<!-- Courtney check me: Removed folder mentions from the Direct Upload section (intro, heading, step 1, 500-file bullet, hidden files bullet, and the Sync Activity link text), per Pulkit: folder support isn't available yet. Confirm nothing else should change. -->
+
+### 上傳檔案
+
+1. 在Finder (Mac)或檔案總管(Windows)中的檔案上按一下滑鼠右鍵。
+1. Select **上傳至雲端**。
+1. 在目的地選擇器中，選取Adobe Cloud Drive中其中一個專案的位置，然後按一下&#x200B;**「上傳到這裡」**。
+1. 在同步活動視窗的&#x200B;**直接上傳**&#x200B;區段中監視進度。
+
+### 直接上傳須知事項
+
+* 直接上傳會將專案複製到雲端。 原始專案會保留在其目前位置。
+* 您可以選取多個專案一次上傳。
+* 「直接上傳」區段只會列出個別檔案，上限為500個。
+* 您可以從使用者主目錄或任何附加的外部磁碟機上傳專案。 不支援其他雲端儲存位置，例如iCloud磁碟機或`~/Library/CloudStorage`。
+* 您必須使用已授權的Adobe帳戶登入。 您不需要網際網路連線即可開始上傳。 如果沒有連線，上傳會維持佇列中。
+* 暫停同步會取消進行中的上傳。 當您繼續同步時，已排入佇列的上傳會自動繼續。
+* 如果您在上傳期間結束Adobe Cloud Drive，進行中的上傳會標示為已取消。 當您重新啟動應用程式時，已排入佇列的上傳會自動繼續。
+* 不支援隱藏的檔案、符號連結和別名。
+* Adobe Cloud Drive可控制同時執行的上傳數量。 其餘的上傳會一直排入佇列，直到插槽可供使用為止。
+* 會顯示即時上傳計數，包括失敗的上傳，例如「3個檔案上傳」。 當所有上傳成功完成時，計數會變更為摘要，例如「3個檔案已上傳」。 Select **關閉**&#x200B;以將其移除。
+
+<!-- Courtney check me: "Pausing sync cancels uploads in progress" and the quit behavior are from the PDF. Confirm with dev that both are intended. -->
+
+### 上傳狀態
+
+<!-- Courtney check me: Icons extracted from the PDF (48x48 px, low resolution) and named by table order. Verify each icon matches its status and ask Pulkit's team for higher-resolution originals. Add alt text review too. -->
+
+| 圖示 | 狀態 | 說明 | 可用動作 |
+| --- | --- | --- | --- |
+| ![已排入佇列的圖示](assets/acd-upload-status-queued.png) | 已排入佇列 | 上傳正在等待開始。 | **取消**&#x200B;取消此專案。 |
+| ![正在上傳圖示](assets/acd-upload-status-uploading.png) | 正在上傳 | 上傳進行中。 | **取消**&#x200B;取消此專案。 |
+| ![已完成圖示](assets/acd-upload-status-completed.png) | 已完成 | 上載已成功完成。 | 在Workfront中&#x200B;**開啟**&#x200B;會在Workfront網頁介面中開啟資產。 |
+| ![失敗的圖示](assets/acd-upload-status-failed.png) | 失敗 | 無法完成上傳。 | **顯示來源檔案**&#x200B;會顯示原始檔案。 **重試**&#x200B;重試上傳。 重試僅適用於特定故障。 |
+| ![已取消圖示](assets/acd-upload-status-cancelled.png) | 已取消 | 上傳已由您或系統停止。 | 無。 取消的上傳不會重試。 您必須開始新的上傳。 |
+
+若要檢視失敗的原因，請將游標停留在失敗的專案上。
+
+### 管理上傳清單
+
+每個動作僅在套用時可用。
+
+* **取消所有上傳：**&#x200B;上傳排入佇列或進行中時可用。 取消所有欄位。
+* **重試失敗的上傳：**&#x200B;當存在可以重試的失敗的上傳時可用。 請重試所有步驟。 無法重試的上傳將維持不變。
+* **清除：**&#x200B;當沒有佇列或進行中的上傳時可用。 移除所有已完成、失敗和取消的專案。 已上傳的本機檔案和內容不受影響。
+* **自動清除：**&#x200B;已完成、失敗和取消的專案會在上次更新後24小時自動移除。 排入佇列及進行中的專案永遠不會自動移除。
+
+## 暫停並繼續同步 {#pause-resume-sync}
+
+如果您不想讓Adobe Cloud Drive上傳或下載檔案，例如透過緩慢或計量的網際網路連線，您可以暫停該裝置。 同步暫停時，您的變更不會傳送至雲端，且雲端的變更不會下載至您的電腦。 同步處理會保持暫停狀態，直到您恢復為止。
+
+### 暫停同步
+
+1. 按一下系統匣中的Adobe Cloud Drive圖示(Windows)或功能表列(Mac)。
+1. 按一下Adobe Cloud Drive視窗右上角的&#x200B;**功能表**&#x200B;圖示(≡)。
+1. Select **暫停同步**。
+
+   >[!TIP]
+   >
+   >在Adobe Cloud Drive視窗開啟的狀態下，您也可以按下Ctrl+P (Windows)或Command+P (Mac)。
+
+   Adobe Cloud Drive視窗顯示&#x200B;**同步處理已暫停**，而且訊息&#x200B;**在您繼續之前，檔案將不會同步**。 當您將游標暫留在Adobe Cloud Drive圖示上時，會顯示&#x200B;**Adobe Cloud Drive （已暫停）**。
+
+>[!NOTE]
+>
+>暫停同步只會在您登入且已連線Adobe Cloud Drive時提供。
+
+### 繼續同步
+
+1. 按一下系統匣中的Adobe Cloud Drive圖示(Windows)或功能表列(Mac)。
+1. 執行下列其中一項：
+
+   * 按一下&#x200B;**繼續**。
+   * 按一下&#x200B;**功能表**&#x200B;圖示(≡)，然後選取&#x200B;**繼續同步**。 開啟視窗後，您也可以按Ctrl+R (Windows)或Command+R (Mac)。
+
+   Adobe Cloud Drive會再次開始同步，包括同步暫停時所進行的所有變更。
+
+## 檢視及管理版本記錄 {#version-history}
+
+您可以使用Adobe Cloud Drive中的「版本記錄」來瀏覽已儲存的支援檔案雲端版本、檢視版本詳細資料和縮圖，以及回覆成先前的版本。 如果您擁有必要的許可權，也可以編輯版本的名稱和說明。
+
+### 檢視版本記錄
+
+1. 在Finder或檔案總管中導覽至您的Adobe Cloud Drive資料夾。
+1. Select為支援的檔案。
+1. 在檔案上按一下滑鼠右鍵，然後選取&#x200B;**版本記錄**。
+1. Select版本可檢視其可用詳細資料和縮圖。
+
+   如果檔案沒有舊版，則顯示&#x200B;**沒有舊版**。 縮圖可能無法用於每個檔案或版本。
+
+### 編輯版本資訊
+
+1. 開啟檔案的版本記錄。
+1. Select您要更新的版本。
+1. 開啟版本的選項功能表，並選取&#x200B;**編輯版本資訊**。
+1. 輸入&#x200B;**版本名稱**&#x200B;或&#x200B;**描述**。
+1. 選取&#x200B;**「儲存」**。
+
+   更新後的資訊會儲存並在您重新開啟「版本記錄」時顯示。
+
+### 還原至較早的版本
+
+1. 開啟檔案的版本記錄。
+1. Select您要還原的版本。
+1. Select **還原為此版本** （如果可用）。
+1. 等候同步處理完成。
+1. 重新開啟檔案，確認所選版本的內容目前為最新版本。
+
+## 管理本機儲存空間 {#manage-local-storage}
+
+您可以使用Adobe Cloud Drive中的「管理本機儲存空間」來監視本機磁碟使用量、設定儲存空間限制，以及檢視標示為&#x200B;**永遠在此裝置上**&#x200B;的檔案。
+
+<!-- Courtney check me: PDF says "Always on this device" here but this article uses "Always Keep On This Device" for the right-click option. Confirm which label the UI shows in each place. -->
+
+### 檢視本機儲存空間使用量
+
+1. Select Adobe Cloud Drive圖示，並開啟其選項功能表。
+1. Select **管理本機儲存空間**。
+1. 檢閱目前的儲存使用情況以及此裝置&#x200B;**上標示為**&#x200B;永遠的檔案清單。
+1. 依&#x200B;**名稱**&#x200B;或&#x200B;**大小**&#x200B;排序檔案清單，以尋找特定檔案。
+
+### 變更本機儲存限制
+
+1. 從Adobe Cloud Drive選項功能表開啟&#x200B;**管理本機儲存空間**。
+1. 輸入所需的儲存空間限制。
+1. Select **儲存**&#x200B;以套用變更。
+
+>[!NOTE]
+>
+>設定儲存限制時，請確定裝置上有足夠的可用磁碟空間。
+
+## 檢視同步活動 {#sync-activity}
+
+同步活動會顯示您電腦上的Adobe雲端磁碟機資料夾與Adobe雲端儲存空間之間的最近活動。 用它來監視上傳和下載、檢閱完成的變更，並識別無法同步的專案。
+
+### 檢視同步活動
+
+1. Select功能表列(Mac)或系統匣(Windows)中的Adobe雲端磁碟機圖示。
+1. 使用同步活動狀態摘要旁邊的箭頭展開同步活動區段。
+1. 檢閱列出的專案及其狀態指示器。 將游標停留在狀態指標上可檢視傳輸進度、完成的作業或錯誤訊息。
+1. Select專案旁的更多動作功能表，可檢視可用於該專案的動作。
+
+### 同步活動的相關須知事項
+
+* 一般同步會追蹤透過Adobe Cloud Drive資料夾進行的變更，包括上傳、下載、建立、重新命名、移動和刪除。
+* 一般同步清單包含最多500個最近的專案。 新的或更新專案會顯示在頂端。 當清單達到其限制時，可能會移除較舊的專案。
+* 正在解析專案名稱或中繼資料時，專案一開始可以顯示&#x200B;**正在準備……**。
+* 摘要會顯示目前同步處理的專案數。 **同步處理完成**&#x200B;表示目前沒有作用中的專案。 檢查清單中失敗或排除的專案，而不是將此摘要視為每個專案都成功的確認。
+* 從同步中排除的檔案和資料夾會出現錯誤，說明不支援的名稱、不支援的型別或其他排除原因。
+* 當您登出時，活動會被清除。 此清單是活動檢視，而非永久稽核歷史記錄。
+
+### 同步狀態
+
+<!-- Courtney check me: The PDF has two sync status tables (page 7 with 4 statuses, page 8 with 3 statuses and icons). I used the page 8 icons with the page 7 descriptions where they overlap. Confirm and decide whether to keep both tables. -->
+
+| 圖示 | 狀態 | 說明 | 可用動作 |
+| --- | --- | --- | --- |
+| 等候指標 | 正在等候同步 | 專案正在等待其作業開始。 | 在Finder **(Mac)中顯示**&#x200B;或在Explorer **(Windows)中顯示** （如果適用）。 |
+| ![正在上傳圖示](assets/acd-sync-status-uploading.png) | 上傳/下載 | 正在傳輸檔案內容。 將滑鼠指標暫留在指標上，可檢視轉移方向和百分比（可用時）。 在100%時，工具提示可能會顯示&#x200B;**正在完成……**，直到處理完成。 | **在Finder中顯示**&#x200B;或&#x200B;**在Explorer中顯示** （如果適用）。 |
+| ![已完成圖示](assets/acd-sync-status-completed.png) | 已同步/完成的作業 | 操作已完成。 工具提示可以在雲端上識別已上傳、已下載、已建立、已重新命名、已重新命名、已移動、已刪除或已刪除。 | 在尋找器&#x200B;**中顯示**&#x200B;或在總管&#x200B;**中顯示**&#x200B;未刪除的專案。 在Workfront中&#x200B;**開啟**，以取得合格的已完成且未刪除的專案。 |
+| ![失敗的圖示](assets/acd-sync-status-failed.png) | 同步失敗/已排除 | 專案無法同步或已從同步處理中排除。 將游標停留在指標上可檢視原因。 | **在Finder中顯示**&#x200B;或&#x200B;**在Explorer中顯示** （如果適用）。 在預期專案要同步之前，先解決報告的問題。 |
+
+已刪除的專案無法在本機顯示，也無法透過其活動專案在Workfront中開啟。
+
+### 管理活動清單
+
+| 動作 | 說明 |
+| --- | --- |
+| 展開或摺疊 | 使用同步摘要旁邊的箭頭可顯示或隱藏個別專案。 |
+| 在Finder中顯示/在Explorer中顯示 | 在Adobe Cloud Drive資料夾中找到未刪除的專案。 |
+| 在Workfront中開啟 | 在瀏覽器的Workfront中開啟合格的已完成專案。 此動作不適用於作用中、失敗或刪除的正常同步專案。 |
+| 清除 | 沒有作用中的正常同步專案時可用。 從活動檢視中清除完成的專案，包括失敗的專案。 清除記錄不會刪除本機檔案或雲端內容，也無法解決同步失敗。 |
+| 關閉 | 清除完成的批次後，可能會顯示同步專案摘要。 Select的關閉按鈕可關閉摘要。 |
+
+>[!NOTE]
+>
+>Normal-sync資料列不提供直接上傳使用的每個專案&#x200B;**重試**&#x200B;或&#x200B;**取消**&#x200B;動作。 如需直接上傳的相關資訊，請參閱[將檔案上傳至雲端（直接上傳）](#direct-upload)。
+
+## 在Workfront中開啟專案 {#open-in-workfront}
+
+在Workfront中開啟會將Adobe Cloud Drive中的專案帶往瀏覽器中Workfront中的對應位置。 使用此外掛程式來繼續使用Workfront中的雲端專案，而不需手動搜尋。
+
+### 從「尋找器」或「檔案總管」開啟專案
+
+1. 在Finder (Mac)或檔案總管(Windows)中開啟Adobe Cloud Drive資料夾。
+1. Select與Workfront專案相關聯的單一檔案或資料夾。
+1. 以滑鼠右鍵按一下專案，然後選取&#x200B;**在Workfront中開啟**。
+
+   您的瀏覽器會開啟對應的Workfront位置。 如果出現提示，請以可存取該專案的帳戶登入。
+
+### 從同步活動開啟專案
+
+1. Select功能表列(Mac)或系統匣(Windows)中的Adobe雲端磁碟機圖示。
+1. 展開同步活動區段。
+1. 針對符合條件的已完成且未刪除的專案，請開啟[更多動作]功能表，然後選取[在Workfront中開啟] ****。
+1. 對於透過直接上傳上傳上傳的檔案，在&#x200B;**直接上傳**&#x200B;區段中對其已完成的專案使用相同的動作。
+
+### 關於Workfront中Open的須知事項
+
+* Select一次只能一個專案。 不支援在Workfront中開啟多個選取的專案。
+* 在「檔案總管」中，對於Adobe Cloud Drive資料夾之外的專案以及磁碟機根目錄本身，命令是隱藏的。 選取多個專案時，此功能就會停用。
+* 專案必須有相對應的Workfront位置。 某些資料夾或其他專案可能沒有Workfront對應，即使它們在Adobe Cloud Drive中可見。
+* 尚未完成上傳的新本機專案可能還沒有Workfront連結。 請等候上傳完成，然後再試一次。
+* 在一般同步活動中，此動作僅提供給合格的已完成專案。 未提供作用中、失敗或刪除的專案使用。
+* 在直接上傳中，動作是針對已完成的上傳提供，而非針對已排入佇列、上傳、失敗或已取消的專案。
+* 您必須登入Adobe Cloud Drive。 Workfront可能會要求您另外在瀏覽器中登入，但您的Workfront許可權仍適用。
+* 您需要網際網路連線來擷取未快取的連結，並存取Workfront。 先前解析的連結不會提供對Workfront的離線存取。
+* 此動作會在瀏覽器中開啟Workfront。 它不會在其案頭應用程式中開啟檔案、上傳另一個復本，或變更其本機離線可用性。
+
+### 在Workfront可用性中開啟
+
+| 專案或狀態 | 在Workfront行為中開啟 | 該做什麼 |
+| --- | --- | --- |
+| Adobe Cloud Drive中的單一合格專案 | 開啟對應的Workfront位置。 | Select **在Workfront**&#x200B;中開啟。 |
+| 多個選取的專案 | 不支援開啟多個專案。 檔案總管會停用此指令。 | Select單一專案。 |
+| 新專案仍在上傳 | Workfront連結可能還無法使用。 | 請等候上傳完成，然後再試一次。 |
+| 已完成一般同步處理專案 | 當專案符合資格且尚未刪除時可用。 | 使用專案的更多動作功能表。 |
+| 已完成直接上傳專案 | 上傳完成後可用。 | 使用專案的更多動作功能表。 |
+| 沒有Workfront對應的專案 | 訊息會指出該專案在Workfront中無法使用。 | 直接在Workfront中檢查專案，或選擇其他支援的專案。 |
+| 已刪除normal-sync專案 | 動作無法使用。 | 如果您需要調查已刪除的專案，請直接使用Workfront。 |
 
 ## 登出Adobe Cloud Drive
 
