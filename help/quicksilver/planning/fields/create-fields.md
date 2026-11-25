@@ -32,7 +32,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: fb5bc6f0563c8009b4b4496ffceef621c89c660c
+source-git-commit: f1a19ac5c3f8ca548a1bf203c34118c0bfb30550
 workflow-type: tm+mt
 source-wordcount: '5676'
 ht-degree: 1%
@@ -332,6 +332,10 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 1. 在&#x200B;**新欄位**&#x200B;索引標籤中新增下列資訊：
    * **名稱**：欄位名稱，它將顯示在資料表或記錄的詳細資訊頁面中。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **描述**：有關欄位的額外資訊。 當您將滑鼠懸停在表格中的欄位欄標題上，或當您按一下記錄詳細資訊頁面中欄位名稱旁的資訊圖示時，會顯示欄位說明。
+
+   <!--
+    * <span class="preview">**Make this field's values unique for all records**: Activate this setting if you want the field values for all record of this type to be unique. For example, if this field stores a unique text identifier like Serial code, the code must be unique for each record. If the field is imported in a secondary record space of a global record type, the field restriction applies in the secondary workspace as well. However, the values are restricted only for records that belong to the same workspace. As you create or edit records, any duplicate values are highlighted with a warning. The warning applies for all records, regardless how you create or edit them (manually, through importing them, using  request form, or using the Workfront MCP server). </span>
+    -->
 1. 按一下「**建立**」。
 
    新的單行欄位會新增為記錄型別的欄，其值可以與記錄相關聯。
@@ -514,6 +518,9 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 
    * **名稱**：欄位名稱，它將顯示在資料表或記錄頁面中。
    * **描述**：有關欄位的額外資訊。 當您將滑鼠游標停留在表格中的欄位欄位上，或當您在記錄的詳細資訊頁面中按一下欄位名稱旁的資訊圖示時，會顯示欄位說明。
+   <!--
+    * <span class="preview">**Make this field's values unique for all records**: Activate this setting if you want the field values for all record of this type to be unique. For example, if this field stores a unique number identifier like Serial number, the number must be unique for each record. If the field is imported in a secondary record space of a global record type, the field restriction applies in the secondary workspace as well. However, the values are restricted only for records that belong to the same workspace. As you create or edit records, any duplicate values are highlighted with a warning. The warning applies for all records, regardless how you create or edit them (manually, through importing them, using  request form, or using the Workfront MCP server). </span>
+    -->
    * **精確度**：您要為欄位記錄的小數位數。 您最多可以顯示6個小數位數。
    * **允許負數**：如果您要在此欄位中允許負數，請選取此選項。 預設會取消選取此選項。
 

@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 4%
+source-wordcount: '499'
+ht-degree: 3%
 ---
 # 設定記錄型別的設定區域
 
@@ -219,3 +219,12 @@ Old:
    設定預設為關閉。
 
    如需詳細資訊，請參閱[設定記錄型別的跨工作區功能](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+
+
+## 設定記錄型別的記錄預設許可權
+
+您可以在記錄型別層級設定預設值，以設定記錄型別之所有記錄的記錄許可權。
+
+依預設，所有新記錄都會收到您在記錄型別「設定」區域中設定的許可權。
+
+如需詳細資訊，請參閱[設定記錄的預設許可權](/help/quicksilver/planning/access/set-default-record-permissions.md)。

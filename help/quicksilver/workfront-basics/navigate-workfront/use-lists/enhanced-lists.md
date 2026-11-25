@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 238371e2026eaf216c2b3b554f5fe9d8101263e4
+source-git-commit: 311e830b96b3b2529301f1b8350037928512d411
 workflow-type: tm+mt
-source-wordcount: '3611'
+source-wordcount: '3609'
 ht-degree: 1%
 ---
 # 使用增強型清單
@@ -98,8 +98,15 @@ Adobe Workfront的部分割槽域提供增強型清單。 這些清單使用表�
 | 檔案的所有版本檢視 | 專案>檔案>檔案詳細資訊>所有版本 |
 | 面板管理員檢視 | 面板>管理員檢視 |
 | Adobe雲端儲存空間上的檔案 | 專案，任務，問題，投資組合，方案，範本，範本任務>檔案 |
-| 情境計畫和方案的清單 | 主要功能表>案例 |
+| 案例計畫<!--and initiatives-->的清單 | 主要功能表>案例 |
 | 目標和進度指標清單 | <ul><li>主要功能表>目標</li><li>主要功能表>目標>進度指示器</li></ul> |
+
+
+<!--
+| List of expense types | Setup > Expense Types |
+| List of rate cards | Setup > Rate Cards |
+-->
+
 
 <!--
 
@@ -372,7 +379,7 @@ Last, under Scenario Planner
 
 當您共用一個檢視且您沒有許可權編輯時，您可以複製該檢視並以新名稱儲存它。 您必須先對檢視進行變更，才能進行複製。
 
-1. 在「檢視」下拉式清單中，將滑鼠停留在您修改設定且想要複製的&#x200B;**共用檢視**&#x200B;中的檢視，按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-icon.png)，然後按一下&#x200B;**使用偏好設定複製**。
+1. 在「檢視」下拉式清單中，將滑鼠停留在您修改設定且想要複製的&#x200B;**共用檢視**&#x200B;中的檢視，按一下&#x200B;**更多**&#x200B;功能表![更多](assets/more-icon.png)，然後按一下&#x200B;**使用偏好設定複製** <!--<span class="preview">or **Copy with my changes**</span>-->。
 
    系統會自動建立新檢視。 所複製檢視的名稱遵循下列模式： `Original view name (copy)`它顯示在檢視的&#x200B;**我的檢視**&#x200B;區段中。
 
@@ -380,7 +387,7 @@ Last, under Scenario Planner
 
    >[!NOTE]
    >
-   >**使用偏好設定複製**&#x200B;選項只有在您變更與您共用的檢視時才可用。
+   >**含有偏好設定的Copy** <!--<span class="preview">or **Copy with my changes**</span>-->選項只有在您變更與您共用的檢視時才可用。
 
 ### 重設檢視
 
@@ -456,8 +463,28 @@ Last, under Scenario Planner
 
 1. 按一下清單上方的&#x200B;**篩選器**。
 1. 在[篩選]方塊中，按一下[**新增條件**]。
-1. 選取欄位作為篩選依據。
+1. Select要作為篩選依據的欄位。
 1. 選取篩選修飾元，例如「為任何」、「不為」、「早於」或「晚於」。 修正因子選項會因您篩選的欄位型別而異。
+
+   <!--
+
+   >[!TIP]
+   >
+   >   <span class="preview">When you filter by date, you can apply relative dates to make the filter more flexible. The results update every time the view loads without having to modify the filter. Choose from the following relative dates: </span>
+   >
+   >    <div class="preview">
+   >
+   >   * **Is today**
+   >   * **Is yesterday**
+   >   * **Is tomorrow**
+   >   * **Is this month**
+   >   * **Is last month**
+   >   * **Is next month**
+   >
+   >  </div>
+
+   -->
+
 1. 選取一或多個欄位值。 根據您篩選的欄位型別，系統可能會提示您從清單中選取專案、搜尋專案，或使用日曆來選取日期範圍。
 
    ![在增強型清單中篩選](assets/glist-filter-with-options.png)

@@ -17,14 +17,12 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 12d853c199743583110c988ef2cfbec164d69378
+source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '1961'
 ht-degree: 1%
 ---
 # 設定AI共同作業人員
-
-<span class="preview">本頁醒目提示的資訊指出尚未普遍可用的功能。 它僅適用於所有客戶的預覽環境。</span>
 
 AI共同作業人員是將AI代理程式帶入您的專案、任務和問題的方式。 您可以設定AI共同作業人員，然後將其指派為您想要的使用者。
 
@@ -36,7 +34,7 @@ AI共同作業人員是將AI代理程式帶入您的專案、任務和問題的�
 
   如需詳細資訊，請參閱[開始使用Workfront AI檢閱者](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)。
 
-* 工作代理程式：建立由Adobe CX Coworker </span>提供支援的共同作業人員<span class="preview">，或從支援的外部平台連線代理程式，然後將共同作業人員指派給任務或問題以完成工作專案。
+* 工作代理程式：建立由Adobe CX Coworker提供支援的共同作業人員、使用預先建立的共同作業人員，或從支援的外部平台連線代理程式，然後將共同作業人員指派給任務或問題以完成工作專案。
 
   如需詳細資訊，請參閱[使用工作代理](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md)。
 
@@ -44,9 +42,9 @@ AI共同作業人員是將AI代理程式帶入您的專案、任務和問題的�
 
 AI共同作業人員使用的授權不會收費。 如果您的組織有200個Workfront授權並建立AI Collaborator，接著會使用201個授權，但只需付費200個。
 
-* <span class="preview">專案協調員：現成可用的共同作業人員，可監控專案狀態並傳送專案更新，不需要設定外部代理程式。</span>
+* 專案協調員：開箱即用的共同作業人員，可監控專案狀態並傳送專案更新，而無需設定外部代理程式。
 
-  <span class="preview">如需詳細資訊，請參閱[使用專案協調員共同作業人員](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md)。</span>
+  如需詳細資訊，請參閱[使用專案協調員共同作業人員](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md)。
 
 
 ## 存取權要求
@@ -95,9 +93,9 @@ AI共同作業人員使用的授權不會收費。 如果您的組織有200個Wo
 
 ### 工作代理程式
 
-<span class="preview">先決條件取決於代理程式來源：</span>
+先決條件取決於代理程式的來源：
 
-* <span class="preview">Adobe Native：您的組織必須啟用Adobe CX Coworker。 您不需要在外部平台中設定代理程式或提供外部平台認證。</span>
+* Adobe原生：若要使用CX Enterprise Coworker共同作業人員，您的組織必須啟用Adobe CX Enterprise Coworker。 您不需要在外部平台中設定代理程式或提供外部平台認證。
 * 外部平台或自訂代理程式：在Workfront中建立工作代理程式之前，先設定您計畫連線的平台中的代理程式。
 
 >[!NOTE]
@@ -124,11 +122,9 @@ AI檢閱者可設定為使用Workfront品牌或Adobe Brand Intelligence。
 
 ## 設定工作代理程式
 
-<span class="preview">下列安裝指引反映Adobe原生支援和仍在預覽中的原始設定模型。</span>
-
 工作代理程式是可指派給Workfront中任務或問題的代理程式。 您可使用名稱、存取層級和其他詳細資訊來設定「工作代理程式」，並將其指派給工作，就像指派使用者一樣。
 
-因為工作代理程式是代理程式，其動作和功能會在您設定代理程式的位置進行設定。 工作代理可以是<span class="preview">使用共同背景工作的原生工作代理，</span>，也可以來自支援的外部平台，例如Copilot Studio、Claude、OpenAI和IBM。
+因為工作代理程式是代理程式，其動作和功能會在您設定代理程式的位置進行設定。 工作代理可以是預先建立的工作代理、使用同事的代理，也可以來自受支援的外部平台，例如Copilot Studio、Claude、OpenAI和IBM。
 
 >可以將工作代理指派給任務或問題。
 
@@ -155,12 +151,12 @@ AI檢閱者可設定為使用Workfront品牌或Adobe Brand Intelligence。
    >
    >如果您是群組管理員，此欄位只會顯示您是管理員的群組。 群組管理員必須選取至少一個群組。
 
-1. 在&#x200B;**選擇代理程式來源**&#x200B;區域中，選取您是要<span class="preview">使用Adobe Native</span>、連線在通用平台（例如Copilot）中建立的代理程式，或使用自訂代理程式。
-1. <span class="preview">（條件式）如果您選取Adobe Native，請選取您要使用的共同作業人員： CX Enterprise Coworker共同作業人員或預先建立的AI共同作業人員，例如錄取協調員。 如需有關預先建立的共同作業人員的詳細資訊，包括說明，請參閱[設定預先建立的AI共同作業人員](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md)。</span>
+1. 在&#x200B;**選擇代理程式來源**&#x200B;區域中，選取您要使用Adobe Native、連線在Copilot等通用平台中建立的代理程式，或使用自訂代理程式。
+1. （視條件而定）如果您選取Adobe Native，請選取您要使用的共同作業人員：CX Enterprise Coworker共同作業人員或預先建立的AI共同作業人員，例如Intract Coordinator。 如需有關預先建立的共同作業人員的詳細資訊，包括說明，請參閱[設定預先建立的AI共同作業人員](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-prebuilt-ai-collaborators.md)。
 
    >[!NOTE]
    >
-   ><span class="preview">開啟預先建立的AI Collaborator後，需要大約30秒的時間才能布建。 Collaborator就緒前會顯示旋轉圖示。</span>
+   >開啟預先建立的AI Collaborator後，大約需要30秒來布建。 進度環會一直顯示到共同作業程式就緒為止。
 
 1. （視條件而定）如果您使用來自通用平台的代理程式，請輸入代理程式平台的驗證詳細資訊：
 
@@ -223,8 +219,6 @@ AI檢閱者可設定為使用Workfront品牌或Adobe Brand Intelligence。
 +++
 -->
 
-<div class="preview">
-
 ## 設定專案協調員
 
 專案協調員是開箱即用的共同作業人員，可監控專案狀態並幫助工作按計畫進行。 與「工作代理程式」不同，「專案協調器」不需要您設定外部代理程式。
@@ -260,8 +254,6 @@ AI檢閱者可設定為使用Workfront品牌或Adobe Brand Intelligence。
 如需指示，請參閱[使用配置範本自訂物件標頭](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)。
 
 如需有關專案協調器的詳細資訊，包括如何將其指派給專案，請參閱[使用專案協調器共同作業人員](/help/quicksilver/manage-work/projects/manage-projects/use-project-coordinator.md)。
-
-</div>
 
 ## 管理AI共同作業人員
 
