@@ -21,7 +21,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: c16dc2b8b508f71767999aec7029664f5d31f23f
+source-git-commit: 19e1a78a32429ddba173583bf56af8acc5d72eb0
 workflow-type: tm+mt
 source-wordcount: '3955'
 ht-degree: 1%
@@ -420,7 +420,7 @@ Adobe Cloud Drive支援電腦上安裝的應用程式可開啟的任何檔案型
 
 1. Select功能表列(Mac)或系統匣(Windows)中的Adobe雲端磁碟機圖示。
 1. 展開同步活動區段。
-1. 針對符合條件的已完成且未刪除的專案，請開啟[更多動作]功能表，然後選取[在Workfront中開啟] **&#x200B;**。
+1. 針對符合條件的已完成且未刪除的專案，請開啟[更多動作]功能表，然後選取[在Workfront中開啟] ****。
 1. 對於透過直接上傳上傳上傳的檔案，在&#x200B;**直接上傳**&#x200B;區段中對其已完成的專案使用相同的動作。
 
 ### 關於Workfront中Open的須知事項
@@ -504,3 +504,4 @@ Adobe Cloud Drive使用複製策略來處理衝突：
 >* 與團隊成員溝通誰正在編輯哪些檔案。
 >* 經常儲存，以便立即同步變更。
 >* 完成編輯後關閉檔案。
+

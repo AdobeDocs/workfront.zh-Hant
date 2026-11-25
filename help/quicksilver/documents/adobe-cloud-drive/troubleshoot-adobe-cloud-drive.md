@@ -22,7 +22,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: fca74d916d6b5cf6529da411e4debd7d376fb0a9
+source-git-commit: 19e1a78a32429ddba173583bf56af8acc5d72eb0
 workflow-type: tm+mt
 source-wordcount: '1073'
 ht-degree: 0%
@@ -205,7 +205,7 @@ ht-degree: 0%
 
 如有授權問題、專案存取問題或組織專屬設定，請聯絡您的Workfront管理員。
 
-若要與Adobe支援共用記錄檔，請依照[執行Adobe記錄收集器工具](https://helpx.adobe.com/tw/creative-cloud/apps/troubleshoot/diagnostics-repair-tools/run-log-collector-tool.html)中的步驟操作。
+若要與Adobe支援共用記錄檔，請依照[執行Adobe記錄收集器工具](https://helpx.adobe.com/creative-cloud/apps/troubleshoot/diagnostics-repair-tools/run-log-collector-tool.html)中的步驟操作。
 
 ## 最佳做法
 
@@ -214,3 +214,4 @@ ht-degree: 0%
 * **依照專案的資料夾結構進行。** 依照專案所有者的意圖，組織專案資料夾中的檔案。
 * **使用描述性檔案名稱。** 協助您的團隊成員找到他們需要的內容。
 * **避免建立重複專案。** 請勿複製不必要的檔案。
+

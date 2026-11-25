@@ -22,7 +22,7 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 686609dc5a220316ee2d39fd815d152dda43d03c
+source-git-commit: 19e1a78a32429ddba173583bf56af8acc5d72eb0
 workflow-type: tm+mt
 source-wordcount: '3206'
 ht-degree: 1%
@@ -140,7 +140,7 @@ Adobe Cloud Drive存取需在Adobe Admin Console中設定。 選擇符合轉出�
    >
    >如果Adobe Cloud Drive未出現在&#x200B;**成員**&#x200B;角色的&#x200B;**許可權**&#x200B;之下，則可能尚未為您的組織啟用Adobe Cloud Drive。 聯絡Adobe支援以確認。
 
-1. 如果您做了任何變更，請按一下[儲存]。**&#x200B;**
+1. 如果您做了任何變更，請按一下[儲存]。****
 
 ### 選項B：啟用特定使用者群組的存取權
 
@@ -439,3 +439,4 @@ Adobe Cloud Drive會透過Adobe IMS (Identity Management System)驗證使用者�
 
 1. 在Workfront中，檢查使用者對專案的許可權（**檢視**、**貢獻**&#x200B;或&#x200B;**管理**）。
 1. 更新使用者對&#x200B;**Contribute**&#x200B;或&#x200B;**管理**&#x200B;的許可權（如果他們需要建立或編輯檔案）。
+
