@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 71c1855166c2f950509cc8b7dc63792eabb6de16
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '14768'
+source-wordcount: '14776'
 ht-degree: 2%
 ---
 # Workfront 指南 {#using}
@@ -747,7 +747,7 @@ ht-degree: 2%
       * [管理 API 金鑰](administration-and-setup/manage-workfront/security/manage-api-keys.md)
       * [隱私權原則](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
       * {hide-from-toc}[增強式驗證概觀](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
-      * {hide-from-toc}[使用增強式驗證時更新IDP中的SAML 2.0中繼資料](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
+      * 使用增強式驗證時{hide-from-toc}[更新IDP中的SAML 2.0中繼資料](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
     * 匯率 {#exchange-rates}
       * [匯率](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
       * [設定匯率](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
@@ -863,7 +863,7 @@ ht-degree: 2%
     * [安裝Blueprint後要採取的動作](administration-and-setup/blueprints/best-next-actions-after-install.md)
     * [可用藍圖清單](administration-and-setup/blueprints/list-of-available-blueprints.md)
   * Adobe Admin Console中的管理 {#admin-in-admin-console}
-    * {hide-from-toc}[Adobe Admin Console中的Workfront管理](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
+    * Adobe Admin Console中的{hide-from-toc}[Workfront管理](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
     * {hide-from-toc}[準備Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
     * {hide-from-toc}[瞭解Workfront移轉至Adobe Admin Console](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
   * 管理和設定的秘訣、技巧和疑難排解 {#admin-setup-tips}
@@ -1225,7 +1225,7 @@ ht-degree: 2%
     * [刪除文件](documents/managing-documents/delete-documents.md)
     * [從剪貼簿貼上影像](documents/managing-documents/paste-image-clipboard.md)
     * [大量編輯檔案](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)
-    * {hide-from-toc}[Workfront檔案詳細資訊中的AddBuilder](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
+    * {hide-from-toc}[Workfront檔案詳細資訊](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)中的AddBuilder
   * 組織檔案 {#organize-documents}
     * [組織檔案](documents/organizing-documents/organize-documents.md)
     * [建立檔案資料夾](documents/organizing-documents/create-documents-folder.md)
@@ -1328,7 +1328,7 @@ ht-degree: 2%
       * [將Microsoft專案欄位對應至Adobe Workfront專案](manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md)
       * [重新計算專案時間表](manage-work/projects/manage-projects/recalculate-project-timeline.md)
       * [變更專案狀態](manage-work/projects/manage-projects/change-project-status.md)
-      * [選取專案更新型別](manage-work/projects/manage-projects/select-project-update-type.md)
+      * [Select專案更新型別](manage-work/projects/manage-projects/select-project-update-type.md)
       * [專案需要時間核准](manage-work/projects/manage-projects/require-time-approval-for-projects.md)
       * [管理專案概述區域中的資訊](manage-work/projects/manage-projects/understand-project-overview-area.md)
       * [專案狀態與狀態型別概觀](manage-work/projects/manage-projects/project-condition-and-condition-type.md)
@@ -1866,14 +1866,14 @@ ht-degree: 2%
   * Workfront Data Connect {#data-lake}
     * [Workfront Data Connect概觀](reports-and-dashboards/data-lake/data-lake-overview.md)
     * [建立Snowflake的讀取器帳戶或連線](reports-and-dashboards/data-lake/create-a-reader-account.md)
-    * [建立與Workfront資料連線的連線](reports-and-dashboards/data-lake/share-data-externally.md)
+    * [建立與Workfront Data Connect的連線](reports-and-dashboards/data-lake/share-data-externally.md)
     * [Workfront Data Connect資料字典](reports-and-dashboards/data-lake/data-dictionary.md)
     * {hide-from-toc}[註冊Workfront Data Connect的私人清單](reports-and-dashboards/data-lake/register-a-private-listing.md)
     * {hide-from-toc}[資料字典測試](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
     * [Workfront Data Connect查詢範例](reports-and-dashboards/data-lake/basic-query-examples.md)
-    * [檢視Workfront Data Connect使用度量](reports-and-dashboards/data-lake/view-usage-metrics.md)
-    * [使用Data Connect中的「工作歷程記錄資料」檢視](/help/quicksilver/reports-and-dashboards/data-lake/use-the-job-history-data.md)
-    * [在Data Connect中使用監控資料重新整理檢視](/help/quicksilver/reports-and-dashboards/data-lake/use-the-monitoring-data-refreshes-view.md)
+    * [檢視Workfront Data Connect使用量度](reports-and-dashboards/data-lake/view-usage-metrics.md)
+    * [使用Data Connect中的工作歷史記錄資料檢視](/help/quicksilver/reports-and-dashboards/data-lake/use-the-job-history-data.md)
+    * [使用Data Connect中的監控資料重新整理檢視](/help/quicksilver/reports-and-dashboards/data-lake/use-the-monitoring-data-refreshes-view.md)
     * 增強的Analytics查詢{#enhanced-analytics-queries}
       * [增強的Analytics查詢](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/enhanced-analytics-queries.md)
       * [KPI查詢](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
@@ -2231,7 +2231,7 @@ ht-degree: 2%
   * Adobe Workfront規劃報告 {#adobe-workfront-planning-reporting}
     * [Adobe Workfront Planning報告：文章索引](planning/reporting/reporting-in-planning-article-index.md)
     * [在報表中檢視Workfront規劃資訊](planning/reporting/planning-information-in-reports.md)
-    * {hide-from-toc}[適用於Workfront Planning的Workfront Data Connect](planning/reporting/planning-in-data-connect.md)
+    * 適用於Workfront Planning的{hide-from-toc}[Workfront Data Connect](planning/reporting/planning-in-data-connect.md)
   * Adobe Workfront規劃最佳作法 {#adobe-workfront-planning-best-practices}
     * [Adobe Workfront最佳作法：文章索引](planning/best-practices.md/best-practices-article-index.md)
     * [推出您的策略首頁：30天啟動台](planning/best-practices.md/30-day-launchpad.md)
@@ -2342,6 +2342,7 @@ ht-degree: 2%
     * [以獨立產品形式管理Adobe Workfront Planning中的團隊](planning/planning-sta/manage-teams-in-planning-sta.md)
   * Workfront Planning中的構思空間 {#ideation}
     * [Adobe Workfront Planning的構思空間：文章索引](planning/ideation/planning-ideation-article-index.md)
+    * [Adobe Workfront Planning發行活動的構思空間](planning/ideation/ideation-space-release-notes.md)
     * [開始使用Adobe Workfront Planning的創意空間](planning/ideation/get-started-with-planning-ideation.md)
     * [使用構思空間所需的存取許可權](planning/ideation/access-needed-to-use-ideation-space.md)
     * [在構思空間建立簡報](planning/ideation/create-briefs-in-ideation-space.md)
@@ -2690,10 +2691,10 @@ ht-degree: 2%
     * [使用JWT流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-jwt-flow.md)
     * [使用PKCE流程設定並使用您組織的自訂OAuth 2應用程式](wf-api/api/oauth-app-pkce-flow.md)
     * [棄用API — 內部](wf-api/api/deprecation-api-internal.md)
-    * [&#x200B; API 22版的新增功能](/help/quicksilver/wf-api/api/new-api-version-22.md)
-    * [&#x200B; API 21版的新增功能](/help/quicksilver/wf-api/api/new-api-version-21.md)
-    * [&#x200B; API 20版的新增功能](/help/quicksilver/wf-api/api/new-api-version-20.md)
-    * [&#x200B; API 19版的新增功能](wf-api/api/new-api-version-19.md)
+    * [ API 22](/help/quicksilver/wf-api/api/new-api-version-22.md)版的新增功能
+    * [ API 21](/help/quicksilver/wf-api/api/new-api-version-21.md)版的新增功能
+    * [ API 20](/help/quicksilver/wf-api/api/new-api-version-20.md)版的新增功能
+    * [ API 19](wf-api/api/new-api-version-19.md)版的新增功能
     * [API 18版的新增功能](wf-api/api/new-api-version-18.md)
     * [API 17版的新增功能](wf-api/api/new-api-version-17.md)
     * [API 16版的新增功能](wf-api/api/new-api-version-16.md)

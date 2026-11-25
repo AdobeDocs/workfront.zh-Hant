@@ -29,13 +29,11 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 962b08d0dfbc06a69f82559a10876fdab60167f4
 workflow-type: tm+mt
-source-wordcount: 869
+source-wordcount: '885'
 ht-degree: 2%
-
 ---
-
 # 專案、任務和問題的預計完成日期總覽
 
 <!-- Audited: 11/2025 -->
@@ -93,14 +91,14 @@ ht-degree: 2%
 
 * **任務：**&#x200B;任務的預計完成日期是根據下列條件決定：
 
-   * **工作受指派人對工作所做的進度更新：**&#x200B;進度更新包括完成百分比的變更以及工作狀態的變更。
-   * **認可日期：**&#x200B;如果工作受指派人指定認可日期，預計完成日期會變更以符合認可日期。
+  * **工作受指派人對工作所做的進度更新：**&#x200B;進度更新包括完成百分比的變更以及工作狀態的變更。
+  * **認可日期：**&#x200B;如果工作受指派人指定認可日期，預計完成日期會變更以符合認可日期。 這不會變更問題的規劃完成日期。
 
-     如需認可日期的詳細資訊，請參閱文章[認可日期概觀](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)。
+    如需認可日期的詳細資訊，請參閱文章[認可日期概觀](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)。
 
-   * **前置任務：**&#x200B;如果前置任務沒有延遲，則預計完成日期應該與計畫完成日期相符。 發生延遲時，相依任務顯示的「預計完成日期」會晚於「計畫完成日期」。
+  * **前置任務：**&#x200B;如果前置任務沒有延遲，則預計完成日期應該與計畫完成日期相符。 發生延遲時，相依任務顯示的「預計完成日期」會晚於「計畫完成日期」。
 
-     如需任務計畫完成日期的詳細資訊，請參閱[任務計畫完成日期概觀](../../../manage-work/tasks/task-information/task-planned-completion-date.md)。
+    如需任務計畫完成日期的詳細資訊，請參閱[任務計畫完成日期概觀](../../../manage-work/tasks/task-information/task-planned-completion-date.md)。
 
   >[!IMPORTANT]
   >
@@ -111,7 +109,9 @@ ht-degree: 2%
 
 * **問題：**&#x200B;問題預計完成日期最初設定為與問題計畫完成日期相符。
 
-  如果問題受指派人指定認可日期，則預計完成日期和計畫完成日期都會變更以符合認可日期。
+  如果問題受指派人指定認可日期，預計完成日期將變更以符合認可日期。 這不會變更問題的規劃完成日期。
+
+  <!--Old statement - retired on Nov 25, 2026: If the issue assignee specifies a commit date, both the Projected Completion Date and the Planned Completion Date changes to match the Commit Date. This does not change the Planned Completion Date of the issue.-->
 
   如需認可日期的詳細資訊，請參閱文章[認可日期概觀](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)。
 
@@ -138,10 +138,10 @@ ht-degree: 2%
 若要建立包含預計完成日期的問題報表，請執行下列步驟：
 
 1. 建立問題報告，如文章[建立自訂報告](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)中所述。
-1. 選取&#x200B;**欄（檢視）**&#x200B;標籤。
+1. Select **欄（檢視）**&#x200B;索引標籤。
 1. 按一下&#x200B;**新增欄**，然後開始在&#x200B;**顯示在此欄：**&#x200B;欄位中輸入&#x200B;**預計完成日期**。
 
-1. 當它出現在清單中的&#x200B;**問題**&#x200B;物件下時，請選取它。
+1. 當它出現在清單中的&#x200B;**問題**&#x200B;物件下時，Select它。
 1. 按一下「**儲存並關閉**」。
 
    ![報告欄](assets/issue-projected-completion-date-in-view-nwe-350x148.png)中的問題預計完成日期

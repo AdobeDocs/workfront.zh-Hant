@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 95af5acdd910c0cbafd019dfe9f5397331d7370b
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '2224'
+source-wordcount: '2386'
 ht-degree: 1%
 ---
 
@@ -159,7 +159,7 @@ Or
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/zh-hant/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -179,15 +179,23 @@ Or
 
    * 移至&#x200B;**主功能表** ![主功能表](assets/main-menu-lines.png) >按一下&#x200B;**創意空間**
 
+     **創意空間首頁**&#x200B;區域開啟。
+
      主要功能表中的![創意力空間](assets/ideation-space-area-icon-in-main-menu.png)
 
    * 移至&#x200B;**主功能表** ![主功能表](assets/main-menu-lines.png) > **規劃** >按一下工作區>按一下記錄型別>按一下&#x200B;**新記錄** >按一下&#x200B;**開始創意空間**
+
+     隨即開啟立即連線至新記錄的新畫布。
 
      ![新記錄中的創意力空間](assets/ideation-space-in-planning-new-record.png)
 
    * 移至&#x200B;**主功能表** ![主功能表](assets/main-menu-lines.png) > **規劃** >按一下工作區>按一下記錄型別>按一下現有記錄>按一下&#x200B;**在創意空間開啟**
 
+     與所選記錄連線的畫布隨即開啟。
+
      ![記錄中的創意力空間](assets/ideation-space-button-in-details-page.png)
+
+     如需有關使用創意力空間建立Planning記錄的詳細資訊，請參閱[從創意力空間摘要建立Planning記錄](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)。
 
      >[!IMPORTANT]
      >
@@ -200,24 +208,39 @@ Or
      >* 當您從Workfront的主要功能表啟動摘要時，摘要會包含您上傳至畫布之檔案的欄位和資訊。
 
 1. 閱讀Beta版合約，然後按一下&#x200B;**同意**。 您必須簽署合約才能使用創意力空間。
+1. （視條件而定）如果您從&#x200B;**主要功能表**&#x200B;存取創意力空間，並開啟&#x200B;**創意力空間首頁**&#x200B;區域，請執行下列其中一項操作以開啟創意力畫布：
 
-   創意力空間畫布隨即開啟，新創意力預設會以下列格式命名：
+   * 按一下頁面頂端最近開啟的畫布以開啟
+   * 按一下&#x200B;**啟動新畫布**&#x200B;以開啟新畫布並開始建立構思簡報
 
-   `catalyze-canvas-< number > - Month date, year at time` <!--submitted bug to change the default name to "Untitled ideation"-->
+     創意力空間畫布隨即開啟，新創意力會以下列格式自動加上標題：
 
-   如需有關使用創意力空間建立記錄的詳細資訊，請參閱[從創意力空間簡報建立規劃記錄](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)。
+     `Untitled ideation - Month date, year at time`
 
-1. （視條件而定）若要在Ideation space中開啟現有的簡介，請在已開啟Co-worker的情況下使用Planning登入Workfront，並執行下列任一項作業：
+     ![空的創意畫布具有最小化的簡短和同事](assets/empty-ideation-space-with-brief-minimized.png)
+   * 搜尋&#x200B;**所有畫布**&#x200B;清單右上角的現有畫布，然後當它出現在清單中時按一下它
 
-   * 移至&#x200B;**主功能表** ![主功能表](assets/main-menu-lines.png) > **規劃** >按一下工作區>按一下記錄型別>按一下現有記錄> **在創意空間開啟**
+     ![創意空間主區域](assets/ideation-space-home-area.png)
 
-     創意力名稱符合紀錄的名稱。
+     >[!TIP]
+     >
+     >創意空間首頁區域並非所有畫布都連線至Planning記錄。
+
+1. （選擇性）在&#x200B;**所有畫布**&#x200B;區域中，執行下列任一項作業：
+
+   * 按一下&#x200B;**重新整理** ![重新整理圖示](assets/refresh-icon.png)以更新所有可用畫布的清單。
+   * 按一下&#x200B;**卡片圖示** ![卡片圖示](assets/card-icon.png)，將可用的畫布顯示為卡片。
+   * 按一下&#x200B;**清單圖示** ![清單圖示](assets/list-icon.png)，在清單檢視中顯示可用的畫布。
+1. （選擇性）在開啟的畫布上，按一下畫面左上角區域中的&#x200B;**首頁**&#x200B;圖示![創意空間首頁圖示](assets/ideation-space-home-icon.png)以返回&#x200B;**創意空間首頁**&#x200B;區域。
+
+   >[!TIP]
+   >
+   >創意力空間首頁圖示![創意力空間首頁圖示](assets/ideation-space-home-icon.png)可在任何畫布中使用，即使您從Workfront Planning開啟它亦然。
 
 1. （建議）如果您是第一次開啟構思，請按一下構思名稱來變更名稱。
 
-1. （條件式與選擇性）若要開啟另一個現有的創意力空間，請按一下創意力名稱右側的下拉式功能表，依名稱搜尋，然後按一下顯示在清單中的創意力。
+1. （條件式與選擇性）若要開啟另一個現有畫布，請按一下創意力名稱右側的下拉式功能表，依名稱搜尋，然後按一下顯示在清單中的創意力。
 
-   **創意力空間**&#x200B;隨即開啟，同事在右側開啟。
 1. 使用「同事」提示來說明您要建立的簡報。
 
    例如，輸入「為K-12學生建立返校行銷活動，以在美國進行8月份的活動，對象為美國的家長和教師」。  為了儘可能提供簡報，請儘可能指明可用於哪些行銷活動、時間表、利害關係人、核准查核點和其他詳細資訊的資訊。
@@ -225,7 +248,7 @@ Or
 
    * **命令**：使用清單中的命令提示同事輸入內容。
    * **附加檔案**：將檔案附加至提示方塊，以將檔案或其資訊新增至創意畫布。 您必須要求同事根據檔案建立卡片，以便稍後將卡片傳送至簡報。
-   * **參考物件**：從清單中選取物件，以在您的創意中參考該物件。 物件必須存在於Workfront中。
+   * **參考物件**：從清單中Select物件，以在您的創意中參考它。 物件必須存在於Workfront中。
 
 1. 按一下Enter。
 
@@ -245,7 +268,7 @@ Or
 
 1. （選擇性）按一下Co-worker面板右上角的&#x200B;**聊天**&#x200B;圖示![聊天圖示](assets/chats-icon-coworker.png)，然後按一下&#x200B;**新增聊天**&#x200B;以開啟新的提示，或按一下清單中先前聊天內容之一以返回較舊的聊天。
 
-   如需有關聊天室的詳細資訊，請參閱Adobe CX Enterprise Coworker檔案中的[管理您的聊天室](https://experienceleague.adobe.com/zh-hant/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats)。
+   如需有關聊天室的詳細資訊，請參閱Adobe CX Enterprise Coworker檔案中的[管理您的聊天室](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats)。
 
 1. 按一下「**搜尋**」圖示「![搜尋」圖示](assets/search-icon.png)以搜尋創意力畫布中的專案，然後按一下畫布在清單中顯示時即可導覽至該畫布。
 
@@ -299,7 +322,7 @@ Or
 1. （選擇性）在連線的記錄卡上按一下&#x200B;**更多**&#x200B;功能表![更多功能表](assets/more-menu.png)，然後按一下&#x200B;**在Workfront中檢視**。
 
    記錄的詳細資訊頁面會在Workfront Planning的另一個瀏覽器標籤中開啟。
-1. （選擇性）選取創意力框或卡片，按一下&#x200B;**刪除**&#x200B;圖示，然後按一下&#x200B;**刪除**&#x200B;確認。 此卡片會從「創意空間」畫布中移除。
+1. （選擇性）在創意力框架或卡片上Select，按一下&#x200B;**刪除**&#x200B;圖示，然後按一下&#x200B;**刪除**&#x200B;確認。 此卡片會從「創意空間」畫布中移除。
 
    當您刪除與儲存檔案或記錄相對應的卡片時，專案會從畫布中移除，但會保留在各自的應用程式中。
 
