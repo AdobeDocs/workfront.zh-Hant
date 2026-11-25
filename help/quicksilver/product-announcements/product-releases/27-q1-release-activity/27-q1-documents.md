@@ -4,9 +4,9 @@ description: 2027年第一季度檔案增強功能
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c2ff8f01bd660c91e249394e39820bfb5477b382
+source-git-commit: 86dd87865046a4f2dc75e13feb370e338bbf4c92
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '409'
 ht-degree: 0%
 ---
 
@@ -15,6 +15,27 @@ ht-degree: 0%
 本頁說明了2027年第一季度版本對預覽環境所做的「檔案」增強功能。 如上所述，這些增強功能將於生產環境中提供。
 
 如需2027年第一季發行週期目前可用的所有變更清單，請參閱[2027年第一季發行概觀](/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-release-overview.md)。
+
+## Adobe Cloud Drive v1.2.0中的新功能
+
+>[!NOTE]
+>
+>預覽： 2026年11月25日
+>生產快速發行： 2026年11月25日
+>適用於所有人的生產： 2026年11月25日
+>[!BADGE 同時發行]{type=Neutral}
+>[!BADGE 工作流程Ultimate]{type=Informative}
+
+Adobe Cloud Drive v1.2.0推出可上傳檔案、管理同步處理及使用雲端內容的新方式：
+
+* **上傳至雲端（直接上傳）：**&#x200B;在Finder或檔案總管中的檔案上按一下滑鼠右鍵，直接上傳至Adobe雲端儲存空間中的專案，無需先將檔案複製到Adobe雲端磁碟機資料夾。 在同步活動的「直接上傳」區段中監視進度。
+* **暫停並繼續同步處理：**&#x200B;在慢速或按流量計費的連線上暫停Adobe雲端磁碟機，然後在您準備就緒後繼續。
+* **版本記錄：**&#x200B;瀏覽檔案的雲端儲存版本、編輯版本名稱和說明，並還原成較舊的版本。
+* **管理本機存放裝置：**&#x200B;監視本機磁碟使用量、設定存放裝置限制，以及檢視此裝置上標示為[一律執行]的檔案。
+* **同步活動：**&#x200B;檢閱最近的上傳、下載和變更，並識別無法同步的專案。
+* **在Workfront中開啟：**&#x200B;直接從Finder、檔案總管或同步活動開啟專案的Workfront位置。
+
+如需詳細資訊，請參閱[使用Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/use-adobe-cloud-drive.md)和[疑難排解Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md)。
 
 <!--
 

@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
+source-git-commit: fa8f434c22cccb4d6a9bed2318f0553c6defb812
 workflow-type: tm+mt
-source-wordcount: '1718'
+source-wordcount: '1766'
 ht-degree: 2%
 ---
 
@@ -191,6 +191,17 @@ ht-degree: 2%
             <td><strong>預覽</strong></td>
             <td><strong>快速發行</strong></td>
             <td><strong>每季</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <p><a href="/help/quicksilver/product-announcements/product-releases/27-q1-release-activity/27-q1-documents.md">Adobe Cloud Drive v1.2.0中的新功能</a></p>
+                <p>[!BADGE 同時發行]{type=Neutral}</p>
+                <p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>Adobe Cloud Drive v1.2.0匯入Direct Upload、暫停並繼續同步、版本記錄、本機儲存空間管理、同步活動以及Workfront中的開啟。</p>
+            </td>
+            <td><p>2026年11月25日</p></td>
+            <td><p>2026年11月25日</p></td>
+            <td><p>2026年11月25日</p></td>
         </tr>
 <!--
         <tr>
