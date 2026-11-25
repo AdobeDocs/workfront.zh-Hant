@@ -6,10 +6,10 @@ description: 身為Adobe Workfront管理員，您可以從Adobe將預先建立�
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: ee344fe88ba7e4fb78a6d80ccbfe5cfa1ecbec47
+source-git-commit: c95c5a71a2706d4ddbf3e53a579b348bd072a04e
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 5%
+source-wordcount: '377'
+ht-degree: 4%
 ---
 # 設定預先建立的AI共同作業人員
 
@@ -31,15 +31,15 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] 封裝</td> 
-   <td><p>選取、Prime或Ultimate</p></td> 
+   <td><p>Select、Prime或Ultimate</p></td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] 授權</td> 
-   <td><p>[!UICONTROL 標準]</p></td> 
+   <td><p>[！UICONTROL標準]</p></td> 
   </tr> 
   <tr> 
    <td>存取層級設定</td> 
-   <td>[!UICONTROL 系統管理員]或群組管理員</td> 
+   <td>[！UICONTROL系統管理員]或群組管理員</td> 
   </tr> 
   </tbody> 
 </table>
@@ -71,6 +71,10 @@ ht-degree: 5%
 ### 輸入協調器 {#intake-coordinator}
 
 Intract Coordinator會檢查要求的詳細資料、自訂表單及附件，以找出遺失、不清楚或不一致的資訊。 它會發佈意見回饋，或在使用者核准後進行變更。
+
+>[!NOTE]
+>
+>建立規則時，您可以將「匯入協調器」指派給路由規則，但稍後無法再指派。
 
 <!--
 ### Context Carrier {#context-carrier}
