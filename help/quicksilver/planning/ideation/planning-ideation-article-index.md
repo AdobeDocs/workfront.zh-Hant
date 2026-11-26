@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8a97de33f637a5367cfdfbe5eb1cbd5512021856
+source-git-commit: 962b08d0dfbc06a69f82559a10876fdab60167f4
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '328'
 ht-degree: 0%
 ---
 
@@ -62,6 +62,7 @@ Adobe Workfront規劃現在提供另一項功能，可在您啟動行銷活動�
 下列文章包含有關創意力空間的資訊，並會提供其功能的指南：
 
 * 從這裡開始，以大致瞭解Workfront中的構思空間：[開始使用Adobe Workfront Planning的構思空間](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md)
+* 創意力空間目前的功能發行： [Adobe Workfront Planning發行活動的創意力空間](/help/quicksilver/planning/ideation/ideation-space-release-notes.md)
 * 作為系統管理員，請確定您瞭解如何讓您的組織可以使用創意力空間： [使用創意力空間所需的存取許可權](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md)
 * 當您準備好建立您的第一個行銷活動策略時，瞭解如何使用創意力空間建立簡報： [在創意力空間建立簡報](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)
 * 如果您使用Workfront Planning，瞭解如何使用創意空間建立記錄： [從創意空間摘要建立或編輯Planning記錄](/help/quicksilver/planning/ideation/create-records-in-ideation-space-for-planning.md)

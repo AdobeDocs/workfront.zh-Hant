@@ -24,13 +24,11 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: 422
+source-wordcount: '438'
 ht-degree: 1%
-
 ---
-
 # 認可日期與計畫完成日期之間的互動
 
 <!--
@@ -73,7 +71,8 @@ this article has mostly information that is repeated from the articles linked fr
 >
 >只有受指派人可以更新任務或問題的認可日期。
 
-受指派人變更「認可日期」不會自動變更「規劃完成日期」。 反之亦然：變更規劃完成日期不會變更認可日期。
+
+變更認可日期的任務或問題受指派人不會自動變更規劃完成日期。 反之亦然：變更規劃完成日期不會變更認可日期。 受分派者更新「認可日期」時，「預計完成日期」也會變更。
 
 當認可日期變更時，專案所有者會透過Workfront應用程式內通知得知此變更已發生。
 

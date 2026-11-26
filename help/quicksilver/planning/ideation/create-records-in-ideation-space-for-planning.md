@@ -11,9 +11,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 11d5c57468270943e5b8a9fecf3b65af507e2c75
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1212'
 ht-degree: 0%
 ---
 
@@ -200,6 +200,11 @@ Or
 
    ![具有開啟創意空間按鈕的新記錄方塊](assets/new-record-creation-picker-with-ideation.png)
 
+   >[!TIP]
+   >
+   >您也可以存取創意力空間，以從Workfront主功能表建立記錄。 如需詳細資訊，請參閱[在創意力空間建立簡介](/help/quicksilver/planning/ideation/create-briefs-in-ideation-space.md)。
+
+
 1. 閱讀Beta版合約，然後按一下&#x200B;**同意**。 您必須簽署合約才能使用創意力空間。
 
    會發生下列情況：
@@ -216,6 +221,7 @@ Or
     1. (Optional) Click the **Open previous canvases** icon ![Open existing briefs icon](assets/open-existing-briefs-icon.png) in the upper-right corner of the prompt box, to open existing briefs
     -->
 
+1. （選擇性）按一下畫布左上角的&#x200B;**首頁**&#x200B;圖示![創意空間首頁圖示](assets/ideation-space-home-icon.png)以開啟&#x200B;**創意空間首頁**&#x200B;區域並存取另一個畫布。
 1. （選擇性）將游標停留在Ideation space畫布右上角的&#x200B;**Workfront Planning**&#x200B;標籤上，即可檢視記錄型別的名稱、您正在建立記錄的工作區，以及您正在建立之簡介的版本號碼。
 
    ![畫布中的Workfront Planning工作區和記錄型別資訊標籤](assets/workfront-planning-with-ercord-type-and-workspace-name-tag-inside-canvas.png)

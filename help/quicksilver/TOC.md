@@ -3,9 +3,9 @@ user-guide-title: Workfront 指南
 user-guide-description: 使用文件、教學課程和其他資源，了解如何在您的組織中實作並有效使用 Adobe Workfront。
 role: User
 feature-set: Workfront
-source-git-commit: 71c1855166c2f950509cc8b7dc63792eabb6de16
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '14768'
+source-wordcount: '14776'
 ht-degree: 2%
 ---
 # Workfront 指南 {#using}
@@ -1328,7 +1328,7 @@ ht-degree: 2%
       * [將Microsoft專案欄位對應至Adobe Workfront專案](manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md)
       * [重新計算專案時間表](manage-work/projects/manage-projects/recalculate-project-timeline.md)
       * [變更專案狀態](manage-work/projects/manage-projects/change-project-status.md)
-      * [選取專案更新型別](manage-work/projects/manage-projects/select-project-update-type.md)
+      * [Select專案更新型別](manage-work/projects/manage-projects/select-project-update-type.md)
       * [專案需要時間核准](manage-work/projects/manage-projects/require-time-approval-for-projects.md)
       * [管理專案概述區域中的資訊](manage-work/projects/manage-projects/understand-project-overview-area.md)
       * [專案狀態與狀態型別概觀](manage-work/projects/manage-projects/project-condition-and-condition-type.md)
@@ -1866,14 +1866,14 @@ ht-degree: 2%
   * Workfront Data Connect {#data-lake}
     * [Workfront Data Connect概觀](reports-and-dashboards/data-lake/data-lake-overview.md)
     * [建立Snowflake的讀取器帳戶或連線](reports-and-dashboards/data-lake/create-a-reader-account.md)
-    * [建立與Workfront資料連線的連線](reports-and-dashboards/data-lake/share-data-externally.md)
+    * [建立與Workfront Data Connect的連線](reports-and-dashboards/data-lake/share-data-externally.md)
     * [Workfront Data Connect資料字典](reports-and-dashboards/data-lake/data-dictionary.md)
     * {hide-from-toc}[註冊Workfront Data Connect的私人清單](reports-and-dashboards/data-lake/register-a-private-listing.md)
     * {hide-from-toc}[資料字典測試](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
     * [Workfront Data Connect查詢範例](reports-and-dashboards/data-lake/basic-query-examples.md)
-    * [檢視Workfront Data Connect使用度量](reports-and-dashboards/data-lake/view-usage-metrics.md)
-    * [使用Data Connect中的「工作歷程記錄資料」檢視](/help/quicksilver/reports-and-dashboards/data-lake/use-the-job-history-data.md)
-    * [在Data Connect中使用監控資料重新整理檢視](/help/quicksilver/reports-and-dashboards/data-lake/use-the-monitoring-data-refreshes-view.md)
+    * [檢視Workfront Data Connect使用量度](reports-and-dashboards/data-lake/view-usage-metrics.md)
+    * [使用Data Connect中的工作歷史記錄資料檢視](/help/quicksilver/reports-and-dashboards/data-lake/use-the-job-history-data.md)
+    * [使用Data Connect中的監控資料重新整理檢視](/help/quicksilver/reports-and-dashboards/data-lake/use-the-monitoring-data-refreshes-view.md)
     * 增強的Analytics查詢{#enhanced-analytics-queries}
       * [增強的Analytics查詢](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/enhanced-analytics-queries.md)
       * [KPI查詢](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
@@ -2342,6 +2342,7 @@ ht-degree: 2%
     * [以獨立產品形式管理Adobe Workfront Planning中的團隊](planning/planning-sta/manage-teams-in-planning-sta.md)
   * Workfront Planning中的構思空間 {#ideation}
     * [Adobe Workfront Planning的構思空間：文章索引](planning/ideation/planning-ideation-article-index.md)
+    * [Adobe Workfront Planning發行活動的構思空間](planning/ideation/ideation-space-release-notes.md)
     * [開始使用Adobe Workfront Planning的創意空間](planning/ideation/get-started-with-planning-ideation.md)
     * [使用構思空間所需的存取許可權](planning/ideation/access-needed-to-use-ideation-space.md)
     * [在構思空間建立簡報](planning/ideation/create-briefs-in-ideation-space.md)

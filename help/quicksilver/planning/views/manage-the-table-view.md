@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: fb5bc6f0563c8009b4b4496ffceef621c89c660c
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '4357'
+source-wordcount: '4376'
 ht-degree: 2%
 ---
 # 管理表格檢視
@@ -328,7 +328,7 @@ Old:
 
 1. （視條件而定）根據您檢視的欄位型別，執行下列任一項作業；
 
-   * 若是數字、貨幣、百分比和公式欄位格式化為下列任何欄位型別，請展開欄底部的彙總器下拉式功能表，然後從下列選項中選取：
+   * 若是數字、貨幣、百分比和公式欄位格式化為下列任何欄位型別，請展開欄<!--<span class="preview">or at the bottom of a grouping</span>-->底部的彙總器下拉式功能表，然後從下列選項中選取：
 
      * **SUM**：顯示欄中所有儲存格的總計。
      * **MIN**：顯示欄中所有儲存格的最低值。
@@ -362,6 +362,7 @@ Old:
      * 上次修改者
      * 記錄 ID
    * 公式欄位和查詢欄位具有與其欄位格式相對應的彙總。
+   * 彙總器會在計算熒幕上載入的所有記錄（而非所有可用的記錄）時顯示結果。
 
 
 
@@ -413,7 +414,7 @@ FROM LISA: This is the old section. I commented it out vs deleting.
    >![表格檢視中的新註解圖示](assets/new-comment-icon-in-table-view-highlighted.png)
 
 
-1. （選擇性）選取一或多個記錄或列，然後將&#x200B;**控制代碼**&#x200B;圖示![控制代碼圖示](assets/handle-icon.png)拖放到記錄左側，以重新排序列。
+1. （選擇性） Select一或多個記錄或列，然後將&#x200B;**控制代碼**&#x200B;圖示![控制代碼圖示](assets/handle-icon.png)拖放到記錄左側，以重新排序列。
 
    >[!NOTE]
    >
@@ -462,12 +463,12 @@ FROM LISA: This is the old section. I commented it out vs deleting.
 若要將篩選器新增至表格檢視：
 
 1. 建立記錄型別頁面的資料表檢視，如文章[管理記錄檢視](/help/quicksilver/planning/views/manage-record-views.md)中所述。
-1. 選取表格檢視，然後按一下表格右上角的&#x200B;**篩選器**。
+1. Select表格檢視，然後按一下表格右上角的&#x200B;**篩選器**。
 1. 按一下&#x200B;**新增條件**&#x200B;並新增下列資訊：
 
    * 搜尋欄位，並在欄位顯示在清單中時選取它。
 
-   * **選取選項** （或篩選修飾元）以定義欄位必須符合何種條件
+   * **Select一個選項** （或篩選修飾元），用來定義欄位必須符合何種條件
 
      下表顯示每種欄位型別的可用修飾元。
 
@@ -533,7 +534,7 @@ FROM LISA: This is the old section. I commented it out vs deleting.
         </tbody>
         </table>
 
-   * 選取所選欄位的值。
+   * Select所選欄位的值。
 
    ![篩選器UI資料表檢視](assets/filter-ui-table-view.png)
 

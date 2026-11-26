@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 82ebe4df89bd9db39629b36c31c0ae2a4e133838
+source-git-commit: f826fcc29be7293fe13b40d8e55e2d412341b615
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '1017'
 ht-degree: 1%
 ---
 
@@ -159,6 +159,9 @@ Your organization must purchase a package for the following products to access t
     >
     >如需詳細資訊，請參閱[建立和修改自訂存取層級](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)。
 
+* 接受Beta合約
+
+  這是Beta版計畫的必要條件。 您不得在未同意Beta版計畫條款的情況下使用創意空間。 接受合約時，您這麼做是為了您的使用者，而非組織。 每個使用者都必須個別接受合約。
 
 
 ## 授權需求
